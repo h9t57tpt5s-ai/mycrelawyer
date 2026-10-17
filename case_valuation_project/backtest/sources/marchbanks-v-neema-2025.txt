@@ -1,0 +1,519 @@
+[Cite as Marchbanks v. Neema, L.L.C., 2025-Ohio-777.] 
+ 
+ 
+ 
+ 
+IN THE COURT OF APPEALS OF OHIO 
+SIXTH APPELLATE DISTRICT 
+ERIE COUNTY 
+ 
+Jack Marchbanks, Director, 
+ 
+Court of Appeals No.  E-24-010 
+Ohio Department of Transportation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Trial Court No.  2022 CV 0397 
+Appellant 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                    
+v. 
+ 
+ 
+ 
+ 
+Neema, LLC, et al. 
+ 
+ 
+ 
+DECISION AND JUDGMENT  
+ 
+Appellees 
+ 
+ 
+ 
+Decided:  March 7, 2025 
+ 
+* * * * * 
+ 
+ 
+Dave Yost, Ohio Attorney General, and 
+ 
+William J. Cole and Kaia L. Jackson, Assistant 
+ 
+Attorneys General, for appellant. 
+ 
+ 
+Rachelle Kuznicki Zidar, Malorie A. Alverson, 
+ 
+and Michael R. Nakon, for appellee. 
+ 
+* * * * * 
+ 
+SULEK, P.J. 
+{¶ 1} In this appropriation action, appellant, Jack Marchbanks, Director, Ohio 
+Department of Transportation (“ODOT”), appeals the February 6, 2024 judgment of the 
+Erie County Court of Common Pleas, following a jury verdict compensating Neema, 
+LLC (“Neema”) a total of $452,020, for property loss and damage.  Because the trial 
+court did not err in denying ODOT’s motion in limine, the judgment is affirmed. 
+
+ 
+2. 
+ 
+I. Facts and Procedural History 
+{¶ 2} This appropriation action stems from an ODOT project to convert the 
+intersection of State Routes 4 (Hayes Avenue) and 99 (Skadden Road) in Erie County, 
+Ohio, from a two-way stop to a single lane roundabout.  Neema owns two parcels of 
+property abutting the routes to the west and east and totaling 8.9 acres.  A Marathon gas 
+station and convenience store operates on the northern, 3.0459-acre triangular parcel. The 
+southern, 5.8047-acre parcel is vacant.  Prior to the roundabout’s construction, store 
+patrons had five access points, two on S.R. 4 (drives 1 and 2), and three on S.R. 99 
+(drives 3, 4, and 5).   Following construction, the two access points on S.R. 4 and only the 
+southernmost access point, drive 5, on S.R. 99 remained. 
+{¶ 3} On September 16, 2022, ODOT filed an appropriation action in the Erie 
+County Court of Common Pleas and deposited $47,475 with the clerk of courts which 
+represented the total sum it believed would compensate Neema as a result of the 
+appropriation.  The action involved permanent and temporary easements and the taking 
+of approximately two-tenths of an acre of land.  Neema answered the complaint noting its 
+refusal to accept ODOT’s offer. 
+{¶ 4} Following discovery, which included the deposition of Neema’s expert 
+appraiser Dwight Kumler, ODOT filed a motion in limine requesting that the trial court 
+prohibit Neema from presenting any evidence at trial regarding its expert’s appraisal or 
+owner’s opinion of value.  ODOT argued that the expert improperly valued the two 
+parcels separately when he should have applied the “unit rule,” which requires appraising 
+
+ 
+3. 
+ 
+the entire tract as a whole.  ODOT also claimed that Neema’s expert improperly valued 
+the impact of the removal of the stop signs as a component of the damages to the residue.  
+Finally, ODOT stated that the court should bar the owner’s opinion testimony because it 
+was based on the expert’s improper appraisal.  The court summarily denied the motion. 
+{¶ 5} The jury trial in the matter commenced on January 16, 2024.  Consistent 
+with its motion in limine, ODOT requested the opportunity to voir dire Neema’s expert 
+outside the jury’s presence regarding his valuation process, including the valuation of the 
+removed stop signs.  Neema countered that ODOT was not entitled to a second 
+opportunity to argue its motion in limine which had already been briefed and rejected by 
+the court.  Neema further argued the stop sign removal was a “non-issue” and would not 
+be raised directly during the expert’s testimony.   
+{¶ 6} ODOT responded that despite Neema’s argument it would not present 
+testimony regarding damages from the removal of the stop signs, the value assigned to 
+the property during the expert’s deposition remained unchanged.  Neema again insisted 
+that it was a non-issue because the expert did not attribute one dollar in compensation for 
+the removal of the stop signs.  The court denied ODOT’s request. 
+{¶ 7} Neema’s representative, Sunny Patel, testified that he has operated a gas 
+station on the northern parcel of Neema’s property since 2019.  He explained that the 
+property was ideally located between the turnpike and Cedar Point with high traffic 
+volume in the summer.  Prior to the taking, patrons could access the store’s parking lot 
+from either S.R. 4 or S.R. 99. 
+
+ 
+4. 
+ 
+{¶ 8} Patel testified that Neema made several improvements to the property, 
+including connecting to the local water lines, installing indoor restrooms, reconfiguring 
+the interior of the store, and installing EV charging stations.  Patel stated that the 
+improvements totaled over $600,000. 
+{¶ 9} Patel asserted that drives 1 through 4 were generally utilized by passenger 
+vehicles. He testified that prior to the taking, store patrons had direct access to the gas 
+canopy, which included four gas pumps, by drives 3 and 4 off S.R. 99.   
+{¶ 10} The gas station has a diesel canopy located at the back of the northern 
+parcel.  Patel stated that semi-trucks and larger vehicles generally accessed these fuel 
+pumps by using drive 5.  He maintained that passenger vehicles generally avoided drive 5 
+because they had to traverse the unpaved, bumpy, and unlit portion of the lot.  Passenger 
+vehicles would also have to navigate approximately 6 to 7 tractor-trailers frequently 
+parked in the area.  Three short video clips of the gas station depicting the flow of truck 
+traffic, including numerous parked trucks, were played for the jury. 
+{¶ 11} The appropriation caused drive 5 to be relocated further south onto the 
+southern parcel.  Patel testified that Neema put down asphalt shavings to improve the 
+drive’s condition but that it continually deteriorates due to truck traffic and weather. 
+{¶ 12} Before the appropriation, fuel trucks entered the property from drives 4 or 5 
+and exited through drive 3.  According to Patel, fuel deliveries are now more difficult 
+because the trucks had to enter and exit through drive 5. 
+
+ 
+5. 
+ 
+{¶ 13} Patel testified regarding the general impact the reconfiguration had on the 
+flow of traffic on the property.  He stated that S.R. 99 now lacks a clear entrance to the 
+gas station and that the truck parking in the area adds to the congestion.  Patel testified 
+that patrons going south on S.R. 4 generally do not turn into drive 2 (the drive closest to 
+the roundabout) for fear of backing up traffic.  He stated that there is also a double yellow 
+line and it is unclear whether you can legally turn left onto the property.   
+{¶ 14} Patrons often pass drive 2 and enter drive 1, on the western side of the 
+property.  Patel testified that the EV chargers are located on that side of the property and 
+that due to the congestion, they disconnected the south charger over fear that either it or 
+the nearby propane tank could get hit. 
+{¶ 15} Patel asserted that the northern parcel can no longer be considered a corner 
+parcel because it has no ingress or egress on S.R. 99, which he contends decreased its 
+salability.  
+{¶ 16} Patel testified that the State offered $47,000 in compensation for the 
+appropriation.  He rejected the offer because the cost of work needed to improve the 
+interior mobility of the property far exceeded the offer.  Patel said that the sum offered 
+barely covered moving the gas station sign. 
+{¶ 17} Patel stated that ODOT’s temporary easements included drives 2 and 5.  
+Drive 2 was closed for the month of August, peak tourist time, while they connected the 
+roundabout.  Patel noticed a dramatic decrease in customers. 
+
+ 
+6. 
+ 
+{¶ 18} Neema’s counsel asked Patel what he believed the value of both parcels 
+was before and after the appropriation.  ODOT objected, arguing that Patel’s deposition 
+testimony evidenced that he had no independent valuation and that the answer would rely 
+on the valuation of the appraiser; thus, at minimum, the testimony is cumulative.  The 
+court overruled the objection.  Patel testified that before the construction, he valued the 
+property at 1.5 million.  He believed that the property decreased approximately $500,000 
+in value after the construction.  Patel agreed that his and the appraiser’s valuations were 
+consistent.   
+{¶ 19} On cross-examination, Patel acknowledged that after the appropriation, 
+patrons still had access to the station from S.R. 4, using drives 1 and 2, and S.R. 99, but 
+only through the dirt road on drive 5. 
+{¶ 20} Neema’s appraiser, Dwight Kumler, testified, over a continuing objection, 
+that Neema hired him to prepare a market value appraisal of the property.  Kumler’s July 
+3, 2023 report details the history of the property, including the gas station operating on 
+the northern parcel, and the improvements made to the property. 
+{¶ 21} Kumler testified that he valued the entire property, assigning separate 
+values to the northern and southern parcels.  Prior to the taking, the parcels totaled 8.8866 
+acres, after the taking, 8.6419 acres.   Although ODOT took only a small physical amount 
+of property, Kumler stated that the residual property sustained significant damage.  He 
+attributed the main source of the damage to the removal of drives 3 and 4 off of S.R. 99.  
+He stated: 
+
+ 
+7. 
+ 
+[T]he proposed taking by ODOT will result in two curb cuts being removed 
+along the west side of State Route 99 and thus reduce the subject’s 
+functional utility from that of a typical corner parcel to that of a less 
+desirable interior parcel.  It will also inhibit the free flow of vehicles about 
+the site. 
+ 
+Kumler explained that inhibited traffic flow results from the reduction to one access point 
+on S.R. 99, roughly 300 feet from the building and previously the least used route by 
+passenger vehicles. 
+{¶ 22} Kumler valued the pre-taking property at $1,518,000.  Using the sales 
+comparison valuation approach, he separately valued the northern parcel at $1,050,000.  
+Kumler explained that reviewing similar sales is the most useful approach in valuing 
+older properties.  The computation represents a per pump valuation of $175,000, which 
+Kumler arrived at by reviewing comparable, recent gas station sales.  Finding comparable 
+sales, Kumler looked at whether the stations were located on interior corner parcels, the 
+age of the improvements, number of gas pumps, and overall location.  Kumler stated that 
+corner parcels had higher values ranging from 22 to 37 percent. 
+{¶ 23} Kumler used the same sales comparison approach when valuing the vacant 
+southern parcel.  The sales ranged from $52,000 to $91,000 per acre.  He testified that the 
+pre-taking value was $80,000 per acre, or $468,000.  After the taking, Kumler’s appraisal 
+was $464,000 which represented the reduction in actual acreage. 
+{¶ 24} Kumler used the income approach in valuing the loss from the temporary 
+easements.  He considered the nuisance of the construction itself including storage of 
+construction vehicles and materials and concluded that $66,000 was fair compensation.  
+
+ 
+8. 
+ 
+Kumler concluded that $40,000 would compensate Neema for the removal and 
+replacement of the gas station sign. 
+{¶ 25} During cross-examination, ODOT questioned Kumler regarding his prior 
+deposition testimony.  Kumler acknowledged that the operation of a gas station and 
+convenience store is the property’s highest and best use.  Kumler agreed that he 
+conducted an initial appraisal of the property in August 2022, and that his final report is 
+dated July 2023.  Kumler also agreed that the appraisal numbers were unchanged. 
+{¶ 26} Kumler agreed that the property has access on S.R. 4 and that it still has 
+access on S.R. 99, though reduced from three access points to one.  Kumler 
+acknowledged that the property still functions as a gas station and convenience store. 
+{¶ 27} ODOT then presented the expert testimony of Gina Balsamo, a traffic 
+engineer, who conducted a site circulation analysis within the property.  Her staff visited 
+the site, reviewed videos provided by ODOT, and used an “industry standard” software 
+known as AutoTURN to simulate ingress and egress to the property, travel to the fuel 
+pumps and convenience store, and the charging stations both before and after 
+construction.  
+{¶ 28} Balsamo reviewed several AutoTURN program photos for the jury.  She 
+concluded that passenger vehicle traffic could continue to access the fuel pumps, the 
+store, and the EV charging stations using the remaining drives.  Patrons were also able to 
+use the drives to exit the property.  Balsamo testified that trucks, both fuel delivery and 
+those filling up with diesel fuel, had sufficient room to maneuver around the property 
+
+ 
+9. 
+ 
+including ingress and egress.  Balsamo ultimately concluded that the closure of the two 
+drives on S.R. 99 would not adversely impact the site because vehicles could “still come 
+onto site from all the different directions and leave the site from all the different 
+directions as they could before.” 
+{¶ 29} Neema cross-examined Balsamo about her opportunity to personally 
+observe the “post take” traffic flow.  In addition to the hour video, Balsamo stated that 
+she drove past the site on the way to court that morning.  She reiterated that the 
+AutoTURN simulator showed the taking had no adverse effect on the site.  Balsamo 
+admitted that the simulation ran one vehicle at a time and maneuvered around permanent 
+structures, not parked vehicles.  She agreed that the program failed to consider truck 
+congestion.  It also failed to consider the unpaved condition of drive 5, specifically the 
+potholes.  Balsamo stated that drivers watch for such hazards and would be able to avoid 
+them. 
+{¶ 30} Another ODOT expert, licensed real estate appraiser Sean Farmer, 
+conducted two formal visits and inspections of Neema’s property resulting in two 
+appraisals.  His initial January 2022 appraisal set the appropriation damages at $47,400.  
+Farmer conducted a second appraisal for litigation purposes that he issued in June 2023. 
+{¶ 31} Farmer stated that he valued the property to determine its highest and best 
+use.  He explained that the term highest and best use is the “reasonably probable use of 
+property that results in the highest value.”  Farmer determined that Neema’s current use 
+of the property was its highest and best use. 
+
+ 
+10. 
+ 
+{¶ 32} Finding it appropriate under the circumstances, Farmer testified that he 
+valued both parcels as one and used all three valuation approaches— the cost approach, 
+sales comparison approach, and the income approach— to determine the fair market 
+value of the property before and after the taking.  Farmer stated that he did so as a check 
+to aid in ensuring the appraisal’s accuracy.  Farmer then explained the comparables he 
+used in under each approach.     
+{¶ 33} Using the cost approach, Famer set the pre-taking value of the property at 
+$1,154,090.  The sales comparison approach yielded a $1,062,500 value for the property.  
+Finally, the income approach set the value at $1,069,315.  Famer then determined that the 
+most accurate was the sales comparison approach – and set the pre-taking value of the 
+property at $1,065,000. 
+{¶ 34} In determining the post-taking value, Farmer factored in the easements, the 
+loss of land, and the loss of the two drives.  He reviewed and included Balsamo’s site 
+circulation study in his report.  Farmer stated that the permanent easements along S.R. 99 
+did not impact the property’s functionality and caused no damage to the residue.  
+Likewise, Farmer concluded that the 18-month temporary easements, impacting 
+approximately .0422 acres, did not decrease the value of the residue.     
+ 
+{¶ 35} Farmer testified that he attributed no loss of value to the residue following 
+the removal of drives 3 and 4.  He felt that the closure had no long-term impact on the 
+fair market value of the property.  Farmer saw no compensable, adverse impact to 
+internal circuity.  Farmer acknowledged Neema’s entitlement to approximately $30,000 
+
+ 
+11. 
+ 
+in compensation for the removal, relocation, and replacement of the Marathon sign.  
+Farmer also assigned a $3,600 “cost to cure,” or damages mitigation sum.  In other 
+words, Neema would receive compensation for the value of a new sign, not the 
+depreciated value of the removed sign. 
+{¶ 36} After the taking, using the cost approach Farmer valued the entire property 
+at $1,056,780.  With the sales comparison approach he set the value at $1,020,000.  
+Under the income approach Farmer valued the property at $996,260.  Farmer assigned 
+$1,018,910 as the final post-taking value of the property. 
+{¶ 37} Farmer stated that he valued the temporary easements at $260 after setting 
+the per acre value at $40,000 and comparing the area of the takings with the 18-month 
+duration.  He set the total amount of compensation for the takings at $46,090; $9,790 for 
+the permanent easement and $36,300 for the sign replacement. 
+{¶ 38} On cross-examination, Farmer acknowledged that he conducted over one 
+thousand appraisals in appropriation cases though never representing a private property 
+owner.  He also agreed to never valuing a gas station.  Farmer did not consider it 
+important to review the site traffic videos prior to his valuation.  And he did not consider 
+the number of passenger vehicles using drive 5 or how many tractor trailers park in the 
+area.  Farmer admitted that multiple tractor trailers could impact the flow of traffic in the 
+area.  He agreed that the closed drives were closer to the market and that one drive is not 
+equivalent to three.  Farmer further acknowledged that drive 5 was unpaved.   
+
+ 
+12. 
+ 
+{¶ 39} Following the close of the evidence and jury instructions and deliberations, 
+the jury assessed the award to be paid to Neema as follows: 
+ 
+Number 1, Compensation for property taken .2447 acres, $19,500 
+ 
+Number 2, Compensation for taking or existing improvements, The 
+Take, $38,000 
+ 
+Number 3, Compensation for temporary easements, The Take, $520 
+ 
+Number 4, Damages to the remaining land- The Residue, if any 
+$394,000. 
+ 
+Total award $452,020 
+ 
+{¶ 40} This appeal followed. 
+II. Assignments of Error 
+ 
+Assignment of Error No. 1: The Trial Court erred to the material 
+prejudice of ODOT by allowing Neema to present improper appraisal 
+evidence and testimony of valuing the property by combining separate 
+values of each tax parcel within the property. 
+ 
+ 
+Assignment of Error No. 2: The Trial Court erred to the material 
+prejudice of ODOT by allowing Neema to present evidence and testimony 
+of its appraiser’s damages to the residue because a significant but 
+unquantified component of his damages was the non-compensable removal 
+of stop signs from the highway intersection. 
+ 
+III. Analysis 
+A. Standard of Review 
+{¶ 41} The parties dispute the appropriate appellate standard of review.  ODOT 
+asserts that a de novo standard of review applies because the appeal involves the method 
+of valuation which is a question of law.  Conversely, Neema contends that a trial court’s 
+decision to admit or exclude expert testimony is reviewed for an abuse of discretion.  
+{¶ 42} Neema is correct that “a discretionary standard of review ordinarily applies 
+to trial court decisions concerning the admissibility of evidence.” Wray v. Wessell, 2016-
+
+ 
+13. 
+ 
+Ohio-8584, ¶ 13 (4th Dist.), citing State v. Morris, 2012-Ohio-2407, ¶ 19.  Further, “in an 
+appropriation proceeding, ‘the admission and exclusion of evidence as to the value of the 
+land and other related subjects rests to large extent in the discretion of the trial court, and, 
+where it is apparent that such court did not abuse its discretion in these respects and that 
+no prejudicial error has intervened, a reviewing court will not interfere.’” Id., quoting 
+Ohio Turnpike Comm. v. Ellis, 164 Ohio St. 377, paragraph two of the syllabus (1955).  
+“When, however, an appellant alleges that a trial court’s evidentiary ruling was ‘“based 
+on an erroneous standard or a misconstruction of the law,”’ an appellate court reviews the 
+trial court’s evidentiary ruling using a de novo standard of review.” Id., quoting Morris at 
+¶ 16, quoting Castlebrook, Ltd. v. Dayton Properties Ltd. Partnership, 78 Ohio App.3d 
+340, 346 (2d Dist.1992). 
+{¶ 43} The above language echoes the general principle that a court lacks the 
+discretion to commit an error of law.  Johnson v. Abdullah, 2021-Ohio-3304, ¶ 38, 
+quoting State v. Boles, 2010-Ohio-278, ¶ 26 (2d Dist.).  Thus, the court will review, de 
+novo, any legal questions the court will then determine whether the trial court abused its 
+discretion in denying ODOT’s motion in limine. 
+B. Valuation of the Property 
+{¶ 44} ODOT asserts that the trial court erred by allowing Neema’s expert to 
+testify as to the separate value of each parcel.  It relies on the premise that Ohio law 
+requires that all separate interests or values on a property must be jointly valued as a 
+“unit.”  It contends that property cannot be valued as the sum of its component parts.  In 
+
+ 
+14. 
+ 
+support, ODOT cites In re Appropriation of Easements for Highway Purposes (Preston v. 
+Stover-Leslie Flying Serv., Inc.), 174 Ohio St. 441 (1963), Sowers v. Schaeffer, 155 Ohio 
+St. 454 (1951), United States v. Dunnington, 146 U.S. 338 (1892), United States v. 4.620 
+Acres of Land, 2022 WL 214636 (S.D. Texas Jan. 25, 2022), and Smith v. Hendel, 1989 
+WL 49492 (3d. Dist. May 11, 1989). 
+{¶ 45} In Preston, the Supreme Court of Ohio held that in an appropriation action 
+“the existence of mineral deposits is to be considered in determining the market value of 
+the land;” however, “the market value may not be reached by combining the separately 
+evaluated land and deposits.  Id. at paragraph two of the syllabus.  The court explained 
+that “[t]he underlying basis for rejecting evidence of the value of minerals separate and 
+apart from the overall value of the land is that it involves an estimation of future profits to 
+be derived from the mining and marketing of such materials.”  Id. at 447.  
+{¶ 46} In Sowers, the Court held: 
+In the event there are several interests or estates in the parcel of real 
+estate appropriated, the proper method of fixing the value of each interest or 
+estate is to determine the value of the property as a whole, with a later 
+apportionment of the amount awarded among the several owners according 
+to their respective interests, rather than to take each interest or estate as a 
+unit and fix the value thereof separately.  
+ 
+ 
+Id. at. paragraph one of the syllabus; see also Dunnington at 352-353 (rejecting an 
+argument that the government be required to distribute payment of the value of the 
+condemned land to life estate holders and heirs to the confiscated property.). 
+{¶ 47} In Hendel, the Third District Court of Appeals affirmed the trial court’s 
+exclusion of testimony of the potential subdivision of the appropriated property as the 
+
+ 
+15. 
+ 
+property’s highest and best use because it was too speculative.  The court noted that such 
+evidence is admissible only where the adaptability of and demand for the land has been 
+established.  Id. at *6. 
+{¶ 48} Finally, in 4.620 Acres of Land, the district court denied reconsideration of 
+its alleged misapplication of the “unit rule established in the Fifth Circuit.”  Id. at *2.  
+Defendant argued that while the rule barred the aggregating things upon the land, such as 
+trees and buildings or various legal interests, it did not preclude the separate valuations of 
+land per acre or “economic units” for a combined overall value.  Id.  Rejecting the 
+argument, the court concluded that the separate appraisal of the northern unit, with road 
+access, and the southern unit, landlocked and located on a floodway, was erroneous as the 
+property would sell as one unit.  Id. at *5. 
+{¶ 49} Contrary to ODOT’s position, Ohio case law reveals no controlling “unit 
+rule” which would require an appraisal to jointly value separate tax parcels.  Further, the 
+cases ODOT relies upon are all distinguishable from this case.  Here, Kumar did not 
+value separate attributes on or interests in the same parcel; rather, he valued each legally 
+distinct parcel, capable of being sold separately, and arrived at a total sum. 
+{¶ 50} Notably, at trial ODOT’s own expert acknowledged that each parcel could 
+have been valued separately but, without elaboration, stated that in this instance he felt it 
+was appropriate to appraise the parcels as an entire unit.  Accordingly, the trial court did 
+not err in allowing Neema’s appraisal evidence.  ODOT’s first assignment of error is not 
+well-taken. 
+
+ 
+16. 
+ 
+{¶ 51} In its second assignment of error, ODOT contends that the trial court erred 
+by allowing Kumler to testify regarding the damage to the property’s residue when he 
+based the sum, in part, on ODOT’s removal of two stop signs which was determined to 
+be lawful and non-compensable.  ODOT points to Kumler’s deposition testimony where 
+he stated that the loss of the stop signs was a “significant component” of his damages 
+valuation.  ODOT contends that this admission tainted his overall valuation. 
+{¶ 52} Conversely, Neema asserts that ODOT misconstrued Kumler’s deposition 
+testimony and that he specifically declined to quantify damages for the removal of the 
+stop signs.  Neema quotes a later portion of Kumler’s deposition where he states that 
+absent the removal of the two drives there would have been virtually no change in the 
+functional utility of the property.  Kumler stated: 
+ 
+Q. If none of the drives were being taken but just the land alone, 
+would you have likely concluded that there would have been a change in 
+functional utility of the property? 
+ 
+A. Virtually none. 
+ 
+Q. Okay.  What about the loss of access?  If no property was taken 
+but the drives were closed off, if that’s all that happened, would that cause a 
+change in the functional utility of the property?  
+ 
+A. the loss of access is the major component of loss in functional 
+utility to the site. 
+ 
+This testimony is harmonious with Kumler’s trial testimony.  Additionally, neither 
+Kumler’s report, admitted into evidence, nor his trial testimony mentions the loss of the 
+stop signs. 
+
+ 
+17. 
+ 
+{¶ 53} Reviewing the parties’ arguments and the testimony presented at trial, there 
+is no evidence that the trial court abused its discretion by allowing Kumler’s valuation 
+testimony.  ODOT’s second assignment of error is not well-taken. 
+IV. Conclusion 
+{¶ 54} Upon due consideration, the judgment of the Erie County Court of 
+Common Pleas is affirmed.  Pursuant to App.R. 24, ODOT is ordered to pay the costs of 
+this appeal. 
+Judgment affirmed. 
+ 
+ 
+A certified copy of this entry shall constitute the mandate pursuant to App.R. 27.  
+See also 6th Dist.Loc.App.R. 4. 
+ 
+ 
+ 
+ 
+Christine E. Mayle, J.                 
+____________________________  
+ 
+ 
+ 
+     JUDGE 
+Gene A. Zmuda, J.                      
+____________________________ 
+Charles E. Sulek, P.J.                  
+ 
+    JUDGE 
+CONCUR.  
+____________________________ 
+    JUDGE 
+ 
+ 
+ 
+This decision is subject to further editing by the Supreme Court of 
+Ohio’s Reporter of Decisions.  Parties interested in viewing the final reported 
+version are advised to visit the Ohio Supreme Court’s web site at: 
+http://www.supremecourt.ohio.gov/ROD/docs/. 
+ 

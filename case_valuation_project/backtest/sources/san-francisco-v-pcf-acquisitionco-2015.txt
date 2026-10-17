@@ -1,0 +1,374 @@
+ 
+ 
+1
+Filed 5/26/15 
+CERTIFIED FOR PUBLICATION 
+ 
+ 
+IN THE COURT OF APPEAL OF THE STATE OF CALIFORNIA 
+ 
+FIRST APPELLATE DISTRICT 
+ 
+DIVISION THREE 
+ 
+ 
+CITY AND COUNTY OF SAN 
+FRANCISCO, 
+ 
+Plaintiff and Respondent, 
+v. 
+PCF ACQUISITIONCO, LLC et al., 
+ 
+Defendants and Appellants. 
+ 
+ 
+      A139836 
+ 
+      (City & County of San Francisco 
+      Super. Ct. No. CGC11507339) 
+ 
+ 
+ 
+In an eminent domain action, may a condemnor‘s final pre-trial settlement offer, 
+made 20 days before trial and contingent on obtaining approvals from other government 
+entities, be found reasonable under Code of Civil Procedure 1250.410, 1 and thus bar a 
+defendant who rejects it from later recovering its litigation costs?  The property owners 
+here, Convenience Retailers and PCF Acquisitionco, LLC (jointly PCF), contend such a 
+contingent offer from the City and County of San Francisco (the City) was unreasonable 
+as a matter of law because it was conditioned on the approval of three different 
+government bodies, thus providing no assurance that PCF‘s acceptance would result in a 
+pre-trial settlement.  We agree.  The City‘s contingent settlement offer did not serve 
+section 1250.410‘s aims of encouraging the pretrial settlement of eminent domain actions 
+and making property owners whole, and thus was not reasonable within the statute‘s 
+meaning.   We therefore reverse the order denying PCF‘s motion for litigation expenses 
+and remand to the trial court for further proceedings.  
+                                              
+ 
+1Unless otherwise specified, further statutory citations are to the Code of Civil 
+Procedure. 
+  
+
+ 
+ 
+2
+BACKGROUND 
+ 
+Prior to this action, PCF was the owner of real property at the corner of 4th and 
+Folsom Streets in San Francisco.  Formerly a gas station, the site is the future site of the 
+Central Subway‘s Moscone station.    
+ 
+Following several years of negotiations and the exchange of proposed valuations 
+for the property ranging from a low of $3,800,000 (from the City, on January 7, 2010) to 
+a high of $10,875,000 (from PCF, on February 26, 2013),  the parties were unable to 
+reach a settlement.  Twenty days before trial, pursuant to section 1250.410, the City made 
+its final offer of compensation and PCF made its final demand.2  The City‘s offer, for 
+$5,000,000, was expressly made ―contingent on the approval of the Federal 
+Transportation Authority [FTA], the Board of Directors of the San Francisco Municipal 
+Transportation Agency [MTA], and the San Francisco Board of Supervisors [the Board].‖  
+PCF demanded $8,600,000 plus statutory costs and interest.  The disparity between the 
+offer and demand appears to be due primarily to differing views on the likelihood of 
+rezoning and the cost of environmental remediation.   
+No settlement was reached, and the parties proceeded to trial.  The jury 
+determined the total compensation to be awarded for the property was $7,319,000, which 
+reflected a fair market value of $7,400,000 minus $81,000 for environmental 
+remediation.  PCF then moved to recover its litigation expenses under section 1250.410.  
+                                              
+ 
+2Under section 1250.410, subdivision (a), ―At least 20 days prior to the date of the 
+trial on issues relating to compensation, the plaintiff shall file with the court and serve on 
+the defendant its final offer of compensation in the proceeding and the defendant shall 
+file and serve on the plaintiff its final demand for compensation in the proceeding.  The 
+offer and the demand shall include all compensation required pursuant to this title, 
+including compensation for loss of goodwill, if any, and shall state whether interest and 
+costs are included.  These offers and demands shall be the only offers and demands 
+considered by the court in determining the entitlement, if any, to litigation expenses.‖  
+Pursuant to section 1250.410, subdivision (b), If the court, on motion of the defendant 
+made within 30 days after entry of judgment, finds that the offer of the plaintiff was 
+unreasonable and that the demand of the defendant was reasonable viewed in light of the 
+evidence admitted and the compensation awarded in the proceeding, the costs allowed 
+pursuant to Section 1268.710 shall include the defendant‘s litigation expenses.‖ 
+
+ 
+ 
+3
+The City opposed the motion on the grounds that its final offer was reasonable and, 
+alternatively, that PCF‘s claimed litigation expenses were excessive.   
+The court denied the motion.  It found that the City ―considered [PCF‘s] statement 
+of valuation and the risks of trial, and made a final offer that exceeded its own appraisal 
+by $1,872,000 (or 60%).  Because San Francisco was not ‗unyielding‘ in making its final 
+offer, and did not stubbornly adhere to its own valuation, the Court finds that based on 
+substantial evidence, San Francisco‘s final offer was not unreasonable.‖  The court did 
+not address PCF‘s argument that the City‘s final offer of compensation was unreasonable 
+as a matter of law because of its approval contingencies.   
+This appeal timely followed.   
+DISCUSSION 
+A. Legal Principles 
+Section 1250.410 provides for the pretrial exchange of a final offer of 
+compensation by the plaintiff in an eminent domain action and a final demand for 
+compensation by the defendant.  ―(§ 1250.410, subd. (a).)  If the court finds the plaintiff‘s 
+final offer was unreasonable and the defendant‘s final demand was reasonable when 
+‗viewed in the light of the evidence admitted and the compensation awarded in the 
+proceeding, the costs allowed . . . shall include the defendant‘s litigation expenses.‖ (§ 
+1250.410, subd. (b).) 
+The purpose of section 1250.410 is ― ‗to promote settlement of valuation disputes 
+in eminent domain proceedings and guarantee full recompense to the landowner in case 
+of unnecessary litigation.‘ ‖  (San Diego Gas & Electric Co. v. Moreland Investment Co. 
+(1986) 186 Cal.App.3d 1151, 1158; see San Diego Gas & Electric. Co. v. Schmidt (2014) 
+228 Cal.App.4th 1280, 1305 (Schmidt).)  ―Litigation is deemed unnecessary when it has 
+resulted from unreasonable conduct on the part of the condemnor while the condemnee 
+has been reasonable.‖  (Los Angeles County Flood Control Dist. v. Mindlin (1980) 106 
+Cal.App.3d 698, 715, italics omitted (Mindlin).)  Section 1250.410 ―provides no real 
+guidelines for resolving the question of reasonableness‖  (City of Gardena v. Camp 
+(1977) 70 Cal.App.3d 252, 256), but relevant factual issues include the amount of the 
+
+ 
+ 
+4
+difference between the demand or offer and the compensation awarded, the percentage of 
+difference between the demand or offer and the award, and the good faith, care and 
+accuracy with which the demand or offer was calculated.  (Schmidt, supra, at p. 1305; 
+Los Angeles County Metropolitan Transportation Authority v. Continental Development 
+Corp. (1997) 16 Cal.4th 694, 720.)   
+This case is unusual because the issue for our review is not about the amount of 
+the City‘s offer or the care with which it was formulated.  The key issue, instead, is 
+whether the offer satisfied section 1250.410 despite the fact that PCF would end up with 
+no settlement at all if the FTA, the MTA or the Board were to subsequently reject it.3   
+Indeed, even the City acknowledges that its $5,000,000 ―final offer of compensation‖ 
+was not so much an ―offer‖ as a recommendation to enter a settlement that ―could not 
+legally be achieved‖ without subsequent legislative approval.  Should a condemnee be 
+denied the right to be made whole for its litigation expenses because it rejects a 
+settlement offer that does not, in fact, promise settlement? Keeping in mind the statute‘s 
+purposes of promoting settlement and making a property owner whole for the cost of 
+unnecessary litigation, we do not think the Legislature intended to make a condemnee 
+chose between entering into an uncertain and contingent bargain or risk losing any 
+chance of recovering its litigation expenses if it proceeds to trial.  
+There seem to be no cases directly on point, but Mindlin, supra,106 Cal.App.3d 
+698, is instructive.  There, the court of appeal discussed a condemnor‘s offer made after 
+the then-30-day pretrial cutoff under the predecessor to section 1250.410 and conditioned 
+on the condemnor‘s right to appeal a trial court ruling on a bifurcated issue.  Addressing 
+the appeal condition in dictum, the court wrote: ―It seems clear to us that the ‗amended 
+final offer of the District . . . was not a final offer within the meaning of Code of Civil 
+Procedure section 1249.3.  The offer was made with a clearly stated condition attached of 
+reserving the right of appeal.  We find illuminating and helpful an observation made in 
+another context:  ‗Since the purpose of the section is to promote settlement of valuation 
+                                              
+ 
+3And, as the City points out, the settlement was also subject to veto by the Mayor.   
+
+ 
+ 
+5
+and damage disputes which otherwise would have to be tried, it is intended to require 
+each side to submit a final figure for which it is willing to settle those issues.  
+[Citations.]‘  An offer made subject to the condition of reserving the right to appeal does 
+not indicate any intention or willingness to finally resolve the dispute; on the contrary, it 
+bespeaks of a determination to seek vindication at a later time of the offeror‘s position 
+during negotiations.‖  (Id. at p. 719, italics omitted.) 
+While the point is dictum in Mindlin, the court of appeal in People ex rel. Dept. of 
+Transportation v. Zivelonghi (1986) 183 Cal.App.3d 187 (Zivelonghi) adopted Mindlin‘s 
+analysis to hold a condemnor‘s final offers unreasonable for purposes of section 
+1250.410 because they were subject to a reserved right to appeal.   ―Under these 
+circumstances,‖ the court noted, ―the offer as to valuation would not finally conclude the 
+matter if plaintiff‘s appeal were successful.‖  (Id. at pp. 192–193.)  Although the 
+condition here is approval rather than an appeal, the same reasoning applies to the same 
+effect.  The ostensible settlement would be nullified if either the FTA, the MTA, or the 
+Board declined to approve the City‘s compensation offer.  As far as we can tell from the 
+record, PCF had no assurance that these approvals would be forthcoming, or even that it 
+would know whether it had a binding settlement within the 20 days before the trial was to 
+commence.  Indeed, the City acknowledges that the Board‘s process for approving 
+settlements might potentially be completed in 30 days but, ―start to finish, typically takes 
+six to eight weeks,‖ and it is silent as to the time frame for approval by the MTA and 
+FTA.  In these circumstances, the City‘s final offer was not really an offer at all. 
+ 
+We are not persuaded by the City‘s point that prior legislative approval of its final 
+offer was not ―practical‖ because of various time frames and open meeting requirements 
+imposed by the San Francisco Municipal Charter and the Board‘s rules of order.  The 
+City argues that, while its charter authorizes the city attorney to recommend a settlement, 
+it can only settle litigation by passing an ordinance (S.F. Charter, § 6.102(5); see also 
+§ 8A.102(d) [requiring settlement approval from MTA Board of Directors]), and the open 
+hearing requirements for settlement ordinances would force the public disclosure of its 
+offer in advance of parties‘ pre-trial exchange.  But assuming arguendo that this is so, the 
+
+ 
+ 
+6
+City‘s charter and administrative rules neither exempt it from section 1250.410 nor 
+necessarily conflict with its mandate.  ―San Francisco is autonomous with respect to all 
+municipal affairs.  As to matters of statewide concern, however, it is subject to overriding 
+state laws.‖ (Rivero v. Superior Court (1997) 54 Cal.App.4th 1048, 1059.)  It is long 
+settled that the exercise of the power of eminent domain is such a matter of statewide 
+concern.  (City of Los Angeles v. Koyer (1920) 48  Cal.App.720, 725 [municipality may 
+only conduct eminent domain as expressly authorized by state legislation].)  Accordingly, 
+the City had to make a timely, bona fide final offer or face the consequences spelled out 
+in section 1250.410, subdivision (b), whether or not its own rules require advance 
+legislative approval.  Were this not so, as PCF observes, ―every municipality in 
+California could pass legislation exempting itself from the requirements of [section 
+1250.410] and other statutory rules applicable to the exercise of eminent domain.‖   
+In any event, it seems the City could have privately sought and obtained Board 
+approval in a closed session without prematurely disclosing its final offer.  Under section 
+67.10, subdivision (d) of the San Francisco Administrative Code, the Board may hold a 
+closed session to confer with, or receive advice from, its legal counsel regarding pending 
+litigation when discussion in open session would likely and unavoidably prejudice the 
+City‘s litigation position.4   Under Section 67.12(b)(1), a ―policy body‖ must publicly 
+report any action taken in a closed session concerning real property negotiations pursuant 
+                                              
+ 
+4Pursuant to  PCF‘s request, we take judicial notice of relevant provisions of San 
+Francisco‘s City Charter and Administrative Code.  (See Evid. Code, §§451, subd. (a), 
+452, 459; County of Kern v. Ginn (1983) 146 Cal.App.3d 1107, 1111–1112; Edgerly v. 
+City of Oakland (2012) 211 Cal.App.4th 1191, 1194 fn. 1.)   Under section 67.10 of the 
+Administrative Code, ―A policy body may, but is not required to, hold closed sessions . . . 
+(d) Based on advice of its legal counsel, and on a motion and vote in open session to 
+assert the attorney-client privilege, to confer with, or receive advice from, its legal 
+counsel regarding pending litigation when discussion in open session  concerning those 
+matters would likely and unavoidably prejudice the position of the City in that litigation.‖  
+We also grant the City‘s request for judicial notice of excerpts of the City Charter, 
+Administrative Code and Board of Supervisors‘ Rules of order.  PCF‘s request for 
+judicial notice of an unfiled settlement offer in an unrelated eminent domain action is 
+denied. 
+ 
+
+ 
+ 
+7
+to Government Code section 54956.85 ―as soon as the agreement is final.‖  Where, as in 
+this case, ―final approval rests with another party to the negotiations, the body shall 
+disclose the fact of that approval, the substance of the agreement and the body‘s vote or 
+votes thereon upon inquiry by any person, as soon as the other party or its agent has 
+informed the body of its approval.‖  Thus, the City could have approved a settlement 
+offer in closed session without disclosing it to the public until and unless PCF accepted 
+the offer.  Section 67.12(b)(1) is expressly operative ―[n]otwithstanding‖ the 
+Administrative Code‘s more general provision on the disclosure of settlements (S.F. 
+Admin. Code § 67.12 (b)(3)), so the City‘s contention that the more general provision 
+requires disclosure of offers approved in closed sessions is unpersuasive.  Moreover, 
+section 1250.410 does not dictate the earliest possible time for a final offer, only that it be 
+not less than 20 days prior to trial.  The City, as an alternative, could thus have extended 
+a final offer with ample time for approval and acceptance prior to trial.  And while the 
+City complains it could not have obtained legislative approval because it was unable to 
+depose PCF‘s appraiser until three business days before the statutory deadline for 
+exchanging settlement offers, it was under no compulsion to twice delay that 
+deposition—as it concedes it did.  (See generally Code Civ. Proc., §1258.210 et seq. 
+[expedited discovery procedures in eminent domain cases].)   
+We conclude the City‘s conditional settlement extended 20 days before trial was 
+unreasonable for purposes of section 1250.410.  We therefore reverse the order denying 
+PCF‘s motion for litigation expenses and remand to the trial court for further proceedings 
+                                              
+ 
+5Section 54956.8 of the Government Code provides that ―Notwithstanding any 
+other provision of this chapter, a legislative body of a local agency may hold a closed 
+session with its negotiator prior to the purchase, sale, exchange, or lease of real property 
+by or for the local agency to grant authority to its negotiator regarding the price and terms 
+of payment for the purchase, sale, exchange, or lease.  [¶] However, prior to the closed 
+session, the legislative body of the local agency shall hold an open and public session in 
+which it identifies its negotiators, the real property or real properties which the 
+negotiations may concern, and the person or persons with whom its negotiators may 
+negotiate. [¶] . . . [¶] Nothing in this section shall preclude a local agency from holding a 
+closed session for discussions regarding eminent domain proceedings pursuant to Section 
+54956.9.‖ 
+
+ 
+ 
+8
+on the amount of litigation expenses to be awarded.  Nothing in our conclusion precludes 
+the City from also challenging the reasonableness of PCF‘s final demand on remand, if it 
+has a basis to do so, although its forbearance from raising such a challenge to date 
+suggests it has found no dog to launch into that particular fight.  
+DISPOSITION 
+The order denying PCF‘s motion for litigation expenses is reversed and the matter 
+is remanded to the trial court for further proceedings. 
+
+ 
+ 
+9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+_________________________ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Siggins, J. 
+ 
+ 
+We concur: 
+ 
+ 
+_________________________ 
+Pollak, Acting P.J. 
+ 
+ 
+_________________________ 
+Jenkins, J. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+City & County of San Francisco v. PCF Acquisitionco LLC, A139836 
+
+ 
+ 
+10
+ 
+ 
+Trial Court:  
+ 
+ 
+ 
+ 
+City & County of San Francisco Superior 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Court 
+ 
+ 
+Trial Judge:  
+ 
+ 
+ 
+ 
+Ronald Evans Quidachay 
+ 
+ 
+Counsel: 
+ 
+Matteoni, O‘Laughlin & Hechtman, Bradley M. Matteoni, Norman E. Matteoni for 
+Defendants and Appellants PCF Acquisitionco, LLC and Convenience Retailers, LLC. 
+ 
+Dennis J. Herrera, City Attorney, James Emery, Brian F. Crossman, Deputy City 
+Attorneys for Plaintiff and Respondent City and County of San Francisco. 

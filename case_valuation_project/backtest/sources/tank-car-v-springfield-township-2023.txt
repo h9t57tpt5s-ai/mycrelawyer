@@ -1,0 +1,1196 @@
+IN THE COMMONWEALTH COURT OF PENNSYLVANIA 
+ 
+ 
+Tank Car Corporation of America, 
+: 
+CONSOLIDATED CASES 
+ 
+ 
+ 
+Appellant 
+: 
+ 
+ 
+ 
+ 
+ 
+: 
+ 
+ 
+v. 
+ 
+ 
+: 
+No. 1043 C.D. 2021 
+ 
+ 
+ 
+ 
+: 
+ 
+Springfield Township 
+ 
+: 
+ 
+ 
+ 
+ 
+ 
+: 
+ 
+ 
+ 
+ 
+: 
+Tank Car Corporation of America 
+: 
+ 
+ 
+ 
+ 
+: 
+ 
+ 
+v. 
+ 
+ 
+: 
+No. 1096 C.D. 2021 
+ 
+ 
+ 
+ 
+: 
+Springfield Township, 
+ 
+: 
+Argued: September 11, 2023 
+ 
+ 
+ 
+Appellant 
+: 
+ 
+ 
+ 
+ 
+ 
+BEFORE: HONORABLE PATRICIA A. McCULLOUGH, Judge 
+ 
+HONORABLE ANNE E. COVEY, Judge 
+ 
+HONORABLE ELLEN CEISLER, Judge 
+ 
+ 
+ 
+OPINION  
+BY JUDGE McCULLOUGH 
+  
+ 
+FILED: October 19, 2023 
+ 
+ 
+In the instant eminent domain matter, we have consolidated two separate 
+appeals from the December 16, 2021 judgment of the Montgomery County Court of 
+Common Pleas (trial court), entered after a non-jury trial.  The judgment awarded the 
+condemnee, Tank Car Corporation of America (Tank Car), $517,000 in just 
+compensation and $4,000 for fee reimbursement, for a total amount of $521,000, for 
+Springfield Township’s (Township) taking of 1725 Walnut Avenue in the Township 
+(Property) for use as a public park.   
+
+2 
+The first appeal, No. 1043 C.D. 2021, is by Tank Car.  In its appeal, Tank 
+Car challenges several of the trial court’s evidentiary findings as against the weight of 
+the evidence. Tank Car also argues that the trial court made several errors in arriving 
+at the valuation of the Property.  The second appeal, No. 1096 C.D. 2021, is by the 
+Township.  The issue presented by the Township is whether the trial court erred by not 
+accepting its expert appraiser’s testimony of a 20% reduction for environmental 
+stigma.1  After careful review, we affirm. 
+I. 
+FACTUAL AND PROCEDURAL HISTORY 
+Tank Car acquired the Property in 1921 and used it for the operation of a 
+railroad tank car cleaning and rehabilitation business and ceased operations in 2001 or 
+2002. (Reproduced Record (R.R.) at 971a-75a, 1001a-02a, 2434a.)  The Property 
+consists of approximately 7.89 acres of land and includes a 25,000-square foot 
+warehouse, attached offices, and three detached buildings.  The Property is zoned 
+industrial and is surrounded by other industrial sites.  Id. at 920a, 2148a, 2585a.  Tank 
+Car’s “former industrial operations at the facility produced hazardous wastes and 
+liquids containing hazardous substances that were placed in a lagoon and later into 
+buried tanker cars at the [P]roperty.”  Id. at 1112a-13a.  As of 2006, the Property was 
+substantially contaminated with hazardous materials.  Id. at 2434a.   
+A. Environmental Cleanup of the Property 
+On or about April 10, 2006, the United States Environmental Protection 
+Agency (EPA) declared the Property a Superfund site and began to evaluate the 
+Property under the Comprehensive Environmental Response, Compensation and 
+Liability Act (CERCLA), 42 U.S.C. § 9601.  The EPA ultimately decided to remove 
+hazardous substances from the site.  (R.R. at 2078a.)  The EPA completed the removal 
+ 
+    1 By order dated December 6, 2021, we consolidated the cases.   
+
+3 
+action in May 2011.  The EPA left contaminated soils and sandblast grit from the 
+Property and surrounding parcels beneath a cover (referred to as the “cap”) constructed 
+to eliminate migration of such material and to prevent contact by humans and animals.  
+Id. at 2079a.  The cap is approximately two feet thick and consists of a layer of clay 
+topped with modified stone.  Id. at 2079a-80a.  The cap covers approximately 50% of 
+the total surface of the Property and is generally located in the northeastern area of the 
+Property.  Id. at 2434a. 
+B.  Lease of the Property 
+Two years after the EPA cleanup was completed, Tank Car entered into a 
+long-term Lease Agreement (Lease) on May 22, 2013, with Cheltenham 
+Transportation, LLC, allowing it to park school buses on the Property.  The term of the 
+Lease was ten years, with an option to extend the term another five years.  The $7,500 
+monthly rent was due to increase by 3% each year.  The Lease provided that the parties 
+would negotiate for additional monthly rent relative to increased use of the Property.  
+Id. at 1894a.   
+After entering into the Lease, Cheltenham Transportation began installing 
+a fence and light posts on the Property, without first notifying the Township.  Id. at 
+2436a.  The Township, concerned that the activity was possibly in violation of the EPA 
+restrictions relating to the cap, contacted the EPA.  Id. at 2436a.  The EPA 
+representative expressed his concern that the work, especially digging in the soil, had 
+been done in violation of the cap restrictions.  Id. at 2436a. 
+On July 19, 2013, the Township brought an action in the trial court against 
+Cheltenham Transportation and Tank Car.  Id. at 436a.  In its complaint and a motion 
+for preliminary injunction filed the same day, the Township asserted that Cheltenham 
+Transportation’s activities on the Property were in violation of the Township Code, 
+
+4 
+specifically the Springfield Township Pennsylvania Subdivision and Land 
+Development Ordinance of 1950, as amended, and the use restrictions imposed by the 
+EPA.  Id. at 2436a.  On August 28, 2013, the trial court granted the Township’s motion 
+and entered a preliminary injunction order which, inter alia, enjoined Cheltenham 
+Transportation and Tank Car from conducting any demolition or improvement on the 
+Property without first obtaining a waiver or subdivision and land development approval 
+from the Township and directed them to immediately remove all buses, light poles, 
+trailers, and stone deposited on the Property.  Id. at 1813a-14a.   
+Shortly after issuance of the preliminary injunction order, Cheltenham 
+Transportation and the Township entered into an agreement under which Cheltenham 
+Transportation would operate its school bus depot at a nearby property known as the 
+Giuliani Property, subject to various conditions, including the prompt submission of a 
+land development application for use of that property.  Id. at 1907a-08a, 2437a.  
+Following the issuance of the preliminary injunction order, Cheltenham Transportation 
+has stored its buses exclusively on the Giuliani Property and has not occupied or used 
+the Property for any purpose.  Id. at 1801a, 2437a.   
+On April 22, 2015, Cheltenham Transportation submitted a Land Use 
+Development Application for the Property, and an Amended Application on May 8, 
+2015.  Id. at 904a-07a.  The Amended Application was reviewed by the Township 
+Engineer and the Montgomery County Planning Commission, both of whom made 
+recommendations for changes.  Id. at 910a.  However, Cheltenham Transportation 
+never submitted any revised plans.  At the December 7, 2015 Workshop Meeting of 
+the Township Board of Commissioners, an attorney for Cheltenham Transportation 
+appeared and stated that the Amended Application was set aside until the issues with 
+
+5 
+the Giuliani Property were resolved at which point the Amended Application for the 
+Property would be withdrawn.  Id. at 928a. 
+C.  Declaration of Taking 
+On September 8, 2015, the Township Board of Commissioners adopted a 
+Resolution authorizing the condemnation of the Property for the purpose of 
+establishing a public park.2  Id. at 2439a.  On October 30, 2015, the Township filed a 
+declaration of taking, condemning the Property.  Although Tank Car initially filed 
+preliminary objections to the declaration of taking, it later withdrew the objections and 
+tendered possession of the Property to the Township.  Id. at 919a-20a, 1797a, 2345a.  
+In January 2017, the Township paid Tank Car $150,000 in estimated just 
+compensation.  Id. at 920a. 
+On March 6, 2017, Tank Car filed a Petition for Appointment of a Board 
+of View.  The Board of View viewed the Property and held hearings on June 5, 2018, 
+and July 16, 2018.  The Board of View issued a Report and Award on August 15, 2018, 
+and awarded Tank Car damages in the amount of $1,000,000, less the $150,000 already 
+paid to Tank Car by the Township. Id. at 24a-26a.  Both Tank Car and the Township 
+appealed. 
+The trial court held a three-day non-jury trial on February 22-24, 2021, 
+and entered its Decision on May 18, 2021.   
+ 
+2 The Township has not proceeded with the redevelopment of the Property as a public park, 
+pending resolution of the present case. As part of the redevelopment, it intends to seek liability 
+protection under the Land Recycling and Environmental Remediation Standards Act, Act of May 19, 
+1995, P.L. 4, No. 2, 35 P.S. §§ 6026.101-.908, commonly known as Act 2.  Under Act 2, a party is 
+required to clean up soil or groundwater to certain risk-based standards that the Department of 
+Environmental Protection has previously determined protect the environment. Act 2 does not require 
+the remediator to entirely remove a released constituent from the environment, if even technically 
+feasible, but rather provides a standard that, when met, releases a party from further cleanup liability 
+for that constituent.  See Section 501(a) of Act 2, 35 P.S. § 6026.501(a). 
+
+6 
+D. Valuation Evidence Before the Trial Court 
+At the trial, Tank Car’s expert appraiser, Michael J. Barth, testified 
+regarding the value of the Property as of the date of the taking.  Reaves C. Lukens 
+testified as the Township’s expert appraiser. 
+ 
+1. Tank Car’s Appraiser’s Valuation of the Property 
+Barth opined that the highest and best use of the Property was “an 
+industrial use to either . . .  repurpose it for industrial warehouse use along with storing 
+on the land or use the site to store buses on.”  Id. at 1002a.  He opined that a buyer of 
+the Property would renovate, rather than demolish, the main “buildings on the 
+Property.”  Id. Barth used three different appraisal methodologies to determine the 
+Property’s value before the taking: (1) the Sales Comparison Approach;3 (2) Income 
+Capitalization Approach—Direct Capitalization Method (i.e., the traditional Income 
+Capitalization Approach),4 based on the existence of the Lease; and (3) Income 
+Capitalization Approach—Discounted Cash Flow Method (which he characterized as 
+a “hybrid” of Income Capitalization and Sales Comparison).  Id. at 1003a-37a, 1074a-
+93a, 2167a-78a, 2179a-92a. 
+Barth considered the Sales Comparison Approach as the best valuation 
+method for the Property because in his opinion the Property is best suited as an owner-
+occupied property.  He valued the Property as environmentally remediated and 
+approved for industrial use and, thus, did not make any downward adjustments to the 
+ 
+3 Under the “Sales Comparison Approach,” which is sometimes referred to as the “market 
+data approach,” the appraiser of condemned property theorizes that if a similar property located in 
+similar surroundings has sold recently at a given price, the price is relevant in predicting the market 
+value of the property being appraised.  In re Condemnation of 23.015 Acres More or Less Known as 
+Tax Map, 895 A.2d 76 (Pa. Cmwlth. 2006). 
+ 
+4 Essentially, the Income Capitalization Approach capitalizes the property’s annual net income 
+(gross income less actual annual expenditures). 
+
+7 
+value of the Property for the restrictions imposed by the “cap” or any other 
+environmental condition thereon.  Id. at 1122a, 2140a, 2161a-62a.  Barth had never 
+before appraised any Superfund sites.  Id. at 2441a.  He was unable to opine that the 
+environmental history of the Subject Property had “absolutely no impact on the value.”  
+Id. at 1122a, 2444a.  Barth conceded that “willing and informed buyers are reluctant to 
+acquire environmentally contaminated property without some liability protection.”  Id. 
+at 1175a.   
+Under the Sales Comparison Approach, Barth identified six properties 
+with improvements representing comparable sales:   
+ 
+1. The 15.79-acre property located at 421 Alan Wood Road 
+in Plymouth Township, zoned light industrial, which the 
+Danella Construction Company purchased in December 
+2012 for $344,261 per acre to use for truck repair and sales 
+facility. (R.R. at 1008a-10a.) It is located within a short 
+distance from the on-ramp to Route 476.  Id. at 1008a. 
+ 
+2. The 13.280-acre property located in the industrial park at 
+375 Commerce Drive, Fort Washington, purchased in 
+October 2014 for $209,488 per acre. This property is located 
+the closest to the Property.  Id. at 1011a.  It was formerly 
+zoned limited industrial but re-zoned as an employment 
+center to reinvigorate the industrial park but which zoning 
+still allows industrial uses. Id. at 1011a, 1149a, 1407a. The 
+buyer paid a third party to environmentally clean up the 
+property prior to purchase.  Id. at 1280a-81a, 1538a-39a.  
+ 
+3. The 6.97-acre property located at 409 E. Butler Avenue, 
+New Britain, Bucks County which was zoned light industrial 
+and purchased in October 2014 for $301,291 per acre. The 
+property is improved with the EF Knoll picture frame 
+manufacturing facility. Although it was acquired in order to 
+obtain approvals for mixed-use development, the purchase 
+price was based on uses permitted under the light industrial 
+zoning.  Id. at 1012a. 
+
+8 
+ 
+4. The 7.840-acre property located at 2030 Chemical Road, 
+Plymouth Township, Montgomery County, which was 
+purchased in December 2014 for $165,816 per acre. Id. at 
+1012a-13a.  The property was zoned half light industrial and 
+half residential. Id. at 1013a. The buyer had to obtain an 
+easement to gain access to the property. The property is 
+located near the off-ramp to Route 476 but the route to gain 
+access to that highway is circuitous. Id. at 1013a-14a.  
+ 
+5. The 6.050-acre property located at 861 N. Easton Road in 
+Plymouth Township, Bucks County, which was zoned light 
+industrial and purchased in May 2015 for $264,463 per acre. 
+The Fred Bean dealership acquired the property to store 
+vehicles. Car dealerships are in need of land to store vehicles. 
+Id. at 1014a. 
+ 
+6. The 4.450-acre property located at 1651 Ridge Pike in 
+Plymouth Township which was zoned heavy industrial and 
+sold in September 2015 for $333,708 per acre.  Id. at 1014a-
+15a.  The Conicelli auto dealership acquired the property for 
+auto storage.  Id. at 1015a. 
+ 
+ 
+ 
+Barth adjusted the values of comparables 1, 3, 5, and 6 down and the 
+values of comparables 2 and 4 up to arrive at a per acre price of $240,000 for the 
+Property, as vacant.  Id. at 1016a-20a, 2170a.  He rounded the total value of the 
+Property, as vacant, to $1,900,000.  Id. at 1019a-20a, 1034a, 2169a.5 
+In order to value the Property as improved, Barth utilized six comparables.  
+Id. at 1081a-92a, 2180a.  Barth explained how the sixth comparable located at 504 
+Swedeland Road in Upper Merion supported his valuation. Id. at 1087a-88a. The 
+property contained a 21,000-square-foot steel frame masonry industrial building built 
+ 
+5 Barth further valued the Property using a sales comparison approach as unencumbered and 
+improved.  (R.R at 1081a-92a, 2179a-88a.)   
+
+9 
+in 1960 located on 4.86 acres that included a floodplain.  Id. at 1089a.  Although the 
+buyer negotiated the purchase price in 2015, due to title issues the sale did not close 
+until 2018.  Id. at 1088a, 2188a.  The buyer paid a total of $1,900,000 for the 22,000-
+square-foot building and 4.86 acres.  Id. at 1088a-89a.  The buyer reskinned the 
+building, leveled out and raised the floor, cleaned up the crane way and turned the 
+building into an indoor recreation facility.  Id. at 1090a.  The owner leased the re-clad 
+industrial buildings at $4.00 to $4.50 per square foot in 2015.  Barth adjusted this 
+$1,900,000 comparable up since the Property had a larger building, more land, and was 
+situated in the Township and surrounded by other uses, including residential, to arrive 
+at a total value of $2,105,000.  Id. at 1091a-92a, 2188a.  Similarly, Barth testified that 
+the warehouse could be repurposed, or the Property could be used as a bus depot.  Id. 
+at 1002a.  Barth observed that the warehouse, with its 25-foot ceiling height and steel 
+frame, could be re-clad and made into a productive industrial building.  Id. at 977a.  
+Barth explained that starting in 2010, more buyers were looking to refurbish old 
+industrial buildings, instead of demolishing them and waiting to obtain approvals to re-
+build.  Id. at 996a.  He concluded that the warehouse “would be a very desirable 
+building for someone to come in and rehabilitate and clean up and reuse.”  Id. at 996-
+97a.  On the basis of these sales, after making some adjustments, he calculated the 
+value of a fee simple interest in the Property as of the date of the taking as $2,105,000.  
+Id. at 1081a-92a, 2182a, 2188a. 
+Barth’s Income Capitalization Approach—Discounted Cash Flow 
+Method analysis assumed that the Lease was in effect, and there were eight years left.  
+Id. at 985a-1002a.  Applying the Income Capitalization Approach—Discounted Cash 
+Flow Method, Barth valued the reversionary interest in the land and the value of the 
+stream of income over the term of the Lease to arrive at a value of $2,060,000.  Id. at 
+
+10 
+1022a-80a.  Finally, using the Income Capitalization Approach—Direct Capitalization 
+Method, Barth valued the Property “as was” at $2,040,000.  Id. at 1092a-93a, 2189a-
+92a. 
+Reconciling his three approaches to valuation, Barth concluded that the 
+“as was” market value of the Property was $2,100,000.  Id. at 1094a, 2193a. 
+ 
+2. The Township’s Appraiser’s Valuation of the Property 
+Lukens had experience appraising several properties with environmental 
+contamination. Id. at 2445a.  Lukens testified that the highest and best use of the 
+Property was for industrial use, specifically “[w]arehouse development.”  Id. at 1355a.  
+Unlike Barth, Lukens opined that a reasonable buyer would want to acquire the 
+Property in vacant condition and would therefore demolish the existing buildings, 
+which had all outlived their useful lives and were detracting from the value of the 
+Property.  Id. at 2244a.  Lukens further opined that a reasonable buyer would require 
+that Act 2 liability protection be obtained on the Property.  Id. at 2445a.  He 
+acknowledged that Act 2 remediation is voluntary but stated that no “buyer in [his] 
+right mind” would buy the Property without getting Act 2 clearance.  Id. at 1480a, 
+2445a-46a.  Lukens testified that: 
+Property owners only want to be accountable for 
+environmental contamination that they caused. The Act 2 
+clearance helps to collar that responsibility. Properties are 
+very difficult to finance that are adversely environmentally 
+impacted without an Act 2 clearance, and most prudent 
+people do not buy into that sort of a problem without getting 
+it addressed and without reducing their exposure. 
+Id. at 1345a-46a. 
+ 
+In arriving at a value for the Property, Lukens considered a report prepared 
+by Penn E&R, which was retained by the Township in 2015 to perform an analysis of 
+what it would cost to receive an Act 2 release for an industrial use of the Property.  Id. 
+
+11 
+at 1341.  The Penn E&R cost estimate was $258,200.  Lukens testified that the value 
+of the Property should be adjusted downward by the cost of the Act 2 remediation.  
+Lukens added a 10% contingency to the Penn E&R estimate, resulting in a rounded 
+number of $284,000.  Id. at 1344a, 1479a, 2446a-47a.  Lukens testified that the estimate 
+was the type of report that he and other appraisers customarily rely upon in forming 
+opinions of value.  Id. at 1338a-39a.   
+Lukens further opined that because a reasonable buyer would want the 
+Property to be vacant, an appraisal based on the Income Capitalization Approach would 
+not be appropriate, and the only proper approach would be the Sales Comparison 
+Approach.  Id. at 2446a.  Under the Sales Comparison Approach, Lukens identified 
+four properties representing comparable sales.  Based on these values, Lukens 
+concluded that the Property’s value, as hypothetically clean and before deductions, was 
+$750,000 (i.e., $95,000 per acre) as of the date of the taking.  Id. at 1369a-70a. 
+Lukens then further reduced the value of the Property by two deductions. 
+First, Lukens deducted from the value of the Property the cost of demolishing the 
+existing buildings, which costs he estimated to be $175,000.  Id. at 1376a.  Second, 
+Lukens reduced the value of the Property by deducting 20% of its value for 
+“environmental stigma,” which he opined reduced the value of the Property by 
+$150,000.  Id. at 1372a-75a, 1650a.   
+ 
+E. 
+The Lease Between Cheltenham Transportation and Tank Car 
+ 
+Tank Car presented evidence in an effort to establish that the Lease was 
+“in effect,” and that land development approval was reasonably available as of the date 
+of the taking.  To that end, Tank Car presented the testimony of Melissa Gordon, 
+President of Tank Car, and Eric Faust, President of Cheltenham Transportation, both 
+of whom testified that they considered the Lease to be in effect before and after the 
+
+12 
+taking.  Tank Car also presented evidence and argument that the Township accepted 
+Cheltenham Transportation’s standing to file and proceed in the land development 
+premised on the Lease being in effect, and that the Amended Application remained 
+pending on the date of taking.   
+ 
+To rebut Tank Car’s evidence, the Township presented evidence that 
+Cheltenham Transportation’s attorney informed the Board of Commissioners that the 
+Amended Application had been “back-burnered” or withdrawn to focus on obtaining 
+approval of the use of the Giuliani Property, and the admission made in Tank Car’s 
+preliminary objections that the Lease was canceled.  It also argued that, in verified 
+Preliminary Objections to the Declaration of Taking filing with the trial court, Gordon 
+had averred under penalty of law that following the issuance of the Preliminary 
+Injunction Order, Cheltenham Transportation “canceled its lease with Tank Car.” (R.R. 
+at 1801a.)  The Township also elicited the following from Gordon on cross-
+examination: when she signed the verification “[t]he factual statements in that were 
+true and correct to the best of [her] knowledge, yes;” after the preliminary injunction, 
+no rent was owed by Cheltenham Transportation; neither party was fulfilling any duties 
+under the Lease; Tank Car was leasing the Property to another party, and Cheltenham 
+Transportation had begun leasing a separate property for its operation; and that except 
+for the payment of the first and last months’ rent at the outset of the Lease, Cheltenham 
+Transportation has not made any payments of rent to Tank Car.  Id. at 923-29a.  
+ 
+F.  Trial Court’s Findings and Conclusions 
+ 
+After weighing the testimony of both Barth and Lukens, the trial court 
+concluded that a reasonable buyer of the Property would demolish the buildings on site.  
+(Trial Court Decision, May 18, 2021, Finding of Fact (FF) ¶ 82.)  The trial court found 
+that the condition of the buildings is so poor that renovation, even at a lower cost, would 
+
+13 
+be a far less desirable option, and that the fair market value of the Property is 
+appropriately determined in an “as vacant” condition.  Id.  Additionally, the trial court 
+found that the fair market value of the Property is best determined by the Sales 
+Comparison Approach.  (FF ¶ 83.)  The trial court determined that all the properties 
+used by the two appraisers for comparable sales bear significant differences, either 
+positive or negative, from the Property.  (FF ¶ 84.)  While both appraisers made 
+adjustments to reflect differences between the purportedly comparable properties and 
+the Property, the trial court was not persuaded that the amounts of the adjustments were 
+sufficient, especially where certain differences were not expressly taken into 
+consideration.  (FF ¶ 86.)  As a result, the trial court found that neither appraiser’s 
+valuation accurately states the fair market value of the Property but that, after review 
+of all the evidence and after hearing the testimony of the two appraisers, the analysis 
+by Lukens reflects the value of the Property somewhat more accurately than the 
+analysis by Barth under the Sales Comparison Approach and is entitled to slightly more 
+weight.  (FF ¶ 88.)   
+ 
+The trial court concluded that the value of the Property is $1,100,000, 
+subject to two adjustments.  (FF ¶ 89.)  First, because the trial court found that a 
+reasonable buyer would demolish the existing buildings, the Property value should 
+therefore be adjusted downward by $175,000, the estimated cost of demolition.  (FF ¶ 
+90.)  Second, the trial court accepted Lukens’ opinion that any reasonable buyer of the 
+Property would require that Act 2 liability protection be obtained, and that no buyer 
+would buy the Property without getting Act 2 clearance.  The trial court found this 
+testimony credible, especially in view of Lukens’ experience in appraising properties 
+that had experienced environmental contamination.  The trial court concluded that 
+Lukens testified credibly that the value of the Property should be adjusted downward 
+
+14 
+by the cost of the Act 2 remediation.  As a result, the trial court found that the value of 
+the Property should be adjusted downward by $258,200, based on Lukens’ estimated 
+cost of Act 2 remediation. (FF ¶ 92.)  The trial court rejected the extra 10% contingency 
+proposed by Lukens.  Subtracting these two adjustments to the valuation, the trial court 
+concluded that the fair market value of the Property as of the date of the taking was 
+$667,000. (FF ¶ 93.) 
+ 
+The trial court rejected Lukens’ application of the “environmental stigma” 
+deduction, finding that 
+ 
+[t]his figure does not reflect an additional adjustment, apart 
+from the cost of Act 2 compliance, for environmental stigma 
+or taint. It is likely that such an adjustment would be 
+appropriate, especially in view of the ongoing restrictions on 
+the use of the Property imposed by the cap. The evidence of 
+record, however, is not sufficient to determine the amount of 
+any such adjustment. Because of such failure of proof, the 
+[trial c]ourt makes no adjustment for environmental stigma. 
+(FF ¶ 94.) 
+ 
+The trial court further explained: 
+ 
+Mr. Lukens supported his 20% adjustment on the basis of a 
+purported 29% difference in value between two other 
+properties that he attributed to environmental stigma. In view 
+of the legal standard for determining a reduction in value for 
+environmental stigma, the [trial c]ourt does not consider a 
+single comparison between only one pair of properties as a 
+sufficient evidentiary foundation.  
+ 
+(FF ¶ 94, n.5) (citations omitted). 
+ 
+With regard to whether the Lease existed at the time of the taking, the trial 
+court concluded that there was no Lease in effect between Tank Car and Cheltenham 
+
+15 
+Transportation as of the date of the taking.  The trial court based its conclusion on the 
+following findings of fact: 
+ 
+ 
+26. 
+Since the issuance of the Preliminary Injunction 
+Order and the agreement with the Township, Cheltenham 
+Transportation has stored its buses exclusively on the 
+Giuliani Property and has not occupied or used the Tank Car 
+Property for any purpose. 
+ 
+ 
+27. 
+In a filing with [that the trial c]ourt, the 
+President of Tank Car has averred under penalty of law that 
+following the issuance of the Preliminary Injunction Order, 
+Cheltenham Transportation “canceled its lease with Tank 
+Car.”   
+ 
+ 
+28. 
+There does not appear to be any document 
+formally canceling the Lease []. 
+ 
+ 
+29. 
+Except for the payment of the first and last 
+months’ rent at the outset of the Lease . . . , Cheltenham 
+Transportation has not made any payments of rent to Tank 
+Car. 
+ 
+ 
+30. 
+Following the issuance of the Preliminary 
+Injunction Order, Tank Car leased a portion of the Property 
+to another tenant, notwithstanding the provision in the Lease 
+. . . with Cheltenham Transportation prohibiting any other 
+tenants on the Property. 
+ 
+ 
+31. 
+Cheltenham Transportation took no further 
+action to seek land development approval from the Township 
+for use of the Tank Car Property until April of 2015, when it 
+submitted an application for land development approval. 
+ 
+ 
+32. 
+On July 8, 2015, the Township Board of 
+Commissioners amended its Subdivision and Land 
+Development Ordinance to create a new Limited Industrial 
+zoning district (sometimes referred to as Light Industrial). 
+The Property was rezoned as Limited Industrial. Pursuant to 
+
+16 
+applicable law, this amendment did not affect Cheltenham 
+Transportation’s pending application on the Property.   
+ 
+ 
+33. 
+Cheltenham Transportation did not press its 
+application aggressively. Rather, as counsel for Cheltenham 
+Transportation acknowledged at a workshop meeting of the 
+Township Board of Commissioners on December 7, 2015, 
+the understanding was that the application would be “back-
+burnered” or withdrawn to focus on obtaining final approval 
+on use of the Giuliani Property. (Ex. P-34, p. I L) 
+ 
+ 
+34. 
+The Township Board of Commissioners 
+approved Cheltenham Transportation’s land development 
+plan for the Giuliani Property in February 2016. 
+ 
+ 
+35. 
+Under all of the circumstances, the Court finds 
+that there was no lease in effect between Tank Car and 
+Cheltenham Transportation as of the date of taking.  
+ 
+(FF ¶ ¶ 26-35.)  
+ 
+The trial court’s judgment was entered as final on December 16, 2021.  
+Both parties filed motions for post-trial relief that were denied by order dated August 
+11, 2021.   
+II. 
+TANK CAR’S APPEAL 
+A. ISSUES 
+ 
+On appeal,6 Tank Car raises four issues: 
+ 
+1. Whether the trial court erred by disregarding the long-term 
+Lease Agreement between Tank Car and Cheltenham 
+Transportation in disregard of the weight of the evidence to 
+the contrary, including, without limitation, the Township’s 
+ 
+6 This Court’s review in an eminent domain proceeding is limited to determining whether the 
+findings of fact are supported by substantial evidence and whether the trial court committed an error 
+of law.  Lehigh-Northampton Airport Authority v. Fuller, 862 A.2d 159, 164 n.1 (Pa. Cmwlth. 2004). 
+This Court may not reweigh the evidence or substitute its own judgment for that of the factfinder. 
+Swift v. Department of Transportation, 937 A.2d 1162, 1167 n.5 (Pa. Cmwlth. 2007). 
+
+17 
+admissions, and therefore erroneously disregarded said 
+Lease as probative of the highest and best use of the Property 
+and its value. 
+ 
+2. Whether the trial court erred by reducing the amount of 
+just compensation by the application of comparable sales 
+with artificially deflated values, by erroneously and 
+inconsistently rejecting Tank Car’s expert appraiser’s 
+comparables and crediting and preferring the Township’s 
+expert appraiser’s comparables. 
+ 
+3. Whether the trial court erred by deducting, dollar-for-
+dollar unsubstantiated costs related to obtaining voluntary 
+Act 2 compliance, particularly where, the trial court’s 
+reliance on B.P. Oil Co. v. Board of Assessment Appeals, 633 
+A.2d 1241 (Pa. Cmwlth. 1993), in applying a cost-to-cure 
+approach was erroneous, decisions from sister states indicate 
+that the trial court should not have considered environmental 
+remediation costs in determining just compensation, and 
+even assuming, arguendo, the trial court properly considered 
+any environmental remediation costs, it was error to do so in 
+this case because the Township’s appraiser lacked the 
+requisite knowledge to testify regarding unsubstantiated 
+costs relating to voluntary Act 2 compliance, and there was 
+therefore no evidence as to Act 2 compliance costs. 
+ 
+4. Whether the trial court erred by deducting the costs of 
+demolishing the buildings on the Property from the 
+Property’s value and, thus, just compensation, based upon (1) 
+B.P. Oil, and (2) the trial court’s finding that Tank Car’s 
+expert, Barth, utilized a “cost-to-cure” approach in valuing 
+the Property, particularly where, B.P. Oil is inapposite, Barth 
+did not utilize a “cost-to-cure” approach in applying the sales 
+comparison method instead only making certain deductions 
+in applying the income capitalization method, any need for 
+demolition would not reduce the value of the Property dollar- 
+for-dollar, and it was manifestly unreasonable for the trial 
+court to conclude that demolition was necessary based on the 
+evidence presented. 
+
+18 
+(Tank Car’s Br. at 5-6.) 
+B. ANALYSIS 
+1. Existence of the Lease as of the Date of the Taking  
+ 
+In its first issue, Tank Car argues that the trial court erred by determining 
+that the Lease was not in effect as of the date of the taking.  According to Tank Car, 
+the trial court disregarded the clear weight of the evidence and its conclusions in this 
+regard were not supported by substantial evidence.  It maintains that “[t]he [trial 
+court’s] disregard of the Lease and the highest and best use of the Property [as a leased 
+bus depot] as evidenced thereby resulted in an artificially deflated value of the 
+Property.”  (Tank Car’s Brief at 27, 30.)   
+ 
+Specifically, Tank Car argues that the trial court disregarded the testimony 
+of the Presidents of Tank Car and Cheltenham Transportation, Faust and Gordon, both 
+of whom testified that the Lease remained in effect on October 30, 2015.  Tank Car 
+further asserts that the trial court erred in relying on the statement Tank Car’s counsel 
+made in verified post-taking preliminary objections that Cheltenham Transportation 
+“canceled its lease with Tank Car.”  (R.R. at 1800a-01a.)  It also asserts that the trial 
+court erred by relying on inconclusive statements made by Cheltenham 
+Transportation’s “substitute” counsel at a Township Workshop meeting during which 
+she stated that “the Tank Car property kind of became back-burnered as we were 
+focusing on [the Giuliani Property].”  Id. at 2042a-43a.  
+ 
+Although it is not entirely clear from Tank Car’s brief, we assume Tank 
+Car is arguing that because a Lease was in existence at the time of the taking, the trial 
+court was required to conclude that use, i.e., the current use, was the highest and best 
+use of the Property.   
+
+19 
+ 
+The law governing the Court’s determination of just compensation 
+payable upon the taking of real property by eminent domain is well established.  Just 
+compensation consists of “the difference between the fair market value of the 
+condemnee’s entire property interest immediately before the condemnation and as 
+unaffected by the condemnation and the fair market value of the property interest 
+remaining immediately after the condemnation and as affected by the condemnation.”  
+Section 702(a) of the Eminent Domain Code, 26 Pa. C.S. § 702(a).  Fair market value 
+is defined as: 
+ 
+the price which would be agreed to by a willing and informed 
+seller and buyer, taking into consideration but not limited to 
+the following factors: 
+ 
+(1) The present use of the property and its value for that use. 
+ 
+(2) The highest and best reasonably available use of the 
+property and its value for that use. 
+ 
+(3) The machinery, equipment and fixtures forming part of 
+the real estate taken. 
+ 
+(4) Other factors as to which evidence may be offered as 
+provided by Chapter 11 [ 23 Pa. C.S. §§ 1101-1106] (relating 
+to evidence). 
+ 
+Section 703 of the Eminent Domain Code, 26 Pa. C.S. § 703.  
+ 
+ 
+The beneficial use of a property includes not only its present use, but also 
+all potential uses including its highest and best use. Visco v. Department of 
+Transportation, 498 A.2d 984 (Pa. Cmwlth. 1985).  In the absence of evidence to the 
+contrary, however, the presumption is that the property’s current use is the highest and 
+best use.  Id.; see also Shillito v. Metropolitan Edison Co., 252 A.2d 650 (Pa. 1969).   
+
+20 
+ 
+To the extent Tank Car argues such, the trial court was not required to 
+presume the Property’s current use (to lease it as a bus depot) is the highest and best 
+use because the Township presented evidence to contradict such theory.  Lukens 
+testified that the highest and best use of the Property was warehouse industrial 
+development.  (R.R. at 1355a-56a.)  The trial court was free to credit Lukens’ opinion.  
+Lehigh-Northampton Airport Auth. v. WBF Associates, L.P., 728 A.2d 981, 991 (Pa. 
+Cmwlth. 1999).   
+ 
+The trial court’s factual finding that the Lease was not in effect was 
+supported by substantial competent evidence.  “[T]he weight and credibility of 
+testimonial evidence is for the trial court as factfinder[.]”  Id. at 991.  The fact that there 
+may have been testimony which conflicted with the findings of the trial court is 
+irrelevant to the issue on appeal.  “It is beyond peradventure that the trial court, sitting 
+as the factfinder, is free to believe all, part or none of the evidence, to make all 
+credibility determinations, and to resolve all conflicts in the evidence.”  Laurel Road 
+Homeowners Association, Inc. v. Freas, 191 A.3d 938, 952 (Pa. Cmwlth. 2018).   
+ 
+Here, the trial court explained the basis for its conclusion that there was 
+no Lease in effect at the time of the taking in its Pa.R.A.P. 1925(a) opinion.  
+ 
+[T]he greater weight of the evidence, as presented by the 
+Township, showed that the Lease [] was not in effect. 
+Cheltenham Transportation did not act as if it had an 
+operative Lease for the Property. Except for the payment of 
+the first and last months’ rent at the outset of the Lease [], 
+Cheltenham Transportation did not make any payments of 
+rent to Tank Car. Cheltenham Transportation took no further 
+action to seek land development approval from the Township 
+for use of the Tank Car Property until April of 2015, when it 
+submitted an application for land development approval.  
+Cheltenham Transportation did not press its application 
+aggressively. 
+Rather, 
+as 
+counsel 
+for 
+Cheltenham 
+
+21 
+Transportation acknowledged at a workshop meeting of the 
+Township Board of Commissioners on December 7, 2015, 
+the understanding was that the application would be “back-
+burnered” or withdrawn to focus on obtaining final approval 
+on use of the Giuliani Property.  The Township Board of 
+Commissioners approved Cheltenham Transportation’s land 
+development plan for the Giuliani Property in February 2016.  
+ 
+The conduct of Tank Car similarly reflected an 
+understanding that the Lease . . . was not in effect. Following 
+the issuance of the Preliminary Injunction Order, Tank Car 
+leased a portion of the Property to another tenant, 
+notwithstanding the provision in the Lease . . . with 
+Cheltenham Transportation prohibiting any other tenants on 
+the Property. In a filing with this Court, the President of Tank 
+Car averred under penalty of law that following the issuance 
+of 
+the 
+Preliminary 
+Injunction 
+Order, 
+Cheltenham 
+Transportation “canceled its lease with Tank Car.” Under all 
+of the circumstances, the Court found in its Decision that 
+there was no lease in effect between Tank Car and 
+Cheltenham Transportation as of the date of taking. 
+(Trial Court’s Pa.R.A.P. 1925(a) Opinion, at 6-7) (footnotes and citations omitted). 
+ 
+At trial, the Township presented evidence that negated the existence of the 
+Lease as of the date of the taking, including: the lack of payment of rent beyond the 
+initial deposits, the lackadaisical attitude of Cheltenham Transportation in seeking 
+approval of the Township for use of the Property, the fact that Tank Car still did not 
+have the legal right to operate on the Property and had not received land development 
+approvals, and Tank Car’s leasing of a portion of the Property to another tenant.  The 
+trial court found this evidence to be credible, and it is more than sufficient to support 
+the trial court’s conclusion that the Lease was not in effect as of the date of the taking.  
+We cannot give different weight to the testimony of the witnesses or reverse the trial 
+court’s credibility determinations thereon, without assuming the fact-finding function 
+
+22 
+of the trial court.  In re Condemnation of Land for the Southeast Central Business 
+District Redevelopment Area # 1, 946 A.2d 1143, 1149 (Pa. Cmwlth. 2008).   
+ 
+2. Comparables 
+ 
+In its second issue, Tank Car argues that the trial court erroneously 
+rejected Barth’s comparables and credited and preferred Lukens’ comparables.  It 
+spends ten pages of its brief rearguing the testimony of the two experts concerning 
+valuation.  Tank Car reviews the comparable properties relied upon by the experts and 
+offers argument about why the trial court should have given more weight to Barth’s 
+opinions and less weight to Lukens’ opinions.  Once again, Tank Car misconstrues this 
+Court’s role on appeal. 
+ 
+Section 1105(2) of the Eminent Domain Code allows a qualified valuation 
+expert to testify in detail as to the valuation of a subject property on, inter alia, a 
+comparable market value basis.  26 Pa. C.S. § 1105(2).  The Eminent Domain Code 
+does not set forth specific criteria to determine what is “comparable” property.  In re 
+Right of Way for Legislative Route 1023, Section 13, Deed Book 509, Page 302, Claim 
+No. 3702545, 406 A.2d 819 (Pa. Cmwlth. 1979).  It is up to the trial court, therefore, 
+to determine whether sales of property are indeed comparable.  In re Legislative Route 
+1094, 352 A.2d 244 (Pa. Cmwlth. 1976); Commonwealth v. Fox, 328 A.2d 872 (Pa. 
+Cmwlth. 1974).  This decision must be made on a case-by-case basis.  In re Legislative 
+Route 1094, 352 A.2d at 350.   
+ 
+This Court has “acknowledged repeatedly that the valuation of property is 
+not an exact science and that it is the fact finder’s role to determine the weight to be 
+accorded an expert’s testimony in this area.”  Cedarbrook Realty, Inc. v. Cheltenham 
+Township, 611 A.2d 335, 340 (Pa. Cmwlth. 1992). As a result, the trial court’s 
+
+23 
+credibility and evidentiary weight determinations must be affirmed absent clear error. 
+Appeal of Mellon Bank, N.A., 467 A.2d 1201 (Pa. Cmwlth. 1983).  “Once a 
+determination is made that a witness is a qualified valuation expert, the credibility and 
+the evidentiary weight of that testimony is reserved for the finder of fact.”  McGaffic 
+v. Redevelopment Authority, 732 A.2d 663, 672 (Pa. Cmwlth. 1999).  “Specifically, the 
+factfinder may accept all, none or part of an expert’s testimony, part of one expert’s 
+testimony and part of another’s.”  Green v. Schuylkill County Board of Assessment 
+Appeals, 730 A.2d 1017, 1021 (Pa. Cmwlth. 1999).   
+ 
+Here, the trial court considered all the comparable properties of both 
+experts and found that all of them were significantly different than the Property. (FF  
+84.)  As a result, the trial court found that neither appraiser’s valuation accurately stated 
+the fair market value of the Property but found that Lukens’ appraisal was entitled to 
+“slightly more weight.”  (FF ¶¶ 87, 88.) The trial court appropriately considered and 
+rejected Tank Car’s arguments concerning how it weighed the expert testimony.  It 
+found that Barth’s comparables were substantially superior to the location of the 
+Property, and the properties used by Barth as comparable sales were improved by 
+buildings in substantially better condition than those on the Property.  Although Barth 
+made downward adjustments to reflect the poor condition of the Property, the trial court 
+was not persuaded that the adjustments made were sufficient.  We discern no error in 
+the trial court’s determination.  The fact that the trial court reconciled the testimony of 
+the two experts in a manner with which Tank Car disagrees does not provide a reason 
+for this Court to set aside the trial court’s findings and substitute its own findings.   
+3. Act 2 Remediation Costs 
+ 
+Tank Car argues that the trial court erred in finding that a reasonable buyer 
+would have required Act 2 remediation as part of its purchase of the Property and by 
+
+24 
+adjusting downward the Property’s value by $258,200, i.e., the estimated Act 2 
+compliance costs.  Tank Car maintains that the trial court erroneously applied the “cost 
+to cure” approach in valuing the Property based upon its reading of B.P. Oil, because, 
+in Tank Car’s view, B.P. Oil did not approve a “cost to cure” approach.  Tank Car also 
+contends the trial court should not have relied on B.P. Oil because it was a tax 
+assessment appeal case, not an eminent domain case.7  Alternatively, it asserts that the 
+trial court should not have afforded any weight to Lukens’ testimony that the estimated 
+cost for Act 2 remediation was $258,200 because Lukens improperly relied on the Penn 
+E&R estimate created for the Township for the specific purpose of bringing the 
+Property up to Department of Environmental Protection standards for a park, which it 
+submits was hearsay. 
+ 
+First, we do not agree that the trial court erred in relying on B.P. Oil.  In 
+B.P. Oil, B.P. Oil (B.P.) challenged the property tax assessment of its land by the 
+assessment board.  B.P. owned a truck stop in Jefferson County.  In 1992, the 
+assessment board determined the property had a fair market value of $2.4 million.  B.P. 
+contested the valuation, stating that the fair market value should be reduced due to 
+environmental contamination.  633 A.2d at 1242.  At trial, B.P. presented evidence that 
+the groundwater and soil on the property had been contaminated by a fuel leak from 
+underground storage tanks and pipelines.  This evidence indicated that the land was 
+contaminated with toluene, ethylbenzene, benzene, and polynuclear aromatics.  Id.  
+B.P. introduced evidence that fair market value is commonly reduced based on 
+ 
+7 Tank Car relies on several cases in other jurisdictions, including Housing Authority of the 
+City of New Brunswick v. Suydam Investors, 826 A.2d 673, 685 (N.J. 2003) and Department of 
+Transportation v. Parr, 633 N.E.2d 19 (Ill. App. 1994), to support its argument that the trial court 
+should not have considered remediation costs when valuing the Property. Because we find the “cost 
+to cure” approach to valuation of contaminated properties is valid in Pennsylvania we need not look 
+to these other jurisdictions to decide the issue.   
+ 
+
+25 
+environmental factors.  Additionally, it elicited expert testimony that it would take five 
+years and $653,370 to clean up the contamination.  Id. at 1243.  B.P. also introduced 
+the testimony of a real estate appraiser who, using the Cost to Cure Approach to 
+determine fair market value, testified that “fair market value of the property is 
+calculated by subtracting the cost to cure the contamination from the value the property 
+would have if it were not contaminated.”  Id.  B.P.’s appraiser estimated the property 
+value under the Cost to Cure Approach to be $1,586,833, minus the estimated $653,370 
+for decontamination, bringing the proper valuation for tax assessment purposes to 
+$933,630.  The trial court concluded that B.P. failed to satisfy its burden of proving the 
+assessment was invalid and upheld the board’s assessment.   
+ 
+On appeal to this Court, B.P. argued that it had presented sufficient 
+evidence to show that the assessment was inaccurate and that the board did not consider 
+the impact of environmental contamination on the fair market value of the property.  
+We accepted the approach of B.P.’s appraiser that “the fair market value of the property 
+is calculated by subtracting the cost to cure the contamination from the value the 
+property would have if it were not contaminated.”  633 A.2d at 1243.  As a result, this 
+Court concluded that the landowners had presented “sufficient evidence to overcome 
+the prima facie validity of the [b]oard’s assessment.”  Id.  Vacating the tax assessment 
+and remanding the case for an assessment that was consistent with B.P.’s evidence, we 
+explained,  
+ 
+[B.P.’s] appraiser testified that the fair market value of the 
+property in an uncontaminated state was $1,586,833.00; 
+subtracting 
+the 
+$653,370.00 
+needed 
+to 
+cure 
+the 
+contamination from that figure reduces the fair market value 
+of the property to $933,630.00.  To rebut [B.P.’s] evidence, 
+the [b]oard introduced the testimony of the assistant assessor 
+of Jefferson County. The assessor testified that he calculated 
+the fair market value of the property to be $2,400,000.00. The 
+
+26 
+assessor testified that he did not consider environmental 
+contamination, when he determined the value of the property. 
+In light of the above, we conclude that [B.P.] introduced 
+sufficient evidence to overcome the prima facie validity of 
+the [b]oard’s assessment. 
+Id. at 1243. 
+ 
+B.P. Oil thus clearly approves of the Cost to Cure Approach in the 
+valuation of contaminated property, as applied in this case. 
+ 
+In Harley-Davidson Motor Co. v. Springettsbury Township, 124 A.3d 
+270, 284 (Pa. 2015), our Supreme Court recognized that we used the Cost to Cure 
+Approach in B.P. Oil and expressly declined to further rule on whether that approach 
+“should be embraced in this Commonwealth.”  The Supreme Court’s ruling, or refusal 
+to rule, does not undermine our holding in B.P. Oil.  Rather, the law as determined by 
+the Commonwealth Court remains the binding law of Pennsylvania unless or until it is 
+overruled or modified by the Supreme Court.  See Stackhouse v. Stackhouse, 862 A.2d 
+102, 105 (Pa. Super. 2004) (“Decisions of the Commonwealth Court . . . remain 
+precedential in trial courts across the Commonwealth . . . absent affirmative direction 
+from the Supreme Court.”).  Accordingly, we find the Cost to Cure Approach is valid 
+under Pennsylvania law and the trial court did not err in applying it.8  Further, although 
+B.P. Oil involved the valuation of property “for tax purposes,” 633 A.2d at 1243, Tank 
+Car has provided no argument on why the same principle would not apply equally to 
+valuation for purposes of a condemnation.   
+ 
+Next, Tank Car’s challenge to Lukens’ reliance on the Penn E&R estimate 
+ignores law that allows Lukens to rely upon reports of others not in evidence (i.e., 
+ 
+8 Moreover, as the trial court pointed out, Tank Car’s expert Barth utilized this very approach, 
+which Tank Car now seeks to discredit, in analyzing one of his comparable sales, i.e., 504 Swedeland 
+Road in Upper Merion Township.  Barth subtracted from the value, the cost of installing a new “skin” 
+on the building on the property because any buyer of the property would require such work to be 
+done. 
+
+27 
+inadmissible hearsay) provided the reports are of the type customarily relied on by the 
+expert in the field in forming opinions.  Betters v. Beaver County, 200 A.3d 1044, 1049 
+(Pa. Cmwlth. 2018).   
+ 
+The Eminent Domain Code expressly permits this practice.  See 26 Pa. 
+C.S. § 1105(1) (“A qualified valuation expert may, on direct or cross-examination, state 
+any or all facts and data which the expert considered in arriving at an opinion, whether 
+or not the expert has personal knowledge of the facts and data, and a statement of the 
+facts and data and the sources of information shall be subject to impeachment and 
+rebuttal.”).  “When the expert witness has consulted numerous sources, and uses that 
+information, together with his own professional knowledge and experience, to arrive at 
+his opinion, that opinion is regarded as evidence in its own right and not as 
+[inadmissible] hearsay in disguise.”  Woodard v. Chatterjee, 827 A.2d 433, 444-45 (Pa. 
+Super. 2003).9   
+ 
+Here, in arriving at an estimate of the cost for securing an Act 2 release of 
+liability, Lukens testified that the Penn E&R estimate, upon which he relied, was the 
+type of report reasonably relied upon by experts in his field. (R.R. at 1338a-39a.)  
+Accordingly, we conclude that the trial court properly considered the evidence.10 
+ 
+9 Tank Car also argues that the trial court’s factual findings should be overturned based upon 
+the Appraisal Foundation’s Advisory Opinion AO-9 attached to its Brief as an appendix. See Tank 
+Car’s Br. at pp. 67-71.  However, this document was not admitted into evidence, the trial court was 
+not made aware of the document, and no testimony was presented as to its contents or authoritative 
+character.  Therefore, we find the issue waived.   Moreover, we note that we have previously rejected 
+other attempts to have industry literature elevated to the status of the law.  See Parkside Townhomes 
+Association v. Board of Assessment Appeals of York County, 711 A.2d 607, 611 (Pa. Cmwlth. 1998) 
+(rejecting application of definitions in The Appraisal of Real Estate which were not in the law). 
+ 
+10 To the extent Tank Car argues that the trial court erred in finding that a reasonable buyer 
+would require Act 2 remediation in view of the environmental history of the Property and the presence 
+of hazardous materials under the cap, (FF ¶ 91), we note that the trial court’s factual finding in this 
+(Footnote continued on next page…) 
+
+28 
+4. Cost of Demolishing the Warehouse  
+ 
+In its final issue, Tank Car argues that the trial court erred by deducting 
+the costs of demolishing the warehouse from the Property’s value and adjusting the 
+Property’s value downward by $175,000.   
+ 
+According to the trial court, Lukens testified credibly that the buildings 
+were in such poor condition that any reasonable buyer would want to demolish rather 
+than renovate them.  He also testified that the estimated cost of demolition would be 
+$175,000 and that the value of the Property should therefore be adjusted downward by 
+this amount.  Based on Lukens’ testimony, the trial court concluded that the condition 
+of the existing buildings is so poor that renovation, even at a lower cost, would be a far 
+less desirable option and that the fair market value of the Property is appropriately 
+determined in an “as vacant” condition.  (FF ¶ 82.)   
+ 
+As we discussed, the “cost to cure” approach is valid under Pennsylvania 
+law and, in fact, Tank Car’s expert, Barth, applied the approach in analyzing one of his 
+comparable sales, 504 Swedeland Road in Upper Merion Township.  Specifically, 
+Barth subtracted from the value the cost of installing a new “skin” on the building on 
+that property because in his opinion any reasonable buyer would require that such work 
+be done prior to purchase.  Although the trial court was not persuaded that such a “re- 
+skinning” was practical for the Property, the fact remains that Barth, like Lukens, 
+applied the “cost to cure” approach that Tank Car now seeks to discredit.  Accordingly, 
+we find this issue to be without merit.  
+ 
+III. 
+TOWNSHIP’S APPEAL 
+ 
+regard is actually supported by the opinion of Tank Car’s own expert, Barth, who acknowledged that 
+“willing and informed buyers are reluctant to acquire environmentally contamnated property without 
+some liability protection.”  (R.R. at 1175a.) 
+
+29 
+ 
+In its cross-appeal, the Township raises one issue: whether the trial court 
+erred in determining that the evidence relied upon by Lukens was insufficient as a 
+matter of law to support a deduction for environmental stigma in determining the 
+Property’s fair market value.   
+ 
+In Harley-Davidson, the school district’s appraiser applied a 5% 
+downward adjustment to account for the “stigma” arising from the prior environmental 
+contamination of the property.  The Supreme Court explained the reasons why the trial 
+court’s credit of the appraiser’s testimony was proper:   
+ 
+[W]hile consideration of an environmental stigma may be 
+examined when determining fair market value, expert 
+testimony of such stigma may not be offered without any 
+foundation. 
+ 
+While a close call, we conclude that, considering the 
+inherently imprecise nature of environmental stigma, [the 
+appraiser’s] 5% devaluation in the instant case was not based 
+upon pure conjecture.  Rather, [the appraiser’s] testimony 
+suggests that it is standard practice in the appraisal 
+community to apply a 5% reduction in the context of 
+commercial/industrial property (and a higher reduction for 
+residential property). . . .  [The appraiser’s] testimony 
+reflected his appraisal experience and professional judgment, 
+which a court is entitled to accept. While an expert’s opinion 
+may not be based upon pure conjecture, we conclude that an 
+appraisal expert’s best efforts to quantify a reduction in 
+property valuation as a result of a subjective and intangible 
+stigma is permissible. As [the appraiser’s] opinion regarding 
+the environmental stigma associated with the property was 
+not based upon improper factors, erroneous assumptions, or 
+facts outside of the record, the trial court’s crediting of this 
+testimony was proper, and the Commonwealth Court’s 
+rejection of this expert testimony as unsupported was in 
+error. 
+
+30 
+Id. at 286 (emphasis added) (citation omitted).  
+ 
+Instantly, the trial court’s finding that Lukens’ testimony was not 
+sufficiently persuasive to support a 20% reduction absent testimony of a standard 
+practice was entirely consistent with Harley-Davidson.  The only basis Lukens gave 
+for fixing the amount of the stigma reduction at 20% was his comparison to two similar 
+industrial properties, one that had no environmental history and the other one that had 
+been contaminated and then remediated.  The trial court did not credit Lukens’ 
+testimony because he did not testify that it was standard practice in the appraisal 
+community to apply the 20% reduction to reflect the stigma attached to a previously 
+contaminated property.  The trial court explained that, in the absence of any testimony 
+of a specific percentage reduction that is “standard practice” for reflecting 
+environmental stigma, a data set of only one pair of properties was not sufficient to 
+persuade the trial court to apply a reduction by such a substantial factor as 20%.  We 
+discern no error in this rationale and conclusion.  
+ 
+IV. 
+CONCLUSION 
+ 
+Based on the foregoing reasons, we affirm the judgment of the trial court. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+________________________________ 
+ 
+ 
+ 
+ 
+PATRICIA A. McCULLOUGH, Judge 
+
+ 
+IN THE COMMONWEALTH COURT OF PENNSYLVANIA 
+ 
+Tank Car Corporation of America, 
+: 
+CONSOLIDATED CASES 
+ 
+ 
+ 
+Appellant 
+: 
+ 
+ 
+ 
+ 
+ 
+: 
+ 
+ 
+v. 
+ 
+ 
+: 
+No. 1043 C.D. 2021 
+ 
+ 
+ 
+ 
+: 
+ 
+Springfield Township 
+ 
+: 
+ 
+ 
+ 
+ 
+ 
+: 
+ 
+ 
+ 
+ 
+: 
+Tank Car Corporation of America 
+: 
+ 
+ 
+ 
+ 
+: 
+ 
+ 
+v. 
+ 
+ 
+: 
+No. 1096 C.D. 2021 
+ 
+ 
+ 
+ 
+: 
+Springfield Township, 
+ 
+: 
+ 
+ 
+ 
+ 
+Appellant 
+: 
+ 
+ 
+ORDER 
+ 
+ 
+ 
+ 
+AND NOW, this 19th day of  October, 2023, the December 16, 2021 
+judgment of the Montgomery County Court of Common Pleas is hereby 
+AFFIRMED. 
+ 
+ 
+ 
+ 
+ 
+ 
+________________________________ 
+ 
+ 
+ 
+ 
+PATRICIA A. McCULLOUGH, Judge 
+ 
+ 
+ 
+ 

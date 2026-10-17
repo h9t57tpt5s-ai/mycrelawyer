@@ -1,0 +1,883 @@
+ 
+ 
+ 
+ 
+ 
+ 
+COURT OF APPEALS 
+SECOND DISTRICT OF TEXAS 
+FORT WORTH 
+ 
+NO. 02-16-00144-CV 
+ 
+ 
+THE STATE OF TEXAS 
+ 
+APPELLANT 
+ 
+V. 
+ 
+SPEEDWAY GRAPEVINE I, LLC, A 
+TEXAS LIMITED LIABILITY 
+COMPANY, AND FIRST 
+COMMERCIAL BANK, N.A. 
+ 
+APPELLEES  
+ 
+ 
+---------- 
+ 
+FROM COUNTY COURT AT LAW NO. 1 OF TARRANT COUNTY 
+TRIAL COURT NO. 2014-000122-1 
+---------- 
+OPINION 
+---------- 
+I.  INTRODUCTION 
+ 
+Appellant The State of Texas appeals from a judgment rendered on a jury 
+verdict in this cause to statutorily condemn a strip of land owned by Appellee 
+
+2 
+ 
+Speedway Grapevine I, LLC, a Texas Limited Liability Company.1  In addition to 
+challenging the jury’s finding of damages to the remainder property, the State 
+contests the trial court’s rulings admitting the valuation opinion of the property 
+owner’s representative and the damage opinions of the property owner’s 
+appraisal expert.  Because the evidence is legally and factually sufficient to 
+support the jury’s finding, and because the trial court acted within its discretion by 
+admitting the challenged testimony, we will affirm. 
+II.  BACKGROUND 
+A. 
+Speedway’s Property 
+ 
+Speedway owned a 1.123-acre tract (measuring 48,916 square feet) 
+located on the north side of Grapevine Mills Boulevard, just east of FM 2499 in 
+Grapevine.  The property is improved with a tunnel-style car wash and an 
+express lube.  The west side of the property contains a row of five vacuum 
+islands covered by a canopy (positioned north to south) and an access driveway 
+that Speedway shares with a fast-food restaurant next door.  As the following 
+image demonstrates, to access the car wash, a vehicle heads north along the 
+shared-access driveway, then east along the north side of the property, then 
+                                                 
+1Appellee First Commercial Bank, Speedway’s mortgagee, provided a 
+notice disclaiming any interest in this proceeding, including any award of 
+damages. 
+
+3 
+ 
+south through the car wash, and then west along a two-way driveway after 
+exiting the car wash: 
+ 
+To access the express lube, alternatively, the following image shows that a 
+vehicle immediately turns right onto the two-way driveway heading east, then 
+north into the lube center, then south after exiting the express lube either through 
+
+4 
+ 
+the car wash or around it via an escape lane, and then west along the same two-
+way driveway used to access the lube station from the opposite direction: 
+ 
+Speedway’s property complied with the City of Grapevine’s zoning regulations, 
+including a twenty-five foot landscaping buffer zone at the front of the property 
+and a fifty-foot building setback line. 
+ 
+
+5 
+ 
+B. 
+The Condemnation 
+In connection with an improvement project on FM 2499, and in order to 
+widen Grapevine Mills Boulevard, the State sought to acquire a twenty-foot wide 
+strip of land (measuring 4,189 square feet) along the front of Speedway’s 
+property.  The following image depicts Speedway’s property (outlined in yellow) 
+and the part that the State sought to acquire (highlighted in red): 
+ 
+
+6 
+ 
+Unable to reach an agreement with Speedway on the value of the part to 
+be acquired, in January 2014, the State filed a petition to condemn the strip of 
+land.  The trial court then appointed special commissioners, who awarded 
+damages in the amount of $954,285.00.  The State filed an objection to the 
+special commissioners’ award, deposited the funds into the registry of the court, 
+took possession of the property, and proceeded with its construction plans.  
+Speedway withdrew the funds several months later. 
+C. 
+Motions to Exclude Testimony 
+ 
+Both sides filed pretrial motions to exclude certain testimony.  Regarding 
+Grant Wall, the State’s appraisal expert, Speedway sought to exclude his opinion 
+testimony about the sales-comparison approach that he performed because he 
+did not include the value of Speedway’s equipment when appraising the market 
+value of Speedway’s property.  The trial court agreed and excluded Wall’s sales-
+comparison approach but not his cost approach. 
+Andrew McRoberts was Speedway’s appraisal expert.  The State argued 
+that he had speculatively opined about how the City of Grapevine would treat 
+Speedway’s post-condemnation nonconforming property, that Texas law did not 
+recognize his income approach, and that he had improperly relied upon 
+noncompensable impairment of access in forming his opinions.  The trial court 
+
+7 
+ 
+excluded McRoberts’s income approach but not his cost approach.  It also 
+confirmed that McRoberts could testify about several post-condemnation issues 
+affecting Speedway’s property, including internal circulation difficulties, unsafe 
+access, and nonconformance with zoning regulations.  Speedway, for its part, 
+stipulated that it would not elicit testimony about increased circuity, elimination of 
+a median cut turn lane, or denial or impairment of access. 
+ 
+The State additionally sought to exclude the valuation opinion of Gerald 
+“Skipper” High, Speedway’s representative.  It argued that he lacked relevant 
+underlying data about two purported comparable sales that he had relied upon to 
+value Speedway’s property.  The trial court denied the State’s motion. 
+D. 
+Trial 
+ 
+1. 
+Speedway’s Witnesses 
+ 
+ 
+a. 
+John DeShazo 
+Speedway hired John DeShazo, a traffic engineer, to assess the impact of 
+the State’s condemnation on vehicles entering and exiting the car wash and 
+express lube.  He identified two post-condemnation issues that, in his opinion, 
+affected the safety of the drivers on the property.  The first involved a reduction in 
+the shared-access driveway’s throat depth—the area between the curb line and 
+the first cross drive.  Before the condemnation, the throat depth measured thirty-
+
+8 
+ 
+seven feet; after the condemnation, it measures thirteen feet.  According to 
+DeShazo, the reduction means that when a car turns left from the two-way 
+driveway located along the southern side of the property onto the shared-access 
+driveway, insufficient space exists for the vehicle to position itself perpendicular 
+to Grapevine Mills Boulevard, causing the angled vehicle attempting to exit the 
+property to block vehicles attempting to enter. 
+The other post-condemnation safety issue that DeShazo identified 
+concerned vehicles that utilize the two-way driveway on the southern part of the 
+property.  He explained that before the taking, when a vehicle heading to the 
+express lube turned right onto the two-way driveway, sufficient space existed for 
+each vehicle to remain on its side of the driveway.  However, after the 
+condemnation, when a vehicle turns right onto the two-way driveway, it will 
+necessarily sweep over into the outbound side’s lane. 
+ 
+ 
+b. 
+Robert Baldwin 
+ 
+Robert Baldwin, an urban planning and zoning consultant, testified that 
+Speedway’s property complied with the City of Grapevine’s zoning regulations 
+before the condemnation but that afterwards, it neither meets the requirement for 
+a twenty-five foot landscaping buffer zone nor contains the required minimum 
+percentage of open space; the condemnation, in his words, caused a “tumbling 
+
+9 
+ 
+effect and move[d] everything north.”  Baldwin also opined that an exemption for 
+property that becomes nonconforming as a result of a government’s right-of-way 
+acquisition would not apply to Speedway’s property.  Ultimately, Baldwin thought 
+that Speedway had four options:  (1) seek a variance from the City of 
+Grapevine’s Board of Adjustment, (2) seek to amend the site plan attached to 
+Speedway’s conditional-use permit, (3) reconfigure the site by removing part of 
+the car wash building, or (4) do something completely different with the property. 
+ 
+ 
+c. 
+High 
+ 
+High, Speedway’s representative, testified about his experience in the car 
+wash industry, the reasons why Speedway located the car wash where it did, the 
+market value of the whole property, problems with a cure plan devised for the 
+State, and the viability of the car wash after the condemnation.  High opined that 
+the market value of Speedway’s property before the State’s condemnation was 
+“[j]ust over [$]5.4 million.”  He based his opinion, in part, on two car wash sales 
+that occurred six and nine months after the State acquired Speedway’s 
+property—one that sold for $4.9 million and the other that sold for $5.25 million.  
+
+10 
+ 
+High opined that Speedway’s property was no longer viable as a car wash 
+because the condemnation had altered the site’s ability to function as such.2 
+d. 
+McRoberts 
+ 
+McRoberts, Speedway’s appraisal expert, utilized the cost approach to 
+value Speedway’s property.  Relying on four land sales, and after making 
+adjustments, he valued the land at $24.75 per square foot for a pre-
+condemnation value of $1,200,000.00 (rounded).  For the improvements to the 
+property, including the car wash and express lube buildings, he calculated a 
+depreciated value of $2,008,070.00.  Those figures taken together, and rounded, 
+McRoberts opined that before the condemnation, Speedway’s entire property 
+had a market value of $3,200,000.00. 
+ 
+For the value of the part condemned, McRoberts again valued the land at 
+$24.75 per square foot, for a value of $103,678.00.  For the value of the site 
+improvements within the part condemned, McRoberts calculated a depreciated 
+value of $35,724.00.  McRoberts thus opined that the condemned part had a total 
+value of $139,402.00.  Considering his calculations for the value of the entire 
+                                                 
+2High did not offer any other opinions about the value of Speedway’s 
+property, including the value of the part condemned, the value of the remainder 
+property after condemnation, or the amount of any damages sustained by the 
+remainder property.  
+
+11 
+ 
+property before the condemnation ($3,200,000.00) and the value of the part 
+condemned ($139,402.00), McRoberts opined that before the condemnation, the 
+remainder property had a market value of $3,060,598.00. 
+ 
+In calculating the value of the remainder property after the condemnation, 
+McRoberts opined that the property’s functionality had been affected to such an 
+extent that it had experienced a change in its highest and best use from a car 
+wash to something else, like a small veterinary clinic or an office.  McRoberts 
+concluded, therefore, that the land had a reduced value of $14.00 per square 
+foot, for a value of $626,178.00 (44,727 square feet); that the building and site 
+improvements had no value, except for $15,000.00 in salvage value; and that 
+after the condemnation, the remainder property had a market value of 
+$641,178.00.  Considering his calculations for the value of the remainder 
+property before the condemnation ($3,060,598.00) and the value of the 
+remainder property after the condemnation ($641,178.00), McRoberts opined 
+that Speedway’s remainder property had sustained damages in the amount of 
+$2,419,420.00.  McRoberts then added $190,000.00 to that figure for the cost to 
+demolish the improvements, for a total damage opinion of $2,609,420.00.  
+Adding the value of the part condemned to that figure, McRoberts opined that 
+Speedway was entitled to compensation in the total amount of $2,748,822.00. 
+
+12 
+ 
+ 
+2. 
+The State’s Witnesses 
+ 
+ 
+a. 
+Ronan O’Connor and Stan Himes 
+Ronan O’Connor, a land planner, evaluated Speedway’s property both 
+before and after the condemnation and devised a conceptual plan to address 
+some of the internal circulation and nonconformance issues caused by the 
+condemnation.3  His cure plan proposed moving the western portion of the two-
+way driveway north by eliminating the southern-most vacuum island, shifting a 
+nearby landscape island north, and adding a “bubble”-shaped area of 
+landscaping to the southwest part of the property.  According to O’Connor, the 
+plan would restore the function of the throat depth and eliminate the conflict 
+between vehicles entering and exiting the two-way driveway.  He admitted, 
+however, that the cure plan would not alleviate the property’s post-condemnation 
+failure to comply with the twenty-five foot landscaping buffer-zone requirement 
+and the fifty-foot building setback-line requirement, but he figured that the 
+exemption for properties that become nonconforming as a result of a 
+                                                 
+3O’Connor acknowledged that after the condemnation, when a vehicle 
+turns right onto the two-way driveway heading east for the express lube, it will 
+“run into,” or come “nose to nose,” with a vehicle attempting to exit the two-way 
+driveway onto the shared-access driveway. 
+
+13 
+ 
+government’s right-of-way acquisition would apply to Speedway’s property.  Stan 
+Himes estimated the hard costs of O’Connor’s cure plan to be $131,421.00. 
+ 
+ 
+b. 
+Ron Stombaugh 
+ 
+Ron Stombaugh, Assistant Director of Development Services for the City 
+of Grapevine, testified that a landowner whose property failed to comply with the 
+City of Grapevine’s landscaping buffer-zone requirement or building setback-line 
+requirement could seek either a variance or to amend its conditional-use permit 
+but that Speedway had done neither.4  Stombaugh had several conversations 
+with High about Speedway’s property, but he never told High that he could not 
+request a variance or attempt to amend Speedway’s conditional-use permit.  As 
+for Speedway’s post-condemnation property nonconformities, like O’Connor, 
+Stombaugh opined that the property would be “grandfathered” under the 
+exemption for properties that become nonconforming as a result of a 
+government’s right-of-way acquisition. 
+ 
+ 
+c. 
+Wall 
+ 
+Using the cost approach to value Speedway’s property, Wall, the State’s 
+appraisal expert, valued the land at $22.00 per square foot for a pre-
+                                                 
+4In fact, Stombaugh recounted that several years ago, the City of 
+Grapevine had approved changes to a different car wash that had been affected 
+by a road-widening project. 
+
+14 
+ 
+condemnation value of $1,076,152.00.  Wall valued the buildings at $897,325.00 
+and the site improvements at $548,326.00, for a combined depreciated value of 
+$1,445,651.00.  Those figures taken together, Wall opined that before the 
+condemnation, Speedway’s entire property had a market value of $2,521,803.00. 
+ 
+For the value of the part condemned, Wall again valued the land at $22.00 
+per square foot, for a value of $92,158.00.  For the value of the site 
+improvements within the part condemned, Wall calculated a depreciated value of 
+$67,631.00.  Wall thus opined that the condemned part had a total value of 
+$159,789.00.  Considering his calculations for the value of the entire property 
+before the condemnation ($2,521,803.00) and the value of the part condemned 
+($159,789.00), Wall opined that before the condemnation, the remainder property 
+had a market value of $2,362,014.00. 
+ 
+In calculating the value of the remainder property after the condemnation, 
+Wall concluded that O’Connor’s cure plan would resolve the post-condemnation 
+internal circulation issues affecting the property, that removing a single vacuum 
+island would not adversely affect the property’s value, and that the property 
+would be entitled to an exemption insofar as it was nonconforming.  Wall 
+therefore opined that the value of the remainder property had not changed after 
+the condemnation—he valued the land at $22.00 per square foot for a value of 
+
+15 
+ 
+$983,994.00 (44,727 square feet) and the depreciated buildings and site 
+improvements at $1,378,020.00 ($897,325.00 plus $548,326.00 less $67,631.00) 
+for a total remainder value of $2,362,014.00.  Considering his calculations for the 
+value of the remainder property before the condemnation ($2,362,014.00) and 
+the value of the remainder property after the condemnation ($2,362,014.00), Wall 
+opined that Speedway’s remainder property had sustained damages in the 
+amount of $0, excluding a total cost to cure of $105,826.00.5  Considering that 
+figure and the value of the part condemned ($159,789.00), Wall opined that 
+Speedway was entitled to total compensation in the amount of $265,615.00. 
+ 
+3. 
+Verdict and Judgment 
+ 
+The jury found that the part condemned had a market value of $92,190.00 
+and that Speedway’s remainder property had sustained damages in the amount 
+of $4,401,028.00.  Considering those findings, and the State’s entitlement to a 
+credit for the amount that it had deposited into the registry of the court 
+($954,285.00.), the trial court signed a final judgment in favor of Speedway for 
+$3,538,933.00, plus prejudgment interest.  The trial court denied the State’s 
+motion for new trial. 
+ 
+                                                 
+5High thought Wall’s remainder-damages opinion was “ludicrous.” 
+
+16 
+ 
+III.  ADMISSIBILITY OF HIGH’S VALUATION OPINION 
+ 
+In its first issue, the State argues that the trial court erred by admitting 
+High’s opinion that the market value of Speedway’s property before the State’s 
+condemnation was “[j]ust over [$]5.4 million.”  The State acknowledges that a 
+property owner may testify to the value of his property, as High did here, but it 
+stresses that the owner’s valuation testimony must still meet the same 
+requirements as any other opinion evidence and provide a valid factual basis to 
+support the opinion.  The State contends that the trial court should have excluded 
+High’s valuation opinion as irrelevant and unreliable, and also conclusory and 
+speculative, because he based his opinion on two “allegedly comparable” 
+sales—the $5.25 million sale of the Parkway Auto Spa in McKinney and the $4.9 
+million sale of the Auto Splash Car Wash in Frisco—but failed to provide a valid 
+factual basis to show (1) that the sales were similar to Speedway’s property and 
+(2) that he had made adjustments to the sales to account for differences between 
+those properties and Speedway’s.6 
+                                                 
+6The State references some of High’s pre-trial admissions, but it largely 
+relies on his trial testimony.  We will also consider High’s trial testimony.  See, 
+e.g., Exxon Pipeline Co. v. Zwahr, 88 S.W.3d 623, 629‒31 (Tex. 2002) 
+(considering expert’s trial testimony in determining whether trial court erred by 
+admitting expert’s opinion). 
+
+17 
+ 
+ 
+Speedway responds the trial court acted within its broad discretion by 
+admitting High’s $5.4 million valuation opinion.  It argues that High had no 
+obligation to offer evidence of comparable sales and that by offering evidence of 
+other, unchallenged bases to support his opinion, he met his light burden under 
+the Property Owner Rule to provide a sufficient foundation for his opinion.  
+Alternatively, Speedway argues that High’s testimony nevertheless satisfied the 
+standards for comparable sales. 
+A. 
+Expert Appraisal Testimony and the Property Owner Rule 
+ 
+When, as here, a condemnor takes only a portion of a landowner’s 
+property, the landowner is entitled to compensation in the amount of the market 
+value of the part taken, plus the damage to the remainder caused by the 
+condemnation, if any.  Zwahr, 88 S.W.3d at 627.  “Under a comparable sales 
+analysis, the appraiser finds data for sales of similar property, then makes 
+upward or downward adjustments to these sales prices based on differences in 
+the subject property.”  City of Harlingen v. Estate of Sharboneau, 48 S.W.3d 177, 
+182 (Tex. 2001). 
+Ordinarily, market value is established through expert testimony.  Reid Rd. 
+Mun. Util. Dist. No. 2 v. Speedy Stop Food Stores, Ltd., 337 S.W.3d 846, 851‒52 
+(Tex. 2011).  Like expert testimony on any other matter, an expert appraisal 
+
+18 
+ 
+witness in a condemnation action must not only be qualified, but his testimony 
+must be relevant and based upon a reliable foundation.  Guadalupe-Blanco River 
+Auth. v. Kraft, 77 S.W.3d 805, 807 (Tex. 2002); see E.I. du Pont de Nemours & 
+Co. v. Robinson, 923 S.W.2d 549, 556 (Tex. 1995).  Expert testimony is relevant 
+when it is “sufficiently tied to the facts of the case that it will aid the jury in 
+resolving a factual dispute.”  Robinson, 923 S.W.2d at 556 (quoting United States 
+v. Downing, 753 F.2d 1224, 1242 (3d Cir. 1985)).  In assessing reliability, a court 
+examines the principles, research, and methodology underlying the expert’s 
+conclusions.  Zwahr, 88 S.W.3d at 629; see Gammill v. Jack Williams Chevrolet, 
+Inc., 972 S.W.2d 713, 727‒28 (Tex. 1998) (reasoning that expert testimony is 
+also unreliable if there is too great an analytical gap between the data relied upon 
+and the opinion).  Once an opposing party objects to proffered expert testimony, 
+the proponent of the witness’s testimony bears the burden to demonstrate its 
+admissibility.  Kraft, 77 S.W.3d at 807. 
+The Property Owner Rule “is an exception to the requirement that a 
+witness must otherwise establish his qualifications to express an opinion on land 
+values.”  Nat. Gas Pipeline Co. of Am. v. Justiss, 397 S.W.3d 150, 157 (Tex. 
+2012).  Based on the presumptions that an owner is familiar with his property and 
+will know its value, the Rule accepts that a property owner is qualified to testify 
+
+19 
+ 
+about the value of his property, even if he is not an expert.  Reid Rd. Mun. Util. 
+Dist. No. 2, 337 S.W.3d at 852‒53.  Thus, “[u]nder the Rule, an owner’s valuation 
+testimony fulfills the same role that expert testimony does.”  Justiss, 397 S.W.3d 
+at 157. 
+But while a property owner is qualified to offer a valuation opinion, the 
+testimony must nevertheless meet the “same requirements as any other opinion 
+evidence.”  Id. at 156 (quoting Porras v. Craig, 675 S.W.2d 503, 504 (Tex. 
+1984)).  The property owner “must provide the factual basis on which his opinion 
+rests.”  Id. at 159.  Bare conclusions and speculative testimony are not probative 
+evidence in any context, including when an owner offers an opinion about the 
+market value of his property.  See id. (“An owner may not simply echo the phrase 
+‘market value’ and state a number to substantiate his diminished value claim.”); 
+see also Coastal Transp. Co. v. Crown Cent. Petroleum Corp., 136 S.W.3d 227, 
+232 (Tex. 2004).  The property owner’s burden “is not onerous.”  Justiss, 397 
+S.W.3d at 159.  “Evidence of price paid, nearby sales, tax valuations, appraisals, 
+online resources, and any other relevant factors may be offered to support the 
+claim.”  Id.; Redman Homes, Inc. v. Ivy, 920 S.W.2d 664, 669 (Tex. 1996) 
+(“[E]vidence is probative if it is based on the owner’s estimate of market value 
+and not some intrinsic or other value such as replacement cost.”).  The trial court 
+
+20 
+ 
+has broad discretion to admit or exclude evidence, and we will reverse only if it 
+abuses that discretion.  Zwahr, 88 S.W.3d at 629. 
+B. 
+High’s Testimony, Considered in Its Entirety, Established a Valid 
+Factual Basis for His Valuation Opinion 
+ 
+ 
+The State dissects High’s testimony about the $5.25 million and $4.9 
+million comparable sales that he relied upon in forming his valuation opinion, as if 
+it was the only source of evidence to support his opinion.  But Speedway’s 
+attorney did not simply call High to the stand, elicit testimony about only the value 
+of Speedway’s property and the two comparable sales, and then pass High for 
+cross-examination.  High’s testimony covered a range of topics that, taken 
+together, provided some probative evidence to factually support his valuation 
+opinion. 
+ 
+The first thing that is immediately apparent from High’s testimony is his 
+great level of experience in, and knowledge about, the car wash industry.  High 
+first became involved in the industry at the young age of thirteen.  Still active in 
+the business forty years later, he operates eight car washes located in multiple 
+cities around the Metroplex and employs about 180 employees.  When 
+Speedway’s attorney questioned High about the numerous car wash properties 
+that Wall had examined to conclude that eliminating one of Speedway’s vacuum 
+islands would not adversely affect the value of Speedway’s property, High 
+
+21 
+ 
+demonstrated familiarity with each of the other properties—he explained, “I’ve 
+been in the business a long time.  I’m very familiar with most car wash sites”—
+and even knew one of the owners on a first-name basis.  See Banker v. Banker, 
+517 S.W.3d 863, 872‒73 (Tex. App.—Corpus Christi 2017, pet. denied) 
+(considering husband’s “personal knowledge from a decade of ownership and a 
+lifetime of experience and education in the livestock auction market” in 
+concluding that husband met burden to invoke property owner rule). 
+ 
+Regarding Speedway’s property, High testified that he chose the location 
+for the car wash because it was “highly visible” to nearby FM 2499, there were no 
+“developed car washes” in the area, and there was “good population, good 
+demographics” in the area.  High explained that in designing the property, they 
+tried to optimize the site so that the car wash and express lube would work in 
+harmony with one another.  As for the quality of the buildings, he testified that 
+“we wanted to build something that was complimentary to the neighborhood, 
+high-grade construction material that would endure a long economic life.”  High 
+implemented the same approach for the car wash’s equipment, electing to use 
+high quality, long lasting Hanna equipment and to implement an “environmentally 
+friendly” “dual reclaim system” that is “a step above” the single-reclaim system 
+
+22 
+ 
+used by “a lot of” other car washes.  High stated that he had invested 
+approximately $3.3 million in the property. 
+ 
+And of course, High confirmed that he had relied on the $5.25 million and 
+$4.9 million comparable car wash sales to inform his valuation opinion.  The 
+State complains that he did not show that the properties were appropriately 
+comparable—he did not know the costs of construction, one property was 
+“significantly larger” than Speedway’s, and he did not “sit down at the computer 
+and . . . review sales in the past three years or so” “like an appraiser”—but High 
+did testify about (i) the size of the properties, (ii) the services they offered, (iii) the 
+number of vacuum pumps they had, (iv) the type of equipment they used, and 
+(v) when they were sold, and he confirmed that he had “used [Wall’s] 
+methodology for . . . [making his] adjustments.”  This is evidence of market 
+value. 
+ 
+High did not pull his valuation opinion out of thin air, or otherwise support 
+the opinion on ipse dixit testimony.  The trial court could have reasonably 
+concluded that in light of all of the above, High met his burden to establish a valid 
+factual basis to support his opinion that the market value of Speedway’s property 
+
+23 
+ 
+before the condemnation was “[j]ust over [$]5.4 million.”7  See Justiss, 397 
+S.W.3d at 159.  The trial court did not abuse its discretion by denying the State’s 
+motion to exclude High’s valuation opinion.  We overrule the State’s first issue. 
+IV.  ADMISSIBILITY OF MCROBERTS’S DAMAGE OPINIONS 
+ 
+In its second issue, the State argues that the trial court erred by admitting 
+McRoberts’s damage opinions.  McRoberts opined that the remainder property 
+had a pre-condemnation market value of $3,060,598.00 but a post-condemnation 
+market value of $641,178.00, meaning that Speedway’s remainder property 
+sustained damages in the amount of $2,419,420.00, excluding $190,000.00 for 
+demolition.  A portion of McRoberts’s opinion can be attributed to his decision to 
+lower the value of the land from $24.75 per square foot to $14.00 per square foot 
+(approximately $475,000.00), but the bulk of the figure can be traced to his 
+decision to devalue the buildings and site improvements from approximately $2 
+million to only $15,000.00 in salvage value.  The State argues that the trial court 
+should have excluded McRoberts’s damage opinions because (1) they were 
+                                                 
+7The State additionally argues that High’s opinion was conclusory and 
+speculative, but only because he “failed to provide a valid factual basis to support 
+his opinions.”  This argument is no different than the one we addressed above.  
+Therefore, it too is unpersuasive. 
+
+24 
+ 
+conclusory and speculative and (2) they incorporated noncompensable 
+impairment-of-access damages.  Both arguments are unpersuasive. 
+A. 
+McRoberts’s Damage Opinions Were Neither Conclusory Nor 
+Speculative 
+ 
+ 
+“Opinion testimony that is conclusory or speculative is not relevant 
+evidence, because it does not tend to make the existence of a material fact ‘more 
+probable or less probable.’”  Coastal Transp. Co., 136 S.W.3d at 232.  An 
+expert’s opinion is conclusory when it offers an opinion with no factual 
+substantiation.  See id.; Burrow v. Arce, 997 S.W.2d 229, 236 (Tex. 1999).  
+“[T]estimony is speculative if it is based on guesswork or conjecture.”  Justiss, 
+397 S.W.3d at 156. 
+McRoberts made it abundantly clear—both before and during trial—that he 
+based his opinions on a change in the highest and best use of Speedway’s 
+property.  As Speedway observes, the supreme court has “long held that a 
+change in a property’s use due to condemnation is relevant to the fair market 
+value of the property.”  State v. Dawmar Partners, Ltd., 267 S.W.3d 875, 878 
+(Tex. 2008).  This, no doubt, is because “[i]n Texas condemnation law, market 
+value properly reflects all factors that buyers and sellers would consider in 
+arriving at a sales price.”  Estate of Sharboneau, 48 S.W.3d at 185.  
+Consequently, Speedway was “entitled to have its land valued using its highest 
+
+25 
+ 
+and best use.”  Enbridge Pipelines (East Texas) L.P. v. Avinger Timber, LLC, 386 
+S.W.3d 256, 263 (Tex. 2012). 
+As alluded to, McRoberts opined that before the condemnation, the highest 
+and best use of the property was its existing use—a car wash—because the site 
+was designed specifically for that very purpose.  But he also opined that the 
+condemnation had affected the property’s functionality so greatly that the 
+property had experienced a change in its highest and best use to something like 
+a small veterinary clinic or an office.  McRoberts did not base his opinions on 
+only his word, or on mere conjecture; he based it on the issues that began 
+affecting Speedway’s property only after the condemnation—unsafe access, 
+internal circulation, and zoning nonconformities—the very same matters that 
+DeShazo, Baldwin, and High addressed in their testimony.8  McRoberts thus 
+provided a reasoned basis to support his damage opinions, reinforced by well-
+established caselaw, logic, and mathematics. 
+The State argues that McRoberts’s opinion that Speedway’s property 
+experienced a change in its highest and best use was conclusory and 
+                                                 
+8Speedway does not argue that unsafe access, internal circulation, and 
+nonconformance with zoning requirements are noncompensable injuries.  See 
+Dawmar Partners, Ltd., 267 S.W.3d at 878 (explaining that diminished value 
+must be derived from a constitutionally cognizable injury); see also Interstate 
+Northborough P’ship v. State, 66 S.W.3d 213, 224 (Tex. 2001) (unsafe access). 
+
+26 
+ 
+speculative because “[a] change in highest and best use and the demolition of 
+improvements simply did not follow from the concerns about access, circulation 
+and compliance with landscaping and setback requirements.”  [Emphasis added.]  
+The State points out that McRoberts did not address the viability of O’Connor’s 
+cure plan or whether Speedway’s property would be entitled to an exemption for 
+its failure to conform with the landscaping and building setback requirements. 
+Boiled down, the State’s argument is nothing more than an evidentiary-
+sufficiency challenge improperly masquerading as an expert opinion admissibility 
+issue.  When the highest and best use of property is disputed, the jury is 
+responsible for deciding which use is appropriate when it determines market 
+value.  State v. Windham, 837 S.W.2d 73, 76‒77 (Tex. 1992).  Indeed, as Justice 
+Cornyn explained in Windham, 
+If [the landowner] is permitted to present evidence of the market 
+value of the part taken utilizing a larger tract than that sought by the 
+condemning authority based on its theory of the highest and best 
+use of the property, then the State should be allowed to present 
+evidence based on its competing theory of the highest and best use 
+of the property.  It is then for the jury to decide which evidence to 
+accept and which to reject in deciding the ultimate issue of market 
+value. 
+ 
+Id. at 77 (emphasis added).  Of course, a party may alternatively argue that 
+unreliable expert testimony rendered evidence legally insufficient, see Whirlpool 
+Corp. v. Camacho, 298 S.W.3d 631, 638 (Tex. 2009), and while the State’s third 
+
+27 
+ 
+issue does challenge the legal sufficiency of the evidence to support the jury’s 
+finding of remainder damages, no part of its argument is premised on the specific 
+ground it raises here. 
+The State additionally argues that contrary to our opinion in State v. Little 
+Elm Plaza, Ltd., McRoberts, in forming his damage opinions, improperly 
+presumed that if Speedway requested a variance or an amended site plan, the 
+City of Grapevine would reject it.  See No. 02-11-00037-CV, 2012 WL 5258695, 
+at *12 (Tex. App.—Fort Worth Oct. 25, 2012, pet. dism’d) (mem. op.).  In Little 
+Elm, we explained that “an expert may testify about how an uncertainty with 
+regard to a governmental action may have affected the market value . . . on the 
+date of the taking, but an expert may not opine about how that uncertainty will 
+actually be resolved in a date after the taking.”  Id.  McRoberts certainly valued 
+the remainder property after the condemnation lower than the value of the 
+remainder property before the condemnation, but as explained, he did so based 
+on a change in the property’s highest and best use as of the date of the taking, 
+not in connection with a prediction about how the City would treat any future 
+regulatory requests made by Speedway.  Little Elm is inapposite.  We overrule 
+this part of the State’s second issue. 
+ 
+
+28 
+ 
+B. 
+McRoberts’s Reduction in Land Value is Not Attributable to Only 
+Noncompensable Impairment of Access or Community Damages 
+ 
+In calculating the value of the remainder property after the condemnation, 
+McRoberts devalued the land from $24.75 per square foot to $14.00 per square 
+foot.  The State argues that “McRoberts’s reduction in land value can only be 
+explained by his inclusion of compensation for noncompensable impairment of 
+access” stemming from either the addition of a dedicated right turn lane on 
+Grapevine Mills Boulevard, the loss of a median cut and pocket turn lane on the 
+same street, or both—impaired-access matters that McRoberts included in his 
+report but did not testify about at trial.  [Emphasis added.] 
+Not all damages to remainder property are compensable.  Cty. of Bexar v. 
+Santikos, 144 S.W.3d 455, 459 (Tex. 2004).  Rather, “diminished value is 
+compensable only when it derives from a constitutionally cognizable injury.”  
+Dawmar Partners, Ltd., 267 S.W.3d at 878.  Thus, “[w]hether damages can be 
+recovered depends on what kind of damage is involved.”  Santikos, 144 S.W.3d 
+at 459.  Several aspects of our caselaw in this area are well developed. 
+One, “[t]hroughout its history, courts have construed Article I, Section 17 to 
+allow recovery only if the injury is not one suffered by the community in general.”  
+Felts v. Harris Cty., 915 S.W.2d 482, 484 (Tex. 1996).  “Community damages are 
+not connected with the landowner’s use and enjoyment of property and give rise 
+
+29 
+ 
+to no compensation.”  Id. at 485; Padilla v. Metro. Transit Auth. of Harris Cty., 
+497 S.W.3d 78, 84 (Tex. App.—Houston [14th Dist.] 2016, no pet.) (identifying 
+community damages to include “noise, dust, increased traffic, diversion of traffic, 
+circuity of travel, and other inconveniences incident to road or highway 
+construction”).  To be entitled to compensation, an injury must be “peculiar to a 
+given property.”  Gulf, Colo. & Santa Fe Ry. Co. v. Fuller, 63 Tex. 467, 470 
+(1885). 
+Also, while not barred by the concept of community damages, diminished 
+value resulting from impaired access is compensable only when a material and 
+substantial impairment exists as a matter of law.  Dawmar Partners, Ltd., 267 
+S.W.3d at 878; see Tex. Prop. Code Ann. § 21.042(d) (West 2014).  Diminution 
+in the value of property due to diversion of traffic, diminished exposure to traffic, 
+altered accessibility to the roadway, or circuity of travel does not amount to a 
+material and substantial impairment of access.  State v. Petropoulos, 346 S.W.3d 
+525, 532 (Tex. 2011); State v. Schmidt, 867 S.W.2d 769, 774 (Tex. 1993), cert. 
+denied, 512 U.S. 1236 (1994). 
+ 
+The State’s argument proceeds as follows:  
+If the building is demolished, Speedway is left with a vacant tract of 
+land.  Speedway cannot claim that the vacant tract is damaged due 
+to nonconformity, unsafe access, or internal circulation[] problems 
+because a vacant tract of land offers a clean slate without 
+
+30 
+ 
+nonconformities caused by the location of improvements, or access 
+and circulation[] problems caused by the location of driveways and 
+improvements.  Yet, McRoberts damaged the vacant land itself, 
+which can only be explained by his inclusion of noncompensable 
+impairment of access damages. 
+ 
+The record shows otherwise. 
+In determining the value of the land before the condemnation ($24.75 per 
+square foot), McRoberts identified four comparable land sales—one property that 
+was developed with a car wash, one that was developed for a bank, one that 
+planned to develop a fast-food restaurant, and another one that planned to 
+develop a bank.  After adjustment, the mean was $23.56 per square foot.  But in 
+determining the value of the land after the condemnation ($14.00 per square 
+foot), McRoberts utilized three different comparable land sales—two of which he 
+identified as office sites.  After adjustment, the mean was $13.99 per square foot.  
+McRoberts explained his reason for altering the comparables: 
+Note the International Carwash Association reports carwash 
+operators compete with fast food restaurants, banks, chain sit-down 
+restaurants and brand name retailers.  None of these uses is fitting 
+for the site after the take.  Hence, the land sales used before the 
+take are not applicable.  The following three land sales will be used 
+to determine the market value of the land after the take in 
+accordance with highest and best use. 
+ 
+Thus, McRoberts opined that the four sales he utilized to value the land 
+before the condemnation—when the property’s highest and best use was a car 
+
+31 
+ 
+wash—were valid comparables.  But after the condemnation, and with a change 
+in the property’s highest and best use from a car wash to an office or a veterinary 
+clinic, he opined that the four land sales were not valid comparables and instead 
+utilized the three after-condemnation land sales, which had a lower after-
+adjustment median, accounting for the reduction in land value.9  McRoberts 
+plainly devalued the land in connection with a change in the property’s highest 
+and best use, not to compensate Speedway for noncompensable impairment of 
+access.  We overrule the remainder of the State’s second issue. 
+V.  DAMAGES TO THE REMAINDER PROPERTY 
+ 
+In its third issue, the State argues that the evidence is legally and factually 
+insufficient to support the jury’s finding that the remainder property sustained 
+damages in the amount of $4,401,028.00. 
+A. 
+Standards of Review 
+We may sustain a legal sufficiency challenge only when (1) the record 
+discloses a complete absence of evidence of a vital fact, (2) the court is barred 
+by rules of law or of evidence from giving weight to the only evidence offered to 
+prove a vital fact, (3) the evidence offered to prove a vital fact is no more than a 
+mere scintilla, or (4) the evidence establishes conclusively the opposite of a vital 
+                                                 
+9The State does not separately challenge McRoberts’s comparables. 
+
+32 
+ 
+fact.  Ford Motor Co. v. Castillo, 444 S.W.3d 616, 620 (Tex. 2014) (op. on reh’g); 
+Uniroyal Goodrich Tire Co. v. Martinez, 977 S.W.2d 328, 334 (Tex. 1998), cert. 
+denied, 526 U.S. 1040 (1999).  In determining whether there is legally sufficient 
+evidence to support the finding under review, we must consider evidence 
+favorable to the finding if a reasonable factfinder could and disregard evidence 
+contrary to the finding unless a reasonable factfinder could not.  Cent. Ready Mix 
+Concrete Co. v. Islas, 228 S.W.3d 649, 651 (Tex. 2007); City of Keller v. Wilson, 
+168 S.W.3d 802, 807, 827 (Tex. 2005).  Anything more than a scintilla of 
+evidence is legally sufficient to support the finding.  Cont’l Coffee Prods. Co. v. 
+Cazarez, 937 S.W.2d 444, 450 (Tex. 1996); Leitch v. Hornsby, 935 S.W.2d 114, 
+118 (Tex. 1996).  More than a scintilla of evidence exists if the evidence 
+furnishes some reasonable basis for differing conclusions by reasonable minds 
+about the existence of a vital fact.  Rocor Int’l, Inc. v. Nat’l Union Fire Ins. Co., 77 
+S.W.3d 253, 262 (Tex. 2002). 
+When reviewing an assertion that the evidence is factually insufficient to 
+support a finding, we set aside the finding only if, after considering and weighing 
+all of the evidence in the record pertinent to that finding, we determine that the 
+credible evidence supporting the finding is so weak, or so contrary to the 
+overwhelming weight of all the evidence, that the answer should be set aside and 
+
+33 
+ 
+a new trial ordered.  Pool v. Ford Motor Co., 715 S.W.2d 629, 635 (Tex. 1986) 
+(op. on reh’g); Cain v. Bain, 709 S.W.2d 175, 176 (Tex. 1986); Garza v. Alviar, 
+395 S.W.2d 821, 823 (Tex. 1965). 
+B. 
+The Jury’s Finding is Neither Legally Nor Factually Insufficient 
+ 
+The State argues that legally, and alternatively factually, insufficient 
+evidence supports the jury’s $4,401,028.00 finding because the figure fell well 
+outside of the only two opinions of remainder damages in evidence—
+McRoberts’s ($2,609,420.00) and Wall’s ($105,826.00). 
+Generally, the jury has broad discretion to award damages within the 
+range of evidence presented at trial.  Gulf States Utils. Co. v. Low, 79 S.W.3d 
+561, 566 (Tex. 2002).  Condemnation cases are no exception; the jury may set 
+the value at any amount between the highest and lowest values testified to by the 
+witnesses.  See State v. Huffstutler, 871 S.W.2d 955, 959 (Tex. App.—Austin 
+1994, no writ); Lin v. Houston Comm. Coll. Sys., 948 S.W.2d 328, 337 (Tex. 
+App.—Amarillo 1997, writ denied).  Damages must be established with 
+reasonable certainty, not mathematical precision.  O & B Farms, Inc. v. Black, 
+300 S.W.3d 418, 422 (Tex. App.—Houston [14th Dist.] 2009, pet. denied). 
+The State’s assertion that “the only opinions of damage in evidence were 
+the opinions of Wall and McRoberts” is imprecise.  Certainly, Wall and 
+
+34 
+ 
+McRoberts were the only two witnesses who expressly identified a damages-to-
+the-remainder figure, but their testimony was not the only evidence of remainder 
+damages before the jury.  This is because, as the trial court instructed the jury, 
+remainder damages are simply calculated by ascertaining “the difference 
+between the Market Value of the landowner’s Remainder Property immediately 
+before the condemnation and the Market Value of the landowner’s Remainder 
+Property immediately after the condemnation, taking into consideration the 
+nature of any improvements and the use of the part being acquired.”  See 
+Interstate Northborough P’ship, 66 S.W.3d at 224.  And integral to determining 
+the market value of the remainder property before condemnation is the market 
+value of the whole property before condemnation.  Wall and McRoberts were not 
+the only witnesses who valued the entire property before condemnation—High 
+did too, and in determining the value of the remainder property before 
+condemnation, the jury was just as free to consider High’s $5.4 million valuation 
+opinion as it was either Wall’s or McRoberts’s.  See Golden Eagle Archery, Inc. 
+v. Jackson, 116 S.W.3d 757, 774‒75 (Tex. 2003) (explaining that it is the 
+province of the jury to “believe all or any part of the testimony of any witness and 
+disregard all or any part of the testimony of any witness”); McGalliard v. 
+Kuhlmann, 722 S.W.2d 694, 697 (Tex. 1986) (reasoning that the “trier of fact has 
+
+35 
+ 
+several alternatives available when presented with conflicting evidence”—it “may 
+believe one witness and disbelieve others,” it “may resolve inconsistencies in the 
+testimony of any witness,” and it “may accept lay testimony over that of experts”). 
+Therefore, considering High’s $5.4 million dollar valuation opinion, less 
+McRoberts’s opinion that the part condemned had a market value of 
+$139,402.00, less McRoberts’s opinion valuing the remainder property after 
+condemnation at $641,178.00, plus McRoberts’s $190,000.00 cost to demolish 
+the improvements, the figure at one end of the damages spectrum was 
+$4,809,420.00.10  The figure at the other end was $105,826.00—Wall’s opinion 
+that the entire property before condemnation had a market value of 
+$2,521,803.00, less his opinion that the part condemned had a market value of 
+$159,789.00, less his opinion valuing the remainder property after the 
+condemnation at $2,362,014.00, plus the figure representing the total cost to 
+cure.  The jury’s finding permissibly fell within the range of evidence admitted at 
+trial.11 
+                                                 
+10The $2.2 million difference between this figure and McRoberts’s 
+$2,609,420.00 damage opinion thus results from substituting High’s $5.4 million 
+entire property-valuation opinion for McRoberts’s $3.2 million entire property-
+valuation opinion. 
+11Quite clearly, this is not an instance of improperly “blending” dissimilar 
+value categories to establish support for the jury’s finding.  See Callejo v. Brazos 
+
+36 
+ 
+The State also argues that the evidence is legally insufficient to support the 
+jury’s finding of remainder damages because High’s valuation opinion was 
+unreliable, irrelevant, and conclusory, see Whirlpool Corp., 298 S.W.3d at 638, 
+but we resolved this same argument against the State above. 
+Finally, the State argues that if we do not sustain its second issue arguing 
+that McRoberts’s damage opinion should have been excluded, then there was no 
+evidence of a difference in before- and after-condemnation values caused by the 
+condemnation over $2,609,420.00—McRoberts’s opinion of damage to the 
+remainder.  Our analysis immediately above applies equally here.  The jury could 
+have utilized High’s entire-property valuation opinion but still adopted 
+McRoberts’s opinion devaluing the property after the condemnation as a result of 
+a change in its highest and best use.  See Golden Eagle Archery, Inc., 116 
+S.W.3d at 774‒75.  The resulting figure necessarily would have been more than 
+$2,609,420.00. 
+The evidence is legally and factually sufficient to support the jury’s finding 
+of damages to the remainder property.  We overrule the State’s third issue. 
+                                                                                                                                                             
+Elect. Power Coop., Inc., 755 S.W.2d 73, 74‒76 (Tex. 1988) (holding that court 
+of appeals erred by considering evidence establishing pre-taking value of 
+easement strip in determining legal sufficiency of evidence to support jury’s post-
+taking value of easement strip).  Instead, we merely acknowledge the range of 
+evidence within similar value categories. 
+
+37 
+ 
+VI.  CONCLUSION 
+Having overruled the State’s three issues, we affirm the trial court’s 
+judgment. 
+ 
+ 
+/s/ Bill Meier 
+BILL MEIER 
+JUSTICE 
+ 
+PANEL:  SUDDERTH, C.J.; MEIER, J.; and KERRY FITZGERALD (Senior 
+Justice, Retired, Sitting by Assignment). 
+ 
+DELIVERED:  October 19, 2017 

@@ -52,45 +52,13 @@ for (const m of fieldsBlock.matchAll(/"([a-z-]+)": \[([\s\S]*?)\n  \],/g)) {
 }
 
 // Display captions: business and government names only; individuals by role.
-const DISPLAY: Record<string, string> = {
-  "1215-superior-v-berger-2025": "1215 Superior, L.L.C. v. a guarantor",
-  "1700-market-v-common-grounds-2024": "1700 Market Street Associates, L.P. v. Common Grounds 1700 Market Street, LLC",
-  "5th-and-walnut-v-des-moines-2026": "5th and Walnut Parking LLC v. City of Des Moines",
-  "architectural-stainless-v-tm-partridge-creek-mall-2021": "Architectural Stainless, Inc. v. TM Partridge Creek Mall, LP",
-  "brandon-v-wells-fargo-midland-2020": "A borrower v. Wells Fargo Bank, N.A., as CMBS trustee",
-  "buyers-choice-v-palm-beach-motors-2024": "Buyer's Choice Auto Sales, LLC v. Palm Beach Motors, LLC",
-  "can-iv-packard-square-v-schubiner-2021": "Can IV Packard Square, LLC v. the borrower's principal",
-  "cle-venture-fund-v-coventry-2025": "CLE Venture Fund, L.P. v. Coventry Partners, L.L.C.",
-  "cvs-v-carmichael-2021": "Georgia CVS Pharmacy, LLC (store injury claim)",
-  "donegal-v-christie-scott-2020": "Donegal Associates v. Christie-Scott, LLC",
-  "elpa-builders-v-state-ny-2021": "Elpa Builders, Inc. v. State of New York",
-  "epochal-v-lf-encinitas-2024": "Epochal Enterprises, Inc. v. LF Encinitas Properties, LLC",
-  "garmong-v-edgerock-development-2025": "EdgeRock Development, LLC v. C.H. Garmong & Son, Inc.",
-  "globe-contracting-v-hour-2025": "Globe Contracting LLC v. Hour Taing Enterprise LLC",
-  "griffith-v-hemphill-2022": "A commercial tenant v. its landlords",
-  "hall-ca-nv-v-radovan-2022": "Hall CA-NV, LLC v. guarantors",
-  "holcomb-dunbar-v-mad-hatter-2022": "Holcomb Dunbar, P.A. v. 400 South Lamar Oxford Mad Hatter Partners, LLC",
-  "hrt-enterprises-v-detroit-2025": "HRT Enterprises v. City of Detroit",
-  "huntington-bank-v-limited-investment-group-2022": "Limited Investment Group Corp. v. Huntington National Bank",
-  "igcfco-iii-v-one-way-loans-2024": "IGCFCO III, LLC v. One Way Loans, LLC",
-  "j-nazzaro-partnership-v-state-ny-2022": "J. Nazzaro Partnership, L.P. v. State of New York",
-  "jack-v-eldorado-casino-2019": "An injured guest v. Eldorado Casino Shreveport Joint Venture, L.L.C.",
-  "kks-properties-slingerlands-bypass-2020": "KKS Properties, LLC v. State of New York",
-  "lcra-st-louis-v-osher-2020": "Land Clearance for Redevelopment Authority of the City of St. Louis v. a property owner",
-  "piedmont-gas-v-blueroad-fontanel-2026": "Piedmont Natural Gas Company, Inc. v. BlueRoad Fontanel, LLC",
-  "pryority-v-amt-properties-2021": "Pryority Partnership v. AMT Properties, LLC",
-  "quantum-concrete-v-plaza-de-kaza-2023": "Quantum Concrete, Inc. v. Plaza de Kaza, LLC",
-  "slyce-v-metropolitan-square-plaza-2025": "Slyce Coal Fired Pizza Company v. Metropolitan Square Plaza, LLC",
-  "stark-v-mccarthy-corp-2021": "McCarthy Corporation v. Stark Investment Group, LLC",
-  "state-v-skyway-holdings-2021": "State of Texas v. Skyway Holdings LLC",
-  "wheeler-reit-khoshaba-2024": "Wheeler Real Estate Investment Trust stockholder class action",
-  "williams-alaska-flint-hills-2023": "Williams Alaska Petroleum, Inc. v. State of Alaska and Flint Hills Resources",
-  "windsor-tower-v-speedy-maintenance-2024": "Speedy Maintenance Service, L.L.C. v. Windsor Tower, L.L.C.",
-};
-// A case added to the backtest later gets a business-only caption by default:
-// its first party if that looks like a business or government, else its role.
-const BUSINESS = /\b(L\.?L\.?C|Inc|L\.?P|Corp|Corporation|Company|Partnership|Associates|Bank|Trust|P\.A|Enterprises|State of|City of|County|Authority)\b/;
-const display = (c: BtCase) => DISPLAY[c.id] || (BUSINESS.test(c.caseName.split(/ v\. /)[0]) ? c.caseName.split(/ v\. /)[0].split(",")[0] + " (and others)" : `${c.role || "A party"} case`);
+// Shared with the calibration page through display-names.json (2026-10-17).
+const DISPLAY: Record<string, string> = Object.fromEntries(Object.entries(
+  (JSON.parse(await Deno.readTextFile("case_valuation_project/backtest/display-names.json").catch(() => '{"cases":{}}')).cases || {}) as Record<string, { name?: string }>,
+).filter(([, v]) => v.name).map(([k, v]) => [k, v.name as string]));
+// No reviewed entry yet: a neutral label, never the caption (same rule as
+// scripts/score_backtest.py).
+const display = (c: BtCase) => DISPLAY[c.id] || `${c.court.split(",")[0]} case, ${c.decided.slice(0, 4)}`;
 
 const PAGES = [
   { cat: "lease-disputes", tracker: ["lease-disputes", "landlord-tenant"], slug: "commercial-lease-dispute-damages", noun: "commercial lease dispute",

@@ -1,0 +1,556 @@
+[Cite as Marchbanks v. Ice House Ventures, L.L.C., 2024-Ohio-417.] 
+ 
+IN THE COURT OF APPEALS OF OHIO 
+TENTH APPELLATE DISTRICT 
+[Jack Marchbanks], Director of the Ohio  
+: 
+Department of Transportation,  
+ 
+ 
+ 
+: 
+ 
+Plaintiff-Appellant, 
+ 
+ 
+ 
+ 
+: 
+               No. 21AP-24 
+v. 
+ 
+ 
+             (C.P.C. No. 16CV-7726) 
+ 
+ 
+: 
+ 
+Ice House Ventures, LLC et al.,  
+ 
+              (REGULAR CALENDAR) 
+ 
+ 
+: 
+ 
+ 
+Defendants-Appellees. 
+ 
+ 
+: 
+ 
+ 
+D  E  C  I  S  I  O  N 
+Rendered on February 6, 2024 
+ 
+ 
+On brief:  Dave Yost, Attorney General, William J. Cole, L. 
+Martin Cordero, and Gregory S. Severance, for appellant. 
+ 
+On brief:  Vorys Sater Seymour & Pease LLP, Joseph R. 
+Miller, John M. Kuhl, and Daniel E. Shuey, for appellees. 
+ 
+ 
+APPEAL from the Franklin County Court of Common Pleas 
+BEATTY BLUNT, J. 
+{¶ 1} This case is before the court pursuant to a remand from the Supreme Court 
+of Ohio.  See Marchbanks v. Ice House Ventures, LLC, 171 Ohio St.3d 637, 2023-Ohio-1866 
+(“Ice House III”).1  The Supreme Court reversed our judgment in Wray v. Ice House 
+Ventures, LLC, 10th Dist. No. 21AP-24, 2021-Ohio-4195 (“Ice House II”) and remanded the 
+case to this court to address the three assignments of error that were rendered moot by our 
+prior decision in Ice House II. Before doing so, we will set forth the factual and procedural 
+background of the case. 
+ 
+1 The current director of ODOT, Jack Marchbanks, was substituted as a party for the former director of ODOT, 
+Jerry Wray, who was the director when this action commenced, pursuant to S.Ct.Prac.R. 4.06(B) and Civ.R. 
+25(D)(1). 
+
+No. 21AP-24 
+ 
+2 
+ 
+ 
+ 
+ 
+ 
+I. Facts and Procedural History 
+{¶ 2} Our prior decision in Ice House II sets forth the following factual and 
+procedural background:  
+ODOT is reconfiguring and improving Interstates 70 and 71 
+through downtown Columbus, Ohio.  (See generally August 17, 
+2016 
+Petition 
+to 
+Appropriate 
+Property 
+and 
+to 
+Fix 
+Compensation (“Petition”).)  As part of the project, ODOT 
+needed to appropriate a portion of IHV’s real property located 
+in the area known as the Brewery District (“the Property”).  (Id., 
+Ex.1.)  Thus, on August 17, 2016, ODOT filed an appropriation 
+action in the Franklin County Court of Common Pleas and 
+deposited $343,280 with the Clerk of Courts.  (See id.) 
+Subsequently, each of the parties obtained its own appraisal 
+reflecting the compensation due IHV as a result of ODOT’s 
+appropriation.  ODOT’s appraiser, Brian Barnes, opined the 
+total compensation due IHV was $370,000, including 
+$168,064 for land taken and $201,936 in damages to the 
+residue.  (Barnes appraisal.) IHV’s appraiser, Debi Wilcox, 
+opined the total compensation due IHV was $2,509,777, 
+consisting of $149,190 for land taken and $2,200,810 in 
+damages to the residue.  (Wilcox appraisal.)  Both appraisers 
+considered the loss of parking spaces to be a significant 
+component of the respective determinations of damages to the 
+Property’s residue. 
+Ultimately, the parties reached a settlement prior to trial.  The 
+terms of the settlement were memorialized via an Agreed 
+Judgment Entry and Transfer of Property and Order for 
+Distribution.  (Oct. 11, 2018 Agreed Jgmt. Entry, hereinafter 
+“Agreed Entry.”)  The Agreed Entry provided that IHV would 
+receive $900,000 from ODOT “as partial consideration for the 
+appropriation of IHV's property.”  (Agreed Entry at 1.)  The 
+Agreed Entry further provided that "as additional material 
+consideration for the appropriation of property from IHV, 
+ODOT shall provide IHV with marketable fee simple title to the 
+real property” delineated as the “Parking Mitigation Property.”  
+(Id. at 1-2.)  The Parking Mitigation Property was described “as 
+a parking lot sufficient to hold twelve (12) parking spaces” as 
+depicted in an attachment incorporated within the Agreed 
+Entry.  (Id. at 2.)  The Agreed Entry stipulated that, amongst 
+other obligations, if ODOT failed to convey marketable fee 
+simple title to the Parking Mitigation Property within one year 
+of the date of the Agreed Entry, “then the Court shall retain 
+jurisdiction to determine the damages due to IHV for the 
+
+No. 21AP-24 
+ 
+3 
+ 
+ 
+ 
+ 
+ 
+failure of ODOT to deliver this portion of the consideration for 
+ODOT’s appropriation of IHV’s property.”  (Id. at 5-6.) 
+At some point in early 2019, ODOT advised the trial court that 
+it would be unable to convey marketable fee simple title to the 
+Parking Mitigation Property to IHV because the current holder 
+of the title to the property—the City of Columbus (the “City”)—
+was unwilling to convey the parcel to ODOT.  (June 18, 2019 
+Order and Entry Granting Defendant’s Motion to Enforce 
+Agreed Judgment Entry on Settlement, hereinafter “Order and 
+Entry,” at 2.)  It is apparent from the record that although 
+ODOT believed that the City would be willing to convey the 
+Parking Mitigation Property to ODOT for subsequent 
+conveyance of the property to IHV, ODOT entered into the 
+Agreed Judgment Entry without firm assurance from, or an 
+agreement with, the City that this was actually the case.  (See 
+June 3-4, 2019 Tr. at 8-9; 349-350.) On April 29, 2019, IHV 
+filed a Motion to Enforce Agreed Judgment Entry (hereinafter 
+“Motion to Enforce”).  After full briefing by the parties, the trial 
+court held a hearing on the Motion to Enforce commencing on 
+June 3, 2019.  
+On June 18, 2019, the trial court issued its Order and Entry 
+which granted IHV’s Motion to Enforce.  The trial court 
+specifically determined that ODOT breached the parties’ 
+settlement as memorialized in the Agreed Entry; that IHV was 
+entitled to $900,000 as damages for ODOT’s failure to convey 
+title to the Parking Mitigation Property; and that IHV was 
+entitled to attorney fees and costs ensuing from ODOT’s 
+breach, in an amount to be determined at a later hearing. 
+Ice House II at ¶ 2, quoting Ice House I, 2020-Ohio-6935, ¶ 2-6.2 
+{¶ 3} Our decision in Ice House II further set forth the following relevant 
+procedural history: 
+On July 19, 2019, 2020, ODOT filed its notice of appeal from 
+the June 18, 2019 order and entry.  In a decision issued on 
+December 29, 2020, this court dismissed the appeal as 
+premature.  See Ice House I, 2020-Ohio-6935.  Specifically, we 
+found that because the order and entry reserved the issue of the 
+amount of attorney fees and costs for a later hearing and did 
+not include Civ.R. 54(B) language indicating “there is no just 
+ 
+2 As noted in paragraph three of the herein decision, Ice House I was dismissed as being a premature appeal. 
+
+No. 21AP-24 
+ 
+4 
+ 
+ 
+ 
+ 
+ 
+reason for delay,” the trial court’s order was not final and 
+appealable.  Id. at ¶ 14-16. 
+Subsequently, on January 8, 2021, the parties filed a joint 
+motion to certify interlocutory appeal.  On January 12, 2021,  
+the trial court granted the motion and issued an order and 
+entry which is identical to the court's previous June 18, 2019 
+order and entry with the exception that it includes the following 
+additional language:  “* * * The Court finds, pursuant to Ohio 
+Civil Rule 54(B) and Revised Code Section 2505.02, that any 
+delay would affect the substantial rights of both parties, and 
+that there is no just reason for delay.”  (Jan. 12, 2021 Order & 
+Entry at 17.) 
+Ice House II at ¶ 3-4. 
+{¶ 4} A timely appeal of the trial court’s January 12, 2021 Order and Entry 
+followed.  Ice House II at ¶ 5.  Ultimately, we determined that the trial court erred in 
+enforcing the parties’ settlement agreement because there was no meeting of the minds on 
+a material term of settlement, to wit: what the parties meant by the term “damages.”  See 
+Ice House II at ¶ 14-17.  Accordingly, we sustained ODOT’s first assignment of error.  Id. at 
+¶ 18.  We further found the remaining three assignments of error moot.  Id. at ¶ 19. 
+{¶ 5} On appeal by ODOT to the Supreme Court of Ohio, the court found that the 
+parties did not make a material mistake about a basic assumption on which their settlement 
+agreement was made, and thus the agreement was enforceable.  More specifically, the court 
+stated as follows: 
+[T]he purported “mistake” here does not concern the basis of 
+the parties’ agreement.  Specifically, the parties’ performances 
+under the agreement—ODOT’s compensation to IHV for the 
+appropriation of IHV’s land and IHV’s release of claims for 
+further compensation relating to the appropriation—did not 
+depend on a particular calculation or amount of damages.  And 
+the parties did not contract for a particular type or amount of 
+damages, despite being sophisticated parties negotiating in 
+good faith with the advice of legal counsel. For example, the 
+parties could have included a liquidated-damages clause or 
+some specific description of the type of damages to be awarded 
+if that were appropriate under and material to the agreement. 
+However, the agreement is clear that the parties left the 
+question of damages to the trial court, if the question were to 
+arise. The agreed judgment entry on the settlement plainly 
+states: “[T]he Court shall retain jurisdiction to determine the 
+
+No. 21AP-24 
+ 
+5 
+ 
+ 
+ 
+ 
+ 
+damages due to IHV for the failure of ODOT to deliver this 
+portion of the consideration[, i.e., the Parking Mitigation 
+Property,] for ODOT’s appropriation of IHV’s property.” 
+Moreover, had the terms of the contract been fully performed, 
+the question of damages never would have arisen.  In other 
+words, even assuming that each party understood the term 
+“damages” to mean something different, that mistake would 
+not frustrate the obligations of the parties or the intent of the 
+agreement, because the parties’ performances of the terms 
+existed independently of the type or amount of damages that 
+might become due if a breach occurred. Any uncertainty 
+regarding the meaning that each party assigned to the term 
+“damages” in the agreement is irrelevant, because the essential 
+elements of the parties’ agreement were clear. See, e.g., 
+Coldwell, 2014-Ohio-5323, 22 N.E.3d 1097, at ¶ 22 
+(“Regardless of the meaning the [buyers] attached to the term 
+‘minerals’ or what they believed they already owned, the record 
+is clear that they intended to buy all of the mineral rights to 
+those parcels from the [sellers]” [emphasis sic]).  Thus, even if 
+we were to determine that the parties understood the meaning 
+of the term “damages” in the agreement differently, that is not 
+a mistake that is material to the agreement. 
+(Emphasis sic.)  Ice House III at ¶ 17-18.  The Supreme Court concluded that ODOT “has 
+not shown by clear and convincing evidence that it is entitled to rescission of the settlement 
+agreement or that any lack of understanding about the term ‘damages’ in the agreement 
+renders it unenforceable.”  Id. at ¶ 20. 
+{¶ 6} Based on the court’s determination, and as noted previously, the Supreme 
+Court reversed our judgment in Ice House II and remanded the matter with instructions to 
+consider the three assignments of error we had previously found moot.  Id. at ¶ 21.  We now 
+proceed with such consideration. 
+II.  Assignments of Error 
+{¶ 7} The assignments of error remanded to this court for consideration are set 
+forth as follows: 
+[2.]  The Trial Court lacked subject-matter jurisdiction to 
+award contract damages against ODOT. 
+[3.]  The Trial Court erred in finding that ODOT breached the 
+settlement. 
+
+No. 21AP-24 
+ 
+6 
+ 
+ 
+ 
+ 
+ 
+[4.]  The Trial Court erred in finding ODOT liable for [IHV’s] 
+attorney fees. 
+III.  Law and Analysis  
+A.  Appellant’s Second Assignment of Error 
+{¶ 8} In its second assignment of error, ODOT asserts the trial court lacked subject-
+matter jurisdiction to award contract damages against it.  We disagree. 
+{¶ 9} We begin our discussion by setting forth a potent observation made by the 
+Supreme Court regarding the posture of the within matter.  On this point, the court declared 
+as follows: 
+ At the outset, we note that the posture of this case is different 
+from that in a contract dispute in which one side files a 
+complaint seeking to enforce contractual terms and the other 
+side asserts defenses.  Here, the proceeding in the trial court 
+that led to this appeal was a damages hearing conducted 
+pursuant to the parties’ settlement agreement, which stated 
+that the trial court “shall retain jurisdiction” to determine 
+damages. The arguments at that hearing centered on the 
+proper nature and amount of damages and not on whether the 
+agreement was valid or any alleged lack of clarity about the 
+parties’ performances or obligations under the agreement.   
+Although ODOT argued in the trial court that it should 
+interpret the meaning of the term “damages” in the agreement 
+as meaning “damages to the residue,” ODOT also presented 
+evidence of what it asserted to be the proper calculation of 
+expectation damages, if the court were to determine that 
+expectation damages were what IHV should be awarded. 
+Ice House III at ¶ 9.  Thus, as aptly assessed by the Supreme Court, this is not a typical 
+breach of contract action initiated by a private plaintiff against the state of Ohio as a 
+defendant.  Rather, it began as—and remains—an eminent domain action initiated in a 
+court of common pleas by the state itself, with the settlement agreement at the heart of the 
+instant matter arising out of that eminent domain action. 
+{¶ 10} The Court of Claims has “exclusive, original jurisdiction of all civil actions 
+against the state permitted by the waiver of immunity contained in section 2743.02 of the 
+Revised Code.” R.C. 2743.03(A)(1). Nevertheless, “not all suits against the state are 
+channeled to the Court of Claims by the act. To the extent that the state consented to be 
+sued before the enactment of R.C. Chapter 2743, the chapter has no applicability.”  Cirino 
+
+No. 21AP-24 
+ 
+7 
+ 
+ 
+ 
+ 
+ 
+v. Ohio Bureau of Workers’ Comp., 153 Ohio St.3d 333, 338, 2018-Ohio-2665, ¶ 19, citing 
+R.C. 2743.02(A)(1).  Thus, contrary to ODOT’s contention, the court of claims is not the sole 
+arbiter over all disputes seeking money damages against the state. 
+{¶ 11} Moreover, as observed by the Supreme Court in Ice House III and discussed 
+above, this case is not a “civil action against the state” as that term is used in R.C 
+2743.03(A)(1) in the first place.  Rather, it is an eminent domain action.  And, as the 
+Supreme Court has previously explained,  
+[w]hen a court has the constitutional or statutory power to 
+adjudicate a particular class or type of case, that court has 
+subject-matter jurisdiction.  Ostanek v. Ostanek, 166 Ohio 
+St.3d 1, 2021-Ohio-2319, 181 N.E.3d 1162, ¶ 36, citing Corder 
+v. Ohio Edison Co., 162 Ohio St.3d 639, 2020-Ohio-5220, 166 
+N.E.3d 1180, ¶ 14.  Common pleas courts “have such original 
+jurisdiction over all justiciable matters * * * as may be provided 
+by law.”  Ohio Constitution, Article IV, Section 4(B).  And the 
+Eminent Domain Act provides jurisdiction in 
+appropriation cases to the court of common pleas in 
+the “county in which the property sought to be 
+appropriated is located.”  R.C. 163.01(D) and 163.05. 
+(Emphasis added.)  Schlegel v. Sweeney, 171 Ohio St.3d 1, 2022-Ohio-3841, ¶ 12.  Thus, 
+because the within matter is an appropriations proceeding, the Franklin County Court of 
+Common Pleas has subject jurisdiction over the entire matter, including jurisdiction over 
+the parties’ settlement agreement and the issue of damages should that issue become 
+necessary to decide. 
+{¶ 12} In support of its position that the trial court’s subject-matter jurisdiction in 
+this case is limited to determining the amount of compensation and damages to the residue 
+to which the property owner is entitled, ODOT directs this court to two cases: Thormyer v. 
+Irvin, 170 Ohio St. 276 (1960), and Proctor v. Thieken, 4th Dist. No. 03CA33, 2004-Ohio-
+7281 (Lawrence Cty.).  These cases are not apposite.  Neither case involved the issue of 
+damages for breach of a settlement agreement entered into in order to avoid a jury trial to 
+determine damages in the context of an appropriations proceeding.  In Thormyer, the 
+Supreme Court affirmed a decision of the Court of Appeals for Muskingum County which 
+held that the question of the necessity and the extent of the appropriation of land is not 
+determinable in a proceeding in which the state is exercising its power of eminent domain.  
+
+No. 21AP-24 
+ 
+8 
+ 
+ 
+ 
+ 
+ 
+The Supreme Court held that the question of necessity may be determined in a separate 
+action to enjoin the proceeding, but once the proceeding had gone forward the jurisdiction 
+of the trial court was “limited to a determination of the amount of compensation and 
+damages to which the landowner is entitled.”  Thormyer at paragraph one of the syllabus.  
+And in Proctor, the Court of Appeals for the Fourth District, following Thormyer, held that 
+the trial court did not have jurisdiction to determine if an additional taking beyond that 
+which was delineated in the complaint had occurred.  Proctor at ¶ 29.  Thus, ODOT has 
+cited no authority that supports its proposition that the trial court lacked subject-matter 
+jurisdiction to award IHV its expectation damages as a result of ODOT’s breach of the 
+parties’ settlement agreement for its failure to convey the Parking Mitigation Property.  
+Neither has our own research revealed any such authority. 
+{¶ 13} Furthermore, it is beyond dispute the parties agreed that the trial court 
+retained jurisdiction over the matter of damages.  We reiterate the Supreme Court’s 
+statement on this point in Ice House III: 
+the parties’ performances under the agreement—ODOT’s 
+compensation to IHV  for the appropriation of IHV’s land and 
+IHV’s release of claims for further compensation relating to the 
+appropriation—did not depend on a particular calculation or 
+amount of damages.  And the parties did not contract for a 
+particular type or amount of damages, despite being 
+sophisticated parties negotiating in good faith with the advice 
+of legal counsel.  For example, the parties could have included 
+a liquidated-damages clause or some specific description of the 
+type of damages to be awarded if that were appropriate under 
+and material to the agreement. However, the agreement is 
+clear that the parties left the question of damages to the trial 
+court, if the question were to arise.  The agreed judgment entry 
+on the settlement plainly states: “[T]he Court shall retain 
+jurisdiction to determine the damages due to IHV for the 
+failure of ODOT to deliver this portion of the consideration 
+[, i.e., the Parking Mitigation Property,] for ODOT’s 
+appropriation of IHV’s property.” 
+(Emphasis added.) Ice House III at ¶ 17. Therefore, having identified no authority 
+supporting the proposition that the trial court did not have subject-matter jurisdiction to 
+award contract damages for ODOT’s breach of the parties’ settlement agreement, and 
+having found the parties’ agreement is clear that the issue of damages was left to the trial 
+
+No. 21AP-24 
+ 
+9 
+ 
+ 
+ 
+ 
+ 
+court should the issue arise, we conclude the trial court had subject-matter jurisdiction to 
+award contract damages against ODOT for its breach of the parties’ agreement.  
+{¶ 14} Accordingly, based on the foregoing, appellant’s second assignment of error 
+is overruled. 
+B.  Appellant’s Third Assignment of Error 
+{¶ 15} In its third assignment of error, ODOT asserts the trial court erred in finding 
+that ODOT breached the parties’ settlement agreement.  We disagree. 
+{¶ 16} We begin by observing that ODOT did not argue in the trial court that it was 
+not in breach of the parties’ settlement agreement.  Indeed, the record is clear that not only 
+did ODOT not argue it was not in breach of the parties’ settlement agreement, ODOT 
+conceded this point.  The transcript from the June 3, 2019 damages hearing in the trial 
+court evinces the following colloquy on this issue: 
+THE COURT:  Okay.  I guess at this point is the State of Ohio, 
+is the Department of Transportation stipulating that it cannot 
+comply with the terms of the agreed judgment entry? 
+[COUNSEL FOR ODOT]:  Yes, Your Honor.  We can’t transfer 
+that property.  The City of Columbus will not transfer the 
+property to ODOT, yes. 
+THE COURT:  Okay.  Based on the stipulation then, the Court 
+will find that the State of Ohio is in breach of the agreed 
+settlement order that was filed on October 11, 2018. 
+(Emphasis added.)  (June 3, 2019 Tr. at 9.)  The above exchange makes it abundantly clear 
+that ODOT did, in fact, stipulate that it could not comply with the terms of the parties’ 
+settlement agreement, and ODOT’s characterization of this exchange as not being one of 
+concession to a breach, but rather a mere inability to deliver the Parking Mitigation 
+Property amounts to nothing more than a distinction without a difference.  Under the clear 
+and unambiguous terms of the parties’ settlement agreement, ODOT’s failure to deliver the 
+Parking Mitigation Property for ODOT’s appropriation of IHV’s property is a breach of that 
+agreement. 
+{¶ 17} Furthermore, the transcript is devoid of any indication that ODOT disagreed 
+with the court’s finding of a breach of the parties’ settlement agreement.  ODOT did not 
+object to the finding, nor make any other kind of protestation of the finding on the record.  
+
+No. 21AP-24 
+ 
+10 
+ 
+ 
+ 
+ 
+ 
+In short, ODOT failed to make any kind of argument in the trial court that it was not in 
+breach of the agreement.  It is well-settled that “[u]nder Ohio law, ‘arguments raised for the 
+first time on appeal are improper.’ ”  Tucker v. Leadership Academy for Math, 10th Dist. 
+No. 14AP-100, 2014-Ohio-3307, ¶ 20, quoting Marysville Newspapers, Inc. v. Delaware 
+Gazette Co., Inc., 3d Dist. No. 14-06-34, 2007-Ohio-4365, ¶ 23.  “Parties cannot raise any 
+new issues for the first time on appeal, and the failure to raise an issue at the trial level 
+waives it on appeal.”  Bell v. Teasley, 10th Dist. No. 10AP-850, 2011-Ohio-2744, ¶ 15, citing 
+Gangale v. Ohio Bur. of Motor Vehicles, 10th Dist. No. 01AP-1406, 2002-Ohio-2936, ¶ 13.  
+Indeed, even a de novo standard of review “does not supersede [the] settled practice of not 
+addressing issues raised for the first time on appeal.”  Tucker at ¶ 20, quoting Henson v. 
+Cleveland Steel Container Corp., 11th Dist. No. 2008-P-0053, 2009-Ohio-180, ¶ 77.  
+Therefore, we decline to further address this new argument raised for the first time on 
+appeal. 
+{¶ 18} Accordingly, based on the foregoing, appellant’s third assignment of error is 
+overruled.  
+C.  Appellant’s Fourth Assignment of Error 
+{¶ 19} In appellant’s fourth assignment of error, ODOT contends that the trial court 
+erred in finding ODOT liable for IHV’s attorney fees.  We disagree. 
+{¶ 20} Ohio law is clear that where a party breaches a settlement agreement entered 
+into to resolve litigation and the breach causes the other party to incur attorney fees in 
+continuing the litigation, such fees are properly awarded by a court as compensatory 
+damages, and both this court and other courts have consistently followed this principle of 
+law. Rohrer Corp. v. Dane Elec. Corp. USA, 482 Fed.Appx. 113, 115-17 (6th Cir.2012); 
+Brown v. Spitzer Chevrolet Co., 5th Dist. No. 2012 CA 00105, 2012-Ohio-5623, ¶ 20-21; 
+Berry v. Lupica, 196 Ohio App.3d 687, 2011-Ohio-5381, ¶ 19-20 (8th Dist.); Raymond J. 
+Schaefer, Inc. v. Pytlik, 6th Dist. No. OT-09-026, 2010-Ohio-4714, ¶ 33-34; State ex rel. 
+Ohio Atty. Gen. v. Tabacalera Nacional, S.A.A., 10th Dist. No. 12AP-606, 2013-Ohio-2070; 
+Tejada-Hercules v. State Auto Ins. Co., 10th Dist. No. 08AP-150, 2008-Ohio-5066, ¶ 7-23; 
+Shanker v. Columbus Warehouse Ltd. Partnership, 10th Dist. No. 99AP-772, 2000 Ohio 
+App. LEXIS 2391 (June 6, 2000).  In Shanker, we acknowledged that Ohio adheres to the 
+“American Rule,” which generally prevents a prevailing party from recovering attorney fees 
+
+No. 21AP-24 
+ 
+11 
+ 
+ 
+ 
+ 
+ 
+as part of the costs of litigation.  Shanker at *12. We found the American Rule inapplicable, 
+however, because the defendant did not claim attorney fees as costs of the action. Rather, 
+the defendant sought attorney fees as compensatory damages flowing from the plaintiffs’ 
+breach of the settlement agreement.  Id.  Accordingly, because IHV’s attorney fees are 
+attributable to and were incurred as the result of ODOT’s breach of the parties’ settlement 
+agreement, IHV is entitled to recover those fees in order to compensate and make whole 
+IHV for losses caused by ODOT’s breach. 
+{¶ 21} ODOT recognizes the foregoing authority but asserts that a more recent 
+opinion issued by the Supreme Court of Ohio controls here and unequivocally forecloses 
+any award of attorney fees to IHV in this matter.  Specifically, ODOT cites to State ex rel. 
+New Wen, Inc. v. Marchbanks, 163 Ohio St.3d 14, 2020-Ohio-4865, wherein the court 
+found, in a per curiam opinion, that attorney fees were not recoverable in a mandamus 
+action brought to compel an appropriation proceeding.  The Supreme Court came to this 
+conclusion after noting that the Ohio Revised Code contained no provision authorizing an 
+award of attorney fees in an inverse-condemnation proceeding.3  New Wen, Inc. at ¶ 8-10. 
+{¶ 22} We find New Wen, Inc. wholly distinguishable from the instant case.  First, 
+as noted above, New Wen, Inc. was an original action in mandamus brought by a property 
+owner to compel the state to file a proper appropriation proceeding when the state had 
+already taken the owner’s property—it was not itself an appropriation proceeding.  Second, 
+the property owner in New Wen, Inc. was not seeking its attorney fees as part of its 
+compensatory damages flowing from the state’s breach of any settlement agreement 
+entered into to end the litigation; rather, the property owner was seeking its attorney fees 
+incurred in having to bring the action in mandamus in the first instance.  The circumstances 
+in the instant matter are not analogous to those in New Wen, Inc., and contrary to ODOT’s 
+assertion it does not control in this case. 
+{¶ 23} Finally, ODOT argues in its reply brief that even if ODOT could be liable for 
+IHV’s attorney fees as a result of ODOT’s breach of the parties’ settlement agreement, the 
+ 
+3 Notably, in a concurring opinion, Justice Fischer opined that while he agreed there was no current statutory  
+authorization for an award of attorney fees in an inverse condemnation proceeding, he “believe[d] that 
+legislators should specifically at least consider whether Ohioans, or any Americans for that matter, who have 
+had property improperly taken by any government—and who must go to court to correct that problem caused 
+by the government—should be entitled to their attorney fees, which they incurred to uphold their 
+constitutionally protected property rights.”  New Wen, Inc. at ¶ 18. 
+
+No. 21AP-24 
+ 
+12 
+ 
+ 
+ 
+ 
+ 
+trial court lacked subject-matter jurisdiction to award such fees.  We note that ODOT did 
+not present this argument in its opening brief.  An appellant may use a reply brief to 
+respond to the brief of appellee, not to raise new issues for the first time. Hadden Co., L.P.A. 
+v. Zweier, 10th Dist. No. 15AP-210, 2016-Ohio-2733, ¶ 15, citing State v. Mitchell, 10th Dist. 
+No. 10AP-756, 2011-Ohio-3818, ¶ 47.  See also App.R. 16(C).  We will generally not address 
+a new argument raised for the first time in a reply brief. Hadden Co., L.P.A. at ¶ 15, citing 
+State v. Shedwick, 10th Dist. No. 11AP-709, 2012-Ohio-2270, ¶ 50.  Accordingly, this new 
+argument could rightly be disregarded. Even if it were not disregarded, however, this 
+argument lacks merit for the same reasons as those discussed under ODOT’s second 
+assignment of error above. 
+{¶ 24} Therefore, based on the forgoing discussion, we find the trial court did not 
+err when it determined that IHV was entitled to an award of attorney fees incurred as a 
+result of ODOT’s breach of the parties’ settlement agreement. Accordingly, appellant’s 
+fourth assignment of error is overruled. 
+IV.  Disposition 
+ 
+{¶ 25} For the foregoing reasons, we overrule ODOT’s second, third, and fourth 
+assignments of error.  Accordingly, we affirm the judgment of the Franklin County Court of 
+Common Pleas. 
+Judgment affirmed. 
+MENTEL, P.J., and DORRIAN, J., concur. 
+ 
+ 

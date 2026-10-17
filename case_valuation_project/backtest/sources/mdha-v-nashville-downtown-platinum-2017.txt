@@ -1,0 +1,625 @@
+IN THE COURT OF APPEALS OF TENNESSEE
+AT NASHVILLE
+October 5, 2017 Session
+METROPOLITAN DEVELOPMENT AND HOUSING AGENCY v. 
+NASHVILLE DOWNTOWN PLATINUM, LLC
+Appeal from the Circuit Court for Davidson County
+No. 09C-3638
+Kelvin D. Jones, Judge
+___________________________________
+No. M2017-00450-COA-R3-CV
+___________________________________
+In this condemnation case, a jury trial was held concerning the amount of compensation 
+owed to Appellant as a result of the governmental taking of its property.  The jury 
+returned a verdict finding that the fair market value of the property had been over 
+$2,000,000.00 on the date of the taking, and the trial court entered judgment on the 
+verdict.  Although Appellant now appeals raising several issues, we affirm the trial 
+court’s judgment.
+Tenn. R. App. P. 3 Appeal as of Right; Judgment of the Circuit Court Affirmed and 
+Remanded
+ARNOLD B. GOLDIN, J., delivered the opinion of the court, in which J. STEVEN STAFFORD,
+P.J., W.S., and THOMAS R. FRIERSON, II, JJ., joined.
+Timothy L. Warnock and Timothy Harvey, Nashville, Tennessee, and Rita M. Aliss 
+Powers, James D. Masterman and Gregory E. Ostfeld, Chicago, Illinois for the appellant, 
+Nashville Downtown Platinum, LLC.
+G. Brian Jackson, David L. Johnson and Renard A. Hirsch, Sr., Nashville, Tennessee, for 
+the appellee, Metropolitan Development and Housing Agency.
+OPINION
+BACKGROUND AND PROCEDURAL HISTORY
+In 2007, the Appellant Nashville Downtown Platinum, LLC (“Platinum”) 
+purchased real property (“the Property”) in downtown Nashville for $1,400,000.00.  
+Although the Property was being used as a surface parking lot at the time of Platinum’s 
+12/08/2017
+
+- 2 -
+purchase, Platinum claimed to have plans to build a hotel on the Property.  Such plans 
+never came to fruition.  
+On October 16, 2009, the Metropolitan Development and Housing Agency 
+(“MDHA”) filed a petition in the Davidson County Circuit Court to condemn Platinum’s 
+property in order to develop the Nashville Music City Center.  In connection with its 
+petition for condemnation, MDHA deposited the sum of $1,774,300.00 as an estimate of 
+the just compensation that would be owed.  In a subsequently-filed answer, Platinum 
+denied that the amount deposited by MDHA represented just compensation for the 
+proposed taking.  Platinum prayed that the petition for condemnation be dismissed, or in 
+the alternative, that a jury of view be empaneled to determine the amount of 
+compensation owed.  
+By an agreed order entered on February 2, 2010, MDHA was granted exclusive 
+possession of the Property effective January 29, 2010. At the time of the taking, the 
+Property was zoned “CF,” a category that imposed a height restriction of approximately 
+seven stories for buildings. However, it is undisputed that it was widely known at the 
+time of the taking that a change from “CF” zoning to “DTC” zoning was imminent.  
+Under “DTC” zoning, buildings can be at least 30 stories tall.  Although the trial court’s 
+February 2, 2010 taking order authorized the clerk to disburse to Platinum the deposit 
+that had been tendered by MDHA, the order further provided that the disbursement of the 
+deposit was “without prejudice to Platinum’s claim for additional just compensation.”  
+Following MDHA’s taking of the Property, the parties filed a joint motion for a 
+writ of inquiry, and a jury of view was subsequently appointed to assess the amount of 
+compensation owed to Platinum.1
+After hearing testimony and evidence from both 
+parties, the jury of view ultimately determined that the amount due to Platinum was 
+$2,306,590.00. Although Platinum filed objections to the report of the jury of view, the 
+trial court confirmed the report by order entered on January 26, 2015.  
+Following the trial court’s confirmation of the jury of view’s report, Platinum filed 
+an appeal requesting a de novo jury trial pursuant to Tennessee Code Annotated section 
+29-16-118.  A number of pre-trial matters soon ensued, including the filing of several 
+motions in limine.  After these pre-trial matters were resolved, a trial was held over the 
+course of several dates in August 2016.  Upon the conclusion of the trial proceedings, the 
+jury returned a verdict finding that the value of the Property was $2,032,380.00 at the 
+time of the taking.  
+                                           
+1 Although Title 29 of the Tennessee Code provides a procedure by which a jury of view may 
+assess the value of the property being condemned, the owner of the property is not required to accept the 
+decision of the jury of view and may pursue a right to a jury trial “in the usual way.”  See Tenn. Code 
+Ann. § 29-16-118. 
+
+- 3 -
+The trial court entered judgment on the jury’s verdict on September 9, 2016. 
+Platinum subsequently filed a motion for a new trial.  The trial court denied this motion 
+by order entered on January 26, 2017. The trial court also granted MDHA certain 
+discretionary costs that had previously been requested pursuant to Rule 54.04 of the 
+Tennessee Rules of Civil Procedure.  The present appeal then followed.  
+ISSUES PRESENTED
+Platinum’s overarching premise in this appeal is that the trial court did not 
+appropriately preserve its right to receive just compensation for the taking of its land.  In 
+addition to asserting a host of evidentiary issues, which we will highlight in our 
+discussion, Platinum raises the following issues on appeal:
+
+Whether the trial court erred in denying its motion for a new trial.
+
+Whether Tennessee’s method for calculating just compensation in 
+eminent domain cases violates the constitutions of the United States 
+and Tennessee.
+
+Whether the trial court erred by granting MDHA’s motion for 
+discretionary costs.
+STANDARD OF REVIEW
+This appeal follows a jury trial.  “When reviewing an appeal from a jury trial, we 
+will not set aside the jury’s findings of fact unless there is no material evidence to support 
+them.”  Watson v. Payne, 359 S.W.3d 166, 168 (Tenn. Ct. App. 2011) (citations omitted).  
+We “will not re-weigh the evidence, but will take the strongest view possible of the 
+evidence in favor of the prevailing party.”  Id.  Further, we will allow all reasonable 
+inferences to uphold the jury’s verdict.  Id.  If there is any material evidence to support 
+the jury’s verdict, the verdict must be affirmed.  Crabtree Masonry Co., Inc. v. C & R 
+Constr., Inc., 575 S.W.2d 4, 5 (Tenn. 1978) (citations omitted).
+When acting as a thirteenth juror incident to the filing of a motion for a new trial, 
+the trial court must independently weigh the evidence and determine whether the jury’s 
+verdict is supported by the evidence.  Dickey v. McCord, 63 S.W.3d 714, 718 (Tenn. Ct. 
+App. 2001) (citation omitted).  “If, after weighing the evidence, the trial court is satisfied 
+with the jury’s verdict, the court must approve the verdict.”  Id. (citation omitted).  On 
+appeal, we presume that the trial court properly performed its duty as the thirteenth juror 
+when the trial court approves the jury’s verdict without comment.  Id. (citation omitted).  
+When the trial court makes comments regarding the verdict on the record, however, we 
+examine the comments in order to determine whether the trial court properly reviewed 
+
+- 4 -
+the evidence and was satisfied or dissatisfied with the verdict.  Id. at 718-19 (citation 
+omitted).  We can reverse the trial court’s judgment and order a new trial “only when the 
+record contains statements that the trial court was dissatisfied with or disapproved of the 
+jury’s verdict or when the trial court absolved itself of or misconstrued its function as the 
+thirteenth juror.”  Id. at 719 (citation omitted).
+In this appeal, we are presented with a number of challenges to the trial court’s 
+evidentiary decisions.  The admissibility of evidence is within the sound discretion of the 
+trial court.  Newcomb v. Kohler Co., 222 S.W.3d 368, 385 (Tenn. Ct. App. 2006) (citation 
+omitted).  As such, “we will not overturn a trial court’s decision to admit or exclude 
+evidence without finding a clear abuse of discretion on the part of the trial judge.” Id.
+(citation omitted).
+DISCUSSION
+Evidentiary Issues
+As we have previously noted, this appeal requires us to consider a number of 
+evidentiary challenges.  As gleaned from the argument section of Platinum’s brief, the 
+following specific issues are raised:
+
+Whether the trial court erred in restricting the cross-examination of 
+MDHA’s appraiser.
+
+Whether the trial court erred in preventing Platinum’s hotel industry 
+expert from testifying about market trends post-taking.
+
+Whether the trial court erred in preventing Platinum’s architect from 
+presenting demonstrative exhibits to the jury.
+
+Whether the trial court erred in restricting the testimony of 
+Platinum’s appraiser.
+
+Whether the trial court erred by allowing MDHA to introduce post-
+taking evidence while denying Platinum a fair opportunity to do the 
+same.
+
+Whether the trial court erred in allowing MDHA to read its former 
+appraiser’s jury of view testimony to the jury.
+We will address each of these issues in turn.
+
+- 5 -
+Whether the trial court erred in restricting the cross-examination of MDHA’s 
+appraiser.
+The first specific evidentiary challenge raised by Platinum is whether the trial 
+court allowed for a fair cross-examination of MDHA’s appraisal expert, Ted Boozer.  
+According to Platinum, “[h]ad the trial court permitted a full and fair cross-examination 
+of . . . Boozer, using post-taking events and trends, the evidence would have revealed 
+favorable economic trends that started before the Taking Date and continued thereafter.”  
+As an initial matter, from our review of the record, it is unclear that the trial court 
+definitely prevented Platinum from questioning Mr. Boozer about post-taking trends and 
+events.  As noted by MDHA, Platinum’s appellate brief cites to only one portion of its 
+cross-examination of Boozer, from which the following exchange is taken:
+[Counsel for Platinum]:  These are two charts that you used and as I said 
+you’ve been here in the courtroom and you heard Mr. Poe when he 
+testified, it’s a similar chart.
+At the time -- of course, end of 2009, your charts were the same as 
+Mr. Poe’s, there’s an uptick that you see.
+[Boozer]:  Yes, a slight uptick.
+[Counsel for Platinum]:  And we know that continued in 2010.  Did that --
+given the fact that the economy --
+[Counsel for MDHA]: Your Honor, I object to any comments about what 
+transpired after the date of taking.
+The Court:  Move on.
+[Counsel for Platinum]:  I’ll move on.  Your Honor, they already talked 
+about that.  They put in evidence of property values at that time and so I’m 
+not sure I understand why that’s a problem.
+The Court:  Let’s just see where you’re going with it.  
+Although the trial court thus appeared to afford Platinum some leeway to explore this 
+issue notwithstanding the earlier admonition to “[m]ove on,” the record does not reveal 
+that Platinum continued to pursue the subject.  The cited portion of Mr. Boozer’s cross-
+examination certainly does not show that Platinum attempted to do so.2  Moreover, we 
+                                           
+2 Because it does not appear that Platinum attempted to explore or develop the issue further in its 
+cross-examination of Mr. Boozer, this alone arguably countenances against appellate relief.  See Tenn. R. 
+
+- 6 -
+note that MDHA correctly observes that Platinum tendered no offer of proof as to what it 
+intended to elicit on cross-examination.  As a general matter, offers of proof are 
+necessary for this Court to review a trial court’s decision to exclude evidence.  Singh v. 
+Larry Fowler Trucking, Inc., 390 S.W.3d 280, 286 (Tenn. Ct. App. 2012) (citations 
+omitted); see also In re Estate of Darken, No. M2016-00711-COA-R3-CV, 2016 WL 
+7378806, at *12 (Tenn. Ct. App. Dec. 20, 2016) (“Without an offer of proof, we cannot 
+conclude that the decision to limit cross-examination prejudiced Plaintiffs.”).
+Although Platinum does not concede that it failed to make an offer of proof, it 
+contends that one was not required.  Among other things, it argues that an offer of proof 
+was not necessary because the substance of the excluded testimony was apparent from 
+the context.  See Gillum v. McDonald, No. M2003-00265-COA-R3-CV, 2004 WL 
+1950730, at *4 (Tenn. Ct. App. Sept. 2, 2004) (noting that an offer of proof is not 
+required “when the substance of the evidence and the specific evidentiary basis 
+supporting admission is apparent from the context of the questions”).  It is not clear to us 
+that this is the case.  Although the cited portion of the transcript perhaps suggests that 
+Platinum desired to elicit certain post-taking information concerning the 2010 year, the 
+exact nature of what it wanted to explore is not clear here in the absence of an offer of 
+proof.  Accordingly, it is unclear whether any of the desired evidence would be 
+competent and appropriately admissible under our rules of evidence and whether it would 
+have affected the trial outcome.  For this reason, we must reject Platinum’s assertion of 
+error on this issue.
+Whether the trial court erred in preventing Platinum’s hotel industry expert from 
+testifying about market trends post-taking.
+Platinum’s second evidentiary challenge relates to the trial court’s limitation of the 
+testimony of Jan Freitag, Platinum’s hotel industry expert.  According to its brief, Mr. 
+Freitag was barred “from testifying about trends of increasing values and demand in the 
+hotel market after the date of taking[.]”  Platinum specifically argues that “Mr. Freitag 
+would have testified regarding ‘the hotel market in early to mid 2010 downtown 
+Nashville,’ directly after the Taking Date, in order to ‘show the trend’ of improvement in 
+the hotel market that was already in progress on the Taking Date.”  Our disposition of 
+this issue follows a similar analysis as our review of the issue involving Mr. Boozer.  As 
+we have noted, offers of proof are generally necessary for this Court to review a trial 
+court’s decision to exclude evidence.  Singh, 390 S.W.3d at 286 (citations omitted).  
+Here, however, no offer of proof was made as to what Mr. Freitag would have 
+supposedly testified.  Given the absence of an offer of proof, this issue is waived.  
+                                                                                                                                            
+App. P. 36(a) (“Nothing in this rule shall be construed as requiring relief be granted to a party responsible 
+for an error or who failed to take whatever action was reasonably available to prevent or nullify the 
+harmful effect of an error.”). 
+
+- 7 -
+Whether the trial court erred in preventing Platinum’s architect from presenting
+demonstrative exhibits to the jury.
+As previously noted, at the time of the taking, it was widespread knowledge that a 
+zoning change for the Property was imminent.  Under the new “DTC” zoning, buildings 
+would be able to be at least 30 stories tall. Because rezoning had been imminent at the 
+time of taking, Platinum desired to have its architect Michael Gardner present 
+demonstrative exhibits depicting two buildings over 40 stories each in order to show the 
+size of structures that could have been legally built on the Property under the limits of 
+“DTC” zoning.  MDHA opposed these efforts.
+Prior to trial, on July 22, 2016, MDHA filed a motion in limine to exclude the 
+drawing depictions Mr. Gardner had created.  According to MDHA, Mr. Gardner’s 
+drawings would overemphasize a particular use for the Property. Moreover, by citing to 
+Mr. Gardner’s deposition, MDHA noted that Mr. Gardner had not determined whether 
+the buildings he had depicted were even feasible from an engineering or financial 
+perspective. With respect to the feasibility of constructing the structures drawn by Mr. 
+Gardner, MDHA observed that Mr. Gardner had acknowledged that geotechnical and 
+structural engineers would need to determine whether towers of the size depicted could 
+actually be built on the Property.  MDHA further supported its argument by citing to the 
+report of Platinum’s appraiser, Jack Poe, wherein Mr. Poe stated as follows:  
+Based on . . .  the state of economy in 2010, a typical investor may not 
+maximize the allowable height as described by Michael Gardner AIA, but 
+would exceed the seven story 226 room Aloft Hotel design (with 220 
+parking spaces) submitted by DW architects that was based on CF zoning 
+on Parcels 106 and 107 prior to the date of appraisal.  In other words, I 
+think the maximally productive use of the site would be to build a 20+ story 
+hotel building based on the 42 story concept provided by Michael Gardner 
+AIA.
+Although the trial court reserved ruling on MDHA’s motion in limine following a pre-
+trial conference, Mr. Gardner’s drawings were ultimately not allowed to be introduced at 
+trial. 
+Platinum asserts that the trial court committed reversible error in not allowing Mr. 
+Gardner’s drawings to be shared with the jury.  Among other things, it suggests that it 
+had a right to introduce demonstrative exhibits pursuant to this Court’s decision in 
+Metropolitan Development and Housing Agency v. Tower Music City II, LLC, No. 
+M2012-00108-COA-R3-CV, 2013 WL 1803690 (Tenn. Ct. App. Apr. 30, 2013).  At 
+issue in that case was whether the trial court erred in allowing the landowner to display 
+an architect’s rendering of an imaginary development of the condemned property.  Id. at 
+*8.  The particular drawing at issue was not introduced as an exhibit in Tower, but it was 
+
+- 8 -
+marked for identification and testified to by the landowner’s senior vice president.  Id.  
+Although this Court found no abuse of discretion in the trial court’s decision to allow the 
+drawing to be shown to the jury, id. at *9, it does not follow that Platinum had an 
+absolute right to present Mr. Gardner’s drawings to the jury in this case.
+As we have already noted, the admissibility of evidence is within the trial court’s 
+discretion.  Newcomb, 222 S.W.3d at 385.  Absent an abuse of discretion, we will not 
+overturn a trial court’s decision to exclude evidence.  Id. (citation omitted).  Although 
+Platinum suggests that Mr. Gardner’s exhibits would have helped demonstrate the value 
+it should receive if the Property was put to its “highest and best use,” we cannot conclude 
+that the trial court abused its discretion in not allowing the drawings to be presented to 
+the jury.  First, as MDHA raised in its motion in limine, Mr. Gardner simply created 
+drawings of what would have been legally permitted under “DTC” zoning. He had no 
+expertise as to whether construction of the buildings on the Property was feasible from an 
+engineering perspective.  He also had no expertise as to whether the construction of the 
+buildings was financially feasible. 
+As noted by MDHA, Mr. Gardner had himself 
+acknowledged in his deposition that the depicted buildings would only ultimately be 
+feasible if they were feasible in light of the following four concerns: (1) zoning, (2) 
+architecture, (3) engineering, and (4) finances.  We note that when Platinum attempted to 
+have Mr. Gardner testify about the drawings at trial, Platinum’s counsel conceded that 
+Mr. Gardner was not a structural engineer.  
+Second, we observe that Platinum’s own appraiser, Mr. Poe, had testified as 
+follows at trial:
+So then we come to maximally productive.  So of those possible, legal, 
+feasible uses, I came down -- I came to the conclusion that a hotel would 
+probably be the highest and best use, but I needed to then determine --
+decide what kind of a hotel or what type of hotel and how many stories.  
+You know, obviously, if you can go to 40 stories, then you’ve got to 
+consider the possibility that you could build a 40-story hotel.
+And what I was provided by the developer was an old drawing of -- I 
+think it was a 6 or a 7-story hotel.  And it was the concept plan that they 
+were working on with the hotel company that they were attempting to 
+franchise.  At least that’s what they told me.
+So I looked at these plans, and I thought, well, these were drawn 
+under the old CF zoning and were probably in compliance.  I hoped that 
+they would have been drawn in compliance with the CF zoning at the lower 
+height restriction.  So I liked the idea of the concept, but I really didn’t 
+know how many stories to go.  
+
+- 9 -
+He later continued:
+So I went and isolated or studied all of the tall buildings in Nashville, 
+because I wanted to do -- what I wanted to do was propose the maximally 
+productive hotel development on this site in light of the new DTC zoning, 
+but still inform us with what’s going on in Nashville.
+You know, you’ve got some buildings that are being built now in the 
+30-story range, but I wasn’t comfortable stretching all the way out to 30 
+stories in my analysis, because I had to put myself back in that frame of 
+mind, back in 2010, when there was less existing development, and people 
+weren’t as aggressive as they can be today, knowing what they know now.
+So I looked at all of the buildings.  And I see that some of your 
+tallest are 33 floors.  And these tall buildings usually range from 15 to 30 
+stories.  And so I chose 20 stories as a reasonable fit for this site, given its 
+relatively thin configuration.
+So that’s what I concluded as the highest and best use, would be a 
+20-story building with a hotel, and then retail on the ground floor.  
+In our view, it was clearly within the trial court’s discretion to exclude Mr. Gardner’s 
+demonstrative exhibits in light of the above considerations.  His depictions may have 
+been appropriate to introduce if Platinum had evidence that the illustrated buildings 
+represented the highest and best use of the Property and were actually feasible.  However, 
+as we have noted, it is clear that Mr. Gardner was not competent to testify that the 
+buildings he depicted could feasibly be built on the Property, and Platinum’s own 
+appraiser testified that the highest and best use for the Property was a 20-story building 
+with a hotel, not two 40-story towers.  We accordingly find no abuse of discretion with 
+respect to this issue.3  
+Whether the trial court erred in restricting the testimony of Platinum’s appraiser.
+Platinum’s next issue focuses on the trial court’s restriction of the testimony of its 
+appraiser, Mr. Poe.  Specifically, Platinum asserts that the trial court erroneously 
+prevented Mr. Poe from explaining how he verified the comparable sales he used to value 
+the Property.  According to Platinum, had Mr. Poe not been restricted from doing so, he 
+would have testified that he verified his comparable sales by consulting the comparable 
+sales another appraiser, James Lamb, had utilized in the Tower case. In explaining its 
+position in its appellate brief, Platinum states as follows:
+                                           
+3 Although MDHA argues that Mr. Gardner’s drawings were also properly excluded because they 
+were improper rebuttal evidence, it is not necessary for us to address that specific contention. 
+
+- 10 -
+This Court ruled in Tower that, because there was “nothing inappropriate in 
+[Lamb’s] methodology or valuation and both were subjected to extensive 
+and rigorous cross-examination,” Lamb’s comparable sales amply 
+supported the jury’s conclusion that the Tower property was worth 
+$123/square foot.  2013 WL 1803690, at *5-7.  Because Lamb’s 
+comparable sales had received this Court’s imprimatur, Poe relied on those 
+sales to verify his conclusion that Platinum’s Property next door was worth 
+a similar value: $130/square foot.  
+According to MDHA, “[t]he real reason Platinum wanted the Tower case to be 
+brought to the jury’s attention is utterly transparent.” Specifically, MDHA argues that it 
+“would have been highly prejudicial and improper to allow introduction of the Tower
+jury verdict and/or appellate opinion.”  For its part, Platinum contends that it had no such 
+intentions.  Consistent with the positions advanced in his client’s reply brief, Platinum’s 
+appellate counsel stated at oral argument that Platinum was not trying to get the Tower
+verdict before the jury.  Having reviewed the record, however, we observe that this 
+argument is belied by the offer of proof Platinum’s trial counsel made with respect to this 
+issue.  In concluding the offer of proof as to the evidence Platinum desired to put before 
+the jury concerning Mr. Poe’s appraisal, his comparable sales, and the Tower opinion, 
+Platinum’s trial counsel offered two exhibits: the Tower majority opinion and the Tower
+concurring opinion.  The majority opinion in Tower unmistakably references the amount 
+of the verdict reached by the jury in that case.  
+At oral argument, Platinum’s counsel did not only disclaim any intention to share 
+the Tower verdict with the jury; he also specifically acknowledged that it would have 
+been inappropriate for the jury to be advised of the verdict.  As we have noted, however, 
+the offer of proof on this issue references the verdict and the amount of compensation 
+awarded in Tower.  In light of this fact, we cannot conclude that the trial court abused its 
+discretion in excluding reference to Tower.  Inasmuch as the offer of proof admits, 
+Platinum was, in fact, attempting to get the Tower verdict before the jury’s eyes.  
+Although Platinum’s arguments on appeal perhaps claim narrower intentions, the offer of 
+proof is the means by which we can determine whether the exclusion of proffered 
+evidence was reversible error.  Hampton v. Braddy, 270 S.W.3d 61, 65 (Tenn. Ct. App. 
+2007) (citations omitted).  Here, the offer of proof was not limited to mere discussion of 
+Tower, but included an attempt to share the appellate opinion and the jury verdict 
+affirmed therein.  Reference to Tower in this manner would have been highly prejudicial 
+to the jury’s attempt to give just compensation for taking of the Property that occurred in 
+this case.  We therefore find no error with respect to this issue.
+
+- 11 -
+Whether the trial court erred by allowing MDHA to introduce post-taking evidence 
+while denying Platinum a fair opportunity to do the same. 
+The next issue raised by Platinum alleges error on the trial court’s part in two 
+respects.  First, Platinum claims that the trial court erred in allowing MDHA to introduce 
+evidence of a 2012 sale. 
+Second, Platinum contends that it was not given a fair 
+opportunity to offer evidence rebutting the 2012 sale. We find no reversible error with 
+respect to these raised concerns.  
+As an initial matter, we observe that Platinum did not object to MDHA’s efforts to 
+introduce evidence of a 2012 sale.  In fact, counsel for Platinum stated as follows at trial 
+when MDHA began its questioning on this topic:  “I don’t have a problem with this line 
+of questioning at all[.]”  We accordingly conclude that any objection to the discussion of 
+the 2012 sale was waived.  
+Similarly, we reject Platinum’s contention that it was not given a fair opportunity to 
+present evidence rebutting the 2012 sale.  Platinum expressed a desire at trial to present 
+rebutting evidence, and the trial court did not reject this request. Moreover, we observe 
+that when the trial court ruled that Platinum would be given an opportunity to submit 
+such evidence, Platinum’s counsel replied as follows:  “We will do that, Your Honor.  
+We will get something that’s very similar to this in terms of dates.”  Platinum never did 
+so.
+On appeal, Platinum specifically complains that it was not given enough time to 
+present evidence rebutting the 2012 sale.  However, the record does not indicate that 
+Platinum ever raised this issue with the trial court or requested additional time.  This fact 
+countenances against any relief on appeal.  See Tenn. R. App. P. 36(a) (“Nothing in this 
+rule shall be construed as requiring relief be granted to a party responsible for an error or 
+who failed to take whatever action was reasonably available to prevent or nullify the 
+harmful effect of an error.”).  Platinum simply did not preserve any objections it may 
+have had with respect to its particular concerns under this issue.4   
+Whether the trial court erred in allowing MDHA to read its former appraiser’s jury of 
+view testimony to the jury.
+Platinum’s next issue challenges the trial court’s admission of the jury of view 
+testimony of Norman Hall, one of MDHA’s appraisers.  Mr. Hall’s prior testimony was 
+                                           
+4 With respect to the specific “timing” issue argued by Platinum on appeal, MDHA also correctly 
+observes that Platinum did not raise this issue as part of its motion for a new trial.  This is an additional 
+basis for deeming the matter waived. See Tenn. R. App. P. 3(e) (“[I]n all cases tried by a jury, no issue 
+presented for review shall be predicated upon error in the admission or exclusion of evidence . . . unless 
+the same was specifically stated in a motion for a new trial[.]”).
+
+- 12 -
+read into the record at trial upon a determination by the trial court that he was unavailable 
+due to his health.  On appeal, the parties dispute whether the trial court’s decision to 
+permit the introduction of Mr. Hall’s testimony ran afoul of Rule 804(b)(1) of the 
+Tennessee Rules of Evidence.5
+Rule 804(b)(1) provides an exception to the hearsay rule when the declarant is 
+unavailable.  The rule specifically does not exclude:
+[t]estimony given as a witness at another hearing of the same or a different 
+proceeding or in a deposition taken in compliance with law in the course of 
+the same or another proceeding, if the party against whom the testimony is 
+now offered had both an opportunity and a similar motive to develop the 
+testimony by direct, cross, or redirect examination.
+Tenn. R. Evid. 804(b)(1).  Here, there is no dispute that the evidence at issue is former 
+testimony given under oath by an unavailable witness.  Moreover, there is no dispute that 
+Platinum, “the party against whom the testimony is now offered,” id., had an opportunity 
+to develop the testimony by cross-examination.  As it concerns the application of Rule 
+804(b)(1), the parties really only dispute one point: whether Platinum had a “similar 
+motive” to develop Mr. Hall’s prior testimony.  According to Platinum, it lacked a similar 
+motive to cross-examine Mr. Hall given the right to a de novo jury trial under Tennessee 
+Code Annotated section 29-16-118(a).  We reject Platinum’s position on this issue.  We 
+are of the opinion that the mere availability of a jury trial following proceedings before 
+the jury of view does not mean that Platinum lacked a similar motive.  Like the issue at 
+trial, the issue before the jury of view was the amount of compensation owed to Platinum.  
+Platinum had an interest in establishing what it believed was a fair market value for the 
+taking of its Property, and we therefore cannot conclude that it lacked a similar motive 
+with respect to its cross-examination of Mr. Hall, one of MDHA’s appraisers.  We find 
+no error in the admission of Mr. Hall’s prior testimony.  Having addressed the foregoing 
+evidentiary concerns, we now turn to the remaining issues on appeal.
+Remaining Issues
+Trial Court’s Role as Thirteenth Juror/Whether Material Evidence Supports the Jury’s 
+Verdict.
+                                           
+5 In addition to raising an issue under Rule 804, Platinum appears to suggest that Mr. Hall’s 
+testimony should have been excluded on the basis that it was cumulative.  Inasmuch as this particular 
+concern was not raised in the motion for a new trial, however, it is waived. See Tenn. R. App. P. 3(e) 
+(“[I]n all cases tried by a jury, no issue presented for review shall be predicated upon error in the 
+admission or exclusion of evidence . . . unless the same was specifically stated in a motion for a new 
+trial[.]”).
+
+- 13 -
+In the statement of the issues section of its brief, Platinum specifically proposes 
+the following issue for our review:  “Did the trial court err by denying Platinum’s motion 
+for a new trial when the evidence in the record did not support the jury’s verdict?”  This 
+stated issue is later addressed in an argument section of Platinum’s brief entitled “The 
+Evidence in the Trial Record Does Not Support the Jury’s Verdict.”  As developed 
+therein, Platinum appears to argue (a) that the trial court did not properly fulfill its role as 
+the thirteenth juror and (b) that the verdict cannot stand because there is no material 
+evidence to support the jury’s findings of fact.  As we perceive it, Platinum’s arguments 
+appear to implicate two separate issues as opposed to one.  See Bradley v. Bishop, No. 
+W2016-01668-COA-R3-CV, 2017 WL 1192112, at *14 (Tenn. Ct. App. Mar. 30, 2017), 
+perm. app. denied (Tenn. Aug. 18, 2017) (treating the propriety of the trial court’s actions 
+as a thirteenth juror as a separate issue from whether material evidence supports the 
+jury’s verdict).  We will therefore proceed to address Platinum’s respective arguments in 
+turn.
+We first address Platinum’s raised concern that the trial court did not properly 
+exercise its role as the thirteenth juror when ruling on the motion for a new trial.  As 
+previously noted, when the trial court acts as the thirteenth juror, it must independently 
+weigh the evidence and decide whether the jury’s verdict is supported by the evidence.  
+Dickey, 63 S.W.3d at 718 (citation omitted).  Although we presume that the trial court 
+properly fulfilled its duty when the verdict is approved without comment, when 
+comments regarding the verdict are made, we examine them on appeal.  Id. at 718-19 
+(citations omitted).  “This Court may reverse the lower court’s judgment and order a new 
+trial only when the record contains statements that the trial court was dissatisfied with or 
+disapproved of the jury’s verdict or when the trial court absolved itself of or misconstrued 
+its function as the thirteenth juror.”  Id. at 719 (citation omitted).
+Here, we have no basis to conclude that the trial court was dissatisfied with the 
+jury’s verdict or misconstrued its role as the thirteenth juror.  In fact, comments included 
+in the record indicate that the trial court properly heeded its role and was satisfied with 
+the verdict.  In denying Platinum’s request for a new trial, the trial court stated as follows:  
+“After independently weighing the evidence as thirteenth juror, the Court is satisfied that 
+the preponderance of the evidence supports the jury’s verdict.”  A nearly identical 
+comment was made at the hearing on the motion for a new trial, where the trial court 
+stated as follows:  “After independently weighing the evidence and determining the 
+issues presented, the Court is satisfied that the preponderance of the evidence supports 
+the jury’s verdict in this case.  So, the Court respectfully denies Nashville Downtown 
+Platinum, LLC’s motion for a new trial.”  Accordingly, we cannot conclude that any 
+reversible error was made with respect to the trial court’s ruling on the motion for a new 
+trial.
+Having found no basis to conclude that the trial court abdicated its role as the 
+thirteenth juror, we now turn to Platinum’s argument that there is no material evidence to 
+
+- 14 -
+support the jury’s findings.  See Meals ex rel. Meals v. Ford Motor Co., 417 S.W.3d 414, 
+422 (Tenn. 2013) (“Where the trial judge has approved the verdict in its role as thirteenth 
+juror . . . the Court of Appeals’ review of the verdict . . . is limited to a review of the 
+record to determine whether the verdict is supported by material evidence.”)  As the 
+Tennessee Supreme Court has previously stated:
+It is the time honored rule in this State that in reviewing a judgment based 
+upon a jury verdict the appellate courts are not at liberty to weigh the 
+evidence or to decide where the preponderance lies, but are limited to 
+determining whether there is material evidence to support the verdict; and 
+in determining whether there is material evidence to support the verdict, the 
+appellate court is required to take the strongest legitimate view of all the 
+evidence in favor of the verdict, to assume the truth of all that tends to 
+support it, allowing all reasonable inferences to sustain the verdict, and to 
+discard all to the contrary.  Having thus examined the record, if there be 
+any material evidence to support the verdict, it must be affirmed; if it were 
+otherwise, the parties would be deprived of their constitutional right to trial 
+by jury.
+Crabtree Masonry Co., Inc., 575 S.W.2d at 5 (citations omitted).
+In accordance with the above standard, we are compelled to conclude that there is 
+no reversible error.  In condemnation cases, the just compensation required to landowners 
+is “the fair cash market value on the date of taking of the property.”  Nashville Hous. 
+Auth. v. Cohen, 541 S.W.2d 947, 950 (Tenn. 1976) (citation omitted).  Here, material 
+evidence exists to support the jury’s verdict that the fair market value of the Property was 
+$63 per square foot on the date of the taking.  We note that although some of the 
+comparable sales relied upon by the parties’ appraisers in this case reflected sales that 
+were significantly higher or lower than this valuation, there were several comparable 
+sales introduced into evidence revealing that many properties were sold for an amount 
+close to the $63 per square foot value. Overall, the jury valued the Property higher than 
+MDHA’s appraisers, but lower than Platinum’s appraiser.  Taking the strongest 
+legitimate view of the evidence in favor of the verdict, we cannot conclude that there is 
+an absence of material evidence to support it.6
+                                           
+6 In this case, the highest appraisal tendered by MDHA was from Mr. Boozer, who valued the 
+Property at $60 per square foot.  Platinum’s appraiser, Mr. Poe, valued the Property at $130 per square 
+foot.  Although Platinum appears to complain that the jury did not accredit the appraisal of Mr. Poe, Mr. 
+Poe’s specific testimony warrants further attention.  We note that when Mr. Poe’s testimony is construed 
+closely, it suggests that the value of the Property would have been half of the $130 per square foot 
+valuation as of the taking date.  Indeed, Mr. Poe’s appraisal was based as of February 2, 2010 and 
+specifically accounted for his opinion that the passage of “DTC” zoning had caused property values to 
+double, “virtually overnight.”  (Mr. Boozer also technically appraised the Property as of February 2, 2010, 
+but he opined that it did not really matter to him whether the Property was appraised a week earlier or a 
+
+- 15 -
+Whether Tennessee’s method for calculating just compensation in eminent domain 
+cases violates the constitutions of the United States and Tennessee.
+In its appellate brief, Platinum submits that the method Tennessee uses to calculate 
+just compensation “raises grave constitutional concerns.”  It complains broadly about 
+how the trial court construed and applied past legal precedent and argues that its 
+constitutional right to receive just compensation was wrongfully abrogated. However, 
+the record does not reveal that Platinum ever asserted a constitutional issue in the trial 
+court.  As observed by MDHA, in the motion for a new trial, Platinum neither asserted 
+that there was a constitutional concern with how evidentiary rulings were made nor 
+asserted error with how the jury was instructed. With this in mind, even assuming a 
+legitimate constitutional grievance did exist, we conclude that it is waived.  See Tenn. R. 
+App. P. 3(e) (“[I]n all cases tried by a jury, no issue presented for review shall be 
+predicated upon error in the admission or exclusion of evidence, jury instructions granted 
+or refused, misconduct of jurors, parties or counsel, or other action committed or 
+occurring during the trial of the case, or other ground upon which a new trial is sought, 
+unless the same was specifically stated in a motion for a new trial; otherwise such issues 
+will be treated as waived.”); see also Ellithorpe v. Weismark, 479 S.W.3d 818, 829-30 
+(Tenn. 2015) (holding that a constitutional challenge was waived when raised for the first 
+time on appeal). 
+Discretionary Costs.
+Platinum’s final issue on appeal relates to the trial court’s decision to award 
+MDHA discretionary costs.  According to Platinum, the award of discretionary costs 
+should be reversed.  We disagree.
+An award of discretionary costs made pursuant to Rule 54.04(2) of the Tennessee 
+Rules of Civil Procedure is within the sound discretion of the trial court.  Owens v. 
+Owens, 241 S.W.3d 478, 497 (Tenn. Ct. App. 2007) (citations omitted).  Although a party 
+is not automatically entitled to discretionary costs if it is deemed to have prevailed at 
+trial, courts generally award discretionary costs if the costs are reasonable and if the party 
+requesting them has filed a timely motion satisfying the requirements of Rule 54.04(2).  
+Id. (citations omitted).  When deciding whether to award discretionary costs, courts 
+should “(1) determine whether the party requesting the costs is the ‘prevailing party,’ (2) 
+limit awards to the costs specifically identified in the rule, (3) determine whether the 
+requested costs are necessary and reasonable, and (4) determine whether the prevailing 
+party has engaged in conduct during the litigation that warrants depriving it of the 
+                                                                                                                                            
+week after that date.)  The ordinance pertaining to “DTC” zoning passed its final reading on February 2,
+2010, and Mr. Poe agreed that it was a fair construal of his testimony to say that property values doubled 
+sometime during the week of February 2.  Here, of course, the date of taking was January 29, 2010.  Thus, 
+strictly construed, Mr. Poe’s testimony suggests that the Property was worth $65 per square foot as of the 
+taking date.
+
+- 16 -
+discretionary costs to which it might otherwise be entitled.  Mass. Mut. Life Ins. Co. v. 
+Jefferson, 104 S.W.3d 13, 35-36 (Tenn. Ct. App. 2002) (footnotes omitted). 
+In its principal appellate brief, Platinum does not argue that MDHA should not be 
+considered the prevailing party for purposes of Rule 54.04(2).  In opposing the trial 
+court’s award of discretionary costs, however, Platinum contends that the trial court 
+failed to determine (a) whether the awarded costs were necessary and reasonable and (b) 
+whether MDHA engaged in conduct during litigation that warranted depriving it of the 
+requested costs.  Interestingly, Platinum does not appear to actually argue in its brief that 
+the awarded costs were unnecessary or unreasonable, nor does it point to any conduct of 
+MDHA that it contends should warrant depriving it of the requested costs.  In any event, 
+we disagree with Platinum’s contention that the trial court failed to consider the relevant 
+considerations incident to its award of discretionary costs.  It is implicit from the award 
+that the trial court determined the awarded costs to be reasonable and necessary and that 
+MDHA had not engaged in any conduct that should deprive it of the costs.  When the trial 
+court awarded discretionary costs, it noted that it had considered the “parties’ filings, 
+arguments by counsel in open court, and the entire record.” 
+Both the 
+reasonableness/necessity of the requested costs and the issue of MDHA’s conduct in 
+litigation had been placed into issue by the prior trial court filings.  For instance, the 
+original motion for discretionary costs was supported by an affidavit by MDHA’s counsel 
+attesting that the requested costs were reasonable and necessary.  Moreover, when 
+Platinum responded to MDHA’s motion for discretionary costs, it argued that a “balance 
+of the equities” warranted a denial of MDHA’s motion and that MDHA had incurred its 
+costs as a result of its own conduct. Again, it is implicit from the trial court’s decision to 
+award costs that it found them to be reasonable and necessary and that MDHA had not 
+engaged in any conduct that should deprive it of costs to which it might otherwise be 
+entitled.  We find no abuse of discretion on the part of the trial court.
+CONCLUSION
+For the foregoing reasons, the judgment of the trial court is affirmed.  Costs of this 
+appeal are assessed against the Appellant, Nashville Downtown Platinum, LLC, and its 
+surety, for which execution may issue if necessary.  This case is remanded to the trial 
+court for the collection of costs, enforcement of the judgment, and for such further 
+proceedings as may be necessary and consistent with this Opinion.
+_________________________________
+ARNOLD B. GOLDIN, JUDGE

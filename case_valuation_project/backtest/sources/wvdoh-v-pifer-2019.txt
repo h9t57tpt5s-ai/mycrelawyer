@@ -1,0 +1,1058 @@
+ 
+IN THE SUPREME COURT OF APPEALS OF WEST VIRGINIA 
+ 
+ 
+September 2019 Term 
+ 
+ 
+ 
+ 
+ 
+No. 18-0517 
+ 
+ 
+ 
+ 
+ 
+WEST VIRGINIA DEPARTMENT OF  
+TRANSPORTATION, DIVISION OF HIGHWAYS, 
+Petitioner Below, Petitioner, 
+ 
+v. 
+ 
+LAWRENCE W. PIFER and MICHAEL E. PIFER, 
+Respondents Below, Respondents.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appeal from the Circuit Court of Wood County 
+The Honorable Jason Wharton, Judge 
+Civil Action No. 10-C-95 
+ 
+AFFIRMED, IN PART, REVERSED, IN PART, 
+AND REMANDED 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Submitted:  October 30, 2019 
+Filed:  November 19, 2019 
+ 
+ 
+ 
+Webster J. Arceneaux, III, Esq. 
+ 
+ 
+ 
+Robert L. Bays, Esq. 
+James C. Stebbins, Esq. 
+ 
+ 
+ 
+ 
+Bowles Rice LLP   
+Joseph L. Jenkins, Esq. 
+ 
+ 
+ 
+ 
+Parkersburg, West Virginia 
+Lewis Glasser PLLC 
+ 
+ 
+ 
+ 
+and  
+Charleston, West Virginia 
+FILED 
+November 19, 2019 
+released at 3:00 p.m. 
+EDYTHE NASH GAISER, CLERK 
+SUPREME COURT OF APPEALS 
+OF WEST VIRGINIA 
+
+Counsel for Petitioner  
+ 
+ 
+ 
+ 
+William Crichton, V  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+William Crichton, VI 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Crichton & Crichton 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Parkersburg, West Virginia 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Counsel for Respondents  
+ 
+ 
+JUSTICE WORKMAN delivered the Opinion of the Court.  
+
+i 
+ 
+SYLLABUS BY THE COURT 
+ 
+ 
+1. 
+“‘The ruling of a trial court in granting or denying a motion for a 
+new trial is entitled to great respect and weight, [and] the trial court’s ruling will be 
+reversed on appeal [only] when it is clear that the trial court has acted under some 
+misapprehension of the law or the evidence.’ Syl. pt. 4, in part, Sanders v. Georgia–
+Pacific Corp., 159 W. Va. 621, 225 S.E.2d 218 (1976).” Syl. Pt. 2, Estep v. Mike Ferrell 
+Ford Lincoln-Mercury, Inc., 223 W. Va. 209, 672 S.E.2d 345 (2008).  
+2. 
+“The measure of just compensation to be awarded to one whose 
+interest in real estate is taken for a public use in a condemnation proceeding is the fair 
+market value of the property at the time of the taking.” Syl. Pt. 1, W.Va. Dep’t of Transp., 
+Div. of Highways v. W. Pocahontas Props., L.P., 236 W. Va. 50, 777 S.E.2d 619 (2015).  
+3. 
+“The approved and general rule for the measure of damages in an 
+eminent domain proceeding where parts of the land are taken is the fair market value for 
+the land at the time it was taken, plus the difference in the fair market value of the residue 
+immediately before and immediately after the taking less all benefits which may accrue 
+to the residue from the construction of the improvement for which the land was taken.” 
+Syl. Pt. 3, W.Va. Dep’t of Highways v. Bartlett, 156 W. Va. 431, 194 S.E.2d 383 (1973). 
+4. 
+“There must be proof which furnishes reasonable certainty of 
+damages in eminent domain proceedings, and damages which are remote, conjectural or 
+
+ii 
+ 
+speculative cannot be recovered in such proceedings.” Syl. Pt. 4, W.Va. Dep’t of 
+Highways v. Bartlett, 156 W. Va. 431, 194 S.E.2d 383 (1973). 
+5. 
+A landowner may seek damages for condemnation blight as an 
+element of just compensation in a condemnation proceeding. W.Va. Const. art. III, § 9; 
+W.Va. Code § 54-2-9a (2016).  
+6. 
+Because some delays relating to public projects are natural and 
+unavoidable, before a landowner may recover damages for condemnation blight, he or 
+she must establish that there has been an unreasonable delay in instituting the 
+condemnation proceeding following its official announcement. Mere planning of the 
+public project is insufficient to trigger a claim for damages. Additionally, a landowner 
+must prove his or her damages were caused by the condemning authority’s actions or 
+inactions.  
+ 
+ 
+ 
+
+1 
+ 
+ 
+Workman, Justice: 
+ 
+ 
+In this appeal, we are asked to review a trial court’s ruling that Respondents 
+Lawrence W. Pifer and Michael E. Pifer were entitled to damages related to 
+condemnation blight1 for several years preceding the filing of the condemnation petition 
+and the manner in which the court calculated interest on the award. Respondents are 
+brothers who own property in Wood County, West Virginia, and operate a family 
+business on their property. The fair market value of their land with improvements is $2.5 
+million.  
+In 1998, Petitioner West Virginia Department of Transportation Division of 
+Highways (“DOH”) announced plans regarding a public improvement project that would 
+severely impact Respondents’ property. More than a decade later, however, DOH 
+changed the project plans and condemned only a small portion of Respondents’ property. 
+Although relieved that their businesses were spared, Respondents introduced evidence at 
+trial that DOH’s protracted delay in commencing the project caused them to suffer 
+condemnation blight for years prior to DOH filing the condemnation petition. The jury 
+awarded a nominal sum for the “taking” of the property and $175,165 in damages for 
+condemnation blight. In its judgment order, the trial court calculated interest thereby 
+increasing the total verdict to $466,114.  
+                                              
+1 “Condemnation blight” is “[t]he reduction in value that the property targeted for 
+condemnation suffers in anticipation of the taking.” Condemnation Blight, Black’s Law 
+Dictionary (10th ed. 2014). 
+
+2 
+ 
+ 
+DOH argues that the Circuit Court of Wood County’s order denying its 
+motion for a new trial and to amend or alter the judgment is a marked departure from 
+well-established rules for determining just compensation due a landowner in a 
+condemnation proceeding. Specifically, DOH argues the trial court erred:  (1) by holding 
+the date of take was an issue of fact for the jury; (2) by failing to incorporate 
+condemnation blight within the context of its impact upon the fair market value of the 
+property as of the date of the take, and improperly instructing the jury on the issue; and 
+(3) by calculating interest in its judgment contrary to statute.2       
+As set forth below, we affirm the trial court’s judgment on the jury’s award 
+of damages for condemnation blight. However, we reverse and remand with directions 
+for the trial court to recalculate interest on the award in accordance with West Virginia 
+Code § 54-2-14a.  
+I.  FACTUAL AND PROCEDURAL HISTORY 
+Respondents are independent operators of a gasoline service station, 
+convenience store, and towing service in Mineral Wells, West Virginia. Respondents 
+have operated their family business for more than twenty years on their 2.45 acre parcel 
+that fronts County Route 14. 
+                                              
+2 See W.Va. Code § 54-2-14a (2016).  
+
+3 
+ 
+ 
+In April, 1996, and October, 1998, DOH held public informational 
+meetings regarding a planned public project involving the South Mineral Wells 
+Interchange of Interstate 77 and County Route 14 (the “project”). DOH considered 
+several plans for completion of the project. Under the plan chosen in December, 1998, 
+Alternate Plan C, DOH would take Respondents’ parcel of land almost in its entirety. 
+Respondent Michael E. Pifer testified that DOH’s announcement was devastating news to 
+him and his family.3 
+That was shortly after we went to that meeting over at the 
+Mineral Wells school, and had the bomb set on us that we 
+were the cheapest and it looked like they was going to take 
+us. And that was in ’98. That was my anniversary message to 
+my wife that night.  
+ 
+ 
+ 
+ 
+By letter dated December 18, 1998, DOH confirmed that it chose Alternate 
+Plan C for the portion of the project west of the interstate. Mr. Pifer testified about the 
+significance of DOH’s selection: “That’s going through my convenience store. That’s 
+going through my gas pumps, and that’s going through my tank field.”   
+By letter dated March 21, 2001, DOH informed Respondents that 
+construction plan development would begin in July, 2003, and construction would begin 
+in “Spring 2005.” DOH kept in touch with Respondents, however, and delayed moving 
+forward on the project; construction did not begin as planned.  
+                                              
+3 Respondent Lawrence W. Pifer did not testify.  
+
+4 
+ 
+ 
+In April, 2008, a DOH employee met with Michael E. Pifer at his service 
+station to announce DOH changed the project plans, preliminarily, and Respondents’ 
+property would largely be spared. Mr. Pifer testified,  
+this was one of the happiest days that I had, because this 
+showed that we wasn’t being taken. The convenience store 
+was not being taken. The gas pumps was not being taken. The 
+tank field was not being taken. And this paper . . . shows that 
+they’re going to take one leg of my big sign out there. And 
+then the temporary construction easement across almost all 
+the way, and then that one in that right-of-way. And then they 
+were going to take that five-foot by the sign where it had the 
+two stakes out there. . . . But it pretty well told me we were 
+going to survive.  
+ 
+Subsequent to this modification, DOH again changed the project plan to 
+avoiding taking Respondents’ sign. Ultimately, DOH sought to condemn a 116-square-
+foot piece of land for a noncontrolled access right of way, a 424-square-foot area for a 
+temporary construction easement (“TCE”), and a second 53-square-foot area for another 
+TCE (the “condemned property”). 
+On March 9, 2010, DOH filed its petition to condemn Respondents’ land 
+for a public use and, per West Virginia Code § 54-2-14a, deposited $3,550 with the trial 
+court, which DOH estimated to be just compensation. As the condemned property 
+represented only a small portion of what Respondents owned, it was considered a partial 
+taking. Commissioners appointed to ascertain “just compensation” determined that 
+Respondents should be awarded $17,500. Both parties objected to the commissioners’ 
+report and the matter went to jury trial. See id. § 54-2-10 (providing either party may 
+
+5 
+ 
+ 
+“demand that the question of the compensation, and any damages to be paid, be 
+ascertained by a jury, in which case a jury of twelve freeholders shall be selected and 
+impaneled”).  
+In addition to seeking the usual compensation associated with a taking, 
+Respondents sought damages for DOH’s allegedly unreasonable actions during the pre-
+condemnation period based on the length of time between the 1998 public announcement 
+and the filing of the petition in 2010. Respondents claimed that they suffered damages for 
+rental loss due to condemnation blight. Prior to trial, DOH moved in limine to preclude 
+the introduction of evidence or testimony of condemnation blight, asserting that 
+Respondents’ method for calculating those damages had not been recognized in West 
+Virginia. DOH further moved the trial court to preclude introduction of evidence that the 
+date of take should be earlier than the date the petition was filed. By letter to the parties, 
+the trial court denied DOH’s motion. 
+The five-day trial in this matter commenced on August 8, 2017, and the 
+jury viewed Respondents’ property after the parties’ opening remarks. Respondent’s 
+expert appraiser, Russell Rice, testified at length regarding his investigation to determine 
+the public project’s impact to Respondents’ property.  His evaluation began with the 
+usual two-step process:  (1) he determined the fair market value of the property taken as 
+$2,000; and (2) he determined the damage to the residue was zero. Mr. Rice explained 
+that the threat of condemnation did not affect the value of the residue at all, but the 
+
+6 
+ 
+ 
+primary influence of the condemnation blight was the loss of Respondents’ ability to 
+negotiate a lease on the property with a major distributor from 2001 to 2010. Mr. Rice 
+opined that Respondents suffered $35,000 in damages each year based on reasonable 
+market rental values.   
+Michael E. Pifer testified that the best use of his property at the time was to 
+lease to a major dealer/distributor of gasoline rather than to compete with one. The 
+announcement of the project put Respondents’ property under threat of condemnation 
+and they were unable to go forward with negotiations for a favorable lease with a larger 
+commercial operation. Mr. Pifer stated that he was one of the last independents at any 
+major intersection off Interstate 77 in Wood County and he simply could not compete 
+with the larger distributors. When asked if he made any efforts following 2000 to lease 
+the gasoline service station, Mr. Pifer explained: “Well, I didn’t have to make efforts, 
+they come to us. But every one of them said ‘When the road’s done. When the Road’s 
+done we want to talk to you. When the road’s done we will be interested in leasing your 
+facility.’” Mr. Pifer stated further that “no one wanted to lease off of us if the place was 
+going to be torn up and the road construction was going to be three years long. I mean, it 
+really hurts your business when they’re doing stuff out there.” Mr. Pifer claimed 
+$812,000 in damages attributable to condemnation blight.  
+
+7 
+ 
+ 
+DOH’s expert arraiser, Roscoe Shiplett, testified that he did not see any 
+evidence of condemnation blight when valuing Respondents’ property. He noted 
+Respondents continued to operate their business during all relevant times.  
+The trial court instructed the jury as follows:   
+When a condemnor unreasonably delays between the 
+announcement of an intent to condemn a parcel of property 
+and the initiation of the condemnation action causing an 
+owner to suffer damages, the owner is entitled to 
+compensation for that loss. Where the real property has been 
+blighted because of the delay between the announcement of a 
+public project and the acquisition of the lands necessary to 
+construct the project the owner is entitled to recover any 
+decrease in value attributable either to the project, to the 
+pendency of the condemnation project proceedings or to the 
+conduct of the agency relating to the taking of the property 
+and to any loss of earnings from the subject property during 
+the period of the blight. 
+ 
+ 
+Accordingly if you find by a preponderance of the evidence 
+that the subject property has suffered blight by virtue of a 
+delay between the announcement of the subject project and 
+the acquisition and the date of this condemnation, then you 
+may award damages for any loss of earnings (both personally 
+and business) and any diminution of market value, proven by 
+a preponderance of the evidence. 
+ 
+Following deliberations, the jury awarded Respondents $2,000 for the take 
+and $1,800 for the TCEs. The jury further found that Respondents suffered damages 
+related to condemnation blight prior to March 9, 2010, and awarded $35,033 for five 
+years (2003 – 2007) for a total of $175,165. The trial court entered its judgment order on 
+November 16, 2017, and calculated pre-petition interest at 10% and then 10% interest 
+
+8 
+ 
+ 
+was calculated to the total award from the date of petition to arrive at the $466,114 
+verdict. 
+DOH moved for a new trial and to alter or amend the judgment and asserted 
+that the evidence presented regarding condemnation blight was in contravention of the 
+law as was the admission of evidence regarding the date of take. DOH further argued that 
+the trial court improperly calculated interest in its judgment order. By order entered May 
+11, 2018, the trial court denied the motion and this appeal followed. 
+II.  STANDARD OF REVIEW 
+ 
+When reviewing a circuit court’s decision on a motion for a new trial, we 
+have held that, 
+“[t]he ruling of a trial court in granting or denying a 
+motion for a new trial is entitled to great respect and weight, 
+[and] the trial court’s ruling will be reversed on appeal [only] 
+when it is clear that the trial court has acted under some 
+misapprehension of the law or the evidence.” Syl. pt. 4, in 
+part, Sanders v. Georgia-Pacific Corp., 159 W. Va. 621, 225 
+S.E.2d 218 (1976). 
+ 
+Syl. Pt. 2, Estep v. Mike Ferrell Ford Lincoln-Mercury, Inc., 223 W. Va. 209, 672 S.E.2d 
+345 (2008).  
+III.  DISCUSSION 
+ 
+The United States Constitution states that no private property shall “be 
+taken for public use, without just compensation.” U.S. Const. amend. V. “The Fifth 
+
+9 
+ 
+ 
+Amendment’s guarantee that private property shall not be taken for public use without 
+just compensation was designed to bar Government from forcing some people alone to 
+bear public burdens which, in all fairness and justice, should be borne by the public as a 
+whole.” Armstrong v. U.S., 364 U.S. 40, 49 (1960). 
+Some states simply incorporate into their constitutions the Fifth 
+Amendment’s prohibition on private property being taken for public use without just 
+compensation. 8A Nichols on Eminent Domain § G18.06[2][c]–14F.03 at G18-41 (3rd 
+ed. 2015) (hereinafter “Nichols”). Twenty-five states, including West Virginia, have 
+constitutional provisions that expand the scope of the constitutional protection to both the 
+taking and damaging private property. Id.4 Article III, section 9 of the West Virginia 
+Constitution provides, in part, that “[p]rivate property shall not be taken or damaged for 
+public use, without compensation.” (Emphasis added). This constitutional expansion is 
+central to our analysis of Respondents’ claim for damages.  
+                                              
+4  See also John Martinez, Government Takings § 12:25. State Constitutional 
+Alternatives (Oct. 2019 update) (“All states now have some form of just compensation 
+provision. 48 states and the District of Columbia have enacted constitutional just 
+compensation provisions. Kansas has adopted the just compensation principle by statute 
+and North Carolina’s supreme court has interpreted a related provision in the state’s 
+constitution as embodying the just compensation principle. Of the 48 states with 
+constitutional provisions, 16 states and the District of Columbia prohibit ‘takings’ of 
+private property, mirroring the federal Just Compensation Clause, 25 states prohibit 
+takings and also protect private property from being ‘damaged’ without compensation. 
+Seven states prohibit takings and also prohibit private property from being ‘applied to 
+public use’.”) (footnotes omitted). 
+
+10 
+ 
+ 
+It is easier to be compensated for condemnation blight 
+in states whose constitutions provide for just compensation 
+for both taking and damaging private property for public use. 
+If the state is a “taking-damaging” state, then the 
+condemnee’s chances of receiving compensation for 
+condemnation blight are quite good. On the other hand, 
+however, if the state is a “taking” only state, the fact that a de 
+facto taking has occurred must first be established to show 
+that the landowner is due just compensation for the 
+condemnation blight. Therefore, if a finding is made that a de 
+facto taking has not occurred, compensation will not be 
+awarded and the property owner will be deprived of the 
+financial loss resulting from condemnation blight. 
+ 
+Nichols, supra § G18.06[2][d] at G18-41.  
+In the statutes that govern condemnation proceedings, West Virginia Code 
+§§ 54-1-1 to 54-2-21 (2016),5 our Legislature distinguished between just compensation 
+for the take and related damages. With regard to the take, West Virginia Code § 54-2-9 
+provides that the commissioners shall ascertain what will be just compensation to the 
+person for the property proposed to be taken and for damage to the residue in a partial 
+taking. This Court has held, “[t]he measure of just compensation to be awarded to one 
+whose interest in real estate is taken for a public use in a condemnation proceeding is the 
+fair market value of the property at the time of the taking.” Syl. Pt. 1, W.Va. Dep’t of 
+                                              
+5 “‘Eminent domain’ is the legal term for the inherent power of a government 
+entity to take private property for public use. ‘Condemnation’ is the legal proceeding 
+filed by a government entity in the exercise of its eminent domain power to take private 
+property for public use.” W.Va. Dep’t of Transp., Div. of Highways v. Western 
+Pocahontas Properties, L.P., 236 W. Va. 50, 58 n.1, 777 S.E.2d 619, 627 n.1 (2015), 
+cert. denied sub nom. Beacon Res., Inc. v. W.Va. Dep’t of Transp., Div. of Highways, 136 
+S.Ct. 1453 (2016) (citations omitted). 
+
+11 
+ 
+ 
+Transp., Div. of Highways v. W. Pocahontas Props., L.P. (“WPP”), 236 W. Va. 50, 777 
+S.E.2d 619 (2015). Comparably, in the event of a partial taking, this Court has held: 
+The approved and general rule for the measure of 
+damages in an eminent domain proceeding where parts of the 
+land are taken is the fair market value for the land at the time 
+it was taken, plus the difference in the fair market value of the 
+residue immediately before and immediately after the taking 
+less all benefits which may accrue to the residue from the 
+construction of the improvement for which the land was 
+taken.  
+ 
+Syl. Pt. 3, W.Va. Dep’t of Highways v. Bartlett, 156 W. Va. 431, 194 S.E.2d 383 (1973).  
+With regard to damages, West Virginia Code § 54-2-9a provides: 
+If the report of the commissioners includes any sum for 
+damages, in addition to the sum for just compensation for the 
+property, or interest or right therein, proposed to be taken, the 
+commissioners shall, if the owner or owners of the property 
+request the same, state in their report what sum has been fixed 
+as damages.  
+ 
+(Emphasis added). This Court has held, “[t]here must be proof which furnishes 
+reasonable certainty of damages in eminent domain proceedings, and damages which are 
+remote, conjectural or speculative cannot be recovered in such proceedings.” Syl. Pt. 4, 
+Bartlett, 156 W. Va. at 432, 194 S.E.2d at 384.  
+In the event a party requests a jury trial, the jury determines just 
+compensation owed the landowner by considering the same elements—the taking and 
+damaging. See W.Va. Code 54-2-10 (“[t]he jury, ascertaining the damages or 
+
+12 
+ 
+ 
+compensation to which the owner of the property . . . proposed to be taken is entitled, 
+shall be governed by sections nine [§ 54-2-9] and nine-a [§ 54-2-9a] of this article[.]”);  
+see also State Rd. Comm’n v. Bd. of Park Comm’rs of City of Huntington, 154 W. Va. 
+159, 163, 173 S.E.2d 919, 923 (1970) (“only question required by the Constitution to be 
+determined by a jury in a proceeding in eminent domain is the question of just 
+compensation.”). The jury has “the duty to determine the single issue of just 
+compensation, though just compensation in an eminent domain case involves different 
+elements.” State Rd. Comm’n v. Darrah, 151 W. Va. 509, 514, 153 S.E.2d 408, 412 
+(1967) (citing 1931 version of W.Va. Code §§ 54-2-9 and 9a)).  
+With this background to guide us, we turn to the issues raised by DOH.  
+A. Date of Take 
+DOH contends the trial court wrongly held that the date of take was an 
+issue of fact for the jury to decide. DOH asserts the trial court should have declared the 
+date of take, as a matter of law, as the date the condemnation petition was filed. See Syl. 
+Pt. 1, W.Va. Dep’t of Highways v. Roda, 177 W. Va. 383, 352 S.E.2d 134 (1986) (“In 
+eminent domain proceedings, the date of take for the purpose of determining the fair 
+market value of property for the fixing of compensation to be made to the condemnee is 
+the date on which the property is lawfully taken by the commencement of appropriate 
+legal proceedings pursuant to W.Va. Code, 54-2-14a, as amended.”). DOH maintains 
+
+13 
+ 
+ 
+there was nothing for the jury to decide because the date of take was conclusively 
+determined to be March 9, 2010.  
+We agree with DOH that under the facts presented here, “the date of take 
+for the purpose of determining the fair market value of property . . . lawfully taken” was 
+March 9, 2010. Roda, 177 W. Va. at 384, 352 S.E.2d at 135, syl. pt. 1. Nevertheless, we 
+find no support in the record for DOH’s assertion that the trial court instructed the jury to 
+decide the date of the take. In fact, this determination was simply not a point of 
+contention between the parties by the time the case went to trial because DOH took so 
+little of the property (116 square feet of Respondents’ 2.45 acres). The jury awarded 
+$2,000 for the take and $1,800 for the TCE (424 square feet) when the entire property, 
+plus improvements was worth $2.5 million.  
+Significantly, Respondents did not argue at trial that a de facto taking 
+occurred years earlier.6 Rather, Respondents argued they were entitled to condemnation 
+                                              
+6 Respondents did advance a de facto taking argument earlier in the litigation. In 
+August 2016, Respondents moved the trial court to take judicial notice of the take as 
+January 1, 2003. This request was based on the jury verdict in DOH v. Rapp, et al., Civil 
+Action No. 10-C-109, Circuit Court of Wood County (Oct. 28, 2014). The Rapp case 
+involved the same condemnation project. Mr. Rapp also operated a gasoline service 
+station and the Rapps and Pifers owned neighboring adjacent properties. Significantly, in 
+Rapp, the jury concluded that a de facto taking of the property occurred years prior to the 
+filing of the petition. In Rapp, the jury awarded $1,010,573 as just compensation; the 
+elements included fair market value of the entirety of the property ($950,000), businesses 
+loss damages for years 2003 through 2010 ($35,573), and annoyance and inconvenience 
+damages ($25,000). 
+(continued . . .) 
+
+14 
+ 
+ 
+blight damages prior to the take. See W.Va. Code § 54-2-9a (providing damages element 
+of just compensation); see also Nichols, supra § G18.06[3] at G18-47 (recognizing 
+landowner “may seek an earlier date of valuation in which to arrive at just compensation, 
+or attempt to recover for loss of value of his or her property as an element of damages 
+caused by the cloud of blight hovering over the property.”). 
+We emphasize that the phrases “condemnation blight damages” and “de 
+facto taking” are not interchangeable. The distinction between the two approaches is not 
+merely theoretical; a de facto taking may entitle the owner to establish an earlier date for 
+purposes of property valuation and recovery of interest. S. Cary Gaylord, Lorena Hart 
+Ludovici, Condemnation Blight, ALI-ABA 189, 195 (May 7, 1992). In a case involving 
+substantial sums of money, such a consideration becomes significant. In Pearsall v. 
+Richmond Redevelopment & Housing Authority, 242 S.E.2d 228, 230 (Va. 1978), the 
+Supreme Court of Virginia 7 discussed the practical effects of claiming damages for 
+                                                                                                                                                  
+ 
+At the hearing on Respondents’ motion for the trial court to take judicial notice of 
+the date as January 1, 2003, Respondents argued that the Rapps and the Pifers were in the 
+same position for a number of years because DOH had publically announced its public 
+project plans but delayed for years before filing the petitions. DOH disagreed and 
+distinguished the cases. DOH argued the take that actually occurred to Respondents’ 
+property was “miniscule compared to the Rapps.” The trial court denied Respondents’ 
+motion and found the date of take was a question of fact because each piece of property 
+was unique. After this ruling, Respondents abandoned their de facto taking argument. 
+     
+7 Virginia is a “taking-damaging” state. Va. Const. art. I, § 11 (“No private 
+property shall be damaged or taken for public use without just compensation to the owner 
+thereof.”).  
+
+15 
+ 
+ 
+condemnation blight: “The date of taking is left unchanged but the condemnee is 
+compensated for the loss in value traceable to grossly premature disclosure of the 
+condemnation (or other serious value-depressing actions of the condemnor), prior to the 
+actual taking of the property.” Id. at 230 (quotations and citations omitted).  
+While the verdict form did not specifically state that March 9, 2010, was 
+the date of take, the trial court did ask the jury if Respondents “suffered condemnation 
+blight prior to March 9, 2010?” The jury answered this question in the affirmative and 
+then listed $35,033 in condemnation blight damages for five years (2003 – 2007) for a 
+total of $175,165. Condemnation blight damages, by their very definition, are damages 
+suffered in anticipation of the take.8  
+We therefore find no merit to DOH’s argument. The date of take was not in 
+dispute nor was that question left to the jury. March 9, 2010, was the appropriate date for 
+determining the fair market value of the property taken and damage to the residue. DOH 
+does not dispute those elements of just compensation. In this case, the date of take was 
+significant only insofar as determining when interest began to accrue on the award. 
+B. Condemnation Blight Damages 
+ 
+                                              
+8 See note 1, supra. 
+
+16 
+ 
+ 
+We now turn to the heart of DOH’s criticism of the jury verdict below, 
+which was the trial court allowing the jury to consider pre-take condemnation blight 
+damages as an element of just compensation. “The damages suffered when a ‘cloud of 
+condemnation’ hangs over a property and an actual taking is never effectuated or is long-
+delayed have been labeled as ‘condemnation blight.’” Dale A. Whitman, Eminent 
+Domain Reform In Missouri: A Legislative Memoir, 71 Mo. L.Rev. 721, 757 (2006). 
+Condemnation blight can be marked by departure of rental tenants, unmarketability, and 
+declines in rentability, capital values, and profits. Id. 
+This Court has addressed the topic of condemnation blight in two cases and 
+only insofar as it related to the market value of the land taken and its effect on the 
+residue. See W.Va. Code § 54-2-9. In Huntington Urban Renewal Authority v. 
+Commercial Adjunct Co., (“HURA”) 161 W. Va. 360, 242 S.E.2d 562 (1978), the 
+condemnor acquired large tracts of land throughout the Huntington downtown area which 
+resulted in the displacement of businesses. The landowner’s property at issue—a parking 
+lot—was located in the project area. While HURA’s plans to acquire the parking lot were 
+pending, it proceeded to acquire large tracts of land throughout the area. This activity 
+caused the landowner to suffer condemnation blight.9  
+                                              
+9 Although we did not label it as such, this Court described condemnation blight as 
+follows:  
+ 
+(continued . . .) 
+
+17 
+ 
+ 
+In HURA, the landowner’s parking lot revenues became a crucial issue 
+because of their link with fair market value calculations for the property taken. When 
+arriving at just compensation due the landowner, this Court chose to make adjustments to 
+the property valuation date to account for HURA’s pre-condemnation actions that 
+depressed the fair market value of the property. See Syl. HURA, 161 W. Va. at 360, 242 
+S.E.2d at 563 (“Any decrease, not of a general character, in the fair market value of real 
+property prior to the date of valuation, caused by the public improvement for which such 
+property is acquired, or by the likelihood that the property will be acquired for such 
+improvement, other than that due to physical deterioration within the reasonable control 
+of the owner, should be disregarded in any determination of the just compensation to be 
+                                                                                                                                                  
+Commercial buildings stood on some of this land, and 
+many were either demolished or allowed to stand vacant until 
+they could be converted to a different use. This displacement 
+of businesses from the project area reduced parking demand 
+and caused parking lot revenues to decline, according to the 
+testimony of [landowner’s] expert witnesses. Also, some of 
+the land acquired by [HURA] was developed into parking lots 
+or parking garages which competed with [landowner’s] lot. 
+The adverse effect of this competition on [landowner’s] 
+parking lot revenues was particularly pronounced because of 
+the reduced demand for parking in the project area. 
+[Landowner] was effectively squeezed on two sides by 
+[HURA], which first reduced the parking demand and then 
+entered into competition for the few remaining parking 
+customers. It is clear that [HURA’s] actions were especially 
+detrimental to [landowner] in this instance and went far 
+beyond the ordinary disruptions that businesses and citizens 
+have come to accept from public works improvement 
+projects. 
+ 
+161 W. Va. at 360, 242 S.E.2d at 563. 
+
+18 
+ 
+ 
+awarded the property owner for the property.”) (emphasis added). Thus, HURA stands 
+for the proposition that it would be manifestly unjust to permit a public authority to 
+depreciate property values through pre-condemnation activities and then take advantage 
+of such depreciation by actually taking the property at a lower price. 
+In Gomez v. Kanawha County Commission, 237 W. Va. 451, 787 S.E.2d 
+9042 (2016), the landowner argued that the public project increased the property’s value. 
+This Court mentioned condemnation blight in the context of the project influence rule,10 
+and found where condemnation proceedings tend to increase the value of property, the 
+property owner is not entitled to the increased value. Id. at 455, 787 S.E.2d at 908. We 
+stressed “that the project influence rule is implicated in condemnation actions for 
+property that is taken.” Id. at 466, 787 S.E.2d at 919. In situations where “only a portion 
+of the property is taken, leaving the landowner in possession of a ‘residue,’ then any 
+increase or decrease in the fair market value of the residue caused by the public 
+improvement may be considered by the jury.” Id. at 466, 787 S.E.2d at 919.  
+DOH argues the trial court erred by allowing the jury to consider 
+condemnation blight outside the framework established by this Court in HURA and 
+Gomez. DOH notes the parties do not dispute the value of the property actually taken and 
+                                              
+10 See Gomez, 237 W. Va. at 455, 787 S.E.2d at 908, syl. pt. 4 (“Under the project 
+influence rule, any increase or decrease in value to the condemned land that is directly 
+attributable to the project for which the land is taken must be disregarded in determining 
+the market value of the land.”). 
+
+19 
+ 
+ 
+states “the issue of condemnation blight that specifically arose in this matter is in the 
+context of determining damages to Respondents’ residue.” On this issue, DOH contends 
+Respondents failed to show that condemnation blight was specific to them rather than 
+general in nature, and their evidence of loss of rental income was improper because lost 
+profits of a business have never been recognized as an element of damages in a 
+condemnation proceeding.  
+DOH’s argument is fundamentally flawed. HURA and Gomez offer little 
+guidance as to the issue before us because those cases addressed condemnation blight 
+within the context of the West Virginia Code § 54-2-9 take. That issue is not before us. 
+Just compensation for the take was negligible, and there was no damage to the residue 
+following the take because Respondents’ property was largely unaffected by the time the 
+condemnation proceeding was filed. If we were to follow DOH’s direction and attempt to 
+force Respondents’ damages into a West Virginia Code § 54-2-9 taking analysis, they 
+would vanish. Respondents would be deprived of just compensation and obliged to 
+absorb economic losses caused by DOH’s protracted delay in implementing the public 
+project alone. Thus, we decline DOH’s invitation to apply an overly restrictive market 
+value concept of compensation based on the facts presented.  
+Instead, the issue here is whether West Virginia landowners can recover 
+damages related to condemnation blight as an element of just compensation. W.Va. 
+Const. art. III, § 9; W.Va. Code § 54-2-9a. This is an issue of first impression. The only 
+
+20 
+ 
+ 
+West Virginia case cited by the parties that mentions a landowner’s claim for 
+consequential damages in a condemnation proceeding is WPP. In that case, we explicitly 
+declined to address the issue:  
+The parties in this case have not asked us to alter our 
+long-standing rule and thereby hold that lost profits, loss of 
+goodwill, going concern value, or other consequential 
+damages to a business caused by the exercise of eminent 
+domain are elements of just compensation. We note, however, 
+that several state legislatures have required the inclusion of 
+those damages in awards of just compensation. 
+ 
+236 W. Va. at 72, 777 S.E.2d at 641 (footnote omitted).11   
+We find ample justification for allowing a landowner to recover damages 
+related to condemnation blight under appropriate circumstances. First, our Constitution 
+                                              
+11 The distinction between WPP and this case is significant. In WPP, we addressed 
+the issue of future loss of business profits when evaluating their effect on the fair market 
+value of the property. The elements of just compensation in that case included the amount 
+of property taken and damage to the residue that included coal reserves beneath it. The 
+landowner valued his property using only the future lost profits of his coalmine business. 
+This Court made clear that the future lost profits of a business on property taken by 
+condemnation are not recoverable under West Virginia Code § 54-2-9, but are relevant to 
+determining its fair market value. In syllabus point two of WPP, we held:  
+ 
+In a condemnation action, the amount of raw profit lost 
+from a business operated either on the condemned real estate 
+or on its residue may not be the sole basis to establish just 
+compensation. Stated another way, business profits lost as a 
+result of a condemnation action may not be recovered as an 
+independent element of damages.  
+ 
+236 W. Va. at 50, 777 S.E.2d at 626. This point of law remains valid considering the 
+facts of WPP. This Court has repeatedly stated that a syllabus point is to be read in light 
+of the opinion. Farley v. Worley, 215 W. Va. 412, 426, 599 S.E.2d 835, 849 (2004).   
+
+21 
+ 
+ 
+and statutes require just compensation when private property is taken or damaged for 
+public use. W.Va. Const. art. III, § 9; W.Va. Code § 54-2-9a. Second, because property 
+refers to the rights of the landowner, the compensation granted to him or her should take 
+into account appropriate personal losses. As Justice Holmes recognized, constitutions 
+deal “with persons, not with tracts of land.” Boston Chamber of Commerce v. Boston, 217 
+U.S. 189, 195 (1910). Third, the burden of public projects is best borne by the public, 
+instead of the landowner. The general theory behind the requirements of just 
+compensation is that the individual property owner should be placed in as good a position 
+financially as he or she would have been but for the establishment of the public project. 
+Reichs Ford Rd. Joint Venture v. State Rds. Comm’n, 880 A.2d 307, 313 (Md. Ct. App. 
+2005). 
+The rationale for compensating a landowner not only for the taking of his 
+or her property for public use, but for the financial loss suffered as a consequence of pre-
+condemnation activities, is clear based on the facts before us. When property owners who 
+operate a small business suffer financial loss for several years as a result of the 
+government’s pre-condemnation activities, “then the law should be used to establish a 
+means of recovery, not as a tool to avoid shared responsibility.” Nichols, supra at § 
+G18.07[1]. It “has long been recognized,” that property rights are “basic civil rights,” and 
+that a government’s failure to protect private property rights puts every other civil right in 
+doubt. Lynch v. Household Fin. Corp., 405 U.S. 538, 552 (1972).  
+
+22 
+ 
+ 
+Other state courts that have allowed damages for condemnation blight 
+specifically focus on the personal losses of the landowner instead of the market value of 
+the property taken and damage to the residue. In Luber v. Milwaukee County, 177 
+N.W.2d 380 (Wis. 1970), the Wisconsin Supreme Court found that loss in rental damages 
+was recoverable in a condemnation proceeding. 12  In Luber, the state acquired the 
+landowner’s commercial property in 1967; however, the landowner had suffered loss in 
+rental income since 1964. Id. at 381.  Luber touched on the precise dilemma Respondents 
+faced here: “[t]he inadequacy of merely awarding the fair market value of the property 
+actually taken is most apparent in cases of partial taking.” Id. at 385. Moreover,    
+[t]he importance of allowing recovery for incidental losses 
+has increased significantly since condemnation powers were 
+initially exercised in this country. During the early use of 
+such power, land was usually undeveloped and takings 
+seldom 
+created 
+incidental 
+losses. 
+Thus 
+the 
+former 
+interpretation of the “just compensation” provision of our 
+constitution seldom resulted in the infliction of incidental 
+losses. The rule allowing fair market value for only the 
+                                              
+12 Wisconsin is a “taking” only state. See Wis. Const. art. I, § 13 (“The property of 
+no person shall be taken for public use without just compensation therefor.”). The 
+Wisconsin Legislature expanded this constitutional provision and enacted legislation 
+wherein landowners may recover damages in a condemnation action. See Wis. Stat. Ann. 
+§ 32.19 (2018) (“The legislature declares that it is in the public interest that persons 
+displaced by any public project be fairly compensated by payment for the property 
+acquired and other losses hereinafter described and suffered as the result of programs 
+designed for the benefit of the public as a whole[.]”).  
+ 
+DOH attempts to distinguish Luber on the basis that Wisconsin has a specific 
+statute that allows such damages. In its brief, however, DOH fails to cite West Virginia’s 
+statute that allows landowners to recover damages in a condemnation action. W.Va. Code 
+§ 54-2-9a.  Furthermore, West Virginia is a “taking-damaging” state. W.Va. Const. art. 
+III, § 9.   
+
+23 
+ 
+ 
+physical property actually taken created no great hardship. In 
+modern society, however, condemnation proceedings are 
+necessitated by numerous needs of society and are initiated by 
+numerous authorized bodies. Due to the fact people are often 
+congregated in given areas and that we have reached a state 
+wherein re-development is necessary, commercial and 
+industrial 
+property 
+is 
+often 
+taken 
+in 
+condemnation 
+proceedings. When such property is taken, incidental 
+damages are very apt to occur and in some cases exceed the 
+fair market value of the actual physical property taken. 
+ 
+Id. at 384-85 (footnotes omitted).    
+In Clay County Realty Co. v. City of Gladstone, 254 S.W.3d 859 (Mo. 
+2008), the landowner had commercial property that was slated for redevelopment by the 
+city’s initiative. Almost two years after announcing the project, the city cancelled its 
+agreement with the developer and sought to receive tax funding for the project. The city 
+took no further action to acquire the property, and the landowner sued the city, in an 
+inverse condemnation action, 13  alleging violation of the constitutional right to just 
+compensation.14 The landowner argued that the city delayed the redevelopment project 
+and, as a consequence, retail tenants did not renew their leases, causing the property 
+values to decline. The court held that actions short of actual acquisition or physical 
+                                              
+13 Inverse condemnation is a shorthand description for a landowner suit to recover 
+just compensation for a governmental taking of his or her property without the benefit of 
+condemnation proceedings. West Virginia Lottery v. A-1 Amusement, Inc., 240 W. Va. 89, 
+807 S.E.2d 760 (2017).  
+ 
+14 Missouri is a “taking-damaging” state. See Mo. Const. art. I, § 26 (providing 
+“private property shall not be taken or damaged for public use without just 
+compensation.”).  
+
+24 
+ 
+ 
+invasion of the property may still constitute a taking or damaging under the constitution. 
+The court also recognized that some delays relating to condemnation proceedings were 
+natural and unavoidable. Thus, it limited and clarified its holding: 
+[B]efore property owners have a viable cause of action 
+for precondemnation damages, they must establish that there 
+has been aggravated delay or untoward activity in instituting 
+or continuing the condemnation proceedings at issue. Without 
+this . . . showing of “aggravated delay or untoward activity,” 
+every condemnation case would give rise to a separate cause 
+of action based on precondemnation activity, because the 
+condemnation process involves governmental and judicial 
+decisions that are endemic with delays. 
+ 
+Id. at 869. 
+In State v. Barsy, 941 P.2d 971 (Nev. 1997), overruled on other grounds by 
+GES, Inc. v. Corbitt, 21 P.3d 11 (Nev. 2001), the Nevada Supreme Court addressed the 
+issue presented here and held that pre-condemnation activities of the state entitled the 
+landowner to damages in addition to those resulting from the taking of his property.15 The 
+court in Barsy was persuaded by a leading case on the rights of property owners who 
+sustain damages as a result of pre-condemnation activities by the condemning authority, 
+Klopping v. City of Whittier, 500 P.2d 1345 (Cal. 1972).16 In Buzz Stew, LLC v. City of 
+                                              
+15 Nevada is a “taking” state. See Nev. Const. art. I, § 8 (“Private property shall not 
+be taken for public use without just compensation[.]”).  
+ 
+16 In Klopping, the California Supreme Court held that the condemnee must be 
+compensated for loss of rental income attributable to pre-condemnation publicity where a 
+(continued . . .) 
+
+25 
+ 
+ 
+North Las Vegas, 181 P.3d 670 (Nev. 2008), the court expanded its ruling in Barsy: “to 
+the extent that Barsy indicated that a taking must occur to recover damages related to a 
+municipality’s announcement of intent to condemn and its improper action with respect 
+to that announcement, that requirement has been eliminated as to precondemnation 
+damages.” Buzz Stew, 181 P.3d at 674.  
+We therefore hold that a landowner may seek damages for condemnation 
+blight as an element of just compensation in a condemnation proceeding. W.Va. Const. 
+art. III, § 9; W.Va. Code § 54-2-9a (2016). Because some delays relating to public 
+projects are natural and unavoidable, before a landowner may recover damages for 
+condemnation blight, he or she must establish that there has been an unreasonable delay 
+in instituting the condemnation proceeding following its official announcement. Mere 
+planning of the public project is insufficient to trigger a claim for damages. Additionally, 
+a landowner must prove his or her damages were caused by the condemning authority’s 
+actions or inactions.17  
+                                                                                                                                                  
+condemnor acts unreasonably “either by excessively delaying eminent domain action or 
+by other oppressive conduct[.]” Id. at 1355. 
+ 
+17 In Clay County Realty, the court held that “property owners can prevail against 
+condemning authorities for claims relating to condemnation blight where they provide 
+specific evidence demonstrating aggravated delay, bad faith, or untoward activity by the 
+condemning authority.” 254 S.W.3d at 869 (emphasis added). In this case, Respondents 
+have not alleged DOH engaged in bad faith, so we need not decide whether landowners 
+(continued . . .) 
+
+26 
+ 
+ 
+ 
+ 
+Having determined that the type of damages claimed here are recoverable 
+in a condemnation proceeding, we turn to DOH’s contention that Respondents’ alleged 
+damages were speculative. DOH asserts Mr. Pifer testified only to nonspecific 
+discussions he had with potential renters during the alleged period of blight. DOH notes 
+that Respondents fully operated their businesses and used all aspects of their property 
+following the condemnation announcement. Respondents counter that the threat of 
+condemnation brought to a halt any negotiations with larger gasoline distributors. Mr. 
+Pifer testified that there were no offers of rent, or back and forth negotiations because the 
+larger distributors told him: “When the road’s done we want to talk to you. When the 
+road’s done we will be interested in leasing your facility.” Also, Respondents’ expert, 
+Mr. Rice, gave his opinion as to damages caused by condemnation blight based on 
+reasonable market rental values during the relevant timeframe.  
+ 
+ 
+ 
+This Court has made clear that because a jury’s verdict below is entitled to 
+considerable deference, an appellate court should decline to disturb a trial court’s award 
+of damages on appeal as long as that award is supported by some competent, credible 
+evidence going to all essential elements of the award. Kessel v. Leavitt, 204 W. Va. 95, 
+188, 511 S.E.2d 720, 813 (1998).  
+                                                                                                                                                  
+may recover condemnation blight damages by simply showing bad faith irrespective of 
+unreasonable delay.  
+
+27 
+ 
+ 
+After carefully examining the evidence and testimony of damages offered 
+by Respondents, we believe that the jury’s verdict is well within the evidence presented. 
+Respondents offered proof which furnished “reasonable certainty of damages[.]” Syl. Pt. 
+4, Bartlett, 156 W. Va. at 432, 194 S.E.2d at 384. Accordingly, we decline to disturb the 
+trial court’s award of damages for condemnation blight.18  
+C. Interest on Award 
+In its judgment order, the trial court computed 10% interest on each of the 
+five separate awards for condemnation blight damages for years 2003 to 2007, and 10% 
+interest from March 9, 2010, forward based on the total awarded for just compensation. 
+DOH argues that this method of calculating interest is contrary to the clear direction of 
+West Virginia Code § 54-2-14a, which provides that 
+[w]hen, after payment into court as provided under the 
+authority of this section, the amount allowed by the report of 
+the condemnation commissioners, or the verdict of a jury, if 
+there be one, exceeds the amount which has been paid into 
+court, the excess amount, together with interest thereon at ten 
+percent from the date of the filing of the petition to the date of 
+payment of the excess amount into court, may, at any time 
+within three months after the report or verdict of a jury, as the 
+case may be, has been confirmed and ordered to be recorded, 
+be paid into court by the applicant for the persons entitled 
+thereto. In no other instance shall interest be allowed on 
+payments made pursuant to the provisions of this section. 
+ 
+                                              
+18 Because of our resolution of this issue, we find no merit to DOH’s argument 
+that the trial court incorrectly instructed the jury on the law regarding condemnation 
+blight. 
+
+28 
+ 
+ 
+ 
+(Emphasis added).  
+ 
+ 
+In response, Respondents maintain that when landowners suffer 
+condemnation blight prior to the filing of the petition, they are entitled to damages for 
+those years and prejudgment interest. Respondents argue that the condemnation statutes 
+do not specifically exclude condemnation awards from the general rule that litigants are 
+entitled to prejudgment interest. See e.g., Syl. Pt. 1, Kirk v. Pineville Mobile Homes, Inc., 
+172 W. Va. 693, 310 S.E.2d 210 (1983) (“The law allows the recovery of prejudgment 
+interest in cases involving damages to real property where the damages are reasonably 
+susceptible to calculation.”). 
+DOH has the better of the arguments on this issue. This Court recently 
+recognized that the statutes governing condemnation proceedings clearly provide that 
+interest is to be paid on the award from the date of filing of the petition. W.Va. Dep’t of 
+Trans. v. Veach, 239 W. Va. 1, 15, 799 S.E.2d 78, 92 (2017). In addition, it is well-
+established that “[w]hen a statute is clear and unambiguous and the legislative intent is 
+plain, the statute should not be interpreted by the courts, and in such case it is the duty of 
+the courts not to construe but to apply the statute.” Syl. Pt. 5, State v. General Daniel 
+Morgan Post No. 548, V.F.W., 144 W. Va. 137, 107 S.E.2d 353 (1959).  
+
+29 
+ 
+ 
+As this Court recognized in State by State Road Commissioner v. 
+Professional Realty Co., 144 W. Va. 652, 110 S.E.2d 616 (1959), a court’s jurisdiction is 
+statutory and limited in eminent domain proceedings.  
+Courts in the exercise of jurisdiction in eminent 
+domain proceedings must observe constitutional principles 
+relating to separation of powers and functions among the 
+three branches of government. . . . The jurisdiction of a court 
+or tribunal in condemnation proceedings is altogether 
+statutory and limited, and can be exercised only in the manner 
+and to the extent provided by statute, in force at the time the 
+proceedings are instituted; and generally the court may 
+adjudicate only questions which fairly arise and are relevant 
+to the right of eminent domain, as provided by the statute. 
+The power of condemnation is legislative, not judicial, and 
+exists in the courts only by express authorization, and only to 
+such an extent as has been expressly vested in them. 
+ 
+ 
+Id. at 659, 110 S.E.2d at 621 (quotation marks and citations omitted). 
+We therefore find that the trial court erred when calculating interest on the 
+$178,965 jury award. Petitioner previously deposited $3,550 with the trial court, leaving 
+the amount of excess at $175,415. The trial court should have calculated interest on the 
+excess amount at 10% from the date of the filing of the petition. W.Va. Code § 54-2-14a. 
+Therefore, we reverse and remand on this issue.  
+IV.  CONCLUSION 
+ 
+The May 11, 2018, order of the Circuit Court of Wood County is affirmed, 
+in part, and reversed, in part. We affirm its ruling on the jury’s award of damages for 
+
+30 
+ 
+ 
+condemnation blight. We reverse and remand with directions for the trial court to 
+calculate interest on the award in accordance with West Virginia Code § 54-2-14a. 
+               
+ 
+ 
+ 
+ 
+     
+           Affirmed, in part, reversed,  
+        in part, and remanded. 
+ 

@@ -1,0 +1,2202 @@
+In the United States Court of Federal Claims
+No. 16-113C 
+Filed: July 9, 2021 
+FOR PUBLICATION 
+WESTDALE NORTHWEST CENTER, 
+LP, 
+Plaintiff, 
+v. 
+UNITED STATES, 
+Defendant. 
+Jennifer A. Gehrt, Barbee & Gehrt, LLP, Dallas, TX, for the plaintiff. 
+Michael D. Austin and Mariana Acevedo, Commercial Litigation Branch, Civil Division, U.S. 
+Department of Justice, Washington, D.C., Helen Kerns, General Services Administration, of 
+counsel, for the defendant. 
+TRIAL OPINION 
+HERTLING, Judge 
+The parties in this contract dispute seek review of a property-tax provision in a lease for 
+office space.  The plaintiff, Westdale Northwest Center, LP (“Westdale”), leases office space at 
+an office building it owns in San Antonio, Texas, to the defendant, the United States, acting 
+through the General Services Administration (“GSA”).  The subject lease was negotiated and 
+signed by GSA and a previous owner of the building, Griffin Partners, Inc. (“Griffin Partners”), 
+from which Westdale subsequently acquired the building. 
+Several years into the lease, following a GSA audit, a disagreement arose regarding the 
+proper interpretation of a lease clause related to annual real-estate taxes.  The original 
+contracting parties established a fixed tax base for the building.  This tax base was incorporated 
+into a formula to be reflected in the lease to ensure that for each annual payment of the owner’s 
+real-estate taxes GSA would only pay taxes proportional to the share of the building it occupied.  
+The formula was intended to adjust GSA’s payment to the lessor depending on whether the 
+building’s real-estate taxes that year exceeded or fell below the established tax base.  The parties 
+to this litigation agree that the tax base written into the lease—$133,045—does not accomplish 
+the parties’ goal. 
+The parties disagree as to the implications of the incorrect figure.  Westdale petitions this 
+Court to enforce the contract as written because the plain language of the tax-adjustment clause 
+CORRECTED
+
+ 
+ 
+2 
+ 
+is unambiguous.  The defendant asserts the defense of mutual mistake in contract formation, 
+arguing that the former lessor and GSA were incorrect in their belief that the tax-adjustment 
+clause as written would accomplish the goal of ensuring that GSA pays only its proportional 
+share of the building’s real-estate taxes each year.  The defendant seeks reformation of the 
+contract to accomplish the original intent of the parties.   
+The Court held a three-day trial from January 25 to January 27, 2021, to take testimony 
+regarding the understanding and intent of the former lessor and GSA at the time of contract 
+formation.   
+Based on the testimony and evidence before it, the Court determines that the tax-
+adjustment clause as written was the product of a mutual mistake by GSA and the former lessor.  
+The Court finds that contract reformation is the appropriate remedy.  Accordingly, the Court 
+reforms the lease to reflect the parties’ agreed-upon methodology for calculating the tax base for 
+the purposes of determining GSA’s yearly real-estate tax payment owed to Westdale under the 
+terms of the lease. 
+I. 
+FACTS1 
+The Court sets forth findings of fact as required by Rule 52(a)(1) of the Rules of the 
+Court of Federal Claims (“RCFC”).  In making its factual findings, the Court relies on the 
+testimony elicited at trial and the documentary evidence submitted by the parties.  The Court 
+heard testimony from six witnesses.  The plaintiff called three witnesses: Mr. Jeff Allen, 
+executive vice president for Westdale, the current lessor; Ms. Rhonda Thompson, the director of 
+commercial-asset management and leasing for Westdale; and Ms. Kelli Williamson, a 
+commercial financial analyst for Westdale.  The defendant called Ms. Kelly Winn, the real-estate 
+broker for GSA.  Both parties called Mr. Lee Moreland, executive vice president in charge of 
+asset management for the former lessor, Griffin Partners, and Ms. Tracy Harter, the GSA 
+contracting officer for the lease at issue.  In addition to testimony, the Court considered the 
+parties’ Joint Stipulation of Facts, the five exhibits submitted by the plaintiff, the four exhibits 
+from the defendant, and the 80 joint exhibits in evidence.  The Court found all witnesses to be 
+credible. 
+A. 
+The 2004 Lease Between GSA and SAOP 
+The property at issue is an office building known as Northwest Center, located at 7550 IH 
+10 West in San Antonio, Texas (“building” or “property”).  (Jt. Stip. ¶ 3.)  On June 3, 2004, GSA 
+agreed to a lease (“2004 lease”) with SAOP Northwest Center, L.P. (“SAOP”) to secure office 
+ 
+1 In its factfinding, the Court cites the parties’ Joint Stipulation of Facts (“Jt. Stip.”) (ECF 
+114), the transcript of testimony elicited during trial (“Tr.”) (ECF 131-133), and the plaintiff’s 
+(“PX”), defendant’s (“DX”), and joint (“JX”) exhibits admitted into evidence at trial.  Citations 
+to exhibits are to the appropriate abbreviation followed by the exhibit and page number or 
+paragraph number: (e.g., DX 1 at 2; Jt. Stip. ¶ 7). 
+
+ 
+ 
+3 
+ 
+space.  (Id.; JX 39.)  At that time, SAOP owned the Northwest Center.  (Tr. 128 (Moreland).)  
+SAOP was a single-asset entity of Griffin Partners, a commercial real-estate investment and 
+management company.2  (Id.; Tr. 44-46 (Allen).)  The space leased by GSA under the 2004 
+Lease served as offices for the Administrative Office of the United States Courts in San Antonio.  
+(JX 39 at 3.) 
+GSA issued a Solicitation for Offers (“SFO”) as part of its acquisition of office space.  
+The 2004 lease incorporated all terms and conditions of GSA’s SFO.  (JX 39 at 2.)  Section 3.4 
+of the SFO was titled “Tax Adjustment (Sep 2000).”  (Id. at 14.)  Paragraph B of section 3.4 
+initially provided as part of the printed form: “Base year taxes as referred to in this paragraph are 
+1) the real estate taxes for the first 12-month period coincident with full assessment or 2) may be 
+an amount negotiated by the parties that reflects an agreed upon base for a fully assessed value of 
+the property.”  (Id.) 
+The printed phrase “coincident with full assessment or” was struck out of paragraph B by 
+hand and initialed by two representatives.  (Id.)  That phrase was replaced by new text typed 
+above paragraph B.  (Id.)  As amended, paragraph B provided: “Base year taxes as referred to in 
+this paragraph are 1) the real estate taxes for the 12-month period 1998, which were $413,020.00 
+or $1.71 per rentable square foot 2) may be an amount negotiated by the parties that reflects an 
+agreed upon base for a fully assessed value of the property.”  (Id. (emphasis added).)  Thus, the 
+lessor and GSA selected a prior tax year to serve as the real-estate tax base and deviated from the 
+original text of the SFO.  The $413,020 in real-estate taxes assessed against the property in 1998 
+was lower than the $525,153.66 in taxes assessed against the property in 2004, the year the 
+parties agreed to the lease.3  (JX 78 at 2.) 
+B. 
+The 2009 Solicitation for Offers, Response, and Attachments 
+Due to the pending expiration of the 2004 lease, GSA issued SFO 8TX3135 on August 
+19, 2009, seeking office space “for Federal Public Defender and Administrative Office of the 
+United States Courts in San Antonio, Texas.”  (JX 1B at 1.)  The SFO identified a ten-year lease 
+term with “five (5) years firm term.”  (Id. at 5.)  The SFO permitted GSA to terminate the lease 
+in whole or in part with written notice after the fifth year.  (Id.)  The SFO required offerors to 
+submit offers by December 31, 2009, (id.), though the deadline was extended to January 15, 
+2010, (JX 1D). 
+ 
+2 The Court at times refers to SAOP and Griffin Partners interchangeably as “owners” of the 
+building, although only SAOP held legal title to the building.  No significance is intended by the 
+choice of terminology. 
+3 For the purposes of this litigation, there are no disputes regarding the payment of real-estate 
+taxes under the 2004 lease.  Information pertaining to the 2004 lease is included to contextualize 
+the tax-adjustment clause of the parties’ 2010 lease at issue in this case. 
+
+ 
+ 
+4 
+ 
+SAOP submitted an offer in response to the SFO on January 15, 2010.  (Jt. Stip. ¶ 5.)  
+Pursuant to paragraph 3.0 of the 2009 SFO, SAOP submitted its bid package to Ms. Kelly Winn, 
+a broker with Studley, Inc. and the authorized real-estate broker for GSA, and Ms. Daphne 
+Hadley, the GSA contracting officer for the lease.  (DX 4 at 15.) 
+Paragraph 3.4 of the SFO required each offeror to submit to the contracting officer, as 
+part of its offer, seven different forms.  (JX 1B at 15-16.)  These forms included GSA Form 1364 
+(“Proposal to Lease Space”) and GSA Form 1217 (“Lessor’s Annual Cost Statement”).  (Id.) 
+1. 
+GSA Form 1364: Proposal to Lease Space 
+As part of SAOP’s offer, it submitted GSA Form 1364.  (DX 2.)4  The SFO specified that 
+both pages of GSA Form 1364 had to be completed and specifically noted that offerors should 
+indicate the total lease rate per square foot, “clearly itemizing . . . the total building shell rental.”  
+(JX 1B at 15.)  The SFO further noted that “[t]his building shell rental rate shall include, but not 
+limited to [sic], property financing (exclusive of Tenant Improvements), insurance, taxes, 
+management, profit, etc., for the building.”  (Id. (emphasis added).) 
+On SAOP’s submitted Form 1364, it described the property as a 25-year-old building of 
+241,404 rentable square feet (“rsf”).  (DX 2 at 1.)  Line 16 of Form 1364 was titled “SHELL 
+RENT (including current real estate taxes.  Refer to Line 28 on GSA Form 1217).”  (Id.)  SAOP 
+identified the shell rent on line 16 as $14.32, the amortized cost per rentable square foot.  (Id.)  
+On line 27 of the form, SAOP identified the “current year taxes” as “2009” and wrote 
+“$691,942.”  (Id. at 2.)  SAOP checked a box indicating that the 2009 taxes were “based on the 
+fully assessed value.”  (Id.) 
+2. 
+GSA Form 1217: Lessor’s Annual Cost Statement 
+SAOP also submitted GSA Form 1217 (“Lessor’s Annual Cost Statement”) with its offer, 
+as required by the SFO.  (DX 1; JX 1B at 15-16.)  Form 1217 was divided into two main 
+sections.  Section I, comprised of Lines 5 through 27, referred to the “Estimated Annual Cost of 
+Services & Utilities Furnished by Lessor as Part of Rental Consideration.”  (DX 1 at 1-2.)  
+Section II, which included lines 28 through 33, referred to the “Estimated Annual Cost of 
+Ownership Exclusive of Capital Charges.”  (Id. at 2.)  For each section, column (a) represented 
+costs for the entire building, and column (b) represented costs pertaining to the area leased by 
+ 
+4 The version of DX 2 the defendant initially provided was dated January 12, 2010.  Because 
+the exhibit omitted a portion of the page likely due to a photocopying error, the Court permitted 
+the defendant to re-submit DX 2.  The defendant submitted a new version of DX 2, but the 
+revised version was dated March 22, 2010, and includes minor deviations from the prior version 
+of DX 2 and handwritten notations apparently due to “clarifications with the offeror.”  (DX 2 at 1 
+(revised).)  The new DX 2 lists, for example, a larger percent of government occupancy.  Ms. 
+Winn testified that the handwritten additions to DX 2 (revised) reflect her negotiations with the 
+lessor.  (Tr. 424 (Winn).)  The Court admitted the revised DX 2 into evidence.  (Id. at 425.) 
+
+ 
+ 
+5 
+ 
+GSA.  (Id. at 1.)  At the time SAOP submitted Form 1217, its bid proposed that GSA lease an 
+area of 43,119 rsf.  (Id.)  Line 28 of Form 1217 was titled “REAL ESTATE TAXES.”  (Id. at 2.)  
+On line 28, in column (a), SAOP listed the lessor’s annual cost for real estate taxes as $726,629.  
+(Id.)  On line 28(b), which referred specifically to the area leased by the government, SAOP 
+identified the real-estate taxes as $129,788.19.5  (Id.)  Line 28 of Form 1217 thus provided the 
+following information: 
+SECTION II - ESTIMATED ANNUAL COST OF OWNERSHIP EXCLUSIVE OF CAPITAL 
+CHARGES 
+ 
+LESSOR’S ANNUAL COST FOR: 
+ENTIRE BUILDING (a) 
+GOV’T-LEASED AREA (b) 
+28. REAL ESTATE TAXES 
+$ 726,629 
+$ 129,788.19 
+(Id. (reformatting for clarity; column (c) omitted).) 
+C. 
+Original Lease 
+GSA awarded the 2010 lease (“original lease”) to SAOP.  (Jt. Stip. ¶ 6.)  On October 19, 
+2010, SAOP and GSA agreed to U.S. Government Lease for Real Property No. GS-07B-16737.  
+(Id.)  The lease between the parties was a standard government form lease that was prepared by 
+GSA.  (JX 1B at 13.)  SAOP drafted no part of the lease.  (Tr. 134 (Moreland).) 
+Under the original lease, GSA occupied 44,201 rsf of office and related space in the 
+building.  (Jt. Stip. ¶ 6.)  For months 1 through 60 of the lease term, the annual rent was 
+$1,087,786.61, at the rate of $90,648.88 per month.  (Id. ¶ 7.)  For months 61 through 120, the 
+annual rent was $1,060,824.00, at the rate of $88,402.00 per month.  (Id.)  At the outset of the 
+original lease, GSA occupied 18.309894 percent of the building.  (Id. ¶ 8.)  The original lease 
+permitted GSA to “terminate this lease in whole or in part at any time on or after the fifth (5 th) 
+year by giving at least 120 days’ notice in writing to the Lessor.”  (JX 1A at 2.) 
+1. 
+Incorporated Documents and Integration 
+Paragraph 7 of the original lease specified that the lease incorporated five documents: (1) 
+the SFO, including two amendments; (2) GSA Form 3517, entitled “General Clauses”; (3) GSA 
+Form 3518, entitled “Representations and Certifications”; (4) “Exhibit A—Base Plan”; and (5) 
+ 
+5 At the time SAOP submitted Form 1217 in January 2010, SAOP estimated GSA’s building 
+occupancy to be 43,119 rsf.  SAOP and GSA later agreed to a slightly larger leased area of 
+44,201 rsf.  (DX 1 at 2; JX 1A.)  The estimated real-estate taxes on Form 1217 were thus 
+calculated using a smaller square-footage of occupancy than is reflected in the final lease. 
+
+ 
+ 
+6 
+ 
+“Exhibit B—Legal Description.”  (Id.)  The original lease did not specify that it incorporated any 
+other documents.  (See JX 1A.) 
+The General Clauses form, incorporated into the original lease, included General Clause 
+552.270-27, an integration clause: 
+This Lease, upon execution, contains the entire agreement of the 
+parties and no prior written or oral agreement, express or implied, 
+shall be admissible to contradict the provisions of the Lease. 
+(JX 1E at 5.)  The original lease was therefore a fully integrated agreement. 
+Between execution of the original lease in 2010 and July 2013, GSA and SAOP executed 
+12 supplemental lease agreements amending the lease.  (Jt. Stip. ¶ 10.) 
+2. 
+Tax-Adjustment Provisions 
+The original lease contained provisions intended to determine the amount of property tax 
+GSA would pay relative to its occupancy in the building.  Paragraph 15 of the original lease 
+provided in full: 
+In accordance with the SFO Paragraph 4.2 entitled “Tax 
+Adjustment,” this lease is subject to real estate tax adjustment.  The 
+base amount is established as $133,045.00. The percentage of 
+occupancy is 18.309894%. 
+(JX 1A at 3.)6  Paragraph 15 is the “tax-adjustment clause” primarily at issue in this dispute. 
+The SFO, which was incorporated into and referenced in paragraph 15 of the original 
+lease, provided definitions and specific instructions for calculating the tax base.  Paragraph 4.2 of 
+the SFO identified the paragraph’s purpose: 
+4.2 Tax Adjustment (AUG 2008) 
+A. Purpose: 
+This paragraph provides for adjustment in the rent (“Tax 
+Adjustment”) to account for increases or decreases in Real Estate 
+Taxes for the Property after the establishment of the Real Estate Tax 
+ 
+6 The figure $133,045 differs slightly from the $129,788.19 listed in GSA Form 1217.  This 
+difference is due to an increase in the amount of rentable square feet GSA leased.  (See Tr. 437-
+39 (Winn).)  When SAOP submitted Form 1217, it proposed a rentable area of 43,119 rsf.  The 
+parties later agreed that GSA would lease slightly more space, and the final agreement reflected 
+in the lease was 44,201 rsf, a difference of 1,082 square feet.  (Id.; JX 1A.) 
+
+ 
+ 
+7 
+ 
+Base, as those terms are defined herein.  Tax Adjustments shall be 
+calculated in accordance with this Clause. 
+(JX 1B at 19.) 
+Paragraph 4.2 also identified definitions relevant to tax adjustment: 
+B. Definitions: 
+The following definitions apply to the use of capitalized terms 
+within this paragraph: . . . . 
+2. “Real Estate Taxes” are those taxes that are levied upon the 
+owners of real property by a Taxing Authority (as hereinafter 
+defined) of a State or local Government on an ad valorem basis . . . . 
+5. “Tax Abatement” is an authorized reduction in the Lessor’s 
+liability for Real Estate Taxes below that determined by applying 
+the generally applicable Real Estate Tax rate to the Fully Assessed 
+(as hereinafter defined) valuation of the Property. 
+6. “Unadjusted Real Estate Taxes” are the full amount of Real Estate 
+Taxes that would be assessed for the Property for one full Tax Year 
+without regard to the Lessor’s entitlement to any Tax Abatements 
+(except if such Tax Abatement came into effect after the date of 
+award of the Lease) . . . . 
+9. “Percentage of Occupancy” refers to that portion of the Property 
+exclusively occupied or used by the Government pursuant to the 
+Lease.  For buildings, the Percentage of Occupancy is determined 
+by calculating the ratio of the rentable square feet occupied by the 
+Government pursuant to the Lease to the total rentable square feet 
+in the building . . . . 
+(Id. at 19-20.) 
+Clause 7 of paragraph 4.2, defining “Real Estate Tax Base,” identified the methodology 
+for selecting a real-estate tax base: 
+7. “Real Estate Tax Base” is the Unadjusted Real Estate Taxes for 
+the first full Tax Year following the commencement of the Lease 
+term.  If the Real Estate Taxes for that Tax Year are not based upon 
+a Full Assessment of the Property, then the Real Estate Tax Base 
+shall be the Unadjusted Real Estate Taxes for the Property for the 
+first full Tax Year for which the Real Estate Taxes are based upon a 
+Full Assessment.  Such first full Tax Year may be hereinafter 
+referred to as the “Tax Base Year.”  Alternatively, the Real Estate 
+Tax Base may be an amount negotiated by the parties that reflects 
+an agreed upon base for a Fully Assessed value of the property. 
+
+ 
+ 
+8 
+ 
+(Id. at 20 (emphasis added).)  Clause 7 thus established that the real-estate tax base would be the 
+unadjusted real-estate taxes assessed for the first year following commencement of the lease or, 
+alternatively, would be based on an amount the parties negotiated. 
+Part C of paragraph 4.2 explained that property taxes would be adjusted to ensure GSA 
+pays only its proportional share of taxes: 
+C. Adjustment for Changes in Real Estate Taxes: 
+1. After the Property is Fully Assessed, the Government shall pay 
+its share of any increases and shall receive its share of any decreases 
+in the Real Estate Taxes for the Property, such share of increases or 
+decreases to be referred to herein as “Tax Adjustment.”   
+(Id.) 
+Paragraph 4.2C(1) further specified the methodology for calculating GSA’s proportionate 
+tax payment: 
+The amount of the Tax Adjustment shall be determined by 
+multiplying the Government’s Percentage of Occupancy by the 
+difference between the current year Unadjusted Real Estate Taxes 
+and the Real Estate Tax Base, less the portion of such difference not 
+paid due to a Tax Abatement (except if a Tax Abatement comes into 
+effect after the date of award of the Lease).  If a Tax Abatement 
+comes into effect after the date of award of the Lease, the amount of 
+the Tax Adjustment shall be determined by multiplying the 
+Government’s Percentage of Occupancy by the difference between 
+the current year Unadjusted Real Estate Taxes and the Real Estate 
+Tax Base. 
+(Id.)  Paragraph 4.2 was a “standard section” in GSA leases.  (Tr. 433 (Winn).) 
+Pursuant to the lease, GSA would pay this tax adjustment “in a single annual lump sum 
+payment to the Lessor,” and if the adjustment “results in a credit owed to the Government, the 
+Government may elect to receive payment in the form of a rental credit or lump sum payment.”  
+(Id.) 
+The overall effect of the real-estate tax provisions was to (1) establish a default and 
+alternative method for selecting the tax base; (2) ensure GSA pays only its share of the building’s 
+real-estate taxes based on the percentage of the building it occupies; and (3) identify the 
+appropriate formula to effectuate the tax adjustment. 
+
+ 
+ 
+9 
+ 
+D. 
+Negotiation of the Tax Base 
+1. 
+Relevant Tax History 
+The Northwest Center is in Bexar County, Texas, which assesses the real-estate taxes on 
+the building.  (Tr. 49 (Allen); JX 79.)  Property taxes for a given tax year are payable by January 
+31 of the following year.  (Tr. 32 (Allen).)  For the 2009 tax year, the year immediately 
+preceding negotiation of the original lease, SAOP was assessed $691,942 in unadjusted real-
+estate taxes.7  (DX 2 at 1.)  For the 2010 tax year, SAOP ultimately paid Bexar County a total of 
+$573,292.86 in real-estate taxes.  (JX 66 at 4; JX 67.)  For the 2011 tax year, SAOP paid a total 
+of $527,585.91 in real-estate taxes.  (JX 66 at 4; JX 67.)  For the 2012 tax year, the first year of 
+taxes after the start of the original lease, SAOP paid $541,020.95 in real-estate taxes.  (JX 78 at 
+2.) 
+2. 
+Lessor’s Understanding of the Tax Base 
+Griffin Partners, the asset- and property-management company that owned SAOP, 
+authorized Mr. Lee Moreland, its senior vice president for asset management, to “sign and 
+negotiate on behalf of Griffin Partners/SAOP Northwest Center, LP” the original lease.  (JX 33.)  
+Mr. Moreland was “the point person in terms of negotiations on behalf of the building owner” 
+and negotiated with GSA the terms of original lease.  (Tr. 130 (Moreland).) 
+Mr. Moreland submitted Forms 1364 and 1217, as required by the SFO, on behalf of 
+SAOP in January 2010.  (Id. at 176, 180.)  His employees prepared the forms under his 
+supervision, and he approved them.  (Id. at 181.)  Mr. Moreland’s initials appear on each page of 
+SAOP’s bid package, including GSA Forms 1364 and 1217, as required, and he signed the last 
+page of both forms.  (DX4; DX 1 at 2; DX 2 at 2.) 
+Mr. Moreland described GSA Form 1217 as “an estimate that was requested of the 
+annual costs of the building.”  (Tr. 184.)  He testified that line 28(a) on Form 1217, which listed 
+the figure $726,629, constituted the “estimated real estate tax expense for the building.”  (Id. at 
+185.)  Regarding the origin of the $726,629 figure on line 28(a) of Form 1217, Mr. Moreland 
+testified that it came from one of two places: “It would either have been . . . the budget . . . the 
+year in which [Form 1217] was submitted, which was in January of 2010, or it was based on the 
+year end, December 31, 2009.”  (Id. at 186.) 
+Mr. Moreland explained that his “assumption for the reason” he listed the estimated 
+figure of $726,629 in line 28(a) of Form 1217 “was that it was to establish the estimated 
+[expenses] for the building as part of the offer.”  (Id.)  Mr. Moreland testified that he did not 
+intend for the estimated costs listed on Form 1217 to be reflected in the lease, stating that it 
+“would not have been my intent with the submission of this package.”  (Id.)  He stated that his 
+only intent with the submission of Form 1217 was to “provide the then current estimate of 
+ 
+7 The unadjusted real-estate taxes are often challenged, and the final real-estate taxes paid on 
+the building do not reflect the initial, unadjusted assessment, as will become evident below. 
+
+ 
+ 
+10 
+ 
+operating expenses for the building,” for the purpose of “completing the SFO as requested by the 
+GSA.”  (Id.)  The $726,629 figure of Form 1217 “represents an estimate of what [he] thought 
+that the county would send [SAOP] as a tax bill,” though “subject to the protest procedures for 
+assessed values.”  (Id. at 188.) 
+Mr. Moreland neither agreed to nor negotiated a $726,629 or $133,045 tax base during 
+his discussions with GSA leading to the original lease.  (Id. at 138, 205.)  He testified that the 
+$133,045 figure in paragraph 15 was wrong.  (Id. at 189.)  He agreed that the figure “was a 
+mistake,” noting that “the $133,045 was not in keeping with my assumption for setting the base 
+year.”  (Id. at 199.)  Ultimately, when asked whether he would “have recommended to SAOP 
+that it adopt a $726,629 . . . real estate tax base for the new lease,” Mr. Moreland testified “no.”  
+(Id. at 146.) 
+Instead, he intended “to have the tax base be the actual taxes for the year in which the 
+lease commenced.”  (Id. at 139.)  He testified that he maintained his intention to use the first-year 
+taxes as the tax base throughout the course of negotiations with GSA.  (Id.)  Given that the lease 
+term began in January 2012, Mr. Moreland testified that he would have intended to use the actual 
+taxes paid in tax year 2012, subject to any subsequent reduction by Bexar County, as the tax base 
+for paragraph 15 of the lease.  (Id. at 205-06, 209-10.) 
+3. 
+GSA’s Understanding of the Tax Base 
+Ms. Kelly Winn, a real-estate broker for Studley, Inc., served as GSA’s representative 
+and broker for the procurement that led to the original lease.  (Tr. 415 (Winn).)  Ms. Winn had 
+extensive experience with public-sector leases.  (Id. at 408.)  She testified as to the government’s 
+intent in formulating the tax-adjustment clause. 
+Ms. Winn explained that in public-sector leasing, the lessor and the government negotiate 
+using the government’s form.  (Id. at 410.)  As set forth in paragraph 3.4 of the SFO, offerors 
+were required to submit GSA Forms 1217 and 1364 with their offer in response to the SFO.  (Id. 
+at 422-23.)  Ms. Winn explained that the “building shell rental rate” referenced in paragraph 
+3.4(A)(2)(c) of the SFO is comprised of two components.  “One is outlined in Section 1.11 of the 
+solicitation for offers, it’s the physical components of the space.  And then the second 
+component is a monetary component that is taken from another form, 1217, which includes real 
+estate taxes . . . .”  (Id. at 423.)  Ms. Winn confirmed that Forms 1217 and 1364 “are not attached 
+to the lease.  These documents make up the business terms for the lease.”  (Id. at 426.)  Forms 
+1217 and 1364 are “the base for the business points of the lease that’s negotiated.”  (Id. at 431.) 
+Ms. Winn explained that line 28 of GSA Form 1217 depicted the lessor’s annual 
+operating costs for real-estate taxes.  She noted that column (a), which showed a figure of 
+$726,629, represented “the real estate taxes for the entire building,” and that column (b), listing 
+the figure $129,788.19, referred to “the proportionate share of the real estate taxes for the 
+government.”  (Id. at 429.)  She further explained that “the real estate taxes would have matched 
+up with a real estate tax statement from Bexar County.  So . . . it would be either an estimate 
+based on what they had received from the county or it would be the actual just depending on 
+
+ 
+ 
+11 
+ 
+when it was submitted.”  (Id.)  In this case, Ms. Winn identified the figures at line 28 as the 
+estimated costs.  (Id.) 
+GSA maintains that it already pays real-estate taxes as part of its shell rent.  (Id. at 423.) 
+Ms. Winn explained that the shell rental rate “does include the real estate taxes for the building.” 
+(Id.)  The formula referenced in paragraph 15 of the lease is intended to adjust the proportional 
+amount GSA pays when taxes assessed against the building are either more or less than the 
+established tax base.  (Id. at 434.)  Ms. Winn explained that essentially, “the tax base is a 
+reference point pursuant to which the taxes are adjusted.”  (Id.)  The tax-adjustment provision 
+seeks to modify what GSA has already paid in its shell rent, and GSA’s annual tax payment 
+“could go up, [or] could go down” beyond what had already been paid in the shell rent 
+depending on whether the yearly assessment by the county falls above or below the established 
+tax base.  (Id.) 
+Regarding the establishment of a real-estate tax base, Ms. Winn testified that, for all GSA 
+leases, there generally are “two ways that the real estate base could be determined.  It can be 
+determined based on after the first year of occupancy, when the government has taken possession 
+of the space, or it can be a determined amount based on -- if I’m a tenant in the building, what 
+the current real estate taxes are.”  (Id. at 435.)  For the tax base at issue in this case, she 
+explained: “In this lease, it was a determined amount because we were currently a tenant in the 
+building.  So there was a basis for understanding what the real estate taxes were.”  (Id.) 
+Ms. Winn identified the $726,629 figure from line 28 of GSA Form 1217 as the correct 
+determined amount for the building.  Id. at 436.  When asked whether $133,045 was the tax base 
+as determined and used in paragraph 4.2, she testified “no . . . it should be the real estate taxes 
+for the entire building, $726,629.”  (Id. at 440.)  She did not know how the $133,045 figure 
+ended up in paragraph 15 of the lease.  (Id. at 442.)  She testified, as did Mr. Moreland, that the 
+$133,045 number “is a mistake.”  (Id. at 439.) 
+Ms. Harter, the GSA contracting officer, testified at trial that the proper formula for 
+calculating GSA’s proportional share of property taxes is to “take the tax assessment for that 
+year, subtract the tax or the base that’s already in our shell rent, and then you take that figure and 
+multiply it by our percentage occupancy, and that is . . . the government’s obligation.”  (Tr. 355 
+(Harter).)  She also explained that the tax base of paragraph 15 was incorrect: “it should have 
+been, instead of the $133,045, in paragraph 15, it should have been the $726,629, because that is 
+the base tax amount for the premises, for the entire building.”  (Id. at 357.) 
+E. 
+Tax Payment under Original Lease Between SAOP and GSA 
+The first tax year after the original lease commenced was tax year 2012.  For tax year 
+2012, SAOP paid $541,020.95 in property taxes to Bexar County for the entire building.  (JX 78 
+at 2.) 
+Because the real-estate tax base in paragraph 15 of the lease was written as $133,045 and 
+the taxes assessed exceeded $133,045, SAOP determined that it required additional payment 
+from GSA.  In a letter dated January 29, 2013, SAOP notified GSA that it was responsible for an 
+
+ 
+ 
+12 
+ 
+additional $37,348.98, representing one-half of the government’s pro rata share of the 2012 
+taxes.  (JX 40 at 6.) 
+Ms. Harter approved payment of SAOP’s bill for a further contribution by GSA to cover 
+the building’s 2012 property tax.  (JX 41; Tr. 339 (Harter).)  She testified that SAOP submitted 
+to GSA with its payment request a worksheet, tax statement, and proof of payment that GSA 
+used to complete an independent tax escalation analysis worksheet.  (Tr. at 340.)  Ms. Harter 
+relied on this worksheet to approve payment of SAOP’s tax bill and testified that she did not 
+consult the lease to approve the request.  (Id. at 339-40.)  GSA therefore issued to SAOP a 
+payment of $37,348.16, representing GSA’s portion of a “split payment,” on March 1, 2013.8  
+(JX 41.) 
+F. 
+Westdale’s Purchase of the Northwest Center 
+Westdale purchased the Northwest Center from SAOP in 2013.  Prior to closing on the 
+purchase, on March 24, 2013, Ms. Harter sent Westdale a letter on behalf of GSA pertaining to 
+the lease.  The letter confirmed that “1. Lease GS-07B-16737 is currently in full force and effect.  
+2. No rental has been paid in advance under the leases.  3. No notices of default have been issued 
+by the Contracting Officer.”  (JX 35 at 1.)  The letter based its statements “on a reasonably 
+diligent review of the Contracting Officer’s lease files as of the date of issuance of this letter.”  
+(Id.) 
+In addition to the letter from GSA, SAOP provided to Westdale, at the time of closing on 
+May 21, 2013, a partial seller-estoppel certificate related to its lease of space to GSA.  (JX 36.)  
+The estoppel certificate confirmed that pursuant to the Agreement of Purchase and Sale of March 
+5, 2013, between Westdale and SAOP, “the owner of the Property and the landlord’s interest in 
+the Lease [SAOP], intends to sell, transfer, assign and convey such Property, and the landlord’s 
+interest in all tenant leases with respect to such property.”  (Id. at 1.)  The estoppel certificate 
+also confirmed that “Tenant is currently obligated to pay fixed or base rent under the Lease in the 
+annual amount of $1,046,237.67” in monthly installments.  (Id.)  It established that there were 
+“no concession, bonuses, free months’ rental, rebates or other matters affecting the rental for 
+Tenant which Tenant has not received” and that “[t]o the best of Seller’s knowledge, there are no 
+events or conditions existing which, with or without notice or the lapse of time, or both, could 
+constitute a monetary or other default of the landlord or tenant under the Lease . . . .”  (Id.) 
+Mr. Allen, Westdale’s executive vice president, negotiated the purchase of Northwest 
+Center and completed the due diligence.  (Tr. at 35 (Allen).)  He testified that he relied on GSA’s 
+representation that its lease was in full force and effect.  (Id. at 40.)  He maintained that the 
+government’s estoppel certificate is “critical” because the new lessor had not “had any 
+relationship with the tenants” prior to purchase.  (Id.)  He received similar representations from 
+the seller, Griffin Partners.  (Id. at 41; JX 36.)  Mr. Allen had been involved with prior 
+ 
+8 The difference between SAOP’s request of $37,348.98 and GSA’s payment of $37,348.16 
+reflects a rounding issue that the plaintiff does not dispute. 
+
+ 
+ 
+13 
+ 
+acquisitions from Griffin Partners in Houston.  (Tr. 34-35.)  He noted that the seller’s estoppel 
+certificate serves to confirm that there are “no outstanding issues that a buyer would need to be 
+aware [of].”  (Id. at 38.) 
+Because the contracting parties to the original lease, SAOP and GSA, were unaware of 
+the alleged mistake in paragraph 15, Westdale did not know prior to the purchase that there was 
+any mistake written into the terms of the lease.  (Id. at 53.)  The amount of GSA’s rental 
+payments aligned with the market rate for office space in San Antonio.  (Tr. 140-41 (Moreland).) 
+Mr. Allen explained that Westdale’s intention in buying the Northwest Center related to 
+potential rental income from tenants in the building.  In buying an office building, Mr. Allen 
+testified, the buyer is “buying an income stream. . . . [B]asically how our industry values the 
+building is based on the income stream that you anticipate receiving over typically a three to 
+five-year period, or longer in our case.”  (Tr. 36 (Allen).)  He explained that GSA’s occupancy 
+“represented 20 percent of the building.  There’s no way we were buying the building that didn’t 
+include this rental stream.  No way, no how.”  (Id. at 98-99.) 
+Mr. Allen testified that the government’s reading of the lease as intending other than a 
+$133,045 tax base “reduces the rental rate [Westdale] otherwise anticipated receiving.”  (Id. at 
+77.)  The withholding of rent payments by GSA to account for the mistake in the tax base 
+reflected in the original lease creates “a reduction in the cash flow that we anticipated.  You 
+know, we bought a number of leases in place, the GSA lease was one of many leases that we 
+bought at this property, and we have not received the income that we projected based on the clear 
+reading of the lease that we anticipated to receive.”  (Id. at 77-78.)  Therefore, Mr. Allen 
+maintained that Westdale is not receiving the benefit of its bargain under the lease that it 
+assumed with the government “based on [Westdale’s] clear reading of the lease document.”  (Id. 
+at 77.) 
+On May 21, 2013, by a special warranty deed executed by SAOP, Westdale took title to 
+the real property and improvements.  (Jt. Stip. ¶ 12.)  All lease files for each tenant in the 
+building were transferred to Westdale at the time of purchase.  (Tr. 135 (Moreland).) 
+After closing on the property, Westdale, SAOP, and GSA entered into Lease Agreement 
+No. 13, effective July 16, 2013.  (JX 14; Jt. Stip. ¶ 13.)  This agreement memorialized 
+Westdale’s assumption of all obligations and liabilities of SAOP under the original lease, as 
+amended, and Westdale became the lessor for the remainder of the term of the original lease: 
+Westdale Northwest Center, LP, Lessor, hereby assumes all the 
+incomplete obligations of Lease GS-07B-16737 as amended, and 
+agrees to perform same in accordance with the terms, conditions, 
+and provisions thereof from and after July 16, 2013.  Lessor further 
+assumes all obligations and liabilities of and all claims and demands 
+arising under Lease GS-07B-16737 against [SAOP] and ratifies and 
+confirms all actions heretofore taken by [SAOP] with respect to the 
+contract with the same force and effect as if the actions had been 
+taken by [Westdale].  Nothing contained herein shall be construed 
+
+ 
+ 
+14 
+ 
+as releasing [SAOP] from [SAOP’s] obligations under the terms of 
+the lease. 
+(JX 14 at 1.) 
+Paragraph 6 of Lease Agreement No. 13 discharged any further payment obligation by 
+GSA to SAOP: 
+Notwithstanding the foregoing, all payments heretofore made by the 
+Government to [SAOP] and all other actions hereto taken by the 
+Government pursuant to its obligations under the contract shall be 
+deemed to have discharged the Government’s obligations under the 
+contract to the extent of the amounts so paid or reimbursed or such 
+actions taken. 
+(Id.) 
+G. 
+Contract Performance Under Lease Between Westdale and GSA 
+1. 
+Tax Year 2013 
+On July 5, 2014, Westdale sent GSA a letter pertaining to taxes owed for tax year 2013.  
+Westdale notified GSA that it owed $86,446.84, representing GSA’s pro rata share in excess of 
+the established real-estate tax base of the 2013 real-estate taxes assessed against the building.  
+(Jt. Stip. ¶ 15.)  Westdale submitted with its letter a worksheet, tax statement, and proof of 
+payment.  In response to Westdale’s letter, Ms. Harter’s supervisor at GSA, Mr. Ed Perez, 
+approved payment of the 2013 real-estate taxes as determined by the tax-adjustment clause of the 
+lease.  (JX 43; Tr. 340-41 (Harter).)  GSA paid the sum of $86,446.34, a difference of $.50 from 
+Westdale’s request that the parties do not dispute.  (JX 43.) 
+2. 
+Government Audit 
+On November 4, 2014, GSA provided notice to Westdale by letter that GSA had 
+conducted an audit of the lease and the rental payments it had made.  (JX 58.)  GSA’s “review of 
+the lease and rental payments revealed that [Westdale had] been overpaid in the amount of 
+$79,027.78.”  (Id. at 1.)  The letter notified Westdale that the overpayment would be deducted 
+from shell rent payments for two months until repaid in full.  (Id.) 
+GSA’s audit pertained to tax-adjustment payments due under the lease for 2012 and from 
+January 1 to May 20, 2013.  (Jt. Stip. ¶ 16.)  A “rate sheet” used in the audit, titled “Yearly 
+Stepped Rent Levelizer” was attached to GSA’s November 4 letter and included a handwritten 
+notation at the top providing that this document was “not part of their lease.”  (JX 58 at 7.) 
+GSA’s November 4, 2014 letter was the first indication Westdale received that GSA 
+believed it had overpaid property taxes under the lease, including when the Northwest Center 
+had been under SAOP’s ownership.  (Tr. 61 (Allen).)  On November 5, 2014, Westdale 
+responded via letter to GSA’s claims and contended that GSA had been correctly invoiced 
+
+ 
+ 
+15 
+ 
+according to the tax adjustment provision in the lease.  (JX 59.)  Westdale explained that 
+“according to Paragraph 15 of the lease, the base amount is $133,045.00 with a percentage of 
+occupancy of 18.309894% . . . .  Based on the attached invoices, it is the Landlord’s opinion that 
+it has correctly invoiced the Government per the terms of the lease.”  (Id.) 
+By letter dated November 7, 2014, GSA notified Westdale that its audit also concluded 
+that Westdale had been overpaid in the amount of $13,630.21 for property taxes due from May 
+21 to December 31, 2013.  (Jt. Stip. ¶ 18.) 
+On January 16, 2015, GSA issued a letter to Griffin Partners, the former asset 
+management company, demanding the return of $79,027.78, asserting an erroneous overpayment 
+made under the terms of the original lease.  GSA deducted this amount from payments of rent 
+and other charges due to Westdale.  (Jt. Stip. ¶ 19.) 
+3. 
+Occupancy Increase 
+On February 16, 2015, Westdale and GSA executed Lease Amendment No. 17, effective 
+retroactively from December 18, 2014, documenting GSA’s acceptance of 3,417 additional rsf of 
+recently constructed expansion space.  (Jt. Stip. ¶ 20; JX 18 at 1.)  The new space increased the 
+space GSA occupied to 47,618 rsf or 19.725357 percent of the building.  (Jt. Stip. ¶ 21; JX 18 at 
+1.)  For the purposes of this dispute, GSA’s occupancy remains 19.725357 percent to date.  9  (Jt. 
+Stip. ¶ 21.) 
+Paragraph D of Lease Amendment No. 17 provided that “Paragraph 15 of the Lease is 
+hereby amended as follows. . . . 15.  In accordance with the SFO Paragraph 4.2 entitled ‘Tax 
+Adjustment,’ this lease is subject to real estate tax adjustment.  The base amount is established as 
+$133,045.00.  The percentage of occupancy is 19.725357% [47,618 RSF/241,405 RSF].”  (JX 18 
+at 2 (brackets in original).)  Ms. Harter testified that the retention of the figure $133,045 in 
+paragraph D of Lease Amendment No. 17 was another mistake.  (Tr. 390 (Harter).) 
+4. 
+2014 Tax Year 
+On March 31, 2015, Westdale notified GSA via email that GSA was responsible for 
+paying its pro rata share of the 2014 real-estate taxes assessed against the property above the 
+established base-year amount.  (Jt. Stip. ¶ 22.)  Westdale invoiced GSA $105,341.85.  (Id.)  On 
+June 27, 2015, GSA notified Westdale that GSA had overpaid its share of 2014 real estate taxes 
+by $27,391.00.  GSA notified Westdale of its intention to deduct that amount from future rental 
+ 
+9 GSA later increased its occupancy to 23.277479 percent of the building through Lease 
+Amendment No. 19, effective March 1, 2017, but the additional space leased by GSA is subject 
+to its own separate property-tax base.  (Jt. Stip. ¶ 21; JX 20.)  Paragraph 5 of the lease 
+amendment provides: “The Base Cost of Services for the expansion area in 2017 is established at 
+$8.30 per rental sq. ft.  The Tax Base for the Expansion Area is included in the shell rent and 
+shall be the taxes for 2017.”  (JX 20 at 3.)  The newly occupied space thus used the first year of 
+taxes under the lease amendment for the tax base. 
+
+ 
+ 
+16 
+ 
+payments.  (Id. at ¶ 23.)  In August 2015, GSA withheld $27,391.00 from its rent payment.  (Id. 
+at ¶ 24.) 
+On August 28, 2015, Ms. Harter sent Westdale a letter on behalf of GSA in response to 
+Westdale’s claim, explaining the erroneous tax base: 
+I have conducted a thorough examination of the lease and tax audit 
+documents, along with the Lessor’s Annual Cost Statement which 
+was submitted with the Lessor’s offer for the succeeding lease, and 
+tax records for the building.  In doing so, I have determined the lease 
+language itself does not correctly represent the intention of the 
+established real estate tax base as it relates to real estate adjustments.  
+Paragraph 15 of the SF2 and Lease Amendment (LA) No. 17 do 
+state the base amount is established as $133,045.00 which I believe 
+is intended to be the tax base for the Government occupied 
+percentage of the building only, not the entire building. 
+(JX 26 at 4 (emphasis in original).)  Due to a subsequent reduction by Bexar County of 
+Westdale’s total property-tax obligations, Westdale received a refund of $56,145.16, reducing 
+the amount Westdale claims is due for 2014 taxes to $95,061.73.  (Jt. Stip. ¶ 24.) 
+Ms. Harter attached Lease Amendment No. 18 to her August 2015 letter “to clarify the 
+intention of the $133,045.00 tax base.”  (JX 26 at 5, 11.)  Lease Amendment No. 18 sought to 
+replace the tax base of $133,045 written into paragraph 15 of the lease with $726,629.  (Id.)  
+Westdale did not sign Lease Amendment No. 18. 
+5. 
+Subsequent Tax Years10 
+For the 2015 tax year, Westdale invoiced GSA for $130,672.02, representing GSA’s 
+proportional share of real-estate taxes.  (Jt. Stip. ¶ 25; JX 47.)  GSA prepared a tax escalation 
+worksheet and determined it owed $23,870.61.  (JX 49.)  It paid the sum of $23,870.61, leaving 
+$106,801.41 of the amount Westdale had invoiced.  (Jt. Stip. ¶ 25.)  Westdale later received a 
+reduction in real-estate taxes owed to Bexar County, resulting in a refund to Westdale of 
+$59,647.11 for the 2015 tax year.  (Id.)  This reduction decreased the total 2015 taxes allegedly 
+owed by GSA from $130,672.02 to $118,906.41 and decreases the amount Westdale alleges to 
+be still due from GSA from $106,801.41 to $95,035.80. 
+For the 2016 tax year, Westdale invoiced GSA for $127,913.93.  (Id. ¶ 28; JX 51.)  Of 
+the total amount invoiced, GSA paid $21,112.52, leaving $106,801.41 as an alleged remaining 
+balance.  (Jt. Stip. ¶ 28; JX 52; JX 53.)  Due to a subsequent tax reduction by Bexar County, 
+ 
+10 The Court has reached slightly different mathematical calculations in determining the 
+amounts the plaintiff alleges to be due from GSA.  These discrepancies are a matter of a few 
+cents.  For the purposes of this opinion, the Court adopts the amount due as alleged by the 
+plaintiff and as is reflected in the parties’ joint stipulation of facts. 
+
+ 
+ 
+17 
+ 
+Westdale received a $30,991.27 refund on its 2016 taxes.  This reduction decreased the total 
+2016 taxes allegedly due from GSA from $127,913.13 to $121,800.78 and decreases the amount 
+Westdale alleges to be still due from GSA from $106,801.41 to $100,688.26.  (Jt. Stip. ¶ 28.) 
+For the 2017 tax year, Westdale invoiced GSA for $133,365.35.  (JX 54 at 3.)  GSA paid 
+$26,563.96 of that total, leaving $106,801.39 that Westdale alleges is still due.  (Jt. Stip. ¶ 30; JX 
+54A; JX 54B.)  Westdale again received a refund of its 2017 taxes, decreasing the taxes allegedly 
+due from GSA from $133,365.35 to $127,808.93, and decreasing the amount Westdale now 
+alleges to be still due from GSA from $106,801.41 to $101,244.97. 
+For the 2018 tax year, Westdale invoiced GSA for $132,988.83.  (Jt. Stip. ¶ 32.)  GSA 
+paid $54,861.85, leaving $78,126.78 alleged to be due to Westdale.  (Id.)  A subsequent 
+reduction by Bexar County to the assessed value of the building resulted in a refund of 
+$21,564.46 of the taxes Westdale paid for the 2018 tax year.  (Id.)  This reduction decreases the 
+total 2018 taxes allegedly due from GSA from $132,988.83 to $128,735.17 and decreases the 
+amount Westdale alleges to be still due from GSA from $78,126.78 to $73,873.32. 
+For the 2019 tax year, Westdale invoiced GSA for $129,990.55.  (Jt. Stip. ¶ 34.)  GSA 
+paid the sum of $22,581.42 and was due a credit in the amount of $607.74 relating to its 
+expansion space on the ninth floor of the building, leaving the sum of $107,409.13 alleged to be 
+due to Westdale.  (Id.)  A subsequent reduction by Bexar County to the assessed value of the 
+building resulted in a refund of $27,014.34 of the taxes Westdale paid for the 2019 tax year.  
+(Id.)  This reduction decreases the 2019 taxes allegedly due from GSA from $129,990.55 to 
+$124,661.88 and decreases the amount Westdale now alleges to be still due from GSA from 
+$107,409.13 to $101,472.72. 
+For the 2020 tax year, Westdale was assessed $788,235.87 in property taxes by Bexar 
+County.  (JX 80.) 
+In sum, Westdale asserts that its damages are based on the alleged unpaid taxes: 
+Tax Year 
+Westdale Billed GSA 
+GSA Paid 
+Allegedly Due to Westdale (Adjusted) 
+2014 
+$ 105,341.85 
+$ 0 
+$ 95,061.73 
+2015 
+130,672.02 
+23,870.61 
+95,035.80 
+2016 
+127,913.93 
+21,112.52 
+100,688.26 
+2017 
+133,365.35 
+26,563.96 
+101,244.97 
+2018 
+132,988.83 
+54,861.85 
+73,873.32 
+2019 
+129,990.55 
+23,189.16 
+101,472.72 
+UNPAID TAXES: $567,376.80 
+(ECF 139 at 28.) 
+
+ 
+ 
+18 
+ 
+H. 
+Certified Claims 
+Westdale has presented four claims to Ms. Harter, GSA’s contracting officer, for 
+payment of sums it views as due under the plain text of the lease.11  (Jt. Stip. ¶¶ 27-38.) 
+On July 10, 2015, Westdale presented its first certified claim to Ms. Harter for 
+$197,828.56, representing rent and tax adjustments allegedy due to date.  (Id. ¶ 26.)  Westdale 
+requested a final decision.  (Id.)  On October 27, 2015, Ms. Harter issued a final decision 
+denying Westdale’s claim.12  (Id. at ¶ 27.) 
+On December 20, 2017, Westdale presented a second certified claim to the contracting 
+officer.  (Id. ¶ 31.)  Westdale sought declaratory relief related to construction and breach of the 
+lease and equitable adjustment.  Westdale requested a final decision.  The contracting officer 
+denied Westdale’s second certified claim in a final decision on February 8, 2018.  (Id. ¶ 33.) 
+On October 22, 2019, Westdale presented its third certified claim for sums it alleges are 
+due under the terms of the lease for tax years 2014 through 2018.  (Id. ¶ 35.)  The contracting 
+officer issued a final decision on November 14, 2019, denying the third certified claim.   (Id. ¶ 
+36.) 
+On November 17, 2020, Westdale presented its fourth certified claim to the contracting 
+officer for sums it views as due for tax year 2019.  (Id. ¶ 37.)  On November 23, 2020, the 
+contracting officer denied the fourth certified claim in a final decision.  (Id. ¶ 38.) 
+ 
+11 In its second certified claim presented to the contracting officer, Westdale sought 
+enforcement of the lease as written or, “[i]n the alternative, an equitable adjustment or 
+reformation of paragraph 15 of the Lease to reflect that the real estate tax base for real estate 
+taxes is the actual real estate taxes paid for tax year 2012 on the ‘Property.’”  (JX 27 at 4.)  
+Westdale’s second, third, and fourth certified claims before the contracting officer also 
+incorporated by reference the complaint in this lawsuit and included the complaint as an 
+attachment.  Like the certified claims, the complaint sought, in the alternative, reformation of 
+paragraph 15 of the lease.  (JX 27 at 1; JX 29 at 1; JX 31 at 1.)  The plaintiff thus raised the issue 
+of reformation in its claims before the contracting officer and requested and received a final 
+decision on these claims.  See M. Maropakis Carpentry, Inc. v. United States, 609 F.3d 1323, 
+1327-29 (Fed. Cir. 2010) (premising the Court of Federal Claims’ jurisdiction over a CDA case 
+on whether the claim was timely, provided notice of the basis and amount of the claim, and was 
+subject to a contracting officer’s final decision). 
+12 Although the contracting officer denied the majority of Westdale’s claim, GSA determined 
+it did owe Westdale $28.42 based on its audit of its rental payments under the lease.  (JX 26 at 
+1.) 
+
+ 
+ 
+19 
+ 
+I. 
+Procedural History 
+The plaintiff filed a five-count complaint on January 27, 2016.13  (ECF 1.)  The defendant 
+filed a motion to dismiss in lieu of an answer on May 4, 2016.  (ECF 9.)  The defendant’s initial 
+motion to dismiss was denied on January 11, 2017.  (ECF 28.)  The parties then attempted 
+alternative dispute resolution, but that proved unfruitful.  After the completion of discovery, the 
+defendant moved for summary judgment and the plaintiff cross-moved for partial summary 
+judgment.  Those motions were denied on May 1, 2019.  In rejecting both parties’ motions, 
+Senior Judge Smith found that “genuine issues of material fact remain regarding the intent of the 
+parties at the time of contracting.”  (ECF 62.)  The case was transferred to the undersigned in 
+June 2019.  With leave of the Court, the plaintiff thereafter filed an amended four-count 
+complaint.  (ECF 70.)  Count IV of the plaintiff’s first amended complaint realleged a claim for 
+reformation in the event a mutual mistake was found.  (Id. ¶ 53.)  The defendant’s answer to the 
+first amended complaint raised mutual mistake as an affirmative defense.  (ECF 77.) 
+The Court held a three-day trial in this case in Washington, DC, from January 25 through 
+January 27, 2021.14  The parties filed post-trial briefs and submitted proposed findings of fact 
+and conclusions of law.  The Court heard closing argument on April 30, 2021. 
+II. 
+JURISDICTION 
+The Tucker Act grants the Court of Federal Claims jurisdiction “to render judgment upon 
+any claim against the United States founded either upon the Constitution, or any Act of Congress 
+or any regulation of an executive department, or upon any express or implied contract with the 
+United States, or for liquidated or unliquidated damages in cases not sounding in tort.”  
+28 U.S.C. § 1491(a)(1).  This court thus has jurisdiction over claims for breach of contract 
+founded upon an express contract with the United States.  Hercules Inc. v. United States, 
+516 U.S. 417, 422 (1996) (noting that the Tucker Act confers upon this court jurisdiction to hear 
+cases founded upon express contracts with the United States).  
+ 
+13 Count V of the plaintiff’s complaint is pleaded in the alternative.  Under Count V, the 
+plaintiff alleged that if the court were to determine that the tax-adjustment clause “is the result of 
+a mutual mistake or scrivener’s error, [Westdale] seeks an equitable adjustment or reformation of 
+the lease to replace the $133,045.00 amount with the actual tax base as evidence [sic] by the 
+amount of tax assessed for 2012.”  (ECF 1 ¶ 39.)  The defendant also raised a claim of mutual 
+mistake in its motion for summary judgment in response to Count V.  (ECF 55 at 1 n.1.) 
+14 At the start of the trial, the Court denied the plaintiff’s motion in limine seeking a finding 
+that the lease provisions at issue are unambiguous and the exclusion of any evidence related to 
+mutual mistake or the Anti-Deficiency Act.  (ECF 124.)  The Court permitted the exclusion of 
+information pertaining to the parties’ efforts at alternative dispute resolution.  (Id.)  The Court 
+denied the plaintiff’s motion to strike the testimony of Ms. Kelly Winn.  (ECF 125.) 
+
+ 
+ 
+20 
+ 
+The Tucker Act also grants this court jurisdiction over claims arising under section 
+7104(b)(1) of the Contract Disputes Act (“CDA”), 41 U.S.C. § 7100 et seq.  28 U.S.C. 
+§ 1491(a)(2).  The CDA provides this court with jurisdiction over contract disputes.  41 U.S.C. 
+§ 7104(b)(1) (“[A] contractor may bring an action directly on the claim in the United States 
+Court of Federal Claims, notwithstanding any contract provision, regulation, or rule of law to the 
+contrary.”); § 7101(7) (“The term ‘contractor’ means a party to a Federal Government contract 
+other than the Federal Government.”).15 
+Although the CDA expressly provides that contracts for “the procurement of . . . real 
+property in being” fall outside its applicability, the “act of entering into a lease” does not fall 
+within that exclusion.  CanPro Inv. Ltd. v. United States, 120 Fed. Cl. 17, 21 (2015) (citing 
+Forman v. United States, 767 F.2d 875, 879 (Fed. Cir. 1985)).  The CDA therefore provides this 
+court with jurisdiction over disputes related to leaseholds.16  Id. (citing Forman, 767 F.2d at 
+879).  The court’s “authority to adjudicate CDA leasehold disputes encompasses the authority to 
+grant nonmonetary relief in appropriate circumstances.”  Id. 
+To present a claim under the CDA, a contractor must satisfy two requirements.  First, the 
+contractor must present a timely written claim to the contracting officer for a decision.  41 U.S.C. 
+§ 7103(a); Alliant Techsystems, Inc. v. United States, 178 F.3d 1260, 1264-65 (Fed. Cir. 1999) 
+(noting additionally that the contractor must “specifically assert entitlement to the relief 
+sought”).  Second, the contracting officer must issue a final decision.  Id. at 1267. 
+The lease at issue in this case specifically provides that it is subject to the CDA.  (JX 1E 
+at 19.)  The claims pertain to a newly created leasehold interest, and the plaintiff has satisfied the 
+two CDA requirements.  Westdale presented four certified written claims to the contracting 
+officer and all four were denied by the contracting officer in final decisions.  Accordingly, the 
+Court has jurisdiction over Westdale’s claims under the Tucker Act and the CDA. 
+ 
+15 The Court’s power to reform a contract extends to cases arising under the CDA.  See, e.g., 
+Roseburg Lumber Co. v. Madigan, 978 F.2d 660, 665 (Fed. Cir. 1992) (considering reformation 
+in a case governed by the CDA); Lakeshore Eng’g Servs., Inc. v. United States, 110 Fed. Cl. 230 
+(2013), aff’d, 748 F.3d 1341 (Fed. Cir. 2014) (same). 
+16 The Federal Circuit has distinguished between leaseholds that are newly created and those 
+acquired by other means, noting that only newly created leaseholds fall within the CDA’s 
+purview.  Forman, 767 F.2d at 879 (“‘Acquisition of’ a lease is not the same thing as ‘entering 
+into’ a lease. . . . A leasehold does not exist until a lease is entered into, and by entering into a 
+lease the Government does not acquire a pre-existing interest in the land; it establishes a new 
+one.  Thus, the . . . language excluding contracts to procure ‘real property in being’ fails to apply 
+to newly-created lease agreements, and they fall within the purview of that statute and of the 
+corresponding provisions of the Contract Disputes Act.”). 
+
+ 
+ 
+21 
+ 
+III. 
+DISCUSSION17 
+The Court is tasked with interpreting the tax-adjustment provision of the lease.  “Leases 
+are normally considered within the realm of contracts.”  Forman, 767 F.2d at 879 n.4.  The lease 
+is thus subject to general principles of contract interpretation as equally applicable to the federal 
+government as they are to a private party.  Mobil Oil Expl. & Producing Se., Inc. v. United 
+States, 530 U.S. 604, 607 (2000) (“‘When the United States enters into contract relations, its 
+rights and duties therein are governed generally by the law applicable to contracts between 
+private individuals.’” (quoting United States v. Winstar Corp., 518 U.S. 839, 895 (1996) 
+(plurality opinion)).  While “federal law, rather than state law, governs the interpretation of 
+leases with the United States government,” when federal law is not dispositive “courts should 
+look to ‘general property and contract law principles as they are embodied in state law 
+pronouncements.’”  See California Oregon Broad., Inc. v. United States, 74 Fed. Cl. 394, 399 
+(citing Prudential Ins. Co. of Am. v. United States, 801 F.2d 1295, 1298 (Fed. Cir. 1986) and 
+quoting Ginsburg v. Austin, 968 F.2d 1198, 1200 (Fed. Cir. 1992)). 
+The interpretation of a contract is a matter of law.  Ragard v. United States, 439 F.3d 
+1378, 1380 (Fed. Cir. 2006), cert. denied, 549 U.S. 819 (2006).  A court begins its legal analysis 
+with the contract’s text, first examining “the plain meaning of its express terms.”  Barron 
+Bancshares, Inc. v. United States, 366 F.3d 1360, 1375 (Fed. Cir. 2004) (citing Textron Def. Sys. 
+v. Widnall, 143 F.3d 1465, 1468 (Fed. Cir. 1998)). 
+Two doctrines of interpretation guide the Court’s initial analysis.  First, under the “plain 
+meaning” rule, “[i]f the terms of a contract are clear and unambiguous, they must be given their 
+plain meaning—extrinsic evidence is inadmissible to interpret them.”  Id.  (citing McAbee 
+Constr., Inc. v. United States, 97 F.3d 1431, 1435 (Fed. Cir. 1996)).  A contract provision is 
+ambiguous only “if susceptible to more than one reasonable meaning.”  Id. at 1375-76 (citing 
+Edward R. Marden Corp. v. United States, 803 F.2d 701, 705 (Fed. Cir. 1986)).  Second, under 
+the parol evidence rule, if the parties have adopted a written text as an expression of their final 
+understanding of the agreement between them, a court may not consider extrinsic evidence to 
+add or otherwise modify the terms of the written agreement.  Id. at 1375. 
+Under these doctrines, if a court finds a contract to be unambiguous, the plain meaning 
+and parol evidence rules bar consideration of evidence outside the four corners of the contract 
+and require the Court to enforce the contract as written.  See Coast Fed. Bank, FSB v. United 
+States, 323 F.3d 1035, 1040-41 (Fed. Cir. 2003) (en banc) (“When the contractual language is 
+unambiguous on its face, our inquiry ends and the plain language of the [a]greement controls.”).   
+If a contract’s terms are ambiguous, a court is afforded latitude in interpreting the 
+contract and may consider extrinsic evidence to assist in understanding and interpreting the 
+agreement.  See TEG-Paradigm Env’t, Inc. v. United States, 465 F.3d 1329, 1338 (Fed. Cir. 
+ 
+17 The Court’s discussion includes further findings of fact as well as legal conclusions based 
+on the facts as found. 
+
+ 
+ 
+22 
+ 
+2006) (“When a provision in a contract is susceptible to more than one reasonable interpretation, 
+it is ambiguous, and we may then resort to extrinsic evidence to resolve the ambiguity.” (internal 
+citation omitted)). 
+Additionally, the parol evidence rule may be overcome by evidence of “‘fraud, duress, 
+mutual mistake, or something of the kind.’”  Nicholson v. United States, 29 Fed. Cl. 180, 193 
+(1993) (quoting Williston & Lord, A Treatise on the Law of Contracts § 631 (3d ed. 1961)).  In 
+these circumstances, courts may find that even an unambiguous contract will not be enforced as 
+written.  A finding of unilateral or mutual mistake, for example, permits a court to consider 
+evidence outside the text of the parties’ agreement. 
+Accordingly, the Court first considers whether the terms of paragraph 15 of the lease are 
+ambiguous.  Finding that the terms are unambiguous, the Court next determines whether the 
+parties committed a mutual mistake in drafting the lease and, if so, whether reformation of the 
+lease to conform to the intent of the original contracting parties is appropriate. 
+A. 
+Ambiguity 
+The Court begins its analysis by considering whether the tax-adjustment provision in 
+paragraph 15 of the lease is ambiguous. 
+1. 
+Parties’ Arguments 
+Westdale argues that “none of the provisions in the Lease relating to real estate tax 
+adjustment are ambiguous.”  (ECF 139 at 31.)  The plain text of the lease establishes in 
+paragraph 15 a tax base of $133,045.  (JX 1A at 3.)  That figure is not ambiguous—the lease 
+establishes a specific tax base, and the number $133,045 is subject to but a single interpretation.  
+The government was tasked with preparing a lease that incorporated the agreement of the parties 
+and drafted the original lease.  (JX 1B at 13.)  Westdale argues that, based on the plain text of the 
+lease, the Court should find the lease to be unambiguous and, under the parol evidence rule, 
+should exclude all evidence outside the four corners of the lease and the documents it 
+incorporates. 
+GSA argues that the lease must be reformed because the terms are ambiguous.  It argues 
+that the law of the case establishes ambiguity.  In denying the parties’ cross-motions for 
+summary judgment, Senior Judge Smith held that “genuine issues of fact remain regarding the 
+intent of the parties at the time of contracting.”  (ECF 62.)  According to the defendant, this 
+earlier conclusion establishes that the lease is ambiguous.  The defendant also cites two general 
+principles of contract interpretation to argue that the lease is ambiguous. 
+First, the defendant points to the law of patent ambiguity.  “‘[A] contract is subject to a 
+patent ambiguity if it contains facially inconsistent provisions that would place a reasonable 
+contractor on notice and prompt the contractor to rectify the inconsistency by inquiring of the 
+appropriate parties.’”  Input/Output Tech., Inc. v. United States, 44 Fed. Cl. 65, 72 (1997) 
+(quoting Nielsen-Gillingham Builders, J.V. v. United States, 43 Fed. Cl. 5, 11 (1999)).  “When a 
+federal government contract contains a patent ambiguity[,] that is, one which is so plain or 
+
+ 
+ 
+23 
+ 
+glaring that it is unreasonable for a contractor not to discover and inquire about it, the patent 
+ambiguity doctrine imposes a duty on the contractor to inquire about the true meaning of the 
+ambiguity before submitting a bid [, and] a failure to do so results in the ambiguity being 
+construed against the contractor.” 13 A.L.R. Fed. 2d 261 (2006).  The defendant thus argues that 
+the Court should construe the lease against Griffin Partners and, by extension, Westdale, for 
+failure to discover the patent ambiguity. 
+Second, the defendant raises the issue of latent ambiguity.  A contract may be considered 
+latently ambiguous if it is “‘reasonably susceptible of more than one interpretation.’”  Hills 
+Materials Co. v. Rice, 982 F.2d 514, 516 (Fed. Cir. 1992) (quoting Edward R. Marden Corp., 
+803 F.2d at 705).  “An ambiguity exists where the terms of the contract ‘could suggest more than 
+one meaning when viewed objectively by a reasonably intelligent person who has examined the 
+context of the entire integrated agreement and who is cognizant of the customs, practice, usages 
+and terminology as generally understood in the particular trade or business.”’  Law Debenture 
+Trust Co. of New York v. Maverick Tube Corp., 595 F.3d 458, 466 (2d Cir. 2009) (quoting Int’l 
+Multifoods Corp. v. Com. Union Ins. Co., 309 F.3d 76, 83 (2d Cir. 2002)). 
+2. 
+The Lease is Unambiguous 
+Paragraph 15 of the lease is unambiguous as written.  The law of the case does not 
+establish ambiguity in the lease.  In denying the parties’ cross-motions for summary judgment, 
+Senior Judge Smith entered a short order in which he noted that “genuine issues of material fact 
+remain regarding the intent of the parties at the time of contracting.”  (ECF 62.)  That order 
+includes no findings about the merits of the case or the ambiguity of the lease’s tax-adjustment 
+provision.  The law of the case doctrine “comes into play only with respect to issues previously 
+determined.”  Quern v. Jordan, 440 U.S. 332, 347 n.18 (1979) (citation omitted).  While Senior 
+Judge Smith’s finding may be read to suggest that the court would entertain testimony outside 
+the four corners of the lease to determine the parties’ intent, the defendant reads too much into 
+the order denying summary judgment.  Indeed, implicit in the denial of summary judgment is the 
+need for additional evidence to ascertain whether the parties had committed a mutual mistake, 
+which is an exception to the parol evidence rule that does not require the contract to be 
+ambiguous.  No explicit finding of ambiguity was made in this case, and the Court therefore 
+rejects the defendant’s argument that the law of the case precludes a finding that the lease is 
+unambiguous. 
+The tax base is not the subject of patent ambiguity.  The defendant’s effort to shift blame 
+to the plaintiff through the patent-ambiguity doctrine fails in the face of at least three errors the 
+defendant itself made. 
+First, GSA drafted the lease incorrectly by including an erroneous tax base.  If the Court 
+were to find the contract ambiguous, the duty would remain with GSA, as the drafter, to have 
+included an accurate tax base in paragraph 15.  See HPI/GSA 3C, LLC v. Perry, 364 F.3d 1327, 
+1334 (Fed. Cir. 2004) (“The general rule is contra proferentem, which requires ambiguities in a 
+document to be resolved against the drafter.” (citing Hills Materials Co., 982 F.2d at 516)).  In 
+this case, a properly drafted paragraph 15 would have reflected either a negotiated amount or the 
+actual real-estate taxes paid by the lessor for the first tax year after the commencement of the 
+
+ 
+ 
+24 
+ 
+lease.  (JX 1B at 19.)  While the plaintiff did not notice the incorrect tax base before executing 
+the lease, SAOP is less blame-worthy for its careless proofreading than GSA, as the drafter.  The 
+plaintiff itself, of course, was not involved in the drafting of the lease and can bear no 
+responsibility for the erroneously drafted provision. 
+Second, GSA paid both SAOP in 2012 and Westdale in 2013 according to the terms of 
+the lease as written.  (JX 41 & 43.)  GSA had the opportunity to discover the alleged patent 
+ambiguity in calculating its yearly tax payment to the lessor, but it did not for at least the first 
+two years of the lease. 
+Third, GSA increased its percentage of occupancy in the building yet failed to adjust 
+paragraph 15 of the lease to correct the tax base, repeating its error in Lease Amendment No. 17.  
+(JX 18; Tr. 390 (Harter).) 
+These three instances in which GSA did not discover the alleged ambiguity show that the 
+erroneous term in the lease was not so “glaring” or obvious that the lessor should have caught it; 
+GSA itself failed to do so on at least three occasions.  The Court will not fault the lessor for the 
+error GSA made in multiple instances that could have been caught through accurate drafting and 
+careful proofreading. 
+The defendant’s argument that the lease is latently ambiguous is also without merit. The 
+figure $133,045 written into paragraph 15 of the lease is not “reasonably susceptible of more 
+than one interpretation.”  Hill Materials, 982 F.2d at 516.  The figure itself requires no 
+interpretation; it establishes a clear tax base and is incorporated into a formula for adjusting 
+GSA’s yearly real-estate tax payment beyond what is already paid in the shell rent.  The parties 
+do not dispute the proper methodology for calculating the annual tax payment.  What is in 
+dispute is solely the tax base, and that number, though evidently wrong, may be interpreted in 
+only one manner. 
+The Court finds that paragraph 15 of the lease, setting a tax base for purposes of adjusting 
+GSA’s yearly real-estate tax payment, is unambiguous.  In most instances, “[i]f the terms of a 
+contract are clear and unambiguous, they must be given their plain meaning—extrinsic evidence 
+is inadmissible to interpret them.”  Barron Bancshares, 366 F.3d at 1375; 11 Williston on 
+Contracts § 33:42 (4th ed. 2021) (“If there is no ambiguity in the agreement itself, the answer 
+must be found from the terms of the instrument alone.”). 
+Any further inquiry into the parties’ intent would therefore normally be barred by the 
+finding that the contract is unambiguous.  In this instance, however, GSA has raised the issue of 
+mutual mistake.  If a party seeks reformation based on an alleged mistake, the parol evidence 
+rule does not apply.  11 Williston on Contracts § 33:2 (4th ed. 2021).  Under this exception, the 
+Court may consider extrinsic evidence even when faced with a binding, unambiguous written 
+contract to correct the parties’ mistake.  Id. 
+The Court next considers whether the $133,045 tax base written into paragraph 15 of the 
+lease was the product of a mutual mistake by the parties. 
+
+ 
+ 
+25 
+ 
+B. 
+Mutual Mistake18 
+Rather than alleging a unilateral mistake, the defendant seeks reformation of the lease due 
+to mutual mistake.  (ECF 137 at 20.)  The Court considers first whether the facts of this case 
+support a finding of mutual mistake.  Finding that the erroneous tax base written into paragraph 
+15 of the lease is the product of mutual mistake, the Court then considers whether reformation 
+for mutual mistake is an appropriate remedy. 
+1. 
+Evidence of Mistake 
+The Restatement (Second) of Contracts § 155, titled “When Mistake of Both Parties as to 
+Written Expression Justifies Reformation,” explains when a court may reform a contract due to 
+mutual mistake: 
+Where a writing that evidences or embodies an agreement in whole 
+or in part fails to express the agreement because of a mistake of both 
+parties as to the contents or effect of the writing, the court may at 
+the request of a party reform the writing to express the agreement, 
+except to the extent that rights of third parties such as good faith 
+purchasers for value will be unfairly affected. 
+Restatement (Second) of Contracts § 155.  Several requirements arise from the decisions 
+reflected by the Restatement’s summary of the rule governing mutual mistake. 
+First, as is obvious, the parties must have committed a mistake.  Here, multiple witnesses 
+testified at trial that the $133,045 figure written into paragraph 15 of the lease was a mistake.  
+(See Tr. 189 (Moreland), 357 (Harter), & 439 (Winn).)  The evidence establishes that the tax 
+base set forth in the lease was not a figure either contracting party intended. 
+Second, for the court to reform an instrument due to mutual mistake, the parties must 
+have reached an agreement on the issue for which reformation is sought that was not reflected in 
+the final written document.  “[R]eformation is available when the parties, having reached an 
+agreement and having then attempted to reduce it to writing, fail to express it correctly in the 
+writing. . . .  For the rule stated in this Section to be invoked, therefore, there must have been 
+some agreement between the parties prior to the writing.”  Restatement (Second) of Contracts 
+§ 155 cmt. a.  Prior agreement is central to a finding of mutual mistake: “‘[reformation] is a 
+remedy the purpose of which is to make a mistaken writing conform to antecedent expressions 
+on which the parties agreed.’”  Atlas Corp. v. United States, 895 F.2d 745, 750 (Fed. Cir. 1990), 
+cert. denied, 498 U.S. 811 (1990) (quoting 3 Corbin on Contracts § 614 at 723 (1960)).  Because 
+of this requirement of prior agreement, reformation is available only when the party seeking the 
+reformation can show that the non-moving party “would have agreed to the contract if worded in 
+ 
+18 The plaintiff argues that any relief pursuant to the doctrine of unilateral mistake is 
+unavailable to GSA.  Because the defendant has not claimed a unilateral mistake, the Court does 
+not consider the question of unilateral mistake. 
+
+ 
+ 
+26 
+ 
+accordance with the [moving party’s] intention.”  Fraass Surgical Mfg. Co., Inc. v. United 
+States, 571 F.2d 34, 37 (Ct. Cl. 1978). 
+The parties in this case came to an agreement prior to signing the lease regarding the 
+methodology for adjusting the yearly real-estate taxes to be paid by GSA.  The parties agreed 
+that GSA would pay a portion of its real-estate taxes in its monthly shell rent.  The parties also 
+agreed to adjust GSA’s real-estate tax payments based on whether the amount the lessor paid in 
+real-estate taxes in any given year fell above or below an established tax base.  Most importantly, 
+the parties agreed that the tax base would be one of two numbers.  Paragraph 4.2 of the SFO, 
+referenced in paragraph 15 of the lease, defined the “Real Estate Tax Base” as “the Unadjusted 
+Real Estate Taxes for the first full Tax Year following the commencement of the Lease term,” or 
+“[a]lternatively, the Real Estate Tax Base may be an amount negotiated by the parties that 
+reflects an agreed upon base for a Fully Assessed value of the property.”  (JX 1B at 19.)  Thus, 
+paragraph 4.2 established a tax base of either an amount negotiated by the parties or the 
+unadjusted real-estate taxes paid by the lessor for the entire building for the tax year in which the 
+lease began (“first-year taxes”). 
+The methodology described in paragraph 4.2 of the SFO demonstrates that the parties 
+agreed on how to compute a tax base even if not on the precise tax base itself; in essence, the 
+parties reached a shared understanding on the methodology behind selecting a tax base and 
+narrowed the range of possible tax bases to two discrete options.  The parties’ agreement to use 
+either a negotiated amount or the first-year taxes was not, however, reflected in the lease, 
+because the figure $133,045 does not correspond to either agreed-upon source for the tax base.  
+The parties mistakenly failed to write into paragraph 15 a tax base that conformed to their chosen 
+methodology. 
+Ultimately, a court looks to the “objective circumstances surrounding execution of the 
+contract,” not subjective intent, to ascertain whether the parties held a belief not in accord with 
+the facts.  27 Williston on Contracts § 70.13 (4th ed.).  Regardless of each party’s subjective 
+intent, the parties in this case established objective criteria for establishing the tax base, but the 
+criteria were not used in writing the tax base into the lease.  The parties were thus mutually 
+mistaken in each of their respective beliefs that the lease they signed—containing a $133,045 tax 
+base—would accomplish their shared goal of ensuring GSA pays only its proportional share of 
+the building’s real-estate taxes. 
+2. 
+Good-Faith Purchaser 
+Westdale argues that the lease cannot be reformed against a good-faith purchaser for 
+value.  It argues that “there was no evidence at trial that Westdale was anything other than a 
+good faith purchaser for value, with no notice of any ‘mistake’ affecting the considerations to be 
+paid under the Lease,” and that “[t]he reformation the Government requests” is thus “not 
+available against Westdale.”  (ECF 138 at 18.) 
+A good-faith (or “bona fide”) purchaser “is one who purchases legal title to property in 
+good faith for valuable consideration, without notice of any other claim of interest in the 
+property.”  Rhone Poulenc Agro, S.A. v. DeKalb Genetics Corp., 284 F.3d 1323, 1329 (Fed. Cir. 
+
+ 
+ 
+27 
+ 
+2002) (citations omitted), cert denied sub nom. Monsanto Co. v. Bayer CropScience, S.A., 
+593 U.S. 957 (2003); see also Boon v. Chiles, 35 U.S. (10 Pet.) 177, 210 (1836) (explaining that 
+an innocent purchaser “has put himself in peril by purchasing a title, and paying a valuable 
+consideration, without notice of any defect in it, or adverse claim to it”).  
+Westdale meets the definition of a good-faith purchaser for value.  Westdale purchased 
+Northwest Center in 2013 by special warranty deed.  Jt. Stip. ¶ 12.  Westdale’s purchase included 
+the leases in the building.  Id. ¶ 13.  Westdale bought the building intending to obtain an income-
+stream from the commercial-office leases in place and was unaware of any dispute over the real-
+estate tax base or the impact of an erroneous tax base on the income-stream it had purchased.  Tr. 
+36, 53, 98-99 (Allen).  Indeed, as noted above, at the time Westdale acquired the Northwest 
+Center, not even GSA was aware of the error in paragraph 15 of the lease, so there was no 
+current dispute of which Westdale could have been aware.  Westdale therefore took title to the 
+Northwest Center as a good-faith purchaser without notice of any defect in the lease. 
+The law limits a court’s ability to reform a contract due to mutual mistake: a contract may 
+be reformed for mutual mistake “except to the extent that rights of third parties such as good 
+faith purchasers for value will be unfairly affected.”  Restatement (Second) of Contracts § 155.  
+Comment f to the Restatement elaborates that “[t]he claim of a mistaken party to reformation, 
+being equitable in its origin, is subject to the rights of good faith purchasers for value and other 
+third parties who have similarly relied on the finality of a consensual transaction in which they 
+have acquired an interest in property.”  Id. at cmt. f.  The protection of the good-faith-purchaser 
+doctrine extends not only to the purchase of property but to a purchaser who is assigned leases as 
+part of its purchase.  See Nash Finch Co. v. Rubloff Hastings, LLC, 341 F.3d 846, 850 (8th Cir. 
+2003) (refusing to reform a lease against a good-faith purchaser despite the mutual mistake of the 
+original parties to the lease because the purchaser “was unaware of the mistake contained in the 
+leases and was therefore a bona-fide purchaser of the leasehold interest”). 
+The rights of a good-faith purchaser for value are often the concern of state property 
+law.19  In this case, the Northwest Center is in Texas.  Texas law establishes that while “‘[e]quity 
+will grant relief by way of reformation if the circumstances otherwise warrant an exercise of its 
+power,’” there is no entitlement “‘to equitable relief against a bona fide purchaser . . . and [the 
+party seeking reformation] has the burden of showing that [the alleged bona-fide purchaser] does 
+not enjoy that status.’”  Newport Oil Co. v. Lamb, 352 S.W.2d 861, 863 (Tex. App. 1962) 
+(quoting Miles v. Martin, 321 S.W.2d 62, 67 (Tex. 1959)).  Texas law requires that the good-
+ 
+19 While federal law governs the interpretation of leases with the federal government, courts 
+may also consider state law for general property- and contract-law principles.  See California 
+Oregon Broad., Inc., 74 Fed. Cl. at 399 (noting that while “federal law, rather than state law, 
+governs the interpretation of leases with the United States government,” when federal law is not 
+dispositive “courts should look to ‘general property and contract law principles as they are 
+embodied in state law pronouncements’” (citing Prudential Ins. Co. of Am. v. United States, 
+801 F.2d 1295, 1298 (Fed. Cir. 1986) and quoting Ginsburg v. Austin, 968 F.2d 1198, 1200 (Fed. 
+Cir. 1992))). 
+
+ 
+ 
+28 
+ 
+faith purchaser receive a warranty deed, as opposed to an instrument such as a quitclaim deed, 
+and that the purchaser lack notice of the mutual mistake prior to purchase to avoid reformation of 
+the contract.  See Miles, 321 S.W.2d at 68-69.  Other jurisdictions impose similar notice 
+requirements on good-faith purchasers to avoid reformation.  See, e.g., United States v. LaRosa, 
+765 F.2d 693, 697 (7th Cir. 1985) (citing Boon v. Chiles, 35 U.S. (10 Pet.) at 210) (“The courts 
+have held that if a purchaser has actual notice of particular facts which are sufficient to put a 
+reasonably prudent person on duty of inquiry, then the purchaser will be charged with the 
+knowledge that such inquiry, reasonably prosecuted, would have revealed.”). 
+Although Westdale meets the definition of a good-faith purchaser, the Court finds that 
+Westdale’s status as a good-faith purchaser does not preclude reformation in this case.  The 
+good-faith purchaser exception applies only insofar as the rights of a purchaser are “unfairly 
+affected.”  Restatement (Second) of Contracts § 155.  While Westdale’s anticipated income-
+stream would be reduced were the Court to establish a tax base greater than $133,045, the 
+reduction in income alone is not ipso facto unfair.  Westdale would, as the government argues, 
+receive a windfall if GSA paid more than its proportional share of the building’s taxes because 
+its shell rent was calculated using the estimate of $726,629 for the real-estate taxes.  To reform 
+the contract to establish a more reasonable tax base certainly will adversely affect Westdale’s 
+income under the lease, but the Court’s efforts to arrive at an equitable outcome should not 
+impose an unfair or undue burden on either party.  A failure to reform the lease would impose 
+undue hardship on the defendant, and Westdale has not presented sufficient evidence for the 
+Court to conclude that any reformation of the lease would be so unfair as to bar such relief 
+entirely. 
+Because the Court has concluded that a mutual mistake occurred and that the good-faith 
+purchaser doctrine does not bar reformation so long as the Court’s intended reformation does not 
+unduly burden the plaintiff, the Court next considers whether and how the lease may be reformed 
+due to mutual mistake.  
+3. 
+Reformation for Mutual Mistake 
+Contract reformation due to mutual mistake is a matter of equity.20  “The purpose of 
+proving a mistake is to correct what has become an erroneous situation.  Equity will act to bring 
+ 
+20 The plaintiff in its briefing makes an “unclean hands” argument, asserting that the 
+government has “unclean hands” in (1) using the lessor’s real-estate tax estimate on GSA Form 
+1217 in paragraph 15 without disclosing that the estimate would become the tax base; (2) failing 
+to read the lease before certifying to Westdale that the lease was in full force and effect and 
+approving payment; (3) failing to issue a final decision before withholding rent payments; and 
+(4) failing to conduct appropriate due diligence in denying Westdale’s certified claims.  (ECF 
+138 at 19-21.) 
+ 
+
+ 
+ 
+29 
+ 
+an erroneous writing into conformity with the true agreement.  The equitable maxim—equity 
+regards that as done which ought to be done—deals generously to correct mistakes.”  
+27 Williston on Contracts § 70:17 (4th ed. 2021). 
+This court’s general equitable power is traditionally quite limited.  See, e.g., Nicholson, 
+29 Fed. Cl. at 185 (“This Court . . . does not have general equitable jurisdiction in matters of 
+contracts.” (emphasis in original)).  Reformation for mutual mistake is an exception to this 
+general limitation.  The Federal Circuit has established that this court may reform a contract for 
+mutual mistake.  See, e.g., Am. Emps. Ins. Co. v. United States, 812 F.2d 700, 705 (Fed. Cir. 
+1987) (“Reformation is . . . available as an equitable remedy when the parties to a contract have 
+made a mutual mistake of fact.” (citation omitted)). 
+In National Australia Bank, the Federal Circuit explained the relevant four-part test for 
+reforming a contract due to mutual mistake: 
+Reformation of a written agreement on the ground of mutual mistake 
+is an extraordinary remedy, and is available only upon presentation 
+of satisfactory proof of four elements: 
+(1) the parties to the contract were mistaken in their belief regarding 
+a fact; 
+(2) that mistaken belief constituted a basic assumption underlying 
+the contract; 
+(3) the mistake had a material effect on the bargain; and 
+(4) the contract did not put the risk of the mistake on the party 
+seeking reformation. 
+Nat. Australia Bank v. United States, 452 F.3d 1321, 1330 (Fed. Cir. 2006) (citing Atlas, 
+895 F.2d at 750); accord Bank of Guam v. United States, 578 F.3d 1318 (Fed. Cir. 2009) (setting 
+out same four-part test), cert. denied, 561 U.S. 1006 (2010); Lakeshore Eng’g Servs., Inc. v. 
+United States, 110 Fed. Cl. 230 (2013), aff’d, 748 F.3d 1341 (Fed. Cir. 2014) (same). 
+ 
+The equitable doctrine of “unclean hands” prevents reformation in favor of a party that has 
+acted improperly, i.e., with “unclean hands.”  In this case, however, the doctrine would not 
+impose a bar on the Court’s use of its equitable power to reform the lease.  A finding of “unclean 
+hands” requires unconscionable conduct, and “a plaintiff is required to show that the defendant 
+has engaged in particularly egregious conduct which would change the equities significantly in 
+plaintiff’s favor.”  Sedarevic v. Advanced Med. Optics, Inc., 532 F.3d 1352, 1361 (Fed. Cir. 
+2008) (internal quotation omitted).  The plaintiff has not made such a showing here.  GSA may 
+have been inept in failing to exercise care in drafting the lease and in issuing erroneous payments 
+according to its terms, but the lease reflects a mistake, not a knowing or reckless effort by GSA 
+to injure any party. 
+
+ 
+ 
+30 
+ 
+The standard of review for assessing whether reformation is appropriate is clear and 
+convincing evidence.  Nat. Australia Bank, 452 F.3d at 1329.  “[R]eformation will not be 
+granted, unless the proof of mistake be ‘of the clearest and most satisfactory character.’”  
+Philippine Sugar Ests. Dev. Co. v. Gov’t of Philippine Islands, 247 U.S. 385, 391 (1918) 
+(quoting Snell v. Atlantic Fire & Marine Ins. Co., 98 U.S. 85, 89 (1878)).  “Reformation of a 
+written contract is an ‘extraordinary remedy.’ . . .  It is generally only available on a showing by 
+clear and convincing evidence that the intent of the parties is not expressed by the written 
+instrument, which is to say that the parties both made the same mistake of fact.”  Woodies 
+Holdings, L.L.C. v. United States, 143 Fed. Cl. 485, 496 (2019) (quoting Nat. Australia Bank, 
+452 F.3d at 1329).  
+ The mutual mistake made by the parties satisfies the four factors of the test in National 
+Australia Bank.  Regarding the first prong, GSA and Griffin Partners “were mistaken in their 
+belief” that they were signing an agreement with a tax base that would accurately adjust GSA’s 
+yearly tax payment to ensure GSA pays only its proportional share of the building’s real-estate 
+taxes.  Nat. Australia Bank, 452 F.3d at 1329.  Regarding the second prong, that mistaken belief 
+regarding the tax base “constituted a basic assumption underlying the contract.”  Id.  Third, the 
+mistaken figure of $133,045 in paragraph 15 “had a material effect on the bargain.”  Id.  The tax 
+base of $133,045 written into the lease is significantly lower than what the lessor pays in annual 
+real-estate taxes for the building, yet GSA pays real-estate taxes as part of its shell rent based on 
+a tax estimate of $726,629.  The difference between the two figures results in substantially 
+higher payments to the lessor by GSA than either party intended. 
+The fourth factor requires that the “contract did not put the risk of the mistake on the 
+party seeking reformation.”  Nat. Australia Bank, 452 F.3d at 1329; see also Roseburg Lumber 
+Co., 978 F.2d at 668-69.  The Court finds that GSA satisfies this factor, as well.  “A party bears 
+the risk of mistake when 1) the risk is allocated to it by agreement of the parties; 2) it is aware, at 
+the time the contract is made, that it has only limited knowledge with respect to the facts to 
+which the mistake relates, but treats its limited knowledge as sufficient; or 3) the risk is allocated 
+to it by the court on the ground that it is reasonable in the circumstances to do so.”  Northrop 
+Grumman Corp. v. United States, 47 Fed. Cl. 20, 55 (2000). 
+The lease between SAOP and GSA did not place the risk of mistake on GSA.  No 
+agreement between the parties allocating the risk of a mistake to GSA is reflected in the text of 
+the lease.  Additionally, GSA had substantial knowledge of the lease’s contents and cannot be 
+said to have “limited knowledge” with respect to the relevant facts: the lease was a form lease of 
+which SFO Paragraph 4.2 was a standard provision, and GSA drafted its terms.  GSA did not 
+enter its negotiations with Griffin Partners with such limited knowledge of the facts that its 
+ignorance merits imputing some of the risk to the defendant.  GSA’s agents knew the terms of 
+the lease and had familiarity with the tax-adjustment clause but mistakenly included an incorrect 
+tax base in paragraph 15 when it drafted the lease. 
+As set forth by the test in Northrop Grumman, a court may also allocate risk “on the 
+ground that it is reasonable in the circumstances to do so.”  Id.  The Court finds that this case 
+does not present such circumstances.  Courts have been inclined to allocate risk in a handful of 
+specific scenarios.  For example, a court may allocate risk to a contractor when a fixed-price 
+
+ 
+ 
+31 
+ 
+contract is involved.  See id. at 55-56 (citing cases noting that “fixed-price contracts shift the risk 
+to the contractor”).  Similarly, a court may find a land-sale contract allocates risk to a buyer 
+when the property is sold “as is.”  See, e.g., Knieper v. United States, 38 Fed. Cl. 128, 140 (1997) 
+(citing Morris v. United States, 33 Fed. Cl. 733 (1995)). 
+The doctrine of contra proferentem may also present an instance in which a court may 
+allocate risk to the drafter of a contract.21  Yet contra proferentem does not apply to the case 
+before the Court.  First, the rule “is applied only where there is a genuine ambiguity and where, 
+after examining the entire contract, the relation of the parties and the circumstances under which 
+they executed the contract, the ambiguity remains unresolved.”  Gardiner, Kamya & Assocs, 
+P.C. v. Jackson, 467 F.3d 1348, 1352 (Fed. Cir. 2006) (internal quotation omitted).  The Court 
+has already found the tax-adjustment clause of the lease to be unambiguous.  Second, the rule is 
+intended to serve as a last resort and is inapplicable if “the intention of the parties . . . otherwise 
+appears.”  Id. (citation omitted).  Here, paragraph 4.2 provides evidence of the parties’ intent to 
+use either a negotiated amount or the first-year taxes as the tax base; there is no need to construe 
+the lease against GSA as a last-resort. 
+Finally, GSA’s failure to draft the lease correctly or to proofread it with care does not 
+necessarily present appropriate circumstances under which the Court would allocate risk to GSA.  
+See Fraass Surgical, 571 F.2d at 37-38 (noting that “failure to read a contract before signing it 
+does not necessarily foreclose reformation”).  Indeed, Griffin Partners also failed to read the 
+lease and catch the mistake in paragraph 15. 
+There are no explicit agreements allocating the risk of a mistake to GSA and no other 
+grounds that would make it reasonable for the Court to find that the risk of mistake remained 
+with GSA.  GSA has satisfied the four-part test for seeking reformation of an agreement due to 
+mutual mistake according to National Australia Bank. 
+Because the Court has found that the parties made a mutual mistake in establishing an 
+erroneous tax base in paragraph 15 of the lease, and because the four-part test for reformation in 
+National Australia Bank is met under the facts of this case, reformation of the lease is the 
+appropriate and equitable remedy. 
+C. 
+Court’s Reformation 
+The Court must determine an appropriate tax base to insert into paragraph 15 of the lease 
+to replace the $133,045 tax base that was the product of mutual mistake between the original 
+contracting parties.  Reformation serves to remedy “mistakes in expression, as in the case of . . . 
+the inclusion of a term not agreed upon or the incorrect reduction of a term to writing.”  Gen. 
+Dynamics Corp. v. United States, 47 Fed. Cl. 514, 529 (2000) (citing E. Allan Farnsworth, 
+Contracts, Sec. 7.5 at 468 (1982)).  “‘The purpose and function of the reformation of a contract is 
+ 
+21 Contra proferentem is a doctrine of interpretation that “requires ambiguities in a contract 
+to be resolved against the drafter.”  HPI/GSA 3C, LLC, 364 F.3d at 1334. 
+
+ 
+ 
+32 
+ 
+to make it reflect the true agreement of the parties on which there was a meeting of the minds.’”  
+Atlas, 895 F.2d at 750 (quoting Am. President Lines v. United States, 821 F.2d 1571, 1582 (Fed. 
+Cir. 1987)). 
+The parties dispute the appropriate reformation.  The defendant asserts that the “figure in 
+paragraph 15, $133,045, should have been $726,629.”  (ECF 137 at 22, citing Tr. 440 (Winn).)  
+The defendant therefore argues that “this Court should reform paragraph 15’s real estate tax base 
+to reflect $726,629.  No other reformation is needed.  Such a reformation accomplishes the intent 
+of the parties.”  (Id. at 22-23.)  Westdale disputes that reformation is warranted, arguing that the 
+lease is unambiguous and asserting the good-faith-purchaser defense to reformation.  In the event 
+that the Court concludes that reformation is appropriate, however, Westdale argues that “the 
+Lease itself establishes the tax base as the first lease year (i.e., the real estate taxes due for either 
+the 2012 tax year or for the period of January 11, 2012 - January 10, 2013).”  (ECF 138 at 22.)   
+Westdale also argues that because it was not privy to the original lease and did not negotiate or 
+draft the lease’s terms, it would be prejudiced if the tax base were reformed to $726,629.  The 
+defendant responds that it already pays real-estate taxes pursuant to the $726,629 tax estimate for 
+the building derived from GSA Form 1217 and that the $541,020.95 figure Westdale proposes 
+“would fail to fairly adjust the amount of taxes GSA pays annually.”  (ECF 137 at 23.) 
+The Court finds that the most equitable result would be to reform paragraph 15 of the 
+lease to substitute for the erroneous tax base in paragraph 15 of the lease a tax base that ref lects 
+the agreement the parties actually came to: if the lease did not reflect a negotiated amount for the 
+tax base, then the tax base would be the amount of real-estate taxes levied for the first tax year 
+after the lease began. 
+Paragraph 4.2 of the SFO, referenced in paragraph 15 of the lease, defined the “Real 
+Estate Tax Base” as “the Unadjusted Real Estate Taxes for the first full Tax Year following the 
+commencement of the Lease term,” or “[a]lternatively, the Real Estate Tax Base may be an 
+amount negotiated by the parties that reflects an agreed upon base for a Fully Assessed value of 
+the property.”  (JX 1B at 19.) 
+The evidence establishes that the parties did not negotiate a specific real-estate tax base.  
+Mr. Moreland agreed with the statement that he “didn’t negotiate [the $133,045 figure]” and that 
+the figure “was just . . . in the document that GSA provided.”  (Tr. 138, 205 (Moreland).)  Ms. 
+Winn’s testimony did not contradict Mr. Moreland’s assertion, which stands uncontradicted.  
+(See Tr. 402-51 (Winn).)  The Court finds Mr. Moreland’s uncontradicted testimony regarding 
+the lack of negotiation to be credible and consistent with the evidence. 
+Paragraph 4.2 of the SFO, which the defendant itself prepared and included as a term in 
+the lease, instructs that if the parties do not negotiate the tax base, the default rule is that the real-
+estate tax base will be the unadjusted first-year taxes following the commencement of the lease 
+term.  In this case, the first tax year after the commencement of the lease on January 11, 2012, 
+was tax year 2012.  Bexar County assessed SAOP $541,020.95 in 2012.  (JX 78.)  The plaintiff’s 
+argument that the first-year taxes should form the real-estate tax base is premised upon a 
+methodology to which both GSA and the former lessor agreed and is based on the default tax 
+base established by the lease should the parties not negotiate a different tax base. 
+
+ 
+ 
+33 
+ 
+In considering whether Westdale’s rights would be unfairly affected by the Court’s 
+chosen reformation, the Court notes the relevant burden on each party. 
+The injury to GSA from the adoption of a tax base of $541,020.95 is the imposition of 
+covering more than its share of the building’s real-estate taxes.  The Court recognizes that 
+establishing a tax base below $726,629, the figure used to calculate the portion of real-estate 
+taxes the government pays as part of its shell rent, imposes on the defendant the responsibility to 
+pay more than its pro rata share of real-estate taxes on the building.  If Griffin Partners had not 
+sold the building to Westdale and had it remained the owner and current lessor, the Court would 
+not hesitate to rule for the government and reform the contract to reflect a tax base of $726,629.  
+As between the original contracting parties, using the $726,629 figure as the tax base produces 
+the most equitable outcome to ensure GSA pays only its pro rata share of the building’s annual 
+real-estate taxes.  That result would also reflect that both GSA and Griffin Partners were each in 
+a position to have been able to discover and avoid the mistake in the lease at the time they agreed 
+to its terms. 
+That is not the case before the Court.  Griffin Partners sold the building and its leases to 
+Westdale, which acquired the GSA lease without knowledge of any defects or mistakes in that 
+document.  Westdale purchased the building with the understanding that it would receive a 
+particular income-stream.  Due to the mutual mistake made by the original contracting parties, 
+Westdale is not receiving the full benefit of the bargain from its purchase, despite reliance on 
+estoppel certificates received from both GSA and SAOP and knowledge that GSA had initially 
+paid real-estate taxes according to the express terms of paragraph 15 of the lease.  As between 
+GSA and Westdale, only GSA had the opportunity to catch and fix the error before Westdale, an 
+innocent third party, purchased the property in reliance on the income-stream the building 
+generated.  To reform the contract to reflect the $726,629 estimate used to calculate GSA’s shell 
+rent would unduly burden Westdale, an innocent third-party, good-faith purchaser.  In contrast, 
+the harm of reforming the contract to reflect the $541,020.95 figure is less onerous on the 
+plaintiff and reduces the windfall Westdale would receive if GSA paid according to the express 
+terms of the lease. 
+Reformation “‘is a remedy the purpose of which is to make a mistaken writing conform 
+to antecedent expressions on which the parties agreed.’”  Atlas Corp., 895 F.2d at 750 (quoting 3 
+Corbin on Contracts § 614 at 723 (1960)).  This prior-agreement element requires that the party 
+seeking reformation show that the non-moving party “would have agreed to the contract if 
+worded in accordance with the [moving party’s] intention.”  Fraass Surgical Mfg., 571 F.2d at 
+37.  The Court cannot speculate as to what Westdale would have agreed to had it been in the 
+shoes of Griffin Partners at the time of contracting.  Westdale may well have assented to the use 
+of either a negotiated amount or the first-year taxes, which were the standard criteria included in 
+GSA’s form SFO.  Regardless, the parties agree that the lease itself provides for tax adjustment 
+and that “the Government shall pay its share of any increases and shall receive its share of any 
+decreases in the Real Estate Taxes for the Property.”  Jt. Stip. ¶ 9.  Westdale has thus 
+acknowledged that under the lease GSA is meant to pay only its pro rata share of the real-estate 
+taxes.  Adhering to the methodology established by paragraph 4.2 reflects the intent of Mr. 
+Moreland, the agent of SAOP who negotiated the original lease, to establish the first-year taxes 
+as the tax base.  Reformation is thus in line with the aim that Westdale already accepted.  The 
+
+ 
+ 
+34 
+ 
+Court’s reformation of the lease to reflect the $541,020.95 figure also aligns with the reformation 
+Westdale itself proposed if the Court found reformation warranted. 
+Accordingly, the Court reforms the contract to substitute a tax base of $541,020.95 for 
+the tax base of $133,045 written into paragraph 15 of the lease.  The reformed tax base is 
+calculated based on the real-estate taxes for the first year of the lease, as the original contracting 
+parties agreed to in their incorporation of paragraph 4.2 of the SFO into the lease.  No other 
+reformation is needed to remedy the mutual mistake of an erroneous tax base or to produce an 
+equitable result. 
+IV. 
+CONCLUSION 
+The issue in this case involves a single figure: a real-estate tax base written into a lease as 
+“$133,045.”  Although the figure itself is not on its face ambiguous, several witnesses testified 
+that the tax base as written is a mistake.  The Court finds that this mistake was mutual, made by 
+both GSA and the former lessor.  The Court finds reformation of the lease to be necessary due to 
+mutual mistake and reforms the lease to reflect a tax base of $541,020.95, the taxes assessed for 
+the building for the first year after the lease began.  This reformed tax base acknowledges the 
+prior agreement between the original contracting parties to use either a negotiated tax base or the 
+first-year taxes, and also acknowledges the aim of the tax-adjustment clause, which was to 
+ensure GSA pays only its proportional share of the building’s real-estate taxes.  It also 
+accommodates Westdale’s status as a good-faith purchaser for value. 
+Paragraph 15 of the lease between GSA and Westdale, reflected at JX 1A at 3, is 
+REFORMED to substitute a tax base of $541,020.95 for the incorrect figure of $133,045.22 
+The Court will issue a separate order in accordance with this memorandum opinion to 
+establish a schedule for further proceedings. 
+s/ Richard A. Hertling 
+Richard A. Hertling 
+Judge 
+ 
+22 As noted above, the Court has detected minor inaccuracies in the plaintiff’s calculation of 
+the amount allegedly due from GSA.  Due to these deviations from the Court’s own calculations, 
+the Court in a separate order directs the parties to confer and propose to the Court the correct 
+amount of damages due to the plaintiff under the newly supplied tax base. 
+
+
+===== LATER OPINION (2022-05-25, EAJA fees; states the final judgment) =====
+
+In the United States Court of Federal Claims 
+No. 16-113 
+Filed: May 25, 2022 
+FOR PUBLICATION 
+ 
+WESTDALE NORTHWEST CENTER, 
+LP, 
+Plaintiff, 
+v. 
+UNITED STATES, 
+Defendant. 
+ 
+ 
+Jennifer A. Gehrt, Barbee & Gehrt, LLP, Dallas, TX, for the plaintiff. 
+ 
+Michael D. Austin, Commercial Litigation Branch, Civil Division, U.S. Department of Justice, 
+Washington, DC, for the defendant, with Helen Kerns, General Counsel Office, General Services 
+Administration, of counsel. 
+ 
+MEMORANDUM OPINION  
+HERTLING, Judge 
+The Court awarded judgment for the plaintiff, Westdale Northwest Center, LP 
+(“Westdale”), after a trial on the merits regarding a contract dispute.  The Court reformed a lease 
+between Westdale and the defendant, the United States, acting through the General Services 
+Administration (“GSA”).   
+The plaintiff now seeks attorney’s fees and research expenses as authorized by the Equal 
+Access to Justice Act (“EAJA”), 28 U.S.C. § 2412, in the amount of $106,058.99.  Under the 
+EAJA, the plaintiff was a “prevailing party,” and the government’s position was not 
+“substantially justified.”  Westdale prevailed, however, on only some of its claims.  Awarding 
+attorney’s fees for time spent on the entire litigation therefore would not be reasonable.  
+Accordingly, the Court grants the plaintiff’s motion for attorney’s fees in part and awards the 
+plaintiff $76,064.31. 
+I. 
+BACKGROUND 
+The Court’s decision on the merits, Westdale Northwest Center, LP v. United States, 
+154 Fed. Cl. 557 (2021), sets forth the facts of this case, which are only briefly recounted here. 
+
+ 
+ 
+2 
+ 
+A. 
+Factual Background 
+Westdale leases office space to GSA in San Antonio, Texas.  GSA drafted the lease and 
+negotiated it with Griffin Partners, Inc., (“Griffin Partners”) from which Westdale acquired the 
+building.  SAOP Northwest Center, LP (“SAOP”), a single-asset entity of Griffin Partners, 
+renewed a lease with GSA in 2010.  Under the lease, the parties intended that GSA pay its share 
+of the lessor’s real-estate taxes to Bexar County at a rate proportional to the percentage of the 
+building GSA occupied.   
+The lease defined the real-estate tax base as “the Unadjusted Real Estate Taxes for the 
+Property for the first full Tax Year for which the Real Estate Taxes are based upon a Full 
+Assessment,” or alternatively, “an amount negotiated by the parties that reflects an agreed upon 
+base for a Fully Assessed value of the property.”  Id. at 567.  The unadjusted real-estate taxes on 
+the property for the first full tax year after a full assessment were an amount with a base of 
+$726,629.  For the first year of the lease, SAOP paid $541,020.95 in taxes to Bexar County for 
+the whole building.  The lease, however, reflected neither of those figures; paragraph 15 of the 
+lease noted: “In accordance with the SFO Paragraph 4.2 entitled ‘Tax Adjustment,’ this lease is 
+subject to real estate tax adjustment. The base amount is established as $133,045.00.”  Id. at 566. 
+In 2012, because SAOP’s actual tax assessed ($541,020.95) exceeded the real-estate tax 
+base established in the lease ($133,045), SAOP determined that GSA had underpaid its portion 
+of real-estate taxes and requested an additional payment of $37,348.98.  GSA paid that amount. 
+Westdale acquired the building from SAOP in 2013.  Westdale had conducted due 
+diligence during which a GSA contracting officer had sent Westdale a letter informing Westdale 
+that the lease was in full force and effect, no rental was paid in advance, and there were no 
+notices of default.  At the time, SAOP and GSA were unaware of the mistake in the tax base in 
+the original lease.  Upon acquiring the building from SAOP, Westdale assumed all of SAOP’s 
+obligations and liabilities under the lease with GSA. 
+In 2014, Westdale sent GSA a letter pertaining to taxes owed for the year 2013.  
+Westdale notified GSA that it owed Westdale $86,446.84, which GSA paid.  A few months later, 
+following an audit of the lease, GSA determined that it had overpaid its portion of real-estate 
+taxes by $79,027.78.  GSA deducted that amount from its rent payments until the amount was 
+repaid in full.  GSA also notified Westdale for the first time of its position that the real-estate tax 
+base listed in the lease was erroneous.   
+In 2015, Westdale and GSA amended the lease to increase the space occupied by GSA.  
+Even as the parties amended the lease, they retained the original tax base, $133,045, despite 
+GSA’s claim that it was erroneous.  A few months after the lease amendment, Westdale again 
+notified GSA via email that GSA owed it more money under the lease for its share of the real-
+estate taxes for tax year 2014.  A GSA contracting officer contested that assertion, argued that 
+GSA had overpaid, and sought to amend the tax base in the lease, but Westdale declined to sign 
+the amendment. 
+
+ 
+ 
+3 
+ 
+Westdale and GSA continued to dispute the amounts GSA owed for tax years 2015 
+through 2019.  Each year, Westdale requested GSA pay additional sums pursuant to the real-
+estate tax base specified in the lease, but GSA would pay only a fraction of that amount.  
+Westdale presented four certified claims to a GSA contracting officer for the alleged shortfalls in 
+the real-estate tax payments under the lease, and the contracting officer issued four final 
+decisions denying those claims. 
+B. 
+Procedural Background 
+The plaintiff filed a five-count complaint on January 27, 2016.  (ECF 1.)  In Count One, 
+the plaintiff alleged that the defendant had breached the contract by failing to pay all money due 
+under the lease.  (Id. at 13.)  In Count Two, the plaintiff alleged that the defendant had breached 
+the contract by withholding rent payments.  (Id. at 13-14.)  In Count Three, the plaintiff alleged 
+that the defendant had breached the contract by withholding payments exceeding those claimed.  
+(Id. at 14.)  The plaintiff sought declaratory relief in Count Four.  (Id. at 14-15.)  In Count Five, 
+the plaintiff requested reformation of the lease, in the alternative, should the Court find that the 
+tax base was a result of mutual mistake or scrivener’s error.  (Id. at 15-17.)   
+The defendant filed a motion to dismiss under Rule 12(b)(6) of the Rules of the Court of 
+Federal Claims (“RCFC”) or, in the alternative, a motion for summary judgment under RCFC 
+56(a).  (ECF 9.)  The defendant’s motion to dismiss was denied, and consideration of the 
+defendant’s motion for summary judgment was stayed pending discovery.  (ECF 28.)  The case 
+was referred for alternative dispute resolution (“ADR”) (ECF 44), which proved unsuccessful.  
+(ECF 49.)  Upon the close of discovery and the end of the ADR, the parties cross-moved for 
+summary judgment.  (ECF 55; ECF 57.)  Their motions were denied because the then-presiding 
+judge determined there remained genuine issues of material fact as to the intent of the original 
+parties to the lease.  (ECF 62.)  The case was then transferred to the undersigned.  (ECF 65.)   
+The Court held a trial in January 2021.  The plaintiff argued that the contract 
+unambiguously noted that $133,045 was the real-estate tax base.  (Post-Trial Br., ECF 138 at 5.)  
+The plaintiff also argued that the error, to the extent that the tax base was erroneous, was a 
+unilateral mistake by the government for which the government should bear responsibility.  
+Furthermore, as a good-faith purchaser for value, the plaintiff contended that it was entitled to 
+damages for GSA’s breach of contract and that reformation of the contract was inappropriate.  
+The plaintiff also argued that the defendant’s unclean hands and ratification or waiver of the 
+mistake precluded it from withholding the funds due to the plaintiff.  The plaintiff sought 
+damages of $567,376.80. 
+The defendant argued that the lease was ambiguous regarding the appropriate tax base 
+and that the tax base listed in the original lease was a result of mutual mistake.  (Post-Trial Br., 
+ECF 137 at 21-22.)  The defendant sought reformation of the contract to implement the figure of 
+$726,629 as the real-estate tax base. 
+The plaintiff opposed contract reformation but argued as a “strictly alternative claim” that 
+if the Court were to reform the contract, the amount $726,629 would be inappropriate to use as a 
+tax base.  (ECF 138 at 22-23.) 
+
+ 
+ 
+4 
+ 
+The Court concluded that the tax base in the lease was unambiguous—it was neither 
+patently nor latently ambiguous.  The erroneous tax base was not so obvious that the parties 
+should have noticed it; GSA had the opportunity to notice the error in drafting the lease, 
+amending the lease, and considering its additional payments of real-estate taxes to the lessor in 
+2012 and 2013.  The tax-base figure also was not reasonably susceptible to more than one 
+interpretation.  
+Although the tax base in the lease was unambiguous, the Court considered the defense of 
+mutual mistake offered by the defendant.  The Court found based on witness testimony that the 
+original tax base of $133,045 in the terms of the lease reflected mutual mistake by the original 
+contracting parties.  Although Westdale was a good-faith purchaser, that fact did not preclude 
+reformation of the contract.   
+The Court determined that reformation was appropriate but rejected the defendant’s 
+proposed tax base of $726,629.  If the original lessor, Griffin Partners, had been the plaintiff, 
+“the Court would not [have] hesitate[d] to rule for the government and reform the contract to 
+reflect a tax base of $726,629.”  Westdale, 154 Fed. Cl. at 587.  Westdale, however, was not 
+“receiving the full benefit of the bargain from its purchase,” and using the $726,629 estimate 
+“would unduly burden Westdale, an innocent third-party, good-faith purchaser.”  Id.  The Court 
+therefore reformed the contract to reflect a tax base of $541,020.95, which was based on real-
+estate taxes for the first year of the lease and more accurately reflected the intention of the 
+negotiating parties.  Id. at 586-87. 
+Based on the parties’ calculation of damages and interest, the Court directed the Clerk to 
+enter final judgment for the plaintiff in the amount of $173,226.14.  (ECF 149.)  Neither party 
+appealed.  Costs were taxed in the amount of $5,919.12 against the defendant.  (ECF 163.) 
+The plaintiff then filed a timely motion for attorney’s fees and research expenses under 
+the EAJA in the amount of $104,197.83.  (ECF 158 at 23.)  The defendant filed a response 
+opposing the plaintiff’s motion.  (ECF 166.)  The plaintiff filed a reply brief and appended to that 
+brief a declaration in support of its claim that its counsel had spent 9.2 hours responding to the 
+defendant’s opposition to the motion, corresponding to $1,861 in additional fees.  (ECF 168, 
+169.)   
+The Court convened the parties for a status conference on March 16, 2022, during which 
+the Court provided its impressions on the pending EAJA-fee application and gave the parties 45 
+days to attempt to resolve the plaintiff’s motion between themselves.  On April 27, 2022, the 
+parties filed a joint status report indicating that they were unable to reach an agreement.  (ECF 
+174.)  Oral argument is not necessary to resolve the motion. 
+
+ 
+ 
+5 
+ 
+II. 
+DISCUSSION 
+The EAJA permits the court to award attorney’s fees to a plaintiff if certain conditions 
+are met: 
+Except as otherwise specifically provided by statute, a court shall 
+award to a prevailing party other than the United States fees and 
+other expenses, in addition to any costs awarded pursuant to 
+subsection (a), incurred by that party in any civil action (other than 
+cases sounding in tort), including proceedings for judicial review of 
+agency action, brought by or against the United States in any court 
+having jurisdiction of that action, unless the court finds that the 
+position of the United States was substantially justified or that 
+special circumstances make an award unjust. 
+28 U.S.C. § 2412(d)(1)(A). 
+The Supreme Court has set forth four requirements for a fee award in a civil action:  
+ (1) that the claimant be a “prevailing party”; (2) that the 
+Government’s position was not “substantially justified”; (3) that no 
+“special circumstances make an award unjust”; and, (4) pursuant to 
+28 U.S.C. § 2412(d)(1)(B), that any fee application be submitted to 
+the court within 30 days of final judgment in the action and be 
+supported by an itemized statement.  
+Comm’r, I.N.S. v. Jean, 496 U.S. 154, 158 (1990).   
+Under the EAJA, a “party” includes a partnership with a net worth not exceeding 
+$7,000,000 and no more than 500 employees.  28 U.S.C. § 2412(d)(2)(B).  The term “fees and 
+other expenses” “includes the reasonable expenses of expert witnesses, the reasonable cost of 
+any study, analysis, engineering report, test, or project which is found by the court to be 
+necessary for the preparation of the party’s case, and reasonable attorney fees,” which are not to 
+exceed $125 per hour unless there has been an increase in the cost of living or a special factor.  
+Id. § 2412(d)(2)(A). 
+In its motion for attorney’s fees, the plaintiff argues that it meets all criteria for award 
+under the EAJA.  (ECF 158.)  The defendant does not dispute that Westdale qualifies as a 
+“party” under the EAJA, that the plaintiff’s proposed hourly rate is reasonable, or that the 
+plaintiff’s application is timely.   (ECF 166 at 3-4.)  The defendant also does not argue that a 
+special circumstance makes award unjust.  Rather, in its response opposing the plaintiff’s 
+motion, the defendant disputes that the plaintiff is a “prevailing party” and argues that the 
+government’s position was “substantially justified.”  In the alternative, the defendant argues that 
+the plaintiff’s fees should be reduced to account for the limited success achieved in the litigation.  
+(Id. at 11.) 
+
+ 
+ 
+6 
+ 
+Remaining in dispute are three issues: (1) whether the plaintiff qualifies as a “prevailing 
+party”; (2) whether the government’s position was “substantially justified”; and (3) if the 
+plaintiff is entitled to attorney’s fees, whether those fees are subject to reduction. 
+A. 
+Prevailing Party Status 
+1. 
+Legal Standard 
+The EAJA does not define a “prevailing party” as it relates to this type of litigation.1  The 
+Supreme Court has held that “a plaintiff ‘prevails’ when actual relief on the merits of his claim 
+materially alters the legal relationship between the parties by modifying the defendant’s behavior 
+in a way that directly benefits the plaintiff.”  Farrar v. Hobby, 506 U.S. 103, 111-12 (1992).  In 
+short, “a ‘prevailing party’ is one who has been awarded some relief by the court . . . .”  
+Buckhannon Bd. & Care Home, Inc. v. W. Va. Dep’t Health & Hum. Res., 532 U.S. 598, 603 
+(2001) (emphasis added).   
+The Supreme Court has consistently held that the magnitude of relief awarded is 
+irrelevant to the question of whether a plaintiff prevailed.  See Buckhannon, 532 U.S. at 603; 
+Farrar, 506 U.S. at 114.  For example, a party “prevailed” in litigation even when it received 
+only nominal damages.  Farrar, 506 U.S. at 112.  A party that obtained a court-ordered consent 
+decree was also deemed to have prevailed.  Hanrahan v. Hampton, 446 U.S. 754, 756-57 
+(1980).2  The Federal Circuit has held that plaintiffs prevailed when they succeeded on the merits 
+upon remand to an agency when a court retained jurisdiction.  Former Emps. Motorola Ceramic 
+Prods. v. United States, 336 F.3d 1360, 1367 (Fed. Cir. 2003).  If the defendant’s voluntary 
+change in conduct, however, is what causes the material alteration of the legal relationship, the 
+plaintiff is not a “prevailing party.”  See Buckhannon, 532 U.S. at 605. 
+2. 
+Application of the Legal Standard 
+ 
+The plaintiff argues that it is a “prevailing party” because the post-trial decision 
+materially altered the lease governing the legal relationship between Westdale and GSA, 
+resulting in a judgment for the plaintiff and an award of damages in the amount of $173,226.14, 
+inclusive of interest.  (ECF 158 at 6-7.)   
+The defendant argues that the Court “explicitly granted the United States’ affirmative 
+defense of reformation due to mutual mistake.”  (ECF 166 at 5); see Westdale, 154 Fed. Cl. at 
+582-85.  The defendant contends that the plaintiff does not qualify as a prevailing party just 
+ 
+1 The EAJA defines “prevailing party” only regarding “eminent domain proceedings.”  
+28 U.S.C. § 2412(d)(2)(H). 
+2 Although Farrar and Hanrahan address the meaning of “prevailing party” under the Civil 
+Rights Attorney’s Fees Award Act of 1976, the “Supreme Court has interpreted the phrase 
+‘prevailing party’ consistently across all federal fee-shifting statutes.”  Former Emps. Motorola 
+Ceramic Prods. v. United States, 336 F.3d 1360, 1364 (Fed. Cir. 2003). 
+
+ 
+ 
+7 
+ 
+because the Court employed equitable principles when reforming the lease to reflect the real-
+estate tax base proposed by the plaintiff only as an alternative last resort.  The defendant notes 
+that the plaintiff was unsuccessful on the first four counts in its complaint and did not recover 
+most of the damages it sought.   
+The plaintiff counters that the success of the plaintiff’s alternative claim for relief should 
+not preclude an award of attorney’s fees.  (ECF 168 at 4-9.)  The plaintiff underscores that the 
+Court also ruled against the defendant regarding the ambiguity of the contract. 
+The defendant’s understanding of the legal standards defining a “prevailing party” is too 
+rigid.  The Court did adopt some of the defendant’s arguments, including that the tax base in the 
+contract was due to mutual mistake, that parol evidence was admissible, and that reformation of 
+the lease was appropriate.  The question, however, is not whether the defendant prevailed on any 
+claims, but rather whether the plaintiff prevailed on any of its claims.  And the plaintiff prevailed 
+in arguing that the defendant’s proposed tax base was incorrect and that the GSA had wrongfully 
+withheld portions of its rent payments under its erroneous interpretation of the lease.  This claim 
+was at the heart of Count Five of the plaintiff’s complaint and was argued in the alternative at 
+trial.  Although the plaintiff did not obtain relief directly on the other counts in its complaint and 
+was not awarded all the damages it sought, those facts do not preclude the finding that Westdale 
+is a “prevailing party” eligible for an award under the EAJA.  See Buckhannon, 532 U.S. at 603; 
+Farrar, 506 U.S. at 114. 
+Under the Supreme Court’s precedents, the plaintiff was a “prevailing party.”  The post-
+trial decision materially altered the legal relationship between the parties to the plaintiff’s benefit 
+and awarded the plaintiff some relief on the merits.  See Farrar, 506 U.S. at 111; Buckhannon, 
+532 U.S. at 603.  Prior to the litigation, the “legal relationship” between Westdale and GSA was 
+in dispute: Westdale was operating under the assumption that $133,045 was the correct tax base; 
+GSA was operating as if $726,629 was the correct tax base.  GSA was withholding rent 
+payments based on its understanding of what the lease terms were meant to be, and Westdale 
+disputed those withholdings.   
+The decision altered the relationship between the parties and modified the defendant’s 
+behavior by reforming the lease to include a tax base that reflected the intention of the original 
+parties to the lease.  The relationship was altered to the plaintiff’s benefit: the government was 
+ordered to pay damages to the plaintiff, and the basis for GSA’s withholding of rent payments 
+was rejected.  The plaintiff was awarded damages in the amount of $173,226.14, inclusive of 
+interest, in addition to costs.  The plaintiff was not awarded all it sought.  Its preferred reading of 
+the lease was rejected, and the damages awarded were far less than the plaintiff had sought.  
+Nonetheless, once mutual mistake was found to exist in the drafting of the real-estate tax base, 
+the plaintiff’s proposed reformation was chosen over the reformation proposed by the defendant.  
+The plaintiff received “some relief” under the post-trial decision and is thus a “prevailing party.”  
+Buckhannon, 532 U.S. at 603.   
+
+ 
+ 
+8 
+ 
+B. 
+Substantial Justification 
+Once a plaintiff is found eligible for an award under the EAJA, the burden shifts to the 
+government to demonstrate that its position was substantially justified.  Scarborough v. Principi, 
+541 U.S. 401, 414 (2004).  A position is substantially justified if it has a “reasonable basis both 
+in law and fact,” or, in other words, is “justified to a degree that could satisfy a reasonable 
+person.”  Pierce v. Underwood, 487 U.S. 552, 565 (1988).   
+The “‘position of the United States’ means, in addition to the position taken by the United 
+States in the civil action, the action or failure to act by the agency upon which the civil action is 
+based . . . .”  28 U.S.C. § 2412(d)(2)(D).  In evaluating motions for attorney’s fees under the 
+EAJA, “the entirety of the conduct of the government is to be viewed, including the action or 
+inaction by the agency prior to litigation.”  Chiu v. United States, 948 F.2d 711, 715 (Fed. Cir. 
+1991).  A court must make “only one threshold determination for the entire civil action” as to 
+whether the defendant’s position was substantially justified.  Jean, 496 U.S. at 159.  The Court 
+therefore analyzes both GSA’s position giving rise to the litigation and the defendant’s position 
+during the litigation. 
+1. 
+GSA’s Position before Litigation 
+The plaintiff argues that GSA exhibited a “lack of diligence” on numerous occasions, 
+including by failing to refer to the actual language of the lease when disagreements arose and by 
+improperly certifying to Westdale that the lease was in full force and effect and that no rents had 
+been paid in advance.  (ECF 158 at 11-12.)  The plaintiff also contends that the GSA contracting 
+officer acted as a mere “rubber-stamp” in approving the lease and that GSA violated the Contract 
+Disputes Act (“CDA”) by withholding rent payments without first making a claim and obtaining 
+a final decision from a contracting officer on that claim.  (Id. at 12.) 
+In responding to the plaintiff’s motion, the defendant does not address GSA’s conduct 
+prior to the litigation.  (ECF 166 at 9-12.)  The defendant asserts that the plaintiff’s “cherry 
+pick[ing]” of instances when the government’s position was not substantially justified “reflects a 
+misunderstanding of substantial justification.”  (Id. at 10.) 
+The post-trial decision provides three examples of instances in which GSA’s conduct 
+with respect to the lease and the plaintiff was patently wrong and unjustifiable.  First, the “GSA 
+drafted the lease incorrectly by including an erroneous tax base.”  Westdale, 154 Fed. Cl. at 579.  
+SAOP failed to catch the error when its officials reviewed the proposed lease, but that oversight 
+does not excuse the initial error made by GSA officials.  Second, GSA proceeded to pay SAOP 
+and Westdale according to the express, albeit erroneous, real-estate tax base for the first two 
+years of the lease.  Third, even when GSA increased its occupancy and amended the lease to 
+reflect added square footage (which should have resulted in a revision to the real-estate tax base), 
+GSA officials failed to catch their earlier error and repeated it in the revised lease.  GSA made 
+the same mistake “in multiple instances that could have been caught through accurate drafting 
+and careful proofreading.”  Id. 
+
+ 
+ 
+9 
+ 
+Even after GSA officials uncovered the error they had made when drafting the lease, the 
+remedial actions they took did not reflect a “reasonable basis both in law and fact.”  Underwood, 
+487 U.S. at 565.  GSA failed to recognize that Westdale, as an innocent third party, was not at 
+fault for the mistake in the lease; GSA itself had erred.  Furthermore, GSA declined to resolve 
+the dispute through negotiation, mediation, or CDA processes, choosing instead to withhold rent 
+payments despite the absence of a final CDA decision on the record.3   
+The defendant, in its briefing on this motion, has chosen not even to try to show that 
+GSA’s actions during the pre-litigation portion of this dispute were substantially justified.  The 
+defendant cannot meet its burden with silence.  See Scarborough, 541 U.S. at 414 (holding that 
+the government bears the burden of substantially justifying its conduct).  The GSA’s pre-suit 
+behavior was not substantially justified.   
+2. 
+The Defendant’s Position in Litigation 
+The plaintiff also argues that the defendant’s position during the litigation was not 
+substantially justified.  (ECF 158 at 16-20.)  The plaintiff contends that the defendant’s motion to 
+dismiss the case under RCFC 12(b)(6) resulted in a needless year-long delay.  Additionally, the 
+plaintiff argues that the defendant advanced inconsistent positions and delayed pleading any 
+affirmative defenses until less than a year before the case was tried. 
+The defendant argues that its position was substantially justified because the Court 
+ultimately accepted its argument that the real-estate tax base provision of the lease was a result of 
+mutual mistake and, accordingly, reformed the contract.  (ECF 166 at 9-10.)  The defendant also 
+underscores that the plaintiff did not prevail on all its claims, and the plaintiff did not recover the 
+full amount of the damages it sought. 
+The plaintiff replies that the defendant’s silence on the specific issues highlighted by the 
+plaintiff demonstrate “that the Government did not prove that its conduct was substantially 
+justified because it refused to address its conduct at all.”  (ECF 168 at 13.) 
+ 
+3 In its motion for attorney’s fees, the plaintiff argues that GSA was required to obtain a final 
+decision of a contracting officer before withholding rents due under the lease.  (ECF 158 at 14-
+15.)  The plaintiff advanced the same argument at trial.  (ECF 138 at 10-11.)  The legality of 
+GSA’s actions is debatable.  Compare 41 U.S.C. § 7103(a)(3) (providing that claims by the 
+government against a contractor “shall be the subject of a written decision by the contracting 
+officer”), with Applied Cos. v. United States, 144 F.3d 1470, 1478 (Fed. Cir. 1998) (holding that 
+a final CDA decision was unnecessary when the agency setoff was used to recoup money owed 
+due to a billing error).  The Court need not resolve whether GSA acted unlawfully, however, 
+because the defendant’s failure to defend its pre-litigation conduct is dispositive for purposes of 
+the plaintiff’s motion for fees under the EAJA. 
+
+ 
+ 
+10 
+ 
+The defendant correctly notes that it prevailed on the major premise of its position, but 
+that fact alone is insufficient to demonstrate that its overall position during the litigation was 
+substantially justified.  The Supreme Court has addressed this issue:  
+Obviously, the fact that one other court agreed or disagreed with the 
+Government does not establish whether its position was 
+substantially justified.  Conceivably, the Government could take a 
+position that is not substantially justified, yet win; even more likely, 
+it could take a position that is substantially justified, yet lose.   
+Underwood, 487 U.S. at 569.  Rather than simply looking at the final scoreboard, a court must 
+examine objective indicia of the merits of the government’s litigating position in determining 
+whether the government’s position in litigation was substantially justified.  See id.   
+Contrary to the plaintiff’s assertion, the defendant’s position has been consistent.  The 
+real-estate tax base reflected in the terms of the lease was in error, and, due to that error, 
+Westdale requested GSA to pay a disproportionate share of the property taxes levied on the 
+building.  The defendant clung tenaciously to the position that the only proper reformation of the 
+lease would be to strike the real-estate tax base of $133,045 and substitute in its place a tax base 
+of $726,629.  That latter number reflected the estimated tax base SAOP included in its proposal 
+to GSA, and the rent was calculated using that tax base.  Reforming the lease to include any 
+number other than $726,629 would result in the defendant having to cover more than its share of 
+the real-estate taxes.  The Court acknowledged that had the plaintiff been SAOP, the defendant’s 
+proposed real-estate tax base would have been adopted.  Westdale, 154 Fed. Cl. at 586.  SAOP 
+was not, however, the plaintiff. 
+At all stages of the litigation, the defendant failed to recognize that Westdale was not an 
+original party to the lease and therefore had no reason to know of the mistake in the real-estate 
+tax base.  The mistake was unambiguous and entirely the fault of the defendant and the original 
+lessor.  The defendant made lease payments in accordance with the unambiguous but erroneous 
+lease provision during the first two years of the lease, including the period when Westdale was 
+purchasing the building.  The plaintiff is not a mind-reader, yet the defendant unilaterally 
+interpreted the lease in a manner that penalized the plaintiff for failing to read the minds of GSA 
+officials.  Notwithstanding the merit of the defendant’s claim of mutual mistake, the defendant’s 
+consistent failure to acknowledge the critical fact that the plaintiff was a good-faith, third-party 
+purchaser of the property leads to the conclusion that its position during the litigation was not 
+“justified to a degree that could satisfy a reasonable person.”  Underwood, 487 U.S. at 565.   
+In addition, the defendant’s failure to engage the plaintiff’s specific complaints regarding 
+its conduct weighs against finding that its position was substantially justified.  In CEMS, Inc. v. 
+United States, Judge Horn observed that “the government cannot demonstrate that its conduct 
+was reasonable when the government refuses to address its conduct at all.”  65 Fed. Cl. 473, 482 
+(2005).  Similarly, in this case, the defendant’s focus on the outcome of the case rather than the 
+substance of its position does not satisfy its burden to demonstrate that its position was 
+substantially justified.  
+
+ 
+ 
+11 
+ 
+The defendant’s emphasis on the amount of the plaintiff’s recovery is also misplaced.  In 
+Baldi Bros. Constructors v. United States, the defendant also chose not to justify its position and 
+instead asserted “that because plaintiff ultimately recovered only 55% of the amount of damages 
+sought, the substantial justification of the Government’s litigation position is self-evident.”  
+52 Fed. Cl. 78, 81 (2002).  Another judge of this court held that “the fact that the Government 
+successfully defeated certain claims does not alone establish that it so acted with substantial 
+justification.”  Id. at 82.  Analogously, in this case, the damages the plaintiff sought as opposed 
+to the amount it received is inapposite; the defendant’s success in defeating some of the 
+plaintiff’s claims is also irrelevant.  The defendant must establish that its position was 
+substantially justified, and the defendant’s focus on the plaintiff’s relief rather than the 
+justification of its own position misses the point. 
+In sum, the defendant has failed to satisfy its burden of demonstrating that its overall 
+position was substantially justified, both prior to and during the litigation.     
+C. 
+Reduction of Fees 
+The conditions for eligibility for EAJA fees reflect “a generous formulation that brings 
+the plaintiff only across the statutory threshold.  It remains for the [trial] court to determine what 
+fee is ‘reasonable.’”  Hensley v. Eckerhart, 461 U.S. 424, 433 (1983) (discussing the standards 
+applying to a “prevailing party”); see also Jean, 496 U.S. at 160-61 (applying this language to all 
+conditions for eligibility under the EAJA).  The EAJA provides that “a court may award 
+reasonable fees and expenses of attorneys . . . .”  28 U.S.C. § 2412(b) (emphasis added).  When 
+determining whether proposed EAJA fees are “reasonable,” “the most critical factor is the degree 
+of success obtained.”  Hensley, 461 U.S. at 436.   
+In Hensley, the Supreme Court explained when it is appropriate for a trial court to award 
+less than the fee sought: 
+Where the plaintiff has failed to prevail on a claim that is distinct in 
+all respects from his successful claims, the hours spent on the 
+unsuccessful claim should be excluded in considering the amount of 
+a reasonable fee.  Where a lawsuit consists of related claims, a 
+plaintiff who has won substantial relief should not have his 
+attorney’s fee reduced simply because the district court did not adopt 
+each contention raised.  But where the plaintiff achieved only 
+
+ 
+ 
+12 
+ 
+limited success, the district court should award only that amount of 
+fees that is reasonable in relation to the results obtained. 
+461 U.S. at 440.4  Therefore, when a plaintiff achieves “limited success,” fee reduction is 
+appropriate. 
+Westdale did not prevail on all its claims.  Its primary assertion, reflected in the first four 
+of the five claims of its amended complaint, was that the lease should be enforced as written and 
+that Westdale should receive damages in the amount of $567,376.80 plus interest.  The plaintiff 
+failed on its claims to enforce the lease as written.  Hence, four of the plaintiff’s five claims were 
+rejected in full.  Instead, the Court adopted the reformation proposed in the plaintiff’s fifth claim, 
+resulting in a recovery of $173,226.14, including interest.  The plaintiff therefore achieved only 
+“limited success,” so the plaintiff’s proposed attorney’s fees should be reduced.  Hensley, 
+461 U.S. at 440. 
+The question then becomes what amount of fees is “reasonable in relation to the results 
+obtained.”  Id.  In reducing fees, a court “may attempt to identify specific hours that should be 
+eliminated, or it may simply reduce the award to account for the limited success.  The court 
+necessarily has discretion in making this equitable judgment.”  Id. at 436-37.  
+1. 
+Reduction of Specific Hours 
+The Federal Circuit has held that “courts properly award attorney fees for time 
+necessarily spent on a successful claim, even if that time was also spent on unsuccessful claims.”  
+Smith v. McDonough, 995 F.3d 1338, 1345 (Fed. Cir. 2021).  “The relevant inquiry is whether 
+the time spent was ‘reasonably expended.’”  Id. (quoting Wagner v. Shinseki, 640 F.3d 1255, 
+1262 (Fed. Cir. 2011)).  When a trial court reduces a fee request, it must “provide a reasoned 
+explanation as to why particular attorney hours should be excluded.”  Wagner, 640 F.3d at 1261. 
+As summarized above, this case has a protracted procedural history.  The plaintiff seeks 
+attorney’s fees and research expenses for drafting the complaint, defeating the defendant’s 
+motion to dismiss, moving for summary judgment, preparing for trial, conducting trial, drafting 
+post-trial briefs and proposed findings of fact, and pursuing its EAJA request.  (ECF 158 at 23.) 
+The defendant argues that if the plaintiff is eligible for fees under the EAJA, the plaintiff 
+“would be entitled to an award of fees only for the time it spent in contesting [the defendant’s] 
+affirmative defense.”  (ECF 166 at 10.)  The defendant’s proposed reduction contravenes Jean, 
+in which the Supreme Court articulated a presumption for awarding fees based on the outcome of 
+the case as a whole: 
+ 
+4 Although Hensley involved a fee-shifting provision from the Civil Rights Act, the Federal 
+Circuit has held that the same definition of “reasonable” applies under the EAJA.  Hubbard v. 
+United States, 480 F.3d 1327, 1331 (Fed. Cir. 2007).  
+
+ 
+ 
+13 
+ 
+[A] fee award presumptively encompasses all aspects of the civil 
+action.  Any given civil action can have numerous phases.  While 
+the parties’ postures on individual matters may be more or less 
+justified, the EAJA—like other fee-shifting statutes—favors 
+treating a case as an inclusive whole, rather than as atomized line-
+items.  
+496 U.S. at 161-62 (internal footnote omitted).   
+Applying this precedent, the Federal Circuit has awarded attorney’s fees for time spent 
+reviewing the initial record even when some of that time was spent researching unsuccessful 
+claims, reasoning that reviewing the record was “indispensable” to pursuing the plaintiff’s 
+claims.  Smith, 995 F.3d at 1345. 
+Similarly, in this case, it was “indispensable” that the plaintiff drafted its complaint, 
+defeated the defendant’s motion to dismiss, engaged in discovery and settlement discussions, and 
+prepared for trial to prevail on its successful claim.  See id.  The defendant’s proposal that any 
+award of attorney’s fees be limited only to time expended countering the defendant’s affirmative 
+defense at trial is inconsistent with Jean and Smith.  Pursuant to Jean, the plaintiff’s case must be 
+treated presumptively as “an inclusive whole,” unless some of the proposed attorney’s fees prove 
+unreasonable.  See 496 U.S. at 161-62. 
+The plaintiff’s proposed attorney’s fees are subject to reduction for the time spent on the 
+plaintiff’s unsuccessful cross-motion for summary judgment.  When a plaintiff achieves limited 
+success arguing a particular theory at a discrete stage of the litigation, hours spent developing 
+that theory should be excluded from award under the EAJA.  See Hubbard v. United States, 80 
+Fed. Cl. 282, 284-85 (Fed. Cl. 2008) (reducing an award for hours spent on an unsuccessful 
+theory of damages), aff’d, 315 F. App’x 307 (Fed. Cir. 2009).  The plaintiff’s cross-motion was 
+denied due to the existence of genuine issues of material fact regarding the intent of the parties to 
+the contract, and the plaintiff should have known that outstanding factual issues would prevent a 
+ruling in its favor at that stage of the litigation.  The time the plaintiff spent drafting its own 
+summary-judgment motion therefore was not “reasonably expended.”  See Wagner, 640 F.3d at 
+1262.  It was necessary, however, for the plaintiff to expend time and resources to defeat the 
+defendant’s motion for summary judgment. 
+The plaintiff reports that it spent a total of 97.3 hours analyzing and responding to the 
+defendant’s motion for summary judgment and preparing its own cross-motion for summary 
+judgment.  (ECF 158 at 22.)  From the plaintiff’s billing records, it appears that of those 97.3 
+hours, 28.6 hours were reasonably expended reviewing documents produced by the defendant, 
+reviewing and analyzing the defendant’s motion for summary judgment, researching cases cited 
+in the defendant’s motion, and preparing for and attending status conferences.  The plaintiff is 
+entitled to fees for those hours.  The plaintiff, however, spent 3.6 hours developing its own 
+summary-judgment strategy before the defendant filed its motion for summary judgment.  (ECF 
+159 at 101.)  Those hours should be excluded from the award of attorney’s fees.   
+
+ 
+ 
+14 
+ 
+From billing records, it appears that the plaintiff spent the remaining 65.1 hours working 
+simultaneously on its response to the government’s motion for summary judgment and its own 
+cross-motion for summary judgment, which it filed jointly.  (See ECF 57.)  Some of that time 
+was also spent on the plaintiff’s reply brief.  The plaintiff’s records do not indicate how much 
+time the plaintiff spent countering the defendant’s claims as opposed to raising its own claims, 
+but the filings themselves reflect that about half of the issues the plaintiff raised were in response 
+to the defendant’s motion, while about half were its own arguments.  (See id.)  The time the 
+plaintiff spent supporting its own cross-motion was not reasonably expended.  Accordingly, the 
+plaintiff’s fees should be reduced by an additional 32.6 hours, representing half of the plaintiff’s 
+time spent at the summary-judgment stage.   
+The plaintiff’s fees are therefore reduced by a total of 36.2 hours, which corresponds to a 
+reduction of $7,323.26 to the award, according to the plaintiff’s calculation method.5 
+The plaintiff also incurred $772.88 in legal research expenses during the summary-
+judgment stage.  (ECF 158 at 23.)  Of those expenses, the plaintiff spent $153.95 researching its 
+own summary-judgment strategy prior to the defendant’s filing of its motion for summary 
+judgment; that expense should therefore be excluded from the award.  (ECF 159 at 101.)  The 
+plaintiff spent $14.08 researching cases cited in the defendant’s motion for summary judgment, 
+and the plaintiff is entitled to reimbursement for that expense.  (Id. at 113.)  The plaintiff, 
+however, spent the remaining $604.85 on research for its joint response to the defendant’s 
+motion and cross-motion for summary judgment.  Again, it is unexplained in the record exactly 
+how much of the expenses stem from the plaintiff’s claims as opposed to the defendant’s claims, 
+but the plaintiff’s summary-judgment briefs suggest that about half of the expenses were likely 
+allocated to issues advanced solely by the plaintiff.  Accordingly, the plaintiff’s proposed legal-
+research expense award is reduced by $456.38. 
+2. 
+Reduction of the Overall Award 
+The Supreme Court has held that a party’s limited success sometimes requires a reduction 
+in an award of attorney’s fees:  
+If . . . a plaintiff has achieved only partial or limited success, the 
+product of hours reasonably expended on the litigation as a whole 
+times a reasonable hourly rate may be an excessive amount.  This 
+will be true even where the plaintiff’s claims were interrelated, 
+nonfrivolous, and raised in good faith.  Congress has not authorized 
+an award of fees whenever it was reasonable for a plaintiff to bring 
+ 
+5 The plaintiff employs the “mid-point method” for calculating attorney’s fees with cost-of-
+living increases.  (ECF 158 at 4-6); see 2M Rsch. Servs., LLC v. United States, 148 Fed. Cl. 99, 
+108-09 (explaining the “mid-point method”).  Using that method, the plaintiff arrived at an 
+hourly rate of $202.30.  (ECF 158 at 23.)  The defendant does not dispute the reasonableness of 
+that hourly rate. 
+
+ 
+ 
+15 
+ 
+a lawsuit or whenever conscientious counsel tried the case with 
+devotion and skill.  Again, the most critical factor is the degree of 
+success obtained. 
+Hensley, 461 U.S. at 436.   
+No rigid formula exists for determining the appropriate amount by which to reduce fees 
+for unsuccessful claims.  Id.  The Federal Circuit has rejected, for example, mechanically 
+awarding a ratio of attorney’s fees based on the ratio of claimed damages that the plaintiff 
+recovered.  Hubbard v. United States, 480 F.3d 1327, 1333-34 (Fed. Cir. 2007).  Rather, any 
+reduction must be decided on a case-by-case basis while accounting for all relevant factors 
+through the exercise of sound discretion.  “The trial court has considerable discretion in 
+determining reasonable attorney fees.”  Id. at 1334-35.  This discretion is “appropriate in view of 
+the [trial] court’s superior understanding of the litigation and the desirability of avoiding frequent 
+appellate review of what essentially are factual matters.”  Hensley, 461 U.S. at 437.  
+In this case, awarding the plaintiff the full amount of attorney’s fees requested would be 
+excessive given the results it achieved.  The plaintiff was awarded a fraction of the damages it 
+sought, and the plaintiff’s arguments that formed the core of its claims were rejected.  The 
+plaintiff prevailed only on its claim offered in the alternative, and that claim mirrored the 
+defendant’s primary argument in most respects.  The plaintiff’s claims were interrelated, 
+nonfrivolous, and brought in good faith, but that reality does not preclude a reduction in an 
+EAJA fee award when granting the full amount requested would not reflect the extent of the 
+plaintiff’s success.  The plaintiff’s fee award therefore must be reduced.  See Hensley, 461 U.S. 
+at 436. 
+ 
+The Court declines to apply a specific, rigid formula to reduce the plaintiff’s recovery of 
+attorney’s fees, i.e., awarding the plaintiff only one-fifth of its requested attorney’s fees because 
+the plaintiff prevailed on one of its five claims, or awarding the plaintiff only 30 percent of its 
+requested attorney’s fees because the plaintiff received approximately 30 percent of the damages 
+it sought.  See Hubbard, 480 F.3d at 1333-34.   
+In the absence of a specific formula, the Court determines that a reduction of 25 percent 
+in the fees sought by the plaintiff is appropriate.6  This reduction reflects that, on the one hand, 
+ 
+6 Other judges of this court have also exercised their equitable discretion in determining an 
+appropriate, if unscientific, percentage of recovery for attorney’s fees.  The Court follows this 
+approach in resolving the plaintiff’s motion.  See, e.g., Shea v. United States, 154 Fed. Cl. 1, 7 
+(2021) (reducing an award by 30 percent due to the plaintiff’s limited success); Stimson Lumber 
+Co. v. United States, 154 Fed. Cl. 694, 706-09 (2021) (reducing fees at different stages of the 
+litigation by 50 percent, 45 percent, or 20 percent), appeal filed, No. 22-1201 (Nov. 30, 2021); 
+Haggart v. United States, 151 Fed. Cl. 58, 67-70 (2020) (reducing some awards of legal fees and 
+expenses by 35 percent or 50 percent); Gregory v. United States, 110 Fed. Cl. 400, 404-06 
+ 
+
+ 
+ 
+16 
+ 
+the plaintiff did not prevail on its core claims.  On the other hand, the plaintiff’s successful claim 
+was closely related to the plaintiff’s unsuccessful claims and relied on the same evidence.  
+Indeed, the facts presented at trial were largely not contested; only the legal effect of the facts 
+was disputed.  Additionally, the plaintiff’s counsel has already meticulously culled many of the 
+hours she worked in her application for EAJA fees.  The plaintiff’s request for fees for 
+approximately 500 hours of work in a case that lasted five years and went to trial is hardly 
+outrageous.  Nonetheless, the Court must consider the degree of success the plaintiff achieved.  
+A reduction of 25 percent compensates the plaintiff for counsel’s work on the case while 
+accounting for the limited degree of success achieved. 
+ 
+A reduction larger than 25 percent is not appropriate.  The claims on which the plaintiff 
+failed and the claim on which it prevailed were too interrelated and reliant on the same evidence 
+to support a reduction of more than 25 percent.  The plaintiff’s claims, both successful and 
+unsuccessful, depended on the same discovery and the same arguments.  The case presented 
+distinctive facts with no clearly dispositive legal precedent. 
+The plaintiff seeks $102,899.77 in attorney’s fees.  The plaintiff spent 33.2 hours 
+applying for EAJA fees and responding to the defendant’s opposition brief, corresponding to 
+$6,716.36 in fees.  The plaintiff is granted that amount in full.  Cf. Jean, 496 U.S. at 162 
+(presuming that EAJA fees should be awarded as a whole).   
+Of the remaining $96,183.41 requested attorney’s fees, the Court has already deducted 
+$7,323.26, corresponding to fees for the plaintiff’s unsuccessful motion for summary judgment.   
+The remaining $88,860.15 in requested fees should be reduced by 25 percent, leaving the 
+plaintiff with $66,645.11.  Combined with the fees the plaintiff incurred in drafting and 
+defending its EAJA motion ($6,716.36), the plaintiff is entitled to a total of $73,361.47 for 
+attorney’s fees.   
+The plaintiff also requests reimbursed research expenses of $3,159.22, from which the 
+Court has deducted $456.38.  The Court will award the full amount of these remaining costs 
+($2,702.84).  The plaintiff is therefore entitled to an award of $76,064.31. 
+ 
+ 
+ 
+(2013) (reducing attorney’s fees by 50 percent, 80 percent, and 60 percent at different stages of 
+the litigation).   
+
+ 
+ 
+17 
+ 
+III. 
+CONCLUSION 
+The plaintiff is eligible for a fee award under the EAJA.  The plaintiff is a prevailing 
+party, and the government’s position was not substantially justified.  A reduction of the fee 
+award, however, is reasonable given the plaintiff’s limited success.  The plaintiff’s application 
+for fees is granted in part and the plaintiff is awarded $76,064.31 in fees and costs under the 
+EAJA. 
+The Court will enter an order in accordance with this memorandum opinion. 
+s/ Richard A. Hertling 
+Richard A. Hertling 
+Judge 

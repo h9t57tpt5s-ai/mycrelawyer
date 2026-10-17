@@ -1,0 +1,1782 @@
+IN THE UNITED STATES COURT OF FEDERAL CLAIMS 
+______________________________________ 
+ 
+) 
+GBA ASSOCIATES LIMITED 
+) 
+PARTNERSHIP,  
+) 
+ 
+) 
+Plaintiff, 
+) 
+ 
+No. 20-116 
+ 
+) 
+ 
+v. 
+ 
+) 
+ 
+Filed: September 19, 2025 
+ 
+ 
+) 
+THE UNITED STATES, 
+) 
+ 
+) 
+ 
+Defendant. 
+) 
+______________________________________ ) 
+ 
+OPINION AND ORDER 
+This breach-of-contract case arises from the administration of a July 2010 lease (“the 
+Lease”) that the General Services Administration (“GSA”) entered into with GBA Associates 
+Limited Partnership (“Plaintiff”) for an office building occupied by the United States Department 
+of Defense, Defense Health Agency.  The property consists of several parcels and associated 
+buildings located at 7700 Arlington Boulevard, Falls Church, Virginia (“the Property”).  Pursuant 
+to the Lease, Plaintiff substantially renovated the Property’s facilities.  Because the parties 
+expected the renovations to cause a significant increase in the Property’s value, the Lease provided 
+that the “Real Estate Tax Base” would be established in the first full tax year for which taxes were 
+based on a “Full Assessment” of the Property coincident with full occupancy.  Under the Lease, 
+the Property was deemed “Fully Assessed” when the local taxing authority—in this case, the 
+County of Fairfax (“Fairfax County” or “the County”)—assessed the Property’s tax liability taking 
+into account the value of all improvements contemplated by the Lease.  The Real Estate Tax Base 
+would be used during the life of the Lease to calculate any adjustment for changes in property 
+taxes.  That is, after the establishment of the Real Estate Tax Base, if Fairfax County issued a real 
+estate tax bill above that base tax amount, the Lease required GSA to reimburse Plaintiff for its 
+
+2 
+ 
+ 
+share of any excess tax payment.  Conversely, if the County issued a real estate tax bill below that 
+base tax amount, GSA would receive its share of the decrease. 
+Renovations to the Property were complete by, at the latest, October 2012.  In August 2013, 
+after receiving Fairfax County’s 2012 property tax assessment and bill, Vincent Forte, Plaintiff’s 
+president, requested a tax adjustment from GSA premised on the Real Estate Tax Base being 
+established as the 2012 tax year.  GSA subsequently executed a supplemental lease agreement 
+establishing the tax base year as 2012, and it issued adjustment payments to Plaintiff for the next 
+six years using that tax base amount.  This was true even after the County’s assessed value of the 
+Property increased substantially in 2015, leading to a tax bill that exceeded the 2012 tax base by 
+$867,000 and resulting in a significantly increased adjustment payment from GSA to Plaintiff.  
+Assessments in the following tax years were similarly high.   
+In 2019, the new GSA lease contracting officer responsible for managing the lease, Kevin 
+Morrison, concluded that the County’s 2012 tax assessment did not reflect the value of all 
+renovations contemplated by the Lease, and he notified Plaintiff that the tax base should have been 
+set at the tax liability amount reflected in the 2015 tax bill.  GSA then reestablished the tax base 
+year as 2015 and withheld rent payments to recoup what it believed it had overpaid.  The unilateral 
+correction of the Real Estate Tax Base and the subsequent rent withholding forms the basis of 
+Plaintiff’s allegation that GSA breached the Lease.  The Court resolved part of Plaintiff’s claim on 
+summary judgment, holding that GSA unilaterally established the initial Real Estate Tax Base in 
+the course implementing the Lease, that the parties did not bilaterally agree to use 2012 as the tax 
+base year in lieu of following the Lease’s procedures for establishing the tax base, and that GSA 
+was authorized to correct the premature establishment of the tax base.  The question that remained 
+for trial was whether GSA correctly reestablished the tax base year as 2015, which raises the 
+
+3 
+ 
+ 
+factual question of when Fairfax County first issued a tax bill for the Property that reflected the 
+value of all renovations contemplated by the Lease.  Plaintiff presented evidence to support its 
+claim that full assessment occurred in tax year 2013 or 2014.  The Government presented evidence 
+supporting Mr. Morrison’s conclusion that full assessment occurred in tax year 2015.  
+The Court held a five-day trial from December 9, 2024, through December 13, 2024, 
+hearing testimony from six fact witnesses and three experts (one for Plaintiff and two for the 
+Government).  The parties completed post-trial briefing on April 1, 2025, and gave closing 
+arguments on April 11, 2025.  Upon consideration of the evidence and arguments presented, and 
+for the reasons explained below, the Court finds that Fairfax County did not take into account the 
+value of all renovations contemplated by the Lease in its assessment of the Property until the 2015 
+tax year, meaning the Property was not “Fully Assessed” under the Lease until 2015.  Accordingly, 
+GSA acted properly in reestablishing the base tax year based on the County’s 2015 assessment and 
+did not violate the Lease by withholding rental payments to recoup the amount of the tax 
+adjustments it paid in excess of what the Lease required.  The Court declines to order damages 
+under Plaintiff’s alternative theory that the County’s 2015 assessment used an incorrect valuation 
+method. 
+BACKGROUND 
+I. 
+Findings of Fact1 
+The following findings of fact trace the history of the parties’ dealings from the inception 
+of the Lease to the initiation of this lawsuit.  
+ 
+1 Other findings of fact pursuant to Rule 52(a) of the Rules of the United States Court of 
+Federal Claims and rulings on mixed questions of fact and law are set forth later in the analysis. 
+ 
+
+4 
+ 
+ 
+A. 
+Negotiation, Award, and Terms of the Lease 
+In 2009, GSA began to search for a property to serve as an integrated location for various 
+health system components of the Department of Defense’s Joint Medical Command (the Property 
+later became known as the Defense Health Headquarters of the Defense Health Agency).  GSA 
+Lease File at 838, 1033, 1420, JX 230; see also G. Forte, Tr. at 253:11–15.2  Plaintiff, through 
+then-Vice President Vincent Forte, responded to GSA’s solicitation with a lease proposal on 
+February 9, 2010.  JX 230 at 842–44; see also G. Forte, Tr. at 253:10–21.  Plaintiff’s property 
+occupies roughly 44 acres just inside the Washington Capital Beltway in Falls Church, Fairfax 
+County, Virginia, and includes an “integrated campus” of three contiguous buildings.  JX 230 at 
+685; see id. at 842.  In its response to GSA’s Solicitation for Offers, Plaintiff proposed “extensive” 
+building renovations to the three buildings on the Property in order to meet the Government’s 
+specifications.  Id. at 685; see id. at 685–92; see also V. Forte, Tr. at 150:1–14.  The renovations 
+would be so substantial as to result in completely “gut[ting]” the interiors of the buildings on the 
+Property.  V. Forte, Tr. at 52:10–25.  After discussions with GSA representatives, see JX 230 at 
+1127–29, Plaintiff revised its proposal, issuing a best and final lease offer on May 5, 2010.  V. 
+Forte, Tr. at 133:19–134:5; G. Forte, Tr. at 253:22–254:5; see also JX 230 at 1347–48 (final 
+lessor’s annual cost statement); id. at 1132 (outlining final proposal revisions that GSA received 
+from the two lease finalists).   
+ 
+2 For ease of reference, joint exhibits are denoted as “JX,” Plaintiff’s exhibits are denoted 
+as “PX,” and the Government’s exhibits are denoted as “DX.”  Citations to exhibit page numbers 
+generally refer to the bates-labeled page numbers in each exhibit, where available, with leading 
+zeroes removed.  Any citations to exhibits without bates numbers refer to the exhibit’s sequential 
+page number.  Citations to the trial transcript refer to witness and page as “[Witness Name], Tr. at 
+__.”   
+
+5 
+ 
+ 
+In its proposal outlining cost items, Plaintiff included an estimate for real estate taxes.  In 
+the final proposal, under the section entitled “Estimated annual cost of ownership exclusive of 
+capital charges,” Plaintiff estimated yearly real estate taxes of $2,348,017, JX 230 at 1348, which 
+equated to $3.50 of real estate tax per square foot, see Gmyr, Tr. at 1232:12–1233:2.3  That number 
+did not change from Plaintiff’s initial proposal, which estimated “[c]urrent year taxes” of 
+$2,348,017.  JX 230 at 843.  As Vincent Forte acknowledged at trial, real estate taxes for the 
+Property were lower than that amount in 2010 when Plaintiff was preparing its proposal, meaning 
+the amount did not reflect actual current year taxes.  V. Forte, Tr. at 51:12–24.4  Since the amount 
+matches the estimate in the final proposal, it instead likely reflected an estimate of real estate taxes 
+for the fully renovated buildings being offered.  Notably, the initial proposal also indicated “yes” 
+in response to the question of whether the inputted tax amounted was “[b]ased on fully assessed 
+value.”  JX 230 at 843.   
+That representation mattered to GSA.  In explaining part of its basis for deeming a 
+competitor’s final offer partially non-compliant, and thus weaker than Plaintiff’s, GSA noted that 
+the competitor had provided a tax estimate that was based on a partially assessed property value, 
+not on the first year of full assessment.  See id. at 1132; see also id. at 533 (competitor’s lease 
+proposal indicating “no” in response to fully-assessed-value question).  
+ 
+3 An independent appraisal conducted in connection with Plaintiff’s pre-proposal financing 
+application also estimated close to $3.50 per square foot in real estate taxes assuming a fully 
+renovated property.  See Gmyr, Tr. at 1262:15–1264:4; C & L Group, LLC Appraisal at 48250, 
+JX 130. 
+ 
+4 Fairfax County records reflect that the total real estate taxes for the Property in 2010 were 
+$273,478.71 (parcel A) + $348,458.50 (parcel B) + $84,927.24 (parcel C) for a total of 
+$706,864.45.  See 2010 Real Estate Tax Bill at 1007–09, JX 106. 
+
+6 
+ 
+ 
+Based on Plaintiff’s final proposal, GSA awarded the Lease to Plaintiff, which the parties 
+fully executed on July 12, 2010.  See id. at 1134, 1258.  The Lease has a 15-year term, with full 
+occupancy to start no later than September 1, 2012, and an option for GSA to purchase the Property 
+at the end of the lease term.  See id. at 1121; see also id. at 1258–59 (Sections 2, 6(H)).  It calls for 
+total rentable office space of 668,285 square feet, renovated and improved as further provided in 
+the Lease, for an annual rent of $24,953,761.90.  See id. at 1258 (Sections 1, 3, 6(A)).  A “Tenant 
+Improvement Allowance” of $27,099,562.08, funded by GSA, for Plaintiff to use toward 
+renovations was also provided.  See id. (Section 6(B)).  The Lease required substantial completion 
+of building renovations in four phases, with the last phase ending by June 1, 2012.  See id. at 1260.  
+The Lease also contains detailed provisions governing the parties’ responsibilities 
+concerning real estate taxes, including how the parties would address increases or decreases to real 
+estate taxes assessed on the Property in the years following execution of the Lease.  See id. at 
+1282–83 (Section 4.2).  As relevant to this lawsuit, the Lease defines “Real Estate Taxes” to be 
+those taxes that are levied upon the owners of real property by a Taxing Authority 
+(as hereinafter defined) of a State or local Government on an ad valorem basis to 
+raise general revenue for funding the provision of government services.  The term 
+excludes, without limitation, special assessments for specific purposes, assessments 
+for business improvement districts, and/or community development assessments. 
+ 
+Id. at 1282 (Section 4.2.B.2).  “Taxing Authority” means a “State, Commonwealth, Territory, 
+County, City, Parish, or political subdivision thereof, authorized by law to levy, assess, and collect 
+Real Estate Taxes.”  Id. (Section 4.2.B.3).  The Lease defines “Unadjusted Real Estate Taxes” as 
+“the full amount of Real Estate Taxes that would be assessed for the Property” in a tax year without 
+factoring in any tax abatements.  Id. (Section 4.2.B.6). 
+The Lease provides a tax adjustment mechanism for the parties to minimize the impact of 
+increases or decreases above or below what would become, in effect, a default yearly tax amount.  
+
+7 
+ 
+ 
+Under that mechanism, GSA will “pay its share of any increases” and “receive its share of any 
+decreases in the Real Estate Taxes for the Property” over the term of the Lease.  Id. (Section 
+4.C.1).5  The key input for calculating the adjustment is the “Real Estate Tax Base,” which the 
+Lease defines to be  
+the Unadjusted Real Estate Taxes for the first twelve (12) month period following 
+the commencement of the Lease term.  If the Real Estate Taxes for that Year are 
+not based upon a Full Assessment of the Property, then the Real Estate Tax Base 
+shall be the Unadjusted Real Estate Taxes for the Property for the first full Tax Year 
+for which the Real Estate Taxes are based upon a Full Assessment coincident with 
+a full occupancy.  Such first full Tax Year may be hereinafter referred to as the 
+“Tax Base Year.” 
+ 
+Id. (Section 4.2.B.7).  Importantly, the Lease defines what it means for taxes to be based upon a 
+“Full Assessment”: 
+The Property is deemed to be “Fully Assessed” (and Real Estate Taxes are deemed 
+to be based on a “Full Assessment”) only when a Taxing Authority has, for the 
+purpose of determining the Lessor’s liability for Real Estate Taxes, determined a 
+value for the Property taking into account the value of all improvements 
+contemplated for the Property pursuant to the Lease, and issued to the Lessor a tax 
+bill or other notice of levy wherein the Real Estate Taxes for the full Tax Year are 
+based upon such Full Assessment.  At no time prior to the issuance of such a bill or 
+notice shall the Property be deemed Fully Assessed. 
+ 
+Id. (Section 4.2.B.8).  Because the Lease contemplated significant improvements to the Property, 
+this clause—specifically, the portion establishing that the Property is fully assessed upon issuance 
+of a tax bill from Fairfax County that is based on an assessment taking into account the “value of 
+all improvements”—is central to the parties’ current dispute. 
+ 
+5 The Lease provides that GSA would pay “its share” calculated as a percentage of its 
+occupancy of the Property.  JX 230 at 1282 (Section 4.2.C.1).  Because the Lease contemplated 
+that the Government would fully occupy the Property upon completion of the renovations, see id. 
+at 1259 (Section 6(E)), GSA was fully responsible under the Lease for reimbursing Plaintiff for 
+tax increases. 
+
+8 
+ 
+ 
+B. 
+Renovations to the Property 
+After the parties executed the Lease in July 2010, Plaintiff began minor construction at the 
+site in November 2010.  See Construction Status Report at 75690, JX 132.  Full construction 
+activities began in January 2011 following the departure of the previous tenant from the site.  See 
+id.  By December 5, 2011, construction teams completed renovation work on the building exteriors 
+on the Property—otherwise known as the “warm-lit shell” of each building.  V. Forte, Tr. at 66:24–
+67:7; see Northwest & Main Buildings Certificate of Substantial Completion at 33385, JX 163 
+(architect’s certification of substantial completion); Southwest Building Certificate of Substantial 
+Completion at 274148, JX 164 (same). 
+In the meantime, tenant improvements—generally, improvements to building interiors—
+began on or after June 2, 2011.  See June 2, 2011, Notice to Proceed at 111533, JX 133.  To cover 
+additional costs for renovations, GSA approved Plaintiff’s request for new funding above the 
+Tenant Improvement Allowance and, per the Lease, established a payment schedule using 
+“Reimbursable Work Authorizations” (“RWAs”).  Morrison, Tr. at 1068:23–1069:5; June 15, 
+2011, Notice to Proceed at 43177, JX 138; JX 230 at 1419.  GSA approved the first progress 
+payment toward renovations of tenant interiors (specifically, “preconstruction activities”) in 
+September 2011.  See Sept. 2, 2011, RWA at 2908170, JX 148.  Payments continued throughout 
+the end of 2011 and most of 2012, concluding with the final renovation payment in early October 
+2012.  See Oct. 2, 2012, RWA at 2908239–40, JX 168; see id. at 2908241 (“As of the date of this 
+inspection indicated above, the construction work is 100% complete with satisfaction.”).  As 
+indicated in the RWAs, GSA inspected the Property regularly during renovations.  See, e.g., id. at 
+2908241; Mar. 1, 2012, RWA at 2908200, JX 153 (noting, based on an inspection conducted on 
+February 8, 2012, that tenant interiors were roughly 93% complete, security requirements were 
+
+9 
+ 
+ 
+about 72% complete, construction to ancillary buildings was roughly 80% complete, and various 
+other activities were in progress).  As indicated in GSA’s final payment authorization, renovations 
+to the Property were fully complete by, at the absolute latest, October 1, 2012.  See JX 168 at 
+2908241.  The final certificate of substantial completion for the tenant improvements issued on 
+October 5, 2012.  See Pavilion Certificate of Substantial Completion at 31213, JX 167 (noting an 
+effective date of September 18, 2012).  In total, GSA reimbursed Plaintiff about $95 million for 
+the costs of tenant improvements in addition to the Tenant Improvement Allowance of 
+approximately $27 million.  See Gmyr Expert Report at 99, 116, JX 229 (sum of total payments 
+under TIA and RWAs); G. Forte, Tr. at 251:20–24.    
+Over the course of the Property’s renovation, Plaintiff and its contractors applied to the 
+County for an extensive set of work permits allowing them to conduct demolition and construction 
+work at the Property.  See generally List of Permits, JX 12; Permit Details, JX 13.  The permits 
+cover a variety of construction activities.  For example, early permit applications, submitted in 
+July 2010, sought permission to conduct interior demolition work in the various buildings of the 
+Property.  See JX 13 at 1.  Other permits concerned plumbing work.  See, e.g., id. at 2.  And still 
+other permits allowed framing to proceed on building interiors.  See Pellegrino, Tr. at 416:13–23; 
+JX 12 at 1.  Generally, Fairfax County tax assessors conducted periodic inspections of properties 
+under construction and reviewed the status of work permits, marking permits as “complete” in 
+County databases when the work associated with each permit had been completed.  See Pellegrino, 
+Tr. at 402:9–22 (noting that field inspections generally occur on an as-needed basis but that such 
+inspections usually happen at least once in every four- to five-year period for every property in an 
+assessor’s portfolio), 417:12–23 (explaining the County’s process for checking and completing 
+work permits).  The County marked a significant portion of work permits at the Property complete 
+
+10 
+ 
+ 
+by mid-2012.  See JX 12 at 1 (showing framing (“FRM”) permits being marked complete on March 
+12, 2012).   
+One permit, however, did not get marked “complete” in the County’s systems until 
+significantly later than the rest.  See JX 13 at 39; Brincefield, Tr. at 730:16–731:6, 776:1–777:2.  
+That permit, which was issued on November 8, 2011, concerned a guard booth and canopy that 
+Plaintiff constructed on the Property.  JX 13 at 39.  The permit remained open and incomplete in 
+Fairfax County’s system until a County supervisory assessor asked an assessor to conduct an 
+inspection of the Property in December 2014.  See Brincefield, Tr. at 734:14–735:14.  At that 
+point, the Fairfax County assessor—David Pellegrino—went to the Property for an inspection on 
+December 19, 2014, and marked the permit 100% complete in the County’s database.  JX 13 at 
+39; see also Pellegrino, Tr. at 465:1–14.  The remark for the permit indicates: “INSPECTION 
+DATE BASED ON D. PELLEGRINO’S INSPECTION FOR 100% COMPLETION OF 
+CONST.”  JX 13 at 39. 
+C. 
+Fairfax County Tax Assessment Policies and Methods 
+The Fairfax County Department of Tax Administration issues yearly property-assessment 
+notices to property owners located within the County.  See, e.g., 2012 Assessment Notice, JX 30; 
+2013 Assessment Notice, JX 31; 2014 Assessment Notice, JX 32; 2015 Assessment Notice, JX 
+33; see also Pellegrino, Tr. at 453:20–454:3.  The assessed property value that appears on each 
+assessment forms the basis for calculating the real estate taxes that Fairfax County bills to and 
+collects from each property owner.  See, e.g., 2012 Real Estate Tax Bill, JX 108; 2013 Real Estate 
+Tax Bill, JX 109; 2014 Real Estate Tax Bill, JX 110; 2015 Real Estate Tax Bill, JX 111.   
+Fairfax County assessors have some discretion in how they perform tax assessments.  See 
+Pellegrino, Tr. at 454:17–19.  The County’s assessment process typically begins in late August of 
+
+11 
+ 
+ 
+a calendar year and continues through early December.  Id. at 453:20–23.  Tax assessments 
+conducted during those months are for the following calendar year—e.g., assessment activities, 
+like site visits, that occurred in December 2014 would be factored into the 2015 tax year 
+assessment.  Id. at 454:1–6.  As a general matter, calendar-year assessments aim to capture a 
+property’s value “as of” January 1 of the tax year.  Id. at 455:3–5; see also 2012 Valuation History 
+Report at 1443, JX 50 (“12RV: . . . BLDG EXTERIOR LOOKS COMPLETE; PARTS OF 
+BUILDING STILL IN PROGRESS . . . 12RV: RENOVATIONS CONTINUE AS OF 1/1/12 
+. . . .”).6  Under certain circumstances, an assessor might gather information after the January 1 
+assessment date and factor that information into the current-year assessment if the assessment is 
+still being finalized, which usually occurs in the beginning of the calendar year.  See Pellegrino, 
+Tr. at 410:18–24, 455:13–17.  But even then, assessors still aim to capture a property’s value as of 
+January 1, meaning that any such information captured post-assessment date should be used to 
+infer the status of a property as of January 1.  Id. at 411:9–14 (“[I]f you have something of this 
+magnitude with the subject property, and you go out there in early January and it’s complete, you 
+can be pretty safe in assuming that it was completed before December 31st.  It’s not like they just 
+finished it in the last two days.”), 412:13–17 (“[T]o be clear, . . . if the building was 90 percent 
+complete, we would—we would want to give a market value that reflects that the building was 90 
+percent complete as of the first of the year.”). 
+Mr. Pellegrino, currently an assistant director in charge of the Commercial Branch of the 
+Real Estate Division of Fairfax County’s Department of Tax Administration, see id. at 343:12–16, 
+ 
+6 In the remarks section of Fairfax County’s valuation history reports, a number followed 
+by “RV” signals that a written remark was made during or associated with the review year 
+indicated by the number, e.g., “12RV” means the subsequent remark was made in relation to the 
+2012 review year.  See Brincefield, Tr. at 774:24–775:5; Pellegrino, Tr. at 461:5–10. 
+
+12 
+ 
+ 
+and responsible for assessing the Property from 2009 to 2012, see id. at 344:19–345:5, testified 
+about his typical process for conducting appraisals, see id. at 456:15–461:22.  Mr. Pellegrino 
+testified that his yearly appraisal process typically began by reviewing a list of properties assigned 
+to him.  Id. at 456:15–19.  He would then review which properties had been evaluated the year 
+before, looking to see whether any significant changes had occurred, like physical changes to the 
+property and changes in rents or in vacancies, that might justify changing certain inputs for his 
+calculation of a property’s assessed value.  See id. at 456:20–457:16.  He relied on several different 
+sources of information in assessing properties.  Id. at 457:17–20.  One such source is called CoStar, 
+which is a “private commercial real estate information system” that aggregates property 
+information about commercial real estate.  Id. at 352:17–353:2; see also Brincefield, Tr. at 696:6–
+697:24.  Another source is surveys that property owners fill out and return to the County.  
+Pellegrino, Tr. at 457:17–20, 469:24–470:2.  These surveys typically include a property owner’s 
+representations about a property’s vacancy, income, and expenses.  See, e.g., 2015 Income & 
+Expense Survey at 1228–31, JX 40; see also Aikin, Tr. at 518:5–14.   
+Mr. Pellegrino and two other witnesses at trial, Jonathan Aikin, an assessor with Fairfax 
+County, see Aikin, Tr. at 510:23–511:8, and Catherine Brincefield, a now-retired supervisor 
+(among other positions) in the Commercial Branch of the County’s Real Estate Division, see 
+Brincefield, Tr. at 687:22–689:13, testified about the County’s real estate valuation methods in 
+addition to their involvement with the Property’s assessment.  Fairfax County assessors use several 
+different methodologies for estimating the fair market value of commercial properties based on the 
+information they gather.  See Pellegrino, Tr. at 468:19–469:1; Aikin, Tr. at 615:16–23; Brincefield, 
+Tr. at 689:16–690:22.  Professional standards, Virginia law, and Fairfax County policy require 
+County assessors to consider three approaches to valuing commercial property: (1) the cost 
+
+13 
+ 
+ 
+approach, roughly characterized as an estimate of the replacement cost of constructing a building 
+on a piece of land; (2) the income approach, which estimates real-estate value based on the income 
+a building generates; and (3) the sales comparison or market comparison approach, which 
+estimates value based on sales of similar properties.  Brincefield, Tr. at 689:18–690:4; see also 
+2012 Fairfax County Uniformity Guidelines at 737–41, JX 124.  As described more fully below, 
+the assessors used both the income and the cost approach to assess the various elements and parcels 
+of the Property. 
+For buildings that produce income and for which assessors have a quality source of data 
+on the amount of that income—e.g., from survey responses and listing services—the most reliable 
+method for assessing a building’s fair-market value is the income approach.  Pellegrino, Tr. at 
+469:2–7; Brincefield, Tr. at 690:5–691:3; JX 124 at 737 (“The income approach is the preferred 
+methodology for an existing stabilized office building.  The cost approach is typically used for 
+partially complete structures.  Sales of office buildings are used as benchmarks to test the valuation 
+results derived by the other two approaches.”), 739 (“If an office building is under construction as 
+of January 1st of the year, the building will most likely be valued using the cost approach. . . . If 
+the shell has been completed, the income approach should be used.”).  
+The income approach to valuation relies on certain variables to help an assessor determine 
+a market valuation.  Those variables are: (1) a property’s estimated economic rent per square foot, 
+(2) a property’s total square footage, (3) the market vacancy percentage, (4) a property’s expenses 
+per square foot, (5) a property’s capitalization rate, and (6) the tax rate that applies.  See Pellegrino, 
+Tr. at 355:13–356:1.  Economic rent, square footage, and market vacancy lead to an estimate for 
+a property’s effective gross income.  See id. at 355:18–21.  Assessors then subtract expenses to 
+estimate net operating income.  See id. at 355:21–22.  They then divide net operating income by a 
+
+14 
+ 
+ 
+sum of the capitalization rate and the applicable tax rate to estimate the property’s fair market 
+value.  See id. at 355:23–25.  The formula is as follows:  
+(𝑒𝑐𝑜𝑛𝑜𝑚𝑖𝑐 𝑟𝑒𝑛𝑡 𝑝𝑠𝑓× 𝑠𝑞𝑢𝑎𝑟𝑒 𝑓𝑜𝑜𝑡𝑎𝑔𝑒) −𝑚𝑎𝑟𝑘𝑒𝑡 𝑣𝑎𝑐𝑎𝑛𝑐𝑦−𝑜𝑝𝑒𝑟𝑎𝑡𝑖𝑛𝑔 𝑒𝑥𝑝𝑒𝑛𝑠𝑒𝑠
+(𝑐𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑧𝑎𝑡𝑖𝑜𝑛 𝑟𝑎𝑡𝑒+ 𝑡𝑎𝑥 𝑟𝑎𝑡𝑒)
+ 
+Id. at 355:18–356:1; see also Brincefield, Tr. at 698:24–699:6 (noting that the equation should also 
+include any miscellaneous income in the numerator); JX 124 at 740.   
+The significant increase in the Property’s assessed value in 2015 resulted from the County’s 
+use of two key variables in its income-approach valuation: (1) the economic rent and (2) the 
+capitalization rate that the County assigned to the Property.  In Fairfax County, assessors estimate 
+a building’s economic rent by relying on several different sources.  To an assessor, economic rent 
+fulfills a function similar to what might be reflected in a “market rent”—i.e., an estimate as to the 
+rent that similar properties in the subject property’s market might be able to achieve.  Pellegrino, 
+Tr. at 346:4–16.  In essence, assessors consider “what the typical participant in the market would 
+pay” to rent a given commercial building as part of their process for estimating economic rent.  Id. 
+at 346:9–16; see Aikin, Tr. at 627:11–14; Brincefield, Tr. at 699:10–700:23.  Importantly, though, 
+Fairfax County assessors must consider a property’s actual rent in formulating their estimate for a 
+property’s economic rent.  See Brincefield, Tr. at 699:23–700:10; see also JX 124 at 740 (“[T]he 
+bulk of . . . office income, expense, and vacancy data is derived from returned Income and Expense 
+Surveys . . . . The information returned on the office building surveys is analyzed by the appraiser 
+in order to assist in the determination of economic rents, operating expenses, and how or if 
+expenses change . . . .”).  Assessors have a degree of discretion in balancing different data sources 
+to come up with an estimate for economic rent; for example, some assessors might put more weight 
+than others on actual rent.  See Brincefield, Tr. at 700:11–23.  But assessors should always consider 
+
+15 
+ 
+ 
+a property’s actual rent in their assessment, in part because long-term commercial leases—
+depending on when they were signed—might either lag behind or serve as a bellwether for market 
+trends.  Id. at 699:23–700:10.   
+The capitalization rate that the County assigns to properties represents the rate of return 
+that might be expected from an investment in a given piece of real estate.  See V. Forte, Tr. at 
+98:4–5; Lennhoff, Tr. at 1381:2–15.  The lower a capitalization rate, the less risky it is to invest in 
+a property, meaning that the property’s present value is likely to be higher.  See V. Forte, Tr. at 
+98:5–8.  Fairfax County, somewhat unusually, ties its estimate of a property’s capitalization rate 
+directly to that property’s “effective age.”  Lennhoff, Tr. at 1438:16–1439:11; see also JX 124 at 
+745 (showing “2012 Office Capitalization Rate Array” establishing capitalization rates based 
+solely on an assessor’s estimate of a building’s effective age); Pellegrino, Tr. at 471:11–23 
+(discussing the County’s 2015 capitalization-rate table).  
+An assessor’s estimate of a building’s effective age aims to capture the general condition 
+of the building, expressed as an estimated “age” in years.  Brincefield, Tr. at 772:12–17; see JX 
+124 at 743.  In Fairfax County, “[e]ffective age is the age of a property that is based on the amount 
+of observed deterioration and obsolescence it has sustained, which may be different than its 
+chronological age.”  JX 124 at 743.  “A property’s effective age is affected by building system 
+upgrades, large tenant improvements, and/or renovations of common areas.”  Id.  Usually, when a 
+building is initially constructed, assessors set the building’s effective age exactly at the building’s 
+chronological age.  See Brincefield, Tr. at 770:12–17.  Then, with each year that passes, the 
+building’s effective age—just like its chronological age—typically increases by one.  See id. at 
+767:17–768:24; see also Lennhoff, Tr. at 1392:25–1393:5.  Only when a building undergoes 
+system upgrades, improvements, or renovations might an assessor consider setting the building’s 
+
+16 
+ 
+ 
+effective age at a different level—usually lower, to reflect those improvements—than its 
+chronological age.  See Brincefield, Tr. at 770:12–771:1; JX 124 at 743.   
+Per County policy, “the determination of effective age is based on the appraiser’s 
+judgment.”  JX 124 at 743.  But “[a]ppraisers should always document the reason for making a 
+property’s effective age different than its chronological age.”  Id.  Such reasons typically include 
+“physical inspection, property owner/management interviews, or the completion of new 
+construction and/or renovations.”  Id.  Guidelines recommend (1) decreases of five to 10 years for 
+standard tenant quality improvements; (2) decreases of five to 10 years for common-area 
+renovations or improvements to exterior facades; and (3) decreases of zero to 50 years for 
+significant renovations like heating and ventilation system improvements, upgraded air 
+conditioning, upgraded fire suppression systems, roofing improvements, exterior wall 
+replacements, window repair and replacements, security system upgrades, lighting fixture 
+upgrades, and wiring upgrades.  Id.  Property improvements lead to a lower effective age because 
+those improvements have the effect of making the property more like new—i.e., decreasing the 
+“amount of observed deterioration and obsolescence” that the building has sustained.  Id.  
+Once a Fairfax County assessor sets a building’s effective age, he then uses the County’s 
+capitalization rate array to determine the capitalization rate to use in the income-approach 
+calculation of a property’s fair-market value.  See id. at 745.  As a building’s age increases, its 
+capitalization rate also increases, and its value (all other variables held equal) goes down.  See id.; 
+see also V. Forte, Tr. at 98:4–8.  If an assessor decreases a building’s effective age—in essence 
+making the building functionally “newer” for purposes of the tax assessment—then the associated 
+capitalization rate also decreases.  See JX 124 at 745; Lennhoff, Tr. at 1393:20–1394:8; Lipman, 
+Tr. at 971:17–25.  That change, which occurs in the denominator of the income-approach formula, 
+
+17 
+ 
+ 
+causes the building’s fair-market value under the income approach calculation (again, all other 
+variables held equal) to increase.  See Lennhoff, Tr. at 1394:5–16; V. Forte, Tr. at 98:4–8. 
+D. 
+Fairfax County Assessment of the Property 
+For the purposes of this lawsuit, the Property’s relevant assessment history begins in 2007.  
+The Property is composed of three land parcels and four “elements,” three of which, per Fairfax 
+County’s designations, are elevator offices and one of which is excess land.  See, e.g., 2007 
+Valuation History Report at 1314–15, JX 45.  Elements one and three, both of which are elevator 
+offices, sit on land parcel A.  See id. at 1314 (noting in 2007 that element one was called the “E 
+SYSTEMS EAST WING” and element three was called the “E SYSTEMS WEST WING”).  
+Element two is undeveloped or excess land; it comprises the entirety of land parcel C.  See id.  
+Element five is another elevator office building that sits on land parcel B.  See id. at 1315 (noting 
+in 2007 that element five was called the “E SYSTEMS NW WING”).7  The County values each 
+element separately.  Elements one, three, and five (the elevator office buildings) are valued using 
+the income approach.  See id. at 1314–15.  The County uses the income approach for those 
+elements because they are fully constructed commercial office buildings that generate income 
+ 
+7 For ease of reference, the Court adopts element numbers that reflect the County’s internal 
+designations.  For instance, “element one” refers to element number “E01242001,” “element two” 
+refers to element number “E01242002,” “element three” refers to element number “E01242003,” 
+and “element five” refers to element number “E01242005.”  JX 45 at 1314–15.  Although the 
+County’s nomenclature might suggest there are five elements associated with the Property, there 
+are in fact only four.  See id. at 1314.  The Valuation History Reports refer to the buildings on the 
+property parcels as the east, west, and northwest wings, respectively.  See, e.g., id. at 1314–15.  
+Trial testimony and other exhibits sometimes refer to the “Main,” “Southwest,” and “Northwest” 
+buildings on the Property.  See, e.g., V. Forte, Tr. at 166:15–167:3; JX 133 at 111534.  The Main 
+Building is element one (the east wing), the oldest and largest building.  See JX 45 at 1314, 1316.  
+The Southwest Building is element three (the west wing), the smaller and slightly younger annex 
+to the building on element one.  See id. at 1314, 1324.  Element five is the Northwest Building, 
+also referred to as the northwest wing.  See id. at 1315.   
+
+18 
+ 
+ 
+through rent.  See JX 124 at 737 (explaining that the income approach is the “preferred 
+methodology for an existing stabilized office building”), 739 (noting that if a building under 
+construction has passed the stage where its “shell” is complete, “the income approach should be 
+used”); Brincefield, Tr. at 690:5–7.  Element two—which is just land—is assessed using the cost 
+approach.  See JX 45 at 1314.  The County’s valuation of element two includes a combination of 
+estimated land value and a replacement cost estimate for minor improvements to the land, like 
+asphalt paving and light poles.  See id. at 1321.   
+For each element, the County sums the value of the land the element sits on and the value 
+of the improvements to the land.  See id. at 1314–15.  The County calculates the value for the 
+entire “appraisal unit”—i.e., the Property—by summing the value of all four elements, which is 
+the same as the summed value of the three land parcels.  See id. at 1314 (capitalization removed).  
+The County sends tax bills broken out by land parcel with each parcel’s tax liability based on the 
+assessed value of the parcel.  Compare, e.g., 2009 Valuation History Report at 1358, JX 47 (noting 
+parcel A value of $28,597,520, parcel B value of $45,131,810, and parcel C value of $11,264,640), 
+with 2009 Real Estate Tax Bill at 1261–63, JX 105 (noting parcel A “JANUARY 1 VALUE” of 
+$28,597,520, parcel B “JANUARY 1 VALUE” of $45,131,810, and parcel C “JANUARY 1 
+VALUE” of $11,264,640). 
+1. 
+2007 Assessment 
+In 2007, the County assessed the Property at a total value of $91,973,390.8  JX 45 at 1314.  
+Parcel A was worth $31,780,700 with elements one and three, the east and west wings that are the 
+ 
+8 The earliest year for which the parties provided documentation of the Property’s 
+assessment history is 2007. 
+ 
+
+19 
+ 
+ 
+constituent elements of parcel A, valued at $18,857,420 and $12,923,280 respectively.  Id.  
+Element five, the northwest wing that is the constituent element of parcel B, was assessed at 
+$51,244,150.  Id.  Element two, the excess land that is the constituent element of parcel C, was 
+valued at $8,948,540.  Id.  The County’s records indicate that the east wing was built in 1954 and, 
+at the time the property was assessed in late 2006, had an effective age of 52 years; thus, the 
+element’s chronological age was the same as its effective age.  Id. at 1316.  The west wing was 
+built in 1960.  In late 2006, the County assigned it an effective age of 41 years, five years less than 
+its actual chronological age.  Id. at 1324.  The northwest wing, per the County, was built in 1984.  
+Id. at 1328.  The County assigned it an effective age of 22 years, which, in late 2006, was the same 
+as the building’s chronological age.  See id.  The excess land on the Property (element two) did 
+not receive an effective age because the parcel contains no buildings.  See id. at 1321. 
+In the portion of its records describing available tenant data, the County estimated the 
+economic rent for the vast majority of element one, the east wing, at $15 per square foot.  Id. at 
+1320.  The County recorded actual rent of $2.80 per square foot, presumably from income surveys 
+that Plaintiff completed and returned, but that data most likely reflects rent from a lease that 
+expired in 1990.9  See id.  The County estimated the economic rent for element three, the west 
+wing, at $16 per square foot.  Id. at 1327.  And the County estimated economic rent for element 
+five, the northwest wing, at $24 per square foot.  Id. at 1331.  The County’s records include no 
+remarks for the 2007 review year.  See id. at 1333–35. 
+ 
+9 The data reflected in this Valuation History Report, and the reports for the next two review 
+years, is based on Plaintiff’s lease with Raytheon, the tenant before the Government.  Raytheon 
+occupied the Property from 1974 through 2010 and vacated the Property by January 1, 2011.  See 
+JX 132 at 75690; V. Forte, Tr. at 43:3–4, 165:12–25. 
+
+20 
+ 
+ 
+2. 
+2008 Assessment 
+In 2008, the County assessed the Property at a total value of $94,660,030, see 2008 
+Valuation History Report at 1336, JX 46, roughly 2.9% higher than the value in 2007.  Parcel A 
+was worth $32,486,580 with the east and west wings valued at $19,332,610 and $13,153,970 
+respectively.  Id.  The northwest wing—parcel B—was assessed at $50,909,480.  Id. at 1336–37.  
+The excess land—parcel C—was valued at $11,263,970.  Id. at 1336.  Each wing’s effective age 
+increased by one year, remaining equivalent or close to each building’s actual chronological age.  
+See id. at 1338 (east wing increased to 53 years), 1346 (west wing increased to 42 years), 1350 
+(northwest wing increased to 23 years).  
+The County estimated the economic rent for most of the east wing at $15.50 per square 
+foot, a small increase from the prior year.  See id. at 1342.  Based on updated actual rent data for 
+a lease beginning January 1, 2006, and ending December 31, 2010, the County’s records reflect 
+that the east wing was generating $22.42 per square foot in rent.  Id.  The County estimated 
+economic rent for the west wing to be $16.25 per square foot, a similarly small increase from the 
+prior year.  See id. at 1359.  And the County’s estimate for economic rent for the northwest wing 
+remained the same at $24 per square foot.  See id. at 1353.  Like the year before, the County’s 
+records appear to include no relevant remarks for the 2008 review year.  See id. at 1355–57. 
+3. 
+2009 Assessment 
+In 2009, Mr. Pellegrino became the primary assessor for the Property.  Pellegrino, Tr. at 
+344:21–22.  He assessed the Property at a total value of $84,993,970, see JX 47 at 1358, a 10.2% 
+drop from the year before and roughly 7.6% lower than the value in 2007.  Parcel A was worth 
+$28,597,520 with the east and west wings valued at $16,946,040 and $11,651,480 respectively.  
+Id. at 1358.  The northwest wing—parcel B—was assessed at $45,131,810.  Id. at 1358–59.  The 
+
+21 
+ 
+ 
+excess land constituting parcel C was valued at $11,264,640.  Id. at 1358.  As with the prior year, 
+each wing’s effective age increased by one year, remaining equivalent or close to each building’s 
+actual chronological age.  See id. at 1360 (east wing increased to 54 years), 1368 (west wing 
+increased to 43 years), 1372 (northwest wing increased to 24 years).     
+The County’s estimated economic rent for most of the east wing was $15.50 per square 
+foot, unchanged from the previous year.  See id. at 1364.  The County’s actual rent data changed 
+slightly to reflect actual rent of $24.44 per square foot for the east wing.  See id.  The County’s 
+estimated economic rent for the west and east wings—$16.25 and $24 per square foot 
+respectively—went unchanged from the previous year.  See id. at 1371, 1375.  Again, the County’s 
+records appear to include no relevant remarks for the 2009 review year.  See id. at 1377–79. 
+In early 2009, the County issued a tax bill based on the “JANUARY 1 VALUE” of these 
+land parcel assessments.10  See JX 105.  The County taxed parcel A in the amount of $297,414.21 
+in real estate taxes for the year, see id. at 1264; parcel B in the amount of $469,370.82, see id. at 
+1265; and parcel C in the amount of $117,152.26, see id. at 1266.  Those values sum to a total 
+2009 real estate tax bill for the Property of $883,937.29. 
+4. 
+2010 Assessment 
+In 2010, Mr. Pellegrino assessed the Property at a total value of $64,849,950, see 2010 
+Valuation History Report at 1380, JX 48, a 23.7% drop from the year before and roughly 29.5% 
+lower than the value in 2007.  Parcel A was worth $25,089,790 with the east and west wings valued 
+at $14,904,110 and $10,185,680 respectively.  Id. at 1380.  The northwest wing—parcel B—was 
+assessed at $31,968,670.  Id. at 1380–81.  The excess land—parcel C—was valued at $7,791,490.  
+ 
+10 The earliest year for which the parties provided copies of the Property’s tax bills is 2009. 
+
+22 
+ 
+ 
+Id. at 1380.  Continuing the trend of the prior years, each wing’s effective age increased by one 
+year, remaining tied or close to each building’s actual chronological age.  See id. at 1382 (east 
+wing increased to 55 years), 1390 (west wing increased to 44 years), 1394 (northwest wing 
+increased to 25 years).    
+The County’s estimated economic rent for most of the east wing was $15.50 per square 
+foot, unchanged from the 2009 valuation history report.  See id. at 1386; see also JX 47 at 1364.  
+The County’s actual rent data changed back to $22.42 per square foot, see JX 48 at 1386, the same 
+value included in the 2008 valuation history report, see JX 46 at 1342.  The County’s estimated 
+economic rent for the west wing was $16.25 per square foot—unchanged from the previous two 
+years.  See JX 48 at 1393.  The County’s estimated economic rent for the northwest wing decreased 
+by two dollars to $22 per square foot.  See id. at 1397.   
+The County’s records reflect some remarks by Mr. Pellegrino associated with events in 
+2010, though no remark clearly indicates that the event was considered for the 2010 review year.  
+For example, under the remarks for element five, the northwest wing, the records state: “2010 & 
+2011 – EXTENSIVE RENOVATIONS TO BUILDINGS UNDERWAY.”  Id. at 1400.  Under 
+notes related to parcel A, the notes reflect descriptions of certain work permits related to 
+renovations in 2010 and 2011: “2010 & 2011 MULTIPLE INT WORK PMTS; SEE PMTS FOR 
+EST COSTS – MOST $240-$310K; ALSO EXTERIOR WORK IN PROGRESS; MAJOR 
+BUILDING RENOVATION UNDERWAY.”  Id.  Given that major construction activities did not 
+start at the Property until the beginning of 2011, see JX 132 at 75690, Mr. Pellegrino almost 
+
+23 
+ 
+ 
+certainly did not add these remarks to the Property’s valuation history in the County’s database 
+until sometime during the 2011 calendar year at the earliest.11   
+In early 2010, the County issued a tax bill based on the value of the above land parcel 
+assessments.  See 2010 Real Estate Tax Bill, JX 106.  The County taxed parcel A in the amount of 
+$273,478.71 in real estate taxes for the year, see id. at 1007; parcel B in the amount of $348,458.50, 
+see id. at 1008; and parcel C in the amount of $84,927.24, see id. at 1009.  Those values sum to a 
+total 2010 real estate tax bill for the Property of $706,864.45. 
+5. 
+2011 Assessment 
+In 2011, Mr. Pellegrino assessed the Property at a total value of $82,961,230, see 2011 
+Valuation History Report at 1402, JX 49, a 27.9% increase from the year before but still about 
+9.8% lower than the Property’s value in 2007.  Parcel A was worth $35,470,890 with the east and 
+west wings valued at $19,946,430 and $15,524,460 respectively.  Id. at 1402.  The northwest 
+wing—parcel B—was assessed at $39,698,850.  Id. at 1402–03.  The excess land constituting 
+parcel C was valued at $7,791,490, the same as the year prior.  See id. at 1402.  As before, each 
+wing’s effective age increased by one year, remaining equal or close to each building’s actual 
+chronological age.  See id. at 1404 (east wing increased to 56 years), 1412 (west wing increased 
+to 45 years), 1416 (northwest wing increased to 26 years).   
+The County’s estimated economic rent for most of the east wing was $18 per square foot, 
+a slight increase over the prior year’s economic rent of $15.50.  See id. at 1408; JX 48 at 1386.  
+ 
+11 Remarks associated with the Property appear across the Property’s entire valuation 
+history, meaning that any given year’s valuation history report includes all remarks for the Property 
+related to all review years (both past and future).  Compare, e.g., JX 45 at 1333–35 (2007 history 
+report containing full history of remarks), with 2015 Valuation History Report at 1509–11, JX 53 
+(containing same remarks).  
+
+24 
+ 
+ 
+The County’s estimated economic rent for the west wing was $20.50, an increase of more than 
+four dollars from the year prior.  See JX 49 at 1415.  The County’s estimated economic rent for 
+the northwest wing increased by three dollars to $25 per square foot.  See id. at 1419.  Notably, 
+this report includes, for the first time, actual rent data from the lease that the Government signed 
+with Plaintiff.  See id. at 1408.  The report notes that each wing generated actual rent of $38.50 per 
+square foot.  See id. at 1408, 1415, 1419.12   
+In addition to the remarks described above that have limited references to the year 2010, 
+the County’s records include more remarks by Mr. Pellegrino explicitly associated with the 2011 
+review year.  A remark for the entire Property states: “11RV: PER WASH BIZ JRNL: DOD 
+SIGNED BIG LEASE@ 7700 ARLINGTON BLVD. TERMS UNKNWN.”  Id. at 1421.  The 
+remarks continued, describing the previous tenant’s move to another site: “11RV: SINGLE TNT 
+RAYTHEON CONSOLIDATING, MOVING TO FMR AOL CAMPUS; LEASE EXP 12/10; 
+INDUSTRY NEWS – BIG LEASE SIGNED W DEFENSE DEPT MEDICAL COMMAND HQ 
+ALONG WITH NAVY BUREAU OF MEDICINE, OFFICE OF SEC OF DEFENSE, AND 
+OFFICE OF SURGEON GEN OF AIR FORCE.”  Id.  The remarks further described the reported 
+lease terms and the various construction permits that Plaintiff had sought: “EXPECTED TO 
+MOVE IN 2011; SUPPOSEDLY BETWEEN 644,000 & 688,000SF, 15 YR; LEASE VALUED 
+AT $371.9M; . . . MULTIPLE 2010 PMTS FOR INT ALTS, ELEC, PLUMB, MECH.”  Id.  
+(outlining reported square footage; lease valuation; and permits for interior alterations and electric, 
+plumbing, and mechanical renovations).  A remark for element one, the east wing, indicates: 
+“11RV: EXTENSIVE BUILDING RENOVATIONS UNDERWAY.”  Id.  Similarly, a remark for 
+ 
+12 As noted above, this actual-rent data would likely have come from an Income and 
+Expense Survey that Plaintiff filled out and returned to the County.  Pellegrino, Tr. at 457:17–24.  
+
+25 
+ 
+ 
+the west wing notes that: “11RV: MAJOR RENOVATIONS TO BUILDING UNDERWAY 
+BOTH INT & EXT.”  Id.  Mr. Pellegrino testified at trial that he likely based this remark on 
+observations he made during a site visit to the Property prior to issuing the notice of assessment 
+for the 2011 review year.  See Pellegrino, Tr. at 391:20–392:22. 
+In early 2011, the County issued a tax bill based on the value of the above land parcel 
+assessments.  See 2011 Real Estate Tax Bill, JX 107.  The County taxed parcel A in the amount of 
+$379,538.52 in real estate taxes for the year, see id. at 1061; parcel B in the amount of $424,777.70, 
+see id. at 1062; and parcel C in the amount of $83,368.94, see id. at 1063.  Those values sum to a 
+total 2011 real estate tax bill for the Property of $887,685.16. 
+The County also issued a “Notice of Real Estate Assessment Change” for each land parcel 
+in 2011.13  See 2011 Notice of Assessment at 1860–62, JX 29 (capitalization removed).  The notice 
+showed the value of each parcel assessed in 2010 as compared to the updated assessment for 2011.  
+See generally id.  Each parcel provides a “Reason(s) for Change” in the assessment.  See id. at 
+1860–62 (capitalization removed).  Mr. Pellegrino identified the reason for the change to each 
+parcel’s assessment as “REASSESSMENT.”  Id.  According to the assessors who testified, a 
+change due to reassessment means that, upon review, a property’s value has changed based on 
+general market-wide trends for similar properties.  See Pellegrino, Tr. at 472:24–473:12; 
+Brincefield, Tr. at 758:4–7.  
+6. 
+2012 Assessment 
+In 2012, Mr. Pellegrino assessed the Property at a total value of $99,584,810, see JX 50 at 
+1424, a 20.0% increase from the year before and about 8.2% higher than the Property’s value in 
+ 
+13 The earliest year for which the parties provided copies of the Property’s notices of real 
+estate assessment change is 2011. 
+
+26 
+ 
+ 
+2007.  Parcel A was worth $53,113,520 with the east and west wings valued at $32,794,280 and 
+$20,319,240 respectively.  Id. at 1424.  The northwest wing—parcel B—was assessed at 
+$38,679,800.  Id. at 1424–25.  The excess land constituting parcel C was valued at $7,791,490, the 
+same as in the previous two years.  See id. at 1424.  As before, each wing’s effective age increased 
+by one year in step with each building’s actual chronological age.  See id. at 1426 (east wing 
+increased to 57 years), 1434 (west wing increased to 46 years), 1438 (northwest wing increased to 
+27 years). 
+The County’s estimated economic rent for most of the east wing was $23 per square foot, 
+a five-dollar increase over the economic rent in 2011.  See id. at 1430.  The County’s estimated 
+economic rent for the west wing was $23 per square foot, almost three dollars higher than in 2011.  
+See id. at 1437.  The County’s estimated economic rent for the northwest wing decreased by two 
+dollars to $23 per square foot.  See id. at 1441.  The actual rent generated by each wing remained 
+unchanged at $38.50 per square foot.  See id. at 1430, 1437, 1441. 
+The County’s records include several remarks by Mr. Pellegrino for the 2012 review year, 
+demonstrating that he stayed abreast of the construction that was occurring at the Property since 
+the 2011 assessment.  See Pellegrino, Tr. at 403:2–406:7.  The first remark describes work permits 
+and references a site visit that Mr. Pellegrino performed in January 2012 showing work at the 
+Property was still in progress: “12RV: MULTIPLE INT WORK, E, P, M PMTS; SEE PMT TAB; 
+SITE CHECK 1/12 – BLDG EXTERIOR WORK LOOKS COMPLETE; PARTS OF BLDG 
+STILL IN PROGRESS; 0112/45.”  JX 50 at 1443; see also Pellegrino, Tr. at 404:1–5 (testifying 
+that the last number at the end of the remark (“0112/45”) indicates the date and his appraiser 
+number, meaning he authored the remark).  Mr. Pellegrino added a similar comment for element 
+one: “12RV: RENOVATIONS CONTINUE AS OF 1/1/12: #45.”  JX 50 at 1443.  Element three 
+
+27 
+ 
+ 
+includes the comment: “12RV: RENOVATIONS CONTINUE.”  Id. at 1444.  Although not noted 
+in the 2012 Valuation History Report, Mr. Pellegrino also conducted a site visit to the Property in 
+March 2011 and photographed the status of construction as of that date.  See Pellegrino, Tr. at 
+400:17–402:3; see also, e.g., iasWorld Photo Report, JX 19. 
+In early 2012, the County issued a tax bill based on the above land parcel assessments.  See 
+JX 108.  The County taxed parcel A in the amount of $570,970.34 in real estate taxes for the year, 
+see id. at 1067; parcel B in the amount of $415,807.85, see id. at 1068; and parcel C in the amount 
+of $83,758.52, see id. at 1069.  Those values sum to a total 2012 real estate tax bill of 
+$1,070,536.71.   
+The notice of real estate assessment change that the County issued in 2012 reflected the 
+updated assessed value for each land parcel.  See JX 30 at 1863–65.  Mr. Pellegrino provided the 
+following reasons for each 
+parcel’s 
+assessment 
+change: “REASSESSMENT” and 
+“CONSTRUCTION PARTIALLY COMPLETED.”  Id.   
+In May 2012, after the 2012 assessment was complete, Mr. Pellegrino left County 
+employment and moved to North Carolina.  See Pellegrino, Tr. at 371:9–13, 453:5–10.  As 
+discussed further below, he returned to his position as a Fairfax County tax assessor in June 2014.  
+See id. at 453:11–12. 
+7. 
+2013 Assessment 
+Responsibility for assessing the Property in the 2013 review year changed.  After Mr. 
+Pellegrino’s departure, Jonathan Aikin became the Property’s assessor.  Aikin, Tr. at 512:1–12; 
+Pellegrino, Tr. at 425:4–13.  Catherine Brincefield became the supervisory assessor responsible 
+for reviewing the Property’s assessment.  Brincefield, Tr. at 689:12–15.  In 2013, the first review 
+year for which the County could have possibly included the value of all renovations to the Property, 
+
+28 
+ 
+ 
+the County assessed the Property at a total value of $100,666,270, see 2013 Valuation History 
+Report at 1446, JX 51, a 1.1% increase from the year before and about 9.5% higher than the 
+Property’s value in 2007.  Parcel A was worth $53,765,810 with the east and west wings valued at 
+$33,330,520 and $20,435,290 respectively.  Id. at 1446.  The northwest wing on parcel B was 
+assessed at $39,108,970.  Id. at 1446–47.  For the fourth year in a row, the excess land constituting 
+parcel C was valued at $7,791,490.  See id. at 1446.   
+Notably, despite the fact that the Property’s major renovation was complete as of October 
+1, 2012, the effective age of each wing continued to increase by one year in line with or close to 
+each building’s actual chronological age.  See id. at 1448 (east wing increased to 58 years), 1456 
+(west wing increased to 47 years), 1460 (northwest wing increased to 28 years).  Based on the 
+County’s guidance, one would expect to see a significant decrease in effective age following such 
+significant renovations.  See JX 124 at 743 (recommending 0- to 50-year decrease for “building 
+system” or “long lived item renovations,” “depending on the scope and quality of the renovations” 
+(capitalization removed)).   
+The County’s estimated economic rent and actual rent figures likewise remained 
+unchanged.  See JX 51 at 1452 (most of east wing economic rent $23 per square foot, actual rent 
+$38.50), 1459 (west wing economic rent $23 per square foot, actual rent $38.50), 1463 (northwest 
+wing economic rent $23 per square foot, actual rent $38.50).  And the County’s records include 
+no written remarks associated with the 2013 review year.  See id. at 1465–67.   
+In early 2013, the County issued a tax bill based on the above land parcel assessments.  See 
+JX 109.  The County taxed parcel A in the amount of $583,359.04 in real estate taxes for the year, 
+see id. at 1013; parcel B in the amount of $424,332.32, see id. at 1014; and parcel C in the amount 
+
+29 
+ 
+ 
+of $84,537.67, see id. at 1015.  Those values sum to a total 2013 real estate tax bill of 
+$1,092,229.03.  
+The County’s notice of real estate assessment change, like in the years prior, reflected the 
+Property’s updated assessed value for 2013 as compared to its value in 2012.  See JX 31 at 998–
+1000.  Under the reasons listed for each parcel’s change, Mr. Aikin included only 
+“REASSESSMENT,” id., meaning, as in earlier years, that the Property’s value had changed as a 
+result of general market trends.  See Aikin, Tr. at 617:11–16; Pellegrino, Tr. at 472:24–473:12; 
+Brincefield, Tr. at 758:4–7. 
+8. 
+2014 Assessment 
+In 2014, Mr. Aikin assessed the Property at a total value of $96,993,280, see 2014 
+Valuation History Report at 1468, JX 52, a 3.6% decrease from the year before and about 5.5% 
+higher than the Property’s value in 2007.  Parcel A was worth $50,526,100 with the east and west 
+wings valued at $30,418,370 and $20,107,730 respectively.  Id. at 1468.  The northwest wing—
+parcel B—was assessed at $38,675,690.  Id. at 1468–69.  For the fifth year in a row, the excess 
+land on parcel C was valued at $7,791,490.  See id. at 1468.   
+Again, the effective age of each wing increased by one year, remaining tied or close to each 
+building’s actual chronological age.  See id. at 1470 (east wing increased to 59 years), 1478 (west 
+wing increased to 48 years), 1482 (northwest wing increased to 29 years).   
+The County’s estimated economic rent for each wing increased by 50 cents from the 2013 
+estimate.  See id. at 1474 (most of east wing economic rent $23.50 per square foot), 1481 (west 
+wing economic rent $23.50 per square foot), 1485 (northwest wing economic rent $23.50 per 
+square foot).  The actual rent for all wings remained unchanged at $38.50.  See id.  
+
+30 
+ 
+ 
+The County’s records include no remarks clearly associated with the 2014 review year.  
+See id. at 1487–89.  While two remarks reference 2014, one remark simply describes that Plaintiff 
+changed its corporate name in 2014.  See id. at 1488–89.  The other remark indicates that Mr. 
+Pellegrino toured the facility with a GBA representative on December 19, 2014, see id. at 1487 
+(“TOURED FACILITY ON 12/19/14 . . . .”), but—as described below—that remark relates to the 
+2015 review year.  
+In early 2014, the County issued a tax bill based on the above land parcel assessments.  See 
+JX 110.  The County taxed parcel A in the amount of $550,734.49 in real estate taxes for the year, 
+see id. at 1019; parcel B in the amount of $421,565.02, see id. at 1020; and parcel C in the amount 
+of $84,927.24, see id. at 1021.  Those values sum to a total 2014 real estate tax bill of 
+$1,057,226.75. 
+The 2014 notice of real estate assessment change further laid out the values the County had 
+assessed for each land parcel.  See JX 32 at 989–91.  Like the year before, Mr. Aikin identified the 
+reason for each parcel’s change as: “REASSESSMENT.”  Id.  That indicates that the change in 
+value resulted from changes in general market trends.  See Aikin, Tr. at 632:13–22; Pellegrino, Tr. 
+at 472:24–473:12; Brincefield, Tr. at 758:4–7.  
+9. 
+2015 Assessment 
+Responsibility for assessing the Property changed again in the 2015 review year.  Although 
+Mr. Aikin testified, albeit hesitantly, that he was responsible for assessing the Property in 2015, 
+Ms. Brincefield testified that she assumed primary responsibility for assessing the Property while 
+Mr. Aikin was on leave.  Compare Aikin, Tr. at 512:1–12 (noting that he did not “know for sure” 
+about assessing the Property in 2015 but had no reason to doubt his prior deposition testimony), 
+547:6–9 (“Q: Do you believe that you assessed this property in the 2013 to 2014 -- 2015 time 
+
+31 
+ 
+ 
+frame?  A. If that’s what the records have.  I don’t specifically remember what year it was.”), with 
+Brincefield, Tr. at 730:23–731:1, 745:19–746:19 (testifying that she recalled taking over the 
+assessment for the 2015 review year because Mr. Aikin was on leave in late 2014).  Having 
+observed the testimony, the Court finds Ms. Brincefield’s recollection of events to be more 
+credible and the involvement of a new assessor in the 2015 review year to be more consistent with 
+the facts as a whole.  Thus, the Court concludes that Ms. Brincefield was responsible for finalizing 
+the Property’s assessment in 2015.   
+With Ms. Brincefield as the assessor, the Property’s total value nearly doubled from the 
+year prior.  In 2015, the total assessed value of the Property was $182,870,960, see 2015 Valuation 
+History Report at 1490, JX 53, an 88.5% increase from the year before and 98.8% higher than the 
+Property’s value in 2007.  Parcel A was worth $108,649,860 with the east and west wings valued 
+at $69,767,710 and $38,882,150 respectively.  Id.  The northwest wing on parcel B was assessed 
+at $66,429,610.  Id. at 1490–91.  And for the sixth year straight the excess land value (parcel C) 
+stayed the same at $7,791,490.  See id. at 1490.   
+Importantly, each building’s effective age decreased significantly.  The east wing’s 
+effective age decreased from 59 years to 24 years, a 36-year drop (assuming one additional 
+chronological year).  See JX 53 at 1492.  As a result, the east wing’s effective year built changed 
+from 1954—the actual year built—to 1990.  See id.  Similarly, the west wing’s effective age 
+decreased from 48 years to 24 years, a 25-year drop.  See id. at 1500.  This changed the west wing’s 
+effective year built to 1990, replacing the prior year’s effective year built of 1965.  See id.  The 
+northwest wing’s effective age decreased from 29 years to 14 years, a 16-year drop.  See id. at 
+1504.  The County changed the northwest wing’s effective year built from 1984—its actual 
+construction date—to 2000.  See id.   
+
+32 
+ 
+ 
+Economic rent also changed more significantly in the 2015 assessment than it did in any 
+year in evidence in this lawsuit.  In 2015, the County’s estimated economic rent for the east wing 
+was $35 per square foot, up $11.50 from the year prior.  See id. at 1496.  The County’s actual rent 
+data changed slightly: per the records, the vast majority of the east wing had an actual rent of 
+$36.53.  See id.  Similarly, the County’s estimated economic rent for the west wing was $35 per 
+square foot, $11.50 higher than the year prior.  See id. at 1503.  Actual rent likewise changed 
+slightly to $36.91 per square foot.  See id.  Finally, data for the northwest wing followed the same 
+pattern: economic rent increased by $11.50 to $35 per square foot, and actual rent changed slightly 
+to $36.91 per square foot.  See id. at 1507. 
+The County’s remarks include several important comments related to the 2015 review year.  
+The first remark indicates that Mr. Pellegrino—who returned to County employment in June 
+2014—inspected the Property on December 19, 2014.  See JX 53 at 1509.  He did so at the request 
+of Ms. Brincefield, who testified that she discovered an outstanding construction permit for the 
+Property related to security guard booths that was never marked complete.  See Brincefield, Tr. at 
+730:21–731:7; see also id. at 746:4–747:4 (explaining that she would not have asked Mr. 
+Pellegrino to visit the Property if Mr. Aikin had been “around”).  Mr. Pellegrino’s inspection, 
+however, went beyond assessing the completion of an outstanding County permit.  
+Contemporaneous communications between Mr. Pellegrino and Plaintiff’s representatives confirm 
+that Mr. Pellegrino sought to tour the Property in December 2014 to “make sure our information 
+is up to date” and to “get a sense for the interior finishes of the buildings since they were 
+renovated.”  Email re: 7700 Arlington Boulevard, Falls Church at 85481, JX 203; see also 
+Pellegrino, Tr. at 431:25–432:12 (testifying that he “was asked in December of 2014 to touch base 
+
+33 
+ 
+ 
+with . . . ownership or somebody who managed the building [to] . . . get an interior tour of the 
+building”), 433:23–434:2.   
+As a result of Mr. Pellegrino’s tour, the County closed out the final permit and documented 
+for the first time that all construction on the Property was 100% complete.  See JX 13 at 39; JX 53 
+at 1509.  A description of the renovation appears in a remark under element one.  There, 
+immediately below the “12RV” remark from Mr. Pellegrino indicating that renovations continued 
+at the Property as of January 1, 2012, appears:  
+15RV:MAJOR GUT RENOVATION COMPLETE; TOURED 12/19/2014 BY D. 
+PELLEGRINO;[]2,584 SF GARAGE BLDG RENOVATED INTO OFC SPACE, 
+RENT INCLUDED IN OVERALL FOR ELEMENT; LANDLORD PROVIDED 
+GUTTED SHELL & TENANT DID ALL INTERIOR FIT UP PER PETER 
+FLEURY, PROP. MGR . . . .  
+ 
+JX 53 at 1509.14  The remark continues: 
+SECURE FACILITY W/ DATA CENTER, DELI AND SMALL CONVENIENCE 
+STORE; INTERIOR FINISH IS STANDARD GOV’T OFFICE FINISH; . . . 
+EFFECTIVE YEAR FOR THIS ELEMENT IS BEING CHANGED TO 1990 DUE 
+TO ORIG. BUILDINGS OLDER THAN ELEMENT 5. 
+ 
+Id.  
+Element three—the west wing—includes similar remarks:  
+15RV: SEE REMKS ON ELEMENT 1 REGARDING GUT RENOVATIONS; 
+ALL BUILDINGS TREATED SAME AT TIME OF RENOVATION; 
+EFFECTIVE YEAR ON THIS ELEMENT 1990 DUE TO OLDER ORIGINAL 
+BUILDING; INSPECTION BY D. PELLEGRINO 12/19/2014 . . . .   
+ 
+Id. at 1510.  Element three also includes a remark about economic rent: “ECON RENT TO 36/SF 
+DUE TO ACTUALS AND NOI.”  Id.  Mr. Pellegrino testified at trial that, although no review 
+ 
+14 Ms. Brincefield testified that she authored these and the following remarks for the 2015 
+review year based on her discussion with Mr. Pellegrino and a review of Mr. Pellegrino’s notes 
+following his inspection.  See Brincefield, Tr. at 775:9–25. 
+
+34 
+ 
+ 
+year appears at the beginning of the remark, the comment appears to reflect the County’s change 
+in economic rent for the Property’s elements in the 2015 review year, a year in which the County’s 
+estimates for economic rent rose to $35 per square foot.  See Pellegrino, Tr. at 441:6–11; see also 
+Brincefield, Tr. at 742:6–18.  As Ms. Brincefield further testified, the remark suggests that the 
+County changed the economic rent estimate to come closer to actual rent (“ACTUALS”) and to 
+reflect net operating income (“NOI”).  See Brincefield, Tr. at 739:6–22, 742:6–18. 
+Comments for element five—the northwest (and newest) wing—also describe the County’s 
+change to economic rent: “ECON RENT TO 36/SF DUE TO ACTUALS AND NOI.”  JX 53 at 
+1510.  They further explain the change to the wing’s effective age: 
+15RV: INSP. BY D. PELLEGRINO 12/19/24; SEE ELEMENT 1 NOTES; 
+BUILDING TREATED SAME WAY; . . . EFF. YEAR CHANGED TO 2000 DUE 
+TO ORIGINAL BLDG BEING NEWER 1984 CONSTRUCTION.   
+ 
+Id.   
+In early 2015, the County issued a tax bill based on the above land parcel assessments.  See 
+JX 111.  The County taxed parcel A in the amount of $1,184,283.47 in real estate taxes for the 
+year, see id. at 1025; parcel B in the amount of $724,082.75, see id. at 1026; and parcel C in the 
+amount of $84,927.24, see id. at 1027.  Those values sum to a total 2015 real estate tax bill of 
+$1,993,293.46, almost $940,000 higher than the year before.15   
+The format of the 2015 notice of real estate assessment change differed slightly from the 
+format used in prior years, but the 2015 notice still included each parcel’s previous value (in 2015, 
+ 
+15 The total 2015 tax bill including, for example, transportation and stormwater taxes in 
+addition to real estate taxes amounted to $2,296,895 or $3.50 of real estate taxes per square foot, 
+which is remarkably close to the per-square-foot tax amount stated in Plaintiff’s proposal estimate 
+and independent appraisal conducted prior to Plaintiff submitting its proposal.  See Gmyr, Tr. at 
+1269:9–24; JX 111 at 1025–27.  Neither party presented evidence as to the distinction between 
+“real estate” and total taxes in the context of this lawsuit. 
+
+35 
+ 
+ 
+the County provided the value for the two previous years) and an updated assessment for 2015.  
+See JX 33 at 1004–06.  Helpfully, the County included the reason for assessment change in the 
+two years prior to 2015, allowing a recipient to more easily draw a comparison across the years.  
+For parcels A and B, the reasons listed matched previous years’ documents: 2013 and 2014 
+changes occurred due to “REASSESSMENT.”  Id. at 1004–05.  In 2015, however, Ms. Brincefield 
+provided the following reason for change for those two parcels: “NEW CONSTRUCTION.”  Id.  
+According to the assessors who testified, a change due to new construction means that the 
+assessment reflected construction—either for an entirely new building or as renovations to an 
+existing building—that had been performed at a property.  See Pellegrino, Tr. at 476:1–5; 
+Brincefield, Tr. at 760:22–761:6.  
+E. 
+Tax Adjustments, Payments, and Government Investigation 
+As described above, the Lease provides a mechanism for the parties to establish the Real 
+Estate Tax Base following commencement of the Lease term.  See JX 230 at 1282 (Section 4.2).  
+Amounts levied in subsequent years above that tax base would be reimbursed by GSA; any 
+amounts below that tax base would be credited to GSA.  See id. (Section 4.2.C.1).  Crucially, 
+however, assuming the unadjusted real estate taxes for the 12-month period following lease 
+commencement are not based on a full assessment, the Lease provides that the tax base will be 
+based on the first full tax year in which Fairfax County determines real estate taxes for the Property 
+taking into account the value of all improvements to the Property contemplated by the Lease.  See 
+id. (Section 4.2.B.7–8).   
+On August 22, 2013, Plaintiff—through its now-president, Vincent Forte—requested 
+reimbursement from GSA “for the increase in real estate taxes over the base year.”  Contracting 
+Officer’s Final Decision at 37207, JX 15.  The request covered the first half of the 2013 tax year 
+
+36 
+ 
+ 
+and represented that the applicable tax base year was the 12-month period following 
+commencement of the lease on December 5, 2011.  See id. at 37209.  On January 28, 2014, GSA 
+issued Supplemental Lease Agreement No. 7A establishing the tax base year as 2012 and the tax 
+base amount as $1,057,010.72, as well as approving a reimbursement of $19,707.63 based on the 
+increase in real estate taxes (above the tax base) in tax year 2013.16  See id. at 37140–41.      
+For tax years 2014 through 2018, the parties used the same process to implement tax 
+adjustments for real estate tax increases above the 2012 tax base.  See id. at 37145 (Lease 
+Amendment No. 11 memorializing tax adjustment to Plaintiff of $2,805.24 for 2014 tax year), 
+37147 (Lease Amendment No. 12 memorializing tax adjustment to Plaintiff of $867,039.45 for 
+2015 tax year), 37149 (Administrative Action No. 2 memorializing tax adjustment to Plaintiff of 
+$1,040,265.64 for 2016 tax year), 37151 (Administrative Action No. 4 memorializing tax 
+adjustment to Plaintiff of $1,019,450.43 for 2017 tax year), 37153 (Administrative Action No. 6 
+memorializing tax adjustment to Plaintiff of $1,032,805.79 for 2018 tax year).  Not surprisingly, 
+when the Property’s tax assessment value significantly increased in tax year 2015, the 
+corresponding tax adjustment payments to Plaintiff significantly increased too.  Indeed, the 
+individual adjustment payments for tax years 2015 through 2018 were equivalent to between 82% 
+and 98.4% of the total 2012 tax base.17   
+ 
+16 The total reimbursement amount was corrected to $33,613.67, but the tax base year and 
+amount remained the same.  See JX 15 at 37126 (noting that payment made under Supplemental 
+Agreement No. 8 was to “correct an error with calculating tax reimbursement” under Supplemental 
+Lease Agreement No. 7A); see also id. at 37143.   
+ 
+17 For reference, Fairfax County billed Plaintiff for the following real estate tax amounts: 
+$2,105,123.45 for 2016, $2,074,864.64 for 2017, and $2,091,244.54 for 2018.  See 2016 Real 
+Estate Tax Bill at 1031–33, JX 112; 2017 Real Estate Tax Bill at 1037–39, JX 113; 2018 Real 
+Estate Tax Bill at 1073–75, JX 114. 
+
+37 
+ 
+ 
+During this period, the parties had some notable interactions related to the steep jump in 
+real estate tax assessments and tax adjustment payments to Plaintiff.  First, in 2015, the County’s 
+substantially increased tax assessment caused certain individuals associated with the Property to 
+seek additional information about the Property’s tax burden.  Specifically, the Altus Group, a GSA 
+contractor, contacted Vincent Forte to solicit Mr. Forte’s views on the County’s recent tax 
+assessment and to gauge Plaintiff’s interest in pursuing a tax appeal.18  See Email re: Follow Up 
+on Defense Health HQ at 73312, DX 201; see also V. Forte, Tr. at 85:11–86:4.  The contractor 
+ultimately recommended that GSA not pursue an appeal, later indicating to Plaintiff that the 
+contractor’s analysts felt there was “too much exposure based on the actual rent received compared 
+to the rent assumption applied in the county’s Direct Capitalization approach.”  JX 15 at 37201.  
+Second, Plaintiff’s lender, who provided financing for part of the Property’s renovation, 
+asked Vincent Forte why the Property’s assessment increased so much in the 2015 review year.  
+See V. Forte, Tr. at 86:9–87:9.  They wanted to clarify whether the tax amounts that Mr. Forte 
+provided for 2015 represented the full year’s taxes or whether the increased amounts captured a 
+half year of taxes in the 2015 tax year.  See Email re: Defense Health at 9631, JX 206.  Mr. Forte 
+responded, “We had an increased assessment this year of approx $900K (FFX Co finally caught 
+up).  Base year is 2012 so increase is passed through.”  Id.  Mr. Forte’s statement that Fairfax 
+County “finally caught up” in its assessment suggests that he knew that the prior years’ 
+ 
+18 Altus made a recommendation to both Mr. Forte and to GSA, see JX 15 at 37201, who, 
+per the Lease, could initiate a tax appeal on its own behalf or jointly on its and the lessor’s behalf, 
+see JX 230 at 1283 (Section 4.2.D) (outlining procedures for “Tax Appeals”).  The Lease provides 
+that any savings to the Government resulting from a tax appeal “shall be decreased by Lessor’s 
+reasonable expenses in pursuing the appeal,” id., meaning that a successful Government-initiated 
+appeal would result in the lessor’s legal costs being covered in whole or in part by the Government.  
+Nothing in the Lease forecloses the Property’s owner from initiating its own tax appeal at its own 
+expense.  See id.    
+
+38 
+ 
+ 
+assessments of the Property failed to capture the value of all renovations to the Property, and that 
+Plaintiff could recoup any difference in taxes because the lower 2012 base-year amount would 
+mean any increase could be “passed through.”  Id.  Mr. Forte’s attempt to explain away the 
+implication of this statement was, in the Court’s view, evasive and unconvincing.  See V. Forte, 
+Tr. at 87:7–9 (characterizing the statement as a “throw-away sentence that I threw in there for 
+whatever reason just so really for my lender, you know, so I didn’t look stupid I guess”). 
+Finally, Kevin Morrison, a lease contracting officer for GSA, who assumed management 
+of the Lease from the previous contracting officer in early 2019, took notice of Plaintiff’s sizeable 
+tax adjustment request for the 2018 tax year.  See Morrison, Tr. at 1036:21–22, 1044:19–1045:14, 
+1086:13–1087:23; see also Email re: Lease LVA02213 at 156579, JX 210.  When Plaintiff’s 
+January 2019 request for a $1 million tax adjustment for 2018 taxes appeared in GSA’s database, 
+GSA employees associated with the Lease received an automated alert indicating that the 
+reimbursement required approval from the lease contracting officer.  See JX 210 at 156579; 
+Morrison, Tr. at 1086:13–1087:20.  Mr. Morrison questioned the “extreme” size of the request.  
+See Morrison, Tr. at 1088:24–1089:12 (calling it a “red flag” and “unusual”).  He was also struck 
+by the “massive delta between [the] 2014 and 2015” tax adjustment payments for the Property.  
+See id. at 1090:15–1091:11 (noting that a normal fluctuation in an annual tax adjustment is 
+typically 3–5% up or down); JX 210 at 156579 (asking another GSA employee, “[T]he tax 
+assessment has gone up 100% in 5 years? Do you know if GSA initiated an appeal on this lease 
+before?”).  Mr. Morrison approved the 2018 tax adjustment payment on February 1, 2019, see JX 
+15 at 37152–53, but began to seek additional information about the Property’s assessment history, 
+see Morrison, Tr. at 1091:5–11.  Based on that preliminary investigation, Mr. Morrison worked 
+
+39 
+ 
+ 
+with a supervisor to set up a call with Vincent Forte in early April 2019 to discuss the Property’s 
+tax history.  See Morrison, Tr. at 1092:23–1093:18; Email re: DHHQ at 36465, JX 214. 
+Following that call, Mr. Morrison sought and received additional materials from GSA’s 
+tax appeal contractor, the Altus Group.  See Morrison, Tr. at 1095:3–12.  Vincent Forte also 
+provided Mr. Morrison with materials from the contractor, noting that the contractor had 
+“determined that an appeal of the real estate tax increase was unwise due to the fact that the 
+increase was due to the additional GSA requested building improvements.”  JX 15 at 37178.  Mr. 
+Morrison asked that Plaintiff obtain the tax assessment worksheets from Fairfax County to help 
+explain why the assessment increased so much.  Id.  Mr. Forte provided those worksheets to Mr. 
+Morrison in mid-July 2019.  See Email re: DHHQ at 161357, JX 215.   
+After review, Mr. Morrison reached back out to Vincent Forte in early September 2019 to 
+explain his belief that the tax base for the Lease was incorrectly established “as the time period 
+12/5/2011-12/4/2012.”  JX 15 at 37199.  Mr. Morrison explained that he believed the property 
+“was not fully assessed until Tax Year 2015.”  Id.  As support, he cited the 2015 tax bill’s reason 
+for change being “New Construction”; the fact that the Government did not fully accept phase II 
+of the renovation until March 2012, well after Mr. Forte’s lease commencement date of December 
+5, 2011; Fairfax County’s reduction in effective age for the Property in tax year 2015; and the tax 
+year 2015 increase in economic rent used to calculate gross potential income for the property.  See 
+id.  The premature establishment of the base tax year, Mr. Morrison noted, meant that the 
+Government had been “substantially overpaying” taxes for several years.  Id.  He expressed his 
+hope that the parties could “come to a bilateral agreement to speedily resolve this issue.”  Id.  The 
+next communication Mr. Morrison received was an October 11, 2019, letter from Plaintiff’s 
+counsel, challenging Mr. Morrison’s proposed base-year reestablishment because, counsel argued, 
+
+40 
+ 
+ 
+GSA had previously acquiesced to the use of the 2012 tax calculation as the base year.  Id. at 
+37203–04. 
+On October 31, 2019, Mr. Morrison initiated a claim for the overpayment of real estate 
+taxes, issuing a Contracting Officer’s Final Decision finding that the tax base should be the real 
+estate taxes for the Property for tax year 2015.  See id. at 37123.  Because the tax base was 
+prematurely set, Mr. Morrison concluded that the Government had overpaid real estate tax 
+adjustments in the amount of $3,413,275.92.19  Id.  Mr. Morrison executed Administrative Action 
+No. 8 to reestablish the tax base at $1,993,293.46, the amount that Fairfax County billed to the 
+Property for real estate taxes in 2015.  See Morrison, Tr. at 1126:19–1127:1; see also GREX Lease 
+Documentation at 508, JX 231; JX 111 at 1025–27.  He further issued Administrative Action No. 
+9 memorializing GSA’s claim for $3.4 million and its intent to withhold rent in the amount of 
+$142,219.63 per month for a period of 24 months to recoup its overpayment.  See Morrison, Tr. at 
+1127:2–20; see also JX 231 at 510.  On January 14, 2020, Mr. Morrison executed a document 
+laying out calculations for the tax adjustment amount GSA owed Plaintiff for the 2019 tax year.  
+Id. at 515.  Two weeks later, Plaintiff filed this lawsuit.  See Pl.’s Compl., ECF No. 1. 
+DISCUSSION 
+The preponderance of evidence shows that, for purposes of determining real estate tax 
+liability, Fairfax County did not assess the value of the Property taking into account all the 
+ 
+19 Mr. Morrison’s claim was supported by the breakdown of yearly payments in his Final 
+Decision.  As Mr. Morrison noted at trial, it appears his claim of $3.4 million may understate the 
+Government’s actual overpayment.  See Morrison, Tr. at 1125:23–1126:5 (“[I]t totals to $3.4 
+million, which I later realized was not correct, because I had . . . done this table in Excel, and then 
+when I brought it into the Word document, I brought in the wrong column . . . [and] the actual 
+amount would have been $3.7 million.”).  Nevertheless, GSA limited recoupment to $3.4 million, 
+consistent with the Final Decision.  See id. at 1127:21–1128:1. 
+
+41 
+ 
+ 
+improvements contemplated by the Lease until the County’s 2015 property assessment.  The first 
+real estate tax bill for the Property based on full assessment, as that term is defined by the Lease, 
+issued in early 2015.  Thus, per the Lease, GSA properly reestablished the real estate tax base at 
+the amount billed in 2015.  Because Plaintiff failed to show that GSA breached the Lease, it is not 
+entitled to recovery.  
+The Court declines Plaintiff’s invitation—asserted for the first time in its post-trial brief—
+to find that the County utilized an incorrect assessment method in its 2015 assessment.  Plaintiff 
+provides no support for its assertion that the Court has the authority to adjudicate a substantive 
+challenge to the County’s valuation approach.  Rather, this Court’s only role at trial was to 
+determine whether, as a factual matter, the County took into account the value of all renovations 
+to the Property in its 2013, 2014, or 2015 assessment.  Answering that factual question resolves 
+the litigation.  Even if considered, Plaintiff’s alternative claim for relief based on a windfall theory 
+of damages lacks both a legal and factual basis. 
+I. 
+Legal Standards for Decision 
+As the parties agree, Plaintiff has the burden to show by a preponderance of the evidence 
+that GSA breached the Lease.  See Gov’t’s Mem. of Contentions of Fact & Law at 34, ECF No. 
+81; Pl.’s Mem. of Contentions of Fact & Law at 31–32, ECF No. 78; see also BMY Combat Sys. 
+Div. of Harsco Corp. v. United States, 38 Fed. Cl. 109, 116 (1997) (“In civil actions, the presumed 
+burden of proof is a preponderance of the evidence.” (citing Grogan v. Garner, 498 U.S. 279, 286 
+(1991)).  “To recover for breach of contract, a plaintiff must allege and establish by preponderant 
+evidence: (1) a valid contract between the parties, (2) an obligation or duty arising out of that 
+contract, (3) a breach of that duty, and (4) damages caused by the breach.”  San Carlos Irrigation 
+& Drainage Dist. v. United States, 877 F.2d 957, 959 (Fed. Cir. 1989).   
+
+42 
+ 
+ 
+II. 
+Date of Full Assessment 
+The strongest evidence of full assessment in the Government’s favor comes from 
+contemporaneous Fairfax County records.  Specifically, the notes and remarks that the County 
+made for the Property across the relevant assessment years and the reasons that the County offered 
+for changes to the Property’s tax assessment weigh heavily in the Government’s favor.  Similarly 
+supportive is the County’s treatment of the Property’s effective age and economic rent over the 
+relevant assessment years.  Although some measure of discretion accompanies an assessor’s 
+determination of economic rent, the simultaneous, sharp changes to effective age and economic 
+rent in the 2015 review year strongly support the conclusion that the County did not assess the 
+value of the Property’s completed renovation until 2015.  Further, although trial testimony from 
+Fairfax County witnesses presented some factual discrepancies that the Court must resolve—for 
+example, testimony conflicted as to the question of which assessor was responsible for the 
+Property’s 2015 assessment—that trial testimony still tends to lend further weight to the 
+Government’s case.   
+When considering both the documents and testimony, a clear explanation for the pattern of 
+the County’s tax assessments between 2012 and 2015 emerges.  That is, more likely than not, 
+because of the change in assigned assessor from Mr. Pellegrino to Mr. Aikin the County simply 
+failed to recognize in its assessments that the Property’s renovation was complete until Ms. 
+Brincefield took over the assessment during the 2015 review year.  Indeed, Mr. Aikin consistently 
+and explicitly left open the possibility that his assessments of the Property for the 2013 and 2014 
+review years failed to account for the completion of renovations. 
+This explanation is more probable than Plaintiff’s alternative theory of the case—i.e., that 
+the Property’s increase in value between 2010 and 2013 suggests that the County fully accounted 
+
+43 
+ 
+ 
+for the Property’s renovations by the 2013 tax year (or the 2014 tax year at the latest), and that the 
+driving factor of the 2015 increase—the economic rent—was solely a function of the assessor’s 
+subjective weighing of the Property’s actual rent.  That theory relies on the County having silently 
+determined that the Property’s renovation was complete by the 2013 review year—without 
+recording that fact—and then increasing by double the Property’s valuation in 2015 without any 
+regard to the value of the completed renovations and the increased income that the Property could 
+generate as a direct result of those renovations.        
+A. 
+Contemporaneous References (or the Lack Thereof) to Construction in the 
+County Records Strongly Suggest that the County Did Not Account for All 
+Renovations Until the 2015 Tax Year. 
+The County’s documentary records almost conclusively resolve the factual question at 
+issue.  Multiple different documents explicitly indicate that County assessors first recorded the 
+completion of the Property’s renovations in the 2015 review year.  Contrariwise, no evidence in 
+the County’s records indicates that the County’s tax assessments at any point earlier took into 
+account the completion of renovations. 
+Of course, an absence of evidence does not logically foreclose that an event may have 
+occurred.  But here, where the Court as factfinder is tasked with weighing competing evidence in 
+one party’s favor against an absence of evidence in the other party’s favor, “something . . . 
+outweighs nothing every time.”  Nat’l Ass’n of Retired Fed. Emps. v. Horner, 879 F.2d 873, 879 
+(D.C. Cir. 1989).  The Government provided significant record evidence that the County, in 
+conducting its yearly tax assessments, documented in-progress renovations during the 2011 and 
+2012 review years, failed to record in the 2013 and 2014 review years that the renovations had 
+been completed, and then documented the completion of renovations in the 2015 review year. 
+
+44 
+ 
+ 
+The County’s assessment guidelines make clear that, as a general matter, County assessors 
+should “always” document certain changes to a property, including changes that justify revising 
+that property’s effective age, like “the completion of new construction and/or renovations.”  JX 
+124 at 743.  Witness testimony confirmed that assessors “should” make and record such changes 
+upon learning of the completion of significant renovations to a property and that Fairfax County 
+policy and practice instructed assessors to assess only the value of the renovations that were 
+complete as of January 1—e.g., 50% of value for 50% completed renovations.  Brincefield, Tr. at 
+772:2–6; see also Pellegrino, Tr. at 476:1–5 (“Q. And when the notice states ‘new construction,’ 
+that indicates the assessment took into account construction that was performed on the property, 
+correct? A. That’s correct.”), 477:5–16 (“A. So if I arrive at a property and it is 50 percent 
+complete, as of the first of the year, and I assess it as 50 percent complete, you know, I have fully 
+assessed what is actual[ly] there as of the first of the year. . . . Q. . . . [I]t’s department policy that 
+if a building isn’t 100 percent complete, then you wouldn’t assess it as 100 percent for that year, 
+correct? A. Correct.”). 
+Keeping in mind that assessors should generally document significant changes to 
+properties, the Court concludes that the County’s records firmly support the Government’s position 
+that the value of all renovations to the Property contemplated by the Lease was not captured in the 
+County’s assessments until 2015.  The 2012 notice of real estate assessment change indicates that 
+construction on the Property’s parcels was “PARTIALLY COMPLETED.”  JX 30 at 1865–67.  
+But both the 2013 and 2014 notices of real estate assessment change indicate that the Property’s 
+value changed based only on a “REASSESSMENT,” JX 31 at 998–1000; see JX 32 at 989–91, 
+meaning the value changed based on general market trends of property values, see Brincefield, Tr. 
+at 758:4–7.  Only in 2015 did the notice reflect that the value of the two parcels that contain the 
+
+45 
+ 
+ 
+Property’s buildings changed due to “NEW CONSTRUCTION.”  JX 33 at 1004–05.  As Ms. 
+Brincefield confirmed at trial, “NEW CONSTRUCTION” typically denotes “permit work” at a 
+property, like a brand-new building or renovations.  Brincefield, Tr. at 760:22–761:6. 
+The remarks in the Property’s valuation history further confirm that the County did not 
+take into account the completion of all renovations until the 2015 review year.  As described above, 
+the 2011 and 2012 remarks contain significant discussion regarding the status of the contemplated 
+or in-progress renovations at the Property.  See, e.g., JX 50 at 1443 (noting that “parts of bldg still 
+in progress” and that “renovations continue” (capitalization removed)); JX 49 at 1421 (noting 
+“major renovations to building underway” (capitalization removed)).  No remarks about the status 
+of construction appear for the 2013 review year or for the 2014 review year.  See JX 51 at 1465–
+67; JX 52 at 1487–89.  Indeed, there are no remarks at all for those review years.  Id.  Only during 
+the 2015 review year do the County’s remarks first reflect that the assessor was aware of the 
+completion of the renovations at the Property.  See, e.g., JX 53 at 1509 (noting as a result of Mr. 
+Pellegrino’s site visit on December 19, 2014, that the “major gut renovation” was “complete”). 
+B. 
+That the County’s Valuation Metrics Changed in 2015 to Reflect the 
+Completed Renovations Strongly Supports Full Assessment in 2015. 
+In addition to the records explicitly documenting the completion of renovations in 2015, 
+the County’s treatment of certain valuation metrics—effective age and economic rent—
+underscores the conclusion that the County first assessed liability for real estate taxes based on the 
+value of all renovations to the Property in the 2015 review year.   
+Most importantly, the County’s change to the effective ages of the Property’s buildings in 
+2015—which in turn changed the capitalization rates used to calculate the value of parcels A and 
+B under the income approach—strongly supports the conclusion that the County did not take into 
+
+46 
+ 
+ 
+account the value of the completed renovations until 2015.  In Fairfax County, a “property’s 
+effective age is affected by building system upgrades, large tenant improvements and/or 
+renovations of common areas.”  JX 124 at 743.  As a general matter, Fairfax County assessors 
+consider lowering a building’s effective age in comparison to its actual age only when the building 
+undergoes significant renovations.  See Brincefield, Tr. at 772:7–14; Aikin, Tr. at 628:10–13; see 
+also Pellegrino, Tr. at 458:11–13 (“Q. And the effective age would not change from year to year 
+based on market conditions, right? A. Correct.”), 489:2–8 (“Q. . . . [W]hen the actual age of the 
+building was similar to the effective age, that indicated that there were not any significant 
+improvements or renovations to it since it was originally built, correct? A. Generally speaking, 
+yes, that’s correct.”).  The logic is strong: renovations—specifically, completed renovations—
+increase a building’s lifespan, making it more like new, thus justifying a decrease in the “age” that 
+the County assigns to the building.   
+That the County did not change the effective ages of any of the Property’s elements in 2013 
+and 2014 weighs strongly in favor of finding that the County did not account for the completion 
+of the significant renovations to the Property in those years.  This is especially true considering 
+that (a) there are no remarks in the records for those two review years referencing the status of 
+construction and (b) the reasons for the assessment changes were based solely on market 
+conditions.  See JX 51 at 1465–67; JX 31 at 998–1000.  Conversely, the decrease of the buildings’ 
+effective ages in 2015 strongly suggests that the County first accounted for the completed 
+renovations in 2015, after Mr. Pellegrino personally toured the site to assess the status of 
+construction and during the same review period in which the records explicitly document (for the 
+first time) that the Property’s renovations were complete.  See JX 53 at 1509–11.   
+
+47 
+ 
+ 
+Indeed, Ms. Brincefield testified that the completion of significant renovations, in her view, 
+would have greatly impacted the condition of the Property and its capacity to generate income.  
+See Brincefield, Tr. at 788:9–16 (testifying that she changed the effective age to reflect the 
+completion of gut renovations and that the age “should have been changed previously”), 804:4–15 
+(testifying that she changed the effective age and economic rent in 2015 “to reflect the completion” 
+of renovations that were “completed in 2012” and that she only “learned of” in 2014); see also id. 
+at 784:14–25 (indicating that she saw nothing in the Property’s valuation history to reflect “the 
+impact of how much work had been done to this building”).   
+Mr. Aikin, who was responsible for assessing the Property in 2013 and 2014, see Aikin, 
+Tr. at 512:1–4, confirmed the same fact.  He testified that the notation in the 2015 review year 
+indicating that renovations were complete and the fact that the effective ages were changed in the 
+2015 review year would mean the effective ages were changed “due to completion of those 
+renovations.”  Id. at 659:4–8.  There were no other renovations to the Property in 2013, 2014, or 
+2015 that could possibly support changing the effective ages of the Property’s elements.  And the 
+evidence established that only a significant change to the Property—like a gut renovation—could 
+have resulted in the change to each element’s effective age.  Thus, the Court concludes that the 
+renovations at issue here—which were completed in 2012—resulted in the change to the 
+Property’s associated effective ages in 2015, meaning the County did not take into account the 
+value of the completed renovations in assessing the Property (i.e., by changing the effective ages) 
+until the 2015 tax year. 
+Secondarily, the County’s decision to increase the economic rent in 2015 further supports 
+the conclusion.  Because the County’s estimate of economic rent is more discretionary than 
+determining the completion of construction or changing the effective age of a renovated building, 
+
+48 
+ 
+ 
+the Court acknowledges that the County’s decision to increase its estimate of the Property’s 
+economic rent in 2015 is not dispositive of the question at issue.  But the County’s change to 
+economic rent serves as strong supporting evidence for the conclusion that it did not take into 
+account the value of the completed renovations until 2015.  Ms. Brincefield testified at trial that 
+her decision to increase the County’s economic rent estimate for the Property, while primarily 
+based on her discovery that the economic rent in 2013 and 2014 significantly understated the actual 
+rent earned in those years, also recognized that the Property’s income-generating capacity 
+increased enormously as a result of the renovations.  See Brincefield, Tr. at 746:12–747:16 
+(“[W]hen I became aware of what the actual rent was, [I asked] why aren’t we reflecting something 
+much closer to the actual rent. . . . [A]nd [I] determined that this property was being undervalued 
+and changed the value and changed the rent.”), 778:15–16 (“[T]he rent probably should have been 
+increased back in 2012 or 2013.”), 804:10–23.   
+Plaintiff argues that the County’s change to economic rent cannot weigh at all in favor of 
+finding that the Property was fully assessed in 2015.  See ECF No. 122 at 33–36.  It argues that 
+the decision was entirely independent of the County’s consideration of the completed renovations.  
+See id. at 34 (noting that the “Government’s expert admitted that the Property’s economic rent 
+increased due to actual rent, which can move independently of improvements” (emphasis added)).  
+The Court agrees that the County can change economic rent independently of assessing 
+improvements to a property.  Ample evidence supports the fact that assessors have discretion to 
+set economic rent based on a variety of factors, including consideration of the Property’s actual 
+rent.  See, e.g., Pellegrino, Tr. at 346:2–21; Aikin, Tr. at 519:12–520:4, 678:10–23; Brincefield, 
+Tr. at 699:13–700:23.   
+
+49 
+ 
+ 
+The problem for Plaintiff is that it failed to prove that, more likely than not, the County did 
+not consider the completed renovations in updating the economic rent estimate for the Property in 
+2015.  In other words, Plaintiff failed to show the change to economic rent was mutually exclusive 
+of the County’s valuation of the completed renovations.  Ms. Brincefield testified that part of her 
+decision to update the Property’s valuation metrics, like its effective age and its economic rent, 
+represented her effort to capture the immense changes that had been made to the Property and, in 
+her view, had not been captured in previous assessments.  See Brincefield, Tr. at 777:6–8 (“I’ve 
+looked and looked and looked, about how extensive this was.  You know, major, major 
+renovation.”), 778:4–8 (“It is appropriate that the cost approach should be considered and the 
+changes to the building reflected . . . . Well, it hadn’t been changed in 2013, it probably should 
+have been changed in terms of effective age.  And the rent probably should have been increased 
+back in 2012 or 2013.”).  Thus, even if the first-order justification for increasing economic rent 
+was an exercise of Ms. Brincefield’s discretion to bring economic rent in line with actual rent, the 
+second-order justification for exercising that discretion was—at least in part—the completion of 
+renovations to the Property.  The choice to place more weight on actual rent was not made in a 
+vacuum.  Ms. Brincefield’s awareness of the completion of the renovations and her choice to 
+increase economic rent were clearly related.  The correlation is logical.  A commercial building’s 
+ability to host a paying tenant and command a higher rent depends on the building’s construction 
+status.  The completion of a renovation appears logically related to the fact that a building’s 
+economic rent should likely increase.  See Pellegrino, Tr. at 387:14–17 (noting that assessors 
+would compare the subject building to other buildings with similar age, quality, and finish to 
+determine economic rent). 
+
+50 
+ 
+ 
+Plaintiff’s final argument concerning the County’s valuation metrics relates to the County’s 
+assessment of the relative quality of each building on the Property.  Specifically, Plaintiff argues 
+that the County could not have assessed the completed renovations for the first time in 2015 
+because between 2014 and 2015 the County’s view of the “quality” of element 1—the east wing—
+dropped from “Good” to “Average.”  ECF No. 122 at 25; see also JX 52 at 1470 (showing “QUAL” 
+as “GD” for the building in 2014); JX 53 at 1492 (showing “QUAL” as “AV” in 2015).  To be 
+clear, the County’s assessment of the building’s quality does not factor into its valuation of the 
+building, at least under the income approach, but Plaintiff argues that it “beggars belief” to suggest 
+that the Property “could increase in value” because of improvements when the County “clearly 
+believed that the quality of the Property had diminished year over year.”  ECF No. 122 at 35–36.  
+But the Government provides a simple explanation for the change that is supported by witness 
+testimony and that Plaintiff does not rebut: the changes the County made to each building’s 
+effective age meant that the group of comparators to determine the east wing’s quality also 
+changed.  See Closing Arg. Tr. at 1520:3–20, ECF No. 127.  In essence, when the building was 
+“older,” its quality could have been “good” based on comparisons to other buildings of the same 
+age.  But by decreasing the effective age, the County compared its quality to other, newer 
+buildings—resulting in an “average” quality assessment when compared to that younger group.  
+See Pellegrino, Tr. at 387:12–17 (noting that a building’s real-estate class is “subjective” and that 
+assessors would “just look at buildings with similar age, similar quality and finish, that sort of 
+thing”). 
+Regardless, to the extent the evidence favors Plaintiff, the County’s view of the quality of 
+the Property’s buildings in review year 2015 does not tip the scales.  On balance, the County’s 
+records—including the valuation history remarks, reasons for change to assessments, and valuation 
+
+51 
+ 
+ 
+metrics—constitute preponderant evidence in favor of the Government.  Based on that evidence, 
+as well Ms. Brincefield’s testimony that she only became aware of the completed renovations in 
+late 2014 and believed that both valuation metrics should have been increased earlier, the most 
+likely explanation for the County’s changes to effective age and economic rent in 2015 is that the 
+assessment for that review year took into account the value of the completed renovations and the 
+impact those renovations would have on the Property’s ability to generate income. 
+C. 
+Trial Testimony Suggests that the County Did Not Account for the Completed 
+Renovations Until the 2015 Tax Year. 
+Fact witness testimony about the County’s practices, procedures, and assessment of the 
+Property further adds to the weight of evidence supporting full assessment in 2015.  Although 
+Plaintiff established with preponderant evidence that Fairfax County assessors should update 
+assessments to incorporate the value of renovations to a property as of January 1 of each year and 
+that it was the assessors’ typical practice to do so, Plaintiff failed to prove that in this case the 
+County actually incorporated the value of the Property’s completed renovations any earlier than 
+the 2015 assessment.  Indeed, trial testimony showed that responsibility for assessing the Property 
+transitioned through a series of three assessors during the review years at issue in this lawsuit and, 
+likely as a result, the County simply did not catch the final completion of renovations until late 
+2014, just in time for the 2015 assessment.   
+David Pellegrino’s testimony.  The Court gives Mr. Pellegrino’s testimony strong weight.  
+The Court found him to be a credible witness who provided direct answers on subjects about which 
+he had personal knowledge, declined to speculate on subjects outside his knowledge, and generally 
+presented with a demeanor indicating confidence in his answers and truthfulness in his responses.  
+Mr. Pellegrino’s testimony tends to support several clear factual conclusions: (1) Mr. Pellegrino 
+
+52 
+ 
+ 
+was responsible for assessing the Property for the 2009 through 2012 review years, see, e.g., 
+Pellegrino, Tr. at 344:19–22; (2) Mr. Pellegrino was aware of and personally observed ongoing 
+renovations to the Property through the end of 2011 and beginning of 2012, see, e.g., id. at 404:6–
+405:8; (3) for the 2012 review year Mr. Pellegrino assessed the value of the partially completed 
+renovations at the Property as of their completion status in January 2012, see, e.g., id. at 410:3–
+413:4; (4) Mr. Pellegrino then moved to North Carolina for two years, during which he had no 
+involvement in assessments in Fairfax County, see id. at 371:7–13; (5) Mr. Pellegrino then returned 
+to the County in 2014, see id.; (6) Mr. Pellegrino was asked to conduct a site visit at the Property 
+in late 2014, see id. at 431:25–433:1; (7) he reported his observations from that site visit to the 
+individual who asked him to inspect the Property, see id.; and (8) Mr. Pellegrino had no 
+involvement in the 2015 assessment other than reporting the information he derived from his 2014 
+site visit, see id.   
+Mr. Pellegrino’s testimony also helped established the general practices and procedures of 
+Fairfax County assessors, including the general considerations assessors weigh in estimating 
+economic rent, see, e.g., id. at 386:22–387:17; photos assessors take during site visits, see, e.g., id. 
+at 400:22–401:4; typical site-inspection frequencies, see id. at 402:9–22; and the County’s practice 
+of doing its “best” to ensure that assessors promptly incorporate significant physical changes to 
+buildings into their yearly assessments, id. at 372:3–23.20  
+ 
+20 In general, the Fairfax County witnesses all gave testimony that supported a consistent 
+understanding of the County’s practices and procedures, although Mr. Aikin, as the Court notes 
+below, cabined his testimony multiple times with caveats suggesting that changes to assessments 
+may not always happen so promptly. 
+ 
+
+53 
+ 
+ 
+Jonathan Aikin’s testimony.  Unlike Mr. Pellegrino, Mr. Aikin’s testimony was marked by 
+hesitancy, qualifications, and a lack of independent memory.  As a result, the Court has reason to 
+doubt that Mr. Aikin reliably recalled and described his assessments of the Property.21  This is 
+especially true of the 2015 assessment, for which Mr. Aikin claimed responsibility.  See Aikin, Tr. 
+at 512:1–12, 547:6–9.  As discussed above, Ms. Brincefield more credibly testified that she—not 
+Mr. Aikin—prepared the assessment of the Property in that year while Mr. Aikin was on leave.  
+See Brincefield, Tr. at 730:23–731:1, 745:19–746:19.  All of Mr. Aikin’s testimony about the 2015 
+assessment is therefore based on a false assumption that he was involved.   
+Given the lack of a specific recollection and the numerous times Mr. Aikin qualified his 
+remarks about his general practices, the Court has even greater reason to doubt that Mr. Aikin 
+necessarily followed his general practice of promptly assessing completed renovations and 
+updating associated valuation metrics when he assessed the Property in 2013 and 2014.  
+Specifically concerning is the fact that Mr. Aikin consistently left open the possibility that certain 
+changes to the Property may not have been immediately considered in his assessments.  See, e.g., 
+Aikin, Tr. at 530:12–24 (“A. Typically we try to value property as it is as o[n] the assessment date.  
+There’s times, though, that the information is not added to the property record until after the 
+assessment date . . . . Q. And [by] after you mean the following year?  A. It could be -- yes. It could 
+be the following year or, you know, as soon as you can update the property record.  Q. Okay, but 
+it typically wouldn’t be two years later, right?  A. Hopefully not.”), 535:9–18 (“Q. When you 
+ 
+21 Indeed, Mr. Aikin repeated numerous times that he had no specific recollection of any 
+of his assessments of the Property.  See, e.g., Aikin, Tr. at 517:16–18 (“I don’t really remember 
+the specifics of the property from, you know, that long ago.”), 683:13–20 (“I mean, I don’t 
+specifically remember, you know, going through the motions of doing the assessment, of entering 
+the information.  Yeah, I don’t have anything that kind of jumps out, yeah, atypical or anything.”). 
+
+54 
+ 
+ 
+assessed the property in 2013 and 2014, did you do your best to ensure that you implemented your 
+personal practice of fully assessing whatever improvements were completed as of January of those 
+two years?  A. Well, I would think I would try to do my best . . . . Of course, sometimes renovations 
+are missed or not added to the record timely.”), 679:22–680:2 (“Q. And so based on this comment, 
+is it your belief that the reason that the economic rent was changed in 2015 was that Fairfax County 
+simply placed more weight on actual rent than they had in prior years?  A. Yes, and it may have 
+been, you know, missed previously without updating it.”).     
+Even considering Mr. Aikin’s testimony about the 2013 and 2014 assessments alone, 
+without weighing it against the significant evidence in the other direction, the testimony is at best 
+equivocal, and even slightly favors the Government.  The most reliable conclusions the Court can 
+make about Mr. Aikin’s testimony are that: (1) Mr. Aikin had no specific recollection of making 
+his yearly assessments in 2013 and 2014, see, e.g., id. at 683:13–20; (2) Mr. Aikin generally did 
+his best to ensure construction was promptly picked up in his assessments, see id. at 535:9–18; (3) 
+Mr. Aikin demonstrated a keen awareness that construction was not always picked up as promptly 
+as possible, id. at 535:17–18; (4) Mr. Aikin never documented anything about the renovation of 
+the Property—indeed, no remarks appear in the valuation history reports in those years, suggesting 
+that he did not follow his practice of assessing construction as soon as possible in this case, see id. 
+at 653:18–655:2 (confirming that remarks about construction appear only for the 2011, 2012, and 
+2015 review years and that he did not know who authored the 2015 remark), 664:13–665:2 
+(indicating that he would have expected the completion of renovations to be reflected in the 
+remarks and the assessment); and (5) Mr. Aikin  listed “REASSESSMENT” as the reason for the 
+changes to the Property’s value in 2013 and 2014, see id. at 617:1–16, 631:13–18, 632:3–22, 
+suggesting that he merely conducted a check of the Property’s valuation against market trends 
+
+55 
+ 
+ 
+instead of visiting the Property and confirming that the renovations were complete, see Pellegrino, 
+Tr. at 472:24–473:12; Brincefield, Tr. at 758:4–7.   
+Catherine Brincefield’s testimony.  Ms. Brincefield’s testimony was by far the least 
+supportive of Plaintiff’s theory of the case.  Ms. Brincefield appeared nervous at times and evinced 
+a desire to avoid stating or misstating anything that she believed might get her former coworkers 
+or the County in “trouble.”  E.g., Brincefield, Tr. at 778:13–20.  Although at first Ms. Brincefield 
+had limited memory of her involvement in the 2015 assessment, her recollection became more 
+specific while reviewing the County’s documents during her testimony.22  See id. at 778:8–12.  But 
+the Court credits Ms. Brincefield’s testimony because of her clear desire to be as truthful as 
+possible and the fact that she appeared to accept the “blame,” id. at 776:14, for the 2015 assessment 
+resulting in such a significant and long-running dispute, see id. at 745:8–747:17, 762:1–763:9, 
+775:10–780:5.   
+Ms. Brincefield’s testimony reasonably supports one conclusion: the County did not 
+account for the value of the completed renovations to the Property—specifically, by updating the 
+effective ages for the Property’s elements and, secondarily, updating economic rent to align more 
+closely with actual rent (which was itself justified both by the rent paid under the Lease and the 
+significant renovations contemplated by that lease)—until its 2015 review year.23  See id. at 777:3–
+ 
+22 As the parties recognized, Ms. Brincefield’s trial testimony contained significantly more 
+detail than her deposition testimony, including her belief that she was more directly involved in 
+the 2015 assessment of the Property than she previously remembered.  See Brincefield, Tr. at 
+769:13–19. 
+ 
+23 To be clear, the Court does not consider this testimony to be the sole dispositive piece 
+of evidence in the Government’s favor.  Nearly all the rest of the evidence submitted also favors 
+the Government.  Ms. Brincefield’s testimony is, though, perhaps the strongest evidence, along 
+with the County’s written records. 
+
+56 
+ 
+ 
+16, 778:13–20.  Indeed, it appears that Ms. Brincefield may have been the one County employee 
+to catch the error.  When she took over Mr. Aikin’s appraisals while he was unavailable, she 
+realized that one permit had not yet been marked complete and asked Mr. Pellegrino to conduct a 
+site visit to pick up the outstanding permit, at which point he reported to her the extent of work 
+that had been completed.  Id. at 776:1–23.  Only then did she become “really aware” of “all the 
+permit work” on the Property and that the County’s valuation had failed to account for the 
+completion of the renovations.  Id. at 776:14–777:16.  
+In sum, trial testimony from the Fairfax County assessors weighs in favor of the 
+Government’s theory of the case.  More likely than not, while the County considered the value of 
+partially completed renovations in the Property’s 2012 assessment, the County failed to confirm 
+the completion of and take into account the value of the Property’s renovation in either the 2013 
+or 2014 assessments, likely due to the transition in assessors from Mr. Pellegrino to Mr. Aikin.  
+After primary responsibility for the Property’s assessment shifted from Mr. Aikin to Ms. 
+Brincefield, and after Mr. Pellegrino inspected the Property in late 2014, the County finally became 
+aware of the completion of renovations and updated its 2015 assessment to reflect the Property’s 
+value as a fully renovated commercial office building. 
+D. 
+The Pattern of the Property’s Valuation Suggests Full Assessment Occurred 
+in the 2015 Tax Year. 
+Each party presented expert evidence intended to illustrate how yearly changes to the 
+Property’s assessments supported each theory of the case.  Plaintiff introduced expert testimony 
+that the increase to the Property’s valuation between 2010 and 2012 necessarily reflected 
+
+57 
+ 
+ 
+assessment of the renovations to the Property that were partially completed during that time.24  See 
+Lipman, Tr. at 901:2–902:20.  Full assessment, according to the expert, occurred in the tax year 
+following the completion of construction—i.e., 2013.  See id. at 921:9–11.  As he noted, in the 
+2013 review year, the County had available to it the data necessary to assess the value of all 
+renovations contemplated by the Lease.  Id. at 909:6–10 (noting that all the certificates of 
+occupancy and all but one work permit had been completed). 
+The Government introduced rebuttal expert testimony intended to illustrate that Plaintiff’s 
+expert had overstated the extent of the Property’s increase in value attributable to renovations by 
+choosing a comparison year—2010—that reflected depressed property values as a result of the 
+2008–2009 financial crisis.  See Lennhoff, Tr. at 1400:2–1402:12 (opining that in 2010 the Fairfax 
+County real estate market was still recovering from the Great Recession).  In the expert’s opinion, 
+the conclusion that full assessment occurred in 2015—when the County significantly increased the 
+value of the Property by decreasing the buildings’ effective ages (and by extension the 
+capitalization rates) and increasing the economic rent—“sort of jumps off the page at you.”  Id. at 
+1393:15–16 (also noting that the County first documented the completion of construction in the 
+2015 review year after Mr. Pellegrino’s site visit and documented “new construction” as the reason 
+for the assessment change). 
+ 
+24 Prior to trial, Plaintiff claimed that the 2012 tax assessment reflected the value of all 
+renovations contemplated by the Lease.  It has since abandoned that theory, in large part because 
+the mid-2012 completion of the Property’s interiors could not possibly have been factored into the 
+County’s 2012 assessment, which was finalized in January 2012.  See ECF No. 122 at 6 n.1; Trial 
+Tr. at 1026:23–25.  As Mr. Pellegrino testified at trial, he inspected the Property several times in 
+early 2012 and the County’s assessment policy required assessors to assess property value “as of” 
+January 1 of each year.  Pellegrino, Tr. at 524:25–525:7.  His remarks in the County’s records 
+confirm that, for the 2012 assessment, he did just that, noting that “renovations continue as of 
+1/1/12.”  JX 50 at 1443.   
+
+58 
+ 
+ 
+Apart from interpreting the County’s records (which mostly speak for themselves), each 
+party’s expert provided only minimally weighty evidence in support of the parties’ respective 
+theories.  For instance, the Court credits Plaintiff’s expert’s opinion that the County accounted for 
+the value of partially completed renovations in its 2012 assessment of the Property; indeed, Mr. 
+Pellegrino testified that he did so, and the 2012 notice of real estate assessment change specifically 
+identifies partial construction.  While legally immaterial, the Court likewise credits the expert’s 
+opinion that the County had access to all the information it needed to fully assess the Property in 
+the 2013 review year.  Plaintiff’s expert failed, though, to provide evidence that the County 
+actually accounted for the value of all renovations in the 2013 or 2014 tax assessments.   
+Plaintiff’s expert’s theory boils down to an argument that the changes to the Property’s 
+valuation between 2010 and 2013 reflect that the County captured the value of the partially 
+completed renovations in the 2012 assessment—as Mr. Pellegrino testified—and that the slight 
+increase in 2013 reflects the County’s final assessment of the remaining renovations.  See Lipman, 
+Tr. at 909:1–10 (describing the Property’s 1.1% increase in value in 2013 as “essentially capturing 
+the balance of all the work that had been done” since January 1, 2012).  But that theory is not 
+supported by the County’s records themselves, which do not reference the Property’s renovations 
+at all in relation to the 2013 review year and affirmatively identify the reason for the increase in 
+assessed value as “REASSESSMENT.”  JX 31 at 998; see JX 51.  Indeed, the modest 1.1% 
+increase in value from 2012 to 2013 is a minor fluctuation that would be completely consistent 
+with a small change based on market trends.  For example, the Property’s value fluctuated by a 
+similarly modest degree in the 2014 assessment, decreasing 3.6% due to market changes.  See JX 
+32 at 989 (identifying “REASSESSMENT” as reason for change).  In short, the expert’s theory 
+that the County accounted for the completed renovations—silently, without documenting the 
+
+59 
+ 
+ 
+fact—in its small increase in value in the 2013 review year does not tip the scale in Plaintiff’s 
+favor. 
+On the other side, the Court credits the Government’s expert’s opinion that much of the 
+Property’s increase in assessment value between 2010 and 2012 can be explained by a general 
+recovery in property values as the region emerged from the Great Recession, especially 
+considering the Property’s relatively higher values in 2007, 2008, and 2009.  Indeed, in 2012, the 
+County assessed the Property as being only about $5 million higher in value than the assessment 
+for 2008, which was the last assessment of the Property before the financial crisis when the 
+buildings were in their pre-renovated condition.  See Lennhoff, Tr. at 1390:1–10 (“[T]hat told me 
+nothing has really been picked up here.”).  However, even the expert, albeit hesitantly, 
+acknowledged that at least some of the increase reflected in the 2012 assessment was based on the 
+value of partial construction as shown by the witness testimony and County records.  See id. at 
+1432:24–1433:1.   
+Regardless, the Court agrees with the Government’s expert’s overall interpretation of the 
+valuation history and ultimate conclusion regarding the 2015 tax assessment—the significance of 
+the County’s notations tends to “jump off the page at you.”  Id. at 1393:15–16.  What is clear, as 
+explained above, is that the County’s records reflect that it first considered the completion of all 
+renovations to the Property in the 2015 review year; that the County changed certain valuation 
+metrics in 2015—most importantly, the buildings’ effective ages—to reflect those completed 
+renovations; and that, as the fact witnesses testified, personnel transitions in the County’s 
+assessment office likely led to a delay in capturing the full value of the completed renovations until 
+the end of 2014, just in time for the 2015 assessment cycle.     
+
+60 
+ 
+ 
+III. 
+Equitable “Windfall” Theory of Damages 
+In its Post-Trial Brief, Plaintiff asserts for the first time an alternative theory of windfall 
+damages.  It argues that, even if the County did not fully assess the Property until 2015, the Court 
+should order damages anyway on the basis that the County incorrectly used the income assessment 
+method to value the Property in 2015 when it should have used the cost method instead.  See ECF 
+No. 122 at 40–45.  Plaintiff provides no legal authority for the proposition that the Court has 
+jurisdiction to determine whether the County erred in using a particular assessment method.  See 
+id.  Nor could it.  Under the Tucker Act, this Court’s jurisdiction is limited to Plaintiff’s claim 
+against the United States arising under the Lease, and the Lease provision at issue in this case does 
+not require the Court to consider whether the County’s full assessment of the Property was properly 
+calculated.  It simply requires the Court to determine when full assessment occurred.  Any 
+challenge Plaintiff has to the correctness of Fairfax County’s assessment is a matter that it must 
+raise through the County’s real estate assessment appeals process.  
+Regardless, even if the Court had jurisdiction to consider Plaintiff’s argument, the question 
+of whether a party may benefit from an unfair windfall is typically reserved for instances where 
+one party is found to have breached the contract and a court is faced with determining what remedy 
+the non-breaching party should receive.  See, e.g., Hansen Bancorp, Inc. v. United States, 367 F.3d 
+1297, 1315 (Fed. Cir. 2004).  The Court is unaware of any authority permitting it (or any other 
+court) to order damages under a windfall theory even where the defendant has not breached the 
+contract.  That principle alone is enough to reject Plaintiff’s theory.   
+Additionally, it is not at all clear that the evidence Plaintiff relies on to support its argument 
+stands for the proposition that the cost approach was the appropriate method to use.  The only fact 
+evidence Plaintiff cites is testimony from Mr. Aikin that the “cost approach is more reliable with 
+
+61 
+ 
+ 
+completely new construction,” Aikin, Tr. at 616:2–8, and a County guideline stating that “[i]f an 
+office building is under construction as of January 1st of the year, the building will most likely be 
+valued using the cost approach,” JX 124 at 739.25  But Mr. Aikin also testified that the most weight 
+is given to the income approach when a property generates income and the County has access to 
+data relating to that income.  See Aikin, Tr. at 615:16–616:1.  By 2015, the Property had been 
+generating income (as rent) under the Lease, and the County had access to that actual rent data 
+since, at the latest, the beginning of the 2013 review year.   
+Further, the County’s guidelines explicitly note, two sentences after the guideline that 
+Plaintiff quotes, that “[i]f the shell [of the newly constructed office building] has been completed, 
+the income approach should be used.”  JX 124 at 739.  Here, the warm-lit shell was complete by 
+December 5, 2011, see JX 163 at 33385; JX 164 at 274148, suggesting that the County’s own 
+guidelines would have recommended using the income approach to value the Property in 2012.   
+In sum, the Court rejects Plaintiff’s request for damages based on a theory that Fairfax 
+County incorrectly valued the Property in 2015 for purposes of full assessment.  No legal authority 
+supports the request, and Plaintiff failed to show that the County acted improperly in performing 
+its assessment.  
+ 
+25 Mr. Lipman testified that he understood the County’s uniformity guidelines to “instruct 
+assessors to use the cost approach in the first year of the assessment” of a new building.  Lipman, 
+Tr. at 925:5–10.  As discussed here, Mr. Lipman’s interpretation appears to be incorrect.  The 
+guidelines plainly state that if the exterior of a newly constructed building is complete, the income 
+approach should be used.  JX 124 at 739; see also Lipman, Tr. at 1005:10–25.  
+
+62 
+ 
+ 
+CONCLUSION 
+Based on the foregoing, the Court finds that Plaintiff failed to meet its burden to show that 
+GSA breached the Lease or that Plaintiff is entitled to any damages.  The Clerk is DIRECTED to 
+enter final judgment in favor of the United States pursuant to RCFC 58.  
+SO ORDERED.  
+ 
+Dated: September 19, 2025  
+ 
+ 
+/s/ Kathryn C. Davis                        
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KATHRYN C. DAVIS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Judge 
+ 

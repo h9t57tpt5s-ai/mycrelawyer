@@ -1,0 +1,769 @@
+ 
+ 
+ 
+IN THE SUPREME COURT OF IOWA 
+ 
+No. 19–1582 
+ 
+Submitted February 22, 2022—Filed May 6, 2022 
+ 
+ 
+IN THE MATTER OF THE CONDEMNATION OF CERTAIN RIGHTS IN 
+LAND FOR THE EXTENSION OF ARMAR DRIVE PROJECT BY THE 
+CITY OF MARION, IOWA. 
+ 
+PHYLLIS M. RAUSCH, as Trustee of the WILLIAM J. RAUSCH FAMILY 
+TRUST, 
+ 
+Appellant, 
+ 
+vs. 
+ 
+CITY OF MARION, IOWA, 
+ 
+ 
+Appellee. 
+ 
+ 
+On review from the Iowa Court of Appeals. 
+ 
+Appeal from the Iowa District Court for Linn County, Patrick R. Grady, 
+Judge. 
+ 
+ 
+A property owner seeks further review of a court of appeals decision 
+affirming a condemnation award and the district court’s evidentiary rulings 
+precluding the owner from testifying about comparable sales. DECISION OF 
+COURT OF APPEALS VACATED; DISTRICT COURT JUDGMENT AFFIRMED. 
+ 
+
+ 
+2 
+  
+ 
+Waterman, J., delivered the opinion of the court, in which all justices 
+joined. 
+ 
+ 
+Dean A. Spina (argued) of Bradley & Riley PC, Cedar Rapids, for appellant. 
+ 
+ 
+Robert W. Goodwin (argued) of Goodwin Law Office, P.C., Ames; Kara L. 
+Bullerman of Allen, Vernon & Hoskins, P.L.C., Marion, for appellee. 
+ 
+
+ 
+3 
+  
+WATERMAN, Justice.  
+Landowners are generally allowed to give opinion testimony on the value 
+of their own property. But should owners of commercial property who do not 
+qualify as experts be allowed to support their valuation by testifying about 
+allegedly comparable sales of property owned by others? This appeal presents 
+that question. An Iowa municipality condemned part of the owner’s undeveloped 
+land for a road. The parties disagreed on the just compensation award. The 
+district court allowed the owner to testify to his opinion on the site’s reduction 
+in value resulting from the taking but granted the municipality’s motion in limine 
+barring his evidence of comparable sales on the grounds that the owner relied 
+on hearsay, lacked personal knowledge of those transactions, and was 
+unqualified as an expert. The property owner appealed, and the court of appeals 
+affirmed. 
+On our review, for the reasons explained below, we disagree with the 
+district court’s analysis on hearsay and personal knowledge. Public real estate 
+records are readily admissible into evidence and this owner gained personal 
+knowledge by reviewing the courthouse records and visiting the other properties. 
+But we affirm the exclusionary ruling because this owner, a former restaurant 
+manager, was not qualified as an expert under Iowa Rule of Evidence 5.702 to 
+offer opinion testimony that sales of other commercial property were comparable 
+where that opinion required technical or specialized knowledge. We decline to 
+impose a categorical rule disallowing lay owner opinion testimony about specific 
+comparable sales. On this record, the district court did not abuse its discretion 
+
+ 
+4 
+  
+by limiting the owner’s testimony given his lack of expertise and the complexity 
+of these commercial real estate valuations. 
+I. Background Facts and Proceedings. 
+In 1969, Phyllis and William Rausch bought a house on 20 acres of 
+farmland in Linn County. The Rausch family farmed the land and lived there 
+until 1977, when they turned the house into a rental property. In 1990, the Iowa 
+Department of Transportation condemned part of the land and left the family 
+with 9.57 acres. The house was removed from the land before 2017. The property 
+is now vacant, undeveloped land that is partially wooded with a steep ravine. 
+The site is ungraded and lacks commercial road access, although it is adjacent 
+to a divided four-lane highway. The property is zoned general commercial and is 
+located near the Lindale Mall development area. 
+The property is now owned by the William J. Rausch Family Trust (Trust). 
+After William’s death in 2002, Phyllis became the primary beneficiary of the Trust 
+and the trustee. According to the Trust’s attorney, Phyllis “receives all of the 
+income from the trust” and “can invade the principal for her health, education, 
+support and maintenance at her discretion.” But, “[s]he has not done so.” If 
+Phyllis passes away and the property remains in the Trust, the Trust property 
+will be divided evenly between William’s five children, one of whom is James 
+Rausch.  
+James had lived on the property with his family. He is forty-nine years old. 
+He has an English degree from Coe College. He has been a restaurant manager 
+since finishing college. He opened restaurants in Columbus, Ohio; Minneapolis, 
+
+ 
+5 
+  
+Minnesota; and Nashville, Tennessee. Two years before trial, he took a leave of 
+absence from this work and began taking care of his mother full-time. James 
+handles paying her bills, taking her to medical appointments, and arranging her 
+medications. He also manages her assets which include her home, a barbershop, 
+four rental houses, and over 700 acres of farmland that is leased out to a farmer. 
+Phyllis recently sold 76 acres at $37,000 an acre, and James studied other 
+properties in the area to determine where to reinvest the money to avoid paying 
+capital gains taxes through a section 1031 like-kind exchange. See 26 U.S.C. 
+§ 1031.  
+James is not an appraiser or real estate agent. He has never bought or 
+sold real estate himself. His only experience in buying and selling real estate 
+involved helping his mother buy two pieces of farmland.  
+In 2017, the City of Marion condemned part of the 9.57 acres owned by 
+the Trust to connect Armar Drive to Highway 100, Collins Road. The City took 
+0.63 acres to extend Armar Drive to intersect with the highway, which also 
+required a temporary construction easement of 0.76 acres. The road extension 
+split the property into two parts separated by Armar Drive: a small triangular 
+section (0.61 acres) and a larger section (8.33 acres). The Trust retained an 
+appraiser who opined the loss in value was $280,625. On March 29, the 
+compensation commission awarded $403,000 as just compensation, 44% higher 
+than the $280,625 figure put forward by the Trust’s appraiser in that proceeding. 
+Nonetheless, the Trust was dissatisfied with the result and sought $1 million in 
+
+ 
+6 
+  
+damages. The Trust did not retain an appraiser willing to testify to a higher 
+amount than $403,000.  
+The Trust appealed the commission’s award and demanded a jury trial. 
+The City responded, stating, “[T]he only appealable issue is the difference in fair 
+market value of the [property] immediately before and immediately after the 
+acquisition on March 29, 2017.” The district court entered a scheduling order 
+requiring expert disclosures by April 1, 2018, for the Trust, and by June 1, 2018, 
+for the City. 
+On May 4, after the Trust failed to designate an expert, the City moved for 
+summary judgment and to exclude any expert witnesses on behalf of the Trust. 
+The Trust resisted the motions. The City timely designated an expert who opined 
+that just compensation was $82,900. The Trust informed the district court that 
+it planned to call Phyllis to testify as to her opinion of value and to cross-examine 
+the City’s expert to prove its damages. The Trust filed Phyllis’s affidavit and 
+argued Phyllis’s health issues contributed to discovery delays and that the 
+exclusion of expert witnesses would be inappropriate. The City moved to strike 
+Phyllis’s affidavit. The district court denied the motions for summary judgment 
+and to strike the affidavit but granted the motion to exclude the Trust’s expert 
+witnesses.  
+On April 12, 2019, the City filed a motion in limine requesting that the 
+court exclude “[t]estimony or evidence of sales of real estate that are asserted by 
+the [Trust] to be comparable to the [property] unless a foundation is laid by the 
+[City’s] expert witness” and “[t]estimony or evidence by the assessor’s website of 
+
+ 
+7 
+  
+real estate comparable to the [property] because that would be on the 
+assumption that the assessor has the expertise to express an opinion of 
+comparability.” Two days later the Trust filed its pretrial statement identifying 
+James as a witness instead of Phyllis. Phyllis was unable to serve as a 
+representative of the Trust at trial because of her medical condition.  
+The City objected to the Trust’s designation of James and argued he was 
+not properly designated as an expert, nor was he qualified to testify as an expert. 
+The City further argued that an “[o]pinion testimony of a lay person concerning 
+comparable sales and values is not appropriate in a condemnation appeal. 
+Opinion testimony of a lay person must be based on firsthand knowledge of the 
+witness,” which James lacks because he was not “the buyer, or the seller or the 
+realtor involved in” the comparable sales included in the Trust’s exhibit list.  
+In a ruling five days before trial, the court prohibited James from testifying 
+about comparable sales because such testimony would not be “based on his 
+personal experience or familiarity with the transactions he wishes to call 
+comparable and his information about the market value of the subject property 
+is based on hearsay about how others valued the property at different times.”  
+The Trust submitted an offer of proof on three comparable sales. In his 
+deposition and offer of proof testimony at trial, James described his investigation 
+into the other sales using the assessor’s website to review the public real estate 
+records. He also visited each property. He compared each site’s highway access 
+to the Trust property and their location, size, sale price, and date of sale. He 
+testified that he found these sales while he was trying to help his mother reinvest 
+
+ 
+8 
+  
+proceeds from a sale of farmland, not at the request of the Trust’s attorney for 
+the condemnation proceeding. James conceded he otherwise had no “firsthand 
+personal knowledge” of the three sales and that he is not an appraiser or realtor. 
+The Trust’s offer of proof included warranty deeds for a “subdivision proceeding 
+or a tax parcel” and describes the three sales James considered comparable. 
+The first sale, the Fiesta Del Sol property, sold in September 2015 for 
+$580,000 (twenty-one dollars per square foot). It is located on Highway 100 
+about a half-mile away from the Rausch family’s property, closer to the Lindale 
+Mall development area. The new property owners demolished the structure on 
+the property to create vacant land on which to build retail stores. Highway access 
+was limited by a median, allowing traffic in only one direction to turn into the 
+property. The second sale, the UnityPoint property, was purchased as vacant 
+land in June 2016, with 3.23 acres, access to a divided four-lane highway 
+controlled by a traffic light, and a sale price of around $9 per square foot. The 
+land was fairly level with utilities. The new owners built medical offices on the 
+property. The third sale, the Kwik Star property, had 1.95 acres, which sold for 
+around $10 per square foot in July 2015. After the sale, the owners demolished 
+a bank to construct a gas station and convenience store. These properties were 
+located near Westdale Mall, which is the secondary shopping district for the area.  
+Jury trial commenced on August 19. The parties agreed that James could 
+testify as an owner. James testified to his background, his experience in helping 
+his mother manage her properties, and the condition of the property at issue 
+before and after the partial taking. But the district court renewed its ruling that 
+
+ 
+9 
+  
+James “is not qualified to testify as to comparable sales. That’s pretty clear. He’s 
+-- I will let him testify as to what he believes the value is and that it’s -- that he 
+got it from looking on the internet, but nothing about a specific sale.” James was 
+allowed to testify about the development activity in the area and opined how the 
+partial taking limited development opportunities for the Trust property. The 
+court barred James from testifying as to the three sales in his offer of proof or 
+any other allegedly comparable sales. James testified to his opinion that the 
+Trust land should be valued at $12 per square foot, or $522,720 per acre, and 
+that the fair market value of the property decreased by around $800,000 after 
+the partial taking.  
+During the Trust’s offer of proof, James was corrected by his own counsel: 
+Q. And you bought farmland?  
+A. Yeah.  
+Q. Do you recall approximately what the per acre price was?  
+A. It was -- The total was 576,000 for 115 acres. So it was -- I 
+don’t recall offhand. It was -- Almost 9,000 an acre, I believe. 
+Q. The number you said, that 115 acres is only about 5,000 
+an acre, you said?  
+A. Well, it was more than that. 
+At trial, James testified that he knew how to use the assessor’s website 
+and that he had pulled up from the website information on three real property 
+transactions involving land along Highway 100 that he believed were 
+comparable, although two of them were “across town.” He maintained that those 
+
+ 
+10 
+  
+comparable sales supported a value of $12 per square foot for the Trust’s land 
+along Highway 100. 
+The valuation testimony that James was allowed to give included the 
+following: 
+Q. Okay. You mentioned that, in your view, the property 
+before the taking had a value of 12 dollars a square foot. You said 
+that was including all of the area, the 9.57 acres, is that correct?  
+A. Yes.  
+Q. Do you know what that equates to in terms of a dollar 
+amount?  
+A. The five point -- five million and something.  
+Q. Roughly five million, you said?  
+A. Yes.  
+Q. Do you know what you believe the value of the property to 
+be after the taking?  
+A. 410 to ‘20 thousand. 420 thousand, around there.  
+Q. 400 -- Four million or --  
+A. I’m sorry. Four million and --  
+Q. Five million to four million?  
+A. Yes.  
+Q. Is that what you’re saying?  
+A. Yes.  
+Q. Is that rounding numbers?  
+A. Yeah. So like five million something minus like almost 
+700,000 maybe.  
+Q. So I need a number. What do you think?  
+A. It’s four million 300 thousand -- 200 thousand. 
+
+ 
+11 
+  
+Q. I don’t want to -- You choose the number that you think 
+it’s worth after the taking.  
+A. The 8.33 acres that’s left in that triangle portion, what it’s 
+worth?  
+Q. What is left to you is the triangle portion and the 8.33 acres 
+that’s left to the Rausch family. What is that worth after the taking, 
+viewing it --  
+A. Four million 200 thousand.  
+Q. Four million 200 thousand?  
+A. Sure.  
+Q. So the difference being roughly 800 thousand?  
+A. Yeah, roughly. 
+To support its case, the City called a certified appraiser. The appraiser’s 
+testimony emphasized that the Trust land was raw undeveloped land, with trees 
+on it, no grading, and no facilities. Later, the Trust’s attorney cross-examined 
+the City’s appraiser about the three comparable sales James had wanted to use. 
+The appraiser said he did not use any of them because they were all developed 
+lots; in fact, two of them had existing buildings. None of them involved 
+undeveloped land. The jury awarded the Trust $82,900 in damages, the exact 
+amount recommended by the City’s expert. The Trust appealed the resulting 
+judgment.  
+On appeal, the Trust argues the district court erred by excluding its 
+comparable sales evidence. The City argues the district court correctly permitted 
+James, as an owner, to give an opinion of value and excluded the Trust’s 
+comparable sales evidence because James lacked firsthand personal knowledge 
+of the sales and was unqualified to testify as an expert. The City does not 
+
+ 
+12 
+  
+challenge James’s status as an owner of the property based on his interest as a 
+contingent beneficiary. We transferred the case to the court of appeals, which 
+affirmed on the ground that James lacked personal knowledge of the comparable 
+sales. The Trust applied for further review, which we granted.  
+II. Standard of Review. 
+We review evidentiary rulings for abuse of discretion. Kurth v. Iowa Dep’t 
+of Transp., 628 N.W.2d 1, 5 (Iowa 2001) (en banc). “ ‘An abuse of discretion 
+occurs when the trial court “exercises its discretion on grounds clearly untenable 
+or to an extent clearly unreasonable.” ’ ” Id. (quoting State v. Greene, 592 N.W.2d 
+24, 27 (Iowa 1999), abrogated on other grounds by State v. Crawford, ___ N.W.2d 
+___, 2022 WL 815299 (Iowa Mar. 18, 2022)). Misapplying a rule of law is an abuse 
+of discretion. NuStar Farms, LLC v. Zylstra, 880 N.W.2d 478, 482 (Iowa 2016) (“A 
+ground is clearly untenable when the court relies on an improper legal standard 
+or applies the law in error.”). The district court has “wide latitude regarding 
+admissibility” and we will only reverse “where the losing party was prejudiced by 
+an unreasonable decision.” Kurth, 628 N.W.2d at 5 (quoting State v. Sallis, 574 
+N.W.2d 15, 16 (Iowa 1998)). “Generally, hearsay rulings are . . . reviewed for 
+errors at law.” Id.  
+III. Analysis. 
+We have long allowed landowners to testify about the value of their own 
+property. Holcomb v. Hoffschneider, 297 N.W.2d 210, 213 (Iowa 1980) (en banc) 
+(“In ascertaining the value of property, its owner is a competent witness to testify 
+as to its market value.”). This is known as “the property owner rule.” Reid Rd. 
+
+ 
+13 
+  
+Mun. Util. Dist. No. 2 v. Speedy Stop Food Stores, Ltd., 337 S.W.3d 846, 852–53 
+(Tex. 2011) (“Generally, a property owner is qualified to testify to the value of her 
+property even if she is not an expert and would not be qualified to testify to the 
+value of other property.”). “The rule is based on the presumption that an owner 
+will be familiar with her own property and know its value.” Id. at 853. But as we 
+show below, courts are divided on whether lay owners can testify about 
+comparable sales to support their valuations.  
+We have not revisited the property owner rule in condemnation cases since 
+Iowa adopted most of the Federal Rules of Evidence in 1983. The district court 
+is to perform a gatekeeper role in determining the admissibility of opinion 
+testimony on comparable sales. See Iowa R. Evid. 5.702. Key factors are the 
+owner’s valuation experience and the expertise required to evaluate the 
+purportedly comparable sales. By his own admission, James is not an expert on 
+commercial real estate valuations, and the district court so ruled.  
+We begin our analysis by examining the use of comparable sales. Next, we 
+will review the district court’s rulings excluding James’s evidence of other sales 
+on the grounds of hearsay and lack of personal knowledge. We will then confront 
+the dispositive issue of whether the district court abused its discretion by ruling 
+that James, a lay owner, was unqualified to testify about the three allegedly 
+comparable sales of commercial property. 
+A. Comparable Sale Evidence Generally. For partial takings, damages 
+are measured by “the difference in the fair market value of the subject property 
+immediately before and immediately after condemnation.” Van Horn v. Iowa Pub. 
+
+ 
+14 
+  
+Serv. Co., 182 N.W.2d 365, 371 (Iowa 1970) (quoting Jones v. Iowa State 
+Highway Comm’n, 144 N.W.2d 277, 280 (Iowa 1966)). We define fair market 
+value as “the price a willing buyer under no compulsion to buy would pay and a 
+willing seller under no compulsion to sell would accept.” Id. (quoting Jones, 144 
+N.W.2d at 280). A landowner “is damaged to the extent his property is diminished 
+in value by the condemnation” and has the burden to demonstrate he sustained 
+damage. Id. at 370–71 (quoting Jones, 144 N.W.2d at 280).  
+Thus, a landowner is permitted to show all competent facts which 
+an owner would properly and naturally press upon the attention of 
+a buyer with whom he is negotiating a sale and all other competent 
+facts which would naturally influence a person of ordinary prudence 
+desiring to purchase—not as affording a measure of recovery but as 
+tending to disclose the real character and condition of the property 
+and as support for the estimates of value given by the witnesses. 
+Id. at 371. 
+In condemnation cases, “[t]he rule as to competency of value witnesses is 
+to be liberally construed in favor of admissibility and if there is evidence of 
+knowledge of values the extent of the witness qualifications ordinarily goes to the 
+weight of the evidence rather than to its admissibility.” Iowa Dev. Co. v. Iowa 
+State Highway Comm’n (Iowa Dev. Co. II), 122 N.W.2d 323, 327 (Iowa 1963) 
+(allowing a corporate owner’s president to give a valuation opinion based in part 
+on the value of an adjacent lot, owned by a different party). Property owners are 
+permitted to give opinions on the value of their own property. See Kimmel v. Iowa 
+Realty Co., 339 N.W.2d 374, 380–81 (Iowa 1983) (“As owners of the property, the 
+plaintiffs could properly express their opinion as to these values.”); Redfield v. 
+Iowa State Highway Comm’n, 99 N.W.2d 413, 415 (Iowa 1959) (owner testified 
+
+ 
+15 
+  
+to the value of his land before and after a taking). Owners acquire knowledge of 
+property values through life experiences in managing, owning, and enjoying their 
+property.  
+Real estate valuations are commonly based on comparable sales. “It 
+should be kept in mind that evidence of comparable sales is germane to the 
+question of value before condemnation.” Belle v. Iowa State Highway Comm’n (In 
+re Primary Rd. 1–80), 126 N.W.2d 311, 314 (Iowa 1964). Since our decision 
+sixty-two years ago in Redfield v. Iowa State Highway Commission, “evidence of 
+comparable sales [is] admissible as substantive evidence of value.” Bus. 
+Ventures, Inc., v. Iowa City, 234 N.W.2d 376, 384 (Iowa 1975); see also Redfield, 
+99 N.W.2d at 416. “Like other evidence, it is for the jury to determine its weight 
+and credit.” Bus. Ventures, Inc., 234 N.W.2d at 384. “However, it must be shown 
+that there is sufficient similarity to the subject property before such evidence is 
+admissible.” Bellew v. Iowa State Highway Comm’n, 171 N.W.2d 284, 288 (Iowa 
+1969) (quoting Martinson v. Iowa State Highway Comm’n, 134 N.W.2d 340, 344 
+(Iowa 1965)).  
+To be considered comparable, the sales “need not be identical but must 
+have a resemblance in order to be shown in evidence.” Iowa Dev. Co. v. Iowa 
+State Highway Comm’n (Iowa Dev. Co. I), 108 N.W.2d 487, 492 (Iowa 1961). “Size, 
+use, location and character of the land and time, mode and nature of the sale all 
+have a bearing on the admissibility of such evidence.” Id. “While the properties 
+must be ‘similar’ enough that the sales assist the jury, we have noted, ‘Jurors 
+are men and women of the world, and when the differences between the 
+
+ 
+16 
+  
+properties are brought out in evidence . . . the jurors can make comparisons in 
+value.’ ” Bus. Ventures, Inc., 234 N.W.2d at 384 (omission in original) (quoting 
+Perry v. Iowa State Highway Comm’n, 180 N.W.2d 417, 420 (Iowa 1970)).  
+District courts have discretion to determine which sales are similar enough 
+to be admissible. Id.; Belle, 126 N.W.2d at 314 (“There was enough similarity in 
+the properties, however, so that the admission of the evidence was within the 
+discretion of the court.”); see also Redfield, 99 N.W.2d at 415 (noting large 
+differences in expert opinions “lends force to appellants’ claim that the actual 
+records of sales of comparable properties from which the witnesses gained their 
+knowledge are more reliable evidence than mere opinions of the experts”). 
+Comparable sales are admissible as substantive evidence.  
+Knowledge of a witness of other sales may be and frequently 
+is a foundation for opinion testimony, but evidence of actual sales 
+of comparable property is now substantive evidence as distinguished 
+from opinion testimony. It frequently happens, . . . that opinion 
+testimony and evidence of comparable sales comes from the same 
+witness. Evidence of comparable sales may be used to test the 
+qualification of an opinion witness and also as substantive evidence. 
+Belle, 126 N.W.2d at 314. 
+In sum, we have long recognized that property values are influenced by 
+the prices obtained in comparable sales, and liberally allow evidence of such 
+sales: 
+Everyone recognizes that the first thing a prospective buyer of any 
+kind of property wants to know is what other people have paid for 
+like property in the recent past. . . . But when the valuation of realty 
+is the problem, court and jury are suddenly cut off from informative 
+sources and forced to rely (theoretically) upon opinions based 
+principally upon undisclosed prices of other sales. . . . The main 
+objective of the rule—avoidance of collateral issues—has proved 
+
+ 
+17 
+  
+abortive and the procedural aspect of the trial has changed for the 
+worse.  
+Redfield, 99 N.W.2d at 418 (omissions in original) (quoting County of Los Angeles 
+v. Faus, 304 P.2d 257, 269–70 (Cal. Dist. Ct. App. 1956) (Ashburn, J., 
+concurring) (encouraging reconsideration of the prohibition against the 
+presentation of comparable sales evidence on direct examination), vacated, 312 
+P.2d 680, 683–85 (Cal. 1957) (en banc) (overruling prohibition)).  
+The fighting issue in this case is whether James was qualified to establish 
+that the three sales of commercial property he identified were comparable. 
+Against this backdrop, we turn to the evidentiary rulings in this case. 
+B. The Hearsay Ruling. James’s exhibits in his offer of proof included 
+deeds for the other property sales from which the sale price could be calculated 
+within $500 based on the transfer tax paid. See Iowa Code § 428A.1(1) (2017) 
+(imposing transfer tax and requiring declaration of value to accompany deed); 
+see also id. § 428A.5 (requiring the amount of transfer tax to appear on the face 
+of the recorded instrument). The district court excluded evidence of James’s 
+other sales on hearsay grounds. But public records of real estate sales are readily 
+admissible into evidence through exceptions to the hearsay rule and by statute. 
+See Iowa Rs. Evid. 5.803(8)(A) (hearsay exception for public records), 5.803(14) 
+(hearsay exception for records of documents that affect an interest in property), 
+5.803(15) (hearsay exception for statements in documents that affect an interest 
+in property); see also Iowa Code § 622.36 (“Every instrument in writing affecting 
+real estate, . . . which is acknowledged or proved and certified as required, may 
+be read in evidence without further proof.”). See generally Iowa Rs. Evid. 5.901, 
+
+ 
+18 
+  
+5.902 (authentication of records). We conclude the district court erred by 
+excluding James’s testimony and evidence of comparable sales on hearsay 
+grounds. 
+C. The Personal Knowledge Ruling. The district court also excluded the 
+Trust’s evidence of comparable sales on the grounds that James lacked personal 
+knowledge because he was not the buyer, seller, or realtor in the other sales 
+transactions. James acquired his knowledge of the other sales by reviewing 
+public real estate records readily admissible into evidence and by personally 
+inspecting the other sites.  
+The personal knowledge requirement for lay witness testimony is set forth 
+in Iowa Rule of Evidence 5.602, which provides,  
+A witness may testify to a matter only if evidence is introduced 
+sufficient to support a finding that the witness has personal 
+knowledge of the matter. Evidence to prove personal knowledge may 
+consist of the witness’s own testimony. This rule does not apply to 
+a witness’s expert testimony under rule 5.703. 
+Rule 5.602’s personal knowledge requirement is easily satisfied. “Lay witnesses 
+may testify to their opinions or inferences if the testimony is rationally based on 
+the witness’s perceptions and it is helpful to giving the jury a clear understanding 
+of either the witness’s testimony or a determination of a fact at issue in the case.” 
+Whitley v. C.R. Pharmacy Serv., Inc., 816 N.W.2d 378, 390 (Iowa 2012); see also 
+Iowa R. Evid. 5.701 (lay witness opinion testimony). “[A] sufficient factual 
+foundation must be established showing the witness’s opinion is based on 
+firsthand knowledge and ‘personal knowledge of facts to which the observed facts 
+are being compared.’ ” Whitley, 816 N.W.2d at 390 (quoting 7 Laurie Kratky Doré, 
+
+ 
+19 
+  
+Iowa Practice Series: Evidence § 5.701:1, at 628–31 (2011 ed.)). James met the 
+required showing by reviewing the public land records and personally visiting 
+the properties. 
+In Whitley v. C.R. Pharmacy Service, Inc., the plaintiff in a medical 
+malpractice action argued the district court “abused its discretion by allowing 
+the pharmacy manager . . . to testify to his conclusion about the meaning of the 
+line through the name of [her doctor’s] receptionist that was written on the 
+delivery log.” 816 N.W.2d at 390. The pharmacy manager’s testimony was limited 
+to his conclusions “based on his knowledge of what a mark on delivery logs 
+typically meant in his experience with the pharmacy’s delivery system.” Id. We 
+concluded the plaintiff’s argument is essentially “that the court allowed a lay 
+witness to improperly opine about an ultimate issue at trial.”1 Id. We held the 
+district court did not abuse its discretion by permitting this lay opinion testimony 
+because “the pharmacy established [the manager] had personal knowledge of the 
+pharmacy’s delivery log procedures and that he conducted an investigation into 
+the logs and receipts in [the] case before reaching his conclusion.” Id. at 390–91. 
+The manager was not personally involved in any transactions; rather, he 
+reviewed the evidence of the transactions and provided his opinion.  
+Similarly, James was not personally involved in the transactions for each 
+identified sale but he reviewed information about each sale when trying to 
+                                       
+1In condemnation cases, the ultimate issue is the amount of damage a landowner’s 
+property sustained as a result of the taking—not the value of other comparable properties. 
+Van Horn, 182 N.W.2d at 371 (“Value of the various tracts involved before condemnation is not 
+the ultimate issue. It is the starting point. But the question is how much each farm has been 
+damaged or reduced in value by the transmission installation and easement.”). 
+
+ 
+20 
+  
+reinvest proceeds from the sale of farmland. The Trust laid the foundation to 
+demonstrate his personal knowledge of the other sales. The district court erred 
+when it concluded James lacked personal knowledge because he was not “the 
+buyer, or the seller or the realtor involved in” the sales included in the Trust’s 
+exhibit list. See City of Grand Rapids v. H.R. Terryberry Co., 333 N.W.2d 123, 
+126–27 (Mich. Ct. App. 1983) (concluding the owners of condemned property 
+properly relied on comparable sales because the owners “had personally 
+inspected, at least briefly, each of those buildings” or were at least “familiar with 
+their exterior condition and the neighborhood in which they were located”); S.C. 
+State Highway Dep’t v. Wilson, 175 S.E.2d 391, 397 (S.C. 1970) (allowing 
+property owner’s testimony of comparable sales when her knowledge of such 
+sales was gained from reading abstracts of recorded deeds because “[w]here 
+comparable sales are in part a basis of the opinion as to value, even expert 
+witnesses, as often as not, do not have firsthand information, or personal 
+knowledge, thereabout” so the source of her knowledge went to “the weight of 
+the opinion evidence being offered rather than its competency or admissibility”). 
+D. Are Lay Property Owners Permitted to Testify about Comparable 
+Sales of Commercial Property? James admittedly is not an appraiser or 
+valuation expert. The district court ruled that James cannot support his 
+valuation opinion as the owner of the property by testifying about comparable 
+sales, because he is unqualified to do so. We have not previously addressed 
+whether lay owners can testify about specific comparable sales to support the 
+valuation of their own land. 
+
+ 
+21 
+  
+As noted above, a property owner generally is allowed to testify as to its 
+value. Their valuation can be a lay opinion under rule 5.701, which is 
+permissible because the owner is presumed to know their own property. See 
+generally U.S. ex rel. Tenn. Valley Auth. v. An Easement & Right-of-Way over 6.09 
+Acres, 140 F. Supp. 3d 1218, 1240–42 (N.D. Ala. 2015) (“[T]estimony by a witness 
+relating the value of his own land or property may be admissible as a lay 
+opinion.”) (surveying authorities). Rule 5.701 “does not distinguish between 
+expert and lay witnesses, but rather between expert and lay testimony.” Id. at 
+1241 (quoting Fed. R. Evid. 701 advisory committee’s note to 2000 amendments). 
+So whether owners can expand their testimony beyond their lay opinion of the 
+value of their property and testify about what they believe to be comparable sales 
+depends on the basis for that testimony. But an owner who relies on technical 
+or specialized knowledge to weigh in on comparable sales and how to make 
+adjustments to them in order to apply them to the valuation of the subject 
+property has moved into the realm of expert testimony and must qualify as such 
+under rule 5.702. See id. at 1241–44 (exploring the interplay between Federal 
+Rules of Evidence 701 and 702 on opinion testimony in condemnation cases); 
+see also State v. Boothby, 951 N.W.2d 859, 876, 876 n.2 (Iowa 2020) (discussing 
+the line between lay opinion testimony under Rule 701 and expert testimony 
+under Rule 702).  
+According to some authorities, “while property owners may always testify 
+as to their opinion concerning the value of their own property in a condemnation 
+action, they may not support that opinion by reference to comparable sales 
+
+ 
+22 
+  
+unless they qualify as an expert.” 32 C.J.S. Evidence § 888, at 679–80 (2020); 
+see also Bennett v. Commonwealth, Dep’t of Highways, 417 S.W.2d 143, 145 (Ky. 
+1967) (explaining that, in order to testify using comparable properties, “the 
+owner of property must qualify the same as any other expert witness. Once he 
+does, there is no reason why he cannot cite sales of comparable property located 
+within the range of his expert knowledge”); 5 Julius L. Sackman, Nichols on 
+Eminent Domain § 23.03, at 23–30 (3d ed. 2013) (“Once the owner qualifies as 
+an expert witness, he may cite sales of comparable properties located within the 
+range of his expert knowledge.”). The point is: When a witness claims that a 
+certain sale is comparable and then claims that an adjustment needs to be made 
+(or does not need to be made) for valuation purposes, that in itself likely requires 
+an expert opinion. Certainly that is true of commercial property. 
+The Virginia Supreme Court’s recent decision of Helmick Family Farm, 
+LLC v. Commissioner of Highways illustrates this point. 832 S.E.2d 1 (Va. 2019). 
+In Helmick, Virginia’s highest court affirmed the trial court ruling excluding 
+documentary evidence of comparable land sales that Helmick sought to use as 
+evidence. Id. at 11–12. The Helmick court reasoned: 
+Generally, a landowner should be permitted to explain the basis for 
+his opinion of value, subject to cross-examination by the 
+Commissioner to expose flaws or ignorance concerning the property 
+owner’s valuation of property. However, Mr. Helmick was not 
+qualified or even offered as an expert appraiser. Given the wide 
+latitude the trial court afforded Mr. Helmick in his testimony, and 
+the fact that he was not testifying as an expert appraiser, we find no 
+abuse of discretion in the trial court’s handling of his testimony or 
+its refusal to admit the proffered exhibits into evidence. 
+
+ 
+23 
+  
+Id. at 12. Notably, Helmick was not a restauranteur with limited real estate 
+experience like James. On the contrary, Helmick had “experience as a developer 
+of residential property for over two decades, and . . . worked as a licensed 
+contractor and licensed real estate broker.” Id. Still, the court allowed him 
+generally to testify that sales of nearby properties supported his valuation but 
+not to bring in specific comparables. See id. at 11–12. 
+Here too, the district court’s order did not bar James from claiming he had 
+relied on comparable sales but did bar him from introducing evidence of specific 
+so-called comparable sales. In our view, the district court struck the proper 
+balance by excluding James’s back-of-the-envelope comparable sales opinions. 
+James was not an expert. He had not been “purchasing and leasing various 
+commercial properties . . . for several decades” like the owner deemed qualified 
+as an expert in State ex rel. Missouri Highways & Transportation Commission v. 
+Boer, 495 S.W.3d 765, 770 (Mo. Ct. App. 2016).  
+Our rule 5.701, like Federal Rule of Evidence of 701, makes clear that 
+unless a witness is testifying as an expert, their opinions are limited to those 
+“[r]ationally based on the witness’s perception” and “[n]ot based on scientific, 
+technical, or other specialized knowledge within the scope of rule 5.702.” Iowa 
+R. Evid. 5.701. In discussing this language, the Advisory Committee notes state, 
+[M]ost courts have permitted the owner or officer of a business to 
+testify to the value or projected profits of the business, without the 
+necessity of qualifying the witness as an accountant, appraiser, or 
+similar expert. Such opinion testimony is admitted not because of 
+experience, training or specialized knowledge within the realm of an 
+expert, but because of the particularized knowledge that the witness 
+has by virtue of his or her position in the business.  
+
+ 
+24 
+  
+Fed. R. Evid. 701 advisory committee’s note to 2000 amendments (citation 
+omitted). As with the business owner, so too with a real property owner. The 
+property owners’ conclusions as to value are admissible into evidence not 
+because the owners are experts, but because they are the owners. Thus, for the 
+same reasons that we would not let a typical restaurant manager come into court 
+and opine that certain sales of commercial property are comparable, the district 
+court did not abuse its discretion by refusing to allow James to do so. 
+We recognize that many owners or prospective owners of real estate 
+evaluate comparable sales to determine a property’s value. This is true for 
+first-time home buyers, homeowners considering downsizing, and investors in 
+the business of flipping houses. Farmers often have accurate opinions of the 
+value of their farmland based on the per acre price for other farms sold in the 
+area. Owners of undeveloped land likewise make investment decisions after 
+ascertaining the sale price of similar undeveloped land nearby.  
+In some cases, under Iowa Rule 5.701 or 5.702, the record may support 
+allowing the owner to support their opinion of the value of their own property by 
+testifying about specific comparable sales. See generally 6.09 Acres, 140 
+F. Supp. 3d at 1242 (explaining that “lay testimony ‘results from a process of 
+reasoning familiar in everyday life’ whereas expert testimony ‘results from a 
+process of reasoning which can be mastered only by specialists in the field’ ” 
+(quoting Fed. R. Evid. 701 advisory committee’s note to 2000 amendments)). “If 
+an owner’s testimony on value is based not upon commonly understood 
+considerations of worth flowing from his perceptions and knowledge of his 
+
+ 
+25 
+  
+property but instead upon technical or specialized knowledge more broadly, it 
+crosses into expert testimony for purposes of Rule 702 . . . .” Id. We decide only 
+the case before us, involving a former restaurant manager’s attempt to rely on 
+sales of developed commercial property to support his valuation of his own 
+undeveloped land. In our view, selecting comparable sales of developed 
+commercial real estate requires a qualified expert, which James is not. 
+Another court aptly emphasized the complexity involved in comparing 
+sales of commercial property: 
+The instant matter concerned commercial property values. There are 
+several factors that may more-significantly affect commercial 
+property 
+values 
+such 
+as 
+zoning 
+designations, 
+location, 
+income/expense analysis, and traffic patterns and volume. Thus, 
+the opinion as to whether two commercial properties are comparable 
+for purposes of real estate appraisals is an inquiry that is beyond 
+the knowledge and understanding of a typical lay person. 
+City of Kent v. Atkinson, No. 2010–P–0084, 2011 WL 6016549, at *7 (Ohio Ct. 
+App. Dec. 5, 2011) (affirming a decision to exclude evidence of other sales where 
+the owner “did not present an expert, did not attempt to establish himself as an 
+expert, and did not seek a continuance in order to obtain an expert”). The same 
+is true here. 
+The opinion that a sale of developed commercial land is “comparable” to 
+the plaintiff’s undeveloped land is an expert opinion, not a lay opinion, and it 
+requires an expert to deliver it. District courts routinely determine whether 
+someone is qualified to offer expert testimony, and it is pretty easy to tell from 
+this record that James was not.  
+
+ 
+26 
+  
+Some courts have allowed nonexpert landowners to testify about 
+comparable sales to support their valuation of their own property. See, e.g., H.R. 
+Terryberry Co., 333 N.W.2d at 126–27; Clark v. Miss. Transp. Comm’n, 767 So. 2d 
+173, 178 (Miss. 2000) (en banc) (permitting the property owner to testify to 
+comparable sales without showing firsthand knowledge of the sales because the 
+owner was a longtime resident and testified that he was “familiar” with sales of 
+industrial property in the area); Boer, 495 S.W.3d at 769–70 (holding the 
+landowner was qualified to testify about comparable sales despite “his lack of 
+any appraisal training or certification” because he “had some specialized 
+knowledge by living in, and purchasing and leasing various commercial 
+properties in [the] County” and his specific familiarity with the two comparable 
+sales, “including property details and the amounts for which they sold”); City of 
+Cincinnati v. Banks, 757 N.E.2d 1205, 1221 (Ohio Ct. App. 2001) (“Evidence 
+elicited on cross-examination suggesting the noncomparable nature of the 
+property upon which Banks based her opinion might have functioned to 
+undermine her credibility but it did not provide a basis for the exclusion of her 
+opinion.”); Wilson, 175 S.E.2d at 397; see also D.C. Redevelopment Land 
+Agency v. Thirteen Parcels of Land, 534 F.2d 337, 341–44 (D.C. Cir. 1976) 
+(holding district court erred by excluding landowner’s opinion testimony based 
+in part on his experience with another commercial property and stating that 
+“such factors as the differences in size, frontage and location of the two 
+properties go to the weight of the owner’s testimony regarding suitability and not 
+to its admissibility”). The Boer court elaborated as follows: 
+
+ 
+27 
+  
+No exact formula exists for judging the competency of a 
+witness to give an opinion on real estate values. To qualify as such 
+an expert, it is not necessary that the witness be engaged in the real 
+estate business. If the witness is capable of forming a better opinion 
+on values than the jury or men in general because he is acquainted 
+with the land in question, professes to know its value, has 
+knowledge of and opportunity to learn the worth of similar property 
+in the vicinity, and has participated in or has information 
+concerning the sale of like real estate, he is usually considered 
+competent to state an opinion. 
+495 S.W.3d at 769–70 (quoting State ex rel. State Highway Comm’n v. Heim, 483 
+S.W.2d 410, 413–14 (Mo. Ct. App. 1972)). James could not clear this low bar.2 
+In our view, the admissibility of lay owner opinion testimony on 
+comparable sales should be made on a case-by-case basis. Some valuations may 
+be too complex for a lay witness owner to present to a jury. Our review is for 
+abuse of discretion. The district court in this case did not abuse its discretion by 
+ruling that James, the owner of undeveloped land and former restaurant 
+manager with limited real estate experience, was unqualified to testify about 
+specific allegedly comparable sales of developed commercial property. 
+IV. Disposition.  
+For these reasons, we vacate the decision of the court of appeals and affirm 
+the district court judgment. 
+DECISION OF COURT OF APPEALS VACATED; DISTRICT COURT 
+JUDGMENT AFFIRMED. 
+                                       
+2The legislature has provided an incentive for landowners to use appraisers in contested 
+condemnation cases. See Iowa Code § 6B.33 (allowing owner to recover the reasonable cost of 
+one appraisal from the acquiring agency if the commissioners awarded an amount more than 
+10% above the agency’s final offer or if the court awards a higher amount). 
