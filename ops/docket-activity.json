@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T14:11:46+00:00",
+ "updatedAt": "2026-10-17T13:05:35+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
  "requestsUsed": 26,
  "errors": [],
@@ -39,6 +39,13 @@
   },
   "67174489": {
    "entries": [
+    {
+     "date": "2026-10-16",
+     "number": 1621,
+     "text": "Order on Motion for Leave",
+     "url": "https://www.courtlistener.com/docket/67174489/1621/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
     {
      "date": "2026-10-15",
      "number": 1620,
@@ -87,13 +94,6 @@
      "text": "Appear Pro Hac Vice",
      "url": "https://www.courtlistener.com/docket/67174489/1615/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 1614,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/67174489/1614/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -103,7 +103,7 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-10-15"
+   "lastEntryDate": "2026-10-16"
   },
   "67356054": {
    "entries": [
@@ -976,59 +976,59 @@
   "73733742": {
    "entries": [
     {
-     "date": "2026-10-15",
-     "number": 43,
-     "text": "Certificate of Service",
-     "url": "https://www.courtlistener.com/docket/73733742/43/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "date": "2026-10-16",
+     "number": 51,
+     "text": "Notice of Appearance",
+     "url": "https://www.courtlistener.com/docket/73733742/51/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
     },
     {
-     "date": "2026-10-14",
-     "number": 42,
-     "text": "Notice of Hearing on Motion",
-     "url": "https://www.courtlistener.com/docket/73733742/42/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "date": "2026-10-16",
+     "number": 50,
+     "text": "Objections",
+     "url": "https://www.courtlistener.com/docket/73733742/50/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
     },
     {
-     "date": "2026-10-14",
-     "number": 41,
-     "text": "Certificate of Service",
-     "url": "https://www.courtlistener.com/docket/73733742/41/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "date": "2026-10-16",
+     "number": 49,
+     "text": "Objections",
+     "url": "https://www.courtlistener.com/docket/73733742/49/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
     },
     {
-     "date": "2026-10-14",
-     "number": 40,
+     "date": "2026-10-16",
+     "number": 48,
+     "text": "Objections",
+     "url": "https://www.courtlistener.com/docket/73733742/48/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-16",
+     "number": 47,
      "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/73733742/40/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "url": "https://www.courtlistener.com/docket/73733742/47/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
     },
     {
-     "date": "2026-10-13",
-     "number": 39,
-     "text": "Notice of Appearance",
-     "url": "https://www.courtlistener.com/docket/73733742/39/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "date": "2026-10-16",
+     "number": 46,
+     "text": "Proposed Order",
+     "url": "https://www.courtlistener.com/docket/73733742/46/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
     },
     {
-     "date": "2026-10-13",
-     "number": 38,
-     "text": "Notice of Appearance",
-     "url": "https://www.courtlistener.com/docket/73733742/38/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "date": "2026-10-16",
+     "number": 45,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/73733742/45/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
     },
     {
-     "date": "2026-10-09",
-     "number": 37,
-     "text": "Order on Motion for Pro Hac Vice (Credit Card Payment)",
-     "url": "https://www.courtlistener.com/docket/73733742/37/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 36,
-     "text": "Order on Motion for Pro Hac Vice (Credit Card Payment)",
-     "url": "https://www.courtlistener.com/docket/73733742/36/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "date": "2026-10-16",
+     "number": 44,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/73733742/44/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
     }
    ],
@@ -1039,7 +1039,7 @@
    "docketNumber": "5:26-cv-05612",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73733742/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-   "lastEntryDate": "2026-10-15"
+   "lastEntryDate": "2026-10-16"
   },
   "73738334": {
    "entries": [
@@ -1177,6 +1177,34 @@
   "74712343": {
    "entries": [
     {
+     "date": "2026-10-16",
+     "number": 18,
+     "text": "Extension of Time to File Response/Reply/Answer",
+     "url": "https://www.courtlistener.com/docket/74712343/18/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-16",
+     "number": 16,
+     "text": "Extension of Time to File Response/Reply/Answer",
+     "url": "https://www.courtlistener.com/docket/74712343/16/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-16",
+     "number": 14,
+     "text": "Extension of Time to File Response/Reply/Answer",
+     "url": "https://www.courtlistener.com/docket/74712343/14/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-16",
+     "number": null,
+     "text": "Order on Motion for Extension of Time to File Response/Reply/Answer",
+     "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-09",
      "number": 13,
      "text": "Dismiss",
@@ -1203,13 +1231,6 @@
      "text": "Notice of Attorney Appearance",
      "url": "https://www.courtlistener.com/docket/74712343/10/the-alder-at-lake-park-llc-v-town-of-lake-park/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-08",
-     "number": 9,
-     "text": "Summons (Affidavit) Returned Executed",
-     "url": "https://www.courtlistener.com/docket/74712343/9/the-alder-at-lake-park-llc-v-town-of-lake-park/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1219,7 +1240,7 @@
    "docketNumber": "9:26-cv-81070",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
-   "lastEntryDate": "2026-10-09"
+   "lastEntryDate": "2026-10-16"
   },
   "74850183": {
    "entries": [
@@ -1271,6 +1292,13 @@
   "74922581": {
    "entries": [
     {
+     "date": "2026-10-16",
+     "number": 25,
+     "text": "Notice (generic)",
+     "url": "https://www.courtlistener.com/docket/74922581/25/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-15",
      "number": 24,
      "text": "Leave (Not for Appeal use)",
@@ -1318,13 +1346,6 @@
      "text": "Hearing held",
      "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-13",
-     "number": 17,
-     "text": "Objection",
-     "url": "https://www.courtlistener.com/docket/74922581/17/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1334,10 +1355,38 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-10-15"
+   "lastEntryDate": "2026-10-16"
   },
   "74927117": {
    "entries": [
+    {
+     "date": "2026-10-16",
+     "number": 38,
+     "text": "Certificate of Service of Notice of Hearing",
+     "url": "https://www.courtlistener.com/docket/74927117/38/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-16",
+     "number": 37,
+     "text": "Order on Motion to Use Cash Collateral",
+     "url": "https://www.courtlistener.com/docket/74927117/37/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-16",
+     "number": 36,
+     "text": "Order on Motion to Extend",
+     "url": "https://www.courtlistener.com/docket/74927117/36/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-16",
+     "number": 35,
+     "text": "Extend Time",
+     "url": "https://www.courtlistener.com/docket/74927117/35/southbridge-associates-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-14",
      "number": 34,
@@ -1365,34 +1414,6 @@
      "text": "Order on Motion for Order/Authority",
      "url": "https://www.courtlistener.com/docket/74927117/31/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-13",
-     "number": 30,
-     "text": "Order on Motion to Use Cash Collateral",
-     "url": "https://www.courtlistener.com/docket/74927117/30/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-13",
-     "number": 29,
-     "text": "Order on Motion to Appear pro hac vice",
-     "url": "https://www.courtlistener.com/docket/74927117/29/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-12",
-     "number": 28,
-     "text": "Statement",
-     "url": "https://www.courtlistener.com/docket/74927117/28/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-12",
-     "number": 27,
-     "text": "Objection",
-     "url": "https://www.courtlistener.com/docket/74927117/27/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1402,7 +1423,7 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
-   "lastEntryDate": "2026-10-14"
+   "lastEntryDate": "2026-10-16"
   },
   "74948724": {
    "entries": [
@@ -1454,6 +1475,20 @@
   "74952112": {
    "entries": [
     {
+     "date": "2026-10-16",
+     "number": 11,
+     "text": "Notice of Attorney Appearance",
+     "url": "https://www.courtlistener.com/docket/74952112/11/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-16",
+     "number": 10,
+     "text": "Summons Issued as to USA",
+     "url": "https://www.courtlistener.com/docket/74952112/10/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-15",
      "number": 9,
      "text": "Notice of Attorney Appearance",
@@ -1494,20 +1529,6 @@
      "text": "Order on Motion to Appear Pro Hac Vice",
      "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": 4,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/74952112/4/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": 3,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/74952112/3/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1517,7 +1538,7 @@
    "docketNumber": "5:26-cv-06542",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
-   "lastEntryDate": "2026-10-15"
+   "lastEntryDate": "2026-10-16"
   }
  },
  "events": [
