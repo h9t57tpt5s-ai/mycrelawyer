@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Case Value Calculator (Beta) — CREdocket</title>
-<meta name="description" content="Beta — modeling in active development. A probability-informed estimate of litigation exposure across 8 commercial real estate litigation categories, grounded in real cited settlements and judgments — not a prediction, not legal advice." />
+<title>CRE Litigation Damages Calculator (Free Beta) — CREdocket</title>
+<meta name="description" content="Free beta: estimate what a commercial real estate dispute is worth. Lease, foreclosure and guaranty, construction defect, condemnation, zoning, premises, REIT and environmental claims, grounded in real cases." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Case Value Calculator (Beta) — CREdocket" />
-<meta property="og:description" content="Beta — modeling in active development. A probability-informed estimate of litigation exposure across 8 commercial real estate litigation categories, grounded in real cited settlements and judgments." />
+<meta property="og:title" content="CRE Litigation Damages Calculator (Free Beta) — CREdocket" />
+<meta property="og:description" content="Free beta: estimate what a commercial real estate dispute is worth. Lease, foreclosure and guaranty, construction defect, condemnation, zoning, premises, REIT and environmental claims, grounded in real cases." />
 <meta property="og:url" content="https://credocket.com/case-valuation.html" />
 <link rel="canonical" href="https://credocket.com/case-valuation.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Case Value Calculator (Beta) — CREdocket" />
-<meta name="twitter:description" content="Beta — modeling in active development. A probability-informed estimate of litigation exposure across 8 commercial real estate litigation categories, grounded in real cited settlements and judgments." />
+<meta name="twitter:title" content="CRE Litigation Damages Calculator (Free Beta) — CREdocket" />
+<meta name="twitter:description" content="Free beta: estimate what a commercial real estate dispute is worth. Lease, foreclosure and guaranty, construction defect, condemnation, zoning, premises, REIT and environmental claims, grounded in real cases." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -149,7 +149,7 @@
     </svg>
   <div class="container">
     <div class="eyebrow reveal in-view">Litigation Tools</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Case Value Calculator</h1>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Case Value Calculator: what is your CRE dispute worth?</h1>
     <span class="badge reveal in-view" style="margin-top:14px; background:color-mix(in srgb, var(--status-pending) 16%, transparent); color:var(--status-pending); border:1px solid color-mix(in srgb, var(--status-pending) 40%, transparent);">
       <span class="badge-dot" style="background:var(--status-pending)"></span>Beta — modeling in active development
     </span>
@@ -254,6 +254,63 @@
       </div>
     </div>
   </div>
+</section>
+
+<section class="section-tight" id="cv-real-cases">
+  <div class="container"><!--prerender:cv-real-cases-->
+    <div class="section-head reveal in-view">
+      <div>
+        <div class="eyebrow">Tested on real cases</div>
+        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">How it did on cases whose outcome is known</h2>
+      </div>
+    </div>
+    <style>
+  .vp-cases { list-style:none; padding:0; display:grid; gap:14px; margin-top:16px; }
+  .vp-case { padding:18px 20px; }
+  .vp-case h3 { font-size:1.02rem; margin:0 0 6px; }
+  .vp-case-meta { font-size:13px; color:var(--text-muted); }
+  .vp-case-nums { display:flex; flex-wrap:wrap; gap:6px 22px; margin-top:10px; font-variant-numeric:tabular-nums; font-size:14px; }
+  .vp-hit { color:var(--ui-success); font-weight:600; }
+  .vp-miss { color:var(--ui-warning); font-weight:600; }
+  .vp-q { columns:2 260px; column-gap:28px; padding-left:18px; margin:12px 0 0; }
+  .vp-q li { margin-bottom:6px; break-inside:avoid; }
+</style>
+    <p class="body-text" style="max-width:760px;">We ran the live calculator on real commercial real estate cases from published appellate opinions, giving it only the opinion's facts and each side's contentions with every statement of the award or holding removed, then compared its range with the final result after any appeal. Its range contained the final outcome in 17 of 32 scored cases (v4.3). Three recent examples:</p>
+    <ul class="vp-cases" style="max-width:860px;">
+      <li class="card vp-case">
+        <h3>5th and Walnut Parking LLC v. City of Des Moines</h3>
+        <div class="vp-case-meta">Iowa Supreme Court · Jun 12, 2026 · analyzed for the property owner / developer</div>
+        <div class="vp-case-nums">
+          <span>Calculator range: <strong>$0 – $20.92M</strong></span>
+          <span>Final outcome: <strong>$4.35M</strong></span>
+          <span class="vp-hit">Within the range</span>
+        </div>
+        <p style="font-size:13px; margin:8px 0 0;"><a href="https://storage.courtlistener.com/pdf/2026/06/12/5th_and_walnut_parking_llc_5th_and_walnut_tower_llc_5th_and_court_llc_1.pdf" target="_blank" rel="noopener">Read the decision ↗</a></p>
+      </li>
+      <li class="card vp-case">
+        <h3>Piedmont Natural Gas Company, Inc. v. BlueRoad Fontanel, LLC</h3>
+        <div class="vp-case-meta">Court of Appeals of Tennessee at Nashville · Apr 1, 2026 · analyzed for the property owner</div>
+        <div class="vp-case-nums">
+          <span>Calculator range: <strong>$12.16M – $23.29M</strong></span>
+          <span>Final outcome: <strong>$13.9M</strong></span>
+          <span class="vp-hit">Within the range</span>
+        </div>
+        <p style="font-size:13px; margin:8px 0 0;"><a href="https://storage.courtlistener.com/pdf/2026/04/01/piedmont_natural_gas_company_inc._v._blueroad_fontanel_llc.pdf" target="_blank" rel="noopener">Read the decision ↗</a></p>
+      </li>
+      <li class="card vp-case">
+        <h3>CLE Venture Fund, L.P. v. Coventry Partners, L.L.C.</h3>
+        <div class="vp-case-meta">Court of Appeals of Ohio, Eighth Appellate District · Jul 10, 2025 · analyzed for the lender</div>
+        <div class="vp-case-nums">
+          <span>Calculator range: <strong>$-812,000 – $2.45M</strong></span>
+          <span>Final outcome: <strong>$1.74M</strong></span>
+          <span class="vp-hit">Within the range</span>
+        </div>
+        <p style="font-size:13px; margin:8px 0 0;"><a href="https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-2451.pdf" target="_blank" rel="noopener">Read the decision ↗</a></p>
+      </li>
+    </ul>
+    <p style="margin-top:14px;"><a href="/case-valuation-calibration.html">Every case, hits and misses →</a></p>
+    <p class="text-secondary" style="margin-top:24px;">What is a dispute like yours worth? <a href="/commercial-lease-dispute-damages.html">Commercial lease dispute</a> · <a href="/commercial-foreclosure-guaranty-damages.html">Commercial loan, foreclosure or guaranty claim</a> · <a href="/construction-defect-damages.html">Commercial construction defect claim</a> · <a href="/condemnation-compensation.html">Commercial condemnation claim</a> · <a href="/land-use-litigation-damages.html">Zoning or land-use claim</a> · <a href="/commercial-premises-liability-damages.html">Premises liability claim against a commercial property</a> · <a href="/reit-securities-claim-value.html">REIT securities or fiduciary claim</a> · <a href="/environmental-cleanup-cost-claims.html">Commercial property contamination claim</a></p>
+  <!--/prerender:cv-real-cases--></div>
 </section>
 
 <section class="section-tight">

@@ -17,6 +17,8 @@ on:
       - "scripts/build_entity_pages.ts"
       - "scripts/build_og_images.py"
       - "scripts/build_trackers.ts"
+      - "scripts/build_value_pages.ts"
+      - "js/backtest-results-data.js"
       - "scripts/build_sitemap.py"
       - "scripts/build_data_lite.ts"
       - "scripts/build_record_pages.ts"
@@ -59,6 +61,8 @@ jobs:
           python3 scripts/build_og_images.py
       # Topic trackers and the monthly CRE Litigation Index.
       - run: deno run --allow-read --allow-write scripts/build_trackers.ts
+      # "What is it worth?" pages and the calculator's real-cases block.
+      - run: deno run --allow-read --allow-write scripts/build_value_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_entity_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_matter_pages.ts
       # Chapter 11 Watch and Federal Lawsuit Watch, and one page per petition or case.
@@ -66,7 +70,7 @@ jobs:
       - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
-          git add -A matters chapter-11 federal-cases parties properties js/entity-index.json img/og img/og-image.png js/topic-index.json *-tracker.html litigation-index*.html
+          git add -A matters chapter-11 federal-cases parties properties js/entity-index.json img/og img/og-image.png js/topic-index.json *-tracker.html litigation-index*.html case-valuation.html commercial-lease-dispute-damages.html commercial-foreclosure-guaranty-damages.html construction-defect-damages.html condemnation-compensation.html land-use-litigation-damages.html commercial-premises-liability-damages.html reit-securities-claim-value.html environmental-cleanup-cost-claims.html
           git add bankruptcy-watch.html lawsuit-watch.html
           git add index.html litigation.html coverage.html companies.html judges.html company-*.html corrections.html sitemap.xml news-sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
