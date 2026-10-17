@@ -17,7 +17,7 @@
   </url>
   <url>
     <loc>https://credocket.com/alert-log.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -37,7 +37,7 @@
   </url>
   <url>
     <loc>https://credocket.com/bankruptcy-watch.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -292,7 +292,7 @@
   </url>
   <url>
     <loc>https://credocket.com/coverage.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -367,7 +367,7 @@
   </url>
   <url>
     <loc>https://credocket.com/index.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -612,7 +612,7 @@
   </url>
   <url>
     <loc>https://credocket.com/lawsuit-watch.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -642,17 +642,17 @@
   </url>
   <url>
     <loc>https://credocket.com/litigation-index-2026-10.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation-index.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -2096,6 +2096,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://credocket.com/chapter-11/madison-development-llc-nysb-26-12467.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/chapter-11/kdj-properties-llc-ndb-26-30893.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/chapter-11/edson-avenue-development-group-llc-nysb-26-23033.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/chapter-11/1162-st-john-s-place-llc-nyeb-1-26-44853.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/chapter-11/emcee-realty-llc-nyeb-1-26-44843.html</loc>
     <lastmod>2026-10-15</lastmod>
     <priority>0.5</priority>
@@ -2696,6 +2716,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/federal-cases/u-s-bank-national-association-as-trustee-for-the-registered-holders-of-nysd-1-26-cv-09124.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/federal-cases/omriddhi-corp-valley-view-motel-v-mesa-underwriters-specialty-insuranc-txnd-3-26-cv-03629.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/federal-cases/consolidated-capital-investments-llc-v-lument-real-estate-capital-llc-nysd-1-26-cv-09129.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/federal-cases/vertex-towers-llc-v-town-of-monson-mad-1-26-cv-14668.html</loc>
     <lastmod>2026-10-15</lastmod>
     <priority>0.5</priority>
@@ -2727,6 +2762,11 @@
   </url>
   <url>
     <loc>https://credocket.com/federal-cases/united-states-v-vb-development-corp-prd-3-26-cv-01656.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/federal-cases/fd-realty-llc-v-barrett-financial-group-l-l-c-gand-1-26-cv-06182.html</loc>
     <lastmod>2026-10-14</lastmod>
     <priority>0.5</priority>
   </url>
