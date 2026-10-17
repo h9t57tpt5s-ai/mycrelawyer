@@ -1,6 +1,7 @@
 // =========================================================
 import { alnumKey, dedupeRepresentedFigures, issueRange, STRENGTH_BANDS, verifyFigure, type VerifiedFigure } from "./valuation-math.ts";
 import { jurisdictionRules } from "./state-rules.ts";
+import { FIGURE_ROLES, type FigureRole, type RoleFigure, seedFrom, simulateOutcomes, v6IssueRange, verifyInterest } from "./valuation-v6.ts";
 // CREdocket -- Case Value Calculator: AI document analysis
 //
 // COST-PROTECTION DESIGN -- read before changing the order of checks:
@@ -109,6 +110,15 @@ const ANALYSIS_VERSION = "v4.4";
 // they help, they apply ONLY to secret-authenticated backtest requests that
 // send promptVariant "v4.5"; every live analysis stays on ANALYSIS_VERSION.
 const V45_VARIANT = "v4.5";
+// v6 candidate (2026-10-17, Jeff: build the rebuild before going live): v4.5's
+// instructions plus figure roles and interest terms the code turns into
+// damages (valuation-v6.ts), outcome scenarios, and a decline when a fact
+// the value turns on is missing. Backtest requests sending promptVariant
+// "v6" only, until tested.
+const V6_VARIANT = "v6";
+const v6Rules = (asOf: string) =>
+  "FIGURE ROLES AND INTEREST (v6): give every figure a role. 'amount': part of what is owed or claimed (rent, principal, repair cost, lost profits, severance damages). 'credit': money that reduces the claim (payments received, foreclosure or sale proceeds, the value of collateral credited against the debt, a security deposit held, a setoff). 'cap': a contractual or statutory limit on recovery (a guaranty limited to a stated amount). 'before_value' and 'after_value': the property's value before and after a taking or damage, one figure per appraisal or witness. The system computes the result in code: amounts plus interest, less credits, within any cap; in a taking, before-value minus after-value. Never net a credit into an amount yourself, and never list a before-taking value as an 'amount'. " +
+  "INTEREST: when the record states an interest rate (contract, default or statutory) and the date it runs from for a claim, set that issue's interest with ratePercent, fromDate (YYYY-MM-DD), and a verbatim rateQuote and dateQuote copied from the materials; otherwise null. The system accrues simple interest to the valuation date, " + asOf + "; do not compute interest yourself, and do not also list accrued interest as an amount when you give the rate and date. ";
 const V45_RULES =
   "WHAT A FIGURE IS WORTH (v4.5): a figure being true is not the same as it being awarded. The strength band you choose for an issue is the probability that its figure is actually awarded as damages under the theory that governs -- not whether the figure itself is accurate or undisputed. A loan's face amount, a demand, a prayer for punitive damages, a billed rent total or the capital investors put in are facts about what was owed, asked for or invested. Before rating such an issue 'conceded', 'strong' or 'favorable', check the record for (a) any count that was abandoned, dismissed, withdrawn or superseded -- an abandoned count is not an issue at all -- and (b) any rule the record states or plainly implicates that measures or caps recovery differently: rent recoverable only through repossession after an eviction rather than for the rest of the term, a guaranty limited to a stated amount or to carve-out losses, credits for payments, sale proceeds or collateral value, a securities-damages measure based on price decline rather than capital raised, punitive damages that need findings the record does not show. Where such a rule applies, price the issue on the figure the rule produces if the record states one, lower the band, or add a separate offsetting issue with its own quoted figures. Never let the largest figure in the record become the ceiling merely because it is the largest. " +
   "VALUATION DISPUTES (v4.5): when the dispute is over what property is worth -- a condemnation or partial taking, an appraisal dispute, a fair-value offset -- search the whole record for EVERY side's valuation figure (each appraiser's number, the condemning authority's offer or advance payment, the owner's claim) and put them on the same issue with basis 'competing'. If you can find only one side's figure, say so in the issue's note ('opposing valuation not found in record') and do not rate that one-sided figure above 'favorable'. In a partial taking, the before-taking value of the whole parcel is NOT the compensation: compensation is the loss in value (before-taking value less after-taking value, including severance damage to the remainder) plus any separately compensable items. If the record gives no after-taking value or damages figure, do not price the before-taking value as the award; price only figures that measure the loss, and name the missing figure. " +
@@ -2038,14 +2048,17 @@ async function handle(req: Request): Promise<Response> {
   // frontend JS still mid-rollout, which may still send an explicit
   // dropdown-selected `category`, keeps working exactly as before. New
   // requests are expected to omit it entirely.
-  let requestBody: { documentText?: string; description?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null; customCostLow?: number | null; customCostHigh?: number | null; mitigationReleaseMonths?: number | null; mitigationNewMonthlyRent?: number | null; mitigationPropertyType?: string | null; promptVariant?: string };
+  let requestBody: { documentText?: string; description?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null; customCostLow?: number | null; customCostHigh?: number | null; mitigationReleaseMonths?: number | null; mitigationNewMonthlyRent?: number | null; mitigationPropertyType?: string | null; promptVariant?: string; valuationDate?: string };
   try {
     requestBody = await req.json();
   } catch {
     return jsonResponse({ error: "Invalid request body" }, 400);
   }
   // The v4.5 candidate instructions: backtest requests only (see V45_RULES).
-  const useV45 = isBacktest && requestBody.promptVariant === V45_VARIANT;
+  const useV6 = isBacktest && requestBody.promptVariant === V6_VARIANT;
+  const useV45 = isBacktest && (requestBody.promptVariant === V45_VARIANT || useV6);
+  const asOf = typeof requestBody.valuationDate === "string" && /^\d{4}-\d{2}-\d{2}$/.test(requestBody.valuationDate)
+    ? requestBody.valuationDate : new Date().toISOString().slice(0, 10);
   const description = (requestBody.description ?? "").slice(0, MAX_DESCRIPTION_CHARS);
   const documentText = (requestBody.documentText ?? "").slice(0, MAX_DOC_CHARS);
   if (!description && !documentText) {
@@ -2398,6 +2411,30 @@ async function handle(req: Request): Promise<Response> {
       required: ["narrativeSections", "likelyOutcome", "damagesRange", "bestGuessValue", "whatIsNeededForEstimate", "issues", "requestedReliefCeiling"],
       additionalProperties: false,
     };
+    // v6: each figure gets a role and each issue may carry interest terms.
+    // The schema is built per request, so live requests never see these.
+    if (useV6) {
+      // deno-lint-ignore no-explicit-any
+      const issueSchema = (analysisSchema as any).properties.issues.items;
+      const figItem = issueSchema.properties.amount.anyOf[0].properties.items.items;
+      figItem.properties.role = { type: "string", enum: FIGURE_ROLES, description: "'amount', 'credit', 'cap', 'before_value' or 'after_value' -- see FIGURE ROLES." };
+      figItem.required.push("role");
+      issueSchema.properties.interest = {
+        anyOf: [{
+          type: "object",
+          properties: {
+            ratePercent: { type: "number", description: "Annual rate in percent as the record states it, e.g. 9 for 9%." },
+            fromDate: { type: "string", description: "Date interest runs from, YYYY-MM-DD." },
+            rateQuote: { type: "string", description: "Verbatim passage from the materials stating the rate." },
+            dateQuote: { type: "string", description: "Verbatim passage from the materials stating the start date." },
+          },
+          required: ["ratePercent", "fromDate", "rateQuote", "dateQuote"],
+          additionalProperties: false,
+        }, { type: "null" }],
+        description: "Interest terms the record states for this issue, or null. See INTEREST.",
+      };
+      issueSchema.required.push("interest");
+    }
 
     // (2026-09-24: superseded on the Pro plan -- see the Deno.serve
     // wrapper at the end of this file, which heartbeats past the idle
@@ -2451,6 +2488,7 @@ async function handle(req: Request): Promise<Response> {
         "PRICE THE REPRESENTED PARTY'S OWN CLAIMS: if you list figures for any of the other side's claims, you must also list the figures for every affirmative claim of the represented side from the same record -- the rent the lease states, the balance the note states, the contract price, the invoices. A net figure that prices only the other side's claims reads as a loss when the client may be owed money. Leave the represented claim's amount null only when the record contains no figure for it at all; the system will then decline to give a net figure rather than show a one-sided one. Mark each issue's kind: 'claim' if it seeks money or property, 'defense' if it only reduces the other side's recovery. " +
         "CLAIMANT: every issue that is the OTHER side's claim, counterclaim, fee or interest exposure against the represented side is claimant 'opposing'; list its figures as positive numbers and the system treats them as what the represented side may have to pay. Mark the claimant correctly: it decides which way the money goes. " +
         (useV45 ? V45_RULES : "") +
+        (useV6 ? v6Rules(asOf) : "") +
         "REMINDER ON CITATIONS -- every one of the requirements above is about the analysis TEXT, not the structured citedCaseNames field on each issue, and satisfying them is not a substitute for filling that field in. If you name a case from the reference list in an issue's prose (per the GROUNDING REQUIREMENT), that same case name must also appear in that issue's citedCaseNames array -- do not let a case exist only in the prose. Before finalizing each issue, check it against the reference list a second time and list every supporting case by exact name." +
         (settlementBenchmark
           ? ` CONTRIBUTED SETTLEMENT DATA: below the case materials you'll also find real, reviewer-verified settlement amounts from ${settlementBenchmark.count} other matters in this same category and state -- actual money that actually changed hands, not a modeled or reported-opinion figure. Treat this as a distinct, valuable calibration anchor alongside the case-law citations, not a replacement for them: case law tells you how a court reasons about liability, this tells you what similar disputes actually settled for once collectibility, litigation cost, and every other real-world discount got baked in. Weigh your damagesRange and bestGuessValue against it -- if your own estimate lands far outside this real range, say so explicitly in the analysis and explain what makes this case different (different property scale, different facts, more/less exposure), rather than silently ignoring a real, on-point data point. Never cite it in citedCaseNames (that field is reserved for actual case law from the reference list) -- reference it in the analysis prose instead, e.g. 'contributed settlement data for comparable disputes in this state.'`
@@ -2539,7 +2577,11 @@ async function handle(req: Request): Promise<Response> {
       const probabilityRange: [number, number] = [pBandLo, pBandHi];
       const amt = iss.amount && typeof iss.amount === "object" ? iss.amount as { basis?: unknown; items?: unknown } : null;
       const rawItems = amt && Array.isArray(amt.items) ? amt.items as Record<string, unknown>[] : [];
-      const figures = rawItems.map((it) => verifyFigure(it, caseTextKey)).filter((f): f is VerifiedFigure => f !== null);
+      const figures = rawItems.map((it) => {
+        const f = verifyFigure(it, caseTextKey);
+        // v6: keep the figure's role; anything unrecognized is an amount.
+        return f && useV6 ? { ...f, role: (FIGURE_ROLES.includes(it.role as FigureRole) ? it.role : "amount") as FigureRole } : f;
+      }).filter((f): f is VerifiedFigure => f !== null);
       const droppedFigures = rawItems.length - figures.length;
       let damagesRange: [number, number] | null = null;
       if (figures.length) {
@@ -2578,6 +2620,7 @@ async function handle(req: Request): Promise<Response> {
         basis: amt?.basis === "competing" ? "competing" : (figures.length ? "itemized" : null),
         figures,
         droppedFigures,
+        ...(useV6 ? { interest: verifyInterest(iss.interest as Record<string, unknown> | null, caseTextKey) } : {}),
         citations: resolveCitations(iss.citedCaseNames),
       };
     }) : [];
@@ -2586,8 +2629,17 @@ async function handle(req: Request): Promise<Response> {
     // then compute each claim's range from the figures that remain.
     // issuesRaw is built from the model's untyped JSON, so name its shape.
     // deno-lint-ignore no-explicit-any
-    const issues = dedupeRepresentedFigures<any>(issuesRaw).map((iss) => {
-      const damagesRange = issueRange(iss.figures, iss.basis ?? "itemized", iss.claimant);
+    // v6: only 'amount' figures are deduplicated; credits, caps and
+    // before/after values are carried through untouched.
+    // deno-lint-ignore no-explicit-any
+    const dedupeV6 = (list: any[]) => dedupeRepresentedFigures<any>(list.map((i) => ({
+      ...i, figures: i.figures.filter((f: RoleFigure) => f.role === "amount"), _other: i.figures.filter((f: RoleFigure) => f.role !== "amount"),
+    }))).map(({ _other, ...i }) => ({ ...i, figures: [...i.figures, ..._other] }));
+    // deno-lint-ignore no-explicit-any
+    const issues = (useV6 ? dedupeV6(issuesRaw) : dedupeRepresentedFigures<any>(issuesRaw)).map((iss) => {
+      const damagesRange = useV6
+        ? v6IssueRange(iss.figures as RoleFigure[], iss.basis ?? "itemized", iss.claimant, iss.interest ?? null, asOf)
+        : issueRange(iss.figures, iss.basis ?? "itemized", iss.claimant);
       const supportedCeiling = damagesRange ? (iss.claimant === "opposing" ? damagesRange[0] : damagesRange[1]) : null;
       return { ...iss, damagesRange, supportedCeiling };
     });
@@ -2672,11 +2724,30 @@ async function handle(req: Request): Promise<Response> {
       && (!i.probabilityRange || i.probabilityRange[1] > 0.1));
     const oneSided = !pricedRepresented && pricedOpposing && unpricedClaims.length > 0;
 
+    // v6 MISSING DECIDING FACTS: some values turn on a fact the record must
+    // state; without it the calculator asks for it instead of pricing what
+    // it has (the 2026-10-17 backtest coding: Jack and CVS turned on medical
+    // and non-economic damages absent from the input; KKS on an after-taking
+    // value). Declines are reported as such, never as a valuation.
+    const v6Missing: string[] = [];
+    if (useV6) {
+      // deno-lint-ignore no-explicit-any
+      const figs = issues.flatMap((i: any) => (i.figures || []) as RoleFigure[]);
+      if (category === "premises-liability" && !figs.some((f) => /medical|hospital|treatment|surgery|wage|earning|income/i.test(f.label))) {
+        v6Missing.push("the injured person's medical expenses and lost earnings, past and future, with their amounts");
+      }
+      // deno-lint-ignore no-explicit-any
+      const pricedRep = issues.some((i: any) => i.claimant === "represented" && i.damagesRange);
+      if (category === "eminent-domain" && figs.some((f) => f.role === "before_value") && !figs.some((f) => f.role === "after_value") && !pricedRep) {
+        v6Missing.push("the property's value after the taking from each side's appraisal (or each side's figure for the damages caused by the taking)");
+      }
+    }
+
     const requestedReliefCeiling = typeof analysisParsed.requestedReliefCeiling === "number"
       ? analysisParsed.requestedReliefCeiling
       : null;
 
-    const rawAiDamagesRange: [number, number] | null = oneSided
+    const rawAiDamagesRange: [number, number] | null = (oneSided || v6Missing.length)
       ? null
       : mechanicalDamagesRange ?? rangeToTuple(analysisParsed.damagesRange) ?? (baselineHasComputableValue ? netPosition : null);
 
@@ -2752,7 +2823,9 @@ async function handle(req: Request): Promise<Response> {
         damagesRange: aiDamagesRange,
         bestGuessValue,
         whatIsNeededForEstimate: aiDamagesRange === null
-          ? oneSided
+          ? v6Missing.length
+            ? `This value turns on facts the materials do not state: ${v6Missing.join("; ")}. Add them and run the estimate again.`
+            : oneSided
             ? `A dollar figure for your side's own claims: ${unpricedClaims.map((i: IssueShape) => i.label).join("; ")}. The other side's claims could be priced from the record but yours could not, so a net figure would show only what you might pay. Add the amounts you are claiming (rent, balance, contract price, invoices) and run it again.`
             : (typeof analysisParsed.whatIsNeededForEstimate === "string" && analysisParsed.whatIsNeededForEstimate
               ? analysisParsed.whatIsNeededForEstimate
@@ -2781,7 +2854,22 @@ async function handle(req: Request): Promise<Response> {
         // Which model produced this analysis, so a calibration result is
         // never attributed to the wrong model if NARRATIVE_MODEL changes.
         model: NARRATIVE_MODEL,
-        analysisVersion: useV45 ? V45_VARIANT : ANALYSIS_VERSION,
+        analysisVersion: useV6 ? V6_VARIANT : useV45 ? V45_VARIANT : ANALYSIS_VERSION,
+        // v6: outcome scenarios from the same per-issue bands and figures
+        // (valuation-v6.ts): chance of coming out ahead, settlement value
+        // (expected value), 50% / 80% likely-outcome ranges, the range when
+        // the represented side comes out ahead. Seeded from the case text.
+        ...(useV6 ? {
+          valuationDate: asOf,
+          missingFacts: v6Missing,
+          scenarios: aiDamagesRange === null ? null : simulateOutcomes(
+            // deno-lint-ignore no-explicit-any
+            issues.filter((i: any) => i.damagesRange && i.probabilityRange)
+              // deno-lint-ignore no-explicit-any
+              .map((i: any) => ({ claimant: i.claimant, p: i.probabilityRange, range: i.damagesRange })),
+            seedFrom(caseTextKey),
+          ),
+        } : {}),
         // v5: the state's interest, fee and deficiency rules, with statute
         // citations, shown beside the valuation (not folded into it).
         jurisdictionRules: jurisdictionRules(str(extractedFacts, "state"), category),

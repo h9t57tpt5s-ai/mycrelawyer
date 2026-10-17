@@ -1,6 +1,6 @@
-// CREdocket Case Value Calculator, version 5 numeric helpers (2026-10-17).
-// Pure functions, tested in valuation-v5.test.ts. v4's rules stay in
-// valuation-math.ts and still apply; v5 adds, in code rather than prompt:
+// CREdocket Case Value Calculator, version 6 numeric helpers (2026-10-17).
+// Pure functions, tested in valuation-v6.test.ts. v4's rules stay in
+// valuation-math.ts and still apply; v6 adds, in code rather than prompt:
 //
 //   1. a damages engine: each figure has a role ("amount", "credit", "cap",
 //      "before_value", "after_value") and an issue may carry interest, so
@@ -70,7 +70,7 @@ export function simpleInterest(principal: number, interest: Interest, asOf: stri
 //   - interest accrues on that to the valuation date, credits are
 //     subtracted, and a cap (a guaranty limit) bounds the result.
 // Opposing issues come back negative, as in v4.
-export function v5IssueRange(
+export function v6IssueRange(
   figures: RoleFigure[], basis: string, claimant: string, interest: Interest, asOf: string,
 ): [number, number] | null {
   const of = (role: FigureRole) => figures.filter((f) => (f.role ?? "amount") === role);

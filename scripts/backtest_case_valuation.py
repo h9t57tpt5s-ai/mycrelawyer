@@ -53,10 +53,12 @@ def validate(case):
             raise ValueError(f"{case['id']}: the outcome amount appears in the input text")
 
 
-def call_calculator(secret, inp, variant=""):
+def call_calculator(secret, inp, variant="", valuation_date=None):
     body = {k: v for k, v in inp.items() if k in ("description", "documentText", "userSide", "expectToTrial")}
     if variant:  # candidate instructions, honored only for backtest requests
         body["promptVariant"] = variant
+    if valuation_date:  # v6 accrues interest to this date
+        body["valuationDate"] = valuation_date
     req = urllib.request.Request(
         TARGET_URL, data=json.dumps(body).encode(), method="POST",
         headers={"Content-Type": "application/json", "apikey": ANON_KEY,
@@ -93,10 +95,15 @@ def summarize(analysis):
             {"label": i.get("label"), "probabilityRange": i.get("probabilityRange"), "damagesRange": i.get("damagesRange"),
              "claimant": i.get("claimant"), "liabilityStatus": i.get("liabilityStatus"), "supportedCeiling": i.get("supportedCeiling"),
              "kind": i.get("kind"), "claimType": i.get("claimType"), "strength": i.get("strength"),
-             "figures": i.get("figures"), "droppedFigures": i.get("droppedFigures"), "basis": i.get("basis")}
+             "figures": i.get("figures"), "droppedFigures": i.get("droppedFigures"), "basis": i.get("basis"),
+             "interest": i.get("interest")}
             for i in analysis.get("issues", [])
         ],
         "citationCoverage": analysis.get("citationCoverage"),
+        # v6: outcome scenarios, missing deciding facts, valuation date.
+        "scenarios": analysis.get("scenarios"),
+        "missingFacts": analysis.get("missingFacts"),
+        "valuationDate": analysis.get("valuationDate"),
     }
 
 
@@ -145,7 +152,10 @@ def main():
         if ran >= args.limit:
             break
         print(f"running {c['id']} ...", flush=True)
-        status, body = call_calculator(secret, c["input"], args.variant)
+        # v6 values each case as of its decision date, so interest accrues to
+        # about when the court ruled (the date, never the amount, is used).
+        vdate = (c.get("outcome") or {}).get("date") or (c.get("source") or {}).get("decided")
+        status, body = call_calculator(secret, c["input"], args.variant, vdate if args.variant == "v6" else None)
         # A variant run must come back labeled with that variant, or the
         # deployed function did not apply it and the result would be
         # mislabeled (2026-10-17).

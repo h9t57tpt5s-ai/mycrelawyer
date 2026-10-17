@@ -1,5 +1,5 @@
 import { alnumKey, type VerifiedFigure } from "./valuation-math.ts";
-import { normCdf, type RoleFigure, seedFrom, simpleInterest, simulateOutcomes, v5IssueRange, verifyInterest } from "./valuation-v5.ts";
+import { normCdf, type RoleFigure, seedFrom, simpleInterest, simulateOutcomes, v6IssueRange, verifyInterest } from "./valuation-v6.ts";
 
 function assert(cond: unknown, msg: string) { if (!cond) throw new Error(msg); }
 const near = (a: number, b: number, tol = 0.01) => Math.abs(a - b) <= tol * Math.max(1, Math.abs(b));
@@ -25,29 +25,29 @@ Deno.test("simple interest accrues to the valuation date", () => {
 });
 
 Deno.test("a before-taking value alone is not compensation", () => {
-  assert(v5IssueRange([fig(2224065, "before_value")], "competing", "represented", null, "2020-10-29") === null, "ignored");
+  assert(v6IssueRange([fig(2224065, "before_value")], "competing", "represented", null, "2020-10-29") === null, "ignored");
 });
 
 Deno.test("partial taking: compensation is before minus after", () => {
-  const r = v5IssueRange([fig(2224065, "before_value"), fig(1430000, "before_value"), fig(700000, "after_value"), fig(900000, "after_value")],
+  const r = v6IssueRange([fig(2224065, "before_value"), fig(1430000, "before_value"), fig(700000, "after_value"), fig(900000, "after_value")],
     "competing", "represented", null, "2020-10-29")!;
   assert(r[0] === 1430000 - 900000 && r[1] === 2224065 - 700000, `range ${r}`);
 });
 
 Deno.test("credits are subtracted and a cap bounds the claim", () => {
-  const r = v5IssueRange([fig(3045000), fig(1310000, "credit")], "itemized", "represented", null, "2024-06-14")!;
+  const r = v6IssueRange([fig(3045000), fig(1310000, "credit")], "itemized", "represented", null, "2024-06-14")!;
   assert(r[0] === 1735000 && r[1] === 1735000, `credit ${r}`);
-  const c = v5IssueRange([fig(54000000, "amount", true), fig(14000000, "cap")], "itemized", "represented", null, "2021-01-01")!;
+  const c = v6IssueRange([fig(54000000, "amount", true), fig(14000000, "cap")], "itemized", "represented", null, "2021-01-01")!;
   assert(c[0] === 0 && c[1] === 14000000, `cap ${c}`);
 });
 
 Deno.test("interest is added before credits and the result is never negative", () => {
-  const r = v5IssueRange([fig(100000), fig(150000, "credit")], "itemized", "represented", { ratePercent: 10, from: "2020-01-01" }, "2021-01-01")!;
+  const r = v6IssueRange([fig(100000), fig(150000, "credit")], "itemized", "represented", { ratePercent: 10, from: "2020-01-01" }, "2021-01-01")!;
   assert(r[0] === 0 && r[1] === 0, `floored ${r}`);
 });
 
 Deno.test("opposing issues are negative exposure", () => {
-  const r = v5IssueRange([fig(50000), fig(10000, "credit")], "itemized", "opposing", null, "2024-01-01")!;
+  const r = v6IssueRange([fig(50000), fig(10000, "credit")], "itemized", "opposing", null, "2024-01-01")!;
   assert(r[0] === -40000 && r[1] === -40000, `opposing ${r}`);
 });
 
