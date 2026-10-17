@@ -1,0 +1,8 @@
+{
+ "about": "Business-only names for the published prediction registry (Jeff, 2026-10-17: business names only). 'title' replaces the caption; each key of 'individuals' is replaced by its value everywhere in the entry's published text. The dated entries.json record is not changed.",
+ "entries": {
+  "ct-bcb-community-bank-v-30-oak-2025": {"title": "BCB Community Bank v. 30 Oak LLC and a guarantor", "individuals": {"Peter J. Somma, Jr.": "the guarantor", "Peter J. Somma": "the guarantor", "Mr. Somma": "the guarantor", "Somma": "the guarantor"}},
+  "ct-td-bank-v-sgs-330-main-2025": {"title": "TD Bank, N.A. v. SGS 330 Main, LLC and a guarantor", "individuals": {"Bernard S. Bertram": "the guarantor", "Mr. Bertram": "the guarantor", "Bertram": "the guarantor"}},
+  "ct-wilmington-trust-v-67-holly-hill-2026": {"title": "Wilmington Trust, N.A., as Trustee (WFCM 2015-LC22) v. 67 Holly Hill LLC and a guarantor", "individuals": {"Sohrab Sy Aryeh": "the guarantor", "Mr. Aryeh": "the guarantor", "Aryeh": "the guarantor"}}
+ }
+}

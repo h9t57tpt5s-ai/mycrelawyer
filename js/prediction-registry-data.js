@@ -171,7 +171,7 @@ const PREDICTION_REGISTRY = [
   {
     "registryId": "ct-bcb-community-bank-v-30-oak-2025",
     "caseId": null,
-    "caseTitle": "BCB Community Bank v. 30 Oak LLC, Peter J. Somma, Jr., et al.",
+    "caseTitle": "BCB Community Bank v. 30 Oak LLC and a guarantor",
     "court": "Connecticut Superior Court, Judicial District of Stamford-Norwalk (Complex Litigation)",
     "docket": "X08-FST-CV25-6076444-S",
     "filings": [
@@ -273,7 +273,7 @@ const PREDICTION_REGISTRY = [
   {
     "registryId": "ct-td-bank-v-sgs-330-main-2025",
     "caseId": null,
-    "caseTitle": "TD Bank, N.A. v. SGS 330 Main, LLC and Bernard S. Bertram",
+    "caseTitle": "TD Bank, N.A. v. SGS 330 Main, LLC and a guarantor",
     "court": "Connecticut Superior Court, Judicial District of Hartford",
     "docket": "HHD-CV25-6213744-S",
     "filings": [
@@ -322,7 +322,7 @@ const PREDICTION_REGISTRY = [
         ]
       },
       {
-        "label": "Breach of Guaranty (Bertram)",
+        "label": "Breach of Guaranty (the guarantor)",
         "probabilityRange": [
           0.85,
           0.95
@@ -375,7 +375,7 @@ const PREDICTION_REGISTRY = [
   {
     "registryId": "ct-wilmington-trust-v-67-holly-hill-2026",
     "caseId": null,
-    "caseTitle": "Wilmington Trust, N.A., as Trustee (WFCM 2015-LC22) v. 67 Holly Hill LLC and Sohrab Sy Aryeh",
+    "caseTitle": "Wilmington Trust, N.A., as Trustee (WFCM 2015-LC22) v. 67 Holly Hill LLC and a guarantor",
     "court": "Connecticut Superior Court, Judicial District of Stamford",
     "docket": "FST-CV26-6081649-S",
     "filings": [
@@ -400,7 +400,7 @@ const PREDICTION_REGISTRY = [
     ],
     "predictedBestGuess": 5350000,
     "whatIsNeededForEstimate": null,
-    "likelyOutcome": "The lender is very likely to obtain a judgment of foreclosure and to enforce the guaranty against Mr. Aryeh, given the fully documented note/mortgage/assignment chain and an answer that largely fails to substantively controvert the maturity default; the principal open variables are (1) whether the payment-acceptance defense trims the default-interest period or complicates the default date, and (2) whether the guaranty's actual recourse-carve-out language limits the guarantor's exposure below the full loan balance.",
+    "likelyOutcome": "The lender is very likely to obtain a judgment of foreclosure and to enforce the guaranty against the guarantor, given the fully documented note/mortgage/assignment chain and an answer that largely fails to substantively controvert the maturity default; the principal open variables are (1) whether the payment-acceptance defense trims the default-interest period or complicates the default date, and (2) whether the guaranty's actual recourse-carve-out language limits the guarantor's exposure below the full loan balance.",
     "claims": [
       {
         "label": "Core Debt Recovery (Foreclosure Judgment / Deficiency, Principal + Accrued/Default Interest)",

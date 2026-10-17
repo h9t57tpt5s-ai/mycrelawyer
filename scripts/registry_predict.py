@@ -29,8 +29,39 @@ ENTRIES = pathlib.Path("case_valuation_project/registry/entries.json")
 JS_OUT = pathlib.Path("js/prediction-registry-data.js")
 
 
+DISPLAY_NAMES = pathlib.Path("case_valuation_project/registry/display-names.json")
+
+
+def scrub_entry(e, names):
+    """Business names only on the published page (Jeff, 2026-10-17): the
+    reviewed title replaces the caption and listed individuals' names are
+    replaced with role words in every text field. entries.json, the dated
+    record, is left as it was."""
+    d = names.get(e.get("registryId"))
+    if not d:
+        return e
+    subs = sorted((d.get("individuals") or {}).items(), key=lambda kv: -len(kv[0]))
+
+    def fix(o):
+        if isinstance(o, str):
+            for name, role in subs:
+                o = re.sub(r"\b" + re.escape(name) + r"('s|’s)?(?![\w])", lambda m: role + (m.group(1) or ""), o)
+            return o
+        if isinstance(o, list):
+            return [fix(x) for x in o]
+        if isinstance(o, dict):
+            return {k: fix(v) for k, v in o.items()}
+        return o
+    out = fix(e)
+    if d.get("title"):
+        out["caseTitle"] = d["title"]
+    return out
+
+
 def render_js():
     entries = json.loads(ENTRIES.read_text()) if ENTRIES.exists() else []
+    names = json.loads(DISPLAY_NAMES.read_text()).get("entries", {}) if DISPLAY_NAMES.exists() else {}
+    entries = [scrub_entry(e, names) for e in entries]
     src = JS_OUT.read_text()
     head = src[: src.index("const PREDICTION_REGISTRY = [")]
     body = json.dumps(entries, indent=2)
