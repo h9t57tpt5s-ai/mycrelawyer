@@ -6846,7 +6846,7 @@ window.BACKTEST_RESULTS = {
       "pending": false
      },
      "caseName": "Georgia CVS Pharmacy, LLC (store injury claim)",
-     "court": "Court of Appeals of Georgia (Second Division), on appeal from the State Court of Fulton County; affirmed by the Supreme Court of Georgia, Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718 (2023) (No. S22G0527)",
+     "court": "Court of Appeals of Georgia (Second Division), on appeal from the State Court of Fulton County; affirmed by the Supreme Court of Georgia, Georgia CVS Pharmacy, LLC v. The injured customer, 316 Ga. 718 (2023) (No. S22G0527)",
      "decided": "2021-11-08",
      "sourceUrl": "https://efast.gaappeals.gov/download?filingId=1260bd18-1067-424b-9622-9592df19d165",
      "ranAt": "2026-09-26T04:33:12+00:00",
@@ -9215,7 +9215,7 @@ window.BACKTEST_RESULTS = {
     "pending": false
    },
    "caseName": "Georgia CVS Pharmacy, LLC (store injury claim)",
-   "court": "Court of Appeals of Georgia (Second Division), on appeal from the State Court of Fulton County; affirmed by the Supreme Court of Georgia, Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718 (2023) (No. S22G0527)",
+   "court": "Court of Appeals of Georgia (Second Division), on appeal from the State Court of Fulton County; affirmed by the Supreme Court of Georgia, Georgia CVS Pharmacy, LLC v. The injured customer, 316 Ga. 718 (2023) (No. S22G0527)",
    "decided": "2021-11-08",
    "sourceUrl": "https://efast.gaappeals.gov/download?filingId=1260bd18-1067-424b-9622-9592df19d165",
    "ranAt": "2026-09-26T04:33:12+00:00",

@@ -154,7 +154,8 @@ def score(record):
                   "correctedTowardPrediction": bool(final_hit) and trial_hit is False,
                   "pending": final_amount is None and not declined},
         "caseName": display_name(record),
-        "court": (record.get("source") or {}).get("court"),
+        # Court strings can carry a later citation with a caption in it.
+        "court": scrub((record.get("source") or {}).get("court"), record["id"]) or (record.get("source") or {}).get("court"),
         "decided": (record.get("source") or {}).get("decided"),
         "sourceUrl": (record.get("source") or {}).get("url"),
         "ranAt": record.get("ranAt"),
