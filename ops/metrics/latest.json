@@ -1,18 +1,18 @@
 {
- "date": "2026-10-16",
- "generatedAt": "2026-10-16T18:53:34+00:00",
+ "date": "2026-10-17",
+ "generatedAt": "2026-10-17T17:31:40+00:00",
  "note": "Visits are tab sessions from js/track.js (crawlers filtered); the site is small, so read 7- and 28-day windows, not single days.",
  "last1Day": {
-  "visits": 48,
-  "pageViews": 53,
+  "visits": 33,
+  "pageViews": 40,
   "multiPageVisits": 4,
-  "multiPageRate": 0.0833,
+  "multiPageRate": 0.1212,
   "funnel": {
-   "viewedAMatter": 17,
+   "viewedAMatter": 13,
    "sawSignInPrompt": 0,
    "openedSignIn": 0,
    "signedUpOrIn": 0,
-   "readFullWriteUp": 0,
+   "readFullWriteUp": 1,
    "clickedWatchlist": 0,
    "shared": 0
   },
@@ -21,130 +21,123 @@
   "newsletterSignups": 0,
   "contactSends": 0,
   "sourceClicks": 1,
-  "searches": 1,
+  "searches": 0,
   "byEvent": {
-   "page_view": 34,
-   "matter_page_view": 19,
-   "search": 1,
+   "page_view": 27,
+   "matter_page_view": 13,
+   "panel_open": 4,
+   "full_read": 4,
    "source_click": 1
   },
   "topPages": [
    [
     "/",
-    7
+    8
    ],
    [
     "/matters/live-229.html",
-    6
+    4
    ],
    [
-    "/litigation.html",
+    "/case-valuation-calibration.html",
     3
    ],
    [
-    "/matters/live-025.html",
+    "/trends.html",
     2
    ],
    [
-    "/ground-lease-disputes.html",
+    "/matters/live-230.html",
     2
    ],
    [
-    "/chapter-11/lvlm-murray-properties-llc-pawb-26-22766.html",
+    "/litigation.html",
     2
    ],
    [
-    "/matters/live-228.html",
+    "/updates.html",
     1
    ],
    [
-    "/chapter-11/janam-taccoa-lodging-llc-ganb-26-63515.html",
+    "/matters/live-135.html",
     1
    ],
    [
-    "/matters/live-117.html",
+    "/matters/live-219.html",
     1
    ],
    [
-    "/federal-cases/building-service-32bj-pension-fund-v-lichter-real-estate-number-one-l-nysd-1-26-cv-09018.html",
+    "/matters/live-300.html",
     1
    ]
   ],
   "toolViews": {
-   "case-valuation": 0,
-   "lease-clause-redline": 1,
+   "case-valuation": 4,
+   "lease-clause-redline": 0,
    "settlement-benchmarks": 0,
-   "litigation-index": 2,
-   "-tracker": 1
+   "litigation-index": 0,
+   "-tracker": 0
   },
   "landingReferrers": [
    [
     "direct or unknown",
-    31
+    25
    ],
    [
     "google.com",
-    16
-   ],
-   [
-    "utm:chatgpt.com",
-    1
+    8
    ]
   ],
   "topMatters": [
    [
-    "live-229",
+    "live-230",
     6
    ],
    [
-    "live-025",
-    2
+    "live-229",
+    4
    ],
    [
-    "live-228",
+    "live-135",
     1
    ],
    [
-    "live-117",
+    "live-219",
     1
    ],
    [
-    "live-294",
+    "live-300",
     1
    ],
    [
-    "live-291",
+    "live-302",
     1
    ],
    [
-    "live-007",
+    "live-220",
     1
    ],
    [
-    "live-038",
+    "live-221",
     1
    ],
    [
-    "live-208",
-    1
-   ],
-   [
-    "live-299",
+    "live-289",
     1
    ]
   ]
  },
  "last7Days": {
-  "visits": 298,
-  "pageViews": 353,
-  "multiPageVisits": 26,
-  "multiPageRate": 0.0872,
+  "visits": 307,
+  "pageViews": 368,
+  "multiPageVisits": 29,
+  "multiPageRate": 0.0945,
   "funnel": {
-   "viewedAMatter": 154,
+   "viewedAMatter": 152,
    "sawSignInPrompt": 0,
    "openedSignIn": 1,
    "signedUpOrIn": 2,
-   "readFullWriteUp": 21,
+   "readFullWriteUp": 22,
    "clickedWatchlist": 0,
    "shared": 0
   },
@@ -152,14 +145,14 @@
   "follows": 0,
   "newsletterSignups": 1,
   "contactSends": 0,
-  "sourceClicks": 14,
+  "sourceClicks": 13,
   "searches": 7,
   "byEvent": {
-   "page_view": 203,
-   "panel_open": 171,
-   "full_read": 171,
-   "matter_page_view": 150,
-   "source_click": 14,
+   "page_view": 220,
+   "panel_open": 175,
+   "full_read": 175,
+   "matter_page_view": 148,
+   "source_click": 13,
    "search": 7,
    "signup": 2,
    "signin_open": 1,
@@ -168,14 +161,14 @@
   "topPages": [
    [
     "/matters/live-208.html",
-    66
-   ],
-   [
-    "/",
-    53
+    61
    ],
    [
     "/litigation.html",
+    55
+   ],
+   [
+    "/",
     53
    ],
    [
@@ -184,7 +177,7 @@
    ],
    [
     "/chapter-11/lvlm-murray-properties-llc-pawb-26-22766.html",
-    13
+    14
    ],
    [
     "/matters/live-087.html",
@@ -192,11 +185,11 @@
    ],
    [
     "/matters/live-229.html",
-    6
+    9
    ],
    [
-    "/matters/live-188.html",
-    5
+    "/case-valuation-calibration.html",
+    4
    ],
    [
     "/matters/live-200.html",
@@ -208,7 +201,7 @@
    ]
   ],
   "toolViews": {
-   "case-valuation": 1,
+   "case-valuation": 5,
    "lease-clause-redline": 1,
    "settlement-benchmarks": 0,
    "litigation-index": 3,
@@ -217,11 +210,11 @@
   "landingReferrers": [
    [
     "direct or unknown",
-    182
+    197
    ],
    [
     "google.com",
-    110
+    104
    ],
    [
     "utm:chatgpt.com",
@@ -239,7 +232,7 @@
   "topMatters": [
    [
     "live-208",
-    69
+    64
    ],
    [
     "live-271",
@@ -266,30 +259,30 @@
     11
    ],
    [
+    "live-229",
+    9
+   ],
+   [
+    "live-230",
+    8
+   ],
+   [
     "live-200",
     7
-   ],
-   [
-    "live-090",
-    6
-   ],
-   [
-    "live-229",
-    6
    ]
   ]
  },
  "last28Days": {
-  "visits": 857,
-  "pageViews": 957,
-  "multiPageVisits": 48,
-  "multiPageRate": 0.056,
+  "visits": 885,
+  "pageViews": 991,
+  "multiPageVisits": 51,
+  "multiPageRate": 0.0576,
   "funnel": {
-   "viewedAMatter": 551,
+   "viewedAMatter": 562,
    "sawSignInPrompt": 84,
    "openedSignIn": 5,
    "signedUpOrIn": 6,
-   "readFullWriteUp": 33,
+   "readFullWriteUp": 34,
    "clickedWatchlist": 0,
    "shared": 1
   },
@@ -297,15 +290,15 @@
   "follows": 0,
   "newsletterSignups": 1,
   "contactSends": 0,
-  "sourceClicks": 32,
+  "sourceClicks": 33,
   "searches": 7,
   "byEvent": {
-   "matter_page_view": 482,
-   "page_view": 475,
-   "panel_open": 281,
-   "full_read": 194,
+   "page_view": 498,
+   "matter_page_view": 493,
+   "panel_open": 285,
+   "full_read": 198,
    "gate_shown": 87,
-   "source_click": 32,
+   "source_click": 33,
    "search": 7,
    "signin_open": 5,
    "signup": 4,
@@ -317,7 +310,7 @@
   "topPages": [
    [
     "/litigation.html",
-    216
+    218
    ],
    [
     "/matters/live-208.html",
@@ -325,11 +318,11 @@
    ],
    [
     "/",
-    91
+    97
    ],
    [
     "/matters/live-221.html",
-    24
+    25
    ],
    [
     "/contact.html",
@@ -341,7 +334,7 @@
    ],
    [
     "/chapter-11/lvlm-murray-properties-llc-pawb-26-22766.html",
-    13
+    14
    ],
    [
     "/matters/live-198.html",
@@ -352,12 +345,12 @@
     11
    ],
    [
-    "/matters/live-200.html",
-    7
+    "/matters/live-229.html",
+    9
    ]
   ],
   "toolViews": {
-   "case-valuation": 1,
+   "case-valuation": 5,
    "lease-clause-redline": 1,
    "settlement-benchmarks": 0,
    "litigation-index": 3,
@@ -366,11 +359,11 @@
   "landingReferrers": [
    [
     "direct or unknown",
-    612
+    634
    ],
    [
     "google.com",
-    226
+    232
    ],
    [
     "utm:chatgpt.com",
@@ -420,7 +413,7 @@
    ],
    [
     "live-221",
-    25
+    26
    ],
    [
     "live-272",
@@ -453,7 +446,7 @@
    "missingTitle": 0,
    "longTitle": 0,
    "missingDescription": 2,
-   "weakDescription": 0,
+   "weakDescription": 1,
    "missingCanonical": 0,
    "duplicateTitles": 0,
    "orphanPages": 0,
@@ -463,23 +456,23 @@
    "heavyPages": 0
   },
   "freshness": {
-   "matters": 251,
+   "matters": 252,
    "newestMatterAdded": "2026-10-16",
-   "daysSinceNewestMatter": 0,
-   "ch11Petitions": 120,
-   "newestCh11Petition": "2026-10-15",
+   "daysSinceNewestMatter": 1,
+   "ch11Petitions": 124,
+   "newestCh11Petition": "2026-10-16",
    "daysSinceNewestCh11": 1,
-   "federalSuits": 71,
-   "newestFederalSuit": "2026-10-15",
+   "federalSuits": 75,
+   "newestFederalSuit": "2026-10-16",
    "daysSinceNewestSuit": 1
   },
-  "pagesChecked": 615
+  "pagesChecked": 632
  },
  "pipelines": {
-  "chapter11Petitions": 120,
-  "federalSuits": 71,
+  "chapter11Petitions": 124,
+  "federalSuits": 75,
   "secLeads": 1,
   "wireLeads": 1,
-  "leadsHandled": 89
+  "leadsHandled": 101
  }
 }

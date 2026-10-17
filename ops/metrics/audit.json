@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-10-16T18:53:34+00:00",
- "pagesChecked": 615,
+ "generatedAt": "2026-10-17T17:31:40+00:00",
+ "pagesChecked": 632,
  "pagesByFolder": {
-  "root": 173,
-  "matters": 251,
-  "chapter-11": 120,
-  "federal-cases": 71
+  "root": 181,
+  "matters": 252,
+  "chapter-11": 124,
+  "federal-cases": 75
  },
  "summary": {
   "zeroStatCounters": 0,
@@ -15,7 +15,7 @@
   "missingTitle": 0,
   "longTitle": 0,
   "missingDescription": 2,
-  "weakDescription": 0,
+  "weakDescription": 1,
   "missingCanonical": 0,
   "duplicateTitles": 0,
   "orphanPages": 0,
@@ -25,14 +25,14 @@
   "heavyPages": 0
  },
  "freshness": {
-  "matters": 251,
+  "matters": 252,
   "newestMatterAdded": "2026-10-16",
-  "daysSinceNewestMatter": 0,
-  "ch11Petitions": 120,
-  "newestCh11Petition": "2026-10-15",
+  "daysSinceNewestMatter": 1,
+  "ch11Petitions": 124,
+  "newestCh11Petition": "2026-10-16",
   "daysSinceNewestCh11": 1,
-  "federalSuits": 71,
-  "newestFederalSuit": "2026-10-15",
+  "federalSuits": 75,
+  "newestFederalSuit": "2026-10-16",
   "daysSinceNewestSuit": 1
  },
  "findings": {
@@ -46,7 +46,12 @@
    "admin-settlement-review.html",
    "handbook.html"
   ],
-  "weakDescription": [],
+  "weakDescription": [
+   {
+    "page": "federal-cases/u-s-bank-national-association-as-trustee-for-the-registered-holders-of-nysd-1-26-cv-09124.html",
+    "chars": 362
+   }
+  ],
   "missingCanonical": [],
   "duplicateTitles": {},
   "orphanPages": [],
