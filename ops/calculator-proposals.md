@@ -223,6 +223,22 @@ interval, for damages once liability is fixed, and is the right aim for
 settlement acceptance measured against real settlements rather than
 verdicts.
 
+## 2026-10-17 — v4.5 candidate, first run (47 cases, $9.59)
+
+Same cases as v4.3, run through the deployed function with promptVariant
+v4.5 (results in case_valuation_project/backtest/results-v4.5/; 44 analyzed,
+2 refused for a wrong-side classification, 1 unclassified). On the 37 cases
+with a final outcome scored both ways: published range holds the final
+outcome 17 -> 23 (46% -> 62%); right side ahead 27 -> 30; no estimate 6 -> 4;
+best guess within 25% 7 -> 8; held-out cases 2/8 -> 4/8. Newly right:
+1700 Market (eviction cut-off), KKS (State appraisal, partial-taking
+measure), Williams Alaska, Elpa, LCRA v. Osher, Holcomb Dunbar. Newly wrong:
+Brandon v. Wells Fargo, Can IV Packard Square. Not yet live: per the
+two-run rule, a repeat run (planned locally via scripts/run_local_calculator.sh
+once ANTHROPIC_API_KEY is on the Mac) must report run-to-run spread first,
+and fresh cases (offer-of-judgment and condemnation sourcing) are the real
+out-of-sample test. Live stays on v4.4.
+
 ## What we have learned (calculator track)
 
 <!-- dated lines added as proposals here are later tested or Jeff rules on them -->
