@@ -103,6 +103,16 @@ const NARRATIVE_MODEL = "claude-sonnet-5";
 // evidence, represented party's own claims when valuing a defendant,
 // and opposing claims netted with an enforced negative sign.
 const ANALYSIS_VERSION = "v4.4";
+
+// v4.5 candidate (2026-10-17, Jeff approved testing): three instructions from
+// the miss analysis in ops/calculator-proposals.md. Until the backtest shows
+// they help, they apply ONLY to secret-authenticated backtest requests that
+// send promptVariant "v4.5"; every live analysis stays on ANALYSIS_VERSION.
+const V45_VARIANT = "v4.5";
+const V45_RULES =
+  "WHAT A FIGURE IS WORTH (v4.5): a figure being true is not the same as it being awarded. The strength band you choose for an issue is the probability that its figure is actually awarded as damages under the theory that governs -- not whether the figure itself is accurate or undisputed. A loan's face amount, a demand, a prayer for punitive damages, a billed rent total or the capital investors put in are facts about what was owed, asked for or invested. Before rating such an issue 'conceded', 'strong' or 'favorable', check the record for (a) any count that was abandoned, dismissed, withdrawn or superseded -- an abandoned count is not an issue at all -- and (b) any rule the record states or plainly implicates that measures or caps recovery differently: rent recoverable only through repossession after an eviction rather than for the rest of the term, a guaranty limited to a stated amount or to carve-out losses, credits for payments, sale proceeds or collateral value, a securities-damages measure based on price decline rather than capital raised, punitive damages that need findings the record does not show. Where such a rule applies, price the issue on the figure the rule produces if the record states one, lower the band, or add a separate offsetting issue with its own quoted figures. Never let the largest figure in the record become the ceiling merely because it is the largest. " +
+  "VALUATION DISPUTES (v4.5): when the dispute is over what property is worth -- a condemnation or partial taking, an appraisal dispute, a fair-value offset -- search the whole record for EVERY side's valuation figure (each appraiser's number, the condemning authority's offer or advance payment, the owner's claim) and put them on the same issue with basis 'competing'. If you can find only one side's figure, say so in the issue's note ('opposing valuation not found in record') and do not rate that one-sided figure above 'favorable'. In a partial taking, the before-taking value of the whole parcel is NOT the compensation: compensation is the loss in value (before-taking value less after-taking value, including severance damage to the remainder) plus any separately compensable items. If the record gives no after-taking value or damages figure, do not price the before-taking value as the award; price only figures that measure the loss, and name the missing figure. " +
+  "EVERY CLAIM, EVERY WINNING THEORY (v4.5): when the record describes several consolidated actions, notes, guaranties or claims ('all four actions', 'each of the three notes'), list and price each one as its own issue rather than only the largest. When the represented side asserts its own affirmative claim or counterclaim, it must have its own priced issue in addition to any issue for the other side's claims against it: the represented side can win on its own theory, not only by defeating the other side's. ";
 const EXTRACTION_MODEL = "claude-haiku-4-5";
 
 // Per-million-token pricing, for the cost-estimate logging below only --
@@ -2008,12 +2018,14 @@ async function handle(req: Request): Promise<Response> {
   // frontend JS still mid-rollout, which may still send an explicit
   // dropdown-selected `category`, keeps working exactly as before. New
   // requests are expected to omit it entirely.
-  let requestBody: { documentText?: string; description?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null; customCostLow?: number | null; customCostHigh?: number | null; mitigationReleaseMonths?: number | null; mitigationNewMonthlyRent?: number | null; mitigationPropertyType?: string | null };
+  let requestBody: { documentText?: string; description?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null; customCostLow?: number | null; customCostHigh?: number | null; mitigationReleaseMonths?: number | null; mitigationNewMonthlyRent?: number | null; mitigationPropertyType?: string | null; promptVariant?: string };
   try {
     requestBody = await req.json();
   } catch {
     return jsonResponse({ error: "Invalid request body" }, 400);
   }
+  // The v4.5 candidate instructions: backtest requests only (see V45_RULES).
+  const useV45 = isBacktest && requestBody.promptVariant === V45_VARIANT;
   const description = (requestBody.description ?? "").slice(0, MAX_DESCRIPTION_CHARS);
   const documentText = (requestBody.documentText ?? "").slice(0, MAX_DOC_CHARS);
   if (!description && !documentText) {
@@ -2418,6 +2430,7 @@ async function handle(req: Request): Promise<Response> {
         "THE REPRESENTED PARTY'S OWN CLAIMS: when the side being valued is a defendant -- a tenant, borrower, guarantor or contractor -- the matter is not only defense. List every affirmative claim, counterclaim and setoff the represented side asserts (constructive eviction, deposit return, unjust enrichment, lien foreclosure, contract damages, moving costs, lost profits) as its own issue with claimant 'represented', its own probability and its own damagesRange, and state in likelyOutcome which side's NET position the numbers describe. A defendant who wins its counterclaim has a positive value; do not report zero because the other side's claim fails. " +
         "PRICE THE REPRESENTED PARTY'S OWN CLAIMS: if you list figures for any of the other side's claims, you must also list the figures for every affirmative claim of the represented side from the same record -- the rent the lease states, the balance the note states, the contract price, the invoices. A net figure that prices only the other side's claims reads as a loss when the client may be owed money. Leave the represented claim's amount null only when the record contains no figure for it at all; the system will then decline to give a net figure rather than show a one-sided one. Mark each issue's kind: 'claim' if it seeks money or property, 'defense' if it only reduces the other side's recovery. " +
         "CLAIMANT: every issue that is the OTHER side's claim, counterclaim, fee or interest exposure against the represented side is claimant 'opposing'; list its figures as positive numbers and the system treats them as what the represented side may have to pay. Mark the claimant correctly: it decides which way the money goes. " +
+        (useV45 ? V45_RULES : "") +
         "REMINDER ON CITATIONS -- every one of the requirements above is about the analysis TEXT, not the structured citedCaseNames field on each issue, and satisfying them is not a substitute for filling that field in. If you name a case from the reference list in an issue's prose (per the GROUNDING REQUIREMENT), that same case name must also appear in that issue's citedCaseNames array -- do not let a case exist only in the prose. Before finalizing each issue, check it against the reference list a second time and list every supporting case by exact name." +
         (settlementBenchmark
           ? ` CONTRIBUTED SETTLEMENT DATA: below the case materials you'll also find real, reviewer-verified settlement amounts from ${settlementBenchmark.count} other matters in this same category and state -- actual money that actually changed hands, not a modeled or reported-opinion figure. Treat this as a distinct, valuable calibration anchor alongside the case-law citations, not a replacement for them: case law tells you how a court reasons about liability, this tells you what similar disputes actually settled for once collectibility, litigation cost, and every other real-world discount got baked in. Weigh your damagesRange and bestGuessValue against it -- if your own estimate lands far outside this real range, say so explicitly in the analysis and explain what makes this case different (different property scale, different facts, more/less exposure), rather than silently ignoring a real, on-point data point. Never cite it in citedCaseNames (that field is reserved for actual case law from the reference list) -- reference it in the analysis prose instead, e.g. 'contributed settlement data for comparable disputes in this state.'`
@@ -2748,7 +2761,7 @@ async function handle(req: Request): Promise<Response> {
         // Which model produced this analysis, so a calibration result is
         // never attributed to the wrong model if NARRATIVE_MODEL changes.
         model: NARRATIVE_MODEL,
-        analysisVersion: ANALYSIS_VERSION,
+        analysisVersion: useV45 ? V45_VARIANT : ANALYSIS_VERSION,
         // v5: the state's interest, fee and deficiency rules, with statute
         // citations, shown beside the valuation (not folded into it).
         jurisdictionRules: jurisdictionRules(str(extractedFacts, "state"), category),

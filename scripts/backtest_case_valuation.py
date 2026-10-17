@@ -50,8 +50,10 @@ def validate(case):
             raise ValueError(f"{case['id']}: the outcome amount appears in the input text")
 
 
-def call_calculator(secret, inp):
+def call_calculator(secret, inp, variant=""):
     body = {k: v for k, v in inp.items() if k in ("description", "documentText", "userSide", "expectToTrial")}
+    if variant:  # candidate instructions, honored only for backtest requests
+        body["promptVariant"] = variant
     req = urllib.request.Request(
         FUNCTION_URL, data=json.dumps(body).encode(), method="POST",
         headers={"Content-Type": "application/json", "apikey": ANON_KEY,
@@ -102,6 +104,7 @@ def main():
     ap.add_argument("--confirm", action="store_true", help="required; each call spends API credit")
     ap.add_argument("--only", default="", help="comma-separated case ids")
     ap.add_argument("--version", default="v1", help="results directory: v1 -> results/, v2 -> results-v2/")
+    ap.add_argument("--variant", default="", help="candidate prompt variant to request, e.g. v4.5 (backtest only)")
     args = ap.parse_args()
     global RESULTS_DIR
     RESULTS_DIR = RESULTS_ROOT / ("results" if args.version == "v1" else f"results-{args.version}")
@@ -134,7 +137,13 @@ def main():
         if ran >= args.limit:
             break
         print(f"running {c['id']} ...", flush=True)
-        status, body = call_calculator(secret, c["input"])
+        status, body = call_calculator(secret, c["input"], args.variant)
+        # A variant run must come back labeled with that variant, or the
+        # deployed function did not apply it and the result would be
+        # mislabeled (2026-10-17).
+        got = (body.get("analysis") or {}).get("analysisVersion") if status == 200 else None
+        if status == 200 and args.variant and got != args.variant:
+            status, body = 409, {"error": f"asked for variant {args.variant!r} but the calculator ran {got!r}; deploy the function first"}
         # The calculator's sideA/sideB are fixed per category (lease disputes:
         # Landlord/Tenant; lending: Lender/Borrower), so a case whose input
         # names the wrong side is valued for the other party. Refuse to

@@ -31,13 +31,18 @@ const data = new Function(src + "; return RELAW_DATA;")() as { cases: Case[]; st
 const btRaw = await Deno.readTextFile("js/backtest-results-data.js");
 const bt = JSON.parse(btRaw.slice(btRaw.indexOf("{"), btRaw.lastIndexOf("}") + 1));
 const versions = Object.keys(bt.versions).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
-const VERSION = versions.at(-1)!;
+// Quote the newest backtest at or below the version visitors actually get
+// (ANALYSIS_VERSION in the analyze function), never a candidate still
+// being tested (2026-10-17, v4.5 candidate runs).
+const fnText = await Deno.readTextFile("supabase/functions/case-valuation-analyze/index.ts");
+const LIVE = /const ANALYSIS_VERSION = "([^"]+)"/.exec(fnText)?.[1] ?? versions.at(-1)!;
+const VERSION = versions.filter((v) => v.localeCompare(LIVE, undefined, { numeric: true }) <= 0).at(-1) ?? versions.at(-1)!;
 const btCases: BtCase[] = bt.versions[VERSION].cases;
 const byCategory: Record<string, { finalHits: number; finalScorable: number }> = bt.versions[VERSION].byCategory || {};
 const overall = bt.versions[VERSION].summary as { finalHits: number; finalScorable: number };
 
 // The calculator's own questions per category.
-const fnSrc = await Deno.readTextFile("supabase/functions/case-valuation-analyze/index.ts");
+const fnSrc = fnText;
 const fieldsBlock = fnSrc.slice(fnSrc.indexOf("const CATEGORY_FIELDS"), fnSrc.indexOf("\n};", fnSrc.indexOf("const CATEGORY_FIELDS")));
 const questions: Record<string, string[]> = {};
 for (const m of fieldsBlock.matchAll(/"([a-z-]+)": \[([\s\S]*?)\n  \],/g)) {

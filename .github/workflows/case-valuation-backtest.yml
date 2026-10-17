@@ -20,6 +20,9 @@ on:
       version:
         description: "Results directory for backtests: v1, v2 or v3 (must match the deployed analysis version)"
         default: "v3"
+      variant:
+        description: "Candidate prompt variant to request (backtest only), e.g. v4.5; empty = live version"
+        default: ""
 
 permissions:
   contents: write
@@ -46,7 +49,7 @@ jobs:
           if [ "${{ inputs.mode }}" = "registry" ]; then
             python3 scripts/registry_predict.py --confirm --limit "${{ inputs.limit }}" --only "${{ inputs.only }}"
           else
-            python3 scripts/backtest_case_valuation.py case_valuation_project/backtest/cases.json --confirm --limit "${{ inputs.limit }}" --only "${{ inputs.only }}" --version "${{ inputs.version }}"
+            python3 scripts/backtest_case_valuation.py case_valuation_project/backtest/cases.json --confirm --limit "${{ inputs.limit }}" --only "${{ inputs.only }}" --version "${{ inputs.version }}" --variant "${{ inputs.variant }}"
           fi
       - name: Commit results
         run: |
