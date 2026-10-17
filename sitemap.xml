@@ -92,12 +92,27 @@
   </url>
   <url>
     <loc>https://credocket.com/case-valuation.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://credocket.com/cmbs-litigation-tracker.html</loc>
     <lastmod>2026-10-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/commercial-foreclosure-guaranty-damages.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/commercial-lease-dispute-damages.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/commercial-premises-liability-damages.html</loc>
+    <lastmod>2026-10-17</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -276,6 +291,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://credocket.com/condemnation-compensation.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/construction-defect-damages.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/contact.html</loc>
     <lastmod>2026-10-13</lastmod>
     <priority>0.6</priority>
@@ -319,6 +344,11 @@
     <loc>https://credocket.com/distressed-office.html</loc>
     <lastmod>2026-10-13</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/environmental-cleanup-cost-claims.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/eviction-guide.html</loc>
@@ -611,6 +641,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://credocket.com/land-use-litigation-damages.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/lawsuit-watch.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.7</priority>
@@ -687,7 +722,7 @@
   </url>
   <url>
     <loc>https://credocket.com/monitor.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -764,6 +799,11 @@
     <loc>https://credocket.com/regulatory.html</loc>
     <lastmod>2026-10-13</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/reit-securities-claim-value.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/retail-cre.html</loc>
