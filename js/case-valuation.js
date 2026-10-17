@@ -598,6 +598,31 @@
     </div>`;
   }
 
+  // v6 outcome scenarios (2026-10-17): shown only when the analysis
+  // includes them. Computed in code from the same per-claim ratings and
+  // figures as the range above (valuation-v6.ts in the analyze function).
+  function scenariosHtml(sc) {
+    if (!sc || typeof sc.pAhead !== "number") return "";
+    const pct = Math.round(sc.pAhead * 100);
+    const cell = (label, value, note) => `
+          <div style="min-width:160px; flex:1;">
+            <div class="text-muted" style="font-size:11.5px; text-transform:uppercase; letter-spacing:0.05em;">${label}</div>
+            <div style="font-family:var(--font-display); font-size:1.35rem; margin-top:4px;">${value}</div>
+            ${note ? `<div class="text-muted" style="font-size:12px; margin-top:2px;">${note}</div>` : ""}
+          </div>`;
+    return `
+      <div class="card" style="padding:20px; margin-top:16px;">
+        <div class="eyebrow" style="margin-bottom:12px;">Likely outcomes</div>
+        <div style="display:flex; flex-wrap:wrap; gap:18px 28px;">
+          ${cell("Chance you come out ahead", `${pct}%`, "")}
+          ${cell("Settlement value", V.fmt(sc.settlementValue), "Probability-weighted; what the case is worth to settle")}
+          ${sc.ifWin ? cell("If you come out ahead", V.fmtRange(sc.ifWin[0], sc.ifWin[1]), "Middle half of those outcomes") : ""}
+          ${cell("Likely range (80%)", V.fmtRange(sc.likely80[0], sc.likely80[1]), `Middle half: ${V.fmtRange(sc.likely50[0], sc.likely50[1])}`)}
+        </div>
+        <p class="text-muted" style="font-size:12px; line-height:1.6; margin-top:12px;">From ${Number(sc.draws).toLocaleString("en-US")} simulated outcomes in which each claim wins or loses by its rating and claims on the same side tend to move together, as they do when one finding sways a whole case. The same facts always produce the same numbers.</p>
+      </div>`;
+  }
+
   function renderAiResult(json, emptyFiles, followupContext, truncationNote) {
     if (lastFreshFragmentHtml) resultHistory.push(lastFreshFragmentHtml);
     const a = json.analysis || {};
@@ -705,6 +730,7 @@
         ${a.damagesRange && typeof a.bestGuessValue === "number" ? `<div style="margin-top:12px;"><span class="detail-tag" title="Kept alongside the single figure above because the range itself is informative, not just noise around a guess.">Full range: ${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</span></div>` : ""}
         ${metaRowHtml}
       </div>
+      ${scenariosHtml(a.scenarios)}
       ${a.likelyOutcome ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Executive Discovery</div><p class="text-secondary" style="font-size:14px; line-height:1.6;">${a.likelyOutcome}</p></div>` : ""}
       ${summaryTableHtml(a)}
       ${jurisdictionRulesHtml(a.jurisdictionRules)}
