@@ -1,0 +1,566 @@
+{
+ "about": "Business-only display names for published backtest results (Jeff, 2026-10-17: business names only). 'name' replaces the caption; each key of 'individuals' is replaced by its value in published outcome text.",
+ "cases": {
+  "williamson-music-v-eqyinvest-2026": {
+   "name": "Williamson Music 1st, LLC and a guarantor v. EQYInvest Owner II, Ltd., LLP",
+   "individuals": {
+    "Raymond Gore": "the guarantor"
+   }
+  },
+  "empower-school-v-covenant-2026": {
+   "name": "Empower School, LLC v. Covenant Management Systems, LP",
+   "individuals": {}
+  },
+  "shaw-v-am-development-2026": {
+   "name": "A law firm v. A & M Development, L.L.C.",
+   "individuals": {
+    "The Law Office of Melvin O. Shaw, P.L.C.": "the law firm",
+    "Law Office of Melvin O. Shaw, P.L.C.": "law firm",
+    "Melvin O. Shaw": "the firm's lawyer"
+   }
+  },
+  "gsl-investments-v-bella-nails-2026": {
+   "name": "GSL Investments I, LLC v. Bella Nails & Spa, LLC and a guarantor",
+   "individuals": {}
+  },
+  "tres-botes-v-shree-maa-krupa-2026": {
+   "name": "Tres Botes, LLC & Dos Botes Entertainment, Inc. v. Shree Maa Krupa Properties, Ltd. & SDP Hotel, LLC",
+   "individuals": {}
+  },
+  "universal-shopping-plaza-v-hong-2026": {
+   "name": "Universal Shopping Plaza v. a restaurant tenant",
+   "individuals": {
+    "Piong Bin Hong": "the tenant"
+   }
+  },
+  "mckinney-v-park-plaza-properties-2026": {
+   "name": "A retail tenant v. Park Plaza Properties, LLC",
+   "individuals": {
+    "Shayne McKinney": "the tenant"
+   }
+  },
+  "island-girl-outfitters-v-allied-development-2025": {
+   "name": "Island Girl Outfitters, LLC and a guarantor v. Allied Development of Alabama, LLC",
+   "individuals": {
+    "Anthony S. Carver": "the guarantor"
+   }
+  },
+  "lbj-venture-v-kolaj-2025": {
+   "name": "202 N LBJ Venture Group, LP v. its restaurant tenants",
+   "individuals": {
+    "Paul Kolaj and Modesta Kolaj": "the tenants",
+    "Paul Kolaj": "a tenant",
+    "Modesta Kolaj": "a tenant"
+   }
+  },
+  "hurt-v-caton-2025": {
+   "name": "South Pantops II Land Trust v. a developer",
+   "individuals": {
+    "Charles W. Hurt and Shirley L. Fisher": "the trustees",
+    "Charles W. Hurt": "a trustee",
+    "Shirley L. Fisher": "a trustee",
+    "Douglas E. Caton": "the developer",
+    "Caton": "the developer"
+   }
+  },
+  "edgemere-lawal-2025": {
+   "name": "Edgemere Loop 375, LLC v. a physician and Southwestern Cardiac Arrhythmia Institute, P.A.",
+   "individuals": {
+    "Lookman Lawal, M.D.": "the physician",
+    "Lookman Lawal": "the physician",
+    "Dr. Lawal": "the physician",
+    "Lawal": "the physician"
+   }
+  },
+  "four-elyria-brexton-2025": {
+   "name": "Four Elyria Co., L.L.C. v. Brexton Constr., L.L.C.",
+   "individuals": {}
+  },
+  "721-st-charles-crd-2025": {
+   "name": "721 St. Charles, LLC v. Gibbs Residential, LLC and Commercial Realty Developers, LLC",
+   "individuals": {}
+  },
+  "usbank-br-penn-realty-2025": {
+   "name": "US Bank NA, as CMBS trustee v. B R Penn Realty Owner LP",
+   "individuals": {}
+  },
+  "udot-boggess-draper-2025": {
+   "name": "Utah Department of Transportation v. Boggess-Draper Company, LLC",
+   "individuals": {}
+  },
+  "nco-montgomery-park-2025": {
+   "name": "NCO Financial Systems, Inc. v. Montgomery Park, LLC",
+   "individuals": {}
+  },
+  "cumberland-lakefront-blackwing-2025": {
+   "name": "Cumberland Lakefront B, LLC v. Blackwing, LLC",
+   "individuals": {}
+  },
+  "kotis-associates-v-united-states-2025": {
+   "name": "Kotis Associates, LLC v. United States",
+   "individuals": {
+    "Dr. Kilpatrick": "the owners' appraiser",
+    "Kilpatrick": "the owners' appraiser"
+   }
+  },
+  "dover-mall-v-tang-2023": {
+   "name": "Dover Mall, LLC v. a nail-salon tenant",
+   "individuals": {
+    "Sam Tang": "the tenant"
+   }
+  },
+  "frye-v-raphaelson-estate-2023": {
+   "name": "A long-time occupant v. a property owner's estate",
+   "individuals": {
+    "Estate of Raphaelson": "the owner's estate",
+    "Frye": "the occupant"
+   }
+  },
+  "telegraph-square-7205-2023": {
+   "name": "Telegraph Square II, a Condominium Unit Owners Association v. 7205 Telegraph Square, LLC",
+   "individuals": {}
+  },
+  "lagoon-partners-landmark-2023": {
+   "name": "Lagoon Partners, LLC v. Silver Cinemas Acquisition Co., d/b/a Landmark Theatres",
+   "individuals": {}
+  },
+  "franciscan-cvs-i69-2023": {
+   "name": "State of Indiana v. Franciscan Alliance, Inc., SCP 2010-C36-018 LLC and others",
+   "individuals": {}
+  },
+  "carmel-barham-dealership-2023": {
+   "name": "City of Carmel v. Barham Investments, LLC and others",
+   "individuals": {}
+  },
+  "navient-v-bpg-office-partners-2023": {
+   "name": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC",
+   "individuals": {}
+  },
+  "igcfco-iii-v-one-way-loans-2024": {
+   "name": "IGCFCO III, LLC v. One Way Loans, LLC",
+   "individuals": {
+    "Moses Gross": "a guarantor"
+   }
+  },
+  "garmong-v-edgerock-development-2025": {
+   "name": "EdgeRock Development, LLC v. C.H. Garmong & Son, Inc.",
+   "individuals": {}
+  },
+  "hall-ca-nv-v-radovan-2022": {
+   "name": "Hall CA-NV, LLC v. guarantors",
+   "individuals": {
+    "Robert Radovan and William Criswell": "the guarantors",
+    "Robert Radovan": "a guarantor",
+    "William Criswell": "a guarantor"
+   }
+  },
+  "stark-v-mccarthy-corp-2021": {
+   "name": "McCarthy Corporation v. Stark Investment Group, LLC",
+   "individuals": {
+    "Craig Stark": "the owner",
+    "Stark": "the owner"
+   }
+  },
+  "globe-contracting-v-hour-2025": {
+   "name": "Globe Contracting LLC v. Hour Taing Enterprise LLC",
+   "individuals": {
+    "Dr. Raymond Hour": "the owner",
+    "Raymond R. Hour": "the owner",
+    "Raymond Hour": "the owner",
+    "Kimberly Taing": "a co-defendant",
+    "Hour": "the owner"
+   }
+  },
+  "huntington-bank-v-limited-investment-group-2022": {
+   "name": "Limited Investment Group Corp. v. Huntington National Bank",
+   "individuals": {}
+  },
+  "aesthetic-elements-v-meera-enterprise-2025": {
+   "name": "Aesthetic Elements, Inc. v. Meera Enterprise, LLC",
+   "individuals": {}
+  },
+  "windsor-tower-v-speedy-maintenance-2024": {
+   "name": "Speedy Maintenance Service, L.L.C. v. Windsor Tower, L.L.C.",
+   "individuals": {}
+  },
+  "can-iv-packard-square-v-schubiner-2021": {
+   "name": "Can IV Packard Square, LLC v. the borrower's principal",
+   "individuals": {
+    "Craig Schubiner": "the borrower's principal",
+    "Schubiner": "the borrower's principal"
+   }
+  },
+  "quantum-concrete-v-plaza-de-kaza-2023": {
+   "name": "Quantum Concrete, Inc. v. Plaza de Kaza, LLC",
+   "individuals": {
+    "Ronald A. Dykstra, d/b/a Dykstra Homes": "the builder",
+    "Ronald A. Dykstra": "the builder",
+    "Ronald Dykstra": "the builder",
+    "Dykstra": "the builder"
+   }
+  },
+  "cle-venture-fund-v-coventry-2025": {
+   "name": "CLE Venture Fund, L.P. v. Coventry Partners, L.L.C.",
+   "individuals": {
+    "John Crigler": "the guarantor"
+   }
+  },
+  "1215-superior-v-berger-2025": {
+   "name": "1215 Superior, L.L.C. v. a guarantor",
+   "individuals": {
+    "Jacob Berger": "the guarantor",
+    "Berger": "the guarantor"
+   }
+  },
+  "zenith-global-v-linden-village-2021": {
+   "name": "Zenith Global Solutions, Inc. v. Linden Village Assisted Living Community, LLC",
+   "individuals": {}
+  },
+  "brandon-v-wells-fargo-midland-2020": {
+   "name": "A borrower v. Wells Fargo Bank, N.A., as CMBS trustee",
+   "individuals": {
+    "David Keith Brandon": "the borrower",
+    "Brandon": "the borrower"
+   }
+  },
+  "preston-hollow-v-senior-care-living-vi-2024": {
+   "name": "Senior Care Living VI, LLC and its principal v. Preston Hollow Capital, LLC, UMB Bank N.A., and TMI Trust Company",
+   "individuals": {
+    "Mark C. Bouldin": "the owner's principal",
+    "Mark Bouldin": "the owner's principal",
+    "Bouldin": "the owner's principal"
+   }
+  },
+  "architectural-stainless-v-tm-partridge-creek-mall-2021": {
+   "name": "Architectural Stainless, Inc. v. TM Partridge Creek Mall, LP",
+   "individuals": {
+    "Thomas Lefevre": "a co-defendant"
+   }
+  },
+  "state-v-skyway-holdings-2021": {
+   "name": "State of Texas v. Skyway Holdings LLC",
+   "individuals": {
+    "owners' appraiser Korman": "owners' appraiser",
+    "Korman": "the owners' appraiser"
+   }
+  },
+  "hrt-enterprises-v-detroit-2025": {
+   "name": "HRT Enterprises v. City of Detroit",
+   "individuals": {
+    "Thapar, J.": "one judge"
+   }
+  },
+  "piedmont-gas-v-blueroad-fontanel-2026": {
+   "name": "Piedmont Natural Gas Company, Inc. v. BlueRoad Fontanel, LLC",
+   "individuals": {}
+  },
+  "odot-v-trade-winds-motor-hotel-2020": {
+   "name": "State of Oklahoma ex rel. Department of Transportation v. Trade Winds Motor Hotel East, Inc.",
+   "individuals": {}
+  },
+  "lcra-st-louis-v-osher-2020": {
+   "name": "Land Clearance for Redevelopment Authority of the City of St. Louis v. a property owner",
+   "individuals": {
+    "James Townsend Osher": "the property owner",
+    "Osher": "the property owner"
+   }
+  },
+  "j-nazzaro-partnership-v-state-ny-2022": {
+   "name": "J. Nazzaro Partnership, L.P. v. State of New York",
+   "individuals": {}
+  },
+  "elpa-builders-v-state-ny-2021": {
+   "name": "Elpa Builders, Inc. v. State of New York",
+   "individuals": {}
+  },
+  "kks-properties-slingerlands-bypass-2020": {
+   "name": "KKS Properties, LLC v. State of New York",
+   "individuals": {}
+  },
+  "5th-and-walnut-v-des-moines-2026": {
+   "name": "5th and Walnut Parking LLC v. City of Des Moines",
+   "individuals": {
+    "Justin Mandelbaum": "a developer principal",
+    "Sean Mandelbaum": "a developer principal"
+   }
+  },
+  "pml-development-v-hawthorn-woods-2023": {
+   "name": "PML Development LLC v. The Village of Hawthorn Woods",
+   "individuals": {}
+  },
+  "burns-concrete-v-teton-county-2020": {
+   "name": "Burns Concrete, Inc. and Burns Holdings, LLC v. Teton County",
+   "individuals": {}
+  },
+  "indian-river-county-v-ocean-concrete-2020": {
+   "name": "Indian River County v. Ocean Concrete, Inc. and a landowner",
+   "individuals": {
+    "George Maib": "the landowner",
+    "Maib": "the landowner"
+   }
+  },
+  "cvs-v-carmichael-2021": {
+   "name": "Georgia CVS Pharmacy, LLC (store injury claim)",
+   "individuals": {
+    "James Carmichael": "the injured customer",
+    "Carmichael": "the injured customer"
+   }
+  },
+  "jack-v-eldorado-casino-2019": {
+   "name": "An injured guest v. Eldorado Casino Shreveport Joint Venture, L.L.C.",
+   "individuals": {
+    "Yasheka Jack": "the injured guest"
+   }
+  },
+  "pilot-travel-centers-v-womack-2024": {
+   "name": "Pilot Travel Centers, LLC and its general manager v. an injured customer",
+   "individuals": {
+    "Gina Franklin, Individually": "its general manager",
+    "Gina Franklin": "the store's general manager",
+    "Willa Womack": "the injured customer",
+    "Womack": "the injured customer"
+   }
+  },
+  "trout-v-shani-dev8-2025": {
+   "name": "An injured customer v. Jay Shani DEV8, L.L.C., d.b.a. Mr. Hero",
+   "individuals": {
+    "Cheryl Trout": "the injured customer",
+    "Trout": "the injured customer"
+   }
+  },
+  "walmart-v-leverette-2024": {
+   "name": "Walmart Stores East, LP v. an injured shopper",
+   "individuals": {
+    "Bettie Leverette": "the injured shopper",
+    "Leverette": "the injured shopper"
+   }
+  },
+  "williams-alaska-flint-hills-2023": {
+   "name": "Williams Alaska Petroleum, Inc. v. State of Alaska and Flint Hills Resources",
+   "individuals": {}
+  },
+  "exxon-mobil-v-united-states-2020": {
+   "name": "Exxon Mobil Corporation v. United States of America",
+   "individuals": {}
+  },
+  "asarco-v-atlantic-richfield-2020": {
+   "name": "ASARCO LLC v. Atlantic Richfield Company, LLC",
+   "individuals": {}
+  },
+  "omega-healthcare-securities-2019": {
+   "name": "In re Omega Healthcare Investors, Inc. Securities Litigation",
+   "individuals": {}
+  },
+  "wheeler-reit-khoshaba-2024": {
+   "name": "Wheeler Real Estate Investment Trust stockholder class action",
+   "individuals": {
+    "Khoshaba": "the lead plaintiff",
+    "Stilwell": "a director"
+   }
+  },
+  "pryority-v-amt-properties-2021": {
+   "name": "Pryority Partnership v. AMT Properties, LLC",
+   "individuals": {}
+  },
+  "donegal-v-christie-scott-2020": {
+   "name": "Donegal Associates v. Christie-Scott, LLC",
+   "individuals": {}
+  },
+  "buyers-choice-v-palm-beach-motors-2024": {
+   "name": "Buyer's Choice Auto Sales, LLC v. Palm Beach Motors, LLC",
+   "individuals": {}
+  },
+  "1700-market-v-common-grounds-2024": {
+   "name": "1700 Market Street Associates, L.P. v. Common Grounds 1700 Market Street, LLC",
+   "individuals": {}
+  },
+  "slyce-v-metropolitan-square-plaza-2025": {
+   "name": "Slyce Coal Fired Pizza Company v. Metropolitan Square Plaza, LLC",
+   "individuals": {
+    "Laurie Barth and Brittany Barth-Niggemann": "the guarantors",
+    "Laurie Barth": "a guarantor",
+    "Brittany Barth-Niggemann": "a guarantor"
+   }
+  },
+  "holcomb-dunbar-v-mad-hatter-2022": {
+   "name": "Holcomb Dunbar, P.A. v. 400 South Lamar Oxford Mad Hatter Partners, LLC",
+   "individuals": {
+    "Blake Tartt III": "a co-defendant"
+   }
+  },
+  "epochal-v-lf-encinitas-2024": {
+   "name": "Epochal Enterprises, Inc. v. LF Encinitas Properties, LLC",
+   "individuals": {}
+  },
+  "griffith-v-hemphill-2022": {
+   "name": "A commercial landlord v. its tenants",
+   "individuals": {
+    "Roger Hemphill and Donald Davis": "the tenants",
+    "David Griffith": "the landlord",
+    "Roger Hemphill": "a tenant",
+    "Donald Davis": "a tenant",
+    "Griffith": "the landlord"
+   }
+  },
+  "lemartec-v-east-coast-metal-2024": {
+   "name": "Lemartec Corporation and others v. East Coast Metal Structures Corp.",
+   "individuals": {}
+  },
+  "sharpe-trust-v-south-florida-pool-spa-2016": {
+   "name": "South Florida Pool and Spa Corp. and a guarantor v. Sharpe Investment Land Trust Number J, d/b/a Miller Heights Shopping Center",
+   "individuals": {
+    "Candido Sanchez": "the guarantor"
+   }
+  },
+  "waterwood-v-long-beach-2020": {
+   "name": "Waterwood Enterprises, LLC v. City of Long Beach",
+   "individuals": {}
+  },
+  "jmr-construction-v-ear-2015": {
+   "name": "JMR Construction Corp. v. Environmental Assessment and Remediation Management, Inc. and SureTec Insurance Company",
+   "individuals": {}
+  },
+  "khalia-v-rosebud-2019": {
+   "name": "Khalia, Inc. v. an injured motorist",
+   "individuals": {
+    "Daniel Rosebud": "the injured motorist",
+    "Rosebud": "the injured motorist"
+   }
+  },
+  "cajun-contractors-v-laguerre-2021": {
+   "name": "Cajun Contractors, Inc. v. an injured taxi driver",
+   "individuals": {
+    "Max Laguerre": "the injured driver",
+    "Laguerre": "the injured driver"
+   }
+  },
+  "eichenblatt-v-piedmont-maple-2021": {
+   "name": "A former member v. Piedmont/Maple, LLC and Kaufman Development Partners, LP",
+   "individuals": {
+    "David Eichenblatt": "the former member",
+    "Eichenblatt": "the former member",
+    "Craig S. Kaufman": "the managing member's principal",
+    "Craig Kaufman": "the managing member's principal"
+   }
+  },
+  "walmart-v-howell-2024": {
+   "name": "Wal-Mart Stores East, LP v. an injured shopper and her husband",
+   "individuals": {
+    "Maria Howell and Oscar Howell": "the injured shopper and her husband",
+    "Maria Howell": "the injured shopper",
+    "Oscar Howell": "her husband"
+   }
+  },
+  "exhibit-source-v-wells-avenue-2018": {
+   "name": "The Exhibit Source, Inc. v. Wells Avenue Business Center, LLC",
+   "individuals": {}
+  },
+  "caltrans-v-acosta-2009": {
+   "name": "People ex rel. Department of Transportation v. a gas-station operator and Hammer 99, Inc.",
+   "individuals": {
+    "Mercedes Acosta": "the station operator",
+    "Acosta": "the station operator"
+   }
+  },
+  "inglewood-v-aklilu-2007": {
+   "name": "Inglewood Redevelopment Agency v. the operator of Auto Inn Lube and Oil",
+   "individuals": {
+    "Elias Aklilu, d/b/a Auto Inn Lube and Oil": "the operator of Auto Inn Lube and Oil",
+    "Elias Aklilu": "the business operator",
+    "Aklilu": "the business operator"
+   }
+  },
+  "mdha-v-nashville-downtown-platinum-2017": {
+   "name": "Metropolitan Development and Housing Agency v. Nashville Downtown Platinum, LLC",
+   "individuals": {}
+  },
+  "caltrans-v-hansens-truck-stop-2015": {
+   "name": "The People ex rel. California Department of Transportation v. Hansen's Truck Stop, Inc.",
+   "individuals": {}
+  },
+  "san-francisco-v-pcf-acquisitionco-2015": {
+   "name": "City and County of San Francisco v. PCF Acquisitionco, LLC",
+   "individuals": {}
+  },
+  "morale-v-state-texas-2018": {
+   "name": "The owners of Action Collision Repair v. The State of Texas",
+   "individuals": {
+    "Stephen Morale d/b/a Action Collision Repair and Kimberly Morale": "the owners of Action Collision Repair",
+    "Stephen Morale": "an owner",
+    "Kimberly Morale": "an owner",
+    "owners' appraiser Bolton": "owners' appraiser",
+    "Bolton": "the owners' appraiser"
+   }
+  },
+  "mhtc-v-boer-potted-steer-2016": {
+   "name": "State ex rel. Missouri Highways and Transportation Commission v. the owners of The Potted Steer Restaurant",
+   "individuals": {
+    "Joseph Boer's Food Service": "the owners' restaurant company",
+    "Joseph H. Boer": "an owner",
+    "Mary Christine Boer": "an owner",
+    "Joseph Boer": "an owner",
+    "Mr. Boer": "the owner",
+    "the Boers": "the owners",
+    "Boers": "the owners"
+   }
+  },
+  "tank-car-v-springfield-township-2023": {
+   "name": "Tank Car Corporation of America v. Springfield Township",
+   "individuals": {}
+  },
+  "wvdoh-v-pifer-2019": {
+   "name": "West Virginia Department of Transportation, Division of Highways v. two property owners",
+   "individuals": {
+    "Lawrence W. Pifer and Michael E. Pifer": "the owners",
+    "Lawrence W. Pifer": "an owner",
+    "Michael E. Pifer": "an owner",
+    "Michael Pifer": "one owner",
+    "Lawrence Pifer": "one owner"
+   }
+  },
+  "marion-armar-drive-rausch-2022": {
+   "name": "A family trust v. City of Marion (condemnation)",
+   "individuals": {
+    "William J. Rausch Family Trust": "the family trust",
+    "Phyllis M. Rausch": "the trustee",
+    "James Rausch": "the owner's representative"
+   }
+  },
+  "state-v-speedway-grapevine-2017": {
+   "name": "The State of Texas v. Speedway Grapevine I, LLC and First Commercial Bank, N.A.",
+   "individuals": {}
+  },
+  "marchbanks-v-neema-2025": {
+   "name": "Ohio Department of Transportation v. Neema, L.L.C.",
+   "individuals": {
+    "Marchbanks": "the ODOT director"
+   }
+  },
+  "marchbanks-v-ice-house-ventures-2024": {
+   "name": "Ohio Department of Transportation v. Ice House Ventures, L.L.C.",
+   "individuals": {
+    "Marchbanks": "the ODOT director"
+   }
+  },
+  "south-pacific-lumber-v-imperial-pacific-2023": {
+   "name": "South Pacific Lumber Co. v. Imperial Pacific International (CNMI), LLC",
+   "individuals": {}
+  },
+  "wax-nj2-v-gf55-partners-2015": {
+   "name": "Wax NJ-2, LLC v. JFB Construction & Development and GF 55 Partners",
+   "individuals": {}
+  },
+  "howard-town-center-v-howard-university-2017": {
+   "name": "Howard Town Center Developer, LLC v. Howard University",
+   "individuals": {}
+  },
+  "westdale-northwest-v-united-states-2021": {
+   "name": "Westdale Northwest Center, LP v. United States",
+   "individuals": {}
+  },
+  "gba-associates-v-united-states-2025": {
+   "name": "GBA Associates Limited Partnership v. United States",
+   "individuals": {}
+  }
+ }
+}

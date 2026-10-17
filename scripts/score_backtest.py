@@ -48,7 +48,12 @@ def scrub(text, cid):
         MISSING_DISPLAY.add(cid)
         return None
     for name, role in sorted((entry.get("individuals") or {}).items(), key=lambda kv: -len(kv[0])):
-        text = re.sub(r"\b" + re.escape(name) + r"('s|’s)?\b", lambda m: role + (m.group(1) or ""), text)
+        def sub(m, role=role):
+            # A role phrase that starts a sentence is capitalized.
+            start = m.start() == 0 or re.search(r"[.!?]\s+$", m.string[:m.start()]) is not None
+            r = role[0].upper() + role[1:] if start and role else role
+            return r + (m.group(1) or "")
+        text = re.sub(r"\b" + re.escape(name) + r"('s|’s)?(?![\w])", sub, text)
     return text
 
 

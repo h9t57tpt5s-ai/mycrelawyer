@@ -93,7 +93,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": true
      },
-     "caseName": "City of Carmel v. Barham Investments, LLC, Marion County Treasurer, and Coast to Coast Carmel Corporation",
+     "caseName": "City of Carmel v. Barham Investments, LLC and others",
      "court": "Court of Appeals of Indiana",
      "decided": "2023-10-30",
      "sourceUrl": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=X9zl-fYtQYK6_4blrcmz4U5qNH5Y6VWpE2-CDAwH2_CN1anKpTYwgg42dNkjGuoR0",
@@ -140,7 +140,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC, et al.",
+     "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC",
      "court": "Court of Appeals of Ohio, Eighth Appellate District, Cuyahoga County (appeal from Cuyahoga County Court of Common Pleas Nos. CV-21-953921 and CV-21-953922)",
      "decided": "2025-04-10",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-1263.pdf",
@@ -186,7 +186,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Dover Mall, LLC v. Sam Tang",
+     "caseName": "Dover Mall, LLC v. a nail-salon tenant",
      "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
      "decided": "2023-10-05",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=353820",
@@ -236,7 +236,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",
+     "caseName": "Edgemere Loop 375, LLC v. a physician and Southwestern Cardiac Arrhythmia Institute, P.A.",
      "court": "Court of Appeals of Texas, Eighth District (El Paso)",
      "decided": "2025-05-27",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=1da0b877-43f9-4d95-99b6-7609f934dace",
@@ -386,7 +386,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "State of Indiana v. Franciscan Alliance, Inc. f/k/a Sisters of St. Francis Health Services, Inc.; The Market Place at State Road 37, LLC; Hook SupeRX, LLC; SCP 2010-C36-018 LLC; and Johnson County, Indiana",
+     "caseName": "State of Indiana v. Franciscan Alliance, Inc., SCP 2010-C36-018 LLC and others",
      "court": "Court of Appeals of Indiana",
      "decided": "2023-11-28",
      "sourceUrl": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=dyEe-G6TfgNLbmXgEg_IkVwtqjV0VXJe2bOJ4VdFqgLdjmWknwT_aQsgFUjNIm_J0",
@@ -436,7 +436,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Frye v. Estate of Raphaelson",
+     "caseName": "A long-time occupant v. a property owner's estate",
      "court": "Delaware Court of Chancery (Magistrate in Chancery, final post-trial report)",
      "decided": "2023-08-31",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=352620",
@@ -486,7 +486,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",
+     "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC and a guarantor",
      "court": "Ohio Court of Appeals, Twelfth District, Butler County (appeal from Butler County Court of Common Pleas, Case No. CV 2024 02 0451)",
      "decided": "2026-07-27",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/12/2026/2026-Ohio-2858.pdf",
@@ -536,7 +536,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": true
      },
-     "caseName": "Charles W. Hurt and Shirley L. Fisher, as Trustees of the South Pantops II Land Trust v. Douglas E. Caton",
+     "caseName": "South Pantops II Land Trust v. a developer",
      "court": "Court of Appeals of Virginia (published), on appeal from the Circuit Court of Albemarle County",
      "decided": "2025-03-04",
      "sourceUrl": "https://www.vacourts.gov/opinions/opncavwp/1198232.pdf",
@@ -570,7 +570,7 @@ window.BACKTEST_RESULTS = {
       "hit": false,
       "bestGuessError": -0.581
      },
-     "outcomeDescription": "The circuit court granted Caton summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required Caton to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
+     "outcomeDescription": "The circuit court granted the developer summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required the developer to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
      "appellateChange": "reversed"
     },
     {
@@ -588,7 +588,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Island Girl Outfitters, LLC, and Anthony S. Carver v. Allied Development of Alabama, LLC",
+     "caseName": "Island Girl Outfitters, LLC and a guarantor v. Allied Development of Alabama, LLC",
      "court": "Supreme Court of Alabama (appeal from Baldwin Circuit Court)",
      "decided": "2025-03-21",
      "sourceUrl": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/33D15128-6DDF-4F60-8D72-8ABE96948EE3/docketentrydocuments/B04FE86F-1EB1-49BD-A1C7-EEC074DC3688",
@@ -638,7 +638,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Kotis Associates, LLC, et al. v. United States",
+     "caseName": "Kotis Associates, LLC v. United States",
      "court": "United States Court of Federal Claims (trial-level opinion and order after valuation trial, Senior Judge Loren A. Smith)",
      "decided": "2025-04-23",
      "sourceUrl": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2020cv0932-206-0",
@@ -670,7 +670,7 @@ window.BACKTEST_RESULTS = {
       "hit": false,
       "bestGuessError": -0.531
      },
-     "outcomeDescription": "After the valuation trial the Court of Federal Claims adopted Dr. Kilpatrick's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
+     "outcomeDescription": "After the valuation trial the Court of Federal Claims adopted the owners' appraiser's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
      "appellateChange": "affirmed"
     },
     {
@@ -738,7 +738,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "202 N LBJ Venture Group, LP v. Paul Kolaj and Modesta Kolaj",
+     "caseName": "202 N LBJ Venture Group, LP v. its restaurant tenants",
      "court": "Texas Court of Appeals, Third District (Austin), on appeal from the 207th District Court of Hays County",
      "decided": "2025-03-06",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=3dc5c03e-76a9-498d-bcef-1d32d7bb3e03",
@@ -788,7 +788,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Shayne McKinney v. Park Plaza Properties, LLC",
+     "caseName": "A retail tenant v. Park Plaza Properties, LLC",
      "court": "Arkansas Court of Appeals, Division IV, on appeal from Sebastian County Circuit Court, Fort Smith District",
      "decided": "2026-09-02",
      "sourceUrl": "https://opinions.arcourts.gov/ark/courtofappeals/en/524547/1/document.do",
@@ -838,7 +838,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC and Office Partners XIII Iron Hill LLC",
+     "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC",
      "court": "Superior Court of the State of Delaware (LeGrow, J.)",
      "decided": "2023-04-27",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=346910",
@@ -935,7 +935,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",
+     "caseName": "A law firm v. A & M Development, L.L.C.",
      "court": "Iowa Court of Appeals (appeal from Iowa District Court for Johnson County)",
      "decided": "2026-08-19",
      "sourceUrl": "https://www.iowacourts.gov/courtcases/26627/embed/CourtAppealsOpinion",
@@ -1131,7 +1131,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+     "caseName": "Universal Shopping Plaza v. a restaurant tenant",
      "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
      "decided": "2026-09-09",
      "sourceUrl": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
@@ -1181,7 +1181,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "US Bank NA, as Trustee for the Registered Holders of J.P. Morgan Chase Commercial Mortgage Securities Corp., Multifamily Mortgage Pass-Through Certificates, Series 2012-K18 v. B R Penn Realty Owner LP",
+     "caseName": "US Bank NA, as CMBS trustee v. B R Penn Realty Owner LP",
      "court": "United States Court of Appeals for the Third Circuit (precedential)",
      "decided": "2025-05-08",
      "sourceUrl": "https://www2.ca3.uscourts.gov/opinarch/241108p.pdf",
@@ -1231,7 +1231,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",
+     "caseName": "Williamson Music 1st, LLC and a guarantor v. EQYInvest Owner II, Ltd., LLP",
      "court": "Texas Sixth Court of Appeals (transferred from the Second), on appeal from the 342nd District Court, Tarrant County",
      "decided": "2026-09-15",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=40c019e5-6590-43be-b02a-bf7b73239fec&coa=coa06&DT=Opinion&MediaID=fd5f6f98-b91a-4602-8ea3-97940423829c",
@@ -1389,7 +1389,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": true
      },
-     "caseName": "City of Carmel v. Barham Investments, LLC, Marion County Treasurer, and Coast to Coast Carmel Corporation",
+     "caseName": "City of Carmel v. Barham Investments, LLC and others",
      "court": "Court of Appeals of Indiana",
      "decided": "2023-10-30",
      "sourceUrl": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=X9zl-fYtQYK6_4blrcmz4U5qNH5Y6VWpE2-CDAwH2_CN1anKpTYwgg42dNkjGuoR0",
@@ -1439,7 +1439,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC, et al.",
+     "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC",
      "court": "Court of Appeals of Ohio, Eighth Appellate District, Cuyahoga County (appeal from Cuyahoga County Court of Common Pleas Nos. CV-21-953921 and CV-21-953922)",
      "decided": "2025-04-10",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-1263.pdf",
@@ -1489,7 +1489,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Dover Mall, LLC v. Sam Tang",
+     "caseName": "Dover Mall, LLC v. a nail-salon tenant",
      "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
      "decided": "2023-10-05",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=353820",
@@ -1536,7 +1536,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",
+     "caseName": "Edgemere Loop 375, LLC v. a physician and Southwestern Cardiac Arrhythmia Institute, P.A.",
      "court": "Court of Appeals of Texas, Eighth District (El Paso)",
      "decided": "2025-05-27",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=1da0b877-43f9-4d95-99b6-7609f934dace",
@@ -1680,7 +1680,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "State of Indiana v. Franciscan Alliance, Inc. f/k/a Sisters of St. Francis Health Services, Inc.; The Market Place at State Road 37, LLC; Hook SupeRX, LLC; SCP 2010-C36-018 LLC; and Johnson County, Indiana",
+     "caseName": "State of Indiana v. Franciscan Alliance, Inc., SCP 2010-C36-018 LLC and others",
      "court": "Court of Appeals of Indiana",
      "decided": "2023-11-28",
      "sourceUrl": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=dyEe-G6TfgNLbmXgEg_IkVwtqjV0VXJe2bOJ4VdFqgLdjmWknwT_aQsgFUjNIm_J0",
@@ -1730,7 +1730,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Frye v. Estate of Raphaelson",
+     "caseName": "A long-time occupant v. a property owner's estate",
      "court": "Delaware Court of Chancery (Magistrate in Chancery, final post-trial report)",
      "decided": "2023-08-31",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=352620",
@@ -1780,7 +1780,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",
+     "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC and a guarantor",
      "court": "Ohio Court of Appeals, Twelfth District, Butler County (appeal from Butler County Court of Common Pleas, Case No. CV 2024 02 0451)",
      "decided": "2026-07-27",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/12/2026/2026-Ohio-2858.pdf",
@@ -1830,7 +1830,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": true
      },
-     "caseName": "Charles W. Hurt and Shirley L. Fisher, as Trustees of the South Pantops II Land Trust v. Douglas E. Caton",
+     "caseName": "South Pantops II Land Trust v. a developer",
      "court": "Court of Appeals of Virginia (published), on appeal from the Circuit Court of Albemarle County",
      "decided": "2025-03-04",
      "sourceUrl": "https://www.vacourts.gov/opinions/opncavwp/1198232.pdf",
@@ -1862,7 +1862,7 @@ window.BACKTEST_RESULTS = {
       "hit": false,
       "bestGuessError": -0.655
      },
-     "outcomeDescription": "The circuit court granted Caton summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required Caton to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
+     "outcomeDescription": "The circuit court granted the developer summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required the developer to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
      "appellateChange": "reversed"
     },
     {
@@ -1880,7 +1880,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Island Girl Outfitters, LLC, and Anthony S. Carver v. Allied Development of Alabama, LLC",
+     "caseName": "Island Girl Outfitters, LLC and a guarantor v. Allied Development of Alabama, LLC",
      "court": "Supreme Court of Alabama (appeal from Baldwin Circuit Court)",
      "decided": "2025-03-21",
      "sourceUrl": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/33D15128-6DDF-4F60-8D72-8ABE96948EE3/docketentrydocuments/B04FE86F-1EB1-49BD-A1C7-EEC074DC3688",
@@ -1930,7 +1930,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Kotis Associates, LLC, et al. v. United States",
+     "caseName": "Kotis Associates, LLC v. United States",
      "court": "United States Court of Federal Claims (trial-level opinion and order after valuation trial, Senior Judge Loren A. Smith)",
      "decided": "2025-04-23",
      "sourceUrl": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2020cv0932-206-0",
@@ -1962,7 +1962,7 @@ window.BACKTEST_RESULTS = {
       "hit": true,
       "bestGuessError": -0.376
      },
-     "outcomeDescription": "After the valuation trial the Court of Federal Claims adopted Dr. Kilpatrick's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
+     "outcomeDescription": "After the valuation trial the Court of Federal Claims adopted the owners' appraiser's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
      "appellateChange": "affirmed"
     },
     {
@@ -2030,7 +2030,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "202 N LBJ Venture Group, LP v. Paul Kolaj and Modesta Kolaj",
+     "caseName": "202 N LBJ Venture Group, LP v. its restaurant tenants",
      "court": "Texas Court of Appeals, Third District (Austin), on appeal from the 207th District Court of Hays County",
      "decided": "2025-03-06",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=3dc5c03e-76a9-498d-bcef-1d32d7bb3e03",
@@ -2080,7 +2080,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Shayne McKinney v. Park Plaza Properties, LLC",
+     "caseName": "A retail tenant v. Park Plaza Properties, LLC",
      "court": "Arkansas Court of Appeals, Division IV, on appeal from Sebastian County Circuit Court, Fort Smith District",
      "decided": "2026-09-02",
      "sourceUrl": "https://opinions.arcourts.gov/ark/courtofappeals/en/524547/1/document.do",
@@ -2130,7 +2130,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC and Office Partners XIII Iron Hill LLC",
+     "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC",
      "court": "Superior Court of the State of Delaware (LeGrow, J.)",
      "decided": "2023-04-27",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=346910",
@@ -2227,7 +2227,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",
+     "caseName": "A law firm v. A & M Development, L.L.C.",
      "court": "Iowa Court of Appeals (appeal from Iowa District Court for Johnson County)",
      "decided": "2026-08-19",
      "sourceUrl": "https://www.iowacourts.gov/courtcases/26627/embed/CourtAppealsOpinion",
@@ -2412,7 +2412,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": true,
       "pending": false
      },
-     "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+     "caseName": "Universal Shopping Plaza v. a restaurant tenant",
      "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
      "decided": "2026-09-09",
      "sourceUrl": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
@@ -2462,7 +2462,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "US Bank NA, as Trustee for the Registered Holders of J.P. Morgan Chase Commercial Mortgage Securities Corp., Multifamily Mortgage Pass-Through Certificates, Series 2012-K18 v. B R Penn Realty Owner LP",
+     "caseName": "US Bank NA, as CMBS trustee v. B R Penn Realty Owner LP",
      "court": "United States Court of Appeals for the Third Circuit (precedential)",
      "decided": "2025-05-08",
      "sourceUrl": "https://www2.ca3.uscourts.gov/opinarch/241108p.pdf",
@@ -2512,7 +2512,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",
+     "caseName": "Williamson Music 1st, LLC and a guarantor v. EQYInvest Owner II, Ltd., LLP",
      "court": "Texas Sixth Court of Appeals (transferred from the Second), on appeal from the 342nd District Court, Tarrant County",
      "decided": "2026-09-15",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=40c019e5-6590-43be-b02a-bf7b73239fec&coa=coa06&DT=Opinion&MediaID=fd5f6f98-b91a-4602-8ea3-97940423829c",
@@ -2670,7 +2670,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": true
      },
-     "caseName": "City of Carmel v. Barham Investments, LLC, Marion County Treasurer, and Coast to Coast Carmel Corporation",
+     "caseName": "City of Carmel v. Barham Investments, LLC and others",
      "court": "Court of Appeals of Indiana",
      "decided": "2023-10-30",
      "sourceUrl": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=X9zl-fYtQYK6_4blrcmz4U5qNH5Y6VWpE2-CDAwH2_CN1anKpTYwgg42dNkjGuoR0",
@@ -2720,7 +2720,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC, et al.",
+     "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC",
      "court": "Court of Appeals of Ohio, Eighth Appellate District, Cuyahoga County (appeal from Cuyahoga County Court of Common Pleas Nos. CV-21-953921 and CV-21-953922)",
      "decided": "2025-04-10",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-1263.pdf",
@@ -2767,7 +2767,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Dover Mall, LLC v. Sam Tang",
+     "caseName": "Dover Mall, LLC v. a nail-salon tenant",
      "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
      "decided": "2023-10-05",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=353820",
@@ -2814,7 +2814,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",
+     "caseName": "Edgemere Loop 375, LLC v. a physician and Southwestern Cardiac Arrhythmia Institute, P.A.",
      "court": "Court of Appeals of Texas, Eighth District (El Paso)",
      "decided": "2025-05-27",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=1da0b877-43f9-4d95-99b6-7609f934dace",
@@ -2958,7 +2958,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "State of Indiana v. Franciscan Alliance, Inc. f/k/a Sisters of St. Francis Health Services, Inc.; The Market Place at State Road 37, LLC; Hook SupeRX, LLC; SCP 2010-C36-018 LLC; and Johnson County, Indiana",
+     "caseName": "State of Indiana v. Franciscan Alliance, Inc., SCP 2010-C36-018 LLC and others",
      "court": "Court of Appeals of Indiana",
      "decided": "2023-11-28",
      "sourceUrl": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=dyEe-G6TfgNLbmXgEg_IkVwtqjV0VXJe2bOJ4VdFqgLdjmWknwT_aQsgFUjNIm_J0",
@@ -3008,7 +3008,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Frye v. Estate of Raphaelson",
+     "caseName": "A long-time occupant v. a property owner's estate",
      "court": "Delaware Court of Chancery (Magistrate in Chancery, final post-trial report)",
      "decided": "2023-08-31",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=352620",
@@ -3058,7 +3058,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",
+     "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC and a guarantor",
      "court": "Ohio Court of Appeals, Twelfth District, Butler County (appeal from Butler County Court of Common Pleas, Case No. CV 2024 02 0451)",
      "decided": "2026-07-27",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/12/2026/2026-Ohio-2858.pdf",
@@ -3108,7 +3108,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": true
      },
-     "caseName": "Charles W. Hurt and Shirley L. Fisher, as Trustees of the South Pantops II Land Trust v. Douglas E. Caton",
+     "caseName": "South Pantops II Land Trust v. a developer",
      "court": "Court of Appeals of Virginia (published), on appeal from the Circuit Court of Albemarle County",
      "decided": "2025-03-04",
      "sourceUrl": "https://www.vacourts.gov/opinions/opncavwp/1198232.pdf",
@@ -3140,7 +3140,7 @@ window.BACKTEST_RESULTS = {
       "hit": false,
       "bestGuessError": -0.523
      },
-     "outcomeDescription": "The circuit court granted Caton summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required Caton to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
+     "outcomeDescription": "The circuit court granted the developer summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required the developer to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
      "appellateChange": "reversed"
     },
     {
@@ -3158,7 +3158,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Island Girl Outfitters, LLC, and Anthony S. Carver v. Allied Development of Alabama, LLC",
+     "caseName": "Island Girl Outfitters, LLC and a guarantor v. Allied Development of Alabama, LLC",
      "court": "Supreme Court of Alabama (appeal from Baldwin Circuit Court)",
      "decided": "2025-03-21",
      "sourceUrl": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/33D15128-6DDF-4F60-8D72-8ABE96948EE3/docketentrydocuments/B04FE86F-1EB1-49BD-A1C7-EEC074DC3688",
@@ -3208,7 +3208,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Kotis Associates, LLC, et al. v. United States",
+     "caseName": "Kotis Associates, LLC v. United States",
      "court": "United States Court of Federal Claims (trial-level opinion and order after valuation trial, Senior Judge Loren A. Smith)",
      "decided": "2025-04-23",
      "sourceUrl": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2020cv0932-206-0",
@@ -3240,7 +3240,7 @@ window.BACKTEST_RESULTS = {
       "hit": true,
       "bestGuessError": 0.007
      },
-     "outcomeDescription": "After the valuation trial the Court of Federal Claims adopted Dr. Kilpatrick's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
+     "outcomeDescription": "After the valuation trial the Court of Federal Claims adopted the owners' appraiser's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
      "appellateChange": "affirmed"
     },
     {
@@ -3308,7 +3308,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "202 N LBJ Venture Group, LP v. Paul Kolaj and Modesta Kolaj",
+     "caseName": "202 N LBJ Venture Group, LP v. its restaurant tenants",
      "court": "Texas Court of Appeals, Third District (Austin), on appeal from the 207th District Court of Hays County",
      "decided": "2025-03-06",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=3dc5c03e-76a9-498d-bcef-1d32d7bb3e03",
@@ -3358,7 +3358,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Shayne McKinney v. Park Plaza Properties, LLC",
+     "caseName": "A retail tenant v. Park Plaza Properties, LLC",
      "court": "Arkansas Court of Appeals, Division IV, on appeal from Sebastian County Circuit Court, Fort Smith District",
      "decided": "2026-09-02",
      "sourceUrl": "https://opinions.arcourts.gov/ark/courtofappeals/en/524547/1/document.do",
@@ -3408,7 +3408,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC and Office Partners XIII Iron Hill LLC",
+     "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC",
      "court": "Superior Court of the State of Delaware (LeGrow, J.)",
      "decided": "2023-04-27",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=346910",
@@ -3505,7 +3505,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",
+     "caseName": "A law firm v. A & M Development, L.L.C.",
      "court": "Iowa Court of Appeals (appeal from Iowa District Court for Johnson County)",
      "decided": "2026-08-19",
      "sourceUrl": "https://www.iowacourts.gov/courtcases/26627/embed/CourtAppealsOpinion",
@@ -3690,7 +3690,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+     "caseName": "Universal Shopping Plaza v. a restaurant tenant",
      "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
      "decided": "2026-09-09",
      "sourceUrl": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
@@ -3740,7 +3740,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "US Bank NA, as Trustee for the Registered Holders of J.P. Morgan Chase Commercial Mortgage Securities Corp., Multifamily Mortgage Pass-Through Certificates, Series 2012-K18 v. B R Penn Realty Owner LP",
+     "caseName": "US Bank NA, as CMBS trustee v. B R Penn Realty Owner LP",
      "court": "United States Court of Appeals for the Third Circuit (precedential)",
      "decided": "2025-05-08",
      "sourceUrl": "https://www2.ca3.uscourts.gov/opinarch/241108p.pdf",
@@ -3790,7 +3790,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",
+     "caseName": "Williamson Music 1st, LLC and a guarantor v. EQYInvest Owner II, Ltd., LLP",
      "court": "Texas Sixth Court of Appeals (transferred from the Second), on appeal from the 342nd District Court, Tarrant County",
      "decided": "2026-09-15",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=40c019e5-6590-43be-b02a-bf7b73239fec&coa=coa06&DT=Opinion&MediaID=fd5f6f98-b91a-4602-8ea3-97940423829c",
@@ -4512,7 +4512,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": true
      },
-     "caseName": "City of Carmel v. Barham Investments, LLC, Marion County Treasurer, and Coast to Coast Carmel Corporation",
+     "caseName": "City of Carmel v. Barham Investments, LLC and others",
      "court": "Court of Appeals of Indiana",
      "decided": "2023-10-30",
      "sourceUrl": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=X9zl-fYtQYK6_4blrcmz4U5qNH5Y6VWpE2-CDAwH2_CN1anKpTYwgg42dNkjGuoR0",
@@ -4562,7 +4562,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC, et al.",
+     "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC",
      "court": "Court of Appeals of Ohio, Eighth Appellate District, Cuyahoga County (appeal from Cuyahoga County Court of Common Pleas Nos. CV-21-953921 and CV-21-953922)",
      "decided": "2025-04-10",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-1263.pdf",
@@ -4609,7 +4609,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Dover Mall, LLC v. Sam Tang",
+     "caseName": "Dover Mall, LLC v. a nail-salon tenant",
      "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
      "decided": "2023-10-05",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=353820",
@@ -4656,7 +4656,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",
+     "caseName": "Edgemere Loop 375, LLC v. a physician and Southwestern Cardiac Arrhythmia Institute, P.A.",
      "court": "Court of Appeals of Texas, Eighth District (El Paso)",
      "decided": "2025-05-27",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=1da0b877-43f9-4d95-99b6-7609f934dace",
@@ -4800,7 +4800,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "State of Indiana v. Franciscan Alliance, Inc. f/k/a Sisters of St. Francis Health Services, Inc.; The Market Place at State Road 37, LLC; Hook SupeRX, LLC; SCP 2010-C36-018 LLC; and Johnson County, Indiana",
+     "caseName": "State of Indiana v. Franciscan Alliance, Inc., SCP 2010-C36-018 LLC and others",
      "court": "Court of Appeals of Indiana",
      "decided": "2023-11-28",
      "sourceUrl": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=dyEe-G6TfgNLbmXgEg_IkVwtqjV0VXJe2bOJ4VdFqgLdjmWknwT_aQsgFUjNIm_J0",
@@ -4850,7 +4850,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Frye v. Estate of Raphaelson",
+     "caseName": "A long-time occupant v. a property owner's estate",
      "court": "Delaware Court of Chancery (Magistrate in Chancery, final post-trial report)",
      "decided": "2023-08-31",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=352620",
@@ -4900,7 +4900,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",
+     "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC and a guarantor",
      "court": "Ohio Court of Appeals, Twelfth District, Butler County (appeal from Butler County Court of Common Pleas, Case No. CV 2024 02 0451)",
      "decided": "2026-07-27",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/12/2026/2026-Ohio-2858.pdf",
@@ -4950,7 +4950,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": true
      },
-     "caseName": "Charles W. Hurt and Shirley L. Fisher, as Trustees of the South Pantops II Land Trust v. Douglas E. Caton",
+     "caseName": "South Pantops II Land Trust v. a developer",
      "court": "Court of Appeals of Virginia (published), on appeal from the Circuit Court of Albemarle County",
      "decided": "2025-03-04",
      "sourceUrl": "https://www.vacourts.gov/opinions/opncavwp/1198232.pdf",
@@ -4982,7 +4982,7 @@ window.BACKTEST_RESULTS = {
       "hit": false,
       "bestGuessError": -0.487
      },
-     "outcomeDescription": "The circuit court granted Caton summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required Caton to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
+     "outcomeDescription": "The circuit court granted the developer summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required the developer to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
      "appellateChange": "reversed"
     },
     {
@@ -5000,7 +5000,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Island Girl Outfitters, LLC, and Anthony S. Carver v. Allied Development of Alabama, LLC",
+     "caseName": "Island Girl Outfitters, LLC and a guarantor v. Allied Development of Alabama, LLC",
      "court": "Supreme Court of Alabama (appeal from Baldwin Circuit Court)",
      "decided": "2025-03-21",
      "sourceUrl": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/33D15128-6DDF-4F60-8D72-8ABE96948EE3/docketentrydocuments/B04FE86F-1EB1-49BD-A1C7-EEC074DC3688",
@@ -5050,7 +5050,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Kotis Associates, LLC, et al. v. United States",
+     "caseName": "Kotis Associates, LLC v. United States",
      "court": "United States Court of Federal Claims (trial-level opinion and order after valuation trial, Senior Judge Loren A. Smith)",
      "decided": "2025-04-23",
      "sourceUrl": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2020cv0932-206-0",
@@ -5082,7 +5082,7 @@ window.BACKTEST_RESULTS = {
       "hit": true,
       "bestGuessError": 0.018
      },
-     "outcomeDescription": "After the valuation trial the Court of Federal Claims adopted Dr. Kilpatrick's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
+     "outcomeDescription": "After the valuation trial the Court of Federal Claims adopted the owners' appraiser's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
      "appellateChange": "affirmed"
     },
     {
@@ -5150,7 +5150,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "202 N LBJ Venture Group, LP v. Paul Kolaj and Modesta Kolaj",
+     "caseName": "202 N LBJ Venture Group, LP v. its restaurant tenants",
      "court": "Texas Court of Appeals, Third District (Austin), on appeal from the 207th District Court of Hays County",
      "decided": "2025-03-06",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=3dc5c03e-76a9-498d-bcef-1d32d7bb3e03",
@@ -5200,7 +5200,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Shayne McKinney v. Park Plaza Properties, LLC",
+     "caseName": "A retail tenant v. Park Plaza Properties, LLC",
      "court": "Arkansas Court of Appeals, Division IV, on appeal from Sebastian County Circuit Court, Fort Smith District",
      "decided": "2026-09-02",
      "sourceUrl": "https://opinions.arcourts.gov/ark/courtofappeals/en/524547/1/document.do",
@@ -5250,7 +5250,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC and Office Partners XIII Iron Hill LLC",
+     "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC",
      "court": "Superior Court of the State of Delaware (LeGrow, J.)",
      "decided": "2023-04-27",
      "sourceUrl": "http://courts.delaware.gov/Opinions/Download.aspx?id=346910",
@@ -5347,7 +5347,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",
+     "caseName": "A law firm v. A & M Development, L.L.C.",
      "court": "Iowa Court of Appeals (appeal from Iowa District Court for Johnson County)",
      "decided": "2026-08-19",
      "sourceUrl": "https://www.iowacourts.gov/courtcases/26627/embed/CourtAppealsOpinion",
@@ -5532,7 +5532,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+     "caseName": "Universal Shopping Plaza v. a restaurant tenant",
      "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
      "decided": "2026-09-09",
      "sourceUrl": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
@@ -5582,7 +5582,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "US Bank NA, as Trustee for the Registered Holders of J.P. Morgan Chase Commercial Mortgage Securities Corp., Multifamily Mortgage Pass-Through Certificates, Series 2012-K18 v. B R Penn Realty Owner LP",
+     "caseName": "US Bank NA, as CMBS trustee v. B R Penn Realty Owner LP",
      "court": "United States Court of Appeals for the Third Circuit (precedential)",
      "decided": "2025-05-08",
      "sourceUrl": "https://www2.ca3.uscourts.gov/opinarch/241108p.pdf",
@@ -5632,7 +5632,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",
+     "caseName": "Williamson Music 1st, LLC and a guarantor v. EQYInvest Owner II, Ltd., LLP",
      "court": "Texas Sixth Court of Appeals (transferred from the Second), on appeal from the 342nd District Court, Tarrant County",
      "decided": "2026-09-15",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=40c019e5-6590-43be-b02a-bf7b73239fec&coa=coa06&DT=Opinion&MediaID=fd5f6f98-b91a-4602-8ea3-97940423829c",
@@ -6301,7 +6301,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "1215 Superior, L.L.C. v. Jacob Berger",
+     "caseName": "1215 Superior, L.L.C. v. a guarantor",
      "court": "Court of Appeals of Ohio, Eighth Appellate District (Cuyahoga County)",
      "decided": "2025-02-27",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-645.pdf",
@@ -6351,7 +6351,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "1700 Market Street Associates, L.P., SRI Eleven 1700 Market Holdings REIT, LLC, and 1700 Property Owner, LLC v. Common Grounds 1700 Market Street, LLC and Common Grounds Holdings, LLC",
+     "caseName": "1700 Market Street Associates, L.P. v. Common Grounds 1700 Market Street, LLC",
      "court": "Superior Court of Pennsylvania (published, 2024 PA Super 63), on appeal from the Court of Common Pleas of Philadelphia County (No. 02451 May Term 2022)",
      "decided": "2024-04-01",
      "sourceUrl": "https://www.pacourts.us/assets/opinions/Superior/out/J-A28029-23o.pdf",
@@ -6401,7 +6401,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "5th and Walnut Parking LLC, 5th and Walnut Tower LLC, 5th and Court LLC, Justin Mandelbaum, and Sean Mandelbaum v. City of Des Moines",
+     "caseName": "5th and Walnut Parking LLC v. City of Des Moines",
      "court": "Iowa Supreme Court, on appeal from the Iowa District Court for Polk County (Business Specialty Court)",
      "decided": "2026-06-12",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2026/06/12/5th_and_walnut_parking_llc_5th_and_walnut_tower_llc_5th_and_court_llc_1.pdf",
@@ -6495,7 +6495,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Architectural Stainless, Inc., d/b/a ASI Equipment v. Karet Projects, LLC, Thomas Lefevre, and TM Partridge Creek Mall, LP",
+     "caseName": "Architectural Stainless, Inc. v. TM Partridge Creek Mall, LP",
      "court": "Michigan Court of Appeals (unpublished), on appeal from the Macomb County Circuit Court",
      "decided": "2021-05-13",
      "sourceUrl": "https://www.courts.michigan.gov/4a4ed7/siteassets/case-documents/uploads/opinions/final/coa/20210513_c353660_35_353660.opn.pdf",
@@ -6595,7 +6595,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "David Keith Brandon v. Wells Fargo Bank, N.A., as Trustee for the Registered Holders of LaSalle Commercial Mortgage Securities, Inc. 2007-MF5, and Midland Loan Services",
+     "caseName": "A borrower v. Wells Fargo Bank, N.A., as CMBS trustee",
      "court": "Texas Thirteenth Court of Appeals (Corpus Christi-Edinburg), on appeal from the 156th District Court, San Patricio County",
      "decided": "2020-05-28",
      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=&MediaID=6611f74e-0214-4698-895d-8c0393168f0e&DT=Opinion",
@@ -6627,7 +6627,7 @@ window.BACKTEST_RESULTS = {
       "hit": true,
       "bestGuessError": 0.134
      },
-     "outcomeDescription": "After a two-day bench trial the court awarded Brandon $245,109.20 in actual damages against Wells Fargo and Midland jointly and severally, plus $245,109.20 in exemplary damages against each of them ($735,327.60 total damages), and $125,000 in attorney's fees plus conditional appellate fees; it found no consequential damages. The Thirteenth Court of Appeals reversed the judgment against Midland entirely and the exemplary damages, and affirmed the rest, leaving $245,109.20 in actual damages against Wells Fargo plus the fee award.",
+     "outcomeDescription": "After a two-day bench trial the court awarded the borrower $245,109.20 in actual damages against Wells Fargo and Midland jointly and severally, plus $245,109.20 in exemplary damages against each of them ($735,327.60 total damages), and $125,000 in attorney's fees plus conditional appellate fees; it found no consequential damages. The Thirteenth Court of Appeals reversed the judgment against Midland entirely and the exemplary damages, and affirmed the rest, leaving $245,109.20 in actual damages against Wells Fargo plus the fee award.",
      "appellateChange": null
     },
     {
@@ -6745,7 +6745,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Can IV Packard Square, LLC v. Craig Schubiner (and BCL Properties Limited Partnership and 305 Associates, LLC, proposed intervenors)",
+     "caseName": "Can IV Packard Square, LLC v. the borrower's principal",
      "court": "Michigan Court of Appeals (unpublished), on appeal from the Oakland County Circuit Court",
      "decided": "2021-04-29",
      "sourceUrl": "https://www.courts.michigan.gov/4a4fa7/siteassets/case-documents/uploads/opinions/final/coa/20210429_c352510_72_352510.opn.pdf",
@@ -6777,7 +6777,7 @@ window.BACKTEST_RESULTS = {
       "hit": false,
       "bestGuessError": 1.588
      },
-     "outcomeDescription": "On cross-motions, the trial court granted summary disposition to the lender on its guaranty claim and on Schubiner's counterclaims and on December 17, 2019 entered judgment against him for $13,992,936.05 (the original-loan balance left after the lender applied its $75 million credit bid first to the receiver loan), plus attorney fees, consultant fees, continuing interest and costs. The Court of Appeals affirmed the judgment (Docket No. 352510), while vacating a separate postjudgment order on intervenors' properties.",
+     "outcomeDescription": "On cross-motions, the trial court granted summary disposition to the lender on its guaranty claim and on the borrower's principal's counterclaims and on December 17, 2019 entered judgment against him for $13,992,936.05 (the original-loan balance left after the lender applied its $75 million credit bid first to the receiver loan), plus attorney fees, consultant fees, continuing interest and costs. The Court of Appeals affirmed the judgment (Docket No. 352510), while vacating a separate postjudgment order on intervenors' properties.",
      "appellateChange": null
     },
     {
@@ -6795,7 +6795,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "CLE Venture Fund, L.P. v. Coventry Partners, L.L.C., et al. (Coventry Courts LLC, Coventry Court LLC and John Crigler)",
+     "caseName": "CLE Venture Fund, L.P. v. Coventry Partners, L.L.C.",
      "court": "Court of Appeals of Ohio, Eighth Appellate District (Cuyahoga County)",
      "decided": "2025-07-10",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-2451.pdf",
@@ -6845,7 +6845,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Georgia CVS Pharmacy, LLC v. James Carmichael",
+     "caseName": "Georgia CVS Pharmacy, LLC (store injury claim)",
      "court": "Court of Appeals of Georgia (Second Division), on appeal from the State Court of Fulton County; affirmed by the Supreme Court of Georgia, Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718 (2023) (No. S22G0527)",
      "decided": "2021-11-08",
      "sourceUrl": "https://efast.gaappeals.gov/download?filingId=1260bd18-1067-424b-9622-9592df19d165",
@@ -6995,7 +6995,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Epochal Enterprises, Inc., dba Divine Orchids v. LF Encinitas Properties, LLC and Leichtag Foundation",
+     "caseName": "Epochal Enterprises, Inc. v. LF Encinitas Properties, LLC",
      "court": "California Court of Appeal, Fourth Appellate District, Division One (certified for publication; modified Jan. 31, 2024 with no change in judgment), on appeal from San Diego County Superior Court (No. 37-2018-00027797-CU-CO-NC)",
      "decided": "2024-01-12",
      "sourceUrl": "https://www.courts.ca.gov/opinions/archive/D079905.PDF",
@@ -7045,7 +7045,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": true
      },
-     "caseName": "Exxon Mobil Corporation v. United States of America (consolidated Nos. H-10-2386 and H-11-1814)",
+     "caseName": "Exxon Mobil Corporation v. United States of America",
      "court": "United States District Court for the Southern District of Texas, Houston Division (bench trial; amended findings of fact and conclusions of law)",
      "decided": "2020-09-16",
      "sourceUrl": "https://www.govinfo.gov/content/pkg/USCOURTS-txsd-4_10-cv-02386/pdf/USCOURTS-txsd-4_10-cv-02386-7.pdf",
@@ -7095,7 +7095,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "EdgeRock Development, LLC, ZPS Westfield, LLC, and First Bank Richmond v. C.H. Garmong & Son, Inc., Signworks, Inc., and Fox Contractors Corp.",
+     "caseName": "EdgeRock Development, LLC v. C.H. Garmong & Son, Inc.",
      "court": "Indiana Supreme Court (on transfer from the Court of Appeals), on appeal from the Hamilton Superior Court 5",
      "decided": "2025-06-03",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2025/06/03/edgerock_development_llc_v._c.h._garmong__son_inc.pdf",
@@ -7145,7 +7145,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Globe Contracting LLC v. Raymond R. Hour, Kimberly Taing, Hour Taing Enterprise LLC, and Hour Chiropractic Clinic Inc.",
+     "caseName": "Globe Contracting LLC v. Hour Taing Enterprise LLC",
      "court": "Utah Court of Appeals, on appeal from the Third District Court, Salt Lake Department",
      "decided": "2025-07-03",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2025/07/03/globe_contracting_v._hour.pdf",
@@ -7177,7 +7177,7 @@ window.BACKTEST_RESULTS = {
       "hit": false,
       "bestGuessError": -0.74
      },
-     "outcomeDescription": "After a bench trial the district court held Hour materially breached by withholding the July-September 2016 pay applications without justification, awarded Globe $61,901.92 in damages (the amount in its damages exhibit) with lien foreclosure, and later awarded $108,798.14 prejudgment interest, $98,531.00 attorney fees and $32,179.97 costs. The Utah Court of Appeals affirmed liability and the damages award but vacated the prejudgment interest, costs and fee awards and remanded them.",
+     "outcomeDescription": "After a bench trial the district court held the owner materially breached by withholding the July-September 2016 pay applications without justification, awarded Globe $61,901.92 in damages (the amount in its damages exhibit) with lien foreclosure, and later awarded $108,798.14 prejudgment interest, $98,531.00 attorney fees and $32,179.97 costs. The Utah Court of Appeals affirmed liability and the damages award but vacated the prejudgment interest, costs and fee awards and remanded them.",
      "appellateChange": null
     },
     {
@@ -7195,7 +7195,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "David Griffith v. Roger Hemphill and Donald Davis",
+     "caseName": "A commercial landlord v. its tenants",
      "court": "Supreme Court of Alaska, on appeal from the Superior Court, Third Judicial District, Anchorage (No. 3AN-19-04477 CI)",
      "decided": "2022-12-16",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2022/12/16/david_griffith_v._roger_hemphill_and_donald_davis.pdf",
@@ -7245,7 +7245,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": true,
       "pending": false
      },
-     "caseName": "Hall CA-NV, LLC v. Robert Radovan and William Criswell",
+     "caseName": "Hall CA-NV, LLC v. guarantors",
      "court": "Texas Fifth Court of Appeals (Dallas), on appeal from the 134th Judicial District Court, Dallas County",
      "decided": "2022-05-25",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2022/05/25/hall_ca-nv_llc_v._robert_radovan_and_william_criswell.pdf",
@@ -7295,7 +7295,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Holcomb, Dunbar, Watts, Best, Masters & Golmon, P.A. f/k/a Holcomb Dunbar, P.A. v. 400 South Lamar Oxford Mad Hatter Partners, LLC and Blake Tartt III",
+     "caseName": "Holcomb Dunbar, P.A. v. 400 South Lamar Oxford Mad Hatter Partners, LLC",
      "court": "Supreme Court of Mississippi (en banc, on writ of certiorari to the Court of Appeals), on appeal from the Lafayette County Circuit Court",
      "decided": "2022-03-17",
      "sourceUrl": "https://courts.ms.gov/images/Opinions/CO160186.pdf",
@@ -7345,7 +7345,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "HRT Enterprises v. City of Detroit, Michigan",
+     "caseName": "HRT Enterprises v. City of Detroit",
      "court": "United States Court of Appeals for the Sixth Circuit, on appeal from the U.S. District Court for the Eastern District of Michigan",
      "decided": "2025-12-22",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2025/12/22/hrt_enterprises_v._city_of_detroit_mich._1.pdf",
@@ -7377,7 +7377,7 @@ window.BACKTEST_RESULTS = {
       "hit": true,
       "bestGuessError": 1.453
      },
-     "outcomeDescription": "The first jury fixed the taking date at January 1, 2009 and awarded $4.25 million; the district court ordered a remittitur to $2,008,000, the City rejected it, and a second jury awarded HRT $1,976,820 in just compensation. The Sixth Circuit affirmed on December 22, 2025 (ripeness, res judicata, liability, bifurcation and the remittitur all upheld; Thapar, J., dissenting on res judicata). Amount used is the operative second verdict.",
+     "outcomeDescription": "The first jury fixed the taking date at January 1, 2009 and awarded $4.25 million; the district court ordered a remittitur to $2,008,000, the City rejected it, and a second jury awarded HRT $1,976,820 in just compensation. The Sixth Circuit affirmed on December 22, 2025 (ripeness, res judicata, liability, bifurcation and the remittitur all upheld; one judge, dissenting on res judicata). Amount used is the operative second verdict.",
      "appellateChange": "affirmed"
     },
     {
@@ -7395,7 +7395,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Limited Investment Group Corp. v. Huntington National Bank (consolidated with Franklin County Treasurer v. Limited Investment Group Corp. and two Huntington National Bank v. Limited Investment Group Corp. actions)",
+     "caseName": "Limited Investment Group Corp. v. Huntington National Bank",
      "court": "Court of Appeals of Ohio, Tenth Appellate District (Franklin County)",
      "decided": "2022-10-13",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2022/10/13/ltd._invest._group_corp._v._huntington_natl._bank.pdf",
@@ -7445,7 +7445,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "IGCFCO III, LLC v. One Way Loans, LLC, d/b/a Powerlend; P&G Holdings, LLC, Watermark Banquet and Conference Center, LLC, The Coffee Factory, LLC, and Moses Gross",
+     "caseName": "IGCFCO III, LLC v. One Way Loans, LLC",
      "court": "Michigan Court of Appeals (published), on appeal from the Muskegon County Circuit Court",
      "decided": "2024-08-08",
      "sourceUrl": "https://www.courts.michigan.gov/4a298a/siteassets/case-documents/uploads/opinions/final/coa/20240808_c366535_30_366535.opn.pdf",
@@ -7492,7 +7492,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Indian River County v. Ocean Concrete, Inc. and George Maib",
+     "caseName": "Indian River County v. Ocean Concrete, Inc. and a landowner",
      "court": "Florida Fourth District Court of Appeal, on appeal from the Circuit Court of the Nineteenth Judicial Circuit, Indian River County",
      "decided": "2020-11-25",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2020/11/25/indian_river_county_v._ocean_concrete_inc._and_george_maib.pdf",
@@ -7586,7 +7586,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Yasheka Jack v. Eldorado Casino Shreveport Joint Venture, L.L.C., Eldorado Shreveport #1, L.L.C. and Eldorado Shreveport #2, L.L.C.",
+     "caseName": "An injured guest v. Eldorado Casino Shreveport Joint Venture, L.L.C.",
      "court": "Louisiana Court of Appeal, Second Circuit, on appeal from the First Judicial District Court, Caddo Parish (No. 580048)",
      "decided": "2019-01-16",
      "sourceUrl": "https://www.la2nd.org/wp-content/uploads/2022/09/52454ca.pdf",
@@ -7636,7 +7636,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Matter of Acquisition of Real Property by the State of New York (KKS Properties, LLC, claimant)",
+     "caseName": "KKS Properties, LLC v. State of New York",
      "court": "Supreme Court of the State of New York, Appellate Division, Third Department, on appeal from the Court of Claims",
      "decided": "2020-10-29",
      "sourceUrl": "https://storage.courtlistener.com/html/2020/10/29/matter_of_acquisition_of_real_prop._by_the_state_of_new_york.html",
@@ -7736,7 +7736,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Land Clearance for Redevelopment Authority of the City of St. Louis v. James Townsend Osher",
+     "caseName": "Land Clearance for Redevelopment Authority of the City of St. Louis v. a property owner",
      "court": "Missouri Court of Appeals, Eastern District, Division Two, on appeal from the Circuit Court of the City of St. Louis",
      "decided": "2020-04-21",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2020/04/21/land_clearance_for_redevelopment_authority_of_the_city_of_st._louis_v..pdf",
@@ -7786,7 +7786,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": true
      },
-     "caseName": "State of Oklahoma ex rel. Department of Transportation v. Trade Winds Motor Hotel East, Inc., et al.",
+     "caseName": "State of Oklahoma ex rel. Department of Transportation v. Trade Winds Motor Hotel East, Inc.",
      "court": "Court of Civil Appeals of the State of Oklahoma, Division IV, on appeal from the District Court of Tulsa County",
      "decided": "2020-07-23",
      "sourceUrl": "https://storage.courtlistener.com/html/2020/07/23/state_ex_rel._dept._of_transportation_v._trade_winds_motor_hotel_east_5.html",
@@ -7924,7 +7924,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Pilot Travel Centers, LLC and Gina Franklin, Individually v. Willa Womack",
+     "caseName": "Pilot Travel Centers, LLC and its general manager v. an injured customer",
      "court": "Court of Appeals of Mississippi (en banc), on appeal from the Circuit Court of Hinds County, First Judicial District",
      "decided": "2024-12-17",
      "sourceUrl": "https://courts.ms.gov/images/Opinions/CO180911.pdf",
@@ -8015,7 +8015,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": true
      },
-     "caseName": "Senior Care Living VI, LLC and Mark C. Bouldin v. Preston Hollow Capital, LLC, UMB Bank N.A., and TMI Trust Company",
+     "caseName": "Senior Care Living VI, LLC and its principal v. Preston Hollow Capital, LLC, UMB Bank N.A., and TMI Trust Company",
      "court": "Texas First Court of Appeals (Houston), opinion on rehearing, on appeal from the 458th District Court, Fort Bend County",
      "decided": "2024-05-14",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2024/05/14/senior_care_living_vi_llc_v._preston_hollow_capital_llc_umb_bank_n.a..pdf",
@@ -8047,7 +8047,7 @@ window.BACKTEST_RESULTS = {
       "hit": false,
       "bestGuessError": -0.429
      },
-     "outcomeDescription": "After a week-long bench trial the court rendered judgment for Preston Hollow against Senior Care and Bouldin, jointly and severally, for $52,597,040.06 ($44,675,000 principal plus $7,922,040.06 pre-judgment interest), $250,000 in attorney's fees and $520,000 conditional appellate fees, and reappointed a receiver. On rehearing the First Court of Appeals rendered judgment that Preston Hollow may not enforce the guaranty against Bouldin, reversed the $52.6 million breach-of-contract award against Senior Care and remanded that claim for a new trial, remanded the trustees' guaranty claims for trial, and vacated the fee awards.",
+     "outcomeDescription": "After a week-long bench trial the court rendered judgment for Preston Hollow against Senior Care and the owner's principal, jointly and severally, for $52,597,040.06 ($44,675,000 principal plus $7,922,040.06 pre-judgment interest), $250,000 in attorney's fees and $520,000 conditional appellate fees, and reappointed a receiver. On rehearing the First Court of Appeals rendered judgment that Preston Hollow may not enforce the guaranty against the owner's principal, reversed the $52.6 million breach-of-contract award against Senior Care and remanded that claim for a new trial, remanded the trustees' guaranty claims for trial, and vacated the fee awards.",
      "appellateChange": null
     },
     {
@@ -8065,7 +8065,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Pryority Partnership v. AMT Properties, LLC, et al.",
+     "caseName": "Pryority Partnership v. AMT Properties, LLC",
      "court": "Court of Appeals of Tennessee at Knoxville, on appeal from the Circuit Court for Hamilton County (No. 17C1340)",
      "decided": "2021-03-10",
      "sourceUrl": "https://www.tncourts.gov/sites/default/files/e2020-00511_pryority_v._amt.pdf",
@@ -8115,7 +8115,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Quantum Concrete, Inc. v. Plaza de Kaza, LLC, and Ronald A. Dykstra, d/b/a Dykstra Homes",
+     "caseName": "Quantum Concrete, Inc. v. Plaza de Kaza, LLC",
      "court": "Michigan Court of Appeals (unpublished), on appeal from the Kent County Circuit Court",
      "decided": "2023-09-14",
      "sourceUrl": "https://www.courts.michigan.gov/4a4e27/siteassets/case-documents/uploads/opinions/final/coa/20230914_c361420_42_361420.opn.pdf",
@@ -8147,7 +8147,7 @@ window.BACKTEST_RESULTS = {
       "hit": true,
       "bestGuessError": -0.325
      },
-     "outcomeDescription": "After a three-day bench trial the court found Dykstra breached his agreement with Quantum and Plaza de Kaza was unjustly enriched, and entered judgment against both for $24,179.35 (the full final invoice, no setoffs), rejecting Plaza de Kaza's counterclaims; Quantum's later motion for attorney-fee sanctions was denied. The Court of Appeals affirmed (Quantum's challenges to the lien dismissal and the sanctions ruling failed).",
+     "outcomeDescription": "After a three-day bench trial the court found the builder breached his agreement with Quantum and Plaza de Kaza was unjustly enriched, and entered judgment against both for $24,179.35 (the full final invoice, no setoffs), rejecting Plaza de Kaza's counterclaims; Quantum's later motion for attorney-fee sanctions was denied. The Court of Appeals affirmed (Quantum's challenges to the lien dismissal and the sanctions ruling failed).",
      "appellateChange": null
     },
     {
@@ -8165,7 +8165,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Slyce Coal Fired Pizza Company v. Metropolitan Square Plaza, LLC (Laurie Barth and Brittany Barth-Niggemann, counterdefendants)",
+     "caseName": "Slyce Coal Fired Pizza Company v. Metropolitan Square Plaza, LLC",
      "court": "Appellate Court of Illinois, First District, First Division (2025 IL App (1st) 221279), on appeal from the Circuit Court of Cook County",
      "decided": "2025-03-31",
      "sourceUrl": "https://www.illinoiscourts.gov/resources/a6e89c4f-4ca1-4fbd-b6a1-6e70253d0bbb/file",
@@ -8215,7 +8215,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "McCarthy Corporation v. Stark Investment Group, LLC, Craig Stark, and U.S. Bank, N.A.",
+     "caseName": "McCarthy Corporation v. Stark Investment Group, LLC",
      "court": "Idaho Supreme Court, on appeal from the District Court of the First Judicial District, Kootenai County",
      "decided": "2021-06-24",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2021/06/24/mccarthy_corporation_v._stark_investment_group.pdf",
@@ -8247,7 +8247,7 @@ window.BACKTEST_RESULTS = {
       "hit": false,
       "bestGuessError": -1.084
      },
-     "outcomeDescription": "After a seven-day bench trial the district court dismissed McCarthy's lien-foreclosure and contract claims and awarded Stark $51,760.83 on his breach-of-contract counterclaim (completion cost of $202,090.81 less $150,329.98 unpaid contract balance) plus $34,100.46 in ICPA damages (total $85,861.29), and $129,434 in attorney fees and $4,535.33 costs. The Idaho Supreme Court affirmed in full and awarded Stark fees on appeal.",
+     "outcomeDescription": "After a seven-day bench trial the district court dismissed McCarthy's lien-foreclosure and contract claims and awarded the owner $51,760.83 on his breach-of-contract counterclaim (completion cost of $202,090.81 less $150,329.98 unpaid contract balance) plus $34,100.46 in ICPA damages (total $85,861.29), and $129,434 in attorney fees and $4,535.33 costs. The Idaho Supreme Court affirmed in full and awarded the owner fees on appeal.",
      "appellateChange": null
     },
     {
@@ -8265,7 +8265,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "The State of Texas v. Skyway Holdings LLC and Anderson Auto Salvage a/k/a Anderson Towing Inc.",
+     "caseName": "State of Texas v. Skyway Holdings LLC",
      "court": "Texas Third Court of Appeals (Austin), on appeal from County Court at Law No. 3, Bell County",
      "decided": "2021-03-05",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2021/03/05/state_v._skyway_holdings_llc_and_anderson_auto_salvage_aka_anderson_1.pdf",
@@ -8297,7 +8297,7 @@ window.BACKTEST_RESULTS = {
       "hit": true,
       "bestGuessError": 0.907
      },
-     "outcomeDescription": "After a three-day jury trial in October 2018 the jury awarded $508,548 (exactly the owners' appraiser Korman's cost-approach figure and the low end of the owners' requested range), against the State's requested $74,875-$96,206 and the special commissioners' $74,429; judgment was rendered on the verdict. The Austin Court of Appeals affirmed on March 5, 2021, holding Korman's functional-obsolescence testimony admissible and the exclusion of post-taking revenue evidence not reversible. No attorney's fees in a Texas condemnation award.",
+     "outcomeDescription": "After a three-day jury trial in October 2018 the jury awarded $508,548 (exactly the owners' appraiser's cost-approach figure and the low end of the owners' requested range), against the State's requested $74,875-$96,206 and the special commissioners' $74,429; judgment was rendered on the verdict. The Austin Court of Appeals affirmed on March 5, 2021, holding the owners' appraiser's functional-obsolescence testimony admissible and the exclusion of post-taking revenue evidence not reversible. No attorney's fees in a Texas condemnation award.",
      "appellateChange": "affirmed"
     },
     {
@@ -8312,7 +8312,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Cheryl Trout, et al. v. Jay Shani DEV8, L.L.C., d.b.a. Mr. Hero",
+     "caseName": "An injured customer v. Jay Shani DEV8, L.L.C., d.b.a. Mr. Hero",
      "court": "Ohio Court of Appeals, Eighth Appellate District (Cuyahoga County), on appeal from the Cuyahoga County Court of Common Pleas (No. CV-21-955789)",
      "decided": "2025-03-13",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-832.pdf",
@@ -8353,7 +8353,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Walmart Stores East, LP v. Bettie Leverette",
+     "caseName": "Walmart Stores East, LP v. an injured shopper",
      "court": "Court of Appeals of Georgia (Fourth Division), on appeal from the Georgia trial court case no. 18C06082 (the opinion does not name the trial court)",
      "decided": "2024-05-10",
      "sourceUrl": "https://efast.gaappeals.gov/download?filingId=7f690487-1379-4cfd-a92b-cc3bd5e95c36",
@@ -8397,7 +8397,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Khoshaba v. Stilwell (Wheeler Real Estate Investment Trust stockholder class action)",
+     "caseName": "Wheeler Real Estate Investment Trust stockholder class action",
      "court": "U.S. District Court for the Eastern District of Virginia, Norfolk Division",
      "decided": "2024-09-13",
      "sourceUrl": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.552123/gov.uscourts.vaed.552123.40.0.pdf",
@@ -8444,7 +8444,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Williams Alaska Petroleum, Inc. and The Williams Companies, Inc. v. State of Alaska; Flint Hills Resources, LLC; and Flint Hills Resources Alaska, LLC",
+     "caseName": "Williams Alaska Petroleum, Inc. v. State of Alaska and Flint Hills Resources",
      "court": "Supreme Court of Alaska, on appeal from the Superior Court, Fourth Judicial District, Fairbanks",
      "decided": "2023-05-26",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2023/05/26/williams_alaska_petroleum_inc._and_the_williams_companies_inc._v._state.pdf",
@@ -8491,7 +8491,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Speedy Maintenance Service, L.L.C. v. Windsor Tower, L.L.C., et al.",
+     "caseName": "Speedy Maintenance Service, L.L.C. v. Windsor Tower, L.L.C.",
      "court": "Court of Appeals of Ohio, Second Appellate District (Montgomery County)",
      "decided": "2024-12-13",
      "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/2/2024/2024-Ohio-5841.pdf",
@@ -8538,7 +8538,7 @@ window.BACKTEST_RESULTS = {
       "correctedTowardPrediction": false,
       "pending": false
      },
-     "caseName": "Zenith Global Solutions, Inc., d/b/a Zenith Capital v. Linden Village Assisted Living Community, LLC",
+     "caseName": "Zenith Global Solutions, Inc. v. Linden Village Assisted Living Community, LLC",
      "court": "Washington Court of Appeals, Division One (unpublished)",
      "decided": "2021-07-06",
      "sourceUrl": "https://storage.courtlistener.com/pdf/2021/07/06/zenith_global_solutions_inc._resp_v._linden_village_assisted_living.pdf",
@@ -8670,7 +8670,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "1215 Superior, L.L.C. v. Jacob Berger",
+   "caseName": "1215 Superior, L.L.C. v. a guarantor",
    "court": "Court of Appeals of Ohio, Eighth Appellate District (Cuyahoga County)",
    "decided": "2025-02-27",
    "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-645.pdf",
@@ -8720,7 +8720,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "1700 Market Street Associates, L.P., SRI Eleven 1700 Market Holdings REIT, LLC, and 1700 Property Owner, LLC v. Common Grounds 1700 Market Street, LLC and Common Grounds Holdings, LLC",
+   "caseName": "1700 Market Street Associates, L.P. v. Common Grounds 1700 Market Street, LLC",
    "court": "Superior Court of Pennsylvania (published, 2024 PA Super 63), on appeal from the Court of Common Pleas of Philadelphia County (No. 02451 May Term 2022)",
    "decided": "2024-04-01",
    "sourceUrl": "https://www.pacourts.us/assets/opinions/Superior/out/J-A28029-23o.pdf",
@@ -8770,7 +8770,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "5th and Walnut Parking LLC, 5th and Walnut Tower LLC, 5th and Court LLC, Justin Mandelbaum, and Sean Mandelbaum v. City of Des Moines",
+   "caseName": "5th and Walnut Parking LLC v. City of Des Moines",
    "court": "Iowa Supreme Court, on appeal from the Iowa District Court for Polk County (Business Specialty Court)",
    "decided": "2026-06-12",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2026/06/12/5th_and_walnut_parking_llc_5th_and_walnut_tower_llc_5th_and_court_llc_1.pdf",
@@ -8864,7 +8864,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Architectural Stainless, Inc., d/b/a ASI Equipment v. Karet Projects, LLC, Thomas Lefevre, and TM Partridge Creek Mall, LP",
+   "caseName": "Architectural Stainless, Inc. v. TM Partridge Creek Mall, LP",
    "court": "Michigan Court of Appeals (unpublished), on appeal from the Macomb County Circuit Court",
    "decided": "2021-05-13",
    "sourceUrl": "https://www.courts.michigan.gov/4a4ed7/siteassets/case-documents/uploads/opinions/final/coa/20210513_c353660_35_353660.opn.pdf",
@@ -8964,7 +8964,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "David Keith Brandon v. Wells Fargo Bank, N.A., as Trustee for the Registered Holders of LaSalle Commercial Mortgage Securities, Inc. 2007-MF5, and Midland Loan Services",
+   "caseName": "A borrower v. Wells Fargo Bank, N.A., as CMBS trustee",
    "court": "Texas Thirteenth Court of Appeals (Corpus Christi-Edinburg), on appeal from the 156th District Court, San Patricio County",
    "decided": "2020-05-28",
    "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=&MediaID=6611f74e-0214-4698-895d-8c0393168f0e&DT=Opinion",
@@ -8996,7 +8996,7 @@ window.BACKTEST_RESULTS = {
     "hit": true,
     "bestGuessError": 0.134
    },
-   "outcomeDescription": "After a two-day bench trial the court awarded Brandon $245,109.20 in actual damages against Wells Fargo and Midland jointly and severally, plus $245,109.20 in exemplary damages against each of them ($735,327.60 total damages), and $125,000 in attorney's fees plus conditional appellate fees; it found no consequential damages. The Thirteenth Court of Appeals reversed the judgment against Midland entirely and the exemplary damages, and affirmed the rest, leaving $245,109.20 in actual damages against Wells Fargo plus the fee award.",
+   "outcomeDescription": "After a two-day bench trial the court awarded the borrower $245,109.20 in actual damages against Wells Fargo and Midland jointly and severally, plus $245,109.20 in exemplary damages against each of them ($735,327.60 total damages), and $125,000 in attorney's fees plus conditional appellate fees; it found no consequential damages. The Thirteenth Court of Appeals reversed the judgment against Midland entirely and the exemplary damages, and affirmed the rest, leaving $245,109.20 in actual damages against Wells Fargo plus the fee award.",
    "appellateChange": null
   },
   {
@@ -9114,7 +9114,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Can IV Packard Square, LLC v. Craig Schubiner (and BCL Properties Limited Partnership and 305 Associates, LLC, proposed intervenors)",
+   "caseName": "Can IV Packard Square, LLC v. the borrower's principal",
    "court": "Michigan Court of Appeals (unpublished), on appeal from the Oakland County Circuit Court",
    "decided": "2021-04-29",
    "sourceUrl": "https://www.courts.michigan.gov/4a4fa7/siteassets/case-documents/uploads/opinions/final/coa/20210429_c352510_72_352510.opn.pdf",
@@ -9146,7 +9146,7 @@ window.BACKTEST_RESULTS = {
     "hit": false,
     "bestGuessError": 1.588
    },
-   "outcomeDescription": "On cross-motions, the trial court granted summary disposition to the lender on its guaranty claim and on Schubiner's counterclaims and on December 17, 2019 entered judgment against him for $13,992,936.05 (the original-loan balance left after the lender applied its $75 million credit bid first to the receiver loan), plus attorney fees, consultant fees, continuing interest and costs. The Court of Appeals affirmed the judgment (Docket No. 352510), while vacating a separate postjudgment order on intervenors' properties.",
+   "outcomeDescription": "On cross-motions, the trial court granted summary disposition to the lender on its guaranty claim and on the borrower's principal's counterclaims and on December 17, 2019 entered judgment against him for $13,992,936.05 (the original-loan balance left after the lender applied its $75 million credit bid first to the receiver loan), plus attorney fees, consultant fees, continuing interest and costs. The Court of Appeals affirmed the judgment (Docket No. 352510), while vacating a separate postjudgment order on intervenors' properties.",
    "appellateChange": null
   },
   {
@@ -9164,7 +9164,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "CLE Venture Fund, L.P. v. Coventry Partners, L.L.C., et al. (Coventry Courts LLC, Coventry Court LLC and John Crigler)",
+   "caseName": "CLE Venture Fund, L.P. v. Coventry Partners, L.L.C.",
    "court": "Court of Appeals of Ohio, Eighth Appellate District (Cuyahoga County)",
    "decided": "2025-07-10",
    "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-2451.pdf",
@@ -9214,7 +9214,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Georgia CVS Pharmacy, LLC v. James Carmichael",
+   "caseName": "Georgia CVS Pharmacy, LLC (store injury claim)",
    "court": "Court of Appeals of Georgia (Second Division), on appeal from the State Court of Fulton County; affirmed by the Supreme Court of Georgia, Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718 (2023) (No. S22G0527)",
    "decided": "2021-11-08",
    "sourceUrl": "https://efast.gaappeals.gov/download?filingId=1260bd18-1067-424b-9622-9592df19d165",
@@ -9364,7 +9364,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Epochal Enterprises, Inc., dba Divine Orchids v. LF Encinitas Properties, LLC and Leichtag Foundation",
+   "caseName": "Epochal Enterprises, Inc. v. LF Encinitas Properties, LLC",
    "court": "California Court of Appeal, Fourth Appellate District, Division One (certified for publication; modified Jan. 31, 2024 with no change in judgment), on appeal from San Diego County Superior Court (No. 37-2018-00027797-CU-CO-NC)",
    "decided": "2024-01-12",
    "sourceUrl": "https://www.courts.ca.gov/opinions/archive/D079905.PDF",
@@ -9414,7 +9414,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": true
    },
-   "caseName": "Exxon Mobil Corporation v. United States of America (consolidated Nos. H-10-2386 and H-11-1814)",
+   "caseName": "Exxon Mobil Corporation v. United States of America",
    "court": "United States District Court for the Southern District of Texas, Houston Division (bench trial; amended findings of fact and conclusions of law)",
    "decided": "2020-09-16",
    "sourceUrl": "https://www.govinfo.gov/content/pkg/USCOURTS-txsd-4_10-cv-02386/pdf/USCOURTS-txsd-4_10-cv-02386-7.pdf",
@@ -9464,7 +9464,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "EdgeRock Development, LLC, ZPS Westfield, LLC, and First Bank Richmond v. C.H. Garmong & Son, Inc., Signworks, Inc., and Fox Contractors Corp.",
+   "caseName": "EdgeRock Development, LLC v. C.H. Garmong & Son, Inc.",
    "court": "Indiana Supreme Court (on transfer from the Court of Appeals), on appeal from the Hamilton Superior Court 5",
    "decided": "2025-06-03",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2025/06/03/edgerock_development_llc_v._c.h._garmong__son_inc.pdf",
@@ -9514,7 +9514,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Globe Contracting LLC v. Raymond R. Hour, Kimberly Taing, Hour Taing Enterprise LLC, and Hour Chiropractic Clinic Inc.",
+   "caseName": "Globe Contracting LLC v. Hour Taing Enterprise LLC",
    "court": "Utah Court of Appeals, on appeal from the Third District Court, Salt Lake Department",
    "decided": "2025-07-03",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2025/07/03/globe_contracting_v._hour.pdf",
@@ -9546,7 +9546,7 @@ window.BACKTEST_RESULTS = {
     "hit": false,
     "bestGuessError": -0.74
    },
-   "outcomeDescription": "After a bench trial the district court held Hour materially breached by withholding the July-September 2016 pay applications without justification, awarded Globe $61,901.92 in damages (the amount in its damages exhibit) with lien foreclosure, and later awarded $108,798.14 prejudgment interest, $98,531.00 attorney fees and $32,179.97 costs. The Utah Court of Appeals affirmed liability and the damages award but vacated the prejudgment interest, costs and fee awards and remanded them.",
+   "outcomeDescription": "After a bench trial the district court held the owner materially breached by withholding the July-September 2016 pay applications without justification, awarded Globe $61,901.92 in damages (the amount in its damages exhibit) with lien foreclosure, and later awarded $108,798.14 prejudgment interest, $98,531.00 attorney fees and $32,179.97 costs. The Utah Court of Appeals affirmed liability and the damages award but vacated the prejudgment interest, costs and fee awards and remanded them.",
    "appellateChange": null
   },
   {
@@ -9564,7 +9564,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "David Griffith v. Roger Hemphill and Donald Davis",
+   "caseName": "A commercial landlord v. its tenants",
    "court": "Supreme Court of Alaska, on appeal from the Superior Court, Third Judicial District, Anchorage (No. 3AN-19-04477 CI)",
    "decided": "2022-12-16",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2022/12/16/david_griffith_v._roger_hemphill_and_donald_davis.pdf",
@@ -9614,7 +9614,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": true,
     "pending": false
    },
-   "caseName": "Hall CA-NV, LLC v. Robert Radovan and William Criswell",
+   "caseName": "Hall CA-NV, LLC v. guarantors",
    "court": "Texas Fifth Court of Appeals (Dallas), on appeal from the 134th Judicial District Court, Dallas County",
    "decided": "2022-05-25",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2022/05/25/hall_ca-nv_llc_v._robert_radovan_and_william_criswell.pdf",
@@ -9664,7 +9664,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Holcomb, Dunbar, Watts, Best, Masters & Golmon, P.A. f/k/a Holcomb Dunbar, P.A. v. 400 South Lamar Oxford Mad Hatter Partners, LLC and Blake Tartt III",
+   "caseName": "Holcomb Dunbar, P.A. v. 400 South Lamar Oxford Mad Hatter Partners, LLC",
    "court": "Supreme Court of Mississippi (en banc, on writ of certiorari to the Court of Appeals), on appeal from the Lafayette County Circuit Court",
    "decided": "2022-03-17",
    "sourceUrl": "https://courts.ms.gov/images/Opinions/CO160186.pdf",
@@ -9714,7 +9714,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "HRT Enterprises v. City of Detroit, Michigan",
+   "caseName": "HRT Enterprises v. City of Detroit",
    "court": "United States Court of Appeals for the Sixth Circuit, on appeal from the U.S. District Court for the Eastern District of Michigan",
    "decided": "2025-12-22",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2025/12/22/hrt_enterprises_v._city_of_detroit_mich._1.pdf",
@@ -9746,7 +9746,7 @@ window.BACKTEST_RESULTS = {
     "hit": true,
     "bestGuessError": 1.453
    },
-   "outcomeDescription": "The first jury fixed the taking date at January 1, 2009 and awarded $4.25 million; the district court ordered a remittitur to $2,008,000, the City rejected it, and a second jury awarded HRT $1,976,820 in just compensation. The Sixth Circuit affirmed on December 22, 2025 (ripeness, res judicata, liability, bifurcation and the remittitur all upheld; Thapar, J., dissenting on res judicata). Amount used is the operative second verdict.",
+   "outcomeDescription": "The first jury fixed the taking date at January 1, 2009 and awarded $4.25 million; the district court ordered a remittitur to $2,008,000, the City rejected it, and a second jury awarded HRT $1,976,820 in just compensation. The Sixth Circuit affirmed on December 22, 2025 (ripeness, res judicata, liability, bifurcation and the remittitur all upheld; one judge, dissenting on res judicata). Amount used is the operative second verdict.",
    "appellateChange": "affirmed"
   },
   {
@@ -9764,7 +9764,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Limited Investment Group Corp. v. Huntington National Bank (consolidated with Franklin County Treasurer v. Limited Investment Group Corp. and two Huntington National Bank v. Limited Investment Group Corp. actions)",
+   "caseName": "Limited Investment Group Corp. v. Huntington National Bank",
    "court": "Court of Appeals of Ohio, Tenth Appellate District (Franklin County)",
    "decided": "2022-10-13",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2022/10/13/ltd._invest._group_corp._v._huntington_natl._bank.pdf",
@@ -9814,7 +9814,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "IGCFCO III, LLC v. One Way Loans, LLC, d/b/a Powerlend; P&G Holdings, LLC, Watermark Banquet and Conference Center, LLC, The Coffee Factory, LLC, and Moses Gross",
+   "caseName": "IGCFCO III, LLC v. One Way Loans, LLC",
    "court": "Michigan Court of Appeals (published), on appeal from the Muskegon County Circuit Court",
    "decided": "2024-08-08",
    "sourceUrl": "https://www.courts.michigan.gov/4a298a/siteassets/case-documents/uploads/opinions/final/coa/20240808_c366535_30_366535.opn.pdf",
@@ -9861,7 +9861,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Indian River County v. Ocean Concrete, Inc. and George Maib",
+   "caseName": "Indian River County v. Ocean Concrete, Inc. and a landowner",
    "court": "Florida Fourth District Court of Appeal, on appeal from the Circuit Court of the Nineteenth Judicial Circuit, Indian River County",
    "decided": "2020-11-25",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2020/11/25/indian_river_county_v._ocean_concrete_inc._and_george_maib.pdf",
@@ -9955,7 +9955,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Yasheka Jack v. Eldorado Casino Shreveport Joint Venture, L.L.C., Eldorado Shreveport #1, L.L.C. and Eldorado Shreveport #2, L.L.C.",
+   "caseName": "An injured guest v. Eldorado Casino Shreveport Joint Venture, L.L.C.",
    "court": "Louisiana Court of Appeal, Second Circuit, on appeal from the First Judicial District Court, Caddo Parish (No. 580048)",
    "decided": "2019-01-16",
    "sourceUrl": "https://www.la2nd.org/wp-content/uploads/2022/09/52454ca.pdf",
@@ -10005,7 +10005,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Matter of Acquisition of Real Property by the State of New York (KKS Properties, LLC, claimant)",
+   "caseName": "KKS Properties, LLC v. State of New York",
    "court": "Supreme Court of the State of New York, Appellate Division, Third Department, on appeal from the Court of Claims",
    "decided": "2020-10-29",
    "sourceUrl": "https://storage.courtlistener.com/html/2020/10/29/matter_of_acquisition_of_real_prop._by_the_state_of_new_york.html",
@@ -10105,7 +10105,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Land Clearance for Redevelopment Authority of the City of St. Louis v. James Townsend Osher",
+   "caseName": "Land Clearance for Redevelopment Authority of the City of St. Louis v. a property owner",
    "court": "Missouri Court of Appeals, Eastern District, Division Two, on appeal from the Circuit Court of the City of St. Louis",
    "decided": "2020-04-21",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2020/04/21/land_clearance_for_redevelopment_authority_of_the_city_of_st._louis_v..pdf",
@@ -10155,7 +10155,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": true
    },
-   "caseName": "State of Oklahoma ex rel. Department of Transportation v. Trade Winds Motor Hotel East, Inc., et al.",
+   "caseName": "State of Oklahoma ex rel. Department of Transportation v. Trade Winds Motor Hotel East, Inc.",
    "court": "Court of Civil Appeals of the State of Oklahoma, Division IV, on appeal from the District Court of Tulsa County",
    "decided": "2020-07-23",
    "sourceUrl": "https://storage.courtlistener.com/html/2020/07/23/state_ex_rel._dept._of_transportation_v._trade_winds_motor_hotel_east_5.html",
@@ -10293,7 +10293,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Pilot Travel Centers, LLC and Gina Franklin, Individually v. Willa Womack",
+   "caseName": "Pilot Travel Centers, LLC and its general manager v. an injured customer",
    "court": "Court of Appeals of Mississippi (en banc), on appeal from the Circuit Court of Hinds County, First Judicial District",
    "decided": "2024-12-17",
    "sourceUrl": "https://courts.ms.gov/images/Opinions/CO180911.pdf",
@@ -10384,7 +10384,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": true
    },
-   "caseName": "Senior Care Living VI, LLC and Mark C. Bouldin v. Preston Hollow Capital, LLC, UMB Bank N.A., and TMI Trust Company",
+   "caseName": "Senior Care Living VI, LLC and its principal v. Preston Hollow Capital, LLC, UMB Bank N.A., and TMI Trust Company",
    "court": "Texas First Court of Appeals (Houston), opinion on rehearing, on appeal from the 458th District Court, Fort Bend County",
    "decided": "2024-05-14",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2024/05/14/senior_care_living_vi_llc_v._preston_hollow_capital_llc_umb_bank_n.a..pdf",
@@ -10416,7 +10416,7 @@ window.BACKTEST_RESULTS = {
     "hit": false,
     "bestGuessError": -0.429
    },
-   "outcomeDescription": "After a week-long bench trial the court rendered judgment for Preston Hollow against Senior Care and Bouldin, jointly and severally, for $52,597,040.06 ($44,675,000 principal plus $7,922,040.06 pre-judgment interest), $250,000 in attorney's fees and $520,000 conditional appellate fees, and reappointed a receiver. On rehearing the First Court of Appeals rendered judgment that Preston Hollow may not enforce the guaranty against Bouldin, reversed the $52.6 million breach-of-contract award against Senior Care and remanded that claim for a new trial, remanded the trustees' guaranty claims for trial, and vacated the fee awards.",
+   "outcomeDescription": "After a week-long bench trial the court rendered judgment for Preston Hollow against Senior Care and the owner's principal, jointly and severally, for $52,597,040.06 ($44,675,000 principal plus $7,922,040.06 pre-judgment interest), $250,000 in attorney's fees and $520,000 conditional appellate fees, and reappointed a receiver. On rehearing the First Court of Appeals rendered judgment that Preston Hollow may not enforce the guaranty against the owner's principal, reversed the $52.6 million breach-of-contract award against Senior Care and remanded that claim for a new trial, remanded the trustees' guaranty claims for trial, and vacated the fee awards.",
    "appellateChange": null
   },
   {
@@ -10434,7 +10434,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Pryority Partnership v. AMT Properties, LLC, et al.",
+   "caseName": "Pryority Partnership v. AMT Properties, LLC",
    "court": "Court of Appeals of Tennessee at Knoxville, on appeal from the Circuit Court for Hamilton County (No. 17C1340)",
    "decided": "2021-03-10",
    "sourceUrl": "https://www.tncourts.gov/sites/default/files/e2020-00511_pryority_v._amt.pdf",
@@ -10484,7 +10484,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Quantum Concrete, Inc. v. Plaza de Kaza, LLC, and Ronald A. Dykstra, d/b/a Dykstra Homes",
+   "caseName": "Quantum Concrete, Inc. v. Plaza de Kaza, LLC",
    "court": "Michigan Court of Appeals (unpublished), on appeal from the Kent County Circuit Court",
    "decided": "2023-09-14",
    "sourceUrl": "https://www.courts.michigan.gov/4a4e27/siteassets/case-documents/uploads/opinions/final/coa/20230914_c361420_42_361420.opn.pdf",
@@ -10516,7 +10516,7 @@ window.BACKTEST_RESULTS = {
     "hit": true,
     "bestGuessError": -0.325
    },
-   "outcomeDescription": "After a three-day bench trial the court found Dykstra breached his agreement with Quantum and Plaza de Kaza was unjustly enriched, and entered judgment against both for $24,179.35 (the full final invoice, no setoffs), rejecting Plaza de Kaza's counterclaims; Quantum's later motion for attorney-fee sanctions was denied. The Court of Appeals affirmed (Quantum's challenges to the lien dismissal and the sanctions ruling failed).",
+   "outcomeDescription": "After a three-day bench trial the court found the builder breached his agreement with Quantum and Plaza de Kaza was unjustly enriched, and entered judgment against both for $24,179.35 (the full final invoice, no setoffs), rejecting Plaza de Kaza's counterclaims; Quantum's later motion for attorney-fee sanctions was denied. The Court of Appeals affirmed (Quantum's challenges to the lien dismissal and the sanctions ruling failed).",
    "appellateChange": null
   },
   {
@@ -10534,7 +10534,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Slyce Coal Fired Pizza Company v. Metropolitan Square Plaza, LLC (Laurie Barth and Brittany Barth-Niggemann, counterdefendants)",
+   "caseName": "Slyce Coal Fired Pizza Company v. Metropolitan Square Plaza, LLC",
    "court": "Appellate Court of Illinois, First District, First Division (2025 IL App (1st) 221279), on appeal from the Circuit Court of Cook County",
    "decided": "2025-03-31",
    "sourceUrl": "https://www.illinoiscourts.gov/resources/a6e89c4f-4ca1-4fbd-b6a1-6e70253d0bbb/file",
@@ -10584,7 +10584,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "McCarthy Corporation v. Stark Investment Group, LLC, Craig Stark, and U.S. Bank, N.A.",
+   "caseName": "McCarthy Corporation v. Stark Investment Group, LLC",
    "court": "Idaho Supreme Court, on appeal from the District Court of the First Judicial District, Kootenai County",
    "decided": "2021-06-24",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2021/06/24/mccarthy_corporation_v._stark_investment_group.pdf",
@@ -10616,7 +10616,7 @@ window.BACKTEST_RESULTS = {
     "hit": false,
     "bestGuessError": -1.084
    },
-   "outcomeDescription": "After a seven-day bench trial the district court dismissed McCarthy's lien-foreclosure and contract claims and awarded Stark $51,760.83 on his breach-of-contract counterclaim (completion cost of $202,090.81 less $150,329.98 unpaid contract balance) plus $34,100.46 in ICPA damages (total $85,861.29), and $129,434 in attorney fees and $4,535.33 costs. The Idaho Supreme Court affirmed in full and awarded Stark fees on appeal.",
+   "outcomeDescription": "After a seven-day bench trial the district court dismissed McCarthy's lien-foreclosure and contract claims and awarded the owner $51,760.83 on his breach-of-contract counterclaim (completion cost of $202,090.81 less $150,329.98 unpaid contract balance) plus $34,100.46 in ICPA damages (total $85,861.29), and $129,434 in attorney fees and $4,535.33 costs. The Idaho Supreme Court affirmed in full and awarded the owner fees on appeal.",
    "appellateChange": null
   },
   {
@@ -10634,7 +10634,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "The State of Texas v. Skyway Holdings LLC and Anderson Auto Salvage a/k/a Anderson Towing Inc.",
+   "caseName": "State of Texas v. Skyway Holdings LLC",
    "court": "Texas Third Court of Appeals (Austin), on appeal from County Court at Law No. 3, Bell County",
    "decided": "2021-03-05",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2021/03/05/state_v._skyway_holdings_llc_and_anderson_auto_salvage_aka_anderson_1.pdf",
@@ -10666,7 +10666,7 @@ window.BACKTEST_RESULTS = {
     "hit": true,
     "bestGuessError": 0.907
    },
-   "outcomeDescription": "After a three-day jury trial in October 2018 the jury awarded $508,548 (exactly the owners' appraiser Korman's cost-approach figure and the low end of the owners' requested range), against the State's requested $74,875-$96,206 and the special commissioners' $74,429; judgment was rendered on the verdict. The Austin Court of Appeals affirmed on March 5, 2021, holding Korman's functional-obsolescence testimony admissible and the exclusion of post-taking revenue evidence not reversible. No attorney's fees in a Texas condemnation award.",
+   "outcomeDescription": "After a three-day jury trial in October 2018 the jury awarded $508,548 (exactly the owners' appraiser's cost-approach figure and the low end of the owners' requested range), against the State's requested $74,875-$96,206 and the special commissioners' $74,429; judgment was rendered on the verdict. The Austin Court of Appeals affirmed on March 5, 2021, holding the owners' appraiser's functional-obsolescence testimony admissible and the exclusion of post-taking revenue evidence not reversible. No attorney's fees in a Texas condemnation award.",
    "appellateChange": "affirmed"
   },
   {
@@ -10681,7 +10681,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Cheryl Trout, et al. v. Jay Shani DEV8, L.L.C., d.b.a. Mr. Hero",
+   "caseName": "An injured customer v. Jay Shani DEV8, L.L.C., d.b.a. Mr. Hero",
    "court": "Ohio Court of Appeals, Eighth Appellate District (Cuyahoga County), on appeal from the Cuyahoga County Court of Common Pleas (No. CV-21-955789)",
    "decided": "2025-03-13",
    "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-832.pdf",
@@ -10722,7 +10722,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Walmart Stores East, LP v. Bettie Leverette",
+   "caseName": "Walmart Stores East, LP v. an injured shopper",
    "court": "Court of Appeals of Georgia (Fourth Division), on appeal from the Georgia trial court case no. 18C06082 (the opinion does not name the trial court)",
    "decided": "2024-05-10",
    "sourceUrl": "https://efast.gaappeals.gov/download?filingId=7f690487-1379-4cfd-a92b-cc3bd5e95c36",
@@ -10766,7 +10766,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Khoshaba v. Stilwell (Wheeler Real Estate Investment Trust stockholder class action)",
+   "caseName": "Wheeler Real Estate Investment Trust stockholder class action",
    "court": "U.S. District Court for the Eastern District of Virginia, Norfolk Division",
    "decided": "2024-09-13",
    "sourceUrl": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.552123/gov.uscourts.vaed.552123.40.0.pdf",
@@ -10813,7 +10813,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Williams Alaska Petroleum, Inc. and The Williams Companies, Inc. v. State of Alaska; Flint Hills Resources, LLC; and Flint Hills Resources Alaska, LLC",
+   "caseName": "Williams Alaska Petroleum, Inc. v. State of Alaska and Flint Hills Resources",
    "court": "Supreme Court of Alaska, on appeal from the Superior Court, Fourth Judicial District, Fairbanks",
    "decided": "2023-05-26",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2023/05/26/williams_alaska_petroleum_inc._and_the_williams_companies_inc._v._state.pdf",
@@ -10860,7 +10860,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Speedy Maintenance Service, L.L.C. v. Windsor Tower, L.L.C., et al.",
+   "caseName": "Speedy Maintenance Service, L.L.C. v. Windsor Tower, L.L.C.",
    "court": "Court of Appeals of Ohio, Second Appellate District (Montgomery County)",
    "decided": "2024-12-13",
    "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/2/2024/2024-Ohio-5841.pdf",
@@ -10907,7 +10907,7 @@ window.BACKTEST_RESULTS = {
     "correctedTowardPrediction": false,
     "pending": false
    },
-   "caseName": "Zenith Global Solutions, Inc., d/b/a Zenith Capital v. Linden Village Assisted Living Community, LLC",
+   "caseName": "Zenith Global Solutions, Inc. v. Linden Village Assisted Living Community, LLC",
    "court": "Washington Court of Appeals, Division One (unpublished)",
    "decided": "2021-07-06",
    "sourceUrl": "https://storage.courtlistener.com/pdf/2021/07/06/zenith_global_solutions_inc._resp_v._linden_village_assisted_living.pdf",
