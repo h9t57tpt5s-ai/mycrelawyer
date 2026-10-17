@@ -1,0 +1,285 @@
+THIRD DIVISION
+MERCIER, C. J.,
+MILLER, P. J. and DOYLE, P. J.
+NOTICE: Motions for reconsideration must be
+physically received in our clerk’s office within ten
+days of the date of decision to be deemed timely filed.
+https://www.gaappeals.us/rules
+March 12, 2024
+In the Court of Appeals of Georgia
+A23A1198. WAL-MART STORES EAST, LP v. HOWELL et al.
+DOYLE, Presiding Judge.
+Maria and Oscar Howell filed a negligence action against Walmart Stores East,
+LP (“Walmart”), after Maria Howell slipped and fell on the floor of one of its stores.
+Walmart removed the case to federal court, and the federal court issued a show cause
+order sua sponte requiring Walmart to establish why the case should not be remanded
+for failure to establish the jurisdictional amount of damages required for federal
+diversity jurisdiction.1 Before a ruling on the show cause order was entered, plaintiffs
+moved to remand the case to state court on the ground that Walmart had failed to
+1 The federal diversity jurisdiction statute provides that “district courts shall
+have original jurisdiction of all civil actions where the matter in controversy exceeds
+the sum or value of $75,000 . . . and is between citizens of different States.” 28 USC
+§ 1332(a). 
+prove the amount in controversy necessary to establish federal diversity jurisdiction.
+Despite allegations in the Complaint of Walmart’s gross negligence, hard expenses
+incurred by Howell of $56,000, and claims for loss of consortium, pain and suffering,
+and permanent disabilities, the federal court found diversity jurisdiction lacking over
+the amount in controversy, remanded the case, and ordered that plaintiffs were
+judicially estopped from seeking damages greater than $75,000 unless the state court
+judge determined that the circumstances had changed since plaintiffs filed their
+motion to remand. Shortly before trial, the trial court found a change in
+circumstances, and the case proceeded with the jury awarding plaintiffs $300,000 in
+damages. Walmart filed a motion for judgment notwithstanding the verdict as to
+plaintiffs’ damages or for new trial, which the trial court denied.2 Walmart appeals,
+challenging the trial court’s finding that plaintiffs were not judicially estopped from
+recovering damages in excess of $75,000. Finding no error, we affirm.
+2 We note that the trial court did not enter a judgment on the jury’s verdict, as
+Walmart points out in its separately filed motion to consider the merits of this appeal.
+Nonetheless, the denial of a motion for new trial is appealable even if no judgment has
+been entered on the verdict. See Munday v. Brissette, 113 Ga. App. 147, 151-154 (2) (b)
+(1966), reversed on other grounds at Brissette v. Munday, 222 Ga. 162 (149 SE2d 110)
+(1966). As explained in Munday, we are to construe procedural rules liberally so as to
+bring about a decision on the merits of a case and avoid dismissal. 
+2
+“[J]udicial estoppel is an equitable doctrine invoked by a court at its
+discretion.”3 Its purpose is to “protect the integrity of the judicial process by
+prohibiting parties from deliberately changing positions according to the exigencies
+of the moment.”4 We review a trial court’s application of judicial estoppel for an
+abuse of discretion.5 Keeping this deferential standard of review in mind, we turn to
+the facts.
+Maria Howell slipped on WD-40 lubricant and fell on the floor at the Walmart
+store in Americus, Georgia, on February 27, 2018. Howell completed an incident
+report on the day of her fall, and upon contacting the store days later, was told that
+three young female customers had sprayed a substance on the floor where Howell had
+fallen. Thereafter, Howell contacted the Americus Police Department to inform them
+3 (Citation and punctuation omitted). Goddard v. City of Albany, 285 Ga. 882,
+885 (2) (684 SE2d 635) (2009).
+4 Id. See also Benton v. Benton, 280 Ga. 468, 469 (629 SE2d 204) (2006) (“It is
+most commonly invoked to prevent bankruptcy debtors from concealing a possible
+cause of action, asserting the claim following the discharge of the bankruptcy[,] and
+excluding resources from the bankruptcy estate that might have otherwise satisfied
+creditors.”) (citation omitted).
+5 See Fulton County v. Ward-Poag, 310 Ga. 289, 292 (2) (a) ( 849 SE2d 465)
+(2020).
+3
+of the incident and to provide them with the name of a witness, Justin Redding. The
+police investigated and obtained a video from the store that captured the incident. The
+video allegedly showed a young woman removing a spray can off of a shelf and
+spraying something on the floor at approximately 4:40 p.m., while two other women
+shielded her from view. Additionally, it showed that approximately 22 minutes before
+Howell’s fall, a Walmart employee walked with the women to the area where the
+substance was on the floor, appeared to look at the area, then left it unattended,
+walking in the opposite direction of the substance. The police report stated that
+Redding reported that he heard Walmart employees talking about the spill on their
+radios, that he slipped on the same substance but did not fall, and that he observed a
+can of WD-40 on the floor at the end of the aisle. The video confirmed Redding’s
+presence on the aisle where Howell fell approximately 12 minutes before her fall. 
+Before the lawsuit was filed, plaintiffs demanded $400,000 to settle the case,
+and Walmart countered with an offer of $25,000, which plaintiffs rejected. On January
+24, 2020, plaintiffs filed their complaint, alleging that Howell sustained severe and
+permanent injuries to her right shoulder and left hip and incurred medical expenses
+in the amount of $46,008.41 and lost wages in the amount of $10,000.00. Plaintiffs
+4
+also sought damages for future medical expenses and loss of consortium. On February
+17, 2020, Walmart removed the case to federal court, asserting a complete diversity
+of citizenship between the parties and relying on the plaintiffs’ $400,000 demand
+letter to satisfy the damages requirement for federal jurisdiction. 
+The federal court sua sponte issued a show cause order requiring Walmart to
+establish why the case should not be remanded for failure to establish the required
+amount of damages for diversity jurisdiction. Walmart responded, relying on the
+demand letter and reserving its right to remove the case at a later date should the court
+not find the demand letter to be a reliable indicator of damages. Before the federal
+court could issue its ruling, plaintiffs filed a motion to remand, arguing that Walmart
+had failed to prove by a preponderance of the evidence that the amount in controversy
+exceeded $75,000, as was required. On April 27, 2020, the federal court issued its
+order remanding the case to state court, and limiting plaintiffs to $75,000 in damages
+unless the trial judge found that the circumstances had changed since the filing of
+plaintiffs’ motion to remand. 
+Discovery commenced, and on May 18, 2020, Howell submitted to a Functional
+Capability Evaluation (“FCE”). The FCE showed that Howell’s fall caused her to
+5
+undergo a right shoulder rotator cuff repair revision surgery in August 2018, and to
+obtain physical therapy and injections for a left hip injury. The FCE concluded that
+she had lingering disorders of both areas of her body, with range of motion restrictions
+and weakness in her right shoulder, significant difficulty performing repetitive
+motions, overhead reaching, and material handling with her upper extremity,
+continued left hip weakness that impaired her walking ability and did not allow her to
+lift objects from ground level, and that she qualified for a Department of Labor
+sedentary physical demand work category. In June 2020, Walmart extended an offer
+of settlement to plaintiffs pursuant to OCGA § 9-11-686 in the amount of $101,000,
+to which plaintiffs did not respond. Plaintiffs demanded $385,000 to settle the case
+in January 2021. 
+Later in 2021, after the court extended discovery, plaintiffs filed a motion to
+compel Walmart to identify the employees working on the shift before and after
+Howell’s fall, which the trial court granted. Thereafter, additional evidence came to
+light that challenged Walmart’s initial theory that customers spilled the substance on
+6 Pursuant to OCGA § 9-11-68 (c), offers made under the Code section remain
+open for 30 days unless sooner withdrawn in writing by the offeror before acceptance
+by the offeree, and an offer that is neither accepted nor withdrawn within 30 days is
+deemed rejected. 
+6
+the floor. Redding, the customer who was interviewed by the police officers, provided
+an affidavit in which he averred that the spill was caused by a leaking box of WD-40
+dropped by a Walmart employee who was restocking shelves. Redding further averred
+that he brought the spill to the attention of the employee carrying the box and to a
+second Walmart employee prior to Howell’s fall. 
+In April 2022, after the case had been placed on a trial calendar, Walmart filed
+a motion to limit plaintiffs’ damages to $75,000 based on the federal remand order.
+Plaintiffs opposed the motion, arguing, among other things, that a change in
+circumstances authorized them to seek damages in excess of $75,000. The trial court
+denied Walmart’s motion, finding that there had been a sufficient change in
+circumstances to allow plaintiffs to pursue damages in excess of $75,000. The court
+went on to explain that its decision was based on the totality of the circumstances and
+in consideration of 
+(1) the FCE, (2) the post suit settlement offers exchanged between
+Plaintiff and Defendant, each of which were in excess of $75,000, and
+lastly, (3) the factual dispute that was revealed during discovery as to
+whether or not an independent third party was responsible for the
+discharge of WD-40 on the floor or if a Wal-Mart employee was
+responsible for its presence there. 
+7
+The court wrote that it was “persuaded that the twist in facts ascertained through
+discovery following remand could affect the jury’s determination as to the
+apportionment of fault/damages and thus the overall recovery amount at trial.” 
+Soon thereafter, the case proceeded to trial, and the jury awarded the plaintiffs
+damages in the amount of $300,000.00. Walmart filed a motion for JNOV as to the
+plaintiffs’ damages and for a new trial, moving the court to set aside the verdict and
+enter judgment in the amount of $75,000 in accordance with the federal remand
+order. Plaintiffs opposed the motion, and the trial court summarily denied it, noting
+its consideration of both parties’ documentation and its evaluation of the witnesses’
+credibility. This appeal followed. 
+1. Walmart argues that the trial court erred in finding that a change in
+circumstances occurred that authorized plaintiffs to recover damages in excess of
+$75,000. We disagree.
+In Fulton County v. Ward-Poag, our Supreme Court acknowledged that Georgia
+courts apply the federal doctrine of judicial estoppel.7 The Court explained that the
+application of judicial estoppel depends on the factual circumstances of the case, is
+7 310 Ga. at 292 (2) (b), n.5.
+8
+most commonly applied in bankruptcy proceedings,8 “is directed against those who
+would attempt to manipulate the court system through the calculated assertion of
+divergent sworn positions in judicial proceedings and is designed to prevent parties
+from making a mockery of justice through inconsistent pleadings.”9 Under the
+circumstances of this case, the trial court did not abuse its discretion when it declined
+to apply judicial estoppel to limit plaintiffs’ damages. 
+On its face, the remand order imposed the $75,000 damages limitation subject
+to the trial court determining that a change in circumstances authorized plaintiffs to
+seek a higher amount of damages. Here, the state court judge made that determination
+based on the development of the evidence occurring during discovery after plaintiffs
+filed their motion to remand in March 2020. The FCE occurred in May 2020 and
+documented Howell’s lingering disorders and inability to perform work. Walmart
+argues that Howell’s injuries were known at the time the motion to remand was filed,
+and therefore, the severity of her injuries cannot constitute a change in circumstances.
+Even acknowledging that her injuries were known, we cannot find that the trial court
+8 See id. at 292-293 (2) (b).
+9 Id. at 293 (2) (b), citing Johnson v. Trust Co. Bank, 223 Ga. App. 650, 651 (478
+SE2d 629) (1996).
+9
+abused its discretion by considering the lingering effects of Howell’s physical
+limitations, as outlined in the FCE, as a change in circumstances. Nevertheless, even
+if we agreed with Walmart’s argument regarding the FCE, the FCE was not the sole
+factor considered by the trial court. The trial court also considered the post-remand
+settlement offers, as well as the additional evidence regarding Walmart’s liability that
+surfaced during discovery. We review the trial court’s application of judicial estoppel
+for an abuse of discretion10 and find no such abuse here.
+Walmart argues that the trial court erred because it did not apply an appropriate
+legal framework to its change in circumstances analysis, citing several cases from other
+jurisdictions that are neither binding on this Court nor factually analogous to the
+instant case.11 Walmart also argues that plaintiffs had the burden to seek a removal of
+10 Ward-Poag, 310 Ga. at 292 (2) (a). 
+11 Patriot Cinemas v. Gen.Cinema Corp., 834 F2d 208, 212 (1st. Cir. 1987)
+(judicial estoppel applied where plaintiff represented that it would not pursue a claim
+in state court and subsequently repudiated its intention); Low v. United States, 795 F2d
+466, 471 (5th Cir. 1986) (in medical malpractice case, court not authorized to award
+an amount exceeding the amount sought in plaintiff’s administrative claim in the
+absence of newly discovered evidence or intervening facts not reasonably capable of
+detection at the time the administrative claim was filed); Krenz v. XTO Energy, Inc.,
+890 NW2d 222, 235 (N. D. 2017) (judicial estoppel was not employed because the
+party did not take entirely inconsistent positions in an easement proceeding).
+10
+the damages cap in state court,12 but again, it cites no authority in support of that
+position. Although not binding on this Court,13 the Eleventh Circuit’s unpublished
+opinion in Hajdasz v. Magic Burgers14 is somewhat instructive.15 In Hajdasz, which also
+arose out of a slip-and-fall incident, the plaintiff’s complaint, filed in March 2017, did
+not satisfy the amount-in-controversy requirement for federal jurisdiction on its face.16
+During discovery, the plaintiff offered evidence of past medical expenses totaling
+more than $24,000, but did not place a monetary value on other recoverable
+12 As pointed out by plaintiffs, we note that orders remanding a case to the state
+court from which the case was removed are not reviewable on appeal. See 28 USC §
+1447(d). 
+13 See generally Perez v. State, 283 Ga. 196, 198 (657 SE2d 846) (2008)
+(Eleventh Circuit decisions are not binding on this Court but can be considered
+persuasive authority). 
+14 805 Fed. Appx. 884 (11th Cir. 2020).
+15 See 28 USC § 1446 (b) (3) (“if the case stated by the initial pleading is not
+removable, a notice of removal may be filed within 30 days after receipt by the
+defendant . . . a copy of . . . other paper from which it may first be ascertained that the
+case . . . has become removable”); 28 USC § 1446(c) (3) (A) (“information relating
+to the amount in controversy in the record of the State proceeding, or in responses to
+discovery, shall be treated as an ‘other paper’ under subsection (b)(3).”). 
+16 Id.
+11
+damages,17 and the defendant did not take any steps whatsoever to compel a total
+damages response within the one-year removal period.18 When the parties exchanged
+exhibits in preparation for trial, the defendant received a written medical opinion from
+September 2016, which stated that the plaintiff’s future medical treatment would cost
+$2,800 to $5,000 per year.19 There was also evidence that the plaintiff was expected
+to live another 22 years.20 The case proceeded to trial, and the defendant removed the
+case to federal court the day after the plaintiff filed a motion for partial directed
+verdict seeking damages in excess of $75,000.21 
+The federal court subsequently granted the plaintiff’s motion to remand the
+case to state court and imposed Rule 11 sanctions due to the removal of the case after
+the one-year limit in violation of § 1446 (c) (1).22 The Court attributed solely to
+defense counsel the delay in learning the total damages amount due to his lack of effort
+17 See Hajdasz, 805 Fed. App. at 885-886.
+18 See id. at 889 (III).
+19 See id. at 887.
+20 See id. at 890 (III).
+21 See id. at 887 (I).
+22 Id.
+12
+to take steps necessary to discover information that could have supported the removal
+before the one-year deadline.23 The Court also rejected defense counsel’s argument
+that the plaintiff acted in bad faith by failing to provide a damages calculation during
+discovery.24 
+Similarly, here, Walmart posits that plaintiffs acted in bad faith and/or had the
+burden to take an affirmative step to seek removal of the damages cap in state court.
+Walmart, however, cites no authority that placed such a burden on plaintiffs or
+established that their conduct amounted to bad faith.25 When plaintiffs rejected the
+offer of settlement in July 2020, it arguably established their intent to seek damages
+in excess of $75,000, well within the one-year time frame to seek a successive removal.
+Yet, Walmart did nothing. Once Walmart received the FCE in September 2020, it did
+not follow up with additional discovery to request that plaintiffs further specify their
+23 See id. at 889 (III).
+24 See id.
+25 Cf. Triggs v. John Crump Toyota, Inc., 154 F3d 1284, 1287 n.4 (11th Cir. 1998)
+(“[T]he removing party bears the burden of demonstrating federal jurisdiction.”)
+(citation omitted). 
+13
+damages in light of the FCE. Walmart’s decisions inured to its detriment, and its
+efforts to penalize plaintiffs for its strategy at this juncture are not persuasive. 
+In sum, “[j]udicial estoppel is intended to be a flexible rule in which courts
+must take into account all of the circumstances of each case in making [their]
+determinations.”26 Even if the trial court’s decision that there had been a change in
+circumstances rested solely on the developments in the evidence as to Walmart’s
+potential liability, we could not conclude that it erred by doing so because of the
+discretion afforded the trial court in its application of judicial estoppel.27 In light of the
+foregoing, we find no abuse of discretion in the trial court’s refusal to apply judicial
+estoppel to limit plaintiffs’ damages nor has Walmart raised any other grounds as a
+basis to overturn the jury’s verdict.
+2. Walmart’s remaining enumeration that plaintiffs were required to cross-
+appeal the trial court’s predicate application of judicial estoppel lacks merit, as there
+26 (Citation and punctuation omitted). Ajaka v. BrooksAmerica Mtg. Corp., 453
+F3d 1339, 1344 (11th Cir. 2006). 
+27 See Goddard, 285 Ga. at 885 (2) (“Because it is intended to prevent improper
+use of judicial machinery, judicial estoppel is an equitable doctrine invoked by a court
+at its discretion. It is a common-law doctrine, and there is no indication it is
+constitutionally mandated.”) (citation and punctuation omitted).
+14
+was no predicate application by the trial court. The remand order gave the trial court
+authority to ignore the $75,000 limit if it found a change in circumstances. When
+Walmart raised the issue in its motion to limit damages, the trial court ruled in favor
+of plaintiffs. As discussed fully in Division 1, it was authorized to do so.
+Judgment affirmed. Mercier, C. J., and Miller, P. J., concur.
+ 
+15

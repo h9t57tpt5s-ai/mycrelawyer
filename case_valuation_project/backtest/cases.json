@@ -2171,5 +2171,510 @@
   "category": "lease-disputes",
   "holdout": false,
   "addedToBacktest": "2026-09-26"
+ },
+ {
+  "id": "lemartec-v-east-coast-metal-2024",
+  "source": {
+   "caseName": "Lemartec Corporation, Tellus Products, LLC, Philadelphia Indemnity Insurance Company and Suretec Insurance Company v. East Coast Metal Structures Corp.",
+   "court": "Florida Fourth District Court of Appeal, on appeal from the Circuit Court for the Fifteenth Judicial Circuit, Palm Beach County (L.T. No. 50-2017-CA-010645-XXXX-MB)",
+   "docket": "No. 4D2023-0601",
+   "decided": "2024-05-15",
+   "url": "https://storage.courtlistener.com/pdf/2024/05/15/lemartec_corporation_v._east_coast_metal_structures_corp..pdf",
+   "excerptNote": "Verbatim from the Background (project, letters of intent and unsigned subcontracts, stairs default, replacement cost) and The Lawsuit (counts and amounts sought, defenses, counterclaim, joint pretrial stipulation), plus the one sentence describing the defendants' joint proposal for settlement. Removed: the opening paragraph (states the fee holding), the sentence noting the appeal concerns attorney's fees, the whole Final Merits Judgment section (amounts found, setoff, net award), the per curiam affirmance, the fee motions and fee award, the sentence placing the proposal inside a post-trial fee motion, and all analysis. Source is the court's slip opinion as archived by CourtListener."
+  },
+  "input": {
+   "userSide": "sideB",
+   "expectToTrial": "True",
+   "description": "We represent East Coast Metal Structures Corp., the structural steel subcontractor on a three-building sugarcane bagasse processing facility in Belle Glade, Florida, on its claims for the unpaid subcontract balances against the design-build contractor, the project owner and their payment-bond sureties in Palm Beach County circuit court. The project owner counterclaims for the cost of completing the pulping-building stairs. The case is set for a bench trial.",
+   "documentText": "The genesis of this appeal is a dispute arising out of the construction of a sugarcane bagasse processing facility located in Belle Glade, Florida (“the Project”).\n\nProject Owner hired Contractor to design and construct the Project, which consisted of three separate buildings: an office building, a molding building, and a pulping building. Contractor thereafter issued bid drawings to prospective bidders for the steelwork to be completed on the three buildings. Contractor ultimately provided Subcontractor with Letters of Intent (“LOIs”). Each LOI identified the name of the building requiring work and a lump sum price to be paid for the work, and included express language that subcontracts were forthcoming. Shortly thereafter, Contractor sent Subcontractor three subcontracts, one for each building, providing for the fabrication, installation, and delivery of structural steel and miscellaneous metals. Unlike the LOIs, each of the subcontracts included a cross-default provision providing that if Subcontractor breached any of the subcontracts, Contractor could “offset all costs to complete the Work from this Subcontract Agreement and/or other contracts . . . to recompense the Contractor.”\n\nIt is undisputed that Subcontractor did not sign the subcontracts. Nonetheless, the parties proceeded as if the subcontracts had been executed, with Subcontractor completing all of the steelwork for the office and molding buildings, and part of the work for the pulping building, pursuant to the subcontracts. Subcontractor failed, however, to supply and install the stairs in the pulping building, as required under the pulping building subcontract.\n\nProject Owner eventually took over the Project from Contractor and assumed the three subcontracts with Subcontractor. After several months of delay, Project Owner began searching for a replacement subcontractor to complete the stairs and requested a deductive change order from Subcontractor. In response, Subcontractor provided a deductive change order for $12,300, which was less than the original estimated value of the stairs at the time of Subcontractor’s bid. After Subcontractor refused to negotiate its proposed credit for the stairs, Project Owner sent Subcontractor a notice of default and eliminated the stairs from Subcontractor’s scope of work. Subcontractor did not respond to the notice of default or attempt to cure the default; instead, Subcontractor recorded a claim of lien.\n\nProject Owner thereafter hired a new subcontractor to complete the stairs at a cost of nearly $127,000. In light thereof, Project Owner refused to pay Subcontractor the balance owed on the subcontracts, including the retainages on the molding and office building subcontracts, pursuant to the cross-default provisions.\n\nSubcontractor then sued Defendants for the remainder of the balance. Subcontractor’s operative complaint also disputed the validity of the unexecuted subcontracts and argued the LOIs should govern instead.\n\nSubcontractor’s complaint included five counts. Count I alleged claims against Contractor and its surety Philadelphia on the original payment bond pursuant to section 713.23, Florida Statutes. Count II alleged claims against Project Owner and its surety Suretec on the transfer payment bond pursuant to section 713.23, Florida Statutes. Count III alleged claims against Contractor and Project Owner for breach of contract on the pulping building, and sought $63,935.40. Count IV alleged claims against Contractor and Project Owner for breach of contract on the office and molding buildings, and sought $28,011.30 for the molding building and $10,065 for the office building. Finally, Count V alleged alternative quantum meruit claims against Contractor and Project Owner. In total, Subcontractor sought $102,011.70 in damages.\n\nDefendants answered the complaint and raised several affirmative defenses seeking to avoid payment to Subcontractor for various reasons, including a claim for “set-off against any moneys owed to [Subcontractor]” for the cost of completing the stairs. Project Owner also filed a counterclaim against Subcontractor for breach of the pulping subcontract, and sought damages incurred as a result of Subcontractor’s failure to complete the stairs. Subcontractor answered the counterclaim and asserted several affirmative defenses, including that Project Owner “failed to satisfy all conditions precedent to bringing this action.”\n\nThe matter ultimately proceeded to a ten-day bench trial. Prior to trial, the parties filed a joint pretrial stipulation wherein they listed the following relevant disputed issues of fact for determination at trial: 1. Whether the parties ever entered into written subcontract agreements for the office building, molding building and pulping building . . . . 2. Whether the parties’ actions provided assent to the unsigned subcontracts for the office building, molding building, and pulping building. 3. Whether the Defendants breached the parties’ agreements related to the office building, molding building and pulping building . . . . 4. Whether [Subcontractor] breached the parties’ agreements by not supplying and installing the stairs at the pulping building in a timely fashion. 5. The amount of damages sustained on account of any breach of the contract by any party. 6. The reasonable value of the pulping stairs. 7. Whether [Subcontractor] has perfected and is entitled to foreclose its mechanic’s lien.\n\nThe proposal was made on behalf of all Defendants for the purpose of resolving all claims, including the counterclaim, with Project Owner offering to pay the entire $62,000 settlement amount and Contractor and the two sureties each offering to contribute $0.00."
+  },
+  "outcome": {
+   "amount": 29483.7,
+   "amountIsTheRequestedAmount": false,
+   "date": "2024-05-15",
+   "description": "After a ten-day bench trial the court held the unsigned subcontracts governed, found the subcontractor entitled to $71,897.70 on the three buildings ($10,065 office, $28,011.30 molding, $33,821.40 pulping), denied recovery on the payment bonds, and on the counterclaim awarded the project owner $42,414 for the reasonable value of the stairs, offset under the cross-default provisions, leaving the subcontractor a net $29,483.70 ($36,304.51 with interest). The merits judgment was affirmed per curiam (357 So. 3d 116, Fla. 4th DCA 2023). A successor judge then awarded the subcontractor $446,628.65 in prevailing-party attorney's fees and costs; on May 15, 2024 the Fourth District reversed that award in its entirety and remanded for an award of attorney's fees to the defendants (under the $62,000 joint proposal for settlement and the bond-claim fee statute).",
+   "attorneysFeesAtTrial": 446628.65,
+   "attorneysFeesOnAppeal": "reversed; fees directed to the defendants instead (amount to be set on remand)",
+   "appellateChange": "affirmed",
+   "finalAmount": 29483.7,
+   "finalNote": "Merits judgment affirmed per curiam in 2023; the subcontractor's $446,628.65 fee-and-cost award was reversed in 2024 and fees were directed to the defendants, so the subcontractor's net position after fees is well below the $29,483.70 damages figure."
+  },
+  "expectedRole": "Contractor / Design Professional",
+  "offers": [
+   {
+    "by": "defendant",
+    "amount": 62000,
+    "date": "five months before trial (s. 768.79 joint proposal; project owner to pay all)",
+    "quote": "pursuant to a rejected joint proposal for settlement for $62,000 which they had served on Subcontractor five months prior to trial."
+   }
+  ],
+  "category": "construction-defect",
+  "holdout": false,
+  "addedToBacktest": "2026-09-26"
+ },
+ {
+  "id": "sharpe-trust-v-south-florida-pool-spa-2016",
+  "source": {
+   "caseName": "South Florida Pool and Spa Corp. and Candido Sanchez v. Sharpe Investment Land Trust Number J, d/b/a Miller Heights Shopping Center",
+   "court": "Florida Third District Court of Appeal, on appeal from the Circuit Court for Miami-Dade County (Lower Tribunal No. 10-3721)",
+   "docket": "No. 3D15-102",
+   "decided": "2016-11-16",
+   "url": "https://storage.courtlistener.com/pdf/2016/11/16/south_florida_pool_and_spa_corp._v._sharpe_investment_land_trust_number_j.pdf",
+   "excerptNote": "Verbatim from Part I (Relevant Facts and Procedural Background): the eviction suit, the fire, the amended complaint's damages and negligence counts, the severed eviction summary judgment, and the tenant's January 2012 proposal for settlement. Removed: the opening two paragraphs (state the result of the damages trial and the appeal), the sentence and everything after it stating the result of the November 2014 damages trial, footnote 1, and all analysis and footnotes 2-7 (one of which states the landlord's eviction fee award). The opinion states no figure for the landlord's claimed damages."
+  },
+  "input": {
+   "userSide": "sideA",
+   "expectToTrial": "True",
+   "description": "We represent the landlord, Sharpe Investment Land Trust Number J, doing business as Miller Heights Shopping Center in Miami, on its damages claims against its commercial tenant South Florida Pool and Spa Corp. and the tenant's guarantor for breach of the lease and for negligence arising from a fire in the leased premises. The eviction claims were severed and decided separately; the damages claims are set for trial in Miami-Dade circuit court.",
+   "documentText": "Alleging that its tenant had failed to pay monthly rent, Landlord, on January 20, 2010, sued Pool and Spa for eviction, and also sued Sanchez who had executed an unconditional guaranty of Pool and Spa’s lease obligations. During the pendency of the case, a fire erupted in Pool and Spa’s leased premises in February of 2010. Landlord filed an amended complaint, adding an eviction count based on Pool and Spa’s failure to maintain insurance as required by the lease. The amended complaint also included damages claims based on Pool and Spa’s alleged lease breaches, and a negligence count against both defendants seeking damages resulting from the fire. Landlord pled entitlement to attorney’s fees in each count. Having already decided to sever Landlord’s eviction claims from its damages claims, the trial court, in November of 2010, entered a summary judgment of eviction in Landlord’s favor, determining that Pool and Spa had breached the lease agreement by its failure to procure adequate insurance. Pool and Spa appealed that summary judgment to this Court in case number 3D10-3403.\n\nDuring the pendency of that appeal, Pool and Spa served a proposal for settlement on Landlord in January of 2012, pursuant to section 768.79 of the Florida Statutes and accompanying rule 1.442 of the Florida Rules of Civil Procedure. Pool and Spa’s proposal offered $15,000.00 to settle Landlord’s damages claims. The proposal was conditioned upon Landlord executing the general release attached to the proposal. Landlord did not accept the proposal for settlement."
+  },
+  "outcome": {
+   "amount": 0,
+   "amountIsTheRequestedAmount": false,
+   "date": "2016-11-16",
+   "description": "After a November 2014 trial on the landlord's damages claims, the trial court entered final judgment for the tenant, involuntarily dismissing all of the landlord's damages claims (lease breach and fire negligence). The tenant's motion for fees under its $15,000 proposal for settlement was denied because the proposal was ambiguous; the Third District affirmed that denial and the eviction summary judgment on November 16, 2016. The landlord separately recovered about $56,000 in attorney's fees for the eviction proceedings, which is not part of the damages outcome.",
+   "attorneysFeesAtTrial": null,
+   "attorneysFeesOnAppeal": null,
+   "appellateChange": "affirmed",
+   "finalAmount": 0,
+   "finalNote": "Affirmed; the landlord took nothing on its damages claims."
+  },
+  "expectedRole": "Landlord",
+  "offers": [
+   {
+    "by": "defendant",
+    "amount": 15000,
+    "date": "January 2012 (s. 768.79 proposal by tenant on landlord's damages claims)",
+    "quote": "Pool and Spa’s proposal offered $15,000.00 to settle Landlord’s damages claims."
+   }
+  ],
+  "category": "lease-disputes",
+  "holdout": true,
+  "addedToBacktest": "2026-09-26"
+ },
+ {
+  "id": "waterwood-v-long-beach-2020",
+  "source": {
+   "caseName": "Waterwood Enterprises, LLC v. City of Long Beach",
+   "court": "California Court of Appeal, Second Appellate District, Division One, on appeal from the Superior Court of Los Angeles County (No. NC060787)",
+   "docket": "B296830",
+   "decided": "2020-12-18",
+   "url": "https://storage.courtlistener.com/pdf/2020/12/18/waterwood_enterprises_llc_v._city_of_long_beach.pdf",
+   "excerptNote": "Verbatim from the Background: the sale-leaseback, the lease repair covenant, the complaint's allegations and amount, footnote 2 (the deputy city attorney's April 2016 letter, moved to follow the complaint), the City's answer, the trial court's description of each side's trial positions, the jury-instruction statements of each side's claims, the City's own description of its position from its fee motion, and the sentences describing the parties' section 998 offers. Removed: the opening paragraphs (state the award and holdings), footnote 1 and the footnote 2 marker, the jury's verdict and special verdict, both fee motions' amounts and outcome arguments, the trial court's fee ruling and its reasoning, the amended judgment, and all analysis."
+  },
+  "input": {
+   "userSide": "sideA",
+   "expectToTrial": "True",
+   "description": "We represent the landlord, Waterwood Enterprises, LLC, on its single claim for breach of the repair and surrender covenants of a ten-year sale-leaseback of a commercial property in Long Beach that the City of Long Beach used as a police evidence storage facility (roof, HVAC, asphalt, concrete and block-wall conditions at surrender). The City says most of the conditions are reasonable wear and tear. The case is set for a jury trial in Los Angeles County Superior Court.",
+   "documentText": "The City of Long Beach (the City) sold property to Waterwood Enterprises, LLC (Waterwood) in 2005, then leased it back for a 10-year term beginning on October 14, 2005. The City used the property as a police evidence storage facility. The lease terminated on October 31, 2015.\n\nThe lease provides: “Tenant [the City] at its sole cost and expense, shall maintain the Demised Premises and each part thereof, structural and nonstructural, in good order and condition, and . . . shall make any necessary Repairs thereto, interior and exterior, whether extraordinary, foreseen or unforeseen. When used in this Article VII, the term ‘Repairs’ shall mean all Alterations necessary for Tenant to properly maintain the Demised Premises in at least the same order and condition as of the date hereof, normal wear and tear excepted.” (Boldface & underscoring omitted.) The lease defines “Demised Premises” as the land and its improvements.\n\nOn August 29, 2016, Waterwood filed its complaint against the City alleging a single cause of action for breach of a written contract. Waterwood averred that when the City left the premises, the roof had multiple leaks. “The leaks were so bad that, in the rain storm within two months of the surrender of the Premises, ceiling tiles became waterlogged and collapsed, carpet and the underlying padding were damaged, and a new tenant was unable to fully use the Premises.” Waterwood alleged that the City “has acknowledged that it should have paid for repairs to the roof, but failed to do so.” Waterwood further alleged that when the City left the premises, “the air conditioner was inoperable and the HVAC system had not been properly maintained or repaired. The air conditioner was operating and effective when the Lease was entered, and its failure was not the result of reasonable wear and tear.” Waterwood also alleged when the City left the premises, that “the block wall at the southeast co[rn]er of the Premises was damaged as if hit by a truck, such that concrete blocks were cracked, fence supports were tilted, and fencing was leaning.” Waterwood further averred that when the City left the premises, “grass was growing in, and causing deterioration of, asphalt at the Premises, and there were [sic] severe indentations occurred in the asphalt.” When the City left the premises, “concrete on the Premises had been broken, cracked, and subsided or shifted such that water ponds [sic] and may cause deterioration of the base under the concrete, and has allowed grass to grow in the concrete areas.” Waterwood reiterated that the foregoing conditions were not mere reasonable wear and tear. Waterwood alleged it was informed and believed the amounts due under the lease totaled at least $150,000. Waterwood also requested its reasonable attorney fees.\n\nIn a letter dated April 21, 2016, the deputy city attorney wrote Waterwood’s principal: “While we acknowledge that the City should have paid for repairs to the roof necessary to put it into working condition, we do not believe the Lease required the City to pay for a replacement roof, nor do we believe that the Lease required the City to repair or replace an HVAC system that was in working order at the time the City vacated the Premises.”\n\nThe City answered on October 4, 2016. The City entered a general denial, denying that “the Plaintiff sustained damages in the sum or sums alleged, or in any other sum or sums, or at all.” Although the City raised 18 affirmative defenses, it did not allege or acknowledge in those defenses any debt owed to plaintiff or that it had tendered any such debt to plaintiff.\n\n“At trial, there was considerable testimony as to various items plaintiff contended that defendant had a duty to repair before the lease expired and that because defendant failed to repair the items, plaintiff argued it was entitled to recover as damages the cost to repair the items. The significant contested items were plaintiff’s contention that: (a) defendant was required to remove and replace an entire roof on one of the buildings; (b) defendant was required to replace two air conditioners; and (c) defendant was required to tear up and replace all of the existing asphalt parking lot on the property and nearby concrete pads.” The City contended “that the roof did not require replacement, because any deterioration was due to reasonable wear and tear. As to the two air conditioners, defendant argued that neither air conditioner required replacement. As to the condition of the asphalt, defendant admitted that plaintiff was entitled to recover some of its claimed damages to repair the asphalt, because some of the asphalt had deteriorated based on use that was beyond any reasonable wear and tear.” The City argued it “was not liable for the replacement cost of the entire parking lot or the concrete pads.”\n\n“Waterwood Enterprises LLC claims that it and The City of Long Beach entered into a written contract for the 10-year lease of the subject commercial property. Waterwood Enterprises LLC claims that The City of Long Beach breached this contract by not surrendering the premises at the end of the lease broom clean and in the same order and condition as the premises was in [sic] on the date the lease began subject to reasonable wear and tear; by not performing repairs and maintenance during the ten-year tenancy, and by not repairing certain damage to the property that occurred during the term of the lease. “Waterwood Enterprises LLC also claims that The City of Long Beach’s breach of this contract caused damages to Waterwood Enterprises LLC for which the City of Long Beach should pay.” The trial court further instructed the jury: “The City of Long Beach denies that it breached the lease agreement, and contends that it completed the repairs required under the lease agreement, except for items caused by reasonable/normal wear and tear.”\n\nThe City admitted from the beginning that it should have paid for some repairs to the roof necessary to put it into working condition, as well as a few other items. However, it staunchly disputed Plaintiff’s claim that the City should tear off and replace the entire roof, and install two entirely new HVAC units. The City also denied that it had an obligation to tear up the entire asphalt parking lot, and nearby concrete pads, and install new asphalt and concrete.”\n\nEach party made various settlement offers, including Waterwood’s Code of Civil Procedure section 998 offer to compromise for $120,000 plus attorney fees and costs and the City’s Code of Civil Procedure section 998 offer to compromise for $40,001. No party accepted the other’s settlement offers."
+  },
+  "outcome": {
+   "amount": 45050,
+   "amountIsTheRequestedAmount": false,
+   "date": "2020-12-18",
+   "description": "After a 10-day jury trial the jury found the City breached the lease and awarded Waterwood a lump sum of $45,050 in contract damages (plus $1,987.06 interest; Waterwood was awarded $19,905.04 in costs). The trial court then found the City the prevailing party for contractual fees and ordered Waterwood to pay the City $172,375 in attorney fees. On December 18, 2020 the Second District affirmed in part and reversed the fee award to the City, remanding with the trial court limited to finding Waterwood the prevailing party or no prevailing party. The damages award was not disturbed.",
+   "attorneysFeesAtTrial": null,
+   "attorneysFeesOnAppeal": "the City's $172,375 fee award was reversed; on remand Waterwood may be found the prevailing party (it had sought $307,068.50 plus $15,000) or no party may be",
+   "appellateChange": "affirmed",
+   "finalAmount": 45050,
+   "finalNote": "Damages affirmed; the fee award against the landlord was reversed and remanded."
+  },
+  "expectedRole": "Landlord",
+  "offers": [
+   {
+    "by": "plaintiff",
+    "amount": 120000,
+    "date": "not stated (CCP 998 offer; plus attorney fees and costs)",
+    "quote": "Waterwood’s Code of Civil Procedure section 998 offer to compromise for $120,000 plus attorney fees and costs"
+   },
+   {
+    "by": "defendant",
+    "amount": 40001,
+    "date": "not stated (CCP 998 offer)",
+    "quote": "the City’s Code of Civil Procedure section 998 offer to compromise for $40,001."
+   }
+  ],
+  "category": "lease-disputes",
+  "holdout": false,
+  "addedToBacktest": "2026-09-26"
+ },
+ {
+  "id": "jmr-construction-v-ear-2015",
+  "source": {
+   "caseName": "JMR Construction Corp. v. Environmental Assessment and Remediation Management, Inc., and SureTec Insurance Company",
+   "court": "California Court of Appeal, Sixth Appellate District, on appeal from the Superior Court of Monterey County (No. M105497)",
+   "docket": "H039055 (243 Cal.App.4th 571; modified January 28, 2016)",
+   "decided": "2015-12-30",
+   "url": "https://storage.courtlistener.com/pdf/2015/12/30/jmr_construction_v._environmental_assessment_etc..pdf",
+   "excerptNote": "Verbatim from the opening description of the project and the suit (first paragraph and sentences two to four of the second), the Procedural Background's account of the complaint and cross-complaint, Discussion I.A.1-2 (each side's trial testimony and a selection of JMR's documentary evidence), Discussion I.B.1 (JMR's damages evidence, including its experts' figures), and the sentence describing JMR's identical section 998 offers. Removed: the court's net award and every later sentence of the opening, the summary of appellate arguments and holdings, the trial court's April 2012 ruling, the statement of decision's damages components and the judgment, the post-judgment fee and expert-fee orders, the publication footnote, footnotes 2-4 and markers, the first sentence of the second paragraph (its list is split by the publication footnote), the expert's general explanation of baseline scheduling, the whole documentary-evidence section (JMR's 2007-2008 letters and emails to EAR), expert qualifications, part of the bid-review testimony and the description of the modified total cost method, the appellate court's remarks on what it would not summarize, and all analysis. The Eichleay claim amount is not stated anywhere except in the court's award."
+  },
+  "input": {
+   "userSide": "sideA",
+   "expectToTrial": "True",
+   "description": "We represent JMR Construction Corp., the general contractor on a U.S. Army Corps of Engineers dental clinic at the Presidio of Monterey, on its claims against its electrical and plumbing subcontractor EAR and EAR's performance-bond surety SureTec for project delay, disruption and defective-performance damages. EAR cross-complains for the retention JMR withheld under the two subcontracts. The case is set for a bench trial in Monterey County Superior Court.",
+   "documentText": "This dispute arose from a public works project involving the construction of a dental clinic at the Presidio of Monterey (the Project). The owner, the United States Army Corps of Engineers (the Corps), retained JMR Construction Corp. (JMR) as general contractor for the Project. JMR, in turn, entered into various subcontracts, including separate electrical and plumbing subcontracts, with Environmental Assessment and Remediation Management, Inc. (EAR). SureTec Insurance Company (SureTec) issued separate bonds guaranteeing EAR’s performance under the two subcontracts.\n\nAfter the Project was completed, JMR filed suit against EAR and SureTec (collectively, defendants) for breach of contract and for foreclosure of the performance bonds. JMR alleged it was damaged as a result of EAR’s failure to perform under the two subcontracts. EAR filed a cross-complaint for recovery of retention funds withheld under the subcontracts.\n\nOn April 29, 2010, JMR filed its complaint against EAR and SureTec. JMR alleged four causes of action: (1) breach of the plumbing subcontract; (2) enforcement and foreclosure on the performance bond for the plumbing subcontract; (3) breach of the electrical subcontract; and (4) enforcement and foreclosure on the performance bond for the electrical subcontract. The first and third causes of action were alleged against EAR, while the second and fourth causes of action were alleged against SureTec. JMR alleged that EAR’s failure or refusal to perform its work under the two subcontracts in accordance with the Project’s schedule “caused project delay, acceleration, and related damages to JMR.” The alleged damages included “offset of JMR claims against the Owner, increased cost of JMR on-site performance costs and other loss of cost recovery and overhead on the Project.” In each of the four causes of action, JMR claimed its damages were in an amount “not less than $200,000.00.”\n\nEAR filed a cross-complaint against JMR alleging breach of contract and common counts. It alleged in separate causes of action that JMR had breached the electrical subcontract and plumbing subcontract, and that as a result of these breaches, EAR had been damaged in an amount in excess of $108,913.31.\n\nOn July 25, 2006, the Corps notified JMR that it had been awarded the contract to complete the Project at a total contract price of $6,691,000 (the prime contract). Thereafter, on September 19, 2006, JMR and EAR executed the subcontract for electrical work for a total contract price of $732,500. On November 14, 2006, JMR and EAR executed the subcontract for plumbing work for a total contract price of $471,881. Both subcontracts recited that the schedule for performance of the prime contract was 450 days from the “Owner’s Notice to Proceed Date [of] 8/30/06,” thereby making the completion date November 23, 2007. EAR acknowledged these “contract durations and time constraints and [agreed it would] comply with [JMR’s] construction schedule.” Work on the Project continued nearly six months passed the scheduled completion date of November 23, 2007. The beneficial occupancy date—i.e., completion of the Project—was May 14, 2008.\n\nSeveral representatives of JMR and one JMR-retained expert testified that EAR was responsible for concurrent delays on the Project. Ron Rivard, JMR’s Vice President, testified that the Project was delayed and the Corps, through change orders, granted a 180-day extension of the Project completion date. The Corps was responsible in part for the extension due to delays in approval of the landscaping plans. Rivard also testified that three subcontractors—EAR, Countywide Mechanical (Countywide), and Del Monte Glass (Glass)—contributed to delays, but he did not know the number of delay days caused by each of the three subcontractors, saying “[t]hat’s up [to] the experts.” Rivard testified that one aspect of EAR-caused delay involved the furnishing of an air compressor. EAR initially disputed that an air compressor was included in its scope of work under the plumbing subcontract, but it eventually supplied an air compressor without producing a submittal beforehand. Submittals were required on the Project so the Corps could give advance approval of the equipment. The air compressor was not approved by the Corps, and EAR refused to provide a Corps-approved replacement compressor. JMR thereafter procured and installed a Corps-approved compressor. Rivard testified that EAR’s failure to supply an approved air compressor caused delay in JMR’s performance under the prime contract. He testified the schedule called for the air compressor to be supplied in October 2007. Instead, it was supplied in February or March 2008.\n\nSteven Hupaylo, JMR’s job superintendent for the Project from its inception to August 2007, was responsible for managing and coordinating the subcontractors in the field. Hupaylo testified the drywall work for the interior of the clinic did not go well. JMR’s plan was to install metal framing, have EAR do its plumbing and electrical work in the uncovered metal frame, and then cover the metal frame along with the plumbing and electrical work with drywall. JMR had separated the building into three areas, with the intention of going room-by-room to have this work done efficiently. According to Hupaylo: “We had a good shot at doing the thing. And the biggest problem we had was . . . the plumbing and electrical that held us up in the [P]roject [by] not having materials, not having skilled people, [and] not having any people sometimes. That was the single biggest issue.” Hupaylo also testified that EAR’s plumbing crew “left the site a lot” and were often working at other locations on the base. EAR’s foreman would sometimes show up on the site without materials; he would promise to return to the site the next day, but would not. As a result of ongoing problems with EAR’s performance under both subcontracts, JMR had to install the drywall in a piecemeal fashion. Daniel Spade worked as JMR’s project manager from January 2007 until the Project’s completion. Spade testified there were significant punch list items at the end of the Project resulting from EAR’s deficient performance under the subcontracts. In addition, aside from the air compressor issue, there were problems with (1) an undersized water heater, (2) the mixing valves controlling hot and cold water, and (3) the improper operation of the fire alarm and life safety system.\n\nJMR also presented testimony from John Elmer, a construction management expert with expertise in scheduling. JMR retained Elmer to review the schedule for the Project, to identify whether there were any delays in the Project’s completion, and to determine the causes of any delays.\n\nElmer opined there was a critical path delay that extended the Project’s completion by 180 days. That delay was reflected in change orders from the Corps extending the completion date of the Project. Elmer testified that the parties responsible for the delays were the Corps and three subcontractors: EAR, Countywide, and Glass. He opined that EAR and Countywide were concurrently responsible for 142 of the 180 days of delay, and that of those 142 days, Glass was concurrently responsible for 28 days of delay. Elmer also testified that from December 19, 2007, to May 14, 2008 (the beneficial occupancy date), the commissioning of the life safety systems (operable heating ventilating and air conditioning, smoke detector, and fire alarm systems) drove the critical path. “Commissioning” involved these systems being “signed off as being complete and operable” and was a precondition for the owner accepting beneficial occupancy. Elmer testified that EAR, Countywide and, to a much lesser extent, Glass were the subcontractors performing work relevant to the completion of these systems. He also said the concurrent delays by Countywide did not delay EAR’s work on the life safety systems, and he opined that JMR did not contribute to any delay in the completion of the Project between December 2007 and May 14, 2008.\n\nRavindra Pendurthi, EAR’s owner, testified that EAR started plumbing work on the Project in late September or early October 2006, even though the subcontract was not formally executed until December 2006. He said EAR commenced electrical work on the Project in or about September 2006, before that subcontract was executed. He testified that EAR started work early at JMR’s urging, because JMR was “behind schedule” on the Project. According to Pendurthi, JMR was slow in providing EAR with a baseline schedule for the Project. He said JMR did not provide it until March 2007. He acknowledged that at the time, EAR responded in writing that the schedule was fine, but that its compliance with it was dependent on timely work by other tradesmen whose work needed to be completed before EAR’s. Pendurthi described several tasks that were added to its scope of work under both subcontracts which extended EAR’s time to complete its performance. He also testified that JMR approved change orders for this additional work, but JMR did not formally grant EAR extensions of time. Instead, in each instance, the JMR representative (either Spade or Hupaylo) advised EAR that JMR was behind schedule but would “take care of [EAR’s extension request] at the end of the [P]roject.” Pendurthi testified there was a period of time in which EAR inquired of JMR about the equipment JMR was going to provide that impacted EAR’s rough-in plumbing work. He said JMR’s delay in providing this information interfered with EAR’s ability to complete its work. Pendurthi denied that EAR lacked sufficient materials or failed to supply sufficient personnel to work on the Project. He also denied that EAR’s work crews on the Project were pulled off the job to do other work. He claimed EAR had dedicated crews for the Project. He acknowledged that EAR’s foreman sometimes did not show up to work because he had a persistent gout problem. But, he said, EAR eventually addressed the issue by replacing the foreman. Pendurthi testified that much of the drywall work—particularly the work in the x-ray room and dentures room—was done out of sequence and was hampered because JMR did not have proper submittals. He said this caused delays in EAR’s performance. Pendurthi also testified that the drywall cost was elevated and its time of completion was lengthened because the Corps required a “level five finish,” which was a quality much more difficult to achieve than a normal sheetrock job. In addition, JMR used an out-of-town workforce that resulted in cost overruns. Pendurthi admitted on cross-examination that EAR did not advise JMR in writing that JMR was causing delays in EAR’s performance. Pendurthi also testified there was a period of time in or about November 2006 when JMR did not have on-site quality control personnel as required by the Corps. JMR asked for help from EAR, and EAR supplied quality control personnel to work on-site for approximately one month. Pendurthi testified that JMR’s failure to have on-site quality control personnel for a period of time delayed EAR’s performance. According to Pendurthi, all of EAR’s work under both subcontracts was accepted. Pendurthi testified that by November 30, 2007—according to applications for payment EAR had submitted—EAR’s plumbing and electrical work were 98.66 percent and 96.36 percent completed, respectively. Pendurthi testified that after December 1, 2007, EAR’s remaining work was “[m]ostly finish work” during which time EAR was waiting for other trades to complete their work.\n\nJMR presented evidence of damages that involved four categories: (1) field overhead delay damages; (2) home office overhead (Eichleay delay damages); (3) delay damages associated with the framing and drywall phase of the Project, utilizing the modified total cost method; and (4) costs associated with EAR’s failure to supply an approved air compressor.\n\nDaniel Spade, JMR’s project manager, testified that the Corps had rejected JMR’s recovery of any extended overhead damages resulting from delays in the Project’s completion. The Corps rejected these damages because there were concurrent delays caused by parties other than the Corps. At trial, JMR’s construction management expert, John Elmer, explained that when the owner of a public works project causes delay, and a subcontractor or subcontractors concurrently cause delay, the owner may grant the general contractor an extension of time to complete the project, but it will not grant the general contractor compensable time (i.e., delay damages payable by the owner). Elmer testified that under such circumstances, the general contractor will typically seek delay damages from the subcontractor, under the theory that the general contractor “should have recovered compensable time, but . . . was precluded from [doing so] because of [the subcontractor’s] delay.”\n\nPerez opined that, under the two subcontracts combined, EAR was responsible for at least 75 percent of the delay damages sustained by JMR during the 142-day concurrent delay period identified by Elmer. Perez arrived at this percentage allocation after considering (a) Elmer’s allocation of EAR’s responsibility for concurrent delays (63 percent); (b) a determination of EAR’s percentage of the total contract value of the mechanical, electrical, and plumbing trades (67 percent); and (c) the percentage of punch list items for the 142-day concurrent delay period (83 percent). Perez also rendered the opinion that JMR sustained field overhead damages associated with EAR’s concurrent delay. Field overhead costs are the costs a contractor incurs in maintaining its field operations, including cost items such as storage trailers, office trailers, and a job superintendent’s salary. Perez concluded that JMR’s total field overhead damages for which EAR was responsible was $161,851.33.\n\nPerez testified that he calculated damages for JMR’s home office costs (otherwise known as unabsorbed overhead costs) using the Eichleay formula. Perez explained that this formula “is a method of allocating those home office overhead costs to a project that [has] been extended or delayed.”\n\nRivard testified that he prepared the bid for the framing and drywall phase of the Project. In doing so, he utilized the plans in an electronic format and used computer software to perform a detailed cost takeoff. The takeoff yielded a bill of materials, and the software automatically assigned a labor factor indicating the number of labor hours associated with the particular area of work. The labor factor was based upon historical data, i.e., JMR’s experience in constructing buildings similar to the building in the Project. The total bid for the framing and drywall phase was $220,000, an amount JMR assumed would be sufficient to perform the work in an orderly fashion and with a reasonable crew size. Rivard testified he was unaware of any mistakes in the bid, and opined that $220,000 was a reasonable cost for that phase of the Project.\n\nCraig Connerty, a certified public accountant with 27 years of experience, testified as an expert on JMR’s behalf. JMR had been a client of Connerty’s accounting firm for over 15 years. Connerty reviewed the costs posted in JMR’s books allocated to the framing and drywall phase of the Project. He testified that the total costs allocated to this phase was $461,535, and he reviewed the subcategories of those costs. Connerty “did a lot of testing with regard to the accounts for reasonableness” by selecting a number of different invoices for review before arriving at the $461,535 figure. Connerty also noted that this figure should be reduced by approximately $48,200 to account for costs that, based upon his conversation with Rivard, were erroneously posted to the framing and drywall phase.\n\nPerez also reviewed the “logged” costs that related to the framing and drywall phase of the Project. This amount totaled $461,534. Perez subtracted the costs that had been incorrectly allocated to the framing and drywall phase. These were the same figures identified in the testimony of JMR’s accounting expert, Craig Connerty. Perez also subtracted a per diem figure associated with the erroneously posted costs. Perez then calculated the total amount of disruption damages allocable to EAR relating to the framing and drywall phase, which he determined to be $185,729.\n\nIt asserted that more than 10 days before trial, in accordance with section 998, it had served identical offers to EAR and SureTec in which it offered to have judgment taken against the respective defendants in the amount of $375,000 with each side to bear its own costs."
+  },
+  "outcome": {
+   "amount": 315631,
+   "amountIsTheRequestedAmount": false,
+   "date": "2015-12-30",
+   "description": "After a five-day bench trial (January 2012) the court found for JMR and, after JMR withdrew one claim and adjusted another in its proposed statement of decision, entered judgment on August 14, 2012 for a net $315,631: $29,249 air compressor, $132,168 field overhead for delay, $15,440 field overhead for closeout, $14,244 markup, $60,693 Eichleay home office overhead and $185,730 framing/drywall disruption, less $121,893 retention withheld; EAR took nothing on its cross-complaint. A later order awarded JMR $90,644.07 in section 998 expert fees and found it entitled to attorney fees (amount undetermined) for defending the cross-complaint. On December 30, 2015 the Sixth District affirmed the judgment (Eichleay and modified total cost methods upheld, surety liable) and reversed the expert-fee award as premature.",
+   "attorneysFeesAtTrial": null,
+   "attorneysFeesOnAppeal": "entitlement to fees for defending the cross-complaint found but amount never fixed; $90,644.07 expert-fee award reversed",
+   "appellateChange": "affirmed",
+   "finalAmount": 315631,
+   "finalNote": "Judgment affirmed; expert-fee order reversed and remanded."
+  },
+  "expectedRole": "Owner / Developer",
+  "offers": [
+   {
+    "by": "plaintiff",
+    "amount": 375000,
+    "date": "more than 10 days before trial (identical CCP 998 offers to subcontractor and its surety)",
+    "quote": "it had served identical offers to EAR and SureTec in which it offered to have judgment taken against the respective defendants in the amount of $375,000 with each side to bear its own costs."
+   }
+  ],
+  "category": "construction-defect",
+  "holdout": true,
+  "addedToBacktest": "2026-09-26"
+ },
+ {
+  "id": "khalia-v-rosebud-2019",
+  "source": {
+   "caseName": "Khalia, Inc. v. Daniel Rosebud (and vice versa)",
+   "court": "Court of Appeals of Georgia, Fifth Division",
+   "docket": "A19A1891, A19A1969",
+   "decided": "2019-12-06",
+   "url": "https://storage.courtlistener.com/pdf/2019/12/24/khalia_inc._v._daniel_rosebud.pdf",
+   "excerptNote": "Verbatim from the statement of facts (the shooting at 490 Fairburn Road and the evidence of prior crime, security practices and cameras), with the opening clause 'Thus viewed in favor of the verdict, the record shows that' cut from the first sentence. Removed: the opening paragraph (states the demand together with the verdict amount), the standard-of-review paragraph, the directed-verdict rulings, verdict, apportionment and judgment, the post-trial motions, and all analysis, including the fee section where the parties' highest offers ($50,000 and $150,000) are recited; those offers are not in the input because every sentence stating them also states or implies the outcome. The opinion gives no medical or economic damages figures."
+  },
+  "input": {
+   "userSide": "sideB",
+   "expectToTrial": "True",
+   "description": "We represent Daniel Rosebud, who was shot while sitting in a parked car at the gas pumps of a gas station and convenience store at 490 Fairburn Road in Atlanta, on his negligent-security claim against Khalia, Inc., the store's tenant-operator. The case is set for a jury trial.",
+   "documentText": "On November 1, 2015, Rosebud and his friend Dontavious Miles were looking for a barber to cut Miles’s hair for a new job when they stopped at a gas station and convenience store at 490 Fairburn Road in Atlanta. The property, which was leased to Khalia, included a chicken wing shop under different corporate ownership and a common parking area. Miles parked the car he was driving at the end of the gas pump island and went inside the convenience store while Rosebud napped in the front passenger seat. A man in a white hat began a conversation with Miles, after which shots were exchanged between the two men, some of which hit Rosebud. Miles drove away but was forced to stop by an oncoming train at a nearby railroad crossing. After Miles abandoned the car, Rosebud lay down to evade detection and then ran down the tracks, where he called 911.\n\nEvidence before the jury showed that 490 Fairburn Road was a well-known scene of illegal drug transactions, loitering requiring police intervention, and at least two incidents of prior gunplay, including a shooting inside the store three days before the incident at issue. The store manager knew of the gunplay, and a beat officer testified that the location’s level of criminal activity required him to stop there four or five times a day. A detective also testified that although businesses are authorized to obtain a “criminal trespass warning” empowering the police to arrest trespassers, Khalia had never requested such a warning.\n\nKhalia’s principal testified that the man in the white hat had been loitering outside and around the gas station for more than 20 minutes before the shooting. Although the store manager testified at trial that Khalia regularly held safety meetings and reported criminal activity, he was impeached with his own deposition testimony that store employees were instructed “never” to “make any sort of reports or document anything on paper[.]” The evidence also showed that there were 14 cameras located inside the store, but only two, which were not monitored, outside."
+  },
+  "outcome": {
+   "amount": 1134122.52,
+   "amountIsTheRequestedAmount": false,
+   "date": "2019-12-06",
+   "description": "The jury returned a verdict of $1,718,367.46 in total damages, finding Khalia 66% at fault and the driver and the shooter 17% each; the trial court entered judgment against Khalia of approximately $1.134 million (66% of the verdict is $1,134,122.52), denied JNOV and new trial, and awarded Rosebud $140,951.17 in fees and expenses under OCGA 9-11-68 after Khalia rejected his $150,000 demand (Khalia's highest offer was $50,000). The Court of Appeals affirmed on December 6, 2019.",
+   "attorneysFeesAtTrial": 140951.17,
+   "attorneysFeesOnAppeal": "affirmed",
+   "appellateChange": "affirmed",
+   "finalAmount": 1134122.52,
+   "finalNote": "Affirmed. The opinion states the judgment only as approximately $1.134 million; the figure here is 66% of the stated verdict."
+  },
+  "expectedRole": "Injured Party / Claimant",
+  "offers": [
+   {
+    "by": "plaintiff",
+    "amount": 150000,
+    "date": "pretrial (OCGA 9-11-68 demand)",
+    "quote": "After defendant Khalia, Inc. rejected Rosebud’s pretrial demand for $150,000, a jury found Khalia responsible for $1.134 million in damages."
+   },
+   {
+    "by": "defendant",
+    "amount": 50000,
+    "date": "pretrial (highest offer)",
+    "quote": "value added over Khalia’s highest offer (which was $50,000) and over Rosebud’s highest offer (which was $150,000)."
+   }
+  ],
+  "category": "premises-liability",
+  "holdout": false,
+  "addedToBacktest": "2026-09-26"
+ },
+ {
+  "id": "cajun-contractors-v-laguerre-2021",
+  "source": {
+   "caseName": "Cajun Contractors, Inc. v. Max Laguerre et al. (companion: Cajun Contractors, Inc. v. Peachtree Property Sub, LLC, d/b/a Crowne Plaza Hotel Atlanta-Midtown)",
+   "court": "Court of Appeals of Georgia, First Division",
+   "docket": "A21A1120, A21A0311",
+   "decided": "2021-06-30",
+   "url": "https://storage.courtlistener.com/pdf/2021/06/30/cajun_contractors_inc._v._peachtree_property_sub_llc_dba_crowne_plaza.pdf",
+   "excerptNote": "Verbatim from the Case No. A21A1120 statement of facts (the trade contract, the rooftop pool-deck demolition, safety measures, the falling pipe and injuries, footnote 3 on conflicting testimony, the complaint, and the pre-trial hotel settlement), with the clause 'So viewed, the evidence shows that' cut from the first sentence; from Division 2, the offer history (the $75,000 April 2018 offer, Cajun's $25,000 and $50,000 counteroffers, and the first sentence of footnote 11 on the $250,000 global offer); and from Case No. A21A0311, the hotel defendants' indemnity tender and the $1,000,000 settlement. Removed: the opening paragraphs (state the verdict, fee award and holdings), footnotes 1, 2, 4, 5 and markers, the verdict, punitive phase and judgment, the post-trial motions and fee award, the rest of footnote 11, and all analysis."
+  },
+  "input": {
+   "userSide": "sideB",
+   "expectToTrial": "True",
+   "description": "We represent Max Laguerre, a taxi driver struck at the hotel taxi stand by a metal pipe that fell from a rooftop pool-deck renovation at the Crowne Plaza Atlanta-Midtown Hotel, on his negligence claims (direct and vicarious, with punitive damages) against the renovation's general contractor, Cajun Contractors, Inc. The hotel owner and manager have settled; the case against the contractor is set for a jury trial.",
+   "documentText": "In March 2015, Cajun entered into a contract to perform renovation work at the Crowne Plaza Atlanta – Midtown Hotel, which was owned and managed by the Hotel Defendants (the “Trade Contract”). Under the Trade Contract, Cajun agreed to supervise the work done on the renovation project and to be liable for any loss or damage to the property or injuries to persons caused by the action or neglect of its employees, subcontractors, or consultants. Cajun also agreed to “keep the premises and the surrounding area free from accumulation of waste materials or rubbish caused by operations under the [Trade] Contract,” and to “take all reasonable actions needed to provide clean, unencumbered, well defined, and safe access to the Owner’s facilities for vehicles, guests, visitors, and employees.”\n\nThe renovation project was later expanded through a change-work order to include renovations to the outside pool deck located on the roof of the hotel. As part of the renovation, Cajun was to demolish cabanas and a wall along the edge of the hotel roof. Cajun hired RYR Construction, LLC to perform some of the renovation work at the hotel, including the painting of a ballroom and the pool deck renovation. With respect to the pool deck renovation, workers for RYR considered Troy Bossier, the president of Cajun, to be their boss on the job, and he was at the work site everyday and controlled the demolition work done in the pool area. No decisions were made about the work done on the roof without first talking to Bossier, who would come to the pool deck and direct RYR workers “as to what part of the project they should be doing.” Cajun provided tools and equipment to RYR, told RYR what hours it could work on the pool deck, devised the plan for demolishing the rooftop wall and the sequence in which the work should be performed, and controlled the work site and work flow.\n\nBefore the work on the pool renovation commenced, Cajun did not develop a public hazard control plan or a site-specific safety plan, have any safety meetings with RYR, or inform RYR of any safety rules. Cajun simply told RYR to ensure that nothing fell from the roof, even though RYR had no prior experience performing exterior demolition work. No barriers, catch platforms, enclosures, or perimeter debris netting were installed to protect the public from hazards from the rooftop construction site. No signs were placed outside the hotel to warn that there was construction overhead, and no portion of the sidewalk below was blocked off with barricades. Nor was any effort made to relocate the hotel taxi stand, which was in the front of the hotel below the elevated construction site.\n\nOn July 20, 2015, RYR was demolishing part of the wall along the side of the hotel roof, which caused the cabanas to shake. As a result of the shaking caused by the demolition work, an unsecured eight-foot metal pipe fell from the roof of one of the cabanas down the side of the hotel and struck Laguerre, a taxi cab driver, who was standing outside of his cab at the hotel taxi stand. As a result of the impact, Laguerre suffered a broken nose and injuries to his arm, face, head, and wrist, and he was diagnosed with a “mild traumatic brain injury.” Prior to the incident, RYR had not inspected the pool cabana roofs, even though one of RYR’s partners who worked on the project acknowledged that he knew that there was a danger of objects or debris falling from the hotel roof as a result of the demolition work, and even though Cajun had provided ladders to RYR so that workers could see and reach the top of the cabanas. Nor did Cajun ever direct RYR to conduct such an inspection as part of the demolition plan that Cajun developed, and Cajun disavowed any responsibility to itself conduct a safety inspection.\n\nThere was testimony at trial that the pipe was a conduit for containing electrical wiring, and that there were electrical subcontractors hired by Cajun working on the pool renovation. There was other, conflicting testimony that the pipe could have been placed on the cabana roof by a hotel employee.\n\nIn April 2017, Laguerre filed suit against the Hotel Defendants and Cajun. Laguerre’s complaint alleged, among other things, that Cajun breached its duty of reasonable care by negligently failing to implement safety precautions for the pool renovation project and by negligently training, supervising, and retaining those who worked on the project. The complaint further alleged that Cajun was vicariously liable under respondeat superior and agency principles for the negligence of RYR in failing to secure the construction site from the risk of falling objects. Laguerre sought compensatory damages and later amended his complaint to seek punitive damages.\n\nLaguerre filed his lawsuit on April 20, 2017. After written discovery had been conducted and Laguerre (but not the defendants) had been deposed, Laguerre served Cajun with an offer to settle the case for $75,000 on April 24, 2018. The offer stated that it was intended “to fully satisfy all claims presented in this matter . . . , including all claims for injuries arising out of the incident that occurred on or about July 20, 2015, which is the subject of [this] civil action,” and that the “offer includes any claims for punitive damages.” Cajun rejected the offer and served Laguerre with two offers of settlement, one for $25,000 and the other for $50,000, both of which were rejected by Laguerre.\n\nEarlier in the litigation, on January 24, 2018, Laguerre served the Hotel Defendants and Cajun with a global offer to settle the case for $250,000, which was rejected.\n\nAfter the trial court denied the Hotel Defendants’ motion for partial summary judgment, they tendered another request for defense and indemnity pursuant to the Indemnity Provision. As part of their tender, the Hotel Defendants asked Cajun to respond to Laguerre and take steps to effectuate a “global settlement” on their behalf. Cajun did not accept the tender made by the Hotel Defendants.\n\nAs pointed out supra, shortly before trial, the Hotel Defendants reached a settlement with Laguerre under which they agreed to pay him $1,000,000."
+  },
+  "outcome": {
+   "amount": 5250000,
+   "amountIsTheRequestedAmount": false,
+   "date": "2021-06-30",
+   "description": "The jury found Cajun vicariously liable for its subcontractor, apportioned 100% of fault to Cajun, and awarded $5,000,000 compensatory and $500,336 punitive damages; the trial court entered judgment of $5,250,000 (punitive capped at $250,000) and awarded Laguerre $1,050,000 in attorney fees plus $45,196.47 in expenses under OCGA 9-11-68 based on the rejected $75,000 offer. The Court of Appeals affirmed the judgment and fee award on June 30, 2021 (A21A1120) and reversed the hotel defendants' indemnity judgment against Cajun (A21A0311). Laguerre separately received $1,000,000 from the hotel defendants' pre-trial settlement, which is not part of this amount.",
+   "attorneysFeesAtTrial": 1050000,
+   "attorneysFeesOnAppeal": "affirmed",
+   "appellateChange": "affirmed",
+   "finalAmount": 5250000,
+   "finalNote": "Affirmed as to Laguerre's judgment and fees."
+  },
+  "expectedRole": "Injured Party / Claimant",
+  "offers": [
+   {
+    "by": "plaintiff",
+    "amount": 250000,
+    "date": "2018-01-24 (global offer to hotel defendants and contractor)",
+    "quote": "Laguerre served the Hotel Defendants and Cajun with a global offer to settle the case for $250,000, which was rejected."
+   },
+   {
+    "by": "plaintiff",
+    "amount": 75000,
+    "date": "2018-04-24 (OCGA 9-11-68 offer to contractor)",
+    "quote": "Laguerre served Cajun with an offer to settle the case for $75,000 on April 24, 2018."
+   },
+   {
+    "by": "defendant",
+    "amount": 50000,
+    "date": "after April 2018 (contractor's counteroffers of $25,000 and $50,000)",
+    "quote": "one for $25,000 and the other for $50,000, both of which were rejected by Laguerre."
+   }
+  ],
+  "category": "premises-liability",
+  "holdout": false,
+  "addedToBacktest": "2026-09-26"
+ },
+ {
+  "id": "eichenblatt-v-piedmont-maple-2021",
+  "source": {
+   "caseName": "David Eichenblatt v. Piedmont/Maple, LLC, Kaufman Development Partners, LP, and Craig S. Kaufman",
+   "court": "Court of Appeals of Georgia, Fourth Division",
+   "docket": "A20A2052",
+   "decided": "2021-01-29",
+   "url": "https://storage.courtlistener.com/pdf/2021/02/16/david_eichenblatt_v._piedmontmaple_llc.pdf",
+   "excerptNote": "Verbatim from the factual summary (formation of Piedmont/Maple, the 2011 verdict in the earlier suit, the member loan, the separate parcel sales, the tendered dissolution distribution, the declaratory action and the counterclaims with the unpaid-rent figure), the Second Appeal summary-judgment history, the offer-of-settlement sentences, and paragraph 1 of the appellees' OCGA 9-11-68 offer. Removed: the opening paragraph (fee award and holding), the sentence pointing to prior opinions, the confessed judgment, directed verdict, jury verdict and final judgment, the Third Appeal, the fee motion and award, the rest of the offer's text, and all analysis. The earlier 2011 jury award ($625,000) is a separate suit's result and is kept as background."
+  },
+  "input": {
+   "userSide": "sideA",
+   "expectToTrial": "True",
+   "description": "We represent David Eichenblatt, a former member who keeps a 40 percent distribution right in Piedmont/Maple, LLC, a real estate investment company that owned and operated commercial property in Atlanta, on his counterclaims for breach of contract and breach of fiduciary duty against the managing member Kaufman Development Partners and Craig Kaufman, in the company's declaratory judgment action over his dissolution payment. The case is set for a jury trial.",
+   "documentText": "In 1995, Eichenblatt and KDP, as its sole members, formed Piedmont/Maple, a real estate investment company that owned and operated a piece of commercial property in Atlanta. Pursuant to the operating agreement, Eichenblatt would receive up to 40 percent of Piedmont/Maple’s quarterly cash flow distribution. In accordance with an amended operating agreement executed in 2000, Eichenblatt was removed as a member of Piedmont/Maple, but retained the right to receive his share of distributions. In 2005, Piedmont/Maple refinanced the debt on the commercial property, and then began experiencing financial difficulties. Eichenblatt, suspecting mismanagement by KDP, sued Kaufman, KDP, and other related entities claiming, inter alia, that the defendants had mismanaged Piedmont/Maple, breached the amended operating agreement, and ignored their fiduciary responsibilities. Following a jury trial in 2011, Eichenblatt was awarded $625,000 against KDP for breach of the operating agreement. KDP appealed, and this Court affirmed in the First Appeal.\n\nIn September 2012, KDP loaned Piedmont/Maple $3,550,000, allowing Piedmont/Maple to pay off debt on the commercial property which had gone into default. At around the same time, the commercial property, which had been divided into two parcels, was sold in two separate transactions. Following the sale, appellees sought to wind down and terminate Piedmont/Maple. As part of the dissolution, Piedmont/Maple distributed to Eichenblatt $969,609.23, which it had determined to be 40 percent of its total remaining assets, less certain fees and expenses. When Eichenblatt disputed the accuracy of Piedmont/Maple’s calculation and refused to cash the final distribution check, appellees filed the instant action for declaratory judgment to establish the proper dissolution payment. Eichenblatt counterclaimed for breach of contract and breach of fiduciary duty, asserting that KDP and Kaufman had manipulated the member loan to KDP’s advantage and had reduced the value of the commercial property by selling the two parcels separately instead of as an assemblage. Eichenblatt also alleged that KDP and Kaufman leased space in the commercial property to an affiliate, but did not require the affiliate to make rental payments. Eichenblatt sought 40 percent of the unpaid rent, totaling approximately $422,451.\n\nThe Second Appeal arose from appellees’ underlying declaratory judgment action. Appellees moved for summary judgment on Eichenblatt’s counterclaims, and the trial court granted the motion in part. Eichenblatt appealed. Shortly before Eichenblatt filed the Second Appeal with this Court, appellees served an offer of settlement pursuant to OCGA § 9-11-68 on him. Eichenblatt made a counteroffer, which appellees rejected; the parties never reached an agreement.\n\nIn the meantime, this Court reversed the partial grant of summary judgment to appellees and remanded the case back to the trial court.\n\nThe KDP Parties shall pay to Mr. Eichenblatt the aggregate sum of One Hundred Twenty-Five Thousand and No/100 Dollars ($125,000.00) (the “Settlement Payment”), in exchange for Mr. Eichenblatt dismissing, with prejudice, all counterclaims asserted by Mr. Eichenblatt against the KDP Parties in the above-referenced lawsuit. No amount of this offer (Zero Dollars [$0]) is proposed to settle any claim and/or counterclaim for punitive damages. To the extent that Mr. Eichenblatt seeks to recover attorney[] fees and other expenses, the Settlement Payment includes any and all such attorney[] fees and other expenses. The Settlement Payment shall settle and terminate any and all counterclaims asserted by Mr. Eichenblatt in the above-referenced lawsuit."
+  },
+  "outcome": {
+   "amount": 79065.6,
+   "amountIsTheRequestedAmount": false,
+   "date": "2021-01-29",
+   "description": "At the start of trial KDP confessed judgment of about $79,000 on the unpaid-rent claim; the court directed a verdict against Eichenblatt on the assemblage claims and the jury rejected his remaining fiduciary-duty counterclaim and found the company correctly valued his distribution. Final judgment (May 18, 2018) declared his dissolution share to be the $969,609.23 already tendered and awarded him $79,065.60 for the rent underpayment. That judgment was affirmed in the Third Appeal (2019); the appellees' $837,444.95 fee award under the offer statute was reversed on January 29, 2021.",
+   "attorneysFeesAtTrial": null,
+   "attorneysFeesOnAppeal": "the opposing parties' $837,444.95 offer-of-settlement fee award against Eichenblatt was reversed",
+   "appellateChange": "affirmed",
+   "finalAmount": 79065.6,
+   "finalNote": "Merits affirmed in the 2019 Third Appeal; the fee award against the counterclaimant reversed in 2021."
+  },
+  "expectedRole": "Shareholder / Plaintiff Class",
+  "offers": [
+   {
+    "by": "defendant",
+    "amount": 125000,
+    "date": "shortly before the Second Appeal was filed (OCGA 9-11-68 offer by counterclaim-defendants)",
+    "quote": "The KDP Parties shall pay to Mr. Eichenblatt the aggregate sum of One Hundred Twenty-Five Thousand and No/100 Dollars ($125,000.00)"
+   }
+  ],
+  "category": "reit-securities",
+  "holdout": false,
+  "addedToBacktest": "2026-09-26"
+ },
+ {
+  "id": "walmart-v-howell-2024",
+  "source": {
+   "caseName": "Wal-Mart Stores East, LP v. Maria Howell and Oscar Howell",
+   "court": "Court of Appeals of Georgia, Third Division",
+   "docket": "A23A1198",
+   "decided": "2024-03-12",
+   "url": "https://storage.courtlistener.com/pdf/2024/03/12/wal-mart_stores_east_lp_v._maria_howell.pdf",
+   "excerptNote": "Verbatim from the statement of facts: the fall, the store video and witness, the pre-suit demand and counteroffer, the complaint's medical and wage figures, the removal and remand with its $75,000 limit, the functional capacity evaluation, the June 2020 offer of settlement and the January 2021 demand, the later evidence that an employee caused the spill, and the pre-trial order lifting the $75,000 limit. Removed: the opening paragraph (states the verdict and holding), the standard-of-review paragraph, footnotes 1-6 and the footnote marker '6' after 'OCGA § 9-11-68', the verdict, the post-trial motions, and all analysis."
+  },
+  "input": {
+   "userSide": "sideB",
+   "expectToTrial": "True",
+   "description": "We represent Maria Howell and her husband Oscar Howell on their negligence and loss-of-consortium claims against Walmart Stores East, LP after she slipped on WD-40 in an aisle of the Walmart store in Americus, Georgia. The case is set for a jury trial in state court.",
+   "documentText": "Maria Howell slipped on WD-40 lubricant and fell on the floor at the Walmart store in Americus, Georgia, on February 27, 2018. Howell completed an incident report on the day of her fall, and upon contacting the store days later, was told that three young female customers had sprayed a substance on the floor where Howell had fallen. Thereafter, Howell contacted the Americus Police Department to inform them of the incident and to provide them with the name of a witness, Justin Redding. The police investigated and obtained a video from the store that captured the incident. The video allegedly showed a young woman removing a spray can off of a shelf and spraying something on the floor at approximately 4:40 p.m., while two other women shielded her from view. Additionally, it showed that approximately 22 minutes before Howell’s fall, a Walmart employee walked with the women to the area where the substance was on the floor, appeared to look at the area, then left it unattended, walking in the opposite direction of the substance. The police report stated that Redding reported that he heard Walmart employees talking about the spill on their radios, that he slipped on the same substance but did not fall, and that he observed a can of WD-40 on the floor at the end of the aisle. The video confirmed Redding’s presence on the aisle where Howell fell approximately 12 minutes before her fall.\n\nBefore the lawsuit was filed, plaintiffs demanded $400,000 to settle the case, and Walmart countered with an offer of $25,000, which plaintiffs rejected. On January 24, 2020, plaintiffs filed their complaint, alleging that Howell sustained severe and permanent injuries to her right shoulder and left hip and incurred medical expenses in the amount of $46,008.41 and lost wages in the amount of $10,000.00. Plaintiffs also sought damages for future medical expenses and loss of consortium. On February 17, 2020, Walmart removed the case to federal court, asserting a complete diversity of citizenship between the parties and relying on the plaintiffs’ $400,000 demand letter to satisfy the damages requirement for federal jurisdiction. The federal court sua sponte issued a show cause order requiring Walmart to establish why the case should not be remanded for failure to establish the required amount of damages for diversity jurisdiction. Walmart responded, relying on the demand letter and reserving its right to remove the case at a later date should the court not find the demand letter to be a reliable indicator of damages. Before the federal court could issue its ruling, plaintiffs filed a motion to remand, arguing that Walmart had failed to prove by a preponderance of the evidence that the amount in controversy exceeded $75,000, as was required. On April 27, 2020, the federal court issued its order remanding the case to state court, and limiting plaintiffs to $75,000 in damages unless the trial judge found that the circumstances had changed since the filing of plaintiffs’ motion to remand.\n\nDiscovery commenced, and on May 18, 2020, Howell submitted to a Functional Capability Evaluation (“FCE”). The FCE showed that Howell’s fall caused her to undergo a right shoulder rotator cuff repair revision surgery in August 2018, and to obtain physical therapy and injections for a left hip injury. The FCE concluded that she had lingering disorders of both areas of her body, with range of motion restrictions and weakness in her right shoulder, significant difficulty performing repetitive motions, overhead reaching, and material handling with her upper extremity, continued left hip weakness that impaired her walking ability and did not allow her to lift objects from ground level, and that she qualified for a Department of Labor sedentary physical demand work category. In June 2020, Walmart extended an offer of settlement to plaintiffs pursuant to OCGA § 9-11-68 in the amount of $101,000, to which plaintiffs did not respond. Plaintiffs demanded $385,000 to settle the case in January 2021.\n\nLater in 2021, after the court extended discovery, plaintiffs filed a motion to compel Walmart to identify the employees working on the shift before and after Howell’s fall, which the trial court granted. Thereafter, additional evidence came to light that challenged Walmart’s initial theory that customers spilled the substance on the floor. Redding, the customer who was interviewed by the police officers, provided an affidavit in which he averred that the spill was caused by a leaking box of WD-40 dropped by a Walmart employee who was restocking shelves. Redding further averred that he brought the spill to the attention of the employee carrying the box and to a second Walmart employee prior to Howell’s fall.\n\nIn April 2022, after the case had been placed on a trial calendar, Walmart filed a motion to limit plaintiffs’ damages to $75,000 based on the federal remand order. Plaintiffs opposed the motion, arguing, among other things, that a change in circumstances authorized them to seek damages in excess of $75,000. The trial court denied Walmart’s motion, finding that there had been a sufficient change in circumstances to allow plaintiffs to pursue damages in excess of $75,000. The court went on to explain that its decision was based on the totality of the circumstances and in consideration of (1) the FCE, (2) the post suit settlement offers exchanged between Plaintiff and Defendant, each of which were in excess of $75,000, and lastly, (3) the factual dispute that was revealed during discovery as to whether or not an independent third party was responsible for the discharge of WD-40 on the floor or if a Wal-Mart employee was responsible for its presence there. The court wrote that it was “persuaded that the twist in facts ascertained through discovery following remand could affect the jury’s determination as to the apportionment of fault/damages and thus the overall recovery amount at trial.”"
+  },
+  "outcome": {
+   "amount": 300000,
+   "amountIsTheRequestedAmount": false,
+   "date": "2024-03-12",
+   "description": "The jury awarded the plaintiffs $300,000; the trial court denied Walmart's motion for JNOV (to cut the award to $75,000 under the federal remand order) or new trial. The Court of Appeals affirmed on March 12, 2024, holding the trial court did not abuse its discretion in declining to apply judicial estoppel. The opinion notes no judgment had yet been entered on the verdict. No attorney's fees.",
+   "attorneysFeesAtTrial": null,
+   "appellateChange": "affirmed",
+   "finalAmount": 300000,
+   "finalNote": "Affirmed."
+  },
+  "expectedRole": "Injured Party / Claimant",
+  "offers": [
+   {
+    "by": "plaintiff",
+    "amount": 400000,
+    "date": "before suit was filed (demand)",
+    "quote": "Before the lawsuit was filed, plaintiffs demanded $400,000 to settle the case, and Walmart countered with an offer of $25,000, which plaintiffs rejected."
+   },
+   {
+    "by": "defendant",
+    "amount": 25000,
+    "date": "before suit was filed (counteroffer)",
+    "quote": "Before the lawsuit was filed, plaintiffs demanded $400,000 to settle the case, and Walmart countered with an offer of $25,000, which plaintiffs rejected."
+   },
+   {
+    "by": "defendant",
+    "amount": 101000,
+    "date": "June 2020 (OCGA 9-11-68 offer of settlement)",
+    "quote": "In June 2020, Walmart extended an offer of settlement to plaintiffs pursuant to OCGA § 9-11-686 in the amount of $101,000, to which plaintiffs did not respond."
+   },
+   {
+    "by": "plaintiff",
+    "amount": 385000,
+    "date": "January 2021 (demand)",
+    "quote": "Plaintiffs demanded $385,000 to settle the case in January 2021."
+   }
+  ],
+  "category": "premises-liability",
+  "holdout": true,
+  "addedToBacktest": "2026-09-26"
+ },
+ {
+  "id": "exhibit-source-v-wells-avenue-2018",
+  "source": {
+   "caseName": "The Exhibit Source, Inc. v. Wells Avenue Business Center, LLC",
+   "court": "Massachusetts Appeals Court, on appeal from the Appellate Division of the Boston Municipal Court (Central Division)",
+   "docket": "No. 17-P-1611 (94 Mass. App. Ct. 497)",
+   "decided": "2018-11-20",
+   "url": "https://storage.courtlistener.com/pdf/2018/11/20/the_exhibit_source_inc._v._wells_avenue_business_center_llc.pdf",
+   "excerptNote": "Verbatim from the Background (the lease, the security-deposit clause, the walk-through, the partial return and retention, the complaint, the landlord's pre-answer offer and footnote 1), the lease's limitation-of-liability clause quoted in Discussion 3, and the sentence listing the landlord's three settlement offers. Removed: the opening paragraph (states the verdict, c. 93A finding and treble award), the sentence 'As the trial judge found, the defendant landlord failed to fulfill its obligations with respect to the security deposit', the footnote 1 marker, the jury verdict, remittitur, c. 93A findings and award, the Appellate Division's ruling and fees, footnote 4, and all analysis."
+  },
+  "input": {
+   "userSide": "sideB",
+   "expectToTrial": "True",
+   "description": "We represent the commercial tenant, The Exhibit Source, Inc., on its claims against its former landlord Wells Avenue Business Center, LLC for breach of contract, breach of the implied covenant, conversion, misrepresentation and G. L. c. 93A, section 11 over the landlord's retention of most of its security deposit. The case is set for trial in the Boston Municipal Court, with the c. 93A claim to be decided by the judge.",
+   "documentText": "Exhibit Source and Wells entered into a commercial lease (lease) pursuant to which Exhibit Source provided a security deposit of $15,982. The lease terminated August 31, 2013. The lease expressly required the defendant landlord to return the security deposit \"[w]ithin thirty (30) days\" of lease termination, except that the landlord could \"apply\" the security deposit to compensate for damages suffered as a result of a \"Tenant Default.\" \"Tenant Default,\" in turn, was a defined term; as discussed below, the only \"tenant default\" that could possibly apply to the facts here was in lease section 16.1(d) -- \"failure by Tenant to fulfill any other obligation under this lease, if such failure is not cured within twenty (20) days of notice from Landlord to Tenant . . .\" (emphasis supplied).\n\nThe plaintiff tenant vacated the premises as of August 31, 2013. Representatives of the landlord and the tenant walked through the premises on September 4, 2013. The landlord's representative did not raise any issue as to the condition of the premises at that time, or indeed for the next seven months. Starting in October of 2013 the plaintiff repeatedly requested the return of the security deposit. A representative of the landlord represented several times that the full amount would be forthcoming. That did not happen. Eventually, on April 1, 2014, the landlord returned $1,202.28 of the deposit, and retained $14,780. The landlord claimed the $14,780 was for damage to the property, allegedly caused when the tenant removed certain shelving and signage upon leaving in August of 2013. The alleged damage would have been visible during the September 4, 2013, walk-through. At no time prior to April 1, 2014, did the landlord provide notice to the tenant of any damage, and the landlord never provided an opportunity to cure as contemplated by the lease.\n\nThe plaintiff filed suit on May 6, 2014, and asserted claims for breach of contract, breach of the implied covenant of good faith, conversion, misrepresentation, and violations of G. L. c. 93A, § 11. The landlord did not make a settlement offer when it filed its answer on May 30, 2014, although it had offered $6,000 around the time that the tenant filed suit.\n\nAs discussed infra, the landlord did increase its settlement offers as the litigation proceeded.\n\n\"In no event will Landlord be liable for punitive damages, lost profits, business interruption, speculative consequential or other such damages.\"\n\nSpecifically, the defendant points to (1) an offer of $6,000, which it made around the time the complaint was filed on May 6, 2014; (2) an offer of $14,780, which it made on June 20, 2014, some twenty days after it filed its answer; and (3) an offer of $22,000, which it made on August 7, 2014."
+  },
+  "outcome": {
+   "amount": 44340,
+   "amountIsTheRequestedAmount": false,
+   "date": "2018-11-20",
+   "description": "The jury found for the tenant on the common-law claims and awarded $25,366.70, which the judge remitted to $14,780; the judge separately found a knowing c. 93A violation, set actual damages at the $14,780 retained, trebled them to $44,340, and awarded $60,511.74 in attorney's fees and costs, rejecting the landlord's argument that its offers were reasonable. The Appellate Division affirmed and added $30,100 in appellate fees; the Appeals Court affirmed on November 20, 2018 and allowed further appellate fees.",
+   "attorneysFeesAtTrial": 60511.74,
+   "attorneysFeesOnAppeal": "affirmed; $30,100 more awarded by the Appellate Division and further appellate fees allowed",
+   "appellateChange": "affirmed",
+   "finalAmount": 44340,
+   "finalNote": "Affirmed."
+  },
+  "expectedRole": "Tenant",
+  "offers": [
+   {
+    "by": "defendant",
+    "amount": 6000,
+    "date": "around 2014-05-06 (when complaint filed)",
+    "quote": "an offer of $6,000, which it made around the time the complaint was filed on May 6, 2014;"
+   },
+   {
+    "by": "defendant",
+    "amount": 14780,
+    "date": "2014-06-20",
+    "quote": "an offer of $14,780, which it made on June 20, 2014, some twenty days after it filed its answer;"
+   },
+   {
+    "by": "defendant",
+    "amount": 22000,
+    "date": "2014-08-07",
+    "quote": "an offer of $22,000, which it made on August 7, 2014."
+   }
+  ],
+  "category": "lease-disputes",
+  "holdout": true,
+  "addedToBacktest": "2026-09-26"
+ },
+ {
+  "id": "caltrans-v-acosta-2009",
+  "source": {
+   "caseName": "People ex rel. Department of Transportation v. Mercedes Acosta and Hammer 99, Inc.",
+   "court": "California Court of Appeal, Third Appellate District",
+   "docket": "C059064 (178 Cal.App.4th 762)",
+   "decided": "2009-10-26",
+   "url": "https://static.case.law/cal-app-4th/178/cases/0762-01.json",
+   "excerptNote": "Verbatim from Facts and Proceedings, from the filing of the condemnation through the denial of Caltrans's motion in limine (the franchise and sublease, the PMPA demurrers, the BP and owner settlements, the BP assignment, the summary-adjudication ruling, the final demand and final offer), and two sentences from Part III giving each side's appraisal of the goodwill. Removed: the introduction (states the stipulated judgment and holdings), the March 2008 stipulated judgment and everything after it in Facts and Proceedings, the litigation-expense ruling and amounts, the trial court's reasonableness findings, and all other analysis. Source text is the Caselaw Access Project copy of the official report (no court-hosted PDF for this 2009 opinion; CourtListener opinion 2260340). The reviewer should confirm the source URL resolves; the saved text is the CAP case body."
+  },
+  "input": {
+   "userSide": "sideA",
+   "expectToTrial": "True",
+   "description": "We represent Mercedes Acosta and Hammer 99, Inc., the franchisee operator of a BP gas station and minimart on property Caltrans is condemning for a highway interchange expansion, on their claim for loss of business goodwill under Code of Civil Procedure section 1263.510. Caltrans contends the claim is preempted by the federal Petroleum Marketing Practices Act. The case is headed to trial in eminent domain.",
+   "documentText": "On July 22, 2003, Caltrans filed a complaint in eminent domain to condemn property for the expansion of a highway interchange. Named as a defendant was Scannavino Properties I (Scannavino), the owner of the property. The complaint was later amended to add BP West Coast Products LLC (BP) and Acosta as defendants. BP leased the subject premises from Scannavino, and Acosta subleased the premises from BP. Acosta also maintained a franchise relationship with BP to operate a gas station and minimart on the premises. On February 3, 2004, Acosta filed an answer to the complaint. On February 12, BP served upon Acosta a notice of termination of the franchise and sublease. In the notice, BP informed Acosta that, in the event it received goodwill damages in the condemnation proceeding, it would apportion those damages between itself and Acosta. Acosta thereafter amended its answer to include a claim for lost goodwill. Caltrans filed a demurrer and motion to strike Acosta’s answer, asserting the goodwill claim is preempted by the PMPA. The trial court, with Judge Saiers presiding, sustained the demurrer without leave to amend. Acosta filed a motion for reconsideration and requested leave to amend. The trial court granted the motion and modified its order to allow leave to amend. Acosta filed a second amended answer in which it asserted a right to goodwill damages under both section 1263.510 and the PMPA. Caltrans again filed a demurrer and motion to strike based on federal preemption, and Judge Saiers again sustained the demurrer without leave to amend. Caltrans and BP entered into a stipulation for entry of judgment whereby Caltrans agreed to pay BP $575,000 plus $100,000 for the removal of certain underground equipment. The trial court entered judgment accordingly. Caltrans also paid Scannavino $550,000 on its claims in the proceeding. On September 27, 2005, BP assigned to Acosta whatever rights it might have to goodwill damages in the condemnation proceeding. Acosta moved for leave to file a third amended answer, and the trial court granted the motion. In the third amended answer, Acosta asserted as a further basis for the recovery of goodwill damages the assignment by BP. Caltrans again demurred and moved to strike the amended answer. However, this time Judge McNatt overruled the demurrer. On November 8, 2006, Caltrans moved for summary adjudication of Acosta’s goodwill claim. Caltrans argued Acosta’s independent right to goodwill damages is preempted by the PMPA, and BP has no goodwill claim to assign to Acosta because such claim was included in the stipulated judgment between Caltrans and BP. On February 8, 2007, Judge Holly denied the motion for summary adjudication, concluding the PMPA does not preclude assignment of goodwill claims by a franchisor to a franchisee and there is a question of fact whether the stipulated judgment between Caltrans and BP was intended to include goodwill damages. On February 13, 2007, Acosta filed a final demand for compensation in the amount of $705,000. Two days later, Caltrans submitted a final offer of compensation in the amount of $150,000. Caltrans filed a motion in limine to exclude evidence of goodwill damages. Judge Holly denied the motion.\n\nCaltrans’s appraiser arrived at a value of $678,000, while Acosta’s appraiser put the value at $731,000. The dispute all along was over whether Acosta was entitled to recover goodwill damages in light of the PMPA."
+  },
+  "outcome": {
+   "amount": 704500,
+   "amountIsTheRequestedAmount": false,
+   "date": "2009-10-26",
+   "description": "After the court denied Caltrans's summary-adjudication motion and its motion in limine to exclude goodwill evidence, Caltrans and Acosta stipulated (March 26, 2008) to judgment of $704,500 on the goodwill claim, reserving Caltrans's right to appeal issues of law; the court entered judgment as stipulated and awarded Acosta $288,537.75 in litigation expenses and expert fees under section 1250.410 (final demand $705,000 reasonable, final offer $150,000 unreasonable). The Third District affirmed both on October 26, 2009, holding the goodwill claim is not preempted by the PMPA. This is a stipulated judgment, not a verdict.",
+   "attorneysFeesAtTrial": 288537.75,
+   "attorneysFeesOnAppeal": "affirmed",
+   "appellateChange": "affirmed",
+   "finalAmount": 704500,
+   "finalNote": "Affirmed."
+  },
+  "expectedRole": "Property Owner",
+  "offers": [
+   {
+    "by": "defendant",
+    "amount": 705000,
+    "date": "2007-02-13 (CCP 1250.410 final demand)",
+    "quote": "On February 13, 2007, Acosta filed a final demand for compensation in the amount of $705,000."
+   },
+   {
+    "by": "plaintiff",
+    "amount": 150000,
+    "date": "2007-02-15 (CCP 1250.410 final offer)",
+    "quote": "Two days later, Caltrans submitted a final offer of compensation in the amount of $150,000."
+   }
+  ],
+  "category": "eminent-domain",
+  "holdout": false,
+  "addedToBacktest": "2026-09-26"
+ },
+ {
+  "id": "inglewood-v-aklilu-2007",
+  "source": {
+   "caseName": "Inglewood Redevelopment Agency v. Elias Aklilu, d/b/a Auto Inn Lube and Oil",
+   "court": "California Court of Appeal, Second Appellate District, Division Three",
+   "docket": "B185107 (153 Cal.App.4th 1095)",
+   "decided": "2007-07-30",
+   "url": "https://static.case.law/cal-app-4th/153/cases/1095-01.json",
+   "excerptNote": "Verbatim from Facts and Procedural Background parts 1 (redevelopment plan, condemnation, settlements with the fee owners and the subtenant, the demand and the offer) and 2.a-2.c (Aklilu's testimony, his business-valuation expert, the Agency's expert). Removed: the Summary (states the verdict and holdings), part 2.d (jury instructions), part 2.e (verdict and fixtures allocation), part 3 (post-verdict proceedings), and all analysis. Source text is the Caselaw Access Project copy of the official report (no court-hosted PDF for this 2007 opinion; CourtListener opinion 2250303). The reviewer should confirm the source URL resolves; the saved text is the CAP case body."
+  },
+  "input": {
+   "userSide": "sideA",
+   "expectToTrial": "True",
+   "description": "We represent Elias Aklilu, doing business as Auto Inn Lube and Oil, the tenant operator of an oil-change business at 3300 West Century Boulevard in Inglewood that the Inglewood Redevelopment Agency is condemning for a redevelopment plan, on his claim for compensation for loss of business goodwill under Code of Civil Procedure section 1263.510. The case is set for a jury trial on compensation.",
+   "documentText": "In 1981, the City of Inglewood (the City) adopted a redevelopment plan for the Century Redevelopment Project, which merged in 1996 with other redevelopment plans operated by the Agency. The real property at 3300 West Century Boulevard (the property) is located in the Merged Century Redevelopment Project Area. In 1998 the City created the “Village Specific Plan” to revitalize the area previously known as Darby Dixon. The area was blighted and had the highest crime rate in the City. On June 10, 2003, the city council, sitting as board of directors for the Agency, adopted a resolution of necessity authorizing the condemnation of the property. On October 22, 2003, the Agency filed a complaint in eminent domain against the Nixes, Aklilu and Aklilu’s subtenant, Ha Nguyen, who operated VN Smog Test Only on the premises. Nguyen cross-complained against Aklilu for damages based on Aklilu’s asserted failure to disclose to Nguyen the impending condemnation proceedings when Nguyen entered into the sublease with Aklilu. Prior to trial, the Agency settled with the Nixes in the amount of $665,475 for the real property, plus $34,525 for the improvements. The Agency settled with Nguyen in the amount of $35,000 for lost goodwill. As part of this settlement, Aklilu paid Nguyen $2,000 and Nguyen dismissed his cross-complaint against Aklilu and waived discovery sanctions in the amount of $2,281.60, which the trial court had awarded in favor of Nguyen against Aklilu’s attorney. Prior to trial, Aklilu demanded $355,668 consisting of $239,000 for lost goodwill, $31,095 for improvements to the real property, and $85,573 for “moveable equipment.” The Agency offered Aklilu $35,000 for lost goodwill.\n\nAklilu came to this country in 1974, received a degree in automotive technology in 1976 and worked for two different BMW dealerships from 1976 until 1985 when he opened an automotive repair business in Beverly Hills. In 1997, Aklilu leased the property from the Nixes. Aklilu testified the location was excellent and large retailers were interested in the area. Aklilu thought it would take three to five years for the business to become successful. The lease had an option to renew for five years that included a right of first refusal if the Nixes decided to sell. Aklilu was aware the leased property was in a redevelopment area. However, he was led to believe his business would be relocated in the redevelopment area. Construction of the Marketplace at Hollywood Park, across the street from Auto Inn, caused disruption of Aklilu’s business in 1999 through 2002. The Nixes excused some of Aklilu’s lease payments because construction resulted in lack of access to the property and airborne debris. Toward the end of 2002, Aklilu exercised the option to renew the lease at a rent of $2,200 per month. In 2003, a major portion of the Marketplace at Hollywood Park was completed and traffic flow returned to normal. The development included a Home Depot and a Target. Aklilu testified that, as a result of these improvements, “my location became fantastic, which I was waiting, praying for.” Auto Inn became profitable in 2003.\n\nChris Pedersen, a certified business appraiser and a former business broker who has qualified as a business valuation expert approximately 100 times, became involved in this case when Aklilu was close to eviction and was in the process of trying to relocate his business within the project area. Pedersen’s investigation revealed Auto Inn was in “as fine a location as I’ve ever seen for this type of a business.” The business had “outstanding exposure to the street, as well as the [destination] shopping centers across the street.” Access and parking were excellent and there was no competition from any similar business. A smaller development might include two businesses similar to Aklilu’s. Here, there was only one for the entire development. Pedersen opined the business had a “very, very promising future” with “lease, location, product, no competition, new area. ... I don’t even think a fluctuation in the economy would have had any impact on it over the next four or five years.” In appraising the value of Auto Inn’s goodwill, Pedersen used a “cost to create” approach. Pedersen testified cost frequently is the only provable value for a product or a business. “And that tends to be a minimal value, but it is an identifiable value.” When asked about the lack of profits from 1999 through 2002, Pedersen testified the “business is obviously going to do very well and sales and profit had jumped up dramatically when they stopped all the construction. And ... the business obviously is a good concern.” Pedersen appraised Auto Inn’s goodwill based on Aklilu’s income tax returns for the years 1998 through 2003. Pedersen made adjustments to these figures to reflect an owner’s annual salary of $24,000, plus a 12 percent return on tangible assets, and concluded Auto Inn had adjusted annual losses of $35,000, $37,000, $49,000, $53,000, $52,000 and $12,000 in the years 1998 through 2003, for a total loss of $238,716. By combining the value of the goodwill and the value of the fixtures and equipment ($171,510), Pedersen opined Auto Inn, which consisted of the location and the lease, including the right of first refusal, had a total value of $410,271. Pedersen testified that, within a matter of days, Auto Inn could have been sold for the value Pedersen placed on it. Pedersen believed a prospective buyer would accept a valuation of the business based on the cost Aklilu had expended over the five previous difficult years to place the business in the enviable position it enjoyed upon completion of the Marketplace. Pedersen did not use the income approach to appraise Auto Inn’s goodwill because it was not yet applicable to Aklilu’s business and he did not use the market approach because it is rarely used for a small business due to a lack of comparables. Pedersen previously used the “cost to create” approach to value a morphing technology used in the movie The Howling (AVCO Embassy Pictures 1981) and the formula for the Tiger’s Milk bar. Pedersen saw no evidence Aklilu acted unreasonably as a businessman.\n\nMadeleine Mamaux, a chartered financial analyst and business appraiser employed by Desmond, Marcello & Amster, testified goodwill is an intangible asset that manifests itself in the profitability of a business. Mamaux used three methods of valuation to appraise Auto Inn’s goodwill, namely, capitalization of the excess operating profit, the discretionary cash flow multiplier method and the revenue multiplier method. Mamaux concluded Auto Inn had no goodwill as of October 22, 2003, under any of the three methods because the business was not profitable. In the capitalization of excess operating profit and discretionary cash flow methods, Mamaux subtracted from profit the fair market rent of the property, which Mamaux referred to as the economic rent, in the amount of $4,898 per month, as opposed to the $2,200 per month Aklilu actually paid under his lease. Mamaux did this to eliminate the value of AHilu’s advantageous lease from her computation of the goodwill. However, even if Mamaux did not adjust Auto Inn’s expenses to reflect economic rent, she still would have concluded the business had no goodwill. Mamaux has never valued goodwill using the “cost to create” approach, which typically is used to value intangible assets like patents and trademarks. On cross-examination, Mamaux conceded she worked under the supervision of Glenn M. Desmond, the founder of her firm, in two of the three trials at which she had qualified as an expert. Mamaux also conceded there may be “some unusual exceptions” to the rule that goodwill must manifest itself in profits. Finally, Mamaux conceded Auto Inn had the “potential for the acquisition of new patronage” at its Century Boulevard location."
+  },
+  "outcome": {
+   "amount": 200000,
+   "amountIsTheRequestedAmount": false,
+   "date": "2007-07-30",
+   "description": "The jury found Aklilu suffered lost goodwill of $200,000 (his expert said $238,716; the Agency's said none). In a separate proceeding the court apportioned $4,265 of the $34,525 paid for fixtures and equipment to Aklilu (not included here), denied his motion for litigation expenses, and gave the Agency a setoff against interest for post-possession rent. The Second District affirmed on July 30, 2007 (rehearing denied and opinion modified August 20, 2007), approving the 'cost to create' goodwill valuation.",
+   "attorneysFeesAtTrial": null,
+   "attorneysFeesOnAppeal": null,
+   "appellateChange": "affirmed",
+   "finalAmount": 200000,
+   "finalNote": "Affirmed."
+  },
+  "expectedRole": "Property Owner",
+  "offers": [
+   {
+    "by": "plaintiff",
+    "amount": 35000,
+    "date": "prior to trial (offer for lost goodwill)",
+    "quote": "The Agency offered Aklilu $35,000 for his lost goodwill."
+   },
+   {
+    "by": "defendant",
+    "amount": 355668,
+    "date": "prior to trial (total demand: $239,000 goodwill, $31,095 improvements, $85,573 moveable equipment)",
+    "quote": "Prior to trial, Aklilu demanded $355,668 consisting of $239,000 for lost goodwill, $31,095 for improvements to the real property, and $85,573 for “moveable equipment.”"
+   }
+  ],
+  "category": "eminent-domain",
+  "holdout": false,
+  "addedToBacktest": "2026-09-26"
  }
 ]

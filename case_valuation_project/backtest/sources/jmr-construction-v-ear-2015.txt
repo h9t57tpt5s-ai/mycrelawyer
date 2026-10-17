@@ -1,0 +1,1730 @@
+Filed 12/30/15 
+CERTIFIED FOR PARTIAL PUBLICATION* 
+ 
+IN THE COURT OF APPEAL OF THE STATE OF CALIFORNIA 
+ 
+SIXTH APPELLATE DISTRICT 
+ 
+JMR CONSTRUCTION CORP., 
+ 
+Plaintiff, Cross-Defendant, and 
+Respondent, 
+ 
+          v. 
+ 
+ENVIRONMENTAL ASSESSMENT and 
+REMEDIATION MANAGEMENT, INC., 
+ 
+          Defendant, Cross-Complainant and                                              
+          Appellant, 
+ 
+SURETEC INSURANCE COMPANY,  
+ 
+         Defendant and Appellant.                  
+     H039055 
+     (Monterey County  
+     Super. Ct. No. M105497) 
+ 
+ 
+ This dispute arose from a public works project involving the construction of a 
+dental clinic at the Presidio of Monterey (the Project).  The owner, the United States 
+Army Corps of Engineers (the Corps), retained JMR Construction Corp. (JMR) as 
+general contractor for the Project.  JMR, in turn, entered into various subcontracts, 
+including separate electrical and plumbing subcontracts, with Environmental Assessment 
+and Remediation Management, Inc. (EAR).  SureTec Insurance Company (SureTec) 
+issued separate bonds guaranteeing EAR’s performance under the two subcontracts.   
+ While the Project was ongoing, JMR (1) communicated with EAR about alleged 
+delays, deficient and late submittals, and improper plumbing work, and (2) retained 
+                                              
+ * Pursuant to California Rules of Court, rules 8.1105(b) and 8.1110, this opinion is 
+certified for publication with the exception of parts I.A., I.C., III, IV, V, and VI of the 
+Discussion.  
+ 2 
+certain funds otherwise due to EAR under the subcontracts.  After the Project was 
+completed, JMR filed suit against EAR and SureTec (collectively, defendants) for breach 
+of contract and for foreclosure of the performance bonds.  JMR alleged it was damaged 
+as a result of EAR’s failure to perform under the two subcontracts.  EAR filed a cross-
+complaint for recovery of retention funds withheld under the subcontracts.   
+ After a court trial, JMR was awarded the net amount of $315,631, which included 
+an offset for the retention funds JMR withheld under the subcontracts.  In posttrial 
+proceedings, the court issued an order determining JMR was entitled to recover attorney 
+fees in an amount to be determined for its successful defense of the cross-complaint.  The 
+court also awarded JMR $90,644.07 in expert witness fees pursuant to Code of Civil 
+Procedure section 9981 by concluding that JMR’s total monetary recovery ($315,631 plus 
+an undetermined amount of attorney fees) had exceeded the $375,000 amount of its 
+pretrial settlement offers.  SureTec and EAR filed separate appeals.   
+ EAR makes seven arguments on appeal.  First, it asserts there was no substantial 
+evidence to support the trial court’s finding it was liable to JMR for delays on the Project.  
+Second, it argues the court erred by using the Eichleay method of calculating extended 
+home office overhead damages.  Third, it asserts the court erred by utilizing the modified 
+total cost method of calculating disruption and delay damages.  Fourth, it argues the 
+court, in its statement of decision, failed to address essential matters of fact and law.  
+Fifth, it contends the court erred in determining JMR was entitled to attorney fees in 
+defending the cross-complaint.  Sixth, it asserts JMR was not entitled to recover its expert 
+witness fees pursuant to section 998.  And seventh, it contends the court erred by denying 
+its motion for new trial. 
+                                              
+ 1 Further statutory references are to the Code of Civil Procedure unless otherwise 
+specified. 
+ 3 
+ SureTec contends JMR cannot prevail against SureTec because JMR failed to 
+declare EAR in default under the subcontracts, and JMR failed to notify SureTec of any 
+such default.  It also contends the order finding JMR entitled to attorney fees on EAR’s 
+cross-complaint was improper as to SureTec.  Further, it contests the award to JMR of 
+expert witness fees under section 998.  And it argues that SureTec’s liability must be 
+limited to a maximum of $471,881, the ceiling of its liability under the performance bond 
+on the plumbing subcontract. 
+ In the published portion of this opinion, we conclude the court did not err in its 
+utilization of the Eichleay method to calculate extended home office overhead damages 
+and in its use of the modified total cost method of calculating JMR’s disruption and delay 
+damages.  We also hold the court did not err in finding SureTec liable under the 
+performance bonds, concluding that formal notice of EAR’s default was not a condition 
+precedent to JMR’s recovery under the bonds.  In the unpublished portion of this opinion, 
+we conclude (1) there was substantial evidence supporting the court’s finding that EAR 
+was liable to JMR for Project delays; (2) the court’s statement of decision was not 
+defective; (3) defendants’ challenges to the interim, nonfinal, postjudgment order 
+determining that JMR was entitled to recover attorney fees in defending the cross-
+complaint are not cognizable at this time; (4) defendants’ challenges to the award of 
+JMR’s expert witness fees under section 998 are meritorious; (5) EAR’s claim that the 
+court abused its discretion in denying EAR’s motion for new trial has no merit; and 
+(6) SureTec’s request for an order that its maximum liability is $471,881 is not 
+cognizable because it is a request for an advisory opinion.  Accordingly we will affirm 
+the judgment, reverse the order awarding expert witness fees, and remand the case for 
+further postjudgment proceedings consistent with this opinion.   
+   PROCEDURAL BACKGROUND 
+On April 29, 2010, JMR filed its complaint against EAR and SureTec.  JMR 
+alleged four causes of action:  (1) breach of the plumbing subcontract; (2) enforcement 
+ 4 
+and foreclosure on the performance bond for the plumbing subcontract; (3) breach of the 
+electrical subcontract; and (4) enforcement and foreclosure on the performance bond for 
+the electrical subcontract.  The first and third causes of action were alleged against EAR, 
+while the second and fourth causes of action were alleged against SureTec.2  JMR alleged 
+that EAR’s failure or refusal to perform its work under the two subcontracts in 
+accordance with the Project’s schedule “caused project delay, acceleration, and related 
+damages to JMR.”  The alleged damages included “offset of JMR claims against the 
+Owner, increased cost of JMR on-site performance costs and other loss of cost recovery 
+and overhead on the Project.”  In each of the four causes of action, JMR claimed its 
+damages were in an amount “not less than $200,000.00.”   
+EAR filed a cross-complaint against JMR alleging breach of contract and common 
+counts.  It alleged in separate causes of action that JMR had breached the electrical 
+subcontract and plumbing subcontract, and that as a result of these breaches, EAR had 
+been damaged in an amount in excess of $108,913.31.    
+A five-day court trial took place in January 2012.  After the parties submitted 
+posttrial briefs in lieu of final argument, the court issued a ruling on April 30, 2012, 
+finding in favor of JMR in the total amount of $379,318, which amount included a 
+deduction of $121,893 that had been previously withheld from EAR under the 
+subcontracts.  The court further ordered that EAR take nothing on its cross-complaint. 
+Pursuant to the court’s request, JMR submitted a proposed statement of decision in 
+which it withdrew one of its claims and adjusted the amount of another claim, resulting in 
+revised damages award of $315,631.  The damages were derived by (1) adding five 
+damage figures in amounts of $29,249 (air compressor), $132,168 (field overhead for 
+delay), $15,440 (field overhead for Project closeout), $14,244 (markup for field 
+                                              
+ 2 JMR also sought in the second and fourth causes of action to foreclose on the 
+payment bonds issued by SureTec under the two subcontracts.  The payment bonds are 
+not at issue in this appeal.  
+ 5 
+overhead), $60,693 (Eichleay home office overhead), and $185,730 (damages during 
+framing and drywall phase); and (2) subtracting from this amount $121,893 previously 
+withheld under the subcontracts.  On July 19, 2012, the court signed the statement of 
+decision.  On August 14, 2012, the court entered judgment in favor of JMR and against 
+defendants in the amount of $315,631.  The court also ordered that EAR and SureTec 
+take nothing on the cross-complaint3 and that defendants were liable for JMR’s costs, 
+including attorney fees in defending the cross-complaint, in an amount to be determined 
+after appropriate filings by JMR.   
+In postjudgment proceedings (discussed in greater detail, post), the court issued an 
+order on November 13, 2012, granting JMR’s request for recovery of expert fees of 
+$90,644.07.  In the same order, the court reaffirmed a prior tentative ruling that it would 
+award attorney fees to JMR for its successful defense of EAR’s cross-complaint in an 
+amount to be determined at a later time.   
+DISCUSSION 
+I. EAR’s Appeal of the Judgment  
+EAR asserts four challenges to the court’s judgment.  First, it contends there is no 
+substantial evidence to support the court’s finding that EAR breached its subcontracts 
+with JMR.  Second, it argues the court erred in using the Eichleay formula of calculating 
+home office overhead damages.  Third, it claims the court erred in applying the modified 
+total cost method of damages in connection with alleged delay damages associated with 
+the interior installation of metal studs and drywall (hereafter, the framing and drywall 
+phase).  And fourth, it argues the court’s statement of decision was defective in that it 
+failed to take into consideration essential matters of fact and law.  We address each of 
+these contentions below. 
+                                              
+ 3 The finding that SureTec take nothing on the cross-complaint appears to be in 
+error, since EAR was the sole cross-complainant.   
+ 6 
+ A. Sufficiency-of-Evidence Challenge 
+  1. JMR Evidence 
+   a. Testimony 
+On July 25, 2006, the Corps notified JMR that it had been awarded the contract to 
+complete the Project at a total contract price of $6,691,000 (the prime contract).  
+Thereafter, on September 19, 2006, JMR and EAR executed the subcontract for electrical 
+work for a total contract price of $732,500.  On November 14, 2006, JMR and EAR 
+executed the subcontract for plumbing work for a total contract price of $471,881.  Both 
+subcontracts recited that the schedule for performance of the prime contract was 450 days 
+from the “Owner’s Notice to Proceed Date [of] 8/30/06,” thereby making the completion 
+date November 23, 2007.  EAR acknowledged these “contract durations and time 
+constraints and [agreed it would] comply with [JMR’s] construction schedule.”   
+Work on the Project continued nearly six months passed the scheduled completion 
+date of November 23, 2007.  The beneficial occupancy date—i.e., completion of the 
+Project—was May 14, 2008.   
+Several representatives of JMR and one JMR-retained expert testified that EAR 
+was responsible for concurrent delays on the Project.  Ron Rivard, JMR’s Vice President, 
+testified that the Project was delayed and the Corps, through change orders, granted a 
+180-day extension of the Project completion date.  The Corps was responsible in part for 
+the extension due to delays in approval of the landscaping plans.  Rivard also testified 
+that three subcontractors—EAR, Countywide Mechanical (Countywide), and Del Monte 
+Glass (Glass)—contributed to delays, but he did not know the number of delay days 
+caused by each of the three subcontractors, saying “[t]hat’s up [to] the experts.”   
+Rivard testified that one aspect of EAR-caused delay involved the furnishing of an 
+air compressor.  EAR initially disputed that an air compressor was included in its scope 
+of work under the plumbing subcontract, but it eventually supplied an air compressor 
+without producing a submittal beforehand.  Submittals were required on the Project so the 
+ 7 
+Corps could give advance approval of the equipment.  The air compressor was not 
+approved by the Corps, and EAR refused to provide a Corps-approved replacement 
+compressor.  JMR thereafter procured and installed a Corps-approved compressor.  
+Rivard testified that EAR’s failure to supply an approved air compressor caused delay in 
+JMR’s performance under the prime contract.  He testified the schedule called for the air 
+compressor to be supplied in October 2007.  Instead, it was supplied in February or 
+March 2008.   
+Steven Hupaylo, JMR’s job superintendent for the Project from its inception to 
+August 2007, was responsible for managing and coordinating the subcontractors in the 
+field.  Hupaylo testified the drywall work for the interior of the clinic did not go well.  
+JMR’s plan was to install metal framing, have EAR do its plumbing and electrical work 
+in the uncovered metal frame, and then cover the metal frame along with the plumbing 
+and electrical work with drywall.  JMR had separated the building into three areas, with 
+the intention of going room-by-room to have this work done efficiently.  According to 
+Hupaylo:  “We had a good shot at doing the thing.  And the biggest problem we had was . 
+. . the plumbing and electrical that held us up in the [P]roject [by] not having materials, 
+not having skilled people, [and] not having any people sometimes.  That was the single 
+biggest issue.”  Hupaylo also testified that EAR’s plumbing crew “left the site a lot” and 
+were often working at other locations on the base.  EAR’s foreman would sometimes 
+show up on the site without materials; he would promise to return to the site the next day, 
+but would not.  As a result of ongoing problems with EAR’s performance under both 
+subcontracts, JMR had to install the drywall in a piecemeal fashion.   
+Daniel Spade worked as JMR’s project manager from January 2007 until the 
+Project’s completion.  Spade testified there were significant punch list items at the end of 
+the Project resulting from EAR’s deficient performance under the subcontracts.  In 
+addition, aside from the air compressor issue, there were problems with (1) an undersized 
+ 8 
+water heater, (2) the mixing valves controlling hot and cold water, and (3) the improper 
+operation of the fire alarm and life safety system.   
+JMR also presented testimony from John Elmer, a construction management 
+expert with expertise in scheduling.  JMR retained Elmer to review the schedule for the 
+Project, to identify whether there were any delays in the Project’s completion, and to 
+determine the causes of any delays.  Elmer testified regarding concurrent delays on the 
+Project.  Defendants did not challenge Elmer’s qualifications as an expert.     
+Elmer testified that for any construction project, the owner and the general 
+contractor agree to an initial construction schedule—a baseline schedule.  The general 
+contractor prepares a baseline schedule after receiving input from the subcontractors.  
+The general contractor then submits the baseline schedule to the owner for approval.  The 
+baseline schedule is regularly tracked as work proceeds, typically through a computerized 
+program.  If there is a delay in the delivered date of any work, and the delay is on the 
+critical path—i.e., the longest path of activities required to complete the project—that 
+delay will extend the completion date of the Project.   
+In arriving at his opinions as to any delays to the baseline schedule, Elmer 
+reviewed a number of construction documents, including monthly schedule updates, daily 
+quality control reports, daily subcontractor reports, submittal logs, punch lists, and 
+correspondence.  In his analysis of the critical path of the Project, Elmer also created an 
+as-built schedule from December 2007 to May 2008 to attempt to identify accurately the 
+progress of the work on the Project as compared with the baseline schedule.  He created 
+this as-built schedule because the monthly schedule updates in the latter months of the 
+Project did not accurately reflect the status of work being performed.   
+Elmer opined there was a critical path delay that extended the Project’s completion 
+by 180 days.  That delay was reflected in change orders from the Corps extending the 
+completion date of the Project.  Elmer testified that the parties responsible for the delays 
+were the Corps and three subcontractors:  EAR, Countywide, and Glass.  He opined that 
+ 9 
+EAR and Countywide were concurrently responsible for 142 of the 180 days of delay, 
+and that of those 142 days, Glass was concurrently responsible for 28 days of delay.   
+Elmer also testified that from December 19, 2007, to May 14, 2008 (the beneficial 
+occupancy date), the commissioning of the life safety systems (operable heating 
+ventilating and air conditioning, smoke detector, and fire alarm systems) drove the 
+critical path.  “Commissioning” involved these systems being “signed off as being 
+complete and operable” and was a precondition for the owner accepting beneficial 
+occupancy.  Elmer testified that EAR, Countywide and, to a much lesser extent, Glass 
+were the subcontractors performing work relevant to the completion of these systems.  He 
+also said the concurrent delays by Countywide did not delay EAR’s work on the life 
+safety systems, and he opined that JMR did not contribute to any delay in the completion 
+of the Project between December 2007 and May 14, 2008.   
+   b. Documentary Evidence 
+JMR introduced documentary evidence showing EAR was responsible for Project 
+delays.  Most of the written communications were from Daniel Spade, JMR’s project 
+manager.  Spade addressed some of the communications directly to John Fieri, EAR’s 
+plumbing project manager.  Most of the written communications not addressed to Fieri 
+listed Fieri as a “cc” recipient.  As noted twice by the trial court in its statement of 
+decision, Fieri was not called by EAR as a witness at trial.   
+On July 11, 2007, Spade advised EAR in an email to Ravindra Pendurthi, EAR’s 
+owner, that EAR had, in contravention of the specifications, used laborers instead of 
+plumbers to install pipe.  Spade also noted that “an entire wage review of [EAR] on the 
+[P]roject [was] likely,” and he directed that Pendurthi “get [his] company in compliance.” 
+On August 10, 2007, Spade wrote a letter to Pendurthi indicating that (1) EAR was 
+“well behind schedule on the interior walls in the building”; (2) pipe insulation had “not 
+been completed[,] preventing completion of the drywall in many areas”; (3) “[t]he gas 
+lines ha[d] not been run and therefore drywall in some areas will have to be removed and 
+ 10 
+replaced at EAR’s expense”; (4) EAR had not delivered soffit light fixtures on-site, 
+“preventing covering these areas”; (5) “lobby wall sconces [we]re not on site [,] 
+preventing completion of rough-in”; and (6) EAR was responsible for deficient 
+submittals (about which JMR had previously notified EAR), and EAR’s failure to correct 
+the deficient submittals had resulted in the Corps withholding funds due to JMR.  Spade 
+also summarized that “EAR[’s] plumbing performance [was] substantially behind and 
+[was] severely impacting the schedule and the timely completion of the [P]roject.”  Spade 
+advised EAR that it had “48 hours to properly man the [P]roject with qualified 
+plumbers.”   
+Spade sent EAR two follow-up emails in September 2007.  In those emails, he 
+stated the Corps was “not approving anymore [sic] money for plumbing and electrical 
+work done last month because submittal items ha[d] not been completed.”  Spade also 
+reiterated that the Corps was “holding money from last month[’]s billing.”   
+On October 28, 2007, Spade sent an email to EAR that listed incomplete plumbing 
+and electrical items, stating “[s]ome of these items are having impacts and almost all are 
+overdue.”  On November 21, 2007, Spade sent another email to Pendurthi, indicating 
+there were “[m]ajor issues still outstanding,” and stating:  “We have run out of time 
+waiting for your electrical submittals to be turned in . . . . This is a serious problem in that 
+it could impact closeout of the [P]roject.  If this occurs[,] EAR will be held responsible for 
+JMR’s overhead costs and any associated damages.”   
+On December 7, 2007, Spade sent another email to Pendurthi about EAR’s delays 
+and problems with Project submittals.  Earlier that day, the Corps had advised JMR that 
+the Corps had in the past retained a portion of contract payments based upon “excessive 
+outstanding submittals; progression of work without proper quality controls; and slippage 
+of the approved [P]roject schedule.”  The Corps also noted that “many of these 
+deficiencies ha[d] not yet been resolved.”  Spade advised Pendurthi that “EAR ha[d] been 
+responsible for a significant amount of the production delay and 5 pages out of the 11 
+ 11 
+pages of outstanding submittals.”  He also noted that “almost all” of the electrical 
+submittals and some of the plumbing submittals were still outstanding.   
+On January 14, 2008, Spade advised EAR by email that the Corps had not granted 
+beneficial occupancy of the building because there were outstanding issues concerning 
+the mechanical system.  Spade said “[t]he majority of the [outstanding] items are EAR’s 
+responsibility.”  He indicated the items needed to “be resolved this week.”  And he said:  
+“You have already been informed of the financial impact involved.  The fact that these 
+items are weeks old and still not resolved are major issues to the [C]orps [’] home office.”   
+On January 21, 2008, Spade sent a letter to Fieri stating “[t]here [were] a number 
+of major items that ha[d] been on the Quality Control punchlist for over a month,” and 
+the Corps was citing to the major items as a reason for denying beneficial occupancy.  
+Spade sent another email to Fieri on February 29, 2008, advising there were “still a 
+number of [punch list] items to resolve.  Some on the plumbing side[,] others on the 
+electrical . . . . There are still a large number of electrical submittals[,] which is a huge 
+issue.”   
+On March 19, 2008, Spade sent another email to Fieri noting there were still a 
+number of punch list items to be addressed.  Spade indicated:  “The simple fact is EAR is 
+working on other projects and is not completing this work.  [¶]  No one is on[-]site 
+addressing these items.  Every time Bob [Clark of the Corps] visits[,] he finds something 
+new.”  Spade also wrote:  “We have been struggling with EAR’s installation of the 
+plumbing system; clean outs have not been installed, goose neck vents not installed, 
+plumbing venting not installed per plan and requiring shop drawings prior to installation, 
+medical gas pipe not brazed per specification (still a sore point with the Corps), DDC 
+valve not installed per civil plan . . ., and payroll issues.  [¶] The biggest issue on the 
+electrical side has been the submittals, which are still not complete and over 1 year late.”   
+ 
+ 
+ 12 
+  2. EAR’s Evidence 
+Ravindra Pendurthi, EAR’s owner, testified that EAR started plumbing work on 
+the Project in late September or early October 2006, even though the subcontract was not 
+formally executed until December 2006.  He said EAR commenced electrical work on the 
+Project in or about September 2006, before that subcontract was executed.  He testified 
+that EAR started work early at JMR’s urging, because JMR was “behind schedule” on the 
+Project.   
+According to Pendurthi, JMR was slow in providing EAR with a baseline schedule 
+for the Project.  He said JMR did not provide it until March 2007.  He acknowledged that 
+at the time, EAR responded in writing that the schedule was fine, but that its compliance 
+with it was dependent on timely work by other tradesmen whose work needed to be 
+completed before EAR’s.   
+Pendurthi described several tasks that were added to its scope of work under both 
+subcontracts which extended EAR’s time to complete its performance.  He also testified 
+that JMR approved change orders for this additional work, but JMR did not formally 
+grant EAR extensions of time.  Instead, in each instance, the JMR representative (either 
+Spade or Hupaylo) advised EAR that JMR was behind schedule but would “take care of 
+[EAR’s extension request] at the end of the [P]roject.”   
+Pendurthi testified there was a period of time in which EAR inquired of JMR 
+about the equipment JMR was going to provide that impacted EAR’s rough-in plumbing 
+work.  He said JMR’s delay in providing this information interfered with EAR’s ability to 
+complete its work.   
+Pendurthi denied that EAR lacked sufficient materials or failed to supply sufficient 
+personnel to work on the Project.  He also denied that EAR’s work crews on the Project 
+were pulled off the job to do other work.  He claimed EAR had dedicated crews for the 
+Project.  He acknowledged that EAR’s foreman sometimes did not show up to work 
+ 13 
+because he had a persistent gout problem.  But, he said, EAR eventually addressed the 
+issue by replacing the foreman.   
+Pendurthi testified that much of the drywall work—particularly the work in the x-
+ray room and dentures room—was done out of sequence and was hampered because JMR 
+did not have proper submittals.  He said this caused delays in EAR’s performance.  
+Pendurthi also testified that the drywall cost was elevated and its time of completion was 
+lengthened because the Corps required a “level five finish,” which was a quality much 
+more difficult to achieve than a normal sheetrock job.  In addition, JMR used an out-of-
+town workforce that resulted in cost overruns.  Pendurthi admitted on cross-examination 
+that EAR did not advise JMR in writing that JMR was causing delays in EAR’s 
+performance.   
+Pendurthi also testified there was a period of time in or about November 2006 
+when JMR did not have on-site quality control personnel as required by the Corps.  JMR 
+asked for help from EAR, and EAR supplied quality control personnel to work on-site for 
+approximately one month.  Pendurthi testified that JMR’s failure to have on-site quality 
+control personnel for a period of time delayed EAR’s performance.   
+According to Pendurthi, all of EAR’s work under both subcontracts was accepted.  
+Pendurthi testified that by November 30, 2007—according to applications for payment 
+EAR had submitted—EAR’s plumbing and electrical work were 98.66 percent and 96.36 
+percent completed, respectively.  Pendurthi testified that after December 1, 2007, EAR’s 
+remaining work was “[m]ostly finish work” during which time EAR was waiting for 
+other trades to complete their work.   
+  3. Substantial Evidence Standard of Review 
+As a fundamental proposition, a judgment or order is presumed correct on appeal.  
+(In re Marriage of Arceneaux (1990) 51 Cal.3d 1130, 1133.)  “ ‘All intendments and 
+presumptions are indulged to support it on matters as to which the record is silent, and 
+error must be affirmatively shown.’ ”  (Denham v. Superior Court of Los Angeles County 
+ 14 
+(1970) 2 Cal.3d 557, 564.)  It is appellant’s burden to overcome this presumption of 
+correctness, which burden includes providing an adequate record demonstrating error.  
+(Ibid.; see also Eisenberg et al., Cal. Practice Guide: Civil Appeals and Writs (The Rutter 
+Group 2013) ¶ 8:17, pp. 8-5 to 8-6, rev. #1, 2013.)  The doctrine of implied findings is “a 
+natural and logical corollary” to (1) the presumption of the correctness of the judgment, 
+(2) the fact that all intendments and presumptions are made in favor of that correctness, 
+and (3) the appellant’s burden of demonstrating error with an adequate record.  (Fladeboe 
+v. American Isuzu Motors, Inc. (2007) 150 Cal.App.4th 42, 58 (Fladeboe).)  This 
+“doctrine . . . requires the appellate court to infer the trial court made all factual findings 
+necessary to support the judgment.  [Citation.]”  (Ibid.; see Michael U. v. Jamie B. (1985) 
+39 Cal.3d 787, 792-793, superseded by statute on other grounds as stated in In re 
+Zacharia D. (1993) 6 Cal.4th 435, 448-449.) 
+A disputed factual issue that has been resolved by the trial court is reviewed under 
+the substantial evidence standard.  (Winograd v. American Broadcasting Co. (1998) 
+68 Cal.App.4th 624, 632.)  As the California Supreme Court has explained:  “In 
+reviewing the evidence on such an appeal all conflicts must be resolved in favor of the 
+respondent, and all legitimate and reasonable inferences indulged in to uphold the verdict 
+if possible.  It is an elementary, but often overlooked principle of law, that when a verdict 
+is attacked as being unsupported, the power of the appellate court begins and ends with a 
+determination as to whether there is any substantial evidence, contradicted or 
+uncontradicted, which will support the conclusion reached by the jury.  When two or 
+more inferences can be reasonably deduced from the facts, the reviewing court is without 
+power to substitute its deductions for those of the trial court.  [Citations.]”  (Crawford v. 
+Southern Pacific Co. (1935) 3 Cal.2d 427, 429 (Crawford); see also Roddenberry v. 
+Roddenberry (1996) 44 Cal.App.4th 634, 651-652.)   
+Upon review of the record in its entirety, “all of the evidence must be examined, 
+but it is not weighed.  All of the evidence most favorable to the respondent must be 
+ 15 
+accepted as true, and that unfavorable discarded as not having sufficient verity, to be 
+accepted by the trier of fact.  If the evidence so viewed is sufficient as a matter of law, the 
+judgment must be affirmed.”  (Estate of Teel (1944) 25 Cal.2d 520, 527.) 
+The benchmark “substantial evidence” is not “synonymous with ‘any’ evidence.”  
+(People v. Bassett (1968) 69 Cal.2d 122, 139.)  As one court has explained:  “While it is 
+commonly stated that our ‘power’ begins and ends with a determination that there is 
+substantial evidence [citation], this does not mean we must blindly seize any evidence in 
+support of the respondent in order to affirm the judgment.  The Court of Appeal ‘was not 
+created . . . merely to echo the determinations of the trial court.  A decision supported by 
+a mere scintilla of evidence need not be affirmed on review.’  [Citation.]  ‘[I]f the word 
+“substantial” [is to mean] anything at all, it clearly implies that such evidence must be of 
+ponderable legal significance.  Obviously the word cannot be deemed synonymous with 
+“any” evidence.  It must be reasonable . . . , credible, and of solid value . . . .’  [Citation.]  
+The ultimate determination is whether a reasonable trier of fact could have found for the 
+respondent based on the whole record.  [Citation.]  While substantial evidence may 
+consist of inferences, such inferences must be ‘a product of logic and reason’ and ‘must 
+rest on the evidence’ [citation]; inferences that are the result of mere speculation or 
+conjecture cannot support a finding [citations].”  (Kuhn v. Department of General 
+Services (1994) 22 Cal.App.4th 1627, 1633, footnote omitted, italics original.) 
+It is the appellant’s burden to establish that the judgment is not supported by 
+substantial evidence.  (Adoption of Allison C. (2008) 164 Cal.App.4th 1004, 1011.)  In 
+meeting that burden, the appellant is charged with presenting an adequate record from 
+which the error is demonstrated.  (Maria P. v. Riles (1987) 43 Cal.3d 1281, 1295.)  
+“Defendants raising a claim of insufficiency of the evidence assume[] a ‘daunting 
+burden.’  [Citation.]”  (Whiteley v. Philip Morris, Inc. (2004) 117 Cal.App.4th 635, 678.)  
+In assessing whether substantial evidence supports the trial court’s factual findings, we 
+consider the evidence in the light most favorable to the party prevailing below.  (Plumas 
+ 16 
+County Dept. of Child Support Services v. Rodriguez (2008) 161 Cal.App.4th 1021, 
+1026.) 
+  4. Procedural Bar 
+As noted earlier, where the claim is the absence of sufficient evidence to support 
+the judgment, it is the appellant’s burden—not the respondent’s or the court’s—“to 
+identify and establish deficiencies in the evidence.  [Citation.]”  (Houng Que, Inc. v. Luu 
+(2007) 150 Cal.App.4th 400, 409 (Houng Que); see also Hickson v. Thielman (1956) 
+147 Cal.App.2d 11, 14-15.)  “ ‘The rule is well established that a reviewing court must 
+presume that the record contains evidence to support every finding of fact, and an 
+appellant who contends that some particular finding is not supported is required to set 
+forth in his [or her] brief a summary of the material evidence upon that issue.  Unless this 
+is done, the error assigned is deemed to be waived.  [Citation.]  It is incumbent upon 
+appellants to state fully, with transcript references, the evidence which is claimed to be 
+insufficient to support the findings.’ ”  (In re Marriage of Fink (1979) 25 Cal.3d 877, 
+887; see also Nwosu v. Uba (2004) 122 Cal.App.4th 1229, 1246 [“attack on the evidence 
+without a fair statement of the evidence is entitled to no consideration when it is apparent 
+that a substantial amount of evidence was received on behalf of the respondent”].)   
+Moreover, “the burden [of appellant] to provide a fair summary of the evidence 
+‘grows with the complexity of the record.  [Citation.]’  [Citation.]”  (Boeken v. Philip 
+Morris Inc. (2005) 127 Cal.App.4th 1640, 1658 (Boeken).)  Thus, an appellant’s 
+recitation of only the evidence supporting its position does not comply with the 
+requirements of an appellant’s sufficiency-of-the-evidence challenge, and may result in 
+the appellate court disregarding the claim.  (Foreman & Clark Corp. v. Fallon (1971) 
+3 Cal.3d 875, 881; Stewart v. Union Carbide Corp. (2010) 190 Cal.App.4th 23, 34.) 
+EAR has not met its burden as appellant to provide a summary of the material 
+evidence (including evidence favorable to respondent JMR) concerning the claims 
+litigated in the court trial.  This failure is particularly pronounced in light of the wealth 
+ 17 
+and complexity of the evidence adduced at trial.  (See Boeken, supra, 127 Cal.App.4th at 
+p. 1658.)  For instance, as seen from the recitation of facts, ante, there was a significant 
+amount of evidence presented by JMR—through the testimony of four employees or 
+former employees (Rivard, Hupaylo, Spade, and Thornton)—that EAR’s performance 
+under the two subcontracts hindered JMR’s ability to complete the prime contract and 
+significantly delayed completion of the Project.  Yet EAR, in its opening brief, does not 
+mention that Hupaylo, Spade, or Thornton testified.  EAR also fails to present Rivard’s 
+testimony that is unfavorable to EAR’s position, such as Rivard’s testimony that EAR’s 
+failure to install the air compressor caused significant delays to the Project.  EAR’s 
+“selective recitation of the record . . . is manifestly deficient,” and we may therefore treat 
+its claim of error as waived.  (In re Marriage of Fink, supra, 25 Cal.3d at p. 887.)  But 
+even if we were to consider EAR’s sufficiency-of-the-evidence challenge as having not 
+been waived, it nonetheless lacks merit.   
+  5. Substantial Evidence Supports the Trial Court’s Findings 
+JMR presented evidence from multiple sources that EAR’s breaches of the 
+subcontracts were a concurrent cause in the delay of the completion of the Project.  
+Steven Hupaylo, JMR’s job superintendent, testified that JMR’s drywall work was 
+delayed by EAR’s performance.  According to Hupaylo, JMR’s planned, methodical 
+approach to building out the interior was “held . . . up . . . [by EAR’s] not having 
+materials, not having skilled people, [and] not having any people sometimes.  That was 
+the biggest single issue.”  Because of the ongoing problems with EAR’s performance 
+under both subcontracts, JMR had to complete the drywall work in an inefficient, 
+piecemeal fashion.  Documentary evidence presented by JMR—including a number of 
+written communications from Spade to EAR—confirmed that (1) EAR’s plumbing and 
+electrical work was behind schedule; (2) some of EAR’s plumbing work was done 
+contrary to specifications; (3) EAR had performed work without proper quality controls; 
+(4) EAR had failed to timely deliver certain electrical products, thereby delaying the 
+ 18 
+Project; (5) EAR was responsible for multiple deficient or late submittals that resulted in 
+the Corps withholding payment under the prime contract; and (6) EAR was responsible 
+for numerous punch list items as of January 2008 that, two months later, it had not yet 
+addressed.  Spade also confirmed in his testimony that EAR’s deficient performance 
+under both subcontracts had resulted in several significant punch list items at the end of 
+the Project.  And Rivard testified that EAR’s failure to supply the air compressor delayed 
+JMR’s performance under the prime contract.  Furthermore, JMR’s retained construction 
+management expert, John Elmer, gave detailed testimony concerning EAR’s 
+responsibility for concurrent delays on the Project.  Elmer opined that of the 180 days of 
+critical path delay, EAR was concurrently responsible for 142 days of delay.  EAR 
+neither challenged Elmer’s expert qualifications nor presented its own expert testimony 
+to contradict Elmer’s opinions. 
+In urging there was no substantial evidence supporting the judgment, EAR 
+emphasizes the testimony of its owner, Pendurthi.  EAR argues that “Pendurthi provided 
+clear, positive and rationally believable testimony that the Project delays . . . were caused 
+in whole or in part by JMR itself.”  It cites to Pendurthi’s testimony that delays related to 
+the drywall installation and to time and cost overruns were due to matters chargeable to 
+JMR—i.e., the difficulty of achieving “level five” drywall finish and JMR’s choice of 
+using expensive, out-of-town labor.  But as trier of fact, “[t]he trial court [was] the 
+exclusive judge of the credibility of the witnesses.”  (People v. Duncan (2008) 160 
+Cal.App.4th 1014, 1018; see generally Eisenberg et al., Cal. Practice Guide:  Civil 
+Appeals and Writs, supra, ¶ 8:54, p. 8-26.)  The court was therefore free to discount or 
+reject Pendurthi’s testimony as self-serving, lacking in specifics, or otherwise lacking 
+credibility.  (See In re Ana C. (2012) 204 Cal.App.4th 1317, 1329 [appellate court cannot 
+substitute its assessment of witnesses’ credibility for the trial court’s credibility 
+assessment].)  It is clear the trial court did not credit Pendurthi’s testimony, finding in the 
+statement of decision, for instance, that (1) “Pendurthi’s contrary conclusory explanations 
+ 19 
+[regarding disruption and delay caused by EAR in the framing and drywall phase we]re 
+not credible”; (2) “Pendurthi’s conclusion that JMR’s alleged late finishing of the drywall 
+delayed EAR’s work [wa]s illogical”; and (3) EAR’s failure to produce documentary 
+evidence “to support Mr. Pendurthi’s testimony renders [his] testimony weak and 
+unreliable.”4  The court thus accepted the evidence presented by JMR—particularly 
+Hupaylo’s testimony—concerning delays caused by EAR in connection with the metal 
+framing and drywall phases of the Project.  Further, while EAR stresses Pendurthi’s 
+testimony that JMR’s failure to have on-site quality control personnel for a period of time 
+in the fall of 2006 caused delay, the trial court could have minimized or rejected this 
+testimony as well.  Indeed, there was no evidence that this delay early in the Project, 
+assuming its existence, was a delay under a critical path analysis. 
+EAR also argues that JMR’s damages expert, Juan Perez, provided testimony 
+negating JMR’s claim that EAR was responsible for delaying the project:  EAR argues 
+that Perez “testified that JMR was the cause of concurrent Project delays—upwards of 
+75% responsibility during a time in August 2007—for failing to timely submit 
+outstanding Project submittals.”  (Original emphasis.)  But the date cited by EAR is 
+misstated.  The correct date is August 2008, three months after the Corps accepted the 
+Project.  Perez called the several-months period after beneficial occupancy (May 14, 
+2008) the “Project Closeout” period.  And to the extent EAR’s argument is that Perez’s 
+damage calculation testimony should be disregarded because he admitted that JMR had 
+“upwards of 75% responsibility” for delays in the critical path timeline, JMR conflates 
+                                              
+ 4 The court, in its statement of decision, specifically rejected other testimony 
+presented by Pendurthi, including his assertion that there were precontract discussions in 
+which the parties plainly agreed that supplying an air compressor was outside the scope 
+of EAR’s duties under the plumbing subcontract.  Pendurthi testified at length concerning 
+this issue.  But because EAR does not challenge the trial court’s finding against EAR and 
+its award of damages to JMR concerning the air compressor, we do not recite that 
+testimony here.  
+ 20 
+two distinct parts of Perez’s testimony.  As discussed, post, Perez opined that EAR was 
+responsible for at least 75 percent of the delay damages sustained by JMR during the 
+142-day period in which EAR and another subcontractor, Countywide, were concurrently 
+responsible for delays in the critical path timeline.  Based upon EAR’s responsibility for 
+delays during this 142-day period, Perez calculated damages in the form of field overhead 
+and Eichleay damages.  The “Project Closeout” was a period of 13 weeks after the 142-
+day concurrent delay period.  Perez testified that during this period when the Project was 
+winding down, there were a number of outstanding contractor submittals.  Perez, on a 
+week-by-week basis, determined the total number of submittals on the Project, the 
+number of outstanding EAR submittals, and then multiplied EAR’s percentage of total 
+submittals by the total weekly field overhead.  During the third week of May 2008, for 
+example, the total field overhead was $6,641.73, EAR was responsible for 43 percent of 
+the outstanding submittals (36 of 84) during that week, so EAR’s proportional liability 
+for the week was $2,855.94.  During two weeks of August 2008, there were four 
+outstanding submittals—one was EAR’s and three were JMR’s.  Perez therefore allocated 
+25 percent of the weekly overhead to EAR for each these two weeks.  The fact that Perez 
+determined that JMR had 75 percent responsibility for delays during two weeks of 
+August 2008—and calculated damages based upon EAR’s 25 percent responsibility 
+during that period—has nothing to do with Perez assessment of damages based upon 
+EAR’s concurrent delay responsibility for the 142-day period preceding the Corps’s 
+acceptance of beneficial occupancy of the Project on May 14, 2008. 
+In addition to challenging the sufficiency of the evidence of causation for the 
+delay, EAR argues, in one sentence of its opening brief, that JMR “was unable to provide 
+substantial evidence as to any Project delay damages allegedly attributable to EAR.”  We 
+need not address this conclusory, undeveloped legal argument.  (Tilbury Constructors, 
+Inc. v. State Compensation Ins. Fund (2006) 137 Cal.App.4th 466, 482 [appellate 
+arguments raised in perfunctory fashion are deemed forfeited].)  We conclude EAR has 
+ 21 
+failed to sustain its burden of showing there was insufficient evidence to support the 
+judgment. 
+ B. Challenges to the Calculation of Contract Damages 
+In the alternative to its sufficiency-of-the evidence challenge, EAR contests the 
+court’s acceptance of the Eichleay formula of recovering home office overhead damages.  
+EAR also contends the court erred in applying the modified total cost method of 
+calculating the cost associated with delays in the framing and drywall phase of the 
+Project.  We will address these two challenges after first identifying the appropriate 
+standards of review.  At the outset, however, we will present a summary of the evidence 
+concerning JMR’s claims of damages.  
+  1. Evidence Concerning Damages 
+JMR presented evidence of damages that involved four categories:  (1) field 
+overhead delay damages; (2) home office overhead (Eichleay delay damages); (3) delay 
+damages associated with the framing and drywall phase of the Project, utilizing the 
+modified total cost method; and (4) costs associated with EAR’s failure to supply an 
+approved air compressor.  We will not summarize the air compressor damages, since they 
+are not at issue in this appeal.  But given their interrelationship with the Eichleay delay 
+damages, we will review the evidence of field overhead damages even though those 
+damages are not directly challenged by EAR.   
+   a. Field Overhead Damages 
+Daniel Spade, JMR’s project manager, testified that the Corps had rejected JMR’s 
+recovery of any extended overhead damages resulting from delays in the Project’s 
+completion.  The Corps rejected these damages because there were concurrent delays 
+caused by parties other than the Corps.  At trial, JMR’s construction management expert, 
+John Elmer, explained that when the owner of a public works project causes delay, and a 
+subcontractor or subcontractors concurrently cause delay, the owner may grant the 
+general contractor an extension of time to complete the project, but it will not grant the 
+ 22 
+general contractor compensable time (i.e., delay damages payable by the owner).  Elmer 
+testified that under such circumstances, the general contractor will typically seek delay 
+damages from the subcontractor, under the theory that the general contractor “should 
+have recovered compensable time, but . . . was precluded from [doing so] because of [the 
+subcontractor’s] delay.”   
+Juan Perez, a construction expert retained by JMR, provided extensive testimony 
+regarding JMR’s delay damages attributable to EAR.  Defendants did not challenge 
+Perez’s qualifications as an expert.  Perez testified that he has had experience in 
+presenting disruption claims on behalf of contractors.  A disruption claim is based upon a 
+contractor’s intended performance or method of performance being impacted by another 
+contractor or by an event, resulting in the contractor’s performance being more costly 
+because it is either done out of sequence or for an extended duration.   
+Perez calculated JMR’s damages based upon (1) his review of the project 
+documents, and (2) his reliance upon the opinions of John Elmer, JMR’s construction 
+management expert.  Specifically, Perez relied upon Elmer’s opinions that (1) there was a 
+critical path delay that extended the Project’s completion by 180 days; (2) 180 days is 
+reflected in change orders issued by the Corps extending the Project’s completion date; 
+(3) the parties responsible for the delays were the Corps and three subcontractors (EAR, 
+Countywide Mechanical, and Del Monte Glass); (4) EAR and Countywide were each 
+concurrently responsible for 142 days of the 180 days of delay; (5) within the 142-day 
+period, Del Monte Glass was concurrently responsible for 28 days of delay.   
+Perez opined that, under the two subcontracts combined, EAR was responsible for 
+at least 75 percent of the delay damages sustained by JMR during the 142-day concurrent 
+delay period identified by Elmer.  Perez arrived at this percentage allocation after 
+considering (a) Elmer’s allocation of EAR’s responsibility for concurrent delays 
+(63 percent); (b) a determination of EAR’s percentage of the total contract value of the 
+ 23 
+mechanical, electrical, and plumbing trades (67 percent); and (c) the percentage of punch 
+list items for the 142-day concurrent delay period (83 percent).   
+Perez also rendered the opinion that JMR sustained field overhead damages 
+associated with EAR’s concurrent delay.  Field overhead costs are the costs a contractor 
+incurs in maintaining its field operations, including cost items such as storage trailers, 
+office trailers, and a job superintendent’s salary.  Perez concluded that JMR’s total field 
+overhead damages for which EAR was responsible was $161,851.33. 
+   b. Home Office Overhead Damages 
+Perez testified that he calculated damages for JMR’s home office costs (otherwise 
+known as unabsorbed overhead costs) using the Eichleay formula.  Perez explained that 
+this formula “is a method of allocating those home office overhead costs to a project that 
+[has] been extended or delayed.”  According to Perez, the Eichley formula is the 
+“exclusive method approved by the Federal Government to arrive at the fair 
+compensation amount for unabsorbed overhead costs.”  He testified that “[b]ut for the 
+concurrent delays on the project, the Eichleay [f]ormula would have been used by both 
+JMR and the Government to arrive at the fair compensation amount for unabsorbed 
+overhead costs that belonged to JMR.”   
+   c. Framing and Drywall Phase Damages 
+JMR qualified its vice-president, Ron Rivard, as an expert witness in estimating 
+interior framing and drywall work.  Rivard had over 30 years’ experience as a licensed 
+general contractor, and approximately 35 years as an estimator in which he had estimated 
+at least 300 jobs.   
+Rivard testified that he prepared the bid for the framing and drywall phase of the 
+Project.  In doing so, he utilized the plans in an electronic format and used computer 
+software to perform a detailed cost takeoff.  The takeoff yielded a bill of materials, and 
+the software automatically assigned a labor factor indicating the number of labor hours 
+associated with the particular area of work.  The labor factor was based upon historical 
+ 24 
+data, i.e., JMR’s experience in constructing buildings similar to the building in the 
+Project.  The total bid for the framing and drywall phase was $220,000, an amount JMR 
+assumed would be sufficient to perform the work in an orderly fashion and with a 
+reasonable crew size.  Rivard testified he was unaware of any mistakes in the bid, and 
+opined that $220,000 was a reasonable cost for that phase of the Project.    
+Craig Connerty, a certified public accountant with 27 years of experience, testified 
+as an expert on JMR’s behalf.  JMR had been a client of Connerty’s accounting firm for 
+over 15 years.  Connerty reviewed the costs posted in JMR’s books allocated to the 
+framing and drywall phase of the Project.  He testified that the total costs allocated to this 
+phase was $461,535, and he reviewed the subcategories of those costs.  Connerty “did a 
+lot of testing with regard to the accounts for reasonableness” by selecting a number of 
+different invoices for review before arriving at the $461,535 figure.  Connerty also noted 
+that this figure should be reduced by approximately $48,200 to account for costs that, 
+based upon his conversation with Rivard, were erroneously posted to the framing and 
+drywall phase.  
+Perez offered testimony relating to disruption damages for the framing and 
+drywall phase.  In forming his opinion, Perez spoke with job superintendent Steven 
+Hupaylo, project manager Daniel Spade, and JMR’s vice president Ron Rivard.  Perez 
+also reviewed documents identifying the costs of the framing and drywall phase; certified 
+payroll figures indicating the number of workers on the job site during that phase; and 
+other correspondence.  Perez relied on Hupaylo’s testimony to the effect “that every wall 
+was impacted by EAR’s performance, meaning that the impacts and the costs [were] 
+intrinsically intertwined [and it was] difficult if not impractical or impossible to segregate 
+[the] individual impacts.”  In calculating disruption damages, Perez performed a 
+“modified total cost analysis.”  He described this approach as follows:  “[Y]ou would 
+take a selected portion of the contractor’s costs that he incurred and subtract from that the 
+ 25 
+contractor’s budget for those items, removing . . . items which were not part of the 
+original budget . . . to ensure you’re comparing apples to apples.”   
+Thus, one component of Perez’s calculation was the original bid.  Perez did an 
+independent analysis of JMR’s bid for the framing and drywall phase.  He found that 
+Rivard’s bid contained the kind of detail indicative of a good estimate, the bid used 
+methods that were “consistent with other contractors,” and the bid was “based on 
+historic[al] information[,] which is also important.”  Perez testified that he “was satisfied” 
+with Rivard’s bid and that the numbers within it “appeared reasonable.”  He noted that in 
+comparing the material costs in the bid with the actual material costs, “the material 
+estimate was almost dead on.”  He also noted that because labor estimates are based upon 
+the material scheduled, the fact that the actual cost of materials was consistent with the 
+estimate for those materials was “a good indication of a good estimate.”  He concluded 
+that “if your material estimate is off, your labor estimate would be off.  And Mr. Rivard’s 
+material estimate was on, was accurate.”   
+Perez also reviewed the “logged” costs that related to the framing and drywall 
+phase of the Project.  This amount totaled $461,534.  Perez subtracted the costs that had 
+been incorrectly allocated to the framing and drywall phase.  These were the same figures 
+identified in the testimony of JMR’s accounting expert, Craig Connerty.  Perez also 
+subtracted a per diem figure associated with the erroneously posted costs.  Perez then 
+calculated the total amount of disruption damages allocable to EAR relating to the 
+framing and drywall phase, which he determined to be $185,729.  
+  2. Standards of Review 
+An appellant’s challenge to damages, depending upon its specific nature, may be 
+subject to a substantial evidence, abuse of discretion, or de novo standard of review.  The 
+question of whether a plaintiff was, in fact, damaged by the defendant’s breach of 
+contract is reviewed for substantial evidence.  (See GHK Associates v. Mayer Group, Inc. 
+(1990) 224 Cal.App.3d 856, 873 (GHK).)  The question of whether “a certain measure of 
+ 26 
+damages is permissible given the legal right the defendant has breached, is a matter of 
+law, subject to de novo review.  [Citation.]”  (New West Charter Middle School v. Los 
+Angeles Unified School Dist. (2010) 187 Cal.App.4th 831, 843 (New West); see also 
+Hurtado v. Superior Court (1974) 11 Cal.3d 574, 579.)  But where the measure of 
+damages is legally permissible, a trial court’s choice of that measure, among other legally 
+permissible measures of damages, is reviewed for abuse of discretion.  (New West, at 
+p. 843, citing GHK, at p. 873.) 
+EAR contends that neither the Eichleay formula nor the modified total cost 
+method was legally authorized in this case.  EAR does not make the further argument 
+that, assuming the legal validity of these damage calculations, the court abused its 
+discretion by selecting them over other legally permissible methods of computing 
+damages.  Accordingly, we review the legal propriety of the court’s use of the two 
+damages calculations de novo.  In addition, EAR contends that, even assuming the legal 
+validity of the Eichleay formula, JMR failed to establish the requisite elements for its 
+application, a question we review under the substantial evidence standard of review. 
+  3. Challenges to the Eichleay Formula 
+   a. The Eichleay Formula 
+As explained by JMR’s expert, Juan Perez, the Eichleay formula “is a method of 
+allocating those home office overhead costs to a project that [have] been extended or 
+delayed.”  It originated from a case before the Armed Services Board of Contract 
+Appeals (see Eichleay Corp. (A.S.B.C.A.1960) 60-2 BCA (CCH) 2688), and it is 
+typically used in federal litigation involving federal public works projects.  (See, e.g., P.J. 
+Dick Inc. v. Principi (Fed.Cir.2003) 324 F.3d 1364, 1370; Altmayer v. Johnson 
+(Fed.Cir.1996) 79 F.3d 1129, 1132-1133 (Altmayer).)  The Federal Circuit has held that 
+“the Eichleay formula is the only means for calculating recovery for unabsorbed home 
+office overhead.”  (E.R. Mitchell Const. Co. v. Danzig (Fed.Cir.1999) 175 F.3d 1369, 
+1372, italics original; see also Nicon, Inc. v. U.S. (Fed.Cir.2003) 331 F.3d 878, 884.) 
+ 27 
+As explained by the Altmayer court:  “Home office overhead costs are those that 
+are expended for the benefit of the whole business, which by their nature cannot be 
+attributed or charged to any particular contract.  [Citation.]  In contracting with the 
+government, a company necessarily includes a portion of home office overhead expenses, 
+which it calculates based on the contract’s duration, in its estimate of costs to perform the 
+contract.  [Citation.]  When the government delays or disrupts contract performance, 
+ultimately requiring that it be extended, the contractor’s stream of income from the 
+government for the direct costs it has incurred under the contract is reduced or 
+interrupted.  [Citation.]  However, home office overhead continues to accrue throughout 
+both the original and extended performance periods, regardless of direct contract activity.  
+[Citations.]  This, of course, results in a reduction or interruption of payments for 
+overhead, especially when, as here, the contractor has prepared a critical path schedule, 
+for any delay along the critical path results in the delay of the overall project.”  
+(Altmayer, supra, 79 F.3d at p. 1132.) 
+There are three steps in the calculation of extended overhead using the Eichleay 
+formula.  They are (1) “to find [the] allocable contract overhead [by] multiply[ing] the 
+total overhead cost incurred during the contract period times the ratio of billings from the 
+delayed contract to total billings of the firm during the contract period; [(2)] to get the 
+daily contract overhead rate, divide allocable contract overhead by days of contract 
+performance; and [(3)] to get the amount recoverable, multiply the daily contract 
+overhead rate times days of government-caused delay.  [Citation.]”  (Wickham 
+Contracting Co., Inc. v. Fischer (Fed.Cir. 1994) 12 F.3d 1574, 1577, fn. 3 (Wickham 
+Contracting).) 
+   b. Legal Propriety of Using Eichleay Formula 
+EAR argues it was improper for the court to accept JMR’s proffer of the Eichleay 
+formula to establish its unabsorbed overhead damages caused by EAR’s concurrent 
+delay.  EAR asserts there is no legal precedent for applying the formula because (1) there 
+ 28 
+have been no published California decisions endorsing its use, and (2) there is no legal 
+authority authorizing its use in situations, such as here, where the defendant causing the 
+delay was not the government.  EAR also urges that Perez, JMR’s expert, “admitted 
+application of the Eichleay formula is ‘debated.’ ”5 
+Under Civil Code section 3300, a party may recover for a breach of contract a sum 
+that will compensate it “for all the detriment proximately caused thereby, or which, in the 
+ordinary course of things, will be likely to result therefrom.”  “[I]n the law of contracts 
+the theory is that the party injured by a breach should receive as nearly as possible the 
+equivalent of the benefits of performance.  [Citations.]  The aim is to put the injured party 
+in as good a position as [it] would have been had performance been rendered as 
+promised.  This aim can never be exactly attained yet that is the problem the trial court is 
+required to resolve.  [Citation.]”  (Brandon & Tibbs v. George Kevorkian Accountancy 
+Corp. (1990) 226 Cal.App.3d 442, 454; see also Lewis Jorge Const. Management, Inc. v. 
+Pomona Unified School Dist. (2004) 34 Cal.4th 960, 967-968 (Lewis Jorge).)  “Where 
+the fact of damages is certain . . . the amount of damages need not be calculated with 
+absolute certainty.  The law requires only that some reasonable basis of computation be 
+used, and the result reached can be a reasonable approximation.”  (Acree v. General 
+Acceptance Corp. (2001) 92 Cal.App.4th 385, 398, fns. omitted, italics in original 
+(Acree); see also SCI Cal. Funeral Services, Inc. v. Five Bridges Foundation (2012) 
+203 Cal.App.4th 549, 570 (SCI Cal. Funeral Services).) 
+                                              
+ 5 Perez was asked if there was any criticism of the Eichleay formula.  He 
+responded:  “I’m aware of . . . different cases—certainly Eichleay is a formula which is 
+the subject of a lot of cases and the application of Eichleay is debated and . . . it’s an 
+evolving formula.  And I try to keep up-to-date with the evolution of it, but that’s what 
+I’m aware of.”  After again being asked if he was aware of any criticisms of the formula, 
+Perez responded:  “Criticisms?  Not criticisms more than just the applicability of it—of 
+the formula.”   
+ 29 
+Delay damages are a common element recoverable by a party aggrieved by the 
+breach of a construction contract.  (See, e.g., Coughlin v. Blair (1953) 41 Cal.2d 587, 
+603-604 [plaintiffs entitled to damages for increased building costs and loss of use of 
+property resulting from defendants’ delay in performance of contract to pave road and 
+install utilities]; State of California ex rel. Dept. of Transportation. v. Guy F. Atkinson 
+Co. (1986) 187 Cal.App.3d 25, 32-34 (Guy F. Atkinson) [contractor entitled to disruption 
+and delay damages caused by material changes to contract ordered by state]; Bird v. 
+American Surety Co. (1917) 175 Cal. 625, 631 [delay damages incurred by owner, 
+including rental losses, recoverable].)  A subcontractor who is responsible for delaying 
+the progress of a construction project may be held liable for delay damages incurred by 
+the general contractor or by another subcontractor.  (10 Miller & Starr, Cal. Real Estate 
+(3d ed. 2001) § 27:39, p. 109.)  Increased overhead expenses incurred by a general 
+contractor as a result of the subcontractor’s breach may be an item of recoverable 
+damages.  (See Allen v. Gardner (1954) 126 Cal.App.2d 335, 344.)   
+As explained in one treatise:  “A building contractor whose performance is 
+delayed by the owner may have increased overhead and fixed costs resulting from a delay 
+and may suffer labor and material cost increases or loss of labor productivity due to 
+delays for all of which he or she would be entitled to damages.”  (Cal. Attorney’s Guide 
+to Damages (Cont.Ed.Bar 2d ed. 2014) § 1.49, p. 1-50.)  Extended home office overhead 
+is one type of delay damages for which a contractor may seek recovery.  (See Cal. 
+Construction Contracts, Defects, and Litigation (Cont.Ed.Bar 2013) §§ 5.107, 6.86, pp. 
+394, 537; Gibbs & Hunt, Cal. Construction Law (17th ed. 2011) Construction Claims, 
+§ 6.07[F], p. 441.) 
+We acknowledge there are no reported California appellate decisions approving 
+the use of the Eichleay formula.  In the only reported California case addressing the 
+formula, the appellate court did not decide the legal propriety of its use because the 
+municipality against which such damages were sought did not dispute the formula’s 
+ 30 
+general applicability to construction delay claims.  (See Howard Contracting, Inc. v. G.A. 
+MacDonald Construction Co., Inc. (1998) 71 Cal.App.4th 38, 53.) 
+We do not infer from the absence of California authority that the Eichleay formula 
+is unavailable as proof of delay damages in this state.  As has been observed in one 
+treatise:  “The federal government developed the Eichleay formula to compute the 
+amount of home office overhead expense for which a government contractor should be 
+reimbursed for a period of delay.  Although the formula has not been discussed in a 
+reported California case, it is frequently used at the trial court level and in arbitration 
+proceedings to compute damages.”  (Cal. Construction Contracts, Defects, and Litigation, 
+supra, § 5.107, p. 394.)6 
+That the circumstances of this case are different from those in which Eichleay 
+damages are typically discussed in reported decisions—i.e., the general contractor 
+seeking delay damages from a subcontractor, rather than from a governmental 
+agency/owner—does not preclude use of the formula.  JMR presented unrebutted 
+testimony from Daniel Spade that because there were concurrent delays, the Corps 
+rejected JMR’s effort to recover extended overhead damages from the Corps.  And 
+JMR’s construction management expert, John Elmer, testified that when the owner of a 
+public works project causes delay, but a subcontractor or subcontractors concurrently 
+cause delay, the owner may grant the general contractor additional time but it will not 
+grant the general contractor compensable time (i.e., delay damages).  Elmer testified that 
+under such circumstances, the general contractor will typically seek delay damages from 
+the subcontractor under the theory that the general contractor “should have recovered 
+                                              
+ 6 We acknowledge it is stated elsewhere in the treatise that, because California 
+courts have not adopted the Eichleay formula in any published decision, “[t]he 
+applicability of [it] to public or private construction projects in California is 
+questionable.”  (Cal. Construction Contracts, Defects, and Litigation, supra, § 6.86, 
+p. 538.) 
+ 31 
+compensable time, but . . . was precluded from [doing so] because of [the 
+subcontractor’s] delay.”  (See William F. Klingensmith, Inc. v. U.S. (Fed.Cir. 1984) 
+731 F.2d 805, 809 [contractor generally denied recovery for government-caused delays 
+where there are concurrent delays and absent “ ‘proof a clear apportionment of the delay 
+and expense attributable to each . . .’ ”]; Gibbs & Hunt, Cal. Construction Law, supra, 
+Construction Claims, § 6.07[E], p. 440 [where owner causing project delays shows that 
+“simultaneous cause of delay was the contractor’s own mismanagement of the project,” 
+and delays “contributed to or overlapped the owner caused delays, then they may be 
+considered concurrent and may be treated as noncompensable delays”].)  EAR presented 
+no expert testimony of its own to rebut JMR’s expert testimony concerning Eichleay 
+damages. 
+We conclude the trial court did not err in applying the Eichleay formula as a 
+legally permissible method of determining JMR’s home office overhead damages.  We 
+base this conclusion upon the expert evidence presented at trial, the general recoverability 
+of extended home office overhead as an element of delay damages, and the federal 
+courts’ general acceptance of the Eichleay formula.  In other words, the calculation of 
+extended home office overhead damages using the Eichleay formula was an appropriate 
+method to compensate JMR “for all the detriment proximately caused” by EAR’s breach 
+of contract.  (Civ. Code, § 3300.)  That recovery facilitates “[t]he goal [of placing] the 
+plaintiff ‘in as good a position as he or she would have occupied’ if the defendant had not 
+breached the contract.  [Citation.]”  (Lewis Jorge, supra, 34 Cal.4th at p. 967, quoting 24 
+Williston on Contracts (4th ed.2002) § 64:1, p. 7.)  Indeed, it would be anomalous to 
+allow recovery to JMR for Eichleay extended home office overhead damages in a claim 
+against the government-owner—had there been no concurrent delay and where, as here, 
+JMR had established the fact of such damages and causation—while denying such 
+recovery from EAR where EAR was concurrently responsible for the delay.   
+ 
+ 32 
+   c. Proof of Elements of Eichleay Formula 
+EAR also challenges the use of the Eichleay formula on the basis that JMR did not 
+establish the requisite elements for its application.  The federal courts have identified 
+three Eichleay requirements.  “[T]he contractor [must] establish:  (1) a government-
+caused delay; (2) that [the contractor] was on ‘standby’; and (3) that [the contractor] was 
+unable to take on other work.  [Citation.]”  (Altmayer, supra, 79 F.3d at p. 1133.)  EAR 
+asserts there was no evidence JMR was unable to take on other work.   
+JMR presented evidence, through Perez, concerning JMR’s inability to obtain 
+other work.  Perez’s expert testimony was based in large part upon his conversations with 
+Rivard and JMR’s bonding agent, Sharon Rusconi.  Perez testified that JMR was a 
+woman-owned business that received work on Small Business Administration Section 8A 
+projects.  Such projects are not strictly bid competitively; contract awards are largely 
+dependent on the contractor’s ratings.  Perez testified that as a result of Project delays 
+during the 142-day concurrent delay period, JMR’s rating was downgraded to marginal.  
+This rating downgrade negatively impacted JMR’s ability to obtain new work.  Rivard 
+informed Perez that during the period of November 2007 through sometime in 2008, 
+JMR could not obtain a bid bond.  JMR was thus precluded from bidding on public 
+projects and could not get other work.7    
+This evidence constituted substantial evidence of the third Eichleay prerequisite, 
+i.e., “that [JMR] was unable to take on other work.  [Citation.]”  (Altmayer, supra, 
+79 F.3d at p. 1133.)  Accordingly, EAR’s claim that there was insufficient evidence 
+supporting application of the Eichleay formula fails.8 
+                                              
+ 7 EAR did not assert any evidentiary objections at trial to this testimony, forfeiting 
+any such objections on appeal.  (See SCI Cal. Funeral Services, supra, 203 Cal.App.4th 
+at pp. 563-565 [appellant’s challenges to admissibility of expert testimony forfeited due 
+to failure to preserve them in trial court].)  
+ 8 EAR also argues JMR’s damages were improperly calculated because Perez 
+included impermissible expenses such as advertising and entertainment as part of its 
+ 33 
+  3. Challenges to Modified Total Cost Method 
+EAR contends the court erred in several respects in using the modified total cost 
+method in its award of delay damages relating to the framing and drywall phase.  “The 
+total cost method derives damages as the difference between a contractor’s actual costs 
+and its original bid.”  (Servidone Const. Corp. v. U.S. (Fed.Cir. 1991) 931 F.2d 860, 861.)  
+In the event some of the costs of the contractor are deemed unreasonable or were the 
+result of “its own errors or omissions, then those costs are subtracted from the damages to 
+arrive at a modified total cost.  [Citation.]”  (Dillingham-Ray Wilson v. City of Los 
+Angeles (2010) 182 Cal.App.4th 1396, 1408 (Dillingham-Ray Wilson); see Annot., “Total 
+Cost Method (or Approach)” and “Modified Total Cost Method (or Approach)” to 
+Proving Damages in State Contract Cases (2004) 124 A.L.R.5th 375, 389 [modified total 
+cost approach may be utilized where most damages are attributable to defendant and 
+“contractor can isolate and quantify those damages that arose due to causes for which the 
+contractor is responsible”].)  As explained by the California Supreme Court, to invoke the 
+total cost method for recovering damages, a contractor must establish “(1) the 
+impracticality of proving actual losses directly; (2) [its] bid was reasonable; (3) its actual 
+costs were reasonable; and (4) it was not responsible for the added costs.  [Citation.]”  
+(Amelco Electric v. City of Thousand Oaks (2002) 27 Cal.4th 228, 243 (Amelco); see also 
+id. at pp. 243-244 [“trial court bears the initial responsibility of determining that each 
+element of the four-part test” is satisfied].) 
+EAR, citing Amelco, supra, 27 Cal.4th at page 243, contends the total cost method 
+of computing damages “is generally disfavored” under the law.  Although not favored, 
+the total cost method—along with its subcategory, the modified total cost method—has 
+been recognized in California as an appropriate way of computing damages.  (See, e.g., 
+                                                                                                                                                  
+home office overhead.  But Perez testified that the advertising and entertainment 
+expenses were insignificant and did not affect his calculation under the Eichleay formula.   
+ 34 
+Guy F. Atkinson Co., supra, 187 Cal.App.3d at p. 32; C. Norman Peterson C. v. 
+Container Corp. of America (1985) 172 Cal.App.3d 628, 646-647; see also California 
+Civil Jury Instruction (CACI) No. 4541.)  Further, although our high court in Amelco—
+because the municipality did not contest the issue—declined to decide whether the total 
+cost formula was an appropriate method of calculating damages in a breach of a public 
+contract case (Amelco, at p. 242), the Second District Court of Appeal, Division Two, 
+concluded that the Amelco court in fact upheld common law principles “permit[ting] a 
+public contractor to pursue either a total cost theory or a modified total cost theory.”  
+(Dillingham-Ray Wilson, supra, 182 Cal.App.4th at p. 1408.)  The court reached this 
+conclusion because Amelco cited Guy F. Atkinson, supra, 172 Cal.App.3d 25, and did not 
+disapprove of the result in that case.  (Dillingham-Ray Wilson, at p. 1408.) 
+The California Supreme Court has emphasized that one of the major concerns in 
+the use of the total cost method is that it not be used as “ ‘a substitute for proof of 
+causation.’  [Citation.]”  (Amelco, supra, 27 Cal.4th at p. 244.)  Here, there was 
+substantial evidence of a causal connection between the extra cost JMR incurred in the 
+Project’s framing and drywall phase and EAR’s breach of contract.  Moreover, the 
+cautionary statement in Amelco that the total cost method “ ‘should be applied only to the 
+smallest affected portion of the contractual relationship that can be clearly identified’ 
+[citation]” was heeded:  JMR used the modified total cost method to calculate damages 
+related only to the framing and drywall phase of the Project, not to damages related to the 
+entire Project. 
+EAR also contends there was a lack of evidence to support a finding of the four 
+prerequisites recited in Amelco (hereafter the Amelco elements) for use of the modified 
+total cost method.  As we discuss below, the trial court specifically addressed each of the 
+Amelco elements in its statement of decision, and substantial evidence supported the 
+court’s conclusions that JMR established each element. 
+ 35 
+The trial court specifically found JMR had established the first Amelco element—
+“the impracticality of proving actual losses directly.”  (Amelco, supra, 27 Cal.4th at 
+p. 243.)  In so concluding, the court cited the testimony of JMR’s job superintendent, 
+Steven Hupaylo, which it found credible.  As the court stated, Hupaylo had testified that 
+JMR had a good design for performing the framing and drywall work, but he (Hupaylo) 
+“had to wait for EAR to complete its rough-in work before he could complete the walls, 
+and, because of EAR’s delays, he never had all four walls and a ceiling in any room to 
+work with.”  The trial court concluded:  “Consequently, the disruption occurred 
+throughout the entire period of that work, was not confined to one particular section or 
+time, so [it] could not be tracked specifically as the disruption occurred.”  Furthermore, 
+Perez testified, based upon Hupaylo’s testimony, that because “every wall was impacted 
+by EAR’s performance, [this] mean[t] that the impacts and the costs are intrinsically 
+intertwined [and it is] difficult if not impractical or impossible to segregate [the] 
+individual impacts.”   
+The trial court also found JMR had established the second Amelco element, i.e., 
+the reasonableness of its bid.  (Amelco, supra, 27 Cal.4th at p. 243; see Gibbs & Hunt, 
+Cal. Construction Law, supra, Construction Claims, § 6.14[A], p. 471 [stressing the 
+importance of accuracy of bid estimate to contractor’s claim under total cost method].)  
+The court noted that (1) Rivard, as an expert experienced in estimating, testified 
+concerning his methodology for preparing his bid, and opined that the bid for the framing 
+and drywall phase was reasonable; (2) Perez reviewed the bid, noted that Rivard’s 
+methodology was consistent with other contractors and was based upon historical 
+information, and was satisfied it was accurate; (3) Perez opined the $220,000 stated in the 
+bid was a reasonable cost for the framing and drywall phase; and (4) EAR offered no 
+expert testimony to rebut or contradict the reasonableness of the framing and drywall bid.   
+Likewise, the court concluded JMR’s actual costs for the framing and drywall 
+phase were reasonable—the third Amelco element.  (Amelco, supra, 27 Cal.4th at p. 243.)  
+ 36 
+In concluding that “the actual costs were reasonable and accurately recorded,” the trial 
+court cited to the testimony of JMR’s experts, Connerty and Perez.  It noted that 
+Connerty reviewed JMR’s costs associated with the framing and drywall phase, and that 
+Connerty’s work was “substantial.”  The trial court indicated that Connerty “did not just 
+accept JMR’s numbers; he [‘]did a lot of testing[’] of the accounts for reasonableness by 
+actually reviewing a number of invoices, and conducted an independent analysis.”   
+Finally, the trial court found JMR was not responsible for the added costs—the 
+fourth Amelco element.  (Amelco, supra, 27 Cal.4th at p. 243.)  It concluded EAR was 
+solely at fault for the disruption in the completion of the framing and drywall phase.  The 
+court cited the testimony of Hupaylo that because of EAR’s delays in “not having 
+materials, not having skilled people, and sometimes not having any people working at all, 
+JMR’s crews had to work piecemeal” and in an inefficient manner to complete the work.  
+The court “accept[ed] the testimony of Steve Hupaylo as accurate.”  It also relied on 
+Perez’s testimony that, based upon his review of certified payroll records, “the number of 
+[EAR] workers reported on the certified payroll corresponded with the low percentage of 
+completion.”  Perez also testified that EAR’s rough-in work took four months to 
+complete, notwithstanding that EAR had scheduled 34 days for the work.  The trial court 
+agreed with Perez’s “conclusion that . . . JMR was confronted with the incomplete work 
+and stacking of trades, which disrupted its efficiency.”    
+EAR points to testimony it presented to suggest that JMR’s cost overruns were 
+due to its hiring of expensive out-of-town labor and the high level of quality required for 
+the drywall finish.  But the trial court rejected these arguments.  The court indicated in its 
+statement of decision that “Pendurthi’s contrary conclusory explanations [regarding the 
+framing and drywall disruption we]re not credible,” and the court found Pendurthi’s 
+“testimony weak and unreliable.”  Moreover—as was the case with JMR’s presentation 
+of Eichleay damages—EAR offered no expert testimony to contradict JMR’s showing 
+ 37 
+that the modified total cost method was appropriate for calculating its damages associated 
+with the framing and drywall phase. 
+As a variant of its contention that the court erred in concluding JMR was not 
+responsible for the added cost, EAR argues, quoting from Amelco at p. 246, that damages 
+were not recoverable under this method because JMR did not “ ‘distinguish between 
+those inefficiencies that were [JMR’s] and those believed to be the responsibility of the 
+[Army] (and presumably other prime contractors and subcontractors).’ ”  But the court 
+rejected EAR’s contention that JMR was responsible for inefficiencies in the framing and 
+drywall phase, and there was substantial evidence to support the court’s conclusion. 
+Lastly, EAR contends the disruption damages awarded by the court were 
+“admittedly inaccurately calculated” because they failed to account for a $90,000 
+miscoding error about which Rivard testified.  This argument relates to cross-examination 
+in which defendants’ counsel asked if Rivard had given prior deposition testimony to the 
+effect that there was an approximate $90,000 miscoding of costs that were not related to 
+the framing and drywall phase of the Project.  Defendants raised this issue twice in their 
+posttrial briefing.  The trial court addressed this contention in its statement of decision.  
+The court concluded that Rivard’s deposition testimony concerning the “$90,000 coding 
+overcharge” was essentially superseded by testimony from Perez and Connerty that, 
+shortly before trial, Rivard advised them that the adjustment for miscoded items was 
+approximately $48,200.9  The trial court thus characterized the $90,000 coding error as a 
+“relatively unfocused pre-trial examination estimate” that did not warrant further 
+consideration in its award of damages.  Giving deference to the court’s role as trier of 
+                                              
+ 9 The statement of decision recites that the figure given by Rivard to Perez and 
+Connerty shortly before trial was “a final $428,200 adjustment for items that were 
+properly counted for tasks other than metal studs and drywall.”  This is an obvious 
+typographical error, as Connerty testified the figure was “$48,200 and something” and 
+Perez testified the figure was $48,262.   
+ 38 
+fact, we conclude there was no error in disregarding the purported $90,000 coding error 
+in determining JMR’s disruption damages. 
+We thus conclude there was no legal impediment to JMR’s use of the modified 
+total cost method of calculating its damages associated with the framing and drywall 
+phase of the Project.  The trial court was justified in concluding that JMR had established 
+each of the four Amelco elements required for utilizing this method.  (Amelco, supra, 
+27 Cal.4th at p. 243.)  The fact that the damages claimed using this formula may have 
+only been a reasonable approximation of JMR’s loss associated with this phase of the 
+Project is not an obstacle to its use, since the fact of such damages was established by 
+substantial evidence.  (Acree, supra, 92 Cal.App.4th at p. 398.) 
+ C. EAR’s Challenges to the Statement of Decision 
+Interwoven throughout its briefs on appeal is EAR’s challenge to the legal 
+sufficiency of the trial court’s statement of decision.  Citing repeatedly to Duff v. Duff 
+(1967) 256 Cal.App.2d 781—a case that predated by 14 years the Legislature’s 
+amendment of section 632 to provide a procedure governing statements of decision in 
+civil trials (see Stats. 1981, ch. 900, § 1, p. 3425)—EAR claims that because of the 
+court’s alleged failure to make findings, “reversal of the Judgment . . . is compelled.”  We 
+conclude the statement of decision is legally sufficient.. 
+Section 632 provides in relevant part:  “The court shall issue a statement of 
+decision explaining the factual and legal basis for its decision as to each of the principal 
+controverted issues at trial upon the [timely] request of any party appearing at the trial.”  
+The statement of decision need only “ ‘state ultimate rather than evidentiary facts.’ ”  (In 
+re Marriage of Garrity and Bishton (1986) 181 Cal.App.3d 675, 686.)  The court is not 
+required “to make an express finding of fact on every factual matter controverted at trial, 
+where the statement of decision sufficiently disposes of all the basic issues in the case.  
+[Citations.]”  (Bauer v. Bauer (1996) 46 Cal.App.4th 1106, 1118 (Bauer).)  Stated 
+otherwise, “[a] statement of decision need not address all the legal and factual issues 
+ 39 
+raised by the parties.  Instead, it need do no more than state the grounds upon which the 
+judgment rests, without necessarily specifying the particular evidence considered by the 
+trial court in reaching its decision.  [Citations.]”  (Muzquiz v. City of Emeryville (2000) 
+79 Cal.App.4th 1106, 1124-1125 (Muzquiz).)  As this court has stated, “ ‘ “[u]ltimate 
+fact[]” ’ is a slippery term, but in general it refers to a core fact, such as an element of a 
+claim or defense, without which the claim or defense must fail.  [Citation.]  It is 
+distinguished conceptually from ‘evidentiary facts’ and ‘conclusions of law.’  [Citation.]”  
+(Yield Dynamics, Inc. v. TEA Systems Corp. (2007) 154 Cal.App.4th 547, 559 (Yield 
+Dynamics).)   
+After the court issued its tentative decision on April 30, 2012, defendants 
+submitted a request for a statement of decision and a 72-item list of purported 
+controverted issues they wished to have addressed.  At the court’s direction in its 
+tentative ruling, JMR submitted a proposed statement of decision on May 29, 2012.  
+Following receipt of defendants’ objections to JMR’s proposed statement of decision, the 
+court signed a 23-page statement of decision on July 19, 2012.   
+In its opening brief, EAR identifies 16 “controverted issues” the court allegedly 
+failed to address.  EAR argues the failure to address these issues requires reversal of the 
+judgment.10  We have reviewed each of these “controverted issues.”  Like the 
+controverted issues this court considered in Yield Dynamics, EAR’s issues are 
+                                              
+ 10 EAR states in its opening brief that “JMR’s proposed statement of decision 
+[ultimately adopted by the court] failed to provide written findings on not less than fifty-
+one (51) controverted issues raised in EAR’s request.”  But EAR identifies and provides 
+argument relative to only 16 of the “controverted issues” it contends the court failed to 
+address.  We need not identify or discuss the remaining 35 “controverted issues” 
+purportedly not addressed by the court in its statement of decision.  (Dills v. Redwoods 
+Associates, Ltd. (1994) 28 Cal.App.4th 888, 890, fn. 1 [appellate court has no obligation 
+to “develop the appellants’ arguments for them”]; see also In re S.C. (2006) 
+138 Cal.App.4th 396, 406 [appellate court is not required to search the record in order to 
+discover support for the litigant’s position].)  
+ 40 
+“compound, argumentative, tendentious, or vague, reading more like interrogatories” 
+than “controverted issues” properly identified under section 632.  (Yield Dynamics, 
+supra, 154 Cal.App.4th at p. 558.)   
+Contrary to EAR’s assertions, some of the identified issues were specifically 
+addressed by the trial court in its statement of decision.  For instance, the trial court 
+addressed, in several different places, the following purportedly unaddressed issue:  “4) 
+How did EAR’s acts or omissions allegedly constituting a material breach of the 
+Plumbing Subcontract cause JMR any damage?”11  Other issues—essentially 
+interrogatories—asked the trial court to cite legal authority in support of various aspects 
+of its decision.  Several issues were compound, argumentative and tendentious.  For 
+instance, one request (issue “58”) asked the court to identify the “legal authority [under 
+which] EAR [is] responsible for JMR’s own delays to the project where the Army Corps 
+of Engineers recognized that JMR was 5% behind schedule, that JMR’s three phase 
+inspections were ‘lacking,’ that JMR’s superintendence was ‘lacking,’ that JMR was 
+‘working without activity hazard analysis,’ and where JMR had ‘inadequate site 
+supervision.’ ”  And some of the issues invited the court to provide specific evidentiary 
+detail unnecessary to explaining the court’s decision.   
+As noted earlier, the trial court was only required to address “ ‘ultimate rather than 
+evidentiary facts’ ” in its statement of decision.  (Muzquiz, supra, 79 Cal.App.4th at 
+p. 1125, quoting In re Cheryl E. (1984) 161 Cal.App.3d 587, 599; see also Hellman v. La 
+                                              
+ 11 Other issues identified by EAR and addressed by the trial court include:  
+(1) issue “26,” concerning whether Perez’s calculation of disruption damages had taken 
+into consideration a $90,000 “miscalculat[ion]”; (2) issue “66,” concerning whether JMR 
+was responsible for any of the disruption damages it claimed; (3) issue “68,” concerning 
+whether JMR’s bid contemplated JMR’s using out-of-town labor, performing work out of 
+sequence, or extra cost associated with achieving a “ ‘level-five drywall finish’ ”; and 
+(4) issue “65,” concerning whether JMR’s disruption damages were capable of 
+calculation with certainty.   
+ 41 
+Cumbre Golf & Country Club (1992) 6 Cal.App.4th 1224, 1230.)  It was not required to 
+give a point-by-point response to a party’s statement of purported controverted issues.  
+(Ermoian v. Desert Hospital (2007) 152 Cal.App.4th 475, 498; In re Marriage of Burkle 
+(2006) 139 Cal.App.4th 712, 736, fn. 15.)  The trial court’s statement of decision 
+“sufficiently dispose[d] of all the basic issues in the case” (Bauer, supra, 46 Cal.App.4th 
+at p. 1118) and adequately “state[d] the grounds upon which the judgment rest[ed]” 
+(Muzquiz, supra, 79 Cal.App.4th at p. 1125). 
+II. SureTec’s Challenge to the Judgment Due to Lack of Default Notice 
+SureTec contends the trial court erred in finding it liable under the performance 
+bonds because JMR failed to give it (SureTec) notice of EAR’s default under the 
+subcontracts.  SureTec argues that a “declaration of default was a condition precedent to 
+SureTec’s liability.”  It also argues that, looking at the language of the bonds as a whole, 
+there was an implied requirement that JMR provide a notice of default to SureTec as a 
+condition precedent to SureTec’s liability under the bonds.   
+There was undisputed evidence, based upon Rivard’s testimony, that JMR did not 
+formally declare EAR in default under either subcontract.  Nor did JMR ask SureTec to 
+complete the bonded work under either subcontract.  At trial, Cynthia Vincent, a SureTec 
+vice-president, testified that SureTec received no notice of any default under the 
+plumbing or electrical subcontracts.  She also testified that SureTec was not given the 
+opportunity to complete work under either subcontract, and that JMR never asked 
+SureTec to obtain new plumbing or electrical subcontractors.   
+ A. Contractual Conditions Generally 
+A conditional obligation is one in which “the rights or duties of any party thereto 
+depend upon the occurrence of an uncertain event.”  (Civ. Code, § 1434; see also Rest.2d, 
+Contracts, § 224:  “A condition is an event, not certain to occur, which must occur, unless 
+its non-occurrence is excused, before performance under a contract becomes due.”)  
+“[P]arties may expressly agree that a right or duty is conditional upon the occurrence or 
+ 42 
+nonoccurrence of an act or event.”  (Platt Pacific, Inc. v. Andelson (1993) 6 Cal.4th 307, 
+313 (Platt Pacific).)  A condition in a contract may be a condition precedent, concurrent, 
+or subsequent.  (Civ. Code, § 1435.)  “[A] condition precedent is either an act of a party 
+that must be performed or an uncertain event that must happen before the contractual 
+right accrues or the contractual duty arises.”  (Platt Pacific, at p. 313; see also Civ. Code, 
+§ 1436.) 
+“The existence of a condition precedent normally depends upon the intent of the 
+parties as determined from the words they have employed in the contract.  [Citation.]”  
+(Realmuto v. Gagnard (2003) 110 Cal.App.4th 193, 199.)  But “stipulations in an 
+agreement are not to be construed as conditions precedent unless such construction is 
+required by clear, unambiguous language; and particularly so where a forfeiture would be 
+involved or inequitable consequences would result.  [Citations.]”  (Alpha Beta Food 
+Markets v. Retail Clerks Union Local 770 (1955) 45 Cal.2d 764, 771 (Alpha Beta Food); 
+see also Rubin v. Fuchs (1969) 1 Cal.3d 50, 53 [contract provisions are not construed as 
+conditions precedent in the absence of language plainly requiring such construction]; City 
+of San Diego v. Haas (2012) 207 Cal.App.4th 472, 493.)  Because “such conditions are 
+not favored by the law, [they] are to be strictly construed against one seeking to avail 
+[it]self of them.  [Citation.]”  (Antonelle v. Kennedy & Shaw Lumber Co. (1903) 140 Cal. 
+309, 315.) 
+ B. Interpretation of the Contract Language 
+Resolution of SureTec’s contention that a notice of default was a condition 
+precedent to its liability requires an independent review of the trial court’s interpretation 
+of the bonds, since no extrinsic evidence was introduced by the parties on that question.  
+(Campbell v. Scripps Bank (2000) 78 Cal.App.4th 1328, 1336; see also Airlines 
+Reporting Corp. v. United States Fidelity & Guaranty Co. (1995) 31 Cal.App.4th 1458, 
+1461 [appellate court reviews interpretation of bonds de novo].)   
+ 43 
+“A surety bond is a ‘ “written instrument executed by the principal and surety in 
+which the surety agrees to answer for the debt, default, or miscarriage of the principal.” ’  
+[Citation.]”  (American Contractors Indem. Co. v. Saladino (2004) 115 Cal.App.4th 
+1262, 1268.)  In the suretyship context, “the risk of loss remains with the principal, while 
+the surety merely lends its credit so as to guarantee payment or performance in the event 
+that the principal defaults.  [Citation.]  In the absence of default, the surety has no 
+obligation.  [Citation.]”  (Cates Construction, Inc. v. Talbot Partners (1999) 21 Cal.4th 
+28, 38 (Cates Construction).)  A performance bond, a species of a surety bond, is one in 
+which the surety “guarantee[s] that obligations undertaken by the principal will be 
+completed under the terms of the bonded contract.”  (1 Baier et al., Cal. Mechanics Liens 
+and Related Construction Remedies (Cont.Ed.Bar 4th ed. 2014) Private Works Remedies, 
+§ 2.115, p. 145.)  When the principal breaches its contract with the bond’s beneficiary 
+(i.e., the owner, or, in this case, the general contractor), “generally the surety’s liability 
+has been found to be coextensive with that of its principal.  If the principal is liable under 
+the contract, the surety is liable under the performance bond.  [Citation.]”  (Ibid.)  This 
+may include, in the event of the principal’s default, the surety’s liability under the bond 
+for “damages attributable to [its] principal[’s] delay in performing [a] construction 
+contract.  [Citations.]”  (Cates Construction, at p. 41.) 
+A surety contract is interpreted pursuant to the same rules that govern the 
+interpretation of contracts generally.  (Pacific Employers Ins. Co. v. City of Berkeley 
+(1984) 158 Cal.App.3d 145, 150 (Pacific Employers), citing United States Leasing Corp. 
+v. DuPont (1968) 69 Cal.2d 275, 284; Civ. Code, § 2837.)  To determine the surety’s 
+liability, “we look first to the express terms of the performance bond.  [Citations.]”  
+(Cates Construction, supra, 21 Cal.4th at p. 39.)  Performance bonds typically 
+incorporate by reference the general contract or subcontract for which the bond was 
+issued.  As such, “ ‘the bond and the contract should be read together and construed fairly 
+and reasonably as a whole according to the intention of the parties.’  [Citations.]”  (Id. at 
+ 44 
+pp. 39-40; see also Pacific Employers, at p. 150 [generally, “contract performance bond 
+will be read with the contract”].)   
+Each subcontract here requires EAR to furnish JMR, as the named obligee, a 
+performance bond and a payment bond “to secure the faithful performance of the 
+Subcontract Work and to satisfy all Subcontractor payment obligations related to the 
+Subcontract Work.”  On November 10, 2006, SureTec issued separate performance bonds 
+for EAR’s electrical subcontract and its plumbing subcontract, listing the penal amounts 
+of the bonds as $732,500 and $471,881, respectively.  Each performance bond 
+specifically incorporates by reference the respective subcontract for which the bond was 
+issued.   
+The one-page “Articles” of the two performance bonds contain identical language.  
+Article 1, containing the heading “SCOPE OF BOND” (emphasis omitted), states:  “The 
+Principal [EAR] and the Surety [SureTec], jointly and severally, bind themselves . . . to 
+the Obligee [JMR] for the performance of the Subcontract.”  Under the heading 
+“EFFECT OF OBLIGATION” (emphasis omitted), Article 2 provides:  “If the Principal 
+performs the Subcontract, then this bond shall be null and void; otherwise it shall remain 
+in full force and effect.”  Article 4, under the heading “PRINCIPAL DEFAULT” 
+(emphasis omitted), provides:  “Whenever the Principal shall be, and is declared by the 
+Obligee to be in default under the Subcontract, with the Obligee having performed its 
+obligations in the Subcontract, the Surety may promptly remedy the default, or shall 
+promptly” (1) “[c]omplete the Subcontract in accordance with its terms and conditions”; 
+(2) retain a new subcontractor to complete the Principal’s work under the subcontract; 
+(3) pay the Obligee the amount for which the Surety is liable; or (4) deny liability in 
+whole or in part, providing an explanation for doing so.   
+Each subcontract details JMR’s right to deduct or withhold payments to EAR, and 
+JMR’s rights in the event of EAR’s breach.  Furthermore, each subcontract specifically 
+requires JMR to provide written notice to EAR in a number of circumstances.  Those 
+ 45 
+circumstances include where (1) JMR elects to deduct from amounts otherwise due to 
+EAR any sums EAR owes JMR;  (2) JMR “deems it necessary and desirable to [withhold 
+payments due to EAR to] protect itself against possible loss or damages”; (3) JMR 
+concludes EAR has failed to (a) supply sufficient skilled workers, (b) adhere to the work 
+schedule, (c) pay workers or suppliers, (d) follow the law, or (e) has otherwise materially 
+breached the subcontract, requiring JMR to give EAR notice to cure the default; (4) JMR 
+elects to suspend EAR’s work under the subcontract; (5) the owner suspends its 
+agreement with JMR; (6) JMR elects to terminate the subcontract due to EAR’s material 
+default of its obligations under the subcontract, after having given EAR written notice to 
+cure; and (7) the owner terminates its agreement with JMR.  None of these notice 
+provisions requires JMR to give written notice to the surety, SureTec.  Furthermore, each 
+subcontract provides that the surety need not be advised of any changes, additions, or 
+omissions to the subcontract.   
+ C. Discussion 
+SureTec implicitly acknowledges that neither performance bond expressly 
+provides that JMR must give notice to SureTec of EAR’s default as a condition precedent 
+to SureTec’s liability.  But it asserts that “[a] contractual provision need not be expressly 
+labeled ‘condition precedent’ to be treated as such.  Rather, whether a provision is a 
+condition precedent is to be determined from the whole contract, its purpose, and the 
+intention of the parties.”  Quoting from Wal-Noon Corp. v. Hill (1975) 45 Cal.App.3d 
+605, 611 (Wal-Noon), SureTec contends the default notice as a condition precedent ‘may 
+be necessarily implied in the language of [the] contract . . .’ ”  Applying principles of 
+contract interpretation, we conclude that JMR was not required to give SureTec notice of 
+EAR’s default as a condition precedent to SureTec’s liability on the bonds. 
+The only notice language in the bonds is found in Article 3, where SureTec 
+expressly “waive[d] notice of any alteration or extension of the Subcontract, including 
+but not limited to the Subcontract price and/or time, made by the Obligee [JMR].”  
+ 46 
+(Italics added.)  And the default provisions in the subcontracts—incorporated by 
+reference into the bonds—include requirements in several instances that JMR give notice 
+to EAR without any similar requirement of giving notice to SureTec.  Thus, the bonds do 
+not contain the requisite “clear, unambiguous language” (Alpha Beta Food, supra, 
+45 Cal.2d at p. 771) that would support a finding that JMR was required to provide a 
+notice of default to SureTec as a condition precedent to liability under the bonds. 
+Pacific Allied v. Century Steel Products (1958) 162 Cal.App.2d 70 (Pacific Allied) 
+is instructive.  There, the defendant (Century) agreed to fabricate and sell steel forms to 
+plaintiff (Pacific) for the purpose of using them to install storm drains.  (Id. at p. 72.)  
+Century also guaranteed that Pacific’s labor costs, through its use of Century’s steel 
+forms, would not exceed four cents per square foot, and that Century would, upon 
+completion of the job and Pacific’s submission of an itemized cost breakdown, pay 
+Pacific’s labor costs in excess of four cents per square foot.  (Id. at p. 73.)  Pacific agreed 
+to keep a detailed account of labor costs and give Century a “continuous report.”  (Ibid.)  
+Pacific kept Century apprised of costs during the project and gave it periodic oral reports, 
+but it did not provide a detailed cost breakdown upon the project’s completion.  (Id. at 
+p. 78.)  The court rejected Century’s contention that Pacific was required to provide a 
+detailed cost breakdown as a condition precedent to its recovery under the contract.  (Id. 
+at pp. 79-80.)  The appellate court held that (1) conditions precedent are not favored in 
+the law; (2) neither the express terms of the contract nor a reasonable implication drawn 
+from them compelled a finding that providing the cost breakdown was condition 
+precedent to Pacific’s recovery; and (3) the interpretation advanced by Century was 
+particularly disfavored because it would result in a forfeiture.  (Id. at pp. 79-80.) 
+Here, as in Pacific Allied, there was no language expressly conditioning SureTec’s 
+performance under the bonds upon receipt of a notice of default from JMR.  In Pacific 
+Allied, there was an express agreement by the plaintiff to provide some level of 
+ 47 
+notification (a detailed cost breakdown) to the defendant.  Here, there was no such 
+express covenant requiring JMR to provide any notice to SureTec.   
+We conclude that SureTec’s receipt of a declaration of default by JMR is not a 
+condition precedent to triggering SureTec’s liability under the bonds.  This interpretation 
+necessarily defeats SureTec’s argument that a condition precedent should be implied 
+from the language of the bonds.  This interpretation is also consistent with the statutory 
+mandate that courts, in construing an instrument, shall “ ‘not [] insert what has been 
+omitted, or [] omit what has been inserted.’ ”  (Edwards v. Arthur Andersen LLP (2008) 
+44 Cal.4th 937, 954, quoting § 1858; see also Safeco Ins. Co. of America v. Robert S. 
+(2001) 26 Cal.4th 758, 763 [applying § 1858 to reject insurer’s contention that illegal act 
+exclusion in homeowner’s insurance policy should be construed as a “criminal act” 
+exclusion, observing that if insurer had “wanted to exclude criminal acts from coverage, 
+it could have easily done so”].) 
+Likewise, our construction comports with the law governing suretyships.  “A 
+suretyship obligation is to be deemed unconditional unless its terms import some 
+condition precedent to the liability of the surety.”  (Civ. Code, § 2806; see Bank of 
+America v. McRae (1947) 81 Cal.App.2d 1, 7 [“guaranty is unconditional unless its terms 
+import some condition precedent to the liability of the guarantor”].)  Here, Article 1 of 
+each bond creates the unconditional obligation to the effect that EAR and SureTec 
+“jointly and severally, bind themselves . . . to [JMR] for the performance of the 
+Subcontract.”   
+SureTec contends that, notwithstanding Article 1, its obligation here was 
+discharged under Article 2 of the performance bonds, which reads:  “If the Principal 
+performs the Subcontract, then this bond shall be null and void; otherwise it shall remain 
+in full force and effect.”  SureTec asserts that because EAR performed its obligations by 
+completing its work under the subcontracts, the bonds became “null and void” under 
+Article 2.  This contention has no merit.   
+ 48 
+As discussed in detail, ante, the trial court found, based upon substantial evidence, 
+that EAR breached the plumbing and electrical subcontracts by, among other things, 
+delayed performance under the contracts and by disrupting the efficient completion of the 
+framing and drywall phase of the Project.  EAR’s breach gave JMR the option to 
+terminate the subcontracts, but it was not required to do so.  (See Whitney Inv. Co. v. 
+Westview Development Co. (1969) 273 Cal.App.2d 594, 602.)  That JMR did not 
+terminate the subcontracts as a result of EAR’s breach does not absolve EAR of 
+responsibility for breaching the contracts.  “[Breach of contract d]amages for delay can 
+result from either a total or partial failure of performance.  In both cases, delay damages 
+are an extra item of recovery in addition to the normal measure of damages.  However, 
+even when there has been complete performance of a contract, damages for delay can 
+result when performance was not completed on time.”  (Cal. Attorney’s Guide to 
+Damages, supra, § 1.49, pp. 1-49 to 1-50.) 
+Furthermore, under general suretyship law, Civil Code section 2807 provides that 
+“[a] surety who has assumed liability for payment or performance is liable to the creditor 
+immediately upon the default of the principal, and without demand or notice.”  (Italics 
+added; see Croskey et al., Cal. Practice Guide:  Insurance Litigation (The Rutter Group 
+2015) ¶ 6:3436, pp. 6I-72 to 6I-73 [“if the bond is silent, the obligee is not required to 
+give the surety notice of the principal’s default or make demand upon the surety for 
+payment”].)   
+Thus, for instance, in State Bd. of Equalization v. Balboa Ins. Co. (1978) 
+89 Cal.App.3d 499, the surety was held liable on sales tax surety bonds after the 
+principal’s default, notwithstanding the obligee’s (State Board of Equalization’s) failure 
+to make demand for payment or its failure to include the surety on a notice of lien.  (Id. at 
+pp. 503-504.)  The court explained that when the surety executed the surety bonds, “it did 
+not put conditions of special or separate notice” upon its “agreement to stand good for 
+[the principal’s] tax liability.”  (Id. at p. 504.)  Citing Civil Code section 2807, the court 
+ 49 
+held the surety was liable under the bonds because neither the law nor the agreement 
+required notice as a condition to the surety’s liability.  (Ibid.) 
+SureTec relies on several out-of-state cases to support its contention that a 
+declaration of EAR’s default by JMR to SureTec was a condition precedent to JMR’s 
+recovery under the bonds.  Several of these cases were based upon the courts’ 
+interpretation of the relevant contracts under applicable Florida law.  (See, e.g., L&A 
+Contracting v. Southern Concrete Services (5th Cir. 1994) 17 F.3d 106 (L&A 
+Contracting); School Bd. of Escambia County v. TIG Premier Ins. Co. N.D.Fla. 2000) 
+110 F.Supp.2d 1351; DCC Constructors, Inc. v. Randall Mechanical, Inc. (Fla.Ct.App. 
+2001) 791 So.2d 575.)  In L&A Contracting—a case relied upon by a number of the 
+authorities cited by SureTec—the Fifth Circuit Court of Appeals concluded that a 
+contractor’s unequivocal declaration of the subcontractor’s default was “a necessary 
+precondition” to the surety’s liability under a performance bond.  (L&A Contracting, at 
+p. 111; cf Colorado Structures Inc. v. Ins. Co. of the West (Wash. 2007) 167 P.3d 1125, 
+1134 [disagreeing with L&A Contracting, concluding that a proper interpretation of the 
+bond’s language in that case is that it created “liability, subject to a single express 
+condition subsequent (the principal’s prompt and faithful performance)”]; Walter 
+Concrete Const. Corp. v. Lederle Labs. (N.Y. 2003) 788 N.E.2d 609, 610 [rejecting 
+surety’s claim that default notice was required, holding that had parties wished to make 
+liability conditioned on default notice, they could have expressly so provided in 
+performance bond].)  But L&A Contracting, and other cases relied on by SureTec, did not 
+involve a contractual interpretation of performance bonds under California law.  And 
+none of those authorities considered the appropriateness of implying a condition 
+precedent relating to default notice in light of decisional authority prohibiting such a 
+construction unless the contractual language plainly requires it.  (See Rubin v. Fuch, 
+supra, 1 Cal.3d at p. 53; Alpha Beta Food, supra, 45 Cal.2d at p. 771.)  Indeed, L&A 
+Contracting does not discuss conditions precedent generally or the appropriateness of 
+ 50 
+implying a condition not expressly stated in a contract.  We therefore decline to follow 
+the out-of-state authorities relied upon by SureTec.  (See People v. Uribe (2011) 
+199 Cal.App.4th 836, 865, fn. 15 [California courts not bound by out-of-state decisional 
+authority].)   
+We read the performance bonds together with the subcontracts to which they relate 
+in ascertaining the intentions of the parties.  (Cates Construction, supra, 21 Cal.4th at 
+pp. 39-40.)  A number of provisions in the EAR subcontracts require JMR to give notice 
+to EAR; none of these provisions requires notice to SureTec.  The performance bonds 
+themselves contain no express requirement of any notice to the surety.  The only mention 
+of notice in either bond is a provision under which SureTec waives notice of any 
+alteration or extension of the referenced subcontract.  Reading Article 1 together with 
+Article 2 of each bond—in conjunction with the language of the subcontracts 
+incorporated by reference—yields the conclusion that SureTec’s obligation to JMR in the 
+event of EAR’s breach of the underlying subcontract is unconditional.  (See id. at p. 41 
+[considering the documents “as a whole, the bond and underlying construction contract 
+are fairly and reasonably read as requiring” surety to answer for principal’s failure to 
+perform under contract].)    
+We conclude the performance bonds did not require JMR to give notice of default 
+to SureTec as a condition precedent to recovery under the bonds.  Any interpretation of 
+the bonds as implying such a condition precedent would be contrary to (1) suretyship 
+principles (see Civ. Code, §§ 2806, 2807), and (2) the principle that conditions precedent 
+should not be implied unless the construction is compelled by the clear language of the 
+agreement, particularly here, where such an implied condition would result in a 
+forfeiture.  (Alpha Beta Food, supra, 45 Cal.2d at p. 771.)12 
+                                              
+ 12 SureTec also cites Wal-Noon, supra, 45 Cal.App.3d 605 in support of its 
+position that notice of default to SureTec was an implied condition precedent to recovery 
+under the performance bonds.  But Wal-Noon involved a landlord-tenant dispute in 
+ 51 
+III. The Attorney Fee Order 
+Defendants separately challenge the postjudgment order awarding JMR attorney 
+fees in defending EAR’s cross-complaint.  EAR asserts that the underlying premise of the 
+court’s decision—that JMR prevailed on the cross-complaint—is faulty.  It argues that it 
+“clearly and unambiguously prevailed” on the two causes of action for breach of contract 
+alleged in its cross-complaint.  SureTec contends the award of attorney fees against it was 
+legally improper because the scope of its liability under the performance bonds did not 
+extend to attorney fees incurred by JMR to defend the unmeritorious cross-complaint 
+filed by SureTec’s principal, EAR.  We must consider initially whether defendants’ 
+claims are cognizable on appeal.  (See Jennings v. Marralle (1994) 8 Cal.4th 121, 126 
+[appellate court required to address sua sponte the question of appealability “whenever a 
+doubt exists” concerning the issue].) 
+After entry of judgment, JMR filed a motion for attorney fees awardable as costs 
+pursuant to Civil Code section 1717 (attorney fee motion).  On November 9, 2012, the 
+court heard argument concerning various motions, including JMR’s attorney fee motion.  
+                                                                                                                                                  
+connection with the lease of a commercial building.  The lessees, without the lessors’ 
+knowledge, replaced the premises’ leaky roof, and later sought reimbursement from the 
+lessors because the lease had imposed upon the lessors the obligation to repair and 
+replace the roof and all exterior walls.  (Id. at pp. 608-610.)  The appellate court 
+concluded that “notice as a condition precedent to the lessors’ obligation to repair is not 
+only clearly apparent from the terms of the written lease, it is indispensable to effectuate 
+the intentions of the parties.  [Citation.]  It has been held that unless explicitly excluded 
+therein, performance under an express covenant to repair is conditional upon notice from 
+the tenant.  [Citations.]  Accordingly, we hold that notice is an indispensable condition 
+precedent to [the lessors’] duty to perform under the covenant to repair”  (Id. at p. 612.)  
+Here, we address surety bonds and a surety-obligee relationship, not a commercial lease 
+and a landlord-tenant relationship.  Thus, the facts of Wal-Noon are distinguishable.  This 
+case, unlike Wal-Noon, requires application of suretyship principles (e.g., Civil Code 
+sections 2806 and 2807).  Those principles, along with the absence of a clear indication 
+that the parties intended otherwise, compel our conclusion that notice of default to 
+SureTec was not an implied condition precedent to recovery under the bonds. 
+ 52 
+The court’s tentative decision regarding that motion, in which it cited Johnson v. Siegel 
+(2000) 84 Cal.App.4th 1087, was twofold:  (1) JMR, because it did not seek mediation of 
+its claims before filing suit, was not entitled to attorney fees for pursuing its complaint; 
+but (2) JMR was entitled to attorney fees for its defense of EAR’s cross-complaint.   
+In its written order of November 13, 2012, the court, among other things, ordered 
+JMR to calculate the amount of attorney fees incurred before the filing of EAR’s cross-
+complaint.  The court also set a deadline for that submission and for a response by 
+defendants.  The court further indicated in its order that it would “issue an award of 
+Attorney Fees to JMR, consistent with its tentative ruling on November 2, 2012.” 13  The 
+record does not include an order fixing an amount of fees entered subsequent to the 
+court’s November 13, 2012 order.  EAR has indicated in its opening brief that it 
+expressly reserves the right to appeal any such order fixing the amount of attorney fees.  
+And the parties at oral argument on November 19, 2015, indicated that, as of that date, 
+the court had not yet issued an order fixing the amount of attorney fees awardable to 
+JMR. 
+A postjudgment award of attorney fees is generally appealable pursuant to section 
+904.1, subdivision (a)(1).  (Whiteside v. Tenet Healthcare Corp. (2002) 
+101 Cal.App.4th 693, 706.)  But “if a judgment determines that a party is entitled to 
+attorney’s fees but does not determine the amount, that portion of the judgment is 
+nonfinal and nonappealable.”  (P R Burke Corp. v. Victor Valley Wastewater 
+Reclamation Authority (2002) 98 Cal.App.4th 1047, 1053 (P R Burke).)  This conclusion 
+is based upon the principle that an order that contemplates further action by the court is 
+not final.  (See Koshak v. Malek (2011) 200 Cal.App.4th 1540, 1545; Steen v. Fremont 
+Cemetery Corp. (1992) 9 Cal.App.4th 1221, 1228-1229.)   
+                                              
+ 13 The record does not contain a tentative ruling dated November 2, 2012.  We 
+assume the trial court was referring to its tentative ruling made at the hearing on 
+November 9, 2012. 
+ 53 
+Here, the November 13, 2012 postjudgment order was nonfinal because it did not 
+fix an amount of attorney fees awardable to JMR.  Rather, it simply adopted the court’s 
+tentative ruling denying attorney fees to JMR for its prosecution of the complaint and 
+granting fees for its defense of the cross-complaint.  The court specifically contemplated 
+a future order awarding JMR a fixed amount of attorney fees after the parties submitted 
+further pleadings.  Thus, the order “was nonfinal [because f]urther judicial action was 
+necessary to determine the extent of [JMR’s] entitlement to attorney’s fees.”  (P R Burke, 
+supra, 98 Cal.App.4th at p. 1054, italics original.)  It was a “ ‘postjudgment’ order[] 
+[that] lacked finality in that [it was] also preparatory to later proceedings,” a type of order 
+which the California Supreme Court has held is generally not appealable.  (Lakin v. 
+Watkins Associated Industries (1993) 6 Cal.4th 644, 653.)  But this conclusion does not 
+end our inquiry. 
+SureTec argues somewhat conclusorily that “the trial court’s order that JMR is 
+entitled to attorney[] fees is the necessary predicate for its final [] appealable order, also 
+entered [] November 13, 2012, that JMR is entitled to $90,644.07 in expert witness fees.”  
+While we agree with SureTec’s implicit statement that the court utilized its attorney fee 
+order in concluding that JMR was entitled to expert witness fees, we disagree with 
+SureTec’s ultimate conclusion that we are required to review the court’s interim nonfinal 
+attorney fee order here. 
+Under section 906, where an appeal under section 904.1 is taken, “the reviewing 
+court may review the verdict or decision and any intermediate ruling, proceeding, order 
+or decision which involves the merits or necessarily affects the judgment or order 
+appealed from or which substantially affects the rights of a party.”  (See Abramson v. 
+Juniper Networks, Inc. (2004) 115 Cal.App.4th 638, 649.)  The intermediate order of 
+November 13, 2012, finding defendants liable to JMR for attorney fees is related to the 
+court’s order of the same date awarding JMR’s expert witness fees under section 998.  As 
+we discuss in section IV, post, the court’s award of expert fees to JMR pursuant to 
+ 54 
+section 998 was founded on the assumption that, after aggregating JMR’s monetary 
+recovery under the judgment with its attorney fee award, JMR will recover more than its 
+pretrial $375,000 offer to compromise.  But, as we also discuss, since the court has not 
+yet issued a monetary award of fees, its determination that JMR’s total recovery has 
+exceeded $375,000 is erroneous.  Thus, the court’s November 13, 2012 interim order 
+determining that JMR is entitled to recover attorney fees in defending EAR’s cross-
+complaint is not relevant to our consideration of the appealable order awarding expert 
+witness fees.  We therefore decline to consider the nonappealable interim attorney fee 
+order at this time.   
+IV. Award of Expert Fees Pursuant to Section 998 
+After entry of judgment, JMR submitted a memorandum of costs in which it 
+claimed, among other costs, expert witness fees in the total amount of $90,644.07.  
+Concurrently with its costs memorandum, JMR filed a brief in which it argued it was 
+entitled to recover expert witness fees pursuant to section 998.  It asserted that more than 
+10 days before trial, in accordance with section 998, it had served identical offers to EAR 
+and SureTec in which it offered to have judgment taken against the respective defendants 
+in the amount of $375,000 with each side to bear its own costs.  JMR argued that because 
+it had obtained a judgment that—after adding statutory prevailing-party costs and 
+attorney fees to the monetary award of $315,631—exceeded the $375,000 amount of the 
+offers, the court in its discretion could award it reasonable postoffer expert witness costs.  
+SureTec and EAR filed separate motions to strike/tax costs that included opposition to an 
+award to JMR of its expert witness fees.14   
+                                              
+ 14 The motion to tax or strike costs filed by EAR is not included in the appellate 
+record, but it is referenced in numerous documents included in the record.  And EAR’s 
+reply memorandum in support of its motion to tax or strike costs, which includes 
+argument in opposition to JMR’s request for expert witness fees, is part of the record.   
+ 55 
+On November 9, 2012, the court heard argument on defendants’ motions to 
+strike/tax costs.  The court then issued an order on November 13, 2012, denying 
+defendants’ parallel motions, thereby awarding JMR expert witness fees of $90,644.07.  
+An order fixing costs and disposing of a motion to tax costs is a separately appealable 
+order under section 904.1, subdivision (b).  (Grant v. List & Lathrop (1992) 
+2 Cal.App.4th 993, 996.) 
+On appeal, EAR and SureTec make identical arguments that the court erred in 
+awarding JMR postoffer expert witness costs.  They contend the award was improper 
+because JMR received a judgment of $315,631, nearly $60,000 less than its section 998 
+offers.  Further, they assert that JMR may only reach the threshold amount of more than 
+$375,000 if it is awarded attorney fees exceeding $59,369; defendants both contend that 
+no attorney fees should be awarded to JMR.  Lastly, defendants posit that an award of 
+expert fees is premature because the court has yet to determine a fixed amount of attorney 
+fees awardable to JMR for purposes of determining whether it has obtained a judgment 
+more favorable than the offers pursuant to section 998.  We agree with defendants’ third 
+argument and will reverse on that basis. 
+Section 998, subdivision (a) provides that “costs allowed under section 1031 and 
+1032 shall be withheld or augmented as provided in this section.”  The statute sets forth a 
+procedure by which a party, not less than 10 days before trial (or arbitration), may serve a 
+written offer to settle the litigation, including a specification of “the terms and conditions 
+of the judgment or award.”  (§ 998, subd. (b).)  Under subdivision (d), “[i]f an offer made 
+by a plaintiff is not accepted and the defendant fails to obtain a more favorable 
+judgment . . . the court . . . in its discretion, may require the defendant to pay a reasonable 
+sum to cover postoffer costs of the services of expert witnesses, who are not regular 
+employees of any party, actually incurred and reasonably necessary in either, or both, 
+preparation for trial . . . or during trial . . . of the case by the plaintiff, in addition to 
+plaintiff’s costs.”  Under a parallel provision, a defendant who makes a pretrial offer that 
+ 56 
+is not accepted, upon the plaintiff’s failure to obtain a more favorable judgment, may 
+recover, in the court’s discretion, reasonable expert costs incurred by the defendant in 
+preparation for trial and trial.  (§ 998, subd. (c)(1).)  The statute’s purpose “is to 
+encourage the settlement of lawsuits prior to trial.”  (T. M. Cobb Co. v. Superior Court 
+(1984) 36 Cal.3d 273, 280.) 
+In determining under section (d) if a defendant has failed to obtain a judgment 
+more favorable than a plaintiff’s section 998 offer, where the offer contains a waiver of 
+costs, “ ‘the amount of the judgment is deemed to be the amount of the damages plus the 
+amount of costs allowed under section 1033.5, subdivision (a).’  [Citation.]”  (Wilson v. 
+Wal-Mart Stores, Inc. (1999) 72 Cal.App.4th 382, 392.)  Included among the costs 
+permitted under section 1033.5, subdivision (a) are attorney fees that are authorized by 
+contract.  (§ 1033.5, subd. (a)(10)(A).) 
+In this case, there has, to date, been no award of a defined amount of attorney fees 
+in favor of JMR.  Pursuant to the court’s November 13, 2012 order, it granted EAR’s 
+motion to strike certain costs listed in JMR’s costs memorandum.  As a result, the total 
+amount of costs awarded pursuant to JMR’s costs memorandum (excluding expert 
+witness fees) was $4,800.18.  Adding these costs to the judgment, the total judgment to 
+date is $320,431.18, nearly $55,000 less than the pretrial offers.  It is apparent that the 
+court—given the sizable amount of attorney fees claimed by JMR in its motion for fees 
+under Civil Code section 1717 ($252,889)—assumed JMR would ultimately receive an 
+attorney fee award that would bring JMR’s total recovery above the pretrial offer 
+threshold of $375,000.  But, as we have discussed (see section III, ante), the November 
+13, 2012 order regarding attorney fees is an interim, nonappealable order that 
+contemplates further action (i.e., determining the amount of the award) by the court.  
+Accordingly, any finding that JMR is entitled, in the court’s discretion, to an award of 
+expert fees pursuant to section 998, subdivision (d) is premature.  We will therefore 
+reverse the court’s order of November 13, 2012, awarding JMR expert fees pursuant to 
+ 57 
+section 998 and will remand the case to the trial court.  Such reversal is without prejudice 
+to the court, upon rendering an attorney fee award, to make a discretionary determination 
+as to whether JMR is entitled to an award of postoffer expert witness fees under section 
+998. 
+V. EAR’s Motion for New Trial 
+As its final claim of error, EAR contends the court abused its discretion in denying 
+its motion for new trial.  It argues the court’s alleged failure to read JMR’s proposed 
+statement of decision before signing it constituted “an ‘irregularity in the proceedings’ ” 
+that compelled the granting of the new trial motion.  This contention is without merit. 
+After entry of judgment, EAR filed a motion for new trial, asserting six of the 
+seven statutory grounds provided under section 657, including “irregularity in the 
+proceedings of the court” as provided in subdivision (1) of the statute.  The bulk of 
+EAR’s argument below was that (1) JMR concealed and suppressed evidence, thereby 
+denying EAR a fair trial, and (2) there was insufficient evidence supporting the finding of 
+EAR’s responsibility for delay and for the award of damages (including Eichleay 
+damages and damages related to supplying the air compressor).  Although EAR made 
+reference to the statement of decision in its motion—challenging both its timeliness and 
+its contents—it did not include as a basis for granting new trial the allegation that the 
+statement of decision had been signed by the court without reading it.  By failing to raise 
+the issue below in its motion for new trial, EAR forfeited its appellate challenge to the 
+denial of the motion on this basis.  (North Coast Business Park v. Nielsen Construction 
+Co. (1993) 17 Cal.App.4th 22, 28 [failure to preserve issue below result in forfeiture of 
+appellate claim].)  
+Moreover, even if we were to address EAR’s argument on the merits, it would fail.  
+EAR twice states in its opening brief that the trial court “failed to read” the proposed 
+statement of decision before signing it.  It presents no evidence in support of this bald 
+assertion.  (See § 658 [new trial motion based upon irregularity of the proceedings “must 
+ 58 
+be made upon affidavits”]; Linhart v. Nelson (1976) 18 Cal.3d 641, 644 [court may not 
+consider ground for new trial motion where affidavit supporting that ground is required 
+under section 658 and none is submitted].)  There is thus no basis for EAR’s contention 
+that the court abused its discretion in denying the motion for new trial.  (See Plancarte v. 
+Guardsmark, LLC (2004) 118 Cal.App.4th 640, 645 [“trial court’s broad discretion in 
+ruling on a motion for new trial is accorded great deference on appeal”].) 
+VI. Remaining Arguments by SureTec 
+SureTec asserts three further arguments.  Its first two arguments are that (1) if the 
+judgment is reversed as to SureTec, it is entitled to its attorney fees for its successful 
+defense of the lawsuit, including the attorney fees incurred on appeal; and (2) if the 
+judgment against EAR is reversed, the judgment against SureTec must likewise be 
+reversed.  Since we affirm the judgment, neither of these arguments has merit. 
+As its third remaining argument, SureTec argues that, assuming the judgment is 
+not reversed, its maximum liability for damages, including costs and attorney fees, is 
+$471,881, the amount of the performance bond issued on EAR’s plumbing subcontract.  
+It contends that because the court, despite SureTec’s request, did not allocate the damage 
+award as between the two subcontracts, there can be no inference drawn that some 
+amount of the $315,631 damages was awarded for EAR’s breach of the electrical 
+subcontract.  Accordingly, SureTec argues, its responsibility to answer for its principal, 
+EAR, is limited to the $471,881 amount of the performance bond for the plumbing 
+subcontract.  It seeks an order from this court to this effect.   
+As discussed in section IV, ante, the total amount of JMR’s recovery to date, 
+including costs properly awarded by the court, is $320,431.18.  This is approximately 
+$150,000 less than the amount of the performance bond for the plumbing subcontract.  
+The trial court has not yet made a final ruling regarding attorney fees, and any issue 
+concerning JMR’s claimed entitlement to expert fees under section 998 will be decided 
+by the trial court in its discretion upon remand.  Thus, at this point there is no justiciable 
+ 59 
+issue for resolution by this court, and we decline to decide hypothetical or theoretical 
+controversies.  (See In re Joshua S. (2007) 41 Cal.4th 261, 273 [courts do not “ ‘issu[e] 
+purely advisory opinions, or consider[] a hypothetical state of facts in order to give 
+general guidance rather than to resolve a specific legal dispute’ ”]; see also Hunt v. 
+Superior Court (1999) 21 Cal.4th 984, 998.) 
+    DISPOSITION 
+The judgment is affirmed.  The postjudgment order of November 13, 2012, 
+awarding expert witness fees to JMR pursuant to Code of Civil Procedure section 998 is 
+reversed, and the matter is remanded to the trial court for further proceedings consistent 
+with this opinion.  Statutory costs are awarded to respondent JMR.  
+ 
+ 
+ 
+ 
+                                                                 
+       Márquez, J. 
+ 
+ 
+ 
+ 
+WE CONCUR: 
+ 
+ 
+ 
+ 
+                                                                  
+ Rushing, P.J. 
+ 
+ 
+ 
+ 
+                                                                 
+ Elia, J. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Trial Court: Monterey County Superior Court Superior 
+Court No.: M105497 
+ 
+ 
+Trial Judge: The Honorable 
+Lydia M. Villarreal 
+ 
+ 
+Attorneys for Plaintiff, Cross-Defendant, 
+and Respondent 
+JMR Construction Corp.: 
+ 
+ 
+ 
+Joseph P. Mascovick 
+Miller Law Group 
+ 
+  
+  
+Attorneys for Defendant,                 J. Brian Urtnowski 
+Cross-Complainant and Appellant           Lisamarie McDermott 
+Environmental Assessment                              Urtnowski & Associates, P.C. 
+And Remediation  
+Management, Inc.:    
+       
+       
+Attorneys for Defendant,           Peter Abrahams 
+and Appellant           Mitchell C. Tilner 
+SureTec Insurance Company:          Horvitz & Levy 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

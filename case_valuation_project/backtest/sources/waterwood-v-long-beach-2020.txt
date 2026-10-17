@@ -1,0 +1,767 @@
+Filed 12/18/20 
+CERTIFIED FOR PUBLICATION 
+ 
+ 
+ 
+ 
+ 
+IN THE COURT OF APPEAL OF THE STATE OF CALIFORNIA 
+ 
+SECOND APPELLATE DISTRICT 
+ 
+DIVISION ONE 
+ 
+ 
+WATERWOOD ENTERPRISES, 
+LLC, 
+ 
+ Plaintiff and Appellant, 
+ 
+ v. 
+ 
+CITY OF LONG BEACH, 
+ 
+ Defendant and Respondent. 
+ 
+      B296830 
+ 
+      (Los Angeles County 
+      Super. Ct. No. NC060787) 
+ 
+ 
+APPEAL from an amended judgment of the Superior Court 
+of Los Angeles County, Patrick T. Madden, Judge.  Affirmed in 
+part, reversed in part, and remanded with directions. 
+ Stuart Kane, Donald J. Hamman and Eve A. Brackmann 
+for Plaintiff and Appellant. 
+ Amaro Baldwin, Michael L. Amaro and Sanaz Cherazaie 
+for Defendant and Respondent. 
+____________________________ 
+2 
+ 
+ This appeal follows a 10-day trial, a $45,050 damage award 
+in plaintiff’s favor on a single cause of action, and the parties’ 
+combined attorney fees of more than $500,000.  The issue before 
+us is whether the trial court erred in finding that defendant was 
+the prevailing party pursuant to a contractual attorney fee 
+provision.  
+ We conclude the trial court abused its discretion in finding 
+that defendant—who lost the only cause of action in the case—
+was the prevailing party.  We reject both parties’ arguments 
+based on the definition of prevailing party in the attorney fees 
+provision in their contract.  Any such definition would not trump 
+the definition of prevailing party in Civil Code1 section 1717.  
+We also conclude the trial court’s consideration of the parties’ 
+settlement offers in determining which party achieved the 
+greater relief under section 1717’s definition of prevailing party 
+was contrary to precedent.  
+Finally, we reject defendant’s argument that it prevailed 
+because it admitted it owed plaintiff a portion of the contractual 
+damages plaintiff was seeking, and the jury’s lump sum award 
+was for less than plaintiff’s damages claim at trial.  Defendant’s 
+argument is inconsistent with section 1717, subdivision (b)(2), 
+under which a defendant who owes a debt becomes a prevailing 
+party by tendering to the plaintiff the full amount owed and 
+alleging such tender in the defendant’s answer.  Defendant never 
+tendered any portion of plaintiff’s damages, let alone any portion 
+it admitted it owed.  To the contrary, it denied all liability in its 
+answer, and requested a jury instruction indicating that it 
+“denies” that it breached the contract.  Defendant apparently did 
+ 
+1  Undesignated statutory citations are to the Civil Code.   
+3 
+ 
+not consider section 1717, subdivision (b)(2), and after a jury 
+trial, defendant lost the sole cause of action in the case.  The trial 
+court thus abused its discretion in finding defendant was the 
+prevailing party.   
+ On remand, the trial court’s discretion is limited to finding 
+either (1) plaintiff was the prevailing party; or (2) there was no 
+prevailing party.  We reverse the amended judgment only insofar 
+as it orders plaintiff to pay defendant’s attorney fees.   
+BACKGROUND 
+ The City of Long Beach (the City) sold property to 
+Waterwood Enterprises, LLC (Waterwood) in 2005, then leased it 
+back for a 10-year term beginning on October 14, 2005.  The City 
+used the property as a police evidence storage facility.  The lease 
+terminated on October 31, 2015.   
+1. The Lease Terms 
+ The lease provides:  “Tenant [the City] at its sole cost and 
+expense, shall maintain the Demised Premises and each part 
+thereof, structural and nonstructural, in good order and 
+condition, and . . . shall make any necessary Repairs thereto, 
+interior and exterior, whether extraordinary, foreseen or 
+unforeseen.  When used in this Article VII, the term ‘Repairs’ 
+shall mean all Alterations necessary for Tenant to properly 
+maintain the Demised Premises in at least the same order and 
+condition as of the date hereof, normal wear and tear excepted.”  
+(Boldface & underscoring omitted.)  The lease defines “Demised 
+Premises” as the land and its improvements.   
+ Article XXXV of the lease contains the following attorney 
+fee provision:  “If any legal action should be commenced in any 
+court regarding any dispute arising between the parties 
+4 
+ 
+hereto . . . concerning any provision of this Lease or the rights 
+and duties of any person in relation thereto, then the prevailing 
+party therein shall be entitled to collect its reasonable expenses, 
+attorney fees and court costs, including the same on appeal.  As 
+used herein, the term ‘prevailing party’ means the party who, in 
+light of the claims, causes of action, and defenses asserted, is 
+afforded greater relief.”   
+2. The Complaint 
+ On August 29, 2016, Waterwood filed its complaint against 
+the City alleging a single cause of action for breach of a written 
+contract.  Waterwood averred that when the City left the 
+premises, the roof had multiple leaks.  “The leaks were so bad 
+that, in the rain storm within two months of the surrender of the 
+Premises, ceiling tiles became waterlogged and collapsed, carpet 
+and the underlying padding were damaged, and a new tenant 
+was unable to fully use the Premises.”  Waterwood alleged that 
+the City “has acknowledged that it should have paid for repairs to 
+the roof, but failed to do so.”2 
+ Waterwood further alleged that when the City left the 
+premises, “the air conditioner was inoperable and the HVAC 
+system had not been properly maintained or repaired.  The air 
+conditioner was operating and effective when the Lease was 
+ 
+2  In a letter dated April 21, 2016, the deputy city attorney 
+wrote Waterwood’s principal:  “While we acknowledge that the 
+City should have paid for repairs to the roof necessary to put it 
+into working condition, we do not believe the Lease required the 
+City to pay for a replacement roof, nor do we believe that the 
+Lease required the City to repair or replace an HVAC system 
+that was in working order at the time the City vacated the 
+Premises.”   
+5 
+ 
+entered, and its failure was not the result of reasonable wear and 
+tear.”  Waterwood also alleged when the City left the premises, 
+that “the block wall at the southeast co[rn]er of the Premises was 
+damaged as if hit by a truck, such that concrete blocks were 
+cracked, fence supports were tilted, and fencing was leaning.”  
+Waterwood further averred that when the City left the premises, 
+“grass was growing in, and causing deterioration of, asphalt at 
+the Premises, and there were [sic] severe indentations occurred 
+in the asphalt.”  When the City left the premises, “concrete on the 
+Premises had been broken, cracked, and subsided or shifted such 
+that water ponds [sic] and may cause deterioration of the base 
+under the concrete, and has allowed grass to grow in the concrete 
+areas.”  Waterwood reiterated that the foregoing conditions were 
+not mere reasonable wear and tear.   
+ Waterwood alleged it was informed and believed the 
+amounts due under the lease totaled at least $150,000.  
+Waterwood also requested its reasonable attorney fees.   
+3. The City’s Answer 
+ The City answered on October 4, 2016.  The City entered a 
+general denial, denying that “the Plaintiff sustained damages in 
+the sum or sums alleged, or in any other sum or sums, or at all.”  
+Although the City raised 18 affirmative defenses, it did not allege 
+or acknowledge in those defenses any debt owed to plaintiff or 
+that it had tendered any such debt to plaintiff.   
+4. Trial 
+ The record on appeal does not include a reporter’s 
+transcript.  We thus rely on the description of the trial in the trial 
+court’s statement of decision following the posttrial motions for 
+attorney fees:  “At trial, there was considerable testimony as to 
+6 
+ 
+various items plaintiff contended that defendant had a duty to 
+repair before the lease expired and that because defendant failed 
+to repair the items, plaintiff argued it was entitled to recover as 
+damages the cost to repair the items.  The significant contested 
+items were plaintiff’s contention that:  (a) defendant was required 
+to remove and replace an entire roof on one of the buildings; 
+(b) defendant was required to replace two air conditioners; and 
+(c) defendant was required to tear up and replace all of the 
+existing asphalt parking lot on the property and nearby concrete 
+pads.”  The City contended “that the roof did not require 
+replacement, because any deterioration was due to reasonable 
+wear and tear.  As to the two air conditioners, defendant argued 
+that neither air conditioner required replacement.  As to the 
+condition of the asphalt, defendant admitted that plaintiff was 
+entitled to recover some of its claimed damages to repair the 
+asphalt, because some of the asphalt had deteriorated based on 
+use that was beyond any reasonable wear and tear.”  The City 
+argued it “was not liable for the replacement cost of the entire 
+parking lot or the concrete pads.”   
+5. Jury Instructions 
+ The record also contains the trial court’s jury instructions, 
+which demonstrate that the trial court instructed the jury:  
+“Waterwood Enterprises LLC claims that it and The City of Long 
+Beach entered into a written contract for the 10-year lease of the 
+subject commercial property.  Waterwood Enterprises LLC claims 
+that The City of Long Beach breached this contract by not 
+surrendering the premises at the end of the lease broom clean 
+and in the same order and condition as the premises was in [sic] 
+on the date the lease began subject to reasonable wear and tear; 
+by not performing repairs and maintenance during the ten-year 
+7 
+ 
+tenancy, and by not repairing certain damage to the property 
+that occurred during the term of the lease. 
+ “Waterwood Enterprises LLC also claims that The City of 
+Long Beach’s breach of this contract caused damages to 
+Waterwood Enterprises LLC for which the City of Long Beach 
+should pay.” 
+ The trial court further instructed the jury:  “The City of 
+Long Beach denies that it breached the lease agreement, and 
+contends that it completed the repairs required under the lease 
+agreement, except for items caused by reasonable/normal wear 
+and tear.”  (Italics added.) 
+ Regarding damages, the trial court told the jury that it 
+could award Waterwood damages only if Waterwood proved all of 
+the following:   
+ “1.  That Waterwood Enterprises LLC and The City of Long 
+Beach entered into a contract; 
+ “2.  That Waterwood Enterprises LLC did all, or 
+substantially all, of the significant things that the contract 
+required it to do; 
+ “3.  That The City of Long Beach failed to do something 
+that the contract required it to do; 
+ “4.  That Waterwood Enterprises LLC was harmed; and 
+ “5.  That The City of Long Beach’s breach of contract was a 
+substantial factor in causing Waterwood Enterprises LLC’s 
+harm.”   
+6. Judgment 
+ The jury found in favor of Waterwood on the only cause of 
+action before it.  The jury found the City had breached the 
+contract (the lease) and awarded Waterwood $45,050 in 
+contractual damages.  In a special verdict, jurors answered the 
+8 
+ 
+following two questions affirmatively:  (1) “Did Defendant, City of 
+Long Beach, breach the written lease contract?”; and (2) “Was the 
+breach of the written lease contract a substantial factor in 
+causing Plaintiff’s damages?”  In its special verdict, the jury 
+did not identify the kind of repairs for which it was awarding 
+damages, but merely entered a lump sum. 
+7. Waterwood’s Attorney Fees Motion 
+ In a posttrial motion for attorney fees, Waterwood sought 
+$307,068.50 in fees plus an additional $15,000 for bringing its 
+attorney fee motion.  Waterwood also sought approximately 
+$12,000 in costs.  Waterwood argued that it was the prevailing 
+party under the contract and was entitled to its reasonable 
+attorney fees and further argued that all its fees were reasonable.   
+8. The City’s Attorney Fees Motion 
+ The City filed a competing motion for attorney fees, arguing 
+that it, not Waterwood, was the prevailing party.  According to 
+the City:  “Although this was a breach of contract case, the 
+history of the events which brought about the filing of this action 
+are paramount in determining who the ‘prevailing party’ is, for 
+purposes of attorney’s fees under Section 1717, as the ‘crux’ of 
+this case was about damages.  The City admitted from the 
+beginning that it should have paid for some repairs to the roof 
+necessary to put it into working condition, as well as a few other 
+items.  However, it staunchly disputed Plaintiff’s claim that the 
+City should tear off and replace the entire roof, and install two 
+entirely new HVAC units.  The City also denied that it had an 
+obligation to tear up the entire asphalt parking lot, and nearby 
+concrete pads, and install new asphalt and concrete.”   
+9 
+ 
+ The City argued it achieved its main litigation objective “to 
+pay Plaintiff for some, but not all, of the claimed repairs.”  The 
+City stated that it incurred $172,375 in attorney fees, $17,673.50 
+in costs, and $39,483.50 in expert fees, for a total of $229,532.   
+9. Postjudgment Attorney Fee Award 
+ The trial court awarded Waterwood costs in the amount of 
+$19,905.04.  The trial court found that Waterwood was the 
+prevailing party for purposes of a costs award under Code of Civil 
+Procedure section 1032 because Waterwood achieved a net 
+monetary recovery.  The trial court awarded the City $172,375 in 
+attorney fees.  On appeal, no one has challenged the trial court’s 
+award of costs to Waterwood; the only issue before us is the trial 
+court’s award of attorney fees to the City. 
+ In its statement of decision, the trial court explained its 
+reasoning for awarding attorney fees to the City:  Waterwood’s 
+complaint “asserted a single cause of action for breach of 
+contract.”  “The sole defendant was the City.”  “After the lease 
+expired, the parties engaged in discussions regarding the 
+condition of the property both before commencement of the lease 
+and at the end of the lease.  Waterwood claimed that during the 
+lease, the City damaged the Property and sought compensation 
+from the City for the claimed damage.  On the other hand, the 
+City argued that most of the claimed damage by Waterwood was 
+caused by normal wear and tear and, on that basis, the City was 
+not responsible for most of the damage claimed by Waterwood.”  
+Each party made various settlement offers, including 
+Waterwood’s Code of Civil Procedure section 998 offer to 
+compromise for $120,000 plus attorney fees and costs and the 
+City’s Code of Civil Procedure section 998 offer to compromise for 
+$40,001.  No party accepted the other’s settlement offers.   
+10 
+ 
+ Citing Hsu v. Abbara (1995) 9 Cal.4th 863, 876 (Hsu), the 
+trial court reasoned that to determine the prevailing party, it had 
+to consider the parties’ demands as disclosed by their pleadings, 
+trial briefs, and opening statements.  The trial court did not 
+discuss the parties’ pleadings, trial briefs, or opening statements, 
+but instead recounted the parties’ settlement offers in 
+determining that the City’s settlement offer was closer to the 
+jury’s award than was Waterwood’s settlement offer.  “The jury’s 
+verdict was $5,050 greater than the City’s statutory [Code of Civil 
+Procedure section 998] offer, while the verdict was $74,950 less 
+than Waterwood’s § 998 offer (which does not include 
+Waterwood’s considerable costs and attorney fees, which were 
+part of Waterwood’s § 998 offer).”  The trial court also relied on 
+the parties’ “pre-litigation settlement discussions” to determine 
+that the City was the prevailing party.   
+ Based upon the settlement offers, the trial court concluded 
+that “the City clearly succeeded on its claims and Waterwood 
+did not.  The jury did not require the City to pay Waterwood the 
+cost of a new roof, the cost of new air conditioners or the cost to 
+remove and replace the entire parking area, plus the concrete 
+pads.  Instead, the jury required the City to pay the cost to repair 
+a portion of the parking lot, which was exactly the relief the City 
+acknowledged to the jury that it should pay to Waterwood.”   
+ The trial court did not explain its rationale for concluding 
+the jury’s damage award was based on the cost to repair a portion 
+of the parking lot.  The award itself included only a lump sum 
+and did not distinguish among the various items that Waterwood 
+argued needed repair or replacement.  The trial court concluded:  
+“Simply stated, the jury’s verdict was very good news to the City 
+and terrible new[s] for Waterwood.  Based on the litigation 
+11 
+ 
+objectives of the parties, defendant is clearly the prevailing 
+party.”   
+10. Amended Judgment 
+ The amended judgment provides:  (1) The City shall pay 
+Waterwood damages of $45,050 with interest amounting to 
+$1,987.06; (2) the City shall pay Waterwood costs of $19,905.04; 
+and (3) Waterwood shall pay the City attorney fees in the amount 
+of $172,375.  Thus, under the amended judgment, Waterwood 
+owed the City a total of $105,432.90.   
+DISCUSSION 
+A. Section 1717 Governs the Determination of the 
+Prevailing Party 
+ Section 1717 defines prevailing party as “the party who 
+recovered a greater relief in the action on the contract.”  (§ 1717, 
+subd. (b)(1).)  Under section 1717, there may be one prevailing 
+party (Frog Creek Partners, LLC v. Vance Brown, Inc. (2012) 
+206 Cal.App.4th 515, 529; see also de la Carriere v. Greene (2019) 
+39 Cal.App.5th 270, 276), or “no party prevailing on the 
+contract . . . .”  (§ 1717, subd. (b)(1).)  “If neither party achieves a 
+complete victory on all the contract claims, it is within the 
+discretion of the trial court to determine which party prevailed on 
+the contract or whether, on balance, neither party prevailed 
+sufficiently to justify an award of attorney fees.”  (Scott Co. v. 
+Blount, Inc. (1999) 20 Cal.4th 1103, 1109 [trial court did not 
+abuse its discretion in determining plaintiff was the prevailing 
+party even though it received less than 25 percent of the damages 
+it sought].)  In exercising that discretion, our high court has 
+counseled, “the trial court is to compare the relief awarded on the 
+12 
+ 
+contract claim or claims with the parties’ demands on those same 
+claims and their litigation objectives as disclosed by the 
+pleadings, trial briefs, opening statements, and similar sources.” 
+(Hsu, supra, 9 Cal.4th at p. 876.)   
+On the other hand, if a party achieves a “ ‘simple, 
+unqualified win’ ” on the only contract claim between the parties, 
+then the trial court has no discretion to find no party prevailed.  
+(Hsu, supra, 9 Cal.4th at p. 876 [trial court erred in finding no 
+prevailing party when defendant won the only contract claim in 
+the case].)  Thus, “a plaintiff who obtains all relief requested on 
+the only contract claim in the action must be regarded as the 
+party prevailing on the contract for purposes of attorney fees 
+under section 1717.”  (Ibid.)  The case before us is not such a case 
+because Waterwood did not recover all its damages on its contract 
+claim against the City and thus did not achieve an unqualified 
+win. 
+ Both sides argue that Article XXXV of the lease commands 
+a finding that it was the prevailing party.  Article XXXV defines 
+prevailing party as “the party who, in light of the claims, causes 
+of action, and defenses asserted, is afforded greater relief.”  
+Waterwood argues that unlike section 1717, this provision does 
+not allow a finding of no prevailing party, and modifies the “party 
+afforded greater relief” by the phrase “in light of the claims, 
+causes of action, and defenses” in the case.  Given that the City 
+lost on all its affirmative defenses and that the jury awarded 
+Waterwood damages on the only cause of action in the case—
+breach of the lease—Waterwood asserts it was the “party 
+afforded greater relief”’ under the contract.    
+The City, on the other hand, argues that Waterwood has 
+failed to satisfy its burden of demonstrating the trial court erred 
+13 
+ 
+in interpreting the lease.  The City argues the trial court’s 
+statement of decision was supported by substantial evidence and 
+that the trial court properly applied the lease’s definition of 
+prevailing party to determine that the City prevailed.   
+Both parties’ arguments miss the mark.  To the extent 
+arguendo Article XXXV’s definition of prevailing party conflicts 
+with that in section 1717, section 1717 supersedes any such 
+contractual variance.  (Santisas v. Goodin (1998) 17 Cal.4th 599, 
+617 [“When a plaintiff files a complaint containing causes of 
+action within the scope of section 1717 (that is, causes of action 
+sounding in contract and based on a contract containing an 
+attorney fee provision), and the plaintiff thereafter voluntarily 
+dismisses the action, section 1717 bars the defendant from 
+recovering attorney fees incurred in defending those causes of 
+action, even though the contract on its own terms authorizes 
+recovery of those fees.”]; Walker v. Ticor Title Co. of California 
+(2012) 204 Cal.App.4th 363, 373 [“Parties to a contract cannot, 
+for example, enforce a definition of ‘prevailing party’ different 
+from that provided in Civil Code section 1717.”]; Exxess 
+Electronixx v. Heger Realty Corp. (1998) 64 Cal.App.4th 698, 707 
+[“[T]he lease contemplated an award of attorneys’ fees to a cross-
+defendant who is dismissed as a result of a settlement.  
+Nevertheless, the definition of ‘prevailing party’ in Civil Code 
+section 1717 is mandatory and cannot be altered or avoided by 
+contract.”].)   
+ We also reject the City’s argument that the trial court 
+“specifically analyzed the contractual terms defining a prevailing 
+party”; the trial court’s statement of decision is devoid of any 
+analysis of the definition of prevailing party in Article XXXV.  
+(Boldface, underscoring, & capitalization omitted.) 
+14 
+ 
+B. Standard of Review 
+ Under section 1717, a trial court has discretion to 
+determine which party is the prevailing party for purposes of a 
+contractual attorney fee provision.  (DisputeSuite.com, LLC v. 
+Scoreinc.com (2017) 2 Cal.5th 968, 973.)  A trial court abuses its 
+discretion when it relies on improper criteria.  (Y.R. v. A.F. (2017) 
+9 Cal.App.5th 974, 983; see Ayala v. Antelope Valley Newspapers, 
+Inc. (2014) 59 Cal.4th 522, 530.)  A trial court also abuses its 
+discretion if it relies on a fact wholly unsupported by the 
+evidence.  (In re Marriage of Pasco (2019) 42 Cal.App.5th 585, 
+590.)  In part, this is because consideration of the evidence “ ‘ “ ‘is 
+essential to a proper exercise of judicial discretion.’ ”  
+[Citations.].’ ”  (Ibid; see also Tire Distributors, Inc. v. Cobrae 
+(2005) 132 Cal.App.4th 538, 544 [“If there is no evidence to 
+support the court’s findings, then an abuse of discretion has 
+occurred.”].)   
+ “ ‘ “The scope of discretion always resides in the particular 
+law being applied, i.e., in the ‘legal principles governing the 
+subject of [the] action . . . .’  Action that transgresses the confines 
+of the applicable principles of law is outside the scope of 
+discretion and we call such action an ‘abuse’ of discretion.” ’ ”  
+(Hypertouch, Inc. v. Superior Court (2005) 128 Cal.App.4th 1527, 
+1537.)   
+C. The Trial Court Abused Its Discretion in Finding the 
+City Was the Prevailing Party  
+1. The trial court relied on wholly unsupported 
+facts 
+ As just noted above, a trial court abuses its discretion 
+when it relies on facts wholly unsupported by the record.  (In re 
+15 
+ 
+Marriage of Pasco, supra, 42 Cal.App.5th at p. 590.)  The trial 
+court’s statement that the jury awarded damages based on the 
+City’s concession that it failed to repair the parking lot is 
+unsupported by the record.  In its answer, the City disputed all of 
+Waterwood’s allegations.  At trial, the court instructed the jury: 
+“The City of Long Beach denies that it breached the lease 
+agreement, and contends that it completed the repairs required 
+under the lease agreement, except for items caused by 
+reasonable/normal wear and tear.”  The trial court further 
+instructed the jury that to award damages, the jury had to find 
+the City “failed” to do something it was required to do.  The City 
+cites to no concession that it breached the lease or that it owed 
+Waterwood damages.   
+ The record also does not support the trial court’s finding 
+that “the jury required the City to pay the cost to repair a portion 
+of the parking lot . . . .”  The special verdict form did not itemize 
+by location the damages Waterwood was claiming.  Instead, it 
+provided a single line on which the jury was to place a damage 
+award if it found the City had breached the lease.  Although it is 
+possible the jury awarded damages based on repairing the 
+parking lot, the jury could have instead awarded damages based 
+on repairing the roof, which the City admitted before trial and on 
+appeal it should have fixed,3 or on a combination of items.  The 
+ 
+3  The City concedes on appeal that it “admitted from the 
+beginning that it should have paid for some repairs to the roof 
+necessary to put it into working condition, as well as a few other 
+items.”  The City concludes that “[t]he jury awarded $45,050, 
+which accounted for the repairs to the roof necessary to put it into 
+working condition, which the defense did not dispute it should 
+pay under the contract.”  As noted in the text, this is not a 
+16 
+ 
+special verdict does not elucidate the basis for the damage award 
+and does not support the finding that the award was based solely 
+on the cost of repairing the parking lot.   
+2. The trial court relied on improper legal criteria 
+ The trial court also abused its discretion in relying on 
+improper legal criteria—specifically the parties’ settlement 
+offers—to conclude that the City was the prevailing party.  The 
+trial court concluded that “[b]ased on the parties’ respective 
+[Code of Civil Procedure] § 998, . . . offers to compromise, the 
+defendant City clearly succeeded on its claims at trial, while 
+Waterwood did not.”  The trial court also relied on the parties 
+other “settlement discussions” predating their respective Code of 
+Civil Procedure section 998 offers.   
+ In determining the prevailing party under section 1717, a 
+trial court may not consider the parties’ settlement 
+communications.  “Settlement communications are not sources 
+‘similar’ to ‘pleadings, trial briefs, [and] opening statements.’  
+[Citation.]  They were not presented at trial, and we decline to 
+allow their use to establish that defendant’s ‘litigation objectives’ 
+were in fact different from the ‘demands’ it made on those claims 
+throughout the litigation.”  (Marina Pacifica Homeowners 
+Assn. v. Southern California Financial Corp. (2018) 
+20 Cal.App.5th 191, 204 (Marina Pacifica).)  As Division Eight of 
+our court observed, “[t]he objectives in settlement negotiations 
+are utterly unlike litigation objectives stated in court proceedings 
+to obtain a legal decision.”  (Ibid.)  Simply put, the Code of Civil 
+Procedure section 998 offers and settlement negotiations here 
+ 
+necessary conclusion from the record, and one not reached by the 
+trial court. 
+17 
+ 
+were irrelevant to the determination of whether Waterwood was 
+a prevailing party under section 1717.   
+ We are cognizant that certain circumstances may permit an 
+attorney fee award under Code of Civil Procedure section 998 
+even when a party was not the prevailing party under section 
+1717.  (SCI California Funeral Services, Inc. v. Five Bridges 
+Foundation (2012) 203 Cal.App.4th 549, 577–578 (SCI).)  “[A] 
+defendant’s entitlement to costs under section 998 derives not 
+from its status as a prevailing party but rather from the 
+plaintiff’s failure to accept a reasonable settlement offer.”  (SCI, 
+at p. 578.)  Under Code of Civil Procedure section 998, “a party 
+whose settlement offer exceeds the judgment ‘is treated for 
+purposes of postoffer costs as if it were the prevailing party.’ ”  
+(SCI, at p. 578.)  Where a contract permits the prevailing party 
+attorney fees, such postoffer costs may also include attorney fees.  
+(Ibid.)  These principles do not assist the City because the City’s 
+Code of Civil Procedure section 998 offer, offering $40,001, 
+did not exceed the judgment of $45,050.  (See Code Civ. Proc., 
+§ 998, subd. (c)(1).)   
+3. The trial court did not consider the controlling 
+legal standard 
+A trial court abuses its discretion when it applies the wrong 
+legal standard.  (Miyamoto v. Department of Motor Vehicles 
+(2009) 176 Cal.App.4th 1210, 1219.)  Even if the City admitted 
+that it owed Waterwood money to repair the parking lot, and 
+assuming arguendo the jury based its damage award on repairing 
+the parking lot, the trial court abused its discretion in relying on 
+that purported admission to conclude the City was a prevailing 
+party.  To achieve prevailing party status under this theory, 
+section 1717, subdivision (b)(2) required the City to admit its debt 
+18 
+ 
+and tender the debt before a contested trial.  The City never did 
+so.  
+Section 1717, subdivision (b)(2) provides in pertinent part:  
+“Where the defendant alleges in his or her answer that he or she 
+tendered to the plaintiff the full amount to which he or she was 
+entitled, and thereupon deposits in court for the plaintiff, the 
+amount so tendered, and the allegation is found to be true, then 
+the defendant is deemed to be a party prevailing on the contract 
+within the meaning of this section.”   
+ Contemporaneously with section 1717, subdivision (b)(2)’s 
+enactment, the Senate Committee on the Judiciary described its 
+purpose as follows:  “Proponents perceive another deficiency in 
+present C.C. [Civil Code] Sec. 1717 in that it does not contain a 
+provision allowing the defendant to be deemed the prevailing 
+party when she or he tenders the plaintiff the full amount to 
+which the defendant alleges that the plaintiff is entitled, deposits 
+that amount in court, and then establishes the allegation as true.  
+Such a provision, which is aimed at encouraging settlements, is 
+contained in present C.C. Sec. 1811.1, whose language SB 1028 
+would incorporate into C.C. Sec. 1717.”  (Sen. Com. on Judiciary, 
+Analysis of Sen. Bill No. 1028 (1981–1982 Reg. Sess.) as 
+introduced Mar. 27, 1981, p. 3.)    
+ As the legislative history reveals, section 1717, 
+subdivision (b)(2) was modeled after section 1811.1, and we may 
+presume the Legislature was aware of contemporaneous judicial 
+construction of section 1811.1.  (People v. Jones (2001) 25 Cal.4th 
+98, 109; see also Viking Pools, Inc. v. Maloney (1989) 48 Cal.3d 
+602, 609 [“The Legislature is deemed to be aware of existing laws 
+and judicial decisions construing the same statute in effect at the 
+time legislation is enacted . . . .”].)   
+19 
+ 
+Section 1811.1 provides (and provided at the time the 
+Legislature enacted the pertinent part of § 1717, subd. (b)(2)):  
+“Reasonable attorney’s fees and costs shall be awarded to the 
+prevailing party in any action on a contract or installment 
+account subject to the provisions of this chapter[4] regardless of 
+whether such action is instituted by the seller, holder or buyer.  
+Where the defendant alleges in his answer that he tendered to 
+the plaintiff the full amount to which he was entitled, and 
+thereupon deposits in court, for the plaintiff, the amount so 
+tendered, and the allegation is found to be true, then the 
+defendant is deemed to be a prevailing party within the meaning 
+of this article.” 
+ In Joseph Magnin Co. v. Schmidt (1978) 89 Cal.App.3d. 
+Supp. 7 (Schmidt), the court applied section 1811.1 to determine 
+the plaintiff was the prevailing party.  (Id. at p. Supp. 11.)  In 
+Schmidt, the defendant paid the amount it owed the plaintiff a 
+month after the plaintiff sued the defendant, but before the 
+defendant answered.  (Id. at p. Supp. 8.)  The judgment awarded 
+the plaintiff no damages because the defendant had already paid 
+the obligation.  (Id. at pp. Supp. 8–9.)  The plaintiff argued that 
+notwithstanding that fact, it was the prevailing party for 
+purposes of an award of attorney fees because the defendant did 
+not pay the amount owed until after the plaintiff filed the 
+complaint.  (Id. at p. Supp. 9.)   
+ The Schmidt court agreed:  Under section 1811.1, 
+“[s]uccessful plaintiffs are entitled to costs and disbursements as 
+a matter of course.  [Citation.]  Attorneys fees are likewise 
+ 
+4  Section 1811.1 appears in a chapter regarding retail 
+installment contracts.  
+20 
+ 
+available in the absence of agreement where specifically provided 
+for by statute as here.  [Citation.]  Hence [plaintiff] herein, by 
+specific statutory authorization, upon the date of filing of its 
+complaint, was in the same position as any other similarly 
+authorized plaintiff-creditor who is owed a debt and who incurs 
+attorneys fees and costs in seeking payment of that debt.  The 
+clear import of section 1811.1 is to encourage prelitigation 
+tenders.  Tender is a word in common legal usage to denote an 
+offer before suit.  The use of the word ‘tender’ in the same 
+sentence in which the phrase ‘. . . deposits in court . . .’ appears 
+also supports our conclusion that tenders in section 1811.1 are to 
+be made before the litigation commences.  Logically then if the 
+prelitigation tender is refused the defendant may after suit allege 
+such tender and deposit the amount to which plaintiff is entitled 
+into court.”  (Schmidt, supra, 89 Cal.App.3d at p. Supp. 11.)  The 
+court further concluded that “neither law, equity, fairness nor 
+justice requires that a defendant debtor be entitled to delay 
+payment of a debt in circumstances such as these until after a 
+lawsuit has been filed and thus defeat a plaintiff-creditor’s 
+entitlement to attorneys fees and costs.”  (Id. at p. Supp. 13.)   
+ In Schmidt, the plaintiff was a prevailing party because the 
+defendant did not timely tender the amount it owed the plaintiff. 
+Here, the City never tendered any debt owed Waterwood 
+relating to the lease.  The trial court overlooked the import of 
+section 1717, subdivision (b)(2), and as we explain below, the trial 
+court thus abused its discretion in finding that the City was the 
+prevailing party.  
+21 
+ 
+4. Under the correct legal standard, the City 
+was not a prevailing party 
+ Although the City argues that “from the very beginning [it] 
+admitted breach, as it had not completed all the repairs,” an 
+“admitted breach” is not the same as a tender.  (Underscoring 
+omitted.)  “A tender is an offer of performance made with the 
+intent to extinguish the obligation.”  (Still v. Plaza Marina 
+Commercial Corp. (1971) 21 Cal.App.3d 378, 385; see also 
+Crossroads Investors, L.P. v. Federal National Mortgage Assn. 
+(2017) 13 Cal.App.5th 757, 783.)  When properly made, a tender 
+puts the other party in default if he or she refuses to accept it.  
+(Still, supra, at p. 385.)  
+Applying section 1717, subdivision (b)(2), we have 
+explained that a defendant is a prevailing party when the 
+defendant tenders the full amount of the contractual debt or pays 
+the entire debt.  (David S. Karton, A Law Corp. v. Dougherty 
+(2014) 231 Cal.App.4th 600, 608 [defendant was the prevailing 
+party under section 1717, subdivision (b)(2) because prior to 
+plaintiff’s commencement of arbitration, he paid plaintiff the 
+attorney fees and interest he owed].)  Division Three of our court 
+recognized in Bank of Idaho v. Pine Avenue Associates (1982) 
+137 Cal.App.3d 5, 16, that under section 1717, subdivision (b)(2), 
+a defendant could be a prevailing party “if in the answer a tender 
+is alleged, a deposit is made, and the plaintiff is found to be 
+entitled to no more than the amount of the tender,” but concluded 
+it was premature to make a prevailing party finding there before 
+the defendant answered.  Because the City did not tender to 
+Waterwood any amount for repair, its “admitted breach” does not 
+support prevailing party status.   
+22 
+ 
+ Here, there was only one contract claim, and Waterwood 
+was the only party that obtained relief.  The jury found against 
+the City on the sole cause of action for breach of contract and 
+rejected all its affirmative defenses.  The City failed to tender any 
+admitted cost of repair to Waterwood at any time before or during 
+the trial of this case.  Thus the record does not reveal any 
+circumstance under which the City could be the prevailing party 
+under section 1717.  
+ The City counters with de la Cuesta v. Benham (2011) 
+193 Cal.App.4th 1287 (de la Cuesta), but to no avail.  There, the 
+plaintiff-landlord filed an unlawful detainer complaint seeking 
+unpaid rent and other damages.  (Id. at pp. 1290–1291.)  The 
+defendant-tenant answered alleging she owed nothing and that 
+the landlord had breached the warranty of habitability.  (Id. 
+at p. 1291.)  After the tenant vacated the premises, the court 
+converted the case from an unlawful detainer to an ordinary civil 
+action.  (Id. at p. 1291.)  Ultimately the landlord recovered 
+approximately 70 percent of the monetary damages he had 
+requested.  (Ibid.)  The trial court denied the landlord’s motion 
+for attorney fees and found neither party prevailed because the 
+landlord recovered possession before the civil action commenced 
+and recovered only a portion of its damages.  (Ibid.)   
+ Applying section 1717, the appellate court distinguished a 
+case in which a plaintiff obtains an unqualified victory and all the 
+damages it sought, from a case in which a plaintiff recovers only 
+a portion of the damages sought.  (de la Cuesta, supra, 
+193 Cal.App.4th at pp. 1292–1293.)  The appellate court 
+explained that in the latter scenario, a trial court cannot simply 
+“nullify” an attorney fee “provision if there is anything less than 
+100 percent success as measured against the most extreme claim 
+23 
+ 
+for relief taken by a litigant . . . .”5  (de la Cuesta, at p. 1295.)  
+The court then concluded that, given the “lopsidedness” of the 
+award and that the landlord had obtained repossession of the 
+premises, the trial court abused its discretion in finding there 
+was no prevailing party and in not awarding attorney fees to the 
+landlord.  (Id. at pp. 1297, 1299.)   
+We fail to discern how this case supports the trial court’s 
+finding that the City was the prevailing party here.   
+D. Instructions on Remand 
+ Upon remand the trial court shall determine whether 
+Waterwood was the prevailing party or whether there was no 
+prevailing party.  As discussed earlier, when “deciding whether 
+there is a ‘party prevailing on the contract,’ the trial court is to 
+compare the relief awarded on the contract claim or claims with 
+the parties’ demands on those same claims and their litigation 
+objectives as disclosed by the pleadings, trial briefs, opening 
+statements, and similar sources.”  (Hsu, supra, 9 Cal.4th at 
+p. 876; de la Cuesta, supra, 193 Cal.App.4th at p. 1296.)  The 
+trial court may not consider the parties’ settlement discussions.  
+(Marina Pacifica, supra, 20 Cal.App.5th at p. 204.) 
+ 
+ 5  “Most of the time, attorneys have an incentive to assert 
+the maximal claims possible on behalf of their clients. . . . But if 
+anything less than complete victory means that a client loses 
+what would otherwise have been ‘prevailing party’ status under 
+section 1717, the attorney is crunched into a dilemma.  Risk a 
+malpractice suit by not asserting maximal claims, or risk a 
+malpractice suit by forfeiting ‘prevailing party’ status under 
+section 1717 by asserting maximal claims.”  (de la Cuesta, supra, 
+193 Cal.App.4th at p. 1296, fn. 5.)   
+24 
+ 
+ If the trial court concludes that Waterwood is the 
+prevailing party, it shall calculate the amount of reasonable fees 
+the City owes Waterwood under Article XXXV.  If the trial court 
+finds there was no prevailing party, neither party is entitled to 
+its attorney fees.   
+DISPOSITION 
+ The amended judgment is reversed in so far as it requires 
+Waterwood Enterprises, LLC to pay the City of Long Beach’s 
+attorney fees.  In all other respects the amended judgment is 
+affirmed.  The case is remanded to the trial court for further 
+proceedings consistent with this opinion.  Waterwood 
+Enterprises, LLC is entitled to its costs on appeal.   
+ CERTIFIED FOR PUBLICATION. 
+ 
+ 
+ 
+       BENDIX, J. 
+ 
+We concur: 
+ 
+ 
+ 
+  ROTHSCHILD, P. J. 
+ 
+ 
+ 
+  FEDERMAN, J.* 
+ 
+*  Judge of the San Luis Obispo County Superior Court, 
+assigned by the Chief Justice pursuant to article VI, section 6 of 
+the California Constitution. 

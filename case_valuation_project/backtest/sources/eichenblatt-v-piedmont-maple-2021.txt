@@ -1,0 +1,237 @@
+FOURTH DIVISION
+DILLARD, P. J.,
+RICKMAN, P. J., and BROWN, J.
+NOTICE: Motions for reconsideration must be
+physically received in our clerk’s office within ten
+days of the date of decision to be deemed timely filed.
+https://www.gaappeals.us/rules
+DEADLINES ARE NO LONGER TOLLED IN THIS
+COURT.  ALL FILINGS MUST BE SUBMITTED WITHIN
+THE TIMES SET BY OUR COURT RULES.
+January 29, 2021
+In the Court of Appeals of Georgia
+A20A2052. EICHENBLATT v. PIEDMONT/MAPLE, LLC et al.
+BROWN, Judge.
+This is the fourth time these parties have come before this Court. See
+Eichenblatt v. Piedmont/Maple, LLC, 350 Ga. App. XXIV (June 24, 2019)
+(unpublished) (the “Third Appeal”); Eichenblatt v. Piedmont/Maple, LLC, 341 Ga.
+App. 761 (801 SE2d 616) (2017) (the “Second Appeal”); Kaufman Dev. Partners, L.
+P. v. Eichenblatt, 324 Ga. App. 71 (749 SE2d 374) (2013) (the “First Appeal”). In
+this appearance, David Eichenblatt appeals the trial court’s grant of attorney fees in
+the amount of $837,444.95 to Piedmont/Maple, LLC, Kaufman Development
+Partners, LP (“KDP”), and Craig S. Kaufman (collectively “appellees”), under
+Georgia’s “offer of settlement statute,” OCGA § 9-11-68. We reverse.
+A more detailed factual history of this case is found in the three prior opinions
+issued in this case, but following is a brief summary of the pertinent facts, most of
+which are culled from the opinion issued in the Third Appeal. In 1995, Eichenblatt
+and KDP, as its sole members, formed Piedmont/Maple, a real estate investment
+company that owned and operated a piece of commercial property in Atlanta.
+Pursuant to the operating agreement, Eichenblatt would receive up to 40 percent of
+Piedmont/Maple’s quarterly cash flow distribution. In accordance with an amended
+operating agreement executed in 2000, Eichenblatt was removed as a member of
+Piedmont/Maple, but retained the right to receive his share of distributions. In 2005,
+Piedmont/Maple refinanced the debt on the commercial property, and then began
+experiencing financial difficulties. Eichenblatt, suspecting mismanagement by KDP,
+sued Kaufman, KDP, and other related entities claiming, inter alia, that the defendants
+had mismanaged Piedmont/Maple, breached the amended operating agreement, and
+ignored their fiduciary responsibilities. Following a jury trial in 2011, Eichenblatt was
+awarded $625,000 against KDP for breach of the operating agreement. KDP
+appealed, and this Court affirmed in the First Appeal.
+In September 2012, KDP loaned Piedmont/Maple $3,550,000, allowing
+Piedmont/Maple to pay off debt on the commercial property which had gone into
+2
+default. At around the same time, the commercial property, which had been divided
+into two parcels, was sold in two separate transactions. Following the sale, appellees
+sought to wind down and terminate Piedmont/Maple. As part of the dissolution,
+Piedmont/Maple distributed to Eichenblatt $969,609.23, which it had determined to
+be 40 percent of its total remaining assets, less certain fees and expenses. When
+Eichenblatt disputed the accuracy of Piedmont/Maple’s calculation and refused to
+cash the final distribution check, appellees filed the instant action for declaratory
+judgment to establish the proper dissolution payment. Eichenblatt counterclaimed for
+breach of contract and breach of fiduciary duty, asserting that KDP and Kaufman had
+manipulated the member loan to KDP’s advantage and had reduced the value of the
+commercial property by selling the two parcels separately instead of as an
+assemblage. Eichenblatt also alleged that KDP and Kaufman leased space in the
+commercial property to an affiliate, but did not require the affiliate to make rental
+payments. Eichenblatt sought 40 percent of the unpaid rent, totaling approximately
+$422,451. 
+The Second Appeal arose from appellees’ underlying declaratory judgment
+action. Appellees moved for summary judgment on Eichenblatt’s counterclaims, and
+the trial court granted the motion in part. Eichenblatt appealed. Shortly before
+3
+Eichenblatt filed the Second Appeal with this Court, appellees served an offer of
+settlement pursuant to OCGA § 9-11-68 on him. Eichenblatt made a counteroffer,
+which appellees rejected; the parties never reached an agreement. In the meantime,
+this Court reversed the partial grant of summary judgment to appellees and remanded
+the case back to the trial court. See Eichenblatt, 341 Ga. App. at 765-767 (2), (3). 
+Following remand from this Court, and various procedural machinations, the
+matter proceeded to trial. At the start of trial, KDP confessed judgment in the amount
+of $79,000 on the unpaid rent claim. At the close of the evidence, the trial court
+granted a directed verdict against Eichenblatt on his claims of breach of
+contract/breach of fiduciary duty related to appellees’ failure to sell the commercial
+property as an assemblage. As to the remaining claims, the jury found that
+Piedmont/Maple had proved that it correctly valued its assets and distributions to
+Eichenblatt regarding its attempted dissolution. The jury ruled against Eichenblatt on
+his counterclaims, finding that he failed to prove that Kaufman or KDP breached any
+contracts or their fiduciary duties.1 The trial court entered a final judgment on May
+18, 2018, concluding that appellees were entitled to a declaratory final judgment that
+1 The only counterclaim remaining after the directed verdict was whether
+Kaufman or KDP breached a fiduciary duty with respect to their management of
+Piedmont/Maple, particularly with regard to the member loan. 
+4
+the correct amount of Eichenblatt’s final share in the dissolution is $969,609.23 under
+the Operating Agreement of Piedmont/Maple, LLC, the First Amendment to
+Operating Agreement, and the Separation Agreement, and entering judgment against
+“[p]laintiff Craig S. Kaufman and in favor of . . . Eichenblatt in the amount of
+$79,065.60 [for the rent underpayment].” 
+In the Third Appeal, Eichenblatt challenged various evidentiary rulings by the
+trial court during the trial, and the trial court’s directed verdict on his counterclaim.
+This Court affirmed the rulings. See Third Appeal, Slip Op. at 8-15. Upon remittitur,
+appellees moved for attorney fees pursuant to OCGA § 9-11-68. Following a hearing,
+the trial court granted the motion, awarding to appellees attorney fees in the amount
+of $837,444.95, pursuant to OCGA § 9-11-68. Eichenblatt appeals this order. 
+1. Proper resolution of this appeal requires us to consider the trial court’s
+conclusion that “notwithstanding the discussions between the parties/their counsel at
+the time the Offer of Settlement was pending, by its express terms, the Offer of
+Settlement was intended to settle only Eichenblatt’s ‘counterclaims.’ See OCGA § 9-
+11-68 (a).”2 (Emphasis supplied.) Because we find that the trial court erred in
+2 Appellees argue that Eichenblatt has waived our consideration of this claim
+of error because it “was not raised or ruled upon in the trial court[.]” “However, an
+appellate court cannot affirm a judgment based on an erroneous legal theory. Where
+5
+concluding that the offer was enforceable under OCGA § 9-11-68 (a), we reverse the
+award of attorney fees. 
+We apply “a de novo standard of review when an appeal presents a question
+of law regarding whether the trial court correctly interpreted and applied OCGA §
+9-11-68 (a).” Tiller v. RJJB Assoc., LLP, 331 Ga. App. 622, 623 (770 SE2d 883)
+(2015). As such, “[w]e owe no deference to a trial court’s ruling on questions of law
+and review such issues de novo under the ‘plain legal error’ standard of review.”
+(Citations and punctuation omitted.) Chadwick v. Brazell, 331 Ga. App. 373, 375 (2)
+it is apparent that the court rests its judgment on reasons which are erroneous or upon
+an erroneous legal theory, it commits reversible error.” (Citations and punctuation
+omitted.) Imerys Clays, Inc. v. Washington County Bd. of Tax Assessors, 287 Ga.
+App. 674, 676 (652 SE2d 580) (2007). See also Record Town, Inc. v. Sugarloaf Mills
+Ltd. Partnership of Ga., 301 Ga. App. 367 (1) (687 SE2d 640) (2009) (construction
+of lease, as with other contracts, “was ultimately a ruling on a matter of law”); Suarez
+v. Halbert, 246 Ga. App. 822, 824-825 (1) (543 SE2d 733) (2000) (reversing award
+of attorney fees to nonprevailing party where trial court’s judgment rested on
+erroneous legal theory); Glover v. Ware, 236 Ga. App. 40, 44-45 (3) (510 SE2d 895)
+(1999) (after concluding that affidavit of illegality lacked merit as a matter of law,
+trial court committed plain legal error in denying requested damages). Cf. In re Estate
+of McKitrick, 326 Ga. App. 702, 704 (2) (a) (757 SE2d 295) (2014) (invoking de
+novo standard of review to address ruling by probate court even though parties did
+not challenge the ruling on appeal). We note additionally that Eichenblatt’s second
+enumeration, claiming that the trial court erred in awarding attorney fees under
+OCGA § 9-11-68 because the offer of settlement did not meet the requirements of the
+statute and is unenforceable because it was impermissibly ambiguous, fairly
+encompasses the trial court’s ruling as quoted supra. 
+6
+(771 SE2d 75) (2015). Moreover, “where it is apparent that a trial court’s judgment
+rests on an erroneous legal theory, an appellate court cannot affirm.” (Citation and
+punctuation omitted.) Suarez v. Halbert, 246 Ga. App. 822, 824 (1) (543 SE2d 733)
+(2000). See also Imerys Clays, Inc. v. Washington County Bd. of Tax Assessors, 287
+Ga. App. 674, 676 (652 SE2d 580) (2007).
+OCGA § 9-11-68 “is in derogation of common law and it must be strictly
+construed against the award of [attorney fees and costs].” (Citations and punctuation
+omitted.) Alessi v. Cornerstone Assoc., 334 Ga. App. 490, 493 (780 SE2d 15) (2015).
+OCGA § 9-11-68 therefore “must be limited strictly to the meaning of the language
+employed, and not extended beyond the plain and explicit terms of the statute.”
+(Citation, punctuation, and emphasis omitted.) Harris v. Mahone, 340 Ga. App. 415,
+422 (1) (797 SE2d 688) (2017).
+The offer of settlement provided, in pertinent part, as follows: 
+Pursuant to O.C.G.A. § 9-11-68, Counterclaim-Defendants
+Piedmont/Maple L.L.C. (“Piedmont/Maple”), Kaufman Development
+Partners, LP (“KDP”), and Craig S. Kaufman (collectively, the “KDP
+Parties”) hereby offer to settle the counterclaim for breach of fiduciary
+duty asserted by Counterclaim-Plaintiff David L. Eichenblatt against the
+KDP Parties in the above-captioned lawsuit according to the terms and
+conditions set forth below. . . . 
+7
+1. The KDP Parties shall pay to Mr. Eichenblatt the aggregate sum
+of One Hundred Twenty-Five Thousand and No/100 Dollars
+($125,000.00) (the “Settlement Payment”), in exchange for Mr.
+Eichenblatt dismissing, with prejudice, all counterclaims asserted by Mr.
+Eichenblatt against the KDP Parties in the above-referenced lawsuit. No
+amount of this offer (Zero Dollars [$0]) is proposed to settle any claim
+and/or counterclaim for punitive damages. To the extent that Mr.
+Eichenblatt seeks to recover attorney[] fees and other expenses, the
+Settlement Payment includes any and all such attorney[] fees and other
+expenses. The Settlement Payment shall settle and terminate any and all
+counterclaims asserted by Mr. Eichenblatt in the above-referenced
+lawsuit.
+2. Mr. Eichenblatt shall dismiss with prejudice all counterclaims
+asserted by Mr. Eichenblatt against the KDP Parties in the
+above-referenced lawsuit within ten (10) days after the receipt by Mr.
+Eichenblatt (or counsel for Mr. Eichenblatt) of the Settlement Payment,
+and the parties shall file a Consent Order of Dismissal of Counterclaims
+With Prejudice in the form attached hereto as Exhibit A. Mr. Eichenblatt
+also shall dismiss with prejudice any pending appeals of any issues in
+this lawsuit. 
+3. Mr. Eichenblatt shall agree to and execute a full and final
+release of any and all claims and/or counterclaims, whether known or
+unknown, that Mr. Eichenblatt (and any assigns, heirs, or successors in
+interest) may have or may have had at any time in the past against the
+KDP Parties and their current and former parents, subsidiaries, affiliates,
+8
+successors, assigns, heirs, directors, officers, shareholders, members,
+employees, agents, attorneys, representatives, consultants, investigators,
+and others acting on their behalf. . . . 
+(Emphasis supplied.) Georgia’s “offer of settlement statute” provides, in relevant part,
+as follows: 
+(a) At any time more than 30 days after the service of a summons and
+complaint on a party but not less than 30 days (or 20 days if it is a
+counteroffer) before trial, either party may serve upon the other party,
+but shall not file with the court, a written offer, denominated as an offer
+under this Code section, to settle a tort claim for the money specified in
+the offer and to enter into an agreement dismissing the claim or to allow
+judgment to be entered accordingly. Any offer under this Code section
+must: 
+(1) Be in writing and state that it is being made pursuant to this Code 
+section; 
+. . . 
+(3) Identify generally the claim or claims the proposal is attempting 
+to resolve;
+(4) State with particularity any relevant conditions; [and]
+(5) State the total amount of the proposal[.]
+(Emphasis supplied.) OCGA § 9-11-68 (a). 
+9
+Pursuant to this Court’s decision in CaseMetrix, LLC v. Sherpa Web Studios,
+353 Ga. App. 768, 770-773 (1) (839 SE2d 256) (2020), appellees’ offer was
+unenforceable under OCGA § 9-11-68 (a). As this Court stated in CaseMetrix, 
+the law applies to resolution of tort claims only. Additionally, to be
+enforceable, the offer cannot be unclear or ambiguous as to the scope of
+claims to be resolved if the offer is accepted. This means that the offer
+must sufficiently identify the claim or group or category of claims that
+the proposal covers. The offer must also sufficiently identify the relevant
+conditions of the settlement because the scope of claims required to be
+relinquished by the offer is material.
+(Citation and punctuation omitted; emphasis supplied.) 353 Ga. App. at 772 (1). As
+in CaseMetrix, in this case, the offer “was internally inconsistent as to the scope of
+the claims it sought to resolve” and, therefore, ambiguous. Id. at 773 (1). The opening
+paragraph of the offer here sought to settle “the counterclaim for breach of fiduciary
+duty asserted by Counterclaim-Plaintiff David L. Eichenblatt.” (Emphasis supplied.)
+Paragraph 1 of the offer, however, sought to “settle and terminate any and all
+counterclaims asserted by Mr. Eichenblatt in the above-referenced lawsuit.”
+(Emphasis supplied.) And, as set out above, Eichenblatt asserted counterclaims for
+breach of fiduciary duty (a tort) and breach of contract. Because a “plausible reading
+of the offer [here] is that it required settlement of both [the] tort claim and [the]
+10
+contract claim,” CaseMetrix, 353 Ga. App. at 772-773 (1), the trial court erred in
+ruling that the offer was enforceable under OCGA § 9-11-68 (a). Accordingly, we
+reverse its award of attorney fees to appellees. See CaseMetrix, 353 Ga. App. at 773
+(1). In so holding, we acknowledge that in Hillman v. Bord, 347 Ga. App. 651 (820
+SE2d 482) (2018) (physical precedent only), this Court found that the appellees’
+offers to settle both tort and non-tort claims (request for injunctive relief) were valid
+because the appellants’ claim for injunctive relief was “entirely premised on the
+allegations contained in their tort claims against the [a]ppellees.” Id. at 655 (1).
+Hillman did not consider whether the offer was unclear or ambiguous. See
+CaseMetrix, 353 Ga. App. at 773 (1), n.3. In this case, the breach of contract claims
+were not and could not be entirely premised on the allegations contained in the tort
+claims. See, e.g., A. L. Williams & Assocs. v. Faircloth, 259 Ga. 767, 769 (3) (d) (386
+SE2d 151) (1989) (“[a]ny breach of contract must arise from the contract, and does
+not give rise to an action for tort, whether or not such breach was negligent or
+wilful”) (punctuation omitted). 
+2. In light of our disposition in Division 1, we need not address Eichenblatt’s
+remaining enumerations of error. 
+Judgment reversed. Dillard, P. J., and Rickman, P. J., concur.
+11

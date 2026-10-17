@@ -1,0 +1,710 @@
+DISTRICT COURT OF APPEAL OF THE STATE OF FLORIDA 
+FOURTH DISTRICT 
+ 
+LEMARTEC CORPORATION, et al., 
+Appellants, 
+ 
+v. 
+ 
+EAST COAST METAL STRUCTURES CORP., 
+Appellee. 
+ 
+No. 4D2023-0601 
+ 
+[May 15, 2024] 
+ 
+Appeal from the Circuit Court for the Fifteenth Judicial Circuit, Palm 
+Beach County; Scott R. Kerner, Judge; L.T. Case No. 50-2017-CA-010645-
+XXXX-MB. 
+ 
+Joy Spillis Lundeen, Felix X. Rodriguez, and Kelly R. Melchiondo of 
+Bilzin Sumberg Baena Price & Axelrod LLP, Miami, for appellants. 
+ 
+Thomasina F. Moore of GrayRobinson, P.A., Tallahassee, for appellee. 
+ 
+DAMOORGIAN, J. 
+ 
+Lemartec Corporation (“Contractor”), Tellus Products, LLC (“Project 
+Owner”), Philadelphia Indemnity Insurance Company (“Philadelphia”), and 
+Suretec Insurance Company (“Suretec”) (collectively “Defendants”) appeal 
+the order denying their motion for attorney’s fees and the subsequent final 
+judgment awarding prevailing party attorney’s fees to East Coast Metal 
+Structures Corp. (“Subcontractor”).  For the reasons discussed below, we 
+reverse the award of attorney’s fees to Subcontractor in its entirety and 
+remand for entry of an award of attorney’s fees to Defendants. 
+ 
+Background 
+ 
+The genesis of this appeal is a dispute arising out of the construction 
+of a sugarcane bagasse processing facility located in Belle Glade, Florida 
+(“the Project”).  Our analysis of the issues related to the award of attorney’s 
+fees in this appeal necessarily requires a brief discussion of the underlying 
+facts which led to the dispute. 
+ 
+2 
+ 
+Project Owner hired Contractor to design and construct the Project, 
+which consisted of three separate buildings: an office building, a molding 
+building, and a pulping building.  Contractor thereafter issued bid 
+drawings to prospective bidders for the steelwork to be completed on the 
+three buildings.  Contractor ultimately provided Subcontractor with 
+Letters of Intent (“LOIs”).  Each LOI identified the name of the building 
+requiring work and a lump sum price to be paid for the work, and included 
+express language that subcontracts were forthcoming.  Shortly thereafter, 
+Contractor sent Subcontractor three subcontracts, one for each building, 
+providing for the fabrication, installation, and delivery of structural steel 
+and miscellaneous metals.  Unlike the LOIs, each of the subcontracts 
+included a cross-default provision providing that if Subcontractor 
+breached any of the subcontracts, Contractor could “offset all costs to 
+complete the Work from this Subcontract Agreement and/or other 
+contracts . . . to recompense the Contractor.” 
+ 
+It is undisputed that Subcontractor did not sign the subcontracts.  
+Nonetheless, the parties proceeded as if the subcontracts had been 
+executed, with Subcontractor completing all of the steelwork for the office 
+and molding buildings, and part of the work for the pulping building, 
+pursuant to the subcontracts.  Subcontractor failed, however, to supply 
+and install the stairs in the pulping building, as required under the 
+pulping building subcontract. 
+ 
+Project Owner eventually took over the Project from Contractor and 
+assumed the three subcontracts with Subcontractor.  After several months 
+of delay, Project Owner began searching  for a replacement subcontractor 
+to complete the stairs and requested a deductive change order from 
+Subcontractor.  In response, Subcontractor provided a deductive change 
+order for $12,300, which was less than the original estimated value of the 
+stairs at the time of Subcontractor’s bid.  After Subcontractor refused to 
+negotiate its proposed credit for the stairs, Project Owner sent 
+Subcontractor a notice of default and eliminated the stairs from 
+Subcontractor’s scope of work.  Subcontractor did not respond to the 
+notice of default or attempt to cure the default; instead, Subcontractor 
+recorded a claim of lien. 
+ 
+Project Owner thereafter hired a new subcontractor to complete the 
+stairs at a cost of nearly $127,000.  In light thereof, Project Owner refused 
+to pay Subcontractor the balance owed on the subcontracts, including the 
+retainages on the molding and office building subcontracts, pursuant to 
+the cross-default provisions. 
+ 
+ 
+3 
+ 
+The Lawsuit 
+ 
+Subcontractor then sued Defendants for the remainder of the balance.  
+Subcontractor’s operative complaint also disputed the validity of the 
+unexecuted subcontracts and argued the LOIs should govern instead. 
+ 
+Subcontractor’s complaint included five counts.  Count I alleged claims 
+against Contractor and its surety Philadelphia on the original payment 
+bond pursuant to section 713.23, Florida Statutes.  Count II alleged 
+claims against Project Owner and its surety Suretec on the transfer 
+payment bond pursuant to section 713.23, Florida Statutes.  Count III  
+alleged claims against Contractor and Project Owner for breach of contract 
+on the pulping building, and sought $63,935.40.  Count IV alleged claims 
+against Contractor and Project Owner for breach of contract on the office 
+and molding buildings, and sought $28,011.30 for the molding building 
+and $10,065 for the office building.  Finally, Count V alleged alternative 
+quantum meruit claims against Contractor and Project Owner.  In total, 
+Subcontractor sought $102,011.70 in damages. 
+ 
+Defendants answered the complaint and raised several affirmative 
+defenses seeking to avoid payment to Subcontractor for various reasons, 
+including a claim for “set-off against any moneys owed to [Subcontractor]” 
+for the cost of completing the stairs.  Project Owner also filed a 
+counterclaim against Subcontractor for breach of the pulping subcontract, 
+and sought damages incurred as a result of Subcontractor’s failure to 
+complete the stairs.  Subcontractor answered the counterclaim and 
+asserted several affirmative defenses, including that Project Owner “failed 
+to satisfy all conditions precedent to bringing this action.” 
+ 
+The matter ultimately proceeded to a ten-day bench trial.  Prior to trial, 
+the parties filed a joint pretrial stipulation wherein they listed the following 
+relevant disputed issues of fact for determination at trial: 
+ 
+1. Whether the parties ever entered into written subcontract 
+agreements for the office building, molding building and 
+pulping building . . . . 
+ 
+2. Whether the parties’ actions provided assent to the 
+unsigned subcontracts for the office building, molding 
+building, and pulping building. 
+ 
+3. Whether the Defendants breached the parties’ agreements 
+related to the office building, molding building and pulping 
+building . . . . 
+4 
+ 
+ 
+4. Whether [Subcontractor] breached the parties’ agreements 
+by not supplying and installing the stairs at the pulping 
+building in a timely fashion. 
+ 
+5. The amount of damages sustained on account of any 
+breach of the contract by any party. 
+ 
+6. The reasonable value of the pulping stairs. 
+ 
+7. Whether [Subcontractor] has perfected and is entitled to 
+foreclose its mechanic’s lien. 
+ 
+Final Merits Judgment 
+ 
+Following the bench trial, the trial judge—Judge Howard Coates—
+entered a detailed 35-page final judgment.  The final judgment was divided 
+into two parts: the first part addressed whether the LOIs or unexecuted 
+subcontracts governed, and the second part addressed damages. 
+ 
+Regarding whether the LOIs or subcontracts governed, the trial judge 
+began his analysis by noting that “the primary dispute is over which 
+contract controls.”  The trial judge ultimately concluded the LOIs were not 
+enforceable, and that the subcontracts were enforceable and governed 
+despite the lack of signatures. 
+ 
+Regarding the amounts owed between the parties, the trial judge found 
+Subcontractor was entitled to $10,065 for the office building, $28,011.30 
+for the molding building, and $33,821.40 for the pulping building, for a 
+total of $71,897.70.  The trial judge also found Subcontractor failed to 
+perfect its claims against the bonds, and therefore could not collect on the 
+payment bonds.  On the counterclaim, the trial judge found Subcontractor 
+was properly defaulted and breached the pulping building subcontract by 
+failing to install the stairs, and awarded Project Owner $42,414 for the 
+reasonable value of the stairs.  The trial judge also found Project Owner 
+was entitled to offset the $42,414 against the $71,897.70 awarded to 
+Subcontractor pursuant to the cross-default provisions, leaving 
+Subcontractor with a total award of $29,483.70 (or $36,304.51 after 
+interest). 
+ 
+Based on these findings, the trial judge  entered judgment on each of 
+the complaint’s five counts and the counterclaim as follows. 
+ 
+5 
+ 
+As to Counts I and II, which sought to collect on the payment bond and 
+transfer payment bond, the trial judge entered judgment in favor of 
+Defendants. 
+ 
+As to Count III, which sought damages against Contractor and Project 
+Owner for breach of the pulping subcontract, the trial judge  stated that 
+although it awarded Subcontractor $33,821.40 in damages on that count, 
+“this amount was completely setoff [by the amount] due to [Project Owner] 
+in the amount of $42,414.00 (all of which arises out of [Subcontractor’s] 
+failure under the pulping subcontract).”  Therefore, the trial judge entered 
+judgment in favor of Project Owner and Contractor on count III. 
+ 
+As to Count IV, which sought damages for breach of the office and 
+molding subcontracts, the trial judge setoff the remaining $8,592.60 due 
+to Project Owner against the $38,076.30 awarded to Subcontractor.  “As 
+such, after applying the amount of the remaining setoff and determining 
+that it is not sufficient to set off in its entirety the amounts due to 
+[Subcontractor] under either the office or molding subcontracts, the Court 
+enters judgment in favor of [Subcontractor].” 
+ 
+As to Count V, which alleged alternative quantum meruit claims, the 
+trial judge entered judgment in favor of Project Owner and Contractor 
+based on its finding that the subcontracts were enforceable. 
+ 
+Finally, as to the counterclaim, the trial judge entered judgment in favor 
+of Project Owner “in the amount of $42,414.00, which amount shall be 
+applied in setoff of the amounts due [Subcontractor] as provided herein.” 
+ 
+Subcontractor thereafter appealed the final merits judgment, and we 
+per curiam affirmed.  See E. Coast Metal Structures, Corp. v. Lemartec 
+Corp., 357 So. 3d 116 (Fla. 4th DCA 2023). 
+ 
+Denial of Defendants’ Motion for Attorney’s Fees 
+ 
+Following entry of the final merits judgment, Subcontractor moved for 
+attorney’s fees pursuant to the prevailing party fee provision in the 
+subcontracts. 
+ 
+Defendants, in turn, moved for attorney’s fees under three separate 
+grounds.  First, Defendants moved for attorney’s fees pursuant to the 
+prevailing party fee provision in the subcontracts.  Second, Defendants 
+moved for attorney’s fees pursuant to section 713.29, Florida Statutes 
+(2017), which provides for prevailing party fees in any action brought to 
+enforce a claim against a bond.  Lastly, Defendants moved for attorney’s 
+6 
+ 
+fees under section 768.79, Florida Statutes (2021), pursuant to a rejected 
+joint proposal for settlement for $62,000 which they had served on 
+Subcontractor five months prior to trial.  The proposal was made on behalf 
+of all Defendants for the purpose of resolving all claims, including the 
+counterclaim, with Project Owner offering to pay the entire $62,000 
+settlement amount and Contractor and the two sureties each offering to 
+contribute $0.00. 
+ 
+After the parties filed their motions, Judge Coates, who had presided 
+over the trial and issued the final merits judgment, rotated out of the 
+division, and Judge Scott Kerner rotated in as successor judge.  Following 
+a hearing on the competing motions, the successor judge entered an order 
+granting Subcontractor’s motion for attorney’s fees pursuant to the 
+prevailing party fee provision in the subcontracts, and denying 
+Defendants’ motion for attorney’s fees in its entirety. 
+ 
+Regarding entitlement to attorney’s fees under the subcontracts, the 
+successor judge concluded Subcontractor was the prevailing party.  In so 
+concluding, the successor judge primarily relied on the fact that 
+Subcontractor “achieved some of the benefit it [s]ought in bringing suit by 
+recovering a money judgment for work it completed on the Project,” and 
+Contractor and Project Owner “failed on their affirmative defenses to 
+entirely avoid payment to [Subcontractor] altogether.”  The successor 
+judge also rejected the contention that a significant issue in the litigation 
+upon which Defendants had prevailed was whether the subcontracts were 
+enforceable, reasoning that was “not an issue which determined the overall 
+outcome of this action, nor the amount of damages the Court awarded.” 
+ 
+Regarding Defendants’ request for attorney’s fees under section 768.79, 
+Florida Statutes (2021), the successor judge concluded Defendants were 
+not entitled to an award of attorney’s fees under the statute for two primary 
+reasons.  First, the successor judge concluded Defendants’ proposal for 
+settlement was not made in good faith because it “was served only after 
+the instant action had been pending for more than three years and was 
+already on the trial docket,” and because Defendants thereafter sought to 
+amend their affirmative defenses to assert an “argument that would 
+materially reflect how they perceived [Subcontractor’s] damages in this 
+case.”  Second, citing our holding in Hoang Dinh Duong v. Ziadie, 153 So. 
+3d 354 (Fla. 4th DCA 2014), the successor judge concluded none of the 
+Defendants were entitled to recover attorney’s fees under the joint proposal 
+because the amount offered by Contractor—$0—was not 25% more than 
+the amount recovered by Subcontractor. 
+ 
+7 
+ 
+Finally, regarding Defendants’ request for prevailing party attorney’s 
+fees under section 713.29, Florida Statutes (2017), the successor judge 
+concluded that although Subcontractor did not prevail on its claims to 
+enforce against the payment bonds, “[i]t would be inequitable to award 
+attorney’s fees to the Defendants on the lien counts when [Subcontractor] 
+prevailed on its claim for the payment for its completed work.” 
+ 
+Following another hearing to determine the amount of Subcontractor’s 
+attorney’s fees, the successor judge entered a final judgment awarding 
+Subcontractor a total of $446,628.65 in attorney’s fees and costs.  This 
+appeal follows. 
+ 
+Analysis 
+ 
+“The standard of review of a trial court’s ruling on the issue of 
+entitlement to prevailing party attorney’s fees is abuse of discretion.  The 
+trial court has broad discretion to determine which party prevailed in the 
+litigation.”  Skylink Jets, Inc. v. Klukan, 308 So. 3d 1048, 1051 (Fla. 4th 
+DCA 2020) (internal citation omitted). 
+ 
+However, a party’s entitlement to receive attorney’s fees under a statute 
+is generally reviewed de novo.  See Spanakos v. Hawk Sys., Inc., 362 So. 
+3d 226, 236 (Fla. 4th DCA 2023) (“Generally, a party’s entitlement ‘to 
+receive attorney’s fees and costs pursuant to section 768.79 and rule 1.442 
+is reviewed de novo.’” (quoting Pratt v. Weiss, 161 So. 3d 1268, 1271 (Fla. 
+2015))); Newman v. Guerra , 208 So. 3d 314, 317 (Fla. 4th DCA 2017) 
+(stating, in the context of a fee award under section 713.29, Florida 
+Statutes, that “[a] party’s entitlement to an award of attorneys’ fees under 
+a statute or a procedural rule is a legal question subject to de novo 
+review”). 
+ 
+1. Subcontracts 
+ 
+Defendants argue the successor judge abused its discretion when it 
+determined Subcontractor prevailed on the significant issues in the 
+litigation.  Defendants maintain that by concluding Subcontractor was the 
+prevailing party because it achieved “some of the benefit it [s]ought in 
+bringing suit by recovering a money judgment,” the successor judge 
+improperly applied the “net judgment rule” and ignored the fact that 
+Defendants prevailed on all but one of the counts.  Moreover, the successor 
+judge ignored the significant issues identified by the trial  judge in the 
+merits judgment and failed to appreciate the significance of the rulings 
+therein, including the significance of the setoffs.  We agree. 
+ 
+8 
+ 
+In Moritz v. Hoyt Enterprises, Inc., the Florida Supreme Court declared 
+“that the party prevailing on the significant issues in the litigation is the 
+party that should be considered the prevailing party for attorney’s fees.”  
+604 So. 2d 807, 810 (Fla. 1992).  The court explained that “the fairest test 
+to determine who is the prevailing party is to allow the trial judge to 
+determine from the record which party has in fact prevailed on the 
+significant issues tried before the court.”  Id.  Ultimately, the Moritz court 
+held the trial court in that case was within its discretion when it concluded 
+that a contractor prevailed on the significant issues in the litigation, even 
+though the owners who breached the contract recovered an amount which 
+exceeded the damages awarded to the contractor on its counterclaim.  Id.  
+In so holding, the Moritz court disapproved of cases holding that the 
+prevailing party is the one who recovers an affirmative judgment.  Id. at 
+809–10. 
+ 
+One year after deciding Moritz, the Florida Supreme Court considered 
+the interplay betw een the “net judgment rule” in cases involving 
+enforcement of a mechanic’s lien and the decision in Moritz.  See Prosperi 
+v. Code, Inc., 626 So. 2d 1360, 1362–63 (Fla. 1993).  Ultimately, the court 
+concluded: 
+ 
+Moritz now requires a more flexible application.  The fact that 
+the claimant obtains a net judgment is a significant factor but 
+it need not always control the determination of who should be 
+considered the prevailing party.  We hold that in considering 
+whether to apply the net judgment rule, the trial judge must 
+have the discretion to consider the equities and determine 
+which party has in fact prevailed on the significant issues. 
+ 
+Id. at 1363. 
+ 
+As Moritz and Prosperi make clear, the mere fact that a party recovers 
+an affirmative judgment does not control the prevailing party 
+determination, including in breach of contract cases. 
+ 
+Our holding in Skylink Jets, Inc. v. Klukan, 308 So. 3d 1048 (Fla. 4th 
+DCA 2020), is particularly instructive.  In that case, the plaintiff air carrier 
+hired the defendant pilot.  Id. at 1049.  In connection with his employment 
+with air carrier, pilot signed two agreements: (1) a personal loan agreement 
+with air carrier’s president for $8,908.64 (representing flight training and 
+related expenses), which was allegedly assigned to air carrier; and (2) a 
+pilot training expense agreement with air carrier for $8,617.03, which 
+included language providing that all previous contracts between air carrier 
+9 
+ 
+and pilot were “null and void.”  Id.  Both agreements required pilot to repay 
+the amounts if he quit or was terminated within the repayment period.  Id. 
+ 
+Air carrier ultimately sued pilot after he resigned within the repayment 
+period.  Id.  The operative complaint sought $20,419.73 in damages and 
+included five counts, including two breach of contract counts (one for each 
+agreement), one unjust enrichment count, one money lent count, and one 
+promissory note count.  Id.  Prior to trial, the parties filed a joint pretrial 
+stipulation wherein they stipulated: pilot executed both agreements; the 
+president paid for pilot’s training as set forth in the personal loan 
+agreement; air carrier paid for the training and related expenses as set 
+forth in the pilot training expense agreement; and pilot did not reimburse 
+air carrier for the cost of his training or make any payments on the 
+personal loan agreement.  Id. at 1049–50.  The joint pretrial stipulation 
+also stated the disputed issues for trial were the amount of air carrier’s 
+damages and the validity of the assignment of the personal loan agreement 
+from the president to air carrier.  Id. at 1050. 
+ 
+Following a bench trial, the trial court entered judgment in air carrier’s 
+favor based on pilot’s breach of the pilot expense training agreement, but 
+denied recovery on air carrier’s remaining four counts.  Id.  The court ruled 
+air carrier was entitled to $8,617.03 (the amount of training expenses 
+expressly set forth in the pilot expense training agreement) plus interest, 
+less a $2,000 credit that air carrier owed to pilot for four unpaid flights.  
+Id.  The court thereafter entered final judgment awarding air carrier 
+$6,617.03 in damages plus $2,624.50 in interest, for a total of $9,241.53.  
+Id.  Air carrier thereafter moved for attorney’s fees pursuant to the 
+prevailing party fee provision in the pilot expense training agreement.  Id.  
+The trial court ultimately determined air carrier did not prevail on the 
+significant issues in the litigation and thus was not the prevailing party 
+for purposes of an award of attorney’s fees.  Id. 
+ 
+On appeal, air carrier argued it was entitled to attorney’s fees because 
+it “prevailed on the breach of contract claim in Count I of the Amended 
+Complaint which was a significant issue in litigation which achieved some 
+of the benefit sought by [air carrier] in bringing suit.”  Id. at 1051.  In 
+affirming the trial court’s determination that air carrier did not prevail on 
+the significant issues in the litigation, we reasoned as follows: 
+ 
+Although [air carrier] established that [pilot] breached the 
+Pilot Training Expense Agreement, [pilot’s] liability under the 
+Pilot Training Expense Agreement was a relatively 
+insignificant issue in the litigation.  [Pilot] admitted in both 
+the pretrial stipulation and in a deposition that he had not 
+10 
+ 
+reimbursed [air carrier] for the training expenses that were the 
+subject of the Pilot Training Expense Agreement. 
+ 
+The amount of damages was the real point of contention 
+between the parties.  [Air carrier] had sought over $20,000 in 
+the litigation, but [air carrier] recovered only $6,617.03 
+(excluding interest).  Notably, [air carrier] sought damages 
+under a voided agreement, failed to credit [pilot] for flights that 
+reduced his debt, and sought an inflated amount of damages 
+under the Pilot Training Expense Agreement. 
+ 
+. . . . 
+ 
+[Air carrier] failed to prevail on four out of five of its counts 
+and only partially prevailed on Count I.  Although [air carrier] 
+prevailed on an issue of liability as to Count I, it was an issue 
+that was not seriously contested and thus was not a 
+significant issue in the litigation.  [Pilot] largely prevailed on 
+the significant issue of damages by defeating most of [air 
+carrier’s] claimed damages, making the case a wash. 
+ 
+Id. at 1053–54 (footnotes omitted).  In so holding, we reiterated that just 
+because air carrier “recovered an affirmative judgment does not control the 
+prevailing party determination” under Moritz.  Id. at 1053. 
+ 
+Here, the parties did not dispute that Subcontractor completed the 
+work on the office and molding buildings and failed to complete the stairs 
+in the pulping building.  Nor did the parties dispute the retainage amounts 
+owed on the office and molding buildings.  Rather, the real points of 
+contention between the parties, and thus the significant issues in the 
+litigation, concerned: (1) whether the subcontracts were enforceable, and 
+thus whether Project Owner could apply the cross-default provisions to 
+offset its damages against any amounts recovered by Subcontractor;  
+(2) whether Subcontractor was properly defaulted on the pulping 
+subcontract, and thus whether damages could be assessed against 
+Subcontractor for the value of the stairs; (3) the reasonable value of the 
+stairs; and (4) whether Subcontractor properly perfected its claims against 
+the bonds.  The amount of damages, therefore, was clearly a significant 
+point of contention between the parties. 
+ 
+The trial judge ultimately found: the subcontracts, and thus the cross-
+default provisions, were enforceable; Subcontractor breached the pulping 
+subcontract and was properly defaulted; the reasonable value of the stairs 
+was $42,414; and the claims against the bonds were not properly 
+11 
+ 
+perfected.  In light of the trial judge’s findings and application of the cross-
+default provisions, Subcontractor failed to prevail on four out of five of its 
+counts and only partially prevailed on Count IV (breach of the office and 
+molding buildings) by obtaining a $29,483.70 judgment (excluding 
+interest).  Thus, as in Skylink, Defendants largely prevailed on the 
+significant issue of damages by defeating most of Subcontractor’s claimed 
+$102,011.70 in damages. 
+ 
+Yet in determining Defendants did not prevail on the significant issues 
+in the litigation, the successor judge primarily relied on three factors.  
+First, the successor judge concluded Subcontractor “achieved some of the 
+benefit it [s]ought in bringing suit by recovering a money judgment for 
+work it completed on the Project.”  However, the mere fact that 
+Subcontractor recovered an affirmative judgment does not control the 
+prevailing party determination, especially in a situation like here where 
+Subcontractor did not come close to recovering the damages sought in the 
+complaint. 
+ 
+Second, the successor judge concluded Defendants were unsuccessful 
+in entirely avoiding payment to Subcontractor as the amount awarded to 
+Project Owner for the reasonable value of the stairs ($42,414) was 
+significantly less than requested ($127,000).  This reasoning, however, 
+ignores the fact that Defendants nonetheless defeated most of 
+Subcontractor’s claimed damages.  As our Skylink holding demonstrates, 
+a defendant who successfully defeats most of a plaintiff’s claimed damages 
+can be considered the prevailing party, especially when the amount of 
+damages is a significant point of contention between the parties. 
+ 
+Third, the successor judge concluded the subcontracts’ enforceability 
+was not a significant issue because that issue did not determine “the 
+overall outcome of this action, nor the amount of damages the Court 
+awarded.”  This conclusion, however, is contrary to the trial judge’s finding 
+in the merits judgment that “the primary dispute is over which contract 
+controls.”  Moreover, the enforceability of the subcontracts, and in turn 
+the cross-default provisions, significantly impacted the amounts 
+ultimately recovered by Subcontractor.  For example, as a result of 
+applying the $42,414 awarded to Project Owner on its counterclaim as a 
+setoff against Subcontractor’s damages pursuant to the cross-default 
+provisions, judgment was entered in favor of Contractor and Project Owner 
+on Count III (breach of pulping subcontract).  Likewise, as to Count IV 
+(breach of office and molding subcontracts), Subcontractor received a 
+reduced amount of damages after the remaining setoff was applied.  Thus, 
+as a result of the cross-default provisions, Subcontractor received none of 
+the benefit which it had sought on Count III and received only a portion of 
+12 
+ 
+the benefit which it had sought on Count IV.  The enforceability of the 
+subcontracts was therefore not only a significant issue in the litigation, 
+but also significant to the prevailing party determination.  See Hayward 
+Baker, Inc. v. Westfield Ins. Co., 313 So. 3d 772, 775 (Fla. 2d DCA 2020) 
+(holding that the ruling on the setoff issue “was pivotal to the prevailing 
+party determination” because “[t]he result of applying the setoff against 
+[plaintiff’s] damages award was that [plaintiff] received none of the benefit 
+it sought in the litigation”). 
+ 
+Under these circumstances, we hold the successor judge abused its 
+broad discretion in determining Defendants were not the prevailing party 
+for purposes of an award of attorney’s fees under the subcontracts. 
+ 
+2. Section 713.29, Florida Statutes 
+ 
+Defendants next argue the successor judge erred in declining to award 
+attorney’s fees to the two sureties, Philadelphia and Suretec, under section 
+713.29, Florida Statutes (2017).  We agree. 
+ 
+Section 713.29, Florida Statutes (2017), governs the award of attorney’s 
+fees in actions to enforce a claim against a bond and states: 
+ 
+In any action brought to enforce a lien or to enforce a claim 
+against a bond under this part, the prevailing party is entitled 
+to recover a reasonable fee for the services of her or his 
+attorney for trial and appeal or for arbitration, in an amount 
+to be determined by the court, which fee must be taxed as part 
+of the prevailing party’s costs, as allowed in equitable actions. 
+ 
+§ 713.29, Fla. Stat. (2017). 
+ 
+In determining which party prevailed for purposes of an award of 
+attorney’s fees under section 713.29, courts apply the “significant issues” 
+test set forth in Moritz.  See Newman, 208 So. 3d at 317.  In applying the 
+“significant issues” test to section 713.29 attorney’s fees, courts have held 
+that when a defendant successfully resists enforcement of a lien yet is 
+nevertheless found liable in damages in the same case, the defendant is 
+not considered the prevailing party for purposes of section 713.29 
+attorney’s fees.  See Prosperi , 626 So. 2d at 1362 (“[I]t was obviously not 
+the intent of the legislature to award attorneys’ fees to a defendant in a 
+mechanics’ lien foreclosure merely because he successfully defends 
+against the impression of a lien yet is nevertheless found liable in damages, 
+in the same case, for labor and/or materials furnished for his benefit.” 
+(alteration in original) (citation omitted)). 
+13 
+ 
+ 
+In the present case, the sureties successfully resisted enforcement of 
+Subcontractor’s lien against the payment bonds, thereby prevailing on the 
+only claims asserted against them.  Moreover, the sureties were not 
+otherwise found liable to Subcontractor for damages, unlike Contractor 
+and Project Owner, and thus the sureties were the prevailing party for 
+purposes of entitlement to attorney’s fees under section 713.29, Florida 
+Statutes (2017).  See AAA Sod, Inc. v. Weitzer Corp., 513 So. 2d 750, 750–
+51 (Fla. 4th DCA 1987) (holding that although the plaintiff contractor 
+obtained a money judgment against the owner, the contractor did not 
+prevail on its claim against the surety to enforce its lien against the bond 
+and therefore the surety was entitled to prevailing party attorney’s fees 
+under section 713.29, Florida Statutes); M & P Concrete Prods., Inc. v. 
+Woods, 590 So. 2d 429, 430 (Fla. 4th DCA 1991) (reiterating that the 
+reason why the surety in AAA Sod, Inc.  was entitled to prevailing party 
+attorney’s fees was because “like the owner, it was successful in defeating 
+the contractor’s claim of lien but, unlike the owner, the judgment for 
+damages against the owner was not likewise against the surety” and “[s]o 
+the surety was the prevailing party under the lien statute”). 
+ 
+Accordingly, we hold the successor judge erred in denying the sureties 
+attorney’s fees under section 713.29, Florida Statutes (2017). 
+ 
+3. Section 768.79, Florida Statutes 
+ 
+Defendants lastly argue the successor judge erred in denying their 
+request for attorney’s fees under section 768.79, Florida Statutes (2021).  
+We agree. 
+ 
+Section 768.79, Florida Statutes (2021), creates a mandatory right to 
+attorney’s fees where a plaintiff refuses to accept a proposal for settlement 
+from the defendant and the ensuing final judgment is either one of no 
+liability or is at least 25% less than the defendant’s offer to the plaintiff.   
+§ 768.79(1), Fla. Stat. (2021).  “[T]he offer-of-judgment statute operates to 
+penalize a party who refuses to accept a good-faith, reasonable proposal 
+for settlement as reflected in the ensuing final judgment.”  Coates v. R.J. 
+Reynolds Tobacco Co., 365 So. 3d 353, 356 (Fla. 2023). 
+ 
+We first address the successor judge’s finding that the proposal for 
+settlement was not made in good faith due to the temporal proximity of the 
+offer to the trial date, and the fact that Defendants later moved to amend 
+their affirmative defenses to purportedly assert an “argument that would 
+materially reflect how they perceived Plaintiff’s damages in this case.” 
+ 
+14 
+ 
+Section 768.79(7)(a), Florida Statutes (2021), permits a trial court to 
+disallow an award of attorney’s fees if it finds the offeror did not make its 
+offer in good faith.  A good faith determination, in turn, “rests on whether 
+the offeror has a reasonable foundation on which to base the offer.  ‘[S]o 
+long as the offeror has a basis in known or reasonably believed fact to 
+conclude that the offer is justifiable, the good faith requirement has been 
+satisfied.’”  Arrowood Indem. Co. v. Acosta, Inc., 58 So. 3d 286, 289 (Fla. 
+1st DCA 2011) (alteration in original) (internal citations omitted).  
+“Whether the offeror has a reasonable basis to support the offer is 
+‘determined solely by the subjective motivations and beliefs of the offeror.’”  
+Id. (citation omitted). 
+ 
+Regarding the timing of the offer, no evidence suggests the mere timing 
+of the offer diminished Defendants’ reasonable foundation upon which 
+they based their offer.  See Liggett Grp., Inc. v. Davis, 975 So. 2d 1281, 
+1285 (Fla. 4th DCA 2008) (holding that the timing of the offer “in and of 
+itself was insufficient proof to warrant further discovery on the issue of 
+good faith”); Progressive Select Ins. Co. v. Kagan Jugan & Assocs., P.A., 348 
+So. 3d 1168, 1173 (Fla. 2d DCA 2022) (“Progressive’s offer reflected its 
+legally correct belief that it was not liable.  The timing of the offer did not 
+diminish Progressive’s reasonable foundation upon which it based its 
+offer.”).  If anything, Defendants apparently were attempting to 
+compromise on the setoff amount in an effort to avoid further litigation, 
+which is the very purpose of the statute.  See Kuhajda v. Borden Dairy Co. 
+of Ala., LLC., 202 So. 3d 391, 395 (Fla. 2016) (“The purpose of section 
+768.79 is to ‘reduce litigation costs and conserve judicial resources by 
+encouraging the settlement of legal actions.’” (citation omitted)). 
+ 
+Regarding Defendants’ actions after the offer was rejected, the record 
+reflects that the day prior to trial, Defendants moved to amend one of their 
+affirmative defenses.  Specifically, they sought to amend their preexisting 
+setoff defense to clarify “that under either legal or equitable theory [they] 
+would be entitled to setoff” for the pulping stairs.  The trial judge denied 
+the motion to amend, reasoning, in part, that the amendment did not 
+appear necessary.  From these actions, the successor judge concluded 
+Defendants’ offer was not made in good faith because the amendment 
+sought “to materially reflect how they perceived Plaintiff’s damages in this 
+case.”  This conclusion is simply not true, as the amendment merely 
+sought to clarify Defendants’ preexisting setoff defense and did not 
+otherwise seek to change how Defendants perceived Subcontractor’s 
+damages. 
+ 
+We next address the successor judge’s finding that none of the 
+Defendants were entitled to recover attorney’s fees under the joint proposal 
+15 
+ 
+because the amount offered by Contractor—$0—was not 25% more than 
+the amount recovered by Subcontractor. 
+ 
+Florida Rule of Civil Procedure 1.442(c) governs the form and content 
+of a proposal for settlement.  In relevant part, rule 1.442(c)(3) allows joint 
+proposals under certain conditions and requires that the proposal “state 
+the amount and terms attributable to each party.”  Generally, in order to 
+obtain attorney’s fees under a rejected joint proposal for settlement, the 
+verdict as to each defendant/offeror must be of no liability or at least 25% 
+less than the amount offered by each individual offeror.  See Hoang Dinh 
+Duong v. Ziadie, 153 So. 3d 354, 360 (Fla. 4th DCA 2014) (holding, in the 
+context of an “all of nothing” joint proposal, that “if the verdict for any of 
+the claimants was not twenty-five percent higher than the amount of that 
+claim in the settlement proposal, then none of the claimants could obtain 
+attorney’s fees under its terms”). 
+ 
+In the present case, although the amount offered by Contractor—$0—
+was not 25% more than the amount Subcontractor recovered against 
+Contractor, Defendants were nonetheless entitled to attorney’s fees under 
+section 768.79, Florida Statutes (2021).  This is because Subcontractor 
+sought the same indistinguishable amount of damages from each 
+Defendant.  Moreover, Contractor’s liability in this case was strictly 
+technical considering Project Owner previously assumed the subcontracts 
+and all liabilities thereunder, and the sureties’ liability was strictly 
+vicarious.  Under these circumstances, Defendants were not required to 
+apportion the offer amount in their joint proposal, let alone demonstrate 
+that the individual amounts set forth in the proposal for each Defendant 
+was at least 25% more than the judgment amount.  See  Fla. R. Civ. P. 
+1.442(c)(4) (“Notwithstanding subdivision (c)(3), when a party is alleged to 
+be solely vicariously, constructively, derivatively, or technically liable, 
+whether by operation of law or by contract, a joint proposal made by or 
+served on such a party need not state the apportionment or contribution 
+as to that party.”); Webjet Linhas Aereas S.A. v. ZGA Aircraft Leasing, Inc., 
+No. 3D22-1736, 2024 WL 1183572, at *3 (Fla. 3d DCA Mar. 20, 2024) 
+(“When, as here, a plaintiff alleges that one of the two defendants being 
+sued is solely constructively liable for damages caused by the other named 
+defendant’s conduct, apportioning a joint proposal’s settlement offer 
+between the two offerors is entirely unnecessary and serves no meaningful 
+purpose.”); Strahan v. Gauldin, 756 So. 2d 158, 161 (Fla. 5th DCA 2000)  
+(holding plaintiff “could not logically apportion his offer among the [two 
+defendants] because each of the individual defendants were liable for the 
+entire amount of damages”), abrogated on other grounds by Allstate Ins. 
+Co. v. Sarkis, 800 So. 2d 6 (Fla. 5th DCA 2001). 
+ 
+16 
+ 
+Accordingly, as the total amount awarded to Subcontractor 
+($36,304.51 inclusive of interest) was at least 25% less than the total 
+proposal amount ($62,000), Defendants were entitled to an award of 
+attorney’s fees under section 768.79, Florida Statutes (2021). 
+ 
+Conclusion 
+ 
+For the reasons set forth in this opinion, we reverse the entitlement 
+order and fee judgment, and remand for the successor judge  to: (1) enter 
+an order awarding attorney’s fees and costs to all Defendants pursuant to 
+section 768.79, Florida Statutes (2021), to Contractor and Project Owner 
+pursuant to the subcontracts, and to Philadelphia and Suretec pursuant 
+to section 713.29, Florida Statutes (2017); and (2) conduct further 
+proceedings to determine the reasonable amounts of attorney’s fees and 
+costs to award Defendants. 
+ 
+Reversed and remanded. 
+ 
+G
+ROSS and GERBER, JJ., concur. 
+ 
+*            *            * 
+ 
+Not final until disposition of timely filed motion for rehearing. 

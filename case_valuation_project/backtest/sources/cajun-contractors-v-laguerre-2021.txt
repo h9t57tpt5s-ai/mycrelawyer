@@ -1,0 +1,1222 @@
+FIRST DIVISION
+BARNES, P. J.,
+GOBEIL and MARKLE, JJ.
+NOTICE: Motions for reconsideration must be
+physically received in our clerk’s office within ten
+days of the date of decision to be deemed timely filed.
+https://www.gaappeals.us/rules
+DEADLINES ARE NO LONGER TOLLED IN THIS
+COURT.  ALL FILINGS MUST BE SUBMITTED WITHIN
+THE TIMES SET BY OUR COURT RULES.
+June 30, 2021
+In the Court of Appeals of Georgia
+A21A0311. CAJUN CONTRACTORS, INC. v. PEACHTREE
+PROPERTY SUB, LLC et al.
+A21A1120. CAJUN CONTRACTORS, INC. v. LAGUERRE et al.
+BARNES, Presiding Judge.
+Max Laguerre was injured by a metal pipe that fell from a construction site
+located on the roof of a hotel. Laguerre settled his negligence claims against the
+entities that owned and managed the hotel, Peachtree Property Sub, LLC, d/b/a
+Crowne Plaza Hotel Atlanta-Midtown, FO Peachtree Property, LLC, d/b/a Crowne
+Plaza Hotel Atlanta-Midtown, and AWH Partners, LLC, d/b/a Crowne Plaza Hotel
+Atlanta-Midtown (collectively, the “Hotel Defendants”). A trial thereafter ensued on
+Laguerre’s negligence claims against the general contractor for the construction
+project, Cajun Contractors, Inc., and the jury awarded Laguerre compensatory and
+punitive damages and apportioned 100 percent of the fault to Cajun. The trial court
+subsequently awarded attorney fees to Laguerre under OCGA § 9-11-68 based on
+Cajun’s pre-trial rejection of his offer to settle. Additionally, the trial court granted
+summary judgment in favor of the Hotel Defendants on their cross-claims for
+contractual indemnification against Cajun. These companion appeals followed. 
+In Case No. A21A1120, Cajun appeals from the final judgment entered on the
+jury verdict, contending that the trial court erred in denying its motions for directed
+verdict, for judgment notwithstanding the verdict (“JNOV”), and for a new trial, and
+that the trial court erred in its award of attorney fees to Laguerre. In Case No.
+A21A0311, Cajun appeals the trial court’s order granting summary judgment in favor
+of the Hotel Defendants on their contractual indemnification cross-claims. For the
+reasons discussed more fully below, we affirm in Case No. A21A1120 but reverse in
+Case No. A21A0311.
+Case No. A21A1120
+Following a jury verdict, we view the evidence in the light most favorable to
+the prevailing party. Norton v. Holcomb, 299 Ga. App. 207, 208 (682 SE2d 336)
+(2009). So viewed, the evidence shows that in March 2015, Cajun entered into a
+contract to perform renovation work at the Crowne Plaza Atlanta – Midtown Hotel,
+which was owned and managed by the Hotel Defendants (the “Trade Contract”).
+2
+Under the Trade Contract, Cajun agreed to supervise the work done on the renovation
+project and to be liable for any loss or damage to the property or injuries to persons
+caused by the action or neglect of its employees, subcontractors, or consultants. Cajun
+also agreed to “keep the premises and the surrounding area free from accumulation
+of waste materials or rubbish caused by operations under the [Trade] Contract,” and
+to “take all reasonable actions needed to provide clean, unencumbered, well defined,
+and safe access to the Owner’s facilities for vehicles, guests, visitors, and
+employees.” 
+The renovation project was later expanded through a change-work order to
+include renovations to the outside pool deck located on the roof of the hotel.1 As part
+of the renovation, Cajun was to demolish cabanas and a wall along the edge of the
+hotel roof. Cajun hired RYR Construction, LLC2 to perform some of the renovation
+work at the hotel, including the painting of a ballroom and the pool deck renovation.
+With respect to the pool deck renovation, workers for RYR considered Troy Bossier,
+the president of Cajun, to be their boss on the job, and he was at the work site
+1 The terms of the Trade Contract applied to change-work orders. 
+2 RYR Construction is sometimes referred to as “R&R” Construction in the
+record, but for ease of reference, we will refer to the company as RYR. The difference
+in name is not material to this appeal.
+3
+everyday and controlled the demolition work done in the pool area. No decisions
+were made about the work done on the roof without first talking to Bossier, who
+would come to the pool deck and direct RYR workers “as to what part of the project
+they should be doing.” Cajun provided tools and equipment to RYR, told RYR what
+hours it could work on the pool deck, devised the plan for demolishing the rooftop
+wall and the sequence in which the work should be performed, and controlled the
+work site and work flow. 
+Before the work on the pool renovation commenced, Cajun did not develop a
+public hazard control plan or a site-specific safety plan, have any safety meetings
+with RYR, or inform RYR of any safety rules. Cajun simply told RYR to ensure that
+nothing fell from the roof, even though RYR had no prior experience performing
+exterior demolition work. No barriers, catch platforms, enclosures, or perimeter debris
+netting were installed to protect the public from hazards from the rooftop construction
+site. No signs were placed outside the hotel to warn that there was construction
+overhead, and no portion of the sidewalk below was blocked off with barricades. Nor
+was any effort made to relocate the hotel taxi stand, which was in the front of the
+hotel below the elevated construction site. 
+4
+On July 20, 2015, RYR was demolishing part of the wall along the side of the
+hotel roof, which caused the cabanas to shake. As a result of the shaking caused by
+the demolition work, an unsecured eight-foot metal pipe fell from the roof of one of
+the cabanas down the side of the hotel and struck Laguerre, a taxi cab driver, who was
+standing outside of his cab at the hotel taxi stand.3 As a result of the impact, Laguerre
+suffered a broken nose and injuries to his arm, face, head, and wrist, and he was
+diagnosed with a “mild traumatic brain injury.” Prior to the incident, RYR had not
+inspected the pool cabana roofs, even though one of RYR’s partners who worked on
+the project acknowledged that he knew that there was a danger of objects or debris
+falling from the hotel roof as a result of the demolition work, and even though Cajun
+had provided ladders to RYR so that workers could see and reach the top of the
+cabanas. Nor did Cajun ever direct RYR to conduct such an inspection as part of the
+demolition plan that Cajun developed, and Cajun disavowed any responsibility to
+itself conduct a safety inspection. 
+3 There was testimony at trial that the pipe was a conduit for containing
+electrical wiring, and that there were electrical subcontractors hired by Cajun working
+on the pool renovation. There was other, conflicting testimony that the pipe could
+have been placed on the cabana roof by a hotel employee. 
+5
+In April 2017, Laguerre filed suit against the Hotel Defendants and Cajun.4
+Laguerre’s complaint alleged, among other things, that Cajun breached its duty of
+reasonable care by negligently failing to implement safety precautions for the pool
+renovation project and by negligently training, supervising, and retaining those who
+worked on the project. The complaint further alleged that Cajun was vicariously liable
+under respondeat superior and agency principles for the negligence of RYR in failing
+to secure the construction site from the risk of falling objects. Laguerre sought
+compensatory damages and later amended his complaint to seek punitive damages. 
+Shortly before trial, the Hotel Defendants reached a settlement with Laguerre.5
+In the ensuing jury trial between Laguerre and Cajun, AWH Partners, which was the
+Hotel Defendant that hired Cajun and communicated with Bossier about the pool
+renovations, remained on the special verdict form for apportionment purposes.
+Following the close of evidence in the liability phase of the trial, the jury returned a
+verdict in favor of Laguerre and against Cajun, awarding Laguerre $5,000,000 in
+compensatory damages and finding that Laguerre was entitled to recover punitive
+4 Other defendants were later dismissed from the case with prejudice. 
+5 Based on a stipulation by the parties, Laguerre’s claims against the Hotel
+Defendants subsequently were dismissed with prejudice. 
+6
+damages. On the special verdict form, the jury found that the employees of RYR were
+employees of Cajun such that Cajun was vicariously liable for the negligence of RYR.
+The jury apportioned 100 percent of the fault to Cajun and no fault to AWH Partners.
+After a second phase of the trial addressing the amount of punitive damages, the jury
+awarded $500,336 in punitive damages to Laguerre. 
+The trial court entered judgment in favor of Laguerre and against Cajun in the
+amount of $5,250,000, representing the jury’s award of compensatory damages of
+$5,000,000 and a statutorily capped $250,000 for punitive damages. See OCGA § 51-
+12-5.1 (g). Cajun moved for JNOV and for a new trial,6 and the trial court denied the
+motions following a hearing on the matter. Laguerre moved for attorney fees under
+OCGA § 9-11-68 based on a prior offer of settlement he made to Cajun that had been
+rejected, and he submitted affidavits from his trial counsel and an expert in support
+of his motion. After a hearing, the trial court awarded Laguerre $1,050,000 in
+attorney fees and $45,196.47 in litigation expenses. 
+1. Cajun contends that the trial court erred in denying its motions for directed
+verdict, for JNOV, and for a new trial. 
+6 Cajun had previously moved for a directed verdict during the trial, and the
+trial court had denied the motion. 
+7
+Where a jury returns a verdict and it has the approval of the trial judge,
+the same must be affirmed on appeal if there is any evidence to support
+it as the jurors are the sole and exclusive judges of the weight and credit
+given the evidence. The appellate court must construe the evidence with
+every inference and presumption in favor of upholding the verdict, and
+after judgment, the evidence must be construed to uphold the verdict
+even where the evidence is in conflict. As long as there is some evidence
+to support the verdict, the denial of defendant’s motion for directed
+verdict, new trial and JNOV will not be disturbed.
+(Citation and punctuation omitted.) Mosaic Business Advisory Svcs. v. Stone, 336 Ga.
+App. 28, 28 (784 SE2d 426) (2016). Guided by this standard of review, we turn to
+Cajun’s specific arguments.
+(a) Cajun argues that it was entitled to a directed verdict on the issue of its
+vicarious liability for the negligence of RYR. According to Cajun, there was no
+evidence presented at trial to support a finding by the jury that the employees of RYR
+were acting as employees of Cajun in carrying out the pool deck renovation. Rather,
+Cajun maintains, the evidence demanded a finding that RYR acted as an independent
+contractor such that Cajun could not be held vicariously liable for RYR’s negligence.
+We disagree.
+8
+“A person who engages an independent contractor is generally not responsible
+for any torts committed by the independent contractor.” (Citations, punctuation, and
+footnotes omitted.) Whatley v. Sharma, 291 Ga. App. 228, 229 (661 SE2d 590)
+(2008). See OCGA § 51-2-4 (“An employer generally is not responsible for torts
+committed by his employee when the employee exercises an independent business
+and in it is not subject to the immediate direction and control of the employer.”). But
+“[a]n employer is liable for the negligence of a contractor[ ] . . . [i]f the employer
+retains the right to direct or control the time and manner of executing the work or
+interferes and assumes control so as to create the relation of master and servant.”
+OCGA § 51-2-5 (5). Whether the relationship is one of employer / employee or
+employer / independent contractor “is generally a question of fact to be decided by
+a jury.” Slater v. Canal Wood Corp., 178 Ga. App. 877, 878 (1) (345 SE2d 71)
+(1986). 
+Under longstanding Georgia law, the true test to be applied in
+determining whether the relationship of the parties under a contract for
+the performance of labor is that of employer and [employee], or
+employer and independent contractor, lies in whether the contract gives,
+or the employer assumes, the right to control the time, manner and
+method of executing the work, as distinguished from the right merely to
+require certain definite results in conformity to the contract. The right to
+9
+control the time means the employer has assumed the right to control the
+person’s actual hours of work. The right to control the manner and
+method means the employer has assumed the right to tell the person how
+to perform all details of the job, including the tools he should use and
+the procedures he should follow.
+(Citations and punctuation omitted.) Stalwart Films LLC v. Bernecker, __ Ga. App.
+__, __ (1) (855 SE2d 120) (2021). See RBF Holding Co. v. Williamson, 260 Ga. 526,
+526 (397 SE2d 440) (1990); Golosh v. Cherokee Cab Co., 226 Ga. 636, 637-638 (176
+SE2d 925) (1970). An employer / employee relationship will not arise where the
+employer “has merely a general right to order the work stopped or resumed, to inspect
+its progress or to receive reports, to make suggestions or recommendations which
+need not necessarily be followed, or to prescribe alterations and deviations.”
+(Citations and punctuation omitted.) Slater, 178 Ga. App. at 880 (1). Rather, “[t]here
+must be such a retention of a right of supervision that the contractor is not entirely
+free to do the work in his own way.” (Citations and punctuation omitted.) Id.
+Here, there was evidence that Cajun, through its owner Bossier, exercised the
+right to control the time, manner, and method in which RYR performed the pool
+renovation. At trial, Laguerre introduced into evidence and read to the jury the Rule
+10
+30 (b) (6)7 deposition testimony of RYR’s company representatives, Jose Munoz and
+Rafael Munoz.  Jose Munoz, who worked on the pool renovation at the hotel, testified
+in his deposition that Bossier was “on-site everyday”; was RYR’s “boss on the job”;
+provided tools for the job; “came up with the plan on how to demolish the [pool deck]
+wall” and controlled the demolition; told RYR in what sequence the demolition work
+should be performed; directed RYR’s workers on the pool deck “as to what part of
+the project they should be doing”; and inspected the work performed by RYR’s
+workers and corrected them if they were doing anything inconsistent with his
+directives. Rafael Munoz, RYR’s chief operating officer, testified in his deposition
+that Bossier instructed RYR as to what should be done each day at the work site, that
+RYR made no decisions “about the work on the roof without talking to [Bossier]
+about it,” and that Bossier would direct RYR about “the way . . . to perform” the
+renovation work. Additionally, in his videotaped deposition testimony as a Rule 30
+(b) (6) representative for Cajun that was admitted at trial and played for the jury,
+Bossier acknowledged that Cajun “controlled the work site and the work flow,” and
+in his live trial testimony, Bossier testified that he told RYR when to start and stop
+working on the pool renovation so that hotel guests could still use the pool. 
+7 See OCGA § 9-11-30 (b) (6).
+11
+This combined testimony, construed in the light most favor to Laguerre, created
+a jury issue as to whether Cajun controlled the time, manner, and method of RYR’s
+execution of the pool deck renovation. See Atkins v. MRP Park Lake, 301 Ga. App.
+275, 280 (1) (b) (687 SE2d 215) (2009) (concluding that there was evidence that
+construction workers at apartment complex were acting as employees of apartment
+management company, where project manager, who was employed by the
+management company, told the workers when to arrive at work each day, instructed
+them on a daily basis what tasks to do, regularly gave them direction in performing
+their work, and where, in performing some of the work, the workers used construction
+equipment available on the premises rather than their own equipment). Compare
+Whatley, 291 Ga. App. at 230 (no evidence that homeowner was employer of tree-
+cutting contractor, where homeowner did not provide the contractor with any tools
+or equipment and “gave no instructions on how to take down the trees but rather (in
+the words of the contractor) gave him ‘freelance’ to cut down the trees as he saw
+best”). While there was other testimony from Bossier, Jose Munoz, and Rafael Munoz
+from which the jury could have found that Cajun did not assume control over the
+time, manner, and method of RYR’s renovation work, “[t]he jury [was] entitled to
+believe a part of the testimony of a witness and disbelieve other parts,” and thus could
+12
+choose which testimony of the witnesses to credit. (Citation and punctuation omitted.)
+Cham v. ECI Mgmt. Corp., __ Ga. __, __ (3) (856 SE2d 267) (2021). See
+Montgomery v. Barrow, 286 Ga. 896, 899 (1) (692 SE2d 351) (2010) (noting that “it
+is a jury’s prerogative to accept or reject, in whole or in part, the evidence
+submitted”); Kirk & Assoc. v. McClellan, 214 Ga. App. 685, 688 (2) (448 SE2d 764)
+(1994) (concluding in automobile collision case that “[a]lthough there was evidence
+presented from which it could be concluded that [the driver hired by the defendant
+private detective business] was an independent contractor, there was a conflict and
+[the business] was not entitled to a directed verdict on the issue”).
+Additionally,
+where one is employed generally to perform certain services for another,
+and there is no specific contract to do a certain piece of work according
+to specifications for a stipulated sum, it is inferable that the employer
+has retained the right to control the manner, method and means of the
+performance of the contract, and that the employee is not an independent
+contractor. The test is not whether the employer did in fact control and
+direct the employee in the work, but it is whether the employer had that
+right under the employment contract.
+(Citations and punctuation omitted; emphasis in original.) Atkins, 301 Ga. App. at 280
+(1) (b). The evidence showed that Cajun hired RYR to work on several parts of the
+13
+renovation project at the hotel. The evidence further reflected that Cajun and RYR did
+not enter into a written contract for the pool renovation. There also was some
+evidence from which the jury could find that Cajun simply paid RYR “every time [it
+did] something” on the pool renovation, as related by RYR principal Rafael Munoz,
+rather than pursuant to a specific contract “setting forth specifications as to the work
+to be performed[ ] . . . [for] a stipulated sum.” Atkins, 301 Ga. App. at 280 (1) (b).
+“Given the absence of any such contract in this case, combined with the evidence that
+[Cajun] retained at least some right to control and direct [RYR], there was a question
+of fact . . . on the issue of the employment relationship between [Cajun] and [RYR].”
+Broadnax v. Daniel Custom Constr., 315 Ga. App. 291, 296 (1) (726 SE2d 770)
+(2012). See Atkins, 301 Ga. App. at 280 (1) (b) (concluding that the absence of oral
+or written contract “outlin[ing] [the construction workers’] precise responsibilities,”
+setting out the “specifications as to the work to be performed,” or “identify[ing] a
+stipulated sum,” particularly when “[c]ombined with the evidence of [the apartment
+management company’s] controlling and directing [of the construction] workers, . .
+. precluded the entry of . . . judgment on the issue” of whether an employer /
+employee relationship existed); Atlanta Commercial Builders v. Polinsky, 148 Ga.
+App. 181, 183-184 (2) (250 SE2d 781) (1978) (concluding that evidence was
+14
+sufficient to support finding of employer / employee relationship between general
+contractor and company of block masons at construction site, where “there was no
+written contract establishing specifications for the work, but only an oral agreement
+to pay the masons one dollar per block laid”; the general contractor’s superintendent
+“gave instructions to the head of the mason crew on how the block was to be laid and
+on one occasion instructed the crew to switch to another job at another location”; and
+“[t]he masons’ boss stated that he was at all times prepared to follow any instructions
+which the . . . superintendent might give him concerning how the work was to be
+done”).8 Accordingly, the trial court committed no error in denying Cajun’s motion
+for a directed verdict and for JNOV on the issue of whether Cajun could be held
+vicariously liable for RYR’s acts and omissions based on an employer / employee
+relationship. See id.
+8 Cajun relies on Kimble v. BHM Constr. Co., 193 Ga. App. 441 (388 SE2d 40)
+(1989), but that case is distinguishable because the evidence showed that the
+defendant construction company and carpenter entered into a specific contract for the
+carpenter “to frame the house for a set price based on the specifications provided by
+[the construction company],” the construction company did not provide the carpenter
+with any tools or equipment, and the company “did not have the right to direct [the
+carpenter’s] work on a step-by-step basis.” Id. at 442. Here, in contrast, there was no
+such contract, and there was evidence that Cajun provided tools and equipment to
+RYR, developed the specific plan for demolishing the pool deck, and directed RYR’s
+on a daily basis on how to carry out the demolition work, as previously discussed.
+15
+(b) Cajun argues that it is entitled to a new trial because Laguerre failed to
+establish that Cajun or RYR’s conduct proximately caused his injuries. Specifically,
+Cajun contends that it was not reasonably foreseeable that someone would place a
+loose metal pipe on top of a cabana. Again, we disagree.
+“In order to recover for any injuries resulting from the breach of a duty, there
+must be evidence that the injuries were proximately caused by the breach of the duty.”
+(Citations and punctuation omitted.) Tyner v. Matta-Troncoso, 305 Ga. 480, 485 (3)
+(826 SE2d 100) (2019). The “hallmark of proximate cause” is reasonable
+foreseeability. Id. at 488 (3). When addressing issues of foreseeability, we remain
+mindful that “questions regarding proximate cause are undeniably a jury question and
+may only be determined by the courts in plain and undisputed cases.” (Citation and
+punctuation omitted.) Ontario Sewing Machine Co. v. Smith, 275 Ga. 683, 687 (2)
+(572 SE2d 533) (2002).
+Here, there was evidence that RYR did not inspect the cabanas before
+commencing the pool demolition work on the hotel roof, and that Cajun never
+directed RYR to conduct such an inspection and disavowed any responsibility to
+conduct any safety inspection itself. And, one foreseeable result of demolishing the
+cabanas and wall on the hotel roof – without first inspecting the cabanas and other
+16
+rooftop structures and securing or removing detached items discovered in the
+inspection – was that an item could shake loose, fall from the roof, and strike
+someone on the sidewalk below. See Towles v. Cox, 181 Ga. App. 194, 197-198 (1)
+(351 SE2d 718) (1986) (concluding that jury was authorized to find that a reasonable
+person would foresee “that dangerous construction activity might physically encroach
+upon the sidewalk and thereby present a danger” to those on the sidewalk). Indeed,
+RYR acknowledged that there was a danger of objects falling from the hotel roof as
+a result of the demolition, and Bossier testified that he told RYR to ensure that
+nothing fell from the roof, thereby indicating that Cajun was aware of the risk of
+falling objects. 
+Furthermore, the fact that Cajun and RYR may not have specifically anticipated
+that the falling item would be a loose pipe on a cabana is immaterial because, as we
+have explained, it is “not necessary that the defendant should have had notice of the
+particular method in which an accident would occur, if the possibility of an accident
+was clear to the ordinarily prudent eye.” (Citations and punctuation omitted.) Gen.
+Motors Corp. v. Davis, 141 Ga. App. 495, 497 (2) (233 SE2d 825) (1977). “The
+[plaintiff] [does] not need to prove that the [defendant] might or should have seen the
+likelihood of the particular injury or harm, the extent of the harm, or the manner in
+17
+which it occurred, but only that [the defendant] should have anticipated that some
+injury or harm might result from [its] conduct.” Stern v. Wyatt, 140 Ga. App. 704, 706
+(1) (231 SE2d 519) (1976). See Halilovic v. Penske Truck Leasing, 287 Ga. App. 215,
+219 (651 SE2d 160) (2007) (noting that “in order for a party to be liable for his
+negligence, it is not necessary that he should have been able to anticipate particular
+consequences which ensued, but it is sufficient if in ordinary prudence he might have
+foreseen that some injury would result from his act or omission”) (emphasis omitted).
+Accordingly, the jury was entitled to resolve the issues of foreseeability and
+proximate cause in favor of Laguerre and against Cajun, and the trial court committed
+no error in denying Cajun’s motion for new trial on the asserted ground. See Towles,
+181 Ga. App. at 197-198 (1).
+(c) Cajun contends that it is entitled to a new trial because the jury apportioned
+no fault to AWH Partners. Pretermitting whether Cajun waived this issue by failing
+to object to the form of the verdict before the jury dispersed,9 we discern no grounds
+for reversal.
+Georgia’s apportionment statute, OCGA § 51-12-33, 
+9 See Goldstein, Garber & Salama, LLC v. J. B., 335 Ga. App. 416, 426-427
+(4) (a) (779 SE2d 484) (2015), reversed on other grounds, 300 Ga. 840 (797 SE2d 87)
+(2017), and vacated on remand, 344 Ga. App. 110 (808 SE2d 913) (2017).
+18
+is designed to apportion damages among all persons or entities who
+contributed to the alleged injury or damages – even persons who are not
+and could not be made parties to the lawsuit. A person will be
+considered to have contributed to the alleged injury where that person
+is shown to have breached a legal duty in the nature of a tort that is
+owed for the protection of the plaintiff, the breach of which is a
+proximate cause of his injury.
+(Citations and punctuation omitted.) Martin v. Six Flags Over Georgia II, 301 Ga.
+323, 337 (III) (801 SE2d 24) (2017). 
+We turn now to the particular theory of non-party fault at issue here. It is
+undisputed that AWH Partners was one of the owners of the hotel. “Where an owner
+or occupier of land, by express or implied invitation, induces or leads others to come
+upon his premises for any lawful purpose, he is liable in damages to such persons for
+injuries caused by his failure to exercise ordinary care in keeping the premises and
+approaches safe.” OCGA § 51-3-1. “Because the owner or occupier’s duties to keep
+the premises and approaches safe are statutory (OCGA § 51-3-1), those duties are
+non-delegable even though the owner has a contract for another party to provide [the
+work]. OCGA § 51-2-5 (4)[.]” (Citation omitted.) Griffin v. AAA Auto Club South,
+221 Ga. App. 1, 2 (1) (470 SE2d 474) (1996). Laguerre argues, however, that there
+was evidence presented at trial that AWH Partners surrendered possession of the pool
+19
+construction area to Cajun, thus relieving AWH Partners of its duties with respect to
+that portion of the hotel premises. We agree with Laguerre. 
+“Under the laws of this State, a property owner is not liable to any person who
+is injured on the property if full possession and complete control of the property were
+delivered and surrendered to an independent contractor.” (Citation and punctuation
+omitted.) Nair v. Aramark Food Svc. Corp., 276 Ga. App. 793, 794-795 (625 SE2d
+78) (2005). “The same rule applies where a [property owner] surrenders a portion of
+his premises to an independent contractor – the [owner] is relieved of his duties with
+regard to the portion of the premises which he no longer controls.” Towles, 181 Ga.
+App. at 195-196 (1). “As to that portion, the contractor incurs a duty to exercise
+ordinary care toward keeping the property safe for others who may be invited to it
+expressly or impliedly.” Bartlett v. Holder Constr. Co., 244 Ga. App. 397, 399 (535
+SE2d 537) (2000). In this context, “possession means having personal charge of or
+exercising the rights of management or control over the property in question.” Hess
+v. Textron Automotive Exteriors, 245 Ga. App. 264, 266 (536 SE2d 291) (2000).
+Whether possession and control over all or part of the premises has been delivered
+by the property owner to a contractor is a question of fact that normally the jury must
+resolve. Bartlett, 244 Ga. App. at 399.
+20
+In his recorded deposition testimony as the Rule 30 (b) (6) representative for
+Cajun that was admitted and played at trial, Bossier acknowledged that Cajun “kept
+the doors locked to the pool area so guests and employees couldn’t come in. We
+controlled the work site and the work flow.” And, as discussed supra, there was
+testimony that RYR made no decisions about the work on the construction site
+without first talking to Cajun and that Cajun controlled the time, manner, and method
+in which the work was performed at the site. This combined testimony, construed in
+the light most favorable to the verdict, would support a finding by the jury that AWH
+Partners surrendered possession of the pool construction site to Cajun and thus was
+relieved of its duties as to that particular area of the hotel. See Bartlett, 244 Ga. App.
+at 399 (concluding that jury had to resolve whether owner surrendered construction
+site to contractor, where contractor maintained fence around the site on a daily basis,
+coordinated access to the site through its superintendent, required subcontractors
+working at the site to provide it daily reports, and promulgated rules that
+subcontractors had to follow). And, the jury could further find that 100 percent of the
+fault should be apportioned to Cajun based on the evidence (as previously discussed)
+that Cajun failed to inspect or have RYR inspect the cabanas at the pool construction
+site and secure or remove any loose items found there prior to commencement of the
+21
+demolition. Consequently, the trial court did not err in denying Cajun’s motion for
+new trial based on the jury’s apportionment of fault.
+2. Cajun contends that the trial court erred in awarding $1,050,000 in attorney
+fees to Laguerre pursuant to OCGA § 9-11-68. We do not agree.
+“OCGA § 9-11-68, which is commonly referred to as Georgia’s ‘offer of
+settlement” statute, was enacted to encourage litigants in tort actions to make good
+faith efforts to settle cases in order to avoid unnecessary litigation.” Anglin v. Smith,
+358 Ga. App. 38, 39 (853 SE2d 142) (2020). With respect to offers of settlement
+made by a plaintiff to a defendant, OCGA § 9-11-68 provides in relevant part:
+If a plaintiff makes an offer of settlement which is rejected by the
+defendant and the plaintiff recovers a final judgment in an amount
+greater than 125 percent of such offer of settlement, the plaintiff shall be
+entitled to recover reasonable attorney’s fees and expenses of litigation
+incurred by the plaintiff or on the plaintiff’s behalf from the date of the
+rejection of the offer of settlement through the entry of judgment.
+OCGA § 9-11-68 (b) (2). Additionally, to recover attorney fees for a rejected offer to
+settle a tort claim, the plaintiff’s offer must meet the requirements set forth in OCGA
+§ 9-11-68 (a), including the requirement that the offer state with particularity the
+22
+amount proposed to settle a claim for punitive damages.10 See OCGA § 9-11-68 (a)
+(6); Chadwick v. Brazell, 331 Ga. App. 373, 375-377 (2) (771 SE2d 75) (2015). If the
+aforementioned criteria have been satisfied, the trial court “shall order the payment
+of attorney’s fees and expenses of litigation” to the plaintiff. OCGA § 9-11-68 (d) (1).
+10 OCGA 9-11-68 (a) provides:
+At any time more than 30 days after the service of a summons and
+complaint on a party but not less than 30 days (or 20 days if it is a
+counteroffer) before trial, either party may serve upon the other party,
+but shall not file with the court, a written offer, denominated as an offer
+under this Code section, to settle a tort claim for the money specified in
+the offer and to enter into an agreement dismissing the claim or to allow
+judgment to be entered accordingly. Any offer under this Code section
+must:
+(1) Be in writing and state that it is being made pursuant to this
+Code section;
+(2) Identify the party or parties making the proposal and the party
+or parties to whom the proposal is being made;
+(3) Identify generally the claim or claims the proposal is
+attempting to resolve;
+(4) State with particularity any relevant conditions;
+(5) State the total amount of the proposal;
+(6) State with particularity the amount proposed to settle a claim
+for punitive damages, if any;
+(7) State whether the proposal includes attorney’s fees or other
+expenses and whether attorney’s fees or other expenses are part of the
+legal claim; and
+(8) Include a certificate of service and be served by certified mail
+or statutory overnight delivery in the form required by Code Section
+9-11-5.
+23
+“Such an award may be disallowed only where the trial court finds the settlement
+offer was not made in good faith. See OCGA § 9-11-68 (d) (2).” Anglin, 358 Ga. App.
+at 40. We review a trial court’s determination as to the amount of fees to be awarded
+only for an abuse of discretion. Eaddy v. Precision Franchising, 320 Ga. App. 667,
+670 (739 SE2d 410) (2013).
+Guided by these principles, we turn to the record in the present case. Laguerre
+filed his lawsuit on April 20, 2017. After written discovery had been conducted and
+Laguerre (but not the defendants) had been deposed, Laguerre served Cajun with an
+offer to settle the case for $75,000 on April 24, 2018.11 The offer stated that it was
+intended “to fully satisfy all claims presented in this matter . . . , including all claims
+for injuries arising out of the incident that occurred on or about July 20, 2015, which
+is the subject of [this] civil action,” and that the “offer includes any claims for
+punitive damages.” Cajun rejected the offer and served Laguerre with two offers of
+11 Earlier in the litigation, on January 24, 2018, Laguerre served the Hotel
+Defendants and Cajun with a global offer to settle the case for $250,000, which was
+rejected. See OCGA § 9-11-68 (c) (stating in relevant part that “[t]he fact that an offer
+is made but not accepted does not preclude a subsequent offer”). The trial court did
+not predicate its award of attorney fees on the rejected January 2018 offer, and thus
+we discuss that offer no further.
+24
+settlement, one for $25,000 and the other for $50,000, both of which were rejected
+by Laguerre. 
+The $5,250,000 judgment subsequently entered by the trial court on the jury
+verdict was greater than 125 percent of Laguerre’s April 2018 offer. Laguerre filed
+his motion for attorney fees under OCGA § 9-11-68 predicated on the rejected April
+2018 offer and presented evidence of a contingency fee contract entitling his trial
+counsel to 40 percent of all gross amounts collected, plus any out-of-pocket expenses
+incurred. 
+Laguerre submitted the affidavits of his two trial counsel in support of his
+motion. His first trial counsel estimated that based on her review of her case file, she
+worked 250 hours on the case after Cajun’s rejection of the April 2018 offer, and his
+second trial counsel estimated that based on her review of her case file, she worked
+450 hours on the case after the offer was rejected, for a combined total of 700 hours.
+According to the affidavit testimony, those hours were spent by the two law firms 
+on client management and preparation, discovery, depositions, retention
+and preparation of expert witnesses, pretrial strategy, coordination of
+and conduction of focus groups, negotiations, all pretrial Motions,
+Motions in limine, Trial Briefs, Charges, the Verdict Form, the Pre-Trial
+Order, and other writings; review of all case depositions to prepare for
+designations; as well as all Hearings and the Pre-Trial Conference[, and]
+25
+. . . all aspects of the trial of this case including jury selection, opening
+statement and closing arguments, examination of witnesses, preparation
+of exhibits and demonstratives and trial strategy. 
+Both trial attorneys, who had years of experience litigating personal injury and
+premises liability cases, averred that a 40 percent contingency fee was customary and
+reasonable in premise liability cases involving the same level of complexity and
+injuries as the present one. 
+Laguerre also submitted the affidavit of an expert witness – an attorney with
+experience and expertise practicing in the area of tort and insurance litigation in
+Georgia since 1981 – who averred that “[i]n personal injury litigation in the United
+States, almost all representation is done on a contingent fee basis.” He opined that
+“ordinary, customary and reasonable contingent attorney fees in metropolitan Atlanta
+encompass charging. . . forty percent (40%) of any and all amounts recovered after
+commencement of litigation,” and that “[i]n a litigated premises case involving
+multiple corporate defendants and a mild traumatic brain injury, a contingent fee of
+forty percent (40%) is usual and customary.” (Emphasis omitted.) He further opined
+that “[b]ased on the amount and nature of work Plaintiff’s counsel performed, as well
+26
+as the value added to the case by their experience and expertise, a contingent fee of
+forty percent (40%) is reasonable in this case.” 
+Based on the 40 percent contingency fee, Laguerre noted in his motion that he
+had incurred $2,100,000 in attorney fees predicated on the $5,250,000 judgment, and
+he sought to recover from Cajun the pro-rata portion of reasonable fees incurred after
+the rejection of the April 2018 offer through the date of the entry of judgment.
+Laguerre presented the trial court with three alternative approaches for calculating the
+pro-rata value of legal services provided by his trial counsel, which he termed the
+“‘Value Added Over Defense Offer’ Approach,” resulting in a proposed fee award of
+$2,080,000; the “‘Value Added Over Plaintiff’s 9-11-68 Offer’ Approach,” resulting
+in a proposed fee award of $2,070,000; and the “‘Percentage of Work Performed’
+Approach,” resulting in a proposed fee award of $1,911,000. 
+Cajun opposed Laguerre’s motion for fees, contending that his April 2018 offer
+was defective because it failed to state with particularity the amount proposed to
+settle his punitive damages claim, as required by OCGA § 9-11-68 (a) (6). Cajun
+further argued that Laguerre was not entitled to a fee award based on the 40 percent
+contingency fee because he presented insufficient evidence of the value of the legal
+services actually rendered by his trial counsel. Additionally, Cajun contended that if
+27
+the trial court awarded attorney fees, the court should reject Laguerre’s three
+alternative approaches for calculating the pro-rata value of legal services provided by
+his trial counsel and instead calculate fees by multiplying a reasonably hourly rate
+times the number of hours expended after the rejection of the offer. According to
+Cajun, “[a]ssuming counsel’s estimates of 700 hours is correct, then at a rate of $500
+per hour, Laguerre’s attorneys’ fees amount to no more than $350,000,” and the
+award of attorney fees should not exceed that amount. 
+The trial court conducted a hearing on Laguerre’s fees motion. Laguerre did not
+introduce any additional evidence at the hearing, but Cajun presented expert
+testimony challenging the amount of fees requested by Laguerre. Following the
+hearing, the trial court entered a detailed order awarding attorney fees and litigation
+expenses to Laguerre. The trial court found that Laguerre’s April 2018 offer met the
+statutory requirements of OCGA § 9-11-68, and that a 40 percent contingency fee “is
+usual and customary and is reasonable under the circumstances in this case.” The trial
+court then considered what method should be used for calculating the pro-rata value
+of legal services provided by Laguerre’s trial counsel after the rejection of his April
+2018 offer through the date of the entry of judgment. The trial court ultimately
+declined to use any of the three alternative approaches suggested by Laguerre that
+28
+would have resulted in a fees award of up to $2,080,000. Instead, the trial court
+“multipl[ied] the number of hours expended (700) with an hourly rate it believe[d]
+[was] reasonable in this case ($500) for a total of $350,000.” The trial court
+continued:
+[$350,000], however, is just the starting point. Given that [Laguerre’s]
+counsel obtained a result worth 73 times more than the Offer of
+Judgment, the Court will add a multiplier of three times the $350,000
+guide for a total of $1,050,000 in recognition of the outstanding work by
+[Laguerre’s] counsel in obtaining such a substantial verdict on behalf of
+[Laguerre].12 Accordingly, the trial court awarded Laguerre $1,050,000
+in attorney fees, which Cajun now contests on appeal.
+(a) Cajun first contends that the trial court erred in awarding Laguerre attorney
+fees because his April 2018 offer was procedurally defective. Specifically, Cajun
+contends that the April 2018 offer was invalid because it did not state with
+particularity the amount proposed to settle Laguerre’s punitive damages claim and
+thus did not comply with OCGA § 9-11-68 (a) (6). Because Laguerre’s claim for
+punitive damages was not pending at the time he made his offer of settlement, this
+contention is unavailing. 
+12 The trial court also awarded Laguerre $45,196.47 in litigation expenses
+predicated on the evidence of expenses provided by Laguerre’s trial attorneys. 
+29
+OCGA § 9-11-68 (a) (6) provides that an offer of settlement must “[s]tate with
+particularity the amount proposed to settle a claim for punitive damages, if any.” In
+Chadwick, 331 Ga. App. 373, we construed OCGA § 9-11-68 (a) (6) to mean that if
+a plaintiff asserts a claim for punitive damages, and “such claim was pending at the
+time the offer was made,” then the plaintiff is required to state with particularity the
+amount proposed to settle that claim. (Emphasis supplied.) Id. at 377 (2). We noted
+that “[i]f there is no claim for punitive damages, a party can ignore the requirement
+of subsection (a) (6).” Id. at 376-377 (2).
+Laguerre’s April 2018 offer stated that it was intended to fully satisfy all claims
+arising out of the July 20, 2015 incident and included “any claims for punitive
+damages,” but, notably, Laguerre’s complaint did not include a claim for punitive
+damages at the time the offer was made. Laguerre did not amend his complaint to add
+a punitive damages claim until July 24, 2018, after service and rejection of the April
+2018 offer. Accordingly, because there was no punitive damages claim pending at the
+time Laguerre made his April 2018 offer, the requirement imposed by OCGA § 9-11-
+68 (a) (6) was inapplicable. Chadwick, 331 Ga. App. at 376-377 (2). Consequently,
+Cajun’s contention is misplaced.
+30
+(b) Cajun further contends that the trial court erred in awarding Laguerre
+attorney fees because Laguerre presented insufficient evidence of the value of legal
+services actually rendered by his trial counsel to support an award of fees. We
+disagree.
+It is well-settled that an award of attorney fees is to be determined
+upon evidence of the reasonable value of the professional services which
+underlie the claim for attorney fees. . . . A court may consider a
+contingent fee agreement and the amount it would have generated as
+evidence of usual and customary fees in determining both the
+reasonableness and the amount of an award of attorney fees. When a
+party seeks fees based on a contingent fee agreement, however, the party
+must show that the contingency fee percentage was a usual or customary
+fee for such case and that the contingency fee was a valid indicator of
+the value of the professional services rendered. In addition, the party
+seeking fees must also introduce evidence of hours, rates, or some other
+indication of the value of the professional services actually rendered.
+(Citations and punctuation omitted.) Ga. Dept. of Corrections v. Couch, 295 Ga. 469,
+483 (3) (a) (759 SE2d 804) (2014).
+Laguerre introduced evidence that he agreed to pay a 40 percent contingency
+fee to his trial counsel, and he filed affidavits from his counsel and an expert
+testifying that such a fee was customary and reasonable in premise liability cases
+31
+involving the level of complexity and injuries as the present one, and given the
+expertise of counsel and the amount of work they performed. Laguerre’s trial counsel
+provided estimates, based on their review of their case files, as to the number of hours
+they spent on the case before and after the offer of settlement. There also was
+affidavit testimony describing the work that the attorneys performed on the case after
+the offer of settlement was rejected and the litigation expenses they incurred. Based
+on this record, the trial court acted within its discretion in finding that Laguerre
+provided sufficient evidence of the value of the professional services actually
+rendered by his trial counsel. See City of Atlanta v. Hofrichter/Stiakakis, 291 Ga.
+App. 883, 889-890 (3) (663 SE2d 379) (2008) (40 percent contingency fee contract
+and attorney’s testimony that such a fee was customary in that kind of case, that he
+and co-counsel had taken over 26 depositions and had spent hundreds of hours on the
+litigation, and that his firm had expended $38,948.04 in litigation expenses were
+sufficient to establish the value of the professional services actually rendered).
+Citing to Kennison v. Mayfield, 359 Ga. App. 52, 68-69 (2) (c) (856 SE2d 738)
+(2021) (en banc), Cajun argues that a “hindsight” estimate by trial counsel is
+insufficient to show the number of hours spent by counsel on the case, and that
+counsel “should . . . have started keeping contemporaneous time records” after
+32
+making the settlement offer and should have introduced those records into evidence.
+As an initial matter, the division of Presiding Judge Doyle’s opinion in Kennison
+addressing the evidence of counsel’s time worked on the case is not binding
+precedent because a majority of the judges did not fully concur in the rationale of that
+division. See id. at 67-69 (2) (c); Court of Appeals Rule 33.2 (a) (1). In any event,
+Kennison is distinguishable because counsel in that case broadly testified that he
+“possessed more than 20,000 digital files for the case,” 359 Ga. App. at 69 (2) (c),
+and that “the case took no less than 4,000 and up to 6,000 hours over the entire case,”
+id. at 68 (2) (c), n. 35, a far more generalized description than was provided by
+Laguerre’s counsel. Moreover, Kennison expressly contemplated that counsel in
+contingency fees cases could provide reasoned estimates of the number of hours they
+worked without having to rely on contemporaneous detailed time records; in this
+regard, Presiding Judge Doyle noted that “[t]he better practice in contingency fee
+cases is, when anticipating an award under OCGA § 9-11-68 (b), to provide some
+estimate of the value of legal services actually rendered,” id. at 69 (2) (c) (emphasis
+supplied), and further noted that “[t]his does not amount to a requirement, nor do we
+impose one, that contingency fee matters must be contemporaneously tracked in a
+manner similar to the assiduous tenth-of-an-hour record keeping commonly done in
+33
+matters billed by the hour.” Id.  Accordingly, contrary to Cajun’s argument, Kennison
+does not require reversal of the trial court in the present case.
+(c) Lastly, Cajun contends that the trial court erred in its award of attorney fees
+to Laguerre by applying a multiplier when calculating the fee award in recognition
+of the superior performance and results obtained by Laguerre’s trial counsel.
+According to Cajun, the trial court essentially employed a lodestar method for
+computing attorney fees by multiplying the number of hours reasonably spent by
+Laguerre’s counsel by a reasonable hourly rate.13 However, Cajun maintains that the
+trial court erred by then enhancing the fee award based on the quality of the attorneys’
+performance and the results obtained in the litigation. In support of its argument,
+Cajun relies on the lodestar methodology employed by federal courts and emphasizes
+that the circumstances under which a fee award can be enhanced based on the quality
+of the work performed and the results obtained are limited under federal law. See
+13 Under . . . the ‘lodestar’ method of computing fees, a trial court must
+multiply the number of hours reasonably spent by trial counsel by a reasonable hourly
+rate. This figure can then be adjusted upward or downward for certain factors known
+as multipliers, such as contingency and the quality of the work performed, to arrive
+at a final fee.” (Citation and punctuation omitted.) Friedrich v. Fidelity Nat. Bank,
+247 Ga. App. 704, 706 (545 SE2d 107) (2001). 
+34
+Perdue v. Kenny A., 559 U.S. 542, 554-557 (IV) (B) (130 S Ct 1662, 176 LE2d 494)
+(2010). We are unpersuaded.
+Cajun has cited to no authority requiring the trial court, when determining the
+amount of fees to award in the contingency fee context, to specifically employ the
+lodestar methodology used by federal courts. Nor did the trial court purport to employ
+such a methodology. Rather, consistent with Couch, the trial court considered the
+three alternative approaches that were proposed by Laguerre for valuing fees owed
+under the contingency fee agreement after the rejection of the April 2018 offer
+through the entry of judgment, which would have resulted in a fees award of up to
+$2,080,000, but then declined to award that amount as a reasonable fee after taking
+into account evidence of hours (700), rates ($500), and other indications of the value
+of the professional services actually rendered (the “substantial verdict” resulting from
+the “outstanding work” done by counsel on behalf of Laguerre). See Couch, 295 Ga.
+at 483 (3) (a) (trial court awarding fees in contingency fee context may consider the
+contingency fee agreement in determining the reasonableness and amount of fees, but
+the court also must consider “evidence of hours, rates, or some other indication of the
+value of the professional services actually rendered”) (citation and punctuation
+omitted). The end result was that the trial court reduced the amount of fees from what
+35
+would have been owed under the contingency fee agreement to $1,050,000, which
+was within the range of the evidence. Under these circumstances, we cannot say that
+the trial court abused its discretion in calculating the amount of reasonable attorney
+fees to award to Laguerre. See Khalia, Inc. v. Rosebud, 353 Ga. App. 350, 355-356
+(3) (836 SE2d 840) (2019) (physical precedent only) (in case involving OCGA 9-11-
+68, trial court acted within its discretion by declining to award plaintiff full amount
+of fees due under contingency fee agreement, where there was “evidence before [the]
+trial court that 200 hours was a reasonable amount of time for counsel to spend from
+[the] rejection of [the] offer of judgment through trial and that $250 per hour was a
+reasonable rate for this lawyer,” and the court entered “an award of nearly three times
+[that] amount”); Shiv Aban, Inc. v. Ga. Dept. of Transp., 336 Ga. App. 804, 820 (2)
+(c) (784 SE2d 134) (2016) (upholding trial court’s attorney fee award, where trial
+court compared amount of fees owed under contingency fee agreement “to the fee that
+would have been incurred under hourly billing” and then applied a “risk premium of
+two times the hourly rate”).
+In reaching this conclusion, we also reject an additional argument made by
+Cajun regarding guidance provided by Florida law. Specifically, Cajun argues that
+OCGA § 9-11-68 is modeled after Florida’s offer-of-judgment statute, that Georgia
+36
+courts therefore should look to Florida for guidance in how to interpret our statute,
+and that the Florida Supreme Court has rejected the use of a multiplier in awarding
+attorney fees for a rejected offer. See Sarkis v. Allstate Ins. Co., 863 So2d 210 (Fla.
+2003) (per curiam). It is true that OCGA § 9-11-68 is generally modeled after the
+Florida offer-of-judgment statute, see Richardson v. Locklyn, 339 Ga. App. 457, 459
+(793 SE2d 640) (2016), but the two statutes are not identical. In contrast to OCGA
+§ 9-11-68, the Florida statute, Fla. Stat. § 768.79, refers to guidelines established by
+the Florida Supreme Court for calculating attorney fees:
+If a plaintiff serves an offer which is not accepted by the defendant, and
+if the judgment obtained by the plaintiff is at least 25 percent more than
+the amount of the offer, the plaintiff shall be awarded reasonable costs,
+including investigative expenses, and attorney’s fees, calculated in
+accordance with the guidelines promulgated by the Supreme Court,
+incurred from the date the offer was served.
+(Emphasis supplied.) Fla. Stat. Ann. § 768.79 (6) (b). The Supreme Court of Florida
+has promulgated such guidelines. See Fla. R. Civ. P. 1.442 (h) (2).14 And, in the
+14 Fla. R. Civ. P. 1.442 (h) (2) provides:
+(2) When determining the reasonableness of the amount of an
+award of attorneys’ fees pursuant to this section, the court shall
+consider, along with all other relevant criteria, the following factors:
+(A) The then-apparent merit or lack of merit in the claim.
+37
+Sarkis case relied upon by Cajun, the Florida Supreme Court based its decision
+rejecting the use of a multiplier when calculating attorney fees in the offer-of-
+settlement context in part on the fact that the Court had “set forth in rule 1.442 the
+factors to be considered in determining a reasonable amount of attorney fees awarded
+as sanctions,” but had “not included the use of a multiplier in the rule as a factor to
+be considered.” 863 So2d at 218. See also id. at 223 (noting that Fla. R. Civ. P. 1.442
+did not “authorize[ ] the use of a multiplier in determining the amount of attorney fees
+as a sanction for the rejection of an offer”). Hence, the Florida Supreme Court’s
+conclusion that trial courts should not employ a multiplier was predicated in part on
+the guidelines for calculating fees established by that Court and referenced in the
+Florida statute. Georgia does not have similar guidelines adopted by our Supreme
+Court and referenced in OCGA § 9-11-68. Cajun’s reliance on Florida law thus is
+(B) The number and nature of proposals made by the parties.
+(C) The closeness of questions of fact and law at issue.
+(D) Whether the party making the proposal had unreasonably
+refused to furnish information necessary to evaluate the reasonableness
+of the proposal.
+(E) Whether the suit was in the nature of a test case presenting
+questions of far-reaching importance affecting nonparties.
+(F) The amount of the additional delay cost and expense that the
+party making the proposal reasonably would be expected to incur if the
+litigation were to be prolonged.
+38
+misguided in this specific context and provides no rationale for reversing the trial
+court here.
+Case No. A21A0311
+3. In this related appeal, Cajun challenges the trial court’s order granting
+summary judgment in favor of the Hotel Defendants on their cross-claims for
+contractual indemnification. 
+Summary judgment is appropriate “if the pleadings, depositions, answers to
+interrogatories, and admissions on file, together with the affidavits, if any, show that
+there is no genuine issue as to any material fact and that the moving party is entitled
+to a judgment as a matter of law.” OCGA § 9-11-56 (c). “A de novo standard of
+review applies to an appeal from a grant of summary judgment, and we view the
+evidence and all reasonable conclusions and inferences drawn from it, in the light
+most favorable to the nonmovant.” Griffiths v. Rowe Properties, 271 Ga. App. 344,
+344 (1) (609 SE2d 690) (2005).
+So viewed, and as previously noted, in March 2015, Cajun entered into the
+Trade Contract under which it agreed to “provide and furnish . . . all of the work,
+labor, supervision, services, materials and equipment” required for completion of the
+construction and renovation project at the Crowne Plaza Atlanta-Midtown Hotel
+39
+owned and operated by the Hotel Defendants. Pertinent to the present appeal, the
+Trade Contract contained an indemnification provision that stated:
+To the fullest extent permitted by law, Contractor shall defend,
+indemnify and hold Owner harmless from and against any and all
+claims, damages, losses, liabilities and expenses, including without
+limitation attorney’s fees, arising out of or resulting from the
+performance of the Work or Contractor’s failure to comply with the
+terms and provisions of the Contract, to the extent caused in whole or in
+part by any intentional, negligent or otherwise wrongful acts or
+omissions of Contractor or anyone for whose acts it may be liable
+including employees, subcontractors and consultants. The
+indemnification obligation under this Paragraph shall not be limited in
+any way by any limitation on the amount or type of damages,
+compensation or benefits payable to the Contractor under worker’s
+compensation acts, disability benefit acts, other employee benefit acts
+or insurance policies. The provisions of this Paragraph shall survive the
+expiration or earlier termination of this Contract. The Contractor shall
+include a similar indemnity agreement in all Subcontracts, and require
+that any sub-subcontracts entered into by Subcontractors shall have a
+similar indemnity provision. Contractor shall take all necessary
+precautions to properly protect the Work and the property and work of
+Owner or any other persons on the Project Site, from damages caused by
+the actions of Contractor or any of its Subcontractors. Contractor shall
+be liable for any loss of, or damage to, any such property or any injuries
+to any persons that are caused by the action or neglect of Contractor or
+40
+any of its employees, subcontractors or consultants. (The “Indemnity
+Provision.”) 
+The terms of the Trade Contract were applicable to subsequent change-work orders,
+including the change-work order for the renovations of the rooftop pool deck at the
+center of these appeals. 
+Before the present lawsuit was filed by Laguerre, the Hotel Defendants
+requested that they be defended and indemnified by Cajun against any claims asserted
+by Laguerre for his injuries resulting from the fallen metal pipe, but Cajun declined
+the request. Once the lawsuit commenced, the Hotel Defendants filed their answer,
+denying that they were liable to Laguerre, and they asserted cross-claims against
+Cajun for breach of common law indemnity, breach of contractual indemnity, breach
+of an express contractual duty to indemnify, and common law contribution. 
+Following discovery, the Hotel Defendants moved for partial summary
+judgment on their cross-claims against Cajun for contractual indemnification
+predicated on the Indemnity Provision. The trial court denied the motion “without
+prejudice,” concluding that the motion was “premature” because there had not yet
+been “a determination of the [Hotel] Defendants’ liability obligations, as well as a
+determination of negligence [by] . . . Cajun.” 
+41
+After the trial court denied the Hotel Defendants’ motion for partial summary
+judgment, they tendered another request for defense and indemnity pursuant to the
+Indemnity Provision. As part of their tender, the Hotel Defendants asked Cajun to
+respond to Laguerre and take steps to effectuate a “global settlement” on their behalf.
+Cajun did not accept the tender made by the Hotel Defendants. 
+As pointed out supra, shortly before trial, the Hotel Defendants reached a
+settlement with Laguerre under which they agreed to pay him $1,000,000. Following
+the trial and verdict, the Hotel Defendants filed a renewed motion for summary
+judgment on their contractual indemnity cross-claims, seeking recovery from Cajun
+of the $1,000,000 settlement they paid to Laguerre based on the Indemnity Provision.
+Cajun opposed the motion, contending that the Indemnity Provision was void under
+OCGA § 13-8-2 (b) because it did not exclude indemnity for the Hotel Defendants’
+own negligence. Cajun also argued that the settlement was “exorbitant and
+unreasonable” because the jury in the underlying tort action had apportioned no fault
+to the Hotel Defendant listed on the special verdict form (AWH Partners). 
+After conducting a hearing, the trial court granted the Hotel Defendants’
+motion for summary judgment, ruling that, as a matter of law, they were entitled to
+indemnification for their $1,000,000 settlement with Laguerre based on the Indemnity
+42
+Provision. The trial court concluded that the Indemnity Provision covered the
+settlement and did not violate OCGA § 13-8-2 (b). Additionally, the trial court
+determined that the settlement between the Hotel Defendants and Laguerre was
+reasonable under the circumstances. In this regard, the trial court found that “[t]he
+$5,000,000.00 verdict shows that [Laguerre’s] injuries were substantial, and it was
+not unreasonable for the [Hotel] Defendants to limit their potential liability at
+$1,000,000.00, which, subsequently, avoided any possibility of the entry of a larger
+verdict and additional attorney’s fees against them.” 
+(a) Cajun contends that the trial court erred in granting summary judgment to
+the Hotel Defendants because the Indemnity Provision “contemplates indemnity for
+[the Hotel Defendants’] own negligence in violation of Georgia’s anti-
+indemnification statute, OCGA § 13-8-2 (b),” thereby rendering the Indemnity
+Provision void and unenforceable as a matter of law. We disagree.
+“As a general rule, a party may contract away liability to the other party for the
+consequences of his own negligence without contravening public policy, except when
+such agreement is prohibited by statute.” (Citation and punctuation omitted.) Milliken
+& Co. v. Ga. Power Co., 306 Ga. 6, 8 (1) (829 SE2d 111) (2019). OCGA § 13-8-2 (b)
+creates such a statutory prohibition. It provides in relevant part:
+43
+A covenant, promise, agreement, or understanding in or in connection
+with or collateral to a contract or agreement relative to the construction,
+alteration, repair, or maintenance of a building structure, appurtenances,
+and appliances, including moving, demolition, and excavating connected
+therewith, purporting to require that one party to such contract or
+agreement shall indemnify, hold harmless, insure, or defend the other
+party to the contract or other named indemnitee, including its, his, or her
+officers, agents, or employees, against liability or claims for damages,
+losses, or expenses, including attorney fees, arising out of bodily injury
+to persons, death, or damage to property caused by or resulting from the
+sole negligence of the indemnitee, or its, his, or her officers, agents, or
+employees, is against public policy and void and unenforceable. . . .
+Analyzing OCGA § 13-8-2 (b), our Supreme Court has explained that “an
+indemnification provision is void if it (1) relates in some way to a contract for
+construction, alteration, repair, or maintenance of certain property and (2) promises
+to indemnify a party for damages arising from that own party’s sole negligence.”
+(Citation, punctuation, and emphasis omitted.) Milliken & Co., 306 Ga. at 9 (1). See
+Kennedy Dev. Co. v. Camp, 290 Ga. 257, 259 (719 SE2d 442) (2011).
+It is undisputed that the Indemnity Provision relates to a contract for the
+construction of certain property. Hence, the question on appeal is whether the
+44
+Indemnity Provision requires Cajun to indemnify the Hotel Defendants for damages
+arising from their sole negligence. We conclude that it does not.
+In determining whether an indemnification provision in a construction contract
+impermissibly promises to indemnify a party for that party’s sole negligence, we look
+to the language in the contract. See Milliken & Co., 306 Ga. at 12 (1) (b); Havenbrook
+Homes v. Infinity Real Estate Investments, 356 Ga. App. 477, 485 (1) (c) (847 SE2d
+840) (2020). “The cardinal rule of contract construction is to ascertain the intention
+of the parties. When the terms of a contract are clear and unambiguous, the reviewing
+court looks only to the contract itself to determine the parties’ intent.” (Citations and
+punctuation omitted.) Langley v. MP Spring Lake, 307 Ga. 321, 324 (834 SE2d 800)
+(2019). “On appeal, this Court’s review of a trial court’s construction of a contract is
+de novo.” Borders v. City of Atlanta, 298 Ga. 188, 197 (II) (779 SE2d 279) (2015). 
+As previously noted, the Indemnity Provision requires Cajun to indemnify the
+Hotel Defendants “[t]o the fullest extent permitted by law” for claims or damages
+“arising out of or resulting from the performance of the Work or [Cajun’s] failure to
+comply with the terms and provisions of the [Trade] Contract, to the extent caused in
+whole or in part by any intentional, negligent or otherwise wrongful acts or omissions
+of [Cajun] or anyone for whose acts it may be liable including employees,
+45
+subcontractors and consultants.” The last sentence of the Indemnity Provision further
+states that Cajun “shall be liable for any loss of, or damage to, any such property or
+any injuries to any persons that are caused by the action or neglect of [Cajun] or any
+of its employees, subcontractors or consultants.” 
+By its plain language, application of the Indemnity Provision is limited to
+circumstances where the damages were caused in whole or in part by the intentional,
+negligent, or wrongful acts or omissions of Cajun or those for whom Cajun may be
+held liable including its employees, subcontractors, and consultants. Hence, the
+Indemnity Provision does not require indemnification when damages were caused
+solely by the Hotel Defendants’ negligence. In so concluding, we note that “in
+construing contracts, the rules of grammatical construction usually govern,”15 and one
+such rule is that “a qualifying phrase separated from antecedents by a comma as
+found in this case is evidence that the qualifier is supposed to apply to all the
+antecedents instead of only to the immediately preceding one.” (Citation and
+punctuation omitted.) Lucas v. Beckman Coulter, 303 Ga. 261, 264, n. 6 (811 SE2d
+369) (2018). See Facebook v. Duguid, __ U. S. __, __ (II) (A) (141 SCt 1163, 209
+15 (Citation and punctuation omitted.) L&B Constr. Co. v. Ragan Enterprises,
+267 Ga. 809, 813 (482 SE2d 279) (1997).
+46
+LE2d 272) (2021) (discussing and applying the “series-qualifier canon”). Thus, the
+qualifying phrase contained in the Indemnity Provision – “to the extent caused in
+whole or in part by any intentional, negligent or otherwise wrongful acts or omissions
+of [Cajun] or anyone for whose acts it may be liable including employees,
+subcontractors and consultants” (the “Qualifying Phrase”) – applies to both
+antecedents contained in that sentence, i.e., “the performance of the Work or
+[Cajun’s] failure to comply with the terms and provisions of the [Trade] Contract.”
+(Emphasis supplied.) While Cajun argues that the Qualifying Phrase only applies to
+the immediately preceding antecedent and thus does not apply to “the performance
+of the Work,” the last antecedent rule16 is applicable only “where no contrary
+intention appears,” and a contrary intent is apparent in the present case based on the
+separation of the Qualifying Phrase from both antecedents by a comma. (Citation and
+punctuation omitted.) Lucas, 303 Ga. at 264, n. 6. See Thornton v. State, 310 Ga. 460,
+467 (3) (851 SE2d 564) (2020) (“[The last antecedent] rule is not absolute, and the
+16 “Under . . . the rule of the last antecedent, a qualifying phrase should
+ordinarily be read as modifying only the noun or phrase that it immediately follows.”
+(Citations and punctuation omitted.) Scott v. State, 299 Ga. 568, 572 (2) (788 SE2d
+468) (2016). See Key v. Georgia Dept. of Administrative Svcs., 340 Ga. App. 534,
+537 (1) (b) (798 SE2d 37) (2017) (applying rule of last antecedent to contract
+provision).
+47
+inference it raises may be rebutted where the structure and internal logic of the
+statutory scheme so militate. Under the alternative series-qualifier principle, a
+qualifying phrase appearing at the end of a series should be read to apply to all items
+in the series when such an application would represent a natural construction.”)
+(citation and punctuation omitted). See also Facebook, __ U. S. at __ (II) (A)
+(discussing and declining to apply “rule of the last antecedent”). 
+Cajun further argues that even if the Qualifying Phrase applies to both
+antecedents, the Qualifying Phrase nevertheless requires it to indemnify the Hotel
+Defendants for any damages caused by “anyone for whose acts [Cajun] may be
+liable,” and, according to Cajun, “anyone” could include the Hotel Defendants.
+Cajun, however, ignores the fact that the Qualifying Phrase refers to damages caused
+by “anyone for whose acts [Cajun] may be liable including employees, subcontractors
+and consultants.” (Emphasis supplied.) The word “including” can have more than one
+plausible interpretation: “in some contexts, courts have held that ‘include,’ when used
+to introduce a list of items . . . , indicates that the list is exclusive and exhaustive,
+whereas in other contexts, courts have concluded that ‘include’ introduces a
+non-exclusive or illustrative list of examples.” Premier Health Care Investments v.
+UHS of Anchor, 310 Ga. 32, 39 (3) (b) (849 SE2d 441) (2020). See Berryhill v. Ga.
+48
+Community Support & Solutions, 281 Ga. 439, 440-441 (638 SE2d 278) (2006). In
+the present case, we construe “include” in the narrower sense as exclusive and
+exhaustive in light of the final sentence of the Indemnity Provision, which states that
+Cajun is responsible for indemnifying the Hotel Defendants only where property
+losses or damages or personal injuries were “caused by the action or neglect of
+[Cajun] or any of its employees, subcontractors or consultants.” (Emphasis supplied.)
+As Georgia courts have repeatedly emphasized, “it is axiomatic that contracts must
+be construed in their entirety and in a manner that permits all of the terms contained
+therein to be consistent with one another.” (Citation and punctuation omitted.)
+Langley, 307 Ga. at 324. The Qualifying Phrase therefore must be read consistently
+and in harmony with the final sentence of the Indemnity Provision. See id.
+Accordingly, the word “anyone” in the Qualifying Phrase cannot be construed to
+encompass the Hotel Defendants, given that they were not an employee,
+subcontractor, or consultant of Cajun.17 
+17 We also note that under the ejusdem generis rule of construction, “[w]here
+general words are followed by a description of specified subjects, the meaning of the
+general words ordinarily will be presumed to be limited to the enumerated special
+subjects, and to include only those things of the same nature as those specially
+enumerated, unless a clear manifestation of a contrary intent appears[.]” Jenkins v.
+Jones, 209 Ga. 758, 761 (1) (75 SE2d 815) (1953). See State Farm Fire & Cas. Co.
+v. Rowland, 111 Ga. App. 743, 747 (143 SE2d 193) (1965) (applying ejusdem generis
+49
+In sum, read in its entirety and in accordance with the applicable rules of
+grammar and contract construction, the Indemnity Provision does not require Cajun
+to indemnify the Hotel Defendants for damages caused solely by the Hotel
+Defendants’ own negligence. The Indemnity Provision therefore does not violate
+OCGA § 13-8-2 (b), as the trial court properly concluded. 
+(b) Cajun further contends that the trial court erred in granting summary
+judgment to the Hotel Defendants based on the court’s finding that the
+uncontroverted evidence showed that the $1,000,000 settlement between Laguerre
+and the Crown Defendants was reasonable. 
+rule of construction when interpreting contract). Similarly, under the noscitur a sociis
+rule of construction, “a word or phrase may be known from its accompanying terms,”
+and “words of general import, when associated together with other words of more
+specific import, are limited in a sense analogous to the more specific phrases.”
+Strickland v. Phillips Petroleum Co., 248 Ga. 582, 583 (1) (284 SE2d 271) (1981).
+See Wilson v. Clark Atlanta Univ., 339 Ga. App. 814, 834 (2) (c) (794 SE2d 422)
+(2016) (applying noscitur a sociis rule of construction to interpret disputed
+document). Based on these rules of construction, even if we were to construe the
+word “including” in the Qualifying Phrase as introducing a non-exclusive list of
+parties for whom Cajun could be held liable, the word “anyone” still would not
+encompass the Hotel Defendants, given that they did not serve as agents or
+independent contractors of Cajun on the renovation project and thus were not
+analogous to Cajun’s employees, subcontractors, or consultants. See Wilson, 339 Ga.
+App. at 834 (2) (c) (concluding that even if list of reasons for layoffs of professors
+contained in handbook was not an exhaustive list, the canons of ejusdem generis and
+noscitur a sociis still placed limits on the reasons that the university was authorized
+to give for laying off professors).
+50
+“Generally, the fact that an indemnitee has settled or compromised the
+underlying tort action brought by the injured party does not bar the indemnitee from
+pursuing a claim for indemnification or contribution from a third-party indemnitor.”
+U.S. Lawns v. Cutting Edge Landscaping, 311 Ga. App. 674, 676 (1) (716 SE2d 779)
+(2011). See OCGA § 51-12-32 (c). However, the payment of the settlement by the
+indemnitee “[does] not of itself conclude the issue of liability” for purposes of
+obtaining indemnification from the indemnitor. Union Camp Corp. v. Louisville &
+Nashville R. Co., 130 Ga. App. 113, 116 (2) (202 SE2d 508) (1973). Rather, to
+recover on the indemnification claim, the indemnitee must show that the settlement
+with the injured party “was reasonable, prudent and reached in good faith.” (Citation
+and punctuation omitted.) Id.
+(i) As an initial matter, we note that in opposing the Hotel Defendants’ motion
+for summary judgment, Cajun suggested that their claim for indemnification failed
+as a matter of law because subsequent to the settlement, the jury in the underlying tort
+action apportioned no fault to AWH Partners, the Hotel Defendant included on the
+special verdict form. According to Cajun, the jury verdict showed that the Hotel
+Defendants had a complete defense to the underlying action and “zero” actual liability
+51
+for Laguerre’s damages, such that they were foreclosed from recovering on their
+contractual indemnification claim. We are unpersuaded.
+It is true that an indemnitee who settles or compromises an underlying tort
+action is not entitled to indemnification if the indemnitee “had a defense available
+which would have defeated the action but failed to assert it.” (Citations and
+punctuation omitted.) U.S. Lawns, 311 Ga. App. at 676 (1). See GAF Corp. v. Tolar
+Constr. Co., 246 Ga. 411, 412 (271 SE2d 811) (1980). But where, as here, “the
+indemnitor denies liability under the indemnity contract and refuses to assume the
+defense of the claim, then the indemnitee is in full charge of the matter and may make
+a good faith settlement without assuming the risk of being able to prove absolute
+legal liability or the actual amount of the damage.” (Citation and punctuation
+omitted.) Union Camp Corp., 130 Ga. App. at 116 (1). As persuasively explained by
+another court,
+[F]rom a practical standpoint, it would seem that where, as here, the
+indemnity right was triggered at the time the suit was filed, this gave rise
+to the indemnitee’s right to settle at any time prior to or during the trial.
+The validity of such a settlement should then be determined by the
+circumstances existing at the time it was made. It is obvious that where
+the underlying action involves complicated legal issues and disputed
+52
+issues of fact and law, the ability to draw a bright line between liability
+and nonliability is not possible when a settlement is made prior to trial.
+We do not believe that a subsequent event occurring after the
+settlement, which adversely reflects on the settlement, should
+automatically bar the indemnitee’s ability to recover in the later
+indemnity action. The focus must remain on what was a reasonable
+judgment in light of the circumstances at the time the settlement was
+made. If this were not the rule, then loss of critical evidence occurring
+after the settlement could always be utilized by the indemnitor to defend
+against the settlement. In the present case, the indemnitor was not
+foreclosed from arguing that the settlement was unrealistic because of
+the [jury’s finding of no fault]. [The indemnitor] was only foreclosed
+from utilizing it as an automatic bar because of the jury’s finding.
+Valloric v. Dravo Corp., 357 SE2d 207, 213 (W. Va. 1987). 
+Accordingly, we conclude that in proving the reasonableness of the settlement
+reached in this case, the Hotel Defendants only had to “come forward with evidence
+reflecting that [they] could have been held liable in the underlying tort action had the
+case not been settled.” (Emphasis supplied.) U.S. Lawns, 311 Ga. App. at 677 (1). See
+S. Ry. Co. v. Ga. Kraft Co., 823 F2d 478, 480 (11th Cir. 1987) (holding that
+indemnitee who had notified indemnitor of lawsuit and given the indemnitor an
+opportunity to defend prior to settlement “was not required to prove that it actually
+53
+would have been liable to [the injured party], only that it was potentially liable” when
+it settled the underlying lawsuit); Valloric, 357 SE2d at 213 (indemnitee “must
+demonstrate that he was exposed to liability which could reasonably be expected to
+lead to an adverse judgment”). And given that the Hotel Defendants only needed to
+establish their potential rather than actual liability to Laguerre, the fact that the jury
+in the underlying tort action subsequently apportioned no fault to AWH Partners did
+not automatically defeat the Hotel Defendants’ indemnification claim, although the
+jury’s finding could be taken into account as one of the factors in assessing the
+reasonableness of the settlement reached in this case. See id. 
+(ii) In opposing summary judgment, Cajun also argued that there were genuine
+issues of material fact as to whether the amount of the settlement was reasonable
+under the circumstances. We agree with Cajun.
+A party seeking contribution or indemnification “must prove that the settlement
+amount was reasonable.” Dept. of Transp. v. Montgomery Tank Lines, 276 Ga. 105,
+108 (1) (575 SE2d 487) (2003). See Robert & Co. Assoc. v. Pinkerton & Laws Co.,
+120 Ga. App. 29, 33-34 (1) (169 SE2d 360) (1969) (indemnitee must prove “that the
+amounts paid in settlement of the actions were reasonable and not in excess of what
+54
+the claimants could have reasonably expected to obtain, under the facts and
+applicable law, had the cases been allowed to proceed to verdict and judgment”). 
+As articulated by another jurisdiction, 
+A decision on whether a settlement amount is reasonable involves an
+overall evaluation of the extent of financial exposure the settling party
+faces if the party does not settle. The risk of exposure is the probable
+amount of a judgment if the original plaintiff were to prevail at trial,
+balanced against the possibility that the original defendant would have
+prevailed. Relevant too is whether the indemnitee tendered its defense
+to the indemnitor, whether it kept the indemnitor informed of the
+settlement negotiations, and whether the indemnitor had an opportunity
+to approve the settlement. The reasonableness inquiry is usually fact
+intensive and can be legally complex.
+(Citations and punctuation omitted.) Chevron Oronite Co. v. Jacobs Field Svcs., 951
+F3d 219, 235 (5th Cir. 2020). See Valloric, 357 SE2d at 214. As part of the
+assessment of whether the settlement amount is reasonable, judgments reached
+against similarly situated parties in other cases may be considered, see Chevron
+Oronite Co., 951 F3d at 235-236, and parties may choose to present expert testimony
+on the issue. See Otis Elevator v. Hardin Constr. Co. Group, 450 SE2d 41, 44 (S. C.
+1994). Questions regarding the reasonableness of the settlement are normally for a
+jury to decide. See Wilson v. Norfolk S. Corp., 200 Ga. App. 523, 526 (5) (a) (409
+55
+SE2d 84) (1991); Union Camp Corp., 130 Ga. App. at 116 (2); Robert & Co. Assoc.,
+120 Ga. App. at 33-34 (1). See also Joseph v. Certain Underwriters at Lloyd’s
+London, 356 Ga. App. 178, 185 (2) (b) (844 SE2d 852) (2020) (“Generally, questions
+of reasonableness are for the jury.”).
+Applying these principles, we conclude that the trial court erred in finding that
+the $1,000,000 settlement was reasonable as a matter of law. The trial court looked
+to the jury’s award of $5,000,000 in compensatory damages against Cajun in the
+underlying tort litigation as evidence that Laguerre’s damages were substantial. The
+trial court also noted that the Hotel Defendants made a tender of their defense to
+Cajun but Cajun refused to defend the Hotel Defendants. However, these factors did
+not demand a finding that the settlement amount was reasonable. Moreover, the Hotel
+Defendants did not present any affidavits or other evidence in support of their
+summary judgment motion that might have shed light on the reasonableness of the
+settlement amount, such as evidence of judgments entered in other cases involving
+similarly situated parties or expert opinion testimony. Under these circumstances, it
+was for a jury to determine whether the settlement was reasonable, and the trial court
+therefore erred in granting summary judgment in favor of the Hotel Defendants on
+their indemnification claim. See Wilson, 200 Ga. App. at 526 (5) (a); Union Camp
+56
+Corp., 130 Ga. App. at 116 (2); Robert & Co. Assoc., 120 Ga. App. at 33-34 (1). See
+generally Johnson v. GAPVT Motors, 292 Ga. App. 79, 83 (1) (663 SE2d 779) (2008)
+(summary judgment inappropriate where certain “conclusion . . . was authorized by
+the evidence, . . . [but] not demanded by the evidence”) (emphasis in original). 
+Judgment in Case No. A21A1120 affirmed. Judgment in Case No. A21A0311
+reversed. Markle, J., concurs.  Gobeil, J., concurs fully in Case No. A21A0311 and
+in Divisions 1, 2 (a), and 2 (b) of Case No. A21A1120 and concurs specially in
+Division 2 (c) of Case No. A21A1120.
+57
+A21A0311. CAJUN CONTRACTORS, INC. v. PEACHTREE
+PROPERTY SUB, LLC et al.
+A21A1120.  CAJUN CONTRACTORS, INC. v. LAGUERRE et al.
+ 
+GOBEIL, Judge, concurring specially.
+ I concur fully with the opinion, except as to Division 2 (c), to which I concur
+in judgment only. More specifically, I concur that based on the record before us the
+trial court did not abuse its considerable discretion in awarding $1,050,000 in
+attorney fees to Plaintiff Max Laguerre. Nevertheless, I write this special concurrence
+to raise concerns about the potential risks presented by a trial court’s unfettered
+application of a multiplier to calculate the total amount of fees.
+As noted by the majority, the trial court here multiplied the number of hours 
+spent by the attorneys in this case (700 hours), as evidenced by attorney and expert
+affidavits about the time and type of work performed, and multiplied this by a
+reasonable hourly rate ($500), which yielded a total of $350,000. The court then
+added a multiplier of three to this figure for a total of $1,050,000 “in recognition of
+the outstanding work by [Laguerre’s] counsel in obtaining such a substantial verdict
+on behalf of [Laguerre].” Although the court did not invoke any specific
+methodology, its calculation bears a striking resemblance to the lodestar method
+employed in federal courts.
+Under the lodestar method, courts determine attorney’s fees based on the
+product of the reasonable hours spent on the case and a reasonable
+hourly rate. The product is known as the lodestar. Sometimes courts
+apply to the lodestar a multiplier, also known as an enhancement or an
+upward adjustment, to reward counsel on top of their hourly rates.
+In re Home Depot, Inc., 931 F3d 1065, 1076 (I) (D) (11th Cir. 2019) (citations and
+punctuation omitted). Georgia courts have not adopted the lodestar method in the
+2
+calculation of attorney fees.1 And, under  our existing case law, the trial court was not
+explicitly barred from applying a multiplier. Nevertheless, the court’s use of a
+multiplier, without further elaboration, appears somewhat arbitrary.  In this case, the
+multiplier of three yielded a figure considerably less than the amount sought by
+Laguerre and is within the range of the evidence before the court regarding the
+reasonableness of the fees. Yet, the order does not indicate why the court picked
+three. And, if three is appropriate, why not a multiplier of two, or five, or ten?
+Though not binding on us, it is notable that federal courts limit the use of
+multipliers on the basis that “most, if not all,” of the facts used to determine a
+reasonable fee are already subsumed in the lodestar, and it is not permissible to
+enhance a fee based on a factor that is subsumed. Perdue v. Kenny A. ex rel. Winn,
+559 U. S. 542, 553 (III) (130 SCt 1662, 176 LE2d 494) (2010). That would be
+“double counting” — i e., a windfall. City of Burlington v. Dague, 505 U. S. 557, 563
+(III) (112 SCt 2638, 120 LE2d 449) (1992). For example, the novelty and complexity
+of the issues are reflected in the number of hours spent on the case, as complicated
+1 The only Georgia case we found addressing the lodestar method declined to
+adopt it. See Friedrich v. Fid. Nat. Bank, 247 Ga. App. 704, 706-707 (545 SE2d 107)
+(2001) (“find[ing] persuasive . . . criticisms of the lodestar method” and adopting, for
+common-fund class action cases, a percentage of the fund analysis).
+3
+litigation will demand more time. Blum v. Stenson, 465 U. S. 886, 898-899 (III) (B)
+(104 SCt 1541, 79 LE2d 891) (1984). Similarly, the skill and experience of the
+attorneys will be reflected in the hourly rates. Id. As for the results obtained, this
+factor should be folded into the quality-of-representation factor. Perdue, 559 U. S.
+at 554 (IV) (B). This is so because the results obtained are relevant to attorney fees
+only if those results are attributable to counsel’s performance, rather than, for
+example, mistakes by the other side or an unexpectedly sympathetic jury. Id. Finally,
+risk is not necessarily an appropriate basis for use of a multiplier as the difficulty of
+establishing the merits of the claim “is ordinarily reflected in the lodestar — either
+in the higher number of hours expended to overcome the difficulty, or in the higher
+hourly rate of the attorney skilled and experienced enough to do so. Taking account
+of it again through lodestar enhancement amounts to double counting.” Dague, 505
+U. S. at 562-563 (III) (citations and punctuation omitted). See also Kennison v.
+Mayfield, Case Nos. A20A2074, A20A2075__ Ga. App. __, __ (2) (c) (856 SE2d
+738) (2021) (whole court) (“There is a distinction between the risk/reward bargain
+made between the client and his or her attorney and the actual value of the
+professional services rendered by the attorney.”).
+4
+Based on the number of hours worked by Laguerre’s counsel, evidence that a
+40 percent contingency fee was usual and customary in a complex case such as here,
+and expert evidence that 40 percent was in fact reasonable given the specific
+circumstances of this case, we cannot say that the trial court abused its discretion in
+awarding $1,050,000 in attorney fees pursuant to OCGA § 9-11-68. Nevertheless, by
+affirming here, we are not condoning the unfettered use of multipliers. The trial
+court’s discretion is bounded by statutory requirements that the fees awarded in all
+OCGA § 9-11-68 cases must be reasonable for the services performed. See Ga. Dept.
+of Corrections v. Couch, 295 Ga. 469, 483 (3) (a) (759 SE2d 804) (2014) (“It is
+well-settled that an award of attorney fees is to be determined upon evidence of the
+reasonable value of the professional services which underlie the claim for attorney
+fees.”) (citation and punctuation omitted).
+5

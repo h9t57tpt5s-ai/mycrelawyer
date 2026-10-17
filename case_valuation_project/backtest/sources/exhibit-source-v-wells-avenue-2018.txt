@@ -1,0 +1,366 @@
+ 
+NOTICE:  All slip opinions and orders are subject to formal 
+revision and are superseded by the advance sheets and bound 
+volumes of the Official Reports.  If you find a typographical 
+error or other formal error, please notify the Reporter of 
+Decisions, Supreme Judicial Court, John Adams Courthouse, 1 
+Pemberton Square, Suite 2500, Boston, MA, 02108-1750; (617) 557-
+1030; SJCReporter@sjc.state.ma.us 
+ 
+17-P-1611         Appeals Court 
+ 
+THE EXHIBIT SOURCE, INC.  vs.  WELLS AVENUE BUSINESS CENTER, 
+LLC. 
+ 
+ 
+No. 17-P-1611. 
+ 
+Suffolk.     September 13, 2018.  -  November 20, 2018. 
+ 
+Present:  Wolohojian, Lemire, & Englander, JJ. 
+ 
+Landlord and Tenant, Security deposit, Consumer protection, 
+Attorney's fees, Multiple damages.  Consumer Protection 
+Act, Landlord and tenant, Damages, Attorney's fees, Unfair 
+or deceptive act, Offer of settlement.  Damages, Consumer 
+protection case, Attorney's fees. 
+ 
+ 
+ Complaint received and sworn to in the Central Division of 
+the Boston Municipal Court Department on May 6, 2014.   
+ 
+ The case was tried before Myong J. Joun, J.  
+ 
+ 
+ Evan M. Fray-Witzer for the defendant. 
+ David C. Aisenberg for the plaintiff. 
+ 
+ 
+ ENGLANDER, J.  The defendant commercial landlord Wells 
+Avenue Business Center, LLC (Wells), failed to return the 
+$15,982 security deposit of the plaintiff tenant, The Exhibit 
+Source, Inc. (Exhibit Source).  Exhibit Source sued, asserting 
+various common-law claims, as well as a claim under G. L. 
+ 2 
+c. 93A, § 11.  The jury found for the plaintiff on the common-
+law claims, and the judge separately found for the plaintiff 
+under c. 93A, and awarded treble damages and attorney's fees.  
+The Appellate Division affirmed.  On further appeal to this 
+court, the defendant argues that (1) the trial judge improperly 
+adjusted the jury's damages award, (2) the facts did not support 
+a c. 93A violation, (3) language in the commercial lease 
+prohibited the award of multiple damages, and (4) it made a 
+reasonable offer of settlement, which pretermitted an award of 
+multiple damages and attorney's fees.  We affirm. 
+ Background.  Exhibit Source and Wells entered into a 
+commercial lease (lease) pursuant to which Exhibit Source 
+provided a security deposit of $15,982.  The lease terminated 
+August 31, 2013.  The lease expressly required the defendant 
+landlord to return the security deposit "[w]ithin thirty (30) 
+days" of lease termination, except that the landlord could 
+"apply" the security deposit to compensate for damages suffered 
+as a result of a "Tenant Default."  "Tenant Default," in turn, 
+was a defined term; as discussed below, the only "tenant 
+default" that could possibly apply to the facts here was in 
+lease section 16.1(d) -- "failure by Tenant to fulfill any other 
+obligation under this lease, if such failure is not cured within 
+twenty (20) days of notice from Landlord to Tenant . . ."  
+(emphasis supplied). 
+ 3 
+ As the trial judge found, the defendant landlord failed to 
+fulfill its obligations with respect to the security deposit.    
+The plaintiff tenant vacated the premises as of August 31, 2013.   
+Representatives of the landlord and the tenant walked through 
+the premises on September 4, 2013.  The landlord's 
+representative did not raise any issue as to the condition of 
+the premises at that time, or indeed for the next seven months.   
+Starting in October of 2013 the plaintiff repeatedly requested 
+the return of the security deposit.  A representative of the 
+landlord represented several times that the full amount would be 
+forthcoming.  That did not happen.   
+ Eventually, on April 1, 2014, the landlord returned 
+$1,202.28 of the deposit, and retained $14,780.  The landlord 
+claimed the $14,780 was for damage to the property, allegedly 
+caused when the tenant removed certain shelving and signage upon 
+leaving in August of 2013.  The alleged damage would have been 
+visible during the September 4, 2013, walk-through.  At no time 
+prior to April 1, 2014, did the landlord provide notice to the 
+tenant of any damage, and the landlord never provided an 
+opportunity to cure as contemplated by the lease.   
+ The plaintiff filed suit on May 6, 2014, and asserted 
+claims for breach of contract, breach of the implied covenant of 
+good faith, conversion, misrepresentation, and violations of 
+G. L. c. 93A, § 11.  The landlord did not make a settlement 
+ 4 
+offer when it filed its answer on May 30, 2014, although it had 
+offered $6,000 around the time that the tenant filed suit.1  
+ The jury returned verdicts for the tenant on each of the 
+common-law claims, in response to special verdict questions.  It 
+awarded damages of $25,366.70, which it listed on its special 
+verdict form thusly: 
+"$20,000.00 damages 
+ $ 5,366.70 security balance 
+ $25,366.70 plaintiff to receive" 
+ 
+ The trial judge reserved the c. 93A claim for himself and 
+on June 10, 2015, heard additional arguments on the issue.  The 
+landlord filed posttrial motions directed at the jury verdict, 
+including a motion under Mass. R. Civ. P. 59, 365 Mass. 827 
+(1974), to remit the jury's damages award.  The judge entered a 
+combined order on the posttrial motions and the c. 93A claim, in 
+which he (1) allowed the motion for remittitur and reduced the 
+jury's damages award to $14,780, and (2) found for the plaintiff 
+on the c. 93A claim, trebled the plaintiff's "actual damages" to 
+$44,340, and awarded attorney's fees and costs, later determined 
+to be $60,511.74.  The judge's c. 93A findings bear setting 
+forth here: 
+"Here, [landlord] had absolutely no intention of returning 
+the security deposit to plaintiff.  After months of 
+stringing plaintiff along under false representations that 
+                     
+ 1 As discussed infra, the landlord did increase its 
+settlement offers as the litigation proceeded. 
+ 
+ 5 
+the security deposit will be paid to plaintiff, [landlord] 
+manufactured a reason to keep the security deposit by 
+claiming damage to the property -- a reason that did not 
+exist when [landlord's representative] conducted the walk-
+through inspection on September 4, 2013 . . . ." 
+ 
+ On the parties' cross appeals, the Appellate Division of 
+the Boston Municipal Court affirmed in a unanimous and well-
+reasoned opinion.  That court also awarded $30,100 in additional 
+attorney's fees, incurred by the tenant in responding to the 
+defendant's appeal.  The defendant now appeals to this court. 
+ Discussion.  1.  The damages award.  The defendant first 
+argues that the judge erred in his handling of the jury verdict 
+on damages.  It contends that the only valid damages award was 
+the $5,366.70 identified on the verdict form as "security 
+balance," and that the $20,000 designated by the jury as 
+"damages" was "wholly unsupported by any evidence."   
+ We need not decide whether the judge's remittitur was 
+proper here, because we affirm the $14,780 damages award that 
+the judge made under c. 93A.  The c. 93A claim was tried to the 
+judge, not the jury; the c. 93A award was separate from the 
+jury's verdict.  The judge found that the defendant violated  
+c. 93A, that the violation was knowing or willful, and that "the 
+appropriate disposition is to treble plaintiff's actual 
+damages."  The judge was charged with setting damages on the 
+c. 93A claim, and was not required to follow the jury's damages 
+award.  See Klairmont v. Gainsboro Restaurant, Inc., 465 Mass. 
+ 6 
+165, 186 (2013) (noting the "well-established principle" that a 
+judge may deviate from the jury's factual findings when 
+determining c. 93A liability).  The trial judge's order sets 
+forth his reasoning that $14,780 -- the unreimbursed portion of 
+the security deposit -- was the proper amount of damages.  
+Indeed, in his order the judge stated that the case was tried on 
+the theory that damages were a "sum certain" of $14,780, and the 
+judge also held as a matter of law that the damages amount could 
+not be reduced based upon any damage that the tenant allegedly 
+caused to the leased property, because the landlord had not 
+complied with the terms of the lease as to any such reduction.  
+Furthermore, a damages award of $14,780 is plainly valid under 
+c. 93A, and well supported by the record.2  
+ 2.  The finding of c. 93A liability.3  In its reply brief, 
+the defendant argues that the conduct at issue could not violate 
+c. 93A, as a matter of law.  According to the defendant, this 
+                     
+ 2 The defendant argues that the trial judge never made a 
+damages award under c. 93A, and instead "was trebling the actual 
+damages awarded by the jury (as 'remitted')."  That is not a 
+reasonable reading of the judge's findings and order.  As noted, 
+the judge concluded his c. 93A discussion by stating, "[T]he 
+appropriate disposition is to treble plaintiff's actual damages" 
+(emphasis added).  The judge then awarded $44,340, meaning that 
+the judge's award of "actual damages" was $14,780. 
+  
+ 3 We accept the trial judge's findings of fact on the c. 93A 
+issue absent clear error, but review his applications of law de 
+novo.  Kuwaiti Danish Computer Co. v. Digital Equip. Corp., 438 
+Mass. 459, 470 (2003).   
+ 7 
+case presents "nothing more than a good faith dispute . . . over 
+the amount due under a commercial lease."  The defendant posits 
+that any misrepresentations it may have made about the return of 
+the security deposit are irrelevant, because they were not used 
+to try to extort "some concession from [Exhibit Source]."   
+ This argument was not made in the defendant's opening 
+brief, and accordingly we need not consider it.  See Mass. 
+R. A. P. 16 (a) (4), as amended, 367 Mass. 921 (1975); Fafard v. 
+Conservation Comm'n of Barnstable, 432 Mass. 194, 195-196 
+(2000).  Nevertheless, it is worth noting that the argument is 
+well wide of the mark.  The defendant does not challenge any of 
+the trial judge's factual findings.  Those findings include (1) 
+that the defendant deliberately strung the plaintiff along for 
+seven months, representing that it would return the security 
+deposit when it had "no intention" of doing so; (2) that the 
+reasons the defendant ultimately gave for not returning the 
+deposit were "manufactured" -- that is, a pretext, and (3) that 
+the defendant knew that, as a result of its actions, the 
+plaintiff would need to hire a lawyer and to incur legal fees, 
+and that such was part of the defendant's strategy to "wear out" 
+the plaintiff, in hopes that it would cease its pursuit of the 
+deposit or accept less in settlement.  
+ These factual findings comfortably establish a violation of 
+c. 93A.  That statute makes unlawful "[u]nfair methods of 
+ 8 
+competition and unfair or deceptive acts or practices in the 
+conduct of any trade or commerce."  G. L. c. 93A, § 2 (a).  The 
+statute does not define "unfair or deceptive acts or practices."  
+While a breach of contract alone does not qualify, we have said 
+that "[t]o be held unfair or deceptive under c. 93A, practices 
+involving even worldly-wise business people do not have to 
+attain the antiheroic proportions of immoral, unethical, 
+oppressive, or unscrupulous conduct, but need only be within any 
+recognized or established common law or statutory concept of 
+unfairness."  VMark Software, Inc. v. EMC Corp., 37 Mass. App. 
+Ct. 610, 620 (1994). 
+ The trial judge's findings here went well beyond 
+"recognized" "concept[s] of unfairness."  This was not a dispute 
+over the application of a contract, but rather was a considered 
+and intentional exercise of control over the plaintiff's 
+property -- a strategy employed in the hope that the property 
+could be, ultimately, taken by the defendant without right to do 
+so. 
+ 3.  The award of treble damages and attorney's fees.  The 
+defendant also mounts two arguments directed against the trial 
+judge's award of treble damages and attorney's fees.  First, the 
+defendant argues that treble damages are precluded by a 
+limitation of liability clause in section 17.2 of the lease, 
+which states: 
+ 9 
+"In no event will Landlord be liable for punitive damages, 
+lost profits, business interruption, speculative 
+consequential or other such damages."4   
+ 
+ The limitation of liability clause does not aid the 
+defendant here.  In Standard Register Co. v. Bolton-Emerson, 
+Inc., 38 Mass. App. Ct. 545 (1995), this court similarly 
+considered whether a limitation of remedies clause in a 
+commercial contract applied so as to preclude remedies otherwise 
+available under c. 93A.  We held that the applicability of such 
+a contract provision depends upon whether the c. 93A claim 
+sounds more in contract, or in tort:  "[A] chapter 93A claim 
+analogous to a tort-based recovery overrides any contractual 
+defenses, whereas a § 11 claim founded on a contract theory is 
+subject to a contractual limitation of remedies provision."  Id. 
+at 549.  We went on to hold in Standard Register that the "core" 
+of the plaintiff's claim was based upon misrepresentations the 
+defendant made as to its ability to provide the product it was 
+offering.  Id. at 550.  We concluded that this conduct sounded 
+in tort; it was "deceitful," and "distinct" from the facts 
+underlying the plaintiff's contract claim.  Id. 
+                     
+ 4 There is a threshold issue whether multiple damages under 
+c. 93A would qualify as "punitive damages . . . [or] 
+consequential or other such damages."  We assume that they do, 
+without deciding. 
+ 
+ 10 
+ Applying the Standard Register test, we have no difficulty 
+concluding that the plaintiff's c. 93A claim here sounds 
+predominantly in tort.  As described above, the judge's 
+uncontested findings are that the defendant undertook a course 
+of action (and inaction) designed to result in the wrongful 
+conversion of the plaintiff's property.5  Those actions violate 
+well established legal norms that are independent of the 
+parties' contract. 
+ The defendant's second argument for avoiding the treble 
+damages award, as well as the award of attorney's fees, is that 
+it made "reasonable offers of settlement," which the plaintiff 
+rejected.  Specifically, the defendant points to (1) an offer of 
+$6,000, which it made around the time the complaint was filed on 
+May 6, 2014; (2) an offer of $14,780, which it made on June 20, 
+2014, some twenty days after it filed its answer; and (3) an 
+offer of $22,000, which it made on August 7, 2014.  The trial 
+judge rejected the defendant's argument that it made a 
+reasonable offer of settlement, and we agree. 
+ Chapter 93A, § 11, provides, in pertinent part: 
+"The respondent may tender with his answer in any such 
+action a written offer of settlement for single damages.  
+                     
+ 5 Although our conclusion that the plaintiff's c. 93A claim 
+sounds in tort is supported by the jury's verdicts on the 
+common-law claims of misrepresentation and conversion, it is not 
+dependent upon, or dictated by, those findings.  Rather, we 
+review the trial judge's decision as to the gravamen of the 
+c. 93A claim in light of the trial judge's findings.   
+ 11 
+If such tender or settlement is rejected by the petitioner, 
+and if the court finds that the relief tendered was 
+reasonable in relation to the injury actually suffered by 
+the petitioner, then the court shall not award more than 
+single damages."  (Emphasis added.) 
+ 
+ The defendant did not tender any offer of settlement with 
+its answer.  Leaving aside the $6,000 offer (which the trial 
+judge found was not reasonable), the other two offers were made 
+well after the answer was filed, and after the plaintiff had 
+engaged in additional litigation.  The defendant's latter two 
+offers did not comply with the statute's plain language.  See 
+Auto Flat Car Crushers, Inc. v. Hanover Ins. Co., 469 Mass. 813, 
+825 (2014). 
+ The defendant ignores this noncompliance and argues, in 
+essence, that at least the $22,000 offer of settlement was 
+reasonable as a matter of law, thereby precluding a treble 
+damages award.  The defendant argues that the $22,000 offer 
+exceeded the total of the plaintiff's damages and costs incurred 
+at the time that the offer was made.  And although the plaintiff 
+by that time had also incurred attorney's fees that likely would 
+not be reimbursed in full by the $22,000 offer, the defendant 
+argues that under the case law such incurred attorney's fees 
+cannot be considered when evaluating the reasonableness of a  
+c. 93A settlement offer, relying in particular on Kohl v. Silver 
+Lake Motors, Inc., 369 Mass. 795 (1976).  
+ 12 
+ The defendant cites no case holding that a court is 
+required to limit a c. 93A award to single damages based upon a 
+settlement offer that was not made until after the defendant 
+filed its answer.  Such an argument is inconsistent with the 
+statute's plain language.  The judge no doubt can consider a 
+settlement offer made post-answer when exercising his discretion 
+as to whether to award multiple damages.6  International Fid. 
+Ins. Co. v. Wilson, 387 Mass. 841, 857 (1983) (noting that "the 
+conduct proscribed by the statute is as much the failure to make 
+a reasonable settlement offer as it is the substantive violation 
+of c. 93A").  In that context, however, the judge's decisions as 
+to whether a violation was "willful or knowing" and whether to 
+award multiple damages may take into account a variety of 
+relevant facts, including in particular the degree of the 
+defendant's culpability as well as what settlement offers were 
+made.  See id. at 856-857.  
+  Here the trial judge did not abuse his discretion in 
+awarding treble damages and in refusing to reduce such damages 
+due to the defendant's settlement offers.  He concluded that 
+none of the offers was reasonable at the time it was made, as 
+the offers, while increasing, always fell short of providing the 
+                     
+ 6 Under c. 93A, § 11, if the court finds a "willful or 
+knowing violation," it "shall" award "up to three, but not less 
+than two . . . times" the actual damages.  
+ 
+ 13 
+plaintiff with the relief it was reasonably likely to achieve by 
+continuing on with the litigation it had been forced to bring, 
+and had tried to avoid.  In this context, once litigation had 
+commenced in earnest and the plaintiff had been forced to incur 
+significant attorney's fees, there was no error in considering 
+that the settlement offers did not provide for reimbursement of 
+attorney's fees incurred as a result of the defendant's unfair 
+practices.7  Nothing in the Kohl decision is to the contrary. 
+ The November 21, 2017, amended judgment of the Appellate 
+Division is affirmed. 
+So ordered. 
+                     
+ 7 The plaintiff has requested reasonable attorney's fees 
+incurred on this appeal.  Such an award is appropriate in this 
+case under c. 93A.  Twin Fires Inv., LLC v. Morgan Stanley Dean 
+Witter & Co., 445 Mass. 411, 433 (2005).  The plaintiff may file 
+with this court an application for fees and costs, together with 
+supporting materials, within fourteen days of the date of the 
+rescript of this opinion.  See Fabre v. Walton, 441 Mass. 9, 10 
+(2004).  The defendant shall have fourteen days thereafter to 
+respond.  The plaintiff's request for double costs is denied. 
+ 

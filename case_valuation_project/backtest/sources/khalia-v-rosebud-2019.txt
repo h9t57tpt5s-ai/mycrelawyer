@@ -1,0 +1,382 @@
+FIFTH DIVISION
+MCFADDEN, C. J.,
+MCMILLIAN, P. J., and SENIOR APPELLATE JUDGE PHIPPS
+NOTICE: Motions for reconsideration must be
+physically received in our clerk’s office within ten
+days of the date of decision to be deemed timely filed.
+http://www.gaappeals.us/rules
+December 6, 2019
+In the Court of Appeals of Georgia
+A19A1891, A19A1969. KHALIA, INC. v. ROSEBUD; and vice
+versa.
+PHIPPS, Senior Appellate Judge.
+These companion appeals arise from a shooting at a convenience store that left
+plaintiff Daniel Rosebud injured. After defendant Khalia, Inc. rejected Rosebud’s
+pretrial demand for $150,000, a jury found Khalia responsible for $1.134 million in
+damages. On appeal in Case No. A19A1891, Khalia argues that the trial court erred
+when it denied its motions for judgment notwithstanding the verdict (j.n.o.v.) on the
+issue of duty and for j.n.o.v. or new trial on the issue of causation. On cross-appeal
+in Case No. A19A1969, Rosebud argues that the trial court erred when it awarded
+him attorney fees under OCGA § 9-11-68 in an amount significantly below that
+specified in his contingency fee agreement. We find no error and affirm in both cases. 
+“The jury is the final arbiter of the facts, and the verdict must be construed by
+the trial and appellate courts in the light most favorable to upholding the jury
+verdict.” (Citation and punctuation omitted.) Wilmock, Inc. v. French, 185 Ga. App.
+259, 261 (1) (363 SE2d 789) (1987). 
+Thus viewed in favor of the verdict, the record shows that on November 1,
+2015, Rosebud and his friend Dontavious Miles were looking for a barber to cut
+Miles’s hair for a new job when they stopped at a gas station and convenience store
+at 490 Fairburn Road in Atlanta. The property, which was leased to Khalia, included
+a chicken wing shop under different corporate ownership and a common parking area.
+Miles parked the car he was driving at the end of the gas pump island and went inside
+the convenience store while Rosebud napped in the front passenger seat. A man in a
+white hat began a conversation with Miles, after which shots were exchanged
+between the two men, some of which hit Rosebud. Miles drove away but was forced
+to stop by an oncoming train at a nearby railroad crossing. After Miles abandoned the
+car, Rosebud lay down to evade detection and then ran down the tracks, where he
+called 911. 
+Evidence before the jury showed that 490 Fairburn Road was a well-known
+scene of illegal drug transactions, loitering requiring police intervention, and at least
+2
+two incidents of prior gunplay, including a shooting inside the store three days before
+the incident at issue. The store manager knew of the gunplay, and a beat officer
+testified that the location’s level of criminal activity required him to stop there four
+or five times a day. A detective also testified that although businesses are authorized
+to obtain a “criminal trespass warning” empowering the police to arrest trespassers,
+Khalia had never requested such a warning. 
+Khalia’s principal testified that the man in the white hat had been loitering
+outside and around the gas station for more than 20 minutes before the shooting.
+Although the store manager testified at trial that Khalia regularly held safety meetings
+and reported criminal activity, he was impeached with his own deposition testimony
+that store employees were instructed “never” to “make any sort of reports or
+document anything on paper[.]” The evidence also showed that there were 14 cameras
+located inside the store, but only two, which were not monitored, outside. 
+After the close of evidence, Khalia moved for a directed verdict on two issues:
+that Rosebud was a licensee rather than an invitee; and that the property owner, rather
+than Khalia, had a non-delegable duty to take reasonable care. The trial court granted
+the first motion and denied the second, establishing that Rosebud was a licensee but
+rejecting Khalia’s argument that the owner could be solely responsible as a matter of
+3
+law for safety on the property. The jury then returned a verdict of $1,718,367.46 in
+total damages, finding Khalia 66% at fault, with Miles and the man in the white hat
+17% each at fault. The trial court entered judgment on the verdict against Khalia in
+the amount of approximately $1.134 million. 
+Khalia moved for j.n.o.v. or a new trial on grounds including that it owed no
+duty to Rosebud because he was never on Khalia’s premises and that any breach of
+care by Khalia could not have been the proximate cause of the shooting. The trial
+court denied the motions, holding that both arguments were waived because they
+were not raised in the motion for directed verdict and that some evidence supported
+the conclusions that Rosebud was on Khalia’s property or its approaches and that
+Khalia failed to take reasonable care under the circumstances. 
+Case No. A19A1891
+On appeal, Khalia argues that the trial court erred when it denied its motion for
+j.n.o.v. because there was no evidence that Khalia breached its duty to Rosebud.
+Khalia also argues that its motion for j.n.o.v. or new trial should have been granted
+because the shooter’s criminal conduct broke the chain of proximate causation. We
+disagree. 
+1. (a) Waiver of JNOV Motion. OCGA § 9-11-50 (b) 
+4
+allows the device of a motion for judgment notwithstanding the verdict
+to be used when a motion for directed verdict does not end a trial and it
+proceeds to verdict. It is narrow, however, and does not permit
+reopening the case for new legal issues which are thought of
+retrospectively, with hindsight. [Rather,] [i]t provides . . . a post-verdict
+opportunity for a determination of the legal questions raised by the
+motion for a directed verdict. If upon reflection the trial judge
+determines that the motion for directed verdict was valid, the judge is to
+set aside the verdict and the original judgment and enter a new judgment
+in accordance with the motion for directed verdict. It is patent, then, that
+the j.n.o.v. must be based on grounds raised in the motion for directed
+verdict initially, for it is in effect only a new ruling on a renewed
+motion. 
+(Citation omitted.) James E. Warren, M.D., P.C. v. Weber & Warren Anesthesia
+Svcs., 272 Ga. App. 232, 234 (1) (612 SE2d 17) (2005). It follows that “arguments
+asserted in a motion for j.n.o.v. but not raised in the motion for directed verdict
+cannot be considered on appeal.” (Citation omitted.) Id. at 235 (1).
+The record shows that although Khalia moved for a directed verdict on grounds
+including, in passing, that there was no evidence to support a finding that it breached
+the standard of care due to Rosebud as a licensee, the trial court did not grant the
+motion on this basis. Instead, the trial court granted the motion on the ground that
+Rosebud was a licensee. The record also shows that Khalia did not ask for
+5
+clarification of or object to the trial court’s ruling, which effectively granted its
+motion in part and denied it in part; instead, Khalia remained silent during the
+extended discussion of the applicable standard of care, including the framing of a jury
+charge on the issue and objections from Rosebud, and did not object to the charge
+when or after it was delivered. The issues of Rosebud’s status as licensee and the
+applicable standard of care having been resolved in Khalia’s favor below, there is
+nothing for us to review on appeal. See Moody v. Dykes, 269 Ga. 217, 219-220 (3)
+(496 SE2d 907) (1998) (induced error based on the acquiescence of counsel in the
+giving of a charge provides no ground for reversal under OCGA § 5-5-24 (c)). 
+(b) Merits of JNOV Motion: Duty and Breach. Even assuming that the issue is
+not waived, some evidence supported the jury’s determination that Khalia violated
+that standard of care. Because Rosebud was held to be a licensee, as to which holding
+no error has been asserted, Khalia can be liable only for its “willful and wanton” act
+or omission. OCGA § 51-3-2 (b). As we have often explained, 
+“it is usually wil[l]ful or wanton not to exercise ordinary care to prevent
+injuring a person who is actually known to be, or may reasonably be
+expected to be, within the range of a . . . hidden peril on one’s premises.
+Thus, as to a licensee, ordinary care and diligence must be used to
+prevent injuring him after his presence is known or reasonably should
+be anticipated.” 
+6
+(Punctuation omitted.) Cooper v. Corporate Property Investors, 220 Ga. App. 889,
+891 (470 SE2d 689) (1996), quoting Wade v. Mitchell, 206 Ga. App. 265, 267 (2) (c)
+(424 SE2d 810) (1992) (emphasis in Wade). In such cases, a possessor of land is
+liable for harm caused to a licensee 
+if, but only if, (a) the possessor knows or has reason to know of the
+condition and should realize that it involves an unreasonable risk of
+harm to such licensees, and should expect that they will not discover or
+realize the danger, and (b) he fails to exercise reasonable care to make
+the condition safe, or to warn the licensees of the condition and the risk
+involved[.]
+Cooper, 220 Ga. App. at 891, quoting London Iron, etc. Co. v. Abney, 245 Ga. 759,
+761 (2) (267 SE2d 214) (1980). As always, the test for liability “is the proprietor’s
+superior knowledge of the hazard.” (Citation omitted.) Cooper, 220 Ga. App. at 891. 
+As a preliminary matter, we note that no error has been asserted as to the trial
+court’s admission of evidence concerning at least two prior shootings on the 490
+Fairburn property, one of which occurred only three days before the incident at issue.
+See Camelot Club Condo. Assoc. v. Afari-Opoku, 340 Ga. App. 618, 621, 623 (1) (a)
+(798 SE2d 241) (2017) (given that “[t]he question of reasonable foreseeability of a
+criminal attack is generally for a jury’s determination rather than summary
+7
+adjudication by the courts” and that a crime “does not have to originate on [a]
+landowner’s property in order to hold the owner liable” under a foreseeability
+analysis, a trial court did not err in denying a defendant’s motion for directed verdict
+concerning harm arising from a third-party crime) (citation omitted). 
+Here, as in Wade, supra, Rosebud was injured not by a pre-existing defect but
+as a result of arguable “acts and omissions occurring as he arrived [and remained] on
+the premises,” 206 Ga. App. at 266 (2) (b) – that is, a failure either to maintain
+security measures required under the dangerous conditions known to Khalia
+employees or to warn customers and their guests of those dangerous conditions.
+Further, and “[e]ven assuming [that Rosebud’s] presence had not in fact been known,
+a truck service stop or gas station can be charged with reasonably anticipating that,
+throughout the period of its business operation, persons will frequently stop
+unannounced on the premises[.]” Id. at 267 (2) (c). The relevant question is thus
+“whether the prior criminal activity was sufficiently and substantially similar to
+demonstrate [the occupier’s] knowledge” that conditions or persons on his property
+would subject visitors to “unreasonable risk of criminal attack” so that the occupier
+“had reasonable grounds to apprehend that the present criminal act was foreseeable.”
+8
+(Footnote and punctuation omitted.) McDaniel v. Lawless, 257 Ga. App. 187, 189
+(570 SE2d 631) (2002). 
+This trial court correctly determined that a jury should decide whether Khalia
+was “wanton or wilful” in failing to take “ordinary care” to warn invitees, such as
+Miles, and their guests, such as Rosebud, of the hazardous conditions on its premises,
+including frequent criminal activity and gunfire, of which it arguably had knowledge.
+See Wade, 206 Ga. App. at 268 (3) (reversing a grant of summary judgment when a
+gas station owner had arguably failed to warn a licensee of the danger posed by an
+exploding tire); see also Millan v. Residence Inn by Marriott, 226 Ga. App. 826, 828
+(487 SE2d 431) (1997) (reversing a grant of summary judgment when a hotel
+arguably breached a duty when it failed to warn guests of previously reported
+incidents of sexual assault in the hotel pool by a “dangerous guest on its premises”).
+Further, because there was evidence to support the jury’s verdict, there was no error
+in denying Khalia’s motion for new trial. See generally Aldworth Co., Inc. v.
+England, 281 Ga. 197, 201 (2) (637 SE2d 198) (2006) (even if a defendant has
+waived his right to contest the denial of a motion for j.n.o.v. because he failed to
+move for a directed verdict, he may nonetheless move for a new trial “to review the
+sufficiency of the evidence under the ‘any evidence’ standard of review”) (footnote
+9
+omitted); on remand, 286 Ga. App. 1, 3-4 (2) (a) (648 SE2d 198) (2007) (evidence
+of driver’s status as employee and causation was sufficient to deny defendant’s
+motion for new trial). 
+2. Causation. As we have noted above, Khalia’s motion for directed verdict did
+not raise the question of whether the evidence was sufficient to sustain the jury’s
+verdict as to causation. It follows that, for the same reasons stated in Division 1 (a)
+above, the trial court did not err when it denied Khalia’s motion for j.n.o.v. on this
+ground. Nor was the denial of the alternative motion for new trial in error because the
+question of whether the shooter’s criminal act broke the causal chain arising from
+Khalia’s arguable failure to take sufficient precautions was for the jury to decide.
+Camelot, 340 Ga. App. at 623 (1) (a) (ii) (affirming denial of motion for directed
+verdict concerning foreseeability of third-party shooting resulting in condominium
+owner’s death); Millan, 226 Ga. App. at 828 (reversing grant of summary judgment
+as to whether a third-party attack in hotel swimming pool was foreseeable and
+whether defendants were negligent in failing to exercise ordinary care); McNeal v.
+Days Inn of America, Inc., 230 Ga. App. 786, 789 (498 SE2d 294) (1998) (reversing
+grant of summary judgment to premises owner on claims by plaintiffs who were
+10
+attacked in hotel’s parking lot by four men who followed them there from a nearby
+restaurant).
+Case No. A19A1969
+3. On the cross-appeal, Rosebud asserts that the trial court erred when it
+awarded his counsel less than one-third of the amount due under Rosebud’s 45%
+contingency fee agreement. We disagree. 
+Under OCGA § 9-11-68 (b) (2), plaintiffs making a rejected offer of settlement
+followed by a judgment of more than 125 percent of the offer “shall be entitled to
+recover reasonable attorney’s fees and expenses of litigation incurred by the plaintiff
+or on the plaintiff’s behalf from the date of the rejection of the offer of settlement
+through the entry of judgment.” (Emphasis supplied.) We will affirm a trial court’s
+award of attorney fees under OCGA § 9-11-68 (b) in the absence of an abuse of
+discretion. See Strategic Law, LLC v. Pain Management & Wellness Ctrs. of Ga., 350
+Ga. App. 526, 529 (2) (828 SE2d 1) (2019); Brock Built, LLC v. Blake, 316 Ga. App.
+710, 714 (2) (a) (730 SE2d 180) (2012) (even when the amount awarded under
+OCGA § 9-11-68 was less than what a party sought, the party was “substantially
+successful” such that a trial court did not err in deciding to award it fees and costs).
+11
+Construed in favor of the trial court’s judgment, the record shows that Rosebud
+presented the trial court with three options for calculating the proper fee, including
+value added over Khalia’s highest offer (which was $50,000) and over Rosebud’s
+highest offer (which was $150,000). Rosebud estimated the proper fee as between
+approximately $408,000 and $488,000. At a hearing, Khalia’s expert witness testified
+that 200 hours was a reasonable amount of time as between Khalia’s rejection of
+Rosebud’s offer of judgment and the end of trial and that $250 per hour was a
+reasonable fee rate under these circumstances. The trial court selected a value-added
+approach, comparing the fee Rosebud would have owed if Khalia had accepted his
+$150,000 offer to the fee actually earned on the judgment under the contingency fee
+agreement, and concluding that a fee of $442,855.13 “comes closest to effectuating
+the purpose of” OCGA § 9-11-68. The trial court went on to review that amount for
+reasonableness, however, and concluded that despite the skill shown by counsel in
+obtaining the verdict, “some of the fees evidenced by Rosebud’s attorneys were
+unnecessary.” The court then awarded counsel $140,951.17 as “reasonable” fees and
+expenses. 
+The Supreme Court of Georgia has noted that although a contingency fee
+agreement is “certainly a guidepost to the reasonable value of the services the lawyer
+12
+performed,” such an agreement “is not conclusive, and it cannot bind the court in
+determining that reasonable value, nor should it bind the opposing party required to
+pay the attorney fees, who had no role in negotiating the agreement.” (Citation
+omitted.) Ga. Dept. of Corrections v. Couch, 295 Ga. 469, 484 (3) (a) (759 SE2d 804)
+(2014). There was some evidence before this trial court that 200 hours was a
+reasonable amount of time for counsel to spend from Khalia’s rejection of Rosebud’s
+offer of judgment through trial and that $250 per hour was a reasonable rate for this
+lawyer. On this record, which includes an award of nearly three times the amount due
+according to this evidence, we cannot say that the trial court erred when it awarded
+Rosebud more than $140,000 in reasonable fees and costs. See Brock Built, 316 Ga.
+App. at 714 (a). 
+Judgment affirmed in both cases. McMillian, P. J., concurs. McFadden, C. J.,
+concurs fully and specially in Case No. A19A1891 and dissents in Case No.
+A19A1969. *
+* THIS OPINION IS PHYSICAL PRESEDENT ONLY. COURT OF APPEALS
+RULE 33.2 (a).
+13
+A19A1891, A19A1969. KHALIA, INC. v. ROSEBUD; and vice
+versa.
+MCFADDEN, Chief Judge, concurring fully and specially in part and dissenting
+in part.
+I concur fully in Case No. A19A1891 and emphasize that whether Rosebud
+was an invitee or a licensee is not before us. See Howard v. Gram Corp., 268 Ga.
+App. 466, 469, 602 S.E.2d 241, 244 (2004) (holding, 9-3, that Howard was a mere
+invitee in part because the Gram Corporation was not operating a “retail
+establishment”).
+But in Case No. A19A1969 the majority tacitly approves the lodestar method
+for fee calculations under OCGA § 9-11-68 (b) (2), the subsection of the offer-of-
+judgment statute regarding attorney fees awards to plaintiffs. The lodestar method has
+been adopted by the federal courts for their fee-shifting jurisprudence. But it has not
+been adopted in Georgia, and it is incompatible with the language of the subsection
+before us. So I respectfully dissent. 
+The lodestar method was devised by the Third Circuit in a case where that
+court assumed that the applicable statute, in that context, “d[id] not authorize award
+of attorneys’ fees.” So the Third Circuit set out standards for fees awarded “under the
+general equitable powers of the court.” Lindy Bros. Builders, Inc. of Phila. v. Am.
+Radiator & Standard Sanitary Corp., 487 F.2d 161, 164, 165 (3d Cir. 1973). The
+analysis with which it set out those standards contains few citations of authority. Id
+at 166-169. Nevertheless, for the federal courts, “The “lodestar” figure has, as its
+name suggests, has become the guiding light of [their] fee-shifting jurisprudence.”
+City of Burlington v. Dague, 505 U.S. 557, 562, 112 S. Ct. 2638, 2641, 120 L. Ed. 2d
+449 (1992). 
+Under “the ‘lodestar’ method of computing fees, a trial court must multiply the
+number of hours trial counsel reasonably spent by a reasonable hourly rate. This
+figure can then be adjusted upward or downward for certain factors known as
+multipliers, such as contingency and the quality of the work performed, to arrive at
+a final fee.” Friedrich v. Fid. Nat. Bank, 247 Ga. App. 704, 705–06, 545 S.E.2d 107,
+109 (2001) (citations and punctuation omitted). 
+Here Khalia advocated the lodestar method at the fee hearing below, eliciting
+expert testimony that the fee awarded should be for 200 hours at $250 per hour. And
+the trial court implicitly adopted the lodestar method, explaining her decision to
+award less than one third of the amount due under the fee agreement in part by
+finding “that some of the fees evidenced by Rosebud’s attorneys were unnecessary”
+and that there is “some question regarding the memorialization of the time spent[.]”
+2
+Those criticisms are salient only if one accepts the premise of the lodestar method:
+that the fee should be calculated by selecting a reasonable hourly rate and multiplying
+it by the time reasonably and actually spent. 
+That is the federal rule. In City of Burlington, supra, Justice Scalia, writing for
+a 6-3 majority, reaffirmed that under that federal fee-shifting jurisprudence, the
+lodestar method applies to contingency fee agreements and held that, under that
+jurisprudence, the federal courts are directed to factor the contingency into
+calculation of plaintiff’s counsel’s reasonable hourly rate and prohibited from 
+“[t]aking account of it again through lodestar enhancement[.]” City of Burlington v.
+Dague, 505 U.S. 557, 559, 563, 112 S. Ct. 2638, 2641, 120 L. Ed. 2d 449 (1992). 
+But the only Georgia case I have found that addresses the lodestar method
+declines to adopt it. Friedrich v. Fid. Nat. Bank, supra, 247 Ga. App. 704, 706–07
+(“find[ing] persuasive [] criticisms of the lodestar method” and adopting, for 
+common-fund class action cases, a percentage-of-the-fund-analysis).
+And the statute before us is a Georgia statute. The federal statute involved in
+City of Burlington, “[i]n language typical of most federal fee-shifting provisions . .
+. authorize courts to award the prevailing party a ‘reasonable’ attorney’s fee.” 505
+U.S. at 567 (Blackmun, J., dissenting, citing 33 U.S.C. § 1365(d) (Clean Water Act);
+3
+42 U.S.C. § 6972(e) (Solid Waste Disposal Act)). The statute before us, the
+subsection of the offer-of-judgment statute related to attorney fee awards to plaintiffs,
+O.C.G.A. § 9-11-68 (b) (2), provides, 
+If a plaintiff makes an offer of settlement which is rejected by the
+defendant and the plaintiff recovers a final judgment in an amount
+greater than 125 percent of such offer of settlement, the plaintiff shall be
+entitled to recover reasonable attorney's fees and expenses of litigation
+incurred by the plaintiff or on the plaintiff's behalf from the date of the
+rejection of the offer of settlement through the entry of judgment.
+(emphasis added). 
+So the question before us becomes what to make of “incurred.” To answer that
+question, I turn to the canons of construction.
+The surplusage canon directs, “If possible, every word and every provision is
+to be given effect (verba cum effectu sunt accipienda). None should be ignored. None
+should needlessly be given an interpretation that causes it to duplicate another
+provision or to have not consequence.” Antonin Scalia and Brian Garner, Reading
+Law, § 26, p. 174 (2012) (translating the Latin in a footnote: “Words are to be taken
+as having an effect”). The surplusage canon has been adopted in Georgia. See
+4
+Campaign for Accountability v. Consumer Credit Research Found., 303 Ga. 828,
+834, 815 S.E.2d 841, 846 (2018). 
+“In the absence of words of limitation, words in a statute should be given their
+ordinary and everyday meaning.” Six Flags Over Georgia v. Kull, 276 Ga. 210, 211,
+576 S.E.2d 880, 881 (2003) (citations and punctuation omitted). The ordinary
+meaning of “incur,” as reflected in the relevant definition in Merriam Webster’s
+Colligate Dictionary (10th Ed.) (1994), is “to become liable[.]” So the statutory
+phrase directs courts’ attention to the amount the plaintiff and his attorney actually
+agreed upon and that plaintiff actually owes his attorney — as opposed to a
+counterfactual finding about an hourly rate that a hypothetical plaintiff and attorney
+might have agreed upon. 
+Of course the analytical journey does not end with the agreed-upon amount.
+“[T]he contingency fee agreement is not conclusive[.]” It is only a guidepost along
+the way. Georgia Dep’t of Corr. v. Couch, 295 Ga. 469, 484, 759 S.E.2d 804, 816
+(2014). The statute also requires that the amount awarded be “reasonable.” And our
+Supreme Court has held that it is error to “calculat[e] what amount of attorney fees
+was reasonable based solely . . . on that agreement rather than on evidence of hours,
+rates, or other indications regarding the value of the attorneys' professional services
+5
+actually rendered.” Georgia Dep't of Corr. v. Couch, 295 Ga. 469, 484, 759 S.E.2d
+804, 816 (2014). Couch quoted with approval our holding that, 
+In Georgia, an attorney cannot recover for professional
+services without proof of the value of those services. A
+court may consider a contingent fee agreement and the
+amount it would have generated as evidence of usual and
+customary fees in determining both the reasonableness and
+the amount of an award of attorney fees. When a party
+seeks fees based on a contingent fee agreement, the party
+must show that the contingency fee percentage was a usual
+or customary fee for such case and that the contingency fee
+was a valid indicator of the value of the professional
+services rendered. In addition, the party seeking fees must
+also introduce evidence of *715 hours, rates, or some other
+indication of the value **185 of the professional services
+actually rendered.16
+Brock Built, LLC v. Blake, 316 Ga. App. 710, 714–15, 730 S.E.2d 180, 184–85
+(2012) (citations omitted). 
+So a trial court’s analysis of the amount of attorney fees to be awarded to a
+plaintiff under § 9-11-68 (b) (2) should address the reasonableness of the agreed-upon
+fee. That analysis should consider its reasonableness at the time the plaintiff and his
+attorney entered into their agreement — possibly rejecting an excessive percentage.
+6
+And it should consider it’s reasonableness upon completion of the matter — possibly
+deeming a fee excessive where the case settles with unanticipated ease and alacrity. 
+I would vacate and remand for such an inquiry.1
+1This case demonstrates that reversal rates are a poor measure of the quality of
+a judge. In  Cohen v. The Alfred & Adele Davis Academy, 310 Ga. App. 761, 764 (714 SE2d 350)
+(2011), we held that “by its terms, OCGA § 9-11-68 does not require that the trial court make written
+findings of fact or conclusions of law unless the court concludes that an offer was not made in good
+faith.” Nonetheless, making such written findings and conclusions is inarguably the better practice.
+(We have imposed such a requirement in cases involving attorney fees and costs under OCGA §
+9-15-14 even though that statute is silent as to whether specific findings are required. See McKemie
+v. City of Griffin, 272 Ga. 843, 844-845 (4) (537 SE2d 66) (2000).) Absent explicit findings by the
+trial court appellate review is meaningless.
+7
