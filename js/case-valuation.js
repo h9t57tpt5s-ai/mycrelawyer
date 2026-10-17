@@ -1257,4 +1257,28 @@
     sb.auth.getSession().then(() => renderUploadZone());
     sb.auth.onAuthStateChange(() => renderUploadZone());
   }
+
+  // ?category=<id> (2026-10-17): links from matter pages and the "what is it
+  // worth?" pages say which kind of dispute the visitor has in mind. The
+  // calculator still classifies the case itself from what is entered; this
+  // only tells the visitor which facts to include.
+  const HINTS = {
+    "lease-disputes": ["commercial lease dispute", "the monthly rent, months left on the term, unpaid rent so far, whether the lease has an acceleration clause or a fee-shifting clause, whether the space has been re-let, and what each side says went wrong"],
+    "lending-foreclosure": ["commercial loan, foreclosure or guaranty claim", "the loan balance, the state, whether foreclosure has been filed and how, any sale price or appraised value, the guaranty and any carve-out the lender relies on, and the borrower's defenses or counterclaims"],
+    "construction-defect": ["construction defect claim", "the repair cost estimate, the defect type, who did the work (contractor, subcontractor, designer), years since substantial completion, indemnity clauses, and any insurance denial"],
+    "eminent-domain": ["condemnation claim", "the condemning authority's offer, each side's appraisal, whether it is a partial taking with damage to the remainder (access, severance), and any challenge to the taking itself"],
+    "zoning-land-use": ["zoning or land-use claim", "what was denied or approved, what was spent in reliance on an approval, the timeline of requests and changes, and the relief you want (approval, damages or both)"],
+    "premises-liability": ["premises liability claim", "the state, the injury, medical costs and lost wages, whether the owner knew of the hazard, and any comparative-fault or security issues"],
+    "reit-securities": ["REIT securities or fiduciary claim", "the alleged misstatement or self-dealing transaction, estimated investor losses, the stage of the case, and how specific the pleaded facts are"],
+    "environmental": ["contamination claim", "cleanup costs incurred or estimated, the contamination's scale, each party's role, other responsible parties, and any insurance or state enforcement action"],
+  };
+  const cat = new URLSearchParams(location.search).get("category");
+  const hint = cat && cat === "landlord-tenant" ? HINTS["lease-disputes"] : HINTS[cat];
+  if (form && hint) {
+    const box = document.createElement("div");
+    box.className = "card";
+    box.style.cssText = "padding:16px 18px; margin-bottom:18px; border-left:3px solid var(--accent);";
+    box.innerHTML = `<strong>Estimating a ${hint[0]}?</strong> <span class="text-secondary">Include ${hint[1]}. The more of both sides' facts you give, the tighter the range.</span>`;
+    form.insertBefore(box, form.firstChild);
+  }
 })();

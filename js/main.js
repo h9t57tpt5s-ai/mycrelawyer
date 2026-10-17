@@ -992,6 +992,15 @@
 
       // End of a full write-up, for readers without an account: the weekly
       // email is the one-field way to keep getting rulings like this one.
+      // End of a full write-up, for every reader (2026-10-17): the moment a
+      // reader thinks about their own dispute is the time to offer the
+      // calculator. It never values this matter (one-sided facts).
+      function calculatorEndHtml() {
+        const cat = c.category === "landlord-tenant" ? "lease-disputes" : c.category;
+        return `
+          <p class="body-text" style="margin-top:20px;"><strong>Facing a dispute like this one?</strong> <a href="/case-valuation.html?category=${cat}#cv-form">Get a free damages range for your own facts &rarr;</a></p>`;
+      }
+
       function newsletterEndHtml() {
         return `
           <div class="card matter-cta panel-newsletter">
@@ -1123,7 +1132,7 @@
           if (state.status === "ok") {
             withFull(() => {
               const note = state.anonymous ? `<div class="free-read-note"><span>${state.used} of ${state.limit} free reads used this month.</span> <button type="button" class="link-btn" id="free-read-signup">Create a free account</button> for unlimited reading and email alerts.</div>` : "";
-              renderGated(note + fullArticleInnerHtml() + (state.anonymous ? newsletterEndHtml() : ""));
+              renderGated(note + fullArticleInnerHtml() + calculatorEndHtml() + (state.anonymous ? newsletterEndHtml() : ""));
               if (state.anonymous && window.RELAW_NEWSLETTER) window.RELAW_NEWSLETTER.wire(gatedSlot);
               const su = document.getElementById("free-read-signup");
               if (su) su.addEventListener("click", () => window.RELAW_AUTH.openSignInModal(c.id));

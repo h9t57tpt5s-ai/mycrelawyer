@@ -74,6 +74,19 @@ tail = tail.replace("<script src=\"js/main.js\"></script>", '<script src="js/mai
 head = absolutize(head);
 tail = absolutize(tail);
 
+// "What is it worth?" page for each tracker category (scripts/build_value_pages.ts).
+const VALUE_PAGE: Record<string, [string, string]> = {
+  "lease-disputes": ["commercial-lease-dispute-damages", "commercial lease dispute"],
+  "landlord-tenant": ["commercial-lease-dispute-damages", "commercial lease dispute"],
+  "lending-foreclosure": ["commercial-foreclosure-guaranty-damages", "commercial loan or guaranty claim"],
+  "construction-defect": ["construction-defect-damages", "construction defect claim"],
+  "eminent-domain": ["condemnation-compensation", "condemnation claim"],
+  "zoning-land-use": ["land-use-litigation-damages", "zoning or land-use claim"],
+  "premises-liability": ["commercial-premises-liability-damages", "premises liability claim"],
+  "reit-securities": ["reit-securities-claim-value", "REIT securities claim"],
+  "environmental": ["environmental-cleanup-cost-claims", "contamination claim"],
+};
+
 // Share image per matter (scripts/build_og_images.py, which runs first).
 const ogImage = (c: Case) => {
   try { Deno.statSync(`img/og/${c.id}.png`); return `${SITE}/img/og/${c.id}.png`; } catch { return `${SITE}/img/og-image.png`; }
@@ -302,10 +315,10 @@ function mainFor(c: Case): string {
         <p class="gate-form-status" data-newsletter-status role="status"></p>
       </div>` : ""}
       <div class="card matter-cta">
-        <div class="eyebrow">Case Value Calculator · Beta</div>
-        <h2 class="matter-h2">What's this ${esc(k.label)} case worth?</h2>
-        <p class="text-secondary">Describe your own facts and get a damages-range estimate grounded in real cited case law.</p>
-        <a class="btn btn-ghost btn-sm" href="/case-valuation.html">Try the calculator</a>
+        <div class="eyebrow">Case Value Calculator · free beta</div>
+        <h2 class="matter-h2">Facing a dispute like this one?</h2>
+        <p class="text-secondary">Get a damages range for your own facts, with the reasoning and the cases behind it. ${VALUE_PAGE[c.category] ? `<a href="/${VALUE_PAGE[c.category][0]}.html">What is a ${esc(VALUE_PAGE[c.category][1])} worth?</a>` : ""}</p>
+        <a class="btn btn-ghost btn-sm" href="/case-valuation.html?category=${esc(c.category === "landlord-tenant" ? "lease-disputes" : c.category)}#cv-form">Estimate your case</a>
       </div>
     </div>
 
