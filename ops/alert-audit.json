@@ -1,6 +1,6 @@
 {
  "ok": true,
- "generatedAt": "2026-10-17T00:45:11.541Z",
+ "generatedAt": "2026-10-17T14:24:33.208Z",
  "days": 30,
  "portfolios": 1,
  "entitiesWatched": 1,
@@ -20,9 +20,9 @@
    "p90LagDays": 1
   },
   "hillsborough_fl": {
-   "stored": 88,
+   "stored": 90,
    "liveSince": "2026-09-20",
-   "lagSample": 59,
+   "lagSample": 61,
    "medianLagDays": 2,
    "p90LagDays": 2
   },
@@ -171,7 +171,7 @@
    "emailed": 0
   },
   "2026-10-17": {
-   "stored": 37,
+   "stored": 39,
    "alerts": 0,
    "emailed": 0
   }
