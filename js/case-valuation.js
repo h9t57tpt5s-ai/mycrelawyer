@@ -371,7 +371,9 @@
       <div class="gate-card">
         <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
         <h3 style="margin-bottom:8px;">Sign in to get an estimate</h3>
-        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">Describing your case and/or uploading documents for AI-assisted analysis runs on purchased analysis credits tied to your account.</p>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">${FREE_MODE
+          ? "The calculator is free during the beta. Sign in with just your email: we send you a link, no password and no payment. Your analysis stays tied to your account."
+          : "Describing your case and/or uploading documents for AI-assisted analysis runs on purchased analysis credits tied to your account."}</p>
         <button type="button" class="btn btn-primary btn-sm" id="cv-ai-signin-btn">Sign in to continue</button>
       </div>`;
   }
