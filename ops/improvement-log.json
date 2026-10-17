@@ -6,77 +6,123 @@
    "date": "2026-10-09",
    "title": "Added static A-Z link lists to companies.html and judges.html",
    "why": "site_audit.py (ops/metrics/audit.json, 2026-10-09 snapshot) found 92 orphan root pages. 76 of them were the company-*.html and judge-*.html profile pages, which companies.html and judges.html only ever link to from JavaScript-built cards, invisible to site_audit and to any crawler that doesn't execute JS. This was backlog item 1, ranked top because it was the audit's largest single finding category.",
-   "files": ["companies.html", "judges.html"],
+   "files": [
+    "companies.html",
+    "judges.html"
+   ],
    "commit": "58da97b4f47415e5d09011be05364d8f8ba023f3",
    "metric": "audit.summary.orphanPages",
    "window": "next day's audit snapshot",
    "baseline": 92,
    "checkAfter": "2026-10-10",
    "status": "helped",
-   "verdict": {"date": "2026-10-10", "value": 1, "note": "Live site_audit.py run: orphanPages 92 -> 1 (98%+ drop); the one remaining orphan, judge-frank-volk.html, is a judge added to js/data.js after this change shipped, not a return of the original 92."}
+   "verdict": {
+    "date": "2026-10-10",
+    "value": 1,
+    "note": "Live site_audit.py run: orphanPages 92 -> 1 (98%+ drop); the one remaining orphan, judge-frank-volk.html, is a judge added to js/data.js after this change shipped, not a return of the original 92."
+   }
   },
   {
    "id": "imp-002",
    "date": "2026-10-09",
    "title": "Cleared the remaining 16 orphan root pages (state guides, author bio, newsletter, handbook redirect)",
    "why": "site_audit.py (--print, re-run live this session) showed orphanPages still at 16 after imp-001: the 13 state-guide deep-dive pages, only linked from state-guides.html's JS-built state picker (same shape as imp-001's company/judge pages); author-jeff-novel.html and newsletter.html, with zero static inbound links anywhere on the site; and handbook.html, a pure client-side redirect stub to eviction-guide.html that a crawler would never follow in. This was backlog item 2.",
-   "files": ["state-guides.html", "about.html", "index.html", "handbook.html", "sitemap.xml"],
+   "files": [
+    "state-guides.html",
+    "about.html",
+    "index.html",
+    "handbook.html",
+    "sitemap.xml"
+   ],
    "commit": "ed58fe60d636ef28c3aca63eae7d578548e0308b",
    "metric": "audit.summary.orphanPages",
    "window": "next day's audit snapshot",
    "baseline": 16,
    "checkAfter": "2026-10-10",
    "status": "helped",
-   "verdict": {"date": "2026-10-10", "value": 0, "note": "Live site_audit.py run: all of imp-002's targets (state guides, author bio, newsletter, handbook) remain linked; the one orphan present today (a judge page) is outside this change's scope."}
+   "verdict": {
+    "date": "2026-10-10",
+    "value": 0,
+    "note": "Live site_audit.py run: all of imp-002's targets (state guides, author bio, newsletter, handbook) remain linked; the one orphan present today (a judge page) is outside this change's scope."
+   }
   },
   {
    "id": "imp-003",
    "date": "2026-10-10",
    "title": "Moved companies.html/judges.html A-Z lists into scripts/prerender.ts",
    "why": "Judging imp-001/imp-002 today (live site_audit.py, since no fresh ops/metrics snapshot had landed) found orphanPages at 1: judge-frank-volk.html, added to js/data.js after imp-001's hand-written A-Z list was last updated. This confirms backlog item 0 (Jeff's session, 2026-10-09): the hand-written lists go stale whenever the digest adds a party or judge. Generated the lists in scripts/prerender.ts from RELAW_DATA.trackedParties and RELAW_DATA.judges instead, filtered to slugs whose profile page exists, between prerender:companies-az-list/judges-az-list markers (same pattern as featured-grid). Baked the current output by hand since deno is unavailable in this cloud session; the prerender workflow regenerates it on future pushes.",
-   "files": ["companies.html", "judges.html", "scripts/prerender.ts"],
+   "files": [
+    "companies.html",
+    "judges.html",
+    "scripts/prerender.ts"
+   ],
    "commit": "de02843fa29d784d43e234b8b2bd499ec0e89fbe",
    "metric": "audit.summary.orphanPages",
    "window": "next day's audit snapshot",
    "baseline": 1,
    "checkAfter": "2026-10-11",
    "status": "helped",
-   "verdict": {"date": "2026-10-11", "value": 0, "note": "Live site_audit.py run: orphanPages 0 despite freshness.matters rising 232 -> 242 since imp-003 shipped, so the new judges/companies in that window linked themselves automatically instead of re-orphaning."}
+   "verdict": {
+    "date": "2026-10-11",
+    "value": 0,
+    "note": "Live site_audit.py run: orphanPages 0 despite freshness.matters rising 232 -> 242 since imp-003 shipped, so the new judges/companies in that window linked themselves automatically instead of re-orphaning."
+   }
   },
   {
    "id": "imp-004",
    "date": "2026-10-11",
    "title": "Fixed dollar-figure text corrupting meta tags on matter/record pages",
    "why": "audit.json's weakDescription list (10 pages) included 7 matter pages with implausibly short char counts (live-137: 2, live-203: 11). `grep -rl 'content=\"[^\"]*<meta ' matters/ chapter-11/ federal-cases/` found 31 published pages where a second <meta name=\"description\" content=\"...\"> fragment was spliced into the first one's attribute value. Root cause: build_matter_pages.ts/build_record_pages.ts build title/description/OG/Twitter/canonical tags with .replace(regex, templateString) using a literal \"$1\" to reinsert the matched opening tag; \"$1\" is special to String.replace, so a summary containing a dollar figure like \"$170M\" has its digit read as a second backreference. This was backlog item 5's real cause, not thin content.",
-   "files": ["scripts/build_matter_pages.ts", "scripts/build_record_pages.ts", "scripts/prerender.ts"],
+   "files": [
+    "scripts/build_matter_pages.ts",
+    "scripts/build_record_pages.ts",
+    "scripts/prerender.ts"
+   ],
    "commit": "3d2a1a056a1544bca4f1c68a5525dfe3d01fd86b",
    "metric": "audit.summary.weakDescription",
    "window": "next day's audit snapshot",
    "baseline": 10,
    "checkAfter": "2026-10-12",
    "status": "helped",
-   "verdict": {"date": "2026-10-11", "value": 3, "note": "Confirmed same-day: the prerender workflow rebuilt all matter/record pages from the fixed builder (commit 0c21e23) within minutes of the push. Live site_audit.py: weakDescription 10 -> 3, and the 3 remaining are exactly the pages flagged as a separate, still-open issue (contact.html, handbook-success.html, reset-password.html), not this fix's targets. Judged now rather than at checkAfter since the result was already unambiguous."}
+   "verdict": {
+    "date": "2026-10-11",
+    "value": 3,
+    "note": "Confirmed same-day: the prerender workflow rebuilt all matter/record pages from the fixed builder (commit 0c21e23) within minutes of the push. Live site_audit.py: weakDescription 10 -> 3, and the 3 remaining are exactly the pages flagged as a separate, still-open issue (contact.html, handbook-success.html, reset-password.html), not this fix's targets. Judged now rather than at checkAfter since the result was already unambiguous."
+   }
   },
   {
    "id": "imp-005",
    "date": "2026-10-12",
    "title": "Wrote real meta descriptions for the 3 remaining weakDescription pages",
    "why": "imp-004's verdict named contact.html (37 chars), handbook-success.html (65 chars) and reset-password.html (46 chars) as genuinely thin hand-written descriptions, separate from the builder bug -- backlog item 5's still-open remainder. contact.html is indexable (no noindex), so its thin description had real SEO/SERP-snippet impact; the other two are noindex but still read truncated/generic when shared or inspected. Replaced each with copy drawn from the page's own actual content (contact page's real pitch: evaluate the tracker for your team or flag a matter; handbook-success's real coverage: all 50 states + DC, access unlocked on the matching account; reset-password's real flow: new password saved, signed in automatically), 120-152 chars each, within site_audit.py's 70-320 char window.",
-   "files": ["contact.html", "handbook-success.html", "reset-password.html"],
+   "files": [
+    "contact.html",
+    "handbook-success.html",
+    "reset-password.html"
+   ],
    "commit": "406d87412732569bca1df1d7b37b4e73004e2646",
    "metric": "audit.summary.weakDescription",
    "window": "next day's audit snapshot",
    "baseline": 3,
    "checkAfter": "2026-10-13",
    "status": "helped",
-   "verdict": {"date": "2026-10-13", "value": 0, "note": "Live site_audit.py run today confirms weakDescription still at 0: all three rewritten descriptions (contact.html, handbook-success.html, reset-password.html) remain in place and no new weak descriptions appeared."}
+   "verdict": {
+    "date": "2026-10-13",
+    "value": 0,
+    "note": "Live site_audit.py run today confirms weakDescription still at 0: all three rewritten descriptions (contact.html, handbook-success.html, reset-password.html) remain in place and no new weak descriptions appeared."
+   }
   },
   {
    "id": "imp-006",
    "date": "2026-10-12",
    "title": "Added a \"From the court record\" block linking Chapter 11 Watch and Federal Lawsuit Watch from index.html and litigation.html",
    "why": "Playbook backlog item 3: homepage and litigation.html linked Chapter 11 Watch (ops/ch11-petitions.json, 114 filings) and Federal Lawsuit Watch (ops/federal-suits.json, 59 filings) only from the nav dropdown, never on the page itself, even though both feed real record pages at chapter-11/<slug>.html and federal-cases/<slug>.html. Audit was otherwise clean this run (brokenLinks/orphanPages/weakDescription all 0; the 2 remaining missingDescription pages are both already noindex), so this was the top open backlog item.",
-   "files": ["index.html", "litigation.html", "scripts/prerender.ts", "css/styles.css"],
+   "files": [
+    "index.html",
+    "litigation.html",
+    "scripts/prerender.ts",
+    "css/styles.css"
+   ],
    "commit": "f7f4b43a1c3820351b60f03fda9b5fa2c1f73574",
    "metric": "last7Days.multiPageRate",
    "window": "7 days",
@@ -90,11 +136,17 @@
    "track": "conversion",
    "title": "Added one primary CTA (follow or the Monday email) above the write-up preview on matter pages",
    "why": "ops/metrics/goals.json (2026-10-13): conversion is the goal furthest behind (gap 0.65, signUps7=2/target 5, follows7=0/target 3, newsletterSignups7=0/target 3), and audit was clean (no breakage), so per the playbook this run worked conversion. Backlog item G6: matter pages had no newsletter capture at all (alert-log.html, the template every matter page is built from, loads no newsletter form or script) and the docket-follow box sat below the write-up-preview teaser, sharing a 3-card row with two other asks. Moved the follow box above the teaser for matters with a CourtListener docket, and added a self-contained newsletter signup (reusing the site's existing nl-inline/data-newsletter-form pattern and js/newsletter-form.js, already proven on about.html etc.) above the teaser for matters without one, so every matter page now leads with exactly one clear ask before the fold.",
-   "files": ["scripts/build_matter_pages.ts", "css/styles.css"],
+   "files": [
+    "scripts/build_matter_pages.ts",
+    "css/styles.css"
+   ],
    "commit": "eacbbb5dc3977c919857bd3a32884f77fb2c615a",
    "metric": "goals.json conversion.metrics.follows7 and conversion.metrics.newsletterSignups7",
    "window": "7 days",
-   "baseline": {"follows7": 0, "newsletterSignups7": 0},
+   "baseline": {
+    "follows7": 0,
+    "newsletterSignups7": 0
+   },
    "checkAfter": "2026-10-20",
    "status": "watching"
   },
@@ -104,7 +156,11 @@
    "track": "calculator",
    "title": "Linked the Case Value Calculator from matter pages and the homepage",
    "why": "ops/metrics/goals.json (refreshed this run): calculator is the goal furthest behind (gap 0.646, calculatorViews7=0/target 50, finalRangeHitRate=0.531/target 0.75) that has not had a change in the last 2 runs (imp-006 audit/traffic, imp-007 conversion); audit was clean (no breakage). Backlog G2: the calculator had 0 page views in 7 days even though it's linked from every page's nav dropdown, because nothing on the site's two highest-traffic page types (matter pages, the homepage) pointed to it in the body content. Added a third card to each matter page's CTA row (\"What's this <category> case worth?\", using the matter's own tracker category label) linking to case-valuation.html, and a homepage promo section (same cta-photo-card pattern already used on case-valuation-methodology.html's own CTA) between Coverage Areas and Why CREdocket. finalRangeHitRate (G3) is a valuation-method question gated on Jeff's approval per CLAUDE.md, not something this run's code can move; left as a separate backlog item.",
-   "files": ["scripts/build_matter_pages.ts", "index.html", "ops/metrics/goals.json"],
+   "files": [
+    "scripts/build_matter_pages.ts",
+    "index.html",
+    "ops/metrics/goals.json"
+   ],
    "commit": "c864b1be87be8088f61a4cf26294d60f746ecd20",
    "metric": "goals.json calculator.metrics.calculatorViews7",
    "window": "7 days",
@@ -118,11 +174,23 @@
    "track": "traffic",
    "title": "Added monthly-report.html, a CRE bankruptcy & lawsuit report by state/court/property-type word",
    "why": "ops/metrics/goals.json (refreshed this run): traffic is behind (gap 0.336, visits7=258/target 350, googleLandings7=118/target 200) and had not had a change in the last 2 runs (imp-007 conversion, imp-008 calculator), so per the playbook's tiebreak it went next; audit was clean (no breakage). Backlog G4: build a monthly report from ops/ch11-petitions.json and ops/federal-suits.json with every number computed, never typed. Computed September 2026 (the most recently complete month): 59 Chapter 11 petitions, 40 federal lawsuits, 99 combined, broken out by state (extracted from each filing's own court string), by court, and by property-type word literally in the case caption (9 of 99, explicitly labeled a lower bound, not a classification). Cross-checked every figure against an independent Python recomputation of the same source JSON before publishing.",
-   "files": ["monthly-report.html", "scripts/prerender.ts", "index.html", "litigation.html", "bankruptcy-watch.html", "lawsuit-watch.html", "sitemap.xml", "ops/metrics/goals.json"],
+   "files": [
+    "monthly-report.html",
+    "scripts/prerender.ts",
+    "index.html",
+    "litigation.html",
+    "bankruptcy-watch.html",
+    "lawsuit-watch.html",
+    "sitemap.xml",
+    "ops/metrics/goals.json"
+   ],
    "commit": "dfdbaf217a3e7748f771e55c4395e04b60e8006f",
    "metric": "goals.json traffic.metrics.visits7 and googleLandings7",
    "window": "7 days",
-   "baseline": {"visits7": 258, "googleLandings7": 118},
+   "baseline": {
+    "visits7": 258,
+    "googleLandings7": 118
+   },
    "checkAfter": "2026-10-28",
    "status": "watching"
   },
@@ -132,11 +200,21 @@
    "track": "conversion",
    "title": "Added a \"new matters since your last visit\" banner to index.html and litigation.html",
    "why": "ops/metrics/goals.json (refreshed this run): conversion is the goal furthest behind (gap 0.7, signUps7=1/target 5, follows7=0/target 3, newsletterSignups7=0/target 3) and had not had a change in the last 2 runs (imp-008 calculator, imp-009 traffic); audit was clean (no breakage). The playbook's own conversion scope lists \"reasons to come back (what's new since your last visit)\" and nothing on the site had ever built this, a bigger untried lever than re-touching imp-007's follow-box/newsletter copy. Added a client-side-only (localStorage, no account/backend) banner on index.html and litigation.html that counts tracker matters added (by the real addedDate field) since the visitor's last recorded visit and links back into the tracker; first-ever visits and same-day repeats show nothing, so it only ever reports a true, non-zero count.",
-   "files": ["js/main.js", "index.html", "litigation.html", "css/styles.css", "ops/metrics/goals.json"],
+   "files": [
+    "js/main.js",
+    "index.html",
+    "litigation.html",
+    "css/styles.css",
+    "ops/metrics/goals.json"
+   ],
    "commit": "8d3fa0dae3bd45da827580e483062b9ce0c509c5",
    "metric": "goals.json conversion.metrics.multiPageRate7 (primary), follows7 and newsletterSignups7 (secondary)",
    "window": "7 days",
-   "baseline": {"multiPageRate7": 0.1008, "follows7": 0, "newsletterSignups7": 0},
+   "baseline": {
+    "multiPageRate7": 0.1008,
+    "follows7": 0,
+    "newsletterSignups7": 0
+   },
    "checkAfter": "2026-10-21",
    "status": "watching"
   },
@@ -146,11 +224,17 @@
    "track": "calculator",
    "title": "Analyzed why v4.3 misses the final-outcome range 47% of the time; wrote evidence and proposed prompt changes to ops/calculator-proposals.md (NEEDS JEFF)",
    "why": "ops/metrics/goals.json (2026-10-15): calculator is the goal furthest behind (gap 0.646, finalRangeHitRate 0.531/target 0.75, calculatorViews7 0/target 50) and untouched by the last 2 log entries (imp-009 traffic, imp-010 conversion); audit was clean. Backlog G3. The valuation method can't be changed from this session (CLAUDE.md) and no change can be deployed from the cloud, so per the playbook's calculator scope this replayed the already-scored, already-published v4.3 backtest results (js/backtest-results-data.js, no new API calls or spend) to find the actual miss pattern rather than guessing. Found two dominant, case-cited patterns across the 15/32 misses: (1) a one-sided party figure (loan principal, punitive prayer, a second rent claim) priced at high confidence as if it directly equalled the award, with no issue modeling the legal theory that actually capped recovery (donegal-v-christie-scott 80x over, can-iv-packard-square 1.6x over, wheeler-reit 2x+ over, 1700-market-v-common-grounds 14x over); (2) in dueling-valuation disputes, when only one side's appraisal figure gets quoted into the record the existing competing-figures basis never triggers and the range anchors to one side only (kks-properties, elpa-builders miss this way; hrt-enterprises, state-v-skyway capture both sides and hit). Two smaller findings (immaterial-issue floor creep on near-exact hits; undercounted multi-claim cases) are documented too. This is evidence plus a proposal, not a code change -- nothing in the calculator's prompt or math was touched.",
-   "files": ["ops/calculator-proposals.md", "ops/metrics/goals.json"],
+   "files": [
+    "ops/calculator-proposals.md",
+    "ops/metrics/goals.json"
+   ],
    "commit": "88389b4",
    "metric": "none directly -- this did not change the live site or the valuation method; what to check next time is whether Jeff has reviewed ops/calculator-proposals.md and ruled on the proposed prompt changes",
    "window": "n/a",
-   "baseline": {"finalRangeHitRate": 0.531, "casesScored": 39},
+   "baseline": {
+    "finalRangeHitRate": 0.531,
+    "casesScored": 39
+   },
    "checkAfter": "2026-10-29",
    "status": "watching"
   },
@@ -160,11 +244,19 @@
    "track": "traffic",
    "title": "Added illinois-lending-foreclosure.html, a new state/category deep-dive hub page",
    "why": "ops/metrics/goals.json (2026-10-15, second run today): traffic is behind (gap 0.372, visits7=261/target 350, googleLandings7=102/target 200) and untouched by the last 2 log entries (imp-010 conversion, imp-011 calculator); audit was clean (no breakage). Counted real matters by state+category in js/data.js: Illinois lending-foreclosure has 10 tracked matters, the second-largest state/category combo in the whole dataset (after NY lending-foreclosure's 17, already covered by new-york-lending-foreclosure.html) and the largest combo without one of the 13 existing hand-authored deep-dive pages. Built illinois-lending-foreclosure.html using the identical pattern as the other 13 pages (client-side RELAW_DATA.cases filter by state/category, same CTA block, same nav/footer/newsletter band), linked it from state-guides.html's static A-Z list and GUIDES array, and added it to sitemap.xml by hand in alphabetical position (not regenerated, per imp-009's note that build_sitemap.py stamps every lastmod as today in this shallow clone).",
-   "files": ["illinois-lending-foreclosure.html", "state-guides.html", "sitemap.xml", "ops/metrics/goals.json"],
+   "files": [
+    "illinois-lending-foreclosure.html",
+    "state-guides.html",
+    "sitemap.xml",
+    "ops/metrics/goals.json"
+   ],
    "commit": "c102c17004d9912b777c865370d4e7566d62e85d",
    "metric": "goals.json traffic.metrics.visits7 and googleLandings7",
    "window": "7 days",
-   "baseline": {"visits7": 261, "googleLandings7": 102},
+   "baseline": {
+    "visits7": 261,
+    "googleLandings7": 102
+   },
    "checkAfter": "2026-10-22",
    "status": "watching"
   },
@@ -174,7 +266,10 @@
    "track": "conversion",
    "title": "Moved the newsletter signup band above the fold on index.html and litigation.html",
    "why": "goals.json (2026-10-16): conversion is behind (gap 0.567, signUps7=2/target 5, follows7=0/target 3, newsletterSignups7=1/target 3); mostBehind order is calculator, conversion, traffic, news, and the last 2 log entries (imp-011 calculator, imp-012 traffic) had not touched conversion. No audit breakage and nothing with checkAfter due today to judge. Looked at where the site's one proven newsletter-signup component (newsletter-band / nl-inline, wired to js/newsletter-form.js) actually sits: on litigation.html it was the second-to-last section, below the entire 24-card case grid (~550 lines down the page); on index.html it was after 7 other sections. The funnel numbers show most visits never reach it: last7Days viewedAMatter=149 but readFullWriteUp=22, and these two pages alone take 265+317=582 of 7-day pageViews. Moved the identical, unmodified form (same copy, same markup, same JS wiring -- not duplicated) to right after the hero on both pages, so it is visible without scrolling past the case list. Did not touch the matter-panel newsletter/follow CTAs from imp-007 (separate surface, separately watched).",
-   "files": ["index.html", "litigation.html"],
+   "files": [
+    "index.html",
+    "litigation.html"
+   ],
    "commit": "a4f8a37d7ada627d81fc052ed7bb9aea196128c3",
    "metric": "goals.json conversion.metrics.newsletterSignups7 (primary), signUps7 (secondary)",
    "window": "7 days",
@@ -191,7 +286,10 @@
    "track": "calculator",
    "title": "Added a Case Value Calculator promo to litigation.html",
    "why": "goals.json (2026-10-16, second run today): calculator is the goal furthest behind (gap 0.646, calculatorViews7=0/target 50, finalRangeHitRate=0.531/target 0.75) and untouched by the last 2 log entries (imp-012 traffic, imp-013 conversion); audit was clean and no watching entry's checkAfter was due today. imp-008 already linked the calculator from matter pages and the homepage, but ops/metrics/latest.json's last7Days.topPages (used to compute calculatorViews7) still shows no case-valuation.html visits, and case-valuation.html doesn't crack the top-10 pages list at all. litigation.html is the site's second-highest-traffic page (51 of 265 7-day visits) and only linked the calculator from the Tools nav dropdown -- never from the page body, unlike the homepage. Added the identical, unmodified cta-photo-card promo imp-008 already proved on index.html (same copy, same CTA, same pattern) to litigation.html, placed between the \"From the Court Record\" section and the 249-matter filter/grid so it's seen before the long case list rather than requiring a scroll past it.",
-   "files": ["litigation.html", "ops/metrics/goals.json"],
+   "files": [
+    "litigation.html",
+    "ops/metrics/goals.json"
+   ],
    "commit": "3cc360d",
    "metric": "goals.json calculator.metrics.calculatorViews7",
    "window": "7 days",
@@ -205,7 +303,9 @@
    "track": "subscription",
    "title": "Added a sample alert email and sample portfolio report to monitor.html",
    "why": "No entry in this log has ever been tagged track=subscription since the mission was rewritten 2026-10-13 (4 days ago). This run's mostBehind order (calculator, conversion, traffic, news) and the last-2-runs tiebreak would normally point to traffic next, but the 2026-10-16 'one open experiment per goal' backlog rule blocks that: traffic (imp-006/009/012), conversion (imp-007/010/013) and calculator (imp-008/011/014) each already have 3 unjudged watching changes live on the same pages, none of which can be judged on its own yet. News is 'on track' in today's goals.json (gap 0.0) with no open item needing work. Subscription had zero open experiments and zero changes ever, so it got this run's work: playbook checklist item 1 ('Monitor and alerts explained with a sample alert email and a sample portfolio report on the product pages') was still undone -- monitor.html explained alerts in prose only, with no mockup of what a subscriber actually receives, exactly the kind of gap a buyer's procurement/compliance review (CLAUDE.md's subscription priorities) would flag.",
-   "files": ["monitor.html"],
+   "files": [
+    "monitor.html"
+   ],
    "commit": "a4d0f30",
    "metric": "goals.json conversion.metrics.signUps7 and contactSends7 (weak proxy -- no dedicated subscription metric exists; this is a product-page clarity fix, not something with its own tracked number)",
    "window": "7 days",
@@ -215,6 +315,29 @@
    },
    "checkAfter": "2026-10-24",
    "status": "watching"
+  },
+  {
+   "id": "imp-016",
+   "date": "2026-10-17",
+   "track": "calculator",
+   "title": "Calculator entry points (local session, Jeff approved): 8 'what is it worth?' pages, real backtest cases on case-valuation.html, category-aware offers on matter pages and full write-ups, search title",
+   "why": "toolViews (fixed 2026-10-16) showed 1 calculator view in 7 days although ~170 pages link to it; the page title was not a searched term, visitors saw nothing real before sign-in, and the sign-in card wrongly said analyses run on purchased credits (fixed 2026-10-17, 17d5fcf4).",
+   "files": [
+    "scripts/build_value_pages.ts",
+    "case-valuation.html",
+    "js/case-valuation.js",
+    "js/main.js",
+    "scripts/build_matter_pages.ts"
+   ],
+   "commit": "68ddad9f",
+   "metric": "goals.json calculator.metrics.calculatorViews7 (toolViews['case-valuation'])",
+   "window": "14 days",
+   "baseline": {
+    "calculatorViews7": 1
+   },
+   "checkAfter": "2026-10-31",
+   "result": "watching",
+   "note": "Open calculator experiment: per the one-experiment-per-goal rule, no further calculator changes until this is judged."
   }
  ]
 }
