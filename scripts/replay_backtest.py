@@ -47,6 +47,8 @@ def dedupe(issues):
             continue
         rank = BAND_RANK.get(i.get("strength"), 2)
         for f in i.get("figures") or []:
+            if (f.get("role") or "amount") != "amount":  # v6: credits, caps, before/after values are not deduplicated
+                continue
             k = round(f["value"] * 100)
             if k not in owner or rank > owner[k][0]:
                 owner[k] = (rank, idx)
@@ -63,16 +65,52 @@ def dedupe(issues):
             out.append(i)
             continue
         j = dict(i)
-        j["figures"] = [f for f in i.get("figures") or [] if round(f["value"] * 100) not in totals and owner[round(f["value"] * 100)][1] == idx]
+        j["figures"] = [f for f in i.get("figures") or [] if (f.get("role") or "amount") != "amount"
+                        or (round(f["value"] * 100) not in totals and owner[round(f["value"] * 100)][1] == idx)]
         out.append(j)
     return out
 
 
-def issue_range(issue):
-    """Mirror of issueRange() in valuation-math.ts (v4 rules)."""
+def v6_issue_range(issue, as_of):
+    """Mirror of v6IssueRange() in valuation-v6.ts (figure roles, interest)."""
+    import datetime as _dt
+    figs = issue.get("figures") or []
+    role = lambda r: [f for f in figs if (f.get("role") or "amount") == r]
+    amounts, credits, caps = role("amount"), role("credit"), role("cap")
+    before = [f["value"] for f in role("before_value")]
+    after = [f["value"] for f in role("after_value")]
+    base = issue_range({**issue, "figures": amounts, "claimant": "represented"}) if amounts else None
+    if before and after:
+        lo, hi = max(0, min(before) - max(after)), max(0, max(before) - min(after))
+        if base:
+            lo, hi = lo + base[0], hi + base[1]
+    elif base:
+        lo, hi = base
+    else:
+        return None
+    it = issue.get("interest")
+    if it and as_of:
+        days = (_dt.date.fromisoformat(as_of) - _dt.date.fromisoformat(it["from"])).days
+        if days > 0:
+            yrs = min(days / 365.25, 30)
+            lo, hi = lo * (1 + it["ratePercent"] / 100 * yrs), hi * (1 + it["ratePercent"] / 100 * yrs)
+    credit = sum(f["value"] for f in credits)
+    lo, hi = max(0, lo - credit), max(0, hi - credit)
+    if caps:
+        cap = min(f["value"] for f in caps)
+        lo, hi = min(lo, cap), min(hi, cap)
+    lo, hi = min(lo, hi), max(lo, hi)
+    return [-hi, -lo] if issue.get("claimant") == "opposing" else [lo, hi]
+
+
+def issue_range(issue, as_of=None):
+    """Mirror of issueRange() in valuation-math.ts (v4 rules); v6 results
+    (figures with roles) go through v6_issue_range()."""
     figs = issue.get("figures") or []
     if not figs:
         return None
+    if as_of is not None and any("role" in f for f in figs):
+        return v6_issue_range(issue, as_of)
     vals = [f["value"] for f in figs]
     if basis_of(issue) == "competing" and len(vals) >= 2:  # v4.4: a lone figure is itemized
         rng = [min(vals), max(vals)]
@@ -86,8 +124,9 @@ def replay(pred):
     lo = hi = best = 0.0
     used = False
     issues = dedupe([i for i in (pred.get("issues") or []) if not FEE.search(i.get("label") or "")])
+    as_of = pred.get("valuationDate") or ""  # set on v6 results
     for i in issues:
-        d, p = issue_range(i), i.get("probabilityRange")
+        d, p = issue_range(i, as_of if as_of else None), i.get("probabilityRange")
         if not d or not p:
             continue
         used = True
