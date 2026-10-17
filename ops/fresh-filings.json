@@ -1,7 +1,51 @@
 {
- "updatedAt": "2026-10-16T15:31:27+00:00",
+ "updatedAt": "2026-10-17T00:45:10+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "Madison Development LLC",
+   "court": "United States Bankruptcy Court, S.D. New York",
+   "courtId": "nysb",
+   "docketNumber": "26-12467",
+   "dateFiled": "2026-10-16",
+   "docketUrl": "https://www.courtlistener.com/docket/74976375/madison-development-llc/",
+   "docketId": 74976375,
+   "slug": "madison-development-llc-nysb-26-12467",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "KDJ Properties, LLC",
+   "court": "United States Bankruptcy Court, D. North Dakota",
+   "courtId": "ndb",
+   "docketNumber": "26-30893",
+   "dateFiled": "2026-10-16",
+   "docketUrl": "https://www.courtlistener.com/docket/74978909/kdj-properties-llc/",
+   "docketId": 74978909,
+   "slug": "kdj-properties-llc-ndb-26-30893",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Edson Avenue Development Group LLC",
+   "court": "United States Bankruptcy Court, S.D. New York",
+   "courtId": "nysb",
+   "docketNumber": "26-23033",
+   "dateFiled": "2026-10-16",
+   "docketUrl": "https://www.courtlistener.com/docket/74978793/edson-avenue-development-group-llc/",
+   "docketId": 74978793,
+   "slug": "edson-avenue-development-group-llc-nysb-26-23033",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "1162 St. John's Place LLC",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-44853",
+   "dateFiled": "2026-10-16",
+   "docketUrl": "https://www.courtlistener.com/docket/74978675/1162-st-johns-place-llc/",
+   "docketId": 74978675,
+   "slug": "1162-st-john-s-place-llc-nyeb-1-26-44853",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "Emcee Realty LLC",
    "court": "United States Bankruptcy Court, E.D. New York",
@@ -44,28 +88,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/74952134/30-quabeck-avenue-llc/",
    "docketId": 74952134,
    "slug": "30-quabeck-avenue-llc-njb-26-21578",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "A&J Realty Miami, LLC",
-   "court": "United States Bankruptcy Court, S.D. Florida.",
-   "courtId": "flsb",
-   "docketNumber": "26-23604",
-   "dateFiled": "2026-10-12",
-   "docketUrl": "https://www.courtlistener.com/docket/74950462/aj-realty-miami-llc/",
-   "docketId": 74950462,
-   "slug": "a-j-realty-miami-llc-flsb-26-23604",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "2911 Creative, L.L.C.",
-   "court": "United States Bankruptcy Court, E.D. North Carolina",
-   "courtId": "nceb",
-   "docketNumber": "26-04620",
-   "dateFiled": "2026-10-12",
-   "docketUrl": "https://www.courtlistener.com/docket/74950114/2911-creative-llc/",
-   "docketId": 74950114,
-   "slug": "2911-creative-l-l-c-nceb-26-04620",
    "type": "Chapter 11 petition"
   }
  ]
