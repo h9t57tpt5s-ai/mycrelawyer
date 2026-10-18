@@ -377,6 +377,25 @@
    "checkAfter": "n/a",
    "status": "no-op",
    "note": "Not a no-op in the sense of 'nothing worthwhile was safe' -- it is 2026-10-18's chosen backlog work under the one-open-experiment-per-goal rule, logged as status no-op only because no goal metric can judge it; see ops/improvement-playbook.md's 'What we have learned', 2026-10-18."
+  },
+  {
+   "id": "imp-019",
+   "date": "2026-10-18",
+   "track": "audit",
+   "title": "Linked matter pages to their matching Chapter 11/federal-case court-record page (backlog item 4)",
+   "why": "Second run today. Nothing with checkAfter due (earliest is imp-006's 2026-10-19). Audit clean. Every goal still has an open, unjudged watching entry (traffic: imp-009/imp-012; conversion: imp-007/imp-010/imp-013; calculator: imp-008/imp-011/imp-014/imp-016; subscription: imp-015; news: imp-017), so per the 2026-10-16 'one open experiment per goal' rule this run worked an un-metered backlog item instead of shipping a new goal experiment. Picked backlog item 4 (open since 2026-10-09, never started): scripts/build_record_pages.ts already matches a Chapter 11/federal-suit filing's docketId to a matter's docketUrl and links the record page back to the matter write-up, but the matter page never linked forward to its own court-record page. Reused the exact same docketId-matching pattern (partyKey-style normalization already proven in that file) in scripts/build_matter_pages.ts: built docketId maps from ops/ch11-petitions.json and ops/federal-suits.json, and added a 'Full court record' link on any matter page whose docketUrl resolves to a matching filing. Confirmed with a one-off script before committing that this matches 2 real matters today (Travis Property Owner LLC and New Flagler Development LLC), and that both target chapter-11/*.html record pages already exist on disk. deno is unavailable in this session, so per CLAUDE.md's own fallback changed only the builder (not matters/*.html by hand); type-checked the full file with `tsc --noEmit` against a Deno ambient shim (no filesystem writes) and found no errors. Re-ran site_audit.py after: all counts unchanged from the pre-change baseline (brokenLinks/orphanPages/missingDescription/weakDescription identical). prerender.yml will regenerate matters/*.html from this builder on its next run.",
+   "files": [
+    "scripts/build_matter_pages.ts",
+    "ops/improvement-log.json",
+    "ops/improvement-playbook.md",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "bbe1861",
+   "metric": "none of the 5 goal metrics directly -- this is a findability/audit-style cross-link fix (backlog item 4), judged like imp-001/003 by whether prerender.yml actually regenerated matters/*.html with the new link, not by a goal number",
+   "window": "n/a",
+   "baseline": "0 matter pages link to a chapter-11/ or federal-cases/ record page today",
+   "checkAfter": "2026-10-19",
+   "status": "watching"
   }
  ]
 }
