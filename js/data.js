@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-16",
+  lastUpdatedDate: "2026-10-18",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -9989,6 +9989,45 @@ const RELAW_DATA = {
       timeline: [
         { when: "2023", label: "Antheus Capital acquires the 1,869-unit Lake Meadows complex for $161 million with Straus Group as a minority investor" },
         { when: "October 6, 2026", label: "Straus Group affiliates sue Antheus Capital in Cook County Circuit Court over the blocked put-option buyout", current: true }
+      ]
+    },
+    {
+      id: "live-305",
+      seoTitle: "Penn Plaza Life-Sciences Site Hit With $65.9M Foreclosure Suit",
+      seoDescription: "Quinlan Development Group sues to foreclose on Cannon Hill Capital's stalled 320 West 31st Street life-sciences site over a defaulted $54M mortgage.",
+      addedDate: "2026-10-18",
+      property: { name: "320 West 31st Street (Penn Plaza life-sciences site)", address: "320 West 31st Street", city: "New York", state: "NY" },
+      title: "Quinlan Development Group v. Maple 1 Farley Owner LLC (Penn Plaza Life-Sciences Site Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-13",
+      jurisdiction: "Supreme Court of the State of New York, New York County",
+      state: "NY",
+      amount: "$65.9 million claimed owed (including accrued and default interest) on an original $54 million mortgage",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/new-york/office/foreclosure-cannon-hill-quinlan-development-life-sciences",
+      summary: "Quinlan Development Group sued on October 13, 2026 in New York County Supreme Court to foreclose on the leasehold interest behind a stalled life-sciences and office development at 320 West 31st Street near Penn Station, alleging the owner, Maple 1 Farley Owner LLC, defaulted on a $54 million mortgage that has grown to $65.9 million with accrued and default interest. Quinlan acquired the loan from Bank of China in September 2026 and also sued Cannon Hill Capital Partners, the project's developer, as a recourse guarantor.",
+      significance: "The case is a reminder that a secondary buyer of distressed commercial debt can move to enforce a defaulted loan quickly after acquiring it from an original bank lender, and that a recourse guaranty exposes a sponsor to a deficiency judgment beyond whatever a foreclosure sale of the collateral itself recovers. Borrowers and guarantors on stalled construction-era loans should treat a loan sale to a new holder as an early signal that enforcement, not an extension, is likely to follow.",
+      body: [
+        "Quinlan Development Group has sued to foreclose on the leasehold interest behind a stalled life-sciences development near Penn Station, alleging the property's owner defaulted on a $54 million mortgage that has since ballooned to $65.9 million in claimed debt. The suit, filed October 13, 2026 in the Supreme Court of the State of New York, New York County, targets Maple 1 Farley Owner LLC, an affiliate of Cannon Hill Capital Partners that controls the leasehold at 320 West 31st Street, and names Cannon Hill itself as a defendant on a recourse guaranty.",
+        "According to reporting on the complaint, Cannon Hill Capital Partners had planned to redevelop the site, previously home to part of Touro College's campus, into an 11-story building combining laboratory and office space. The project stalled before construction materialized, and the building has sat largely unchanged for well over a year. Quinlan acquired the underlying mortgage from Bank of China in September 2026 and, within weeks of taking over the loan, filed suit alleging the borrower had defaulted on the $54 million note.",
+        "The complaint puts the current amount owed at $65.9 million, a figure that reflects the original principal plus accrued interest, default interest, and additional charges that have accumulated since the maturity default. Quinlan is asking the court for permission to foreclose on Maple 1 Farley Owner LLC's leasehold interest and to schedule a foreclosure auction to satisfy the debt.",
+        "Beyond the foreclosure claim against the leasehold itself, Quinlan named Cannon Hill Capital Partners as a defendant because the development firm serves as a recourse guarantor on the mortgage. If a foreclosure sale of the leasehold does not generate enough proceeds to cover the full $65.9 million claimed, Quinlan has reserved the right to pursue Cannon Hill directly for any shortfall, rather than being limited to whatever the collateral brings at auction.",
+        "The case illustrates a pattern that has become increasingly common as distressed commercial mortgages change hands: a loan originated by a large bank, sold at a discount to a buyer with experience converting defaulted paper into ownership or settlement leverage, followed quickly by enforcement action. The recourse guaranty also underscores why a sponsor's exposure on a commercial construction loan does not end merely because the project itself has stalled; a guarantor can remain on the hook for the full remaining balance regardless of what a foreclosure sale ultimately recovers.",
+        "For borrowers and sponsors, the matter is a practical warning sign worth watching for: a loan sale to a new, especially unfamiliar, buyer often precedes enforcement rather than an extension, and a recourse guaranty survives a foreclosure sale, exposing the guarantor to any deficiency between sale proceeds and the full debt including accrued default interest and fees. Development teams holding entitlements or partially built sites with no active construction should revisit loan covenants and maturity dates well before a default crystallizes, since the gap between an unpaid maturity date and a foreclosure filing can close quickly once a loan has traded hands."
+      ],
+      tags: ["foreclosure", "life-sciences", "office", "manhattan", "loan-default"],
+      parties: [
+        { name: "Quinlan Development Group", role: "Plaintiff/Lender" },
+        { name: "Maple 1 Farley Owner LLC", role: "Defendant/Borrower-Owner" },
+        { name: "Cannon Hill Capital Partners", role: "Defendant/Guarantor" }
+      ],
+      judge: null,
+      amountUsd: 65900000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "September 2026", label: "Quinlan Development Group acquires the defaulted mortgage from Bank of China" },
+        { when: "October 13, 2026", label: "Quinlan sues to foreclose on the leasehold at 320 West 31st Street, alleging $65.9 million owed", current: true }
       ]
     }
   ],
