@@ -359,6 +359,24 @@
    },
    "checkAfter": "2026-10-24",
    "status": "watching"
+  },
+  {
+   "id": "imp-018",
+   "date": "2026-10-18",
+   "track": "traffic",
+   "title": "Drafted this week's LinkedIn posts in ops/social-drafts/ (backlog G5)",
+   "why": "Nothing with checkAfter due today to judge (earliest is imp-006's 2026-10-19). Audit clean (no breakage, no visible-regression counters). Every goal already has an open, unjudged watching entry per the 2026-10-16 'one open experiment per goal' backlog rule (traffic: imp-009/imp-012; conversion: imp-007/imp-010/imp-013; calculator: imp-008/imp-011/imp-014/imp-016; subscription: imp-015; news: imp-017), so per that rule no new page/code change was shipped for any goal this run. Worked backlog item G5 instead (never started; ops/social-drafts/ did not exist yet): drafted 4 LinkedIn posts from the 4 newest sourced matters whose parties are business/government entities only (live-300 Waterworks v. 514 W. 24th Owner LLC, live-302 Commercial Properties v. Montgomery Civic Ballet, live-303 68V BTR Holdings v. City of Fairhope Planning Commission, live-304 Straus Group v. Antheus Capital), all addedDate 2026-10-15/16, copying facts verbatim from the already-published write-ups in js/data.js. Deliberately skipped live-301 (same addedDate), a mall-shooting premises-liability matter whose write-up names individual plaintiffs and the accused shooter from court records -- CLAUDE.md bars this routine from producing content with an individual's name from court records, even though the matter page itself (built separately by the digest routine) is out of this run's scope to edit.",
+   "files": [
+    "ops/social-drafts/2026-10-18.md",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "ba39f14",
+   "metric": "none -- Jeff decides whether/when to post any draft, and attribution of a LinkedIn post to visits7 would be unmeasurable either way; this is a no-metric backlog item per the playbook's own allowance",
+   "window": "n/a",
+   "baseline": null,
+   "checkAfter": "n/a",
+   "status": "no-op",
+   "note": "Not a no-op in the sense of 'nothing worthwhile was safe' -- it is 2026-10-18's chosen backlog work under the one-open-experiment-per-goal rule, logged as status no-op only because no goal metric can judge it; see ops/improvement-playbook.md's 'What we have learned', 2026-10-18."
   }
  ]
 }
