@@ -10029,6 +10029,45 @@ const RELAW_DATA = {
         { when: "September 2026", label: "Quinlan Development Group acquires the defaulted mortgage from Bank of China" },
         { when: "October 13, 2026", label: "Quinlan sues to foreclose on the leasehold at 320 West 31st Street, alleging $65.9 million owed", current: true }
       ]
+    },
+    {
+      id: "live-306",
+      addedDate: "2026-10-18",
+      featured: true,
+      seoTitle: "Freddie Mac v. Nord Group: Edgewater Apartments Rent Diversion",
+      seoDescription: "A federal judge called it 'pretty damn egregious': Nord Group kept collecting rent on Freddie Mac-foreclosed Edgewater Apartments in Lake Jackson, Texas.",
+      property: { name: "Edgewater Apartments", address: "514 That Way", city: "Lake Jackson", state: "TX" },
+      title: "Freddie Mac v. Nord Group Affiliate (Edgewater Apartments Post-Foreclosure Rent Diversion Dispute)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-10-15",
+      jurisdiction: "U.S. District Court, Southern District of Texas (Galveston Division)",
+      state: "TX",
+      amount: "Undisclosed loan balance; part of a broader multi-property Nord Group portfolio collapse",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/houston/multifamily/nord-group",
+      summary: "Trade press reported October 15, 2026 that U.S. Magistrate Judge Andrew M. Edison called it \"pretty damn egregious\" that a Nord Group subsidiary kept collecting rent on Edgewater Apartments, a 228-unit Lake Jackson, Texas complex, after Freddie Mac had already foreclosed on the property, and then sued its own lender over the dispute rather than turning over the proceeds. The report describes a broader pattern across Nord Group's multifamily portfolio of lenders and investors accusing Nord entities of diverting rents, submitting falsified insurance records, and letting buildings deteriorate, with court filings describing sewage backups, mold, and vermin at some properties.",
+      significance: "The case illustrates how a borrower's continued control over a foreclosed asset's cash flow, and an offensive lawsuit against the foreclosing lender, can expose a distressed sponsor to conversion and unjust-enrichment claims well beyond an ordinary loan default, while allegations of falsified insurance certifications can independently trigger recourse carve-outs in a non-recourse loan. Lenders and special servicers holding 2021-2022 vintage multifamily loans should treat the matter as a reminder to secure receivership and audit borrower-reported insurance and property conditions promptly once a maturity default occurs.",
+      body: [
+        "A federal magistrate judge in the Southern District of Texas did not mince words at a recent hearing over a 228-unit apartment complex outside Houston: the conduct he was being asked to evaluate, he said from the bench, was \"pretty damn egregious.\" The remark, from U.S. Magistrate Judge Andrew M. Edison of the court's Galveston Division, came in a dispute between Freddie Mac and a subsidiary of New York-based multifamily buyer Nord Group over Edgewater Apartments, a 228-unit garden-style community in Lake Jackson, Texas that Nord acquired in 2022. According to reporting on the case, Freddie Mac had already foreclosed on the property after the Nord subsidiary stopped making mortgage payments roughly eighteen months earlier, yet the former owner kept collecting rent from tenants after losing title, and then sued its own lender over the dispute rather than relinquish the proceeds.",
+        "The Edgewater hearing is only the most visible flashpoint in what trade press now describes as a broader unraveling of Nord Group's multifamily portfolio. Lenders and investors across several of the company's holdings have accused Nord-affiliated entities of pocketing rents that should have gone to loan servicers, supplying fabricated insurance records to lenders and regulators, and allowing properties to fall into what one report called an \"alarming state of neglect.\" Court filings in the broader litigation reportedly document sewage backups, mold, vermin, and other conditions rendering units uninhabitable, the kind of property-level deterioration that typically surfaces only after a landlord has stopped reinvesting operating income back into a building. Nord Group, led by its 27-year-old co-founder Saqif Noor, was among the multifamily buyers that acquired aggressively during the 2021-2022 run-up in apartment values, often using floating-rate, value-add debt that became difficult to service once interest rates rose and refinancing options narrowed.",
+        "The company's financial distress has already produced a tangled bankruptcy history. Nord Group has reportedly attempted Chapter 11 protection for another of its Houston-area assets, Huntington Glen Apartments, in at least three separate venues, with a Delaware bankruptcy court marking the most recent stop after Fannie Mae sought to consolidate the company's cases in Texas. Other Nord-owned properties, including a Houston asset financed with a CMBS loan that went to special servicing, and an Austin complex headed toward a foreclosure auction, point to a pattern of a buyer that expanded quickly on leverage and has struggled on multiple fronts simultaneously as that leverage came due.",
+        "What makes the Edgewater dispute legally significant is not simply that a borrower defaulted, which alone is unremarkable in today's multifamily financing environment. It is that the borrower allegedly continued to exercise de facto control over a foreclosed asset's cash flow after title had already passed to the lender, and then used litigation offensively, suing the lender rather than accounting for the rents collected. That fact pattern raises exposure well beyond an ordinary foreclosure: diverting rents from collateral a lender already owns can support claims for conversion and unjust enrichment in addition to breach of the loan documents, and a court's characterization of that conduct as egregious is the kind of judicial signal that tends to foreclose sympathetic treatment on any later equitable defenses the borrower might raise.",
+        "The allegations of falsified insurance records carry their own distinct risk. Lenders routinely rely on a borrower's certified proof of insurance to protect their collateral position, and loan documents typically treat a material misrepresentation about coverage as an independent event of default, one that can, depending on the loan's recourse carve-outs, convert what would otherwise be a non-recourse workout into personal liability for the sponsors who signed the guaranty. Special servicers and lenders increasingly scrutinize insurance certificates as an early-warning signal precisely because fabricating them is both easy to allege and difficult for a distressed borrower to explain away.",
+        "For lenders and special servicers managing a multifamily book that includes 2021-2022 vintage acquisitions, the Nord Group situation is a reminder to move quickly once a maturity default is identified, both to secure possession and rent streams through a receiver and to audit a defaulting borrower's insurance certifications and reported property conditions rather than relying on self-reported compliance. For sponsors facing their own liquidity strain, the case illustrates that litigating against a lender after a foreclosure has already been entered is a high-risk strategy: a court that views continued rent collection as self-help rather than a good-faith dispute is unlikely to extend much benefit of the doubt on the underlying merits, and a judicial finding of bad-faith conduct can reopen avenues to personal liability that a purely financial default would not."
+      ],
+      tags: ["multifamily", "foreclosure", "rent-diversion", "texas", "freddie-mac"],
+      parties: [
+        { name: "Federal Home Loan Mortgage Corporation (Freddie Mac)", role: "Plaintiff/Lender" },
+        { name: "Nord Group", role: "Defendant/Former Owner" }
+      ],
+      judge: "Andrew M. Edison",
+      amountUsd: null,
+      timeline: [
+        { when: "2022", label: "Nord Group acquires the 228-unit Edgewater Apartments in Lake Jackson, Texas" },
+        { when: "May 26", label: "U.S. Magistrate Judge Andrew M. Edison calls the former owner's post-foreclosure rent collection \"pretty damn egregious\" at a hearing on Freddie Mac's claims" },
+        { when: "October 15, 2026", label: "Trade press reports the dispute as part of a broader pattern of lender and investor accusations against Nord Group entities", current: true }
+      ]
     }
   ],
 
@@ -10639,7 +10678,8 @@ const RELAW_DATA = {
     { jurisdiction: "Penobscot County Superior Court, Maine", url: "https://www.courts.maine.gov/courts/superior/" },
     { jurisdiction: "U.S. District Court, Northern District of Ohio", url: "https://www.ohnd.uscourts.gov/" },
     { jurisdiction: "U.S. District Court for the Southern District of West Virginia", url: "https://www.wvsd.uscourts.gov/" },
-    { jurisdiction: "Supreme Court of Alabama", url: "https://judicial.alabama.gov/" }
+    { jurisdiction: "Supreme Court of Alabama", url: "https://judicial.alabama.gov/" },
+    { jurisdiction: "U.S. District Court, Southern District of Texas (Galveston Division)", url: "https://www.txs.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -10671,6 +10711,14 @@ const RELAW_DATA = {
       court: "U.S. District Court, District of New Jersey",
       background: "Appointed by President Obama in 2012 after serving as a U.S. Magistrate Judge for the District of New Jersey since 2007. Previously an assistant attorney general for New Jersey.",
       bioUrl: "https://www.fjc.gov/history/judges/shipp-michael-andre"
+    },
+    {
+      name: "Andrew M. Edison",
+      slug: "andrew-m-edison",
+      title: "U.S. Magistrate Judge",
+      court: "U.S. District Court, Southern District of Texas (Galveston Division)",
+      background: "Appointed effective February 20, 2018 to a seat vacated by the retirement of Magistrate Judge John Froeschner, sworn in by then-Chief Judge Lee H. Rosenthal. Practiced law in Houston from 1994 to 2018, including as a partner at Bracewell LLP and at Edison, McDowell & Hetherington LLP, after earning his J.D. from the University of Virginia School of Law in 1994.",
+      bioUrl: "https://www.txs.uscourts.gov/page/judge-andrew-m-edison-biography"
     },
     {
       name: "George H. Wu",
