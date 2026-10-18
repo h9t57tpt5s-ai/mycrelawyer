@@ -45,6 +45,22 @@ const topicIndex: Record<string, { slug: string; name: string }[]> =
 const entityIndex: { parties: Record<string, string>; properties: Record<string, string> } =
   await Deno.readTextFile("js/entity-index.json").then(JSON.parse).catch(() => ({ parties: {}, properties: {} }));
 
+// A matter's docketUrl and a Chapter 11/federal-suit filing's docketId can
+// name the exact same CourtListener docket (build_record_pages.ts already
+// links the record page back to the matter this way); this builds the
+// reverse link, from the matter page to its own court-record page.
+type Filing = { docketId: number | null; slug: string };
+async function filingsByDocketId(file: string, dir: string): Promise<Map<number, { slug: string; dir: string }>> {
+  const map = new Map<number, { slug: string; dir: string }>();
+  try {
+    const d = JSON.parse(await Deno.readTextFile(file)) as { filings: Filing[] };
+    for (const f of d.filings || []) if (f.docketId && f.slug) map.set(f.docketId, { slug: f.slug, dir });
+  } catch { /* file missing or unreadable */ }
+  return map;
+}
+const ch11ByDocketId = await filingsByDocketId("ops/ch11-petitions.json", "chapter-11");
+const suitByDocketId = await filingsByDocketId("ops/federal-suits.json", "federal-cases");
+
 const esc = (s: unknown) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 // Text fields may carry entities or light markup; attributes and JSON-LD
 // get plain text.
@@ -226,6 +242,10 @@ function mainFor(c: Case): string {
   // job emails followers each new ruling or closing.
   const docketId = /courtlistener\.com\/docket\/(\d+)\//.exec(c.docketUrl || "")?.[1];
   const follow = docketId ? { docketId: Number(docketId), label: clip(plain(c.title), 200), path: `/matters/${c.id}.html` } : null;
+  const record = docketId ? (ch11ByDocketId.get(Number(docketId)) || suitByDocketId.get(Number(docketId))) : undefined;
+  const recordLink = record
+    ? `<p class="matter-entity-link">Full court record: <a href="/${esc(record.dir)}/${esc(record.slug)}.html">${record.dir === "chapter-11" ? "Chapter 11 Watch" : "Federal Lawsuit Watch"} filing →</a></p>`
+    : "";
   return `<main id="main-content" tabindex="-1">
 
 <header class="page-header matter-header">
@@ -251,6 +271,7 @@ function mainFor(c: Case): string {
     <div id="matter-corrections" data-matter-id="${esc(c.id)}"></div>
     ${sources ? `<div class="matter-sources">${sources}</div>` : ""}
     ${(topicIndex[c.id] || []).map((t) => `<p class="matter-entity-link">Part of the <a href="/${esc(t.slug)}.html">${esc(t.name)}</a>: every related matter in one table.</p>`).join("\n    ")}
+    ${recordLink}
 
     <div id="matter-court" data-docket-url="${esc(c.docketUrl || "")}" data-matter-id="${esc(c.id)}"></div>
 
