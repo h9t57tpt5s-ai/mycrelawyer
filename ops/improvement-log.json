@@ -395,7 +395,12 @@
    "window": "n/a",
    "baseline": "0 matter pages link to a chapter-11/ or federal-cases/ record page today",
    "checkAfter": "2026-10-19",
-   "status": "watching"
+   "status": "helped",
+   "verdict": {
+    "date": "2026-10-18",
+    "value": "confirmed same-day, same as imp-004: prerender.yml's own commit 50fd035 landed right after bbe1861 and regenerated matters/live-266.html and matters/live-181.html with the new 'Full court record' link pointing at chapter-11/travis-property-owner-llc-txnb-26-90220.html and chapter-11/new-flagler-development-llc-njb-26-20884.html respectively (grep-confirmed in the working tree)",
+    "note": "No goal metric to move -- judged by the backlog item's own success criterion (the link actually renders on the matched matter pages), which it does"
+   }
   }
  ]
 }
