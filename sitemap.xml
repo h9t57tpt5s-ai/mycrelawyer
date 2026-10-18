@@ -421,6 +421,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/judge-andrew-m-edison.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/judge-ann-a-scott-timmer.html</loc>
     <lastmod>2026-10-13</lastmod>
     <priority>0.5</priority>
@@ -637,7 +642,7 @@
   </url>
   <url>
     <loc>https://credocket.com/judges.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -2137,6 +2142,11 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-305.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-306.html</loc>
     <lastmod>2026-10-18</lastmod>
     <priority>0.6</priority>
   </url>
