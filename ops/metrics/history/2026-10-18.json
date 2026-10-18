@@ -1,0 +1,490 @@
+{
+ "date": "2026-10-18",
+ "generatedAt": "2026-10-18T17:31:47+00:00",
+ "note": "Visits are tab sessions from js/track.js (crawlers filtered); the site is small, so read 7- and 28-day windows, not single days.",
+ "last1Day": {
+  "visits": 16,
+  "pageViews": 20,
+  "multiPageVisits": 1,
+  "multiPageRate": 0.0625,
+  "funnel": {
+   "viewedAMatter": 11,
+   "sawSignInPrompt": 0,
+   "openedSignIn": 1,
+   "signedUpOrIn": 0,
+   "readFullWriteUp": 1,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 0,
+  "follows": 0,
+  "newsletterSignups": 0,
+  "contactSends": 0,
+  "sourceClicks": 2,
+  "searches": 0,
+  "byEvent": {
+   "matter_page_view": 13,
+   "page_view": 7,
+   "source_click": 2,
+   "signin_open": 1,
+   "panel_open": 1,
+   "full_read": 1
+  },
+  "topPages": [
+   [
+    "/matters/live-266.html",
+    3
+   ],
+   [
+    "/",
+    3
+   ],
+   [
+    "/litigation.html",
+    2
+   ],
+   [
+    "/matters/live-208.html",
+    2
+   ],
+   [
+    "/matters/live-221.html",
+    1
+   ],
+   [
+    "/about.html",
+    1
+   ],
+   [
+    "/matters/live-263.html",
+    1
+   ],
+   [
+    "/matters/live-226.html",
+    1
+   ],
+   [
+    "/matters/live-274.html",
+    1
+   ],
+   [
+    "/matters/live-304.html",
+    1
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 0,
+   "lease-clause-redline": 0,
+   "settlement-benchmarks": 0,
+   "litigation-index": 0,
+   "-tracker": 0
+  },
+  "landingReferrers": [
+   [
+    "google.com",
+    9
+   ],
+   [
+    "direct or unknown",
+    4
+   ],
+   [
+    "com.google.android.googlequicksearchbox",
+    2
+   ],
+   [
+    "gemini.google.com",
+    1
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-266",
+    4
+   ],
+   [
+    "live-208",
+    2
+   ],
+   [
+    "live-221",
+    1
+   ],
+   [
+    "live-263",
+    1
+   ],
+   [
+    "live-226",
+    1
+   ],
+   [
+    "live-274",
+    1
+   ],
+   [
+    "live-304",
+    1
+   ],
+   [
+    "live-092",
+    1
+   ],
+   [
+    "live-289",
+    1
+   ],
+   [
+    "live-130",
+    1
+   ]
+  ]
+ },
+ "last7Days": {
+  "visits": 289,
+  "pageViews": 347,
+  "multiPageVisits": 25,
+  "multiPageRate": 0.0865,
+  "funnel": {
+   "viewedAMatter": 137,
+   "sawSignInPrompt": 0,
+   "openedSignIn": 1,
+   "signedUpOrIn": 1,
+   "readFullWriteUp": 17,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 1,
+  "follows": 0,
+  "newsletterSignups": 1,
+  "contactSends": 0,
+  "sourceClicks": 14,
+  "searches": 3,
+  "byEvent": {
+   "page_view": 212,
+   "full_read": 163,
+   "panel_open": 163,
+   "matter_page_view": 135,
+   "source_click": 14,
+   "search": 3,
+   "signup": 1,
+   "signin_open": 1
+  },
+  "topPages": [
+   [
+    "/matters/live-208.html",
+    52
+   ],
+   [
+    "/",
+    52
+   ],
+   [
+    "/litigation.html",
+    48
+   ],
+   [
+    "/updates.html",
+    15
+   ],
+   [
+    "/chapter-11/lvlm-murray-properties-llc-pawb-26-22766.html",
+    14
+   ],
+   [
+    "/matters/live-229.html",
+    9
+   ],
+   [
+    "/matters/live-267.html",
+    4
+   ],
+   [
+    "/newsletter.html",
+    4
+   ],
+   [
+    "/matters/live-230.html",
+    4
+   ],
+   [
+    "/chapter-11/315-south-beverly-drive-llc-cacb-2-26-bk-20221.html",
+    3
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 4,
+   "lease-clause-redline": 1,
+   "settlement-benchmarks": 0,
+   "litigation-index": 3,
+   "-tracker": 3
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    184
+   ],
+   [
+    "google.com",
+    98
+   ],
+   [
+    "com.google.android.googlequicksearchbox",
+    3
+   ],
+   [
+    "utm:chatgpt.com",
+    2
+   ],
+   [
+    "gemini.google.com",
+    2
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-208",
+    55
+   ],
+   [
+    "live-271",
+    46
+   ],
+   [
+    "live-099",
+    38
+   ],
+   [
+    "live-267",
+    27
+   ],
+   [
+    "live-272",
+    24
+   ],
+   [
+    "live-164",
+    11
+   ],
+   [
+    "live-229",
+    9
+   ],
+   [
+    "live-230",
+    8
+   ],
+   [
+    "live-087",
+    6
+   ],
+   [
+    "live-221",
+    4
+   ]
+  ]
+ },
+ "last28Days": {
+  "visits": 900,
+  "pageViews": 1011,
+  "multiPageVisits": 53,
+  "multiPageRate": 0.0589,
+  "funnel": {
+   "viewedAMatter": 572,
+   "sawSignInPrompt": 84,
+   "openedSignIn": 6,
+   "signedUpOrIn": 6,
+   "readFullWriteUp": 35,
+   "clickedWatchlist": 0,
+   "shared": 1
+  },
+  "signUps": 4,
+  "follows": 0,
+  "newsletterSignups": 1,
+  "contactSends": 0,
+  "sourceClicks": 35,
+  "searches": 7,
+  "byEvent": {
+   "matter_page_view": 506,
+   "page_view": 505,
+   "panel_open": 286,
+   "full_read": 199,
+   "gate_shown": 87,
+   "source_click": 35,
+   "search": 7,
+   "signin_open": 6,
+   "signup": 4,
+   "magic_link_sent": 2,
+   "share": 1,
+   "signin": 1,
+   "permalink": 1
+  },
+  "topPages": [
+   [
+    "/litigation.html",
+    220
+   ],
+   [
+    "/matters/live-208.html",
+    134
+   ],
+   [
+    "/",
+    100
+   ],
+   [
+    "/matters/live-221.html",
+    26
+   ],
+   [
+    "/contact.html",
+    22
+   ],
+   [
+    "/updates.html",
+    19
+   ],
+   [
+    "/chapter-11/lvlm-murray-properties-llc-pawb-26-22766.html",
+    14
+   ],
+   [
+    "/matters/live-198.html",
+    11
+   ],
+   [
+    "/matters/live-087.html",
+    11
+   ],
+   [
+    "/matters/live-229.html",
+    9
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 5,
+   "lease-clause-redline": 1,
+   "settlement-benchmarks": 0,
+   "litigation-index": 3,
+   "-tracker": 3
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    638
+   ],
+   [
+    "google.com",
+    240
+   ],
+   [
+    "utm:chatgpt.com",
+    8
+   ],
+   [
+    "vercel.com",
+    4
+   ],
+   [
+    "gemini.google.com",
+    3
+   ],
+   [
+    "com.google.android.googlequicksearchbox",
+    3
+   ],
+   [
+    "test",
+    1
+   ],
+   [
+    "utm:credocket",
+    1
+   ],
+   [
+    "vertexaisearch.cloud.google",
+    1
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-208",
+    146
+   ],
+   [
+    "live-271",
+    46
+   ],
+   [
+    "live-099",
+    39
+   ],
+   [
+    "live-221",
+    27
+   ],
+   [
+    "live-267",
+    27
+   ],
+   [
+    "live-272",
+    24
+   ],
+   [
+    "live-087",
+    18
+   ],
+   [
+    "live-164",
+    14
+   ],
+   [
+    "live-198",
+    12
+   ],
+   [
+    "live-200",
+    11
+   ]
+  ]
+ },
+ "audit": {
+  "summary": {
+   "zeroStatCounters": 0,
+   "unstyledHeroClasses": 0,
+   "hiddenUpdatesButton": 0,
+   "brokenLinks": 0,
+   "missingTitle": 0,
+   "longTitle": 0,
+   "missingDescription": 2,
+   "weakDescription": 1,
+   "missingCanonical": 0,
+   "duplicateTitles": 0,
+   "orphanPages": 0,
+   "missingFromSitemap": 0,
+   "sitemapUrlsWithoutFile": 0,
+   "imagesWithoutAlt": 0,
+   "heavyPages": 0
+  },
+  "freshness": {
+   "matters": 254,
+   "newestMatterAdded": "2026-10-18",
+   "daysSinceNewestMatter": 0,
+   "ch11Petitions": 124,
+   "newestCh11Petition": "2026-10-16",
+   "daysSinceNewestCh11": 2,
+   "federalSuits": 75,
+   "newestFederalSuit": "2026-10-16",
+   "daysSinceNewestSuit": 2
+  },
+  "pagesChecked": 635
+ },
+ "pipelines": {
+  "chapter11Petitions": 124,
+  "federalSuits": 75,
+  "secLeads": 1,
+  "wireLeads": 1,
+  "leadsHandled": 101
+ }
+}

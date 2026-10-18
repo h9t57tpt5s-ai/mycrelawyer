@@ -1,9 +1,9 @@
 {
  "date": "2026-10-18",
- "generatedAt": "2026-10-18T15:44:45+00:00",
+ "generatedAt": "2026-10-18T17:31:47+00:00",
  "mostBehind": [
-  "calculator",
   "conversion",
+  "calculator",
   "traffic",
   "news"
  ],
@@ -14,11 +14,11 @@
     "visits7",
     "googleLandings7"
    ],
-   "gap": 0.301,
+   "gap": 0.342,
    "metrics": {
-    "visits7": 307,
-    "googleLandings7": 104,
-    "visits28": 885
+    "visits7": 289,
+    "googleLandings7": 98,
+    "visits28": 900
    },
    "targets": {
     "visits7": 350,
@@ -32,12 +32,12 @@
     "follows7",
     "newsletterSignups7"
    ],
-   "gap": 0.567,
+   "gap": 0.617,
    "metrics": {
-    "signUps7": 2,
+    "signUps7": 1,
     "follows7": 0,
     "newsletterSignups7": 1,
-    "multiPageRate7": 0.0945,
+    "multiPageRate7": 0.0865,
     "contactSends7": 0
    },
    "targets": {
@@ -70,14 +70,14 @@
     "finalRangeHitRate",
     "calculatorViews7"
    ],
-   "gap": 0.596,
+   "gap": 0.606,
    "metrics": {
     "version": "v4.3",
     "finalRangeHitRate": 0.531,
     "casesScored": 39,
     "medianBestGuessError": -0.008,
     "resultsGeneratedAt": "2026-09-26T05:11:43+00:00",
-    "calculatorViews7": 5
+    "calculatorViews7": 4
    },
    "targets": {
     "finalRangeHitRate": 0.75,

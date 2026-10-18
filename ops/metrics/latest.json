@@ -1,16 +1,16 @@
 {
- "date": "2026-10-17",
- "generatedAt": "2026-10-17T17:31:40+00:00",
+ "date": "2026-10-18",
+ "generatedAt": "2026-10-18T17:31:47+00:00",
  "note": "Visits are tab sessions from js/track.js (crawlers filtered); the site is small, so read 7- and 28-day windows, not single days.",
  "last1Day": {
-  "visits": 33,
-  "pageViews": 40,
-  "multiPageVisits": 4,
-  "multiPageRate": 0.1212,
+  "visits": 16,
+  "pageViews": 20,
+  "multiPageVisits": 1,
+  "multiPageRate": 0.0625,
   "funnel": {
-   "viewedAMatter": 13,
+   "viewedAMatter": 11,
    "sawSignInPrompt": 0,
-   "openedSignIn": 0,
+   "openedSignIn": 1,
    "signedUpOrIn": 0,
    "readFullWriteUp": 1,
    "clickedWatchlist": 0,
@@ -20,59 +20,60 @@
   "follows": 0,
   "newsletterSignups": 0,
   "contactSends": 0,
-  "sourceClicks": 1,
+  "sourceClicks": 2,
   "searches": 0,
   "byEvent": {
-   "page_view": 27,
    "matter_page_view": 13,
-   "panel_open": 4,
-   "full_read": 4,
-   "source_click": 1
+   "page_view": 7,
+   "source_click": 2,
+   "signin_open": 1,
+   "panel_open": 1,
+   "full_read": 1
   },
   "topPages": [
    [
-    "/",
-    8
-   ],
-   [
-    "/matters/live-229.html",
-    4
-   ],
-   [
-    "/case-valuation-calibration.html",
+    "/matters/live-266.html",
     3
    ],
    [
-    "/trends.html",
-    2
-   ],
-   [
-    "/matters/live-230.html",
-    2
+    "/",
+    3
    ],
    [
     "/litigation.html",
     2
    ],
    [
-    "/updates.html",
+    "/matters/live-208.html",
+    2
+   ],
+   [
+    "/matters/live-221.html",
     1
    ],
    [
-    "/matters/live-135.html",
+    "/about.html",
     1
    ],
    [
-    "/matters/live-219.html",
+    "/matters/live-263.html",
     1
    ],
    [
-    "/matters/live-300.html",
+    "/matters/live-226.html",
+    1
+   ],
+   [
+    "/matters/live-274.html",
+    1
+   ],
+   [
+    "/matters/live-304.html",
     1
    ]
   ],
   "toolViews": {
-   "case-valuation": 4,
+   "case-valuation": 0,
    "lease-clause-redline": 0,
    "settlement-benchmarks": 0,
    "litigation-index": 0,
@@ -80,96 +81,107 @@
   },
   "landingReferrers": [
    [
-    "direct or unknown",
-    25
+    "google.com",
+    9
    ],
    [
-    "google.com",
-    8
+    "direct or unknown",
+    4
+   ],
+   [
+    "com.google.android.googlequicksearchbox",
+    2
+   ],
+   [
+    "gemini.google.com",
+    1
    ]
   ],
   "topMatters": [
    [
-    "live-230",
-    6
-   ],
-   [
-    "live-229",
+    "live-266",
     4
    ],
    [
-    "live-135",
-    1
-   ],
-   [
-    "live-219",
-    1
-   ],
-   [
-    "live-300",
-    1
-   ],
-   [
-    "live-302",
-    1
-   ],
-   [
-    "live-220",
-    1
+    "live-208",
+    2
    ],
    [
     "live-221",
     1
    ],
    [
+    "live-263",
+    1
+   ],
+   [
+    "live-226",
+    1
+   ],
+   [
+    "live-274",
+    1
+   ],
+   [
+    "live-304",
+    1
+   ],
+   [
+    "live-092",
+    1
+   ],
+   [
     "live-289",
+    1
+   ],
+   [
+    "live-130",
     1
    ]
   ]
  },
  "last7Days": {
-  "visits": 307,
-  "pageViews": 368,
-  "multiPageVisits": 29,
-  "multiPageRate": 0.0945,
+  "visits": 289,
+  "pageViews": 347,
+  "multiPageVisits": 25,
+  "multiPageRate": 0.0865,
   "funnel": {
-   "viewedAMatter": 152,
+   "viewedAMatter": 137,
    "sawSignInPrompt": 0,
    "openedSignIn": 1,
-   "signedUpOrIn": 2,
-   "readFullWriteUp": 22,
+   "signedUpOrIn": 1,
+   "readFullWriteUp": 17,
    "clickedWatchlist": 0,
    "shared": 0
   },
-  "signUps": 2,
+  "signUps": 1,
   "follows": 0,
   "newsletterSignups": 1,
   "contactSends": 0,
-  "sourceClicks": 13,
-  "searches": 7,
+  "sourceClicks": 14,
+  "searches": 3,
   "byEvent": {
-   "page_view": 220,
-   "panel_open": 175,
-   "full_read": 175,
-   "matter_page_view": 148,
-   "source_click": 13,
-   "search": 7,
-   "signup": 2,
-   "signin_open": 1,
-   "permalink": 1
+   "page_view": 212,
+   "full_read": 163,
+   "panel_open": 163,
+   "matter_page_view": 135,
+   "source_click": 14,
+   "search": 3,
+   "signup": 1,
+   "signin_open": 1
   },
   "topPages": [
    [
     "/matters/live-208.html",
-    61
-   ],
-   [
-    "/litigation.html",
-    55
+    52
    ],
    [
     "/",
-    53
+    52
+   ],
+   [
+    "/litigation.html",
+    48
    ],
    [
     "/updates.html",
@@ -180,28 +192,28 @@
     14
    ],
    [
-    "/matters/live-087.html",
-    10
-   ],
-   [
     "/matters/live-229.html",
     9
    ],
    [
-    "/case-valuation-calibration.html",
-    4
-   ],
-   [
-    "/matters/live-200.html",
-    4
-   ],
-   [
     "/matters/live-267.html",
     4
+   ],
+   [
+    "/newsletter.html",
+    4
+   ],
+   [
+    "/matters/live-230.html",
+    4
+   ],
+   [
+    "/chapter-11/315-south-beverly-drive-llc-cacb-2-26-bk-20221.html",
+    3
    ]
   ],
   "toolViews": {
-   "case-valuation": 5,
+   "case-valuation": 4,
    "lease-clause-redline": 1,
    "settlement-benchmarks": 0,
    "litigation-index": 3,
@@ -210,29 +222,29 @@
   "landingReferrers": [
    [
     "direct or unknown",
-    197
+    184
    ],
    [
     "google.com",
-    104
-   ],
-   [
-    "utm:chatgpt.com",
-    4
+    98
    ],
    [
     "com.google.android.googlequicksearchbox",
-    1
+    3
+   ],
+   [
+    "utm:chatgpt.com",
+    2
    ],
    [
     "gemini.google.com",
-    1
+    2
    ]
   ],
   "topMatters": [
    [
     "live-208",
-    64
+    55
    ],
    [
     "live-271",
@@ -251,10 +263,6 @@
     24
    ],
    [
-    "live-087",
-    16
-   ],
-   [
     "live-164",
     11
    ],
@@ -267,22 +275,26 @@
     8
    ],
    [
-    "live-200",
-    7
+    "live-087",
+    6
+   ],
+   [
+    "live-221",
+    4
    ]
   ]
  },
  "last28Days": {
-  "visits": 885,
-  "pageViews": 991,
-  "multiPageVisits": 51,
-  "multiPageRate": 0.0576,
+  "visits": 900,
+  "pageViews": 1011,
+  "multiPageVisits": 53,
+  "multiPageRate": 0.0589,
   "funnel": {
-   "viewedAMatter": 562,
+   "viewedAMatter": 572,
    "sawSignInPrompt": 84,
-   "openedSignIn": 5,
+   "openedSignIn": 6,
    "signedUpOrIn": 6,
-   "readFullWriteUp": 34,
+   "readFullWriteUp": 35,
    "clickedWatchlist": 0,
    "shared": 1
   },
@@ -290,17 +302,17 @@
   "follows": 0,
   "newsletterSignups": 1,
   "contactSends": 0,
-  "sourceClicks": 33,
+  "sourceClicks": 35,
   "searches": 7,
   "byEvent": {
-   "page_view": 498,
-   "matter_page_view": 493,
-   "panel_open": 285,
-   "full_read": 198,
+   "matter_page_view": 506,
+   "page_view": 505,
+   "panel_open": 286,
+   "full_read": 199,
    "gate_shown": 87,
-   "source_click": 33,
+   "source_click": 35,
    "search": 7,
-   "signin_open": 5,
+   "signin_open": 6,
    "signup": 4,
    "magic_link_sent": 2,
    "share": 1,
@@ -310,19 +322,19 @@
   "topPages": [
    [
     "/litigation.html",
-    218
+    220
    ],
    [
     "/matters/live-208.html",
-    132
+    134
    ],
    [
     "/",
-    97
+    100
    ],
    [
     "/matters/live-221.html",
-    25
+    26
    ],
    [
     "/contact.html",
@@ -359,11 +371,11 @@
   "landingReferrers": [
    [
     "direct or unknown",
-    634
+    638
    ],
    [
     "google.com",
-    232
+    240
    ],
    [
     "utm:chatgpt.com",
@@ -375,7 +387,11 @@
    ],
    [
     "gemini.google.com",
-    2
+    3
+   ],
+   [
+    "com.google.android.googlequicksearchbox",
+    3
    ],
    [
     "test",
@@ -388,16 +404,12 @@
    [
     "vertexaisearch.cloud.google",
     1
-   ],
-   [
-    "com.google.android.googlequicksearchbox",
-    1
    ]
   ],
   "topMatters": [
    [
     "live-208",
-    144
+    146
    ],
    [
     "live-271",
@@ -408,12 +420,12 @@
     39
    ],
    [
-    "live-267",
+    "live-221",
     27
    ],
    [
-    "live-221",
-    26
+    "live-267",
+    27
    ],
    [
     "live-272",
@@ -456,17 +468,17 @@
    "heavyPages": 0
   },
   "freshness": {
-   "matters": 252,
-   "newestMatterAdded": "2026-10-16",
-   "daysSinceNewestMatter": 1,
+   "matters": 254,
+   "newestMatterAdded": "2026-10-18",
+   "daysSinceNewestMatter": 0,
    "ch11Petitions": 124,
    "newestCh11Petition": "2026-10-16",
-   "daysSinceNewestCh11": 1,
+   "daysSinceNewestCh11": 2,
    "federalSuits": 75,
    "newestFederalSuit": "2026-10-16",
-   "daysSinceNewestSuit": 1
+   "daysSinceNewestSuit": 2
   },
-  "pagesChecked": 632
+  "pagesChecked": 635
  },
  "pipelines": {
   "chapter11Petitions": 124,
