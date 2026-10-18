@@ -106,6 +106,9 @@ def check_content(problems, notes):
         problems.append(f"Market Signals: newest item is dated {newest_trend or 'never'}, more than 10 days ago")
     else:
         notes.append(f"Newest Market Signal {newest_trend}")
+    # A rejected draft stays a problem until someone reviews it: fix and
+    # re-queue it, or move it to rejected/reviewed/ with a "reviewed" note
+    # saying why it was dropped (that folder is not counted here).
     rejected = sorted(p.name for p in (ROOT / "ops/pending-signals/rejected").glob("*.json"))
     if rejected:
         problems.append(f"{len(rejected)} Market Signal draft(s) failed source verification and need review: {', '.join(rejected)}")

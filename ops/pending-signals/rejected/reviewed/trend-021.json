@@ -66,5 +66,10 @@
   "figure 800 is not in any verified quote",
   "figure 94 is not in any verified quote",
   "figure 98 is not in any verified quote"
- ]
+ ],
+ "reviewed": {
+  "date": "2026-10-18",
+  "decision": "dropped",
+  "reason": "Every quote was 'not found' because therealdeal.com serves GitHub's verifier a block page (the quotes matched when the page was opened locally). No other public source states the October 2026 Texas commercial posting totals (Roddy's data is subscriber-only), so the figures cannot be verified and are not published."
+ }
 }
