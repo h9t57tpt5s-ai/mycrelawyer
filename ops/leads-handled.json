@@ -407,6 +407,10 @@
   "https://www.courtlistener.com/docket/74978716/consolidated-capital-investments-llc-v-lument-real-estate-capital-llc/": {
    "at": "2026-10-17",
    "action": "skipped: no reporting found explaining the dispute"
+  },
+  "petition:https://www.courtlistener.com/docket/74978909/kdj-properties-llc/": {
+   "at": "2026-10-18",
+   "action": "skipped: no coverage found explaining the filing"
   }
  }
 }
