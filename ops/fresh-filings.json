@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T14:24:32+00:00",
+ "updatedAt": "2026-10-18T00:14:23+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -77,17 +77,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/74960812/nrs-realty-llc/",
    "docketId": 74960812,
    "slug": "n-r-s-realty-llc-njb-26-21651",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "30 Quabeck Avenue LLC",
-   "court": "United States Bankruptcy Court, D. New Jersey",
-   "courtId": "njb",
-   "docketNumber": "26-21578",
-   "dateFiled": "2026-10-13",
-   "docketUrl": "https://www.courtlistener.com/docket/74952134/30-quabeck-avenue-llc/",
-   "docketId": 74952134,
-   "slug": "30-quabeck-avenue-llc-njb-26-21578",
    "type": "Chapter 11 petition"
   }
  ]
