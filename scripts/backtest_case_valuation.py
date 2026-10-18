@@ -156,6 +156,16 @@ def main():
         # about when the court ruled (the date, never the amount, is used).
         vdate = (c.get("outcome") or {}).get("date") or (c.get("source") or {}).get("decided")
         status, body = call_calculator(secret, c["input"], args.variant, vdate if args.variant == "v6" else None)
+        # A dropped network (the Mac sleeping, Wi-Fi lost) fails every case
+        # before it reaches the API; 86 of 96 overnight v6 calls failed that
+        # way on 2026-10-18. Wait and retry the same case instead of marking
+        # the rest of the run failed.
+        for wait in (30, 120, 300):
+            if status != 502 or "connection" not in json.dumps(body).lower():
+                break
+            print(f"  network error; retrying in {wait}s", flush=True)
+            time.sleep(wait)
+            status, body = call_calculator(secret, c["input"], args.variant, vdate if args.variant == "v6" else None)
         # A variant run must come back labeled with that variant, or the
         # deployed function did not apply it and the result would be
         # mislabeled (2026-10-17).
