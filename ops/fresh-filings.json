@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T14:48:06+00:00",
+ "updatedAt": "2026-10-19T00:25:33+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -66,17 +66,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/74969627/1333-prospect-corp/",
    "docketId": 74969627,
    "slug": "1333-prospect-corp-nyeb-1-26-44834",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "N.R.S. Realty, LLC",
-   "court": "United States Bankruptcy Court, D. New Jersey",
-   "courtId": "njb",
-   "docketNumber": "26-21651",
-   "dateFiled": "2026-10-14",
-   "docketUrl": "https://www.courtlistener.com/docket/74960812/nrs-realty-llc/",
-   "docketId": 74960812,
-   "slug": "n-r-s-realty-llc-njb-26-21651",
    "type": "Chapter 11 petition"
   }
  ]
