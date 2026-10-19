@@ -128,7 +128,12 @@
    "window": "7 days",
    "baseline": 0.1034,
    "checkAfter": "2026-10-19",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-19",
+    "value": 0.0865,
+    "note": "last7Days.multiPageRate moved 0.1034 -> 0.0865 (-16.3%), below the playbook's 25% threshold; last28Days.multiPageRate (0.0589) doesn't support an upward read either. Not reverted -- the block isn't clutter or wrong, and multiPageRate has other open experiments (imp-010, imp-013) sitting on the same two pages."
+   }
   },
   {
    "id": "imp-007",
@@ -401,6 +406,22 @@
     "value": "confirmed same-day, same as imp-004: prerender.yml's own commit 50fd035 landed right after bbe1861 and regenerated matters/live-266.html and matters/live-181.html with the new 'Full court record' link pointing at chapter-11/travis-property-owner-llc-txnb-26-90220.html and chapter-11/new-flagler-development-llc-njb-26-20884.html respectively (grep-confirmed in the working tree)",
     "note": "No goal metric to move -- judged by the backlog item's own success criterion (the link actually renders on the matched matter pages), which it does"
    }
+  },
+  {
+   "id": "imp-020",
+   "date": "2026-10-19",
+   "track": "conversion",
+   "title": "Added a visible \"search the tracker\" box to every matter page",
+   "why": "Backlog item 6: last7Days.searches is only 3 against 289 visits. litigation.html already has a visible, labeled filter/search box, but matter pages (the highest-traffic page type) had no search entry point at all besides the icon-only global overlay (js/search.js), which doesn't even emit a tracked event. Every goal already had an open watching experiment (traffic: imp-009/imp-012; conversion: imp-007/imp-010/imp-013; calculator: imp-008/imp-011/imp-014/imp-016; subscription: imp-015; news: imp-017), so per the 'one open experiment per goal' backlog rule this run worked an unmeasured-by-a-goal-metric backlog item instead of adding a 4th experiment to a crowded goal.",
+   "files": [
+    "scripts/build_matter_pages.ts"
+   ],
+   "commit": "5e8f7fbc0d9ee763bae7e3b153ff750710ab75fa",
+   "metric": "last7Days.searches",
+   "window": "7 days",
+   "baseline": 3,
+   "checkAfter": "2026-10-26",
+   "status": "watching"
   }
  ]
 }
