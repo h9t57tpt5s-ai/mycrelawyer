@@ -108,6 +108,15 @@ required; skipping is the last resort.
 Do not use therealdeal.com as a signal sourceUrl: it blocks the GitHub verifier
 (trend-021, 2026-10-16, rejected with every quote "not found" although the
 page matched when opened locally). credaily.com and cushmanwakefield.com pass.
+Also blocked (403 to the verifier, 2026-10-19): chainstoreage.com and bank
+investor-relations sites (ir.mtb.com); for a Colliers/CBRE figure use the
+firm's own page or credaily.com. Quotes must be the page's exact words: the
+trend-022 draft's "quotes" were paraphrases with two figures the article did
+not contain. A bank's total credit-loss provision is not a CRE figure (scope);
+use its CRE charge-offs or nonaccruals only when the release states them.
+Next id: one above the highest trend id in js/data.js AND every file under
+ops/pending-signals/ (rejected/ and rejected/reviewed/ included); trend-021
+was assigned to three different drafts.
 
 ## How to judge a candidate
 
