@@ -92,12 +92,16 @@ def check_content(problems, notes):
     today = now().astimezone(CENTRAL).date()
     newest_event = max(c.get("date") or "" for c in cases)
     newest_added = max(c.get("addedDate") or "" for c in cases)
-    lag = (today - dt.date.fromisoformat(newest_event)).days
-    # Standing rule: the tracker carries events from the last day or two.
+    # Standing rule: the tracker carries events from the last day or two,
+    # counted in weekdays (Jeff, 2026-10-19): courts do not rule on
+    # weekends, so on a Monday morning Friday's ruling is the newest there
+    # can be. Friday -> Monday is 1 weekday; Friday -> Wednesday is 3.
+    newest = dt.date.fromisoformat(newest_event)
+    lag = sum(1 for n in range(1, (today - newest).days + 1) if (newest + dt.timedelta(days=n)).weekday() < 5)
     if lag > 2:
-        problems.append(f"Tracker is stale: newest event is dated {newest_event} ({lag} days ago)")
+        problems.append(f"Tracker is stale: newest event is dated {newest_event} ({lag} weekdays ago)")
     else:
-        notes.append(f"Newest event {newest_event} ({lag} days ago)")
+        notes.append(f"Newest event {newest_event} ({lag} weekdays ago)")
     # Market Signals get new items at least weekly (digest routine,
     # Mondays and Thursdays; verified by verify-signals.yml).
     trends = load_trends()

@@ -16,7 +16,8 @@ estate only, no individuals' names, no record-only matters, verified figures).
 ## Freshness floor (check this FIRST, every run)
 
 The daily health check fails when the newest EVENT date in js/data.js (the
-`date` field, not `addedDate`) is more than 2 days old. Matters added today
+`date` field, not `addedDate`) is more than 2 weekdays old (Friday counts as
+fresh through Tuesday; changed 2026-10-19). Matters added today
 about last week's events do not count. At the start of every run compute
 max(date) over all cases. If it is older than yesterday (UTC), this run's
 first job, ahead of its beat, is to publish at least one matter whose event
