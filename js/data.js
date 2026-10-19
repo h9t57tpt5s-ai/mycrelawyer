@@ -10539,6 +10539,19 @@ const RELAW_DATA = {
       summary: "Cushman & Wakefield put national office vacancy at 19.8% at the end of the third quarter, 25 basis points lower than a year earlier and down from the recent 20.1% high reached in Q3 2025. Net absorption was only slightly positive at 50,000 square feet, but it was the fifth straight quarter of gains, and vacancy fell year over year in 48 of the 92 markets the firm tracks. The improvement is concentrated at the top: vacancy in top-tier buildings has dropped 215 basis points over two years while Class B and C vacancy continues to climb. New supply remains thin, with just 7.1 msf delivered in the first three quarters of 2026.",
       significance: "A national vacancy rate still near one in five, with the gap between trophy and commodity buildings widening, means owners of older Class B and C office stock face falling rents and values that strain debt-service and loan-to-value covenants at refinancing. Tenants in those buildings gain leverage in renewals, co-tenancy and abatement disputes, while lenders on lower-tier assets should expect more modification requests, receiverships and deed-in-lieu negotiations even as the headline number improves.",
       tags: ["office", "vacancy", "cushman & wakefield", "class b", "leasing"]
+    },
+    {
+      id: "trend-021",
+      title: "MBA: CMBS and Bank Delinquency Ease in Q2 2026, but Fannie Mae, Freddie Mac and Life Company Rates All Rise",
+      category: "lending-foreclosure",
+      date: "2026-09-28",
+      scope: "U.S. commercial and multifamily mortgages by capital source (MBA, Q2 2026)",
+      metric: "CMBS 6.53% (-42 bps); Fannie Mae 0.60% (+18 bps); Freddie Mac 0.51% (+8 bps); life cos 0.48% (+10 bps)",
+      source: "live",
+      sourceUrl: "https://newslink.mba.org/mba-newslinks/2026/september/mba-newslink-tuesday-sept-29-2026/mba-commercial-and-multifamily-mortgage-delinquencies-mixed-in-second-quarter/",
+      summary: "The Mortgage Bankers Association's second-quarter 2026 delinquency report shows a split market. CMBS delinquency fell 0.42 points to 6.53 percent and banks and thrifts slipped 0.04 points to 1.2 percent, while Fannie Mae rose 0.18 points to 0.6 percent, Freddie Mac 0.08 points to 0.51 percent and life company portfolios 0.10 points to 0.48 percent. MBA's Reggie Booker said multifamily faces a tough combination of higher interest rates and challenging market fundamentals. The five capital sources covered hold more than 80 percent of commercial mortgage debt, and each defines delinquency differently (30, 60 or 90 days, with differing forbearance treatment).",
+      significance: "Stress is spreading from CMBS into the agency and life company lenders that finance stabilized assets, while the CMBS improvement partly reflects old problem loans being resolved, which generates its own deficiency and guaranty claims. Expect disputes over forbearance terms, reserve and escrow draws, and recourse guaranties, and note that differing delinquency definitions affect when default notices and remedies are triggered. Multifamily borrowers, sponsors and their lenders should review forbearance and cure language now.",
+      tags: ["mba", "delinquency", "multifamily", "fannie mae", "forbearance"]
     }
   ],
 
