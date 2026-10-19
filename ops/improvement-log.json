@@ -421,7 +421,8 @@
    "window": "7 days",
    "baseline": 3,
    "checkAfter": "2026-10-26",
-   "status": "watching"
+   "status": "watching",
+   "note": "Confirmed same-day: prerender.yml (a03efa7) regenerated matters/*.html within minutes of the push, with the new search form present on live-266.html (grep-confirmed) and site_audit.py counts unchanged after. Still watching last7Days.searches for an actual usage move."
   }
  ]
 }
