@@ -350,6 +350,16 @@ function mainFor(c: Case): string {
       <a class="btn btn-ghost btn-sm" href="mailto:?subject=${encodeURIComponent(plain(c.title))}&amp;body=${share}">Email</a>
     </div>
 
+    <h2 class="matter-h2" style="margin-top:40px;">Looking for something else?</h2>
+    <form action="/litigation.html#filters-anchor" method="get" class="filter-row" style="margin-bottom:8px;">
+      <div class="search-input-wrap">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <label for="matter-search-q" class="sr-only">Search the litigation tracker</label>
+        <input type="text" id="matter-search-q" name="q" class="search-input" placeholder="Search matters, companies, jurisdictions…" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn btn-primary btn-sm">Search</button>
+    </form>
+
     ${shared.map((p) => {
       const page = entityIndex.parties[partyKey(p.name)];
       return `<h2 class="matter-h2" style="margin-top:40px;">Other matters involving ${esc(p.name)}</h2>
