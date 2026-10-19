@@ -17,6 +17,7 @@ runner asks for --confirm and stops after --limit cases.
 import argparse
 import datetime as dt
 import json
+import signal
 import os
 import pathlib
 import sys
@@ -64,6 +65,14 @@ def call_calculator(secret, inp, variant="", valuation_date=None):
         headers={"Content-Type": "application/json", "apikey": ANON_KEY,
                  "Authorization": f"Bearer {ANON_KEY}", "x-automation-secret": secret},
     )
+    # The function heartbeats while it waits, so the socket timeout alone
+    # never fires; run locally (no Supabase 400s wall clock) a hung
+    # Anthropic stream held one case for 2.5 hours on 2026-10-18. Cap the
+    # whole call at 10 minutes.
+    def _deadline(signum, frame):
+        raise TimeoutError("no answer within 600s")
+    old_handler = signal.signal(signal.SIGALRM, _deadline)
+    signal.alarm(600)
     try:
         with urllib.request.urlopen(req, timeout=450) as resp:
             body = json.load(resp)
@@ -78,6 +87,11 @@ def call_calculator(secret, inp, variant="", valuation_date=None):
             return err.code, json.loads(raw)
         except ValueError:
             return err.code, {"error": raw[:500]}
+    except TimeoutError as err:
+        return 504, {"error": f"Request timed out: {err}"}
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, old_handler)
 
 
 def summarize(analysis):
