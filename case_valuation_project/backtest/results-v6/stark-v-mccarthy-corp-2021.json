@@ -1,0 +1,239 @@
+{
+ "id": "stark-v-mccarthy-corp-2021",
+ "ranAt": "2026-10-19T01:37:35+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.3729,
+   "analysisUsd": 0.3572,
+   "analysisUsage": {
+    "input_tokens": 5484,
+    "cache_creation_input_tokens": 10717,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10717,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 20040,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 13598
+    }
+   }
+  },
+  "category": "construction-defect",
+  "roleLabel": "Owner / Developer",
+  "damagesRange": [
+   -14703.294000000002,
+   7596.7
+  ],
+  "bestGuessValue": -891.3881250000004,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Stark is likely to defeat the bulk of McCarthy's inflated lien and invoice claims given the unauthorized change-order problem, McCarthy's admitted billing errors, and the mismatch between billed quantities and the neutral engineer's figures, while recovering at least the documented bank-related costs on his slander-of-title/wrongful lien counterclaim. Net, this points to a favorable result for Stark -- paying little or nothing further to McCarthy while recovering a modest but well-corroborated affirmative award, with meaningful upside if the collateral-account opportunity-cost damages are more precisely developed.",
+  "issues": [
+   {
+    "label": "McCarthy's Lien Foreclosure and Unpaid Invoice Balance",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -96306.57,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -96306.57,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Claim of Lien recorded against Stark's property",
+      "value": 145706.56,
+      "disputed": true,
+      "quote": "McCarthy filed a Claim of Lien on Stark\u2019s property for $145,706.56 with the Kootenai County Recorder as Instrument No. 2612854000.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Payment accepted by McCarthy on October 5, 2017",
+      "value": 49399.99,
+      "disputed": false,
+      "quote": "On October 5, 2017, Stark sent McCarthy an identical payment of $49,399.99, but without conditions. McCarthy accepted the payment.",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Change-Order Clause as a Defense to Extra-Work Billing",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Stark's Breach of Contract Counterclaim",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Breach of the Implied Covenant of Good Faith and Fair Dealing",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Slander of Title / Wrongful Lien Recordation",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     7596.7,
+     7596.7
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 7596.7,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Costs to indemnify and defend U.S. Bank",
+      "value": 4646.7,
+      "disputed": false,
+      "quote": "the costs to indemnify and defend U.S. Bank were $4,646.70",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Additional construction loan costs",
+      "value": 2050,
+      "disputed": false,
+      "quote": "The additional construction loan costs were $2,050.00",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Inspection fees",
+      "value": 900,
+      "disputed": false,
+      "quote": "the two inspection fees totaled $900.00",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Idaho Consumer Protection Act Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.64575,
+   "settlementValue": -317.1928855949225,
+   "likely50": [
+    0,
+    7596.7
+   ],
+   "likely80": [
+    -8182.330602599046,
+    7596.7
+   ],
+   "ifWin": [
+    7596.7,
+    7596.7
+   ],
+   "median": 7596.7,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2021-06-24"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 85861.29,
+  "amountIsTheRequestedAmount": false,
+  "date": "2021-06-24",
+  "description": "After a seven-day bench trial the district court dismissed McCarthy's lien-foreclosure and contract claims and awarded Stark $51,760.83 on his breach-of-contract counterclaim (completion cost of $202,090.81 less $150,329.98 unpaid contract balance) plus $34,100.46 in ICPA damages (total $85,861.29), and $129,434 in attorney fees and $4,535.33 costs. The Idaho Supreme Court affirmed in full and awarded Stark fees on appeal.",
+  "attorneysFeesAtTrial": 129434.0,
+  "attorneysFeesOnAppeal": "awarded (amount not stated)",
+  "finalAmount": 85861.29,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "McCarthy Corporation v. Stark Investment Group, LLC, Craig Stark, and U.S. Bank, N.A.",
+  "court": "Idaho Supreme Court, on appeal from the District Court of the First Judicial District, Kootenai County",
+  "docket": "Docket No. 47749",
+  "decided": "2021-06-24",
+  "url": "https://storage.courtlistener.com/pdf/2021/06/24/mccarthy_corporation_v._stark_investment_group.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Factual Background, and the Procedural History through the statement that the case proceeded to a seven-day bench trial), plus the trial evidence on Stark's lender-related costs and the banker's testimony, which the opinion recites inside the discussion of the ICPA award. Removed: the opening summary of the bench-trial result, the trial court's findings on breach, completion-cost damages, lien, slander of title and ICPA liability, the ICPA damages total, the fee award, and all appellate analysis. Whitespace and page-number artifacts normalized; the bid-item and invoice-summary tables (and the sentences introducing them) are omitted."
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "id": "four-elyria-brexton-2025",
+ "ranAt": "2026-10-18T21:51:44+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2439,
+   "analysisUsd": 0.2345,
+   "analysisUsage": {
+    "input_tokens": 2511,
+    "cache_creation_input_tokens": 10717,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10717,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 12452,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 6210
+    }
+   }
+  },
+  "category": "construction-defect",
+  "roleLabel": "Contractor / Design Professional",
+  "damagesRange": [
+   100000,
+   500000
+  ],
+  "bestGuessValue": 275000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "This is a genuine jury question on a single controlling fact issue \u2014 whether the ~$500,000 Petco Site-Specific Work fell inside or outside the GMP Contract \u2014 with Brexton holding real, testimony-backed support for its position but facing a serious lien-waiver obstacle to the foreclosure remedy specifically. Four Elyria's fraud and slander-of-title counts are comparatively weak derivative theories unlikely to survive dispositive motions or trial given the good-faith nature of the scope dispute. Net, Brexton is more likely than not to recover a meaningful share of the Site-Specific Work claim via breach of contract or unjust enrichment, even if the lien itself is partly or wholly extinguished by the unconditional waivers.",
+  "issues": [
+   {
+    "label": "Brexton's Breach of Contract / Unjust Enrichment Claim for Site-Specific Work",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 1,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Mechanic's Lien Foreclosure / Declaratory Judgment on Lien Validity",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Four Elyria's Breach of Contract Claim Against Brexton",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Four Elyria's Fraud Claim (Lien Waivers)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Four Elyria's Slander of Title Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Unconditional Lien Waiver Defense to Brexton's Lien/Breach Claims",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Good-Faith Dispute Defense to Fraud and Slander of Title",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  },
+  "scenarios": null,
+  "missingFacts": [],
+  "valuationDate": "2025-05-19"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 465417.44,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-19",
+  "description": "The trial court held the Site-Specific Work was outside the contract, granted summary judgment against Four Elyria on all its claims and for Brexton on unjust enrichment, and after a damages-only jury trial entered judgment for Brexton for $465,417.44; both sides' attorney-fee motions were denied and Brexton's lien-foreclosure counterclaim was dismissed. On this second appeal the court of appeals agreed the work was outside the contract but reversed in part and remanded for the trial court to apply the contract's Article 9 change-order provisions, leaving the unjust-enrichment award and the fee issues to be revisited on remand.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed in part and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "Four Elyria Co., L.L.C. v. Brexton Constr., L.L.C.",
+  "court": "Court of Appeals of Ohio, Ninth Appellate District (Lorain County)",
+  "docket": "C.A. No. 24CA012089, 2025-Ohio-1778 (appeal from Lorain County Court of Common Pleas, Case No. 17CV192092)",
+  "decided": "2025-05-19",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/9/2025/2025-Ohio-1778.pdf",
+  "excerptNote": "Excerpts from Part I (facts and pleadings, \u00b6\u00b63, 5-9; \u00b66 truncated before the quoted lien-waiver language) and the deposition testimony of both sides summarized in the partial dissent (\u00b6\u00b656, 58). Removed: \u00b64 (plan disclaimers), \u00b610 (motions), the trial court's summary-judgment rulings (\u00b6\u00b611-13, 16), the jury verdict figure, post-verdict motions, the first appeal's disposition, and all appellate holdings. Whitespace and PDF page-number artifacts normalized only."
+ }
+}

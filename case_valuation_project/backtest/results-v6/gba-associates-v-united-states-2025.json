@@ -1,0 +1,150 @@
+{
+ "id": "gba-associates-v-united-states-2025",
+ "ranAt": "2026-10-19T14:42:30+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2115,
+   "analysisUsd": 0.1909,
+   "analysisUsage": {
+    "input_tokens": 7233,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8488,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 4142
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   0,
+   3413275.92
+  ],
+  "bestGuessValue": 1109314.674,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "GSA is more likely than not to prevail on the central factual question (Full Assessment occurred in 2015, not 2013/2014), meaning the Contracting Officer's $3,413,275.92 recoupment and the rent withholding would be sustained and GBA Associates would recover little to nothing on its breach claim; Plaintiff's alternative post-trial 'windfall damages' theory is unlikely to independently produce recovery. There is a real, non-trivial chance (not better than even) that the court instead finds 2013 or 2014 was the true Full Assessment year, in which case Plaintiff should recover the full withheld amount plus interest.",
+  "issues": [
+   {
+    "label": "Correct Tax Base/Full Assessment Year (2013/2014 vs. 2015)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     0,
+     3413275.92
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 3413275.92,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Rent withheld by GSA over 24 months to recoup claimed overpayment",
+      "value": 3413275.92,
+      "disputed": true,
+      "quote": "the Government had overpaid real estate tax adjustments in the amount of $3,413,275.92",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Post-Trial 'Windfall Damages' Theory (Cost Method vs. Income Method)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Summary Judgment Ruling Foreclosing Bilateral-Agreement/Estoppel Theory",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.317,
+   "settlementValue": 547659.8917700148,
+   "likely50": [
+    0,
+    763618.7170756874
+   ],
+   "likely80": [
+    0,
+    2369226.151178355
+   ],
+   "ifWin": [
+    887333.2010975985,
+    2572091.7011469156
+   ],
+   "median": 0,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2025-09-19"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 0,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-09-19",
+  "description": "After a five-day bench trial the court found that Fairfax County did not assess the Property taking into account all lease-contemplated renovations until tax year 2015, so GSA properly reestablished the Real Estate Tax Base at the 2015 bill ($1,993,293.46) and did not breach the Lease by withholding rent to recoup its claimed $3.4 million of excess tax adjustments; it also declined the lessor's post-trial windfall-damages theory (that the County should have used the cost approach in 2015). Judgment was directed for the United States; the lessor recovered nothing. No appeal is reflected in the opinion.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "none",
+  "finalAmount": 0,
+  "finalNote": "Defense judgment. No appeal reflected in the opinion text (subsequent history not otherwise checked). The opinion states no dollar demand by the lessor; its economic stake is the roughly $3.4 million GSA recouped by withholding rent."
+ },
+ "source": {
+  "caseName": "GBA Associates Limited Partnership v. United States",
+  "court": "U.S. Court of Federal Claims (Judge Kathryn C. Davis; five-day bench trial)",
+  "docket": "No. 20-116",
+  "decided": "2025-09-19",
+  "url": "https://storage.courtlistener.com/pdf/2025/09/19/gba_associates_limited_partnership_v._united_states.pdf",
+  "excerptNote": "Verbatim from the introduction (lease, tax-base mechanism, the dispute, the earlier partial summary-judgment ruling, the trial question and each side's position; the 'for the reasons explained below' findings and holding sentences removed) and Background Parts A-E (proposal and tax estimate, lease terms and tax-base/full-assessment definitions, renovation timeline, the late-closed permit, County assessment timing, 2012-2015 assessed values and reasons for change, the 2015 tax bill, the tax-adjustment history, the Altus contact and Forte email, Morrison's investigation, final decision and rent withholding), footnote 24 (plaintiff's abandoned 2012 theory), and the Discussion's neutral statements of each expert's opinion and of Plaintiff's arguments, including its post-trial windfall theory. Removed: the court's findings and inferences (e.g., the inference drawn from the Forte email, the credibility ruling on who assessed in 2015, 'one would expect' effective-age reasoning), the per-parcel tax lines and 2012-2014 tax-bill totals (the checker's running-header filter strips those recurring lines), most valuation detail (length), the entire legal analysis, conclusion and judgment, footnotes other than 24, and page numbers."
+ }
+}

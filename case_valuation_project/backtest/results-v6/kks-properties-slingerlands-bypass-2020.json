@@ -1,0 +1,200 @@
+{
+ "id": "kks-properties-slingerlands-bypass-2020",
+ "ranAt": "2026-10-17T16:48:58+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2859,
+   "analysisUsd": 0.281,
+   "analysisUsage": {
+    "input_tokens": 2164,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15714,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 10553
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   40612.5,
+   1292000
+  ],
+  "bestGuessValue": 646000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability/entitlement to compensation is conceded; this is a pure valuation trial where claimant should recover for both the direct taking of the 9.5-acre strip and some reduced-access severance damage to the western parcel, but the collateral estoppel ruling forecloses a 'total loss' theory and claimant's prior reversal for insufficient proof creates real evidentiary risk. The direct-take component likely lands in the $400K-$1.3M range depending on the strip's zoning classification; the severance-damages component is almost certainly larger but cannot be quantified from this record because no post-taking valuation figure is provided.",
+  "issues": [
+   {
+    "label": "Severance/Consequential Damages to Western Parcel (Restricted Access)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Direct Compensation for Value of 9.5-Acre Strip Taken",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     90250,
+     1292000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1292000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "State appraiser (Thurston) uniform rate",
+      "value": 427500,
+      "disputed": true,
+      "quote": "calculated the property's preappropriation value to be $45,000 per acre",
+      "computed": "45000 x 9.5",
+      "role": "amount"
+     },
+     {
+      "label": "Claimant appraiser (Gardner) Alt A developable rate",
+      "value": 874000,
+      "disputed": true,
+      "quote": "the commercially developable portion of the property had a value of $92,000 per acre",
+      "computed": "92000 x 9.5",
+      "role": "amount"
+     },
+     {
+      "label": "Claimant appraiser (Gardner) Alt A surplus rate",
+      "value": 90250,
+      "disputed": true,
+      "quote": "the surplus acreage had a value of $9,500 per acre",
+      "computed": "9500 x 9.5",
+      "role": "amount"
+     },
+     {
+      "label": "Claimant appraiser (Gardner) Alt B hamlet rate",
+      "value": 1292000,
+      "disputed": true,
+      "quote": "the hamlet zoning parcel had a value of $136,000 per acre",
+      "computed": "136000 x 9.5",
+      "role": "amount"
+     },
+     {
+      "label": "Claimant appraiser (Gardner) Alt B commercial-hamlet rate",
+      "value": 332500,
+      "disputed": true,
+      "quote": "the commercial-hamlet zoning parcel had a value of $35,000 per acre",
+      "computed": "35000 x 9.5",
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Collateral Estoppel Barring 'Landlocked' Theory",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Evidentiary Sufficiency Risk From Prior Reversal",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.4955,
+   "settlementValue": 349596.0275153839,
+   "likely50": [
+    0,
+    705694.6010719403
+   ],
+   "likely80": [
+    0,
+    1063069.5836185478
+   ],
+   "ifWin": [
+    412623.9534976776,
+    1018005.6653124047
+   ],
+   "median": 0,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2020-10-29"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 744500,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-10-29",
+  "description": "After a four-day January 2018 trial the Court of Claims credited the State's appraiser (with its own adjustments, preappropriation value $52,339 per acre or $1,662,810), found the western remainder's post-taking highest and best use was multifamily residential, and awarded KKS $744,500 in direct and consequential damages. The Third Department affirmed the amended judgment on October 29, 2020. (An earlier award of $532,000 had been reversed in 2014.)",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 744500,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Matter of Acquisition of Real Property by the State of New York (KKS Properties, LLC, claimant)",
+  "court": "Supreme Court of the State of New York, Appellate Division, Third Department, on appeal from the Court of Claims",
+  "docket": "529374; 2020 NY Slip Op 06185",
+  "decided": "2020-10-29",
+  "url": "https://storage.courtlistener.com/html/2020/10/29/matter_of_acquisition_of_real_prop._by_the_state_of_new_york.html",
+  "excerptNote": "Verbatim from the background (property, 2006 appropriation, prior proceedings) and the decision's descriptions of the parties' trial evidence (both appraisers' preappropriation valuations, the State appraiser's post-taking multifamily testimony, the claimant's access argument and engineer's opinion). Removed: the sentence reporting the first trial's award (reversed in 2014), the sentence reporting the 2018 award, the Court of Claims' findings (its own per-acre value and treatment of each appraisal), footnotes and all appellate reasoning. Two sentences are cut at a semicolon before the court's evaluation of them (the cut is marked by a period), so their second halves are omitted. The decision does not state either appraiser's after-taking value or damages total. Official reporter copy: 2020 NY Slip Op 06185."
+ }
+}

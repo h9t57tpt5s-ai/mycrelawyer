@@ -1,0 +1,250 @@
+{
+ "id": "howard-town-center-v-howard-university-2017",
+ "ranAt": "2026-10-19T14:38:50+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2681,
+   "analysisUsd": 0.2422,
+   "analysisUsage": {
+    "input_tokens": 9578,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11436,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 4794
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   -3760000,
+   1475000
+  ],
+  "bestGuessValue": -289999.99999999977,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The University is very likely to prevail on its $1,475,000 unpaid-rent counterclaim and to have the June 2013 termination of the Ground Lease upheld, given the Developer's repeated, admitted, deliberate nonpayment across three extended deadlines and four notices of default; the Developer's competing breach/declaratory-judgment claims and eight-figure damages theories are unlikely to succeed given the weight of the trial record on the good-faith negotiation issue. The principal practical caveat is collectibility: the named Developer LLC appears to be judgment-proof, making CastleRock's continuing exposure and any settlement leverage over possession of the Property more important than the paper judgment amount.",
+  "issues": [
+   {
+    "label": "Unpaid Ground Rent Installment ($1,475,000)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     1475000,
+     1475000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1475000,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Unpaid ground rent installment",
+      "value": 1475000,
+      "disputed": false,
+      "quote": "requests judgment in its favor \"in the amount of $1,475,000, together with additional interest, attorneys' fees and costs recoverable under the applicable contracts.\"",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Validity of Termination / Notice Sufficiency",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Good-Faith Negotiation Under the Term Sheet",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Developer's Breach of Contract / Declaratory Relief Claims and Damages",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -24700000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -24700000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Lost leasehold value",
+      "value": 14400000,
+      "disputed": true,
+      "quote": "the values applicable to calculation of the Developer's damages would be $14,400,000 for the leasehold",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Cost of delay as of June 1, 2017",
+      "value": 4100000,
+      "disputed": true,
+      "quote": "$4,100,000 for the cost of delay as of June 1, 2017",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Lost tax abatement",
+      "value": 6200000,
+      "disputed": true,
+      "quote": "$6,200,000 for the lost tax abatement",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "CastleRock's Continuing Liability as Original Lessee",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Attorney's Fees, Costs and Interest",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Collectibility of Judgment Against the Developer LLC",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.7755,
+   "settlementValue": -358423.81783656834,
+   "likely50": [
+    1475000,
+    1475000
+   ],
+   "likely80": [
+    -4746969.929407351,
+    1475000
+   ],
+   "ifWin": [
+    1475000,
+    1475000
+   ],
+   "median": 1475000,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2017-08-14"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1475000,
+  "amountIsTheRequestedAmount": true,
+  "date": "2017-08-14",
+  "description": "After an eight-day bench trial the court entered judgment for the University on its counterclaim and third-party complaint and against the Developer on its claim: the University's termination of the Ground Lease and Development Agreement was effective and a permissible forfeiture of all of the Developer's rights, and the University was awarded damages of $1,475,000 (the unpaid second rent installment, exactly its counterclaim demand), with interest and fees in an amount to be determined on a later submission. The Developer's claimed damages (leasehold $14.4M, delay $4.1M, lost tax abatement $6.2M) were not awarded. No appeal is reflected in the opinion.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "none",
+  "finalAmount": 1475000,
+  "finalNote": "No appeal reflected in the opinion text (subsequent history not otherwise checked). Interest and contractual fees were left to a later submission and are not stated, so attorneysFeesAtTrial is null; the non-monetary forfeiture of the Developer's ground-lease rights is not valued in the amount."
+ },
+ "source": {
+  "caseName": "Howard Town Center Developer, LLC v. Howard University",
+  "court": "U.S. District Court for the District of Columbia (Chief Judge Beryl A. Howell; findings of fact and conclusions of law after an eight-day bench trial)",
+  "docket": "Civil Action No. 13-1075 (BAH)",
+  "decided": "2017-08-14",
+  "url": "https://storage.courtlistener.com/pdf/2017/08/14/howard_town_center_developer_llc_v._howard_university.pdf",
+  "excerptNote": "Verbatim from the opening paragraph (parties, property, posture; the closing 'For the reasons set forth below' sentence removed), Part I.A (both sides' pleaded claims and relief, including the University's counterclaim demand), Part I.B (TRO denial, the D.C. Circuit's vacatur and remand, the remand summary-judgment rulings left for trial), and selected Findings of Fact 1-4, 7-10, 24, 26, 36, 39-40, 46-47, 49, 51, 54, 56-57, 61, 63, 90, 94, 98, 110, 114-115, 117-119, 123 and 126 (ground lease and rent schedule, default/remedy clauses, Development Agreement timetable, escrow, deadline extensions, the four default notices, Term Sheet, final May 30, 2013 deadline, termination, the Closeline deposit, and the Developer's expert damages figures). Removed: the court's conclusion sentences, this Court's December 2013 summary-judgment grant and forfeiture ruling (only the appellate vacatur is kept), the court's characterizations of the Developer's conduct (e.g., 'feigned surprise', 'bluff called', 'bullying tactics'), the credibility assessment, the writ-of-attachment/evasion findings, all of Part III (Conclusions of Law) and Part IV, footnotes and markers, record-citation-only sentences, and page numbers. The University's counterclaim demand equals the award, so amountIsTheRequestedAmount is true (Skyway precedent)."
+ }
+}

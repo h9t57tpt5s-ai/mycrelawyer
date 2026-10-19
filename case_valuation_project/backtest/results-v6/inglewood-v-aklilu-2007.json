@@ -1,0 +1,216 @@
+{
+ "id": "inglewood-v-aklilu-2007",
+ "ranAt": "2026-10-19T14:07:07+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2322,
+   "analysisUsd": 0.226,
+   "analysisUsage": {
+    "input_tokens": 2957,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11885,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 6076
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   21000,
+   324573
+  ],
+  "bestGuessValue": 219086.775,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Aklilu is very likely to recover some compensable goodwill above the Agency's $35,000 offer given the strength of the locational testimony and Mamaux's own concessions, but the unconventional 'cost to create' methodology and the business's long unprofitable history make a full $238,716 goodwill award unlikely; the improvements claim carries real double-recovery risk given the Nixes' separate settlement, while the equipment claim is comparatively solid but internally inconsistent in amount. A jury verdict somewhere well above the Agency's offer but meaningfully below Aklilu's full demand is the most probable outcome, with total recovery capped by the $355,668 pre-trial demand.",
+  "issues": [
+   {
+    "label": "Business Goodwill Valuation (CCP 1263.510)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     35000,
+     239000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 239000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Pedersen goodwill valuation (cost to create, total losses 1998-2003)",
+      "value": 238716,
+      "disputed": true,
+      "quote": "concluded Auto Inn had adjusted annual losses of $35,000, $37,000, $49,000, $53,000, $52,000 and $12,000 in the years 1998 through 2003, for a total loss of $238,716",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Agency's pre-trial offer for lost goodwill",
+      "value": 35000,
+      "disputed": false,
+      "quote": "The Agency offered Aklilu $35,000 for lost goodwill",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Aklilu's pre-trial demand for lost goodwill",
+      "value": 239000,
+      "disputed": true,
+      "quote": "Aklilu demanded $355,668 consisting of $239,000 for lost goodwill, $31,095 for improvements to the real property, and $85,573 for \"moveable equipment.\"",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Tenant Improvements to Real Property",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     0
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 0,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Aklilu's claimed improvements to real property",
+      "value": 31095,
+      "disputed": true,
+      "quote": "Aklilu demanded $355,668 consisting of $239,000 for lost goodwill, $31,095 for improvements to the real property, and $85,573 for \"moveable equipment.\"",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Nixes' settlement amount for improvements (possible overlap)",
+      "value": 34525,
+      "disputed": true,
+      "quote": "settled with the Nixes in the amount of $665,475 for the real property, plus $34,525 for the improvements",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Moveable Equipment / Fixtures",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     85573
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 85573,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Aklilu's demanded moveable equipment value",
+      "value": 85573,
+      "disputed": true,
+      "quote": "Aklilu demanded $355,668 consisting of $239,000 for lost goodwill, $31,095 for improvements to the real property, and $85,573 for \"moveable equipment.\"",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Relocability / Statutory Prerequisite Defense to Goodwill",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.83325,
+   "settlementValue": 123745.62696480569,
+   "likely50": [
+    44118.909190705745,
+    199996.4739714493
+   ],
+   "likely80": [
+    0,
+    248835.81885402533
+   ],
+   "ifWin": [
+    80599.18263386982,
+    215047.3123378791
+   ],
+   "median": 122401.18569415063,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2007-07-30"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 200000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2007-07-30",
+  "description": "The jury found Aklilu suffered lost goodwill of $200,000 (his expert said $238,716; the Agency's said none). In a separate proceeding the court apportioned $4,265 of the $34,525 paid for fixtures and equipment to Aklilu (not included here), denied his motion for litigation expenses, and gave the Agency a setoff against interest for post-possession rent. The Second District affirmed on July 30, 2007 (rehearing denied and opinion modified August 20, 2007), approving the 'cost to create' goodwill valuation.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 200000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Inglewood Redevelopment Agency v. Elias Aklilu, d/b/a Auto Inn Lube and Oil",
+  "court": "California Court of Appeal, Second Appellate District, Division Three",
+  "docket": "B185107 (153 Cal.App.4th 1095)",
+  "decided": "2007-07-30",
+  "url": "https://static.case.law/cal-app-4th/153/cases/1095-01.json",
+  "excerptNote": "Verbatim from Facts and Procedural Background parts 1 (redevelopment plan, condemnation, settlements with the fee owners and the subtenant, the demand and the offer) and 2.a-2.c (Aklilu's testimony, his business-valuation expert, the Agency's expert). Removed: the Summary (states the verdict and holdings), part 2.d (jury instructions), part 2.e (verdict and fixtures allocation), part 3 (post-verdict proceedings), and all analysis. Source text is the Caselaw Access Project copy of the official report (no court-hosted PDF for this 2007 opinion; CourtListener opinion 2250303). The reviewer should confirm the source URL resolves; the saved text is the CAP case body."
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "id": "marchbanks-v-ice-house-ventures-2024",
+ "ranAt": "2026-10-19T14:30:32+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1954,
+   "analysisUsd": 0.1925,
+   "analysisUsage": {
+    "input_tokens": 650,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10115,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 5914
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   333569.69999999995,
+   2368874
+  ],
+  "bestGuessValue": 2297807.78,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability (the right to take) is conceded; this is purely a valuation dispute that will almost certainly resolve by negotiated settlement or mediated compromise rather than trial. The land-take component will likely settle near the narrow band both appraisers already agree on; the residue/severance-damage component (driven by parking loss) is the real fight and will likely settle well above ODOT's $201,936 figure but meaningfully below IHV's $2,200,810 figure once Wilcox's methodology is tested, with ODOT's $343,280 deposit credited against whatever final number results.",
+  "issues": [
+   {
+    "label": "Just Compensation \u2014 Damages to Residue (Parking Loss/Severance)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     201936,
+     2200810
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 2200810,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "ODOT appraiser (Barnes) \u2014 damages to residue",
+      "value": 201936,
+      "disputed": true,
+      "quote": "ODOT\u2019s appraiser, Brian Barnes, opined the total compensation due IHV was $370,000, including $168,064 for land taken and $201,936 in damages to the residue.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "IHV appraiser (Wilcox) \u2014 damages to residue",
+      "value": 2200810,
+      "disputed": true,
+      "quote": "IHV\u2019s appraiser, Debi Wilcox, opined the total compensation due IHV was $2,509,777, consisting of $149,190 for land taken and $2,200,810 in damages to the residue.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Just Compensation \u2014 Land Taken (Fee Value)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     149190,
+     168064
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 168064,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "ODOT appraiser (Barnes) \u2014 land taken",
+      "value": 168064,
+      "disputed": true,
+      "quote": "ODOT\u2019s appraiser, Brian Barnes, opined the total compensation due IHV was $370,000, including $168,064 for land taken and $201,936 in damages to the residue.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "IHV appraiser (Wilcox) \u2014 land taken",
+      "value": 149190,
+      "disputed": true,
+      "quote": "IHV\u2019s appraiser, Debi Wilcox, opined the total compensation due IHV was $2,509,777, consisting of $149,190 for land taken and $2,200,810 in damages to the residue.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Credit for ODOT's Deposit/Advance Payment",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "ODOT's deposit with Clerk of Courts",
+      "value": 343280,
+      "disputed": false,
+      "quote": "ODOT filed an appropriation action in the Franklin County Court of Common Pleas and deposited $343,280 with the Clerk of Courts.",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.9945,
+   "settlementValue": 1314173.09780288,
+   "likely50": [
+    808882.2239122326,
+    1830619.0356230289
+   ],
+   "likely80": [
+    485299.5607241313,
+    2155116.104022249
+   ],
+   "ifWin": [
+    816306.8112483318,
+    1832566.0057741348
+   ],
+   "median": 1320234.6065398357,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2024-02-06"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1800000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-02-06",
+  "description": "The case settled before trial by an October 11, 2018 agreed judgment entry: ODOT would pay $900,000 'as partial consideration' and convey a 12-space parking lot (the Parking Mitigation Property). ODOT could not convey the lot because the City of Columbus would not transfer it, and on June 18, 2019 (re-entered with Civ.R. 54(B) language on January 12, 2021) the trial court held ODOT in breach and awarded $900,000 damages for the failure to convey, plus attorney fees and costs to be set later. The Tenth District first reversed (2021-Ohio-4195), the Supreme Court of Ohio reversed that decision (2023-Ohio-1866), and on remand the Tenth District affirmed the trial court on February 6, 2024.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 1800000,
+  "finalNote": "JUDGMENT CALL, reviewer to confirm: amount = $900,000 settlement cash + $900,000 court-found damages standing in for the undelivered parking lot = $1,800,000 total compensation for the taking, fees excluded (fees awarded, amount not stated). Settlement, not a verdict. The opinion does not say whether ODOT's $343,280 deposit is part of the $900,000 cash or paid on top of it; if on top, the total would be $2,143,280. Final outcome is after the Supreme Court remand and the 2024 affirmance."
+ },
+ "source": {
+  "caseName": "Marchbanks v. Ice House Ventures, L.L.C.",
+  "court": "Court of Appeals of Ohio, Tenth Appellate District (Franklin County), on remand from the Supreme Court of Ohio, on appeal from the Franklin County Court of Common Pleas",
+  "docket": "No. 21AP-24, 2024-Ohio-417 (trial court No. 16CV-7726)",
+  "decided": "2024-02-06",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/10/2024/2024-Ohio-417.pdf",
+  "excerptNote": "Verbatim from the first quoted paragraph of the background (quoting Ice House II/Ice House I): the project, the appropriation and ODOT's deposit, both appraisals with their components, and the parking-loss sentence. Removed: the record citations in parentheses (the first of which spans a line the PDF splits), and everything from 'Ultimately, the parties reached a settlement prior to trial' on: the settlement terms, the Parking Mitigation Property, ODOT's failure to convey, the motion to enforce and the $900,000 breach award, the appellate history, footnotes and all analysis."
+ }
+}

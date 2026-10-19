@@ -1,0 +1,265 @@
+{
+ "id": "brandon-v-wells-fargo-midland-2020",
+ "ranAt": "2026-10-19T01:59:03+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.3012,
+   "analysisUsd": 0.2865,
+   "analysisUsage": {
+    "input_tokens": 5373,
+    "cache_creation_input_tokens": 11002,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11002,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15272,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 8592
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Borrower / Guarantor",
+  "damagesRange": [
+   0,
+   6142803.69
+  ],
+  "bestGuessValue": 853011.1992500001,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "More likely than not, the bench trial court finds the lenders' deed-of-trust-authorized fee, interest, and cost deductions were proper and that Midland's delay pending the receiver's final accounting was reasonable, resulting in little or no further recovery for Brandon beyond what he's already been paid; the main residual exposure for the lenders is the unexplained ~$121,000 payoff-calculation discrepancy and a modest chance of a partial award tied to it, with the consequential and exemplary damages theories very unlikely to succeed.",
+  "issues": [
+   {
+    "label": "Excess Sale Proceeds Shortfall / Breach of Contract",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     0,
+     425803.69
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 425803.69,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Gross excess sale proceeds before fees/penalties/costs",
+      "value": 377000,
+      "disputed": true,
+      "quote": "these figures indicated approximately $377,000 in excess sale proceeds before the deduction of any penalties, fees, or costs",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Unexplained draft-to-final payoff discrepancy",
+      "value": 121000,
+      "disputed": true,
+      "quote": "the $121,000 discrepancy between this and the payoff amount of $2,947,622.09 shown in Plaintiff's Exhibit 3",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Amount already paid to Brandon (proceeds plus 5% interest, Dec. 2017)",
+      "value": 72196.31,
+      "disputed": false,
+      "quote": "Midland paid Brandon $72,196.31, which represented the proceeds he was due plus accrued interest at the rate of 5%",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Conversion, Negligence, and Theft Liability Act Claims (duplicative theories)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Consequential Damages for Lost Inglewood Property Purchase",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     0,
+     5717000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 5717000,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Annual profit from Inglewood property",
+      "value": 67000,
+      "disputed": true,
+      "quote": "an annual profit of $67,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Inglewood property purchase price (2012)",
+      "value": 1900000,
+      "disputed": true,
+      "quote": "a $1,900,000 purchase price",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Current market value of Inglewood property",
+      "value": 3750000,
+      "disputed": true,
+      "quote": "the current market value for the Inglewood property is $3,750,000",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Exemplary (Punitive) Damages",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "April 2012 Misapplied A-Note Payment",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "No Deficiency Judgment Exposure",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Brandon's Attorney's Fees Claim",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.37525,
+   "settlementValue": 453122.24690561125,
+   "likely50": [
+    0,
+    216400.00142622148
+   ],
+   "likely80": [
+    0,
+    1528843.4851900216
+   ],
+   "ifWin": [
+    160484.24736501413,
+    1834446.5132290497
+   ],
+   "median": 0,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2020-05-28"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 735327.6,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-05-28",
+  "description": "After a two-day bench trial the court awarded Brandon $245,109.20 in actual damages against Wells Fargo and Midland jointly and severally, plus $245,109.20 in exemplary damages against each of them ($735,327.60 total damages), and $125,000 in attorney's fees plus conditional appellate fees; it found no consequential damages. The Thirteenth Court of Appeals reversed the judgment against Midland entirely and the exemplary damages, and affirmed the rest, leaving $245,109.20 in actual damages against Wells Fargo plus the fee award.",
+  "attorneysFeesAtTrial": 125000.0,
+  "attorneysFeesOnAppeal": "affirmed as to Wells Fargo",
+  "finalAmount": 245109.2,
+  "finalNote": "Modified on appeal: exemplary damages and Midland liability reversed; actual damages affirmed."
+ },
+ "source": {
+  "caseName": "David Keith Brandon v. Wells Fargo Bank, N.A., as Trustee for the Registered Holders of LaSalle Commercial Mortgage Securities, Inc. 2007-MF5, and Midland Loan Services",
+  "court": "Texas Thirteenth Court of Appeals (Corpus Christi-Edinburg), on appeal from the 156th District Court, San Patricio County",
+  "docket": "No. 13-18-00393-CV",
+  "decided": "2020-05-28",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=&MediaID=6611f74e-0214-4698-895d-8c0393168f0e&DT=Opinion",
+  "excerptNote": "documentText is verbatim from the Background (Parts A-D): the notes, servicing arrangement, default, the lenders' suit, receivership sale and the borrower's counterclaims, and the bench-trial testimony of both sides. Removed: the opening summary (which states the judgment), the quoted note and deed-of-trust clauses, footnote 3 and its marker, subsection headings, the payoff table reproduced from Plaintiff's Exhibit 3 and the sentence introducing it, one sentence of the lender's accounting testimony that states the unapplied-funds figure (it equals the actual-damages award), the trial court's judgment and findings (Part E), and all appellate analysis. Outcome note: amount is the trial damages award (actual plus exemplary against each defendant); finalAmount is the actual damages left after appeal."
+ }
+}

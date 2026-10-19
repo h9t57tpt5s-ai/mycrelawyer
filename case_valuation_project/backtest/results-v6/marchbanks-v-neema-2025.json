@@ -1,0 +1,240 @@
+{
+ "id": "marchbanks-v-neema-2025",
+ "ranAt": "2026-10-19T14:28:31+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.3296,
+   "analysisUsd": 0.3198,
+   "analysisUsage": {
+    "input_tokens": 5336,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17665,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 12150
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   34732,
+   1207000
+  ],
+  "bestGuessValue": 845995,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Neema is very likely to recover materially more than ODOT's $47,475 deposit and more than Farmer's $46,090\u2013$46,350 valuation, given that ODOT's own experts suffered real credibility damage on cross and Neema's appraiser and owner witness presented a detailed, internally consistent, trial-tested theory of circuity damage that survived a motion in limine. A verdict landing well short of Neema's full $500,000+ diminution theory is also likely, however, because Neema's own witnesses conceded the property retains S.R. 4 access and remains a functioning, highest-and-best-use gas station post-taking. The most probable outcome is a verdict in the low-to-mid hundreds of thousands of dollars, substantially above ODOT's offer but below Neema's top-line ask.",
+  "issues": [
+   {
+    "label": "Diminution in Value to the Residue (Access/Circuity Damage)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     1101000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1101000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Owner's and appraiser's consistent estimated diminution in value",
+      "value": 500000,
+      "disputed": true,
+      "quote": "He believed that the property decreased approximately $500,000 in value after the construction.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Kumler southern parcel pre-taking value",
+      "value": 468000,
+      "disputed": true,
+      "quote": "the pre-taking value was $80,000 per acre, or $468,000",
+      "computed": null,
+      "role": "before_value"
+     },
+     {
+      "label": "Kumler southern parcel post-taking value",
+      "value": 464000,
+      "disputed": true,
+      "quote": "After the taking, Kumler's appraisal was $464,000 which represented the reduction in actual acreage.",
+      "computed": null,
+      "role": "after_value"
+     },
+     {
+      "label": "Farmer whole-property pre-taking value",
+      "value": 1065000,
+      "disputed": true,
+      "quote": "set the pre-taking value of the property at $1,065,000",
+      "computed": null,
+      "role": "before_value"
+     },
+     {
+      "label": "Farmer whole-property post-taking value",
+      "value": 1018910,
+      "disputed": true,
+      "quote": "Farmer assigned $1,018,910 as the final post-taking value of the property.",
+      "computed": null,
+      "role": "after_value"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Temporary Easement / Construction-Period Damages (Peak-Season Closure)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     260,
+     66000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 66000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Kumler temporary easement/nuisance damages",
+      "value": 66000,
+      "disputed": true,
+      "quote": "concluded that $66,000 was fair compensation",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Farmer temporary easement valuation",
+      "value": 260,
+      "disputed": true,
+      "quote": "he valued the temporary easements at $260",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Sign Replacement Compensation",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     36300,
+     40000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 40000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Kumler sign replacement valuation",
+      "value": 40000,
+      "disputed": true,
+      "quote": "Kumler concluded that $40,000 would compensate Neema for the removal and replacement of the gas station sign.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Farmer sign replacement valuation",
+      "value": 36300,
+      "disputed": false,
+      "quote": "$36,300 for the sign replacement",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Admissibility of Owner's Valuation Evidence (Unit Rule / Motion in Limine)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.997,
+   "settlementValue": 448805.3060376378,
+   "likely50": [
+    86508.9888287615,
+    778995.9291203786
+   ],
+   "likely80": [
+    52660.10150532238,
+    1025690.6238324149
+   ],
+   "ifWin": [
+    86850.87353832554,
+    781651.3118355675
+   ],
+   "median": 367786.24647226185,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2025-03-07"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 452020,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-03-07",
+  "description": "The jury awarded Neema $452,020: $19,500 for the 0.2447 acre taken, $38,000 for improvements taken, $520 for the temporary easements and $394,000 damage to the residue (against ODOT's $47,475 deposit and its appraiser's $46,090), and the Erie County Court of Common Pleas entered judgment on February 6, 2024. The Sixth District affirmed on March 7, 2025, holding the owner's appraiser could value the two tax parcels separately and that his residue damages were not shown to rest on the non-compensable stop-sign removal.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 452020,
+  "finalNote": "Affirmed. Verified against paragraphs 1 and 39. The opinion never states the owner's appraiser's total compensation as one figure (only his $1,518,000 before value and components), so the verdict cannot be compared to it; the owner's own opinion was a decrease of about $500,000."
+ },
+ "source": {
+  "caseName": "Marchbanks v. Neema, L.L.C.",
+  "court": "Court of Appeals of Ohio, Sixth Appellate District (Erie County), on appeal from the Erie County Court of Common Pleas",
+  "docket": "No. E-24-010, 2025-Ohio-777 (trial court No. 2022 CV 0397)",
+  "decided": "2025-03-07",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/6/2025/2025-Ohio-777.pdf",
+  "excerptNote": "Verbatim paragraphs 2-38 of the Facts and Procedural History (the project and parcels, ODOT's deposit, the motion in limine and voir dire request, the owner representative's testimony, the owner's appraiser Kumler, ODOT's traffic engineer Balsamo and appraiser Farmer), each paragraph whole. Removed: paragraph 1 (the verdict total and the holding), paragraph 39 (the jury's itemized award and total), paragraph 40 onward (assignments of error and all analysis), the {\u00b6 n} paragraph numbers, page numbers and the caption. Also removed: Kumler's indented quotation of his report in paragraph 21 (two sentences), because the PDF page number falls between its introduction and the quote so it cannot be matched without a trim; its substance (corner parcel reduced to interior parcel, inhibited circulation) is in paragraphs 15, 21 and 22."
+ }
+}

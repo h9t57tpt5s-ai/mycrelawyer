@@ -1,0 +1,233 @@
+{
+ "id": "westdale-northwest-v-united-states-2021",
+ "ranAt": "2026-10-19T14:40:48+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2723,
+   "analysisUsd": 0.2359,
+   "analysisUsage": {
+    "input_tokens": 14257,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10079,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 4337
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   -653966.1,
+   567376.8
+  ],
+  "bestGuessValue": -124419.86499999999,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The government is more likely than not to prevail on mutual mistake given essentially unanimous fact-witness testimony (including Westdale's own predecessor's negotiator) that the $133,045 tax base was erroneous, leading the court to order reformation of paragraph 15 to a higher base figure. That would substantially reduce Westdale's recovery well below its stated $567,376.80 ask -- likely to a modest five-figure amount if the base is reformed to actual 2012 taxes, or to near zero if the court adopts the government's proposed $726,629 figure.",
+  "issues": [
+   {
+    "label": "Enforcement of Lease as Written ($133,045 Tax Base) -- Breach of Contract Counts I-III",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     0,
+     567376.8
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 567376.8,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Total damages sought by Westdale at trial",
+      "value": 567376.8,
+      "disputed": true,
+      "quote": "The plaintiff sought damages of $567,376.80.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Government's Mutual Mistake / Reformation Defense (Base Corrected to $726,629)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     -726629,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -726629,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Government's proposed reformed tax base",
+      "value": 726629,
+      "disputed": true,
+      "quote": "The defendant sought reformation of the contract to implement the figure of $726,629 as the real-estate tax base.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Westdale's Alternative Reformation Position (Actual 2012 Tax-Year Base)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Bona Fide Purchaser / Estoppel Defense to Reformation",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Waiver / Ratification Based on GSA's Retention of $133,045 in Lease Amendment No. 17",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "GSA's Overpayment Recoupment Claims (2012-2013 Audit Findings)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "GSA-claimed 2012 overpayment (deducted from rent)",
+      "value": 79027.78,
+      "disputed": true,
+      "quote": "GSA's \"review of the lease and rental payments revealed that [Westdale had] been overpaid in the amount of $79,027.78.\"",
+      "computed": null,
+      "role": "credit"
+     },
+     {
+      "label": "GSA-claimed partial-2013 overpayment",
+      "value": 13630.21,
+      "disputed": true,
+      "quote": "GSA notified Westdale that its audit also concluded that Westdale had been overpaid in the amount of $13,630.21 for property taxes due from May 21 to December 31, 2013.",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.19025,
+   "settlementValue": -214492.3419360759,
+   "likely50": [
+    -467547.88650379214,
+    -3634.600556399673
+   ],
+   "likely80": [
+    -611342.275346399,
+    198152.91570246988
+   ],
+   "ifWin": [
+    104913.83343036399,
+    354530.5185490346
+   ],
+   "median": -216101.28806687612,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2022-05-25"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 173226.14,
+  "amountIsTheRequestedAmount": false,
+  "date": "2022-05-25",
+  "description": "After a three-day bench trial the court (July 9, 2021) found the lease's $133,045 tax base was a mutual mistake of GSA and the former lessor but, protecting Westdale as a good-faith purchaser, reformed it to $541,020.95 (the 2012 first-year taxes) rather than GSA's $726,629, and had the parties compute damages under the reformed base. On the parties' calculation of damages and interest the Clerk entered final judgment for Westdale of $173,226.14 (inclusive of interest), against its $567,376.80 demand; costs of $5,919.12 were taxed against the government. On May 25, 2022 the court awarded Westdale $76,064.31 in EAJA fees and expenses (it sought $106,058.99), reduced for limited success. Neither party appealed.",
+  "attorneysFeesAtTrial": 76064.31,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "none",
+  "finalAmount": 173226.14,
+  "finalNote": "Neither party appealed. The amount is the final judgment, which includes interest; neither opinion states a principal-only figure. attorneysFeesAtTrial is the trial court's post-judgment EAJA award (fees and research expenses), not a contractual fee award."
+ },
+ "source": {
+  "caseName": "Westdale Northwest Center, LP v. United States",
+  "court": "U.S. Court of Federal Claims (Judge Richard A. Hertling; three-day bench trial); later EAJA opinion of May 25, 2022 states the final judgment",
+  "docket": "No. 16-113C",
+  "decided": "2021-07-09",
+  "url": "https://storage.courtlistener.com/pdf/2021/07/09/westdale_northwest_center_lp_v._united_states_1.pdf",
+  "excerptNote": "source.decided is the trial opinion date (2021-07-09); the outcome date is the May 25, 2022 EAJA opinion that states the final judgment. Verbatim from the trial opinion's introduction (dispute and each side's position; the 'Based on the testimony' holding paragraph removed) and Part I Facts A-I (2004 lease, 2009 SFO and Forms 1364/1217, original lease terms and tax-adjustment clauses, tax history, the former lessor's and GSA's testimony on the tax base, Westdale's purchase and assumption, GSA's audit and withholding, Lease Amendments 17-18, yearly invoices/payments, certified claims, footnotes 11 and 13 on Westdale's alternative reformation claim, footnote 14 pre-trial rulings, procedural history), plus the EAJA opinion's statement of each side's post-trial position and the plaintiff's $567,376.80 demand. Removed: every sentence stating the 2012 first-year tax figure that the court adopted as the reformed base (it is the holding), the 2012 split-payment amounts that would let it be back-computed, the court's credibility finding and 'therefore fully integrated' conclusion, footnotes 1-10 and 12, Parts II-IV (jurisdiction, discussion, conclusion), the EAJA opinion's account of the merits ruling, judgment, costs and fee award, the unpaid-taxes table, and page numbers."
+ }
+}

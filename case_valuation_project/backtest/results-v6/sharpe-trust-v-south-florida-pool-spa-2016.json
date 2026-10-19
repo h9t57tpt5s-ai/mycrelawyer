@@ -1,0 +1,190 @@
+{
+ "id": "sharpe-trust-v-south-florida-pool-spa-2016",
+ "ranAt": "2026-10-19T03:16:12+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1797,
+   "analysisUsd": 0.1725,
+   "analysisUsage": {
+    "input_tokens": 974,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8513,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 3339
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To compute a real damages range we need: (1) the monthly rent amount under the lease and the length of the unpaid/arrearage period (or the remaining lease term if acceleration is sought); (2) any other liquidated lease charges claimed (CAM, taxes, late fees) and their amounts; (3) the dollar amount of fire-related property damage or repair/replacement costs Landlord is claiming in the negligence count, and any insurance proceeds already received or available as an offset; (4) whether the guaranty contains a dollar cap or is uncapped; and (5) any attorney's fees or costs actually incurred post-offer that could be shifted under the rejected section 768.79 proposal. Without at least the rent/term figures or the fire-damage estimate, no computable dollar range exists on this record.",
+  "likelyOutcome": "Landlord is favored on the contractual lease-breach claim and the guaranty claim against Sanchez, but the negligence/fire count is a real toss-up given unknown causation and a possible insurance/subrogation defense, and any net recovery is clouded by exposure to Pool and Spa's post-offer attorney's fees under the rejected $15,000 section 768.79 proposal if the ultimate award comes in low. Net value cannot be computed without the underlying rent, lease-term, and fire-damage figures.",
+  "issues": [
+   {
+    "label": "Lease Breach / Unpaid Rent and Other Charges",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Guaranty Liability (Sanchez) for Lease Breach",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Negligence Claim for Fire Damage (Against Tenant)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Negligence Claim Against Guarantor Sanchez Personally",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Attorney's Fees Pled in Each Count",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Section 768.79 Fee-Shifting Exposure from Rejected $15,000 Proposal",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "attorney_fees",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Pending Appeal of Eviction Summary Judgment",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": null,
+  "missingFacts": [],
+  "valuationDate": "2016-11-16"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 0,
+  "amountIsTheRequestedAmount": false,
+  "date": "2016-11-16",
+  "description": "After a November 2014 trial on the landlord's damages claims, the trial court entered final judgment for the tenant, involuntarily dismissing all of the landlord's damages claims (lease breach and fire negligence). The tenant's motion for fees under its $15,000 proposal for settlement was denied because the proposal was ambiguous; the Third District affirmed that denial and the eviction summary judgment on November 16, 2016. The landlord separately recovered about $56,000 in attorney's fees for the eviction proceedings, which is not part of the damages outcome.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 0,
+  "finalNote": "Affirmed; the landlord took nothing on its damages claims."
+ },
+ "source": {
+  "caseName": "South Florida Pool and Spa Corp. and Candido Sanchez v. Sharpe Investment Land Trust Number J, d/b/a Miller Heights Shopping Center",
+  "court": "Florida Third District Court of Appeal, on appeal from the Circuit Court for Miami-Dade County (Lower Tribunal No. 10-3721)",
+  "docket": "No. 3D15-102",
+  "decided": "2016-11-16",
+  "url": "https://storage.courtlistener.com/pdf/2016/11/16/south_florida_pool_and_spa_corp._v._sharpe_investment_land_trust_number_j.pdf",
+  "excerptNote": "Verbatim from Part I (Relevant Facts and Procedural Background): the eviction suit, the fire, the amended complaint's damages and negligence counts, the severed eviction summary judgment, and the tenant's January 2012 proposal for settlement. Removed: the opening two paragraphs (state the result of the damages trial and the appeal), the sentence and everything after it stating the result of the November 2014 damages trial, footnote 1, and all analysis and footnotes 2-7 (one of which states the landlord's eviction fee award). The opinion states no figure for the landlord's claimed damages."
+ }
+}

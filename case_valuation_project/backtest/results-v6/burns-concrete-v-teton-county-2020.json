@@ -1,0 +1,222 @@
+{
+ "id": "burns-concrete-v-teton-county-2020",
+ "ranAt": "2026-10-19T02:24:16+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1828,
+   "analysisUsd": 0.1758,
+   "analysisUsage": {
+    "input_tokens": 3581,
+    "cache_creation_input_tokens": 10301,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10301,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8428,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 2882
+    }
+   }
+  },
+  "category": "zoning-land-use",
+  "roleLabel": "Property Owner / Developer",
+  "damagesRange": [
+   0,
+   1905344.78
+  ],
+  "bestGuessValue": 1848184.4366,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability is fully established for the Burns Companies on summary judgment and affirmed through two prior appeals; the only question for the jury is damages. Expect a substantial reliance-damages award anchored to the $1,905,344.78 Exhibit 8 total, likely reduced somewhat by the County's offset evidence that some losses would have occurred regardless of the breach, plus prejudgment interest to be determined post-verdict.",
+  "issues": [
+   {
+    "label": "Reliance Damages (Exhibit 8 Expenditures)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     0,
+     1905344.78
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 1905344.78,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Total reliance damages per Exhibit 8 (temporary facility expenditures)",
+      "value": 1905344.78,
+      "disputed": true,
+      "quote": "the total amount of damages listed on Exhibit 8 was $1,905,344.78",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "County's Offset for Losses That Would Have Occurred Regardless of Breach",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Admissibility and Scope of Reliance Damages Theory",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "development_agreement_breach",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "County's Counterclaims (Breach of Contract / Removal of Temporary Facility)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Allocation of Damages Between Burns Holdings and Burns Concrete",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Prejudgment Interest",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Reputational/Business Interference Harm (Rinaldi Letters, Press Coverage)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 20,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.9725,
+   "settlementValue": 937639.334527256,
+   "likely50": [
+    439035.5032379296,
+    1421265.0974959305
+   ],
+   "likely80": [
+    153921.85180221032,
+    1702473.150116965
+   ],
+   "ifWin": [
+    481879.94675848127,
+    1437032.397213936
+   ],
+   "median": 958537.6807871637,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2020-11-02"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1049250.9,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-11-02",
+  "description": "After the damages trial the district court found $1,461,393.53 of the claimed $1,905,344.78 was spent in reasonable reliance on the Development Agreement, then deducted $412,142.63 (Temporary Facility sales less cost of sales) and awarded $1,049,250.90 in reliance damages, denied prejudgment interest, and awarded attorney fees of $792,529.25 plus $16,254.50. The Idaho Supreme Court on November 2, 2020 affirmed liability and the $1,461,393.53 reliance finding but vacated the judgment, holding the $412,142.63 reduction unsupported and instructing the district court to reverse it on recalculation, and vacated the fee awards for explanation.",
+  "attorneysFeesAtTrial": 808783.75,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "modified",
+  "finalAmount": null,
+  "finalNote": "Vacated and remanded for recalculation; the final figure is pending rather than computed by us."
+ },
+ "source": {
+  "caseName": "Burns Concrete, Inc. and Burns Holdings, LLC v. Teton County",
+  "court": "Supreme Court of the State of Idaho, on appeal from the District Court of the Seventh Judicial District, Teton County",
+  "docket": "Docket Nos. 46827/47496",
+  "decided": "2020-11-02",
+  "url": "https://storage.courtlistener.com/pdf/2020/11/02/burns_concrete_v._teton_county.pdf",
+  "excerptNote": "Verbatim from Part I.A (Factual Background) and Part I.B (Procedural History) through the summary of the damages-trial testimony. Removed: the syllabus and introduction (award amount and disposition), the post-trial contingency-fee agreement, the district court's findings of fact and conclusions of law and both final judgments' damages and fee figures, and all analysis. Prior appellate decisions on liability (Burns 2012, Burns 2016) are retained as procedural history."
+ }
+}

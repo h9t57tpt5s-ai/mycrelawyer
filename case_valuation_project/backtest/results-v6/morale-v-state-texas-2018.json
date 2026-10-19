@@ -1,0 +1,222 @@
+{
+ "id": "morale-v-state-texas-2018",
+ "ranAt": "2026-10-19T14:14:42+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1784,
+   "analysisUsd": 0.1735,
+   "analysisUsage": {
+    "input_tokens": 2002,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8581,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 3464
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   73771.8,
+   1262000
+  ],
+  "bestGuessValue": 877391.2250000001,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "At trial the jury is likely to reject the State's $122,953 cure-plan valuation given the favorable evidentiary rulings (admitted displacement history, excluded State variance testimony) and award compensation substantially closer to the Morales' appraiser's cure-plan figure of $1,064,335, with a meaningful chance of approaching the full $1,262,000 requested if the jury credits the 'no realistic variance' theory fully; a verdict near the State's number is possible but less likely.",
+  "issues": [
+   {
+    "label": "Just Compensation Valuation (Before/After Taking Value)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     122953,
+     1262947
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1262947,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "State appraiser Ayers's compensation figure (O'Connor cure plan, continued collision-repair use)",
+      "value": 122953,
+      "disputed": true,
+      "quote": "the compensation owed the Morales was $122,953",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Owners' appraiser Bolton's cure-plan (Carson plan, non-displaced) valuation",
+      "value": 1064335,
+      "disputed": true,
+      "quote": "the Morales would be entitled to $1,064,335",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Owners' appraiser Bolton's displaced valuation (full razing assumption)",
+      "value": 1262947,
+      "disputed": true,
+      "quote": "his \u201cdisplaced valuation\u201d of $1,262,947, constituting the loss in fair market value of the property if all improvements were razed",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Owners' stated requested award",
+      "value": 1262000,
+      "disputed": true,
+      "quote": "the Morales were requesting an award of $1,262,000",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Reasonable Probability of Zoning Variance / Cure Plan Viability",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Admissibility of Displacement Classification and Exclusion of State's Variance Testimony",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Special Commissioners' Award (Superseded Floor)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     49804
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 49804,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Special commissioners' award",
+      "value": 49804,
+      "disputed": true,
+      "quote": "the special commissioners awarded the Morales $49,804 in damages for the taking",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Nonconforming-Use Conformity Costs Undermining Cure Plan",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.77125,
+   "settlementValue": 493955.9366906572,
+   "likely50": [
+    13045.365113880485,
+    877095.3286577421
+   ],
+   "likely80": [
+    0,
+    1129770.8392321118
+   ],
+   "ifWin": [
+    319507.6373932492,
+    972833.3226091973
+   ],
+   "median": 459736.2819073312,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2018-06-22"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1064335,
+  "amountIsTheRequestedAmount": true,
+  "date": "2018-06-22",
+  "description": "The jury awarded $1,064,335, exactly the owners' appraiser Bolton's non-displaced compensation figure (the owners had requested $1,262,000; the State's appraiser said $122,953; the commissioners had awarded $49,804), and the trial court rendered judgment essentially on the verdict ($1,064,355, an unexplained $20 discrepancy). The Fort Worth Court of Appeals reversed and remanded for a new trial (2016); the Supreme Court of Texas reversed that judgment on June 22, 2018 and reinstated the trial court's judgment. No attorney's fees in a Texas condemnation award.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 1064335,
+  "finalNote": "Trial judgment reinstated by the Supreme Court of Texas after the court of appeals had reversed it."
+ },
+ "source": {
+  "caseName": "Stephen Morale d/b/a Action Collision Repair and Kimberly Morale v. The State of Texas",
+  "court": "Supreme Court of Texas (per curiam), on petition for review from the Second Court of Appeals (Fort Worth), which had reversed the Denton County trial court's judgment",
+  "docket": "No. 17-0049",
+  "decided": "2018-06-22",
+  "url": "https://storage.courtlistener.com/pdf/2018/06/22/stephen_morale_dba_action_collision_repair_and_kimberly_morale_v._state.pdf",
+  "excerptNote": "Verbatim from the statement of facts: the property and taking, the State's displacement classification and later cure plan, the special commissioners' award, the owners' appraiser and land planner, the zoning and nonconforming-use background, the State's pretrial motion, each side's valuation testimony (the State's $122,953; the owners' appraiser's $1,262,947 displaced and $1,064,335 non-displaced figures; Kimberly Morale's $1,262,000 request), and the disputed zoning-variance testimony and the trial court's evidentiary rulings. The owners' appraiser's non-displaced figure equals the verdict and is kept as the owners' own stated valuation (Skyway precedent), so amountIsTheRequestedAmount is true. Removed: the opening holding paragraph, the citation and department-manual sentences, the jury question and verdict sentence, footnote 1 (the $20 judgment discrepancy), the court of appeals' holdings and all of this Court's analysis and disposition."
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "id": "1700-market-v-common-grounds-2024",
+ "ranAt": "2026-10-17T17:49:20+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2945,
+   "analysisUsd": 0.2826,
+   "analysisUsage": {
+    "input_tokens": 2978,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15451,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 10292
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   2244328.9425,
+   3283504.15
+  ],
+  "bestGuessValue": 2447499.0255,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Landlord should prevail on liability essentially without contest and recover the unpaid rent/additional rent plus deposit-replenishment amounts it pled, roughly in the $800,000-$3.25 million band depending on how the deposit-replenishment theory and any mitigation offset shake out at trial; the actual trial award will likely run somewhat higher than the pled $3,238,504.15 once additional rent that accrued between the complaint and trial is added, but that increment isn't quantifiable from this record.",
+  "issues": [
+   {
+    "label": "Unpaid Rent and Additional Rent (through complaint date, June 2022)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     783504.15,
+     783504.15
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 783504.15,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Unpaid rent and additional rent as of June 2022 complaint",
+      "value": 783504.15,
+      "disputed": false,
+      "quote": "$783,504.15 in unpaid rent and additional rent",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Security Deposit Replenishment",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     2500000,
+     2500000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 2500000,
+    "kind": "claim",
+    "claimType": "security_deposit",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Security deposit replenishment sought",
+      "value": 2500000,
+      "disputed": false,
+      "quote": "$2,500,000.00 to replenish the security deposit",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Rent and Additional Rent Accruing Between Complaint and Trial",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Mitigation Defense (Duty to Relet)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Surrender vs. Wrongful Lockout",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "wrongful_lockout",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Attorney's Fees and Costs Under Lease \u00b625(b)(1)(vi)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.97775,
+   "settlementValue": 2428944.901537361,
+   "likely50": [
+    783504.15,
+    3283504.15
+   ],
+   "likely80": [
+    783504.15,
+    3283504.15
+   ],
+   "ifWin": [
+    783504.15,
+    3283504.15
+   ],
+   "median": 3283504.15,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2024-04-01"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 223000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-04-01",
+  "description": "After a non-jury trial the court entered judgment for the landlord for $223,000, the rent due through July 1, 2022 when it regained possession, holding the tenant had been evicted (not abandoned) so the landlord could not recover post-possession rent; it denied the landlord's post-trial claim to $2,149,435.75 in actual damages. The Superior Court affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 223000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "1700 Market Street Associates, L.P., SRI Eleven 1700 Market Holdings REIT, LLC, and 1700 Property Owner, LLC v. Common Grounds 1700 Market Street, LLC and Common Grounds Holdings, LLC",
+  "court": "Superior Court of Pennsylvania (published, 2024 PA Super 63), on appeal from the Court of Common Pleas of Philadelphia County (No. 02451 May Term 2022)",
+  "docket": "No. 1314 EDA 2023",
+  "decided": "2024-04-01",
+  "url": "https://www.pacourts.us/assets/opinions/Superior/out/J-A28029-23o.pdf",
+  "excerptNote": "Verbatim from the opinion's background (lease terms, abatement, the \u00b625(b) remedies clause, the default notices, the Municipal Court complaint and itemization, the breach-of-contract complaint) and the record facts recited in the discussion (the writ of possession, its notice, the alias writ and the return of keys), plus the landlord's appellate position that the tenant abandoned the premises. Removed: the opening paragraph (which states the award), the \u00b625(c) confession-of-judgment clause (for length), footnotes 1-3 and markers, page headers, the paragraph stating the trial court's judgment and post-trial rulings, the questions presented, and all appellate analysis and holdings (including 'The record demonstrates that Appellants followed this procedure to legally evict Appellees')."
+ }
+}

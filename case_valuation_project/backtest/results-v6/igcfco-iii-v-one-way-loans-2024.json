@@ -1,0 +1,265 @@
+{
+ "id": "igcfco-iii-v-one-way-loans-2024",
+ "ranAt": "2026-10-19T00:59:07+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.3357,
+   "analysisUsd": 0.3245,
+   "analysisUsage": {
+    "input_tokens": 3989,
+    "cache_creation_input_tokens": 11002,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11002,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 18085,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 11792
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   4548422.35,
+   5287813
+  ],
+  "bestGuessValue": 5129178.609999999,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "IGCFCO is very likely to obtain a final deficiency judgment at or near its requested $5,287,812, since liability is already fixed by the consent judgment and the lender's documented marketing/sale process (CBRE, 54,000 solicitations, competing offer, best-offer acceptance) is likely to be found commercially reasonable against thin, partly unsworn borrower evidence. The two already-entered contempt orders for security deposits and fees ($58,377) should also be collectible on their own, conceded terms, though actual recovery from Gross personally may be impaired by his admitted lack of funds.",
+  "issues": [
+   {
+    "label": "Deficiency Judgment Accounting (Consent Judgment Balance)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     4757813,
+     5257813
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 5257813,
+    "kind": "claim",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Consent judgment principal balance",
+      "value": 9650000,
+      "disputed": false,
+      "quote": "$9,650,000 minus any amounts properly paid by Defendants",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Accrued interest at 13% through filing of deficiency motion",
+      "value": 500000,
+      "disputed": true,
+      "quote": "Interest on the Judgment Amount from the date of the Consent Judgment to the filing of this motion at the rate of thirteen percent (13%) per annum totals $500,000.00.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Sale proceeds net credit to lender",
+      "value": 4892187,
+      "disputed": true,
+      "quote": "which resulted in a net profit to plaintiff of $4,892,187",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Commercial Reasonableness of the Sale (Borrowers' Defense)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Rent/Income Offset Defense",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Guaranty Enforcement Against Watermark, Coffee Factory, and Gross",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "guaranty_enforcement",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Contempt Sanctions: Security Deposits and Fee Awards",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     30000,
+     30000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 30000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "First contempt order security deposits",
+      "value": 27377,
+      "disputed": false,
+      "quote": "ordering defendants to pay plaintiff $27,377 in security deposits, along with $1,000 for attorney fees",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "First contempt order attorney fees",
+      "value": 1000,
+      "disputed": false,
+      "quote": "along with $1,000 for attorney fees",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Second contempt order attorney fees",
+      "value": 1623,
+      "disputed": false,
+      "quote": "$28,377 in security deposits and $1,623 in attorney fees",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Receivership (Count IV) \u2014 Now Moot",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "receivership_dispute",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Unasserted/Speculative Lender-Liability Counterclaim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.9935,
+   "settlementValue": 4888591.246894619,
+   "likely50": [
+    4896593.655195005,
+    5161029.479783878
+   ],
+   "likely80": [
+    4823298.966480337,
+    5235014.94209367
+   ],
+   "ifWin": [
+    4899315.564162947,
+    5162104.889718734
+   ],
+   "median": 5028025.22232841,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2024-08-08"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 5287812.0,
+  "amountIsTheRequestedAmount": true,
+  "date": "2024-08-08",
+  "description": "On May 26, 2023, after a hearing on the lender's motion and without an evidentiary hearing, the trial court found the sale commercially reasonable at $5,275,000, refused any offset for rents, and entered a final deficiency judgment for the lender of $5,287,812 (the amount requested) with 13% interest capped at $500,000. The Court of Appeals affirmed, holding UCC Article 9 inapplicable and the consent judgment controlling.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 5287812.0,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "IGCFCO III, LLC v. One Way Loans, LLC, d/b/a Powerlend; P&G Holdings, LLC, Watermark Banquet and Conference Center, LLC, The Coffee Factory, LLC, and Moses Gross",
+  "court": "Michigan Court of Appeals (published), on appeal from the Muskegon County Circuit Court",
+  "docket": "No. 366535 (LC No. 2021-001755-CB)",
+  "decided": "2024-08-08",
+  "url": "https://www.courts.michigan.gov/4a298a/siteassets/case-documents/uploads/opinions/final/coa/20240808_c366535_30_366535.opn.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Factual Background): the loan, default, complaint, consent judgment, contempt proceedings, the lender's deficiency motion, the borrowers' response, the lender's reply, and the parties' arguments at the hearing. Removed: footnote 1 (Powerlend's non-appearance) and its marker, the trial court's bench ruling and the final deficiency judgment amount, and all of Part II (appellate analysis and holding). Note: the deficiency judgment equals the figure the lender requested in its motion, which remains in the text as the lender's demand. Whitespace and page-number artifacts normalized only."
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "id": "dover-mall-v-tang-2023",
+ "ranAt": "2026-10-18T22:05:38+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2002,
+   "analysisUsd": 0.1901,
+   "analysisUsage": {
+    "input_tokens": 2328,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9414,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 4638
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   262285.23399999994,
+   276089.72
+  ],
+  "bestGuessValue": 267807.02839999995,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Dover Mall should win on liability as a matter of law -- Tang's COVID frustration/impossibility and pre-pandemic occupancy-decline defenses both fail against the lease's explicit force-majeure carve-out for rent and the independent nature of the rent covenant. The real uncertainty is whether the court awards the full $276,089.72 on summary judgment or finds the landlord's unsubstantiated mitigation record creates a triable issue on amount; either way, a substantial majority of the requested sum is the likely outcome, capped at the $276,089.72 actually prayed for.",
+  "issues": [
+   {
+    "label": "Unpaid Rent, Accelerated Rent and Other Charges",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     276089.72,
+     276089.72
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 276089.72,
+    "kind": "claim",
+    "claimType": "accelerated_rent",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Total unpaid rent, accelerated rent and other charges sought",
+      "value": 276089.72,
+      "disputed": false,
+      "quote": "Dover Mall then filed the present suit seeking $276,089.72 for unpaid rent, accelerated rent, and other charges.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Failure to Mitigate (Reletting)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "COVID Frustration of Purpose / Impossibility Defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Pre-Pandemic Declining Occupancy Frustration Defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.971,
+   "settlementValue": 268083.11812002055,
+   "likely50": [
+    276089.72,
+    276089.72
+   ],
+   "likely80": [
+    276089.72,
+    276089.72
+   ],
+   "ifWin": [
+    276089.72,
+    276089.72
+   ],
+   "median": 276089.72,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2023-10-05"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 276089.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-10-05",
+  "description": "The Superior Court granted the landlord summary judgment on liability and damages in the amount of $276,089.72, the full amount demanded, holding the force majeure clause allocated pandemic-closure risk to the tenant and two lease provisions relieved the landlord of any duty to relet. No attorney's fee award is stated. This is a trial-level decision; no appeal is reflected in the opinion.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "n/a (trial-level decision; no appeal in opinion)",
+  "finalAmount": 276089.72,
+  "finalNote": "Trial-level decision; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Dover Mall, LLC v. Sam Tang",
+  "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
+  "docket": "C.A. No. K22C-07-013 JJC",
+  "decided": "2023-10-05",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=353820",
+  "excerptNote": "Verbatim from the letter opinion's introduction (parties' positions), 'The Record and Procedural Background' section (including footnotes 16 and 17), and the fact-recitation portions of the Discussion (Tang's two affirmative defenses; his concession on the damages schedule). Removed: every sentence stating the court's rulings on liability, force majeure, mitigation, and the summary-judgment result; the long quoted remedy/reletting lease clauses; the case-law discussion; the Conclusion. The $276,089.72 figure that remains is Dover Mall's stated demand, not the result."
+ }
+}

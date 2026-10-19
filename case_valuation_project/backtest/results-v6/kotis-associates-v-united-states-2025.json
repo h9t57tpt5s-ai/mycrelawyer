@@ -1,0 +1,203 @@
+{
+ "id": "kotis-associates-v-united-states-2025",
+ "ranAt": "2026-10-18T22:03:45+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2253,
+   "analysisUsd": 0.2198,
+   "analysisUsage": {
+    "input_tokens": 2678,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11527,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 5602
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   0,
+   44744774
+  ],
+  "bestGuessValue": 43402430.78,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Given conceded liability, severe physical encumbrance of improved parcels, and the government's failure to offer any competing valuation, the Kotis Entities are very likely to recover a substantial just compensation award \u2014 the government's zero/nominal theories are weak on this record. The principal uncertainty is quantum: the court may meaningfully discount Dr. Kilpatrick's $44.74 million figure based on credited methodology criticisms (national cap rate survey, comparable selection) even without a rival number to anchor a specific reduction, plus interest from the October 11, 2019 taking date.",
+  "issues": [
+   {
+    "label": "Aggregate Just Compensation for the ITUR Easement Taking",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     0,
+     44744774
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 44744774,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Plaintiffs' appraisal (Dr. Kilpatrick) \u2014 total just compensation for all thirteen parcels",
+      "value": 44744774,
+      "disputed": true,
+      "quote": "upwards of $44,744,774.00 plus interest",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Government's 'Already Burdened' / No-New-Taking Defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "'Narrow and Nonexclusive' Easement Defense to Nominal Compensation",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Jurisdictional Challenge to Any But a Nominal Award",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "quick_take_challenge",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Appraisal Methodology Challenges (Cap Rate and Comparable Sales)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Severance Damage to the Publix, Core Life, and Red Cinemas Parcels",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.96725,
+   "settlementValue": 21208904.09913456,
+   "likely50": [
+    9840237.561313644,
+    32717054.54377189
+   ],
+   "likely80": [
+    2960799.1067014164,
+    39704674.61134066
+   ],
+   "ifWin": [
+    11003978.162103575,
+    33167007.708491616
+   ],
+   "median": 20907752.74450824,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2025-04-23"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 42641740,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-04-23",
+  "description": "After the valuation trial the Court of Federal Claims adopted Dr. Kilpatrick's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 42641740,
+  "finalNote": "No appeal reflected."
+ },
+ "source": {
+  "caseName": "Kotis Associates, LLC, et al. v. United States",
+  "court": "United States Court of Federal Claims (trial-level opinion and order after valuation trial, Senior Judge Loren A. Smith)",
+  "docket": "No. 20-932",
+  "decided": "2025-04-23",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2020cv0932-206-0",
+  "excerptNote": "Verbatim from the opinion's introduction, Part I.B (Statement of Facts: corridor background and three of the thirteen parcel descriptions), Part II (Procedural History), Part III (Overview of Trial Testimony) and Part IV.B.2 (description of each side's appraisal evidence and the government's objections). Record citations (Tr., JX, PX, DX) were dropped from most sentences, and within the parcel descriptions a few intervening sentences (purchase history, parking/building inventories) were omitted between retained sentences. Removed: the intro sentences stating the Court grants/denies the motions and awards compensation in the amount estimated by plaintiffs' expert subject to modifications; ten other parcel descriptions and part of the corridor chronology (length); the highest-and-best-use findings; the Court's rulings on scope of the taking, the privacy-wall deduction, the credibility of Dr. Kilpatrick and rejection of Mr. Roach's objections; and the per-parcel before/after values and total award on the final page (which is an image in the PDF). No appeal is reflected in this opinion."
+ }
+}

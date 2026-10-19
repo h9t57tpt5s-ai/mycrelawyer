@@ -1,0 +1,248 @@
+{
+ "id": "piedmont-gas-v-blueroad-fontanel-2026",
+ "ranAt": "2026-10-19T02:10:46+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2787,
+   "analysisUsd": 0.2694,
+   "analysisUsage": {
+    "input_tokens": 5163,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14337,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 8546
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   223180,
+   14550000
+  ],
+  "bestGuessValue": 9836000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "BlueRoad is very likely to recover materially more than Piedmont's $48,700 deposit and more than the baseline's narrow $146,100-$292,200 estimate, because its expert's before-value testimony survived the Daubert challenge and the auction sale provides real (if contestable) after-value evidence of substantial severance damage tied to loss of event-area access. But full recovery of the ~$14M theoretical diminution is unlikely given the forced-sale character of the auction, Gibson's failure to provide an independent after-value appraisal, and Piedmont's credible (and partially admission-supported, partially contradicted) access-retention defense; expect a jury verdict in the low-to-mid seven figures, substantially above the direct-take floor but well below BlueRoad's theoretical maximum.",
+  "issues": [
+   {
+    "label": "Severance/Incidental Damages via Before- and After-Taking Valuation",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     292800,
+     14500000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 14500000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Gibson (BlueRoad expert) before-taking value",
+      "value": 25500000,
+      "disputed": true,
+      "quote": "Mr. Gibson prepared an appraisal in which he reached the conclusion that the property\u2019s value before the taking was $25,500,000.",
+      "computed": null,
+      "role": "before_value"
+     },
+     {
+      "label": "Turner (Piedmont expert) before-taking value",
+      "value": 11792800,
+      "disputed": true,
+      "quote": "BlueRoad questioned Mr. Turner regarding his before-taking valuation of $11,792,800 (as of October 2019)",
+      "computed": null,
+      "role": "before_value"
+     },
+     {
+      "label": "Farrell (owner) lay opinion of before-taking value",
+      "value": 26000000,
+      "disputed": true,
+      "quote": "I believed at the time of the take, it was worth approximately $26 million dollars.",
+      "computed": null,
+      "role": "before_value"
+     },
+     {
+      "label": "2022 auction sale price (BlueRoad's after-value proxy)",
+      "value": 11500000,
+      "disputed": true,
+      "quote": "BlueRoad sold the property at auction in 2022 in six separate parcels for a total of $11,500,000.",
+      "computed": null,
+      "role": "after_value"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Direct Damages for the Taken Easement Strip",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     50000,
+     50000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 50000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Direct damages for right-of-way land (Turner)",
+      "value": 98700,
+      "disputed": false,
+      "quote": "As to the land used for the easement itself, the right-of-way, Mr. Turner opined that the direct damages were $98,700.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Piedmont's deposit already paid",
+      "value": 48700,
+      "disputed": false,
+      "quote": "$48,700, which was deposited with the circuit court clerk",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Access/Encroachment Causation Dispute",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Forced/Distressed-Sale Discount on Auction Price",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Daubert/Rule 702 Admissibility of Gibson's Appraisal",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Half-Acre Knight Road Incidental Damage",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.976,
+   "settlementValue": 4971909.763798261,
+   "likely50": [
+    50000,
+    9195906.139195524
+   ],
+   "likely80": [
+    50000,
+    12437726.33920703
+   ],
+   "ifWin": [
+    50000,
+    9351668.761284836
+   ],
+   "median": 3853675.2087125555,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2026-04-01"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 13896800,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-04-01",
+  "description": "The Davidson County jury (August 2024) found a before-taking value of $25,500,000 and an after-taking value of $11,603,200, i.e. incidental damages of $13,896,800; judgment was entered for $13,798,100 after crediting Piedmont's $98,700 deposit, plus $14,203 discretionary costs. The Tennessee Court of Appeals affirmed on April 1, 2026, upholding admission of the owner's before-only appraisal and the jury's blending of the two experts' values. Amount used is the total compensation found (the deposit is part of it).",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 13896800,
+  "finalNote": "Affirmed; judgment of $13,798,100 is the $13,896,800 verdict net of the $98,700 already deposited."
+ },
+ "source": {
+  "caseName": "Piedmont Natural Gas Company, Inc. v. BlueRoad Fontanel, LLC",
+  "court": "Court of Appeals of Tennessee at Nashville, on appeal from the Circuit Court for Davidson County",
+  "docket": "No. M2024-01860-COA-R3-CV (trial court No. 19C1900)",
+  "decided": "2026-04-01",
+  "url": "https://storage.courtlistener.com/pdf/2026/04/01/piedmont_natural_gas_company_inc._v._blueroad_fontanel_llc.pdf",
+  "excerptNote": "Verbatim from the Factual and Procedural Background: property and easement description, motion in limine, and a selection of the trial testimony of the owner (Farrell), land planner (Haas), Piedmont's asset-protection manager (Foster), and both appraisers (Gibson, Turner). Removed: the syllabus (disposition), parcel-map captions, footnotes 1-9 (including a footnote marker attached to Gibson's before-value figure, dropped from that sentence), long quoted testimony blocks and the Fox/Garner/Wiggins testimony (length), the paragraph stating the jury's before/after findings, incidental-damages figure and the judgment, the costs award, and all issues and analysis."
+ }
+}

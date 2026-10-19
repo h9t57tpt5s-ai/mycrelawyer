@@ -1,0 +1,185 @@
+{
+ "id": "asarco-v-atlantic-richfield-2020",
+ "ranAt": "2026-10-19T02:47:42+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.4056,
+   "analysisUsd": 0.399,
+   "analysisUsage": {
+    "input_tokens": 3374,
+    "cache_creation_input_tokens": 10623,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10623,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 23269,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 16930
+    }
+   }
+  },
+  "category": "environmental",
+  "roleLabel": "Property Owner / PRP",
+  "damagesRange": [
+   0,
+   61400000
+  ],
+  "bestGuessValue": 19955000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "ASARCO should prevail on Atlantic Richfield's core PRP liability at trial, but the dollar recovery will be substantially discounted from the full $111.4 million settlement figure by two compounding factors: a real risk that the recoverable cost base is capped near Atlantic Richfield's $61.4 million estimate rather than the full settlement amount, and an equitable allocation share that even ASARCO's own expert caps at 25-41% given the comparative scale of the two operations. Net expected recovery is likely in the mid-to-high single-digit to low-double-digit millions, well below either side's extreme positions.",
+  "issues": [
+   {
+    "label": "CERCLA Contribution Recovery Against Atlantic Richfield (Cost Base & Allocation)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     0,
+     61400000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 61400000,
+    "kind": "claim",
+    "claimType": "cercla_contribution_claim",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Atlantic Richfield's estimate of total actual cleanup cost",
+      "value": 61400000,
+      "disputed": true,
+      "quote": "Adding those sums to the dollar amount already expended by METG, the total cleanup cost for the Site would approximate $61.4 million.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Equitable Allocation Factors (Volume, Toxicity, Duration, Involvement)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "cercla_contribution_claim",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "\"Incurred Costs\" Threshold Defense (Future/Speculative Remediation Costs)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "cercla_contribution_claim",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "NRD and Trust-Administration Components: Not \"Response Costs\"",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "cercla_contribution_claim",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Statute of Limitations Defense (Resolved on Appeal)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "cercla_contribution_claim",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 24,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.30425,
+   "settlementValue": 9271880.11808954,
+   "likely50": [
+    0,
+    10931600.169464946
+   ],
+   "likely80": [
+    0,
+    41141083.58551748
+   ],
+   "ifWin": [
+    14716846.89912945,
+    46111924.994783476
+   ],
+   "median": 0,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2020-09-14"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 28850936,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-09-14",
+  "description": "After an eight-day bench trial the district court found ASARCO had incurred $111,403,743 in necessary response costs (the full consent-decree payment) and held Atlantic Richfield liable for 25 percent of them, $27,850,936, adopting the most conservative of ASARCO's expert's allocation strategies (25 to 41 percent) and rejecting Atlantic Richfield's zero allocation; it added a separate $1 million award for Atlantic Richfield's non-cooperation and misrepresentations, so the stated awards total $28,850,936. The Ninth Circuit affirmed the 25 percent allocation (and the unchallenged $1 million award) but vacated the finding that the whole $111.4 million was recoverable now, because about $50 million of trust funds had not been and might never be spent, and remanded to determine which costs were actually incurred. Atlantic Richfield had argued recoverable costs should be limited to about $61.4 million.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "vacated-in-part",
+  "finalAmount": null,
+  "finalNote": "Allocation affirmed; cost base vacated and remanded, so no final figure (25 percent of the remand cost base plus the $1 million award)."
+ },
+ "source": {
+  "caseName": "ASARCO LLC v. Atlantic Richfield Company, LLC",
+  "court": "United States Court of Appeals for the Ninth Circuit, on appeal from the United States District Court for the District of Montana (bench trial)",
+  "docket": "No. 18-35934 (D.C. No. 6:12-cv-00053-DLC)",
+  "decided": "2020-09-14",
+  "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2020/09/14/18-35934.pdf",
+  "excerptNote": "documentText is verbatim from the Ninth Circuit's published opinion (the court's PDF; text taken from the CourtListener mirror of the same file): the opening two sentences, Part I.A-B (site operations, EPA involvement, the settlement payment and its components, the competing remediation-cost estimates), Part I.C through the 2017 remand, the parties' positions on 'incurred' costs recited in Part II.A, and the parties' experts' allocation positions from Part II.B. Removed: the summary; every sentence stating the district court's findings, allocation percentage, award or additional premium; the Ninth Circuit's analysis and holdings; page headers; footnotes other than footnotes 1 and 2 (kept as separate lines). Where a footnote fell inside a sentence the sentence is kept with a line break at that point."
+ }
+}

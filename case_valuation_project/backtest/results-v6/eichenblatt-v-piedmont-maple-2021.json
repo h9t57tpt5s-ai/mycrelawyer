@@ -1,0 +1,29 @@
+{
+ "id": "eichenblatt-v-piedmont-maple-2021",
+ "ranAt": "2026-10-19T03:25:04+00:00",
+ "status": 400,
+ "prediction": null,
+ "error": {
+  "error": "unrecognized-category",
+  "message": "We couldn't confidently tell what kind of commercial real estate dispute this is \u2014 try adding a bit more detail, like the type of dispute (e.g. lease, injury on the property, construction defect, foreclosure) and who the parties are."
+ },
+ "outcome": {
+  "amount": 79065.6,
+  "amountIsTheRequestedAmount": false,
+  "date": "2021-01-29",
+  "description": "At the start of trial KDP confessed judgment of about $79,000 on the unpaid-rent claim; the court directed a verdict against Eichenblatt on the assemblage claims and the jury rejected his remaining fiduciary-duty counterclaim and found the company correctly valued his distribution. Final judgment (May 18, 2018) declared his dissolution share to be the $969,609.23 already tendered and awarded him $79,065.60 for the rent underpayment. That judgment was affirmed in the Third Appeal (2019); the appellees' $837,444.95 fee award under the offer statute was reversed on January 29, 2021.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": "the opposing parties' $837,444.95 offer-of-settlement fee award against Eichenblatt was reversed",
+  "appellateChange": "affirmed",
+  "finalAmount": 79065.6,
+  "finalNote": "Merits affirmed in the 2019 Third Appeal; the fee award against the counterclaimant reversed in 2021."
+ },
+ "source": {
+  "caseName": "David Eichenblatt v. Piedmont/Maple, LLC, Kaufman Development Partners, LP, and Craig S. Kaufman",
+  "court": "Court of Appeals of Georgia, Fourth Division",
+  "docket": "A20A2052",
+  "decided": "2021-01-29",
+  "url": "https://storage.courtlistener.com/pdf/2021/02/16/david_eichenblatt_v._piedmontmaple_llc.pdf",
+  "excerptNote": "Verbatim from the factual summary (formation of Piedmont/Maple, the 2011 verdict in the earlier suit, the member loan, the separate parcel sales, the tendered dissolution distribution, the declaratory action and the counterclaims with the unpaid-rent figure), the Second Appeal summary-judgment history, the offer-of-settlement sentences, and paragraph 1 of the appellees' OCGA 9-11-68 offer. Removed: the opening paragraph (fee award and holding), the sentence pointing to prior opinions, the confessed judgment, directed verdict, jury verdict and final judgment, the Third Appeal, the fee motion and award, the rest of the offer's text, and all analysis. The earlier 2011 jury award ($625,000) is a separate suit's result and is kept as background."
+ }
+}

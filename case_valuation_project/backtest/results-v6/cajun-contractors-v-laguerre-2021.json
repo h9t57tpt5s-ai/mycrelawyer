@@ -1,0 +1,255 @@
+{
+ "id": "cajun-contractors-v-laguerre-2021",
+ "ranAt": "2026-10-19T03:25:00+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2752,
+   "analysisUsd": 0.2685,
+   "analysisUsage": {
+    "input_tokens": 2461,
+    "cache_creation_input_tokens": 9660,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 9660,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14992,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 8720
+    }
+   }
+  },
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "This value turns on facts the materials do not state: the injured person's medical expenses and lost earnings, past and future, with their amounts. Add them and run the estimate again.",
+  "likelyOutcome": "Laguerre is very likely to establish both direct negligence and vicarious liability against Cajun given the extensive, largely undisputed control and safety-failure evidence, and has a genuine shot at punitive damages given Cajun's deliberate failure to plan or inspect. The compensatory recovery actually collectible from Cajun, however, will be substantially reduced by the $1,000,000 settlement credit from the Hotel Defendants' settlement, making net compensatory exposure modest unless the jury values the injury well above that figure, with punitive damages and possible offer-of-settlement fee-shifting as the main sources of additional exposure.",
+  "issues": [
+   {
+    "label": "Direct Negligence -- Failure to Implement Safety/Hazard Control Plan",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "dangerous_condition_failure_to_warn",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Vicarious Liability for RYR's Negligence (Control Test)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Punitive Damages Against Cajun",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "premises_punitive_damages",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Total Compensatory Damages Valuation",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     25000,
+     1000000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1000000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Hotel Defendants' eve-of-trial settlement",
+      "value": 1000000,
+      "disputed": true,
+      "quote": "the Hotel Defendants reached a settlement with Laguerre under which they agreed to pay him $1,000,000.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Laguerre's global settlement offer to both defendants",
+      "value": 250000,
+      "disputed": true,
+      "quote": "Laguerre served the Hotel Defendants and Cajun with a global offer to settle the case for $250,000, which was rejected.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Cajun's counteroffer (high)",
+      "value": 50000,
+      "disputed": true,
+      "quote": "Cajun rejected the offer and served Laguerre with two offers of settlement, one for $25,000 and the other for $50,000, both of which were rejected by Laguerre.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Cajun's counteroffer (low)",
+      "value": 25000,
+      "disputed": true,
+      "quote": "Cajun rejected the offer and served Laguerre with two offers of settlement, one for $25,000 and the other for $50,000, both of which were rejected by Laguerre.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Joint-Tortfeasor Settlement Credit",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Settlement credit from Hotel Defendants' payment",
+      "value": 1000000,
+      "disputed": false,
+      "quote": "the Hotel Defendants reached a settlement with Laguerre under which they agreed to pay him $1,000,000.",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Independent Contractor Defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Causation Dispute -- Origin of the Pipe",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Offer-of-Settlement Fee-Shifting Exposure",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 0,
+   "tier": "none"
+  },
+  "scenarios": null,
+  "missingFacts": [
+   "the injured person's medical expenses and lost earnings, past and future, with their amounts"
+  ],
+  "valuationDate": "2021-06-30"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 5250000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2021-06-30",
+  "description": "The jury found Cajun vicariously liable for its subcontractor, apportioned 100% of fault to Cajun, and awarded $5,000,000 compensatory and $500,336 punitive damages; the trial court entered judgment of $5,250,000 (punitive capped at $250,000) and awarded Laguerre $1,050,000 in attorney fees plus $45,196.47 in expenses under OCGA 9-11-68 based on the rejected $75,000 offer. The Court of Appeals affirmed the judgment and fee award on June 30, 2021 (A21A1120) and reversed the hotel defendants' indemnity judgment against Cajun (A21A0311). Laguerre separately received $1,000,000 from the hotel defendants' pre-trial settlement, which is not part of this amount.",
+  "attorneysFeesAtTrial": 1050000,
+  "attorneysFeesOnAppeal": "affirmed",
+  "appellateChange": "affirmed",
+  "finalAmount": 5250000,
+  "finalNote": "Affirmed as to Laguerre's judgment and fees."
+ },
+ "source": {
+  "caseName": "Cajun Contractors, Inc. v. Max Laguerre et al. (companion: Cajun Contractors, Inc. v. Peachtree Property Sub, LLC, d/b/a Crowne Plaza Hotel Atlanta-Midtown)",
+  "court": "Court of Appeals of Georgia, First Division",
+  "docket": "A21A1120, A21A0311",
+  "decided": "2021-06-30",
+  "url": "https://storage.courtlistener.com/pdf/2021/06/30/cajun_contractors_inc._v._peachtree_property_sub_llc_dba_crowne_plaza.pdf",
+  "excerptNote": "Verbatim from the Case No. A21A1120 statement of facts (the trade contract, the rooftop pool-deck demolition, safety measures, the falling pipe and injuries, footnote 3 on conflicting testimony, the complaint, and the pre-trial hotel settlement), with the clause 'So viewed, the evidence shows that' cut from the first sentence; from Division 2, the offer history (the $75,000 April 2018 offer, Cajun's $25,000 and $50,000 counteroffers, and the first sentence of footnote 11 on the $250,000 global offer); and from Case No. A21A0311, the hotel defendants' indemnity tender and the $1,000,000 settlement. Removed: the opening paragraphs (state the verdict, fee award and holdings), footnotes 1, 2, 4, 5 and markers, the verdict, punitive phase and judgment, the post-trial motions and fee award, the rest of footnote 11, and all analysis."
+ }
+}

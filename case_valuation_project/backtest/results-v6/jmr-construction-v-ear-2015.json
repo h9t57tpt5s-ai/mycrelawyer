@@ -1,0 +1,264 @@
+{
+ "id": "jmr-construction-v-ear-2015",
+ "ranAt": "2026-10-19T03:21:10+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2728,
+   "analysisUsd": 0.2558,
+   "analysisUsage": {
+    "input_tokens": 5820,
+    "cache_creation_input_tokens": 10717,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10717,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13211,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 7038
+    }
+   }
+  },
+  "category": "construction-defect",
+  "roleLabel": "Owner / Developer",
+  "damagesRange": [
+   -81684.9825,
+   347580.32999999996
+  ],
+  "bestGuessValue": 197858.48062500003,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "JMR is well positioned to prevail on liability against EAR (and derivatively SureTec) given consistent percipient-witness testimony and a reasoned expert delay/cost allocation, but the modified-total-cost drywall claim and the Eichleay claim both carry real methodological risk that will trim recovery below the pleaded ceiling. EAR will likely recover some or most of its retention, substantially offset against JMR's proven delay damages, producing a net recovery for JMR materially below the sum of its raw claimed figures.",
+  "issues": [
+   {
+    "label": "Field Overhead Delay Damages (EAR-attributable share)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     161851.33
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 161851.33,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "JMR field overhead damages attributable to EAR",
+      "value": 161851.33,
+      "disputed": true,
+      "quote": "Perez concluded that JMR\u2019s total field overhead damages for which EAR was responsible was $161,851.33.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Framing/Drywall Disruption Damages (Modified Total Cost Method)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     185729
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 185729,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Disruption damages allocable to EAR for framing/drywall phase",
+      "value": 185729,
+      "disputed": true,
+      "quote": "Perez then calculated the total amount of disruption damages allocable to EAR relating to the framing and drywall phase, which he determined to be $185,729.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Eichleay Home-Office Overhead Damages",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Air Compressor Replacement / Defective Performance Costs",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "SureTec Performance Bond Foreclosure (Derivative Liability)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "indemnification_contribution_claim",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "EAR's Cross-Complaint for Withheld Retention",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     -108913.31,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -108913.31,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Retention withheld under both subcontracts",
+      "value": 108913.31,
+      "disputed": true,
+      "quote": "EAR had been damaged in an amount in excess of $108,913.31.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Concurrent-Delay Apportionment Defense",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Section 998 Offer Cost-Shifting Exposure",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.73575,
+   "settlementValue": 80681.20139115503,
+   "likely50": [
+    -451.4023466714716,
+    154675.7470776072
+   ],
+   "likely80": [
+    -54098.42105397216,
+    215628.89424510195
+   ],
+   "ifWin": [
+    64773.86087560921,
+    179516.17994557798
+   ],
+   "median": 81039.28720297398,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2015-12-30"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 315631,
+  "amountIsTheRequestedAmount": false,
+  "date": "2015-12-30",
+  "description": "After a five-day bench trial (January 2012) the court found for JMR and, after JMR withdrew one claim and adjusted another in its proposed statement of decision, entered judgment on August 14, 2012 for a net $315,631: $29,249 air compressor, $132,168 field overhead for delay, $15,440 field overhead for closeout, $14,244 markup, $60,693 Eichleay home office overhead and $185,730 framing/drywall disruption, less $121,893 retention withheld; EAR took nothing on its cross-complaint. A later order awarded JMR $90,644.07 in section 998 expert fees and found it entitled to attorney fees (amount undetermined) for defending the cross-complaint. On December 30, 2015 the Sixth District affirmed the judgment (Eichleay and modified total cost methods upheld, surety liable) and reversed the expert-fee award as premature.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": "entitlement to fees for defending the cross-complaint found but amount never fixed; $90,644.07 expert-fee award reversed",
+  "appellateChange": "affirmed",
+  "finalAmount": 315631,
+  "finalNote": "Judgment affirmed; expert-fee order reversed and remanded."
+ },
+ "source": {
+  "caseName": "JMR Construction Corp. v. Environmental Assessment and Remediation Management, Inc., and SureTec Insurance Company",
+  "court": "California Court of Appeal, Sixth Appellate District, on appeal from the Superior Court of Monterey County (No. M105497)",
+  "docket": "H039055 (243 Cal.App.4th 571; modified January 28, 2016)",
+  "decided": "2015-12-30",
+  "url": "https://storage.courtlistener.com/pdf/2015/12/30/jmr_construction_v._environmental_assessment_etc..pdf",
+  "excerptNote": "Verbatim from the opening description of the project and the suit (first paragraph and sentences two to four of the second), the Procedural Background's account of the complaint and cross-complaint, Discussion I.A.1-2 (each side's trial testimony and a selection of JMR's documentary evidence), Discussion I.B.1 (JMR's damages evidence, including its experts' figures), and the sentence describing JMR's identical section 998 offers. Removed: the court's net award and every later sentence of the opening, the summary of appellate arguments and holdings, the trial court's April 2012 ruling, the statement of decision's damages components and the judgment, the post-judgment fee and expert-fee orders, the publication footnote, footnotes 2-4 and markers, the first sentence of the second paragraph (its list is split by the publication footnote), the expert's general explanation of baseline scheduling, the whole documentary-evidence section (JMR's 2007-2008 letters and emails to EAR), expert qualifications, part of the bid-review testimony and the description of the modified total cost method, the appellate court's remarks on what it would not summarize, and all analysis. The Eichleay claim amount is not stated anywhere except in the court's award."
+ }
+}

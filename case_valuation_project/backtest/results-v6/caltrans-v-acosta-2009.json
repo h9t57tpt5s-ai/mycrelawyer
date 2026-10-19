@@ -1,0 +1,192 @@
+{
+ "id": "caltrans-v-acosta-2009",
+ "ranAt": "2026-10-19T14:04:53+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.185,
+   "analysisUsd": 0.1809,
+   "analysisUsage": {
+    "input_tokens": 1503,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9170,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 4414
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   90000,
+   705000
+  ],
+  "bestGuessValue": 493425.00000000006,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Acosta is well positioned to establish entitlement to goodwill damages at trial \u2014 two different trial judges have already rejected Caltrans's PMPA preemption defense \u2014 and the real battle is a narrow valuation dispute between $678,000 and $731,000, with Acosta's own $705,000 final demand likely close to the eventual award; Caltrans's $150,000 final offer looks like a litigation position tied to its (losing) preemption theory rather than a credible valuation and exposes Caltrans to a litigation-expense award on top of the goodwill recovery.",
+  "issues": [
+   {
+    "label": "PMPA Preemption of Goodwill Claim (Entitlement)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Assignment/Double-Recovery Dispute (BP Stipulated Judgment vs. Goodwill Assignment)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Goodwill Damages Valuation",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     150000,
+     731000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 731000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Caltrans appraiser valuation",
+      "value": 678000,
+      "disputed": true,
+      "quote": "Caltrans\u2019s appraiser arrived at a value of $678,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Acosta appraiser valuation",
+      "value": 731000,
+      "disputed": true,
+      "quote": "Acosta\u2019s appraiser put the value at $731,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Acosta final demand for compensation",
+      "value": 705000,
+      "disputed": false,
+      "quote": "Acosta filed a final demand for compensation in the amount of $705,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Caltrans final offer of compensation",
+      "value": 150000,
+      "disputed": true,
+      "quote": "Caltrans submitted a final offer of compensation in the amount of $150,000",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Litigation Expenses from Unreasonable Final Offer",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "eminent_domain_attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.67625,
+   "settlementValue": 299724.3808624531,
+   "likely50": [
+    0,
+    516969.1563183442
+   ],
+   "likely80": [
+    0,
+    646048.3618469443
+   ],
+   "ifWin": [
+    301909.47608998977,
+    591538.7714970857
+   ],
+   "median": 307409.4689087942,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2009-10-26"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 704500,
+  "amountIsTheRequestedAmount": false,
+  "date": "2009-10-26",
+  "description": "After the court denied Caltrans's summary-adjudication motion and its motion in limine to exclude goodwill evidence, Caltrans and Acosta stipulated (March 26, 2008) to judgment of $704,500 on the goodwill claim, reserving Caltrans's right to appeal issues of law; the court entered judgment as stipulated and awarded Acosta $288,537.75 in litigation expenses and expert fees under section 1250.410 (final demand $705,000 reasonable, final offer $150,000 unreasonable). The Third District affirmed both on October 26, 2009, holding the goodwill claim is not preempted by the PMPA. This is a stipulated judgment, not a verdict.",
+  "attorneysFeesAtTrial": 288537.75,
+  "attorneysFeesOnAppeal": "affirmed",
+  "appellateChange": "affirmed",
+  "finalAmount": 704500,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "People ex rel. Department of Transportation v. Mercedes Acosta and Hammer 99, Inc.",
+  "court": "California Court of Appeal, Third Appellate District",
+  "docket": "C059064 (178 Cal.App.4th 762)",
+  "decided": "2009-10-26",
+  "url": "https://static.case.law/cal-app-4th/178/cases/0762-01.json",
+  "excerptNote": "Verbatim from Facts and Proceedings, from the filing of the condemnation through the denial of Caltrans's motion in limine (the franchise and sublease, the PMPA demurrers, the BP and owner settlements, the BP assignment, the summary-adjudication ruling, the final demand and final offer), and two sentences from Part III giving each side's appraisal of the goodwill. Removed: the introduction (states the stipulated judgment and holdings), the March 2008 stipulated judgment and everything after it in Facts and Proceedings, the litigation-expense ruling and amounts, the trial court's reasonableness findings, and all other analysis. Source text is the Caselaw Access Project copy of the official report (no court-hosted PDF for this 2009 opinion; CourtListener opinion 2260340). The reviewer should confirm the source URL resolves; the saved text is the CAP case body."
+ }
+}

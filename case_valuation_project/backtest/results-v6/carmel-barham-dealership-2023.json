@@ -1,0 +1,149 @@
+{
+ "id": "carmel-barham-dealership-2023",
+ "ranAt": "2026-10-18T22:15:47+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1583,
+   "analysisUsd": 0.1533,
+   "analysisUsage": {
+    "input_tokens": 2143,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 7201,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 3001
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   0,
+   163000
+  ],
+  "bestGuessValue": 110025,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Barham is likely to recover at least the $163,000 court-appointed appraisal as an uncontested floor, and has a genuine (roughly even-to-favorable) chance of persuading the jury that the Threel Road easement extinguishment is separately compensable rather than barred by the traffic-flow/circuity-of-access doctrine, given that the trial court already denied Carmel's summary judgment motion on that exact theory. However, without an appraisal or valuation figure in the record quantifying the diminution caused by the easement loss, any amount above the $163,000 floor cannot be reliably estimated from the current materials.",
+  "issues": [
+   {
+    "label": "Base Just Compensation for Fee Strip, Access-Control Line, and Temporary Right-of-Way",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     163000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 163000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Court-appointed appraisers' total just compensation assessment",
+      "value": 163000,
+      "disputed": true,
+      "quote": "the appraisers assessed the total just compensation due to Barham to be $163,000.00",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Compensability of Threel Road Ingress-Egress Easement Loss",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Public-Use / Quick-Take Challenge",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "quick_take_challenge",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.66525,
+   "settlementValue": 54967.9530395436,
+   "likely50": [
+    0,
+    103876.7657938879
+   ],
+   "likely80": [
+    0,
+    140021.3944199495
+   ],
+   "ifWin": [
+    40618.888784665614,
+    122526.50274359621
+   ],
+   "median": 40410.03148024902,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2023-10-30"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2400000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-10-30",
+  "description": "After a May 2022 jury trial the Marion Circuit Court entered judgment on a $2.4 million verdict for Barham and denied Carmel's motions to correct error, for new trial, and for remittitur. The Court of Appeals reversed on October 30, 2023, holding Barham had no compensable easement interest in Threel Road (already extinguished in the County Line condemnation) and that the access change was non-compensable under the ingress-egress and traffic-flow rules, and remanded with instructions to grant Carmel partial summary judgment on that issue.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "City of Carmel v. Barham Investments, LLC, Marion County Treasurer, and Coast to Coast Carmel Corporation",
+  "court": "Court of Appeals of Indiana",
+  "docket": "22A-PL-2399 (Marion Circuit Court Cause No. 49C01-1712-PL-46760)",
+  "decided": "2023-10-30",
+  "url": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=X9zl-fYtQYK6_4blrcmz4U5qNH5Y6VWpE2-CDAwH2_CN1anKpTYwgg42dNkjGuoR0",
+  "excerptNote": "Verbatim from the Case Summary (para. 1 only), Facts and Procedural History (paras. 3-6), and the parties' contentions and easement/Agreed Order language from the Discussion (paras. 11-12, 16, 19). Removed: para. 2 and para. 7 (jury award, post-trial motions, and the court's disposition), appendix citations, and every sentence stating what the appellate court concluded. The $163,000 court-appointed appraisal is retained as a pre-outcome fact."
+ }
+}

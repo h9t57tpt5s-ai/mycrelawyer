@@ -1,0 +1,177 @@
+{
+ "id": "franciscan-cvs-i69-2023",
+ "ranAt": "2026-10-18T22:14:16+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2088,
+   "analysisUsd": 0.205,
+   "analysisUsage": {
+    "input_tokens": 1288,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10819,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 6536
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   893475,
+   3047400
+  ],
+  "bestGuessValue": 1545978,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Owners are virtually certain to recover the strip's fair market value (roughly $40,500\u2013$47,400), but the far larger loss-of-access/highest-and-best-use claim is a genuine coin-flip that turns on whether the trial court allows the Marina Entertainment exception to Ensley's traffic-flow rule to reach the jury; if it does, a verdict in the $1.9\u20134.4 million range is realistic, and if it doesn't, the case is worth little more than the strip itself.",
+  "issues": [
+   {
+    "label": "Loss-of-Access / Highest-and-Best-Use Diminution Damages",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     1900000,
+     3000000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 3000000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Franciscan's appraiser valuation of loss",
+      "value": 3000000,
+      "disputed": true,
+      "quote": "Franciscan's appraiser calculated a $3 million loss.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Joint appraisers' report combined damages",
+      "value": 1900000,
+      "disputed": true,
+      "quote": "a joint report from the appraisers calculated damages at about $1.9 million for both Franciscan and SCP",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Strip Taking Valuation",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     40500,
+     47400
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 47400,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Lower appraisal of the Strip",
+      "value": 40500,
+      "disputed": true,
+      "quote": "The Strip was valued at either $40,500 or $47,400, and according to the State's appraiser, this taking was the only compensable damage.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Higher appraisal of the Strip",
+      "value": 47400,
+      "disputed": true,
+      "quote": "The Strip was valued at either $40,500 or $47,400, and according to the State's appraiser, this taking was the only compensable damage.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Admissibility of Loss-of-Access Valuation Evidence (Motion in Limine)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.97375,
+   "settlementValue": 1243373.0422511848,
+   "likely50": [
+    43794.247723021545,
+    2484593.9341934165
+   ],
+   "likely80": [
+    41606.95402678102,
+    2822069.744432508
+   ],
+   "ifWin": [
+    44018.355358438566,
+    2500004.6499503776
+   ],
+   "median": 47293.581204582006,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2023-11-28"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2200000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-11-28",
+  "description": "The Johnson Superior Court jury awarded $680,000 to Franciscan and $1.5 million to SCP (a $2.2 million judgment), with attorney's fees awarded to both owners under Ind. Code 32-24-1-14(b) (amount not stated) and 8% prejudgment interest. The Court of Appeals reversed on November 28, 2023, holding the traffic-flow rule bars the access damages, and remanded with instructions to vacate the judgment for SCP and enter judgment for Franciscan for only the value of the strip (appraised at $40,500-$47,400), with prejudgment interest recalculated.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": 44000,
+  "finalNote": "Reversed: only the strip taking is compensable, about $40,500-$47,400 on the record; midpoint used."
+ },
+ "source": {
+  "caseName": "State of Indiana v. Franciscan Alliance, Inc. f/k/a Sisters of St. Francis Health Services, Inc.; The Market Place at State Road 37, LLC; Hook SupeRX, LLC; SCP 2010-C36-018 LLC; and Johnson County, Indiana",
+  "court": "Court of Appeals of Indiana",
+  "docket": "22A-PL-2969 (Johnson Superior Court Cause No. 41D04-1911-PL-181)",
+  "decided": "2023-11-28",
+  "url": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=dyEe-G6TfgNLbmXgEg_IkVwtqjV0VXJe2bOJ4VdFqgLdjmWknwT_aQsgFUjNIm_J0",
+  "excerptNote": "Verbatim from the Facts section (paras. 3-5) and the waiver discussion (paras. 9-10) describing pre-trial objections, plus the statement of the traffic-flow rule and the Owners' highest-and-best-use argument from the Discussion. Removed: paras. 1-2 (jury award and the State's requested reduction), the final sentence of para. 5 stating what the jury awarded, the figure/exhibit citation, transcript citations, and every sentence stating the court's conclusions, including the attorney-fee and prejudgment-interest rulings. Appraisal figures are retained as pre-outcome evidence."
+ }
+}

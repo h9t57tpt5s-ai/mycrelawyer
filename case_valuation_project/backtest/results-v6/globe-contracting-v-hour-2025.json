@@ -1,0 +1,247 @@
+{
+ "id": "globe-contracting-v-hour-2025",
+ "ranAt": "2026-10-19T01:39:26+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2015,
+   "analysisUsd": 0.191,
+   "analysisUsage": {
+    "input_tokens": 3054,
+    "cache_creation_input_tokens": 10717,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10717,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9441,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 4057
+    }
+   }
+  },
+  "category": "construction-defect",
+  "roleLabel": "Contractor / Design Professional",
+  "damagesRange": [
+   33319.901999999995,
+   61901.92
+  ],
+  "bestGuessValue": 41783.796,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Globe is likely to prevail on its breach-of-contract/lien claim given strong waiver evidence defeating Hour's termination theory and Hour's non-compliant withholding of payments before raising any defect, with the damages exhibit figure of $61,901.92 as the realistic ceiling, subject to a likely but currently unquantified setoff for the fire-rated-door defect. Hour's broader counterclaim (unlicensed subs, unpaid subs, general defective work) faces real waiver/causation problems and is unpriced in this record. A prevailing-party attorney fee award in Globe's favor is probable and could exceed the principal amount, but is not quantifiable here.",
+  "issues": [
+   {
+    "label": "Globe's breach of contract claim for unpaid progress payments (8th-10th payments plus stipulated change orders)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     55533.17,
+     61901.92
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 61901.92,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Original mechanics' lien amount",
+      "value": 55533.17,
+      "disputed": true,
+      "quote": "he had previously filed a construction lien on the project for $55,533.17",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Updated pretrial damages exhibit amount",
+      "value": 61901.92,
+      "disputed": true,
+      "quote": "Globe submitted a damages exhibit that requested $61,901.92 in damages",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Lien foreclosure (securing the same underlying debt)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Unjust enrichment (alternative theory)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Breach of implied covenant of good faith/fair dealing and intentional interference with contractual relations",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Hour's counterclaim: delay, defective work, unlicensed subcontractors, unpaid subcontractors",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Fire-rated stairwell doors defect (setoff against Globe's recovery)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "contractor_breach_negligence",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Hour's non-compliant withholding of progress payments (defense bolstering Globe's claim)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Attorney fees under the prevailing-party clause",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.68425,
+   "settlementValue": 40163.005714891544,
+   "likely50": [
+    0,
+    59600.63696746268
+   ],
+   "likely80": [
+    0,
+    60996.58999577562
+   ],
+   "ifWin": [
+    57074.31580319292,
+    60372.08172791627
+   ],
+   "median": 57204.13436523425,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2025-07-03"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 61901.92,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-07-03",
+  "description": "After a bench trial the district court held Hour materially breached by withholding the July-September 2016 pay applications without justification, awarded Globe $61,901.92 in damages (the amount in its damages exhibit) with lien foreclosure, and later awarded $108,798.14 prejudgment interest, $98,531.00 attorney fees and $32,179.97 costs. The Utah Court of Appeals affirmed liability and the damages award but vacated the prejudgment interest, costs and fee awards and remanded them.",
+  "attorneysFeesAtTrial": 98531.0,
+  "attorneysFeesOnAppeal": "vacated and remanded",
+  "finalAmount": 61901.92,
+  "finalNote": "Damages affirmed; interest, costs and fees vacated and remanded."
+ },
+ "source": {
+  "caseName": "Globe Contracting LLC v. Raymond R. Hour, Kimberly Taing, Hour Taing Enterprise LLC, and Hour Chiropractic Clinic Inc.",
+  "court": "Utah Court of Appeals, on appeal from the Third District Court, Salt Lake Department",
+  "docket": "No. 20240058-CA, 2025 UT App 98 (district court No. 170900003)",
+  "decided": "2025-07-03",
+  "url": "https://storage.courtlistener.com/pdf/2025/07/03/globe_contracting_v._hour.pdf",
+  "excerptNote": "documentText is verbatim from the Background, paragraphs 3-16 (contract and dispute; complaint, counterclaim and pretrial litigation), ending before 'Trial and Ruling'. Removed: the summary of the appellate rulings in paragraphs 1-2, footnotes 1-5 and their markers, running page headers, one section heading, and paragraphs 17 onward (the court's findings, damages award, post-trial rulings and all appellate analysis). Note: the damages awarded equal the figure Globe requested in its pretrial damages exhibit, which remains in the text as Globe's demand."
+ }
+}

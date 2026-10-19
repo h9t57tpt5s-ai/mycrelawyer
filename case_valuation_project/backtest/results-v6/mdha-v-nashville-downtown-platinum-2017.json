@@ -1,0 +1,158 @@
+{
+ "id": "mdha-v-nashville-downtown-platinum-2017",
+ "ranAt": "2026-10-19T14:10:03+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2761,
+   "analysisUsd": 0.2714,
+   "analysisUsage": {
+    "input_tokens": 1980,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15108,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 10119
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   1685585,
+   2306590
+  ],
+  "bestGuessValue": 2237392.3,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Platinum should recover more than MDHA's $1,774,300 deposit and likely more than the jury of view's $2,306,590 award, reflecting a legitimate (if discounted) highest-and-best-use uplift tied to the imminent DTC rezoning, but is unlikely to recover the full value implied by its appraiser's $130/sq ft figure given the valuation-date mismatch (appraisal keyed to February 2 zoning enactment versus the January 29 taking) and the serious admissibility problems with the 40-story Gardner renderings, which Poe's own report partially disavows.",
+  "issues": [
+   {
+    "label": "Just Compensation for Full Taking",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     1774300,
+     2306590
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 2306590,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "MDHA's deposited estimate of just compensation",
+      "value": 1774300,
+      "disputed": false,
+      "quote": "MDHA deposited the sum of $1,774,300.00 as an estimate of the just compensation that would be owed",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Jury of view's determination of compensation due",
+      "value": 2306590,
+      "disputed": true,
+      "quote": "the jury of view ultimately determined that the amount due to Platinum was $2,306,590.00",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Admissibility of Gardner's 40-Story Demonstrative Renderings",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Valuation-Date Mismatch in Poe's Appraisal",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.96825,
+   "settlementValue": 1975008.5008140195,
+   "likely50": [
+    1893164.000866122,
+    2167783.372165486
+   ],
+   "likely80": [
+    1814113.577661079,
+    2250260.9964716528
+   ],
+   "ifWin": [
+    1906112.4812785443,
+    2171182.2073846823
+   ],
+   "median": 2031059.0041827853,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2017-12-08"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2032380,
+  "amountIsTheRequestedAmount": false,
+  "date": "2017-12-08",
+  "description": "After an August 2016 de novo jury trial the jury found the fair market value of the Property at the taking was $2,032,380 (the court describes it as $63 per square foot, against MDHA's highest appraisal of $60 and Platinum's $130 per square foot), below the jury of view's $2,306,590 and above MDHA's $1,774,300 deposit; the trial court entered judgment on the verdict, denied a new trial and awarded MDHA discretionary costs. The Tennessee Court of Appeals affirmed on December 8, 2017. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 2032380,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Metropolitan Development and Housing Agency v. Nashville Downtown Platinum, LLC",
+  "court": "Court of Appeals of Tennessee at Nashville, on appeal from the Circuit Court for Davidson County (No. 09C-3638)",
+  "docket": "No. M2017-00450-COA-R3-CV",
+  "decided": "2017-12-08",
+  "url": "https://storage.courtlistener.com/pdf/2017/12/08/metropolitan_development_and_housing_agency_v._nashville_downtown_platinum.pdf",
+  "excerptNote": "Verbatim from Background and Procedural History (purchase, petition and deposit, the imminent CF-to-DTC rezoning, the jury of view's interim award and Platinum's appeal for a de novo jury trial), the description of MDHA's motion in limine against the architect's 40-story drawings and the passage from Platinum's appraiser's report, and footnote 6's statement of each side's appraisal per square foot and the Poe zoning-timing point. Removed: the summary paragraph (verdict 'over $2,000,000'), the sentence stating the jury's verdict, the judgment and new-trial rulings, the court's rulings on every evidentiary issue, the sentences giving the $63-per-square-foot verdict and comparing it to the appraisals, the construal of Poe's testimony as $65 per square foot, footnote markers and the PDF date footer. The opinion never states the parcel's square footage."
+ }
+}

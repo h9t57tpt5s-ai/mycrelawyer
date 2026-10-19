@@ -1,0 +1,290 @@
+{
+ "id": "epochal-v-lf-encinitas-2024",
+ "ranAt": "2026-10-19T03:09:12+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2396,
+   "analysisUsd": 0.2254,
+   "analysisUsage": {
+    "input_tokens": 4314,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11369,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 4613
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   75000,
+   400000
+  ],
+  "bestGuessValue": 270000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Divine Orchids has a genuinely triable case that the landlord's concealment of known asbestos risk rises to the gross negligence/intentional misconduct level needed to defeat the lease's indemnity and limitation-of-liability clauses, with strong circumstantial evidence (repeated non-disclosure at leasing, at renovation, and at the post-storm repair). The likely outcome is a plaintiff's verdict on the fraud/concealment theory with damages set somewhere in the broad range the competing expert methodologies create for the destroyed orchid inventory, net of some rent arrearage already reduced to an unquantified default judgment and a possible modest mitigation haircut.",
+  "issues": [
+   {
+    "label": "Fraudulent Concealment of Known Asbestos Hazard",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Premises Liability / Negligent Failure to Disclose or Remediate",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Indemnification (10.1) and Limitation-of-Liability (10.6) Clauses",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Lost Orchid Inventory / Lost Profits Damages",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     125000,
+     400000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 400000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Brinig net lost profit, preferred method, 2017-2019",
+      "value": 368933,
+      "disputed": true,
+      "quote": "Total net lost profit for \u201call three of those years is $368,933\u201d",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Per-plant method, 12,000 plants at $20/plant",
+      "value": 240000,
+      "disputed": true,
+      "quote": "if plaintiff had 12,000 plants at an average of $20 per plant, plaintiff lost $240,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Per-plant method, 16,200 plants at $20/plant",
+      "value": 324000,
+      "disputed": true,
+      "quote": "If plaintiff had 16,200 plants, then it lost $324,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Adjusted net income method, three-year total",
+      "value": 400000,
+      "disputed": true,
+      "quote": "Those three numbers add up to over $400,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Defense expert's reduced estimate accounting for retained cut-stem plants",
+      "value": 125000,
+      "disputed": true,
+      "quote": "if 50 percent of the lost plants were intended to be retained, then the total lost sales would be about $125,000",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Landlord's Cross-Complaint for Breach of Lease (Unpaid Rent)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "defaulted",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Failure to Mitigate Damages (Abandoned Inventory)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Unjust Enrichment and Breach of Implied Covenant",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Unfair Business Practices (UCL)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.65825,
+   "settlementValue": 173218.950965465,
+   "likely50": [
+    0,
+    297240.53182289936
+   ],
+   "likely80": [
+    0,
+    359818.6142393388
+   ],
+   "ifWin": [
+    191517.05797412433,
+    333364.8335246835
+   ],
+   "median": 189399.2094148416,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2024-01-12"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 222000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-01-12",
+  "description": "The jury found the landlord liable for premises liability and negligence (no liability for concealment), awarded the tenant $144,300 in lost profits and $77,700 in other past economic loss ($222,000), and found the tenant's unpaid rent caused the landlord no harm on the cross-complaint. The trial court then granted JNOV for the landlord under the lease's limitation-of-liability clause. The Court of Appeal reversed the JNOV (the clause is invalid under Civil Code section 1668 as applied to the Health and Safety Code disclosure violations, and the indemnity clause does not reach gross negligence), affirmed the denial of the landlord's partial JNOV on the $77,700, and remanded.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "reversed JNOV; verdict reinstated",
+  "finalAmount": 222000,
+  "finalNote": "JNOV reversed and the $222,000 verdict upheld against the damages challenge; on remand the landlord may still ask the trial court to rule on its alternative new-trial motion, which had been denied as moot."
+ },
+ "source": {
+  "caseName": "Epochal Enterprises, Inc., dba Divine Orchids v. LF Encinitas Properties, LLC and Leichtag Foundation",
+  "court": "California Court of Appeal, Fourth Appellate District, Division One (certified for publication; modified Jan. 31, 2024 with no change in judgment), on appeal from San Diego County Superior Court (No. 37-2018-00027797-CU-CO-NC)",
+  "docket": "D079905",
+  "decided": "2024-01-12",
+  "url": "https://www.courts.ca.gov/opinions/archive/D079905.PDF",
+  "excerptNote": "Verbatim from the Factual and Procedural Background parts A-D (through 'Defendants filed a cross-complaint against plaintiff for breach of lease.') and the damages testimony in part III.A (Brinig's three lost-profit methods, Mr. Le's testimony, and the defense expert's criticisms). Removed: the introduction; footnote 2 (the lease's as-is clause) and footnote markers; inline page numbers; the jury's special-verdict findings and damages, the judgment, the JNOV proceedings, the jury instructions and verdict form, the parties' appellate arguments (including plaintiff's characterization of the award), and all appellate analysis and holdings. The Jan. 31, 2024 modification changed one sentence of the introduction, which is not excerpted."
+ }
+}

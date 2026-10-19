@@ -1,0 +1,316 @@
+{
+ "id": "5th-and-walnut-v-des-moines-2026",
+ "ranAt": "2026-10-19T02:20:34+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2701,
+   "analysisUsd": 0.2605,
+   "analysisUsage": {
+    "input_tokens": 5085,
+    "cache_creation_input_tokens": 10301,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10301,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13775,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 7207
+    }
+   }
+  },
+  "category": "zoning-land-use",
+  "roleLabel": "Property Owner / Developer",
+  "damagesRange": [
+   0,
+   19621222
+  ],
+  "bestGuessValue": 5674619.375,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The Developers have a genuinely strong liability argument on the enforced-delay/premature-default issue and the City's immunity waiver removes its best threshold defense, but the single biggest damages category (garage lost-profits, ~$11M) is legally fragile as speculative new-business profits, and even the more defensible reliance-damages categories for the Tower and Theater (~$8.6M combined) face a serious causation fight over whether the Developers' own financing collapse \u2014 not the City's default notices \u2014 actually killed the project. Net expected recovery is meaningfully below both the full ~$20.9M in stated trial subtotals and the baseline model's $14-24M band, landing in the mid-single to high-single digit millions once causation risk and the speculativeness of the lost-profits theory are properly discounted, with the City's counterclaim unlikely to produce a significant offsetting recovery.",
+  "issues": [
+   {
+    "label": "Wrongful/Premature Default Notices (Core Breach Liability)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Garage Completion Damages (Fee, Savings, Interest Savings)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Lost Profits From Garage Operation and Ownership",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     0,
+     11029311
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 11029311,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "NPV of residual equity value of garage (2-A)",
+      "value": 4357750,
+      "disputed": true,
+      "quote": "a sum of $4,357,750",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "NPV of garage management fee (2-B)",
+      "value": 3289859,
+      "disputed": true,
+      "quote": "a sum of $3,289,859",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Market value of restaurant/retail space (2-D)",
+      "value": 3381702,
+      "disputed": true,
+      "quote": "a sum of $3,381,702",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Tower Reliance Damages (Architecture, Predevelopment, Hard Costs)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     8063027
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 8063027,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Tower architecture, predevelopment expenses, and hard costs",
+      "value": 8063027,
+      "disputed": true,
+      "quote": "summing to $8,063,027",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Theater Reliance Damages (Architecture, Predevelopment, Hard Costs)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     528884
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 528884,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Theater architecture, predevelopment expenses, and hard costs",
+      "value": 528884,
+      "disputed": true,
+      "quote": "summing to $528,884",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Jump-Ramp Design Defect / Insurance Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 1,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Foreclosure Defense Costs and Tax Gross-Up",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "City's Counterclaim for Developers' Breach",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Mitigation/Offset \u2014 Debt Extinguishment via City Purchase",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Governmental Immunity Waiver",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "development_agreement_breach",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 20,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.66975,
+   "settlementValue": 2791082.5136972223,
+   "likely50": [
+    0,
+    5092736.359232827
+   ],
+   "likely80": [
+    0,
+    7749847.797514373
+   ],
+   "ifWin": [
+    520272.9371072883,
+    6572426.366627589
+   ],
+   "median": 542128.0936077011,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2026-06-12"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 4353677,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-06-12",
+  "description": "After an October 2022 bench trial the district court found the City breached the Development Agreement (and tortiously interfered with the construction loan) and awarded Parking LLC $4,353,677 in expectancy damages (garage development fee, savings under the stipulated price, and interest) against the City, rejecting all other claimed damages and the City's counterclaims; court costs were taxed to the City. The Iowa Supreme Court affirmed the breach-of-contract judgment and the $4,353,677 award on June 12, 2026, vacated the tortious-interference judgment, and affirmed the denial of the Developers' additional damages.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 4353677,
+  "finalNote": "Damages affirmed; tortious-interference liability vacated without changing the amount."
+ },
+ "source": {
+  "caseName": "5th and Walnut Parking LLC, 5th and Walnut Tower LLC, 5th and Court LLC, Justin Mandelbaum, and Sean Mandelbaum v. City of Des Moines",
+  "court": "Iowa Supreme Court, on appeal from the Iowa District Court for Polk County (Business Specialty Court)",
+  "docket": "No. 24-1886",
+  "decided": "2026-06-12",
+  "url": "https://storage.courtlistener.com/pdf/2026/06/12/5th_and_walnut_parking_llc_5th_and_walnut_tower_llc_5th_and_court_llc_1.pdf",
+  "excerptNote": "Verbatim from Part I (Background Facts and Proceedings, sections A-E, selected paragraphs) plus the neutral list of the Developers' damages categories and the sentences stating the amounts they requested for categories (1-D), (2-A/B/D), (3) and (4), taken from Part III.B. Removed: the introduction, the Lincoln Savings/Bankers Trust financing and alley-delay paragraph and the May-September 2019 extension talks (length) (award and disposition), the Section 10.1(A)/10.4 contract text, several correspondence paragraphs, the City's counterclaims and summary-judgment procedure, the district court's findings and judgment, footnotes 1-2 and their markers, the sentence stating the affirmed Category (1) award, every sentence reporting how the district court ruled on each damages category, and all analysis and holdings. The foreclosure-fees figure is omitted because the only sentence stating it reports the court's finding."
+ }
+}

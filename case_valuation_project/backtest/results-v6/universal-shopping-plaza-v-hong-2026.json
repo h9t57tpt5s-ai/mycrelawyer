@@ -1,0 +1,215 @@
+{
+ "id": "universal-shopping-plaza-v-hong-2026",
+ "ranAt": "2026-10-17T18:02:21+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.3198,
+   "analysisUsd": 0.3093,
+   "analysisUsage": {
+    "input_tokens": 2442,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17335,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 12024
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   0,
+   185451
+  ],
+  "bestGuessValue": 92725.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Universal's unlawful detainer claim is genuinely at risk: the three-day notice's reliance on a payment-application clause to revive a two-year-old shortfall, combined with the notice's failure to specify the rental period and 23 months of full payment acceptance in between, gives the self-represented tenant a real shot at invalidating the notice and defeating the action outright. If the notice survives, Universal likely recovers the $65,989 plus accruing holdover damages at $1,219/day, but attorney's fees cannot be quantified on this record.",
+  "issues": [
+   {
+    "label": "Unpaid Rent / Notice Validity Under \u00a71161(2)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     65989
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 65989,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Past-due rent demanded in three-day notice and UD complaint",
+      "value": 65989,
+      "disputed": true,
+      "quote": "requested possession of the premises, past-due rent of $65,989",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Holdover Damages at $1,219/Day",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     119462
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 119462,
+    "kind": "claim",
+    "claimType": "holdover_damages",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Holdover damages, March 1 2025 through start of trial (June 6, 2025)",
+      "value": 119462,
+      "disputed": true,
+      "quote": "holdover damages of $1,219 per day (the alleged fair market value of the premises) beginning on March 1, 2025",
+      "computed": "1219 x 98",
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Notice Defect: Failure to Specify Rental Period",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Tenant's Oral Rent-Reduction/Setoff Defense",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Waiver/Estoppel From 23 Months of Accepted Payments",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.673,
+   "settlementValue": 46867.711480524034,
+   "likely50": [
+    0,
+    83339.08939525345
+   ],
+   "likely80": [
+    0,
+    116531.17529911408
+   ],
+   "ifWin": [
+    35589.31176030054,
+    101201.11989437835
+   ],
+   "median": 36436.81787513266,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2026-09-09"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 189100,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-09",
+  "description": "After a three-day court trial the trial court entered judgment for the landlord on July 3, 2025 awarding possession, $65,989 in past-due rent (the amount demanded in the notice) and $123,111 in holdover damages, $189,100 in total; no fee award is stated in the opinion. The Court of Appeal reversed, holding the three-day notice void because the unpaid rent fell due more than one year before service, and remanded for entry of judgment in favor of the tenant.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": 0,
+  "finalNote": "Reversed: the three-day notice was void, so the landlord takes nothing in this action."
+ },
+ "source": {
+  "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+  "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
+  "docket": "B348490 (Super. Ct. No. 25NNCV01228)",
+  "decided": "2026-09-09",
+  "url": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
+  "excerptNote": "Verbatim from the landlord's contention in the introduction and from Factual and Procedural Background parts A, B and C through the trial testimony. Removed: the sentences stating the trial court's rulings (demurrer, findings, July 3, 2025 judgment), the closing arguments, the introduction's reference to the holdover award, lease paragraph 27.1, footnotes, and all appellate analysis/holdings. One sentence is stitched across a footnote break in the PDF."
+ }
+}

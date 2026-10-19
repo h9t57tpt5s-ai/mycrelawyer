@@ -1,0 +1,245 @@
+{
+ "id": "telegraph-square-7205-2023",
+ "ranAt": "2026-10-18T22:10:11+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2357,
+   "analysisUsd": 0.2251,
+   "analysisUsage": {
+    "input_tokens": 2586,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11693,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 5989
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   66000,
+   1340000
+  ],
+  "bestGuessValue": 904500.0000000001,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "7205 Telegraph is likely to prevail on liability for breach of the condominium instruments (the 30-space requirement), given the Association's own expert's admission that 12 spaces was zoning-deficient and the undisclosed Board conflict of interest, but the damages award will likely land well below the landlord's most aggressive $1,340,000 diminution theory since no appraisal was done at the actual 12-space allocation. The Association has a real, likely-successful offsetting counterclaim for unpaid dues since late 2017, which will reduce net recovery, and unresolved limitations and fee-shifting questions add further variance.",
+  "issues": [
+   {
+    "label": "Breach of Condominium Instruments / Site Plan Parking Requirement",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Diminution in Property Value From Reduced Parking",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     110000,
+     1340000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1340000,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Landlord appraisal, 30-space assumption",
+      "value": 2225000,
+      "disputed": true,
+      "quote": "On the assumption that 7205 Telegraph's Phase IV units had 30 available parking spaces, O'Neill estimated the market value of 7205 Telegraph's Phase IV units at $2,225,000.",
+      "computed": null,
+      "role": "before_value"
+     },
+     {
+      "label": "Landlord appraisal, 5-space assumption",
+      "value": 885000,
+      "disputed": true,
+      "quote": "On the assumption that 7205 Telegraph's Phase IV units had 5 appurtenant parking spaces, O'Neill estimated the market value of 7205 Telegraph's Phase IV units at $885,000.",
+      "computed": null,
+      "role": "after_value"
+     },
+     {
+      "label": "Association appraisal, 34-space assumption",
+      "value": 2190000,
+      "disputed": true,
+      "quote": "the value with 34 parking spaces would be $2,190,000",
+      "computed": null,
+      "role": "before_value"
+     },
+     {
+      "label": "Association appraisal, 15-space assumption",
+      "value": 2080000,
+      "disputed": true,
+      "quote": "estimated that the market value of 7205 Telegraph's Phase IV units with 15 parking spaces was $2,080,000",
+      "computed": null,
+      "role": "after_value"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Lost Rent From D&K Lease Termination",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Over-Assessment for Phase I Common Elements",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Association Counterclaim for Unpaid Assessments / Liens",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Statute of Limitations on the 2015 Breach",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Attorney's Fees Under Bylaws \u00a7 9.1(b)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.68575,
+   "settlementValue": 496611.34620055597,
+   "likely50": [
+    0,
+    903462.9572671838
+   ],
+   "likely80": [
+    0,
+    1169242.6149640232
+   ],
+   "ifWin": [
+    404535.2608291432,
+    1036573.1990686618
+   ],
+   "median": 434937.5529610552,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2023-12-19"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 481434.84,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-12-19",
+  "description": "After a bench trial the Fairfax County Circuit Court entered judgment for 7205 Telegraph on all four counts, awarding $481,434.84 in lost-rent contract damages, a further $6,296.70 for over-assessments, release of the association's liens, and $324,977.60 in attorney's fees and costs. A Court of Appeals panel affirmed on April 25, 2023; rehearing en banc was granted, and on December 19, 2023 the court lifted the stay and left the judgment affirmed.",
+  "attorneysFeesAtTrial": 324977.6,
+  "appellateChange": "affirmed",
+  "finalAmount": 481434.84,
+  "finalNote": "Affirmed, including after rehearing en banc."
+ },
+ "source": {
+  "caseName": "Telegraph Square II, a Condominium Unit Owners Association v. 7205 Telegraph Square, LLC",
+  "court": "Court of Appeals of Virginia (panel opinion Apr. 25, 2023; rehearing en banc granted June 6, 2023; Dec. 19, 2023 published order lifting stay, judgment remains affirmed)",
+  "docket": "Record No. 0222-22-4 (Fairfax County Circuit Court No. CL-2019-0012054)",
+  "decided": "2023-12-19",
+  "url": "https://www.vacourts.gov/opinions/opncavwp/0222224.pdf",
+  "excerptNote": "Verbatim sentences from the April 25, 2023 panel opinion's BACKGROUND sections A (Condominium Instruments) and B (Condominium Parking), plus the opening sentence identifying 7205 Telegraph's ownership; several bylaw/declaration block quotes, the 2017 replacement-lease details, and the 2019 acceleration letters were omitted for length. Removed: the appellate summary of assignments of error, section C (Trial Court Rulings) including the $481,434.84 damages award, the over-assessment findings, the attorney-fee award, and all analysis. Expert appraisal figures and demanded assessments are retained as pre-outcome facts."
+ }
+}

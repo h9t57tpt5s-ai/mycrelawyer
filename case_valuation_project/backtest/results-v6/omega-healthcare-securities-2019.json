@@ -1,0 +1,154 @@
+{
+ "id": "omega-healthcare-securities-2019",
+ "ranAt": "2026-10-19T02:49:39+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2095,
+   "analysisUsd": 0.1994,
+   "analysisUsage": {
+    "input_tokens": 5235,
+    "cache_creation_input_tokens": 10970,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10970,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9506,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 3482
+    }
+   }
+  },
+  "category": "reit-securities",
+  "roleLabel": "Shareholder / Plaintiff Class",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To compute any classwide damages range you need: (1) Omega's actual share price immediately before and after each of the alleged corrective disclosures (July 27 and October 30-31, 2017), not just the percentage drops; (2) the number of Omega shares outstanding and the trading volume/number of shares purchased during the May 3-October 31, 2017 class period, to estimate the damaged share count; (3) an event-study or comparable methodology isolating the fraud-related portion of each price decline from general market or sector movement; and (4) ultimately a damages expert's per-share inflation estimate across the class period. None of these appear in the motion-to-dismiss opinion provided, which addresses only pleading sufficiency, not damages quantification.",
+  "likelyOutcome": "At the Rule 12(b)(6)/PSLRA stage, expect a split ruling: the pure GAAP-misstatement theory and the undisclosed-loan omission theory (weak scienter, no identified corrective disclosure of the loan itself) are the most likely candidates for dismissal, while claims tied to the Q2/Q3 disclosures \u2014 where Omega's own admissions track closely with the 4% and 6.8% stock drops \u2014 have a better, though still contested, chance of surviving if plaintiffs can plead a specific misleading statement rather than just bad underlying business news. Section 20(a) liability will track whatever survives of the \u00a7 10(b) claim.",
+  "issues": [
+   {
+    "label": "\u00a710(b)/Rule 10b-5 \u2014 Misstatement Theory (FFO/AFFO via Loan-Funded Rent)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "securities_fraud_10b5",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "\u00a710(b)/Rule 10b-5 \u2014 Omission Theory (Undisclosed Working Capital Loan) and Materiality",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "securities_fraud_10b5",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "PSLRA Scienter Pleading \u2014 Conscious Misbehavior/Recklessness",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "pslra_scienter_pleading_survival",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Loss Causation",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "\u00a720(a) Control Person Liability (Pickett, Stephenson, Booth)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  },
+  "scenarios": null,
+  "missingFacts": [],
+  "valuationDate": "2023-04-25"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 30750000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-04-25",
+  "description": "After the district court dismissed the first amended complaint in 2019, the Second Circuit reversed in 2020 (968 F.3d 204), holding the non-disclosure of the working capital loan to the operator actionable and scienter adequately pleaded. On remand the court largely denied a renewed motion to dismiss (Sept. 28, 2021). The parties then settled; the court granted preliminary approval on December 27, 2022, and on April 25, 2023 entered an Order and Final Judgment approving a $30,750,000 cash settlement for the class of Omega securities purchasers (https://storage.courtlistener.com/recap/gov.uscourts.nysd.484014/gov.uscourts.nysd.484014.167.0.pdf). Attorneys' fees were paid out of the settlement fund.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none",
+  "finalAmount": 30750000,
+  "finalNote": "Court-approved class settlement of $30.75 million (S.D.N.Y. Order and Final Judgment, ECF No. 167, April 25, 2023); fees came out of the fund; no appeal of the settlement."
+ },
+ "source": {
+  "caseName": "In re Omega Healthcare Investors, Inc. Securities Litigation",
+  "court": "U.S. District Court for the Southern District of New York (dismissal reversed and remanded by the Second Circuit, Setzer v. Omega Healthcare Investors, Inc., 968 F.3d 204 (2d Cir. 2020))",
+  "docket": "1:17-cv-08983-NRB",
+  "decided": "2019-03-25",
+  "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.484014/gov.uscourts.nysd.484014.62.0.pdf",
+  "outcomeUrl": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.484014/gov.uscourts.nysd.484014.167.0.pdf",
+  "excerptNote": "documentText is verbatim from the court's March 25, 2019 Memorandum and Order on the first motion to dismiss (ECF No. 62): the opening paragraph (minus its final sentence stating the ruling), the entire Background (Parts I-IV), and the sentences in the Discussion that summarize plaintiffs' and defendants' arguments on falsity, materiality and scienter. Removed: the procedural history, the pleading standards, and every sentence stating the court's analysis or conclusions. Footnote text was moved to the end of the source file and page numbers were stripped; inline footnote reference numerals (e.g. 'EBITDAR3') remain as extracted. The settlement amount comes from the Order and Final Judgment (ECF No. 167), not from the excerpt."
+ }
+}

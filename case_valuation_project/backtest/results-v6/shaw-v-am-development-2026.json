@@ -1,0 +1,135 @@
+{
+ "id": "shaw-v-am-development-2026",
+ "ranAt": "2026-10-17T17:53:24+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.225,
+   "analysisUsd": 0.2145,
+   "analysisUsage": {
+    "input_tokens": 2469,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11012,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 6637
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "The total square footage of Shaw's office unit (to convert the stated $275/sq ft appreciation figure into a dollar amount); the actual price and terms of the Mostafavi family's 2015 purchase offer that triggered the ROFR (what Shaw would have paid to buy the unit); and a valuation of the unit as of the 2015 sale date (and/or currently, if a later measurement date is used) so the gap between what Shaw would have paid and what the unit was/is worth can actually be calculated.",
+  "likelyOutcome": "Liability for breach of the right of first refusal is effectively conceded; the case will turn on whether the court finds the seven-year delay, continued lease payments, and two renewals without reservation amount to a waiver of the accrued damages claim (a genuine, fact-intensive issue that could go either way but tilts toward the landlord given the sophistication of the tenant and length of delay), and on whether damages are measured as of the 2015 sale (favoring the landlord and capping recovery) or at a later date. No reliable dollar estimate can be given on this record because the materials lack the unit's square footage, the 2015 offer price, and a contemporaneous valuation needed to turn the stated $275/sq ft appreciation rate into an actual number.",
+  "issues": [
+   {
+    "label": "Breach of Right of First Refusal",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Waiver / Estoppel by Acquiescence",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Failure to Mitigate / Damages Measurement Timing",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Unrealized Appreciation Damages Quantification",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": null,
+  "missingFacts": [],
+  "valuationDate": "2026-08-19"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 257216,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-08-19",
+  "description": "After a bench trial the district court awarded the tenant $257,216 in damages plus post-judgment interest, using the tenant's damages methodology (unrealized appreciation, rent-versus-mortgage differential, lost principal) but valuing the unit at the $166.73 per square foot the third-party buyers paid rather than the $275 the tenant proposed. No attorney's fees. The Iowa Court of Appeals affirmed (2-1) on August 19, 2026, rejecting the estoppel-by-acquiescence and failure-to-mitigate defenses.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 257216,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",
+  "court": "Iowa Court of Appeals (appeal from Iowa District Court for Johnson County)",
+  "docket": "No. 25-1285",
+  "decided": "2026-08-19",
+  "url": "https://www.iowacourts.gov/courtcases/26627/embed/CourtAppealsOpinion",
+  "excerptNote": "Verbatim from Part I (Facts and Prior Proceedings), the parties' contentions in Part III.A-B, and the undisputed timeline recited in Judge Greer's dissent. Removed: the sentences stating the district court's damages award and per-square-foot figure, the district court's findings on the estoppel/mitigation defenses, and every appellate holding. The dissent's footnote characterizing A & M's conduct as a breach was also omitted. Extraction whitespace artifacts corrected."
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "id": "san-francisco-v-pcf-acquisitionco-2015",
+ "ranAt": "2026-10-19T14:13:04+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1467,
+   "analysisUsd": 0.1438,
+   "analysisUsage": {
+    "input_tokens": 671,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 6867,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 2982
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   3610000,
+   10875000
+  ],
+  "bestGuessValue": 10548750,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Expect a jury verdict on just compensation landing between the City's final $5,000,000 offer and PCF's final $8,600,000 demand, most likely in the upper-middle of that bracket given PCF's persistent high valuation and a live rezoning argument, plus prejudgment interest and costs; PCF also has a credible shot at recovering litigation expenses separately because the City's final offer was expressly conditioned on third-party approvals it had not secured, which undercuts its validity as a bona fide \u00a7 1250.410 offer.",
+  "issues": [
+   {
+    "label": "Just Compensation Valuation",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     3800000,
+     10875000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 10875000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "City's final offer under CCP 1250.410",
+      "value": 5000000,
+      "disputed": true,
+      "quote": "The City\u2018s offer, for $5,000,000, was expressly made \u2015contingent on the approval of the Federal Transportation Authority [FTA], the Board of Directors of the San Francisco Municipal Transportation Agency [MTA], and the San Francisco Board of Supervisors [the Board].",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "PCF's final demand",
+      "value": 8600000,
+      "disputed": true,
+      "quote": "PCF demanded $8,600,000 plus statutory costs and interest.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "City's earliest proposed valuation (2010)",
+      "value": 3800000,
+      "disputed": true,
+      "quote": "a low of $3,800,000 (from the City, on January 7, 2010)",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "PCF's highest proposed valuation (2013)",
+      "value": 10875000,
+      "disputed": true,
+      "quote": "a high of $10,875,000 (from PCF, on February 26, 2013)",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Statutory Litigation Expenses (Invalid/Unreasonable Final Offer)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "eminent_domain_attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Prejudgment Interest and Statutory Costs",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.969,
+   "settlementValue": 7111077.510841209,
+   "likely50": [
+    5381352.950888686,
+    8999850.701133255
+   ],
+   "likely80": [
+    4342271.230201004,
+    10124873.349949485
+   ],
+   "ifWin": [
+    5569076.342007611,
+    9073620.357253822
+   ],
+   "median": 7250654.657604173,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2015-05-26"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 7319000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2015-05-26",
+  "description": "The jury determined total compensation of $7,319,000 (fair market value $7,400,000 minus $81,000 for environmental remediation), against the City's contingent $5,000,000 final offer and PCF's $8,600,000 final demand. The trial court denied PCF's motion for litigation expenses; the Court of Appeal reversed that order on May 26, 2015 (the contingent offer was unreasonable as a matter of law) and remanded. The verdict was not appealed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "none",
+  "finalAmount": 7319000,
+  "finalNote": "Verdict undisturbed; only the litigation-expense order was reversed and remanded."
+ },
+ "source": {
+  "caseName": "City and County of San Francisco v. PCF Acquisitionco, LLC, et al.",
+  "court": "California Court of Appeal, First Appellate District, Division Three, on appeal from San Francisco Superior Court (No. CGC11507339)",
+  "docket": "A139836",
+  "decided": "2015-05-26",
+  "url": "https://storage.courtlistener.com/pdf/2015/05/26/city_and_county_of_s.f._v._pcf_acquisitionco_ca13.pdf",
+  "excerptNote": "Verbatim from the Background (the property, the range of exchanged valuations, the City's contingent final offer, PCF's final demand and the two disputed value drivers). Removed: the introduction and holding; the sentence stating the jury's total compensation, fair market value and remediation deduction; the litigation-expense motion and the trial court's ruling (which states the City's final offer exceeded its own appraisal by $1,872,000); the discussion and disposition; footnotes. The PDF renders quotation marks as odd glyphs, which are kept as extracted. The appeal concerned only litigation expenses; the verdict was not disturbed."
+ }
+}

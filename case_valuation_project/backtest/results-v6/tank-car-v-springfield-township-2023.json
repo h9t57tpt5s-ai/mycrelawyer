@@ -1,0 +1,172 @@
+{
+ "id": "tank-car-v-springfield-township-2023",
+ "ranAt": "2026-10-19T14:18:58+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2657,
+   "analysisUsd": 0.2559,
+   "analysisUsage": {
+    "input_tokens": 5516,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13368,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 8260
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   0,
+   1341000
+  ],
+  "bestGuessValue": 670500,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "This is a battle-of-the-experts valuation case with no clean winner: Tank Car's appraiser supports roughly $2.0-2.1 million with real credibility problems (no contamination discount, a damaged lease-based income approach), while the Township's appraiser supports a stacked series of discounts that could push value down to roughly $140,000-$425,000, which is itself vulnerable to a double-counting challenge. The Board of View's neutral $1,000,000 award is the most reliable real-world anchor in the record, and the final number most likely lands in the upper-middle of the range between the two experts, somewhat above that benchmark, with additional delay compensation owed on top from the 2015 taking date.",
+  "issues": [
+   {
+    "label": "Just Compensation Valuation (Fair Market Value of the Taken Property)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     1341000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1341000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Owner's appraiser (Barth) reconciled 'as was' fee simple market value",
+      "value": 2100000,
+      "disputed": true,
+      "quote": "Reconciling his three approaches to valuation, Barth concluded that the \"as was\" market value of the Property was $2,100,000.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Township appraiser (Lukens) base sales-comparison value before deductions",
+      "value": 750000,
+      "disputed": true,
+      "quote": "Lukens concluded that the Property\u2019s value, as hypothetically clean and before deductions, was $750,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Demolition cost deduction (Lukens)",
+      "value": 175000,
+      "disputed": true,
+      "quote": "Lukens deducted from the value of the Property the cost of demolishing the existing buildings, which costs he estimated to be $175,000",
+      "computed": null,
+      "role": "credit"
+     },
+     {
+      "label": "20% environmental stigma deduction (Lukens)",
+      "value": 150000,
+      "disputed": true,
+      "quote": "Lukens reduced the value of the Property by deducting 20% of its value for \"environmental stigma,\" which he opined reduced the value of the Property by $150,000",
+      "computed": null,
+      "role": "credit"
+     },
+     {
+      "label": "Act 2 remediation cost deduction (Penn E&R estimate plus 10% contingency)",
+      "value": 284000,
+      "disputed": true,
+      "quote": "Lukens added a 10% contingency to the Penn E&R estimate, resulting in a rounded number of $284,000.",
+      "computed": null,
+      "role": "credit"
+     },
+     {
+      "label": "Estimated just compensation already paid by Township",
+      "value": 150000,
+      "disputed": false,
+      "quote": "the Township paid Tank Car $150,000 in estimated just compensation",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Delay Compensation from Date of Taking",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.4835,
+   "settlementValue": 324125.2050409806,
+   "likely50": [
+    0,
+    658364.7115279455
+   ],
+   "likely80": [
+    0,
+    1063060.9123120084
+   ],
+   "ifWin": [
+    329271.48954360746,
+    1006765.3458032291
+   ],
+   "median": 0,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2023-10-19"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 667000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-10-19",
+  "description": "After a three-day February 2021 non-jury trial the Montgomery County court found the property's fair market value at the taking was $667,000: $1,100,000 less $175,000 for demolition and $258,200 for Act 2 remediation, with no environmental-stigma deduction and no Lease in effect. Judgment of December 16, 2021 awarded $517,000 in just compensation plus $4,000 fee reimbursement ($521,000). The Board of View had awarded $1,000,000; the owner's appraiser said $2,100,000 and the Township's about $425,000 after deductions. The Commonwealth Court affirmed on October 19, 2023. Amount used is the fair market value found (total compensation, of which the $150,000 estimated just compensation was already paid).",
+  "attorneysFeesAtTrial": 4000,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 667000,
+  "finalNote": "Affirmed. The $517,000 judgment equals the $667,000 value less the $150,000 paid in January 2017; the opinion does not say so expressly, but the arithmetic matches and it follows the Board of View's 'less the $150,000 already paid' format. The $4,000 is a statutory fee reimbursement."
+ },
+ "source": {
+  "caseName": "Tank Car Corporation of America v. Springfield Township (consolidated cross-appeals)",
+  "court": "Commonwealth Court of Pennsylvania, on appeal from the Montgomery County Court of Common Pleas (non-jury trial on appeal from the Board of View)",
+  "docket": "Nos. 1043 C.D. 2021 and 1096 C.D. 2021",
+  "decided": "2023-10-19",
+  "url": "https://storage.courtlistener.com/pdf/2023/10/19/tank_car_corp._of_america_v._springfield_twp..pdf",
+  "excerptNote": "Verbatim from Part I, Factual and Procedural History: the property and its contamination, the EPA cleanup and cap, the school-bus Lease and the Township's injunction action, the declaration of taking, the $150,000 estimated just compensation and the Board of View's $1,000,000 award (an interim figure), footnote 2 (Act 2), and Part I.D-E: each appraiser's methods, figures and deductions (owner's Barth: $2,100,000 reconciled; Township's Lukens: $750,000 before deductions, $175,000 demolition, Penn E&R's $258,200 Act 2 estimate plus 10% contingency, 20% stigma) and the parties' evidence on whether the Lease was in effect. Record citations ('Id. at ...a') are kept as they appear. Removed: the opening paragraph (judgment amount and affirmance), footnotes 1 and 3-5 and markers, Barth's six numbered comparable sales and the Swedeland Road comparable, Part I.F (the trial court's findings: value $1,100,000 less demolition and Act 2 costs, no stigma deduction, no Lease) and everything after it."
+ }
+}

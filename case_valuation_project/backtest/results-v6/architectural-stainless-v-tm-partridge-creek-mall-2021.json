@@ -1,0 +1,27 @@
+{
+ "id": "architectural-stainless-v-tm-partridge-creek-mall-2021",
+ "ranAt": "2026-10-19T02:03:53+00:00",
+ "status": 409,
+ "prediction": null,
+ "error": {
+  "error": "valued as 'Borrower / Guarantor', but the client is the 'Contractor / Design Professional'; fix userSide"
+ },
+ "outcome": {
+  "amount": 0.0,
+  "amountIsTheRequestedAmount": false,
+  "date": "2021-05-13",
+  "description": "After a bench trial the court held the construction lien attached only to the tenant's terminated leasehold interest, not the mall owner's real property (the lease permitted but did not require the improvements), found no cause of action and entered judgment for the mall owner against the $213,389.20 lien claim. The Court of Appeals affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 0.0,
+  "finalNote": "No-cause judgment for the owner affirmed."
+ },
+ "source": {
+  "caseName": "Architectural Stainless, Inc., d/b/a ASI Equipment v. Karet Projects, LLC, Thomas Lefevre, and TM Partridge Creek Mall, LP",
+  "court": "Michigan Court of Appeals (unpublished), on appeal from the Macomb County Circuit Court",
+  "docket": "No. 353660 (LC No. 2018-002821-CB)",
+  "decided": "2021-05-13",
+  "url": "https://www.courts.michigan.gov/4a4ed7/siteassets/case-documents/uploads/opinions/final/coa/20210513_c353660_35_353660.opn.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Background) through the start of the bench trial and the mall owner\u2019s directed-verdict motion; it includes the pretrial April 2019 summary-disposition ruling for the owner and its later reversal on reconsideration. Removed: the opening summary (which states the no-cause judgment and affirmance), footnotes 1-4 and their markers, running page numbers, the trial court's May 20, 2020 opinion and judgment, and all appellate analysis. Note: the supplier recovered nothing against the mall owner; the outcome is zero."
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "id": "empower-school-v-covenant-2026",
+ "ranAt": "2026-10-17T16:50:50+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1716,
+   "analysisUsd": 0.1612,
+   "analysisUsage": {
+    "input_tokens": 2314,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 7490,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 2685
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   57774.653999999995,
+   96291.09
+  ],
+  "bestGuessValue": 64996.48575,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Covenant has the stronger evidentiary position on whether Section 3(c) was a condition precedent, given Empower's own delay in filling the pool, its continued leasing of the pool area for profit, and its signing of a replacement lease before declaring commencement -- a jury is more likely than not to find the condition was never satisfied, voiding the lease and entitling Covenant to return of its $96,291.09 deposit while defeating Empower's breach-of-contract and fraud counterclaims. The counterclaims' dollar exposure cannot be quantified from this record because no rent figure is stated anywhere in the materials.",
+  "issues": [
+   {
+    "label": "Condition Precedent vs. Covenant (Section 3(c))",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Return of Deposit",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     96291.09,
+     96291.09
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 96291.09,
+    "kind": "claim",
+    "claimType": "security_deposit",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Deposit paid by Covenant to Empower",
+      "value": 96291.09,
+      "disputed": false,
+      "quote": "Covenant paid Empower $96,291.09 as a deposit.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Empower's Breach of Contract Counterclaim",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Empower's Fraud Counterclaim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.669,
+   "settlementValue": 64418.739210002066,
+   "likely50": [
+    0,
+    96291.09
+   ],
+   "likely80": [
+    0,
+    96291.09
+   ],
+   "ifWin": [
+    96291.09,
+    96291.09
+   ],
+   "median": 96291.09,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2026-07-03"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 96291.09,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-07-03",
+  "description": "After a four-day jury trial the jury found Section 3(c) was a condition precedent that Empower failed to satisfy; the trial court rendered judgment declaring the lease abrogated and ordered Empower to pay Covenant $96,291.09 in damages (the deposit), $611,491.45 in attorney's fees, and $135,000 in conditional appellate fees. The court of appeals held Section 3(c) is a covenant, not a condition precedent, reversed the entire judgment, rendered take-nothing on the condition-precedent declarations, and remanded the remaining declarations, the damages and fee awards, and Empower's breach-of-contract counterclaim.",
+  "attorneysFeesAtTrial": 611491.45,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "Empower School, LLC v. Covenant Management Systems, LP",
+  "court": "Texas Court of Appeals, Third District, at Austin (appeal from 53rd District Court of Travis County, No. D-1-GN-20-002332)",
+  "docket": "No. 03-24-00448-CV",
+  "decided": "2026-07-03",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=aac76815-becc-4ad3-ab4b-a3a3fbaca4f0&coa=coa03&DT=Opinion&MediaID=5090a08e-c161-4dbe-b9e0-3821a05a8e3f",
+  "excerptNote": "Verbatim from the opening paragraph (first two sentences only) and Part I Background, with footnote 3 folded in as a sentence. Removed: the sentences describing the jury's verdict, the trial court's judgment on the verdict, the list of declarations, the damages/fee award, the motion for new trial and motion to reconsider, the appellate court's statement of its conclusion, two sentences of appellate commentary ('Thus, by any interpretation...' and 'But under either interpretation...'), footnote 2, and Section 3(a) of the quoted lease clause (for length). The Section 3(c) and Exhibit G block quotations were joined into running text without altering words."
+ }
+}

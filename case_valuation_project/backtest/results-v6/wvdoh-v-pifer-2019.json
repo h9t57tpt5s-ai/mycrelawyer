@@ -1,0 +1,204 @@
+{
+ "id": "wvdoh-v-pifer-2019",
+ "ranAt": "2026-10-19T14:20:36+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1728,
+   "analysisUsd": 0.1668,
+   "analysisUsage": {
+    "input_tokens": 2786,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 7977,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 3464
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   1200,
+   864500
+  ],
+  "bestGuessValue": 435312.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The Pifers should recover at least the commissioners' $17,500 for the physical taking/TCEs, likely with a modest premium given the commercial corner disruption, and have a genuine (roughly even-odds) chance of a substantial condemnation blight award given the doctrine is already admitted into evidence and the twelve-year delay/plan-reversal history is compelling -- but the $812,000 blight figure itself is vulnerable on quantification and causation grounds and a jury is more likely to award a discounted fraction of that number than the full amount.",
+  "issues": [
+   {
+    "label": "Condemnation Blight Damages (Lost Lease Income 2001-2010)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     847000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 847000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Condemnation blight damages (total claimed by owner)",
+      "value": 812000,
+      "disputed": true,
+      "quote": "Mr. Pifer claimed $812,000 in damages attributable to condemnation blight.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Annual rental-value loss rate per owner's appraiser",
+      "value": 35000,
+      "disputed": true,
+      "quote": "Mr. Rice opined that Respondents suffered $35,000 in damages each year based on reasonable market rental values.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Just Compensation for the Fee Taking and Temporary Construction Easements",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     2000,
+     17500
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 17500,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Owner's appraiser value of land taken (fee strip)",
+      "value": 2000,
+      "disputed": true,
+      "quote": "he determined the fair market value of the property taken as $2,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Commissioners' award",
+      "value": 17500,
+      "disputed": true,
+      "quote": "Commissioners appointed to ascertain \"just compensation\" determined that Respondents should be awarded $17,500.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "DOH's pre-suit statutory deposit (its own just compensation estimate)",
+      "value": 3550,
+      "disputed": true,
+      "quote": "deposited $3,550 with the trial court, which DOH estimated to be just compensation",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Admissibility of Blight Evidence and Earlier Date-of-Take",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "quick_take_challenge",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "DOH's Defense: No Blight Occurred / Business Continued Operating",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.774,
+   "settlementValue": 221703.0957813508,
+   "likely50": [
+    3307.1700134314597,
+    435631.71574880835
+   ],
+   "likely80": [
+    0,
+    690288.0262152757
+   ],
+   "ifWin": [
+    13549.885904765688,
+    526791.5207713377
+   ],
+   "median": 26329.506271635182,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2019-11-19"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 178965,
+  "amountIsTheRequestedAmount": false,
+  "date": "2019-11-19",
+  "description": "After a five-day August 2017 trial the Wood County jury awarded $2,000 for the take, $1,800 for the temporary construction easements, and condemnation-blight damages of $35,033 a year for five years (2003-2007), $175,165, for $178,965 in total before interest (against the $3,550 deposit, the $17,500 commissioners' award and Michael Pifer's $812,000 blight claim). The trial court's judgment added 10% pre-petition and post-petition interest for a total of $466,114. The Supreme Court of Appeals affirmed the blight award on November 19, 2019, but reversed the interest calculation and remanded for it to be recomputed under W. Va. Code 54-2-14a.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "modified",
+  "finalAmount": 178965,
+  "finalNote": "Principal affirmed ($178,965, the sum of the three verdict items; the opinion never states it as one figure); only the interest computation was reversed and remanded, so the $466,114 judgment total will change."
+ },
+ "source": {
+  "caseName": "West Virginia Department of Transportation, Division of Highways v. Lawrence W. Pifer and Michael E. Pifer",
+  "court": "Supreme Court of Appeals of West Virginia, on appeal from the Circuit Court of Wood County (Civil Action No. 10-C-95)",
+  "docket": "No. 18-0517",
+  "decided": "2019-11-19",
+  "url": "https://storage.courtlistener.com/pdf/2019/11/19/wv_dept._of_transportation_division_of_highways_v._lawrence_w._pifer_and.pdf",
+  "excerptNote": "Verbatim from the introduction's description of the owners and project history (without its sentences on the verdict and interest) and Part I, Factual and Procedural History, through the experts' testimony and the jury instruction: the 1998 plan, the 2001 schedule letter, the 2008 plan change, the partial taking, the $3,550 deposit, the $17,500 commissioners' award, the blight claim and DOH's motions in limine, the owners' appraiser's figures ($2,000 take, zero residue damage, $35,000 a year lost rent), Michael Pifer's $812,000 claim, and DOH's appraiser. Removed: the syllabus, the introduction's verdict and $466,114 sentences, footnotes and markers, the jury's awards for the take, easements and blight, the judgment and post-trial motion, and all of the discussion and holdings."
+ }
+}

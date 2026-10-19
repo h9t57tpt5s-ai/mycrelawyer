@@ -1,0 +1,188 @@
+{
+ "id": "cle-venture-fund-v-coventry-2025",
+ "ranAt": "2026-10-19T01:51:57+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2832,
+   "analysisUsd": 0.2712,
+   "analysisUsage": {
+    "input_tokens": 3850,
+    "cache_creation_input_tokens": 11002,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11002,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14558,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 9054
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   0,
+   0
+  ],
+  "bestGuessValue": 0,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability and guaranty enforcement are already established by summary judgment and are not realistically disturbed; the only open question is the retrospective valuation credit, and the lender's expert's methodology (sales comparison only, appropriately avoiding unreliable cost/income approaches for a decade-vacant, HUD-restricted shell building) is more defensible than the borrowers' expert's valuation, which ignored the HUD rent restriction entirely. Expect a deficiency judgment in favor of the lender in the range of roughly $1.96M-$2.45M (capped by the complaint's own prayer), likely toward the higher end, plus a separate, currently unquantified award of attorney's fees.",
+  "issues": [
+   {
+    "label": "Deficiency Judgment / Fair-Value Credit Dispute",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     0,
+     0
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 0,
+    "kind": "claim",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Deficiency balance pled by Appellee (net of 2021 resale credit, incl. default interest/collection costs)",
+      "value": 2446775.94,
+      "disputed": true,
+      "quote": "requesting $2,446,775.94 in damages",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "2021 resale proceeds erroneously credited in Appellee's pled calculation (to be reversed per SJ ruling that FMV at transfer, not resale price, is the proper credit)",
+      "value": 1548000,
+      "disputed": true,
+      "quote": "sold the property to a third-party buyer for $1,548,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Lender's expert (Vodinelic) retrospective FMV credit at transfer date",
+      "value": 1310000,
+      "disputed": true,
+      "quote": "the retrospective value of the Property was $1,310,000",
+      "computed": null,
+      "role": "credit"
+     },
+     {
+      "label": "Borrower's expert (Durrah) retrospective FMV credit at transfer date",
+      "value": 2030000,
+      "disputed": true,
+      "quote": "Durrah valued the Property at $2,030,000 by using both valuation methods",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Guaranty and Note Liability (Already Adjudicated)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "guaranty_enforcement",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Borrowers' Rejected Defenses (Res Judicata and Debt-Extinguishment)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0,
+   "settlementValue": 0,
+   "likely50": [
+    0,
+    0
+   ],
+   "likely80": [
+    0,
+    0
+   ],
+   "ifWin": null,
+   "median": 0,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2025-07-10"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1735579.45,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-07-10",
+  "description": "After a bench trial on value the court adopted the lender's expert's retrospective value of $1,310,000 as of the March 27, 2018 transfer, credited it against the debt, and on June 14, 2024 entered judgment against the borrowers and guarantor, jointly and severally, for $1,735,579.45 plus default-rate interest (the lender later withdrew its fee request). The Eighth District affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 1735579.45,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "CLE Venture Fund, L.P. v. Coventry Partners, L.L.C., et al. (Coventry Courts LLC, Coventry Court LLC and John Crigler)",
+  "court": "Court of Appeals of Ohio, Eighth Appellate District (Cuyahoga County)",
+  "docket": "No. 114383, 2025-Ohio-2451 (C.P. No. CV-21-952010)",
+  "decided": "2025-07-10",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-2451.pdf",
+  "excerptNote": "documentText is verbatim from the Factual and Procedural History: the loan, default, forbearance and deed in lieu, the lender's complaint and demand, the trial court's summary-judgment ruling on liability (which left the property's value at transfer for trial), and the trial testimony of both valuation experts. Removed: the opening summary, the trial court's valuation ruling and scrivener's-error correction, the damages judgment amount, the fee withdrawal, the assignments of error and all appellate analysis."
+ }
+}

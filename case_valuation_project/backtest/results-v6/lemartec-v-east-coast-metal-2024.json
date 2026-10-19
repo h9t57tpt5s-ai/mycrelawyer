@@ -1,0 +1,268 @@
+{
+ "id": "lemartec-v-east-coast-metal-2024",
+ "ranAt": "2026-10-19T03:14:33+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2906,
+   "analysisUsd": 0.2819,
+   "analysisUsage": {
+    "input_tokens": 2267,
+    "cache_creation_input_tokens": 10717,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10717,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15662,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 9946
+    }
+   }
+  },
+  "category": "construction-defect",
+  "roleLabel": "Contractor / Design Professional",
+  "damagesRange": [
+   -86025,
+   38076.3
+  ],
+  "bestGuessValue": -13009.747499999998,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Subcontractor is likely to recover on the office and molding building balances (no performance issue there, and the cross-default clause's reach is genuinely disputed), but the pulping building balance will largely be absorbed by Owner's completion-cost counterclaim given Subcontractor's clean default on the stairs scope and failure to cure. Net recovery to Subcontractor is probably positive but well below the $102,011.70 pled, with a real possibility -- if the cross-default clause is enforced and the $127,000 completion cost is credited in full -- that Subcontractor nets little or even owes a modest amount to Owner.",
+  "issues": [
+   {
+    "label": "Contract Formation: Unsigned Subcontracts vs. LOIs (Cross-Default Clause Applicability)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Office and Molding Building Retainage/Balance",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     38076.3
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 38076.3,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Molding building balance",
+      "value": 28011.3,
+      "disputed": true,
+      "quote": "$28,011.30 for the molding building",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Office building balance",
+      "value": 10065,
+      "disputed": true,
+      "quote": "$10,065 for the office building",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Pulping Building Balance (Net of Stairs Shortfall)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 1,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Quantum Meruit (Alternative Theory, Count V)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Owner's Counterclaim for Stairs Completion Cost",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     -114700,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -114700,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Cost to complete pulping building stairs with replacement subcontractor",
+      "value": 127000,
+      "disputed": true,
+      "quote": "hired a new subcontractor to complete the stairs at a cost of nearly $127,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Subcontractor's proposed deductive credit for stairs scope",
+      "value": 12300,
+      "disputed": true,
+      "quote": "Subcontractor provided a deductive change order for $12,300",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Conditions Precedent Defense to Counterclaim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Mechanic's Lien Perfection and Foreclosure",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Payment Bond Claims Against Sureties (Section 713.23)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.35,
+   "settlementValue": -26379.617575565524,
+   "likely50": [
+    -63163.953463570215,
+    9137.388720751369
+   ],
+   "likely80": [
+    -88574.99329878471,
+    26135.975940945562
+   ],
+   "ifWin": [
+    7886.311408472574,
+    27462.67174649863
+   ],
+   "median": -18437.07250689608,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2024-05-15"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 29483.7,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-05-15",
+  "description": "After a ten-day bench trial the court held the unsigned subcontracts governed, found the subcontractor entitled to $71,897.70 on the three buildings ($10,065 office, $28,011.30 molding, $33,821.40 pulping), denied recovery on the payment bonds, and on the counterclaim awarded the project owner $42,414 for the reasonable value of the stairs, offset under the cross-default provisions, leaving the subcontractor a net $29,483.70 ($36,304.51 with interest). The merits judgment was affirmed per curiam (357 So. 3d 116, Fla. 4th DCA 2023). A successor judge then awarded the subcontractor $446,628.65 in prevailing-party attorney's fees and costs; on May 15, 2024 the Fourth District reversed that award in its entirety and remanded for an award of attorney's fees to the defendants (under the $62,000 joint proposal for settlement and the bond-claim fee statute).",
+  "attorneysFeesAtTrial": 446628.65,
+  "attorneysFeesOnAppeal": "reversed; fees directed to the defendants instead (amount to be set on remand)",
+  "appellateChange": "affirmed",
+  "finalAmount": 29483.7,
+  "finalNote": "Merits judgment affirmed per curiam in 2023; the subcontractor's $446,628.65 fee-and-cost award was reversed in 2024 and fees were directed to the defendants, so the subcontractor's net position after fees is well below the $29,483.70 damages figure."
+ },
+ "source": {
+  "caseName": "Lemartec Corporation, Tellus Products, LLC, Philadelphia Indemnity Insurance Company and Suretec Insurance Company v. East Coast Metal Structures Corp.",
+  "court": "Florida Fourth District Court of Appeal, on appeal from the Circuit Court for the Fifteenth Judicial Circuit, Palm Beach County (L.T. No. 50-2017-CA-010645-XXXX-MB)",
+  "docket": "No. 4D2023-0601",
+  "decided": "2024-05-15",
+  "url": "https://storage.courtlistener.com/pdf/2024/05/15/lemartec_corporation_v._east_coast_metal_structures_corp..pdf",
+  "excerptNote": "Verbatim from the Background (project, letters of intent and unsigned subcontracts, stairs default, replacement cost) and The Lawsuit (counts and amounts sought, defenses, counterclaim, joint pretrial stipulation), plus the one sentence describing the defendants' joint proposal for settlement. Removed: the opening paragraph (states the fee holding), the sentence noting the appeal concerns attorney's fees, the whole Final Merits Judgment section (amounts found, setoff, net award), the per curiam affirmance, the fee motions and fee award, the sentence placing the proposal inside a post-trial fee motion, and all analysis. Source is the court's slip opinion as archived by CourtListener."
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "id": "wheeler-reit-khoshaba-2024",
+ "ranAt": "2026-10-19T02:52:21+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2861,
+   "analysisUsd": 0.2753,
+   "analysisUsage": {
+    "input_tokens": 6030,
+    "cache_creation_input_tokens": 10970,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10970,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14405,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 7668
+    }
+   }
+  },
+  "category": "reit-securities",
+  "roleLabel": "Shareholder / Plaintiff Class",
+  "damagesRange": [
+   0,
+   9842725
+  ],
+  "bestGuessValue": 6146362.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Count I and Count II will likely survive the motion to dismiss as to the self-dealing 'Conflicted Insiders' and the Stilwell Fund Defendants (weaker as to any purely outside directors), while the direct (as opposed to derivative) claims face a real risk of dismissal for alleging only pro rata, company-wide dilution. Count III's unjust enrichment claim is strongest as to the $7 million Stilwell fund investment and weaker as to the D Stock interest diversion. Quantifiable recovery at this stage is anchored to the Count III figures; the much larger dilution-damages theory under Count I is directionally strong on liability but not yet damages-quantifiable on this record.",
+  "issues": [
+   {
+    "label": "Breach of Fiduciary Duty (Duty of Loyalty) \u2014 Conflicted Insiders",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "breach_fiduciary_duty_derivative",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Aiding and Abetting Breach of Fiduciary Duty \u2014 Stilwell Fund Defendants",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "breach_fiduciary_duty_derivative",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Unjust Enrichment \u2014 $7 Million Stilwell Fund Investment",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     7000000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 7000000,
+    "kind": "claim",
+    "claimType": "breach_fiduciary_duty_derivative",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Investments by Wheeler in Stilwell Activist Investments, L.P. in lieu of Series D buyback",
+      "value": 7000000,
+      "disputed": true,
+      "quote": "Stilwell and one of the Stilwell Fund Defendants were unjustly enriched in receiving at least $7 million in investments by the Company in lieu of buying back Series D Shares.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Unjust Enrichment \u2014 D Stock Interest Diversion",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     2842725
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 2842725,
+    "kind": "claim",
+    "claimType": "breach_fiduciary_duty_derivative",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Increase in D Stock redemption exposure from interest paid in-kind",
+      "value": 2842725,
+      "disputed": true,
+      "quote": "increasing the outstanding shares of D stock and the potential redemption exposure by over $2,842,725",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Business Judgment Rule / Charter Exculpation Defense",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "breach_fiduciary_duty_derivative",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Direct Claim Standing \u2014 Pro Rata Dilution Injury",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "breach_fiduciary_duty_derivative",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.758,
+   "settlementValue": 3056612.6212167116,
+   "likely50": [
+    107013.3678149432,
+    5286462.415475398
+   ],
+   "likely80": [
+    0,
+    6843589.13032338
+   ],
+   "ifWin": [
+    2090724.1816166788,
+    5925245.381435548
+   ],
+   "median": 2667212.71572446,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2026-04-01"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 7125000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-04-01",
+  "description": "After the court's September 13, 2024 ruling on the motions to dismiss, discovery proceeded and the plaintiff moved for class certification in July 2025. The parties reached a settlement in principle on August 20, 2025. In a Memorandum Opinion of November 25, 2025 (ECF No. 99, https://storage.courtlistener.com/recap/gov.uscourts.vaed.552123/gov.uscourts.vaed.552123.99.0.pdf) the court certified a settlement class of holders of Wheeler common stock as of August 16, 2021 and purchasers from August 16, 2021 through September 20, 2023, and preliminarily approved a settlement under which defendants pay $7.125 million for release of all claims. After a fairness hearing on March 31, 2026, the court entered its Final Judgment Approving Class Action Settlement on April 1, 2026 (ECF No. 113) and on April 6, 2026 awarded attorneys' fees and expenses out of the fund (counsel had sought up to 28% plus up to $665,000 in expenses).",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none",
+  "finalAmount": 7125000,
+  "finalNote": "Court-approved class settlement of $7.125 million (preliminary approval opinion Nov. 25, 2025; final judgment Apr. 1, 2026); fees paid from the fund; no appeal."
+ },
+ "source": {
+  "caseName": "Khoshaba v. Stilwell (Wheeler Real Estate Investment Trust stockholder class action)",
+  "court": "U.S. District Court for the Eastern District of Virginia, Norfolk Division",
+  "docket": "2:24-cv-00237-MSD-DEM",
+  "decided": "2024-09-13",
+  "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.552123/gov.uscourts.vaed.552123.40.0.pdf",
+  "outcomeUrl": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.552123/gov.uscourts.vaed.552123.99.0.pdf",
+  "excerptNote": "documentText is verbatim from the court's September 13, 2024 Opinion and Order on the defendants' motions to dismiss (ECF No. 40): most of Part I (Background, sections A-F and the description of the three counts and relief sought), plus the sentences in Part III that summarize the Individual Defendants' arguments (direct vs. derivative harm, business judgment rule, charter exculpation, unjust enrichment) and the plaintiff's response on the business judgment rule. Removed: the opening paragraph's ruling, parts of the proxy-fight history, individual note-purchase figures for three directors, the plaintiff's tenure as CEO, the Exchange Offer's terms, the August 2023 Form 10-Q quotation, the injunctive relief sought, several of the plaintiff's letters to the board, the Stilwell ownership-limit agreement paragraph, the procedural history, legal standards, and every sentence of the court's analysis or rulings (including which claims were dismissed). The PDF is a scanned image; the source file is its OCR text layer re-ordered by word position, with page headers removed and footnotes moved to the end; OCR artifacts (e.g. stray '//', 'u', 'tt' for quotation marks) are left exactly as extracted. The settlement amount comes from the court's November 25, 2025 Memorandum Opinion granting preliminary approval (ECF No. 99) and the April 1, 2026 final judgment, not from the excerpt."
+ }
+}

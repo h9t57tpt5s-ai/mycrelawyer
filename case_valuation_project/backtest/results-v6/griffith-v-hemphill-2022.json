@@ -1,0 +1,272 @@
+{
+ "id": "griffith-v-hemphill-2022",
+ "ranAt": "2026-10-19T03:11:27+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2369,
+   "analysisUsd": 0.2276,
+   "analysisUsage": {
+    "input_tokens": 1930,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11994,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 5712
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   10298.4,
+   19123
+  ],
+  "bestGuessValue": 14692.050000000001,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The tenants are likely to prevail on their breach of the repair and insurance covenant claims, recovering roughly the $19,365 they documented in repair and premium costs, while defeating Griffith's $25,000 roof-damage counterclaim and his unsupported oral triple-net lease/fraud theory. Net result favors the tenants, likely bolstered by prevailing-party attorney's fees given the unaccepted $20,000 Rule 68 offer, though the good-faith/fair-dealing and unjust enrichment theories add little incremental dollar value beyond the documented repair costs.",
+  "issues": [
+   {
+    "label": "Breach of Repair/Maintenance Covenant (2016 roof failure)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     17950,
+     17950
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 17950,
+    "kind": "claim",
+    "claimType": "implied_warranty_of_suitability_breach",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Wall repair costs",
+      "value": 6500,
+      "disputed": false,
+      "quote": "spent $6,500 to repair the wall that had suffered water damage from the roof failure",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Painting/finishing costs",
+      "value": 11450,
+      "disputed": false,
+      "quote": "$11,450 in painting costs to finish those repairs",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Breach of Insurance Covenant",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     1173,
+     1173
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1173,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "2016 property insurance premium paid by tenants",
+      "value": 1173,
+      "disputed": false,
+      "quote": "paid $1,173 for property insurance in 2016",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Breach of Implied Covenant of Good Faith and Fair Dealing / Unjust Enrichment",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Breach of Purchase Option",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Landlord's $25,000 Roof-Failure Damages Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -25000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -25000,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Griffith's claimed roof-failure damages",
+      "value": 25000,
+      "disputed": true,
+      "quote": "claimed $25,000 in damages due to the roof failure",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Oral Triple-Net Lease / Fraud / Promissory Estoppel Theory",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "FED/Holdover Claim and Self-Help Eviction Defense",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "holdover_damages",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Attorney's Fees / Rule 68 Offer-of-Judgment Effect",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.9045,
+   "settlementValue": 14639.556847095844,
+   "likely50": [
+    17950,
+    19123
+   ],
+   "likely80": [
+    1100.711824418977,
+    19123
+   ],
+   "ifWin": [
+    19123,
+    19123
+   ],
+   "median": 19123,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2022-12-16"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 19330,
+  "amountIsTheRequestedAmount": false,
+  "date": "2022-12-16",
+  "description": "After a two-day bench trial the court held the written lease governed, found the landlord breached its insurance and maintenance covenants, and awarded the tenants $19,330 in damages (2016-2017 insurance premiums and the 2016 roof-failure repair and painting costs; earlier claims were time-barred), dismissed the landlord's claims, and awarded the tenants $59,604.75 in attorney's fees under Civil Rule 68, for a final judgment of $85,895.62. The Alaska Supreme Court affirmed on December 16, 2022.",
+  "attorneysFeesAtTrial": 59604.75,
+  "attorneysFeesOnAppeal": "affirmed",
+  "appellateChange": "affirmed",
+  "finalAmount": 19330,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "David Griffith v. Roger Hemphill and Donald Davis",
+  "court": "Supreme Court of Alaska, on appeal from the Superior Court, Third Judicial District, Anchorage (No. 3AN-19-04477 CI)",
+  "docket": "No. S-18041, Opinion No. 7634",
+  "decided": "2022-12-16",
+  "url": "https://storage.courtlistener.com/pdf/2022/12/16/david_griffith_v._roger_hemphill_and_donald_davis.pdf",
+  "excerptNote": "Verbatim from Part II.A (Facts) and Part II.B.1 (pleadings and the tenants' Rule 68 offer of judgment), the first two sentences of Part II.B.2 (dismissal of the specific-performance counterclaim), and three sentences of Hemphill's damages testimony recited in Part IV.B. Removed: the introduction; footnotes 1-5 and markers; page numbers; the rest of the summary-judgment order; the superior court's findings, damages award, dismissal rulings and attorney's-fee award; the appellate arguments and all holdings. Source is the court's slip opinion as archived by CourtListener (the Alaska courts' own document link is session-tokenized)."
+ }
+}

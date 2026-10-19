@@ -1,0 +1,180 @@
+{
+ "id": "mhtc-v-boer-potted-steer-2016",
+ "ranAt": "2026-10-19T14:16:20+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1608,
+   "analysisUsd": 0.1556,
+   "analysisUsage": {
+    "input_tokens": 2224,
+    "cache_creation_input_tokens": 10354,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10354,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 7338,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 2932
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   3300000,
+   3300000
+  ],
+  "bestGuessValue": 3300000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The jury will almost certainly award just compensation somewhere between MHTC's low appraisal and the owner's requested figure, with the commissioners' $2,500,000 award and Nunn's concession about the remainder's lack of value pulling the likely outcome toward the middle-to-upper portion of that range rather than MHTC's low end. A verdict in the roughly $2.0M-$2.8M band is most probable, bounded on the high end by the owner's own $3,300,000 prayer to the jury.",
+  "issues": [
+   {
+    "label": "Just Compensation for Partial Taking (Before/After Valuation)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     4500000,
+     6600000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 6600000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Commissioners' award",
+      "value": 2500000,
+      "disputed": true,
+      "quote": "Commissioners filed a report awarding the Boers $2,500,000 for the acquired property",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Owner's requested net award",
+      "value": 3300000,
+      "disputed": true,
+      "quote": "Mr. Boer asked the jury to award him the difference of $3,300,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Owner's expert Kirby's just compensation opinion",
+      "value": 2085000,
+      "disputed": true,
+      "quote": "John Kirby (\"Kirby\"), Mr. Boer's expert real estate appraiser, opined that just compensation for the Potted Steer was $2,085,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "MHTC expert Moore's just compensation opinion",
+      "value": 1200000,
+      "disputed": true,
+      "quote": "MHTC's expert real estate appraisers, Allan Moore (\"Moore\") and Nunn, opined that just compensation was $1,200,000 and $1,500,000, respectively",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "MHTC expert Nunn's just compensation opinion",
+      "value": 1500000,
+      "disputed": true,
+      "quote": "MHTC's expert real estate appraisers, Allan Moore (\"Moore\") and Nunn, opined that just compensation was $1,200,000 and $1,500,000, respectively",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Owner's before-taking value opinion",
+      "value": 3500000,
+      "disputed": true,
+      "quote": "Mr. Boer's opinion was that the precondemnation value of the Potted Steer was $3,500,000",
+      "computed": null,
+      "role": "before_value"
+     },
+     {
+      "label": "Owner's after-taking (remainder) value opinion",
+      "value": 200000,
+      "disputed": true,
+      "quote": "Mr. Boer testified he thought the remaining .566 acres was worth $200,000",
+      "computed": null,
+      "role": "after_value"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Admissibility of Owner's Lay Valuation Testimony and Comparable Sales",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.9725,
+   "settlementValue": 5378519.368732888,
+   "likely50": [
+    4966454.559238628,
+    6037787.411548197
+   ],
+   "likely80": [
+    4662274.206080474,
+    6380522.332317196
+   ],
+   "ifWin": [
+    4999213.305185549,
+    6049833.98092445
+   ],
+   "median": 5479270.0552381575,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2016-01-27"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2900000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2016-01-27",
+  "description": "After a three-day December 2014 jury trial the jury awarded the Boers $2,900,000 in damages for the Potted Steer (against the commissioners' $2,500,000, the owners' appraiser's $2,085,000, MHTC's appraisers' $1,200,000 and $1,500,000, and Mr. Boer's own $3,300,000 request); the figure equals what MHTC paid for the nearby Link's Landing property in 1992. Judgment was entered on the verdict less adjustments for interest and prior payments, and remittitur was denied. The Southern District affirmed on January 27, 2016.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 2900000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "State ex rel. Missouri Highways and Transportation Commission v. Joseph H. Boer, et al. (Exceptions of Joseph H. Boer, Mary Christine Boer and Joseph Boer's Food Service d/b/a The Potted Steer Restaurant)",
+  "court": "Missouri Court of Appeals, Southern District, on appeal from the Circuit Court of Laclede County",
+  "docket": "No. SD33804",
+  "decided": "2016-01-27",
+  "url": "https://storage.courtlistener.com/pdf/2016/01/27/state_ex_rel._missouri_highways_and_transportation_commission.pdf",
+  "excerptNote": "Verbatim from Facts and Procedural History: the petition and commissioners' award, Mr. Boer's testimony about the property, the effect of the taking, his real-estate knowledge, the Link's Landing and BOLO sales, his opinion of value and request, and each side's appraisers' figures; plus MHTC's objections and the trial court's evidentiary rulings, footnote 1 (both sides agreed the property was unique) and Kirby's cross-examination answers on the age of the Link's Landing sale. Removed: the opening paragraph (verdict and affirmance), the sentence stating MHTC's 1992 purchase price for Link's Landing ($2,900,000, which equals the verdict and is not a party demand, so the leak guard bars it; the excerpt keeps that MHTC bought it in 1992 and that the sale informed Mr. Boer's opinion), the verdict and judgment sentences, the closing-argument dispute, and all points and holdings; footnote markers."
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "id": "usbank-br-penn-realty-2025",
+ "ranAt": "2026-10-18T21:55:52+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1486,
+   "analysisUsd": 0.1414,
+   "analysisUsage": {
+    "input_tokens": 1616,
+    "cache_creation_input_tokens": 11002,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11002,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 6350,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 2056
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   37032720.2,
+   46290900.25
+  ],
+  "bestGuessValue": 39347265.212500006,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "U.S. Bank is very likely to obtain both the foreclosure judgment and the in personam money judgment given the undisputed loan documents, the admitted Covid-era default, and the borrower's failure to object to the combined pleading structure; the main open question going into the bench trial is what, if anything, the two years of contested liability litigation have produced by way of a forbearance-related or payment-application defense that could shave some amount (interest, fees, or a partial credit) off the full $46,290,900.25 figure pleaded. Expect a judgment at or very near the complaint's stated amount, plus some additional interest/fees under the loan documents that cannot be quantified from this record.",
+  "issues": [
+   {
+    "label": "Core Foreclosure / In Personam Money Judgment on the Note",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     46290900.25,
+     46290900.25
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 46290900.25,
+    "kind": "claim",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Money judgment demanded in the complaint",
+      "value": 46290900.25,
+      "disputed": false,
+      "quote": "against [Penn Realty] in the amount of $46,290,900.25",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Validity of Combined In Rem / In Personam Complaint",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Interest, Default-Rate Charges, and Attorneys' Fees Under the Loan Documents",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Forbearance Agreement and Undisclosed Trial Defenses",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.85925,
+   "settlementValue": 39775456.0398125,
+   "likely50": [
+    46290900.25,
+    46290900.25
+   ],
+   "likely80": [
+    0,
+    46290900.25
+   ],
+   "ifWin": [
+    46290900.25,
+    46290900.25
+   ],
+   "median": 46290900.25,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2025-05-08"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 51392086.96,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-08",
+  "description": "After a bench trial the district court held Penn Realty breached the loan agreement and entered an in personam money judgment for U.S. Bank of $51,392,086.96 (no judgment in mortgage foreclosure was entered); the Third Circuit affirmed that judgment in a separate unpublished opinion (No. 23-2185, Sept. 25, 2024). In this precedential appeal the Third Circuit upheld the subsequent execution sale of the apartment building under Fed. R. Civ. P. 69(a) and affirmed the denial of the borrower's motion to quash.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 51392086.96,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "US Bank NA, as Trustee for the Registered Holders of J.P. Morgan Chase Commercial Mortgage Securities Corp., Multifamily Mortgage Pass-Through Certificates, Series 2012-K18 v. B R Penn Realty Owner LP",
+  "court": "United States Court of Appeals for the Third Circuit (precedential)",
+  "docket": "No. 24-1108 (appeal from E.D. Pa. No. 2:21-cv-00502)",
+  "decided": "2025-05-08",
+  "url": "https://www2.ca3.uscourts.gov/opinarch/241108p.pdf",
+  "excerptNote": "Excerpts from Part I (Background) with footnotes 1 and 4, the Pennsylvania loan/mortgage primer in Part III.A, and the description of the complaint's in personam demand. Removed: the sentence stating the bench-trial result and money-judgment amount, the '$51 million' characterization, the affirmance of that judgment in the separate appeal, and everything about the execution sale and this appeal's holdings. Note: this opinion concerns the post-judgment execution sale, so the borrower's defenses at trial are not described; pre-outcome facts are thin. Whitespace normalized; PDF spacing artifacts and footnote markers removed."
+ }
+}

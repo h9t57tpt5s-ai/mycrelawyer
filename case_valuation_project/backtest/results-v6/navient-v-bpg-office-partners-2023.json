@@ -1,0 +1,267 @@
+{
+ "id": "navient-v-bpg-office-partners-2023",
+ "ranAt": "2026-10-19T00:55:47+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2305,
+   "analysisUsd": 0.2196,
+   "analysisUsage": {
+    "input_tokens": 2745,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11294,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 6768
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   128322.83399999997,
+   503822.72
+  ],
+  "bestGuessValue": 341947.85089999996,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Navient should recover its conceded $503,822.72 cooling tower claim largely intact, with BPG's $817,845 counterclaim substantially reduced \u2014 the transformer claim likely time-barred, the rooftop claim likely capped near repair cost rather than replacement cost, and the heat pump claim likely trimmed from the age-based $434,500 theory down toward the narrower operability-based figure. Net result is a probable six-figure recovery in Navient's favor, before any fee award, though a worse-case scenario where the court credits BPG's experts broadly could leave Navient owing a net setoff instead.",
+  "issues": [
+   {
+    "label": "Cooling Tower Reimbursement (Conceded)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     503822.72,
+     503822.72
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 503822.72,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Unamortized cooling tower replacement cost",
+      "value": 503822.72,
+      "disputed": false,
+      "quote": "the total unamortized cost of replacing the cooling tower and its component parts was $503,822.72",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Transformer Counterclaim \u2014 Statute of Limitations Defense",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     -140000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -140000,
+    "kind": "defense",
+    "claimType": "property_damage",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "BPG's claimed transformer/pad damages",
+      "value": 140000,
+      "disputed": true,
+      "quote": "BPG claims it is entitled to $140,000 because Navient did not meet its contractual obligation to install a four-position switch and a permanent level concrete pad under the transformer",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Heat Pump Replacement Counterclaim",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     -434500,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -434500,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "BPG's claimed heat pump damages (court itemization)",
+      "value": 434500,
+      "disputed": true,
+      "quote": "$434,500 for heat pumps",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Rooftop Air Unit Counterclaim \u2014 Repair vs. Replace",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -240000,
+     -8400
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -240000,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "BPG's replacement cost estimate (high end)",
+      "value": 240000,
+      "disputed": true,
+      "quote": "BPG's estimated cost to replace the rooftop air units is between $217,200 and $240,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "BPG's replacement cost estimate (low end)",
+      "value": 217200,
+      "disputed": true,
+      "quote": "BPG's estimated cost to replace the rooftop air units is between $217,200 and $240,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "BPG's own expert's repair cost estimate",
+      "value": 8400,
+      "disputed": false,
+      "quote": "Mr. Frenck's estimated cost to repair both rooftop air units totaled $8,400",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Elevator Bracket Repair Counterclaim",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     -3345,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -3345,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Elevator bracket repair",
+      "value": 3345,
+      "disputed": true,
+      "quote": "it had to repair a bracket in one elevator for $3,345",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Prevailing-Party Attorney's Fees",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.94375,
+   "settlementValue": 340923.0867536211,
+   "likely50": [
+    271171.88930610777,
+    466910.09704627213
+   ],
+   "likely80": [
+    77244.42281105206,
+    502894.4249177736
+   ],
+   "ifWin": [
+    319333.59804511187,
+    471181.05686595896
+   ],
+   "median": 402740.2301871707,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2023-04-27"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 424172.72,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-04-27",
+  "description": "The Superior Court entered post-trial judgment for Navient in $503,822.72 (the conceded cooling-tower reimbursement) less $79,650 awarded to BPG on its counterclaim ($71,250 to repair 25 non-operational heat pumps and $8,400 to repair two rooftop air units), a net principal of $424,172.72 plus prejudgment interest from March 17, 2020; BPG's transformer and elevator claims failed. Navient was held the prevailing party entitled to its attorneys' fees and expenses under lease section 28(q) (amount not stated). This is the trial-level decision; no appeal is reflected in the source.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none (trial-level post-trial opinion; no appeal in source)",
+  "finalAmount": 424172.72,
+  "finalNote": "Trial-level post-trial opinion; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC and Office Partners XIII Iron Hill LLC",
+  "court": "Superior Court of the State of Delaware (LeGrow, J.)",
+  "docket": "C.A. No. N20C-04-005 AML",
+  "decided": "2023-04-27",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=346910",
+  "excerptNote": "Verbatim sentences from Part I (Background) sections A, B, D and E of the post-trial memorandum opinion and from the parties' post-trial contentions (F.1 and F.2); footnote numerals and page breaks removed and PDF-extraction spacing artifacts (e.g. 'B PG', 't hree') restored to the opinion's words. Omitted: the opinion's introductory summary of the result, Part II (Analysis), the Conclusion, and every sentence stating what the Court found or awarded on the counterclaim or on fees."
+ }
+}

@@ -1,0 +1,261 @@
+{
+ "id": "jack-v-eldorado-casino-2019",
+ "ranAt": "2026-10-19T02:29:21+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2091,
+   "analysisUsd": 0.1988,
+   "analysisUsage": {
+    "input_tokens": 5046,
+    "cache_creation_input_tokens": 9660,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 9660,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9830,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 3729
+    }
+   }
+  },
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": [
+   109915.2,
+   692802
+  ],
+  "bestGuessValue": 467641.35000000003,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "More likely than not Jack recovers on liability (with a real risk of some comparative-fault reduction tied to the unexplained patron bump and the video gap), with wage-loss damages likely landing in a middle range between the parties' competing extremes given that even Eldorado's own IME physician concedes permanent injury and functional limitations. The quantified components alone (past wages plus a realistic future-earning-capacity scenario) likely fall in the few-hundred-thousand-dollar range, before adding the unquantified but likely substantial general damages and future medical costs that this record does not price.",
+  "issues": [
+   {
+    "label": "Employee negligence / vicarious liability for the coffee spill",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Comparative/third-party fault defense (unidentified patron)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Collateral source rule / full medical specials",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Past lost wages",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 1,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Future loss of earning capacity",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     183192,
+     692802
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 692802,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Theriot: no return to work, degree-adjusted wage base",
+      "value": 692802,
+      "disputed": true,
+      "quote": "her future lost earnings would be $692,802",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Theriot: no return to work, actual $33,000 wage base",
+      "value": 574925,
+      "disputed": true,
+      "quote": "Jack\u2019s future lost wages would be: $574,925 if she did not return to work",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Theriot: part-time return, degree-adjusted wage base",
+      "value": 496945,
+      "disputed": true,
+      "quote": "Jack would sustain a future loss of earnings totaling $496,945 if she were able to return to work part time",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Theriot: part-time return, actual $33,000 wage base",
+      "value": 379067,
+      "disputed": true,
+      "quote": "$379,067 if she returned part time making $11,242",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Theriot: full-time return, degree-adjusted wage base",
+      "value": 301069,
+      "disputed": true,
+      "quote": "her future lost earnings would be $301,069",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Theriot: full-time return, actual $33,000 wage base",
+      "value": 183192,
+      "disputed": true,
+      "quote": "$183,192 if she returned full time earning $22,485",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "General damages (pain, suffering, permanent injury)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Future medical expenses (possible additional surgery)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 0,
+   "tier": "none"
+  },
+  "scenarios": {
+   "pAhead": 0.67325,
+   "settlementValue": 293131.4415538469,
+   "likely50": [
+    0,
+    499508.4074755227
+   ],
+   "likely80": [
+    0,
+    621266.6523053502
+   ],
+   "ifWin": [
+    304660.038412747,
+    569126.9300654233
+   ],
+   "median": 307448.28189550946,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2019-01-16"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1429928.7,
+  "amountIsTheRequestedAmount": false,
+  "date": "2019-01-16",
+  "description": "A unanimous jury assessed 100% of the fault to the casino's server (none to the unknown patron) and awarded $237,124.79 past medical, $577,698 future medical, $51,646 past lost wages, $317,460 future lost wages, $235,000 in general damages across pain, mental anguish and loss of enjoyment categories, and $1,000 scarring. The trial court entered judgment for $1,429,928.70 (the appellate court notes the items actually sum to $1,429,928.79) and denied JNOV, including the request to reduce past medicals by insurer write-offs. The Second Circuit affirmed on January 16, 2019. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 1429928.7,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Yasheka Jack v. Eldorado Casino Shreveport Joint Venture, L.L.C., Eldorado Shreveport #1, L.L.C. and Eldorado Shreveport #2, L.L.C.",
+  "court": "Louisiana Court of Appeal, Second Circuit, on appeal from the First Judicial District Court, Caddo Parish (No. 580048)",
+  "docket": "52,454-CA",
+  "decided": "2019-01-16",
+  "url": "https://www.la2nd.org/wp-content/uploads/2022/09/52454ca.pdf",
+  "excerptNote": "Verbatim from Facts and Procedural History and the 'Overview of relevant testimony' subsections on fault and on future lost wages (both sides' lay, medical, vocational and economic witnesses), trimmed for length to selected paragraphs. Removed: the opening paragraph (states the disposition), the jury's findings and itemized award, the judgment total and its footnote, the JNOV ruling, the statements of assignments of error, and every Analysis subsection and holding."
+ }
+}

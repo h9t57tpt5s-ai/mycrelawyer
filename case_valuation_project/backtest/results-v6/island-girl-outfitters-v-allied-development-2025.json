@@ -1,0 +1,201 @@
+{
+ "id": "island-girl-outfitters-v-allied-development-2025",
+ "ranAt": "2026-10-18T21:43:42+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1805,
+   "analysisUsd": 0.1717,
+   "analysisUsage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 11176,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11176,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8301,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 3644
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   17955,
+   146910
+  ],
+  "bestGuessValue": 142502.69999999998,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability is already decided in the landlord's favor by partial summary judgment, so the ore tenus hearing is purely about quantifying damages. Given the genuine factual dispute over whether the internal reletting actually mitigated the landlord's loss, and the landlord's own credibility problem from near-doubling its damages figure mid-litigation, the most likely outcome is an award in the middle of the $18,900-$146,910 band, materially below the landlord's current ask but well above the tenant's floor, with Carver jointly and severally liable as guarantor.",
+  "issues": [
+   {
+    "label": "Future/Accelerated Rent Damages Under Default Provision",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     18900,
+     146910
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 146910,
+    "kind": "claim",
+    "claimType": "accelerated_rent",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Original summary-judgment damages figure",
+      "value": 89010,
+      "disputed": true,
+      "quote": "IGO and Carver owed it $89,010 for rent, interest, costs, and fees",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Revised, more detailed damages figure",
+      "value": 146910,
+      "disputed": true,
+      "quote": "Hankins further provided a more detailed explanation for the damages Allied Development was claiming, which now totaled $146,910",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Tenant's proposed capped damages figure",
+      "value": 18900,
+      "disputed": true,
+      "quote": "IGO and Carver argue that they should be liable for no more than $18,900 in damages",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Mitigation Through Reletting to Relocated Existing Tenant",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "releasing_mitigation_costs",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Reliability and Specificity of Damages Itemization",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Guarantor's Personal Liability (Carver)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Quiet Enjoyment / Failure to Market and Maintain (Residual)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "quiet_enjoyment_breach",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.97075,
+   "settlementValue": 80600.72207813787,
+   "likely50": [
+    49071.709154443815,
+    113954.29010548163
+   ],
+   "likely80": [
+    28545.86362473434,
+    133031.53063021135
+   ],
+   "ifWin": [
+    51649.448806301225,
+    114851.43438216532
+   ],
+   "median": 81133.30915396102,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2025-03-21"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 94350,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-03-21",
+  "description": "After a damages hearing, the Baldwin Circuit Court rendered judgment for the landlord in the amount of $94,350 plus costs of court against the tenant and guarantor (the landlord had claimed $89,010 in its summary-judgment motion and later $146,910; the tenant argued for no more than $18,900). Attorney's fees were not separately stated. The Supreme Court of Alabama affirmed both the liability determination and the damages judgment.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 94350,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Island Girl Outfitters, LLC, and Anthony S. Carver v. Allied Development of Alabama, LLC",
+  "court": "Supreme Court of Alabama (appeal from Baldwin Circuit Court)",
+  "docket": "SC-2023-0561 (trial court CV-22-900259)",
+  "decided": "2025-03-21",
+  "url": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/33D15128-6DDF-4F60-8D72-8ABE96948EE3/docketentrydocuments/B04FE86F-1EB1-49BD-A1C7-EEC074DC3688",
+  "excerptNote": "Excerpts from the opinion's introduction, 'Facts and Procedural History', and the parties' contentions as restated in the 'Analysis' section. Removed: the introductory sentence stating the judgment amount, the sentences describing the trial court's partial summary judgment on liability and the later damages judgment, the sentence restating the damages award in the mitigation argument, and all appellate holdings/affirmance language."
+ }
+}

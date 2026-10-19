@@ -1,0 +1,285 @@
+{
+ "id": "windsor-tower-v-speedy-maintenance-2024",
+ "ranAt": "2026-10-19T01:44:47+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2812,
+   "analysisUsd": 0.2659,
+   "analysisUsage": {
+    "input_tokens": 5112,
+    "cache_creation_input_tokens": 10717,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10717,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14026,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 8445
+    }
+   }
+  },
+  "category": "construction-defect",
+  "roleLabel": "Owner / Developer",
+  "damagesRange": [
+   -18138,
+   28560
+  ],
+  "bestGuessValue": 10515.000000000004,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Windsor is the likely net winner at trial: Speedy's contract, unjust enrichment, and lien foreclosure claims are all seriously undercut by its own overbilling and the documented ~20% completion rate, while Windsor's breach counterclaim (properly measured as the ~$24,600 cost overrun from having to redo the fifth floor) is well supported by largely uncontradicted testimony and records. Windsor's slander of title claim should recover at least the $3,960 bond cost, but the much larger claimed interest-rate damages face real causation and proof problems and may not survive as pled.",
+  "issues": [
+   {
+    "label": "Windsor's Breach of Contract Counterclaim (Cost Overrun From Defective/Incomplete Work)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     24600,
+     24600
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 24600,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Amount paid to Speedy for fifth-floor work ultimately of no value",
+      "value": 44300,
+      "disputed": false,
+      "quote": "Although Windsor paid Speedy $44,300 to restore the fifth floor, it received no benefit from Speedy's work because everything had to be redone.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Amount paid to Osorio to complete/redo the fifth floor",
+      "value": 65300,
+      "disputed": false,
+      "quote": "Windsor paid Osorio a total of $65,300 for the work he completed on the fifth floor of the garage.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Original contract price for the fifth floor (credit against overrun)",
+      "value": 85000,
+      "disputed": false,
+      "quote": "Stevens expected to be paid $85,000 for the fifth floor",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Speedy's Breach of Contract Claim for Unpaid Balance",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -66000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -66000,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Speedy's demanded balance",
+      "value": 66000,
+      "disputed": true,
+      "quote": "demanded payment of $66,000",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Speedy's Unjust Enrichment Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -66000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -66000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Alternative recovery theory for same disputed balance",
+      "value": 66000,
+      "disputed": true,
+      "quote": "demanded payment of $66,000",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Mechanics Lien Foreclosure Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -66000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -66000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Recorded lien amount",
+      "value": 66000,
+      "disputed": true,
+      "quote": "Speedy filed a mechanics lien on the property for $66,000, which was recorded with the Montgomery County Recorder.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Windsor's Slander of Title Counterclaim",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     3960,
+     3960
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 3960,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Bond premium payments to discharge the lien",
+      "value": 3960,
+      "disputed": false,
+      "quote": "Windsor made two payments for a total of $3,960 to pay for the bond.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Termination-for-Cause Defense",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "contractor_breach_negligence",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Withdrawn R.C. 4113.61 Claim",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.7465,
+   "settlementValue": 10420.398593465843,
+   "likely50": [
+    0,
+    28560
+   ],
+   "likely80": [
+    -34197.710894141346,
+    28560
+   ],
+   "ifWin": [
+    24600,
+    28560
+   ],
+   "median": 24600,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2024-12-13"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 48260.0,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-12-13",
+  "description": "After a two-day bench trial the court found for Windsor, awarded it $44,300 (the amount it had paid Speedy) plus prejudgment and postjudgment interest on its breach-of-contract counterclaim and $3,960 on its slander-of-title counterclaim (bond premiums), a total of $48,260, voided Speedy's $66,000 mechanics lien and denied Speedy's claims. The Second District affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 48260.0,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Speedy Maintenance Service, L.L.C. v. Windsor Tower, L.L.C., et al.",
+  "court": "Court of Appeals of Ohio, Second Appellate District (Montgomery County)",
+  "docket": "C.A. No. 29996, 2024-Ohio-5841 (Trial Court Case No. 2021 CV 01747)",
+  "decided": "2024-12-13",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/2/2024/2024-Ohio-5841.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Procedural History and Facts): the pleadings and lien bond (paragraphs 2-5) and selected bench-trial testimony of both sides (paragraphs 6-8, 11, 15-16, 19-21, 27-31, 34, 39-41, 44), trimmed for length. Removed: paragraph 1 (which states the award), paragraph 45 (the trial court's judgment and amounts), and all appellate analysis; other testimony paragraphs were omitted only for length. Whitespace and page-number artifacts normalized only."
+ }
+}

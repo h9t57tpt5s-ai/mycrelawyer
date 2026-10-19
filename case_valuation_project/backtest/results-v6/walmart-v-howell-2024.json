@@ -1,0 +1,297 @@
+{
+ "id": "walmart-v-howell-2024",
+ "ranAt": "2026-10-19T14:45:44+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.278,
+   "analysisUsd": 0.2715,
+   "analysisUsage": {
+    "input_tokens": 2255,
+    "cache_creation_input_tokens": 9660,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 9660,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15232,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 9132
+    }
+   }
+  },
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": [
+   6000,
+   400000
+  ],
+  "bestGuessValue": 270000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Plaintiffs are likely to prevail on liability given the strong actual-notice and employee-causation evidence, with a probable total verdict (specials, general damages, and consortium) landing in the low-to-mid six figures; Walmart's comparative-fault defense will likely reduce but not eliminate recovery, and the now-lifted $75,000 cap removes the main downside constraint, while Walmart's unaccepted $101,000 statutory offer creates fee-shifting exposure if the verdict falls below $126,250.",
+  "issues": [
+   {
+    "label": "Premises Liability -- Actual/Constructive Notice of WD-40 Hazard",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "slip_and_fall_hazardous_condition",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Dangerous Condition / Failure to Warn or Remedy",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "dangerous_condition_failure_to_warn",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Employee-Caused Spill (Redding Affidavit)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "negligent_maintenance_structural_failure",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Total Compensatory Damages (Specials, General Damages, Consortium)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     10000,
+     400000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 400000,
+    "kind": "claim",
+    "claimType": "slip_and_fall_hazardous_condition",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Medical expenses",
+      "value": 46008.41,
+      "disputed": false,
+      "quote": "incurred medical expenses in the amount of $46,008.41",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Lost wages",
+      "value": 10000,
+      "disputed": false,
+      "quote": "lost wages in the amount of $10,000.00",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Walmart's initial pre-suit settlement offer",
+      "value": 25000,
+      "disputed": false,
+      "quote": "Walmart countered with an offer of $25,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Walmart's OCGA \u00a7 9-11-68 offer of settlement",
+      "value": 101000,
+      "disputed": false,
+      "quote": "Walmart extended an offer of settlement to plaintiffs pursuant to OCGA \u00a7 9-11-68 in the amount of $101,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Plaintiffs' post-discovery settlement demand",
+      "value": 385000,
+      "disputed": false,
+      "quote": "plaintiffs demanded $385,000 to settle the case in January 2021",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Plaintiffs' pre-suit settlement demand",
+      "value": 400000,
+      "disputed": false,
+      "quote": "plaintiffs demanded $400,000 to settle the case",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Loss of Consortium (Oscar Howell)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Punitive Damages",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "premises_punitive_damages",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Comparative Negligence / Equal Knowledge Defense",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Federal Remand $75,000 Damages Cap (Lifted)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "OCGA \u00a7 9-11-68 Offer of Settlement Fee-Shifting Exposure",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 0,
+   "tier": "none"
+  },
+  "scenarios": {
+   "pAhead": 0.66875,
+   "settlementValue": 138806.19479768135,
+   "likely50": [
+    0,
+    258453.96511023864
+   ],
+   "likely80": [
+    0,
+    341072.82447163016
+   ],
+   "ifWin": [
+    109620.01292034984,
+    306910.2464732714
+   ],
+   "median": 111298.75296261162,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2024-03-12"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 300000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-03-12",
+  "description": "The jury awarded the plaintiffs $300,000; the trial court denied Walmart's motion for JNOV (to cut the award to $75,000 under the federal remand order) or new trial. The Court of Appeals affirmed on March 12, 2024, holding the trial court did not abuse its discretion in declining to apply judicial estoppel. The opinion notes no judgment had yet been entered on the verdict. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 300000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Wal-Mart Stores East, LP v. Maria Howell and Oscar Howell",
+  "court": "Court of Appeals of Georgia, Third Division",
+  "docket": "A23A1198",
+  "decided": "2024-03-12",
+  "url": "https://storage.courtlistener.com/pdf/2024/03/12/wal-mart_stores_east_lp_v._maria_howell.pdf",
+  "excerptNote": "Verbatim from the statement of facts: the fall, the store video and witness, the pre-suit demand and counteroffer, the complaint's medical and wage figures, the removal and remand with its $75,000 limit, the functional capacity evaluation, the June 2020 offer of settlement and the January 2021 demand, the later evidence that an employee caused the spill, and the pre-trial order lifting the $75,000 limit. Removed: the opening paragraph (states the verdict and holding), the standard-of-review paragraph, footnotes 1-6 and the footnote marker '6' after 'OCGA \u00a7 9-11-68', the verdict, the post-trial motions, and all analysis."
+ }
+}

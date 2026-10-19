@@ -1,0 +1,231 @@
+{
+ "id": "preston-hollow-v-senior-care-living-vi-2024",
+ "ranAt": "2026-10-19T02:01:47+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2966,
+   "analysisUsd": 0.2829,
+   "analysisUsage": {
+    "input_tokens": 5079,
+    "cache_creation_input_tokens": 11002,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11002,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15096,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 8174
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   -637817.182,
+   44675000
+  ],
+  "bestGuessValue": 29956307.130625002,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Preston Hollow/UMB are more likely than not to obtain acceleration and a declaration of default against Senior Care, and to prevail on the Guaranty against Bouldin despite his privity argument, given the Guaranty's third-party-beneficiary language and the fact that a recorded mechanic's lien is an expressly enumerated trigger event. The principal source of downside risk is the unresolved trustee-appointment validity fight, which could delay or complicate collection even though it is unlikely to ultimately defeat the underlying debt; Senior Care's tort and restitution counterclaims are comparatively weak given Preston Hollow's documented, non-pretextual grounds for its disbursement refusals.",
+  "issues": [
+   {
+    "label": "Acceleration/Breach of Contract Claim Against Senior Care",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     44675000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 44675000,
+    "kind": "claim",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Outstanding bond principal sought by UMB Bank's counterclaim",
+      "value": 44675000,
+      "disputed": true,
+      "quote": "UMB Bank sought recovery of the outstanding amount of principal on the bonds\u2014$44,675,000\u2014as well as interest, fees, and costs.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Guaranty Enforcement Against Bouldin",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "guaranty_enforcement",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Successor Trustee Appointment Validity",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Receivership Appointment",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "receivership_dispute",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Senior Care's Tortious Interference / Conversion / Money Had and Received Counterclaims",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -3189085.9099999997,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -3189085.9099999997,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Baxter final payment request withheld",
+      "value": 1762308.8,
+      "disputed": true,
+      "quote": "Baxter submitted its final payment request of $1,762,308.80 to Senior Care.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Property tax disbursement withheld",
+      "value": 574000,
+      "disputed": true,
+      "quote": "it also sought disbursement of approximately $574,000 to pay its property taxes that were due on January 31, 2019",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Demanded cure shortfall",
+      "value": 852777.11,
+      "disputed": true,
+      "quote": "BB&T demanded that Senior Care pay $852,777.11\u2014 representing the difference between the amount of Baxter's claim and the amount of funds currently on deposit in the Project Fund",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Attorney's Fees and Costs",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.67025,
+   "settlementValue": 14793980.264470646,
+   "likely50": [
+    0,
+    28207160.602946535
+   ],
+   "likely80": [
+    0,
+    37827287.30507661
+   ],
+   "ifWin": [
+    11012868.896668078,
+    33561510.348098814
+   ],
+   "median": 11181840.425962582,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2024-05-14"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 52597040.06,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-05-14",
+  "description": "After a week-long bench trial the court rendered judgment for Preston Hollow against Senior Care and Bouldin, jointly and severally, for $52,597,040.06 ($44,675,000 principal plus $7,922,040.06 pre-judgment interest), $250,000 in attorney's fees and $520,000 conditional appellate fees, and reappointed a receiver. On rehearing the First Court of Appeals rendered judgment that Preston Hollow may not enforce the guaranty against Bouldin, reversed the $52.6 million breach-of-contract award against Senior Care and remanded that claim for a new trial, remanded the trustees' guaranty claims for trial, and vacated the fee awards.",
+  "attorneysFeesAtTrial": 250000.0,
+  "attorneysFeesOnAppeal": "vacated",
+  "finalAmount": null,
+  "finalNote": "Reversed and remanded for new trial on the contract claim; guaranty judgment reversed and rendered. Pending."
+ },
+ "source": {
+  "caseName": "Senior Care Living VI, LLC and Mark C. Bouldin v. Preston Hollow Capital, LLC, UMB Bank N.A., and TMI Trust Company",
+  "court": "Texas First Court of Appeals (Houston), opinion on rehearing, on appeal from the 458th District Court, Fort Bend County",
+  "docket": "No. 01-21-00602-CV (Trial Court Case No. 19-DCV-265897)",
+  "decided": "2024-05-14",
+  "url": "https://storage.courtlistener.com/pdf/2024/05/14/senior_care_living_vi_llc_v._preston_hollow_capital_llc_umb_bank_n.a..pdf",
+  "excerptNote": "documentText is verbatim from the Background (Parts A-C): the bond financing, loan agreement and guaranty, the construction-payment dispute with Baxter, the default notices and acceleration, and the pleadings and summary-judgment arguments. Removed for length: the detailed Bond Indenture, Master Indenture and CDMA paragraphs, the side-letter details, the trustee-resignation correspondence and the later default notices. Removed as outcome: the opening paragraphs (trial result and disposition), the summary-judgment and Rule 166(g) rulings, the bench-trial judgment and its components, and all appellate analysis. Footnotes 3-11 and markers removed. Note: the principal balance sought ($44,675,000) appears as the pleaded demand; the judgment amount does not."
+ }
+}
