@@ -1,5 +1,5 @@
 import { alnumKey, type VerifiedFigure } from "./valuation-math.ts";
-import { normCdf, type RoleFigure, seedFrom, simpleInterest, simulateOutcomes, v6IssueRange, verifyInterest } from "./valuation-v6.ts";
+import { dropLargeTotals, normCdf, pairedLosses, type RoleFigure, seedFrom, simpleInterest, simulateOutcomes, v6IssueRange, v6Spread, verifyInterest } from "./valuation-v6.ts";
 
 function assert(cond: unknown, msg: string) { if (!cond) throw new Error(msg); }
 const near = (a: number, b: number, tol = 0.01) => Math.abs(a - b) <= tol * Math.max(1, Math.abs(b));
@@ -76,4 +76,61 @@ Deno.test("an opposing claim pulls the outcome below zero when it wins", () => {
   ], 7, 0.5, 20000)!;
   assert(s.likely80[0] < 0 && s.likely80[1] > 0, `spans both signs ${s.likely80}`);
   assert(s.ifWin && s.ifWin[0] > 0, "ifWin only counts outcomes ahead");
+});
+
+// ---- v6.1 (2026-10-19), from the v6 miss analysis -------------------------
+
+Deno.test("v6.1: each appraiser's before value pairs with that appraiser's after value", () => {
+  // ODOT's Neema taking: one appraiser $468,000 -> $464,000; the other $1,065,000 -> $1,018,910.
+  assert(JSON.stringify(pairedLosses([468000, 1065000], [464000, 1018910])) === JSON.stringify([4000, 46090]), "paired");
+  const r = v6IssueRange([fig(468000, "before_value", true), fig(464000, "after_value", true), fig(1065000, "before_value", true), fig(1018910, "after_value", true)],
+    "competing", "represented", null, "2024-01-01")!;
+  assert(r[0] === 4000 && r[1] === 46090, `not crosswise (would be 601,000): ${r}`);
+  // A shared before value pairs with every after value.
+  assert(JSON.stringify(pairedLosses([25500000], [11500000, 11603200])) === JSON.stringify([14000000, 13896800]), "shared");
+});
+
+Deno.test("v6.1: a before/after loss beside competing totals is another opinion, not an add-on", () => {
+  // MHTC (Potted Steer): competing totals $1.2M and $3.3M; the owner's $3.5M before / $200K after.
+  const r = v6IssueRange([fig(1200000, "amount", true), fig(3300000, "amount", true), fig(3500000, "before_value", true), fig(200000, "after_value", true)],
+    "competing", "represented", null, "2016-01-01")!;
+  assert(r[0] === 1200000 && r[1] === 3300000, `range ${r} (was 4.5M-6.6M)`);
+  // Itemized severance is still added to the loss.
+  const s = v6IssueRange([fig(1000000, "before_value"), fig(600000, "after_value"), fig(50000)], "itemized", "represented", null, "2016-01-01")!;
+  assert(s[0] === 450000 && s[1] === 450000, `severance added ${s}`);
+});
+
+Deno.test("v6.1: only competing opinions spread a win across the range", () => {
+  assert(v6Spread([fig(1, "amount", true), fig(2, "amount", true)], "competing"), "competing spreads");
+  assert(!v6Spread([fig(44744774, "amount", true)], "itemized"), "one figure does not");
+  assert(!v6Spread([fig(44744774, "amount", true)], "competing"), "a lone 'competing' figure does not");
+  assert(v6Spread([fig(468000, "before_value"), fig(464000, "after_value"), fig(1065000, "before_value"), fig(1018910, "after_value")], "itemized"), "two appraisers spread");
+});
+
+Deno.test("v6.1: a demand equal to four of its components is dropped as a total", () => {
+  // Hansens Truck Stop: $2.99M demand = $570K + $200K + $340K + $1.88M.
+  const out = dropLargeTotals([
+    { claimant: "represented", figures: [fig(2990000, "amount", true)] },
+    { claimant: "represented", figures: [fig(570000), fig(200000), fig(340000), fig(1880000)] },
+    { claimant: "opposing", figures: [fig(2990000)] },
+  ]);
+  assert(out[0].figures.length === 0, "total dropped");
+  assert(out[1].figures.length === 4 && out[2].figures.length === 1, "parts and opposing kept");
+});
+
+Deno.test("v6.1: a won single-figure claim recovers its full figure", () => {
+  // Kotis: a conceded $44,744,774 claim; the if-you-prevail range was $0-$44.7M (midpoint $22.1M).
+  const s = simulateOutcomes([{ claimant: "represented", p: [0.95, 0.99], range: [0, 44744774] }], 3, 0.5, 4000)!;
+  assert(s.ifWin && s.ifWin[0] === 44744774 && s.ifWin[1] === 44744774, `ifWin ${s.ifWin}`);
+  const c = simulateOutcomes([{ claimant: "represented", p: [0.6, 0.75], range: [122953, 1262947], spread: true }], 3, 0.5, 4000)!;
+  assert(c.ifWin && c.ifWin[0] > 122953 && c.ifWin[1] < 1262947, `competing still spreads ${c.ifWin}`);
+});
+
+Deno.test("v6.1: 'if you prevail' means the main claim wins, not any draw above zero", () => {
+  // Piedmont v. Blueroad: a favorable $14.5M severance claim and a conceded $50,000 strip.
+  const s = simulateOutcomes([
+    { claimant: "represented", p: [0.6, 0.75], range: [14500000, 14500000] },
+    { claimant: "represented", p: [0.95, 0.99], range: [50000, 50000] },
+  ], 5, 0.5, 4000)!;
+  assert(s.ifWin && s.ifWin[0] >= 14500000, `ifWin ${s.ifWin} (was $50,000 at the 25th percentile)`);
 });

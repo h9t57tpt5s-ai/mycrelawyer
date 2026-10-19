@@ -60,9 +60,16 @@ export function simpleInterest(principal: number, interest: Interest, asOf: stri
 
 // ---- the damages engine ----------------------------------------------------
 // An issue's [low, high] from its role-tagged figures:
-//   - before_value + after_value: compensation is the loss, before - after
-//     (low = lowest before - highest after, high = highest before - lowest
-//     after, never below 0), plus any "amount" figures (severance, fixtures);
+//   - before_value + after_value: compensation is the loss, before - after,
+//     each witness's before value paired with that witness's after value
+//     (v6.1: listed order; one shared before or after value pairs with every
+//     value on the other side). Pairing the highest before with the lowest
+//     after across witnesses produced a $601,000 loss no witness gave
+//     (ODOT's Neema taking: the appraisers' own losses were $4,000 and
+//     $46,090). Added to any "amount" figures (severance, fixtures), except
+//     that when the amounts are competing whole-compensation opinions the
+//     losses are more competing opinions, not an add-on (v6.1: adding them
+//     counted the owner's $3.3M twice in MHTC's Potted Steer taking);
 //   - a before_value with no after_value is NOT compensation and is ignored
 //     (a partial taking's whole-parcel value was priced as the award in
 //     KKS Properties); with nothing else, the issue has no range;
@@ -79,9 +86,16 @@ export function v6IssueRange(
   let lo: number, hi: number;
   const base = amounts.length ? issueRange(amounts, basis, "represented") : null;
   if (before.length && after.length) {
-    lo = Math.max(0, Math.min(...before) - Math.max(...after));
-    hi = Math.max(0, Math.max(...before) - Math.min(...after));
-    if (base) { lo += base[0]; hi += base[1]; }
+    const losses = pairedLosses(before, after);
+    if (basis === "competing" && amounts.length) {
+      const vals = [...amounts.map((f) => f.value), ...losses];
+      lo = Math.min(...vals);
+      hi = Math.max(...vals);
+    } else {
+      lo = Math.min(...losses);
+      hi = Math.max(...losses);
+      if (base) { lo += base[0]; hi += base[1]; }
+    }
   } else if (base) {
     [lo, hi] = base;
   } else {
@@ -101,14 +115,66 @@ export function v6IssueRange(
   return claimant === "opposing" ? [-hi, -lo] : [lo, hi];
 }
 
+// Each witness's loss: the i-th before value with the i-th after value; a
+// lone before (or after) value is shared by every value on the other side.
+export function pairedLosses(before: number[], after: number[]): number[] {
+  const pairs: [number, number][] = before.length === 1 ? after.map((a) => [before[0], a])
+    : after.length === 1 ? before.map((b) => [b, after[0]])
+    : before.slice(0, after.length).map((b, i) => [b, after[i]]);
+  return pairs.map(([b, a]) => Math.max(0, b - a));
+}
+
+// Whether a won issue can land anywhere in its range (competing opinions:
+// the factfinder usually lands between the experts) or recovers its full
+// figure (one claim, one figure: the strength band already carries the
+// chance of losing). v6.1.
+export function v6Spread(figures: RoleFigure[], basis: string): boolean {
+  const of = (role: FigureRole) => figures.filter((f) => (f.role ?? "amount") === role);
+  const amounts = of("amount"), before = of("before_value"), after = of("after_value");
+  if (basis === "competing" && amounts.length >= 2) return true;
+  if (before.length && after.length) {
+    const losses = pairedLosses(before.map((f) => f.value), after.map((f) => f.value));
+    if (new Set(losses).size > 1 || (basis === "competing" && amounts.length)) return true;
+  }
+  return false;
+}
+
+// v6.1: a represented 'amount' figure equal to the sum of 4 or 5 others is a
+// total of those parts (dedupeRepresentedFigures, shared with the live v4.4
+// calculator, catches 2 or 3). Hansens Truck Stop priced a $2.99M demand
+// beside its four components.
+export function dropLargeTotals<T extends { claimant: string; figures: RoleFigure[] }>(issues: T[]): T[] {
+  const key = (v: number) => Math.round(v * 100);
+  const vals = [...new Set(issues.filter((i) => i.claimant !== "opposing")
+    .flatMap((i) => i.figures.filter((f) => (f.role ?? "amount") === "amount").map((f) => key(f.value))))].sort((a, b) => a - b);
+  const totals = new Set<number>();
+  for (const v of vals) {
+    const parts = vals.filter((x) => x < v);
+    if (parts.length < 4 || parts.length > 16) continue;
+    const tol = Math.max(100, v * 0.001);
+    const search = (start: number, left: number, sum: number): boolean => {
+      if (left === 0) return Math.abs(sum - v) <= tol;
+      for (let i = start; i <= parts.length - left; i++) if (search(i + 1, left - 1, sum + parts[i])) return true;
+      return false;
+    };
+    if (search(0, 4, 0) || search(0, 5, 0)) totals.add(v);
+  }
+  if (!totals.size) return issues;
+  return issues.map((i) => i.claimant === "opposing" ? i : {
+    ...i, figures: i.figures.filter((f) => (f.role ?? "amount") !== "amount" || !totals.has(key(f.value))),
+  });
+}
+
 // ---- outcome scenarios ----------------------------------------------------
-export type ScenarioIssue = { claimant: string; p: [number, number]; range: [number, number] };
+// spread: true = a win lands anywhere in the range; false/absent = a win
+// recovers the full figure (the range's far end).
+export type ScenarioIssue = { claimant: string; p: [number, number]; range: [number, number]; spread?: boolean };
 export type Scenarios = {
   pAhead: number;            // chance the represented side comes out ahead
   settlementValue: number;   // expected value of the outcome
   likely50: [number, number];
   likely80: [number, number];
-  ifWin: [number, number] | null;  // 25th-75th percentile of the outcome when the represented side is ahead
+  ifWin: [number, number] | null;  // 25th-75th percentile of the outcome when the represented side's main claim wins
   median: number;
   draws: number;
 };
@@ -149,23 +215,38 @@ export function simulateOutcomes(issues: ScenarioIssue[], seed: number, rho = 0.
     const u = Math.max(rand(), 1e-12), v = rand();
     return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
   };
-  const out: number[] = [];
+  // v6.1: "if you prevail" is the outcome when the represented side's main
+  // claim (its largest) wins. Counting every draw that ends above zero let a
+  // conceded $50,000 side item stand for prevailing on a $14.5M severance
+  // claim (Piedmont Natural Gas v. Blueroad).
+  let main = -1;
+  items.forEach((it, idx) => {
+    if (it.claimant !== "opposing" && (main < 0 || Math.abs(it.range[1]) > Math.abs(items[main].range[1]))) main = idx;
+  });
+  const out: number[] = [], won: number[] = [];
   const a = Math.sqrt(rho), b = Math.sqrt(1 - rho);
   for (let k = 0; k < n; k++) {
     const z = gauss(); // + favors the represented side
-    let total = 0;
-    for (const it of items) {
+    let total = 0, mainWon = false;
+    items.forEach((it, idx) => {
       const opp = it.claimant === "opposing";
       const pm = (it.p[0] + it.p[1]) / 2;
       const x = a * (opp ? -z : z) + b * gauss();
       if (normCdf(x) < pm) {
         const [lo, hi] = it.range; // opposing ranges are negative
-        total += lo === hi ? lo : lo + (hi - lo) * rand();
+        // v6.1: a won claim with one figure recovers it in full; drawing it
+        // from $0 to the figure counted the chance of losing twice (Kotis:
+        // a conceded $44.7M claim gave a $22.1M "if you prevail" midpoint
+        // against a $42.6M award).
+        total += it.spread && lo !== hi ? lo + (hi - lo) * rand() : (opp ? lo : hi);
+        if (idx === main) mainWon = true;
       }
-    }
+    });
     out.push(total);
+    if (mainWon) won.push(total);
   }
   out.sort((x, y) => x - y);
+  won.sort((x, y) => x - y);
   const q = (f: number, arr = out) => arr[Math.min(arr.length - 1, Math.floor(f * arr.length))];
   const ahead = out.filter((v) => v > 0);
   return {
@@ -173,7 +254,7 @@ export function simulateOutcomes(issues: ScenarioIssue[], seed: number, rho = 0.
     settlementValue: out.reduce((s, v) => s + v, 0) / n,
     likely50: [q(0.25), q(0.75)],
     likely80: [q(0.10), q(0.90)],
-    ifWin: ahead.length >= n * 0.02 ? [q(0.25, ahead), q(0.75, ahead)] : null,
+    ifWin: won.length >= n * 0.02 ? [q(0.25, won), q(0.75, won)] : null,
     median: q(0.5),
     draws: n,
   };

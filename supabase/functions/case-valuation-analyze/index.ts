@@ -1,7 +1,7 @@
 // =========================================================
 import { alnumKey, dedupeRepresentedFigures, issueRange, STRENGTH_BANDS, verifyFigure, type VerifiedFigure } from "./valuation-math.ts";
 import { jurisdictionRules } from "./state-rules.ts";
-import { FIGURE_ROLES, type FigureRole, type RoleFigure, seedFrom, simulateOutcomes, v6IssueRange, verifyInterest } from "./valuation-v6.ts";
+import { dropLargeTotals, FIGURE_ROLES, type FigureRole, type RoleFigure, seedFrom, simulateOutcomes, v6IssueRange, v6Spread, verifyInterest } from "./valuation-v6.ts";
 // CREdocket -- Case Value Calculator: AI document analysis
 //
 // COST-PROTECTION DESIGN -- read before changing the order of checks:
@@ -2637,9 +2637,9 @@ async function handle(req: Request): Promise<Response> {
     // v6: only 'amount' figures are deduplicated; credits, caps and
     // before/after values are carried through untouched.
     // deno-lint-ignore no-explicit-any
-    const dedupeV6 = (list: any[]) => dedupeRepresentedFigures<any>(list.map((i) => ({
+    const dedupeV6 = (list: any[]) => dropLargeTotals<any>(dedupeRepresentedFigures<any>(list.map((i) => ({
       ...i, figures: i.figures.filter((f: RoleFigure) => f.role === "amount"), _other: i.figures.filter((f: RoleFigure) => f.role !== "amount"),
-    }))).map(({ _other, ...i }) => ({ ...i, figures: [...i.figures, ..._other] }));
+    }))).map(({ _other, ...i }) => ({ ...i, figures: [...i.figures, ..._other] })));
     // deno-lint-ignore no-explicit-any
     const issues = (useV6 ? dedupeV6(issuesRaw) : dedupeRepresentedFigures<any>(issuesRaw)).map((iss) => {
       const damagesRange = useV6
@@ -2871,7 +2871,7 @@ async function handle(req: Request): Promise<Response> {
             // deno-lint-ignore no-explicit-any
             issues.filter((i: any) => i.damagesRange && i.probabilityRange)
               // deno-lint-ignore no-explicit-any
-              .map((i: any) => ({ claimant: i.claimant, p: i.probabilityRange, range: i.damagesRange })),
+              .map((i: any) => ({ claimant: i.claimant, p: i.probabilityRange, range: i.damagesRange, spread: v6Spread(i.figures, i.basis ?? "itemized") })),
             seedFrom(caseTextKey),
           ),
         } : {}),

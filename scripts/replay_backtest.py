@@ -71,6 +71,40 @@ def dedupe(issues):
     return out
 
 
+def paired_losses(before, after):
+    """Mirror of pairedLosses() in valuation-v6.ts (v6.1): each witness's
+    before value with that witness's after value, in listed order; a lone
+    value on one side pairs with every value on the other."""
+    if len(before) == 1:
+        pairs = [(before[0], a) for a in after]
+    elif len(after) == 1:
+        pairs = [(b, after[0]) for b in before]
+    else:
+        pairs = list(zip(before, after))
+    return [max(0, b - a) for b, a in pairs]
+
+
+def drop_large_totals(issues):
+    """Mirror of dropLargeTotals() in valuation-v6.ts (v6.1): a represented
+    amount equal to the sum of 4 or 5 others is a total of those parts."""
+    import itertools
+    vals = sorted({round(f["value"] * 100) for i in issues if i.get("claimant") != "opposing"
+                   for f in i.get("figures") or [] if (f.get("role") or "amount") == "amount"})
+    totals = set()
+    for v in vals:
+        parts = [x for x in vals if x < v]
+        if not 4 <= len(parts) <= 16:
+            continue
+        tol = max(100, v * 0.001)
+        if any(abs(sum(c) - v) <= tol for n in (4, 5) for c in itertools.combinations(parts, n)):
+            totals.add(v)
+    if not totals:
+        return issues
+    return [i if i.get("claimant") == "opposing" else
+            {**i, "figures": [f for f in i.get("figures") or [] if (f.get("role") or "amount") != "amount"
+                              or round(f["value"] * 100) not in totals]} for i in issues]
+
+
 def v6_issue_range(issue, as_of):
     """Mirror of v6IssueRange() in valuation-v6.ts (figure roles, interest)."""
     import datetime as _dt
@@ -81,9 +115,14 @@ def v6_issue_range(issue, as_of):
     after = [f["value"] for f in role("after_value")]
     base = issue_range({**issue, "figures": amounts, "claimant": "represented"}) if amounts else None
     if before and after:
-        lo, hi = max(0, min(before) - max(after)), max(0, max(before) - min(after))
-        if base:
-            lo, hi = lo + base[0], hi + base[1]
+        losses = paired_losses(before, after)
+        if basis_of(issue) == "competing" and amounts:  # v6.1: competing opinions, not an add-on
+            vals = [f["value"] for f in amounts] + losses
+            lo, hi = min(vals), max(vals)
+        else:
+            lo, hi = min(losses), max(losses)
+            if base:
+                lo, hi = lo + base[0], hi + base[1]
     elif base:
         lo, hi = base
     else:
@@ -125,6 +164,8 @@ def replay(pred):
     used = False
     issues = dedupe([i for i in (pred.get("issues") or []) if not FEE.search(i.get("label") or "")])
     as_of = pred.get("valuationDate") or ""  # set on v6 results
+    if as_of:
+        issues = drop_large_totals(issues)
     for i in issues:
         d, p = issue_range(i, as_of if as_of else None), i.get("probabilityRange")
         if not d or not p:
