@@ -10552,6 +10552,19 @@ const RELAW_DATA = {
       summary: "The Mortgage Bankers Association's second-quarter 2026 delinquency report shows a split market. CMBS delinquency fell 0.42 points to 6.53 percent and banks and thrifts slipped 0.04 points to 1.2 percent, while Fannie Mae rose 0.18 points to 0.6 percent, Freddie Mac 0.08 points to 0.51 percent and life company portfolios 0.10 points to 0.48 percent. MBA's Reggie Booker said multifamily faces a tough combination of higher interest rates and challenging market fundamentals. The five capital sources covered hold more than 80 percent of commercial mortgage debt, and each defines delinquency differently (30, 60 or 90 days, with differing forbearance treatment).",
       significance: "Stress is spreading from CMBS into the agency and life company lenders that finance stabilized assets, while the CMBS improvement partly reflects old problem loans being resolved, which generates its own deficiency and guaranty claims. Expect disputes over forbearance terms, reserve and escrow draws, and recourse guaranties, and note that differing delinquency definitions affect when default notices and remedies are triggered. Multifamily borrowers, sponsors and their lenders should review forbearance and cure language now.",
       tags: ["mba", "delinquency", "multifamily", "fannie mae", "forbearance"]
+    },
+    {
+      id: "trend-022",
+      title: "Colliers: National Retail Vacancy Dips to 4.3% in Q3 2026 as Absorption Hits Its Highest Level Since 2023",
+      category: "lease-disputes",
+      date: "2026-10-15",
+      scope: "U.S. retail real estate market (Colliers Q3 2026 data, as reported by Chain Store Age)",
+      metric: "4.3% national retail vacancy (down 10 bps); 10.5 million sq ft net absorption, the highest quarterly total since 2023",
+      source: "live",
+      sourceUrl: "https://chainstoreage.com/colliers-national-retail-vacancy-rate-hits-43-q3",
+      summary: "Colliers data reported by Chain Store Age put national retail vacancy at 4.3% in the third quarter of 2026, down 10 basis points, with limited new supply keeping availability tight. Net absorption of 10.5 million square feet was the highest quarterly total since 2023, driven by retailer expansion and backfilled space. Malls ended the quarter at 8.2% vacancy and shopping centers at 5.4%. Average asking rents reached $26.20 per square foot, up 0.7% from the prior quarter. Retail construction totaled 58.1 million square feet, with 7.6 million square feet delivered, and Colliers said elevated construction and financing costs continue to hold back new development.",
+      significance: "Retail vacancy near historic lows with limited new supply gives landlords more leverage in lease renewals and expansions, raising the stakes on co-tenancy, exclusive-use and percentage-rent clauses as tenants compete for scarce space. With construction pipelines constrained by financing costs, owners of well-located centers have fewer easy outs if a redevelopment or repositioning plan falls through, increasing the practical cost of disputes over lease terminations, assignment and tenant improvement allowances.",
+      tags: ["retail", "vacancy", "colliers", "absorption", "shopping centers"]
     }
   ],
 

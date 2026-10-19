@@ -29,5 +29,10 @@
   "figure 120 is not in any verified quote",
   "figure 125 is not in any verified quote",
   "figure 135 is not in any verified quote"
- ]
+ ],
+ "reviewed": {
+  "date": "2026-10-19",
+  "decision": "dropped",
+  "reason": "Figures match M&T's release (checked in a browser; ir.mtb.com returns 403 to the verifier and to scripts), but a bank's total credit-loss provision is not a commercial real estate figure on its face. Out of scope."
+ }
 }

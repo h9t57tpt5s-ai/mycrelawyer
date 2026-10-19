@@ -49,5 +49,10 @@
   "figure 54 is not in any verified quote",
   "figure 581 is not in any verified quote",
   "figure 82 is not in any verified quote"
- ]
+ ],
+ "reviewed": {
+  "date": "2026-10-19",
+  "decision": "published by hand as trend-022, rewritten",
+  "reason": "chainstoreage.com returns 403 to the verifier. Opened in a browser: the draft's quotes were paraphrases, not the article's words, and two details (shopping centers down 10 bps from Q2, malls down 30 bps) are not on the page. Rewritten from the article's own text; every figure in the published trend was matched on the page."
+ }
 }
