@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-18",
+  lastUpdatedDate: "2026-10-19",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -10068,6 +10068,129 @@ const RELAW_DATA = {
         { when: "May 26", label: "U.S. Magistrate Judge Andrew M. Edison calls the former owner's post-foreclosure rent collection \"pretty damn egregious\" at a hearing on Freddie Mac's claims" },
         { when: "October 15, 2026", label: "Trade press reports the dispute as part of a broader pattern of lender and investor accusations against Nord Group entities", current: true }
       ]
+    },
+    {
+      id: "live-307",
+      addedDate: "2026-10-19",
+      seoTitle: "West End L.A.: ACORE Capital Declares GPI Default",
+      seoDescription: "ACORE Capital declared GPI Companies in default on its vacant West End office campus on the former Westside Pavilion Macy's site, owing $80M+.",
+      property: { name: "West End", address: "10730 West Pico Boulevard", city: "Los Angeles", state: "CA" },
+      title: "ACORE Capital Declares Default on GPI Companies' West End Office Campus",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-12",
+      jurisdiction: "Los Angeles County, California (non-judicial trustee's sale)",
+      state: "CA",
+      propertyType: "Office",
+      amount: "More than $80M claimed owed; 2024 refinancing reported at $97.6M",
+      amountUsd: 80000000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/la/2026/10/12/gpi-defaults-on-loan-faces-foreclosure-of-west-la-office-campus/",
+      summary: "ACORE Capital recorded a notice of default against developer GPI Companies in September 2026 over West End, a 235,000-square-foot creative office campus at 10730 West Pico Boulevard in West Los Angeles, built on the site of a shuttered Macy's at the former Westside Pavilion. The Real Deal reported the default on October 12, 2026, saying ACORE claims more than $80 million is owed; the campus, completed in 2022, reportedly remains entirely vacant.",
+      significance: "The default underscores how speculative creative-office conversions financed in the low-rate years before 2022 are colliding with a leasing market that has been slow to absorb new office product without a signed anchor tenant. Lenders and sponsors with similar vacant spec-office collateral nearing maturity should treat the case as a signal that lenders are moving to recorded defaults relatively quickly once a non-performing asset shows no credible near-term leasing path.",
+      body: [
+        "A creative office campus built on the bones of a shuttered Macy's department store in West Los Angeles has landed in default, with its lender, ACORE Capital, declaring that developer GPI Companies owes more than $80 million on the project. Public records reviewed by The Real Deal and WestsideToday show ACORE recorded a notice of default against GPI in September 2026 after the developer failed to make required payments on the debt secured by West End, a 235,000-square-foot office campus at 10730 West Pico Boulevard.",
+        "The notice marks a sharp reversal for a project that, on paper, should have benefited from one of the Westside's more creative adaptive-reuse stories. GPI purchased the shuttered Macy's store and an adjoining parking structure at the former Westside Pavilion mall in an off-market deal in 2017, then converted the site into creative office space aimed at entertainment, media, and technology tenants. Construction financing came from ACORE Capital, reported at $120 million in 2019; the parties are separately reported to have entered a $97.6 million refinancing agreement in 2024 once the building was substantially complete. The two outlets' accounts differ on exactly how that 2024 debt relates to the original construction note, but both agree the campus, completed in 2022, has apparently never signed an anchor tenant and appears to sit entirely vacant today, based on marketing materials and site observations cited in the reporting.",
+        "For a project whose marketing has long centered on move-in-ready creative space, zero recorded leasing activity four years after completion is itself a significant data point, independent of the default. Neither GPI's co-founders and managing partners, Cliff Goldstein and Drew Planting, nor representatives for ACORE Capital responded to requests for comment reported in the coverage, leaving the borrower's plan for curing the default, if any, unclear.",
+        "California is a non-judicial foreclosure state, meaning ACORE does not need to file a lawsuit to foreclose; recording a notice of default under California Civil Code Section 2924 is itself the formal first step in the trustee's-sale process that can culminate in a public auction of the property, typically several months after the notice is recorded, absent a cure, forbearance agreement, or negotiated workout. GPI's position here is a familiar one in the current cycle for sponsors who financed speculative office conversions during the low-rate years preceding 2022: the underlying real estate thesis ran into a leasing market that has been unusually slow to absorb new office product built on spec without a signed anchor, leaving the borrower with little operating income to service the debt and correspondingly little leverage in workout negotiations.",
+        "For commercial real estate sponsors with vacant or under-leased spec office product nearing a loan maturity or refinancing deadline, the West End default is a reminder that a strong physical asset and a sound redevelopment concept do not, by themselves, generate the operating cash flow a lender needs to see before extending further patience. Borrowers facing a similar gap between completion and lease-up should engage lenders proactively, well before a scheduled payment is missed, documenting a credible leasing pipeline, since post-default negotiating leverage in a non-judicial foreclosure state weakens quickly once the statutory trustee's-sale clock starts running; lenders and special servicers evaluating workouts on comparable vacant creative-office collateral should treat this default as a cautionary data point on the risk of financing speculative office product without a leasing covenant or pre-leasing threshold built into the loan documents."
+      ],
+      tags: ["office", "notice-of-default", "foreclosure", "los-angeles", "creative-office"],
+      parties: [
+        { name: "GPI Companies", role: "Borrower" },
+        { name: "ACORE Capital", role: "Lender" }
+      ],
+      judge: null,
+      timeline: [
+        { when: "2019", label: "ACORE Capital provides reported $120 million construction financing for GPI Companies' West End redevelopment of the former Westside Pavilion Macy's" },
+        { when: "2024", label: "GPI Companies and ACORE Capital reported to enter a $97.6 million refinancing agreement on the completed campus" },
+        { when: "September 2026", label: "ACORE Capital records a notice of default against GPI Companies, claiming more than $80 million owed" },
+        { when: "October 12, 2026", label: "The Real Deal reports the default and that the campus faces foreclosure", current: true }
+      ]
+    },
+    {
+      id: "live-308",
+      addedDate: "2026-10-19",
+      seoTitle: "North San Jose Campus: Jefferies LoanCore Default Hits $80M",
+      seoDescription: "Archer Aviation's HQ campus at 190-230 West Tasman Drive in San Jose fell into default after owner KU Education missed an $80M loan maturity.",
+      property: { name: "West Tasman Drive Campus", address: "190-230 West Tasman Drive", city: "San Jose", state: "CA" },
+      title: "Jefferies LoanCore Declares Default on Archer Aviation-Anchored North San Jose Office Campus",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-13",
+      jurisdiction: "Santa Clara County, California (non-judicial trustee's sale)",
+      state: "CA",
+      propertyType: "Office",
+      amount: "$80M loan matured unpaid",
+      amountUsd: 80000000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/san-francisco/2026/10/13/north-san-jose-office-campus-falls-into-default/",
+      summary: "A three-building, roughly 287,370-square-foot office campus at 190, 210, and 230 West Tasman Drive in North San Jose fell into default after owner KU Education's affiliate failed to repay an $80 million loan, originated by Jefferies LoanCore in 2016, that matured unpaid in August 2026. The Real Deal and The Registry reported October 13, 2026 that KU Education was served a notice of default in October; the campus serves as the corporate headquarters of air-taxi developer Archer Aviation, which leases the 190 and 210 buildings.",
+      significance: "The default is one of two North San Jose office-campus loan defaults reported within days of each other this month, suggesting mid-2010s-vintage suburban office debt across the submarket is maturing into a market that has not recovered pre-pandemic valuations even where a well-capitalized tenant anchors the building. Lenders holding comparable maturing suburban office debt should review workout opportunities early, and anchor tenants should confirm their lease protections ahead of any ownership-level foreclosure.",
+      body: [
+        "A three-building office campus in North San Jose that serves as the corporate headquarters of air-taxi developer Archer Aviation has fallen into default after its owner failed to repay an $80 million loan at maturity, according to reporting by The Real Deal and The Registry. The campus, located at 190, 210, and 230 West Tasman Drive and totaling roughly 287,370 square feet, is owned by an affiliate of KU Education, which was served with a notice of default in October after the loan, originated by Jefferies LoanCore in 2016, matured unpaid in August 2026.",
+        "Archer Aviation's headquarters occupies the 190 West Tasman building, and the company also leases the adjoining 210 West Tasman building; the campus's 230 West Tasman building was previously leased to smart-meter maker Itron before that company relocated its own headquarters to nearby Santa Clara. Archer's presence as the anchor tenant means the dispute between KU Education and its lender sits directly beneath one of Silicon Valley's more closely watched growth companies, even though Archer itself is not a party to the loan default and its lease obligations are unaffected by the ownership-level dispute.",
+        "The default follows a now-familiar arc for commercial mortgages originated in the mid-2010s on long amortization schedules: a loan that priced and underwrote comfortably a decade ago matures into a dramatically higher interest-rate environment, and a refinancing that once would have been routine instead requires fresh equity, a rate the borrower cannot support, or a lender unwilling to extend on the existing terms. Jefferies LoanCore's decision to proceed to a notice of default, rather than negotiate an extension, suggests the entity managing the loan concluded that further forbearance was not in its interest, a judgment that often turns on updated appraisals showing the collateral's value relative to the outstanding debt.",
+        "As in other California commercial foreclosures, the notice of default recorded against the KU Education affiliate is not a lawsuit; it is the formal trigger for the state's non-judicial trustee's-sale process under California Civil Code Section 2924, which, absent a cure or negotiated resolution, proceeds toward a public trustee's sale on a statutory timeline measured in months. The reported default sits in a broader pattern of North San Jose office distress this month: a separate four-building campus a few miles away that once housed eBay's offices has also fallen into default, with Deutsche Bank the lender there, suggesting that mid-2010s-vintage office debt across the submarket is coming due into a market that has not fully recovered its pre-pandemic occupancy or valuations.",
+        "Owners of commercial office assets financed on 2015-2018-vintage mortgages approaching maturity should assume lenders are underwriting refinancing requests against current, not origination-era, valuations and interest rates, and should begin workout conversations well before a scheduled maturity date rather than after a missed payment, since the leverage shift once a notice of default is recorded can be significant and fast-moving in a non-judicial state. Tenants in buildings facing an ownership-level loan default, including anchor tenants like Archer Aviation here, should confirm that a change in ownership through foreclosure would not itself constitute a default or termination right under their own lease, since a foreclosing lender typically takes title subject to existing leases but tenants are often unaware of their own protections until a dispute arises."
+      ],
+      tags: ["office", "notice-of-default", "foreclosure", "san-jose", "archer-aviation"],
+      parties: [
+        { name: "KU Education", role: "Borrower" },
+        { name: "Jefferies LoanCore", role: "Lender" },
+        { name: "Archer Aviation", role: "Tenant" }
+      ],
+      judge: null,
+      timeline: [
+        { when: "2016", label: "Jefferies LoanCore originates the $80 million loan secured by the West Tasman Drive campus" },
+        { when: "August 2026", label: "The loan matures unpaid" },
+        { when: "October 2026", label: "KU Education's affiliate is served a notice of default" },
+        { when: "October 13, 2026", label: "The Real Deal and The Registry report the default", current: true }
+      ]
+    },
+    {
+      id: "live-309",
+      addedDate: "2026-10-19",
+      seoTitle: "Former eBay Campus San Jose: Deutsche Bank Default Hits $98.4M",
+      seoDescription: "Deutsche Bank's unpaid balance on the vacant former eBay campus in San Jose grew to $98.4M as owners Ocean West Capital and Hana Asset head to foreclosure.",
+      property: { name: "North First Street Campus", address: "2515-2545 North First Street", city: "San Jose", state: "CA" },
+      title: "Deutsche Bank Moves Toward Foreclosure on Vacant Former eBay Campus in San Jose",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-15",
+      jurisdiction: "Santa Clara County, California (non-judicial trustee's sale)",
+      state: "CA",
+      propertyType: "Office",
+      amount: "$88.1M loan; unpaid balance grown to $98.4M as of October 2026",
+      amountUsd: 98400000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/san-francisco/2026/10/15/buyers-eye-san-jose-office-campus-in-default/",
+      summary: "A 250,100-square-foot, four-building North San Jose office campus once occupied by eBay is heading toward foreclosure after owners Ocean West Capital Partners and Hana Asset Management defaulted on an $88.1 million loan from Deutsche Bank AG, which filed an initial notice of default in July 2026. The Real Deal and Hoodline reported October 15 and 17, 2026 that the unpaid balance has grown to $98.4 million and that Deutsche Bank plans a full foreclosure; the owners bought the vacant campus for $132.5 million in 2018, and Morningstar now values it at roughly $54.7 million.",
+      significance: "The nearly 59% decline in appraised value since the 2018 purchase, against an unpaid loan balance now approaching double that appraisal, illustrates why lenders on underwater, income-less office collateral increasingly choose to foreclose rather than restructure. Prospective buyers already circling the asset ahead of a completed foreclosure should distinguish carefully between acquiring the loan, buying REO from the lender, or taking a negotiated deed-in-lieu, since each carries different risk.",
+      body: [
+        "A four-building North San Jose office campus once occupied by eBay is sliding toward a full foreclosure after its owners defaulted on an $88.1 million loan, with the unpaid balance now reported at $98.4 million as accrued interest, fees, and default charges continue to mount. The Real Deal and Hoodline report that Deutsche Bank AG, the lender, filed an initial notice of default against the campus's owners, Ocean West Capital Partners and Hana Asset Management, in July 2026, and that sources familiar with the matter say Deutsche Bank now plans to proceed with a complete foreclosure rather than negotiate a further extension.",
+        "The 250,100-square-foot campus, located at 2515, 2525, 2535, and 2545 North First Street, was acquired by the Ocean West and Hana partnership for $132.5 million in 2018, a period when Silicon Valley office product commanded some of the highest valuations in the country. eBay had occupied the campus as part of its broader San Jose footprint but vacated in 2020 to consolidate operations at its main headquarters in the city's Willow Glen district; under the terms of its lease, eBay continued paying rent on the vacated space for several years before that obligation terminated in March 2026, removing what had been the ownership group's primary income stream just as the loan's troubles were becoming acute.",
+        "Citing Morningstar Credit data relayed by the Bay Area News Group, the reports put the campus's current value at approximately $54.7 million, a decline of roughly 59% from the $132.5 million purchase price seven years ago. That gap between the shrinking collateral value and the growing unpaid loan balance, now nearly double the property's estimated worth, illustrates why Deutsche Bank's reported decision to pursue a full foreclosure, rather than continue extending or restructuring the debt, tracks a now-common lender calculus: once an appraisal shows the loan meaningfully underwater and the asset generates no offsetting rental income, a consensual workout offers the lender little advantage over simply taking title and remarketing the property.",
+        "Notably, The Real Deal's coverage indicates that prospective buyers, including Goodman Group and Harvest Properties, are already circling the campus in anticipation of a foreclosure sale or a negotiated transfer, even before the trustee's-sale process has concluded. That early interest reflects a broader dynamic in the current cycle: well-capitalized buyers are increasingly willing to underwrite vacant, distressed office assets at a sufficient discount to replacement cost in supply-constrained Silicon Valley submarkets, betting that today's trough valuations will prove a durable long-term basis even if near-term leasing remains slow. As with other California commercial mortgage defaults, Deutsche Bank's notice of default is a non-judicial filing under California Civil Code Section 2924 rather than a court complaint, proceeding toward a public trustee's sale on a statutory timeline unless the parties reach a deed-in-lieu or other negotiated transfer first.",
+        "Owners of vacant or soon-to-be-vacant single-tenant office assets should treat a departing anchor tenant's final rent payment date as a hard deadline for either securing replacement income or finalizing a workout with the lender, since a lender's patience during a tenant's wind-down period often evaporates once that income stream actually stops. Lenders and special servicers holding debt on comparable vacant Silicon Valley office campuses should expect this foreclosure, if completed, to become a closely watched comparable sale given the scale of the value decline already reflected in third-party appraisals, and prospective buyers circling distressed assets ahead of a completed foreclosure should confirm through counsel exactly what interest they would be acquiring, since a loan purchase, a post-foreclosure REO purchase, and a negotiated deed-in-lieu each carry different title, environmental, and holdover-tenant risk."
+      ],
+      tags: ["office", "notice-of-default", "foreclosure", "san-jose", "ebay"],
+      parties: [
+        { name: "Ocean West Capital Partners", role: "Borrower" },
+        { name: "Hana Asset Management", role: "Borrower" },
+        { name: "Deutsche Bank AG", role: "Lender" }
+      ],
+      judge: null,
+      timeline: [
+        { when: "2018", label: "Ocean West Capital Partners and Hana Asset Management buy the campus for $132.5 million" },
+        { when: "2020", label: "eBay vacates the campus but continues paying rent under its existing lease" },
+        { when: "March 2026", label: "eBay's remaining rent obligation under the lease terminates" },
+        { when: "July 2026", label: "Deutsche Bank AG files an initial notice of default" },
+        { when: "October 15, 2026", label: "The Real Deal reports the unpaid balance has grown to $98.4 million amid investor interest in the distressed asset", current: true }
+      ]
     }
   ],
 
@@ -11103,6 +11226,7 @@ const RELAW_DATA = {
     { name: "Phoenix American Hospitality", matchTerm: "Phoenix American Hospitality", slug: "phoenix-american-hospitality", description: "Dallas-based external manager of two non-traded hospitality REITs, which settled SEC fraud charges in 2026 over an $86 million Regulation A hotel-fund offering before the REITs themselves filed Chapter 11." },
     { name: "Fannie Mae", matchTerm: "Fannie Mae", slug: "fannie-mae", description: "Federally chartered mortgage finance enterprise that purchases and guarantees multifamily and single-family mortgage loans, and frequently appears as plaintiff or loan-purchaser in commercial mortgage foreclosure litigation.", website: "https://www.fanniemae.com" },
     { name: "BroadRange Logistics LLC", matchTerm: "BroadRange", slug: "broadrange-logistics", description: "Georgia-based third-party logistics (3PL) operator leasing large warehouse and distribution space across multiple states, named as defendant in separate landlord lawsuits over defaulted industrial leases." },
-    { name: "Brookfield Properties", matchTerm: "Brookfield", slug: "brookfield-properties", description: "Global alternative asset manager and one of the world's largest owners and operators of office, retail, and mixed-use commercial real estate, operating through numerous property-level subsidiaries and platforms.", website: "https://www.brookfieldproperties.com" }
+    { name: "Brookfield Properties", matchTerm: "Brookfield", slug: "brookfield-properties", description: "Global alternative asset manager and one of the world's largest owners and operators of office, retail, and mixed-use commercial real estate, operating through numerous property-level subsidiaries and platforms.", website: "https://www.brookfieldproperties.com" },
+    { name: "ACORE Capital", matchTerm: "ACORE", slug: "acore-capital", description: "San Francisco-based commercial real estate debt manager that originates construction, bridge, and CMBS financing nationally, and frequently appears as a lender in commercial foreclosure litigation.", website: "https://acorecapital.com" }
   ]
 };

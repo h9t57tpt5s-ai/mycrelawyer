@@ -1,0 +1,27 @@
+# Archer Aviation's North San Jose Office Campus Falls Into Default on $80 Million Jefferies LoanCore Loan
+
+**Owner KU Education was served a notice of default after the loan securing the three-building, 287,000-square-foot campus matured unpaid in August, putting the air-taxi maker's own headquarters building in a lender's crosshairs.**
+
+*Prepared as a legal news update for commercial real estate owners, developers, and lenders.*
+
+A three-building office campus in North San Jose that serves as the corporate headquarters of air-taxi developer Archer Aviation has fallen into default after its owner failed to repay an $80 million loan at maturity, according to reporting by The Real Deal and The Registry. The campus, located at 190, 210, and 230 West Tasman Drive and totaling roughly 287,370 square feet, is owned by an affiliate of KU Education, which was served with a notice of default in October after the loan, originated by Jefferies LoanCore in 2016, matured unpaid in August 2026.
+
+Archer Aviation's headquarters occupies the 190 West Tasman building, and the company also leases the adjoining 210 West Tasman building; the campus's 230 West Tasman building was previously leased to smart-meter maker Itron before that company relocated its own headquarters to nearby Santa Clara. Archer's presence as the anchor tenant means the dispute between KU Education and its lender sits directly beneath one of Silicon Valley's more closely watched growth companies, even though Archer itself is not a party to the loan default and its lease obligations are unaffected by the ownership-level dispute.
+
+The default follows a now-familiar arc for commercial mortgages originated in the mid-2010s on long amortization schedules: a loan that priced and underwrote comfortably a decade ago matures into a dramatically higher interest-rate environment, and a refinancing that once would have been routine instead requires fresh equity, a rate the borrower cannot support, or a lender unwilling to extend on the existing terms. Jefferies LoanCore's decision to proceed to a notice of default, rather than negotiate an extension, suggests the special servicer or portfolio manager handling the loan concluded that further forbearance was not in its interest, a judgment that often turns on updated appraisals showing the collateral's value relative to the outstanding debt.
+
+**A non-judicial process already running on a clock**
+
+As in other California commercial foreclosures, the notice of default recorded against the KU Education affiliate is not a lawsuit; it is the formal trigger for the state's non-judicial trustee's-sale process under California Civil Code Section 2924, which, absent a cure or negotiated resolution, proceeds toward a public trustee's sale on a statutory timeline measured in months rather than the years a contested judicial foreclosure can take. For a lender, that speed is the principal advantage of California's non-judicial process over foreclosure actions filed in states that require court involvement; for a borrower facing a notice of default, it means the window to negotiate a forbearance, refinancing, or discounted payoff before a public auction is comparatively short and starts running immediately upon recordation.
+
+The reported default sits in a broader pattern of North San Jose office distress this month: a separate four-building campus a few miles away that once housed eBay's offices has also fallen into default, with Deutsche Bank the lender there, suggesting that mid-2010s-vintage office debt across the submarket is coming due into a market that has not fully recovered its pre-pandemic occupancy or valuations, even where, as with Archer at West Tasman, a well-known and well-capitalized tenant anchors the building.
+
+**Practical takeaways**
+
+Owners of commercial office assets financed on 2015-2018-vintage mortgages approaching maturity should assume that lenders are underwriting refinancing requests against current, not origination-era, valuations and interest rates, and should begin workout conversations with the lender or special servicer well before a scheduled maturity date rather than after a missed payment, since the leverage shift once a notice of default is recorded can be significant and fast-moving in a non-judicial state. Tenants in buildings facing an ownership-level loan default, including anchor tenants like Archer Aviation here, should confirm that a change in ownership through foreclosure would not itself constitute a default or termination right under their own lease, since a foreclosing lender typically takes title subject to existing leases but tenants are often unaware of their own protections, or lack thereof, until a dispute arises. Lenders and special servicers managing a book of maturing, moderately-leased suburban office debt should treat the clustering of multiple North San Jose defaults within the same month as a signal to review comparable loans in the portfolio for early workout opportunities before additional notices of default become necessary.
+
+---
+
+**Sources**
+- [The Real Deal, "North San Jose office campus falls into default on $80M loan," October 13, 2026](https://therealdeal.com/san-francisco/2026/10/13/north-san-jose-office-campus-falls-into-default/)
+- [The Registry, "Archer Aviation-Leased Tech Campus in North San Jose Faces Default on $80MM Loan"](https://news.theregistrysf.com/archer-aviation-leased-tech-campus-in-north-san-jose-faces-default-on-80mm-loan/)

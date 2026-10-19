@@ -1,0 +1,27 @@
+# Former eBay Campus in San Jose Heads Toward Foreclosure as Deutsche Bank's Unpaid Balance Hits $98.4 Million
+
+**Owners Ocean West Capital Partners and Hana Asset Management bought the vacant four-building tech campus for $132.5 million in 2018; Morningstar now values it at roughly $54.7 million, a 59% decline.**
+
+*Prepared as a legal news update for commercial real estate owners, developers, and lenders.*
+
+A four-building North San Jose office campus once occupied by eBay is sliding toward a full foreclosure after its owners defaulted on an $88.1 million loan, with the unpaid balance now reported at $98.4 million as accrued interest, fees, and default charges continue to mount. The Real Deal and Hoodline report that Deutsche Bank AG, the lender, filed an initial notice of default against the campus's owners, Ocean West Capital Partners and Hana Asset Management, in July 2026, and that sources familiar with the matter say Deutsche Bank now plans to proceed with a complete foreclosure rather than negotiate a further extension.
+
+The 250,100-square-foot campus, located at 2515, 2525, 2535, and 2545 North First Street, was acquired by the Ocean West and Hana partnership for $132.5 million in 2018, a period when Silicon Valley office product commanded some of the highest valuations in the country. EBay had occupied the campus as part of its broader San Jose footprint but vacated in 2020 to consolidate operations at its main headquarters in the city's Willow Glen district; under the terms of its lease, eBay continued paying rent on the vacated space for several years before that obligation terminated in March 2026, removing what had been the ownership group's primary income stream from the property just as the loan's troubles were becoming acute. The campus has sat entirely empty since eBay's departure, according to the reporting, compounding the valuation pressure on an asset already carrying debt originated at a much higher mark.
+
+Citing Morningstar Credit data relayed by the Bay Area News Group, the reports put the campus's current value at approximately $54.7 million, a decline of roughly 59% from the $132.5 million purchase price seven years ago. That gap between the shrinking collateral value and the growing unpaid loan balance, now nearly double the property's estimated worth, illustrates why Deutsche Bank's reported decision to pursue a full foreclosure, rather than continue extending or restructuring the debt, tracks a now-common lender calculus: once an appraisal shows the loan meaningfully underwater and the asset generates no offsetting rental income, a consensual workout offers the lender little advantage over simply taking title and remarketing the property to new ownership.
+
+**Investor interest already emerging around the distressed sale**
+
+Notably, The Real Deal's coverage indicates that prospective buyers, including Goodman Group and Harvest Properties, are already circling the campus in anticipation of a foreclosure sale or a negotiated transfer, even before the trustee's-sale process has concluded. That early interest reflects a broader dynamic in the current cycle: well-capitalized buyers are increasingly willing to underwrite vacant, distressed office assets at a sufficient discount to replacement cost, particularly in supply-constrained Silicon Valley submarkets where land-use and entitlement barriers make new office construction difficult, betting that today's trough valuations will prove a durable long-term basis even if near-term leasing remains slow.
+
+As with other California commercial mortgage defaults, Deutsche Bank's notice of default is a non-judicial filing under California Civil Code Section 2924 rather than a court complaint, meaning the matter proceeds toward a public trustee's sale on a statutory timeline rather than through contested litigation, unless the borrowers mount a legal challenge to the foreclosure itself or the parties reach a deed-in-lieu or other negotiated transfer before a sale date is set.
+
+**Practical takeaways**
+
+Owners of vacant or soon-to-be-vacant single-tenant office assets should treat a departing anchor tenant's final rent payment date as a hard deadline for either securing replacement income or finalizing a workout with the lender, since a lender's patience during a tenant's wind-down period often evaporates once that income stream actually stops. Lenders and special servicers holding debt on comparable vacant Silicon Valley office campuses should expect this foreclosure, if completed, to become a closely watched comparable sale for underwriting purposes given the scale of the value decline already reflected in third-party appraisals. Prospective buyers circling distressed assets ahead of a completed foreclosure should confirm, through counsel, exactly what interest they would be acquiring (a loan purchase, a post-foreclosure REO purchase from the lender, or a negotiated deed-in-lieu from the current ownership), since each path carries different title, environmental, and holdover-tenant risk profiles even for the same physical property.
+
+---
+
+**Sources**
+- [The Real Deal, "Investors circling former San Jose eBay campus after $80M loan default," October 15, 2026](https://therealdeal.com/san-francisco/2026/10/15/buyers-eye-san-jose-office-campus-in-default/)
+- [Hoodline, "Former eBay Campus in San Jose Faces Foreclosure as Debt Hits $98.4M," October 17, 2026](https://hoodline.com/2026/10/former-ebay-campus-in-san-jose-faces-foreclosure-as-debt-hits-98-4m/)
