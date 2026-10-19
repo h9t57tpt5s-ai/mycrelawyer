@@ -411,6 +411,10 @@
   "petition:https://www.courtlistener.com/docket/74978909/kdj-properties-llc/": {
    "at": "2026-10-18",
    "action": "skipped: no coverage found explaining the filing"
+  },
+  "opinion:11038073": {
+   "at": "2026-10-19",
+   "action": "matter live-310"
   }
  }
 }

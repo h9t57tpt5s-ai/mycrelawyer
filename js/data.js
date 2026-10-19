@@ -10191,6 +10191,85 @@ const RELAW_DATA = {
         { when: "July 2026", label: "Deutsche Bank AG files an initial notice of default" },
         { when: "October 15, 2026", label: "The Real Deal reports the unpaid balance has grown to $98.4 million amid investor interest in the distressed asset", current: true }
       ]
+    },
+    {
+      id: "live-310",
+      addedDate: "2026-10-19",
+      seoTitle: "Houston Restaurant Tenant Loses Lease Repair and Sublease Suit",
+      seoDescription: "Texas Court of Appeals affirms summary judgment for Harwin-area shopping center landlord, rejecting tenant's repair, sublease and DTPA claims.",
+      property: { name: "2020 Harwin Shopping Center", address: "Richmond Avenue", city: "Houston", state: "TX" },
+      title: "Salha and Abu Ali Cafe v. 2020 Harwin 59 Shopping Centers (Restaurant Lease Repair and Sublease Dispute)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-16",
+      jurisdiction: "Court of Appeals of Texas, First District (Houston)",
+      state: "TX",
+      propertyType: "Retail",
+      amount: "$23,580 trial attorney's fees plus $15,000 appellate fees awarded to landlord",
+      amountUsd: 38580,
+      amountBasis: "judgment",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11038073/mahmoud-salha-and-ali-cafe-v-2020-harwin-59-shopping-centers-ltd-harwin/",
+      summary: "The Texas Court of Appeals for the First District affirmed summary judgment for a Harwin-area Houston shopping center ownership group against a restaurant tenant's claims for breach of lease, fraud, DTPA violations and quantum meruit over disputed repair costs and a refused sublease. The court held the tenant's own lease terms assigned electrical, plumbing and HVAC maintenance to the tenant, that the tenant never gave the written notice the lease required before claiming a roof-repair default, that an oral sublease-consent promise was unenforceable under the statute of frauds, and that the lease's $522,000 total consideration exceeded the threshold exempting the transaction from the DTPA. The trial court's $23,580 trial and $15,000 appellate attorney's fee awards to the landlord were also affirmed.",
+      significance: "The ruling shows how literally Texas courts enforce lease maintenance-allocation clauses and written-notice preconditions, leaving tenants without a breach claim even for genuinely needed repairs if the lease assigns that system to the tenant or the tenant skipped a notice requirement. It also flags an easily overlooked DTPA trap for longer-term, higher-rent commercial leases: crossing the $500,000 total-consideration threshold strips a tenant of DTPA protection regardless of the parties' relative sophistication.",
+      body: [
+        "A Texas Court of Appeals panel has affirmed summary judgment for a Harwin-area Houston shopping center ownership group, rejecting a restaurant tenant's claims for breach of lease, fraud, violations of the Deceptive Trade Practices Act, and quantum meruit arising from a long-running dispute over repair costs and a refused sublease. The October 16, 2026 memorandum opinion traces back to an October 2019 lease, written on a standard Texas Association of Realtors form, for a restaurant space on Richmond Avenue in Houston, which divided maintenance responsibilities between landlord and tenant in ways that proved decisive on appeal.",
+        "Under the lease, the landlord bore responsibility only for roof repairs, and only after the tenant gave written notice of the need for one; the tenant was responsible for grounds, parking, plumbing, drainage and the HVAC system, including a mandatory maintenance contract. The tenant alleged that after the landlord's interest was assigned to a successor ownership entity in January 2021, without proper notice, it spent hundreds of thousands of dollars on repairs and improvements the landlord refused to reimburse, and that the landlord's principal had separately promised to consent to a sublease and sale of the restaurant business. Relying on that promise, the tenant located a buyer and executed an estoppel certificate, attesting the landlord was not in default, as a condition of pursuing the deal -- only for the landlord to refuse consent to the sublease after the fact. A materialmen's lien followed once the tenant told its vendors the landlord would not cover the improvement costs.",
+        "The trial court granted the landlord's hybrid summary judgment motion on every claim, and the Court of Appeals affirmed each ground. The breach-of-lease claims failed because the lease itself assigned electrical, plumbing and HVAC maintenance to the tenant, and because the tenant offered no evidence it ever gave the landlord the written notice the lease required before claiming a roof-repair default; the lease's as-is acceptance clause and disclaimer of warranties independently defeated any claim that the landlord had to repair the roof before move-in. The oral sublease-consent promise failed under the statute of frauds, since the proposed sublease term exceeded one year and Texas law requires such agreements to be in writing.",
+        "The DTPA holding is the opinion's most broadly instructive point. Texas law exempts from DTPA coverage any transaction tied to a single nonresidential project where the consumer's total consideration exceeds $500,000. The lease's sixty-month term at $8,700 in monthly base rent totaled $522,000 -- just over that threshold -- which the trial court cited as an independent, unrebutted basis to dismiss the DTPA claim. The fraud claim was likewise dismissed on a procedural ground: the tenant failed to replead it after the trial court sustained special exceptions, leaving nothing live for the court to review.",
+        "For commercial landlords and tenants, the decision is a reminder that maintenance-allocation clauses and notice preconditions are enforced on their literal terms, and that a tenant cannot convert a landlord's general awareness of a problem into a breach claim without satisfying whatever written-notice mechanism the lease specifies. The case is also a caution about estoppel certificates signed to grease a pending transaction: the tenant's own representation that the landlord was not in default became one more obstacle once the relationship soured. And for parties structuring longer commercial leases, the DTPA's $500,000 nonresidential-transaction exemption is worth calculating early, since crossing that line -- as this sixty-month, $8,700-a-month lease did by a comparatively modest margin -- removes a tenant's consumer-protection remedy entirely, independent of how the lease's own terms are ultimately construed."
+      ],
+      tags: ["lease-dispute", "retail", "dtpa", "sublease", "texas"],
+      parties: [
+        { name: "Abu Ali Cafe, LLC", role: "Tenant/Appellant" },
+        { name: "2020 Harwin 59 Shopping Centers, Ltd.", role: "Landlord/Appellee" },
+        { name: "Harwin Exchange Center, Inc.", role: "Appellee" }
+      ],
+      judge: null,
+      timeline: [
+        { when: "October 1, 2019", label: "Tenant executes a five-year commercial lease for the restaurant space" },
+        { when: "January 2021", label: "Lease is assigned to 2020 Harwin 59 Shopping Centers, Ltd." },
+        { when: "October 16, 2026", label: "Court of Appeals affirms summary judgment and attorney's fee awards for the landlord", current: true }
+      ]
+    },
+    {
+      id: "live-311",
+      addedDate: "2026-10-19",
+      seoTitle: "62 Wooster v. TML N.Y.: Good Guy Guaranty Ends at Vacatur",
+      seoDescription: "First Department rules good guy guarantors' liability ended when SoHo tenant vacated, rejecting landlord's $307K claim tied to a later Surrender Date.",
+      property: { name: "476 Broome Street", address: "476 Broome Street", city: "New York", state: "NY" },
+      title: "62 Wooster, LLC v. TML N.Y. Inc. (Good Guy Guaranty Surrender Dispute)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-01",
+      jurisdiction: "Appellate Division, First Department, New York",
+      state: "NY",
+      propertyType: "Retail",
+      amount: "Landlord sought approximately $307,577.08 in unpaid rent plus liquidated damages and enforcement costs",
+      amountUsd: 307577,
+      amountBasis: "claim",
+      source: "live",
+      sourceUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_05591.shtml",
+      summary: "The Appellate Division, First Department affirmed dismissal of a SoHo landlord's claims against the individual guarantors of a retail lease at 476 Broome Street, holding their liability ended when the tenant physically vacated the premises in 2020 notwithstanding a separate lease provision tying liability to a later, formally defined 'Surrender Date.' The court applied the Court of Appeals' 2025 decision in 1995 CAM LLC v. West Side Advisors, which construed 'surrender' in a guaranty to mean the tenant's physical relinquishment of possession, not a landlord's acceptance or a later contractual milestone. The ruling forecloses the landlord's claims for roughly $307,577.08 in unpaid rent plus liquidated damages and enforcement costs against the guarantors.",
+      significance: "Good guy guaranties are a standard risk-mitigation tool in New York City commercial leasing, and this decision confirms courts will resolve internal conflicts in guaranty release language in favor of the simpler, vacatur-based trigger, even where a landlord's drafting attempted to extend liability through a more technical defined term. Landlords relying on multi-layered 'Surrender Date' concepts to keep guarantors on the hook past actual move-out should reconcile that language with any surrender-based release clause before the next lease is signed, not after a tenant has already left.",
+      body: [
+        "The Appellate Division, First Department has affirmed the dismissal of a SoHo landlord's claims against the individual guarantors of a retail lease, holding that their personal liability ended when the tenant physically vacated the premises -- regardless of a separate lease provision that purported to extend liability until a later, formally defined 'Surrender Date.' The October 1, 2026 decision in 62 Wooster, LLC v. TML N.Y. Inc. is among the first significant applications of the New York Court of Appeals' 2025 ruling in 1995 CAM LLC v. West Side Advisors, and it gives landlords and counsel a clearer picture of how good guy guaranty release language will be read when a lease's own provisions conflict.",
+        "The case concerns a retail lease at 476 Broome Street in Manhattan. Two individuals each executed substantively identical personal good guy guaranties in connection with the tenant's lease -- a standard device in New York City commercial leasing that typically limits a principal's personal exposure to the period before the tenant vacates, in exchange for the tenant leaving the space broom clean and giving timely notice. The guaranty documents here contained two provisions in tension: a surrender clause ending liability for rent accruing after the tenant 'surrendered legal possession,' a phrase the guaranties never defined, and a separate good guy provision purporting to keep the guarantors liable through a defined 'Surrender Date' tied to the broader lease documents rather than the simple fact of vacatur.",
+        "According to the record, the tenant vacated by tendering keys to the landlord's agent and delivering the premises broom clean in the fall of 2020. The landlord nonetheless sued the individual guarantors, seeking approximately $307,577.08 in unpaid rent for July through October 2021, liquidated damages measured by the shortfall between the lease rent and what the landlord collected upon reletting through the original lease's expiration date, and its costs of enforcing the guaranty. Supreme Court, New York County (Alexander M. Tisch, J.), granted the guarantors' motion to dismiss those claims, and the landlord appealed.",
+        "The First Department affirmed, without costs, applying 1995 CAM LLC's construction of 'surrender' in a commercial guaranty to mean the tenant's physical relinquishment of possession and control -- not the landlord's subsequent acceptance, and not a later-defined contractual milestone layered on top of the physical fact of vacatur. Applying that rule, the panel held the guarantors' liability ended when the tenant relinquished possession in 2020, notwithstanding the landlord's argument that the lease documents' own 'Surrender Date' concept had never been triggered. The practical effect was to foreclose the landlord's unpaid-rent, liquidated-damages and enforcement-cost claims against the guarantors in full, even though the landlord's theory found some textual support in the guaranty's own 'Surrender Date' language.",
+        "For landlords, the lesson is to reconcile any provision intended to extend guarantor liability beyond actual vacatur with the guaranty's own surrender or release clause at the drafting stage, rather than leaving the two to conflict. Tenants and guarantors, meanwhile, should carefully document the date and manner of vacatur -- delivery of keys, broom-clean condition, and written notice to the landlord's agent -- since that evidentiary record is now squarely what determines when liability ends under this line of cases, and landlords seeking rent, reletting shortfalls or enforcement costs from a guarantor after a tenant has left should expect courts to read any ambiguity against the drafter."
+      ],
+      tags: ["guaranty", "retail", "good-guy-clause", "lease-dispute", "new-york"],
+      parties: [
+        { name: "62 Wooster, LLC", role: "Landlord/Plaintiff-Appellant" },
+        { name: "TML N.Y. Inc.", role: "Tenant/Defendant" }
+      ],
+      judge: null,
+      timeline: [
+        { when: "Fall 2020", label: "Tenant vacates the premises, tendering keys and delivering the space broom clean" },
+        { when: "2024", label: "Supreme Court, New York County grants the individual guarantors' motion to dismiss" },
+        { when: "October 1, 2026", label: "Appellate Division, First Department affirms dismissal of the landlord's claims against the guarantors", current: true }
+      ]
     }
   ],
 
