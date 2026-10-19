@@ -423,6 +423,24 @@
    "checkAfter": "2026-10-26",
    "status": "watching",
    "note": "Confirmed same-day: prerender.yml (a03efa7) regenerated matters/*.html within minutes of the push, with the new search form present on live-266.html (grep-confirmed) and site_audit.py counts unchanged after. Still watching last7Days.searches for an actual usage move."
+  },
+  {
+   "id": "imp-021",
+   "date": "2026-10-19",
+   "track": "audit",
+   "title": "No change -- investigated and closed out backlog item 9 (page speed)",
+   "why": "Second run of the day. Nothing with checkAfter due today left to judge (imp-006 was already judged this morning; no other watching entry's checkAfter is today or earlier). Audit clean, unchanged from this morning's run. Every goal already has an open, unjudged watching entry per the 2026-10-16 'one open experiment per goal' rule (traffic: imp-009/imp-012; conversion: imp-007/imp-010/imp-013/imp-020; calculator: imp-008/imp-011/imp-014/imp-016; subscription: imp-015; news: imp-017), and none has gone 7 days without a tracked change, so no goal qualified for new work. Investigated backlog item 9, the one open item not tied to a goal metric: the lazy-load/heavyPages half is already satisfied (site_audit heavyPages is 0; the img/ directory's largest file is 130KB and existing <img> tags already carry loading attributes). The 'keep data-lite.js out of pages that do not need it' half looked promising -- 10 of 13 simple pages (privacy.html, terms.html, contact.html, about.html, pricing.html, account.html, litigation-tools-terms.html, data-security.html, newsletter.html, methodology.html) load the 637KB js/data-lite.js without using RELAW_DATA for a byline or case-detail link -- but reading js/search.js before touching any file showed `if (typeof RELAW_DATA === \"undefined\") return;` gates the entire sitewide Cmd/Ctrl+K search trigger that the script injects into the nav on every page it loads on. Removing data-lite.js from those 10 pages would have silently deleted their nav search trigger, a real sitewide feature, not dead weight -- so no edit was made. Closed out backlog item 9 with these findings instead.",
+   "files": [
+    "ops/improvement-playbook.md",
+    "ops/improvement-log.json"
+   ],
+   "commit": null,
+   "metric": "none -- investigation only, no site change",
+   "window": "n/a",
+   "baseline": null,
+   "checkAfter": "n/a",
+   "status": "no-op",
+   "note": "A deliberately avoided near-miss, not an oversight: the data-lite.js removal would have broken a real, used, sitewide feature. See ops/improvement-playbook.md's 'What we have learned' and backlog item 9, both dated 2026-10-19 (second run)."
   }
  ]
 }
