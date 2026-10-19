@@ -208,6 +208,11 @@ def main():
             print(f"  {p['category']} | range {p['damagesRange']} | best {p['bestGuessValue']} | actual {c['outcome'].get('amount')}")
         else:
             print(f"  HTTP {status}: {body}")
+            # An empty prepaid balance fails every remaining case the same
+            # way (70 in a row on 2026-10-18); stop until credit is added.
+            if "credit balance is too low" in json.dumps(body):
+                print("stopping: the Anthropic account is out of credit (console.anthropic.com > Billing)")
+                break
         time.sleep(3)
     print(f"done: {ran} case(s) run")
 
