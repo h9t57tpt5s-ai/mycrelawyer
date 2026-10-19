@@ -10310,6 +10310,47 @@ const RELAW_DATA = {
         { when: "August 5, 2026", label: "Shadowbox Studios and Henrico 183 sue DeKalb County in DeKalb County Superior Court" },
         { when: "September 9, 2026", label: "DeKalb County Zoning Board of Appeals affirms denial of Shadowbox's data center proposal, citing the pending suit", current: true }
       ]
+    },
+    {
+      id: "live-313",
+      addedDate: "2026-10-19",
+      seoTitle: "Ohio Top Court Lets Referendum Undo Developer's Rezoning",
+      seoDescription: "Ohio Supreme Court denies Sommers Development Group's bid to block a referendum reversing its Mayfield Heights townhome rezoning.",
+      property: { name: "Rockwell Automation parcel", city: "Mayfield Heights", state: "OH" },
+      title: "State ex rel. Sommers Development Group, L.L.C. v. Cuyahoga County Board of Elections (Zoning Referendum Challenge)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-19",
+      jurisdiction: "Supreme Court of Ohio",
+      state: "OH",
+      propertyType: "Land/Development",
+      amount: "Not a monetary claim; dispute over whether a zoning referendum stays on the ballot, with no dollar figure stated in the opinion",
+      source: "live",
+      sourceUrl: "https://storage.courtlistener.com/pdf/2026/10/19/state_ex_rel._sommers_dev._group_l.l.c._v._cuyahoga_cty._bd._of_elections.pdf",
+      summary: "The Ohio Supreme Court denied writs of prohibition and mandamus sought by developer Sommers Development Group, LLC to keep a citizen-initiated referendum off the November 3, 2026 Mayfield Heights ballot. The referendum would let voters reverse a May 2026 city council vote that rezoned a Rockwell Automation-owned parcel for Sommers' planned townhome community. The court rejected a laches defense raised against Sommers but held Sommers failed to show the Cuyahoga County Board of Elections abused its discretion or clearly disregarded the law in certifying the petition and denying Sommers' protest.",
+      significance: "The decision shows that a developer's approved rezoning is not necessarily final in a chartered municipality that reserves initiative and referendum rights to its voters, and that Ohio courts give an election board wide latitude on the procedural questions a developer is most likely to raise to block a referendum. Developers relying on a council vote as the end of the entitlement process should separately account for ballot-box risk and charter-level referendum procedures before committing capital to a project.",
+      body: [
+        "Developers who clear a rezoning and a variance through a city council often treat that approval as the end of the entitlement fight. A decision issued October 19, 2026 by the Supreme Court of Ohio is a reminder that in a chartered municipality with initiative and referendum rights, the city council's vote can be only the opening round. In State ex rel. Sommers Development Group, L.L.C. v. Cuyahoga County Board of Elections, the court unanimously denied a developer's request for writs of prohibition and mandamus that would have kept a citizen-driven referendum off the November 3, 2026 ballot, clearing the way for voters in Mayfield Heights to decide whether to reverse a zoning change the city council had already approved for a planned townhome community.",
+        "Sommers Development Group, LLC is the developer under contract with Rockwell Automation, Inc., which owns the property, to redevelop a parcel in Mayfield Heights, a Cleveland suburb, from an office-park use into a townhome community. To do so, Sommers needed the city to rezone the land from a Headquarters or Executive Offices Park District classification to a Planned Unit Development District classification, along with a density variance and preliminary site-plan approval. On May 27, 2026, the Mayfield Heights City Council granted all of it, adopting the rezoning ordinance and a resolution approving the variance.",
+        "That might have ended the matter, but Ohio municipal charters commonly reserve initiative and referendum powers to the electorate, and Mayfield Heights' charter is no exception. On July 24, 2026, a citizens' committee opposed to the project submitted a petition seeking an ordinance that would return the property to its prior zoning classification. After a hearing that produced no vote, the city council held a special meeting on September 1 and voted 4-3 not to adopt the committee's proposed ordinance itself, which, under the charter's initiative mechanism, sends the question to the voters rather than ending it. The committee then filed a supplemental petition to shore up its signature count, and the Cuyahoga County Board of Elections determined the petition carried 691 valid signatures, more than enough to qualify. On September 9, the council authorized certification of the initiative to the ballot for the November 3 general election.",
+        "Sommers protested to the board of elections the next day, arguing the petition was procedurally defective on four grounds: that it was really an untimely referendum petition dressed up as an initiative; that the underlying zoning action was an administrative act not subject to referendum at all; that the petition committee and council had not complied with the charter's own requirements for placing an initiative on the ballot; and that the council had certified the petition to the board after the statutory deadline. The board held a hearing on September 21 and denied the protest. Sommers took its case directly to the Ohio Supreme Court four days later, seeking an emergency order either barring the board from placing the measure on the ballot or directing it to grant the protest.",
+        "The board of elections and the intervening petition committee first argued Sommers had waited too long, invoking the doctrine of laches. The court rejected that defense outright, holding that Sommers acted within a day of the council's certification resolution in filing its protest, and within four days of the protest's denial in filing suit, timelines the board and committee did not themselves characterize as unreasonable. Having cleared that procedural hurdle, Sommers still lost: the court held Sommers failed to show the board of elections abused its discretion or clearly disregarded applicable law when it certified the initiative and rejected Sommers' protest, and denied both writs. The referendum stays on the November 3 ballot, and Mayfield Heights voters, not the courts, will decide whether the rezoning that cleared the way for Sommers' townhome project survives.",
+        "For commercial developers, the case is a pointed illustration of a risk that is easy to underweight during entitlement planning in charter municipalities with initiative and referendum rights: a council approval is not necessarily the final word, and courts will extend real procedural latitude to election boards processing a citizen challenge to that approval, even while giving a developer the benefit of the doubt on how quickly it had to object. Winning the laches argument did Sommers no good once the merits went against it, and developers facing a possible referendum fight should budget for the political and ballot-box risk separately from the zoning-approval process itself, scrutinize a municipality's charter provisions on initiative, referendum and certification deadlines before relying on a council vote as final, and recognize that Ohio courts have shown little appetite to second-guess a board of elections' procedural calls absent a clear abuse of discretion or a clear disregard of the law."
+      ],
+      tags: ["zoning", "referendum", "entitlement", "ohio", "developer"],
+      parties: [
+        { name: "Sommers Development Group, LLC", role: "Relator" },
+        { name: "Cuyahoga County Board of Elections", role: "Respondent" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "May 27, 2026", label: "Mayfield Heights City Council adopts rezoning ordinance and density variance for Sommers' townhome project" },
+        { when: "July 24, 2026", label: "Opposition committee files initiative petition to restore the prior zoning" },
+        { when: "September 9, 2026", label: "City council certifies the initiative petition to the board of elections for the November 3 ballot" },
+        { when: "September 21, 2026", label: "Board of elections denies Sommers' protest against the petition" },
+        { when: "October 19, 2026", label: "Ohio Supreme Court denies Sommers' writs of prohibition and mandamus, leaving the referendum on the ballot", current: true }
+      ]
     }
   ],
 
