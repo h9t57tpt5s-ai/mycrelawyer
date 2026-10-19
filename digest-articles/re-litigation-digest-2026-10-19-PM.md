@@ -1,0 +1,36 @@
+# Atlanta Film Studio Sues DeKalb County Over Data Center Moratorium, Seeking Right to Build and Compensation
+
+### Shadowbox Studios says county officials told it a data center was allowed on a 200-acre site — then froze new applications before it could build one
+
+Shadowbox Studios, the Atlanta-area production company behind films including *Cocaine Bear*, has sued DeKalb County, Georgia, alleging that a moratorium on new data center development unlawfully blocks a project the county had already told the company it could build. The lawsuit, filed August 5, 2026 by Shadowbox and an affiliated entity, Henrico 183, in DeKalb County Superior Court, asks a judge to declare the moratorium invalid as applied to the company's roughly 200-acre property at 3600 International Park Drive, to clear the way for construction, and to award "just compensation" for what the complaint characterizes as a violation of the company's property rights, along with attorneys' fees.
+
+The dispute sits at the intersection of two trends reshaping local land-use litigation nationwide: a wave of municipal moratoria aimed at slowing the data center boom, and property owners increasingly treating those pauses as compensable takings rather than mere regulatory delay. For commercial landowners and developers, the case is a reminder that informal assurances from planning staff can become the central battleground in a vested-rights fight — and that the value of those assurances may turn on whether they were ever put in writing as binding commitments.
+
+### What the lawsuit alleges
+
+According to the complaint, Shadowbox and Henrico 183 have spent more than $30 million developing the International Park Drive site for data center use, acting in reliance on representations from DeKalb County planning staff that a data center was an allowed use on the property. The county has pushed back on that characterization, with planning officials stating that any letters sent to the company were never intended to function as legally binding commitments. DeKalb enacted its first temporary moratorium on new data center applications in July 2025 and has extended it multiple times since, with reporting indicating the freeze now runs through March 2027 while the county drafts permanent rules addressing the power, water, and infrastructure demands of large-scale data center campuses.
+
+The financial stakes described in public reporting vary depending on the source and the stage of the dispute: Shadowbox has cited figures ranging from roughly $30 million to more than $37 million invested or at risk in different filings, and the company's chief executive, Peter Rumbold, has been quoted putting the company's total exposure above $100 million. The lawsuit itself alleges that the moratorium has cut the property's value by as much as $200 million. Those figures have not been tested in court and should be treated as one side's characterization pending further proceedings.
+
+The litigation has not stayed confined to the courthouse. On September 9, 2026, DeKalb County's Zoning Board of Appeals voted to affirm its earlier denial of Shadowbox's data center proposal, with board members citing the pending lawsuit as a reason for leaving the underlying zoning question to the courts. Counsel for Shadowbox argued before the board that the county never provided proper public notice or an opportunity to be heard when it originally passed, and later extended, the moratorium — a procedural objection that, if it gains traction, could complicate the county's defense of the moratorium's validity independent of the takings question.
+
+### Why it matters for commercial real estate
+
+Data center moratoria have become one of the fastest-growing sources of land-use litigation in the country over the past two years, as local governments confronted with power-hungry, traffic-light, tax-base-friendly but politically contentious projects reach for temporary freezes while they study infrastructure impacts and draft more durable zoning frameworks. Developers on the losing end of those freezes are increasingly responding not just with the traditional vested-rights argument — that an application submitted before a moratorium took effect should be judged under the old rules — but with regulatory-takings claims seeking money damages for the diminution in value a prolonged freeze causes.
+
+The Shadowbox case illustrates why that strategy has obvious appeal to developers and real risk for municipalities: if a county's own planning staff can be shown to have represented, even informally, that a use was permitted, a subsequent moratorium that blocks that specific, already-represented project looks far more like a targeted taking than a neutral, generally applicable pause. Counties that rely on correspondence or informal guidance from planning staff to manage developer expectations, without making clear that such guidance carries no legal force, may find that informality cited back to them as evidence of a prior commitment once a moratorium intervenes.
+
+### Practical takeaways
+
+For developers evaluating a data center or other large-scale commercial project in a jurisdiction considering, or already under, a moratorium, this dispute offers several practical lessons. First, get any planning staff representation about permitted use in writing, understand whether your jurisdiction treats that writing as binding, and build a paper trail documenting reliance and expenditures from the date of that representation forward, since both will matter if a moratorium later intervenes. Second, don't treat a moratorium as merely a timing problem to be litigated solely on vested-rights grounds; consider, with counsel, whether the facts support a regulatory-takings theory seeking compensation for diminished value, particularly where the freeze appears to target a specific, already-permitted or already-represented project rather than a land-use category generally. Third, scrutinize the procedural history of any moratorium ordinance itself — how it was enacted, whether required public notice and hearing procedures were followed, and whether it has been extended beyond its original term — since procedural defects in the moratorium's own adoption can provide an independent avenue of attack alongside the substantive takings claim.
+
+---
+
+*This update was prepared as a legal news briefing on commercial real estate litigation. It does not constitute legal advice.*
+
+### Sources
+
+- WABE, "DeKalb County sued over moratorium on new data centers," https://www.wabe.org/dekalb-county-sued-over-moratorium-on-new-data-centers/
+- Atlanta News First, "DeKalb County board affirms denial of data center proposal," https://www.atlantanewsfirst.com/2026/09/09/dekalb-county-board-affirms-denial-data-center-proposal/
+- WSB-TV, "$30M lawsuit claims DeKalb leaders approved building data center, then issued moratorium," https://www.wsbtv.com/news/local/dekalb-county/30m-lawsuit-claims-dekalb-leaders-approved-building-data-center-then-issued-moratorium/WWDME5LD65E7JOK5MSBJLHFR7M/
+- Hoodline, "Cocaine Bear Studio sues DeKalb for $30M over blocked data center," https://hoodline.com/2026/10/cocaine-bear-studio-sues-dekalb-for-30m-over-blocked-data-center/

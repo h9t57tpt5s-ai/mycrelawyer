@@ -1,5 +1,17 @@
 {
  "handled": {
+  "opinion:11038107": {
+   "at": "2026-10-19",
+   "action": "skipped: residential (disabled-tenant eviction/rent-increase dispute under Conn. Gen. Stat. 47a-23c, not commercial real estate)"
+  },
+  "opinion:11038233": {
+   "at": "2026-10-19",
+   "action": "skipped: not real estate (church rezoning/RLUIPA dispute, not a commercial real estate business)"
+  },
+  "opinion:11038078": {
+   "at": "2026-10-19",
+   "action": "skipped: no coverage found explaining the dispute (two-page per curiam mandamus denial with no underlying facts; no independent reporting found on SH Airport Hotel/Paratta LLC receivership dispute)"
+  },
   "petition:https://www.courtlistener.com/docket/74960812/nrs-realty-llc/": {
    "at": "2026-10-17",
    "action": "skipped: no coverage found explaining the filing"
