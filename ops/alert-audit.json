@@ -1,28 +1,21 @@
 {
  "ok": true,
- "generatedAt": "2026-10-19T00:25:34.961Z",
+ "generatedAt": "2026-10-19T17:44:51.032Z",
  "days": 30,
  "portfolios": 1,
  "entitiesWatched": 1,
  "sources": {
   "courtlistener": {
-   "stored": 1271,
+   "stored": 618,
    "liveSince": "2026-09-19",
-   "lagSample": 614,
+   "lagSample": 618,
    "medianLagDays": 1,
    "p90LagDays": 2
   },
-  "sec_edgar": {
-   "stored": 254,
-   "liveSince": "2026-09-19",
-   "lagSample": 100,
-   "medianLagDays": 1,
-   "p90LagDays": 1
-  },
   "hillsborough_fl": {
-   "stored": 90,
+   "stored": 91,
    "liveSince": "2026-09-20",
-   "lagSample": 61,
+   "lagSample": 62,
    "medianLagDays": 2,
    "p90LagDays": 2
   },
@@ -32,14 +25,16 @@
    "lagSample": 29,
    "medianLagDays": 1,
    "p90LagDays": 2
+  },
+  "sec_edgar": {
+   "stored": 101,
+   "liveSince": "2026-09-19",
+   "lagSample": 101,
+   "medianLagDays": 1,
+   "p90LagDays": 1
   }
  },
  "byDay": {
-  "2026-09-19": {
-   "stored": 811,
-   "alerts": 1,
-   "emailed": 1
-  },
   "2026-09-20": {
    "stored": 36,
    "alerts": 0,
@@ -181,7 +176,7 @@
    "emailed": 0
   },
   "2026-10-19": {
-   "stored": 1,
+   "stored": 7,
    "alerts": 0,
    "emailed": 0
   }
@@ -196,19 +191,9 @@
    "emailedAt": "2026-09-30T01:28:59.808+00:00",
    "confidence": "exact",
    "overdue": false
-  },
-  {
-   "source": "courtlistener",
-   "filingType": "bankruptcy_ch11",
-   "dateFiled": "2026-09-17",
-   "storedAt": "2026-09-19T04:19:57.503128+00:00",
-   "matchedAt": "2026-09-19T14:04:53.546431+00:00",
-   "emailedAt": "2026-09-19T14:04:53.92+00:00",
-   "confidence": "exact",
-   "overdue": false
   }
  ],
- "alertsEmailed": 2,
+ "alertsEmailed": 1,
  "alertsOverdue": 0,
  "medianEmailMinutes": 0,
  "maxEmailMinutes": 0
