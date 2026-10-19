@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-18T13:25:07+00:00",
+ "updatedAt": "2026-10-19T16:34:43+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 22,
+ "requestsUsed": 18,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -39,6 +39,13 @@
   },
   "67174489": {
    "entries": [
+    {
+     "date": "2026-10-19",
+     "number": 1624,
+     "text": "Withdraw as Attorney",
+     "url": "https://www.courtlistener.com/docket/67174489/1624/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
     {
      "date": "2026-10-16",
      "number": 1621,
@@ -87,13 +94,6 @@
      "text": "Notice (Other)",
      "url": "https://www.courtlistener.com/docket/67174489/1616/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 1615,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/67174489/1615/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -103,7 +103,7 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-10-16"
+   "lastEntryDate": "2026-10-19"
   },
   "67356054": {
    "entries": [
