@@ -153,7 +153,15 @@
     "newsletterSignups7": 0
    },
    "checkAfter": "2026-10-20",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-20",
+    "value": {
+     "follows7": 0,
+     "newsletterSignups7": 1
+    },
+    "note": "follows7 0 -> 0, no move at all. newsletterSignups7 0 -> 1: a real event (last28Days.newsletterSignups is also 1, so the entire 28-day total happened inside this 7-day window), but a single signup is too small a sample to call a trend, and imp-013 (newsletter placement move on index.html/litigation.html, still watching, checkAfter 2026-10-23) targets the same metric on overlapping pages, so this one event can't be attributed to imp-007 alone. Not clutter either way -- kept as-is."
+   }
   },
   {
    "id": "imp-008",
@@ -171,7 +179,12 @@
    "window": "7 days",
    "baseline": 0,
    "checkAfter": "2026-10-20",
-   "status": "watching"
+   "status": "helped",
+   "verdict": {
+    "date": "2026-10-20",
+    "value": 4,
+    "note": "calculatorViews7 0 -> 4, and last28Days.toolViews['case-valuation'] is 5 -- almost all of the 28-day total landed inside this 7-day window, so the 28-day trend agrees with the 7-day move. Caveat: imp-014 (litigation.html promo, same metric, checkAfter 2026-10-23) and imp-016 (local session's larger calculator-entry-points overhaul, checkAfter 2026-10-31) are both still open on the same metric, so this is very likely a combined effect of all three, not imp-008 alone -- credited to imp-008 here only because its own checkAfter is today and the metric did move in the right direction with no sign of regression."
+   }
   },
   {
    "id": "imp-009",
@@ -441,6 +454,25 @@
    "checkAfter": "n/a",
    "status": "no-op",
    "note": "A deliberately avoided near-miss, not an oversight: the data-lite.js removal would have broken a real, used, sitewide feature. See ops/improvement-playbook.md's 'What we have learned' and backlog item 9, both dated 2026-10-19 (second run)."
+  },
+  {
+   "id": "imp-022",
+   "date": "2026-10-20",
+   "track": "conversion",
+   "title": "Fixed a search-tracking gap so last7Days.searches can register the ?q= landing path and the global search overlay",
+   "why": "Judged imp-007 (no clear effect) and imp-008 (helped) this run (both checkAfter today). Re-checked goal/backlog state: every goal already has an open watching entry (traffic: imp-009/imp-012; conversion: imp-010/imp-013/imp-020; calculator: imp-011/imp-014/imp-016; news: imp-017; subscription: imp-015), so per the 2026-10-16 'one open experiment per goal' rule this run did not ship a 5th goal change, but the rule explicitly allows fixing 'a measurement problem (a metric that cannot move)'. Backlog item 6 (imp-020, 2026-10-19) added a search box to every matter page submitting to litigation.html?q=..., watching last7Days.searches -- but reading js/litigation.js showed the ?q= handler only sets searchInput.value directly, which never dispatches the 'input' event the debounced search tracker listens for, so that entire landing path (imp-020's new box, and the global search overlay's own 'View all N matching matters' link) was structurally invisible to the metric it's being judged against. Separately, js/search.js (the sitewide Cmd/Ctrl+K/'/' overlay, injected into the nav on every page) never called window.RELAW_TRACK at all -- a real, live-the-whole-time feature whose usage was simply never counted.",
+   "files": [
+    "js/litigation.js",
+    "js/search.js",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "cc3502e",
+   "metric": "ops/metrics/latest.json last7Days.searches (goals.json does not track this one directly; it is backlog item 6 / imp-020's own metric)",
+   "window": "7 days",
+   "baseline": 4,
+   "checkAfter": "2026-10-26",
+   "status": "watching",
+   "note": "Shares imp-020's checkAfter window and metric -- this is the measurement fix that lets imp-020's own experiment actually be judged, not a separate UI change. No audit regression (site_audit.py counts identical before/after); node --check passed on both edited files (deno unavailable this session)."
   }
  ]
 }
