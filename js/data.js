@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-19",
+  lastUpdatedDate: "2026-10-20",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -7700,7 +7700,7 @@ const RELAW_DATA = {
       addedDate: "2026-10-07",
       title: "DC Blox, Inc. v. Metro Government of Nashville and Davidson County (Nashville Zoo-Area Data Center Moratorium Suit)",
       category: "zoning-land-use",
-      status: "filed",
+      status: "ruling",
       date: "2026-08-11",
       jurisdiction: "U.S. District Court, Middle District of Tennessee",
       state: "TN",
@@ -7709,7 +7709,7 @@ const RELAW_DATA = {
       amountBasis: "purchase price",
       source: "live",
       sourceUrl: "https://www.axios.com/local/nashville/2026/08/11/dc-blox-sues-over-metros-data-center-moratorium",
-      summary: "DC Blox, Inc. sued Metro Nashville and Davidson County in federal court on August 11, 2026, alleging the city's new data-center zoning restrictions and moratorium were enacted specifically to block DC Blox's already-permitted data center project on more than 23 acres it purchased for $23 million next to the Nashville Zoo. The complaint cites public comments from the mayor and a Metro council member as evidence the moratorium targeted DC Blox's vested project rather than data centers generally, and alleges violations of due process, equal protection, and the takings clause.",
+      summary: "DC Blox, Inc. sued Metro Nashville and Davidson County in federal court on August 11, 2026, alleging the city's new data-center zoning restrictions and moratorium were enacted specifically to block DC Blox's already-permitted data center project on more than 23 acres it purchased for $23 million next to the Nashville Zoo. The complaint cites public comments from the mayor and a Metro council member as evidence the moratorium targeted DC Blox's vested project rather than data centers generally, and alleges violations of due process, equal protection, and the takings clause. On October 7, 2026, U.S. District Judge Eli Jeremy Richardson dismissed all nine of DC Blox's claims and denied its preliminary-injunction motion, finding the company had not adequately identified the property interest underlying its constitutional claims, though he gave DC Blox 21 days to amend three of the counts and did not decide the separate vested-rights question, which is now before Metro's Board of Zoning Appeals.",
       significance: "The case is a notable test of whether a municipality can use a facially neutral moratorium to halt a specific, previously permitted project once public opposition mounts, and whether prior public statements by officials can be used to prove targeted intent. A ruling for DC Blox would raise the bar for municipalities seeking to slow down data center projects that have already cleared permitting, while a ruling for Metro would reinforce broad local authority to pause a land use category even after individual permits have issued.",
       body: [
         "DC Blox, Inc., the company whose planned data center next to the Nashville Zoo touched off intense neighborhood opposition, has sued Metro Nashville and Davidson County in federal court, accusing the city of what the complaint calls 'relentless efforts' to block the project specifically rather than regulating data centers as a category. The lawsuit, filed August 11, 2026 in the U.S. District Court for the Middle District of Tennessee, challenges a moratorium and related zoning changes Metro adopted after DC Blox had already secured permits for the site.",
@@ -7718,13 +7718,17 @@ const RELAW_DATA = {
         "The company asks the court to block Metro from enforcing the new data center ordinances against its project, declare the ordinances unlawful as applied, and award financial damages, framing its claims around due process, equal protection, and uncompensated taking of its vested property rights. Because the company is a sitting owner with a purchased, previously-permitted site rather than merely a prospective bidder, the vested-rights and targeting theories here are more concrete than in many general zoning challenges.",
         "The case adds to a fast-growing docket of litigation nationally over data center siting, joining disputes in Minnesota and elsewhere where developers are testing the limits of municipal moratorium power once a project has already obtained some measure of permitting approval. Developers pursuing data center sites in politically sensitive locations should document every stage of permit vesting carefully and preserve public statements by officials that could later support -- or undercut -- a claim that a subsequent moratorium was targeted rather than general; municipalities, for their part, should be cautious about public commentary singling out a specific project while a moratorium ordinance is being drafted, since such statements are now squarely being used as evidence of improper targeting in federal court."
       ],
-      judge: null,
+      judge: "Eli Jeremy Richardson",
       parties: [
         { name: "DC Blox, Inc.", role: "Plaintiff" },
         { name: "Metro Government of Nashville and Davidson County", role: "Defendant" }
       ],
       propertyType: "Data Center",
-      tags: ["data-center", "tennessee", "zoning-moratorium", "vested-rights", "constitutional-claims"]
+      tags: ["data-center", "tennessee", "zoning-moratorium", "vested-rights", "constitutional-claims"],
+      timeline: [
+        { when: "August 11, 2026", label: "DC Blox sues Metro Nashville over the data center moratorium and permit freeze" },
+        { when: "October 7, 2026", label: "Judge Eli Jeremy Richardson dismisses all nine claims, denies a preliminary injunction, and gives DC Blox 21 days to amend three counts", current: true }
+      ]
     },
     {
       id: "live-232",
@@ -10351,6 +10355,40 @@ const RELAW_DATA = {
         { when: "September 21, 2026", label: "Board of elections denies Sommers' protest against the petition" },
         { when: "October 19, 2026", label: "Ohio Supreme Court denies Sommers' writs of prohibition and mandamus, leaving the referendum on the ballot", current: true }
       ]
+    },
+    {
+      id: "live-314",
+      seoTitle: "The Waffle v. Tucker Investment Group: Lease Arbitration Win",
+      seoDescription: "A California appeals court affirmed an arbitration award for landlord Tucker Investment Group in a Westwood restaurant lease fight over a grease interceptor.",
+      addedDate: "2026-10-20",
+      title: "The Waffle, LLC v. Tucker Investment Group, LLC (Westwood Restaurant Lease Arbitration Affirmed)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-19",
+      jurisdiction: "California Court of Appeal, Second Appellate District, Division Seven (Los Angeles County Superior Court No. SC129215)",
+      state: "CA",
+      amount: "Undisclosed arbitration award and attorneys' fees for TIG as prevailing party",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11038356/the-waffle-v-tucker-investment-group-ca27/",
+      summary: "The California Court of Appeal affirmed a trial court judgment confirming a binding arbitration award in favor of landlord Tucker Investment Group, LLC in a long-running lease dispute with restaurant tenant The Waffle, LLC over a 3,000-gallon grease interceptor the landlord was obligated to install. The Waffle had sued for fraud, negligent misrepresentation, breach of contract and rescission after the interceptor wasn't installed on the timeline it expected; after a bench trial ruling for TIG on the contract claim and a mistrial on the fraud claims, the parties stipulated to binding arbitration, which TIG also won.",
+      significance: "The decision shows how narrowly California courts will review an arbitration award once parties stipulate to binding arbitration with an appellate-rights waiver, and how a lease's own cure-period language for landlord obligations can decide a breach claim well before any arbitration begins. Commercial landlords and tenants negotiating tenant-improvement or construction work-letter obligations should take note of how much weight a 'reasonable time' cure provision can carry in later litigation.",
+      body: [
+        "A California appeals court has affirmed a trial court judgment confirming an arbitration award in favor of a Los Angeles landlord in a years-long commercial lease dispute that began with a disagreement over a 3,000-gallon grease interceptor and ended in a fraud trial, a jury mistrial, and binding arbitration. The case, The Waffle, LLC v. Tucker Investment Group, LLC, decided October 19, 2026 by the California Court of Appeal, Second Appellate District, Division Seven, shows how far courts will defer to arbitrators once commercial parties agree to arbitrate a lease dispute.",
+        "The dispute traces to a March 30, 2017 lease between Tucker Investment Group, LLC (TIG), the master lessee of a commercial property in Westwood, and The Waffle, LLC, which planned to open a second restaurant location there. Under a construction work letter attached to the lease, TIG agreed to install a four-inch grease waste line connected to a 3,000-gallon grease interceptor, but the parties never fixed a firm deadline for the work. Instead the lease relied on a cure provision requiring TIG to act within a 'reasonable time' after written notice of default -- no less than 30 days, or, if the obligation could not reasonably be finished within 30 days, commencement within that window followed by diligent pursuit to completion.",
+        "That ambiguity became the center of the fight. From late 2017 into early 2018, TIG's project manager and The Waffle's principal went back and forth over whether a smaller 'Schier' grease trap could substitute for the bulkier interceptor, which required costly excavation behind the premises. When The Waffle's side rejected the substitute as final in April 2018, it sent TIG a formal notice of breach; TIG responded that it was returning to engineers to plan installation of the original unit. The Waffle sued on May 2, 2018, alleging fraud and negligent misrepresentation against TIG and its project manager's firm, Coastline Construction Management, Inc., and seeking rescission and breach-of-contract relief against TIG.",
+        "The case proceeded in two phases. In a 2021 bench trial on the breach-of-contract claim, the trial court sided with TIG, reasoning that under the lease's cure language a landlord is not in breach merely for missing an ambitious timeline, only for failing to commence a non-30-day obligation within 30 days and thereafter diligently pursue it; because TIG had engaged engineers and moved toward installing the original interceptor, the court found no breach. A 2022 jury trial on the fraud claims produced a mistrial after a deadlock, and rather than retry those claims, the parties stipulated to binding arbitration under ADR Services, Inc. rules, waiving any right to appeal except on narrow statutory grounds. The arbitrator ruled for TIG, and the trial court confirmed the award over The Waffle's objections that the arbitrator exceeded his authority, failed to issue a reasoned award, and wrongly awarded fees tied to settled co-defendants.",
+        "The Court of Appeal rejected each of The Waffle's arguments and affirmed in full, underscoring that once parties stipulate to binding arbitration with an appellate-rights waiver, California courts will not relitigate the merits on review -- an arbitrator's reliance on prior findings from the same litigation, a terse award, and a fee award touching settled co-defendants all fall well within the narrow discretion appellate courts give arbitrators under the state's arbitration statute. The ruling is also a reminder that a lease's own cure-period language can do more work than any later factual dispute: here, the operative question was never really whether TIG delayed, but whether the lease's 30-day commence-and-diligently-pursue standard was satisfied, and that framework effectively decided the contract claim long before arbitration ever began.",
+        "For commercial landlords and tenants negotiating construction work letters or tenant-improvement obligations, the case offers a few practical lessons: build a specific, unambiguous deadline into any obligation tied to major capital work like a grease interceptor rather than relying on open-ended 'reasonable time' cure language that can be litigated for years; recognize that agreeing to binding arbitration, especially with an appellate-rights waiver, effectively forecloses a second look at the merits, so that decision should be made with full awareness of the stakes; and understand that a prevailing party's fee award in arbitration can extend to work connected to co-defendants who settled earlier in the case, so fee exposure should be sized against the full scope of the litigation rather than just the arbitrating parties."
+      ],
+      judge: "Mark H. Epstein",
+      parties: [
+        { name: "The Waffle, LLC", role: "Plaintiff/Appellant" },
+        { name: "Tucker Investment Group, LLC", role: "Defendant/Respondent" },
+        { name: "Coastline Construction Management, Inc.", role: "Defendant" }
+      ],
+      amountUsd: null,
+      propertyType: "Retail",
+      tags: ["lease-dispute", "arbitration", "california", "restaurant", "construction-work-letter"]
     }
   ],
 

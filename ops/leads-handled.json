@@ -29,7 +29,7 @@
    "action": "skipped: no coverage found explaining the dispute (two-page per curiam mandamus denial with no underlying facts; no independent reporting found on SH Airport Hotel/Paratta LLC receivership dispute)"
   },
   "petition:https://www.courtlistener.com/docket/74960812/nrs-realty-llc/": {
-   "at": "2026-10-17",
+   "at": "2026-10-15",
    "action": "skipped: no coverage found explaining the filing"
   },
   "https://www.courtlistener.com/docket/74976761/fd-realty-llc-v-barrett-financial-group-llc/": {
@@ -292,10 +292,6 @@
    "at": "2026-10-15",
    "action": "skipped: residential mortgage foreclosure in Queens, individual defendant (Jason Vento)"
   },
-  "petition:https://www.courtlistener.com/docket/74960812/nrs-realty-llc/": {
-   "at": "2026-10-15",
-   "action": "skipped: no coverage found explaining the filing"
-  },
   "https://www.courtlistener.com/docket/74963440/united-states-v-vb-development-corp/": {
    "at": "2026-10-15",
    "action": "skipped: no reporting found explaining the dispute"
@@ -413,7 +409,7 @@
    "action": "skipped: no coverage found explaining the filing"
   },
   "petition:https://www.courtlistener.com/docket/74978909/kdj-properties-llc/": {
-   "at": "2026-10-17",
+   "at": "2026-10-18",
    "action": "skipped: no coverage found explaining the filing"
   },
   "petition:https://www.courtlistener.com/docket/74978793/edson-avenue-development-group-llc/": {
@@ -436,13 +432,25 @@
    "at": "2026-10-17",
    "action": "skipped: no reporting found explaining the dispute"
   },
-  "petition:https://www.courtlistener.com/docket/74978909/kdj-properties-llc/": {
-   "at": "2026-10-18",
-   "action": "skipped: no coverage found explaining the filing"
-  },
   "opinion:11038073": {
    "at": "2026-10-19",
    "action": "matter live-310"
+  },
+  "opinion:11038356": {
+   "at": "2026-10-20",
+   "action": "matter live-314"
+  },
+  "opinion:11038347": {
+   "at": "2026-10-20",
+   "action": "skipped: residential mortgage foreclosure appeal, final-appealable-order dismissal, individual defendant"
+  },
+  "opinion:11038320": {
+   "at": "2026-10-20",
+   "action": "skipped: environmental group v. city SEPA challenge over a hotel land swap; not a dispute between a commercial real estate business and a government, developer not a party"
+  },
+  "opinion:11038306": {
+   "at": "2026-10-20",
+   "action": "skipped: not real estate (APA challenge to Navy officer rank/seniority determination)"
   }
  }
 }
