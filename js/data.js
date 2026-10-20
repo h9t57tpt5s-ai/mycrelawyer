@@ -10433,6 +10433,50 @@ const RELAW_DATA = {
         { when: "October 29, 2026", label: "Foreclosure auction originally scheduled, now stayed pending appeal", upcoming: true },
         { when: "October 2026", label: "Owner's attorney files a notice of appeal challenging the referee's report, staying the scheduled sale", current: true }
       ]
+    },
+    {
+      id: "live-316",
+      seoTitle: "Lordstown Ohio Data Center Moratorium Beats Developer's Suit",
+      seoDescription: "Ohio's Supreme Court denied Bristolville 25 Developer's mandamus bid, ruling Lordstown's data-center permit moratorium blocks site-plan review.",
+      addedDate: "2026-10-20",
+      title: "State ex rel. Bristolville 25 Developer, L.L.C. v. Village of Lordstown (Ohio Supreme Court Denies Data-Center Site-Plan Mandamus)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-20",
+      jurisdiction: "Supreme Court of Ohio",
+      state: "OH",
+      propertyType: "Data Center",
+      amount: "$3.6 billion proposed data-center campus (per local reporting); no damages at issue in this mandamus action",
+      amountUsd: 3600000000,
+      amountBasis: "other",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11039801/state-ex-rel-bristolville-25-developer-llc-v-lordstown/",
+      summary: "The Ohio Supreme Court denied a writ of mandamus sought by data-center developer Bristolville 25 Developer, L.L.C. against the Village of Lordstown, holding the village had no clear legal duty to review Bristolville's site plan under its pre-ban zoning ordinance once the village adopted a temporary moratorium on new data-center permits. Bristolville had submitted its site plan for a roughly $3.6 billion data-center campus in October 2025, only to have the village pass an emergency ban on data centers days later; after Bristolville sued, the village repealed the outright ban but replaced it with a renewable moratorium -- extended once already, through the end of 2026 -- that ultimately defeated the mandamus claim.",
+      significance: "The decision shows that a municipality facing a mandamus suit over a zoning or permit-review duty can moot the developer's strongest argument by enacting a facially neutral, temporary moratorium -- even one adopted after litigation began, renewed once already, and imposed after the specific ban that triggered the suit was repealed. Lordstown's fight is one of several similar data-center moratorium disputes nationally (including in the Nashville and Chatham County, North Carolina areas), and it is among the first to reach a definitive state supreme court ruling. For data-center and other large-footprint commercial developers, early filing under existing zoning rules is not, by itself, enough to lock in review rights if local law changes before the municipality actually acts on the application.",
+      body: [
+        "The Ohio Supreme Court on October 20, 2026 denied a writ of mandamus sought by a data-center developer against the Village of Lordstown, holding that a temporary moratorium on new data-center permits left the village with no clear legal duty to process the developer's site plan under the zoning rules in effect when the application was submitted. The decision, State ex rel. Bristolville 25 Developer, L.L.C. v. Village of Lordstown, 2026-Ohio-4073, case No. 2025-1497, is a reminder to commercial developers that a municipality's shifting zoning policy can be difficult to outrun through litigation, even for a developer that files its application first.",
+        "Bristolville 25 Developer, L.L.C. acquires and develops land for large-scale data centers nationwide. In February 2025, it agreed to buy roughly 133 acres in Lordstown, Ohio, a small Trumbull County village near Youngstown, from BHGH Properties, L.L.C., for a proposed data-center campus local reporting has valued at about $3.6 billion. The parcel was zoned for industrial use. On October 20, 2025, Bristolville began Lordstown's required site-plan-review process by hand-delivering a narrative project outline and a site plan to the village's Planning and Zoning Office, as required under Chapter 1115 of the Lordstown Codified Ordinances. The very next day, the village's planning-and-zoning administrator told Bristolville the office could not proceed, because the Planning and Zoning Committee had already recommended a ban on data centers and the proposal was before the village council on second reading. Bristolville pushed back a week later, insisting data centers were still permitted under the ordinances then in effect.",
+        "Six days after that, on November 3, 2025, the Lordstown Village Council passed Ordinance No. 57-2025 as an emergency measure, barring any data-center use within village limits and prohibiting the issuance of any zoning permit, building permit or certificate of occupancy for one, while exempting facilities already existing or under construction. The village's solicitor subsequently told Bristolville's counsel that its project would likely be prohibited by the new ordinance.",
+        "Bristolville and BHGH filed this mandamus action asking the Ohio Supreme Court to order Lordstown to review the site plan under the ordinances in effect on October 20, 2025, before the ban. The court dismissed the claim against the solicitor but allowed it to proceed against the village and its zoning administrator, ordering an answer and briefing. Before that process concluded, the village council voted to repeal the outright ban on December 1, 2025. Rather than resuming review, however, it adopted a 180-day moratorium, effective January 5, 2026, on accepting or processing any new data-center applications or permits while it studied the projects' effects on local utilities, the environment and residents; with that moratorium scheduled to expire around July 4, 2026, the village council voted to extend it another 180 days, keeping new data-center applications frozen through the end of 2026.",
+        "Mandamus relief in Ohio requires a relator to show a clear legal right to the requested relief and a corresponding clear legal duty on the respondent's part. The Supreme Court held that the moratorium ordinance, even though it succeeded rather than preceded the original ban that sparked the lawsuit, gave Lordstown a legitimate, present-tense basis to withhold site-plan review. Because Bristolville could not show the village had a clear legal duty to review its application under the pre-moratorium ordinance once the moratorium took hold, the court denied the writ outright, distinguishing the developer's reliance on Gibson v. Oberlin and Fairmount Center Co. v. Arnold.",
+        "The ruling illustrates a tactic increasingly available to municipalities facing unwanted large-scale development: even where a flat ban might be legally vulnerable, or gets repealed under pressure, a validly enacted temporary moratorium on permit processing can accomplish much the same result while a village studies its options, and courts applying the demanding mandamus standard will not second-guess that choice merely because the developer got there first. It arrives amid a broader wave of local pushback against data-center development tied to land use, water and power demand, giving municipalities considering similar moratoria a favorable precedent from the state's highest court. For developers, the practical lesson is to treat zoning risk as live all the way through permit issuance rather than just through application filing, since mandamus and vested-rights doctrines generally protect a completed review process far more reliably than a pending one; to front-load community engagement before filing rather than relying on the formal site-plan timeline to outpace local opposition; and, where a municipality has already signaled opposition to a use through a committee recommendation or pending council vote, to plan deal timelines and land-acquisition contingencies around the real possibility of a parallel legislative response, including a moratorium enacted mid-litigation."
+      ],
+      judge: null,
+      parties: [
+        { name: "Bristolville 25 Developer, L.L.C.", role: "Relator" },
+        { name: "BHGH Properties, L.L.C.", role: "Relator" },
+        { name: "Village of Lordstown", role: "Respondent" }
+      ],
+      tags: ["zoning", "data-center", "moratorium", "ohio", "mandamus"],
+      timeline: [
+        { when: "February 2025", label: "Bristolville agrees to buy the Lordstown parcel from BHGH Properties for a planned data center" },
+        { when: "October 20, 2025", label: "Bristolville submits its site-plan-review application to the Village of Lordstown" },
+        { when: "November 3, 2025", label: "Village council passes Ordinance No. 57-2025, an emergency ban on data centers" },
+        { when: "December 1, 2025", label: "Village council votes to repeal the outright data-center ban" },
+        { when: "January 5, 2026", label: "Village adopts a 180-day moratorium on new data-center applications and permits instead of resuming review" },
+        { when: "July 2026", label: "Village council extends the moratorium another 180 days as the original term lapses, through year end" },
+        { when: "October 20, 2026", label: "Ohio Supreme Court denies the writ of mandamus, holding the village's data-center permit moratorium left it with no clear legal duty to review the site plan", current: true }
+      ]
     }
   ],
 

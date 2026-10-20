@@ -451,6 +451,22 @@
   "opinion:11038306": {
    "at": "2026-10-20",
    "action": "skipped: not real estate (APA challenge to Navy officer rank/seniority determination)"
+  },
+  "opinion:11039943": {
+   "at": "2026-10-20",
+   "action": "skipped: individual residential tenant personal-injury (fire) suit against landlord and property manager, not a commercial real estate business dispute"
+  },
+  "opinion:11039801": {
+   "at": "2026-10-20",
+   "action": "matter live-316"
+  },
+  "petition:https://www.courtlistener.com/docket/74988901/1065-amboy-avenue-llc/": {
+   "at": "2026-10-20",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "https://www.courtlistener.com/docket/74989401/diego-beekman-mutual-housing-association-housing-development-fund/": {
+   "at": "2026-10-20",
+   "action": "skipped: residential mutual housing association (affordable housing nonprofit), not commercial real estate"
   }
  }
 }
