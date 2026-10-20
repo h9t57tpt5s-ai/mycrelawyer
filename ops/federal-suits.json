@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-10-20T01:12:09+00:00",
+ "updatedAt": "2026-10-20T15:50:40+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Diego Beekman Mutual Housing Association Housing Development Fund Corporation v. Alliance of Nonprofits for Insurance Risk Retention Group, Inc.",
+   "court": "District Court, S.D. New York",
+   "courtId": "nysd",
+   "docketNumber": "1:26-cv-09188",
+   "dateFiled": "2026-10-20",
+   "docketUrl": "https://www.courtlistener.com/docket/74989401/diego-beekman-mutual-housing-association-housing-development-fund/",
+   "docketId": 74989401,
+   "suitNature": "",
+   "cause": "",
+   "slug": "diego-beekman-mutual-housing-association-housing-development-fund-corp-nysd-1-26-cv-09188",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "U.S. Bank National Association, as Trustee for the Registered Holders of Wells Fargo Commercial Mortgage Securities, Inc., Multifamily Mortgage Pass-Through Certificates, Series 2020-SB70 v. 295 E 149 LLC",
    "court": "District Court, S.D. New York",
