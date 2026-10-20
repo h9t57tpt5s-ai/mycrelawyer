@@ -1,0 +1,57 @@
+{
+ "id": "state-v-speedway-grapevine-2017",
+ "ranAt": "2026-10-20T14:35:57+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": null,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": false,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 4493218,
+  "amountIsTheRequestedAmount": false,
+  "date": "2017-10-19",
+  "description": "The Tarrant County jury found the part condemned was worth $92,190 and the remainder sustained damages of $4,401,028 ($4,493,218 in total), well above the owner's appraiser's $2,748,822 and the State's appraiser's $265,615 (the special commissioners had awarded $954,285). The trial court signed judgment for Speedway for $3,538,933 plus prejudgment interest after crediting the State's $954,285 deposit, and denied a new trial. The Fort Worth Court of Appeals affirmed on October 19, 2017. No attorney's fees in a Texas condemnation award.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 4493218,
+  "finalNote": "Affirmed; amount is the sum of the two verdict lines (the deposit is part of it; judgment $3,538,933 is net of the $954,285 deposit)."
+ },
+ "source": {
+  "caseName": "The State of Texas v. Speedway Grapevine I, LLC, a Texas Limited Liability Company, and First Commercial Bank, N.A.",
+  "court": "Court of Appeals of Texas, Second District (Fort Worth), on appeal from County Court at Law No. 1 of Tarrant County (No. 2014-000122-1)",
+  "docket": "No. 02-16-00144-CV",
+  "decided": "2017-10-19",
+  "url": "https://dev.txcourts.gov/media/2szeipg4/opinion-cece8e47-5b32-4c04-ab83-ba12edaeaf1a.pdf",
+  "excerptNote": "Verbatim from Part II, Background, sections A-D.2 (the property, the strip taking, the special commissioners' award, the pretrial motions to exclude and rulings, and each witness's testimony: traffic engineer, zoning consultant, the owner's representative's $5.4 million before-value, the owner's appraiser's cost-approach figures and $2,748,822 total, the State's land planner's cure plan and its $131,421 cost, the city official, and the State's appraiser's $265,615 total), with footnotes 2 and 5. One sentence of the owner's appraiser's testimony (remainder value before the taking, $3,060,598) is omitted because footnote 2 splits it in the PDF; the next kept sentence restates that figure. Two sentences that open with the clause 'In calculating the value of the remainder property after the condemnation,' (McRoberts's change-in-use opinion and Wall's cure-plan/exemption conclusion) are omitted: the checker strips that recurring line as a running header, so neither sentence can be matched whole. McRoberts's change-in-use opinion is supplied instead by two verbatim sentences from Part IV that restate his testimony ('As alluded to, McRoberts opined ...'); Wall's points survive in O'Connor's and Stombaugh's testimony. Removed: the introduction (affirmance), footnotes 1, 3, 4 and 6 and markers, the descriptions of the site images, section D.3 (Verdict and Judgment) and all of the analysis. The opinion is from the Texas courts' own site."
+ }
+}

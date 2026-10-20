@@ -1,0 +1,60 @@
+{
+ "id": "indian-river-county-v-ocean-concrete-2020",
+ "ranAt": "2026-10-20T14:31:45+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "zoning-land-use",
+  "roleLabel": "Property Owner / Developer",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "varianceOrPermitDenied": false,
+   "spotZoningAlleged": false,
+   "arbitraryOrDiscriminatoryDenialAlleged": false,
+   "vestedRightPlusBadFaith": true,
+   "longPatternShiftingDemands": false,
+   "noNoticeOrHearing": false,
+   "discriminatoryIntentEvidence": false,
+   "lostValueEstimate": null,
+   "developmentAgreementBreached": false
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2000000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-11-25",
+  "description": "At a four-day jury trial in September 2019, with the County's economist and appraiser excluded, the jury awarded the landowner $2 million; final judgment was entered for $2 million plus $1,302,577 in prejudgment interest. The Fourth District affirmed on November 25, 2020. Amount used excludes prejudgment interest.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 2000000,
+  "finalNote": "Affirmed (plus $1,302,577 prejudgment interest)."
+ },
+ "source": {
+  "caseName": "Indian River County v. Ocean Concrete, Inc. and George Maib",
+  "court": "Florida Fourth District Court of Appeal, on appeal from the Circuit Court of the Nineteenth Judicial Circuit, Indian River County",
+  "docket": "No. 4D19-3611 (L.T. Case No. 312007CA011589)",
+  "decided": "2020-11-25",
+  "url": "https://storage.courtlistener.com/pdf/2020/11/25/indian_river_county_v._ocean_concrete_inc._and_george_maib.pdf",
+  "excerptNote": "Verbatim from the Background section and the opinion's description of the landowner's value-related testimony (Part B). Removed: the introductory paragraph (disposition), footnotes 1-4 and two footnote markers, the sentence reporting the jury's award and the final judgment with prejudgment interest, and all analysis and holdings. The opinion states no appraisal figures for either side, so the input contains no dollar values."
+ }
+}

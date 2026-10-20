@@ -1,0 +1,156 @@
+{
+ "id": "williamson-music-v-eqyinvest-2026",
+ "ranAt": "2026-10-20T14:25:39+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   132138.8352981682,
+   259076.38319506077
+  ],
+  "bestGuessValue": 195607.6092466145,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    132138.8352981682,
+    259076.38319506077
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      170484.37,
+      170484.37
+     ],
+     "expectedValueRange": [
+      93766.4035,
+      127863.2775
+     ],
+     "note": "",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "accelerated_rent",
+     "label": "Accelerated / Future Rent",
+     "probability": [
+      0.15,
+      0.3
+     ],
+     "damagesRange": [
+      123316.21198778803,
+      128210.35231686925
+     ],
+     "expectedValueRange": [
+      18497.431798168203,
+      38463.105695060774
+     ],
+     "note": "Discounted to present value using a 5%-9% annual rate range (industry/court practice, not a flat percentage haircut). Net of actual/anticipated replacement-tenant rent.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "wrongful_lockout",
+     "label": "Wrongful Eviction / Unlawful Lockout",
+     "probability": [
+      0.3,
+      0.6
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "No damages amount entered -- probability shown reflects state self-help law and whether statutory process was followed.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.3975,
+      0.46375
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      19875,
+      92750
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Texas",
+   "unpaidRentAmount": 170484.37,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": 23,
+   "monthlyRent": 5857.33,
+   "hasAccelerationClause": null,
+   "hasRelet": true,
+   "reletRentAmount": 0,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": null,
+   "selfHelpUsed": true,
+   "selfHelpProcessFollowed": "unclear",
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": null,
+   "depositAmount": null,
+   "depositDisputed": null,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Available",
+   "wrongfulLockoutRemedyType": "floor",
+   "wrongfulLockoutRemedyValue": 500,
+   "wrongfulLockoutCitation": "Tex. Prop. Code Sec. 93.002/93.003 -- actual damages + greater of one month's rent or $500, plus reasonable attorney's fees and costs."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 170484.37,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-09-15",
+  "description": "After a bench trial the court awarded the landlord $170,484.37 in past-due rent, the full amount it sought, with no credit for the $62,096.52 free-rent overlap offset or the $20,000 personal property. It also awarded $86,725.00 in attorney's fees. On appeal the rent damages were affirmed and the fee award reversed.",
+  "attorneysFeesAtTrial": 86725.0,
+  "attorneysFeesOnAppeal": "reversed",
+  "finalAmount": 170484.37,
+  "finalNote": "Rent damages affirmed; fee award reversed."
+ },
+ "source": {
+  "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",
+  "court": "Texas Sixth Court of Appeals (transferred from the Second), on appeal from the 342nd District Court, Tarrant County",
+  "docket": "06-25-00107-CV",
+  "decided": "2026-09-15",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=40c019e5-6590-43be-b02a-bf7b73239fec&coa=coa06&DT=Opinion&MediaID=fd5f6f98-b91a-4602-8ea3-97940423829c",
+  "excerptNote": "documentText is verbatim from Parts I, III.C and III.D of the opinion, with every sentence stating the trial court's award, its findings, or the appellate court's conclusions removed."
+ }
+}

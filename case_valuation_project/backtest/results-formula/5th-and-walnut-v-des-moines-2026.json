@@ -1,0 +1,82 @@
+{
+ "id": "5th-and-walnut-v-des-moines-2026",
+ "ranAt": "2026-10-20T14:31:25+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "zoning-land-use",
+  "roleLabel": "Property Owner / Developer",
+  "damagesRange": [
+   5837459.9399999995,
+   15134155.399999999
+  ],
+  "bestGuessValue": 10485807.669999998,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    5837459.9399999995,
+    15134155.399999999
+   ],
+   "claims": [
+    {
+     "claimKey": "development_agreement_breach",
+     "label": "Development Agreement Breach",
+     "probability": [
+      0.45,
+      0.7
+     ],
+     "damagesRange": [
+      12972133.2,
+      21620222
+     ],
+     "expectedValueRange": [
+      5837459.9399999995,
+      15134155.399999999
+     ],
+     "note": "Small, success-skewed research sample -- treat the probability range as directional.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "varianceOrPermitDenied": false,
+   "spotZoningAlleged": false,
+   "arbitraryOrDiscriminatoryDenialAlleged": false,
+   "vestedRightPlusBadFaith": true,
+   "longPatternShiftingDemands": true,
+   "noNoticeOrHearing": false,
+   "discriminatoryIntentEvidence": false,
+   "lostValueEstimate": 21620222,
+   "developmentAgreementBreached": true
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 4353677,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-06-12",
+  "description": "After an October 2022 bench trial the district court found the City breached the Development Agreement (and tortiously interfered with the construction loan) and awarded Parking LLC $4,353,677 in expectancy damages (garage development fee, savings under the stipulated price, and interest) against the City, rejecting all other claimed damages and the City's counterclaims; court costs were taxed to the City. The Iowa Supreme Court affirmed the breach-of-contract judgment and the $4,353,677 award on June 12, 2026, vacated the tortious-interference judgment, and affirmed the denial of the Developers' additional damages.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 4353677,
+  "finalNote": "Damages affirmed; tortious-interference liability vacated without changing the amount."
+ },
+ "source": {
+  "caseName": "5th and Walnut Parking LLC, 5th and Walnut Tower LLC, 5th and Court LLC, Justin Mandelbaum, and Sean Mandelbaum v. City of Des Moines",
+  "court": "Iowa Supreme Court, on appeal from the Iowa District Court for Polk County (Business Specialty Court)",
+  "docket": "No. 24-1886",
+  "decided": "2026-06-12",
+  "url": "https://storage.courtlistener.com/pdf/2026/06/12/5th_and_walnut_parking_llc_5th_and_walnut_tower_llc_5th_and_court_llc_1.pdf",
+  "excerptNote": "Verbatim from Part I (Background Facts and Proceedings, sections A-E, selected paragraphs) plus the neutral list of the Developers' damages categories and the sentences stating the amounts they requested for categories (1-D), (2-A/B/D), (3) and (4), taken from Part III.B. Removed: the introduction, the Lincoln Savings/Bankers Trust financing and alley-delay paragraph and the May-September 2019 extension talks (length) (award and disposition), the Section 10.1(A)/10.4 contract text, several correspondence paragraphs, the City's counterclaims and summary-judgment procedure, the district court's findings and judgment, footnotes 1-2 and their markers, the sentence stating the affirmed Category (1) award, every sentence reporting how the district court ruled on each damages category, and all analysis and holdings. The foreclosure-fees figure is omitted because the only sentence stating it reports the court's finding."
+ }
+}

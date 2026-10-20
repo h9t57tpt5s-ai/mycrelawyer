@@ -1,0 +1,91 @@
+{
+ "id": "quantum-concrete-v-plaza-de-kaza-2023",
+ "ranAt": "2026-10-20T14:29:46+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "construction-defect",
+  "roleLabel": "Contractor / Design Professional",
+  "damagesRange": [
+   -18376.305999999997,
+   -11303.846125
+  ],
+  "bestGuessValue": -14840.076062499998,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    -18376.305999999997,
+    -11303.846125
+   ],
+   "claims": [
+    {
+     "claimKey": "contractor_breach_negligence",
+     "label": "Contractor Breach / Negligence",
+     "probability": [
+      0.55,
+      0.8
+     ],
+     "damagesRange": [
+      20552.4475,
+      22970.382499999996
+     ],
+     "expectedValueRange": [
+      11303.846125,
+      18376.305999999997
+     ],
+     "note": "Post-occupancy latent defects clustered $10M-$116M in the research sample; defect pervasiveness across units mattered more than unit count. This defect type (workmanship cosmetic finish) is typically caught during commissioning or early occupancy rather than years later, so statute-of-repose exposure is usually much lower here than for a latent structural/geotechnical/water-intrusion defect.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Michigan",
+   "contractorDefectAlleged": true,
+   "repairCostEstimate": 24179.35,
+   "catastrophicOrLifeSafety": false,
+   "designErrorAlleged": false,
+   "multiplePartiesIndemnityExists": null,
+   "indemnityClauseCoversIndemniteesOwnNegligence": null,
+   "defectTracedToSingleSubcontractor": false,
+   "ownerSettledWithContractorsAfterInsurerPayout": null,
+   "insurerDeniedCoverage": null,
+   "defectCausedBySubcontractorWork": false,
+   "damageExtendsBeyondDefectItself": null,
+   "defectType": "workmanship-cosmetic-finish",
+   "yearsSinceSubstantialCompletion": null,
+   "differingSiteConditionsAlleged": null,
+   "differingSiteConditionsType": null,
+   "extraCostsFromSiteCondition": null,
+   "constructionIndemnityForm": "intermediate",
+   "constructionIndemnityCitation": "Mich. Comp. Laws \u00a7 691.991"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 24179.35,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-09-14",
+  "description": "After a three-day bench trial the court found Dykstra breached his agreement with Quantum and Plaza de Kaza was unjustly enriched, and entered judgment against both for $24,179.35 (the full final invoice, no setoffs), rejecting Plaza de Kaza's counterclaims; Quantum's later motion for attorney-fee sanctions was denied. The Court of Appeals affirmed (Quantum's challenges to the lien dismissal and the sanctions ruling failed).",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 24179.35,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Quantum Concrete, Inc. v. Plaza de Kaza, LLC, and Ronald A. Dykstra, d/b/a Dykstra Homes",
+  "court": "Michigan Court of Appeals (unpublished), on appeal from the Kent County Circuit Court",
+  "docket": "No. 361420 (LC No. 19-003189-CB)",
+  "decided": "2023-09-14",
+  "url": "https://www.courts.michigan.gov/4a4e27/siteassets/case-documents/uploads/opinions/final/coa/20230914_c361420_42_361420.opn.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Basic Facts): the bench-trial testimony of both sides, the pleadings, and the pretrial summary-disposition ruling dismissing the lien-foreclosure claim. Removed: the opening summary, footnote 1 and its marker, and the paragraphs reporting the bench-trial verdict, damages, and the sanctions ruling, plus all appellate analysis. Note: the judgment equals the unpaid final invoice, which appears in the text as the balance the owner refused to pay."
+ }
+}

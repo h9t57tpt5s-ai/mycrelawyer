@@ -1,0 +1,79 @@
+{
+ "id": "marchbanks-v-ice-house-ventures-2024",
+ "ranAt": "2026-10-20T14:36:08+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   1029840,
+   2059680
+  ],
+  "bestGuessValue": 1544760,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    1029840,
+    2059680
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      1029840,
+      2059680
+     ],
+     "expectedValueRange": [
+      1029840,
+      2059680
+     ],
+     "note": "Severance/access/business-value disputes ran 2x-5x+ above the initial offer in the research sample (one case ~49x).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 343280,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": null,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1800000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-02-06",
+  "description": "The case settled before trial by an October 11, 2018 agreed judgment entry: ODOT would pay $900,000 'as partial consideration' and convey a 12-space parking lot (the Parking Mitigation Property). ODOT could not convey the lot because the City of Columbus would not transfer it, and on June 18, 2019 (re-entered with Civ.R. 54(B) language on January 12, 2021) the trial court held ODOT in breach and awarded $900,000 damages for the failure to convey, plus attorney fees and costs to be set later. The Tenth District first reversed (2021-Ohio-4195), the Supreme Court of Ohio reversed that decision (2023-Ohio-1866), and on remand the Tenth District affirmed the trial court on February 6, 2024.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 1800000,
+  "finalNote": "JUDGMENT CALL, reviewer to confirm: amount = $900,000 settlement cash + $900,000 court-found damages standing in for the undelivered parking lot = $1,800,000 total compensation for the taking, fees excluded (fees awarded, amount not stated). Settlement, not a verdict. The opinion does not say whether ODOT's $343,280 deposit is part of the $900,000 cash or paid on top of it; if on top, the total would be $2,143,280. Final outcome is after the Supreme Court remand and the 2024 affirmance."
+ },
+ "source": {
+  "caseName": "Marchbanks v. Ice House Ventures, L.L.C.",
+  "court": "Court of Appeals of Ohio, Tenth Appellate District (Franklin County), on remand from the Supreme Court of Ohio, on appeal from the Franklin County Court of Common Pleas",
+  "docket": "No. 21AP-24, 2024-Ohio-417 (trial court No. 16CV-7726)",
+  "decided": "2024-02-06",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/10/2024/2024-Ohio-417.pdf",
+  "excerptNote": "Verbatim from the first quoted paragraph of the background (quoting Ice House II/Ice House I): the project, the appropriation and ODOT's deposit, both appraisals with their components, and the parking-loss sentence. Removed: the record citations in parentheses (the first of which spans a line the PDF splits), and everything from 'Ultimately, the parties reached a settlement prior to trial' on: the settlement terms, the Parking Mitigation Property, ODOT's failure to convey, the motion to enforce and the $900,000 breach award, the appellate history, footnotes and all analysis."
+ }
+}

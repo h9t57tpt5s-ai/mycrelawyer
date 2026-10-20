@@ -1,0 +1,69 @@
+{
+ "id": "stark-v-mccarthy-corp-2021",
+ "ranAt": "2026-10-20T14:29:02+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "construction-defect",
+  "roleLabel": "Owner / Developer",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Idaho",
+   "contractorDefectAlleged": false,
+   "repairCostEstimate": null,
+   "catastrophicOrLifeSafety": false,
+   "designErrorAlleged": false,
+   "multiplePartiesIndemnityExists": false,
+   "indemnityClauseCoversIndemniteesOwnNegligence": null,
+   "defectTracedToSingleSubcontractor": false,
+   "ownerSettledWithContractorsAfterInsurerPayout": null,
+   "insurerDeniedCoverage": null,
+   "defectCausedBySubcontractorWork": null,
+   "damageExtendsBeyondDefectItself": null,
+   "defectType": null,
+   "yearsSinceSubstantialCompletion": null,
+   "differingSiteConditionsAlleged": false,
+   "differingSiteConditionsType": null,
+   "extraCostsFromSiteCondition": null,
+   "constructionIndemnityForm": "intermediate",
+   "constructionIndemnityCitation": "Idaho Code \u00a7 29-114"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 85861.29,
+  "amountIsTheRequestedAmount": false,
+  "date": "2021-06-24",
+  "description": "After a seven-day bench trial the district court dismissed McCarthy's lien-foreclosure and contract claims and awarded Stark $51,760.83 on his breach-of-contract counterclaim (completion cost of $202,090.81 less $150,329.98 unpaid contract balance) plus $34,100.46 in ICPA damages (total $85,861.29), and $129,434 in attorney fees and $4,535.33 costs. The Idaho Supreme Court affirmed in full and awarded Stark fees on appeal.",
+  "attorneysFeesAtTrial": 129434.0,
+  "attorneysFeesOnAppeal": "awarded (amount not stated)",
+  "finalAmount": 85861.29,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "McCarthy Corporation v. Stark Investment Group, LLC, Craig Stark, and U.S. Bank, N.A.",
+  "court": "Idaho Supreme Court, on appeal from the District Court of the First Judicial District, Kootenai County",
+  "docket": "Docket No. 47749",
+  "decided": "2021-06-24",
+  "url": "https://storage.courtlistener.com/pdf/2021/06/24/mccarthy_corporation_v._stark_investment_group.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Factual Background, and the Procedural History through the statement that the case proceeded to a seven-day bench trial), plus the trial evidence on Stark's lender-related costs and the banker's testimony, which the opinion recites inside the discussion of the ICPA award. Removed: the opening summary of the bench-trial result, the trial court's findings on breach, completion-cost damages, lien, slander of title and ICPA liability, the ICPA damages total, the fee award, and all appellate analysis. Whitespace and page-number artifacts normalized; the bid-item and invoice-summary tables (and the sentences introducing them) are omitted."
+ }
+}

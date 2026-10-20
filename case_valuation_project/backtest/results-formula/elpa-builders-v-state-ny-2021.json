@@ -1,0 +1,79 @@
+{
+ "id": "elpa-builders-v-state-ny-2021",
+ "ranAt": "2026-10-20T14:31:12+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   907380,
+   1814760
+  ],
+  "bestGuessValue": 1361070,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    907380,
+    1814760
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      907380,
+      1814760
+     ],
+     "expectedValueRange": [
+      907380,
+      1814760
+     ],
+     "note": "Severance/access/business-value disputes ran 2x-5x+ above the initial offer in the research sample (one case ~49x).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 302460,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": false,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 283920,
+  "amountIsTheRequestedAmount": false,
+  "date": "2021-07-14",
+  "description": "After trial the Court of Claims found just compensation of $283,920 (adopting a before-taking value of $2,510,000 with a minor adjustment, $30,000 severance damages and $26,500 for three trees), below the $302,460 advance payment, and entered judgment for the State for the $18,540 difference under EDPL 304(H). The Second Department affirmed on July 14, 2021. Amount used is the compensation found for the taking (the owner's net recovery beyond the advance was negative).",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 283920,
+  "finalNote": "Affirmed; compensation of $283,920 was below the $302,460 advance, so the owner repays $18,540."
+ },
+ "source": {
+  "caseName": "Elpa Builders, Inc. v. State of New York",
+  "court": "Supreme Court of the State of New York, Appellate Division, Second Department, on appeal from the Court of Claims",
+  "docket": "2020-01684; 2021 NY Slip Op 04343",
+  "decided": "2021-07-14",
+  "url": "https://storage.courtlistener.com/html/2021/07/14/elpa_bldrs._inc._v._state_of_new_york.html",
+  "excerptNote": "Verbatim from the facts portion of the decision (property, Taco Bell ground lease, the 2015 taking, the advance payment agreement, and the $2 million claim). Removed: the decretal paragraphs, the Court of Claims' finding and the judgment in the State's favor, and all analysis (including the adopted before-taking value, severance and tree awards). A page marker ([*2]) was removed. The decision describes neither side's appraisal figures, so the input has only the advance payment and the claimed amount. Official reporter copy: 2021 NY Slip Op 04343."
+ }
+}

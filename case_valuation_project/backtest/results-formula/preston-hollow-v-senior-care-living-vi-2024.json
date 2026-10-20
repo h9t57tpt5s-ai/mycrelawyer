@@ -1,0 +1,139 @@
+{
+ "id": "preston-hollow-v-senior-care-living-vi-2024",
+ "ranAt": "2026-10-20T14:30:23+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   36856875,
+   62321625
+  ],
+  "bestGuessValue": 49589250,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    36856875,
+    62321625
+   ],
+   "claims": [
+    {
+     "claimKey": "foreclosure_deficiency_judgment",
+     "label": "Foreclosure / Deficiency Judgment",
+     "probability": [
+      0.6,
+      0.8
+     ],
+     "damagesRange": [
+      44675000,
+      44675000
+     ],
+     "expectedValueRange": [
+      26805000,
+      35740000
+     ],
+     "note": "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator -- treat this figure as case value, not a collection forecast. Texas's deficiency-judgment rules were applied (Tex. Prop. Code \u00a7\u00a7 51.003\u201351.005). Procedural trap to flag: Deficiency suit generally must be filed within 2 years of the foreclosure sale. A fair-value offset applies here (the credit against the debt is the greater of sale proceeds or a court-determined fair value) -- enter a fair-value figure if one has been determined and it exceeds the sale proceeds, which would reduce this deficiency.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "receivership_dispute",
+     "label": "Receivership Grant/Denial",
+     "probability": [
+      0.65,
+      0.85
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Not a dollar claim -- operational-control relief. Sample has grown to 10 real matters; of the 8 with a reported ruling, 7 resulted in a receiver appointed and 1 (Brick Air Capital v. NLD Props.) was denied outright even with a consent-to-receivership clause, on the court's equitable discretion.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "guaranty_enforcement",
+     "label": "Guaranty Enforcement",
+     "probability": [
+      0.45,
+      0.7
+     ],
+     "damagesRange": [
+      22337500,
+      37973750
+     ],
+     "expectedValueRange": [
+      10051875,
+      26581625
+     ],
+     "note": "A counterclaim or offset has been pled against the guaranty, which meaningfully reduces both the odds of full recovery and the likely dollar outcome -- this becomes a genuinely contested fact question rather than a clean carve-out breach.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "lender_liability_claim",
+     "label": "Lender Liability (borrower-asserted)",
+     "probability": [
+      0.1,
+      0.25
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Historically borrower-unfriendly absent clear bad faith; recent real cases trend toward procedural wins rather than dollar outcomes. Damages, if any, are typically limited to contract damages and out-of-pocket costs.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Texas",
+   "loanBalance": 44675000,
+   "foreclosureFiled": true,
+   "foreclosureMethod": "non-judicial",
+   "borrowerDisputesDefault": true,
+   "lenderAdvances": null,
+   "saleProceeds": null,
+   "courtDeterminedFairValue": null,
+   "receivershipMotionFiled": true,
+   "guarantyTriggerAlleged": true,
+   "guaranteedBalance": 44675000,
+   "guarantorAssertsCounterclaimOrOffset": true,
+   "lenderMisconductAlleged": true,
+   "egregiousConductAlleged": null,
+   "lenderLiabilityDamagesClaimed": null,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "trial",
+   "foreclosureNonJudicialDominant": true,
+   "foreclosureDeficiencyBarredIfNonJudicial": false,
+   "foreclosureDeficiencyConditionalIfNonJudicial": false,
+   "foreclosureDeficiencyBarredForBorrowerButGuarantorAvailable": false,
+   "foreclosureFairValueOffsetApplies": true,
+   "foreclosureProcedureTrap": "Deficiency suit generally must be filed within 2 years of the foreclosure sale.",
+   "foreclosureStateCitation": "Tex. Prop. Code \u00a7\u00a7 51.003\u201351.005",
+   "foreclosureStateNote": "Unlike California, Texas's dominant non-judicial power-of-sale method does NOT waive deficiency rights. Either party may request the court determine the property's fair market value; the sale price is presumed to equal fair market value unless rebutted by competent evidence, in which case the higher fair-value figure controls the deficiency calculation."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 52597040.06,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-05-14",
+  "description": "After a week-long bench trial the court rendered judgment for Preston Hollow against Senior Care and Bouldin, jointly and severally, for $52,597,040.06 ($44,675,000 principal plus $7,922,040.06 pre-judgment interest), $250,000 in attorney's fees and $520,000 conditional appellate fees, and reappointed a receiver. On rehearing the First Court of Appeals rendered judgment that Preston Hollow may not enforce the guaranty against Bouldin, reversed the $52.6 million breach-of-contract award against Senior Care and remanded that claim for a new trial, remanded the trustees' guaranty claims for trial, and vacated the fee awards.",
+  "attorneysFeesAtTrial": 250000.0,
+  "attorneysFeesOnAppeal": "vacated",
+  "finalAmount": null,
+  "finalNote": "Reversed and remanded for new trial on the contract claim; guaranty judgment reversed and rendered. Pending."
+ },
+ "source": {
+  "caseName": "Senior Care Living VI, LLC and Mark C. Bouldin v. Preston Hollow Capital, LLC, UMB Bank N.A., and TMI Trust Company",
+  "court": "Texas First Court of Appeals (Houston), opinion on rehearing, on appeal from the 458th District Court, Fort Bend County",
+  "docket": "No. 01-21-00602-CV (Trial Court Case No. 19-DCV-265897)",
+  "decided": "2024-05-14",
+  "url": "https://storage.courtlistener.com/pdf/2024/05/14/senior_care_living_vi_llc_v._preston_hollow_capital_llc_umb_bank_n.a..pdf",
+  "excerptNote": "documentText is verbatim from the Background (Parts A-C): the bond financing, loan agreement and guaranty, the construction-payment dispute with Baxter, the default notices and acceleration, and the pleadings and summary-judgment arguments. Removed for length: the detailed Bond Indenture, Master Indenture and CDMA paragraphs, the side-letter details, the trustee-resignation correspondence and the later default notices. Removed as outcome: the opening paragraphs (trial result and disposition), the summary-judgment and Rule 166(g) rulings, the bench-trial judgment and its components, and all appellate analysis. Footnotes 3-11 and markers removed. Note: the principal balance sought ($44,675,000) appears as the pleaded demand; the judgment amount does not."
+ }
+}

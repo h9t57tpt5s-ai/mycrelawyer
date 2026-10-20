@@ -1,0 +1,91 @@
+{
+ "id": "windsor-tower-v-speedy-maintenance-2024",
+ "ranAt": "2026-10-20T14:29:31+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "construction-defect",
+  "roleLabel": "Owner / Developer",
+  "damagesRange": [
+   38853.5,
+   55831.5
+  ],
+  "bestGuessValue": 47342.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    38853.5,
+    55831.5
+   ],
+   "claims": [
+    {
+     "claimKey": "contractor_breach_negligence",
+     "label": "Contractor Breach / Negligence",
+     "probability": [
+      0.7,
+      0.9
+     ],
+     "damagesRange": [
+      55505,
+      62035
+     ],
+     "expectedValueRange": [
+      38853.5,
+      55831.5
+     ],
+     "note": "Catastrophic/life-safety failures anchor the top of the real-case range ($39M-$997M in the research sample). This defect type (workmanship cosmetic finish) is typically caught during commissioning or early occupancy rather than years later, so statute-of-repose exposure is usually much lower here than for a latent structural/geotechnical/water-intrusion defect.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Ohio",
+   "contractorDefectAlleged": true,
+   "repairCostEstimate": 65300,
+   "catastrophicOrLifeSafety": true,
+   "designErrorAlleged": false,
+   "multiplePartiesIndemnityExists": false,
+   "indemnityClauseCoversIndemniteesOwnNegligence": null,
+   "defectTracedToSingleSubcontractor": true,
+   "ownerSettledWithContractorsAfterInsurerPayout": false,
+   "insurerDeniedCoverage": false,
+   "defectCausedBySubcontractorWork": false,
+   "damageExtendsBeyondDefectItself": false,
+   "defectType": "workmanship-cosmetic-finish",
+   "yearsSinceSubstantialCompletion": null,
+   "differingSiteConditionsAlleged": false,
+   "differingSiteConditionsType": null,
+   "extraCostsFromSiteCondition": null,
+   "constructionIndemnityForm": "intermediate",
+   "constructionIndemnityCitation": "Ohio Rev. Code Ann. \u00a7 2305.31"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 48260.0,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-12-13",
+  "description": "After a two-day bench trial the court found for Windsor, awarded it $44,300 (the amount it had paid Speedy) plus prejudgment and postjudgment interest on its breach-of-contract counterclaim and $3,960 on its slander-of-title counterclaim (bond premiums), a total of $48,260, voided Speedy's $66,000 mechanics lien and denied Speedy's claims. The Second District affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 48260.0,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Speedy Maintenance Service, L.L.C. v. Windsor Tower, L.L.C., et al.",
+  "court": "Court of Appeals of Ohio, Second Appellate District (Montgomery County)",
+  "docket": "C.A. No. 29996, 2024-Ohio-5841 (Trial Court Case No. 2021 CV 01747)",
+  "decided": "2024-12-13",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/2/2024/2024-Ohio-5841.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Procedural History and Facts): the pleadings and lien bond (paragraphs 2-5) and selected bench-trial testimony of both sides (paragraphs 6-8, 11, 15-16, 19-21, 27-31, 34, 39-41, 44), trimmed for length. Removed: paragraph 1 (which states the award), paragraph 45 (the trial court's judgment and amounts), and all appellate analysis; other testimony paragraphs were omitted only for length. Whitespace and page-number artifacts normalized only."
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": "navient-v-bpg-office-partners-2023",
+ "ranAt": "2026-10-20T14:28:31+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   -801579.4500000001,
+   -487805.69999999995
+  ],
+  "bestGuessValue": -644692.575,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    -801579.4500000001,
+    -487805.69999999995
+   ],
+   "claims": [
+    {
+     "claimKey": "property_damage",
+     "label": "Property Damage / Repairs",
+     "probability": [
+      0.7,
+      0.9
+     ],
+     "damagesRange": [
+      654276,
+      736060.5
+     ],
+     "expectedValueRange": [
+      457993.19999999995,
+      662454.4500000001
+     ],
+     "note": "Reduced for a typical 10-20% normal-wear-and-tear haircut.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "quiet_enjoyment_breach",
+     "label": "Breach of Quiet Enjoyment / Constructive Eviction",
+     "probability": [
+      0.4,
+      0.65
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Fact-intensive claim, informed by comparable cases rather than a formula -- see cited cases.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.5962500000000001,
+      0.6956250000000002
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      29812.500000000004,
+      139125.00000000003
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Delaware",
+   "unpaidRentAmount": null,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": 0,
+   "monthlyRent": null,
+   "hasAccelerationClause": null,
+   "hasRelet": null,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": 817845,
+   "selfHelpUsed": null,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": true,
+   "gaveCureNoticeLandlordFailedToAct": null,
+   "depositAmount": null,
+   "depositDisputed": null,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": null,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Not Available",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "Delaware's Landlord-Tenant Code (Title 25) prohibits self-help lockouts, but its detailed provisions and penalties are written for residential rental units. No confirmed commercial-specific wrongful-lockout penalty statute or multiplier was found; treat as actual damages only pending confirmation."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 424172.72,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-04-27",
+  "description": "The Superior Court entered post-trial judgment for Navient in $503,822.72 (the conceded cooling-tower reimbursement) less $79,650 awarded to BPG on its counterclaim ($71,250 to repair 25 non-operational heat pumps and $8,400 to repair two rooftop air units), a net principal of $424,172.72 plus prejudgment interest from March 17, 2020; BPG's transformer and elevator claims failed. Navient was held the prevailing party entitled to its attorneys' fees and expenses under lease section 28(q) (amount not stated). This is the trial-level decision; no appeal is reflected in the source.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none (trial-level post-trial opinion; no appeal in source)",
+  "finalAmount": 424172.72,
+  "finalNote": "Trial-level post-trial opinion; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC and Office Partners XIII Iron Hill LLC",
+  "court": "Superior Court of the State of Delaware (LeGrow, J.)",
+  "docket": "C.A. No. N20C-04-005 AML",
+  "decided": "2023-04-27",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=346910",
+  "excerptNote": "Verbatim sentences from Part I (Background) sections A, B, D and E of the post-trial memorandum opinion and from the parties' post-trial contentions (F.1 and F.2); footnote numerals and page breaks removed and PDF-extraction spacing artifacts (e.g. 'B PG', 't hree') restored to the opinion's words. Omitted: the opinion's introductory summary of the result, Part II (Analysis), the Conclusion, and every sentence stating what the Court found or awarded on the counterclaim or on fees."
+ }
+}

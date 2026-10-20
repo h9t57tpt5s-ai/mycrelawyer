@@ -1,0 +1,79 @@
+{
+ "id": "mdha-v-nashville-downtown-platinum-2017",
+ "ranAt": "2026-10-20T14:35:11+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   2661450,
+   3548600
+  ],
+  "bestGuessValue": 3105025,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    2661450,
+    3548600
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      2661450,
+      3548600
+     ],
+     "expectedValueRange": [
+      2661450,
+      3548600
+     ],
+     "note": "Routine comparable-sales-driven disputes ran ~50-100% above the initial offer in the research sample.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 1774300,
+   "severanceOrBusinessValueDispute": false,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": false,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2032380,
+  "amountIsTheRequestedAmount": false,
+  "date": "2017-12-08",
+  "description": "After an August 2016 de novo jury trial the jury found the fair market value of the Property at the taking was $2,032,380 (the court describes it as $63 per square foot, against MDHA's highest appraisal of $60 and Platinum's $130 per square foot), below the jury of view's $2,306,590 and above MDHA's $1,774,300 deposit; the trial court entered judgment on the verdict, denied a new trial and awarded MDHA discretionary costs. The Tennessee Court of Appeals affirmed on December 8, 2017. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 2032380,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Metropolitan Development and Housing Agency v. Nashville Downtown Platinum, LLC",
+  "court": "Court of Appeals of Tennessee at Nashville, on appeal from the Circuit Court for Davidson County (No. 09C-3638)",
+  "docket": "No. M2017-00450-COA-R3-CV",
+  "decided": "2017-12-08",
+  "url": "https://storage.courtlistener.com/pdf/2017/12/08/metropolitan_development_and_housing_agency_v._nashville_downtown_platinum.pdf",
+  "excerptNote": "Verbatim from Background and Procedural History (purchase, petition and deposit, the imminent CF-to-DTC rezoning, the jury of view's interim award and Platinum's appeal for a de novo jury trial), the description of MDHA's motion in limine against the architect's 40-story drawings and the passage from Platinum's appraiser's report, and footnote 6's statement of each side's appraisal per square foot and the Poe zoning-timing point. Removed: the summary paragraph (verdict 'over $2,000,000'), the sentence stating the jury's verdict, the judgment and new-trial rulings, the court's rulings on every evidentiary issue, the sentences giving the $63-per-square-foot verdict and comparing it to the appraisals, the construal of Poe's testimony as $65 per square foot, footnote markers and the PDF date footer. The opinion never states the parcel's square footage."
+ }
+}

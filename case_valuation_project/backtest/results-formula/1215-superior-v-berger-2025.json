@@ -1,0 +1,75 @@
+{
+ "id": "1215-superior-v-berger-2025",
+ "ranAt": "2026-10-20T14:30:00+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Ohio",
+   "loanBalance": 1258517.92,
+   "foreclosureFiled": false,
+   "foreclosureMethod": null,
+   "borrowerDisputesDefault": false,
+   "lenderAdvances": null,
+   "saleProceeds": null,
+   "courtDeterminedFairValue": null,
+   "receivershipMotionFiled": false,
+   "guarantyTriggerAlleged": false,
+   "guaranteedBalance": 1406387.76,
+   "guarantorAssertsCounterclaimOrOffset": false,
+   "lenderMisconductAlleged": false,
+   "egregiousConductAlleged": null,
+   "lenderLiabilityDamagesClaimed": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "answered-passive",
+   "foreclosureNonJudicialDominant": false,
+   "foreclosureDeficiencyBarredIfNonJudicial": false,
+   "foreclosureDeficiencyConditionalIfNonJudicial": false,
+   "foreclosureDeficiencyBarredForBorrowerButGuarantorAvailable": false,
+   "foreclosureFairValueOffsetApplies": true,
+   "foreclosureProcedureTrap": null,
+   "foreclosureStateCitation": "Ohio Rev. Code \u00a7\u00a7 2329.17, 2329.20",
+   "foreclosureStateNote": "Ohio foreclosure is judicial only (sheriff's sale). No direct fair-market-value credit against the debt like NY/NJ/PA, but an indirect floor: property cannot legally be sold for less than two-thirds of its court-appraised value, which caps how low a credit bid -- and therefore how large a deficiency -- can go."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1510705.93,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-02-27",
+  "description": "The trial court granted the lender summary judgment on the guaranty and forbearance agreements; as corrected on limited remand, the judgment awarded $1,091,479 in outstanding principal and $419,226.93 in interest ($1,510,705.93), plus $36,211.50 in attorney fees and $441.75 in litigation expenses. The Eighth District affirmed, rejecting the lack-of-consideration defense.",
+  "attorneysFeesAtTrial": 36211.5,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 1510705.93,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "1215 Superior, L.L.C. v. Jacob Berger",
+  "court": "Court of Appeals of Ohio, Eighth Appellate District (Cuyahoga County)",
+  "docket": "No. 113882, 2025-Ohio-645 (C.P. No. CV-23-977211)",
+  "decided": "2025-02-27",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-645.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Factual History), the first sentence of Part II describing the complaint, the sentence that the guarantor appeared and answered, and two sentences from Part III stating the guarantor's lack-of-consideration defense. Removed: the opening summary, the sentences reporting the summary judgment, fee award, clerical correction and judgment components, and all appellate analysis and holdings. Note: judgment was entered on summary judgment, not after trial."
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "id": "gsl-investments-v-bella-nails-2026",
+ "ranAt": "2026-10-20T14:26:01+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   235611.39915257943,
+   369408.90708320716
+  ],
+  "bestGuessValue": 302510.15311789326,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    235611.39915257943,
+    369408.90708320716
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      104295.8,
+      104295.8
+     ],
+     "expectedValueRange": [
+      57362.69000000001,
+      78221.85
+     ],
+     "note": "",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "accelerated_rent",
+     "label": "Accelerated / Future Rent",
+     "probability": [
+      0.65,
+      0.9
+     ],
+     "damagesRange": [
+      253124.9371578145,
+      285731.7995368968
+     ],
+     "expectedValueRange": [
+      164531.20915257942,
+      257158.61958320712
+     ],
+     "note": "Discounted to present value using a 5%-9% annual rate range (industry/court practice, not a flat percentage haircut). Net of actual/anticipated replacement-tenant rent.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "property_damage",
+     "label": "Property Damage / Repairs",
+     "probability": [
+      0.7,
+      0.9
+     ],
+     "damagesRange": [
+      2400,
+      2700
+     ],
+     "expectedValueRange": [
+      1680,
+      2430
+     ],
+     "note": "Reduced for a typical 10-20% normal-wear-and-tear haircut.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "wrongful_lockout",
+     "label": "Wrongful Eviction / Unlawful Lockout",
+     "probability": [
+      0.3,
+      0.6
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "No damages amount entered -- probability shown reflects state self-help law and whether statutory process was followed.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.6018749999999999,
+      0.7021875
+     ],
+     "damagesRange": [
+      20000,
+      45000
+     ],
+     "expectedValueRange": [
+      12037.499999999998,
+      31598.4375
+     ],
+     "note": "Posture-tiered flat-dollar estimate (actively contested, resolved on summary judgment) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Ohio",
+   "unpaidRentAmount": 104295.8,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": 78,
+   "monthlyRent": 4298.25,
+   "hasAccelerationClause": "yes",
+   "hasRelet": true,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": 3000,
+   "selfHelpUsed": true,
+   "selfHelpProcessFollowed": "unclear",
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": false,
+   "depositAmount": null,
+   "depositDisputed": false,
+   "landlordProvidedItemization": false,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "contested-msj",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Conditional",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "Ohio's residential anti-self-help statute (Ohio Rev. Code Sec. 5321.15) does NOT apply to commercial tenants (Ohio Rev. Code Ch. 1923 also excludes commercial tenants from its residential eviction provisions). Commercial self-help remains available at common law if the lease authorizes reentry and no breach of the peace occurs, but a landlord who breaches the peace risks substantial common-law constructive-eviction damages -- no statutory multiplier applies to commercial tenancies."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 120128.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-07-27",
+  "description": "On September 4, 2025 the trial court granted the landlord summary judgment for $132,139.24, exactly the sum itemized in the landlord's affidavit ($104,295.80 overdue rent and fees, $3,000 clean-out costs, $12,416.92 prejudgment interest, $12,010.52 attorneys' fees and $416 court costs), plus 8 percent post-judgment interest and collection fees; the amount recorded here is the judgment less the $12,010.52 in attorneys' fees. The Twelfth District affirmed on July 27, 2026, holding the guarantor forfeited his lockout, notarization and phantom-LLC arguments by not opposing the motion.",
+  "attorneysFeesAtTrial": 12010.52,
+  "appellateChange": "affirmed",
+  "finalAmount": 120128.72,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",
+  "court": "Ohio Court of Appeals, Twelfth District, Butler County (appeal from Butler County Court of Common Pleas, Case No. CV 2024 02 0451)",
+  "docket": "CA2025-09-108; 2026-Ohio-2858",
+  "decided": "2026-07-27",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/12/2026/2026-Ohio-2858.pdf",
+  "excerptNote": "Verbatim from Part I (Facts & Procedural History, paragraphs 2-3, 7-9, 12-14, first sentence of 15) plus the tenant's contentions from paragraphs 21 and 27. Removed: the sentence stating the trial court's summary-judgment amount and post-judgment terms (rest of paragraph 15), the trial court's orders striking filings, the Section 21.2 default definition and Section 22 remedies clause, the First Amendment rent table, the base-rent table, and all appellate analysis. Lease-table rows are joined on one line."
+ }
+}

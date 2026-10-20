@@ -1,0 +1,144 @@
+{
+ "id": "lagoon-partners-landmark-2023",
+ "ranAt": "2026-10-20T14:28:12+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   814152.8153034226,
+   1238234.9149607248
+  ],
+  "bestGuessValue": 1026193.8651320736,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    814152.8153034226,
+    1238234.9149607248
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      364212,
+      364212
+     ],
+     "expectedValueRange": [
+      200316.6,
+      273159
+     ],
+     "note": "",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "accelerated_rent",
+     "label": "Accelerated / Future Rent",
+     "probability": [
+      0.65,
+      0.9
+     ],
+     "damagesRange": [
+      924632.6389283425,
+      1034900.322178583
+     ],
+     "expectedValueRange": [
+      601011.2153034227,
+      931410.2899607248
+     ],
+     "note": "Discounted to present value using a 5%-9% annual rate range (industry/court practice, not a flat percentage haircut).",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.64125,
+      0.748125
+     ],
+     "damagesRange": [
+      20000,
+      45000
+     ],
+     "expectedValueRange": [
+      12825,
+      33665.625
+     ],
+     "note": "Posture-tiered flat-dollar estimate (actively contested, resolved on summary judgment) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Minnesota",
+   "unpaidRentAmount": 364212,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": 72,
+   "monthlyRent": 16667,
+   "hasAccelerationClause": "yes",
+   "hasRelet": false,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": null,
+   "selfHelpUsed": false,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": null,
+   "depositAmount": null,
+   "depositDisputed": false,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "contested-msj",
+   "mitigationDuty": "No",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Conditional",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "Minnesota's enhanced wrongful-lockout remedy (Minn. Stat. Sec. 504B.225/504B.231 -- 3x damages or $500, whichever greater, plus attorney's fees; criminal exposure under Sec. 609.606) is confirmed to apply to RESIDENTIAL tenancies only -- Minnesota Statutes Chapter 504B does not govern purely commercial leases. No confirmed commercial-specific statutory enhancement found."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1808470,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-12-11",
+  "description": "The district court granted Lagoon summary judgment in June 2022, held the liquidated-damages clause enforceable so that no mitigation was required, and (after Lagoon waived attorney fees) entered judgment for $1,808,470 plus costs. The Minnesota Court of Appeals reversed on December 11, 2023, holding the liquidated-damages clause unenforceable because actual damages were capable of estimation and the clause ignored the duty to mitigate, and remanded for further proceedings on actual damages and mitigation.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed (liquidated-damages clause unenforceable) and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "Lagoon Partners, LLC v. Silver Cinemas Acquisition Co., d/b/a Landmark Theatres",
+  "court": "Minnesota Court of Appeals",
+  "docket": "A23-0194 (Hennepin County District Court File No. 27-CV-21-11262)",
+  "decided": "2023-12-11",
+  "url": "http://mn.gov/law-library-stat/archive/ctappub/2023/OPa230194-121123.pdf",
+  "excerptNote": "Verbatim sentences from the FACTS section (Lease Agreement, Default, Litigation) through the parties' summary-judgment briefing; the opening description of the theater, the block-quoted termination clause, the scheduling-order sentences, and some executive-order detail were omitted for length. Removed: the syllabus and opening paragraph stating the court's conclusion, the block quote of the statutory-limit liquidated-damages language, the executive-order citations, footnotes, the paragraph describing the district court's summary-judgment order and judgment amount, and all analysis. Lagoon's $1,808,470 demand is retained as a pre-outcome fact."
+ }
+}

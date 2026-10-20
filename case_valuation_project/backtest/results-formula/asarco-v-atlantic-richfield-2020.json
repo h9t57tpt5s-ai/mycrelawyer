@@ -1,0 +1,108 @@
+{
+ "id": "asarco-v-atlantic-richfield-2020",
+ "ranAt": "2026-10-20T14:32:42+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "environmental",
+  "roleLabel": "Property Owner / PRP",
+  "damagesRange": [
+   26736000,
+   110286000
+  ],
+  "bestGuessValue": 68511000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    26736000,
+    110286000
+   ],
+   "claims": [
+    {
+     "claimKey": "cercla_cost_recovery",
+     "label": "CERCLA Cost Recovery",
+     "probability": [
+      0.65,
+      0.85
+     ],
+     "damagesRange": [
+      22280000,
+      66840000
+     ],
+     "expectedValueRange": [
+      14482000,
+      56814000
+     ],
+     "note": "Liability is strict/joint/several once PRP status attaches -- allocation share is the real question, not whether liability exists at all. Because this plaintiff is itself a PRP (owner operator) rather than a qualifying Sec. 107(b) innocent landowner (Advanced Tech. Corp. v. Eliskim, Inc., No. 1:96CV755 (N.D. Ohio 2000)), it is functionally limited to a contribution-style claim -- recovering only the OTHER parties' equitable share, not the full cost -- modeled here in the same range as this category's own CERCLA Contribution claim.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "cercla_contribution_claim",
+     "label": "CERCLA Contribution (PRP vs. PRP)",
+     "probability": [
+      0.55,
+      0.8
+     ],
+     "damagesRange": [
+      22280000,
+      66840000
+     ],
+     "expectedValueRange": [
+      12254000.000000002,
+      53472000
+     ],
+     "note": "Courts apply equitable factors that typically REDUCE a mechanically-calculated share, and an unrecoverable 'orphan share' for defunct/judgment-proof historical operators is common.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "state_cleanup_consent_decree",
+     "label": "State Cleanup Order / Consent Decree",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Benchmark only, not an adversarial probability -- nearly all consent decrees are negotiated.",
+     "isBenchmark": true
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "cleanupCostsIncurred": 111400000,
+   "contaminationScale": "multi-decade/waterway",
+   "innocentLandownerStatus": "owner-operator",
+   "multiplePRPs": true,
+   "stateConsentDecree": true,
+   "insurerDeniedEnvCoverage": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 28850936,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-09-14",
+  "description": "After an eight-day bench trial the district court found ASARCO had incurred $111,403,743 in necessary response costs (the full consent-decree payment) and held Atlantic Richfield liable for 25 percent of them, $27,850,936, adopting the most conservative of ASARCO's expert's allocation strategies (25 to 41 percent) and rejecting Atlantic Richfield's zero allocation; it added a separate $1 million award for Atlantic Richfield's non-cooperation and misrepresentations, so the stated awards total $28,850,936. The Ninth Circuit affirmed the 25 percent allocation (and the unchallenged $1 million award) but vacated the finding that the whole $111.4 million was recoverable now, because about $50 million of trust funds had not been and might never be spent, and remanded to determine which costs were actually incurred. Atlantic Richfield had argued recoverable costs should be limited to about $61.4 million.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "vacated-in-part",
+  "finalAmount": null,
+  "finalNote": "Allocation affirmed; cost base vacated and remanded, so no final figure (25 percent of the remand cost base plus the $1 million award)."
+ },
+ "source": {
+  "caseName": "ASARCO LLC v. Atlantic Richfield Company, LLC",
+  "court": "United States Court of Appeals for the Ninth Circuit, on appeal from the United States District Court for the District of Montana (bench trial)",
+  "docket": "No. 18-35934 (D.C. No. 6:12-cv-00053-DLC)",
+  "decided": "2020-09-14",
+  "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2020/09/14/18-35934.pdf",
+  "excerptNote": "documentText is verbatim from the Ninth Circuit's published opinion (the court's PDF; text taken from the CourtListener mirror of the same file): the opening two sentences, Part I.A-B (site operations, EPA involvement, the settlement payment and its components, the competing remediation-cost estimates), Part I.C through the 2017 remand, the parties' positions on 'incurred' costs recited in Part II.A, and the parties' experts' allocation positions from Part II.B. Removed: the summary; every sentence stating the district court's findings, allocation percentage, award or additional premium; the Ninth Circuit's analysis and holdings; page headers; footnotes other than footnotes 1 and 2 (kept as separate lines). Where a footnote fell inside a sentence the sentence is kept with a line break at that point."
+ }
+}

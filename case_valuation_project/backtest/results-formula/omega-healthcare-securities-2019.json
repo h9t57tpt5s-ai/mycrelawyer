@@ -1,0 +1,62 @@
+{
+ "id": "omega-healthcare-securities-2019",
+ "ranAt": "2026-10-20T14:32:50+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "reit-securities",
+  "roleLabel": "Shareholder / Plaintiff Class",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "stockDropAlleged": true,
+   "estimatedInvestorLosses": null,
+   "hasCriminalConductOrAuditorOrControllingShareholder": false,
+   "boardBreachAlleged": false,
+   "tiedToConcreteSelfDealingTransaction": true,
+   "proxyOmissionAlleged": false,
+   "specificInsiderStakeAlleged": false,
+   "mergerObjection": false,
+   "controllingInsiderSelfDealingInMerger": false,
+   "pslraMotionToDismissStage": true,
+   "scienterPleadingStrength": "circumstantial-moderate"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 30750000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-04-25",
+  "description": "After the district court dismissed the first amended complaint in 2019, the Second Circuit reversed in 2020 (968 F.3d 204), holding the non-disclosure of the working capital loan to the operator actionable and scienter adequately pleaded. On remand the court largely denied a renewed motion to dismiss (Sept. 28, 2021). The parties then settled; the court granted preliminary approval on December 27, 2022, and on April 25, 2023 entered an Order and Final Judgment approving a $30,750,000 cash settlement for the class of Omega securities purchasers (https://storage.courtlistener.com/recap/gov.uscourts.nysd.484014/gov.uscourts.nysd.484014.167.0.pdf). Attorneys' fees were paid out of the settlement fund.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none",
+  "finalAmount": 30750000,
+  "finalNote": "Court-approved class settlement of $30.75 million (S.D.N.Y. Order and Final Judgment, ECF No. 167, April 25, 2023); fees came out of the fund; no appeal of the settlement."
+ },
+ "source": {
+  "caseName": "In re Omega Healthcare Investors, Inc. Securities Litigation",
+  "court": "U.S. District Court for the Southern District of New York (dismissal reversed and remanded by the Second Circuit, Setzer v. Omega Healthcare Investors, Inc., 968 F.3d 204 (2d Cir. 2020))",
+  "docket": "1:17-cv-08983-NRB",
+  "decided": "2019-03-25",
+  "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.484014/gov.uscourts.nysd.484014.62.0.pdf",
+  "outcomeUrl": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.484014/gov.uscourts.nysd.484014.167.0.pdf",
+  "excerptNote": "documentText is verbatim from the court's March 25, 2019 Memorandum and Order on the first motion to dismiss (ECF No. 62): the opening paragraph (minus its final sentence stating the ruling), the entire Background (Parts I-IV), and the sentences in the Discussion that summarize plaintiffs' and defendants' arguments on falsity, materiality and scienter. Removed: the procedural history, the pleading standards, and every sentence stating the court's analysis or conclusions. Footnote text was moved to the end of the source file and page numbers were stripped; inline footnote reference numerals (e.g. 'EBITDAR3') remain as extracted. The settlement amount comes from the Order and Final Judgment (ECF No. 167), not from the excerpt."
+ }
+}

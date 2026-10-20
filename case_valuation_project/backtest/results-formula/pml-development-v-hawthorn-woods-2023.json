@@ -1,0 +1,76 @@
+{
+ "id": "pml-development-v-hawthorn-woods-2023",
+ "ranAt": "2026-10-20T14:31:32+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "zoning-land-use",
+  "roleLabel": "Property Owner / Developer",
+  "damagesRange": [
+   0,
+   0
+  ],
+  "bestGuessValue": 0,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": [
+    {
+     "claimKey": "variance_permit_denial_appeal",
+     "label": "Variance / Permit Denial Appeal",
+     "probability": [
+      0.25,
+      0.45
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Zoning boards get significant judicial deference; reversal requires a clear legal or procedural error.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "varianceOrPermitDenied": true,
+   "spotZoningAlleged": false,
+   "arbitraryOrDiscriminatoryDenialAlleged": false,
+   "vestedRightPlusBadFaith": true,
+   "longPatternShiftingDemands": true,
+   "noNoticeOrHearing": false,
+   "discriminatoryIntentEvidence": false,
+   "lostValueEstimate": null,
+   "developmentAgreementBreached": true
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 5349676.7,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-06-15",
+  "description": "After the November 2020 bench trial the Lake County circuit court found the Village materially breached first and awarded PML $268,223.70 in lost revenue, $4,898,161 in added site-preparation costs and $183,292 in plan-revision costs (total $5,349,676.70), plus $1,571,795.60 in attorney fees and $2,654.74 costs, and entered judgment for PML on the Village's counterclaims. The appellate court vacated all damages (2022). The Illinois Supreme Court on June 15, 2023 reversed the appellate court, affirmed judgment for PML on its breach claim, but reversed on the Village's counterclaims and remanded for the circuit court to calculate the Village's damages, offset them, reconsider fees, and address unresolved challenges to PML's damages.",
+  "attorneysFeesAtTrial": 1571795.6,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Liability for PML affirmed, but remanded to compute the Village's offsetting counterclaim damages, revisit fees and the unaddressed challenges to PML's damages; no final net figure."
+ },
+ "source": {
+  "caseName": "PML Development LLC v. The Village of Hawthorn Woods",
+  "court": "Supreme Court of Illinois, on appeal from the Appellate Court, Second District (2022 IL App (2d) 200779), on appeal from the Circuit Court of Lake County",
+  "docket": "No. 128770; 2023 IL 128770 (circuit court No. 15-CH-848)",
+  "decided": "2023-06-15",
+  "url": "https://storage.courtlistener.com/pdf/2023/06/15/pml_development_llc_v._village_of_hawthorn_woods.pdf",
+  "excerptNote": "Verbatim from the Background, paras. 4-24 (omitting paras. 25-26, the court's colloquy, and all of para. 27 except its first sentence reporting the pretrial partial-summary-judgment ruling) and paras. 28-31 (pretrial and posttrial positions). Removed: paras. 1-2 (procedural history and dispositions), footnote 1 and its marker, para. 32 onward (reopened proofs, the circuit court's findings, its damages and fee awards, the appellate history) and all analysis."
+ }
+}

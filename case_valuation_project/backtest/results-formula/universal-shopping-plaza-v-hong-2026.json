@@ -1,0 +1,108 @@
+{
+ "id": "universal-shopping-plaza-v-hong-2026",
+ "ranAt": "2026-10-20T14:26:17+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   36293.950000000004,
+   49491.75
+  ],
+  "bestGuessValue": 42892.850000000006,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    36293.950000000004,
+    49491.75
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      65989,
+      65989
+     ],
+     "expectedValueRange": [
+      36293.950000000004,
+      49491.75
+     ],
+     "note": "",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "California",
+   "unpaidRentAmount": 65989,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": false,
+   "remainingMonths": null,
+   "monthlyRent": 30625,
+   "hasAccelerationClause": null,
+   "hasRelet": false,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": true,
+   "holdoverMonths": null,
+   "propertyDamageAmount": null,
+   "selfHelpUsed": false,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": null,
+   "gaveCureNoticeLandlordFailedToAct": null,
+   "depositAmount": null,
+   "depositDisputed": null,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": null,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "trial",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Not Available",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "CORRECTED (round-2 research): Cal. Civ. Code Sec. 789.3's $100/day statutory penalty applies, by its own express terms, only to property 'used by a tenant as his or her residence' -- it does not reach commercial tenancies. Commercial self-help lockouts in California are instead governed by the common-law/Code Civ. Proc. Sec. 1159-1161 framework confirmed in Jordan v. Talbot, 55 Cal. 2d 597 (1961): a lease right-of-re-entry clause may be enforced only through judicial process, and a clause purporting to authorize forcible self-help is void as against public policy. That framework yields ACTUAL damages only, not a statutory per-diem penalty."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 189100,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-09",
+  "description": "After a three-day court trial the trial court entered judgment for the landlord on July 3, 2025 awarding possession, $65,989 in past-due rent (the amount demanded in the notice) and $123,111 in holdover damages, $189,100 in total; no fee award is stated in the opinion. The Court of Appeal reversed, holding the three-day notice void because the unpaid rent fell due more than one year before service, and remanded for entry of judgment in favor of the tenant.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": 0,
+  "finalNote": "Reversed: the three-day notice was void, so the landlord takes nothing in this action."
+ },
+ "source": {
+  "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+  "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
+  "docket": "B348490 (Super. Ct. No. 25NNCV01228)",
+  "decided": "2026-09-09",
+  "url": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
+  "excerptNote": "Verbatim from the landlord's contention in the introduction and from Factual and Procedural Background parts A, B and C through the trial testimony. Removed: the sentences stating the trial court's rulings (demurrer, findings, July 3, 2025 judgment), the closing arguments, the introduction's reference to the holdover award, lease paragraph 27.1, footnotes, and all appellate analysis/holdings. One sentence is stitched across a footnote break in the PDF."
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "id": "hall-ca-nv-v-radovan-2022",
+ "ranAt": "2026-10-20T14:28:54+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   1954187.7795,
+   5201866.016899999
+  ],
+  "bestGuessValue": 3578026.8981999997,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    1954187.7795,
+    5201866.016899999
+   ],
+   "claims": [
+    {
+     "claimKey": "guaranty_enforcement",
+     "label": "Guaranty Enforcement",
+     "probability": [
+      0.45,
+      0.7
+     ],
+     "damagesRange": [
+      4305139.51,
+      7318737.166999999
+     ],
+     "expectedValueRange": [
+      1937312.7795,
+      5123116.016899999
+     ],
+     "note": "A counterclaim or offset has been pled against the guaranty, which meaningfully reduces both the odds of full recovery and the likely dollar outcome -- this becomes a genuinely contested fact question rather than a clean carve-out breach.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "lender_liability_claim",
+     "label": "Lender Liability (borrower-asserted)",
+     "probability": [
+      0.1,
+      0.25
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Historically borrower-unfriendly absent clear bad faith; recent real cases trend toward procedural wins rather than dollar outcomes. Damages, if any, are typically limited to contract damages and out-of-pocket costs.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.3375,
+      0.39375000000000004
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      16875,
+      78750.00000000001
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Texas",
+   "loanBalance": 8610279.02,
+   "foreclosureFiled": false,
+   "foreclosureMethod": null,
+   "borrowerDisputesDefault": false,
+   "lenderAdvances": 2000000,
+   "saleProceeds": 38150000,
+   "courtDeterminedFairValue": null,
+   "receivershipMotionFiled": false,
+   "guarantyTriggerAlleged": true,
+   "guaranteedBalance": 8610279.02,
+   "guarantorAssertsCounterclaimOrOffset": true,
+   "lenderMisconductAlleged": true,
+   "egregiousConductAlleged": false,
+   "lenderLiabilityDamagesClaimed": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial",
+   "foreclosureNonJudicialDominant": true,
+   "foreclosureDeficiencyBarredIfNonJudicial": false,
+   "foreclosureDeficiencyConditionalIfNonJudicial": false,
+   "foreclosureDeficiencyBarredForBorrowerButGuarantorAvailable": false,
+   "foreclosureFairValueOffsetApplies": true,
+   "foreclosureProcedureTrap": "Deficiency suit generally must be filed within 2 years of the foreclosure sale.",
+   "foreclosureStateCitation": "Tex. Prop. Code \u00a7\u00a7 51.003\u201351.005",
+   "foreclosureStateNote": "Unlike California, Texas's dominant non-judicial power-of-sale method does NOT waive deficiency rights. Either party may request the court determine the property's fair market value; the sale price is presumed to equal fair market value unless rebutted by competent evidence, in which case the higher fair-value figure controls the deficiency calculation."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 0.0,
+  "amountIsTheRequestedAmount": true,
+  "date": "2022-05-25",
+  "description": "After a bench trial the trial court ruled for the guarantors and ordered that Hall take nothing, finding among other things that Hall's settlement with the contractor Penta materially altered the agreements, that Hall had no damages, and that the guarantors were exculpated and discharged. The Dallas Court of Appeals reversed, held the guarantors had waived their defenses and Hall conclusively proved liability and the amount owed, and rendered judgment that Hall recover $8,610,279.02 plus post-judgment interest.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 8610279.02,
+  "finalNote": "Reversed and rendered for the lender for $8,610,279.02 (the balance it proved at trial). The final judgment equals the lender's stated demand, a pre-outcome fact in the input."
+ },
+ "source": {
+  "caseName": "Hall CA-NV, LLC v. Robert Radovan and William Criswell",
+  "court": "Texas Fifth Court of Appeals (Dallas), on appeal from the 134th Judicial District Court, Dallas County",
+  "docket": "No. 05-19-01412-CV (trial cause No. DC-18-02395)",
+  "decided": "2022-05-25",
+  "url": "https://storage.courtlistener.com/pdf/2022/05/25/hall_ca-nv_llc_v._robert_radovan_and_william_criswell.pdf",
+  "excerptNote": "documentText is verbatim from Part I.a (loan and guaranty agreements) and Part I.b (bankruptcy, litigation and the bench-trial testimony of both sides). Removed: the opening paragraph stating the take-nothing judgment and the appellate conclusion, the subsection headings, Part I.c (the trial court's findings and take-nothing ruling) and all of Part II. The lender's own trial figure ($8,610,279,02 as printed, i.e. its claimed balance) remains because it is the lender's evidence at trial; the court of appeals later rendered judgment for exactly that amount, so outcome.finalAmount equals the lender's demand. Whitespace and page-number artifacts normalized only."
+ }
+}

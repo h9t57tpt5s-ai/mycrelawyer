@@ -1,0 +1,79 @@
+{
+ "id": "state-v-skyway-holdings-2021",
+ "ranAt": "2026-10-20T14:30:36+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   223287,
+   446574
+  ],
+  "bestGuessValue": 334930.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    223287,
+    446574
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      223287,
+      446574
+     ],
+     "expectedValueRange": [
+      223287,
+      446574
+     ],
+     "note": "Severance/access/business-value disputes ran 2x-5x+ above the initial offer in the research sample (one case ~49x).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 74429,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": false,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 508548,
+  "amountIsTheRequestedAmount": true,
+  "date": "2021-03-05",
+  "description": "After a three-day jury trial in October 2018 the jury awarded $508,548 (exactly the owners' appraiser Korman's cost-approach figure and the low end of the owners' requested range), against the State's requested $74,875-$96,206 and the special commissioners' $74,429; judgment was rendered on the verdict. The Austin Court of Appeals affirmed on March 5, 2021, holding Korman's functional-obsolescence testimony admissible and the exclusion of post-taking revenue evidence not reversible. No attorney's fees in a Texas condemnation award.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 508548,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "The State of Texas v. Skyway Holdings LLC and Anderson Auto Salvage a/k/a Anderson Towing Inc.",
+  "court": "Texas Third Court of Appeals (Austin), on appeal from County Court at Law No. 3, Bell County",
+  "docket": "03-19-00143-CV (trial court No. 76172)",
+  "decided": "2021-03-05",
+  "url": "https://storage.courtlistener.com/pdf/2021/03/05/state_v._skyway_holdings_llc_and_anderson_auto_salvage_aka_anderson_1.pdf",
+  "excerptNote": "Verbatim from the Background and from the opinion's descriptions of Korman's appraisal testimony, the State's challenges, and the State's offer of proof. Removed: the opening paragraph (jury award and holding), the jury's deliberation question and the court's answer, the sentence stating the jury's verdict and judgment, the sentence noting Korman's total 'the same amount that the jury awarded', footnotes 1 and 3 and the Hutson footnote marker, the standard of review, and every sentence stating the court's conclusions. The owners' closing request range (whose low end equals the verdict) is retained as a genuine party demand, so amountIsTheRequestedAmount is true. Page numbers removed; whitespace normalized."
+ }
+}

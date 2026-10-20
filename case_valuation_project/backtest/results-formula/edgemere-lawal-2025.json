@@ -1,0 +1,126 @@
+{
+ "id": "edgemere-lawal-2025",
+ "ranAt": "2026-10-20T14:26:54+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   -172050.00000000003,
+   -38800.00000000001
+  ],
+  "bestGuessValue": -105425.00000000001,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    -172050.00000000003,
+    -38800.00000000001
+   ],
+   "claims": [
+    {
+     "claimKey": "property_damage",
+     "label": "Property Damage / Repairs",
+     "probability": [
+      0.7,
+      0.9
+     ],
+     "damagesRange": [
+      4000,
+      4500
+     ],
+     "expectedValueRange": [
+      2800,
+      4050
+     ],
+     "note": "Reduced for a typical 10-20% normal-wear-and-tear haircut.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.7200000000000001,
+      0.8400000000000001
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      36000.00000000001,
+      168000.00000000003
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Texas",
+   "unpaidRentAmount": null,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": 15,
+   "monthlyRent": null,
+   "hasAccelerationClause": null,
+   "hasRelet": false,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": 5000,
+   "selfHelpUsed": false,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": true,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": null,
+   "depositAmount": null,
+   "depositDisputed": true,
+   "landlordProvidedItemization": false,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Available",
+   "wrongfulLockoutRemedyType": "floor",
+   "wrongfulLockoutRemedyValue": 500,
+   "wrongfulLockoutCitation": "Tex. Prop. Code Sec. 93.002/93.003 -- actual damages + greater of one month's rent or $500, plus reasonable attorney's fees and costs."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 83791.8,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-27",
+  "description": "The jury found for the tenant on all claims and the trial court entered judgment for $36,791.80 moving expenses, $42,000 lost profits and $5,000 for the retained security deposit (total $83,791.80), plus $67,000 attorney's fees, interest and costs, and took-nothing on the landlord's rent claim. The court of appeals reversed the constructive-eviction/implied-warranty recovery (no evidence of substantial interference) and rendered judgment that the tenant take nothing on those claims, affirmed the judgment against the landlord on its breach claim and for the tenant on the $5,000 security-deposit claim, and remanded attorney's fees for a new trial.",
+  "attorneysFeesAtTrial": 67000,
+  "appellateChange": "modified to $5,000",
+  "finalAmount": 5000,
+  "finalNote": "Reduced on appeal to the $5,000 security deposit."
+ },
+ "source": {
+  "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",
+  "court": "Court of Appeals of Texas, Eighth District (El Paso)",
+  "docket": "No. 08-24-00092-CV (appeal from 205th District Court, El Paso County, TC# 2020DCV2771)",
+  "decided": "2025-05-27",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=1da0b877-43f9-4d95-99b6-7609f934dace",
+  "excerptNote": "Excerpts from Part I (Factual Background; the 'To summarize' paragraph, the title-company/attorney-retention paragraph and the May 29 letter quotation omitted for length), Part II (Procedural Background) and the parties' contentions quoted in Part IV (Analysis, incl. footnote 5). Removed: the jury's findings and the trial court's final judgment (all award figures), the appellate holdings, the attorney's-fee testimony figure, and the disposition. Whitespace normalized only."
+ }
+}

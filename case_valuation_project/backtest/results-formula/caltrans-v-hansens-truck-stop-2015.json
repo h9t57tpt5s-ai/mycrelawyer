@@ -1,0 +1,79 @@
+{
+ "id": "caltrans-v-hansens-truck-stop-2015",
+ "ranAt": "2026-10-20T14:35:16+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   2352000,
+   4704000
+  ],
+  "bestGuessValue": 3528000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    2352000,
+    4704000
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      2352000,
+      4704000
+     ],
+     "expectedValueRange": [
+      2352000,
+      4704000
+     ],
+     "note": "Severance/access/business-value disputes ran 2x-5x+ above the initial offer in the research sample (one case ~49x).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 784000,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": false,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2533122,
+  "amountIsTheRequestedAmount": false,
+  "date": "2015-04-24",
+  "description": "On February 9, 2011 the Humboldt County jury returned a special verdict of $525,122 for the land and improvements, $300,000 for loss of goodwill, $8,000 for a vegetation easement and about $1.7 million for damages to the remainder; total judgment $2,533,122 exclusive of interest (about 85% of the owners' amended $2.99 million demand and more than three times the State's $784,000 offer). The trial court denied the owners' $345,306 litigation-expense motion; the Court of Appeal vacated that order and remanded on April 24, 2015. The verdict itself was not appealed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "none",
+  "finalAmount": 2533122,
+  "finalNote": "Verdict undisturbed; only the litigation-expense order was vacated and remanded (owners sought $345,306)."
+ },
+ "source": {
+  "caseName": "The People ex rel. California Department of Transportation v. Hansen's Truck Stop, Inc., et al.",
+  "court": "California Court of Appeal, First Appellate District, Division Four, on appeal from Humboldt County Superior Court (No. DR 070923)",
+  "docket": "A133252",
+  "decided": "2015-04-24",
+  "url": "https://storage.courtlistener.com/pdf/2015/04/24/p._ex_rel._ca_dept._transp._v._._hansens_truck_stop.pdf",
+  "excerptNote": "Verbatim from the introduction (the one sentence giving the first statutory offer and demand, and the bifurcation sentences) and Part I, Factual and Procedural Background, through the State's motion to overrule the owners' objection to its partial acceptance. Removed: the introduction's sentences describing the verdict and its ratio to the demand and offer; the sentence itemizing the first $5 million demand (its $2.5 million goodwill component matches the leak guard's rounded form of the $2,533,122 verdict, so the total is kept only from the introduction); the special verdict and judgment sentences; the litigation-expense motion and ruling; the statutory discussion and all holdings; footnotes and markers. The appeal concerned only litigation expenses; the verdict was not disturbed."
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "jmr-construction-v-ear-2015",
+ "ranAt": "2026-10-20T14:34:21+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "construction-defect",
+  "roleLabel": "Owner / Developer",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "California",
+   "contractorDefectAlleged": true,
+   "repairCostEstimate": null,
+   "catastrophicOrLifeSafety": true,
+   "designErrorAlleged": false,
+   "multiplePartiesIndemnityExists": null,
+   "indemnityClauseCoversIndemniteesOwnNegligence": null,
+   "defectTracedToSingleSubcontractor": false,
+   "ownerSettledWithContractorsAfterInsurerPayout": null,
+   "insurerDeniedCoverage": null,
+   "defectCausedBySubcontractorWork": null,
+   "damageExtendsBeyondDefectItself": null,
+   "defectType": "mep-systems",
+   "yearsSinceSubstantialCompletion": null,
+   "differingSiteConditionsAlleged": false,
+   "differingSiteConditionsType": null,
+   "extraCostsFromSiteCondition": null,
+   "constructionIndemnityForm": "intermediate",
+   "constructionIndemnityCitation": "Cal. Civ. Code \u00a7\u00a7 2782, 2782.05, 2783"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 315631,
+  "amountIsTheRequestedAmount": false,
+  "date": "2015-12-30",
+  "description": "After a five-day bench trial (January 2012) the court found for JMR and, after JMR withdrew one claim and adjusted another in its proposed statement of decision, entered judgment on August 14, 2012 for a net $315,631: $29,249 air compressor, $132,168 field overhead for delay, $15,440 field overhead for closeout, $14,244 markup, $60,693 Eichleay home office overhead and $185,730 framing/drywall disruption, less $121,893 retention withheld; EAR took nothing on its cross-complaint. A later order awarded JMR $90,644.07 in section 998 expert fees and found it entitled to attorney fees (amount undetermined) for defending the cross-complaint. On December 30, 2015 the Sixth District affirmed the judgment (Eichleay and modified total cost methods upheld, surety liable) and reversed the expert-fee award as premature.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": "entitlement to fees for defending the cross-complaint found but amount never fixed; $90,644.07 expert-fee award reversed",
+  "appellateChange": "affirmed",
+  "finalAmount": 315631,
+  "finalNote": "Judgment affirmed; expert-fee order reversed and remanded."
+ },
+ "source": {
+  "caseName": "JMR Construction Corp. v. Environmental Assessment and Remediation Management, Inc., and SureTec Insurance Company",
+  "court": "California Court of Appeal, Sixth Appellate District, on appeal from the Superior Court of Monterey County (No. M105497)",
+  "docket": "H039055 (243 Cal.App.4th 571; modified January 28, 2016)",
+  "decided": "2015-12-30",
+  "url": "https://storage.courtlistener.com/pdf/2015/12/30/jmr_construction_v._environmental_assessment_etc..pdf",
+  "excerptNote": "Verbatim from the opening description of the project and the suit (first paragraph and sentences two to four of the second), the Procedural Background's account of the complaint and cross-complaint, Discussion I.A.1-2 (each side's trial testimony and a selection of JMR's documentary evidence), Discussion I.B.1 (JMR's damages evidence, including its experts' figures), and the sentence describing JMR's identical section 998 offers. Removed: the court's net award and every later sentence of the opening, the summary of appellate arguments and holdings, the trial court's April 2012 ruling, the statement of decision's damages components and the judgment, the post-judgment fee and expert-fee orders, the publication footnote, footnotes 2-4 and markers, the first sentence of the second paragraph (its list is split by the publication footnote), the expert's general explanation of baseline scheduling, the whole documentary-evidence section (JMR's 2007-2008 letters and emails to EAR), expert qualifications, part of the bid-review testimony and the description of the modified total cost method, the appellate court's remarks on what it would not summarize, and all analysis. The Eichleay claim amount is not stated anywhere except in the court's award."
+ }
+}

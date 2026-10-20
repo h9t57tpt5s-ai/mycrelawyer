@@ -1,0 +1,109 @@
+{
+ "id": "howard-town-center-v-howard-university-2017",
+ "ranAt": "2026-10-20T14:36:31+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   811250.0000000001,
+   1106250
+  ],
+  "bestGuessValue": 958750,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    811250.0000000001,
+    1106250
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      1475000,
+      1475000
+     ],
+     "expectedValueRange": [
+      811250.0000000001,
+      1106250
+     ],
+     "note": "",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "District of Columbia",
+   "unpaidRentAmount": 1475000,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": null,
+   "monthlyRent": 95016.25,
+   "hasAccelerationClause": null,
+   "hasRelet": null,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": null,
+   "holdoverMonths": null,
+   "propertyDamageAmount": null,
+   "selfHelpUsed": null,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": null,
+   "gaveCureNoticeLandlordFailedToAct": null,
+   "depositAmount": null,
+   "depositDisputed": null,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": null,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "trial",
+   "mitigationDuty": "Unclear",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Not Available",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "Self-help is unavailable to BOTH commercial and residential landlords in the District of Columbia as a matter of settled case law -- Simpson v. Lee, 499 A.2d 889 (D.C. 1985); Mendes v. Johnson, 389 A.2d 781 (D.C. 1978) (Congress's creation of a summary judicial-possession process abrogated the common-law self-help right). Damages for an unlawful eviction are discretionary/case-by-case (no fixed statutory multiplier) -- actual damages plus property damage, at the court's discretion."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1475000,
+  "amountIsTheRequestedAmount": true,
+  "date": "2017-08-14",
+  "description": "After an eight-day bench trial the court entered judgment for the University on its counterclaim and third-party complaint and against the Developer on its claim: the University's termination of the Ground Lease and Development Agreement was effective and a permissible forfeiture of all of the Developer's rights, and the University was awarded damages of $1,475,000 (the unpaid second rent installment, exactly its counterclaim demand), with interest and fees in an amount to be determined on a later submission. The Developer's claimed damages (leasehold $14.4M, delay $4.1M, lost tax abatement $6.2M) were not awarded. No appeal is reflected in the opinion.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "none",
+  "finalAmount": 1475000,
+  "finalNote": "No appeal reflected in the opinion text (subsequent history not otherwise checked). Interest and contractual fees were left to a later submission and are not stated, so attorneysFeesAtTrial is null; the non-monetary forfeiture of the Developer's ground-lease rights is not valued in the amount."
+ },
+ "source": {
+  "caseName": "Howard Town Center Developer, LLC v. Howard University",
+  "court": "U.S. District Court for the District of Columbia (Chief Judge Beryl A. Howell; findings of fact and conclusions of law after an eight-day bench trial)",
+  "docket": "Civil Action No. 13-1075 (BAH)",
+  "decided": "2017-08-14",
+  "url": "https://storage.courtlistener.com/pdf/2017/08/14/howard_town_center_developer_llc_v._howard_university.pdf",
+  "excerptNote": "Verbatim from the opening paragraph (parties, property, posture; the closing 'For the reasons set forth below' sentence removed), Part I.A (both sides' pleaded claims and relief, including the University's counterclaim demand), Part I.B (TRO denial, the D.C. Circuit's vacatur and remand, the remand summary-judgment rulings left for trial), and selected Findings of Fact 1-4, 7-10, 24, 26, 36, 39-40, 46-47, 49, 51, 54, 56-57, 61, 63, 90, 94, 98, 110, 114-115, 117-119, 123 and 126 (ground lease and rent schedule, default/remedy clauses, Development Agreement timetable, escrow, deadline extensions, the four default notices, Term Sheet, final May 30, 2013 deadline, termination, the Closeline deposit, and the Developer's expert damages figures). Removed: the court's conclusion sentences, this Court's December 2013 summary-judgment grant and forfeiture ruling (only the appellate vacatur is kept), the court's characterizations of the Developer's conduct (e.g., 'feigned surprise', 'bluff called', 'bullying tactics'), the credibility assessment, the writ-of-attachment/evasion findings, all of Part III (Conclusions of Law) and Part IV, footnotes and markers, record-citation-only sentences, and page numbers. The University's counterclaim demand equals the award, so amountIsTheRequestedAmount is true (Skyway precedent)."
+ }
+}

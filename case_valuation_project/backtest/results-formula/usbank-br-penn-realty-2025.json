@@ -1,0 +1,97 @@
+{
+ "id": "usbank-br-penn-realty-2025",
+ "ranAt": "2026-10-20T14:27:16+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   39347265.2125,
+   44902173.2425
+  ],
+  "bestGuessValue": 42124719.2275,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    39347265.2125,
+    44902173.2425
+   ],
+   "claims": [
+    {
+     "claimKey": "foreclosure_deficiency_judgment",
+     "label": "Foreclosure / Deficiency Judgment",
+     "probability": [
+      0.85,
+      0.97
+     ],
+     "damagesRange": [
+      46290900.25,
+      46290900.25
+     ],
+     "expectedValueRange": [
+      39347265.2125,
+      44902173.2425
+     ],
+     "note": "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator -- treat this figure as case value, not a collection forecast. Pennsylvania's deficiency-judgment rules were applied (42 Pa. Cons. Stat. \u00a7 8103). Procedural trap to flag: Lender must petition to fix fair market value within 6 months of the sheriff's deed being recorded -- missing the deadline creates a conclusive presumption the judgment debt is fully satisfied, permanently barring any deficiency regardless of the actual shortfall. A fair-value offset applies here (the credit against the debt is the greater of sale proceeds or a court-determined fair value) -- enter a fair-value figure if one has been determined and it exceeds the sale proceeds, which would reduce this deficiency.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Pennsylvania",
+   "loanBalance": 46290900.25,
+   "foreclosureFiled": true,
+   "foreclosureMethod": "judicial",
+   "borrowerDisputesDefault": null,
+   "lenderAdvances": null,
+   "saleProceeds": null,
+   "courtDeterminedFairValue": null,
+   "receivershipMotionFiled": null,
+   "guarantyTriggerAlleged": null,
+   "guaranteedBalance": null,
+   "guarantorAssertsCounterclaimOrOffset": null,
+   "lenderMisconductAlleged": null,
+   "egregiousConductAlleged": null,
+   "lenderLiabilityDamagesClaimed": null,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "trial",
+   "foreclosureNonJudicialDominant": false,
+   "foreclosureDeficiencyBarredIfNonJudicial": false,
+   "foreclosureDeficiencyConditionalIfNonJudicial": false,
+   "foreclosureDeficiencyBarredForBorrowerButGuarantorAvailable": false,
+   "foreclosureFairValueOffsetApplies": true,
+   "foreclosureProcedureTrap": "Lender must petition to fix fair market value within 6 months of the sheriff's deed being recorded -- missing the deadline creates a conclusive presumption the judgment debt is fully satisfied, permanently barring any deficiency regardless of the actual shortfall.",
+   "foreclosureStateCitation": "42 Pa. Cons. Stat. \u00a7 8103",
+   "foreclosureStateNote": "Pennsylvania foreclosure is judicial only (sheriff's sale). The 6-month fair-market-value petition deadline is an unusually hard trap for lenders -- inaction, not a losing argument, is what forfeits the deficiency here."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 51392086.96,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-08",
+  "description": "After a bench trial the district court held Penn Realty breached the loan agreement and entered an in personam money judgment for U.S. Bank of $51,392,086.96 (no judgment in mortgage foreclosure was entered); the Third Circuit affirmed that judgment in a separate unpublished opinion (No. 23-2185, Sept. 25, 2024). In this precedential appeal the Third Circuit upheld the subsequent execution sale of the apartment building under Fed. R. Civ. P. 69(a) and affirmed the denial of the borrower's motion to quash.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 51392086.96,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "US Bank NA, as Trustee for the Registered Holders of J.P. Morgan Chase Commercial Mortgage Securities Corp., Multifamily Mortgage Pass-Through Certificates, Series 2012-K18 v. B R Penn Realty Owner LP",
+  "court": "United States Court of Appeals for the Third Circuit (precedential)",
+  "docket": "No. 24-1108 (appeal from E.D. Pa. No. 2:21-cv-00502)",
+  "decided": "2025-05-08",
+  "url": "https://www2.ca3.uscourts.gov/opinarch/241108p.pdf",
+  "excerptNote": "Excerpts from Part I (Background) with footnotes 1 and 4, the Pennsylvania loan/mortgage primer in Part III.A, and the description of the complaint's in personam demand. Removed: the sentence stating the bench-trial result and money-judgment amount, the '$51 million' characterization, the affirmance of that judgment in the separate appeal, and everything about the execution sale and this appeal's holdings. Note: this opinion concerns the post-judgment execution sale, so the borrower's defenses at trial are not described; pre-outcome facts are thin. Whitespace normalized; PDF spacing artifacts and footnote markers removed."
+ }
+}

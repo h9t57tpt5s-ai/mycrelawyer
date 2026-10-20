@@ -1,0 +1,174 @@
+{
+ "id": "mckinney-v-park-plaza-properties-2026",
+ "ranAt": "2026-10-20T14:26:24+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   151979.0256,
+   242673.23335
+  ],
+  "bestGuessValue": 197326.129475,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    151979.0256,
+    242673.23335
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      45736.45,
+      45736.45
+     ],
+     "expectedValueRange": [
+      25155.0475,
+      34302.337499999994
+     ],
+     "note": "",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "releasing_mitigation_costs",
+     "label": "Re-Leasing / Mitigation Costs",
+     "probability": [
+      0.6,
+      0.85
+     ],
+     "damagesRange": [
+      122210.96,
+      143777.6
+     ],
+     "expectedValueRange": [
+      73326.576,
+      122210.96
+     ],
+     "note": "Landlord's work, tenant-improvement allowances, and leasing commissions incurred to re-lease the space -- usually actual, invoiced costs, so recovery tends to run close to the amount claimed.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "property_damage",
+     "label": "Property Damage / Repairs",
+     "probability": [
+      0.7,
+      0.9
+     ],
+     "damagesRange": [
+      86225.528,
+      97003.71900000001
+     ],
+     "expectedValueRange": [
+      60357.8696,
+      87303.34710000001
+     ],
+     "note": "Reduced for a typical 10-20% normal-wear-and-tear haircut.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "quiet_enjoyment_breach",
+     "label": "Breach of Quiet Enjoyment / Constructive Eviction",
+     "probability": [
+      0.4,
+      0.65
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Fact-intensive claim, informed by comparable cases rather than a formula -- see cited cases.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "implied_warranty_of_suitability_breach",
+     "label": "Breach of Implied Warranty of Suitability",
+     "probability": [
+      0.05,
+      0.15
+     ],
+     "damagesRange": [
+      22868.225,
+      45736.45
+     ],
+     "expectedValueRange": [
+      1143.4112499999999,
+      6860.4675
+     ],
+     "note": "Arkansas follows the majority \"caveat lessee\" rule for commercial tenancies -- courts have generally declined to extend the residential implied warranty of habitability to commercial leases (commercial tenants are treated as sophisticated parties expected to negotiate their own express repair/condition covenants). Texas's implied warranty of SUITABILITY (a distinct, narrower doctrine -- Davidow v. Inwood North Professional Group-Phase I, 747 S.W.2d 373 (Tex. 1988)) is the only jurisdiction confirmed here to recognize an implied-warranty theory for commercial premises at all. Absent confirmed recognition of an implied warranty in this state, treat this theory as a longshot and look instead to the lease's own express repair/maintenance covenants and the Breach of Quiet Enjoyment claim above. If breach is found, recovery (or the amount of rent excused) tends to track close to the amount actually withheld or spent, since it's usually a dollar-for-dollar rent abatement or an invoiced repair cost -- discounted here only for the chance a court finds the premises only partially unsuitable. No citation-backed damages ratio identified beyond that; treat the low end as a modeling heuristic.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Arkansas",
+   "unpaidRentAmount": 45736.45,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": null,
+   "monthlyRent": 2355.01,
+   "hasAccelerationClause": null,
+   "hasRelet": true,
+   "reletRentAmount": 143777.6,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": 107781.91,
+   "selfHelpUsed": false,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": true,
+   "gaveCureNoticeLandlordFailedToAct": false,
+   "depositAmount": null,
+   "depositDisputed": null,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": 143777.6,
+   "impliedWarrantyOfSuitabilityAlleged": true,
+   "suitabilityWarrantyWaivedByLease": "no",
+   "suitabilityRepairCostOrRentWithheld": 45736.45,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "trial",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": true,
+   "selfHelpAvailable": "Not Available",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "Self-help is prohibited entirely for Arkansas commercial landlords (judicial process required). No commercial-specific wrongful-lockout penalty statute was confirmed. Note: Ark. Code Ann. Sec. 18-60-309's 'three times the rental value' liquidated-damages figure for commercial/mixed-use property runs the OTHER direction -- it compensates a LANDLORD against a holdover tenant in an unlawful-detainer action, not a tenant's claim against a landlord for wrongful lockout -- so it should not be applied here."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 51336.45,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-02",
+  "description": "After a bench trial the circuit court found the lease effective date was modified to May 1, 2022, that the landlord did not breach and the tenants did, and entered judgment against the tenants and guarantors jointly and severally for $51,336.45 (back rent of $45,736.45 plus $5,600 demolition costs, each equal to the component the landlord requested), declining the $107,781.91 landlord's-work and $143,777.60 reletting-cost claims; no attorney's fees are mentioned. The court of appeals affirmed the judgment on direct appeal and, on cross-appeal, reversed the denial of reletting costs and remanded for findings on whether the $143,777.60 qualifies as reasonable reletting costs under the lease.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 51336.45,
+  "finalNote": "Affirmed; the denial of reletting costs was reversed on cross-appeal and remanded, so the final total could rise."
+ },
+ "source": {
+  "caseName": "Shayne McKinney v. Park Plaza Properties, LLC",
+  "court": "Arkansas Court of Appeals, Division IV, on appeal from Sebastian County Circuit Court, Fort Smith District",
+  "docket": "No. CV-25-361 (circuit court No. 66FCV-22-1104)",
+  "decided": "2026-09-02",
+  "url": "https://opinions.arcourts.gov/ark/courtofappeals/en/524547/1/document.do",
+  "excerptNote": "Verbatim from Part I (Facts and Procedural History), from formation of the tenant entity through the trial testimony of the landlord's owner and the tenant's principal and flooring contractor. Removed: the introduction stating the judgment amount, the circuit court's rationale for dismissing the alternative counts, the testimony of the architect, project manager and framing contractor (for length), the paragraphs stating the circuit court's post-trial findings and award, and all appellate analysis/holdings. The dollar figures that remain are the landlord's claimed damage components and the lease rent."
+ }
+}

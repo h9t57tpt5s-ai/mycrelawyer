@@ -1,0 +1,78 @@
+{
+ "id": "pilot-travel-centers-v-womack-2024",
+ "ranAt": "2026-10-20T14:32:08+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Mississippi",
+   "medicalSpecialsIncurred": null,
+   "lostWagesClaimed": null,
+   "injurySeverity": "severe",
+   "slipAndFallAlleged": true,
+   "hazardNoticeProven": "yes",
+   "selfServiceModeOfOperationApplicable": null,
+   "inadequateSecurityAlleged": false,
+   "priorSimilarCrimeIncidents": null,
+   "structuralFailureAlleged": false,
+   "failureToWarnAlleged": true,
+   "openAndObviousDefenseRaised": false,
+   "plaintiffComparativeFaultPercent": null,
+   "egregiousConductAllegedForPunitives": false,
+   "premisesFaultRule": "Pure Comparative",
+   "premisesFaultRuleCitation": "Miss. Code \u00a7 11-7-15",
+   "premisesPunitiveDamagesStandard": "Clear and Convincing Evidence -- Miss. Code \u00a7 11-1-65",
+   "premisesPunitiveDamagesCap": "Tiered cap based on the defendant's net worth, ranging from $20 million down to $2 million as net worth decreases (small businesses/individuals below a statutory net-worth floor may face no cap at all in some formulations) -- Miss. Code \u00a7 11-1-65(3)(a)",
+   "premisesOpenAndObviousDoctrine": "Comparative-Fault-Factor-Only",
+   "premisesOpenAndObviousRule": "Comparative-Fault-Factor-Only",
+   "premisesOpenAndObviousCitation": "Tharp v. Bunge Corp., 641 So. 2d 20 (Miss. 1994)",
+   "premisesNegligentSecurityTest": "Specific Harm Rule (\"atmosphere of violence\" test)",
+   "premisesNegligentSecurityTestNormalized": "Specific Harm Rule",
+   "premisesNegligentSecurityCitation": "Gatewood v. Sampson, 812 So. 2d 212 (Miss. 2002)",
+   "premisesModeOfOperationAdopted": false,
+   "premisesModeOfOperationCitation": "Wal-Mart Stores, Inc. v. Littleton, 822 So. 2d 1024 (Miss. 2002) (declining to treat store as insurer; requiring proof beyond mere occurrence of harm)",
+   "premisesLiabilityDistinct": false,
+   "premisesLiabilityDistinctNote": "Mississippi does not enforce a rigid Keetch-style separation between a 'condition' claim and an 'activity' claim; premises cases are analyzed within the traditional status-based negligence framework rather than as a wholly separate cause of action requiring an election of theories."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1393000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-12-17",
+  "description": "The jury found the defendants' negligence the sole proximate cause of the fall and awarded $393,000 in economic damages (past and future medical expenses) and $3,000,000 in noneconomic damages. The circuit court reduced the noneconomic award to the $1,000,000 statutory cap (Miss. Code Ann. 11-1-60(2)(b)), entering an amended final judgment for $1,393,000, and denied JNOV or new trial. The Court of Appeals of Mississippi, en banc, affirmed on December 17, 2024, rejecting the dangerous-condition, notice, expert and further-remittitur arguments. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 1393000,
+  "finalNote": "Affirmed at the capped $1,393,000."
+ },
+ "source": {
+  "caseName": "Pilot Travel Centers, LLC and Gina Franklin, Individually v. Willa Womack",
+  "court": "Court of Appeals of Mississippi (en banc), on appeal from the Circuit Court of Hinds County, First Judicial District",
+  "docket": "2023-CA-00035-COA",
+  "decided": "2024-12-17",
+  "url": "https://courts.ms.gov/images/Opinions/CO180911.pdf",
+  "excerptNote": "Verbatim from the FACTS (paragraphs 3-5), the defendants' contentions on dangerous condition and notice (paragraphs 8, 15, 18), record facts about the general manager, the vestibule doors and the video recited in paragraphs 21-23, and the orthopedic evidence and pretrial motion practice in paragraphs 32-38. Removed: paragraphs 1-2 and 6 (verdict, statutory reduction, judgment, post-trial motions), all standard-of-review and case-law discussion, the court's analysis and holdings, the expert-qualification rulings, and the damages-remittitur section (paragraphs 46-51, whose only medical-expense figure is stated together with the jury's award)."
+ }
+}

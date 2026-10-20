@@ -1,0 +1,96 @@
+{
+ "id": "exxon-mobil-v-united-states-2020",
+ "ranAt": "2026-10-20T14:32:36+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "environmental",
+  "roleLabel": "Property Owner / PRP",
+  "damagesRange": [
+   18480000,
+   76230000
+  ],
+  "bestGuessValue": 47355000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    18480000,
+    76230000
+   ],
+   "claims": [
+    {
+     "claimKey": "cercla_cost_recovery",
+     "label": "CERCLA Cost Recovery",
+     "probability": [
+      0.65,
+      0.85
+     ],
+     "damagesRange": [
+      15400000,
+      46200000
+     ],
+     "expectedValueRange": [
+      10010000,
+      39270000
+     ],
+     "note": "Liability is strict/joint/several once PRP status attaches -- allocation share is the real question, not whether liability exists at all. Because this plaintiff is itself a PRP (owner operator) rather than a qualifying Sec. 107(b) innocent landowner (Advanced Tech. Corp. v. Eliskim, Inc., No. 1:96CV755 (N.D. Ohio 2000)), it is functionally limited to a contribution-style claim -- recovering only the OTHER parties' equitable share, not the full cost -- modeled here in the same range as this category's own CERCLA Contribution claim.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "cercla_contribution_claim",
+     "label": "CERCLA Contribution (PRP vs. PRP)",
+     "probability": [
+      0.55,
+      0.8
+     ],
+     "damagesRange": [
+      15400000,
+      46200000
+     ],
+     "expectedValueRange": [
+      8470000,
+      36960000
+     ],
+     "note": "Courts apply equitable factors that typically REDUCE a mechanically-calculated share, and an unrecoverable 'orphan share' for defunct/judgment-proof historical operators is common.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "cleanupCostsIncurred": 77000000,
+   "contaminationScale": "multi-decade/waterway",
+   "innocentLandownerStatus": "owner-operator",
+   "multiplePRPs": true,
+   "stateConsentDecree": false,
+   "insurerDeniedEnvCoverage": false
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 20328670,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-09-16",
+  "description": "After a 14-day bench trial the court allocated to the United States 24.67% of past response costs at the Baytown refinery ($45,567,403 in stipulated past costs), 36.54% at the Baytown Ordnance Works/Tankfarm 3000 Area ($5,481,340) and 14.4% at the Baton Rouge refinery ($26,046,130), compared with Exxon's proposed 29.67%, 36.54% and 19.4% and the government's proposed 2.36%, 1.86% and 0.46%. It held no offset for Exxon's roughly $269 million insurance settlement was warranted because there was no double recovery, and declared the same shares apply to future costs. The total damage award in Exxon's favor was $20,328,670, which is $16,994,815 in allocated past costs plus $3,333,855 in accrued prejudgment interest. The outcome amount is that stated total, interest included.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none",
+  "finalAmount": null,
+  "finalNote": "Trial judgment; appeal status could not be verified, so the final figure is pending."
+ },
+ "source": {
+  "caseName": "Exxon Mobil Corporation v. United States of America (consolidated Nos. H-10-2386 and H-11-1814)",
+  "court": "United States District Court for the Southern District of Texas, Houston Division (bench trial; amended findings of fact and conclusions of law)",
+  "docket": "4:10-cv-02386 and 4:11-cv-01814 (Docket Entry No. 350)",
+  "decided": "2020-09-16",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-txsd-4_10-cv-02386/pdf/USCOURTS-txsd-4_10-cv-02386-7.pdf",
+  "excerptNote": "documentText is verbatim from the court's own opinion as published on govinfo.gov: Part I (introduction, the $77 million past-cost claim, the 2015 and 2018 pretrial rulings, the Phase 3 stipulations), and the parts of Part II that recite the parties' competing positions (war versus commercial products, each side's proposed allocation percentages, the government's nexus argument, and the insurance-offset dispute including Exxon's statement of its claimed past costs). Removed: the opening summary of the court's allocation and total award; every sentence stating a finding of fact, credibility finding, the court's allocation analysis and percentages, cost figures stated only in the court's allocation, and its conclusions of law; witness lists; footnotes and page headers (a line break marks where a page header fell inside a sentence)."
+ }
+}

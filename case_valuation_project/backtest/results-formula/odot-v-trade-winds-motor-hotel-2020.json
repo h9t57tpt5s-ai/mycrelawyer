@@ -1,0 +1,79 @@
+{
+ "id": "odot-v-trade-winds-motor-hotel-2020",
+ "ranAt": "2026-10-20T14:30:55+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   2541000,
+   5082000
+  ],
+  "bestGuessValue": 3811500,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    2541000,
+    5082000
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      2541000,
+      5082000
+     ],
+     "expectedValueRange": [
+      2541000,
+      5082000
+     ],
+     "note": "Severance/access/business-value disputes ran 2x-5x+ above the initial offer in the research sample (one case ~49x).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 847000,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": null,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 340000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-07-23",
+  "description": "At the February 2018 trial the Tulsa County jury returned a verdict of $340,000 for TWE (ODOT's evidence: about $126,250; TWE's: $1,003,000), and the court entered judgment for ODOT for $420,000 of withdrawn deposit in excess of the verdict. The Court of Civil Appeals vacated the judgment and remanded on July 23, 2020 (mandate March 2021), holding the exclusion of the water-damage evidence was reversible error.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Vacated and remanded for a new trial; no final figure."
+ },
+ "source": {
+  "caseName": "State of Oklahoma ex rel. Department of Transportation v. Trade Winds Motor Hotel East, Inc., et al.",
+  "court": "Court of Civil Appeals of the State of Oklahoma, Division IV, on appeal from the District Court of Tulsa County",
+  "docket": "No. 117,756; 2021 OK CIV APP 6, 484 P.3d 301",
+  "decided": "2020-07-23",
+  "url": "https://storage.courtlistener.com/html/2020/07/23/state_ex_rel._dept._of_transportation_v._trade_winds_motor_hotel_east_5.html",
+  "excerptNote": "Verbatim from the Background, paras. 2-17 (paragraph numbers retained as they appear in the source). Removed: para. 1 (disposition), para. 18 (jury verdict, judgment and refund judgment), para. 19 (post-trial rulings), and all analysis; inline footnote-reference numerals stripped from nine words; footnote texts not included. Also available on OSCN as 2021 OK CIV APP 6."
+ }
+}

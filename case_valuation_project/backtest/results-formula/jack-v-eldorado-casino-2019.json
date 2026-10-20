@@ -1,0 +1,78 @@
+{
+ "id": "jack-v-eldorado-casino-2019",
+ "ranAt": "2026-10-20T14:32:01+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Louisiana",
+   "medicalSpecialsIncurred": null,
+   "lostWagesClaimed": null,
+   "injurySeverity": "severe",
+   "slipAndFallAlleged": false,
+   "hazardNoticeProven": null,
+   "selfServiceModeOfOperationApplicable": null,
+   "inadequateSecurityAlleged": false,
+   "priorSimilarCrimeIncidents": null,
+   "structuralFailureAlleged": false,
+   "failureToWarnAlleged": false,
+   "openAndObviousDefenseRaised": null,
+   "plaintiffComparativeFaultPercent": null,
+   "egregiousConductAllegedForPunitives": false,
+   "premisesFaultRule": "Modified Comparative (51% Bar)",
+   "premisesFaultRuleCitation": "La. Civ. Code art. 2323",
+   "premisesPunitiveDamagesStandard": "STATUTE-ONLY -- punitive damages are generally UNAVAILABLE in Louisiana absent a specific enabling statute (e.g., certain drunk-driving or product-defect claims); an ordinary negligence-based premises-liability claim will typically not support punitive damages at all.",
+   "premisesPunitiveDamagesCap": "Not generally applicable given the statute-only availability rule above.",
+   "premisesOpenAndObviousDoctrine": "Comparative-Fault-Factor-Only",
+   "premisesOpenAndObviousRule": "Comparative-Fault-Factor-Only",
+   "premisesOpenAndObviousCitation": null,
+   "premisesNegligentSecurityTest": "Balancing Test (e.g. Ann M.)",
+   "premisesNegligentSecurityTestNormalized": "Balancing Test",
+   "premisesNegligentSecurityCitation": "Posecai v. Wal-Mart Stores, Inc., 752 So. 2d 762 (La. 1999)",
+   "premisesModeOfOperationAdopted": false,
+   "premisesModeOfOperationCitation": "La. R.S. 9:2800.6",
+   "premisesLiabilityDistinct": true,
+   "premisesLiabilityDistinctNote": "Louisiana's Civil Code creates a codified custodial-liability regime for 'things' and buildings (arts. 2317, 2317.1, 2322) that is analytically distinct from the general negligence article (art. 2315), imposing specific notice and 'ruin/vice/defect' elements not required for an ordinary negligent-activity claim; both, however, are folded into the same overall duty-risk analysis rather than existing as wholly separate torts."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1429928.7,
+  "amountIsTheRequestedAmount": false,
+  "date": "2019-01-16",
+  "description": "A unanimous jury assessed 100% of the fault to the casino's server (none to the unknown patron) and awarded $237,124.79 past medical, $577,698 future medical, $51,646 past lost wages, $317,460 future lost wages, $235,000 in general damages across pain, mental anguish and loss of enjoyment categories, and $1,000 scarring. The trial court entered judgment for $1,429,928.70 (the appellate court notes the items actually sum to $1,429,928.79) and denied JNOV, including the request to reduce past medicals by insurer write-offs. The Second Circuit affirmed on January 16, 2019. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 1429928.7,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Yasheka Jack v. Eldorado Casino Shreveport Joint Venture, L.L.C., Eldorado Shreveport #1, L.L.C. and Eldorado Shreveport #2, L.L.C.",
+  "court": "Louisiana Court of Appeal, Second Circuit, on appeal from the First Judicial District Court, Caddo Parish (No. 580048)",
+  "docket": "52,454-CA",
+  "decided": "2019-01-16",
+  "url": "https://www.la2nd.org/wp-content/uploads/2022/09/52454ca.pdf",
+  "excerptNote": "Verbatim from Facts and Procedural History and the 'Overview of relevant testimony' subsections on fault and on future lost wages (both sides' lay, medical, vocational and economic witnesses), trimmed for length to selected paragraphs. Removed: the opening paragraph (states the disposition), the jury's findings and itemized award, the judgment total and its footnote, the JNOV ruling, the statements of assignments of error, and every Analysis subsection and holding."
+ }
+}

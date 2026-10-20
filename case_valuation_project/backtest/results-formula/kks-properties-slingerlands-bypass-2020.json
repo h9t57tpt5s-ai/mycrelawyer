@@ -1,0 +1,57 @@
+{
+ "id": "kks-properties-slingerlands-bypass-2020",
+ "ranAt": "2026-10-20T14:31:18+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": null,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": false,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 744500,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-10-29",
+  "description": "After a four-day January 2018 trial the Court of Claims credited the State's appraiser (with its own adjustments, preappropriation value $52,339 per acre or $1,662,810), found the western remainder's post-taking highest and best use was multifamily residential, and awarded KKS $744,500 in direct and consequential damages. The Third Department affirmed the amended judgment on October 29, 2020. (An earlier award of $532,000 had been reversed in 2014.)",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 744500,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Matter of Acquisition of Real Property by the State of New York (KKS Properties, LLC, claimant)",
+  "court": "Supreme Court of the State of New York, Appellate Division, Third Department, on appeal from the Court of Claims",
+  "docket": "529374; 2020 NY Slip Op 06185",
+  "decided": "2020-10-29",
+  "url": "https://storage.courtlistener.com/html/2020/10/29/matter_of_acquisition_of_real_prop._by_the_state_of_new_york.html",
+  "excerptNote": "Verbatim from the background (property, 2006 appropriation, prior proceedings) and the decision's descriptions of the parties' trial evidence (both appraisers' preappropriation valuations, the State appraiser's post-taking multifamily testimony, the claimant's access argument and engineer's opinion). Removed: the sentence reporting the first trial's award (reversed in 2014), the sentence reporting the 2018 award, the Court of Claims' findings (its own per-acre value and treatment of each appraisal), footnotes and all appellate reasoning. Two sentences are cut at a semicolon before the court's evaluation of them (the cut is marked by a period), so their second halves are omitted. The decision does not state either appraiser's after-taking value or damages total. Official reporter copy: 2020 NY Slip Op 06185."
+ }
+}

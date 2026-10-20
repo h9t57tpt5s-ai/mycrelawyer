@@ -1,0 +1,78 @@
+{
+ "id": "wheeler-reit-khoshaba-2024",
+ "ranAt": "2026-10-20T14:32:57+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "reit-securities",
+  "roleLabel": "Shareholder / Plaintiff Class",
+  "damagesRange": [
+   0,
+   0
+  ],
+  "bestGuessValue": 0,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": [
+    {
+     "claimKey": "breach_fiduciary_duty_derivative",
+     "label": "Breach of Fiduciary Duty (Derivative)",
+     "probability": [
+      0.55,
+      0.8
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Tied to a concrete, quantifiable self-dealing transaction -- real recoveries in this pattern ran $15M-$90M.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "stockDropAlleged": true,
+   "estimatedInvestorLosses": null,
+   "hasCriminalConductOrAuditorOrControllingShareholder": false,
+   "boardBreachAlleged": true,
+   "tiedToConcreteSelfDealingTransaction": true,
+   "proxyOmissionAlleged": false,
+   "specificInsiderStakeAlleged": true,
+   "mergerObjection": false,
+   "controllingInsiderSelfDealingInMerger": false,
+   "pslraMotionToDismissStage": false,
+   "scienterPleadingStrength": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 7125000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-04-01",
+  "description": "After the court's September 13, 2024 ruling on the motions to dismiss, discovery proceeded and the plaintiff moved for class certification in July 2025. The parties reached a settlement in principle on August 20, 2025. In a Memorandum Opinion of November 25, 2025 (ECF No. 99, https://storage.courtlistener.com/recap/gov.uscourts.vaed.552123/gov.uscourts.vaed.552123.99.0.pdf) the court certified a settlement class of holders of Wheeler common stock as of August 16, 2021 and purchasers from August 16, 2021 through September 20, 2023, and preliminarily approved a settlement under which defendants pay $7.125 million for release of all claims. After a fairness hearing on March 31, 2026, the court entered its Final Judgment Approving Class Action Settlement on April 1, 2026 (ECF No. 113) and on April 6, 2026 awarded attorneys' fees and expenses out of the fund (counsel had sought up to 28% plus up to $665,000 in expenses).",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none",
+  "finalAmount": 7125000,
+  "finalNote": "Court-approved class settlement of $7.125 million (preliminary approval opinion Nov. 25, 2025; final judgment Apr. 1, 2026); fees paid from the fund; no appeal."
+ },
+ "source": {
+  "caseName": "Khoshaba v. Stilwell (Wheeler Real Estate Investment Trust stockholder class action)",
+  "court": "U.S. District Court for the Eastern District of Virginia, Norfolk Division",
+  "docket": "2:24-cv-00237-MSD-DEM",
+  "decided": "2024-09-13",
+  "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.552123/gov.uscourts.vaed.552123.40.0.pdf",
+  "outcomeUrl": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.552123/gov.uscourts.vaed.552123.99.0.pdf",
+  "excerptNote": "documentText is verbatim from the court's September 13, 2024 Opinion and Order on the defendants' motions to dismiss (ECF No. 40): most of Part I (Background, sections A-F and the description of the three counts and relief sought), plus the sentences in Part III that summarize the Individual Defendants' arguments (direct vs. derivative harm, business judgment rule, charter exculpation, unjust enrichment) and the plaintiff's response on the business judgment rule. Removed: the opening paragraph's ruling, parts of the proxy-fight history, individual note-purchase figures for three directors, the plaintiff's tenure as CEO, the Exchange Offer's terms, the August 2023 Form 10-Q quotation, the injunctive relief sought, several of the plaintiff's letters to the board, the Stilwell ownership-limit agreement paragraph, the procedural history, legal standards, and every sentence of the court's analysis or rulings (including which claims were dismissed). The PDF is a scanned image; the source file is its OCR text layer re-ordered by word position, with page headers removed and footnotes moved to the end; OCR artifacts (e.g. stray '//', 'u', 'tt' for quotation marks) are left exactly as extracted. The settlement amount comes from the court's November 25, 2025 Memorandum Opinion granting preliminary approval (ECF No. 99) and the April 1, 2026 final judgment, not from the excerpt."
+ }
+}

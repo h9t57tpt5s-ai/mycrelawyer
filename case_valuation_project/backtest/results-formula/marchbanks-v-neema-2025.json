@@ -1,0 +1,79 @@
+{
+ "id": "marchbanks-v-neema-2025",
+ "ranAt": "2026-10-20T14:36:03+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   142425,
+   284850
+  ],
+  "bestGuessValue": 213637.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    142425,
+    284850
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      142425,
+      284850
+     ],
+     "expectedValueRange": [
+      142425,
+      284850
+     ],
+     "note": "Severance/access/business-value disputes ran 2x-5x+ above the initial offer in the research sample (one case ~49x).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 47475,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": false,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 452020,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-03-07",
+  "description": "The jury awarded Neema $452,020: $19,500 for the 0.2447 acre taken, $38,000 for improvements taken, $520 for the temporary easements and $394,000 damage to the residue (against ODOT's $47,475 deposit and its appraiser's $46,090), and the Erie County Court of Common Pleas entered judgment on February 6, 2024. The Sixth District affirmed on March 7, 2025, holding the owner's appraiser could value the two tax parcels separately and that his residue damages were not shown to rest on the non-compensable stop-sign removal.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 452020,
+  "finalNote": "Affirmed. Verified against paragraphs 1 and 39. The opinion never states the owner's appraiser's total compensation as one figure (only his $1,518,000 before value and components), so the verdict cannot be compared to it; the owner's own opinion was a decrease of about $500,000."
+ },
+ "source": {
+  "caseName": "Marchbanks v. Neema, L.L.C.",
+  "court": "Court of Appeals of Ohio, Sixth Appellate District (Erie County), on appeal from the Erie County Court of Common Pleas",
+  "docket": "No. E-24-010, 2025-Ohio-777 (trial court No. 2022 CV 0397)",
+  "decided": "2025-03-07",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/6/2025/2025-Ohio-777.pdf",
+  "excerptNote": "Verbatim paragraphs 2-38 of the Facts and Procedural History (the project and parcels, ODOT's deposit, the motion in limine and voir dire request, the owner representative's testimony, the owner's appraiser Kumler, ODOT's traffic engineer Balsamo and appraiser Farmer), each paragraph whole. Removed: paragraph 1 (the verdict total and the holding), paragraph 39 (the jury's itemized award and total), paragraph 40 onward (assignments of error and all analysis), the {\u00b6 n} paragraph numbers, page numbers and the caption. Also removed: Kumler's indented quotation of his report in paragraph 21 (two sentences), because the PDF page number falls between its introduction and the quote so it cannot be matched without a trim; its substance (corner parcel reduced to interior parcel, inhibited circulation) is in paragraphs 15, 21 and 22."
+ }
+}

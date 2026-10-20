@@ -1,0 +1,79 @@
+{
+ "id": "morale-v-state-texas-2018",
+ "ranAt": "2026-10-20T14:35:28+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   149412,
+   298824
+  ],
+  "bestGuessValue": 224118,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    149412,
+    298824
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      149412,
+      298824
+     ],
+     "expectedValueRange": [
+      149412,
+      298824
+     ],
+     "note": "Severance/access/business-value disputes ran 2x-5x+ above the initial offer in the research sample (one case ~49x).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 49804,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": null,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1064335,
+  "amountIsTheRequestedAmount": true,
+  "date": "2018-06-22",
+  "description": "The jury awarded $1,064,335, exactly the owners' appraiser Bolton's non-displaced compensation figure (the owners had requested $1,262,000; the State's appraiser said $122,953; the commissioners had awarded $49,804), and the trial court rendered judgment essentially on the verdict ($1,064,355, an unexplained $20 discrepancy). The Fort Worth Court of Appeals reversed and remanded for a new trial (2016); the Supreme Court of Texas reversed that judgment on June 22, 2018 and reinstated the trial court's judgment. No attorney's fees in a Texas condemnation award.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 1064335,
+  "finalNote": "Trial judgment reinstated by the Supreme Court of Texas after the court of appeals had reversed it."
+ },
+ "source": {
+  "caseName": "Stephen Morale d/b/a Action Collision Repair and Kimberly Morale v. The State of Texas",
+  "court": "Supreme Court of Texas (per curiam), on petition for review from the Second Court of Appeals (Fort Worth), which had reversed the Denton County trial court's judgment",
+  "docket": "No. 17-0049",
+  "decided": "2018-06-22",
+  "url": "https://storage.courtlistener.com/pdf/2018/06/22/stephen_morale_dba_action_collision_repair_and_kimberly_morale_v._state.pdf",
+  "excerptNote": "Verbatim from the statement of facts: the property and taking, the State's displacement classification and later cure plan, the special commissioners' award, the owners' appraiser and land planner, the zoning and nonconforming-use background, the State's pretrial motion, each side's valuation testimony (the State's $122,953; the owners' appraiser's $1,262,947 displaced and $1,064,335 non-displaced figures; Kimberly Morale's $1,262,000 request), and the disputed zoning-variance testimony and the trial court's evidentiary rulings. The owners' appraiser's non-displaced figure equals the verdict and is kept as the owners' own stated valuation (Skyway precedent), so amountIsTheRequestedAmount is true. Removed: the opening holding paragraph, the citation and department-manual sentences, the jury question and verdict sentence, footnote 1 (the $20 judgment discrepancy), the court of appeals' holdings and all of this Court's analysis and disposition."
+ }
+}

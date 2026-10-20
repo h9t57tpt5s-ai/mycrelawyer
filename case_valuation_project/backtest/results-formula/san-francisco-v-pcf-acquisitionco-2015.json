@@ -1,0 +1,79 @@
+{
+ "id": "san-francisco-v-pcf-acquisitionco-2015",
+ "ranAt": "2026-10-20T14:35:22+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   7500000,
+   10000000
+  ],
+  "bestGuessValue": 8750000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    7500000,
+    10000000
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      7500000,
+      10000000
+     ],
+     "expectedValueRange": [
+      7500000,
+      10000000
+     ],
+     "note": "Routine comparable-sales-driven disputes ran ~50-100% above the initial offer in the research sample.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 5000000,
+   "severanceOrBusinessValueDispute": null,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": false,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 7319000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2015-05-26",
+  "description": "The jury determined total compensation of $7,319,000 (fair market value $7,400,000 minus $81,000 for environmental remediation), against the City's contingent $5,000,000 final offer and PCF's $8,600,000 final demand. The trial court denied PCF's motion for litigation expenses; the Court of Appeal reversed that order on May 26, 2015 (the contingent offer was unreasonable as a matter of law) and remanded. The verdict was not appealed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "none",
+  "finalAmount": 7319000,
+  "finalNote": "Verdict undisturbed; only the litigation-expense order was reversed and remanded."
+ },
+ "source": {
+  "caseName": "City and County of San Francisco v. PCF Acquisitionco, LLC, et al.",
+  "court": "California Court of Appeal, First Appellate District, Division Three, on appeal from San Francisco Superior Court (No. CGC11507339)",
+  "docket": "A139836",
+  "decided": "2015-05-26",
+  "url": "https://storage.courtlistener.com/pdf/2015/05/26/city_and_county_of_s.f._v._pcf_acquisitionco_ca13.pdf",
+  "excerptNote": "Verbatim from the Background (the property, the range of exchanged valuations, the City's contingent final offer, PCF's final demand and the two disputed value drivers). Removed: the introduction and holding; the sentence stating the jury's total compensation, fair market value and remediation deduction; the litigation-expense motion and the trial court's ruling (which states the City's final offer exceeded its own appraisal by $1,872,000); the discussion and disposition; footnotes. The PDF renders quotation marks as odd glyphs, which are kept as extracted. The appeal concerned only litigation expenses; the verdict was not disturbed."
+ }
+}

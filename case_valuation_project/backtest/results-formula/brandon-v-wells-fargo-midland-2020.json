@@ -1,0 +1,145 @@
+{
+ "id": "brandon-v-wells-fargo-midland-2020",
+ "ranAt": "2026-10-20T14:30:15+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lending-foreclosure",
+  "roleLabel": "Borrower / Guarantor",
+  "damagesRange": [
+   -120450.00000000001,
+   27475.000000000007
+  ],
+  "bestGuessValue": -46487.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    -120450.00000000001,
+    27475.000000000007
+   ],
+   "claims": [
+    {
+     "claimKey": "foreclosure_deficiency_judgment",
+     "label": "Foreclosure / Deficiency Judgment",
+     "probability": [
+      0.85,
+      0.97
+     ],
+     "damagesRange": [
+      0,
+      0
+     ],
+     "expectedValueRange": [
+      0,
+      0
+     ],
+     "note": "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator -- treat this figure as case value, not a collection forecast. Texas's deficiency-judgment rules were applied (Tex. Prop. Code \u00a7\u00a7 51.003\u201351.005). Procedural trap to flag: Deficiency suit generally must be filed within 2 years of the foreclosure sale. A fair-value offset applies here (the credit against the debt is the greater of sale proceeds or a court-determined fair value) -- enter a fair-value figure if one has been determined and it exceeds the sale proceeds, which would reduce this deficiency.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "receivership_dispute",
+     "label": "Receivership Grant/Denial",
+     "probability": [
+      0.65,
+      0.85
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Not a dollar claim -- operational-control relief. Sample has grown to 10 real matters; of the 8 with a reported ruling, 7 resulted in a receiver appointed and 1 (Brick Air Capital v. NLD Props.) was denied outright even with a consent-to-receivership clause, on the court's equitable discretion.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "lender_liability_claim",
+     "label": "Lender Liability (borrower-asserted)",
+     "probability": [
+      0.1,
+      0.25
+     ],
+     "damagesRange": [
+      80000,
+      220000.00000000003
+     ],
+     "expectedValueRange": [
+      8000,
+      55000.00000000001
+     ],
+     "note": "Historically borrower-unfriendly absent clear bad faith; recent real cases trend toward procedural wins rather than dollar outcomes. Damages, if any, are typically limited to contract damages and out-of-pocket costs.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.5505,
+      0.6422500000000001
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      27525,
+      128450.00000000001
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Texas",
+   "loanBalance": 2475110.86,
+   "foreclosureFiled": true,
+   "foreclosureMethod": "judicial",
+   "borrowerDisputesDefault": false,
+   "lenderAdvances": null,
+   "saleProceeds": 3200000,
+   "courtDeterminedFairValue": null,
+   "receivershipMotionFiled": true,
+   "guarantyTriggerAlleged": null,
+   "guaranteedBalance": null,
+   "guarantorAssertsCounterclaimOrOffset": false,
+   "lenderMisconductAlleged": true,
+   "egregiousConductAlleged": false,
+   "lenderLiabilityDamagesClaimed": 400000,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial",
+   "foreclosureNonJudicialDominant": true,
+   "foreclosureDeficiencyBarredIfNonJudicial": false,
+   "foreclosureDeficiencyConditionalIfNonJudicial": false,
+   "foreclosureDeficiencyBarredForBorrowerButGuarantorAvailable": false,
+   "foreclosureFairValueOffsetApplies": true,
+   "foreclosureProcedureTrap": "Deficiency suit generally must be filed within 2 years of the foreclosure sale.",
+   "foreclosureStateCitation": "Tex. Prop. Code \u00a7\u00a7 51.003\u201351.005",
+   "foreclosureStateNote": "Unlike California, Texas's dominant non-judicial power-of-sale method does NOT waive deficiency rights. Either party may request the court determine the property's fair market value; the sale price is presumed to equal fair market value unless rebutted by competent evidence, in which case the higher fair-value figure controls the deficiency calculation."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 735327.6,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-05-28",
+  "description": "After a two-day bench trial the court awarded Brandon $245,109.20 in actual damages against Wells Fargo and Midland jointly and severally, plus $245,109.20 in exemplary damages against each of them ($735,327.60 total damages), and $125,000 in attorney's fees plus conditional appellate fees; it found no consequential damages. The Thirteenth Court of Appeals reversed the judgment against Midland entirely and the exemplary damages, and affirmed the rest, leaving $245,109.20 in actual damages against Wells Fargo plus the fee award.",
+  "attorneysFeesAtTrial": 125000.0,
+  "attorneysFeesOnAppeal": "affirmed as to Wells Fargo",
+  "finalAmount": 245109.2,
+  "finalNote": "Modified on appeal: exemplary damages and Midland liability reversed; actual damages affirmed."
+ },
+ "source": {
+  "caseName": "David Keith Brandon v. Wells Fargo Bank, N.A., as Trustee for the Registered Holders of LaSalle Commercial Mortgage Securities, Inc. 2007-MF5, and Midland Loan Services",
+  "court": "Texas Thirteenth Court of Appeals (Corpus Christi-Edinburg), on appeal from the 156th District Court, San Patricio County",
+  "docket": "No. 13-18-00393-CV",
+  "decided": "2020-05-28",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=&MediaID=6611f74e-0214-4698-895d-8c0393168f0e&DT=Opinion",
+  "excerptNote": "documentText is verbatim from the Background (Parts A-D): the notes, servicing arrangement, default, the lenders' suit, receivership sale and the borrower's counterclaims, and the bench-trial testimony of both sides. Removed: the opening summary (which states the judgment), the quoted note and deed-of-trust clauses, footnote 3 and its marker, subsection headings, the payoff table reproduced from Plaintiff's Exhibit 3 and the sentence introducing it, one sentence of the lender's accounting testimony that states the unapplied-funds figure (it equals the actual-damages award), the trial court's judgment and findings (Part E), and all appellate analysis. Outcome note: amount is the trial damages award (actual plus exemplary against each defendant); finalAmount is the actual damages left after appeal."
+ }
+}

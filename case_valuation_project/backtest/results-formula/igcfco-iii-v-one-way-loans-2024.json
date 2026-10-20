@@ -1,0 +1,157 @@
+{
+ "id": "igcfco-iii-v-one-way-loans-2024",
+ "ranAt": "2026-10-20T14:28:39+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   4541352,
+   8984386
+  ],
+  "bestGuessValue": 6762869,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    4541352,
+    8984386
+   ],
+   "claims": [
+    {
+     "claimKey": "foreclosure_deficiency_judgment",
+     "label": "Foreclosure / Deficiency Judgment",
+     "probability": [
+      0.6,
+      0.8
+     ],
+     "damagesRange": [
+      3908920,
+      3908920
+     ],
+     "expectedValueRange": [
+      2345352,
+      3127136
+     ],
+     "note": "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator -- treat this figure as case value, not a collection forecast. Michigan's deficiency-judgment rules were applied (MCL 600.3280). A fair-value offset applies here (the credit against the debt is the greater of sale proceeds or a court-determined fair value) -- enter a fair-value figure if one has been determined and it exceeds the sale proceeds, which would reduce this deficiency.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "receivership_dispute",
+     "label": "Receivership Grant/Denial",
+     "probability": [
+      0.65,
+      0.85
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Not a dollar claim -- operational-control relief. Sample has grown to 10 real matters; of the 8 with a reported ruling, 7 resulted in a receiver appointed and 1 (Brick Air Capital v. NLD Props.) was denied outright even with a consent-to-receivership clause, on the court's equitable discretion.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "guaranty_enforcement",
+     "label": "Guaranty Enforcement",
+     "probability": [
+      0.45,
+      0.7
+     ],
+     "damagesRange": [
+      4825000,
+      8202500
+     ],
+     "expectedValueRange": [
+      2171250,
+      5741750
+     ],
+     "note": "A counterclaim or offset has been pled against the guaranty, which meaningfully reduces both the odds of full recovery and the likely dollar outcome -- this becomes a genuinely contested fact question rather than a clean carve-out breach.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "lender_liability_claim",
+     "label": "Lender Liability (borrower-asserted)",
+     "probability": [
+      0.1,
+      0.25
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Historically borrower-unfriendly absent clear bad faith; recent real cases trend toward procedural wins rather than dollar outcomes. Damages, if any, are typically limited to contract damages and out-of-pocket costs.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.49499999999999994,
+      0.5774999999999999
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      24749.999999999996,
+      115499.99999999999
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Michigan",
+   "loanBalance": 9183920,
+   "foreclosureFiled": true,
+   "foreclosureMethod": "judicial",
+   "borrowerDisputesDefault": true,
+   "lenderAdvances": null,
+   "saleProceeds": 5275000,
+   "courtDeterminedFairValue": null,
+   "receivershipMotionFiled": true,
+   "guarantyTriggerAlleged": true,
+   "guaranteedBalance": 9650000,
+   "guarantorAssertsCounterclaimOrOffset": true,
+   "lenderMisconductAlleged": true,
+   "egregiousConductAlleged": false,
+   "lenderLiabilityDamagesClaimed": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial",
+   "foreclosureNonJudicialDominant": true,
+   "foreclosureDeficiencyBarredIfNonJudicial": false,
+   "foreclosureDeficiencyConditionalIfNonJudicial": false,
+   "foreclosureDeficiencyBarredForBorrowerButGuarantorAvailable": false,
+   "foreclosureFairValueOffsetApplies": true,
+   "foreclosureProcedureTrap": null,
+   "foreclosureStateCitation": "MCL 600.3280",
+   "foreclosureStateNote": "Michigan's dominant non-judicial 'foreclosure by advertisement' does NOT waive deficiency rights. Where the mortgagee itself becomes the purchaser at the sale (common in practice), the borrower may defend a deficiency action by showing the property was fairly worth the debt, or that the winning bid was substantially below true value -- reducing or defeating the deficiency."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 5287812.0,
+  "amountIsTheRequestedAmount": true,
+  "date": "2024-08-08",
+  "description": "On May 26, 2023, after a hearing on the lender's motion and without an evidentiary hearing, the trial court found the sale commercially reasonable at $5,275,000, refused any offset for rents, and entered a final deficiency judgment for the lender of $5,287,812 (the amount requested) with 13% interest capped at $500,000. The Court of Appeals affirmed, holding UCC Article 9 inapplicable and the consent judgment controlling.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 5287812.0,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "IGCFCO III, LLC v. One Way Loans, LLC, d/b/a Powerlend; P&G Holdings, LLC, Watermark Banquet and Conference Center, LLC, The Coffee Factory, LLC, and Moses Gross",
+  "court": "Michigan Court of Appeals (published), on appeal from the Muskegon County Circuit Court",
+  "docket": "No. 366535 (LC No. 2021-001755-CB)",
+  "decided": "2024-08-08",
+  "url": "https://www.courts.michigan.gov/4a298a/siteassets/case-documents/uploads/opinions/final/coa/20240808_c366535_30_366535.opn.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Factual Background): the loan, default, complaint, consent judgment, contempt proceedings, the lender's deficiency motion, the borrowers' response, the lender's reply, and the parties' arguments at the hearing. Removed: footnote 1 (Powerlend's non-appearance) and its marker, the trial court's bench ruling and the final deficiency judgment amount, and all of Part II (appellate analysis and holding). Note: the deficiency judgment equals the figure the lender requested in its motion, which remains in the text as the lender's demand. Whitespace and page-number artifacts normalized only."
+ }
+}

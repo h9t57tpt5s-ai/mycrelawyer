@@ -1,0 +1,139 @@
+{
+ "id": "can-iv-packard-square-v-schubiner-2021",
+ "ranAt": "2026-10-20T14:29:38+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   12150000,
+   32129999.999999996
+  ],
+  "bestGuessValue": 22140000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    12150000,
+    32129999.999999996
+   ],
+   "claims": [
+    {
+     "claimKey": "foreclosure_deficiency_judgment",
+     "label": "Foreclosure / Deficiency Judgment",
+     "probability": [
+      0.6,
+      0.8
+     ],
+     "damagesRange": [
+      0,
+      0
+     ],
+     "expectedValueRange": [
+      0,
+      0
+     ],
+     "note": "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator -- treat this figure as case value, not a collection forecast. Michigan's deficiency-judgment rules were applied (MCL 600.3280). A fair-value offset applies here (the credit against the debt is the greater of sale proceeds or a court-determined fair value) -- enter a fair-value figure if one has been determined and it exceeds the sale proceeds, which would reduce this deficiency.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "receivership_dispute",
+     "label": "Receivership Grant/Denial",
+     "probability": [
+      0.65,
+      0.85
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Not a dollar claim -- operational-control relief. Sample has grown to 10 real matters; of the 8 with a reported ruling, 7 resulted in a receiver appointed and 1 (Brick Air Capital v. NLD Props.) was denied outright even with a consent-to-receivership clause, on the court's equitable discretion.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "guaranty_enforcement",
+     "label": "Guaranty Enforcement",
+     "probability": [
+      0.45,
+      0.7
+     ],
+     "damagesRange": [
+      27000000,
+      45900000
+     ],
+     "expectedValueRange": [
+      12150000,
+      32129999.999999996
+     ],
+     "note": "A counterclaim or offset has been pled against the guaranty, which meaningfully reduces both the odds of full recovery and the likely dollar outcome -- this becomes a genuinely contested fact question rather than a clean carve-out breach.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "lender_liability_claim",
+     "label": "Lender Liability (borrower-asserted)",
+     "probability": [
+      0.1,
+      0.25
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Historically borrower-unfriendly absent clear bad faith; recent real cases trend toward procedural wins rather than dollar outcomes. Damages, if any, are typically limited to contract damages and out-of-pocket costs.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Michigan",
+   "loanBalance": 54000000,
+   "foreclosureFiled": true,
+   "foreclosureMethod": "judicial",
+   "borrowerDisputesDefault": true,
+   "lenderAdvances": null,
+   "saleProceeds": 75000000,
+   "courtDeterminedFairValue": null,
+   "receivershipMotionFiled": true,
+   "guarantyTriggerAlleged": true,
+   "guaranteedBalance": 54000000,
+   "guarantorAssertsCounterclaimOrOffset": true,
+   "lenderMisconductAlleged": true,
+   "egregiousConductAlleged": null,
+   "lenderLiabilityDamagesClaimed": null,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "contested-msj",
+   "foreclosureNonJudicialDominant": true,
+   "foreclosureDeficiencyBarredIfNonJudicial": false,
+   "foreclosureDeficiencyConditionalIfNonJudicial": false,
+   "foreclosureDeficiencyBarredForBorrowerButGuarantorAvailable": false,
+   "foreclosureFairValueOffsetApplies": true,
+   "foreclosureProcedureTrap": null,
+   "foreclosureStateCitation": "MCL 600.3280",
+   "foreclosureStateNote": "Michigan's dominant non-judicial 'foreclosure by advertisement' does NOT waive deficiency rights. Where the mortgagee itself becomes the purchaser at the sale (common in practice), the borrower may defend a deficiency action by showing the property was fairly worth the debt, or that the winning bid was substantially below true value -- reducing or defeating the deficiency."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 13992936.05,
+  "amountIsTheRequestedAmount": false,
+  "date": "2021-04-29",
+  "description": "On cross-motions, the trial court granted summary disposition to the lender on its guaranty claim and on Schubiner's counterclaims and on December 17, 2019 entered judgment against him for $13,992,936.05 (the original-loan balance left after the lender applied its $75 million credit bid first to the receiver loan), plus attorney fees, consultant fees, continuing interest and costs. The Court of Appeals affirmed the judgment (Docket No. 352510), while vacating a separate postjudgment order on intervenors' properties.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 13992936.05,
+  "finalNote": "Judgment affirmed."
+ },
+ "source": {
+  "caseName": "Can IV Packard Square, LLC v. Craig Schubiner (and BCL Properties Limited Partnership and 305 Associates, LLC, proposed intervenors)",
+  "court": "Michigan Court of Appeals (unpublished), on appeal from the Oakland County Circuit Court",
+  "docket": "Nos. 352510, 354185, 354821, 354186 (LC No. 2018-167408-CB)",
+  "decided": "2021-04-29",
+  "url": "https://www.courts.michigan.gov/4a4fa7/siteassets/case-documents/uploads/opinions/final/coa/20210429_c352510_72_352510.opn.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Background) through the parties' cross-motions for summary disposition, plus sentences from Part II that state the parties' positions (the guarantor's material-alteration and credit-bid arguments, and the subcontractor liens and the borrower's answer from the related foreclosure case). Removed: the opening paragraph with the dispositions, footnotes 1-4 and their markers, the sentences stating the trial court's summary-disposition ruling and the judgment amount, the lender's affidavit accounting (which states the amount), the postjudgment collection history, and all appellate holdings. Note: the judgment was entered on cross-motions for summary disposition, not after trial."
+ }
+}

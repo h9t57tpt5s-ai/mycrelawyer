@@ -1,0 +1,79 @@
+{
+ "id": "piedmont-gas-v-blueroad-fontanel-2026",
+ "ranAt": "2026-10-20T14:30:49+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   146100,
+   292200
+  ],
+  "bestGuessValue": 219150,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    146100,
+    292200
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      146100,
+      292200
+     ],
+     "expectedValueRange": [
+      146100,
+      292200
+     ],
+     "note": "Severance/access/business-value disputes ran 2x-5x+ above the initial offer in the research sample (one case ~49x).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 48700,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": false,
+   "regulatoryTakingAlleged": null,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 13896800,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-04-01",
+  "description": "The Davidson County jury (August 2024) found a before-taking value of $25,500,000 and an after-taking value of $11,603,200, i.e. incidental damages of $13,896,800; judgment was entered for $13,798,100 after crediting Piedmont's $98,700 deposit, plus $14,203 discretionary costs. The Tennessee Court of Appeals affirmed on April 1, 2026, upholding admission of the owner's before-only appraisal and the jury's blending of the two experts' values. Amount used is the total compensation found (the deposit is part of it).",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 13896800,
+  "finalNote": "Affirmed; judgment of $13,798,100 is the $13,896,800 verdict net of the $98,700 already deposited."
+ },
+ "source": {
+  "caseName": "Piedmont Natural Gas Company, Inc. v. BlueRoad Fontanel, LLC",
+  "court": "Court of Appeals of Tennessee at Nashville, on appeal from the Circuit Court for Davidson County",
+  "docket": "No. M2024-01860-COA-R3-CV (trial court No. 19C1900)",
+  "decided": "2026-04-01",
+  "url": "https://storage.courtlistener.com/pdf/2026/04/01/piedmont_natural_gas_company_inc._v._blueroad_fontanel_llc.pdf",
+  "excerptNote": "Verbatim from the Factual and Procedural Background: property and easement description, motion in limine, and a selection of the trial testimony of the owner (Farrell), land planner (Haas), Piedmont's asset-protection manager (Foster), and both appraisers (Gibson, Turner). Removed: the syllabus (disposition), parcel-map captions, footnotes 1-9 (including a footnote marker attached to Gibson's before-value figure, dropped from that sentence), long quoted testimony blocks and the Fox/Garner/Wiggins testimony (length), the paragraph stating the jury's before/after findings, incidental-damages figure and the judgment, the costs award, and all issues and analysis."
+ }
+}

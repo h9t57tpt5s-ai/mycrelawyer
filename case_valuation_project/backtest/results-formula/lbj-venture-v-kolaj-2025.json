@@ -1,0 +1,162 @@
+{
+ "id": "lbj-venture-v-kolaj-2025",
+ "ranAt": "2026-10-20T14:26:40+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   336965.379,
+   593577.1307
+  ],
+  "bestGuessValue": 465271.25485,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    336965.379,
+    593577.1307
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.9,
+      0.97
+     ],
+     "damagesRange": [
+      78739.31,
+      78739.31
+     ],
+     "expectedValueRange": [
+      70865.379,
+      76377.1307
+     ],
+     "note": "",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "releasing_mitigation_costs",
+     "label": "Re-Leasing / Mitigation Costs",
+     "probability": [
+      0.6,
+      0.85
+     ],
+     "damagesRange": [
+      102000,
+      120000
+     ],
+     "expectedValueRange": [
+      61200,
+      102000
+     ],
+     "note": "Landlord's work, tenant-improvement allowances, and leasing commissions incurred to re-lease the space -- usually actual, invoiced costs, so recovery tends to run close to the amount claimed.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "property_damage",
+     "label": "Property Damage / Repairs",
+     "probability": [
+      0.7,
+      0.9
+     ],
+     "damagesRange": [
+      240000,
+      270000
+     ],
+     "expectedValueRange": [
+      168000,
+      243000
+     ],
+     "note": "Reduced for a typical 10-20% normal-wear-and-tear haircut.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.738,
+      0.861
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      36900,
+      172200
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Texas",
+   "unpaidRentAmount": 78739.31,
+   "tenantDisputesDebt": false,
+   "hasWrittenLease": true,
+   "leaseTerminated": false,
+   "remainingMonths": null,
+   "monthlyRent": null,
+   "hasAccelerationClause": "unsure",
+   "hasRelet": true,
+   "reletRentAmount": 120000,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": 300000,
+   "selfHelpUsed": false,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": null,
+   "depositAmount": null,
+   "depositDisputed": null,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": 120000,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Available",
+   "wrongfulLockoutRemedyType": "floor",
+   "wrongfulLockoutRemedyValue": 500,
+   "wrongfulLockoutCitation": "Tex. Prop. Code Sec. 93.002/93.003 -- actual damages + greater of one month's rent or $500, plus reasonable attorney's fees and costs."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 96072.49,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-03-06",
+  "description": "After the bench trial the trial court rendered judgment for the landlord of $96,072.49 (unpaid rent through trial net of replacement-tenant rent, late fees, and prejudgment interest) \u2014 the figure the tenant advocated, roughly one-tenth of the more than $900,000 the landlord sought \u2014 plus 18% post-judgment interest, and awarded $0 in attorneys' fees. The court of appeals affirmed the damages award and reversed only the denial of attorneys' fees, remanding for a determination of a reasonable fee under the lease.",
+  "attorneysFeesAtTrial": 0,
+  "appellateChange": "affirmed",
+  "finalAmount": 96072.49,
+  "finalNote": "Damages affirmed; fee denial reversed and remanded."
+ },
+ "source": {
+  "caseName": "202 N LBJ Venture Group, LP v. Paul Kolaj and Modesta Kolaj",
+  "court": "Texas Court of Appeals, Third District (Austin), on appeal from the 207th District Court of Hays County",
+  "docket": "03-24-00025-CV (trial court No. 21-2211)",
+  "decided": "2025-03-06",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=3dc5c03e-76a9-498d-bcef-1d32d7bb3e03",
+  "excerptNote": "Verbatim from the BACKGROUND section (lease terms, default letter, pleadings, partial summary judgment on liability, bench trial on damages, each side's damages position) plus footnotes 1-2 and one evidence paragraph from the Discussion describing the landlord witness's testimony on the commercial kitchen. Removed: the opinion's introductory paragraph, the sentence stating the amount the trial court rendered judgment for and its $0 fee award, all appellate holdings, and the attorney's-fee discussion. Note that the tenant's own proposed judgment figure is retained as a party contention."
+ }
+}

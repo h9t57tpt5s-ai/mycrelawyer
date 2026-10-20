@@ -1,0 +1,79 @@
+{
+ "id": "caltrans-v-acosta-2009",
+ "ranAt": "2026-10-20T14:34:59+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   450000,
+   900000
+  ],
+  "bestGuessValue": 675000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    450000,
+    900000
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      450000,
+      900000
+     ],
+     "expectedValueRange": [
+      450000,
+      900000
+     ],
+     "note": "Severance/access/business-value disputes ran 2x-5x+ above the initial offer in the research sample (one case ~49x).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 150000,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": null,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 704500,
+  "amountIsTheRequestedAmount": false,
+  "date": "2009-10-26",
+  "description": "After the court denied Caltrans's summary-adjudication motion and its motion in limine to exclude goodwill evidence, Caltrans and Acosta stipulated (March 26, 2008) to judgment of $704,500 on the goodwill claim, reserving Caltrans's right to appeal issues of law; the court entered judgment as stipulated and awarded Acosta $288,537.75 in litigation expenses and expert fees under section 1250.410 (final demand $705,000 reasonable, final offer $150,000 unreasonable). The Third District affirmed both on October 26, 2009, holding the goodwill claim is not preempted by the PMPA. This is a stipulated judgment, not a verdict.",
+  "attorneysFeesAtTrial": 288537.75,
+  "attorneysFeesOnAppeal": "affirmed",
+  "appellateChange": "affirmed",
+  "finalAmount": 704500,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "People ex rel. Department of Transportation v. Mercedes Acosta and Hammer 99, Inc.",
+  "court": "California Court of Appeal, Third Appellate District",
+  "docket": "C059064 (178 Cal.App.4th 762)",
+  "decided": "2009-10-26",
+  "url": "https://static.case.law/cal-app-4th/178/cases/0762-01.json",
+  "excerptNote": "Verbatim from Facts and Proceedings, from the filing of the condemnation through the denial of Caltrans's motion in limine (the franchise and sublease, the PMPA demurrers, the BP and owner settlements, the BP assignment, the summary-adjudication ruling, the final demand and final offer), and two sentences from Part III giving each side's appraisal of the goodwill. Removed: the introduction (states the stipulated judgment and holdings), the March 2008 stipulated judgment and everything after it in Facts and Proceedings, the litigation-expense ruling and amounts, the trial court's reasonableness findings, and all other analysis. Source text is the Caselaw Access Project copy of the official report (no court-hosted PDF for this 2009 opinion; CourtListener opinion 2260340). The reviewer should confirm the source URL resolves; the saved text is the CAP case body."
+ }
+}

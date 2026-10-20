@@ -1,0 +1,79 @@
+{
+ "id": "lcra-st-louis-v-osher-2020",
+ "ranAt": "2026-10-20T14:31:01+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   1226384.385,
+   1635179.18
+  ],
+  "bestGuessValue": 1430781.7825,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    1226384.385,
+    1635179.18
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      1226384.385,
+      1635179.18
+     ],
+     "expectedValueRange": [
+      1226384.385,
+      1635179.18
+     ],
+     "note": "Routine comparable-sales-driven disputes ran ~50-100% above the initial offer in the research sample.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 817589.59,
+   "severanceOrBusinessValueDispute": false,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": null,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 573000,
+  "amountIsTheRequestedAmount": true,
+  "date": "2020-04-21",
+  "description": "After a seven-day jury trial in May 2018 the jury awarded $573,000, the value given by LCRA's appraiser and $244,589.59 below the commissioners' $817,589.59 award (the owner's appraiser said $4.93 million); the court denied a post-trial homestead allowance and taxed $21,207.13 costs against the owner. The Eastern District affirmed on April 21, 2020.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 573000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Land Clearance for Redevelopment Authority of the City of St. Louis v. James Townsend Osher",
+  "court": "Missouri Court of Appeals, Eastern District, Division Two, on appeal from the Circuit Court of the City of St. Louis",
+  "docket": "No. ED107081",
+  "decided": "2020-04-21",
+  "url": "https://storage.courtlistener.com/pdf/2020/04/21/land_clearance_for_redevelopment_authority_of_the_city_of_st._louis_v..pdf",
+  "excerptNote": "Verbatim from the Factual and Procedural Background: Pre-Trial (condemnation filing, commissioners' award, exceptions) and Trial (each side's evidence, including both appraisers). Removed: the Introduction (judgment amount and costs), the judge-assignment/recusal motions, footnotes 1-4 and one footnote marker, the 'Jury Verdict and Homestead Allowance' section and everything after it. LCRA's appraiser's figure, which the jury adopted, is retained as a party's stated position, so amountIsTheRequestedAmount is true. The building was zoned industrial; the owner's post-verdict homestead (primary-residence) claim was denied and is not part of the input."
+ }
+}

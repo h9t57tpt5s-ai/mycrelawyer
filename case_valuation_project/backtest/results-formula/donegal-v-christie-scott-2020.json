@@ -1,0 +1,121 @@
+{
+ "id": "donegal-v-christie-scott-2020",
+ "ranAt": "2026-10-20T14:33:13+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   -56954.81999999999,
+   -41766.868
+  ],
+  "bestGuessValue": -49360.844,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    -56954.81999999999,
+    -41766.868
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      75939.76,
+      75939.76
+     ],
+     "expectedValueRange": [
+      41766.868,
+      56954.81999999999
+     ],
+     "note": "",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "wrongful_lockout",
+     "label": "Wrongful Eviction / Unlawful Lockout",
+     "probability": [
+      0.3,
+      0.6
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "No damages amount entered -- probability shown reflects state self-help law and whether statutory process was followed.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Maryland",
+   "unpaidRentAmount": 75939.76,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": 0,
+   "monthlyRent": 9492.47,
+   "hasAccelerationClause": "yes",
+   "hasRelet": true,
+   "reletRentAmount": 1442.67,
+   "heldOverAfterTerm": true,
+   "holdoverMonths": 12,
+   "propertyDamageAmount": null,
+   "selfHelpUsed": true,
+   "selfHelpProcessFollowed": "no",
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": true,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": false,
+   "depositAmount": null,
+   "depositDisputed": false,
+   "landlordProvidedItemization": false,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "trial",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Available",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "Maryland retains the common-law rule allowing commercial-landlord self-help where the lease authorizes reentry, the tenant is in default beyond any cure period, and reentry is peaceful. No statutory penalty scheme applies to commercial self-help; a wrongful/improper lockout exposes the landlord to common-law damages (conversion, tortious interference with business relationships, the tenant's actual losses) rather than a statutory multiplier."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 96633.96,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-11-19",
+  "description": "After a four-day bench trial (the tenant having abandoned all counts but conversion), the court found the landlord liable for conversion, valued the converted property at $139,938.87 ($113,917.24 retail products plus $26,021.63 furniture, fixtures and equipment), offset $43,304.91 the tenant owed on the landlord's holdover-rent counterclaim, and awarded the tenant a net $96,633.96 in compensatory damages plus $1,000,000 in punitive damages. The amount recorded is the net compensatory award, excluding punitive damages. The Court of Special Appeals held the lockout was a lawful commercial self-help repossession and constructive conversion failed for lack of a pre-suit demand, reversed the compensatory and punitive awards, and remanded for the circuit court to revise its judgment (the unappealed $43,304.91 counterclaim finding stands).",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "reversed",
+  "finalAmount": -43304.91,
+  "finalNote": "Tenant award reversed; the landlord's $43,304.91 counterclaim stands, so the tenant's net position is a loss of that amount."
+ },
+ "source": {
+  "caseName": "Donegal Associates v. Christie-Scott, LLC",
+  "court": "Court of Special Appeals of Maryland (reported opinion), on appeal from the Circuit Court for Howard County (No. 13-C-17-113337)",
+  "docket": "No. 385, September Term, 2019",
+  "decided": "2020-11-19",
+  "url": "https://www.mdcourts.gov/data/opinions/cosa/2020/0385s19.pdf",
+  "excerptNote": "Verbatim from the Factual and Procedural Background, from its first sentence through Mr. Healy's testimony about permitting Ms. Bosley to operate from the space, plus the first sentence of footnote 4 (the monthly rent) appended at the end. Removed for length: the paragraphs on JLL's December 2016 holdover-rent e-mail, the two trial postponements, JLL's refusal to participate, the stylists' later retrieval of tools, the summary-judgment rulings, Exhibit 13, and the testimony of Ms. Frantz, Mr. Hearn, the 'squatters' witnesses, Ms. Bosley, and Mr. Healy's answers to the court's questions. Also removed: the headnote and the appellant's questions presented; footnotes 1-11 and footnote markers; page numbers; and everything from 'As indicated, counsel for Christie-Scott, in closing argument, abandoned all claims except the conversion claim. The court then made its oral ruling.' onward (the circuit court's findings on the tenancy, the counterclaim amount, lien, conversion, damages and punitive damages, and all appellate analysis and holdings). Paragraph breaks re-inserted at the opinion's own paragraph starts."
+ }
+}

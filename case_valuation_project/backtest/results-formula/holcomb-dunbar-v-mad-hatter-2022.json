@@ -1,0 +1,127 @@
+{
+ "id": "holcomb-dunbar-v-mad-hatter-2022",
+ "ranAt": "2026-10-20T14:25:23+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   86412.81722117704,
+   136033.98268032252
+  ],
+  "bestGuessValue": 111223.39995074978,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    86412.81722117704,
+    136033.98268032252
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      32000,
+      32000
+     ],
+     "expectedValueRange": [
+      17600,
+      24000
+     ],
+     "note": "",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "accelerated_rent",
+     "label": "Accelerated / Future Rent",
+     "probability": [
+      0.65,
+      0.9
+     ],
+     "damagesRange": [
+      105865.87264796469,
+      124482.20297813612
+     ],
+     "expectedValueRange": [
+      68812.81722117704,
+      112033.98268032252
+     ],
+     "note": "Discounted to present value using a 5%-9% annual rate range (industry/court practice, not a flat percentage haircut).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Mississippi",
+   "unpaidRentAmount": 32000,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": 20,
+   "monthlyRent": 6500,
+   "hasAccelerationClause": "yes",
+   "hasRelet": false,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": null,
+   "selfHelpUsed": false,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": null,
+   "depositAmount": null,
+   "depositDisputed": null,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "contested-msj",
+   "mitigationDuty": "Unclear",
+   "holdoverStatutoryPenalty": true,
+   "selfHelpAvailable": "Conditional",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "Mississippi generally prohibits commercial self-help, with a narrow exception for peaceable reentry when the written lease expressly grants a right of reentry on default. No statutory penalty scheme was found for a wrongful commercial lockout; the tenant's remedy is actual damages (including business-interruption losses) via wrongful-eviction/trespass theories."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 133900,
+  "amountIsTheRequestedAmount": true,
+  "date": "2022-03-17",
+  "description": "The trial court granted the landlord summary judgment for all twenty months of unpaid rent (May 2017 through December 2018 at $6,500 a month) plus late fees, $133,900 in total, the full amount claimed in the motion; the tenant's remaining counterclaims went to a jury, which found against it. The Mississippi Court of Appeals affirmed (May 18, 2021) and the Supreme Court of Mississippi, on certiorari, affirmed on March 17, 2022, holding the default letters did not terminate the lease, the election-of-remedies and mitigation arguments were waived, and the alleged breaches were immaterial.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 133900,
+  "finalNote": "Affirmed by the Court of Appeals and, on certiorari, by the Supreme Court of Mississippi."
+ },
+ "source": {
+  "caseName": "Holcomb, Dunbar, Watts, Best, Masters & Golmon, P.A. f/k/a Holcomb Dunbar, P.A. v. 400 South Lamar Oxford Mad Hatter Partners, LLC and Blake Tartt III",
+  "court": "Supreme Court of Mississippi (en banc, on writ of certiorari to the Court of Appeals), on appeal from the Lafayette County Circuit Court",
+  "docket": "No. 2019-CT-01702-SCT",
+  "decided": "2022-03-17",
+  "url": "https://courts.ms.gov/images/Opinions/CO160186.pdf",
+  "excerptNote": "Verbatim from paragraphs 1, 2 (first two sentences only), 3-5, 6 (first two sentences only), the tenant's arguments and the quoted lease paragraph 21 in paragraphs 9-10, and the tenant's material-breach allegations and related lease facts in paragraphs 16-17 and 19-20. Page numbers removed. Removed: every sentence stating the summary-judgment ruling or the $133,900 award, the jury verdict on the counterclaims, the Court of Appeals' and Supreme Court's holdings, the mitigation-waiver discussion, and the motion-to-quash and motion-to-amend rulings."
+ }
+}

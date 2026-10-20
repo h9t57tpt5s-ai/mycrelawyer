@@ -1,0 +1,126 @@
+{
+ "id": "nco-montgomery-park-2025",
+ "ranAt": "2026-10-20T14:27:29+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   201764.518,
+   371747.07000000007
+  ],
+  "bestGuessValue": 286755.79400000005,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    201764.518,
+    371747.07000000007
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      313662.76,
+      313662.76
+     ],
+     "expectedValueRange": [
+      172514.518,
+      235247.07
+     ],
+     "note": "",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.5850000000000001,
+      0.6825000000000001
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      29250.000000000004,
+      136500.00000000003
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Maryland",
+   "unpaidRentAmount": 313662.76,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": 4,
+   "monthlyRent": null,
+   "hasAccelerationClause": null,
+   "hasRelet": null,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": null,
+   "selfHelpUsed": null,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": false,
+   "depositAmount": null,
+   "depositDisputed": null,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Available",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "Maryland retains the common-law rule allowing commercial-landlord self-help where the lease authorizes reentry, the tenant is in default beyond any cure period, and reentry is peaceful. No statutory penalty scheme applies to commercial self-help; a wrongful/improper lockout exposes the landlord to common-law damages (conversion, tortious interference with business relationships, the tenant's actual losses) rather than a statutory multiplier."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 9854566.95,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-04-14",
+  "description": "After a bench trial the district court entered judgment for Montgomery Park on its past-due-rent counterclaim of $9,854,566.95 plus postjudgment interest (upheld in earlier Fourth Circuit appeals at 842 F.3d 816, 918 F.3d 388 and 40 F.4th 123). The court then awarded $2,074,379.88 in attorneys' fees and nontaxable expenses, $115,942.10 taxable costs and $1,576,036.07 default interest ($3,766,358.05 total). In this fifth appeal the Fourth Circuit affirmed the fee/cost award (including expert fees) but vacated the default-interest component, holding interest runs only from the August 24, 2022 demand, and remanded for recalculation; the underlying rent judgment was not disturbed.",
+  "attorneysFeesAtTrial": 2074379.88,
+  "appellateChange": "affirmed",
+  "finalAmount": 9854566.95,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "NCO Financial Systems, Inc. v. Montgomery Park, LLC",
+  "court": "U.S. Court of Appeals for the Fourth Circuit (appeal from D. Md., No. 1:11-cv-01020-GLR)",
+  "docket": "No. 24-1294",
+  "decided": "2025-04-14",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ca4-24-01294/pdf/USCOURTS-ca4-24-01294-0.pdf",
+  "excerptNote": "Verbatim from the opinion's introduction, Part I (background), Part II (lease Section 14.04 text) and Part III (description of the parties' pleadings). Removed: the intro sentence describing the roughly $3.8 million fee/cost award under review; the footnote summarizing the holdings of the three prior Fourth Circuit appeals; the sentence stating the bench-trial judgment amount; Montgomery Park's post-judgment fee motion and the district court's fee/cost/interest award figures; and all of the panel's analysis and conclusions."
+ }
+}

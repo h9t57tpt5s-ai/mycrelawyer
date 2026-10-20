@@ -1,0 +1,69 @@
+{
+ "id": "globe-contracting-v-hour-2025",
+ "ranAt": "2026-10-20T14:29:09+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "construction-defect",
+  "roleLabel": "Contractor / Design Professional",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Utah",
+   "contractorDefectAlleged": true,
+   "repairCostEstimate": null,
+   "catastrophicOrLifeSafety": false,
+   "designErrorAlleged": false,
+   "multiplePartiesIndemnityExists": false,
+   "indemnityClauseCoversIndemniteesOwnNegligence": null,
+   "defectTracedToSingleSubcontractor": false,
+   "ownerSettledWithContractorsAfterInsurerPayout": false,
+   "insurerDeniedCoverage": false,
+   "defectCausedBySubcontractorWork": false,
+   "damageExtendsBeyondDefectItself": null,
+   "defectType": "workmanship-cosmetic-finish",
+   "yearsSinceSubstantialCompletion": null,
+   "differingSiteConditionsAlleged": true,
+   "differingSiteConditionsType": null,
+   "extraCostsFromSiteCondition": null,
+   "constructionIndemnityForm": "intermediate",
+   "constructionIndemnityCitation": "Utah Code Ann. \u00a7 13-8-1(1), (2)"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 61901.92,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-07-03",
+  "description": "After a bench trial the district court held Hour materially breached by withholding the July-September 2016 pay applications without justification, awarded Globe $61,901.92 in damages (the amount in its damages exhibit) with lien foreclosure, and later awarded $108,798.14 prejudgment interest, $98,531.00 attorney fees and $32,179.97 costs. The Utah Court of Appeals affirmed liability and the damages award but vacated the prejudgment interest, costs and fee awards and remanded them.",
+  "attorneysFeesAtTrial": 98531.0,
+  "attorneysFeesOnAppeal": "vacated and remanded",
+  "finalAmount": 61901.92,
+  "finalNote": "Damages affirmed; interest, costs and fees vacated and remanded."
+ },
+ "source": {
+  "caseName": "Globe Contracting LLC v. Raymond R. Hour, Kimberly Taing, Hour Taing Enterprise LLC, and Hour Chiropractic Clinic Inc.",
+  "court": "Utah Court of Appeals, on appeal from the Third District Court, Salt Lake Department",
+  "docket": "No. 20240058-CA, 2025 UT App 98 (district court No. 170900003)",
+  "decided": "2025-07-03",
+  "url": "https://storage.courtlistener.com/pdf/2025/07/03/globe_contracting_v._hour.pdf",
+  "excerptNote": "documentText is verbatim from the Background, paragraphs 3-16 (contract and dispute; complaint, counterclaim and pretrial litigation), ending before 'Trial and Ruling'. Removed: the summary of the appellate rulings in paragraphs 1-2, footnotes 1-5 and their markers, running page headers, one section heading, and paragraphs 17 onward (the court's findings, damages award, post-trial rulings and all appellate analysis). Note: the damages awarded equal the figure Globe requested in its pretrial damages exhibit, which remains in the text as Globe's demand."
+ }
+}

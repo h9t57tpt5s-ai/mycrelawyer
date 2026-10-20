@@ -1,0 +1,97 @@
+{
+ "id": "tank-car-v-springfield-township-2023",
+ "ranAt": "2026-10-20T14:35:40+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   414000,
+   825000
+  ],
+  "bestGuessValue": 619500,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    414000,
+    825000
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      225000,
+      300000
+     ],
+     "expectedValueRange": [
+      225000,
+      300000
+     ],
+     "note": "Routine comparable-sales-driven disputes ran ~50-100% above the initial offer in the research sample.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "regulatory_taking",
+     "label": "Regulatory Taking (Penn Central/Lucas)",
+     "probability": [
+      0.1,
+      0.25
+     ],
+     "damagesRange": [
+      1890000,
+      2100000
+     ],
+     "expectedValueRange": [
+      189000,
+      525000
+     ],
+     "note": "Rarely succeeds absent a near-total wipeout of economic value; when it does, damages tend toward full pre-regulation value.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 150000,
+   "severanceOrBusinessValueDispute": false,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": null,
+   "regulatoryTakingAlleged": true,
+   "propertyFairMarketValue": 2100000
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 667000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-10-19",
+  "description": "After a three-day February 2021 non-jury trial the Montgomery County court found the property's fair market value at the taking was $667,000: $1,100,000 less $175,000 for demolition and $258,200 for Act 2 remediation, with no environmental-stigma deduction and no Lease in effect. Judgment of December 16, 2021 awarded $517,000 in just compensation plus $4,000 fee reimbursement ($521,000). The Board of View had awarded $1,000,000; the owner's appraiser said $2,100,000 and the Township's about $425,000 after deductions. The Commonwealth Court affirmed on October 19, 2023. Amount used is the fair market value found (total compensation, of which the $150,000 estimated just compensation was already paid).",
+  "attorneysFeesAtTrial": 4000,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 667000,
+  "finalNote": "Affirmed. The $517,000 judgment equals the $667,000 value less the $150,000 paid in January 2017; the opinion does not say so expressly, but the arithmetic matches and it follows the Board of View's 'less the $150,000 already paid' format. The $4,000 is a statutory fee reimbursement."
+ },
+ "source": {
+  "caseName": "Tank Car Corporation of America v. Springfield Township (consolidated cross-appeals)",
+  "court": "Commonwealth Court of Pennsylvania, on appeal from the Montgomery County Court of Common Pleas (non-jury trial on appeal from the Board of View)",
+  "docket": "Nos. 1043 C.D. 2021 and 1096 C.D. 2021",
+  "decided": "2023-10-19",
+  "url": "https://storage.courtlistener.com/pdf/2023/10/19/tank_car_corp._of_america_v._springfield_twp..pdf",
+  "excerptNote": "Verbatim from Part I, Factual and Procedural History: the property and its contamination, the EPA cleanup and cap, the school-bus Lease and the Township's injunction action, the declaration of taking, the $150,000 estimated just compensation and the Board of View's $1,000,000 award (an interim figure), footnote 2 (Act 2), and Part I.D-E: each appraiser's methods, figures and deductions (owner's Barth: $2,100,000 reconciled; Township's Lukens: $750,000 before deductions, $175,000 demolition, Penn E&R's $258,200 Act 2 estimate plus 10% contingency, 20% stigma) and the parties' evidence on whether the Lease was in effect. Record citations ('Id. at ...a') are kept as they appear. Removed: the opening paragraph (judgment amount and affirmance), footnotes 1 and 3-5 and markers, Barth's six numbered comparable sales and the Swedeland Road comparable, Part I.F (the trial court's findings: value $1,100,000 less demolition and Act 2 costs, no stigma deduction, no Lease) and everything after it."
+ }
+}

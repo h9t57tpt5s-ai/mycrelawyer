@@ -1,0 +1,79 @@
+{
+ "id": "mhtc-v-boer-potted-steer-2016",
+ "ranAt": "2026-10-20T14:35:34+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   7500000,
+   15000000
+  ],
+  "bestGuessValue": 11250000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    7500000,
+    15000000
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      7500000,
+      15000000
+     ],
+     "expectedValueRange": [
+      7500000,
+      15000000
+     ],
+     "note": "Severance/access/business-value disputes ran 2x-5x+ above the initial offer in the research sample (one case ~49x).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 2500000,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": false,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2900000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2016-01-27",
+  "description": "After a three-day December 2014 jury trial the jury awarded the Boers $2,900,000 in damages for the Potted Steer (against the commissioners' $2,500,000, the owners' appraiser's $2,085,000, MHTC's appraisers' $1,200,000 and $1,500,000, and Mr. Boer's own $3,300,000 request); the figure equals what MHTC paid for the nearby Link's Landing property in 1992. Judgment was entered on the verdict less adjustments for interest and prior payments, and remittitur was denied. The Southern District affirmed on January 27, 2016.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 2900000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "State ex rel. Missouri Highways and Transportation Commission v. Joseph H. Boer, et al. (Exceptions of Joseph H. Boer, Mary Christine Boer and Joseph Boer's Food Service d/b/a The Potted Steer Restaurant)",
+  "court": "Missouri Court of Appeals, Southern District, on appeal from the Circuit Court of Laclede County",
+  "docket": "No. SD33804",
+  "decided": "2016-01-27",
+  "url": "https://storage.courtlistener.com/pdf/2016/01/27/state_ex_rel._missouri_highways_and_transportation_commission.pdf",
+  "excerptNote": "Verbatim from Facts and Procedural History: the petition and commissioners' award, Mr. Boer's testimony about the property, the effect of the taking, his real-estate knowledge, the Link's Landing and BOLO sales, his opinion of value and request, and each side's appraisers' figures; plus MHTC's objections and the trial court's evidentiary rulings, footnote 1 (both sides agreed the property was unique) and Kirby's cross-examination answers on the age of the Link's Landing sale. Removed: the opening paragraph (verdict and affirmance), the sentence stating MHTC's 1992 purchase price for Link's Landing ($2,900,000, which equals the verdict and is not a party demand, so the leak guard bars it; the excerpt keeps that MHTC bought it in 1992 and that the sale informed Mr. Boer's opinion), the verdict and judgment sentences, the closing-argument dispute, and all points and holdings; footnote markers."
+ }
+}

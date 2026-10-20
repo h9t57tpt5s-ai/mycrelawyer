@@ -1,0 +1,78 @@
+{
+ "id": "trout-v-shani-dev8-2025",
+ "ranAt": "2026-10-20T14:32:16+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Ohio",
+   "medicalSpecialsIncurred": null,
+   "lostWagesClaimed": null,
+   "injurySeverity": "severe",
+   "slipAndFallAlleged": true,
+   "hazardNoticeProven": "unclear",
+   "selfServiceModeOfOperationApplicable": null,
+   "inadequateSecurityAlleged": false,
+   "priorSimilarCrimeIncidents": null,
+   "structuralFailureAlleged": false,
+   "failureToWarnAlleged": false,
+   "openAndObviousDefenseRaised": false,
+   "plaintiffComparativeFaultPercent": null,
+   "egregiousConductAllegedForPunitives": false,
+   "premisesFaultRule": "Modified Comparative (51% Bar)",
+   "premisesFaultRuleCitation": "Ohio Rev. Code \u00a7 2315.33",
+   "premisesPunitiveDamagesStandard": "Clear and Convincing Evidence -- Ohio Rev. Code \u00a7 2315.21(D)(4)",
+   "premisesPunitiveDamagesCap": "For an individual or 'small employer' defendant: the LESSER of 2x compensatory damages or 10% of the defendant's net worth at the time of the tort, capped at $350,000 -- Ohio Rev. Code \u00a7 2315.21(D)(2)(a). A separate, differently-structured limit applies to larger employers.",
+   "premisesOpenAndObviousDoctrine": "Traditional No-Duty Bar",
+   "premisesOpenAndObviousRule": "Traditional No-Duty Bar",
+   "premisesOpenAndObviousCitation": "Armstrong v. Best Buy Co., 99 Ohio St.3d 79, 2003-Ohio-2573, 788 N.E.2d 1088 (Ohio 2003)",
+   "premisesNegligentSecurityTest": "Totality of the Circumstances",
+   "premisesNegligentSecurityTestNormalized": "Totality of the Circumstances",
+   "premisesNegligentSecurityCitation": "Simpson v. Big Bear Stores Co., 73 Ohio St.3d 130, 652 N.E.2d 702 (Ohio 1995)",
+   "premisesModeOfOperationAdopted": "partial",
+   "premisesModeOfOperationCitation": "Johnson v. Wagner Provision Co., 141 Ohio St. 584, 49 N.E.2d 925 (Ohio 1943) (self-service exception to the notice requirement)",
+   "premisesLiabilityDistinct": false,
+   "premisesLiabilityDistinctNote": "Ohio does not recognize a Texas-style bright-line distinction between a premises-condition claim and an ordinary-negligence/activity claim. Premises liability in Ohio is simply negligence law overlaid with the invitee/licensee/trespasser duty framework, not a separate cause of action."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1300000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-03-13",
+  "description": "The jury found the operator negligent and on February 12, 2024 awarded the claimant $1,300,000 in noneconomic damages; the trial court denied the operator's motion for JNOV or new trial. The Eighth District reversed on March 13, 2025, holding there was no evidence of constructive notice of the liquid, and reversed the denial of JNOV, which leaves the claimant with nothing; the operator's argument that Ohio's noneconomic-damages cap should have been applied was not reached. No later Ohio Supreme Court merits opinion appears in the Reporter of Decisions. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed-rendered",
+  "finalAmount": 0,
+  "finalNote": "Reversed: JNOV should have been granted for the restaurant operator."
+ },
+ "source": {
+  "caseName": "Cheryl Trout, et al. v. Jay Shani DEV8, L.L.C., d.b.a. Mr. Hero",
+  "court": "Ohio Court of Appeals, Eighth Appellate District (Cuyahoga County), on appeal from the Cuyahoga County Court of Common Pleas (No. CV-21-955789)",
+  "docket": "113965 (2025-Ohio-832)",
+  "decided": "2025-03-13",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-832.pdf",
+  "excerptNote": "Verbatim from Part I (Facts and Procedural History), from the agreed statement of the case read to the jury through the defendant's directed-verdict motions. Removed: the opening paragraph (states the holding), the paragraph stating the jury's verdict and award and the post-trial motion, the assignments of error, footnote 1, and all of Part II (law and analysis)."
+ }
+}

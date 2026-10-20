@@ -1,0 +1,94 @@
+{
+ "id": "burns-concrete-v-teton-county-2020",
+ "ranAt": "2026-10-20T14:31:39+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "zoning-land-use",
+  "roleLabel": "Property Owner / Developer",
+  "damagesRange": [
+   514443.0906,
+   1333741.346
+  ],
+  "bestGuessValue": 924092.2183,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    514443.0906,
+    1333741.346
+   ],
+   "claims": [
+    {
+     "claimKey": "variance_permit_denial_appeal",
+     "label": "Variance / Permit Denial Appeal",
+     "probability": [
+      0.25,
+      0.45
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Zoning boards get significant judicial deference; reversal requires a clear legal or procedural error.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "development_agreement_breach",
+     "label": "Development Agreement Breach",
+     "probability": [
+      0.45,
+      0.7
+     ],
+     "damagesRange": [
+      1143206.868,
+      1905344.78
+     ],
+     "expectedValueRange": [
+      514443.0906,
+      1333741.346
+     ],
+     "note": "Small, success-skewed research sample -- treat the probability range as directional.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "varianceOrPermitDenied": true,
+   "spotZoningAlleged": false,
+   "arbitraryOrDiscriminatoryDenialAlleged": false,
+   "vestedRightPlusBadFaith": true,
+   "longPatternShiftingDemands": false,
+   "noNoticeOrHearing": false,
+   "discriminatoryIntentEvidence": false,
+   "lostValueEstimate": 1905344.78,
+   "developmentAgreementBreached": true
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1049250.9,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-11-02",
+  "description": "After the damages trial the district court found $1,461,393.53 of the claimed $1,905,344.78 was spent in reasonable reliance on the Development Agreement, then deducted $412,142.63 (Temporary Facility sales less cost of sales) and awarded $1,049,250.90 in reliance damages, denied prejudgment interest, and awarded attorney fees of $792,529.25 plus $16,254.50. The Idaho Supreme Court on November 2, 2020 affirmed liability and the $1,461,393.53 reliance finding but vacated the judgment, holding the $412,142.63 reduction unsupported and instructing the district court to reverse it on recalculation, and vacated the fee awards for explanation.",
+  "attorneysFeesAtTrial": 808783.75,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "modified",
+  "finalAmount": null,
+  "finalNote": "Vacated and remanded for recalculation; the final figure is pending rather than computed by us."
+ },
+ "source": {
+  "caseName": "Burns Concrete, Inc. and Burns Holdings, LLC v. Teton County",
+  "court": "Supreme Court of the State of Idaho, on appeal from the District Court of the Seventh Judicial District, Teton County",
+  "docket": "Docket Nos. 46827/47496",
+  "decided": "2020-11-02",
+  "url": "https://storage.courtlistener.com/pdf/2020/11/02/burns_concrete_v._teton_county.pdf",
+  "excerptNote": "Verbatim from Part I.A (Factual Background) and Part I.B (Procedural History) through the summary of the damages-trial testimony. Removed: the syllabus and introduction (award amount and disposition), the post-trial contingency-fee agreement, the district court's findings of fact and conclusions of law and both final judgments' damages and fee figures, and all analysis. Prior appellate decisions on liability (Burns 2012, Burns 2016) are retained as procedural history."
+ }
+}

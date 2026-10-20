@@ -1,0 +1,100 @@
+{
+ "id": "cvs-v-carmichael-2021",
+ "ranAt": "2026-10-20T14:31:53+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": [
+   1088700,
+   2612880
+  ],
+  "bestGuessValue": 1850790,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    1088700,
+    2612880
+   ],
+   "claims": [
+    {
+     "claimKey": "inadequate_security_third_party_crime",
+     "label": "Inadequate Security / Third-Party Criminal Act",
+     "probability": [
+      0.5,
+      0.72
+     ],
+     "damagesRange": [
+      2177400,
+      3629000
+     ],
+     "expectedValueRange": [
+      1088700,
+      2612880
+     ],
+     "note": "Inadequate/negligent-security claims require proving the criminal act was FORESEEABLE to the property owner -- a genuinely harder bar than an ordinary hazard claim, and the state's specific foreseeability test (see below) usually matters more than any other single fact. Prior similar incidents have been identified here (see Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718 (2023)). Georgia uses a totality of the circumstances (Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718, 890 S.E.2d 209 (Ga. 2023)) -- prior incidents are only one factor among several (nature of the business, location, area crime patterns, existing security measures), so this claim carries real weight even without them, and is stronger still with them. PLEADING NOTE: Georgia treats premises liability as legally distinct from an ordinary negligent-activity claim -- confirm this is pled/argued under the correct theory, since mischaracterizing it can be outcome-determinative here. Uses the general-damages \"multiplier method\" common in personal-injury claims practice (medical specials x a severity-tiered multiplier, plus lost wages added separately) -- an industry rule-of-thumb range, not itself drawn from a specific cited case; actual jury/settlement values in a given matter can fall well outside it.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Georgia",
+   "medicalSpecialsIncurred": 725800,
+   "lostWagesClaimed": null,
+   "injurySeverity": "severe",
+   "slipAndFallAlleged": false,
+   "hazardNoticeProven": "yes",
+   "selfServiceModeOfOperationApplicable": null,
+   "inadequateSecurityAlleged": true,
+   "priorSimilarCrimeIncidents": true,
+   "structuralFailureAlleged": false,
+   "failureToWarnAlleged": false,
+   "openAndObviousDefenseRaised": false,
+   "plaintiffComparativeFaultPercent": null,
+   "egregiousConductAllegedForPunitives": false,
+   "premisesFaultRule": "Modified Comparative (50% Bar)",
+   "premisesFaultRuleCitation": "Ga. Code \u00a7 51-12-33",
+   "premisesPunitiveDamagesStandard": "Clear and Convincing Evidence -- O.C.G.A. \u00a7 51-12-5.1(b)",
+   "premisesPunitiveDamagesCap": "$250,000 flat cap in most tort cases -- O.C.G.A. \u00a7 51-12-5.1(g) -- with NO cap where the case involves product liability, or the defendant acted with specific intent to cause harm or while impaired by drugs/alcohol. Held constitutional by the Georgia Supreme Court in 2023.",
+   "premisesOpenAndObviousDoctrine": "Traditional No-Duty Bar (operating through the 'equal/superior knowledge' rule rather than a separately labeled open-and-obvious doctrine)",
+   "premisesOpenAndObviousRule": "Traditional No-Duty Bar",
+   "premisesOpenAndObviousCitation": "Robinson v. Kroger Co., 268 Ga. 735, 493 S.E.2d 403 (Ga. 1997)",
+   "premisesNegligentSecurityTest": "Totality of the Circumstances",
+   "premisesNegligentSecurityTestNormalized": "Totality of the Circumstances",
+   "premisesNegligentSecurityCitation": "Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718, 890 S.E.2d 209 (Ga. 2023)",
+   "premisesModeOfOperationAdopted": false,
+   "premisesModeOfOperationCitation": null,
+   "premisesLiabilityDistinct": true,
+   "premisesLiabilityDistinctNote": "Georgia draws a genuine, frequently litigated distinction between 'static condition' claims \u2014 governed by O.C.G.A. \u00a7 51-3-1's superior-knowledge, two-prong Robinson v. Kroger framework, where the owner's liability turns on knowledge superior to the plaintiff's \u2014 and 'active negligence' claims involving an owner's ongoing conduct, where the ordinary duty of care applies regardless of the plaintiff's own knowledge of the risk. This is conceptually similar to, though doctrinally distinct from, Texas's Keetch condition-versus-activity line, and correctly characterizing a claim as 'static condition' versus 'active negligence' is often outcome-determinative in Georgia premises litigation."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 42750000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-06-29",
+  "description": "A Fulton County jury returned a total verdict of $45,000,000, found CVS 95% at fault and the claimant 5% at fault (0% to the shooter and to the acquaintance), and awarded an adjusted $42,750,000 against CVS. The trial court denied CVS's motions for new trial and j.n.o.v. The Court of Appeals of Georgia affirmed on November 8, 2021, and the Supreme Court of Georgia, on certiorari, affirmed on June 29, 2023 (316 Ga. 718), holding that, under the jury instructions given, the verdict apportioning no fault to the shooter was not inconsistent. Amount recorded is the adjusted (net of comparative fault) award; no attorney's fees are stated.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 42750000,
+  "finalNote": "Affirmed by the Court of Appeals (2021) and the Supreme Court of Georgia (2023)."
+ },
+ "source": {
+  "caseName": "Georgia CVS Pharmacy, LLC v. James Carmichael",
+  "court": "Court of Appeals of Georgia (Second Division), on appeal from the State Court of Fulton County; affirmed by the Supreme Court of Georgia, Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718 (2023) (No. S22G0527)",
+  "docket": "A21A0677",
+  "decided": "2021-11-08",
+  "url": "https://efast.gaappeals.gov/download?filingId=1260bd18-1067-424b-9622-9592df19d165",
+  "excerptNote": "Verbatim from the opening paragraph (first two sentences), the trial-record facts, and CVS's arguments as stated in Divisions 1, 1(b) and 2. Removed: every sentence stating the jury's verdict, its fault apportionment or the adjusted damages figure, the standard-of-review passage, footnotes 1-2 and the sentences they interrupt (including CVS's 'main contention' about the acquaintance, which straddles a footnote), the licensee and verdict-form arguments, and all appellate analysis and holdings."
+ }
+}

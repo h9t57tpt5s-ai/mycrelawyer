@@ -1,0 +1,138 @@
+{
+ "id": "tres-botes-v-shree-maa-krupa-2026",
+ "ranAt": "2026-10-20T14:26:09+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   330135.5632164617,
+   517677.3964998155
+  ],
+  "bestGuessValue": 423906.4798581386,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    330135.5632164617,
+    517677.3964998155
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      513200,
+      513200
+     ],
+     "expectedValueRange": [
+      282260,
+      384900
+     ],
+     "note": "",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "accelerated_rent",
+     "label": "Accelerated / Future Rent",
+     "probability": [
+      0.15,
+      0.3
+     ],
+     "damagesRange": [
+      319170.4214430779,
+      442591.3216660518
+     ],
+     "expectedValueRange": [
+      47875.56321646168,
+      132777.39649981554
+     ],
+     "note": "Discounted to present value using a 5%-9% annual rate range (industry/court practice, not a flat percentage haircut).",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "quiet_enjoyment_breach",
+     "label": "Breach of Quiet Enjoyment / Constructive Eviction",
+     "probability": [
+      0.4,
+      0.65
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Fact-intensive claim, informed by comparable cases rather than a formula -- see cited cases.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Texas",
+   "unpaidRentAmount": 513200,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": 80,
+   "monthlyRent": 6650,
+   "hasAccelerationClause": null,
+   "hasRelet": false,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": null,
+   "selfHelpUsed": false,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": true,
+   "gaveCureNoticeLandlordFailedToAct": false,
+   "depositAmount": null,
+   "depositDisputed": null,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "contested-msj",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Available",
+   "wrongfulLockoutRemedyType": "floor",
+   "wrongfulLockoutRemedyValue": 500,
+   "wrongfulLockoutCitation": "Tex. Prop. Code Sec. 93.002/93.003 -- actual damages + greater of one month's rent or $500, plus reasonable attorney's fees and costs."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 187096.44,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-17",
+  "description": "Trial court (judgment signed September 22, 2025) granted summary judgment awarding SMK $79,096.44 against Tres Botes (18 months plus one prorated month at $4,300 until the property was sold) and SDP $108,000 against Dos Botes (12 months at $9,000 until relet), $187,096.44 total; no attorney's fees mentioned. On appeal the $79,096.44 award to SMK was affirmed; the $108,000 award to SDP was reversed and remanded because SDP did not conclusively prove the lease was renewed.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "modified to $79,096.44",
+  "finalAmount": 79096.44,
+  "finalNote": "$79,096.44 affirmed; the $108,000 Dos Botes award reversed and remanded, so the final total could rise."
+ },
+ "source": {
+  "caseName": "Tres Botes, LLC & Dos Botes Entertainment, Inc. v. Shree Maa Krupa Properties, Ltd. & SDP Hotel, LLC",
+  "court": "Texas Court of Appeals, Thirteenth District (Corpus Christi-Edinburg), on appeal from County Court at Law No. 3, Cameron County",
+  "docket": "No. 13-26-00255-CV",
+  "decided": "2026-09-17",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=9f7b53a3-e9d0-4aeb-948c-509e94a6bf80&coa=coa13&DT=Opinion&MediaID=b99beda1-cada-45d1-8793-0f9d08618041",
+  "excerptNote": "Verbatim from Part I (Background) and the parties' summary-judgment evidence and arguments recited in Parts II.B and II.C incl. footnote 7. Removed: the sentence and footnotes 4-5 stating the trial court's September 22, 2025 judgment amounts, and all appellate analysis/holdings."
+ }
+}

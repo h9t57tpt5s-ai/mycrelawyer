@@ -1,0 +1,127 @@
+{
+ "id": "exhibit-source-v-wells-avenue-2018",
+ "ranAt": "2026-10-20T14:34:53+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   -1583.5,
+   6107.000000000002
+  ],
+  "bestGuessValue": 2261.750000000001,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    -1583.5,
+    6107.000000000002
+   ],
+   "claims": [
+    {
+     "claimKey": "property_damage",
+     "label": "Property Damage / Repairs",
+     "probability": [
+      0.7,
+      0.9
+     ],
+     "damagesRange": [
+      11824,
+      13302
+     ],
+     "expectedValueRange": [
+      8276.8,
+      11971.800000000001
+     ],
+     "note": "Reduced for a typical 10-20% normal-wear-and-tear haircut.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "security_deposit",
+     "label": "Wrongfully Withheld Security Deposit",
+     "probability": [
+      0.65,
+      0.9
+     ],
+     "damagesRange": [
+      15982,
+      15982
+     ],
+     "expectedValueRange": [
+      10388.300000000001,
+      14383.800000000001
+     ],
+     "note": "Most states have no commercial-specific deposit statute -- this is usually a straight lease-terms question, not a statutory one.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Massachusetts",
+   "unpaidRentAmount": null,
+   "tenantDisputesDebt": false,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": null,
+   "monthlyRent": null,
+   "hasAccelerationClause": null,
+   "hasRelet": null,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": 14780,
+   "selfHelpUsed": false,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": true,
+   "depositAmount": 15982,
+   "depositDisputed": true,
+   "landlordProvidedItemization": false,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "trial",
+   "mitigationDuty": "No",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Not Available",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "Massachusetts's enhanced wrongful-lockout remedy (M.G.L. c. 186, Sec. 14 -- 3 months' rent or actual damages, whichever greater, plus attorney's fees) is expressly limited to premises 'occupied for dwelling purposes' and does not extend to commercial tenancies. Per counsel-of-record review, Massachusetts commercial self-help issues track ordinary landlord-tenant principles; no confirmed commercial-specific statutory enhancement found."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 44340,
+  "amountIsTheRequestedAmount": false,
+  "date": "2018-11-20",
+  "description": "The jury found for the tenant on the common-law claims and awarded $25,366.70, which the judge remitted to $14,780; the judge separately found a knowing c. 93A violation, set actual damages at the $14,780 retained, trebled them to $44,340, and awarded $60,511.74 in attorney's fees and costs, rejecting the landlord's argument that its offers were reasonable. The Appellate Division affirmed and added $30,100 in appellate fees; the Appeals Court affirmed on November 20, 2018 and allowed further appellate fees.",
+  "attorneysFeesAtTrial": 60511.74,
+  "attorneysFeesOnAppeal": "affirmed; $30,100 more awarded by the Appellate Division and further appellate fees allowed",
+  "appellateChange": "affirmed",
+  "finalAmount": 44340,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "The Exhibit Source, Inc. v. Wells Avenue Business Center, LLC",
+  "court": "Massachusetts Appeals Court, on appeal from the Appellate Division of the Boston Municipal Court (Central Division)",
+  "docket": "No. 17-P-1611 (94 Mass. App. Ct. 497)",
+  "decided": "2018-11-20",
+  "url": "https://storage.courtlistener.com/pdf/2018/11/20/the_exhibit_source_inc._v._wells_avenue_business_center_llc.pdf",
+  "excerptNote": "Verbatim from the Background (the lease, the security-deposit clause, the walk-through, the partial return and retention, the complaint, the landlord's pre-answer offer and footnote 1), the lease's limitation-of-liability clause quoted in Discussion 3, and the sentence listing the landlord's three settlement offers. Removed: the opening paragraph (states the verdict, c. 93A finding and treble award), the sentence 'As the trial judge found, the defendant landlord failed to fulfill its obligations with respect to the security deposit', the footnote 1 marker, the jury verdict, remittitur, c. 93A findings and award, the Appellate Division's ruling and fees, footnote 4, and all analysis."
+ }
+}

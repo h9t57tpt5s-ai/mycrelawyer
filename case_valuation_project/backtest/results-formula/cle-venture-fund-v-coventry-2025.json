@@ -1,0 +1,115 @@
+{
+ "id": "cle-venture-fund-v-coventry-2025",
+ "ranAt": "2026-10-20T14:29:53+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   1255825,
+   1737850
+  ],
+  "bestGuessValue": 1496837.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    1255825,
+    1737850
+   ],
+   "claims": [
+    {
+     "claimKey": "guaranty_enforcement",
+     "label": "Guaranty Enforcement",
+     "probability": [
+      0.8,
+      0.97
+     ],
+     "damagesRange": [
+      1520000,
+      1600000
+     ],
+     "expectedValueRange": [
+      1216000,
+      1552000
+     ],
+     "note": "Once a carve-out (\"bad boy\") trigger is credibly found and undisputed -- no counterclaim or offset pled -- most sampled real cases (5 of 7 with a resolved outcome) show guarantors held liable for close to the full guaranteed balance, even for technical/non-fraud breaches. Two real exceptions cut the other way even on an undisputed trigger: a signature-formality defect can render the guaranty entirely unenforceable (Extech Building Materials v. E&N Construction), and a state's own post-hoc legislative fix can retroactively void the very trigger relied on (Michigan's Nonrecourse Mortgage Loan Act in Borman v. Schwebel). The harder questions -- proving the trigger occurred, and that the guaranty is enforceable in the first place -- aren't modeled as a separate probability here.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.7965,
+      0.92925
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      39825,
+      185850
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Ohio",
+   "loanBalance": 1600000,
+   "foreclosureFiled": false,
+   "foreclosureMethod": "non-judicial",
+   "borrowerDisputesDefault": false,
+   "lenderAdvances": null,
+   "saleProceeds": 1548000,
+   "courtDeterminedFairValue": null,
+   "receivershipMotionFiled": false,
+   "guarantyTriggerAlleged": true,
+   "guaranteedBalance": 1600000,
+   "guarantorAssertsCounterclaimOrOffset": false,
+   "lenderMisconductAlleged": false,
+   "egregiousConductAlleged": false,
+   "lenderLiabilityDamagesClaimed": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial",
+   "foreclosureNonJudicialDominant": false,
+   "foreclosureDeficiencyBarredIfNonJudicial": false,
+   "foreclosureDeficiencyConditionalIfNonJudicial": false,
+   "foreclosureDeficiencyBarredForBorrowerButGuarantorAvailable": false,
+   "foreclosureFairValueOffsetApplies": true,
+   "foreclosureProcedureTrap": null,
+   "foreclosureStateCitation": "Ohio Rev. Code \u00a7\u00a7 2329.17, 2329.20",
+   "foreclosureStateNote": "Ohio foreclosure is judicial only (sheriff's sale). No direct fair-market-value credit against the debt like NY/NJ/PA, but an indirect floor: property cannot legally be sold for less than two-thirds of its court-appraised value, which caps how low a credit bid -- and therefore how large a deficiency -- can go."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1735579.45,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-07-10",
+  "description": "After a bench trial on value the court adopted the lender's expert's retrospective value of $1,310,000 as of the March 27, 2018 transfer, credited it against the debt, and on June 14, 2024 entered judgment against the borrowers and guarantor, jointly and severally, for $1,735,579.45 plus default-rate interest (the lender later withdrew its fee request). The Eighth District affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 1735579.45,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "CLE Venture Fund, L.P. v. Coventry Partners, L.L.C., et al. (Coventry Courts LLC, Coventry Court LLC and John Crigler)",
+  "court": "Court of Appeals of Ohio, Eighth Appellate District (Cuyahoga County)",
+  "docket": "No. 114383, 2025-Ohio-2451 (C.P. No. CV-21-952010)",
+  "decided": "2025-07-10",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-2451.pdf",
+  "excerptNote": "documentText is verbatim from the Factual and Procedural History: the loan, default, forbearance and deed in lieu, the lender's complaint and demand, the trial court's summary-judgment ruling on liability (which left the property's value at transfer for trial), and the trial testimony of both valuation experts. Removed: the opening summary, the trial court's valuation ruling and scrivener's-error correction, the damages judgment amount, the fee withdrawal, the assignments of error and all appellate analysis."
+ }
+}

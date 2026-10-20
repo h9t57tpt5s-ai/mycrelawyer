@@ -1,0 +1,108 @@
+{
+ "id": "dover-mall-v-tang-2023",
+ "ranAt": "2026-10-20T14:27:50+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   151849.346,
+   207067.28999999998
+  ],
+  "bestGuessValue": 179458.31799999997,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    151849.346,
+    207067.28999999998
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      276089.72,
+      276089.72
+     ],
+     "expectedValueRange": [
+      151849.346,
+      207067.28999999998
+     ],
+     "note": "",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Delaware",
+   "unpaidRentAmount": 276089.72,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": null,
+   "monthlyRent": null,
+   "hasAccelerationClause": "yes",
+   "hasRelet": false,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": null,
+   "selfHelpUsed": false,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": null,
+   "depositAmount": null,
+   "depositDisputed": false,
+   "landlordProvidedItemization": false,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "contested-msj",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Not Available",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "Delaware's Landlord-Tenant Code (Title 25) prohibits self-help lockouts, but its detailed provisions and penalties are written for residential rental units. No confirmed commercial-specific wrongful-lockout penalty statute or multiplier was found; treat as actual damages only pending confirmation."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 276089.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-10-05",
+  "description": "The Superior Court granted the landlord summary judgment on liability and damages in the amount of $276,089.72, the full amount demanded, holding the force majeure clause allocated pandemic-closure risk to the tenant and two lease provisions relieved the landlord of any duty to relet. No attorney's fee award is stated. This is a trial-level decision; no appeal is reflected in the opinion.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "n/a (trial-level decision; no appeal in opinion)",
+  "finalAmount": 276089.72,
+  "finalNote": "Trial-level decision; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Dover Mall, LLC v. Sam Tang",
+  "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
+  "docket": "C.A. No. K22C-07-013 JJC",
+  "decided": "2023-10-05",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=353820",
+  "excerptNote": "Verbatim from the letter opinion's introduction (parties' positions), 'The Record and Procedural Background' section (including footnotes 16 and 17), and the fact-recitation portions of the Discussion (Tang's two affirmative defenses; his concession on the damages schedule). Removed: every sentence stating the court's rulings on liability, force majeure, mitigation, and the summary-judgment result; the long quoted remedy/reletting lease clauses; the case-law discussion; the Conclusion. The $276,089.72 figure that remains is Dover Mall's stated demand, not the result."
+ }
+}

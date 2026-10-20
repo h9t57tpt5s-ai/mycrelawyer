@@ -1,0 +1,70 @@
+{
+ "id": "wax-nj2-v-gf55-partners-2015",
+ "ranAt": "2026-10-20T14:36:23+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "construction-defect",
+  "roleLabel": "Owner / Developer",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "New York",
+   "contractorDefectAlleged": true,
+   "repairCostEstimate": null,
+   "catastrophicOrLifeSafety": false,
+   "designErrorAlleged": true,
+   "multiplePartiesIndemnityExists": null,
+   "indemnityClauseCoversIndemniteesOwnNegligence": null,
+   "defectTracedToSingleSubcontractor": true,
+   "ownerSettledWithContractorsAfterInsurerPayout": null,
+   "insurerDeniedCoverage": null,
+   "defectCausedBySubcontractorWork": null,
+   "damageExtendsBeyondDefectItself": null,
+   "defectType": "workmanship-cosmetic-finish",
+   "yearsSinceSubstantialCompletion": null,
+   "differingSiteConditionsAlleged": false,
+   "differingSiteConditionsType": null,
+   "extraCostsFromSiteCondition": null,
+   "constructionIndemnityForm": "intermediate",
+   "constructionIndemnityCitation": "N.Y. Gen. Oblig. Law \u00a7\u00a7 5-322.1 (construction), 5-324 (design)"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 54247,
+  "amountIsTheRequestedAmount": false,
+  "date": "2015-06-09",
+  "description": "After a two-day bench trial the court rejected Wax's lost-square-footage (rent overpayment) theory against GF55, finding no duty to measure for lease purposes and no proven deviation from the standard of care, but held GF55 liable for negligent TR1 inspections and awarded the remediation cost: $35,070 for black iron, $8,000 for fireproofing plus $10,000 protection and cleanup, and $1,177 for firestopping, a total of $54,247. The court separately entered a default judgment of $163,723 against the contractor JFB.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "none",
+  "finalAmount": 54247,
+  "finalNote": "No appeal reflected in the source. Amount verified ($54,247 against GF55 only); the $163,723 default judgment against JFB is excluded because the case valued is the contested claim against the architect. The remediation cost figures appear only in the damages findings, so the input has no dollar figure for the inspection claim; the calculator may decline or price only the rent theory."
+ },
+ "source": {
+  "caseName": "Wax NJ-2, LLC v. JFB Construction & Development and GF 55 Partners",
+  "court": "U.S. District Court for the Southern District of New York (findings of fact and conclusions of law after bench trial), 111 F. Supp. 3d 434",
+  "docket": "No. 13-cv-4537 (AJN)",
+  "decided": "2015-06-09",
+  "url": "https://static.case.law/f-supp-3d/111/cases/0434-01.json",
+  "excerptNote": "Verbatim from the opening paragraph and the Findings of Fact sections A-H (site selection and measurements, the October 9, 2012 plan and lease negotiations, GF55's responsibilities and the TR1, the plans and the Wax-JFB contract, the demising-wall problem, the construction deficiencies, both experts, JFB's default), whole paragraphs with record citations kept; plus, from the Conclusions of Law, the sentence framing Wax's two theories, GF55's concession on the quality of its inspections with Gross's cross-examination admissions, and GF55's two-part proximate-cause argument. Removed: the trial-procedure paragraphs, the court's characterizations resolving disputes (the 'ambiguous at best' sentence, the paragraph on Gulyas's comments, the brick-feature conclusion), section headings, and all legal analysis, holdings, the damages findings and the judgment (including the default-judgment amount against JFB). Caption from the Caselaw Access Project record. The opinion states no dollar figure for Wax's claimed damages outside the damages findings."
+ }
+}

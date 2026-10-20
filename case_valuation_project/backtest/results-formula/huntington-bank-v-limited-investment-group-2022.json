@@ -1,0 +1,139 @@
+{
+ "id": "huntington-bank-v-limited-investment-group-2022",
+ "ranAt": "2026-10-20T14:29:16+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   271090.82999999996,
+   442704.44
+  ],
+  "bestGuessValue": 356897.635,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    271090.82999999996,
+    442704.44
+   ],
+   "claims": [
+    {
+     "claimKey": "foreclosure_deficiency_judgment",
+     "label": "Foreclosure / Deficiency Judgment",
+     "probability": [
+      0.6,
+      0.8
+     ],
+     "damagesRange": [
+      411193.05,
+      411193.05
+     ],
+     "expectedValueRange": [
+      246715.83,
+      328954.44
+     ],
+     "note": "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator -- treat this figure as case value, not a collection forecast. Ohio's deficiency-judgment rules were applied (Ohio Rev. Code \u00a7\u00a7 2329.17, 2329.20). A fair-value offset applies here (the credit against the debt is the greater of sale proceeds or a court-determined fair value) -- enter a fair-value figure if one has been determined and it exceeds the sale proceeds, which would reduce this deficiency.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "receivership_dispute",
+     "label": "Receivership Grant/Denial",
+     "probability": [
+      0.65,
+      0.85
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Not a dollar claim -- operational-control relief. Sample has grown to 10 real matters; of the 8 with a reported ruling, 7 resulted in a receiver appointed and 1 (Brick Air Capital v. NLD Props.) was denied outright even with a consent-to-receivership clause, on the court's equitable discretion.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "lender_liability_claim",
+     "label": "Lender Liability (borrower-asserted)",
+     "probability": [
+      0.1,
+      0.25
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Historically borrower-unfriendly absent clear bad faith; recent real cases trend toward procedural wins rather than dollar outcomes. Damages, if any, are typically limited to contract damages and out-of-pocket costs.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.4875,
+      0.56875
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      24375,
+      113750
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Ohio",
+   "loanBalance": 521052.41,
+   "foreclosureFiled": true,
+   "foreclosureMethod": "judicial",
+   "borrowerDisputesDefault": true,
+   "lenderAdvances": null,
+   "saleProceeds": 109859.36,
+   "courtDeterminedFairValue": null,
+   "receivershipMotionFiled": true,
+   "guarantyTriggerAlleged": null,
+   "guaranteedBalance": null,
+   "guarantorAssertsCounterclaimOrOffset": null,
+   "lenderMisconductAlleged": true,
+   "egregiousConductAlleged": null,
+   "lenderLiabilityDamagesClaimed": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial",
+   "foreclosureNonJudicialDominant": false,
+   "foreclosureDeficiencyBarredIfNonJudicial": false,
+   "foreclosureDeficiencyConditionalIfNonJudicial": false,
+   "foreclosureDeficiencyBarredForBorrowerButGuarantorAvailable": false,
+   "foreclosureFairValueOffsetApplies": true,
+   "foreclosureProcedureTrap": null,
+   "foreclosureStateCitation": "Ohio Rev. Code \u00a7\u00a7 2329.17, 2329.20",
+   "foreclosureStateNote": "Ohio foreclosure is judicial only (sheriff's sale). No direct fair-market-value credit against the debt like NY/NJ/PA, but an indirect floor: property cannot legally be sold for less than two-thirds of its court-appraised value, which caps how low a credit bid -- and therefore how large a deficiency -- can go."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1374413.88,
+  "amountIsTheRequestedAmount": false,
+  "date": "2022-10-13",
+  "description": "After a January 2017 bench trial the court entered judgment for Huntington in all four actions, rejected the borrower's claims, held the cognovit judgment could not be collaterally attacked and that Huntington was entitled to recover the full amount of the cognovit note, $1,374,413.88 (per diem $97.69733), and later awarded Huntington $928,593.73 in attorney fees and expenses. The Tenth District affirmed.",
+  "attorneysFeesAtTrial": 928593.73,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 1374413.88,
+  "finalNote": "Affirmed in full."
+ },
+ "source": {
+  "caseName": "Limited Investment Group Corp. v. Huntington National Bank (consolidated with Franklin County Treasurer v. Limited Investment Group Corp. and two Huntington National Bank v. Limited Investment Group Corp. actions)",
+  "court": "Court of Appeals of Ohio, Tenth Appellate District (Franklin County)",
+  "docket": "Nos. 21AP-61, 21AP-62, 21AP-63, 21AP-64, 2022-Ohio-3657 (C.P.C. Nos. 10CV-3000, 12CV-1454, 12CV-1602, 12CV-6175)",
+  "decided": "2022-10-13",
+  "url": "https://storage.courtlistener.com/pdf/2022/10/13/ltd._invest._group_corp._v._huntington_natl._bank.pdf",
+  "excerptNote": "documentText is verbatim from paragraphs 2-20 (the loan, the draw dispute, the fire and insurance check, the cognovit judgments, the borrower's suit, the foreclosure, receivership and creditor's-bill actions, and consolidation). Removed: paragraph 1 (which states the appeal is affirmed), footnotes 1 and 2 and their markers, running headers, paragraph 21 onward (the bench-trial findings, the amount the court held due, the fee award, and all appellate analysis). Note: the facts are recited after a bench trial the bank won, so they lean toward the bank's version."
+ }
+}

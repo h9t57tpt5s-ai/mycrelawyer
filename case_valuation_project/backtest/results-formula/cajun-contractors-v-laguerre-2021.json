@@ -1,0 +1,79 @@
+{
+ "id": "cajun-contractors-v-laguerre-2021",
+ "ranAt": "2026-10-20T14:34:35+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    0,
+    0
+   ],
+   "claims": []
+  },
+  "extractedFacts": {
+   "filingParty": "sideB",
+   "state": "Georgia",
+   "medicalSpecialsIncurred": null,
+   "lostWagesClaimed": null,
+   "injurySeverity": "moderate",
+   "slipAndFallAlleged": false,
+   "hazardNoticeProven": null,
+   "selfServiceModeOfOperationApplicable": null,
+   "inadequateSecurityAlleged": false,
+   "priorSimilarCrimeIncidents": null,
+   "structuralFailureAlleged": true,
+   "failureToWarnAlleged": true,
+   "openAndObviousDefenseRaised": null,
+   "plaintiffComparativeFaultPercent": null,
+   "egregiousConductAllegedForPunitives": true,
+   "premisesFaultRule": "Modified Comparative (50% Bar)",
+   "premisesFaultRuleCitation": "Ga. Code \u00a7 51-12-33",
+   "premisesPunitiveDamagesStandard": "Clear and Convincing Evidence -- O.C.G.A. \u00a7 51-12-5.1(b)",
+   "premisesPunitiveDamagesCap": "$250,000 flat cap in most tort cases -- O.C.G.A. \u00a7 51-12-5.1(g) -- with NO cap where the case involves product liability, or the defendant acted with specific intent to cause harm or while impaired by drugs/alcohol. Held constitutional by the Georgia Supreme Court in 2023.",
+   "premisesOpenAndObviousDoctrine": "Traditional No-Duty Bar (operating through the 'equal/superior knowledge' rule rather than a separately labeled open-and-obvious doctrine)",
+   "premisesOpenAndObviousRule": "Traditional No-Duty Bar",
+   "premisesOpenAndObviousCitation": "Robinson v. Kroger Co., 268 Ga. 735, 493 S.E.2d 403 (Ga. 1997)",
+   "premisesNegligentSecurityTest": "Totality of the Circumstances",
+   "premisesNegligentSecurityTestNormalized": "Totality of the Circumstances",
+   "premisesNegligentSecurityCitation": "Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718, 890 S.E.2d 209 (Ga. 2023)",
+   "premisesModeOfOperationAdopted": false,
+   "premisesModeOfOperationCitation": null,
+   "premisesLiabilityDistinct": true,
+   "premisesLiabilityDistinctNote": "Georgia draws a genuine, frequently litigated distinction between 'static condition' claims \u2014 governed by O.C.G.A. \u00a7 51-3-1's superior-knowledge, two-prong Robinson v. Kroger framework, where the owner's liability turns on knowledge superior to the plaintiff's \u2014 and 'active negligence' claims involving an owner's ongoing conduct, where the ordinary duty of care applies regardless of the plaintiff's own knowledge of the risk. This is conceptually similar to, though doctrinally distinct from, Texas's Keetch condition-versus-activity line, and correctly characterizing a claim as 'static condition' versus 'active negligence' is often outcome-determinative in Georgia premises litigation."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 5250000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2021-06-30",
+  "description": "The jury found Cajun vicariously liable for its subcontractor, apportioned 100% of fault to Cajun, and awarded $5,000,000 compensatory and $500,336 punitive damages; the trial court entered judgment of $5,250,000 (punitive capped at $250,000) and awarded Laguerre $1,050,000 in attorney fees plus $45,196.47 in expenses under OCGA 9-11-68 based on the rejected $75,000 offer. The Court of Appeals affirmed the judgment and fee award on June 30, 2021 (A21A1120) and reversed the hotel defendants' indemnity judgment against Cajun (A21A0311). Laguerre separately received $1,000,000 from the hotel defendants' pre-trial settlement, which is not part of this amount.",
+  "attorneysFeesAtTrial": 1050000,
+  "attorneysFeesOnAppeal": "affirmed",
+  "appellateChange": "affirmed",
+  "finalAmount": 5250000,
+  "finalNote": "Affirmed as to Laguerre's judgment and fees."
+ },
+ "source": {
+  "caseName": "Cajun Contractors, Inc. v. Max Laguerre et al. (companion: Cajun Contractors, Inc. v. Peachtree Property Sub, LLC, d/b/a Crowne Plaza Hotel Atlanta-Midtown)",
+  "court": "Court of Appeals of Georgia, First Division",
+  "docket": "A21A1120, A21A0311",
+  "decided": "2021-06-30",
+  "url": "https://storage.courtlistener.com/pdf/2021/06/30/cajun_contractors_inc._v._peachtree_property_sub_llc_dba_crowne_plaza.pdf",
+  "excerptNote": "Verbatim from the Case No. A21A1120 statement of facts (the trade contract, the rooftop pool-deck demolition, safety measures, the falling pipe and injuries, footnote 3 on conflicting testimony, the complaint, and the pre-trial hotel settlement), with the clause 'So viewed, the evidence shows that' cut from the first sentence; from Division 2, the offer history (the $75,000 April 2018 offer, Cajun's $25,000 and $50,000 counteroffers, and the first sentence of footnote 11 on the $250,000 global offer); and from Case No. A21A0311, the hotel defendants' indemnity tender and the $1,000,000 settlement. Removed: the opening paragraphs (state the verdict, fee award and holdings), footnotes 1, 2, 4, 5 and markers, the verdict, punitive phase and judgment, the post-trial motions and fee award, the rest of footnote 11, and all analysis."
+ }
+}

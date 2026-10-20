@@ -1,0 +1,133 @@
+{
+ "id": "south-pacific-lumber-v-imperial-pacific-2023",
+ "ranAt": "2026-10-20T14:36:16+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   457839.8055,
+   706077.0075000001
+  ],
+  "bestGuessValue": 581958.4065,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    457839.8055,
+    706077.0075000001
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      787436.01,
+      787436.01
+     ],
+     "expectedValueRange": [
+      433089.8055,
+      590577.0075000001
+     ],
+     "note": "",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "wrongful_lockout",
+     "label": "Wrongful Eviction / Unlawful Lockout",
+     "probability": [
+      0.3,
+      0.6
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "No damages amount entered -- probability shown reflects state self-help law and whether statutory process was followed.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.49500000000000005,
+      0.5775000000000001
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      24750.000000000004,
+      115500.00000000003
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": null,
+   "unpaidRentAmount": 787436.01,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": 0,
+   "monthlyRent": 16240,
+   "hasAccelerationClause": null,
+   "hasRelet": false,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": true,
+   "holdoverMonths": 16,
+   "propertyDamageAmount": null,
+   "selfHelpUsed": true,
+   "selfHelpProcessFollowed": "unclear",
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": false,
+   "depositAmount": null,
+   "depositDisputed": false,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": null,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 766595.33,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-08-25",
+  "description": "On partial summary judgment the court awarded $243,600 rent for March 2020 to May 2021, $17,052 interest and $6,701 utilities ($267,353; the procedural history swaps the interest and utilities labels, the damages section and conclusion confirm them). After the January 11, 2023 bench trial the court rejected the constructive-eviction defense, held double rent accrued only from August 1, 2021 after the July 28, 2021 notice, and awarded a further $431,861 rent and double rent for June 1, 2021 to September 21, 2022 and $67,381.33 interest at 1% per month on the balance excluding double rent, entering judgment for $766,595.33 ($675,461 rent, $84,433.33 interest, $6,701 utilities) plus post-judgment interest and attorney's fees to be set on motion.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "none",
+  "finalAmount": 766595.33,
+  "finalNote": "No appeal reflected in the source. Amount verified against the conclusion. It includes the 1%-per-month interest ($84,433.33) because the court awarded it as part of the damages and the landlord's own demands ($787,436.01 at trial) include it, as the set does for other lease judgments with contract-rate interest (e.g. GSL Investments, Slyce); without interest the award is $682,162. Fees awarded, amount not stated."
+ },
+ "source": {
+  "caseName": "South Pacific Lumber Co. v. Imperial Pacific International (CNMI), LLC",
+  "court": "U.S. District Court for the Northern Mariana Islands (findings of fact and conclusions of law after bench trial)",
+  "docket": "Case No. 1:21-cv-00027 (ECF No. 42)",
+  "decided": "2023-08-25",
+  "url": "https://www.nmid.uscourts.gov/sites/nmid/files/opinions/1-21-cv-00027-42.pdf",
+  "excerptNote": "Verbatim from the introduction, Procedural History, Findings of Fact (lease, extension, access and padlocking, holdover notice) and, from the Conclusions of Law, only the parties' positions, the quoted HTA double-rent and fee provisions, the CNMI interest cap, SPLC's interest concession and the lease's fee clause. Kept: the court's pre-trial partial-summary-judgment liability rulings (no figures). Removed: the sentence stating the total awarded at trial and its components, the sentence stating the partial-summary-judgment dollar award, the court's finding that IPI always had access, the constructive-eviction holding, the double-rent accrual ruling, the interest ruling, the damages section and table, the conclusion, footnotes 1-7 (and footnote markers 1-4 dropped from their sentences), record citations in parentheses, PDF line numbers, page footers and the caption. Also removed in review: the finding that from June 8, 2022 'IPI had all the keys to use and access the Warehouse', which resolves the disputed constructive-eviction question."
+ }
+}

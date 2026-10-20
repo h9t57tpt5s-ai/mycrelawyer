@@ -1,0 +1,175 @@
+{
+ "id": "slyce-v-metropolitan-square-plaza-2025",
+ "ranAt": "2026-10-20T14:33:35+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   322615.27280000004,
+   555495.9928
+  ],
+  "bestGuessValue": 439055.6328,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    322615.27280000004,
+    555495.9928
+   ],
+   "claims": [
+    {
+     "claimKey": "unpaid_rent",
+     "label": "Unpaid Rent",
+     "probability": [
+      0.55,
+      0.75
+     ],
+     "damagesRange": [
+      365255,
+      365255
+     ],
+     "expectedValueRange": [
+      200890.25000000003,
+      273941.25
+     ],
+     "note": "",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "releasing_mitigation_costs",
+     "label": "Re-Leasing / Mitigation Costs",
+     "probability": [
+      0.6,
+      0.85
+     ],
+     "damagesRange": [
+      23800,
+      28000
+     ],
+     "expectedValueRange": [
+      14280,
+      23800
+     ],
+     "note": "Landlord's work, tenant-improvement allowances, and leasing commissions incurred to re-lease the space -- usually actual, invoiced costs, so recovery tends to run close to the amount claimed.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "property_damage",
+     "label": "Property Damage / Repairs",
+     "probability": [
+      0.7,
+      0.9
+     ],
+     "damagesRange": [
+      108091.104,
+      121602.49200000001
+     ],
+     "expectedValueRange": [
+      75663.7728,
+      109442.2428
+     ],
+     "note": "Reduced for a typical 10-20% normal-wear-and-tear haircut.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "quiet_enjoyment_breach",
+     "label": "Breach of Quiet Enjoyment / Constructive Eviction",
+     "probability": [
+      0.5,
+      0.8
+     ],
+     "damagesRange": null,
+     "expectedValueRange": null,
+     "note": "Fact-intensive claim, informed by comparable cases rather than a formula -- see cited cases.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "attorney_fees",
+     "label": "Attorney's Fees",
+     "probability": [
+      0.635625,
+      0.7415625
+     ],
+     "damagesRange": [
+      50000,
+      200000
+     ],
+     "expectedValueRange": [
+      31781.25,
+      148312.5
+     ],
+     "note": "Posture-tiered flat-dollar estimate (went to trial) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Illinois",
+   "unpaidRentAmount": 365255,
+   "tenantDisputesDebt": true,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": null,
+   "monthlyRent": null,
+   "hasAccelerationClause": null,
+   "hasRelet": false,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": 135113.88,
+   "selfHelpUsed": false,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": null,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": true,
+   "gaveCureNoticeLandlordFailedToAct": true,
+   "depositAmount": null,
+   "depositDisputed": null,
+   "landlordProvidedItemization": null,
+   "releaseWorkCosts": 28000,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": true,
+   "litigationPosture": "trial",
+   "mitigationDuty": "Yes",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Not Available",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "735 ILCS 5/9-101 et seq. (Forcible Entry and Detainer Act) requires judicial process for eviction; self-help is prohibited for Illinois commercial landlords. No confirmed statutory damages multiplier for a wrongful commercial lockout -- tenant's remedy is actual damages, which can include lost business revenue, emergency relocation costs, and property/inventory losses, plus attorney's fees and costs."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 852421.64,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-03-31",
+  "description": "After a bench trial the court rejected the tenant's breach claim (and dismissed unjust enrichment), found the tenant and guarantors liable, and entered judgment for the landlord of $852,421.64: $365,255.76 rent, taxes and utilities through April 30, 2022; $111,910.38 construction expenses; $327,626.48 lump-sum liquidated damages; $28,000 brokerage fees; and $19,629.02 prejudgment interest. It later awarded $202,034.79 in attorney fees and costs without an evidentiary hearing. The Appellate Court affirmed liability and damages except the $28,000 brokerage fee, which it reversed, and reversed and remanded the fee award for an evidentiary hearing.",
+  "attorneysFeesAtTrial": 202034.79,
+  "attorneysFeesOnAppeal": "reversed and remanded for evidentiary hearing",
+  "appellateChange": "modified",
+  "finalAmount": 824421.64,
+  "finalNote": "Affirmed except the $28,000 brokerage-fee component, which was reversed; fee award remanded."
+ },
+ "source": {
+  "caseName": "Slyce Coal Fired Pizza Company v. Metropolitan Square Plaza, LLC (Laurie Barth and Brittany Barth-Niggemann, counterdefendants)",
+  "court": "Appellate Court of Illinois, First District, First Division (2025 IL App (1st) 221279), on appeal from the Circuit Court of Cook County",
+  "docket": "Nos. 1-22-1279 & 1-22-1868 (consolidated)",
+  "decided": "2025-03-31",
+  "url": "https://www.illinoiscourts.gov/resources/a6e89c4f-4ca1-4fbd-b6a1-6e70253d0bbb/file",
+  "excerptNote": "Verbatim from the Background (paragraphs 4-6, 8, 12, 14-16, 18, 20-23, 25-26, 28-29, 36, 42, 44-45, 48-49), selected trial testimony (65, 73, 97-102) and Metro's closing and Slyce's posttrial arguments (112-113). Paragraph numbers, section headings, page headers, footnotes 1-3 (including the quoted section 14.5 text) and footnote markers removed. Removed: the introduction (which states the award and disposition), the remaining testimony paragraphs, the Trial Court Findings (114-124, which state the liability findings and the itemized $852,421.64 judgment), the fee proceedings, and all appellate analysis and holdings."
+ }
+}

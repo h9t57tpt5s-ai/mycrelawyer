@@ -1,0 +1,79 @@
+{
+ "id": "hrt-enterprises-v-detroit-2025",
+ "ranAt": "2026-10-20T14:30:42+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   270720,
+   752000
+  ],
+  "bestGuessValue": 511360,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    270720,
+    752000
+   ],
+   "claims": [
+    {
+     "claimKey": "regulatory_taking",
+     "label": "Regulatory Taking (Penn Central/Lucas)",
+     "probability": [
+      0.1,
+      0.25
+     ],
+     "damagesRange": [
+      2707200,
+      3008000
+     ],
+     "expectedValueRange": [
+      270720,
+      752000
+     ],
+     "note": "Rarely succeeds absent a near-total wipeout of economic value; when it does, damages tend toward full pre-regulation value.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": null,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": null,
+   "regulatoryTakingAlleged": true,
+   "propertyFairMarketValue": 3008000
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1976820,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-12-22",
+  "description": "The first jury fixed the taking date at January 1, 2009 and awarded $4.25 million; the district court ordered a remittitur to $2,008,000, the City rejected it, and a second jury awarded HRT $1,976,820 in just compensation. The Sixth Circuit affirmed on December 22, 2025 (ripeness, res judicata, liability, bifurcation and the remittitur all upheld; Thapar, J., dissenting on res judicata). Amount used is the operative second verdict.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 1976820,
+  "finalNote": "Affirmed; the operative judgment is the second jury's $1,976,820 (first verdict of $4.25 million was remitted and retried)."
+ },
+ "source": {
+  "caseName": "HRT Enterprises v. City of Detroit, Michigan",
+  "court": "United States Court of Appeals for the Sixth Circuit, on appeal from the U.S. District Court for the Eastern District of Michigan",
+  "docket": "Nos. 23-1847/1855 (E.D. Mich. No. 2:12-cv-13710)",
+  "decided": "2025-12-22",
+  "url": "https://storage.courtlistener.com/pdf/2025/12/22/hrt_enterprises_v._city_of_detroit_mich._1.pdf",
+  "excerptNote": "Verbatim from Part I.A-C (facts, prior litigation, the district court's list of post-2005 developments and its liability ruling) and the Part VI.B paragraph describing the parties' valuation testimony at the first trial. Removed: the opening summary paragraph (both jury awards, the remittitur and the disposition), the sentences reporting the first jury's date finding and $4.25 million award, the remittitur figure, the second trial and second verdict, the district court's and panel's evaluation of each valuation witness, all holdings, and the dissent. Running page headers removed; whitespace normalized."
+ }
+}

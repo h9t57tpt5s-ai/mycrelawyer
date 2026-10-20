@@ -1,0 +1,79 @@
+{
+ "id": "inglewood-v-aklilu-2007",
+ "ranAt": "2026-10-20T14:35:05+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   105000,
+   210000
+  ],
+  "bestGuessValue": 157500,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    105000,
+    210000
+   ],
+   "claims": [
+    {
+     "claimKey": "just_compensation_valuation",
+     "label": "Just Compensation Valuation",
+     "probability": [
+      1,
+      1
+     ],
+     "damagesRange": [
+      105000,
+      210000
+     ],
+     "expectedValueRange": [
+      105000,
+      210000
+     ],
+     "note": "Severance/access/business-value disputes ran 2x-5x+ above the initial offer in the research sample (one case ~49x).",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "initialOffer": 35000,
+   "severanceOrBusinessValueDispute": true,
+   "challengingTheTaking": false,
+   "opposingSurveyAccess": null,
+   "regulatoryTakingAlleged": false,
+   "propertyFairMarketValue": null
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 200000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2007-07-30",
+  "description": "The jury found Aklilu suffered lost goodwill of $200,000 (his expert said $238,716; the Agency's said none). In a separate proceeding the court apportioned $4,265 of the $34,525 paid for fixtures and equipment to Aklilu (not included here), denied his motion for litigation expenses, and gave the Agency a setoff against interest for post-possession rent. The Second District affirmed on July 30, 2007 (rehearing denied and opinion modified August 20, 2007), approving the 'cost to create' goodwill valuation.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 200000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Inglewood Redevelopment Agency v. Elias Aklilu, d/b/a Auto Inn Lube and Oil",
+  "court": "California Court of Appeal, Second Appellate District, Division Three",
+  "docket": "B185107 (153 Cal.App.4th 1095)",
+  "decided": "2007-07-30",
+  "url": "https://static.case.law/cal-app-4th/153/cases/1095-01.json",
+  "excerptNote": "Verbatim from Facts and Procedural Background parts 1 (redevelopment plan, condemnation, settlements with the fee owners and the subtenant, the demand and the offer) and 2.a-2.c (Aklilu's testimony, his business-valuation expert, the Agency's expert). Removed: the Summary (states the verdict and holdings), part 2.d (jury instructions), part 2.e (verdict and fixtures allocation), part 3 (post-verdict proceedings), and all analysis. Source text is the Caselaw Access Project copy of the official report (no court-hosted PDF for this 2007 opinion; CourtListener opinion 2250303). The reviewer should confirm the source URL resolves; the saved text is the CAP case body."
+ }
+}

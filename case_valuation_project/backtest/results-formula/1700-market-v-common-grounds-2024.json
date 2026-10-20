@@ -1,0 +1,127 @@
+{
+ "id": "1700-market-v-common-grounds-2024",
+ "ranAt": "2026-10-20T14:33:27+00:00",
+ "status": 200,
+ "prediction": {
+  "model": null,
+  "analysisVersion": "formula",
+  "cost": null,
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   89895.29999999981,
+   2274825.5
+  ],
+  "bestGuessValue": 1182360.4,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": null,
+  "issues": [],
+  "citationCoverage": null,
+  "scenarios": null,
+  "missingFacts": null,
+  "valuationDate": null,
+  "baseline": {
+   "damagesRange": [
+    89895.29999999981,
+    2274825.5
+   ],
+   "claims": [
+    {
+     "claimKey": "releasing_mitigation_costs",
+     "label": "Re-Leasing / Mitigation Costs",
+     "probability": [
+      0.6,
+      0.85
+     ],
+     "damagesRange": [
+      3899825.5,
+      4588030
+     ],
+     "expectedValueRange": [
+      2339895.3,
+      3899825.5
+     ],
+     "note": "Landlord's work, tenant-improvement allowances, and leasing commissions incurred to re-lease the space -- usually actual, invoiced costs, so recovery tends to run close to the amount claimed.",
+     "isBenchmark": false
+    },
+    {
+     "claimKey": "security_deposit",
+     "label": "Wrongfully Withheld Security Deposit",
+     "probability": [
+      0.65,
+      0.9
+     ],
+     "damagesRange": [
+      2500000,
+      2500000
+     ],
+     "expectedValueRange": [
+      1625000,
+      2250000
+     ],
+     "note": "Most states have no commercial-specific deposit statute -- this is usually a straight lease-terms question, not a statutory one.",
+     "isBenchmark": false
+    }
+   ]
+  },
+  "extractedFacts": {
+   "filingParty": "sideA",
+   "state": "Pennsylvania",
+   "unpaidRentAmount": null,
+   "tenantDisputesDebt": false,
+   "hasWrittenLease": true,
+   "leaseTerminated": true,
+   "remainingMonths": null,
+   "monthlyRent": 171677,
+   "hasAccelerationClause": "yes",
+   "hasRelet": false,
+   "reletRentAmount": null,
+   "heldOverAfterTerm": false,
+   "holdoverMonths": null,
+   "propertyDamageAmount": null,
+   "selfHelpUsed": false,
+   "selfHelpProcessFollowed": null,
+   "wrongfulLockoutDamages": null,
+   "daysLockedOut": null,
+   "selfHelpDisruptedThirdPartyContracts": false,
+   "lostProfitsFromInterference": null,
+   "repairFailureOrInterferenceClaimed": false,
+   "gaveCureNoticeLandlordFailedToAct": false,
+   "depositAmount": 2500000,
+   "depositDisputed": true,
+   "landlordProvidedItemization": false,
+   "releaseWorkCosts": 4588030,
+   "impliedWarrantyOfSuitabilityAlleged": false,
+   "suitabilityWarrantyWaivedByLease": null,
+   "suitabilityRepairCostOrRentWithheld": null,
+   "hasFeeShiftingClause": null,
+   "litigationPosture": "trial",
+   "mitigationDuty": "Unclear",
+   "holdoverStatutoryPenalty": false,
+   "selfHelpAvailable": "Not Available",
+   "wrongfulLockoutRemedyType": "actual-only",
+   "wrongfulLockoutRemedyValue": null,
+   "wrongfulLockoutCitation": "Pennsylvania's Landlord and Tenant Act requires judicial process for eviction; self-help lockouts (changing locks, removing doors, shutting off utilities) are prohibited statewide, including for commercial tenancies. No confirmed statewide statutory damages multiplier -- tenant's remedy is actual damages plus attorney's fees and costs. Note local variation exists (e.g., Philadelphia's ordinance, Phila. Code Sec. 9-1603, allows punitive damages up to $2,000 per unlawful self-help eviction attempt within the city -- not modeled here since it is a municipal, not statewide, enhancement)."
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 223000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-04-01",
+  "description": "After a non-jury trial the court entered judgment for the landlord for $223,000, the rent due through July 1, 2022 when it regained possession, holding the tenant had been evicted (not abandoned) so the landlord could not recover post-possession rent; it denied the landlord's post-trial claim to $2,149,435.75 in actual damages. The Superior Court affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 223000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "1700 Market Street Associates, L.P., SRI Eleven 1700 Market Holdings REIT, LLC, and 1700 Property Owner, LLC v. Common Grounds 1700 Market Street, LLC and Common Grounds Holdings, LLC",
+  "court": "Superior Court of Pennsylvania (published, 2024 PA Super 63), on appeal from the Court of Common Pleas of Philadelphia County (No. 02451 May Term 2022)",
+  "docket": "No. 1314 EDA 2023",
+  "decided": "2024-04-01",
+  "url": "https://www.pacourts.us/assets/opinions/Superior/out/J-A28029-23o.pdf",
+  "excerptNote": "Verbatim from the opinion's background (lease terms, abatement, the \u00b625(b) remedies clause, the default notices, the Municipal Court complaint and itemization, the breach-of-contract complaint) and the record facts recited in the discussion (the writ of possession, its notice, the alias writ and the return of keys), plus the landlord's appellate position that the tenant abandoned the premises. Removed: the opening paragraph (which states the award), the \u00b625(c) confession-of-judgment clause (for length), footnotes 1-3 and markers, page headers, the paragraph stating the trial court's judgment and post-trial rulings, the questions presented, and all appellate analysis and holdings (including 'The record demonstrates that Appellants followed this procedure to legally evict Appellees')."
+ }
+}
