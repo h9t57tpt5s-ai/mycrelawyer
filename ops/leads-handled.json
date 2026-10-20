@@ -467,6 +467,18 @@
   "https://www.courtlistener.com/docket/74989401/diego-beekman-mutual-housing-association-housing-development-fund/": {
    "at": "2026-10-20",
    "action": "skipped: residential mutual housing association (affordable housing nonprofit), not commercial real estate"
+  },
+  "opinion:11040587": {
+   "at": "2026-10-20",
+   "action": "skipped: individual pro se appellant (Mark Matthews) in a residential subdivision development-permit dispute with the City of Tacoma, not a commercial real estate business matter"
+  },
+  "opinion:11040573": {
+   "at": "2026-10-20",
+   "action": "skipped: residential mortgage foreclosure appeal, individual defendant (Xiaowei He)"
+  },
+  "opinion:11039987": {
+   "at": "2026-10-20",
+   "action": "skipped: individual party (Carson Blackwell) in a residential house/land ownership and deed-reformation dispute, not commercial real estate"
   }
  }
 }
