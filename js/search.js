@@ -266,11 +266,19 @@
       }
     }
 
-    let debounceTimer;
+    let debounceTimer, searchLogTimer;
     input.addEventListener("input", (e) => {
       clearTimeout(debounceTimer);
       debounceTimer = setTimeout(() => renderResults(e.target.value), 120);
       if (window.RELAW_UTILS && window.RELAW_UTILS.loadMatterText) window.RELAW_UTILS.loadMatterText();
+      const q = e.target.value.trim();
+      clearTimeout(searchLogTimer);
+      if (q.length >= 3 && window.RELAW_TRACK) {
+        // This overlay (Cmd/Ctrl+K, every page) has never logged a search at
+        // all -- logged once typing pauses, same floor/shape as the
+        // litigation.html filter box's own tracked "search" event.
+        searchLogTimer = setTimeout(() => window.RELAW_TRACK("search", { detail: `overlay: ${search(q).length} results` }), 1500);
+      }
     });
     // Write-up text arrives after the first keystroke; re-run the search.
     document.addEventListener("relaw:matter-text", () => { if (input.value.trim()) renderResults(input.value); });

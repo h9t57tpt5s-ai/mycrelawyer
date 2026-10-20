@@ -326,6 +326,13 @@
     state.query = qParam;
     searchInput.value = qParam;
     if (window.RELAW_UTILS.loadMatterText) window.RELAW_UTILS.loadMatterText();
+    // Landing here sets .value directly, which never dispatches "input", so
+    // the debounced tracker above never fires for a ?q= link (the matter-page
+    // search box, or the global search overlay's "view all"). Log it here
+    // once instead, same length floor as the typed path.
+    if (qParam.trim().length >= 3 && window.RELAW_TRACK) {
+      window.RELAW_TRACK("search", { detail: "tracker: landed via ?q=" });
+    }
   }
   // ?case=<id> -- opens a specific matter's detail panel directly, e.g.
   // from a watchlist alert email, without the reader having to search
