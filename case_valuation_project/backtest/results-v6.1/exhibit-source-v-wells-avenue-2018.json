@@ -1,0 +1,242 @@
+{
+ "id": "exhibit-source-v-wells-avenue-2018",
+ "ranAt": "2026-10-20T02:26:23+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2317,
+   "analysisUsd": 0.2236,
+   "analysisUsage": {
+    "input_tokens": 1300,
+    "cache_creation_input_tokens": 12640,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 12640,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11488,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 6183
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   0,
+   43137.72
+  ],
+  "bestGuessValue": 31494.061999999998,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Exhibit Source is very likely to recover the $14,780 wrongfully withheld portion of its security deposit on the contract claim, given the landlord's undisputed failure to follow the lease's notice-and-cure procedure before applying the deposit. The judge is also likely to find a G.L. c. 93A \u00a711 violation given the pattern of false assurances and after-the-fact damage claim, triggering at least double damages and mandatory attorney's fees, with a real but less certain chance of treble damages; the landlord's escalating settlement offers are unlikely to meaningfully blunt that exposure.",
+  "issues": [
+   {
+    "label": "Breach of Contract \u2014 Wrongful Retention of Security Deposit",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     0,
+     13577.72
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 13577.72,
+    "kind": "claim",
+    "claimType": "security_deposit",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Security deposit retained by landlord",
+      "value": 14780,
+      "disputed": true,
+      "quote": "the landlord returned $1,202.28 of the deposit, and retained $14,780",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Partial deposit already returned",
+      "value": 1202.28,
+      "disputed": false,
+      "quote": "the landlord returned $1,202.28 of the deposit",
+      "computed": null,
+      "role": "credit"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "G.L. c. 93A \u00a711 Violation and Mandatory Attorney's Fees",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "G.L. c. 93A \u00a711 Multiple Damages (Double/Treble)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     29560
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 29560,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Added multiple-damages portion (treble = base x2 additional)",
+      "value": 29560,
+      "disputed": true,
+      "quote": "the landlord returned $1,202.28 of the deposit, and retained $14,780",
+      "computed": "14780 x 2",
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Conversion of Security Deposit Funds",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Misrepresentation Regarding Return of Deposit",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Breach of Implied Covenant of Good Faith and Fair Dealing",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Landlord's Property-Damage Justification for Retention",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "property_damage",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.89875,
+   "settlementValue": 31311.3278299993,
+   "likely50": [
+    13577.72,
+    43137.72
+   ],
+   "likely80": [
+    0,
+    43137.72
+   ],
+   "ifWin": [
+    43137.72,
+    43137.72
+   ],
+   "median": 43137.72,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2018-11-20"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 44340,
+  "amountIsTheRequestedAmount": false,
+  "date": "2018-11-20",
+  "description": "The jury found for the tenant on the common-law claims and awarded $25,366.70, which the judge remitted to $14,780; the judge separately found a knowing c. 93A violation, set actual damages at the $14,780 retained, trebled them to $44,340, and awarded $60,511.74 in attorney's fees and costs, rejecting the landlord's argument that its offers were reasonable. The Appellate Division affirmed and added $30,100 in appellate fees; the Appeals Court affirmed on November 20, 2018 and allowed further appellate fees.",
+  "attorneysFeesAtTrial": 60511.74,
+  "attorneysFeesOnAppeal": "affirmed; $30,100 more awarded by the Appellate Division and further appellate fees allowed",
+  "appellateChange": "affirmed",
+  "finalAmount": 44340,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "The Exhibit Source, Inc. v. Wells Avenue Business Center, LLC",
+  "court": "Massachusetts Appeals Court, on appeal from the Appellate Division of the Boston Municipal Court (Central Division)",
+  "docket": "No. 17-P-1611 (94 Mass. App. Ct. 497)",
+  "decided": "2018-11-20",
+  "url": "https://storage.courtlistener.com/pdf/2018/11/20/the_exhibit_source_inc._v._wells_avenue_business_center_llc.pdf",
+  "excerptNote": "Verbatim from the Background (the lease, the security-deposit clause, the walk-through, the partial return and retention, the complaint, the landlord's pre-answer offer and footnote 1), the lease's limitation-of-liability clause quoted in Discussion 3, and the sentence listing the landlord's three settlement offers. Removed: the opening paragraph (states the verdict, c. 93A finding and treble award), the sentence 'As the trial judge found, the defendant landlord failed to fulfill its obligations with respect to the security deposit', the footnote 1 marker, the jury verdict, remittitur, c. 93A findings and award, the Appellate Division's ruling and fees, footnote 4, and all analysis."
+ }
+}

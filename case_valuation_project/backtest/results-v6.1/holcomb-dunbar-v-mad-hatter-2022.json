@@ -1,0 +1,216 @@
+{
+ "id": "holcomb-dunbar-v-mad-hatter-2022",
+ "ranAt": "2026-10-20T02:17:45+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2335,
+   "analysisUsd": 0.2214,
+   "analysisUsage": {
+    "input_tokens": 3205,
+    "cache_creation_input_tokens": 12640,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 12640,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10961,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 5321
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   15600,
+   130000
+  ],
+  "bestGuessValue": 52487.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The landlord should recover unpaid rent through the lease-termination/cure-period cutoff (roughly $19,500) with relatively little difficulty, but the much larger accelerated-rent claim for the balance of the three-year term (roughly $110,500 more) faces a serious, largely dispositive election-of-remedies problem created by the landlord's own decision to sue for ejectment and possession alongside future rent under a forfeiture-only lease clause. The tenant's good-faith/breach counterclaim is thin on the merits but creates enough factual dispute to likely defeat full summary judgment and send at least some issues to trial.",
+  "issues": [
+   {
+    "label": "Accelerated rent beyond the cure period (Aug. 2017-Dec. 2018)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     0,
+     110500
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 110500,
+    "kind": "claim",
+    "claimType": "accelerated_rent",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Accelerated rent, 17 months at $6,500/month beyond cure period",
+      "value": 110500,
+      "disputed": true,
+      "quote": "Mad Hatter claimed twenty months of rent, from May 2017 to December 2018 at $6,500 a month, plus late fees.",
+      "computed": "6500 x 17",
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Unpaid rent through lease termination/cure period",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     19500,
+     19500
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 19500,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Past-due rent demanded in three-day notice",
+      "value": 19500,
+      "disputed": false,
+      "quote": "the firm did not pay its past due rent of $19,500 and related fees in three days",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Election of remedies: possession vs. rent defense",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Tenant's good-faith/material-breach counterclaim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Failure to mitigate (subtenant search)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "releasing_mitigation_costs",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Late fees",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.85925,
+   "settlementValue": 50638.25,
+   "likely50": [
+    19500,
+    130000
+   ],
+   "likely80": [
+    0,
+    130000
+   ],
+   "ifWin": [
+    130000,
+    130000
+   ],
+   "median": 19500,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2022-03-17"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 133900,
+  "amountIsTheRequestedAmount": true,
+  "date": "2022-03-17",
+  "description": "The trial court granted the landlord summary judgment for all twenty months of unpaid rent (May 2017 through December 2018 at $6,500 a month) plus late fees, $133,900 in total, the full amount claimed in the motion; the tenant's remaining counterclaims went to a jury, which found against it. The Mississippi Court of Appeals affirmed (May 18, 2021) and the Supreme Court of Mississippi, on certiorari, affirmed on March 17, 2022, holding the default letters did not terminate the lease, the election-of-remedies and mitigation arguments were waived, and the alleged breaches were immaterial.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 133900,
+  "finalNote": "Affirmed by the Court of Appeals and, on certiorari, by the Supreme Court of Mississippi."
+ },
+ "source": {
+  "caseName": "Holcomb, Dunbar, Watts, Best, Masters & Golmon, P.A. f/k/a Holcomb Dunbar, P.A. v. 400 South Lamar Oxford Mad Hatter Partners, LLC and Blake Tartt III",
+  "court": "Supreme Court of Mississippi (en banc, on writ of certiorari to the Court of Appeals), on appeal from the Lafayette County Circuit Court",
+  "docket": "No. 2019-CT-01702-SCT",
+  "decided": "2022-03-17",
+  "url": "https://courts.ms.gov/images/Opinions/CO160186.pdf",
+  "excerptNote": "Verbatim from paragraphs 1, 2 (first two sentences only), 3-5, 6 (first two sentences only), the tenant's arguments and the quoted lease paragraph 21 in paragraphs 9-10, and the tenant's material-breach allegations and related lease facts in paragraphs 16-17 and 19-20. Page numbers removed. Removed: every sentence stating the summary-judgment ruling or the $133,900 award, the jury verdict on the counterclaims, the Court of Appeals' and Supreme Court's holdings, the mitigation-waiver discussion, and the motion-to-quash and motion-to-amend rulings."
+ }
+}

@@ -1,0 +1,247 @@
+{
+ "id": "walmart-v-howell-2024",
+ "ranAt": "2026-10-20T02:24:09+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2853,
+   "analysisUsd": 0.2788,
+   "analysisUsage": {
+    "input_tokens": 2255,
+    "cache_creation_input_tokens": 11124,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11124,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15353,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 9273
+    }
+   }
+  },
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": [
+   33605.046,
+   56008.41
+  ],
+  "bestGuessValue": 37805.676750000006,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability is favorable for the Howells given two independent, evidence-backed theories of Walmart's notice (employee-created hazard plus constructive notice from the pre-fall employee walk-through), tempered by a genuine comparative-negligence jury question given Redding's own near-miss on the same substance. Quantified economic damages are modest, but permanent-injury findings from the FCE support materially greater non-economic and future-damages exposure that the record doesn't let us price with a specific figure, so the real settlement/verdict value likely exceeds the conservative, record-grounded range computed below.",
+  "issues": [
+   {
+    "label": "Employee-Created Hazard / Actual Notice (WD-40 Spill)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "slip_and_fall_hazardous_condition",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Constructive Notice via Pre-Fall Employee Inspection",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "dangerous_condition_failure_to_warn",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Documented Economic Damages (Medical Expenses & Lost Wages)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     56008.41,
+     56008.41
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 56008.41,
+    "kind": "claim",
+    "claimType": "slip_and_fall_hazardous_condition",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Medical expenses",
+      "value": 46008.41,
+      "disputed": false,
+      "quote": "incurred medical expenses in the amount of $46,008.41",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Lost wages",
+      "value": 10000,
+      "disputed": false,
+      "quote": "lost wages in the amount of $10,000.00",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Future Medical Expenses and General (Pain & Suffering) Damages",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Loss of Consortium (Oscar Howell)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Comparative Negligence / Equal Knowledge Defense",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Lifted $75,000 Federal Remand Damages Cap",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "OCGA \u00a7 9-11-68 Fee-Shifting Exposure from Rejected Statutory Offer",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 0,
+   "tier": "none"
+  },
+  "scenarios": {
+   "pAhead": 0.66625,
+   "settlementValue": 37315.60316249818,
+   "likely50": [
+    0,
+    56008.41
+   ],
+   "likely80": [
+    0,
+    56008.41
+   ],
+   "ifWin": [
+    56008.41,
+    56008.41
+   ],
+   "median": 56008.41,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2024-03-12"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 300000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-03-12",
+  "description": "The jury awarded the plaintiffs $300,000; the trial court denied Walmart's motion for JNOV (to cut the award to $75,000 under the federal remand order) or new trial. The Court of Appeals affirmed on March 12, 2024, holding the trial court did not abuse its discretion in declining to apply judicial estoppel. The opinion notes no judgment had yet been entered on the verdict. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 300000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Wal-Mart Stores East, LP v. Maria Howell and Oscar Howell",
+  "court": "Court of Appeals of Georgia, Third Division",
+  "docket": "A23A1198",
+  "decided": "2024-03-12",
+  "url": "https://storage.courtlistener.com/pdf/2024/03/12/wal-mart_stores_east_lp_v._maria_howell.pdf",
+  "excerptNote": "Verbatim from the statement of facts: the fall, the store video and witness, the pre-suit demand and counteroffer, the complaint's medical and wage figures, the removal and remand with its $75,000 limit, the functional capacity evaluation, the June 2020 offer of settlement and the January 2021 demand, the later evidence that an employee caused the spill, and the pre-trial order lifting the $75,000 limit. Removed: the opening paragraph (states the verdict and holding), the standard-of-review paragraph, footnotes 1-6 and the footnote marker '6' after 'OCGA \u00a7 9-11-68', the verdict, the post-trial motions, and all analysis."
+ }
+}

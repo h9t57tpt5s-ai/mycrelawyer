@@ -1,0 +1,251 @@
+{
+ "id": "tres-botes-v-shree-maa-krupa-2026",
+ "ranAt": "2026-10-19T23:08:13+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.3218,
+   "analysisUsd": 0.3113,
+   "analysisUsage": {
+    "input_tokens": 2477,
+    "cache_creation_input_tokens": 12640,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 12640,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17095,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 10864
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   0,
+   513200
+  ],
+  "bestGuessValue": 345524,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "SMK is likely to win summary judgment on liability against Tres Botes, with the dollar recovery close to (but possibly trimmed below) the pleaded $189,200 once mitigation and post-sale assignment issues are addressed. SDP's parallel motion against Dos Botes is unlikely to be granted as filed because the renewal's very existence is genuinely disputed and SDP's own 2013 deed raises an unresolved standing problem; that claim is better characterized as a real toss-up headed toward trial, worth somewhere between nothing and the full $324,000 depending on whether SDP can produce proof of the signed renewal and its continuing interest in the property.",
+  "issues": [
+   {
+    "label": "Tres Botes \u2013 Breach of Lease / Rent Damages",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     0,
+     189200
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 189200,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Tres Botes total owed (delinquent plus remaining lease term)",
+      "value": 189200,
+      "disputed": true,
+      "quote": "The petition alleged Tres Botes thus breached the lease and owed $189,200, representing four months\u2019 delinquent rent and forty-four months remaining on the lease.",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Tres Botes \u2013 Sale-of-Premises Clause Defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Tres Botes \u2013 General Affirmative Defenses (Estoppel, Fraud, Failure of Consideration)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Dos Botes \u2013 Breach of Renewed Lease / Future Rent",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     324000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 324000,
+    "kind": "claim",
+    "claimType": "accelerated_rent",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Dos Botes total owed for remaining renewed term",
+      "value": 324000,
+      "disputed": true,
+      "quote": "The petition argued Dos Botes thus breached the lease and owed $324,000, representing the thirty -six months remaining in the renewed lease term",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   },
+   {
+    "label": "Dos Botes \u2013 Prior Material Breach / Anticipatory Breach Defense",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Dos Botes \u2013 SDP's 2013 Sale / Standing Defect",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Declaration of Trade Name Ownership (The Toucan Lounge)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Attorney's Fees on Successful Breach Claims",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.97325,
+   "settlementValue": 342662.4,
+   "likely50": [
+    189200,
+    513200
+   ],
+   "likely80": [
+    189200,
+    513200
+   ],
+   "ifWin": [
+    513200,
+    513200
+   ],
+   "median": 189200,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2026-09-17"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 187096.44,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-17",
+  "description": "Trial court (judgment signed September 22, 2025) granted summary judgment awarding SMK $79,096.44 against Tres Botes (18 months plus one prorated month at $4,300 until the property was sold) and SDP $108,000 against Dos Botes (12 months at $9,000 until relet), $187,096.44 total; no attorney's fees mentioned. On appeal the $79,096.44 award to SMK was affirmed; the $108,000 award to SDP was reversed and remanded because SDP did not conclusively prove the lease was renewed.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "modified to $79,096.44",
+  "finalAmount": 79096.44,
+  "finalNote": "$79,096.44 affirmed; the $108,000 Dos Botes award reversed and remanded, so the final total could rise."
+ },
+ "source": {
+  "caseName": "Tres Botes, LLC & Dos Botes Entertainment, Inc. v. Shree Maa Krupa Properties, Ltd. & SDP Hotel, LLC",
+  "court": "Texas Court of Appeals, Thirteenth District (Corpus Christi-Edinburg), on appeal from County Court at Law No. 3, Cameron County",
+  "docket": "No. 13-26-00255-CV",
+  "decided": "2026-09-17",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=9f7b53a3-e9d0-4aeb-948c-509e94a6bf80&coa=coa13&DT=Opinion&MediaID=b99beda1-cada-45d1-8793-0f9d08618041",
+  "excerptNote": "Verbatim from Part I (Background) and the parties' summary-judgment evidence and arguments recited in Parts II.B and II.C incl. footnote 7. Removed: the sentence and footnotes 4-5 stating the trial court's September 22, 2025 judgment amounts, and all appellate analysis/holdings."
+ }
+}

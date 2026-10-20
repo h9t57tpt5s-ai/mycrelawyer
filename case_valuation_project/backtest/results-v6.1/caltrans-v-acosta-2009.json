@@ -1,0 +1,158 @@
+{
+ "id": "caltrans-v-acosta-2009",
+ "ranAt": "2026-10-20T02:28:21+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2021,
+   "analysisUsd": 0.198,
+   "analysisUsage": {
+    "input_tokens": 1503,
+    "cache_creation_input_tokens": 11818,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11818,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9946,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 5605
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   305100,
+   705000
+  ],
+  "bestGuessValue": 365500,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Acosta's independent PMPA-based goodwill claim is likely foreclosed, but the assignment-based claim survives to trial on a genuinely disputed fact question \u2014 whether BP's stipulated judgment with Caltrans already released any goodwill claim. If Acosta wins that threshold fight, quantum will likely land between the two appraisals ($678,000\u2013$731,000, practically capped near Acosta's own $705,000 demand); if Caltrans wins it, Acosta recovers nothing. Net expected value should be discounted substantially below the full appraisal range to reflect that real, roughly even, liability risk.",
+  "issues": [
+   {
+    "label": "Goodwill Damages Quantum (Assignment Theory)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     678000,
+     731000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 731000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Caltrans appraiser goodwill valuation",
+      "value": 678000,
+      "disputed": true,
+      "quote": "Caltrans\u2019s appraiser arrived at a value of $678,000",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Acosta appraiser goodwill valuation",
+      "value": 731000,
+      "disputed": true,
+      "quote": "Acosta\u2019s appraiser put the value at $731,000",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "PMPA Preemption of Independent \u00a7 1263.510 Claim",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "regulatory_taking",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Scope of BP's Stipulated Judgment (Release vs. Carve-Out)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.51425,
+   "settlementValue": 362364.840816232,
+   "likely50": [
+    0,
+    705078.9062308613
+   ],
+   "likely80": [
+    0,
+    720748.9804378711
+   ],
+   "ifWin": [
+    692088.8077712152,
+    717752.9617415275
+   ],
+   "median": 679649.8336440418,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2009-10-26"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 704500,
+  "amountIsTheRequestedAmount": false,
+  "date": "2009-10-26",
+  "description": "After the court denied Caltrans's summary-adjudication motion and its motion in limine to exclude goodwill evidence, Caltrans and Acosta stipulated (March 26, 2008) to judgment of $704,500 on the goodwill claim, reserving Caltrans's right to appeal issues of law; the court entered judgment as stipulated and awarded Acosta $288,537.75 in litigation expenses and expert fees under section 1250.410 (final demand $705,000 reasonable, final offer $150,000 unreasonable). The Third District affirmed both on October 26, 2009, holding the goodwill claim is not preempted by the PMPA. This is a stipulated judgment, not a verdict.",
+  "attorneysFeesAtTrial": 288537.75,
+  "attorneysFeesOnAppeal": "affirmed",
+  "appellateChange": "affirmed",
+  "finalAmount": 704500,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "People ex rel. Department of Transportation v. Mercedes Acosta and Hammer 99, Inc.",
+  "court": "California Court of Appeal, Third Appellate District",
+  "docket": "C059064 (178 Cal.App.4th 762)",
+  "decided": "2009-10-26",
+  "url": "https://static.case.law/cal-app-4th/178/cases/0762-01.json",
+  "excerptNote": "Verbatim from Facts and Proceedings, from the filing of the condemnation through the denial of Caltrans's motion in limine (the franchise and sublease, the PMPA demurrers, the BP and owner settlements, the BP assignment, the summary-adjudication ruling, the final demand and final offer), and two sentences from Part III giving each side's appraisal of the goodwill. Removed: the introduction (states the stipulated judgment and holdings), the March 2008 stipulated judgment and everything after it in Facts and Proceedings, the litigation-expense ruling and amounts, the trial court's reasonableness findings, and all other analysis. Source text is the Caselaw Access Project copy of the official report (no court-hosted PDF for this 2009 opinion; CourtListener opinion 2260340). The reviewer should confirm the source URL resolves; the saved text is the CAP case body."
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "id": "inglewood-v-aklilu-2007",
+ "ranAt": "2026-10-20T02:30:04+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1943,
+   "analysisUsd": 0.1881,
+   "analysisUsage": {
+    "input_tokens": 2957,
+    "cache_creation_input_tokens": 11818,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11818,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8994,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 4566
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   137208,
+   355668
+  ],
+  "bestGuessValue": 223366.2,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Aklilu is a reasonably strong favorite to recover the undisputed fixtures/equipment value (~$171,510) but faces a genuine, legally-grounded risk that his $238,716 cost-to-create goodwill figure will be discounted or rejected because that methodology sits uneasily with the earnings-based definition of compensable goodwill under CCP 1263.510 that Mamaux's testimony tracks more closely; a split verdict crediting a reduced goodwill award is the most probable trial outcome, with total recovery well above the Agency's $35,000 offer but below Aklilu's $355,668 demand.",
+  "issues": [
+   {
+    "label": "Lost business goodwill under CCP 1263.510",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     0,
+     238716
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 238716,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Pedersen cost-to-create goodwill valuation",
+      "value": 238716,
+      "disputed": true,
+      "quote": "concluded Auto Inn had adjusted annual losses of $35,000, $37,000, $49,000, $53,000, $52,000 and $12,000 in the years 1998 through 2003, for a total loss of $238,716",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Fixtures and equipment value",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     171510,
+     171510
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 171510,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Fixtures and equipment (Pedersen appraisal)",
+      "value": 171510,
+      "disputed": false,
+      "quote": "the value of the fixtures and equipment ($171,510)",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized",
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.85675,
+   "settlementValue": 219985.3305,
+   "likely50": [
+    171510,
+    410226
+   ],
+   "likely80": [
+    0,
+    410226
+   ],
+   "ifWin": [
+    410226,
+    410226
+   ],
+   "median": 171510,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2007-07-30"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 200000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2007-07-30",
+  "description": "The jury found Aklilu suffered lost goodwill of $200,000 (his expert said $238,716; the Agency's said none). In a separate proceeding the court apportioned $4,265 of the $34,525 paid for fixtures and equipment to Aklilu (not included here), denied his motion for litigation expenses, and gave the Agency a setoff against interest for post-possession rent. The Second District affirmed on July 30, 2007 (rehearing denied and opinion modified August 20, 2007), approving the 'cost to create' goodwill valuation.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 200000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Inglewood Redevelopment Agency v. Elias Aklilu, d/b/a Auto Inn Lube and Oil",
+  "court": "California Court of Appeal, Second Appellate District, Division Three",
+  "docket": "B185107 (153 Cal.App.4th 1095)",
+  "decided": "2007-07-30",
+  "url": "https://static.case.law/cal-app-4th/153/cases/1095-01.json",
+  "excerptNote": "Verbatim from Facts and Procedural Background parts 1 (redevelopment plan, condemnation, settlements with the fee owners and the subtenant, the demand and the offer) and 2.a-2.c (Aklilu's testimony, his business-valuation expert, the Agency's expert). Removed: the Summary (states the verdict and holdings), part 2.d (jury instructions), part 2.e (verdict and fixtures allocation), part 3 (post-verdict proceedings), and all analysis. Source text is the Caselaw Access Project copy of the official report (no court-hosted PDF for this 2007 opinion; CourtListener opinion 2250303). The reviewer should confirm the source URL resolves; the saved text is the CAP case body."
+ }
+}

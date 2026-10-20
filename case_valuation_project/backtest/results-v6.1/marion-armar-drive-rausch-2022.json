@@ -1,0 +1,174 @@
+{
+ "id": "marion-armar-drive-rausch-2022",
+ "ranAt": "2026-10-20T02:35:35+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.1757,
+   "analysisUsd": 0.1701,
+   "analysisUsage": {
+    "input_tokens": 2543,
+    "cache_creation_input_tokens": 11818,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11818,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 7874,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 3514
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   78755,
+   800000
+  ],
+  "bestGuessValue": 776000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability for the taking is not contested; the entire dispute is the jury's valuation of just compensation. Given the Trust's own appraiser's low figure ($280,625, below the commission's award), the exclusion of the Trust's retained expert as a discovery sanction, and the court's stripping of comparable-sales foundation from the substitute owner-witness's testimony, the most probable jury outcome lands between the City's $82,900 appraisal and the $403,000 commission award, with meaningful but secondary upside risk/opportunity toward the owner's unsupported $800,000 opinion, capped by the Trust's own stated $1,000,000 ask.",
+  "issues": [
+   {
+    "label": "Just Compensation / Diminution in Value",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     82900,
+     800000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 800000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "City's certified appraiser valuation",
+      "value": 82900,
+      "disputed": true,
+      "quote": "The City timely designated an expert who opined that just compensation was $82,900.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Trust's own retained appraiser valuation",
+      "value": 280625,
+      "disputed": true,
+      "quote": "The Trust retained an appraiser who opined the loss in value was $280,625.",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Compensation commission award",
+      "value": 403000,
+      "disputed": true,
+      "quote": "On March 29, the compensation commission awarded $403,000 as just compensation",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Owner James's lay opinion of diminution in value",
+      "value": 800000,
+      "disputed": true,
+      "quote": "the fair market value of the property decreased by around $800,000 after the partial taking",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Exclusion of Trust's Retained Expert as Discovery Sanction",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Exclusion of Comparable-Sales Foundation for Owner-Witness Testimony",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.975,
+   "settlementValue": 427622.36322326807,
+   "likely50": [
+    243309.66036277823,
+    612762.1055258205
+   ],
+   "likely80": [
+    137779.5736476779,
+    724472.7672586218
+   ],
+   "ifWin": [
+    255613.58271103818,
+    617004.5274754753
+   ],
+   "median": 427062.58258398157,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2022-05-06"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 82900,
+  "amountIsTheRequestedAmount": true,
+  "date": "2022-05-06",
+  "description": "The Linn County jury awarded the Trust $82,900, exactly the City's expert's figure (against the commission's $403,000, the Trust's appraiser's $280,625 opinion from the commission proceeding, and James Rausch's roughly $800,000 opinion). The Court of Appeals affirmed; on further review the Iowa Supreme Court vacated the Court of Appeals decision but affirmed the district court judgment on May 6, 2022 (the owner was not qualified as an expert to testify about comparable sales).",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 82900,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "In re Condemnation of Certain Rights in Land for the Extension of Armar Drive Project by the City of Marion, Iowa (Phyllis M. Rausch, as Trustee of the William J. Rausch Family Trust v. City of Marion)",
+  "court": "Supreme Court of Iowa, on further review from the Iowa Court of Appeals, appeal from the Iowa District Court for Linn County",
+  "docket": "No. 19-1582",
+  "decided": "2022-05-06",
+  "url": "https://storage.courtlistener.com/pdf/2022/05/06/in_the_matter_of_the_condemnation_of_certain_rights_in_land_for_the.pdf",
+  "excerptNote": "Verbatim from Part I, Background Facts and Proceedings: the property, its zoning and location, the trustee's son's qualifications, the partial taking, the Trust's appraiser's $280,625, the commission's $403,000 award, the Trust's $1 million demand, the expert-exclusion order, the City's expert's $82,900, the City's motion in limine and the ruling barring James Rausch's comparable-sales testimony, the three offered comparable sales, and the trial testimony the court allowed (James's $12-per-square-foot value and roughly $800,000 loss; the City appraiser's reasons for rejecting the comparables). The City's appraiser's figure, which the jury adopted, is kept as a party's stated position, so amountIsTheRequestedAmount is true (following lcra-st-louis-v-osher-2020). Removed: the caption summary and introduction (the issue and holding), the trust-income and family details, James's long testimony transcripts, the sentence stating the jury's award, and all of the appellate arguments and analysis."
+ }
+}

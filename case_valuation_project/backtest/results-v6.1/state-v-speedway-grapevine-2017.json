@@ -1,0 +1,236 @@
+{
+ "id": "state-v-speedway-grapevine-2017",
+ "ranAt": "2026-10-20T02:37:35+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v6",
+  "cost": {
+   "totalUsd": 0.2252,
+   "analysisUsd": 0.2169,
+   "analysisUsage": {
+    "input_tokens": 4341,
+    "cache_creation_input_tokens": 11818,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 11818,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10638,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 5238
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   132431.9,
+   2579209
+  ],
+  "bestGuessValue": 1364705.33,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability for the taking is conceded; the case will be decided entirely on competing valuation evidence at trial. Expect the jury to award something close to the $140,000-$160,000 range on the part taken (the experts are close here), with the real variable being severance damages to the remainder, which could range from near-zero-plus-cost-to-cure (Wall's theory) to over $2.6 million (McRoberts's highest-and-best-use-change theory) -- a genuine toss-up given credible, specific evidence supporting functional impairment (reduced throat depth, zoning nonconformance) balanced against a feasible, inexpensively costed cure plan.",
+  "issues": [
+   {
+    "label": "Severance Damages to the Remainder (Diminution in Value / Highest-and-Best-Use Change)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     2419420
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 2419420,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "McRoberts demolition cost added to damages",
+      "value": 190000,
+      "disputed": true,
+      "quote": "McRoberts then added $190,000.00 to that figure for the cost to demolish the improvements",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Wall's cost to cure",
+      "value": 105826,
+      "disputed": true,
+      "quote": "excluding a total cost to cure of $105,826.00",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Himes's estimate of O'Connor cure plan hard costs",
+      "value": 131421,
+      "disputed": true,
+      "quote": "Stan Himes estimated the hard costs of O'Connor's cure plan to be $131,421.00",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "McRoberts remainder value before condemnation",
+      "value": 3060598,
+      "disputed": true,
+      "quote": "Considering his calculations for the value of the remainder property before the condemnation ($3,060,598.00)",
+      "computed": null,
+      "role": "before_value"
+     },
+     {
+      "label": "McRoberts remainder value after condemnation",
+      "value": 641178,
+      "disputed": true,
+      "quote": "and the value of the remainder property after the condemnation ($641,178.00), McRoberts opined that Speedway's remainder property had sustained damages in the amount of $2,419,420.00",
+      "computed": null,
+      "role": "after_value"
+     },
+     {
+      "label": "Wall remainder value before condemnation",
+      "value": 2362014,
+      "disputed": true,
+      "quote": "Wall opined that before the condemnation, the remainder property had a market value of $2,362,014.00",
+      "computed": null,
+      "role": "before_value"
+     },
+     {
+      "label": "Wall remainder value after condemnation",
+      "value": 2362014,
+      "disputed": true,
+      "quote": "for a total remainder value of $2,362,014.00",
+      "computed": null,
+      "role": "after_value"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "Value of the Part Condemned (Land and Improvements in the 4,189 sq ft Strip)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     139402,
+     159789
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 159789,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "McRoberts's value of the part condemned",
+      "value": 139402,
+      "disputed": true,
+      "quote": "McRoberts thus opined that the condemned part had a total value of $139,402.00",
+      "computed": null,
+      "role": "amount"
+     },
+     {
+      "label": "Wall's value of the part condemned",
+      "value": 159789,
+      "disputed": true,
+      "quote": "Wall thus opined that the condemned part had a total value of $159,789.00",
+      "computed": null,
+      "role": "amount"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing",
+    "interest": null
+   },
+   {
+    "label": "High's Lay Opinion of Precondemnation Whole-Property Value",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   },
+   {
+    "label": "Scope Narrowing from Speedway's Stipulated Waiver of Access-Impairment Theories",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null,
+    "interest": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  },
+  "scenarios": {
+   "pAhead": 0.9725,
+   "settlementValue": 742513.2261851365,
+   "likely50": [
+    149087.19003467634,
+    1361047.2959708616
+   ],
+   "likely80": [
+    142786.9571731654,
+    2060678.9744656377
+   ],
+   "ifWin": [
+    780782.5078799615,
+    1965576.4099158538
+   ],
+   "median": 159341.48286549398,
+   "draws": 4000
+  },
+  "missingFacts": [],
+  "valuationDate": "2017-10-19"
+ },
+ "error": null,
+ "outcome": {
+  "amount": 4493218,
+  "amountIsTheRequestedAmount": false,
+  "date": "2017-10-19",
+  "description": "The Tarrant County jury found the part condemned was worth $92,190 and the remainder sustained damages of $4,401,028 ($4,493,218 in total), well above the owner's appraiser's $2,748,822 and the State's appraiser's $265,615 (the special commissioners had awarded $954,285). The trial court signed judgment for Speedway for $3,538,933 plus prejudgment interest after crediting the State's $954,285 deposit, and denied a new trial. The Fort Worth Court of Appeals affirmed on October 19, 2017. No attorney's fees in a Texas condemnation award.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 4493218,
+  "finalNote": "Affirmed; amount is the sum of the two verdict lines (the deposit is part of it; judgment $3,538,933 is net of the $954,285 deposit)."
+ },
+ "source": {
+  "caseName": "The State of Texas v. Speedway Grapevine I, LLC, a Texas Limited Liability Company, and First Commercial Bank, N.A.",
+  "court": "Court of Appeals of Texas, Second District (Fort Worth), on appeal from County Court at Law No. 1 of Tarrant County (No. 2014-000122-1)",
+  "docket": "No. 02-16-00144-CV",
+  "decided": "2017-10-19",
+  "url": "https://dev.txcourts.gov/media/2szeipg4/opinion-cece8e47-5b32-4c04-ab83-ba12edaeaf1a.pdf",
+  "excerptNote": "Verbatim from Part II, Background, sections A-D.2 (the property, the strip taking, the special commissioners' award, the pretrial motions to exclude and rulings, and each witness's testimony: traffic engineer, zoning consultant, the owner's representative's $5.4 million before-value, the owner's appraiser's cost-approach figures and $2,748,822 total, the State's land planner's cure plan and its $131,421 cost, the city official, and the State's appraiser's $265,615 total), with footnotes 2 and 5. One sentence of the owner's appraiser's testimony (remainder value before the taking, $3,060,598) is omitted because footnote 2 splits it in the PDF; the next kept sentence restates that figure. Two sentences that open with the clause 'In calculating the value of the remainder property after the condemnation,' (McRoberts's change-in-use opinion and Wall's cure-plan/exemption conclusion) are omitted: the checker strips that recurring line as a running header, so neither sentence can be matched whole. McRoberts's change-in-use opinion is supplied instead by two verbatim sentences from Part IV that restate his testimony ('As alluded to, McRoberts opined ...'); Wall's points survive in O'Connor's and Stombaugh's testimony. Removed: the introduction (affirmance), footnotes 1, 3, 4 and 6 and markers, the descriptions of the site images, section D.3 (Verdict and Judgment) and all of the analysis. The opinion is from the Texas courts' own site."
+ }
+}
