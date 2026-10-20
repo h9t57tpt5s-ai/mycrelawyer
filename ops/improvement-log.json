@@ -473,6 +473,24 @@
    "checkAfter": "2026-10-26",
    "status": "watching",
    "note": "Shares imp-020's checkAfter window and metric -- this is the measurement fix that lets imp-020's own experiment actually be judged, not a separate UI change. No audit regression (site_audit.py counts identical before/after); node --check passed on both edited files (deno unavailable this session)."
+  },
+  {
+   "id": "imp-023",
+   "date": "2026-10-20",
+   "track": "traffic",
+   "title": "Drafted this week's LinkedIn posts in ops/social-drafts/ (backlog G5 refresh)",
+   "why": "Second run today. Nothing new to judge: no watching entry has a checkAfter on or before 2026-10-20 that wasn't already judged by the first run (imp-006/imp-007/imp-008, all resolved before this run started). Audit clean (brokenLinks/orphanPages/missingTitle/missingCanonical/missingFromSitemap/heavyPages all 0; missingDescription 2 and weakDescription 1 are the same already-explained noindex/pre-existing pages from prior runs). Re-checked the 2026-10-16 'one open experiment per goal' rule: every goal still has an open watching entry (traffic: imp-009/imp-012; conversion: imp-010/imp-013/imp-020/imp-022; calculator: imp-011/imp-014/imp-016; subscription: imp-015; news: imp-017), and none has gone 7 days without a tracked change (most recent per track: conversion imp-022 today, calculator imp-016 2026-10-17, subscription imp-015 2026-10-17, news imp-017 2026-10-17, traffic imp-012 2026-10-15), so no goal qualifies for a new tracked experiment this run. Per the backlog's own instruction for this case ('fix something from the audit or the backlog that is not measured by a goal metric'), checked ops/social-drafts/ (last refreshed 2026-10-18, imp-018) against js/data.js and found 11 matters added since (live-305 through live-315) with no drafts yet.",
+   "files": [
+    "ops/social-drafts/2026-10-20.md",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "b129cdc6ac836221280eb8dfe272da1c2e9907db",
+   "metric": "none -- draft content for Jeff, not measured by a goal metric (same as imp-018)",
+   "window": "n/a",
+   "baseline": null,
+   "checkAfter": "n/a",
+   "status": "no-op",
+   "note": "Drafted 4 posts from the most compelling of the 11 new matters (live-306 Freddie Mac v. Nord Group rent-diversion dispute, live-312 Shadowbox Studios v. DeKalb County data-center moratorium suit, live-311 62 Wooster v. TML good-guy-guaranty ruling, live-315 Hungerford Building foreclosure-appeal stay), every fact copied verbatim from the published matter write-ups. Skipped live-310 (Salha and Abu Ali Cafe v. 2020 Harwin 59 Shopping Centers) because its case caption names an individual plaintiff from the court record, matching the same exclusion rule imp-018 applied to live-301. Drafts only -- never posted on Jeff's behalf. Logged as 'no-op' per the log schema (no goal metric moved or watched), same convention as imp-018."
   }
  ]
 }
