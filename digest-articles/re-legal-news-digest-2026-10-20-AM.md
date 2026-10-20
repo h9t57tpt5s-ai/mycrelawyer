@@ -1,0 +1,28 @@
+# Appeal Halts $10.4M Foreclosure Sale of Rochester's Hungerford Building
+
+### A referee's report putting the debt at $10,490,036.37 cleared a Monroe County auction for October 29 — until the borrower's lawyer challenged it on appeal
+
+Prepared as a legal news update for commercial real estate owners, developers and lenders.
+
+A foreclosure sale that had been scheduled for October 29 at the Hall of Justice in Rochester, New York is on hold after the owner of the Hungerford Building — a sprawling, century-old mixed-use complex on East Main Street long known as an artist-studio hub — filed an appeal challenging the referee's report underlying the judgment. The appeal, reported by the Rochester Business Journal and the Daily Record on October 15, 2026, pauses what had looked like the final step in a foreclosure case that has run since at least 2025.
+
+The case was brought by lender Elizon DB Transfer Agent LLC against The Hungerford Building LLC, HB Factory LLC and PH Realty Capital LLC — the entities that control the roughly 3.4-acre former soda-syrup factory complex at 1115 East Main Street. The borrower entities acquired the building in 2022 with an $8.25 million loan; after an earlier default, the parties signed a forbearance agreement extending the loan's maturity to December 2024. According to court filings reported by the Daily Record, payments again lapsed, and Elizon pursued foreclosure in Monroe County Supreme Court before Justice Daniel J. Doyle.
+
+Doyle granted summary judgment of foreclosure earlier in 2026, and the case proceeded to a court-appointed referee, Michael Rothenberg, to compute the amount due. Rothenberg's report put the figure at $10,490,036.37 — substantially more than the original loan balance, reflecting accrued interest, fees and costs during the forbearance and default period. In September 2026, Doyle confirmed the referee's report and authorized a sale, which the referee calendared for October 29.
+
+That is where the case stood until early October, when an attorney for the Hungerford-affiliated defendants filed a notice of appeal, arguing that Doyle's order relied on a flawed referee's report and that summary judgment should not have been granted on the record as it stood. The appeal automatically paused the scheduled auction. The building's owner has told local reporters he intends to pay off the roughly $10.4 million balance before any bids are taken, which — if it happens — could moot the sale regardless of how the appeal is resolved.
+
+**Why this matters beyond Rochester.** The Hungerford dispute is a compact illustration of several recurring commercial-foreclosure dynamics. First, it shows how quickly a referee's computed payoff can balloon past a loan's original face amount once default interest, fees, forbearance-period charges and carrying costs are layered on — the kind of gap that regularly surprises borrowers who assume a payoff will track the original principal. Second, it is a reminder that in New York, confirmation of a referee's report is not necessarily the last word: a defendant who believes the computation or the underlying summary judgment record was flawed can still appeal and, in doing so, can stay a scheduled sale even after a court has signed off on the auction mechanics. Third, the case sits inside a broader local story about a building whose decades-old role as inexpensive studio space for working artists has been colliding with its current ownership's financial distress — a pattern increasingly familiar wherever older mixed-use industrial buildings with below-market, legacy tenancies change hands and get refinanced at higher leverage.
+
+For lenders and special servicers, the posture here is also instructive on timing: once a referee's report is confirmed and a sale date is set, it is tempting to treat the auction as all but final. The Hungerford case shows that a borrower represented by counsel can still interrupt that process at the eleventh hour, and that lenders should build appellate contingency — and the possibility of a last-minute payoff — into their expectations for when a contested foreclosure will actually close.
+
+**Practical takeaways:**
+- Borrowers facing a referee's report should scrutinize the computation itself — interest methodology, fee categories and the forbearance-period accrual — since a flawed report can be a independent, appealable issue even after summary judgment on liability has been granted.
+- Lenders should not assume a confirmed referee's report and a calendared auction date are self-executing; a notice of appeal can stay the sale, and workout teams should keep payoff and settlement channels open through the appellate window.
+- Owners of older mixed-use or industrial-to-creative-space conversions should recognize that legacy, below-market tenancies can complicate a lender's or receiver's post-foreclosure plans, adding leverage — and litigation risk — on both sides of a workout.
+
+### Sources
+- Rochester Business Journal, "Appeal filed in Hungerford Building foreclosure decision," October 15, 2026 — https://rbj.net/2026/10/15/appeal-filed-hungerford-building-foreclosure-rochester/
+- Rochester Business Journal, "Mortgage holder seeks auction sale of Hungerford Building," July 16, 2026 — https://rbj.net/2026/07/16/mortgage-holder-auction-sale-hungerford-building-rochester/
+- Rochester Business Journal, "Court says Hungerford Building can proceed to foreclosure auction," September 10, 2026 — https://rbj.net/2026/09/10/hungerford-building-rochester-foreclosure-auction/
+- WXXI News, "Hungerford Building foreclosure approved by judge," May 19, 2026 — https://www.wxxinews.org/local-news/2026-05-19/hungerford-building-foreclosure-approved-by-judge

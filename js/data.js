@@ -10389,6 +10389,50 @@ const RELAW_DATA = {
       amountUsd: null,
       propertyType: "Retail",
       tags: ["lease-dispute", "arbitration", "california", "restaurant", "construction-work-letter"]
+    },
+    {
+      id: "live-315",
+      addedDate: "2026-10-20",
+      seoTitle: "Hungerford Building Rochester: Appeal Halts $10.4M Foreclosure",
+      seoDescription: "An appeal by the Hungerford Building's owner has paused a Monroe County foreclosure sale set for Oct. 29, with lender Elizon DB owed $10.49M.",
+      property: { name: "Hungerford Building", address: "1115 East Main Street", city: "Rochester", state: "NY" },
+      title: "Elizon DB Transfer Agent LLC v. Hungerford Building Owner (Rochester Mixed-Use Foreclosure Appeal)",
+      category: "lending-foreclosure",
+      status: "appeal",
+      date: "2026-10-15",
+      jurisdiction: "New York Supreme Court, Monroe County (notice of appeal filed to the Appellate Division, Fourth Department)",
+      state: "NY",
+      propertyType: "Mixed-Use",
+      amount: "$10,490,036.37 owed per the court-confirmed referee's report",
+      amountUsd: 10490036,
+      amountBasis: "judgment",
+      source: "live",
+      sourceUrl: "https://rbj.net/2026/10/15/appeal-filed-hungerford-building-foreclosure-rochester/",
+      summary: "A foreclosure auction of Rochester's century-old Hungerford Building, scheduled for October 29, 2026, has been stayed after the owner's attorney filed an appeal challenging the referee's report underlying the judgment. Monroe County Supreme Court Justice Daniel J. Doyle had earlier granted summary judgment of foreclosure to lender Elizon DB Transfer Agent LLC and, in September 2026, confirmed a referee's report putting the amount owed at $10,490,036.37 on an original 2022 loan of $8.25 million. The borrower entities acquired the roughly 3.4-acre mixed-use complex, long known as an artist-studio hub, in 2022 and later entered a forbearance agreement before again falling into default.",
+      significance: "The case shows how a referee-computed payoff can balloon well past a loan's original face amount once default interest, fees and forbearance-period charges accrue, and confirms that in New York a confirmed referee's report and a calendared auction are not self-executing -- a borrower can still stay a scheduled sale by appealing the underlying judgment. Lenders and special servicers working out defaulted loans on older, legacy-tenanted mixed-use buildings should build appellate delay and last-minute payoff scenarios into their timeline for closing out a contested foreclosure.",
+      body: [
+        "A foreclosure sale that had been scheduled for October 29, 2026 at the Hall of Justice in Rochester, New York is on hold after the owner of the Hungerford Building -- a roughly 3.4-acre, century-old mixed-use complex on East Main Street long known as an artist-studio hub -- filed an appeal challenging the referee's report underlying the foreclosure judgment. The appeal, reported by the Rochester Business Journal and the Daily Record on October 15, 2026, pauses what had looked like the final step in a foreclosure case that has run for more than a year.",
+        "The case was brought by lender Elizon DB Transfer Agent LLC against The Hungerford Building LLC, HB Factory LLC and PH Realty Capital LLC, the entities that control the former soda-syrup factory complex at 1115 East Main Street. The borrower entities acquired the building in 2022 with an $8.25 million loan; after an earlier default, the parties signed a forbearance agreement extending the loan's maturity to December 2024. Payments again lapsed, and Elizon pursued foreclosure in Monroe County Supreme Court before Justice Daniel J. Doyle.",
+        "Doyle granted summary judgment of foreclosure earlier in 2026, and the case proceeded to a court-appointed referee to compute the amount due. The referee's report put the figure at $10,490,036.37, substantially above the original loan balance once accrued interest, fees and forbearance-period costs were layered on. In September 2026, Doyle confirmed the referee's report and authorized a sale, which the referee calendared for October 29.",
+        "That is where the case stood until early October, when an attorney for the Hungerford-affiliated defendants filed a notice of appeal, arguing that Doyle's order relied on a flawed referee's report and that summary judgment should not have been granted on the record as it stood. The appeal automatically paused the scheduled auction. The building's owner has told local reporters he intends to pay off the roughly $10.4 million balance before any bids are taken, which could moot the sale regardless of how the appeal is resolved.",
+        "The dispute is a compact illustration of several recurring commercial-foreclosure dynamics for owners and lenders alike. It shows how quickly a referee's computed payoff can exceed a loan's original face amount once default interest, fees and carrying costs accrue during a forbearance and default period, often surprising borrowers who assume a payoff will track the original principal. It is also a reminder that confirmation of a referee's report in New York is not necessarily the last word: a defendant who believes the computation, or the summary judgment record beneath it, was flawed can still appeal and, by doing so, stay a sale even after a court has signed off on the auction mechanics.",
+        "For lenders and special servicers, the lesson is about timing as much as substance: once a referee's report is confirmed and a sale date is set, it is tempting to treat the auction as all but final, but a represented borrower can still interrupt that process at the eleventh hour. Workout teams should keep payoff and settlement channels open through the appellate window, scrutinize the strength of the underlying referee computation before relying on a scheduled sale date, and recognize that buildings carrying legacy, below-market tenancies -- like the Hungerford's long-time artist studios -- can add both reputational pressure and negotiating leverage to a contested foreclosure on both sides of the table."
+      ],
+      tags: ["foreclosure", "appeal", "mixed-use", "new york", "referee-report"],
+      parties: [
+        { name: "Elizon DB Transfer Agent LLC", role: "Plaintiff/Lender" },
+        { name: "The Hungerford Building LLC", role: "Defendant/Borrower" },
+        { name: "HB Factory LLC", role: "Defendant" },
+        { name: "PH Realty Capital LLC", role: "Defendant" }
+      ],
+      judge: "Daniel J. Doyle",
+      timeline: [
+        { when: "2022", label: "Borrower entities acquire the Hungerford Building with an $8.25 million loan" },
+        { when: "2024", label: "A forbearance agreement extends the loan's maturity to December 2024 after an earlier default" },
+        { when: "September 2, 2026", label: "Court confirms the referee's report of $10,490,036.37 owed and authorizes an auction" },
+        { when: "October 29, 2026", label: "Foreclosure auction originally scheduled, now stayed pending appeal", upcoming: true },
+        { when: "October 2026", label: "Owner's attorney files a notice of appeal challenging the referee's report, staying the scheduled sale", current: true }
+      ]
     }
   ],
 
