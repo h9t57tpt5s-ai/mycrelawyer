@@ -54,8 +54,10 @@ def validate(case):
             raise ValueError(f"{case['id']}: the outcome amount appears in the input text")
 
 
-def call_calculator(secret, inp, variant="", valuation_date=None):
+def call_calculator(secret, inp, variant="", valuation_date=None, baseline_only=False):
     body = {k: v for k, v in inp.items() if k in ("description", "documentText", "userSide", "expectToTrial")}
+    if baseline_only:  # formula engine only, no analysis model (backtest requests only)
+        body["baselineOnly"] = True
     if variant:  # candidate instructions, honored only for backtest requests
         body["promptVariant"] = variant
     if valuation_date:  # v6 accrues interest to this date
@@ -118,6 +120,10 @@ def summarize(analysis):
         "scenarios": analysis.get("scenarios"),
         "missingFacts": analysis.get("missingFacts"),
         "valuationDate": analysis.get("valuationDate"),
+        # formula-only runs: the deterministic engine's claims and the facts
+        # the extraction model filled in.
+        "baseline": analysis.get("baseline"),
+        "extractedFacts": analysis.get("extractedFacts"),
     }
 
 
@@ -129,6 +135,7 @@ def main():
     ap.add_argument("--only", default="", help="comma-separated case ids")
     ap.add_argument("--version", default="v1", help="results directory: v1 -> results/, v2 -> results-v2/")
     ap.add_argument("--variant", default="", help="candidate prompt variant to request, e.g. v4.5 (backtest only)")
+    ap.add_argument("--baseline-only", action="store_true", help="score the fixed per-category formula engine alone (no analysis model, ~$0.005 a case)")
     ap.add_argument("--local", action="store_true", help="run against the local function (scripts/run_local_calculator.sh), secret 'local-test'")
     args = ap.parse_args()
     global RESULTS_DIR
@@ -169,7 +176,7 @@ def main():
         # v6 values each case as of its decision date, so interest accrues to
         # about when the court ruled (the date, never the amount, is used).
         vdate = (c.get("outcome") or {}).get("date") or (c.get("source") or {}).get("decided")
-        status, body = call_calculator(secret, c["input"], args.variant, vdate if args.variant == "v6" else None)
+        status, body = call_calculator(secret, c["input"], args.variant, vdate if args.variant == "v6" else None, args.baseline_only)
         # A dropped network (the Mac sleeping, Wi-Fi lost) fails every case
         # before it reaches the API; 86 of 96 overnight v6 calls failed that
         # way on 2026-10-18. Wait and retry the same case instead of marking
@@ -179,7 +186,7 @@ def main():
                 break
             print(f"  network error; retrying in {wait}s", flush=True)
             time.sleep(wait)
-            status, body = call_calculator(secret, c["input"], args.variant, vdate if args.variant == "v6" else None)
+            status, body = call_calculator(secret, c["input"], args.variant, vdate if args.variant == "v6" else None, args.baseline_only)
         # A variant run must come back labeled with that variant, or the
         # deployed function did not apply it and the result would be
         # mislabeled (2026-10-17).

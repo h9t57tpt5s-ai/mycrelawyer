@@ -2076,7 +2076,7 @@ async function handle(req: Request): Promise<Response> {
   // frontend JS still mid-rollout, which may still send an explicit
   // dropdown-selected `category`, keeps working exactly as before. New
   // requests are expected to omit it entirely.
-  let requestBody: { documentText?: string; description?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null; customCostLow?: number | null; customCostHigh?: number | null; mitigationReleaseMonths?: number | null; mitigationNewMonthlyRent?: number | null; mitigationPropertyType?: string | null; promptVariant?: string; valuationDate?: string };
+  let requestBody: { documentText?: string; description?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null; customCostLow?: number | null; customCostHigh?: number | null; mitigationReleaseMonths?: number | null; mitigationNewMonthlyRent?: number | null; mitigationPropertyType?: string | null; promptVariant?: string; valuationDate?: string; baselineOnly?: boolean };
   try {
     requestBody = await req.json();
   } catch {
@@ -2297,6 +2297,27 @@ async function handle(req: Request): Promise<Response> {
     const otherSide = filingParty === "sideA" ? evalResult.sideBTotal : evalResult.sideATotal;
     const netPosition: [number, number] = [mySide[0] - otherSide[1], mySide[1] - otherSide[0]];
     const roleLabel = evalResult.roles ? (filingParty === "sideA" ? evalResult.roles.sideA : evalResult.roles.sideB) : filingParty;
+
+    // FORMULA-ONLY BACKTEST (2026-10-20, Jeff: "There has to be a formula").
+    // The deterministic engine had never been scored against real outcomes;
+    // every backtest scored the AI layer on top of it. A backtest request
+    // with baselineOnly stops here, after the small extraction model and the
+    // fixed per-category formulas, and skips the analysis model (~$0.005 a
+    // case instead of ~$0.25). Never reachable from the live site.
+    if (isBacktest && requestBody.baselineOnly === true) {
+      return jsonResponse({
+        analysis: {
+          analysisVersion: "formula",
+          category,
+          roleLabel,
+          damagesRange: evalResult.claims.length ? netPosition : null,
+          bestGuessValue: evalResult.claims.length ? (netPosition[0] + netPosition[1]) / 2 : null,
+          baseline: { damagesRange: netPosition, claims: evalResult.claims.map((c) => ({ ...c, citations: undefined })) },
+          extractedFacts,
+          issues: [],
+        },
+      }, 200);
+    }
 
     const baselineCitedCasesMap = new Map<string, CaseData["citations"][string][number]>();
     for (const c of evalResult.claims) for (const cit of c.citations) baselineCitedCasesMap.set(cit.caseName, cit);
