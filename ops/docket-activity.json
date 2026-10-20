@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-19T16:34:43+00:00",
+ "updatedAt": "2026-10-20T14:24:51+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 18,
+ "requestsUsed": 17,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -41,9 +41,37 @@
    "entries": [
     {
      "date": "2026-10-19",
+     "number": 1626,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/67174489/1626/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-19",
+     "number": 1625,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/67174489/1625/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-19",
      "number": 1624,
      "text": "Withdraw as Attorney",
      "url": "https://www.courtlistener.com/docket/67174489/1624/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-19",
+     "number": 1624,
+     "text": "Motion to Withdraw as Attorney",
+     "url": "https://www.courtlistener.com/docket/67174489/1624/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-18",
+     "number": 1623,
+     "text": "Transcript",
+     "url": "https://www.courtlistener.com/docket/67174489/1623/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     },
     {
@@ -65,34 +93,6 @@
      "number": 1619,
      "text": "Order AND ~Util - Terminate Motions",
      "url": "https://www.courtlistener.com/docket/67174489/1619/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 1618,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/67174489/1618/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 1617,
-     "text": "Order on Motion for Attorney Fees",
-     "url": "https://www.courtlistener.com/docket/67174489/1617/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 1616,
-     "text": "Attachment Proposed Order Approving Settlements with Ex. A Opt Outs",
-     "url": "https://www.courtlistener.com/docket/67174489/1616/1/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 1616,
-     "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/67174489/1616/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     }
    ],
@@ -198,6 +198,13 @@
   "69074245": {
    "entries": [
     {
+     "date": "2026-10-19",
+     "number": 226,
+     "text": "Notice of Special Appearance",
+     "url": "https://www.courtlistener.com/docket/69074245/226/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-15",
      "number": 225,
      "text": "Notice of Special Appearance",
@@ -245,13 +252,6 @@
      "text": "Memorandum Opinion and Order",
      "url": "https://www.courtlistener.com/docket/69074245/223/united-states-of-america-v-realpage-inc/",
      "ruling": true
-    },
-    {
-     "date": "2026-09-21",
-     "number": 222,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/69074245/222/united-states-of-america-v-realpage-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -261,7 +261,7 @@
    "docketNumber": "1:24-cv-00710",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
-   "lastEntryDate": "2026-10-15"
+   "lastEntryDate": "2026-10-19"
   },
   "69353264": {
    "entries": [
@@ -835,6 +835,13 @@
   "73578741": {
    "entries": [
     {
+     "date": "2026-10-19",
+     "number": 15,
+     "text": "Extension of Time to File Response/Reply",
+     "url": "https://www.courtlistener.com/docket/73578741/15/keller-v-udr-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-13",
      "number": 14,
      "text": "Amended Complaint",
@@ -884,7 +891,7 @@
    "docketNumber": "3:26-cv-03865",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
-   "lastEntryDate": "2026-10-13"
+   "lastEntryDate": "2026-10-19"
   },
   "73684397": {
    "entries": [
@@ -1177,6 +1184,13 @@
   "74712343": {
    "entries": [
     {
+     "date": "2026-10-19",
+     "number": null,
+     "text": "~Util - Set/Reset Motion/R&R Deadlines and Hearings",
+     "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-16",
      "number": 18,
      "text": "Extension of Time to File Response/Reply/Answer",
@@ -1224,13 +1238,6 @@
      "text": "Order on Motion for Extension of Time to File Response/Reply/Answer",
      "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-11",
-     "number": 10,
-     "text": "Notice of Attorney Appearance",
-     "url": "https://www.courtlistener.com/docket/74712343/10/the-alder-at-lake-park-llc-v-town-of-lake-park/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1240,7 +1247,7 @@
    "docketNumber": "9:26-cv-81070",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
-   "lastEntryDate": "2026-10-16"
+   "lastEntryDate": "2026-10-19"
   },
   "74850183": {
    "entries": [
@@ -1292,6 +1299,13 @@
   "74922581": {
    "entries": [
     {
+     "date": "2026-10-19",
+     "number": 26,
+     "text": "Extend/Shorten time",
+     "url": "https://www.courtlistener.com/docket/74922581/26/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-16",
      "number": 25,
      "text": "Notice (generic)",
@@ -1339,13 +1353,6 @@
      "text": "Hearing set/continued",
      "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": null,
-     "text": "Hearing held",
-     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1355,10 +1362,31 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-10-16"
+   "lastEntryDate": "2026-10-19"
   },
   "74927117": {
    "entries": [
+    {
+     "date": "2026-10-19",
+     "number": 41,
+     "text": "Emergency/Expedited Determination",
+     "url": "https://www.courtlistener.com/docket/74927117/41/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-19",
+     "number": 40,
+     "text": "Affidavit",
+     "url": "https://www.courtlistener.com/docket/74927117/40/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-19",
+     "number": 39,
+     "text": "Dismiss Case AND Relief from Stay/Co-Debtor Stay",
+     "url": "https://www.courtlistener.com/docket/74927117/39/southbridge-associates-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-16",
      "number": 38,
@@ -1393,27 +1421,6 @@
      "text": "Notice of Appearance and Request for Notice",
      "url": "https://www.courtlistener.com/docket/74927117/34/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": 33,
-     "text": "Notice of Appearance and Request for Notice",
-     "url": "https://www.courtlistener.com/docket/74927117/33/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": 32,
-     "text": "Notice of Appearance and Request for Notice",
-     "url": "https://www.courtlistener.com/docket/74927117/32/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-13",
-     "number": 31,
-     "text": "Order on Motion for Order/Authority",
-     "url": "https://www.courtlistener.com/docket/74927117/31/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1423,10 +1430,24 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
-   "lastEntryDate": "2026-10-16"
+   "lastEntryDate": "2026-10-19"
   },
   "74948724": {
    "entries": [
+    {
+     "date": "2026-10-20",
+     "number": null,
+     "text": "Entry",
+     "url": "https://www.courtlistener.com/docket/74948724/az-175th-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-19",
+     "number": 4,
+     "text": "Notice of Appearance and Request for Notice",
+     "url": "https://www.courtlistener.com/docket/74948724/4/az-175th-street-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-14",
      "number": 3,
@@ -1470,10 +1491,17 @@
    "docketNumber": "1-26-44763",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74948724/az-175th-street-llc/",
-   "lastEntryDate": "2026-10-14"
+   "lastEntryDate": "2026-10-20"
   },
   "74952112": {
    "entries": [
+    {
+     "date": "2026-10-19",
+     "number": 12,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/74952112/12/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
     {
      "date": "2026-10-16",
      "number": 11,
@@ -1522,13 +1550,6 @@
      "text": "Order",
      "url": "https://www.courtlistener.com/docket/74952112/5/city-of-san-antonio-v-mullin/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": null,
-     "text": "Order on Motion to Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1538,7 +1559,7 @@
    "docketNumber": "5:26-cv-06542",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
-   "lastEntryDate": "2026-10-16"
+   "lastEntryDate": "2026-10-19"
   }
  },
  "events": [
