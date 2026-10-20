@@ -1,5 +1,5 @@
 import { alnumKey, type VerifiedFigure } from "./valuation-math.ts";
-import { dropLargeTotals, normCdf, pairedLosses, type RoleFigure, seedFrom, simpleInterest, simulateOutcomes, v6IssueRange, v6Spread, verifyInterest } from "./valuation-v6.ts";
+import { dropLargeTotals, monthsBetween, normCdf, pairedLosses, rentDue, type RoleFigure, seedFrom, simpleInterest, simulateOutcomes, v6IssueRange, v6Spread, verifyInterest, verifyRentTerms } from "./valuation-v6.ts";
 
 function assert(cond: unknown, msg: string) { if (!cond) throw new Error(msg); }
 const near = (a: number, b: number, tol = 0.01) => Math.abs(a - b) <= tol * Math.max(1, Math.abs(b));
@@ -133,4 +133,49 @@ Deno.test("v6.1: 'if you prevail' means the main claim wins, not any draw above 
     { claimant: "represented", p: [0.95, 0.99], range: [50000, 50000] },
   ], 5, 0.5, 4000)!;
   assert(s.ifWin && s.ifWin[0] >= 14500000, `ifWin ${s.ifWin} (was $50,000 at the 25th percentile)`);
+});
+
+// ---- v6.2 rent formulas (2026-10-20) --------------------------------------
+
+const LEASE = `The lease required monthly rent of $4,300. The tenant abandoned the premises and stopped paying rent on May 1, 2023.
+The landlord conveyed the property by deed dated December 12, 2024. The space was relet at $3,000 per month beginning March 1, 2024.`;
+const LKEY = alnumKey(LEASE);
+const terms = (o: Record<string, unknown>) => ({
+  monthlyRent: 4300, rentQuote: "The lease required monthly rent of $4,300", fromDate: "2023-05-01",
+  fromQuote: "stopped paying rent on May 1, 2023", endEvent: "premises_sold", toDate: "2024-12-12",
+  toQuote: "conveyed the property by deed dated December 12, 2024", reletMonthlyRent: null, reletQuote: null,
+  reletFromDate: null, reletFromQuote: null, ...o,
+});
+
+Deno.test("v6.2: rent runs only until the record ends the obligation (the landlord's sale)", () => {
+  // Tres Botes: $4,300 a month from abandonment to the sale, not the remaining-term demand.
+  const t = verifyRentTerms(terms({}), LKEY, "2026-01-01")!;
+  assert(t && t.endEvent === "premises_sold" && t.to === "2024-12-12", `terms ${JSON.stringify(t)}`);
+  const r = rentDue(t);
+  assert(near(r.value, 4300 * monthsBetween("2023-05-01", "2024-12-12")), `rent ${r.value}`);
+  assert(r.value > 79000 && r.value < 85000, `about 19.4 months of rent, got ${r.value}`);
+});
+
+Deno.test("v6.2: reletting rent over the same months is subtracted", () => {
+  const t = verifyRentTerms(terms({ reletMonthlyRent: 3000, reletQuote: "relet at $3,000 per month", reletFromDate: "2024-03-01", reletFromQuote: "beginning March 1, 2024" }), LKEY, "2026-01-01")!;
+  const r = rentDue(t);
+  const expected = 4300 * monthsBetween("2023-05-01", "2024-12-12") - 3000 * monthsBetween("2024-03-01", "2024-12-12");
+  assert(t.relet && near(r.value, expected), `rent ${r.value} vs ${expected}`);
+});
+
+Deno.test("v6.2: rent terms count only when every quote is in the record and states its value", () => {
+  assert(verifyRentTerms(terms({ monthlyRent: 5300 }), LKEY, "2026-01-01") === null, "wrong rent figure");
+  assert(verifyRentTerms(terms({ toDate: "2025-12-12" }), LKEY, "2026-01-01") === null, "wrong end date");
+  assert(verifyRentTerms(terms({ rentQuote: "rent of $4,300 was due under the renewal" }), LKEY, "2026-01-01") === null, "quote not in record");
+  assert(verifyRentTerms(terms({ endEvent: "whenever" }), LKEY, "2026-01-01") === null, "unknown end event");
+  // Bad reletting quotes drop only the reletting credit, not the claim.
+  const t = verifyRentTerms(terms({ reletMonthlyRent: 3500, reletQuote: "relet at $3,000 per month", reletFromDate: "2024-03-01", reletFromQuote: "beginning March 1, 2024" }), LKEY, "2026-01-01");
+  assert(t && t.relet === null, "unverified reletting ignored");
+});
+
+Deno.test("v6.2: rent still accruing stops at the valuation date; future rent may run to the lease's end", () => {
+  const acc = verifyRentTerms(terms({ endEvent: "valuation_date", toDate: null, toQuote: null }), LKEY, "2024-05-01")!;
+  assert(acc.to === "2024-05-01" && near(rentDue(acc).value, 4300 * monthsBetween("2023-05-01", "2024-05-01")), "to valuation date");
+  const capped = verifyRentTerms(terms({}), LKEY, "2024-06-01")!;
+  assert(capped.to === "2024-06-01", `rent due stops at the valuation date: ${capped.to}`);
 });

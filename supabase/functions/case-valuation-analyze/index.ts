@@ -1,7 +1,7 @@
 // =========================================================
 import { alnumKey, dedupeRepresentedFigures, issueRange, STRENGTH_BANDS, verifyFigure, type VerifiedFigure } from "./valuation-math.ts";
 import { jurisdictionRules } from "./state-rules.ts";
-import { dropLargeTotals, FIGURE_ROLES, type FigureRole, type RoleFigure, seedFrom, simulateOutcomes, v6IssueRange, v6Spread, verifyInterest } from "./valuation-v6.ts";
+import { dropLargeTotals, FIGURE_ROLES, type FigureRole, RENT_END_EVENTS, rentDue, type RoleFigure, seedFrom, simulateOutcomes, v6IssueRange, v6Spread, verifyInterest, verifyRentTerms } from "./valuation-v6.ts";
 // CREdocket -- Case Value Calculator: AI document analysis
 //
 // COST-PROTECTION DESIGN -- read before changing the order of checks:
@@ -131,6 +131,7 @@ const V61_RULES =
   "BEFORE AND AFTER VALUES (v6.1): list each appraiser's or witness's before_value immediately followed by that same witness's after_value; the system pairs them in that order. " +
   "STRENGTH WHEN THE TEXT DECIDES IT (v6.1): when the quoted lease, contract, statute or controlling rule in the materials squarely decides an issue, do not default to 'even'. Rate it 'conceded' or 'strong' when the text supports the represented side (a breach the other side admits; a forfeiture clause that operates only at the landlord's option and the landlord never exercised it) and 'weak' when the text bars it (a damages category a controlling rule excludes; an owner's value resting on a sale the record shows was unwound or tax-credit driven). " +
   "MULTIPLE DAMAGES (v6.1): for a statutory double or treble damages claim (e.g. Mass. G.L. c. 93A, state deceptive-practices statutes), price only the added portion in its own issue: rate = the base figure (quoted), periods = the multiplier minus one (1 for double, 2 for treble), rated by how likely the required finding (knowing, willful, bad faith) is on this record. The base amount stays in the underlying claim. " +
+  "RENT FORMULA (v6.2): for every claim for rent -- unpaid rent, holdover rent, accelerated or future rent -- fill rentTerms instead of computing the rent yourself: the monthly rent with a verbatim quote stating it, the first unpaid date with a quote, and what ends the period with its date and quote: possession_retaken, premises_sold, relet, lease_end (future rent to the end of the term, only for an acceleration or future-damages claim), or valuation_date when rent is still accruing. If the premises were relet, add the reletting rent and its start date with quotes; the system subtracts it. The system counts the months and computes the rent; any rent 'amount' figures you also list on that issue are replaced. Late fees, utilities, taxes and repair costs stay ordinary figures (put them on their own issue). Leave rentTerms null for every other kind of issue. " +
   "SCOPE OF WHAT IS PRICED (v6.1): price only the measures of damages the represented side's pleaded claims actually seek, and only claims between the represented party and the opposing party -- a debt the represented party owes its own subcontractor or a third party is not an offset against what the opposing party owes it. A formula input (a tax base, an assessed value used in a rent formula, a price per unit standing alone) is not a damages figure. In a contribution, indemnity-allocation or equitable-apportionment claim among responsible parties, the represented side recovers a share, not all of its costs: mark the cost figure disputed and rate the issue no higher than 'favorable' unless the record states the allocation; costs not yet incurred are not damages to date. ";
 
 const V45_RULES =
@@ -2483,6 +2484,30 @@ async function handle(req: Request): Promise<Response> {
         description: "Interest terms the record states for this issue, or null. See INTEREST.",
       };
       issueSchema.required.push("interest");
+      // v6.2: rent claims carry the formula's inputs; code counts the months.
+      const q = (d: string) => ({ type: "string", description: d });
+      issueSchema.properties.rentTerms = {
+        anyOf: [{
+          type: "object",
+          properties: {
+            monthlyRent: { type: "number", description: "Monthly rent the record states, in dollars." },
+            rentQuote: q("Verbatim passage from the materials stating that monthly rent."),
+            fromDate: q("First day of the unpaid period, YYYY-MM-DD."),
+            fromQuote: q("Verbatim passage stating that date."),
+            endEvent: { type: "string", enum: [...RENT_END_EVENTS], description: "What ends the period: possession_retaken, premises_sold, relet, lease_end (future rent to the end of the term), or valuation_date (rent is still accruing)." },
+            toDate: { anyOf: [{ type: "string" }, { type: "null" }], description: "Date the period ends, YYYY-MM-DD; null for valuation_date." },
+            toQuote: { anyOf: [{ type: "string" }, { type: "null" }], description: "Verbatim passage stating the end date; null for valuation_date." },
+            reletMonthlyRent: { anyOf: [{ type: "number" }, { type: "null" }], description: "Monthly rent from reletting the premises, if the record states it." },
+            reletQuote: { anyOf: [{ type: "string" }, { type: "null" }], description: "Verbatim passage stating the reletting rent." },
+            reletFromDate: { anyOf: [{ type: "string" }, { type: "null" }], description: "Date the reletting rent starts, YYYY-MM-DD." },
+            reletFromQuote: { anyOf: [{ type: "string" }, { type: "null" }], description: "Verbatim passage stating that date." },
+          },
+          required: ["monthlyRent", "rentQuote", "fromDate", "fromQuote", "endEvent", "toDate", "toQuote", "reletMonthlyRent", "reletQuote", "reletFromDate", "reletFromQuote"],
+          additionalProperties: false,
+        }, { type: "null" }],
+        description: "For a claim for rent (unpaid rent, holdover rent, accelerated or future rent): the formula inputs. Null for every other issue. See RENT FORMULA.",
+      };
+      issueSchema.required.push("rentTerms");
     }
 
     // (2026-09-24: superseded on the Pro plan -- see the Deno.serve
@@ -2653,6 +2678,14 @@ async function handle(req: Request): Promise<Response> {
       // The supported ceiling is the issue won outright: every verified
       // figure (or the higher competing figure).
       const supportedCeiling = damagesRange ? (claimant === "opposing" ? damagesRange[0] : damagesRange[1]) : null;
+      // v6.2 RENT FORMULA: verified rent terms replace the issue's own rent
+      // amounts with rent x months counted in code (v6IssueRange recomputes
+      // the range from these figures).
+      const rentTerms = useV6 ? verifyRentTerms(iss.rentTerms as Record<string, unknown> | null, caseTextKey, asOf) : null;
+      const rentFigure: RoleFigure | null = rentTerms ? (() => {
+        const r = rentDue(rentTerms);
+        return { label: "Rent (formula)", value: r.value, disputed: false, quote: String((iss.rentTerms as Record<string, unknown>).rentQuote), computed: r.computed, role: "amount" as const };
+      })() : null;
       return {
         label: typeof iss.label === "string" ? iss.label : "Issue",
         analysis: typeof iss.analysis === "string" ? iss.analysis : "",
@@ -2666,10 +2699,10 @@ async function handle(req: Request): Promise<Response> {
         supportedCeiling,
         // Saved with each result so formula changes can be replayed from
         // stored runs without new API calls (Jeff, 2026-09-25, on cost).
-        basis: amt?.basis === "competing" ? "competing" : (figures.length ? "itemized" : null),
-        figures,
+        basis: rentFigure ? "itemized" : amt?.basis === "competing" ? "competing" : (figures.length ? "itemized" : null),
+        figures: rentFigure ? [...figures.filter((f) => (f as RoleFigure).role !== "amount"), rentFigure] : figures,
         droppedFigures,
-        ...(useV6 ? { interest: verifyInterest(iss.interest as Record<string, unknown> | null, caseTextKey) } : {}),
+        ...(useV6 ? { interest: verifyInterest(iss.interest as Record<string, unknown> | null, caseTextKey), rentTerms } : {}),
         citations: resolveCitations(iss.citedCaseNames),
       };
     }) : [];

@@ -14,7 +14,7 @@
 //
 // Backtest evidence for each choice is in ops/calculator-proposals.md.
 
-import { alnumKey, issueRange, type VerifiedFigure } from "./valuation-math.ts";
+import { alnumKey, issueRange, moneyValues, type VerifiedFigure } from "./valuation-math.ts";
 
 export type FigureRole = "amount" | "credit" | "cap" | "before_value" | "after_value";
 export type RoleFigure = VerifiedFigure & { role: FigureRole };
@@ -41,13 +41,19 @@ export function verifyInterest(it: Record<string, unknown> | null | undefined, c
   }
   const rateNums = [...rq.matchAll(/(\d+(?:\.\d+)?)\s*(?:%|percent|per cent)/gi)].map((m) => parseFloat(m[1]));
   if (!rateNums.some((v) => Math.abs(v - rate) < 1e-9)) return null;
-  const [y, m] = from.split("-").map(Number);
-  const dql = dq.toLowerCase();
+  if (!quoteStatesDate(dq, from)) return null;
+  return { ratePercent: rate, from };
+}
+
+// A date quote states an ISO date when it names the year and the month (as
+// a name, an abbreviation or a number).
+export function quoteStatesDate(quote: string, iso: string): boolean {
+  const [y, m] = iso.split("-").map(Number);
+  const dql = quote.toLowerCase();
   const hasYear = dql.includes(String(y));
   const hasMonth = dql.includes(MONTHS[m - 1]) || dql.includes(MONTHS[m - 1].slice(0, 3)) ||
     new RegExp(`(^|\\D)0?${m}[/.-]`).test(dql);
-  if (!hasYear || !hasMonth) return null;
-  return { ratePercent: rate, from };
+  return hasYear && hasMonth;
 }
 
 // Simple interest from `from` to `asOf` (ISO dates), capped at 30 years.
@@ -113,6 +119,75 @@ export function v6IssueRange(
   }
   if (lo > hi) [lo, hi] = [hi, lo];
   return claimant === "opposing" ? [-hi, -lo] : [lo, hi];
+}
+
+// ---- rent formulas (v6.2, 2026-10-20) ---------------------------------------
+// Jeff, 2026-10-20: "There has to be a formula." The rent misses in the v6
+// backtest were periods, not arithmetic: the model chose how many months to
+// charge and ran them past the date the record ends the obligation (Tres
+// Botes past the landlord's sale of the premises; 1700 Market past the date
+// the landlord retook possession). Here the model only quotes the monthly
+// rent and the start and end dates; code verifies each quote and counts
+// the months. Future rent is net of the rent from reletting over the same
+// months (mitigation). Not discounted to present value.
+export const RENT_END_EVENTS = ["possession_retaken", "premises_sold", "relet", "lease_end", "valuation_date"] as const;
+export type RentTerms = {
+  monthlyRent: number;
+  from: string;              // ISO date the unpaid period starts
+  to: string;                // ISO date the obligation ends
+  endEvent: typeof RENT_END_EVENTS[number];
+  relet: { monthlyRent: number; from: string } | null;
+};
+
+const ISO = /^\d{4}-\d{2}-\d{2}$/;
+
+// Months between two ISO dates, counting partial months by days (30.4375
+// days a month).
+export function monthsBetween(from: string, to: string): number {
+  const days = (Date.parse(to + "T00:00:00Z") - Date.parse(from + "T00:00:00Z")) / 86400000;
+  return Number.isFinite(days) && days > 0 ? days / 30.4375 : 0;
+}
+
+// The model's rentTerms count only if the monthly rent's quote is in the
+// record and states that figure, and each date's quote is in the record and
+// states that date. An end at the valuation date needs no quote.
+export function verifyRentTerms(it: Record<string, unknown> | null | undefined, caseTextKey: string, asOf: string): RentTerms | null {
+  if (!it || typeof it !== "object") return null;
+  const num = (k: string) => typeof it[k] === "number" && Number.isFinite(it[k] as number) && (it[k] as number) > 0 ? it[k] as number : null;
+  const str = (k: string) => typeof it[k] === "string" ? it[k] as string : "";
+  const inRecord = (q: string) => { const k = alnumKey(q); return k.length >= 8 && caseTextKey.includes(k); };
+  const states = (q: string, v: number) => moneyValues(q).some((x) => Math.abs(x - v) <= Math.max(0.5, v * 0.005));
+  const rent = num("monthlyRent"), from = str("fromDate");
+  const endEvent = RENT_END_EVENTS.find((e) => e === it.endEvent);
+  if (rent === null || !ISO.test(from) || !endEvent) return null;
+  if (!inRecord(str("rentQuote")) || !states(str("rentQuote"), rent)) return null;
+  if (!inRecord(str("fromQuote")) || !quoteStatesDate(str("fromQuote"), from)) return null;
+  let to = str("toDate");
+  if (endEvent === "valuation_date") to = asOf;
+  else if (!ISO.test(to) || !inRecord(str("toQuote")) || !quoteStatesDate(str("toQuote"), to)) return null;
+  // Rent already due stops at the valuation date; future rent (to the
+  // lease's end) is what an acceleration or damages claim seeks.
+  if (endEvent !== "lease_end" && to > asOf) to = asOf;
+  let relet: RentTerms["relet"] = null;
+  const rr = num("reletMonthlyRent"), rf = str("reletFromDate");
+  if (rr !== null && ISO.test(rf) && inRecord(str("reletQuote")) && states(str("reletQuote"), rr) &&
+      inRecord(str("reletFromQuote")) && quoteStatesDate(str("reletFromQuote"), rf)) {
+    relet = { monthlyRent: rr, from: rf };
+  }
+  return { monthlyRent: rent, from, to, endEvent, relet };
+}
+
+// Rent owed for the period, less rent from reletting over the same months.
+export function rentDue(t: RentTerms): { value: number; computed: string } {
+  const months = monthsBetween(t.from, t.to);
+  let value = t.monthlyRent * months;
+  let computed = `${t.monthlyRent} x ${months.toFixed(2)} months (${t.from} to ${t.to}, ${t.endEvent.replace(/_/g, " ")})`;
+  if (t.relet && t.relet.from < t.to) {
+    const reletMonths = monthsBetween(t.relet.from > t.from ? t.relet.from : t.from, t.to);
+    value -= t.relet.monthlyRent * reletMonths;
+    computed += ` less reletting ${t.relet.monthlyRent} x ${reletMonths.toFixed(2)} months`;
+  }
+  return { value: Math.max(0, Math.round(value * 100) / 100), computed };
 }
 
 // Each witness's loss: the i-th before value with the i-th after value; a
