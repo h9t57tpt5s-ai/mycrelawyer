@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T17:44:48+00:00",
+ "updatedAt": "2026-10-20T01:12:09+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -44,28 +44,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/74978675/1162-st-johns-place-llc/",
    "docketId": 74978675,
    "slug": "1162-st-john-s-place-llc-nyeb-1-26-44853",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Emcee Realty LLC",
-   "court": "United States Bankruptcy Court, E.D. New York",
-   "courtId": "nyeb",
-   "docketNumber": "1-26-44843",
-   "dateFiled": "2026-10-15",
-   "docketUrl": "https://www.courtlistener.com/docket/74972033/emcee-realty-llc/",
-   "docketId": 74972033,
-   "slug": "emcee-realty-llc-nyeb-1-26-44843",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "1333 Prospect Corp",
-   "court": "United States Bankruptcy Court, E.D. New York",
-   "courtId": "nyeb",
-   "docketNumber": "1-26-44834",
-   "dateFiled": "2026-10-15",
-   "docketUrl": "https://www.courtlistener.com/docket/74969627/1333-prospect-corp/",
-   "docketId": 74969627,
-   "slug": "1333-prospect-corp-nyeb-1-26-44834",
    "type": "Chapter 11 petition"
   }
  ]
