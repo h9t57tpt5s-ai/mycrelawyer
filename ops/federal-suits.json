@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-10-21T00:50:22+00:00",
+ "updatedAt": "2026-10-21T16:07:03+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Withers Cove Business Park Association, Inc. v. United States Postal Service",
+   "court": "District Court, W.D. North Carolina",
+   "courtId": "ncwd",
+   "docketNumber": "3:26-cv-00886",
+   "dateFiled": "2026-10-21",
+   "docketUrl": "https://www.courtlistener.com/docket/74996700/withers-cove-business-park-association-inc-v-united-states-postal/",
+   "docketId": 74996700,
+   "suitNature": "",
+   "cause": "",
+   "slug": "withers-cove-business-park-association-inc-v-united-states-postal-serv-ncwd-3-26-cv-00886",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Diego Beekman Mutual Housing Association Housing Development Fund Corporation v. Alliance of Nonprofits for Insurance Risk Retention Group, Inc.",
    "court": "District Court, S.D. New York",

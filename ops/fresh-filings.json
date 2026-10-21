@@ -1,7 +1,18 @@
 {
- "updatedAt": "2026-10-21T00:50:22+00:00",
+ "updatedAt": "2026-10-21T16:07:03+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "216 Greene Ave Group LLC",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-44894",
+   "dateFiled": "2026-10-21",
+   "docketUrl": "https://www.courtlistener.com/docket/74996656/216-greene-ave-group-llc/",
+   "docketId": 74996656,
+   "slug": "216-greene-ave-group-llc-nyeb-1-26-44894",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "NORTH EASTERN EXPANSION DEVELOPMENT, CORP",
    "court": "United States Bankruptcy Court, N.D. New York",
