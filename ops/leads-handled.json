@@ -1,5 +1,21 @@
 {
  "handled": {
+  "petition:https://www.courtlistener.com/docket/74989518/north-eastern-expansion-development-corp/": {
+   "at": "2026-10-21",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/74994142/lord-properties-ii-llc/": {
+   "at": "2026-10-21",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/74993843/horizon-property-partnership-a-texas-partnership/": {
+   "at": "2026-10-21",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/74990809/780-e-24th-street-llc/": {
+   "at": "2026-10-21",
+   "action": "skipped: no coverage found explaining the filing"
+  },
   "opinion:11040695": {
    "at": "2026-10-21",
    "action": "matter live-317"
