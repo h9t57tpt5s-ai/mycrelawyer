@@ -239,6 +239,69 @@ once ANTHROPIC_API_KEY is on the Mac) must report run-to-run spread first,
 and fresh cases (offer-of-judgment and condemnation sourcing) are the real
 out-of-sample test. Live stays on v4.4.
 
+## 2026-10-21 (second run) — correction to Finding 2: KKS's opposing appraisal figure was not missing from the model's input or output
+
+Re-read `case_valuation_project/backtest/cases.json`'s actual `input.documentText`
+for `kks-properties-slingerlands-bypass-2020` and the already-run
+`case_valuation_project/backtest/results-v4.3/kks-properties-slingerlands-bypass-2020.json`
+(no new API spend) to check Finding 2's claim that "the condemning
+authority's appraisal never appears" for this case. It does appear, and
+the model did price it:
+
+- The input `documentText` itself states Thurston (the State's
+  appraiser)'s testimony verbatim: "Thurston... calculated the
+  property's preappropriation value to be $45,000 per acre, for a total
+  preappropriation valuation of approximately $1,430,000."
+- v4.3's actual prediction for this case includes that figure on two
+  separate issues, each explicitly labeled and basis `competing`: the
+  dominant "Pre-appropriation value of the whole property" issue lists
+  `"Thurston/State total pre-appropriation value": 1430000` alongside
+  KKS's own $2,224,065/$2,223,000 figures, and the "Direct damages for
+  the 9.5-acre strip" issue lists `"State's flat rate applied to the
+  taken strip": 427500` (= $45,000 x 9.5) alongside KKS's $874,000
+  (= $92,000 x 9.5).
+
+Finding 2 mislabeled the $45,000-per-acre figure as one of "KKS's own
+appraiser's numbers" — it is Thurston/the State's own testified rate, and
+the model already used it as the competing low end. The real gap for
+this case is different: the Court of Claims' own adopted figure
+($52,339/acre, per the outcome) is neither party's raw appraiser number —
+it reflects the court's own adjustments and its own finding on the
+western parcel's post-taking highest-and-best use — and that reasoning
+is deliberately excluded from the input by the excerpt's own design
+(`source.excerptNote`: "Removed: ... the Court of Claims' findings (its
+own per-acre value and treatment of each appraisal)"). No instruction to
+"search the record harder for both sides' figures" would close this gap,
+because the missing number is the court's independent assessment, not
+a party submission either side's counsel put in the record. This lines
+up with the 2026-10-17 critical-analysis finding that most of v4.3's
+damages misses are a liability/damages-measure calibration problem, not
+a figure-extraction problem — add KKS to that bucket, not to a
+"figure never appears" bucket.
+
+`elpa-builders-v-state-ny-2021`'s half of Finding 2 is unaffected by this
+correction: its own `source.excerptNote` already confirms "the decision
+describes neither side's appraisal figures" for that case, a genuine
+record gap distinct from KKS's.
+
+Also worth noting for whoever reviews Finding 2 next: the already-run
+v4.5 candidate (`results-v4.5/`, see the 2026-10-17 note below) lists
+KKS as "newly right ... (State appraisal, partial-taking measure)" --
+since v4.3 already had the State appraisal figure, whatever v4.5 changed
+to fix KKS was more likely the partial-taking damages measure (how the
+strip-taken + severance issues combine) than figure availability. Not
+confirmed from this environment (would need v4.5's actual KKS result
+file compared issue-by-issue); flagging so a future pass doesn't
+re-credit the wrong fix.
+
+**Proposed change to Finding 2's recommendation (NEEDS JEFF):** drop the
+"search harder for the opposing figure" framing for cases like KKS where
+the figure is already present and used; Finding 2's remaining real case
+(Elpa) is a genuine record gap and the original proposed language (flag
+"opposing valuation figure not found in record" when only one side's
+number exists) still applies there, but should not be generalized from
+KKS as if it were a second example of the same pattern.
+
 ## What we have learned (calculator track)
 
 <!-- dated lines added as proposals here are later tested or Jeff rules on them -->
@@ -248,3 +311,17 @@ out-of-sample test. Live stays on v4.4.
   already-published v4.3 results; no new backtest run and no API spend
   were needed. Nothing has been changed in the calculator's code or
   prompt — these are proposals for Jeff to accept, reject, or adjust.
+- 2026-10-21 (second run): Corrected Finding 2's KKS example above —
+  re-reading the actual input text and the already-run v4.3 result file
+  (no new API spend) showed the condemning authority's appraisal figure
+  ($45,000/acre, Thurston) was already present in the model's input and
+  was already priced with `competing` basis, contradicting the original
+  claim that it "never appears." KKS's real miss is the Court of Claims'
+  own independently-adjusted figure being outside what either party's
+  evidence states, not a figure-extraction gap. Next time: before
+  writing up a new "figure never appears" case, check the case's own
+  `input.documentText` and its already-run results JSON directly rather
+  than relying on the outcome description alone — the outcome's
+  narrative (written for scoring, after the fact) can describe a figure
+  that looks similar to one already in the input and get misattributed
+  to the wrong side.

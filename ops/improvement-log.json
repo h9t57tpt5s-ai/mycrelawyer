@@ -237,7 +237,11 @@
    "status": "no clear effect",
    "verdict": {
     "date": "2026-10-21",
-    "value": {"multiPageRate7": 0.0592, "follows7": 0, "newsletterSignups7": 1},
+    "value": {
+     "multiPageRate7": 0.0592,
+     "follows7": 0,
+     "newsletterSignups7": 1
+    },
     "note": "multiPageRate7 moved -41.3% (0.1008 -> 0.0592), past the 25% threshold on its own, but the 28-day trend does not agree: last28Days.multiPageRate was 0.0526 the week imp-010 shipped, rose to 0.0613 by 2026-10-19, and only fell back to 0.0555 by today -- roughly flat-to-up over the period, not a confirming decline. The site's own daily history (ops/metrics/history/2026-10-10 through 2026-10-20) shows multiPageRate7 already falling steadily from a 0.10-0.103 peak around imp-006's launch (2026-10-11/12), well before imp-010 shipped (2026-10-14); imp-006/imp-013/imp-020/imp-022 all touch the same two pages and are still open, too confounded to pin the move on imp-010 specifically. follows7 stayed at 0; newsletterSignups7 moved 0->1, a real but single event already counted toward imp-013's own still-open verdict. Not reverted -- nothing about the banner is wrong or clutter, and the metric's decline clearly predates it."
    }
   },
@@ -514,6 +518,26 @@
    "checkAfter": "n/a",
    "status": "no-op",
    "note": "Rewrote only the one paragraph with the wrong example, replacing the specific stale percentages with calibration.html's own qualitative description (a fixed strength band per claim; a dollar figure that must be a verbatim quote from the user's own materials; comparable cases cited for the legal standard, not the dollar amount) -- no new percentages invented, so it can't go stale the same way again. Deliberately did NOT touch case-valuation.html's 'Sample output' claim card or case-valuation-worked-examples.html's two worked examples, which show the same old-style percentages: fixing those well would mean asserting what the live tool's exact current output looks like, and while re-reading supabase/functions/case-valuation-analyze/index.ts found it already imports v6 math helpers (valuation-v6.ts: v6IssueRange, v6Spread, simulateOutcomes, verifyInterest, verifyRentTerms) that are not reflected anywhere public -- not in js/backtest-results-data.js's published versions (v1/v2/v3/v4/v4.3 only, generatedAt 2026-09-26) and not in calibration.html's changelog, and case_valuation_project/backtest/results-v6/ and results-v6.1/ hold unscored per-case runs. This routine cannot tell from here whether v4.3 or some newer v6 generation is what's actually deployed right now, and the valuation method is Jeff's call anyway -- logged as backlog NEEDS JEFF (G15) rather than guessing. HTML tag balance clean; site_audit.py and check_case_fields.py unchanged/OK before committing."
+  },
+  {
+   "id": "imp-025",
+   "date": "2026-10-21",
+   "track": "calculator",
+   "title": "Corrected Finding 2's KKS example in ops/calculator-proposals.md -- the opposing appraisal figure was not actually missing",
+   "why": "ops/metrics/goals.json (2026-10-21, second run): mostBehind is conversion/calculator/traffic/news, but every single goal (traffic, conversion, calculator, subscription, news) already has an open 'watching' entry in the log (imp-012; imp-013/imp-020/imp-022; imp-011/imp-014/imp-016; imp-015; imp-017), so per the playbook's 2026-10-16 'one open experiment per goal' rule this run worked a backlog item not measured by a goal metric instead of shipping a new tracked page/code change. Nothing due for judgment today (earliest open checkAfter is imp-012's 2026-10-22). Audit clean (missingDescription 2 / weakDescription 1, both already-explained pre-existing/noindex pages). Picked backlog G3 (calculator, the first non-NEEDS-JEFF-blocked item not tied to a goal metric): re-read case_valuation_project/backtest/cases.json's actual input.documentText and the already-run results-v4.3/kks-properties-slingerlands-bypass-2020.json for the case Finding 2 (written 2026-10-15, imp-011) cited as a miss caused by 'the condemning authority's appraisal never appears.' It does appear -- the input states Thurston/the State's appraiser's $45,000/acre, $1,430,000 testimony verbatim, and v4.3's own prediction already priced it on two issues with basis 'competing', alongside KKS's own figures. Finding 2 had mislabeled that $45,000-per-acre figure as one of 'KKS's own appraiser's numbers.' The real miss for KKS is that the Court of Claims' own independently-adjusted figure ($52,339/acre) is deliberately excluded from the input by the excerpt's own design (its own per-acre value and treatment of each appraisal) -- not a figure-extraction gap, so the proposed fix (instruct the model to search harder for the opposing figure) would not have addressed KKS's actual miss. Elpa (Finding 2's other case) is unaffected by this correction -- its own excerptNote already confirms neither side's appraisal figure is in that record. No new API spend; read already-saved files only. Nothing in the calculator's prompt or math was touched (Jeff-gated, per CLAUDE.md).",
+   "files": [
+    "ops/calculator-proposals.md",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "PENDING",
+   "metric": "none directly -- this corrected an existing evidence document, it did not change the live site or the valuation method; what to check next time is whether Jeff has reviewed ops/calculator-proposals.md (including this correction) and ruled on Finding 2's remaining proposed change for Elpa-like cases",
+   "window": "n/a",
+   "baseline": {
+    "finalRangeHitRate": 0.531,
+    "casesScored": 39
+   },
+   "checkAfter": "2026-10-29",
+   "status": "watching"
   }
  ]
 }
