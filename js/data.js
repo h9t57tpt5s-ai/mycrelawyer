@@ -10517,6 +10517,48 @@ const RELAW_DATA = {
         { when: "December 31, 2024", label: "Supreme Court, New York County declares the guaranty law unconstitutional and reinstates the landlord's claims against the guarantor" },
         { when: "October 20, 2026", label: "Appellate Division, First Department reverses, holding the guaranty law does not violate the Contracts Clause", current: true }
       ]
+    },
+    {
+      id: "live-318",
+      seoTitle: "West Palm Beach $26M Hotel Deal Challenged: Sunshine Law Suit",
+      seoDescription: "Neighbors sued Palm Beach County and Related Ross, saying commissioners violated Florida's Sunshine Law approving a $26M hotel financing deal.",
+      addedDate: "2026-10-21",
+      property: { address: "940 South Rosemary Avenue", city: "West Palm Beach", state: "FL" },
+      title: "Grandview Heights Neighborhood Association v. Palm Beach County (Sunshine Law Challenge to $26M Convention Center Hotel Deal)",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-10-14",
+      jurisdiction: "Circuit Court of the 15th Judicial Circuit, Palm Beach County, Florida",
+      state: "FL",
+      propertyType: "Hospitality",
+      amount: "$26 million sale-leaseback financing commitment challenged as void",
+      amountUsd: 26000000,
+      amountBasis: "other",
+      source: "live",
+      sourceUrl: "https://www.wptv.com/news/local-news/our-community/west-palm-beach/residents-file-lawsuit-in-palm-beach-county-over-26-million-convention-center-hotel-deal",
+      summary: "Two West Palm Beach neighborhood groups sued Palm Beach County, the City of West Palm Beach, its Community Redevelopment Agency, the CityPlace Community Development District, and Related Ross affiliates on October 14, 2026, seeking to void the county commission's September 29 approval of a $26 million sale-leaseback financing package for a planned 400-room convention center hotel. The suit alleges commissioners violated Florida's Government in the Sunshine Law by voting on a 715-page, 34-part transaction document that was not made public until roughly 90 minutes before the vote.",
+      significance: "The case tests how far Florida's open-meetings law reaches when a local government's own notice practices technically meet the statutory minimum but leave the public little real opportunity to review a complex financing package before a vote. A ruling that the approval is void ab initio would put the county's $26 million construction-deposit advance, the planned sale-leaseback, and the developer's construction timeline back into legal limbo, and would give public-private hotel and convention-center financing deals elsewhere a cautionary data point on how much lead time 'reasonable notice' requires.",
+      body: [
+        "Two West Palm Beach neighborhood associations sued Palm Beach County, the City of West Palm Beach, its Community Redevelopment Agency, the CityPlace Community Development District, and affiliates of developer Related Ross on October 14, 2026, seeking to void the county's approval of a $26 million public financing package for a planned 400-room convention center hotel. The complaint, filed in Florida's Fifteenth Judicial Circuit by the Grandview Heights Neighborhood Association and the West Palm Beach Neighborhood Alliance, does not challenge the hotel's design or its zoning entitlements directly. It instead targets the process: the groups allege that county commissioners voted on a 34-part transaction document running 715 pages without giving the public a meaningful chance to review it first, in violation of Florida's Government in the Sunshine Law.",
+        "The hotel at the center of the dispute is an 18-story, roughly 400-room project branded Hilton Curio, planned for 940 South Rosemary Avenue near the Palm Beach County Convention Center and the CityPlace retail district. Related Ross, an affiliate of developer Related Companies, is the project sponsor. On September 29, 2026, the Palm Beach County Commission voted 6-1 -- with Commissioner Gregg Weiss, whose district includes the hotel site, casting the lone dissent -- to approve a sale-leaseback arrangement in which the county would advance $26 million from its General Fund reserves to a Related Ross affiliate to help fund construction deposits. Under the deal, once the roughly $290 million hotel is completed, the county would acquire it outright and lease it back to the developer's operating entity for an initial term of 33 years, with an option to extend to as long as 97 years.",
+        "The lawsuit's core claim is procedural rather than substantive. According to reporting on the complaint, the full 715-page transaction package was not made available to the public until 8 a.m. on September 29 -- roughly 90 minutes before the commission's meeting began. County staff have defended the notice as adequate, telling commissioners that Florida law requires only 24 hours' notice for such items and that the county's own agenda practices typically provide about five days. The plaintiffs argue that neither 90 minutes nor even the county's usual five-day window gave the public or affected commissioners a realistic opportunity to review a complex, multi-part financing structure before a binding vote, and that action taken on inadequate notice under the Sunshine Law is void from the moment it was taken rather than merely voidable. The suit asks the court to invalidate the September 29 approval and to pause further construction activity while that question is litigated.",
+        "The Sunshine Law claim arrives against a backdrop of sustained neighborhood opposition to the project dating back to earlier this year, when Grandview Heights residents raised concerns about the hotel's scale, traffic, and noise during the site-plan approval process; Related Ross made some design accommodations, including repositioning outdoor speakers away from the neighborhood, which residents have said fall short of addressing their concerns. Reporting has also referenced a separate, earlier challenge to the project's land-use approval itself, suggesting the sale-leaseback financing fight is one front in a broader legal campaign against the hotel rather than an isolated dispute.",
+        "For public agencies that rely on public-private financing structures to attract hotel and convention-related development, the case is a reminder that Florida's open-meetings statute polices not just whether a meeting was open to the public, but whether the public had a genuine opportunity to engage with what was being decided. A commission's compliance with a bare statutory minimum does not necessarily immunize a vote from a reasonable-notice challenge when the underlying documentation is unusually voluminous or was supplied at the last minute. For developers structuring complex sale-leaseback or incentive packages with local governments, the direction of this case will matter well beyond West Palm Beach: large, multi-part transactions that surface for a vote only shortly before the meeting are an increasingly visible target for neighborhood litigants looking to unwind a deal after the fact, and a void-ab-initio finding can put months of pre-construction work and committed public financing back into limbo. Developers and public-sector partners negotiating similar deals should push for complete transaction packages to be posted well ahead of a scheduled vote, build a contemporaneous record of when materials actually became available, and expect that once substantive zoning fights are resolved or losing traction, organized opposition will increasingly look to process-based openings like this one."
+      ],
+      judge: null,
+      parties: [
+        { name: "Grandview Heights Neighborhood Association", role: "Plaintiff" },
+        { name: "West Palm Beach Neighborhood Alliance", role: "Plaintiff" },
+        { name: "Palm Beach County", role: "Defendant" },
+        { name: "City of West Palm Beach", role: "Defendant" },
+        { name: "The Related Companies", role: "Defendant" },
+        { name: "CityPlace Community Development District", role: "Defendant" }
+      ],
+      tags: ["sunshine-law", "hotel", "public-private-partnership", "zoning", "florida"],
+      timeline: [
+        { when: "September 29, 2026", label: "Palm Beach County Commission votes 6-1 to approve the $26 million sale-leaseback financing package" },
+        { when: "October 14, 2026", label: "Grandview Heights Neighborhood Association and West Palm Beach Neighborhood Alliance sue to void the approval under Florida's Sunshine Law", current: true }
+      ]
     }
   ],
 
