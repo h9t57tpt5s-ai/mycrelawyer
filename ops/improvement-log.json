@@ -234,7 +234,12 @@
     "newsletterSignups7": 0
    },
    "checkAfter": "2026-10-21",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-21",
+    "value": {"multiPageRate7": 0.0592, "follows7": 0, "newsletterSignups7": 1},
+    "note": "multiPageRate7 moved -41.3% (0.1008 -> 0.0592), past the 25% threshold on its own, but the 28-day trend does not agree: last28Days.multiPageRate was 0.0526 the week imp-010 shipped, rose to 0.0613 by 2026-10-19, and only fell back to 0.0555 by today -- roughly flat-to-up over the period, not a confirming decline. The site's own daily history (ops/metrics/history/2026-10-10 through 2026-10-20) shows multiPageRate7 already falling steadily from a 0.10-0.103 peak around imp-006's launch (2026-10-11/12), well before imp-010 shipped (2026-10-14); imp-006/imp-013/imp-020/imp-022 all touch the same two pages and are still open, too confounded to pin the move on imp-010 specifically. follows7 stayed at 0; newsletterSignups7 moved 0->1, a real but single event already counted toward imp-013's own still-open verdict. Not reverted -- nothing about the banner is wrong or clutter, and the metric's decline clearly predates it."
+   }
   },
   {
    "id": "imp-011",
@@ -491,6 +496,24 @@
    "checkAfter": "n/a",
    "status": "no-op",
    "note": "Drafted 4 posts from the most compelling of the 11 new matters (live-306 Freddie Mac v. Nord Group rent-diversion dispute, live-312 Shadowbox Studios v. DeKalb County data-center moratorium suit, live-311 62 Wooster v. TML good-guy-guaranty ruling, live-315 Hungerford Building foreclosure-appeal stay), every fact copied verbatim from the published matter write-ups. Skipped live-310 (Salha and Abu Ali Cafe v. 2020 Harwin 59 Shopping Centers) because its case caption names an individual plaintiff from the court record, matching the same exclusion rule imp-018 applied to live-301. Drafts only -- never posted on Jeff's behalf. Logged as 'no-op' per the log schema (no goal metric moved or watched), same convention as imp-018."
+  },
+  {
+   "id": "imp-024",
+   "date": "2026-10-21",
+   "track": "calculator",
+   "title": "Fixed case-valuation-methodology.html's stale description of the probability model",
+   "why": "Judged imp-010 this run (no clear effect, see its own verdict). mostBehind was conversion/calculator/traffic/news; the last 2 log entries (imp-022 conversion, imp-023 traffic) left calculator as the first mostBehind goal untouched in the last 2 runs. Checked the 'one open experiment per goal' backlog rule first: every goal already has an open watching entry (traffic: imp-009/imp-012; conversion: imp-013/imp-020/imp-022; calculator: imp-011/imp-014/imp-016; subscription: imp-015; news: imp-017), so rather than stack a 4th calculator experiment that would re-confound calculatorViews7 attribution (the exact problem imp-010's own verdict just illustrated on multiPageRate7), looked for calculator-goal work that does not touch any page's inbound-link attribution. Found a real accuracy bug while re-reading case-valuation-methodology.html (the primary explainer page) against case-valuation-calibration.html (the site's own, more detailed, Jeff-approved v4 changelog, Sept 25 2026): methodology.html's 'How an estimate gets built' section still described the pre-v4 approach -- the model picking a specific probability percentage from a per-claim-type base-rate table (example given: 'unpaid rent ... starts from a 90-97% probability range') -- when calibration.html's own v4 entry says the model 'no longer writes probabilities or dollar figures: it picks one of six fixed strength bands per claim and quotes each dollar figure verbatim from the filings.' Confirmed directly in code (supabase/functions/case-valuation-analyze/valuation-math.ts's STRENGTH_BANDS: conceded/strong/favorable/even/unfavorable/weak) that no band matches '90-97%' or the other specific percentages used elsewhere on the site (case-valuation-worked-examples.html's 88-95%/15-35%, case-valuation.html's own static sample's 90-97%/65-90%) -- those are from the abandoned free-form-probability method, not the live one.",
+   "files": [
+    "case-valuation-methodology.html",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "dec0fe3d6be6697abaaa63af980122621c604fc2",
+   "metric": "none directly -- a copy-accuracy fix, not something a traffic/visit metric would move; verified by internal consistency with case-valuation-calibration.html and valuation-math.ts, not by a goal number",
+   "window": "n/a",
+   "baseline": null,
+   "checkAfter": "n/a",
+   "status": "no-op",
+   "note": "Rewrote only the one paragraph with the wrong example, replacing the specific stale percentages with calibration.html's own qualitative description (a fixed strength band per claim; a dollar figure that must be a verbatim quote from the user's own materials; comparable cases cited for the legal standard, not the dollar amount) -- no new percentages invented, so it can't go stale the same way again. Deliberately did NOT touch case-valuation.html's 'Sample output' claim card or case-valuation-worked-examples.html's two worked examples, which show the same old-style percentages: fixing those well would mean asserting what the live tool's exact current output looks like, and while re-reading supabase/functions/case-valuation-analyze/index.ts found it already imports v6 math helpers (valuation-v6.ts: v6IssueRange, v6Spread, simulateOutcomes, verifyInterest, verifyRentTerms) that are not reflected anywhere public -- not in js/backtest-results-data.js's published versions (v1/v2/v3/v4/v4.3 only, generatedAt 2026-09-26) and not in calibration.html's changelog, and case_valuation_project/backtest/results-v6/ and results-v6.1/ hold unscored per-case runs. This routine cannot tell from here whether v4.3 or some newer v6 generation is what's actually deployed right now, and the valuation method is Jeff's call anyway -- logged as backlog NEEDS JEFF (G15) rather than guessing. HTML tag balance clean; site_audit.py and check_case_fields.py unchanged/OK before committing."
   }
  ]
 }
