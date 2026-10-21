@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-20T14:24:51+00:00",
+ "updatedAt": "2026-10-21T14:34:16+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 17,
+ "requestsUsed": 20,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -39,6 +39,13 @@
   },
   "67174489": {
    "entries": [
+    {
+     "date": "2026-10-20",
+     "number": 1627,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67174489/1627/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
     {
      "date": "2026-10-19",
      "number": 1626,
@@ -87,13 +94,6 @@
      "text": "ENTRY OF JUDGMENT re: Doc. No. 1619 in 3:23-md-03071. Associated Cases: 3:23-md-03071, 3:22-cv-01082, 3:23-cv-00332, 3:23-cv-00357, 3:23-cv-00378, 3:23-cv-00413",
      "url": "https://www.courtlistener.com/docket/67174489/1620/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": true
-    },
-    {
-     "date": "2026-10-15",
-     "number": 1619,
-     "text": "Order AND ~Util - Terminate Motions",
-     "url": "https://www.courtlistener.com/docket/67174489/1619/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -103,10 +103,38 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-10-19"
+   "lastEntryDate": "2026-10-20"
   },
   "67356054": {
    "entries": [
+    {
+     "date": "2026-10-20",
+     "number": 157,
+     "text": "Notice of Appearance",
+     "url": "https://www.courtlistener.com/docket/67356054/157/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-20",
+     "number": 156,
+     "text": "Certification",
+     "url": "https://www.courtlistener.com/docket/67356054/156/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-20",
+     "number": 155,
+     "text": "Substitution of Attorney",
+     "url": "https://www.courtlistener.com/docket/67356054/155/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-20",
+     "number": 154,
+     "text": "Notice of Pro Hac Vice to Receive NEF",
+     "url": "https://www.courtlistener.com/docket/67356054/154/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-15",
      "number": 153,
@@ -134,34 +162,6 @@
      "text": "Mandate Notice",
      "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-13",
-     "number": 150,
-     "text": "USCA Mandate (Terminates Appeal)",
-     "url": "https://www.courtlistener.com/docket/67356054/150/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": 149,
-     "text": "Notice of Pro Hac Vice to Receive NEF",
-     "url": "https://www.courtlistener.com/docket/67356054/149/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": null,
-     "text": "Notice of Pro Hac Vice counsel added",
-     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": null,
-     "text": "Pro Hac Vice counsel, DIANA J. ZINSER for MONICA BLAIR-SMITH, has been added to receive Notices of Electronic Filing. Pursuant to L.Civ.R. 101.1, only local cou",
-     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -171,7 +171,7 @@
    "docketNumber": "1:23-cv-02536",
    "dateTerminated": "2024-09-30",
    "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-   "lastEntryDate": "2026-10-15"
+   "lastEntryDate": "2026-10-20"
   },
   "67940311": {
    "entries": [],
@@ -663,6 +663,20 @@
   "73186724": {
    "entries": [
     {
+     "date": "2026-10-20",
+     "number": 57,
+     "text": "Extension of Time to File Response/Reply",
+     "url": "https://www.courtlistener.com/docket/73186724/57/district-of-columbia-v-razjooyan/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-20",
+     "number": 56,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/73186724/56/district-of-columbia-v-razjooyan/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-09",
      "number": 55,
      "text": "Order on Motion to Show Cause AND Set/Reset Deadlines",
@@ -703,20 +717,6 @@
      "text": "Exhibit 2: Hamilton Declaration and Exhibits",
      "url": "https://www.courtlistener.com/docket/73186724/54/2/district-of-columbia-v-razjooyan/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-17",
-     "number": 54,
-     "text": "Exhibit 1: Cruz Declaration and Exhibits",
-     "url": "https://www.courtlistener.com/docket/73186724/54/1/district-of-columbia-v-razjooyan/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-17",
-     "number": 54,
-     "text": "Show Cause",
-     "url": "https://www.courtlistener.com/docket/73186724/54/district-of-columbia-v-razjooyan/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -726,7 +726,7 @@
    "docketNumber": "1:26-cv-01210",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73186724/district-of-columbia-v-razjooyan/",
-   "lastEntryDate": "2026-10-09"
+   "lastEntryDate": "2026-10-20"
   },
   "73409172": {
    "entries": [
@@ -835,6 +835,13 @@
   "73578741": {
    "entries": [
     {
+     "date": "2026-10-20",
+     "number": 16,
+     "text": "Order on Motion for Extension of Time to File Response/Reply",
+     "url": "https://www.courtlistener.com/docket/73578741/16/keller-v-udr-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-19",
      "number": 15,
      "text": "Extension of Time to File Response/Reply",
@@ -891,7 +898,7 @@
    "docketNumber": "3:26-cv-03865",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
-   "lastEntryDate": "2026-10-19"
+   "lastEntryDate": "2026-10-20"
   },
   "73684397": {
    "entries": [
@@ -983,6 +990,20 @@
   "73733742": {
    "entries": [
     {
+     "date": "2026-10-20",
+     "number": 53,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/73733742/53/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-20",
+     "number": 52,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/73733742/52/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-16",
      "number": 51,
      "text": "Notice of Appearance",
@@ -1023,20 +1044,6 @@
      "text": "Proposed Order",
      "url": "https://www.courtlistener.com/docket/73733742/46/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 45,
-     "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/73733742/45/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 44,
-     "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/73733742/44/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1046,7 +1053,7 @@
    "docketNumber": "5:26-cv-05612",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73733742/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-   "lastEntryDate": "2026-10-16"
+   "lastEntryDate": "2026-10-20"
   },
   "73738334": {
    "entries": [
@@ -1299,6 +1306,13 @@
   "74922581": {
    "entries": [
     {
+     "date": "2026-10-20",
+     "number": 27,
+     "text": "Dismiss case",
+     "url": "https://www.courtlistener.com/docket/74922581/27/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-19",
      "number": 26,
      "text": "Extend/Shorten time",
@@ -1346,13 +1360,6 @@
      "text": "Court admitted exhibits",
      "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": null,
-     "text": "Hearing set/continued",
-     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1362,10 +1369,24 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-10-19"
+   "lastEntryDate": "2026-10-20"
   },
   "74927117": {
    "entries": [
+    {
+     "date": "2026-10-20",
+     "number": 43,
+     "text": "Certificate of Service AND Certificate of Service of Notice of Hearing",
+     "url": "https://www.courtlistener.com/docket/74927117/43/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-20",
+     "number": 42,
+     "text": "Order on Motion for Emergency/Expedited Determination",
+     "url": "https://www.courtlistener.com/docket/74927117/42/southbridge-associates-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-19",
      "number": 41,
@@ -1407,20 +1428,6 @@
      "text": "Order on Motion to Extend",
      "url": "https://www.courtlistener.com/docket/74927117/36/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 35,
-     "text": "Extend Time",
-     "url": "https://www.courtlistener.com/docket/74927117/35/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": 34,
-     "text": "Notice of Appearance and Request for Notice",
-     "url": "https://www.courtlistener.com/docket/74927117/34/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1430,7 +1437,7 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
-   "lastEntryDate": "2026-10-19"
+   "lastEntryDate": "2026-10-20"
   },
   "74948724": {
    "entries": [
@@ -1438,6 +1445,13 @@
      "date": "2026-10-20",
      "number": null,
      "text": "Entry",
+     "url": "https://www.courtlistener.com/docket/74948724/az-175th-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-20",
+     "number": null,
+     "text": "Service by First Class Mail",
      "url": "https://www.courtlistener.com/docket/74948724/az-175th-street-llc/",
      "ruling": false
     },
