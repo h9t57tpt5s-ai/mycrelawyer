@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-20",
+  lastUpdatedDate: "2026-10-21",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -10477,6 +10477,46 @@ const RELAW_DATA = {
         { when: "July 2026", label: "Village council extends the moratorium another 180 days as the original term lapses, through year end" },
         { when: "October 20, 2026", label: "Ohio Supreme Court denies the writ of mandamus, holding the village's data-center permit moratorium left it with no clear legal duty to review the site plan", current: true }
       ]
+    },
+    {
+      id: "live-317",
+      addedDate: "2026-10-21",
+      seoTitle: "NY Appeals Court Upholds NYC's Commercial Guaranty Law",
+      seoDescription: "First Department ruled NYC's COVID-era guaranty law is constitutional, reversing a trial court and reviving a defense for commercial lease guarantors.",
+      property: { address: "513 West 26th Street", city: "New York", state: "NY" },
+      title: "513 West 26th Realty LLC v. George Billis Galleries, Inc. (Guaranty Law Contracts Clause Ruling)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-20",
+      jurisdiction: "Appellate Division, First Department, New York",
+      state: "NY",
+      propertyType: "Retail",
+      amount: "Personal guaranty of unpaid commercial rent (no figure stated in the opinion excerpt)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11040695/513-w-26th-realty-llc-v-george-billis-galleries-inc/",
+      summary: "New York's Appellate Division, First Department held on October 20, 2026 that New York City's pandemic-era 'guaranty law' (Administrative Code § 22-1005), which barred enforcement of personal guaranties on certain commercial leases for a 16-month COVID-19 period, does not violate the Contracts Clause of the U.S. Constitution. The ruling reverses a Supreme Court, New York County decision that had declared the law unconstitutional and reinstated landlord 513 West 26th Realty LLC's claims against gallery guarantor George Billis, reviving the guaranty-law defense for the guarantor instead.",
+      significance: "The decision is a significant data point in a yearslong, unresolved conflict over the guaranty law's constitutionality: a federal district court had found the law unconstitutional in Melendez v. City of New York, only for the Second Circuit to vacate that ruling in Bochner v. City of New York without reaching the merits. The First Department's holding now controls guaranty disputes litigated in New York's state courts -- where most such cases are filed -- meaning landlords pursuing legacy claims against pre-2020 commercial lease guarantors for pandemic-period defaults face a reaffirmed statutory shield, while the question remains open if a similar claim is litigated in federal court.",
+      body: [
+        "New York's Appellate Division, First Department ruled on October 20, 2026 that New York City's so-called \"guaranty law\" -- which barred landlords from enforcing personal guaranties on certain commercial leases for a 16-month window during the COVID-19 pandemic -- does not violate the Contracts Clause of the U.S. Constitution. The decision, in 513 West 26th Realty LLC v. George Billis Galleries, Inc., reverses a trial court ruling that had struck the law down, and it lands in the middle of a yearslong, unsettled fight between state and federal courts over the measure's constitutionality.",
+        "The case arose from an ordinary pandemic-era rent dispute. Landlord 513 West 26th Realty LLC leased Chelsea space to George Billis Galleries, Inc., an art exhibition business, with gallery principal George Billis personally guarantying the tenant's lease obligations. When the gallery stopped paying rent during the pandemic, the landlord sued the tenant for breach of the lease and the guarantor for breach of the guaranty. The guarantor moved to dismiss, invoking New York City Administrative Code § 22-1005 -- enacted by the City Council in April 2020 as part of a package of bills meant to help small businesses avoid personal bankruptcy during the pandemic's economic collapse by precluding enforcement of personal guaranties tied to certain commercial leases for defaults occurring during a defined COVID-19 period.",
+        "Supreme Court, New York County initially sided with the guarantor, dismissing the claims against him. The First Department reversed that first ruling in 2023, not to decide the constitutional question outright but to send the case back for a fuller record, in light of a Southern District of New York decision, Melendez v. City of New York, that had found the guaranty law unconstitutional. That federal ruling was itself later vacated by the Second Circuit in Bochner v. City of New York, leaving the question open again. On remand, Supreme Court this time declared the guaranty law unconstitutional under the Contracts Clause, reinstated the landlord's claims against the guarantor, and denied motions to dismiss filed by both the tenant and the City of New York, which had intervened to defend its own ordinance.",
+        "The First Department's decision, authored by Associate Justice Llinét M. Rosado, reverses that ruling and resolves the case in the City's favor. Applying the U.S. Supreme Court's three-part test for Contracts Clause challenges from Energy Reserves Group, Inc. v. Kansas Power & Light Co., the panel held that the guaranty law survives scrutiny, emphasizing the strong presumption of constitutionality attached to legislative enactments and the substantial deference courts owe a city council's judgment about the necessity of emergency measures -- deference the court found particularly appropriate given the declared public health emergency in New York State when the law passed. The panel took no position on the law's wisdom as policy, only on its constitutionality.",
+        "For a city law passed six years ago as emergency pandemic relief, the stakes are not merely historical. A substantial population of pre-2020 personal guaranties tied to commercial leases remain the subject of active collection litigation in New York courts, and landlords and guarantors alike have been litigating in the shadow of conflicting signals -- first a federal district court finding the law unconstitutional, then a federal appellate vacatur that left the question unresolved, and now a state appellate ruling going the other way. The First Department's decision does not bind federal courts, and the Second Circuit has not yet ruled on the law's merits following the Bochner vacatur, so the conflict is not fully resolved, but it is now the controlling word for guaranty disputes litigated in New York's state courts, where the great majority of these cases are filed. Landlords pressing or considering guaranty claims tied to 2020 and 2021 defaults should factor this ruling into settlement posture rather than assume federal precedent will rescue a guaranty claim in state court, while guarantors facing collection suits on legacy pandemic defaults gain a reaffirmed shield in the First Department, at least until further appellate activity -- whether by the City seeking to cement the win elsewhere or by guarantors testing the ruling's reach in other departments -- resolves the conflict more fully."
+      ],
+      tags: ["guaranty-law", "contracts-clause", "commercial-lease", "covid-19", "new-york"],
+      parties: [
+        { name: "513 West 26th Realty LLC", role: "Landlord/Plaintiff-Respondent" },
+        { name: "George Billis Galleries, Inc.", role: "Tenant/Defendant-Appellant" },
+        { name: "City of New York", role: "Intervenor-Defendant-Appellant" }
+      ],
+      judge: "Llinét M. Rosado",
+      timeline: [
+        { when: "April 2020", label: "New York City Council enacts the guaranty law (Admin. Code § 22-1005) as COVID-19 small-business relief" },
+        { when: "2023", label: "First Department remands the case for further development of the guaranty law's constitutionality" },
+        { when: "December 31, 2024", label: "Supreme Court, New York County declares the guaranty law unconstitutional and reinstates the landlord's claims against the guarantor" },
+        { when: "October 20, 2026", label: "Appellate Division, First Department reverses, holding the guaranty law does not violate the Contracts Clause", current: true }
+      ]
     }
   ],
 
@@ -11028,6 +11068,7 @@ const RELAW_DATA = {
      court's own site (docket search, judge assignments, local rules), not
      third-party case-law aggregators. */
   courts: [
+    { jurisdiction: "Appellate Division, First Department, New York", url: "https://www.nycourts.gov/courts/AD1/" },
     { jurisdiction: "Court of Common Pleas, Fayette County, Pennsylvania", url: "https://www.fayettecountypa.org/302/Court-of-Common-Pleas" },
     { jurisdiction: "Circuit Court of St. Louis County, Missouri", url: "https://stlcountycourts.com/" },
     { jurisdiction: "3rd Circuit Court, Wayne County, Michigan", url: "https://www.3rdcc.org/" },
@@ -11123,6 +11164,14 @@ const RELAW_DATA = {
      court's own biography page, or for federal Article III judges, the
      Federal Judicial Center's Biographical Directory. */
   judges: [
+    {
+      name: "Llinét M. Rosado",
+      slug: "llinet-m-rosado",
+      title: "Associate Justice — authored the panel opinion",
+      court: "Appellate Division, First Department, New York",
+      background: "Appointed to the Appellate Division, First Department by Governor Kathy Hochul in July 2023, after serving as a Justice of the Supreme Court of the State of New York in Bronx County since her election in November 2018. Previously elected to the Civil Court of the City of New York in Bronx County in 2012 and assigned to Bronx Family Court, after beginning her legal career as a staff attorney with the Legal Aid Society's Criminal Defense Division.",
+      bioUrl: "https://www.nycourts.gov/courts/AD1/JusticesOfTheCourt/Justice_Rosado.shtml"
+    },
     {
       name: "Theodore A. McKee",
       slug: "theodore-a-mckee",
