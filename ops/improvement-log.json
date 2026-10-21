@@ -529,7 +529,7 @@
     "ops/calculator-proposals.md",
     "ops/metrics/goals.json"
    ],
-   "commit": "PENDING",
+   "commit": "00ffce40c8ea2d1db8610d688b6fc0680ee8f948",
    "metric": "none directly -- this corrected an existing evidence document, it did not change the live site or the valuation method; what to check next time is whether Jeff has reviewed ops/calculator-proposals.md (including this correction) and ruled on Finding 2's remaining proposed change for Elpa-like cases",
    "window": "n/a",
    "baseline": {
