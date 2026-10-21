@@ -80,20 +80,4 @@
       <news:title>ACORE Capital Declares Default on GPI Companies' West End Office Campus</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://credocket.com/matters/live-306.html</loc>
-    <news:news>
-      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-18</news:publication_date>
-      <news:title>Freddie Mac v. Nord Group Affiliate (Edgewater Apartments Post-Foreclosure Rent Diversion Dispute)</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://credocket.com/matters/live-305.html</loc>
-    <news:news>
-      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-18</news:publication_date>
-      <news:title>Quinlan Development Group v. Maple 1 Farley Owner LLC (Penn Plaza Life-Sciences Site Foreclosure)</news:title>
-    </news:news>
-  </url>
 </urlset>
