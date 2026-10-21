@@ -1,6 +1,6 @@
 {
  "date": "2026-10-21",
- "generatedAt": "2026-10-21T15:40:22+00:00",
+ "generatedAt": "2026-10-21T18:53:23+00:00",
  "mostBehind": [
   "conversion",
   "calculator",
@@ -13,11 +13,11 @@
    "behind": [
     "googleLandings7"
    ],
-   "gap": 0.205,
+   "gap": 0.18,
    "metrics": {
-    "visits7": 422,
-    "googleLandings7": 118,
-    "visits28": 1136
+    "visits7": 429,
+    "googleLandings7": 128,
+    "visits28": 1198
    },
    "targets": {
     "visits7": 350,
@@ -32,12 +32,12 @@
     "newsletterSignups7",
     "multiPageRate7"
    ],
-   "gap": 0.682,
+   "gap": 0.803,
    "metrics": {
-    "signUps7": 1,
+    "signUps7": 0,
     "follows7": 0,
-    "newsletterSignups7": 1,
-    "multiPageRate7": 0.0592,
+    "newsletterSignups7": 0,
+    "multiPageRate7": 0.0629,
     "contactSends7": 0
    },
    "targets": {
@@ -52,10 +52,10 @@
    "behind": [],
    "gap": 0.0,
    "metrics": {
-    "sourcedMatters7": 28,
-    "freshSourcedMatters7": 24,
-    "medianDaysEventToAdded": 2.0,
-    "leadsReviewedTotal": 126,
+    "sourcedMatters7": 29,
+    "freshSourcedMatters7": 25,
+    "medianDaysEventToAdded": 3,
+    "leadsReviewedTotal": 131,
     "leadsToMattersTotal": 21
    },
    "targets": {
@@ -70,14 +70,14 @@
     "finalRangeHitRate",
     "calculatorViews7"
    ],
-   "gap": 0.606,
+   "gap": 0.596,
    "metrics": {
     "version": "v4.3",
     "finalRangeHitRate": 0.531,
     "casesScored": 39,
     "medianBestGuessError": -0.008,
     "resultsGeneratedAt": "2026-09-26T05:11:43+00:00",
-    "calculatorViews7": 4
+    "calculatorViews7": 5
    },
    "targets": {
     "finalRangeHitRate": 0.75,
