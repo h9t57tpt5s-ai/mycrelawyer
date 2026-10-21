@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T15:50:40+00:00",
+ "updatedAt": "2026-10-21T00:50:22+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
@@ -13,6 +13,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "diego-beekman-mutual-housing-association-housing-development-fund-corp-nysd-1-26-cv-09188",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Blue Sky Towers III, LLC v. Virgin Islands Board of Land Use Appeals",
+   "court": "District Court, Virgin Islands",
+   "courtId": "vid",
+   "docketNumber": "1:26-cv-00027",
+   "dateFiled": "2026-10-20",
+   "docketUrl": "https://www.courtlistener.com/docket/74991650/blue-sky-towers-iii-llc-v-virgin-islands-board-of-land-use-appeals/",
+   "docketId": 74991650,
+   "suitNature": "",
+   "cause": "",
+   "slug": "blue-sky-towers-iii-llc-v-virgin-islands-board-of-land-use-appeals-vid-1-26-cv-00027",
    "type": "Federal civil case"
   },
   {
