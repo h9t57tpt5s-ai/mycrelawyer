@@ -1,0 +1,47 @@
+{
+ "trend": {
+  "id": "trend-024",
+  "title": "Cushman & Wakefield: U.S. Industrial Vacancy Falls to 6.8% in Q3 2026 as Net Absorption Hits 76.6 Million Square Feet",
+  "category": "lease-disputes",
+  "date": "2026-10-12",
+  "scope": "U.S. industrial and logistics real estate (Cushman & Wakefield Q3 2026 U.S. Industrial MarketBeat)",
+  "metric": "6.8% national industrial vacancy, 20 bps below the late-2025 peak; 76.6 msf Q3 net absorption",
+  "sourceUrl": "https://www.cushmanwakefield.com/en/united-states/news/2026/10/leasing-activity-remains-elevated-and-new-construction-rebounds",
+  "summary": "Cushman & Wakefield's Q3 2026 U.S. Industrial MarketBeat put national industrial vacancy at 6.8%, 20 basis points below its late-2025 peak and the lowest since year-end 2024. Net absorption reached 76.6 million square feet in the quarter, the strongest since the first quarter of 2023. The construction pipeline rose 6% from the second quarter to about 324 million square feet, up 23% year over year, and annual asking rent growth reached 4% nationwide. Data center-related users accounted for more than 8% of new leasing activity so far this year.",
+  "significance": "Falling vacancy and re-accelerating rents shift leverage to industrial landlords, raising the stakes in renewal-option and fair-market-rent resets, holdovers, expansion and right-of-first-offer disputes, and assignments by tenants trying to keep below-market leases. A rebuilding construction pipeline weighted toward build-to-suit projects brings more development-agreement, delay and mechanics' lien disputes, and data center-related users add zoning and power-supply questions to industrial siting.",
+  "tags": [
+   "industrial",
+   "vacancy",
+   "cushman & wakefield",
+   "logistics",
+   "leasing"
+  ]
+ },
+ "verification": [
+  {
+   "claim": "National industrial vacancy fell to 6.8%, 20 bps below its late-2025 peak",
+   "quote": "The national industrial vacancy rate declined to 6.8%, 20 basis points below its late-2025 peak and its lowest level since year-end 2024.",
+   "url": "https://www.cushmanwakefield.com/en/united-states/news/2026/10/leasing-activity-remains-elevated-and-new-construction-rebounds"
+  },
+  {
+   "claim": "Q3 net absorption of 76.6 msf, strongest since Q1 2023",
+   "quote": "Net absorption reached 76.6 million square feet (msf) in the third quarter, its strongest quarterly total since the first quarter of 2023 and the second consecutive quarter above 70 msf.",
+   "url": "https://www.cushmanwakefield.com/en/united-states/news/2026/10/leasing-activity-remains-elevated-and-new-construction-rebounds"
+  },
+  {
+   "claim": "Construction pipeline up 6% to about 324 msf, up 23% year over year",
+   "quote": "the U.S. construction pipeline increased 6% from the second quarter to approximately 324 msf, its highest level since mid-2024 and up 23% year-over-year.",
+   "url": "https://www.cushmanwakefield.com/en/united-states/news/2026/10/leasing-activity-remains-elevated-and-new-construction-rebounds"
+  },
+  {
+   "claim": "Annual asking rent growth reached 4%",
+   "quote": "annual asking rent growth reached 4% nationwide",
+   "url": "https://www.cushmanwakefield.com/en/united-states/news/2026/10/leasing-activity-remains-elevated-and-new-construction-rebounds"
+  },
+  {
+   "claim": "Data center-related users were more than 8% of new leasing",
+   "quote": "Data center-related users accounted for more than 8% of new leasing activity year to date",
+   "url": "https://www.cushmanwakefield.com/en/united-states/news/2026/10/leasing-activity-remains-elevated-and-new-construction-rebounds"
+  }
+ ]
+}
