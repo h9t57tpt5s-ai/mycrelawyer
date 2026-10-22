@@ -10961,6 +10961,19 @@ const RELAW_DATA = {
       summary: "Colliers data reported by Chain Store Age put national retail vacancy at 4.3% in the third quarter of 2026, down 10 basis points, with limited new supply keeping availability tight. Net absorption of 10.5 million square feet was the highest quarterly total since 2023, driven by retailer expansion and backfilled space. Malls ended the quarter at 8.2% vacancy and shopping centers at 5.4%. Average asking rents reached $26.20 per square foot, up 0.7% from the prior quarter. Retail construction totaled 58.1 million square feet, with 7.6 million square feet delivered, and Colliers said elevated construction and financing costs continue to hold back new development.",
       significance: "Retail vacancy near historic lows with limited new supply gives landlords more leverage in lease renewals and expansions, raising the stakes on co-tenancy, exclusive-use and percentage-rent clauses as tenants compete for scarce space. With construction pipelines constrained by financing costs, owners of well-located centers have fewer easy outs if a redevelopment or repositioning plan falls through, increasing the practical cost of disputes over lease terminations, assignment and tenant improvement allowances.",
       tags: ["retail", "vacancy", "colliers", "absorption", "shopping centers"]
+    },
+    {
+      id: "trend-024",
+      title: "Cushman & Wakefield: U.S. Industrial Vacancy Falls to 6.8% in Q3 2026 as Net Absorption Hits 76.6 Million Square Feet",
+      category: "lease-disputes",
+      date: "2026-10-12",
+      scope: "U.S. industrial and logistics real estate (Cushman & Wakefield Q3 2026 U.S. Industrial MarketBeat)",
+      metric: "6.8% national industrial vacancy, 20 bps below the late-2025 peak; 76.6 msf Q3 net absorption",
+      source: "live",
+      sourceUrl: "https://www.cushmanwakefield.com/en/united-states/news/2026/10/leasing-activity-remains-elevated-and-new-construction-rebounds",
+      summary: "Cushman & Wakefield's Q3 2026 U.S. Industrial MarketBeat put national industrial vacancy at 6.8%, 20 basis points below its late-2025 peak and the lowest since year-end 2024. Net absorption reached 76.6 million square feet in the quarter, the strongest since the first quarter of 2023. The construction pipeline rose 6% from the second quarter to about 324 million square feet, up 23% year over year, and annual asking rent growth reached 4% nationwide. Data center-related users accounted for more than 8% of new leasing activity so far this year.",
+      significance: "Falling vacancy and re-accelerating rents shift leverage to industrial landlords, raising the stakes in renewal-option and fair-market-rent resets, holdovers, expansion and right-of-first-offer disputes, and assignments by tenants trying to keep below-market leases. A rebuilding construction pipeline weighted toward build-to-suit projects brings more development-agreement, delay and mechanics' lien disputes, and data center-related users add zoning and power-supply questions to industrial siting.",
+      tags: ["industrial", "vacancy", "cushman & wakefield", "logistics", "leasing"]
     }
   ],
 
