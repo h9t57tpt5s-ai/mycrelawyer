@@ -575,6 +575,22 @@
   "opinion:11041901": {
    "at": "2026-10-22",
    "action": "skipped: eminent domain condemnation of individual homeowners' residential lots for a flood-control project, not commercial real estate"
+  },
+  "opinion:11042972": {
+   "at": "2026-10-22",
+   "action": "skipped: residential foreclosure standing appeal, per curiam affirmance; not commercial real estate"
+  },
+  "opinion:11042960": {
+   "at": "2026-10-22",
+   "action": "skipped: workers' compensation benefits appeal; not a real estate matter despite keyword match"
+  },
+  "opinion:11042959": {
+   "at": "2026-10-22",
+   "action": "skipped: Court of Federal Claims takings case with dozens of individual homeowner/trust plaintiffs (plus a few LLCs/HOA); not commercial real estate on its face and parties are predominantly individuals"
+  },
+  "opinion:11042138": {
+   "at": "2026-10-22",
+   "action": "skipped: residential landlord-tenant habitability dispute between individual parties, per the opinion's own description"
   }
  }
 }

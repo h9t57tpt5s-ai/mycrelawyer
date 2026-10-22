@@ -10627,6 +10627,45 @@ const RELAW_DATA = {
         { name: "Padilla Investments, LLC", role: "Landlord/Defendant-Appellee" }
       ],
       judge: null
+    },
+    {
+      id: "live-321",
+      seoTitle: "Rainforest Cafe Building Chicago: Conlon Ordered to Pay $10M",
+      seoDescription: "A Cook County judge ordered investor Sean Conlon to pay over $10M after he guaranteed an $8.3M loan on Chicago's vacant former Rainforest Cafe building.",
+      addedDate: "2026-10-22",
+      title: "Alecko Capital v. Conlon (Guaranty Judgment Over Chicago's Former Rainforest Cafe Building)",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-10-20",
+      jurisdiction: "Circuit Court of Cook County, Illinois",
+      state: "IL",
+      propertyType: "Retail",
+      amount: "More than $10 million judgment on an $8.3 million personally guaranteed loan",
+      amountUsd: 8300000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://www.chicagobusiness.com/real-estate/commercial/ccb-rainforest-cafe-lawsuit-judgment-20261020/",
+      summary: "Cook County Circuit Judge Jerry A. Esrig ordered investor Sean Conlon to pay more than $10 million on October 20, 2026 to resolve breach-of-contract litigation brought by lender Alecko Capital over the vacant former Rainforest Cafe building at 605 N. Clark Street in Chicago's River North. Alecko sued in October 2025 after Conlon, who personally guaranteed an $8.3 million loan secured by the 22,000-square-foot building, defaulted; the building has sat empty and income-less since the restaurant closed in August 2020.",
+      significance: "The judgment shows how quickly default interest, fees, and litigation costs can widen a lender's claim once a personally guaranteed commercial loan goes into default and the parties end up in court rather than a workout -- the gap between the $8.3 million loan and the $10 million-plus judgment reflects that accumulation. It is also a pointed example of the added risk a vacant, single-tenant specialty building poses to a secured loan, since there is no other rental income to cushion a default once the anchor tenant leaves.",
+      body: [
+        "A Cook County judge has ordered real estate investor Sean Conlon to pay more than $10 million to resolve breach-of-contract litigation brought by lender Alecko Capital over the long-vacant former Rainforest Cafe building in Chicago's River North neighborhood. The ruling, issued October 20, 2026 by Judge Jerry A. Esrig of the Circuit Court of Cook County, closes out roughly a year of litigation that began when Alecko sued over a defaulted $8.3 million loan Conlon had personally guaranteed.",
+        "The 22,000-square-foot freestanding building at 605 N. Clark Street has sat empty since August 2020, when the Rainforest Cafe that had anchored the corner since 1997 closed for good amid the pandemic. A venture led by Conlon had bought the property in 2015 for about $13.7 million. With the building vacant and generating no rental income, the loan secured against it became increasingly difficult to service, and Alecko Capital, the private credit and real estate investment firm led by Alex Pissios, sued in October 2025 to enforce Conlon's personal guaranty after he defaulted. Conlon has told reporters the dispute traces back to a single late payment and that he was arranging refinancing when the suit was filed.",
+        "The building's post-closure history has been complicated by a failed plan to lease the space to a cannabis dispensary, which collapsed after Illinois's buffer-zone rules barring a dispensary within 1,500 feet of an existing shop proved to be an obstacle, further delaying any path to re-tenanting the property and restoring cash flow against the debt. Litigation over the loan proceeded for roughly a year before Judge Esrig's October 20 order, which required Conlon to pay more than $10 million -- a figure that reflects not just the original $8.3 million principal but the default interest, fees, and costs that typically accumulate once a commercial loan goes into default and a lender is forced to litigate to collect. Conlon has said publicly that he intends to pay the judgment and to retain ownership of the building rather than surrender it.",
+        "The case illustrates why lenders routinely structure acquisition and bridge loans on commercial property with full-recourse personal guaranties: a guaranty converts a secured, asset-level risk into unsecured personal liability extending well beyond the property's own value, and the gap between an $8.3 million loan and a $10 million-plus judgment shows how quickly default interest and litigation costs can widen that exposure once a dispute goes to judgment rather than settling early. It is also a reminder of the particular risk profile of a single-tenant, single-use commercial building that loses its anchor tenant -- once the Rainforest Cafe closed, the property had no income stream to service its debt, and each failed attempt at re-tenanting extended the period during which the loan sat unserviced.",
+        "The practical lesson cuts in several directions. A commercial borrower who personally guarantees acquisition or bridge financing should treat any payment default as an immediate priority rather than something to resolve on its own timeline, since lenders are frequently entitled to accelerate the full balance, impose default interest, and add their litigation costs to the amount owed well before a borrower's refinancing plans can materialize. An owner of a single-tenant specialty property, such as a freestanding restaurant building, should build contingency plans for an extended vacancy into underwriting and loan covenants from the outset, since re-tenanting such a space can take years and can be derailed by unrelated regulatory obstacles like zoning buffer requirements for a replacement use. And for a lender, the case underscores the value of a well-documented, broadly worded personal guaranty, which is frequently the difference between recovering a secured loan's face value and recovering a judgment that also captures the accumulated cost of the default itself."
+      ],
+      tags: ["foreclosure", "personal-guaranty", "chicago", "retail", "distressed-debt"],
+      parties: [
+        { name: "Alecko Capital", role: "Plaintiff/Lender" }
+      ],
+      judge: "Jerry A. Esrig",
+      property: { name: "Former Rainforest Cafe Building", address: "605 N. Clark Street", city: "Chicago", state: "IL" },
+      timeline: [
+        { when: "2015", label: "A venture led by Sean Conlon buys the 22,000-square-foot building at 605 N. Clark Street for about $13.7 million" },
+        { when: "August 2020", label: "The Rainforest Cafe closes permanently amid the pandemic, leaving the building vacant" },
+        { when: "October 2025", label: "Alecko Capital sues to enforce Conlon's personal guaranty after the loan goes into default" },
+        { when: "October 20, 2026", label: "Judge Jerry A. Esrig orders Conlon to pay more than $10 million to resolve the litigation", current: true }
+      ]
     }
   ],
 
