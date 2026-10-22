@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-21T14:34:16+00:00",
+ "updatedAt": "2026-10-22T14:35:50+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 20,
+ "requestsUsed": 21,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -108,6 +108,34 @@
   "67356054": {
    "entries": [
     {
+     "date": "2026-10-21",
+     "number": 160,
+     "text": "Status Conference",
+     "url": "https://www.courtlistener.com/docket/67356054/160/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-21",
+     "number": 159,
+     "text": "Scheduling Order",
+     "url": "https://www.courtlistener.com/docket/67356054/159/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-21",
+     "number": 158,
+     "text": "Notice of Appearance",
+     "url": "https://www.courtlistener.com/docket/67356054/158/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-21",
+     "number": null,
+     "text": "Notice of Pro Hac Vice counsel added",
+     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-20",
      "number": 157,
      "text": "Notice of Appearance",
@@ -134,34 +162,6 @@
      "text": "Notice of Pro Hac Vice to Receive NEF",
      "url": "https://www.courtlistener.com/docket/67356054/154/cornish-adebiyi-v-caesars-entertainment-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 153,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/67356054/153/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": 152,
-     "text": "Letter",
-     "url": "https://www.courtlistener.com/docket/67356054/152/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": null,
-     "text": "Order AND ~Util - Set Hearings",
-     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": null,
-     "text": "Mandate Notice",
-     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -171,7 +171,7 @@
    "docketNumber": "1:23-cv-02536",
    "dateTerminated": "2024-09-30",
    "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-   "lastEntryDate": "2026-10-20"
+   "lastEntryDate": "2026-10-21"
   },
   "67940311": {
    "entries": [],
@@ -266,6 +266,13 @@
   "69353264": {
    "entries": [
     {
+     "date": "2026-10-21",
+     "number": 43,
+     "text": "Order on Motion for Magistrate Judge",
+     "url": "https://www.courtlistener.com/docket/69353264/43/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-15",
      "number": 42,
      "text": "Letter",
@@ -313,13 +320,6 @@
      "text": "Notice of Pro Hac Vice to Receive NEF",
      "url": "https://www.courtlistener.com/docket/69353264/38/ayer-v-lightstone-value-plus-reit-i-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-23",
-     "number": 37,
-     "text": "Notice of Pro Hac Vice to Receive NEF",
-     "url": "https://www.courtlistener.com/docket/69353264/37/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -329,7 +329,7 @@
    "docketNumber": "3:24-cv-10371",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
-   "lastEntryDate": "2026-10-15"
+   "lastEntryDate": "2026-10-21"
   },
   "69518085": {
    "entries": [
@@ -990,6 +990,13 @@
   "73733742": {
    "entries": [
     {
+     "date": "2026-10-21",
+     "number": 54,
+     "text": "Motion Hearing",
+     "url": "https://www.courtlistener.com/docket/73733742/54/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-20",
      "number": 53,
      "text": "Order",
@@ -1037,13 +1044,6 @@
      "text": "Notice (Other)",
      "url": "https://www.courtlistener.com/docket/73733742/47/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 46,
-     "text": "Proposed Order",
-     "url": "https://www.courtlistener.com/docket/73733742/46/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1053,7 +1053,7 @@
    "docketNumber": "5:26-cv-05612",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73733742/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-   "lastEntryDate": "2026-10-20"
+   "lastEntryDate": "2026-10-21"
   },
   "73738334": {
    "entries": [
@@ -1126,6 +1126,20 @@
   "74638795": {
    "entries": [
     {
+     "date": "2026-10-21",
+     "number": 7,
+     "text": "Leave to File Document",
+     "url": "https://www.courtlistener.com/docket/74638795/7/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-21",
+     "number": null,
+     "text": "Set/Reset Motion and R&R Deadlines/Hearings",
+     "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-08",
      "number": 6,
      "text": "Request for Default Judgment by Clerk",
@@ -1175,7 +1189,7 @@
    "docketNumber": "3:26-cv-10200",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-   "lastEntryDate": "2026-10-08"
+   "lastEntryDate": "2026-10-21"
   },
   "74701388": {
    "entries": [],
@@ -1306,6 +1320,34 @@
   "74922581": {
    "entries": [
     {
+     "date": "2026-10-21",
+     "number": 31,
+     "text": "Cash collateral",
+     "url": "https://www.courtlistener.com/docket/74922581/31/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-21",
+     "number": 30,
+     "text": "Notice of hearing",
+     "url": "https://www.courtlistener.com/docket/74922581/30/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-21",
+     "number": 29,
+     "text": "Extend/Shorten time",
+     "url": "https://www.courtlistener.com/docket/74922581/29/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-21",
+     "number": null,
+     "text": "Hearing set/continued",
+     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-20",
      "number": 27,
      "text": "Dismiss case",
@@ -1332,34 +1374,6 @@
      "text": "Leave (Not for Appeal use)",
      "url": "https://www.courtlistener.com/docket/74922581/24/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 23,
-     "text": "Cash collateral",
-     "url": "https://www.courtlistener.com/docket/74922581/23/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 22,
-     "text": "Leave (Not for Appeal use)",
-     "url": "https://www.courtlistener.com/docket/74922581/22/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": 21,
-     "text": "Court admitted exhibits",
-     "url": "https://www.courtlistener.com/docket/74922581/21/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": null,
-     "text": "Court admitted exhibits",
-     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1369,10 +1383,17 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-10-20"
+   "lastEntryDate": "2026-10-21"
   },
   "74927117": {
    "entries": [
+    {
+     "date": "2026-10-21",
+     "number": 44,
+     "text": "Order (Generic)",
+     "url": "https://www.courtlistener.com/docket/74927117/44/southbridge-associates-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-20",
      "number": 43,
@@ -1421,13 +1442,6 @@
      "text": "Order on Motion to Use Cash Collateral",
      "url": "https://www.courtlistener.com/docket/74927117/37/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 36,
-     "text": "Order on Motion to Extend",
-     "url": "https://www.courtlistener.com/docket/74927117/36/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1437,7 +1451,7 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
-   "lastEntryDate": "2026-10-20"
+   "lastEntryDate": "2026-10-21"
   },
   "74948724": {
    "entries": [
@@ -1510,6 +1524,13 @@
   "74952112": {
    "entries": [
     {
+     "date": "2026-10-21",
+     "number": 13,
+     "text": "Notice of Attorney Appearance",
+     "url": "https://www.courtlistener.com/docket/74952112/13/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-19",
      "number": 12,
      "text": "Order",
@@ -1557,13 +1578,6 @@
      "text": "Order Referring Case to Magistrate Judge",
      "url": "https://www.courtlistener.com/docket/74952112/6/city-of-san-antonio-v-mullin/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 5,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/74952112/5/city-of-san-antonio-v-mullin/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1573,7 +1587,7 @@
    "docketNumber": "5:26-cv-06542",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
-   "lastEntryDate": "2026-10-19"
+   "lastEntryDate": "2026-10-21"
   }
  },
  "events": [
