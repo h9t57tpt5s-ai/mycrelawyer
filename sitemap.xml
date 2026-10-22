@@ -352,7 +352,7 @@
   </url>
   <url>
     <loc>https://credocket.com/environmental-cleanup-cost-claims.html</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -458,6 +458,11 @@
   <url>
     <loc>https://credocket.com/judge-bruce-mallonee.html</loc>
     <lastmod>2026-10-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-eileen-t-gallagher.html</loc>
+    <lastmod>2026-10-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -652,7 +657,7 @@
   </url>
   <url>
     <loc>https://credocket.com/judges.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -2232,6 +2237,16 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-321.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-322.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-323.html</loc>
     <lastmod>2026-10-22</lastmod>
     <priority>0.6</priority>
   </url>
