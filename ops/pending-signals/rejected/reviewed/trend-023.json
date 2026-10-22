@@ -48,5 +48,10 @@
   "figure 20 is not in any verified quote",
   "figure 215 is not in any verified quote",
   "figure 50000 is not in any verified quote"
- ]
+ ],
+ "reviewed": {
+  "date": "2026-10-22",
+  "decision": "dropped",
+  "reason": "Duplicate of trend-020 (Cushman & Wakefield Q3 2026 office vacancy, 19.8%), already published 2026-10-16. The quotes were rebuilt by the cloud digest from search results and are not on the cited page, which carries none of the figures."
+ }
 }

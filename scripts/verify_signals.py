@@ -27,6 +27,7 @@ import json
 import pathlib
 import re
 import sys
+import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -106,6 +107,41 @@ def check(item, cache):
     return problems
 
 
+def published_trends():
+    """(id, sourceUrl, metric) for every signal already in js/data.js."""
+    s = DATA.read_text()
+    block = s[s.index("trends: ["):]
+    block = block[:block.index("\n  ]")]
+    out = []
+    for chunk in block.split('id: "trend-')[1:]:
+        tid = "trend-" + chunk.split('"', 1)[0]
+        url = re.search(r'sourceUrl: "([^"]*)"', chunk)
+        metric = re.search(r'metric: "((?:[^"\\]|\\.)*)"', chunk)
+        out.append((tid, url.group(1) if url else "", metric.group(1) if metric else ""))
+    return out
+
+
+def duplicate_of(trend):
+    """A draft repeating a published signal: the same source page, or the
+    same publisher and the same headline figure (trend-023, 2026-10-22,
+    re-drafted trend-020's 19.8% office vacancy from Cushman & Wakefield).
+    Filed as reviewed, not raised as a problem: there is nothing to fix."""
+    domain = lambda u: re.sub(r"^www\.", "", urllib.parse.urlparse(u or "").netloc.lower())
+    def headline(text):  # the first checkable figure in the metric
+        for m in re.finditer(r"\$?\d[\d,]*(?:\.\d+)?\s*(?:%|percent)?", text or ""):
+            f = figures(m.group(0))
+            if f:
+                return next(iter(f))
+        return None
+    head = headline(trend.get("metric"))
+    for tid, url, metric in published_trends():
+        if trend.get("sourceUrl") and url == trend["sourceUrl"]:
+            return tid
+        if head and domain(url) and domain(url) == domain(trend.get("sourceUrl")) and headline(metric) == head:
+            return tid
+    return None
+
+
 def publish(trend):
     s = DATA.read_text()
     if f'id: "{trend["id"]}"' in s:
@@ -130,6 +166,19 @@ def main():
         return
     cache, published, rejected = {}, [], []
     for f in files:
+        try:
+            item = json.loads(f.read_text())
+            dup = duplicate_of(item.get("trend") or {})
+        except Exception:
+            dup = None
+        if dup:
+            print(f"DUPLICATE {f.name}: repeats {dup}; filed under rejected/reviewed/")
+            if not args.dry_run:
+                (REJECTED / "reviewed").mkdir(parents=True, exist_ok=True)
+                item["reviewed"] = {"decision": "dropped", "reason": f"duplicate of {dup}, already published"}
+                (REJECTED / "reviewed" / f.name).write_text(json.dumps(item, indent=1, ensure_ascii=False) + "\n")
+                f.unlink()
+            continue
         try:
             item = json.loads(f.read_text())
             problems = check(item, cache)
