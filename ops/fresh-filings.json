@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-10-21T16:07:03+00:00",
+ "updatedAt": "2026-10-22T00:52:51+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "69-79 West Main St LLC",
+   "court": "United States Bankruptcy Court, S.D. New York",
+   "courtId": "nysb",
+   "docketNumber": "26-23052",
+   "dateFiled": "2026-10-21",
+   "docketUrl": "https://www.courtlistener.com/docket/74997471/69-79-west-main-st-llc/",
+   "docketId": 74997471,
+   "slug": "69-79-west-main-st-llc-nysb-26-23052",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "620 Hudson House, LLC",
+   "court": "United States Bankruptcy Court, N.D. New York",
+   "courtId": "nynb",
+   "docketNumber": "26-11232",
+   "dateFiled": "2026-10-21",
+   "docketUrl": "https://www.courtlistener.com/docket/75000919/620-hudson-house-llc/",
+   "docketId": 75000919,
+   "slug": "620-hudson-house-llc-nynb-26-11232",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "216 Greene Ave Group LLC",
    "court": "United States Bankruptcy Court, E.D. New York",
