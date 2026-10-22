@@ -11,7 +11,8 @@
     categories: new Set(),
     status: "all",
     stateFilter: "all",
-    sort: "newest"
+    sort: "newest",
+    since: null // ?since=YYYY-MM-DD: only matters added after that date (returning-visitor banner)
   };
 
   const grid = document.getElementById("case-grid");
@@ -104,6 +105,7 @@
       if (state.categories.size && !state.categories.has(c.category)) return false;
       if (state.status !== "all" && c.status !== state.status) return false;
       if (state.stateFilter !== "all" && c.state !== state.stateFilter) return false;
+      if (state.since && !(c.addedDate && c.addedDate > state.since)) return false;
       if (state.query) {
         const q = state.query.toLowerCase();
         const stateName = c.state ? RELAW_DATA.states[c.state] || "" : "";
@@ -141,7 +143,13 @@
 
   function render() {
     const filtered = getFiltered();
-    resultsCount.textContent = `${filtered.length} matter${filtered.length === 1 ? "" : "s"}`;
+    if (state.since) {
+      const sinceLabel = new Date(state.since + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+      resultsCount.innerHTML = `${filtered.length} matter${filtered.length === 1 ? "" : "s"} added since ${sinceLabel} · <button type="button" class="link-button" id="clear-since">Show all matters</button>`;
+      document.getElementById("clear-since").addEventListener("click", clearSince);
+    } else {
+      resultsCount.textContent = `${filtered.length} matter${filtered.length === 1 ? "" : "s"}`;
+    }
 
     if (!filtered.length) {
       grid.innerHTML = `
@@ -228,8 +236,17 @@
   statusSelect.addEventListener("change", (e) => { state.status = e.target.value; render(); });
   if (stateSelect) stateSelect.addEventListener("change", (e) => { state.stateFilter = e.target.value; render(); });
   sortSelect.addEventListener("change", (e) => { state.sort = e.target.value; render(); });
+  function clearSince() {
+    state.since = null;
+    const url = new URL(window.location.href);
+    url.searchParams.delete("since");
+    history.replaceState(null, "", url.pathname + url.search + url.hash);
+    render();
+  }
+
   clearBtn.addEventListener("click", () => {
     state.query = ""; state.status = "all"; state.stateFilter = "all"; state.sort = "newest"; state.categories.clear();
+    if (state.since) { clearSince(); return; }
     searchInput.value = ""; statusSelect.value = "all"; sortSelect.value = "newest";
     if (stateSelect) stateSelect.value = "all";
     chipRow.querySelectorAll(".chip").forEach((c) => { c.classList.remove("active"); c.style.color = "var(--text-secondary)"; });
@@ -255,6 +272,7 @@
       parts.push(RELAW_DATA.states[state.stateFilter]);
     }
     if (state.query) parts.push(`"${state.query}"`);
+    if (state.since) parts.push(`added since ${state.since}`);
     return parts.length ? parts.join(" · ") : "All tracked matters";
   }
   function exportFilename(ext) {
@@ -321,6 +339,8 @@
     state.stateFilter = stateParam;
     if (stateSelect) stateSelect.value = stateParam;
   }
+  const sinceParam = params.get("since");
+  if (sinceParam && /^\d{4}-\d{2}-\d{2}$/.test(sinceParam)) state.since = sinceParam;
   const qParam = params.get("q");
   if (qParam) {
     state.query = qParam;

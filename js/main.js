@@ -290,11 +290,26 @@
     if (lastVisit && lastVisit < todayIso) {
       const newCount = RELAW_DATA.cases.filter((c) => c.addedDate && c.addedDate > lastVisit).length;
       if (newCount > 0) {
-        const onTracker = /litigation\.html$/.test(location.pathname);
-        const link = onTracker ? "litigation.html#filters-anchor" : "litigation.html";
-        const linkLabel = onTracker ? "browse the tracker &rarr;" : "see what's new &rarr;";
-        returningBanner.innerHTML = `<strong>${newCount} new matter${newCount === 1 ? "" : "s"}</strong> tracked since your last visit (${formatDate(lastVisit)}) — <a href="${link}">${linkLabel}</a>`;
+        // The link opens the tracker filtered to exactly these matters
+        // (Jeff, 2026-10-22: "I can't click on anything to get to the new
+        // items since my last visit").
+        const link = `litigation.html?since=${lastVisit}#filters-anchor`;
+        returningBanner.innerHTML = `<strong>${newCount} new matter${newCount === 1 ? "" : "s"}</strong> tracked since your last visit (${formatDate(lastVisit)}) — <a href="${link}">see what's new &rarr;</a>`;
         returningBanner.hidden = false;
+        // The nav is position:fixed over the top of <main>, so the banner
+        // sat under it and the nav swallowed every click on the link. Drop
+        // the banner below the nav and take the same height out of the
+        // header below it, so the page doesn't shift down.
+        const navEl = document.querySelector(".nav");
+        if (navEl) {
+          const navH = navEl.offsetHeight + (navEl.classList.contains("is-scrolled") ? 12 : 0);
+          returningBanner.style.marginTop = navH + "px";
+          const next = returningBanner.nextElementSibling;
+          if (next) {
+            const pad = parseFloat(getComputedStyle(next).paddingTop) || 0;
+            if (pad > navH) next.style.paddingTop = Math.max(24, pad - navH) + "px";
+          }
+        }
       }
     }
     try { localStorage.setItem(LAST_VISIT_KEY, todayIso); } catch (e) { /* private window */ }

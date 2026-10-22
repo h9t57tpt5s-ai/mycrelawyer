@@ -798,6 +798,9 @@ h3, .h3 {
 }
 .returning-banner strong { color: var(--accent-deep); }
 .returning-banner a { color: var(--accent); font-weight: 600; }
+/* A button that reads as a link (tracker: "Show all matters" after ?since=) */
+.link-button { background: none; border: 0; padding: 0; font: inherit; color: var(--accent); font-weight: 600; cursor: pointer; }
+.link-button:hover { text-decoration: underline; }
 
 /* ---------- Page header (interior pages) ----------
    Was 168px 0 64px, unchanged at every width -- on every one of the 107
