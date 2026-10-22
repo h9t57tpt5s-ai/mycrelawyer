@@ -568,6 +568,24 @@
    },
    "checkAfter": "2026-10-29",
    "status": "watching"
+  },
+  {
+   "id": "imp-027",
+   "date": "2026-10-22",
+   "track": "traffic",
+   "title": "Drafted this week's LinkedIn posts in ops/social-drafts/ (backlog G5 refresh)",
+   "why": "Second run today. No watching entry had a checkAfter due today or earlier (earliest is imp-013's 2026-10-23), so nothing to judge. Audit clean (brokenLinks/orphanPages/missingTitle/missingCanonical/missingFromSitemap all 0; the same 2 missingDescription (noindex) and 1 weakDescription (pre-existing federal-case page) as every recent run, both already explained). goals.json mostBehind: conversion, calculator, traffic, news; every single goal already has an open watching entry (traffic: imp-009; conversion: imp-013/imp-020/imp-022; calculator: imp-011/imp-014/imp-025/imp-026; subscription: imp-015; news: imp-017), and none has gone 7 days without a tracked change (subscription/news last touched 2026-10-17, 5 days ago, not yet 7), so per the 'one open experiment per goal' backlog rule this run worked a backlog item not tied to a goal metric instead of shipping a new tracked page/code change. ops/social-drafts/2026-10-20.md (imp-023) covered matters through live-315; js/data.js now has 5 newer matters (live-316 through live-320, addedDate 2026-10-20/21/22). Drafted 4 posts from the 4 with business-entity-only parties (live-316 Bristolville 25 Developer v. Village of Lordstown; live-318 Grandview Heights Neighborhood Association v. Palm Beach County; live-319 VK Dental Group v. Tender Touch Physical Therapy; live-320 Trucks Rx v. Padilla Investments), copying facts verbatim from the published write-ups. Skipped live-317 (513 West 26th Realty LLC v. George Billis Galleries, Inc.), same addedDate window, because its case caption names an individual guarantor (George Billis) from the court record -- same exclusion rule imp-018/imp-023 applied to live-301/live-310.",
+   "files": [
+    "ops/social-drafts/2026-10-22.md",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "423a413c159ade604eccbd9ddcbd658dd6b7b778",
+   "metric": "none -- Jeff decides whether/when to post any draft; this is a no-metric backlog item per the playbook's own allowance, same as imp-018/imp-023",
+   "window": "n/a",
+   "baseline": null,
+   "checkAfter": "n/a",
+   "status": "no-op",
+   "note": "Not a no-op in the sense of 'nothing worthwhile was safe' -- it is this run's chosen backlog work under the one-open-experiment-per-goal rule, logged as status no-op only because no goal metric can judge it."
   }
  ]
 }
