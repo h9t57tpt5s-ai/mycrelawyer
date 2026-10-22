@@ -10666,6 +10666,91 @@ const RELAW_DATA = {
         { when: "October 2025", label: "Alecko Capital sues to enforce Conlon's personal guaranty after the loan goes into default" },
         { when: "October 20, 2026", label: "Judge Jerry A. Esrig orders Conlon to pay more than $10 million to resolve the litigation", current: true }
       ]
+    },
+    {
+      id: "live-322",
+      seoTitle: "$12.2M Groundwater Contamination Judgment Reversed in LA",
+      seoDescription: "California appeals court reverses $12.2M judgment against HPC Vineburn and Meruelo Maddux over 1,4-dioxane plume migrating onto a neighboring LA property.",
+      addedDate: "2026-10-22",
+      property: { address: "1919 Vineburn Avenue", city: "Los Angeles", state: "CA" },
+      title: "Joseph F. Farivar Investment Group, Inc. v. HPC Vineburn, LLC (Groundwater Contamination Judgment Reversed)",
+      category: "environmental",
+      status: "ruling",
+      date: "2026-10-22",
+      jurisdiction: "California Court of Appeal, Second Appellate District, Division One",
+      state: "CA",
+      propertyType: "Industrial",
+      amount: "$12.2 million judgment reversed on appeal",
+      amountUsd: 12245108,
+      amountBasis: "judgment",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11043246/joseph-f-farivar-investment-group-v-hpc-vineburn-ca21/",
+      summary: "California's Second Appellate District reversed a $12,245,108.42 judgment on October 22, 2026 against the current and former owners of an industrial property at 1919 Vineburn Avenue in Los Angeles, holding that a downgradient neighbor's reliance on an environmental consultant's contamination report did not establish liability as a matter of law. The trial court had granted summary adjudication to plaintiffs Joseph F. Farivar Investment Group and tenant Bordan Shoe Company on negligence, continuing nuisance, continuing trespass, and declaratory relief claims over a 1,4-dioxane plume that migrated from the former Nardon Manufacturing Company facility onto their property.",
+      significance: "The reversal shows that even an adverse environmental consultant's report commissioned by the defendant itself does not automatically establish the duty-of-care and damages elements needed for tort liability, meaning owners of contaminated or formerly industrial sites facing neighbor claims retain real defenses even where causation facts seem largely undisputed. It also reaffirms that successor owners of contaminated industrial parcels can face continuing nuisance and trespass exposure for legacy pollution for decades, regardless of who currently holds title.",
+      body: [
+        "A California appeals court has reversed a $12,245,108.42 judgment against the current and former owners of a Los Angeles-area industrial site, holding that a downgradient neighbor's reliance on an environmental consultant's contamination report was not enough to establish liability as a matter of law. The decision, Joseph F. Farivar Investment Group, Inc. v. HPC Vineburn, LLC, unwinds a trial court judgment that had declared the owners of 1919 Vineburn Avenue in Los Angeles responsible for a plume of 1,4-dioxane and related solvents that migrated onto the adjacent, lower-lying property at 4335 Valley Boulevard.",
+        "The dispute traces back decades. Before 1989, the Nardon Manufacturing Company operated a metal-fabrication facility at the Vineburn property, discharging 1,4-dioxane and other industrial solvents into onsite clarifiers and, according to the complaint, into the municipal sewer system. Meruelo Maddux Properties-1919 Vineburn Street, LLC owned the property from roughly 2005 to 2013, after which HPC Vineburn, LLC took over. The Los Angeles Regional Water Quality Control Board has overseen cleanup of a related site on the downgradient Farivar property since 2000, and in 2018 directed Vineburn to investigate further. A 2020 subsurface report by Vineburn's own consultant, Hazard Management Consulting, concluded that contamination at the Nardon facility had contributed to the dioxane and solvent plume beneath the Farivar property, identifying a contamination hot-spot near a former wastewater clarifier.",
+        "Plaintiffs Joseph F. Farivar Investment Group, Inc., which owns the Valley Boulevard property, and Bordan Shoe Company, Inc., which leases it, sued for continuing nuisance, continuing trespass, negligence, and declaratory relief. Leaning heavily on the 2020 consultant report and on experts who put the cost of remediating the Farivar property at roughly $11.78 million and loss-of-use damages at just under $193,000, the plaintiffs moved for and won summary adjudication on all four causes of action. After dismissing their remaining claims, they obtained a judgment for more than $12.2 million, along with a declaration that the defendants were responsible for the contamination and its remediation.",
+        "The Court of Appeal reversed across the board. On negligence, the panel held that the plaintiffs failed to establish, as a matter of law, that the defendants breached any common-law or statutory duty of care -- the consultant's factual findings about where contamination originated did not, by themselves, resolve the separate legal question of duty. On continuing nuisance and continuing trespass, the court found the plaintiffs had used an improper damages measure for what are, by their nature, continuing torts, meaning the record did not support summary adjudication on those theories either. And on the declaratory relief claim, the court held the trial court erred in partially adjudicating the issue by summary procedure. The result: the entire $12.2 million judgment is gone, and the case returns to the Los Angeles County Superior Court for further proceedings.",
+        "The case also underscores how contamination liability can attach across a chain of ownership. HPC Vineburn did not create the contamination -- it inherited the site, and the site's problems, from Meruelo Maddux, which in turn inherited them from the original manufacturer. Successor owners of industrial and former-industrial parcels remain exposed to continuing-tort theories brought by neighbors long after the polluting operations have ceased, even where the current owner has, as the opinion notes, set aside funds and proposed its own cleanup plan.",
+        "For commercial owners, lenders, and counsel, the ruling is a reminder not to assume a consultant's causation finding settles the legal question of duty, since negligence still requires proof of a breached standard of care and summary judgment is a demanding vehicle for getting there; that continuing nuisance and continuing trespass claims demand the right damages framework, since getting the measure wrong can doom an otherwise well-supported claim even where the underlying facts are largely undisputed; that buyers of industrial and formerly industrial property should scrutinize upgradient and downgradient parcels in diligence, since successor liability for legacy contamination can persist for decades and migrate with groundwater regardless of who currently holds title; and that tenants with any exposure to a landlord's environmental history should track litigation like this closely, since the outcome of a landlord's contamination dispute can directly affect occupancy costs, remediation access, and lease continuity."
+      ],
+      tags: ["environmental", "groundwater-contamination", "industrial", "california", "successor-liability"],
+      parties: [
+        { name: "Joseph F. Farivar Investment Group, Inc.", role: "Plaintiff and Respondent" },
+        { name: "Bordan Shoe Company, Inc.", role: "Plaintiff and Respondent" },
+        { name: "HPC Vineburn, LLC", role: "Defendant and Appellant" },
+        { name: "Meruelo Maddux Properties-1919 Vineburn Street, LLC", role: "Defendant and Appellant" }
+      ],
+      judge: null,
+      timeline: [
+        { when: "Before 1989", label: "Nardon Manufacturing Company discharges 1,4-dioxane and solvents at the Vineburn property" },
+        { when: "2020", label: "Vineburn's consultant, Hazard Management Consulting, reports the Vineburn property contributed to the contamination at the Farivar property" },
+        { when: "2024", label: "Trial court grants summary adjudication to Farivar and Bordan and enters a $12,245,108.42 judgment against the Vineburn defendants" },
+        { when: "October 22, 2026", label: "California Court of Appeal reverses the judgment in full, finding plaintiffs failed to establish duty of care and used an improper damages measure", current: true }
+      ]
+    },
+    {
+      id: "live-323",
+      seoTitle: "Crocker Park Right-of-First-Refusal Claim Revived vs. Westlake",
+      seoDescription: "Ohio's 8th District vacated its own July ruling, holding Crocker Park may have waived its right of first refusal against the City of Westlake.",
+      addedDate: "2026-10-22",
+      property: { name: "Crocker Park", address: "Crocker Road", city: "Westlake", state: "OH" },
+      title: "Crocker Park, L.L.C. v. City of Westlake, Ohio (Right of First Refusal Revived on Reconsideration)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-22",
+      jurisdiction: "Ohio Court of Appeals, Eighth Appellate District",
+      state: "OH",
+      propertyType: "Mixed-Use",
+      amount: "Right of first refusal over a parcel within the Crocker Park development (no dollar figure stated in the opinion)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11043112/crocker-park-llc-v-westlake/",
+      summary: "The Ohio Court of Appeals for the Eighth Appellate District vacated its own July 30, 2026 decision on reconsideration and held, in an opinion released October 22, 2026, that the trial court erred in declaring Crocker Park, L.L.C. had not waived its right of first refusal over a parcel within the Crocker Park mixed-use development. The court affirmed other rulings in Crocker Park's favor -- including summary judgment defeating the City of Westlake's slander-of-title and abuse-of-process counterclaims -- but reversed and remanded the right-of-first-refusal issue after finding Crocker Park failed to exercise the right within a reasonable time.",
+      significance: "The case shows that master-planned developments governed by recorded CC&R declarations create full contractual rights and obligations for a municipality that becomes a co-owner by accepting conveyed parcels, and that rights of first refusal without an express deadline can still be waived through delay. It is also a pointed reminder that an appellate win is not final until the reconsideration window closes, since the panel here vacated its own three-month-old decision and reversed a key ruling the second time around.",
+      body: [
+        "The Ohio Court of Appeals for the Eighth Appellate District has taken the unusual step of vacating its own, three-month-old decision and issuing a new one that hands the City of Westlake a win it did not get the first time around. In Crocker Park, L.L.C. v. City of Westlake, Ohio, the court held on reconsideration that the trial court erred when it declared Crocker Park had not waived its right of first refusal over a parcel within the Crocker Park development, reversing that portion of the judgment and sending the issue back to the Cuyahoga County Court of Common Pleas, even as it left most of the rest of the trial court's rulings intact.",
+        "Crocker Park is a mixed-use development in Westlake, Ohio, combining retail, restaurants, offices, apartments, and green space across multiple contiguous parcels. The project's various owners are bound by a 2003 Declaration of Covenants, Conditions, Restrictions and Easements, which designates Crocker Park, L.L.C. as the Declarant responsible for maintaining shared Common Areas and allocating Common Expenses among the parcel owners. In March 2014, Crocker Park conveyed roughly two acres within the development to the City of Westlake at no cost, in exchange for the City's agreement to build a public gathering space, Market Square, at its own expense. Critically, the City accepted the land subject to the Declaration's existing covenants, making Westlake an Owner within the development's governance structure like any private landholder.",
+        "Market Square opened in 2015, and Crocker Park Management, L.L.C., a Crocker Park subsidiary acting as the project's exclusive property manager and leasing agent, operated and maintained it for the City under a separate Operation and Maintenance Agreement, fronting out-of-pocket costs when Market Square's own revenues fell short. The City terminated that arrangement in December 2023. What followed was a lawsuit covering several intertwined disputes: how Common Area expenses should be allocated between Crocker Park and the City as a fellow Owner, counterclaims by Westlake alleging slander of title and abuse of process against Crocker Park and its manager, and a fight over whether Crocker Park properly preserved -- or instead let lapse -- a contractual right of first refusal tied to the development.",
+        "The trial court had granted Crocker Park and Crocker Park Management partial summary judgment on multiple fronts, including defeating Westlake's slander-of-title and abuse-of-process counterclaims and declaring that Crocker Park had not waived its right of first refusal. Westlake appealed, and in July 2026 the Eighth District issued its first decision affirming in part and reversing in part. The panel then reconsidered. In the opinion it released October 22, 2026, authored by Presiding Judge Eileen T. Gallagher and expressly vacating the July 30 decision, the court reaffirmed the rulings in Crocker Park's favor on the slander-of-title and abuse-of-process counterclaims. But on the right of first refusal, the panel changed course: it held that Crocker Park failed to exercise the right within a reasonable time, and that the trial court therefore erred in declaring Crocker Park had not waived it. That piece of the case now returns to the trial court for further proceedings.",
+        "The case is a useful illustration of how master-planned, multi-parcel commercial developments function -- and malfunction -- once a municipality becomes a co-owner inside a private CC&R structure rather than merely a regulator standing outside it. Once Westlake accepted the Market Square parcel subject to the Declaration, it took on the same contractual rights and obligations as any private Owner, including the ability to bring and defend against ordinary common-law claims like slander of title and abuse of process, while also becoming subject to the Declarant's contractual rights, like the right of first refusal now back in play.",
+        "For developers, municipal real estate counsel, and asset managers, the case is a reminder that rights of first refusal and similar contractual options frequently carry an implied reasonable-time requirement for exercise even without an express deadline in the governing document, and that delay can waive the right regardless of good intentions. Governments that accept conveyed land inside a master-planned development should expect to step fully into the shoes of a private Owner under the controlling CC&Rs, gaining enforcement rights but also assuming cost-sharing and procedural obligations. Declarants and development managers overseeing multi-owner common-area arrangements should document the timing of every option exercise and maintenance decision carefully, and parties who win at the Court of Appeals should not treat that win as final until the window for reconsideration has closed, since this case shows a panel can and will revisit its own decision when persuaded it got a discrete issue wrong."
+      ],
+      tags: ["right-of-first-refusal", "mixed-use", "ccr-declaration", "ohio", "municipal-co-owner"],
+      parties: [
+        { name: "Crocker Park, L.L.C.", role: "Plaintiff-Appellee" },
+        { name: "Crocker Park Management, L.L.C.", role: "Third-Party Defendant-Appellee" },
+        { name: "City of Westlake, Ohio", role: "Defendant-Appellant" }
+      ],
+      judge: "Eileen T. Gallagher",
+      timeline: [
+        { when: "December 8, 2003", label: "Declaration of Covenants, Conditions, Restrictions and Easements recorded for the Crocker Park development" },
+        { when: "March 2014", label: "Crocker Park conveys about two acres to the City of Westlake for the Market Square project" },
+        { when: "December 2023", label: "The City terminates Crocker Park Management's Operation and Maintenance Agreement for Market Square" },
+        { when: "July 30, 2026", label: "Eighth District issues its original decision affirming in part and reversing in part (2026-Ohio-2932)" },
+        { when: "October 22, 2026", label: "On reconsideration, the Eighth District vacates its July decision and holds the trial court erred in finding Crocker Park had not waived its right of first refusal", current: true }
+      ]
     }
   ],
 
@@ -11317,7 +11402,8 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court, Northern District of Ohio", url: "https://www.ohnd.uscourts.gov/" },
     { jurisdiction: "U.S. District Court for the Southern District of West Virginia", url: "https://www.wvsd.uscourts.gov/" },
     { jurisdiction: "Supreme Court of Alabama", url: "https://judicial.alabama.gov/" },
-    { jurisdiction: "U.S. District Court, Southern District of Texas (Galveston Division)", url: "https://www.txs.uscourts.gov/" }
+    { jurisdiction: "U.S. District Court, Southern District of Texas (Galveston Division)", url: "https://www.txs.uscourts.gov/" },
+    { jurisdiction: "Ohio Court of Appeals, Eighth Appellate District", url: "https://appeals.cuyahogacounty.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -11326,6 +11412,14 @@ const RELAW_DATA = {
      court's own biography page, or for federal Article III judges, the
      Federal Judicial Center's Biographical Directory. */
   judges: [
+    {
+      name: "Eileen T. Gallagher",
+      slug: "eileen-t-gallagher",
+      title: "Presiding Judge — authored the panel's opinion on reconsideration",
+      court: "Ohio Court of Appeals, Eighth Appellate District",
+      background: "First elected to the Eighth District Court of Appeals in 2012 and reelected in 2018, after serving roughly eight years as a trial judge in the Cuyahoga County Court of Common Pleas, General Division, where she chaired the court's Foreclosure Committee. Earlier in her career she worked as a judicial staff attorney, a foreclosure magistrate, and an assistant prosecuting attorney in the Cuyahoga County Prosecutor's office.",
+      bioUrl: "https://appeals.cuyahogacounty.gov/about-us/judges/judge-eileen-t-gallagher"
+    },
     {
       name: "Llinét M. Rosado",
       slug: "llinet-m-rosado",

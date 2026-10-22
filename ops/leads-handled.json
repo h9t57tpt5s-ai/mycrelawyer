@@ -591,6 +591,26 @@
   "opinion:11042138": {
    "at": "2026-10-22",
    "action": "skipped: residential landlord-tenant habitability dispute between individual parties, per the opinion's own description"
+  },
+  "opinion:11043246": {
+   "at": "2026-10-22",
+   "action": "matter live-322"
+  },
+  "opinion:11043159": {
+   "at": "2026-10-22",
+   "action": "skipped: residential mortgage foreclosure appeal, individual defendant (Moses Sukljian)"
+  },
+  "opinion:11043112": {
+   "at": "2026-10-22",
+   "action": "matter live-323"
+  },
+  "opinion:11043110": {
+   "at": "2026-10-22",
+   "action": "skipped: residential mortgage foreclosure appeal, individual defendant (Rafael Aquino III)"
+  },
+  "opinion:11043093": {
+   "at": "2026-10-22",
+   "action": "skipped: residential mortgage foreclosure appeal, individual defendant (Grace M. Doberdruk)"
   }
  }
 }
