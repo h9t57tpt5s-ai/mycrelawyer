@@ -93,31 +93,15 @@ These set the page's Google title and description; the headline stays
 not in the matter's own text. Matters sharing a property get a property page
 automatically (scripts/build_entity_pages.ts).
 
-## Market Signals (Monday and Thursday AM runs; added 2026-10-16)
+## Market Signals: do not draft them here (changed 2026-10-22)
 
-The page went 11 days without a new item because the monthly trackers (KBRA,
-CRED iQ, Trepp) all publish in the first days of a month and were older than
-7 days by every mid-month run. Before skipping Step 4B, also search the
-reports that do come out mid-month: quarterly office, industrial and retail
-vacancy reports (Moody's, CBRE, Cushman & Wakefield, JLL, Colliers; Q3 reports
-arrive in October), banks' quarterly earnings disclosures of CRE charge-offs
-and nonaccruals, MBA quarterly origination and delinquency reports, Green
-Street CPPI and MSCI RCA price indexes, and ATTOM commercial foreclosure
-counts, including trade-press articles (GlobeSt, Bisnow, Commercial Observer,
-Connect CRE, CRE Daily) that quote the figures. A Market Signal every week is
-required; skipping is the last resort.
-Do not use therealdeal.com as a signal sourceUrl: it blocks the GitHub verifier
-(trend-021, 2026-10-16, rejected with every quote "not found" although the
-page matched when opened locally). credaily.com and cushmanwakefield.com pass.
-Also blocked (403 to the verifier, 2026-10-19): chainstoreage.com and bank
-investor-relations sites (ir.mtb.com); for a Colliers/CBRE figure use the
-firm's own page or credaily.com. Quotes must be the page's exact words: the
-trend-022 draft's "quotes" were paraphrases with two figures the article did
-not contain. A bank's total credit-loss provision is not a CRE figure (scope);
-use its CRE charge-offs or nonaccruals only when the release states them.
-Next id: one above the highest trend id in js/data.js AND every file under
-ops/pending-signals/ (rejected/ and rejected/reviewed/ included); trend-021
-was assigned to three different drafts.
+Skip the digest prompt's Step 4E. This environment cannot open web pages, so
+quotes rebuilt from search results never match the source word for word: all
+three drafts queued from here (trend-021, -022, -023) failed verification, and
+trend-023 repeated trend-020. CLAUDE.md now reserves Market Signal drafting to
+sessions that open the source page (the local newsroom task). If a run comes
+across a market-wide CRE data report worth a signal, name it and its URL in
+the Step 5 report instead.
 
 ## How to judge a candidate
 
