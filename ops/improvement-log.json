@@ -285,7 +285,15 @@
     "googleLandings7": 102
    },
    "checkAfter": "2026-10-22",
-   "status": "watching"
+   "status": "helped",
+   "verdict": {
+    "date": "2026-10-22",
+    "value": {
+     "visits7": 429,
+     "googleLandings7": 128
+    },
+    "note": "visits7 +64.4%, googleLandings7 +25.5%, both clear the 25% threshold; 28-day trend agrees (visits28 809 (10-15) -> 1198 (10-21), a steady climb). Caveat: imp-009 is also still open on this exact metric (checkAfter 2026-10-28) and ops/metrics/history/ shows the same smooth daily rise in visits7/googleLandings7 starting before imp-012 even shipped, so this reads as the site-wide trend continuing through the launch without harm, not proof this one page caused it."
+   }
   },
   {
    "id": "imp-013",
@@ -535,6 +543,28 @@
    "baseline": {
     "finalRangeHitRate": 0.531,
     "casesScored": 39
+   },
+   "checkAfter": "2026-10-29",
+   "status": "watching"
+  },
+  {
+   "id": "imp-026",
+   "date": "2026-10-22",
+   "track": "calculator",
+   "title": "Confirmed the live calculator version has drifted from what's published, and ran a free replay of saved v6 results against v4.3",
+   "why": "goals.json (2026-10-22): mostBehind conversion/calculator/traffic/news; last 2 log entries were imp-024 and imp-025 (both calculator), so per the 'last 2 runs' tiebreak conversion or traffic would normally come next, but every goal already has an open watching entry (traffic: imp-009; conversion: imp-013/imp-020/imp-022; calculator: imp-011/imp-014/imp-016/imp-025; subscription: imp-015; news: imp-017), so per the 'one open experiment per goal' backlog rule this run worked a backlog item not measured by a goal metric instead. G15 (found 2026-10-21) flagged that the edge function imports v6 math but nobody had checked whether it's live, or scored the existing unscored results-v6/results-v6.1 directories against the saved v4.3 results. Grepped supabase/functions/case-valuation-analyze/index.ts directly: ANALYSIS_VERSION is 'v4.4' live (not v4.3, which every public page/metric still shows), and v6 is confirmed backtest-only. Ran scripts/replay_backtest.py (no API spend) on the 98 saved results-v6/ files and the 25 saved results-v6.1/ files against the 47-file results-v4.3/ snapshot.",
+   "files": [
+    "ops/calculator-proposals.md",
+    "ops/improvement-playbook.md",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "PENDING",
+   "metric": "none directly -- this is evidence/fact-finding (which version is live, and a confounded free comparison of v6/v6.1 vs v4.3), not a site or code change; what to check next time is whether Jeff has reviewed ops/calculator-proposals.md's 2026-10-22 entry and ruled on G15's two decisions (give v4.4 a real paid backtest run; settle whether v6/v6.1 actually beats it on a matched case set)",
+   "window": "n/a",
+   "baseline": {
+    "finalRangeHitRate_v4.3_replay": 0.594,
+    "finalRangeHitRate_v6_replay": 0.722,
+    "finalRangeHitRate_v6.1_replay": 0.609
    },
    "checkAfter": "2026-10-29",
    "status": "watching"

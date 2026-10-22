@@ -302,6 +302,84 @@ the figure is already present and used; Finding 2's remaining real case
 number exists) still applies there, but should not be generalized from
 KKS as if it were a second example of the same pattern.
 
+## 2026-10-22 — what version is actually live, and a first free look at v6
+
+**Confirmed from code, not inference** (`supabase/functions/case-valuation-analyze/index.ts`):
+the deployed `ANALYSIS_VERSION` constant (line 106) is `"v4.4"`, not `"v4.3"`.
+`v6` exists in the same file (imported from `valuation-v6.ts`) but is only
+used `if (isBacktest && requestBody.promptVariant === "v6")` (line 2087) — it
+is a backtest-only candidate, never served to a real user, exactly like v4.5
+was before it. So: **the live site has been running v4.4 since it shipped
+(2026-09-26), but every public number is still v4.3's**: `ops/metrics/goals.json`
+`calculator.version` reads `"v4.3"`, `js/backtest-results-data.js`'s
+`versions` object stops at `v4.3`, and `case-valuation-calibration.html`'s
+changelog's newest entry is v4.3. This matches `case_valuation_project/backtest/README.md`'s
+own "Version 4.4" section, written 2026-09-26: v4.4 was validated only by
+*replaying* the saved v4.3 runs under the new math (no new API calls) —
+"published scores stay tied to real runs; version 4.4's live results will be
+recorded on its next paid run." That paid run has evidently never happened:
+there is no `results-v4.4/` directory in `case_valuation_project/backtest/`,
+only `results`, `results-formula`, `results-v2`, `results-v3`, `results-v3b`,
+`results-v4`, `results-v4.3`, `results-v4.5`, `results-v4b`, `results-v6`,
+`results-v6.1`. **So the number on every public page (53.1%, 39 cases) is a
+different, older version than what a real visitor's analysis actually runs
+today, and v4.4's own real accuracy has never been measured.**
+
+**v6 — a free (no API spend) first look.** `case_valuation_project/backtest/results-v6/`
+already has 98 saved result files (`cases.json` now has 98 cases total, 17
+held out — grown from the 71-case "Version 5" set this file's 2026-10-15
+entry worked from) and `results-v6.1/` has 25. `scripts/replay_backtest.py`
+already mirrors v6's math (`v6_issue_range()`, `paired_losses()`,
+`drop_large_totals()` — all present before this run, so a local/Jeff session
+has clearly been actively building this out). Running it (no API calls, just
+arithmetic on the saved files) gives:
+
+| | all (trial / final) | training | held out | best guess ≤25% | median error |
+|---|---|---|---|---|---|
+| `results-v4.3` dir, current v4.4-equivalent math | 23/38 · 19/32 | 19/31 · 15/25 | 4/7 · 4/7 | 7/30 | −1% |
+| `results-v6` | 56/81 · 52/72 | 46/61 · 41/52 | 10/20 · 11/20 | 20/69 | −13% |
+| `results-v6.1` | 15/23 · 14/23 | 12/16 · 11/16 | 3/7 · 3/7 | 4/23 | +12% |
+
+(First row reproduces the README's own documented v4.4-replay figure exactly
+— "17 to 19 of 32 final outcomes" — confirming the replay script's math is
+current and this comparison method is sound.)
+
+v6's "all" final-outcome hit rate, 72.2% (52/72), looks like a big jump
+toward the 75% target against v4.3/v4.4's 59.4% (19/32) — but **this is not
+a clean comparison and shouldn't be read as "v6 already hits the target."**
+`results-v6` was run against nearly the full current 98-case suite; the
+`results-v4.3` directory only has 47 files, an older, smaller snapshot
+(likely predating the cases added after the "Version 5" expansion this
+file's own 2026-10-15 entry describes). The held-out numbers — the fairer
+like-for-like figure, since holdout status is fixed in `cases.json` before
+any run — tell a different story: v6 (11/20, 55.0%) is not clearly better
+than v4.3/v4.4-math (4/7, 57.1%), and v6.1 (3/7, 42.9%) looks worse, though
+every one of these n's is small enough that this could just be noise. v6.1
+also has the *worst* best-guess accuracy of the three (4/23 within 25%,
+median error +12% overall but +69% on its own training cases) despite being
+the newest.
+
+**NEEDS JEFF — two separate decisions, not one:**
+1. The live/v4.4 vs. published/v4.3 gap should be closed regardless of what
+   happens with v6 or v6.1: either give v4.4 its own real paid backtest run
+   (so the public 53.1% figure, the sample cards, and the methodology pages
+   describe what a visitor's analysis actually runs today) or, if v6/v6.1
+   is close to ready, run that version instead and skip straight to scoring
+   it live.
+2. Whether v6 (or v6.1) is actually an improvement over v4.4 can't be
+   answered for free — it needs v4.4 and the candidate run on the identical
+   current 98-case set, which costs API money this routine can't spend.
+   The free evidence above is encouraging for v6's non-held-out numbers but
+   inconclusive on held-out, and v6.1 doesn't look like a clear improvement
+   over v6 in this same free replay. This routine can't tell from here
+   whether v6.1 is an abandoned branch, a work-in-progress, or already
+   superseded — only a session that was there for that work (a local/Jeff
+   session) would know.
+
+Nothing in code or on any public page has been changed by this entry — this
+is only a free replay of already-saved files, the same kind of evidence
+2026-10-15/17/21's entries above are.
+
 ## What we have learned (calculator track)
 
 <!-- dated lines added as proposals here are later tested or Jeff rules on them -->
@@ -325,3 +403,18 @@ KKS as if it were a second example of the same pattern.
   narrative (written for scoring, after the fact) can describe a figure
   that looks similar to one already in the input and get misattributed
   to the wrong side.
+- 2026-10-22: Checked the live edge function's own code rather than
+  assuming the published version is current: `ANALYSIS_VERSION` is
+  `"v4.4"` live, but every public number/page still shows v4.3, and v4.4
+  has never had its own paid backtest run (no `results-v4.4/` directory
+  exists). Separately confirmed `v6` is backtest-only (gated on
+  `promptVariant === "v6"`), never served live. A free replay of the 98
+  saved `results-v6` files (vs. the older 47-file `results-v4.3` snapshot)
+  shows a large "all"/"training" hit-rate gain for v6 but a flat-to-worse
+  held-out rate — the comparison is confounded by different, unequal case
+  sets, so it's suggestive, not conclusive. Next time: don't treat
+  `goals.json`'s `calculator.version`/`finalRangeHitRate` as describing
+  what the live function actually runs without checking `ANALYSIS_VERSION`
+  in `index.ts` first — it has drifted at least once already (v4.3 shown,
+  v4.4 live) and a future prompt/math change could drift it again before
+  anyone re-scores it with a real run.
