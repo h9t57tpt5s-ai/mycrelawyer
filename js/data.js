@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-21",
+  lastUpdatedDate: "2026-10-22",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -10559,6 +10559,39 @@ const RELAW_DATA = {
         { when: "September 29, 2026", label: "Palm Beach County Commission votes 6-1 to approve the $26 million sale-leaseback financing package" },
         { when: "October 14, 2026", label: "Grandview Heights Neighborhood Association and West Palm Beach Neighborhood Alliance sue to void the approval under Florida's Sunshine Law", current: true }
       ]
+    },
+    {
+      id: "live-319",
+      addedDate: "2026-10-22",
+      seoTitle: "NY Court Revives $1M Sublease Fight Over Landlord's Utilities",
+      seoDescription: "Appellate court reversed a $1M judgment against a Brooklyn sublessee, finding the sublessor's own unpaid utilities raised a triable fact issue.",
+      title: "VK Dental Group, Inc. v. Tender Touch Physical Therapy, PLLC (NY Appellate Division Revives $1M Sublease Rent Dispute)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-21",
+      jurisdiction: "Appellate Division, Second Department, New York",
+      state: "NY",
+      propertyType: "Medical Office",
+      amount: "$1,004,426.20 judgment reversed",
+      amountUsd: 1004426.20,
+      amountBasis: "judgment",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11042103/vk-dental-group-inc-v-tender-touch-physical-therapy-pllc/",
+      summary: "New York's Appellate Division, Second Department reversed a $1,004,426.20 judgment on October 21, 2026 that sublessor VK Dental Group, Inc. had won against sublessee Tender Touch Physical Therapy, PLLC for unpaid rent under a commercial sublease. The panel held that the sublessee raised a triable issue of fact by submitting an affidavit alleging VK Dental itself breached the sublease, by failing to pay its share of utilities and by having the premises' gas service disconnected, and denied VK Dental's motion for summary judgment outright.",
+      significance: "The ruling confirms that a commercial sublessor cannot treat a tenant's undisputed rent nonpayment as an automatic path to summary judgment: a plaintiff suing for breach of a lease or sublease must still establish its own performance, and a tenant's sworn allegation that the landlord fell short on an ancillary obligation, like splitting utility costs, can be enough to send a six-figure rent claim to trial. Commercial landlords and sublessors managing multi-tenant buildings should document their own compliance with every sublease obligation, not just rent collection, before moving for summary judgment against a nonpaying tenant.",
+      body: [
+        "New York's Appellate Division, Second Department ruled on October 21, 2026 that a Brooklyn commercial sublessor was not entitled to summary judgment on a $1,004,426.20 unpaid-rent judgment, because its sublessee raised a genuine factual dispute over whether the sublessor itself had breached the sublease. The decision, VK Dental Group, Inc. v. Tender Touch Physical Therapy, PLLC, reverses a Supreme Court, Kings County judgment and sends the underlying rent dispute back for further proceedings.",
+        "The case traces back to a chain of leasing transactions involving commercial office space. In January 2017, Metrotech Smile Dental, P.C. leased the property from nonparty landlord 350 Fulton Realty, LLC. Two months later, Metrotech subleased the premises to Tender Touch Physical Therapy, PLLC and other sublessees. In April 2018, Metrotech assigned its prime lease to VK Dental Group, Inc., which took over as sublessor to the Tender Touch defendants.",
+        "In May 2022, VK Dental sued the sublessees for breach of the sublease agreements, alleging they stopped paying rent and that the nonpayment ultimately forced VK Dental to surrender possession of the premises back to the prime landlord. The Supreme Court, Kings County, held a hearing at which it heard live testimony from a VK Dental witness, then granted VK Dental's motion for summary judgment in an order dated October 21, 2024, followed by a judgment on November 21, 2024 awarding VK Dental $1,004,426.20.",
+        "On appeal, the Second Department applied New York's four-part test for a breach-of-contract claim: the existence of a contract, the plaintiff's own performance, the defendant's breach, and resulting damages. The panel agreed VK Dental met its initial burden by showing the sublessees had not paid rent for certain months, but held that the sublessees defeated summary judgment by submitting the affidavit of their principal, who testified that VK Dental itself failed to pay 50% of the premises' utility costs as the sublease required, and had the gas service to the premises disconnected. Because a breach-of-contract plaintiff must also establish its own performance, that affidavit was enough to raise a triable issue of fact requiring a trial rather than a summary disposition, and the court reversed the judgment, denied summary judgment, and awarded costs to the sublessees.",
+        "The decision is a useful corrective for commercial sublessors who assume a tenant's unpaid rent makes summary judgment close to automatic. New York's performance requirement for breach-of-contract plaintiffs has real teeth even in an ordinary rent-collection case, and a landlord's lapse on a comparatively minor ancillary obligation, like splitting a utility bill or keeping gas service connected, can become the centerpiece of a tenant's defense years later. For sublessors and master tenants managing multi-tenant commercial buildings, the practical lesson is to keep clean records of compliance with every obligation the sublease imposes on the landlord side, not just rent collection on the tenant side, and to expect that a hearing or live testimony at the trial-court level offers no protection on appeal if a genuine factual dispute should have gone to a jury instead of being resolved summarily."
+      ],
+      tags: ["commercial-lease", "sublease", "summary-judgment", "new-york", "medical-office"],
+      parties: [
+        { name: "VK Dental Group, Inc.", role: "Sublessor/Plaintiff-Respondent" },
+        { name: "Tender Touch Physical Therapy, PLLC", role: "Sublessee/Defendant-Appellant" }
+      ],
+      judge: null
     }
   ],
 
