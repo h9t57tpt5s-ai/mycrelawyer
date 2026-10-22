@@ -1,0 +1,36 @@
+{
+  "trend": {
+    "id": "trend-023",
+    "title": "Cushman & Wakefield: National Office Vacancy Falls to 19.8% in Q3 2026 as Class Divide Widens",
+    "category": "lease-disputes",
+    "date": "2026-10-13",
+    "scope": "U.S. office real estate market (Cushman & Wakefield Q3 2026 U.S. Office MarketBeat)",
+    "metric": "19.8% national office vacancy, down 25 basis points year over year",
+    "sourceUrl": "https://www.cushmanwakefield.com/en/united-states/news/2026/10/q3-2026-us-office-marketbeat",
+    "summary": "Cushman & Wakefield's Q3 2026 U.S. Office MarketBeat put national office vacancy at 19.8% at the close of the third quarter, down 25 basis points from a year earlier even though vacancy has stayed broadly near 20% for two years. Net absorption was positive 50,000 square feet for the quarter, and sublease inventory fell to 89 million square feet, its lowest level since the fourth quarter of 2020. The firm said vacancy among top-tier office properties has declined 215 basis points over the past two years, while vacancy in Class B and C properties has continued to rise.",
+    "significance": "The widening gap between stabilizing top-tier offices and deteriorating Class B and C buildings concentrates distress in older office stock, where owners face a rising risk of loan default, special servicing and foreclosure litigation as occupancy keeps falling. Landlords of lagging Class B/C assets are more exposed to lease-termination, operating-expense pass-through and receivership disputes, while tightening top-tier vacancy gives those landlords more leverage in renewal negotiations with tenants.",
+    "tags": ["office", "vacancy", "cushman-wakefield", "class-b-c", "landlord-tenant"]
+  },
+  "verification": [
+    {
+      "claim": "National office vacancy was 19.8% at the close of Q3 2026, down 25 basis points from a year earlier.",
+      "quote": "National office vacancy stood at 19.8% at the close of Q3. While vacancy has remained broadly stable near 20% for the past two years, it declined 25 basis points (bps) from a year ago.",
+      "url": "https://www.cushmanwakefield.com/en/united-states/news/2026/10/q3-2026-us-office-marketbeat"
+    },
+    {
+      "claim": "Net absorption was positive 50,000 square feet in the third quarter.",
+      "quote": "Net absorption totaled positive 50,000 square feet (sf) during the third quarter",
+      "url": "https://www.cushmanwakefield.com/en/united-states/news/2026/10/q3-2026-us-office-marketbeat"
+    },
+    {
+      "claim": "Sublease inventory fell to 89 million square feet, its lowest level since the fourth quarter of 2020.",
+      "quote": "At 89 msf, sublease inventory is at its lowest level since Q4 2020",
+      "url": "https://www.cushmanwakefield.com/en/united-states/news/2026/10/q3-2026-us-office-marketbeat"
+    },
+    {
+      "claim": "Vacancy among top-tier office properties has declined 215 basis points over the past two years, while Class B and C vacancy has continued to rise.",
+      "quote": "Vacancy among top-tier office properties has declined 215 basis points over the past two years, while vacancy in Class-B and -C properties has continued to rise",
+      "url": "https://www.cushmanwakefield.com/en/united-states/news/2026/10/q3-2026-us-office-marketbeat"
+    }
+  ]
+}

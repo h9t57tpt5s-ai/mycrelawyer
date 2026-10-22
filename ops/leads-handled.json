@@ -563,6 +563,18 @@
   "petition:https://www.courtlistener.com/docket/75000919/620-hudson-house-llc/": {
    "at": "2026-10-22",
    "action": "skipped: no coverage found explaining the filing"
+  },
+  "opinion:11042130": {
+   "at": "2026-10-22",
+   "action": "matter live-320"
+  },
+  "opinion:11042137": {
+   "at": "2026-10-22",
+   "action": "skipped: tax-foreclosure notice dispute over industrial property, but the only remaining appellant is an individual (Facility One, Inc. was dismissed for lack of standing); not a commercial-real-estate-business matter"
+  },
+  "opinion:11041901": {
+   "at": "2026-10-22",
+   "action": "skipped: eminent domain condemnation of individual homeowners' residential lots for a flood-control project, not commercial real estate"
   }
  }
 }

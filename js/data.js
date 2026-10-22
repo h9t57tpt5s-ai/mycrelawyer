@@ -10592,6 +10592,41 @@ const RELAW_DATA = {
         { name: "Tender Touch Physical Therapy, PLLC", role: "Sublessee/Defendant-Appellant" }
       ],
       judge: null
+    },
+    {
+      id: "live-320",
+      addedDate: "2026-10-22",
+      seoTitle: "Padilla Investments v. Trucks Rx: Detroit Lease Fight Upheld",
+      seoDescription: "Michigan appeals court upheld a $411,131.50 arbitration award for landlord Padilla Investments against tenant Trucks Rx over a Detroit tire-shop lease.",
+      title: "Trucks Rx, Inc. v. Padilla Investments, LLC (Michigan Appeals Court Affirms $411K Lease Arbitration Award)",
+      category: "landlord-tenant",
+      status: "ruling",
+      date: "2026-10-21",
+      jurisdiction: "Michigan Court of Appeals",
+      state: "MI",
+      propertyType: "Retail",
+      amount: "$411,131.50 arbitration award affirmed",
+      amountUsd: 411131.50,
+      amountBasis: "judgment",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11042130/trucks-rx-inc-v-padilla-investments-llc/",
+      summary: "The Michigan Court of Appeals affirmed a $411,131.50 arbitration award in favor of landlord Padilla Investments, LLC against tenants Trucks Rx, Inc. and Jana Trucking Line, Inc., who had abandoned a Detroit retail space after the city cited it for code violations, including the lack of a required sprinkler system. The arbitrator found the tenants, who took the property \"as is\" under a three-year commercial lease, were contractually responsible for bringing the premises into compliance, not the landlord, and the appellate panel held that finding was not legally erroneous or in excess of the arbitrator's authority.",
+      significance: "The ruling confirms that Michigan courts will give an arbitrator's interpretation of an unambiguous \"as is\" and compliance-with-law clause heavy deference, even where curing a code violation is costly and the tenant did not anticipate the expense. Commercial landlords leasing older or previously differently-used space can rely on such clauses to shift code-compliance risk to the tenant, while tenants and their guarantors face real personal exposure if they walk away from a lease rather than litigate or negotiate a cure.",
+      body: [
+        "The Michigan Court of Appeals has affirmed a $411,131.50 arbitration award against a commercial tenant that abandoned a Detroit retail space after the city flagged it for code violations, holding that the tenant, not the landlord, bore the contractual risk of bringing the premises into compliance. The decision in Trucks Rx, Inc. v. Padilla Investments, LLC rejects the tenant's bid to vacate the award and leaves intact a judgment that reaches the tenant's principals personally through their lease guaranties.",
+        "Padilla Investments, LLC owns a commercial building in Detroit that had previously operated as a hardware store. In February 2022, Trucks Rx, Inc. and an affiliated company, Jana Trucking Line, Inc., signed a three-year commercial lease for the space to sell tires, with their principals personally guaranteeing the lease. The lease required the tenants to take the premises \"as is,\" to comply with all applicable laws and ordinances at their own expense, and to use the property only for selling new vehicle tires.",
+        "Within months of taking possession, the City of Detroit inspected the property and issued a correction order citing property-maintenance and zoning violations, followed by an emergency correction order finding the use itself was unpermitted. By July 2022 the tenants had stopped paying rent, and an August 2022 inspection found the building operating illegally as an auto-repair and truck-storage site when its only legal use was retail. The core problem was the absence of a required automatic sprinkler system, which the tenants estimated would cost more than $60,000 and take four to six months to install. The landlord's principal offered to meet with city officials alongside the tenant to resolve the issue, but the tenant did not attend, and the tenants abandoned the premises in September 2022.",
+        "Padilla Investments sued for breach of contract, and the parties agreed to resolve the dispute in arbitration. The arbitrator found the tenants breached the lease by stopping rent payments and vacating the premises, ruling that the lease unambiguously placed responsibility for code compliance on the tenants, who had accepted the property \"as is\" and agreed to perform any work needed to operate their business lawfully. The arbitrator rejected the tenants' argument that the lease was void or unenforceable, awarded Padilla Investments $411,131.50 plus interest, and held the tenants' principals personally liable under their guaranties. The trial court confirmed the award, and the tenants appealed.",
+        "Applying the deferential standard that governs judicial review of arbitration awards, the Court of Appeals held the arbitrator neither exceeded his authority nor committed a clear legal error in reading the lease to assign the sprinkler-system obligation to the tenants rather than the landlord. The panel found the \"as is\" and compliance clauses unambiguous and rejected the tenants' argument that the sprinkler requirement amounted to a mutual mistake justifying rescission.",
+        "For commercial landlords, the decision confirms that a well-drafted \"as is\" clause paired with a use-compliance covenant can shift the cost of an unanticipated code requirement onto the tenant, even where the landlord made no representation about the space's readiness for the tenant's specific use and the fix is expensive. Tenants and their counsel should treat this as a caution against signing a narrow-use lease for raw or formerly differently-used space without first confirming, through diligence or a landlord work letter, who bears the cost if the intended use triggers new life-safety or zoning requirements, since an arbitrator's reading of that allocation will get heavy deference on judicial review. Lenders and guarantors should also note how quickly the dispute reached beyond the corporate tenant: the personal guaranties here converted a lease default into six-figure personal liability for the tenants' principals."
+      ],
+      tags: ["commercial-lease", "landlord-tenant", "arbitration", "michigan", "retail"],
+      parties: [
+        { name: "Trucks Rx, Inc.", role: "Tenant/Plaintiff-Appellant" },
+        { name: "Jana Trucking Line, Inc.", role: "Tenant/Plaintiff" },
+        { name: "Padilla Investments, LLC", role: "Landlord/Defendant-Appellee" }
+      ],
+      judge: null
     }
   ],
 
