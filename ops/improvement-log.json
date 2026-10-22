@@ -558,7 +558,7 @@
     "ops/improvement-playbook.md",
     "ops/metrics/goals.json"
    ],
-   "commit": "PENDING",
+   "commit": "66d388cb1b54762a86ab2cd095c76ae22d65e48a",
    "metric": "none directly -- this is evidence/fact-finding (which version is live, and a confounded free comparison of v6/v6.1 vs v4.3), not a site or code change; what to check next time is whether Jeff has reviewed ops/calculator-proposals.md's 2026-10-22 entry and ruled on G15's two decisions (give v4.4 a real paid backtest run; settle whether v6/v6.1 actually beats it on a matched case set)",
    "window": "n/a",
    "baseline": {
