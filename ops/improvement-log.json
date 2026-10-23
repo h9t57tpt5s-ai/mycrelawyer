@@ -313,7 +313,15 @@
     "signUps7": 2
    },
    "checkAfter": "2026-10-23",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-23",
+    "value": {
+     "newsletterSignups7": 0,
+     "signUps7": 0
+    },
+    "note": "newsletterSignups7 moved 1 -> 0 (-100%, clears the 25% threshold) but last28Days.newsletterSignups sat flat at 1 every day from 2026-10-14 through 2026-10-22 (ops/metrics/history/) -- the 28-day trend doesn't confirm a real decline, so no clear effect rather than hurt, same non-confirming-flat-trend reasoning imp-010's 2026-10-21 verdict used. Not reverted."
+   }
   },
   {
    "id": "imp-014",
@@ -330,7 +338,14 @@
    "window": "7 days",
    "baseline": 0,
    "checkAfter": "2026-10-23",
-   "status": "watching"
+   "status": "helped",
+   "verdict": {
+    "date": "2026-10-23",
+    "value": {
+     "calculatorViews7": 5
+    },
+    "note": "calculatorViews7 moved 0 -> 5, and last28Days.toolViews['case-valuation'] climbed steadily (0 before launch, then 1/5/4/4/4/5/6/6 through 2026-10-22) -- a sustained rise, not a one-day blip. Caveat: imp-016 (a local/Jeff session's own calculator entry-points change, still open, checkAfter 2026-10-31) is also live on this exact metric over the same window, so this is very likely a combined effect, not imp-014 alone -- same caveat shape as imp-008's 2026-10-20 verdict."
+   }
   },
   {
    "id": "imp-015",
@@ -586,6 +601,30 @@
    "checkAfter": "n/a",
    "status": "no-op",
    "note": "Not a no-op in the sense of 'nothing worthwhile was safe' -- it is this run's chosen backlog work under the one-open-experiment-per-goal rule, logged as status no-op only because no goal metric can judge it."
+  },
+  {
+   "id": "imp-028",
+   "date": "2026-10-23",
+   "track": "calculator",
+   "title": "Fixed a scoring bug in replay_backtest.py, then matched-case-set comparison of v4.3 vs v6",
+   "why": "goals.json mostBehind today: conversion, calculator, traffic, news. Judged imp-013 (no clear effect) and imp-014 (helped) first, both checkAfter today. After those closures every single goal still had an open watching entry (traffic: imp-009; conversion: imp-020/imp-022; calculator: imp-011/imp-016/imp-025/imp-026; subscription: imp-015; news: imp-017), so per the one-open-experiment-per-goal backlog rule this run worked evidence/backlog work instead of shipping a new tracked page/code change -- and 2026-10-22's own entry (imp-026) had explicitly flagged its v4.3-vs-v6 comparison as confounded by unequal case sets (v6's full 98-case results-v6/ vs v4.3's older, smaller 47-case results-v4.3/ snapshot) and worth resolving for free. While building a matched comparison (all 47 v4.3 case IDs are a subset of v6's 98), found scripts/replay_backtest.py's rep_priced/opp_priced/unpriced_claim checks called issue_range() without the as_of argument the main loop uses two lines above -- for v6-style role-tagged figures (credit/cap, no plain amount) this silently fell back to v4-only logic and disagreed with the main loop, scoring can-iv-packard-square-v-schubiner-2021 as a numeric miss when the live v6 model itself had already correctly returned no estimate (damagesRange: null) for that case. Fixed by passing the same as_of value to all three checks (3 lines). Verified no regression before trusting it: zero results-v4.3 files have role-tagged figures (grep confirmed), and results-v4.3 alone still replays to exactly 19/32 final hits, the already-published figure. Then re-ran the matched comparison on the identical 44 cases: overall final-hit rate is close (61.3% v4.3 vs 64.5% v6, far below the unmatched 72.2% headline), but training cases improve a lot (62.5% -> 79.2%) while the 7 matched held-out cases get worse (57.1% -> 14.3%) -- a possible overfitting signal on a small sample, not proof. No API spend -- all free replay of already-saved backtest result files. Full numbers, per-case detail and two new NEEDS JEFF notes written to ops/calculator-proposals.md; backlog G15 updated with the corrected comparison.",
+   "files": [
+    "scripts/replay_backtest.py",
+    "ops/calculator-proposals.md",
+    "ops/improvement-playbook.md",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "22297bdad04ede584ece3d54d5ffb1debeb24eb0",
+   "metric": "none directly -- this fixed an analysis-tool bug and corrected an evidence comparison; it did not change the live site or the valuation method. What to check next time: whether Jeff has reviewed ops/calculator-proposals.md's 2026-10-23 entry (the matched v4.3-vs-v6 numbers and the two flagged held-out flips) alongside G15's still-open decisions",
+   "window": "n/a",
+   "baseline": {
+    "finalRangeHitRate_v4.3_matched": 0.613,
+    "finalRangeHitRate_v6_matched": 0.645,
+    "heldOut_v4.3_matched": 0.571,
+    "heldOut_v6_matched": 0.143
+   },
+   "checkAfter": "2026-10-30",
+   "status": "watching"
   }
  ]
 }
