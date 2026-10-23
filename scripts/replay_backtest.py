@@ -179,9 +179,10 @@ def replay(pred):
             lo += p[0] * d[0]
             hi += d[1]
             best += pm * d[1]
-    rep_priced = any(i.get("claimant") != "opposing" and issue_range(i) for i in issues)
-    opp_priced = any(i.get("claimant") == "opposing" and issue_range(i) for i in issues)
-    unpriced_claim = any(i.get("claimant") != "opposing" and i.get("kind") == "claim" and not issue_range(i) for i in issues)
+    ao = as_of if as_of else None
+    rep_priced = any(i.get("claimant") != "opposing" and issue_range(i, ao) for i in issues)
+    opp_priced = any(i.get("claimant") == "opposing" and issue_range(i, ao) for i in issues)
+    unpriced_claim = any(i.get("claimant") != "opposing" and i.get("kind") == "claim" and not issue_range(i, ao) for i in issues)
     if not used or (not rep_priced and opp_priced and unpriced_claim):
         return None
     lo, hi = math.floor(lo), math.ceil(hi)

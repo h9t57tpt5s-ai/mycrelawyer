@@ -380,6 +380,107 @@ Nothing in code or on any public page has been changed by this entry — this
 is only a free replay of already-saved files, the same kind of evidence
 2026-10-15/17/21's entries above are.
 
+## 2026-10-23 — fixed a scoring bug in replay_backtest.py, then the matched-case-set comparison G15 needed
+
+**The bug.** `scripts/replay_backtest.py`'s `replay()` computes each issue's
+range in its main loop with `issue_range(i, as_of if as_of else None)` — the
+correct, v6-aware call that routes role-tagged figures (`credit`, `cap`,
+`before_value`, `after_value` — v6's figure-role scheme) through
+`v6_issue_range()`. But three lines right after that loop — `rep_priced`,
+`opp_priced`, `unpriced_claim`, which decide whether the case should return
+"no estimate" instead of a number — called `issue_range(i)` with no `as_of`
+argument at all, defaulting to `None`. For a v4.3 result (no `role` keys
+anywhere — confirmed: `grep -l '"role"' results-v4.3/*.json` matches 0 of 47
+files) this never mattered. But for a v6/v6.1 result, the same issue is
+scored two different ways in the same function: the main loop correctly
+says "unpriced" (no plain `amount`-role figure, nothing to base a range on),
+while the unguarded check re-derives a number from the raw figures under
+the old v4 rules, which don't know what a `credit`-only or `cap`-only figure
+means and mis-treats it as a damages amount.
+
+Caught it concretely on `can-iv-packard-square-v-schubiner-2021` (results-v6):
+the live model's own saved prediction already says `"damagesRange": null`
+and gives a `whatIsNeededForEstimate` message, because the represented
+side's only two claims have no priced `amount` figure (one has no figures
+at all; the other has only a `credit`-role $75M figure, which is the
+foreclosure sale's credit bid, not a damages ask). That is exactly the
+"represented side's claim is unpriced while the opposing side's is" case
+the `unpriced_claim` short-circuit exists to catch and exclude. Pre-fix,
+replay() didn't catch it — it scored this case as a hard numeric miss
+(predicted range collapsing to roughly $0, actual $13,992,936.05).
+`cle-venture-fund-v-coventry-2025` (results-v6) looks similar at a glance
+(replay also gives [0, 0]) but is different: the live model's own
+`damagesRange` is itself `[0, 0]`, not `null` — that's the model's real
+answer, not a replay artifact, and is left as a separate open question
+(flagged below, not chased further this run).
+
+**Fix** (3 lines, `scripts/replay_backtest.py`): pass the same `as_of`
+value to all three checks that the main loop already uses. Verified no
+regression: `python3 scripts/replay_backtest.py results-v4.3` alone still
+prints exactly "final hits 19/32" — the README's documented v4.4-replay
+figure, unchanged, as expected since v4.3 has zero role-tagged figures to
+be affected. `results-v6` alone: held-out final hits move from 11/20 to
+11/19 (one false "miss" correctly dropped to "no estimate," not swapped to
+a hit) — a small, explainable, correct-direction change, not a reshuffle.
+
+**Then, the matched-case-set comparison 2026-10-22's entry flagged as
+missing.** All 47 `results-v4.3` case IDs are a subset of `results-v6`'s 98
+(confirmed: `v43.keys() - v6.keys()` is empty) — so, post-fix, re-ran both
+directories restricted to the identical 44 scorable matched cases (same
+cases, same denominators, both sides):
+
+| matched set (n=44, same cases both rows) | final hits (all) | held-out final | non-held final | best guess ≤25% | median error |
+|---|---|---|---|---|---|
+| v4.3 math | 19/31 (61.3%) | 4/7 (57.1%) | 15/24 (62.5%) | 7/30 | −1% |
+| v6 | 20/31 (64.5%) | 1/7 (14.3%) | 19/24 (79.2%) | 8/30 | −15% |
+
+(v4.3 vs v6.1 on their smaller 11-case overlap: final 5/10 both, but best
+guess ≤25% improves 0/10 → 3/10 under v6.1 — too small an n to read much
+into either way.)
+
+**This changes the read from 2026-10-22's entry materially.** The earlier
+72.2%-vs-59.4% "all" comparison was comparing v6's full 98-case set against
+v4.3's smaller, older 47-case snapshot — different cases, not a fair test.
+On the exact same 44 cases, v6's overall final-hit rate is barely better
+than v4.3's (64.5% vs 61.3%, a 1-case difference) — nowhere near the 72.2%
+headline. And the gain is not evenly spread: v6 does much better on the
+24 non-held-out (training) cases (62.5% → 79.2%) but *worse* on the 7
+held-out ones (57.1% → 14.3%, 4/7 → 1/7) — the shape of a model tuned to
+its own training cases, not a generalizing accuracy improvement. n=7 is
+small enough that one or two cases swing this a lot (see the per-case
+detail below), so this is a real yellow flag, not proof v6 is worse — but
+it is the opposite of what the unmatched comparison suggested.
+
+Per-case detail on the 7 matched held-out cases (v4.3 → v6, final-outcome
+hit/miss): `donegal-v-christie-scott-2020` hit→hit (both correct);
+`1215-superior-v-berger-2025`, `jack-v-eldorado-casino-2019`,
+`stark-v-mccarthy-corp-2021` miss→miss (both wrong, no change);
+`can-iv-packard-square-v-schubiner-2021` hit→excluded (post-fix, this is
+the bug case above — v4.3 "hit" here is itself a wide, low-confidence range
+that happens to straddle the actual figure, not a real win); `cle-venture-fund-v-coventry-2025`
+hit→miss (v6's own live-reported range is `[0, 0]`, a real miss, not a
+scoring artifact — worth a closer look, flagged below);
+`windsor-tower-v-speedy-maintenance-2024` hit→miss (v4.3 range
+[14,370–48,260] contained the actual $48,260; v6's range
+[−18,138–28,560] does not).
+
+**NEEDS JEFF, in addition to the two 2026-10-22 decisions (which still
+stand):** before treating v6's apparent "all-cases" gain as real, get (or
+run) v6 on v4.3's full original case set (or v4.3 on v6's full 98), or at
+minimum look at why `cle-venture-fund-v-coventry-2025` and
+`windsor-tower-v-speedy-maintenance-2024` moved from correct to wrong under
+v6 specifically — on this small a held-out sample, understanding those two
+flips matters more than the aggregate percentage.
+
+Also flagged, not investigated further this run (outside what a free
+replay can settle): `cle-venture-fund-v-coventry-2025`'s v6 prediction
+itself returns `damagesRange: [0, 0]` against an actual $1,735,579.45 —
+worth checking against that case's actual input/issues (same kind of
+re-read 2026-10-21's Finding-2 correction did) before assuming it's a
+genuine "zero recovery" call rather than another figure-role edge case
+like the bug above, just one `issue_range`/`v6_issue_range` doesn't null
+out.
+
 ## What we have learned (calculator track)
 
 <!-- dated lines added as proposals here are later tested or Jeff rules on them -->
@@ -418,3 +519,25 @@ is only a free replay of already-saved files, the same kind of evidence
   in `index.ts` first — it has drifted at least once already (v4.3 shown,
   v4.4 live) and a future prompt/math change could drift it again before
   anyone re-scores it with a real run.
+- 2026-10-23: Fixed a real bug in `scripts/replay_backtest.py` found while
+  trying to remove 2026-10-22's confound (unequal case sets): its
+  unpriced-claim short-circuit re-derived each issue's priced/unpriced
+  status without the `as_of` argument the main loop uses, so for v6-style
+  role-tagged figures (credit/cap, no plain `amount`) it silently fell
+  back to v4 logic and disagreed with the main loop — scoring at least one
+  case (`can-iv-packard-square-v-schubiner-2021`) as a numeric miss that
+  the live v6 model itself had correctly declined to price at all
+  (`damagesRange: null`). Verified the fix doesn't move v4.3's own
+  published numbers (zero `results-v4.3` files have role-tagged figures to
+  be affected; `results-v4.3` alone still replays to exactly 19/32 final
+  hits). Then re-ran the matched-case comparison 2026-10-22 asked for
+  (restricting both v4.3 and v6 to the identical 44 cases both have):
+  overall final-hit rate is close (61.3% vs 64.5%, far below the unmatched
+  comparison's 72.2% headline), and the gain splits unevenly — training
+  cases improve a lot (62.5% → 79.2%) while the 7 matched held-out cases
+  get worse (57.1% → 14.3%) — a possible overfitting signal, not proof.
+  Next time: when a free comparison between two backtest result sets
+  looks surprisingly large in one direction, check first whether the
+  scoring tool treats a role-tagged (v6+) figure the same way in every
+  code path it touches — this bug would have kept understating v6/v6.1's
+  real calibration in any future replay until caught.
