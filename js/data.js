@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-22",
+  lastUpdatedDate: "2026-10-23",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -11025,6 +11025,340 @@ const RELAW_DATA = {
         { when: "December 2023", label: "The City terminates Crocker Park Management's Operation and Maintenance Agreement for Market Square" },
         { when: "July 30, 2026", label: "Eighth District issues its original decision affirming in part and reversing in part (2026-Ohio-2932)" },
         { when: "October 22, 2026", label: "On reconsideration, the Eighth District vacates its July decision and holds the trial court erred in finding Crocker Park had not waived its right of first refusal", current: true }
+      ]
+    },
+    {
+      id: "live-324",
+      seoTitle: "3401 Bluff St. Boulder: X Corp. Wins Reversal of $8.2M Rent Judgment",
+      seoDescription: "Colorado Court of Appeals reverses $8.2M judgment for Lot 2 SBO against Twitter/X over the Railyards at S'PARK office lease in Boulder; TI rent credit applied automatically.",
+      property: {"name": "Railyards at S'PARK", "address": "3401 Bluff St.", "city": "Boulder", "state": "CO"},
+      addedDate: "2026-10-23",
+      title: "Lot 2 SBO, LLC v. Twitter, Inc. n/k/a X Corp.: Colorado Appeals Court Reverses $8.2M Boulder Office Rent Judgment Over Tenant-Improvement Rent Credit",
+      brief: "The Colorado Court of Appeals reversed an $8.2 million rent judgment against X Corp. (formerly Twitter) over its Boulder office lease, holding the tenant-improvement rent credit applied automatically.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-22",
+      jurisdiction: "Colorado Court of Appeals, Division IV (appeal from Boulder County District Court)",
+      state: "CO",
+      amount: "$8.2 million judgment reversed (reported elsewhere as $8.3 million, or about $10 million with attorney fees)",
+      source: "live",
+      sourceUrl: "https://www.courthousenews.com/colorado-appeals-court-voids-landlord-win-in-lease-dispute-with-twitter/",
+      propertyType: "Office",
+      summary: "On October 22, 2026, a unanimous Colorado Court of Appeals panel reversed the Boulder County judgment that had held Twitter, now X Corp., liable to landlord Lot 2 SBO, LLC for about $8.2 million in unpaid rent and expenses on a 64,557-square-foot office building in Boulder. The panel held that the lease's tenant-improvement rent credit took effect automatically once the build-out reached the lease threshold and the tenant gave written notice, whether or not the landlord had yet received lien-clearing draw documents. It did not enter judgment for X. It sent the case back to the trial court with directions.",
+      significance: "The ruling shows how a lease's tenant-improvement allowance mechanics can decide whether a tenant who holds back rent is in default or is simply using a credit it earned. Landlords who make TI credits depend on lien waivers or draw packages need to say clearly that the paperwork is a condition of the credit, not only of the cash payout. Tenants get a reminder that applying a disputed credit against rent can lead to eviction and an eight-figure trial judgment before an appeals court sides with them.",
+      body: [
+        "Twitter signed a 10-year lease with Colorado landlord Lot 2 SBO, LLC in 2020 for a 64,557-square-foot building in Boulder. The building, the Railyards at S'PARK office building at 3401 Bluff St., was still being built at the time. Courthouse News reports that the lease set monthly base rent at $199,866.88 once the improvements were finished. To get the company to sign while the shell was under construction, the landlord offered a tenant-improvement allowance of $90 per square foot. Twitter spent heavily turning the shell into a flagship office and then never moved in.",
+        "Twitter changed ownership in October 2022 and was later renamed X Corp. A dispute followed over whether the improvement allowance could be taken as a credit against rent. The landlord's position was that it was still waiting for draw documents showing that no contractors remained unpaid and able to lien the building, so it had not applied the credit and Twitter's rent was overdue. Twitter said it was using rent credits it had earned. Lot 2 SBO moved to evict, and X Corp. countersued, claiming the landlord breached the lease by failing to apply the credit. The two Boulder County cases, Nos. 23CV30342 and 23CV30461, were tried together.",
+        "Boulder County District Court Judge Nancy W. Salomone held a five-day bench trial in March 2025. In May 2025 she ruled that the landlord had properly evicted the tenant and ordered X Corp. to pay about $8.2 million in past-due rent and expenses. Reported totals vary. Law360 and BusinessDen put the judgment at $8.3 million, and BusinessDen's headline figure of $10 million appears to include attorney fees. X appealed, and the Court of Appeals heard argument in July 2026.",
+        "On October 22, 2026, a Division IV panel of the Court of Appeals reversed in Case No. 25CA1268. Judge Karl Schock wrote the opinion, and Judges Craig Welling and Katharine Lum joined it. The court read the lease to apply the TI rent credit automatically to the next rent payments once the improvement project crossed the lease threshold and the tenant gave written notice, even if the landlord did not yet have the draw documentation. Because of that reading, the tenant's failure to pay cash rent could not be the clean default the trial court found. The panel said its job was to enforce the bargain the parties made, not to decide which side had the better business deal. It did not enter judgment for X Corp. It remanded with directions for the trial court to reconsider in light of the opinion.",
+        "The opinion was issued as unpublished under Colorado Appellate Rule 35(e), so it is not binding precedent in Colorado. It can still guide how trial courts read similar TI-credit provisions. BusinessDen described the result as a loss for The John Buck Co., which it identifies as the landlord. The remand will decide what, if anything, the tenant owes once the credit is applied as the panel directed, and how the eviction and fee awards are affected.",
+        "Landlords should make sure TI allowance and rent-credit provisions state exactly which conditions must be met before a credit offsets rent. If lien waivers or draw packages are meant to be conditions, the lease should say that about the credit itself and not only about the cash disbursement. Tenants with large build-outs should document project completion and give the written notice the lease requires before they treat a credit as self-executing. Both sides should keep in mind that a trial win on a disputed credit can come apart on appeal, and an eviction that rests on that win carries the same risk."
+      ],
+      tags: ["office lease", "tenant improvement allowance", "rent credit", "appeal", "boulder"],
+      parties: [
+        { name: "Lot 2 SBO, LLC", role: "Plaintiff-Appellee / Landlord" },
+        { name: "Twitter, Inc., n/k/a X Corp.", role: "Defendant-Appellant / Tenant" }
+      ],
+      judge: "Nancy W. Salomone",
+      amountUsd: 8200000,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "2020", label: "Twitter signs 10-year lease for 64,557-square-foot Boulder building" },
+        { when: "March 2025", label: "Five-day bench trial in Boulder County District Court" },
+        { when: "May 2025", label: "Trial court upholds eviction and awards landlord about $8.2 million" },
+        { when: "July 2026", label: "Court of Appeals hears oral argument" },
+        { when: "October 22, 2026", label: "Court of Appeals reverses judgment and remands with directions", current: true }
+      ]
+    },
+    {
+      id: "live-325",
+      seoTitle: "555 12th Street Oakland: $1.2M Future Rent Award Upheld, Now Published",
+      seoDescription: "California's First District published its ruling upholding $1,219,015 in future rent for USPA City Center against a law-firm tenant at 555 12th Street, Oakland.",
+      property: {"name": null, "address": "555 12th Street, Suite 1280", "city": "Oakland", "state": "CA"},
+      addedDate: "2026-10-23",
+      title: "USPA City Center, LLC v. Law Offices of Jason W. Estavillo, P.C.: California Court Publishes Ruling Upholding $1.2M Future-Rent Award on Oakland Office Lease",
+      brief: "A California appeals court published its ruling upholding $1,219,015.63 in future rent for the landlord of 555 12th Street in Oakland against a defaulted law-firm office tenant.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-19",
+      jurisdiction: "California Court of Appeal, First Appellate District, Division Two",
+      state: "CA",
+      amount: "$1,219,015.63 future-rent award (plus $350,677.82 back rent and holdover)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11038242/uspa-city-center-llc-v-law-offices-of-jason-w-estavillo-pc/",
+      propertyType: "Office",
+      summary: "On October 19, 2026, the California Court of Appeal ordered its September 21 opinion in USPA City Center, LLC v. Law Offices of Jason W. Estavillo, P.C. published, which makes it binding precedent. The opinion affirmed an Alameda County judgment giving the landlord of 555 12th Street in downtown Oakland $350,677.82 in back rent and holdover damages and $1,219,015.63 in future rent, discounted to present value, against a law-firm tenant that defaulted months into a 66-month office lease. The court rejected the tenant's arguments that the future-rent award lacked evidence, was a penalty, and paid the landlord twice.",
+      significance: "There is now published California authority that a landlord can recover several years of future rent under Civil Code section 1951.2 when it proves, through broker testimony and vacancy data, that the space cannot realistically be re-let. The record describes the downtown Oakland office market as weak, which gives landlords in similar markets a model for proving rental losses the tenant could not have avoided. The court also held that a stipulated judgment for future rent is not a penalty when it only restates what the lease and the Civil Code already allow.",
+      body: [
+        "In December 2023, the Law Offices of Jason W. Estavillo, P.C. signed a 66-month lease for 7,755 square feet in Suite 1280 at 555 12th Street in downtown Oakland, owned by USPA City Center, LLC. Rent started at $30,333.33 a month and went up each March. According to the opinion, the tenant's security-deposit check bounced, and by June 2024 it owed $107,618 in unpaid rent. The landlord filed an unlawful detainer action that month. The parties settled: the tenant would pay an extra $15,000 a month on top of rent, and if it failed, the landlord could have judgment entered for possession, unpaid rent, fees and future rent through the end of the lease.",
+        "The tenant missed the settlement payments, and the landlord asked for judgment in April 2025. At a July 2025 evidentiary hearing, a Cushman & Wakefield broker qualified as an expert. He testified that Class A vacancy in downtown Oakland was 35 to 36 percent and that about 200,000 square feet of tenant demand faced roughly 4,000,000 square feet of available space. The building's property manager, Harvest Properties, testified that occupancy had fallen to about 55 percent and that Matson Navigation, the largest tenant, was leaving a year before its lease ended. The evidence also showed the suite could not practically be split up because of code, exit and kitchen issues. The tenant called no witnesses.",
+        "On August 28, 2025, Alameda County Superior Court Judge Chad A. Stegeman awarded $350,677.82 in back rent, holdover and other damages. Instead of the four years the landlord asked for, he awarded three years of future rent, reduced to present value: $1,219,015.63. He found the landlord could not mitigate while the tenant was still in the space, and he discounted the outer end of the expert's estimate. Post-judgment, the tenant got a stay and remained in the premises while paying rent.",
+        "Writing for the First District, Justice Richman held that substantial evidence supported the award. The court found the expert's opinion grounded in market data, not speculation, so it passed the Sargon reliability standard. It also held that the stipulation was not an unlawful liquidated-damages penalty: it did not increase damages beyond what the lease and Civil Code section 1951.2 provide, and the tenant offered no evidence that the clause was unreasonable when signed. The court declined to consider a double-recovery argument first raised in the reply brief, which was based on rent the tenant paid during the stay, and left any offset claim for enforcement proceedings.",
+        "The opinion was first filed as unpublished on September 21, 2026, and was certified for publication on October 19, 2026. It now binds California trial courts on these issues.",
+        "For commercial landlords, the case is a guide to proving future rent after a tenant defaults: expert broker testimony, comparable time-on-market data for similar suites, building-level occupancy trends, and evidence of physical features that make the space hard to re-let. For tenants, it shows the cost of answering a detailed mitigation case with argument alone. It also shows that a settlement stipulating to future rent will be enforced when it matches what the lease and statute already allow."
+      ],
+      tags: ["future rent", "office lease", "oakland", "civil code 1951.2", "mitigation"],
+      parties: [
+        { name: "USPA City Center, LLC", role: "Plaintiff/Respondent (Landlord)" },
+        { name: "Law Offices of Jason W. Estavillo, P.C.", role: "Defendant/Appellant (Tenant)" }
+      ],
+      judge: "Chad A. Stegeman",
+      amountUsd: 1219015.63,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "December 2023", label: "66-month office lease signed for Suite 1280 at 555 12th Street" },
+        { when: "June 2024", label: "Landlord files unlawful detainer; parties settle with stipulation for judgment" },
+        { when: "July 22, 2025", label: "Evidentiary hearing on mitigation and future rent" },
+        { when: "August 28, 2025", label: "Judgment for $350,677.82 back rent and $1,219,015.63 future rent" },
+        { when: "September 21, 2026", label: "Court of Appeal affirms in unpublished opinion" },
+        { when: "October 19, 2026", label: "Opinion certified for publication", current: true }
+      ]
+    },
+    {
+      id: "live-326",
+      seoTitle: "Port Washington TIF Vote Ordinance Upheld; MMAC Suit Dismissed",
+      seoDescription: "Ozaukee County Judge Adam Gerol dismissed MMAC, NAIOP Wisconsin and Realtor groups' suit against Port Washington's rule requiring votes on TIDs over $10M.",
+      addedDate: "2026-10-23",
+      title: "Metropolitan Milwaukee Association of Commerce v. City of Port Washington: Judge Dismisses Business and CRE Groups' Challenge to Voter-Approval Rule for Large TIF Districts",
+      brief: "An Ozaukee County judge dismissed business and commercial real estate groups' challenge to Port Washington's voter-approved rule requiring a referendum for tax incremental districts over $10 million.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-19",
+      jurisdiction: "Wisconsin Circuit Court, Ozaukee County",
+      state: "WI",
+      amount: "Declaratory and injunctive relief; ordinance covers TIDs above $10 million",
+      source: "live",
+      sourceUrl: "https://wislawjournal.com/2026/10/20/judge-upholds-port-washington-data-center-ordinance",
+      summary: "On October 19, 2026, Ozaukee County Circuit Judge Adam Gerol ruled from the bench and dismissed a suit by the Metropolitan Milwaukee Association of Commerce and a coalition of contractor, commercial real estate and Realtor groups against the City of Port Washington. The suit challenged a voter-approved ordinance that requires a referendum before the city creates any new tax incremental district with a project cost or projected base value above $10 million. The judge found the plaintiffs had shown no actual or imminent injury, that the dispute was not ripe, and that the ordinance is consistent with state law and not too vague to apply.",
+      significance: "Port Washington's ordinance grew out of opposition to the city's $458 million tax incremental district for Vantage Data Centers' $15 billion campus, and it has been described as the first municipal ballot initiative in the country aimed at restraining future data center development. If it holds up, developers seeking large TIF packages in Port Washington will need to win a public vote, not just a council majority, adding schedule and political risk to big industrial and data center deals. Opponents of other projects may copy the approach, and the business groups have signaled an appeal.",
+      body: [
+        "Port Washington, a lakeshore city north of Milwaukee, approved a tax incremental district in 2025 to support Vantage Data Centers' planned $15 billion AI campus being built for Oracle and OpenAI. That district carries $458 million in local incentives. In response, a citizens group called Great Lakes Neighbors United gathered more than 1,000 signatures on a direct-legislation petition proposing that any future TID with a project cost or projected base value above $10 million first go to the city's voters. Under Wisconsin's direct-legislation statute, the Common Council placed the measure on the April 2026 ballot.",
+        "On January 29, 2026, the Metropolitan Milwaukee Association of Commerce sued the city in Ozaukee County Circuit Court to stop the referendum. Joining MMAC, according to its announcement, were the Associated General Contractors of Greater Milwaukee, Building Advantage, the Commercial Association of REALTORS Wisconsin, the Wisconsin REALTORS Association, NAIOP Wisconsin and Sid's Sealants LLC. Their central argument was that state statutes already set out how a municipality creates a TID and do not allow a local referendum to be inserted into that process. They also argued the ordinance was too vague and would discourage development. Great Lakes Neighbors United intervened to defend the measure. The ordinance does not reach the TID already approved for the Vantage project.",
+        "In February, Judge Gerol refused to enjoin the vote, reasoning that courts should not halt an election or rule on an ordinance that had not yet become law. Voters then approved the measure in April with about 66 percent support, and the business groups pressed on with a challenge to the enacted ordinance, seeking summary and declaratory judgment.",
+        "In an oral ruling on October 19 that ran over an hour, the judge dismissed the case. He held that the plaintiffs had not shown a real or sufficiently imminent injury, so their claims about future harm to development were speculative and not ripe. Addressing the merits as well, he concluded that the ordinance does not exceed the Common Council's powers, is consistent with state law, and, while poorly drafted, can be understood and applied. He noted that Wisconsin's direct-legislation statute dates to 1910. The case is No. 2026CV000047. A month earlier, the same judge had dismissed Great Lakes Neighbors United's separate suit attacking the Vantage TID itself.",
+        "MMAC said it was disappointed with the court's reading of the law and that further review in higher courts is warranted, and it warned that projects will go to other communities. Great Lakes Neighbors United called the result a victory for voters. No appeal had been reported as filed when the ruling was covered.",
+        "For developers and lenders, the practical point is that TIF support in Port Washington now carries election risk for any project above the $10 million threshold, which covers most industrial, data center and large mixed-use deals. Sponsors underwriting incentive-dependent projects there should build a referendum into the timeline and the capital stack, and those watching other Wisconsin municipalities should expect similar petitions where data center opposition is organized. Because the dismissal rests largely on ripeness, a future plaintiff with a specific project actually blocked by the ordinance could bring a fresh challenge, and the appellate courts may yet weigh in on whether a referendum can be layered onto the state's TID procedure."
+      ],
+      tags: ["tax incremental financing", "data centers", "referendum", "wisconsin", "development incentives"],
+      parties: [
+        { name: "Metropolitan Milwaukee Association of Commerce", role: "Plaintiff" },
+        { name: "Associated General Contractors of Greater Milwaukee", role: "Plaintiff" },
+        { name: "Building Advantage", role: "Plaintiff" },
+        { name: "Commercial Association of REALTORS Wisconsin", role: "Plaintiff" },
+        { name: "Wisconsin REALTORS Association", role: "Plaintiff" },
+        { name: "NAIOP Wisconsin", role: "Plaintiff" },
+        { name: "Sid's Sealants LLC", role: "Plaintiff" },
+        { name: "City of Port Washington", role: "Defendant" },
+        { name: "Great Lakes Neighbors United", role: "Intervenor" }
+      ],
+      judge: "Adam Gerol",
+      amountUsd: null,
+      timeline: [
+        { when: "January 29, 2026", label: "MMAC and coalition sue City of Port Washington to block the TID referendum" },
+        { when: "February 2026", label: "Judge denies request to enjoin the April referendum" },
+        { when: "April 2026", label: "Voters approve the ordinance with about 66 percent support" },
+        { when: "September 2026", label: "Same judge dismisses Great Lakes Neighbors United's separate challenge to the Vantage TID" },
+        { when: "October 19, 2026", label: "Judge Gerol dismisses the business groups' challenge in an oral ruling", current: true }
+      ]
+    },
+    {
+      id: "live-327",
+      seoTitle: "Vantage Port Washington Data Center: Sierra Club Settles DNR Suit",
+      seoDescription: "Sierra Club, Wisconsin DNR and Vantage settle the Lighthouse data center EIS suit: permits stay valid and Vantage funds a statewide impact study.",
+      property: {"name": "Lighthouse data center campus", "address": null, "city": "Port Washington", "state": "WI"},
+      addedDate: "2026-10-23",
+      title: "Sierra Club v. Wisconsin Department of Natural Resources: Settlement Leaves Vantage's $15 Billion Port Washington Data Center Permits Intact and Has Vantage Fund a Statewide Data Center Impact Study",
+      brief: "The Sierra Club settled its suit over permits for Vantage's $15 billion Port Washington data center campus; the permits stand and Vantage will fund a statewide data center impact study.",
+      category: "environmental",
+      status: "settled",
+      date: "2026-10-16",
+      jurisdiction: "Wisconsin Circuit Court, Ozaukee County",
+      state: "WI",
+      amount: "Non-monetary settlement; developer funds statewide environmental analysis",
+      source: "live",
+      sourceUrl: "https://www.wpr.org/news/wisconsin-environmental-cost-of-data-centers-lawsuit-settlement",
+      propertyType: "Data Center",
+      summary: "On October 16, 2026, the Sierra Club, the Wisconsin Department of Natural Resources and Vantage Data Centers settled the Sierra Club's suit challenging permits the DNR issued for Vantage's $15 billion Lighthouse data center campus in Port Washington without an environmental impact statement. The permits remain valid and no further environmental review of them is required. In exchange, the DNR will prepare a statewide strategic analysis of AI data center build-out and its effects by January 31, 2028, with Vantage paying the full cost.",
+      significance: "The deal removes the main environmental litigation cloud over one of the largest data center projects in the Midwest without disturbing its permits, a template other developers facing environmental-review suits may try to follow. At the same time, a state-level cumulative-impact study of data centers, funded by a developer, could shape how the DNR reviews future campuses, power infrastructure and wetland impacts, and the Sierra Club says it still expects project-level impact statements where warranted.",
+      body: [
+        "Vantage Data Centers, based in Denver, is developing the Lighthouse campus in Port Washington, Wisconsin, a roughly $15 billion project for Oracle and OpenAI. As described in reporting on the case, the plan calls for four data centers on about 672 acres along Interstate 43, totaling some 2.5 million square feet. The first phase would draw about 1.3 gigawatts of power, with potential growth to 3.5 gigawatts, and the project would fill about 4.7 acres of wetlands.",
+        "The DNR issued permits for the project on June 12, 2026. On July 10, Midwest Environmental Advocates sued the agency on behalf of the Sierra Club in Ozaukee County Circuit Court, arguing that the Wisconsin Environmental Policy Act required a full environmental impact statement for a development of this scale. The groups relied on public records showing that a DNR attorney told Vantage in July 2025 that an impact statement would be needed, and on later internal messages suggesting the company viewed that requirement as a serious threat to the project. Vantage was not a defendant; the DNR declined to comment while the case was pending, and Vantage said at the time that it had worked with the agency transparently.",
+        "The settlement, reached Friday, October 16, and signed by the DNR, the Sierra Club and Vantage, ends the case without an impact statement for Lighthouse. The parties agreed that the campus's construction and operation permits are valid and that no further environmental review of those approvals is required. The Sierra Club will withdraw its petition for a contested case hearing, and the DNR will turn over records the groups had requested.",
+        "The central term is a statewide strategic analysis. By January 31, 2028, the DNR must study a base case of current and projected AI data center and energy build-out in Wisconsin and its direct, indirect and cumulative effects on air and water quality, climate, water use, wetlands, wildlife, agriculture, cultural resources, energy and the economy. The agency must take public comment, hold at least one hearing, and summarize effects on energy bills. Vantage will pay the full cost, while the DNR keeps sole control of the study and its authority over future permits. The agreement does not pause data center permitting while the work proceeds, and it does not prevent the DNR from doing ordinary project-level reviews.",
+        "Vantage said it supports a fact-based discussion about responsible data center development in the state. The Sierra Club said it expects full impact statements for specific proposals when warranted and does not view the statewide study as a substitute. The settlement lands as data centers have become an issue in Wisconsin's governor's race.",
+        "For developers, the outcome shows a path to clearing an environmental-review challenge without reopening issued permits: concede a broader, developer-funded study in return for a clean release on the project itself. Lenders and equity partners on Lighthouse get greater certainty that the permits will stand. For other Wisconsin data center sponsors, the 2028 analysis is a coming variable; its findings on cumulative water, wetland and power impacts could become the record that regulators and opponents cite when the next large campus seeks permits, so diligence and schedule assumptions should account for it."
+      ],
+      tags: ["data centers", "environmental review", "wepa", "wisconsin", "settlement"],
+      parties: [
+        { name: "Sierra Club", role: "Plaintiff" },
+        { name: "Wisconsin Department of Natural Resources", role: "Defendant" },
+        { name: "Vantage Data Centers", role: "Developer (settlement signatory)" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "June 12, 2026", label: "DNR issues permits for the Lighthouse campus without an environmental impact statement" },
+        { when: "July 10, 2026", label: "Sierra Club, represented by Midwest Environmental Advocates, sues the DNR in Ozaukee County Circuit Court" },
+        { when: "October 16, 2026", label: "DNR, Sierra Club and Vantage settle; permits remain valid and Vantage funds a statewide study", current: true },
+        { when: "January 31, 2028", label: "Deadline for the DNR's statewide data center strategic analysis" }
+      ]
+    },
+    {
+      id: "live-328",
+      seoTitle: "I-93 Exit 4A Derry: Jury Upholds Eminent Domain of Developer Land",
+      seoDescription: "A New Hampshire jury unanimously found NHDOT's Exit 4A takings from 101 Franklin Derry, LLC and S&L Elm Street Holdings were a valid public use in Derry.",
+      property: {"name": null, "address": null, "city": "Derry", "state": "NH"},
+      addedDate: "2026-10-23",
+      title: "State v. 101 Franklin Derry, LLC: New Hampshire Jury Upholds Eminent Domain Takings of Developer's Land for I-93 Exit 4A",
+      brief: "A New Hampshire jury unanimously upheld the state's eminent domain takings of two development companies' land in Derry for the I-93 Exit 4A interchange.",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-10-20",
+      jurisdiction: "New Hampshire state court (jury trial; reporting does not name the court)",
+      state: "NH",
+      amount: "Validity of takings for a $161.3 million interchange project",
+      source: "live",
+      sourceUrl: "https://indepthnh.org/2026/10/20/department-of-justice-secures-jury-verdict-in-support-of-construction-of-exit-4a-on-i-9/",
+      summary: "After a four-day trial, a New Hampshire jury unanimously found that the state's eminent domain takings from two development companies for the long-planned Exit 4A interchange on Interstate 93 in Derry serve a public use, are reasonably necessary and will produce a net public benefit. The condemnees, 101 Franklin Derry, LLC and S&L Elm Street Holdings, LLC, had argued the project mainly serves the private Woodmont Commons development in Londonderry. The Attorney General announced the verdict on Tuesday, October 20, 2026, and the judge said an order consistent with it will follow.",
+      significance: "The verdict shows how difficult a public-use and necessity challenge can be when a highway project has decades of planning behind it, even where a private development stands to benefit from the new access. For owners whose land is taken for infrastructure that also serves private growth, the case suggests the more productive fight is often over compensation rather than the state's right to take.",
+      body: [
+        "Exit 4A is a new I-93 interchange serving Derry and Londonderry that the New Hampshire Department of Transportation, the two towns and the Federal Highway Administration have pursued for roughly 40 years. To build it and related improvements along the Folsom Road corridor in Derry, NHDOT acquired portions of private land by eminent domain, including land held by 101 Franklin Derry, LLC and S&L Elm Street Holdings, LLC, two companies owned and run by a local land developer.",
+        "Those companies challenged the takings in State v. 101 Franklin Derry, LLC, et al. Their theory was that the interchange was designed mainly to benefit Woodmont Commons, a large mixed-use development in Londonderry, at the expense of Derry property owners and taxpayers. The state answered that the interchange addresses long-standing traffic and safety problems and supports economic growth in both towns, and that any advantage to a private development is incidental.",
+        "The case went to a four-day jury trial. Jurors were asked whether NHDOT had shown, more likely than not, that the acquisitions serve a qualifying public use, that they are reasonably necessary and reasonable in scope, and that the project will yield a net public benefit after weighing business displacement, lost tax revenue and harm to the community. After about an hour of deliberation, the jury answered yes to all three. The trial judge, who is not named in the reporting, said an order consistent with the verdict will issue. The Attorney General's office announced the result on Tuesday, October 20, 2026. None of the coverage reports a compensation figure or whether the condemnees will appeal.",
+        "The project's cost has grown well past early estimates. According to NHDOT figures cited by the Eagle-Tribune, the overall estimate is now $161.3 million across six smaller projects, including a $33.4 million Folsom Road expansion and a tunnel for the Derry Rail Trail that the state agreed to build in a separate federal settlement earlier this year. Derry and Londonderry have each committed $5 million. The Folsom Road phase is expected to be finished in summer 2028, when the interchange is expected to open, with remaining work running into the early 2030s. The Eagle-Tribune noted that the verdict does not resolve every issue around the project.",
+        "For owners and developers, the verdict underscores that a public-use challenge to a highway taking faces long odds once a project has a long planning record and an evident traffic purpose, even when a nearby private development will plainly gain from the new access. The net-benefit question New Hampshire puts to juries does let a condemnee put business displacement and lost tax base in front of the factfinder, but it did not carry the day here. Owners facing takings for infrastructure that also serves private growth should weigh whether resources are better spent documenting severance damages, access changes and business losses for the compensation phase, and developers relying on new public access should track condemnation challenges as a schedule risk."
+      ],
+      tags: ["eminent domain", "public use", "highway taking", "new hampshire", "jury verdict"],
+      parties: [
+        { name: "State of New Hampshire", role: "Condemnor" },
+        { name: "New Hampshire Department of Transportation", role: "Condemnor" },
+        { name: "101 Franklin Derry, LLC", role: "Condemnee" },
+        { name: "S&L Elm Street Holdings, LLC", role: "Condemnee" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "February 2026", label: "Separate federal settlement requires a Derry Rail Trail tunnel as part of Exit 4A" },
+        { when: "October 2026", label: "Four-day jury trial on the public use, necessity and net benefit of the takings" },
+        { when: "October 20, 2026", label: "Attorney General announces unanimous jury verdict for the state", current: true }
+      ]
+    },
+    {
+      id: "live-329",
+      seoTitle: "Oak Harbor Home2 Suites Hotel: Park-Land Ordinance Needs SEPA Review",
+      seoDescription: "Washington Court of Appeals reverses: Oak Harbor's ordinance easing sale of Hal Ramaley Park land for a 107-room Home2 Suites hotel parking lot needs SEPA review.",
+      property: {"name": "Proposed Home2 Suites by Hilton (adjacent to Hal Ramaley Memorial Park)", "address": null, "city": "Oak Harbor", "state": "WA"},
+      addedDate: "2026-10-23",
+      title: "Whidbey Environmental Action Network v. City of Oak Harbor: Washington Appeals Court Revives SEPA Challenge to Park-Land Ordinance Passed for a 107-Room Home2 Suites Hotel",
+      brief: "A Washington appeals court held that Oak Harbor's ordinance easing the sale of park land for a 107-room Home2 Suites hotel parking lot needed environmental review under SEPA.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-19",
+      jurisdiction: "Washington Court of Appeals, Division One",
+      state: "WA",
+      amount: "Declaratory relief (SEPA review of Ordinance 1999)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11038320/whidbey-enviromental-action-network-v-city-of-oak-harbor/",
+      propertyType: "Hospitality",
+      summary: "On October 19, 2026, Washington's Court of Appeals, Division One, reversed a summary judgment for the City of Oak Harbor and revived an environmental group's challenge to Ordinance 1999. The ordinance dropped the voter-approval requirement for selling developed park land when the city approves a qualifying development agreement. The city adopted it to accommodate Sound Development Group LLC's proposed four-story, 107-room Home2 Suites by Hilton hotel, whose parking lot would take part of Hal Ramaley Memorial Park. The court held the ordinance is a nonproject action that is not categorically exempt from State Environmental Policy Act (SEPA) review.",
+      significance: "Developers whose projects depend on a city changing its code, especially to free up public land, should expect that legislation to need its own environmental review under SEPA. The ruling says review must happen at the earliest stage, so an ordinance that puts conditions on how land will be used is not exempt just because it reads as procedural. The opinion is unpublished, but it shows how Washington courts may treat project-driven code amendments.",
+      body: [
+        "In September 2023, Sound Development Group LLC proposed a commercial and residential project in downtown Oak Harbor, next to Hal Ramaley Memorial Park: a one-story brewpub with single-story residential units. The city turned that plan down and asked for something denser. The developer came back with a four-story Home2 Suites by Hilton with 107 rooms and meeting space. Its parking lot would extend onto part of the park.",
+        "At the time, the city code required voters to approve any sale of developed park property. According to the opinion, city planning staff gave the developer several options: hold an election, drop the fourth floor, cut the pool and other amenities to free up parking, or amend the code. The parties pursued the amendment. At an August 13, 2024 public hearing, the city council passed Ordinance 1999 by a six-to-one vote. It allows park property to be sold or traded without a vote if the council approves a development agreement and finds that the exchange meets set land-area and market-value tests, or that the private party's park improvements are worth at least 150 percent of the land conveyed. The city's planner told the council the change was prompted by the hotel proposal.",
+        "Whidbey Environmental Action Network sued on August 30, 2024. It argued the city violated SEPA by passing the ordinance without first reviewing its environmental impacts. The trial court granted summary judgment to the city on May 1, 2025, ruling that the ordinance was not an action covered by SEPA and was categorically exempt in any event.",
+        "Division One reversed. Writing for the panel, Acting Chief Judge Bowman held that Ordinance 1999 is a nonproject action under WAC 197-11-704(2)(b)(i). Its conditions tie the transfer of park land to a specific purpose, development, and so they control the use or modification of the environment, much as a zoning ordinance does. The court rejected the city's position that review could wait until a sale or development was actually proposed. It noted that a concrete proposal already existed, with site plans, floor plans, landscaping plans and renderings showing the parking lot. The court also held that the procedural-action exemption in WAC 197-11-800(19) does not apply, because the ordinance contains substantive standards. The case goes back to the trial court for further proceedings.",
+        "For hotel and mixed-use developers, the decision shows a timing risk. When a project needs a code amendment or a public-land deal, the amendment itself can be the trigger for SEPA review, and skipping it gives opponents a way to stall the project. The safer course is to run the environmental threshold determination on the enabling legislation alongside the project application, using the plans already submitted, so an ordinance passed for one project does not later become the target of a lawsuit."
+      ],
+      tags: ["sepa", "hotel development", "park land", "oak harbor", "washington"],
+      parties: [
+        { name: "Whidbey Environmental Action Network", role: "Plaintiff/Appellant" },
+        { name: "City of Oak Harbor", role: "Defendant/Respondent" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "September 6, 2023", label: "Sound Development submits initial brewpub and residential proposal" },
+        { when: "August 13, 2024", label: "City council passes Ordinance 1999, 6-1" },
+        { when: "August 30, 2024", label: "Environmental group files SEPA suit" },
+        { when: "May 1, 2025", label: "Trial court grants summary judgment to city" },
+        { when: "October 19, 2026", label: "Court of Appeals reverses and remands (unpublished)", current: true }
+      ]
+    },
+    {
+      id: "live-330",
+      seoTitle: "BSC Realty v. Valcourt: Georgia Revives Building Manager Indemnity Claim",
+      seoDescription: "Georgia Court of Appeals reverses summary judgment for contractor Valcourt, reviving BSC Realty's indemnity claim over a fall at a managed commercial building.",
+      addedDate: "2026-10-23",
+      title: "BSC Realty Services, LLC v. Valcourt Building Services of Georgia, L.C.: Georgia Appeals Court Revives Building Manager's Indemnity Claim Over Rooftop Cooling-Tower Fall",
+      brief: "A Georgia appeals court revived building manager BSC Realty Services' indemnity claim against contractor Valcourt over a rooftop cooling-tower accident, finding fact issues on causation.",
+      category: "premises-liability",
+      status: "ruling",
+      date: "2026-10-19",
+      jurisdiction: "Court of Appeals of Georgia, Fourth Division",
+      state: "GA",
+      amount: "Contractual defense and indemnity",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11038260/bsc-realty-services-llc-v-valcourt-building-services-of-georgia-lc/",
+      summary: "On October 19, 2026, the Court of Appeals of Georgia reversed a summary judgment that had released exterior-maintenance contractor Valcourt Building Services of Georgia, L.C. from its duty to indemnify building manager BSC Realty Services, LLC. The underlying claim comes from a worker hurt when a cooling-tower fan he was pressure washing on top of a commercial building began turning and knocked him off a ladder. The contract excused indemnity only for liability arising from the 'sole negligence' of the owner or manager. Because the evidence conflicts on whether the fan was re-energized, the court held that fact issues prevent summary judgment.",
+      significance: "Owners and managers often rely on contractor indemnity clauses that exclude only their own 'sole negligence.' This ruling shows that a contractor cannot escape the clause on summary judgment when circumstantial evidence leaves the cause of an accident disputed. It also shows how lost records hurt: the building-automation logs that would have shown when power was cut were not kept, and that led to a spoliation ruling in the injury case.",
+      body: [
+        "Valcourt Building Services of Georgia, L.C. had a contract with the owner of a commercial building to provide exterior maintenance, including pressure washing the rooftop cooling-tower fans. BSC Realty Services, LLC managed the building. Valcourt subcontracted the fan cleaning to a separate maintenance company. In the contract, Valcourt agreed to defend and indemnify both the owner and BSC against injury claims arising from its work or its subcontractors' work. The only exception was liability arising from the sole negligence of the owner or manager.",
+        "On October 7, 2021, the subcontractor's worker checked in with the building's engineers, who worked for a BSC affiliate. They confirmed that power to the first fan was off, and he cleaned it. After they confirmed power was off to a second fan, he climbed a ladder, held a blade with one hand and began washing. He heard a click, the fan began to turn, and he fell and was seriously injured. The engineers could shut fans down either through the building automation system or at a locked rooftop electrical room. Only the electrical room allowed a federal lockout/tagout procedure. The worker's expert testified that cutting power through the automation system alone did not properly de-energize the fan.",
+        "The worker sued several defendants, including BSC. BSC filed a third-party claim against Valcourt for breach of contract and indemnification. The trial court granted summary judgment to Valcourt, finding that any liability came from the sole negligence of the owner's or manager's engineers. Valcourt also argued that BSC's appeal was untimely. The appeals court disagreed: no civil case disposition form had been filed, so no final judgment was entered under OCGA 9-11-58(b), the order remained interlocutory, and the trial court could vacate and re-enter it.",
+        "On the merits, Presiding Judge McFadden's opinion for the Fourth Division found no direct evidence of whether the fan had power when the worker fell. The automation logs had not been kept. The circumstantial evidence pointed both ways. The click suggested power was restored, but other evidence showed the fan makes little or no noise when re-energized, water pressure from a power washer alone can turn the blades, and a co-worker saw the blades slowing after the fall. A jury could reasonably find that water, not electricity, moved the fan. Because of that dispute, Valcourt could not show as a matter of law that the sole-negligence exception applied, so the summary judgment was reversed. The court did not reach BSC's separate argument about Valcourt's training of the worker.",
+        "For owners and property managers, the takeaways are practical. Indemnity clauses that exclude only the indemnitee's sole negligence are valuable, but they are decided on causation facts, so documents matter. Written lockout/tagout procedures, preserving building-system logs after an incident, and records showing which party controlled each step of a shutdown can decide whether the risk lands on the contractor or on the building's own insurers."
+      ],
+      tags: ["indemnification", "building manager", "contractor", "premises liability", "georgia"],
+      parties: [
+        { name: "BSC Realty Services, LLC", role: "Third-Party Plaintiff/Appellant (Building Manager)" },
+        { name: "Valcourt Building Services of Georgia, L.C.", role: "Third-Party Defendant/Appellee (Contractor)" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "October 7, 2021", label: "Worker falls while pressure washing rooftop cooling-tower fan" },
+        { when: "July 28, 2025", label: "Trial court grants summary judgment to Valcourt on third-party claims" },
+        { when: "November 10, 2025", label: "Trial court vacates and re-enters orders; BSC appeals" },
+        { when: "October 19, 2026", label: "Court of Appeals reverses", current: true }
+      ]
+    },
+    {
+      id: "live-331",
+      seoTitle: "Colliers v. City Hall Commons: $307K Lease Renewal Commission Upheld",
+      seoDescription: "First Department affirms $307,326.18 judgment for Colliers International NY against landlord City Hall Commons LLC for a broker commission on a 2019 lease renewal.",
+      addedDate: "2026-10-23",
+      title: "Colliers International NY LLC v. City Hall Commons LLC: First Department Affirms $307,326 Commission Judgment Against Landlord on Lease Renewal",
+      brief: "New York's First Department affirmed a $307,326.18 judgment for Colliers against landlord City Hall Commons for a broker commission on a 2019 lease renewal.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-22",
+      jurisdiction: "New York Supreme Court, Appellate Division, First Department",
+      state: "NY",
+      amount: "$307,326.18 commission judgment",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11043343/colliers-intl-ny-llc-v-city-hall-commons-llc/",
+      summary: "On October 22, 2026, the Appellate Division, First Department unanimously affirmed a $307,326.18 money judgment for broker Colliers International NY LLC against landlord City Hall Commons LLC. The commission was for a September 2019 lease renewal with a nonparty tenant. The court held that the renewal agreement's statement that Colliers was the exclusive broker and that the landlord would pay its fee, together with emails showing Colliers' role in the negotiations, entitled the broker to its commission as a matter of law. The landlord's later refusal to sign a separate brokerage agreement did not change that.",
+      significance: "In New York, broker-fee language in a lease or renewal can create a binding commission obligation on its own, even without a signed brokerage agreement. Landlords who name a broker and agree in the lease to pay its fee should expect to be held to that promise. Brokers should make sure renewal documents name them and assign the fee.",
+      body: [
+        "Colliers International NY LLC sued City Hall Commons LLC in Supreme Court, New York County, to collect a commission for a lease renewal between the landlord and a tenant that is not a party to the case. The decision does not identify the property. The September 2019 renewal agreement stated that Colliers was the exclusive broker for the transaction and that the landlord would pay the broker fees.",
+        "The landlord moved to dismiss under CPLR 3211. It argued there was no binding agreement or privity between it and Colliers, and it relied on its refusal to sign a separate brokerage agreement after the renewal was done. Justice Debra A. James converted the motion to one for summary judgment under CPLR 3211(c), denied the landlord's motion, and granted the broker's cross-motion in an order entered on or about September 10, 2024. A money judgment of $307,326.18 was entered on January 31, 2025.",
+        "A First Department panel of Justices Scarpulla, González, Rodriguez, Rosado and O'Neill Levy unanimously affirmed on October 22, 2026. The court relied on its own precedent, including Newmark & Co. Real Estate Inc. v. 2615 E. 17 St. Realty LLC and Helmsley-Spear, Inc. v. New York Blood Center, Inc. It held that when an agreement between a landlord and a tenant names the plaintiff as exclusive broker and says the landlord will pay its commission, that statement, backed by other documents, entitles the broker to the commission as a matter of law. The renewal agreement directly contradicted the landlord's no-privity argument. Emails between Colliers and the landlord's representative also showed Colliers' role in the negotiations.",
+        "The panel also rejected the argument that refusing to sign a later brokerage agreement cancelled the obligation. Once the landlord had agreed in the renewal to pay the fee, it could not undo that by declining further paperwork. The court considered the landlord's other arguments and found them unavailing.",
+        "For owners, the practical point is that broker clauses in leases and renewals are not boilerplate. If a landlord does not intend to pay a particular broker, or wants the fee subject to a separate agreement with conditions, the lease should say so. Signing a renewal that names an exclusive broker and assigns the fee to the landlord can make the landlord liable for the commission even if it never signs a brokerage contract. For brokers, the decision supports keeping the emails and other records of their role in negotiations, along with the lease language, as proof that they earned the fee."
+      ],
+      tags: ["broker commission", "lease renewal", "colliers", "first department", "new york"],
+      parties: [
+        { name: "Colliers International NY LLC", role: "Plaintiff/Respondent (Broker)" },
+        { name: "City Hall Commons LLC", role: "Defendant/Appellant (Landlord)" }
+      ],
+      judge: "Debra A. James",
+      amountUsd: 307326.18,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "September 2019", label: "Lease renewal names Colliers exclusive broker, landlord to pay fees" },
+        { when: "September 10, 2024", label: "Supreme Court grants broker summary judgment (order entered on or about this date)" },
+        { when: "January 31, 2025", label: "$307,326.18 money judgment entered" },
+        { when: "October 22, 2026", label: "First Department unanimously affirms", current: true }
       ]
     }
   ],

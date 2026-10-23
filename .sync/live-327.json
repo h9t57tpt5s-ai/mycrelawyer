@@ -1,0 +1,22 @@
+{
+ "id": "live-327",
+ "title": "Sierra Club v. Wisconsin Department of Natural Resources: Settlement Leaves Vantage's $15 Billion Port Washington Data Center Permits Intact and Has Vantage Fund a Statewide Data Center Impact Study",
+ "category": "environmental",
+ "status": "settled",
+ "date": "2026-10-16",
+ "jurisdiction": "Wisconsin Circuit Court, Ozaukee County",
+ "state": "WI",
+ "amount": "Non-monetary settlement; developer funds statewide environmental analysis",
+ "source": "live",
+ "source_url": "https://www.wpr.org/news/wisconsin-environmental-cost-of-data-centers-lawsuit-settlement",
+ "summary": "On October 16, 2026, the Sierra Club, the Wisconsin Department of Natural Resources and Vantage Data Centers settled the Sierra Club's suit challenging permits the DNR issued for Vantage's $15 billion Lighthouse data center campus in Port Washington without an environmental impact statement. The permits remain valid and no further environmental review of them is required. In exchange, the DNR will prepare a statewide strategic analysis of AI data center build-out and its effects by January 31, 2028, with Vantage paying the full cost.",
+ "significance": "The deal removes the main environmental litigation cloud over one of the largest data center projects in the Midwest without disturbing its permits, a template other developers facing environmental-review suits may try to follow. At the same time, a state-level cumulative-impact study of data centers, funded by a developer, could shape how the DNR reviews future campuses, power infrastructure and wetland impacts, and the Sierra Club says it still expects project-level impact statements where warranted.",
+ "judge": null,
+ "tags": [
+  "data centers",
+  "environmental review",
+  "wepa",
+  "wisconsin",
+  "settlement"
+ ]
+}

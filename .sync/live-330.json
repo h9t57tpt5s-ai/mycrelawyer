@@ -1,0 +1,22 @@
+{
+ "id": "live-330",
+ "title": "BSC Realty Services, LLC v. Valcourt Building Services of Georgia, L.C.: Georgia Appeals Court Revives Building Manager's Indemnity Claim Over Rooftop Cooling-Tower Fall",
+ "category": "premises-liability",
+ "status": "ruling",
+ "date": "2026-10-19",
+ "jurisdiction": "Court of Appeals of Georgia, Fourth Division",
+ "state": "GA",
+ "amount": "Contractual defense and indemnity",
+ "source": "live",
+ "source_url": "https://www.courtlistener.com/opinion/11038260/bsc-realty-services-llc-v-valcourt-building-services-of-georgia-lc/",
+ "summary": "On October 19, 2026, the Court of Appeals of Georgia reversed a summary judgment that had released exterior-maintenance contractor Valcourt Building Services of Georgia, L.C. from its duty to indemnify building manager BSC Realty Services, LLC. The underlying claim comes from a worker hurt when a cooling-tower fan he was pressure washing on top of a commercial building began turning and knocked him off a ladder. The contract excused indemnity only for liability arising from the 'sole negligence' of the owner or manager. Because the evidence conflicts on whether the fan was re-energized, the court held that fact issues prevent summary judgment.",
+ "significance": "Owners and managers often rely on contractor indemnity clauses that exclude only their own 'sole negligence.' This ruling shows that a contractor cannot escape the clause on summary judgment when circumstantial evidence leaves the cause of an accident disputed. It also shows how lost records hurt: the building-automation logs that would have shown when power was cut were not kept, and that led to a spoliation ruling in the injury case.",
+ "judge": null,
+ "tags": [
+  "indemnification",
+  "building manager",
+  "contractor",
+  "premises liability",
+  "georgia"
+ ]
+}
