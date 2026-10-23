@@ -31,6 +31,7 @@ CREdocket (credocket.com) is a commercial real estate (CRE) litigation intellige
  "state": "<two-letter code>",
  "amount": "<short human phrase, e.g. '$40 million mortgage' or 'Injunctive relief'>",
  "sourceUrl": "<the best primary or most authoritative source you opened>",
+ "brief": "<one or two sentences, 60-260 characters, shown above the write-up on tracker cards: who, what happened, the stake (property and dollar amount if stated). A reader scanning the tracker should know from this alone whether the case matters to them. Only facts and figures from this entry; don't repeat the title.>",
  "summary": "<2-4 sentences: what happened>",
  "significance": "<2-4 sentences: why it matters to CRE owners, lenders, tenants or investors>",
  "body": ["<4-6 plain-prose paragraphs, no markdown, ~500-700 words total: the facts, the legal issue, procedural posture, and a final paragraph of practical takeaways written as prose>"],

@@ -351,7 +351,8 @@
           </span>
         </div>
         <h3><a class="case-link" href="/matters/${c.id}.html">${c.title}</a></h3>
-        <p class="summary">${c.summary}</p>
+        ${c.brief ? `<p class="case-brief">${c.brief}</p>` : ""}
+        <p class="summary${c.brief ? " summary-sub" : ""}">${c.summary}</p>
         ${c.amount ? `<div class="detail-tag" style="display:inline-block; margin-bottom:14px;">${c.amount}</div>` : ""}
         <div class="case-card-meta">
           <span${dateTitleAttr}>${formatDate(c.date)}</span>
@@ -1094,6 +1095,7 @@
           <div><div class="label">Status</div><div class="value">${status.label}</div></div>
         </div>
         <div id="detail-summary-block">
+          ${c.brief ? `<p class="case-brief case-brief-lg">${c.brief}</p>` : ""}
           <p class="body-text">${c.summary}</p>
           <h3 style="margin-bottom:10px;">Why it matters</h3>
           <p class="body-text">${c.significance}</p>

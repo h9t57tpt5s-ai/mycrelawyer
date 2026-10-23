@@ -79,7 +79,14 @@ cover the whole market instead of repeating the same national searches:
 
 ## Search titles (added 2026-10-14)
 
-Give every new matter three more keys, placed right after `id`:
+Give every new matter these keys too (`brief` right after `title`; the other three right after `id`):
+- `brief` (added 2026-10-23; required by scripts/check_case_fields.py): one or
+  two sentences, 60-260 characters, placed right after `title`, shown above
+  the write-up on tracker cards so readers can scan. Who, what happened, the
+  stake (property and dollar amount if stated). Only facts and figures
+  already in the matter's own summary; don't repeat the title. Shape:
+  "[Lender] sued to foreclose a $[amount] loan on [property] in [city],
+  saying [borrower] defaulted after [event]."
 - `seoTitle` (65 characters or fewer): what people search for first (the
   building or street address, the well-known company, sponsor or lender, or
   the city or county in a zoning or condemnation fight), then what happened in

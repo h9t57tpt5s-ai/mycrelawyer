@@ -20,7 +20,7 @@ type Party = { name: string; role: string };
 type Case = {
   id: string; title: string; category: string; status: string; date: string; addedDate?: string;
   jurisdiction: string; state?: string; amount?: string; source?: string; sourceUrl?: string;
-  summary: string; significance?: string; tags?: string[]; docketUrl?: string; docketLabel?: string;
+  summary: string; brief?: string; significance?: string; tags?: string[]; docketUrl?: string; docketLabel?: string;
   documentUrl?: string; documentLabel?: string; propertyType?: string; judge?: string | null;
   parties?: Party[]; body?: string[]; timeline?: unknown[];
   seoTitle?: string; seoDescription?: string;
@@ -266,6 +266,7 @@ function mainFor(c: Case): string {
       ${parties ? `<div style="grid-column:1 / -1;"><div class="label">Parties</div><div class="value matter-parties">${parties}</div></div>` : ""}
     </div>
 
+    ${c.brief ? `<p class="case-brief case-brief-lg">${c.brief}</p>` : ""}
     <p class="body-text">${c.summary}</p>
     ${c.significance ? `<h2 class="matter-h2">Why it matters</h2>\n    <p class="body-text">${c.significance}</p>` : ""}
     <div id="matter-corrections" data-matter-id="${esc(c.id)}"></div>

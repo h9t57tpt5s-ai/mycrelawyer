@@ -27,7 +27,10 @@ DATA = ROOT / "js" / "data.js"
 CATEGORIES = {"landlord-tenant", "zoning-land-use", "reit-securities", "construction-defect", "lending-foreclosure",
               "environmental", "eminent-domain", "lease-disputes", "premises-liability"}
 STATUSES = {"filed", "pending", "ruling", "settled", "appeal"}
-ORDER = ["id", "seoTitle", "seoDescription", "property", "addedDate", "title", "category", "status", "date", "jurisdiction", "state", "amount", "source", "sourceUrl",
+# `brief`: the one-to-two-sentence scan line shown above the write-up on
+# tracker cards (Jeff, 2026-10-23). Who, what happened, the stake.
+BRIEF_MIN, BRIEF_MAX = 60, 260
+ORDER = ["id", "seoTitle", "seoDescription", "property", "addedDate", "title", "brief", "category", "status", "date", "jurisdiction", "state", "amount", "source", "sourceUrl",
          "docketUrl", "docketLabel", "propertyType", "summary", "significance", "body", "tags", "parties", "judge",
          "amountUsd", "amountBasis", "timeline"]
 
@@ -41,9 +44,11 @@ def existing():
 
 def problems(m, cases):
     p = []
-    for k in ("title", "category", "status", "date", "jurisdiction", "sourceUrl", "summary", "significance", "body", "tags"):
+    for k in ("title", "brief", "category", "status", "date", "jurisdiction", "sourceUrl", "summary", "significance", "body", "tags"):
         if not m.get(k):
             p.append(f"missing {k}")
+    if m.get("brief") and not BRIEF_MIN <= len(m["brief"]) <= BRIEF_MAX:
+        p.append(f"brief must be {BRIEF_MIN}-{BRIEF_MAX} characters (one or two sentences), got {len(m['brief'])}")
     if m.get("category") not in CATEGORIES:
         p.append(f"unknown category {m.get('category')!r}")
     if m.get("status") not in STATUSES:

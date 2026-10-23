@@ -547,6 +547,12 @@ h3, .h3 {
 .case-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px 12px; flex-wrap: wrap; }
 .case-card h3 { font-size: 1.15rem; }
 .case-card .summary { font-size: 14px; color: var(--text-secondary); line-height: 1.6; flex-grow: 1; }
+/* One-to-two-sentence scan line above the write-up (Jeff, 2026-10-23:
+   readers should see what a case is about without reading the paragraph). */
+.case-brief { font-size: 15px; font-weight: 500; color: var(--text-primary); line-height: 1.5; margin: 0 0 10px; }
+.case-brief-lg { font-size: 17px; margin-bottom: 16px; }
+.case-card .summary.summary-sub { font-size: 13px; line-height: 1.55; }
+.update-content .summary.summary-sub { font-size: 13px; line-height: 1.55; }
 .case-card-meta { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; font-size: 12px; color: var(--text-muted); font-family: var(--font-mono); padding-top: 14px; border-top: 1px solid var(--border-soft); }
 .case-card-meta span:first-child { flex-shrink: 0; white-space: nowrap; }
 .case-card-meta span:last-child { text-align: right; }

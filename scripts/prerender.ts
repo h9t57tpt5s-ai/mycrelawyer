@@ -9,7 +9,7 @@
 
 type Case = {
   id: string; title: string; category: string; status: string; date: string; addedDate?: string;
-  jurisdiction: string; state?: string; amount?: string; source?: string; summary: string;
+  jurisdiction: string; state?: string; amount?: string; source?: string; summary: string; brief?: string;
   significance?: string; tags?: string[]; docketUrl?: string; featured?: boolean; propertyType?: string;
   judge?: string | null; amountUsd?: number | null; parties?: { name: string; role: string }[];
 };
@@ -48,7 +48,8 @@ function caseCard(c: Case): string {
           </span>
         </div>
         <h3><a class="case-link" href="/matters/${esc(c.id)}.html">${c.title}</a></h3>
-        <p class="summary">${c.summary}</p>
+        ${c.brief ? `<p class="case-brief">${c.brief}</p>` : ""}
+        <p class="summary${c.brief ? " summary-sub" : ""}">${c.summary}</p>
         ${c.amount ? `<div class="detail-tag" style="display:inline-block; margin-bottom:14px;">${esc(c.amount)}</div>` : ""}
         <div class="case-card-meta">
           <span${dateTitle}>${fmtDate(c.date)}</span>

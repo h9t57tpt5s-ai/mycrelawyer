@@ -17,6 +17,11 @@ import subprocess
 import sys
 
 REQUIRED_FROM = "2026-10-01"
+# Every matter carries `brief`, the one-to-two-sentence scan line shown
+# above the write-up on tracker cards (Jeff, 2026-10-23: readers should see
+# what a case is about without reading the paragraph). Who, what happened,
+# the stake; only facts and figures already in the matter's own text.
+BRIEF_MIN, BRIEF_MAX = 60, 260
 BASES = {"loan", "damages sought", "judgment", "award", "settlement", "claim", "purchase price", "other"}
 DATA = pathlib.Path(__file__).resolve().parent.parent / "js" / "data.js"
 
@@ -70,6 +75,11 @@ def check(cases):
     for c in cases:
         cid = c.get("id", "?")
         added = c.get("addedDate") or ""
+        brief = c.get("brief")
+        if not brief:
+            problems.append(f"{cid}: missing `brief` -- add a one-to-two-sentence scan line ({BRIEF_MIN}-{BRIEF_MAX} characters, right after `title`): who, what happened, the stake, using only facts and figures already in the summary")
+        elif not BRIEF_MIN <= len(brief) <= BRIEF_MAX:
+            problems.append(f"{cid}: `brief` is {len(brief)} characters; keep it to one or two sentences, {BRIEF_MIN}-{BRIEF_MAX} characters")
         if added >= REQUIRED_FROM:
             for key in ("parties", "judge", "amountUsd"):
                 if key not in c:

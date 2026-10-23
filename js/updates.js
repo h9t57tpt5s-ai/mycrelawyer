@@ -55,7 +55,8 @@
         <span class="update-dot" style="background:${cat.color}"></span>
         <div class="update-content">
           <h3>${c.title}</h3>
-          <p class="summary">${c.summary}</p>
+          ${c.brief ? `<p class="case-brief">${c.brief}</p>` : ""}
+          <p class="summary${c.brief ? " summary-sub" : ""}">${c.summary}</p>
           <div class="update-meta-row">
             <span class="badge" style="background:color-mix(in srgb, ${cat.color} 16%, transparent); color:${cat.color}; border:1px solid color-mix(in srgb, ${cat.color} 35%, transparent);">
               <span class="badge-dot" style="background:${cat.color}"></span>${cat.label}
