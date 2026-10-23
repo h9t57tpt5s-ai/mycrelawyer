@@ -611,6 +611,46 @@
   "opinion:11043093": {
    "at": "2026-10-22",
    "action": "skipped: residential mortgage foreclosure appeal, individual defendant (Grace M. Doberdruk)"
+  },
+  "opinion:11043313": {
+   "at": "2026-10-23",
+   "action": "skipped: individual pro se defendant credit-card debt appeal (Bank of America v. Hambrick), not commercial real estate despite foreclos/mortgage keyword match"
+  },
+  "opinion:11043300": {
+   "at": "2026-10-23",
+   "action": "skipped: taxpayer competitive-bidding challenge to a school district lease-leaseback construction deal (Davis v. Fresno Unified School Dist.), not a commercial real estate business dispute on its face"
+  },
+  "0001193125-26-428988:gty-20260930.htm": {
+   "at": "2026-10-23",
+   "action": "skipped: boilerplate recurring disclosure of 2017-2018 Occidental/MTBE environmental contamination litigation in Getty Realty 10-Q, no new development this filing"
+  },
+  "https://www.courtlistener.com/docket/75008237/us-bank-trust-company-national-association-v-san-luis-facility/": {
+   "at": "2026-10-23",
+   "action": "skipped: no coverage found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/75007269/us-bank-national-association-v-cedar-tower-llc/": {
+   "at": "2026-10-23",
+   "action": "skipped: no coverage found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/75007621/jwb-properties-llc-v-us-foods-inc/": {
+   "at": "2026-10-23",
+   "action": "skipped: no coverage found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/75007352/hord-coplan-macht-inc-v-55-resort-apartments-at-centerra-llc/": {
+   "at": "2026-10-23",
+   "action": "skipped: no coverage found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/75007599/gulfstream-towers-holding-company-llc-v-flagler-county/": {
+   "at": "2026-10-23",
+   "action": "skipped: no coverage found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/75006483/find-the-value-llc-v-cell-tower-lease-acquisition-llc/": {
+   "at": "2026-10-23",
+   "action": "skipped: no reporting found; small-party cell tower lease dispute, no major named player"
+  },
+  "https://www.courtlistener.com/docket/75008036/cwa-properties-llc-v-covington-specialty-insurance-company/": {
+   "at": "2026-10-23",
+   "action": "skipped: no reporting found; small-party insurance coverage dispute"
   }
  }
 }
