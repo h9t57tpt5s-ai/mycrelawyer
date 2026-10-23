@@ -625,6 +625,32 @@
    },
    "checkAfter": "2026-10-30",
    "status": "watching"
+  },
+  {
+   "id": "imp-029",
+   "date": "2026-10-23",
+   "track": "subscription",
+   "title": "Built procurement.html, a consolidated security/retention/cancellation summary for procurement reviewers",
+   "why": "Every goal already had an open watching entry this run (traffic: imp-009; conversion: imp-020/imp-022; calculator: imp-011/imp-016/imp-025/imp-026/imp-028; subscription: imp-015; news: imp-017), so per the one-open-experiment-per-goal backlog rule this run worked something not measured by a goal metric. Only 2 genuinely new, eligible matters existed for a social-drafts refresh (drafted anyway in ops/social-drafts/2026-10-23.md), so audited the subscription-readiness checklist in ops/improvement-playbook.md against the live site before picking work, since subscription hasn't had a tracked change in 6 days. Found checklist items 2 (data-sources/accuracy), 4 (monitoring reliability shown publicly) and 5 (coverage depth by state/court) already substantially satisfied by pre-existing coverage.html and alert-log.html. Item 3 (procurement terms: security/privacy summary, data retention, how to cancel; no prices) was genuinely incomplete -- the facts existed but were scattered across data-security.html, privacy.html and terms.html with no single page a procurement or compliance reviewer could be handed.",
+   "files": [
+    "procurement.html",
+    "data-security.html",
+    "alert-log.html",
+    "about.html",
+    "sitemap.xml",
+    "ops/social-drafts/2026-10-23.md",
+    "ops/improvement-playbook.md",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "1e96aaed5b14f8ee6d62d2797bf639d0b6b14ad6",
+   "metric": "No dedicated subscription metric exists (same gap imp-015 noted); logged against conversion.metrics.signUps7/contactSends7 as a weak proxy, same as imp-015. A more honest secondary signal: whether procurement.html appears in a future last7Days.topPages snapshot at all.",
+   "window": "7 days",
+   "baseline": {
+    "signUps7": 0,
+    "contactSends7": 0
+   },
+   "checkAfter": "2026-10-30",
+   "status": "watching"
   }
  ]
 }
