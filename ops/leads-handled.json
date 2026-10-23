@@ -651,6 +651,10 @@
   "https://www.courtlistener.com/docket/75008036/cwa-properties-llc-v-covington-specialty-insurance-company/": {
    "at": "2026-10-23",
    "action": "skipped: no reporting found; small-party insurance coverage dispute"
+  },
+  "opinion:11043619": {
+   "at": "2026-10-23",
+   "action": "skipped: residential manufactured-housing-community premises-liability case (individual tenant slip-and-fall), not commercial real estate"
   }
  }
 }

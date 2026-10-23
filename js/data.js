@@ -3062,7 +3062,7 @@ const RELAW_DATA = {
       addedDate: "2026-09-09",
       title: "Four Mile Capital LLC v. Reynolds South Tower LLC (River's Edge at Manchester Construction-Defect Fraud Suit)",
       category: "construction-defect",
-      status: "pending",
+      status: "ruling",
       date: "2026-08-07",
       jurisdiction: "Richmond Circuit Court, Virginia",
       parties: [
@@ -3076,7 +3076,7 @@ const RELAW_DATA = {
       amount: "$40M+",
       source: "live",
       sourceUrl: "https://richmondbizsense.com/2026/08/17/water-leaks-at-manchester-apartments-lead-to-40m-lawsuit-between-developer-current-owner/",
-      summary: "Four Mile Capital, which bought the 212-unit River's Edge at Manchester apartment building in Richmond for nearly $50M in 2021, sued developer Reynolds South Tower LLC and principals Guy Blundon and Mark Purcell in Richmond Circuit Court in May 2025, alleging fraud, breach of contract, negligence, and business conspiracy over water leaks a 2023 investigation attributed to a building envelope not built to its design, including missing waterproof sheathing Four Mile says it was told had been installed. At an August 7 hearing, the defense moved to dismiss the fraud counts, arguing Four Mile was not misled; Chief Judge Jacqueline S. McClenney said she expects to rule within a few weeks.",
+      summary: "Four Mile Capital, which bought the 212-unit River's Edge at Manchester apartment building in Richmond for nearly $50M in 2021, sued developer Reynolds South Tower LLC and principals Guy Blundon and Mark Purcell in Richmond Circuit Court in May 2025, alleging fraud, breach of contract, negligence, and business conspiracy over water leaks a 2023 investigation attributed to a building envelope not built to its design, including missing waterproof sheathing Four Mile says it was told had been installed. At an August 7 hearing, the defense moved to dismiss the fraud counts, arguing Four Mile was not misled; Chief Judge Jacqueline S. McClenney said she expects to rule within a few weeks. On October 21, 2026, the court largely denied the motion to dismiss, allowing the fraud and related claims to proceed, according to Richmond BizSense.",
       significance: "Tests how far a seller's negotiated post-closing repair commitment for a known defect can survive scrutiny once an independent investigation reveals the underlying construction problem was materially different, and larger, than represented at the time of sale. Buyers who accept a repair arrangement in lieu of a price reduction for a known issue should treat the case as a guide to preserving a later fraud claim if the seller's account of the defect's cause proves false.",
       body: [
         "A $40 million dispute between the developer of a Richmond riverfront apartment tower and the investment firm that bought it is now before the Richmond Circuit Court, testing how far a seller's post-closing repair promises can shield it from a fraud claim once the underlying defects turn out to run deeper than disclosed. Four Mile Capital, the Denver-based investment firm that paid nearly $50 million in 2021 for River's Edge at Manchester, a 212-unit riverfront apartment building at 505 Porter Street in Richmond, Virginia, is asking the court to let a fraud claim against the building's developer proceed to trial. The developer, Reynolds South Tower LLC, an entity associated with Guy Blundon of CMB Development and Mark Purcell of Purcell Construction Corp., is fighting to have that fraud count dismissed, arguing at an August 7 hearing that Four Mile was never misled about the condition of the building it bought.",
@@ -3086,7 +3086,11 @@ const RELAW_DATA = {
         "For buyers of existing multifamily assets, the case is a reminder to document precisely what representations a seller makes about the underlying cause and construction of a known defect whenever a repair commitment is negotiated in lieu of a price reduction or holdback, since a promise to fix the problem does not necessarily waive a later fraud claim if the seller's account of the defect's cause turns out to be false. Commissioning an independent forensic investigation promptly once negotiated repairs stall or fail to resolve a recurring issue can be decisive both for quantifying damages and for establishing that a construction-method misrepresentation, rather than merely a disclosed defect, is what is actually being litigated, and sellers extending post-closing repair support for a known issue should recognize that continuing that support, rather than disclosing its full scope up front, will not necessarily insulate them from fraud exposure if the underlying defect proves more extensive than represented at the time of sale."
       ],
       tags: ["construction defect", "fraud", "virginia", "multifamily", "richmond"],
-      judge: "Jacqueline S. McClenney"
+      judge: "Jacqueline S. McClenney",
+      timeline: [
+        { when: "August 7, 2026", label: "Richmond Circuit Court hears argument on defendants' motion to dismiss the fraud count" },
+        { when: "October 21, 2026", label: "Richmond Circuit Court largely denies the motion to dismiss, allowing the fraud, breach of contract, negligence and business conspiracy claims to proceed", current: true }
+      ]
     },
     {
       id: "live-091",
