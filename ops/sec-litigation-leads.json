@@ -1,7 +1,28 @@
 {
- "updatedAt": "2026-10-23T17:52:11+00:00",
+ "updatedAt": "2026-10-23T22:06:54+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001574197-26-000035:fph-20260930.htm",
+   "company": "Five Point Holdings, LLC  (FPH)",
+   "cik": "1574197",
+   "sic": "6500",
+   "form": "10-Q",
+   "filed": "2026-10-23",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1574197/000157419726000035/fph-20260930.htm",
+   "phrases": [
+    "putative class action"
+   ],
+   "excerpts": [
+    "At each of September 30, 2026 and December 31, 2025, the Company had restricted cash and certificates of deposit of $ 1.0 million pledged as collateral under certain of the letters of credit agreements. Legal Proceedings Hunters Point Litigation In May 2018, residents of the Bayview Hunters Point neighborhood in San Francisco filed a putative class action in San Francisco Superior Court naming Tetra Tech, Inc. and Tetra Tech EC, Inc., an independent contractor hired by the U.S. Navy to conduct testing and remediation of toxic radiological waste at The San Francisco Shipyard (\u201cTetra Tech\u201d), Lennar and the Company as defendants (the \u201cBayview Action\u201d). The plaintiffs allege that, among other things, Tetra Tech fraudulently misrepresented its test results and remediation efforts."
+   ],
+   "captions": [],
+   "courts": [
+    "Superior Court"
+   ],
+   "firstSeen": "2026-10-23"
+  },
   {
    "key": "0001193125-26-428988:gty-20260930.htm",
    "company": "GETTY REALTY CORP /MD/  (GTY)",
