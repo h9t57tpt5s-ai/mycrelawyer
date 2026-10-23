@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T14:35:50+00:00",
+ "updatedAt": "2026-10-23T14:20:12+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
  "requestsUsed": 21,
  "errors": [],
@@ -16,7 +16,15 @@
    "lastEntryDate": null
   },
   "66581116": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-10-22",
+     "number": 173,
+     "text": "Order AND ~Util - Set Deadlines/Hearings AND ~Util - Terminate Motions",
+     "url": "https://www.courtlistener.com/docket/66581116/173/dillard-store-services-inc-v-winrock-partners-llc/",
+     "ruling": false
+    }
+   ],
    "caseIds": [
     "live-101"
    ],
@@ -24,7 +32,7 @@
    "docketNumber": "1:22-cv-00921",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/66581116/dillard-store-services-inc-v-winrock-partners-llc/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-10-22"
   },
   "66730007": {
    "entries": [],
@@ -266,6 +274,20 @@
   "69353264": {
    "entries": [
     {
+     "date": "2026-10-22",
+     "number": 45,
+     "text": "Joint Discovery Plan",
+     "url": "https://www.courtlistener.com/docket/69353264/45/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-22",
+     "number": 44,
+     "text": "Joint Discovery Plan",
+     "url": "https://www.courtlistener.com/docket/69353264/44/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-21",
      "number": 43,
      "text": "Order on Motion for Magistrate Judge",
@@ -306,20 +328,6 @@
      "text": "Amended Document (NOT Motion/Complaint)",
      "url": "https://www.courtlistener.com/docket/69353264/39/ayer-v-lightstone-value-plus-reit-i-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-24",
-     "number": null,
-     "text": "Notice of Pro Hac Vice counsel added",
-     "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-23",
-     "number": 38,
-     "text": "Notice of Pro Hac Vice to Receive NEF",
-     "url": "https://www.courtlistener.com/docket/69353264/38/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -329,7 +337,7 @@
    "docketNumber": "3:24-cv-10371",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
-   "lastEntryDate": "2026-10-21"
+   "lastEntryDate": "2026-10-22"
   },
   "69518085": {
    "entries": [
@@ -533,6 +541,20 @@
   "71964352": {
    "entries": [
     {
+     "date": "2026-10-22",
+     "number": 58,
+     "text": "Proposed Order - Proposed Civil Case Management Plan and Scheduling Order",
+     "url": "https://www.courtlistener.com/docket/71964352/58/1/realpage-inc-v-james/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-22",
+     "number": 58,
+     "text": "Letter",
+     "url": "https://www.courtlistener.com/docket/71964352/58/realpage-inc-v-james/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-13",
      "number": 57,
      "text": "Memorandum of Law in Support of Motion",
@@ -573,20 +595,6 @@
      "text": "Affidavit Declaration of Iason Togias",
      "url": "https://www.courtlistener.com/docket/71964352/53/1/realpage-inc-v-james/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 53,
-     "text": "Withdraw as Attorney",
-     "url": "https://www.courtlistener.com/docket/71964352/53/realpage-inc-v-james/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 52,
-     "text": "Memorandum & Opinion AND ~Util - Set Deadlines/Hearings",
-     "url": "https://www.courtlistener.com/docket/71964352/52/realpage-inc-v-james/",
-     "ruling": true
     }
    ],
    "caseIds": [
@@ -596,7 +604,7 @@
    "docketNumber": "1:25-cv-09847",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/71964352/realpage-inc-v-james/",
-   "lastEntryDate": "2026-10-13"
+   "lastEntryDate": "2026-10-22"
   },
   "72081019": {
    "entries": [
@@ -663,6 +671,13 @@
   "73186724": {
    "entries": [
     {
+     "date": "2026-10-22",
+     "number": null,
+     "text": "Order on Motion for Extension of Time to File Response/Reply AND Set/Reset Deadlines",
+     "url": "https://www.courtlistener.com/docket/73186724/district-of-columbia-v-razjooyan/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-20",
      "number": 57,
      "text": "Extension of Time to File Response/Reply",
@@ -710,13 +725,6 @@
      "text": "Exhibit 3: Browning Declaration",
      "url": "https://www.courtlistener.com/docket/73186724/54/3/district-of-columbia-v-razjooyan/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-17",
-     "number": 54,
-     "text": "Exhibit 2: Hamilton Declaration and Exhibits",
-     "url": "https://www.courtlistener.com/docket/73186724/54/2/district-of-columbia-v-razjooyan/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -726,7 +734,7 @@
    "docketNumber": "1:26-cv-01210",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73186724/district-of-columbia-v-razjooyan/",
-   "lastEntryDate": "2026-10-20"
+   "lastEntryDate": "2026-10-22"
   },
   "73409172": {
    "entries": [
@@ -1126,6 +1134,13 @@
   "74638795": {
    "entries": [
     {
+     "date": "2026-10-22",
+     "number": 8,
+     "text": "Notice of Appearance",
+     "url": "https://www.courtlistener.com/docket/74638795/8/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-21",
      "number": 7,
      "text": "Leave to File Document",
@@ -1173,13 +1188,6 @@
      "text": "Corporate Disclosure Statement (aty)",
      "url": "https://www.courtlistener.com/docket/74638795/3/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-14",
-     "number": null,
-     "text": "QC - Fillable PDF",
-     "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1189,7 +1197,7 @@
    "docketNumber": "3:26-cv-10200",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-   "lastEntryDate": "2026-10-21"
+   "lastEntryDate": "2026-10-22"
   },
   "74701388": {
    "entries": [],
@@ -1524,6 +1532,20 @@
   "74952112": {
    "entries": [
     {
+     "date": "2026-10-22",
+     "number": 14,
+     "text": "Vacate",
+     "url": "https://www.courtlistener.com/docket/74952112/14/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-22",
+     "number": null,
+     "text": "Order on Motion to Vacate",
+     "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-21",
      "number": 13,
      "text": "Notice of Attorney Appearance",
@@ -1564,20 +1586,6 @@
      "text": "Notice of Attorney Appearance",
      "url": "https://www.courtlistener.com/docket/74952112/8/city-of-san-antonio-v-mullin/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 7,
-     "text": "Request for Issuance of Summons",
-     "url": "https://www.courtlistener.com/docket/74952112/7/city-of-san-antonio-v-mullin/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 6,
-     "text": "Order Referring Case to Magistrate Judge",
-     "url": "https://www.courtlistener.com/docket/74952112/6/city-of-san-antonio-v-mullin/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1587,7 +1595,7 @@
    "docketNumber": "5:26-cv-06542",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
-   "lastEntryDate": "2026-10-21"
+   "lastEntryDate": "2026-10-22"
   }
  },
  "events": [
