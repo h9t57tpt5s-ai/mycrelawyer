@@ -17,3 +17,6 @@ __pycache__/
 # `private_case_citations` table only, never in this repo again.
 case_valuation_project/data/claim_citations*.json
 case_valuation_project/data/research/
+
+# Scratch files for the local scheduled tasks (newsroom, citation harvest)
+.task-tmp/
