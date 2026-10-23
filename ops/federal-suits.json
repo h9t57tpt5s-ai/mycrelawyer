@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-10-23T00:54:38+00:00",
+ "updatedAt": "2026-10-23T15:56:23+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Gulfstream Towers Holding Company LLC v. Flagler County",
+   "court": "District Court, M.D. Florida",
+   "courtId": "flmd",
+   "docketNumber": "3:26-cv-02902",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75010384/gulfstream-towers-holding-company-llc-v-flagler-county/",
+   "docketId": 75010384,
+   "suitNature": "890 Other Statutory Actions",
+   "cause": "47:0605 Federal Communications Act",
+   "slug": "gulfstream-towers-holding-company-llc-v-flagler-county-flmd-3-26-cv-02902",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "U.S. Bank Trust Company National Association v. San Luis Facility Development Corporation",
    "court": "District Court, D. Arizona",
