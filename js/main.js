@@ -422,7 +422,7 @@
     const a = RELAW_DATA.author;
     return `<div class="byline-row">
       <div class="byline-avatar">${a.initials}</div>
-      <div class="byline-text">By <a href="${a.bioUrl}">${a.name}</a>, ${a.title}</div>
+      <div class="byline-text">By <a href="${/^(https?:)?\/\//.test(a.bioUrl) || a.bioUrl.startsWith("/") ? a.bioUrl : "/" + a.bioUrl}">${a.name}</a>, ${a.title}</div>
     </div>`;
   }
   window.RELAW_UTILS.bylineHtml = typeof RELAW_DATA !== "undefined" ? bylineHtml : null;

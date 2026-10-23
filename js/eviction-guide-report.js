@@ -193,7 +193,16 @@
     y += 76;
     body("Jeff has spent over two decades trying commercial real estate disputes in state and federal courtrooms, and before arbitration panels, nationwide. He represents developers, retailers, and multifamily owners and managers in landlord-tenant and lease disputes — including commercial evictions and forcible detainer actions — construction and contractor claims, and purchase-and-sale and title fights.", { size: 9.5, color: MUTED, gap: 10 });
     body("That trial experience — including the self-help lockouts, notice defects, and possession fights this handbook covers — shapes the practical, state-specific guidance in it.", { size: 9.5, color: MUTED, gap: 10 });
-    body("Full bio & recent analysis: credocket.com/author-jeff-novel.html", { size: 9, color: MUTED, gap: 14 });
+    // A real link annotation with the full https address (Jeff, 2026-10-23:
+    // the bio line on the last page did not open the bio). As plain text,
+    // each PDF viewer guessed at the link itself, and some guessed wrong.
+    addPageIfNeeded(28);
+    doc.setFont("helvetica", "normal"); doc.setFontSize(9); doc.setTextColor(MUTED);
+    const bioLabel = "Full bio & recent analysis: ";
+    doc.text(bioLabel, marginX, y);
+    doc.setTextColor(NAVY);
+    doc.textWithLink("credocket.com/author-jeff-novel.html", marginX + doc.getTextWidth(bioLabel), y, { url: "https://credocket.com/author-jeff-novel.html" });
+    y += 28;
     rule();
 
     heading("About CREdocket", 13);
