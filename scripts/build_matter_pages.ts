@@ -233,6 +233,15 @@ function mainFor(c: Case): string {
   const sameState = c.state ? related(c, (x) => x.state === c.state && !sameCat.includes(x), 5) : [];
   const recent = data.cases.filter((x) => x.id !== c.id)
     .sort((a, b) => ((b.addedDate || b.date) > (a.addedDate || a.date) ? 1 : -1)).slice(0, 5);
+  // "Read next" (2026-10-23): 7.6% of visits saw a second page in the
+  // week to Oct. 22 -- most land here from search, read, and leave, and
+  // the related lists sat at the very bottom under five sign-up boxes.
+  // Three related matters with their one-line briefs now follow the
+  // write-up directly: same parties first, then same practice area in the
+  // same state, then same practice area.
+  const sameCatState = c.state ? related(c, (x) => x.category === c.category && x.state === c.state, 3) : [];
+  const readNext = [...new Map([...shared.flatMap((p) => p.others), ...sameCatState, ...sameCat]
+    .map((x) => [x.id, x] as [string, Case])).values()].slice(0, 3);
   const first = c.body && c.body.length ? c.body[0] : "";
   const tl = (c.timeline || []) as { when: string; label: string; current?: boolean }[];
   const latest = tl.length ? (tl.find((ev) => ev.current) || tl[tl.length - 1]) : null;
@@ -273,6 +282,14 @@ function mainFor(c: Case): string {
     ${sources ? `<div class="matter-sources">${sources}</div>` : ""}
     ${(topicIndex[c.id] || []).map((t) => `<p class="matter-entity-link">Part of the <a href="/${esc(t.slug)}.html">${esc(t.name)}</a>: every related matter in one table.</p>`).join("\n    ")}
     ${recordLink}
+    ${readNext.length ? `<div class="matter-read-next">
+      <div class="eyebrow">Read next</div>
+      ${readNext.map((x) => `<a class="read-next-item" href="/matters/${esc(x.id)}.html">
+        <span class="read-next-title">${esc(plain(x.title))}</span>
+        ${x.brief ? `<span class="read-next-brief">${esc(x.brief)}</span>` : ""}
+        <span class="read-next-meta">${esc(cat(x.category).label)} · ${esc(fmtDate(x.date))}</span>
+      </a>`).join("")}
+    </div>` : ""}
 
     <div id="matter-court" data-docket-url="${esc(c.docketUrl || "")}" data-matter-id="${esc(c.id)}"></div>
 

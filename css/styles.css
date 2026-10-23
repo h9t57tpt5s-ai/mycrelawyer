@@ -1784,6 +1784,15 @@ h3, .h3 {
 .matter-related a { color: var(--text-primary); font-weight: 500; min-width: 0; }
 .matter-related a:hover { color: var(--accent-deep); }
 .matter-related span { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); white-space: nowrap; }
+/* "Read next" right after the write-up on matter pages (2026-10-23). */
+.matter-read-next { margin: 28px 0 8px; padding: 20px 22px; border: 1px solid var(--border-soft); border-radius: 14px; background: var(--bg-elevated, #fff); }
+.matter-read-next .eyebrow { margin-bottom: 6px; }
+.read-next-item { display: block; padding: 12px 0; border-bottom: 1px solid var(--border-soft); color: inherit; text-decoration: none; }
+.read-next-item:last-child { border-bottom: 0; padding-bottom: 2px; }
+.read-next-title { display: block; font-weight: 600; font-size: 15px; line-height: 1.4; color: var(--text-primary); }
+.read-next-item:hover .read-next-title { color: var(--accent-deep); }
+.read-next-brief { display: block; font-size: 13.5px; line-height: 1.5; color: var(--text-secondary); margin-top: 4px; }
+.read-next-meta { display: block; font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-top: 6px; text-transform: uppercase; letter-spacing: 0.04em; }
 .matter-foot { font-size: 12.5px; line-height: 1.6; margin-top: 36px; }
 .matter-header { padding-bottom: 20px; }
 .matter-header + .section-tight { padding-top: 8px; }
