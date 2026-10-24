@@ -688,6 +688,23 @@
    },
    "checkAfter": "2026-10-31",
    "status": "watching"
+  },
+  {
+   "id": "imp-031",
+   "date": "2026-10-24",
+   "track": "traffic",
+   "title": "Refreshed LinkedIn drafts in ops/social-drafts/ (backlog G5)",
+   "why": "Every goal already has an open watching entry in the log (traffic: imp-009; conversion: imp-020/imp-022; calculator: imp-011/imp-025/imp-026/imp-028; subscription: imp-029; news: imp-030), and site_audit.py --print was clean (no breakage), so per the \"one open experiment per goal\" backlog rule this run worked a backlog item not measured by a goal metric instead of shipping a new tracked page/code change. 10 new matters (live-324 through live-333) had been added since the last social-drafts refresh (imp-029, 2026-10-23, covered through live-323). Drafted 4 posts in ops/social-drafts/2026-10-24.md from the most compelling and diverse eligible stories (Twitter/X Corp's Boulder office-lease rent-judgment reversal, Vantage Data Centers' 5B Wisconsin data-center permit settlement, a New Hampshire eminent-domain jury verdict, and a Ninth Circuit insurance fortuity-doctrine ruling), all facts copied verbatim from the published matter write-ups in js/data.js. Skipped live-332 (Duffy v. Yardi Systems, Inc.) because its caption names an individual plaintiff from the court record, the same exclusion rule imp-018/023/027/029 already applied.",
+   "files": [
+    "ops/social-drafts/2026-10-24.md",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "da93935ee5800e1ee672da906d5a0dbb73087f85",
+   "metric": "none -- a draft for Jeff, same as imp-018/023/027",
+   "window": "n/a",
+   "baseline": {},
+   "checkAfter": "n/a",
+   "status": "no-op"
   }
  ]
 }
