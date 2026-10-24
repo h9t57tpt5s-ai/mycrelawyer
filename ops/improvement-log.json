@@ -364,7 +364,15 @@
     "contactSends7": 0
    },
    "checkAfter": "2026-10-24",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-24",
+    "value": {
+     "signUps7": 1,
+     "contactSends7": 0
+    },
+    "note": "signUps7 moved 2->1 (-50%, clears the 25% threshold) but the 28-day history bounces 0-3 the whole window (ops/metrics/history/2026-10-09..2026-10-23.json) with no sustained decline tied to imp-015's 2026-10-17 launch -- it was already flagged a weak proxy with no dedicated subscription metric, and this is the same noisy-flat pattern imp-010/imp-013's verdicts used. No clear effect; nothing to revert (a product-page clarity addition, not clutter)."
+   }
   },
   {
    "id": "imp-016",
@@ -408,7 +416,16 @@
     "medianDaysEventToAdded": 5.0
    },
    "checkAfter": "2026-10-24",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-24",
+    "value": {
+     "sourcedMatters7": 27,
+     "freshSourcedMatters7": 25,
+     "medianDaysEventToAdded": 3
+    },
+    "note": "sourcedMatters7/freshSourcedMatters7 dropped 50/41 -> 27/25 (-46%/-39%, clears the 25% threshold) but reconstructing the same rolling 7-day window day by day from js/data.js shows this is a measurement artifact: a one-time batch of 28 matters added on 2026-10-13 alone (vs. 1-8/day every other October day) stayed inside the trailing window through 2026-10-19/20 (window totals 50-55) and aged out starting 2026-10-21 (window totals drop to 27-32), fully explaining the move with no change in day-to-day digest output. No clear effect from imp-017's guidance change; nothing to revert. See ops/digest-playbook.md's 2026-10-24 'What we have learned' entry for the full reconstruction."
+   }
   },
   {
    "id": "imp-018",
@@ -650,6 +667,26 @@
     "contactSends7": 0
    },
    "checkAfter": "2026-10-30",
+   "status": "watching"
+  },
+  {
+   "id": "imp-030",
+   "date": "2026-10-24",
+   "track": "news",
+   "title": "Skip residential mortgage foreclosure opinion leads from their own metadata, without reading the full opinion",
+   "why": "Every goal already had an open watching entry (traffic: imp-009; conversion: imp-020/imp-022; calculator: imp-011/imp-016/imp-025/imp-026/imp-028; subscription: imp-029) except news, whose only open entry (imp-017) was judged this run -- so per the one-open-experiment-per-goal rule, news got this run's work. While judging imp-017 (see verdict), reviewed ops/leads-handled.json's skip reasons for 2026-10-14 through 2026-10-23 and found the single biggest recurring skip reason (12+ opinion-lead skips, all 'residential mortgage foreclosure appeal, individual defendant') shares one exact fingerprint every time, checked against today's live ops/opinion-leads.json: matchedTerms of precisely [\"foreclos\",\"mortgage\"] (no other term) and a caseName with no business-entity suffix (LLC/Inc/Corp/LLP/Trust/Partners/Group/Realty) on the defendant side -- e.g. Bank of America v. Hambrick, U.S. Bank N.A. v. Sukljian/Pursoo/Vetri, Wells Fargo Bank v. Doberdruk, Bank of New York Mellon v. Tope. Every one of this shape has been confirmed residential, never commercial. Added guidance to ops/digest-playbook.md so the digest can skip this shape from the lead's own metadata (caseName/matchedTerms) instead of reading the full opinion text each time, freeing that reading effort for opinion leads more likely to be real commercial matters -- directly in scope per the playbook ('News feed: edit ops/digest-playbook.md ... search angles, sources, priorities').",
+   "files": [
+    "ops/digest-playbook.md"
+   ],
+   "commit": "9d84b2677a4c93564e2a2af83cb80528e0b40151",
+   "metric": "ops/metrics/goals.json news.metrics.sourcedMatters7 / freshSourcedMatters7 / medianDaysEventToAdded",
+   "window": "7 days",
+   "baseline": {
+    "sourcedMatters7": 27,
+    "freshSourcedMatters7": 25,
+    "medianDaysEventToAdded": 3
+   },
+   "checkAfter": "2026-10-31",
    "status": "watching"
   }
  ]
