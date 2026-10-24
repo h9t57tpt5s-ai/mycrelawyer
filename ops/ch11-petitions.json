@@ -1,7 +1,18 @@
 {
- "updatedAt": "2026-10-24T01:01:46+00:00",
+ "updatedAt": "2026-10-24T14:52:42+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "KRCM 1 Realty Corp.",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-44940",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75015879/krcm-1-realty-corp/",
+   "docketId": 75015879,
+   "slug": "krcm-1-realty-corp-nyeb-1-26-44940",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "Hunt Properties Jackson, GP",
    "court": "United States Bankruptcy Court, W.D. Tennessee",
@@ -22,6 +33,83 @@
    "docketUrl": "https://www.courtlistener.com/docket/75014282/frama-realty-corp/",
    "docketId": 75014282,
    "slug": "frama-realty-corp-ctb-26-50789",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "5 Star Tech II-4 PropCo, LLC",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "courtId": "txsb",
+   "docketNumber": "26-90822",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75016067/5-star-tech-ii-4-propco-llc/",
+   "docketId": 75016067,
+   "slug": "5-star-tech-ii-4-propco-llc-txsb-26-90822",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "5 Star Tech II-4 HoldCo, LLC",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "courtId": "txsb",
+   "docketNumber": "26-90821",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75016035/5-star-tech-ii-4-holdco-llc/",
+   "docketId": 75016035,
+   "slug": "5-star-tech-ii-4-holdco-llc-txsb-26-90821",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "5 Star Tech II-1 PropCo, LLC",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "courtId": "txsb",
+   "docketNumber": "26-90820",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75016033/5-star-tech-ii-1-propco-llc/",
+   "docketId": 75016033,
+   "slug": "5-star-tech-ii-1-propco-llc-txsb-26-90820",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "5 Star Tech II-1 HoldCo, LLC",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "courtId": "txsb",
+   "docketNumber": "26-90819",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75016027/5-star-tech-ii-1-holdco-llc/",
+   "docketId": 75016027,
+   "slug": "5-star-tech-ii-1-holdco-llc-txsb-26-90819",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "5 Star Tech I PropCo, LLC",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "courtId": "txsb",
+   "docketNumber": "26-90818",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75016028/5-star-tech-i-propco-llc/",
+   "docketId": 75016028,
+   "slug": "5-star-tech-i-propco-llc-txsb-26-90818",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "5 Star Tech I L5, LLC",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "courtId": "txsb",
+   "docketNumber": "26-90823",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75016081/5-star-tech-i-l5-llc/",
+   "docketId": 75016081,
+   "slug": "5-star-tech-i-l5-llc-txsb-26-90823",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "5 Star Tech I HoldCo, LLC",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "courtId": "txsb",
+   "docketNumber": "26-90817",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75016013/5-star-tech-i-holdco-llc/",
+   "docketId": 75016013,
+   "slug": "5-star-tech-i-holdco-llc-txsb-26-90817",
    "type": "Chapter 11 petition"
   },
   {

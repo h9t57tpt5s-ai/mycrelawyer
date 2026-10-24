@@ -1,21 +1,21 @@
 {
  "ok": true,
- "generatedAt": "2026-10-24T01:01:48.683Z",
+ "generatedAt": "2026-10-24T14:52:44.609Z",
  "days": 30,
  "portfolios": 1,
  "entitiesWatched": 1,
  "sources": {
   "courtlistener": {
-   "stored": 655,
+   "stored": 669,
    "liveSince": "2026-09-19",
-   "lagSample": 655,
+   "lagSample": 669,
    "medianLagDays": 1,
    "p90LagDays": 2
   },
   "hillsborough_fl": {
-   "stored": 75,
+   "stored": 79,
    "liveSince": "2026-09-20",
-   "lagSample": 75,
+   "lagSample": 79,
    "medianLagDays": 2,
    "p90LagDays": 2
   },
@@ -181,7 +181,7 @@
    "emailed": 0
   },
   "2026-10-24": {
-   "stored": 30,
+   "stored": 48,
    "alerts": 0,
    "emailed": 0
   }

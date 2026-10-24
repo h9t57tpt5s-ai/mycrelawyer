@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T01:01:46+00:00",
+ "updatedAt": "2026-10-24T14:52:42+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
@@ -52,6 +52,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "computershare-trust-company-na-v-wisconsin-milwaukee-hotel-llc-wied-2-26-cv-01974",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Aspen Grove Holdings LLC v. Wal-Mart Real Estate Business Trust and Wal-Mart Stores East, LP",
+   "court": "District Court, D. Colorado",
+   "courtId": "cod",
+   "docketNumber": "1:26-cv-05474",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75016077/aspen-grove-holdings-llc-v-wal-mart-real-estate-business-trust-and/",
+   "docketId": 75016077,
+   "suitNature": "",
+   "cause": "",
+   "slug": "aspen-grove-holdings-llc-v-wal-mart-real-estate-business-trust-and-wal-cod-1-26-cv-05474",
    "type": "Federal civil case"
   },
   {
