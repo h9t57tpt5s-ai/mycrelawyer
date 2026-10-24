@@ -11397,6 +11397,45 @@ const RELAW_DATA = {
         { when: "March 2026", label: "Court dismisses ten out-of-state landlord co-defendants for lack of personal jurisdiction" },
         { when: "October 13, 2026", label: "Court denies Yardi's motion for summary judgment, ordering fuller discovery", current: true }
       ]
+    },
+    {
+      id: "live-333",
+      seoTitle: "Arizona Fortuity Ruling Revives $2.7M Commercial Insurance Claim",
+      seoDescription: "The Ninth Circuit revived Mainspring Capital Group's $2.7M claim against Great Northern after Arizona redefined when a loss is 'fortuitous.'",
+      addedDate: "2026-10-24",
+      title: "Industrial Park Center LLC v. Great Northern Insurance Co. (Arizona Fortuity-Doctrine Coverage Ruling)",
+      brief: "The Ninth Circuit on October 16, 2026 reversed summary judgment for Great Northern Insurance, reviving Mainspring Capital Group's $2.7M water-damage claim on its Tempe, Arizona building under Arizona's new 'fortuitous loss' test.",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2026-10-16",
+      jurisdiction: "U.S. Court of Appeals for the Ninth Circuit",
+      state: "AZ",
+      amount: "$2.7M",
+      source: "live",
+      sourceUrl: "https://www.businessinsurance.com/arizona-high-court-sets-new-test-for-fortuitous-insurance-losses/",
+      summary: "Industrial Park Center LLC, doing business as Mainspring Capital Group, owns a commercial building in Tempe, Arizona that it leased to a fish-processing tenant and insured under an all-risk property policy from Great Northern Insurance Company. After years of water and salt damage that an engineering firm attributed to preventive measures, a waterproof floor coating, a vapor barrier, and additional drainage, that were never installed, Great Northern denied Mainspring's roughly $2.7 million claim as not \"fortuitous,\" and a federal district court granted the insurer summary judgment in July 2024. On October 16, 2026, the Ninth Circuit reversed that ruling and revived Mainspring's breach-of-contract and bad-faith claims, applying a new test for a \"fortuitous\" loss that the Arizona Supreme Court adopted in September 2026 in answering the Ninth Circuit's certified question.",
+      significance: "The ruling sets the standard Arizona commercial property owners must meet to preserve all-risk coverage for damage tied to a known, unaddressed maintenance or design issue: coverage now turns on what the owner actually knew when the policy was bought, not on whether the loss was statistically foreseeable or likely without fixes. Owners who have deferred a recommended repair should document that the ultimate failure was not a certainty at the time of purchase or renewal, since insurers will otherwise invoke the broader foreseeability argument the Arizona Supreme Court just rejected.",
+      body: [
+        "A commercial building owner's fight to recover $2.7 million for years of water and salt damage is back on, after the U.S. Court of Appeals for the Ninth Circuit reversed a federal district court's summary judgment in favor of the owner's property insurer. The October 16, 2026 ruling in Industrial Park Center LLC v. Great Northern Insurance Co. turns on a question that matters well beyond this one claim: when is property damage \"fortuitous,\" and therefore covered by an all-risk policy, versus an uninsurable certainty the owner should have expected. The Arizona Supreme Court answered that question for the first time just weeks earlier, at the Ninth Circuit's request, and the new standard it set now governs every comparable claim in the state.",
+        "Industrial Park Center LLC, doing business as Mainspring Capital Group, owns a commercial building in Tempe, Arizona that it leased to a fish-processing tenant and insured under an all-risk commercial property policy issued by Great Northern Insurance Company. Over several years, the building suffered recurring water and salt intrusion. According to court filings, an engineering firm Mainspring retained, MBJ, had recommended specific preventive measures, a waterproof floor coating, a vapor barrier, and additional drainage systems, that were never installed. When Mainspring submitted a claim for roughly $2.7 million in resulting damage, Great Northern denied it, arguing the loss was not fortuitous: because the damage was reasonably foreseeable and effectively certain to occur without those preventive measures, the insurer argued, it fell outside what an all-risk policy is meant to cover in the first place.",
+        "Mainspring sued in Maricopa County Superior Court in 2022; Great Northern removed the case to the U.S. District Court for the District of Arizona on diversity jurisdiction. In July 2024, the district court granted Great Northern summary judgment, applying the Ninth Circuit's existing fortuity test from Ingenco, which asks whether a loss was reasonably foreseeable and almost certain to occur. The court found Mainspring's loss met that description and was therefore not fortuitous, and later awarded Great Northern roughly $198,234 in attorneys' fees. On appeal, the Ninth Circuit concluded Arizona law did not yet resolve what fortuitous means in this context and, in late 2025, certified the question to the Arizona Supreme Court.",
+        "The Arizona Supreme Court answered on September 1, 2026, in an opinion by Justice Clint Bolick, rejecting the stricter foreseeability-based test the district court had used. Instead, the court adopted a subjective, knowledge-based standard, drawing on the Restatement (First) of Contracts: a loss is fortuitous, and therefore insurable, unless the insured actually knew, at the time the policy was issued, that the damage had already occurred, was already in progress, or was certain to occur. Foreseeability alone, even strong foreseeability, is not enough to strip a loss of coverage under this standard. Applying it, the Ninth Circuit's October 16 memorandum disposition reversed the district court's summary judgment and remanded, reviving Mainspring's breach-of-contract and bad-faith claims against Great Northern for further proceedings.",
+        "The decision is unpublished and therefore not binding Ninth Circuit precedent, but the Arizona Supreme Court ruling it applies is now the controlling statement of Arizona insurance law on fortuity. For commercial property owners, the practical stakes are significant: all-risk policies are the backbone of CRE lenders' insurance requirements, and insurers frequently resist claims tied to a known, long-deferred maintenance or design problem by arguing the eventual failure was predictable and therefore not a fortuitous, insurable event. Arizona's new rule narrows that defense considerably, since an insurer can no longer defeat coverage merely by showing the loss was statistically likely or even almost certain absent repairs; it must show the owner actually knew, when the policy was purchased or renewed, that the damage had already happened, was already underway, or was a sure thing. Owners who have deferred an engineer's or contractor's recommended fix should not assume that deferral forfeits coverage if the predicted failure eventually occurs, though they should be cautious about what internal reports and engineering assessments say about the certainty of an outcome, since those documents will be the first thing an insurer's coverage counsel examines in any future claim, and lenders and asset managers overseeing assets with known deferred-maintenance issues in Arizona, or in another state that may look to this decision as persuasive authority on a question many states have not yet resolved, should confirm their insurance placement and claims strategy account for this more owner-favorable standard."
+      ],
+      tags: ["insurance coverage", "property insurance", "arizona", "fortuity doctrine", "ninth circuit"],
+      parties: [
+        { name: "Industrial Park Center LLC (d/b/a Mainspring Capital Group)", role: "Plaintiff-Appellant" },
+        { name: "Great Northern Insurance Company", role: "Defendant-Appellee" }
+      ],
+      judge: null,
+      amountUsd: 2700000,
+      amountBasis: "claim",
+      timeline: [
+        { when: "2022", label: "Mainspring Capital Group sues Great Northern Insurance Company in Maricopa County Superior Court after the insurer denies a $2.7M water and salt damage claim; the case is removed to federal court" },
+        { when: "July 2024", label: "The U.S. District Court for the District of Arizona grants summary judgment for Great Northern, finding the loss was not \"fortuitous\"" },
+        { when: "September 1, 2026", label: "The Arizona Supreme Court, answering the Ninth Circuit's certified question, adopts a new, insured-knowledge-based test for a \"fortuitous\" loss" },
+        { when: "October 16, 2026", label: "The Ninth Circuit applies the new test, reverses the summary judgment, and remands, reviving the coverage and bad-faith claims", current: true }
+      ]
     }
   ],
 

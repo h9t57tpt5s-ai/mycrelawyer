@@ -1,0 +1,22 @@
+{
+ "id": "live-333",
+ "title": "Industrial Park Center LLC v. Great Northern Insurance Co. (Arizona Fortuity-Doctrine Coverage Ruling)",
+ "category": "construction-defect",
+ "status": "ruling",
+ "date": "2026-10-16",
+ "jurisdiction": "U.S. Court of Appeals for the Ninth Circuit",
+ "state": "AZ",
+ "amount": "$2.7M",
+ "source": "live",
+ "source_url": "https://www.businessinsurance.com/arizona-high-court-sets-new-test-for-fortuitous-insurance-losses/",
+ "summary": "Industrial Park Center LLC, doing business as Mainspring Capital Group, owns a commercial building in Tempe, Arizona that it leased to a fish-processing tenant and insured under an all-risk property policy from Great Northern Insurance Company. After years of water and salt damage that an engineering firm attributed to preventive measures, a waterproof floor coating, a vapor barrier, and additional drainage, that were never installed, Great Northern denied Mainspring's roughly $2.7 million claim as not \"fortuitous,\" and a federal district court granted the insurer summary judgment in July 2024. On October 16, 2026, the Ninth Circuit reversed that ruling and revived Mainspring's breach-of-contract and bad-faith claims, applying a new test for a \"fortuitous\" loss that the Arizona Supreme Court adopted in September 2026 in answering the Ninth Circuit's certified question.",
+ "significance": "The ruling sets the standard Arizona commercial property owners must meet to preserve all-risk coverage for damage tied to a known, unaddressed maintenance or design issue: coverage now turns on what the owner actually knew when the policy was bought, not on whether the loss was statistically foreseeable or likely without fixes. Owners who have deferred a recommended repair should document that the ultimate failure was not a certainty at the time of purchase or renewal, since insurers will otherwise invoke the broader foreseeability argument the Arizona Supreme Court just rejected.",
+ "judge": null,
+ "tags": [
+  "insurance coverage",
+  "property insurance",
+  "arizona",
+  "fortuity doctrine",
+  "ninth circuit"
+ ]
+}
