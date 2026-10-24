@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-23",
+  lastUpdatedDate: "2026-10-24",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -11360,6 +11360,43 @@ const RELAW_DATA = {
         { when: "January 31, 2025", label: "$307,326.18 money judgment entered" },
         { when: "October 22, 2026", label: "First Department unanimously affirms", current: true }
       ]
+    },
+    {
+      id: "live-332",
+      seoTitle: "Yardi Rent-Pricing Antitrust Suit Survives Summary Judgment",
+      seoDescription: "A W.D. Wash. judge denied Yardi Systems summary judgment in the Duffy antitrust suit over its RENTmaximizer rent-pricing software, ordering fuller discovery.",
+      addedDate: "2026-10-24",
+      title: "Duffy v. Yardi Systems, Inc. (Multifamily Rent-Pricing Antitrust Suit)",
+      brief: "A federal judge denied Yardi Systems summary judgment in a multifamily rent-pricing antitrust suit, letting renters pursue fuller discovery into its RENTmaximizer software.",
+      category: "landlord-tenant",
+      status: "ruling",
+      date: "2026-10-13",
+      jurisdiction: "U.S. District Court, Western District of Washington",
+      state: "WA",
+      amount: "Proposed nationwide class action; summary judgment denied",
+      source: "live",
+      sourceUrl: "https://www.multifamilydive.com/news/judge-denies-yardi-summary-judgement-rent-price-fixing-case/833392/",
+      summary: "On October 13, 2026, U.S. District Judge Robert S. Lasnik denied Yardi Systems, Inc.'s motion for summary judgment in a proposed class action alleging its RENTmaximizer (later Revenue IQ) software let competing multifamily landlords coordinate rents using pooled, non-public pricing data. The ruling sends the case, filed in September 2023 by named plaintiffs McKenna Duffy and Michael Brett, into a fuller round of discovery, and follows a December 2024 denial of Yardi's motion to dismiss that found the claims plausibly allege a per se antitrust violation.",
+      significance: "The decision shows algorithmic rent-pricing antitrust exposure is not limited to RealPage, the vendor that has drawn the most attention in parallel multidistrict litigation; any owner or manager licensing software that pools non-public competitor data to generate pricing recommendations faces the same basic theory. The earlier per se finding, if it holds, would meaningfully lower plaintiffs' burden compared with a traditional rule-of-reason antitrust claim.",
+      body: [
+        "A federal judge in the Western District of Washington has denied Yardi Systems, Inc.'s motion for summary judgment in a proposed class action accusing the property-management software vendor of enabling an illegal rent-fixing scheme among multifamily landlords, clearing the way for the case to proceed through a broader round of discovery. The October 13 ruling, issued by U.S. District Judge Robert S. Lasnik in Duffy v. Yardi Systems, Inc., No. 2:23-cv-01391, is the latest in a string of setbacks for Yardi since the suit was filed in September 2023.",
+        "The case, brought by named plaintiffs McKenna Duffy and Michael Brett on behalf of a proposed nationwide class of renters, centers on Yardi's RENTmaximizer product, later rebranded as Revenue IQ. Plaintiffs allege the software ingested non-public pricing, occupancy, and lease-term data from competing landlords who licensed the platform, then used that pooled information to recommend rents back to each landlord-client, effectively functioning as a hub for horizontal price coordination among competitors who would otherwise set rents independently. The theory echoes algorithmic-pricing antitrust claims that have proliferated against RealPage, Yardi's larger rival in the revenue-management software market, in separate multidistrict litigation pending in the Middle District of Tennessee.",
+        "Judge Lasnik's order is procedural rather than a merits verdict, but it is significant because of what it declines to do: end the case before a jury or further fact-finding can test the plaintiffs' theory. In denying summary judgment, the court found that segmented discovery, an earlier arrangement pausing broader fact-finding against the dismissed landlord-defendants while the parties developed the Yardi-specific record, did not eliminate the need for a fuller discovery record before the remaining claims could be resolved. The order also sealed certain Yardi confidential business information from the public docket and denied both sides' competing motions to exclude expert testimony.",
+        "The ruling builds on two earlier defeats for Yardi. In December 2024, Judge Lasnik denied the company's motion to dismiss outright, holding that the plaintiffs had plausibly alleged a per se unlawful antitrust conspiracy, a notable holding because per se treatment dispenses with the more exacting burden plaintiffs otherwise face under the antitrust rule of reason. In March 2026, the court trimmed the case on jurisdictional grounds, dismissing ten out-of-state landlord co-defendants, among them Banyan Living Ohio LLC, Envolve Communities LLC, Grubb Properties LLC, Habitat Co. LLC, and McWhinney Property Management LLC, for lack of personal jurisdiction in Washington, leaving Yardi as the central remaining defendant.",
+        "For commercial real estate owners and operators, the case is a reminder that legal exposure from algorithmic revenue-management software does not run only to the handful of vendors, such as RealPage, that have drawn the most public attention. Any multifamily owner or manager licensing a platform that relies on pooled, non-public competitor data to generate pricing recommendations faces the same basic antitrust theory. In practice, that means auditing existing revenue-management vendor contracts and data-sharing arrangements for how pricing recommendations use pooled competitor data, tracking the growing patchwork of state and local algorithmic-pricing ordinances in markets where a company operates, and watching closely how the per se versus rule-of-reason question is ultimately resolved on the merits, since it will shape antitrust exposure well beyond this particular case."
+      ],
+      tags: ["antitrust", "algorithmic pricing", "yardi", "multifamily", "rent-fixing"],
+      parties: [
+        { name: "Yardi Systems, Inc.", role: "Defendant" }
+      ],
+      judge: "Robert S. Lasnik",
+      amountUsd: null,
+      timeline: [
+        { when: "September 2023", label: "Duffy and Brett file proposed class action against Yardi Systems and multiple landlord co-defendants" },
+        { when: "December 2024", label: "Court denies Yardi's motion to dismiss, finding a plausible per se antitrust violation" },
+        { when: "March 2026", label: "Court dismisses ten out-of-state landlord co-defendants for lack of personal jurisdiction" },
+        { when: "October 13, 2026", label: "Court denies Yardi's motion for summary judgment, ordering fuller discovery", current: true }
+      ]
     }
   ],
 
@@ -12404,6 +12441,14 @@ const RELAW_DATA = {
       court: "Supreme Court of Alabama",
       background: "Appointed by Governor Kay Ivey in November 2025 to fill the vacancy left when Justice Bill Lewis was appointed to a federal judgeship. Previously served nearly six years as General Counsel to the Governor and, before that, as an assistant attorney general in the Alabama Attorney General's Constitutional Defense Division.",
       bioUrl: "https://judicial.alabama.gov/CourtMemberBio/ViewBio?id=91"
+    },
+    {
+      name: "Robert S. Lasnik",
+      slug: "robert-s-lasnik",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, Western District of Washington",
+      background: "Nominated by President Clinton on May 11, 1998 to a seat vacated by Judge Carolyn R. Dimmick, confirmed by the Senate and commissioned later that year. Served as chief judge of the district from 2004 to 2011 and represented the Ninth Circuit on the Judicial Conference of the United States from 2010 to 2015. Previously served on the King County Superior Court from 1990 to 1998 and in the King County Prosecuting Attorney's Office from 1978 to 1990. Assumed senior status on January 27, 2016.",
+      bioUrl: "https://www.fjc.gov/history/judges/lasnik-robert-s"
     }
   ],
 
@@ -12421,6 +12466,7 @@ const RELAW_DATA = {
      name. `website` is only set where confidently known. */
   trackedParties: [
     { name: "RealPage", slug: "realpage", description: "Multifamily revenue-management software vendor named across a wave of algorithmic rent-pricing litigation nationwide.", website: "https://www.realpage.com" },
+    { name: "Yardi Systems", matchTerm: "Yardi", slug: "yardi-systems", description: "Property-management software vendor whose revenue-management products are named across algorithmic rent-pricing litigation nationwide.", website: "https://www.yardi.com" },
     { name: "Apollo Global Management", matchTerm: "Apollo", slug: "apollo-global-management", description: "Alternative asset manager active in CRE mezzanine lending and distressed-debt acquisitions.", website: "https://www.apollo.com" },
     { name: "CoStar Group", matchTerm: "CoStar", slug: "costar-group", description: "Commercial real estate data and lease-comparables platform.", website: "https://www.costargroup.com" },
     { name: "UDR, Inc.", matchTerm: "UDR", slug: "udr-inc", description: "NYSE-listed multifamily REIT.", website: "https://www.udr.com" },

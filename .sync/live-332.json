@@ -1,0 +1,22 @@
+{
+ "id": "live-332",
+ "title": "Duffy v. Yardi Systems, Inc. (Multifamily Rent-Pricing Antitrust Suit)",
+ "category": "landlord-tenant",
+ "status": "ruling",
+ "date": "2026-10-13",
+ "jurisdiction": "U.S. District Court, Western District of Washington",
+ "state": "WA",
+ "amount": "Proposed nationwide class action; summary judgment denied",
+ "source": "live",
+ "source_url": "https://www.multifamilydive.com/news/judge-denies-yardi-summary-judgement-rent-price-fixing-case/833392/",
+ "summary": "On October 13, 2026, U.S. District Judge Robert S. Lasnik denied Yardi Systems, Inc.'s motion for summary judgment in a proposed class action alleging its RENTmaximizer (later Revenue IQ) software let competing multifamily landlords coordinate rents using pooled, non-public pricing data. The ruling sends the case, filed in September 2023 by named plaintiffs McKenna Duffy and Michael Brett, into a fuller round of discovery, and follows a December 2024 denial of Yardi's motion to dismiss that found the claims plausibly allege a per se antitrust violation.",
+ "significance": "The decision shows algorithmic rent-pricing antitrust exposure is not limited to RealPage, the vendor that has drawn the most attention in parallel multidistrict litigation; any owner or manager licensing software that pools non-public competitor data to generate pricing recommendations faces the same basic theory. The earlier per se finding, if it holds, would meaningfully lower plaintiffs' burden compared with a traditional rule-of-reason antitrust claim.",
+ "judge": "Robert S. Lasnik",
+ "tags": [
+  "antitrust",
+  "algorithmic pricing",
+  "yardi",
+  "multifamily",
+  "rent-fixing"
+ ]
+}
