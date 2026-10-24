@@ -17,7 +17,7 @@
   </url>
   <url>
     <loc>https://credocket.com/alert-log.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -37,7 +37,7 @@
   </url>
   <url>
     <loc>https://credocket.com/bankruptcy-watch.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -337,7 +337,7 @@
   </url>
   <url>
     <loc>https://credocket.com/coverage.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -417,7 +417,7 @@
   </url>
   <url>
     <loc>https://credocket.com/index.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -682,7 +682,7 @@
   </url>
   <url>
     <loc>https://credocket.com/lawsuit-watch.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -712,17 +712,17 @@
   </url>
   <url>
     <loc>https://credocket.com/litigation-index-2026-10.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation-index.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -2311,6 +2311,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://credocket.com/chapter-11/hunt-properties-jackson-gp-tnwb-26-11592.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/chapter-11/frama-realty-corp-ctb-26-50789.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/chapter-11/69-79-west-main-st-llc-nysb-26-23052.html</loc>
     <lastmod>2026-10-21</lastmod>
     <priority>0.5</priority>
@@ -2971,7 +2981,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/federal-cases/scg-hotel-llc-v-selective-insurance-company-of-the-southeast-flmd-8-26-cv-03232.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/federal-cases/gulfstream-towers-holding-company-llc-v-flagler-county-florida-flmd-3-26-cv-02902.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/federal-cases/gulfstream-towers-holding-company-llc-v-flagler-county-flmd-3-26-cv-02902.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/federal-cases/computershare-trust-company-na-v-wisconsin-milwaukee-hotel-llc-wied-2-26-cv-01974.html</loc>
     <lastmod>2026-10-23</lastmod>
     <priority>0.5</priority>
   </url>
