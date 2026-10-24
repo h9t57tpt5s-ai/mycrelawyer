@@ -49,6 +49,11 @@
    "caseId": "live-069",
    "at": "2026-10-17",
    "action": "outcome from law360.com / news.bloomberglaw.com"
+  },
+  "73687065:21:2026-10-23:approve consent judgment": {
+   "caseId": "live-005",
+   "at": "2026-10-24",
+   "action": "docket text only -- WebSearch found no secondary reporting on a settlement/consent judgment in SEC v. RAD Diversified REIT; added a timeline entry restating the docket text (court entered an order approving a consent judgment, entry 21) without changing status, since no source states the judgment's terms or confirms the case as fully resolved"
   }
  }
 }

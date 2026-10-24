@@ -250,7 +250,8 @@ const RELAW_DATA = {
         "The enforcement theory leans heavily on related-party fund flows and continued capital-raising after internal warning signs — a declined credit line, a rising rate of foreclosures in the portfolio, and frozen investor redemptions are all cited. Sponsors and boards of retail-facing, non-traded REITs should treat this as a preview of what the SEC is looking for when it examines related-party transaction controls and disclosure practices."
       ],
       timeline: [
-        { when: "July 29, 2026", label: "SEC sues RAD Diversified REIT, its co-founders, and an affiliated entity",  current: true }
+        { when: "July 29, 2026", label: "SEC sues RAD Diversified REIT, its co-founders, and an affiliated entity" },
+        { when: "October 23, 2026", label: "Court enters an order approving a consent judgment in the case (docket entry 21)", current: true }
       ],
       documentUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26596",
       documentLabel: "Read the SEC litigation release",

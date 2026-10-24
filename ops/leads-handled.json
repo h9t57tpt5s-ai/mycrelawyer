@@ -743,6 +743,34 @@
   "gulfstream-towers-holding-company-llc-v-flagler-county-florida-flmd-3-26-cv-02902": {
    "at": "2026-10-24",
    "action": "skipped: same docket (75010384) already handled under a slightly different URL slug; no coverage found explaining the dispute"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1574197/000157419726000035/fph-20260930.htm": {
+   "at": "2026-10-24",
+   "action": "skipped: Five Point Holdings Hunters Point litigation excerpt is years-old (2018) boilerplate risk-factor disclosure, not a new event"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1052752/000119312526428988/gty-20260930.htm": {
+   "at": "2026-10-24",
+   "action": "skipped: Getty Realty Occidental/Maryland MTBE litigation excerpts are years-old (2017-2018) boilerplate disclosure, not a new event"
+  },
+  "federal-suit:2026-10-23:Computershare Trust Company NA v. Wisconsin & Milwaukee Hotel LLC": {
+   "at": "2026-10-24",
+   "action": "skipped: no coverage found explaining this specific Oct 23 district court filing (the related Milwaukee Marriott Downtown Chapter 11 case is from 2024 and already a distinct, older matter)"
+  },
+  "federal-suit:2026-10-23:Aspen Grove Holdings LLC v. Wal-Mart Real Estate Business Trust and Wal-Mart Stores East, LP": {
+   "at": "2026-10-24",
+   "action": "skipped: no coverage found explaining the filing beyond the caption"
+  },
+  "federal-suit:2026-10-22:Hord Coplan Macht, Inc. v. 55 Resort Apartments at Centerra, LLC": {
+   "at": "2026-10-24",
+   "action": "skipped: no coverage found explaining the filing beyond the caption"
+  },
+  "federal-suit:2026-10-22/23:Gulfstream Towers Holding Company LLC v. Flagler County": {
+   "at": "2026-10-24",
+   "action": "skipped: no coverage found tying Gulfstream Towers to a Flagler County suit (only an unrelated Brevard County monopole dispute found)"
+  },
+  "federal-suit:2026-10-21:Withers Cove Business Park Association, Inc. v. United States Postal Service": {
+   "at": "2026-10-24",
+   "action": "skipped: no coverage found explaining the filing beyond the caption"
   }
  }
 }
