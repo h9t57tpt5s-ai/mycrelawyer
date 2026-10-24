@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T05:49:13+00:00",
+ "updatedAt": "2026-10-24T05:48:05+00:00",
  "about": "Listed companies filing under real estate SIC codes 6798, 6500, 6510, 6512, 6513, 6519, 6531, 6552, 7011 (EDGAR). Used to pick real estate companies out of press-release feeds.",
  "companies": [
   {
@@ -633,12 +633,6 @@
    "sic": "6798"
   },
   {
-   "cik": 1777917,
-   "ticker": "BSRTF",
-   "name": "BSR Real Estate Investment Trust",
-   "sic": "6798"
-  },
-  {
    "cik": 1662972,
    "ticker": "BSTT",
    "name": "Blackstone Real Estate Income Trust, Inc.",
@@ -811,12 +805,6 @@
    "ticker": "CIMP",
    "name": "CHIMERA INVESTMENT CORP",
    "sic": "6798"
-  },
-  {
-   "cik": 2050338,
-   "ticker": "CLBZ",
-   "name": "Collab Z Inc.",
-   "sic": "6500"
   },
   {
    "cik": 1476045,
@@ -1546,6 +1534,12 @@
   },
   {
    "cik": 1677576,
+   "ticker": "IIPBP",
+   "name": "INNOVATIVE INDUSTRIAL PROPERTIES INC",
+   "sic": "6500"
+  },
+  {
+   "cik": 1677576,
    "ticker": "IIPR",
    "name": "INNOVATIVE INDUSTRIAL PROPERTIES INC",
    "sic": "6500"
@@ -1553,6 +1547,12 @@
   {
    "cik": 1677576,
    "ticker": "IIPR-PA",
+   "name": "INNOVATIVE INDUSTRIAL PROPERTIES INC",
+   "sic": "6500"
+  },
+  {
+   "cik": 1677576,
+   "ticker": "IIPR-PB",
    "name": "INNOVATIVE INDUSTRIAL PROPERTIES INC",
    "sic": "6500"
   },
@@ -2019,12 +2019,6 @@
    "sic": "6798"
   },
   {
-   "cik": 1561032,
-   "ticker": "NHPBP",
-   "name": "National Healthcare Properties, Inc.",
-   "sic": "6798"
-  },
-  {
    "cik": 1084475,
    "ticker": "NIHK",
    "name": "Video River Networks, Inc.",
@@ -2077,6 +2071,12 @@
    "ticker": "NNN",
    "name": "NNN REIT, INC.",
    "sic": "6798"
+  },
+  {
+   "cik": 1992001,
+   "ticker": "NPTDS",
+   "name": "Neptune REM, LLC",
+   "sic": "6500"
   },
   {
    "cik": 1786248,
@@ -2899,6 +2899,12 @@
    "ticker": "SRRE",
    "name": "SUNRISE REAL ESTATE GROUP INC",
    "sic": "6513"
+  },
+  {
+   "cik": 1879403,
+   "ticker": "SRTM",
+   "name": "La Rosa Holdings Corp.",
+   "sic": "6531"
   },
   {
    "cik": 1479094,
