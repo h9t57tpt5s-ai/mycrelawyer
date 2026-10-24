@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-10-23T15:56:23+00:00",
+ "updatedAt": "2026-10-24T01:01:46+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Hunt Properties Jackson, GP",
+   "court": "United States Bankruptcy Court, W.D. Tennessee",
+   "courtId": "tnwb",
+   "docketNumber": "26-11592",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75011991/hunt-properties-jackson-gp/",
+   "docketId": 75011991,
+   "slug": "hunt-properties-jackson-gp-tnwb-26-11592",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Frama Realty Corp",
+   "court": "United States Bankruptcy Court, D. Connecticut",
+   "courtId": "ctb",
+   "docketNumber": "26-50789",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75014282/frama-realty-corp/",
+   "docketId": 75014282,
+   "slug": "frama-realty-corp-ctb-26-50789",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "69-79 West Main St LLC",
    "court": "United States Bankruptcy Court, S.D. New York",

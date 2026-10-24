@@ -1,7 +1,33 @@
 {
- "updatedAt": "2026-10-23T15:56:23+00:00",
+ "updatedAt": "2026-10-24T01:01:46+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "SCG Hotel LLC v. Selective Insurance Company of the Southeast",
+   "court": "District Court, M.D. Florida",
+   "courtId": "flmd",
+   "docketNumber": "8:26-cv-03232",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75013266/scg-hotel-llc-v-selective-insurance-company-of-the-southeast/",
+   "docketId": 75013266,
+   "suitNature": "110 Insurance",
+   "cause": "12:0635 Breach of Insurance Contract",
+   "slug": "scg-hotel-llc-v-selective-insurance-company-of-the-southeast-flmd-8-26-cv-03232",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Gulfstream Towers Holding Company LLC v. Flagler County, Florida",
+   "court": "District Court, M.D. Florida",
+   "courtId": "flmd",
+   "docketNumber": "3:26-cv-02902",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75010384/gulfstream-towers-holding-company-llc-v-flagler-county-florida/",
+   "docketId": 75010384,
+   "suitNature": "890 Other Statutory Actions",
+   "cause": "47:0605 Federal Communications Act",
+   "slug": "gulfstream-towers-holding-company-llc-v-flagler-county-florida-flmd-3-26-cv-02902",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Gulfstream Towers Holding Company LLC v. Flagler County",
    "court": "District Court, M.D. Florida",
@@ -13,6 +39,19 @@
    "suitNature": "890 Other Statutory Actions",
    "cause": "47:0605 Federal Communications Act",
    "slug": "gulfstream-towers-holding-company-llc-v-flagler-county-flmd-3-26-cv-02902",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Computershare Trust Company NA v. Wisconsin & Milwaukee Hotel LLC",
+   "court": "District Court, E.D. Wisconsin",
+   "courtId": "wied",
+   "docketNumber": "2:26-cv-01974",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75014791/computershare-trust-company-na-v-wisconsin-milwaukee-hotel-llc/",
+   "docketId": 75014791,
+   "suitNature": "",
+   "cause": "",
+   "slug": "computershare-trust-company-na-v-wisconsin-milwaukee-hotel-llc-wied-2-26-cv-01974",
    "type": "Federal civil case"
   },
   {
