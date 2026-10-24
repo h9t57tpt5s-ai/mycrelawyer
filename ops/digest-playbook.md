@@ -110,6 +110,35 @@ sessions that open the source page (the local newsroom task). If a run comes
 across a market-wide CRE data report worth a signal, name it and its URL in
 the Step 5 report instead.
 
+## Residential mortgage foreclosure opinions: skip without reading (added 2026-10-24)
+
+ops/opinion-leads.json gives each lead's `caseName` and `matchedTerms` before
+any opinion text needs reading. Checking every opinion-lead skip logged in
+ops/leads-handled.json from 2026-10-14 through 2026-10-23 that gave a
+"residential mortgage foreclosure" reason (Bank of America v. Hambrick; U.S.
+Bank N.A. v. Sukljian/Pursoo/Vetri; U.S. Bank, N.A. v. Nektalov; Huntington
+Natl. Bank v. Aquino; Wells Fargo Bank, Natl. Assn. v. Doberdruk; Bank of New
+York Mellon v. Tope; U.S. Bank Trust Natl. Assn. v. He; and several more over
+those 10 days) against today's live ops/opinion-leads.json: every single one
+has `matchedTerms` equal to exactly `["foreclos", "mortgage"]` -- no other
+term -- and a `caseName` where the defendant side is one person's name, no
+LLC/Inc/Corp/LLP/Trust/Partners/Group/Realty suffix anywhere in the case
+name. This exact shape has been a residential foreclosure on an individual
+homeowner every time it has been checked, never commercial real estate.
+
+So: read `matchedTerms` and `caseName` before opening an opinion lead's text.
+When `matchedTerms` is exactly `{"foreclos", "mortgage"}` (nothing else) and
+the case name has no business-entity suffix on either side, skip it
+immediately -- record it as "residential mortgage foreclosure (caseName
+pattern), not read" and move to the next lead, rather than opening the full
+opinion to confirm what the pattern has already shown 12+ times running.
+This rule does not apply the moment either condition fails: a third matched
+term (lease, landlord, guaranty, CMBS, shopping center, hotel, office
+building, zoning, receiver, easement, etc.), or any business-entity name on
+either side -- a bank foreclosing on an LLC-owned property, or a commercial
+guaranty fight, is exactly the kind of case this site exists to cover, and
+needs a real read like any other lead.
+
 ## How to judge a candidate
 
 - Prefer the event date (filing, ruling, settlement) within 7 days.
@@ -159,3 +188,4 @@ case, not about trying less hard on the leads most likely to matter.
 <!-- The self-improvement routine adds dated lines here: what changed in the digest's guidance and what happened to the news metrics afterwards. -->
 - 2026-10-13: Starting point. Week of 2026-10-06: 23 sourced matters, 5 within 7 days of the event, median 97 days from event to publication; 14 of 15 leads skipped. Record-only petition matters were banned on 2026-10-12.
 - 2026-10-17: The news goal (ops/metrics/goals.json) now reads "on track" (gap 0.0): 50 sourced matters in the last 7 days, 41 of them fresh, median 5.0 days event-to-publication -- all past target, and backlog item G1 (added 2026-10-13, asking for exactly this fix) is done; marked struck in ops/improvement-playbook.md's backlog. Looked for patterns in the skip reasons as G1 also asked: of 101 leads logged 2026-10-08 through 2026-10-17, 85 were skipped and 30 of those (35%) were bare court-docket leads (small Chapter 11 petitions, small LLC-vs-insurer federal suits) with no secondary reporting to write a narrative matter from -- confirmed these still get their own page automatically via the separate ingest/record-page pipeline, so the skip is not a real coverage loss. Added guidance above ("Bare court-docket leads with no coverage") to spend one targeted search on these rather than several variants, and put the saved effort toward opinion/SEC/trade-press leads, which is where matters actually come from. Watching sourcedMatters7/freshSourcedMatters7/medianDaysEventToAdded (baseline 50/41/5.0) for 7 days to confirm this doesn't regress the pipeline that got the goal on track.
+- 2026-10-24: Judged by the self-improvement routine (not this file's own run): sourcedMatters7/freshSourcedMatters7 dropped from the 2026-10-17 baseline of 50/41 to 27/25 by 2026-10-24, a 46%/39% decline that would clear the "hurt" threshold on its own. Traced the cause before concluding anything about the 2026-10-17 change: reconstructing the same rolling 7-day window day by day from js/data.js shows sourcedMatters7 was 50-55 for 2026-10-17 through 2026-10-20, then dropped to 27-32 from 2026-10-21 onward -- and js/data.js shows a one-time batch of 28 matters added on 2026-10-13 alone (every other day in October added 1-8). That spike was still inside the trailing 7-day window through 2026-10-19/20 and aged out by 2026-10-21, which fully explains the drop in the window total without any change in the digest's day-to-day output. Verdict: **no clear effect** from the 2026-10-17 change -- the apparent regression is a measurement artifact of a one-time backfill leaving the 7-day window, not evidence that spending less search effort on bare docket leads hurt sourcing. Separately, found the single biggest recurring opinion-lead skip reason (12+ of the last 10 days' skips, all "residential mortgage foreclosure appeal, individual defendant") shares one exact fingerprint every time: `matchedTerms` of precisely `["foreclos","mortgage"]` and a `caseName` with no business-entity suffix on the defendant side. Added a new section above ("Residential mortgage foreclosure opinions: skip without reading") so the digest can skip this shape from the lead's own metadata instead of reading the full opinion text each time, freeing that reading budget for opinion leads more likely to be real commercial matters. Watching sourcedMatters7/freshSourcedMatters7/medianDaysEventToAdded (baseline 27/25/3) for 7 days -- a real test here is whether this frees enough effort to push sourcedMatters7 back toward the 50+ range once the 2026-10-13 batch's distortion is fully gone from the window, not just "does it avoid a drop."
