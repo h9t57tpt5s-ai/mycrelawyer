@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T17:34:03+00:00",
+ "generatedAt": "2026-10-25T17:50:09+00:00",
  "pagesChecked": 704,
  "pagesByFolder": {
   "root": 191,
@@ -27,13 +27,13 @@
  "freshness": {
   "matters": 281,
   "newestMatterAdded": "2026-10-24",
-  "daysSinceNewestMatter": 0,
+  "daysSinceNewestMatter": 1,
   "ch11Petitions": 142,
   "newestCh11Petition": "2026-10-23",
-  "daysSinceNewestCh11": 1,
+  "daysSinceNewestCh11": 2,
   "federalSuits": 90,
   "newestFederalSuit": "2026-10-23",
-  "daysSinceNewestSuit": 1
+  "daysSinceNewestSuit": 2
  },
  "findings": {
   "zeroStatCounters": [],

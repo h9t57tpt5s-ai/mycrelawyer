@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generatedAt": "2026-10-25T15:40:37+00:00",
+ "generatedAt": "2026-10-25T17:50:10+00:00",
  "mostBehind": [
   "conversion",
   "calculator",
@@ -13,11 +13,11 @@
    "behind": [
     "googleLandings7"
    ],
-   "gap": 0.068,
+   "gap": 0.07,
    "metrics": {
-    "visits7": 658,
-    "googleLandings7": 173,
-    "visits28": 1541
+    "visits7": 676,
+    "googleLandings7": 172,
+    "visits28": 1573
    },
    "targets": {
     "visits7": 350,
@@ -32,12 +32,12 @@
     "newsletterSignups7",
     "multiPageRate7"
    ],
-   "gap": 0.677,
+   "gap": 0.682,
    "metrics": {
     "signUps7": 1,
     "follows7": 0,
     "newsletterSignups7": 1,
-    "multiPageRate7": 0.0608,
+    "multiPageRate7": 0.0592,
     "contactSends7": 0
    },
    "targets": {
@@ -55,7 +55,7 @@
     "sourcedMatters7": 29,
     "freshSourcedMatters7": 25,
     "medianDaysEventToAdded": 4,
-    "leadsReviewedTotal": 202,
+    "leadsReviewedTotal": 211,
     "leadsToMattersTotal": 25
    },
    "targets": {
