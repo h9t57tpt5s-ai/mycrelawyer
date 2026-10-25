@@ -705,6 +705,27 @@
    "baseline": {},
    "checkAfter": "n/a",
    "status": "no-op"
+  },
+  {
+   "id": "imp-032",
+   "date": "2026-10-25",
+   "track": "calculator",
+   "title": "Traced cle-venture-fund-v-coventry-2025's v6 damagesRange [0,0] to a real credit-summing bug in v6IssueRange()",
+   "why": "goals.json mostBehind: conversion, calculator, traffic, news (no verdicts due today -- earliest open checkAfter is imp-020/imp-022's 2026-10-26). Audit clean. Last 2 log entries were imp-030 (news) and imp-031 (traffic, no-op), which would put conversion next in mostBehind order, but every single goal already has an open watching entry (traffic: imp-009; conversion: imp-020/imp-022; calculator: imp-011/imp-025/imp-026/imp-028; subscription: imp-029; news: imp-030), so per the playbook's 'one open experiment per goal' rule this run worked backlog/evidence work instead of shipping a new tracked page/code change. Picked up 2026-10-23's own flag (imp-028) that cle-venture-fund-v-coventry-2025's v6 result -- damagesRange [0, 0], directly contradicting its own correctly-reasoned likelyOutcome narrative expecting a $1.96M-$2.45M deficiency judgment -- was 'worth checking... before assuming it's a genuine zero recovery call.' Hand-traced v6IssueRange() (supabase/functions/case-valuation-analyze/valuation-v6.ts lines 86-122) against the saved prediction (case_valuation_project/backtest/results-v6/cle-venture-fund-v-coventry-2025.json) line by line, no new API spend: credit-role figures are always summed (credits.reduce(sum)), with no competing-vs-additive distinction the way amount-role figures already get in issueRange() -- so the case's two competing retrospective-value appraisals ($1.31M lender's expert, $2.03M borrower's expert) get added into a $3.34M credit, flooring both ends of the mechanical range to 0. Wrote the full trace and a proposed-shape fix (not applied -- valuation-v6.ts is Jeff-gated per CLAUDE.md) to ops/calculator-proposals.md; updated backlog G15 with a third, now concrete decision. Also gave the other held-out flip 2026-10-23 flagged (windsor-tower-v-speedy-maintenance-2024) a secondary look: v6 split one $66,000 disputed claim into three separate opposing issues (breach, unjust enrichment, mechanics lien), likely overstating exposure by roughly 3x -- not traced to a specific code line, flagged as a hunch rather than a confirmed bug. Nothing in the calculator's prompt or math was changed.",
+   "files": [
+    "ops/calculator-proposals.md",
+    "ops/improvement-playbook.md",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "262f22a8d3c3745144b591a25c21c4af01306ffa",
+   "metric": "none directly -- this is a code-level trace of an existing backtest result, not a site or code change; what to check next time is whether Jeff has reviewed ops/calculator-proposals.md's 2026-10-25 entry and G15's now-three-part decision list (give v4.4 a real paid backtest run; settle whether v6/v6.1 beats it on a matched set; fix v6IssueRange's competing-credit-summing bug before any further v6 consideration)",
+   "window": "n/a",
+   "baseline": {
+    "cle_venture_fund_v6_damagesRange": [0, 0],
+    "cle_venture_fund_actual": 1735579.45
+   },
+   "checkAfter": "2026-11-01",
+   "status": "watching"
   }
  ]
 }
