@@ -771,6 +771,42 @@
   "federal-suit:2026-10-21:Withers Cove Business Park Association, Inc. v. United States Postal Service": {
    "at": "2026-10-24",
    "action": "skipped: no coverage found explaining the filing beyond the caption"
+  },
+  "opinion:11045544": {
+   "at": "2026-10-25",
+   "action": "skipped: Fourth Circuit affirms Corps CWA 404 permit for Cainhoy Peninsula/Point Hope development near Charleston; secondary reporting (Post and Courier, Daniel Island News) describes it as a housing development of up to 18,000 homes, not commercial real estate on its face despite the opinion citing a mixed commercial/residential purpose"
+  },
+  "petition:https://www.courtlistener.com/docket/75015879/krcm-1-realty-corp/": {
+   "at": "2026-10-25",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75016067/5-star-tech-ii-4-propco-llc/": {
+   "at": "2026-10-25",
+   "action": "skipped: no coverage found explaining the filing (one search covering the related 5 Star Tech PropCo/HoldCo group)"
+  },
+  "petition:https://www.courtlistener.com/docket/75016035/5-star-tech-ii-4-holdco-llc/": {
+   "at": "2026-10-25",
+   "action": "skipped: no coverage found explaining the filing (one search covering the related 5 Star Tech PropCo/HoldCo group)"
+  },
+  "petition:https://www.courtlistener.com/docket/75016033/5-star-tech-ii-1-propco-llc/": {
+   "at": "2026-10-25",
+   "action": "skipped: no coverage found explaining the filing (one search covering the related 5 Star Tech PropCo/HoldCo group)"
+  },
+  "petition:https://www.courtlistener.com/docket/75016027/5-star-tech-ii-1-holdco-llc/": {
+   "at": "2026-10-25",
+   "action": "skipped: no coverage found explaining the filing (one search covering the related 5 Star Tech PropCo/HoldCo group)"
+  },
+  "petition:https://www.courtlistener.com/docket/75016028/5-star-tech-i-propco-llc/": {
+   "at": "2026-10-25",
+   "action": "skipped: no coverage found explaining the filing (one search covering the related 5 Star Tech PropCo/HoldCo group)"
+  },
+  "petition:https://www.courtlistener.com/docket/75016081/5-star-tech-i-l5-llc/": {
+   "at": "2026-10-25",
+   "action": "skipped: no coverage found explaining the filing (one search covering the related 5 Star Tech PropCo/HoldCo group)"
+  },
+  "petition:https://www.courtlistener.com/docket/75016013/5-star-tech-i-holdco-llc/": {
+   "at": "2026-10-25",
+   "action": "skipped: no coverage found explaining the filing (one search covering the related 5 Star Tech PropCo/HoldCo group)"
   }
  }
 }
