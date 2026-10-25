@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T14:52:42+00:00",
+ "updatedAt": "2026-10-25T00:30:49+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -143,61 +143,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/74996656/216-greene-ave-group-llc/",
    "docketId": 74996656,
    "slug": "216-greene-ave-group-llc-nyeb-1-26-44894",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "NORTH EASTERN EXPANSION DEVELOPMENT, CORP",
-   "court": "United States Bankruptcy Court, N.D. New York",
-   "courtId": "nynb",
-   "docketNumber": "26-11215",
-   "dateFiled": "2026-10-20",
-   "docketUrl": "https://www.courtlistener.com/docket/74989518/north-eastern-expansion-development-corp/",
-   "docketId": 74989518,
-   "slug": "north-eastern-expansion-development-corp-nynb-26-11215",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Lord Properties II, LLC",
-   "court": "United States Bankruptcy Court, S.D. Florida.",
-   "courtId": "flsb",
-   "docketNumber": "26-23975",
-   "dateFiled": "2026-10-20",
-   "docketUrl": "https://www.courtlistener.com/docket/74994142/lord-properties-ii-llc/",
-   "docketId": 74994142,
-   "slug": "lord-properties-ii-llc-flsb-26-23975",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Horizon Property Partnership, a Texas Partnership",
-   "court": "United States Bankruptcy Court, S.D. Texas",
-   "courtId": "txsb",
-   "docketNumber": "26-37869",
-   "dateFiled": "2026-10-20",
-   "docketUrl": "https://www.courtlistener.com/docket/74993843/horizon-property-partnership-a-texas-partnership/",
-   "docketId": 74993843,
-   "slug": "horizon-property-partnership-a-texas-partnership-txsb-26-37869",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "780 E 24th Street, LLC",
-   "court": "United States Bankruptcy Court, D. New Jersey",
-   "courtId": "njb",
-   "docketNumber": "26-21876",
-   "dateFiled": "2026-10-20",
-   "docketUrl": "https://www.courtlistener.com/docket/74990809/780-e-24th-street-llc/",
-   "docketId": 74990809,
-   "slug": "780-e-24th-street-llc-njb-26-21876",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "1065 Amboy Avenue, LLC",
-   "court": "United States Bankruptcy Court, D. New Jersey",
-   "courtId": "njb",
-   "docketNumber": "26-21855",
-   "dateFiled": "2026-10-20",
-   "docketUrl": "https://www.courtlistener.com/docket/74988901/1065-amboy-avenue-llc/",
-   "docketId": 74988901,
-   "slug": "1065-amboy-avenue-llc-njb-26-21855",
    "type": "Chapter 11 petition"
   }
  ]
