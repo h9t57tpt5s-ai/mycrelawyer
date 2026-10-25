@@ -61,6 +61,13 @@ async function filingsByDocketId(file: string, dir: string): Promise<Map<number,
 const ch11ByDocketId = await filingsByDocketId("ops/ch11-petitions.json", "chapter-11");
 const suitByDocketId = await filingsByDocketId("ops/federal-suits.json", "federal-cases");
 
+// Real, computed count for the newsletter pitch's copy test (imp-033): how
+// many matters were actually added in the trailing 7 days, same window
+// prerender.ts's own freshness figures use. Never hand-typed.
+const newMattersThisWeek = data.cases.filter(
+  (c) => c.addedDate && (Date.now() - new Date(c.addedDate).getTime()) / 86_400_000 <= 7,
+).length;
+
 const esc = (s: unknown) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 // Text fields may carry entities or light markup; attributes and JSON-LD
 // get plain text.
@@ -306,7 +313,7 @@ function mainFor(c: Case): string {
     </div>` : `<div class="card matter-cta matter-top-cta">
       <div class="eyebrow">Weekly email</div>
       <h2 class="matter-h2">New on CREdocket, every Monday</h2>
-      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <p class="text-secondary">${newMattersThisWeek > 0 ? `In the past 7 days, CREdocket added ${newMattersThisWeek} new commercial real estate lawsuit${newMattersThisWeek === 1 ? "" : "s"} to the tracker. Get next Monday's new matters, rulings in cases we follow, and market signals by email.` : "The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals."} Free; unsubscribe in one click.</p>
       <form class="gate-form" data-newsletter-form data-newsletter-source="matter-top:${esc(c.id)}" data-case-id="${esc(c.id)}" novalidate>
         <label class="sr-only" for="matter-nl-email">Email address</label>
         <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
