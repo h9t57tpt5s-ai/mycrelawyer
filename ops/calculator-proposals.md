@@ -481,6 +481,97 @@ genuine "zero recovery" call rather than another figure-role edge case
 like the bug above, just one `issue_range`/`v6_issue_range` doesn't null
 out.
 
+## 2026-10-25 — found the actual cause of `cle-venture-fund-v-coventry-2025`'s v6 `[0, 0]`: competing `credit` figures get summed, not range-selected
+
+2026-10-23's entry flagged this case's v6 result as "worth checking... before
+assuming it's a genuine 'zero recovery' call." It isn't one — it's a
+reproducible bug in `v6IssueRange()` (`supabase/functions/case-valuation-analyze/valuation-v6.ts`,
+lines 86–122), confirmed by hand-tracing the live saved prediction
+(`case_valuation_project/backtest/results-v6/cle-venture-fund-v-coventry-2025.json`)
+against the function's own code — no new API spend.
+
+**The case.** We represent the lender, owed a deficiency after a deed-in-lieu
+of foreclosure; liability is already decided on summary judgment, and the
+only open question at trial was the property's retrospective value (credited
+against the debt). Two competing appraisals of that one credit exist: the
+lender's own expert at $1,310,000 and the borrowers' expert at $2,030,000.
+The court adopted $1,310,000 and entered judgment for the lender for
+$1,735,579.45 (affirmed on appeal) — a real, substantial win for our side.
+v6's own written `likelyOutcome` gets this right ("Expect a deficiency
+judgment in favor of the lender in the range of roughly $1.96M–$2.45M...").
+Its mechanical `damagesRange` is `[0, 0]`, directly contradicting its own
+narrative.
+
+**Why.** The one issue the model wrote has 4 figures: two tagged
+`role: "amount"` ($2,446,775.94, the pled deficiency; and $1,548,000, the
+2021 resale proceeds the model itself says were wrongly used as the credit
+basis) and two tagged `role: "credit"` ($1,310,000 and $2,030,000, the two
+experts' competing retrospective valuations), with `basis: "competing"`.
+Tracing `v6IssueRange()` line by line:
+- Line 90: `amounts` = the two `amount` figures, `credits` = the two
+  `credit` figures.
+- Line 93: `base = issueRange(amounts, "competing", "represented")`. Per
+  `valuation-math.ts` line 125–127, `"competing"` with ≥2 figures returns
+  `[min, max]` of the raw values — so `base = [1548000, 2446775.94]`,
+  treating the pled-damages figure and the (model's own words)
+  *wrongly-used* resale-proceeds figure as if they were two competing
+  opinions of the same thing, which they are not.
+- No `before_value`/`after_value` figures exist, so line 105 takes
+  `lo, hi = base = [1548000, 2446775.94]`.
+- Line 112: `credit = credits.reduce((a, f) => a + f.value, 0)` — **sums**
+  the two competing appraisals: `1310000 + 2030000 = 3340000`. This is the
+  actual bug: `v6IssueRange` has no competing-vs-additive distinction for
+  `credit`-role figures the way `issueRange()` already gives `amount`-role
+  figures (line 125 of `valuation-math.ts`) — two figures that are
+  *alternative estimates of the same single credit* get treated as if they
+  were two separate credits that both apply.
+- Lines 113–114: `lo = max(0, 1548000 − 3340000) = 0`; `hi = max(0,
+  2446775.94 − 3340000) = 0`. That is exactly the saved `[0, 0]`.
+
+Both halves of the bug point the same way (summing competing `amount`
+figures that shouldn't be summed; summing competing `credit` figures that
+shouldn't be summed), and either one alone would already have driven the
+range toward zero.
+
+**Not fixed here** — `valuation-v6.ts` is Jeff-gated (CLAUDE.md: the
+valuation method changes only with Jeff's approval). For the record, the
+shape of a fix (not applied, for Jeff's call only): give `credit`-role
+figures the same competing/additive branch `issueRange()` already has for
+`amount`-role figures — when `basis === "competing"` and `credits.length
+>= 2`, take a representative single value (e.g. the range or midpoint
+between the competing credit figures) rather than `credits.reduce(sum)`;
+and/or keep the resale-proceeds figure the model itself flagged as
+methodologically wrong out of the `amount` bucket entirely (it is not a
+competing opinion of the damages ask, it's a rejected alternative
+calculation basis).
+
+**Secondary, less certain finding on the same held-out case** that flipped
+under v6, `windsor-tower-v-speedy-maintenance-2024`: v4.3 modeled Speedy's
+entire $66,000 unpaid-balance dispute as one opposing issue (`[-66000,
+-66000]`, basis `competing`); v6 split the identical $66,000 into three
+separate opposing issues — breach of contract, unjust enrichment, and
+mechanics-lien foreclosure — each independently ranged `[-66000, 0]`. These
+are three legal theories for recovering the *same* $66,000, not three
+separate exposures, and pricing each on its own likely overstates the
+lender's... here, Speedy's (the opposing side's) probability-weighted
+exposure applied against Windsor by roughly 3x what a single disputed
+amount should contribute — the same double-counting shape the v6.1 code
+comment already names for duplicate *figures* within one issue (`"adding
+them counted the owner's $3.3M twice in MHTC's Potted Steer taking"`), just
+for duplicate *theories* on one figure instead. This tracks with v6's
+bestGuessValue on this case (10,515) undershooting the actual award
+(48,260) more than v4.3's did (22,939.50). Not traced to a specific code
+line the way the cle-venture-fund bug was — flagged for a closer look
+before weighing it as more than a hunch.
+
+**NEEDS JEFF, added to G15's open decisions:** this is now a concrete,
+code-level reason (not just an aggregate-accuracy worry) to fix
+`v6IssueRange`'s handling of competing `credit`-role figures before v6 is
+considered for a real backtest run or live use — the bug would reproduce on
+any future case with a disputed credit priced from two competing
+appraisals, a common shape in lending-foreclosure and eminent-domain
+matters, both squarely within CREdocket's calculator categories.
+
 ## What we have learned (calculator track)
 
 <!-- dated lines added as proposals here are later tested or Jeff rules on them -->
@@ -541,3 +632,19 @@ out.
   scoring tool treats a role-tagged (v6+) figure the same way in every
   code path it touches — this bug would have kept understating v6/v6.1's
   real calibration in any future replay until caught.
+- 2026-10-25: Followed up on 2026-10-23's own flag ("worth checking...
+  before assuming it's a genuine 'zero recovery' call") on
+  `cle-venture-fund-v-coventry-2025`'s v6 `[0, 0]` result. It is a bug, not
+  a real call: hand-traced `v6IssueRange()` against the saved prediction
+  and found `credit`-role figures are always summed
+  (`credits.reduce((a, f) => a + f.value, 0)`), with no competing-vs-
+  additive distinction the way `amount`-role figures already get in
+  `issueRange()` — so the case's two *competing* appraisals of the same
+  retrospective-value credit ($1.31M and $2.03M) got added together into a
+  $3.34M credit, driving both ends of the range to 0 after flooring. No
+  code changed (`valuation-v6.ts` is Jeff-gated). Next time: this is the
+  kind of bug a free hand-trace against one saved prediction can catch
+  without any new API spend — when a model's own written `likelyOutcome`
+  contradicts its mechanical `damagesRange` (as it did here), that
+  contradiction itself is worth tracing through the math before assuming
+  the number is a real, if surprising, model judgment.
