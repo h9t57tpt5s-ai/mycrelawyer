@@ -726,6 +726,27 @@
    },
    "checkAfter": "2026-11-01",
    "status": "watching"
+  },
+  {
+   "id": "imp-033",
+   "date": "2026-10-25",
+   "track": "conversion",
+   "title": "Gave the matter-page newsletter CTA a real weekly-count incentive instead of generic copy",
+   "why": "goals.json mostBehind: conversion, calculator, traffic, news (no verdicts due today -- earliest open checkAfter is imp-020/imp-022's 2026-10-26). Audit clean. Last 2 log entries were imp-030 (news) and imp-032 (calculator), leaving conversion next in mostBehind order and untouched in those 2 runs. Checked the 'one open experiment per goal' rule by metric, not just track label: conversion's two open entries (imp-020, imp-022) both watch last7Days.searches only -- every earlier conversion attempt that watched signUps7/follows7/newsletterSignups7/multiPageRate7 (imp-007, imp-010, imp-013) has already been judged 'no clear effect' and closed, so none of those specific metrics has an open experiment right now. imp-013's own 2026-10-16 note named the next thing to try: 'the newsletter form's copy/incentive (not its visibility) is the more likely next thing to test' -- three prior conversion changes (imp-007, imp-010, imp-013) were all placement-only. The matter-page newsletter CTA (card.matter-top-cta, shown at the top of every matter page without a docket -- 232 of 281 matters today, 82%) used fully generic copy ('The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals') with no concrete reason to subscribe. Added a real, computed incentive: 'In the past 7 days, CREdocket added N new commercial real estate lawsuits to the tracker,' using the exact addedDate/7-day-window computation prerender.ts's own freshness figures already use (Date.now() minus addedDate, <= 7 days) -- never hand-typed, and falls back to the old generic sentence if the count is ever 0. Confirmed the real count is 27 today (python3 check), matching news.metrics.sourcedMatters7. Did not touch the matter-row newsletter CTA (the minority, docket-having 49/281 matters) or the follow box copy, to keep this one isolated, attributable change.",
+   "files": [
+    "scripts/build_matter_pages.ts",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "83e9dfce6c117998ab2d002bd52944e015784bba",
+   "metric": "ops/metrics/latest.json conversion.metrics.newsletterSignups7 (primary) and signUps7/multiPageRate7 (secondary) -- same metrics imp-007/imp-010/imp-013 watched, all currently closed with no clear effect",
+   "window": "7 days",
+   "baseline": {
+    "newsletterSignups7": 1,
+    "signUps7": 1,
+    "multiPageRate7": 0.0608
+   },
+   "checkAfter": "2026-11-01",
+   "status": "watching"
   }
  ]
 }
