@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-24",
+  lastUpdatedDate: "2026-10-26",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -11437,6 +11437,47 @@ const RELAW_DATA = {
         { when: "September 1, 2026", label: "The Arizona Supreme Court, answering the Ninth Circuit's certified question, adopts a new, insured-knowledge-based test for a \"fortuitous\" loss" },
         { when: "October 16, 2026", label: "The Ninth Circuit applies the new test, reverses the summary judgment, and remands, reviving the coverage and bad-faith claims", current: true }
       ]
+    },
+    {
+      id: "live-334",
+      seoTitle: "Illinois Center Chicago: $260M CMBS Foreclosure Auction Set",
+      seoDescription: "A Cook County judge ruled against AmTrust RE on a $260M CMBS loan tied to Chicago's Illinois Center, setting a Nov. 12, 2026 sheriff's sale.",
+      addedDate: "2026-10-26",
+      title: "Illinois Center Foreclosure: Cook County Judge Clears $260M CMBS Sheriff's Sale of AmTrust's Chicago Towers",
+      brief: "A Cook County judge ruled against an AmTrust RE affiliate on a $260 million CMBS loan on Chicago's Illinois Center towers, clearing the way for a Nov. 12, 2026 sheriff's sale.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-10-19",
+      jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      state: "IL",
+      amount: "$260M CMBS loan; Nov. 12, 2026 sheriff's sale of towers appraised at $66M",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/10/19/amtrusts-illinois-center-set-for-foreclosure-auction/",
+      property: {"name": "Illinois Center", "address": "111 E. Wacker Drive and 233 N. Michigan Avenue", "city": "Chicago", "state": "IL"},
+      summary: "Cook County Associate Judge Edward Robles ruled in September 2026 against an AmTrust RE affiliate on its $260 million CMBS loan covering Illinois Center, the twin-tower, roughly 2.1-million-square-foot office complex at 111 E. Wacker Drive and 233 N. Michigan Avenue in Chicago's East Loop, as reported by The Real Deal and Bisnow on October 19 and 20, 2026. The ruling clears the way for a Cook County sheriff's sale of the property on November 12, 2026, with special servicer LNR Partners, LLC expected to credit-bid on behalf of the CMBS trust's bondholders and take title. The towers were most recently appraised at $66 million, an 83% drop from the $390 million valuation when the loan originated in 2015.",
+      significance: "The case shows how far Chicago's office distress has advanced for aging towers financed at pre-pandemic valuations: a once-signature East Loop complex now appraised at roughly a sixth of its loan-era value, with the borrower no longer contesting foreclosure. It is a template for how CMBS special servicers are handling deeply underwater assets with falling occupancy -- taking title through a sheriff's sale rather than extending further workout negotiations -- that other Chicago-area office owners facing legacy CMBS maturities should watch.",
+      body: [
+        "A Cook County judge has cleared the way for a special servicer to take title to Illinois Center, the twin-tower office complex at 111 E. Wacker Drive and 233 N. Michigan Avenue in Chicago's East Loop, after ruling against the AmTrust RE affiliate that has owned the roughly 2.1-million-square-foot property since 2015. The ruling sets up a Cook County sheriff's sale on November 12, 2026, and marks one of the more dramatic value collapses yet documented in Chicago's distressed office market.",
+        "Cook County Associate Judge Edward Robles ruled against the AmTrust RE affiliate in September 2026, entering a judgment of foreclosure on the $260 million commercial mortgage-backed securities loan secured by the complex. According to The Real Deal, Bisnow, and other trade-press accounts published October 19 and 20, 2026, AmTrust had stopped actively contesting the case over the summer, declining to oppose the lender's motion for summary judgment after workout talks with special servicer LNR Partners, LLC broke down. With the judgment entered, the Cook County sheriff's office has scheduled a public auction of the property for November 12, and LNR Partners, acting on behalf of the CMBS trust's bondholders, is positioned to submit the winning credit bid and take title.",
+        "The loan dates to 2015, when the AmTrust RE affiliate acquired the Illinois Center towers and financed the purchase with the $260 million CMBS loan, then underwritten against a $390 million valuation. The borrower fell behind on payments, and LNR Partners filed a foreclosure suit in the Circuit Court of Cook County's Chancery Division. By the time Judge Robles entered judgment, the numbers behind the loan had deteriorated sharply: Morningstar Credit data cited in the reporting puts the property's most recent appraisal at just $66 million, an 83% drop from the 2015 origination value and a 22% decline from an already-reduced 2024 appraisal. Occupancy at the complex had fallen to roughly 33% as of the end of 2025, according to servicer commentary described in the coverage.",
+        "For a property once counted among the signature assets of Chicago's East Loop skyline, part of the Illinois Center development built in the architectural idiom associated with Mies van der Rohe, the scale of the write-down illustrates how far the city's office downturn has progressed for aging, undercapitalized towers built on pre-pandemic rent and occupancy assumptions. The case also follows a now-familiar pattern for CMBS special servicers handling distressed Chicago office loans: rather than pursue an extended workout or loan modification, LNR Partners appears set to take the property into real-estate-owned status directly through the sheriff's sale process, giving the servicer and bondholders direct control over any future repositioning, lease-up, or disposition strategy rather than continuing to negotiate with a borrower that has effectively walked away.",
+        "For other Chicago-area office owners facing CMBS loans originated in the mid-2010s at valuations that no longer reflect current market realities, the Illinois Center matter is a useful and cautionary data point. A borrower who stops contesting foreclosure once it becomes clear that remaining equity has been wiped out, as AmTrust appears to have done here, can move a case to judgment and sale relatively quickly once summary judgment goes unopposed; special servicers and bondholders, in turn, appear increasingly willing to take title outright through a credit bid rather than extend further forbearance on assets whose appraised values have fallen this far below outstanding debt. Owners and lenders alike should watch Cook County sheriff's sale calendars and servicer commentary for a read on how quickly comparable downtown Chicago office towers are moving from default to disposition, since the timeline here, a foreclosure suit in late 2024 to judgment and sale by November 2026, may be a useful benchmark."
+      ],
+      tags: ["cmbs foreclosure", "chicago office", "special servicing", "sheriff's sale", "amtrust"],
+      parties: [
+        { name: "AmTrust RE", role: "Borrower (through an affiliate)" },
+        { name: "LNR Partners, LLC", role: "Special Servicer for the CMBS lender" }
+      ],
+      judge: "Edward Robles",
+      amountUsd: 260000000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "2015", label: "An AmTrust RE affiliate buys Illinois Center's twin office towers and originates a $260 million CMBS loan, then appraised at $390 million" },
+        { when: "2024", label: "The borrower stops making loan payments; special servicer LNR Partners files a foreclosure suit in Cook County Circuit Court" },
+        { when: "Summer 2026", label: "The AmTrust RE affiliate declines to oppose the lender's motion for summary judgment" },
+        { when: "September 2026", label: "Cook County Associate Judge Edward Robles rules against the AmTrust RE affiliate, entering judgment of foreclosure", current: true },
+        { when: "November 12, 2026", label: "A Cook County sheriff's sale of Illinois Center is scheduled, with special servicer LNR Partners expected to bid on behalf of CMBS bondholders", upcoming: true }
+      ]
     }
   ],
 
@@ -12539,6 +12580,7 @@ const RELAW_DATA = {
     { name: "Fannie Mae", matchTerm: "Fannie Mae", slug: "fannie-mae", description: "Federally chartered mortgage finance enterprise that purchases and guarantees multifamily and single-family mortgage loans, and frequently appears as plaintiff or loan-purchaser in commercial mortgage foreclosure litigation.", website: "https://www.fanniemae.com" },
     { name: "BroadRange Logistics LLC", matchTerm: "BroadRange", slug: "broadrange-logistics", description: "Georgia-based third-party logistics (3PL) operator leasing large warehouse and distribution space across multiple states, named as defendant in separate landlord lawsuits over defaulted industrial leases." },
     { name: "Brookfield Properties", matchTerm: "Brookfield", slug: "brookfield-properties", description: "Global alternative asset manager and one of the world's largest owners and operators of office, retail, and mixed-use commercial real estate, operating through numerous property-level subsidiaries and platforms.", website: "https://www.brookfieldproperties.com" },
-    { name: "ACORE Capital", matchTerm: "ACORE", slug: "acore-capital", description: "San Francisco-based commercial real estate debt manager that originates construction, bridge, and CMBS financing nationally, and frequently appears as a lender in commercial foreclosure litigation.", website: "https://acorecapital.com" }
+    { name: "ACORE Capital", matchTerm: "ACORE", slug: "acore-capital", description: "San Francisco-based commercial real estate debt manager that originates construction, bridge, and CMBS financing nationally, and frequently appears as a lender in commercial foreclosure litigation.", website: "https://acorecapital.com" },
+    { name: "LNR Partners, LLC", matchTerm: "LNR Partners", slug: "lnr-partners", description: "Miami Beach-based CMBS special servicer, a Starwood Property Trust subsidiary, that manages defaulted commercial mortgage loans and frequently pursues foreclosure on behalf of CMBS trust bondholders nationally." }
   ]
 };
