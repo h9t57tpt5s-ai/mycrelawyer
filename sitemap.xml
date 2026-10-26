@@ -57,12 +57,17 @@
   </url>
   <url>
     <loc>https://credocket.com/brief-2026-10-12.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/brief-2026-10-19.html</loc>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/briefs.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -112,12 +117,12 @@
   </url>
   <url>
     <loc>https://credocket.com/cmbs-litigation-tracker.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/commercial-foreclosure-guaranty-damages.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -132,7 +137,7 @@
   </url>
   <url>
     <loc>https://credocket.com/companies.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -218,6 +223,11 @@
   <url>
     <loc>https://credocket.com/company-lightstone-group.html</loc>
     <lastmod>2026-10-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-lnr-partners.html</loc>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -347,7 +357,7 @@
   </url>
   <url>
     <loc>https://credocket.com/data-center-litigation-tracker.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -422,7 +432,7 @@
   </url>
   <url>
     <loc>https://credocket.com/index.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -717,22 +727,22 @@
   </url>
   <url>
     <loc>https://credocket.com/litigation-index-2026-09.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation-index-2026-10.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation-index.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -802,7 +812,7 @@
   </url>
   <url>
     <loc>https://credocket.com/office-foreclosure-tracker.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -2331,6 +2341,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://credocket.com/matters/live-334.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/chapter-11/krcm-1-realty-corp-nyeb-1-26-44940.html</loc>
     <lastmod>2026-10-23</lastmod>
     <priority>0.5</priority>
@@ -3512,11 +3527,6 @@
   </url>
   <url>
     <loc>https://credocket.com/parties/keybank-national-association.html</loc>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://credocket.com/parties/lnr-partners-llc.html</loc>
     <lastmod>2026-10-23</lastmod>
     <priority>0.6</priority>
   </url>
