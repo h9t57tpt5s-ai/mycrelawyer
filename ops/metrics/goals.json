@@ -1,9 +1,9 @@
 {
  "date": "2026-10-26",
- "generatedAt": "2026-10-26T15:40:37+00:00",
+ "generatedAt": "2026-10-26T20:07:40+00:00",
  "mostBehind": [
-  "conversion",
   "calculator",
+  "conversion",
   "traffic",
   "news"
  ],
@@ -13,11 +13,11 @@
    "behind": [
     "googleLandings7"
    ],
-   "gap": 0.07,
+   "gap": 0.083,
    "metrics": {
-    "visits7": 676,
-    "googleLandings7": 172,
-    "visits28": 1573
+    "visits7": 654,
+    "googleLandings7": 167,
+    "visits28": 1646
    },
    "targets": {
     "visits7": 350,
@@ -32,12 +32,12 @@
     "newsletterSignups7",
     "multiPageRate7"
    ],
-   "gap": 0.682,
+   "gap": 0.556,
    "metrics": {
-    "signUps7": 1,
+    "signUps7": 2,
     "follows7": 0,
-    "newsletterSignups7": 1,
-    "multiPageRate7": 0.0592,
+    "newsletterSignups7": 2,
+    "multiPageRate7": 0.0566,
     "contactSends7": 0
    },
    "targets": {
