@@ -843,6 +843,38 @@
   "https://www.courtlistener.com/docket/74996656/216-greene-ave-group-llc/": {
    "at": "2026-10-25",
    "action": "skipped: no coverage found explaining the filing (bare single-address LLC Chapter 11 petition)"
+  },
+  "krcm-1-realty-corp-nyeb-1-26-44940": {
+   "at": "2026-10-26",
+   "action": "skipped: no coverage found explaining the filing; distinct from unrelated KRCM Realty Company Inc and KRCM Astoria Portfolio Corp entities, could not confirm this specific docket"
+  },
+  "5-star-tech-ii-4-propco-llc-txsb-26-90822": {
+   "at": "2026-10-26",
+   "action": "skipped: no source confirms this specific October 2026 filing; naming convention matches the known Five Star Development/Ritz-Carlton El Paso-Socorro Chapter 11 case (filed Nov 2025, Madison Realty Capital $585M loan) but connection unconfirmed"
+  },
+  "5-star-tech-ii-4-holdco-llc-txsb-26-90821": {
+   "at": "2026-10-26",
+   "action": "skipped: no source confirms this specific October 2026 filing; naming convention matches the known Five Star Development/Ritz-Carlton El Paso-Socorro Chapter 11 case (filed Nov 2025, Madison Realty Capital $585M loan) but connection unconfirmed"
+  },
+  "5-star-tech-ii-1-propco-llc-txsb-26-90820": {
+   "at": "2026-10-26",
+   "action": "skipped: no source confirms this specific October 2026 filing; naming convention matches the known Five Star Development/Ritz-Carlton El Paso-Socorro Chapter 11 case (filed Nov 2025, Madison Realty Capital $585M loan) but connection unconfirmed"
+  },
+  "5-star-tech-ii-1-holdco-llc-txsb-26-90819": {
+   "at": "2026-10-26",
+   "action": "skipped: no source confirms this specific October 2026 filing; naming convention matches the known Five Star Development/Ritz-Carlton El Paso-Socorro Chapter 11 case (filed Nov 2025, Madison Realty Capital $585M loan) but connection unconfirmed"
+  },
+  "5-star-tech-i-propco-llc-txsb-26-90818": {
+   "at": "2026-10-26",
+   "action": "skipped: no source confirms this specific October 2026 filing; naming convention matches the known Five Star Development/Ritz-Carlton El Paso-Socorro Chapter 11 case (filed Nov 2025, Madison Realty Capital $585M loan) but connection unconfirmed"
+  },
+  "5-star-tech-i-l5-llc-txsb-26-90823": {
+   "at": "2026-10-26",
+   "action": "skipped: no source confirms this specific October 2026 filing; naming convention matches the known Five Star Development/Ritz-Carlton El Paso-Socorro Chapter 11 case (filed Nov 2025, Madison Realty Capital $585M loan) but connection unconfirmed"
+  },
+  "5-star-tech-i-holdco-llc-txsb-26-90817": {
+   "at": "2026-10-26",
+   "action": "skipped: no source confirms this specific October 2026 filing; naming convention matches the known Five Star Development/Ritz-Carlton El Paso-Socorro Chapter 11 case (filed Nov 2025, Madison Realty Capital $585M loan) but connection unconfirmed"
   }
  }
 }
