@@ -483,8 +483,16 @@
    "window": "7 days",
    "baseline": 3,
    "checkAfter": "2026-10-26",
-   "status": "watching",
-   "note": "Confirmed same-day: prerender.yml (a03efa7) regenerated matters/*.html within minutes of the push, with the new search form present on live-266.html (grep-confirmed) and site_audit.py counts unchanged after. Still watching last7Days.searches for an actual usage move."
+   "status": "helped",
+   "note": "Confirmed same-day: prerender.yml (a03efa7) regenerated matters/*.html within minutes of the push, with the new search form present on live-266.html (grep-confirmed) and site_audit.py counts unchanged after. Still watching last7Days.searches for an actual usage move.",
+   "verdict": {
+    "date": "2026-10-26",
+    "value": {
+     "searches7": 9,
+     "searches28": 16
+    },
+    "note": "baseline searches7=3 (2026-10-19); today's last7Days.searches is 9, a +200% move clearing the 25% threshold, and the 28-day trend agrees (searches28 7 (10-18) -> 16 (10-25), a sustained climb, not a one-day blip). Confounded with imp-022 (shipped one day later, same metric, fixed the tracking gap that made this metric measurable at all) -- helped is a joint read of both, not imp-020 alone."
+   }
   },
   {
    "id": "imp-021",
@@ -520,8 +528,16 @@
    "window": "7 days",
    "baseline": 4,
    "checkAfter": "2026-10-26",
-   "status": "watching",
-   "note": "Shares imp-020's checkAfter window and metric -- this is the measurement fix that lets imp-020's own experiment actually be judged, not a separate UI change. No audit regression (site_audit.py counts identical before/after); node --check passed on both edited files (deno unavailable this session)."
+   "status": "helped",
+   "note": "Shares imp-020's checkAfter window and metric -- this is the measurement fix that lets imp-020's own experiment actually be judged, not a separate UI change. No audit regression (site_audit.py counts identical before/after); node --check passed on both edited files (deno unavailable this session).",
+   "verdict": {
+    "date": "2026-10-26",
+    "value": {
+     "searches7": 9,
+     "searches28": 16
+    },
+    "note": "baseline searches7=4 (2026-10-20); today's last7Days.searches is 9, a +125% move clearing the 25% threshold, and the 28-day trend agrees (searches28 8 (10-20) -> 16 (10-25)). Same joint-effect caveat as imp-020's verdict -- this fix is what made imp-020's own box and the global overlay's usage measurable at all, so the two are not separable."
+   }
   },
   {
    "id": "imp-023",
@@ -721,7 +737,10 @@
    "metric": "none directly -- this is a code-level trace of an existing backtest result, not a site or code change; what to check next time is whether Jeff has reviewed ops/calculator-proposals.md's 2026-10-25 entry and G15's now-three-part decision list (give v4.4 a real paid backtest run; settle whether v6/v6.1 beats it on a matched set; fix v6IssueRange's competing-credit-summing bug before any further v6 consideration)",
    "window": "n/a",
    "baseline": {
-    "cle_venture_fund_v6_damagesRange": [0, 0],
+    "cle_venture_fund_v6_damagesRange": [
+     0,
+     0
+    ],
     "cle_venture_fund_actual": 1735579.45
    },
    "checkAfter": "2026-11-01",
@@ -747,6 +766,29 @@
    },
    "checkAfter": "2026-11-01",
    "status": "watching"
+  },
+  {
+   "id": "imp-034",
+   "date": "2026-10-26",
+   "track": "calculator",
+   "title": "Confirmed G15's flagged windsor-tower v6 flip as a second, distinct bug (cross-issue double-counting of one disputed figure under alternative opposing theories)",
+   "why": "Judged imp-020/imp-022 today (both helped, see 'What we have learned'). mostBehind was conversion/calculator/traffic/news, but every goal already had an open watching entry on its own goal metrics (traffic: imp-009 on visits7/googleLandings7; conversion: imp-033 on newsletterSignups7/signUps7/multiPageRate7; calculator: imp-011/imp-016/imp-025/imp-026/imp-028/imp-032, imp-016 specifically open on calculatorViews7; news: imp-030; subscription: imp-029) -- finalRangeHitRate is Jeff-gated code and can't be shipped from the cloud regardless. Per the one-open-experiment-per-goal rule, worked backlog/evidence work not measured by a goal metric instead: picked up 2026-10-25's own flagged-but-unconfirmed windsor-tower-v-speedy-maintenance-2024 flip (G15) rather than another social-drafts refresh, since G3/G15 evidence work has concretely found and documented real bugs almost every time it's been tried.",
+   "files": [
+    "ops/calculator-proposals.md"
+   ],
+   "commit": null,
+   "metric": "none directly -- this did not change the live site or the valuation method; what to check next time is whether Jeff has reviewed ops/calculator-proposals.md's 2026-10-26 entry and G15's now-four-part decision list",
+   "window": "n/a",
+   "baseline": {
+    "windsor_tower_v6_damagesRange": [
+     -18138,
+     28560
+    ],
+    "windsor_tower_actual": 48260
+   },
+   "checkAfter": "2026-11-02",
+   "status": "watching",
+   "note": "Hand-traced the saved results-v6/windsor-tower-v-speedy-maintenance-2024.json prediction against the live code (no API spend): Speedy's single $66,000 disputed mechanics-lien claim is pled as three alternative opposing legal theories (contract breach, unjust enrichment, lien foreclosure), each an independent issue with the same figure and probabilityRange. dedupeRepresentedFigures() (valuation-math.ts line 85) explicitly skips opposing issues, so index.ts's mechanical per-issue loop (lines ~2776-2793) sums each theory's expected-value contribution separately -- 3 x (0.2 * -66000) = -39600 instead of one -13200 -- and the arithmetic reproduces the saved damagesRange[0]=-18138 to the dollar. Confirmed this is in the shared aggregation step (not v6IssueRange), so v4.3/v4.4 share the same latent bug; it just hasn't shown up in any scored v4.3 case yet. No code changed (Jeff-gated, and not cloud-deployable regardless). Full trace and proposed fix shape (merge same-figure alternative opposing theories into one issue before the mechanical loop, same pattern dedupeRepresentedFigures already uses for the represented side) in ops/calculator-proposals.md's 2026-10-26 entry; G15 updated with a fourth concrete decision."
   }
  ]
 }
