@@ -572,6 +572,76 @@ any future case with a disputed credit priced from two competing
 appraisals, a common shape in lending-foreclosure and eminent-domain
 matters, both squarely within CREdocket's calculator categories.
 
+## 2026-10-26 — confirmed the other flagged v6 flip: `windsor-tower-v-speedy-maintenance-2024`'s opposing claims are triple-counted, not just "likely overstating ~3x"
+
+2026-10-25's entry flagged this case as a hunch ("not traced to a specific
+fix") beside the confirmed `cle-venture-fund` credit-summing bug. Traced it
+the same way (hand-tracing the saved `results-v6/windsor-tower-v-speedy-
+maintenance-2024.json` prediction against the live code, no API spend) and
+it is a second, distinct, confirmed bug — this time in how the mechanical
+range sums *opposing* issues, not in `v6IssueRange` itself.
+
+The record: Speedy filed one $66,000 mechanics lien, pled as three
+alternative legal theories for the identical money — breach of contract,
+unjust enrichment, and lien foreclosure. The model (correctly, as far as
+legal theory goes) returned three separate `opposing` issues, each with
+`basis: "competing"`, a single disputed `$66,000` figure, and the same
+`probabilityRange: [0.05, 0.2]`. Each issue's own `v6IssueRange` is
+therefore `[-66000, 0]` (one disputed figure under `issueRange()`'s
+itemized fallback: undisputed sum 0, full sum 66000, negated for
+`opposing` — correct in isolation).
+
+The bug is in `index.ts`'s per-issue mechanical loop (lines ~2776-2793),
+which sums every issue's own expected-value contribution independently:
+for an opposing issue, `evLow = pHi * dLo`. Here that is `0.2 * -66000 =
+-13200`, and the loop adds this **three times** (once per theory) to
+`mechanicalDamagesRange[0]`: `3 x -13200 = -39600`. Combined with the
+represented side's two issues (`0.8*24600 + 0.45*3960 = 21462`), the
+published low end is `21462 - 39600 = -18138` — exactly matching the saved
+prediction's `damagesRange: [-18138, 28560]`. The correct exposure, if the
+three theories are recognized as alternative paths to the *same* $66,000
+(the most Speedy can ever collect, under any theory, is $66,000 once), is
+one `-13200` contribution, not three — a low end of roughly `21462 -
+13200 = 8262`, not `-18138`: a swing of $26,400 on a case whose actual
+award was $48,260, more than half the case's own damages range width.
+
+Root cause confirmed in code, not guessed: `dedupeRepresentedFigures()`
+(`valuation-math.ts` line 85: `if (iss.claimant === "opposing") return;`)
+explicitly skips the opposing side. `dedupeV6` (index.ts line 2717) calls
+it after filtering to `amount`-role figures, but the skip is unconditional
+either way — there is no dedup path at all for the same disputed dollar
+figure appearing in multiple *opposing* issues under alternative legal
+theories, only for the represented side's own overlapping figures. This is
+a different bug from 2026-10-25's `credit`-summing one (which was inside a
+single issue's own range calculation); this one is cross-issue, in the
+case-level aggregation step that both v4.3/v4.4 (`issueRange`-only) and v6
+(`v6IssueRange`) share.
+
+**Is this v6-only?** No — re-reading the same loop (lines 2776-2793) shows
+it runs identically for v4.3/v4.4 and v6; only `v6IssueRange` vs.
+`issueRange` differs per issue. The same triple-counting would happen
+under v4.3/v4.4 if a case ever modeled alternative opposing theories on one
+disputed figure as separate issues. It has not shown up in the v4.3 miss
+analysis (2026-10-15/21) because none of the 32 scored v4.3 cases happened
+to have this shape; this is the first time it has been caught, on a case
+that only exists in the `results-v6`/`results-v6.1`/`results-formula`
+directories (v6 and later runs).
+
+**NEEDS JEFF, added to G15's open decisions (a fourth, now concrete item):**
+fix the case-level aggregation (or add a dedup pass) so that multiple
+`opposing` issues pursuing the *same* disputed dollar figure under
+alternative legal theories contribute that figure's exposure once, not
+once per theory — e.g. by merging them into one issue (probability of
+*any* theory succeeding, capped at the shared figure) before the
+mechanical loop runs, the same way `dedupeRepresentedFigures` already
+merges overlapping represented-side figures, just on the opposing side.
+This reproduces on any future case where one party pleads several
+alternative theories for one disputed amount — common in contract/lien
+disputes (breach + unjust enrichment + lien foreclosure, as here) and
+likely in lending-foreclosure matters generally. Not applied — this is
+code in `supabase/functions/case-valuation-analyze/`, Jeff-gated and not
+cloud-deployable regardless.
+
 ## What we have learned (calculator track)
 
 <!-- dated lines added as proposals here are later tested or Jeff rules on them -->
@@ -648,3 +718,21 @@ matters, both squarely within CREdocket's calculator categories.
   contradicts its mechanical `damagesRange` (as it did here), that
   contradiction itself is worth tracing through the math before assuming
   the number is a real, if surprising, model judgment.
+- 2026-10-26: Followed up on 2026-10-25's other, less-certain flag (the
+  `windsor-tower-v-speedy-maintenance-2024` flip) and confirmed it as a
+  second, distinct bug, not just a hunch: when one disputed dollar figure
+  is pled as several alternative opposing legal theories (here, one
+  $66,000 lien under three theories), the case-level mechanical loop in
+  `index.ts` sums each theory's expected-value contribution independently
+  instead of once, because `dedupeRepresentedFigures()` only dedupes the
+  represented side (`valuation-math.ts` line 85 explicitly skips
+  `claimant === "opposing"`). Confirmed the exact arithmetic reproduces the
+  saved prediction's `damagesRange[0]` to the dollar. This bug lives in the
+  shared aggregation step, not in `v6IssueRange`, so it is not v6-specific
+  — it has just never shown up in the v4.3 miss analysis because no scored
+  v4.3 case happened to have this shape. Next time: when a flagged
+  "hunch" names a specific mechanism (here, "likely overstating ~3x" from
+  three similar-looking opposing issues), re-deriving the exact published
+  number from the code's own formula (not just eyeballing issue counts) is
+  what turns a hunch into a confirmed, fixable bug — the same method that
+  worked for the `cle-venture-fund` credit bug the day before.
