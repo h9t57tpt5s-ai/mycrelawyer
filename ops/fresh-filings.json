@@ -1,7 +1,51 @@
 {
- "updatedAt": "2026-10-26T00:38:31+00:00",
+ "updatedAt": "2026-10-26T17:38:16+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "Pryor Legacy Properties, LLC",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "courtId": "txsb",
+   "docketNumber": "26-37989",
+   "dateFiled": "2026-10-26",
+   "docketUrl": "https://www.courtlistener.com/docket/75018085/pryor-legacy-properties-llc/",
+   "docketId": 75018085,
+   "slug": "pryor-legacy-properties-llc-txsb-26-37989",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "8300 NW 166, LLC",
+   "court": "United States Bankruptcy Court, S.D. Florida.",
+   "courtId": "flsb",
+   "docketNumber": "26-24150",
+   "dateFiled": "2026-10-26",
+   "docketUrl": "https://www.courtlistener.com/docket/75017406/8300-nw-166-llc/",
+   "docketId": 75017406,
+   "slug": "8300-nw-166-llc-flsb-26-24150",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "HAWAII OCEAN PLAZA LP",
+   "court": "United States Bankruptcy Court, C.D. California",
+   "courtId": "cacb",
+   "docketNumber": "2:26-bk-20766",
+   "dateFiled": "2026-10-25",
+   "docketUrl": "https://www.courtlistener.com/docket/75017384/hawaii-ocean-plaza-lp/",
+   "docketId": 75017384,
+   "slug": "hawaii-ocean-plaza-lp-cacb-2-26-bk-20766",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "HAWAII CITY PLAZA LP",
+   "court": "United States Bankruptcy Court, C.D. California",
+   "courtId": "cacb",
+   "docketNumber": "2:26-bk-20765",
+   "dateFiled": "2026-10-25",
+   "docketUrl": "https://www.courtlistener.com/docket/75017380/hawaii-city-plaza-lp/",
+   "docketId": 75017380,
+   "slug": "hawaii-city-plaza-lp-cacb-2-26-bk-20765",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "KRCM 1 Realty Corp.",
    "court": "United States Bankruptcy Court, E.D. New York",
@@ -11,6 +55,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/75015879/krcm-1-realty-corp/",
    "docketId": 75015879,
    "slug": "krcm-1-realty-corp-nyeb-1-26-44940",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Hunt Properties Jackson, GP and HS Jackson, LLC",
+   "court": "United States Bankruptcy Court, W.D. Tennessee",
+   "courtId": "tnwb",
+   "docketNumber": "26-11592",
+   "dateFiled": "2026-10-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75011991/hunt-properties-jackson-gp-and-hs-jackson-llc/",
+   "docketId": 75011991,
+   "slug": "hunt-properties-jackson-gp-and-hs-jackson-llc-tnwb-26-11592",
    "type": "Chapter 11 petition"
   },
   {
