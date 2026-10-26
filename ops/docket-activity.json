@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-25T13:48:07+00:00",
+ "updatedAt": "2026-10-26T16:15:09+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 20,
+ "requestsUsed": 17,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -951,6 +951,27 @@
      "ruling": true
     },
     {
+     "date": "2026-10-23",
+     "number": 21,
+     "text": "Exhibit 3. Proposed Judgment as to RAD Diversified REIT, Inc.",
+     "url": "https://www.courtlistener.com/docket/73687065/21/3/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": true
+    },
+    {
+     "date": "2026-10-23",
+     "number": 21,
+     "text": "Exhibit 2. RAD Diversified REIT, Inc.'s Consent",
+     "url": "https://www.courtlistener.com/docket/73687065/21/2/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-23",
+     "number": 21,
+     "text": "Exhibit 1. Order Approving Partial Settlement with SEC",
+     "url": "https://www.courtlistener.com/docket/73687065/21/1/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": true
+    },
+    {
      "date": "2026-10-07",
      "number": 19,
      "text": "Extension of Time to File Answer / Respond to Complaint",
@@ -969,27 +990,6 @@
      "number": null,
      "text": "Order on Motion for Extension of Time to Answer AND Order on Motion for Extension of Time to Answer",
      "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 17,
-     "text": "Disclosure Statement - LR 3.03 and FRCP 7.1",
-     "url": "https://www.courtlistener.com/docket/73687065/17/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-23",
-     "number": 15,
-     "text": "Extension of Time to File Answer / Respond to Complaint",
-     "url": "https://www.courtlistener.com/docket/73687065/15/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-23",
-     "number": 14,
-     "text": "Notice of appearance",
-     "url": "https://www.courtlistener.com/docket/73687065/14/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
      "ruling": false
     }
    ],
@@ -1618,6 +1618,32 @@
    "entry": 21,
    "url": "https://www.courtlistener.com/docket/73687065/21/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
    "firstSeen": "2026-10-24"
+  },
+  {
+   "key": "73687065:21:2026-10-23:exhibit 3. proposed judgment as to rad diversified reit, inc.",
+   "docketId": "73687065",
+   "caseIds": [
+    "live-005"
+   ],
+   "date": "2026-10-23",
+   "kind": "ruling",
+   "text": "Exhibit 3. Proposed Judgment as to RAD Diversified REIT, Inc.",
+   "entry": 21,
+   "url": "https://www.courtlistener.com/docket/73687065/21/3/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "key": "73687065:21:2026-10-23:exhibit 1. order approving partial settlement with sec",
+   "docketId": "73687065",
+   "caseIds": [
+    "live-005"
+   ],
+   "date": "2026-10-23",
+   "kind": "ruling",
+   "text": "Exhibit 1. Order Approving Partial Settlement with SEC",
+   "entry": 21,
+   "url": "https://www.courtlistener.com/docket/73687065/21/1/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+   "firstSeen": "2026-10-26"
   },
   {
    "key": "67174489:1620:2026-10-15:entry of judgment re: doc. no. 1619 in 3:23-md-03071. associated cases: 3:23-md-03071, 3:22-cv-01082, 3:23-cv-00332, 3:23-cv-00357, 3:23-cv-00378, 3:23-cv-00413",

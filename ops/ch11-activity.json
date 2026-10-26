@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T13:49:59+00:00",
+ "updatedAt": "2026-10-26T16:18:43+00:00",
  "source": "CourtListener RECAP archive (federal courts only): orders, judgments, dismissals and closings on recent commercial real estate Chapter 11 dockets. Entries appear when CourtListener receives them, so some are late or missing.",
  "errors": [],
  "dockets": {
@@ -1235,7 +1235,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "mw-properties-orlando-llc-flmb-6-26-bk-07563",
    "court": "Bankr. M.D. Fla.",
    "docketNumber": "6:26-bk-07563",
@@ -1260,7 +1260,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "63-spring-lafayette-llc-deb-26-11537",
    "court": "Bankr. D. Del.",
    "docketNumber": "26-11537",
@@ -1285,7 +1285,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "106-washington-ave-limited-liability-company-njb-26-21071",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21071",
@@ -1303,7 +1303,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "6363-west-73rd-street-llc-ilnb-26-16232",
    "court": "Bankr. N.D. Ill.",
    "docketNumber": "26-16232",
@@ -1313,7 +1313,7 @@
   },
   "74903821": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "ppw-realty-1414-w-3rd-st-llc-njb-26-21190",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21190",
@@ -1338,7 +1338,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "lee-properties-sc-llc-ncmb-26-10768",
    "court": "Bankr. M.D.N.C.",
    "docketNumber": "26-10768",
@@ -1363,7 +1363,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "sunset-properties-llc-miwb-26-03127",
    "court": "Bankr. W.D. Mich.",
    "docketNumber": "26-03127",
@@ -1373,7 +1373,7 @@
   },
   "74910883": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "lvlm-murray-properties-llc-pawb-26-22766",
    "court": "Bankr. W.D. Pa.",
    "docketNumber": "26-22766",
@@ -1391,7 +1391,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "university-campus-hotel-fund-l-p-a-california-l-cacb-6-26-bk-18337",
    "court": "Bankr. C.D. Cal.",
    "docketNumber": "6:26-bk-18337",
@@ -1409,7 +1409,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "maxkar-properties-llc-vaeb-26-34099",
    "court": "Bankr. E.D. Va.",
    "docketNumber": "26-34099",
@@ -1476,7 +1476,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "american-hospitality-properties-reit-inc-txnb-26-80071",
    "court": "Bankr. N.D. Tex.",
    "docketNumber": "26-80071",
@@ -1501,7 +1501,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "american-hospitality-properties-reit-ii-inc-txnb-26-80072",
    "court": "Bankr. N.D. Tex.",
    "docketNumber": "26-80072",
@@ -1526,7 +1526,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "dmk-real-estate-holdings-llc-pamb-5-26-bk-02893",
    "court": "Bankr. M.D. Penn.",
    "docketNumber": "5:26-bk-02893",
@@ -1544,7 +1544,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "200-arpeggio-way-llc-ganb-26-63452",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63452",
@@ -1597,7 +1597,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "cornerstone-development-llc-ganb-26-63513",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63513",
@@ -1615,7 +1615,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "janam-taccoa-lodging-llc-ganb-26-63515",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63515",
@@ -1633,7 +1633,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "travis-property-owner-llc-txnb-26-90220",
    "court": "Bankr. N.D. Tex.",
    "docketNumber": "26-90220",
@@ -1643,7 +1643,7 @@
   },
   "74922668": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "zap-realty-corp-nyeb-1-26-44683",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44683",
@@ -1653,7 +1653,7 @@
   },
   "74923277": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "teas-ridge-retail-center-i-llc-txsb-26-37551",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-37551",
@@ -1685,7 +1685,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "fortapache-realty-llc-ganb-26-63569",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63569",
@@ -1717,7 +1717,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "lesam-realty-llc-ganb-26-63571",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63571",
@@ -1727,7 +1727,7 @@
   },
   "74923616": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "savage-squad-properties-llc-txsb-26-37555",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-37555",
@@ -1737,7 +1737,7 @@
   },
   "74924804": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "lza-real-properties-east-llc-txwb-26-12003",
    "court": "Bankr. W.D. Tex.",
    "docketNumber": "26-12003",
@@ -1762,7 +1762,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "keinan-properties-llc-ksb-26-21557",
    "court": "Bankr. D. Kan.",
    "docketNumber": "26-21557",
@@ -1772,7 +1772,7 @@
   },
   "74928132": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "jrm-real-estate-holdings-llc-njb-26-21388",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21388",
@@ -1790,7 +1790,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "4210-w-carmen-st-llc-flmb-8-26-bk-09102",
    "court": "Bankr. M.D. Fla.",
    "docketNumber": "8:26-bk-09102",
@@ -1800,7 +1800,7 @@
   },
   "74929738": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "limo-realty-corp-nyeb-1-26-44694",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44694",
@@ -1839,7 +1839,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "total-care-medical-center-llc-scb-26-04676",
    "court": "Bankr. D.S.C.",
    "docketNumber": "26-04676",
@@ -1849,7 +1849,7 @@
   },
   "74937404": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "148-bay-43rd-llc-nyeb-1-26-44720",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44720",
@@ -1895,7 +1895,7 @@
      "ruling": true
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "315-south-beverly-drive-llc-cacb-2-26-bk-20221",
    "court": "Bankr. C.D. Cal.",
    "docketNumber": "2:26-bk-20221",
@@ -1913,7 +1913,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "access-real-estate-holdings-llc-flmb-8-26-bk-09241",
    "court": "Bankr. M.D. Fla.",
    "docketNumber": "8:26-bk-09241",
@@ -1923,7 +1923,7 @@
   },
   "74950114": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "2911-creative-l-l-c-nceb-26-04620",
    "court": "Bankr. E.D.N.C.",
    "docketNumber": "26-04620",
@@ -1933,7 +1933,7 @@
   },
   "74950462": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "a-j-realty-miami-llc-flsb-26-23604",
    "court": "Bankr. S.D. Florida",
    "docketNumber": "26-23604",
@@ -1943,7 +1943,7 @@
   },
   "74952134": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "30-quabeck-avenue-llc-njb-26-21578",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21578",
@@ -1953,7 +1953,7 @@
   },
   "74960812": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "n-r-s-realty-llc-njb-26-21651",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21651",
@@ -1963,7 +1963,7 @@
   },
   "74969627": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "1333-prospect-corp-nyeb-1-26-44834",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44834",
@@ -1973,7 +1973,7 @@
   },
   "74972033": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "emcee-realty-llc-nyeb-1-26-44843",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44843",
@@ -1983,7 +1983,7 @@
   },
   "74976375": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "madison-development-llc-nysb-26-12467",
    "court": "Bankr. S.D.N.Y.",
    "docketNumber": "26-12467",
@@ -1993,7 +1993,7 @@
   },
   "74978675": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "1162-st-john-s-place-llc-nyeb-1-26-44853",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44853",
@@ -2003,7 +2003,7 @@
   },
   "74978793": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "edson-avenue-development-group-llc-nysb-26-23033",
    "court": "Bankr. S.D.N.Y.",
    "docketNumber": "26-23033",
@@ -2070,7 +2070,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "kdj-properties-llc-ndb-26-30893",
    "court": "Bankr. D.N.D.",
    "docketNumber": "26-30893",
@@ -2080,7 +2080,7 @@
   },
   "74988901": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "1065-amboy-avenue-llc-njb-26-21855",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21855",
@@ -2112,7 +2112,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "north-eastern-expansion-development-corp-nynb-26-11215",
    "court": "Bankr. N.D.N.Y.",
    "docketNumber": "26-11215",
@@ -2122,7 +2122,7 @@
   },
   "74990809": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "780-e-24th-street-llc-njb-26-21876",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21876",
@@ -2132,7 +2132,7 @@
   },
   "74993843": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "horizon-property-partnership-a-texas-partnership-txsb-26-37869",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-37869",
@@ -2142,7 +2142,7 @@
   },
   "74994142": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "lord-properties-ii-llc-flsb-26-23975",
    "court": "Bankr. S.D. Florida",
    "docketNumber": "26-23975",
@@ -2160,7 +2160,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "216-greene-ave-group-llc-nyeb-1-26-44894",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44894",
@@ -2170,7 +2170,7 @@
   },
   "74997471": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "69-79-west-main-st-llc-nysb-26-23052",
    "court": "Bankr. S.D.N.Y.",
    "docketNumber": "26-23052",
@@ -2180,7 +2180,7 @@
   },
   "75000919": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "620-hudson-house-llc-nynb-26-11232",
    "court": "Bankr. N.D.N.Y.",
    "docketNumber": "26-11232",
@@ -2190,17 +2190,17 @@
   },
   "75011991": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "hunt-properties-jackson-gp-tnwb-26-11592",
    "court": "Bankr. W.D. Tenn.",
    "docketNumber": "26-11592",
    "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/75011991/hunt-properties-jackson-gp/",
+   "url": "https://www.courtlistener.com/docket/75011991/hunt-properties-jackson-gp-and-hs-jackson-llc/",
    "lastEntryDate": null
   },
   "75014282": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "frama-realty-corp-ctb-26-50789",
    "court": "Bankr. D. Conn.",
    "docketNumber": "26-50789",
@@ -2210,7 +2210,7 @@
   },
   "75015879": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "krcm-1-realty-corp-nyeb-1-26-44940",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44940",
@@ -2220,7 +2220,7 @@
   },
   "75016013": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "5-star-tech-i-holdco-llc-txsb-26-90817",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90817",
@@ -2230,7 +2230,7 @@
   },
   "75016027": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "5-star-tech-ii-1-holdco-llc-txsb-26-90819",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90819",
@@ -2240,7 +2240,7 @@
   },
   "75016028": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "5-star-tech-i-propco-llc-txsb-26-90818",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90818",
@@ -2250,7 +2250,7 @@
   },
   "75016033": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "5-star-tech-ii-1-propco-llc-txsb-26-90820",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90820",
@@ -2260,7 +2260,7 @@
   },
   "75016035": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "5-star-tech-ii-4-holdco-llc-txsb-26-90821",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90821",
@@ -2270,7 +2270,7 @@
   },
   "75016067": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "5-star-tech-ii-4-propco-llc-txsb-26-90822",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90822",
@@ -2280,7 +2280,7 @@
   },
   "75016081": {
    "entries": [],
-   "checkedAt": "2026-10-25",
+   "checkedAt": "2026-10-26",
    "slug": "5-star-tech-i-l5-llc-txsb-26-90823",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90823",
