@@ -789,6 +789,23 @@
    "checkAfter": "2026-11-02",
    "status": "watching",
    "note": "Hand-traced the saved results-v6/windsor-tower-v-speedy-maintenance-2024.json prediction against the live code (no API spend): Speedy's single $66,000 disputed mechanics-lien claim is pled as three alternative opposing legal theories (contract breach, unjust enrichment, lien foreclosure), each an independent issue with the same figure and probabilityRange. dedupeRepresentedFigures() (valuation-math.ts line 85) explicitly skips opposing issues, so index.ts's mechanical per-issue loop (lines ~2776-2793) sums each theory's expected-value contribution separately -- 3 x (0.2 * -66000) = -39600 instead of one -13200 -- and the arithmetic reproduces the saved damagesRange[0]=-18138 to the dollar. Confirmed this is in the shared aggregation step (not v6IssueRange), so v4.3/v4.4 share the same latent bug; it just hasn't shown up in any scored v4.3 case yet. No code changed (Jeff-gated, and not cloud-deployable regardless). Full trace and proposed fix shape (merge same-figure alternative opposing theories into one issue before the mechanical loop, same pattern dedupeRepresentedFigures already uses for the represented side) in ops/calculator-proposals.md's 2026-10-26 entry; G15 updated with a fourth concrete decision."
+  },
+  {
+   "id": "imp-035",
+   "date": "2026-10-26",
+   "track": "traffic",
+   "title": "No substantial change: every goal's tracked metric already has an open watching experiment; refreshed LinkedIn drafts and verified a procurement fact instead",
+   "why": "Second run today. Nothing new to judge (imp-020/imp-022 already judged this morning; earliest remaining checkAfter is imp-009's 2026-10-28). Checked the one-open-experiment-per-goal rule by metric: traffic (imp-009 open on visits7/googleLandings7), conversion (imp-033 open on newsletterSignups7/signUps7/multiPageRate7), calculator (imp-016 open on calculatorViews7; imp-011/025/026/028/032/034 evidence-only on finalRangeHitRate, Jeff-gated), news (imp-030 open on all three metrics, already on track), subscription (imp-029, weak-proxy only) -- every goal's real metric is blocked this run. Ruled out the alternatives before defaulting to backlog filler: G12 (new state/category page) would land on the exact visits7/googleLandings7 metrics imp-009 is already watching with checkAfter 2 days out, so building it now would reconfound that read; more G3/G15 calculator evidence work was not repeated because the original 32-case v4.3 miss set is fully analyzed (imp-011/025) and both flagged v6/v6.1 flips from 2026-10-25 are now confirmed bugs (imp-032, imp-034) with no further flagged anomaly to trace for free. ops/social-drafts/ had only one new eligible matter since imp-031 (2026-10-24) -- live-334, no individual named -- too thin for a full refresh but drafted anyway. Used the rest of the run to verify rather than build: checked data-security.html/procurement.html's Anthropic API data-retention claims (30 days default, 2 years for flagged content) against Anthropic's own current privacy-center article via WebSearch (this environment can't WebFetch); confirmed still accurate, nothing to correct.",
+   "files": [
+    "ops/social-drafts/2026-10-26.md",
+    "ops/metrics/goals.json",
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "f0f93fc",
+   "metric": "none -- no goal metric watches a social-drafts refresh or a fact-check that found nothing wrong",
+   "window": "n/a",
+   "status": "no-op",
+   "note": "ops/metrics/goals.json was refreshed via goal_scoreboard.py for today's current numbers (no logic change), same as prior runs' practice (e.g. imp-027). site_audit.py counts unchanged before/after (brokenLinks/orphanPages/missingFromSitemap all 0; missingDescription 2 / weakDescription 1 unchanged, both already-explained)."
   }
  ]
 }
