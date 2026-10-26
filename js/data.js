@@ -251,7 +251,8 @@ const RELAW_DATA = {
       ],
       timeline: [
         { when: "July 29, 2026", label: "SEC sues RAD Diversified REIT, its co-founders, and an affiliated entity" },
-        { when: "October 23, 2026", label: "Court enters an order approving a consent judgment in the case (docket entry 21)", current: true }
+        { when: "October 23, 2026", label: "Court enters an order approving a consent judgment in the case (docket entry 21)" },
+        { when: "October 23, 2026", label: "Docket exhibits to that order show the settlement approved is partial, with a proposed judgment filed as a separate exhibit (docket entry 21)", current: true }
       ],
       documentUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26596",
       documentLabel: "Read the SEC litigation release",
