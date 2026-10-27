@@ -813,7 +813,16 @@
    "track": "calculator",
    "title": "No change",
    "why": "No watching entries due (earliest checkAfter is imp-009, 2026-10-28). All four numeric goals blocked by their own open experiments on the exact metric a new change would move: traffic (imp-009, visits7/googleLandings7), conversion (imp-033, newsletterSignups7/signUps7/multiPageRate7 -- all three conversion metrics), calculator (imp-016, calculatorViews7; finalRangeHitRate is Jeff-gated regardless), news (imp-030, all three of its metrics, already on track anyway). Audit clean (pagesChecked 715, no breakage). Tested whether subscription (no dedicated metric, not gridlocked the same way) had a real gap per imp-029 own 2026-10-23 instruction to look within the five checklist items rather than assume: re-read monitor.html/coverage.html/alert-log.html and cross-checked every factual claim (Hillsborough/Harris County sources, SEC 8-K Items 1.03/2.04/3.01 portfolio-alert claim, Slack delivery) against the live code and the 2026-09-19 migration -- all accurate, nothing new to build. Free-replayed G15 decision 4 (opposing-side figure-dedup bug) against all 47 scored results-v4.3/*.json files -- zero occurrences, confirming (not just assuming) the bug has not yet surfaced in an existing scored case. ops/social-drafts/ has nothing new since the 2026-10-26 refresh (no addedDate after 2026-10-26 in js/data.js). G12 traffic page deliberately not shipped -- would reconfound imp-009, due tomorrow. Nothing worthwhile was safe to ship without confounding an open experiment or repeating exhausted evidence work.",
-   "status": "no-op"
+   "status": "no-op",
+   "files": [
+    "ops/improvement-log.json",
+    "ops/improvement-playbook.md",
+    "ops/metrics/goals.json"
+   ],
+   "commit": "0d83fe2",
+   "metric": "none -- no goal metric watches a no-op",
+   "window": "n/a",
+   "note": "ops/metrics/goals.json refreshed via goal_scoreboard.py for today current numbers (no logic change). site_audit.py counts unchanged (all breakage counters 0; missingDescription 2 / weakDescription 1 unchanged, both already-explained noindex/pre-existing pages)."
   }
  ]
 }
