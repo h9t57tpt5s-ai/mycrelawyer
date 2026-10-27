@@ -1,5 +1,9 @@
 {
  "handled": {
+  "opinion:11045740": {
+   "at": "2026-10-27",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"] and defendant (Burke) has no business-entity suffix"
+  },
   "petition:https://www.courtlistener.com/docket/74989518/north-eastern-expansion-development-corp/": {
    "at": "2026-10-21",
    "action": "skipped: no coverage found explaining the filing"
