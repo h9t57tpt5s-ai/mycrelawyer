@@ -1,7 +1,26 @@
 {
- "updatedAt": "2026-10-27T13:10:46+00:00",
+ "updatedAt": "2026-10-27T18:40:37+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001361658-26-000064:wyn-20260930.htm",
+   "company": "Travel & Leisure Co.  (TNL)",
+   "cik": "1361658",
+   "sic": "7011",
+   "form": "10-Q",
+   "filed": "2026-10-27",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1361658/000136165826000064/wyn-20260930.htm",
+   "phrases": [
+    "filed a petition"
+   ],
+   "excerpts": [
+    "On March 21, 2023, the California Office of Tax Appeals (\u201cOTA\u201d) issued an opinion in favor of the California Franchise Tax Board on a legacy tax matter involving ABG related to a 1999 transaction. The matter concerned (i) whether the statute of limitations barred proposed assessment notices issued by the California Franchise Tax Board; and (ii) whether a transaction undertaken by the taxpayers for the 1999 tax year constituted a tax-free reorganization under the Internal Revenue Code. ABG filed a petition for rehearing in 2023. On April 10, 2024, the OTA denied ABG\u2019s petition. On May 27, 2025, the Company paid $ 24 million for its share of the taxes and interest, and was reimbursed $ 8 million by Wyndham 40 Table of Contents Hotels for its one-third portion. On April 21, 2026, ABG filed a Claim for Refund of Corporate Income Tax with the California Franchise Tax Board."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-10-27"
+  },
   {
    "key": "0001035443-26-000076:are-20260930.htm",
    "company": "ALEXANDRIA REAL ESTATE EQUITIES, INC.  (ARE)",
