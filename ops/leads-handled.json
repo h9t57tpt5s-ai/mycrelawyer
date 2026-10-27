@@ -875,6 +875,70 @@
   "5-star-tech-i-holdco-llc-txsb-26-90817": {
    "at": "2026-10-26",
    "action": "skipped: no source confirms this specific October 2026 filing; naming convention matches the known Five Star Development/Ritz-Carlton El Paso-Socorro Chapter 11 case (filed Nov 2025, Madison Realty Capital $585M loan) but connection unconfirmed"
+  },
+  "opinion:11045969": {
+   "at": "2026-10-27",
+   "action": "skipped: attorney-fee appeal with no stated final award amount or authoring judge in the available opinion text (fee request $322,798.50, trial court awarded 'substantially less', amount not given); insufficient detail to write a verified matter"
+  },
+  "opinion:11045963": {
+   "at": "2026-10-27",
+   "action": "matter live-336"
+  },
+  "opinion:11045942": {
+   "at": "2026-10-27",
+   "action": "skipped: residential landlord's regulatory-takings claim stemming from Seattle rent-control/eviction-moratorium ordinances on a low-income apartment complex -- out of scope (residential landlord rent-control claims)"
+  },
+  "opinion:11045908": {
+   "at": "2026-10-27",
+   "action": "skipped: residential home-sale-proceeds dispute between two individuals, not commercial real estate"
+  },
+  "opinion:11045759": {
+   "at": "2026-10-27",
+   "action": "skipped: individual homeowners' zoning variance appeal for a residential fence, not commercial real estate"
+  },
+  "opinion:11045755": {
+   "at": "2026-10-27",
+   "action": "skipped: unemployment-benefits appeal (Board of Review), not a real estate matter; matchedTerms false-positive on 'warehouse'/'foreclos'"
+  },
+  "opinion:11045965-citibank-burke": {
+   "at": "2026-10-27",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly ['foreclos','mortgage'] with individual defendant (Burke), no business-entity suffix"
+  },
+  "petition:https://www.courtlistener.com/docket/75022268/wilton-pointe-apartments-llc/": {
+   "at": "2026-10-27",
+   "action": "skipped: no coverage found explaining the filing (apartment owner; code-violation/mortgage-default news found but nothing confirming a Chapter 11 filing)"
+  },
+  "petition:https://www.courtlistener.com/docket/75018085/pryor-legacy-properties-llc/": {
+   "at": "2026-10-27",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75017406/8300-nw-166-llc/": {
+   "at": "2026-10-27",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75017384/hawaii-ocean-plaza-lp/": {
+   "at": "2026-10-27",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75017380/hawaii-city-plaza-lp/": {
+   "at": "2026-10-27",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75011991/hunt-properties-jackson-gp-and-hs-jackson-llc/": {
+   "at": "2026-10-27",
+   "action": "skipped: no coverage found explaining the filing (bare docket lead, no named major sponsor or lender)"
+  },
+  "https://www.courtlistener.com/docket/75020285/smolinski-properties-llc-v-westchester-surplus-lines-insurance-company/": {
+   "at": "2026-10-27",
+   "action": "skipped: no coverage found explaining the property-insurance coverage dispute"
+  },
+  "0001035443-26-000076:are-20260930.htm": {
+   "at": "2026-10-27",
+   "action": "matter live-337"
+  },
+  "0001035443-26-000077:a3q26ex991supp.htm": {
+   "at": "2026-10-27",
+   "action": "matter live-337 (duplicate disclosure, same filer/day, 8-K exhibit restating the 10-Q item)"
   }
  }
 }

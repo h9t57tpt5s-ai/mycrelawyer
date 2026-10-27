@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-26",
+  lastUpdatedDate: "2026-10-27",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -11519,6 +11519,86 @@ const RELAW_DATA = {
         { when: "May 2026", label: "Circuit Court Judge Timothy Sanner rejects the county's bid to enter the full 8,500-page legislative record, ordering a narrower revised set instead" },
         { when: "October 20, 2026", label: "Case reaches a hearing in Goochland Circuit Court on the county's demurrer; county officials express confidence the suit will be dismissed", current: true }
       ]
+    },
+    {
+      id: "live-336",
+      seoTitle: "Quincy, IL Billboard Lease: Appeals Court Limits Landlord's Payout",
+      seoDescription: "Illinois appeals court found Link Media Midwest converted Michelmann's billboard structures, but capped recovery at nominal damages for lack of proof.",
+      addedDate: "2026-10-27",
+      title: "Illinois Appeals Court: Landlord Proved Conversion of Its Billboard Structures, But Gets Only Nominal Damages",
+      brief: "An Illinois appeals court found Link Media Midwest converted billboard structures on Michelmann's leased Quincy lot, but limited recovery to nominal damages because Michelmann never proved the structures' fair market value.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-26",
+      jurisdiction: "Appellate Court of Illinois, Fourth District",
+      state: "IL",
+      amount: "Nominal damages for conversion (lease rent was $400/year with 10% annual increases under the operative 1987 lease); fair market value of the removed billboard structures not proven",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11045963/michelmann-steel-construction-co-v-link-media-midwest-llc/",
+      summary: "The Illinois Appellate Court's Fourth District ruled on October 26, 2026 in Michelmann Steel Construction Co. v. Link Media Midwest, LLC that Link Media, an outdoor-advertising company, converted billboard structures it removed from a Quincy, Illinois lot it leased from landlord Michelmann Steel Construction Company, reversing the trial court on that point. But because Michelmann never offered evidence of the structures' fair market value, as opposed to their replacement cost, the court held Michelmann is entitled only to nominal damages, and otherwise affirmed the Adams County circuit court's rulings, including a judgment in Michelmann's favor on unpaid rent under the decades-old lease.",
+      significance: "The decision is a two-sided guide for commercial landlords and tenants dealing with structures left on leased land: a landlord can win on liability for a tenant's unauthorized removal of fixtures but still walk away with essentially nothing if it cannot put a dollar figure on what was taken, while a tenant or assignee that lets structures sit past a lease's removal window risks losing ownership of them outright. It also shows how holdover-tenancy elections can quietly extend a legacy lease's original terms, including rent escalators, for new assignees decades after the original parties signed.",
+      body: [
+        "A tenant that dismantles and hauls away structures from a commercial landlord's property has committed conversion, but that finding alone does not put a dollar figure in the landlord's pocket. The Illinois Appellate Court's Fourth District made that point on October 26, 2026, in Michelmann Steel Construction Co. v. Link Media Midwest, LLC, 2026 IL App (4th) 251262-U, reversing a trial court's finding that a landlord lost its conversion claim outright, but limiting the landlord's recovery to nominal damages because it never put on evidence of the removed property's fair market value.",
+        "Michelmann Steel Construction Company, an Illinois corporation, has owned a lot on 24th Street in Quincy, Illinois since at least the 1950s. Beginning with a 1956 agreement with Quincy Outdoor Advertising Co., Michelmann repeatedly leased space on the lot for outdoor billboard structures to a succession of tenants, each lease using largely the same preprinted form: an original one-year term followed by automatic year-to-year renewals for up to five additional years, cut off only by 30 days' written notice. The lease at the center of this case, signed May 1, 1987 with Outdoor Graphics, Inc., set rent at $400 a year with 10% annual increases and let the tenant keep ownership of its billboard structures, removable at any time up to a reasonable time after the lease's termination.",
+        "Link Media Midwest, LLC, a Delaware limited liability company, later became Outdoor Graphics' assignee under that lease. On April 19, 2019, Link Media had the billboard structures on the lot dismantled and removed. Michelmann sued in the Adams County circuit court for conversion, tortious interference with prospective business relationships, and breach of contract for unpaid rent. After a bench trial conducted entirely on documentary evidence, the trial court, the Honorable Scott Douglas Larson presiding, ruled against Michelmann on the conversion and tortious-interference counts but for Michelmann on the rent claim. Both sides appealed: Link Media challenged the rent ruling, and Michelmann cross-appealed the rejection of its conversion and interference claims.",
+        "Writing for a unanimous panel joined by Justices DeArmond and Grischow, Justice Peter C. Cavanagh agreed with the circuit court on most points but sided with Michelmann on conversion. Unless a lease gives a tenant a defined grace period after termination to remove its trade fixtures and personal property, the court held, the tenant must remove that property while it remains in possession as a tenant, whether during the original term, a renewal, or a holdover tenancy, or the property becomes the landlord's. Michelmann did prove conversion under that rule, since Link Media removed structures that had by then become Michelmann's property, but Michelmann presented no evidence of the billboard structures' fair market value, only evidence going to replacement cost, and without authority establishing replacement value as a proper damages measure it was entitled to nominal damages only. The court separately held that Michelmann forfeited its tortious-interference claim by failing to support it with a developed, authority-backed argument on appeal, and that because Michelmann had elected to treat Link Media as a holdover tenant rather than a trespasser, a new lease arose on the same terms as the 1987 lease, including its year-to-year renewal structure, supporting the separate rent judgment against Link Media.",
+        "The court reversed the judgment against Michelmann on the conversion count, remanded with directions to enter judgment for Michelmann on that count and award nominal damages, and otherwise affirmed the trial court across the board.",
+        "The case is a compact lesson for anyone negotiating or litigating a ground lease, billboard easement, or similar arrangement where a tenant's structures sit on someone else's land. A lease's holdover provisions matter long after signing: Michelmann prevailed on its rent claim largely because its decades-old lease language kept renewing the deal on the same terms even after the named tenant disappeared through a chain of assignments. But winning the liability fight over a tenant's unauthorized removal of fixtures is not the same as collecting real money for it; a landlord who wants more than a token damages award needs proof of fair market value in hand, whether from comparable sales, replacement-cost testimony tied to depreciation, or an expert appraisal, not just a statement of what it would cost to rebuild. For tenants and assignees taking over legacy leases, the opinion is a reminder that silence about post-termination removal rights defaults against them: absent an explicit grace period, removal has to happen while possession as a tenant continues, calendared carefully, since an ambiguous or silent lease will be read against a tenant that leaves structures behind too long, and electing to treat an occupant as a holdover rather than pursuing eviction can quietly extend the original lease's terms, including rent escalators, for years beyond what either side expected."
+      ],
+      tags: ["lease dispute", "billboard lease", "conversion", "illinois", "ground lease"],
+      parties: [
+        { name: "Michelmann Steel Construction Company", role: "Plaintiff-Appellee/Cross-Appellant (Landlord)" },
+        { name: "Link Media Midwest, LLC", role: "Defendant-Appellant/Cross-Appellee (Tenant/Assignee)" }
+      ],
+      judge: "Peter C. Cavanagh",
+      amountUsd: null,
+      timeline: [
+        { when: "May 1, 1987", label: "Michelmann leases billboard space on its Quincy lot to Outdoor Graphics, Inc. for $400/year with 10% annual increases" },
+        { when: "April 19, 2019", label: "Assignee Link Media Midwest, LLC has the billboard structures removed from the lot" },
+        { when: "October 26, 2026", label: "Illinois Appellate Court, Fourth District affirms in part, reverses in part, and remands, finding conversion but limiting recovery to nominal damages", current: true }
+      ]
+    },
+    {
+      id: "live-337",
+      seoTitle: "Alexandria Real Estate vs. NYC: Life-Science Ground Lease Fight",
+      seoDescription: "Alexandria Real Estate Equities is suing NYC Health + Hospitals and the EDC to block termination of a ground-lease option, with $185.9M in pre-construction costs at stake.",
+      addedDate: "2026-10-27",
+      title: "Alexandria Real Estate Fights to Keep Its Option on a Manhattan Life-Science Expansion Parcel From New York City",
+      brief: "Alexandria Real Estate Equities is suing NYC Health + Hospitals and the city's Economic Development Corporation to stop them from terminating its option to expand its Manhattan life-science megacampus, after sinking $185.9 million into pre-construction costs.",
+      category: "lease-disputes",
+      status: "pending",
+      date: "2026-05-12",
+      jurisdiction: "Supreme Court of the State of New York, New York County (Commercial Division)",
+      state: "NY",
+      amount: "$185.9 million in pre-construction costs tied to the disputed ground-lease option; default notice threatens escalating $1,000-$2,000/day charges",
+      source: "live",
+      sourceUrl: "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000076/are-20260930.htm",
+      summary: "Alexandria Real Estate Equities disclosed in its October 26, 2026 quarterly SEC filing that it remains in litigation with the New York City Health + Hospitals Corporation and the New York City Economic Development Corporation over its option, granted in 2006, to incorporate an adjacent parcel into the ground lease for its Alexandria Center for Life Science megacampus in Manhattan. After suing in the Southern District of New York in 2024 and amending that complaint in January 2025 to add fraud and breach-of-contract claims, Alexandria filed a second action in the Commercial Division of the New York State Supreme Court on May 12, 2026, seeking a Yellowstone injunction and other emergency relief to stop the agencies from terminating the option over an alleged, disputed default.",
+      significance: "Alexandria's $185.9 million in pre-construction spending on the option illustrates how much capital a sophisticated developer can commit toward an unbuilt expansion before the underlying right to build is finally resolved, and how a government landlord's default notice can turn a contract dispute into an existential threat to that investment. The Yellowstone injunction fight is a live example of the tool New York commercial tenants use to freeze cure-period deadlines while a landlord dispute is litigated, relevant to any owner or tenant holding options or expansion rights under a ground lease with a public agency.",
+      body: [
+        "Alexandria Real Estate Equities, Inc., the nation's largest publicly traded owner of life-science laboratory space, disclosed in its third-quarter 2026 SEC filings that it remains locked in litigation with two New York City agencies over its right to incorporate an adjacent land parcel into its flagship Manhattan life-science campus, a dispute that has escalated from a 2024 breach-of-contract suit into a 2026 emergency bid to stop the city from terminating the underlying lease altogether.",
+        "ARE-East River Science Park, LLC, a subsidiary of Alexandria Real Estate Equities, holds an option granted in 2006 to incorporate a parcel of land adjacent to and north of the Alexandria Center for Life Science megacampus into its existing ground lease, which would clear the way for an additional life-science building on the site. According to Alexandria's quarterly report filed October 26, 2026, the company's investment in pre-construction costs tied to the option had reached $185.9 million as of September 30, 2026, a substantial sunk cost riding on the option's continued validity.",
+        "On August 6, 2024, ARE sued the New York City Health + Hospitals Corporation and the New York City Economic Development Corporation in the U.S. District Court for the Southern District of New York, challenging the agencies' handling of the ground lease and option arrangements governing the parcel. ARE amended its complaint on January 24, 2025, adding claims for fraudulent inducement, breach of contract, breach of the implied covenant of good faith and fair dealing, and a request for a declaratory judgment confirming the option remains valid.",
+        "The dispute sharpened in 2026 when the city agencies issued a notice of default, asserting that a failure to cure the alleged defaults within a 30-day cure period would trigger escalating daily charges starting at $1,000 a day and rising to $2,000 a day. Alexandria disputes the notice's underlying allegations and says it intends to defend against them vigorously. Rather than wait out the cure period in the federal case, ARE went to the Commercial Division of the New York State Supreme Court on May 12, 2026, filing a second action against the two agencies seeking a Yellowstone injunction, a New York-specific procedural device that tolls a commercial tenant's cure period and preserves the status quo, along with a preliminary injunction and temporary restraining order to stop the agencies from issuing a notice of termination while the parties' underlying rights are litigated.",
+        "The case is a timely study in the particular risks of long-horizon options and ground leases involving government counterparties. Alexandria's $185.9 million pre-construction exposure shows how far a sophisticated developer can commit capital toward a future building before the underlying right to build is finally resolved, and how quickly a government landlord's default notice can convert a contract dispute into a threat to a years-long capital plan. The Yellowstone injunction mechanism at the center of the state court fight is itself a tool every commercial tenant facing a landlord's default notice in New York should know: filed promptly, it can freeze cure-period deadlines and prevent a landlord from terminating the underlying lease or option while the merits are decided, buying the tenant time it would otherwise lose simply by litigating the contract claims on a slower track.",
+        "Commercial tenants holding options or expansion rights under a ground lease with a government or institutional landlord should track default-notice cure periods closely and know, before a dispute arises, whether a Yellowstone injunction or similar device is available in their jurisdiction to freeze those deadlines while litigation proceeds. Owners contemplating significant pre-construction spending on an option-dependent expansion should weigh how much capital to commit before the underlying right is judicially confirmed, since a dispute over an option's validity can surface years after it was granted, and both sides of a long-term ground lease with layered option and development rights should build in clear, unambiguous default and cure mechanics up front, since the kind of ambiguity that invites a fraudulent-inducement claim on one side and an emergency injunction fight on the other is exactly what years of litigation cost the most to resolve."
+      ],
+      tags: ["ground lease", "life science", "reit", "new york city", "yellowstone injunction"],
+      parties: [
+        { name: "Alexandria Real Estate Equities, Inc.", role: "Plaintiff" },
+        { name: "ARE-East River Science Park, LLC", role: "Plaintiff" },
+        { name: "New York City Health + Hospitals Corporation", role: "Defendant" },
+        { name: "New York City Economic Development Corporation", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 185900000,
+      amountBasis: "other",
+      timeline: [
+        { when: "2006", label: "ARE-East River Science Park, LLC is granted an option to incorporate the adjacent parcel into its ground lease" },
+        { when: "August 6, 2024", label: "ARE sues H+H and EDC in the Southern District of New York over the ground lease and option arrangements" },
+        { when: "January 24, 2025", label: "ARE amends its federal complaint to add fraudulent-inducement and breach-of-contract claims" },
+        { when: "May 12, 2026", label: "ARE files a second action in the Commercial Division of the New York State Supreme Court seeking a Yellowstone injunction and other emergency relief", current: true }
+      ]
     }
   ],
 
@@ -12083,6 +12163,7 @@ const RELAW_DATA = {
      court's own site (docket search, judge assignments, local rules), not
      third-party case-law aggregators. */
   courts: [
+    { jurisdiction: "Appellate Court of Illinois, Fourth District", url: "https://www.illinoiscourts.gov/courts/appellate-court/districts-fourth-district" },
     { jurisdiction: "Appellate Division, First Department, New York", url: "https://www.nycourts.gov/courts/AD1/" },
     { jurisdiction: "Court of Common Pleas, Fayette County, Pennsylvania", url: "https://www.fayettecountypa.org/302/Court-of-Common-Pleas" },
     { jurisdiction: "Circuit Court of St. Louis County, Missouri", url: "https://stlcountycourts.com/" },
@@ -12571,6 +12652,14 @@ const RELAW_DATA = {
       court: "U.S. District Court, Western District of Washington",
       background: "Nominated by President Clinton on May 11, 1998 to a seat vacated by Judge Carolyn R. Dimmick, confirmed by the Senate and commissioned later that year. Served as chief judge of the district from 2004 to 2011 and represented the Ninth Circuit on the Judicial Conference of the United States from 2010 to 2015. Previously served on the King County Superior Court from 1990 to 1998 and in the King County Prosecuting Attorney's Office from 1978 to 1990. Assumed senior status on January 27, 2016.",
       bioUrl: "https://www.fjc.gov/history/judges/lasnik-robert-s"
+    },
+    {
+      name: "Peter C. Cavanagh",
+      slug: "peter-c-cavanagh",
+      title: "Presiding Justice",
+      court: "Appellate Court of Illinois, Fourth District",
+      background: "Assigned by the Illinois Supreme Court to the Fourth District Appellate Court in March 2018, filling the vacancy left by the death of Justice John P. Schmidt, and later elected to retain the seat. Previously a resident Circuit Judge of the Seventh Judicial Circuit, appointed in 2008. Unanimously appointed Presiding Justice of the Fourth District effective February 29, 2024.",
+      bioUrl: "https://www.illinoiscourts.gov/justice/39/Peter-C-Cavanagh/justice"
     }
   ],
 
@@ -12622,6 +12711,7 @@ const RELAW_DATA = {
     { name: "BroadRange Logistics LLC", matchTerm: "BroadRange", slug: "broadrange-logistics", description: "Georgia-based third-party logistics (3PL) operator leasing large warehouse and distribution space across multiple states, named as defendant in separate landlord lawsuits over defaulted industrial leases." },
     { name: "Brookfield Properties", matchTerm: "Brookfield", slug: "brookfield-properties", description: "Global alternative asset manager and one of the world's largest owners and operators of office, retail, and mixed-use commercial real estate, operating through numerous property-level subsidiaries and platforms.", website: "https://www.brookfieldproperties.com" },
     { name: "ACORE Capital", matchTerm: "ACORE", slug: "acore-capital", description: "San Francisco-based commercial real estate debt manager that originates construction, bridge, and CMBS financing nationally, and frequently appears as a lender in commercial foreclosure litigation.", website: "https://acorecapital.com" },
-    { name: "LNR Partners, LLC", matchTerm: "LNR Partners", slug: "lnr-partners", description: "Miami Beach-based CMBS special servicer, a Starwood Property Trust subsidiary, that manages defaulted commercial mortgage loans and frequently pursues foreclosure on behalf of CMBS trust bondholders nationally." }
+    { name: "LNR Partners, LLC", matchTerm: "LNR Partners", slug: "lnr-partners", description: "Miami Beach-based CMBS special servicer, a Starwood Property Trust subsidiary, that manages defaulted commercial mortgage loans and frequently pursues foreclosure on behalf of CMBS trust bondholders nationally." },
+    { name: "Alexandria Real Estate Equities, Inc.", matchTerm: "Alexandria", slug: "alexandria-real-estate-equities", description: "NYSE-listed REIT (ARE) and the nation's largest publicly traded owner and developer of life-science laboratory and office space, concentrated in life-science megacampuses including sites in Manhattan.", website: "https://www.are.com" }
   ]
 };
