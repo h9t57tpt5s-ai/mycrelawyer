@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T18:40:37+00:00",
+ "updatedAt": "2026-10-27T22:56:30+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
   {
@@ -19,6 +19,48 @@
    ],
    "captions": [],
    "courts": [],
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "key": "0001053507-26-000157:amt-20260930.htm",
+   "company": "AMERICAN TOWER CORP /MA/  (AMT)",
+   "cik": "1053507",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-10-27",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000157/amt-20260930.htm",
+   "phrases": [
+    "filed a complaint"
+   ],
+   "excerpts": [
+    "The remainder of the outstanding receivables and the future monthly tower rent amounts not remitted directly to us will be deposited into an irrevocable escrow account, overseen by an independent trustee, to be released in accordance with a final ruling in the Arbitration or by mutual consent of us and AT&T Mexico. DISH Dispute . On September 24, 2025, DISH delivered a notice purporting to be excused from its contractual obligations under our Strategic Collocation Agreement entered into in March 2021 (the \u201cSCA\u201d). On October 20, 2025, we filed a complaint in the U.S. District Court for the District of Colorado seeking a declaratory judgment that DISH had not been excused from its obligations under the SCA, that the SCA remained in full force and effect, and that DISH remained required to perform all of its obligations under the SCA. Thereafter, DISH failed to meet its payment obligations, and as of January 2026, has been in default under the SCA."
+   ],
+   "captions": [],
+   "courts": [
+    "District Court for the District of Colorado"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "key": "0000912593-26-000276:sui-20260930.htm",
+   "company": "SUN COMMUNITIES INC  (SUI)",
+   "cik": "912593",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-10-27",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/912593/000091259326000276/sui-20260930.htm",
+   "phrases": [
+    "putative class action"
+   ],
+   "excerpts": [
+    "Although we have determined the estimated fair value amounts using available market information and commonly accepted valuation methodologies, considerable judgment is required in interpreting market data to develop fair value estimates. The fair value estimates are based on information available as of September 30, 2026. As such, our estimates of fair value could differ significantly from the actual carrying value. 14. Commitments and Contingencies Legal Proceedings - Class Action Litigation Since August 31, 2023, several putative class action complaints have been filed in the U.S. District Court for the Northern District of Illinois, Eastern Division, against Datacomp Appraisal Systems, Inc., us, and several other large MH operators in the U.S. The complaints allege that the defendants have violated federal antitrust laws by sharing and receiving competitively sensitive non-public information to maintain artificially high site rents."
+   ],
+   "captions": [],
+   "courts": [
+    "District Court for the Northern District of Illinois"
+   ],
    "firstSeen": "2026-10-27"
   },
   {
