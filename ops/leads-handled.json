@@ -943,6 +943,26 @@
   "0001035443-26-000077:a3q26ex991supp.htm": {
    "at": "2026-10-27",
    "action": "matter live-337 (duplicate disclosure, same filer/day, 8-K exhibit restating the 10-Q item)"
+  },
+  "petition:https://www.courtlistener.com/docket/75024664/510-washington-street-llc/": {
+   "at": "2026-10-27",
+   "action": "skipped: no coverage found explaining the filing (search found only an older, unrelated '510 Washington Street LLC' Chapter 11 case from Maryland with a different docket number filed January 2026)"
+  },
+  "https://www.courtlistener.com/docket/75025120/norman-properties-llc-v-shell-usa-inc/": {
+   "at": "2026-10-27",
+   "action": "skipped: no coverage found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/75024023/psg-cr-lending-llc-v-mb-ybl-ii-llc/": {
+   "at": "2026-10-27",
+   "action": "skipped: no coverage found explaining the dispute (bare federal-suits docket lead, foreclosure case)"
+  },
+  "opinion:11046130": {
+   "at": "2026-10-27",
+   "action": "skipped: municipal bond issue / public-utility classification dispute over a homeless shelter, individual plaintiffs, not commercial real estate"
+  },
+  "opinion:11046126": {
+   "at": "2026-10-27",
+   "action": "skipped: residential rezoning challenge (agricultural to high-density planned residential development) brought by individual neighboring petitioners against a county, not commercial real estate"
   }
  }
 }

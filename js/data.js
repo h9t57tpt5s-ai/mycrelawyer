@@ -11599,6 +11599,84 @@ const RELAW_DATA = {
         { when: "January 24, 2025", label: "ARE amends its federal complaint to add fraudulent-inducement and breach-of-contract claims" },
         { when: "May 12, 2026", label: "ARE files a second action in the Commercial Division of the New York State Supreme Court seeking a Yellowstone injunction and other emergency relief", current: true }
       ]
+    },
+    {
+      id: "live-338",
+      seoTitle: "Thor Equities Sues Urbana, Ohio Over Data Center Moratorium",
+      seoDescription: "Thor Equities sued Urbana, Ohio in federal court after the city passed a moratorium and rezoned its land, blocking a $1 billion, 460,000-SF data center.",
+      addedDate: "2026-10-27",
+      property: { name: "Urbana Technology Hub", city: "Urbana", state: "OH" },
+      title: "Thor Equities, LLC v. City of Urbana, Ohio (Data Center Moratorium and Targeted Rezoning Suit)",
+      brief: "Thor Equities sued Urbana, Ohio in federal court, saying the city passed an emergency moratorium and rezoned its land to block a $1 billion, 460,000-square-foot data center after Thor had already spent $19.6 million on the project.",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-06-19",
+      jurisdiction: "U.S. District Court for the Southern District of Ohio",
+      state: "OH",
+      amount: "$1 billion proposed data center project; Thor says it spent $19.6 million in preliminary costs before the moratorium",
+      source: "live",
+      sourceUrl: "https://www.datacenterdynamics.com/en/news/thor-equities-files-lawsuit-against-ohios-urbana-after-data-center-moratorium-disrupts-project/",
+      summary: "Thor Equities, LLC sued the City of Urbana, Ohio, its city council, and its building and zoning appeals board in the U.S. District Court for the Southern District of Ohio on June 19, 2026, after the city adopted a 12-month emergency moratorium on data-center development and then rezoned Thor's own parcel to exclude data centers from the M-1 manufacturing district that had previously permitted them. Thor's complaint alleges the moratorium and the city's handling of its administrative appeal violated Ohio law, Urbana's city charter, the zoning code as it stood when Thor applied, and federal due process protections.",
+      significance: "The case is one of the sharpest tests yet of vested-rights protection against a municipality's sudden reversal on a specific, already-pending data-center application, distinguishing it from more generic, districtwide moratorium challenges elsewhere. Developers weighing large site-plan submissions in jurisdictions facing resident opposition to data centers, and municipalities considering a moratorium targeted at a specific pending project, should watch how the Southern District of Ohio resolves the due-process and vested-rights claims here.",
+      body: [
+        "A proposal to build a $1 billion, 460,000-square-foot data center on the edge of Urbana, Ohio has turned into a federal civil rights and zoning fight after the city passed an emergency moratorium and rezoned the developer's own land out from under its pending application. Thor Equities, LLC, the New York-based real estate investment and development firm led by Joseph Sitt, sued the City of Urbana, its city council, and its building and zoning appeals board in the U.S. District Court for the Southern District of Ohio on June 19, 2026.",
+        "Thor's Urbana Technology Hub was planned for a site near the intersection of Ohio 55 and U.S. 68, close to an existing Rittal manufacturing plant, on land zoned M-1 for manufacturing use, a classification that at the time permitted data centers as of right. Thor submitted a complete site plan for the facility in February 2026 and says it had already spent $19.6 million of its own money on preliminary engineering, environmental, and site-development work in reliance on the existing zoning.",
+        "Urbana's city council responded in March 2026 by adopting a 12-month emergency moratorium on new data center development, which Thor's complaint alleges was timed specifically to intercept its pending application before it could be approved under the zoning rules then in effect. The council followed that by rezoning Thor's parcel as unsuitable for data center use and amending the M-1 zoning code to strip data centers of their previously permitted status in that district. Thor alleges both actions violated Ohio law, Urbana's own city charter, the zoning code as it stood when Thor applied, and federal constitutional due process protections.",
+        "The dispute has not stayed confined to the courtroom. Public meetings in Urbana have drawn large, vocal crowds, and a recall effort against Urbana's mayor, Bill Bean, has gathered momentum, reflecting how politically charged the underlying land-use question has become even as the legal fight over vested rights and procedural fairness plays out in federal court.",
+        "Urbana is one of a growing number of jurisdictions, including Wixom, Michigan, Cave City, Kentucky, DeKalb County, Georgia, and Chatham County, North Carolina, facing developer suits over moratoria or rezonings adopted in response to resident opposition to data center campuses. What distinguishes Thor's case is the sequence: it says it filed a complete application before the moratorium existed, and the city then permanently rezoned its specific parcel rather than adopting a districtwide pause, giving Thor a stronger argument that the city targeted its project rather than a generally applicable policy. For developers, the case is a reminder that zoning compliance at the time of filing does not guarantee insulation from a later policy reversal once a project becomes locally controversial, and for municipalities it illustrates the legal exposure of a moratorium a court could find was timed and targeted to defeat one specific, already-pending application rather than adopted as a neutral, generally applicable rule."
+      ],
+      tags: ["data center", "zoning", "moratorium", "vested rights", "ohio"],
+      parties: [
+        { name: "Thor Equities, LLC", role: "Plaintiff" },
+        { name: "City of Urbana, Ohio", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 19600000,
+      amountBasis: "other",
+      timeline: [
+        { when: "February 2026", label: "Thor Equities submits a complete site plan for the Urbana Technology Hub" },
+        { when: "March 2026", label: "Urbana City Council adopts a 12-month emergency moratorium on data-center development" },
+        { when: "June 19, 2026", label: "Thor Equities sues the City of Urbana in the U.S. District Court for the Southern District of Ohio", current: true }
+      ]
+    },
+    {
+      id: "live-339",
+      seoTitle: "ECO TIP West Beats Chatham County Data Center Moratorium",
+      seoDescription: "A Chatham County, NC judge ruled ECO TIP West's data center can proceed despite the county's moratorium, finding the $11M project had vested rights.",
+      addedDate: "2026-10-27",
+      property: { name: "Triangle Innovation Point West", city: "Moncure", state: "NC" },
+      title: "ECO TIP West, LLC v. Chatham County, North Carolina (Data Center Moratorium Vested-Rights Ruling)",
+      brief: "A Chatham County, North Carolina judge granted summary judgment to data center developer ECO TIP West, ruling its $11 million project had vested rights predating the county's moratorium and ordering the county to pay damages for the delay.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-09-22",
+      jurisdiction: "Superior Court of Chatham County, North Carolina",
+      state: "NC",
+      amount: "$11 million invested in the project; county ordered to pay undisclosed damages for the delay",
+      source: "live",
+      sourceUrl: "https://ncnewsline.com/2026/09/22/judge-rules-chatham-county-data-center-can-proceed-despite-moratorium/",
+      summary: "Chatham County Superior Court Judge John Morris granted summary judgment to ECO TIP West, LLC in a ruling reported September 22, 2026, holding that the company's planned 750-megawatt data center at the Triangle Innovation Point West parcel near Moncure could proceed despite the county's 12-month data-center moratorium. ECO TIP West had sued the county on April 23, 2026, arguing that a zoning permit it received on October 29, 2025, more than three months before the February 11, 2026 moratorium, gave it a statutory vested right under North Carolina's Chapter 160D and N.C. Gen. Stat. Section 160D-107(c) that the moratorium could not override.",
+      significance: "The ruling is among the first North Carolina trial court decisions to resolve the vested-rights question now pending in roughly thirty other local jurisdictions statewide that have adopted similar data-center moratoria, and it did more than exempt the project -- it ordered the county to pay damages for the delay. Counties considering a data-center moratorium should inventory recently approved permits before adopting one, and developers with permits predating a moratorium should treat this ruling as persuasive authority for their own vested-rights claims.",
+      body: [
+        "A North Carolina trial judge has ruled that a data center developer's project can proceed despite a county-wide moratorium, offering one of the first clear answers to a legal question now pending in dozens of jurisdictions across the state: does a developer who secured zoning approval before a moratorium took effect have a vested right to keep building anyway? In a summary judgment order reported September 22, 2026, Chatham County Superior Court Judge John Morris sided with the developer, ECO TIP West, LLC, finding no genuine issue of material fact and ruling that the company was entitled to judgment as a matter of law.",
+        "ECO TIP West sued Chatham County in its own Superior Court on April 23, 2026, after county commissioners adopted a 12-month moratorium on new data-center development on February 11, 2026, running until February 11, 2027 or until the county adopts new data-center-specific zoning regulations, whichever comes first. North Carolina news organizations have tracked roughly 30 local governments statewide that have passed comparable moratoria amid a surge of large-scale data-center proposals. ECO TIP West argued its planned 750-megawatt data center at the Triangle Innovation Point West parcel near Moncure, part of the Moncure Megasite, was different: the company received a zoning permit for the project from the county on October 29, 2025, more than three months before the moratorium existed, giving it a statutory by-right use the county could not retroactively strip away.",
+        "The suit invoked North Carolina's Chapter 160D, the state's consolidated local planning and development regulation statute, along with the vested-rights provisions of N.C. Gen. Stat. Section 160D-107(c) and the North Carolina Constitution, seeking a declaratory judgment, compensatory damages, and attorney's fees for the delay the moratorium had already caused. According to reporting on Judge Morris's order, the court agreed on the merits, ruling that the project could proceed and that Chatham County must pay the developer damages for the delay, though public reporting has not disclosed the specific dollar figure awarded. The company has said it had already invested more than $11 million developing the project before the county intervened.",
+        "Data-center moratoria have become one of the fastest-growing categories of commercial land-use litigation nationally, as local governments from Ohio and Michigan to Georgia and Kentucky have reached for temporary building pauses against resident opposition over noise, water consumption, and grid strain. The recurring legal question in nearly every dispute is the same one Chatham County lost: whether a developer that obtained permits or approval before a moratorium's effective date holds a vested right the moratorium cannot touch. Judge Morris's ruling does not resolve that question for every project statewide, since vested-rights analysis is fact-specific, but as one of the first North Carolina trial court rulings to address it directly, with a documented permit predating the moratorium by several months, it is likely to embolden similarly situated developers while giving counties reason to scrutinize permitting status before adopting their own moratoria -- particularly given that the court ordered damages for the delay, not merely a forward-looking exemption."
+      ],
+      tags: ["data center", "zoning", "moratorium", "vested rights", "north carolina"],
+      parties: [
+        { name: "ECO TIP West, LLC", role: "Plaintiff" },
+        { name: "Chatham County, North Carolina", role: "Defendant" }
+      ],
+      judge: "John Morris",
+      amountUsd: 11000000,
+      amountBasis: "other",
+      timeline: [
+        { when: "October 29, 2025", label: "Chatham County issues ECO TIP West a zoning permit for the project" },
+        { when: "February 11, 2026", label: "Chatham County commissioners adopt a 12-month data-center moratorium" },
+        { when: "April 23, 2026", label: "ECO TIP West sues Chatham County in its Superior Court" },
+        { when: "September 22, 2026", label: "Judge John Morris grants summary judgment to ECO TIP West and orders the county to pay damages for the delay", current: true }
+      ]
     }
   ],
 
@@ -12712,6 +12790,7 @@ const RELAW_DATA = {
     { name: "Brookfield Properties", matchTerm: "Brookfield", slug: "brookfield-properties", description: "Global alternative asset manager and one of the world's largest owners and operators of office, retail, and mixed-use commercial real estate, operating through numerous property-level subsidiaries and platforms.", website: "https://www.brookfieldproperties.com" },
     { name: "ACORE Capital", matchTerm: "ACORE", slug: "acore-capital", description: "San Francisco-based commercial real estate debt manager that originates construction, bridge, and CMBS financing nationally, and frequently appears as a lender in commercial foreclosure litigation.", website: "https://acorecapital.com" },
     { name: "LNR Partners, LLC", matchTerm: "LNR Partners", slug: "lnr-partners", description: "Miami Beach-based CMBS special servicer, a Starwood Property Trust subsidiary, that manages defaulted commercial mortgage loans and frequently pursues foreclosure on behalf of CMBS trust bondholders nationally." },
-    { name: "Alexandria Real Estate Equities, Inc.", matchTerm: "Alexandria", slug: "alexandria-real-estate-equities", description: "NYSE-listed REIT (ARE) and the nation's largest publicly traded owner and developer of life-science laboratory and office space, concentrated in life-science megacampuses including sites in Manhattan.", website: "https://www.are.com" }
+    { name: "Alexandria Real Estate Equities, Inc.", matchTerm: "Alexandria", slug: "alexandria-real-estate-equities", description: "NYSE-listed REIT (ARE) and the nation's largest publicly traded owner and developer of life-science laboratory and office space, concentrated in life-science megacampuses including sites in Manhattan.", website: "https://www.are.com" },
+    { name: "Thor Equities", matchTerm: "Thor Equities", slug: "thor-equities", description: "Privately held New York City real estate investment and development firm led by Joseph Sitt, active in retail, mixed-use, and data-center development nationally.", website: "https://thorequities.com" }
   ]
 };
