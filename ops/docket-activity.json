@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-26T16:15:09+00:00",
+ "updatedAt": "2026-10-27T15:28:36+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 17,
+ "requestsUsed": 19,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -63,51 +63,51 @@
     },
     {
      "date": "2026-10-23",
+     "number": 1633,
+     "text": "Exhibit Text of Proposed Order",
+     "url": "https://www.courtlistener.com/docket/67174489/1633/3/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-23",
+     "number": 1633,
+     "text": "Exhibit B - Declarations in Support of Motion",
+     "url": "https://www.courtlistener.com/docket/67174489/1633/2/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-23",
+     "number": 1633,
+     "text": "Exhibit A - Index and Proposed Redactions",
+     "url": "https://www.courtlistener.com/docket/67174489/1633/1/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-23",
+     "number": 1632,
+     "text": "Sealed Document PORTIONS OF DEFENDANTS DAUBERT MOTIONS AND PLAINTIFFS CLASS CERTIFICATION MOTION, INCLUDING CERTAIN SUPPORTING MATERIALS",
+     "url": "https://www.courtlistener.com/docket/67174489/1632/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-23",
      "number": 1631,
      "text": "Leave to File Document under Seal",
      "url": "https://www.courtlistener.com/docket/67174489/1631/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     },
     {
-     "date": "2026-10-20",
-     "number": 1627,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/67174489/1627/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "date": "2026-10-23",
+     "number": 1631,
+     "text": "Exhibit Text of Proposed Order",
+     "url": "https://www.courtlistener.com/docket/67174489/1631/3/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     },
     {
-     "date": "2026-10-19",
-     "number": 1626,
-     "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/67174489/1626/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-19",
-     "number": 1625,
-     "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/67174489/1625/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-19",
-     "number": 1624,
-     "text": "Withdraw as Attorney",
-     "url": "https://www.courtlistener.com/docket/67174489/1624/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-19",
-     "number": 1624,
-     "text": "Motion to Withdraw as Attorney",
-     "url": "https://www.courtlistener.com/docket/67174489/1624/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-18",
-     "number": 1623,
-     "text": "Transcript",
-     "url": "https://www.courtlistener.com/docket/67174489/1623/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "date": "2026-10-23",
+     "number": 1631,
+     "text": "Exhibit B - Declarations in Support of Motion",
+     "url": "https://www.courtlistener.com/docket/67174489/1631/2/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     }
    ],
@@ -281,6 +281,13 @@
   "69353264": {
    "entries": [
     {
+     "date": "2026-10-26",
+     "number": 47,
+     "text": "Order on Motion for Miscellaneous Relief",
+     "url": "https://www.courtlistener.com/docket/69353264/47/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-23",
      "number": 46,
      "text": "Letter",
@@ -328,13 +335,6 @@
      "text": "Joinder",
      "url": "https://www.courtlistener.com/docket/69353264/40/ayer-v-lightstone-value-plus-reit-i-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": null,
-     "text": "Set/Reset Motion and R&R Deadlines/Hearings",
-     "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -344,7 +344,7 @@
    "docketNumber": "3:24-cv-10371",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
-   "lastEntryDate": "2026-10-23"
+   "lastEntryDate": "2026-10-26"
   },
   "69518085": {
    "entries": [
@@ -1005,6 +1005,13 @@
   "73733742": {
    "entries": [
     {
+     "date": "2026-10-26",
+     "number": 55,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/73733742/55/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-21",
      "number": 54,
      "text": "Motion Hearing",
@@ -1052,13 +1059,6 @@
      "text": "Objections",
      "url": "https://www.courtlistener.com/docket/73733742/48/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 47,
-     "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/73733742/47/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1068,7 +1068,7 @@
    "docketNumber": "5:26-cv-05612",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73733742/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-   "lastEntryDate": "2026-10-21"
+   "lastEntryDate": "2026-10-26"
   },
   "73738334": {
    "entries": [
@@ -1335,6 +1335,13 @@
   "74922581": {
    "entries": [
     {
+     "date": "2026-10-26",
+     "number": 32,
+     "text": "BNC certificate of mailing - meeting of creditors",
+     "url": "https://www.courtlistener.com/docket/74922581/32/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-21",
      "number": 31,
      "text": "Cash collateral",
@@ -1382,13 +1389,6 @@
      "text": "Notice (generic)",
      "url": "https://www.courtlistener.com/docket/74922581/25/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 24,
-     "text": "Leave (Not for Appeal use)",
-     "url": "https://www.courtlistener.com/docket/74922581/24/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1398,10 +1398,24 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-10-21"
+   "lastEntryDate": "2026-10-26"
   },
   "74927117": {
    "entries": [
+    {
+     "date": "2026-10-27",
+     "number": 52,
+     "text": "** Not Used ** Notice of Filing of Official Transcript",
+     "url": "https://www.courtlistener.com/docket/74927117/52/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-26",
+     "number": 50,
+     "text": "Appear Telephonically/Video Conference",
+     "url": "https://www.courtlistener.com/docket/74927117/50/southbridge-associates-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-23",
      "number": 48,
@@ -1443,20 +1457,6 @@
      "text": "Certificate of Service AND Certificate of Service of Notice of Hearing",
      "url": "https://www.courtlistener.com/docket/74927117/43/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-20",
-     "number": 42,
-     "text": "Order on Motion for Emergency/Expedited Determination",
-     "url": "https://www.courtlistener.com/docket/74927117/42/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-19",
-     "number": 41,
-     "text": "Emergency/Expedited Determination",
-     "url": "https://www.courtlistener.com/docket/74927117/41/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1466,7 +1466,7 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
-   "lastEntryDate": "2026-10-23"
+   "lastEntryDate": "2026-10-27"
   },
   "74948724": {
    "entries": [
