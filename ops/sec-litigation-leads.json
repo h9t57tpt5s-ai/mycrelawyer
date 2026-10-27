@@ -1,7 +1,50 @@
 {
- "updatedAt": "2026-10-26T23:06:24+00:00",
+ "updatedAt": "2026-10-27T06:14:22+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001035443-26-000076:are-20260930.htm",
+   "company": "ALEXANDRIA REAL ESTATE EQUITIES, INC.  (ARE)",
+   "cik": "1035443",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-10-26",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000076/are-20260930.htm",
+   "phrases": [
+    "filed a lawsuit"
+   ],
+   "excerpts": [
+    "Other ARE\u2011East River Science Park, LLC (\u201cARE\u201d), a subsidiary of Alexandria Real Estate Equities, Inc., holds an option granted in 2006 to incorporate a land parcel adjacent to and north of the Alexandria Center \u00ae for Life Science \u2013 New York City campus (the \u201cOption Parcel\u201d) into the existing ground lease, which would allow for the future development of an additional life science building within the campus. ARE\u2019s investment in pre\u2011construction costs related to the Option Parcel aggregated $ 185.9 million as of September 30, 2026 . On August 6, 2024, ARE filed a lawsuit in the U.S. District Court for the Southern District of New York against New York City Health + Hospitals Corporation (\u201cH+H\u201d) and the New York City Economic Development Corporation (\u201cEDC\u201d) relating to disputes under the ground lease and option arrangements governing the Option Parcel. ARE filed an amended complaint on January 24, 2025, asserting claims for fraudulent inducement, breach of contract, breach of the implied covenant of good faith and fair dealing, and declaratory relief concerning the continued validity of the option.",
+    "The notice asserts that the failure to cure the alleged defaults within the applicable 30 -day cure period would result in daily charges of $ 1,000 increasing thereafter up to $ 2,000 . ARE disputes the allegations set forth in the notice of default and intends to vigorously defend against them. On May 12, 2026, ARE filed a lawsuit in the Commercial Division of the New York State Supreme Court against H+H and EDC, seeking a Yellowstone injunction, a preliminary injunction, and a temporary restraining order to toll all cure periods under the notice of default and to enjoin EDC and H+H from issuing a notice of termination (the \u201cNYS Action\u201d).",
+    "Refer to \u201cInvestments in real estate\u201d under \u201cDefinitions and reconciliations\u201d for additional details, including development and redevelopment square feet currently included in rental properties. (2) We have a 100% interest in 601 and 701 Dexter Avenue North aggregating 364,350 RSF and a 60.0% interest in the future development project at 800 Mercer Street aggregating 869,000 RSF. (3) In 2024, we filed a lawsuit against the New York City Health + Hospitals Corporation and the New York City Economic Development Corporation for fraud and breach of contract concerning our option to ground lease a land parcel to develop a future world-class life science building within the Alexandria Center \u00ae for Life Science \u2013 New York City Megacampus."
+   ],
+   "captions": [],
+   "courts": [
+    "District Court for the Southern District of New York",
+    "Supreme Court"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "key": "0001035443-26-000077:a3q26ex991supp.htm",
+   "company": "ALEXANDRIA REAL ESTATE EQUITIES, INC.  (ARE)",
+   "cik": "1035443",
+   "sic": "6798",
+   "form": "8-K",
+   "filed": "2026-10-26",
+   "periodEnding": "2026-10-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000077/a3q26ex991supp.htm",
+   "phrases": [
+    "filed a lawsuit"
+   ],
+   "excerpts": [
+    "Refer to \u201cInvestments in real estate\u201d under \u201cDefinitions and reconciliations\u201d in the Supplemental Information for additional details, including development and redevelopment square feet currently included in rental properties. (2) We have a 100% interest in 601 and 701 Dexter Avenue North aggregating 364,350 RSF and a 60.0% interest in the future development project at 800 Mercer Street aggregating 869,000 RSF. (3) In 2024, we filed a lawsuit against the New York City Health + Hospitals Corporation and the New York City Economic Development Corporation for fraud and breach of contract concerning our option to ground lease a land parcel to develop a future world-class life science building within the Alexandria Center \u00ae for Life Science \u2013 New York City Megacampus."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-10-27"
+  },
   {
    "key": "0001574197-26-000035:fph-20260930.htm",
    "company": "Five Point Holdings, LLC  (FPH)",
