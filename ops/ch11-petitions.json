@@ -1,7 +1,18 @@
 {
- "updatedAt": "2026-10-26T17:38:16+00:00",
+ "updatedAt": "2026-10-27T01:36:42+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Wilton Pointe Apartments, LLC",
+   "court": "United States Bankruptcy Court, S.D. Florida.",
+   "courtId": "flsb",
+   "docketNumber": "26-24206",
+   "dateFiled": "2026-10-26",
+   "docketUrl": "https://www.courtlistener.com/docket/75022268/wilton-pointe-apartments-llc/",
+   "docketId": 75022268,
+   "slug": "wilton-pointe-apartments-llc-flsb-26-24206",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "Pryor Legacy Properties, LLC",
    "court": "United States Bankruptcy Court, S.D. Texas",

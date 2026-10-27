@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-10-26T17:38:16+00:00",
+ "updatedAt": "2026-10-27T01:36:42+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Smolinski Properties, LLC v. Westchester Surplus Lines Insurance Company",
+   "court": "District Court, M.D. Florida",
+   "courtId": "flmd",
+   "docketNumber": "6:26-cv-02508",
+   "dateFiled": "2026-10-26",
+   "docketUrl": "https://www.courtlistener.com/docket/75020285/smolinski-properties-llc-v-westchester-surplus-lines-insurance-company/",
+   "docketId": 75020285,
+   "suitNature": "",
+   "cause": "",
+   "slug": "smolinski-properties-llc-v-westchester-surplus-lines-insurance-company-flmd-6-26-cv-02508",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "SCG Hotel LLC v. Selective Insurance Company of the Southeast",
    "court": "District Court, M.D. Florida",
