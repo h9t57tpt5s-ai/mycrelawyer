@@ -11677,6 +11677,47 @@ const RELAW_DATA = {
         { when: "April 23, 2026", label: "ECO TIP West sues Chatham County in its Superior Court" },
         { when: "September 22, 2026", label: "Judge John Morris grants summary judgment to ECO TIP West and orders the county to pay damages for the delay", current: true }
       ]
+    },
+    {
+      id: "live-340",
+      seoTitle: "Lurin Capital Founder Jon Venetos Faces Involuntary Bankruptcy",
+      seoDescription: "Three lenders filed an involuntary Chapter 7 petition against Lurin Capital founder Jon Venetos, citing $33.7 million in personal guaranty judgments.",
+      addedDate: "2026-10-27",
+      title: "In re Jon Venetos: Lenders File Involuntary Chapter 7 Petition Against Lurin Capital Founder",
+      brief: "Silver Point Finance, Vista Bank and NexPoint Real Estate Finance forced Lurin Capital founder Jon Venetos into involuntary Chapter 7, citing $33.7 million in personal guaranty judgments from his multifamily syndication collapse.",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-17",
+      jurisdiction: "U.S. Bankruptcy Court for the Southern District of Texas",
+      state: "TX",
+      amount: "$33.7M in petitioning-creditor judgments behind the involuntary petition; separate $19M guaranty judgment to Acore Capital Mortgage",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/texas/2026/09/30/jon-venetos-creditors-file-involuntary-chapter-7-bankruptcy/",
+      summary: "Silver Point Finance, LLC, Vista Bank, and NexPoint Real Estate Finance, Inc. filed an involuntary Chapter 7 bankruptcy petition against Jon Venetos, founder of Dallas-based multifamily syndicator Lurin Capital, on September 17, 2026 in the U.S. Bankruptcy Court for the Southern District of Texas. The petitioning creditors cite a combined roughly $33.7 million in judgments already entered against Venetos personally on guaranties tied to Lurin's defaulted apartment portfolio, a step observers have called one of the rarest moves in bankruptcy.",
+      significance: "The filing shows how quickly a sponsor's personal guaranty exposure can outrun a corporate Chapter 11 once multiple lenders reduce separate guaranties to judgment, and illustrates that creditors facing a shrinking, overlapping pool of a guarantor's personal assets may find a coordinated involuntary petition more effective than racing each other to collect individually.",
+      body: [
+        "The unwinding of Lurin Capital, the Dallas-based multifamily syndicator that once controlled nearly 10,000 Class-C apartment units across five Sun Belt states, has reached an unusual legal milestone: three of its lenders have asked a federal bankruptcy court to force its founder, Jon Venetos, into Chapter 7 bankruptcy against his will. Silver Point Finance, LLC, Vista Bank, and NexPoint Real Estate Finance, Inc. filed the involuntary petition on September 17, 2026, in the U.S. Bankruptcy Court for the Southern District of Texas, citing a combined roughly $33.7 million in judgments already entered against Venetos personally. Industry observers have called involuntary filings against an individual one of the rarest moves in bankruptcy, a reflection of how unusual it is for creditors to take this step rather than simply chasing a judgment debtor's assets individually.",
+        "The petition is the latest, and in some ways the most consequential, front in a cascade of litigation that has engulfed Venetos since Lurin's multifamily portfolio began defaulting in 2025. Lurin and a succession of affiliated single-property ownership entities began filing their own Chapter 11 petitions in March 2026 to block foreclosures on individual apartment complexes, with the parent entity's broader Chapter 11 case following the next month. That corporate bankruptcy process, however, does nothing to shield Venetos from the personal guaranties he signed on Lurin's behalf, and lenders have been racing through 2026 to reduce those guaranties to judgment. Just two weeks before the involuntary petition, Acore Capital Mortgage won summary judgment against Venetos in New York Supreme Court for roughly $19 million, tied to a mezzanine loan guaranty on The Cove, a Tampa apartment complex Acore took back at a foreclosure auction after Lurin stopped paying in December 2023.",
+        "The involuntary petition itself names three petitioning creditors with their own distinct judgments: Silver Point Finance holds a $22.7 million judgment for breach of a promissory note, Vista Bank holds a $3.1 million judgment, and NexPoint Real Estate Finance holds a $5 million judgment. Under the Bankruptcy Code, three or more creditors holding qualifying unsecured claims can force an individual or entity into involuntary bankruptcy if the debtor is generally not paying debts as they come due, a standard that becomes easier to satisfy once a debtor has accumulated multiple unpaid judgments across unrelated creditors, as Venetos has. The move effectively takes the question of Venetos's personal assets out of a creditor-by-creditor race to collect and puts it under the control of a bankruptcy trustee, who can marshal and liquidate whatever remains for the benefit of the full creditor pool rather than whoever executes fastest.",
+        "Venetos's exposure extends well beyond the parties named in the involuntary petition. Acore's $19 million New York judgment is only one piece of litigation the lender has pursued against him; Fannie Mae has separately sued over a roughly $77 million default tied to a Houston-area loan, KeyBank has sued over Dallas apartment loan defaults, and a Dallas office landlord has pursued Venetos personally over an alleged $5.3 million lease guaranty. The FBI's Dallas field office has also opened an investigation into Venetos and Lurin, soliciting information from investors about how much they put in, what they were told the money would be used for, and what distributions, if any, they received, though no criminal charges have been filed and an open investigation does not establish wrongdoing.",
+        "For commercial lenders and syndicator investors alike, the Lurin collapse has become a reference case for how quickly a sponsor's personal guaranty exposure can outpace the underlying corporate restructuring once a multifamily portfolio built on floating-rate, Sun Belt value-add bets stops cash-flowing. An involuntary Chapter 7 petition against a sponsor is rare precisely because most lenders prefer to pursue their own collateral and their own guaranty judgment rather than share a shrinking pool of personal assets with other creditors; that three separate lenders concluded a coordinated filing served them better than individual collection efforts signals how limited Venetos's remaining unencumbered assets are believed to be, particularly after a separate 2025 foreclosure on his Aspen home. Sponsors who sign personal, uncapped guaranties on aggregated portfolios of non-recourse-adjacent debt should treat this case as a concrete illustration of how a string of individually modest guaranty judgments can combine into exactly the kind of multi-creditor pressure that makes an involuntary petition feasible, while lenders holding similar guaranties should note that coordinating with other creditors, rather than racing to the courthouse alone, can be the more effective route once a guarantor's asset base is visibly shrinking."
+      ],
+      tags: ["involuntary bankruptcy", "personal guaranty", "multifamily", "chapter 7", "syndicator collapse"],
+      parties: [
+        { name: "Silver Point Finance, LLC", role: "Petitioning Creditor" },
+        { name: "Vista Bank", role: "Petitioning Creditor" },
+        { name: "NexPoint Real Estate Finance, Inc.", role: "Petitioning Creditor" },
+        { name: "Acore Capital Mortgage", role: "Judgment Creditor" },
+        { name: "Lurin Capital", role: "Related Debtor" }
+      ],
+      judge: null,
+      amountUsd: 33700000,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "March 2026", label: "Lurin Capital and affiliated single-property entities begin filing Chapter 11 petitions to block foreclosures" },
+        { when: "September 3, 2026", label: "Acore Capital Mortgage wins summary judgment of approximately $19 million against Jon Venetos on a Tampa mezzanine loan guaranty" },
+        { when: "September 17, 2026", label: "Silver Point Finance, Vista Bank and NexPoint Real Estate Finance file an involuntary Chapter 7 petition against Jon Venetos in the U.S. Bankruptcy Court for the Southern District of Texas", current: true }
+      ]
     }
   ],
 
