@@ -823,6 +823,23 @@
    "metric": "none -- no goal metric watches a no-op",
    "window": "n/a",
    "note": "ops/metrics/goals.json refreshed via goal_scoreboard.py for today current numbers (no logic change). site_audit.py counts unchanged (all breakage counters 0; missingDescription 2 / weakDescription 1 unchanged, both already-explained noindex/pre-existing pages)."
+  },
+  {
+   "id": "imp-037",
+   "date": "2026-10-27",
+   "track": "traffic",
+   "title": "Drafted this week's LinkedIn posts in ops/social-drafts/ (backlog G5 refresh)",
+   "why": "Second run today (first run imp-036 was a no-op logged earlier 2026-10-27). Nothing new to judge: earliest open checkAfter among all watching entries is still imp-009's 2026-10-28. Audit clean (pagesChecked 719; missingDescription 2 / weakDescription 1 unchanged, both already-explained noindex/pre-existing pages). Re-checked the \"one open experiment per goal\" rule by metric before picking work: traffic (imp-009, open on both visits7/googleLandings7); conversion (imp-033, open on all three of newsletterSignups7/signUps7/multiPageRate7); calculator (imp-016 open on calculatorViews7; imp-011/025/026/028/032/034 evidence-only on finalRangeHitRate, which is Jeff-gated code regardless); news (imp-030, open on all three of its tracked metrics, already on track anyway) -- every numeric goal's real metric is blocked this run, the same gridlock imp-035/imp-036 already hit. G12 (new state/category page) was not attempted for the same reason imp-035/imp-036 gave: it would land on the exact visits7/googleLandings7 metrics imp-009 is already watching with checkAfter only 1 day out. No further G3/G15 calculator evidence work was available either: imp-036 (this morning) already re-scanned all 47 scored results-v4.3 cases for G15 decision 4's bug shape (zero occurrences) and the subscription checklist was re-verified against the live site this morning with nothing new to build. ops/social-drafts/ (last refreshed 2026-10-26, imp-035, which only had live-334 available) was missing 3 matters added since: live-335 (addedDate 2026-10-26, added after that run) and live-336/live-337 (addedDate 2026-10-27). Drafted all 3 -- Goochland County data-center zoning overlay suit, Michelmann Steel v. Link Media Midwest (billboard-lease conversion/nominal-damages ruling), and Alexandria Real Estate's 85.9M ground-lease option fight with NYC Health + Hospitals/EDC -- all business or government parties, none skipped for an individual's name from court records, facts copied verbatim from the published matter write-ups in js/data.js.",
+   "files": [
+    "ops/social-drafts/2026-10-27.md"
+   ],
+   "commit": "b2d2474b426580ef739b39dd238a02bcdf4badd6",
+   "metric": "none -- a draft for Jeff, same convention as imp-018/023/027/031/035",
+   "window": "n/a",
+   "baseline": null,
+   "checkAfter": "n/a",
+   "status": "no-op",
+   "note": "Not a no-op in the sense of \"nothing worthwhile was safe\" -- it is this run's chosen backlog work under the one-open-experiment-per-goal rule (G5), logged as status no-op only because no goal metric can judge a LinkedIn draft. Ran scripts/goal_scoreboard.py to read today's numbers but did not commit its regenerated ops/metrics/goals.json output (that file is owned by the metrics-snapshot.yml workflow; this routine's own local run just advanced generatedAt and the already-current news counts, nothing worth committing on top of that job)."
   }
  ]
 }
