@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-10-27T01:36:42+00:00",
+ "updatedAt": "2026-10-27T16:52:10+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Norman Properties LLC v. Shell USA Inc",
+   "court": "District Court, W.D. Louisiana",
+   "courtId": "lawd",
+   "docketNumber": "6:26-cv-04517",
+   "dateFiled": "2026-10-27",
+   "docketUrl": "https://www.courtlistener.com/docket/75025120/norman-properties-llc-v-shell-usa-inc/",
+   "docketId": 75025120,
+   "suitNature": "",
+   "cause": "",
+   "slug": "norman-properties-llc-v-shell-usa-inc-lawd-6-26-cv-04517",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Smolinski Properties, LLC v. Westchester Surplus Lines Insurance Company",
    "court": "District Court, M.D. Florida",
@@ -13,6 +26,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "smolinski-properties-llc-v-westchester-surplus-lines-insurance-company-flmd-6-26-cv-02508",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "PSG CR LENDING, LLC v. M&B YBL II LLC",
+   "court": "District Court, E.D. Pennsylvania",
+   "courtId": "paed",
+   "docketNumber": "5:26-cv-08172",
+   "dateFiled": "2026-10-26",
+   "docketUrl": "https://www.courtlistener.com/docket/75024023/psg-cr-lending-llc-v-mb-ybl-ii-llc/",
+   "docketId": 75024023,
+   "suitNature": "220 Real Property: Foreclosure",
+   "cause": "28:1332 Diversity-Breach of Contract",
+   "slug": "psg-cr-lending-llc-v-m-b-ybl-ii-llc-paed-5-26-cv-08172",
    "type": "Federal civil case"
   },
   {
