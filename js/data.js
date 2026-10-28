@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-27",
+  lastUpdatedDate: "2026-10-28",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -11717,6 +11717,44 @@ const RELAW_DATA = {
         { when: "March 2026", label: "Lurin Capital and affiliated single-property entities begin filing Chapter 11 petitions to block foreclosures" },
         { when: "September 3, 2026", label: "Acore Capital Mortgage wins summary judgment of approximately $19 million against Jon Venetos on a Tampa mezzanine loan guaranty" },
         { when: "September 17, 2026", label: "Silver Point Finance, Vista Bank and NexPoint Real Estate Finance file an involuntary Chapter 7 petition against Jon Venetos in the U.S. Bankruptcy Court for the Southern District of Texas", current: true }
+      ]
+    },
+    {
+      id: "live-341",
+      seoTitle: "NY Appeals Court: Landlord's No-Notice Reletting Dooms Rent Suit",
+      seoDescription: "First Department affirms dismissal of Renaissance Midtown West's unpaid-rent and guaranty claims against Lividini & Co. for lack of lease-required notice.",
+      addedDate: "2026-10-28",
+      title: "Renaissance Midtown W. LLC v. Lividini & Co., LLC: Appeals Court Affirms Dismissal of Landlord's Unpaid-Rent and Guaranty Claims",
+      brief: "A New York appeals court affirmed dismissal of Renaissance Midtown West's suit against former tenant Lividini & Company, holding the landlord forfeited its rent claim by reentering and reletting the space without giving the lease-required notice.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-27",
+      jurisdiction: "Appellate Division of the Supreme Court of the State of New York, First Department",
+      state: "NY",
+      amount: "Unpaid rent for balance of lease term (amount not stated in opinion)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11046209/renaissance-midtown-w-llc-v-lividini-co-llc/",
+      summary: "The Appellate Division, First Department unanimously affirmed dismissal of Renaissance Midtown West LLC's amended complaint against former office tenant Lividini & Company, LLC, holding the landlord was required to give the tenant notice under the lease's conditional-limitation clause before reentering and reletting the space after the tenant vacated early. The court also affirmed dismissal of the landlord's guaranty claim, because the lease's attached guaranty form was never signed, and its veil-piercing claim against the tenant's principal, for lack of factual allegations of domination and abuse of the corporate form.",
+      significance: "The decision is a reminder that New York courts enforce commercial lease notice-and-cure provisions literally regardless of a landlord's stated intent, so a landlord that accepts a vacating tenant's surrender without reserving its rights in writing and without serving the lease's own default notices can forfeit even a straightforward unpaid-rent claim for the balance of the term. It also reinforces two recurring drafting and litigation pitfalls: an unsigned guaranty form attached to a lease is unenforceable under New York's statute of frauds, and veil-piercing claims against a tenant's principal require more than bare allegations about commingled funds.",
+      body: [
+        "A New York appeals court has handed commercial landlords a costly reminder about the price of skipping lease notice procedures, even when a tenant has clearly abandoned its space. On October 27, 2026, the Appellate Division of the Supreme Court of the State of New York, First Department, unanimously affirmed the dismissal of Renaissance Midtown West LLC's lawsuit against its former office tenant, Lividini & Company, LLC, and the tenant's principal, rejecting claims for unpaid rent, breach of guaranty, and corporate veil-piercing in a single, tightly reasoned order.",
+        "The underlying facts, as recounted in the opinion, trace back to August 2020, when counsel for Lividini notified the landlord that the tenant was vacating the leased premises before the end of the lease term. The landlord did not respond at the time. More than four years passed before Renaissance Midtown West commenced its action in New York County Supreme Court in November 2024, seeking rent for the balance of the lease term, enforcement of a guaranty against the tenant's principal, and an order piercing the corporate veil to hold that principal personally liable. Justice Lyle E. Frank dismissed the amended complaint on July 24, 2025, and the landlord appealed.",
+        "The First Department's analysis centered on paragraph 17(1) of the lease, a conditional-limitation clause allowing the landlord to terminate for defaults other than nonpayment of rent, including if the premises became vacant or deserted, but only by first serving a five-day notice to cure specifying the default and then, if the tenant failed to cure in good faith, a three-day notice of cancellation. The court held that the tenant's early vacatur triggered the landlord's obligation to give that notice before reentering and reletting the premises, citing the Court of Appeals' decision in Holy Properties v. Cole Products. The landlord's argument that it never intended to terminate the lease under that clause, but merely wanted to collect rent still owed, did not persuade the panel: the landlord's own allegations that the tenant returned the keys without objection, and that the landlord then signed a new lease with a replacement tenant, were inconsistent with any claim that the original landlord-tenant relationship continued. The court distinguished a case the landlord relied on, 622 Third Ave. Co. LLC v. Hyatt Leader Ltd., noting that unlike the landlord there, Renaissance Midtown West never told the departing tenant that accepting the keys was without prejudice to a later damages claim, and the record showed no further communication between the parties after the tenant's 2020 notice until the lawsuit was filed in 2024.",
+        "The panel separately affirmed dismissal of two additional claims that often travel alongside a landlord's rent claim. The guaranty claim failed because the form guaranty attached to the lease was blank and unexecuted, and New York's statute of frauds for guaranties, General Obligations Law section 5-701(a)(2), requires a signed writing regardless of the parties' course of dealing. The veil-piercing claim against the tenant's principal failed because, as the court explained, veil-piercing is not an independent cause of action but a set of facts and circumstances that must show the principal exercised complete domination and control over the corporation to perpetrate a wrong or injustice, under the standard set out by the Court of Appeals in Cortlandt Street Recovery Corp. v. Bonderman. A bare allegation that the principal failed to maintain a separate bank account for the tenant, the court held, falls well short.",
+        "For commercial landlords, asset managers, and the in-house and outside counsel who draft and enforce their leases, the ruling underscores that the mechanics of lease notice provisions are not a formality to be worked around after the fact. A landlord that wants to preserve a damages claim after a tenant vacates early needs to serve whatever default and cancellation notices the lease requires, or at minimum state clearly and in writing, at the time it accepts the keys, that doing so is without prejudice to pursuing unpaid rent. Waiting years to sue, as happened here, only compounds the risk, since the landlord's own subsequent conduct, such as re-letting to a new tenant without any contemporaneous reservation of rights, can end up supplying the evidence that defeats its claim. The decision also serves as a check-your-forms moment: leases that attach a guaranty as a standard exhibit should be confirmed as fully executed, not left as an unsigned specimen, and a veil-piercing theory against a tenant's principal needs concrete, specific allegations of abuse of the corporate form rather than generic bookkeeping complaints."
+      ],
+      tags: ["commercial lease", "landlord-tenant", "guaranty", "veil piercing", "surrender"],
+      parties: [
+        { name: "Renaissance Midtown West LLC", role: "Plaintiff-Appellant" },
+        { name: "Lividini & Company, LLC", role: "Defendant-Respondent" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "August 2020", label: "Tenant's counsel gives landlord notice that the tenant is vacating the premises" },
+        { when: "November 2024", label: "Landlord commences action in New York County Supreme Court for unpaid rent, guaranty liability and veil-piercing" },
+        { when: "July 24, 2025", label: "Supreme Court, New York County grants tenant's motion to dismiss the amended complaint" },
+        { when: "October 27, 2026", label: "Appellate Division, First Department unanimously affirms dismissal", current: true }
       ]
     }
   ],
