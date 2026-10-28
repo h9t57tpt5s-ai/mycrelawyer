@@ -11756,6 +11756,44 @@ const RELAW_DATA = {
         { when: "July 24, 2025", label: "Supreme Court, New York County grants tenant's motion to dismiss the amended complaint" },
         { when: "October 27, 2026", label: "Appellate Division, First Department unanimously affirms dismissal", current: true }
       ]
+    },
+    {
+      id: "live-342",
+      seoTitle: "WA Court Revives Affordable-Housing Owner's Takings Claim",
+      seoDescription: "Washington's Court of Appeals revives GRE Downtowner's regulatory-takings suit against Seattle over a decade of rent and eviction ordinances.",
+      addedDate: "2026-10-28",
+      title: "GRE Downtowner LLC v. City of Seattle: Washington Appeals Court Revives Multifamily Owner's Regulatory-Takings Claim Over Rent Ordinances",
+      brief: "A Washington appeals court revived GRE Downtowner's inverse-condemnation suit against Seattle, holding the cumulative effect of a series of rent and eviction ordinances may have taken the value of its affordable-housing property.",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-10-26",
+      jurisdiction: "Washington Court of Appeals, Division One",
+      state: "WA",
+      amount: "Alleged cumulative operating losses of nearly $6 million through 2023 on a $39 million affordable-housing investment",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11045942/gre-downtowner-llc-dba-addison-on-fourth-v-city-of-seattle/",
+      summary: "Washington's Court of Appeals, Division One, reversed a trial court's dismissal of GRE Downtowner LLC's inverse condemnation claims against the City of Seattle, holding the company adequately pleaded that a series of tenant-protection ordinances adopted since 2018 collectively amount to a compensable regulatory taking of its affordable-housing property, Addison on Fourth. The case returns to King County Superior Court for further proceedings on the merits.",
+      significance: "The ruling lets owners of rent-regulated multifamily housing argue that a city's regulations should be judged by their cumulative economic effect rather than ordinance by ordinance, and is a significant procedural win even though it does not decide whether a taking actually occurred. It is a live issue for multifamily owners, lenders, and municipalities anywhere a local government is layering new tenant-protection rules onto existing rent-regulated or subsidized housing stock.",
+      body: [
+        "A published decision from Washington's Court of Appeals, Division One, is giving multifamily owners and their lenders a fresh data point in the long-running fight over how far a city's rent and eviction regulations can go before they cross into a compensable taking of property. On October 26, 2026, the court reversed a trial court's dismissal of GRE Downtowner LLC's inverse condemnation claims against the City of Seattle, holding that the company pleaded enough facts about the cumulative financial impact of a series of tenant-protection ordinances to let its case proceed past the pleading stage.",
+        "GRE Downtowner owns and operates Addison on Fourth, an affordable housing complex of 254 studio and one-bedroom units, 46 artist studios, and four commercial spaces near downtown Seattle. GRE Downtowner bought the property in 2012 for $12.5 million and put in another $26.5 million to qualify it for the federal Low-Income Housing Tax Credit program, with financing support from the Washington State Housing Finance Commission, Citigroup as bond underwriter, and Freddie Mac and East West Bank as credit enhancers. The project stabilized by 2015, and from 2015 through 2018 it ran a positive annual cash flow, collecting between roughly 90 and 94 percent of its maximum allowable rental income each year under HUD's income-based rent caps.",
+        "According to the complaint, that changed as Seattle's City Council adopted a succession of tenant-protection measures beginning in 2018: the Fair Chance Housing Ordinance barring criminal-history-based tenant screening and eviction; a 2019 Roommate Ordinance extending occupancy rights to a tenant's family members and other residents; a Winter Eviction Ban; a COVID-19 eviction moratorium running from March 2020 to February 2022; and, in September 2021, both an extension of the minimum rent-increase notice period from 60 to 180 days and a new Economic Displacement Relocation Assistance ordinance requiring landlords to pay relocation costs to tenants who leave after a rent increase of 10 percent or more. GRE Downtowner alleges its maximum-rent collection rate fell from 87 percent in 2019 to just 44.1 percent in 2023, producing annual losses of $683,353 in 2020, $980,043 in 2021, $1.8 million in 2022, and $2.7 million in 2023, and leaving the property, in the company's telling, functionally valueless on an income-approach appraisal.",
+        "GRE Downtowner sued the City in King County Superior Court in October 2024, asserting inverse condemnation claims for both partial and per se regulatory takings under article I, section 16 of the Washington Constitution, the state's analog to the Fifth Amendment's takings clause. The City moved to dismiss under Civil Rule 12(b)(6), and the trial court granted the motion in February 2025. After the Washington Supreme Court declined to pull the appeal up to itself, Division One took up the case and, in an opinion authored by Judge David S. Mann, reversed. Applying Washington's comparatively lenient 12(b)(6) standard, which asks only whether the plaintiff could prove any set of facts consistent with the complaint that would justify relief, the court held that GRE Downtowner's allegations about the ordinances' cumulative economic effect were legally sufficient to proceed, under the regulatory-takings framework Washington courts borrow from the U.S. Supreme Court's decision in Lingle v. Chevron U.S.A. Inc. and the state's own 2023 ruling in Washington Food Industry Association v. City of Seattle.",
+        "The decision does not resolve whether Seattle's ordinances actually worked a taking of GRE Downtowner's property, since that question now returns to the trial court, but it is a meaningful procedural win for owners who want a court to weigh a city's regulations by their combined effect rather than evaluate each ordinance in isolation. Lawyers advising multifamily owners facing new local tenant-protection measures should take two things from the case: document the property's financial performance before and after each new ordinance takes effect, because a cumulative-impact takings theory depends on being able to isolate and quantify the loss tied to each rule, and recognize that a stack of individually modest ordinances can still support a viable claim if the compounding effect leaves an owner with no economically viable use of the property. Lenders and investors underwriting rent-regulated or LIHTC housing in jurisdictions with an active tenant-protection agenda should watch how the case develops on remand, since it will test how far Washington courts are willing to let that theory go on the merits, while municipalities drafting new landlord-tenant rules should take note that courts are willing to look past ordinance-by-ordinance review and ask whether the regulatory scheme as a whole crossed the line."
+      ],
+      tags: ["regulatory takings", "inverse condemnation", "multifamily", "rent regulation", "zoning"],
+      property: { name: "Addison on Fourth", city: "Seattle", state: "WA" },
+      parties: [
+        { name: "GRE Downtowner LLC", role: "Plaintiff-Appellant" },
+        { name: "City of Seattle", role: "Defendant-Respondent" }
+      ],
+      judge: "David S. Mann",
+      amountUsd: null,
+      timeline: [
+        { when: "October 2024", label: "GRE Downtowner sues the City of Seattle in King County Superior Court for inverse condemnation" },
+        { when: "February 2025", label: "Trial court dismisses the claims under Civil Rule 12(b)(6)" },
+        { when: "October 26, 2026", label: "Court of Appeals, Division One reverses and remands, holding the claims are legally sufficient to proceed", current: true }
+      ]
     }
   ],
 
