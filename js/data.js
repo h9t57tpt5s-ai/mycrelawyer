@@ -11836,6 +11836,48 @@ const RELAW_DATA = {
         { when: "October 28, 2026", label: "Arkansas Court of Appeals affirms, holding BFT's objections were not preserved for appeal", current: true }
       ],
       tags: ["eminent domain", "condemnation", "just compensation", "arkansas", "directed verdict"]
+    },
+    {
+      id: "live-344",
+      seoTitle: "75 Morrissey Blvd: Copper Mill Sues POB Capital, Pactolus",
+      seoDescription: "Developer Copper Mill accuses joint-venture partners POB Capital and Pactolus of fraud over a collapsed $67.5M Dorchester development deal.",
+      property: {"name": "75 Morrissey Boulevard", "address": "75 Morrissey Boulevard", "city": "Boston", "state": "MA"},
+      addedDate: "2026-10-28",
+      title: "Copper Mill Sues Joint-Venture Partners POB Capital and Pactolus Over Collapsed Dorchester Development Deal",
+      brief: "Boston developer Copper Mill sued joint-venture partners POB Capital and Pactolus Private Wealth Management, alleging they secretly shopped a $67.5M Dorchester development site at a higher price instead of funding the deal.",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-10-20",
+      jurisdiction: "Massachusetts Superior Court (Suffolk County) and Massachusetts Land Court",
+      state: "MA",
+      amount: "$67.5 million purchase price for a 754-unit Dorchester development site; partners allegedly pitched the site to third parties at an $82.5 million valuation",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/boston/multifamily/copper-mill-sues-partners-collapsed-deal-750-unit-dorchester-project",
+      summary: "Boston developer Copper Mill sued its joint-venture partners, Chicago-based POB Capital and Virginia-based Pactolus Private Wealth Management, in Suffolk Superior Court and Massachusetts Land Court over the collapse of a venture that controlled a 754-unit development site at 75 Morrissey Boulevard in Dorchester. Copper Mill alleges the two investment firms, which held a combined 64.35% stake in the venture, terminated the joint-venture agreement on June 30, 2026 after secretly shopping the $67.5 million site to third parties at a pitched valuation of $82.5 million.",
+      significance: "The dispute illustrates how a majority capital partner in a development joint venture can use a claimed funding shortfall as leverage to exit a deal once land values move, potentially capturing upside that was supposed to be shared with the development partner. It is a reminder that minority developer-partners should scrutinize exclusivity and non-solicitation terms governing a majority partner's ability to market the underlying site, and should consider protective filings before a capital dispute becomes public.",
+      body: [
+        "A Boston developer says its equity partners tried to kill a joint venture behind its back so they could sell a Dorchester development site to someone else at a higher price. Copper Mill has sued Chicago-based POB Capital and Virginia-based Pactolus Private Wealth Management in Suffolk Superior Court and in a companion action in Massachusetts Land Court, accusing the two investment firms of fraud and breach of contract over the collapse of a venture that controls a planned 754-unit residential tower site at 75 Morrissey Boulevard in Dorchester.",
+        "According to the complaints, the relationship traces back to December 18, 2024, when Copper Mill agreed to buy the 2.24-acre Morrissey Boulevard site from POB and Pactolus for $67.5 million. Rather than closing a straight sale, the parties restructured the transaction into a joint venture formed on September 4, 2025, with POB and Pactolus holding a 64.35% stake and Copper Mill holding 35.65%. Copper Mill was to serve as developer, handling entitlements and construction financing for the 754-unit project, while the two investment firms were expected to help fund the deal.",
+        "Copper Mill alleges that instead of meeting their capital obligations, POB and Pactolus worked behind the scenes to unwind the venture. The complaint claims the two firms quietly marketed the property to other prospective buyers while still bound by the joint-venture agreement, including a pitch valuing the site at $82.5 million, well above the $67.5 million price Copper Mill had locked in. On June 30, 2026, POB and Pactolus sent Copper Mill a notice terminating the joint-venture agreement. Copper Mill's suit characterizes the investors' professed inability to raise capital as pretextual, alleging it was a deliberate tactic to engineer a termination and free the site for a more lucrative sale to a third party.",
+        "The complaints seek specific performance, asking the courts to enforce the original purchase-and-sale and joint-venture agreements and confirm Copper Mill's right to control and develop the site, along with damages for the alleged fraud. Copper Mill has said publicly that it intends to recover both its rights to the property and compensation for what it describes as its former partners' misconduct. Representatives for Copper Mill, POB Capital and Pactolus did not immediately respond to media inquiries when the suits became public in reporting in late October 2026.",
+        "The roughly $15 million gap between the $67.5 million price Copper Mill locked in and the $82.5 million figure it says its partners pitched to third parties is itself the likely source of the falling-out: if land values in the corridor rose meaningfully between the 2024 purchase agreement and 2026, a majority partner holding nearly two-thirds of the entity may have had every financial incentive to look for an exit that captured that upside for itself rather than splitting it according to the original deal terms. A termination notice tied to a funding shortfall can look, on its face, like routine deal friction, but whether it holds up legally often depends on contemporaneous evidence, such as the alleged higher-priced marketing pitch, showing the shortfall was manufactured rather than genuine.",
+        "For developers negotiating joint-venture and purchase-and-sale agreements on large sites, the case is a reason to pay close attention to exclusivity and non-solicitation provisions that govern a majority partner's ability to market the underlying asset, and to think through what happens procedurally when that partner invokes a capital-call default. Minority developer-partners should also weigh recording protective interests, such as a notice of agreement or lis pendens, before a capital dispute becomes public, since the value of any eventual specific-performance remedy depends heavily on whether the property can still be transferred to a third party while litigation is pending."
+      ],
+      tags: ["joint venture dispute", "development site", "dorchester", "boston", "multifamily"],
+      parties: [
+        { name: "Copper Mill", role: "Plaintiff" },
+        { name: "POB Capital", role: "Defendant" },
+        { name: "Pactolus Private Wealth Management", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 67500000,
+      amountBasis: "purchase price",
+      timeline: [
+        { when: "December 18, 2024", label: "Copper Mill agrees to buy the Morrissey Boulevard site from POB and Pactolus for $67.5 million" },
+        { when: "September 4, 2025", label: "The parties restructure the deal into a joint venture, with POB/Pactolus holding 64.35% and Copper Mill 35.65%" },
+        { when: "June 30, 2026", label: "POB and Pactolus send Copper Mill a notice terminating the joint-venture agreement" },
+        { when: "October 20, 2026", label: "Copper Mill sues POB Capital and Pactolus in Suffolk Superior Court and Massachusetts Land Court, alleging fraud", current: true }
+      ]
     }
   ],
 

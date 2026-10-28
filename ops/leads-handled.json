@@ -1075,6 +1075,22 @@
   "opinion:11046403": {
    "at": "2026-10-28",
    "action": "skipped: easement/mortgage dispute between a family trust and an individual, not commercial real estate"
+  },
+  "opinion:11047666": {
+   "at": "2026-10-28",
+   "action": "skipped: not real estate (vicarious-liability wrongful death suit against a cleaning/services company; matchedTerms industrial/shopping center are incidental, not a CRE dispute)"
+  },
+  "opinion:11047504": {
+   "at": "2026-10-28",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read"
+  },
+  "https://www.courtlistener.com/docket/75030501/13513-s-sam-moore-llc/": {
+   "at": "2026-10-28",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "https://www.courtlistener.com/docket/75029856/pmc-property-group-inc-v-apogee-enterprises-inc/": {
+   "at": "2026-10-28",
+   "action": "skipped: no coverage found for this 2026 federal filing (only found unrelated 2024 Philadelphia state-court litigation between the same parties over different windows/panels claims)"
   }
  }
 }
