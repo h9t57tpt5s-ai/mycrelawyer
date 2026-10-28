@@ -210,7 +210,15 @@
     "googleLandings7": 118
    },
    "checkAfter": "2026-10-28",
-   "status": "watching"
+   "status": "helped",
+   "verdict": {
+    "date": "2026-10-28",
+    "value": {
+     "visits7": 568,
+     "googleLandings7": 161
+    },
+    "note": "visits7 +120.2% and googleLandings7 +36.4% off baseline (258/118), both clearing the 25% threshold; 28-day trend agrees (visits28 rose steadily 723->1700 over the window; googleLandings7 sustained in the 161-173 range from 10-22 onward, not a one-day blip). Confounded by other changes shipped in the same window (imp-020/022, imp-033); not reverted (plainly good)."
+   }
   },
   {
    "id": "imp-010",
@@ -840,6 +848,28 @@
    "checkAfter": "n/a",
    "status": "no-op",
    "note": "Not a no-op in the sense of \"nothing worthwhile was safe\" -- it is this run's chosen backlog work under the one-open-experiment-per-goal rule (G5), logged as status no-op only because no goal metric can judge a LinkedIn draft. Ran scripts/goal_scoreboard.py to read today's numbers but did not commit its regenerated ops/metrics/goals.json output (that file is owned by the metrics-snapshot.yml workflow; this routine's own local run just advanced generatedAt and the already-current news counts, nothing worth committing on top of that job)."
+  },
+  {
+   "id": "imp-038",
+   "date": "2026-10-28",
+   "track": "traffic",
+   "title": "Built new-york-lease-disputes.html, the largest uncovered state/category combo (backlog G12)",
+   "why": "Judged imp-009 (helped) this run, freeing traffic's only tracked metric (visits7/googleLandings7) for the first time since imp-009 shipped. mostBehind was calculator/conversion/traffic/news; last 2 log entries (imp-036 calculator, imp-037 traffic) would put conversion next, but conversion's only open experiment (imp-033) already watches all three of conversion's real metrics until 2026-11-01, and G17 (NEEDS JEFF) already flagged that a further follows7-only copy change is unlikely to clear the real blocker -- so traffic, now unblocked, got this run's work instead. Recounted every state+category combo in js/data.js the same way imp-012/imp-015 did: NY|lease-disputes has 10 real tracked matters (Colliers International NY LLC v. City Hall Commons LLC, VK Dental Group v. Tender Touch Physical Therapy, and 8 others) with no dedicated deep-dive page, the single largest uncovered combo (next-largest: CA|lease-disputes and CA|lending-foreclosure at 6 each).",
+   "files": [
+    "new-york-lease-disputes.html",
+    "state-guides.html",
+    "sitemap.xml",
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "c497a963146110117c4529e29514a1df1bad3e19",
+   "metric": "goals.json traffic.metrics.visits7 and googleLandings7",
+   "window": "7 days",
+   "baseline": {
+    "visits7": 568,
+    "googleLandings7": 161
+   },
+   "checkAfter": "2026-11-04",
+   "status": "watching"
   }
  ]
 }
