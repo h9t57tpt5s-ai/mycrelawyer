@@ -1,18 +1,18 @@
 {
- "date": "2026-10-27",
- "generatedAt": "2026-10-27T19:36:34+00:00",
+ "date": "2026-10-28",
+ "generatedAt": "2026-10-28T19:51:05+00:00",
  "note": "Visits are tab sessions from js/track.js (crawlers filtered); the site is small, so read 7- and 28-day windows, not single days.",
  "last1Day": {
-  "visits": 55,
-  "pageViews": 60,
-  "multiPageVisits": 5,
-  "multiPageRate": 0.0909,
+  "visits": 180,
+  "pageViews": 187,
+  "multiPageVisits": 6,
+  "multiPageRate": 0.0333,
   "funnel": {
-   "viewedAMatter": 27,
+   "viewedAMatter": 88,
    "sawSignInPrompt": 0,
    "openedSignIn": 0,
    "signedUpOrIn": 0,
-   "readFullWriteUp": 4,
+   "readFullWriteUp": 14,
    "clickedWatchlist": 0,
    "shared": 0
   },
@@ -20,55 +20,54 @@
   "follows": 0,
   "newsletterSignups": 0,
   "contactSends": 0,
-  "sourceClicks": 2,
-  "searches": 1,
+  "sourceClicks": 5,
+  "searches": 0,
   "byEvent": {
-   "page_view": 35,
-   "matter_page_view": 25,
-   "panel_open": 8,
-   "full_read": 8,
-   "source_click": 2,
-   "search": 1
+   "page_view": 110,
+   "matter_page_view": 77,
+   "panel_open": 15,
+   "full_read": 15,
+   "source_click": 5
   },
   "topPages": [
    [
+    "/contact.html",
+    43
+   ],
+   [
     "/litigation.html",
-    10
+    26
+   ],
+   [
+    "/matters/live-114.html",
+    3
+   ],
+   [
+    "/matters/live-205.html",
+    3
    ],
    [
     "/matters/live-208.html",
-    6
-   ],
-   [
-    "/matters/live-182.html",
-    4
-   ],
-   [
-    "/lawsuit-watch.html",
     3
    ],
    [
-    "/chapter-11/403-s-raymond-avenue-llc-cacb-8-26-bk-12720.html",
+    "/matters/live-186.html",
     3
    ],
    [
-    "/matters/live-315.html",
+    "/matters/live-090.html",
+    3
+   ],
+   [
+    "/chapter-11/620-hudson-house-llc-nynb-26-11232.html",
     2
    ],
    [
-    "/chapter-11/8300-nw-166-llc-flsb-26-24150.html",
+    "/matters/live-189.html",
     2
    ],
    [
-    "/chapter-11/pryor-legacy-properties-llc-txsb-26-37989.html",
-    2
-   ],
-   [
-    "/chapter-11/hawaii-ocean-plaza-lp-cacb-2-26-bk-20766.html",
-    2
-   ],
-   [
-    "/chapter-11/hawaii-city-plaza-lp-cacb-2-26-bk-20765.html",
+    "/compare-companies.html",
     2
    ]
   ],
@@ -77,80 +76,84 @@
    "lease-clause-redline": 0,
    "settlement-benchmarks": 0,
    "litigation-index": 0,
-   "-tracker": 0
+   "-tracker": 1
   },
   "landingReferrers": [
    [
     "direct or unknown",
-    32
+    142
    ],
    [
     "google.com",
-    21
+    33
+   ],
+   [
+    "utm:chatgpt.com",
+    2
    ],
    [
     "gemini.google.com",
     1
    ],
    [
-    "bing.com",
+    "noai.duckduckgo.com",
     1
    ]
   ],
   "topMatters": [
    [
-    "live-208",
-    11
-   ],
-   [
-    "live-182",
-    4
-   ],
-   [
-    "live-035",
+    "live-114",
     3
    ],
    [
-    "live-315",
+    "live-205",
+    3
+   ],
+   [
+    "live-208",
+    3
+   ],
+   [
+    "live-186",
+    3
+   ],
+   [
+    "live-090",
+    3
+   ],
+   [
+    "live-189",
     2
    ],
    [
-    "live-299",
-    1
+    "live-188",
+    2
    ],
    [
-    "live-228",
-    1
+    "live-071",
+    2
    ],
    [
-    "live-235",
-    1
+    "live-304",
+    2
    ],
    [
-    "live-203",
-    1
-   ],
-   [
-    "live-281",
-    1
-   ],
-   [
-    "live-230",
-    1
+    "live-163",
+    2
    ]
   ]
  },
  "last7Days": {
-  "visits": 568,
-  "pageViews": 629,
-  "multiPageVisits": 38,
-  "multiPageRate": 0.0669,
+  "visits": 677,
+  "pageViews": 733,
+  "multiPageVisits": 35,
+  "multiPageRate": 0.0517,
   "funnel": {
-   "viewedAMatter": 314,
+   "viewedAMatter": 361,
    "sawSignInPrompt": 0,
    "openedSignIn": 0,
    "signedUpOrIn": 2,
-   "readFullWriteUp": 124,
+   "readFullWriteUp": 134,
    "clickedWatchlist": 0,
    "shared": 0
   },
@@ -161,10 +164,10 @@
   "sourceClicks": 22,
   "searches": 9,
   "byEvent": {
-   "page_view": 417,
-   "matter_page_view": 212,
-   "panel_open": 174,
-   "full_read": 173,
+   "page_view": 490,
+   "matter_page_view": 243,
+   "panel_open": 175,
+   "full_read": 174,
    "source_click": 22,
    "search": 9,
    "signup": 2,
@@ -173,76 +176,68 @@
   "topPages": [
    [
     "/litigation.html",
-    167
+    188
+   ],
+   [
+    "/contact.html",
+    56
    ],
    [
     "/",
-    31
+    26
    ],
    [
     "/matters/live-208.html",
-    20
-   ],
-   [
-    "/matters/live-265.html",
-    17
+    22
    ],
    [
     "/company-brightline.html",
     17
    ],
    [
-    "/contact.html",
+    "/matters/live-304.html",
     13
    ],
    [
-    "/matters/live-304.html",
-    12
-   ],
-   [
-    "/matters/live-188.html",
-    11
+    "/matters/live-265.html",
+    9
    ],
    [
     "/matters/live-048.html",
     8
    ],
    [
-    "/updates.html",
-    7
+    "/matters/live-188.html",
+    8
+   ],
+   [
+    "/compare-companies.html",
+    8
    ]
   ],
   "toolViews": {
-   "case-valuation": 4,
+   "case-valuation": 3,
    "lease-clause-redline": 1,
-   "settlement-benchmarks": 1,
+   "settlement-benchmarks": 0,
    "litigation-index": 5,
-   "-tracker": 5
+   "-tracker": 4
   },
   "landingReferrers": [
    [
     "direct or unknown",
-    358
+    476
    ],
    [
     "google.com",
-    161
+    159
    ],
    [
     "utm:chatgpt.com",
-    16
+    15
    ],
    [
     "utm:defebdxfg",
     7
-   ],
-   [
-    "bing.com",
-    6
-   ],
-   [
-    "perplexity.ai",
-    4
    ],
    [
     "ballardspahr.questkm.com",
@@ -253,7 +248,15 @@
     4
    ],
    [
+    "bing.com",
+    3
+   ],
+   [
     "com.google.android.googlequicksearchbox",
+    2
+   ],
+   [
+    "gemini.google.com",
     2
    ],
    [
@@ -264,57 +267,57 @@
   "topMatters": [
    [
     "live-208",
-    40
-   ],
-   [
-    "live-303",
-    19
-   ],
-   [
-    "live-265",
-    17
-   ],
-   [
-    "live-188",
-    12
+    42
    ],
    [
     "live-304",
-    12
+    14
+   ],
+   [
+    "live-205",
+    11
    ],
    [
     "live-067",
     10
    ],
    [
+    "live-265",
+    9
+   ],
+   [
     "live-048",
     9
    ],
    [
-    "live-182",
-    8
+    "live-188",
+    9
    ],
    [
-    "live-205",
-    8
+    "live-182",
+    9
    ],
    [
     "live-315",
+    7
+   ],
+   [
+    "live-266",
     7
    ]
   ]
  },
  "last28Days": {
-  "visits": 1700,
-  "pageViews": 1895,
-  "multiPageVisits": 101,
-  "multiPageRate": 0.0594,
+  "visits": 1881,
+  "pageViews": 2083,
+  "multiPageVisits": 107,
+  "multiPageRate": 0.0569,
   "funnel": {
-   "viewedAMatter": 1017,
+   "viewedAMatter": 1106,
    "sawSignInPrompt": 84,
    "openedSignIn": 6,
    "signedUpOrIn": 8,
-   "readFullWriteUp": 168,
+   "readFullWriteUp": 182,
    "clickedWatchlist": 0,
    "shared": 1
   },
@@ -322,15 +325,15 @@
   "follows": 0,
   "newsletterSignups": 3,
   "contactSends": 0,
-  "sourceClicks": 66,
+  "sourceClicks": 71,
   "searches": 17,
   "byEvent": {
-   "page_view": 1042,
-   "matter_page_view": 853,
-   "panel_open": 503,
-   "full_read": 415,
+   "page_view": 1152,
+   "matter_page_view": 931,
+   "panel_open": 518,
+   "full_read": 430,
    "gate_shown": 87,
-   "source_click": 66,
+   "source_click": 71,
    "search": 17,
    "signin_open": 6,
    "signup": 6,
@@ -342,19 +345,19 @@
   "topPages": [
    [
     "/litigation.html",
-    411
+    437
    ],
    [
     "/matters/live-208.html",
-    154
+    157
    ],
    [
     "/",
-    143
+    144
    ],
    [
     "/contact.html",
-    37
+    80
    ],
    [
     "/updates.html",
@@ -366,19 +369,19 @@
    ],
    [
     "/matters/live-188.html",
-    21
+    23
+   ],
+   [
+    "/matters/live-265.html",
+    19
    ],
    [
     "/chapter-11/lvlm-murray-properties-llc-pawb-26-22766.html",
     18
    ],
    [
-    "/matters/live-265.html",
-    18
-   ],
-   [
     "/matters/live-304.html",
-    17
+    18
    ]
   ],
   "toolViews": {
@@ -386,20 +389,20 @@
    "lease-clause-redline": 2,
    "settlement-benchmarks": 1,
    "litigation-index": 10,
-   "-tracker": 13
+   "-tracker": 14
   },
   "landingReferrers": [
    [
     "direct or unknown",
-    1159
+    1301
    ],
    [
     "google.com",
-    455
+    489
    ],
    [
     "utm:chatgpt.com",
-    29
+    31
    ],
    [
     "utm:defebdxfg",
@@ -414,15 +417,15 @@
     8
    ],
    [
+    "gemini.google.com",
+    5
+   ],
+   [
     "com.google.android.googlequicksearchbox",
     5
    ],
    [
     "vercel.com",
-    4
-   ],
-   [
-    "gemini.google.com",
     4
    ],
    [
@@ -433,7 +436,7 @@
   "topMatters": [
    [
     "live-208",
-    186
+    189
    ],
    [
     "live-271",
@@ -441,7 +444,7 @@
    ],
    [
     "live-099",
-    40
+    41
    ],
    [
     "live-303",
@@ -456,12 +459,12 @@
     27
    ],
    [
-    "live-272",
+    "live-188",
     24
    ],
    [
-    "live-188",
-    22
+    "live-272",
+    24
    ],
    [
     "live-035",
@@ -492,23 +495,23 @@
    "heavyPages": 0
   },
   "freshness": {
-   "matters": 287,
-   "newestMatterAdded": "2026-10-27",
+   "matters": 291,
+   "newestMatterAdded": "2026-10-28",
    "daysSinceNewestMatter": 0,
-   "ch11Petitions": 149,
-   "newestCh11Petition": "2026-10-27",
+   "ch11Petitions": 151,
+   "newestCh11Petition": "2026-10-28",
    "daysSinceNewestCh11": 0,
-   "federalSuits": 93,
+   "federalSuits": 94,
    "newestFederalSuit": "2026-10-27",
-   "daysSinceNewestSuit": 0
+   "daysSinceNewestSuit": 1
   },
-  "pagesChecked": 725
+  "pagesChecked": 734
  },
  "pipelines": {
-  "chapter11Petitions": 149,
-  "federalSuits": 93,
-  "secLeads": 6,
+  "chapter11Petitions": 151,
+  "federalSuits": 94,
+  "secLeads": 9,
   "wireLeads": 1,
-  "leadsHandled": 241
+  "leadsHandled": 269
  }
 }
