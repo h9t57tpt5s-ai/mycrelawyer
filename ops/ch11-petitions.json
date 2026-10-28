@@ -1,7 +1,18 @@
 {
- "updatedAt": "2026-10-28T01:36:40+00:00",
+ "updatedAt": "2026-10-28T17:21:10+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "13513 S SAM MOORE LLC",
+   "court": "United States Bankruptcy Court, W.D. Missouri",
+   "courtId": "mowb",
+   "docketNumber": "26-41922",
+   "dateFiled": "2026-10-28",
+   "docketUrl": "https://www.courtlistener.com/docket/75030501/13513-s-sam-moore-llc/",
+   "docketId": 75030501,
+   "slug": "13513-s-sam-moore-llc-mowb-26-41922",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "5717 Ferguson Project, LLC",
    "court": "United States Bankruptcy Court, C.D. California",
