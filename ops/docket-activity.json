@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-27T15:28:36+00:00",
+ "updatedAt": "2026-10-28T16:10:57+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 19,
+ "requestsUsed": 20,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -123,6 +123,13 @@
   "67356054": {
    "entries": [
     {
+     "date": "2026-10-27",
+     "number": 161,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67356054/161/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-21",
      "number": 160,
      "text": "Status Conference",
@@ -170,13 +177,6 @@
      "text": "Substitution of Attorney",
      "url": "https://www.courtlistener.com/docket/67356054/155/cornish-adebiyi-v-caesars-entertainment-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-20",
-     "number": 154,
-     "text": "Notice of Pro Hac Vice to Receive NEF",
-     "url": "https://www.courtlistener.com/docket/67356054/154/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -186,7 +186,7 @@
    "docketNumber": "1:23-cv-02536",
    "dateTerminated": "2024-09-30",
    "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-   "lastEntryDate": "2026-10-21"
+   "lastEntryDate": "2026-10-27"
   },
   "67940311": {
    "entries": [],
@@ -548,6 +548,13 @@
   "71964352": {
    "entries": [
     {
+     "date": "2026-10-27",
+     "number": 60,
+     "text": "Memorandum of Law in Opposition to Motion",
+     "url": "https://www.courtlistener.com/docket/71964352/60/realpage-inc-v-james/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-23",
      "number": 59,
      "text": "Case Management Plan",
@@ -595,13 +602,6 @@
      "text": "Order on Motion to Withdraw as Attorney",
      "url": "https://www.courtlistener.com/docket/71964352/54/realpage-inc-v-james/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 53,
-     "text": "Proposed Order - Order of Withdrawal",
-     "url": "https://www.courtlistener.com/docket/71964352/53/2/realpage-inc-v-james/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -611,7 +611,7 @@
    "docketNumber": "1:25-cv-09847",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/71964352/realpage-inc-v-james/",
-   "lastEntryDate": "2026-10-23"
+   "lastEntryDate": "2026-10-27"
   },
   "72081019": {
    "entries": [
@@ -1141,6 +1141,13 @@
   "74638795": {
    "entries": [
     {
+     "date": "2026-10-28",
+     "number": 9,
+     "text": "Order on Motion for Leave to File",
+     "url": "https://www.courtlistener.com/docket/74638795/9/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-22",
      "number": 8,
      "text": "Notice of Appearance",
@@ -1188,13 +1195,6 @@
      "text": "Corporate Disclosure Statement (aty)",
      "url": "https://www.courtlistener.com/docket/74638795/4/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-14",
-     "number": 3,
-     "text": "Corporate Disclosure Statement (aty)",
-     "url": "https://www.courtlistener.com/docket/74638795/3/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1204,7 +1204,7 @@
    "docketNumber": "3:26-cv-10200",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-   "lastEntryDate": "2026-10-22"
+   "lastEntryDate": "2026-10-28"
   },
   "74701388": {
    "entries": [],
@@ -1219,6 +1219,13 @@
   },
   "74712343": {
    "entries": [
+    {
+     "date": "2026-10-27",
+     "number": 21,
+     "text": "Order Referring Case to Magistrate Judge AND Order Referring Case to Mediation AND Scheduling Order",
+     "url": "https://www.courtlistener.com/docket/74712343/21/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
     {
      "date": "2026-10-23",
      "number": 20,
@@ -1267,13 +1274,6 @@
      "text": "Dismiss",
      "url": "https://www.courtlistener.com/docket/74712343/13/the-alder-at-lake-park-llc-v-town-of-lake-park/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-16",
-     "number": 11,
-     "text": "Extension of Time to File Response/Reply/Answer",
-     "url": "https://www.courtlistener.com/docket/74712343/11/the-alder-at-lake-park-llc-v-town-of-lake-park/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1283,7 +1283,7 @@
    "docketNumber": "9:26-cv-81070",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
-   "lastEntryDate": "2026-10-23"
+   "lastEntryDate": "2026-10-27"
   },
   "74850183": {
    "entries": [
@@ -1335,6 +1335,13 @@
   "74922581": {
    "entries": [
     {
+     "date": "2026-10-27",
+     "number": 33,
+     "text": "Notice of appearance and request for notice",
+     "url": "https://www.courtlistener.com/docket/74922581/33/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-26",
      "number": 32,
      "text": "BNC certificate of mailing - meeting of creditors",
@@ -1382,13 +1389,6 @@
      "text": "Extend/Shorten time",
      "url": "https://www.courtlistener.com/docket/74922581/26/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 25,
-     "text": "Notice (generic)",
-     "url": "https://www.courtlistener.com/docket/74922581/25/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1398,10 +1398,31 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-10-26"
+   "lastEntryDate": "2026-10-27"
   },
   "74927117": {
    "entries": [
+    {
+     "date": "2026-10-28",
+     "number": 55,
+     "text": "Supplemental Document",
+     "url": "https://www.courtlistener.com/docket/74927117/55/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-27",
+     "number": 54,
+     "text": "Supplemental Document",
+     "url": "https://www.courtlistener.com/docket/74927117/54/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-27",
+     "number": 53,
+     "text": "Order on Motion to Appear Telephonically or Via Video Conference",
+     "url": "https://www.courtlistener.com/docket/74927117/53/southbridge-associates-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-27",
      "number": 52,
@@ -1436,27 +1457,6 @@
      "text": "Certificate of Service",
      "url": "https://www.courtlistener.com/docket/74927117/46/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 45,
-     "text": "BNC Order - Chapter 11",
-     "url": "https://www.courtlistener.com/docket/74927117/45/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-21",
-     "number": 44,
-     "text": "Order (Generic)",
-     "url": "https://www.courtlistener.com/docket/74927117/44/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-20",
-     "number": 43,
-     "text": "Certificate of Service AND Certificate of Service of Notice of Hearing",
-     "url": "https://www.courtlistener.com/docket/74927117/43/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1466,7 +1466,7 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
-   "lastEntryDate": "2026-10-27"
+   "lastEntryDate": "2026-10-28"
   },
   "74948724": {
    "entries": [
@@ -1539,6 +1539,13 @@
   "74952112": {
    "entries": [
     {
+     "date": "2026-10-27",
+     "number": 15,
+     "text": "Summons Returned Executed as to USA",
+     "url": "https://www.courtlistener.com/docket/74952112/15/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-22",
      "number": 14,
      "text": "Vacate",
@@ -1586,13 +1593,6 @@
      "text": "Notice of Attorney Appearance",
      "url": "https://www.courtlistener.com/docket/74952112/9/city-of-san-antonio-v-mullin/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 8,
-     "text": "Notice of Attorney Appearance",
-     "url": "https://www.courtlistener.com/docket/74952112/8/city-of-san-antonio-v-mullin/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1602,7 +1602,7 @@
    "docketNumber": "5:26-cv-06542",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
-   "lastEntryDate": "2026-10-22"
+   "lastEntryDate": "2026-10-27"
   }
  },
  "events": [
