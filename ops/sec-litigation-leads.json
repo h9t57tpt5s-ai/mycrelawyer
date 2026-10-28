@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T13:59:58+00:00",
+ "updatedAt": "2026-10-28T23:11:37+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
   {
@@ -18,6 +18,70 @@
     "As of September 30, 2026, we had unfunded loan commitments of $ 37,339 related to our loans held for investment that are not reflected in our condensed consolidated balance sheets. These unfunded loan commitments had a weighted average initial maturity of 1.7 years as of September 30, 2026. Note 4. Real Estate Owned Real estate owned is property acquired in full or partial settlement of loan obligations, generally through foreclosure or by deed in lieu of foreclosure. In June 2023, we assumed legal title to an office property located in Yardley, PA through a deed in lieu of foreclosure. The table below presents the assets and liabilities of real estate owned in our condensed consolidated balance sheets: September 30, 2026 December 31, 2025 Land, building and improvements $ 11,989 $ 11,955 Less: accumulated depreciation ( 1,311 ) ( 969 ) Real estate owned, net 10,678 10,986 Acquired real estate leases, net 2,403 2,772 Prepaid expenses and other assets, net (1) 2,119 1,973 Total assets $ 15,200 $ 15,731 Accounts payable, accrued liabilities and other liabilities $ 453 $ 515 Total liabilities $ 453 $ 515 (1) Includes $ 1,210 and $ 1,211 of straight line rent receivables as of Septembe",
     "The weighted average principal balance of our repurchase loans was approximately $451,000 for the three months ended September 30, 2026 compared to approximately $468,000 for the three months ended June 30, 2026. Revenue from real estate owned. Revenue from real estate owned represents revenue from the operations of an office property located in Yardley, PA that was transferred to real estate owned through a deed in lieu of foreclosure in June 2023. The decrease in revenue from real estate owned was primarily due to lower operating expense reimbursements during the three months ended September 30, 2026 as compared to the three months ended June 30, 2026. 22 Table of Contents Base management fees. We recognize base management fees payable to Tremont in accordance with our management agreement.",
     "For further information regarding our allowance for credit losses, see Note 3 to our Unaudited Condensed Consolidated Financial Statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q. Expenses from real estate owned. Expenses from real estate owned represent expenses from the operations of an office property located in Yardley, PA that was transferred to real estate owned through a deed in lieu of foreclosure in June 2023. The increase in expenses from real estate owned was primarily due to higher repair and maintenance and utility expenses during the three months ended September 30, 2026 as compared to the three months ended June 30, 2026. Income tax (expense) benefit. Income tax (expense) benefit represents income taxes paid or payable by us in certain jurisdictions where we are subject to state income taxes."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "key": "0001140361-26-041028:ef20080523_10q.htm",
+   "company": "AmBase Corp  (ABCP)",
+   "cik": "20639",
+   "sic": "6512",
+   "form": "10-Q",
+   "filed": "2026-10-28",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/20639/000114036126041028/ef20080523_10q.htm",
+   "phrases": [
+    "commenced an action",
+    "filed a complaint"
+   ],
+   "excerpts": [
+    "For additional information with regard to the Company\u2019s investment in the 111 West 57 th Property and the Company\u2019s recording of an impairment of its equity investment in the 111 West 57 th Property in 2017, see Note 3. 16 Table of Contents AMBASE CORPORATION AND SUBSIDIARIES Notes to Unaudited Condensed Consolidated Financial Statements On October 19, 2026, 111 West 57th Investment LLC, on behalf of itself and derivatively on behalf of 111 West 57th Partners LLC and 111 West 57th Mezz 1 LLC, commenced an action by filing a Summons with Notice against ACREFI Mortgage LLC (\u201cACREFI\u201d) and Apollo Commercial Real Estate Finance, Inc., (\u201cARI\u201d) in the Supreme Court of the State of New York, County of New York, Index No. 655919/2026, concerned the alleged improper transfer of funds by ACREFI to ARI, its indirect parent, for no consideration or equivalent value.",
+    "Spruce then gave notice to the junior mezzanine borrower that it proposed to accept the pledged collateral (including the joint venture members\u2019 collective interest in the property) in full satisfaction of the joint venture\u2019s indebtedness under the Junior Mezzanine Loan (i.e., a \u201cStrict Foreclosure\u201d). On July 25, 2017, the Company filed a complaint against Spruce and the Sponsor and requested injunctive relief halting the Strict Foreclosure from the New York State Supreme Court for New York County, (the \u201cNY Court\u201d) Index No. 655031/2017, (the \u201cLender Action\u201d). The defendants in the Lender Action were 111 W57 Mezz Investor, LLC, Spruce Capital Partners LLC, 111 West 57th Sponsor LLC, Michael Z.",
+    "Kasowitz Benson Torres LLP, et al. , No. 151139/2024 (N.Y. Sup. Ct.). On June 27, 2024, 111 West 57th Investment LLC, derivatively on behalf of 111 West 57th Partners LLC and 111 West 57th Mezz 1 LLC, and 111 West 57th Manager Funding LLC, derivatively on behalf of 111 West 57th Manager LLC (collectively, \u201cPlaintiffs\u201d), filed a Complaint against Kasowitz Benson Torres LLP and Douglas B. Heitner (collectively, \u201cDefendants\u201d) in the Supreme Court of the State of New York, County of New York. Plaintiffs\u2019 claims arise out of Defendants\u2019 representation of 111 West 57th Partners LLC, 111 West 57th Mezz 1 LLC, and 111 West 57th Manager LLC in connection with the real estate development project of 111 West 57th Street (the \u201cProject\u201d) and related financing and other transactions, while simultaneously representing persons and entities with interests adverse to and in conflict with 111 West 57th Partners LLC\u2019s, 111 West 57th Mezz 1 LLC\u2019s, and 111 West 57th Manager LLC\u2019s interests (and the interests of other members of these represented entities), including but not limited to: Michael Stern, Kevin Maloney, and various entities owned and/or controlled by them."
+   ],
+   "captions": [],
+   "courts": [
+    "Supreme Court for New York County",
+    "Supreme Court of the State of New York"
+   ],
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "key": "0001717547-26-000076:brsp-20260930.htm",
+   "company": "BrightSpire Capital, Inc.  (BRSP)",
+   "cik": "1717547",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-10-28",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1717547/000171754726000076/brsp-20260930.htm",
+   "phrases": [
+    "deed in lieu of foreclosure",
+    "receiver was appointed"
+   ],
+   "excerpts": [
+    "The Company has no further involvement in the Norwegian net lease office campus, and the lenders are not a related party. In January 2025, an investment subsidiary defaulted on its mortgage note payable collateralized by one Pennsylvania office property included in the Company\u2019s other real estate, net portfolio. In July 2025, a receiver was appointed and took possession and full control of the property, requiring deconsolidation of the assets and liabilities from the Company\u2019s consolidated balance sheet in the third quarter of 2025. The deconsolidation resulted in impairment of operating real estate of $ 4.3 million. The Company has no further involvement in the Pennsylvania office property, and the lenders are not a related party."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "key": "0001628280-26-067912:kref-20260930.htm",
+   "company": "KKR Real Estate Finance Trust Inc.  (KREF, KREF-PA)",
+   "cik": "1631596",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-10-28",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1631596/000162828026067912/kref-20260930.htm",
+   "phrases": [
+    "deed in lieu of foreclosure"
+   ],
+   "excerpts": [
+    "Commercial Real Estate Loans, Held-For-Sale \u2014 Loans that KREF originates, or acquires, that management intends to sell or otherwise dispose of, in the foreseeable future are classified as held-for-sale and are carried at the lower of amortized cost or fair market value. Real Estate Owned \u2014 To maximize recovery from a defaulted loan, KREF may assume legal title or physical possession of the underlying collateral through foreclosure or the execution of a deed in lieu of foreclosure. Foreclosed properties are initially recognized at fair value in accordance with ASC 805 on KREF's Condensed Consolidated Balance Sheets as \"Real Estate Owned\" when KREF assumes legal title or physical possession. KREF\u2019s cost basis in REO equals the estimated fair value on 16 Table of Contents KKR Real Estate Finance Trust Inc."
    ],
    "captions": [],
    "courts": [],
