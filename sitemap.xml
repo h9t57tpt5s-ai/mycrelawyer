@@ -626,6 +626,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/judge-n-mark-klappenbach.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/judge-nitza-i-quinones-alejandro.html</loc>
     <lastmod>2026-10-13</lastmod>
     <priority>0.5</priority>
@@ -707,7 +712,7 @@
   </url>
   <url>
     <loc>https://credocket.com/judges.html</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -2402,6 +2407,11 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-342.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-343.html</loc>
     <lastmod>2026-10-28</lastmod>
     <priority>0.6</priority>
   </url>
