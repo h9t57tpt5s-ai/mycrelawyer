@@ -64,6 +64,21 @@
    "caseId": "live-005",
    "at": "2026-10-26",
    "action": "docket text only -- WebSearch found no secondary reporting on settlement terms; added a timeline entry restating that the docket exhibits describe the approved settlement as partial, without changing status, since no source confirms the case as fully resolved"
+  },
+  "70689952:closed:2026-08-06": {
+   "caseId": "live-028",
+   "at": "2026-10-28",
+   "action": "skipped: termination date reflects the Fourth Circuit's Aug. 6, 2026 ruling already captured in the matter's status/date/summary; no new information"
+  },
+  "63107484:closed:2025-11-26": {
+   "caseId": "live-104",
+   "at": "2026-10-28",
+   "action": "skipped: termination date matches the settlement already reflected in the matter's settled status, date, and summary; no new information"
+  },
+  "67940311:closed:2025-08-04": {
+   "caseId": "live-058",
+   "at": "2026-10-28",
+   "action": "skipped: termination date post-dates the foreclosure sale already reflected in the matter's settled status and summary; no new information"
   }
  }
 }

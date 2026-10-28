@@ -11794,6 +11794,48 @@ const RELAW_DATA = {
         { when: "February 2025", label: "Trial court dismisses the claims under Civil Rule 12(b)(6)" },
         { when: "October 26, 2026", label: "Court of Appeals, Division One reverses and remands, holding the claims are legally sufficient to proceed", current: true }
       ]
+    },
+    {
+      id: "live-343",
+      seoTitle: "BFT Rental v. Fayetteville: Eminent Domain No-Show Caps Payout",
+      seoDescription: "Arkansas appeals court affirms a directed verdict capping BFT Rental's eminent domain recovery at the City of Fayetteville's $112,180 deposit.",
+      addedDate: "2026-10-28",
+      title: "BFT Rental, LLC v. City of Fayetteville (Eminent Domain Compensation Appeal)",
+      brief: "BFT Rental, LLC lost its bid for more than the $112,180 the City of Fayetteville deposited for a condemned easement after BFT failed to appear for its own jury trial on just compensation.",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-10-28",
+      jurisdiction: "Arkansas Court of Appeals, Division III (No. CV-25-506); Washington County Circuit Court (No. 72CV-23-3442)",
+      parties: [
+        { name: "BFT Rental, LLC", role: "Appellant / Property Owner" },
+        { name: "City of Fayetteville", role: "Appellee / Condemnor" }
+      ],
+      judge: "N. Mark Klappenbach",
+      amountUsd: 112180,
+      amountBasis: "judgment",
+      state: "AR",
+      amount: "$112,180 just-compensation deposit, affirmed as the ceiling on recovery",
+      source: "live",
+      sourceUrl: "https://opinions.arcourts.gov/ark/courtofappeals/en/524709/1/document.do",
+      documentLabel: "Read the Arkansas Court of Appeals opinion",
+      summary: "The Arkansas Court of Appeals affirmed a directed verdict in favor of the City of Fayetteville after BFT Rental, LLC failed to appear for the jury trial set to determine just compensation for a condemned easement, leaving BFT's recovery capped at the City's $112,180 pre-trial deposit. The court held BFT forfeited appellate review of its claim that the circuit court erred in allowing its attorney to withdraw while denying a continuance, because BFT raised that objection for the first time in a post-trial motion rather than contemporaneously.",
+      significance: "Confirms that a condemnee's right to a jury's independent assessment of just compensation can be lost through default just like any other civil claim, and that a statutory quick-take deposit can become the final ceiling on recovery once the condemnee fails to put on evidence of greater value at trial. Commercial property owners facing eminent domain actions should treat scheduling disputes and counsel transitions as issues requiring an immediate, on-the-record objection rather than a basis to raise after an adverse trial outcome.",
+      body: [
+        "A commercial property owner that skipped its own eminent domain trial has lost its bid on appeal to recover more than the government's pre-trial deposit for the taking. In BFT Rental, LLC v. City of Fayetteville, the Arkansas Court of Appeals affirmed a Washington County Circuit Court order granting the City of Fayetteville a directed verdict after BFT Rental, LLC failed to appear for the jury trial set to determine how much compensation it was owed for a condemned easement. The ruling leaves BFT's recovery capped at the $112,180 the City had already deposited with the court, underscoring that a condemnee's right to a jury's independent assessment of just compensation can be forfeited by default just as surely as any other civil claim.",
+        "The City filed its condemnation action against BFT on November 8, 2023, seeking to acquire an easement across BFT-owned property in Fayetteville for construction of a water-transmission main. Acting under Arkansas's quick-take statute, Ark. Code Ann. section 18-15-303, the City deposited $112,180 into the court registry and obtained an order of immediate possession on November 16, 2023, allowing it to take possession and begin the public works project while the ultimate compensation question was litigated. BFT moved to withdraw the deposited funds, which the court granted, and the case proceeded toward a jury trial on the amount of just compensation.",
+        "What followed was a run of attorney transitions that proved consequential. BFT's original counsel withdrew in the spring of 2024, and replacement counsel entered an appearance that July. The circuit court set a one-day jury trial for April 30, 2025. On January 31, 2025, roughly three months before trial, that attorney also moved to withdraw. The City objected to any resulting continuance, noting the case had already been pending for well over a year, its witnesses were prepared to proceed, and this was BFT's second attorney to seek withdrawal during the litigation. The circuit court granted the withdrawal on February 27, 2025, but denied the continuance. BFT did not retain new counsel until after the trial date had passed and never objected to the February 27 ruling at the time; instead, BFT simply did not appear for the April 30 jury trial.",
+        "With no appearance, no witness list, and no exhibit list from the defense, the City moved for a directed verdict, which the circuit court granted, affirming the City's ownership of the easement and fixing just compensation at the $112,180 already on deposit. The court explained in its written order that, absent any evidence from BFT, a reasonable jury would not have had a sufficient evidentiary basis to award BFT just compensation beyond that amount. On appeal, BFT argued that the circuit court abused its discretion by allowing its attorney to withdraw while denying a continuance, and that the error tainted both the directed verdict and the later denial of its motion for a new trial.",
+        "The Court of Appeals never reached the merits of that argument. Citing Tate-Smith v. Cupples and Nash v. Nash, the panel held that under Arkansas's preservation doctrine, an objection raised for the first time in a motion for new trial is not timely and cannot be considered on appeal, a rule designed to prevent a litigant from waiting to see whether a gamble pays off before raising an available objection. Because BFT voiced no complaint about the February 27 ruling until two months later, after it had already lost at trial, the panel held the issue was unpreserved, and it rejected BFT's separate challenge to the denial of its new-trial motion on the same ground, also noting that BFT's briefing never argued why the directed verdict itself was substantively wrong.",
+        "Eminent domain compensation disputes are almost always about the numbers, but this case is a reminder that appraisal and valuation evidence is worthless if it never reaches the jury. For commercial landlords, developers, and other property owners facing condemnation, the lesson is that a government's statutory deposit, once left undisputed by competent evidence at trial, can become the ceiling on recovery as a matter of law, and that any scheduling dispute or counsel transition close to trial needs an immediate, on-the-record objection and a formal continuance motion rather than a wait-and-see approach raised only after an adverse verdict."
+      ],
+      timeline: [
+        { when: "November 8, 2023", label: "City of Fayetteville files its condemnation action against BFT Rental" },
+        { when: "November 16, 2023", label: "Circuit court grants the City immediate possession after a $112,180 quick-take deposit" },
+        { when: "February 27, 2025", label: "Circuit court allows BFT's attorney to withdraw but denies a continuance of the April 30 trial date" },
+        { when: "April 30, 2025", label: "BFT fails to appear for the jury trial; circuit court grants the City a directed verdict capping compensation at $112,180" },
+        { when: "October 28, 2026", label: "Arkansas Court of Appeals affirms, holding BFT's objections were not preserved for appeal", current: true }
+      ],
+      tags: ["eminent domain", "condemnation", "just compensation", "arkansas", "directed verdict"]
     }
   ],
 
@@ -12855,6 +12897,14 @@ const RELAW_DATA = {
       court: "Appellate Court of Illinois, Fourth District",
       background: "Assigned by the Illinois Supreme Court to the Fourth District Appellate Court in March 2018, filling the vacancy left by the death of Justice John P. Schmidt, and later elected to retain the seat. Previously a resident Circuit Judge of the Seventh Judicial Circuit, appointed in 2008. Unanimously appointed Presiding Justice of the Fourth District effective February 29, 2024.",
       bioUrl: "https://www.illinoiscourts.gov/justice/39/Peter-C-Cavanagh/justice"
+    },
+    {
+      name: "N. Mark Klappenbach",
+      slug: "n-mark-klappenbach",
+      title: "Chief Judge — authored the panel opinion",
+      court: "Arkansas Court of Appeals",
+      background: "First elected to the Arkansas Court of Appeals in 2016 and reelected in 2020, after more than 31 years in Arkansas legal and accounting work, including service as a public defender and deputy prosecuting attorney. Appointed Chief Judge of the Arkansas Court of Appeals by the Arkansas Supreme Court's chief justice for a four-year term beginning January 1, 2025.",
+      bioUrl: "https://www.arcourts.gov/courts/court-of-appeals/judges/Mark-Klappenbach"
     }
   ],
 
