@@ -870,6 +870,22 @@
    },
    "checkAfter": "2026-11-04",
    "status": "watching"
+  },
+  {
+   "id": "imp-039",
+   "date": "2026-10-28",
+   "track": "traffic",
+   "title": "Drafted this week's LinkedIn posts in ops/social-drafts/ (backlog G5 refresh)",
+   "why": "Second run today. Nothing to judge (earliest open checkAfter is imp-011/imp-025's 2026-10-29). Audit clean (pagesChecked 730; missingDescription 2 / weakDescription 1 unchanged, both already-explained noindex/pre-existing pages). Re-checked 'one open experiment per goal' by metric: traffic (imp-038, open on visits7/googleLandings7 since this morning); conversion (imp-033, open on all three of conversion's real tracked metrics -- newsletterSignups7/signUps7/multiPageRate7 -- until 2026-11-01; follows7 has no open entry but G17 already diagnosed the real blocker as the two-step magic-link follow flow, not copy/placement); calculator (imp-016 open on calculatorViews7 until 2026-10-31; finalRangeHitRate is Jeff-gated code regardless); news (imp-030 open on all three of its metrics, already on track anyway) -- every numeric goal's actual lever is blocked this run, identical gridlock to 2026-10-25/26/27. Checked for new G3/G15 evidence before defaulting to backlog: no new backtest directory (still no results-v4.4/), no new entry in ops/calculator-proposals.md since imp-034's 2026-10-26 trace, and imp-036 (2026-10-27) already scanned all 47 results-v4.3/ files for the dedup-bug shape (zero occurrences) -- nothing new to add without a paid run. Did not build another state/category page (G12): imp-038 (this morning) is already open on the exact same visits7/googleLandings7 metric until 2026-11-04, and the playbook's own note on imp-038 says not to ship another one before it's judged. Subscription checklist already re-verified twice (imp-029 2026-10-23, imp-036 2026-10-27) with nothing new found. ops/social-drafts/ was last refreshed 2026-10-27 (imp-037, through live-337); 5 new matters existed since (live-338 through live-342). Drafted 4 (live-338 Thor Equities v. City of Urbana data-center-moratorium suit, live-339 ECO TIP West's vested-rights win over Chatham County NC, live-341 Renaissance Midtown West's NY appellate loss on unpaid rent/guaranty/veil-piercing, live-342 GRE Downtowner's revived regulatory-takings claim against Seattle), copying facts verbatim from each published write-up. Skipped live-340 (In re Jon Venetos) because its caption and write-up name an individual (Lurin Capital's founder) from court records, the same exclusion applied to live-301/310/317/321/332.",
+   "files": [
+    "ops/social-drafts/2026-10-28.md"
+   ],
+   "commit": "b6b89c9e27387c148111d40b1a8680f4f5f509cb",
+   "metric": "none -- a draft for Jeff, same convention as imp-018/023/027/031/035/037",
+   "window": "n/a",
+   "baseline": "n/a",
+   "checkAfter": "n/a",
+   "status": "no-op"
   }
  ]
 }
