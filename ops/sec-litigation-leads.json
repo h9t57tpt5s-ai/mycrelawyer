@@ -1,7 +1,73 @@
 {
- "updatedAt": "2026-10-29T14:14:07+00:00",
+ "updatedAt": "2026-10-29T23:16:05+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001104659-26-120201:fpi-20260930x10q.htm",
+   "company": "Farmland Partners Inc.  (FPI)",
+   "cik": "1591670",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-10-29",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1591670/000110465926120201/fpi-20260930x10q.htm",
+   "phrases": [
+    "filed a complaint",
+    "filed a petition"
+   ],
+   "excerpts": [
+    "The total outstanding claims against the Company are an aggregate of approximately $ 3.5 million. The Company\u2019s accrual for these claims is approximately $ 2.5 million, of which $ 1.8 million was recorded during the three months ended September 30, 2026, and is recorded in legal and accounting expense. \u200b On July 2, 2021, the Company filed a complaint against First Sabrepoint Capital Management, LP, Sabrepoint Capital Partners, LP, Sabrepoint Capital Participation, LP, George Baxter, and Donald Marchiony (collectively, \u201cSabrepoint\u201d) in the Civil District Courts of Dallas County, Texas seeking relief for their role, as alleged in the complaint, in the previously 23 Table of Contents disclosed 2018 \u201cshort and distort\u201d scheme to profit from an artificial decline in our stock price.",
+    "The trial court granted the motion for certain fees claimed by Sabrepoint as relating to its pursuit of its TCPA motion, but as noted above, the Court of Appeals subsequently overturned the TCPA order that formed the basis of Sabrepoint\u2019s fee request, mooting the motion and the Court\u2019s order on the same. On June 30, 2023, the Court of Appeals granted the Company\u2019s appeal, determining that the Company\u2019s claims against Sabrepoint are not barred, reversing the trial court and remanding the case for further proceedings on the merits. On October 13, 2023, Sabrepoint filed a Petition for Review with the Texas Supreme Court, requesting the court to review the Court of Appeals\u2019 decision. The Company filed a response to the Sabrepoint Petition for Review with the Texas Supreme Court on December 27, 2023. Sabrepoint filed a reply in support of its petition on January 25, 2024, and on February 16, 2024, the court requested a briefing on the merits."
+   ],
+   "captions": [],
+   "courts": [
+    "District Court",
+    "Supreme Court"
+   ],
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "key": "0001193125-26-437813:maa-20260930.htm",
+   "company": "MID AMERICA APARTMENT COMMUNITIES INC.  (MAA)",
+   "cik": "912595",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-10-29",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/912595/000119312526437813/maa-20260930.htm",
+   "phrases": [
+    "filed a lawsuit",
+    "putative class action"
+   ],
+   "excerpts": [
+    "The Consent Judgment and Order does not constitute an admission of liability, wrongdoing, violation of law, or admission of the truth of any allegation against the Company. The required payment was reflected in the Company\u2019s accrual for loss contingencies as of September 30, 2026. In July 2025, the Commonwealth of Kentucky, through its Attorney General, filed a lawsuit in the U.S. District Court for the Eastern District of Kentucky against RealPage, Inc. and several of the state\u2019s largest landlords, including the Company, alleging violations of federal antitrust laws and state consumer protection laws, among other things (the \u201cKentucky Litigation\u201d). With respect to the Kentucky Litigation, the Company believes there are defenses, both factual and legal, to the allegations in the proceeding and the Company intends to vigorously defend itself.",
+    "26 The table below reconciles undiscounted cash flows for each of the first five years and total of the remaining years to the right-of-use lease liabilities recorded on the Condensed Consolidated Balance Sheets as of September 30, 2026 (in thousands): Operating Leases 2026 $ 780 2027 3,136 2028 1,714 2029 820 2030 771 Thereafter 54,187 Total minimum lease payments 61,408 Net present value adjustments ( 38,515 ) Right-of-use lease liabilities $ 22,893 Legal Proceedings In late 2022 and early 2023, multiple putative class action lawsuits were filed against RealPage, Inc. and approximately 50 of the largest owners and operators of apartment communities in the country, including the Company, alleging that RealPage and such owners and operators conspired to artificially inflate multifamily residential rental prices through the use of RealPage\u2019s revenue management software."
+   ],
+   "captions": [],
+   "courts": [
+    "District Court for the Eastern District of Kentucky"
+   ],
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "key": "0001468174-26-000034:h-20260930.htm",
+   "company": "Hyatt Hotels Corp  (H)",
+   "cik": "1468174",
+   "sic": "7011",
+   "form": "10-Q",
+   "filed": "2026-10-29",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1468174/000146817426000034/h-20260930.htm",
+   "phrases": [
+    "filed a petition"
+   ],
+   "excerpts": [
+    "On April 22, 2026, the Seventh Circuit issued an opinion agreeing with certain of the Company's legal arguments, disagreeing with certain of the Tax Court's conclusions, vacating the decision of the Tax Court, and remanding the case to the Tax Court for further proceedings. On July 8, 2026, the IRS filed a petition for panel rehearing and rehearing en banc with the U.S. Court of Appeals for the Seventh Circuit, to which the Company filed a response on August 6, 2026. The Seventh Circuit denied the petition on August 21, 2026 and issued an official mandate to return the case to the Tax Court on August 31, 2026."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-10-29"
+  },
   {
    "key": "0001452477-26-000050:sevn-20260930.htm",
    "company": "Seven Hills Realty Trust  (SEVN)",
