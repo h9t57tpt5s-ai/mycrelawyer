@@ -11999,6 +11999,129 @@ const RELAW_DATA = {
         { when: "2020", label: "Crown Castle excavates beyond the easement's boundaries and installs fiber-optic cable on RJI's land" },
         { when: "October 29, 2026", label: "Florida Supreme Court holds the easement's attorney's-fee clause does not run with the land and does not bind Crown Castle", current: true }
       ]
+    },
+    {
+      id: "live-348",
+      seoTitle: "Cobleskill Hotel Fire: NY Court Backs Insurer Over Smoke Detectors",
+      seoDescription: "New York's Third Department ruled Seneca Insurance owes no coverage for a hotel and bowling-alley fire after finding the smoke-detector warranty was breached.",
+      property: { name: "Cobleskill Enterprise hotel, restaurant and bowling alley complex", city: "Cobleskill", state: "NY" },
+      addedDate: "2026-10-29",
+      title: "Seneca Ins. Co. Inc. v. Cobleskill Enter., LLP (Smoke-Detector Warranty Breach Voids Hotel Fire Coverage)",
+      brief: "New York's Third Department ruled Seneca Insurance owes no coverage for a 2018 hotel and bowling-alley fire, finding the owner breached its policy's smoke-detector warranty as a matter of law.",
+      category: "premises-liability",
+      status: "ruling",
+      date: "2026-10-29",
+      jurisdiction: "Appellate Division, Third Department, New York",
+      state: "NY",
+      propertyType: "Hospitality",
+      amount: "Coverage dispute over fire damage to a hotel, restaurant and bowling-alley complex; no dollar figure for the loss is stated in the opinion",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11049454/seneca-ins-co-inc-v-cobleskill-enter-llp/",
+      summary: "New York's Appellate Division, Third Department, ruled on October 29, 2026 that Seneca Insurance Company Inc. owes no coverage for a December 2018 fire at a hotel, restaurant and bowling-alley complex owned by Cobleskill Enterprise, LLP, reversing a trial court and holding that the owner breached its policy's protective safeguards endorsement, a warranty requiring operational smoke detectors throughout the property, as a matter of law. The court found the breach materially increased the risk of loss under New York Insurance Law § 3106 given testimony that multiple areas of the complex, including the pool, bowling alley, basement and dining room, had no functioning smoke detectors at all.",
+      significance: "The decision shows that a protective safeguards endorsement will be enforced according to its plain terms, and that partial or inconsistent fire-detection coverage across different sections of a mixed-use hospitality property can be enough to void an otherwise valid claim. Commercial property owners, especially hospitality operators with large, multi-system buildings, should treat any code citation or contractor finding of inadequate fire-detection equipment as a direct threat to insurance coverage and document remediation completely once identified.",
+      body: [
+        "New York's Appellate Division, Third Department, has handed insurer Seneca Insurance Company Inc. a win in a long-running coverage fight over a 2018 fire at a hotel, restaurant and bowling-alley complex in the Town of Cobleskill, ruling on October 29, 2026 that the property owner's failure to maintain operational smoke detectors throughout the building voided coverage for the loss as a matter of law.",
+        "The case arose after a December 24, 2018 fire caused extensive smoke and burn damage at the Cobleskill Enterprise, LLP property, a mixed hospitality complex that included a hotel, restaurant, banquet room, kitchen and bowling alley. When the owner sought to collect under its commercial property insurance policy, Seneca denied the claim and filed a declaratory judgment action in Schoharie County, arguing among other things that Cobleskill Enterprise had breached the policy's protective safeguards endorsement, or PSE, a warranty requiring operational smoke detectors in all units and common areas as a condition of coverage.",
+        "The underlying facts, developed through discovery, were damaging to the insured. A technician from the fire-alarm contractor Cobleskill Enterprise had hired, after being cited by the Village of Cobleskill in October 2018 for missing carbon monoxide detectors, testified that the property's fire-detection system was outdated, relied on two incompatible types of equipment, and could not be adapted to add the required detectors without a full replacement. His inspection turned up no smoke detectors at all in the pool area, bowling alley, basement or the dining room ceiling; the banquet room and kitchen had only heat detectors, not smoke detectors; and several existing devices in the hallway and near the pool were discovered to be nonfunctional dummy detectors. Separately, the reporting panel covering the restaurant, kitchen, banquet room and bowling alley could not communicate with the main fire alarm panel in the hotel lobby, meaning a fire breaking out in those areas would never have triggered the building's central alarm at all.",
+        "Supreme Court in Schoharie County had denied Seneca's motion for summary judgment on the PSE issue, finding that the insurer's own evidence raised triable fact questions. The Third Department reversed on that point. Applying New York Insurance Law § 3106, which provides that a breach of a policy warranty voids coverage only if the breach materially increases the risk of loss, the appellate panel held that Seneca had established both the breach and its materiality as a matter of law, leaving no issue for a factfinder. The court reasoned that an operational smoke detector, given its plain and ordinary meaning, must be one that is actually capable of detecting smoke and alerting occupants, and a property riddled with missing, incompatible or disconnected detectors across multiple common areas plainly fell short of that standard.",
+        "The ruling did not end the broader litigation. Cobleskill Enterprise had also brought a third-party action against Links Insurance Services, LLC, the retail broker that placed the policy, alleging that any coverage gap was the product of Links' own negligence or breach of duty in procuring and servicing the policy; Seneca separately asserted direct fraud and negligent-misrepresentation claims against Links tied to how the claim was handled after the policy had reportedly already been cancelled for nonpayment. Those claims against the broker proceed notwithstanding the insurer's win on the core coverage question.",
+        "For commercial property owners, particularly hospitality operators juggling multiple building systems across large, multi-use footprints, the practical lesson is that a protective safeguards endorsement is not boilerplate: courts will enforce an unambiguous warranty requiring operational devices in units and common areas according to its plain terms, so any code citation or contractor finding of inadequate fire-detection equipment should be treated as a direct threat to coverage rather than merely a local compliance issue, with remediation documented promptly and completely once a gap is identified. Where a broker was involved in placing or renewing a safeguards-conditioned policy, an owner facing a coverage denial should also consider whether the broker's own conduct in explaining or monitoring compliance created separate exposure, since that claim can survive even after the direct coverage claim against the insurer is lost."
+      ],
+      judge: "Stan L. Pritzker",
+      parties: [
+        { name: "Seneca Insurance Company Inc.", role: "Plaintiff-Appellant-Respondent" },
+        { name: "Cobleskill Enterprise, LLP", role: "Defendant" },
+        { name: "Links Insurance Services, LLC", role: "Respondent-Appellant" }
+      ],
+      tags: ["insurance coverage", "hotel", "fire", "protective safeguards", "new york"],
+      timeline: [
+        { when: "December 24, 2018", label: "Fire causes extensive smoke and burn damage at the Cobleskill hotel, restaurant and bowling-alley complex" },
+        { when: "October 29, 2026", label: "Third Department reverses, holding the smoke-detector warranty breach voids coverage as a matter of law", current: true }
+      ]
+    },
+    {
+      id: "live-349",
+      seoTitle: "South Bend Eminent Domain: Only City Council Can Condemn, Court Rules",
+      seoDescription: "Indiana's Court of Appeals held only South Bend's Common Council, not the mayor, can authorize eminent domain inside a redevelopment project area.",
+      property: { name: "Property formerly owned by Argos 316, LLC", city: "South Bend", state: "IN" },
+      addedDate: "2026-10-29",
+      title: "Portage Township of St. Joseph County, Indiana v. City of South Bend (Eminent Domain in Redevelopment Areas Requires Council Authorization)",
+      brief: "Indiana's Court of Appeals reversed a condemnation action against a developer's property, holding only a city's legislative body, not its mayor, can authorize eminent domain in a redevelopment project area.",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-10-29",
+      jurisdiction: "Indiana Court of Appeals",
+      state: "IN",
+      propertyType: "Land/Development",
+      amount: "Not stated; dispute concerns authority to condemn, not a damages or compensation figure",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11049277/portage-township-of-st-joseph-county-indiana-v-city-of-south-bend/",
+      summary: "The Indiana Court of Appeals ruled on October 29, 2026 that a city's legislative body, not its mayor or other officials, holds exclusive authority to exercise eminent domain over property inside a statutorily designated redevelopment project area, reversing a trial court that had allowed the City of South Bend to pursue a condemnation action against property owned by Argos 316, LLC without a vote of the South Bend Common Council. Objectors Portage Township, which had purchased the property after the condemnation suit was filed, and 350 Columbia Street, LLC, which held easement rights over it, successfully argued the City's suit was unauthorized under Indiana Code section 36-7-14-20(a).",
+      significance: "The ruling is a significant procedural check on municipal eminent-domain practice in Indiana, confirming that a legislative body's resolution is mandatory, not merely one option among several, before a city can condemn property inside a redevelopment project area. Developers and owners negotiating property located inside such an area should confirm proper council authorization exists before assuming a condemnation threat is valid, since its absence is now a dispositive defense.",
+      body: [
+        "The Indiana Court of Appeals ruled on October 29, 2026 that a city's legislative body, not its mayor or other officials, holds exclusive authority to exercise eminent domain over property located inside a statutorily designated redevelopment project area, reversing a trial court that had allowed the City of South Bend to pursue a condemnation action without a vote of the South Bend Common Council.",
+        "The case grew out of an October 2024 condemnation complaint the City filed, at the direction of its mayor, against real property owned by Argos 316, LLC. The property sat within a redevelopment project area the South Bend Redevelopment Commission had previously established. Before the City's complaint was resolved, Portage Township contracted to buy the same property and completed that purchase shortly after the condemnation action was filed. The Township, along with 350 Columbia Street, LLC, which held easement rights over the property, intervened and objected that the City's condemnation suit was unauthorized because the South Bend Common Council, the city's legislative body, had never adopted a resolution directing it, as Indiana Code section 36-7-14-20(a) requires for the exercise of eminent domain within a redevelopment project area.",
+        "The trial court rejected that objection, reasoning that Council authorization under section 36-7-14-20 was merely one permissible path to condemnation in a redevelopment area, not the exclusive one, since other Indiana statutes give units of local government broad eminent-domain power generally exercisable by officials other than the legislative body. The objectors appealed, and the Court of Appeals, in an opinion by Judge Vaidik joined by Judge May, with Chief Judge Tavitas concurring in the result separately, reversed.",
+        "The court framed the question as purely one of statutory interpretation, reviewed de novo. It acknowledged that both sides' readings of section 36-7-14-20(a) were facially reasonable in isolation, making the statute ambiguous and requiring the court to look to the broader statutory scheme to discern legislative intent. That scheme establishes a comprehensive, multi-step process for redevelopment: a unit creates a department of redevelopment controlled by a redevelopment commission; the commission designates an area needing redevelopment with approval from the unit's plan commission and legislative body; the commission identifies specific parcels needed for the project and first attempts a negotiated purchase; and only when negotiation fails does eminent domain become necessary, triggering section 36-7-14-20's requirement that the legislative body adopt a resolution directing its attorney to file suit.",
+        "Reading that provision in the context of the surrounding chapter, the court concluded that the General Assembly intended the legislative body, and only the legislative body, to wield the eminent-domain power within a redevelopment project area, notwithstanding officials' broader condemnation authority outside that specific statutory context. Because the South Bend Common Council never authorized the action against the Argos 316 property, the court held the condemnation suit unauthorized and reversed the trial court's order overruling the objection.",
+        "The decision is a significant procedural check on municipal eminent-domain practice in Indiana, and it arrives in a live dispute where a private buyer's intervening purchase of the targeted property added real commercial stakes to what might otherwise look like a pure statutory-construction question. Developers, property owners, and anyone negotiating the sale of real estate located inside a designated redevelopment project area in Indiana should now confirm, before assuming a condemnation threat is properly authorized, whether the relevant city or town council, as opposed to a mayor, redevelopment commission, or other official, actually adopted the resolution section 36-7-14-20 requires; a failure to do so is no longer a technicality a court will overlook, and owners facing or anticipating condemnation in a redevelopment area should request the authorizing resolution and the record of the legislative body's vote early in any dispute."
+      ],
+      judge: "Nancy H. Vaidik",
+      parties: [
+        { name: "Argos 316, LLC", role: "Property Owner" },
+        { name: "350 Columbia Street, LLC", role: "Appellant-Intervenor Defendant" },
+        { name: "City of South Bend", role: "Appellee-Plaintiff" }
+      ],
+      tags: ["eminent domain", "condemnation", "redevelopment", "indiana", "municipal authority"],
+      timeline: [
+        { when: "October 2024", label: "City of South Bend files a condemnation complaint against the Argos 316 property" },
+        { when: "October 29, 2026", label: "Court of Appeals reverses, holding only the Common Council could authorize the condemnation", current: true }
+      ]
+    },
+    {
+      id: "live-350",
+      seoTitle: "Weitz Hit With $3.9M Punitive Damages Upheld in Contractor Fraud Case",
+      seoDescription: "Tennessee's Court of Appeals affirmed $3.9 million in punitive damages against general contractor Weitz for defrauding its drywall subcontractor.",
+      property: { name: "Multi-building retirement community construction project", city: "Memphis", state: "TN" },
+      addedDate: "2026-10-29",
+      title: "Commercial Painting Company Inc. v. The Weitz Company LLC (Punitive Damages for Contractor Fraud Survive Contractual Waiver)",
+      brief: "Tennessee's Court of Appeals upheld $3.9 million in punitive damages against general contractor Weitz for concealing a schedule extension from its drywall subcontractor, rejecting Weitz's damages-waiver defense.",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2026-10-28",
+      jurisdiction: "Court of Appeals of Tennessee",
+      state: "TN",
+      propertyType: "Senior Living",
+      amount: "$8.36M combined jury verdict, including $3.9M in punitive damages, affirmed",
+      amountUsd: 8359863.83,
+      amountBasis: "judgment",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11049652/commercial-painting-company-inc-v-the-weitz-company-llc/",
+      summary: "The Tennessee Court of Appeals affirmed on October 28, 2026 a trial court judgment of $8,359,863.83, including $3.9 million in punitive damages, against general contractor The Weitz Company, LLC in a fraud suit brought by its drywall subcontractor, Commercial Painting Company, Inc., over a Shelby County retirement-community project. The court rejected Weitz's argument that the parties' contractual waiver of consequential damages barred the jury's punitive award for intentional misrepresentation, in the fifth appeal of this litigation to reach the court.",
+      significance: "The ruling confirms that a standard contractual waiver of consequential or punitive damages will not automatically shield a general contractor from punitive exposure arising out of an independent tort claim like fraud, even when that claim arises from the same construction relationship the contract governs. Contractors and subcontractors should not assume generic damages-waiver language extends to intentional misconduct absent language expressly addressing it.",
+      body: [
+        "More than two decades after a retirement-community construction project went sideways in Shelby County, Tennessee, the Tennessee Court of Appeals has affirmed a trial court judgment that includes $3.9 million in punitive damages against general contractor The Weitz Company, LLC, rejecting Weitz's argument that a contractual waiver of consequential damages barred the punitive award for its subcontractor's fraud claim.",
+        "The ruling, issued October 28, 2026, is the fifth time this litigation has reached the Tennessee Court of Appeals and the latest chapter in a dispute dating to a December 2004 subcontract. Weitz, serving as general contractor on a multi-building retirement community in Shelby County, hired Commercial Painting Company, Inc. to perform drywall work for a contract price that eventually grew to roughly $3.3 million after change orders. According to the litigation record, Weitz had privately negotiated a six-month extension of the project schedule with the project owner before signing the subcontract with Commercial Painting, but never disclosed that extension and instead issued construction schedules the subcontractor's amended complaint characterized as fraudulent and unrealistic, reportedly in pursuit of an early-completion bonus of up to roughly $8,597 per day. When Weitz could not make up the real delay, it allegedly supplemented Commercial Painting's drywall work with extra crews and then improperly charged the cost of that supplemental labor back to the subcontractor, all while withholding payment on five of Commercial Painting's seventeen pay applications.",
+        "Commercial Painting sued Weitz and its sureties, Federal Insurance Company and St. Paul Fire & Marine Insurance Company, in August 2006, later amending its complaint to add claims for fraud, intentional and negligent misrepresentation, and $10 million in punitive damages. After years of proceedings, including an earlier trip to the Tennessee Supreme Court that resulted in a remand for reconsideration under a revised summary-judgment standard, the case reached a jury in October 2018. The jury found for Commercial Painting on breach of contract, unjust enrichment, intentional misrepresentation, and the payment bond, awarding a combined $8,359,863.83: $1,272,952.46 in compensatory damages, $2,083,362.16 in prejudgment interest, $1,103,549 in attorney's fees, and $3,900,000 in punitive damages. The trial court upheld the punitive award after making detailed findings that Weitz knew of the undisclosed extension before signing the subcontract, planned from the outset to compress the schedule and supplement Commercial Painting's work, and misrepresented the project's true timeline to the subcontractor throughout.",
+        "On this appeal, the Tennessee Supreme Court had specifically directed the Court of Appeals to decide whether a contractual limitation-of-damages provision, under which the parties waived consequential damages and capped certain remedies, barred the jury's punitive damages award for intentional misrepresentation, a tort claim rather than a breach-of-contract claim. The Court of Appeals held that it did not. Punitive damages for an independent tort like fraud, the court concluded, exist to punish and deter egregious conduct rather than to compensate for the kind of foreseeable commercial losses a consequential-damages waiver is designed to allocate between contracting parties, and nothing in the parties' contractual waiver language purported to reach intentionally tortious conduct of the kind the jury found here. The trial court's judgment, including the full punitive award, was affirmed.",
+        "The decision is a pointed reminder to general contractors, developers, and their subcontractors that a standard contractual waiver of consequential or punitive damages, common in AIA-style and other construction agreements, will not necessarily insulate a party from punitive exposure arising out of an independent tort claim like fraud or intentional misrepresentation, even when that claim arises from the same construction relationship the contract governs; parties who want broader protection should not assume generic damages-waiver language automatically extends to tort-based punitive awards without language expressly addressing intentional misconduct. The case also illustrates the extraordinary duration and cost that schedule-manipulation disputes on large commercial construction projects can generate when one party is found to have concealed material scheduling information from a subcontractor it expected to absorb the resulting compression costs, underscoring the value of detailed contemporaneous documentation of schedule negotiations and change-order communications in fraud claims litigated years after a project's completion."
+      ],
+      judge: "Jeffrey Usman",
+      parties: [
+        { name: "Commercial Painting Company, Inc.", role: "Plaintiff-Appellee" },
+        { name: "The Weitz Company, LLC", role: "Defendant-Appellant" },
+        { name: "Federal Insurance Company", role: "Defendant-Appellant" },
+        { name: "St. Paul Fire & Marine Insurance Company", role: "Defendant-Appellant" },
+        { name: "Liberty Mutual Insurance Company", role: "Defendant-Appellee" }
+      ],
+      tags: ["construction fraud", "punitive damages", "subcontractor", "tennessee", "contractual waiver"],
+      timeline: [
+        { when: "December 2004", label: "Weitz and Commercial Painting execute the drywall subcontract for the Shelby County retirement-community project" },
+        { when: "October 2018", label: "Jury awards Commercial Painting $8,359,863.83, including $3.9M in punitive damages" },
+        { when: "October 28, 2026", label: "Court of Appeals affirms the judgment, holding the contractual damages waiver does not bar the punitive award", current: true }
+      ]
     }
   ],
 
@@ -12653,7 +12776,10 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court for the Southern District of West Virginia", url: "https://www.wvsd.uscourts.gov/" },
     { jurisdiction: "Supreme Court of Alabama", url: "https://judicial.alabama.gov/" },
     { jurisdiction: "U.S. District Court, Southern District of Texas (Galveston Division)", url: "https://www.txs.uscourts.gov/" },
-    { jurisdiction: "Ohio Court of Appeals, Eighth Appellate District", url: "https://appeals.cuyahogacounty.gov/" }
+    { jurisdiction: "Ohio Court of Appeals, Eighth Appellate District", url: "https://appeals.cuyahogacounty.gov/" },
+    { jurisdiction: "Appellate Division, Third Department, New York", url: "https://www.nycourts.gov/courts/ad3/" },
+    { jurisdiction: "Indiana Court of Appeals", url: "https://www.in.gov/courts/appeals/" },
+    { jurisdiction: "Court of Appeals of Tennessee", url: "https://www.tncourts.gov/courts/court-appeals" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -13069,6 +13195,30 @@ const RELAW_DATA = {
       court: "Arkansas Court of Appeals",
       background: "First elected to the Arkansas Court of Appeals in 2016 and reelected in 2020, after more than 31 years in Arkansas legal and accounting work, including service as a public defender and deputy prosecuting attorney. Appointed Chief Judge of the Arkansas Court of Appeals by the Arkansas Supreme Court's chief justice for a four-year term beginning January 1, 2025.",
       bioUrl: "https://www.arcourts.gov/courts/court-of-appeals/judges/Mark-Klappenbach"
+    },
+    {
+      name: "Stan L. Pritzker",
+      slug: "stan-l-pritzker",
+      title: "Associate Justice — authored the panel opinion",
+      court: "Appellate Division, Third Department, New York",
+      background: "Appointed to the Appellate Division, Third Department by Governor Andrew Cuomo in 2017. Previously elected to the New York State Supreme Court, Fourth Judicial District, in 2013.",
+      bioUrl: "https://www.nycourts.gov/ad3/about/bios/pritzker.shtml"
+    },
+    {
+      name: "Nancy H. Vaidik",
+      slug: "nancy-h-vaidik",
+      title: "Judge — authored the panel opinion",
+      court: "Indiana Court of Appeals",
+      background: "Appointed to the Indiana Court of Appeals in February 2000 by Governor Frank O'Bannon and retained by voters in 2002, 2012, and 2022. Served as judge of the Porter Superior Court from 1992 to 2000, and served two terms as the Court of Appeals' chief judge, from January 2014 through December 2019.",
+      bioUrl: "https://www.in.gov/courts/appeals/judges/nancy-vaidik"
+    },
+    {
+      name: "Jeffrey Usman",
+      slug: "jeffrey-usman",
+      title: "Judge — authored the panel opinion",
+      court: "Court of Appeals of Tennessee",
+      background: "Appointed to the Tennessee Court of Appeals, Middle Division, by Governor Bill Lee in March 2022, succeeding Judge Richard H. Dinkins, and confirmed by the Tennessee General Assembly. Previously an associate professor at Belmont University College of Law and a senior law clerk to Tennessee Supreme Court Justice William C. Koch Jr.",
+      bioUrl: "https://tncourts.gov/node/7920985"
     }
   ],
 

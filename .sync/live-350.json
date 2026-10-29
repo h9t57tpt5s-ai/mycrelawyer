@@ -1,0 +1,16 @@
+{
+  "id": "live-350",
+  "title": "Commercial Painting Company Inc. v. The Weitz Company LLC (Punitive Damages for Contractor Fraud Survive Contractual Waiver)",
+  "category": "construction-defect",
+  "status": "ruling",
+  "date": "2026-10-28",
+  "jurisdiction": "Court of Appeals of Tennessee",
+  "state": "TN",
+  "amount": "$8.36M combined jury verdict, including $3.9M in punitive damages, affirmed",
+  "source": "live",
+  "source_url": "https://www.courtlistener.com/opinion/11049652/commercial-painting-company-inc-v-the-weitz-company-llc/",
+  "summary": "The Tennessee Court of Appeals affirmed on October 28, 2026 a trial court judgment of $8,359,863.83, including $3.9 million in punitive damages, against general contractor The Weitz Company, LLC in a fraud suit brought by its drywall subcontractor, Commercial Painting Company, Inc., over a Shelby County retirement-community project. The court rejected Weitz's argument that the parties' contractual waiver of consequential damages barred the jury's punitive award for intentional misrepresentation, in the fifth appeal of this litigation to reach the court.",
+  "significance": "The ruling confirms that a standard contractual waiver of consequential or punitive damages will not automatically shield a general contractor from punitive exposure arising out of an independent tort claim like fraud, even when that claim arises from the same construction relationship the contract governs. Contractors and subcontractors should not assume generic damages-waiver language extends to intentional misconduct absent language expressly addressing it.",
+  "judge": "Jeffrey Usman",
+  "tags": ["construction fraud", "punitive damages", "subcontractor", "tennessee", "contractual waiver"]
+}
