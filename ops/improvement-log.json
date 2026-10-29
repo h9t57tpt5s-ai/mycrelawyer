@@ -271,7 +271,12 @@
     "casesScored": 39
    },
    "checkAfter": "2026-10-29",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-29",
+    "value": "no Jeff ruling found",
+    "note": "This entry's own \"metric\" is whether Jeff has reviewed ops/calculator-proposals.md and ruled on the proposed prompt changes -- not a goals.json number. No evidence of a ruling: ANALYSIS_VERSION is still \"v4.4\" live against v4.3 published everywhere, no results-v4.4/ directory exists, and G15/G3 in the backlog remain open with no Jeff annotation. No clear effect -- nothing to revert (this entry never touched the live site or the valuation method)."
+   }
   },
   {
    "id": "imp-012",
@@ -601,7 +606,12 @@
     "casesScored": 39
    },
    "checkAfter": "2026-10-29",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-29",
+    "value": "no Jeff ruling found",
+    "note": "Same check as imp-011 (this entry corrected Finding 2's KKS example, which is itself evidence, not a change). No evidence Jeff has reviewed the correction or ruled on Finding 2's remaining Elpa-like proposal. No clear effect -- nothing to revert."
+   }
   },
   {
    "id": "imp-026",
@@ -623,7 +633,12 @@
     "finalRangeHitRate_v6.1_replay": 0.609
    },
    "checkAfter": "2026-10-29",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-29",
+    "value": "no Jeff ruling found",
+    "note": "Same check as imp-011/imp-025. No evidence Jeff has reviewed the 2026-10-22 entry or ruled on either of G15's two original decisions (give v4.4 a real paid backtest run; settle whether v6/v6.1 beats it on a matched set). No clear effect -- nothing to revert."
+   }
   },
   {
    "id": "imp-027",
@@ -886,6 +901,26 @@
    "baseline": "n/a",
    "checkAfter": "n/a",
    "status": "no-op"
+  },
+  {
+   "id": "imp-040",
+   "date": "2026-10-29",
+   "track": "calculator",
+   "title": "Resolved the 2026-10-21 open question on kks-properties-slingerlands-bypass-2020: v4.5's fix was a partial-taking double-count bug, not a missing figure",
+   "why": "goals.json (2026-10-29): mostBehind calculator/conversion/traffic/news; news on track. Checked \"one open experiment per goal\" by metric: traffic (imp-038, open on visits7/googleLandings7 until 2026-11-04), conversion (imp-033, open on all three of its real tracked metrics until 2026-11-01), calculator (imp-016 open on calculatorViews7 until 2026-10-31; finalRangeHitRate is Jeff-gated regardless), news (imp-030, open on all three of its metrics, already on track) -- every numeric goal's lever is blocked, the same gridlock as 2026-10-25 through 28. Judged imp-011/imp-025/imp-026 (checkAfter today) as no clear effect first (see verdicts). Rather than default straight to a no-op or another ops/social-drafts/ refresh, checked whether a previously-flagged-but-unconfirmed G3/G15 hypothesis could be resolved for free: the 2026-10-21 entry (imp-025) guessed that v4.5's fix to kks-properties-slingerlands-bypass-2020 was a damages-measure change rather than a figure-availability one, and said this \"would need v4.5's actual KKS result file compared issue-by-issue\" -- that file (case_valuation_project/backtest/results-v4.5/kks-properties-slingerlands-bypass-2020.json, run 2026-10-17) had sat on disk unopened since then. Compared it issue-by-issue against the v4.3 result (no API spend, both already saved): confirmed the guess exactly. v4.3 priced a redundant \"value of the whole 31.77-acre property\" issue ($1,430,000-$2,224,065, even strength, competing basis) alongside the correctly-priced direct-taking-strip issue and a severance issue, double-counting the same land under a total-taking theory and a partial-taking theory and inflating the published range to [1,128,558, 3,928,945] against the actual $744,500 award (5x on the high end). v4.5 fixed it by dropping the whole-property issue entirely, not by finding a new figure, and left the severance issue unpriced on the correct ground that no after-taking value appears in the record. Checked the other 7 scored eminent-domain backtest cases (elpa-builders, hrt-enterprises, j-nazzaro-partnership, lcra-st-louis, odot-v-trade-winds, piedmont-gas, state-v-skyway) for the same redundant whole-property-plus-partial-taking issue shape -- none had it, so this is confirmed on one case, not yet a systemic pattern across the category.",
+   "files": [
+    "ops/calculator-proposals.md",
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "31530bb5b004a8e898bdb90db46c28d1423735d9",
+   "metric": "none directly -- this is evidence/fact-finding closing an open question from imp-025, not a site or code change; what to check next time is whether Jeff has reviewed ops/calculator-proposals.md's 2026-10-29 entry and ruled on G15's now-five-part decision list",
+   "window": "n/a",
+   "baseline": {
+    "finalRangeHitRate": 0.531,
+    "casesScored": 39
+   },
+   "checkAfter": "2026-11-05",
+   "status": "watching"
   }
  ]
 }
