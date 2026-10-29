@@ -642,6 +642,72 @@ likely in lending-foreclosure matters generally. Not applied — this is
 code in `supabase/functions/case-valuation-analyze/`, Jeff-gated and not
 cloud-deployable regardless.
 
+## 2026-10-29 — resolved the open question from 2026-10-21: what v4.5 actually fixed on `kks-properties-slingerlands-bypass-2020`, and why v4.3's range was 5x too high
+
+The 2026-10-21 entry flagged, but did not confirm, that v4.5's fix to this
+case was "more likely the partial-taking damages measure... than figure
+availability," and said this would need v4.5's actual KKS result file
+compared issue-by-issue against v4.3's — which exists on disk already
+(`results-v4.5/kks-properties-slingerlands-bypass-2020.json`, run
+2026-10-17) and had never been opened. Did that comparison now (no API
+spend, both files already saved).
+
+**Confirmed, and more specific than the 2026-10-21 hunch.** v4.3's issues
+list for this case prices the taken 9.5-acre strip correctly (`$427,500–
+$874,000`, `competing` basis, matching both appraisers' rates) but *also*
+prices a separate, redundant "Pre-appropriation value of the whole
+31.77-acre property" issue at `even` strength with its own competing
+range (`$1,430,000–$2,224,065`), plus a third "Consequential/severance
+damage to the 18.464-acre western parcel" issue at `even` strength
+(`$175,408–$830,880`). This is a partial taking: KKS keeps the western
+parcel and is owed (a) the value of the 9.5 acres actually taken, plus
+(b) severance damages to the remainder if the taking impairs it — not
+(a) the value of the *entire* original 31.77-acre property as if all of
+it were taken. Pricing both "whole-property value" and "strip taken +
+severance" as separate issues double-counts the same land: the model's
+own mechanical sum (`v4.3`'s documented "high end = sum of each issue's
+own `supportedCeiling`" rule) adds `$2,224,065` (whole property) to
+`$874,000` (strip) to `$830,880` (severance) on top of the correctly-
+priced issues, producing the published `[1,128,558, 3,928,945]` range —
+more than 5x the actual $744,500 award on the high end.
+
+v4.5 dropped the whole-property issue entirely (not merely re-weighted
+it) and priced only the direct-taking strip (`competing`, `$406,125–
+$874,000`, `bestGuessValue` 847,780); the severance issue is kept but
+given no `damagesRange` at all (`unfavorable` strength, `null` range) on
+the correct ground stated in its own `likelyOutcome`: "no after-taking
+value or severance figure appears in the materials provided to quantify
+that component." That is a sharper, more defensible position than v4.3's
+guess at a severance range from numbers the record doesn't support, and
+it is why v4.5 is "newly right" on this case per the 2026-10-17 entry —
+confirmed now as a real modeling fix, not the figure-availability fix
+that entry had speculated about and this entry rules out (v4.3 already
+had the State's appraisal figure, used correctly, as the 2026-10-21 entry
+already established).
+
+**NEEDS JEFF, adds a fifth concrete item to G15/G3's open findings:** in a
+partial-taking eminent-domain case, the model should never price a
+separate "value of the whole original property" issue alongside a
+direct-taking-of-the-portion-actually-taken issue — the two measure the
+same land under incompatible theories (total taking vs. partial taking)
+and summing both inflates the range by the overlap. The fix belongs in
+the prompt/instructions (tell the model partial-taking damages are
+strip-value-taken + severance-to-remainder only, never whole-property
+value, when the taking is partial) rather than in the mechanical
+aggregation code, since this is a legal-theory-selection error, not an
+arithmetic one. Checked the other 7 scored eminent-domain backtest cases
+(`elpa-builders`, `hrt-enterprises`, `j-nazzaro-partnership`, `lcra-st-
+louis`, `odot-v-trade-winds`, `piedmont-gas`, `state-v-skyway`) for the
+same shape (a priced "whole property value" issue coexisting with a
+priced "strip taken" or "severance" issue in a partial-taking case): none
+of the other seven has this specific redundant-issue pattern, so this is
+not (yet) a systemic bug across every eminent-domain case the way the
+opposing-figure-dedup bug (G15 decision 4) could be — it is confirmed on
+this one case, and worth the prompt instruction above as a preventive
+fix for the next partial-taking case shaped this way, not evidence of
+a broader existing distortion. Not applied — this is the calculator's
+prompt, Jeff-gated and not cloud-deployable regardless.
+
 ## What we have learned (calculator track)
 
 <!-- dated lines added as proposals here are later tested or Jeff rules on them -->
@@ -736,3 +802,21 @@ cloud-deployable regardless.
   number from the code's own formula (not just eyeballing issue counts) is
   what turns a hunch into a confirmed, fixable bug — the same method that
   worked for the `cle-venture-fund` credit bug the day before.
+- 2026-10-29: Closed the 2026-10-21 open question on what v4.5 actually
+  fixed for `kks-properties-slingerlands-bypass-2020` — both result files
+  were already saved on disk (v4.3 from 2026-09-26, v4.5 from
+  2026-10-17), so the issue-by-issue comparison the 2026-10-21 note asked
+  for cost nothing. Confirmed it was a partial-taking modeling error, not
+  a figure-availability gap: v4.3 priced a redundant "value of the whole
+  original property" issue alongside the correctly-priced "strip taken"
+  and "severance to the remainder" issues, double-counting the same land
+  under two incompatible damage theories and inflating the published
+  range to 5x the actual award; v4.5 fixed it by dropping the
+  whole-property issue entirely. Checked the other 7 scored eminent-
+  domain cases for the same redundant-issue shape — none had it, so this
+  is confirmed on one case, not (yet) a systemic pattern. Next time: a
+  flagged-but-unconfirmed hypothesis that names a specific saved file to
+  compare (as 2026-10-21 did here) is worth resolving the same free way
+  whenever the calculator's G3/G15 evidence track comes up again and no
+  other fresher anomaly is waiting — don't let it sit open once the files
+  needed to check it already exist on disk.
