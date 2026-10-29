@@ -1,5 +1,6 @@
 {
  "parties": {
+  "111 west 57th investment": "/parties/111-west-57th-investment-llc.html",
   "trigild ivl": "/parties/trigild-ivl.html",
   "city of boston": "/parties/city-of-boston.html",
   "keybank": "/parties/keybank-national-association.html",
@@ -55,7 +56,8 @@
   "wilmington trust national association as trustee for the benefit of the registered holders of jpmbb commercial mortgage securities trust 2014-c24 commercial mortgage pass-through certificates series 2014-c24": "/company-wilmington-trust-national-association.html",
   "brookfield properties retail": "/company-brookfield-properties.html",
   "deutsche bank ag": "/company-deutsche-bank.html",
-  "thor equities": "/company-thor-equities.html"
+  "thor equities": "/company-thor-equities.html",
+  "apollo commercial real estate finance": "/company-apollo-global-management.html"
  },
  "properties": {
   "mandarin oriental residences|FL": "/properties/mandarin-oriental-residences-boca-raton-fl.html"
