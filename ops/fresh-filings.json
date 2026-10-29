@@ -1,7 +1,40 @@
 {
- "updatedAt": "2026-10-28T17:21:10+00:00",
+ "updatedAt": "2026-10-29T01:57:41+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "Southern Property Orlando, LLC",
+   "court": "United States Bankruptcy Court, M.D. Florida",
+   "courtId": "flmb",
+   "docketNumber": "6:26-bk-08412",
+   "dateFiled": "2026-10-28",
+   "docketUrl": "https://www.courtlistener.com/docket/75032545/southern-property-orlando-llc/",
+   "docketId": 75032545,
+   "slug": "southern-property-orlando-llc-flmb-6-26-bk-08412",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Green Horizons Property Group LLC",
+   "court": "United States Bankruptcy Court, W.D. North Carolina",
+   "courtId": "ncwb",
+   "docketNumber": "26-10254",
+   "dateFiled": "2026-10-28",
+   "docketUrl": "https://www.courtlistener.com/docket/75035974/green-horizons-property-group-llc/",
+   "docketId": 75035974,
+   "slug": "green-horizons-property-group-llc-ncwb-26-10254",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "3326 Chestnut, LLC",
+   "court": "United States Bankruptcy Court, N.D. California",
+   "courtId": "canb",
+   "docketNumber": "26-42203",
+   "dateFiled": "2026-10-28",
+   "docketUrl": "https://www.courtlistener.com/docket/75036281/3326-chestnut-llc/",
+   "docketId": 75036281,
+   "slug": "3326-chestnut-llc-canb-26-42203",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "13513 S SAM MOORE LLC",
    "court": "United States Bankruptcy Court, W.D. Missouri",
@@ -11,6 +44,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/75030501/13513-s-sam-moore-llc/",
    "docketId": 75030501,
    "slug": "13513-s-sam-moore-llc-mowb-26-41922",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "1 Solution Wellness LLC",
+   "court": "United States Bankruptcy Court, S.D. Florida.",
+   "courtId": "flsb",
+   "docketNumber": "26-24365",
+   "dateFiled": "2026-10-28",
+   "docketUrl": "https://www.courtlistener.com/docket/75035427/1-solution-wellness-llc/",
+   "docketId": 75035427,
+   "slug": "1-solution-wellness-llc-flsb-26-24365",
    "type": "Chapter 11 petition"
   },
   {

@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-10-28T17:21:10+00:00",
+ "updatedAt": "2026-10-29T01:57:41+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Town Center Properties I, LLC v. Mariner Finance, LLC",
+   "court": "District Court, D. Maryland",
+   "courtId": "mdd",
+   "docketNumber": "1:26-cv-04530",
+   "dateFiled": "2026-10-28",
+   "docketUrl": "https://www.courtlistener.com/docket/75032662/town-center-properties-i-llc-v-mariner-finance-llc/",
+   "docketId": 75032662,
+   "suitNature": "190 Contract: Other",
+   "cause": "28:1332 Diversity Action",
+   "slug": "town-center-properties-i-llc-v-mariner-finance-llc-mdd-1-26-cv-04530",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "PMC Property Group, Inc. v. Apogee Enterprises, Inc.",
    "court": "District Court, D. Minnesota",
@@ -26,6 +39,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "norman-properties-llc-v-shell-usa-inc-lawd-6-26-cv-04517",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Norman Properties L L C v. Shell USA Inc",
+   "court": "District Court, W.D. Louisiana",
+   "courtId": "lawd",
+   "docketNumber": "6:26-cv-04517",
+   "dateFiled": "2026-10-27",
+   "docketUrl": "https://www.courtlistener.com/docket/75025120/norman-properties-l-l-c-v-shell-usa-inc/",
+   "docketId": 75025120,
+   "suitNature": "",
+   "cause": "",
+   "slug": "norman-properties-l-l-c-v-shell-usa-inc-lawd-6-26-cv-04517",
    "type": "Federal civil case"
   },
   {
