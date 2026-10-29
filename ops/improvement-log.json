@@ -921,6 +921,25 @@
    },
    "checkAfter": "2026-11-05",
    "status": "watching"
+  },
+  {
+   "id": "imp-041",
+   "date": "2026-10-29",
+   "track": "news",
+   "title": "Digest guidance: research related-entity bankruptcy clusters once, not once per debtor",
+   "why": "goals.json (2026-10-29, second run): mostBehind calculator/conversion/traffic/news; news already on track (gap 0.0). Checked \"one open experiment per goal\" by metric: traffic (imp-038, open on visits7/googleLandings7 until 2026-11-04), conversion (imp-033, open on all three of its real tracked metrics until 2026-11-01), calculator (imp-016 open on calculatorViews7 until 2026-10-31; finalRangeHitRate Jeff-gated regardless; imp-028/032/034/040 all evidence-only), news (imp-030, open on all three of sourcedMatters7/freshSourcedMatters7/medianDaysEventToAdded until 2026-10-31) -- every numeric goal's usual lever is blocked, same gridlock as 2026-10-25 through 29. goals.json's news section also scores leadsToMattersTotal/leadsReviewedTotal, which no open entry watches, so worked that instead of a fourth consecutive calculator evidence pass or another ops/social-drafts/ refresh. Tallied the last 10 days of ops/leads-handled.json (166 entries, 156 skips): the single biggest reason is still the already-addressed bare-docket \"no coverage found\" shape (34+ of 156, covered by the existing \"Bare court-docket leads\" section), but a second, concrete pattern stood out -- the \"5 Star Tech I/II PropCo/HoldCo/L5\" cluster (7 related Chapter 11 debtors in one jointly-administered case, 25-90607) was independently researched and skipped from scratch on three separate days (2026-10-25, 2026-10-26, 2026-10-27), 21 lookups total to reach the same \"additional debtor, no new story\" conclusion each time, because each day's run saw a different docket URL/filing number with nothing recording it was the same already-resolved cluster. Added a new ops/digest-playbook.md section directing one search per cluster (by base entity/sponsor name) instead of one per debtor, and recording the shared case number in the leads-handled.json action text so a resurfacing cluster is recognized by case number instead of re-researched. No code or published-fact change; guidance only, same category as G1/G16.",
+   "files": [
+    "ops/digest-playbook.md"
+   ],
+   "commit": "ef7943b743f0bc36770d83a37f776f6984c48193",
+   "metric": "ops/metrics/goals.json news.metrics.leadsToMattersTotal/leadsReviewedTotal (baseline 31/297, 2026-10-29)",
+   "window": "7 days",
+   "baseline": {
+    "leadsToMattersTotal": 31,
+    "leadsReviewedTotal": 297
+   },
+   "checkAfter": "2026-11-05",
+   "status": "watching"
   }
  ]
 }
