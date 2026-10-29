@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-28T16:10:57+00:00",
+ "updatedAt": "2026-10-29T16:20:48+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 20,
+ "requestsUsed": 21,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -55,6 +55,13 @@
   "67174489": {
    "entries": [
     {
+     "date": "2026-10-28",
+     "number": 1634,
+     "text": "Order AND ~Util - Add and Terminate Attorneys AND ~Util - Terminate Motions",
+     "url": "https://www.courtlistener.com/docket/67174489/1634/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-23",
      "number": 1633,
      "text": "Leave to File Document under Seal",
@@ -102,13 +109,6 @@
      "text": "Exhibit Text of Proposed Order",
      "url": "https://www.courtlistener.com/docket/67174489/1631/3/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 1631,
-     "text": "Exhibit B - Declarations in Support of Motion",
-     "url": "https://www.courtlistener.com/docket/67174489/1631/2/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -118,10 +118,24 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-10-23"
+   "lastEntryDate": "2026-10-28"
   },
   "67356054": {
    "entries": [
+    {
+     "date": "2026-10-29",
+     "number": 162,
+     "text": "Order on Motion for Leave to Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67356054/162/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-28",
+     "number": null,
+     "text": "Set/Reset Motion and R&R Deadlines/Hearings",
+     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-27",
      "number": 161,
@@ -163,20 +177,6 @@
      "text": "Notice of Appearance",
      "url": "https://www.courtlistener.com/docket/67356054/157/cornish-adebiyi-v-caesars-entertainment-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-20",
-     "number": 156,
-     "text": "Certification",
-     "url": "https://www.courtlistener.com/docket/67356054/156/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-20",
-     "number": 155,
-     "text": "Substitution of Attorney",
-     "url": "https://www.courtlistener.com/docket/67356054/155/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -186,7 +186,7 @@
    "docketNumber": "1:23-cv-02536",
    "dateTerminated": "2024-09-30",
    "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-   "lastEntryDate": "2026-10-27"
+   "lastEntryDate": "2026-10-29"
   },
   "67940311": {
    "entries": [],
@@ -281,6 +281,13 @@
   "69353264": {
    "entries": [
     {
+     "date": "2026-10-28",
+     "number": 48,
+     "text": "Statement",
+     "url": "https://www.courtlistener.com/docket/69353264/48/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-26",
      "number": 47,
      "text": "Order on Motion for Miscellaneous Relief",
@@ -328,13 +335,6 @@
      "text": "Strike",
      "url": "https://www.courtlistener.com/docket/69353264/41/ayer-v-lightstone-value-plus-reit-i-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 40,
-     "text": "Joinder",
-     "url": "https://www.courtlistener.com/docket/69353264/40/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -344,7 +344,7 @@
    "docketNumber": "3:24-cv-10371",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
-   "lastEntryDate": "2026-10-26"
+   "lastEntryDate": "2026-10-28"
   },
   "69518085": {
    "entries": [
@@ -1220,6 +1220,20 @@
   "74712343": {
    "entries": [
     {
+     "date": "2026-10-28",
+     "number": 22,
+     "text": "- Order (PAPERLESS or pdf attached)",
+     "url": "https://www.courtlistener.com/docket/74712343/22/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-28",
+     "number": null,
+     "text": "Order Setting Status Conference",
+     "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-27",
      "number": 21,
      "text": "Order Referring Case to Magistrate Judge AND Order Referring Case to Mediation AND Scheduling Order",
@@ -1260,20 +1274,6 @@
      "text": "Extension of Time to File Response/Reply/Answer",
      "url": "https://www.courtlistener.com/docket/74712343/14/the-alder-at-lake-park-llc-v-town-of-lake-park/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": null,
-     "text": "Order on Motion for Extension of Time to File Response/Reply/Answer",
-     "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 13,
-     "text": "Dismiss",
-     "url": "https://www.courtlistener.com/docket/74712343/13/the-alder-at-lake-park-llc-v-town-of-lake-park/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1283,7 +1283,7 @@
    "docketNumber": "9:26-cv-81070",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
-   "lastEntryDate": "2026-10-27"
+   "lastEntryDate": "2026-10-28"
   },
   "74850183": {
    "entries": [
@@ -1404,58 +1404,58 @@
    "entries": [
     {
      "date": "2026-10-28",
-     "number": 55,
-     "text": "Supplemental Document",
-     "url": "https://www.courtlistener.com/docket/74927117/55/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-27",
-     "number": 54,
-     "text": "Supplemental Document",
-     "url": "https://www.courtlistener.com/docket/74927117/54/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-27",
-     "number": 53,
-     "text": "Order on Motion to Appear Telephonically or Via Video Conference",
-     "url": "https://www.courtlistener.com/docket/74927117/53/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-27",
-     "number": 52,
-     "text": "** Not Used ** Notice of Filing of Official Transcript",
-     "url": "https://www.courtlistener.com/docket/74927117/52/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-26",
-     "number": 50,
-     "text": "Appear Telephonically/Video Conference",
-     "url": "https://www.courtlistener.com/docket/74927117/50/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 48,
-     "text": "Notice of Fee Due (Pro Hac Vice)",
-     "url": "https://www.courtlistener.com/docket/74927117/48/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 47,
-     "text": "Appear pro hac vice",
-     "url": "https://www.courtlistener.com/docket/74927117/47/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 46,
+     "number": 71,
      "text": "Certificate of Service",
-     "url": "https://www.courtlistener.com/docket/74927117/46/southbridge-associates-llc/",
+     "url": "https://www.courtlistener.com/docket/74927117/71/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-28",
+     "number": 70,
+     "text": "Order on Motion to Amend",
+     "url": "https://www.courtlistener.com/docket/74927117/70/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-28",
+     "number": 69,
+     "text": "Order To Set Hearing",
+     "url": "https://www.courtlistener.com/docket/74927117/69/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-28",
+     "number": 68,
+     "text": "Certificate of Service",
+     "url": "https://www.courtlistener.com/docket/74927117/68/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-28",
+     "number": 67,
+     "text": "Opposition",
+     "url": "https://www.courtlistener.com/docket/74927117/67/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-28",
+     "number": 66,
+     "text": "Opposition",
+     "url": "https://www.courtlistener.com/docket/74927117/66/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-28",
+     "number": 65,
+     "text": "Amend",
+     "url": "https://www.courtlistener.com/docket/74927117/65/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-28",
+     "number": 64,
+     "text": "Affidavit",
+     "url": "https://www.courtlistener.com/docket/74927117/64/southbridge-associates-llc/",
      "ruling": false
     }
    ],
@@ -1546,6 +1546,13 @@
      "ruling": false
     },
     {
+     "date": "2026-10-27",
+     "number": 15,
+     "text": "Exhibit",
+     "url": "https://www.courtlistener.com/docket/74952112/15/1/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-22",
      "number": 14,
      "text": "Vacate",
@@ -1585,13 +1592,6 @@
      "number": 10,
      "text": "Summons Issued as to USA",
      "url": "https://www.courtlistener.com/docket/74952112/10/city-of-san-antonio-v-mullin/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 9,
-     "text": "Notice of Attorney Appearance",
-     "url": "https://www.courtlistener.com/docket/74952112/9/city-of-san-antonio-v-mullin/",
      "ruling": false
     }
    ],
