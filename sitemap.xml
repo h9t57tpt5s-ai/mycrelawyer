@@ -17,7 +17,7 @@
   </url>
   <url>
     <loc>https://credocket.com/alert-log.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -37,7 +37,7 @@
   </url>
   <url>
     <loc>https://credocket.com/bankruptcy-watch.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -362,7 +362,7 @@
   </url>
   <url>
     <loc>https://credocket.com/coverage.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -442,7 +442,7 @@
   </url>
   <url>
     <loc>https://credocket.com/index.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -722,7 +722,7 @@
   </url>
   <url>
     <loc>https://credocket.com/lawsuit-watch.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -752,17 +752,17 @@
   </url>
   <url>
     <loc>https://credocket.com/litigation-index-2026-10.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation-index.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -2421,7 +2421,27 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://credocket.com/chapter-11/southern-property-orlando-llc-flmb-6-26-bk-08412.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/chapter-11/green-horizons-property-group-llc-ncwb-26-10254.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/chapter-11/3326-chestnut-llc-canb-26-42203.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/chapter-11/13513-s-sam-moore-llc-mowb-26-41922.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/chapter-11/1-solution-wellness-llc-flsb-26-24365.html</loc>
     <lastmod>2026-10-28</lastmod>
     <priority>0.5</priority>
   </url>
@@ -3176,12 +3196,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/federal-cases/town-center-properties-i-llc-v-mariner-finance-llc-mdd-1-26-cv-04530.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/federal-cases/pmc-property-group-inc-v-apogee-enterprises-inc-mnd-0-26-cv-04642.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://credocket.com/federal-cases/norman-properties-llc-v-shell-usa-inc-lawd-6-26-cv-04517.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/federal-cases/norman-properties-l-l-c-v-shell-usa-inc-lawd-6-26-cv-04517.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.5</priority>
   </url>

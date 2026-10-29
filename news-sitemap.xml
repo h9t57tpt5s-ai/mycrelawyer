@@ -72,20 +72,4 @@
       <news:title>Illinois Appeals Court: Landlord Proved Conversion of Its Billboard Structures, But Gets Only Nominal Damages</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://credocket.com/matters/live-335.html</loc>
-    <news:news>
-      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-26</news:publication_date>
-      <news:title>Goochland County's Data Center Zoning Overlay Faces Key Court Test</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://credocket.com/matters/live-334.html</loc>
-    <news:news>
-      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-26</news:publication_date>
-      <news:title>Illinois Center Foreclosure: Cook County Judge Clears $260M CMBS Sheriff's Sale of AmTrust's Chicago Towers</news:title>
-    </news:news>
-  </url>
 </urlset>
