@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://credocket.com/matters/live-350.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-29</news:publication_date>
+      <news:title>Commercial Painting Company Inc. v. The Weitz Company LLC (Punitive Damages for Contractor Fraud Survive Contractual Waiver)</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-349.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-29</news:publication_date>
+      <news:title>Portage Township of St. Joseph County, Indiana v. City of South Bend (Eminent Domain in Redevelopment Areas Requires Council Authorization)</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-348.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-29</news:publication_date>
+      <news:title>Seneca Ins. Co. Inc. v. Cobleskill Enter., LLP (Smoke-Detector Warranty Breach Voids Hotel Fire Coverage)</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://credocket.com/matters/live-347.html</loc>
     <news:news>
       <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
