@@ -880,6 +880,14 @@
    "at": "2026-10-26",
    "action": "skipped: no source confirms this specific October 2026 filing; naming convention matches the known Five Star Development/Ritz-Carlton El Paso-Socorro Chapter 11 case (filed Nov 2025, Madison Realty Capital $585M loan) but connection unconfirmed"
   },
+  "opinion:11049068": {
+   "at": "2026-10-29",
+   "action": "matter live-347 (Supreme Court of Florida, RJ's Int'l Trading, LLC v. Crown Castle South, LLC -- answering certified question from the 11th Circuit, holds a prevailing-party attorney's fee provision in an easement agreement does not run with the land under Florida law)"
+  },
+  "opinion:11048925": {
+   "at": "2026-10-29",
+   "action": "skipped: individual homeowners' contractor-deposit dispute (Whittington v. Daniels), matchedTerms hotel/landlord are incidental false positives, not commercial real estate"
+  },
   "opinion:11045969": {
    "at": "2026-10-27",
    "action": "skipped: attorney-fee appeal with no stated final award amount or authoring judge in the available opinion text (fee request $322,798.50, trial court awarded 'substantially less', amount not given); insufficient detail to write a verified matter"

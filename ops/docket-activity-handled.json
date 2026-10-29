@@ -79,6 +79,16 @@
    "caseId": "live-058",
    "at": "2026-10-28",
    "action": "skipped: termination date post-dates the foreclosure sale already reflected in the matter's settled status and summary; no new information"
+  },
+  "68078274:closed:2025-06-27": {
+   "caseId": "live-056",
+   "at": "2026-10-29",
+   "action": "skipped: termination date post-dates the $5M credit bid/title transfer already reflected in the matter's settled status, date (2024-08-21), and timeline; no new information"
+  },
+  "67356054:closed:2024-09-30": {
+   "caseId": "live-220",
+   "at": "2026-10-29",
+   "action": "skipped: termination date matches the district court's September 30, 2024 dismissal with prejudice already reflected in the matter's own timeline, superseded since by the Third Circuit's 2026 reversal and en banc denial; no new information"
   }
  }
 }

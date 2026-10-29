@@ -11962,6 +11962,43 @@ const RELAW_DATA = {
         { when: "September 1, 2026", label: "Fannie Mae accelerates the full loan balance after missed payments" },
         { when: "October 22, 2026", label: "Fannie Mae sues SYS Augusta LLC in Georgia federal court over the default", current: true }
       ]
+    },
+    {
+      id: "live-347",
+      seoTitle: "Fla. Supreme Court: Easement Fee Clauses Bind Only Signers",
+      seoDescription: "Florida's Supreme Court ruled an easement's attorney's-fee clause doesn't run with the land, leaving successor Crown Castle unbound by it.",
+      addedDate: "2026-10-29",
+      title: "RJ's International Trading, LLC v. Crown Castle South, LLC (Florida Supreme Court: Easement Attorney's-Fee Clauses Don't Run With the Land)",
+      brief: "Answering a certified question from the Eleventh Circuit, Florida's Supreme Court held an easement's prevailing-party attorney's-fee clause is a personal covenant that doesn't bind successors like Crown Castle.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-29",
+      jurisdiction: "Supreme Court of Florida",
+      state: "FL",
+      amount: "$40,001 jury verdict ($1 for breach of easement, $40,000 for trespass); the attorney's-fee amount actually in dispute is not stated in the opinion",
+      amountUsd: 40001,
+      amountBasis: "judgment",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11049068/rjs-international-trading-llc-v-crown-castle-south-llc/",
+      summary: "The Florida Supreme Court, answering a certified question from the Eleventh Circuit, held on October 29, 2026 that a prevailing-party attorney's-fee provision in an easement agreement is a personal covenant that does not run with the land. Crown Castle South, LLC therefore cannot be forced to pay RJ's International Trading, LLC's attorney's fees under a fee clause that Crown Castle's predecessors-in-interest, not Crown Castle itself, agreed to decades earlier, even though Crown Castle was bound by -- and lost on -- the underlying easement and trespass claims.",
+      significance: "Easements for cell towers, fiber lines, pipelines, and utility corridors routinely outlast the original parties on both sides, and many carry fee-shifting clauses meant to deter future enforcement fights. This ruling confirms that such a clause does not automatically travel with the land to bind a successor owner or assignee, because it regulates litigation risk rather than the use, occupation, or enjoyment of the property -- the touch-and-concern test Florida requires for a covenant to run with the land. Commercial owners and infrastructure tenants acquiring an interest burdened or benefited by an existing easement should not assume an old fee clause protects them, and should negotiate an express assumption of that obligation at the time of transfer if they want it enforceable.",
+      body: [
+        "The Supreme Court of Florida on October 29, 2026 held that a prevailing-party attorney's-fee provision in an easement agreement does not run with the land, resolving a certified question the U.S. Court of Appeals for the Eleventh Circuit sent to Tallahassee rather than guess at how Florida property law would answer it. The decision, RJ's International Trading, LLC v. Crown Castle South, LLC, No. SC2024-0547, was authored by Justice Jamie Grosshans.",
+        "The dispute traces back more than three decades. Hidden Valley Corporation once owned two adjoining parcels in Miami. It leased one to BellSouth Mobility and granted BellSouth's successors an easement over a portion of the other parcel for telecommunications use, an agreement that included a 'Remedies for Breach' clause entitling the prevailing party in any enforcement suit to its attorney's fees and court costs. Both properties changed hands repeatedly after that. By the time this dispute arose, RJ's International Trading, LLC (RJI) owned the servient parcel, while Crown Castle South, LLC held the easement rights through a sublease from BellSouth.",
+        "In 2020, Crown Castle excavated beyond the easement's boundaries and installed underground fiber-optic cable on RJI's land. RJI sued in federal court for trespass and breach of the easement agreement. The district court granted partial summary judgment for RJI on liability, and after a six-day trial a jury awarded RJI $1 for the easement breach and $40,000 for trespass; Crown Castle did not appeal that judgment. RJI then sought its attorney's fees under the easement's fee-shifting clause, arguing the provision was a real covenant binding Crown Castle as Hidden Valley's and BellSouth's successor even though Crown Castle itself never signed it.",
+        "The court rejected that theory. For an obligation to run with the land and bind successors, Florida law requires that the original parties intended successors to be bound, that successors have notice of the covenant, and that the covenant touch and concern the land. The court's analysis turned entirely on the third element, tracing the doctrine back to the 16th-century English case Spencer's Case and through Florida precedent including the court's own 2022 decision in Hayslip v. U.S. Home Corp., which had found an arbitration provision sufficiently connected to the land to run with it. The court declined to extend that reasoning here, holding that a covenant touches and concerns the land when it affects how the land is used, occupied, or enjoyed, not merely when it enhances the land's value or arises from a transaction involving the land. An attorney's-fee provision, the court reasoned, does nothing to govern use or occupation of the property; it only allocates litigation risk between whoever happens to be in a fight at the time, making it a personal covenant binding only the original signers.",
+        "Easement agreements for cell towers, fiber lines, pipelines, billboards, and utility corridors are ubiquitous in commercial real estate and are frequently drafted to last far longer than either original party's ownership of the burdened or benefited parcel. Because this decision answers a certified federal question, it carries weight beyond this single dispute and gives persuasive authority to courts elsewhere wrestling with the same common-law doctrine. For owners and infrastructure tenants negotiating or acquiring an interest in land subject to a decades-old easement, the practical lesson is that a fee-shifting clause cannot be assumed to survive a change of ownership on either side unless the transfer documents expressly require the new party to assume that specific obligation, and that the touch-and-concern test will keep looking at whether a provision governs use of the land itself rather than simply how tightly it is tied to enforcing the agreement."
+      ],
+      judge: "Jamie Grosshans",
+      parties: [
+        { name: "RJ's International Trading, LLC", role: "Appellant" },
+        { name: "Crown Castle South, LLC", role: "Appellee" }
+      ],
+      tags: ["easement", "attorney's fees", "real covenant", "florida", "telecom"],
+      timeline: [
+        { when: "2020", label: "Crown Castle excavates beyond the easement's boundaries and installs fiber-optic cable on RJI's land" },
+        { when: "October 29, 2026", label: "Florida Supreme Court holds the easement's attorney's-fee clause does not run with the land and does not bind Crown Castle", current: true }
+      ]
     }
   ],
 
@@ -12542,6 +12579,7 @@ const RELAW_DATA = {
     { jurisdiction: "Hennepin County District Court, Minnesota", url: "https://mncourts.gov/find-courts/hennepin" },
     { jurisdiction: "U.S. District Court, District of Rhode Island", url: "https://www.rid.uscourts.gov/" },
     { jurisdiction: "New York Court of Appeals", url: "https://www.nycourts.gov/ctapps/" },
+    { jurisdiction: "Supreme Court of Florida", url: "https://supremecourt.flcourts.gov/" },
     { jurisdiction: "Supreme Court of the State of New York", url: "https://www.nycourts.gov/courts/index.shtml" },
     { jurisdiction: "San Mateo County Superior Court, California", url: "https://sanmateo.courts.ca.gov/" },
     { jurisdiction: "U.S. District Court, District of New Jersey", url: "https://www.njd.uscourts.gov/" },

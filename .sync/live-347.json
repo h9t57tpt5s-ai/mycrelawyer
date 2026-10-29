@@ -1,0 +1,16 @@
+{
+  "id": "live-347",
+  "title": "RJ's International Trading, LLC v. Crown Castle South, LLC (Florida Supreme Court: Easement Attorney's-Fee Clauses Don't Run With the Land)",
+  "category": "zoning-land-use",
+  "status": "ruling",
+  "date": "2026-10-29",
+  "jurisdiction": "Supreme Court of Florida",
+  "state": "FL",
+  "amount": "$40,001 jury verdict ($1 for breach of easement, $40,000 for trespass); the attorney's-fee amount actually in dispute is not stated in the opinion",
+  "source": "live",
+  "source_url": "https://www.courtlistener.com/opinion/11049068/rjs-international-trading-llc-v-crown-castle-south-llc/",
+  "summary": "The Florida Supreme Court, answering a certified question from the Eleventh Circuit, held on October 29, 2026 that a prevailing-party attorney's-fee provision in an easement agreement is a personal covenant that does not run with the land. Crown Castle South, LLC therefore cannot be forced to pay RJ's International Trading, LLC's attorney's fees under a fee clause that Crown Castle's predecessors-in-interest, not Crown Castle itself, agreed to decades earlier, even though Crown Castle was bound by -- and lost on -- the underlying easement and trespass claims.",
+  "significance": "Easements for cell towers, fiber lines, pipelines, and utility corridors routinely outlast the original parties on both sides, and many carry fee-shifting clauses meant to deter future enforcement fights. This ruling confirms that such a clause does not automatically travel with the land to bind a successor owner or assignee, because it regulates litigation risk rather than the use, occupation, or enjoyment of the property -- the touch-and-concern test Florida requires for a covenant to run with the land. Commercial owners and infrastructure tenants acquiring an interest burdened or benefited by an existing easement should not assume an old fee clause protects them, and should negotiate an express assumption of that obligation at the time of transfer if they want it enforceable.",
+  "judge": "Jamie Grosshans",
+  "tags": ["easement", "attorney's fees", "real covenant", "florida", "telecom"]
+}
