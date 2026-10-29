@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-28",
+  lastUpdatedDate: "2026-10-29",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -11877,6 +11877,49 @@ const RELAW_DATA = {
         { when: "September 4, 2025", label: "The parties restructure the deal into a joint venture, with POB/Pactolus holding 64.35% and Copper Mill 35.65%" },
         { when: "June 30, 2026", label: "POB and Pactolus send Copper Mill a notice terminating the joint-venture agreement" },
         { when: "October 20, 2026", label: "Copper Mill sues POB Capital and Pactolus in Suffolk Superior Court and Massachusetts Land Court, alleging fraud", current: true }
+      ]
+    },
+    {
+      id: "live-345",
+      seoTitle: "Steinway Tower: AmBase Sues ACREFI Over No-Consideration Transfer",
+      seoDescription: "AmBase's 111 West 57th sued Apollo's ACREFI and ARI in NY Supreme Court over a no-consideration fund transfer in the Steinway Tower mezz fight.",
+      property: { name: "Steinway Tower", address: "111 West 57th Street", city: "New York", state: "NY" },
+      addedDate: "2026-10-29",
+      title: "111 West 57th Investment LLC v. ACREFI Mortgage LLC (No-Consideration Fund Transfer Claim)",
+      brief: "AmBase's 111 West 57th Investment LLC accused Apollo's ACREFI Mortgage of transferring funds to its parent, ARI, for no consideration, escalating the Steinway Tower mezzanine fight in a new Manhattan Supreme Court suit.",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-19",
+      jurisdiction: "Supreme Court of the State of New York, New York County",
+      parties: [
+        { name: "111 West 57th Investment LLC", role: "Plaintiff" },
+        { name: "111 West 57th Partners LLC", role: "Nominal Plaintiff" },
+        { name: "111 West 57th Mezz 1 LLC", role: "Nominal Plaintiff" },
+        { name: "ACREFI Mortgage LLC", role: "Defendant" },
+        { name: "Apollo Commercial Real Estate Finance, Inc.", role: "Defendant" }
+      ],
+      amountUsd: null,
+      judge: null,
+      state: "NY",
+      amount: "unspecified — alleged no-consideration fund transfer from ACREFI to its parent",
+      source: "live",
+      sourceUrl: "https://www.sec.gov/Archives/edgar/data/20639/000114036126041028/ef20080523_10q.htm",
+      summary: "AmBase Corporation disclosed that its 111 West 57th Investment LLC vehicle filed a Summons with Notice on October 19, 2026 in Supreme Court, New York County, against ACREFI Mortgage LLC and its indirect parent, Apollo Commercial Real Estate Finance, Inc., alleging ACREFI improperly transferred funds to ARI for no consideration or equivalent value. The suit is a new, separate action from the long-running 'Lender Action' over the 2017 strict foreclosure that wiped out the plaintiffs' equity in the Steinway Tower project at 111 West 57th Street.",
+      significance: "The filing shows that AmBase's litigation campaign against Apollo-affiliated lenders over the Steinway Tower mezzanine loan continues to widen beyond the original foreclosure dispute into intercompany-transfer theories, following the New York Court of Appeals' May 2026 revival of the plaintiffs' good-faith claim. Mezzanine lenders should expect continued scrutiny of fund movements between special-purpose lending subsidiaries and their parents following a foreclosure that eliminates a junior equity holder's position.",
+      body: [
+        "On October 19, 2026, 111 West 57th Investment LLC, suing on its own behalf and derivatively for 111 West 57th Partners LLC and 111 West 57th Mezz 1 LLC, filed a Summons with Notice in the Supreme Court of the State of New York, New York County, against ACREFI Mortgage LLC and its indirect parent, Apollo Commercial Real Estate Finance, Inc. The filing, docketed under Index No. 655919/2026, alleges that ACREFI improperly transferred funds to Apollo Commercial Real Estate Finance for no consideration or equivalent value. The claim surfaced publicly through AmBase Corporation's quarterly report filed October 28, 2026; AmBase is the ultimate corporate parent of the plaintiff entities and has carried this litigation on its books since its equity investment in the underlying project was impaired in 2017.",
+        "The new claim is the latest front in a legal battle that has pitted AmBase's investment vehicles against Apollo-affiliated lenders and the project sponsors for nearly a decade over the 111 West 57th Street condominium tower, known to New Yorkers as the Steinway Tower. The dispute traces to a $25 million junior mezzanine loan secured by the plaintiffs' equity interest in the development. In 2017, ACREFI sold that loan to Spruce Capital Partners LLC at par value, notwithstanding internal valuations that reportedly put the underlying equity at roughly $600 million. Two days after acquiring the loan, Spruce initiated a UCC Article 9 strict foreclosure, seizing the pledged collateral and wiping out the plaintiffs' equity position in the project entirely. AmBase's vehicles sued Spruce and the project sponsor that same year in what has become known as the Lender Action, seeking to unwind the foreclosure and recover damages.",
+        "That earlier fight reached the New York Court of Appeals, which ruled on May 28, 2026 that Apollo's contractual right to assign the mezzanine loan at its sole discretion did not, standing alone, shield the lender from a claim that the discretion was exercised in bad faith as part of a scheme to strip the plaintiffs' equity. The Court of Appeals reinstated the plaintiffs' implied-covenant-of-good-faith claim and sent the case back to the trial court, while leaving dismissal of related tortious-interference claims in place. That litigation remains pending in Supreme Court, New York County.",
+        "The newly filed action is a distinct case rather than a continuation of the Lender Action: it names ACREFI and Apollo Commercial Real Estate Finance, rather than Spruce or the sponsor, as defendants, and it asserts a different theory, that ACREFI moved money up to its parent without consideration. AmBase's disclosure does not specify the amount allegedly transferred, nor does it identify a presiding judge, consistent with the filing being an initial Summons with Notice rather than a verified complaint. A Summons with Notice is a procedural device under New York practice that commences an action and preserves a plaintiff's filing date while a fuller complaint is prepared or demanded by the defendant.",
+        "This is not AmBase's first collateral attack on the Apollo lending relationship. In 2024, the same plaintiff entities sued the law firm Kasowitz Benson Torres LLP and attorney Douglas B. Heitner, alleging the firm represented the 111 West 57th entities in the development's financing while simultaneously representing parties with adverse interests, including the project's principals Michael Stern and Kevin Maloney and entities they control.",
+        "For commercial mortgage lenders and mezzanine investors, the new filing is a reminder that winning a strict foreclosure does not necessarily close the book on a sponsor or equity investor's claims: collateral attacks on intercompany transfers, assignment practices, and professional representation can surface years after the underlying default. Lenders structuring mezzanine debt in New York should expect continued scrutiny of sole-discretion assignment language following the Court of Appeals' May 2026 ruling, and should be prepared to document the business rationale for intercompany fund movements between a special-purpose lending subsidiary and its parent, particularly where those movements follow or coincide with a foreclosure that wipes out a junior equity holder. For sponsors and joint-venture partners who have lost equity in a strict foreclosure, this filing illustrates that fraudulent-transfer and no-consideration theories remain an available avenue even after a Lender Action has run its course, provided the facts support them."
+      ],
+      tags: ["mezzanine debt", "fraudulent transfer", "steinway tower", "apollo", "capital stack"],
+      timeline: [
+        { when: "2017", label: "ACREFI sells the $25M junior mezzanine loan to Spruce Capital Partners at par value; Spruce's strict foreclosure two days later wipes out plaintiffs' equity" },
+        { when: "2024", label: "Plaintiffs sue Kasowitz Benson Torres LLP over alleged conflicted representation in the financing" },
+        { when: "May 28, 2026", label: "NY Court of Appeals reinstates the plaintiffs' good-faith claim in the Lender Action and remits it to Supreme Court" },
+        { when: "October 19, 2026", label: "Plaintiffs file a new Summons with Notice against ACREFI and ARI alleging a no-consideration fund transfer", current: true }
       ]
     }
   ],

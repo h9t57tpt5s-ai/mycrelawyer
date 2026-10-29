@@ -1091,6 +1091,46 @@
   "https://www.courtlistener.com/docket/75029856/pmc-property-group-inc-v-apogee-enterprises-inc/": {
    "at": "2026-10-28",
    "action": "skipped: no coverage found for this 2026 federal filing (only found unrelated 2024 Philadelphia state-court litigation between the same parties over different windows/panels claims)"
+  },
+  "https://www.courtlistener.com/docket/75032545/southern-property-orlando-llc/": {
+   "at": "2026-10-29",
+   "action": "skipped: no coverage found explaining the filing (bare Chapter 11 petition, no named sponsor/lender in search results)"
+  },
+  "https://www.courtlistener.com/docket/75035974/green-horizons-property-group-llc/": {
+   "at": "2026-10-29",
+   "action": "skipped: no coverage found explaining the filing (bare Chapter 11 petition)"
+  },
+  "https://www.courtlistener.com/docket/75036281/3326-chestnut-llc/": {
+   "at": "2026-10-29",
+   "action": "skipped: no coverage found explaining this Oct 28 filing; only an unrelated inforuptcy listing for a different case number (4:26-bk-40445, filed March 2026) under the same debtor name turned up"
+  },
+  "https://www.courtlistener.com/docket/75035427/1-solution-wellness-llc/": {
+   "at": "2026-10-29",
+   "action": "skipped: not real estate on its face (wellness business debtor name, not a property owner/developer)"
+  },
+  "https://www.courtlistener.com/docket/75032662/town-center-properties-i-llc-v-mariner-finance-llc/": {
+   "at": "2026-10-29",
+   "action": "skipped: no coverage found explaining the dispute (bare federal-suits docket lead)"
+  },
+  "https://www.courtlistener.com/docket/75025120/norman-properties-l-l-c-v-shell-usa-inc/": {
+   "at": "2026-10-29",
+   "action": "skipped: duplicate docket (75025120) already logged under alternate name-spelling slug, no coverage found"
+  },
+  "0001717547-26-000076:brsp-20260930.htm": {
+   "at": "2026-10-29",
+   "action": "skipped: routine REO/foreclosure accounting definitions in 10-Q boilerplate, no new dispute described"
+  },
+  "0001628280-26-067912:kref-20260930.htm": {
+   "at": "2026-10-29",
+   "action": "skipped: routine REO/foreclosure accounting definitions in 10-Q boilerplate, no new dispute described"
+  },
+  "0001140361-26-041028:ef20080523_10q.htm": {
+   "at": "2026-10-29",
+   "action": "matter live-345"
+  },
+  "opinion:11048436": {
+   "at": "2026-10-29",
+   "action": "skipped: residential fair-housing disability-accommodation dispute (Kawatachi v. The Parrish Collection), individual tenant, not commercial real estate"
   }
  }
 }

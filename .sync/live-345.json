@@ -1,0 +1,16 @@
+{
+  "id": "live-345",
+  "title": "111 West 57th Investment LLC v. ACREFI Mortgage LLC (No-Consideration Fund Transfer Claim)",
+  "category": "lending-foreclosure",
+  "status": "filed",
+  "date": "2026-10-19",
+  "jurisdiction": "Supreme Court of the State of New York, New York County",
+  "state": "NY",
+  "amount": "unspecified — alleged no-consideration fund transfer from ACREFI to its parent",
+  "source": "live",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/20639/000114036126041028/ef20080523_10q.htm",
+  "summary": "AmBase Corporation disclosed that its 111 West 57th Investment LLC vehicle filed a Summons with Notice on October 19, 2026 in Supreme Court, New York County, against ACREFI Mortgage LLC and its indirect parent, Apollo Commercial Real Estate Finance, Inc., alleging ACREFI improperly transferred funds to ARI for no consideration or equivalent value. The suit is a new, separate action from the long-running 'Lender Action' over the 2017 strict foreclosure that wiped out the plaintiffs' equity in the Steinway Tower project at 111 West 57th Street.",
+  "significance": "The filing shows that AmBase's litigation campaign against Apollo-affiliated lenders over the Steinway Tower mezzanine loan continues to widen beyond the original foreclosure dispute into intercompany-transfer theories, following the New York Court of Appeals' May 2026 revival of the plaintiffs' good-faith claim. Mezzanine lenders should expect continued scrutiny of fund movements between special-purpose lending subsidiaries and their parents following a foreclosure that eliminates a junior equity holder's position.",
+  "judge": null,
+  "tags": ["mezzanine debt", "fraudulent transfer", "steinway tower", "apollo", "capital stack"]
+}
