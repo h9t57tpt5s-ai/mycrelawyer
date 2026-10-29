@@ -1131,6 +1131,62 @@
   "opinion:11048436": {
    "at": "2026-10-29",
    "action": "skipped: residential fair-housing disability-accommodation dispute (Kawatachi v. The Parrish Collection), individual tenant, not commercial real estate"
+  },
+  "opinion:11048402": {
+   "at": "2026-10-29",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"] and defendant (Iqbal) has no business-entity suffix"
+  },
+  "opinion:11048400": {
+   "at": "2026-10-29",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"] and defendant (Alexander) has no business-entity suffix"
+  },
+  "opinion:11048399": {
+   "at": "2026-10-29",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"] and defendant (Diakhate) has no business-entity suffix"
+  },
+  "opinion:11048398": {
+   "at": "2026-10-29",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"] and defendant (Ford) has no business-entity suffix"
+  },
+  "opinion:11048396": {
+   "at": "2026-10-29",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"] and defendant (Boyd) has no business-entity suffix"
+  },
+  "opinion:11048394": {
+   "at": "2026-10-29",
+   "action": "skipped: read in full because of third matched term (deed of trust) -- Wilmington Sav. Fund Socy., FSB v. Leder is a residential mortgage foreclosure appeal (RPAPL 1304 notice dispute), individual defendant, not commercial real estate"
+  },
+  "opinion:11047992": {
+   "at": "2026-10-29",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"] and defendant (Lewis) has no business-entity suffix"
+  },
+  "fresh-filing:southern-property-orlando-llc-flmb-6-26-bk-08412": {
+   "at": "2026-10-29",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "fresh-filing:green-horizons-property-group-llc-ncwb-26-10254": {
+   "at": "2026-10-29",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "fresh-filing:wilton-pointe-apartments-llc-flsb-26-24206": {
+   "at": "2026-10-29",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "fresh-filing:pryor-legacy-properties-llc-txsb-26-37989": {
+   "at": "2026-10-29",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "fresh-filing:hawaii-ocean-plaza-lp-cacb-2-26-bk-20766": {
+   "at": "2026-10-29",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "fresh-filing:hawaii-city-plaza-lp-cacb-2-26-bk-20765": {
+   "at": "2026-10-29",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "sec-headline:millrose-properties-inc-investigation": {
+   "at": "2026-10-29",
+   "action": "skipped: investor-rights 'investigation' announcement, not a filed securities suit"
   }
  }
 }

@@ -1,0 +1,16 @@
+{
+  "id": "live-346",
+  "title": "Federal National Mortgage Association v. SYS Augusta LLC (Multifamily Loan Default and Acceleration Suit)",
+  "category": "lending-foreclosure",
+  "status": "filed",
+  "date": "2026-10-22",
+  "jurisdiction": "U.S. District Court for the Southern District of Georgia",
+  "state": "GA",
+  "amount": "$21.45 million",
+  "source": "live",
+  "source_url": "https://www.mpamag.com/us/mortgage-industry/market-updates/fannie-mae-moves-to-seize-augusta-apartment-complex-over-21m-default/594810",
+  "summary": "Fannie Mae filed suit on October 22, 2026 in the U.S. District Court for the Southern District of Georgia against SYS Augusta LLC, the single-asset owner of Falcon Crest Apartments in Augusta, alleging the borrower missed monthly payments of roughly $103,138.75 for August through October 2026 after an already-late July payment. Fannie Mae accelerated the full $21.45 million loan balance on September 1, 2026, and the complaint also says the defaults coincided with a separate condemnation proceeding against the property.",
+  "significance": "The filing shows an agency lender moving quickly from a payment default to full acceleration and litigation once a multifamily property is also facing a local condemnation or habitability issue, rather than extending forbearance. Owners and asset managers of older multifamily stock should treat early code-enforcement or condemnation inquiries as a signal to engage lenders before a missed payment converts a maintenance problem into an accelerated, immediately-due debt.",
+  "judge": null,
+  "tags": ["multifamily", "lending-foreclosure", "fannie mae", "acceleration", "condemnation"]
+}

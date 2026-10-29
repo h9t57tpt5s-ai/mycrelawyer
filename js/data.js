@@ -11921,6 +11921,47 @@ const RELAW_DATA = {
         { when: "May 28, 2026", label: "NY Court of Appeals reinstates the plaintiffs' good-faith claim in the Lender Action and remits it to Supreme Court" },
         { when: "October 19, 2026", label: "Plaintiffs file a new Summons with Notice against ACREFI and ARI alleging a no-consideration fund transfer", current: true }
       ]
+    },
+    {
+      id: "live-346",
+      seoTitle: "Fannie Mae Sues SYS Augusta Over $21.45M Falcon Crest Default",
+      seoDescription: "Fannie Mae sued SYS Augusta LLC in Georgia federal court, alleging a $21.45M default at Falcon Crest Apartments tied to a separate condemnation action.",
+      property: { name: "Falcon Crest Apartments", address: "1700 Valley Park Court", city: "Augusta", state: "GA" },
+      addedDate: "2026-10-29",
+      title: "Federal National Mortgage Association v. SYS Augusta LLC (Multifamily Loan Default and Acceleration Suit)",
+      brief: "Fannie Mae sued SYS Augusta LLC in Georgia federal court, saying the owner of Falcon Crest Apartments defaulted on a $21.45 million loan after missing payments and now faces a separate condemnation action on the property.",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-22",
+      jurisdiction: "U.S. District Court for the Southern District of Georgia",
+      parties: [
+        { name: "Federal National Mortgage Association (Fannie Mae)", role: "Plaintiff / Lender" },
+        { name: "SYS Augusta LLC", role: "Defendant / Borrower" },
+        { name: "Greystone Servicing Company LLC", role: "Loan Servicer" }
+      ],
+      amountUsd: 21450000,
+      amountBasis: "loan",
+      judge: null,
+      state: "GA",
+      amount: "$21.45 million",
+      source: "live",
+      sourceUrl: "https://www.mpamag.com/us/mortgage-industry/market-updates/fannie-mae-moves-to-seize-augusta-apartment-complex-over-21m-default/594810",
+      summary: "Fannie Mae filed suit on October 22, 2026 in the U.S. District Court for the Southern District of Georgia against SYS Augusta LLC, the single-asset owner of Falcon Crest Apartments in Augusta, alleging the borrower missed monthly payments of roughly $103,138.75 for August through October 2026 after an already-late July payment. Fannie Mae accelerated the full $21.45 million loan balance on September 1, 2026, and the complaint also says the defaults coincided with a separate condemnation proceeding against the property.",
+      significance: "The filing shows an agency lender moving quickly from a payment default to full acceleration and litigation once a multifamily property is also facing a local condemnation or habitability issue, rather than extending forbearance. Owners and asset managers of older multifamily stock should treat early code-enforcement or condemnation inquiries as a signal to engage lenders before a missed payment converts a maintenance problem into an accelerated, immediately-due debt.",
+      body: [
+        "Fannie Mae has filed suit in the U.S. District Court for the Southern District of Georgia against SYS Augusta LLC, the single-asset entity that owns Falcon Crest Apartments in Augusta, alleging the borrower defaulted on a $21.45 million multifamily loan and that the resulting distress has already triggered a separate condemnation proceeding against the property. The filing, reported October 22, 2026, is a straightforward but instructive example of how quickly a multifamily loan default can cascade into parallel legal exposure once a borrower falls behind.",
+        "According to the complaint as reported, SYS Augusta missed monthly payments of roughly $103,138.75 covering August through October 2026, after an already-late July payment. Fannie Mae accelerated the full loan balance on September 1, 2026, making the entire $21.45 million immediately due. Greystone Servicing Company originated the loan on June 20, 2023, assigning it to Fannie Mae the same day; Greystone continues to service the loan on Fannie Mae's behalf, a structure typical of Fannie Mae's Delegated Underwriting and Servicing (DUS) multifamily program.",
+        "Multifamily loans purchased or guaranteed by Fannie Mae and Freddie Mac typically carry standard acceleration clauses: once a borrower misses a defined number of payments, the lender may declare the entire unpaid principal balance due immediately, cutting off any possibility of simply catching up on arrears to cure the default. That is precisely the posture here — a few months of missed payments converted a $21.45 million long-term obligation into an immediately due debt, which is now the basis for the federal suit.",
+        "What makes this filing more than a routine foreclosure action is the reported existence of a separate condemnation proceeding tied to the same property. Condemnation in this context refers to a local government or housing authority's determination that a building, or units within it, is unsafe or uninhabitable, often tied to deferred maintenance, not the government's eminent domain power. For a lender, a condemnation action is a serious warning sign: it suggests the physical collateral securing the loan is deteriorating, potentially below the value needed to make the lender whole even after a successful foreclosure. Courts handling multifamily foreclosure actions where the property is also the subject of a habitability or condemnation proceeding will frequently entertain a lender's request for the early appointment of a receiver, since a receiver can be tasked not just with collecting rents but with directing repairs and coordinating with local code-enforcement authorities to resolve the condemnation threat before it worsens.",
+        "For SYS Augusta and its principals, the practical question now is whether Fannie Mae pursues a receiver pending foreclosure, and on what timeline the accelerated $21.45 million balance becomes a judgment. Borrowers facing simultaneous loan acceleration and local code-enforcement action have little room to negotiate a workout once both fronts are active, since curing the default requires both a lump-sum payment or negotiated forbearance and capital for the physical repairs that triggered the condemnation concern in the first place.",
+        "Multifamily borrowers facing a cash-flow squeeze should engage their loan servicer before a payment default, since agency lenders appear increasingly willing to accelerate the full loan balance rather than negotiate after default, particularly once a condemnation or habitability issue is also in play. Lenders and special servicers should treat a local condemnation or code-enforcement proceeding against an income-producing property as an independent risk signal warranting early receivership planning, not merely a maintenance footnote to a payment default, and asset managers overseeing older multifamily stock should budget for capital repairs proactively, since curing a condemnation issue after a loan has already been accelerated costs materially more than addressing it before a default occurs."
+      ],
+      tags: ["multifamily", "lending-foreclosure", "fannie mae", "acceleration", "condemnation"],
+      timeline: [
+        { when: "June 20, 2023", label: "Greystone Servicing originates the $21.45M loan and assigns it to Fannie Mae the same day" },
+        { when: "September 1, 2026", label: "Fannie Mae accelerates the full loan balance after missed payments" },
+        { when: "October 22, 2026", label: "Fannie Mae sues SYS Augusta LLC in Georgia federal court over the default", current: true }
+      ]
     }
   ],
 
