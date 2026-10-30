@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://credocket.com/matters/live-354.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-30</news:publication_date>
+      <news:title>District of Columbia v. RealPage, Inc. (JBG Smith and MAA's $9.3M Consent Judgments)</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-353.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-30</news:publication_date>
+      <news:title>Lampton Securities Partnership, LLP v. Louisville-Jefferson County Metro Government (Reverse Condemnation Ripeness Ruling)</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://credocket.com/matters/live-352.html</loc>
     <news:news>
       <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>

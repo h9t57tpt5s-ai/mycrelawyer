@@ -221,6 +221,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/company-jbg-smith.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/company-jll.html</loc>
     <lastmod>2026-10-23</lastmod>
     <priority>0.5</priority>
@@ -267,7 +272,7 @@
   </url>
   <url>
     <loc>https://credocket.com/company-realpage.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -342,7 +347,7 @@
   </url>
   <url>
     <loc>https://credocket.com/condemnation-compensation.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -598,6 +603,11 @@
   <url>
     <loc>https://credocket.com/judge-leondra-kruger.html</loc>
     <lastmod>2026-10-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-lisa-payne-jones.html</loc>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -2486,6 +2496,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://credocket.com/matters/live-353.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-354.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/chapter-11/zh-development-i-llc-flmb-6-26-bk-08515.html</loc>
     <lastmod>2026-10-30</lastmod>
     <priority>0.5</priority>
@@ -3788,6 +3808,11 @@
   <url>
     <loc>https://credocket.com/parties/city-of-san-antonio.html</loc>
     <lastmod>2026-10-23</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/parties/district-of-columbia.html</loc>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
