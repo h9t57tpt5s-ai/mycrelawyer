@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-29T16:20:48+00:00",
+ "updatedAt": "2026-10-30T16:08:12+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 21,
+ "requestsUsed": 23,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -42,7 +42,15 @@
    "lastEntryDate": "2026-10-23"
   },
   "66730007": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 120,
+     "text": "Report Of",
+     "url": "https://www.courtlistener.com/docket/66730007/120/wells-fargo-bank-national-association-as-trusteefor-the-benefit-of/",
+     "ruling": false
+    }
+   ],
    "caseIds": [
     "live-051"
    ],
@@ -50,7 +58,7 @@
    "docketNumber": "2:23-cv-00146",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/66730007/wells-fargo-bank-national-association-as-trusteefor-the-benefit-of/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-10-30"
   },
   "67174489": {
    "entries": [
@@ -275,7 +283,7 @@
    "court": "M.D.N.C.",
    "docketNumber": "1:24-cv-00710",
    "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
+   "url": "https://www.courtlistener.com/docket/69074245/united-states-v-realpage-inc/",
    "lastEntryDate": "2026-10-19"
   },
   "69353264": {
@@ -918,6 +926,13 @@
   "73684397": {
    "entries": [
     {
+     "date": "2026-10-29",
+     "number": 12,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/73684397/12/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
+     "ruling": false
+    },
+    {
      "date": "2026-09-28",
      "number": 11,
      "text": "Order on Motion for Miscellaneous Relief",
@@ -932,10 +947,31 @@
    "docketNumber": "1:26-cv-06435",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73684397/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
-   "lastEntryDate": "2026-09-28"
+   "lastEntryDate": "2026-10-29"
   },
   "73687065": {
    "entries": [
+    {
+     "date": "2026-10-30",
+     "number": null,
+     "text": "Order on Motion for Extension of Time to Answer",
+     "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-29",
+     "number": 24,
+     "text": "Extension of Time to File Answer / Respond to Complaint",
+     "url": "https://www.courtlistener.com/docket/73687065/24/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-29",
+     "number": 23,
+     "text": "Notice of appearance",
+     "url": "https://www.courtlistener.com/docket/73687065/23/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-23",
      "number": 22,
@@ -970,27 +1006,6 @@
      "text": "Exhibit 1. Order Approving Partial Settlement with SEC",
      "url": "https://www.courtlistener.com/docket/73687065/21/1/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
      "ruling": true
-    },
-    {
-     "date": "2026-10-07",
-     "number": 19,
-     "text": "Extension of Time to File Answer / Respond to Complaint",
-     "url": "https://www.courtlistener.com/docket/73687065/19/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 18,
-     "text": "Extension of Time to File Answer / Respond to Complaint",
-     "url": "https://www.courtlistener.com/docket/73687065/18/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": null,
-     "text": "Order on Motion for Extension of Time to Answer AND Order on Motion for Extension of Time to Answer",
-     "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1000,7 +1015,7 @@
    "docketNumber": "8:26-cv-02186",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-   "lastEntryDate": "2026-10-23"
+   "lastEntryDate": "2026-10-30"
   },
   "73733742": {
    "entries": [
@@ -1141,6 +1156,13 @@
   "74638795": {
    "entries": [
     {
+     "date": "2026-10-29",
+     "number": 10,
+     "text": "Amended Complaint",
+     "url": "https://www.courtlistener.com/docket/74638795/10/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-28",
      "number": 9,
      "text": "Order on Motion for Leave to File",
@@ -1188,13 +1210,6 @@
      "text": "Affidavit",
      "url": "https://www.courtlistener.com/docket/74638795/5/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-14",
-     "number": 4,
-     "text": "Corporate Disclosure Statement (aty)",
-     "url": "https://www.courtlistener.com/docket/74638795/4/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1204,7 +1219,7 @@
    "docketNumber": "3:26-cv-10200",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-   "lastEntryDate": "2026-10-28"
+   "lastEntryDate": "2026-10-29"
   },
   "74701388": {
    "entries": [],
@@ -1403,6 +1418,27 @@
   "74927117": {
    "entries": [
     {
+     "date": "2026-10-29",
+     "number": 74,
+     "text": "Order on Motion to Strike",
+     "url": "https://www.courtlistener.com/docket/74927117/74/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-29",
+     "number": 73,
+     "text": "Order on Motion For Relief From Stay/Co-Debtor Stay",
+     "url": "https://www.courtlistener.com/docket/74927117/73/southbridge-associates-llc/",
+     "ruling": true
+    },
+    {
+     "date": "2026-10-29",
+     "number": 72,
+     "text": "Order on Motion to Use Cash Collateral",
+     "url": "https://www.courtlistener.com/docket/74927117/72/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-28",
      "number": 71,
      "text": "Certificate of Service",
@@ -1436,27 +1472,6 @@
      "text": "Opposition",
      "url": "https://www.courtlistener.com/docket/74927117/67/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-28",
-     "number": 66,
-     "text": "Opposition",
-     "url": "https://www.courtlistener.com/docket/74927117/66/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-28",
-     "number": 65,
-     "text": "Amend",
-     "url": "https://www.courtlistener.com/docket/74927117/65/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-28",
-     "number": 64,
-     "text": "Affidavit",
-     "url": "https://www.courtlistener.com/docket/74927117/64/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1466,7 +1481,7 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
-   "lastEntryDate": "2026-10-28"
+   "lastEntryDate": "2026-10-29"
   },
   "74948724": {
    "entries": [
@@ -1606,6 +1621,19 @@
   }
  },
  "events": [
+  {
+   "key": "74927117:73:2026-10-29:order on motion for relief from stay/co-debtor stay",
+   "docketId": "74927117",
+   "caseIds": [
+    "live-265"
+   ],
+   "date": "2026-10-29",
+   "kind": "ruling",
+   "text": "Order on Motion For Relief From Stay/Co-Debtor Stay",
+   "entry": 73,
+   "url": "https://www.courtlistener.com/docket/74927117/73/southbridge-associates-llc/",
+   "firstSeen": "2026-10-30"
+  },
   {
    "key": "73687065:21:2026-10-23:approve consent judgment",
    "docketId": "73687065",
