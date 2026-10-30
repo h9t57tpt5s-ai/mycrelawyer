@@ -12284,6 +12284,55 @@ const RELAW_DATA = {
         { when: "June 2026", label: "D.C. settles separately with Avenue5 Residential and Bell Partners for $1.4 million" },
         { when: "September 14, 2026", label: "D.C. Attorney General announces $9.3 million combined consent judgments with JBG Smith ($8.1M) and MAA ($1.2M)", current: true }
       ]
+    },
+    {
+      id: "live-355",
+      addedDate: "2026-10-30",
+      featured: true,
+      seoTitle: "Gottlieb Building NJ: Hotel-Spa Zoning Variance Upheld",
+      seoDescription: "NJ's Appellate Division upheld variances letting Point Pleasant Beach's historic Gottlieb Building become a restaurant, spa, and hotel, rejecting a neighbor's zoning appeal.",
+      property: { name: "Gottlieb Building", address: "641 Arnold Avenue", city: "Point Pleasant Beach", state: "NJ" },
+      title: "637 Arnold, LLC v. Arnold Shores, LLC (NJ Appellate Division Affirms Mixed-Use Hotel-Restaurant-Spa Zoning Approval)",
+      brief: "New Jersey's Appellate Division affirmed a zoning board's approval letting a historic Point Pleasant Beach building be converted into a restaurant, spa, and boutique hotel, rejecting a neighboring owner's repeat variance challenge.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-30",
+      jurisdiction: "Superior Court of New Jersey, Appellate Division",
+      state: "NJ",
+      propertyType: "Mixed-Use",
+      amount: "no damages at issue; dispute over use variances for a mixed hotel/restaurant/spa redevelopment of a historic downtown building",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://storage.courtlistener.com/pdf/2026/10/30/637_arnold_llc_v._arnold_shores_llc.pdf",
+      documentUrl: "https://storage.courtlistener.com/pdf/2026/10/30/637_arnold_llc_v._arnold_shores_llc.pdf",
+      documentLabel: "Read the official opinion",
+      summary: "The Appellate Division of New Jersey's Superior Court affirmed a trial court's dismissal of a neighboring commercial property owner's prerogative-writs challenge to use variances the Point Pleasant Beach Zoning Board of Adjustment granted for a mixed-use redevelopment of the historic Gottlieb Building. The Board had unanimously approved a restaurant and spa on the ground floor and a previously approved boutique hotel use on the second floor; objector 637 Arnold, LLC argued the public notice was deficient and the Board misapplied New Jersey's variance standards, but the per curiam panel found no basis to disturb the trial court's reasoning and affirmed.",
+      significance: "The ruling shows New Jersey courts giving substantial deference to a zoning board's detailed factual findings on 'particular suitability' and lack of 'substantial negative impact,' especially where a largely identical use (the second-floor hotel) had already survived a prior variance challenge for the same building. For developers converting older downtown commercial buildings to mixed hotel, restaurant, and retail uses, the decision underscores that a well-documented, multi-session public hearing record -- supported by planner and architect testimony the board expressly credits -- can withstand a determined neighboring objector's repeat litigation across successive site-plan applications.",
+      body: [
+        "The Appellate Division of the Superior Court of New Jersey has affirmed a trial court ruling upholding a municipal zoning board's approval of use variances allowing a 1906 commercial building in downtown Point Pleasant Beach to be converted into a ground-floor restaurant and spa with a seven-room boutique hotel on the second floor. The decision in 637 Arnold, LLC v. Arnold Shores, LLC, issued October 30, 2026, closes out the second round of litigation a neighboring property owner has brought over redevelopment plans for the same building, and it offers commercial developers a data point on how much weight New Jersey courts will give a zoning board's own factual findings when a project survives a contested, multi-session public hearing process.",
+        "The dispute centers on the Gottlieb Building, a two-story structure at 641 Arnold Avenue in Point Pleasant Beach's downtown commercial district. In 2020, the building's then-owners obtained a use variance from the Borough's Zoning Board of Adjustment to convert the building's upper floor into a hotel -- a use not otherwise permitted in that commercial zone -- while retaining retail space below. Plaintiff 637 Arnold, LLC, which owns neighboring property, unsuccessfully challenged that approval in a prior prerogative-writs action. The former owners never built out the approved project and, in 2023, sold the building to Arnold Shores, LLC, an entity managed by Hollston Hills, LLC and affiliated with Hollston Realty Group, LLC.",
+        "The new owners returned to the Board in 2024 with an expanded application, proposing to keep the previously approved hotel use on the second floor while adding a restaurant (a permitted use) and a spa (not a permitted use) on the ground floor. After three public hearings between March and May 2024, during which 637 Arnold appeared as an objector and the Gottlieb defendants presented testimony from their property manager, architect, and a licensed planner, the Board unanimously approved the integrated hotel-restaurant-spa plan, finding the project particularly suitable for the site and concluding it would add vitality to the downtown without a substantial negative impact on surrounding properties.",
+        "637 Arnold filed a complaint in lieu of prerogative writs seeking to overturn the approval, arguing the public notice describing the application was legally deficient, that the Board failed to properly analyze the variance criteria for the newly integrated multi-use project, that the site plan relied on an outdated survey, and that the proceedings were tainted by bias. A Superior Court judge rejected each argument following a March 2025 trial and dismissed the complaint with prejudice, issuing a lengthy written amplification of his reasoning; the two-judge appellate panel, sitting per curiam, affirmed, holding it saw no basis to disturb the trial court's findings.",
+        "The case illustrates a recurring feature of New Jersey land-use litigation: a neighboring owner can object to successive applications for the same property over multiple years, but each new round of review resets the factual record a board and ultimately a reviewing court will rely on. Here, the Board's 2024 approval incorporated an updated boundary survey reflecting a 2021 court-ordered correction to the property line between the two parcels -- a dispute that had itself previously been litigated between the same neighbors -- which undercut 637 Arnold's argument that the site plan rested on invalid survey data.",
+        "For commercial owners, developers, and counsel navigating contested zoning approvals, the practical lesson is that a well-developed hearing record matters more than the number of hearings an objector manages to force, and that reusing elements of a previously approved plan can narrow rather than complicate a new application's scope of dispute. Developers facing a contentious neighbor should also resolve boundary, title, or survey issues well before filing, since an unresolved property-line dispute can otherwise become leverage in later zoning litigation, and a generalized claim that public notice was deficient will not succeed without a concrete showing of how affected parties were denied a meaningful opportunity to participate."
+      ],
+      judge: null,
+      parties: [
+        { name: "637 Arnold, LLC", role: "Plaintiff-Appellant" },
+        { name: "Arnold Shores, LLC", role: "Defendant-Respondent" },
+        { name: "Hollston Hills, LLC", role: "Defendant-Respondent" },
+        { name: "Hollston Realty Group, LLC", role: "Defendant-Respondent" },
+        { name: "Borough of Point Pleasant Beach", role: "Defendant-Respondent" },
+        { name: "Borough of Point Pleasant Beach Zoning Board of Adjustment", role: "Defendant-Respondent" }
+      ],
+      tags: ["zoning", "variance", "new-jersey", "hotel", "mixed-use"],
+      timeline: [
+        { when: "2021", label: "Zoning Board grants a use variance for a second-floor hotel at the Gottlieb Building; 637 Arnold's challenge is rejected and the ruling becomes final" },
+        { when: "2023", label: "Prior owners sell the building to Arnold Shores, LLC without having built out the approved hotel project" },
+        { when: "June 20, 2024", label: "Zoning Board unanimously approves an expanded application adding a ground-floor restaurant and spa to the previously approved hotel use" },
+        { when: "March 7, 2025", label: "Superior Court dismisses 637 Arnold's prerogative-writs challenge with prejudice following trial" },
+        { when: "October 30, 2026", label: "Appellate Division affirms, rejecting 637 Arnold's notice and variance-standard arguments", current: true }
+      ]
     }
   ],
 

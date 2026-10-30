@@ -1259,6 +1259,50 @@
     "opinion:11050220": {
       "at": "2026-10-30",
       "action": "skipped: 11819 Miracle Hills Drive, LP v. Ali -- though the plaintiff holds a commercial-lease judgment, the dispute on appeal is entirely about the homestead exemption protecting the individual defendant's family residence from forced sale; residential on its face"
+    },
+    "petition:https://www.courtlistener.com/docket/75047643/zh-development-i-llc/": {
+      "at": "2026-10-30",
+      "action": "skipped: no coverage found explaining the filing"
+    },
+    "fresh-filing:zh-development-i-llc-flmb-6-26-bk-08515": {
+      "at": "2026-10-30",
+      "action": "skipped: no coverage found explaining the filing"
+    },
+    "petition:https://www.courtlistener.com/docket/75045108/greenwood-mall-realty-holding-llc/": {
+      "at": "2026-10-30",
+      "action": "skipped: no coverage found explaining the filing (searched Greenwood Mall Bowling Green KY ownership/bankruptcy, found only the mall's known owner Kohan Retail Investment Group and a JLL sale listing, no link to this specific debtor entity or petition)"
+    },
+    "fresh-filing:greenwood-mall-realty-holding-llc-kywb-26-11017": {
+      "at": "2026-10-30",
+      "action": "skipped: no coverage found explaining the filing"
+    },
+    "petition:https://www.courtlistener.com/docket/75030501/13513-s-sam-moore-llc/": {
+      "at": "2026-10-30",
+      "action": "skipped: no coverage found explaining the filing"
+    },
+    "fresh-filing:13513-s-sam-moore-llc-mowb-26-41922": {
+      "at": "2026-10-30",
+      "action": "skipped: no coverage found explaining the filing"
+    },
+    "https://www.courtlistener.com/docket/75047621/viva-burrito-development-corporation-v-united-states/": {
+      "at": "2026-10-30",
+      "action": "skipped: no reporting found explaining this Court of Federal Claims filing against the United States"
+    },
+    "opinion:11050381": {
+      "at": "2026-10-30",
+      "action": "skipped: residential landlord-tenant back-rent dispute between an individual tenant and two individual landlords (In re: Appeal of N. Patterson), not commercial real estate"
+    },
+    "opinion:11050352": {
+      "at": "2026-10-30",
+      "action": "skipped: residential landlord-tenant case (Lakeview Realty Investment Associates, LP v. Williams-Sewell and Peters) -- nonpayment-of-rent dispute over residential premises against individual tenants"
+    },
+    "opinion:11050320": {
+      "at": "2026-10-30",
+      "action": "skipped: condominium association ownership/assessment dispute (K & L Crystal Beach, LLC v. Crystal Beach Condominium Association) at a vacation condo complex in McCall, Idaho, between unit owners (including an individual, Robert Bohman) and a non-profit HOA -- not a commercial real estate business matter on its face"
+    },
+    "opinion:11050356": {
+      "at": "2026-10-30",
+      "action": "matter live-355"
     }
   }
 }
