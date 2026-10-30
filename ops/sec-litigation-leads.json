@@ -1,7 +1,35 @@
 {
- "updatedAt": "2026-10-30T14:05:11+00:00",
+ "updatedAt": "2026-10-30T22:57:06+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001104659-26-120630:mcri-20260930x10q.htm",
+   "company": "MONARCH CASINO & RESORT INC  (MCRI)",
+   "cik": "907242",
+   "sic": "7011",
+   "form": "10-Q",
+   "filed": "2026-10-30",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/907242/000110465926120630/mcri-20260930x10q.htm",
+   "phrases": [
+    "filed a complaint",
+    "foreclosure action"
+   ],
+   "excerpts": [
+    "\u200b In the third quarter of 2026, under its existing Repurchase Plan, the Company purchased 300,859 shares of its common stock on the open market for an aggregate purchase cost of $37 million. As of September 30, 2026, the Company has authorization to purchase up to 670,644 shares under the Repurchase Plan. \u200b 15 Table of Contents NOTE 9. LEGAL MATTERS \u200b On August 30, 2019, PCL Construction Services, Inc. (\u201cPCL\u201d) filed a complaint in District Court, City and County of Denver, Colorado, against the Company and its Colorado subsidiaries, in connection with the Company\u2019s now completed expansion of the Monarch Casino Resort Spa Black Hawk (the \u201cProject\u201d). The case is captioned PCL Construction Services, Inc. v. Monarch Growth Inc., et al.",
+    "On September 1, 2026, the judge in the Gilpin Lawsuit granted a Motion brought by one of the lien claimants to lift the stay effective September 16, 2026, and subsequently set a case management conference for January 22, 2027. We are currently unable to determine the probability of the outcome or reasonably estimate the loss or gain, if any. \u200b On February 9, 2023, Monarch Growth, Inc., Monarch Casino & Resort, Inc. and Monarch Black Hawk, Inc. filed a complaint in District Court, City and County of Denver, Colorado, against PCL, in connection with the Company\u2019s now completed expansion of the Monarch Casino Resort Spa Black Hawk. The case is captioned Monarch Growth Inc., et al., v. PCL Construction Services, Inc., Case No. 2023CV30458 (the \u201cSecond Denver Lawsuit\u201d).",
+    "On December 5, 2019, the Company filed its answer and counterclaim, which alleges, among other items, that PCL breached the construction contract, duties of good faith and fair dealing, and implied and express warranties, made fraudulent or negligent misrepresentations on which the Company and its Colorado subsidiaries relied, and included claims for monetary damages as well as equitable and declaratory relief. \u200b On March 26, 2021, PCL filed a mechanics\u2019 lien foreclosure action in the District Court, County of Gilpin, Colorado, against the Company and its Colorado subsidiaries, in connection with the Company\u2019s now completed expansion of the Monarch Casino Resort Spa Black Hawk. The case is captioned PCL Construction Services, Inc., v. Monarch Growth Inc., et al., Case No. 2021CV30006 (the \u201cGilpin Lawsuit\u201d)."
+   ],
+   "captions": [
+    "Hawk. The case is captioned PCL Construction Services, Inc., v. Monarch Growth Inc., et al., Case No. 2021CV30006",
+    "The case is captioned Monarch Growth Inc., et al., v. PCL Construction Services, Inc., Case No. 2023CV30458",
+    "The case is captioned PCL Construction Services, Inc. v. Monarch Growth Inc., et al. On September 1, 2026"
+   ],
+   "courts": [
+    "District Court"
+   ],
+   "firstSeen": "2026-10-30"
+  },
   {
    "key": "0001104659-26-120201:fpi-20260930x10q.htm",
    "company": "Farmland Partners Inc.  (FPI)",
