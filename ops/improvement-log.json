@@ -680,7 +680,12 @@
     "heldOut_v6_matched": 0.143
    },
    "checkAfter": "2026-10-30",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-30",
+    "value": "No Jeff annotation found anywhere in ops/calculator-proposals.md since the 2026-10-23 entry; ANALYSIS_VERSION still unresynced with the published version.",
+    "note": "This entry's metric is a Jeff decision, not a goals.json number -- nothing to measure yet, same non-decision as imp-011/025/026 on 2026-10-29."
+   }
   },
   {
    "id": "imp-029",
@@ -706,7 +711,12 @@
     "contactSends7": 0
    },
    "checkAfter": "2026-10-30",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-30",
+    "value": "signUps7=3 (baseline 0), contactSends7=0 (unchanged)",
+    "note": "ops/metrics/history/ shows a steady 1->1->1->2->2->2->3 climb from 2026-10-23 through 2026-10-29, not a jump at imp-029's ship date; confounded by imp-033 (conversion) watching the same signUps7 metric over the same window; procurement.html still absent from latest.json's top-10 topPages, the secondary signal imp-029 itself proposed."
+   }
   },
   {
    "id": "imp-030",
@@ -939,6 +949,28 @@
     "leadsReviewedTotal": 297
    },
    "checkAfter": "2026-11-05",
+   "status": "watching"
+  },
+  {
+   "id": "imp-042",
+   "date": "2026-10-30",
+   "track": "subscription",
+   "title": "Linked procurement.html from monitor.html and coverage.html",
+   "why": "Subscription's last tracked change was imp-029 on 2026-10-23 -- exactly 7 days ago -- so per the playbook's 7-day rule it took this run regardless of goals.json's mostBehind order (calculator, conversion, traffic, news). Rather than re-trust imp-029/imp-036's \"all five checklist items already done\" conclusion a third time, re-read all five subscription-readiness pages end-to-end and found a real, narrow discoverability gap: of the five pages, only data-security.html, alert-log.html and about.html linked to procurement.html (the consolidated security/retention/cancellation summary, added 2026-10-23); monitor.html (the product page itself) and coverage.html (the accuracy/depth page) -- the two pages a buyer or procurement reviewer is likeliest to read first -- never did.",
+   "files": [
+    "monitor.html",
+    "coverage.html",
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "2e50be5",
+   "metric": "No dedicated subscription metric exists (same gap imp-015/imp-029 noted); logged against conversion.metrics.signUps7/contactSends7 as a weak proxy, plus whether procurement.html starts appearing in last7Days.topPages at all.",
+   "window": "7 days",
+   "baseline": {
+    "signUps7": 3,
+    "contactSends7": 0,
+    "procurementInTopPages": false
+   },
+   "checkAfter": "2026-11-06",
    "status": "watching"
   }
  ]
