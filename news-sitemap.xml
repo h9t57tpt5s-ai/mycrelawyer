@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://credocket.com/matters/live-352.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-30</news:publication_date>
+      <news:title>Matter of Bruck v. Town of Rochester Planning Bd. (Adaptive-Reuse Site Plan Upheld Over Parking-Calculation Challenge)</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-351.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-30</news:publication_date>
+      <news:title>PMC Property Group, Inc. v. Apogee Enterprises, Inc. (New Minnesota Alter-Ego Suit Follows Dismissal From Philadelphia Glass-Defect Case)</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://credocket.com/matters/live-350.html</loc>
     <news:news>
       <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>

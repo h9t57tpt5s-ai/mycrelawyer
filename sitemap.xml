@@ -117,7 +117,7 @@
   </url>
   <url>
     <loc>https://credocket.com/cmbs-litigation-tracker.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -137,7 +137,7 @@
   </url>
   <url>
     <loc>https://credocket.com/companies.html</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -256,6 +256,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/company-pmc-property-group.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/company-rad-diversified-reit.html</loc>
     <lastmod>2026-10-23</lastmod>
     <priority>0.5</priority>
@@ -342,7 +347,7 @@
   </url>
   <url>
     <loc>https://credocket.com/construction-defect-damages.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -367,7 +372,7 @@
   </url>
   <url>
     <loc>https://credocket.com/data-center-litigation-tracker.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -498,6 +503,11 @@
   <url>
     <loc>https://credocket.com/judge-bruce-mallonee.html</loc>
     <lastmod>2026-10-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-christine-m-clark.html</loc>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -727,12 +737,12 @@
   </url>
   <url>
     <loc>https://credocket.com/judges.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://credocket.com/land-use-litigation-damages.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -762,7 +772,7 @@
   </url>
   <url>
     <loc>https://credocket.com/litigation-index-2026-09.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -812,7 +822,7 @@
   </url>
   <url>
     <loc>https://credocket.com/monitor.html</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -852,7 +862,7 @@
   </url>
   <url>
     <loc>https://credocket.com/office-foreclosure-tracker.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -2463,6 +2473,16 @@
   <url>
     <loc>https://credocket.com/matters/live-350.html</loc>
     <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-351.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-352.html</loc>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
