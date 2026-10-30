@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-10-30T02:08:50+00:00",
+ "updatedAt": "2026-10-30T17:10:54+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "VIVA BURRITO DEVELOPMENT CORPORATION v. United States",
+   "court": "United States Court of Federal Claims",
+   "courtId": "uscfc",
+   "docketNumber": "1:26-cv-01658",
+   "dateFiled": "2026-10-29",
+   "docketUrl": "https://www.courtlistener.com/docket/75047621/viva-burrito-development-corporation-v-united-states/",
+   "docketId": 75047621,
+   "suitNature": "",
+   "cause": "",
+   "slug": "viva-burrito-development-corporation-v-united-states-uscfc-1-26-cv-01658",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Maruti 3 Lodging LLC v. Saina Global, Inc. d/b/a Vogue Hospitality",
    "court": "District Court, S.D. Texas",

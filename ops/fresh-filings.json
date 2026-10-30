@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-10-30T02:08:50+00:00",
+ "updatedAt": "2026-10-30T17:10:54+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "ZH Development I, LLC",
+   "court": "United States Bankruptcy Court, M.D. Florida",
+   "courtId": "flmb",
+   "docketNumber": "6:26-bk-08515",
+   "dateFiled": "2026-10-30",
+   "docketUrl": "https://www.courtlistener.com/docket/75047643/zh-development-i-llc/",
+   "docketId": 75047643,
+   "slug": "zh-development-i-llc-flmb-6-26-bk-08515",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Greenwood Mall Realty Holding LLC",
+   "court": "United States Bankruptcy Court, W.D. Kentucky",
+   "courtId": "kywb",
+   "docketNumber": "26-11017",
+   "dateFiled": "2026-10-29",
+   "docketUrl": "https://www.courtlistener.com/docket/75045108/greenwood-mall-realty-holding-llc/",
+   "docketId": 75045108,
+   "slug": "greenwood-mall-realty-holding-llc-kywb-26-11017",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "ASCEND PROPERTY GROUP LLC",
    "court": "United States Bankruptcy Court, D. Nevada",
