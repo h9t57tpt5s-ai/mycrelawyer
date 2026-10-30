@@ -972,6 +972,24 @@
    },
    "checkAfter": "2026-11-06",
    "status": "watching"
+  },
+  {
+   "id": "imp-043",
+   "date": "2026-10-30",
+   "track": "calculator",
+   "title": "Scanned all saved v6/v6.1 results for the two confirmed credit-role bug shapes; found two new, distinct bugs (G15 decisions 6 and 7)",
+   "why": "calculator is mostBehind (gap 0.606) and untouched in the last 2 log entries (imp-041 news, imp-042 subscription), but calculatorViews7 is blocked by imp-016's open experiment until 2026-10-31 and finalRangeHitRate is Jeff-gated regardless, so this run did G3/G15 evidence tracing. 2026-10-25/26's two credit-role bugs (cle-venture-fund-v-coventry-2025, windsor-tower-v-speedy-maintenance-2024) were each confirmed on one flagged case only. Scanned all 98 results-v6 + 25 results-v6.1 files for both shapes: the shared-opposing-figure shape still only matches windsor-tower; the multi-credit shape matches 5 cases, 2 legitimately additive and 2 new confirmed bugs (tank-car-v-springfield-township-2023's competing-basis credit bleed; westdale-northwest-v-united-states-2021's credit-only issue silently returning null and dropping a $92,657.99 opposing claim).",
+   "files": [
+    "ops/calculator-proposals.md",
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "741fe2214cffc5050c898a3c5afc5e6226868873",
+   "metric": "whether Jeff has reviewed ops/calculator-proposals.md's 2026-10-30 entry (G15 decisions 6-7); no goals.json number moves",
+   "window": "n/a - awaiting Jeff's review",
+   "baseline": {},
+   "checkAfter": "2026-11-06",
+   "status": "watching",
+   "note": "NEEDS JEFF: G15 now has 7 concrete decisions on v6/v6.1's credit-role handling. No code changed (Jeff-gated, not cloud-deployable)."
   }
  ]
 }
