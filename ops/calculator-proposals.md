@@ -708,6 +708,104 @@ fix for the next partial-taking case shaped this way, not evidence of
 a broader existing distortion. Not applied — this is the calculator's
 prompt, Jeff-gated and not cloud-deployable regardless.
 
+## 2026-10-30 — the credit-role bug is not a one-off: a systematic scan of all 123 saved v6/v6.1 results finds 3 more cases, plus a second, distinct credit-role bug that silently drops a claim
+
+2026-10-25's `cle-venture-fund-v-coventry-2025` finding (competing `credit`
+figures summed instead of range-selected) and 2026-10-26's
+`windsor-tower-v-speedy-maintenance-2024` finding (one disputed figure pled
+under several opposing theories, summed once per theory) were each confirmed
+on a single flagged case. Neither had been checked against the full v6/v6.1
+result set for how often the underlying shapes recur. Did that scan today —
+free, no API spend, just reading the 98 `results-v6/*.json` and 25
+`results-v6.1/*.json` files already on disk — using two mechanical tests:
+(a) any issue with 2+ figures carrying `role: "credit"`, and (b) any case
+with 2+ `claimant: "opposing"` issues that share an identical figure value.
+
+**Test (b) found nothing new** — `windsor-tower` is still the only case with
+that shape across both directories, matching 2026-10-27's imp-036 finding
+that the same shape doesn't appear anywhere in `results-v4.3`'s 47 files
+either. Decision (4) in the list below stays confirmed-on-one-case.
+
+**Test (a) found 5 matches, 3 not previously examined.** Two
+(`stark-v-mccarthy-corp-2021`, 3 credits; `brandon-v-wells-fargo-midland-2020`,
+2 credits) are genuinely additive — every figure is `disputed: false`, each
+one a separate payment made on a different date (invoices paid, a partial
+payment, a later top-up with interest) — not alternative estimates of the
+same thing, so `credits.reduce(sum)` is the right arithmetic there. Checked
+each one's quotes against its figure to confirm before ruling it out, the
+same way 2026-10-26's entry distinguished real duplication from coincidence.
+
+The other two are new, confirmed problems, each a different shape from
+either already-documented bug:
+
+**`tank-car-v-springfield-township-2023`** (eminent domain, `basis:
+"competing"`): the owner's appraiser (Barth) values the property "as was" at
+$2,100,000; the township's appraiser (Lukens) starts from a "hypothetically
+clean, before deductions" $750,000 and then subtracts three of his own
+deductions — demolition cost ($175,000), environmental-stigma discount
+($150,000), and Act 2 remediation cost ($284,000), i.e. $609,000 total — to
+reach his own "as is" opinion, plus a separate, genuine $150,000 already paid
+by the Township. All three of Lukens' own deductions are tagged `role:
+"credit"`, same as the $150,000 already-paid credit. `v6IssueRange()`'s
+`competing` branch takes `[min(amounts), max(amounts)] = [750000, 2100000]`
+as the base range, then subtracts the *sum of every credit* — $759,000 —
+from *both* ends: `[750000-759000, 2100000-759000]` → floored to `[0,
+1341000]`. That is exactly the published range. The bug: Lukens' three
+deductions are specific to Lukens' own $750,000 starting figure (his own
+reconciliation path to an "as is" number near $141,000) — they say nothing
+about Barth's $2,100,000 "as was" figure, which was never presented as
+needing those same deductions. Subtracting Lukens' deductions from Barth's
+number produces $1,341,000, a hybrid that is neither appraiser's actual
+opinion and isn't a number either side put before the court. Only the
+genuinely side-neutral $150,000 already-paid credit should net against both
+competing figures; appraiser-specific adjustments should stay inside that
+appraiser's own number before it enters the competing range. This is a third
+distinct `credit`-role bug, on top of (3) and (4) below: the code has no way
+to tell a credit that adjusts one competing figure's own methodology from a
+credit that reduces the claim regardless of which figure wins.
+
+**`westdale-northwest-v-united-states-2021`** (lease dispute, GSA's
+opposing "Overpayment Recoupment Claims" issue, `basis: "itemized"`): GSA's
+own affirmative claim against Westdale is built from two overpayment
+findings — $79,027.78 (a 2012 audit) and $13,630.21 (a partial-2013 audit) —
+both tagged `role: "credit"` rather than `role: "amount"`, because the model
+followed the roles instruction literally ("credit: money that reduces the
+claim... a setoff") without noticing that from GSA's own side, as the
+*opposing claimant*, a recoupment demand is the claim itself, not a
+reduction against someone else's claim. `v6IssueRange()` only builds a base
+range from `role: "amount"` figures (`const base = amounts.length ?
+issueRange(...) : null`); with zero `amount` figures, `base` is `null`, the
+`before_value`/`after_value` branch doesn't apply either, and the function
+returns `null` — the whole $92,657.99 claim silently contributes nothing to
+the case's `damagesRange`, with no flag, warning, or `droppedFigures` count
+raised anywhere. This is a mistagging-plus-silent-drop bug: a figure role
+mistake by the model (a plausible one, given how the roles are described)
+turns into a complete, unflagged loss of a real opposing claim rather than a
+visibly wrong but nonzero number. Confirmed by code read (`valuation-v6.ts`
+lines 89, 93, 105-109) and by checking the case's own saved
+`damagesRange: [-653966.1, 567376.8]` is consistent with this issue
+contributing exactly 0, not $92,657.99 net against either end.
+
+**NEEDS JEFF — two new items added to G15's list of concrete, confirmed
+problems in `v6IssueRange()`/the credit-role design (not applied; Jeff-gated,
+not cloud-deployable regardless):**
+6. A `credit`-role figure that only adjusts one competing `amount` figure's
+   own methodology (an appraiser's own stated deduction from their own
+   number) should net against that figure before it enters a `competing`
+   basis range, not against the sum/min/max of all competing figures
+   including ones that never relied on that deduction. Reproduces on
+   `tank-car-v-springfield-township-2023`.
+7. `v6IssueRange()` should not return `null` for an issue whose figures are
+   entirely `credit`-role with no `amount` figures — at minimum it should
+   treat such figures as the issue's own claimed amount (sum or
+   range-select them the same way `amount` figures are handled) rather than
+   silently dropping the issue's value to zero with no record of having done
+   so. Reproduces on `westdale-northwest-v-united-states-2021`, where GSA's
+   $92,657.99 opposing recoupment claim is fully dropped from the case total.
+   Whether the deeper fix is better model guidance on which figures are
+   "amount" vs "credit" from each side's own perspective, or a code-level
+   fallback for credit-only issues, is Jeff's call.
+
 ## What we have learned (calculator track)
 
 <!-- dated lines added as proposals here are later tested or Jeff rules on them -->
@@ -820,3 +918,25 @@ prompt, Jeff-gated and not cloud-deployable regardless.
   whenever the calculator's G3/G15 evidence track comes up again and no
   other fresher anomaly is waiting — don't let it sit open once the files
   needed to check it already exist on disk.
+- 2026-10-30: Generalized 2026-10-25/26's two single-case `credit`-role
+  findings into a systematic scan (free, no API spend): checked every issue
+  in all 98 `results-v6` and 25 `results-v6.1` saved files for 2+
+  `credit`-role figures in one issue, and for a figure value shared across
+  2+ `claimant: "opposing"` issues. The opposing-shared-figure shape
+  (decision 4) still only matches `windsor-tower`, same as imp-036's
+  2026-10-27 scan of `results-v4.3` found nothing — that bug stays
+  confirmed-on-one-case. The multi-credit shape (decision 3) matches 5
+  cases total; 2 are legitimately additive (distinct dated payments, all
+  `disputed: false`) and not a bug, but the other 2 are new, confirmed
+  problems distinct from decision 3 itself: `tank-car-v-springfield-
+  township-2023` nets one appraiser's own methodology-specific deductions
+  against *both* competing appraisers' figures, not just the one they came
+  from; `westdale-northwest-v-united-states-2021` has an opposing issue
+  built entirely from mistagged `credit`-role figures (should have been
+  `amount` from that side's own perspective) with no `amount` figures at
+  all, so `v6IssueRange()` returns `null` and the issue's whole $92,657.99
+  claim silently contributes zero. Added as G15 decisions 6 and 7. Next
+  time: the pattern that worked twice now (2026-10-26, today) is to turn a
+  single confirmed bug into a full scan of the same role/shape across every
+  saved result file before assuming it's isolated — do this again for any
+  future single-case `figures`/role finding before calling it closed.
