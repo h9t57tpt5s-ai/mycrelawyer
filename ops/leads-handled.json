@@ -1238,7 +1238,7 @@
     },
     "0001193125-26-437813:maa-20260930.htm": {
       "at": "2026-10-30",
-      "action": "skipped: boilerplate disclosure of a consent judgment in the already-known Kentucky AG v. RealPage et al. landlord antitrust litigation; no new standalone dispute"
+      "action": "matter live-354 (correcting an earlier skip on this same key today: the 'Consent Judgment and Order' sentence in the excerpt is NOT about the still-pending Kentucky Litigation described in the following sentences -- it is a separate, already-announced September 14, 2026 D.C. consent judgment with JBG Smith and MAA, confirmed via oag.dc.gov and multifamilydive.com; Kentucky remains unsettled per this same filing)"
     },
     "0001468174-26-000034:h-20260930.htm": {
       "at": "2026-10-30",
@@ -1251,6 +1251,14 @@
     "opinion:11049816": {
       "at": "2026-10-30",
       "action": "skipped: individual lakefront lot owner (Baumgardner) v. Brazos River Authority over a denied boat-dock permit and restrictive covenant, not a commercial real estate business dispute"
+    },
+    "opinion:11050336": {
+      "at": "2026-10-30",
+      "action": "matter live-353"
+    },
+    "opinion:11050220": {
+      "at": "2026-10-30",
+      "action": "skipped: 11819 Miracle Hills Drive, LP v. Ali -- though the plaintiff holds a commercial-lease judgment, the dispute on appeal is entirely about the homestead exemption protecting the individual defendant's family residence from forced sale; residential on its face"
     }
   }
 }

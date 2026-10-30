@@ -1,0 +1,16 @@
+{
+  "id": "live-354",
+  "title": "District of Columbia v. RealPage, Inc. (JBG Smith and MAA's $9.3M Consent Judgments)",
+  "category": "landlord-tenant",
+  "status": "settled",
+  "date": "2026-09-14",
+  "jurisdiction": "Superior Court of the District of Columbia",
+  "state": "DC",
+  "amount": "$9.3 million combined ($8.1 million JBG Smith / $1.2 million MAA)",
+  "source": "live",
+  "source_url": "https://oag.dc.gov/release/attorney-general-schwalb-secures-93-million-two-dc",
+  "summary": "The District of Columbia's Attorney General announced on September 14, 2026 that JBG Smith (through JBG Associates, L.L.C.) and Mid-America Apartment Communities, Inc. (MAA) agreed to consent judgments resolving the District's claims that both landlords used RealPage's revenue-management software to coordinate apartment rents, part of the District's broader suit against RealPage and a group of its largest landlords, No. 2023-CAB-006762 in D.C. Superior Court. JBG Smith will pay $8.1 million, tied to its use of the software across multiple District properties, and MAA will pay $1.2 million, tied to a single District property, for a combined $9.3 million; neither company admitted wrongdoing, and both accepted multi-year prospective restrictions on using shared-data pricing software.",
+  "significance": "The settlements add two more names to a rapidly growing list of RealPage-related resolutions across the DOJ's case, the Tennessee multidistrict class litigation, and a string of state attorneys general suits, confirming that enforcement authorities will pursue antitrust liability even against a landlord whose software use was limited to a single property. REIT landlords and managers still facing RealPage exposure should expect a settlement path combining a payment scaled to the extent of their software use with years-long forward commitments on data-sharing and pricing-software practices.",
+  "judge": null,
+  "tags": ["realpage", "antitrust", "rent-setting software", "reit", "washington dc"]
+}

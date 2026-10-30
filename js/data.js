@@ -8619,7 +8619,8 @@ const RELAW_DATA = {
         { when: "September 21, 2026", label: "Affiliate Southbridge Associates II LLC files Chapter 11 (Case No. 26-41128)" },
         { when: "October 6, 2026", label: "Southbridge Associates LLC files Chapter 11 petition (Case No. 26-41208)" },
         { when: "October 7, 2026", label: "X-Caliber Rural Capital, LLC appears; court orders debtor to file its top-20 creditor list" },
-        { when: "October 8, 2026", label: "Cash collateral motion docketed; court sets hearings the next day", current: true }
+        { when: "October 8, 2026", label: "Cash collateral motion docketed; court sets hearings the next day" },
+        { when: "October 29, 2026", label: "Court enters order on motion for relief from stay/co-debtor stay (docket entry 73)", current: true }
       ]
     },
     {
@@ -12201,6 +12202,88 @@ const RELAW_DATA = {
         { when: "April 2025", label: "Supreme Court dismisses petitioners' Article 78 challenge" },
         { when: "October 29, 2026", label: "Third Department affirms, upholding the site plan approval", current: true }
       ]
+    },
+    {
+      id: "live-353",
+      seoTitle: "KY Court: Landowner's Floodplain Takings Claim Not Ripe",
+      seoDescription: "Kentucky's Court of Appeals rejected Lampton Securities' reverse condemnation suit over a flood-zoned Ohio River tract because it never sought a variance.",
+      property: {"name": "Undeveloped former Phase Two condominium tract", "city": "Louisville", "state": "KY"},
+      addedDate: "2026-10-30",
+      title: "Lampton Securities Partnership, LLP v. Louisville-Jefferson County Metro Government (Reverse Condemnation Ripeness Ruling)",
+      brief: "Kentucky's Court of Appeals affirmed dismissal of Lampton Securities' reverse condemnation suit over an Ohio River floodplain tract, holding the claim wasn't ripe because Lampton never sought a variance from the floodplain board.",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-10-30",
+      jurisdiction: "Court of Appeals of Kentucky",
+      state: "KY",
+      amount: "Reverse condemnation claim over a 2-acre tract Lampton bought for $800,000 in 1998; the opinion states no damages figure sought",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11050336/lampton-securities-partnership-llp-v-louisville-jefferson-county-metro/",
+      propertyType: "Land/Development",
+      summary: "Lampton Securities Partnership, LLP sued Louisville-Jefferson County Metro Government and the Louisville and Jefferson County Metropolitan Sewer District for reverse (inverse) condemnation, alleging that 1997 floodplain ordinances stripped all economically beneficial use from a roughly two-acre Ohio River tract it bought for $800,000 in 1998. On October 30, 2026, the Kentucky Court of Appeals affirmed summary judgment for the government defendants, holding that Lampton's claim was not ripe because it never applied to the Metro Sewer District's Floodplain Board for a variance -- relief the ordinance made available and that the Board had granted to other landowners.",
+      significance: "The decision reinforces that a regulatory-takings or inverse-condemnation claim generally cannot proceed until the landowner has exhausted the administrative relief the regulation itself makes available, such as a variance application. Commercial owners holding land restricted by a floodplain, zoning, or similar regulation enacted after acquisition should pursue and document every available administrative avenue before filing a takings suit, since skipping that step risks dismissal on ripeness grounds without the court ever reaching the merits.",
+      body: [
+        "The Kentucky Court of Appeals on October 30, 2026 affirmed summary judgment against Lampton Securities Partnership, LLP in its reverse condemnation suit against Louisville-Jefferson County Metro Government and the Louisville and Jefferson County Metropolitan Sewer District, holding that the claim was not ripe for judicial review. The panel, in an opinion authored by Judge Lisa Payne Jones and joined by Judges Combs and Easton, found that Lampton never sought the variance the local floodplain board was authorized to grant, so no court could yet determine whether the challenged regulation actually destroyed the value of Lampton's property.",
+        "The dispute traces back more than three decades. In the early 1990s, the prior owners of a roughly four-acre tract along the Ohio River secured approval from the Metropolitan Sewer District to build condominiums in two phases. Phase One was completed on about two acres; the remaining two acres, the Tract at issue in this case, were earmarked for Phase Two, but nothing beyond an electrical equipment building and some utility lines was ever built there. In 1997, following catastrophic regional flooding, Metro Government enacted floodplain ordinances barring most new construction within a designated conveyance zone that includes the Tract, while allowing landowners to apply to the Sewer District's Floodplain Board for a variance -- relief the Board had granted to other landowners in the area.",
+        "Lampton purchased the Tract in 1998 for $800,000, after the floodplain ordinances were already in effect. The property sat idle until around 2019, when Lampton listed it for sale, marketing it as commercially developable. After Metro Sewer District staff learned of the listing, the district's counsel told Lampton's representatives that the ordinances foreclosed development of the site. Rather than apply for a variance or attempt to resume construction, Lampton filed suit in Jefferson Circuit Court in May 2020, alleging it had lost all economically beneficial use of the property. The trial court granted summary judgment to the government defendants in July 2025, finding that Lampton had failed to exhaust its administrative remedies and that its suit was untimely.",
+        "The Court of Appeals affirmed on a threshold ground the trial court had not needed to reach. Drawing on U.S. Supreme Court regulatory-takings precedent, including Palazzolo v. Rhode Island, MacDonald, Sommer & Frates v. Yolo County, Suitum v. Tahoe Regional Planning Agency, and Pakdel v. City and County of San Francisco, the panel explained that a court cannot determine whether a regulation has gone too far -- and therefore effected a taking -- until the government's land-use authorities have issued a final decision applying the regulation to the specific parcel. Kentucky law applies the same rule, the court noted, citing its own 2002 decision in Spanish Cove Sanitation, Inc. v. Louisville-Jefferson County Metropolitan Sewer District. Because Lampton never applied for the variance the ordinance made available, the court held that nothing had even arguably been taken when the suit was filed, and affirmed dismissal.",
+        "For commercial owners and developers who believe a floodplain, zoning, or other land-use regulation has eliminated a parcel's economic value, this decision is a reminder that a regulatory-takings or inverse-condemnation claim generally cannot be filed until the available administrative relief has been pursued to a final decision. Filing suit first and skipping that step risks dismissal on ripeness grounds without a court ever reaching the substance of the takings claim, however strong the underlying argument might otherwise be; owners should document every step taken, or not taken, to seek relief from the regulating authority, since that administrative record can determine whether a later takings claim is heard at all, and a well-documented pattern of the agency actually granting relief to other landowners -- as existed here -- can cut against a landowner who short-circuits the process just as easily as it could support one who follows it."
+      ],
+      tags: ["eminent domain", "inverse condemnation", "floodplain", "ripeness", "kentucky"],
+      parties: [
+        { name: "Lampton Securities Partnership, LLP", role: "Appellant" },
+        { name: "Louisville-Jefferson County Metro Government", role: "Appellee" },
+        { name: "Louisville and Jefferson County Metropolitan Sewer District", role: "Appellee" }
+      ],
+      judge: "Lisa Payne Jones",
+      amountUsd: null,
+      timeline: [
+        { when: "1998", label: "Lampton Securities Partnership buys the Tract for $800,000, after Louisville's floodplain ordinances already restrict it" },
+        { when: "2019", label: "Lampton lists the Tract for sale as commercially developable; Metro Sewer tells it the floodplain ordinances bar development" },
+        { when: "May 2020", label: "Lampton sues Metro Government and Metro Sewer for reverse condemnation without seeking a variance" },
+        { when: "July 2025", label: "Jefferson Circuit Court grants summary judgment to the defendants" },
+        { when: "October 30, 2026", label: "Kentucky Court of Appeals affirms, holding the claim is not ripe because Lampton never sought a floodplain variance", current: true }
+      ]
+    },
+    {
+      id: "live-354",
+      seoTitle: "MAA, JBG Smith Pay $9.3M to Settle DC RealPage Antitrust Case",
+      seoDescription: "JBG Smith and Mid-America Apartment Communities agreed to pay the District of Columbia $8.1M and $1.2M to settle RealPage rent-pricing antitrust claims.",
+      addedDate: "2026-10-30",
+      title: "District of Columbia v. RealPage, Inc. (JBG Smith and MAA's $9.3M Consent Judgments)",
+      brief: "JBG Smith agreed to pay $8.1 million and Mid-America Apartment Communities $1.2 million to settle the D.C. Attorney General's claims that both landlords used RealPage's software to coordinate apartment rents.",
+      category: "landlord-tenant",
+      status: "settled",
+      date: "2026-09-14",
+      jurisdiction: "Superior Court of the District of Columbia",
+      state: "DC",
+      amount: "$9.3 million combined ($8.1 million JBG Smith / $1.2 million MAA)",
+      source: "live",
+      sourceUrl: "https://oag.dc.gov/release/attorney-general-schwalb-secures-93-million-two-dc",
+      summary: "The District of Columbia's Attorney General announced on September 14, 2026 that JBG Smith (through JBG Associates, L.L.C.) and Mid-America Apartment Communities, Inc. (MAA) agreed to consent judgments resolving the District's claims that both landlords used RealPage's revenue-management software to coordinate apartment rents, part of the District's broader suit against RealPage and a group of its largest landlords, No. 2023-CAB-006762 in D.C. Superior Court. JBG Smith will pay $8.1 million, tied to its use of the software across multiple District properties, and MAA will pay $1.2 million, tied to a single District property, for a combined $9.3 million; neither company admitted wrongdoing, and both accepted multi-year prospective restrictions on using shared-data pricing software.",
+      significance: "The settlements add two more names to a rapidly growing list of RealPage-related resolutions across the DOJ's case, the Tennessee multidistrict class litigation, and a string of state attorneys general suits, confirming that enforcement authorities will pursue antitrust liability even against a landlord whose software use was limited to a single property. REIT landlords and managers still facing RealPage exposure should expect a settlement path combining a payment scaled to the extent of their software use with years-long forward commitments on data-sharing and pricing-software practices.",
+      body: [
+        "The District of Columbia's Office of the Attorney General announced on September 14, 2026 that it had reached consent judgments with JBG Smith and Mid-America Apartment Communities, Inc. (MAA), resolving the District's claims that both landlords used RealPage's revenue-management software to coordinate rents in violation of antitrust law. JBG Smith, through its JBG Associates, L.L.C. entity, agreed to pay $8.1 million, and MAA agreed to pay $1.2 million, for a combined $9.3 million, in a case captioned District of Columbia v. RealPage, Inc., et al., No. 2023-CAB-006762, pending in the Superior Court of the District of Columbia.",
+        "The District's suit is one node of a much larger legal reckoning facing RealPage and the landlords that used its pricing products. Since 2022 and 2023, the Department of Justice, dozens of state attorneys general, and a sprawling multidistrict class action in the U.S. District Court for the Middle District of Tennessee have all pursued claims that RealPage's revenue-management software functioned as a vehicle for horizontal price coordination: landlords fed RealPage non-public, competitively sensitive data on asking rents, lease terms, and occupancy, which RealPage's algorithm then used to recommend pricing informed by the pooled data of competitors. Regulators have characterized this as a hub-and-spoke conspiracy, with RealPage as the hub and participating landlords as the spokes.",
+        "The District's complaint named RealPage along with a roster of landlords operating in the District, including JBG Smith and MAA. According to the consent judgments, JBG Smith used RealPage's revenue-management software to help set rents across multiple District properties, while MAA's use was tied to a single District property. Neither company admitted liability as part of the settlements, which is standard in these resolutions, and both agreed to prospective restrictions on their future use of shared-data pricing software -- commitments running eight years in MAA's case -- along with the possibility of an independent compliance monitor, at the settling company's expense, if the OAG later has reason to believe the terms are not being followed.",
+        "The District's deals with JBG Smith and MAA followed earlier District settlements with other large operators, including a $1.4 million resolution with Avenue5 Residential and Bell Partners reached in June 2026, and track a parallel wave of settlements Kentucky's Attorney General has reached in its own, separately filed RealPage suit, including with Greystar Management Services in July 2026. In the Tennessee MDL, dozens of landlord defendants have resolved their exposure, with the presiding court approving roughly $360 million in aggregate settlements as of mid-October 2026, while RealPage and a shrinking number of holdout defendants continue to litigate.",
+        "MAA disclosed the $1.2 million payment and the accompanying consent judgment in its Form 10-Q for the quarter ended September 30, 2026, noting the amount was accrued during the third quarter and that the company continues to defend a separate, still-pending suit brought by Kentucky's Attorney General against RealPage and a number of the state's largest landlords, including MAA itself. For multifamily owners and managers still facing RealPage-related exposure, the District of Columbia settlements confirm that enforcement authorities are treating even a single property's use of shared-data pricing software as sufficient grounds for antitrust liability, with the scale of use affecting only the settlement amount. In-house teams should treat a RealPage-related consent judgment as an ongoing compliance obligation rather than a one-time payment, and build monitoring of revenue-management software practices into their regular legal and operational review going forward."
+      ],
+      tags: ["realpage", "antitrust", "rent-setting software", "reit", "washington dc"],
+      parties: [
+        { name: "District of Columbia", role: "Plaintiff" },
+        { name: "RealPage, Inc.", role: "Co-Defendant" },
+        { name: "JBG Associates, L.L.C.", role: "Defendant" },
+        { name: "Mid-America Apartment Communities, Inc.", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 9300000,
+      amountBasis: "settlement",
+      timeline: [
+        { when: "2023", label: "District of Columbia sues RealPage, Inc. and a group of landlords, including JBG Smith and MAA, alleging algorithmic rent-pricing collusion (No. 2023-CAB-006762)" },
+        { when: "June 2026", label: "D.C. settles separately with Avenue5 Residential and Bell Partners for $1.4 million" },
+        { when: "September 14, 2026", label: "D.C. Attorney General announces $9.3 million combined consent judgments with JBG Smith ($8.1M) and MAA ($1.2M)", current: true }
+      ]
     }
   ],
 
@@ -12858,7 +12941,8 @@ const RELAW_DATA = {
     { jurisdiction: "Ohio Court of Appeals, Eighth Appellate District", url: "https://appeals.cuyahogacounty.gov/" },
     { jurisdiction: "Appellate Division, Third Department, New York", url: "https://www.nycourts.gov/courts/ad3/" },
     { jurisdiction: "Indiana Court of Appeals", url: "https://www.in.gov/courts/appeals/" },
-    { jurisdiction: "Court of Appeals of Tennessee", url: "https://www.tncourts.gov/courts/court-appeals" }
+    { jurisdiction: "Court of Appeals of Tennessee", url: "https://www.tncourts.gov/courts/court-appeals" },
+    { jurisdiction: "Court of Appeals of Kentucky", url: "https://kycourts.gov/Courts/Court-of-Appeals/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -13306,6 +13390,14 @@ const RELAW_DATA = {
       court: "Court of Appeals of Tennessee",
       background: "Appointed to the Tennessee Court of Appeals, Middle Division, by Governor Bill Lee in March 2022, succeeding Judge Richard H. Dinkins, and confirmed by the Tennessee General Assembly. Previously an associate professor at Belmont University College of Law and a senior law clerk to Tennessee Supreme Court Justice William C. Koch Jr.",
       bioUrl: "https://tncourts.gov/node/7920985"
+    },
+    {
+      name: "Lisa Payne Jones",
+      slug: "lisa-payne-jones",
+      title: "Judge — authored the panel opinion",
+      court: "Court of Appeals of Kentucky",
+      background: "Appointed to the Kentucky Court of Appeals, 1st Appellate District, Division 2, by Governor Andy Beshear in April 2024 to fill the vacancy created by Judge Donna Dixon's retirement, and elected to the seat in November 2024. Previously served as judge of the Daviess Circuit Court and, from 2001 to 2019, as a Daviess County District Court judge, the first woman to hold either position in the county.",
+      bioUrl: "https://kycourts.gov/Courts/Court-of-Appeals/Pages/1st-Appellate-District-Division-2.aspx"
     }
   ],
 
@@ -13360,6 +13452,7 @@ const RELAW_DATA = {
     { name: "LNR Partners, LLC", matchTerm: "LNR Partners", slug: "lnr-partners", description: "Miami Beach-based CMBS special servicer, a Starwood Property Trust subsidiary, that manages defaulted commercial mortgage loans and frequently pursues foreclosure on behalf of CMBS trust bondholders nationally." },
     { name: "Alexandria Real Estate Equities, Inc.", matchTerm: "Alexandria", slug: "alexandria-real-estate-equities", description: "NYSE-listed REIT (ARE) and the nation's largest publicly traded owner and developer of life-science laboratory and office space, concentrated in life-science megacampuses including sites in Manhattan.", website: "https://www.are.com" },
     { name: "Thor Equities", matchTerm: "Thor Equities", slug: "thor-equities", description: "Privately held New York City real estate investment and development firm led by Joseph Sitt, active in retail, mixed-use, and data-center development nationally.", website: "https://thorequities.com" },
-    { name: "PMC Property Group, Inc.", matchTerm: "PMC Property Group", slug: "pmc-property-group", description: "Philadelphia-based developer and owner specializing in new construction, renovation, and adaptive reuse of urban apartment and office buildings.", website: "https://www.pmcpropertygroup.com" }
+    { name: "PMC Property Group, Inc.", matchTerm: "PMC Property Group", slug: "pmc-property-group", description: "Philadelphia-based developer and owner specializing in new construction, renovation, and adaptive reuse of urban apartment and office buildings.", website: "https://www.pmcpropertygroup.com" },
+    { name: "JBG Smith Properties", matchTerm: "JBG Smith", slug: "jbg-smith", description: "Washington, D.C.-area REIT and real estate operating company focused on mixed-use office, multifamily, and retail development.", website: "https://www.jbgsmith.com" }
   ]
 };

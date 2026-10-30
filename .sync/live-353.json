@@ -1,0 +1,16 @@
+{
+  "id": "live-353",
+  "title": "Lampton Securities Partnership, LLP v. Louisville-Jefferson County Metro Government (Reverse Condemnation Ripeness Ruling)",
+  "category": "eminent-domain",
+  "status": "ruling",
+  "date": "2026-10-30",
+  "jurisdiction": "Court of Appeals of Kentucky",
+  "state": "KY",
+  "amount": "Reverse condemnation claim over a 2-acre tract Lampton bought for $800,000 in 1998; the opinion states no damages figure sought",
+  "source": "live",
+  "source_url": "https://www.courtlistener.com/opinion/11050336/lampton-securities-partnership-llp-v-louisville-jefferson-county-metro/",
+  "summary": "Lampton Securities Partnership, LLP sued Louisville-Jefferson County Metro Government and the Louisville and Jefferson County Metropolitan Sewer District for reverse (inverse) condemnation, alleging that 1997 floodplain ordinances stripped all economically beneficial use from a roughly two-acre Ohio River tract it bought for $800,000 in 1998. On October 30, 2026, the Kentucky Court of Appeals affirmed summary judgment for the government defendants, holding that Lampton's claim was not ripe because it never applied to the Metro Sewer District's Floodplain Board for a variance -- relief the ordinance made available and that the Board had granted to other landowners.",
+  "significance": "The decision reinforces that a regulatory-takings or inverse-condemnation claim generally cannot proceed until the landowner has exhausted the administrative relief the regulation itself makes available, such as a variance application. Commercial owners holding land restricted by a floodplain, zoning, or similar regulation enacted after acquisition should pursue and document every available administrative avenue before filing a takings suit, since skipping that step risks dismissal on ripeness grounds without the court ever reaching the merits.",
+  "judge": "Lisa Payne Jones",
+  "tags": ["eminent domain", "inverse condemnation", "floodplain", "ripeness", "kentucky"]
+}
