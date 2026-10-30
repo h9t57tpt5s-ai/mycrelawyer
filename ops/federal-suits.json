@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-10-29T17:34:54+00:00",
+ "updatedAt": "2026-10-30T02:08:50+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Maruti 3 Lodging LLC v. Saina Global, Inc. d/b/a Vogue Hospitality",
+   "court": "District Court, S.D. Texas",
+   "courtId": "txsd",
+   "docketNumber": "6:26-cv-00069",
+   "dateFiled": "2026-10-29",
+   "docketUrl": "https://www.courtlistener.com/docket/75043223/maruti-3-lodging-llc-v-saina-global-inc-dba-vogue-hospitality/",
+   "docketId": 75043223,
+   "suitNature": "",
+   "cause": "",
+   "slug": "maruti-3-lodging-llc-v-saina-global-inc-d-b-a-vogue-hospitality-txsd-6-26-cv-00069",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Town Center Properties I, LLC v. Mariner Finance, LLC",
    "court": "District Court, D. Maryland",
