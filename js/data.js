@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-29",
+  lastUpdatedDate: "2026-10-30",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -12122,6 +12122,85 @@ const RELAW_DATA = {
         { when: "October 2018", label: "Jury awards Commercial Painting $8,359,863.83, including $3.9M in punitive damages" },
         { when: "October 28, 2026", label: "Court of Appeals affirms the judgment, holding the contractual damages waiver does not bar the punitive award", current: true }
       ]
+    },
+    {
+      id: "live-351",
+      seoTitle: "PMC Sues Apogee in Minnesota After Dismissal From Window Suit",
+      seoDescription: "PMC Property Group filed a new federal suit against Apogee Enterprises in Minnesota, alleging Wausau and Viracon are its alter egos.",
+      property: { name: "Franklin Tower, Riverwalk Tower I, Riverwalk Tower II", city: "Philadelphia", state: "PA" },
+      addedDate: "2026-10-30",
+      title: "PMC Property Group, Inc. v. Apogee Enterprises, Inc. (New Minnesota Alter-Ego Suit Follows Dismissal From Philadelphia Glass-Defect Case)",
+      brief: "PMC Property Group sued Apogee Enterprises in Minnesota federal court, seeking a declaration that Wausau and Viracon are Apogee's alter egos after a Philadelphia judge dismissed Apogee from PMC's defective-glass suit for lack of jurisdiction.",
+      category: "construction-defect",
+      status: "filed",
+      date: "2026-10-27",
+      jurisdiction: "U.S. District Court, District of Minnesota",
+      state: "MN",
+      propertyType: "Multifamily",
+      amount: "PMC says it paid roughly $50 million for the Wausau window systems at the three towers; the new complaint does not plead a specific damages figure",
+      amountUsd: 50000000,
+      amountBasis: "other",
+      source: "live",
+      sourceUrl: "https://www.usglassmag.com/apogee-faces-new-lawsuit-over-allegedly-defective-philadelphia-glass/",
+      summary: "PMC Property Group, Inc. filed a new federal complaint against Apogee Enterprises, Inc. on October 27, 2026 in the U.S. District Court for the District of Minnesota, asserting unjust enrichment and two declaratory-judgment claims seeking to establish that Apogee's subsidiaries, Wausau Window and Wall Systems and Viracon, are alter egos of their corporate parent. The filing follows a late-August 2026 ruling in PMC's separate Eastern District of Pennsylvania suit over spontaneously shattering windows at three Philadelphia apartment towers, in which the court dismissed Apogee from that case for lack of personal jurisdiction while allowing PMC's manufacturing-defect claims against Wausau and Viracon to proceed.",
+      significance: "The filing shows a commercial property owner relocating an alter-ego theory to the parent company's home forum after a jurisdictional dismissal elsewhere, rather than abandoning the claim. Owners pursuing a thinly capitalized supplier's parent for a defective-product judgment should expect that a personal-jurisdiction dismissal in one forum is not necessarily the end of the claim, and that documented instances of parent-level approval over a subsidiary's warranty or credit decisions can support a fresh suit filed where the parent is unquestionably subject to suit.",
+      body: [
+        "PMC Property Group, Inc., the Philadelphia-based owner of three apartment towers plagued by spontaneously shattering glass, has opened a new front in its multi-year fight over the windows: a federal complaint filed October 27, 2026 in the U.S. District Court for the District of Minnesota against Apogee Enterprises, Inc., the publicly traded parent of the window-systems and glass companies PMC blames for the defects. The filing follows a ruling roughly two months earlier in which a federal judge in Philadelphia dismissed Apogee from PMC's existing suit there for lack of personal jurisdiction, finding PMC had not plausibly alleged that Apogee controlled its subsidiaries' day-to-day operations. Rather than drop the parent company from the fight, PMC has now sued Apogee directly in the District of Minnesota, where Apogee is headquartered, asserting three claims: unjust enrichment, and two requests for declaratory judgment seeking to establish that the subsidiaries, Wausau Window and Wall Systems and Viracon, are alter egos of their corporate parent.",
+        "PMC's fight traces back to 2024, when the developer discovered that windows at Franklin Tower, Riverwalk Tower I, and Riverwalk Tower II, three Philadelphia apartment towers for which PMC says it paid roughly $50 million in window-system contracts, had begun breaking spontaneously. PMC alleges the glass, manufactured by Viracon and incorporated into window systems supplied by Wausau, contained nickel sulfide inclusions that caused panels to shatter without warning as they expanded and contracted with temperature swings; more than 60 windows had broken across the three buildings by the time PMC filed its original suit. PMC sued in the Philadelphia Court of Common Pleas and, separately, in the U.S. District Court for the Eastern District of Pennsylvania, later amending its federal complaint to add Viracon as a defendant and to allege that Wausau, Viracon, and Apogee are, in effect, a single enterprise using the corporate form as a shield.",
+        "That theory ran into trouble in federal court. In late August 2026, the court granted in part and denied in part the defendants' motion to dismiss, allowing PMC's manufacturing-defect claims against Wausau and Viracon to proceed but dismissing Apogee from the case entirely for lack of personal jurisdiction. The ruling also disposed of PMC's unjust-enrichment claim against Wausau on a separate ground: because PMC and Wausau had a contract covering the same subject matter, an equitable unjust-enrichment claim could not proceed against a contracting party, even as the same theory survived against Viracon, which had no direct contract with PMC, under Pennsylvania law permitting recovery for benefits indirectly conferred.",
+        "PMC's response was not to abandon the parent-company theory but to relocate it. The Minnesota complaint, filed in the forum where Apogee itself is based, asserts that Apogee directed its subsidiaries' responses to the very defect complaints at the center of the Pennsylvania litigation. As evidence, PMC points to an October 2020 internal email in which a Wausau employee is alleged to have sought Apogee's approval for a warranty credit tied to Viracon's glass, with Apogee approving that credit, evidence PMC says shows the parent reaching into the operational and financial decisions of both subsidiaries rather than merely owning them as a passive investment. Framed as declaratory-judgment claims rather than damages claims, the Minnesota suit asks the court to establish, as a legal matter, that Wausau and Viracon are alter egos of Apogee, a predicate PMC would need if it hopes to ever collect a judgment from Apogee itself on the underlying defect claims still being litigated in Pennsylvania.",
+        "The maneuver illustrates a recurring problem for commercial property owners pursuing claims against complex corporate families: a subsidiary with the assets to satisfy a judgment is often thinly capitalized or indemnified upward to its parent, while the parent that controls strategy and cash is the one most insulated from direct suit. The Pennsylvania dismissal order did not say Apogee had no connection to the underlying conduct; it said PMC's pleading, as filed in that forum, did not clear the personal-jurisdiction bar. Filing anew in Apogee's home district removes the personal-jurisdiction defense that proved fatal in Pennsylvania, forcing Apogee to defend the alter-ego theory on its substance rather than on a threshold venue objection. For owners facing a similar structure, a thinly capitalized supplier whose parent approved the terms that caused the harm, the practical lesson is to plead the parent's specific approval and control decisions with the same documentary specificity a court will demand, and to be prepared to pursue the parent in its own backyard if the first forum's jurisdictional reach falls short."
+      ],
+      judge: null,
+      parties: [
+        { name: "PMC Property Group, Inc.", role: "Plaintiff" },
+        { name: "Apogee Enterprises, Inc.", role: "Defendant" }
+      ],
+      tags: ["construction defect", "alter ego", "unjust enrichment", "pennsylvania", "minnesota"],
+      timeline: [
+        { when: "2024", label: "PMC discovers spontaneous glass breakage at Franklin Tower and Riverwalk Towers I and II and sues Wausau in Pennsylvania state and federal court" },
+        { when: "August 2026", label: "Federal judge dismisses Apogee from the Pennsylvania suit for lack of personal jurisdiction, but lets PMC's defect claims against Wausau and Viracon proceed" },
+        { when: "October 27, 2026", label: "PMC files a new suit against Apogee in the District of Minnesota seeking an alter-ego declaration", current: true }
+      ]
+    },
+    {
+      id: "live-352",
+      seoTitle: "NY Court Upholds Adaptive-Reuse Site Plan Over Parking Fight",
+      seoDescription: "New York's Third Department affirmed a Planning Board's site plan approval for Accord LLC's granary redevelopment over a neighbor parking challenge.",
+      property: { name: "Historic granary and seed mill complex", city: "Accord", state: "NY" },
+      addedDate: "2026-10-30",
+      title: "Matter of Bruck v. Town of Rochester Planning Bd. (Adaptive-Reuse Site Plan Upheld Over Parking-Calculation Challenge)",
+      brief: "New York's Third Department upheld a Planning Board's site plan approval for Accord LLC's mixed-use granary redevelopment, rejecting neighbors' claims that the project deviated from the approved plan and miscalculated restaurant parking.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-29",
+      jurisdiction: "Appellate Division, Third Department, New York",
+      state: "NY",
+      propertyType: "Mixed-Use",
+      amount: "Not a monetary dispute; challenge to a conditional site plan approval for an adaptive-reuse development",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11049475/matter-of-bruck-v-town-of-rochester-planning-bd/",
+      summary: "New York's Appellate Division, Third Department, affirmed on October 29, 2026 a Planning Board's conditional site plan approval for Accord, LLC's adaptive-reuse redevelopment of a historic granary and seed mill complex in the Hamlet of Accord, Town of Rochester, rejecting neighboring property owners' claims that the approved site plan improperly deviated from the Town Board's conceptual development plan and miscalculated the project's restaurant parking requirement. The court held the Planning Board had broad discretion to find the scaled-back project in substantial conformance with the original plan and to adopt the Town Board's parking determination.",
+      significance: "The decision gives developers of adaptive-reuse projects in flexible overlay districts a clear deference standard: later-stage site plan modifications that trim rather than expand a project's scope are far safer ground for a 'substantial conformance' finding, and a documented, reasoned parking methodology in the administrative record will be upheld over a neighbor's own recalculation. Municipalities and developers negotiating similar historic-building conversions into mixed commercial and hospitality uses should take note of how much latitude courts will give a planning board's record-based findings on both conformance and parking.",
+      body: [
+        "New York's Appellate Division, Third Department, on October 29, 2026 affirmed a Planning Board's approval of a mixed-use adaptive-reuse project built around a historic granary and seed mill complex in the Hamlet of Accord, Ulster County, rejecting a challenge from neighboring property owners who argued the project's parking plan violated the local zoning code and deviated improperly from the plan the Town Board had originally approved. The ruling in Matter of Bruck v. Town of Rochester Planning Board closes out, at least at this stage, a dispute that pitted two individual petitioners who own property near the site against both the town's Planning Board and the project's developer, Accord, LLC.",
+        "Accord, LLC acquired the historic granary and seed mill property and pursued a rezoning of the parcel into the Town of Rochester's Economic Enterprise Overlay district, a designation intended, under the town code, to promote flexibility in the development process while integrating a diversity of land uses within close proximity to each other. After an environmental review under the State Environmental Quality Review Act resulted in a negative declaration of significance, the Town Board adopted a local law granting the rezoning and approving Accord's conceptual development plan, which called for converting the existing structures into a restaurant, a bike shop, an artist gallery, a coworking space, worker housing, and an inn. The Town Board found the project required 63 parking spaces under the town's parking code, including 57 on-site spaces, 25 of them allocated to the restaurant, and six off-site spaces.",
+        "As the project moved into site plan review before the Planning Board, Accord scaled back the proposal: the architect notified the board that the project no longer needed the six off-site parking spaces, that the artist gallery would be dropped, and that the coworking space would shrink by 421 square feet. The Planning Board granted conditional site plan approval in July 2024, finding the modified project in substantial conformance with the Town Board's conceptual plan and adopting the Town Board's prior finding on required on-site parking. Neighboring property owners Susan Bruck and a co-petitioner then sued under CPLR Article 78, arguing the Planning Board had improperly approved a site plan that materially deviated from the plan the Town Board authorized, and that the board had miscalculated the restaurant's parking requirement, contending that, applying the town code's one-parking-space-per-50-square-feet standard to the restaurant's full listed floor area, 78 spaces were required for the restaurant alone, far more than the 25 the board had approved.",
+        "Supreme Court dismissed the petition, and the Third Department affirmed. The appellate panel held that a local planning board has broad discretion in reviewing site plan applications, and that judicial review is limited to whether the board's action was illegal, arbitrary and capricious, or an abuse of discretion. Applying that standard, the court found the Planning Board rationally determined that the project, as scaled back during site plan review, remained in substantial conformance with the conceptual development plan the Town Board had approved, since the modifications eliminated uses and reduced square footage rather than adding scope. On the parking question, the court credited the developer's engineer, who had applied an alternative one-space-per-three-seats calculation because the town code did not specify whether restaurant parking should be measured by gross or net square footage, and who calculated the restaurant's actual floor area at 1,250 square feet rather than its larger listed area, yielding the 25-space figure the board had approved.",
+        "Adaptive-reuse projects that convert historic industrial buildings into mixed commercial space are often approved through a two-step process, a legislative rezoning based on a conceptual plan followed by a more granular site plan review that inevitably refines or scales back the original concept. This decision confirms that New York courts will give planning boards real latitude to find later-stage modifications in substantial conformance with an earlier conceptual approval, so long as those modifications trim rather than expand the project's footprint and uses, and that a developer's reasoned engineering methodology for an ambiguous parking formula will be upheld over a neighbor's own recalculation rather than require a formal referral to resolve the ambiguity first."
+      ],
+      judge: "Christine M. Clark",
+      parties: [
+        { name: "Accord, LLC", role: "Respondent (Developer)" },
+        { name: "Town of Rochester Planning Board", role: "Respondent" }
+      ],
+      tags: ["zoning", "site plan", "adaptive reuse", "parking", "new york"],
+      timeline: [
+        { when: "July 2024", label: "Planning Board grants conditional site plan approval for the scaled-back project" },
+        { when: "April 2025", label: "Supreme Court dismisses petitioners' Article 78 challenge" },
+        { when: "October 29, 2026", label: "Third Department affirms, upholding the site plan approval", current: true }
+      ]
     }
   ],
 
@@ -12789,6 +12868,14 @@ const RELAW_DATA = {
      Federal Judicial Center's Biographical Directory. */
   judges: [
     {
+      name: "Christine M. Clark",
+      slug: "christine-m-clark",
+      title: "Associate Justice — authored the panel opinion",
+      court: "Appellate Division, Third Department, New York",
+      background: "Appointed to the Appellate Division, Third Department effective April 24, 2014 by Governor Andrew M. Cuomo. Previously elected to the Supreme Court of the State of New York, Fourth Judicial District in 2012, becoming only the second woman ever elected to that court, after being elected to Schenectady County Family Court in 2010. A 1996 graduate of Albany Law School.",
+      bioUrl: "https://nycourts.gov/ad3/about/bios/clark.shtml"
+    },
+    {
       name: "Eileen T. Gallagher",
       slug: "eileen-t-gallagher",
       title: "Presiding Judge — authored the panel's opinion on reconsideration",
@@ -13272,6 +13359,7 @@ const RELAW_DATA = {
     { name: "ACORE Capital", matchTerm: "ACORE", slug: "acore-capital", description: "San Francisco-based commercial real estate debt manager that originates construction, bridge, and CMBS financing nationally, and frequently appears as a lender in commercial foreclosure litigation.", website: "https://acorecapital.com" },
     { name: "LNR Partners, LLC", matchTerm: "LNR Partners", slug: "lnr-partners", description: "Miami Beach-based CMBS special servicer, a Starwood Property Trust subsidiary, that manages defaulted commercial mortgage loans and frequently pursues foreclosure on behalf of CMBS trust bondholders nationally." },
     { name: "Alexandria Real Estate Equities, Inc.", matchTerm: "Alexandria", slug: "alexandria-real-estate-equities", description: "NYSE-listed REIT (ARE) and the nation's largest publicly traded owner and developer of life-science laboratory and office space, concentrated in life-science megacampuses including sites in Manhattan.", website: "https://www.are.com" },
-    { name: "Thor Equities", matchTerm: "Thor Equities", slug: "thor-equities", description: "Privately held New York City real estate investment and development firm led by Joseph Sitt, active in retail, mixed-use, and data-center development nationally.", website: "https://thorequities.com" }
+    { name: "Thor Equities", matchTerm: "Thor Equities", slug: "thor-equities", description: "Privately held New York City real estate investment and development firm led by Joseph Sitt, active in retail, mixed-use, and data-center development nationally.", website: "https://thorequities.com" },
+    { name: "PMC Property Group, Inc.", matchTerm: "PMC Property Group", slug: "pmc-property-group", description: "Philadelphia-based developer and owner specializing in new construction, renovation, and adaptive reuse of urban apartment and office buildings.", website: "https://www.pmcpropertygroup.com" }
   ]
 };

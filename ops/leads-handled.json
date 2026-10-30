@@ -1223,6 +1223,30 @@
     "opinion:11049573": {
       "at": "2026-10-29",
       "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"] and defendant (Reynolds) has no business-entity suffix"
+    },
+    "petition:https://www.courtlistener.com/docket/75044000/ascend-property-group-llc/": {
+      "at": "2026-10-30",
+      "action": "skipped: no coverage found explaining the filing"
+    },
+    "https://www.courtlistener.com/docket/75043223/maruti-3-lodging-llc-v-saina-global-inc-dba-vogue-hospitality/": {
+      "at": "2026-10-30",
+      "action": "skipped: no coverage found explaining the dispute (hotel management/franchise suit, no named major sponsor)"
+    },
+    "0001104659-26-120201:fpi-20260930x10q.htm": {
+      "at": "2026-10-30",
+      "action": "skipped: stale litigation (Sabrepoint dispute dating to 2021, appeal history through 2023), no new development this run"
+    },
+    "0001193125-26-437813:maa-20260930.htm": {
+      "at": "2026-10-30",
+      "action": "skipped: boilerplate disclosure of a consent judgment in the already-known Kentucky AG v. RealPage et al. landlord antitrust litigation; no new standalone dispute"
+    },
+    "0001468174-26-000034:h-20260930.htm": {
+      "at": "2026-10-30",
+      "action": "skipped: federal tax appeal (IRS/Tax Court, Seventh Circuit remand), not a commercial real estate party dispute"
+    },
+    "opinion:11049475": {
+      "at": "2026-10-30",
+      "action": "matter live-352"
     }
   }
 }
