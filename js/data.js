@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-30",
+  lastUpdatedDate: "2026-10-31",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -12332,6 +12332,231 @@ const RELAW_DATA = {
         { when: "June 20, 2024", label: "Zoning Board unanimously approves an expanded application adding a ground-floor restaurant and spa to the previously approved hotel use" },
         { when: "March 7, 2025", label: "Superior Court dismisses 637 Arnold's prerogative-writs challenge with prejudice following trial" },
         { when: "October 30, 2026", label: "Appellate Division affirms, rejecting 637 Arnold's notice and variance-standard arguments", current: true }
+      ]
+    },
+    {
+      id: "live-356",
+      seoTitle: "Monarch Casino Black Hawk: Gilpin Lien Suit Stay Lifted",
+      seoDescription: "A Colorado judge lifted the stay in PCL Construction's $45.5M mechanics' lien suit against Monarch Casino's Black Hawk expansion, reviving a dispute tied to a $74.6M judgment.",
+      addedDate: "2026-10-31",
+      title: "Stay Lifted in Mechanics'-Lien Fight Over Monarch Casino's Black Hawk Expansion",
+      brief: "A Colorado judge lifted the stay in PCL Construction's $45.5 million mechanics'-lien foreclosure suit against Monarch Casino's Black Hawk expansion, reviving a dispute already tied to a $74.6 million judgment in a companion case.",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2026-09-01",
+      jurisdiction: "District Court, Gilpin County, Colorado",
+      state: "CO",
+      propertyType: "Hospitality",
+      property: {
+        name: "Monarch Casino Resort Spa Black Hawk",
+        city: "Black Hawk",
+        state: "CO"
+      },
+      amount: "$45.5 million mechanics'-lien foreclosure claim; a related suit over the same project produced a $74.6 million judgment against Monarch in February 2025",
+      amountUsd: 45500000,
+      amountBasis: "claim",
+      source: "live",
+      sourceUrl: "https://www.sec.gov/Archives/edgar/data/907242/000110465926120630/mcri-20260930x10q.htm",
+      summary: "Monarch Casino & Resort, Inc. disclosed in its October 30, 2026 10-Q that the judge in a long-stayed mechanics' lien foreclosure action in Gilpin County, Colorado lifted the stay effective September 16, 2026 and set a case management conference for January 22, 2027. The lien case, brought by former general contractor PCL Construction Services, Inc. over the completed expansion of the Monarch Casino Resort Spa in Black Hawk, carries PCL's own asserted lien of roughly $45.5 million.",
+      significance: "The case shows that a mechanics' lien foreclosure against the real property itself can remain a live threat to an owner's title long after a money judgment has been entered in a parallel contract suit over the identical work -- here, a related 2019 Denver suit already produced a $74.6 million judgment against Monarch in February 2025. Owners and lenders financing hospitality and gaming expansions should track lien foreclosure actions separately from any companion damages litigation, since a stay in one case does not resolve exposure in the other.",
+      body: [
+        "Monarch Casino & Resort, Inc. (NASDAQ: MCRI) disclosed in its quarterly report filed October 30, 2026 that the judge presiding over a long-running mechanics' lien foreclosure action in Gilpin County, Colorado lifted a litigation stay effective September 16, 2026, and set a case management conference for January 22, 2027. The order revives a nearly five-year-old dispute between the casino operator and its former general contractor, PCL Construction Services, Inc., over unpaid work on the completed expansion of the Monarch Casino Resort Spa in Black Hawk, Colorado.",
+        "The underlying fight traces back to the casino's multi-year expansion project, which added a hotel tower, gaming floor, and event space to the Black Hawk property roughly an hour west of Denver. PCL first sued Monarch Growth Inc. and its Colorado subsidiaries in Denver District Court in August 2019, alleging the company refused to pay for construction services rendered. Monarch answered with counterclaims alleging PCL breached the construction contract, duties of good faith and fair dealing, and express and implied warranties, and separately alleged PCL and its subcontractors made fraudulent or negligent misrepresentations the company relied on. That dispute, now known as the First Denver Lawsuit, proceeded to trial, and in February 2025 a Denver judge awarded PCL and four subcontractors $74.6 million in damages for Monarch's refusal to pay for completed work.",
+        "Separately, PCL filed a mechanics' lien foreclosure action in March 2021 in the District Court for Gilpin County, the county where the Black Hawk property sits, seeking to foreclose liens against the casino property itself rather than pursue a straight breach-of-contract judgment. That case, captioned PCL Construction Services, Inc. v. Monarch Growth Inc., et al., No. 2021CV30006, named Monarch and its Colorado subsidiaries as defendants, with PCL's own asserted lien amounting to roughly $45.5 million and additional subcontractor liens pushing the total claimed closer to $50 million. The Gilpin case had been stayed, likely pending resolution of the overlapping Denver litigation, until the September 2026 order lifting it at the request of one of the lien claimants. Monarch, for its part, filed a third action, the Second Denver Lawsuit, No. 2023CV30458, against PCL in February 2023, continuing to press its own claims arising from the same expansion.",
+        "Monarch's 10-Q states the company is currently unable to determine the probability of the outcome or reasonably estimate the loss or gain, if any, from the newly reactivated Gilpin lien case, even though a related judgment already running into the tens of millions of dollars has been entered against the company in a companion proceeding over the identical construction work. That disclosure underscores how a lien foreclosure against the real property itself remains a live threat to an owner's title and operations even after a money judgment has been entered in a parallel suit, since a lien claimant can pursue both remedies until one is formally resolved or released.",
+        "The case also illustrates the layered risk construction lien law creates for large hospitality and gaming developments. A general contractor's mechanics' lien attaches directly to the real property, giving the contractor leverage independent of whatever happens in a contract-damages lawsuit, and in Colorado, as in most states, a stayed lien case can be revived years later at a lien claimant's request, as happened here. Owners of large hospitality, gaming, and mixed-use developments should track mechanics' lien foreclosure actions separately from any parallel breach-of-contract litigation over the same project, recognize that a money judgment in a companion contract case does not extinguish a contractor's or subcontractor's separate lien rights against the property itself, and budget for the possibility of both a damages award and a lien foreclosure arising from the same dispute, since expansion and renovation projects at operating hospitality properties can carry lien exposure that resurfaces years after substantial completion, particularly where litigation has gone dormant under a stay rather than being dismissed or settled."
+      ],
+      judge: null,
+      parties: [
+        {
+          name: "PCL Construction Services, Inc.",
+          role: "Plaintiff/Lien Claimant"
+        },
+        {
+          name: "Monarch Growth Inc.",
+          role: "Defendant"
+        },
+        {
+          name: "Monarch Casino & Resort, Inc.",
+          role: "Defendant"
+        },
+        {
+          name: "Monarch Black Hawk, Inc.",
+          role: "Defendant"
+        }
+      ],
+      tags: [
+        "mechanics-lien",
+        "construction",
+        "hospitality",
+        "colorado",
+        "casino"
+      ],
+      timeline: [
+        {
+          when: "August 2019",
+          label: "PCL Construction sues Monarch Growth Inc. in Denver District Court over unpaid expansion work (First Denver Lawsuit)"
+        },
+        {
+          when: "March 26, 2021",
+          label: "PCL files a mechanics' lien foreclosure action in Gilpin County District Court (the Gilpin Lawsuit), No. 2021CV30006"
+        },
+        {
+          when: "February 9, 2023",
+          label: "Monarch sues PCL in Denver District Court (the Second Denver Lawsuit), No. 2023CV30458"
+        },
+        {
+          when: "February 2025",
+          label: "Denver judge awards PCL and four subcontractors $74.6 million in the First Denver Lawsuit"
+        },
+        {
+          when: "September 1, 2026",
+          label: "Gilpin County judge lifts the stay in the lien foreclosure action at a lien claimant's request, effective September 16, 2026",
+          current: true
+        },
+        {
+          when: "January 22, 2027",
+          label: "Case management conference set in the Gilpin Lawsuit",
+          upcoming: true
+        }
+      ]
+    },
+    {
+      id: "live-357",
+      seoTitle: "540 W. Madison Chicago: $310M CMBS Foreclosure Suit",
+      seoDescription: "A CMBS trustee sued to foreclose on 540 W. Madison in Chicago's West Loop after its $310M+ senior loan matured unpaid, despite the tower being 81% leased.",
+      addedDate: "2026-10-31",
+      title: "CMBS Trustee Hits West Loop's 540 W. Madison With $310 Million Foreclosure Suit",
+      brief: "A bondholder trustee sued to foreclose on 540 W. Madison, a 1.15M-square-foot, 81%-leased Chicago office tower, after its senior loan matured unpaid in September 2026.",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-27",
+      jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      state: "IL",
+      propertyType: "Office",
+      property: {
+        name: "540 West Madison",
+        address: "540 W. Madison St.",
+        city: "Chicago",
+        state: "IL"
+      },
+      amount: "$310 million foreclosure suit following a maturity default on the senior loan",
+      amountUsd: 310000000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/10/27/west-loop-office-tower-with-faces-310m-foreclosure/",
+      summary: "A trustee representing bondholders on the senior mortgage loan secured by 540 W. Madison Street, a 1.15-million-square-foot, 81%-leased Chicago office tower, filed a $310 million foreclosure suit in Cook County Circuit Court against ownership entity 540 West Madison Owner LLC after the loan matured unpaid in September 2026. The building reportedly generates over $18 million in annual net cash flow against roughly $5.3 million in debt service, making this a maturity default rather than a cash-flow default.",
+      significance: "The filing illustrates that occupancy and operating performance no longer reliably predict default risk in the current office-lending cycle: a well-leased, cash-flow-positive building can still face foreclosure if it cannot refinance a legacy loan sized to a valuation the market no longer supports. Owners approaching their own loan maturities should stress-test refinancing feasibility well before the maturity date, and lenders should expect more maturity-default foreclosures on operationally healthy office assets financed at prior-cycle valuations.",
+      body: [
+        "A trustee representing bondholders on the senior mortgage loan secured by 540 W. Madison Street, a 1.15-million-square-foot office tower in Chicago's West Loop, filed a $310 million foreclosure lawsuit in the Circuit Court of Cook County, Illinois, against the ownership entity, 540 West Madison Owner LLC. The suit, reported October 27, 2026, says the loan was not repaid when it reached its stated maturity in September 2026, triggering the default underlying the foreclosure action.",
+        "What makes the filing notable is that it targets a building that, by most conventional measures, is performing. The tower is roughly 81% leased, and according to loan-servicing figures cited in the reporting, the property generated more than $18 million in net cash flow against a $5.3 million annual debt-service obligation on the senior loan, a debt-service coverage ratio most lenders would consider healthy. The default here is not a cash-flow default but a maturity default: the loan simply came due and the ownership group was unable, or unwilling, to refinance or pay it off at the stated amount.",
+        "The building has a well-documented capital history. A group of New York investors bought the property from Bank of America in December 2012 for roughly $350 million, and the ownership, led by Boca Raton-based Third Millennium Group, refinanced the asset with a $325 million loan in 2016 that was reportedly underwritten against an appraised value of around $591 million at the time. Reporting on the new foreclosure suit notes that recent sales of comparable downtown Chicago office towers suggest the building's current market value has fallen well short of that 2016 appraisal, a gap that, if accurate, would leave the ownership entity underwater on the loan even though the building itself continues to throw off substantial cash flow from its existing tenant roster.",
+        "That dynamic, a well-leased, cash-generating asset nonetheless facing foreclosure because it cannot refinance a legacy loan sized to a since-evaporated valuation, has become one of the defining patterns of the current office-lending cycle. Lenders and special servicers are increasingly willing to pursue foreclosure on maturity defaults even where a borrower can continue servicing debt at the old loan's interest rate, because the real question is whether the borrower can refinance or repay the full principal balance at maturity. A $325 million loan underwritten against a $591 million valuation implied roughly 55% leverage at origination, a level that would ordinarily be considered conservative; if current market pricing has in fact fallen well below that appraisal, the loan-to-value ratio today could be approaching or exceeding 100%, leaving the sponsor with little practical incentive to contribute fresh equity to cure the default rather than negotiate a deed-in-lieu or let the lender take the keys through foreclosure.",
+        "Commercial property owners, developers, and their counsel should treat this filing as a data point in an ongoing, market-wide recalibration: a maturity default on a performing asset is a sign of how far office valuations have moved since the mid-2020s refinancing wave, not necessarily a sign of mismanagement, and owners approaching their own loan maturities should stress-test refinancing feasibility well before the maturity date rather than assume continued occupancy and cash flow will be enough to carry a loan across the finish line. Lenders, in turn, should expect more of these filings on assets that look healthy on an operating basis but were financed against valuations the market no longer supports, and sponsors facing a similar maturity wall should begin refinancing or recapitalization discussions well in advance of a loan's maturity date rather than wait for a default notice to start the conversation."
+      ],
+      judge: null,
+      parties: [
+        {
+          name: "540 West Madison Owner LLC",
+          role: "Borrower/Defendant"
+        }
+      ],
+      tags: [
+        "cmbs",
+        "office",
+        "foreclosure",
+        "chicago",
+        "maturity-default"
+      ],
+      timeline: [
+        {
+          when: "December 2012",
+          label: "A group of New York investors buys 540 W. Madison from Bank of America for roughly $350 million"
+        },
+        {
+          when: "2016",
+          label: "Ownership refinances the tower with a $325 million senior loan against a reported $591 million appraisal"
+        },
+        {
+          when: "September 2026",
+          label: "The senior loan reaches its stated maturity date unpaid"
+        },
+        {
+          when: "October 27, 2026",
+          label: "A bondholder trustee files a $310 million foreclosure suit in Cook County Circuit Court",
+          current: true
+        }
+      ]
+    },
+    {
+      id: "live-358",
+      seoTitle: "River North Chicago: $9M Foreclosure, $2.9M Guaranty Suit",
+      seoDescription: "Old Second National Bank sued to foreclose a River North Chicago building and pursue a $2.9M personal guaranty claim against investor Marc Bushala.",
+      addedDate: "2026-10-31",
+      title: "Old Second National Bank Sues to Foreclose River North Building, Pursues $2.9M Personal Guaranty Claim",
+      brief: "Old Second National Bank sued to foreclose a River North Chicago building owed roughly $9 million, while separately pursuing a $2.9 million personal guaranty claim against the investor behind the defaulted loan.",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-26",
+      jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      state: "IL",
+      propertyType: "Retail",
+      property: {
+        name: "400 N. State Street",
+        address: "400 N. State St.",
+        city: "Chicago",
+        state: "IL"
+      },
+      amount: "$9 million foreclosure suit, including a separate $2.9 million personal guaranty claim",
+      amountUsd: 9000000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/10/29/lender-sues-to-foreclose-on-river-north-building/",
+      summary: "Old Second National Bank filed a foreclosure suit in Cook County Circuit Court against Great Street LLC over a River North building at 400 N. State Street, alleging roughly $9 million owed as of October 21, 2026. The bank is separately pursuing $2.9 million from the investor behind the entity personally under a loan guaranty, and has named MAB Capital Management and WFB Gift as additional defendants.",
+      significance: "The dual-track foreclosure-plus-guaranty strategy is now standard in commercial mortgage defaults: it gives a lender a second source of recovery independent of the property's eventual sale price and pressures a guarantor to negotiate before litigation advances. Owners and sponsors who signed personal guaranties should recognize that a struggling property can no longer be treated as a contained, non-recourse problem once a guaranty is in the mix.",
+      body: [
+        "Old Second National Bank filed a foreclosure lawsuit in the Circuit Court of Cook County, Illinois, against Great Street LLC over a commercial building at 400 N. State Street in Chicago's River North neighborhood, with the filing first reported October 29, 2026. The bank's complaint, filed October 26, 2026, says Great Street LLC owed roughly $9 million on the underlying loan as of October 21, 2026, with interest continuing to accrue. Beyond seeking foreclosure and a court-ordered sale of the property, the bank is separately pursuing $2.9 million from the investor behind the borrowing entity personally under a loan guaranty, and has also named MAB Capital Management and WFB Gift as defendants.",
+        "Great Street LLC is an entity registered to a Chicago address tied to the investor's Spirits Investment Partners platform. The building itself has an active redevelopment angle: city permits have already been approved for a roughly $3 million conversion of the property into a restaurant, meaning the foreclosure complaint lands in the middle of what was intended to be a value-add repositioning rather than a simple vacant or distressed holding.",
+        "The dual-track structure of the complaint, a foreclosure claim against the real property paired with a separate breach-of-guaranty claim against the individual investor, reflects a now-standard lender strategy in commercial mortgage defaults. Foreclosing on the collateral alone often leaves a lender exposed to a shortfall if the property's value, or its eventual sale price, does not cover the full loan balance plus accrued interest, fees, and costs. A personal guaranty, where one exists, gives the lender a second source of recovery independent of the property's ultimate sale price, and pursuing both remedies simultaneously, rather than waiting to see how the foreclosure plays out, preserves the lender's position and puts pressure on the guarantor to negotiate a resolution before the litigation advances further.",
+        "For River North specifically, the filing adds to a string of recent commercial foreclosure actions in the neighborhood, as lenders work through a broader wave of maturing and underperforming loans on smaller commercial buildings in Chicago's downtown-adjacent submarkets. Unlike the large, institutionally owned towers that dominate headlines about Chicago office distress, buildings like 400 N. State Street tend to be owned by smaller private investment vehicles and individual sponsors, who are more likely to have signed personal guaranties when the original loan was underwritten, and are therefore more exposed when a lender decides to enforce the full range of its remedies rather than negotiate a modification. The approved restaurant redevelopment plan adds a wrinkle, since a foreclosure can disrupt or delay a permitted redevelopment project regardless of how close it was to breaking ground: a receiver or foreclosing lender typically has little incentive to advance a borrower's redevelopment plans during active litigation, and a subsequent buyer at a foreclosure sale may or may not choose to pursue the same permitted use.",
+        "Property owners and sponsors facing similar pressure should review their guaranty obligations carefully before a loan matures or goes into default, since a personal guaranty materially changes the calculus of how a default plays out: an owner can no longer treat a struggling property as a contained, non-recourse problem once a guaranty is in the mix, and should budget for the possibility that a lender will pursue the guarantor's personal assets in parallel with foreclosing on the property itself. Investors structuring commercial acquisitions through single-purpose entities should also recognize that a guaranty, by design, pierces that liability shield, and should negotiate guaranty caps, burn-off provisions, or carve-outs limiting personal exposure at the time the loan is originated rather than after a default has already occurred. Tenants, contractors, or prospective operators with a stake in a building's planned redevelopment should likewise treat an active foreclosure filing as a signal to reassess timelines, since litigation can stall permitted projects for months or years depending on how aggressively the parties litigate and whether a receiver is appointed to manage the property in the interim."
+      ],
+      judge: null,
+      parties: [
+        {
+          name: "Old Second National Bank",
+          role: "Plaintiff/Lender"
+        },
+        {
+          name: "Great Street LLC",
+          role: "Defendant/Borrower"
+        },
+        {
+          name: "MAB Capital Management",
+          role: "Defendant"
+        },
+        {
+          name: "WFB Gift",
+          role: "Defendant"
+        }
+      ],
+      tags: [
+        "foreclosure",
+        "personal-guaranty",
+        "river-north",
+        "chicago",
+        "retail"
+      ],
+      timeline: [
+        {
+          when: "October 21, 2026",
+          label: "Bank calculates roughly $9 million owed on the defaulted loan"
+        },
+        {
+          when: "October 26, 2026",
+          label: "Old Second National Bank files its foreclosure and guaranty-enforcement complaint in Cook County Circuit Court",
+          current: true
+        }
       ]
     }
   ],
