@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T17:10:54+00:00",
+ "updatedAt": "2026-10-31T01:47:00+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -11,6 +11,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/75047643/zh-development-i-llc/",
    "docketId": 75047643,
    "slug": "zh-development-i-llc-flmb-6-26-bk-08515",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "BLACK IRIS PROPERTIES, LLC.",
+   "court": "United States Bankruptcy Court, E.D. California",
+   "courtId": "caeb",
+   "docketNumber": "26-26448",
+   "dateFiled": "2026-10-30",
+   "docketUrl": "https://www.courtlistener.com/docket/75050846/black-iris-properties-llc/",
+   "docketId": 75050846,
+   "slug": "black-iris-properties-llc-caeb-26-26448",
    "type": "Chapter 11 petition"
   },
   {
@@ -110,39 +121,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75024664/510-washington-street-llc/",
    "docketId": 75024664,
    "slug": "510-washington-street-llc-mdb-26-21902",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Wilton Pointe Apartments, LLC",
-   "court": "United States Bankruptcy Court, S.D. Florida.",
-   "courtId": "flsb",
-   "docketNumber": "26-24206",
-   "dateFiled": "2026-10-26",
-   "docketUrl": "https://www.courtlistener.com/docket/75022268/wilton-pointe-apartments-llc/",
-   "docketId": 75022268,
-   "slug": "wilton-pointe-apartments-llc-flsb-26-24206",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Pryor Legacy Properties, LLC",
-   "court": "United States Bankruptcy Court, S.D. Texas",
-   "courtId": "txsb",
-   "docketNumber": "26-37989",
-   "dateFiled": "2026-10-26",
-   "docketUrl": "https://www.courtlistener.com/docket/75018085/pryor-legacy-properties-llc/",
-   "docketId": 75018085,
-   "slug": "pryor-legacy-properties-llc-txsb-26-37989",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "8300 NW 166, LLC",
-   "court": "United States Bankruptcy Court, S.D. Florida.",
-   "courtId": "flsb",
-   "docketNumber": "26-24150",
-   "dateFiled": "2026-10-26",
-   "docketUrl": "https://www.courtlistener.com/docket/75017406/8300-nw-166-llc/",
-   "docketId": 75017406,
-   "slug": "8300-nw-166-llc-flsb-26-24150",
    "type": "Chapter 11 petition"
   }
  ]
