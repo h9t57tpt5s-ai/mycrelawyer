@@ -1024,6 +1024,24 @@
    "checkAfter": "2026-11-07",
    "status": "watching",
    "note": "prerender.yml will regenerate chapter-11/*.html and federal-cases/*.html from the changed builder after this push; verify the card appears on a live record page before judging. If calculatorViews7 still doesn't move meaningfully, the next untried calculator lever (per the 2026-10-16/23 notes' own pattern of trying a different kind of change after repeated placement-only attempts) would be something other than another link -- e.g. a visible real-case example embedded directly on a record/matter page rather than a CTA pointing away from it."
+  },
+  {
+   "id": "imp-045",
+   "date": "2026-10-31",
+   "track": "calculator",
+   "title": "Generalized Findings 1, 2 and decision 5 across all 123 saved result files; confirmed a new, sharper bug (G15 decision 8)",
+   "why": "Every numeric goal's lever was blocked this run (traffic: imp-038 until 2026-11-04; conversion: imp-033 until 2026-11-01, and follows7 is G17-diagnosed as structurally blocked regardless; calculator: imp-044 until 2026-11-07; news: on track). mostBehind put conversion next and untouched in the last 2 runs (imp-043, imp-044, both calculator), but its only unblocked real metric is follows7, not worth re-testing per G17. Picked up 2026-10-30's own next-time note: generalized the three oldest open G3/G15 findings (Finding 1, Finding 2, decision 5) across all 123 saved backtest result files (v4.3/v4.5/v6/v6.1), free, no API spend, reusing scripts/replay_backtest.py's own replay()/issue_range(). Finding 2 and decision 5 held at their existing case counts after hand-checking the scan's candidates (ruled out, not confirmed). The same overshoot method found two new cases (architectural-stainless-v-tm-partridge-creek-mall-2021, actual /bin/bash; franciscan-cvs-i69-2023, actual 4,000) of a sharper, distinct gap: a same-side dispositive defense/legal-bar issue with a probability band but no figures is dropped entirely from the mechanical sum instead of discounting the claim issue it would zero out.",
+   "files": [
+    "ops/calculator-proposals.md",
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "2d70f615ce3c3bfd7bf062a24d0f68f30debb190",
+   "metric": "whether Jeff has reviewed ops/calculator-proposals.md's 2026-10-31 (second run) entry (G15 decision 8); no goals.json number moves",
+   "window": "n/a - awaiting Jeff's review",
+   "baseline": {},
+   "checkAfter": "2026-11-07",
+   "status": "watching",
+   "note": "NEEDS JEFF: G15 now has 8 concrete decisions. No code changed (Jeff-gated, not cloud-deployable)."
   }
  ]
 }
