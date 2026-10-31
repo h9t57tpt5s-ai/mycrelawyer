@@ -12426,6 +12426,7 @@ const RELAW_DATA = {
       seoTitle: "540 W. Madison Chicago: $310M CMBS Foreclosure Suit",
       seoDescription: "A CMBS trustee sued to foreclose on 540 W. Madison in Chicago's West Loop after its $310M+ senior loan matured unpaid, despite the tower being 81% leased.",
       addedDate: "2026-10-31",
+      featured: true,
       title: "CMBS Trustee Hits West Loop's 540 W. Madison With $310 Million Foreclosure Suit",
       brief: "A bondholder trustee sued to foreclose on 540 W. Madison, a 1.15M-square-foot, 81%-leased Chicago office tower, after its senior loan matured unpaid in September 2026.",
       category: "lending-foreclosure",
@@ -12491,7 +12492,7 @@ const RELAW_DATA = {
     {
       id: "live-358",
       seoTitle: "River North Chicago: $9M Foreclosure, $2.9M Guaranty Suit",
-      seoDescription: "Old Second National Bank sued to foreclose a River North Chicago building and pursue a $2.9M personal guaranty claim against investor Marc Bushala.",
+      seoDescription: "Old Second National Bank sued to foreclose a River North Chicago building and pursue a $2.9M personal guaranty claim against the investor behind it.",
       addedDate: "2026-10-31",
       title: "Old Second National Bank Sues to Foreclose River North Building, Pursues $2.9M Personal Guaranty Claim",
       brief: "Old Second National Bank sued to foreclose a River North Chicago building owed roughly $9 million, while separately pursuing a $2.9 million personal guaranty claim against the investor behind the defaulted loan.",
