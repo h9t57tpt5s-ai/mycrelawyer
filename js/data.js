@@ -12559,6 +12559,56 @@ const RELAW_DATA = {
           current: true
         }
       ]
+    },
+    {
+      id: "live-359",
+      seoTitle: "Northshore Plaza TX Lease Fraud Suit vs Brixmor Ruled Time-Barred",
+      seoDescription: "Texas appeals court upheld summary judgment for Brixmor, ruling a dental tenant's square-footage fraud claim over a shopping-center lease was time-barred.",
+      addedDate: "2026-10-31",
+      title: "Texas Appeals Court: Dental Tenant's Square-Footage Fraud Claim Against Former Landlord Is Time-Barred",
+      brief: "A Texas appeals court ruled a dental practice's fraud and overcharge claims against its former shopping-center landlord Brixmor were filed too late, affirming summary judgment.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-29",
+      jurisdiction: "Thirteenth Court of Appeals, Corpus Christi-Edinburg, Texas",
+      state: "TX",
+      propertyType: "Retail",
+      property: {
+        name: "Northshore Plaza",
+        address: "1548 Wildcat Drive",
+        city: "Portland",
+        state: "TX"
+      },
+      amount: "Unspecified rent-overcharge and fraud damages (space leased as ~1,863 sq ft; tenant alleged true size was ~1,500 sq ft)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=8f1cbc83-0bb6-4419-8e05-2db94d5fdcde&coa=coa13&DT=Opinion&MediaID=340214cb-92d7-4b12-857d-2eae315e87e8",
+      summary: "The Texas Thirteenth Court of Appeals affirmed summary judgment for Brixmor GA Apollo II TX LP against Veena Dental PA, a tenant at the Northshore Plaza shopping center in Portland, Texas, that had sued Brixmor in 2024 alleging the landlord misrepresented its leased space as 1,863 square feet when it was actually about 1,500 square feet, resulting in years of rent overcharges. The court held Veena's breach-of-contract, fraud and DTPA claims were all barred by limitations, since Veena's own 2013 construction plans reflected the true, smaller square footage and made the discrepancy discoverable well before Veena measured the space in 2023.",
+      significance: "The ruling shows that a tenant's own records -- here, construction plans it commissioned at lease signing -- can defeat a later discovery-rule argument no matter when the tenant actually checks them against the lease. It also underscores how a landlord's standard assignment-and-release clause on a property sale can extinguish liability for a transferring landlord's alleged pre-sale misconduct once a successor assumes the lease, leaving a tenant to pursue a claim against an exited party.",
+      body: [
+        "A Texas appellate court has affirmed summary judgment for a commercial landlord accused of overcharging a dental-practice tenant by misrepresenting the size of its leased space, holding that the tenant's breach-of-contract, fraud, and consumer-protection claims were filed years too late, and that the landlord in question had sold the shopping center, and been released from the lease, long before the tenant ever complained. The Thirteenth Court of Appeals' October 29, 2026 decision in Veena Dental PA v. Brixmor GA Apollo II TX LP is a reminder to both commercial landlords and tenants that a lease's assignment-and-release provisions, combined with ordinary limitations rules, can foreclose a claim no matter how sympathetic the underlying factual dispute looks.",
+        "In March 2013, Veena Dental PA leased roughly 1,863 square feet of retail space at 1548 Wildcat Drive in Portland, Texas, part of the Northshore Plaza shopping center, from Brixmor GA Apollo II TX LP, intending to build out and operate a dental office. The parties negotiated a per-square-foot rental rate and extended the lease by amendment in September 2018. That same year, Brixmor sold Northshore Plaza to a successor entity, Northshore Plaza LP, assigning Veena's lease and triggering a provision under which Brixmor was released from all further liability and obligations once the buyer assumed them.",
+        "Five years later, in 2023, Veena measured its space and says it discovered the true square footage was closer to 1,500 square feet, matching the dimensions shown on the dental office's own 2013 construction plans, rather than the 1,863 square feet stated in the lease. Veena demanded reimbursement for what it characterized as years of rent overpayments tied to the inflated square footage, and when Brixmor refused, filed suit on May 22, 2024, asserting breach of contract (more accurately, the court later noted, fraudulent inducement), common-law fraud, and violations of the Texas Deceptive Trade Practices Act. Brixmor moved for summary judgment on limitations grounds, and the trial court in San Patricio County granted the motion in September 2025.",
+        "Writing for a unanimous panel, Justice Ysmael D. Fonseca held that the record conclusively established the limitations defense. Texas gives a plaintiff four years to sue for breach of contract or fraud and two years for a DTPA violation, but a fraud or DTPA claim's clock does not start until the plaintiff discovers, or in the exercise of reasonable diligence should have discovered, the wrongful act under the discovery rule. The court found that rule couldn't rescue Veena's claims: in discovery, Veena had admitted that its own 2013 construction plans, prepared before it ever opened for business, reflected the space's true, smaller dimensions, so the actual square footage was reasonably discoverable well before 2023 regardless of when Veena actually got around to measuring the space. With the accrual date pinned to the March 2013 lease signing, every claim was untimely, and the court affirmed summary judgment in full.",
+        "The decision illustrates two risks that recur across commercial leasing disputes: a tenant cannot rely on the discovery rule to excuse years of inattention to information already in its own files, and a seller-landlord's standard assignment-and-release clause can extinguish liability for a transferring landlord's own alleged pre-sale misconduct once a successor assumes the lease. For commercial tenants, the practical lesson is to verify stated square footage against their own architectural drawings or a physical measurement at signing rather than relying on the landlord's figures, since a later claim will be measured against what the tenant's own contemporaneous records show was knowable; landlords selling a leased property should likewise confirm that assignment-and-release language is drafted to survive exactly this kind of after-the-fact dispute, and both sides should treat the limitations clock for a lease-related misrepresentation claim as running from signing rather than from whenever the harm happens to be noticed."
+      ],
+      judge: "Ysmael D. Fonseca",
+      parties: [
+        { name: "Veena Dental PA", role: "Appellant/Tenant" },
+        { name: "Brixmor GA Apollo II TX LP", role: "Appellee/Landlord" }
+      ],
+      tags: ["lease-dispute", "shopping-center", "statute-of-limitations", "fraud", "retail"],
+      docketUrl: "https://www.courtlistener.com/opinion/11051718/veena-dental-pa-v-brixmor-ga-apollo-ii-tx-lp/",
+      docketLabel: "CourtListener opinion",
+      timeline: [
+        { when: "March 23, 2013", label: "Veena Dental leases the Premises from Brixmor at a stated ~1,863 sq ft" },
+        { when: "September 2018", label: "Lease extended by amendment" },
+        { when: "November 2018", label: "Brixmor sells Northshore Plaza and assigns the lease to Northshore Plaza LP, triggering the lease's release provision" },
+        { when: "2023", label: "Veena measures the space and alleges the true size is about 1,500 sq ft" },
+        { when: "May 22, 2024", label: "Veena sues Brixmor for breach of contract, fraud and DTPA violations" },
+        { when: "September 30, 2025", label: "Trial court grants Brixmor summary judgment on limitations grounds" },
+        { when: "October 29, 2026", label: "Thirteenth Court of Appeals affirms summary judgment for Brixmor", current: true }
+      ]
     }
   ],
 
@@ -13217,7 +13267,8 @@ const RELAW_DATA = {
     { jurisdiction: "Appellate Division, Third Department, New York", url: "https://www.nycourts.gov/courts/ad3/" },
     { jurisdiction: "Indiana Court of Appeals", url: "https://www.in.gov/courts/appeals/" },
     { jurisdiction: "Court of Appeals of Tennessee", url: "https://www.tncourts.gov/courts/court-appeals" },
-    { jurisdiction: "Court of Appeals of Kentucky", url: "https://kycourts.gov/Courts/Court-of-Appeals/" }
+    { jurisdiction: "Court of Appeals of Kentucky", url: "https://kycourts.gov/Courts/Court-of-Appeals/" },
+    { jurisdiction: "Thirteenth Court of Appeals, Corpus Christi-Edinburg, Texas", url: "https://www.txcourts.gov/13thcoa/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -13673,6 +13724,14 @@ const RELAW_DATA = {
       court: "Court of Appeals of Kentucky",
       background: "Appointed to the Kentucky Court of Appeals, 1st Appellate District, Division 2, by Governor Andy Beshear in April 2024 to fill the vacancy created by Judge Donna Dixon's retirement, and elected to the seat in November 2024. Previously served as judge of the Daviess Circuit Court and, from 2001 to 2019, as a Daviess County District Court judge, the first woman to hold either position in the county.",
       bioUrl: "https://kycourts.gov/Courts/Court-of-Appeals/Pages/1st-Appellate-District-Division-2.aspx"
+    },
+    {
+      name: "Ysmael D. Fonseca",
+      slug: "ysmael-d-fonseca",
+      title: "Justice — authored the panel opinion",
+      court: "Thirteenth Court of Appeals, Corpus Christi-Edinburg, Texas",
+      background: "Elected to Place 4 of the Thirteenth Court of Appeals on November 5, 2024, with his term beginning January 1, 2025. By appointment of Governor Greg Abbott, previously served as judge of the 464th District Court of Hidalgo County from 2019 to 2020 and of the 476th District Court of Hidalgo County from 2023 to 2024.",
+      bioUrl: "https://www.txcourts.gov/13thcoa/about-the-court/justices/justice-ysmael-d-fonseca/"
     }
   ],
 
