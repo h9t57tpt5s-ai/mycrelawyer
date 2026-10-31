@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T16:14:33+00:00",
+ "updatedAt": "2026-10-31T15:30:49+00:00",
  "source": "CourtListener RECAP archive (federal courts only): orders, judgments, dismissals and closings on recent commercial real estate Chapter 11 dockets. Entries appear when CourtListener receives them, so some are late or missing.",
  "errors": [],
  "dockets": {
@@ -1326,14 +1326,22 @@
    "lastEntryDate": "2026-10-06"
   },
   "74903821": {
-   "entries": [],
-   "checkedAt": "2026-10-30",
+   "entries": [
+    {
+     "date": "2026-10-31",
+     "number": 13,
+     "text": "BNC Certificate of Notice - Order",
+     "url": "https://www.courtlistener.com/docket/74903821/13/ppw-realty-1414-w-3rd-st-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-31",
    "slug": "ppw-realty-1414-w-3rd-st-llc-njb-26-21190",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21190",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74903821/ppw-realty-1414-w-3rd-st-llc/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-10-31"
   },
   "74904222": {
    "entries": [
@@ -1352,7 +1360,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "lee-properties-sc-llc-ncmb-26-10768",
    "court": "Bankr. M.D.N.C.",
    "docketNumber": "26-10768",
@@ -1377,7 +1385,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "sunset-properties-llc-miwb-26-03127",
    "court": "Bankr. W.D. Mich.",
    "docketNumber": "26-03127",
@@ -1387,7 +1395,7 @@
   },
   "74910883": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "lvlm-murray-properties-llc-pawb-26-22766",
    "court": "Bankr. W.D. Pa.",
    "docketNumber": "26-22766",
@@ -1405,7 +1413,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "university-campus-hotel-fund-l-p-a-california-l-cacb-6-26-bk-18337",
    "court": "Bankr. C.D. Cal.",
    "docketNumber": "6:26-bk-18337",
@@ -1437,7 +1445,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "maxkar-properties-llc-vaeb-26-34099",
    "court": "Bankr. E.D. Va.",
    "docketNumber": "26-34099",
@@ -1447,6 +1455,34 @@
   },
   "74914151": {
    "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 129,
+     "text": "Notice of hearing",
+     "url": "https://www.courtlistener.com/docket/74914151/129/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-30",
+     "number": 127,
+     "text": "Order on motion to pay tax debts",
+     "url": "https://www.courtlistener.com/docket/74914151/127/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-30",
+     "number": 126,
+     "text": "Order on motion to pay",
+     "url": "https://www.courtlistener.com/docket/74914151/126/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-30",
+     "number": 125,
+     "text": "Order on first day motion",
+     "url": "https://www.courtlistener.com/docket/74914151/125/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-30",
      "number": 124,
@@ -1474,37 +1510,9 @@
      "text": "Notice (generic)",
      "url": "https://www.courtlistener.com/docket/74914151/116/american-hospitality-properties-reit-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-27",
-     "number": 104,
-     "text": "Proposed Order",
-     "url": "https://www.courtlistener.com/docket/74914151/104/1/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-27",
-     "number": 103,
-     "text": "Proposed Order",
-     "url": "https://www.courtlistener.com/docket/74914151/103/1/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-27",
-     "number": 103,
-     "text": "Motion to dismiss case",
-     "url": "https://www.courtlistener.com/docket/74914151/103/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-20",
-     "number": 94,
-     "text": "Notice of hearing",
-     "url": "https://www.courtlistener.com/docket/74914151/94/american-hospitality-properties-reit-inc/",
-     "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "american-hospitality-properties-reit-inc-txnb-26-80071",
    "court": "Bankr. N.D. Tex.",
    "docketNumber": "26-80071",
@@ -1529,7 +1537,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "american-hospitality-properties-reit-ii-inc-txnb-26-80072",
    "court": "Bankr. N.D. Tex.",
    "docketNumber": "26-80072",
@@ -1539,6 +1547,13 @@
   },
   "74919063": {
    "entries": [
+    {
+     "date": "2026-10-31",
+     "number": 21,
+     "text": "BNC Certificate of Notice (Order setting status hearing)",
+     "url": "https://www.courtlistener.com/docket/74919063/21/dmk-real-estate-holdings-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-15",
      "number": 18,
@@ -1554,16 +1569,23 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "dmk-real-estate-holdings-llc-pamb-5-26-bk-02893",
    "court": "Bankr. M.D. Penn.",
    "docketNumber": "5:26-bk-02893",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74919063/dmk-real-estate-holdings-llc/",
-   "lastEntryDate": "2026-10-15"
+   "lastEntryDate": "2026-10-31"
   },
   "74919314": {
    "entries": [
+    {
+     "date": "2026-10-31",
+     "number": 11,
+     "text": "Certificate of Mailing by BNC of Order on Motion to Extend Time (406)",
+     "url": "https://www.courtlistener.com/docket/74919314/11/200-arpeggio-way-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-27",
      "number": 10,
@@ -1579,16 +1601,23 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "200-arpeggio-way-llc-ganb-26-63452",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63452",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74919314/200-arpeggio-way-llc/",
-   "lastEntryDate": "2026-10-27"
+   "lastEntryDate": "2026-10-31"
   },
   "74922018": {
    "entries": [
+    {
+     "date": "2026-10-31",
+     "number": 12,
+     "text": "Certificate of Mailing by BNC of Order and Notice",
+     "url": "https://www.courtlistener.com/docket/74922018/12/cornerstone-development-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-14",
      "number": 11,
@@ -1632,16 +1661,23 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "cornerstone-development-llc-ganb-26-63513",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63513",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922018/cornerstone-development-llc/",
-   "lastEntryDate": "2026-10-14"
+   "lastEntryDate": "2026-10-31"
   },
   "74922099": {
    "entries": [
+    {
+     "date": "2026-10-31",
+     "number": 11,
+     "text": "Certificate of Mailing by BNC of Order on Motion to Extend Time (406)",
+     "url": "https://www.courtlistener.com/docket/74922099/11/janam-taccoa-lodging-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-26",
      "number": 10,
@@ -1657,13 +1693,13 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "janam-taccoa-lodging-llc-ganb-26-63515",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63515",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
-   "lastEntryDate": "2026-10-26"
+   "lastEntryDate": "2026-10-31"
   },
   "74922581": {
    "entries": [
@@ -1675,7 +1711,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "travis-property-owner-llc-txnb-26-90220",
    "court": "Bankr. N.D. Tex.",
    "docketNumber": "26-90220",
@@ -1685,7 +1721,7 @@
   },
   "74922668": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "zap-realty-corp-nyeb-1-26-44683",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44683",
@@ -1695,7 +1731,7 @@
   },
   "74923277": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "teas-ridge-retail-center-i-llc-txsb-26-37551",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-37551",
@@ -1748,7 +1784,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "fortapache-realty-llc-ganb-26-63569",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63569",
@@ -1758,6 +1794,13 @@
   },
   "74923337": {
    "entries": [
+    {
+     "date": "2026-10-31",
+     "number": 13,
+     "text": "Certificate of Mailing by BNC of Order of Dismissal",
+     "url": "https://www.courtlistener.com/docket/74923337/13/lesam-realty-llc/",
+     "ruling": true
+    },
     {
      "date": "2026-10-28",
      "number": 12,
@@ -1808,17 +1851,17 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "lesam-realty-llc-ganb-26-63571",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63571",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
-   "lastEntryDate": "2026-10-28"
+   "lastEntryDate": "2026-10-31"
   },
   "74923616": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "savage-squad-properties-llc-txsb-26-37555",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-37555",
@@ -1836,7 +1879,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "lza-real-properties-east-llc-txwb-26-12003",
    "court": "Bankr. W.D. Tex.",
    "docketNumber": "26-12003",
@@ -1861,7 +1904,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "keinan-properties-llc-ksb-26-21557",
    "court": "Bankr. D. Kan.",
    "docketNumber": "26-21557",
@@ -1871,6 +1914,13 @@
   },
   "74928132": {
    "entries": [
+    {
+     "date": "2026-10-31",
+     "number": 24,
+     "text": "BNC Certificate of Notice - Order",
+     "url": "https://www.courtlistener.com/docket/74928132/24/jrm-real-estate-holdings-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-26",
      "number": 22,
@@ -1893,13 +1943,13 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "jrm-real-estate-holdings-llc-njb-26-21388",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21388",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74928132/jrm-real-estate-holdings-llc/",
-   "lastEntryDate": "2026-10-26"
+   "lastEntryDate": "2026-10-31"
   },
   "74928372": {
    "entries": [
@@ -1911,7 +1961,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "4210-w-carmen-st-llc-flmb-8-26-bk-09102",
    "court": "Bankr. M.D. Fla.",
    "docketNumber": "8:26-bk-09102",
@@ -1921,7 +1971,7 @@
   },
   "74929738": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "limo-realty-corp-nyeb-1-26-44694",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44694",
@@ -1967,7 +2017,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "total-care-medical-center-llc-scb-26-04676",
    "court": "Bankr. D.S.C.",
    "docketNumber": "26-04676",
@@ -1977,7 +2027,7 @@
   },
   "74937404": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "148-bay-43rd-llc-nyeb-1-26-44720",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44720",
@@ -2023,7 +2073,7 @@
      "ruling": true
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "315-south-beverly-drive-llc-cacb-2-26-bk-20221",
    "court": "Bankr. C.D. Cal.",
    "docketNumber": "2:26-bk-20221",
@@ -2048,7 +2098,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "access-real-estate-holdings-llc-flmb-8-26-bk-09241",
    "court": "Bankr. M.D. Fla.",
    "docketNumber": "8:26-bk-09241",
@@ -2058,7 +2108,7 @@
   },
   "74950114": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "2911-creative-l-l-c-nceb-26-04620",
    "court": "Bankr. E.D.N.C.",
    "docketNumber": "26-04620",
@@ -2068,7 +2118,7 @@
   },
   "74950462": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "a-j-realty-miami-llc-flsb-26-23604",
    "court": "Bankr. S.D. Florida",
    "docketNumber": "26-23604",
@@ -2077,28 +2127,44 @@
    "lastEntryDate": null
   },
   "74952134": {
-   "entries": [],
-   "checkedAt": "2026-10-30",
+   "entries": [
+    {
+     "date": "2026-10-31",
+     "number": 5,
+     "text": "BNC Certificate of Notice - Order",
+     "url": "https://www.courtlistener.com/docket/74952134/5/30-quabeck-avenue-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-31",
    "slug": "30-quabeck-avenue-llc-njb-26-21578",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21578",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74952134/30-quabeck-avenue-llc/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-10-31"
   },
   "74960812": {
-   "entries": [],
-   "checkedAt": "2026-10-30",
+   "entries": [
+    {
+     "date": "2026-10-31",
+     "number": 7,
+     "text": "BNC Certificate of Notice - Order",
+     "url": "https://www.courtlistener.com/docket/74960812/7/nrs-realty-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-31",
    "slug": "n-r-s-realty-llc-njb-26-21651",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21651",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74960812/nrs-realty-llc/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-10-31"
   },
   "74969627": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "1333-prospect-corp-nyeb-1-26-44834",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44834",
@@ -2108,7 +2174,7 @@
   },
   "74972033": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "emcee-realty-llc-nyeb-1-26-44843",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44843",
@@ -2118,7 +2184,7 @@
   },
   "74976375": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "madison-development-llc-nysb-26-12467",
    "court": "Bankr. S.D.N.Y.",
    "docketNumber": "26-12467",
@@ -2128,7 +2194,7 @@
   },
   "74978675": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "1162-st-john-s-place-llc-nyeb-1-26-44853",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44853",
@@ -2138,7 +2204,7 @@
   },
   "74978793": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "edson-avenue-development-group-llc-nysb-26-23033",
    "court": "Bankr. S.D.N.Y.",
    "docketNumber": "26-23033",
@@ -2205,7 +2271,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "kdj-properties-llc-ndb-26-30893",
    "court": "Bankr. D.N.D.",
    "docketNumber": "26-30893",
@@ -2215,7 +2281,7 @@
   },
   "74988901": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "1065-amboy-avenue-llc-njb-26-21855",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21855",
@@ -2247,7 +2313,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "north-eastern-expansion-development-corp-nynb-26-11215",
    "court": "Bankr. N.D.N.Y.",
    "docketNumber": "26-11215",
@@ -2257,7 +2323,7 @@
   },
   "74990809": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "780-e-24th-street-llc-njb-26-21876",
    "court": "Bankr. D.N.J.",
    "docketNumber": "26-21876",
@@ -2267,7 +2333,7 @@
   },
   "74993843": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "horizon-property-partnership-a-texas-partnership-txsb-26-37869",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-37869",
@@ -2277,7 +2343,7 @@
   },
   "74994142": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "lord-properties-ii-llc-flsb-26-23975",
    "court": "Bankr. S.D. Florida",
    "docketNumber": "26-23975",
@@ -2295,7 +2361,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "216-greene-ave-group-llc-nyeb-1-26-44894",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44894",
@@ -2320,7 +2386,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "69-79-west-main-st-llc-nysb-26-23052",
    "court": "Bankr. S.D.N.Y.",
    "docketNumber": "26-23052",
@@ -2338,7 +2404,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "620-hudson-house-llc-nynb-26-11232",
    "court": "Bankr. N.D.N.Y.",
    "docketNumber": "26-11232",
@@ -2348,6 +2414,13 @@
   },
   "75011991": {
    "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 26,
+     "text": "Order And Notice Of Case Management Conference (initial order on ch11 cases)",
+     "url": "https://www.courtlistener.com/docket/75011991/26/hunt-properties-jackson-gp/",
+     "ruling": false
+    },
     {
      "date": "2026-10-28",
      "number": 22,
@@ -2363,17 +2436,17 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "hunt-properties-jackson-gp-tnwb-26-11592",
    "court": "Bankr. W.D. Tenn.",
    "docketNumber": "26-11592",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/75011991/hunt-properties-jackson-gp/",
-   "lastEntryDate": "2026-10-28"
+   "lastEntryDate": "2026-10-30"
   },
   "75014282": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "frama-realty-corp-ctb-26-50789",
    "court": "Bankr. D. Conn.",
    "docketNumber": "26-50789",
@@ -2383,7 +2456,7 @@
   },
   "75015879": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "krcm-1-realty-corp-nyeb-1-26-44940",
    "court": "Bankr. E.D.N.Y.",
    "docketNumber": "1-26-44940",
@@ -2393,7 +2466,7 @@
   },
   "75016013": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "5-star-tech-i-holdco-llc-txsb-26-90817",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90817",
@@ -2403,7 +2476,7 @@
   },
   "75016027": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "5-star-tech-ii-1-holdco-llc-txsb-26-90819",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90819",
@@ -2413,7 +2486,7 @@
   },
   "75016028": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "5-star-tech-i-propco-llc-txsb-26-90818",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90818",
@@ -2423,7 +2496,7 @@
   },
   "75016033": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "5-star-tech-ii-1-propco-llc-txsb-26-90820",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90820",
@@ -2433,7 +2506,7 @@
   },
   "75016035": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "5-star-tech-ii-4-holdco-llc-txsb-26-90821",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90821",
@@ -2443,7 +2516,7 @@
   },
   "75016067": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "5-star-tech-ii-4-propco-llc-txsb-26-90822",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90822",
@@ -2453,7 +2526,7 @@
   },
   "75016081": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "5-star-tech-i-l5-llc-txsb-26-90823",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-90823",
@@ -2463,6 +2536,13 @@
   },
   "75017380": {
    "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 14,
+     "text": "Dismissal of Case for Failure to File Initial Petition Doc Within 72 Hrs(Order/Notice)(VAN-162)(BNC)",
+     "url": "https://www.courtlistener.com/docket/75017380/14/hawaii-city-plaza-lp/",
+     "ruling": true
+    },
     {
      "date": "2026-10-26",
      "number": 4,
@@ -2478,16 +2558,23 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "hawaii-city-plaza-lp-cacb-2-26-bk-20765",
    "court": "Bankr. C.D. Cal.",
    "docketNumber": "2:26-bk-20765",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/75017380/hawaii-city-plaza-lp/",
-   "lastEntryDate": "2026-10-26"
+   "lastEntryDate": "2026-10-30"
   },
   "75017384": {
    "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 14,
+     "text": "Dismissal of Case for Failure to File Initial Petition Doc Within 72 Hrs(Order/Notice)(VAN-162)(BNC)",
+     "url": "https://www.courtlistener.com/docket/75017384/14/hawaii-ocean-plaza-lp/",
+     "ruling": true
+    },
     {
      "date": "2026-10-26",
      "number": 5,
@@ -2503,13 +2590,13 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "hawaii-ocean-plaza-lp-cacb-2-26-bk-20766",
    "court": "Bankr. C.D. Cal.",
    "docketNumber": "2:26-bk-20766",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/75017384/hawaii-ocean-plaza-lp/",
-   "lastEntryDate": "2026-10-26"
+   "lastEntryDate": "2026-10-30"
   },
   "75017406": {
    "entries": [
@@ -2528,7 +2615,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "8300-nw-166-llc-flsb-26-24150",
    "court": "Bankr. S.D. Florida",
    "docketNumber": "26-24150",
@@ -2538,7 +2625,7 @@
   },
   "75018085": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "pryor-legacy-properties-llc-txsb-26-37989",
    "court": "Bankr. S.D. Tex.",
    "docketNumber": "26-37989",
@@ -2556,7 +2643,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "wilton-pointe-apartments-llc-flsb-26-24206",
    "court": "Bankr. S.D. Florida",
    "docketNumber": "26-24206",
@@ -2574,7 +2661,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "510-washington-street-llc-mdb-26-21902",
    "court": "Bankr. D. Md.",
    "docketNumber": "26-21902",
@@ -2592,7 +2679,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "5717-ferguson-project-llc-cacb-2-26-bk-20848",
    "court": "Bankr. C.D. Cal.",
    "docketNumber": "2:26-bk-20848",
@@ -2602,7 +2689,7 @@
   },
   "75030501": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "13513-s-sam-moore-llc-mowb-26-41922",
    "court": "Bankr. W.D. Mo.",
    "docketNumber": "26-41922",
@@ -2620,7 +2707,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "southern-property-orlando-llc-flmb-6-26-bk-08412",
    "court": "Bankr. M.D. Fla.",
    "docketNumber": "6:26-bk-08412",
@@ -2630,7 +2717,7 @@
   },
   "75035427": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "1-solution-wellness-llc-flsb-26-24365",
    "court": "Bankr. S.D. Florida",
    "docketNumber": "26-24365",
@@ -2640,7 +2727,7 @@
   },
   "75035974": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "green-horizons-property-group-llc-ncwb-26-10254",
    "court": "Bankr. W.D.N.C.",
    "docketNumber": "26-10254",
@@ -2650,7 +2737,7 @@
   },
   "75036281": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "3326-chestnut-llc-canb-26-42203",
    "court": "Bankr. N.D. Cal.",
    "docketNumber": "26-42203",
@@ -2660,16 +2747,92 @@
   },
   "75044000": {
    "entries": [],
-   "checkedAt": "2026-10-30",
+   "checkedAt": "2026-10-31",
    "slug": "ascend-property-group-llc-nvb-26-16908",
    "court": "Bankr. D. Nev.",
    "docketNumber": "26-16908",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/75044000/ascend-property-group-llc/",
    "lastEntryDate": null
+  },
+  "75045108": {
+   "entries": [],
+   "checkedAt": "2026-10-31",
+   "slug": "greenwood-mall-realty-holding-llc-kywb-26-11017",
+   "court": "Bankr. W.D. Ky.",
+   "docketNumber": "26-11017",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/75045108/greenwood-mall-realty-holding-llc/",
+   "lastEntryDate": null
+  },
+  "75047643": {
+   "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 3,
+     "text": "Order Authorizing DIP to Operate Business",
+     "url": "https://www.courtlistener.com/docket/75047643/3/zh-development-i-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-31",
+   "slug": "zh-development-i-llc-flmb-6-26-bk-08515",
+   "court": "Bankr. M.D. Fla.",
+   "docketNumber": "6:26-bk-08515",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/75047643/zh-development-i-llc/",
+   "lastEntryDate": "2026-10-30"
+  },
+  "75050846": {
+   "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 3,
+     "text": "Incomplete Filing and NOI to Dismiss Case - Chapter 11",
+     "url": "https://www.courtlistener.com/docket/75050846/3/black-iris-properties-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-31",
+   "slug": "black-iris-properties-llc-caeb-26-26448",
+   "court": "Bankr. E.D. Cal.",
+   "docketNumber": "26-26448",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/75050846/black-iris-properties-llc/",
+   "lastEntryDate": "2026-10-30"
   }
  },
  "events": [
+  {
+   "key": "74923337:13:2026-10-31:certificate of mailing by bnc of order of dismissal",
+   "docketId": "74923337",
+   "date": "2026-10-31",
+   "kind": "ruling",
+   "text": "Certificate of Mailing by BNC of Order of Dismissal",
+   "entry": 13,
+   "url": "https://www.courtlistener.com/docket/74923337/13/lesam-realty-llc/",
+   "firstSeen": "2026-10-31"
+  },
+  {
+   "key": "75017380:14:2026-10-30:dismissal of case for failure to file initial petition doc within 72 hrs(order/notice)(van-162)(bnc)",
+   "docketId": "75017380",
+   "date": "2026-10-30",
+   "kind": "ruling",
+   "text": "Dismissal of Case for Failure to File Initial Petition Doc Within 72 Hrs(Order/Notice)(VAN-162)(BNC)",
+   "entry": 14,
+   "url": "https://www.courtlistener.com/docket/75017380/14/hawaii-city-plaza-lp/",
+   "firstSeen": "2026-10-31"
+  },
+  {
+   "key": "75017384:14:2026-10-30:dismissal of case for failure to file initial petition doc within 72 hrs(order/notice)(van-162)(bnc)",
+   "docketId": "75017384",
+   "date": "2026-10-30",
+   "kind": "ruling",
+   "text": "Dismissal of Case for Failure to File Initial Petition Doc Within 72 Hrs(Order/Notice)(VAN-162)(BNC)",
+   "entry": 14,
+   "url": "https://www.courtlistener.com/docket/75017384/14/hawaii-ocean-plaza-lp/",
+   "firstSeen": "2026-10-31"
+  },
   {
    "key": "75017384:5:2026-10-26:notice of dismissal of case if required documents are not filed within 72 hours (van-197)",
    "docketId": "75017384",

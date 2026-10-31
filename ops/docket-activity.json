@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-30T16:08:12+00:00",
+ "updatedAt": "2026-10-31T15:27:50+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 23,
+ "requestsUsed": 25,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -17,6 +17,20 @@
   },
   "66581116": {
    "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 177,
+     "text": "Protective Order",
+     "url": "https://www.courtlistener.com/docket/66581116/177/dillard-store-services-inc-v-winrock-partners-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-30",
+     "number": 175,
+     "text": "Response (when not to a motion)",
+     "url": "https://www.courtlistener.com/docket/66581116/175/dillard-store-services-inc-v-winrock-partners-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-23",
      "number": 174,
@@ -39,10 +53,17 @@
    "docketNumber": "1:22-cv-00921",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/66581116/dillard-store-services-inc-v-winrock-partners-llc/",
-   "lastEntryDate": "2026-10-23"
+   "lastEntryDate": "2026-10-30"
   },
   "66730007": {
    "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 121,
+     "text": "Enforce",
+     "url": "https://www.courtlistener.com/docket/66730007/121/wells-fargo-bank-national-association-as-trusteefor-the-benefit-of/",
+     "ruling": false
+    },
     {
      "date": "2026-10-30",
      "number": 120,
@@ -792,6 +813,13 @@
   "73480976": {
    "entries": [
     {
+     "date": "2026-10-30",
+     "number": 75,
+     "text": "File Excess Pages",
+     "url": "https://www.courtlistener.com/docket/73480976/75/fitfactaridc-llc-v-costar-group-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-14",
      "number": 74,
      "text": "Order on Motion to Withdraw as Attorney",
@@ -834,7 +862,7 @@
    "docketNumber": "1:26-cv-06997",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
-   "lastEntryDate": "2026-10-14"
+   "lastEntryDate": "2026-10-30"
   },
   "73568530": {
    "entries": [
@@ -857,6 +885,13 @@
   },
   "73578741": {
    "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 17,
+     "text": "Notice of Change of Address",
+     "url": "https://www.courtlistener.com/docket/73578741/17/keller-v-udr-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-20",
      "number": 16,
@@ -905,13 +940,6 @@
      "text": "Declaration",
      "url": "https://www.courtlistener.com/docket/73578741/10/keller-v-udr-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-14",
-     "number": 9,
-     "text": "Extension of Time to File Response/Reply",
-     "url": "https://www.courtlistener.com/docket/73578741/9/keller-v-udr-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -921,10 +949,31 @@
    "docketNumber": "3:26-cv-03865",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
-   "lastEntryDate": "2026-10-20"
+   "lastEntryDate": "2026-10-30"
   },
   "73684397": {
    "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 15,
+     "text": "Order on Motion to Adjourn Conference",
+     "url": "https://www.courtlistener.com/docket/73684397/15/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-30",
+     "number": 14,
+     "text": "Summons Returned Executed",
+     "url": "https://www.courtlistener.com/docket/73684397/14/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-30",
+     "number": 13,
+     "text": "Adjourn Conference",
+     "url": "https://www.courtlistener.com/docket/73684397/13/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
+     "ruling": false
+    },
     {
      "date": "2026-10-29",
      "number": 12,
@@ -947,7 +996,7 @@
    "docketNumber": "1:26-cv-06435",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73684397/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
-   "lastEntryDate": "2026-10-29"
+   "lastEntryDate": "2026-10-30"
   },
   "73687065": {
    "entries": [
@@ -1350,6 +1399,20 @@
   "74922581": {
    "entries": [
     {
+     "date": "2026-10-30",
+     "number": 34,
+     "text": "Relief from stay",
+     "url": "https://www.courtlistener.com/docket/74922581/34/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-30",
+     "number": null,
+     "text": "none",
+     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-27",
      "number": 33,
      "text": "Notice of appearance and request for notice",
@@ -1390,20 +1453,6 @@
      "text": "Hearing set/continued",
      "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-20",
-     "number": 27,
-     "text": "Dismiss case",
-     "url": "https://www.courtlistener.com/docket/74922581/27/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-19",
-     "number": 26,
-     "text": "Extend/Shorten time",
-     "url": "https://www.courtlistener.com/docket/74922581/26/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1413,10 +1462,17 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-10-27"
+   "lastEntryDate": "2026-10-30"
   },
   "74927117": {
    "entries": [
+    {
+     "date": "2026-10-30",
+     "number": 77,
+     "text": "Order on Motion to Use Cash Collateral",
+     "url": "https://www.courtlistener.com/docket/74927117/77/southbridge-associates-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-29",
      "number": 74,
@@ -1465,13 +1521,6 @@
      "text": "Certificate of Service",
      "url": "https://www.courtlistener.com/docket/74927117/68/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-28",
-     "number": 67,
-     "text": "Opposition",
-     "url": "https://www.courtlistener.com/docket/74927117/67/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1481,7 +1530,7 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
-   "lastEntryDate": "2026-10-29"
+   "lastEntryDate": "2026-10-30"
   },
   "74948724": {
    "entries": [
