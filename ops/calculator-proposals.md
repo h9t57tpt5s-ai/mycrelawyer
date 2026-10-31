@@ -806,6 +806,116 @@ not cloud-deployable regardless):**
    "amount" vs "credit" from each side's own perspective, or a code-level
    fallback for credit-only issues, is Jeff's call.
 
+## 2026-10-31 (second run) — generalized Findings 1, 2 and 5 across all 123 saved result files; found a new, confirmed mechanical gap (decision 8): a fully dispositive but unpriced defense/legal-bar issue cannot zero out a represented claim's floor
+
+Free scan (no API spend), extending the "turn a single confirmed case into
+a full scan" pattern imp-036/imp-043 already used for the `credit`-role
+bugs to the three oldest open findings (Finding 1 from 2026-10-15,
+Finding 2 from 2026-10-15/21, decision 5 from 2026-10-29), across all four
+saved generations (`results-v4.3`, `results-v4.5`, `results-v6`,
+`results-v6.1`, 123 files total).
+
+**Decision 5 (redundant whole-property issue) generalized — still
+confirmed on exactly one case.** A label-pattern scan for a "whole
+property"/"entire parcel" issue co-occurring with a "strip taken" and
+"severance" issue in the same eminent-domain case flagged two matches:
+`kks-properties-slingerlands-bypass-2020` (the already-confirmed case,
+`results-v4.3`) and `state-v-speedway-grapevine-2017` (`results-v6.1`).
+Checked the second by hand before counting it: its "whole-property" issue
+(`High's Lay Opinion of Precondemnation Whole-Property Value`) has
+`basis: null`, no figures and no `damagesRange` — it is tracked but never
+priced, so it contributes nothing to the mechanical sum and does not
+double-count anything. Not a repeat of the bug. Across all 52 saved
+eminent-domain result files in the four directories, decision 5 remains
+confirmed on `kks-properties` alone, consistent with imp-040's 2026-10-29
+check of the 7 other scored v4.3 cases, now extended to every generation.
+
+**Finding 2 (single-sided dueling-valuation figure) generalized — still
+confirmed on exactly two cases (`kks-properties`, `elpa-builders`).** Basis
+≠ `"competing"` on an eminent-domain case's dominant issue is not a
+reliable proxy by itself (confirmed: `kks-properties`' own
+whole-property issue is tagged `competing` even though all three figures
+are KKS's own appraiser's numbers — "competing" here just means the
+figures disagree with each other, not that they come from opposing
+parties). Flagged two non-"competing" dominant issues this way
+(`odot-v-trade-winds-motor-hotel-2020`, `wvdoh-v-pifer-2019`, both
+`results-v6`) and read each one's actual figures/quotes: neither matches
+Finding 2's shape. `odot`'s non-competing issue is a separate insurance
+bad-faith claim already correctly netting the insurer's own undisputed
+payment against the owner's claim, not a missing opposing appraisal.
+`wvdoh`'s "Condemnation Blight Damages" issue is one-sided because DOH's
+actual defense ("no blight occurred") is already priced as its own
+probability-weighted issue elsewhere in the same prediction, not because
+an opposing appraisal is missing. Correcting course rather than
+overclaiming: Finding 2 is not shown to recur beyond the two cases already
+on record.
+
+**New, confirmed finding (decision 8): a complete, dispositive opposing
+defense with no dollar figure of its own cannot reduce a represented
+claim's floor below `probabilityFloor × fullClaimAmount`, even when that
+defense actually wins outright.** Scanned every case in all four
+directories with a known `outcome.finalAmount` for the same overshoot
+shape Finding 1 used (predicted range floor more than double the actual
+final amount) using `scripts/replay_backtest.py`'s own `replay()`
+function as a library call — no reimplementation of the math. Beyond the
+4 cases already in Finding 1, found two new ones:
+
+- `architectural-stainless-v-tm-partridge-creek-mall-2021`
+  (construction-defect, `results-v4.3`): the sole priced issue is "Lien
+  Foreclosure Against Owner's Fee Interest," `itemized` basis, one figure
+  (the $213,389.20 recorded lien amount), probability band `[0.45, 0.55]`
+  ("even"). Three opposing defense issues are tracked right alongside it
+  (a statutory-prerequisite defense at `[0.45, 0.55]`, a mootness defense
+  at `[0.25, 0.4]`, a guarantor/policy defense at `[0.05, 0.2]`) but every
+  one has `basis: null` and no figures. Actual outcome: **$0** — the court
+  held the lien never attached to the owner's interest at all, a complete
+  defense win. Predicted range `[96025, 213389]` never comes close to
+  including $0.
+- `franciscan-cvs-i69-2023` (eminent-domain, `results-v6`): the dominant
+  "Loss-of-Access / Highest-and-Best-Use Diminution Damages" issue
+  (`competing` basis, figures $1.9M–$3M, probability `[0.45, 0.55]`) sits
+  beside its own dispositive issue, "Admissibility of Loss-of-Access
+  Valuation Evidence (Motion in Limine)," at `[0.45, 0.55]` — but that
+  issue has no figure either. Actual outcome: the Court of Appeals held
+  "the traffic-flow rule bars the access damages" entirely, leaving only
+  the undisputed $40,500–$47,400 strip-taking value — **$44,000** final.
+  Predicted range `[893475, 3047400]` floors nearly 20x above actual.
+
+**Root cause (read from `scripts/replay_backtest.py`'s `issue_range()`/
+`replay()`, which mirrors the live `valuation-math.ts`), not a guess:** an
+issue with no `figures` produces `issue_range() -> None`, and `replay()`
+skips any issue whose range is `None` (`if not d or not p: continue`) —
+it does not even reduce the mechanical sum, let alone gate another
+issue's probability. So a fully dispositive legal/evidentiary defense that
+would, if it wins, reduce a represented claim to $0 is invisible to the
+math unless the model folds that risk into the *claim issue's own*
+probability band. In both new cases the claim issue's band (`[0.45,
+0.55]`) already reflects real uncertainty, but the mechanical floor
+(`p[0] × fullAmount`) is a straight multiplication of a non-zero
+probability by the full claimed amount — it structurally cannot reach $0
+even when a full win for the other side (already tracked, just with no
+figure) is a real, substantial, separately-modeled possibility. This is a
+sharper, mechanically-identifiable version of Finding 1's "a band on an
+undisputed fact is being read as a band on the award" diagnosis, confirmed
+twice more, in two different categories (construction-defect,
+eminent-domain) and two different model generations (v4.3, v6).
+
+**Proposed change (NEEDS JEFF), additive to Finding 1's proposal:**
+instruct the model that when a complete, dispositive defense or legal bar
+is tracked as its own issue against a represented claim, the *claim
+issue's own* probability floor must reflect the chance that defense
+succeeds entirely (i.e., the claim issue's probability band is not just
+"the chance we quantified the right number" but "the chance the claim
+survives at all") — rather than, or in addition to, tracking the defense
+as a separate unpriced issue that the mechanical sum silently ignores.
+Whether the fix belongs in the prompt (require the model to lower the
+claim issue's own floor to reflect a real dispositive-defense risk) or in
+the math (treat a same-side dispositive-defense issue with a probability
+band but no figure as a multiplier on the paired claim issue's own range,
+rather than dropping it) is Jeff's call — this is evidence, not a change,
+and nothing in `supabase/functions/case-valuation-analyze/` has been
+touched.
+
 ## What we have learned (calculator track)
 
 <!-- dated lines added as proposals here are later tested or Jeff rules on them -->
@@ -940,3 +1050,27 @@ not cloud-deployable regardless):**
   single confirmed bug into a full scan of the same role/shape across every
   saved result file before assuming it's isolated — do this again for any
   future single-case `figures`/role finding before calling it closed.
+- 2026-10-31 (second run): Applied the same "generalize a single-case
+  finding into a full scan" pattern to the three oldest open findings
+  (Finding 1, Finding 2, decision 5) across all 123 saved result files in
+  all four directories, reusing `scripts/replay_backtest.py`'s own
+  `replay()`/`issue_range()` as a library call rather than
+  reimplementing the math. Decision 5 and Finding 2 both stayed exactly
+  where they were (one and two cases respectively) after the candidates
+  the scan flagged turned out, on inspection, not to match the bug's
+  real shape — worth recording as a negative result, not just a positive
+  one, so a future run doesn't re-flag `state-v-speedway-grapevine-2017`,
+  `odot-v-trade-winds-motor-hotel-2020` or `wvdoh-v-pifer-2019` as new
+  misses without re-deriving why they aren't. Finding 1's overshoot scan
+  did turn up something real and new: two more cases
+  (`architectural-stainless-v-tm-partridge-creek-mall-2021`,
+  `franciscan-cvs-i69-2023`) where a complete, dispositive opposing
+  defense/legal-bar issue has a probability band but no figure, and
+  `issue_range()`/`replay()` silently drops any issue with no figures —
+  so the defense never reduces the claim issue's own floor, even though
+  it actually won outright in both cases (added as G15 decision 8). Next
+  time: this "no figure => dropped from the sum entirely, not even a
+  partial discount" mechanic is worth checking against any future
+  overshoot case before assuming it's just a miscalibrated probability
+  band (Finding 1's original framing) — the two are different root
+  causes with different fixes.
