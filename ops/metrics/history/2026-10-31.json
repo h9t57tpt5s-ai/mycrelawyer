@@ -1,0 +1,505 @@
+{
+ "date": "2026-10-31",
+ "generatedAt": "2026-10-31T18:43:56+00:00",
+ "note": "Visits are tab sessions from js/track.js (crawlers filtered); the site is small, so read 7- and 28-day windows, not single days.",
+ "last1Day": {
+  "visits": 150,
+  "pageViews": 151,
+  "multiPageVisits": 2,
+  "multiPageRate": 0.0133,
+  "funnel": {
+   "viewedAMatter": 77,
+   "sawSignInPrompt": 0,
+   "openedSignIn": 0,
+   "signedUpOrIn": 0,
+   "readFullWriteUp": 48,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 0,
+  "follows": 0,
+  "newsletterSignups": 0,
+  "contactSends": 0,
+  "sourceClicks": 0,
+  "searches": 3,
+  "byEvent": {
+   "page_view": 122,
+   "panel_open": 49,
+   "full_read": 48,
+   "matter_page_view": 29,
+   "search": 3
+  },
+  "topPages": [
+   [
+    "/litigation.html",
+    53
+   ],
+   [
+    "/contact.html",
+    14
+   ],
+   [
+    "/manufactured-housing-communities.html",
+    3
+   ],
+   [
+    "/matters/live-024.html",
+    2
+   ],
+   [
+    "/judge-n-mark-klappenbach.html",
+    2
+   ],
+   [
+    "/federal-cases/paradigm-business-park-llc-v-liebherr-america-inc-sdd-4-26-cv-04177.html",
+    2
+   ],
+   [
+    "/matters/live-266.html",
+    2
+   ],
+   [
+    "/chapter-11/keinan-properties-llc-ksb-26-21557.html",
+    1
+   ],
+   [
+    "/chapter-11/lesam-realty-llc-ganb-26-63571.html",
+    1
+   ],
+   [
+    "/matters/live-097.html",
+    1
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 1,
+   "lease-clause-redline": 0,
+   "settlement-benchmarks": 0,
+   "litigation-index": 0,
+   "-tracker": 0
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    139
+   ],
+   [
+    "google.com",
+    6
+   ],
+   [
+    "duckduckgo.com",
+    3
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-180",
+    3
+   ],
+   [
+    "live-097",
+    2
+   ],
+   [
+    "live-024",
+    2
+   ],
+   [
+    "live-103",
+    2
+   ],
+   [
+    "live-118",
+    2
+   ],
+   [
+    "live-003",
+    2
+   ],
+   [
+    "live-266",
+    2
+   ],
+   [
+    "live-125",
+    1
+   ],
+   [
+    "live-130",
+    1
+   ],
+   [
+    "live-037",
+    1
+   ]
+  ]
+ },
+ "last7Days": {
+  "visits": 980,
+  "pageViews": 1015,
+  "multiPageVisits": 27,
+  "multiPageRate": 0.0276,
+  "funnel": {
+   "viewedAMatter": 398,
+   "sawSignInPrompt": 0,
+   "openedSignIn": 0,
+   "signedUpOrIn": 3,
+   "readFullWriteUp": 124,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 2,
+  "follows": 0,
+  "newsletterSignups": 2,
+  "contactSends": 0,
+  "sourceClicks": 20,
+  "searches": 8,
+  "byEvent": {
+   "page_view": 725,
+   "matter_page_view": 290,
+   "panel_open": 169,
+   "full_read": 168,
+   "source_click": 20,
+   "search": 8,
+   "permalink": 3,
+   "signup": 2,
+   "magic_link_sent": 1
+  },
+  "topPages": [
+   [
+    "/contact.html",
+    274
+   ],
+   [
+    "/litigation.html",
+    173
+   ],
+   [
+    "/matters/live-208.html",
+    19
+   ],
+   [
+    "/company-brightline.html",
+    16
+   ],
+   [
+    "/compare-companies.html",
+    15
+   ],
+   [
+    "/",
+    14
+   ],
+   [
+    "/matters/live-182.html",
+    8
+   ],
+   [
+    "/newsletter.html",
+    8
+   ],
+   [
+    "/matters/live-315.html",
+    8
+   ],
+   [
+    "/matters/live-114.html",
+    8
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 4,
+   "lease-clause-redline": 0,
+   "settlement-benchmarks": 1,
+   "litigation-index": 4,
+   "-tracker": 2
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    788
+   ],
+   [
+    "google.com",
+    157
+   ],
+   [
+    "utm:chatgpt.com",
+    10
+   ],
+   [
+    "utm:defebdxfg",
+    7
+   ],
+   [
+    "utm:credocket",
+    4
+   ],
+   [
+    "duckduckgo.com",
+    4
+   ],
+   [
+    "bing.com",
+    3
+   ],
+   [
+    "gemini.google.com",
+    3
+   ],
+   [
+    "noai.duckduckgo.com",
+    1
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-090",
+    27
+   ],
+   [
+    "live-208",
+    25
+   ],
+   [
+    "live-084",
+    12
+   ],
+   [
+    "live-315",
+    9
+   ],
+   [
+    "live-182",
+    8
+   ],
+   [
+    "live-114",
+    8
+   ],
+   [
+    "live-274",
+    8
+   ],
+   [
+    "live-200",
+    7
+   ],
+   [
+    "live-051",
+    6
+   ],
+   [
+    "live-048",
+    6
+   ]
+  ]
+ },
+ "last28Days": {
+  "visits": 2247,
+  "pageViews": 2464,
+  "multiPageVisits": 116,
+  "multiPageRate": 0.0516,
+  "funnel": {
+   "viewedAMatter": 1142,
+   "sawSignInPrompt": 45,
+   "openedSignIn": 6,
+   "signedUpOrIn": 10,
+   "readFullWriteUp": 286,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 7,
+  "follows": 0,
+  "newsletterSignups": 4,
+  "contactSends": 0,
+  "sourceClicks": 77,
+  "searches": 24,
+  "byEvent": {
+   "page_view": 1555,
+   "matter_page_view": 909,
+   "panel_open": 620,
+   "full_read": 570,
+   "source_click": 77,
+   "gate_shown": 48,
+   "search": 24,
+   "signup": 7,
+   "permalink": 7,
+   "signin_open": 6,
+   "magic_link_sent": 3,
+   "signin": 1
+  },
+  "topPages": [
+   [
+    "/litigation.html",
+    487
+   ],
+   [
+    "/contact.html",
+    304
+   ],
+   [
+    "/matters/live-208.html",
+    162
+   ],
+   [
+    "/",
+    149
+   ],
+   [
+    "/updates.html",
+    28
+   ],
+   [
+    "/matters/live-221.html",
+    27
+   ],
+   [
+    "/matters/live-188.html",
+    24
+   ],
+   [
+    "/matters/live-265.html",
+    20
+   ],
+   [
+    "/chapter-11/lvlm-murray-properties-llc-pawb-26-22766.html",
+    19
+   ],
+   [
+    "/compare-companies.html",
+    18
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 13,
+   "lease-clause-redline": 2,
+   "settlement-benchmarks": 2,
+   "litigation-index": 12,
+   "-tracker": 15
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    1588
+   ],
+   [
+    "google.com",
+    560
+   ],
+   [
+    "utm:chatgpt.com",
+    34
+   ],
+   [
+    "utm:defebdxfg",
+    12
+   ],
+   [
+    "bing.com",
+    9
+   ],
+   [
+    "utm:credocket",
+    8
+   ],
+   [
+    "gemini.google.com",
+    5
+   ],
+   [
+    "com.google.android.googlequicksearchbox",
+    5
+   ],
+   [
+    "perplexity.ai",
+    4
+   ],
+   [
+    "ballardspahr.questkm.com",
+    4
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-208",
+    194
+   ],
+   [
+    "live-271",
+    50
+   ],
+   [
+    "live-099",
+    41
+   ],
+   [
+    "live-090",
+    36
+   ],
+   [
+    "live-221",
+    31
+   ],
+   [
+    "live-303",
+    31
+   ],
+   [
+    "live-267",
+    28
+   ],
+   [
+    "live-188",
+    26
+   ],
+   [
+    "live-272",
+    25
+   ],
+   [
+    "live-035",
+    22
+   ]
+  ]
+ },
+ "audit": {
+  "summary": {
+   "zeroStatCounters": 0,
+   "unstyledHeroClasses": 0,
+   "hiddenUpdatesButton": 0,
+   "brokenLinks": 0,
+   "missingTitle": 0,
+   "longTitle": 0,
+   "missingDescription": 2,
+   "weakDescription": 1,
+   "missingCanonical": 0,
+   "duplicateTitles": 0,
+   "orphanPages": 0,
+   "missingFromSitemap": 0,
+   "sitemapUrlsWithoutFile": 0,
+   "imagesWithoutAlt": 0,
+   "heavyPages": 0
+  },
+  "freshness": {
+   "matters": 307,
+   "newestMatterAdded": "2026-10-31",
+   "daysSinceNewestMatter": 0,
+   "ch11Petitions": 160,
+   "newestCh11Petition": "2026-10-30",
+   "daysSinceNewestCh11": 1,
+   "federalSuits": 99,
+   "newestFederalSuit": "2026-10-29",
+   "daysSinceNewestSuit": 2
+  },
+  "pagesChecked": 772
+ },
+ "pipelines": {
+  "chapter11Petitions": 160,
+  "federalSuits": 99,
+  "secLeads": 16,
+  "wireLeads": 1,
+  "leadsHandled": 342
+ }
+}
