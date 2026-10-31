@@ -408,7 +408,13 @@
    },
    "checkAfter": "2026-10-31",
    "result": "watching",
-   "note": "Open calculator experiment: per the one-experiment-per-goal rule, no further calculator changes until this is judged."
+   "note": "Open calculator experiment: per the one-experiment-per-goal rule, no further calculator changes until this is judged.",
+   "status": "helped",
+   "verdict": {
+    "date": "2026-10-31",
+    "value": "calculatorViews7 is 3 today (goals.json); last28Days.toolViews['case-valuation'] held a steady 4-8/week (5,4,4,4,5,5,8,4,4,4,4,3,4,3 across 2026-10-17 through 2026-10-30 in ops/metrics/history/) the entire 14-day window, versus the 2026-10-16 (pre-ship) baseline of 1.",
+    "note": "Sustained 300-700% rise over baseline for the full window, not a one-day blip -- clears the 25% threshold with the 28-day/14-day trend agreeing. Same joint-effect caveat as imp-008's and imp-014's own 'helped' verdicts (2026-10-20, 2026-10-23): imp-008 (matter-page CTA card) and imp-014 (litigation.html promo) both shipped inside this same window and are already closed 'helped' on this exact metric, so imp-016's own large entry-points overhaul (8 landing pages, real backtest cases shown pre-sign-in, category-aware offers, search-title fix) cannot be isolated from them -- all three together are what moved calculatorViews7 from 1 to a sustained 3-8."
+   }
   },
   {
    "id": "imp-017",
@@ -736,7 +742,12 @@
     "medianDaysEventToAdded": 3
    },
    "checkAfter": "2026-10-31",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-10-31",
+    "value": "sourcedMatters7 24 (baseline 27, -11%), freshSourcedMatters7 15 (baseline 25, -40%), medianDaysEventToAdded 4.5 (baseline 3, +50%)",
+    "note": "sourcedMatters7's move doesn't clear the 25% threshold on its own. freshSourcedMatters7 and medianDaysEventToAdded do clear it, but reconstructing the rolling 7-day count day by day from js/data.js's addedDate field (scripts/check_case_fields.py's load_cases(), no API spend) shows the real cause is a window-edge artifact, not a trend: this run's snapshot was taken at 03:40 UTC with zero matters yet added for 2026-10-31 (the digest's first run of the day hadn't landed), and the trailing window dropped the high 2026-10-23 day (8 matters) that was still inside the window on recent prior days. The reconstructed series (2026-10-24 through 2026-10-30: sourced 29/29/29/27/28/32/32, fresh 25/25/25/21/21/24/23, median 4/4/4/4/4.0/3.5/4.0) shows no sustained decline across the window imp-030 actually covers -- only today's partial-day count is low. Same non-confirming-partial-window pattern imp-017 hit on 2026-10-24."
+   }
   },
   {
    "id": "imp-031",
@@ -990,6 +1001,29 @@
    "checkAfter": "2026-11-06",
    "status": "watching",
    "note": "NEEDS JEFF: G15 now has 7 concrete decisions on v6/v6.1's credit-role handling. No code changed (Jeff-gated, not cloud-deployable)."
+  },
+  {
+   "id": "imp-044",
+   "date": "2026-10-31",
+   "track": "calculator",
+   "title": "Extended the proven calculator promo (imp-008/imp-014) to Chapter 11 Watch, Federal Lawsuit Watch and all 258 chapter-11/*.html and federal-cases/*.html record pages",
+   "why": "Judged imp-016 (helped) and imp-030 (no clear effect) first, both checkAfter today -- see their own verdicts. mostBehind was conversion, calculator, traffic, news; the last 2 log entries (imp-042 subscription, imp-043 calculator-evidence) left conversion untouched in the last 2 runs and first in mostBehind order, but conversion's only unblocked metric is follows7 (imp-033 already watches newsletterSignups7/signUps7/multiPageRate7 until 2026-11-01), and G17's own code-level trace (2026-10-26) already found the real blocker there is the two-step magic-link follow flow in js/auth.js, off-limits to this routine -- a copy/placement-only follows7 test would very likely just repeat imp-007/imp-010/imp-013's 'no clear effect', the same reasoning the 2026-10-26 run used to skip it. With imp-016 now judged, calculatorViews7 has no open watching entry for the first time since 2026-10-13, and calculator's own number is still far below target (3-8/week vs 50) despite three prior linking rounds (imp-008 matter pages, imp-014 litigation.html, imp-016's broader overhaul) -- all three now closed 'helped', so a genuinely new, non-overlapping page set was the highest-expected-value move. Checked which high-traffic page types still lacked a body-level calculator promo: bankruptcy-watch.html and lawsuit-watch.html (the Chapter 11/Federal Lawsuit Watch index pages) and all 258 chapter-11/*.html / federal-cases/*.html record pages they list only ever had the nav-dropdown link, the same gap litigation.html had before imp-014. Added the identical cta-photo-card promo imp-014 proved on litigation.html to both index pages, and the identical matter-cta-row card imp-008 proved on matter pages to scripts/build_record_pages.ts's record-page template (reusing the exact existing markup/classes, no new copy written). deno unavailable this session, so per CLAUDE.md's fallback changed only the builder; type-checked the full file with `tsc --noEmit` against a Deno ambient shim (module mode via a scratch copy with `export {}` appended, same approach imp-009/019/033/038 established) -- zero errors. HTML tag balance checked clean on both hand-edited files with a void-element-aware Python HTMLParser checker. site_audit.py counts unchanged before and after (missingDescription 2 / weakDescription 1, both already-explained; no new brokenLinks/orphanPages). Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the 2026-10-27/30 rule that file belongs to metrics-snapshot.yml, not this routine.",
+   "files": [
+    "bankruptcy-watch.html",
+    "lawsuit-watch.html",
+    "scripts/build_record_pages.ts",
+    "ops/improvement-log.json",
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "db97dce",
+   "metric": "goals.json calculator.metrics.calculatorViews7 (toolViews['case-valuation'])",
+   "window": "7 days",
+   "baseline": {
+    "calculatorViews7": 3
+   },
+   "checkAfter": "2026-11-07",
+   "status": "watching",
+   "note": "prerender.yml will regenerate chapter-11/*.html and federal-cases/*.html from the changed builder after this push; verify the card appears on a live record page before judging. If calculatorViews7 still doesn't move meaningfully, the next untried calculator lever (per the 2026-10-16/23 notes' own pattern of trying a different kind of change after repeated placement-only attempts) would be something other than another link -- e.g. a visible real-case example embedded directly on a record/matter page rather than a CTA pointing away from it."
   }
  ]
 }
