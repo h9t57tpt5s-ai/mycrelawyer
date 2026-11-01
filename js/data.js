@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-31",
+  lastUpdatedDate: "2026-11-01",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -12608,6 +12608,53 @@ const RELAW_DATA = {
         { when: "May 22, 2024", label: "Veena sues Brixmor for breach of contract, fraud and DTPA violations" },
         { when: "September 30, 2025", label: "Trial court grants Brixmor summary judgment on limitations grounds" },
         { when: "October 29, 2026", label: "Thirteenth Court of Appeals affirms summary judgment for Brixmor", current: true }
+      ]
+    },
+    {
+      id: "live-360",
+      seoTitle: "Mission Gateway KS: Bank Wins $46M Judgment, Seeks Sheriff Sale",
+      seoDescription: "Metropolitan Commercial Bank won a $46M final judgment against Aryeh Realty and asked Johnson County, Kansas for a sheriff's sale of the vacant Mission Gateway site.",
+      addedDate: "2026-11-01",
+      title: "Kansas Bank Wins $46M Final Judgment, Seeks Sheriff's Sale of Stalled Mission Gateway Site",
+      brief: "Metropolitan Commercial Bank won a $46.24 million final judgment against Aryeh Realty and asked a Kansas court for a sheriff's sale of the long-vacant former Mission Mall site in Mission, Kansas.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-10-28",
+      jurisdiction: "Johnson County District Court, Kansas (10th Judicial District)",
+      state: "KS",
+      propertyType: "Land/Development",
+      property: {
+        name: "Mission Gateway (former Mission Mall site)",
+        city: "Mission",
+        state: "KS"
+      },
+      amount: "$46.24 million final judgment ($24M principal plus over $20M interest) on an originally $24-26M loan dating to 2019",
+      amountUsd: 46240000,
+      amountBasis: "judgment",
+      source: "live",
+      sourceUrl: "https://www.kctv5.com/2026/10/28/bank-requests-sheriff-sale-mission-gateway-site-over-46m-debt/",
+      summary: "Metropolitan Commercial Bank, which sued Aryeh Realty LLC (a subsidiary of New York-based Cameron Group) for defaulting on a 2019 loan, obtained a final judgment of more than $46 million from Johnson County District Court Judge Robert Wonnell on October 2, 2026, ordering the long-vacant Mission Gateway site in Mission, Kansas sold at a sheriff's sale. After Aryeh failed to pay off the judgment by an October 16 deadline, the bank's attorneys filed papers on October 28 asking the court to proceed with the sheriff's sale.",
+      significance: "The case shows how a lender's foreclosure judgment against a stalled redevelopment site still requires a separate redemption deadline, a sheriff's-sale request, an auction, and court confirmation before a new owner takes title -- a process that can stretch years beyond the original loan default. It also illustrates the risk to municipalities and prospective buyers who line up redevelopment deals contingent on a property still working through someone else's foreclosure docket, as Mission has done with its tentative agreement with R.H. Johnson Company.",
+      body: [
+        "After more than three years of litigation and two decades of failed redevelopment attempts, the long-vacant Mission Gateway site in Mission, Kansas -- formerly home to Mission Mall -- is a step closer to changing hands. On October 28, 2026, Metropolitan Commercial Bank's attorneys filed papers with the Johnson County, Kansas district court clerk asking the court to order a sheriff's sale of the property, after the owner, Aryeh Realty LLC, failed to pay off a final judgment of more than $46 million by an October 16 deadline.",
+        "The judgment itself, entered October 2, 2026 by Johnson County District Court Judge Robert Wonnell, is the formal culmination of a case Metropolitan Commercial Bank filed back in April 2023. The bank, through counsel, sued Aryeh Realty -- a subsidiary of the New York-based Cameron Group, which has owned the roughly 20-acre Mission Gateway parcel for years -- alleging default on a loan originally made in 2019. Aryeh now owes the bank approximately $24 million in unpaid principal plus more than $20 million in accrued interest, for a total judgment north of $46 million on what was originally a loan in the range of $24 to $26 million. Judge Wonnell had already ruled from the bench in December 2025 that the bank could proceed with a foreclosure sale; last month's written order made that ruling final and started the clock on Aryeh's opportunity to redeem the debt before the bank could move to a forced sale.",
+        "That opportunity has now lapsed. With the October 16 payoff deadline passed, the bank's foreclosure counsel has asked the Johnson County Sheriff to schedule a public sale of the property, which under Kansas foreclosure procedure must be open to any bidder and ultimately confirmed by the court before a new owner can take title. No sale date has yet been set.",
+        "The case is a reminder of how slowly a stalled commercial redevelopment site can move through the courts even once a lender has secured every procedural victory along the way: judgment, sale authorization, and a payoff deadline each took months to work through, and the sheriff's sale itself -- and any post-sale confirmation fight -- still lies ahead. It is also a cautionary tale for municipalities and prospective developers who stake redevelopment plans on a property still working its way through someone else's foreclosure docket. The City of Mission disclosed in early October that it had reached an agreement contemplating a sale of the site to a locally based firm, R.H. Johnson Company, but the city has been careful to caveat that any such deal depends entirely on how the foreclosure resolves -- including who ultimately buys the property at sheriff's sale and on what terms.",
+        "For lenders holding distressed loans secured by long-vacant or functionally obsolete commercial sites, the Mission Gateway case illustrates both the leverage and the limits of a foreclosure judgment, and it is worth drawing out the practical lessons for everyone watching this kind of fight play out. A lender can eventually force a sale, but a borrower's inaction, or an ownership structure uninterested in redeeming the debt, can let a property sit in limbo through a full judgment-to-sale cycle measured in years rather than months; a foreclosure final judgment is only one step in a longer sequence that still includes a redemption window, a sheriff's-sale request, the auction itself, and court confirmation of the winning bid. For a municipality or a would-be buyer circling a distressed asset, the lesson cuts the other way: a letter of intent or a redevelopment agreement signed before a sheriff's sale is at best conditional, since the sale process, and any priority dispute among the lender, guarantors, and contractors who may hold liens of their own against the project, can still upend the assumed outcome. Lenders financing long-term redevelopment sites should build loan covenants and maturity terms around the realistic possibility that a borrower may simply let a property sit through default and foreclosure rather than redeem, extending the effective recovery timeline well beyond the loan's stated maturity. Johnson County's Mission Gateway saga, twenty years in the making, is not over yet, but the October judgment and the bank's subsequent sheriff's-sale request mark its clearest movement toward resolution in years."
+      ],
+      judge: "Robert Wonnell",
+      parties: [
+        { name: "Metropolitan Commercial Bank", role: "Plaintiff/Lender" },
+        { name: "Aryeh Realty LLC", role: "Defendant/Borrower" }
+      ],
+      tags: ["foreclosure", "sheriff-sale", "redevelopment", "kansas", "stalled-project"],
+      timeline: [
+        { when: "2019", label: "Metropolitan Commercial Bank originates a $24-26M loan secured by the Mission Gateway site" },
+        { when: "April 18, 2023", label: "Metropolitan Commercial Bank sues Aryeh Realty LLC for default in Johnson County District Court" },
+        { when: "December 9, 2025", label: "Judge Robert Wonnell rules from the bench that the bank may proceed with a foreclosure sale" },
+        { when: "October 2, 2026", label: "Judge Wonnell enters final written judgment of more than $46 million and orders the site sold" },
+        { when: "October 16, 2026", label: "Deadline for Aryeh Realty to pay off the judgment passes unmet" },
+        { when: "October 28, 2026", label: "Bank's counsel files papers asking the court for a sheriff's sale of the property", current: true }
       ]
     }
   ],
