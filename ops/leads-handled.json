@@ -1411,6 +1411,10 @@
   "fresh-filing:plymouth-inglewood-development-llc-cacb-9-26-bk-11607": {
    "at": "2026-10-31",
    "action": "skipped: no coverage found explaining the filing"
+  },
+  "0001468174-26-000034:h-20260930.htm": {
+   "at": "2026-11-01",
+   "action": "skipped: excerpt describes a federal tax controversy (IRS petition for rehearing on a Seventh Circuit tax ruling) with no property-specific facts; not a commercial real estate dispute (lender, tenant, partner, contractor or government suit over property) on its face"
   }
  }
 }
