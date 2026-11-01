@@ -1076,6 +1076,24 @@
    },
    "checkAfter": "2026-11-08",
    "status": "watching"
+  },
+  {
+   "id": "imp-047",
+   "date": "2026-11-01",
+   "track": "traffic",
+   "title": "No shipped change: corrected G19's contact.html bot-traffic figures from rolling 7-day totals to real per-day counts",
+   "why": "goals.json mostBehind was conversion/calculator/traffic/news; conversion (imp-046) and calculator (imp-045) each had a change in the last 2 runs so traffic was next, but traffic's only metric (visits7/googleLandings7) already has an open watching entry (imp-038, checkAfter 2026-11-04) -- and every other goal was equally blocked (calculator: imp-044 till 11-07; news: imp-041 till 11-05; subscription: imp-042 till 11-06), so no goal-metric change could ship this run under the 'one open experiment per goal' backlog rule. Audit was clean (site_audit.py unchanged). Instead checked G19 (today's first-run finding) against real data rather than let it stand as written, since it matters for imp-038's verdict in 3 days: the '56/269/262/274' figures quoted in G19 are each day's rolling 7-day cumulative contact.html count (last7Days.topPages), not that day's own visits. Pulling last1Day.topPages directly from ops/metrics/history/2026-10-26.json through -31.json gives the real daily shape: 0, 0, 43, 213, 5, 14 -- a two-day burst (10-28/10-29, 256 hits combined), not a sustained ~270/day campaign; the daily rate had already fallen back near the 0-1/day pre-burst baseline by 10-30/31. Worked out when the rolling window clears it: the window ending 2026-11-04 ([10-29..11-04]) still contains 10-29's 213-hit day; the window ending 2026-11-05 ([10-30..11-05]) is the first one clear of it. Added this as a correction inside G19 itself (not a new backlog item, since it refines rather than replaces imp-046's finding) so imp-038's 2026-11-04 checkAfter is read correctly -- still contaminated, one day short of clean -- rather than either trusted at face value or dismissed.",
+   "files": [
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "PENDING",
+   "metric": "Whether 2026-11-05's ops/metrics snapshot shows visits7/multiPageRate7 back near pre-burst levels (contact.html's last1Day count back under ~15/day) once the rolling window finally excludes 10-28/29; also gates how imp-038's own 2026-11-04 verdict should be read",
+   "window": "n/a -- measurement correction, not a goal change",
+   "baseline": {
+    "contactHtmlLast1Day_1026_1031": [0, 0, 43, 213, 5, 14]
+   },
+   "checkAfter": "2026-11-05",
+   "status": "watching"
   }
  ]
 }
