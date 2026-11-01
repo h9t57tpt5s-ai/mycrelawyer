@@ -1,7 +1,18 @@
 {
- "updatedAt": "2026-10-31T16:19:47+00:00",
+ "updatedAt": "2026-11-01T01:25:27+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "Blackwell Real Estate, LLC",
+   "court": "United States Bankruptcy Court, W.D. Texas",
+   "courtId": "txwb",
+   "docketNumber": "26-12227",
+   "dateFiled": "2026-10-31",
+   "docketUrl": "https://www.courtlistener.com/docket/75054265/blackwell-real-estate-llc/",
+   "docketId": 75054265,
+   "slug": "blackwell-real-estate-llc-txwb-26-12227",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "ZH Development I, LLC",
    "court": "United States Bankruptcy Court, M.D. Florida",
@@ -110,28 +121,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75035427/1-solution-wellness-llc/",
    "docketId": 75035427,
    "slug": "1-solution-wellness-llc-flsb-26-24365",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "5717 Ferguson Project, LLC",
-   "court": "United States Bankruptcy Court, C.D. California",
-   "courtId": "cacb",
-   "docketNumber": "2:26-bk-20848",
-   "dateFiled": "2026-10-27",
-   "docketUrl": "https://www.courtlistener.com/docket/75029408/5717-ferguson-project-llc/",
-   "docketId": 75029408,
-   "slug": "5717-ferguson-project-llc-cacb-2-26-bk-20848",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "510 Washington Street, LLC",
-   "court": "United States Bankruptcy Court, D. Maryland",
-   "courtId": "mdb",
-   "docketNumber": "26-21902",
-   "dateFiled": "2026-10-27",
-   "docketUrl": "https://www.courtlistener.com/docket/75024664/510-washington-street-llc/",
-   "docketId": 75024664,
-   "slug": "510-washington-street-llc-mdb-26-21902",
    "type": "Chapter 11 petition"
   }
  ]

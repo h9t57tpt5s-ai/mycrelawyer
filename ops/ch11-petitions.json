@@ -1,7 +1,18 @@
 {
- "updatedAt": "2026-10-31T16:19:47+00:00",
+ "updatedAt": "2026-11-01T01:25:27+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Blackwell Real Estate, LLC",
+   "court": "United States Bankruptcy Court, W.D. Texas",
+   "courtId": "txwb",
+   "docketNumber": "26-12227",
+   "dateFiled": "2026-10-31",
+   "docketUrl": "https://www.courtlistener.com/docket/75054265/blackwell-real-estate-llc/",
+   "docketId": 75054265,
+   "slug": "blackwell-real-estate-llc-txwb-26-12227",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "ZH Development I, LLC",
    "court": "United States Bankruptcy Court, M.D. Florida",
