@@ -9,6 +9,7 @@
   "sierra club": "/parties/sierra-club.html",
   "harrison county mississippi": "/parties/harrison-county-mississippi.html",
   "city of san antonio": "/parties/city-of-san-antonio.html",
+  "arbor realty trust": "/parties/arbor-realty-trust-inc.html",
   "american hospitality properties reit": "/parties/american-hospitality-properties-reit-inc.html",
   "via mizner lender 1": "/properties/mandarin-oriental-residences-boca-raton-fl.html",
   "via mizner owner iii": "/properties/mandarin-oriental-residences-boca-raton-fl.html",
@@ -58,11 +59,13 @@
   "acore capital mortgage": "/company-acore-capital.html",
   "wilmington trust national association as trustee for the benefit of the registered holders of jpmbb commercial mortgage securities trust 2014-c24 commercial mortgage pass-through certificates series 2014-c24": "/company-wilmington-trust-national-association.html",
   "brookfield properties retail": "/company-brookfield-properties.html",
+  "federal home loan mortgage": "/company-freddie-mac.html",
   "deutsche bank ag": "/company-deutsche-bank.html",
   "thor equities": "/company-thor-equities.html",
   "apollo commercial real estate finance": "/company-apollo-global-management.html",
   "pmc property group": "/company-pmc-property-group.html",
-  "brixmor ga apollo ii tx": "/company-apollo-global-management.html"
+  "brixmor ga apollo ii tx": "/company-apollo-global-management.html",
+  "walker and dunlop": "/company-walker-dunlop.html"
  },
  "properties": {
   "mandarin oriental residences|FL": "/properties/mandarin-oriental-residences-boca-raton-fl.html"
