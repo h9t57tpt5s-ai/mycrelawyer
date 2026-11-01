@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T05:48:05+00:00",
+ "updatedAt": "2026-11-01T07:29:38+00:00",
  "about": "Listed companies filing under real estate SIC codes 6798, 6500, 6510, 6512, 6513, 6519, 6531, 6552, 7011 (EDGAR). Used to pick real estate companies out of press-release feeds.",
  "companies": [
   {
@@ -1107,6 +1107,12 @@
    "sic": "6798"
   },
   {
+   "cik": 104894,
+   "ticker": "ELMES",
+   "name": "Elme Communities",
+   "sic": "6798"
+  },
+  {
    "cik": 895417,
    "ticker": "ELS",
    "name": "EQUITY LIFESTYLE PROPERTIES INC",
@@ -1455,12 +1461,6 @@
    "sic": "7011"
   },
   {
-   "cik": 1561032,
-   "ticker": "HLTC",
-   "name": "National Healthcare Properties, Inc.",
-   "sic": "6798"
-  },
-  {
    "cik": 1482512,
    "ticker": "HPP",
    "name": "Hudson Pacific Properties, Inc.",
@@ -1531,12 +1531,6 @@
    "ticker": "IHT",
    "name": "INNSUITES HOSPITALITY TRUST",
    "sic": "6798"
-  },
-  {
-   "cik": 1677576,
-   "ticker": "IIPBP",
-   "name": "INNOVATIVE INDUSTRIAL PROPERTIES INC",
-   "sic": "6500"
   },
   {
    "cik": 1677576,
@@ -1799,7 +1793,7 @@
   {
    "cik": 1879403,
    "ticker": "LRHC",
-   "name": "La Rosa Holdings Corp.",
+   "name": "Stratum Holdings Corp.",
    "sic": "6531"
   },
   {
@@ -1998,6 +1992,12 @@
    "cik": 1556801,
    "ticker": "MYCB",
    "name": "My City Builders, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1992001,
+   "ticker": "NBNTS",
+   "name": "Neptune REM, LLC",
    "sic": "6500"
   },
   {
@@ -2903,7 +2903,7 @@
   {
    "cik": 1879403,
    "ticker": "SRTM",
-   "name": "La Rosa Holdings Corp.",
+   "name": "Stratum Holdings Corp.",
    "sic": "6531"
   },
   {
