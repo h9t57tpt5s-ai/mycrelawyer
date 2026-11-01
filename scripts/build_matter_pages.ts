@@ -352,7 +352,7 @@ function mainFor(c: Case): string {
       ${follow ? `<div class="card matter-cta">
         <div class="eyebrow">Free weekly email</div>
         <h2 class="matter-h2">Rulings like this, every Monday</h2>
-        <p class="text-secondary">The week's new commercial real estate lawsuits, foreclosures and court rulings. No account needed; unsubscribe in one click.</p>
+        <p class="text-secondary">${newMattersThisWeek > 0 ? `In the past 7 days, CREdocket added ${newMattersThisWeek} new commercial real estate lawsuit${newMattersThisWeek === 1 ? "" : "s"} to the tracker. Get next Monday's new matters, rulings in cases we follow, and market signals by email.` : "The week's new commercial real estate lawsuits, foreclosures and court rulings."} No account needed; unsubscribe in one click.</p>
         <form class="gate-form" data-newsletter-form data-newsletter-source="matter-row:${esc(c.id)}" data-case-id="${esc(c.id)}" novalidate>
           <label class="sr-only" for="matter-nl-email">Email address</label>
           <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
