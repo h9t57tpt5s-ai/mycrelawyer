@@ -1086,7 +1086,7 @@
    "files": [
     "ops/improvement-playbook.md"
    ],
-   "commit": "PENDING",
+   "commit": "fa8af04eed9571ddc7e958b76e05bf8e8cc61a90",
    "metric": "Whether 2026-11-05's ops/metrics snapshot shows visits7/multiPageRate7 back near pre-burst levels (contact.html's last1Day count back under ~15/day) once the rolling window finally excludes 10-28/29; also gates how imp-038's own 2026-11-04 verdict should be read",
    "window": "n/a -- measurement correction, not a goal change",
    "baseline": {
