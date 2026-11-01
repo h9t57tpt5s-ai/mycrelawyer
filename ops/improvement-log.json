@@ -788,7 +788,12 @@
     "cle_venture_fund_actual": 1735579.45
    },
    "checkAfter": "2026-11-01",
-   "status": "watching"
+   "status": "no clear effect",
+   "verdict": {
+    "date": "2026-11-01",
+    "value": "no Jeff annotation found in ops/calculator-proposals.md since the 2026-10-25 entry",
+    "note": "Same non-decision shape as imp-011/025/026/028/034/040/043/045 -- nothing to measure until Jeff rules on G15."
+   }
   },
   {
    "id": "imp-033",
@@ -809,7 +814,16 @@
     "multiPageRate7": 0.0608
    },
    "checkAfter": "2026-11-01",
-   "status": "watching"
+   "status": "helped",
+   "verdict": {
+    "date": "2026-11-01",
+    "value": {
+     "newsletterSignups7": 2,
+     "signUps7": 2,
+     "multiPageRate7": 0.0276
+    },
+    "note": "newsletterSignups7 (primary) 1->2, held since 10-26, last28Days climbed 2->4 (sustained, not a blip); signUps7 (secondary) 1->2, last28Days now 7. multiPageRate7 (secondary) dropped 0.0608->0.0276 clearing the 25% threshold, but the day-by-day history ties the drop to a new /contact.html bot-traffic spike starting 2026-10-28/29 (see G19), not to imp-033's 2026-10-25 ship date -- mpr7 was still 0.0517-0.0669 through 10-27/28. Treated as a measurement artifact, not evidence against the change. Not reverted."
+   }
   },
   {
    "id": "imp-034",
@@ -1042,6 +1056,26 @@
    "checkAfter": "2026-11-07",
    "status": "watching",
    "note": "NEEDS JEFF: G15 now has 8 concrete decisions. No code changed (Jeff-gated, not cloud-deployable)."
+  },
+  {
+   "id": "imp-046",
+   "date": "2026-11-01",
+   "track": "conversion",
+   "title": "Extended imp-033's proven newsletter incentive copy to the matter-row CTA; flagged a contact.html bot-traffic contamination finding (G19)",
+   "why": "Judged imp-032 (no clear effect -- no Jeff ruling yet on G15) and imp-033 (helped -- newsletterSignups7/signUps7 both 1->2, sustained over the 28-day window). While checking imp-033's multiPageRate7 drop (0.0608->0.0276) against the 28-day trend before accepting it as a regression, found the real cause: /contact.html's visits jumped from 13/day (2026-10-26/27) to 56/269/262/274 (2026-10-28 through 2026-11-01) -- now ~28% of all 7-day visits -- while contactSends7/28 have stayed at exactly 0 throughout, and the 2026-10-29 breakdown shows 213/370 visits landing there with 327/370 'direct or unknown' referrer. js/track.js's crawler filter is a client-side UA regex only (off-limits to edit) and scripts/metrics_snapshot.py does no server-side filtering, so this traffic -- very likely automated -- passes straight into visits7/multiPageRate7/googleLandings7 uncounted as a bot. Logged as ops/improvement-playbook.md's G19 (NEEDS JEFF) since no fix is available to this routine (js/track.js, scripts/metrics_snapshot.py and any Vercel/infra bot-management setting are all outside what it may change or don't exist in this repo) but materially affects how traffic/conversion numbers should be read going forward, including imp-038's upcoming 2026-11-04 verdict. mostBehind was conversion/calculator/traffic/news; after today's two closures conversion had no open experiment left on any of its own metrics (traffic's imp-038 and calculator's imp-044 are both still open on their own metrics until 11-04/11-07), so conversion -- first in mostBehind order and genuinely unblocked -- got this run's shipped change: extended imp-033's now-confirmed incentive line ('In the past 7 days, CREdocket added N new commercial real estate lawsuits...') to the matter-row newsletter CTA (the 49/281 docket-having matters imp-033 deliberately left with generic copy to keep itself isolated), reusing the already-computed newMattersThisWeek value -- no new copy pattern, no new computation.",
+   "files": [
+    "scripts/build_matter_pages.ts",
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "4b1acf724ce86cdbff3183bdcb38faca29fb6578",
+   "metric": "ops/metrics/latest.json conversion.metrics.newsletterSignups7 (primary) and signUps7 (secondary) -- same metrics imp-033 just closed \"helped\" on",
+   "window": "7 days",
+   "baseline": {
+    "newsletterSignups7": 2,
+    "signUps7": 2
+   },
+   "checkAfter": "2026-11-08",
+   "status": "watching"
   }
  ]
 }
