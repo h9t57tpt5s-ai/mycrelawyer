@@ -1,5 +1,21 @@
 {
  "handled": {
+  "petition:https://www.courtlistener.com/docket/75054265/blackwell-real-estate-llc/": {
+   "at": "2026-11-01",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75053509/plymouth-inglewood-development-llc/": {
+   "at": "2026-11-01",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75036281/3326-chestnut-llc/": {
+   "at": "2026-11-01",
+   "action": "skipped: no coverage explaining this filing; a same-named debtor's earlier 2026 Chapter 11 case (4:26-bk-40445, filed March 2026) is in confirmation/plan proceedings, but no source ties it to this October 28, 2026 petition"
+  },
+  "petition:https://www.courtlistener.com/docket/75035427/1-solution-wellness-llc/": {
+   "at": "2026-11-01",
+   "action": "skipped: not commercial real estate on its face (wellness business, not a property owner/developer)"
+  },
   "opinion:11045740": {
    "at": "2026-10-27",
    "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"] and defendant (Burke) has no business-entity suffix"
