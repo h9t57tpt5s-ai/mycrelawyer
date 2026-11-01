@@ -1,5 +1,33 @@
 {
  "handled": {
+  "petition:https://www.courtlistener.com/docket/75045108/greenwood-mall-realty-holding-llc/": {
+   "at": "2026-11-01",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75044000/ascend-property-group-llc/": {
+   "at": "2026-11-01",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75032545/southern-property-orlando-llc/": {
+   "at": "2026-11-01",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75035974/green-horizons-property-group-llc/": {
+   "at": "2026-11-01",
+   "action": "skipped: no named major sponsor, small single-asset-shaped entity; not selected as significant (one-search budget spent on Greenwood Mall/Ascend/Southern Property Orlando instead)"
+  },
+  "petition:https://www.courtlistener.com/docket/75050846/black-iris-properties-llc/": {
+   "at": "2026-11-01",
+   "action": "skipped: no named major sponsor, small single-asset-shaped entity; not selected as significant (one-search budget spent on Greenwood Mall/Ascend/Southern Property Orlando instead)"
+  },
+  "petition:https://www.courtlistener.com/docket/75030501/13513-s-sam-moore-llc/": {
+   "at": "2026-11-01",
+   "action": "skipped: address-named single-asset entity, no named major sponsor; not selected as significant"
+  },
+  "petition:https://www.courtlistener.com/docket/75047643/zh-development-i-llc/": {
+   "at": "2026-11-01",
+   "action": "skipped: no named major sponsor, small single-asset-shaped entity; not selected as significant"
+  },
   "petition:https://www.courtlistener.com/docket/75054265/blackwell-real-estate-llc/": {
    "at": "2026-11-01",
    "action": "skipped: no coverage found explaining the filing"

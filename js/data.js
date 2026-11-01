@@ -12656,6 +12656,41 @@ const RELAW_DATA = {
         { when: "October 16, 2026", label: "Deadline for Aryeh Realty to pay off the judgment passes unmet" },
         { when: "October 28, 2026", label: "Bank's counsel files papers asking the court for a sheriff's sale of the property", current: true }
       ]
+    },
+    {
+      id: "live-361",
+      seoTitle: "Bialostozky Portfolio: Fannie Mae, Freddie Mac Fraud Suits",
+      seoDescription: "Fannie Mae and Freddie Mac's servicer accuse Chicago investor Chaim Bialostozky's LLCs of inflating apartment loan values across three states.",
+      addedDate: "2026-11-01",
+      title: "Fannie Mae, Freddie Mac Servicer Accuse Chicago Investor's Portfolio Entities of Multistate Mortgage Fraud",
+      brief: "Fannie Mae and Freddie Mac's servicer Walker & Dunlop have sued entities tied to Chicago investor Chaim Bialostozky, alleging inflated property values on roughly $44 million of defaulted apartment loans across Illinois, Oklahoma and Connecticut.",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-09-22",
+      jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division (with related foreclosure suits pending in Oklahoma and Connecticut state courts)",
+      state: "IL",
+      propertyType: "Multifamily",
+      amount: "Roughly $44 million in Fannie Mae- and Freddie Mac-backed multifamily loans now in default or foreclosure across Illinois, Oklahoma and Connecticut",
+      amountUsd: 44000000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/09/22/alleged-mortgage-fraud-fallout-worsens-for-bialostozky/",
+      summary: "Fannie Mae and Freddie Mac's loan servicer Walker & Dunlop have filed a widening series of foreclosure and fraud suits since June 2026 against multifamily portfolio entities tied to Chicago-area investor Chaim Bialostozky, alleging the underlying loans were obtained by inflating property values through same-day, back-to-back property sales. As of a September 22, 2026 report, the suits cover roughly $44 million in loans now in default or foreclosure across Cook County, Illinois, Tulsa County, Oklahoma, and Waterbury, Connecticut, with court records showing no appearance or response filed by the borrower entities in any of the pending actions.",
+      significance: "The case illustrates how federal-agency lenders are increasingly pursuing a coordinated, multi-jurisdiction fraud theory against multifamily investors who scaled quickly on agency debt, rather than treating each defaulted loan as an isolated workout -- alleging a common scheme of inflated valuations across an entire portfolio, which exposes borrowers to receivership and liability well beyond any single property's collateral value. Multifamily owners who financed rapid acquisitions with Fannie Mae or Freddie Mac debt should expect that a default on one property can now trigger lender scrutiny, and parallel litigation, across every other agency-financed asset the same principal controls.",
+      body: [
+        "A Chicago-area multifamily investor's rapid, agency-debt-fueled acquisition spree has collapsed into a widening web of foreclosure and fraud litigation spanning three states. Since June 2026, Fannie Mae and Freddie Mac's loan servicer, Walker & Dunlop, have filed a series of suits against portfolio entities tied to investor Chaim Bialostozky, alleging that he obtained inflated government-backed loans by artificially driving up purchase prices through same-day, back-to-back property sales -- buying buildings and reselling them to his own entities, on paper, at a markup, before using the inflated sale price to justify a larger loan.",
+        "The pattern first surfaced in Chicago, where Fannie Mae sued over a nine-property South Side portfolio bought in 2022 with a loan exceeding $17 million originated through New York-based Arbor Realty, and has since expanded to additional Fannie Mae foreclosure suits in Cook County Circuit Court's Chancery Division targeting other Bialostozky-controlled multifamily holding entities on Chicago's South and West Sides. By a September 22, 2026 report, at least one of those Cook County foreclosure actions had already passed its response deadline without any appearance or answer filed on behalf of the borrower entities, a pattern reporters say has now repeated across nearly every suit in the broader campaign.",
+        "Walker & Dunlop, acting on Freddie Mac's behalf, has brought parallel foreclosure and fraud suits outside Illinois: in Tulsa County, Oklahoma, over roughly $4.8 million in loans tied to two apartment buildings, and in Waterbury, Connecticut, over loans secured by two more apartment complexes. Combined with the Chicago-area Fannie Mae suits, reporting puts the total mortgage debt now caught up in default or foreclosure proceedings across the three states at approximately $44 million.",
+        "Court filings in the Freddie Mac-backed suits go further than a conventional foreclosure complaint, accusing Bialostozky of executing a \"common plan and unlawful fraudulent scheme\" across the properties rather than a series of unrelated defaults, and several of the lender filings seek the appointment of an emergency receiver. Walker & Dunlop's filings also allege that poor property management under Bialostozky's control has \"greatly diminished the value of the collateral\" securing the loans and created a health and safety risk for tenants still living in the buildings while the litigation proceeds.",
+        "For multifamily owners and their lenders, the episode is a reminder that agency-backed debt comes with underwriting assumptions -- about purchase price, property condition, and borrower representations -- that can be unwound years after closing if a lender later concludes those assumptions were manufactured, and that a single discovered irregularity rarely stays contained to one loan or one property once a servicer starts examining the rest of a common principal's portfolio. Borrowers who structure acquisitions through a web of related single-asset or multi-asset LLCs should expect that a fraud allegation against one entity will prompt a lender to scrutinize, and potentially sue, every other entity under common control, and that an unanswered foreclosure complaint early in that process can accelerate a receiver's appointment well before any fraud claim is tested on the merits."
+      ],
+      judge: null,
+      parties: [
+        { name: "Federal National Mortgage Association (Fannie Mae)", role: "Plaintiff/Lender" },
+        { name: "Walker & Dunlop, Inc.", role: "Loan Servicer for Freddie Mac / Plaintiff" },
+        { name: "Arbor Realty Trust, Inc.", role: "Original Lender" }
+      ],
+      tags: ["mortgage-fraud", "multifamily", "foreclosure", "fannie-mae", "freddie-mac"]
     }
   ],
 
@@ -13834,6 +13869,8 @@ const RELAW_DATA = {
     { name: "Alexandria Real Estate Equities, Inc.", matchTerm: "Alexandria", slug: "alexandria-real-estate-equities", description: "NYSE-listed REIT (ARE) and the nation's largest publicly traded owner and developer of life-science laboratory and office space, concentrated in life-science megacampuses including sites in Manhattan.", website: "https://www.are.com" },
     { name: "Thor Equities", matchTerm: "Thor Equities", slug: "thor-equities", description: "Privately held New York City real estate investment and development firm led by Joseph Sitt, active in retail, mixed-use, and data-center development nationally.", website: "https://thorequities.com" },
     { name: "PMC Property Group, Inc.", matchTerm: "PMC Property Group", slug: "pmc-property-group", description: "Philadelphia-based developer and owner specializing in new construction, renovation, and adaptive reuse of urban apartment and office buildings.", website: "https://www.pmcpropertygroup.com" },
-    { name: "JBG Smith Properties", matchTerm: "JBG Smith", slug: "jbg-smith", description: "Washington, D.C.-area REIT and real estate operating company focused on mixed-use office, multifamily, and retail development.", website: "https://www.jbgsmith.com" }
+    { name: "JBG Smith Properties", matchTerm: "JBG Smith", slug: "jbg-smith", description: "Washington, D.C.-area REIT and real estate operating company focused on mixed-use office, multifamily, and retail development.", website: "https://www.jbgsmith.com" },
+    { name: "Federal Home Loan Mortgage Corporation (Freddie Mac)", matchTerm: "Freddie Mac", slug: "freddie-mac", description: "Federally chartered mortgage finance enterprise that purchases and guarantees multifamily mortgage loans and frequently appears as foreclosing lender or loan guarantor in commercial mortgage litigation.", website: "https://www.freddiemac.com" },
+    { name: "Walker & Dunlop, Inc.", matchTerm: "Walker & Dunlop", slug: "walker-dunlop", description: "Bethesda, Maryland-based commercial real estate finance and advisory firm that originates and services multifamily loans for Fannie Mae and Freddie Mac, frequently appearing as loan servicer or foreclosing plaintiff in agency-backed multifamily foreclosure litigation.", website: "https://www.walkerdunlop.com" }
   ]
 };
