@@ -117,12 +117,12 @@
   </url>
   <url>
     <loc>https://credocket.com/cmbs-litigation-tracker.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/commercial-foreclosure-guaranty-damages.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -377,7 +377,7 @@
   </url>
   <url>
     <loc>https://credocket.com/data-center-litigation-tracker.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -882,7 +882,7 @@
   </url>
   <url>
     <loc>https://credocket.com/office-foreclosure-tracker.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -922,7 +922,7 @@
   </url>
   <url>
     <loc>https://credocket.com/quarterly.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -2538,6 +2538,11 @@
   <url>
     <loc>https://credocket.com/matters/live-359.html</loc>
     <lastmod>2026-10-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-360.html</loc>
+    <lastmod>2026-11-01</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
