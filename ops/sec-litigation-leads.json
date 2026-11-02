@@ -1,7 +1,45 @@
 {
- "updatedAt": "2026-11-02T07:38:42+00:00",
+ "updatedAt": "2026-11-02T22:17:56+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001193125-26-443850:opad-20260930.htm",
+   "company": "Offerpad Solutions Inc.  (OPAD)",
+   "cik": "1825024",
+   "sic": "6531",
+   "form": "10-Q",
+   "filed": "2026-11-02",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1825024/000119312526443850/opad-20260930.htm",
+   "phrases": [
+    "filed a complaint"
+   ],
+   "excerpts": [
+    "The Company is not currently a party to any actions, claims, suits or other legal proceedings arising in the ordinary course of business, the outcome of which, if determined adversely to the Company, would individually or in the aggregate have a material adverse effect on the Company\u2019s condensed consolidated financial statements. The following is a description of pending litigation that falls outside the scope of ordinary and routine litigation incidental to the Company\u2019s business. Class Action Alleging Breach of Fiduciary Duties On August 26, 2024, a purported stockholder of Offerpad (the \u201cPlaintiff\u201d) filed a complaint against Alexander Klabin, Spencer Rascoff, Ken Fox, Jim Lanzone, Gregg Renfrew, Rajeev Singh, Robert Reid, Michael Clifton, Supernova Partners, LLC (the \u201cSupernova Defendants\u201d), Brian Bair, and Michael Burnett (the \u201cOfferpad Defendants\u201d). The case is captioned In re Supernova Partners Acquisition Co."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "key": "0000074208-26-000084:udr-ex99d2.htm",
+   "company": "UDR, Inc.  (UDR)",
+   "cik": "74208",
+   "sic": "6798",
+   "form": "8-K",
+   "filed": "2026-11-02",
+   "periodEnding": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/74208/000007420826000084/udr-ex99d2.htm",
+   "phrases": [
+    "deed in lieu of foreclosure"
+   ],
+   "excerpts": [
+    "Investment balance includes amounts funded plus accrued and unpaid return prior to the period end as well as any non-cash impairment losses or loan reserves. (6) In September 2026, UDR acquired a 483-home apartment community located in Riverside, CA, for an incremental cash outlay of $160.3 million, by repaying the joint venture\u2019s first mortgage loan and obtaining the developer\u2019s interest through a deed in lieu of foreclosure. As a result, the joint venture became wholly owned, and UDR began consolidating the community. As part of the transaction, UDR settled its $88.7 million mezzanine loan investment. (7) During the quarter, UDR received full repayment of $29.5 million from its preferred equity investment in a community located in Orlando, FL, upon the recapitalization of the joint venture."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-02"
+  },
   {
    "key": "0001104659-26-120630:mcri-20260930x10q.htm",
    "company": "MONARCH CASINO & RESORT INC  (MCRI)",
