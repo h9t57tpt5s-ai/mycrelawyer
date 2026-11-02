@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-01T16:10:29+00:00",
+ "updatedAt": "2026-11-02T19:39:52+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 19,
+ "requestsUsed": 20,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -304,7 +304,7 @@
    "court": "M.D.N.C.",
    "docketNumber": "1:24-cv-00710",
    "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/69074245/united-states-v-realpage-inc/",
+   "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
    "lastEntryDate": "2026-10-19"
   },
   "69353264": {
@@ -1399,6 +1399,13 @@
   "74922581": {
    "entries": [
     {
+     "date": "2026-11-02",
+     "number": 35,
+     "text": "Notice of hearing",
+     "url": "https://www.courtlistener.com/docket/74922581/35/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-30",
      "number": 34,
      "text": "Relief from stay",
@@ -1446,13 +1453,6 @@
      "text": "Extend/Shorten time",
      "url": "https://www.courtlistener.com/docket/74922581/29/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-21",
-     "number": null,
-     "text": "Hearing set/continued",
-     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1462,10 +1462,38 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-10-30"
+   "lastEntryDate": "2026-11-02"
   },
   "74927117": {
    "entries": [
+    {
+     "date": "2026-11-02",
+     "number": 81,
+     "text": "Order on Motion to Appear pro hac vice",
+     "url": "https://www.courtlistener.com/docket/74927117/81/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-02",
+     "number": 80,
+     "text": "Order (Generic)",
+     "url": "https://www.courtlistener.com/docket/74927117/80/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-02",
+     "number": 79,
+     "text": "Order on Application to Employ",
+     "url": "https://www.courtlistener.com/docket/74927117/79/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-02",
+     "number": 78,
+     "text": "Certificate of Service of Notice of Hearing",
+     "url": "https://www.courtlistener.com/docket/74927117/78/southbridge-associates-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-30",
      "number": 77,
@@ -1493,34 +1521,6 @@
      "text": "Order on Motion to Use Cash Collateral",
      "url": "https://www.courtlistener.com/docket/74927117/72/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-28",
-     "number": 71,
-     "text": "Certificate of Service",
-     "url": "https://www.courtlistener.com/docket/74927117/71/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-28",
-     "number": 70,
-     "text": "Order on Motion to Amend",
-     "url": "https://www.courtlistener.com/docket/74927117/70/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-28",
-     "number": 69,
-     "text": "Order To Set Hearing",
-     "url": "https://www.courtlistener.com/docket/74927117/69/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-28",
-     "number": 68,
-     "text": "Certificate of Service",
-     "url": "https://www.courtlistener.com/docket/74927117/68/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1530,7 +1530,7 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
-   "lastEntryDate": "2026-10-30"
+   "lastEntryDate": "2026-11-02"
   },
   "74948724": {
    "entries": [
