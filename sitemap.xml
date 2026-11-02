@@ -62,12 +62,17 @@
   </url>
   <url>
     <loc>https://credocket.com/brief-2026-10-19.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/brief-2026-10-26.html</loc>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/briefs.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -117,7 +122,7 @@
   </url>
   <url>
     <loc>https://credocket.com/cmbs-litigation-tracker.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -132,7 +137,7 @@
   </url>
   <url>
     <loc>https://credocket.com/commercial-premises-liability-damages.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -387,7 +392,7 @@
   </url>
   <url>
     <loc>https://credocket.com/data-center-litigation-tracker.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -797,12 +802,12 @@
   </url>
   <url>
     <loc>https://credocket.com/litigation-index-2026-09.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation-index-2026-10.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -892,7 +897,7 @@
   </url>
   <url>
     <loc>https://credocket.com/office-foreclosure-tracker.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -2558,6 +2563,11 @@
   <url>
     <loc>https://credocket.com/matters/live-361.html</loc>
     <lastmod>2026-11-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-362.html</loc>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
