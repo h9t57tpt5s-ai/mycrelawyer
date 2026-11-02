@@ -1,0 +1,514 @@
+{
+ "date": "2026-11-02",
+ "generatedAt": "2026-11-02T22:52:40+00:00",
+ "note": "Visits are tab sessions from js/track.js (crawlers filtered); the site is small, so read 7- and 28-day windows, not single days.",
+ "last1Day": {
+  "visits": 134,
+  "pageViews": 142,
+  "multiPageVisits": 4,
+  "multiPageRate": 0.0299,
+  "funnel": {
+   "viewedAMatter": 51,
+   "sawSignInPrompt": 0,
+   "openedSignIn": 3,
+   "signedUpOrIn": 0,
+   "readFullWriteUp": 26,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 0,
+  "follows": 0,
+  "newsletterSignups": 0,
+  "contactSends": 0,
+  "sourceClicks": 2,
+  "searches": 0,
+  "byEvent": {
+   "page_view": 117,
+   "full_read": 26,
+   "panel_open": 26,
+   "matter_page_view": 25,
+   "signin_open": 3,
+   "source_click": 2
+  },
+  "topPages": [
+   [
+    "/litigation.html",
+    36
+   ],
+   [
+    "/contact.html",
+    7
+   ],
+   [
+    "/",
+    7
+   ],
+   [
+    "/judges.html",
+    5
+   ],
+   [
+    "/compare-companies.html",
+    5
+   ],
+   [
+    "/newsletter.html",
+    5
+   ],
+   [
+    "/chapter-11/greenwood-mall-realty-holding-llc-kywb-26-11017.html",
+    3
+   ],
+   [
+    "/chapter-11/blackwell-real-estate-llc-txwb-26-12227.html",
+    3
+   ],
+   [
+    "/case-valuation.html",
+    2
+   ],
+   [
+    "/chapter-11/jsp-development-corp-ilnb-26-18343.html",
+    2
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 2,
+   "lease-clause-redline": 0,
+   "settlement-benchmarks": 0,
+   "litigation-index": 0,
+   "-tracker": 0
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    101
+   ],
+   [
+    "google.com",
+    23
+   ],
+   [
+    "utm:defebdxfg",
+    5
+   ],
+   [
+    "utm:credocket",
+    5
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-340",
+    2
+   ],
+   [
+    "live-029",
+    2
+   ],
+   [
+    "live-221",
+    2
+   ],
+   [
+    "live-091",
+    2
+   ],
+   [
+    "live-045",
+    2
+   ],
+   [
+    "live-210",
+    2
+   ],
+   [
+    "live-342",
+    2
+   ],
+   [
+    "live-263",
+    2
+   ],
+   [
+    "live-362",
+    2
+   ],
+   [
+    "live-357",
+    2
+   ]
+  ]
+ },
+ "last7Days": {
+  "visits": 1357,
+  "pageViews": 1386,
+  "multiPageVisits": 24,
+  "multiPageRate": 0.0177,
+  "funnel": {
+   "viewedAMatter": 498,
+   "sawSignInPrompt": 0,
+   "openedSignIn": 3,
+   "signedUpOrIn": 2,
+   "readFullWriteUp": 220,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 1,
+  "follows": 0,
+  "newsletterSignups": 1,
+  "contactSends": 0,
+  "sourceClicks": 17,
+  "searches": 7,
+  "byEvent": {
+   "page_view": 1101,
+   "matter_page_view": 285,
+   "panel_open": 264,
+   "full_read": 260,
+   "source_click": 17,
+   "search": 7,
+   "permalink": 3,
+   "signin_open": 3,
+   "signup": 1,
+   "magic_link_sent": 1
+  },
+  "topPages": [
+   [
+    "/contact.html",
+    418
+   ],
+   [
+    "/litigation.html",
+    276
+   ],
+   [
+    "/",
+    21
+   ],
+   [
+    "/matters/live-208.html",
+    17
+   ],
+   [
+    "/compare-companies.html",
+    17
+   ],
+   [
+    "/judges.html",
+    12
+   ],
+   [
+    "/matters/live-114.html",
+    10
+   ],
+   [
+    "/chapter-11/greenwood-mall-realty-holding-llc-kywb-26-11017.html",
+    9
+   ],
+   [
+    "/matters/live-315.html",
+    8
+   ],
+   [
+    "/newsletter.html",
+    8
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 11,
+   "lease-clause-redline": 0,
+   "settlement-benchmarks": 1,
+   "litigation-index": 2,
+   "-tracker": 4
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    1159
+   ],
+   [
+    "google.com",
+    162
+   ],
+   [
+    "utm:chatgpt.com",
+    7
+   ],
+   [
+    "utm:defebdxfg",
+    5
+   ],
+   [
+    "utm:credocket",
+    5
+   ],
+   [
+    "duckduckgo.com",
+    4
+   ],
+   [
+    "gemini.google.com",
+    3
+   ],
+   [
+    "bing.com",
+    2
+   ],
+   [
+    "noai.duckduckgo.com",
+    1
+   ],
+   [
+    "utm:perplexity",
+    1
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-090",
+    28
+   ],
+   [
+    "live-208",
+    18
+   ],
+   [
+    "live-084",
+    12
+   ],
+   [
+    "live-114",
+    11
+   ],
+   [
+    "live-274",
+    9
+   ],
+   [
+    "live-315",
+    9
+   ],
+   [
+    "live-342",
+    9
+   ],
+   [
+    "live-229",
+    8
+   ],
+   [
+    "live-051",
+    7
+   ],
+   [
+    "live-200",
+    7
+   ]
+  ]
+ },
+ "last28Days": {
+  "visits": 2592,
+  "pageViews": 2809,
+  "multiPageVisits": 117,
+  "multiPageRate": 0.0451,
+  "funnel": {
+   "viewedAMatter": 1201,
+   "sawSignInPrompt": 5,
+   "openedSignIn": 7,
+   "signedUpOrIn": 8,
+   "readFullWriteUp": 385,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 6,
+  "follows": 0,
+  "newsletterSignups": 4,
+  "contactSends": 0,
+  "sourceClicks": 71,
+  "searches": 24,
+  "byEvent": {
+   "page_view": 1909,
+   "matter_page_view": 900,
+   "panel_open": 682,
+   "full_read": 670,
+   "source_click": 71,
+   "search": 24,
+   "gate_shown": 7,
+   "signin_open": 7,
+   "permalink": 7,
+   "signup": 6,
+   "magic_link_sent": 3
+  },
+  "topPages": [
+   [
+    "/litigation.html",
+    539
+   ],
+   [
+    "/contact.html",
+    435
+   ],
+   [
+    "/",
+    154
+   ],
+   [
+    "/matters/live-208.html",
+    143
+   ],
+   [
+    "/updates.html",
+    30
+   ],
+   [
+    "/matters/live-221.html",
+    27
+   ],
+   [
+    "/matters/live-188.html",
+    24
+   ],
+   [
+    "/compare-companies.html",
+    23
+   ],
+   [
+    "/newsletter.html",
+    21
+   ],
+   [
+    "/matters/live-229.html",
+    21
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 20,
+   "lease-clause-redline": 2,
+   "settlement-benchmarks": 2,
+   "litigation-index": 12,
+   "-tracker": 17
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    1914
+   ],
+   [
+    "google.com",
+    562
+   ],
+   [
+    "utm:chatgpt.com",
+    35
+   ],
+   [
+    "utm:defebdxfg",
+    17
+   ],
+   [
+    "utm:credocket",
+    13
+   ],
+   [
+    "bing.com",
+    9
+   ],
+   [
+    "gemini.google.com",
+    5
+   ],
+   [
+    "com.google.android.googlequicksearchbox",
+    5
+   ],
+   [
+    "perplexity.ai",
+    4
+   ],
+   [
+    "ballardspahr.questkm.com",
+    4
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-208",
+    175
+   ],
+   [
+    "live-271",
+    51
+   ],
+   [
+    "live-099",
+    41
+   ],
+   [
+    "live-090",
+    37
+   ],
+   [
+    "live-221",
+    33
+   ],
+   [
+    "live-303",
+    32
+   ],
+   [
+    "live-267",
+    29
+   ],
+   [
+    "live-272",
+    27
+   ],
+   [
+    "live-188",
+    26
+   ],
+   [
+    "live-229",
+    23
+   ]
+  ]
+ },
+ "audit": {
+  "summary": {
+   "zeroStatCounters": 0,
+   "unstyledHeroClasses": 0,
+   "hiddenUpdatesButton": 0,
+   "brokenLinks": 0,
+   "missingTitle": 0,
+   "longTitle": 0,
+   "missingDescription": 2,
+   "weakDescription": 1,
+   "missingCanonical": 0,
+   "duplicateTitles": 0,
+   "orphanPages": 0,
+   "missingFromSitemap": 0,
+   "sitemapUrlsWithoutFile": 0,
+   "imagesWithoutAlt": 0,
+   "heavyPages": 0
+  },
+  "freshness": {
+   "matters": 310,
+   "newestMatterAdded": "2026-11-02",
+   "daysSinceNewestMatter": 0,
+   "ch11Petitions": 166,
+   "newestCh11Petition": "2026-11-02",
+   "daysSinceNewestCh11": 0,
+   "federalSuits": 100,
+   "newestFederalSuit": "2026-10-30",
+   "daysSinceNewestSuit": 3
+  },
+  "pagesChecked": 786
+ },
+ "pipelines": {
+  "chapter11Petitions": 166,
+  "federalSuits": 100,
+  "secLeads": 18,
+  "wireLeads": 1,
+  "leadsHandled": 348
+ }
+}
