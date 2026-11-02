@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-11-02T01:45:31+00:00",
+ "updatedAt": "2026-11-02T20:55:07+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "JHEJ Property LLC v. Auto-Owners Insurance Company",
+   "court": "District Court, N.D. Georgia",
+   "courtId": "gand",
+   "docketNumber": "1:26-cv-06640",
+   "dateFiled": "2026-10-30",
+   "docketUrl": "https://www.courtlistener.com/docket/75056697/jhej-property-llc-v-auto-owners-insurance-company/",
+   "docketId": 75056697,
+   "suitNature": "",
+   "cause": "",
+   "slug": "jhej-property-llc-v-auto-owners-insurance-company-gand-1-26-cv-06640",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "VIVA BURRITO DEVELOPMENT CORPORATION v. United States",
    "court": "United States Court of Federal Claims",

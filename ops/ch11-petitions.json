@@ -1,7 +1,40 @@
 {
- "updatedAt": "2026-11-02T01:45:31+00:00",
+ "updatedAt": "2026-11-02T20:55:07+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Fleur-De-Lis International Realty, Inc.",
+   "court": "United States Bankruptcy Court, M.D. Florida",
+   "courtId": "flmb",
+   "docketNumber": "6:26-bk-08600",
+   "dateFiled": "2026-11-02",
+   "docketUrl": "https://www.courtlistener.com/docket/75057172/fleur-de-lis-international-realty-inc/",
+   "docketId": 75057172,
+   "slug": "fleur-de-lis-international-realty-inc-flmb-6-26-bk-08600",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "ANA Properties LLC",
+   "court": "United States Bankruptcy Court, D. Massachusetts",
+   "courtId": "mab",
+   "docketNumber": "26-12611",
+   "dateFiled": "2026-11-02",
+   "docketUrl": "https://www.courtlistener.com/docket/75057276/ana-properties-llc/",
+   "docketId": 75057276,
+   "slug": "ana-properties-llc-mab-26-12611",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "9988 SE Cottage Lane LLC",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-45128",
+   "dateFiled": "2026-11-02",
+   "docketUrl": "https://www.courtlistener.com/docket/75058066/9988-se-cottage-lane-llc/",
+   "docketId": 75058066,
+   "slug": "9988-se-cottage-lane-llc-nyeb-1-26-45128",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "JSP Development Corp.",
    "court": "United States Bankruptcy Court, N.D. Illinois",
