@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-11-01T17:15:19+00:00",
+ "updatedAt": "2026-11-02T01:45:31+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "JSP Development Corp.",
+   "court": "United States Bankruptcy Court, N.D. Illinois",
+   "courtId": "ilnb",
+   "docketNumber": "26-18343",
+   "dateFiled": "2026-11-01",
+   "docketUrl": "https://www.courtlistener.com/docket/75055443/jsp-development-corp/",
+   "docketId": 75055443,
+   "slug": "jsp-development-corp-ilnb-26-18343",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "2797 Campbellton Rd, LLC",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "courtId": "ganb",
+   "docketNumber": "26-64719",
+   "dateFiled": "2026-11-01",
+   "docketUrl": "https://www.courtlistener.com/docket/75055346/2797-campbellton-rd-llc/",
+   "docketId": 75055346,
+   "slug": "2797-campbellton-rd-llc-ganb-26-64719",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "Blackwell Real Estate, LLC",
    "court": "United States Bankruptcy Court, W.D. Texas",
@@ -66,61 +88,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75044000/ascend-property-group-llc/",
    "docketId": 75044000,
    "slug": "ascend-property-group-llc-nvb-26-16908",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Southern Property Orlando, LLC",
-   "court": "United States Bankruptcy Court, M.D. Florida",
-   "courtId": "flmb",
-   "docketNumber": "6:26-bk-08412",
-   "dateFiled": "2026-10-28",
-   "docketUrl": "https://www.courtlistener.com/docket/75032545/southern-property-orlando-llc/",
-   "docketId": 75032545,
-   "slug": "southern-property-orlando-llc-flmb-6-26-bk-08412",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Green Horizons Property Group LLC",
-   "court": "United States Bankruptcy Court, W.D. North Carolina",
-   "courtId": "ncwb",
-   "docketNumber": "26-10254",
-   "dateFiled": "2026-10-28",
-   "docketUrl": "https://www.courtlistener.com/docket/75035974/green-horizons-property-group-llc/",
-   "docketId": 75035974,
-   "slug": "green-horizons-property-group-llc-ncwb-26-10254",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "3326 Chestnut, LLC",
-   "court": "United States Bankruptcy Court, N.D. California",
-   "courtId": "canb",
-   "docketNumber": "26-42203",
-   "dateFiled": "2026-10-28",
-   "docketUrl": "https://www.courtlistener.com/docket/75036281/3326-chestnut-llc/",
-   "docketId": 75036281,
-   "slug": "3326-chestnut-llc-canb-26-42203",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "13513 S SAM MOORE LLC",
-   "court": "United States Bankruptcy Court, W.D. Missouri",
-   "courtId": "mowb",
-   "docketNumber": "26-41922",
-   "dateFiled": "2026-10-28",
-   "docketUrl": "https://www.courtlistener.com/docket/75030501/13513-s-sam-moore-llc/",
-   "docketId": 75030501,
-   "slug": "13513-s-sam-moore-llc-mowb-26-41922",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "1 Solution Wellness LLC",
-   "court": "United States Bankruptcy Court, S.D. Florida.",
-   "courtId": "flsb",
-   "docketNumber": "26-24365",
-   "dateFiled": "2026-10-28",
-   "docketUrl": "https://www.courtlistener.com/docket/75035427/1-solution-wellness-llc/",
-   "docketId": 75035427,
-   "slug": "1-solution-wellness-llc-flsb-26-24365",
    "type": "Chapter 11 petition"
   }
  ]
