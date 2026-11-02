@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-01",
+  lastUpdatedDate: "2026-11-02",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -12691,6 +12691,48 @@ const RELAW_DATA = {
         { name: "Arbor Realty Trust, Inc.", role: "Original Lender" }
       ],
       tags: ["mortgage-fraud", "multifamily", "foreclosure", "fannie-mae", "freddie-mac"]
+    },
+    {
+      id: "live-362",
+      seoTitle: "5th Circ.: Apartment Owner's Hail Claim Was Time-Barred",
+      seoDescription: "Fifth Circuit affirmed NFI Apartment Management's hail-damage suit against Third Coast Insurance was filed too late, years after the claim denial.",
+      addedDate: "2026-11-02",
+      title: "NFI Apartment Management, L.L.C. v. Third Coast Insurance Company (Fifth Circuit Affirms Time-Barred Hail Coverage Claim)",
+      brief: "The Fifth Circuit affirmed summary judgment against a San Antonio apartment owner's insurer over a $359,856.60-deductible hail claim, holding its 2024 suit came years after the limitations clock started running.",
+      category: "premises-liability",
+      status: "ruling",
+      date: "2026-10-20",
+      jurisdiction: "U.S. Court of Appeals for the Fifth Circuit (W.D. Tex.)",
+      state: "TX",
+      propertyType: "Multifamily",
+      amount: "$359,856.60 policy deductible; insurer's damage estimates of roughly $37,058 and later $61,840 both fell below it",
+      amountUsd: 359856.60,
+      amountBasis: "other",
+      source: "live",
+      sourceUrl: "https://www.ca5.uscourts.gov/opinions/unpub/25/25-50953.0.pdf",
+      summary: "The Fifth Circuit affirmed summary judgment for Third Coast Insurance Company against NFI Apartment Management, L.L.C. over a May 2020 hailstorm claim on a San Antonio apartment complex, holding NFI's 2024 breach-of-contract and Texas Insurance Code suit was barred by the policy's contractual limitations period and Texas's statutory limitations periods. Third Coast had found covered damage of about $37,058.29 in a July 21, 2020 letter, below the policy's $359,856.60 deductible, and a later joint reinspection raised that estimate only to about $61,839.72 before Third Coast closed the file in July 2021 -- with the court holding the claim accrued no later than the 2020 denial letter, years before NFI sued.",
+      significance: "The case is a clean illustration of a recurring trap in first-party commercial property claims: when an insurer's determination is a below-deductible estimate rather than an outright denial, there is no formal 'claim denied' letter to anchor a policyholder's calendar, but courts will still treat that determination as the limitations trigger. Multifamily and other commercial property owners who let a below-deductible estimate or a closed claim file sit for years while continuing informal discussions with an adjuster risk losing their coverage claim entirely before a court ever reaches the merits of whether the damage estimate itself was fair.",
+      body: [
+        "The U.S. Court of Appeals for the Fifth Circuit has affirmed summary judgment against a San Antonio multifamily owner on one of the most common defenses in first-party property litigation: the statute of limitations. In an unpublished, per curiam opinion issued October 20, 2026 in NFI Apartment Management, L.L.C. v. Third Coast Insurance Company, the court held that NFI's breach-of-contract and Texas Insurance Code claims against its property insurer over hailstorm damage were filed years after the limitations period had already run, affirming the district court's grant of summary judgment to the insurer.",
+        "The dispute traces back to a May 2020 hailstorm that struck an apartment complex NFI Apartment Management owns in San Antonio. NFI submitted a claim to its insurer, Third Coast Insurance Company, which investigated and, in a letter dated July 21, 2020, identified roughly $37,058.29 in covered damage -- far short of the policy's $359,856.60 deductible. Because the estimated loss did not clear the deductible, Third Coast paid nothing. After NFI pushed back, the parties conducted a joint reinspection of the property, and Third Coast's consultant revised the estimate upward to roughly $61,839.72, still well below the deductible threshold. Third Coast formally closed the claim file on July 28, 2021.",
+        "NFI did not sue until 2024, asserting breach of contract and violations of the Texas Insurance Code and the Texas Deceptive Trade Practices Act. Third Coast removed the case to the U.S. District Court for the Western District of Texas and moved for summary judgment, arguing NFI's claims were barred both by the policy's own contractual limitations provision and by the applicable Texas statutory limitations periods. The district court agreed, holding the claims accrued no later than the July 21, 2020 denial letter, granted summary judgment for Third Coast, and dismissed NFI's pending discovery motion as moot.",
+        "On appeal, NFI's central argument was simply that its claims were not time-barred, effectively asking the Fifth Circuit to revisit the accrual-date finding the district court had already rejected. Reviewing the summary judgment grant de novo, the panel was unpersuaded, agreeing that the limitations clock began running when Third Coast denied coverage above the deductible -- or at the latest, when it closed the claim file following the joint reinspection -- rather than whenever NFI eventually got around to filing suit roughly three to four years later. Because the opinion is unpublished, it does not bind future Fifth Circuit panels, but it still reflects how the court applied settled Texas limitations principles to the facts.",
+        "The ruling never reached the merits of whether Third Coast's damage estimate was accurate or whether more of the hail damage should have been deemed covered; the case was resolved entirely on timing. That procedural posture is what makes it useful to commercial property owners beyond its immediate parties: it shows that a below-deductible determination letter, even though it authorizes no payment and uses none of the formal language of a denial, functions exactly like a denial for limitations purposes. An owner who treats continued back-and-forth with an adjuster, or a pending reinspection, as pausing the clock is taking on real risk that the clock has in fact been running the whole time.",
+        "For multifamily owners and other commercial insureds, the practical lesson is to calendar limitations deadlines from an insurer's first adverse determination -- whether an outright denial or, as here, a below-deductible estimate -- rather than waiting for some further, more final-sounding resolution that may never arrive. Any later reinspection or revised estimate should not be assumed to restart the limitations clock absent explicit contractual language or a written tolling agreement, and because many commercial property policies shorten the limitations period by contract below what Texas statute would otherwise allow, owners facing a denied or below-deductible claim should have counsel confirm the specific contractual deadline, not just the general statutory period, at the first sign of a dispute -- well before any claim file is formally closed."
+      ],
+      judge: null,
+      parties: [
+        { name: "NFI Apartment Management, L.L.C.", role: "Plaintiff-Appellant" },
+        { name: "Third Coast Insurance Company", role: "Defendant-Appellee" }
+      ],
+      tags: ["insurance coverage", "hail damage", "multifamily", "limitations period", "fifth circuit"],
+      timeline: [
+        { when: "May 2020", label: "Hailstorm damages NFI's San Antonio apartment complex" },
+        { when: "July 21, 2020", label: "Third Coast denies payment, finding covered damage of about $37,058 below the $359,856.60 deductible" },
+        { when: "July 28, 2021", label: "Third Coast closes the claim file after a joint reinspection raises the estimate to about $61,840, still below the deductible" },
+        { when: "2024", label: "NFI sues Third Coast for breach of contract and Texas Insurance Code and DTPA violations" },
+        { when: "October 20, 2026", label: "Fifth Circuit affirms summary judgment for Third Coast, holding NFI's claims were time-barred", current: true }
+      ]
     }
   ],
 

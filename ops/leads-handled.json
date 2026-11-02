@@ -1415,6 +1415,14 @@
   "0001468174-26-000034:h-20260930.htm": {
    "at": "2026-11-01",
    "action": "skipped: excerpt describes a federal tax controversy (IRS petition for rehearing on a Seventh Circuit tax ruling) with no property-specific facts; not a commercial real estate dispute (lender, tenant, partner, contractor or government suit over property) on its face"
+  },
+  "petition:https://www.courtlistener.com/docket/75055443/jsp-development-corp/": {
+   "at": "2026-11-02",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75055346/2797-campbellton-rd-llc/": {
+   "at": "2026-11-02",
+   "action": "skipped: no coverage found explaining the filing"
   }
  }
 }
