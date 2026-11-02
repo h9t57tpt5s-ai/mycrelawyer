@@ -845,8 +845,13 @@
     "windsor_tower_actual": 48260
    },
    "checkAfter": "2026-11-02",
-   "status": "watching",
-   "note": "Hand-traced the saved results-v6/windsor-tower-v-speedy-maintenance-2024.json prediction against the live code (no API spend): Speedy's single $66,000 disputed mechanics-lien claim is pled as three alternative opposing legal theories (contract breach, unjust enrichment, lien foreclosure), each an independent issue with the same figure and probabilityRange. dedupeRepresentedFigures() (valuation-math.ts line 85) explicitly skips opposing issues, so index.ts's mechanical per-issue loop (lines ~2776-2793) sums each theory's expected-value contribution separately -- 3 x (0.2 * -66000) = -39600 instead of one -13200 -- and the arithmetic reproduces the saved damagesRange[0]=-18138 to the dollar. Confirmed this is in the shared aggregation step (not v6IssueRange), so v4.3/v4.4 share the same latent bug; it just hasn't shown up in any scored v4.3 case yet. No code changed (Jeff-gated, and not cloud-deployable regardless). Full trace and proposed fix shape (merge same-figure alternative opposing theories into one issue before the mechanical loop, same pattern dedupeRepresentedFigures already uses for the represented side) in ops/calculator-proposals.md's 2026-10-26 entry; G15 updated with a fourth concrete decision."
+   "status": "no clear effect",
+   "note": "Hand-traced the saved results-v6/windsor-tower-v-speedy-maintenance-2024.json prediction against the live code (no API spend): Speedy's single $66,000 disputed mechanics-lien claim is pled as three alternative opposing legal theories (contract breach, unjust enrichment, lien foreclosure), each an independent issue with the same figure and probabilityRange. dedupeRepresentedFigures() (valuation-math.ts line 85) explicitly skips opposing issues, so index.ts's mechanical per-issue loop (lines ~2776-2793) sums each theory's expected-value contribution separately -- 3 x (0.2 * -66000) = -39600 instead of one -13200 -- and the arithmetic reproduces the saved damagesRange[0]=-18138 to the dollar. Confirmed this is in the shared aggregation step (not v6IssueRange), so v4.3/v4.4 share the same latent bug; it just hasn't shown up in any scored v4.3 case yet. No code changed (Jeff-gated, and not cloud-deployable regardless). Full trace and proposed fix shape (merge same-figure alternative opposing theories into one issue before the mechanical loop, same pattern dedupeRepresentedFigures already uses for the represented side) in ops/calculator-proposals.md's 2026-10-26 entry; G15 updated with a fourth concrete decision.",
+   "verdict": {
+    "date": "2026-11-02",
+    "value": "No Jeff annotation found anywhere in ops/calculator-proposals.md since the 2026-10-26 entry; live ANALYSIS_VERSION is still \"v4.4\" in supabase/functions/case-valuation-analyze/index.ts while every public page/goals.json still shows v4.3, and no results-v4.4/ directory exists.",
+    "note": "Same non-decision pattern as imp-011/025/026/028/032/040/043/045 -- nothing to measure yet because the thing being watched (a decision) hasn't happened. Nothing to revert; no live site or valuation-method change was ever made."
+   }
   },
   {
    "id": "imp-035",
@@ -1090,10 +1095,62 @@
    "metric": "Whether 2026-11-05's ops/metrics snapshot shows visits7/multiPageRate7 back near pre-burst levels (contact.html's last1Day count back under ~15/day) once the rolling window finally excludes 10-28/29; also gates how imp-038's own 2026-11-04 verdict should be read",
    "window": "n/a -- measurement correction, not a goal change",
    "baseline": {
-    "contactHtmlLast1Day_1026_1031": [0, 0, 43, 213, 5, 14]
+    "contactHtmlLast1Day_1026_1031": [
+     0,
+     0,
+     43,
+     213,
+     5,
+     14
+    ]
    },
    "checkAfter": "2026-11-05",
    "status": "watching"
+  },
+  {
+   "id": "imp-048",
+   "date": "2026-11-02",
+   "track": "traffic",
+   "title": "Confirmed G19's contact.html bot-traffic burst recurred a third time (2026-11-01, 118 hits) -- it is an intermittent, ongoing contamination source, not a resolved two-day incident",
+   "why": "Judged imp-034 today (no clear effect, see 'What we have learned'). goals.json mostBehind was conversion/calculator/traffic/news; conversion and traffic were touched in the last 2 log entries (imp-046, imp-047), so calculator would be next, but calculatorViews7 is blocked by imp-044 until 2026-11-07, finalRangeHitRate is Jeff-gated regardless, and all saved backtest result directories (results-v4.3/v4.5/v6/v6.1) are unchanged in size since the 2026-10-30/31 scans -- no new evidence to mine. Every other goal's real metric is similarly blocked by an open watching entry (traffic: imp-038 till 11-04; conversion: imp-046 till 11-08; news: imp-041 till 11-05, though news is already on track anyway). Rather than force a reconfounding change or default to a plain no-op, picked up imp-047's own 'next time' instruction (re-run the per-day contact.html check before trusting any visits7/multiPageRate7 verdict through at least 2026-11-05) now that the 2026-11-01 daily snapshot has landed -- directly relevant to correctly reading imp-038's upcoming 2026-11-04 verdict.",
+   "files": [
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "9e09bd5ef1262253488869c22eb39cbf892ceeb1",
+   "metric": "Whether a 7-day stretch with zero contact.html bursts shows up before G19 is resolved; also gates how imp-038's 2026-11-04 traffic verdict and imp-046's 2026-11-08 conversion verdict should be read",
+   "window": "n/a -- measurement correction/evidence update, not a goal change",
+   "baseline": {
+    "contactHtmlLast1Day_1026_1101": [
+     0,
+     0,
+     43,
+     213,
+     5,
+     14,
+     118
+    ]
+   },
+   "checkAfter": "2026-11-05",
+   "status": "watching",
+   "note": "Pulled last1Day.topPages and last1Day (full funnel) directly from ops/metrics/history/2026-11-01.json: contact.html got 118 of that day's 328 visits (36%), 307 of 328 landings were 'direct or unknown' referrer, and multiPageRate crashed to 0.003 (1 multi-page visit all day) -- the identical signature as the confirmed 10-28/29 burst. This is the third burst day in six (0, 0, 43, 213, 5, 14, 118 for 10-26 through 11-01), at an irregular cadence (not a steady daily rate), so G19 is updated from 'a bounded two-day event' to 'an intermittent, recurring source.' No code change possible or attempted (js/track.js and scripts/metrics_snapshot.py are both off-limits to this routine)."
+  },
+  {
+   "id": "imp-049",
+   "date": "2026-11-02",
+   "track": "traffic",
+   "title": "Refreshed ops/social-drafts/ with 4 new LinkedIn post drafts (backlog G5)",
+   "why": "Every goal's numeric lever was blocked or Jeff-gated this run (see imp-048's 'why'), so after the G19 evidence update this run also worked the standing no-goal-metric fallback (backlog G5): 19 new matters (live-343 through live-361) had been added since imp-039's 2026-10-28 refresh, well over the usual refresh threshold.",
+   "files": [
+    "ops/social-drafts/2026-11-02.md",
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "9e09bd5ef1262253488869c22eb39cbf892ceeb1",
+   "metric": "none -- these are drafts for Jeff to review and post himself; no goal metric watches this file",
+   "window": "n/a",
+   "baseline": null,
+   "checkAfter": null,
+   "status": "no-op",
+   "note": "Drafted 4 of the 19 eligible new matters, picked for diversity/scale (a $9.3M D.C. RealPage algorithmic-rent-pricing settlement against JBG Smith/MAA, a $310M Chicago office CMBS foreclosure, an $8.36M construction-fraud judgment with $3.9M punitive damages, and a $46M Kansas land-development judgment headed to sheriff's sale), each fact copied verbatim from its published matter write-up in js/data.js. Skipped live-352 (Matter of Bruck v. Town of Rochester Planning Bd.) because its caption names an individual petitioner from court records, per CLAUDE.md's bar on amplifying individuals' names; confirmed all 4 cited matter pages exist before publishing the draft."
   }
  ]
 }
