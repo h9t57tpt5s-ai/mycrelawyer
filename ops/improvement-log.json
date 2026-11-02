@@ -1151,6 +1151,14 @@
    "checkAfter": null,
    "status": "no-op",
    "note": "Drafted 4 of the 19 eligible new matters, picked for diversity/scale (a $9.3M D.C. RealPage algorithmic-rent-pricing settlement against JBG Smith/MAA, a $310M Chicago office CMBS foreclosure, an $8.36M construction-fraud judgment with $3.9M punitive damages, and a $46M Kansas land-development judgment headed to sheriff's sale), each fact copied verbatim from its published matter write-up in js/data.js. Skipped live-352 (Matter of Bruck v. Town of Rochester Planning Bd.) because its caption names an individual petitioner from court records, per CLAUDE.md's bar on amplifying individuals' names; confirmed all 4 cited matter pages exist before publishing the draft."
+  },
+  {
+   "id": "imp-050",
+   "date": "2026-11-02",
+   "track": "audit",
+   "title": "No change",
+   "why": "Nothing had a checkAfter due today (earliest watching entry is imp-038's 2026-11-04); site_audit.py and goal_scoreboard.py are both clean/unchanged from this morning's run (today's daily metrics snapshot hadn't landed yet, so the numbers are the same underlying data imp-048/imp-049 already saw). Every numeric goal's actual lever is blocked by an open experiment, Jeff-gated, or already exhausted without a paid backtest run: traffic (imp-038 open on visits7/googleLandings7 until 2026-11-04, plus imp-047/imp-048 open on the G19 measurement question until 2026-11-05), conversion (imp-046 open on newsletterSignups7/signUps7 until 2026-11-08; follows7's real blocker is off-limits code per G17; multiPageRate7 is unreadable per G19), calculator (imp-044 open on calculatorViews7 until 2026-11-07; finalRangeHitRate is Jeff-gated regardless, and no saved backtest directory has changed size since the 2026-10-30/31 scans), subscription (imp-042's weak-proxy watch is open until 2026-11-06, and only 3 days have passed since its last tracked change, nowhere near the 7-day rule). Checked every remaining non-metric candidate before concluding none was worthwhile: the last 3 days of ops/leads-handled.json (42 entries, 36 skips) show 53% still the already-addressed bare-docket 'no coverage found' shape, nothing new recurring; ops/social-drafts/ has only 1 new eligible matter (live-362) since this morning's refresh (imp-049), too thin to redraft; no subscription-relevant page besides monitor.html/coverage.html (already fixed by imp-042) is missing a procurement.html link; and G12's next traffic page (CA|lease-disputes or CA|lending-foreclosure, 6 matters each) is correctly withheld because it would reconfound imp-038's open visits7/googleLandings7 read before 2026-11-04-05.",
+   "status": "no-op"
   }
  ]
 }
