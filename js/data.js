@@ -13166,6 +13166,32 @@ const RELAW_DATA = {
       summary: "Cushman & Wakefield's Q3 2026 U.S. Industrial MarketBeat put national industrial vacancy at 6.8%, 20 basis points below its late-2025 peak and the lowest since year-end 2024. Net absorption reached 76.6 million square feet in the quarter, the strongest since the first quarter of 2023. The construction pipeline rose 6% from the second quarter to about 324 million square feet, up 23% year over year, and annual asking rent growth reached 4% nationwide. Data center-related users accounted for more than 8% of new leasing activity so far this year.",
       significance: "Falling vacancy and re-accelerating rents shift leverage to industrial landlords, raising the stakes in renewal-option and fair-market-rent resets, holdovers, expansion and right-of-first-offer disputes, and assignments by tenants trying to keep below-market leases. A rebuilding construction pipeline weighted toward build-to-suit projects brings more development-agreement, delay and mechanics' lien disputes, and data center-related users add zoning and power-supply questions to industrial siting.",
       tags: ["industrial", "vacancy", "cushman & wakefield", "logistics", "leasing"]
+    },
+    {
+      id: "trend-025",
+      title: "Wells Fargo and Bank of America CRE Write-Offs Jump to $107M and $105M in Q3 as Problem Loans Shrink",
+      category: "lending-foreclosure",
+      date: "2026-10-19",
+      scope: "U.S. money-center bank commercial real estate loan books (third-quarter 2026 earnings, Wells Fargo and Bank of America)",
+      metric: "CRE write-offs: Wells Fargo $107M (from $16M), Bank of America $105M (from $2M); problem CRE loans down 20% and 17%",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/national/capital-markets/big-banks-take-bigger-cre-losses-as-they-clear-problem-loans",
+      summary: "Third-quarter results show the two banks taking far larger commercial real estate losses while shrinking their troubled books. Wells Fargo's CRE write-offs rose to $107M from $16M in the second quarter, its problem CRE loans fell 20% to $2.7B, and its office loans fell 7% to $18.6B. Bank of America's CRE write-offs rose to $105M from $2M while troubled CRE loans fell 17% to $888M. Both cut reserves: Wells Fargo to about $1.61 per $100 of CRE loans from $1.77, and Bank of America to $1.14 from $1.28.",
+      significance: "Rising write-offs alongside falling problem-loan balances mean banks are resolving distressed CRE credits rather than extending them: note sales, discounted payoffs, foreclosures and receiverships. Borrowers on maturing bank loans should expect less forbearance and faster enforcement, guarantors should expect deficiency and guaranty claims to follow sales at a loss, and buyers of discounted notes step into the lender's enforcement rights, which tends to bring more litigation, not less.",
+      tags: ["bank cre losses", "charge-offs", "wells fargo", "bank of america", "loan sales"]
+    },
+    {
+      id: "trend-027",
+      title: "CRED iQ: CMBS Distress Hits 11.2% as Stress Shifts From New York to Los Angeles, Chicago and Houston",
+      category: "lending-foreclosure",
+      date: "2026-11-03",
+      scope: "U.S. conduit and SASB CMBS loans (CRED iQ October 2026 loan data, as reported by CRE Daily)",
+      metric: "11.2% of $617 billion in conduit and SASB loans distressed (10.9% a year earlier); Chicago 23.5%, Houston 15.3%, Los Angeles 14.6%, New York 11.2%",
+      source: "live",
+      sourceUrl: "https://www.credaily.com/briefs/cmbs-distress-hits-11-2-as-stress-shifts-to-l-a-and-chicago/",
+      summary: "CRED iQ's October loan data put 11.2% of the $617 billion in conduit and SASB loans in distress, up from 10.9% a year earlier, with the stress moving away from New York. New York improved to 11.2% from 12.5%, while Los Angeles jumped to 14.6% from 9.4%, Houston rose to 15.3% from 12.4% and Chicago to 23.5% from 19.5%. Office distress runs 16.4% nationally and represents 44% of troubled balance; office distress reached 21.5% in Los Angeles (from 9.9%), 32.6% in Chicago and 31.5% in Houston (from 21.9%). In Los Angeles, Equitable Plaza's $74 million loan came due again and wasn't repaid, with a latest valuation of $57.7 million against $150.5 million at origination, and Philadelphia's 99.5%-leased 2400 Market Street also hit a maturity wall.",
+      significance: "Defaults driven by maturity and refinancing at current rates and values, rather than occupancy, tend to produce disputes over extensions, modifications and forbearance, guarantor and recourse carve-out claims, receivership and foreclosure timing, and mezzanine intercreditor conflicts. Owners and guarantors in the newly stressed metros, special servicers, and lenders weighing refinancings should expect more contested workouts, particularly where values sit far below origination.",
+      tags: ["cmbs", "cred iq", "office", "maturity default", "special servicing"]
     }
   ],
 
