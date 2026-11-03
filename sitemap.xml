@@ -122,12 +122,12 @@
   </url>
   <url>
     <loc>https://credocket.com/cmbs-litigation-tracker.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/commercial-foreclosure-guaranty-damages.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -392,7 +392,7 @@
   </url>
   <url>
     <loc>https://credocket.com/data-center-litigation-tracker.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -581,6 +581,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/judge-jeffrey-s-sutton.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/judge-jeffrey-usman.html</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.5</priority>
@@ -711,6 +716,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/judge-sara-l-doyle.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/judge-serge-georges-jr.html</loc>
     <lastmod>2026-10-13</lastmod>
     <priority>0.5</priority>
@@ -767,12 +777,12 @@
   </url>
   <url>
     <loc>https://credocket.com/judges.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://credocket.com/land-use-litigation-damages.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -802,12 +812,12 @@
   </url>
   <url>
     <loc>https://credocket.com/litigation-index-2026-09.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation-index-2026-10.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -897,7 +907,7 @@
   </url>
   <url>
     <loc>https://credocket.com/office-foreclosure-tracker.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -2568,6 +2578,16 @@
   <url>
     <loc>https://credocket.com/matters/live-362.html</loc>
     <lastmod>2026-11-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-363.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-364.html</loc>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
