@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T19:39:52+00:00",
+ "updatedAt": "2026-11-03T17:12:01+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
  "requestsUsed": 20,
  "errors": [],
@@ -84,6 +84,13 @@
   "67174489": {
    "entries": [
     {
+     "date": "2026-11-02",
+     "number": null,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-28",
      "number": 1634,
      "text": "Order AND ~Util - Add and Terminate Attorneys AND ~Util - Terminate Motions",
@@ -131,13 +138,6 @@
      "text": "Leave to File Document under Seal",
      "url": "https://www.courtlistener.com/docket/67174489/1631/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 1631,
-     "text": "Exhibit Text of Proposed Order",
-     "url": "https://www.courtlistener.com/docket/67174489/1631/3/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -147,10 +147,24 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-10-28"
+   "lastEntryDate": "2026-11-02"
   },
   "67356054": {
    "entries": [
+    {
+     "date": "2026-11-02",
+     "number": 164,
+     "text": "Notice of Pro Hac Vice to Receive NEF",
+     "url": "https://www.courtlistener.com/docket/67356054/164/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-02",
+     "number": 163,
+     "text": "Notice of Pro Hac Vice to Receive NEF",
+     "url": "https://www.courtlistener.com/docket/67356054/163/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-29",
      "number": 162,
@@ -192,20 +206,6 @@
      "text": "Notice of Appearance",
      "url": "https://www.courtlistener.com/docket/67356054/158/cornish-adebiyi-v-caesars-entertainment-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-21",
-     "number": null,
-     "text": "Notice of Pro Hac Vice counsel added",
-     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-20",
-     "number": 157,
-     "text": "Notice of Appearance",
-     "url": "https://www.courtlistener.com/docket/67356054/157/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -215,7 +215,7 @@
    "docketNumber": "1:23-cv-02536",
    "dateTerminated": "2024-09-30",
    "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-   "lastEntryDate": "2026-10-29"
+   "lastEntryDate": "2026-11-02"
   },
   "67940311": {
    "entries": [],
@@ -544,6 +544,13 @@
   "71746386": {
    "entries": [
     {
+     "date": "2026-11-02",
+     "number": 37,
+     "text": "Dismiss",
+     "url": "https://www.courtlistener.com/docket/71746386/37/the-mission-llc-v-the-state-of-california/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-04",
      "number": null,
      "text": "Dismiss AND Motion Hearing",
@@ -572,7 +579,7 @@
    "docketNumber": "2:25-cv-10231",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/71746386/the-mission-llc-v-the-state-of-california/",
-   "lastEntryDate": "2026-10-04"
+   "lastEntryDate": "2026-11-02"
   },
   "71964352": {
    "entries": [
@@ -886,6 +893,13 @@
   "73578741": {
    "entries": [
     {
+     "date": "2026-11-02",
+     "number": 18,
+     "text": "Dismiss for Failure to State a Claim",
+     "url": "https://www.courtlistener.com/docket/73578741/18/keller-v-udr-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-30",
      "number": 17,
      "text": "Notice of Change of Address",
@@ -933,13 +947,6 @@
      "text": "Order on Motion for Extension of Time to File Response/Reply",
      "url": "https://www.courtlistener.com/docket/73578741/11/keller-v-udr-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-14",
-     "number": 10,
-     "text": "Declaration",
-     "url": "https://www.courtlistener.com/docket/73578741/10/keller-v-udr-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -949,7 +956,7 @@
    "docketNumber": "3:26-cv-03865",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
-   "lastEntryDate": "2026-10-30"
+   "lastEntryDate": "2026-11-02"
   },
   "73684397": {
    "entries": [
@@ -1001,6 +1008,20 @@
   "73687065": {
    "entries": [
     {
+     "date": "2026-11-02",
+     "number": 27,
+     "text": "Case Management Report",
+     "url": "https://www.courtlistener.com/docket/73687065/27/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-02",
+     "number": 26,
+     "text": "Disclosure Statement - LR 3.03 and FRCP 7.1",
+     "url": "https://www.courtlistener.com/docket/73687065/26/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-30",
      "number": null,
      "text": "Order on Motion for Extension of Time to Answer",
@@ -1041,20 +1062,6 @@
      "text": "Exhibit 3. Proposed Judgment as to RAD Diversified REIT, Inc.",
      "url": "https://www.courtlistener.com/docket/73687065/21/3/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
      "ruling": true
-    },
-    {
-     "date": "2026-10-23",
-     "number": 21,
-     "text": "Exhibit 2. RAD Diversified REIT, Inc.'s Consent",
-     "url": "https://www.courtlistener.com/docket/73687065/21/2/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 21,
-     "text": "Exhibit 1. Order Approving Partial Settlement with SEC",
-     "url": "https://www.courtlistener.com/docket/73687065/21/1/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-     "ruling": true
     }
    ],
    "caseIds": [
@@ -1064,7 +1071,7 @@
    "docketNumber": "8:26-cv-02186",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-   "lastEntryDate": "2026-10-30"
+   "lastEntryDate": "2026-11-02"
   },
   "73733742": {
    "entries": [
@@ -1400,6 +1407,27 @@
    "entries": [
     {
      "date": "2026-11-02",
+     "number": 38,
+     "text": "Certificate of service",
+     "url": "https://www.courtlistener.com/docket/74922581/38/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-02",
+     "number": 37,
+     "text": "Certificate of service",
+     "url": "https://www.courtlistener.com/docket/74922581/37/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-02",
+     "number": 36,
+     "text": "Certificate of service",
+     "url": "https://www.courtlistener.com/docket/74922581/36/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-02",
      "number": 35,
      "text": "Notice of hearing",
      "url": "https://www.courtlistener.com/docket/74922581/35/travis-property-owner-llc/",
@@ -1432,27 +1460,6 @@
      "text": "BNC certificate of mailing - meeting of creditors",
      "url": "https://www.courtlistener.com/docket/74922581/32/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-21",
-     "number": 31,
-     "text": "Cash collateral",
-     "url": "https://www.courtlistener.com/docket/74922581/31/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-21",
-     "number": 30,
-     "text": "Notice of hearing",
-     "url": "https://www.courtlistener.com/docket/74922581/30/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-21",
-     "number": 29,
-     "text": "Extend/Shorten time",
-     "url": "https://www.courtlistener.com/docket/74922581/29/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1466,6 +1473,27 @@
   },
   "74927117": {
    "entries": [
+    {
+     "date": "2026-11-02",
+     "number": 84,
+     "text": "Notice of Intent to Sell",
+     "url": "https://www.courtlistener.com/docket/74927117/84/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-02",
+     "number": 83,
+     "text": "Sale",
+     "url": "https://www.courtlistener.com/docket/74927117/83/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-02",
+     "number": 82,
+     "text": "Certificate of Service of Notice of Hearing",
+     "url": "https://www.courtlistener.com/docket/74927117/82/southbridge-associates-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-11-02",
      "number": 81,
@@ -1499,27 +1527,6 @@
      "number": 77,
      "text": "Order on Motion to Use Cash Collateral",
      "url": "https://www.courtlistener.com/docket/74927117/77/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-29",
-     "number": 74,
-     "text": "Order on Motion to Strike",
-     "url": "https://www.courtlistener.com/docket/74927117/74/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-29",
-     "number": 73,
-     "text": "Order on Motion For Relief From Stay/Co-Debtor Stay",
-     "url": "https://www.courtlistener.com/docket/74927117/73/southbridge-associates-llc/",
-     "ruling": true
-    },
-    {
-     "date": "2026-10-29",
-     "number": 72,
-     "text": "Order on Motion to Use Cash Collateral",
-     "url": "https://www.courtlistener.com/docket/74927117/72/southbridge-associates-llc/",
      "ruling": false
     }
    ],
