@@ -191,7 +191,7 @@
     doc.setFont("helvetica", "normal"); doc.setFontSize(9); doc.setTextColor(MUTED);
     doc.text("Contributing Author, CREdocket", marginX + 76, y + 28);
     y += 76;
-    body("Jeff has spent over two decades trying commercial real estate disputes in state and federal courtrooms, and before arbitration panels, nationwide. He represents developers, retailers, and multifamily owners and managers in landlord-tenant and lease disputes — including commercial evictions and forcible detainer actions — construction and contractor claims, purchase-and-sale and title fights.", { size: 9.5, color: MUTED, gap: 10 });
+    body("Jeff Novel has tried commercial real estate cases for more than 20 years in state and federal courts and before arbitration panels across the country. He represents developers, REITs, and multifamily owners and operators in disputes over leases, construction, property sales and title. He also represents financial institutions in foreclosures and other disputes over real estate collateral.", { size: 9.5, color: MUTED, gap: 10 });
     body("That trial experience — including the self-help lockouts, notice defects, and possession fights this handbook covers — shapes the practical, state-specific guidance in it.", { size: 9.5, color: MUTED, gap: 10 });
     // A real link annotation with the full https address (Jeff, 2026-10-23:
     // the bio line on the last page did not open the bio). As plain text,
