@@ -1,7 +1,33 @@
 {
- "updatedAt": "2026-11-03T07:53:32+00:00",
+ "updatedAt": "2026-11-03T20:05:26+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001437749-26-034478:harv20241231_10k.htm",
+   "company": "Hartman vREIT XXI, Inc.",
+   "cik": "1654948",
+   "sic": "6798",
+   "form": "10-K",
+   "filed": "2026-11-03",
+   "periodEnding": "2024-12-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1654948/000143774926034478/harv20241231_10k.htm",
+   "phrases": [
+    "filed a lawsuit",
+    "filed suit"
+   ],
+   "excerpts": [
+    "Legal Proceedings \u25cf Summer Energy LLC Litigation (Winter Storm Uri) During February 2021, the state of Texas experienced a severe winter storm, unofficially referred to as Winter Storm Uri, which resulted in power outages and electrical grid failures across the state. Wholesale prices for electricity increased significantly during this period. As a result, we experienced a substantial increase in electricity charges for some of our properties during the month of and after the storm. On May 26, 2021, Summer Energy LLC (\u201cSummer\u201d) filed a lawsuit against Hartman Income REIT Management, Inc., the former Property Manager, an affiliate of the Silver Star that managed our properties, in state court in Harris County, Texas. In this lawsuit, Summer seeks to collect approximately $8,400,000 from the Property Manager that Summer claims that the Property Manager owes Summer under one or more electricity sales agreements (\u201cAgreements\u201d) related to Winter Storm Uri.",
+    "Litigation \u25cf Summer Energy LLC Litigation (Winter Storm Uri) During February 2021, the state of Texas experienced a severe winter storm, unofficially referred to as Winter Storm Uri, which resulted in power outages and electrical grid failures across the state. Wholesale prices for electricity increased significantly during this period. As a result, we experienced a substantial increase in electricity charges for some of our properties during the month of and after the storm. On May 26, 2021, Summer Energy LLC (\u201cSummer\u201d) filed a lawsuit against Hartman Income REIT Management, Inc., the former Property Manager, an affiliate of the Silver Star that managed our properties, in state court in Harris County, Texas. In this lawsuit, Summer seeks to collect approximately $ 8,400,000 from the Property Manager that Summer claims that the Property Manager owes Summer under one or more electricity sales agreements (\u201cAgreements\u201d) related to Winter Storm Uri.",
+    "The share of the supersedeas surety bond applicable to wholly owned properties of the Company totaled $196,000 and is recorded in prepaid expenses and other assets on the Company's consolidated balance sheets. On May 10, 2024, the lawsuit was dismissed upon appeal. \u25cf Litigation Against Silver Star and Related Parties (Texas) In 2023, the Company filed suit in the District Court of Harris County, Texas against Silver Star, Hartman Income REIT Property Holdings, LLC, Hartman XXI Advisors, LLC, Silver Star Property Management, Inc., Hartman SPE, LLC, Hartman Income REIT, Inc. and Hartman Retail I, DST. This suit includes claims for: (1) Silver Star\u2019s breach of contract related to two loans from the Company to Silver Star; breach of contract by defendants related to Mr.",
+    "This suit includes claims against the Company and the other defendants for fraud, breach of fiduciary duty, tortious interference, and negligent misrepresentation related to the lawsuit that we filed against them for collecting on a note receivable. The Company believes that the claims of fraud, breach of fiduciary duty, tortious interference, and negligent misrepresentation have no merit. Because both suits are overlapping claims, the two suits were consolidated into the first filed suit. Discovery is ongoing. \u25cf Frank Gardner Derivative Litigation (Texas) On January 31, 2025, Shareholder Frank Gardner filed a derivative suit in the District Court for Harris County, Texas on behalf of all stockholders against several officers and directors of the Company, including Louis Fox, Allen Hartman, John Ostroot, J."
+   ],
+   "captions": [],
+   "courts": [
+    "District Court for Harris County",
+    "District Court of Harris County"
+   ],
+   "firstSeen": "2026-11-03"
+  },
   {
    "key": "0001193125-26-443850:opad-20260930.htm",
    "company": "Offerpad Solutions Inc.  (OPAD)",
