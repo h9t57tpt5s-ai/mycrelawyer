@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-02",
+  lastUpdatedDate: "2026-11-03",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -12733,6 +12733,91 @@ const RELAW_DATA = {
         { when: "2024", label: "NFI sues Third Coast for breach of contract and Texas Insurance Code and DTPA violations" },
         { when: "October 20, 2026", label: "Fifth Circuit affirms summary judgment for Third Coast, holding NFI's claims were time-barred", current: true }
       ]
+    },
+    {
+      id: "live-363",
+      seoTitle: "6th Circ.: Deed in Lieu Erased Lender's Insurance Suit",
+      seoDescription: "Sixth Circuit affirmed Sinmier's deed-in-lieu settlement with Vintro extinguished its mortgagee interest, dooming its suit against Everest and Bankers.",
+      addedDate: "2026-11-03",
+      title: "Sinmier, LLC v. Everest Indemnity Insurance Co. (Sixth Circuit Affirms Lender's Insurance Claims Died With Its Own Settlement)",
+      brief: "The Sixth Circuit held lender Sinmier's deed-in-lieu settlement with defaulted borrower Vintro extinguished its mortgagee insurable interest, dooming its suit against the resort's insurers.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-02",
+      jurisdiction: "U.S. Court of Appeals for the Sixth Circuit (N.D. Ohio)",
+      state: "OH",
+      propertyType: "Hospitality",
+      amount: "$7 million original loan; Vintro's insurer settled the underlying property claim for $1,125,000; Sinmier separately recovered a $627,375 payment from Vintro's owner under the foreclosure settlement",
+      amountUsd: 7000000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11052174/sinmier-llc-v-everest-indemnity-ins-co/",
+      summary: "The Sixth Circuit affirmed summary judgment against commercial real estate lender Sinmier, LLC in its suit against the insurance broker and insurers of its defaulted borrower, Vintro Hotels and Resorts Ohio LLC, over storm and fire damage at the Maui Sands Resort and Waterpark in Sandusky, Ohio. The court held that Sinmier's own settlement agreement with Vintro, under which Vintro conveyed the resort by deed in lieu of foreclosure as full payment of its loan obligations, had already extinguished Sinmier's insurable mortgagee interest in the property, leaving it with no cognizable claim against the insurers.",
+      significance: "The ruling shows that a lender resolving a defaulted loan through a deed in lieu of foreclosure or similar settlement can unintentionally extinguish its own standing to pursue a related insurance-coverage claim arising from the same collateral, if the settlement documents characterize the deed as full satisfaction of the debt. Commercial lenders negotiating workouts on distressed, storm- or casualty-damaged properties should coordinate the timing and drafting of borrower settlements with any pending insurance claims, and confirm they are named as mortgagee (not merely an additional insured) on the property coverage itself.",
+      body: [
+        "A commercial real estate lender that resolves a defaulted loan through a deed in lieu of foreclosure needs to think carefully about what else it is giving up besides the debt. On November 2, 2026, the U.S. Court of Appeals for the Sixth Circuit affirmed summary judgment against Sinmier, LLC, a commercial real estate lender, in its suit against the insurance broker and insurers of its former borrower, holding that Sinmier's own settlement agreement had already extinguished the only legal interest that could have supported its claims.",
+        "The case traces back to 2018, when Sinmier loaned Vintro Hotels and Resorts Ohio LLC seven million dollars to purchase the Maui Sands Resort and Waterpark, a hotel and indoor waterpark on Lake Erie in Sandusky, Ohio, recording an open-end mortgage and security agreement as collateral. Vintro was contractually obligated to insure the property and placed coverage through broker Bankers Insurance (later Bearing Insurance Group) with insurers Everest Indemnity Insurance Company and EverSports & Entertainment Insurance. An initial Everest policy was cancelled when the purchase closing was delayed, and when Everest reissued the policy for the later closing, it listed Sinmier only as an additional insured under general liability coverage, not as a mortgagee entitled to protection of its loan interest under the property coverage.",
+        "That gap mattered once a harsh Ohio winter hit the resort: a frozen pipe burst and flooded the property, two rooftop HVAC units froze and then caught fire, and additional wind- and cold-related losses followed. Vintro submitted a claim to Everest in January 2019, and the parties ultimately settled that claim for a combined $1,125,000, but because the policy did not protect Sinmier's mortgagee interest, none of that recovery reached the lender. When Vintro subsequently defaulted on its loan, Sinmier sued Vintro directly in March 2019 for breach of contract, fraud, and intentional misrepresentation, seeking to foreclose. The parties settled in October 2019, with Vintro conveying the resort to Sinmier by deed in lieu of foreclosure, expressly \"considered payment in full\" of Vintro's note and mortgage obligations, and Vintro's owner agreeing to pay Sinmier an additional $627,375, secured by a consent judgment.",
+        "Having resolved its claim against the borrower, Sinmier turned to the insurance side of the loss, suing the broker and both insurers as a third-party beneficiary, with every claim premised on its position as the property's mortgagee. The district court granted summary judgment to each defendant, and the Sixth Circuit, in an opinion by Judge Jeffrey S. Sutton, affirmed. The panel explained that a mortgagee's insurable interest exists only to secure payment of the underlying debt and shrinks or disappears once that debt is reduced or satisfied, citing Ohio case law dating to the nineteenth century alongside parallel authority from several other states. Because Sinmier's own settlement agreement expressly treated the deed in lieu of foreclosure as full payment of Vintro's obligations, that agreement extinguished Sinmier's insurable mortgagee interest the moment it was signed, and because every one of Sinmier's claims depended on that interest's continued existence, all of them failed as a matter of law. The court rejected Sinmier's argument that the settlement agreement and deed created conflicting terms about whether the mortgage survived, finding the documents consistent in treating the debt as satisfied.",
+        "For commercial lenders, the ruling is best read as a workout-drafting lesson rather than an insurance-coverage one: the mechanics of how a defaulted loan gets resolved can extinguish legal rights the lender did not realize were tied to that resolution. A lender pursuing both a borrower settlement and a parallel insurance claim arising from the same loss needs to sequence and draft those two tracks together, since fully satisfying the debt in one can quietly end the insurable interest needed to pursue the other, and should also confirm at origination (and at each policy renewal) that it is actually named as mortgagee or loss payee on the property coverage, not simply folded in as an additional insured under general liability, since the two protect very different interests, and that distinction is exactly where this lender's claim went wrong years before any dispute over the deed in lieu of foreclosure arose."
+      ],
+      judge: "Jeffrey S. Sutton",
+      parties: [
+        { name: "Sinmier, LLC", role: "Plaintiff-Appellant" },
+        { name: "Everest Indemnity Insurance Company", role: "Defendant-Appellee" },
+        { name: "Bearing Insurance Group, LLC", role: "Defendant-Appellee" },
+        { name: "EverSports & Entertainment Insurance, Inc.", role: "Defendant-Appellee" },
+        { name: "Vintro Hotels and Resorts Ohio LLC", role: "Borrower (non-party on appeal)" }
+      ],
+      tags: ["insurance coverage", "deed in lieu of foreclosure", "mortgagee interest", "hotel", "sixth circuit"],
+      timeline: [
+        { when: "2018", label: "Sinmier loans Vintro $7 million to buy the Maui Sands Resort and Waterpark, secured by a mortgage" },
+        { when: "Winter 2018-2019", label: "Frozen pipe, HVAC fire and storm damage hit the resort" },
+        { when: "June 2019", label: "Vintro and Everest settle the property insurance claim for $1,125,000" },
+        { when: "October 2019", label: "Sinmier and Vintro settle Sinmier's foreclosure suit; Vintro conveys the resort by deed in lieu of foreclosure as full payment of its debt" },
+        { when: "November 2, 2026", label: "Sixth Circuit affirms summary judgment for the insurers, holding Sinmier's settlement extinguished its mortgagee insurable interest", current: true }
+      ]
+    },
+    {
+      id: "live-364",
+      seoTitle: "Ga. App.: County's Industrial CUP Survives Developer Fight",
+      seoDescription: "Georgia Court of Appeals affirmed Bartow County's conditional use permit for an industrial waste-processing expansion over Norhaven's zoning challenge.",
+      addedDate: "2026-11-03",
+      title: "Norhaven Partners, LLC v. Bartow County (Georgia Court of Appeals Affirms County's Industrial Conditional Use Permit Over Developer's Zoning Challenge)",
+      brief: "The Georgia Court of Appeals affirmed Bartow County's grant of a conditional use permit letting Rice Commercial Investments expand an industrial waste-processing operation next to developer Norhaven Partners' planned 97-unit townhome community.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-02",
+      jurisdiction: "Court of Appeals of Georgia",
+      state: "GA",
+      propertyType: "Industrial",
+      amount: null,
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11052005/norhaven-partners-llc-v-bartow-county/",
+      summary: "The Court of Appeals of Georgia affirmed a trial court's rejection of developer Norhaven Partners, LLC's challenge to Bartow County's grant of a conditional use permit allowing neighboring landowner Rice Commercial Investments, Inc. to expand an industrial mulch-processing and recovered-materials operation adjacent to Norhaven's planned 97-unit townhome development. The court held the county's quasi-judicial decision was supported by the record and that Norhaven's procedural objections to the trial court's review did not warrant reversal.",
+      significance: "The decision underscores the deference Georgia courts give to a local government's conditional use and zoning decisions in judicial review proceedings, reviewing only whether the record supports the local agency's final decision rather than re-litigating the policy merits. Developers should treat a neighboring parcel's separate zoning rights and pending conditional use applications as a live diligence item even after their own project's site plan is fully approved, since a county's later accommodation of an adjacent industrial expansion is very difficult to undo through litigation.",
+      body: [
+        "A Georgia residential developer's attempt to block a neighboring industrial operation from expanding next door has failed on appeal, in a ruling that illustrates just how much deference Georgia courts give to a local government's own zoning and conditional-use decisions. On November 2, 2026, the Court of Appeals of Georgia affirmed a trial court's rejection of a challenge brought by Norhaven Partners, LLC and an affiliated entity, Peeples Owner LLC, against Bartow County's decision to grant a conditional use permit allowing a neighboring industrial property owner to expand a waste-processing operation.",
+        "The dispute centers on two adjacent parcels in Bartow County. In January 2023, the county approved conceptual site plans submitted by Norhaven to develop a 97-unit townhome community, known as the Overlook on Pettit, on residentially zoned land, and by October 2023 those development plans, including a land use disturbance permit, had been fully approved. Immediately to the east of that planned residential community sits a separate parcel zoned heavy industrial and owned by Justin Rice and his affiliated company, Rice Commercial Investments, Inc., which had already been operating a mulch materials processing, wood shredding, and rock crushing business on the site. In July 2024, Rice applied for a conditional use permit to expand that operation to include additional recovered-materials processing, and the Bartow County Board of Commissioners granted the permit.",
+        "Norhaven petitioned for judicial review, arguing the industrial expansion would be detrimental to its adjacent townhome development. The trial court initially addressed several of Norhaven's arguments but remanded the matter to the county commissioner for further factual findings on the remaining issues; after the commissioner made those findings and held a further hearing, the trial court again rejected Norhaven's arguments in full. On appeal, Norhaven argued that the trial court improperly limited its review to the written hearing transcript, that the court erred by remanding when the existing record was supposedly amenable to only one interpretation, and that the court erred in denying its petition after the commissioner allegedly ignored the remand instructions.",
+        "Writing for the panel, Presiding Judge Sara L. Doyle rejected each argument and affirmed. The opinion reiterated that judicial review of a quasi-judicial zoning decision asks only whether the local agency's factual findings are supported by any evidence and whether its legal conclusions are sound, with legal conclusions reviewed de novo, and that on appeal from a trial court's review of such a proceeding, the appellate court examines whether the record supports the final decision of the quasi-judicial agency itself, here the county commissioners, not whether the record supports the trial court's own order. Measured against that deferential framework, the panel found no basis to disturb the county's grant of the conditional use permit to the competing industrial use.",
+        "The ruling matters to developers well beyond Bartow County because it confirms that a favorable site plan approval for one's own project does not freeze the zoning landscape for neighboring parcels, which retain their own separate zoning classifications and conditional use rights that a county remains free to expand through its own quasi-judicial process. A developer unhappy with a neighbor's later-approved use has limited room to overturn that approval through litigation unless it can show the local decision itself lacks evidentiary or legal support, and procedural complaints about the scope of the administrative record or the propriety of a remand are unlikely to succeed on their own; developers are better served doing thorough diligence on adjacent parcels' zoning and any pending conditional use applications before committing to a project, and building a detailed, evidence-based record of their objections during the public hearing process itself, since that record -- not any later appellate argument -- will largely determine whether a court finds room to second-guess the county's decision."
+      ],
+      judge: "Sara L. Doyle",
+      parties: [
+        { name: "Norhaven Partners, LLC", role: "Petitioner-Appellant" },
+        { name: "Peeples Owner LLC", role: "Petitioner-Appellant" },
+        { name: "Bartow County", role: "Respondent-Appellee" },
+        { name: "Rice Commercial Investments, Inc.", role: "Permit Holder (non-party on appeal)" }
+      ],
+      tags: ["zoning", "conditional use permit", "industrial", "land use", "georgia"],
+      timeline: [
+        { when: "January 2023", label: "Bartow County approves Norhaven's conceptual site plans for a 97-unit townhome community" },
+        { when: "July 2, 2024", label: "Rice applies for a conditional use permit to expand the adjacent industrial recycling operation" },
+        { when: "2024", label: "Bartow County Board of Commissioners grants Rice's conditional use permit; Norhaven petitions for judicial review" },
+        { when: "November 2, 2026", label: "Georgia Court of Appeals affirms the trial court's rejection of Norhaven's challenge", current: true }
+      ]
     }
   ],
 
@@ -13392,7 +13477,9 @@ const RELAW_DATA = {
     { jurisdiction: "Indiana Court of Appeals", url: "https://www.in.gov/courts/appeals/" },
     { jurisdiction: "Court of Appeals of Tennessee", url: "https://www.tncourts.gov/courts/court-appeals" },
     { jurisdiction: "Court of Appeals of Kentucky", url: "https://kycourts.gov/Courts/Court-of-Appeals/" },
-    { jurisdiction: "Thirteenth Court of Appeals, Corpus Christi-Edinburg, Texas", url: "https://www.txcourts.gov/13thcoa/" }
+    { jurisdiction: "Thirteenth Court of Appeals, Corpus Christi-Edinburg, Texas", url: "https://www.txcourts.gov/13thcoa/" },
+    { jurisdiction: "U.S. Court of Appeals for the Sixth Circuit", url: "https://www.ca6.uscourts.gov/" },
+    { jurisdiction: "Court of Appeals of Georgia", url: "https://www.gaappeals.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -13856,6 +13943,22 @@ const RELAW_DATA = {
       court: "Thirteenth Court of Appeals, Corpus Christi-Edinburg, Texas",
       background: "Elected to Place 4 of the Thirteenth Court of Appeals on November 5, 2024, with his term beginning January 1, 2025. By appointment of Governor Greg Abbott, previously served as judge of the 464th District Court of Hidalgo County from 2019 to 2020 and of the 476th District Court of Hidalgo County from 2023 to 2024.",
       bioUrl: "https://www.txcourts.gov/13thcoa/about-the-court/justices/justice-ysmael-d-fonseca/"
+    },
+    {
+      name: "Jeffrey S. Sutton",
+      slug: "jeffrey-s-sutton",
+      title: "Circuit Judge — authored the panel opinion",
+      court: "U.S. Court of Appeals for the Sixth Circuit",
+      background: "Nominated to the Sixth Circuit in 2001 and has served on the court since 2003, including as Chief Judge from 2014 to 2021. Previously served as Solicitor of Ohio from 1995 to 1998 and as a partner at Jones Day, and clerked for Justices Lewis F. Powell Jr. and Antonin Scalia and for Judge Thomas Meskill of the Second Circuit.",
+      bioUrl: "https://www.fjc.gov/history/judges/sutton-jeffrey-s"
+    },
+    {
+      name: "Sara L. Doyle",
+      slug: "sara-l-doyle",
+      title: "Presiding Judge — authored the panel opinion",
+      court: "Court of Appeals of Georgia",
+      background: "Elected to the Court of Appeals of Georgia in December 2008 and took office January 1, 2009, after practicing as a litigator and equity partner at Holland & Knight. Served as the court's Chief Judge from July 2015 to June 2017 and currently serves as a Presiding Judge.",
+      bioUrl: "https://www.gaappeals.gov/?p=583"
     }
   ],
 

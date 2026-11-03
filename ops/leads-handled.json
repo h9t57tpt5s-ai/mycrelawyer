@@ -1,32 +1,32 @@
 {
  "handled": {
   "petition:https://www.courtlistener.com/docket/75045108/greenwood-mall-realty-holding-llc/": {
-   "at": "2026-11-01",
-   "action": "skipped: no coverage found explaining the filing"
+   "at": "2026-10-30",
+   "action": "skipped: no coverage found explaining the filing (searched Greenwood Mall Bowling Green KY ownership/bankruptcy, found only the mall's known owner Kohan Retail Investment Group and a JLL sale listing, no link to this specific debtor entity or petition)"
   },
   "petition:https://www.courtlistener.com/docket/75044000/ascend-property-group-llc/": {
-   "at": "2026-11-01",
+   "at": "2026-10-30",
    "action": "skipped: no coverage found explaining the filing"
   },
   "petition:https://www.courtlistener.com/docket/75032545/southern-property-orlando-llc/": {
-   "at": "2026-11-01",
+   "at": "2026-10-31",
    "action": "skipped: no coverage found explaining the filing"
   },
   "petition:https://www.courtlistener.com/docket/75035974/green-horizons-property-group-llc/": {
-   "at": "2026-11-01",
-   "action": "skipped: no named major sponsor, small single-asset-shaped entity; not selected as significant (one-search budget spent on Greenwood Mall/Ascend/Southern Property Orlando instead)"
+   "at": "2026-10-31",
+   "action": "skipped: no coverage found explaining the filing"
   },
   "petition:https://www.courtlistener.com/docket/75050846/black-iris-properties-llc/": {
-   "at": "2026-11-01",
-   "action": "skipped: no named major sponsor, small single-asset-shaped entity; not selected as significant (one-search budget spent on Greenwood Mall/Ascend/Southern Property Orlando instead)"
+   "at": "2026-10-31",
+   "action": "skipped: no coverage found explaining the filing"
   },
   "petition:https://www.courtlistener.com/docket/75030501/13513-s-sam-moore-llc/": {
-   "at": "2026-11-01",
-   "action": "skipped: address-named single-asset entity, no named major sponsor; not selected as significant"
+   "at": "2026-10-30",
+   "action": "skipped: no coverage found explaining the filing"
   },
   "petition:https://www.courtlistener.com/docket/75047643/zh-development-i-llc/": {
-   "at": "2026-11-01",
-   "action": "skipped: no named major sponsor, small single-asset-shaped entity; not selected as significant"
+   "at": "2026-10-30",
+   "action": "skipped: no coverage found explaining the filing"
   },
   "petition:https://www.courtlistener.com/docket/75054265/blackwell-real-estate-llc/": {
    "at": "2026-11-01",
@@ -1268,10 +1268,6 @@
    "at": "2026-10-29",
    "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"] and defendant (Reynolds) has no business-entity suffix"
   },
-  "petition:https://www.courtlistener.com/docket/75044000/ascend-property-group-llc/": {
-   "at": "2026-10-30",
-   "action": "skipped: no coverage found explaining the filing"
-  },
   "https://www.courtlistener.com/docket/75043223/maruti-3-lodging-llc-v-saina-global-inc-dba-vogue-hospitality/": {
    "at": "2026-10-30",
    "action": "skipped: no coverage found explaining the dispute (hotel management/franchise suit, no named major sponsor)"
@@ -1285,8 +1281,8 @@
    "action": "matter live-354 (correcting an earlier skip on this same key today: the 'Consent Judgment and Order' sentence in the excerpt is NOT about the still-pending Kentucky Litigation described in the following sentences -- it is a separate, already-announced September 14, 2026 D.C. consent judgment with JBG Smith and MAA, confirmed via oag.dc.gov and multifamilydive.com; Kentucky remains unsettled per this same filing)"
   },
   "0001468174-26-000034:h-20260930.htm": {
-   "at": "2026-10-30",
-   "action": "skipped: federal tax appeal (IRS/Tax Court, Seventh Circuit remand), not a commercial real estate party dispute"
+   "at": "2026-11-01",
+   "action": "skipped: excerpt describes a federal tax controversy (IRS petition for rehearing on a Seventh Circuit tax ruling) with no property-specific facts; not a commercial real estate dispute (lender, tenant, partner, contractor or government suit over property) on its face"
   },
   "opinion:11049475": {
    "at": "2026-10-30",
@@ -1304,25 +1300,13 @@
    "at": "2026-10-30",
    "action": "skipped: 11819 Miracle Hills Drive, LP v. Ali -- though the plaintiff holds a commercial-lease judgment, the dispute on appeal is entirely about the homestead exemption protecting the individual defendant's family residence from forced sale; residential on its face"
   },
-  "petition:https://www.courtlistener.com/docket/75047643/zh-development-i-llc/": {
-   "at": "2026-10-30",
-   "action": "skipped: no coverage found explaining the filing"
-  },
   "fresh-filing:zh-development-i-llc-flmb-6-26-bk-08515": {
    "at": "2026-10-31",
    "action": "skipped: no coverage found explaining the filing"
   },
-  "petition:https://www.courtlistener.com/docket/75045108/greenwood-mall-realty-holding-llc/": {
-   "at": "2026-10-30",
-   "action": "skipped: no coverage found explaining the filing (searched Greenwood Mall Bowling Green KY ownership/bankruptcy, found only the mall's known owner Kohan Retail Investment Group and a JLL sale listing, no link to this specific debtor entity or petition)"
-  },
   "fresh-filing:greenwood-mall-realty-holding-llc-kywb-26-11017": {
    "at": "2026-10-31",
    "action": "skipped: no coverage found explaining the filing (found unrelated 2026 sale-marketing listings for the mall, not a bankruptcy report)"
-  },
-  "petition:https://www.courtlistener.com/docket/75030501/13513-s-sam-moore-llc/": {
-   "at": "2026-10-30",
-   "action": "skipped: no coverage found explaining the filing"
   },
   "fresh-filing:13513-s-sam-moore-llc-mowb-26-41922": {
    "at": "2026-10-31",
@@ -1388,18 +1372,6 @@
    "at": "2026-10-31",
    "action": "skipped: government land/water rights class action (Crooks v. Louisiana DNR), not a commercial real estate business matter"
   },
-  "petition:https://www.courtlistener.com/docket/75050846/black-iris-properties-llc/": {
-   "at": "2026-10-31",
-   "action": "skipped: no coverage found explaining the filing"
-  },
-  "petition:https://www.courtlistener.com/docket/75032545/southern-property-orlando-llc/": {
-   "at": "2026-10-31",
-   "action": "skipped: no coverage found explaining the filing"
-  },
-  "petition:https://www.courtlistener.com/docket/75035974/green-horizons-property-group-llc/": {
-   "at": "2026-10-31",
-   "action": "skipped: no coverage found explaining the filing"
-  },
   "0001104659-26-120630:mcri-20260930x10q.htm": {
    "at": "2026-10-31",
    "action": "matter live-356"
@@ -1412,10 +1384,6 @@
    "at": "2026-10-31",
    "action": "skipped: no coverage found explaining the filing"
   },
-  "0001468174-26-000034:h-20260930.htm": {
-   "at": "2026-11-01",
-   "action": "skipped: excerpt describes a federal tax controversy (IRS petition for rehearing on a Seventh Circuit tax ruling) with no property-specific facts; not a commercial real estate dispute (lender, tenant, partner, contractor or government suit over property) on its face"
-  },
   "petition:https://www.courtlistener.com/docket/75055443/jsp-development-corp/": {
    "at": "2026-11-02",
    "action": "skipped: no coverage found explaining the filing"
@@ -1423,6 +1391,70 @@
   "petition:https://www.courtlistener.com/docket/75055346/2797-campbellton-rd-llc/": {
    "at": "2026-11-02",
    "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75057172/fleur-de-lis-international-realty-inc/": {
+   "at": "2026-11-03",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75061841/austell-plaza-inc/": {
+   "at": "2026-11-03",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75057276/ana-properties-llc/": {
+   "at": "2026-11-03",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75058066/9988-se-cottage-lane-llc/": {
+   "at": "2026-11-03",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "0001193125-26-443850:opad-20260930.htm": {
+   "at": "2026-11-03",
+   "action": "skipped: excerpt describes a 2024 stockholder fiduciary-duty class action already stale; Offerpad is a residential iBuying company, not commercial real estate"
+  },
+  "0000074208-26-000084:udr-ex99d2.htm": {
+   "at": "2026-11-03",
+   "action": "skipped: excerpt describes a completed deed-in-lieu-of-foreclosure transaction and supplemental financial data, not an active dispute"
+  },
+  "opinion:11052204": {
+   "at": "2026-11-03",
+   "action": "skipped: individual parties (Aviles v. Shenon), residential landlord-tenant dispute, not commercial real estate"
+  },
+  "opinion:11052174": {
+   "at": "2026-11-03",
+   "action": "matter live-363"
+  },
+  "opinion:11052005": {
+   "at": "2026-11-03",
+   "action": "matter live-364"
+  },
+  "opinion:11052002": {
+   "at": "2026-11-03",
+   "action": "skipped: not real estate on its face (semiconductor company acquisition dispute)"
+  },
+  "opinion:11051980": {
+   "at": "2026-11-03",
+   "action": "skipped: individual pro se plaintiff, residential eviction dispute"
+  },
+  "opinion:11051926": {
+   "at": "2026-11-03",
+   "action": "skipped: individual homeowner RESPA suit, residential mortgage servicing, not commercial real estate"
+  },
+  "opinion:11051921": {
+   "at": "2026-11-03",
+   "action": "skipped: individual neighbor challenging zoning approval for a religious congregation's property, not commercial real estate"
+  },
+  "opinion:11051909": {
+   "at": "2026-11-03",
+   "action": "skipped: small family-owned special-events venue CUP dispute, thin/not significant enough to clear the bar"
+  },
+  "opinion:11052192": {
+   "at": "2026-11-03",
+   "action": "skipped: legal malpractice suit against former counsel over a failed CRE deal, not a dispute about the property/transaction itself"
+  },
+  "opinion:11051935": {
+   "at": "2026-11-03",
+   "action": "skipped: not real estate on its face (cannabis cone-rolling machine company governance dispute); 'developer'/'guaranty' matched terms were false positives"
   }
  }
 }
