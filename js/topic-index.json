@@ -373,6 +373,12 @@
    "name": "CMBS Foreclosure & Special Servicing Tracker"
   }
  ],
+ "live-366": [
+  {
+   "slug": "cmbs-litigation-tracker",
+   "name": "CMBS Foreclosure & Special Servicing Tracker"
+  }
+ ],
  "live-267": [
   {
    "slug": "cmbs-litigation-tracker",
