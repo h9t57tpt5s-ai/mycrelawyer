@@ -1,0 +1,12 @@
+{
+ "trend": {
+  "id": "trend-026",
+  "title": "RealPage Antitrust Settlements Reach $359.9M as Federal Court Gives Final Approval to Deals With 41 Landlord Defendants",
+  "sourceUrl": "https://theclose.com/news/news-ai-rent-pricing-settlements-realpage/"
+ },
+ "reviewed": {
+  "date": "2026-11-03",
+  "decision": "dropped",
+  "reason": "Added by hand to js/data.js by another local session (never committed or queued). Five of its figures ($141.8 million, $218 million, $50 million, $53 million, $56 million) are not on the cited page, so it fails the verification bar. Not published."
+ }
+}

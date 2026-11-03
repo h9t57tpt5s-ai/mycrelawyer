@@ -1,0 +1,52 @@
+{
+ "trend": {
+  "id": "trend-025",
+  "title": "Wells Fargo and Bank of America CRE Write-Offs Jump to $107M and $105M in Q3 as Problem Loans Shrink",
+  "category": "lending-foreclosure",
+  "date": "2026-10-19",
+  "scope": "U.S. money-center bank commercial real estate loan books (third-quarter 2026 earnings, Wells Fargo and Bank of America)",
+  "metric": "CRE write-offs: Wells Fargo $107M (from $16M), Bank of America $105M (from $2M); problem CRE loans down 20% and 17%",
+  "sourceUrl": "https://www.bisnow.com/news/national/capital-markets/big-banks-take-bigger-cre-losses-as-they-clear-problem-loans",
+  "summary": "Third-quarter results show the two banks taking far larger commercial real estate losses while shrinking their troubled books. Wells Fargo's CRE write-offs rose to $107M from $16M in the second quarter, its problem CRE loans fell 20% to $2.7B, and its office loans fell 7% to $18.6B. Bank of America's CRE write-offs rose to $105M from $2M while troubled CRE loans fell 17% to $888M. Both cut reserves: Wells Fargo to about $1.61 per $100 of CRE loans from $1.77, and Bank of America to $1.14 from $1.28.",
+  "significance": "Rising write-offs alongside falling problem-loan balances mean banks are resolving distressed CRE credits rather than extending them: note sales, discounted payoffs, foreclosures and receiverships. Borrowers on maturing bank loans should expect less forbearance and faster enforcement, guarantors should expect deficiency and guaranty claims to follow sales at a loss, and buyers of discounted notes step into the lender's enforcement rights, which tends to bring more litigation, not less.",
+  "tags": [
+   "bank cre losses",
+   "charge-offs",
+   "wells fargo",
+   "bank of america",
+   "loan sales"
+  ]
+ },
+ "verification": [
+  {
+   "claim": "Wells Fargo CRE write-offs rose to $107M from $16M",
+   "quote": "Wells Fargo's CRE write-offs rose to $107M from $16M in the second quarter.",
+   "url": "https://www.bisnow.com/news/national/capital-markets/big-banks-take-bigger-cre-losses-as-they-clear-problem-loans"
+  },
+  {
+   "claim": "Wells Fargo problem CRE loans fell 20% to $2.7B",
+   "quote": "its problem CRE loans — those it doubts will be fully repaid — fell 20% to $2.7B",
+   "url": "https://www.bisnow.com/news/national/capital-markets/big-banks-take-bigger-cre-losses-as-they-clear-problem-loans"
+  },
+  {
+   "claim": "Wells Fargo office loans fell 7% to $18.6B",
+   "quote": "Its office loans fell 7% from the second quarter to $18.6B",
+   "url": "https://www.bisnow.com/news/national/capital-markets/big-banks-take-bigger-cre-losses-as-they-clear-problem-loans"
+  },
+  {
+   "claim": "Bank of America CRE write-offs rose to $105M from $2M; troubled CRE loans fell 17% to $888M",
+   "quote": "At Bank of America, CRE write-offs rose to $105M from $2M, while troubled CRE loans fell 17% to $888M.",
+   "url": "https://www.bisnow.com/news/national/capital-markets/big-banks-take-bigger-cre-losses-as-they-clear-problem-loans"
+  },
+  {
+   "claim": "Wells Fargo reserve about $1.61 per $100 of CRE loans, down from $1.77",
+   "quote": "Wells Fargo now holds about $1.61 in reserve for every $100 of CRE loans, down from $1.77 in the second quarter.",
+   "url": "https://www.bisnow.com/news/national/capital-markets/big-banks-take-bigger-cre-losses-as-they-clear-problem-loans"
+  },
+  {
+   "claim": "Bank of America reserve fell to $1.14 per $100 from $1.28",
+   "quote": "Bank of America's reserve fell to $1.14 per $100 from $1.28.",
+   "url": "https://www.bisnow.com/news/national/capital-markets/big-banks-take-bigger-cre-losses-as-they-clear-problem-loans"
+  }
+ ]
+}
