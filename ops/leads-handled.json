@@ -1,5 +1,9 @@
 {
  "handled": {
+  "https://www.courtlistener.com/docket/75056697/jhej-property-llc-v-auto-owners-insurance-company/": {
+   "at": "2026-11-03",
+   "action": "skipped: no coverage found explaining the filing (property insurance coverage dispute between a small LLC and its insurer, no named major player or notable property)"
+  },
   "petition:https://www.courtlistener.com/docket/75045108/greenwood-mall-realty-holding-llc/": {
    "at": "2026-10-30",
    "action": "skipped: no coverage found explaining the filing (searched Greenwood Mall Bowling Green KY ownership/bankruptcy, found only the mall's known owner Kohan Retail Investment Group and a JLL sale listing, no link to this specific debtor entity or petition)"

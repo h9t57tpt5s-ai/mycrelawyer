@@ -12818,6 +12818,46 @@ const RELAW_DATA = {
         { when: "2024", label: "Bartow County Board of Commissioners grants Rice's conditional use permit; Norhaven petitions for judicial review" },
         { when: "November 2, 2026", label: "Georgia Court of Appeals affirms the trial court's rejection of Norhaven's challenge", current: true }
       ]
+    },
+    {
+      id: "live-365",
+      seoTitle: "Joliet Data Center: FERC Blocks ComEd's $20B Power Deal Exit",
+      seoDescription: "FERC rejected Commonwealth Edison's bid to cancel the transmission deal behind Hillwood's $20 billion Joliet data center over a disputed $1 credit filing.",
+      property: {"name": "Joliet Technology Center", "city": "Joliet", "state": "IL"},
+      addedDate: "2026-11-03",
+      title: "PowerHouse Hillwood Holding LLC v. Commonwealth Edison Co. (FERC Blocks ComEd's Bid to Cancel $20B Joliet Data Center's Power Agreement)",
+      brief: "FERC rejected ComEd's attempt to cancel the transmission agreement behind Hillwood's $20B Joliet data center over a disputed $1 credit filing, leaving the underlying contract fight to a federal judge in Chicago.",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-11-02",
+      jurisdiction: "U.S. District Court for the Northern District of Illinois",
+      state: "IL",
+      amount: "$20 billion data center campus; disputed $1 letter of credit",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/11/02/1-offer-threatens-20b-joliet-data-center-deal-from-hillwood/",
+      summary: "The Federal Energy Regulatory Commission on September 22, 2026 rejected Commonwealth Edison Company's notice seeking to cancel the transmission security agreement behind PowerHouse Hillwood Holding LLC's roughly $20 billion, 1.8-gigawatt Joliet Technology Center data center campus, after PowerHouse Hillwood satisfied the agreement's initial credit support term with a $1 letter of credit that ComEd argued was inadequate. FERC declined to rule on the underlying contract dispute itself, leaving it to litigation already pending in the U.S. District Court for the Northern District of Illinois.",
+      significance: "The fight shows that a credit-support or security-deposit clause in a utility interconnection or transmission agreement -- often treated as secondary to headline capacity and pricing terms -- can itself become the mechanism by which a utility tries to unwind a multibillion-dollar data center project's power supply. CRE lenders, equity partners, and developers financing hyperscale data center campuses should treat ambiguous credit-support timing language in transmission agreements as a first-order diligence item, not boilerplate.",
+      body: [
+        "A regulatory dispute over a single dollar has become one of the more closely watched commercial real estate fights tied to the AI data center boom. On September 22, 2026, the Federal Energy Regulatory Commission rejected an attempt by Commonwealth Edison Company, the Chicago-area utility subsidiary of Exelon Corporation, to cancel the transmission security agreement underpinning a roughly $20 billion, 1.8-gigawatt data center campus that developer PowerHouse Hillwood Holding LLC is building on nearly 795 acres in Joliet, Illinois. FERC's order keeps the agreement alive for now, but it declined to resolve the contract dispute that triggered ComEd's cancellation notice in the first place, leaving that fight to the U.S. District Court for the Northern District of Illinois, where litigation between the two sides is already underway.",
+        "The dispute centers on credit support. Transmission security agreements of this kind typically require a developer to post financial guarantees covering the costs a utility incurs to build out grid capacity for a large new customer. PowerHouse Hillwood -- a joint venture between PowerHouse Data Centers and Hillwood, the Ross Perot Jr.-backed real estate firm behind the project -- contends that it satisfied the agreement's initial credit support obligation by posting a letter of credit for $1, reading the contract's terms as not requiring a larger guarantee until power delivery to the site draws closer, with build-out not expected until around 2029. ComEd disagreed, arguing the token filing fails to provide the kind of meaningful financial backstop the agreement was meant to secure, and filed a notice with FERC on July 24, 2026 seeking to cancel the agreement outright; PowerHouse Hillwood moved on August 14 to reject that cancellation.",
+        "FERC's September 22 order did not pick a winner on the merits. The commission found that interpreting the disputed contract language was a matter the federal courts were just as well positioned to handle as the agency itself, and declined to assert primary jurisdiction over the question -- a move that keeps the transmission agreement technically in force while the interpretive dispute plays out in litigation. Commissioner David LaCerte used the occasion to question publicly whether a $1 credit posting could ever function as meaningful financial protection for a utility and its ratepayers, signaling that the agency's forbearance on the merits should not be read as an endorsement of the developer's position.",
+        "The fight has not stayed confined to FERC. According to a November 2, 2026 report from The Real Deal, a federal judge overseeing the related litigation in Chicago recently denied a request by PowerHouse Hillwood to reinstate a separate, related retail electricity service agreement, ruling that authority over that particular question rests with the Illinois Commerce Commission rather than the federal court. The same report states that the judge, in the course of that ruling, described the underlying contract language as poorly drafted -- a characterization the outlet suggested could cut in the developer's favor on the central credit-support question still to be decided, though that detail has not yet been corroborated elsewhere.",
+        "The underlying project is not new to litigation. The Joliet City Council approved the campus's annexation and rezoning by an 8-1 vote on March 19, 2026, and a separate suit by the nonprofit Joliet Residents for Responsible Growth challenging that approval on public-notice and open-meetings grounds remains pending before a Will County circuit judge. The ComEd dispute is a distinct legal front: rather than questioning whether the project should have been approved, it goes to whether the single largest practical input a hyperscale data center campus needs -- a secured, binding commitment of transmission capacity from the regional utility -- can be unwound by the utility itself over a disagreement about how much financial security the developer owes and when.",
+        "For commercial real estate lenders, equity partners, and other developers chasing data center capacity nationally, the Joliet fight is a preview of a risk category likely to recur as utilities across the country negotiate ever-larger interconnection and transmission agreements with hyperscale developers. A contract provision addressing the timing and size of credit support is proving capable of putting a multibillion-dollar project's power supply, and by extension its financing and construction timeline, into federal court. Counsel structuring similar utility agreements should expect ambiguity in credit-support language to be tested aggressively once a project's economics or a utility's risk tolerance shifts, and should recognize that a regulator's procedural deference to the courts, as FERC exercised here, does not resolve commercial uncertainty -- it only relocates it."
+      ],
+      judge: null,
+      parties: [
+        { name: "PowerHouse Hillwood Holding LLC", role: "Plaintiff" },
+        { name: "Commonwealth Edison Company", role: "Defendant" }
+      ],
+      amountUsd: null,
+      propertyType: "Data Center",
+      tags: ["data center", "illinois", "ferc", "utility dispute", "joliet"],
+      timeline: [
+        { when: "July 24, 2026", label: "ComEd files notice with FERC to cancel the Joliet data center transmission security agreement" },
+        { when: "September 22, 2026", label: "FERC rejects ComEd's cancellation notice, leaving the contract dispute to federal court" },
+        { when: "November 2, 2026", label: "Federal judge denies Hillwood's bid to reinstate a related retail electricity agreement, citing Illinois Commerce Commission jurisdiction", current: true }
+      ]
     }
   ],
 
@@ -14016,6 +14056,7 @@ const RELAW_DATA = {
     { name: "PMC Property Group, Inc.", matchTerm: "PMC Property Group", slug: "pmc-property-group", description: "Philadelphia-based developer and owner specializing in new construction, renovation, and adaptive reuse of urban apartment and office buildings.", website: "https://www.pmcpropertygroup.com" },
     { name: "JBG Smith Properties", matchTerm: "JBG Smith", slug: "jbg-smith", description: "Washington, D.C.-area REIT and real estate operating company focused on mixed-use office, multifamily, and retail development.", website: "https://www.jbgsmith.com" },
     { name: "Federal Home Loan Mortgage Corporation (Freddie Mac)", matchTerm: "Freddie Mac", slug: "freddie-mac", description: "Federally chartered mortgage finance enterprise that purchases and guarantees multifamily mortgage loans and frequently appears as foreclosing lender or loan guarantor in commercial mortgage litigation.", website: "https://www.freddiemac.com" },
-    { name: "Walker & Dunlop, Inc.", matchTerm: "Walker & Dunlop", slug: "walker-dunlop", description: "Bethesda, Maryland-based commercial real estate finance and advisory firm that originates and services multifamily loans for Fannie Mae and Freddie Mac, frequently appearing as loan servicer or foreclosing plaintiff in agency-backed multifamily foreclosure litigation.", website: "https://www.walkerdunlop.com" }
+    { name: "Walker & Dunlop, Inc.", matchTerm: "Walker & Dunlop", slug: "walker-dunlop", description: "Bethesda, Maryland-based commercial real estate finance and advisory firm that originates and services multifamily loans for Fannie Mae and Freddie Mac, frequently appearing as loan servicer or foreclosing plaintiff in agency-backed multifamily foreclosure litigation.", website: "https://www.walkerdunlop.com" },
+    { name: "Hillwood", matchTerm: "Hillwood", slug: "hillwood", description: "Dallas-based private real estate development firm founded by Ross Perot Jr., active nationally in industrial, mixed-use, and large-scale data center development." }
   ]
 };
