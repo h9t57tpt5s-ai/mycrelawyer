@@ -142,7 +142,7 @@
   </url>
   <url>
     <loc>https://credocket.com/companies.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -228,6 +228,11 @@
   <url>
     <loc>https://credocket.com/company-goldman-sachs.html</loc>
     <lastmod>2026-10-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-hillwood.html</loc>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -2591,6 +2596,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://credocket.com/matters/live-365.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/chapter-11/fleur-de-lis-international-realty-inc-flmb-6-26-bk-08600.html</loc>
     <lastmod>2026-11-02</lastmod>
     <priority>0.5</priority>
@@ -3978,6 +3988,11 @@
   <url>
     <loc>https://credocket.com/parties/trigild-ivl.html</loc>
     <lastmod>2026-10-23</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/properties/joliet-technology-center-joliet-il.html</loc>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
