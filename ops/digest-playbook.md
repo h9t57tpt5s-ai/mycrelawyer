@@ -139,6 +139,37 @@ either side -- a bank foreclosing on an LLC-owned property, or a commercial
 guaranty fight, is exactly the kind of case this site exists to cover, and
 needs a real read like any other lead.
 
+## Opinion leads with only generic business-document terms: skim before reading in full (added 2026-11-03)
+
+Checking today's live ops/opinion-leads.json against ops/leads-handled.json's
+recorded outcomes: three leads whose `matchedTerms` consisted *entirely* of
+generic financing/deal vocabulary -- `developer`, `guarantor`, `guaranty`,
+`purchase and sale agreement` -- with no real-estate-specific term also
+present, all turned out not to be commercial real estate at all: Accelerant
+Twister, LLC v. Marjo, LLC (`["developer","guarantor","guaranty"]` -- a
+cannabis cone-rolling machine company governance dispute), Four Dimensions,
+Inc. v. Wang (`["developer","industrial"]` -- a semiconductor company
+acquisition dispute), and Camo Disposal Company, LLC v. Nelson Mullins Riley
+& Scarborough, LLP (`["guarantor","purchase and sale agreement"]` -- a legal
+malpractice suit over an unrelated failed deal). These terms show up in
+ordinary M&A/financing documents across every industry, not just CRE, so on
+their own they are a weak signal -- unlike a real-estate-specific term
+(landlord, lease agreement, leased premises, commercial lease, commercial
+property, shopping center, zoning, site plan, variance, nonconforming use,
+easement, condemnation, eminent domain, foreclos, mortgage, deed of trust,
+real property tax, hotel, industrial site/zoning context, office building,
+CMBS), which still needs a real read.
+
+This is only 3 cases, not the 12+ the foreclosure rule above was built on, so
+this is guidance to skim first, not a skip-without-reading rule: when a
+lead's `matchedTerms` are drawn *only* from `developer`, `guarantor`,
+`guaranty`, `purchase and sale agreement` or `receiver`, with none of the
+real-estate-specific terms above also present, read the case name and the
+opinion's first page or two before deciding whether the full text is worth
+reading -- don't assume it's CRE just because a financing-sounding term
+matched. If a future run finds this shape producing a real CRE matter, note
+it here so the rule can be loosened or dropped rather than silently ignored.
+
 ## How to judge a candidate
 
 - Prefer the event date (filing, ruling, settlement) within 7 days.
