@@ -12858,6 +12858,48 @@ const RELAW_DATA = {
         { when: "September 22, 2026", label: "FERC rejects ComEd's cancellation notice, leaving the contract dispute to federal court" },
         { when: "November 2, 2026", label: "Federal judge denies Hillwood's bid to reinstate a related retail electricity agreement, citing Illinois Commerce Commission jurisdiction", current: true }
       ]
+    },
+    {
+      id: "live-366",
+      seoTitle: "Rochester Tech Park: Wells Fargo Seeks $96.9M Foreclosure",
+      seoDescription: "Wells Fargo seeks summary judgment to foreclose on Rochester Tech Park, a 288-acre former Kodak complex, over a $96.9 million defaulted CMBS loan.",
+      property: { name: "Rochester Tech Park", city: "Rochester", state: "NY" },
+      addedDate: "2026-11-03",
+      title: "Wells Fargo Bank, N.A. v. Tech Park Owner LLC (Rochester Tech Park $96.9M CMBS Foreclosure)",
+      brief: "Wells Fargo is seeking summary judgment to foreclose on Rochester Tech Park, a 288-acre former Kodak office-and-industrial complex, alleging the owner owes $96.9 million on a defaulted 2017 CMBS loan.",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-10-22",
+      jurisdiction: "Supreme Court of the State of New York, Monroe County",
+      state: "NY",
+      amount: "$96.9 million alleged owed",
+      source: "live",
+      sourceUrl: "https://rbj.net/2026/10/22/wells-fargo-summary-judgment-rochester-tech-park-foreclosure/",
+      summary: "Wells Fargo Bank, N.A., as trustee for a commercial mortgage-backed securities trust, has moved for summary judgment in its foreclosure action against Tech Park Owner LLC over Rochester Tech Park, a 288-acre former Eastman Kodak office-and-industrial complex outside Rochester, New York. The lender's October 2026 motion alleges the borrower and its guarantors owe roughly $96.9 million in principal, interest and fees on a loan Wells Fargo funded in 2017, plus about $2.356 million the lender advanced to keep the property's electricity on after the ownership fell behind on utility payments in 2024.",
+      significance: "The case shows CMBS foreclosure exposure extending well beyond the office towers that have dominated distress headlines: a 288-acre light-industrial and office park, built around a single large corporate tenant, can carry nine-figure loan risk once occupancy and cash flow erode. Lenders on aging single-tenant-turned-multi-tenant industrial parks should watch for the same early warning sign that surfaced here -- a borrower falling behind on a utility bill large enough to threaten a service shutoff -- which can force a lender to advance emergency funds long before a formal default notice goes out.",
+      body: [
+        "Wells Fargo Bank, N.A., acting as trustee for a commercial mortgage-backed securities trust, has moved for summary judgment in its foreclosure action against Tech Park Owner LLC over Rochester Tech Park, according to an October 22, 2026 report in the Rochester Business Journal. The motion, filed in the Supreme Court of the State of New York, Monroe County, alleges that the borrower and its guarantors defaulted on a loan Wells Fargo funded in 2017 and now owe roughly $96.9 million in unpaid principal, accrued interest and fees.",
+        "The property at the center of the case is a roughly 288-acre complex of office, industrial and manufacturing space outside Rochester that was once home to Eastman Kodak Company's Elmgrove operations center. Tech Park Owner LLC bought the campus for $55 million in 2007, well before the single-tenant Kodak-era use gave way to a multi-tenant light-industrial and office park.",
+        "The loan's troubles surfaced publicly in 2025, when Rochester Business Journal reporting identified it as among the largest newly delinquent commercial mortgage-backed securities loans in the country after the ownership fell behind, starting in September 2024, on a roughly $2.4 million bill owed to Rochester Gas & Electric. Wells Fargo, as trustee for the CMBS trust holding the loan, filed the underlying foreclosure complaint in April 2025, and a state court appointed a receiver to manage the property the following month.",
+        "Wells Fargo's summary judgment motion goes beyond the unpaid loan balance. The lender is also seeking reimbursement for roughly $2.356 million it advanced directly to Rochester Gas & Electric to keep the utility from shutting off power to the complex, a step lenders typically avoid unless a property's financial distress has become severe enough to threaten the asset itself. The size of the alleged default, on a loan tied to a property whose use has shifted substantially since it was originally financed around a single large industrial and office tenant, illustrates how CMBS exposure can accumulate in aging light-industrial parks outside the office-tower distress that has drawn most national attention. A ruling on the summary judgment motion was still pending as of the most recent reporting."
+      ],
+      judge: null,
+      parties: [
+        { name: "Wells Fargo Bank, N.A.", role: "Lender/Trustee" },
+        { name: "Tech Park Owner LLC", role: "Borrower" }
+      ],
+      amountUsd: 96900000,
+      amountBasis: "loan",
+      propertyType: "Mixed-Use",
+      tags: ["foreclosure", "cmbs", "new york", "industrial", "rochester"],
+      timeline: [
+        { when: "2007", label: "Tech Park Owner LLC buys the 288-acre former Kodak Elmgrove complex for $55 million" },
+        { when: "2017", label: "Wells Fargo funds the loan now at issue" },
+        { when: "September 2024", label: "Ownership falls behind on a roughly $2.4 million Rochester Gas & Electric utility bill" },
+        { when: "April 2025", label: "Wells Fargo, as trustee, files a foreclosure complaint in Supreme Court, Monroe County" },
+        { when: "May 2025", label: "Court appoints a receiver for the property" },
+        { when: "October 22, 2026", label: "Wells Fargo moves for summary judgment, alleging $96.9 million owed", current: true }
+      ]
     }
   ],
 
