@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T20:55:07+00:00",
+ "updatedAt": "2026-11-03T03:41:34+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
@@ -11,6 +11,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/75057172/fleur-de-lis-international-realty-inc/",
    "docketId": 75057172,
    "slug": "fleur-de-lis-international-realty-inc-flmb-6-26-bk-08600",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Austell Plaza, Inc.",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "courtId": "ganb",
+   "docketNumber": "26-64858",
+   "dateFiled": "2026-11-02",
+   "docketUrl": "https://www.courtlistener.com/docket/75061841/austell-plaza-inc/",
+   "docketId": 75061841,
+   "slug": "austell-plaza-inc-ganb-26-64858",
    "type": "Chapter 11 petition"
   },
   {

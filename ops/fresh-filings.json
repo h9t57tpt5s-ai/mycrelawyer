@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T20:55:07+00:00",
+ "updatedAt": "2026-11-03T03:41:34+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -11,6 +11,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/75057172/fleur-de-lis-international-realty-inc/",
    "docketId": 75057172,
    "slug": "fleur-de-lis-international-realty-inc-flmb-6-26-bk-08600",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Austell Plaza, Inc.",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "courtId": "ganb",
+   "docketNumber": "26-64858",
+   "dateFiled": "2026-11-02",
+   "docketUrl": "https://www.courtlistener.com/docket/75061841/austell-plaza-inc/",
+   "docketId": 75061841,
+   "slug": "austell-plaza-inc-ganb-26-64858",
    "type": "Chapter 11 petition"
   },
   {
@@ -99,28 +110,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75050846/black-iris-properties-llc/",
    "docketId": 75050846,
    "slug": "black-iris-properties-llc-caeb-26-26448",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Greenwood Mall Realty Holding LLC",
-   "court": "United States Bankruptcy Court, W.D. Kentucky",
-   "courtId": "kywb",
-   "docketNumber": "26-11017",
-   "dateFiled": "2026-10-29",
-   "docketUrl": "https://www.courtlistener.com/docket/75045108/greenwood-mall-realty-holding-llc/",
-   "docketId": 75045108,
-   "slug": "greenwood-mall-realty-holding-llc-kywb-26-11017",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "ASCEND PROPERTY GROUP LLC",
-   "court": "United States Bankruptcy Court, D. Nevada",
-   "courtId": "nvb",
-   "docketNumber": "26-16908",
-   "dateFiled": "2026-10-29",
-   "docketUrl": "https://www.courtlistener.com/docket/75044000/ascend-property-group-llc/",
-   "docketId": 75044000,
-   "slug": "ascend-property-group-llc-nvb-26-16908",
    "type": "Chapter 11 petition"
   }
  ]
