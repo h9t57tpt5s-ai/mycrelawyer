@@ -6,7 +6,15 @@
 
    window.RELAW_TRACK(event, {caseId, detail}). A page_view is sent once
    per page load. Bots that announce themselves and local previews are
-   skipped. */
+   skipped.
+
+   Human-only counting (2026-11-03): events wait in a queue until the
+   visitor does something a person does -- scrolls, clicks or taps, presses
+   a key, or moves the mouse -- and are dropped if the page closes first.
+   Automated traffic was loading /contact.html in bursts (213 views on
+   2026-10-29, 118 on 11-01, zero messages sent), tripling "visits" and
+   hiding whether anything changed real readers' behaviour. Once a tab has
+   shown a human action, its later pages send at once. */
 (function () {
   const ENDPOINT = "https://ribmcdyoydhmafnyfhpp.supabase.co/rest/v1/site_events";
   const KEY = "sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f";
@@ -33,10 +41,19 @@
     try { return !!(window.RELAW_AUTH && window.RELAW_AUTH.getSession && window.RELAW_AUTH.getSession()); } catch (e) { return null; }
   }
 
+  let human = false;
+  try { human = sessionStorage.getItem("credocket_human") === "1"; } catch (e) { /* private window */ }
+  const queue = [];
+
   function track(event, opts) {
     opts = opts || {};
     if (window.va) { try { window.va("event", { name: event, data: { page: location.pathname, detail: opts.detail || "" } }); } catch (e) { /* plan without custom events */ } }
     if (off) return;
+    if (!human) { queue.push([event, opts]); return; }
+    send(event, opts);
+  }
+
+  function send(event, opts) {
     const row = {
       event,
       page: location.pathname.slice(0, 200),
@@ -54,6 +71,22 @@
         keepalive: true,
       }).catch(function () {});
     } catch (e) { /* never let tracking break the page */ }
+  }
+
+  // The first human action sends whatever this page queued. A mouse must
+  // actually travel (several moves), so one synthetic event does not count.
+  let moves = 0;
+  function markHuman(e) {
+    if (human) return;
+    if (e.type === "mousemove" && ++moves < 3) return;
+    if (e.type === "scroll" && window.scrollY < 40) return;
+    human = true;
+    try { sessionStorage.setItem("credocket_human", "1"); } catch (err) { /* private window */ }
+    ["scroll", "pointerdown", "keydown", "touchstart", "mousemove", "wheel"].forEach(function (t) { window.removeEventListener(t, markHuman, true); });
+    while (queue.length) { const q = queue.shift(); send(q[0], q[1]); }
+  }
+  if (!off && !human) {
+    ["scroll", "pointerdown", "keydown", "touchstart", "mousemove", "wheel"].forEach(function (t) { window.addEventListener(t, markHuman, { capture: true, passive: true }); });
   }
 
   window.RELAW_TRACK = track;
