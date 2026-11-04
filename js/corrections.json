@@ -3,6 +3,46 @@
  "startedOn": "2026-09-12",
  "entries": [
   {
+   "date": "2026-11-03",
+   "scope": "matter",
+   "caseId": "live-034",
+   "subject": "Wardman Tower Condominium Association v. JBG Smith (condominium construction defect judgment)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a construction defect matter: a residential condominium owners' association's consumer-protection judgment against the developer over defects in a hotel-to-condominium conversion.",
+   "now": "Removed. It is a homeowners' claim over residential condominium units, not a commercial real estate matter; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
+   "date": "2026-11-03",
+   "scope": "matter",
+   "caseId": "live-061",
+   "subject": "Arizona v. Dasmen Residential (Tucson apartment habitability suit)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a landlord-tenant matter: the state attorney general's suit over air conditioning in residential tenants' apartment units.",
+   "now": "Removed. It enforces residential tenants' habitability rights, not a commercial real estate dispute; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
+   "date": "2026-11-03",
+   "scope": "matter",
+   "caseId": "live-074",
+   "subject": "District of Columbia v. D.C. residential landlords (civil RICO and code-violation order)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a landlord-tenant matter: the District's federal suit over a subsidy scheme and housing-code violations in residential rental buildings.",
+   "now": "Removed. It concerns residential rental housing conditions and tenant protections, not a commercial real estate dispute; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
+   "date": "2026-11-03",
+   "scope": "matter",
+   "caseId": "live-159",
+   "subject": "Groton Housing Authority v. its former executive director (alleged diversion of funds)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a REIT and securities matter: a public housing authority's suit accusing its former executive director of diverting funds through a shell company.",
+   "now": "Removed. It is a public housing authority's claim against an individual over diverted funds, not a commercial real estate or securities matter; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
    "date": "2026-10-14",
    "scope": "matter",
    "caseId": "live-157",

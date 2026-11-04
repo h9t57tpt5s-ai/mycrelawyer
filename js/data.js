@@ -1147,45 +1147,6 @@ const RELAW_DATA = {
       tags: ["broker commission", "condo development", "contract dispute", "recapitalization", "new york"]
     },
     {
-      id: "live-034",
-      seoTitle: "Wardman Tower: $356.1M Treble-Damages Judgment Against JBG Smith",
-      seoDescription: "D.C. court awarded the Wardman Tower condo association $118,695,171, trebled to about $356.1 million, against JBG Smith over conversion defects.",
-      property: {"name": "Wardman Tower", "city": "Washington", "state": "DC"},
-      addedDate: "2026-08-21",
-      title: "Wardman Tower Condo Assn. v. JBG Smith Properties ($356M Treble-Damages Construction Defect Judgment)",
-      brief: "A D.C. court awarded the Wardman Tower condo association $118,695,171 against JBG Smith over defects in its hotel-to-condo conversion, trebled to roughly $356.1 million under consumer-protection law.",
-      category: "construction-defect",
-      status: "ruling",
-      date: "2026-07-31",
-      jurisdiction: "Superior Court of the District of Columbia",
-      parties: [
-        { name: "Wardman Tower Residential Condominium Unit Owners Association", role: "Plaintiff" },
-        { name: "JBG SMITH Properties", role: "Defendant" }
-      ],
-      judge: "Yvonne Williams",
-      amountUsd: 356100000,
-      amountBasis: "judgment",
-      state: "DC",
-      amount: "$118.7M compensatory, trebled to ~$356.1M under D.C.'s Consumer Protection Procedures Act, plus attorneys' fees to be determined",
-      source: "live",
-      sourceUrl: "https://www.bisnow.com/news/washington-dc/multifamily/jbg-smith-postpones-earnings-release-after-wardman-tower-court-ruling",
-      summary: "The Superior Court of the District of Columbia entered judgment on July 31 in Wardman Tower Residential Condominium Unit Owners Association v. JBG Smith Properties, et al., No. 2020 CA 004807 B, awarding the condo association $118,695,171 in compensatory damages and trebling that figure to roughly $356.1 million under the D.C. Consumer Protection Procedures Act. The suit, filed in 2020, alleged that JBG Smith's 2017 conversion of the historic Wardman Tower hotel into a 32-unit luxury condominium building involved construction and design defects in the elevators, electrical systems, and foundation that were misrepresented to buyers as \"well-built.\"",
-      significance: "Shows how a consumer-protection statute with mandatory treble damages can multiply an already large construction-defect compensatory award several times over, turning a conventional building-systems defect claim into potential existential litigation exposure for a public REIT. Developers of historic conversions and adaptive-reuse projects should treat sales and marketing representations about renovated building systems as carrying consumer-protection liability, not just contract-warranty risk, particularly in jurisdictions with uncapped or mandatory trebling provisions like D.C.'s CPPA.",
-      body: [
-        "A District of Columbia trial court has handed down one of the largest construction-defect judgments against a publicly traded real estate company in recent memory, and the case is a pointed reminder to developers converting older buildings into luxury condominiums that a defective-construction claim dressed up as a consumer-protection violation can turn a multimillion-dollar dispute into a nine-figure one. On July 31, 2026, the Superior Court of the District of Columbia entered judgment in Wardman Tower Residential Condominium Unit Owners Association v. JBG Smith Properties, et al., No. 2020 CA 004807 B, awarding the unit owners' association $118,695,171 in compensatory damages and then trebling that figure under the D.C. Consumer Protection Procedures Act to roughly $356.1 million, with attorneys' fees still to be determined. JBG Smith, the Bethesda-based, NYSE-listed REIT best known as the master developer behind Amazon's HQ2 in Arlington, was hit hard enough by the ruling that it postponed release of its second-quarter 2026 financial results while it assessed the impact.",
-        "The underlying dispute traces back to 2017, when JBG Smith's predecessor, JBG Cos., converted the 1920s-era Wardman Tower hotel at 2660 Connecticut Avenue NW in Washington's Woodley Park neighborhood into a 32-unit luxury condominium building, with units marketed and sold starting at roughly $4 million. The condominium association sued in 2020, alleging that the developer had represented the converted units as well-built while the building in fact suffered from a litany of construction and design deficiencies touching its elevators, electrical systems, foundation, and other core building systems. Rather than framing the case purely as a breach-of-warranty or negligent-construction action, the conventional vehicle for defect litigation, the association brought claims under the CPPA, D.C.'s broad consumer-protection statute, which permits treble damages for unfair or deceptive trade practices. After a lengthy trial, the court's 148-page order found the developer defendants liable and applied the CPPA's mandatory trebling provision to the compensatory award, transforming a nine-figure defect judgment into a verdict nearing $360 million once fees are added.",
-        "For real estate lawyers and general counsel, the case is significant less for its size than for its mechanism. Construction-defect suits against developers are common and, standing alone, typically resolve within the bounds of contract damages, statutory warranty caps, or negligence principles that courts and insurers can reasonably model. A consumer-protection theory changes that calculus entirely: where a plaintiff can characterize a developer's marketing and sales representations about build quality as deceptive, a jurisdiction with an uncapped or mandatory treble-damages consumer-protection statute, as D.C.'s CPPA is here, can multiply an already substantial compensatory finding several times over, with no obvious ceiling tied to the cost of repair or the property's value. That risk is especially acute in historic-building conversions and adaptive-reuse projects, where marketing materials often lean heavily on assurances about the quality and durability of renovated or restored building systems to justify premium pricing, precisely the kind of representation a CPPA claim can seize on.",
-        "JBG Smith has said it intends to appeal promptly, arguing there are substantial grounds to challenge both the underlying liability findings and the size and trebling of the award. An appeal to the D.C. Court of Appeals could take years to resolve and could narrow or eliminate the CPPA trebling even if some liability survives, but in the meantime the company faces immediate financial-reporting and disclosure consequences: it delayed its second-quarter earnings release specifically to account for the judgment, and it will need to address reserve, contingency, and going-concern disclosures in its financial statements while the appeal is pending. For a public REIT, a judgment of this magnitude is not simply a litigation line item, it becomes a material event requiring its own disclosure and can affect credit facility covenants, bonding capacity for future projects, and investor confidence independent of the ultimate appellate outcome.",
-        "The practical upshot for the industry is straightforward even if the appeal takes years to play out. Developers undertaking historic conversions or major renovations should scrutinize sales and marketing language describing building systems and construction quality with the same rigor applied to purchase-and-sale contract representations, since consumer-protection statutes in many jurisdictions can convert imprecise marketing claims into treble-damages exposure well beyond ordinary defect litigation. General counsel at public real estate companies should be modeling worst-case exposure under any applicable state or local consumer-protection statute, not just contract and tort damages caps, when reserving for pending construction-defect matters, particularly in jurisdictions that mandate trebling once liability is found. And condominium sponsors and their insurers would be well served to revisit representations-and-warranties and errors-and-omissions coverage now, since a verdict of this size tests whether existing policy limits and exclusions were ever built to withstand a statutory multiplier of this scale."
-      ],
-      timeline: [
-        { when: "2017", label: "JBG Cos. (JBG Smith's predecessor) completes the conversion of the historic Wardman Tower hotel into a 32-unit luxury condominium" },
-        { when: "2020", label: "Wardman Tower Residential Condominium Unit Owners Association files suit against JBG Smith Properties alleging construction and design defects" },
-        { when: "July 31, 2026", label: "D.C. Superior Court enters a $118.7M judgment, trebled to roughly $356.1M under the CPPA, plus attorneys' fees to be determined", current: true }
-      ],
-      tags: ["construction defect", "REIT", "condominium litigation", "consumer protection", "treble damages"]
-    },
-    {
       id: "live-035",
       seoTitle: "9 New York Avenue NW: JLL Sued for $12M+ Over Inflated NOI",
       seoDescription: "Owner of the apartment tower at 9 New York Avenue NW, Washington, D.C. sued JLL for $12M+, alleging it inflated NOI to clear a lender's debt-yield test.",
@@ -2139,50 +2100,6 @@ const RELAW_DATA = {
       tags: ["unjust enrichment", "construction", "improvement district", "arizona", "contractor payment"]
     },
     {
-      id: "live-061",
-      seoTitle: "Dasmen Residential Sued by Arizona AG Over Tucson Apartment AC",
-      seoDescription: "Arizona AG sued Dasmen Residential and Luxford Living over Sedona Springs, Sienna Ridge and Summit Ridge in Tucson, alleging 1,000+ units lacked proper AC.",
-      addedDate: "2026-09-01",
-      title: "Arizona ex rel. Mayes v. Dasmen Residential, LLC (Tucson Apartment Habitability Enforcement Suit)",
-      brief: "Arizona's Attorney General sued Dasmen Residential, Luxford Living and affiliates over three Tucson apartment complexes, alleging more than 1,000 units lacked adequate air conditioning since 2023.",
-      category: "landlord-tenant",
-      status: "filed",
-      date: "2026-08-07",
-      jurisdiction: "Maricopa County Superior Court, Arizona",
-      parties: [
-        { name: "State of Arizona", role: "Plaintiff" },
-        { name: "Sedona Springs AZ LLC", role: "Defendant" },
-        { name: "Sienna Ridge AZ LLC", role: "Defendant" },
-        { name: "Summit Ridge AZ LLC", role: "Defendant" },
-        { name: "DMR Sedona Springs AZ LLC", role: "Defendant" },
-        { name: "DMR Tucson 1166 LLC", role: "Defendant" },
-        { name: "Tucson 1166 IG LLC", role: "Defendant" },
-        { name: "Dasmen Residential LLC", role: "Defendant" },
-        { name: "Luxford Living LLC", role: "Defendant" }
-      ],
-      judge: null,
-      amountUsd: null,
-      state: "AZ",
-      amount: "1,000+ units; seeking restitution and civil penalties, plus a rental freeze pending compliance",
-      source: "live",
-      sourceUrl: "https://www.azag.gov/press-release/attorney-general-mayes-sues-out-state-landlords-leaving-tucson-tenants-without-ac",
-      summary: "Arizona Attorney General Kris Mayes sued the owners and managers of three Tucson apartment complexes — Sedona Springs, Sienna Ridge, and Summit Ridge — on August 7, 2026, alleging a pattern of neglect dating to 2023 that left more than 1,000 units without adequate air conditioning through record summer heat, along with plumbing, mold, and pest problems. The complaint, filed with an application for a temporary restraining order and preliminary injunction, names Dasmen Residential, Luxford Living, and several affiliated single-property ownership entities as defendants.",
-      significance: "Brought by the state rather than an individual tenant, the suit seeks remedies well beyond typical habitability litigation, including a bar on renting additional units until the properties meet legal standards. It signals that extreme indoor heat is increasingly being treated as an emergency habitability violation on par with structural or water-intrusion defects, and that multi-entity ownership layering will not shield every entity in the chain from being named.",
-      body: [
-        "Arizona Attorney General Kris Mayes filed suit on August 7, 2026 in Maricopa County Superior Court against the owners and managers of three Tucson apartment complexes, alleging a multi-year pattern of neglect that left more than 1,000 units without functioning air conditioning through some of the hottest months on record. The complaint, filed together with an application for a temporary restraining order and preliminary injunction, names Sedona Springs, Sienna Ridge, and Summit Ridge apartment complexes and a cluster of affiliated ownership and management entities, including Sedona Springs AZ, Sienna Ridge AZ, Summit Ridge AZ, DMR Sedona Springs AZ, DMR Tucson 1166, Tucson 1166 IG, Dasmen Residential, and Luxford Living.",
-        "The complaint alleges a pattern of neglect and deception dating back to at least 2023 across the three affiliated properties. According to the state's filing, tenants this summer struggled to cool their units to 80 degrees Fahrenheit or below, the maximum indoor temperature Pima County's habitability standards require, with indoor temperatures at times reportedly topping 90 degrees. Roughly half of Sedona Springs has allegedly gone without any central air conditioning since March. The state pairs the AC failures with a broader list of alleged defects, including chronic lack of hot water, derelict plumbing and frequent leaks, mold growth, and pest infestations, along with allegations the owners and managers misrepresented the properties' condition and their responsiveness to tenant complaints.",
-        "Because the plaintiff is the state itself, the remedies sought go beyond what a typical private habitability suit would pursue. In addition to the temporary restraining order and preliminary injunction filed alongside the complaint, Arizona is seeking permanent injunctive relief requiring the properties to complete necessary repairs, an order barring the defendants from renting to any additional tenants until the units meet legal habitability standards, and both restitution for affected tenants and civil penalties against the ownership and management entities.",
-        "The case arrives amid what Arizona officials describe as an emerging enforcement pattern treating extreme indoor heat as a housing-code emergency rather than a comfort issue, as record summer temperatures across the Southwest test aging HVAC infrastructure at multifamily properties. The state's characterization of the ownership as out-of-state landlords also tracks a broader trend of attorneys general scrutinizing institutional or absentee ownership of workforce housing more aggressively, and the complaint names every layer of the multi-entity ownership and management structure rather than confining the suit to a single title-holding entity.",
-        "For multifamily owners and managers, the case is a reminder that deferred HVAC maintenance across a portfolio of affiliated properties can invite exactly the kind of pattern-and-practice allegations the state is pressing here, and that layering ownership across separate single-property LLCs under common management will not prevent a state attorney general from naming every entity in the chain as a defendant. Owners in jurisdictions with maximum-indoor-temperature habitability standards should treat air conditioning capacity and repair budgets as compliance-critical rather than discretionary, and should audit recurring complaints across affiliated properties before a regulator does it for them, since the remedies available to a government plaintiff — including a freeze on new leasing — can impose serious operational and revenue consequences well before liability is established on the merits."
-      ],
-      timeline: [
-        { when: "2023", label: "Alleged pattern of neglect and deception begins at the three properties" },
-        { when: "March 2026", label: "Roughly half of Sedona Springs allegedly loses central air conditioning" },
-        { when: "August 7, 2026", label: "Arizona Attorney General sues, seeking a TRO, preliminary injunction, and civil penalties", current: true }
-      ],
-      tags: ["habitability", "air conditioning", "attorney general enforcement", "multifamily", "arizona"]
-    },
-    {
       id: "live-062",
       seoTitle: "LivCor (Blackstone) $7M RealPage Antitrust Settlement Approved",
       seoDescription: "Judge approved DOJ and nine-state settlements with Blackstone-owned LivCor, including $7 million, over alleged RealPage rent coordination.",
@@ -2629,46 +2546,6 @@ const RELAW_DATA = {
       ],
       judge: "John T. Alexander",
       tags: ["zoning", "data center", "moratorium", "vested rights", "kentucky"]
-    },
-    {
-      id: "live-074",
-      seoTitle: "D.C. RICO Suit: Court Orders Razjooyan Landlords to Cede Control",
-      seoDescription: "Federal court ordered the Razjooyan landlords to install independent management at their D.C. buildings in the Attorney General's civil RICO case.",
-      addedDate: "2026-09-04",
-      title: "District of Columbia v. Razjooyan (Federal Civil RICO Suit Strips Landlords of Building Control)",
-      brief: "A federal court ordered D.C. landlords accused in a civil RICO case of a subsidy scheme across 70+ buildings to install independent management and fix nearly 200 code violations within 21 days.",
-      category: "landlord-tenant",
-      status: "ruling",
-      date: "2026-07-17",
-      jurisdiction: "U.S. District Court for the District of Columbia",
-      parties: [
-        { name: "District of Columbia", role: "Plaintiff" },
-        { name: "Velocity Commercial Capital, LLC", role: "Movant" },
-        { name: "Velocity Financial, Inc.", role: "Movant" }
-      ],
-      judge: "Christopher R. Cooper",
-      amountUsd: 16000000,
-      amountBasis: "claim",
-      state: "DC",
-      amount: "$16M+ in allegedly fraudulently obtained housing subsidies across 70+ buildings",
-      source: "live",
-      sourceUrl: "https://oag.dc.gov/release/attorney-general-schwalb-issues-statement-court-0",
-      summary: "The U.S. District Court for the District of Columbia granted a preliminary injunction in District of Columbia v. Razjooyan (No. 1:26-cv-01210), ordering landlords Ali 'Sam' Razjooyan and Houri Razjooyan to install independent, licensed professional management at every building they still control and to fix nearly 200 outstanding housing code violations across five properties within 21 days. The order escalates a civil RICO, consumer-protection, and false-claims case D.C. Attorney General Brian L. Schwalb's office filed against the family over an alleged decade-long scheme spanning more than 70 mostly rent-controlled apartment buildings.",
-      significance: "Shows regulators pairing racketeering and false-claims theories, which carry personal liability for the individuals controlling ownership entities, with a receivership-style operational takeover that displaces an owner from day-to-day control before final judgment. Owners and lenders in subsidized or rent-controlled multifamily housing should treat habitability certifications made to housing agencies and lenders as carrying meaningful fraud exposure, not just program-compliance risk.",
-      body: [
-        "A federal judge's order stripping a Washington, D.C. landlord family of operational control over its remaining apartment buildings is emerging as one of the most consequential housing-enforcement actions in the District's recent history, and a template other jurisdictions are likely to study as they look for tools to move faster against owners who let distressed multifamily portfolios decay. On July 17, 2026, the U.S. District Court for the District of Columbia granted a preliminary injunction in District of Columbia v. Razjooyan, No. 1:26-cv-01210, ordering Ali 'Sam' Razjooyan and his mother, Houri Razjooyan, to install an independent, licensed property management company at every building they still control and to correct, within 21 days, nearly 200 outstanding violations of the District's Housing and Property Maintenance Code across five properties, including buildings on 48th Street NE, B Street SE, and Langston Place SE.",
-        "The injunction is the latest escalation in a case D.C. Attorney General Brian L. Schwalb's office first brought in February 2026, when it filed a sweeping civil complaint accusing Sam Razjooyan, his brother Eimon 'Ray' Razjooyan, and their mother of running a decade-long Ponzi-like real estate scheme across more than 70 apartment buildings, the large majority of them rent-controlled. The office subsequently pursued civil racketeering claims against the family in federal court, alleging violations of the Racketeer Influenced and Corrupt Organizations Act alongside the District's Consumer Protection Procedures Act and False Claims Act. According to the government's filings, the Razjooyans built their portfolio by acquiring distressed but habitable buildings, telling construction lenders they intended to renovate them, completing only nominal repairs, and then using the resulting loan proceeds, along with more than $16 million in housing-subsidy payments the office alleges were obtained through false certifications that the units were safe and habitable, to fund the acquisition of still more properties. City inspectors have documented roughly 4,000 housing code violations across the family's holdings, and tenants have described conditions including sustained heat outages during winter months, electrical fires traced to faulty wiring, and pervasive mold and pest infestations.",
-        "The July 17 order granting the preliminary injunction found that conditions at the five remaining properties under the Razjooyans' direct control had continued to deteriorate even after the litigation was filed, and that the family had shown an unwillingness or inability to manage the buildings safely on their own. Rather than simply ordering repairs on a compliance timeline, as many code-enforcement actions do, the court's remedy displaces the owners from day-to-day control entirely: an independent, licensed management company must now take over maintenance, tenant communications, and operations at each affected building while the underlying racketeering and fraud claims proceed toward trial.",
-        "The case illustrates a shift in how aggressively government enforcers are willing to move against multifamily owners whose portfolios pose an ongoing habitability risk, reaching for tools, civil RICO and false-claims liability, historically associated with financial fraud rather than routine landlord-tenant disputes. For institutional owners, lenders, and asset managers, the significance lies less in the extreme facts of this particular case than in the legal architecture the government used to get there: pairing a receivership-style operational takeover with racketeering claims against the individuals who controlled the ownership entities, rather than confining liability to the property-owning LLCs themselves. That combination increases both the speed at which a court can intervene and the personal exposure facing principals of thinly capitalized ownership structures.",
-        "The case also underscores the compounding risk that housing-subsidy programs create for owners who cut corners on maintenance. Because the government's fraud and false-claims theories rest substantially on the allegation that the Razjooyans certified their units as safe and habitable in order to keep subsidy payments flowing, any owner participating in project-based or tenant-based subsidy programs should treat inspection certifications and habitability representations to housing agencies as documents carrying meaningful legal exposure beyond simple program compliance. Lenders financing renovation or acquisition loans secured by distressed multifamily assets should take a similar lesson: the government's theory treats a lender's renovation-scope financing, obtained on the strength of representations about planned repairs that were never substantially completed, as part of the alleged fraud's funding mechanism. Taken together, owners of rent-controlled or subsidized portfolios should treat unresolved code violations as rapidly compounding legal exposure rather than routine administrative matters, verify that every habitability representation made to an agency or lender matches the property's actual condition, and recognize that courts are willing to order an operational takeover well before a case reaches final judgment, making early remediation and transparent recordkeeping the far more defensible course."
-      ],
-      timeline: [
-        { when: "February 2026", label: "D.C. Attorney General Brian L. Schwalb files a civil RICO and consumer-protection complaint against the Razjooyan family" },
-        { when: "July 17, 2026", label: "U.S. District Court for the District of Columbia grants a preliminary injunction ordering professional management and repairs", current: true }
-      ],
-      tags: ["rico", "housing code violations", "receivership", "consumer protection", "washington dc"],
-      docketUrl: "https://www.courtlistener.com/docket/73186724/district-of-columbia-v-razjooyan/",
-      docketLabel: "CourtListener docket"
     },
     {
       id: "live-076",
@@ -5565,48 +5442,6 @@ const RELAW_DATA = {
         { when: "October 9, 2026", label: "Post-trial briefs due from both sides", upcoming: true }
       ],
       tags: ["breach of fiduciary duty", "minority owners", "land sale", "iowa", "self-dealing"]
-    },
-    {
-      id: "live-159",
-      seoTitle: "Groton Housing Authority Fraud Suit: Asset-Attachment Motion",
-      seoDescription: "Groton Housing Authority and Greater Groton Realty Corp. allege at least $2M in diverted assets and seek to attach real estate; hearing Oct. 20.",
-      addedDate: "2026-09-19",
-      title: "Groton Housing Authority v. Cappelletti (Ponzi-Like Redevelopment Fraud & Asset-Seizure Motion)",
-      brief: "Groton Housing Authority accuses its former executive director of diverting at least $2M through a look-alike shell LLC, imperiling a ~$4B redevelopment; it now seeks to attach Connecticut homes.",
-      category: "reit-securities",
-      status: "pending",
-      date: "2025-03-13",
-      jurisdiction: "Connecticut Superior Court, Complex Litigation Docket, Hartford (transferred from New London Superior Court)",
-      parties: [
-        { name: "Groton Housing Authority", role: "Plaintiff" },
-        { name: "Greater Groton Realty Corp.", role: "Plaintiff" },
-        { name: "All Points Employer Solutions", role: "Defendant" },
-        { name: "Clermont & Associates", role: "Defendant" }
-      ],
-      amountUsd: 2000000,
-      amountBasis: "claim",
-      state: "CT",
-      judge: "Scott Chadwick",
-      amount: "GHA alleges at least $2M in misappropriated assets tied to Cappelletti's tenure; the collapsed underlying redevelopment plan involved a proposed $750M bond issuance for a ~$4B project",
-      source: "live",
-      sourceUrl: "https://theday.com/news/797804/groton-housing-authority-moves-to-seize-middlebury-homes-in-alleged-2m-fraud/",
-      summary: "The Groton Housing Authority and its nonprofit development arm, Greater Groton Realty Corp., sued former executive director Robert Cappelletti and former property manager Jamie Lee in February 2025, alleging fraud, civil conspiracy, and breach of fiduciary duty tied to a scheme that allegedly used a look-alike shell LLC to divert assets from the agency's legitimate redevelopment vehicle. The case has since escalated: the Housing Authority has moved for a prejudgment remedy to attach Middlebury, Connecticut homes owned by Cappelletti and his brother David, with a hearing set for October 20, 2026.",
-      significance: "Shows how a single controlling executive at a public housing authority can imperil a large bond-financed redevelopment plan through an alleged look-alike-entity diversion scheme, and illustrates the aggressive asset-preservation tools, including an early injunction and a prejudgment attachment of personal real estate, available to a defrauded public agency pursuing recovery.",
-      body: [
-        "A fraud and asset-recovery case rooted in a collapsed plan to redevelop distressed Connecticut shopping plazas into a multi-billion-dollar mixed-use campus has entered a more aggressive phase, with the Groton Housing Authority and its nonprofit development arm, Greater Groton Realty Corp., moving to attach real property owned by their former executive director and his brother. A hearing on that prejudgment-remedy motion is set for October 20, 2026, in a case that has been transferred from New London Superior Court to Connecticut's complex litigation docket in Hartford given its scale and the number of related entities involved.",
-        "The underlying suit, filed in New London Superior Court in February 2025, accuses former Groton Housing Authority executive director Robert Cappelletti and former property manager Jamie Lee, later joined by additional defendants including Cappelletti's brother David, of breach of fiduciary duty, common law fraud, civil conspiracy, and violations of the Connecticut Unfair Trade Practices Act. The Housing Authority's attorneys, from the firm Rose Kallor, have described the conduct as a massive Ponzi-like fraud carried out through the agency's own development structure. At the center of the allegations is a scheme the complaint says depended on the near-identical names of two limited liability companies: Northeast Redevelopment LLC, the Housing Authority's legitimate real estate development vehicle, and Northeast Redevelopment Services LLC, an entity the complaint alleges Cappelletti created and used to siphon assets, cash, and equity away from the authority and its affiliates for personal benefit, while also allegedly executing unauthorized property sales and financial transactions in the Housing Authority's name.",
-        "The scale of what was allegedly at stake is what elevates this beyond a typical public-agency embezzlement case. According to reporting on the underlying redevelopment plan, Cappelletti had positioned the Housing Authority to pursue approximately $750 million in bond financing intended to kick-start a roughly $4 billion project transforming aging, underperforming shopping plazas into an upscale mixed-use development, a proposal a former Housing Authority commissioner had voted to approve in 2023 before the alleged fraud came to light. That ambition helps explain both the FBI's decision to investigate and the unusually aggressive early litigation posture the Housing Authority has taken, including a March 2025 temporary injunction, agreed to by the defendants and issued by Judge Scott Chadwick, barring Cappelletti and Lee from acting on the authority's behalf, transferring or encumbering any authority-related assets, or withholding account credentials and access from the agency.",
-        "The case has continued to escalate since that injunction. The Housing Authority has since pursued contempt proceedings against Cappelletti in a related dispute over control of Meriden Housing Authority records and equipment, since Cappelletti went on to serve as executive director in Meriden after leaving Groton, where he was later placed on leave amid the same financial scrutiny, and has now moved for a prejudgment remedy to attach Robert and David Cappelletti's homes in Middlebury, Connecticut, alleging the brothers were involved in diverting at least $2 million in Housing Authority funds and assets.",
-        "For public housing authorities and the private lenders, bondholders, and development partners who work with them, the case is a pointed illustration of how quickly a redevelopment financing plan can become entangled with allegations of executive self-dealing, and how much damage a single controlling official can do when an agency's governance and financial controls fail to catch a look-alike shell entity operating alongside its legitimate development arm. It also underscores that public agencies pursuing large-scale bond financing for real estate redevelopment carry a distinct layer of fraud exposure beyond ordinary private commercial development, given the combination of public funds, limited board oversight bandwidth, and the reputational pressure to keep an ambitious project moving forward.",
-        "The case is a reminder that public housing authorities and similar quasi-governmental development entities should require independent, board-level verification before approving any large bond-financed redevelopment plan, particularly when a single executive controls both the proposal and its supporting financial representations, and that lenders, bond counsel, and prospective development partners should independently confirm the legal identity and ownership of every LLC named in transaction documents, since a look-alike entity name is a recurring red flag in this fact pattern. Agencies that suspect internal fraud should also move quickly to secure account credentials, financial records, and asset-transfer authority, as the Groton Housing Authority did through its early temporary injunction, and a prejudgment remedy attaching a defendant's personal real estate, as sought here, is worth evaluating early in any case involving suspected diversion of an entity's assets."
-      ],
-      timeline: [
-        { when: "2023", label: "A former Groton Housing Authority commissioner votes to approve a $750M bond plan for a ~$4B shopping-plaza redevelopment" },
-        { when: "February 2025", label: "Groton Housing Authority and Greater Groton Realty Corp. sue Cappelletti and Lee in New London Superior Court" },
-        { when: "March 13, 2025", label: "Judge Scott Chadwick issues an agreed temporary injunction barring Cappelletti and Lee from acting for the authority or transferring its assets" },
-        { when: "October 20, 2026", label: "Hearing set on the Housing Authority's motion for a prejudgment remedy to attach Cappelletti-family homes in Middlebury, CT", current: true, upcoming: true }
-      ],
-      tags: ["fraud", "housing authority", "connecticut", "bond financing", "asset seizure"]
     },
     {
       id: "live-160",
