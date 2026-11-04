@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-11-04T02:39:34+00:00",
+ "updatedAt": "2026-11-04T18:55:47+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "B&B REALTY CORP v. STATE FARM FIRE AND CASUALTY COMPANY",
+   "court": "District Court, D. New Jersey",
+   "courtId": "njd",
+   "docketNumber": "1:26-cv-14324",
+   "dateFiled": "2026-11-04",
+   "docketUrl": "https://www.courtlistener.com/docket/75069455/bb-realty-corp-v-state-farm-fire-and-casualty-company/",
+   "docketId": 75069455,
+   "suitNature": "",
+   "cause": "",
+   "slug": "b-b-realty-corp-v-state-farm-fire-and-casualty-company-njd-1-26-cv-14324",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "RDM Distress Assets Holdings, LLC v. Baron Property Group, LLC",
    "court": "District Court, S.D. New York",
