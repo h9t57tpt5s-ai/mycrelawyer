@@ -12772,6 +12772,47 @@ const RELAW_DATA = {
         { when: "June 22, 2022", label: "Off-duty officer working as the complex's security mistakes an occupied, rented unit for vacant using an outdated list; officers force entry and detain two residents" },
         { when: "November 3, 2026", label: "Georgia Court of Appeals revives premises-liability and punitive-damages claims for two plaintiffs and keeps the false-imprisonment claim alive, remanding the case", current: true }
       ]
+    },
+    {
+      id: "live-368",
+      seoTitle: "Botetourt County VA Google Data Center Deal: FOIA Suit",
+      seoDescription: "A Botetourt County, Virginia landowner sued to void the county's Google data center deal, claiming the board approved it in a closed session.",
+      property: { name: "Botetourt Center at Greenfield", state: "VA" },
+      addedDate: "2026-11-04",
+      title: "Landowner Sues Botetourt County Over Closed-Session Approval of Google Data Center Agreement",
+      brief: "A Botetourt County, Virginia landowner sued the county, its Board of Supervisors and Google subsidiary Helio Capital LLC, alleging the board approved a $14 million data center agreement in closed session without disclosing its terms.",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-11-02",
+      jurisdiction: "Botetourt County Circuit Court, Virginia",
+      state: "VA",
+      amount: "$14 million land purchase and tax agreement under challenge",
+      source: "live",
+      sourceUrl: "https://cardinalnews.org/2026/11/02/lawsuit-claims-botetourt-countys-data-center-agreement-with-google-is-invalid/",
+      summary: "A Botetourt County, Virginia landowner filed a petition for a writ of mandamus and injunctive relief in Botetourt County Circuit Court on November 2, 2026, seeking to void the county's economic-development performance agreement with Helio Capital LLC, a Google subsidiary, that cleared the way for a data center campus at the Botetourt Center at Greenfield business park. The petition alleges the Board of Supervisors violated Virginia's Freedom of Information Act by discussing and effectively agreeing to the terms of the performance agreement in closed session on June 24, 2025, then approving it in open session without disclosing its substance.",
+      significance: "The suit shows that an open-meetings or public-records defect in how a local government approved an economic-development deal, not any flaw in the deal's substance, can become the biggest litigation risk to a data center or other large commercial project's permits and tax arrangements, with a remedy -- voiding the approval outright -- that a conventional zoning challenge does not carry. Developers negotiating incentive or performance agreements with localities should confirm that substantive terms are disclosed in open session before a final vote, not just voted on as an unnamed closed-session product.",
+      body: [
+        "A Botetourt County, Virginia landowner has sued the county, its Board of Supervisors, its Economic Development Authority, and Helio Capital LLC -- a subsidiary wholly owned by Google -- seeking to void the economic-development performance agreement that cleared the way for Google's data center campus at the Botetourt Center at Greenfield business park. The petition, filed November 2, 2026 in Botetourt County Circuit Court, asks the court to declare null and void both the board's closed-session discussion of the agreement and its subsequent open-session vote approving it, and to rescind any expedited permits issued under it, on the theory that the board violated Virginia's Freedom of Information Act.",
+        "The dispute traces back to June 24, 2025, when the Botetourt County Board of Supervisors approved the performance agreement with Helio Capital LLC that cleared the way for Google's purchase of roughly 312 acres at the Botetourt Center at Greenfield for approximately $14 million, plus an additional $4 million in community support payments over five years. According to reporting on the petition, the board met in closed session that day, discussed the agreement, and reached agreement on its terms before returning to open session, where it approved the agreement without disclosing what it contained. The agreement did more than bless the land sale: it committed the county to expedite permitting for the project and created performance grants that effectively cap the data center's personal-property-tax burden going forward.",
+        "The petition, brought as an action for a writ of mandamus and injunctive relief, names the Board of Supervisors, Botetourt County itself, the county's Economic Development Authority, and Helio Capital LLC as respondents. Virginia's FOIA permits a local governing body to discuss some economic-development matters in closed session, typically where disclosure would be adverse to the county's bargaining position with a prospective business, but requires the body to return to open session to take any final action, and the petition's theory is that the board's public vote gave the public no information about what was actually being approved, leaving residents unaware of the scope of the tax concessions and permitting commitments the county had just made.",
+        "The lawsuit lands amid broader, separate friction over the same project: days before it was filed, reporting disclosed that the U.S. Army Corps of Engineers had decided not to hold a public hearing on the data center campus despite receiving hundreds of requests for one, in a separate federal permitting process tied to wetlands and waterway impacts. County officials have declined to comment on the FOIA suit's specific allegations, citing the pending litigation, while the plaintiff's attorney has said the suit is focused narrowly on how the performance agreement was adopted rather than on the merits of the data center project itself.",
+        "For developers and localities negotiating similar incentive packages, the case argues for building a paper trail that can survive exactly this kind of challenge. Developers should confirm, and where possible get the locality to confirm in writing, that any closed-session discussion of a deal stays within the statutory exception the locality is relying on, and that the body's return to open session includes an actual disclosure of the agreement's substantive terms before the final vote rather than a vote on an unnamed document; counsel should also build in severability and ratification mechanisms so a procedural open-meetings defect can be cured by a fresh, properly noticed vote rather than unwinding the entire land purchase and permits that followed from it; and because open-meetings and public-records theories are emerging as a favored vehicle for opponents of large-scale commercial projects, data centers especially, developers should expect that any agreement negotiated substantially behind closed doors is now a likely target for this kind of suit, however common that practice has been for sensitive site-selection deals."
+      ],
+      judge: null,
+      parties: [
+        { name: "Botetourt County Board of Supervisors", role: "Defendant" },
+        { name: "Botetourt County", role: "Defendant" },
+        { name: "Botetourt County Economic Development Authority", role: "Defendant" },
+        { name: "Helio Capital LLC", role: "Defendant" }
+      ],
+      amountUsd: 14000000,
+      amountBasis: "purchase price",
+      propertyType: "Data Center",
+      tags: ["data-center", "zoning-land-use", "foia", "virginia", "google"],
+      timeline: [
+        { when: "June 24, 2025", label: "Board of Supervisors meets in closed session and approves the Google data center performance agreement without disclosing its terms in open session" },
+        { when: "November 2, 2026", label: "Landowner files suit in Botetourt County Circuit Court seeking to void the agreement and rescind related permits", current: true }
+      ]
     }
   ],
 
