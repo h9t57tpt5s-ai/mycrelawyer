@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-03",
+  lastUpdatedDate: "2026-11-04",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -12735,6 +12735,43 @@ const RELAW_DATA = {
         { when: "May 2025", label: "Court appoints a receiver for the property" },
         { when: "October 22, 2026", label: "Wells Fargo moves for summary judgment, alleging $96.9 million owed", current: true }
       ]
+    },
+    {
+      id: "live-367",
+      seoTitle: "Roswell Creek Apartments: GA Appeals Revives Liability Claims",
+      seoDescription: "Georgia's Court of Appeals revived premises-liability and punitive-damages claims against an apartment owner over an off-duty officer's mistaken unit raid.",
+      property: { name: "Roswell Creek Apartments", state: "GA" },
+      addedDate: "2026-11-04",
+      title: "SMRE Roswell SPE, LLC v. Melgar (Off-Duty Officer's Mistaken Unit Raid Revives Premises-Liability Claims)",
+      brief: "Georgia's Court of Appeals revived premises-liability and punitive-damages claims against apartment owner SMRE Roswell SPE after an off-duty officer working as the complex's security wrongly raided an occupied unit using an outdated vacancy list.",
+      category: "premises-liability",
+      status: "ruling",
+      date: "2026-11-03",
+      jurisdiction: "Court of Appeals of Georgia",
+      state: "GA",
+      amount: "Not stated; punitive damages and attorney-fee claims reinstated for two plaintiffs",
+      source: "live",
+      sourceUrl: "https://efast.gaappeals.gov/download?filingId=5c05b712-1116-437f-9d56-a31fc80bcbb0",
+      summary: "The Georgia Court of Appeals on November 3, 2026 partially reversed summary judgment that had favored apartment owner SMRE Roswell SPE, LLC in a suit arising from a June 2022 incident in which an off-duty Roswell police officer, moonlighting as the Roswell Creek Apartments' part-time security guard, used an outdated vacancy list to mistakenly identify an occupied, rented unit as vacant, prompting fellow officers to force entry with weapons drawn and detain two residents. In three companion decisions, the court revived premises-liability and punitive-damages claims for two of the three plaintiffs while affirming dismissal of battery, trespass and contract-based negligence claims, and left intact the trial court's refusal to dismiss a false-imprisonment claim against the ownership.",
+      significance: "The ruling shows multifamily owners who staff off-duty police officers for complex security remain exposed to premises-liability and punitive-damages claims when the occupancy information those officers rely on turns out to be wrong, regardless of the officer's separate law-enforcement status. It signals that Georgia courts will let punitive-damages exposure reach a jury once evidence shows the owner's own records, not just the responding officers' conduct, caused the harm.",
+      body: [
+        "The Georgia Court of Appeals has partially revived a multifamily owner's premises-liability and punitive-damages exposure arising from a security arrangement that relied on the property's own outdated records. In a trio of companion opinions issued November 3, 2026 in SMRE Roswell SPE, LLC v. Melgar, Case Nos. A26A1353, A26A1354 and A26A1355, the court reversed summary judgment the trial court had granted the owner of the Roswell Creek Apartments on two residents' premises-liability and punitive-damages claims, affirmed dismissal of their battery, trespass and contract-based negligence claims, and left standing the trial court's separate refusal to dismiss a false-imprisonment claim, which proceeds to trial regardless of the outcome on the other counts.",
+        "The dispute traces to a staffing arrangement increasingly common at multifamily properties: hiring an off-duty municipal police officer as part-time complex security. The property manager had arranged for a City of Roswell police detective to patrol the complex up to 30 hours a month, including checking units the manager identified as vacant for unauthorized occupants. On the night of June 22, 2022, the officer, then on duty as a city police officer responding to reports of burglaries of unoccupied units, cross-referenced the vacancy list the manager had supplied him and identified a unit as vacant, then called for backup. Responding officers entered with weapons drawn and handcuffed one resident; when a second resident arrived home shortly after, officers detained him too. The unit was not vacant at all -- it was a rented, occupied apartment, and at least one of the detained residents did not speak English. The vacancy list was simply out of date.",
+        "The residents sued SMRE Roswell SPE, LLC over the incident, asserting assault and battery, trespass, premises liability, breach-of-contract-based negligence, false imprisonment, and punitive-damages claims. The trial court granted the ownership summary judgment on most claims but allowed the false-imprisonment claim to proceed. On the cross-appeals, the Court of Appeals affirmed summary judgment on the battery, trespass and contract-based negligence claims for all plaintiffs and on the assault claim for two of the three, but reversed summary judgment on the premises-liability claim for two plaintiffs after finding a genuine factual dispute over whether the ownership's own information, rather than only the responding officers' conduct, caused the wrongful entry and detention. Because those premises-liability claims survive, the punitive-damages and attorney-fee claims tied to them survive too for those two plaintiffs, while the court affirmed dismissal of the same derivative claims for the plaintiff whose underlying claims did not survive.",
+        "The decision carries weight beyond Georgia because off-duty-officer security arrangements are a common, low-cost way for multifamily owners to put an armed, uniformed presence on a property that has had break-ins or squatting problems. The court's reasoning draws a line owners should take seriously: an officer's status as sworn law enforcement does not insulate the property owner from premises-liability exposure when the officer is acting, in substance, on information and instructions the property manager supplied for a security function the owner created and controls. The ruling also confirms Georgia courts will let a punitive-damages claim proceed to a jury once the underlying liability theory survives summary judgment, without requiring a separate egregiousness showing at the dispositive-motion stage.",
+        "For owners weighing how much this kind of program can cost them, the case is ultimately a data-hygiene story as much as a security-staffing one: a single stale occupancy record, handed to a part-time security contact without a defined update process, is what kept the premises-liability and punitive-damages claims alive on appeal, not any defect in the responding officers' law-enforcement conduct. Multifamily owners that use off-duty officers or other third-party security for unit sweeps should treat vacancy and occupancy lists as a liability-control document with a clear update cadence and sign-off step before any unit is flagged for a forced-entry check, should document in writing whether the officer is acting as the property's agent for liability purposes when performing those functions, and should assume that a forced-entry or wrongful-detention claim at a residential or mixed-use property carries insurance and litigation exposure well beyond ordinary negligence damages from the moment the incident occurs."
+      ],
+      judge: "Jeffrey R. Davis",
+      parties: [
+        { name: "SMRE Roswell SPE, LLC", role: "Owner/Defendant" }
+      ],
+      amountUsd: null,
+      propertyType: "Multifamily",
+      tags: ["premises-liability", "georgia", "multifamily", "off-duty-police", "punitive-damages"],
+      timeline: [
+        { when: "June 22, 2022", label: "Off-duty officer working as the complex's security mistakes an occupied, rented unit for vacant using an outdated list; officers force entry and detain two residents" },
+        { when: "November 3, 2026", label: "Georgia Court of Appeals revives premises-liability and punitive-damages claims for two plaintiffs and keeps the false-imprisonment claim alive, remanding the case", current: true }
+      ]
     }
   ],
 
@@ -13902,6 +13939,14 @@ const RELAW_DATA = {
       court: "Court of Appeals of Georgia",
       background: "Elected to the Court of Appeals of Georgia in December 2008 and took office January 1, 2009, after practicing as a litigator and equity partner at Holland & Knight. Served as the court's Chief Judge from July 2015 to June 2017 and currently serves as a Presiding Judge.",
       bioUrl: "https://www.gaappeals.gov/?p=583"
+    },
+    {
+      name: "Jeffrey R. Davis",
+      slug: "jeffrey-r-davis",
+      title: "Judge — authored the panel opinion",
+      court: "Court of Appeals of Georgia",
+      background: "Elected to the Court of Appeals of Georgia in 2024 and took office January 1, 2025, after serving as director of the Georgia Judicial Qualifications Commission. A 1987 graduate of the University of Tennessee at Chattanooga.",
+      bioUrl: "https://www.gaappeals.gov/?p=5075"
     }
   ],
 
