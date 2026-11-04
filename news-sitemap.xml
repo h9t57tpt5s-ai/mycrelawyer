@@ -40,20 +40,4 @@
       <news:title>NFI Apartment Management, L.L.C. v. Third Coast Insurance Company (Fifth Circuit Affirms Time-Barred Hail Coverage Claim)</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://credocket.com/matters/live-361.html</loc>
-    <news:news>
-      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-01</news:publication_date>
-      <news:title>Fannie Mae, Freddie Mac Servicer Accuse Chicago Investor's Portfolio Entities of Multistate Mortgage Fraud</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://credocket.com/matters/live-360.html</loc>
-    <news:news>
-      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-01</news:publication_date>
-      <news:title>Kansas Bank Wins $46M Final Judgment, Seeks Sheriff's Sale of Stalled Mission Gateway Site</news:title>
-    </news:news>
-  </url>
 </urlset>
