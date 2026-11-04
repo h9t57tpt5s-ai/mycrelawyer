@@ -1217,6 +1217,24 @@
       },
       "checkAfter": "2026-11-11",
       "status": "watching"
+    },
+    {
+      "id": "imp-054",
+      "date": "2026-11-04",
+      "track": "traffic",
+      "title": "Refreshed ops/social-drafts/ with 5 new LinkedIn post drafts (backlog G5)",
+      "why": "Every goal's numeric lever was blocked or Jeff-gated this run: traffic (imp-047/imp-048 until 2026-11-05, imp-053 until 2026-11-11), conversion (imp-046 until 2026-11-08 on newsletterSignups7/signUps7; follows7 structurally blocked per G17's off-limits-code diagnosis, multiPageRate7 unreadable per G19), calculator (imp-044 until 2026-11-07 on calculatorViews7; finalRangeHitRate is Jeff-gated regardless and all results*/ backtest directories are unchanged in size since the 2026-10-30/31 scans -- no new data to mine), news (imp-041 until 2026-11-05, imp-052 until 2026-11-10 -- open on all five of news's tracked metrics between them), subscription (imp-042 until 2026-11-06). Re-checked ops/calculator-proposals.md end-to-end for a Jeff annotation (none since imp-045's 2026-10-31 entry) and confirmed no results-v4.4/ directory exists, so no fresh G3/G15 evidence to add either. Per the playbook's own fallback (backlog note, added 2026-10-16), this run worked backlog item G5 instead: 6 new matters (live-362 through live-367) had been added since imp-049's 2026-11-02 refresh, enough to be worth a real refresh (unlike the single-matter batches skipped on 2026-11-02/03).",
+      "files": [
+        "ops/social-drafts/2026-11-04.md",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "017e7b9",
+      "metric": "none -- these are drafts for Jeff to review and post himself; no goal metric watches this file",
+      "window": "n/a",
+      "baseline": null,
+      "checkAfter": null,
+      "status": "no-op",
+      "note": "Drafted 5 of the 6 new matters (live-362 through live-366): a FERC order protecting a $20B Joliet data-center power deal, a $96.9M Wells Fargo foreclosure on a former Kodak complex in Rochester, a Sixth Circuit ruling that a lender's own deed-in-lieu settlement erased its insurance claim, a Fifth Circuit time-bar ruling on a hail-damage claim, and a Georgia zoning-permit affirmance -- each fact copied verbatim from its published matter write-up in js/data.js. Skipped live-367 (SMRE Roswell SPE, LLC v. Melgar) because its caption names an individual plaintiff from court records, per CLAUDE.md. Confirmed all 5 cited matter pages exist before publishing the draft. Also re-verified before picking this: site_audit.py clean (no regression), git log HEAD..origin/main empty (no unseen upstream commits), and no entries due for judging today (earliest open checkAfter is imp-041/imp-047/imp-048's 2026-11-05)."
     }
   ]
 }
