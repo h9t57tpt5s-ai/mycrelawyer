@@ -1583,6 +1583,46 @@
   "https://cardinalnews.org/2026/11/02/lawsuit-claims-botetourt-countys-data-center-agreement-with-google-is-invalid/": {
    "at": "2026-11-04",
    "action": "matter live-368"
+  },
+  "https://www.courtlistener.com/docket/75069455/bb-realty-corp-v-state-farm-fire-and-casualty-company/": {
+   "at": "2026-11-04",
+   "action": "skipped: no coverage found explaining the filing (property insurance coverage dispute between a small realty LLC and its insurer, no named major player or notable property)"
+  },
+  "0000888491-26-000031:ohi-20260930x10q.htm": {
+   "at": "2026-11-04",
+   "action": "skipped: boilerplate recap of a 2021-filed Gulf Coast subordinated-debt suit already disclosed in prior filings, not a new dispute"
+  },
+  "petition:https://www.courtlistener.com/docket/75069803/38-cri-properties-llc/": {
+   "at": "2026-11-04",
+   "action": "skipped: bare docket lead, no named major sponsor/REIT/lender and no coverage expected; already gets its own record page via the ingest pipeline"
+  },
+  "petition:https://www.courtlistener.com/docket/75068539/1583-58-street-llc/": {
+   "at": "2026-11-04",
+   "action": "skipped: bare docket lead, no named major sponsor/REIT/lender and no coverage expected; already gets its own record page via the ingest pipeline"
+  },
+  "petition:https://www.courtlistener.com/docket/75057502/parker-and-parker-real-estate-llc/": {
+   "at": "2026-11-04",
+   "action": "skipped: bare docket lead, no named major sponsor/REIT/lender and no coverage expected; already gets its own record page via the ingest pipeline"
+  },
+  "opinion:11054178": {
+   "at": "2026-11-04",
+   "action": "skipped: individual landowners vs. airport authority/state agencies over tree-height/eminent domain dispute near Iowa wind/industrial project corridor, not a commercial real estate business matter"
+  },
+  "opinion:11054158": {
+   "at": "2026-11-04",
+   "action": "skipped: individual Chapter 13 debtors' bankruptcy appeal (refiling bar), not commercial real estate"
+  },
+  "opinion:11053980": {
+   "at": "2026-11-04",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"] and defendant (Fernandez) has no business-entity suffix"
+  },
+  "opinion:11053238": {
+   "at": "2026-11-04",
+   "action": "skipped: individual landowner tree/zoning dispute with airport authority, not a commercial real estate business matter"
+  },
+  "opinion:11053152": {
+   "at": "2026-11-04",
+   "action": "skipped: toxic tort/products liability suit by individual worker over ethylene oxide exposure, not a real estate matter despite warehouse/foreclos term match"
   }
  }
 }

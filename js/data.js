@@ -12813,6 +12813,46 @@ const RELAW_DATA = {
         { when: "June 24, 2025", label: "Board of Supervisors meets in closed session and approves the Google data center performance agreement without disclosing its terms in open session" },
         { when: "November 2, 2026", label: "Landowner files suit in Botetourt County Circuit Court seeking to void the agreement and rescind related permits", current: true }
       ]
+    },
+    {
+      id: "live-369",
+      seoTitle: "Phoenix Data Center Zoning: $54M Prop 207 Takings Suit",
+      seoDescription: "A Maricopa County judge ruled Phoenix must prove its data-center zoning ordinance is necessary or face a $54 million Proposition 207 takings claim.",
+      addedDate: "2026-11-04",
+      featured: true,
+      title: "Phoenix Must Defend Data-Center Zoning Rules or Face $54M Takings Claim, Arizona Court Rules",
+      brief: "A Texas developer suing Phoenix over data-center zoning won an order forcing the city to justify its ordinance at trial, keeping alive its claim for $54 million in lost property value under Arizona's Proposition 207.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-28",
+      jurisdiction: "Maricopa County Superior Court, Arizona",
+      state: "AZ",
+      amount: "$54 million in lost property value claimed",
+      source: "live",
+      sourceUrl: "https://www.kjzz.org/politics/2026-10-28/court-phoenix-must-prove-data-center-rules-are-a-necessary-protection-or-face-54m-lawsuit",
+      summary: "A Maricopa County Superior Court judge ruled that the City of Phoenix must prove at a full evidentiary hearing that its 2025 data-center zoning ordinance is necessary to protect public health, safety, or welfare, or face liability under Arizona's Proposition 207 to developer West Buckeye Road L.P. (WBR). The court dismissed WBR's separate claim that the ordinance's own text created a right to sue for compensation, but let the Proposition 207 claim proceed, with an evidentiary hearing set for November 17, 2026.",
+      significance: "The ruling makes Phoenix's permitting regime for data centers a test case for Arizona's Proposition 207, which lets landowners recover the drop in fair market value caused by a land-use law unless the government proves a narrow statutory exemption applies. More than a dozen other landowners have filed similar claims against the same ordinance, so the outcome of WBR's November hearing is likely to shape settlement leverage and litigation strategy for that entire docket, and for any other Prop 207 jurisdiction regulating data centers.",
+      body: [
+        "A Maricopa County Superior Court judge has ruled that the City of Phoenix must prove its 2025 data-center zoning ordinance is a necessary protection for public health, safety, or welfare -- or pay a Texas-based developer as much as $54 million for the drop in value the ordinance caused to a parcel of industrial land. The order, reported October 28, 2026, narrows but does not end a lawsuit brought by West Buckeye Road L.P. (WBR), and it puts Phoenix's new special-permit regime for data centers squarely inside Arizona's unusual takings statute, Proposition 207, with a full evidentiary hearing already set for November 17.",
+        "WBR's dispute traces back to 2021, when the company bought industrial land in Phoenix and began spending millions of dollars preparing the site for a data-center development, at a time when the land's zoning permitted that use as of right. In 2025, amid a broader backlash against the power, water, and noise demands of hyperscale data centers, the Phoenix City Council adopted an ordinance requiring developers to obtain a special permit before building a data center anywhere in the city -- effectively stripping WBR's parcel of the by-right development rights the company had relied on when it bought the land. WBR sued, advancing two theories: that the ordinance itself created a right to compensation, and, separately, that the ordinance triggered compensation under Proposition 207, the 2006 voter-approved Private Property Rights Protection Act.",
+        "The judge split the difference. The court dismissed WBR's claim that the ordinance's own text supported a damages suit, reasoning that nothing in the ordinance itself authorizes a developer to sue the city for compensation. But the Proposition 207 claim survived. That statute, codified at Arizona Revised Statutes section 12-1134, requires a local government to compensate a property owner when a land-use law reduces the property's fair market value -- unless the government proves the law falls within one of the statute's own exemptions, including a measure genuinely necessary to prevent a public nuisance or protect public health and safety. The court's ruling means Phoenix cannot simply point to its police power in the abstract; at the November 17 hearing, the city will have to put on evidence that its data-center permitting rule is actually necessary to protect the public, not merely a land-use preference dressed up in public-safety language.",
+        "Phoenix Mayor Kate Gallego's office characterized the partial dismissal as a win, but the surviving claim is the one with the dollar figure attached, and it is far from an isolated dispute. Since Phoenix adopted the ordinance, reporting has tracked more than a dozen landowners and developers filing Proposition 207 notices of claim or lawsuits over the same rule, with the city granting waivers to some owners to resolve or avoid litigation while other claims -- beyond WBR's $54 million demand -- remain pending. The WBR ruling is likely to function as a bellwether for the rest of that docket: if Phoenix cannot carry its burden at the November hearing on this parcel, every other similarly situated landowner has a template for forcing the same showing, or a payout.",
+        "The case lands at the center of a fight playing out in dozens of cities simultaneously, as municipalities from Michigan to Georgia have reached for moratoriums, rezonings, and special-permit regimes to slow data-center development, and developers have answered with lawsuits grounded in due process, equal protection, and state zoning-enabling statutes. Arizona's Proposition 207 gives Phoenix-area developers a tool most of those other jurisdictions' challengers lack: a statutory damages remedy that does not require proving a regulatory taking under the stricter federal constitutional standard, only that the law reduced the property's fair market value and does not fit a narrow statutory exemption. For municipalities weighing similar ordinances, the lesson is that any restriction on a previously by-right use needs a contemporaneous record showing why it is necessary, not just a policy preference, because that record is what will have to carry the day at a hearing like the one Phoenix now faces; for developers holding entitlements a new ordinance strips away, it is a reminder to document acquisition cost, pre-ordinance value, and sunk costs promptly, since those figures become the measure of damages, and for other owners of similarly zoned land in the same jurisdiction, a bellwether ruling like this one is the clearest signal yet of how much leverage they may have in a settlement or waiver request rather than waiting for their own case to reach judgment."
+      ],
+      judge: null,
+      parties: [
+        { name: "West Buckeye Road L.P.", role: "Plaintiff" },
+        { name: "City of Phoenix", role: "Defendant" }
+      ],
+      amountUsd: 54000000,
+      amountBasis: "claim",
+      propertyType: "Industrial",
+      tags: ["zoning", "data-center", "proposition-207", "takings", "arizona"],
+      timeline: [
+        { when: "2025", label: "Phoenix City Council adopts ordinance requiring a special permit for data centers citywide" },
+        { when: "October 28, 2026", label: "Maricopa County Superior Court dismisses WBR's ordinance-based claim but lets its Proposition 207 claim proceed", current: true },
+        { when: "November 17, 2026", label: "Evidentiary hearing scheduled on whether the ordinance is a necessary public-health or safety measure", upcoming: true }
+      ]
     }
   ],
 
