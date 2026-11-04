@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://credocket.com/matters/live-369.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-04</news:publication_date>
+      <news:title>Phoenix Must Defend Data-Center Zoning Rules or Face $54M Takings Claim, Arizona Court Rules</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://credocket.com/matters/live-368.html</loc>
     <news:news>
       <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
