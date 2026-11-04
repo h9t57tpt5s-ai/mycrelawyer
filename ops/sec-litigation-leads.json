@@ -1,7 +1,28 @@
 {
- "updatedAt": "2026-11-04T07:28:20+00:00",
+ "updatedAt": "2026-11-04T20:24:47+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0000888491-26-000031:ohi-20260930x10q.htm",
+   "company": "OMEGA HEALTHCARE INVESTORS INC  (OHI)",
+   "cik": "888491",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-04",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/888491/000088849126000031/ohi-20260930x10q.htm",
+   "phrases": [
+    "filed suit"
+   ],
+   "excerpts": [
+    "Differences between carrying values and the fair values in the table above are due to the inclusion of deferred financing costs and discounts in the carrying values. \u25cf Senior notes: The fair values of the senior unsecured notes payable are estimated using publicly available trading prices (Level 1) . 30 Table of Contents NOTE 18 \u2013 COMMITMENTS AND CONTINGENCIES Litigation Gulf Coast Subordinated Debt In August 2021, we filed suit in the Circuit Court for Baltimore County against the holders of certain Subordinated Debt (the \u201cGulf Coast Debt Holders\u201d) associated with our Gulf Coast master lease agreement, following an assertion by the Gulf Coast Debt Holders that our prior exercise of offset rights in connection with Gulf Coast\u2019s non-payment of rent had resulted in defaults under the terms of the Subordinated Debt."
+   ],
+   "captions": [],
+   "courts": [
+    "Circuit Court for Baltimore County"
+   ],
+   "firstSeen": "2026-11-04"
+  },
   {
    "key": "0001437749-26-034667:irt20260930_10q.htm",
    "company": "INDEPENDENCE REALTY TRUST, INC.  (IRT)",
