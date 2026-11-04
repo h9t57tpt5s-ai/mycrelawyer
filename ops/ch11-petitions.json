@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T18:41:01+00:00",
+ "updatedAt": "2026-11-04T02:39:34+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
@@ -66,6 +66,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/75062887/1406-southmore-bldg-llc/",
    "docketId": 75062887,
    "slug": "1406-southmore-bldg-llc-txsb-26-38410",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Parker and Parker Real Estate LLC",
+   "court": "United States Bankruptcy Court, N.D. Texas",
+   "courtId": "txnb",
+   "docketNumber": "26-35085",
+   "dateFiled": "2026-11-02",
+   "docketUrl": "https://www.courtlistener.com/docket/75057502/parker-and-parker-real-estate-llc/",
+   "docketId": 75057502,
+   "slug": "parker-and-parker-real-estate-llc-txnb-26-35085",
    "type": "Chapter 11 petition"
   },
   {

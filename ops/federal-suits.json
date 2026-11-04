@@ -1,7 +1,33 @@
 {
- "updatedAt": "2026-11-03T18:41:01+00:00",
+ "updatedAt": "2026-11-04T02:39:34+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "RDM Distress Assets Holdings, LLC v. Baron Property Group, LLC",
+   "court": "District Court, S.D. New York",
+   "courtId": "nysd",
+   "docketNumber": "1:26-mc-00542",
+   "dateFiled": "2026-11-03",
+   "docketUrl": "https://www.courtlistener.com/docket/75067184/rdm-distress-assets-holdings-llc-v-baron-property-group-llc/",
+   "docketId": 75067184,
+   "suitNature": "",
+   "cause": "",
+   "slug": "rdm-distress-assets-holdings-llc-v-baron-property-group-llc-nysd-1-26-mc-00542",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Pringletown Quick Stop Inc v. Laxmi Consultation LLC",
+   "court": "District Court, D. South Carolina",
+   "courtId": "scd",
+   "docketNumber": "2:26-cv-05365",
+   "dateFiled": "2026-11-02",
+   "docketUrl": "https://www.courtlistener.com/docket/75064590/pringletown-quick-stop-inc-v-laxmi-consultation-llc/",
+   "docketId": 75064590,
+   "suitNature": "230 Rent Lease & Ejectment",
+   "cause": "28:1441 Notice of Removal-Breach of Contract",
+   "slug": "pringletown-quick-stop-inc-v-laxmi-consultation-llc-scd-2-26-cv-05365",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "JHEJ Property LLC v. Auto-Owners Insurance Company",
    "court": "District Court, N.D. Georgia",

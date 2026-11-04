@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T18:41:01+00:00",
+ "updatedAt": "2026-11-04T02:39:34+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -66,6 +66,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/75062887/1406-southmore-bldg-llc/",
    "docketId": 75062887,
    "slug": "1406-southmore-bldg-llc-txsb-26-38410",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Parker and Parker Real Estate LLC",
+   "court": "United States Bankruptcy Court, N.D. Texas",
+   "courtId": "txnb",
+   "docketNumber": "26-35085",
+   "dateFiled": "2026-11-02",
+   "docketUrl": "https://www.courtlistener.com/docket/75057502/parker-and-parker-real-estate-llc/",
+   "docketId": 75057502,
+   "slug": "parker-and-parker-real-estate-llc-txnb-26-35085",
    "type": "Chapter 11 petition"
   },
   {
@@ -143,39 +154,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75054265/blackwell-real-estate-llc/",
    "docketId": 75054265,
    "slug": "blackwell-real-estate-llc-txwb-26-12227",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "ZH Development I, LLC",
-   "court": "United States Bankruptcy Court, M.D. Florida",
-   "courtId": "flmb",
-   "docketNumber": "6:26-bk-08515",
-   "dateFiled": "2026-10-30",
-   "docketUrl": "https://www.courtlistener.com/docket/75047643/zh-development-i-llc/",
-   "docketId": 75047643,
-   "slug": "zh-development-i-llc-flmb-6-26-bk-08515",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Plymouth Inglewood Development LLC",
-   "court": "United States Bankruptcy Court, C.D. California",
-   "courtId": "cacb",
-   "docketNumber": "9:26-bk-11607",
-   "dateFiled": "2026-10-30",
-   "docketUrl": "https://www.courtlistener.com/docket/75053509/plymouth-inglewood-development-llc/",
-   "docketId": 75053509,
-   "slug": "plymouth-inglewood-development-llc-cacb-9-26-bk-11607",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "BLACK IRIS PROPERTIES, LLC.",
-   "court": "United States Bankruptcy Court, E.D. California",
-   "courtId": "caeb",
-   "docketNumber": "26-26448",
-   "dateFiled": "2026-10-30",
-   "docketUrl": "https://www.courtlistener.com/docket/75050846/black-iris-properties-llc/",
-   "docketId": 75050846,
-   "slug": "black-iris-properties-llc-caeb-26-26448",
    "type": "Chapter 11 petition"
   }
  ]
