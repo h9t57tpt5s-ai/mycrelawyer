@@ -1,7 +1,46 @@
 {
- "updatedAt": "2026-11-04T18:55:47+00:00",
+ "updatedAt": "2026-11-05T02:44:24+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Tri State Marble LLC v. New York Hotel Trades Council and Hotel Association of New York City, Inc. Health Benefits Fund, Pension Fund, Industry Training Fund, Scholarship Fund and Legal Fund",
+   "court": "District Court, S.D. New York",
+   "courtId": "nysd",
+   "docketNumber": "1:26-cv-09681",
+   "dateFiled": "2026-11-04",
+   "docketUrl": "https://www.courtlistener.com/docket/75073952/tri-state-marble-llc-v-new-york-hotel-trades-council-and-hotel-association/",
+   "docketId": 75073952,
+   "suitNature": "",
+   "cause": "",
+   "slug": "tri-state-marble-llc-v-new-york-hotel-trades-council-and-hotel-associa-nysd-1-26-cv-09681",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "MILLVILLE 47 DEVELOPERS LLC v. Raising Cane's Restaurants, LLC",
+   "court": "District Court, D. New Jersey",
+   "courtId": "njd",
+   "docketNumber": "3:26-cv-14367",
+   "dateFiled": "2026-11-04",
+   "docketUrl": "https://www.courtlistener.com/docket/75073545/millville-47-developers-llc-v-raising-canes-restaurants-llc/",
+   "docketId": 75073545,
+   "suitNature": "",
+   "cause": "",
+   "slug": "millville-47-developers-llc-v-raising-cane-s-restaurants-llc-njd-3-26-cv-14367",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Engel & Volkers Americas, Inc. v. Goldcrest Realty Group, LLC",
+   "court": "District Court, M.D. Louisiana",
+   "courtId": "lamd",
+   "docketNumber": "3:26-cv-01247",
+   "dateFiled": "2026-11-04",
+   "docketUrl": "https://www.courtlistener.com/docket/75072753/engel-volkers-americas-inc-v-goldcrest-realty-group-llc/",
+   "docketId": 75072753,
+   "suitNature": "",
+   "cause": "",
+   "slug": "engel-volkers-americas-inc-v-goldcrest-realty-group-llc-lamd-3-26-cv-01247",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "B&B REALTY CORP v. STATE FARM FIRE AND CASUALTY COMPANY",
    "court": "District Court, D. New Jersey",
@@ -13,6 +52,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "b-b-realty-corp-v-state-farm-fire-and-casualty-company-njd-1-26-cv-14324",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "B&B REALTY CORP v. STATE FARM FIRE AND CASUALTY COMPANY",
+   "court": "District Court, D. New Jersey",
+   "courtId": "njd",
+   "docketNumber": "2:26-cv-14324",
+   "dateFiled": "2026-11-04",
+   "docketUrl": "https://www.courtlistener.com/docket/75072380/bb-realty-corp-v-state-farm-fire-and-casualty-company/",
+   "docketId": 75072380,
+   "suitNature": "",
+   "cause": "",
+   "slug": "b-b-realty-corp-v-state-farm-fire-and-casualty-company-njd-2-26-cv-14324",
    "type": "Federal civil case"
   },
   {

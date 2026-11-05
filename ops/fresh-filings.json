@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T18:55:47+00:00",
+ "updatedAt": "2026-11-05T02:44:24+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -165,17 +165,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75055346/2797-campbellton-rd-llc/",
    "docketId": 75055346,
    "slug": "2797-campbellton-rd-llc-ganb-26-64719",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Blackwell Real Estate, LLC",
-   "court": "United States Bankruptcy Court, W.D. Texas",
-   "courtId": "txwb",
-   "docketNumber": "26-12227",
-   "dateFiled": "2026-10-31",
-   "docketUrl": "https://www.courtlistener.com/docket/75054265/blackwell-real-estate-llc/",
-   "docketId": 75054265,
-   "slug": "blackwell-real-estate-llc-txwb-26-12227",
    "type": "Chapter 11 petition"
   }
  ]
