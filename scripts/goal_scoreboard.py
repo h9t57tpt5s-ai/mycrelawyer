@@ -34,6 +34,57 @@ TARGETS = {
 }
 TODAY = dt.date.today()
 
+# /contact.html has had repeated, irregular bot-traffic bursts since 2026-10-28
+# (ops/improvement-playbook.md backlog G19): single days where it jumps from
+# its normal ~0-4% share of visits to 20-58%, with multiPageRate collapsing
+# because those are single-page bot hits, not real visitors. This inflates
+# visits7 and crushes multiPageRate7 for up to 7 days per burst. Compute a
+# bot-adjusted version from the daily history so a verdict doesn't have to
+# redo this by hand every time (done manually in imp-047/048/053).
+CONTACT_BOT_SHARE_THRESHOLD = 0.20  # a day's /contact.html share above this is an outlier
+CONTACT_BOT_MIN_COUNT = 20  # ...and only when it's also not just a handful of hits
+CONTACT_BOT_NORMAL_SHARE = 0.03  # a generous normal /contact.html share to leave untouched
+
+
+def load_recent_days(root, n=7):
+    hist_dir = root / "ops" / "metrics" / "history"
+    files = sorted(hist_dir.glob("20*.json"))[-n:]
+    days = []
+    for f in files:
+        d = load(f).get("last1Day") or {}
+        if d.get("visits") is not None:
+            days.append((f.stem, d))
+    return days
+
+
+def bot_adjusted_week(root, n=7):
+    days = load_recent_days(root, n)
+    if len(days) < max(5, n - 2):
+        return None  # too little history to trust a 7-day reconstruction
+    visits_adj_total = 0
+    multi_total = 0
+    flagged = []
+    for date_str, d in days:
+        visits = d.get("visits") or 0
+        multi = d.get("multiPageVisits")
+        if multi is None:
+            multi = round((d.get("multiPageRate") or 0) * visits)
+        pages = dict(d.get("topPages") or [])
+        contact = pages.get("/contact.html", 0)
+        share = (contact / visits) if visits else 0
+        excess = 0
+        if share > CONTACT_BOT_SHARE_THRESHOLD and contact > CONTACT_BOT_MIN_COUNT:
+            excess = max(0, contact - round(CONTACT_BOT_NORMAL_SHARE * visits))
+            flagged.append(date_str)
+        visits_adj_total += visits - excess
+        multi_total += multi
+    return {
+        "visits7Adjusted": visits_adj_total,
+        "multiPageRate7Adjusted": round(multi_total / visits_adj_total, 4) if visits_adj_total else None,
+        "botFlaggedDays7": flagged,
+        "daysUsed": len(days),
+    }
+
 
 def load(path):
     try:
@@ -78,6 +129,11 @@ def main():
     conversion = {"signUps7": w7.get("signUps"), "follows7": w7.get("follows"),
                   "newsletterSignups7": w7.get("newsletterSignups"), "multiPageRate7": w7.get("multiPageRate"),
                   "contactSends7": w7.get("contactSends")}
+    bot = bot_adjusted_week(ROOT)
+    if bot:
+        traffic["visits7Adjusted"] = bot["visits7Adjusted"]
+        conversion["multiPageRate7Adjusted"] = bot["multiPageRate7Adjusted"]
+        conversion["botFlaggedDays7"] = bot["botFlaggedDays7"]
 
     week_ago = (TODAY - dt.timedelta(days=7)).isoformat()
     recent = [c for c in load_cases() if (c.get("addedDate") or "") >= week_ago]

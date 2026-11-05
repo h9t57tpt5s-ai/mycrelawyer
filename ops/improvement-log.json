@@ -968,7 +968,12 @@
         "casesScored": 39
       },
       "checkAfter": "2026-11-05",
-      "status": "watching"
+      "status": "no clear effect",
+      "verdict": {
+        "date": "2026-11-05",
+        "value": "no Jeff ruling found",
+        "note": "This entry's own 'metric' is whether Jeff has reviewed ops/calculator-proposals.md and ruled on G15's decision list, not a goals.json number -- same check shape as imp-011's 2026-10-29 verdict. No evidence of a ruling: no results-v4.4/ directory exists, supabase/functions/case-valuation-analyze/index.ts line 106 still has ANALYSIS_VERSION = \"v4.4\" live against v4.3 published everywhere, and G15 (now at 8 decisions after imp-043/045 added more since this entry shipped) remains open with no Jeff annotation. No clear effect -- nothing to revert (this entry never touched the live site or the valuation method)."
+      }
     },
     {
       "id": "imp-041",
@@ -987,7 +992,15 @@
         "leadsReviewedTotal": 297
       },
       "checkAfter": "2026-11-05",
-      "status": "watching"
+      "status": "no clear effect",
+      "verdict": {
+        "date": "2026-11-05",
+        "value": {
+          "leadsToMattersTotal": 45,
+          "leadsReviewedTotal": 406
+        },
+        "note": "Raw cumulative totals rose 31->45 (+45.2%) and 297->406 (+36.7%), but both are since-inception counters that grow every day regardless of this guidance -- the real signal is the conversion ratio. Baseline ratio (2026-10-29) was 31/297=10.44%; this window's own new activity (45-31=14 new leads-to-matters out of 406-297=109 new leads reviewed) is 14/109=12.84%, a +23.0% relative rise -- real and in the right direction, but just under the playbook's 25% threshold, so no clear effect rather than helped. The guidance's actual target (wasted re-research effort on already-resolved clusters) isn't well measured by this ratio anyway; no repeat-cluster skip has shown up in ops/leads-handled.json since this shipped, the more direct sign it is working. Not reverted -- the guidance is sound and cost nothing to keep."
+      }
     },
     {
       "id": "imp-042",
@@ -1113,7 +1126,12 @@
         ]
       },
       "checkAfter": "2026-11-05",
-      "status": "watching"
+      "status": "no clear effect",
+      "verdict": {
+        "date": "2026-11-05",
+        "value": "contact.html bursts recurred again on 2026-11-03 (57 hits, 29.4% of that day's visits) and 2026-11-04 (31 hits, 36.9%) -- there has still been no 7-day stretch clear of this contamination since it began 2026-10-28",
+        "note": "The window this entry said would be 'first clear' (ending 2026-11-05) never arrived clean -- two more burst days landed inside it. Not reverted (a measurement note, not a site change). Resolved differently this run: rather than keep re-deriving this by hand every run (done manually in this entry, imp-048 and imp-053), today's change (imp-055) automates the per-day /contact.html check directly in scripts/goal_scoreboard.py, computing visits7Adjusted/multiPageRate7Adjusted/botFlaggedDays7 from ops/metrics/history/ every run."
+      }
     },
     {
       "id": "imp-048",
@@ -1139,8 +1157,13 @@
         ]
       },
       "checkAfter": "2026-11-05",
-      "status": "watching",
-      "note": "Pulled last1Day.topPages and last1Day (full funnel) directly from ops/metrics/history/2026-11-01.json: contact.html got 118 of that day's 328 visits (36%), 307 of 328 landings were 'direct or unknown' referrer, and multiPageRate crashed to 0.003 (1 multi-page visit all day) -- the identical signature as the confirmed 10-28/29 burst. This is the third burst day in six (0, 0, 43, 213, 5, 14, 118 for 10-26 through 11-01), at an irregular cadence (not a steady daily rate), so G19 is updated from 'a bounded two-day event' to 'an intermittent, recurring source.' No code change possible or attempted (js/track.js and scripts/metrics_snapshot.py are both off-limits to this routine)."
+      "status": "no clear effect",
+      "note": "Pulled last1Day.topPages and last1Day (full funnel) directly from ops/metrics/history/2026-11-01.json: contact.html got 118 of that day's 328 visits (36%), 307 of 328 landings were 'direct or unknown' referrer, and multiPageRate crashed to 0.003 (1 multi-page visit all day) -- the identical signature as the confirmed 10-28/29 burst. This is the third burst day in six (0, 0, 43, 213, 5, 14, 118 for 10-26 through 11-01), at an irregular cadence (not a steady daily rate), so G19 is updated from 'a bounded two-day event' to 'an intermittent, recurring source.' No code change possible or attempted (js/track.js and scripts/metrics_snapshot.py are both off-limits to this routine).",
+      "verdict": {
+        "date": "2026-11-05",
+        "value": "burst continued: 11-03 (57 hits) and 11-04 (31 hits) are two more flagged days, for 5 of the last 9 days (10-28, 10-29, 11-01, 11-03, 11-04) showing a clearly elevated /contact.html share",
+        "note": "Confirms this entry's own call that it's an intermittent, ongoing source rather than a resolved incident -- it has now gone a week and a half without a clean 7-day stretch. No code change possible from this routine (js/track.js and scripts/metrics_snapshot.py stay off-limits per CLAUDE.md), so instead of a seventh hand-derived evidence entry, this run's change (imp-055) builds the adjustment into scripts/goal_scoreboard.py itself so every future run gets a bot-adjusted visits7/multiPageRate7 automatically. Not reverted."
+      }
     },
     {
       "id": "imp-049",
