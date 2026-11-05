@@ -1549,8 +1549,8 @@
       "action": "skipped: no coverage found explaining the filing; bare docket, no named major sponsor"
     },
     "https://www.courtlistener.com/docket/75067184/rdm-distress-assets-holdings-llc-v-baron-property-group-llc/": {
-      "at": "2026-11-04",
-      "action": "skipped: no coverage found - searched 'RDM Distress Assets' + 'Baron Property Group'; only found an unrelated Baron Real Property Holdings v. AMLI matter and Baron Property Group's separate Post Road Group financing, neither matching this S.D.N.Y. 1:26-mc-00542 miscellaneous docket"
+      "at": "2026-11-05",
+      "action": "skipped: no coverage found explaining the dispute; case docketed as a miscellaneous proceeding (1:26-mc-00542), likely a judgment-enforcement/subpoena matter rather than a new substantive suit"
     },
     "https://www.courtlistener.com/docket/75064590/pringletown-quick-stop-inc-v-laxmi-consultation-llc/": {
       "at": "2026-11-04",
@@ -1727,6 +1727,26 @@
     "https://www.courtlistener.com/docket/75072753/engel-volkers-americas-inc-v-goldcrest-realty-group-llc/": {
       "at": "2026-11-05",
       "action": "skipped: no coverage found explaining the dispute between Engel & Volkers Americas and Goldcrest Realty Group"
+    },
+    "0001193125-26-449151:cxw-20260930.htm": {
+      "at": "2026-11-05",
+      "action": "skipped: ICE immigration-detention facility litigation (class action over detainee conditions), not a commercial real estate dispute"
+    },
+    "0001104659-26-123028:tmb-20260930x10q.htm": {
+      "at": "2026-11-05",
+      "action": "skipped: residential real estate brokerage commission antitrust litigation (Homie/Moehrl/NAR), residential/consumer, not CRE"
+    },
+    "0000946155-26-000120:tiaareal-20260930.htm": {
+      "at": "2026-11-05",
+      "action": "skipped: boilerplate loan schedule disclosure, no litigation or dispute described"
+    },
+    "https://www.courtlistener.com/docket/75075399/skyway-towers-llc-v-union-county-georgia/": {
+      "at": "2026-11-05",
+      "action": "skipped: no coverage found explaining this specific Union County, GA filing (Skyway Towers has sued other jurisdictions over cell-tower rezoning denials, but no report found on this suit)"
+    },
+    "https://www.courtlistener.com/docket/75076393/mian-rental-properties-vii-llc-v-great-american-es-insurance-company-txnd-4-26-cv-01417/": {
+      "at": "2026-11-05",
+      "action": "skipped: no coverage found explaining the filing (small LLC property-insurance coverage dispute, no named major player)"
     }
   }
 }

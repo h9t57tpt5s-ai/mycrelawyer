@@ -487,7 +487,8 @@ const RELAW_DATA = {
       ],
       timeline: [
         { when: "2022", label: "Lightstone REITs solicit proxy vote to eliminate scheduled liquidation deadlines" },
-        { when: "August 5, 2026", label: "Judge Shipp denies motion to dismiss; all four counts proceed to discovery",  current: true }
+        { when: "August 5, 2026", label: "Judge Shipp denies motion to dismiss; all four counts proceed to discovery" },
+        { when: "November 4, 2026", label: "Court enters a judgment on the pleadings (docket entry 49)", current: true }
       ],
       tags: ["REIT", "proxy disclosure", "fiduciary duty", "charter amendment", "securities class action"],
       docketUrl: "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
@@ -2145,7 +2146,8 @@ const RELAW_DATA = {
         { when: "December 2025", label: "DOJ Antitrust Division files proposed consent decree resolving claims against LivCor" },
         { when: "May 19, 2026", label: "Judge William Lindsay Osteen Jr. enters the DOJ's final judgment against LivCor" },
         { when: "June 26, 2026", label: "Judge Osteen enters the nine states' final consent judgment approving the $7M settlement" },
-        { when: "September 30, 2026", label: "In the broader consolidated case, Judge Osteen denies motions to dismiss filed by RealPage, Camden Property Trust, Pinnacle Property Management Services, and Willow Bridge Property Company (docket entry 223)", current: true }
+        { when: "September 30, 2026", label: "In the broader consolidated case, Judge Osteen denies motions to dismiss filed by RealPage, Camden Property Trust, Pinnacle Property Management Services, and Willow Bridge Property Company (docket entry 223)" },
+        { when: "November 4-5, 2026", label: "Public comments on a proposed final judgment for a settling defendant in the consolidated case are filed in the docket (entries 228-229)", current: true }
       ],
       judge: "William Lindsay Osteen Jr.",
       tags: ["algorithmic pricing", "RealPage", "antitrust", "multistate settlement", "consent decree"],

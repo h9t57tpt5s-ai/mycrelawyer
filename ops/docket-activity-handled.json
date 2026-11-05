@@ -94,6 +94,31 @@
    "caseId": "live-220",
    "at": "2026-10-29",
    "action": "skipped: termination date matches the district court's September 30, 2024 dismissal with prejudice already reflected in the matter's own timeline, superseded since by the Third Circuit's 2026 reversal and en banc denial; no new information"
+  },
+  "69074245:229:2026-11-05:exhibit 2 - public comment regarding the proposed final judgment [200-1] submitt": {
+   "caseId": "live-062",
+   "at": "2026-11-05",
+   "action": "docket text only -- WebSearch found no reporting on a November 2026 RealPage DOJ comment-period deadline; these are third-party public comments on a proposed final judgment for a settling defendant, not a ruling, so added one combined timeline entry for entries 228-229 restating the docket text without changing status"
+  },
+  "69074245:229:2026-11-05:exhibit 1 - public comment regarding the proposed final judgment [200-1] submitt": {
+   "caseId": "live-062",
+   "at": "2026-11-05",
+   "action": "docket text only -- same combined timeline entry as entry 229's other exhibit, see above"
+  },
+  "69074245:228:2026-11-04:exhibit 2 - public comment regarding the proposed final judgment [200-1] submitt": {
+   "caseId": "live-062",
+   "at": "2026-11-05",
+   "action": "docket text only -- same combined timeline entry covering entries 228-229, see entry 229 above"
+  },
+  "69074245:228:2026-11-04:exhibit 1 - public comment regarding the proposed final judgment [200-1] submitt": {
+   "caseId": "live-062",
+   "at": "2026-11-05",
+   "action": "docket text only -- same combined timeline entry covering entries 228-229, see entry 229 above"
+  },
+  "69353264:49:2026-11-04:judgment on the pleadings": {
+   "caseId": "live-013",
+   "at": "2026-11-05",
+   "action": "docket text only -- WebSearch (Law360 case page, Bloomberg Law) found no November 2026 reporting on this entry; added a timeline entry restating the docket text without changing status, since no source states who moved or how the court ruled"
   }
  }
 }
