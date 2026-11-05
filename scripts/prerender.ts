@@ -181,6 +181,20 @@ async function azList(entries: { name: string; slug?: string }[], prefix: string
     h = setText(h, "new-today-label", lbl ? `Latest updates · ${lbl}` : "Latest updates", f);
   }
   h = fill(h, "featured-grid", cases.slice(0, 3).map(caseCard).join(""), f);
+  // "This week on CREdocket" (2026-11-04): the six newest matters, each
+  // with its one-line brief and a link to its page, right under the hero,
+  // so a visitor landing on the homepage can scan straight into a case.
+  {
+    const newest = [...data.cases].sort((a, b) =>
+      ((b.addedDate || b.date) + b.date > (a.addedDate || a.date) + a.date ? 1 : -1)).slice(0, 6);
+    const catLabel = (id: string) => data.categories.find((k) => k.id === id)?.label ?? id;
+    h = fill(h, "this-week-list", newest.map((c) => `
+      <a class="this-week-item" href="/matters/${esc(c.id)}.html">
+        <span class="this-week-title">${c.title}</span>
+        ${c.brief ? `<span class="this-week-brief">${esc(c.brief)}</span>` : ""}
+        <span class="this-week-meta">${esc(catLabel(c.category))} · ${fmtDate(c.date)}</span>
+      </a>`).join(""), f);
+  }
   const words: Record<number, string> = { 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten", 11: "Eleven", 12: "Twelve" };
   h = setText(h, "category-count-heading", `${words[data.categories.length] ?? data.categories.length} practice areas, one dashboard`, f);
   h = fill(h, "category-grid", data.categories.map((k) => {
