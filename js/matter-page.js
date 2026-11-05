@@ -52,11 +52,43 @@
       if (!auth()) { setStatus(status, "Sign-in isn't available right now. Try again in a moment.", "error"); return; }
       const btn = gateForm.querySelector("button"); btn.disabled = true; setStatus(status, "Sending…");
       const res = await auth().sendMagicLink(document.getElementById("matter-gate-email").value, {
-        caseId: matterId, redirectTo: location.origin + "/litigation.html?case=" + encodeURIComponent(matterId),
+        caseId: matterId, redirectTo: location.origin + location.pathname,
       });
       btn.disabled = false;
-      setStatus(status, res.ok ? "Check your inbox. The link opens the full write-up of this matter." : res.error, res.ok ? "success" : "error");
+      setStatus(status, res.ok ? "Check your inbox. The link brings you back to this write-up, signed in." : res.error, res.ok ? "success" : "error");
     });
+  }
+
+  // Full write-up on the page (2026-11-04): it is in the HTML for search
+  // engines and readers without JavaScript; signed-out readers past their
+  // 10 free write-ups this month (js/auth.js checkGate, counted in the
+  // browser) see the first paragraph and the free-account box instead.
+  // Fails open: if auth.js never loads or errors, the write-up stays.
+  const full = document.getElementById("matter-full");
+  if (full) {
+    const note = document.getElementById("matter-free-note");
+    const gateCard = document.getElementById("matter-full-gate");
+    let waited = 0;
+    const applyGate = () => {
+      const a = auth();
+      if (!a || !a.checkGate) { if (waited++ < 15) setTimeout(applyGate, 400); return; }
+      a.checkGate(matterId).then((state) => {
+        if (state.status === "ok") {
+          if (state.anonymous && note) {
+            note.innerHTML = `<span>${state.used} of ${state.limit} free write-ups read this month.</span> <button type="button" class="link-btn" id="matter-free-signup">Create a free account</button> for unlimited reading and email alerts.`;
+            note.hidden = false;
+            const su = document.getElementById("matter-free-signup");
+            if (su) su.addEventListener("click", () => a.openSignInModal && a.openSignInModal(matterId));
+          }
+          track("full_read", { caseId: matterId, detail: "matter page " + (state.anonymous ? `free ${state.used}/${state.limit}` : "account") });
+        } else if (state.status === "not-logged-in") {
+          full.classList.add("is-gated");
+          if (gateCard) gateCard.hidden = false;
+          track("gate_shown", { caseId: matterId, detail: "matter page " + (state.reason || state.status) });
+        }
+      }).catch(() => { /* fail open */ });
+    };
+    applyGate();
   }
 
   const alertBox = document.querySelector("[data-alert-box]");
@@ -85,8 +117,6 @@
       const session = auth() && auth().getSession();
       if (session) {
         input.hidden = true; form.querySelector("button").textContent = "Create this alert";
-        const keep = document.getElementById("matter-keep-reading");
-        if (keep) keep.innerHTML = `<div class="eyebrow">Signed in</div><h2 class="matter-h2">Read the full write-up</h2><a class="btn btn-primary btn-sm" href="/litigation.html?case=${encodeURIComponent(matterId)}">Open the full matter</a>`;
       } else if (tries++ < 10) setTimeout(adapt, 500);
     };
     window.addEventListener("load", adapt);

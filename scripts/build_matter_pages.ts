@@ -136,6 +136,11 @@ function headFor(c: Case): string {
         keywords: (c.tags || []).join(", "),
         author: { "@type": "Organization", name: "CREdocket", url: SITE },
         publisher: { "@type": "Organization", name: "CREdocket", url: SITE, logo: { "@type": "ImageObject", url: `${SITE}/img/favicon.svg` } },
+        // The full write-up is on the page and metered for signed-out
+        // readers (10 a month), so declare it as a paywalled section.
+        ...((c.body && c.body.length) || (c.timeline && c.timeline.length)
+          ? { isAccessibleForFree: false, hasPart: { "@type": "WebPageElement", isAccessibleForFree: false, cssSelector: ".matter-full" } }
+          : {}),
       },
       {
         "@type": "BreadcrumbList",
@@ -249,9 +254,7 @@ function mainFor(c: Case): string {
   const sameCatState = c.state ? related(c, (x) => x.category === c.category && x.state === c.state, 3) : [];
   const readNext = [...new Map([...shared.flatMap((p) => p.others), ...sameCatState, ...sameCat]
     .map((x) => [x.id, x] as [string, Case])).values()].slice(0, 3);
-  const first = c.body && c.body.length ? c.body[0] : "";
   const tl = (c.timeline || []) as { when: string; label: string; current?: boolean }[];
-  const latest = tl.length ? (tl.find((ev) => ev.current) || tl[tl.length - 1]) : null;
   const watch = { name: `${k.label}${stateName ? ` — ${stateName}` : ""}`, categories: [c.category], states: c.state ? [c.state] : [] };
   const share = encodeURIComponent(url(c));
   // Matters with a CourtListener docket can be followed: the daily docket
@@ -300,72 +303,63 @@ function mainFor(c: Case): string {
 
     <div id="matter-court" data-docket-url="${esc(c.docketUrl || "")}" data-matter-id="${esc(c.id)}"></div>
 
-    ${follow ? `<div class="card matter-cta matter-top-cta" data-follow-box data-follow="${esc(JSON.stringify(follow))}">
-      <div class="eyebrow">Alerts</div>
-      <h2 class="matter-h2">Email me when the court rules in this case</h2>
-      <p class="text-secondary">We check this federal docket every day. One email when an order, judgment, dismissal or closing appears. Free account; stop any time.</p>
-      <form class="gate-form" data-follow-form novalidate>
-        <label class="sr-only" for="follow-email">Email address</label>
-        <input type="email" id="follow-email" autocomplete="email" placeholder="you@company.com" />
-        <button type="submit" class="btn btn-primary btn-sm">Follow this case</button>
-      </form>
-      <p class="gate-form-status" data-follow-status role="status"></p>
-    </div>` : `<div class="card matter-cta matter-top-cta">
-      <div class="eyebrow">Weekly email</div>
-      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
-      <p class="text-secondary">${newMattersThisWeek > 0 ? `In the past 7 days, CREdocket added ${newMattersThisWeek} new commercial real estate lawsuit${newMattersThisWeek === 1 ? "" : "s"} to the tracker. Get next Monday's new matters, rulings in cases we follow, and market signals by email.` : "The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals."} Free; unsubscribe in one click.</p>
-      <form class="gate-form" data-newsletter-form data-newsletter-source="matter-top:${esc(c.id)}" data-case-id="${esc(c.id)}" novalidate>
-        <label class="sr-only" for="matter-nl-email">Email address</label>
-        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
-        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
-      </form>
-      <p class="gate-form-status" data-newsletter-status role="status"></p>
-    </div>`}
-
-    ${hasMore ? `${first ? `<div class="gate-teaser matter-teaser"><p class="body-text">${first}</p></div>` : ""}
-    ${latest ? `<p class="gate-timeline-peek"><span>Case timeline · ${tl.length} ${tl.length === 1 ? "entry" : "entries"}</span> Latest: ${latest.when} — ${latest.label}</p>` : ""}` : ""}
-
-    <div class="matter-cta-row">
-      ${hasMore ? `<div class="card matter-cta" id="matter-keep-reading" data-case-id-target="${esc(c.id)}">
-        <div class="eyebrow">Free · no account needed</div>
-        <h2 class="matter-h2">Keep reading</h2>
-        <p class="text-secondary">Read the full write-up${tl.length ? " and case timeline" : ""}. Up to 10 a month are free without an account; a free account is unlimited and adds email alerts.</p>
-        <a class="btn btn-primary btn-sm" href="/litigation.html?case=${esc(c.id)}" id="matter-open-full">Read the full write-up</a>
-        <p class="gate-alt" style="margin-top:14px;">Or create a free account with just your email:</p>
-        <form class="gate-form" id="matter-gate-form" novalidate>
-          <label class="sr-only" for="matter-gate-email">Email address</label>
-          <input type="email" id="matter-gate-email" autocomplete="email" placeholder="you@company.com" />
-          <button type="submit" class="btn btn-ghost btn-sm">Email me a sign-in link</button>
-        </form>
-        <p class="gate-form-status" id="matter-gate-status" role="status"></p>
+    ${hasMore ? `<section class="matter-full" id="matter-full" data-case-id="${esc(c.id)}">
+      <h2 class="matter-h2">Full write-up</h2>
+      ${(c.body || []).map((p) => `<p class="body-text">${p}</p>`).join("\n      ")}
+      ${tl.length ? `<h3 class="matter-h3">Case timeline</h3>
+      <div class="case-timeline">
+        ${tl.map((ev) => `<div class="timeline-event${ev.current ? " is-current" : ""}${(ev as { upcoming?: boolean }).upcoming ? " is-upcoming" : ""}">
+          <div class="timeline-event-dot"></div>
+          <div class="timeline-event-body">
+            <div class="timeline-event-when">${ev.when}${(ev as { upcoming?: boolean }).upcoming ? '<span class="timeline-upcoming-tag">Scheduled</span>' : ""}</div>
+            <div class="timeline-event-label">${ev.label}</div>
+          </div>
+        </div>`).join("\n        ")}
       </div>` : ""}
-      <div class="card matter-cta alert-box" data-alert-box data-watchlist="${esc(JSON.stringify(watch))}">
-        <div class="eyebrow">Alerts</div>
-        <h2 class="matter-h2">Get an email when new ${esc(k.label.toLowerCase())} matters${stateName ? ` in ${esc(stateName)}` : ""} are filed</h2>
+    </section>
+    <p class="free-read-note" id="matter-free-note" hidden></p>
+    <div class="card matter-cta" id="matter-full-gate" hidden>
+      <div class="eyebrow">Free account</div>
+      <h2 class="matter-h2">Keep reading, free</h2>
+      <p class="text-secondary">You've used this month's free write-ups. A free account reads every write-up and timeline with no limit and adds email alerts. Just your email, no password.</p>
+      <form class="gate-form" id="matter-gate-form" novalidate>
+        <label class="sr-only" for="matter-gate-email">Email address</label>
+        <input type="email" id="matter-gate-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Email me a sign-in link</button>
+      </form>
+      <p class="gate-form-status" id="matter-gate-status" role="status"></p>
+    </div>` : ""}
+
+    <div class="card matter-cta matter-one-cta">
+      ${follow ? `<div data-follow-box data-follow="${esc(JSON.stringify(follow))}">
+        <div class="eyebrow">Follow this case</div>
+        <h2 class="matter-h2">Email me when the court rules</h2>
+        <p class="text-secondary">We check this federal docket every day and send one email when an order, judgment, dismissal or closing appears. Free account; stop any time.</p>
+        <form class="gate-form" data-follow-form novalidate>
+          <label class="sr-only" for="follow-email">Email address</label>
+          <input type="email" id="follow-email" autocomplete="email" placeholder="you@company.com" />
+          <button type="submit" class="btn btn-primary btn-sm">Follow this case</button>
+        </form>
+        <p class="gate-form-status" data-follow-status role="status"></p>
+      </div>` : `<div class="eyebrow">Weekly email</div>
+        <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+        <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+        <form class="gate-form" data-newsletter-form data-newsletter-source="matter:${esc(c.id)}" data-case-id="${esc(c.id)}" novalidate>
+          <label class="sr-only" for="matter-nl-email">Email address</label>
+          <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+          <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+        </form>
+        <p class="gate-form-status" data-newsletter-status role="status"></p>`}
+      <details class="matter-more-options alert-box" data-alert-box data-watchlist="${esc(JSON.stringify(watch))}">
+        <summary>Get an email when new ${esc(k.label.toLowerCase())} matters${stateName ? ` in ${esc(stateName)}` : ""} are filed</summary>
         <form class="gate-form" data-alert-form novalidate>
           <label class="sr-only" for="matter-alert-email">Email address</label>
           <input type="email" id="matter-alert-email" autocomplete="email" placeholder="you@company.com" />
           <button type="submit" class="btn btn-ghost btn-sm">Create alert</button>
         </form>
         <p class="gate-form-status" data-alert-status role="status"></p>
-      </div>
-      ${follow ? `<div class="card matter-cta">
-        <div class="eyebrow">Free weekly email</div>
-        <h2 class="matter-h2">Rulings like this, every Monday</h2>
-        <p class="text-secondary">${newMattersThisWeek > 0 ? `In the past 7 days, CREdocket added ${newMattersThisWeek} new commercial real estate lawsuit${newMattersThisWeek === 1 ? "" : "s"} to the tracker. Get next Monday's new matters, rulings in cases we follow, and market signals by email.` : "The week's new commercial real estate lawsuits, foreclosures and court rulings."} No account needed; unsubscribe in one click.</p>
-        <form class="gate-form" data-newsletter-form data-newsletter-source="matter-row:${esc(c.id)}" data-case-id="${esc(c.id)}" novalidate>
-          <label class="sr-only" for="matter-nl-email">Email address</label>
-          <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
-          <button type="submit" class="btn btn-ghost btn-sm">Subscribe</button>
-        </form>
-        <p class="gate-form-status" data-newsletter-status role="status"></p>
-      </div>` : ""}
-      <div class="card matter-cta">
-        <div class="eyebrow">Case Value Calculator · free beta</div>
-        <h2 class="matter-h2">Facing a dispute like this one?</h2>
-        <p class="text-secondary">Get a damages range for your own facts, with the reasoning and the cases behind it. ${VALUE_PAGE[c.category] ? `<a href="/${VALUE_PAGE[c.category][0]}.html">What is a ${esc(VALUE_PAGE[c.category][1])} worth?</a>` : ""}</p>
-        <a class="btn btn-ghost btn-sm" href="/case-valuation.html?category=${esc(c.category === "landlord-tenant" ? "lease-disputes" : c.category)}#cv-form">Estimate your case</a>
-      </div>
+      </details>
+      <p class="matter-cta-foot">Facing a dispute like this one? <a href="/case-valuation.html?category=${esc(c.category === "landlord-tenant" ? "lease-disputes" : c.category)}#cv-form">Estimate its value with the free Case Value Calculator</a>${VALUE_PAGE[c.category] ? ` or read <a href="/${VALUE_PAGE[c.category][0]}.html">what a ${esc(VALUE_PAGE[c.category][1])} is worth</a>` : ""}.</p>
     </div>
 
     <div class="matter-share">
