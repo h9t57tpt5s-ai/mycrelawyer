@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-11-04T20:54:39+00:00",
- "pagesChecked": 806,
+ "generatedAt": "2026-11-05T21:12:41+00:00",
+ "pagesChecked": 817,
  "pagesByFolder": {
   "root": 215,
-  "matters": 312,
+  "matters": 316,
   "chapter-11": 176,
-  "federal-cases": 103
+  "federal-cases": 110
  },
  "summary": {
   "zeroStatCounters": 0,
@@ -15,7 +15,7 @@
   "missingTitle": 0,
   "longTitle": 0,
   "missingDescription": 2,
-  "weakDescription": 1,
+  "weakDescription": 2,
   "missingCanonical": 0,
   "duplicateTitles": 0,
   "orphanPages": 0,
@@ -25,14 +25,14 @@
   "heavyPages": 0
  },
  "freshness": {
-  "matters": 312,
-  "newestMatterAdded": "2026-11-04",
+  "matters": 316,
+  "newestMatterAdded": "2026-11-05",
   "daysSinceNewestMatter": 0,
   "ch11Petitions": 176,
   "newestCh11Petition": "2026-11-04",
-  "daysSinceNewestCh11": 0,
-  "federalSuits": 103,
-  "newestFederalSuit": "2026-11-04",
+  "daysSinceNewestCh11": 1,
+  "federalSuits": 110,
+  "newestFederalSuit": "2026-11-05",
   "daysSinceNewestSuit": 0
  },
  "findings": {
@@ -47,6 +47,10 @@
    "handbook.html"
   ],
   "weakDescription": [
+   {
+    "page": "federal-cases/tri-state-marble-llc-v-new-york-hotel-trades-council-and-hotel-associa-nysd-1-26-cv-09681.html",
+    "chars": 348
+   },
    {
     "page": "federal-cases/u-s-bank-national-association-as-trustee-for-the-registered-holders-of-nysd-1-26-cv-09124.html",
     "chars": 362

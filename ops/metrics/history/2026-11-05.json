@@ -1,0 +1,515 @@
+{
+ "date": "2026-11-05",
+ "generatedAt": "2026-11-05T21:12:41+00:00",
+ "note": "Visits are tab sessions from js/track.js (crawlers filtered). From 2026-11-03 a visit counts only after a human action (scroll, click, key, touch or mouse movement); automated contact-page bursts had tripled visits in late October, so compare windows that start on or after 2026-11-04 with each other, not with earlier ones. The site is small: read 7- and 28-day windows, not single days.",
+ "last1Day": {
+  "visits": 53,
+  "pageViews": 69,
+  "multiPageVisits": 5,
+  "multiPageRate": 0.0943,
+  "funnel": {
+   "viewedAMatter": 33,
+   "sawSignInPrompt": 0,
+   "openedSignIn": 0,
+   "signedUpOrIn": 0,
+   "readFullWriteUp": 18,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 0,
+  "follows": 0,
+  "newsletterSignups": 0,
+  "contactSends": 0,
+  "sourceClicks": 3,
+  "searches": 0,
+  "byEvent": {
+   "matter_page_view": 39,
+   "page_view": 30,
+   "full_read": 20,
+   "source_click": 3,
+   "panel_open": 1
+  },
+  "topPages": [
+   [
+    "/matters/live-173.html",
+    9
+   ],
+   [
+    "/litigation.html",
+    5
+   ],
+   [
+    "/matters/live-221.html",
+    5
+   ],
+   [
+    "/matters/live-208.html",
+    5
+   ],
+   [
+    "/",
+    2
+   ],
+   [
+    "/matters/live-358.html",
+    2
+   ],
+   [
+    "/briefs.html",
+    2
+   ],
+   [
+    "/matters/live-357.html",
+    2
+   ],
+   [
+    "/matters/live-266.html",
+    2
+   ],
+   [
+    "/matters/live-274.html",
+    2
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 0,
+   "lease-clause-redline": 0,
+   "settlement-benchmarks": 0,
+   "litigation-index": 1,
+   "-tracker": 1
+  },
+  "landingReferrers": [
+   [
+    "google.com",
+    27
+   ],
+   [
+    "direct or unknown",
+    20
+   ],
+   [
+    "utm:chatgpt.com",
+    2
+   ],
+   [
+    "duckduckgo.com",
+    1
+   ],
+   [
+    "bing.com",
+    1
+   ],
+   [
+    "gemini.google.com",
+    1
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-173",
+    9
+   ],
+   [
+    "live-221",
+    5
+   ],
+   [
+    "live-208",
+    5
+   ],
+   [
+    "live-358",
+    2
+   ],
+   [
+    "live-357",
+    2
+   ],
+   [
+    "live-266",
+    2
+   ],
+   [
+    "live-274",
+    2
+   ],
+   [
+    "live-338",
+    1
+   ],
+   [
+    "live-321",
+    1
+   ],
+   [
+    "live-336",
+    1
+   ]
+  ]
+ },
+ "last7Days": {
+  "visits": 1055,
+  "pageViews": 1111,
+  "multiPageVisits": 23,
+  "multiPageRate": 0.0218,
+  "funnel": {
+   "viewedAMatter": 388,
+   "sawSignInPrompt": 0,
+   "openedSignIn": 4,
+   "signedUpOrIn": 1,
+   "readFullWriteUp": 199,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 0,
+  "follows": 0,
+  "newsletterSignups": 0,
+  "contactSends": 0,
+  "sourceClicks": 14,
+  "searches": 24,
+  "byEvent": {
+   "page_view": 895,
+   "matter_page_view": 216,
+   "full_read": 209,
+   "panel_open": 194,
+   "search": 24,
+   "source_click": 14,
+   "signin_open": 4,
+   "permalink": 2,
+   "magic_link_sent": 1
+  },
+  "topPages": [
+   [
+    "/litigation.html",
+    248
+   ],
+   [
+    "/contact.html",
+    248
+   ],
+   [
+    "/judges.html",
+    23
+   ],
+   [
+    "/compare-companies.html",
+    22
+   ],
+   [
+    "/",
+    21
+   ],
+   [
+    "/matters/live-208.html",
+    15
+   ],
+   [
+    "/chapter-11/greenwood-mall-realty-holding-llc-kywb-26-11017.html",
+    12
+   ],
+   [
+    "/matters/live-266.html",
+    10
+   ],
+   [
+    "/matters/live-173.html",
+    10
+   ],
+   [
+    "/matters/live-342.html",
+    8
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 9,
+   "lease-clause-redline": 0,
+   "settlement-benchmarks": 0,
+   "litigation-index": 2,
+   "-tracker": 7
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    871
+   ],
+   [
+    "google.com",
+    152
+   ],
+   [
+    "utm:chatgpt.com",
+    6
+   ],
+   [
+    "utm:defebdxfg",
+    5
+   ],
+   [
+    "utm:credocket",
+    5
+   ],
+   [
+    "duckduckgo.com",
+    4
+   ],
+   [
+    "gemini.google.com",
+    2
+   ],
+   [
+    "utm:perplexity",
+    1
+   ],
+   [
+    "bing.com",
+    1
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-208",
+    16
+   ],
+   [
+    "live-173",
+    11
+   ],
+   [
+    "live-266",
+    10
+   ],
+   [
+    "live-229",
+    10
+   ],
+   [
+    "live-274",
+    10
+   ],
+   [
+    "live-221",
+    9
+   ],
+   [
+    "live-342",
+    9
+   ],
+   [
+    "live-051",
+    7
+   ],
+   [
+    "live-340",
+    6
+   ],
+   [
+    "live-165",
+    6
+   ]
+  ]
+ },
+ "last28Days": {
+  "visits": 2768,
+  "pageViews": 2994,
+  "multiPageVisits": 115,
+  "multiPageRate": 0.0415,
+  "funnel": {
+   "viewedAMatter": 1199,
+   "sawSignInPrompt": 0,
+   "openedSignIn": 6,
+   "signedUpOrIn": 6,
+   "readFullWriteUp": 397,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 5,
+  "follows": 0,
+  "newsletterSignups": 4,
+  "contactSends": 0,
+  "sourceClicks": 72,
+  "searches": 45,
+  "byEvent": {
+   "page_view": 2100,
+   "matter_page_view": 894,
+   "full_read": 676,
+   "panel_open": 662,
+   "source_click": 72,
+   "search": 45,
+   "permalink": 8,
+   "signin_open": 6,
+   "signup": 5,
+   "magic_link_sent": 1
+  },
+  "topPages": [
+   [
+    "/litigation.html",
+    563
+   ],
+   [
+    "/contact.html",
+    519
+   ],
+   [
+    "/",
+    134
+   ],
+   [
+    "/matters/live-208.html",
+    113
+   ],
+   [
+    "/compare-companies.html",
+    36
+   ],
+   [
+    "/judges.html",
+    31
+   ],
+   [
+    "/updates.html",
+    28
+   ],
+   [
+    "/matters/live-188.html",
+    24
+   ],
+   [
+    "/matters/live-229.html",
+    23
+   ],
+   [
+    "/matters/live-266.html",
+    22
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 20,
+   "lease-clause-redline": 2,
+   "settlement-benchmarks": 2,
+   "litigation-index": 14,
+   "-tracker": 21
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    2079
+   ],
+   [
+    "google.com",
+    572
+   ],
+   [
+    "utm:chatgpt.com",
+    37
+   ],
+   [
+    "utm:defebdxfg",
+    17
+   ],
+   [
+    "utm:credocket",
+    12
+   ],
+   [
+    "bing.com",
+    10
+   ],
+   [
+    "com.google.android.googlequicksearchbox",
+    5
+   ],
+   [
+    "gemini.google.com",
+    5
+   ],
+   [
+    "duckduckgo.com",
+    5
+   ],
+   [
+    "perplexity.ai",
+    4
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-208",
+    137
+   ],
+   [
+    "live-271",
+    51
+   ],
+   [
+    "live-099",
+    41
+   ],
+   [
+    "live-090",
+    37
+   ],
+   [
+    "live-303",
+    32
+   ],
+   [
+    "live-267",
+    29
+   ],
+   [
+    "live-272",
+    27
+   ],
+   [
+    "live-229",
+    27
+   ],
+   [
+    "live-188",
+    26
+   ],
+   [
+    "live-266",
+    23
+   ]
+  ]
+ },
+ "audit": {
+  "summary": {
+   "zeroStatCounters": 0,
+   "unstyledHeroClasses": 0,
+   "hiddenUpdatesButton": 0,
+   "brokenLinks": 0,
+   "missingTitle": 0,
+   "longTitle": 0,
+   "missingDescription": 2,
+   "weakDescription": 2,
+   "missingCanonical": 0,
+   "duplicateTitles": 0,
+   "orphanPages": 0,
+   "missingFromSitemap": 0,
+   "sitemapUrlsWithoutFile": 0,
+   "imagesWithoutAlt": 0,
+   "heavyPages": 0
+  },
+  "freshness": {
+   "matters": 316,
+   "newestMatterAdded": "2026-11-05",
+   "daysSinceNewestMatter": 0,
+   "ch11Petitions": 176,
+   "newestCh11Petition": "2026-11-04",
+   "daysSinceNewestCh11": 1,
+   "federalSuits": 110,
+   "newestFederalSuit": "2026-11-05",
+   "daysSinceNewestSuit": 0
+  },
+  "pagesChecked": 817
+ },
+ "pipelines": {
+  "chapter11Petitions": 176,
+  "federalSuits": 110,
+  "secLeads": 32,
+  "wireLeads": 1,
+  "leadsHandled": 432
+ }
+}
