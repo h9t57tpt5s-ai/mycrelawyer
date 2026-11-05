@@ -1258,6 +1258,37 @@
       "checkAfter": null,
       "status": "no-op",
       "note": "Drafted 5 of the 6 new matters (live-362 through live-366): a FERC order protecting a $20B Joliet data-center power deal, a $96.9M Wells Fargo foreclosure on a former Kodak complex in Rochester, a Sixth Circuit ruling that a lender's own deed-in-lieu settlement erased its insurance claim, a Fifth Circuit time-bar ruling on a hail-damage claim, and a Georgia zoning-permit affirmance -- each fact copied verbatim from its published matter write-up in js/data.js. Skipped live-367 (SMRE Roswell SPE, LLC v. Melgar) because its caption names an individual plaintiff from court records, per CLAUDE.md. Confirmed all 5 cited matter pages exist before publishing the draft. Also re-verified before picking this: site_audit.py clean (no regression), git log HEAD..origin/main empty (no unseen upstream commits), and no entries due for judging today (earliest open checkAfter is imp-041/imp-047/imp-048's 2026-11-05)."
+    },
+    {
+      "id": "imp-055",
+      "date": "2026-11-05",
+      "track": "audit",
+      "title": "Automated the per-day /contact.html bot-traffic check (G19) into scripts/goal_scoreboard.py, computing visits7Adjusted/multiPageRate7Adjusted",
+      "why": "Judged imp-040/041/047/048 first (all no clear effect; see ops/improvement-log.json verdicts and ops/improvement-playbook.md's 2026-11-05 'What we have learned' entry). goals.json mostBehind was conversion/calculator/traffic/news, but every goal's numeric lever was blocked or Jeff-gated: conversion (imp-046 until 2026-11-08 on newsletterSignups7/signUps7; follows7 structurally blocked per G17, multiPageRate7 unreadable per G19), calculator (imp-044/045 until 2026-11-07 on calculatorViews7; finalRangeHitRate Jeff-gated, no new backtest data since 2026-10-31), traffic (imp-053 until 2026-11-11 on visits7/googleLandings7), news (imp-041/052 open on all five tracked metrics between them, and already on track anyway), subscription (imp-042 until 2026-11-06). G20 (imp-052, 2026-11-03) had already flagged this exact gridlock as NEEDS JEFF: roughly a sixth of all runs since the mission rewrite have shipped nothing measurable because of it. Rather than add a sixth hand-derived G19 evidence entry (imp-046/047/048/053 had each manually pulled ops/metrics/history/*.json's last1Day.topPages to check /contact.html's daily share), and since this run's own judging of imp-047/048 found the burst had recurred twice more (2026-11-03: 57/194=29.4%, 2026-11-04: 31/84=36.9%) with no clean 7-day stretch yet, built the check into the one script this routine may edit for exactly this purpose ('scripts/goal_scoreboard.py (metrics only, not the targets)', ops/improvement-playbook.md's 'What the routine may change'). js/track.js and scripts/metrics_snapshot.py remain off-limits and untouched.",
+      "files": [
+        "scripts/goal_scoreboard.py",
+        "ops/metrics/goals.json",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "c3bcf4a1219951ce997cc2aa9eebd03966763db2",
+      "metric": "ops/metrics/goals.json traffic.metrics.visits7Adjusted and conversion.metrics.multiPageRate7Adjusted (new fields; existing visits7/multiPageRate7 and TARGETS/status/gap/mostBehind are unchanged, so this entry has no baseline to watch against a target -- it is infrastructure for reading other entries' metrics correctly, judged by whether it keeps getting used, not by its own number)",
+      "window": "n/a",
+      "baseline": {
+        "visits7": 1359,
+        "visits7Adjusted": 1000,
+        "multiPageRate7": 0.0169,
+        "multiPageRate7Adjusted": 0.023,
+        "botFlaggedDays7": [
+          "2026-10-29",
+          "2026-11-01",
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      "checkAfter": "n/a",
+      "status": "no-op",
+      "note": "Logged as no-op (like imp-011/043/045) since it has no goal-metric target of its own to watch -- it is a measurement fix, not a content/code change aimed at moving a goal number directly. `bot_adjusted_week()` flags a day when /contact.html exceeds both 20% of that day's visits and 20 raw hits, trims the excess back to a ~3% normal share, and sums the trailing 7 available ops/metrics/history/*.json days; falls back to no adjustment if fewer than 5 of the last 7 days have history files. Verified against today's data (flags 10-29/11-01/11-03/11-04, matching imp-047/048/053's hand-counts exactly) and confirmed additive-only via `git diff` (only new keys added, generatedAt timestamp aside; existing keys byte-identical). site_audit.py and check_case_fields.py both unchanged before/after. Next time: read botFlaggedDays7 before trusting any visits7/multiPageRate7 verdict at face value; if a future run finds this flagging a real traffic day (not bot noise), tighten CONTACT_BOT_SHARE_THRESHOLD/CONTACT_BOT_MIN_COUNT rather than ignoring it."
     }
   ]
 }
