@@ -1,7 +1,77 @@
 {
- "updatedAt": "2026-11-05T07:53:29+00:00",
+ "updatedAt": "2026-11-05T20:38:35+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001193125-26-449151:cxw-20260930.htm",
+   "company": "CoreCivic, Inc.  (CXW)",
+   "cik": "1070985",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-05",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526449151/cxw-20260930.htm",
+   "phrases": [
+    "filed a lawsuit",
+    "putative class action"
+   ],
+   "excerpts": [
+    "The letter agreement authorized initial funding up to $5.0 million with maximum funding up to $22.6 million for a six-month period while we worked to negotiate and execute a longer-term contract. On September 29, 2025, we announced that we entered into a new contract with ICE effective September 7, 2025. The City of Leavenworth filed a lawsuit alleging that a Special Use Permit, or SUP, was required to activate the facility, which resulted in a delay in the intake process. In December 2025, we filed an application for the SUP, and subsequently obtained approval for the SUP on March 11, 2026. We began accepting detainees at the Midwest Facility on March 12, 2026.",
+    "Effective April 1, 2025, CoreCivic entered into a letter agreement with ICE to begin activation efforts at the California City Facility. In August 2025, the California City Facility began receiving detainees. On September 29, 2025, CoreCivic announced that it entered into a new two-year contract with ICE effective September 1, 2025. On November 12, 2025, a putative class action case was filed by seven ICE detainees against ICE, seeking injunctive relief related to operation of the California City Facility. The case was filed by attorneys affiliated with three non-governmental organizations. The Company moved to intervene to seek appeal of the class certification order. On February 6, 2026, the Northern District of California Court provisionally granted class certification, and ordered ICE to ensure access to medical care, disability accommodations, and recreation opportunities to detainees housed at the California City Facility.",
+    "We began receiving ICE detainees at our California City Facility during August 2025, under terms of the letter agreement. On September 29, 2025, we announced that we entered into a new two-year contract with ICE effective September 1, 2025. As of September 30, 2026, we cared for 1,943 individuals at the facility. On November 12, 2025, a putative class action case was filed by seven ICE detainees against ICE, seeking injunctive relief related to operation of the facility. The case was filed by attorneys affiliated with three non-governmental organizations. We moved to intervene to seek appeal of the class certification order. On February 6, 2026, the Northern District of California Court provisionally granted class certification, and ordered ICE to ensure access to medical care, disability accommodations, and recreation opportunities to detainees housed at the California City Facility."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-05"
+  },
+  {
+   "key": "0001104659-26-123028:tmb-20260930x10q.htm",
+   "company": "Real REMAX Group Inc.  (REAX)",
+   "cik": "2136387",
+   "sic": "6531",
+   "form": "10-Q",
+   "filed": "2026-11-05",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/2136387/000110465926123028/tmb-20260930x10q.htm",
+   "phrases": [
+    "filed suit",
+    "putative class action"
+   ],
+   "excerpts": [
+    "The settlement does not constitute an admission of liability by Real Broker, nor does it concede or validate any of the claims asserted in the litigation. The Cwynar Settlement Agreement is pending final court approval, and would take effect following the successful resolution of any appeals process. Homie Technology Inc. v. NAR, RE/MAX, LLC, et al. On August 22, 2024, plaintiff Homie Technology, Inc. (\u201cHomie\u201d) filed suit against the NAR, RE/MAX, LLC, and other real estate companies in the U.S. District Court for the District of Utah. The lawsuit alleges certain NAR rules, many of which were at issue in the U.S. Antitrust Litigations, created a barrier to entry for Homie as a competitor, and that the other defendants agreed and/or conspired to implement such rules and engaged in conduct that foreclosed Homie from competing.",
+    "The Company is not materially contingently liable with respect to litigation, claims and environmental matters. Any settlement of claims in excess of amounts recorded will be charged to results of operations as and when such determination is made. U.S. Antitrust Litigation and Settlements Moehrl v. NAR et al., Burnett v. NAR et al., Nosalek v. MLS PIN et al. Beginning in March 2019, multiple putative class action complaints were filed against the National Association of Realtors (\u201c NAR \u201d), or in one case a multiple listing service (\u201c MLS \u201d) defendant rather than NAR, RE/MAX, LLC (a subsidiary of the Company), and other real estate companies, alleging that certain NAR rules (or MLS rules) violated federal and state antitrust laws by inflating broker commissions.",
+    "The first of such cases was filed on March 6, 2019 by plaintiff Christopher Moehrl in the U.S. District Court for the Northern District of Illinois (the \u201c Moehrl Class Action \u201d). \u200b Numerous copycat lawsuits to the Moehrl Class Action have been filed. On April 29, 2019, plaintiff Joshua Sitzer and other plaintiffs filed a putative class action lawsuit against NAR, RE/MAX, LLC and other real estate companies in the U.S. District Court for the Western District of Missouri (the \u201c Sitzer-Burnett Class Action \u201d). Additionally, on December 17, 2020, a putative class action was filed against RE/MAX, LLC, MLS Property Information Network, Inc., an MLS, and other real estate companies in the U.S."
+   ],
+   "captions": [
+    "Homie Technology Inc. v. NAR, RE",
+    "U.S. Antitrust Litigation and Settlements Moehrl v. NAR et al., Burnett v. NAR et al., Nosalek"
+   ],
+   "courts": [
+    "District Court for the District of Utah. The",
+    "District Court for the Northern District of Illinois",
+    "District Court for the Western District of Missouri"
+   ],
+   "firstSeen": "2026-11-05"
+  },
+  {
+   "key": "0000946155-26-000120:tiaareal-20260930.htm",
+   "company": "TIAA REAL ESTATE ACCOUNT",
+   "cik": "946155",
+   "sic": "6500",
+   "form": "10-Q",
+   "filed": "2026-11-05",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/946155/000094615526000120/tiaareal-20260930.htm",
+   "phrases": [
+    "deed in lieu of foreclosure"
+   ],
+   "excerpts": [
+    "Aging Number of Loans Principal Outstanding Fair Value Past Due - 90 Days + 6 $ 258.8 $ 5.3 Note 11\u2014 Loans Payable At September 30, 2026 and December 31, 2025, the Account had outstanding loans payable secured by the following properties (in millions): Property Annual Interest Rate and Payment Frequency Principal Amounts Outstanding as of Maturity September 30, 2026 December 31, 2025 32 South State Street (1) 4.48 % paid monthly \u2014 24.0 June 6, 2025 Reserve at Chino Hills (2)(3) 1.61 % + SOFR paid monthly \u2014 82.2 October 9, 2026 Vista Station Office Portfolio (4) 4.20 % paid monthly 37.8 38.7 November 1, 2026 Project Sonic (2)(3) 2.00 % + SOFR paid monthly \u2014 94.0 June 9, 2027 Marketplace at Mill Creek 3.82 % paid monthly 39.6 39.6 September 11, 2027 Overlook At King Of Prussia 3.82 % paid monthly 40.8 40.8 September 11, 2027 Winslow Bay (6) 3.82 % paid monthly \u2014 25.8 September 11, 2027 Liberty Park 1.80 % + SOFR paid monthly 60.2 60.2 December 9, 2027 1900 K Street, NW (4) 3.93 % paid monthly 149.3 151.8 April 1, 2028 One Biscayne (3) 2.45 % + SOFR paid monthly 80.0 80.0 September 9, 2028 Ashford Meadows (5) 5.76 % paid monthly 64.6 64.6 October 1, 2028 803 Corday (5) 5.76 % paid mon"
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-05"
+  },
   {
    "key": "0001493152-26-049977:form10-q.htm",
    "company": "Belpointe PREP, LLC  (OZ)",
