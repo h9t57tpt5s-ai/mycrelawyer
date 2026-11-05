@@ -1,0 +1,16 @@
+{
+  "id": "live-371",
+  "title": "Wilmington Trust v. 250 Livingston Owner LLC, Clipper Realty Inc. and Clipper Realty L.P. (CMBS Foreclosure)",
+  "category": "lending-foreclosure",
+  "status": "ruling",
+  "date": "2026-04-29",
+  "jurisdiction": "Supreme Court of the State of New York, Kings County",
+  "state": "NY",
+  "amount": "$125 million CMBS loan in default",
+  "source": "live",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1649096/000143774926034925/clpr20260930_10q.htm",
+  "summary": "Wilmington Trust, National Association, as trustee for the GS Mortgage Securities Trust 2019-GC40, sued NYSE-listed Clipper Realty Inc., its operating partnership, and the ownership entity for Clipper's 250 Livingston Street office building in Brooklyn after the building defaulted on its $125 million mortgage loan. The default followed New York City government agencies' termination and vacatur of their lease covering all 342,496 rentable square feet of the building's commercial space in August 2025. The Kings County Supreme Court granted the lender's request for a receiver on April 29, 2026, and Clipper's most recent quarterly report, filed November 4, 2026, discloses that the lender has not yet exercised its right to foreclose outright or take a deed in lieu of foreclosure.",
+  "significance": "The case shows how quickly a single large government lease loss can cascade into a CMBS default and receivership, and how special servicers are increasingly moving straight to a court-appointed receiver rather than negotiating an extended workout once a major tenant vacates. It also illustrates that loan provisions giving a defaulted borrower a defined marketing period and a right to buy back its own note can slow, but not stop, a lender's path toward foreclosure.",
+  "judge": null,
+  "tags": ["cmbs", "foreclosure", "receivership", "office", "brooklyn"]
+}

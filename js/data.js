@@ -12897,6 +12897,92 @@ const RELAW_DATA = {
         { when: "2026", label: "Borough of East Rutherford reassesses the property at $1,899,992,100 for tax year 2026" },
         { when: "October 30, 2026", label: "Tax Court grants Ameream's Freeze Act motion, holding the 2025 assessment binding through 2027", current: true }
       ]
+    },
+    {
+      id: "live-371",
+      seoTitle: "Clipper Realty's Brooklyn Office Tower Faces CMBS Foreclosure",
+      seoDescription: "Wilmington Trust's CMBS foreclosure suit over Clipper Realty's 250 Livingston St after NYC vacated 342,496 sq ft remains unresolved as of Nov. 4, 2026.",
+      property: { name: "250 Livingston Street", address: "250 Livingston Street", city: "Brooklyn", state: "NY" },
+      propertyType: "Office",
+      addedDate: "2026-11-05",
+      title: "Wilmington Trust v. 250 Livingston Owner LLC, Clipper Realty Inc. and Clipper Realty L.P. (CMBS Foreclosure)",
+      brief: "A CMBS trustee sued to foreclose a $125 million loan on Clipper Realty's 250 Livingston Street office tower in Brooklyn after New York City agencies vacated all 342,496 square feet, winning a receiver in April 2026 with the case still unresolved.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-04-29",
+      jurisdiction: "Supreme Court of the State of New York, Kings County",
+      state: "NY",
+      amount: "$125 million CMBS loan in default",
+      source: "live",
+      sourceUrl: "https://www.sec.gov/Archives/edgar/data/1649096/000143774926034925/clpr20260930_10q.htm",
+      summary: "Wilmington Trust, National Association, as trustee for the GS Mortgage Securities Trust 2019-GC40, sued NYSE-listed Clipper Realty Inc., its operating partnership, and the ownership entity for Clipper's 250 Livingston Street office building in Brooklyn after the building defaulted on its $125 million mortgage loan. The default followed New York City government agencies' termination and vacatur of their lease covering all 342,496 rentable square feet of the building's commercial space in August 2025. The Kings County Supreme Court granted the lender's request for a receiver on April 29, 2026, and Clipper's most recent quarterly report, filed November 4, 2026, discloses that the lender has not yet exercised its right to foreclose outright or take a deed in lieu of foreclosure.",
+      significance: "The case shows how quickly a single large government lease loss can cascade into a CMBS default and receivership, and how special servicers are increasingly moving straight to a court-appointed receiver rather than negotiating an extended workout once a major tenant vacates. It also illustrates that loan provisions giving a defaulted borrower a defined marketing period and a right to buy back its own note can slow, but not stop, a lender's path toward foreclosure.",
+      body: [
+        "Clipper Realty Inc., a New York Stock Exchange-listed owner of Brooklyn and Manhattan apartment and office properties, disclosed in a November 4, 2026 SEC filing that it remains in foreclosure litigation over its 250 Livingston Street office building in Downtown Brooklyn, more than seven months after a court-appointed receiver took over the property. The dispute is a case study in how a single large government lease can anchor, and then sink, a commercial mortgage.",
+        "The trouble began on August 23, 2025, when New York City government agencies that had occupied all 342,496 rentable square feet of commercial space at the 12-story building terminated their lease and vacated. Those leases had accounted for roughly 18% to 22% of Clipper's annual revenue in the two preceding years. Facing a building with no paying commercial tenant, Clipper notified its lender that it would no longer support the property's operations, and the $125 million note secured by the building, held in the 2019 GS Mortgage Securities Trust 2019-GC40 commercial mortgage-backed securities pool, soon fell into default.",
+        "On March 25, 2026, Wilmington Trust, National Association, acting as trustee for the trust's certificate holders, filed a foreclosure complaint in Kings County Supreme Court against the building's ownership entity, 250 Livingston Owner LLC, along with Clipper Realty Inc. and its operating subsidiary, Clipper Realty L.P., both of which guarantee certain obligations under the loan. The complaint asked the court to appoint a receiver to manage the property and to order the building sold, with proceeds applied against the outstanding debt. The court granted that request on April 29, 2026, installing a temporary receiver over the building's leasing and operations.",
+        "Clipper's latest disclosure makes clear the case is far from resolved. The loan documents gave the lender a defined marketing period before it could move to an outright foreclosure sale or accept a deed in lieu of foreclosure, and separately gave Clipper the right to submit its own offer to purchase the loan. As of November 4, 2026, Clipper says the lender has not yet exercised its foreclosure or deed-in-lieu rights, leaving the parties in an extended standoff. The company has flagged the matter as an ongoing risk factor, warning that a foreclosure or deed-in-lieu transfer would have a material adverse effect on its financial condition, and that even a successful buyback would leave it needing to re-lease nearly 343,000 square feet with no comparable government anchor in sight.",
+        "The 250 Livingston Street case has run on a different track than Clipper's dispute over its sister property at 141 Livingston Street, where a lender serviced on behalf of Wells Fargo Bank, N.A. sought similar receivership relief in 2025. There, a court denied the receiver motion in May 2025, and Clipper has since reported that it substantially settled that lender's claims by the end of 2025. The diverging outcomes underscore how fact-specific CMBS special-servicing fights can be, with results turning on the specific loan documents and each special servicer's own posture rather than on how similar the underlying buildings look from the street. For CRE owners and lenders alike, the matter is a reminder that loan covenants tied to a single large lease, government or otherwise, concentrate default risk in a way that can move faster than a borrower can arrange a replacement tenant, and that a receivership fight on one asset in a multi-property lender relationship does not predict the outcome on a similarly situated sister property."
+      ],
+      judge: null,
+      parties: [
+        { name: "Wilmington Trust, National Association", role: "Plaintiff/Trustee" },
+        { name: "250 Livingston Owner LLC", role: "Defendant/Borrower" },
+        { name: "Clipper Realty Inc.", role: "Defendant/Guarantor" },
+        { name: "Clipper Realty L.P.", role: "Defendant/Guarantor" }
+      ],
+      amountUsd: 125000000,
+      amountBasis: "loan",
+      tags: ["cmbs", "foreclosure", "receivership", "office", "brooklyn"],
+      timeline: [
+        { when: "August 23, 2025", label: "New York City agencies terminate their lease and vacate all 342,496 sq ft at 250 Livingston Street" },
+        { when: "March 25, 2026", label: "Wilmington Trust, as CMBS trustee, sues to foreclose the $125 million loan in Kings County Supreme Court" },
+        { when: "April 29, 2026", label: "Court grants the lender's motion and appoints a temporary receiver over the property" },
+        { when: "November 4, 2026", label: "Clipper Realty discloses the lender still has not exercised its foreclosure or deed-in-lieu rights", current: true }
+      ]
+    },
+    {
+      id: "live-372",
+      seoTitle: "UConn-Area Developer Accused of Forged Settlement, EB-5 Fraud",
+      seoDescription: "JZ Investments sued Chen Ji and Belpointe-affiliated entities, alleging an unauthorized 2023 settlement erased its stake in a 262-unit Mansfield, CT project.",
+      property: { name: "497-501 Middle Turnpike (Storrs-area development)", city: "Mansfield", state: "CT" },
+      propertyType: "Land/Development",
+      addedDate: "2026-11-05",
+      title: "JZ Investments, Inc. v. Chen Ji, Belpointe Prep LLC, Belpointe Prep OC LLC and BPOZ Storrs Holding, LLC",
+      brief: "JZ Investments sued partner Chen Ji and Belpointe affiliates, alleging Chen misappropriated EB-5 funds and signed an unauthorized 2023 deal stripping JZ's ~30% stake in a UConn-area development.",
+      category: "reit-securities",
+      status: "pending",
+      date: "2026-04-24",
+      jurisdiction: "Connecticut Superior Court, Stamford",
+      state: "CT",
+      amount: "JZ Investments says it invested roughly $1.6 million for a nearly 30% stake it alleges was stripped without compensation",
+      source: "live",
+      sourceUrl: "https://hartfordbusiness.com/article/ct-investor-sues-over-alleged-fraud-in-stalled-housing-project-near-uconns-main-campus/",
+      summary: "JZ Investments, Inc. sued Chen Ji, the manager of a real estate joint venture, and three entities affiliated with Belpointe PREP, LLC, a publicly reporting qualified opportunity fund, in Connecticut Superior Court on April 24, 2026. JZ alleges that Chen misappropriated funds tied to a federal immigrant investor (EB-5) program connected to a planned 262-unit residential development on roughly 60 acres at 497-501 Middle Turnpike in Mansfield, Connecticut, next to UConn's Storrs campus, and that a 2023 settlement agreement Chen signed without authorization stripped JZ of its nearly 30% equity interest in the land-owning entity, CMC Storrs SPV, LLC.",
+      significance: "The dispute highlights the exposure institutional and individual investors face in real estate joint ventures funded partly through EB-5 or other foreign-investor capital, where a managing partner's unilateral settlement or release can extinguish an investor's equity stake if the venture's governing documents do not require independent consent. It is also a reminder to sponsors of publicly reporting real estate funds that a partner's alleged misconduct, even if the sponsor says it is not responsible, can still draw the sponsor into fraud, fraudulent-transfer and unjust-enrichment claims if it is alleged to have benefited from that misconduct.",
+      body: [
+        "A Connecticut investor's lawsuit over a stalled 262-unit housing development next to the University of Connecticut's main campus illustrates a recurring risk in joint-venture real estate deals funded partly through foreign investor capital: what happens when the managing partner who controls the paperwork turns out, the other side alleges, not to be trustworthy with it.",
+        "JZ Investments, Inc., a Connecticut corporation, filed a complaint on April 24, 2026 in Connecticut Superior Court in Stamford against Chen Ji, who managed a real estate joint venture with JZ, and against three affiliated entities of Belpointe PREP, LLC, a publicly reporting qualified opportunity fund that develops multifamily and mixed-use projects: Belpointe Prep LLC, Belpointe Prep OC LLC, and BPOZ Storrs Holding, LLC. JZ brought the suit both individually and derivatively on behalf of CMC Storrs SPV, LLC, the entity that owns roughly 60 acres at 497-501 Middle Turnpike in Mansfield, Connecticut, the site of the planned project immediately adjacent to UConn's Storrs campus.",
+        "According to Belpointe's own SEC disclosures and reporting by the Hartford Business Journal and Law360, JZ says it invested approximately $1.6 million in the venture and held a preferred equity interest of nearly 30% in CMC Storrs SPV. JZ's complaint alleges that Chen, over a period of years, misappropriated funds tied to the EB-5 immigrant investor program connected to the project, and that in 2023 Chen signed a settlement agreement, without JZ's authorization, that had the effect of stripping JZ of its ownership interest and leaving Belpointe as CMC's sole owner. Against Chen individually, the complaint alleges fraud, breach of fiduciary duty, and forgery. Against the Belpointe entities, it alleges negligence, fraudulent transfer, unjust enrichment, and violations of the Connecticut Unfair Trade Practices Act, arguing Belpointe benefited from a settlement it knew or should have known was unauthorized.",
+        "Belpointe disputes any liability in its SEC filings and states it intends to vigorously defend the litigation; an attorney representing the Belpointe defendants told the Hartford Business Journal that his clients deny the allegations, are not responsible for Chen's conduct, and have separately sued Chen themselves. As of Belpointe's quarterly disclosure filed November 4, 2026, the parties were still litigating preliminary motions, with Belpointe awaiting a hearing date on its motion to dismiss. The Storrs dispute is not Chen's only entanglement with Belpointe in litigation: the company's filings also disclose a separate, earlier-filed suit by the Galinn Fund LLC seeking to foreclose on a $3 million mortgage note Chen executed on CMC's behalf, as well as a 2025 derivative suit against Chen that was dismissed in February 2026.",
+        "For a development that has already sat stalled for years while these disputes played out, the litigation is a reminder that institutional and individual investors underwriting joint ventures with foreign-capital components need more than a trusted relationship with the managing partner; they need independent, contractual visibility into that partner's authority to sign settlements and amendments on the venture's behalf, and sponsors that take in minority investors alongside a managing partner should expect to be drawn into the fallout if that partner's conduct is later challenged, however clearly the sponsor tries to disclaim responsibility for it."
+      ],
+      judge: null,
+      parties: [
+        { name: "JZ Investments, Inc.", role: "Plaintiff" },
+        { name: "Belpointe Prep LLC", role: "Defendant" },
+        { name: "Belpointe Prep OC LLC", role: "Defendant" },
+        { name: "BPOZ Storrs Holding, LLC", role: "Defendant" },
+        { name: "CMC Storrs SPV, LLC", role: "Nominal Defendant" }
+      ],
+      amountUsd: 1600000,
+      amountBasis: "claim",
+      tags: ["joint-venture", "eb-5", "fraud", "opportunity-zone", "connecticut"],
+      timeline: [
+        { when: "2023", label: "Chen Ji allegedly signs an unauthorized settlement agreement stripping JZ Investments of its stake in CMC Storrs SPV" },
+        { when: "April 24, 2026", label: "JZ Investments sues Chen Ji and Belpointe-affiliated entities in Connecticut Superior Court", current: true },
+        { when: "November 4, 2026", label: "Belpointe discloses the case remains pending with a motion to dismiss awaiting a hearing date" }
+      ]
     }
   ],
 

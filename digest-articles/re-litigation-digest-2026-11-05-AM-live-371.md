@@ -1,0 +1,28 @@
+# CMBS Trustee Moves to Seize Clipper Realty's Brooklyn Office Tower After City Tenant Exit
+
+### A $125 million default at 250 Livingston Street shows how a single government tenant's departure can cascade into receivership for a publicly traded landlord
+
+Clipper Realty Inc., a New York Stock Exchange-listed owner of Brooklyn and Manhattan apartment and office properties, disclosed in a November 4, 2026 SEC filing that it remains locked in foreclosure litigation over its 250 Livingston Street office building in Downtown Brooklyn, after a court-appointed receiver took over the property earlier this year. The dispute, now in its eighth month, is a case study in how a single large government lease can anchor — and then sink — a commercial mortgage.
+
+The trouble began on August 23, 2025, when New York City government agencies that had occupied all 342,496 rentable square feet of commercial space at the 12-story building terminated their lease and vacated. According to Clipper's quarterly report, those leases had accounted for roughly 18% to 22% of the company's annual revenue in the preceding two years. Facing a building with no paying tenant, Clipper notified its lender that it would no longer support the property's operations, and the loan on the building — a $125 million note held in a 2019 commercial mortgage-backed securities (CMBS) trust — soon fell into default.
+
+On March 25, 2026, Wilmington Trust, National Association, acting as trustee for the benefit of certificate holders in the GS Mortgage Securities Trust 2019-GC40, filed a foreclosure complaint in Kings County Supreme Court against the building's ownership entity, 250 Livingston Owner LLC, along with Clipper Realty Inc. and its operating subsidiary, Clipper Realty L.P., which both guarantee certain obligations under the loan. The lender's complaint demanded that the court appoint a receiver to take over management of the property and that the building ultimately be sold, with proceeds applied against the outstanding debt. On April 29, 2026, the court granted that request, installing a temporary receiver to run the building's leasing and operations.
+
+Clipper's latest disclosure makes clear the case is far from resolved. The loan documents gave the lender a defined marketing period before it could move to an outright foreclosure sale or accept a deed in lieu of foreclosure, and they also gave Clipper the right to submit its own offer to purchase the loan from the lender. As of November 4, 2026 — the filing date of its most recent quarterly report — Clipper says the lender has not yet exercised its foreclosure or deed-in-lieu rights, leaving the parties in an extended standoff over the building's fate. The company has flagged the matter as a continuing risk factor for investors, warning that a foreclosure or deed-in-lieu transfer would have a material adverse effect on its financial condition, and that even a successful loan buyback would leave it with the harder problem of re-leasing nearly 343,000 square feet with no comparable government anchor in sight.
+
+The 250 Livingston Street case runs on a notably different track from Clipper's dispute over its sister property at 141 Livingston Street, where a different lender — serviced on behalf of Wells Fargo Bank, N.A. — sought similar receivership relief in 2025. There, a court denied the lender's receiver motion in May 2025, and Clipper has since reported that it substantially settled that lender's claims by the end of 2025. The diverging outcomes underscore how fact-specific these CMBS special-servicing fights can be: the same ownership group, similarly situated buildings on the same Brooklyn block, and two different results depending on the loan documents, the lender's leverage, and the court's read of the receivership standard.
+
+## Practical takeaways
+
+- A single large tenant lease — especially a government lease treated as a stable anchor — can create concentrated risk: when agencies terminate and vacate on relatively short notice, the resulting revenue hole can trigger loan covenant defaults within months, not years.
+- CMBS special servicers increasingly favor an aggressive receivership strategy over patient workout negotiations once a major tenant is lost, particularly where the borrower has already signaled it will not fund continued operations out of pocket.
+- Loan documents that give a defaulting borrower a right to buy back its own note, or that impose a defined marketing period before an outright sale, can meaningfully slow a lender's path to foreclosure — but they do not prevent a receiver from taking operational control of the asset in the interim.
+- Owners facing parallel defaults across a multi-asset CMBS loan pool or portfolio should expect results to diverge property by property and lender by lender, since outcomes turn heavily on the specific loan documents and each special servicer's own risk tolerance, not on how similar the underlying buildings look from the street.
+
+*This article was prepared as a legal news update for commercial real estate owners, lenders, and asset managers tracking CMBS special-servicing and foreclosure trends.*
+
+### Sources
+
+- Clipper Realty Inc., Form 10-Q for the quarter ended September 30, 2026, filed November 4, 2026: https://www.sec.gov/Archives/edgar/data/1649096/000143774926034925/clpr20260930_10q.htm
+- Pincus Co., "$125M pre-foreclosure filed at Clipper Realty's DoBro office which HRA vacated": https://www.pincusco.com/125m-pre-foreclosure-filed-at-clipper-realtys-dobro-office-which-hra-vacated
+- The Real Deal, "David Bistricer faces foreclosure of DoBro office" (December 11, 2025): https://therealdeal.com/new-york/2025/12/11/david-bistricer-faces-foreclosure-of-dobro-office
