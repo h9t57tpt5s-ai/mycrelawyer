@@ -1289,6 +1289,27 @@
       "checkAfter": "n/a",
       "status": "no-op",
       "note": "Logged as no-op (like imp-011/043/045) since it has no goal-metric target of its own to watch -- it is a measurement fix, not a content/code change aimed at moving a goal number directly. `bot_adjusted_week()` flags a day when /contact.html exceeds both 20% of that day's visits and 20 raw hits, trims the excess back to a ~3% normal share, and sums the trailing 7 available ops/metrics/history/*.json days; falls back to no adjustment if fewer than 5 of the last 7 days have history files. Verified against today's data (flags 10-29/11-01/11-03/11-04, matching imp-047/048/053's hand-counts exactly) and confirmed additive-only via `git diff` (only new keys added, generatedAt timestamp aside; existing keys byte-identical). site_audit.py and check_case_fields.py both unchanged before/after. Next time: read botFlaggedDays7 before trusting any visits7/multiPageRate7 verdict at face value; if a future run finds this flagging a real traffic day (not bot noise), tighten CONTACT_BOT_SHARE_THRESHOLD/CONTACT_BOT_MIN_COUNT rather than ignoring it."
+    },
+    {
+      "id": "imp-056",
+      "date": "2026-11-05",
+      "track": "conversion",
+      "title": "Made the returning-visitor \"new matters since your last visit\" banner visually prominent (backlog item G11/imp-010's own next-step note)",
+      "why": "mostBehind (conversion, calculator, traffic, news) ranked conversion first, untouched in the last 2 runs (imp-054 traffic, imp-055 audit). By metric: conversion's only two metrics with an open watcher (newsletterSignups7/signUps7) are blocked by imp-046 until 2026-11-08; calculator's calculatorViews7 is blocked by imp-044 until 2026-11-07 and finalRangeHitRate is Jeff-gated with no new backtest data since imp-045 (checked: all results*/ directory file counts unchanged, no Jeff annotation in ops/calculator-proposals.md since 2026-10-31); traffic's visits7/googleLandings7 are blocked by imp-053 until 2026-11-11 -- so per the one-open-experiment-per-goal rule, the first three goals were blocked. conversion's follows7 and multiPageRate7 have no open watcher, but G17 (follows7: magic-link friction, off-limits js/auth.js) and G19 (multiPageRate7: /contact.html bot contamination) already diagnosed both as unlikely to move from a copy/placement test alone, which is why imp-007/010/013 all closed 'no clear effect.' What changed since then: this morning's imp-055 added `multiPageRate7Adjusted` to goals.json, a reading no longer confounded by the bot contamination (today: 0.023 vs raw 0.0169) -- making imp-010's own 2026-10-21 verdict note newly actionable: 'if it doesn't move multiPageRate7, consider that the banner may need to be more visually prominent ... rather than that the idea itself is wrong.' The banner (js/main.js, shipped imp-010) has used a pale --accent-wash background and 13.5px text since launch, unchanged through that 'no clear effect' verdict.",
+      "files": ["css/styles.css"],
+      "commit": "ea701e55666e97fff54890422a1957ed07f5a8c2",
+      "metric": "ops/metrics/goals.json conversion.metrics.multiPageRate7Adjusted (primary, now readable thanks to imp-055); multiPageRate7/visits7Adjusted as secondary context",
+      "window": "7 days",
+      "baseline": {
+        "multiPageRate7": 0.0169,
+        "multiPageRate7Adjusted": 0.023,
+        "follows7": 0,
+        "newsletterSignups7": 1,
+        "signUps7": 1
+      },
+      "checkAfter": "2026-11-12",
+      "status": "watching",
+      "note": "Changed css/styles.css's .returning-banner rule only: background var(--accent-wash) -> var(--accent-deep), text var(--text-secondary)/var(--accent-deep) -> #ffffff throughout, font-size 13.5px -> 14.5px, padding 11px -> 13px, link now underlined, plus a box-shadow for lift. No change to js/main.js -- same copy, same markup, same real computed count/date/link, so this isolates visibility as the one variable per imp-010's own note (a copy/incentive change was already tested separately and helped, on a different element: the newsletter CTA, imp-033/046). Verified only one `.returning-banner` rule block exists in css/styles.css (no conflicting override elsewhere) and that the nav-overlap JS fix (js/main.js lines ~299-312, sets the banner's own marginTop from the nav's offsetHeight) depends only on the nav's height, not the banner's, so it's unaffected by the banner's own padding/font-size change. site_audit.py summary unchanged (missingDescription 2/weakDescription 2, both already-explained pre-existing noindex pages) before and after; only css/styles.css staged and committed, ops/metrics/goals.json's own regeneration (from running goal_scoreboard.py/site_audit.py to read current numbers) reverted before committing per the established rule that file belongs to metrics-snapshot.yml. Next time: judge against multiPageRate7Adjusted (baseline 0.023) at checkAfter (2026-11-12, a 7-day window from today, chosen over 14 since this is a same-site CSS change with no Google dependency); also sanity-check botFlaggedDays7 for the window to confirm the adjustment itself held up over these new days before trusting the read. If adjusted multiPageRate7 still doesn't move, the banner's visibility was very likely not the real blocker either, and G17/G19's structural diagnoses (not a third placement/visibility variant) are probably the only levers left on conversion's follows7/multiPageRate7 side specifically."
     }
   ]
 }
