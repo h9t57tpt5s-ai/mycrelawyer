@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T17:30:33+00:00",
+ "updatedAt": "2026-11-05T17:34:23+00:00",
  "source": "CourtListener RECAP archive (federal courts only): orders, judgments, dismissals and closings on recent federal lawsuits over commercial real estate. Entries appear when CourtListener receives them, so some are late or missing.",
  "errors": [],
  "dockets": {
@@ -963,7 +963,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "amherst-specialty-insurance-company-v-tower-732-realty-llc-nyed-1-26-cv-06427",
    "court": "E.D.N.Y",
    "docketNumber": "1:26-cv-06427",
@@ -981,7 +981,7 @@
      "ruling": true
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "the-huntington-national-bank-v-r-r-express-properties-llc-pawd-2-26-cv-02184",
    "court": "W.D. Pa.",
    "docketNumber": "2:26-cv-02184",
@@ -991,7 +991,7 @@
   },
   "74930438": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "pnc-bank-n-a-v-wb-real-estate-development-llc-et-al-flsd-1-26-cv-27042",
    "court": "S.D. Fla.",
    "docketNumber": "1:26-cv-27042",
@@ -1058,7 +1058,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "the-huntington-national-bank-v-r-r-express-properties-llc-pawd-2-26-mc-01053",
    "court": "W.D. Pa.",
    "docketNumber": "2:26-mc-01053",
@@ -1076,7 +1076,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "payson-apartments-a-limited-partnership-v-united-states-uscfc-1-26-cv-01491",
    "court": "Fed. Cl.",
    "docketNumber": "1:26-cv-01491",
@@ -1094,7 +1094,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "betmgm-llc-v-greenbrier-hotel-corporation-ded-1-26-cv-01296",
    "court": "D. Del.",
    "docketNumber": "1:26-cv-01296",
@@ -1114,7 +1114,7 @@
   },
   "74936135": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "newcastle-apartments-a-limited-partnership-v-united-states-uscfc-1-26-cv-01496",
    "court": "Fed. Cl.",
    "docketNumber": "1:26-cv-01496",
@@ -1132,7 +1132,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "us-bank-trust-national-association-not-in-its-individual-capacity-but-paed-2-26-cv-07741",
    "court": "E.D. Pa.",
    "docketNumber": "2:26-cv-07741",
@@ -1141,14 +1141,22 @@
    "lastEntryDate": "2026-10-13"
   },
   "74940024": {
-   "entries": [],
-   "checkedAt": "2026-11-04",
+   "entries": [
+    {
+     "date": "2026-11-04",
+     "number": 3,
+     "text": "Order - Rules 16/26",
+     "url": "https://www.courtlistener.com/docket/74940024/3/heritage-properties-llp-v-auto-owners-insurance-company/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-11-05",
    "slug": "heritage-properties-llp-v-auto-owners-insurance-company-gamd-7-26-cv-00307",
    "court": "M.D. Ga.",
    "docketNumber": "7:26-cv-00307",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74940024/heritage-properties-llp-v-auto-owners-insurance-company/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-11-04"
   },
   "74940389": {
    "entries": [
@@ -1174,7 +1182,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "byblos-development-inc-v-first-citizens-bank-trust-company-flmd-6-26-cv-02348",
    "court": "M.D. Fla.",
    "docketNumber": "6:26-cv-02348",
@@ -1199,7 +1207,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "natural-nydegger-transport-corporation-v-power-and-process-development-txsd-4-26-cv-08864",
    "court": "S.D. Tex.",
    "docketNumber": "4:26-cv-08864",
@@ -1209,7 +1217,7 @@
   },
   "74942188": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "u-s-bank-national-association-not-in-its-individual-capacity-but-solel-paed-2-26-cv-07769",
    "court": "E.D. Pa.",
    "docketNumber": "2:26-cv-07769",
@@ -1241,7 +1249,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "u-s-bank-trust-national-association-not-in-its-individual-capacity-but-paed-2-26-cv-07772",
    "court": "E.D. Pa.",
    "docketNumber": "2:26-cv-07772",
@@ -1252,6 +1260,13 @@
   "74943194": {
    "entries": [
     {
+     "date": "2026-11-05",
+     "number": 8,
+     "text": "Order AND Set Hearings",
+     "url": "https://www.courtlistener.com/docket/74943194/8/ks-hotel-llc-v-state-farm-fire-and-casualty-insurance/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-13",
      "number": 5,
      "text": "Order",
@@ -1259,17 +1274,17 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "k-s-hotel-llc-v-state-farm-fire-and-casualty-insurance-laed-2-26-cv-02345",
    "court": "E.D. La.",
    "docketNumber": "2:26-cv-02345",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74943194/ks-hotel-llc-v-state-farm-fire-and-casualty-insurance/",
-   "lastEntryDate": "2026-10-13"
+   "lastEntryDate": "2026-11-05"
   },
   "74954259": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "owners-insurance-company-v-budd-commercial-real-estate-llc-gamd-7-26-cv-00312",
    "court": "M.D. Ga.",
    "docketNumber": "7:26-cv-00312",
@@ -1294,7 +1309,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "20-20-property-inspections-llc-v-20-20-inspection-solutions-llc-flmd-6-26-cv-02380",
    "court": "M.D. Fla.",
    "docketNumber": "6:26-cv-02380",
@@ -1312,7 +1327,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "hartford-casualty-insurance-company-v-belvoir-real-estate-group-llc-txsd-4-26-cv-09002",
    "court": "S.D. Tex.",
    "docketNumber": "4:26-cv-09002",
@@ -1322,7 +1337,7 @@
   },
   "74961442": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "building-service-32bj-pension-fund-v-lichter-real-estate-number-one-l-nysd-1-26-cv-09018",
    "court": "S.D.N.Y.",
    "docketNumber": "1:26-cv-09018",
@@ -1332,7 +1347,7 @@
   },
   "74963440": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "united-states-v-vb-development-corp-prd-3-26-cv-01656",
    "court": "D.P.R.",
    "docketNumber": "3:26-cv-01656",
@@ -1350,7 +1365,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "brementown-mini-mall-llc-v-auto-owners-insurance-company-ilnd-1-26-cv-12616",
    "court": "N.D. Ill.",
    "docketNumber": "1:26-cv-12616",
@@ -1360,7 +1375,7 @@
   },
   "74966965": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "vertex-towers-llc-v-town-of-monson-mad-1-26-cv-14668",
    "court": "D. Mass.",
    "docketNumber": "1:26-cv-14668",
@@ -1385,7 +1400,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "samara-real-property-llc-a-delaware-limited-liability-company-v-board-nmd-1-26-cv-03446",
    "court": "D.N.M.",
    "docketNumber": "1:26-cv-03446",
@@ -1417,7 +1432,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "seymour-realty-1941-llc-v-amguard-insurance-company-flsd-0-26-cv-62884",
    "court": "S.D. Fla.",
    "docketNumber": "0:26-cv-62884",
@@ -1435,7 +1450,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "the-albano-group-llc-v-netrality-properties-lp-paed-2-26-cv-07919",
    "court": "E.D. Pa.",
    "docketNumber": "2:26-cv-07919",
@@ -1460,7 +1475,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "teletech-inc-v-sprint-spectrum-realty-company-mied-2-26-cv-13939",
    "court": "E.D. Mich.",
    "docketNumber": "2:26-cv-13939",
@@ -1478,7 +1493,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "flushing-bank-v-1372-franklin-avenue-housing-development-fund-corporat-nysd-1-26-cv-09084",
    "court": "S.D.N.Y.",
    "docketNumber": "1:26-cv-09084",
@@ -1488,7 +1503,7 @@
   },
   "74976761": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "fd-realty-llc-v-barrett-financial-group-l-l-c-gand-1-26-cv-06182",
    "court": "N.D. Ga.",
    "docketNumber": "1:26-cv-06182",
@@ -1541,7 +1556,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "omriddhi-corp-valley-view-motel-v-mesa-underwriters-specialty-insuranc-txnd-3-26-cv-03629",
    "court": "N.D. Tex.",
    "docketNumber": "3:26-cv-03629",
@@ -1587,7 +1602,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "u-s-bank-national-association-as-trustee-for-the-registered-holders-of-nysd-1-26-cv-09124",
    "court": "S.D.N.Y.",
    "docketNumber": "1:26-cv-09124",
@@ -1597,6 +1612,13 @@
   },
   "74978716": {
    "entries": [
+    {
+     "date": "2026-11-04",
+     "number": 13,
+     "text": "Order on Motion to Adjourn Conference",
+     "url": "https://www.courtlistener.com/docket/74978716/13/consolidated-capital-investments-llc-v-lument-real-estate-capital-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-29",
      "number": 11,
@@ -1612,17 +1634,17 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "consolidated-capital-investments-llc-v-lument-real-estate-capital-llc-nysd-1-26-cv-09129",
    "court": "S.D.N.Y.",
    "docketNumber": "1:26-cv-09129",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74978716/consolidated-capital-investments-llc-v-lument-real-estate-capital-llc/",
-   "lastEntryDate": "2026-10-29"
+   "lastEntryDate": "2026-11-04"
   },
   "74989401": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "diego-beekman-mutual-housing-association-housing-development-fund-corp-nysd-1-26-cv-09188",
    "court": "S.D.N.Y.",
    "docketNumber": "1:26-cv-09188",
@@ -1632,7 +1654,7 @@
   },
   "74991650": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "blue-sky-towers-iii-llc-v-virgin-islands-board-of-land-use-appeals-vid-1-26-cv-00027",
    "court": "D.V.I.",
    "docketNumber": "1:26-cv-00027",
@@ -1657,7 +1679,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "withers-cove-business-park-association-inc-v-united-states-postal-serv-ncwd-3-26-cv-00886",
    "court": "W.D.N.C.",
    "docketNumber": "3:26-cv-00886",
@@ -1696,7 +1718,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "find-the-value-llc-v-cell-tower-lease-acquisition-llc-lamd-3-26-cv-01200",
    "court": "M.D. La.",
    "docketNumber": "3:26-cv-01200",
@@ -1714,7 +1736,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "u-s-bank-national-association-v-cedar-tower-llc-nyed-1-26-cv-06798",
    "court": "E.D.N.Y",
    "docketNumber": "1:26-cv-06798",
@@ -1739,7 +1761,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "hord-coplan-macht-inc-v-55-resort-apartments-at-centerra-llc-cod-1-26-cv-05404",
    "court": "D. Colo.",
    "docketNumber": "1:26-cv-05404",
@@ -1749,7 +1771,7 @@
   },
   "75007599": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "gulfstream-towers-holding-company-llc-v-flagler-county-flmd-3-26-cv-02899",
    "court": "M.D. Fla.",
    "docketNumber": "3:26-cv-02899",
@@ -1774,7 +1796,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "jwb-properties-llc-v-us-foods-inc-tnwd-2-26-cv-03407",
    "court": "W.D. Tenn.",
    "docketNumber": "2:26-cv-03407",
@@ -1806,7 +1828,7 @@
      "ruling": true
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "cwa-properties-llc-v-covington-specialty-insurance-company-cacd-2-26-cv-12365",
    "court": "C.D. Cal.",
    "docketNumber": "2:26-cv-12365",
@@ -1824,7 +1846,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "u-s-bank-trust-company-national-association-v-san-luis-facility-develo-azd-2-26-cv-07774",
    "court": "D. Ariz.",
    "docketNumber": "2:26-cv-07774",
@@ -1834,7 +1856,7 @@
   },
   "75010384": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "gulfstream-towers-holding-company-llc-v-flagler-county-flmd-3-26-cv-02902",
    "court": "M.D. Fla.",
    "docketNumber": "3:26-cv-02902",
@@ -1866,7 +1888,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "scg-hotel-llc-v-selective-insurance-company-of-the-southeast-flmd-8-26-cv-03232",
    "court": "M.D. Fla.",
    "docketNumber": "8:26-cv-03232",
@@ -1891,7 +1913,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "computershare-trust-company-na-v-wisconsin-milwaukee-hotel-llc-wied-2-26-cv-01974",
    "court": "E.D. Wis.",
    "docketNumber": "2:26-cv-01974",
@@ -1930,7 +1952,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "aspen-grove-holdings-llc-v-wal-mart-real-estate-business-trust-and-wal-cod-1-26-cv-05474",
    "court": "D. Colo.",
    "docketNumber": "1:26-cv-05474",
@@ -1969,7 +1991,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "smolinski-properties-llc-v-westchester-surplus-lines-insurance-company-flmd-6-26-cv-02508",
    "court": "M.D. Fla.",
    "docketNumber": "6:26-cv-02508",
@@ -1987,7 +2009,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "psg-cr-lending-llc-v-m-b-ybl-ii-llc-paed-5-26-cv-08172",
    "court": "E.D. Pa.",
    "docketNumber": "5:26-cv-08172",
@@ -1997,6 +2019,13 @@
   },
   "75025120": {
    "entries": [
+    {
+     "date": "2026-11-04",
+     "number": 11,
+     "text": "Order on Motion for Extension of Time to Answer",
+     "url": "https://www.courtlistener.com/docket/75025120/11/norman-properties-l-l-c-v-shell-usa-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-11-02",
      "number": 10,
@@ -2019,13 +2048,13 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "norman-properties-l-l-c-v-shell-usa-inc-lawd-6-26-cv-04517",
    "court": "W.D. La.",
    "docketNumber": "6:26-cv-04517",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/75025120/norman-properties-l-l-c-v-shell-usa-inc/",
-   "lastEntryDate": "2026-11-02"
+   "lastEntryDate": "2026-11-04"
   },
   "75029856": {
    "entries": [
@@ -2072,7 +2101,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "pmc-property-group-inc-v-apogee-enterprises-inc-mnd-0-26-cv-04642",
    "court": "D. Minnesota",
    "docketNumber": "0:26-cv-04642",
@@ -2082,7 +2111,7 @@
   },
   "75032662": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "town-center-properties-i-llc-v-mariner-finance-llc-mdd-1-26-cv-04530",
    "court": "D. Maryland",
    "docketNumber": "1:26-cv-04530",
@@ -2092,7 +2121,7 @@
   },
   "75039856": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "southeastern-site-development-inc-v-federal-insurance-company-gand-3-26-cv-00233",
    "court": "N.D. Ga.",
    "docketNumber": "3:26-cv-00233",
@@ -2102,7 +2131,7 @@
   },
   "75043223": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "maruti-3-lodging-llc-v-saina-global-inc-d-b-a-vogue-hospitality-txsd-6-26-cv-00069",
    "court": "S.D. Tex.",
    "docketNumber": "6:26-cv-00069",
@@ -2127,7 +2156,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "viva-burrito-development-corporation-v-united-states-uscfc-1-26-cv-01658",
    "court": "Fed. Cl.",
    "docketNumber": "1:26-cv-01658",
@@ -2137,7 +2166,7 @@
   },
   "75056697": {
    "entries": [],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "jhej-property-llc-v-auto-owners-insurance-company-gand-1-26-cv-06640",
    "court": "N.D. Ga.",
    "docketNumber": "1:26-cv-06640",
@@ -2162,7 +2191,7 @@
      "ruling": false
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "pringletown-quick-stop-inc-v-laxmi-consultation-llc-scd-2-26-cv-05365",
    "court": "D.S.C.",
    "docketNumber": "2:26-cv-05365",
@@ -2180,13 +2209,79 @@
      "ruling": true
     }
    ],
-   "checkedAt": "2026-11-04",
+   "checkedAt": "2026-11-05",
    "slug": "rdm-distress-assets-holdings-llc-v-baron-property-group-llc-nysd-1-26-mc-00542",
    "court": "S.D.N.Y.",
    "docketNumber": "1:26-mc-00542",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/75067184/rdm-distress-assets-holdings-llc-v-baron-property-group-llc/",
    "lastEntryDate": "2026-11-03"
+  },
+  "75069455": {
+   "entries": [
+    {
+     "date": "2026-11-04",
+     "number": 4,
+     "text": "Application for Clerk Order to Ext Answer/Proposed Order",
+     "url": "https://www.courtlistener.com/docket/75069455/4/bb-realty-corp-v-state-farm-fire-and-casualty-company/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-11-05",
+   "slug": "b-b-realty-corp-v-state-farm-fire-and-casualty-company-njd-1-26-cv-14324",
+   "court": "D.N.J.",
+   "docketNumber": "1:26-cv-14324",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/75069455/bb-realty-corp-v-state-farm-fire-and-casualty-company/",
+   "lastEntryDate": "2026-11-04"
+  },
+  "75072380": {
+   "entries": [
+    {
+     "date": "2026-11-04",
+     "number": 4,
+     "text": "Application for Clerk Order to Ext Answer/Proposed Order",
+     "url": "https://www.courtlistener.com/docket/75072380/4/bb-realty-corp-v-state-farm-fire-and-casualty-company/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-11-05",
+   "slug": "b-b-realty-corp-v-state-farm-fire-and-casualty-company-njd-2-26-cv-14324",
+   "court": "D.N.J.",
+   "docketNumber": "2:26-cv-14324",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/75072380/bb-realty-corp-v-state-farm-fire-and-casualty-company/",
+   "lastEntryDate": "2026-11-04"
+  },
+  "75072753": {
+   "entries": [],
+   "checkedAt": "2026-11-05",
+   "slug": "engel-volkers-americas-inc-v-goldcrest-realty-group-llc-lamd-3-26-cv-01247",
+   "court": "M.D. La.",
+   "docketNumber": "3:26-cv-01247",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/75072753/engel-volkers-americas-inc-v-goldcrest-realty-group-llc/",
+   "lastEntryDate": null
+  },
+  "75073545": {
+   "entries": [],
+   "checkedAt": "2026-11-05",
+   "slug": "millville-47-developers-llc-v-raising-cane-s-restaurants-llc-njd-3-26-cv-14367",
+   "court": "D.N.J.",
+   "docketNumber": "3:26-cv-14367",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/75073545/millville-47-developers-llc-v-raising-canes-restaurants-llc/",
+   "lastEntryDate": null
+  },
+  "75073952": {
+   "entries": [],
+   "checkedAt": "2026-11-05",
+   "slug": "tri-state-marble-llc-v-new-york-hotel-trades-council-and-hotel-associa-nysd-1-26-cv-09681",
+   "court": "S.D.N.Y.",
+   "docketNumber": "1:26-cv-09681",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/75073952/tri-state-marble-llc-v-new-york-hotel-trades-council-and-hotel-association/",
+   "lastEntryDate": null
   }
  },
  "events": [

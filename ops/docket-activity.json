@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-04T17:26:46+00:00",
+ "updatedAt": "2026-11-05T17:30:50+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 21,
+ "requestsUsed": 20,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -249,60 +249,60 @@
   "69074245": {
    "entries": [
     {
+     "date": "2026-11-05",
+     "number": 229,
+     "text": "Exhibit 2 - Public Comment Regarding the Proposed Final Judgment [200-1] submitt",
+     "url": "https://www.courtlistener.com/docket/69074245/229/2/united-states-of-america-v-realpage-inc/",
+     "ruling": true
+    },
+    {
+     "date": "2026-11-05",
+     "number": 229,
+     "text": "Exhibit 1 - Public Comment Regarding the Proposed Final Judgment [200-1] submitt",
+     "url": "https://www.courtlistener.com/docket/69074245/229/1/united-states-of-america-v-realpage-inc/",
+     "ruling": true
+    },
+    {
+     "date": "2026-11-05",
+     "number": 229,
+     "text": "Response - non motion",
+     "url": "https://www.courtlistener.com/docket/69074245/229/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-04",
+     "number": 228,
+     "text": "Exhibit 2 - Public Comment Regarding the Proposed Final Judgment [200-1] submitt",
+     "url": "https://www.courtlistener.com/docket/69074245/228/2/united-states-of-america-v-realpage-inc/",
+     "ruling": true
+    },
+    {
+     "date": "2026-11-04",
+     "number": 228,
+     "text": "Exhibit 1 - Public Comment Regarding the Proposed Final Judgment [200-1] submitt",
+     "url": "https://www.courtlistener.com/docket/69074245/228/1/united-states-of-america-v-realpage-inc/",
+     "ruling": true
+    },
+    {
+     "date": "2026-11-04",
+     "number": 228,
+     "text": "Response - non motion",
+     "url": "https://www.courtlistener.com/docket/69074245/228/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-04",
+     "number": 227,
+     "text": "Notice of Special Appearance",
+     "url": "https://www.courtlistener.com/docket/69074245/227/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-19",
      "number": 226,
      "text": "Notice of Special Appearance",
      "url": "https://www.courtlistener.com/docket/69074245/226/united-states-of-america-v-realpage-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 225,
-     "text": "Notice of Special Appearance",
-     "url": "https://www.courtlistener.com/docket/69074245/225/united-states-of-america-v-realpage-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": null,
-     "text": "Set/Reset Deadlines/Hearings",
-     "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-14",
-     "number": null,
-     "text": "Order on Motion for Extension of Time to Answer",
-     "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-13",
-     "number": null,
-     "text": "Motions Referred",
-     "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 224,
-     "text": "Text of Proposed Order",
-     "url": "https://www.courtlistener.com/docket/69074245/224/1/united-states-of-america-v-realpage-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 224,
-     "text": "Extension of Time to File Answer",
-     "url": "https://www.courtlistener.com/docket/69074245/224/united-states-of-america-v-realpage-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-30",
-     "number": 223,
-     "text": "Memorandum Opinion and Order",
-     "url": "https://www.courtlistener.com/docket/69074245/223/united-states-of-america-v-realpage-inc/",
-     "ruling": true
     }
    ],
    "caseIds": [
@@ -312,10 +312,31 @@
    "docketNumber": "1:24-cv-00710",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
-   "lastEntryDate": "2026-10-19"
+   "lastEntryDate": "2026-11-05"
   },
   "69353264": {
    "entries": [
+    {
+     "date": "2026-11-05",
+     "number": null,
+     "text": "Set/Reset Motion and R&R Deadlines/Hearings",
+     "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-04",
+     "number": 50,
+     "text": "Response in Opposition to Motion",
+     "url": "https://www.courtlistener.com/docket/69353264/50/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-04",
+     "number": 49,
+     "text": "Judgment on the Pleadings",
+     "url": "https://www.courtlistener.com/docket/69353264/49/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": true
+    },
     {
      "date": "2026-10-28",
      "number": 48,
@@ -350,27 +371,6 @@
      "text": "Joint Discovery Plan",
      "url": "https://www.courtlistener.com/docket/69353264/44/ayer-v-lightstone-value-plus-reit-i-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-21",
-     "number": 43,
-     "text": "Order on Motion for Magistrate Judge",
-     "url": "https://www.courtlistener.com/docket/69353264/43/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-15",
-     "number": 42,
-     "text": "Letter",
-     "url": "https://www.courtlistener.com/docket/69353264/42/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 41,
-     "text": "Strike",
-     "url": "https://www.courtlistener.com/docket/69353264/41/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -380,7 +380,7 @@
    "docketNumber": "3:24-cv-10371",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
-   "lastEntryDate": "2026-10-28"
+   "lastEntryDate": "2026-11-05"
   },
   "69518085": {
    "entries": [
@@ -900,6 +900,13 @@
   "73684397": {
    "entries": [
     {
+     "date": "2026-11-04",
+     "number": 17,
+     "text": "Order on Motion for Leave to File Document",
+     "url": "https://www.courtlistener.com/docket/73684397/17/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-03",
      "number": 16,
      "text": "Leave to File Document",
@@ -949,7 +956,7 @@
    "docketNumber": "1:26-cv-06435",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73684397/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
-   "lastEntryDate": "2026-11-03"
+   "lastEntryDate": "2026-11-04"
   },
   "73687065": {
    "entries": [
@@ -1623,6 +1630,71 @@
   }
  },
  "events": [
+  {
+   "key": "69074245:229:2026-11-05:exhibit 2 - public comment regarding the proposed final judgment [200-1] submitt",
+   "docketId": "69074245",
+   "caseIds": [
+    "live-062"
+   ],
+   "date": "2026-11-05",
+   "kind": "ruling",
+   "text": "Exhibit 2 - Public Comment Regarding the Proposed Final Judgment [200-1] submitt",
+   "entry": 229,
+   "url": "https://www.courtlistener.com/docket/69074245/229/2/united-states-of-america-v-realpage-inc/",
+   "firstSeen": "2026-11-05"
+  },
+  {
+   "key": "69074245:229:2026-11-05:exhibit 1 - public comment regarding the proposed final judgment [200-1] submitt",
+   "docketId": "69074245",
+   "caseIds": [
+    "live-062"
+   ],
+   "date": "2026-11-05",
+   "kind": "ruling",
+   "text": "Exhibit 1 - Public Comment Regarding the Proposed Final Judgment [200-1] submitt",
+   "entry": 229,
+   "url": "https://www.courtlistener.com/docket/69074245/229/1/united-states-of-america-v-realpage-inc/",
+   "firstSeen": "2026-11-05"
+  },
+  {
+   "key": "69074245:228:2026-11-04:exhibit 2 - public comment regarding the proposed final judgment [200-1] submitt",
+   "docketId": "69074245",
+   "caseIds": [
+    "live-062"
+   ],
+   "date": "2026-11-04",
+   "kind": "ruling",
+   "text": "Exhibit 2 - Public Comment Regarding the Proposed Final Judgment [200-1] submitt",
+   "entry": 228,
+   "url": "https://www.courtlistener.com/docket/69074245/228/2/united-states-of-america-v-realpage-inc/",
+   "firstSeen": "2026-11-05"
+  },
+  {
+   "key": "69074245:228:2026-11-04:exhibit 1 - public comment regarding the proposed final judgment [200-1] submitt",
+   "docketId": "69074245",
+   "caseIds": [
+    "live-062"
+   ],
+   "date": "2026-11-04",
+   "kind": "ruling",
+   "text": "Exhibit 1 - Public Comment Regarding the Proposed Final Judgment [200-1] submitt",
+   "entry": 228,
+   "url": "https://www.courtlistener.com/docket/69074245/228/1/united-states-of-america-v-realpage-inc/",
+   "firstSeen": "2026-11-05"
+  },
+  {
+   "key": "69353264:49:2026-11-04:judgment on the pleadings",
+   "docketId": "69353264",
+   "caseIds": [
+    "live-013"
+   ],
+   "date": "2026-11-04",
+   "kind": "ruling",
+   "text": "Judgment on the Pleadings",
+   "entry": 49,
+   "url": "https://www.courtlistener.com/docket/69353264/49/ayer-v-lightstone-value-plus-reit-i-inc/",
+   "firstSeen": "2026-11-05"
+  },
   {
    "key": "74927117:73:2026-10-29:order on motion for relief from stay/co-debtor stay",
    "docketId": "74927117",
