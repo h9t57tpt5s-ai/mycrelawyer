@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-04",
+  lastUpdatedDate: "2026-11-05",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -12852,6 +12852,50 @@ const RELAW_DATA = {
         { when: "2025", label: "Phoenix City Council adopts ordinance requiring a special permit for data centers citywide" },
         { when: "October 28, 2026", label: "Maricopa County Superior Court dismisses WBR's ordinance-based claim but lets its Proposition 207 claim proceed", current: true },
         { when: "November 17, 2026", label: "Evidentiary hearing scheduled on whether the ordinance is a necessary public-health or safety measure", upcoming: true }
+      ]
+    },
+    {
+      id: "live-370",
+      seoTitle: "American Dream Mall Freeze Act Ruling Locks In $850M Tax Cut",
+      seoDescription: "NJ Tax Court ruled the Freeze Act bars East Rutherford and bondholder trustee US Bank from raising American Dream Mall's $1.65B assessment for 2026-27.",
+      addedDate: "2026-11-05",
+      featured: true,
+      title: "American Dream Mall Locks In $850M Tax Cut, Beating Back Bondholder Challenge",
+      brief: "New Jersey's Tax Court ruled the Freeze Act bars East Rutherford from raising the American Dream Mall's assessment back up for 2026-27, rejecting the bondholder trustee's bid to defeat the freeze.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-10-30",
+      jurisdiction: "New Jersey Tax Court",
+      state: "NJ",
+      amount: "$1.65 billion assessment frozen; Borough sought to raise it to $1.9 billion",
+      source: "live",
+      sourceUrl: "https://www.njcourts.gov/court-opinion/ameream-llc-v-borough-of-east-rutherford-published-tax",
+      docketUrl: "https://www.courtlistener.com/opinion/11054341/ameream-llc-v-borough-of-east-rutherford/",
+      docketLabel: "CourtListener opinion",
+      summary: "The New Jersey Tax Court ruled that the state's Freeze Act bars the Borough of East Rutherford from raising the American Dream Mall's property assessment for tax years 2026 and 2027 above the $1,653,960,000 figure a prior judgment set after a July 2025 trial. The Borough had reassessed the mall to $1,899,992,100 for 2026, and the mall's own bondholder trustee, US Bank and Trust Company, joined the Borough in opposing the freeze as amicus curiae.",
+      significance: "The ruling confirms that a PILOT (payment-in-lieu-of-taxes) property is not exempt from Freeze Act protection merely because it does not pay conventional property taxes, and that a municipality cannot defeat a freeze with unquantified evidence of improving market conditions or its own routine annual reassessment program. It also exposes a rift between the mall's ownership and its own bond trustee, who intervened against the owner's interest to protect PILOT-backed debt service.",
+      body: [
+        "The American Dream Mall's owner has secured a second consecutive legal win over its property tax bill, as a New Jersey Tax Court judge ruled on October 30, 2026 that the mall's sharply reduced 2025 assessment must carry forward unchanged into 2026 and 2027, rejecting arguments from both the Borough of East Rutherford and the trustee for the mega-mall's own bondholders that the reduction should not apply. The decision, in Ameream LLC v. Borough of East Rutherford, is a significant win for the mall's developer and a setback for the municipality's effort to recapture roughly $250 million in annual assessed value it had added back for the 2026 tax year.",
+        "The dispute traces to a July 2025 trial in which the Tax Court cut the mall's cumulative assessment by roughly $850 million, from about $2.5 billion to $1,653,960,000. For tax year 2026, the Borough responded by raising the cumulative assessment back up to $1,899,992,100, prompting Ameream to invoke New Jersey's Freeze Act, a 1946 statute that makes a Tax Court judgment binding on the assessor and the taxing district for the judgment year and the two years that follow, subject to narrow exceptions.",
+        "Because American Dream operates under a payment-in-lieu-of-taxes agreement rather than paying conventional property taxes directly, the Borough and amicus curiae US Bank and Trust Company, serving as trustee for the bondholders whose bonds financed the mega-mall's development and are repaid largely from PILOT revenue, argued the Freeze Act should not apply at all, since Ameream is not a conventional taxpayer. Judge Michael J. Gilmore rejected that argument, holding that the PILOT agreement itself requires the Borough to assess the property as if it were subject to conventional taxation and expressly preserves Ameream's right to contest those assessments, so the Freeze Act's protections travel with the assessment regardless of how the resulting payment is labeled.",
+        "Having cleared that threshold question, the court turned to whether any statutory exception defeated the freeze. US Bank offered testimony and news coverage describing reopened storefronts, tenant improvements, an improving economy and falling capitalization rates as evidence of a change in value, one of the Act's enumerated exceptions. The court found none of that evidence quantified an actual increase in the property's value, and held that general market improvement and higher occupancy, without more, cannot defeat the freeze. The court likewise rejected the argument that the Borough's annual municipal-wide reassessment program qualified as a complete reassessment exception, reasoning that the exception exists to prevent a frozen judgment from leaving one property out of step with a genuine district-wide revaluation, not to let a municipality's routine yearly updating override a specific judgment it dislikes.",
+        "The ruling is the latest round in an increasingly adversarial relationship between East Rutherford, the mall's owner, and the mall's own creditors. US Bank, as bondholder trustee, has separately sued alleging the Borough and the mall's ownership effectively engineered the 2025 valuation reduction to each side's mutual benefit at bondholders' expense, while the Borough has pursued its own suit over roughly $183 million in PILOT payments Ameream claims it overpaid. The Freeze Act ruling does not resolve either of those fights, but it removes one significant lever, a higher 2026 assessment, that the Borough might otherwise have used to generate additional PILOT revenue while the broader disputes play out.",
+        "For developers and owners operating under PILOT or similar payment-substitute arrangements, the ruling confirms that a favorable Tax Court valuation judgment is not automatically vulnerable just because the property does not pay conventional property taxes; if the underlying PILOT agreement ties payments to assessed value as if conventionally taxed, Freeze Act protection likely follows. Municipalities seeking to defeat a freeze need to come forward with quantified appraisal-grade evidence of a genuine change in value, not general market narrative or anecdotal leasing improvement, and bondholders and trustees relying on PILOT-backed debt should recognize that a borrower's successful tax appeal can bind the municipality's hands for up to three tax years, making early engagement in the underlying valuation litigation, not collateral challenges to the freeze itself, the more effective point of intervention."
+      ],
+      judge: "Michael J. Gilmore",
+      parties: [
+        { name: "Ameream LLC", role: "Plaintiff" },
+        { name: "Borough of East Rutherford", role: "Defendant" },
+        { name: "US Bank and Trust Company", role: "Amicus Curiae" }
+      ],
+      amountUsd: 1899992100,
+      amountBasis: "other",
+      propertyType: "Mixed-Use",
+      tags: ["property-tax", "freeze-act", "pilot-bonds", "new-jersey", "mall"],
+      timeline: [
+        { when: "July 2025", label: "Tax Court trial cuts the mall's cumulative 2025 assessment by $850 million to $1,653,960,000" },
+        { when: "2026", label: "Borough of East Rutherford reassesses the property at $1,899,992,100 for tax year 2026" },
+        { when: "October 30, 2026", label: "Tax Court grants Ameream's Freeze Act motion, holding the 2025 assessment binding through 2027", current: true }
       ]
     }
   ],

@@ -1,0 +1,16 @@
+{
+  "id": "live-370",
+  "title": "American Dream Mall Locks In $850M Tax Cut, Beating Back Bondholder Challenge",
+  "category": "lending-foreclosure",
+  "status": "ruling",
+  "date": "2026-10-30",
+  "jurisdiction": "New Jersey Tax Court",
+  "state": "NJ",
+  "amount": "$1.65 billion assessment frozen; Borough sought to raise it to $1.9 billion",
+  "source": "live",
+  "source_url": "https://www.njcourts.gov/court-opinion/ameream-llc-v-borough-of-east-rutherford-published-tax",
+  "summary": "The New Jersey Tax Court ruled that the state's Freeze Act bars the Borough of East Rutherford from raising the American Dream Mall's property assessment for tax years 2026 and 2027 above the $1,653,960,000 figure a prior judgment set after a July 2025 trial. The Borough had reassessed the mall to $1,899,992,100 for 2026, and the mall's own bondholder trustee, US Bank and Trust Company, joined the Borough in opposing the freeze as amicus curiae.",
+  "significance": "The ruling confirms that a PILOT (payment-in-lieu-of-taxes) property is not exempt from Freeze Act protection merely because it does not pay conventional property taxes, and that a municipality cannot defeat a freeze with unquantified evidence of improving market conditions or its own routine annual reassessment program. It also exposes a rift between the mall's ownership and its own bond trustee, who intervened against the owner's interest to protect PILOT-backed debt service.",
+  "judge": "Michael J. Gilmore",
+  "tags": ["property-tax", "freeze-act", "pilot-bonds", "new-jersey", "mall"]
+}
