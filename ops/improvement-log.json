@@ -1022,7 +1022,12 @@
         "procurementInTopPages": false
       },
       "checkAfter": "2026-11-06",
-      "status": "watching"
+      "status": "no clear effect",
+      "verdict": {
+        "date": "2026-11-06",
+        "value": "signUps7=0 (baseline 3; last28Days.signUps=5), contactSends7=0 (unchanged), procurementInTopPages still false",
+        "note": "Weak proxy stayed flat/noisy -- the signUps7 drop doesn't clear a believable bar against a 28-day count of 5, and procurement.html still doesn't crack latest.json's top-10 topPages, the secondary signal imp-029/042 both proposed. Same inconclusive shape as imp-015/imp-029's earlier verdicts on this same proxy."
+      }
     },
     {
       "id": "imp-043",
@@ -1039,8 +1044,13 @@
       "window": "n/a - awaiting Jeff's review",
       "baseline": {},
       "checkAfter": "2026-11-06",
-      "status": "watching",
-      "note": "NEEDS JEFF: G15 now has 7 concrete decisions on v6/v6.1's credit-role handling. No code changed (Jeff-gated, not cloud-deployable)."
+      "status": "no clear effect",
+      "note": "NEEDS JEFF: G15 now has 7 concrete decisions on v6/v6.1's credit-role handling. No code changed (Jeff-gated, not cloud-deployable).",
+      "verdict": {
+        "date": "2026-11-06",
+        "value": "No Jeff annotation found in ops/calculator-proposals.md since the 2026-10-30 entry; live ANALYSIS_VERSION still \"v4.4\" against v4.3 published everywhere; no results-v4.4/ directory exists",
+        "note": "Same non-decision as imp-011/025/026/028/032/034/040/045. Nothing to revert (no code changed)."
+      }
     },
     {
       "id": "imp-044",
@@ -1296,7 +1306,9 @@
       "track": "conversion",
       "title": "Made the returning-visitor \"new matters since your last visit\" banner visually prominent (backlog item G11/imp-010's own next-step note)",
       "why": "mostBehind (conversion, calculator, traffic, news) ranked conversion first, untouched in the last 2 runs (imp-054 traffic, imp-055 audit). By metric: conversion's only two metrics with an open watcher (newsletterSignups7/signUps7) are blocked by imp-046 until 2026-11-08; calculator's calculatorViews7 is blocked by imp-044 until 2026-11-07 and finalRangeHitRate is Jeff-gated with no new backtest data since imp-045 (checked: all results*/ directory file counts unchanged, no Jeff annotation in ops/calculator-proposals.md since 2026-10-31); traffic's visits7/googleLandings7 are blocked by imp-053 until 2026-11-11 -- so per the one-open-experiment-per-goal rule, the first three goals were blocked. conversion's follows7 and multiPageRate7 have no open watcher, but G17 (follows7: magic-link friction, off-limits js/auth.js) and G19 (multiPageRate7: /contact.html bot contamination) already diagnosed both as unlikely to move from a copy/placement test alone, which is why imp-007/010/013 all closed 'no clear effect.' What changed since then: this morning's imp-055 added `multiPageRate7Adjusted` to goals.json, a reading no longer confounded by the bot contamination (today: 0.023 vs raw 0.0169) -- making imp-010's own 2026-10-21 verdict note newly actionable: 'if it doesn't move multiPageRate7, consider that the banner may need to be more visually prominent ... rather than that the idea itself is wrong.' The banner (js/main.js, shipped imp-010) has used a pale --accent-wash background and 13.5px text since launch, unchanged through that 'no clear effect' verdict.",
-      "files": ["css/styles.css"],
+      "files": [
+        "css/styles.css"
+      ],
       "commit": "ea701e55666e97fff54890422a1957ed07f5a8c2",
       "metric": "ops/metrics/goals.json conversion.metrics.multiPageRate7Adjusted (primary, now readable thanks to imp-055); multiPageRate7/visits7Adjusted as secondary context",
       "window": "7 days",
@@ -1310,6 +1322,28 @@
       "checkAfter": "2026-11-12",
       "status": "watching",
       "note": "Changed css/styles.css's .returning-banner rule only: background var(--accent-wash) -> var(--accent-deep), text var(--text-secondary)/var(--accent-deep) -> #ffffff throughout, font-size 13.5px -> 14.5px, padding 11px -> 13px, link now underlined, plus a box-shadow for lift. No change to js/main.js -- same copy, same markup, same real computed count/date/link, so this isolates visibility as the one variable per imp-010's own note (a copy/incentive change was already tested separately and helped, on a different element: the newsletter CTA, imp-033/046). Verified only one `.returning-banner` rule block exists in css/styles.css (no conflicting override elsewhere) and that the nav-overlap JS fix (js/main.js lines ~299-312, sets the banner's own marginTop from the nav's offsetHeight) depends only on the nav's height, not the banner's, so it's unaffected by the banner's own padding/font-size change. site_audit.py summary unchanged (missingDescription 2/weakDescription 2, both already-explained pre-existing noindex pages) before and after; only css/styles.css staged and committed, ops/metrics/goals.json's own regeneration (from running goal_scoreboard.py/site_audit.py to read current numbers) reverted before committing per the established rule that file belongs to metrics-snapshot.yml. Next time: judge against multiPageRate7Adjusted (baseline 0.023) at checkAfter (2026-11-12, a 7-day window from today, chosen over 14 since this is a same-site CSS change with no Google dependency); also sanity-check botFlaggedDays7 for the window to confirm the adjustment itself held up over these new days before trusting the read. If adjusted multiPageRate7 still doesn't move, the banner's visibility was very likely not the real blocker either, and G17/G19's structural diagnoses (not a third placement/visibility variant) are probably the only levers left on conversion's follows7/multiPageRate7 side specifically."
+    },
+    {
+      "id": "imp-057",
+      "date": "2026-11-06",
+      "track": "subscription",
+      "title": "Documented the Slack webhook address in data-security.html and procurement.html",
+      "why": "Subscription's last tracked change (imp-042) was exactly 7 days old today, triggering the playbook's 7-day force-rule ahead of mostBehind order (conversion, calculator, traffic, news). Rather than re-run the same five-item checklist audit a fourth time, read the two reviewer-facing pages end-to-end against the rest of the codebase and found a real, concrete omission: account.html lets a subscriber paste a Slack incoming-webhook URL (js/alert-slack.js, confirmed against supabase/functions/ingest-court-filings/index.ts) so filing alerts also post to Slack, and that address is stored on the account's own Supabase Auth user_metadata -- but data-security.html's \"What We Collect\" list and procurement.html's security summary, the two pages built specifically so a buyer doesn't have to take our data handling on faith, never mentioned it.",
+      "files": [
+        "data-security.html",
+        "procurement.html",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "70884b6",
+      "metric": "No dedicated subscription metric exists (same gap imp-015/029/042 noted); logged against conversion.metrics.signUps7/contactSends7 as a weak proxy, same as before.",
+      "window": "7 days",
+      "baseline": {
+        "signUps7": 0,
+        "contactSends7": 0
+      },
+      "checkAfter": "2026-11-13",
+      "status": "watching",
+      "note": "Low expectations this moves signUps7/contactSends7 -- this is a trust/completeness fix for a compliance reviewer, not a conversion lever."
     }
   ]
 }
