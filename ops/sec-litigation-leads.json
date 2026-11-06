@@ -1,7 +1,105 @@
 {
- "updatedAt": "2026-11-06T07:54:12+00:00",
+ "updatedAt": "2026-11-06T19:56:34+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001037540-26-000043:bxp-20260930.htm",
+   "company": "BXP, Inc.  (BXP)",
+   "cik": "1037540",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-06",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000043/bxp-20260930.htm",
+   "phrases": [
+    "filed a complaint",
+    "filed suit"
+   ],
+   "excerpts": [
+    "The Company is evaluating the IDO and expects to address its objections to the summary judgment ruling and the IDO in the appellate proceedings. Brammer Bio MA, LLC On April 26, 2024, Brammer Bio MA, LLC (\u201cBrammer\u201d), a subsidiary of Thermo Fisher Scientific Inc. and an abutter to the Company\u2019s 290 Binney Street development project located in Cambridge, Massachusetts, filed a complaint in Superior Court in Suffolk County, Massachusetts against the Company relating to certain ongoing construction activities. In the first quarter of 2023, the Company commenced development of 290 Binney Street, an approximately 573,000 net rentable square foot laboratory/life sciences property that is 100 % pre-leased to AstraZeneca Pharmaceuticals (\u201cAstraZeneca\u201d) (See Note 3).",
+    "In addition, the Company is subject to the following legal proceedings: Property Acquisition in New York City In connection with the acquisition of an office property in New York City in 2010, the Company entered into an agreement with the seller pursuant to which the seller could earn various fees (i.e., Fixed, Additional and Final Fees) based on the future leasing performance of the property. The Company initially accrued approximately $ 1.5 million as an estimate of the fees it would owe the seller. In 2020, the seller filed suit against the Company in the Supreme Court of the State of New York, County of New York, claiming that consideration significantly in excess of the initial reserve amount is owed under the agreement. The disagreement between the Company and the seller involves material issues of contract interpretation and, more importantly, the method of calculating fees, including various inputs (both facts and assumptions) that drive the calculations."
+   ],
+   "captions": [],
+   "courts": [
+    "Superior Court",
+    "Supreme Court of the State of New York"
+   ],
+   "firstSeen": "2026-11-06"
+  },
+  {
+   "key": "0001104659-26-123567:jbgs-20260930x10q.htm",
+   "company": "JBG SMITH Properties  (JBGS)",
+   "cik": "1689796",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-06",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1689796/000110465926123567/jbgs-20260930x10q.htm",
+   "phrases": [
+    "filed a lawsuit"
+   ],
+   "excerpts": [
+    "Nevertheless, there can be no assurance that the identification of new areas of contamination, changes in the extent or known scope of contamination, the discovery of additional sites or changes in cleanup requirements would not result in significant cost to us. Environmental liabilities totaled $ 5.8 million and $ 17.5 million as of September 30, 2026 and December 31, 2025, and were included in \"Other liabilities, net\" in our balance sheets. Legal Proceedings In November 2023, the District of Columbia filed a lawsuit in the Superior Court of the District of Columbia (the \"Court\") against RealPage, Inc., a provider of revenue management systems, numerous multifamily rental companies, and 14 owners and/or operators of multifamily housing in the District of Columbia, including JBG Associates, L.L.C., one of our subsidiaries, alleging that the defendants violated the District of Columbia Antitrust Act by unlawfully agreeing to use RealPage, Inc.",
+    "Construction Commitments As of September 30, 2026, we have construction commitments related to 2200 Crystal Drive, an unconsolidated multifamily asset under construction, that, based on our current plans and estimates, require an additional $17.4 million at our share to complete over the next three years, which the real estate venture expects to finance with debt proceeds. Legal Proceedings In November 2023, the District of Columbia filed a lawsuit in the Superior Court of the District of Columbia (the \"Court\") against RealPage, Inc., a provider of revenue management systems, numerous multifamily rental companies, and 14 owners and/or operators of multifamily housing in the District of Columbia, including JBG Associates, L.L.C., one of our subsidiaries, alleging that the defendants violated the District of Columbia Antitrust Act by unlawfully agreeing to use RealPage, Inc.",
+    "Changes in Internal Control over Financial Reporting There have been no changes in our internal control over financial reporting during the quarter ended September 30, 2026 that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting. \u200b \u200b PART II - OTHER INFORMATION ITEM 1. LEGAL PROCEEDINGS In November 2023, the District of Columbia filed a lawsuit in the Court against RealPage, Inc., a provider of revenue management systems, numerous multifamily rental companies, and 14 owners and/or operators of multifamily housing in the District of Columbia, including JBG Associates, L.L.C., one of our subsidiaries, alleging that the defendants violated the District of Columbia Antitrust Act by unlawfully agreeing to use RealPage, Inc."
+   ],
+   "captions": [],
+   "courts": [
+    "Superior Court of the District of Columbia"
+   ],
+   "firstSeen": "2026-11-06"
+  },
+  {
+   "key": "0001437749-26-035428:ex_1034837.htm",
+   "company": "CNL Strategic Residential Credit, Inc.",
+   "cik": "2066337",
+   "sic": "6798",
+   "form": "8-K",
+   "filed": "2026-11-06",
+   "periodEnding": "2026-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/2066337/000143774926035428/ex_1034837.htm",
+   "phrases": [
+    "appointment of a receiver",
+    "deed in lieu of foreclosure",
+    "foreclosure action"
+   ],
+   "excerpts": [
+    "Each Relevant Party is solvent and will not be rendered insolvent by any Transaction or Unrelated Transaction or Purchase Price Increase and, after giving effect to such Transaction or Unrelated Transaction or Purchase Price Increase, will not be left with an unreasonably small amount of capital with which to engage in its business. No Relevant Party intends to incur, and does not believe that it has incurred, debts beyond its ability to pay such debts as they mature and is not contemplating the commencement of insolvency, bankruptcy, liquidation or consolidation proceedings or the appointment of a receiver, liquidator, conservator, trustee or similar official in respect of such entity or any of its assets. No Relevant Party has entered into any Program Agreement and no Seller Party has entered into any Transaction or Unrelated Transaction pursuant thereto in contemplation of insolvency or with intent to hinder, delay or defraud any creditor.",
+    "The terms of any waiver, alteration, or modification are reflected in the Asset Schedule and have been approved by each insurer as required thereby. There is no default, breach, violation, or event of acceleration existing under the Mortgage Note and the Mortgage (or security agreement in the case of a cooperative Mortgage Loan); the Seller has not waived any default, breach, violation, or event of acceleration; and no foreclosure action is currently being threatened or has begun with respect to the Mortgage Loan. (61) Except with respect to those Mortgage Loans which have been expressly disclosed to Buyer on the Diligence Results Deficiencies (as approved by Buyer Agent), (A) Each related Mortgaged Property is insured by a fire and extended perils insurance policy, and is insured against such other hazards as are customary in the area where the Mortgaged Property is located, in an amount not less than the applicable hazard insurance coverage."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-06"
+  },
+  {
+   "key": "0001563190-26-000181:comp-20260930.htm",
+   "company": "Compass, Inc.  (COMP)",
+   "cik": "1563190",
+   "sic": "6531",
+   "form": "10-Q",
+   "filed": "2026-11-06",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1563190/000156319026000181/comp-20260930.htm",
+   "phrases": [
+    "putative class action"
+   ],
+   "excerpts": [
+    "Under the terms of the nationwide Anywhere Settlement, which was entered into prior to the closing of the Anywhere Merger, Anywhere agreed to injunctive relief (including practice changes) as well as monetary relief of $ 84 million, of which $ 30 million has been paid and the remaining $ 54 million will be due within 21 business days after all appellate rights are exhausted. While the timing of this payment is uncertain, the Company currently expects the payment to occur no earlier than the first quarter of 2027. Four putative class action lawsuits, captioned Gibson, et al. v. National Association of Realtors, et al., No. 4:23-cv-00788-FJG (W.D. Mo.) (\u201cGibson\u201d), filed on October 31, 2023, Grace v. National Association of Realtors, et al., No. 3:23-cv-06352 (N.D. Cal.) (\u201cGrace\u201d), filed on December 8, 2023, Fierro, et al. v. National Association of Realtors, et al., Case No.",
+    "Nev.) (\u201cBoykin\u201d), filed on February 16, 2024, was terminated and consolidated into the Whaley matter on March 20, 2024. The plaintiffs in Gibson allege a nationwide scope, while the Grace and Fierro matters are limited in scope to Northern California and Southern California, respectively and the Whaley matter is limited in scope to Nevada. Two putative class action lawsuits, March v. Real Estate Board of New York, et al., No. 1:23-cv-09995 (S.D.N.Y.) (\u201cMarch\u201d), filed on November 13, 2023, and Friedman v. Real Estate Board of New York, et al., Case No. 1:23-cv-09601 (S.D.N.Y.) (\u201cFriedman\u201d), filed on January 18, 2024, name the Company as a defendant and allege, among other things, that the Real Estate Board of New York, and a number of real estate brokerages engaged in a continuing contract, combination, or conspiracy to unreasonably restrain interstate trade and commerce in violation of Section 1 of the Sherman Act, 15 34 Table of Contents U.S.C.",
+    "In addition, since late October 2023, dozens of copycat additional lawsuits with similar or related claims have been filed against various real estate brokerages, the National Association of Realtors, MLSs, and/or state and local Realtor associations, less than a third of which name the Company, its subsidiaries or franchisees. In those cases, plaintiffs have generally either agreed to dismiss or stay the actions against the Company, its subsidiaries or franchisees pending the conclusion of the appeals of the trial court's grant of final approval of the Compass and Anywhere Settlements, including the putative class action lawsuits of QJ Team, LLC, et al. v. Texas Association of Realtors, Inc., et al., No. 4:23-cv-01013 (E.D. Tx.) (\u201cQJ Team\u201d), filed on November 13, 2023 and Peiffer v. Latter & Blum Holding, LLC, et al., Case No. 2:24-cv-00557 (E.D. La.) (\u201cPeiffer\u201d), filed on March 5, 2024, each of which the Company formerly presented as separately captioned matters in the Commitments and Contingencies footnote."
+   ],
+   "captions": [
+    "December 8, 2023, Fierro, et al. v. National Association of Realtors, et al., Case No. Nev",
+    "Four putative class action lawsuits, captioned Gibson, et al. v. National Association of Realtors, et al., No. 4",
+    "Nevada. Two putative class action lawsuits, March v. Real Estate Board of New York, et al., No",
+    "November 13, 2023 and Peiffer v. Latter & Blum Holding, LLC, et al., Case No",
+    "November 13, 2023, and Friedman v. Real Estate Board of New York, et al., Case",
+    "October 31, 2023, Grace v. National Association of Realtors, et al., No. 3",
+    "QJ Team, LLC, et al. v. Texas Association of Realtors, Inc., et al., No. 4"
+   ],
+   "courts": [],
+   "firstSeen": "2026-11-06"
+  },
   {
    "key": "0001493152-26-050265:form10-q.htm",
    "company": "Strawberry Fields REIT, Inc.  (STRW)",
