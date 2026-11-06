@@ -13029,6 +13029,44 @@ const RELAW_DATA = {
         { when: "May 2, 2025", label: "Trial court enters agreed judgment vesting title in the City of Columbus on a $4,014 payment, over Wiltshire's objection" },
         { when: "November 5, 2026", label: "Tenth District reverses, holding the Rule 41(B)(1) dismissal was not an adjudication on the merits and cannot support res judicata", current: true }
       ]
+    },
+    {
+      id: "live-374",
+      seoTitle: "Ritz-Carlton Bachelor Gulch Loses $122M Tax Appeal in Colo.",
+      seoDescription: "Colorado Court of Appeals affirmed Eagle County's roughly $122M valuation of Ritz-Carlton Bachelor Gulch's fractional timeshare units, rejecting Marriott unit RCDC's appeal.",
+      addedDate: "2026-11-06",
+      title: "Ritz-Carlton Development Co. Loses Appeal Over $122M Eagle County Tax Assessment on Bachelor Gulch Timeshares",
+      brief: "Colorado's Court of Appeals affirmed Eagle County's roughly $122 million valuation of the Ritz-Carlton Bachelor Gulch's 54 fractional-ownership condominium units, rejecting Marriott subsidiary RCDC's bid for a fractional-ownership valuation discount.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-05",
+      jurisdiction: "Colorado Court of Appeals",
+      state: "CO",
+      property: {"name": "The Ritz-Carlton, Bachelor Gulch", "city": "Avon", "state": "CO"},
+      amount: "$122M Eagle County tax assessment affirmed (assessor had raised the figure from $68.6M for the 2023 tax year)",
+      source: "live",
+      sourceUrl: "https://news.bloombergtax.com/daily-tax-report-international/ritz-carlton-timeshares-tax-value-maintained-by-colorado-court",
+      summary: "The Colorado Court of Appeals on November 5, 2026 affirmed Eagle County's roughly $122 million property tax assessment of the 54 fractionally owned condominium units at the Ritz-Carlton, Bachelor Gulch hotel and spa in Avon, Colorado. The unpublished opinion rejected a challenge by Ritz-Carlton Development Co. (RCDC), a Marriott International subsidiary, which had argued the county improperly valued the units as conventional whole-ownership condominiums rather than applying a discount reflecting their division into 648 fractional interests of 21 days' use per year each.",
+      significance: "The ruling tells assessors and owners of fractional-ownership and private-residence-club resort properties that Colorado property tax law does not, on its own, require a valuation discount for the fractional-ownership structure, clearing the way for counties to value such units at or near conventional whole-ownership comparables. That matters well beyond this one Beaver Creek-area hotel: branded fractional and private-residence-club programs are a meaningful share of ultra-luxury mountain and resort real estate, and owners of similar programs should expect assessors to treat this result as support for aggressive revaluation.",
+      body: [
+        "A Marriott International subsidiary has lost its bid to roll back a roughly $122 million property tax assessment on the fractionally owned condominium units at the Ritz-Carlton, Bachelor Gulch, after the Colorado Court of Appeals on November 5, 2026 affirmed Eagle County's valuation of the luxury ski-in, ski-out property. The ruling closes out, for now, a multi-year valuation fight that began when the county roughly doubled its assessment of the resort's 54 condominium units for the 2023 tax year, pushing the figure from about $68.6 million to a sum press accounts have described as between $122 million and $124 million depending on the stage of the dispute being measured.",
+        "The property is divided into 648 fractional ownership interests, each entitling its holder to use a unit for 21 days a year, a common structure for ultra-luxury ski and resort properties that lets a developer sell high-end accommodations to buyers who want a seasonal second home without the cost of owning a whole unit outright. Ritz-Carlton Development Co. (RCDC), the Marriott subsidiary that built and operates the fractional program at Bachelor Gulch, challenged the county's valuation methodology, arguing the assessor had effectively priced the 54 physical units as though they were conventional whole-ownership condominiums without accounting for the fractional structure.",
+        "At oral argument in October 2026, the Court of Appeals panel pressed both sides on whether the units should be valued as ordinary fee-simple condominiums or whether Colorado's assessment framework required a downward adjustment to reflect that each unit is actually owned by multiple fractional interest-holders rather than a single owner. In its unpublished decision, the panel sided with the county, holding that Colorado property tax law does not recognize a distinct valuation methodology for the fractional-ownership model RCDC employs at Bachelor Gulch, and rejecting a two-step valuation analysis RCDC had urged the court to adopt.",
+        "Because the opinion is unpublished, it does not carry binding precedential weight for other fractional-ownership disputes elsewhere in Colorado. But the practical signal for the ski-resort timeshare and private-residence-club sector is clear: assessors are not required, as a matter of law, to discount a property's taxable value simply because it has been carved into fractional interests, and taxpayers hoping to argue otherwise will need a more persuasive doctrinal hook than RCDC offered here. Owners of similar fractional or branded-residence programs in Colorado and other resort jurisdictions should expect assessors to treat this result as support for valuing such properties at or near whole-ownership comparable values, and should budget appraisal and litigation resources accordingly if a reassessment produces a similarly large increase. A valuation fight of this kind, running from the county through the state Board of Assessment Appeals and the Court of Appeals, is a multi-year commitment that owners should factor into refinancing or disposition timelines for comparable assets."
+      ],
+      judge: null,
+      parties: [
+        { name: "Ritz-Carlton Development Co.", role: "Taxpayer" },
+        { name: "Eagle County", role: "Assessor" }
+      ],
+      amountUsd: 122000000,
+      amountBasis: "other",
+      tags: ["property tax", "timeshare", "fractional ownership", "hospitality", "colorado"],
+      timeline: [
+        { when: "2023", label: "Eagle County Assessor raises the valuation of the Bachelor Gulch fractional units from about $68.6M to roughly $124M" },
+        { when: "October 2026", label: "Colorado Court of Appeals hears oral argument on RCDC's valuation appeal" },
+        { when: "November 5, 2026", label: "Court of Appeals affirms the county's roughly $122M assessment in an unpublished opinion", current: true }
+      ]
     }
   ],
 
