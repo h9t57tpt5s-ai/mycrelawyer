@@ -1721,12 +1721,12 @@
       "action": "skipped: no coverage found explaining the Ch. 11 filing; bare docket, no named major sponsor"
     },
     "https://www.courtlistener.com/docket/75073545/millville-47-developers-llc-v-raising-canes-restaurants-llc/": {
-      "at": "2026-11-05",
-      "action": "skipped: no coverage found -- searched the named parties together, found only unrelated Raising Cane's lease disputes elsewhere and routine site-approval coverage of the Millville, NJ location itself, nothing describing this suit"
+      "at": "2026-11-06",
+      "action": "skipped: no coverage found explaining the dispute (searched Millville 47 Developers/Raising Cane's lawsuit; found only unrelated store-opening and other-location litigation news, nothing tying this docket to a specific claim)"
     },
     "https://www.courtlistener.com/docket/75072753/engel-volkers-americas-inc-v-goldcrest-realty-group-llc/": {
-      "at": "2026-11-05",
-      "action": "skipped: no coverage found explaining the dispute between Engel & Volkers Americas and Goldcrest Realty Group"
+      "at": "2026-11-06",
+      "action": "skipped: no coverage found explaining the dispute (searched Engel Volkers Americas v Goldcrest Realty Group; found only unrelated E&V franchise/antitrust litigation, nothing on this specific suit)"
     },
     "0001193125-26-449151:cxw-20260930.htm": {
       "at": "2026-11-05",
@@ -1795,6 +1795,26 @@
     "opinion:11055776": {
       "at": "2026-11-06",
       "action": "matter live-373 (Columbus v. Ohio Wholesale Auto Sales, L.L.C. / Wiltshire Capital Partners)"
+    },
+    "0001493152-26-050265:form10-q.htm": {
+      "at": "2026-11-06",
+      "action": "skipped: legal-proceedings boilerplate describing a March 2020 complaint over a 2018-2019 acquisition, no new development reported, stale"
+    },
+    "0000761648-26-000031:cdr-20260930.htm": {
+      "at": "2026-11-06",
+      "action": "skipped: duplicate of live-239 (Aquino v. Schanzer, already tracked with more advanced settlement details)"
+    },
+    "0001104659-26-123301:agnt-20260930x10q.htm": {
+      "at": "2026-11-06",
+      "action": "skipped: stale disclosure of a Canadian antitrust class action filed January 2024 against CREA, no new development reported"
+    },
+    "0001527541-26-000418:whlr-20260930.htm": {
+      "at": "2026-11-06",
+      "action": "skipped: duplicate of live-239 (Aquino v. Schanzer, already tracked with more advanced settlement details)"
+    },
+    "https://www.courtlistener.com/docket/75075163/millville-47-developers-llc-v-raising-canes-restaurants-llc/": {
+      "at": "2026-11-06",
+      "action": "skipped: duplicate docket of the same dispute, no coverage found"
     }
   }
 }
