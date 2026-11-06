@@ -1,0 +1,16 @@
+{
+  "id": "live-373",
+  "title": "Columbus v. Ohio Wholesale Auto Sales, L.L.C. (Dismissed Foreclosure Does Not Extinguish Mortgage, Ohio Appeals Court Holds)",
+  "category": "eminent-domain",
+  "status": "ruling",
+  "date": "2026-11-05",
+  "jurisdiction": "Ohio Court of Appeals, Tenth Appellate District (Franklin County)",
+  "state": "OH",
+  "amount": "$4,014 condemnation payment at issue; mortgage interest's share yet to be determined on remand",
+  "source": "live",
+  "source_url": "https://www.courtlistener.com/opinion/11055776/columbus-v-ohio-wholesale-auto-sales-llc/",
+  "summary": "The Tenth District Court of Appeals of Ohio reversed a Franklin County trial court that had barred mortgagee Wiltshire Capital Partners, LP from asserting any claim to proceeds in the City of Columbus's eminent domain case against Ohio Wholesale Auto Sales, LLC. The trial court had held that a 2018 dismissal of Wiltshire's separate foreclosure action on the same mortgage, entered for failure to prosecute, operated as res judicata and left Wiltshire with no interest to assert. The appellate court held a dismissal for failure to prosecute is not an adjudication on the merits and cannot support res judicata, and remanded the case for further proceedings.",
+  "significance": "Commercial mortgages often go through multiple, sometimes abandoned, rounds of enforcement litigation over a loan's life, for reasons unrelated to the lien's validity. The ruling confirms that a procedurally dismissed foreclosure case does not, by itself, extinguish a lender's mortgage interest for purposes of a later eminent domain or other proceeds-distribution dispute -- a question condemning authorities, title examiners, and competing claimants must expect courts to actually decide on the merits rather than assume away.",
+  "judge": null,
+  "tags": ["eminent-domain", "mortgage", "res-judicata", "ohio", "condemnation"]
+}

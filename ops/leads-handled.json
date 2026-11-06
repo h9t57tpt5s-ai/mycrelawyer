@@ -1747,6 +1747,54 @@
     "https://www.courtlistener.com/docket/75076393/mian-rental-properties-vii-llc-v-great-american-es-insurance-company-txnd-4-26-cv-01417/": {
       "at": "2026-11-05",
       "action": "skipped: no coverage found explaining the filing (small LLC property-insurance coverage dispute, no named major player)"
+    },
+    "petition:https://www.courtlistener.com/docket/75080719/7906-10-andrus-road-llc/": {
+      "at": "2026-11-06",
+      "action": "skipped: no coverage found explaining the filing; bare docket, no named major sponsor (searched 'Andrus Road' bankruptcy/property/lawsuit, no matching Virginia address or entity found in press)"
+    },
+    "petition:https://www.courtlistener.com/docket/75078393/1-calle-ziella-llc/": {
+      "at": "2026-11-06",
+      "action": "skipped: no coverage found explaining the filing; bare docket, no named major sponsor (searched 'Calle Ziella' property/bankruptcy, no matching California address or entity found in press)"
+    },
+    "https://www.courtlistener.com/docket/75079328/watercress-hotel-associates-llc-v-uponor-inc/": {
+      "at": "2026-11-06",
+      "action": "skipped: no coverage found explaining the dispute; Watercress Hotel Associates LLC (Huntsville, AL Holiday Inn Express owner) vs. plumbing manufacturer Uponor, likely part of the broader Uponor PEX-pipe defect litigation wave but no article ties this specific suit to that pattern or gives facts"
+    },
+    "https://www.courtlistener.com/docket/75076393/mian-rental-properties-vii-llc-v-great-american-es-insurance-company/": {
+      "at": "2026-11-06",
+      "action": "skipped: no coverage found explaining the filing; small LLC property-insurance coverage dispute, no named major player"
+    },
+    "https://www.courtlistener.com/docket/75079246/house-plan-zone-llc-v-kobeck-properties-llc/": {
+      "at": "2026-11-06",
+      "action": "skipped: no coverage found explaining the dispute; likely a house-plan licensing/copyright dispute between a stock house-plan seller and a homebuilder based on the parties' business types, but unconfirmed and not commercial real estate on its face"
+    },
+    "https://www.courtlistener.com/docket/75080489/state-farm-fire-and-casualty-company-v-762-properties-llc/": {
+      "at": "2026-11-06",
+      "action": "skipped: no coverage found explaining the filing; small LLC property-insurance coverage dispute, no named major player"
+    },
+    "opinion:11055956": {
+      "at": "2026-11-06",
+      "action": "skipped: California AG Opinion 25-1102 addresses the Housing Crisis Act of 2019's referendum/moratorium rules for residential development capacity -- residential housing policy, not a commercial real estate matter"
+    },
+    "opinion:11055822": {
+      "at": "2026-11-06",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [foreclos, mortgage], individual defendant (Leis), Deutsche Bank Trust Co. Ams. as foreclosing plaintiff"
+    },
+    "opinion:11055778": {
+      "at": "2026-11-06",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [foreclos, mortgage], individual plaintiff (Smith, D.) against mortgage servicer Carrington"
+    },
+    "opinion:11055713": {
+      "at": "2026-11-06",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms [deed of trust, foreclos, mortgage] (all generic mortgage-document terms, no CRE-specific term), individual defendant (Jensen)"
+    },
+    "opinion:11055111": {
+      "at": "2026-11-06",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [foreclos, mortgage], individual plaintiff (Tacoya McIntosh) against U.S. Bank"
+    },
+    "opinion:11055776": {
+      "at": "2026-11-06",
+      "action": "matter live-373 (Columbus v. Ohio Wholesale Auto Sales, L.L.C. / Wiltshire Capital Partners)"
     }
   }
 }

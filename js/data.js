@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-05",
+  lastUpdatedDate: "2026-11-06",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -12984,6 +12984,50 @@ const RELAW_DATA = {
         { when: "2023", label: "Chen Ji allegedly signs an unauthorized settlement agreement stripping JZ Investments of its stake in CMC Storrs SPV" },
         { when: "April 24, 2026", label: "JZ Investments sues Chen Ji and Belpointe-affiliated entities in Connecticut Superior Court", current: true },
         { when: "November 4, 2026", label: "Belpointe discloses the case remains pending with a motion to dismiss awaiting a hearing date" }
+      ]
+    },
+    {
+      id: "live-373",
+      seoTitle: "Dismissed Foreclosure Didn't Kill Lender's Mortgage, Ohio Rules",
+      seoDescription: "Ohio's Tenth District revived Wiltshire Capital Partners' mortgage claim in Columbus's eminent domain case, ruling a Rule 41(B)(1) dismissal isn't res judicata.",
+      addedDate: "2026-11-06",
+      title: "Columbus v. Ohio Wholesale Auto Sales, L.L.C. (Dismissed Foreclosure Does Not Extinguish Mortgage, Ohio Appeals Court Holds)",
+      brief: "Ohio's Tenth District ruled a trial court wrongly held mortgagee Wiltshire Capital Partners' dismissed foreclosure case barred it, under res judicata, from any share of the City of Columbus's eminent domain payment on the same property.",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-11-05",
+      jurisdiction: "Ohio Court of Appeals, Tenth Appellate District (Franklin County)",
+      state: "OH",
+      amount: "$4,014 condemnation payment at issue; mortgage interest's share yet to be determined on remand",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11055776/columbus-v-ohio-wholesale-auto-sales-llc/",
+      docketUrl: "https://www.courtlistener.com/opinion/11055776/columbus-v-ohio-wholesale-auto-sales-llc/",
+      docketLabel: "CourtListener opinion",
+      summary: "The Tenth District Court of Appeals of Ohio reversed a Franklin County trial court that had barred mortgagee Wiltshire Capital Partners, LP from asserting any claim to proceeds in the City of Columbus's eminent domain case against Ohio Wholesale Auto Sales, LLC. The trial court had held that a 2018 dismissal of Wiltshire's separate foreclosure action on the same mortgage, entered for failure to prosecute, operated as res judicata and left Wiltshire with no interest to assert. The appellate court held a dismissal for failure to prosecute is not an adjudication on the merits and cannot support res judicata, and remanded the case for further proceedings.",
+      significance: "Commercial mortgages often go through multiple, sometimes abandoned, rounds of enforcement litigation over a loan's life, for reasons unrelated to the lien's validity. The ruling confirms that a procedurally dismissed foreclosure case does not, by itself, extinguish a lender's mortgage interest for purposes of a later eminent domain or other proceeds-distribution dispute -- a question condemning authorities, title examiners, and competing claimants must expect courts to actually decide on the merits rather than assume away.",
+      body: [
+        "A commercial mortgage lender whose foreclosure suit was dismissed for failure to prosecute has not thereby lost its mortgage, the Tenth District Court of Appeals of Ohio held on November 5, 2026, reversing a Franklin County trial court that had barred the lender from any share of an eminent domain payment on the same property. The decision in Columbus v. Ohio Wholesale Auto Sales, L.L.C. is a reminder to commercial real estate lenders and municipal condemnation practitioners alike that a procedural dismissal is not the same thing as losing on the merits, and that the distinction can determine who gets paid when the government takes a mortgaged property.",
+        "The case began in August 2021, when the City of Columbus filed a petition to appropriate, by eminent domain, a small fee interest and construction easements across a used-car lot owned by Ohio Wholesale Auto Sales, LLC, as part of the Hudson Street Sidewalks Project. Eminent domain law requires a condemning authority to join everyone with a recorded interest in the property, so Columbus named not only the fee owner but every lienholder of record, including mortgagee Wiltshire Capital Partners, LP. By 2022, after various dismissals and default judgments against the other named parties, only three respondents remained: Wiltshire, Ohio Wholesale Auto Sales, and the Franklin County Treasurer.",
+        "The twist was that Wiltshire's mortgage interest had already been the subject of litigation. In August 2017, Wiltshire had filed a separate foreclosure action on the same mortgage, but that case was dismissed in 2018 under Ohio Civil Rule 41(B)(1) for failure to prosecute. When the condemnation case reached the question of how to divide the appropriation proceeds, the trial court seized on that dismissal: because Wiltshire's foreclosure claim had been dismissed under Rule 41(B)(1), the court reasoned, res judicata barred Wiltshire from asserting any mortgage interest in the condemnation case at all, and Wiltshire therefore lacked standing to participate. On that basis, the court approved a settlement between the city and Ohio Wholesale Auto Sales, vesting title in Columbus upon a payment of just $4,014, over Wiltshire's objection, and barred Wiltshire from presenting any claim to a share of that payment.",
+        "Wiltshire's first trip to the Tenth District, in 2024, ended without a merits ruling: the appellate court held the trial court's order was not yet final and appealable, though it noted that treating the issue as one of standing was analytically off, since Columbus itself had named Wiltshire as a respondent in the appropriation action. That observation proved decisive once the case came back up on its second appeal. The panel held that a dismissal for failure to prosecute under Civil Rule 41(B)(1) is not an adjudication on the merits of the underlying claim, and therefore cannot support res judicata preclusion of a later, different claim to the same mortgage interest. Because the foreclosure dismissal never decided whether Wiltshire's mortgage was valid, the condemnation court was wrong to treat that dismissal as conclusively extinguishing the mortgage, and wrong, in turn, to treat Wiltshire as lacking any claim to participate in dividing the appropriation award. The court reversed and remanded for further proceedings.",
+        "The dollar amount at stake in this particular case is modest, just over four thousand dollars, but the legal principle reaches well beyond it. Commercial mortgages are frequently subject to multiple rounds of enforcement litigation over the life of a troubled loan, and a lender may file, pause, refile, or lose track of service in a foreclosure action for reasons that have nothing to do with the strength of its lien. The Tenth District's ruling means a court cannot treat a dismissed foreclosure, on its own, as conclusive proof a mortgage no longer exists in later litigation over the same property, whether that later dispute is a condemnation proceeding, a second foreclosure, or a bankruptcy claims fight. For lenders named as condemnation respondents, the case is a useful citation that a tangled prior-litigation history does not forfeit a right to share in an appropriation award without a court actually deciding the merits of that interest; for municipalities and other condemning authorities, it is a reminder to budget litigation time for exactly that fight whenever a title search turns up a dismissed-but-unresolved lien."
+      ],
+      judge: null,
+      parties: [
+        { name: "City of Columbus", role: "Petitioner-Appellee" },
+        { name: "Ohio Wholesale Auto Sales, LLC", role: "Respondent-Appellee" },
+        { name: "Wiltshire Capital Partners, LP", role: "Respondent-Appellant" }
+      ],
+      amountUsd: 4014,
+      amountBasis: "award",
+      tags: ["eminent-domain", "mortgage", "res-judicata", "ohio", "condemnation"],
+      timeline: [
+        { when: "August 2017", label: "Wiltshire Capital Partners files a mortgage foreclosure action on the same property" },
+        { when: "2018", label: "Foreclosure action dismissed under Civ.R. 41(B)(1) for failure to prosecute" },
+        { when: "August 2021", label: "City of Columbus files an eminent domain petition to appropriate part of the property for the Hudson Street Sidewalks Project" },
+        { when: "July 24, 2023", label: "Trial court holds res judicata bars Wiltshire's mortgage claim and that Wiltshire lacks standing" },
+        { when: "May 2, 2025", label: "Trial court enters agreed judgment vesting title in the City of Columbus on a $4,014 payment, over Wiltshire's objection" },
+        { when: "November 5, 2026", label: "Tenth District reverses, holding the Rule 41(B)(1) dismissal was not an adjudication on the merits and cannot support res judicata", current: true }
       ]
     }
   ],
