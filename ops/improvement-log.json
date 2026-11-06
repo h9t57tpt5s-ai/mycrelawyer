@@ -1344,6 +1344,24 @@
       "checkAfter": "2026-11-13",
       "status": "watching",
       "note": "Low expectations this moves signUps7/contactSends7 -- this is a trust/completeness fix for a compliance reviewer, not a conversion lever."
+    },
+    {
+      "id": "imp-058",
+      "date": "2026-11-06",
+      "track": "traffic",
+      "title": "Refreshed ops/social-drafts/ with 5 new LinkedIn post drafts (backlog G5)",
+      "why": "Nothing new to judge this run -- confirmed against the log that the earliest open checkAfter among all watching entries is imp-044/imp-045's 2026-11-07 (imp-057, logged by this morning's run, is checkAfter 2026-11-13). Every goal's numeric lever was blocked, Jeff-gated or already exhausted: traffic (imp-053 open on visits7/googleLandings7 until 2026-11-11), conversion (imp-046 open on newsletterSignups7/signUps7 until 2026-11-08, imp-056 open on multiPageRate7Adjusted until 2026-11-12; follows7 has no open entry but G17 already diagnosed its real blocker as off-limits code, not copy/placement), calculator (imp-044 open on calculatorViews7 until 2026-11-07; finalRangeHitRate is Jeff-gated regardless, and re-confirmed every results*/ backtest directory unchanged in size since imp-045's 2026-10-31 scan, with no Jeff annotation in ops/calculator-proposals.md since then), news (on track; imp-052 open on sourcedMatters7/freshSourcedMatters7/medianDaysEventToAdded until 2026-11-10; leadsToMattersTotal/leadsReviewedTotal has no open entry, so tallied the last 4 days of ops/leads-handled.json -- 112 leads, 104 skips -- and found nothing beyond already-addressed patterns (bare-docket no-coverage, the residential-foreclosure fingerprint, the generic-financing-term shape), so no new digest guidance to add there either), subscription (imp-057, touched this morning, not due for its 7-day force-rule again). This is the same full gridlock G20 already named (now a sixth-plus occurrence). Per the backlog's own fallback rule, worked backlog item G5 instead: js/data.js's newest matter is live-373, 6 new matters (live-368 through live-373) since imp-054's 2026-11-04 refresh -- comfortably over the single-matter-batch threshold imp-029/imp-048 established for skipping a refresh.",
+      "files": [
+        "ops/social-drafts/2026-11-06.md",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "118017f",
+      "metric": "none -- these are drafts for Jeff to review and post himself; no goal metric watches this file",
+      "window": "n/a",
+      "baseline": null,
+      "checkAfter": null,
+      "status": "no-op",
+      "note": "Drafted 5 of the 6 new matters (live-368, 369, 370, 371, 373): a Botetourt County, VA landowner's FOIA suit to void a closed-session Google data-center deal; a Maricopa County ruling forcing Phoenix to defend its data-center zoning ordinance against a $54M Proposition 207 takings claim; American Dream Mall beating back its own bondholder trustee to keep an $850M Freeze Act tax cut; a CMBS trustee's foreclosure on Clipper Realty's Brooklyn office tower after NYC vacated its full 342,496 sq ft lease; and an Ohio appellate ruling that a foreclosure dismissed for failure to prosecute doesn't extinguish the mortgage. Skipped live-372 (JZ Investments, Inc. v. Chen Ji et al.) because its caption names an individual defendant from court records, per CLAUDE.md. Confirmed all 5 cited matter pages exist, and every fact copied verbatim from its published write-up in js/data.js, before publishing the draft. Also re-verified before picking this: site_audit.py clean (pagesChecked 825; missingDescription 2 / weakDescription 2 unchanged, both already-explained; longTitle 6, a pre-existing SEO-length flag on 6 pages, not a new regression -- not fixed this run since it would move the exact googleLandings7 metric imp-053 is already watching until 2026-11-11, and reverted this run's own regeneration of ops/metrics/audit.json and ops/metrics/goals.json before committing (not this routine's files to commit). check_case_fields.py clean (317 matters; OK). git log HEAD..origin/main empty before and after."
     }
   ]
 }
