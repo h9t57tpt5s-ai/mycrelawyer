@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-11-06T02:47:48+00:00",
+ "updatedAt": "2026-11-06T18:24:06+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Ghost Hotels LLC v. Zurich American Insurance Company",
+   "court": "District Court, D. Colorado",
+   "courtId": "cod",
+   "docketNumber": "1:26-cv-05898",
+   "dateFiled": "2026-11-06",
+   "docketUrl": "https://www.courtlistener.com/docket/75083440/ghost-hotels-llc-v-zurich-american-insurance-company/",
+   "docketId": 75083440,
+   "suitNature": "",
+   "cause": "",
+   "slug": "ghost-hotels-llc-v-zurich-american-insurance-company-cod-1-26-cv-05898",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Watercress Hotel Associates LLC v. Uponor Inc",
    "court": "District Court, N.D. Alabama",
@@ -154,7 +167,7 @@
    "docketUrl": "https://www.courtlistener.com/docket/75067184/rdm-distress-assets-holdings-llc-v-baron-property-group-llc/",
    "docketId": 75067184,
    "suitNature": "",
-   "cause": "",
+   "cause": "M 18-302 Registration of Foreign Judgment",
    "slug": "rdm-distress-assets-holdings-llc-v-baron-property-group-llc-nysd-1-26-mc-00542",
    "type": "Federal civil case"
   },
