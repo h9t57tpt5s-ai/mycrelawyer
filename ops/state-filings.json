@@ -1,7 +1,27 @@
 {
- "updatedAt": "2026-11-06T10:25:36+00:00",
+ "updatedAt": "2026-11-06T10:52:27+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "maryland",
+   "state": "MD",
+   "county": "Baltimore",
+   "court": "District Court of Maryland for Baltimore County",
+   "caseNumber": "D-08-CV-26-041360",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-04",
+   "caseName": "10451 Mill Run LLC v. DK Law Group et al.",
+   "plaintiffs": [
+    "10451 Mill Run LLC"
+   ],
+   "defendants": [
+    "DK Law Group",
+    "LLC"
+   ],
+   "sourceName": "Maryland Judiciary, Cases Filed Report, 2026-11-04",
+   "sourceUrl": "https://www.mdcourts.gov/mdec/publiccases",
+   "slug": "10451-mill-run-llc-v-dk-law-group-et-al-md-d-08-cv-26-041360"
+  },
   {
    "source": "hillsborough_fl",
    "state": "FL",

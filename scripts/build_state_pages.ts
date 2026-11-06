@@ -45,6 +45,8 @@ function partyKey(name: string): string {
   return s.replace(/^the\s+/, "");
 }
 const tooCommon = /\b(bank|trust company|trustee|national association|united states|city of|county|state of|department|wells fargo|federal national mortgage|fannie mae|freddie mac|insurance)\b/i;
+// "Baltimore City" is a county-level jurisdiction, not "Baltimore City County".
+const place = (r: { county: string }) => /\bCity$/.test(r.county) ? r.county : `${r.county} County`;
 const keysOf = (r: Rec) => [...r.plaintiffs, ...r.defendants].filter((n) => !tooCommon.test(n)).map(partyKey).filter((k) => k.length >= 4);
 const sides = (name: string) => name.split(/\s+v(?:s)?\.?\s+/i).map((x) => x.replace(/,?\s+et\.?\s*al\.?,?$/i, "").trim());
 
@@ -65,7 +67,7 @@ const pagePath = (r: Rec) => `/${DIR}/${r.slug}.html`;
 const pageUrl = (r: Rec) => SITE + pagePath(r);
 
 function headFor(r: Rec): string {
-  const title = `${r.caseName} — ${r.county} County, ${r.state} ${r.caseType.toLowerCase()} — CREdocket`;
+  const title = `${r.caseName} — ${place(r)}, ${r.state} ${r.caseType.toLowerCase()} — CREdocket`;
   const desc = `${r.caseName}: a ${r.caseType.toLowerCase()} case filed in the ${r.court} on ${fmtDate(r.dateFiled)} (case no. ${r.caseNumber}). Parties, court record and related filings.`;
   const ld = {
     "@context": "https://schema.org",
@@ -104,7 +106,7 @@ function mainFor(r: Rec): string {
   const matters = cases.filter((c) => (c.parties || []).some((p) => keys.has(partyKey(p.name))));
   const sameCourt = data.filter((x) => x !== r && x.court === r.court && !otherState.includes(x)).sort(byDate).slice(0, 6);
   const related = [
-    ...otherState.map((x) => li(pagePath(x), x.caseName, x.dateFiled, `${x.county} County, ${x.state}`)),
+    ...otherState.map((x) => li(pagePath(x), x.caseName, x.dateFiled, `${place(x)}, ${x.state}`)),
     ...fedHits.map((x) => li(`/federal-cases/${x.slug}.html`, x.caseName, x.dateFiled, "federal court")),
     ...ch11Hits.map((x) => li(`/chapter-11/${x.slug}.html`, x.caseName, x.dateFiled, "Chapter 11")),
   ].slice(0, 10);
@@ -118,7 +120,7 @@ function mainFor(r: Rec): string {
 
 <header class="page-header matter-header">
   <div class="container" style="max-width:860px;">
-    <nav class="matter-crumbs" aria-label="Breadcrumb"><a href="/${LIST}">State Court Watch</a><span aria-hidden="true">/</span><span>${esc(r.county)} County, ${esc(r.state)}</span></nav>
+    <nav class="matter-crumbs" aria-label="Breadcrumb"><a href="/${LIST}">State Court Watch</a><span aria-hidden="true">/</span><span>${esc(place(r))}, ${esc(r.state)}</span></nav>
     <h1 style="font-size:clamp(1.8rem,3.4vw,2.6rem);">${esc(r.caseName)}</h1>
     <div class="matter-badges">
       <span class="badge"><span class="badge-dot" style="background:var(--accent)"></span>${esc(r.caseType)}</span>
@@ -161,7 +163,7 @@ function mainFor(r: Rec): string {
     ${related.length ? `<h2 class="matter-h2" style="margin-top:40px;">Other filings naming these parties</h2>
     <ul class="matter-related">${related.join("")}
     </ul>` : ""}
-    ${sameCourt.length ? `<h2 class="matter-h2" style="margin-top:32px;">Other recent filings in ${esc(r.county)} County</h2>
+    ${sameCourt.length ? `<h2 class="matter-h2" style="margin-top:32px;">Other recent filings in ${esc(place(r))}</h2>
     <ul class="matter-related">${sameCourt.map((x) => li(pagePath(x), x.caseName, x.dateFiled, x.caseType)).join("")}
     </ul>` : ""}
     <p class="text-muted matter-foot">From the court's own case index (${esc(r.sourceName)}). CREdocket lists business and government parties only and adds nothing about the parties beyond the record. Not legal advice. Something wrong here? <a href="/contact.html?matter=${encodeURIComponent(r.caseName + " (" + r.caseNumber + ")")}">Tell us</a> and we will correct it.</p>

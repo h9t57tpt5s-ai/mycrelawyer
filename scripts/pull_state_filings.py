@@ -27,6 +27,11 @@ Sources (each a function returning rows; add more as they are verified):
                    Commercial case types only (HILLSBOROUGH_CASE_TYPES).
   harris_jp_tx     Harris County, TX justice courts Public Data Extract:
                    evictions where both landlord and tenant are businesses.
+  maryland         Maryland Judiciary "Cases Filed Report": one public PDF a
+                   day listing every new case in all circuit and District
+                   Courts (mdcourts.gov/mdec/publiccases; files kept about 5
+                   days, robots.txt allows /data/). Allowlisted case types
+                   only (MD_TYPES); its addresses are never read.
 
   python3 scripts/pull_state_filings.py            # last 21 days, merge
   python3 scripts/pull_state_filings.py --days 120 # backfill
@@ -276,7 +281,91 @@ def collapse(rows):
     return out
 
 
-SOURCES = {"fulton_ga": pull_fulton, "hillsborough_fl": pull_hillsborough, "harris_jp_tx": pull_harris_jp}
+# ---- Maryland, statewide -----------------------------------------------------
+# The daily report is named for its run date and covers the day before.
+MD_DIR = "https://www.mdcourts.gov/data/case/"
+MD_TYPES = {
+    "Mechanics Liens": "Mechanic's lien",
+    "Breach of Lease": "Commercial lease dispute",
+    "Tenant Holding Over": "Commercial eviction",
+    "Receivership": "Receivership",
+    "Foreclosure": "Commercial foreclosure",  # "Foreclosure - Residential" is a different type
+    "Condemnation": "Condemnation",
+}
+# District Court location headings -> county; circuit headings are "<County> Circuit Court".
+MD_LOCATIONS = {"Annapolis": "Anne Arundel", "Glen Burnie": "Anne Arundel", "Catonsville": "Baltimore",
+                "Essex": "Baltimore", "Towson": "Baltimore", "Civil": "Baltimore City", "Eastside": "Baltimore City",
+                "Hargrove": "Baltimore City", "Wabash": "Baltimore City", "Hyattsville": "Prince George's",
+                "Upper Marlboro": "Prince George's", "Rockville": "Montgomery", "Silver Spring": "Montgomery",
+                "Ocean City": "Worcester", "Snow Hill": "Worcester"}
+MD_SPELLING = {"Prince Georges": "Prince George's", "Queen Annes": "Queen Anne's", "Saint Marys": "St. Mary's"}
+MD_CASE_NO = re.compile(r"^(?:[CD]-[0-9A-Z]+-[A-Z]{2}-\d{2}-\d+|[0-9A-Z]{7})$")
+MD_DATE = re.compile(r"^\d{2}/\d{2}/\d{4}$")
+MD_VS = re.compile(r"\s*\.vs\s*|\s+vs\.?\s+|\s+v\.\s+", re.I)
+
+
+def parse_md_report(text):
+    """(court location, case number, style, case type, file date) for each civil case."""
+    lines = [ln.strip() for ln in text.split("\n")]
+    court = ""
+    for i, ln in enumerate(lines):
+        if ln == "Case Number" and i:
+            court = lines[i - 1]  # the location heading that opens each page
+        if not MD_DATE.match(ln) or i < 2:
+            continue
+        j = i - 1
+        while j > i - 7 and not MD_CASE_NO.match(lines[j]):
+            j -= 1
+        if MD_CASE_NO.match(lines[j]) and "-CV-" in lines[j]:
+            yield court, lines[j], " ".join(lines[j + 1:i - 1]), lines[i - 1], ln
+
+
+def pull_maryland(date_from):
+    from pypdf import PdfReader  # only this source needs it
+    listing = http_get(MD_DIR)
+    files = sorted(f for f in set(re.findall(r"file(\d{4}-\d{2}-\d{2})\.pdf", listing)) if f > date_from)
+    out = []
+    for day in files:
+        time.sleep(2)
+        url = f"{MD_DIR}file{day}.pdf"
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=180) as r:
+            text = "\n".join(page.extract_text() or "" for page in PdfReader(io.BytesIO(r.read())).pages)
+        for court, number, style, ctype, filed in parse_md_report(text):
+            if ctype not in MD_TYPES:
+                continue
+            style = re.sub(r"(?<=[A-Za-z.])et al\.?$", " et al.", style)
+            sides = MD_VS.split(style, 1)
+            if len(sides) != 2:
+                continue
+            pl, df = split_parties(sides[0]), split_parties(sides[1])
+            if ctype == "Receivership" and any(GOVERNMENT_NAME.search(p) for p in pl):
+                continue  # city vacant-building receiverships are code enforcement, not CRE
+            kept = classify(pl, df)
+            if not kept:
+                continue
+            pl, df = kept
+            date = us_date(filed)
+            circuit = court.endswith(" Circuit Court")
+            county = court[:-len(" Circuit Court")] if circuit else MD_LOCATIONS.get(court, court)
+            county = MD_SPELLING.get(county, county).removesuffix(" County")  # "Baltimore County Circuit Court"
+            if not county or "Appellate" in county:
+                continue
+            where = county if county.endswith("City") else f"{county} County"
+            name = f"{pl[0]} v. {df[0]}" + (" et al." if len(df) > 1 else "")
+            out.append({
+                "source": "maryland", "state": "MD", "county": county,
+                "court": f"Circuit Court for {where}, Maryland" if circuit else f"District Court of Maryland for {where}",
+                "caseNumber": number, "caseType": MD_TYPES[ctype], "dateFiled": date,
+                "caseName": name, "plaintiffs": pl, "defendants": df,
+                "sourceName": f"Maryland Judiciary, Cases Filed Report, {date}",
+                "sourceUrl": "https://www.mdcourts.gov/mdec/publiccases",
+                "slug": f"{slugify(name)[:70].strip('-')}-md-{slugify(number)}",
+            })
+    return out
+
+
+SOURCES = {"fulton_ga": pull_fulton, "hillsborough_fl": pull_hillsborough, "harris_jp_tx": pull_harris_jp, "maryland": pull_maryland}
 
 
 SOURCE_LIMIT = 900  # seconds per source
