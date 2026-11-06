@@ -236,7 +236,7 @@ def pull_property_suits(cl, date_from, date_to, max_pages=MAX_SUIT_PAGES):
     words = ("realty OR properties OR \"real estate\" OR reit OR apartments OR hotel OR hotels OR motel "
              "OR plaza OR tower OR towers OR developers OR lodging OR mall OR \"shopping center\" "
              "OR \"office park\" OR \"business park\" OR \"industrial park\" OR \"self storage\" OR \"executive center\"")
-    query = (f"(caseName:({words}) OR suitNature:\"Real Property\" OR suitNature:\"Rent Lease\") "
+    query = (f"(caseName:({words}) OR suitNature:\"Real Property\" OR suitNature:\"Rent Lease\" OR suitNature:\"Torts to Land\") "
              f"AND dateFiled:[{date_from} TO {date_to}] AND NOT chapter:*")
     rows, seen, page = [], 0, cl.search(query)
     for _ in range(max_pages):
@@ -366,7 +366,12 @@ GOVERNMENT_NAME = re.compile(
     r"^(the )?(united states|usa\b|state of|commonwealth of|city of|county of|town of|township of|village of|borough of|"
     r"people of)|\b(county|department|authority|commission|board|district|agency|administration|"
     r"federal deposit insurance|fdic|fannie mae|freddie mac|small business administration)\b", re.I)
-REAL_PROPERTY_NOS = re.compile(r"\b(220|230)\b|foreclosure|rent,? lease", re.I)
+# 2026-11-05 (Jeff approved widening federal coverage): torts to land (240)
+# and all other real property (290) join foreclosure (220) and rent, lease
+# and ejectment (230). Land condemnation (210) is left out: those captions
+# name parcels ("2.5 Acres of Land"), not businesses, and fail is_org anyway.
+REAL_PROPERTY_NOS = re.compile(r"\b(220|230|240|290)\b|foreclosure|rent,? lease|torts to land|real property: other|"
+                               r"other real property", re.I)
 # Nature-of-suit categories that are never a real estate dispute, whatever the names.
 NOT_CRE_NOS = re.compile(r"patent|trademark|copyright|labor|erisa|employ|civil rights|prisoner|habeas|social security|"
                          r"immigration|tax suits|forfeiture|drug|antitrust|securities|commodities|p\.i\.|personal inj|"
