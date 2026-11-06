@@ -76,6 +76,12 @@ def main():
         if (ROOT / "state-cases" / f"{r['slug']}.html").exists():
             urls.append((f"state-cases/{r['slug']}.html", r["dateFiled"], "0.5"))
 
+    # CMBS Distress Watch pages (build_cmbs_pages.ts), 2026-11-06.
+    cmbs_file = ROOT / "ops" / "cmbs-distress.json"
+    for r in (json.loads(cmbs_file.read_text()).get("events", []) if cmbs_file.exists() else []):
+        if (ROOT / "cmbs" / f"{r['slug']}.html").exists():
+            urls.append((f"cmbs/{r['slug']}.html", r["filed"], "0.5"))
+
     # Company, agency and property landing pages (build_entity_pages.ts):
     # lastmod is the file's last commit, which changes only when its matters do.
     for folder in ("parties", "properties"):

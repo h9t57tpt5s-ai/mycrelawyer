@@ -55,12 +55,18 @@ jobs:
         run: |
           pip install --quiet pypdf==6.16.1  # reads Maryland's daily Cases Filed Report
           python3 scripts/pull_state_filings.py --days 21
+      - name: Pull newly distressed CMBS properties (CMBS Distress Watch)
+        # Each CMBS trust's monthly SEC loan tape (Form ABS-EE, Exhibit 102)
+        # compared with its previous one (scripts/pull_cmbs_distress.py).
+        continue-on-error: true
+        timeout-minutes: 40
+        run: python3 scripts/pull_cmbs_distress.py --days 10
       - name: Commit the alert log
         # Runs even when the ingest step failed: a failed run belongs in
         # the public log too.
         if: always()
         run: |
-          git add alert-log.html ops/alert-runs.json ops/alert-audit.json ops/fresh-filings.json ops/ch11-petitions.json ops/federal-suits.json ops/state-filings.json 2>/dev/null || true
+          git add alert-log.html ops/alert-runs.json ops/alert-audit.json ops/fresh-filings.json ops/ch11-petitions.json ops/federal-suits.json ops/state-filings.json ops/cmbs-distress.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "Nothing to record."; exit 0; fi
           git config user.name "credocket-surveillance-bot"
           git config user.email "actions@users.noreply.github.com"
