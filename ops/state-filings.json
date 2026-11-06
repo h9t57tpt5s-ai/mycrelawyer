@@ -1,7 +1,26 @@
 {
- "updatedAt": "2026-11-06T10:52:27+00:00",
+ "updatedAt": "2026-11-06T12:57:22+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "267200492018",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-05",
+   "caseName": "Ritex Management LLC v. HDD LLC",
+   "plaintiffs": [
+    "Ritex Management LLC"
+   ],
+   "defendants": [
+    "HDD LLC"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "ritex-management-llc-v-hdd-llc-tx-harris-267200492018"
+  },
   {
    "source": "maryland",
    "state": "MD",
@@ -10,17 +29,35 @@
    "caseNumber": "D-08-CV-26-041360",
    "caseType": "Commercial eviction",
    "dateFiled": "2026-11-04",
-   "caseName": "10451 Mill Run LLC v. DK Law Group et al.",
+   "caseName": "10451 Mill Run LLC v. DK Law Group, LLC",
    "plaintiffs": [
     "10451 Mill Run LLC"
    ],
    "defendants": [
-    "DK Law Group",
-    "LLC"
+    "DK Law Group, LLC"
    ],
    "sourceName": "Maryland Judiciary, Cases Filed Report, 2026-11-04",
    "sourceUrl": "https://www.mdcourts.gov/mdec/publiccases",
-   "slug": "10451-mill-run-llc-v-dk-law-group-et-al-md-d-08-cv-26-041360"
+   "slug": "10451-mill-run-llc-v-dk-law-group-llc-md-d-08-cv-26-041360"
+  },
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "267100490260",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-03",
+   "caseName": "Monteleone Investments LLC v. Jossy African Village Market LLC",
+   "plaintiffs": [
+    "Monteleone Investments LLC"
+   ],
+   "defendants": [
+    "Jossy African Village Market LLC"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "monteleone-investments-llc-v-jossy-african-village-market-llc-tx-harris-267100490260"
   },
   {
    "source": "hillsborough_fl",
@@ -60,6 +97,25 @@
    "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-30",
    "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261030.csv",
    "slug": "wipi-investments-llc-v-dara-trust-services-llc-et-al-fl-hillsborough-26-ca-011681"
+  },
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "265100482219",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-30",
+   "caseName": "Ten Oaks Prop Co. LLC v. The Gourd Financial Group",
+   "plaintiffs": [
+    "Ten Oaks Prop Co. LLC"
+   ],
+   "defendants": [
+    "The Gourd Financial Group"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "ten-oaks-prop-co-llc-v-the-gourd-financial-group-tx-harris-265100482219"
   },
   {
    "source": "fulton_ga",
@@ -159,6 +215,51 @@
    "slug": "himes-tampa-llc-v-kc-south-tampa-llc-et-al-fl-hillsborough-26-cc-053330"
   },
   {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "265200475335",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-27",
+   "caseName": "1720 Crestdale LLC v. Arian Global LLC",
+   "plaintiffs": [
+    "1720 Crestdale LLC"
+   ],
+   "defendants": [
+    "Arian Global LLC"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "1720-crestdale-llc-v-arian-global-llc-tx-harris-265200475335",
+   "relatedCaseNumbers": [
+    "265200475334",
+    "265200475333",
+    "265200475332",
+    "265200475305",
+    "265200475303"
+   ]
+  },
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "261100472933",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-26",
+   "caseName": "306 Stratford, LLC v. Smithcorm, LLP",
+   "plaintiffs": [
+    "306 Stratford, LLC"
+   ],
+   "defendants": [
+    "Smithcorm, LLP"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "306-stratford-llc-v-smithcorm-llp-tx-harris-261100472933"
+  },
+  {
    "source": "hillsborough_fl",
    "state": "FL",
    "county": "Hillsborough",
@@ -222,6 +323,25 @@
    "slug": "silvermill-associates-ltd-v-zen-massage-hillsborough-llc-fl-hillsborough-26-cc-051659"
   },
   {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "264100462515",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-19",
+   "caseName": "Poshtkoohi Investments LLC v. Med Shop Plus, Inc. dba Red Oak Uniforms and Medical Supply",
+   "plaintiffs": [
+    "Poshtkoohi Investments LLC"
+   ],
+   "defendants": [
+    "Med Shop Plus, Inc. dba Red Oak Uniforms and Medical Supply"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "poshtkoohi-investments-llc-v-med-shop-plus-inc-dba-red-oak-uniforms-an-tx-harris-264100462515"
+  },
+  {
    "source": "hillsborough_fl",
    "state": "FL",
    "county": "Hillsborough",
@@ -277,6 +397,44 @@
    "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-16",
    "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261016.csv",
    "slug": "wilmington-trust-national-association-v-8605-n-14th-st-llc-fl-hillsborough-26-ca-011172"
+  },
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "266100459844",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-16",
+   "caseName": "R. Pennington Investments, L.P v. Total Joy Healthcare LLC DBA Total Joy Homecare LLC",
+   "plaintiffs": [
+    "R. Pennington Investments, L.P"
+   ],
+   "defendants": [
+    "Total Joy Healthcare LLC DBA Total Joy Homecare LLC"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "r-pennington-investments-l-p-v-total-joy-healthcare-llc-dba-total-joy-tx-harris-266100459844"
+  },
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "264100459539",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-16",
+   "caseName": "570 Grand Avenue, LLC v. Cloud Ponics Spring, LLC",
+   "plaintiffs": [
+    "570 Grand Avenue, LLC"
+   ],
+   "defendants": [
+    "Cloud Ponics Spring, LLC"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "570-grand-avenue-llc-v-cloud-ponics-spring-llc-tx-harris-264100459539"
   },
   {
    "source": "hillsborough_fl",

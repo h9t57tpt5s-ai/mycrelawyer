@@ -77,7 +77,7 @@ def split_parties(side):
     """'ABC, LLC, John Doe, City of Atlanta' -> ['ABC, LLC', 'John Doe', 'City of Atlanta']."""
     out = []
     for tok in re.split(r"\s*[,;]\s*|\s+and\s+(?=[A-Z])", side):
-        tok = tok.strip(" .")
+        tok = re.sub(r"\s*\bet\.?\s*al\.?$", "", tok.strip(), flags=re.I).strip(" .")  # before the suffix check: "LLC et al."
         if not tok:
             continue
         if out and SUFFIX.match(tok):

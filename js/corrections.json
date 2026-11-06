@@ -3,6 +3,16 @@
  "startedOn": "2026-09-12",
  "entries": [
   {
+   "date": "2026-11-06",
+   "scope": "site",
+   "caseId": null,
+   "subject": "State Court Watch: 10451 Mill Run LLC v. DK Law Group, LLC (Baltimore County District Court, D-08-CV-26-041360)",
+   "kind": "Corrected: party name",
+   "was": "Listed the defendant as two parties, \"DK Law Group\" and \"LLC\", and titled the case \"10451 Mill Run LLC v. DK Law Group et al.\"",
+   "now": "One defendant, DK Law Group, LLC; the case is titled \"10451 Mill Run LLC v. DK Law Group, LLC\" and the old page address redirects to the new one.",
+   "basis": "Maryland Judiciary Cases Filed Report, November 4, 2026; a parsing error split the company's name at its comma"
+  },
+  {
    "date": "2026-11-03",
    "scope": "matter",
    "caseId": "live-034",

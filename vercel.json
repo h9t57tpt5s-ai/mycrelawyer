@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/state-cases/10451-mill-run-llc-v-dk-law-group-et-al-md-d-08-cv-26-041360.html",
+      "destination": "/state-cases/10451-mill-run-llc-v-dk-law-group-llc-md-d-08-cv-26-041360.html",
+      "permanent": true
+    },
+    {
       "source": "/glossary.html",
       "destination": "/litigation.html",
       "permanent": true
