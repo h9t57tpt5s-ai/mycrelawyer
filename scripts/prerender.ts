@@ -9,7 +9,7 @@
 
 type Case = {
   id: string; title: string; category: string; status: string; date: string; addedDate?: string;
-  jurisdiction: string; state?: string; amount?: string; source?: string; summary: string; brief?: string;
+  jurisdiction: string; state?: string; amount?: string; source?: string; summary: string; brief?: string; seoTitle?: string;
   significance?: string; tags?: string[]; docketUrl?: string; featured?: boolean; propertyType?: string;
   judge?: string | null; amountUsd?: number | null; parties?: { name: string; role: string }[];
 };
@@ -19,7 +19,7 @@ type Data = {
   statuses: { id: string; label: string; color: string }[];
   cases: Case[];
   trackedParties?: { name: string; slug?: string; matchTerm?: string }[];
-  judges?: { name: string; slug?: string }[];
+  judges?: { name: string; slug?: string; court?: string; title?: string }[];
 };
 
 const src = await Deno.readTextFile("js/data.js");
@@ -225,6 +225,26 @@ async function azList(entries: { name: string; slug?: string }[], prefix: string
   await Deno.writeTextFile(f, h); written.push(f);
 }
 
+// ---- Search titles and descriptions (2026-11-05) --------------------------
+// Search Console, last 3 months: judge pages 1,187 impressions at 1.2%
+// click-through, company pages 941 at 0.3%, the tracker 2,033 at 1%, with
+// titles like "Brightline — CREdocket" that did not say the page lists real
+// cases ("brightline docket": 78 impressions, position 6, 0 clicks). Each
+// page now gets a title and description built from the matters it lists.
+const plain = (t: string) => t.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&");
+const clipText = (t: string, n: number) => t.length <= n ? t : t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…";
+function setHead(html: string, title: string, desc: string): string {
+  const t = esc(title), d = esc(desc);
+  return html
+    .replace(/<title>[^<]*<\/title>/, () => `<title>${t}</title>`)
+    .replace(/(<meta name="description" content=")[^"]*"/, (_, p1) => `${p1}${d}"`)
+    .replace(/(<meta property="og:title" content=")[^"]*"/, (_, p1) => `${p1}${t}"`)
+    .replace(/(<meta property="og:description" content=")[^"]*"/, (_, p1) => `${p1}${d}"`)
+    .replace(/(<meta name="twitter:title" content=")[^"]*"/, (_, p1) => `${p1}${t}"`)
+    .replace(/(<meta name="twitter:description" content=")[^"]*"/, (_, p1) => `${p1}${d}"`);
+}
+const shortName = (c: Case) => plain(c.seoTitle || c.title).replace(/\s*\(.*$/, "");
+
 // ---- company-*.html: the matter list, dated and with status -------------
 for await (const entry of Deno.readDir(".")) {
   if (!entry.isFile || !/^company-.*\.html$/.test(entry.name)) continue;
@@ -256,8 +276,48 @@ for await (const entry of Deno.readDir(".")) {
         <div class="text-muted mono" style="font-size:11.5px; margin-top:6px;">${esc(sts.join(", "))}</div>
       </div>`;
   let h = fill(h0, "cp-stats", stats, f);
+  if (matches.length) {
+    const n = matches.length;
+    h = setHead(h, `${name} Lawsuits & Court Cases (${n}) — CREdocket`,
+      clipText(`${n} commercial real estate ${n === 1 ? "lawsuit or ruling" : "lawsuits and rulings"} involving ${name}: ${matches.slice(0, 2).map(shortName).join("; ")}. Parties, courts, dates and sources.`, 158));
+  }
   h = fill(h, "cp-case-grid", matches.length ? matches.map(companyCard).join("") : `<p class="text-secondary">No matters currently tracked for ${esc(name)} &mdash; check back as coverage grows.</p>`, f);
   if (h.includes('id="cp-filings"')) h = fill(h, "cp-filings", await publicFilingsHtml(term), f);
+  if (h !== h0) { await Deno.writeTextFile(f, h); written.push(f); }
+}
+
+// ---- judge-*.html: search title and description from the judge's matters --
+for await (const entry of Deno.readDir(".")) {
+  if (!entry.isFile || !/^judge-.*\.html$/.test(entry.name)) continue;
+  const f = entry.name;
+  const h0 = await Deno.readTextFile(f);
+  const m = h0.match(/const JUDGE_NAME = "([^"]+)"/);
+  if (!m) continue;
+  const name = m[1];
+  const j = (data.judges ?? []).find((x) => x.name === name);
+  const matches = data.cases.filter((c) => c.judge === name).sort(byDateDesc);
+  if (!matches.length) continue;
+  const n = matches.length;
+  const court = j?.court ? plain(j.court) : "";
+  const h = setHead(h0, `Judge ${name}: Real Estate Rulings & Cases — CREdocket`,
+    clipText(`${court ? court + ". " : ""}${n} commercial real estate ${n === 1 ? "case" : "cases"} before Judge ${name}: ${matches.slice(0, 2).map(shortName).join("; ")}. Rulings, parties and sources.`, 158));
+  if (h !== h0) { await Deno.writeTextFile(f, h); written.push(f); }
+}
+
+// ---- litigation.html and judges.html: titles with what the page holds -----
+{
+  const f = "litigation.html";
+  const h0 = await Deno.readTextFile(f);
+  const h = setHead(h0, `Commercial Real Estate Litigation Tracker: ${data.cases.length} Lawsuits & Rulings — CREdocket`,
+    `Search ${data.cases.length} commercial real estate lawsuits, rulings and settlements: lease disputes, CMBS and bank foreclosures, data center zoning, eminent domain and construction claims, with parties, courts and sources.`);
+  if (h !== h0) { await Deno.writeTextFile(f, h); written.push(f); }
+}
+{
+  const f = "judges.html";
+  const h0 = await Deno.readTextFile(f);
+  const n = (data.judges ?? []).length;
+  const h = setHead(h0, `Judges in Commercial Real Estate Cases: ${n} Profiles — CREdocket`,
+    `${n} judges who have ruled in commercial real estate lawsuits tracked by CREdocket, with their courts and every matter before them: leases, foreclosures, zoning, condemnation and construction.`);
   if (h !== h0) { await Deno.writeTextFile(f, h); written.push(f); }
 }
 
