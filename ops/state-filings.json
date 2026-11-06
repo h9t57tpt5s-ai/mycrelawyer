@@ -1,0 +1,192 @@
+{
+ "updatedAt": "2026-11-06T04:12:56+00:00",
+ "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
+ "filings": [
+  {
+   "source": "fulton_ga",
+   "state": "GA",
+   "county": "Fulton",
+   "court": "Superior Court of Fulton County, Georgia",
+   "caseNumber": "26CV015115",
+   "caseType": "Foreclosure",
+   "dateFiled": "2026-10-30",
+   "caseName": "AAA Shotcrete LLC v. TCC GA LLC et al.",
+   "plaintiffs": [
+    "AAA Shotcrete LLC"
+   ],
+   "defendants": [
+    "TCC GA LLC",
+    "THE CONTRACTOR CREW, LLC"
+   ],
+   "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
+   "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV015115",
+   "slug": "aaa-shotcrete-llc-v-tcc-ga-llc-et-al-ga-fulton-26cv015115"
+  },
+  {
+   "source": "fulton_ga",
+   "state": "GA",
+   "county": "Fulton",
+   "court": "Superior Court of Fulton County, Georgia",
+   "caseNumber": "26CV012148",
+   "caseType": "Foreclosure",
+   "dateFiled": "2026-08-28",
+   "caseName": "GENERATIONS PROPERTY OWNER, LLC v. CENTENNIAL OLYMPIC 336 PROPERTY, LP",
+   "plaintiffs": [
+    "GENERATIONS PROPERTY OWNER, LLC"
+   ],
+   "defendants": [
+    "CENTENNIAL OLYMPIC 336 PROPERTY, LP"
+   ],
+   "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
+   "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV012148",
+   "slug": "generations-property-owner-llc-v-centennial-olympic-336-property-lp-ga-fulton-26cv012148"
+  },
+  {
+   "source": "fulton_ga",
+   "state": "GA",
+   "county": "Fulton",
+   "court": "Superior Court of Fulton County, Georgia",
+   "caseNumber": "26CV011902",
+   "caseType": "Foreclosure",
+   "dateFiled": "2026-08-24",
+   "caseName": "PEACHTREE GA PO LLC v. LC SOLACE LLC et al.",
+   "plaintiffs": [
+    "PEACHTREE GA PO LLC"
+   ],
+   "defendants": [
+    "LC SOLACE LLC",
+    "LC SOLACE II LLC",
+    "LC SOLACE III LLC",
+    "LC SOLACE IV LLC",
+    "LC SOLACE V LLC",
+    "LC SOLACE VI LP"
+   ],
+   "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
+   "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV011902",
+   "slug": "peachtree-ga-po-llc-v-lc-solace-llc-et-al-ga-fulton-26cv011902"
+  },
+  {
+   "source": "fulton_ga",
+   "state": "GA",
+   "county": "Fulton",
+   "court": "Superior Court of Fulton County, Georgia",
+   "caseNumber": "26CV011763",
+   "caseType": "Foreclosure",
+   "dateFiled": "2026-08-21",
+   "caseName": "RESTORE CONSULTING GROUP, LLC v. CINC CAPITAL, LLC",
+   "plaintiffs": [
+    "RESTORE CONSULTING GROUP, LLC"
+   ],
+   "defendants": [
+    "CINC CAPITAL, LLC"
+   ],
+   "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
+   "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV011763",
+   "slug": "restore-consulting-group-llc-v-cinc-capital-llc-ga-fulton-26cv011763"
+  },
+  {
+   "source": "fulton_ga",
+   "state": "GA",
+   "county": "Fulton",
+   "court": "Superior Court of Fulton County, Georgia",
+   "caseNumber": "26CV011365",
+   "caseType": "Condemnation",
+   "dateFiled": "2026-08-13",
+   "caseName": "Department of Transportation v. Atlanta Senior Care Services, LLC et al.",
+   "plaintiffs": [
+    "Department of Transportation"
+   ],
+   "defendants": [
+    "Atlanta Senior Care Services, LLC",
+    "Fulton County",
+    "Sawnee Electric Membership Corporation",
+    "City of Alpharetta",
+    "Comcast Cable Communications, LLC",
+    "Southern Communications Services, Inc"
+   ],
+   "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
+   "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV011365",
+   "slug": "department-of-transportation-v-atlanta-senior-care-services-llc-et-al-ga-fulton-26cv011365"
+  },
+  {
+   "source": "fulton_ga",
+   "state": "GA",
+   "county": "Fulton",
+   "court": "Superior Court of Fulton County, Georgia",
+   "caseNumber": "26CV011054",
+   "caseType": "Receivership",
+   "dateFiled": "2026-08-06",
+   "caseName": "Federal National Mortgage Association v. Juniper Street Partners, LLC",
+   "plaintiffs": [
+    "Federal National Mortgage Association"
+   ],
+   "defendants": [
+    "Juniper Street Partners, LLC"
+   ],
+   "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
+   "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV011054",
+   "slug": "federal-national-mortgage-association-v-juniper-street-partners-llc-ga-fulton-26cv011054"
+  },
+  {
+   "source": "fulton_ga",
+   "state": "GA",
+   "county": "Fulton",
+   "court": "Superior Court of Fulton County, Georgia",
+   "caseNumber": "26CV010368",
+   "caseType": "Foreclosure",
+   "dateFiled": "2026-07-22",
+   "caseName": "Empire Pipe & Supply Company, Inc v. Vellanki LLC",
+   "plaintiffs": [
+    "Empire Pipe & Supply Company, Inc"
+   ],
+   "defendants": [
+    "Vellanki LLC"
+   ],
+   "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
+   "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV010368",
+   "slug": "empire-pipe-supply-company-inc-v-vellanki-llc-ga-fulton-26cv010368"
+  },
+  {
+   "source": "fulton_ga",
+   "state": "GA",
+   "county": "Fulton",
+   "court": "Superior Court of Fulton County, Georgia",
+   "caseNumber": "26CV010039",
+   "caseType": "Condemnation",
+   "dateFiled": "2026-07-15",
+   "caseName": "Department of Transportation v. Cole RT Atlanta GA, LLC et al.",
+   "plaintiffs": [
+    "Department of Transportation"
+   ],
+   "defendants": [
+    "Cole RT Atlanta GA, LLC",
+    "Inc. f/k/a Racetrac Petroleum, Inc",
+    "LLC Servicer for Christiana Trst. Custodian for GSRAN-Z",
+    "The City of Atlanta"
+   ],
+   "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
+   "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV010039",
+   "slug": "department-of-transportation-v-cole-rt-atlanta-ga-llc-et-al-ga-fulton-26cv010039"
+  },
+  {
+   "source": "fulton_ga",
+   "state": "GA",
+   "county": "Fulton",
+   "court": "Superior Court of Fulton County, Georgia",
+   "caseNumber": "26CV009786",
+   "caseType": "Condemnation",
+   "dateFiled": "2026-07-09",
+   "caseName": "Department of Transportation v. CT Investment Holdings, LLC et al.",
+   "plaintiffs": [
+    "Department of Transportation"
+   ],
+   "defendants": [
+    "CT Investment Holdings, LLC",
+    "Tax Commissioner of Fulton County"
+   ],
+   "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
+   "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV009786",
+   "slug": "department-of-transportation-v-ct-investment-holdings-llc-et-al-ga-fulton-26cv009786"
+  }
+ ]
+}

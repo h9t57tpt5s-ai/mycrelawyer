@@ -70,6 +70,12 @@ def main():
                 last = max(r["dateFiled"], (activity.get(str(r.get("docketId"))) or {}).get("lastEntryDate") or "")
                 urls.append((f"{folder}/{r['slug']}.html", last, "0.5"))
 
+    # State Court Watch pages (build_state_pages.ts), 2026-11-05.
+    state_file = ROOT / "ops" / "state-filings.json"
+    for r in (json.loads(state_file.read_text()).get("filings", []) if state_file.exists() else []):
+        if (ROOT / "state-cases" / f"{r['slug']}.html").exists():
+            urls.append((f"state-cases/{r['slug']}.html", r["dateFiled"], "0.5"))
+
     # Company, agency and property landing pages (build_entity_pages.ts):
     # lastmod is the file's last commit, which changes only when its matters do.
     for folder in ("parties", "properties"):

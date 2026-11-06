@@ -23,6 +23,9 @@ on:
       - "scripts/build_sitemap.py"
       - "scripts/build_data_lite.ts"
       - "scripts/build_record_pages.ts"
+      - "scripts/build_state_pages.ts"
+      - "ops/state-filings.json"
+      - "state-court-watch.html"
       - "bankruptcy-watch.html"
       - "lawsuit-watch.html"
   # Also started by court-filings-ingest.yml and docket-activity.yml after
@@ -69,11 +72,12 @@ jobs:
       - run: deno run --allow-read --allow-write scripts/build_weekly_issues.ts
       # Chapter 11 Watch and Federal Lawsuit Watch, and one page per petition or case.
       - run: deno run --allow-read --allow-write scripts/build_record_pages.ts
+      - run: deno run --allow-read --allow-write scripts/build_state_pages.ts
       - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
           git add -A matters chapter-11 federal-cases parties properties js/entity-index.json img/og img/og-image.png js/topic-index.json *-tracker.html litigation-index*.html case-valuation.html commercial-lease-dispute-damages.html commercial-foreclosure-guaranty-damages.html construction-defect-damages.html condemnation-compensation.html land-use-litigation-damages.html commercial-premises-liability-damages.html reit-securities-claim-value.html environmental-cleanup-cost-claims.html
-          git add bankruptcy-watch.html lawsuit-watch.html
+          git add bankruptcy-watch.html lawsuit-watch.html state-court-watch.html state-cases
           git add brief-*.html briefs.html
           git add index.html litigation.html coverage.html companies.html judges.html company-*.html corrections.html sitemap.xml news-sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
