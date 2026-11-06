@@ -13067,6 +13067,41 @@ const RELAW_DATA = {
         { when: "October 2026", label: "Colorado Court of Appeals hears oral argument on RCDC's valuation appeal" },
         { when: "November 5, 2026", label: "Court of Appeals affirms the county's roughly $122M assessment in an unpublished opinion", current: true }
       ]
+    },
+    {
+      id: "live-375",
+      seoTitle: "JW Marriott Chicago: Torchlight Sues Prime Group Over Conversion",
+      seoDescription: "CMBS special servicer Torchlight sues Prime Group's Mike Reschke in Cook County, seeking to halt LaSalle Street office-to-residential work disrupting the JW Marriott Chicago hotel.",
+      addedDate: "2026-11-06",
+      title: "Torchlight Sues Prime Group to Halt JW Marriott Chicago Conversion Work",
+      brief: "Torchlight, special servicer for bondholders that foreclosed on Chicago's JW Marriott, sued developer Mike Reschke's Prime Group in Cook County, saying unpermitted demolition cut the hotel's phone and internet on a sold-out night.",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-30",
+      jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      state: "IL",
+      property: {"name": "JW Marriott Chicago", "address": "208 South LaSalle Street", "city": "Chicago", "state": "IL"},
+      amount: "Injunctive relief sought; no damages figure stated",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/11/04/torchlight-sues-reschkes-firm-to-stop-loop-conversion/",
+      summary: "Torchlight Loan Services, the special servicer that foreclosed on the JW Marriott Chicago hotel on behalf of CMBS bondholders, sued developer Mike Reschke's Prime Group in Cook County Circuit Court on October 30, 2026. The complaint alleges Prime Group proceeded with demolition and conversion work on office floors in the same historic LaSalle Street building without the hotel's consent, and that the work cut off the hotel's phone and internet service during a sold-out stretch. Torchlight is asking the court to halt the conversion work until Prime Group secures the hotel's consent.",
+      significance: "The suit tests how far a CMBS special servicer can go to protect an operating hotel asset from disruption by a co-owner's redevelopment next door, a fact pattern increasingly common as Chicago's LaSalle Street Reimagined program converts distressed office towers to housing above and alongside hotels and other operating tenants. For lenders, servicers and developers sharing a single historic building under converted uses, the case previews the consent and operational-disruption disputes likely to recur as more office-to-residential conversions proceed next to live commercial operations.",
+      body: [
+        "Torchlight Loan Services, LLC, the special servicer that foreclosed on Chicago's JW Marriott hotel on behalf of CMBS bondholders, filed suit against developer Michael Reschke's Prime Group on October 30, 2026, in the Circuit Court of Cook County, Illinois, seeking to halt construction work tied to Prime Group's conversion of office space in the same historic LaSalle Street building into residential units. The complaint, reported by The Real Deal, alleges that demolition work proceeded without the hotel's consent and knocked out the JW Marriott's phone and internet service during a night the hotel was sold out, a disruption Torchlight says threatens the operating asset it now controls after the hotel's prior ownership defaulted on its CMBS loan.",
+        "The dispute sits at the intersection of two forces reshaping downtown Chicago's office market: distressed CMBS debt working its way through special servicing, and the city's LaSalle Street Reimagined program, which has offered public subsidies to convert vacant and underused Loop office towers into housing. Prime Group's project, backed in part by that program, aims to turn office floors in the historic former bank building at 208 South LaSalle Street into roughly 280 residential units, 84 of them designated affordable, a roughly $130 million undertaking. The JW Marriott Chicago occupies another portion of the same building. Torchlight's predecessor-in-interest took control of the hotel through foreclosure after the prior owner defaulted on its loan, and Torchlight, acting as special servicer for the CMBS trust that now effectively owns the asset, is responsible for protecting its value while a resolution or sale is pursued.",
+        "That shared-building arrangement is what makes this dispute instructive for CRE owners and lenders beyond Chicago. When a single historic structure houses an operating hotel alongside office floors being gutted and converted to another use, the parties' rights typically run through a reciprocal easement agreement, condominium-style declaration, or similar instrument governing construction access, utility shutoffs, and consent requirements between the co-owners. Torchlight's complaint frames Prime Group's work as having proceeded outside those bounds, without the hotel's sign-off, and ties the harm directly to guest-facing outages at a moment of peak occupancy, the kind of operational disruption that can generate chargebacks, lost bookings, and reputational damage for a hotel asset a special servicer is trying to stabilize or sell.",
+        "For lenders and special servicers, the filing illustrates a now-familiar position: having taken over a distressed asset through foreclosure, a servicer's fiduciary duty to bondholders requires actively policing what happens around that asset, not just managing what happens inside it. An office-to-residential conversion next door or upstairs is not automatically disruptive, but a servicer that discovers interrupted utilities or unconsented demolition has both the standing and the incentive to seek injunctive relief quickly, before disruption compounds into measurable revenue loss. For developers pursuing office-to-residential conversions in shared or adjacent buildings, a strategy increasingly common wherever a program like LaSalle Street Reimagined subsidizes converting distressed office stock, the case is a reminder that conversion economics depend as much on managing legal relationships with co-owners and lenders in the same structure as on construction costs or subsidy terms. Building the necessary consents and coordination protocols into a conversion plan before demolition begins is far cheaper than defending an emergency injunction motion once work has already disrupted a paying commercial neighbor."
+      ],
+      judge: null,
+      parties: [
+        { name: "Torchlight Loan Services, LLC", role: "Plaintiff / Special Servicer" },
+        { name: "Prime Group", role: "Defendant / Developer" }
+      ],
+      amountUsd: null,
+      tags: ["cmbs", "chicago", "hotel-conversion", "special-servicer", "lasalle-street"],
+      timeline: [
+        { when: "October 30, 2026", label: "Torchlight files suit in Cook County Circuit Court seeking to halt conversion work", current: true }
+      ]
     }
   ],
 
