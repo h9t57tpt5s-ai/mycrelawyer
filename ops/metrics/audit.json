@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-11-05T21:12:41+00:00",
- "pagesChecked": 817,
+ "generatedAt": "2026-11-06T20:32:37+00:00",
+ "pagesChecked": 828,
  "pagesByFolder": {
-  "root": 215,
-  "matters": 316,
-  "chapter-11": 176,
-  "federal-cases": 110
+  "root": 217,
+  "matters": 318,
+  "chapter-11": 179,
+  "federal-cases": 114
  },
  "summary": {
   "zeroStatCounters": 0,
@@ -13,7 +13,7 @@
   "hiddenUpdatesButton": 0,
   "brokenLinks": 0,
   "missingTitle": 0,
-  "longTitle": 0,
+  "longTitle": 6,
   "missingDescription": 2,
   "weakDescription": 2,
   "missingCanonical": 0,
@@ -25,14 +25,14 @@
   "heavyPages": 0
  },
  "freshness": {
-  "matters": 316,
-  "newestMatterAdded": "2026-11-05",
+  "matters": 318,
+  "newestMatterAdded": "2026-11-06",
   "daysSinceNewestMatter": 0,
-  "ch11Petitions": 176,
-  "newestCh11Petition": "2026-11-04",
-  "daysSinceNewestCh11": 1,
-  "federalSuits": 110,
-  "newestFederalSuit": "2026-11-05",
+  "ch11Petitions": 179,
+  "newestCh11Petition": "2026-11-06",
+  "daysSinceNewestCh11": 0,
+  "federalSuits": 114,
+  "newestFederalSuit": "2026-11-06",
   "daysSinceNewestSuit": 0
  },
  "findings": {
@@ -41,7 +41,38 @@
   "hiddenUpdatesButton": [],
   "brokenLinks": [],
   "missingTitle": [],
-  "longTitle": [],
+  "longTitle": [
+   {
+    "page": "cmbs-watch.html",
+    "chars": 82,
+    "title": "CMBS Distress Watch: Commercial Properties Newly in Foreclosure or REO \u2014 CREdocket"
+   },
+   {
+    "page": "company-alexandria-real-estate-equities.html",
+    "chars": 76,
+    "title": "Alexandria Real Estate Equities, Inc. Lawsuits & Court Cases (2) \u2014 CREdocket"
+   },
+   {
+    "page": "company-wells-fargo.html",
+    "chars": 78,
+    "title": "Wells Fargo Bank, National Association Lawsuits & Court Cases (10) \u2014 CREdocket"
+   },
+   {
+    "page": "company-wilmington-trust-national-association.html",
+    "chars": 76,
+    "title": "Wilmington Trust National Association Lawsuits & Court Cases (7) \u2014 CREdocket"
+   },
+   {
+    "page": "litigation.html",
+    "chars": 77,
+    "title": "Commercial Real Estate Litigation Tracker: 318 Lawsuits & Rulings \u2014 CREdocket"
+   },
+   {
+    "page": "state-court-watch.html",
+    "chars": 82,
+    "title": "State Court Watch: New Commercial Real Estate Lawsuits in State Courts \u2014 CREdocket"
+   }
+  ],
   "missingDescription": [
    "admin-settlement-review.html",
    "handbook.html"
