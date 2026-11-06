@@ -1,7 +1,96 @@
 {
- "updatedAt": "2026-11-05T20:38:35+00:00",
+ "updatedAt": "2026-11-06T07:54:12+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001493152-26-050265:form10-q.htm",
+   "company": "Strawberry Fields REIT, Inc.  (STRW)",
+   "cik": "1782430",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-05",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1782430/000149315226050265/form10-q.htm",
+   "phrases": [
+    "filed a complaint"
+   ],
+   "excerpts": [
+    "Contingencies The Company\u2019s operating results and financial condition are dependent on the ability of its tenants to meet their lease obligations to us. We are not currently a party to any material legal proceedings, that are not covered by insurance and expected to be resolved within policy limits, other than the following: In March 2020, Joseph Schwartz, Rosie Schwartz and certain companies owned by them filed a complaint in the U.S. District Court for the Northern District of Illinois against Moishe Gubin, Michael Blisko, the Predecessor Company and 21 of its subsidiaries, as well as the operators of 17 of the facilities operated at our properties. The complaint was related to the Predecessor Company\u2019s acquisition of 16 properties located in Arkansas and Kentucky that were completed between May 2018 and April 2019 and the attempt to purchase an additional five properties located in Massachusetts.",
+    "Legal Proceedings The Company\u2019s operating results and financial condition are dependent on the ability of its tenants to meet their lease obligations to us. We are not currently a party to any material legal proceedings, that are not covered by insurance and expected to be resolved within policy limits, other than the following: In March 2020, Joseph Schwartz, Rosie Schwartz and certain companies owned by them filed a complaint in the U.S. District Court for the Northern District of Illinois against Moishe Gubin, Michael Blisko, the Predecessor Company and 21 of its subsidiaries, as well as the operators of 17 of the facilities operated at our properties. The complaint was related to the Predecessor Company\u2019s acquisition of 16 properties located in Arkansas and Kentucky that were completed between May 2018 and April 2019 and the attempt to purchase an additional five properties located in Massachusetts."
+   ],
+   "captions": [],
+   "courts": [
+    "District Court for the Northern District of Illinois"
+   ],
+   "firstSeen": "2026-11-06"
+  },
+  {
+   "key": "0000761648-26-000031:cdr-20260930.htm",
+   "company": "CEDAR REALTY TRUST, INC.  (CDR-PB, CDR-PC)",
+   "cik": "761648",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-05",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/761648/000076164826000031/cdr-20260930.htm",
+   "phrases": [
+    "putative class action"
+   ],
+   "excerpts": [
+    "The Company believes that such litigation, claims and administrative proceedings will not have a material adverse impact on its financial position or its results of operations. The Company records a liability when it considers the loss probable and the amount can be reasonably estimated. Preferred stockholders of the Company filed a putative class action suit against the directors of the Company prior to its August 2022 merger (the \"Merger\") with a WHLR subsidiary (collectively, the \"Former Directors\") in the Circuit Court for Montgomery County, Maryland (the \"Court\") captioned Anthony Aquino, et al. v. Bruce Schanzer, et al. , Case No.: C-15-CV-25-000731 (the \"Aquino Action\")."
+   ],
+   "captions": [
+    "Anthony Aquino, et al. v. Bruce Schanzer, et al. , Case No"
+   ],
+   "courts": [
+    "Circuit Court for Montgomery County"
+   ],
+   "firstSeen": "2026-11-06"
+  },
+  {
+   "key": "0001104659-26-123301:agnt-20260930x10q.htm",
+   "company": "AGNT, Inc.  (AGNT)",
+   "cik": "1495932",
+   "sic": "6531",
+   "form": "10-Q",
+   "filed": "2026-11-05",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1495932/000110465926123301/agnt-20260930x10q.htm",
+   "phrases": [
+    "putative class action"
+   ],
+   "excerpts": [
+    "The Settlement and any actions taken to carry out the Settlement are not an admission or concession of liability, or of the validity of any claim, defense, or point of fact or law on the part of any party. The Company continues to deny the material allegations of the complaints in the antitrust litigation. The Company entered into the Settlement after considering the risks and costs of continuing the litigation. The Company continues to vigorously defend against the claims in the Canadian putative class action antitrust lawsuit Kevin McFall v. Canadian Real Estate Association, et al., Case No. T-119-24-ID 1 (Federal Court of Canada), filed on January 18, 2024. Management is currently unable to reasonably estimate the possible loss or range of possible loss for the Canadian antitrust litigation because, among other reasons, (i) the proceeding is in preliminary stages, (ii) specific damage amounts have not been sought, (iii) damages sought are, in our opinion, unsupported and/or exaggerated, (iv) there are significant factual issues to be resolved; and/or (v) there are novel legal issues or unsettled legal theories presented."
+   ],
+   "captions": [
+    "Canadian putative class action antitrust lawsuit Kevin McFall v. Canadian Real Estate Association, et al., Case No. T-119-24-ID"
+   ],
+   "courts": [],
+   "firstSeen": "2026-11-06"
+  },
+  {
+   "key": "0001527541-26-000418:whlr-20260930.htm",
+   "company": "Wheeler Real Estate Investment Trust, Inc.  (WHLR, WHLRD, WHLRL, WHLRP)",
+   "cik": "1527541",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-05",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000418/whlr-20260930.htm",
+   "phrases": [
+    "putative class action"
+   ],
+   "excerpts": [
+    "The Company believes that such litigation, claims and administrative proceedings will not have a material adverse impact on its financial position or its results of operations. The Company records a liability when it considers the loss probable and the amount can be reasonably estimated. In addition, the below legal proceedings are in process: Preferred stockholders of Cedar filed a putative class action suit against the directors of Cedar prior to the Cedar Acquisition (collectively, the \u201cFormer Cedar Directors\u201d) in the Circuit Court for Montgomery County, Maryland (the \"Court\") captioned Anthony Aquino, et al. v. Bruce Schanzer, et al., Case No.: C-15-CV-25-000731 (the \u201cAquino Action\u201d). The Aquino Action alleged that the Former Cedar Directors breached their duties to Cedar's preferred stockholders through the Cedar Acquisition."
+   ],
+   "captions": [
+    "Anthony Aquino, et al. v. Bruce Schanzer, et al., Case No"
+   ],
+   "courts": [
+    "Circuit Court for Montgomery County"
+   ],
+   "firstSeen": "2026-11-06"
+  },
   {
    "key": "0001193125-26-449151:cxw-20260930.htm",
    "company": "CoreCivic, Inc.  (CXW)",
