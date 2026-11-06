@@ -1,23 +1,16 @@
 {
  "ok": true,
- "generatedAt": "2026-11-05T18:59:26.531Z",
+ "generatedAt": "2026-11-06T02:47:49.829Z",
  "days": 30,
  "portfolios": 1,
  "entitiesWatched": 1,
  "sources": {
   "courtlistener": {
-   "stored": 663,
+   "stored": 661,
    "liveSince": "2026-09-19",
-   "lagSample": 663,
+   "lagSample": 661,
    "medianLagDays": 1,
    "p90LagDays": 2
-  },
-  "sec_edgar": {
-   "stored": 122,
-   "liveSince": "2026-09-19",
-   "lagSample": 122,
-   "medianLagDays": 1,
-   "p90LagDays": 1
   },
   "hillsborough_fl": {
    "stored": 73,
@@ -27,16 +20,23 @@
    "p90LagDays": 2
   },
   "harris_jp_tx": {
-   "stored": 27,
+   "stored": 28,
    "liveSince": "2026-09-20",
-   "lagSample": 27,
+   "lagSample": 28,
    "medianLagDays": 1,
    "p90LagDays": 2
+  },
+  "sec_edgar": {
+   "stored": 118,
+   "liveSince": "2026-09-19",
+   "lagSample": 118,
+   "medianLagDays": 1,
+   "p90LagDays": 1
   }
  },
  "byDay": {
   "2026-10-07": {
-   "stored": 40,
+   "stored": 17,
    "alerts": 0,
    "emailed": 0
   },
@@ -182,6 +182,11 @@
   },
   "2026-11-05": {
    "stored": 27,
+   "alerts": 0,
+   "emailed": 0
+  },
+  "2026-11-06": {
+   "stored": 18,
    "alerts": 0,
    "emailed": 0
   }

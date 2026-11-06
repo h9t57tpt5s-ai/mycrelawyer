@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-11-05T18:59:25+00:00",
+ "updatedAt": "2026-11-06T02:47:48+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "7906-10 Andrus Road, LLC",
+   "court": "United States Bankruptcy Court, E.D. Virginia",
+   "courtId": "vaeb",
+   "docketNumber": "26-12676",
+   "dateFiled": "2026-11-05",
+   "docketUrl": "https://www.courtlistener.com/docket/75080719/7906-10-andrus-road-llc/",
+   "docketId": 75080719,
+   "slug": "7906-10-andrus-road-llc-vaeb-26-12676",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "1 Calle Ziella LLC",
+   "court": "United States Bankruptcy Court, C.D. California",
+   "courtId": "cacb",
+   "docketNumber": "9:26-bk-11622",
+   "dateFiled": "2026-11-05",
+   "docketUrl": "https://www.courtlistener.com/docket/75078393/1-calle-ziella-llc/",
+   "docketId": 75078393,
+   "slug": "1-calle-ziella-llc-cacb-9-26-bk-11622",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "38 CRI Properties LLC",
    "court": "United States Bankruptcy Court, S.D. New York",

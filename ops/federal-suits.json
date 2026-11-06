@@ -1,7 +1,33 @@
 {
- "updatedAt": "2026-11-05T18:59:25+00:00",
+ "updatedAt": "2026-11-06T02:47:48+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Watercress Hotel Associates LLC v. Uponor Inc",
+   "court": "District Court, N.D. Alabama",
+   "courtId": "alnd",
+   "docketNumber": "5:26-cv-02218",
+   "dateFiled": "2026-11-05",
+   "docketUrl": "https://www.courtlistener.com/docket/75079328/watercress-hotel-associates-llc-v-uponor-inc/",
+   "docketId": 75079328,
+   "suitNature": "",
+   "cause": "",
+   "slug": "watercress-hotel-associates-llc-v-uponor-inc-alnd-5-26-cv-02218",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "State Farm Fire and Casualty Company v. 762 Properties, LLC",
+   "court": "District Court, E.D. Michigan",
+   "courtId": "mied",
+   "docketNumber": "2:26-cv-14247",
+   "dateFiled": "2026-11-05",
+   "docketUrl": "https://www.courtlistener.com/docket/75080489/state-farm-fire-and-casualty-company-v-762-properties-llc/",
+   "docketId": 75080489,
+   "suitNature": "",
+   "cause": "",
+   "slug": "state-farm-fire-and-casualty-company-v-762-properties-llc-mied-2-26-cv-14247",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Mian Rental Properties VII, LLC v. Great American E&S Insurance Company",
    "court": "District Court, N.D. Texas",
@@ -13,6 +39,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "mian-rental-properties-vii-llc-v-great-american-e-s-insurance-company-txnd-4-26-cv-01417",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "House Plan Zone, LLC v. Kobeck Properties, LLC",
+   "court": "District Court, M.D. Alabama",
+   "courtId": "almd",
+   "docketNumber": "3:26-cv-00934",
+   "dateFiled": "2026-11-05",
+   "docketUrl": "https://www.courtlistener.com/docket/75079246/house-plan-zone-llc-v-kobeck-properties-llc/",
+   "docketId": 75079246,
+   "suitNature": "",
+   "cause": "",
+   "slug": "house-plan-zone-llc-v-kobeck-properties-llc-almd-3-26-cv-00934",
    "type": "Federal civil case"
   },
   {
@@ -42,7 +81,7 @@
    "type": "Federal civil case"
   },
   {
-   "caseName": "MILLVILLE 47 DEVELOPERS LLC v. Raising Cane's Restaurants, LLC",
+   "caseName": "MILLVILLE 47 DEVELOPERS LLC v. RAISING CANE'S RESTAURANTS, LLC",
    "court": "District Court, D. New Jersey",
    "courtId": "njd",
    "docketNumber": "1:26-cv-14367",
