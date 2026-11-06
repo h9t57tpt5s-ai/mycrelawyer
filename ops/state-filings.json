@@ -1,7 +1,46 @@
 {
- "updatedAt": "2026-11-06T04:12:56+00:00",
+ "updatedAt": "2026-11-06T10:25:36+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-011824",
+   "caseType": "Commercial foreclosure",
+   "dateFiled": "2026-11-03",
+   "caseName": "Infinite Maxima, LLC v. ASAM Properties LLC",
+   "plaintiffs": [
+    "Infinite Maxima, LLC"
+   ],
+   "defendants": [
+    "ASAM Properties LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-03",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261103.csv",
+   "slug": "infinite-maxima-llc-v-asam-properties-llc-fl-hillsborough-26-ca-011824"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-011681",
+   "caseType": "Commercial foreclosure",
+   "dateFiled": "2026-10-30",
+   "caseName": "Wipi Investments LLC v. Dara Trust Services LLC et al.",
+   "plaintiffs": [
+    "Wipi Investments LLC"
+   ],
+   "defendants": [
+    "Dara Trust Services LLC",
+    "Centurion Lenders LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-30",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261030.csv",
+   "slug": "wipi-investments-llc-v-dara-trust-services-llc-et-al-fl-hillsborough-26-ca-011681"
+  },
   {
    "source": "fulton_ga",
    "state": "GA",
@@ -21,6 +60,261 @@
    "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
    "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV015115",
    "slug": "aaa-shotcrete-llc-v-tcc-ga-llc-et-al-ga-fulton-26cv015115"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-053733",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-28",
+   "caseName": "UNIVERSITY PROFESSIONAL CENTER LLC v. THE SPEIGHT GROUP, INC",
+   "plaintiffs": [
+    "UNIVERSITY PROFESSIONAL CENTER LLC"
+   ],
+   "defendants": [
+    "THE SPEIGHT GROUP, INC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-28",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261028.csv",
+   "slug": "university-professional-center-llc-v-the-speight-group-inc-fl-hillsborough-26-cc-053733"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-053720",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-28",
+   "caseName": "MAIN STREET PLAZA HOLDINGS LLC v. THE GREEN PARROT BAR LLC",
+   "plaintiffs": [
+    "MAIN STREET PLAZA HOLDINGS LLC"
+   ],
+   "defendants": [
+    "THE GREEN PARROT BAR LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-28",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261028.csv",
+   "slug": "main-street-plaza-holdings-llc-v-the-green-parrot-bar-llc-fl-hillsborough-26-cc-053720"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-011508",
+   "caseType": "Commercial foreclosure",
+   "dateFiled": "2026-10-27",
+   "caseName": "U.S. BANK TRUST COMPANY, NATIONAL ASSOCIATION v. SM BUILDERS, LLC",
+   "plaintiffs": [
+    "U.S. BANK TRUST COMPANY, NATIONAL ASSOCIATION"
+   ],
+   "defendants": [
+    "SM BUILDERS, LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-27",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261027.csv",
+   "slug": "u-s-bank-trust-company-national-association-v-sm-builders-llc-fl-hillsborough-26-ca-011508"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-053330",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-27",
+   "caseName": "Himes Tampa LLC v. KC South Tampa, LLC et al.",
+   "plaintiffs": [
+    "Himes Tampa LLC"
+   ],
+   "defendants": [
+    "KC South Tampa, LLC",
+    "Poinciana Wellness, LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-27",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261027.csv",
+   "slug": "himes-tampa-llc-v-kc-south-tampa-llc-et-al-fl-hillsborough-26-cc-053330"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-011428",
+   "caseType": "Commercial foreclosure",
+   "dateFiled": "2026-10-23",
+   "caseName": "VMC MASTER FINANCE 3 LLC v. ALLISTER EP LLC et al.",
+   "plaintiffs": [
+    "VMC MASTER FINANCE 3 LLC"
+   ],
+   "defendants": [
+    "ALLISTER EP LLC",
+    "Allister CRNC LLC",
+    "Allister 37 East DMR LLC",
+    "Allister 384 LLC",
+    "Allister Park LLC",
+    "Allister NS LLC",
+    "Allister FA LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-23",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261023.csv",
+   "slug": "vmc-master-finance-3-llc-v-allister-ep-llc-et-al-fl-hillsborough-26-ca-011428"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-052120",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-21",
+   "caseName": "4824 Busch LLC v. Champion Distribution LLC",
+   "plaintiffs": [
+    "4824 Busch LLC"
+   ],
+   "defendants": [
+    "Champion Distribution LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-21",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261021.csv",
+   "slug": "4824-busch-llc-v-champion-distribution-llc-fl-hillsborough-26-cc-052120"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-051659",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-19",
+   "caseName": "SILVERMILL ASSOCIATES, LTD v. ZEN MASSAGE HILLSBOROUGH, LLC",
+   "plaintiffs": [
+    "SILVERMILL ASSOCIATES, LTD"
+   ],
+   "defendants": [
+    "ZEN MASSAGE HILLSBOROUGH, LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-19",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261019.csv",
+   "slug": "silvermill-associates-ltd-v-zen-massage-hillsborough-llc-fl-hillsborough-26-cc-051659"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-051637",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-19",
+   "caseName": "Bay United Holdings LLC v. C.P. Danner Construction, Inc",
+   "plaintiffs": [
+    "Bay United Holdings LLC"
+   ],
+   "defendants": [
+    "C.P. Danner Construction, Inc"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-19",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261019.csv",
+   "slug": "bay-united-holdings-llc-v-c-p-danner-construction-inc-fl-hillsborough-26-cc-051637"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-051603",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-19",
+   "caseName": "8702 EAST BROADWAY PROPERTIES, LLC v. FLORIDA POOLS SPAS & MORE, LLC",
+   "plaintiffs": [
+    "8702 EAST BROADWAY PROPERTIES, LLC"
+   ],
+   "defendants": [
+    "FLORIDA POOLS SPAS & MORE, LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-19",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261019.csv",
+   "slug": "8702-east-broadway-properties-llc-v-florida-pools-spas-more-llc-fl-hillsborough-26-cc-051603"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-011172",
+   "caseType": "Commercial foreclosure",
+   "dateFiled": "2026-10-16",
+   "caseName": "WILMINGTON TRUST, NATIONAL ASSOCIATION v. 8605 N 14TH ST LLC",
+   "plaintiffs": [
+    "WILMINGTON TRUST, NATIONAL ASSOCIATION"
+   ],
+   "defendants": [
+    "8605 N 14TH ST LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-16",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261016.csv",
+   "slug": "wilmington-trust-national-association-v-8605-n-14th-st-llc-fl-hillsborough-26-ca-011172"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-049906",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-09",
+   "caseName": "Terrace Collection, LLC v. Angie Boone, LLC",
+   "plaintiffs": [
+    "Terrace Collection, LLC"
+   ],
+   "defendants": [
+    "Angie Boone, LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-09",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261009.csv",
+   "slug": "terrace-collection-llc-v-angie-boone-llc-fl-hillsborough-26-cc-049906"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-049796",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-08",
+   "caseName": "Tampa Westshore Associates Limited v. Bones & Burgers Inc",
+   "plaintiffs": [
+    "Tampa Westshore Associates Limited"
+   ],
+   "defendants": [
+    "Bones & Burgers Inc"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-08",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261008.csv",
+   "slug": "tampa-westshore-associates-limited-v-bones-burgers-inc-fl-hillsborough-26-cc-049796"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-049767",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-10-08",
+   "caseName": "NEW GLOBAL HOLDINGS INC v. LORD SHIVAY LLC et al.",
+   "plaintiffs": [
+    "NEW GLOBAL HOLDINGS INC"
+   ],
+   "defendants": [
+    "LORD SHIVAY LLC",
+    "BULLS DISCOUNT BEVERAGE INC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-10-08",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261008.csv",
+   "slug": "new-global-holdings-inc-v-lord-shivay-llc-et-al-fl-hillsborough-26-cc-049767"
   },
   {
    "source": "fulton_ga",
