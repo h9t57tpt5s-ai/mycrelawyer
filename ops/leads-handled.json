@@ -1911,6 +1911,10 @@
   "https://www.courtlistener.com/docket/75086861/endeavor-real-estate-group-ltd-v-endeavor-group-real-estate-llc/": {
    "at": "2026-11-07",
    "action": "skipped: no coverage found for this Endeavor Real Estate Group, Ltd. v. Endeavor Group Real Estate, LLC naming/trademark dispute between two real estate firms"
+  },
+  "petition:https://www.courtlistener.com/docket/75081862/652-grandview-ave-llc/": {
+   "at": "2026-11-07",
+   "action": "skipped: no coverage found explaining this Nov 6 filing; third-party docket aggregator shows this is a single residential-looking address (Flushing, NY) LLC Ch. 11, distinct from an unrelated 2025 Ch. 11 case for the same address; bare docket, no named sponsor"
   }
  }
 }
