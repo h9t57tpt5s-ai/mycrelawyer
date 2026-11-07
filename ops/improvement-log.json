@@ -1072,8 +1072,15 @@
         "calculatorViews7": 3
       },
       "checkAfter": "2026-11-07",
-      "status": "watching",
-      "note": "prerender.yml will regenerate chapter-11/*.html and federal-cases/*.html from the changed builder after this push; verify the card appears on a live record page before judging. If calculatorViews7 still doesn't move meaningfully, the next untried calculator lever (per the 2026-10-16/23 notes' own pattern of trying a different kind of change after repeated placement-only attempts) would be something other than another link -- e.g. a visible real-case example embedded directly on a record/matter page rather than a CTA pointing away from it."
+      "status": "helped",
+      "note": "prerender.yml will regenerate chapter-11/*.html and federal-cases/*.html from the changed builder after this push; verify the card appears on a live record page before judging. If calculatorViews7 still doesn't move meaningfully, the next untried calculator lever (per the 2026-10-16/23 notes' own pattern of trying a different kind of change after repeated placement-only attempts) would be something other than another link -- e.g. a visible real-case example embedded directly on a record/matter page rather than a CTA pointing away from it.",
+      "verdict": {
+        "date": "2026-11-07",
+        "value": {
+          "calculatorViews7": 8
+        },
+        "note": "Baseline calculatorViews7=3 (2026-10-31). Today's goals.json shows calculatorViews7=8 (+166.7%, clears the 25% threshold). ops/metrics/history/ shows toolViews7 climbing 3/4/3/4 (10-28..10-31, pre-ship) to 9/11/11/11/9/8 (11-01..11-06) and toolViews28 climbing steadily 9->20 over the same stretch -- a sustained rise, not a one-day blip. Same joint-effect caveat already used for imp-008/014/016: this is the fourth round of the same proven CTA-link pattern, so the move isn't separable from them, but it continues the established trend. calculatorViews7 is still far below the 50/week target."
+      }
     },
     {
       "id": "imp-045",
@@ -1090,8 +1097,13 @@
       "window": "n/a - awaiting Jeff's review",
       "baseline": {},
       "checkAfter": "2026-11-07",
-      "status": "watching",
-      "note": "NEEDS JEFF: G15 now has 8 concrete decisions. No code changed (Jeff-gated, not cloud-deployable)."
+      "status": "no clear effect",
+      "note": "NEEDS JEFF: G15 now has 8 concrete decisions. No code changed (Jeff-gated, not cloud-deployable).",
+      "verdict": {
+        "date": "2026-11-07",
+        "value": null,
+        "note": "Grepped ops/calculator-proposals.md end-to-end for any Jeff annotation since the 2026-10-31 (second run) entry (G15 decision 8) -- none found. Confirmed live ANALYSIS_VERSION is still \"v4.4\" in supabase/functions/case-valuation-analyze/index.ts while every public page/goals.json still shows v4.3, and no results-v4.4/ directory exists. Same non-decision as imp-011/025/026/028/032/034/040/043."
+      }
     },
     {
       "id": "imp-046",
@@ -1362,6 +1374,42 @@
       "checkAfter": null,
       "status": "no-op",
       "note": "Drafted 5 of the 6 new matters (live-368, 369, 370, 371, 373): a Botetourt County, VA landowner's FOIA suit to void a closed-session Google data-center deal; a Maricopa County ruling forcing Phoenix to defend its data-center zoning ordinance against a $54M Proposition 207 takings claim; American Dream Mall beating back its own bondholder trustee to keep an $850M Freeze Act tax cut; a CMBS trustee's foreclosure on Clipper Realty's Brooklyn office tower after NYC vacated its full 342,496 sq ft lease; and an Ohio appellate ruling that a foreclosure dismissed for failure to prosecute doesn't extinguish the mortgage. Skipped live-372 (JZ Investments, Inc. v. Chen Ji et al.) because its caption names an individual defendant from court records, per CLAUDE.md. Confirmed all 5 cited matter pages exist, and every fact copied verbatim from its published write-up in js/data.js, before publishing the draft. Also re-verified before picking this: site_audit.py clean (pagesChecked 825; missingDescription 2 / weakDescription 2 unchanged, both already-explained; longTitle 6, a pre-existing SEO-length flag on 6 pages, not a new regression -- not fixed this run since it would move the exact googleLandings7 metric imp-053 is already watching until 2026-11-11, and reverted this run's own regeneration of ops/metrics/audit.json and ops/metrics/goals.json before committing (not this routine's files to commit). check_case_fields.py clean (317 matters; OK). git log HEAD..origin/main empty before and after."
+    },
+    {
+      "id": "imp-059",
+      "date": "2026-11-07",
+      "track": "calculator",
+      "title": "Added a body-level Case Value Calculator link to all 16 state/category deep-dive pages (backlog G12/G2)",
+      "why": "Judged imp-044 (helped) and imp-045 (no clear effect) first, both checkAfter today -- see their own verdicts. With imp-044 closed, calculatorViews7 had no open watching entry for the first time since 2026-10-31, and calculator (mostBehind rank 2, gap 0.566) hadn't shipped a goal-metric change since imp-044 itself -- the last 2 log entries (imp-057 subscription, imp-058 traffic/social-drafts) left it untouched. Checked the other goals by metric first: traffic (imp-053 open on visits7/googleLandings7 until 2026-11-11), conversion (imp-046 open on newsletterSignups7/signUps7 until 2026-11-08, imp-056 open on multiPageRate7Adjusted until 2026-11-12; follows7 has no open entry but G17's code-level trace already found its real blocker is the off-limits magic-link flow in js/auth.js, so a copy/placement-only test would likely just repeat imp-007/010/013's 'no clear effect' a fourth time), news (on track; imp-052 open until 2026-11-10) -- calculator was the genuinely unblocked, most-behind lever. imp-044's own note said the next calculator lever after four rounds of linking from index.html/litigation.html/matter pages/bankruptcy-watch/lawsuit-watch/record pages should probably be something other than another link -- but the two concrete 'real example' sources available (case-valuation.html's static sample card, case-valuation-worked-examples.html) are both flagged NEEDS JEFF in G15 as describing the pre-v4 method (invented probabilities like '90-97%' and '65-90%' that match none of the six live STRENGTH_BANDS in supabase/functions/case-valuation-analyze/valuation-math.ts) and explicitly awaiting Jeff's decision on which generation (v4.4 vs v6) is current before any rewrite -- rewriting them now would make an uninformed guess at exactly the open question G15 flags, so left both untouched. Also checked whether the company-*.html/judge-*.html/parties/*.html/properties/*.html profile pages (115 pages, never promoted) were a safe alternative -- they are generated by scripts/build_entity_pages.ts, which is not in this playbook's 'what the routine may change' list (only build_matter_pages.ts/build_record_pages.ts/prerender.ts/build_sitemap.py are), so left them alone too. Found a real, in-scope, non-redundant gap instead: all 16 of state-guides.html's state+category deep-dive pages (G12's own traffic-track pages, built 2026-10-09 through 2026-11-04) only ever had the nav-dropdown calculator link, the exact same gap litigation.html/matter pages/bankruptcy-watch.html/lawsuit-watch.html/record pages each had before being fixed (imp-008/014/044) -- confirmed by grepping all 16 files for 'case-valuation' (count=2 each, both nav). These are hand-authored root HTML pages (not built by an off-limits script), topically on-point (a visitor reading about lending & foreclosure litigation in California is a natural audience for 'what would a case like this be worth'), and the real-matter-count context on each page (e.g. '6 matters currently tracked in California courts') makes the link relevant without needing any new copy pattern. Added one line, styled identically to the existing 'View all state guides' paragraph, linking case-valuation.html with the correct calculator category pre-filled via the query string (mapping each state-guide's own category label to the calculator's narrower 8-category vocabulary per CLAUDE.md: both 'Landlord-Tenant' and 'Commercial Lease Disputes' state-guide categories map to the calculator's single 'lease-disputes' category, exactly the same mapping build_matter_pages.ts already uses). Verified the category mapping against the actual top-level keys of CASE_VALUATION_DATA.spec.categories in js/case-valuation-data.js before writing any link, not guessed.",
+      "files": [
+        "california-landlord-tenant.html",
+        "california-lending-foreclosure.html",
+        "california-zoning-land-use.html",
+        "florida-lending-foreclosure.html",
+        "florida-reit-securities.html",
+        "illinois-lease-disputes.html",
+        "illinois-lending-foreclosure.html",
+        "minnesota-lending-foreclosure.html",
+        "new-jersey-eminent-domain.html",
+        "new-jersey-reit-securities.html",
+        "new-york-landlord-tenant.html",
+        "new-york-lease-disputes.html",
+        "new-york-lending-foreclosure.html",
+        "pennsylvania-landlord-tenant.html",
+        "rhode-island-eminent-domain.html",
+        "texas-lending-foreclosure.html",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "67198b97123c858a1b3c6655e5e99639bc27a996",
+      "metric": "goals.json calculator.metrics.calculatorViews7 (toolViews['case-valuation'])",
+      "window": "7 days",
+      "baseline": {
+        "calculatorViews7": 8
+      },
+      "checkAfter": "2026-11-14",
+      "status": "watching",
+      "note": "HTML tag balance checked clean on all 16 files with a void-element-aware Python HTMLParser checker; site_audit.py (brokenLinks/orphanPages/missingFromSitemap all still 0, pagesChecked unchanged at 832) and check_case_fields.py both re-run clean after the change. No .ts/.js files touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule that file belongs to the metrics-snapshot workflow. 16 separate pages with the same one-line addition is a small, reviewable diff (22 insertions total) even though it touches many files. If calculatorViews7 doesn't move much by checkAfter, this backlog (G12/G2) is close to exhausted on the 'add another link' lever -- the next untried idea would need to be a real embedded example, which is blocked on G15's Jeff decision, or something outside page-level linking entirely."
     }
   ]
 }
