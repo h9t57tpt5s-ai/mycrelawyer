@@ -1,0 +1,16 @@
+{
+  "id": "live-376",
+  "title": "CommunityAmerica Credit Union v. Liberty 35 Wacker LLC (Leo Burnett Building Foreclosure)",
+  "category": "lending-foreclosure",
+  "status": "filed",
+  "date": "2026-11-05",
+  "jurisdiction": "Circuit Court of Cook County, Illinois, Chancery Division",
+  "state": "IL",
+  "amount": "$236 million owed on an originally ~$220 million loan",
+  "source": "live",
+  "source_url": "https://therealdeal.com/chicago/2026/11/05/shaya-pragers-35-west-wacker-faces-236m-foreclosure-suit/",
+  "summary": "CommunityAmerica Credit Union sued to foreclose on a roughly $220 million loan, now totaling $236 million with accrued interest and fees, secured by 35 West Wacker Drive, the 50-story, approximately 1.1-million-square-foot Chicago office tower also known as the Leo Burnett Building. The suit, filed in Cook County Circuit Court on November 5, 2026, names borrower Liberty 35 Wacker LLC, an affiliate of investor Shaya Prager's Opal Holdings, and seeks appointment of a receiver.",
+  "significance": "CommunityAmerica inherited the loan through its merger with Unify Financial Credit Union, which had previously lent to other Prager entities, illustrating how loan portfolios and the sponsor-level distress that comes with them pass between lenders through consolidation. Prager personally guaranteed the loan but isn't named as a defendant while an involuntary Chapter 7 bankruptcy petition against him and his wife remains contested, showing how a pending personal bankruptcy can delay collection against a guarantor even as secured creditors move directly against the collateral and borrowing entity.",
+  "judge": null,
+  "tags": ["cmbs-style-foreclosure", "chicago", "office", "receivership", "personal-guaranty"]
+}

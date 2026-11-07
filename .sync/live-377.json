@@ -1,0 +1,16 @@
+{
+  "id": "live-377",
+  "title": "Fountain Place, LLC v. City of Logan Development Authority (Tax-Rebate Development Agreement Dismissal Affirmed)",
+  "category": "zoning-land-use",
+  "status": "ruling",
+  "date": "2026-11-06",
+  "jurisdiction": "Intermediate Court of Appeals of West Virginia",
+  "state": "WV",
+  "amount": "Ongoing 57% share of the shopping center's business-and-occupancy tax revenue (no total dollar figure stated)",
+  "source": "live",
+  "source_url": "https://www.courtswv.gov/sites/default/pubfilesmnt/2026-11/25-ICA-334%20Opinion.pdf",
+  "summary": "West Virginia's Intermediate Court of Appeals affirmed the dismissal of a breach-of-contract suit by Fountain Place, LLC against the City of Logan and the dissolved City of Logan Development Authority over a 1997 development agreement that had paid the shopping center's owner 57% of municipal business-and-occupancy taxes collected from its tenants in exchange for not opposing the property's annexation. The City stopped making the payments in May 2021, concluding it was no longer legally obligated, and the circuit court dismissed Fountain Place's 2023 suit on statutory-immunity and estoppel grounds, which the appellate court affirmed on November 6, 2026.",
+  "significance": "The ruling shows that a municipality's statutory immunity following a development authority's dissolution can defeat a decades-old incentive agreement even where the city itself kept making payments for years afterward, and that years of voluntary municipal compliance will not necessarily estop a government defendant from later challenging the deal's validity. The appellate panel also notably avoided resolving a live constitutional question, whether the arrangement was an unconstitutional municipal debt never submitted to voters, leaving that issue open for a future dispute to test.",
+  "judge": "Ryan White",
+  "tags": ["tax-incentive", "development-agreement", "municipal-immunity", "west-virginia", "shopping-center"]
+}

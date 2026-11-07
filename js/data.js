@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-06",
+  lastUpdatedDate: "2026-11-07",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -13102,6 +13102,93 @@ const RELAW_DATA = {
       timeline: [
         { when: "October 30, 2026", label: "Torchlight files suit in Cook County Circuit Court seeking to halt conversion work", current: true }
       ]
+    },
+    {
+      id: "live-376",
+      seoTitle: "35 West Wacker: CommunityAmerica Sues to Foreclose $236M Loan",
+      seoDescription: "CommunityAmerica Credit Union sued to foreclose a $236M loan on Shaya Prager's 35 West Wacker Drive office tower in Chicago's Loop.",
+      addedDate: "2026-11-07",
+      featured: true,
+      property: { name: "35 West Wacker Drive (Leo Burnett Building)", address: "35 West Wacker Drive", city: "Chicago", state: "IL" },
+      propertyType: "Office",
+      title: "CommunityAmerica Credit Union v. Liberty 35 Wacker LLC (Leo Burnett Building Foreclosure)",
+      brief: "CommunityAmerica Credit Union sued in Cook County to foreclose a $236 million loan on Shaya Prager's 35 West Wacker Drive office tower after borrower Liberty 35 Wacker LLC defaulted.",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-11-05",
+      jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      state: "IL",
+      amount: "$236 million owed on an originally ~$220 million loan",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/11/05/shaya-pragers-35-west-wacker-faces-236m-foreclosure-suit/",
+      summary: "CommunityAmerica Credit Union sued to foreclose on a roughly $220 million loan, now totaling $236 million with accrued interest and fees, secured by 35 West Wacker Drive, the 50-story, approximately 1.1-million-square-foot Chicago office tower also known as the Leo Burnett Building. The suit, filed in Cook County Circuit Court on November 5, 2026, names borrower Liberty 35 Wacker LLC, an affiliate of investor Shaya Prager's Opal Holdings, and seeks appointment of a receiver.",
+      significance: "CommunityAmerica inherited the loan through its merger with Unify Financial Credit Union, which had previously lent to other Prager entities, illustrating how loan portfolios and the sponsor-level distress that comes with them pass between lenders through consolidation. Prager personally guaranteed the loan but isn't named as a defendant while an involuntary Chapter 7 bankruptcy petition against him and his wife remains contested, showing how a pending personal bankruptcy can delay collection against a guarantor even as secured creditors move directly against the collateral and borrowing entity.",
+      body: [
+        "CommunityAmerica Credit Union filed suit in Cook County Circuit Court on November 5, 2026 to foreclose on a roughly $220 million loan, now totaling $236 million with accrued interest and fees, secured by 35 West Wacker Drive, the 50-story, approximately 1.1-million-square-foot office tower in Chicago's Loop better known as the Leo Burnett Building. The borrower, Liberty 35 Wacker LLC, is an affiliate of Opal Holdings, the real estate investment firm controlled by New York-based investor Shaya Prager. It is the latest in a lengthening string of foreclosure actions against Prager's Midwest office holdings and underscores how quickly distress can spread across a single sponsor's portfolio once one lender moves to collect.",
+        "The loan landed in CommunityAmerica's hands through acquisition, not origination: the credit union inherited it as part of its merger with Unify Financial Credit Union, which had previously extended credit to Prager-controlled entities, including on a separate Deerfield, Illinois office property. According to the complaint, Liberty 35 Wacker has defaulted on its obligations, and CommunityAmerica is asking the court to appoint a receiver to take control of the building's operations and rent collection while the foreclosure proceeds, a standard move for a lender seeking to preserve collateral value during a contested case.",
+        "Prager personally guaranteed the Wacker loan, which ordinarily would expose him to a deficiency claim if the foreclosure sale proceeds fall short of the outstanding balance. He is not, however, named as a defendant in this suit. That omission traces to an involuntary Chapter 7 bankruptcy petition that creditors filed against Prager and his wife, Shulamit, in April 2026, which both are contesting; a trial on their motion to dismiss that petition has been set for February. While that case remains pending, the automatic stay that accompanies a bankruptcy filing generally shields Prager from new or continued collection efforts against him personally, even as his corporate borrowing entities remain fair game for secured creditors pursuing collateral directly.",
+        "The Wacker foreclosure does not arrive in isolation. Earlier in 2026, GreenState Credit Union, which had itself taken over a loan originally made by Unify Financial Credit Union, foreclosed on Prager's leasehold interest in a Deerfield, Illinois corporate campus. Separately, Wings Federal Credit Union sued Prager over a roughly $41 million loan tied to a Minneapolis-area office complex. Taken together, lenders have already secured more than $122 million in personal judgments against Prager, and CommunityAmerica itself separately holds a roughly $19.1 million foreclosure judgment against a Manhattan property tied to the Pragers. The Wacker suit adds a marquee downtown Chicago tower to that growing list.",
+        "35 West Wacker's underlying real estate is not itself distressed in the way a half-empty suburban office park might be. The tower's anchor tenants include Leo Burnett, now under the Publicis umbrella, and the law firm Winston & Strawn, and the building has at times been reported near full occupancy. That makes the case less a story about collapsing demand for the physical asset and more a story about sponsor-level balance sheet stress, where a borrower whose broader portfolio has absorbed multiple defaults, judgments, and now a contested personal bankruptcy can find even a well-leased, well-located building swept into foreclosure once a lender concludes workout negotiations are no longer productive.",
+        "The case is a reminder that a personal guaranty's practical value depends heavily on the guarantor's own solvency and litigation posture, since a pending bankruptcy filing can delay collection against an individual guarantor even while a lender proceeds against the borrowing entity and collateral. It also shows that a building's own leasing fundamentals are not a reliable predictor of whether it ends up in foreclosure, that lenders who acquire loan portfolios through mergers inherit the sponsor relationships behind them along with the receivables, and that owners and lenders tracking a sponsor across multiple properties should treat a new foreclosure filing as a signal to review cross-default and cross-collateralization provisions in their own loan documents with that same sponsor, since distress has shown a documented tendency to cascade across a single borrower's holdings once it becomes public."
+      ],
+      judge: null,
+      parties: [
+        { name: "CommunityAmerica Credit Union", role: "Plaintiff" },
+        { name: "Liberty 35 Wacker LLC", role: "Defendant" }
+      ],
+      amountUsd: 236000000,
+      amountBasis: "loan",
+      tags: ["cmbs-style-foreclosure", "chicago", "office", "receivership", "personal-guaranty"],
+      timeline: [
+        { when: "November 5, 2026", label: "CommunityAmerica Credit Union files foreclosure suit in Cook County Circuit Court, seeking a receiver", current: true }
+      ]
+    },
+    {
+      id: "live-377",
+      seoTitle: "WV Court Kills Mall's 25-Year Tax Rebate Suit Against City of Logan",
+      seoDescription: "West Virginia's appeals court affirmed dismissal of Fountain Place mall's suit over a lapsed business-tax rebate from the City of Logan.",
+      addedDate: "2026-11-07",
+      property: { name: "Fountain Place shopping center", city: "Logan", state: "WV" },
+      propertyType: "Retail",
+      title: "Fountain Place, LLC v. City of Logan Development Authority (Tax-Rebate Development Agreement Dismissal Affirmed)",
+      brief: "West Virginia's Intermediate Court of Appeals affirmed dismissal of a shopping center owner's suit demanding a 57% business-tax rebate the City of Logan stopped paying in 2021 under a 1997 annexation incentive deal.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-06",
+      jurisdiction: "Intermediate Court of Appeals of West Virginia",
+      state: "WV",
+      amount: "Ongoing 57% share of the shopping center's business-and-occupancy tax revenue (no total dollar figure stated)",
+      source: "live",
+      sourceUrl: "https://www.courtswv.gov/sites/default/pubfilesmnt/2026-11/25-ICA-334%20Opinion.pdf",
+      docketUrl: "https://www.courtlistener.com/opinion/11056853/fountain-place-llc-v-city-of-logan-development-authority-fountain-place/",
+      docketLabel: "CourtListener opinion",
+      summary: "West Virginia's Intermediate Court of Appeals affirmed the dismissal of a breach-of-contract suit by Fountain Place, LLC against the City of Logan and the dissolved City of Logan Development Authority over a 1997 development agreement that had paid the shopping center's owner 57% of municipal business-and-occupancy taxes collected from its tenants in exchange for not opposing the property's annexation. The City stopped making the payments in May 2021, concluding it was no longer legally obligated, and the circuit court dismissed Fountain Place's 2023 suit on statutory-immunity and estoppel grounds, which the appellate court affirmed on November 6, 2026.",
+      significance: "The ruling shows that a municipality's statutory immunity following a development authority's dissolution can defeat a decades-old incentive agreement even where the city itself kept making payments for years afterward, and that years of voluntary municipal compliance will not necessarily estop a government defendant from later challenging the deal's validity. The appellate panel also notably avoided resolving a live constitutional question, whether the arrangement was an unconstitutional municipal debt never submitted to voters, leaving that issue open for a future dispute to test.",
+      body: [
+        "The Intermediate Court of Appeals of West Virginia, in an opinion by Judge Ryan White filed November 6, 2026, affirmed the dismissal of a breach-of-contract suit brought by Fountain Place, LLC against the City of Logan and the now-defunct City of Logan Development Authority over a decades-old economic development agreement that had once paid the shopping center's owner more than half of the municipal business taxes collected from its tenants. The ruling closes off, at least for now, a revenue stream the center's ownership had relied on since the late 1990s, and offers a cautionary lesson for developers who structure long-term incentive deals around a municipal authority's continued existence.",
+        "The dispute traces to 1997, when the City of Logan and the Development Authority it had created entered into a Development Agreement with Monterra, the predecessor-in-interest to what is now Fountain Place, LLC, to facilitate construction of a shopping center in an unincorporated part of Logan County. In exchange for Monterra's agreement not to object to the City annexing the property, the City and Development Authority agreed to remit 57% of the business and occupancy taxes collected from businesses operating at the completed shopping center to Monterra and its successors for an initial 20-year term, with an option to renew for an additional ten years. The agreement also exempted the developer from paying its own business and occupancy taxes on construction, rental, and leasing activity at the property, an exemption from which neither Monterra nor Fountain Place has ever deviated.",
+        "Monterra built the shopping center, which still operates as the Fountain Place mall, but filed for bankruptcy in 1999; a federal bankruptcy court assigned the Development Agreement's rights, including the tax-rebate payments, to Fountain Place, LLC without objection. The City kept making the 57% payments for years, even after the Development Authority itself dissolved around 2013, with Fountain Place collecting directly from the City instead. In 2016, Fountain Place formally exercised its option to renew the agreement through 2027, and the City did not object, continuing to pay until May 2021, when it abruptly concluded it was no longer legally obligated to do so.",
+        "Fountain Place sued for breach of contract and declaratory judgment in the Circuit Court of Logan County in August 2023. The City and Development Authority moved to dismiss, and the circuit court granted that motion in July 2025 on three independent grounds: that the Development Agreement created an unconstitutional municipal indebtedness under Article X, Section 8 of the West Virginia Constitution because it was never submitted to a public vote; that the City was statutorily immune from any liabilities of the Development Authority, which had dissolved years earlier; and that the City was not estopped from challenging the agreement's lawfulness despite having honored it for more than two decades.",
+        "On appeal, the Intermediate Court of Appeals affirmed, but notably declined to resolve the constitutional debt-limit question the circuit court had reached first. Instead, Judge White's opinion rested the affirmance on narrower grounds: the dissolution of the Development Authority under West Virginia's statutory scheme governing such authorities, and the court's estoppel jurisprudence, which the panel found dispositive without need to decide whether the original arrangement amounted to unconstitutional municipal debt. The West Virginia Attorney General's office filed an amicus brief supporting the City and Development Authority. Shopping center affiliates Fountain Place Realty, LLC and Namdar DG Realty, LLC were also named as respondents below and on appeal, reflecting the property's ties to Namdar Realty Group, a frequent acquirer of regional malls nationally.",
+        "For developers who negotiate long-term municipal incentive payments tied to a dedicated development authority, the case is a reminder to build in contingencies for what happens if that authority dissolves, since courts may treat a municipality's post-dissolution statutory immunity as controlling even where the city kept paying for years afterward. It also shows that a municipality's years of voluntary compliance will not necessarily estop it from later challenging an agreement's validity, that reliance-based estoppel arguments carry less weight against government defendants than against private counterparties, and that appellate courts will often resolve a case on the narrowest available ground, leaving a live constitutional question unresolved for a future dispute. Owners negotiating annexation-linked tax-sharing deals should assume judicial scrutiny may eventually turn on whether the agreement was ever submitted to voters, particularly in states with constitutional debt-limitation provisions requiring public approval for municipal indebtedness above a statutory threshold."
+      ],
+      judge: "Ryan White",
+      parties: [
+        { name: "Fountain Place, LLC", role: "Petitioner" },
+        { name: "City of Logan Development Authority", role: "Respondent" },
+        { name: "City of Logan, West Virginia", role: "Respondent" },
+        { name: "Fountain Place Realty, LLC", role: "Respondent" },
+        { name: "Namdar DG Realty, LLC", role: "Respondent" }
+      ],
+      amountUsd: null,
+      tags: ["tax-incentive", "development-agreement", "municipal-immunity", "west-virginia", "shopping-center"],
+      timeline: [
+        { when: "1997", label: "City of Logan and Development Authority sign Development Agreement with Monterra" },
+        { when: "May 2021", label: "City of Logan stops making the 57% tax-rebate payments" },
+        { when: "August 2023", label: "Fountain Place sues for breach of contract in Circuit Court of Logan County" },
+        { when: "July 18, 2025", label: "Circuit Court dismisses the suit on immunity and estoppel grounds" },
+        { when: "November 6, 2026", label: "Intermediate Court of Appeals of West Virginia affirms the dismissal", current: true }
+      ]
     }
   ],
 
@@ -14277,6 +14364,14 @@ const RELAW_DATA = {
       court: "Court of Appeals of Georgia",
       background: "Elected to the Court of Appeals of Georgia in 2024 and took office January 1, 2025, after serving as director of the Georgia Judicial Qualifications Commission. A 1987 graduate of the University of Tennessee at Chattanooga.",
       bioUrl: "https://www.gaappeals.gov/?p=5075"
+    },
+    {
+      name: "Ryan White",
+      slug: "ryan-white",
+      title: "Judge, Division 1 — authored the panel opinion",
+      court: "Intermediate Court of Appeals of West Virginia",
+      background: "Elected in 2024 as the first judge to win a seat on West Virginia's newly created Intermediate Court of Appeals, Division 1, taking office for a 10-year term on January 1, 2025. Previously a practicing attorney for 18 years, including founding White Law Offices, PLLC in 2012 after working at Jackson Kelly PLLC; clerked for Judge Joseph R. Goodwin of the U.S. District Court for the Southern District of West Virginia from 2005 to 2006.",
+      bioUrl: "https://www.courtswv.gov/appellate-courts/intermediate-court-of-appeals/judges-staff/judge-white"
     }
   ],
 
@@ -14335,6 +14430,7 @@ const RELAW_DATA = {
     { name: "JBG Smith Properties", matchTerm: "JBG Smith", slug: "jbg-smith", description: "Washington, D.C.-area REIT and real estate operating company focused on mixed-use office, multifamily, and retail development.", website: "https://www.jbgsmith.com" },
     { name: "Federal Home Loan Mortgage Corporation (Freddie Mac)", matchTerm: "Freddie Mac", slug: "freddie-mac", description: "Federally chartered mortgage finance enterprise that purchases and guarantees multifamily mortgage loans and frequently appears as foreclosing lender or loan guarantor in commercial mortgage litigation.", website: "https://www.freddiemac.com" },
     { name: "Walker & Dunlop, Inc.", matchTerm: "Walker & Dunlop", slug: "walker-dunlop", description: "Bethesda, Maryland-based commercial real estate finance and advisory firm that originates and services multifamily loans for Fannie Mae and Freddie Mac, frequently appearing as loan servicer or foreclosing plaintiff in agency-backed multifamily foreclosure litigation.", website: "https://www.walkerdunlop.com" },
-    { name: "Hillwood", matchTerm: "Hillwood", slug: "hillwood", description: "Dallas-based private real estate development firm founded by Ross Perot Jr., active nationally in industrial, mixed-use, and large-scale data center development." }
+    { name: "Hillwood", matchTerm: "Hillwood", slug: "hillwood", description: "Dallas-based private real estate development firm founded by Ross Perot Jr., active nationally in industrial, mixed-use, and large-scale data center development." },
+    { name: "CommunityAmerica Credit Union", matchTerm: "CommunityAmerica", slug: "communityamerica-credit-union", description: "Lenexa, Kansas-based credit union that originates and acquires commercial mortgage loans, frequently appearing as foreclosing plaintiff in office and other commercial property litigation nationally.", website: "https://www.communityamerica.com" }
   ]
 };
