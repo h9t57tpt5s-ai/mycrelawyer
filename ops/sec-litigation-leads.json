@@ -1,7 +1,91 @@
 {
- "updatedAt": "2026-11-06T19:56:34+00:00",
+ "updatedAt": "2026-11-07T07:04:22+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001628280-26-071703:rc-20260930.htm",
+   "company": "Ready Capital Corp  (RC, RCD, RC-PC, RC-PE)",
+   "cik": "1527590",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-06",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1527590/000162828026071703/rc-20260930.htm",
+   "phrases": [
+    "deed in lieu of foreclosure",
+    "filed a lawsuit",
+    "putative class action"
+   ],
+   "excerpts": [
+    "The defendants intend to vigorously defend against the Broadmark State Court Litigation, the Broadmark Federal Court Litigation, and the Broadmark Derivative Litigation. Legacy UDF IV litigation As a result of the UDF IV Merger, the Company assumed certain outstanding litigation against UDF IV and affiliated parties. On March 20, 2020, Megatel Homes, LLC and certain of its affiliates filed a lawsuit against Mehrdad Moayedi, United Development Funding, L.P., United Development Funding II, L.P., United Development Funding III, L.P., UDF IV, United Development Funding V, and various other affiliates (collectively the \u201cUDF Defendants\u201d) in the United States District Court for the Northern District of Texas, captioned Megatel Homes LLC, et al.",
+    "The Company and the demanding stockholder have agreed to hold the Derivative Demand Letter in abeyance until: (i) the defendants\u2019 motion to dismiss in the Exchange Act Litigation is denied in whole or in part; or (ii) the demanding stockholder or the Company give written notice that they no longer consent to the voluntary abeyance of the Derivative Demand Letter. On May 8 and May 14, 2025, the Company and certain of its executive officers and directors were named as defendants in two separate but largely identical putative class action lawsuits filed by former Broadmark stockholders in the Superior Court for King County, Washington (the \u201cBroadmark State Court Actions\u201d). Certain former directors and officers of Broadmark and certain affiliates of the Company and its directors, including Waterfall, were also named as defendants. The Broadmark State Court Actions were filed under the captions van Wyk et al.",
+    "On May 1, 2026, the plaintiffs in the Broadmark State Court Litigation and the lead plaintiff in the Broadmark Federal Court Litigation jointly moved for class certification and to be appointed co-class representatives in the Broadmark State Court Litigation. The defendants filed their opposition to the class certification motion on July 1, 2026, and the plaintiffs filed their class certification reply on September 11, 2026. On May 28, 2025, the Company and certain of its executive officers and directors were named as defendants in a putative class action filed by a former Broadmark stockholder in the United States District Court for the Western District of Washington (the \u201cBroadmark Federal Court Litigation\u201d). Broadmark and certain of its former directors and officers were also named as defendants. The Broadmark Federal Court Litigation is captioned Grant v."
+   ],
+   "captions": [],
+   "courts": [
+    "Superior Court for King County",
+    "United States District Court for the Northern District of Texas",
+    "United States District Court for the Western District of Washington"
+   ],
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "0001193125-26-451872:acr-ex99_1.htm",
+   "company": "ACRES Commercial Realty Corp.  (ACR, ACR-PC, ACR-PD)",
+   "cik": "1332551",
+   "sic": "6798",
+   "form": "8-K",
+   "filed": "2026-11-06",
+   "periodEnding": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1332551/000119312526451872/acr-ex99_1.htm",
+   "phrases": [
+    "appointment of a receiver"
+   ],
+   "excerpts": [
+    "After giving effect to each Transaction (A) the amount of the \u201cpresent fair saleable value\u201d of the assets of Seller will, as of such date, exceed the amount of all \u201cliabilities of Seller, contingent or otherwise\u201d, as of such date, as such quoted terms are determined in accordance with applicable federal and state laws governing determinations of the insolvency of debtors, (B) the present fair saleable value of the assets of Seller will, as of such date, be greater than the amount that will be required to pay the liabilities of Seller on its debts as such debts become absolute and matured, (C) Seller will not have, as of such date, an unreasonably small amount of capital with which to conduct its businesses, and (D) Seller will be able to pay its debts as they mature. Seller does not intend to incur, or believe that it has incurred, debts beyond its ability to pay such debts as they mature. Seller is not contemplating the commencement of insolvency, bankruptcy, liquidation or consolidation proceedings or the appointment of a receiver, liquidator, conservator, trustee or similar official in respect of Seller or any of its assets. Seller is not transferring any New Asset with any inte"
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "0001674356-26-000029:tpt-20260930.htm",
+   "company": "Terra Property Trust, Inc.  (TPTS)",
+   "cik": "1674356",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-06",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1674356/000167435626000029/tpt-20260930.htm",
+   "phrases": [
+    "deed in lieu of foreclosure"
+   ],
+   "excerpts": [
+    "Actual results may ultimately differ from those estimates, and those differences could be material. Segment Information The Company\u2019s primary business is originating, acquiring and structuring real estate-related loans related to high quality commercial real estate. From time to time, the Company may assume control of properties acquired in connection with foreclosures or deed in lieu of foreclosure, or it may acquire operating real estate properties that meet its investment criteria. The Company operates as one segment, which is also its sole reportable segment, focused on mezzanine loans, senior loans and preferred equity investments, and to a lesser extent, owning and managing real estate. The Company\u2019s chief operating decision maker (\u201cCODM\u201d) is its senior management team, comprised of its chief executive officer who is also the chief 13 Notes to Unaudited Consolidated Financial Statements investment officer, chief operating officer, chief financial officer, chief originations officer and the head of asset management of the Manager."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "key": "0001628280-26-071569:efc-20260930.htm",
+   "company": "Ellington Financial Inc.  (EFC, EFC-PB, EFC-PC, EFC-PD)",
+   "cik": "1411342",
+   "sic": "6500",
+   "form": "10-Q",
+   "filed": "2026-11-06",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1411342/000162828026071569/efc-20260930.htm",
+   "phrases": [
+    "deed in lieu of foreclosure"
+   ],
+   "excerpts": [
+    "Under the provisions of ASU 2014-04, the Company is deemed to have received physical possession of real estate property collateralizing a mortgage loan when it obtains legal title to the property upon completion of a foreclosure or when the borrower conveys all interest in the property to it through a deed in lieu of foreclosure or similar legal agreement. The Company's initial cost basis in REO is equal to the fair value of the real estate associated with the foreclosed mortgage loan, less expected costs to sell. REO valuations are reflected at the lower of cost or fair value. The fair value of such REO is typically based on management's estimates which generally use information including general economic data, BPOs, recent sales, property appraisals, and bids, and takes into account the expected costs to sell the property."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-07"
+  },
   {
    "key": "0001037540-26-000043:bxp-20260930.htm",
    "company": "BXP, Inc.  (BXP)",
