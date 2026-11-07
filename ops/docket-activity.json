@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T16:52:08+00:00",
+ "updatedAt": "2026-11-07T15:48:10+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
  "requestsUsed": 22,
  "errors": [],
@@ -17,6 +17,34 @@
   },
   "66581116": {
    "entries": [
+    {
+     "date": "2026-11-06",
+     "number": 182,
+     "text": "Declaration",
+     "url": "https://www.courtlistener.com/docket/66581116/182/dillard-store-services-inc-v-winrock-partners-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-06",
+     "number": 181,
+     "text": "Declaration",
+     "url": "https://www.courtlistener.com/docket/66581116/181/dillard-store-services-inc-v-winrock-partners-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-06",
+     "number": 180,
+     "text": "Response in Opposition to Motion",
+     "url": "https://www.courtlistener.com/docket/66581116/180/dillard-store-services-inc-v-winrock-partners-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-06",
+     "number": 179,
+     "text": "Supplement",
+     "url": "https://www.courtlistener.com/docket/66581116/179/dillard-store-services-inc-v-winrock-partners-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-11-03",
      "number": 178,
@@ -44,13 +72,6 @@
      "text": "Order",
      "url": "https://www.courtlistener.com/docket/66581116/174/dillard-store-services-inc-v-winrock-partners-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-22",
-     "number": 173,
-     "text": "Order AND ~Util - Set Deadlines/Hearings AND ~Util - Terminate Motions",
-     "url": "https://www.courtlistener.com/docket/66581116/173/dillard-store-services-inc-v-winrock-partners-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -60,10 +81,17 @@
    "docketNumber": "1:22-cv-00921",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/66581116/dillard-store-services-inc-v-winrock-partners-llc/",
-   "lastEntryDate": "2026-11-03"
+   "lastEntryDate": "2026-11-06"
   },
   "66730007": {
    "entries": [
+    {
+     "date": "2026-11-06",
+     "number": 122,
+     "text": "Response in Opposition to Motion",
+     "url": "https://www.courtlistener.com/docket/66730007/122/wells-fargo-bank-national-association-as-trusteefor-the-benefit-of/",
+     "ruling": false
+    },
     {
      "date": "2026-10-30",
      "number": 121,
@@ -86,7 +114,7 @@
    "docketNumber": "2:23-cv-00146",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/66730007/wells-fargo-bank-national-association-as-trusteefor-the-benefit-of/",
-   "lastEntryDate": "2026-10-30"
+   "lastEntryDate": "2026-11-06"
   },
   "67174489": {
    "entries": [
@@ -404,6 +432,20 @@
   "69723262": {
    "entries": [
     {
+     "date": "2026-11-06",
+     "number": 83,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/69723262/83/scls-realty-llc-v-town-of-johnston-rhode-island/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-06",
+     "number": 82,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/69723262/82/scls-realty-llc-v-town-of-johnston-rhode-island/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-09",
      "number": 81,
      "text": "Order on Motion for Protective Order AND Order on Motion for Protective Order AND Order on Motion to Compel AND Order on Motion to Compel AND Order on Motion to",
@@ -444,20 +486,6 @@
      "text": "Transcript Order",
      "url": "https://www.courtlistener.com/docket/69723262/79/scls-realty-llc-v-town-of-johnston-rhode-island/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-21",
-     "number": 78,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/69723262/78/scls-realty-llc-v-town-of-johnston-rhode-island/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-21",
-     "number": null,
-     "text": "Order on Motion to Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/69723262/scls-realty-llc-v-town-of-johnston-rhode-island/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -467,7 +495,7 @@
    "docketNumber": "1:25-cv-00088",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69723262/scls-realty-llc-v-town-of-johnston-rhode-island/",
-   "lastEntryDate": "2026-10-09"
+   "lastEntryDate": "2026-11-06"
   },
   "70189262": {
    "entries": [
@@ -832,6 +860,13 @@
   "73578741": {
    "entries": [
     {
+     "date": "2026-11-06",
+     "number": 26,
+     "text": "Extension of Time to File",
+     "url": "https://www.courtlistener.com/docket/73578741/26/keller-v-udr-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-03",
      "number": 22,
      "text": "Request to Appear Pro Hac Vice",
@@ -879,13 +914,6 @@
      "text": "Notice of Change of Address",
      "url": "https://www.courtlistener.com/docket/73578741/17/keller-v-udr-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-20",
-     "number": 16,
-     "text": "Order on Motion for Extension of Time to File Response/Reply",
-     "url": "https://www.courtlistener.com/docket/73578741/16/keller-v-udr-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -895,7 +923,7 @@
    "docketNumber": "3:26-cv-03865",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
-   "lastEntryDate": "2026-11-03"
+   "lastEntryDate": "2026-11-06"
   },
   "73684397": {
    "entries": [
@@ -1036,6 +1064,20 @@
   "73733742": {
    "entries": [
     {
+     "date": "2026-11-06",
+     "number": 57,
+     "text": "Motion Hearing",
+     "url": "https://www.courtlistener.com/docket/73733742/57/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-06",
+     "number": 56,
+     "text": "Status Conference",
+     "url": "https://www.courtlistener.com/docket/73733742/56/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-26",
      "number": 55,
      "text": "Notice (Other)",
@@ -1076,20 +1118,6 @@
      "text": "Objections",
      "url": "https://www.courtlistener.com/docket/73733742/50/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 49,
-     "text": "Objections",
-     "url": "https://www.courtlistener.com/docket/73733742/49/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 48,
-     "text": "Objections",
-     "url": "https://www.courtlistener.com/docket/73733742/48/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1099,7 +1127,7 @@
    "docketNumber": "5:26-cv-05612",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73733742/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-   "lastEntryDate": "2026-10-26"
+   "lastEntryDate": "2026-11-06"
   },
   "73738334": {
    "entries": [
@@ -1172,6 +1200,20 @@
   "74638795": {
    "entries": [
     {
+     "date": "2026-11-06",
+     "number": 11,
+     "text": "Appoint Receiver",
+     "url": "https://www.courtlistener.com/docket/74638795/11/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-06",
+     "number": null,
+     "text": "Set/Reset Motion and R&R Deadlines/Hearings",
+     "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-29",
      "number": 10,
      "text": "Amended Complaint",
@@ -1212,20 +1254,6 @@
      "text": "Request for Default Judgment by Clerk",
      "url": "https://www.courtlistener.com/docket/74638795/6/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
      "ruling": true
-    },
-    {
-     "date": "2026-10-08",
-     "number": null,
-     "text": "Clerks Entry of Default",
-     "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 5,
-     "text": "Affidavit",
-     "url": "https://www.courtlistener.com/docket/74638795/5/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1235,7 +1263,7 @@
    "docketNumber": "3:26-cv-10200",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-   "lastEntryDate": "2026-10-29"
+   "lastEntryDate": "2026-11-06"
   },
   "74701388": {
    "entries": [],
