@@ -1,7 +1,46 @@
 {
- "updatedAt": "2026-11-07T02:19:31+00:00",
+ "updatedAt": "2026-11-07T17:03:00+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-011981",
+   "caseType": "Commercial foreclosure",
+   "dateFiled": "2026-11-06",
+   "caseName": "Pineywoods Capital LLC v. 711 SE 10th Ave LLC et al.",
+   "plaintiffs": [
+    "Pineywoods Capital LLC"
+   ],
+   "defendants": [
+    "711 SE 10th Ave LLC",
+    "2203 E 17th AVE LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-06",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261106.csv",
+   "slug": "pineywoods-capital-llc-v-711-se-10th-ave-llc-et-al-fl-hillsborough-26-ca-011981"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-011979",
+   "caseType": "Commercial foreclosure",
+   "dateFiled": "2026-11-06",
+   "caseName": "PINEYWOODS SECURED PRIVATE CREDIT FUND LP v. 942 E 11TH INC",
+   "plaintiffs": [
+    "PINEYWOODS SECURED PRIVATE CREDIT FUND LP"
+   ],
+   "defendants": [
+    "942 E 11TH INC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-06",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261106.csv",
+   "slug": "pineywoods-secured-private-credit-fund-lp-v-942-e-11th-inc-fl-hillsborough-26-ca-011979"
+  },
   {
    "source": "harris_jp_tx",
    "state": "TX",
