@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-11-06T18:24:06+00:00",
+ "updatedAt": "2026-11-07T02:18:38+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "JCER Properties LLC v. Safeco Insurance Company of America",
+   "court": "District Court, W.D. Washington",
+   "courtId": "wawd",
+   "docketNumber": "2:26-cv-04314",
+   "dateFiled": "2026-11-06",
+   "docketUrl": "https://www.courtlistener.com/docket/75084303/jcer-properties-llc-v-safeco-insurance-company-of-america/",
+   "docketId": 75084303,
+   "suitNature": "",
+   "cause": "",
+   "slug": "jcer-properties-llc-v-safeco-insurance-company-of-america-wawd-2-26-cv-04314",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Ghost Hotels LLC v. Zurich American Insurance Company",
    "court": "District Court, D. Colorado",
@@ -10,9 +23,35 @@
    "dateFiled": "2026-11-06",
    "docketUrl": "https://www.courtlistener.com/docket/75083440/ghost-hotels-llc-v-zurich-american-insurance-company/",
    "docketId": 75083440,
+   "suitNature": "110 Insurance",
+   "cause": "28:1332 Diversity",
+   "slug": "ghost-hotels-llc-v-zurich-american-insurance-company-cod-1-26-cv-05898",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "ENDEAVOR REAL ESTATE GROUP, LTD. v. Endeavor Group Real Estate, LLC",
+   "court": "District Court, N.D. Texas",
+   "courtId": "txnd",
+   "docketNumber": "4:26-cv-01432",
+   "dateFiled": "2026-11-06",
+   "docketUrl": "https://www.courtlistener.com/docket/75086861/endeavor-real-estate-group-ltd-v-endeavor-group-real-estate-llc/",
+   "docketId": 75086861,
    "suitNature": "",
    "cause": "",
-   "slug": "ghost-hotels-llc-v-zurich-american-insurance-company-cod-1-26-cv-05898",
+   "slug": "endeavor-real-estate-group-ltd-v-endeavor-group-real-estate-llc-txnd-4-26-cv-01432",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "BSD Capital, Inc. v. La Plaza Hospitality, LLC",
+   "court": "District Court, W.D. Washington",
+   "courtId": "wawd",
+   "docketNumber": "2:26-cv-04317",
+   "dateFiled": "2026-11-06",
+   "docketUrl": "https://www.courtlistener.com/docket/75086313/bsd-capital-inc-v-la-plaza-hospitality-llc/",
+   "docketId": 75086313,
+   "suitNature": "",
+   "cause": "",
+   "slug": "bsd-capital-inc-v-la-plaza-hospitality-llc-wawd-2-26-cv-04317",
    "type": "Federal civil case"
   },
   {

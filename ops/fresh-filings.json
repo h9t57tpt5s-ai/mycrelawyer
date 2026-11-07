@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T18:24:06+00:00",
+ "updatedAt": "2026-11-07T02:18:38+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -121,61 +121,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75062887/1406-southmore-bldg-llc/",
    "docketId": 75062887,
    "slug": "1406-southmore-bldg-llc-txsb-26-38410",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Parker and Parker Real Estate LLC",
-   "court": "United States Bankruptcy Court, N.D. Texas",
-   "courtId": "txnb",
-   "docketNumber": "26-35085",
-   "dateFiled": "2026-11-02",
-   "docketUrl": "https://www.courtlistener.com/docket/75057502/parker-and-parker-real-estate-llc/",
-   "docketId": 75057502,
-   "slug": "parker-and-parker-real-estate-llc-txnb-26-35085",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Fleur-De-Lis International Realty, Inc.",
-   "court": "United States Bankruptcy Court, M.D. Florida",
-   "courtId": "flmb",
-   "docketNumber": "6:26-bk-08600",
-   "dateFiled": "2026-11-02",
-   "docketUrl": "https://www.courtlistener.com/docket/75057172/fleur-de-lis-international-realty-inc/",
-   "docketId": 75057172,
-   "slug": "fleur-de-lis-international-realty-inc-flmb-6-26-bk-08600",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Austell Plaza, Inc.",
-   "court": "United States Bankruptcy Court, N.D. Georgia",
-   "courtId": "ganb",
-   "docketNumber": "26-64858",
-   "dateFiled": "2026-11-02",
-   "docketUrl": "https://www.courtlistener.com/docket/75061841/austell-plaza-inc/",
-   "docketId": 75061841,
-   "slug": "austell-plaza-inc-ganb-26-64858",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "ANA Properties LLC",
-   "court": "United States Bankruptcy Court, D. Massachusetts",
-   "courtId": "mab",
-   "docketNumber": "26-12611",
-   "dateFiled": "2026-11-02",
-   "docketUrl": "https://www.courtlistener.com/docket/75057276/ana-properties-llc/",
-   "docketId": 75057276,
-   "slug": "ana-properties-llc-mab-26-12611",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "9988 SE Cottage Lane LLC",
-   "court": "United States Bankruptcy Court, E.D. New York",
-   "courtId": "nyeb",
-   "docketNumber": "1-26-45128",
-   "dateFiled": "2026-11-02",
-   "docketUrl": "https://www.courtlistener.com/docket/75058066/9988-se-cottage-lane-llc/",
-   "docketId": 75058066,
-   "slug": "9988-se-cottage-lane-llc-nyeb-1-26-45128",
    "type": "Chapter 11 petition"
   }
  ]
