@@ -1410,6 +1410,29 @@
       "checkAfter": "2026-11-14",
       "status": "watching",
       "note": "HTML tag balance checked clean on all 16 files with a void-element-aware Python HTMLParser checker; site_audit.py (brokenLinks/orphanPages/missingFromSitemap all still 0, pagesChecked unchanged at 832) and check_case_fields.py both re-run clean after the change. No .ts/.js files touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule that file belongs to the metrics-snapshot workflow. 16 separate pages with the same one-line addition is a small, reviewable diff (22 insertions total) even though it touches many files. If calculatorViews7 doesn't move much by checkAfter, this backlog (G12/G2) is close to exhausted on the 'add another link' lever -- the next untried idea would need to be a real embedded example, which is blocked on G15's Jeff decision, or something outside page-level linking entirely."
+    },
+    {
+      "id": "imp-060",
+      "date": "2026-11-07",
+      "track": "audit",
+      "title": "Fixed a broken prerender pipeline (judge-ryan-white.html's description mismatch) and flagged the structural git-add bug NEEDS JEFF",
+      "why": "site_audit.py showed real breakage before any goal work was considered (brokenLinks=1, orphanPages=2, missingFromSitemap=2): company-communityamerica-credit-union.html and judge-ryan-white.html, both added by the digest's e79d94b commit at 06:25 UTC today, linked to matters/live-376.html, which did not exist. `gh run list --workflow=prerender.yml` showed this was not the ordinary timing gap this playbook has noted before -- the pipeline had actually failed twice today (runs 42347040879 at 06:26 UTC, 42371925533 at 12:18 UTC), both with 'cannot pull with rebase: You have unstaged changes' after a successful local commit. Root cause (full writeup in backlog G22): the digest's hand-crafted judge-ryan-white.html used the matter's plain `title` field for its search description instead of `seoTitle` (which scripts/prerender.ts's shortName() always prefers when present), so prerender.ts rewrote the page's title/og/twitter description on every run -- and .github/workflows/prerender.yml's 'Commit prerendered pages' step never stages judge-*.html in its git-add list (only company-*.html is listed), so that one-page diff was left unstaged and broke `git pull --rebase` every time, blocking every new matter/chapter-11/federal-case page from being built or pushed. This is the same bug class as G10 (monthly-report.html, 2026-10-14), recurring on a different file.",
+      "files": [
+        "judge-ryan-white.html",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "8242b77",
+      "metric": "ops/metrics audit.json summary.brokenLinks/orphanPages/missingFromSitemap",
+      "window": "next day (audit fix)",
+      "baseline": {
+        "brokenLinks": 1,
+        "orphanPages": 2,
+        "missingFromSitemap": 2
+      },
+      "checkAfter": "2026-11-08",
+      "status": "watching",
+      "note": "Fixed judge-ryan-white.html's three description meta tags by hand to exactly match prerender.ts's actual output (verified by replicating its judge-*.html loop in Node against js/data.js: zero diff across all 61 judge pages after the fix, versus 1 before). Did not stop at the hand fix -- manually re-ran the workflow twice via `gh workflow run prerender.yml` to actually confirm it unblocks the pipeline rather than assuming: the first re-run (42387949942) still failed because it ran before the fix commit landed; the second (42388363473), after the fix was pushed, succeeded, and the resulting 'Prerender: bake' catch-up commit (74c131a) created matters/live-376.html, live-377.html and live-378.html. Re-ran site_audit.py after pulling that commit: brokenLinks/orphanPages/missingFromSitemap all confirmed 0 (checkAfter set to tomorrow mainly to re-confirm no regression, since the live fix already verified clean). This is a one-time patch, not a structural fix -- the identical failure will recur the next time any judge-*.html page's content changes, since .github/ is off-limits to this routine. Added backlog G22 (NEEDS JEFF) with the exact one-line fix (add judge-*.html to the workflow's git-add list, mirroring company-*.html) and notified Jeff directly given the pipeline was fully stuck for every future js/data.js push until either a human fixed the workflow or every judge page happened to already match prerender.ts's output. HTML tag balance checked clean on judge-ryan-white.html (void-element-aware Python HTMLParser checker); check_case_fields.py and site_audit.py both re-run clean; reverted this run's own regeneration of ops/metrics/audit.json before committing judge-ryan-white.html's fix, per the established rule that file belongs to the metrics workflow."
     }
   ]
 }
