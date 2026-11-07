@@ -25,9 +25,14 @@ const listed = rows.filter((r) => pages[`${r.county}:${r.parcel}`]);
 const upcoming = listed.filter((r) => r.saleDate >= today).sort((a, b) => a.saleDate.localeCompare(b.saleDate) || a.city.localeCompare(b.city));
 const past = listed.filter((r) => r.saleDate < today).sort((a, b) => b.saleDate.localeCompare(a.saleDate) || a.city.localeCompare(b.city));
 
+// The appraisal roll's unit count is apartments for multifamily and rooms
+// for hotels; for other uses it means nothing to a reader.
+const unitsLabel = (r: Tx) => !r.units ? "" : r.propertyType === "Hospitality" ? `${r.units} rooms`
+  : ["Multifamily", "Senior Living"].includes(r.propertyType) ? `${r.units} units` : "";
+
 function rowHtml(r: Tx): string {
   const name = r.propertyName || r.address;
-  const size = [r.units ? `${r.units} units` : "", r.sqft ? `${r.sqft.toLocaleString("en-US")} sq ft` : ""].filter(Boolean).join(", ");
+  const size = [unitsLabel(r), r.sqft ? `${r.sqft.toLocaleString("en-US")} sq ft` : ""].filter(Boolean).join(", ");
   const bits = [`${r.city}, TX`, `${r.county} County`, r.propertyType || r.use, size, r.originalAmount ? `${money(r.originalAmount)} loan` : "", r.lender].filter(Boolean);
   return `<div class="ch11-row" data-ch11-row data-search="${esc([name, r.address, r.city, r.county, r.propertyType, r.use, r.owner, r.lender].join(" ").toLowerCase())}">
   <div style="min-width:0;">

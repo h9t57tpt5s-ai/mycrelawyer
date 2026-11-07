@@ -284,7 +284,7 @@ function signalMain(g: Group): { title: string; desc: string; html: string } {
     ? `The ${esc(t.county)} County Clerk posted a notice that this ${esc((t.propertyType || t.use || "commercial").toLowerCase())} property ${upcoming ? "is scheduled to be" : "was scheduled to be"} sold at a trustee's foreclosure sale on ${esc(longDay(t.saleDate))}. A posted sale can be postponed or called off before it happens, for example if the loan is brought current or the owner files for bankruptcy.`
     : `This property's loan is in a CMBS trust whose servicer reports it ${esc(cmbs[0].eventLabel.toLowerCase())}.`;
   const desc = clip(plain(t
-    ? `${g.name}, ${g.where}: posted for a trustee's foreclosure sale on ${fmtDate(t.saleDate)}${t.lender ? ` by ${t.lender}` : ""}. ${t.use ? `${t.use} property` : ""}${t.sqft ? `, ${t.sqft.toLocaleString("en-US")} sq ft` : ""}${t.units ? `, ${t.units} units` : ""}.`
+    ? `${g.name}, ${g.where}: posted for a trustee's foreclosure sale on ${fmtDate(t.saleDate)}${t.lender ? ` by ${t.lender}` : ""}. ${t.use ? `${t.use} property` : ""}${t.sqft ? `, ${t.sqft.toLocaleString("en-US")} sq ft` : ""}${t.units && ["Multifamily", "Senior Living"].includes(t.propertyType) ? `, ${t.units} units` : ""}.`
     : `${g.name}, ${g.where}: CMBS loan ${cmbs[0].eventLabel.toLowerCase()} (${cmbs[0].trust}).`), 300);
   const fact = (k: string, v: string) => v ? `<div><dt>${esc(k)}</dt><dd>${v}</dd></div>` : "";
   const facts = t ? [
@@ -292,7 +292,7 @@ function signalMain(g: Group): { title: string; desc: string; html: string } {
     fact("Use (appraisal district)", esc(t.use)),
     fact("Property type", esc(t.propertyType)),
     fact("Building area", t.sqft ? `${t.sqft.toLocaleString("en-US")} sq ft` : ""),
-    fact("Units", t.units ? String(t.units) : ""),
+    fact(t.propertyType === "Hospitality" ? "Rooms" : "Units", t.units && ["Multifamily", "Senior Living", "Hospitality"].includes(t.propertyType) ? String(t.units) : ""),
     fact("Year built", t.yearBuilt ? String(t.yearBuilt) : ""),
     fact("Owner on the appraisal roll", esc(t.owner)),
     fact("Appraisal record", t.parcelUrl ? `<a href="${esc(t.parcelUrl)}" rel="nofollow noopener" target="_blank">${esc(t.county)} CAD account ${esc(t.parcel)}</a>` : ""),

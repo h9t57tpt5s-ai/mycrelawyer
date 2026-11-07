@@ -119,13 +119,16 @@ def norm_street(s: str) -> str:
     return " ".join(SUFFIX.get(w, w) for w in s.split())
 
 
-def title(s: str) -> str:
+def title(s: str, name: bool = False) -> str:
     s = re.sub(r"\s+", " ", s).strip()
     keep = re.compile(r"^(LLC|LP|LLP|LTD|INC|NA|II|III|IV|USA|TX|[A-Z]{1,2}\d+|\d+[A-Z]?)$")
     out = []
     for w in s.split(" "):
         core = w.strip(",.&()")
-        out.append(w if keep.match(core.upper().replace(".", "")) and core.isupper() else w.capitalize() if w.isupper() else w)
+        # All-capital words with no vowel are initials ("DFW"), not words.
+        acronym = (name and core.isalpha() and core.isupper() and len(core) >= 3 and not re.search(r"[AEIOUY]", core)
+                   and core not in {"BLDG", "BLVD", "HWY", "FWY", "PKWY", "STE", "PLZ", "CTR"})
+        out.append(w if (keep.match(core.upper().replace(".", "")) or acronym) and core.isupper() else w.capitalize() if w.isupper() else w)
     return " ".join(out).replace(" Llc", " LLC").replace(" Lp", " LP")
 
 
@@ -409,7 +412,7 @@ def parse_posting(post: dict, pages: list[str], roll: Roll, office_addrs: set, t
         sale = sale_date(post["month"], f.pop("_dates"), today.year)
         owner = clean_business(parcel["owner"])
         addr = " ".join(x for x in (parcel["num"], title(parcel["street"])) if x)
-        name = title(re.sub(r"\s*\(.*?\)", "", parcel["name"])) if parcel["name"] and not GENERIC_NAME.search(parcel["name"]) and not re.match(r"\d", parcel["name"]) else ""
+        name = title(re.sub(r"\s*\(.*?\)", "", parcel["name"]), name=True) if parcel["name"] and not GENERIC_NAME.search(parcel["name"]) and not re.match(r"\d", parcel["name"]) else ""
         rows.append({
             "county": post["county"], "state": "TX", "saleDate": sale,
             "address": addr, "city": title(parcel["city"]), "zip": parcel["zip"],
@@ -519,7 +522,7 @@ def bexar_source(today: dt.date, processed: set) -> list[dict]:
             rows.append({
                 "county": "Bexar", "state": "TX", "saleDate": first_tuesday(year, month).isoformat(),
                 "address": title(situs), "city": title(a.get("CITY") or ""), "zip": str(a.get("ZIP") or ""),
-                "propertyName": title(dba) if dba and not GENERIC_NAME.search(dba) else "", "propertyType": ptype,
+                "propertyName": title(dba, name=True) if dba and not GENERIC_NAME.search(dba) else "", "propertyType": ptype,
                 "use": label, "sqft": int(float(p.get("GBA") or 0)) or None, "units": int(units.group(1)) if units else None,
                 "yearBuilt": int(float(p.get("YrBlt") or 0)) or None, "owner": clean_business(str(p.get("Owner") or "")),
                 "lender": "", "originalAmount": None, "parcel": str(int(p["PropID"])),
