@@ -1843,6 +1843,74 @@
   "opinion:11056853": {
    "at": "2026-11-07",
    "action": "matter live-377"
+  },
+  "opinion:11056968": {
+   "at": "2026-11-07",
+   "action": "skipped: residential landlord-tenant dog-bite premises case (leased house, individual tenants), not commercial real estate"
+  },
+  "opinion:11056787": {
+   "at": "2026-11-07",
+   "action": "skipped: residential mortgage foreclosure appeal by individual pro se homeowners against mortgage servicers (Baton Rouge residential address); 'hotel' term is a false-positive match"
+  },
+  "opinion:11056779": {
+   "at": "2026-11-07",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern -- defendant Walter C. Dumas is an individual, no business-entity suffix), not read"
+  },
+  "opinion:11056777": {
+   "at": "2026-11-07",
+   "action": "matter live-378"
+  },
+  "opinion:11056776": {
+   "at": "2026-11-07",
+   "action": "skipped: residential apartment habitability small-claims dispute under Chicago RLTO (individual tenant vs. landlord LLC), not commercial real estate"
+  },
+  "opinion:11056715": {
+   "at": "2026-11-07",
+   "action": "skipped: Section 1983 civil-rights claims over a residential apartment complex's code-enforcement closure (constitutional claims against city officials, not a commercial real estate business dispute on its face)"
+  },
+  "opinion:11056652": {
+   "at": "2026-11-07",
+   "action": "skipped: Sunshine Act open-meetings claim against a township over landfill-related votes; appeal quashed for lack of jurisdiction, no substantive ruling on a CRE dispute"
+  },
+  "opinion:11056605": {
+   "at": "2026-11-07",
+   "action": "skipped: individual-vs-individual small commercial lease dispute, no business entities, insufficient significance"
+  },
+  "opinion:11056429": {
+   "at": "2026-11-07",
+   "action": "skipped: legal-malpractice/limitations dispute between a law firm and a bank over loan-closing legal services, not a real estate dispute on its face"
+  },
+  "opinion:11056950": {
+   "at": "2026-11-07",
+   "action": "skipped: non-compete covenant employment dispute; 'foreclos'/'industrial' terms are false-positive matches, not real estate"
+  },
+  "opinion:11055964": {
+   "at": "2026-11-07",
+   "action": "skipped: boundary/drainage trespass-nuisance dispute between a residential property owner and an adjoining commercial landowner; core dispute is residential neighbor tort, not the commercial owner's business"
+  },
+  "0001628280-26-071703:rc-20260930.htm": {
+   "at": "2026-11-07",
+   "action": "skipped: Ready Capital Corp excerpt describes legacy Broadmark merger-related state/federal/derivative litigation (filed 2025), no new development this filing"
+  },
+  "0001193125-26-451872:acr-ex99_1.htm": {
+   "at": "2026-11-07",
+   "action": "skipped: ACRES Commercial Realty excerpt is boilerplate solvency representation language from an asset-sale agreement, not a litigation disclosure"
+  },
+  "0001674356-26-000029:tpt-20260930.htm": {
+   "at": "2026-11-07",
+   "action": "skipped: Terra Property Trust excerpt is generic business-description boilerplate about REO accounting, not a litigation disclosure"
+  },
+  "0001628280-26-071569:efc-20260930.htm": {
+   "at": "2026-11-07",
+   "action": "skipped: Ellington Financial excerpt is generic REO accounting-policy boilerplate, not a litigation disclosure"
+  },
+  "https://www.courtlistener.com/docket/75084303/jcer-properties-llc-v-safeco-insurance-company-of-america/": {
+   "at": "2026-11-07",
+   "action": "skipped: no coverage found explaining this JCER Properties LLC v. Safeco Insurance insurance-coverage suit"
+  },
+  "https://www.courtlistener.com/docket/75086861/endeavor-real-estate-group-ltd-v-endeavor-group-real-estate-llc/": {
+   "at": "2026-11-07",
+   "action": "skipped: no coverage found for this Endeavor Real Estate Group, Ltd. v. Endeavor Group Real Estate, LLC naming/trademark dispute between two real estate firms"
   }
  }
 }

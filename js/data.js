@@ -13189,6 +13189,47 @@ const RELAW_DATA = {
         { when: "July 18, 2025", label: "Circuit Court dismisses the suit on immunity and estoppel grounds" },
         { when: "November 6, 2026", label: "Intermediate Court of Appeals of West Virginia affirms the dismissal", current: true }
       ]
+    },
+    {
+      id: "live-378",
+      seoTitle: "Chicago Scrap Recycling Permit Denial Upheld on Appeal",
+      seoDescription: "Illinois appeals court reinstated Chicago's denial of a large recycling facility permit for RMG affiliate General III on the Southeast Side.",
+      addedDate: "2026-11-07",
+      property: { name: "Burley site recycling facility", address: "116th Street and Burley Avenue", city: "Chicago", state: "IL" },
+      propertyType: "Industrial",
+      title: "City of Chicago Dept. of Public Health v. City of Chicago Dept. of Administrative Hearings (Southeast Side Recycling Permit Denial Reinstated)",
+      brief: "An Illinois appeals court reinstated Chicago's denial of a large recycling facility permit for RMG affiliate General III, LLC on the Southeast Side, reversing a hearing officer's ruling that had cleared the applicant.",
+      category: "environmental",
+      status: "ruling",
+      date: "2026-11-06",
+      jurisdiction: "Appellate Court of Illinois, First District",
+      state: "IL",
+      amount: "Not stated (permit dispute; no dollar figure in the opinion)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://storage.courtlistener.com/pdf/2026/11/06/city_of_chicago_department_of_public_health_v._city_of_chicago_department.pdf",
+      docketUrl: "https://www.courtlistener.com/opinion/11056777/city-of-chicago-department-of-public-health-v-city-of-chicago-department/",
+      docketLabel: "CourtListener opinion",
+      summary: "The Appellate Court of Illinois, First District, affirmed a Cook County circuit court order reinstating the Chicago Department of Public Health's February 2022 denial of a large recycling facility permit sought by General III, LLC, an 80%-owned affiliate of Reserve Management Group (RMG), for a site at 116th Street and Burley Avenue on the city's Southeast Side. The ruling reverses an administrative law judge's 2023 decision that had vacated the city's permit denial, finding the hearing officer committed legal error.",
+      significance: "The decision shows that a favorable administrative hearing ruling on a contested municipal permit denial is not final, and that a city's permitting agency retains substantive discretion to deny a large industrial facility's permit based on compliance-history and public-health criteria even after the facility has already cleared zoning approval. It is a significant setback for RMG's years-long effort to relocate metal-recycling operations from Lincoln Park to the Southeast Side over sustained community and environmental-justice opposition.",
+      body: [
+        "An Illinois appeals court has handed Chicago a win in one of the city's longest-running industrial permitting fights, reinstating the Department of Public Health's denial of a permit for a large metal-recycling facility on the city's Southeast Side. In a decision filed November 6, 2026, the Appellate Court of Illinois, First District, affirmed a Cook County circuit court order that reversed an administrative law judge and put the department's original permit denial back in place, rejecting an appeal by General III, LLC, the applicant seeking to operate the facility.",
+        "General III is an affiliate of Reserve Management Group, which already operates four recycling facilities at a 175-acre industrial site at 116th Street and Burley Avenue; General III is 80% owned by RMG entities, a relationship the company did not dispute. The facility traces to a 2018 agreement under which General Iron Industries, which had run a metal-scrap operation in Chicago's Lincoln Park neighborhood for decades, agreed to sell assets to RMG as the city pushed to end recycling operations there. In September 2019, the city, General Iron, and RMG signed a term sheet under which RMG agreed to cease the Lincoln Park operations and transition to the Burley site, with the city agreeing to cooperate on permitting while expressly reserving its authority to enforce its ordinances to protect public health and safety.",
+        "General III obtained a special-use zoning permit from the Chicago Zoning Board of Appeals in 2019, but the Department of Public Health denied its separate large-recycling-facility operating permit in February 2022, after sustained community opposition and a city health study finding the Southeast Side carries the city's highest cumulative air-pollution burden. General III appealed to the city's Department of Administrative Hearings, and in 2023 a hearing officer vacated the denial, finding the company had met the applicable permitting requirements. The city, under Mayor Brandon Johnson, pursued judicial review, and the circuit court reversed the hearing officer and reinstated the department's denial.",
+        "On further appeal, the First District held that the hearing officer had misapplied the legal standard in vacating the city's denial, and it affirmed the circuit court's reversal, putting the department's permit denial back into effect. The court's opinion walks through the city's permitting framework in detail, including the Chicago Environmental Protection and Control Ordinance's compliance-history evaluation and the department's 2020 rules governing large recycling facilities, which the Burley site facility concededly meets by volume and equipment thresholds. Because the department found General III's application and compliance history did not satisfy those standards, and the hearing officer had erred in second-guessing that judgment, the appellate panel concluded the circuit court was right to restore the original denial.",
+        "For industrial and commercial property operators, the ruling underscores that an administrative hearing officer's decision in a permit applicant's favor does not end the dispute, and that a municipality's own term-sheet commitment to cooperate on permitting does not estop it from later exercising substantive permitting discretion if an application falls short of applicable public-health or environmental standards. The case is also a reminder that an industrial relocation tied to one neighborhood's environmental concerns can become entangled in the receiving community's own environmental-justice objections for years, with courts rather than the permitting agency alone ultimately deciding the outcome. Operators pursuing a similarly contested industrial relocation should expect that a favorable administrative ruling can be reversed on judicial review, that compliance-history and public-health permitting criteria carry real force even after zoning approval is secured, and that a multi-year permitting fight generates a public record of studies, citations, and community comment that can be used against an applicant well after the zoning question itself has been resolved."
+      ],
+      judge: null,
+      parties: [
+        { name: "City of Chicago Department of Public Health", role: "Plaintiff-Appellee" },
+        { name: "General III, LLC", role: "Defendant-Appellant" }
+      ],
+      tags: ["environmental-justice", "recycling-facility", "chicago", "industrial-permit", "zoning"],
+      timeline: [
+        { when: "February 2022", label: "Chicago Department of Public Health denies General III's large recycling facility permit" },
+        { when: "2023", label: "Administrative law judge vacates the permit denial" },
+        { when: "November 6, 2026", label: "Appellate Court of Illinois affirms reinstatement of the permit denial", current: true }
+      ]
     }
   ],
 
