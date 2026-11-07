@@ -1446,7 +1446,7 @@
   },
   "opinion:11052174": {
    "at": "2026-11-07",
-   "action": "skipped: duplicate -- Sinmier, LLC v. Everest Indemnity Ins. Co. already tracked in js/data.js"
+   "action": "matter live-363 (already tracked; confirmed duplicate, not a new matter)"
   },
   "opinion:11052005": {
    "at": "2026-11-03",
@@ -1646,7 +1646,7 @@
   },
   "opinion:11054341": {
    "at": "2026-11-07",
-   "action": "skipped: duplicate -- Ameream LLC v. Borough of East Rutherford already tracked as live-370 (added 2026-11-05)"
+   "action": "matter live-370 (already tracked; confirmed duplicate, not a new matter)"
   },
   "opinion:11054440": {
    "at": "2026-11-05",
@@ -1690,7 +1690,7 @@
   },
   "0001493152-26-049977:form10-q.htm": {
    "at": "2026-11-07",
-   "action": "skipped: Belpointe PREP JZ Investments/Galinn Fund litigation describes an April 2026 complaint and a December 2024 complaint, both already past the 3-day freshness window and not previously flagged as newly significant"
+   "action": "matter live-372 (already tracked; re-confirmed no further new development in this filing)"
   },
   "0001653653-26-000017:rrr-20260930.htm": {
    "at": "2026-11-07",
