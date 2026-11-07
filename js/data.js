@@ -13230,6 +13230,47 @@ const RELAW_DATA = {
         { when: "2023", label: "Administrative law judge vacates the permit denial" },
         { when: "November 6, 2026", label: "Appellate Court of Illinois affirms reinstatement of the permit denial", current: true }
       ]
+    },
+    {
+      id: "live-379",
+      addedDate: "2026-11-07",
+      title: "ZOM Holding Files Chapter 11 After $308.6M Judgment Over Alleged Joint-Venture Freeze-Out",
+      brief: "ZOM Holding and two affiliates filed Chapter 11 in Florida to fund an appeal of a $308.6 million Arizona judgment after a jury found ZOM froze out planned joint-venture partner Gray Development Group on a Phoenix multifamily and commercial pipeline.",
+      seoTitle: "ZOM Living Bankruptcy: Ch. 11 After $308.6M Phoenix JV Judgment",
+      seoDescription: "ZOM Holding filed Chapter 11 in Florida to fund an appeal of a $308.6M Arizona judgment won by former JV partner Gray Development Group over a Phoenix multifamily pipeline.",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-30",
+      jurisdiction: "U.S. Bankruptcy Court, Middle District of Florida",
+      state: "FL",
+      amount: "$308.6M judgment ($323M incl. interest); ~$541M aggregate unsecured debt across debtors",
+      amountUsd: 308600000,
+      amountBasis: "judgment",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/miami/2026/11/03/zom-living-files-for-bankruptcy-after-308-million-judgment/",
+      summary: "ZOM Holding, Inc., parent of multifamily developer ZOM Living, and affiliates ZOM Associates, Inc. and ZH Development I, LLC filed Chapter 11 petitions on October 30, 2026 in the Middle District of Florida. The filing follows a roughly $308.6 million Arizona state-court judgment for Gray Development Group, which a jury found ZOM froze out of a planned Phoenix multifamily and commercial joint venture after Gray shared proprietary market and site data with ZOM in 2019.",
+      significance: "The case shows courts enforcing non-circumvention and good-faith obligations against a developer even absent a signed joint-venture agreement, with jury-assessed damages reaching far beyond any single deal's economics once an entire pipeline is valued. It also illustrates Chapter 11 being used offensively to fund a contested appeal and shield an active development platform while a large judgment is on appeal, a structuring move lenders and prospective JV partners should watch for when a counterparty loses a major verdict.",
+      body: [
+        "ZOM Holding, Inc., the parent of Florida-based multifamily developer ZOM Living, filed for Chapter 11 protection on October 30, 2026, in the U.S. Bankruptcy Court for the Middle District of Florida, together with two affiliates, ZOM Associates, Inc. and ZH Development I, LLC. The filing follows a roughly $308.6 million Arizona state-court judgment entered against ZOM Holding earlier this year in favor of Gray Development Group, a now-defunct Phoenix-area development firm that accused ZOM of freezing it out of a multifamily and commercial pipeline the two companies had planned to build together.",
+        "The underlying dispute traces back to 2019, when Gray says it shared proprietary market research and site information with ZOM in connection with a proposed joint venture to develop a pipeline of luxury multifamily and commercial projects in the Phoenix area. According to Gray's allegations, ZOM spent roughly the next ten months continuing to solicit additional information and analysis from Gray about the planned projects before quietly sidelining the smaller firm and moving forward with the developments on its own. Gray ceased operations in 2020, not long after the relationship fell apart.",
+        "A Maricopa County jury found ZOM liable for breach of contract and breach of the implied covenant of good faith and fair dealing arising out of the parties' dealings over the Phoenix pipeline, in a verdict reported in May 2026. The trial court subsequently entered judgment against ZOM Holding for approximately $308.6 million in compensatory damages, a figure Gray's counsel described as closer to $323 million once post-judgment interest is factored in. ZOM has maintained on appeal that it was never the actual purchaser of the parcels at issue and was not part of the purchasing entities' organizational structure.",
+        "Rather than satisfy or bond the judgment while the appeal proceeds, ZOM Holding and its two affiliated debtors turned to Chapter 11. According to the bankruptcy filings, the debtors intend to use the automatic stay to preserve and fund ZOM Holding's pending appeal of the Arizona judgment, and to sell substantially all of the debtors' assets, including their claims and causes of action, with a non-debtor affiliate, ZOM Holding, L.P. -- which holds ZOM's newer development projects and was not itself placed into bankruptcy -- lined up as a stalking-horse bidder and proposed debtor-in-possession lender. Court filings describe ZOM Holding's balance sheet as badly mismatched to the judgment, with assets in the single-digit millions against liabilities reported in the hundreds of millions, and total unsecured debt across the three debtors cited at roughly $541 million. Before the petition date, Gray had already moved to domesticate and enforce the Arizona judgment by recording it in Seminole County, Florida.",
+        "For owners, developers, and lenders who explore multifamily and mixed-use pipelines through informal teaming arrangements before a joint-venture agreement is signed, the case is a reminder that a prospective partner's claim to have originated or developed a project can survive the absence of a final JV agreement if a jury finds the parties' course of dealing created an implied duty of good faith, with damages capable of reaching far beyond any single deal's economics once an entire pipeline is valued. The filing also shows Chapter 11 being used not merely to shed debt but as an offensive tool to fund a contested appeal while shielding a going-concern business from immediate collection, a strategy that shifts leverage back toward a judgment debtor even after a jury has ruled against it -- something creditors and their counsel should anticipate when negotiating development-stage confidentiality and non-circumvention terms."
+      ],
+      judge: null,
+      parties: [
+        { name: "ZOM Holding, Inc.", role: "Debtor" },
+        { name: "ZOM Associates, Inc.", role: "Debtor" },
+        { name: "ZH Development I, LLC", role: "Debtor" },
+        { name: "Gray Development Group", role: "Judgment Creditor" }
+      ],
+      tags: ["chapter-11", "joint-venture", "non-circumvention", "multifamily", "appeal"],
+      timeline: [
+        { when: "2019", label: "Gray Development Group shares market and site data with ZOM for a planned Phoenix JV pipeline" },
+        { when: "2020", label: "Gray Development Group ceases operations after ZOM allegedly proceeds without it" },
+        { when: "May 2026", label: "Maricopa County jury finds ZOM liable; judgment entered for approximately $308.6 million" },
+        { when: "October 30, 2026", label: "ZOM Holding and two affiliates file Chapter 11 in the Middle District of Florida to fund the appeal", current: true }
+      ]
     }
   ],
 
