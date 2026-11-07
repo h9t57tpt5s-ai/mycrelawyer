@@ -29,6 +29,9 @@ on:
       - "scripts/build_cmbs_pages.ts"
       - "ops/cmbs-distress.json"
       - "cmbs-watch.html"
+      - "scripts/build_tx_list.ts"
+      - "ops/tx-foreclosures.json"
+      - "texas-foreclosures.html"
       - "bankruptcy-watch.html"
       - "lawsuit-watch.html"
   # Also started by court-filings-ingest.yml and docket-activity.yml after
@@ -77,11 +80,12 @@ jobs:
       - run: deno run --allow-read --allow-write scripts/build_record_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_state_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_cmbs_pages.ts
+      - run: deno run --allow-read --allow-write scripts/build_tx_list.ts
       - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
           git add -A matters chapter-11 federal-cases parties properties js/entity-index.json img/og img/og-image.png js/topic-index.json *-tracker.html litigation-index*.html case-valuation.html commercial-lease-dispute-damages.html commercial-foreclosure-guaranty-damages.html construction-defect-damages.html condemnation-compensation.html land-use-litigation-damages.html commercial-premises-liability-damages.html reit-securities-claim-value.html environmental-cleanup-cost-claims.html
-          git add bankruptcy-watch.html lawsuit-watch.html state-court-watch.html state-cases cmbs-watch.html cmbs
+          git add bankruptcy-watch.html lawsuit-watch.html state-court-watch.html state-cases cmbs-watch.html cmbs texas-foreclosures.html
           git add brief-*.html briefs.html
           git add index.html litigation.html coverage.html companies.html judges.html company-*.html corrections.html sitemap.xml news-sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi

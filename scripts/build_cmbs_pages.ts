@@ -22,6 +22,8 @@ const DIR = "cmbs", LIST = "cmbs-watch.html";
 const readJson = async <T>(p: string, fallback: T): Promise<T> => {
   try { return JSON.parse(await Deno.readTextFile(p)); } catch { return fallback; }
 };
+// Property pages that combine this event with other sources (scripts/build_entity_pages.ts).
+const profiles: Record<string, string> = (await readJson<{ cmbs?: Record<string, string> }>("js/entity-index.json", {})).cmbs || {};
 const data: Ev[] = (await readJson<{ events: Ev[] }>("ops/cmbs-distress.json", { events: [] })).events
   .filter((r) => r.slug && /^[a-z0-9-]+$/.test(r.slug));
 const esc = (s: unknown) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
@@ -142,7 +144,7 @@ function mainFor(r: Ev): string {
     <p class="body-text">In its monthly loan-level report to the SEC for the period ending ${esc(fmtDate(r.reportingPeriodEnd))} (Form ABS-EE, filed ${esc(fmtDate(r.filed))}), ${esc(r.trust)} reported the loan secured by ${esc(name(r))}${r.city ? ` in ${esc(where(r))}` : ""} as ${esc(NOW[r.event])}. In the trust's previous monthly report the loan was ${esc(r.previous ? PREV[r.previous] : "not in foreclosure, bankruptcy or REO")}.${r.alsoIn.length ? ` The loan is split across several trusts; ${esc(r.alsoIn.map((a) => a.trust).join(", "))} reported the same change.` : ""}</p>
     ${r.otherProperties.length ? `<p class="body-text">The same loan is secured by ${r.propertyCount - 1} other propert${r.propertyCount > 2 ? "ies" : "y"}, including ${esc(r.otherProperties.map(nice).join("; "))}.</p>` : ""}
     <p class="body-text">This is the loan servicer's report, not a court record: it gives no case number, and it usually trails the underlying event by a month or two. Whether a foreclosure runs through a court depends on the state. CREdocket lists the property and the trust only, never the borrower.</p>
-    <div class="matter-sources">${filings.map((f) => `<a href="${esc(f.filingUrl)}" target="_blank" rel="noopener">SEC filing: ${esc(f.trust)} ↗</a>`).join(" ")}</div>
+    <div class="matter-sources">${filings.map((f) => `<a href="${esc(f.filingUrl)}" target="_blank" rel="noopener">SEC filing: ${esc(f.trust)} ↗</a>`).join(" ")}</div>${profiles[r.slug] ? `\n    <p class="body-text"><a href="${esc(profiles[r.slug])}">Everything CREdocket has on this property</a>, including its foreclosure-sale notices and court matters.</p>` : ""}
 
     <div class="card matter-cta matter-one-cta">
       <div class="eyebrow">Weekly email</div>

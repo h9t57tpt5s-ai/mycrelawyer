@@ -73,6 +73,31 @@
  },
  "properties": {
   "mandarin oriental residences|FL": "/properties/mandarin-oriental-residences-boca-raton-fl.html",
-  "joliet technology center|IL": "/properties/joliet-technology-center-joliet-il.html"
- }
+  "joliet technology center|IL": "/properties/joliet-technology-center-joliet-il.html",
+  "800 gentleman rd|san antonio|TX": "/properties/boston-woods-san-antonio-tx.html",
+  "121 starr|san antonio|TX": "/properties/hiedgen-house-office-bldg-san-antonio-tx.html",
+  "641 n i 35 e|desoto|TX": "/properties/la-quinta-desoto-tx.html",
+  "9750 forest ln|dallas|TX": "/properties/the-marion-dallas-tx.html",
+  "911 w wheatland rd|dallas|TX": "/properties/wheatland-garden-apartments-dallas-tx.html",
+  "708 w 10th st|dallas|TX": "/properties/708-w-10th-st-dallas-tx.html",
+  "4407 san jacinto st|dallas|TX": "/properties/san-jacinto-place-dallas-tx.html",
+  "301 w 8th st|dallas|TX": "/properties/dfw-mantiques-dallas-tx.html",
+  "2600 highland rd|dallas|TX": "/properties/los-robles-dallas-tx.html",
+  "13402 noel rd|dallas|TX": "/properties/le-meridian-dallas-tx.html",
+  "11313 kingsley rd|dallas|TX": "/properties/11313-kingsley-rd-dallas-tx.html"
+ },
+ "tx": {
+  "Bexar:358086": "/properties/boston-woods-san-antonio-tx.html",
+  "Bexar:109769": "/properties/hiedgen-house-office-bldg-san-antonio-tx.html",
+  "Dallas:200615100A01B0000": "/properties/la-quinta-desoto-tx.html",
+  "Dallas:00000791059100000": "/properties/the-marion-dallas-tx.html",
+  "Dallas:00000745567000000": "/properties/wheatland-garden-apartments-dallas-tx.html",
+  "Dallas:00000258229000000": "/properties/708-w-10th-st-dallas-tx.html",
+  "Dallas:00000118093000000": "/properties/san-jacinto-place-dallas-tx.html",
+  "Dallas:00000254722000000": "/properties/dfw-mantiques-dallas-tx.html",
+  "Dallas:00000811369000000": "/properties/los-robles-dallas-tx.html",
+  "Dallas:007017000C01A0000": "/properties/le-meridian-dallas-tx.html",
+  "Dallas:008042000C0020000": "/properties/11313-kingsley-rd-dallas-tx.html"
+ },
+ "cmbs": {}
 }

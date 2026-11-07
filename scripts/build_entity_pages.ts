@@ -78,7 +78,37 @@ for (const [file, folder] of [["ops/ch11-petitions.json", "chapter-11"], ["ops/f
   } catch { /* file missing: no records */ }
 }
 
-type Group = { kind: "party" | "property"; key: string; name: string; cases: Case[]; slug: string; roles: Map<string, number>; recs: typeof records };
+// Property-level distress signals (2026-11-06): Texas foreclosure-sale
+// notices (scripts/pull_tx_foreclosures.py) and CMBS loan events
+// (scripts/pull_cmbs_distress.py). A property with a foreclosure notice gets
+// a page; a CMBS property gets one only when another source also names it
+// (otherwise its cmbs/ page already is its page).
+type Tx = {
+  county: string; state: string; saleDate: string; address: string; city: string; zip: string; propertyName: string;
+  propertyType: string; use: string; sqft: number | null; units: number | null; yearBuilt: number | null; owner: string;
+  lender: string; originalAmount: number | null; parcel: string; parcelUrl: string; matchedBy: string;
+  postingUrl: string; postingPage: number | null; postingLabel: string; docNumber?: string; slug: string; firstSeen: string;
+};
+type Cmbs = {
+  event: string; eventLabel: string; propertyName: string; address: string; city: string; state: string; propertyType: string;
+  trust: string; balance: number | null; paymentStatus?: string; reportingPeriodEnd: string; filed: string; slug: string;
+};
+const readJson = async <T>(path: string, fallback: T): Promise<T> => {
+  try { return JSON.parse(await Deno.readTextFile(path)); } catch { return fallback; }
+};
+const txRows = (await readJson<{ properties: Tx[] }>("ops/tx-foreclosures.json", { properties: [] })).properties;
+const cmbsRows = (await readJson<{ events: Cmbs[] }>("ops/cmbs-distress.json", { events: [] })).events;
+const ABBR: Record<string, string> = { street: "st", avenue: "ave", boulevard: "blvd", road: "rd", drive: "dr", lane: "ln", parkway: "pkwy",
+  highway: "hwy", freeway: "fwy", court: "ct", place: "pl", circle: "cir", trail: "trl", north: "n", south: "s", east: "e", west: "w", suite: "ste" };
+// Street address + city + state, normalized, for matching one property across sources.
+export function siteKey(address?: string | null, city?: string | null, state?: string | null): string {
+  if (!address || !city || !state || !/^\d/.test(address.trim())) return "";
+  const a = address.toLowerCase().replace(/[^a-z0-9 ]+/g, " ").split(/\s+/).filter(Boolean).map((w) => ABBR[w] || w).join(" ");
+  return `${a}|${city.toLowerCase().replace(/[^a-z]+/g, " ").trim()}|${state.toUpperCase()}`;
+}
+
+type Group = { kind: "party" | "property"; key: string; name: string; cases: Case[]; slug: string; roles: Map<string, number>; recs: typeof records;
+  tx?: Tx[]; cmbs?: Cmbs[]; owner?: string; where?: string };
 const groups: Group[] = [];
 
 const byParty = new Map<string, { names: Map<string, number>; roles: Map<string, number>; ids: Set<string> }>();
@@ -113,6 +143,34 @@ for (const [key, cs] of byProp) {
   const where = [p.city, p.state].filter(Boolean).join(", ");
   groups.push({ kind: "property", key, name: label, cases: cs, slug: slugify(`${p.name || p.address} ${p.city || ""} ${p.state}`), roles: new Map(),
     recs: [], ...(where ? { where } : {}) } as Group);
+}
+{
+  const sites = new Map<string, { tx: Tx[]; cmbs: Cmbs[]; cases: Case[] }>();
+  const site = (k: string) => sites.get(k) || sites.set(k, { tx: [], cmbs: [], cases: [] }).get(k)!;
+  for (const r of txRows) { const k = siteKey(r.address, r.city, r.state); if (k) site(k).tx.push(r); }
+  for (const r of cmbsRows) { const k = siteKey(r.address, r.city, r.state); if (k && sites.has(k)) site(k).cmbs.push(r); }
+  for (const c of data.cases) { const k = siteKey(c.property?.address, c.property?.city, c.property?.state); if (k && sites.has(k)) site(k).cases.push(c); }
+  for (const r of cmbsRows) {
+    const k = siteKey(r.address, r.city, r.state);
+    if (k && !sites.has(k) && data.cases.some((c) => siteKey(c.property?.address, c.property?.city, c.property?.state) === k)) {
+      site(k).cmbs.push(r);
+      for (const c of data.cases) if (siteKey(c.property?.address, c.property?.city, c.property?.state) === k) site(k).cases.push(c);
+    }
+  }
+  for (const [k, s] of sites) {
+    if (!s.tx.length && !(s.cmbs.length && s.cases.length)) continue;
+    // A tracker property page for the same building absorbs the signals.
+    const existing = groups.find((g) => g.kind === "property" && s.cases.length && g.cases.some((c) => s.cases.includes(c)));
+    const t = [...s.tx].sort((a, b) => (b.saleDate > a.saleDate ? 1 : -1))[0];
+    const c0 = s.cmbs[0];
+    if (existing) { existing.tx = s.tx; existing.cmbs = s.cmbs; existing.owner = t?.owner; continue; }
+    const nm = t?.propertyName || c0?.propertyName || s.cases.find((c) => c.property?.name)?.property?.name || "";
+    const addr = t?.address || c0?.address || s.cases[0]?.property?.address || "";
+    const city = t?.city || c0?.city || s.cases[0]?.property?.city || "", st = t?.state || c0?.state || s.cases[0]?.property?.state || "";
+    groups.push({ kind: "property", key: k, name: nm ? `${nm}, ${addr}` : addr, cases: s.cases, slug: slugify(`${nm || addr} ${city} ${st}`),
+      roles: new Map(), recs: t?.owner ? records.filter((r) => r.keys.includes(partyKey(t.owner))) : [], tx: s.tx, cmbs: s.cmbs,
+      owner: t?.owner, where: `${city}, ${st}` });
+  }
 }
 for (const g of groups) g.cases.sort((a, b) => (b.date > a.date ? 1 : -1));
 // Two parties that appear in exactly the same matters (a borrower and its
@@ -154,8 +212,11 @@ function headFor(g: Group, title: string, desc: string): string {
     "@graph": [
       { "@type": "CollectionPage", name: title, description: desc, url: pageUrl(g),
         mainEntity: { "@type": "ItemList", itemListElement: g.cases.map((c, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/matters/${c.id}.html`, name: clip(plain(c.title), 110) })) } },
+      ...(g.tx?.length ? [{ "@type": "Place", name: g.name, address: { "@type": "PostalAddress", streetAddress: g.tx[0].address,
+        addressLocality: g.tx[0].city, addressRegion: "TX", postalCode: g.tx[0].zip, addressCountry: "US" } }] : []),
       { "@type": "BreadcrumbList", itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Litigation Tracker", item: `${SITE}/litigation.html` },
+        g.tx?.length ? { "@type": "ListItem", position: 1, name: "Texas Foreclosure Sales", item: `${SITE}/texas-foreclosures.html` }
+          : { "@type": "ListItem", position: 1, name: "Litigation Tracker", item: `${SITE}/litigation.html` },
         { "@type": "ListItem", position: 2, name: clip(g.name, 110), item: pageUrl(g) }] },
     ],
   };
@@ -171,18 +232,9 @@ function headFor(g: Group, title: string, desc: string): string {
     .replace("</head>", `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>\n  </head>`);
 }
 
-function mainFor(g: Group): { title: string; desc: string; html: string } {
-  const n = g.cases.length;
-  const first = g.cases[n - 1].date, last = g.cases[0].date;
-  const st = states(g);
-  const cats = [...new Set(g.cases.map((c) => cat(c.category).label.toLowerCase()))];
-  const where = (g as Group & { where?: string }).where;
-  const title = g.kind === "party" ? `${g.name}: Commercial Real Estate Litigation` : `${g.name}${where && !g.name.includes(where) ? ` (${where})` : ""}: Litigation`;
-  const roles = [...g.roles.entries()].sort((a, b) => b[1] - a[1]).map(([r, k]) => `${r.toLowerCase()} in ${k}`).join(", ");
-  const intro = g.kind === "party"
-    ? `CREdocket tracks ${n} commercial real estate matters involving ${esc(g.name)}${roles ? ` (${esc(roles)})` : ""}, dated ${fmtDate(first)} to ${fmtDate(last)}${st.length ? `, in ${esc(st.join(", "))}` : ""}. Types: ${esc(cats.join(", "))}.`
-    : `CREdocket tracks ${n} matters about this property, dated ${fmtDate(first)} to ${fmtDate(last)}. Types: ${esc(cats.join(", "))}.`;
-  const desc = clip(`${g.kind === "party" ? g.name : "This property"}: ${n} commercial real estate matters tracked by CREdocket — ${g.cases.slice(0, 3).map((c) => plain(c.title)).join("; ")}`, 300);
+// Tracker matters, federal records naming the party or owner, and the
+// newsletter sign-up, shared by both page kinds.
+function sharedBlocks(g: Group) {
   const items = g.cases.map((c) => {
     const s = status(c.status), k = cat(c.category);
     return `
@@ -194,11 +246,111 @@ function mainFor(g: Group): { title: string; desc: string; html: string } {
   }).join("");
   const recs = g.recs.sort((a, b) => (b.rec.dateFiled > a.rec.dateFiled ? 1 : -1)).slice(0, 20);
   const recList = recs.length ? `
-    <h2 class="matter-h2" style="margin-top:40px;">Federal court records naming ${esc(g.name)}</h2>
+    <h2 class="matter-h2" style="margin-top:40px;">Federal court records naming ${esc(g.kind === "party" ? g.name : g.owner || g.name)}</h2>
     <p class="text-secondary">Filings found in federal court records (Chapter 11 Watch and Federal Lawsuit Watch), shown from the court record only.</p>
     <ul class="matter-related">${recs.map((r) => `
       <li><a href="/${r.folder}/${esc(r.rec.slug)}.html">${esc(r.rec.caseName)}</a><span>${esc(fmtDate(r.rec.dateFiled))} · ${esc(r.rec.court)}</span></li>`).join("")}
     </ul>` : "";
+  const cta = `<div class="card matter-cta" style="margin-top:40px;">
+      <div class="eyebrow">Free weekly email</div>
+      <h2 class="matter-h2">New commercial real estate rulings and lawsuits, every Monday</h2>
+      <form class="gate-form" data-newsletter-form data-newsletter-source="${g.kind}:${esc(g.slug).slice(0, 40)}" novalidate>
+        <label class="sr-only" for="entity-nl-email">Email address</label>
+        <input type="email" id="entity-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>`;
+  const foot = `<p class="text-muted matter-foot">CREdocket summarizes public ${g.tx?.length || g.cmbs?.length ? "court, county and SEC records" : "court records"} and reporting; see our <a href="/methodology.html#standards">sourcing standards</a> and <a href="/corrections.html">corrections log</a>. Not legal advice.</p>`;
+  return { items, recList, cta, foot };
+}
+
+const money = (n: number | null | undefined) => (n ? "$" + Math.round(n).toLocaleString("en-US") : "");
+const longDay = (iso: string) => new Date(iso + "T00:00:00Z").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+const TODAY = new Date().toISOString().slice(0, 10);
+
+// A property with a foreclosure-sale notice or a CMBS loan event: what the
+// appraisal roll says the property is, each distress record with a link to
+// its public source, then any tracker matters and federal records naming the
+// owner of record.
+function signalMain(g: Group): { title: string; desc: string; html: string } {
+  const tx = [...(g.tx || [])].sort((a, b) => (b.saleDate > a.saleDate ? 1 : -1));
+  const cmbs = [...(g.cmbs || [])].sort((a, b) => (b.filed > a.filed ? 1 : -1));
+  const t = tx[0];
+  const kinds = [tx.length ? "Foreclosure Sale Notice" : "", cmbs.length ? "CMBS Loan Distress" : "", g.cases.length ? "Litigation" : ""].filter(Boolean);
+  const title = `${g.name}${g.where && !g.name.includes(g.where) ? ` (${g.where})` : ""}: ${kinds.join(" and ")}`;
+  const upcoming = t && t.saleDate >= TODAY;
+  const intro = t
+    ? `The ${esc(t.county)} County Clerk posted a notice that this ${esc((t.propertyType || t.use || "commercial").toLowerCase())} property ${upcoming ? "is scheduled to be" : "was scheduled to be"} sold at a trustee's foreclosure sale on ${esc(longDay(t.saleDate))}. A posted sale can be postponed or called off before it happens, for example if the loan is brought current or the owner files for bankruptcy.`
+    : `This property's loan is in a CMBS trust whose servicer reports it ${esc(cmbs[0].eventLabel.toLowerCase())}.`;
+  const desc = clip(plain(t
+    ? `${g.name}, ${g.where}: posted for a trustee's foreclosure sale on ${fmtDate(t.saleDate)}${t.lender ? ` by ${t.lender}` : ""}. ${t.use ? `${t.use} property` : ""}${t.sqft ? `, ${t.sqft.toLocaleString("en-US")} sq ft` : ""}${t.units ? `, ${t.units} units` : ""}.`
+    : `${g.name}, ${g.where}: CMBS loan ${cmbs[0].eventLabel.toLowerCase()} (${cmbs[0].trust}).`), 300);
+  const fact = (k: string, v: string) => v ? `<div><dt>${esc(k)}</dt><dd>${v}</dd></div>` : "";
+  const facts = t ? [
+    fact("Address", esc(`${t.address}, ${t.city}, TX ${t.zip}`.trim())),
+    fact("Use (appraisal district)", esc(t.use)),
+    fact("Property type", esc(t.propertyType)),
+    fact("Building area", t.sqft ? `${t.sqft.toLocaleString("en-US")} sq ft` : ""),
+    fact("Units", t.units ? String(t.units) : ""),
+    fact("Year built", t.yearBuilt ? String(t.yearBuilt) : ""),
+    fact("Owner on the appraisal roll", esc(t.owner)),
+    fact("Appraisal record", t.parcelUrl ? `<a href="${esc(t.parcelUrl)}" rel="nofollow noopener" target="_blank">${esc(t.county)} CAD account ${esc(t.parcel)}</a>` : ""),
+  ].join("") : "";
+  const txItems = tx.map((r) => `
+      <li class="card entity-matter">
+        <div class="entity-matter-meta" style="display:flex; flex-wrap:wrap; gap:6px 14px; font-size:13px; color:var(--text-muted); margin-bottom:8px;"><span>Sale date ${esc(fmtDate(r.saleDate))}</span><span>Notice of trustee's sale</span><span>${esc(r.county)} County, TX</span></div>
+        <h2 class="matter-h2">${r.saleDate >= TODAY ? "Scheduled" : "Posted"} for foreclosure sale ${esc(fmtDate(r.saleDate))}</h2>
+        <p class="text-secondary">${[r.lender ? `Foreclosing lender: ${esc(r.lender)}.` : "", r.originalAmount ? `Original loan amount: ${money(r.originalAmount)}.` : "",
+          `Texas trustee's sales are held on the first Tuesday of the month, between 10 a.m. and 4 p.m., at the place the county designates.`].filter(Boolean).join(" ")}</p>
+        <p class="text-muted" style="font-size:13px;">Source: <a href="${esc(r.postingUrl)}${r.postingPage ? `#page=${r.postingPage}` : ""}" rel="nofollow noopener" target="_blank">${esc(r.county)} County Clerk notice${r.docNumber ? ` ${esc(r.docNumber)}` : ""}${r.postingPage ? `, page ${r.postingPage}` : ""}</a>. Matched to the appraisal roll by ${esc(r.matchedBy)}.</p>
+      </li>`).join("");
+  const cmbsItems = cmbs.map((r) => `
+      <li class="card entity-matter">
+        <div class="entity-matter-meta" style="display:flex; flex-wrap:wrap; gap:6px 14px; font-size:13px; color:var(--text-muted); margin-bottom:8px;"><span>Reported ${esc(fmtDate(r.filed))}</span><span>CMBS loan</span></div>
+        <h2 class="matter-h2"><a href="/cmbs/${esc(r.slug)}.html">${esc(r.eventLabel)}: ${esc(r.trust)}</a></h2>
+        <p class="text-secondary">${[r.balance ? `Loan balance ${money(r.balance)}.` : "", r.paymentStatus ? `Payment status: ${esc(r.paymentStatus)}.` : ""].filter(Boolean).join(" ")}</p>
+      </li>`).join("");
+  const { items, recList, cta, foot } = sharedBlocks(g);
+  const html = `<main id="main-content" tabindex="-1">
+
+<header class="page-header matter-header">
+  <div class="container" style="max-width:860px;">
+    <nav class="matter-crumbs" aria-label="Breadcrumb"><a href="/texas-foreclosures.html">Texas Foreclosure Sales</a><span aria-hidden="true">/</span><span>Properties</span></nav>
+    <h1 style="font-size:clamp(1.8rem,3.4vw,2.6rem);">${esc(title)}</h1>
+    <p class="lede mt-16">${intro}</p>
+  </div>
+</header>
+
+<section class="section-tight">
+  <div class="container" style="max-width:860px;">
+    ${facts ? `<dl class="card matter-meta-grid" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px 24px; margin-bottom:32px;">${facts}</dl>` : ""}
+    <ul class="entity-matters" style="list-style:none; padding:0; display:grid; gap:16px;">${txItems}${cmbsItems}${items}
+    </ul>
+    ${recList}
+    ${cta}
+    ${foot}
+  </div>
+</section>
+
+</main>`;
+  return { title, desc, html };
+}
+
+function mainFor(g: Group): { title: string; desc: string; html: string } {
+  const n = g.cases.length;
+  if (g.tx?.length || g.cmbs?.length) return signalMain(g);
+  const first = g.cases[n - 1].date, last = g.cases[0].date;
+  const st = states(g);
+  const cats = [...new Set(g.cases.map((c) => cat(c.category).label.toLowerCase()))];
+  const where = g.where;
+  const title = g.kind === "party" ? `${g.name}: Commercial Real Estate Litigation` : `${g.name}${where && !g.name.includes(where) ? ` (${where})` : ""}: Litigation`;
+  const roles = [...g.roles.entries()].sort((a, b) => b[1] - a[1]).map(([r, k]) => `${r.toLowerCase()} in ${k}`).join(", ");
+  const intro = g.kind === "party"
+    ? `CREdocket tracks ${n} commercial real estate matters involving ${esc(g.name)}${roles ? ` (${esc(roles)})` : ""}, dated ${fmtDate(first)} to ${fmtDate(last)}${st.length ? `, in ${esc(st.join(", "))}` : ""}. Types: ${esc(cats.join(", "))}.`
+    : `CREdocket tracks ${n} matters about this property, dated ${fmtDate(first)} to ${fmtDate(last)}. Types: ${esc(cats.join(", "))}.`;
+  const desc = clip(`${g.kind === "party" ? g.name : "This property"}: ${n} commercial real estate matters tracked by CREdocket — ${g.cases.slice(0, 3).map((c) => plain(c.title)).join("; ")}`, 300);
+  const { items, recList, cta, foot } = sharedBlocks(g);
   const html = `<main id="main-content" tabindex="-1">
 
 <header class="page-header matter-header">
@@ -214,17 +366,8 @@ function mainFor(g: Group): { title: string; desc: string; html: string } {
     <ul class="entity-matters" style="list-style:none; padding:0; display:grid; gap:16px;">${items}
     </ul>
     ${recList}
-    <div class="card matter-cta" style="margin-top:40px;">
-      <div class="eyebrow">Free weekly email</div>
-      <h2 class="matter-h2">New commercial real estate rulings and lawsuits, every Monday</h2>
-      <form class="gate-form" data-newsletter-form data-newsletter-source="${g.kind}:${esc(g.slug).slice(0, 40)}" novalidate>
-        <label class="sr-only" for="entity-nl-email">Email address</label>
-        <input type="email" id="entity-nl-email" autocomplete="email" placeholder="you@company.com" />
-        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
-      </form>
-      <p class="gate-form-status" data-newsletter-status role="status"></p>
-    </div>
-    <p class="text-muted matter-foot">CREdocket summarizes public court records and reporting; see our <a href="/methodology.html#standards">sourcing standards</a> and <a href="/corrections.html">corrections log</a>. Not legal advice.</p>
+    ${cta}
+    ${foot}
   </div>
 </section>
 
@@ -232,7 +375,10 @@ function mainFor(g: Group): { title: string; desc: string; html: string } {
   return { title, desc, html };
 }
 
-const index: { parties: Record<string, string>; properties: Record<string, string> } = { parties: {}, properties: {} };
+// tx: parcel -> page and cmbs: event slug -> page let the Texas foreclosure
+// list and the CMBS pages link to a property's page.
+const index: { parties: Record<string, string>; properties: Record<string, string>; tx: Record<string, string>; cmbs: Record<string, string> } =
+  { parties: {}, properties: {}, tx: {}, cmbs: {} };
 const keep = new Set<string>();
 const used = new Set<string>();
 for (const folder of ["parties", "properties"]) await Deno.mkdir(folder, { recursive: true });
@@ -245,6 +391,8 @@ for (const g of groups) {
   await Deno.writeTextFile(file, headFor(g, title, desc) + html + tail);
   keep.add(file);
   index[g.kind === "party" ? "parties" : "properties"][g.key] = `/${file}`;
+  for (const r of g.tx || []) index.tx[`${r.county}:${r.parcel}`] = `/${file}`;
+  for (const r of g.cmbs || []) index.cmbs[r.slug] = `/${file}`;
 }
 let removed = 0;
 for (const folder of ["parties", "properties"]) {
