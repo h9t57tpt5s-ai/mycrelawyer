@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-11-06T20:32:37+00:00",
- "pagesChecked": 828,
+ "generatedAt": "2026-11-07T19:01:39+00:00",
+ "pagesChecked": 837,
  "pagesByFolder": {
-  "root": 217,
-  "matters": 318,
+  "root": 219,
+  "matters": 322,
   "chapter-11": 179,
-  "federal-cases": 114
+  "federal-cases": 117
  },
  "summary": {
   "zeroStatCounters": 0,
@@ -25,15 +25,15 @@
   "heavyPages": 0
  },
  "freshness": {
-  "matters": 318,
-  "newestMatterAdded": "2026-11-06",
+  "matters": 322,
+  "newestMatterAdded": "2026-11-07",
   "daysSinceNewestMatter": 0,
   "ch11Petitions": 179,
   "newestCh11Petition": "2026-11-06",
-  "daysSinceNewestCh11": 0,
-  "federalSuits": 114,
+  "daysSinceNewestCh11": 1,
+  "federalSuits": 117,
   "newestFederalSuit": "2026-11-06",
-  "daysSinceNewestSuit": 0
+  "daysSinceNewestSuit": 1
  },
  "findings": {
   "zeroStatCounters": [],
@@ -65,7 +65,7 @@
    {
     "page": "litigation.html",
     "chars": 77,
-    "title": "Commercial Real Estate Litigation Tracker: 318 Lawsuits & Rulings \u2014 CREdocket"
+    "title": "Commercial Real Estate Litigation Tracker: 322 Lawsuits & Rulings \u2014 CREdocket"
    },
    {
     "page": "state-court-watch.html",
