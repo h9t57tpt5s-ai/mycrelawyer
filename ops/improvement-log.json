@@ -1123,7 +1123,15 @@
         "signUps7": 2
       },
       "checkAfter": "2026-11-08",
-      "status": "watching"
+      "status": "no clear effect",
+      "verdict": {
+        "date": "2026-11-08",
+        "value": {
+          "newsletterSignups7": 0,
+          "signUps7": 0
+        },
+        "note": "7-day newsletterSignups7/signUps7 both moved 2->0 (-100%, clears the 25% threshold), but last28Days.newsletterSignups/signUps have sat flat at 4/5 every day since 2026-11-01 (ops/metrics/history/2026-11-01.json through 2026-11-07.json) -- the 7-day decline is the small 2026-10-26-era signup/newsletter batch aging out of the trailing window, not a new drop tied to imp-046's 2026-11-01 ship date. 28-day trend does not confirm a decline, so per the playbook's own rule this reads as no clear effect, not hurt. Not reverted."
+      }
     },
     {
       "id": "imp-047",
@@ -1431,8 +1439,35 @@
         "missingFromSitemap": 2
       },
       "checkAfter": "2026-11-08",
-      "status": "watching",
-      "note": "Fixed judge-ryan-white.html's three description meta tags by hand to exactly match prerender.ts's actual output (verified by replicating its judge-*.html loop in Node against js/data.js: zero diff across all 61 judge pages after the fix, versus 1 before). Did not stop at the hand fix -- manually re-ran the workflow twice via `gh workflow run prerender.yml` to actually confirm it unblocks the pipeline rather than assuming: the first re-run (42387949942) still failed because it ran before the fix commit landed; the second (42388363473), after the fix was pushed, succeeded, and the resulting 'Prerender: bake' catch-up commit (74c131a) created matters/live-376.html, live-377.html and live-378.html. Re-ran site_audit.py after pulling that commit: brokenLinks/orphanPages/missingFromSitemap all confirmed 0 (checkAfter set to tomorrow mainly to re-confirm no regression, since the live fix already verified clean). This is a one-time patch, not a structural fix -- the identical failure will recur the next time any judge-*.html page's content changes, since .github/ is off-limits to this routine. Added backlog G22 (NEEDS JEFF) with the exact one-line fix (add judge-*.html to the workflow's git-add list, mirroring company-*.html) and notified Jeff directly given the pipeline was fully stuck for every future js/data.js push until either a human fixed the workflow or every judge page happened to already match prerender.ts's output. HTML tag balance checked clean on judge-ryan-white.html (void-element-aware Python HTMLParser checker); check_case_fields.py and site_audit.py both re-run clean; reverted this run's own regeneration of ops/metrics/audit.json before committing judge-ryan-white.html's fix, per the established rule that file belongs to the metrics workflow."
+      "status": "helped",
+      "note": "Fixed judge-ryan-white.html's three description meta tags by hand to exactly match prerender.ts's actual output (verified by replicating its judge-*.html loop in Node against js/data.js: zero diff across all 61 judge pages after the fix, versus 1 before). Did not stop at the hand fix -- manually re-ran the workflow twice via `gh workflow run prerender.yml` to actually confirm it unblocks the pipeline rather than assuming: the first re-run (42387949942) still failed because it ran before the fix commit landed; the second (42388363473), after the fix was pushed, succeeded, and the resulting 'Prerender: bake' catch-up commit (74c131a) created matters/live-376.html, live-377.html and live-378.html. Re-ran site_audit.py after pulling that commit: brokenLinks/orphanPages/missingFromSitemap all confirmed 0 (checkAfter set to tomorrow mainly to re-confirm no regression, since the live fix already verified clean). This is a one-time patch, not a structural fix -- the identical failure will recur the next time any judge-*.html page's content changes, since .github/ is off-limits to this routine. Added backlog G22 (NEEDS JEFF) with the exact one-line fix (add judge-*.html to the workflow's git-add list, mirroring company-*.html) and notified Jeff directly given the pipeline was fully stuck for every future js/data.js push until either a human fixed the workflow or every judge page happened to already match prerender.ts's output. HTML tag balance checked clean on judge-ryan-white.html (void-element-aware Python HTMLParser checker); check_case_fields.py and site_audit.py both re-run clean; reverted this run's own regeneration of ops/metrics/audit.json before committing judge-ryan-white.html's fix, per the established rule that file belongs to the metrics workflow.",
+      "verdict": {
+        "date": "2026-11-08",
+        "value": {
+          "brokenLinks": 0,
+          "orphanPages": 0,
+          "missingFromSitemap": 0
+        },
+        "note": "Live site_audit.py today confirms brokenLinks/orphanPages/missingFromSitemap all still 0, same as the same-day confirmation noted in imp-060's own entry; the prerender pipeline has run cleanly since (git log shows multiple successful 'Prerender: bake' commits overnight). Fix held."
+      }
+    },
+    {
+      "id": "imp-061",
+      "date": "2026-11-08",
+      "track": "traffic",
+      "title": "Refreshed ops/social-drafts/ with 6 new LinkedIn post drafts (backlog G5)",
+      "why": "Judged imp-046 (conversion, no clear effect) and imp-060 (audit, helped) -- see verdicts on those entries and ops/improvement-playbook.md's \"What we have learned\". Live site_audit.py was clean (brokenLinks/orphanPages/missingFromSitemap/missingTitle/missingCanonical all 0; longTitle rose 6->7 on the new texas-foreclosures.html page, missingDescription 2/weakDescription 2 unchanged, both already-explained noindex/pre-existing pages) -- not treated as breakage, and not fixed this run since doing so would touch the same googleLandings7 metric imp-053 is already watching until 2026-11-11. mostBehind was conversion/calculator/traffic/news, but after today's two closures every single goal still had an open watching entry (traffic: imp-053 till 2026-11-11; conversion: imp-056 till 2026-11-12; calculator: imp-059 till 2026-11-14; news: imp-052 till 2026-11-10; subscription: imp-057 till 2026-11-13) -- the same full gridlock G20 already named. Checked the other fallback candidates before defaulting: ops/calculator-proposals.md has no new entry and no Jeff annotation since imp-045's 2026-10-31 entry, and every results*/ backtest directory is unchanged in size, so no new G3/G15 evidence exists to mine; ops/leads-handled.json's recent skips showed nothing beyond the already-addressed shapes. ops/social-drafts/ (last refreshed imp-058, 2026-11-06, through live-373) was missing 6 new matters (live-374 through live-379), comfortably over the refresh threshold -- drafted all 6 (none names an individual as a case-caption party, so none were skipped).",
+      "files": [
+        "ops/social-drafts/2026-11-08.md",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "c0b5c961",
+      "metric": "n/a (no goal metric watches social-draft refreshes)",
+      "window": "n/a",
+      "baseline": {},
+      "checkAfter": null,
+      "status": "no-op"
     }
   ]
 }
