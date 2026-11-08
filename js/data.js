@@ -523,7 +523,8 @@ const RELAW_DATA = {
       ],
       timeline: [
         { when: "June 21, 2025", label: "San Diego's algorithmic rent-pricing ban takes effect" },
-        { when: "July 2, 2026", label: "Jacob Keller files class action against UDR, Inc.",  current: true }
+        { when: "July 2, 2026", label: "Jacob Keller files class action against UDR, Inc." },
+        { when: "November 2, 2026", label: "Docket records a \"Dismiss for Failure to State a Claim\" entry (docket entry 18)", current: true }
       ],
       documentUrl: "https://www.documentcloud.org/documents/28535107-us-dis-casd-3-26cv3865-d2650861e355-complaint-with-jury-demand-against-udr-inc-filing/",
       documentLabel: "Read the filed complaint",
@@ -1101,7 +1102,8 @@ const RELAW_DATA = {
         { when: "December 2015", label: "Morgan Stanley Bank, N.A. originates the $130M loan, later securitized into the 2016-C28 trust" },
         { when: "January 1, 2026", label: "Loan reaches maturity and is not paid off" },
         { when: "August 12, 2026", label: "U.S. Bank National Association sues to foreclose and seeks appointment of a receiver" },
-        { when: "October 8, 2026", label: "Plaintiff requests entry of default judgment by the clerk (docket entry 6)", current: true }
+        { when: "October 8, 2026", label: "Plaintiff requests entry of default judgment by the clerk (docket entry 6)" },
+        { when: "November 6, 2026", label: "Docket records an \"Appoint Receiver\" entry in the case (docket entry 11)", current: true }
       ],
       tags: ["cmbs", "foreclosure", "receivership", "office", "maturity default"],
       docketUrl: "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
@@ -4388,8 +4390,9 @@ const RELAW_DATA = {
         { when: "September 2025", label: "The California Legislature passes SB 158 as a budget trailer bill; the Governor signs it" },
         { when: "October 24, 2025", label: "The Mission LLC sues the State of California and City of Santa Barbara in federal court" },
         { when: "March 5, 2026", label: "Judge Hernán D. Vera takes the defendants' motions to dismiss under submission" },
-        { when: "June 2, 2026", label: "Judge Vera dismisses the complaint as unripe and insufficiently pleaded, with leave to amend", current: true },
-        { when: "June 22, 2026", label: "Deadline for The Mission LLC to file an amended complaint", upcoming: true }
+        { when: "June 2, 2026", label: "Judge Vera dismisses the complaint as unripe and insufficiently pleaded, with leave to amend" },
+        { when: "June 22, 2026", label: "Deadline for The Mission LLC to file an amended complaint" },
+        { when: "November 2, 2026", label: "Docket records a further \"Dismiss\" entry in the case (docket entry 37)", current: true }
       ],
       tags: ["builder's remedy", "SB 158", "equal protection", "sovereign immunity", "ripeness", "housing element", "California"],
       docketUrl: "https://www.courtlistener.com/docket/71746386/the-mission-llc-v-the-state-of-california/",
