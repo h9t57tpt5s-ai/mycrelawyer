@@ -315,6 +315,22 @@
     try { localStorage.setItem(LAST_VISIT_KEY, todayIso); } catch (e) { /* private window */ }
   }
 
+  /* ---------- Newsletter band: real weekly count ----------
+     The "New on CREdocket, every Monday" sign-up band's description
+     defaults to generic copy (what is in the no-JS/crawler markup). Where
+     RELAW_DATA has loaded, swap in the real trailing-7-day new-matter
+     count, same window prerender.ts's own freshness figures use. Never
+     hand-typed, and never shown as "0 new" -- the generic sentence stays
+     if the week had none. */
+  const nlLede = document.querySelector("[data-nl-lede]");
+  if (nlLede && typeof RELAW_DATA !== "undefined") {
+    const cutoff = Date.now() - 7 * 86_400_000;
+    const weekCount = RELAW_DATA.cases.filter((c) => c.addedDate && new Date(c.addedDate + "T00:00:00Z").getTime() > cutoff).length;
+    if (weekCount > 0) {
+      nlLede.textContent = `This week: ${weekCount} new commercial real estate ${weekCount === 1 ? "lawsuit" : "lawsuits"}, plus rulings in cases we follow and new market signals.`;
+    }
+  }
+
   /* ---------- Shared render helpers ---------- */
   function categoryById(id) {
     return RELAW_DATA.categories.find((c) => c.id === id);

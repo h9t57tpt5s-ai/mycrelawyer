@@ -343,7 +343,7 @@ function mainFor(c: Case): string {
         <p class="gate-form-status" data-follow-status role="status"></p>
       </div>` : `<div class="eyebrow">Weekly email</div>
         <h2 class="matter-h2">New on CREdocket, every Monday</h2>
-        <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+        <p class="text-secondary">${newMattersThisWeek > 0 ? `This week: ${newMattersThisWeek} new commercial real estate ${newMattersThisWeek === 1 ? "lawsuit" : "lawsuits"}, plus rulings in cases we follow and new market signals.` : "The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals."} Free; unsubscribe in one click.</p>
         <form class="gate-form" data-newsletter-form data-newsletter-source="matter:${esc(c.id)}" data-case-id="${esc(c.id)}" novalidate>
           <label class="sr-only" for="matter-nl-email">Email address</label>
           <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
