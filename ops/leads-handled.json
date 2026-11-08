@@ -1613,12 +1613,12 @@
    "action": "skipped: Omega Healthcare Gulf Coast Subordinated Debt suit filed August 2021, no new development this filing"
   },
   "petition:https://www.courtlistener.com/docket/75069803/38-cri-properties-llc/": {
-   "at": "2026-11-04",
-   "action": "skipped: bare docket lead, no named major sponsor/REIT/lender and no coverage expected; already gets its own record page via the ingest pipeline"
+   "at": "2026-11-08",
+   "action": "skipped: no coverage found explaining the filing (single-asset LLC named for address, no secondary reporting)"
   },
   "petition:https://www.courtlistener.com/docket/75068539/1583-58-street-llc/": {
-   "at": "2026-11-04",
-   "action": "skipped: bare docket lead, no named major sponsor/REIT/lender and no coverage expected; already gets its own record page via the ingest pipeline"
+   "at": "2026-11-08",
+   "action": "skipped: no coverage found explaining the filing (Bondoro filing-alert blurb only, no detail on property, lender or debt)"
   },
   "petition:https://www.courtlistener.com/docket/75057502/parker-and-parker-real-estate-llc/": {
    "at": "2026-11-04",
@@ -1769,12 +1769,12 @@
    "action": "skipped: no coverage found explaining the filing (small LLC property-insurance coverage dispute, no named major player)"
   },
   "petition:https://www.courtlistener.com/docket/75080719/7906-10-andrus-road-llc/": {
-   "at": "2026-11-06",
-   "action": "skipped: no coverage found explaining the filing; bare docket, no named major sponsor (searched 'Andrus Road' bankruptcy/property/lawsuit, no matching Virginia address or entity found in press)"
+   "at": "2026-11-08",
+   "action": "skipped: no coverage found explaining the filing (single-asset LLC named for address, no secondary reporting)"
   },
   "petition:https://www.courtlistener.com/docket/75078393/1-calle-ziella-llc/": {
-   "at": "2026-11-06",
-   "action": "skipped: no coverage found explaining the filing; bare docket, no named major sponsor (searched 'Calle Ziella' property/bankruptcy, no matching California address or entity found in press)"
+   "at": "2026-11-08",
+   "action": "skipped: no coverage found explaining the filing (single-asset LLC named for address, no secondary reporting)"
   },
   "https://www.courtlistener.com/docket/75079328/watercress-hotel-associates-llc-v-uponor-inc/": {
    "at": "2026-11-07",
@@ -1913,8 +1913,8 @@
    "action": "skipped: no coverage found for this Endeavor Real Estate Group, Ltd. v. Endeavor Group Real Estate, LLC naming/trademark dispute between two real estate firms"
   },
   "petition:https://www.courtlistener.com/docket/75081862/652-grandview-ave-llc/": {
-   "at": "2026-11-07",
-   "action": "skipped: no coverage found explaining this Nov 6 filing; third-party docket aggregator shows this is a single residential-looking address (Flushing, NY) LLC Ch. 11, distinct from an unrelated 2025 Ch. 11 case for the same address; bare docket, no named sponsor"
+   "at": "2026-11-08",
+   "action": "skipped: no coverage found explaining the filing (single-asset Brooklyn LLC named for address, only hit was an unrelated earlier 652 Grandview Ave LLC case from Dec 2025, not this docket)"
   }
  }
 }
