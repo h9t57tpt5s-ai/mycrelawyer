@@ -1468,6 +1468,30 @@
       "baseline": {},
       "checkAfter": null,
       "status": "no-op"
+    },
+    {
+      "id": "imp-062",
+      "date": "2026-11-08",
+      "track": "conversion",
+      "title": "Newsletter sign-up copy: real weekly count, revived after Jeff's matter-page redesign dropped it",
+      "why": "Nothing new to judge this run beyond this morning's imp-046/imp-060 (earliest remaining open checkAfter is imp-052's 2026-11-10). Audit clean (unchanged from this morning). Checked \"one open experiment per goal\" by metric: traffic (imp-053 till 2026-11-11), calculator (imp-059 till 2026-11-14), news (imp-052 till 2026-11-10, on track), subscription (imp-057 till 2026-11-13) all blocked -- but conversion's newsletterSignups7/signUps7 had just come unblocked when imp-046 closed this morning (its own open conversion entry, imp-056, only watches multiPageRate7Adjusted). Rather than default to another social-drafts refresh, looked for a fresh idea on the newly-unblocked metric per backlog item 7's own note (\"if this comes back no clear effect, the next untried lever is a different kind of incentive, not another copy tweak\"). Found something more specific first: grepping scripts/build_matter_pages.ts for imp-033/046's own newMattersThisWeek variable showed it declared but no longer used anywhere -- Jeff's 2026-11-04 commit 59f47a91 (\"Matter pages: full write-up on the page, one call-to-action box\") consolidated five separate matter-page CTA boxes into one, and the newsletter box's copy it kept is fully generic static text, not the real-count sentence imp-033 shipped and had already been judged \"helped\" on 2026-10-25/11-01 before being overwritten. So this morning's imp-046 \"no clear effect\" verdict was computed over a week in which the live site, since 11-04, didn't even carry imp-046's own change anymore -- worth recording so a future run doesn't treat that verdict as a clean read of the copy itself. Revived the real-count idea against the current single-CTA design instead of inventing an unproven new incentive: scripts/build_matter_pages.ts's newsletter box (shown for the 232/323 matters with no docket) now leads with \"This week: N new commercial real estate lawsuit(s), plus rulings in cases we follow and new market signals\" when the build-time newMattersThisWeek count is non-zero, falling back to the original generic sentence otherwise -- no new computation, just finally wiring up the one that was already there. Extended the same idea to index.html's and litigation.html's newsletter-band copy (previously fully static, never had a real count even before 11-04) via js/main.js, computed client-side from RELAW_DATA the same way the returning-visitor banner already is (same file, same pattern): wrapped the count-bearing clause in <span data-nl-lede> so a no-JS visitor or crawler still sees accurate generic copy, and the sentence never reads \"0 new\". Verified: tsc --noEmit against a Deno ambient shim on build_matter_pages.ts (clean, deno unavailable this session); node --check on main.js (clean); HTML tag-balance checker clean on index.html/litigation.html; site_audit.py and check_case_fields.py both re-run clean, no count regressed. Left matters/*.html untouched for prerender.yml to regenerate from the changed builder, per the established fallback. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing.",
+      "files": [
+        "index.html",
+        "litigation.html",
+        "js/main.js",
+        "scripts/build_matter_pages.ts",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "8c962134",
+      "metric": "conversion.metrics.newsletterSignups7, conversion.metrics.signUps7 (ops/metrics/goals.json)",
+      "window": "7 days",
+      "baseline": {
+        "newsletterSignups7": 0,
+        "signUps7": 0
+      },
+      "checkAfter": "2026-11-15",
+      "status": "watching"
     }
   ]
 }
