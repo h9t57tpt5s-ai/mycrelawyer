@@ -1,21 +1,14 @@
 {
  "ok": true,
- "generatedAt": "2026-11-08T01:45:44.782Z",
+ "generatedAt": "2026-11-08T17:14:56.076Z",
  "days": 30,
  "portfolios": 1,
  "entitiesWatched": 1,
  "sources": {
   "courtlistener": {
-   "stored": 653,
+   "stored": 641,
    "liveSince": "2026-09-19",
-   "lagSample": 653,
-   "medianLagDays": 1,
-   "p90LagDays": 2
-  },
-  "harris_jp_tx": {
-   "stored": 27,
-   "liveSince": "2026-09-20",
-   "lagSample": 27,
+   "lagSample": 641,
    "medianLagDays": 1,
    "p90LagDays": 2
   },
@@ -24,6 +17,13 @@
    "liveSince": "2026-09-20",
    "lagSample": 72,
    "medianLagDays": 2,
+   "p90LagDays": 2
+  },
+  "harris_jp_tx": {
+   "stored": 22,
+   "liveSince": "2026-09-20",
+   "lagSample": 22,
+   "medianLagDays": 1,
    "p90LagDays": 2
   },
   "sec_edgar": {
@@ -36,7 +36,7 @@
  },
  "byDay": {
   "2026-10-09": {
-   "stored": 29,
+   "stored": 12,
    "alerts": 0,
    "emailed": 0
   },
