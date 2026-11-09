@@ -1,7 +1,33 @@
 {
- "updatedAt": "2026-11-09T01:55:22+00:00",
+ "updatedAt": "2026-11-09T21:38:39+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Rockefeller Photos, LLC v. Selinsgrove Hotel, Inc.",
+   "court": "District Court, M.D. Pennsylvania",
+   "courtId": "pamd",
+   "docketNumber": "4:26-cv-03315",
+   "dateFiled": "2026-11-09",
+   "docketUrl": "https://www.courtlistener.com/docket/75092499/rockefeller-photos-llc-v-selinsgrove-hotel-inc/",
+   "docketId": 75092499,
+   "suitNature": "",
+   "cause": "",
+   "slug": "rockefeller-photos-llc-v-selinsgrove-hotel-inc-pamd-4-26-cv-03315",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Phoenix Associates, Inc. v. SMG Land Development, LLC",
+   "court": "District Court, S.D. West Virginia",
+   "courtId": "wvsd",
+   "docketNumber": "2:26-cv-00719",
+   "dateFiled": "2026-11-09",
+   "docketUrl": "https://www.courtlistener.com/docket/75092379/phoenix-associates-inc-v-smg-land-development-llc/",
+   "docketId": 75092379,
+   "suitNature": "",
+   "cause": "",
+   "slug": "phoenix-associates-inc-v-smg-land-development-llc-wvsd-2-26-cv-00719",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "JCER Properties LLC v. Safeco Insurance Company of America",
    "court": "District Court, W.D. Washington",
@@ -29,7 +55,7 @@
    "type": "Federal civil case"
   },
   {
-   "caseName": "ENDEAVOR REAL ESTATE GROUP, LTD. v. Endeavor Group Real Estate, LLC",
+   "caseName": "Endeavor Real Estate Group, LTD. v. Endeavor Group Real Estate, LLC",
    "court": "District Court, N.D. Texas",
    "courtId": "txnd",
    "docketNumber": "4:26-cv-01432",
@@ -42,7 +68,7 @@
    "type": "Federal civil case"
   },
   {
-   "caseName": "BSD Capital, Inc. v. La Plaza Hospitality, LLC",
+   "caseName": "BSD Capital Inc v. La Plaza Hospitality LLC",
    "court": "District Court, W.D. Washington",
    "courtId": "wawd",
    "docketNumber": "2:26-cv-04317",
