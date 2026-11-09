@@ -1,0 +1,16 @@
+{
+  "id": "live-380",
+  "title": "AB Realty, LLC v. Scott Lane (Eighth Circuit Affirms Dismissal of Apartment Owner's Claims Over Omaha Code-Enforcement Closure)",
+  "category": "zoning-land-use",
+  "status": "ruling",
+  "date": "2026-11-06",
+  "jurisdiction": "U.S. Court of Appeals for the Eighth Circuit",
+  "state": "NE",
+  "amount": "No dollar figure stated",
+  "source": "live",
+  "source_url": "https://www.courtlistener.com/opinion/11056715/ab-realty-llc-v-scott-lane/",
+  "summary": "The Eighth Circuit affirmed the dismissal of civil-rights claims brought by AB Realty, LLC, owner of the 84-unit Yale Park Apartment Complex in Omaha, Nebraska, against the city and its housing inspectors over the 2018 closure of the building for code violations. AB Realty alleged the inspection warrant was obtained using false statements and that the closure amounted to an unconstitutional taking and a due-process violation, but the court held the Fourth Amendment claim failed under the administrative-warrant standard and that the due-process and takings claims were inadequately pleaded.",
+  "significance": "The ruling confirms that administrative code-enforcement inspection warrants are judged under a far more forgiving standard than ordinary criminal search warrants, so a multifamily owner challenging one must show the warrant affidavit fails even after any false statements are set aside. It also shows that takings and due-process theories arising from a code-enforcement closure need precise pleading -- identifying the specific protected interest and whether a per se or regulatory taking is alleged -- or they risk dismissal regardless of how disruptive the underlying closure was.",
+  "judge": "Jonathan A. Kobes",
+  "tags": ["multifamily", "code-enforcement", "fourth-amendment", "takings", "omaha"]
+}

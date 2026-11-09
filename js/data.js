@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-07",
+  lastUpdatedDate: "2026-11-09",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -13274,6 +13274,87 @@ const RELAW_DATA = {
         { when: "May 2026", label: "Maricopa County jury finds ZOM liable; judgment entered for approximately $308.6 million" },
         { when: "October 30, 2026", label: "ZOM Holding and two affiliates file Chapter 11 in the Middle District of Florida to fund the appeal", current: true }
       ]
+    },
+    {
+      id: "live-380",
+      addedDate: "2026-11-09",
+      featured: true,
+      property: { name: "Yale Park Apartment Complex", city: "Omaha", state: "NE" },
+      propertyType: "Multifamily",
+      title: "AB Realty, LLC v. Scott Lane (Eighth Circuit Affirms Dismissal of Apartment Owner's Claims Over Omaha Code-Enforcement Closure)",
+      brief: "The Eighth Circuit affirmed dismissal of a multifamily owner's Fourth and Fifth Amendment claims after Omaha closed its 84-unit Yale Park Apartments for code violations, even though the inspector's warrant application contained false statements.",
+      seoTitle: "Yale Park Apartments: 8th Circuit Upholds Omaha Closure Suit Loss",
+      seoDescription: "The Eighth Circuit affirmed dismissal of AB Realty's claims over Omaha's 2018 closure of its Yale Park Apartments for code violations.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-06",
+      jurisdiction: "U.S. Court of Appeals for the Eighth Circuit",
+      state: "NE",
+      amount: "No dollar figure stated",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11056715/ab-realty-llc-v-scott-lane/",
+      documentUrl: "https://ecf.ca8.uscourts.gov/opndir/26/11/252082P.pdf",
+      documentLabel: "Read the official opinion",
+      summary: "The Eighth Circuit affirmed the dismissal of civil-rights claims brought by AB Realty, LLC, owner of the 84-unit Yale Park Apartment Complex in Omaha, Nebraska, against the city and its housing inspectors over the 2018 closure of the building for code violations. AB Realty alleged the inspection warrant was obtained using false statements and that the closure amounted to an unconstitutional taking and a due-process violation, but the court held the Fourth Amendment claim failed under the administrative-warrant standard and that the due-process and takings claims were inadequately pleaded.",
+      significance: "The ruling confirms that administrative code-enforcement inspection warrants are judged under a far more forgiving standard than ordinary criminal search warrants, so a multifamily owner challenging one must show the warrant affidavit fails even after any false statements are set aside. It also shows that takings and due-process theories arising from a code-enforcement closure need precise pleading — identifying the specific protected interest and whether a per se or regulatory taking is alleged — or they risk dismissal regardless of how disruptive the underlying closure was.",
+      body: [
+        "The U.S. Court of Appeals for the Eighth Circuit, in an opinion by Judge Jonathan A. Kobes filed November 6, 2026, affirmed the dismissal of a multifamily owner's constitutional claims arising from a Nebraska city's 2018 closure of an apartment complex for code violations. The decision in AB Realty, LLC v. Scott Lane illustrates how difficult it is for an owner to turn a disruptive code-enforcement closure into a viable federal civil-rights claim, even where the city's own inspector made demonstrably false statements along the way.",
+        "The dispute traces to Yale Park Apartment Complex, an 84-unit property in Omaha owned by AB Realty, LLC. In 2018, tenant advocates Hannah Wyble and Lori Vlach began documenting code violations at the property and relaying their findings to the city, which started planning the building's closure. Omaha's Chief Housing Inspector, Scott Lane, applied for and obtained an administrative inspection warrant citing suspected violations in roughly 84 units. The Eighth Circuit's opinion recounts that the warrant application contained several false statements, including that an AB Realty principal had denied the inspector entry, that police had been called to the complex, and that a gas explosion had occurred there.",
+        "The city executed the warrant in September 2018, found roughly 2,000 total code violations across the property, ordered tenants relocated, and barred Yale Park from reopening until the violations were cured. The city separately prosecuted AB Realty principal Kay Anderson on misdemeanor code-violation charges; a jury convicted him on a few counts and acquitted him of most. After completing repairs and reopening the building in 2021, AB Realty sued the city, its inspectors, and the two tenant advocates under 42 U.S.C. Section 1983, asserting Fourth Amendment, due-process, and takings claims. The district court dismissed the suit, in part staying it pending the outcome of Anderson's criminal case, and AB Realty appealed.",
+        "The Eighth Circuit affirmed on every claim. On the Fourth Amendment theory, the court applied the Franks v. Delaware framework, under which a plaintiff must show both that the affidavit contained deliberately or recklessly false statements and that its remaining, truthful content was insufficient to support the warrant. Even accepting the falsehoods, the court held AB Realty had not shown the affidavit's remaining content failed the lower standard that governs administrative inspection warrants, which rests on reasonable legislative or administrative standards rather than ordinary criminal probable cause. The due-process claim failed because AB Realty's complaint blended the interests of the LLC and its individual principals without identifying which protected interest was at stake, and the takings claim failed because the complaint never specified whether it alleged a per se taking or a regulatory taking, a distinction the panel found necessary and unaddressed.",
+        "For multifamily and other commercial owners facing an aggressive municipal code-enforcement closure, the case is a reminder that administrative inspection warrants operate under meaningfully looser constraints than criminal warrants, so a challenge built on inspector misstatements still has to clear that lower bar on the affidavit's remaining content. It also underscores that a takings or due-process claim arising from a closure needs real pleading discipline from the outset — naming the specific protected interest, specifying per se versus regulatory takings theory, and separating each plaintiff's distinct interest rather than asserting them collectively — and that a parallel criminal prosecution of a property's principal can delay and complicate the civil case challenging the same closure."
+      ],
+      judge: "Jonathan A. Kobes",
+      parties: [
+        { name: "AB Realty, LLC", role: "Plaintiff-Appellant" },
+        { name: "City of Omaha", role: "Defendant-Appellee" }
+      ],
+      amountUsd: null,
+      tags: ["multifamily", "code-enforcement", "fourth-amendment", "takings", "omaha"],
+      timeline: [
+        { when: "September 2018", label: "City of Omaha executes inspection warrant and closes Yale Park Apartment Complex" },
+        { when: "2021", label: "AB Realty completes repairs, reopens the building, and files suit against the city" },
+        { when: "November 6, 2026", label: "Eighth Circuit affirms dismissal of AB Realty's Fourth, Fifth, and Fourteenth Amendment claims", current: true }
+      ]
+    },
+    {
+      id: "live-381",
+      addedDate: "2026-11-09",
+      propertyType: "Industrial",
+      title: "Bethlehem Landfill Co. v. Lower Saucon Twp. (Pennsylvania Court Quashes Landfill Operator's Appeal Over Rezoning Dispute)",
+      brief: "Pennsylvania's Commonwealth Court quashed Bethlehem Landfill Company's appeal over Lower Saucon Township's handling of its landfill-expansion rezoning request, finding the trial court's order was not a final, appealable judgment.",
+      seoTitle: "Bethlehem Landfill Expansion Appeal Quashed by PA Court",
+      seoDescription: "Pennsylvania's Commonwealth Court quashed Bethlehem Landfill's appeal over Lower Saucon Township's handling of its landfill-expansion rezoning bid.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-06",
+      jurisdiction: "Commonwealth Court of Pennsylvania",
+      state: "PA",
+      amount: "No dollar figure stated",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11056652/bethlehem-landfill-co-v-lower-saucon-twp/",
+      documentUrl: "https://www.pacourts.us/assets/opinions/Commonwealth/out/737CD25_11-6-2026.pdf",
+      documentLabel: "Read the official opinion",
+      summary: "Bethlehem Landfill Company sought to rezone 275.7 acres in Lower Saucon Township from rural-agricultural to light-industrial to expand its landfill, and sued the township, its council, and individual officials alleging Sunshine Act violations and other claims after the township's handling of the rezoning request and a related 1994 deed restriction. On November 6, 2026, the Commonwealth Court of Pennsylvania quashed the landfill operator's appeal, holding the trial court's order was not a final, appealable judgment because it left some of the company's claims for further proceedings.",
+      significance: "The case is a reminder to industrial and waste-facility owners pursuing a rezoning tied to litigation over a municipality's internal decision-making process that an interim order resolving some but not all claims may not be immediately appealable, which can add years of delay to resolving a contested expansion. It also illustrates how older deed restrictions and donated-property statutes can complicate a rezoning long after the original transaction, requiring owners to clear title and statutory obstacles well before a zoning vote.",
+      body: [
+        "Bethlehem Landfill Company, which owns and operates a municipal solid-waste landfill on Applebutter Road in Lower Saucon Township, Pennsylvania, sought township approval to rezone 275.7 acres, including its proposed expansion area, from rural-agricultural to light-industrial use to allow a planned landfill expansion. The request was complicated by two 1994 recorded instruments favoring the township that could restrict development of part of the property, which the company separately asked the township to release.",
+        "After neighboring landowners sued to block the rezoning and release of the 1994 instruments without approval from the county's Orphans' Court, and after disputes arose over how the township council handled votes on the matter, Bethlehem Landfill brought its own suit against the township, its council, and individual council members and the township solicitor, alleging violations of Pennsylvania's Sunshine Act and seeking declaratory and injunctive relief. The trial court granted the township defendants' preliminary objections in part and denied them in part, leaving some counts dismissed and others open for further proceedings.",
+        "On appeal, the Commonwealth Court of Pennsylvania, in an opinion by Judge Anne E. Covey, quashed Bethlehem Landfill's appeal for lack of jurisdiction, holding that the trial court's order did not qualify as a final, appealable order because it resolved only some of the landfill company's claims while leaving others, along with the township's counterclaims, unresolved below.",
+        "For owners of landfills, industrial sites, and other land uses that require both a rezoning and resolution of older recorded restrictions or donated-property statutes, the case underscores that litigation over a municipality's own procedural conduct in handling a rezoning request can become a parallel, multi-year front separate from the zoning decision itself, and that a partial, non-final ruling in that litigation may not be immediately reviewable on appeal, leaving an expansion project in limbo until the trial court resolves every claim."
+      ],
+      judge: null,
+      parties: [
+        { name: "Bethlehem Landfill Company", role: "Appellant" },
+        { name: "Lower Saucon Township", role: "Appellee" }
+      ],
+      amountUsd: null,
+      tags: ["landfill", "rezoning", "sunshine-act", "pennsylvania", "industrial"],
+      timeline: [
+        { when: "2023", label: "Bethlehem Landfill requests rezoning of 275.7 acres for a landfill expansion" },
+        { when: "May 14, 2025", label: "Trial court grants township's preliminary objections in part, denies in part" },
+        { when: "November 6, 2026", label: "Commonwealth Court of Pennsylvania quashes Bethlehem Landfill's appeal for lack of a final order", current: true }
+      ]
     }
   ],
 
@@ -13864,6 +13945,7 @@ const RELAW_DATA = {
      court's own site (docket search, judge assignments, local rules), not
      third-party case-law aggregators. */
   courts: [
+    { jurisdiction: "U.S. Court of Appeals for the Eighth Circuit", url: "https://www.ca8.uscourts.gov/" },
     { jurisdiction: "Appellate Court of Illinois, Fourth District", url: "https://www.illinoiscourts.gov/courts/appellate-court/districts-fourth-district" },
     { jurisdiction: "Appellate Division, First Department, New York", url: "https://www.nycourts.gov/courts/AD1/" },
     { jurisdiction: "Court of Common Pleas, Fayette County, Pennsylvania", url: "https://www.fayettecountypa.org/302/Court-of-Common-Pleas" },
@@ -14457,6 +14539,14 @@ const RELAW_DATA = {
       court: "Intermediate Court of Appeals of West Virginia",
       background: "Elected in 2024 as the first judge to win a seat on West Virginia's newly created Intermediate Court of Appeals, Division 1, taking office for a 10-year term on January 1, 2025. Previously a practicing attorney for 18 years, including founding White Law Offices, PLLC in 2012 after working at Jackson Kelly PLLC; clerked for Judge Joseph R. Goodwin of the U.S. District Court for the Southern District of West Virginia from 2005 to 2006.",
       bioUrl: "https://www.courtswv.gov/appellate-courts/intermediate-court-of-appeals/judges-staff/judge-white"
+    },
+    {
+      name: "Jonathan A. Kobes",
+      slug: "jonathan-a-kobes",
+      title: "U.S. Circuit Judge",
+      court: "U.S. Court of Appeals for the Eighth Circuit",
+      background: "Appointed by President Trump in 2018, confirmed by a tie-breaking vote from Vice President Mike Pence, after serving as general counsel and deputy chief of staff to U.S. Senator Mike Rounds. Previously an assistant U.S. attorney and law clerk to Judge Roger Wollman of the Eighth Circuit.",
+      bioUrl: "https://www.fjc.gov/history/judges/kobes-jonathan-allen"
     }
   ],
 
