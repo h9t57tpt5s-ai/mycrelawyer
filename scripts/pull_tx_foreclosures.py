@@ -100,6 +100,25 @@ SUFFIX = {"STREET": "ST", "DRIVE": "DR", "ROAD": "RD", "AVENUE": "AVE", "BOULEVA
 PROPERTY_CUE = re.compile(r"(property\s+address|commonly\s+known\s+as|also\s+known\s+as|known\s+as|located\s+at|"
                           r"street\s+address\s+of\s+the\s+property|address\s+of\s+(?:the\s+)?property|property:)", re.I)
 
+OFFICE_CONTEXT = re.compile(r"trustee|appoint|servicer|mortgagee|beneficiary|attorney|law\s+(?:firm|office)|\bllp\b|\bp\.?c\.?,|"
+                            r"ballroom|event\s+center|courthouse|offices?\b", re.I)
+
+
+def office_addresses(texts: list[str]) -> set:
+    """A street address in many notices is a trustee's or law firm's office
+    (or the courthouse, where sales are held), never the property's."""
+    seen: dict[tuple, int] = {}
+    for t in texts:
+        keys = set()
+        for m in re.finditer(r"\b(\d{2,6})\s+([A-Za-z][A-Za-z .]{2,30})", t):
+            ws = norm_street(m.group(2)).split()
+            # Every leading run of words, so "5177 Richmond Ave Suite 1230"
+            # also marks "5177 Richmond Ave", the form an address match uses.
+            keys |= {(m.group(1), " ".join(ws[:k])) for k in range(1, len(ws) + 1)}
+        for k in keys:
+            seen[k] = seen.get(k, 0) + 1
+    return {k for k, n in seen.items() if n >= 3}
+
 
 def get(url: str, timeout: int = 120) -> bytes:
     for attempt in range(3):
@@ -161,6 +180,7 @@ class Roll:
         self.by_cityblock: dict[tuple, list[str]] = {}
         self.by_blklot: dict[tuple, list[str]] = {}
         self.by_abstract: dict[str, list[str]] = {}
+        self.by_reserve: dict[tuple, list[str]] = {}
 
     def add(self, acct: str, p: dict) -> None:
         self.parcels[acct] = p
@@ -175,6 +195,11 @@ class Roll:
             m_b = re.search(r"\bBLK\s+([A-Z0-9]{1,4})\b", legal)
             if m_b and m_lot:
                 self.by_blklot.setdefault((m_b.group(1), m_lot.group(1)), []).append(acct)
+        # Commercial plats in Harris County number "unrestricted reserves":
+        # "RES A BLK 1" on the roll, "Reserve A, Block 1" in a notice.
+        m_res = re.search(r"\bRES(?:ERVE)?\s+([A-Z0-9]{1,3})\b(?:\s+BLK\s+([A-Z0-9]{1,4}))?", legal)
+        if m_res:
+            self.by_reserve.setdefault((m_res.group(1), m_res.group(2) or ""), []).append(acct)
         m_ab = re.search(r"\bABST?\s+(\d{2,5})\b", legal)
         if m_ab:
             self.by_abstract.setdefault(m_ab.group(1), []).append(acct)
@@ -233,13 +258,30 @@ def dallas_roll() -> Roll:
 # ---------------------------------------------------------------- notices
 
 SUBDIV_NOISE = {"ADDITION", "ADDN", "ADD", "PHASE", "SECTION", "SEC", "INST", "INSTALLMENT", "REVISED", "REPLAT", "THE",
-                "AND", "CITY", "DALLAS", "COUNTY", "TEXAS", "UNIT", "NO"}
+                "AND", "CITY", "DALLAS", "COUNTY", "TEXAS", "UNIT", "NO", "AMENDING", "AMEND", "PARTIAL", "RES", "RESERVE",
+                "BLK", "BLOCK", "LOT", "LTS", "HOUSTON", "HARRIS", "SUBDIVISION", "SUBD", "PLAT", "ESTATES", "CTR",
+                "CENTER", "TRS", "IMPS", "UNDIV", "INT", "THRU", "AMENDED", "REPLAT", "PARTIAL", "MAP", "RECORDS", "PAR"}
+# Words that end a plat name in a legal description ("Turner Court, in
+# Harris County"; "South Acres Subdivision"), and words too common in plat
+# names to identify one alone.
+PLAT_END = SUBDIV_NOISE | {"ACCORDING", "BEING", "RECORDED", "VOLUME", "VOL", "FILM", "CODE", "OUT", "SURVEY", "ABSTRACT",
+                           "WHICH", "CONTAINING", "SAID", "MORE", "COMMONLY", "KNOWN", "ADDITIONAL", "TOGETHER", "FILED"}
+PLAT_COMMON = {"PLACE", "PARK", "OAKS", "OAK", "HEIGHTS", "VILLAGE", "ACRES", "GARDENS", "GARDEN", "TERRACE", "MANOR",
+               "HILLS", "HILL", "WOODS", "LAKE", "LAKES", "CREEK", "NORTH", "SOUTH", "EAST", "WEST", "PLAZA", "SQUARE",
+               "COURT", "GROVE", "MEADOWS", "RIDGE", "POINT", "POINTE", "CROSSING", "COMMONS", "BUSINESS", "INDUSTRIAL",
+               "OFFICE", "COMMERCIAL", "RETAIL", "SHOPPING", "TOWN", "COUNTRY", "CLUB", "SPRINGS", "VALLEY", "FOREST"}
 # Consumer-mortgage markers: a notice carrying one is a home loan whatever
 # parcel its legal description seems to match.
 CONSUMER = re.compile(r"Loan\s+Type\s*:?\s*(?:FHA|VA|USDA|Conventional)|MORTGAGE\s+ELECTRONIC\s+REGISTRATION|\bMERS\b|"
                       r"reverse\s+mortgage|home\s+equity|homestead|Freedom\s+Mortgage|PennyMac|Rocket\s+Mortgage|"
                       r"Lakeview\s+Loan|NewRez|Shellpoint|Carrington\s+Mortgage|Nationstar|Mr\.?\s+Cooper|LoanCare|"
-                      r"Midland\s+Mortgage|Cenlar|Selene\s+Finance|Specialized\s+Loan\s+Servicing|Select\s+Portfolio", re.I)
+                      r"Midland\s+Mortgage|Cenlar|Selene\s+Finance|Specialized\s+Loan\s+Servicing|Select\s+Portfolio|"
+                      r"Freddie\s+Mac|Federal\s+Home\s+Loan\s+Mortgage|Fannie\s+Mae|Federal\s+National\s+Mortgage|"
+                      r"husband\s+and\s+wife", re.I)
+
+# "LOT TWENTY-FIVE (25), IN BLOCK ONE (1)" -> "LOT 25, IN BLOCK 1".
+_NUM = r"(?:ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN|ELEVEN|TWELVE|THIRTEEN|FOURTEEN|FIFTEEN|SIXTEEN|SEVENTEEN|EIGHTEEN|NINETEEN|TWENTY|THIRTY|FORTY|FIFTY|SIXTY|SEVENTY|EIGHTY|NINETY|HUNDRED)"
+NUMBER_WORDS = re.compile(rf"\b{_NUM}(?:[\s\-]+(?:AND\s+)?{_NUM})*\s*\.?\s*\(\s*([0-9]+[A-Z]?)\s*\)")
 
 # Appraisal-roll property names that describe a use, not a property.
 GENERIC_NAME = re.compile(r"^(LAND( ONLY)?|VACANT( LAND| LOT)?|CONDOMINIUM|APARTMENTS?|OFFICE|RETAIL|WAREHOUSE|PARKING|"
@@ -262,9 +304,58 @@ def split_notices(pages: list[str]) -> list[tuple[int, str]]:
     return [(p, "\n".join(ts)) for p, ts in out]
 
 
+def names_plat(plat: str, near: str) -> bool:
+    """A notice's text right after a lot/block or reserve names the parcel's
+    plat: every distinctive word of a one- or two-word name, two thirds of
+    a longer one. A name made only of common words ("Center Place" is just
+    "Place" once "Center" is dropped) must appear whole, and the notice's
+    name must not run on past the parcel's ("Oakcrest North" is a different
+    plat from "Oakcrest")."""
+    words = [w for w in re.findall(r"[A-Z]{3,}", plat.upper()) if w not in SUBDIV_NOISE]
+    if not words:
+        return False
+    found = [w for w in words if re.search(rf"\b{w}\b", near)]
+    if len(found) != len(words) if len(words) <= 2 else len(found) < max(2, -(-2 * len(words) // 3)):
+        return False
+    flat = " ".join(re.findall(r"[A-Z0-9]+", near))
+    if all(w in PLAT_COMMON for w in words) and " ".join(re.findall(r"[A-Z]{3,}", plat.upper())) not in flat:
+        return False
+    m = re.search(rf"\b{found[-1]}\b\W*([A-Z]+)", near)
+    if m and len(m.group(1)) >= 3 and m.group(1) not in PLAT_END and m.group(1) not in plat.upper():
+        return False
+    return True
+
+
+_UNITS = {w: i for i, w in enumerate("ZERO ONE TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN ELEVEN TWELVE THIRTEEN FOURTEEN "
+                                     "FIFTEEN SIXTEEN SEVENTEEN EIGHTEEN NINETEEN".split())}
+_TENS = {w: 10 * i for i, w in enumerate("_ _ TWENTY THIRTY FORTY FIFTY SIXTY SEVENTY EIGHTY NINETY".split()) if i >= 2}
+
+
+def _spelled(m: re.Match) -> str:
+    """The spelled-out number of a NUMBER_WORDS match ("SIX (5)" -> "6")."""
+    total = 0
+    for w in re.findall(r"[A-Z]+", m.group(0).split("(")[0]):
+        if w == "HUNDRED":
+            total = max(total, 1) * 100
+        else:
+            total += _UNITS.get(w, 0) + _TENS.get(w, 0)
+    return str(total) if total else m.group(1)
+
+
 def match_parcel(text: str, roll: Roll, office_addrs: set) -> tuple[dict | None, str]:
-    """The commercial parcel a notice describes, and how it was matched."""
-    up = text.upper()
+    """The commercial parcel a notice describes, and how it was matched. The
+    digits in "BLOCK SIX (6)" are used first; when they find nothing, the
+    words are (OCR has read "Six (6)" as "Six (5)")."""
+    up = NUMBER_WORDS.sub(r"\1", text.upper())
+    found = _match_parcel(up, text, roll, office_addrs)
+    if not found[0] and found[1] != "ambiguous":
+        alt = NUMBER_WORDS.sub(_spelled, text.upper())
+        if alt != up:
+            found = _match_parcel(alt, text, roll, office_addrs)
+    return found
+
+
+def _match_parcel(up: str, text: str, roll: Roll, office_addrs: set) -> tuple[dict | None, str]:
     hits: dict[str, str] = {}
     # 1. Dallas city block and lot: "LOT 28, BLOCK A/7648".
     # City blocks are numbered across the whole City of Dallas, so block and
@@ -282,14 +373,19 @@ def match_parcel(text: str, roll: Roll, office_addrs: set) -> tuple[dict | None,
     # 2. Subdivision block and lot, confirmed by the subdivision's name.
     # The name must follow within the same legal description (the next 200
     # characters), not merely appear somewhere in the notice.
-    for m in re.finditer(r"\bLO[T1]S?\.?\s*(\d+[A-Z]?)\W{1,4}(?:IN\s+)?BLO?CK\.?\s*([A-Z0-9]{1,4})\b", up):
+    for m in re.finditer(r"\bLO[T1]S?\.?\s*(\d+[A-Z]?)\W{1,4}(?:[A-Z]{1,2}\s+)?BLO?CK\.?\s*([A-Z0-9]{1,4})\b", up):
         near = up[m.end(): m.end() + 200]
         if re.match(r"\s*/\s*\d{3,5}", near):  # a Dallas city block: handled above
             continue
         for a in roll.by_blklot.get((m.group(2), m.group(1)), []):
-            words = [w for w in re.findall(r"[A-Z]{3,}", roll.parcels[a]["subdivision"].upper()) if w not in SUBDIV_NOISE]
-            if words and all(w in near for w in words):
+            if names_plat(roll.parcels[a]["subdivision"], near):
                 hits.setdefault(a, "subdivision block and lot")
+    # 2b. Unrestricted reserve (and block), confirmed by the subdivision's name.
+    for m in re.finditer(r"\bRESERVE\s+[\"'(]?([A-Z0-9]{1,3})\b[\"')]?(?:\W{1,4}(?:[A-Z]{1,2}\s+)?BLO?CK\.?\s*([A-Z0-9]{1,4})\b)?", up):
+        near = up[m.end(): m.end() + 200]
+        for a in roll.by_reserve.get((m.group(1), m.group(2) or ""), []):
+            if names_plat(roll.parcels[a]["subdivision"], near):
+                hits.setdefault(a, "reserve and subdivision")
     # 3. Survey abstract and acreage: "ABSTRACT NO. 1026 ... 17.1956 ACRES".
     acres = {round(float(x), 2) for x in re.findall(r"(\d{1,4}\.\d{2,4})\s*(?:ACRES?|AC\b)", up)}
     if acres:
@@ -300,6 +396,11 @@ def match_parcel(text: str, roll: Roll, office_addrs: set) -> tuple[dict | None,
                     hits.setdefault(a, "survey abstract and acreage")
     # 4. A street address given as the property's.
     for cue in PROPERTY_CUE.finditer(text):
+        # "AVT Title Services, LLC, located at 5177 Richmond Avenue" is the
+        # substitute trustee's office; "located at 9401 Knight Road" after the
+        # ballroom is where the sale is held. Neither is the property.
+        if OFFICE_CONTEXT.search(text[max(0, cue.start() - 100): cue.start()]):
+            continue
         seg = text[cue.end(): cue.end() + 120]
         m = re.search(r"\b(\d{2,6})\s+((?:[NSEW]\.?\s+)?[A-Za-z0-9][A-Za-z0-9 .]{2,40}?)\s*(?:,|\n|\s(?:Dallas|DALLAS|Texas|TEXAS|TX)\b)", seg)
         if not m:
@@ -325,9 +426,18 @@ def match_parcel(text: str, roll: Roll, office_addrs: set) -> tuple[dict | None,
     return p, hits[best]
 
 
-AMOUNT = re.compile(r"original\s+(?:principal\s+)?(?:amount|sum)\s+of\s+\$\s?([\d,]+(?:\.\d{2})?)", re.I)
+# "original principal amount of $400,000.00", "...amount of ONE HUNDRED SEVEN
+# THOUSAND AND NO/100 DOLLARS ($107,000.00)", "Principal Amount: $4,042,005.80",
+# "Original amount of Secured Indebtedness: $120,000.00" ("or..nal" allows
+# for OCR's "orgunal").
+AMOUNT = re.compile(r"(?:or[a-z]{1,4}nal\s+(?:principal\s+)?(?:amount|sum)(?:\s+of\s+secured\s+indebtedness)?|principal\s+amount)"
+                    r"\s*(?:of|:)\s*[^$]{0,120}?\$\s?([\d,]+(?:\.\d{1,2})?)", re.I)
 AMOUNT_AFTER = re.compile(r"\$\s?([\d,]{5,}(?:\.\d{2})?)\s+in\s+the\s+original\s+principal", re.I)
 PAYEE = re.compile(r"payable\s+to\s+the\s+order\s+of\s+([A-Z0-9][A-Za-z0-9 ,.&'\-]{3,80}?(?:L\.?L\.?C\.?|Inc\.?|N\.A\.|Bank|L\.?P\.?|Corporation|Company|Trust))\b")
+# '"Original Noteholder" means MF1 Capital LLC'; 'indebted to Spring Branch
+# Funding, LLC ("Lender")' (OCR can read "Lender" as "Tender").
+LENDER_DEFINED = re.compile(r"(?:Original\s+Noteholder|Lender)[\"”']?\s+means\s+([A-Z0-9][A-Za-z0-9 ,.&'\-]{3,80}?(?:L\.?L\.?C\.?|Inc\.?|N\.A\.|Bank|L\.?P\.?|Corporation|Company))\b|"
+                            r"indebted\s+to\s+([A-Z0-9][A-Za-z0-9 ,.&'\-]{3,80}?(?:L\.?L\.?C\.?|Inc\.?|N\.A\.|Bank|L\.?P\.?|Corporation|Company))\s*\(\s*[\"“']?(?:the\s+)?[\"“']?[LT]ender", re.I)
 LENDER_LABEL = re.compile(r"(?:Current\s+(?:Beneficiary|Mortgagee)[^:\n]*|Lender|Beneficiary|Mortgagee|Holder)\s*:\s*([^\n]{4,90})", re.I)
 
 
@@ -339,10 +449,14 @@ def notice_fields(text: str) -> dict:
         if v >= 10000:
             out["originalAmount"] = v
     flat = re.sub(r"\s+", " ", text)
-    for m in [*LENDER_LABEL.finditer(text), *PAYEE.finditer(flat)]:
-        name = clean_business(m.group(1).split("  ")[0])
+    for m in [*LENDER_LABEL.finditer(text), *PAYEE.finditer(flat), *LENDER_DEFINED.finditer(flat)]:
+        name = clean_business((m.group(1) or m.group(2) if m.re is LENDER_DEFINED else m.group(1)).split("  ")[0])
         if name and not re.search(r"MORTGAGE ELECTRONIC|MERS", name, re.I):
-            out["lender"] = name
+            # OCR's "SPRING. BRANCH FUNDING" and "Spring, Branch Funding": a
+            # stray mark inside a name, not before its LLC or N.A.
+            name = re.sub(r"(?<=[A-Za-z]{3})[.,]\s+(?!(?:LLC|L\.L\.C|Inc|N\.A|L\.?P\b|Ltd|Corp|Co\b|National|FSB|PLLC|LLP))(?=[A-Z])",
+                          " ", name, flags=re.I)
+            out["lender"] = title(name, name=True) if name.isupper() else name
             break
     dates = []
     for m in re.finditer(r"\b(\d{1,2})/(\d{1,2})/(20\d\d)\b", text):
@@ -459,13 +573,7 @@ def dallas_source(today: dt.date, processed: set, pdf_dir: str | None) -> list[d
             texts.append((post, pdf_pages(data)))
         except Exception as e:
             print(f"  unreadable {post['url']}: {e}", flush=True)
-    # A street address in many notices is a trustee's or law firm's office
-    # (or the courthouse, where sales are held), never the property's.
-    seen: dict[tuple, set] = {}
-    for post, pages in texts:
-        for m in re.finditer(r"\b(\d{2,6})\s+([A-Za-z][A-Za-z .]{2,30})", "\n".join(pages)):
-            seen.setdefault((m.group(1), norm_street(m.group(2))), set()).add(post["url"])
-    office = {k for k, n in seen.items() if len(n) >= 3}
+    office = office_addresses(["\n".join(pages) for _, pages in texts])
     rows = []
     for post, pages in texts:
         found = parse_posting(post, pages, roll, office, today)
@@ -534,15 +642,318 @@ def bexar_source(today: dt.date, processed: set) -> list[dict]:
     return rows
 
 
+HCAD = "https://arcweb.hcad.org/server/rest/services/public/public_query/MapServer/0/query"
+# Harris CAD state classes: B1 apartments (B2-B4 are duplexes to fourplexes),
+# C2 commercial vacant land, F1 commercial, F2 industrial.
+HCAD_CLASS = {"B1": ("Apartments", "Multifamily"), "C2": ("Commercial land", "Land/Development"),
+              "F1": ("Commercial", ""), "F2": ("Industrial", "Industrial")}
+
+
+def harris_roll() -> Roll:
+    """Every Harris CAD parcel in a commercial state class, from HCAD's public
+    parcel map service (2,000 per request), cached for a week."""
+    CACHE.mkdir(parents=True, exist_ok=True)
+    path = CACHE / "harris.json"
+    if path.exists() and time.time() - path.stat().st_mtime < CAD_MAX_AGE_DAYS * 86400:
+        rows = json.loads(path.read_text())
+    else:
+        rows, last = [], -1
+        where = "state_class IN ('B1','C2','F1','F2')"
+        while True:
+            q = urllib.parse.urlencode({"where": f"{where} AND OBJECTID > {last}", "orderByFields": "OBJECTID",
+                                        "outFields": "OBJECTID,HCAD_NUM,owner,address,city,zip,state_class,legal_lines",
+                                        "returnGeometry": "false", "resultRecordCount": 2000, "f": "json"})
+            feats = json.loads(get(f"{HCAD}?{q}", timeout=120)).get("features", [])
+            if not feats:
+                break
+            rows.extend(f["attributes"] for f in feats)
+            last = feats[-1]["attributes"]["OBJECTID"]
+            time.sleep(0.5)
+        path.write_text(json.dumps(rows))
+    roll = Roll()
+    for r in rows:
+        label, ptype = HCAD_CLASS.get(r.get("state_class") or "", ("", None))
+        if ptype is None or GOV_OWNER.search(r.get("owner") or ""):
+            continue
+        addr = (r.get("address") or "").strip()
+        m = re.match(r"(\d+)\s+(.+?)(?:\s+#.*)?$", addr)
+        segs = [x.strip() for x in (r.get("legal_lines") or "").split("|") if x.strip()]
+        # The plat name is the last segment's words after its lot, block,
+        # reserve and tract numbers ("LT 7 BLK 2 SOUTHMONT SEC 3" -> SOUTHMONT).
+        plat = re.sub(r"\(.*?\)", " ", segs[-1]) if segs else ""
+        plat = re.sub(r"\b(LTS?|BLKS?|RES|TRS?|UNITS?|PT|ABST)\s+[A-Z0-9\-./&]+(\s*(&|THRU)\s*[A-Z0-9\-./]+)*", " ", plat)
+        roll.add(r["HCAD_NUM"], {
+            "account": r["HCAD_NUM"], "code": r.get("state_class"), "use": label, "type": ptype, "name": "",
+            "sqft": 0, "units": 0, "yearBuilt": 0, "num": m.group(1) if m else "", "street": m.group(2) if m else "",
+            "city": (r.get("city") or "").strip(), "zip": str(r.get("zip") or "")[:5], "owner": (r.get("owner") or "").strip(),
+            "legal": " ".join(segs), "subdivision": plat, "url": "",
+        })
+    return roll
+
+
+HARRIS_LIST = "https://www.cclerk.hctx.net/Applications/WebSearch/FRCL_R.aspx"
+
+
+def harris_notices(months: list[tuple[int, int]]) -> tuple[list[dict], object]:
+    """Every notice the Harris County Clerk lists for the given sale months:
+    an ASP.NET form, so the search is a postback (year first, then month),
+    then one postback per page of 20."""
+    import html as htmlmod
+    import http.cookiejar
+    op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    op.addheaders = [("User-Agent", UA)]
+
+    def hidden(page: str) -> dict:
+        return {m.group(1): htmlmod.unescape(m.group(2))
+                for m in re.finditer(r'<input type="hidden" name="([^"]+)" id="[^"]*" value="([^"]*)"', page)}
+
+    def fetch(data: bytes | None = None) -> str:
+        for attempt in range(4):
+            try:
+                time.sleep(1)
+                return op.open(HARRIS_LIST, data, timeout=120).read().decode("utf-8", "replace")
+            except Exception:
+                if attempt == 3:
+                    raise
+                time.sleep(15 * (attempt + 1))
+        raise RuntimeError("unreachable")
+
+    def post(page: str, extra: dict) -> str:
+        f = hidden(page)
+        f.update(extra)
+        return fetch(urllib.parse.urlencode(f).encode())
+
+    out = []
+    for year, month in months:
+        page = fetch()
+        form = {"ctl00$ContentPlaceHolder1$rbtlDate": "SaleDate", "ctl00$ContentPlaceHolder1$ddlYear": str(year),
+                "ctl00$ContentPlaceHolder1$txtFileNo": "", "ctl00$ContentPlaceHolder1$btnSearch": "Search"}
+        page = post(page, {**form, "ctl00$ContentPlaceHolder1$ddlMonth": "Select -"})
+        if f'<option value="{month}"' not in page and f'<option selected="selected" value="{month}"' not in page:
+            continue  # no notices posted yet for that sale month
+        page = post(page, {**form, "ctl00$ContentPlaceHolder1$ddlMonth": str(month)})
+        seen_pages = {1}
+        while True:
+            for m in re.finditer(r'href="(ViewECdocs\.aspx\?ID=[^"]+)"[^>]*>(FRCL-\d{4}-\d+)</a>[\s\S]*?lblSaleDate">([\d/]+)<[\s\S]*?lblFileDate">([\d/]+)<[\s\S]*?lblPages">(\d+)<', page):
+                out.append({"doc": m.group(2), "url": urllib.parse.urljoin(HARRIS_LIST, htmlmod.unescape(m.group(1))),
+                            "sale": dt.datetime.strptime(m.group(3), "%m/%d/%Y").date().isoformat(),
+                            "filed": m.group(4), "pages": int(m.group(5))})
+            nxt = sorted(int(n) for n in re.findall(r"Page\$(\d+)", page) if int(n) not in seen_pages)
+            if not nxt:
+                break
+            seen_pages.add(nxt[0])
+            page = post(page, {"__EVENTTARGET": "ctl00$ContentPlaceHolder1$GridView1", "__EVENTARGUMENT": f"Page${nxt[0]}"})
+    return out, op
+
+
+def ocr_pdf(data: bytes, max_pages: int = 4) -> list[str]:
+    """Text of a scanned PDF's first pages: Tesseract (with pdftoppm) where
+    installed, as on the GitHub runner; otherwise the program named by
+    CREDOCKET_OCR, which takes a PDF path and page count and prints
+    '===== PAGE n' sections (a local stand-in for testing)."""
+    import os
+    import shutil
+    import subprocess
+    import tempfile
+    with tempfile.TemporaryDirectory() as td:
+        pdf = os.path.join(td, "n.pdf")
+        open(pdf, "wb").write(data)
+        if shutil.which("tesseract") and shutil.which("pdftoppm"):
+            subprocess.run(["pdftoppm", "-r", "300", "-gray", "-l", str(max_pages), "-png", pdf, os.path.join(td, "p")],
+                           check=True, capture_output=True, timeout=300)
+            pages = []
+            for img in sorted(pathlib.Path(td).glob("p-*.png")):
+                r = subprocess.run(["tesseract", str(img), "stdout", "--psm", "4"], capture_output=True, timeout=300, text=True)
+                pages.append(r.stdout)
+            return pages
+        tool = os.environ.get("CREDOCKET_OCR")
+        if not tool:
+            raise RuntimeError("no OCR available (install tesseract-ocr and poppler-utils)")
+        r = subprocess.run([tool, pdf, str(max_pages)], capture_output=True, timeout=300, text=True)
+        return [p.split("\n", 1)[1] if "\n" in p else "" for p in r.stdout.split("===== PAGE ")[1:]]
+
+
+def harris_source(today: dt.date, processed: set, limit: int | None) -> list[dict]:
+    """Harris County Clerk notices are scanned images: each new notice's first
+    pages are read by OCR and matched to the HCAD commercial parcels."""
+    months = [(today.year + (today.month - 1 + k) // 12, (today.month - 1 + k) % 12 + 1) for k in (0, 1, 2)]
+    notices, op = harris_notices(months)
+    new = [n for n in notices if f"harris:{n['doc']}" not in processed and n["sale"] >= today.isoformat()]
+    print(f"  Harris: {len(notices)} notices listed, {len(new)} new", flush=True)
+    if limit:
+        new = new[:limit]
+    if not new:
+        return []
+    roll = harris_roll()
+    print(f"harris: {len(roll.parcels)} commercial parcels on the appraisal roll", flush=True)
+    rows, texts, read = [], [], 0
+    for n in new:
+        try:
+            time.sleep(1)
+            data = b""
+            for attempt in range(3):
+                try:
+                    data = op.open(urllib.request.Request(n["url"], headers={"User-Agent": UA}), timeout=120).read()
+                    break
+                except Exception:
+                    if attempt == 2:
+                        raise
+                    time.sleep(15 * (attempt + 1))
+            if not data.startswith(b"%PDF"):
+                raise RuntimeError("not a PDF")
+            pages = ocr_pdf(data, max_pages=min(n["pages"], 6))
+        except Exception as e:
+            print(f"  Harris {n['doc']}: {e}", flush=True)
+            continue
+        processed.add(f"harris:{n['doc']}")
+        read += 1
+        texts.append((n, "\n".join(pages)))
+    office = office_addresses([t for _, t in texts])
+    for n, text in texts:
+        if CONSUMER.search(text):
+            continue
+        parcel, how = match_parcel(text, roll, office)
+        if not parcel:
+            continue
+        f = notice_fields(text)
+        f.pop("_dates", None)
+        rows.append({
+            "county": "Harris", "state": "TX", "saleDate": n["sale"],
+            "address": " ".join(x for x in (parcel["num"], title(parcel["street"])) if x), "city": title(parcel["city"]),
+            "zip": parcel["zip"], "propertyName": "", "propertyType": parcel["type"], "use": parcel["use"],
+            "sqft": None, "units": None, "yearBuilt": None, "owner": clean_business(parcel["owner"]),
+            "lender": f.get("lender", ""), "originalAmount": f.get("originalAmount"), "parcel": parcel["account"],
+            "parcelUrl": "", "parcels": parcel["parcels"], "matchedBy": how, "docNumber": n["doc"],
+            # The scanned notice opens only inside a search session, so the
+            # link is the clerk's search, labeled with what to look up there.
+            "postingUrl": HARRIS_LIST, "postingPage": None, "postingLabel": "",
+            "sourceLabel": f"Harris County Clerk foreclosure notice search, {dt.date.fromisoformat(n['sale']):%B %Y} sales, document {n['doc']}",
+        })
+        print(f"  Harris {n['doc']}: {rows[-1]['address']}, {rows[-1]['city']} ({parcel['code']}, {how})", flush=True)
+    print(f"  Harris: {read} notices read, {len(rows)} commercial", flush=True)
+    return rows
+
+
+COLLIN = "https://apps2.collincountytx.gov/ForeclosureNotices"
+# Collin CAD state codes that are never commercial real estate: houses,
+# townhomes and condos (A), mobile homes (M), residential inventory (O),
+# farm and ranch (D, E) and residential vacant lots (C1).
+COLLIN_RESIDENTIAL = re.compile(r"^(A|M|O|D|E|C1)")
+
+
+def collin_cards() -> list[dict]:
+    """Collin County's notice list is a Blazor app that only renders in a
+    browser: read every page of cards (address, sale date, CAD property type)
+    and the map markers that carry each notice's detail-page ID."""
+    from playwright.sync_api import sync_playwright
+    cards: dict[str, dict] = {}
+    with sync_playwright() as p:
+        b = p.chromium.launch()
+        pg = b.new_page(user_agent=UA)
+        pg.goto(COLLIN, wait_until="load", timeout=120000)
+        for _ in range(60):
+            if pg.evaluate("() => typeof markers !== 'undefined' && markers && markers.getLayers().length > 0"):
+                break
+            time.sleep(1)
+        ids = pg.evaluate("""() => markers.getLayers().map(m => (m.getPopup() && m.getPopup().getContent()) || '')""")
+        for page_no in range(1, 60):
+            text = pg.inner_text("body")
+            for m in re.finditer(r"\n([0-9][^\n]+?, TX \d{5})\s*\n[\s\S]*?Sale Date:\s*(\d\d/\d\d/\d{4})[\s\S]*?Property Type:\s*([^\n]*)", text):
+                cards[m.group(1).strip().upper()] = {"address": m.group(1).strip(), "sale": m.group(2), "type": m.group(3).strip()}
+            nxt = pg.query_selector('button[aria-label="Next page"]')
+            if not nxt or nxt.is_disabled():
+                break
+            nxt.click()
+            time.sleep(2)
+        b.close()
+    out = []
+    for html_ in ids:
+        m = re.search(r"DetailPage/(\d+)>([^<]+)<", html_)
+        if not m:
+            continue
+        key = re.sub(r"\s+", " ", m.group(2)).strip().upper()
+        card = cards.get(key) or next((c for k, c in cards.items() if re.sub(r"\s+", " ", k) == key), None)
+        if card:
+            out.append({**card, "entry": m.group(1)})
+    return out
+
+
+def collin_source(today: dt.date, processed: set) -> list[dict]:
+    """Each Collin notice whose CAD type is not residential is opened; its
+    detail page carries the county's own Commercial True/False flag."""
+    cards: list[dict] = []
+    for attempt in range(3):  # the map's markers sometimes fail to load
+        cards = collin_cards()
+        if cards:
+            break
+        time.sleep(30)
+    if not cards:
+        raise RuntimeError("Collin notice list did not load")
+    rows, opened = [], 0
+    for c in cards:
+        sale = dt.datetime.strptime(c["sale"], "%m/%d/%Y").date()
+        code = re.search(r"\(([A-Z0-9]+)\)\s*$", c["type"])
+        key = f"collin:{c['entry']}"
+        if code and COLLIN_RESIDENTIAL.match(code.group(1)):
+            processed.add(key)  # residential: never opened
+            continue
+        if key in processed or sale < today - dt.timedelta(days=60) or not code:
+            continue
+        time.sleep(1)
+        page = get(f"{COLLIN}/DetailPage/{c['entry']}", timeout=120).decode("utf-8", "replace")
+        opened += 1
+        processed.add(key)
+        page = re.sub(r"data:image[^\"']+", "", page)
+        text = re.sub(r"\n\s*\n+", "\n", re.sub(r"<[^>]+>", "\n", page)).replace("&#xD;&#xA;", " | ")
+        field = lambda name: (re.search(rf"\n{name}\n([^\n]+)", text) or [None, ""])[1].strip()
+        if field("Commercial") != "True":
+            continue
+        state_code = field("State Property Code")
+        use = re.sub(r"\s*\([A-Z0-9]+\)$", "", field("Type")) or "Commercial"
+        cad = re.search(r'href="(https?://www\.collincad\.org/propertysearch\?prop_id=\d+)"', page)
+        num = lambda v: int(re.sub(r"[^\d]", "", v)) if re.search(r"\d", v or "") else None
+        owner = re.sub(r"\bLlc\b", "LLC", re.split(r"(?i)\s*c/o\b", html_unescape(field("Name")))[0])
+        street, _, place = html_unescape(field("Address")).partition("|")
+        m_addr = re.match(r"\s*(.+?),\s*TX\s+(\d{5})", place)
+        m_addr = (street.strip(), m_addr.group(1), m_addr.group(2)) if m_addr else None
+        rows.append({
+            "county": "Collin", "state": "TX", "saleDate": sale.isoformat(),
+            "address": m_addr[0] if m_addr else street.strip(), "city": m_addr[1] if m_addr else "",
+            "zip": m_addr[2] if m_addr else "", "propertyName": "", "propertyType": COLLIN_TYPE.get(use, ""),
+            "use": "Commercial condominium" if use == "Condominium" else use, "sqft": num(field("Improvement Area")), "units": None, "yearBuilt": num(field("Year Built")),
+            "owner": clean_business(owner), "lender": "", "originalAmount": None,
+            "parcel": cad.group(1).rsplit("=", 1)[1] if cad else c["entry"], "parcelUrl": cad.group(1) if cad else "",
+            "parcels": 1, "matchedBy": "the county's own link to the parcel, which the appraisal district classifies as commercial"
+                         + (f" (state code {code.group(1)})" if (code := re.search(r"\(([A-Z0-9]+)\)\s*$", state_code)) else ""),
+            "postingUrl": f"{COLLIN}/DetailPage/{c['entry']}", "postingPage": None, "postingLabel": "",
+        })
+        print(f"  Collin {c['entry']}: {rows[-1]['address']}, {rows[-1]['city']} ({use})", flush=True)
+    print(f"  Collin: {len(cards)} notices listed, {opened} opened, {len(rows)} commercial", flush=True)
+    return rows
+
+
+def html_unescape(s: str) -> str:
+    import html as htmlmod
+    return re.sub(r"\s+", " ", htmlmod.unescape(s)).strip()
+
+
+# Collin CAD "Type" labels to the site's property types.
+COLLIN_TYPE = {"Office": "Office", "Retail": "Retail", "Warehouse": "Industrial", "Industrial": "Industrial",
+               "Apartment": "Multifamily", "Apartments": "Multifamily", "Hotel": "Hospitality", "Motel": "Hospitality",
+               "Medical Office": "Medical Office", "Mini Warehouse": "Self-Storage", "Commercial Vacant": "Land/Development"}
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--pdf-dir", help="parse local Dallas PDFs named <Month>_<City>_N.pdf instead of fetching")
-    ap.add_argument("--only", help="run one source (dallas, bexar)")
+    ap.add_argument("--only", help="run one source (dallas, bexar, harris, collin)")
+    ap.add_argument("--limit", type=int, help="read at most this many new Harris notices (testing)")
     args = ap.parse_args()
     today = dt.date.today()
     prev = json.loads(OUT.read_text()) if OUT.exists() else {"properties": [], "processed": []}
     processed = set(prev.get("processed", []))
-    sources = {"dallas": lambda: dallas_source(today, processed, args.pdf_dir), "bexar": lambda: bexar_source(today, processed)}
+    sources = {"dallas": lambda: dallas_source(today, processed, args.pdf_dir), "bexar": lambda: bexar_source(today, processed),
+               "harris": lambda: harris_source(today, processed, args.limit), "collin": lambda: collin_source(today, processed)}
     rows, failed = [], []
     for name, fn in sources.items():
         if args.only and name != args.only:

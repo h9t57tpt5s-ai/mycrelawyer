@@ -31,7 +31,7 @@ concurrency:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 100  # the Texas step OCRs scanned notices
     steps:
       - uses: actions/checkout@v4
         with:
@@ -64,9 +64,15 @@ jobs:
       - name: Pull Texas commercial foreclosure-sale notices (Texas Foreclosure Sales)
         # County clerk notices of trustee's sale, kept only when the appraisal
         # district classifies the parcel as commercial (scripts/pull_tx_foreclosures.py).
+        # Harris notices are scanned images (Tesseract OCR); Collin's list
+        # renders only in a browser (Playwright Chromium).
         continue-on-error: true
-        timeout-minutes: 30
-        run: python3 scripts/pull_tx_foreclosures.py
+        timeout-minutes: 45
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr poppler-utils >/dev/null
+          pip install --quiet playwright==1.60.0
+          python3 -m playwright install --with-deps chromium >/dev/null
+          python3 scripts/pull_tx_foreclosures.py --limit 60
       - name: Commit the alert log
         # Runs even when the ingest step failed: a failed run belongs in
         # the public log too.
