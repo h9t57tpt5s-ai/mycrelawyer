@@ -1,7 +1,156 @@
 {
- "updatedAt": "2026-11-09T07:54:56+00:00",
+ "updatedAt": "2026-11-09T22:58:19+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001868159-26-000051:line-20260930.htm",
+   "company": "Lineage, Inc.  (LINE)",
+   "cik": "1868159",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-09",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1868159/000186815926000051/line-20260930.htm",
+   "phrases": [
+    "filed a lawsuit",
+    "filed suit",
+    "putative class action"
+   ],
+   "excerpts": [
+    "The Company intends to vigorously defend against claims arising from the June 17, 2026 fire, including in the Los Angeles Fire Litigation, and to seek recovery under applicable insurance policies and pursue indemnification under contract and/or applicable laws against various third parties. To that end, the Company has filed a lawsuit in Los Angeles County Superior Court against Altus Power, Inc., Pearce Services, LLC, Los Palos Street Operating LLC, and Doe Defendants based on their alleged role in causing the June 17, 2026 fire. (g) Lineage, Inc. Securities Litigation (formerly disclosed as City of St. Clair Shores v. Lineage, Inc., et al.) On August 1, 2025, a putative class action complaint was filed against the Company in the Eastern District of Michigan captioned City of St.",
+    "At this time, the Company is unable to estimate the total expected costs for clean-up and restoration of the building, but it is reasonably possible to exceed the insurance claim limit. The Company has received inquiries from, and is cooperating with, various federal, state, and local authorities relating to the fire. The Company has also received customer claims for inventory losses associated with the fire, and certain customers have filed suit. Additionally, a series of putative class action and individual plaintiff lawsuits have been filed against the Company and other defendants, including Altus Power, Inc., Pearce Services, LLC, and Los Palos Street Operating LLC, by local residents alleging various claims relating to the fire, including negligence, trespass, public nuisance, strict liability and unfair business practices, and seeking as relief compensatory and punitive damages, medical monitoring and business losses.",
+    "At this time, the Company is unable to estimate the total expected costs for clean-up and restoration of the building, but it is reasonably possible to exceed the insurance claim limit. The Company has received inquiries from, and is cooperating with, various federal, state, and local authorities relating to the fire. The Company has also received customer claims for inventory losses associated with the fire, and certain customers have filed suit. Additionally, a series of putative class action and individual plaintiff lawsuits have been filed against the Company and other defendants, including Altus Power, Inc., Pearce Services, LLC, and Los Palos Street Operating LLC, by local residents alleging various claims relating to the fire, including negligence, trespass, public nuisance, strict liability and unfair business practices, and seeking as relief compensatory and punitive damages, medical monitoring and business losses.",
+    "To that end, the Company has filed a lawsuit in Los Angeles County Superior Court against Altus Power, Inc., Pearce Services, LLC, Los Palos Street Operating LLC, and Doe Defendants based on their alleged role in causing the June 17, 2026 fire. (g) Lineage, Inc. Securities Litigation (formerly disclosed as City of St. Clair Shores v. Lineage, Inc., et al.) On August 1, 2025, a putative class action complaint was filed against the Company in the Eastern District of Michigan captioned City of St. Clair Shores Police and Fire Retirement System v. Lineage, Inc., et al., Case No. 2:25-cv-12383 (the \u201cSecurities Lawsuit\u201d). The Eastern District entered an order appointing two pension funds as Lead Plaintiffs and consolidating the actions into In Re Lineage, Inc."
+   ],
+   "captions": [
+    "City of St. Clair Shores v. Lineage, Inc., et al",
+    "St. Clair Shores Police and Fire Retirement System v. Lineage, Inc., et al., Case No. 2"
+   ],
+   "courts": [
+    "Superior Court"
+   ],
+   "firstSeen": "2026-11-09"
+  },
+  {
+   "key": "0001541401-26-000037:esrt-20260930.htm",
+   "company": "Empire State Realty Trust, Inc.  (ESRT)",
+   "cik": "1541401",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-09",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1541401/000154140126000037/esrt-20260930.htm",
+   "phrases": [
+    "filed a petition"
+   ],
+   "excerpts": [
+    "On August 26, 2020, the arbitration panel issued an award that denied all Claimants\u2019 claims with one exception, on which it awarded the Claimants approximately $ 1.2 million, inclusive of seven years of interest through October 2, 2020. Respondents believe that such award in favor of the Claimants is entirely without merit and sought to vacate that portion of the award. The New York courts confirmed the award, and Respondents filed a petition for certiorari to the United States Supreme Court on February 2, 2026, which was denied on May 4, 2026. Previously, because the New York courts\u2019 final confirmation of the award lifted the stay of execution of the judgment, which stay Respondents had previously obtained by filing an appeal bond, on February 5, 2026, we paid the judgment, which, inclusive of interest, amounted to approximately $ 1.5 million."
+   ],
+   "captions": [],
+   "courts": [
+    "United States Supreme Court"
+   ],
+   "firstSeen": "2026-11-09"
+  },
+  {
+   "key": "0001553079-26-000011:esrt-20260930.htm",
+   "company": "Empire State Realty OP, L.P.  (ESBA, FISK, OGCP)",
+   "cik": "1553079",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-09",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1553079/000155307926000011/esrt-20260930.htm",
+   "phrases": [
+    "filed a petition"
+   ],
+   "excerpts": [
+    "On August 26, 2020, the arbitration panel issued an award that denied all Claimants\u2019 claims with one exception, on which it awarded the Claimants approximately $ 1.2 million, inclusive of seven years of interest through October 2, 2020. Respondents believe that such award in favor of the Claimants is entirely without merit and sought to vacate that portion of the award. The New York courts confirmed the award, and Respondents filed a petition for certiorari to the United States Supreme Court on February 2, 2026, which was denied on May 4, 2026. Previously, because the New York courts\u2019 final confirmation of the award lifted the stay of execution of the judgment, which stay Respondents had previously obtained by filing an appeal bond, on February 5, 2026, we paid the judgment, which, inclusive of interest, amounted to approximately $ 1.5 million."
+   ],
+   "captions": [],
+   "courts": [
+    "United States Supreme Court"
+   ],
+   "firstSeen": "2026-11-09"
+  },
+  {
+   "key": "0001878897-26-000052:doug-20260930.htm",
+   "company": "Douglas Elliman Inc.  (DOUG)",
+   "cik": "1878897",
+   "sic": "6531",
+   "form": "10-Q",
+   "filed": "2026-11-09",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878897/000187889726000052/doug-20260930.htm",
+   "phrases": [
+    "putative class action"
+   ],
+   "excerpts": [
+    "Thereafter, additional litigation was filed by other plaintiffs on behalf of putative classes of home sellers from 2019 to the present against certain real estate brokerage firms, including the Company and/or its subsidiaries, alleging anticompetitive behavior, similar to the Gibson case: (i) the March case (November 2023 \u2013 Southern District of New York) \u2013 a putative class action on behalf of home sellers in Manhattan from November 2019 through the present; (ii) the Friedman case (January 2024 \u2013 Southern District of New York) \u2013 a putative class action on behalf of home sellers in certain parts of Brooklyn from January 2020 through present; (iii) the Umpa case (December 2023 - Western District of Missouri) \u2013 putative class action on behalf of home sellers nationwide (with certain markets excluded) from December 2019 through present, which has now been consolidated into the Gibson case; (iv) the Whaley case (January 2024 - District of Nevada) \u2013 putative class action on behalf of home sellers in Nevada from January 2020 through the present, and (v) the Boykin case (February 2024 - District of Nevada) \u2013 putative class action on behalf of home sellers in Nevada from February 2020 throug"
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-09"
+  },
+  {
+   "key": "0001193125-26-453735:vmrk-20260930.htm",
+   "company": "VIVMARK RESIDENTIAL  (VMRK)",
+   "cik": "906107",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-09",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/906107/000119312526453735/vmrk-20260930.htm",
+   "phrases": [
+    "putative class action"
+   ],
+   "excerpts": [
+    "and owners and/or operators of multifamily housing which utilize revenue management systems provided by RealPage, Inc. The complaint s allege collusion among the defendants to illegally fix and inflate the pricing of multifamily rents and seek monetary damages, injunctive relief, fees and costs. On April 13, 2026, Equity Residential entered into a settlement agreement to fully resolve the consolidated putative class action litigation at an amount totaling $ 56.0 million. On May 12, 2026, Equity Residential funded the $ 56.0 million to the claims administrator in accordance with the terms of the settlement agreement, and on October 15, 2026, the settlement received final approval from the court. The Company also continues to vigorously defend three other cases with similar allegations filed by the District of Columbia (against Equity Residential and AvalonBay), the State of Maryland (against Equity Residential and AvalonBay), and the State of New Jersey (against AvalonBay), against RealPage, Inc."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-09"
+  },
+  {
+   "key": "0001628280-26-072306:acre-20260930.htm",
+   "company": "Ares Commercial Real Estate Corp  (ACRE)",
+   "cik": "1529377",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-09",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1529377/000162828026072306/acre-20260930.htm",
+   "phrases": [
+    "deed in lieu of foreclosure"
+   ],
+   "excerpts": [
+    "If the Company were to have uncollectible accrued interest receivable, it generally would reverse accrued and unpaid interest against interest income and no longer accrue for these amounts. 5. REAL ESTATE OWNED On September 19, 2024, the Company acquired legal title to a multi-building office property located in North Carolina through a deed in lieu of foreclosure. Prior to September 19, 2024, the office property collateralized a $ 68.6 million senior mortgage loan held by the Company that was in maturity default due to the failure of the borrower to repay the outstanding principal balance of the loan by the May 2024 maturity date. In conjunction with the deed in lieu of foreclosure, the Company derecognized the $ 68.6 million senior mortgage loan and recognized the office property as real estate owned.",
+    "As of December 31, 2025, the FL4 Notes were collateralized by interests in a pool of four mortgage assets having a total principal balance of $ 138.9 million that were closed by a wholly-owned subsidiary of the Company and $ 52.6 million of real estate owned related to an office property, which had collateralized a previous mortgage asset, and was acquired in September 2024 through a deed in lieu of foreclosure. During the three and nine months ended September 30, 2025, the Company paid down $ 19.8 million and $ 34.3 million of the FL4 Offered Notes, respectively. As all of the FL4 Notes were repaid in full at par on January 20, 2026, the Company did no t pay down any of the FL4 Offered Notes during the three months ended September 30, 2026.",
+    "The decrease in net interest margin for the nine months ended September 30, 2026 compared to the nine months ended September 30, 2025 is primarily due to a decrease in SOFR rates on our loans held for investment and a decrease in the weighted average interest-bearing cash and cash equivalents balances held for the nine months ended September 30, 2026 as compared to the nine months ended September 30, 2025. 42 Table of Contents Revenue From Real Estate Owned On September 19, 2024, we acquired legal title to a multi-building office property located in North Carolina through a deed in lieu of foreclosure. Prior to September 19, 2024, the office property collateralized a $68.6 million senior mortgage loan that we held that was in maturity default due to the failure of the borrower to repay the outstanding principal balance of the loan by the May 2024 maturity date. In conjunction with the deed in lieu of foreclosure, we derecognized the $68.6 million senior mortgage loan and recognized the office property as real estate owned."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-09"
+  },
+  {
+   "key": "0000877860-26-000223:q3_2026xsupplementalxfin.htm",
+   "company": "NATIONAL HEALTH INVESTORS INC  (NHI)",
+   "cik": "877860",
+   "sic": "6798",
+   "form": "8-K",
+   "filed": "2026-11-09",
+   "periodEnding": "2026-11-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/877860/000087786026000223/q3_2026xsupplementalxfin.htm",
+   "phrases": [
+    "deed in lieu of foreclosure"
+   ],
+   "excerpts": [
+    "FOCUSED ON GROWING WITH OUR 36 OPERATING PARTNERS AND SELECT NEW CUSTOMERS DIVERSIFIED INVESTMENT PLAN EMPHASIZING PRIVATE PAY SENIOR HOUSING PROPERTIES AND BEST-IN-CLASS SNF OPERATORS EXPERIENCED OPERATORS WITH PROVEN RECORD OF QUALITY CARE AND VALUE CREATION LOW LEVERAGE BALANCE SHEET AND STAGGERED LONG-TERM DEBT MATURITIES INVESTMENT RATIONALE INVESTMENT HISTORY* (DOLLARS IN MILLIONS) NOTES 6.9% LEASE 77.4% SHOP 15.7% INVESTMENT STRUCTURE 10Q3 2026 *Indicates new relationship 1 Building count excludes renovations. 2 SHOP yields are based on expected first year NOI less routine capital expenditures. 3 This property was acquired in a deed in lieu of foreclosure transaction with SLM to satisfy the repayment of its $10.0 million mortgage note receivable. 4 Formerly referred to as Watermark Retirement. \u017e \u2039 \u00a4 \u00a2\u008f\u0090 \u0160 \u2013 \u2022 \u008f \u00a5 \u20ac\u017e \u2030\u00a4\u0192 \u017e \u0192\u2021\u00ad\u009d\u008d \u2026\u0090\u009d\u201a\u20ac\u201e\u009d\u009d \u2022 \u02dc\u017d \u2022\u2039 \u0090 \u201a\u00a4 \u00a5 \u00ad\u2021\u009d\u009d\u008d \u0090\u0192\u20ac \u0090\u0090 \u008f\u008f\u0152\u008f \u201d \u2020\u201a\u009d\u00a4\u201e \u017e\u20ac\u0153\u2013\u20ac \u0192\u2021\u201a\u009d\u008d \u2026\u0090\u009d \u20ac\u2020\u00ad\u00ad \u008f\u017e \u0090\u00a4\u0090 \u017e \u00ad\u2021 \u008d \u2026 \u20ac \u009d\u009d \u2039 \u017e \u201d \u0090\u009d\u0192\u00a4\u0090 \u00ad\u2021\u009d\u009d\u008d \u20ac\u0090\u2020\u201e \u203a\u00a6 \u00a5 \u20ac\u017e \u201a\u00a4\u0090 \u00ad\u2021 \u008d \u0192\u20ac\u009d\u2030\u0192 \u017e \u008f \u2030\u2030\u201e\u00a4\u2020 \u0153\u20ac \u0192\u2021 \u009d\u008d \u2026\u0192\u2020\u20ac\u2030\u009d\u009d \u008f \u02c6 \u008f\u201d \u009d \u00a4\u201a \u2014 \u00ad\u2021\u009d\u009d\u008d \u2026\u201a\u2030\u20ac \u009d\u009d \u00a5 \u20ac\u017e\u201d \u0090\u009d\u00ad\u00a4\u0090 \u017e \u00ad\u2021\u009d\u009d\u008d \u2026\u0090\u20ac\u009d\u009d \u0152\u2039 \u017d\u0160 \u2030 \u00ad\u00ad\u00a4\u0090 \u2022 \u00ad\u2021\u009d\u009d\u008d \u00ad\u20ac\u201a\u009d\u009d \u00a6 \u017e \u20ac\u017e\u201d \u0090\u009d\u00a4\u0090 \u00a6 \u0192\u2021\u201e \u008d \u2020\u201a\u20ac\u2030\u009d\u009d \u2026 \u20ac\u2020\u00ad \u017e \u2039 \u00a4 \u00a2\u008f\u0090 \u0160 \u2013 \u2022 \u008f \u203a\u008f \u0152\u008f\u008f \u00a4 \u0152 \u00ad\u2021\u009d\u009d\u008d \u2026 \u20ac \u009d\u009d \u2026 \u20ac \u009d\u009d \u00a7 \u2022 \u02dc\u017d \u0152\u008f\u008f \u201a\u00a4\u0090 \u00a5 \u00ad\u2021 \u009d\u008d \u0090"
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-09"
+  },
   {
    "key": "0001628280-26-071703:rc-20260930.htm",
    "company": "Ready Capital Corp  (RC, RCD, RC-PC, RC-PE)",
