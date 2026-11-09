@@ -1492,6 +1492,26 @@
       },
       "checkAfter": "2026-11-15",
       "status": "watching"
+    },
+    {
+      "id": "imp-063",
+      "date": "2026-11-09",
+      "track": "news",
+      "title": "SEC quarterly litigation re-disclosures: record the case by name so a repeat can be confirmed, not re-researched",
+      "why": "Confirmed against ops/improvement-log.json that the earliest open checkAfter among all watching entries is imp-052's 2026-11-10 (imp-053 11-11, imp-056 11-12, imp-057 11-13, imp-059 11-14, imp-062 11-15) -- nothing to judge this run. Audit clean (pagesChecked 839; missingDescription 2 / weakDescription 2 / longTitle 7 unchanged, all already-explained). Checked \"one open experiment per goal\" by metric: traffic (imp-053 till 2026-11-11), conversion (imp-062 till 2026-11-15, imp-056 till 2026-11-12; follows7 diagnosed off-limits-code-blocked per G17), calculator (imp-059 till 2026-11-14; finalRangeHitRate Jeff-gated, every results*/ backtest directory unchanged in size since imp-045, no Jeff annotation in ops/calculator-proposals.md since 2026-10-31), subscription (imp-057 till 2026-11-13, last tracked change only 3 days ago) -- every numeric goal's real lever blocked, Jeff-gated or exhausted, the recurring G20 gridlock. news's leadsToMattersTotal/leadsReviewedTotal metric has had no open watcher since imp-041 closed 2026-11-05, so per 2026-11-06's own note this run worked that instead. Checked ops/social-drafts/ first (last refreshed imp-061, 2026-11-08, through live-379) -- js/data.js's newest matter is still live-379, nothing new to draft. Tallied the last 3 days of ops/leads-handled.json (67 entries, 61 skips): 28 'other' skips beyond the three already-addressed shapes, almost all from this quarter's SEC 10-Q/10-K wave (Sept 30, 2026 quarter-end, filed 2026-11-06/07), each correctly read and skipped the same day as 'no new development' or 'not actually a litigation disclosure.' Traced why pull_leads.py's own per-company caption dedup never engages for these: of the 44 SEC leads on file, 36 (82%) have captions: [] (confirmed directly against the live ops/sec-litigation-leads.json, no API spend) -- most describe litigation by an informal name ('the Broadmark State Court Litigation,' 'the Frank Gardner Derivative Litigation') or aren't litigation at all (a deed-in-lieu workout, an accounting note) rather than a formal 'Party v. Party' caption the CAPTION regex can find, so the identical disclosure will resurface under a new accession number next quarter and need the same full read again. Did not edit scripts/pull_leads.py's matching/dedup code: a regex broad enough to catch these informal names risks suppressing a genuinely new, differently-named dispute at the same company later, a sourcing-accuracy risk, and today's skip decisions were already all correct -- the only cost is re-deriving the same conclusion from scratch next quarter. Added a lower-risk, text-only fix instead: a new ops/digest-playbook.md section ('SEC quarterly litigation re-disclosures: record the case by name, not just the filing') directing the digest to record company + informal case name in ops/leads-handled.json's own skip text, the same pattern imp-041's bankruptcy-cluster guidance already established, plus a dated entry in digest-playbook.md's own 'What we have learned' and backlog item G23 in improvement-playbook.md. No HTML/TS files touched; site_audit.py and check_case_fields.py both re-run clean, no count regressed; reverted this run's own regeneration of ops/metrics/goals.json before committing.",
+      "files": [
+        "ops/digest-playbook.md",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "a00b275bf3cf465ddb952049ed77cbc86b3e577d",
+      "metric": "news.metrics.leadsToMattersTotal / leadsReviewedTotal (ops/metrics/goals.json)",
+      "window": "14 days",
+      "baseline": {
+        "leadsToMattersTotal": 51,
+        "leadsReviewedTotal": 479
+      },
+      "checkAfter": "2026-11-23",
+      "status": "watching"
     }
   ]
 }
