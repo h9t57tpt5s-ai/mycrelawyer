@@ -1,5 +1,26 @@
 [
  {
+  "at": "2026-11-09T22:44:09+00:00",
+  "window": [
+   "2026-11-06",
+   "2026-11-09"
+  ],
+  "sources": {
+   "courtlistener": 67,
+   "sec_edgar": 11,
+   "Hillsborough FL": 2,
+   "Harris County TX justice courts": 1
+  },
+  "stored": 81,
+  "newMatches": 0,
+  "emailsSent": 0,
+  "emailsFailed": 0,
+  "slackSent": 0,
+  "slackFailed": 0,
+  "errors": [],
+  "ok": true
+ },
+ {
   "at": "2026-11-09T21:36:59+00:00",
   "window": [
    "2026-11-06",
@@ -1862,27 +1883,6 @@
    "Harris County TX justice courts": 6
   },
   "stored": 140,
-  "newMatches": 0,
-  "emailsSent": 0,
-  "emailsFailed": 0,
-  "slackSent": 0,
-  "slackFailed": 0,
-  "errors": [],
-  "ok": true
- },
- {
-  "at": "2026-09-26T03:33:59+00:00",
-  "window": [
-   "2026-09-22",
-   "2026-09-26"
-  ],
-  "sources": {
-   "courtlistener": 146,
-   "sec_edgar": 18,
-   "Hillsborough FL": 7,
-   "Harris County TX justice courts": 7
-  },
-  "stored": 178,
   "newMatches": 0,
   "emailsSent": 0,
   "emailsFailed": 0,

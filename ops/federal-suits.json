@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T21:38:39+00:00",
+ "updatedAt": "2026-11-09T22:45:57+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
@@ -26,6 +26,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "phoenix-associates-inc-v-smg-land-development-llc-wvsd-2-26-cv-00719",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "AutoZone Development, LLC v. Frisco Station, LLC",
+   "court": "District Court, W.D. Arkansas",
+   "courtId": "arwd",
+   "docketNumber": "5:26-cv-05315",
+   "dateFiled": "2026-11-09",
+   "docketUrl": "https://www.courtlistener.com/docket/75092891/autozone-development-llc-v-frisco-station-llc/",
+   "docketId": 75092891,
+   "suitNature": "",
+   "cause": "",
+   "slug": "autozone-development-llc-v-frisco-station-llc-arwd-5-26-cv-05315",
    "type": "Federal civil case"
   },
   {

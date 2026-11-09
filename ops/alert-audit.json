@@ -1,14 +1,14 @@
 {
  "ok": true,
- "generatedAt": "2026-11-09T21:38:41.401Z",
+ "generatedAt": "2026-11-09T22:45:58.039Z",
  "days": 30,
  "portfolios": 1,
  "entitiesWatched": 1,
  "sources": {
   "courtlistener": {
-   "stored": 661,
+   "stored": 664,
    "liveSince": "2026-09-19",
-   "lagSample": 661,
+   "lagSample": 664,
    "medianLagDays": 1,
    "p90LagDays": 2
   },
@@ -181,7 +181,7 @@
    "emailed": 0
   },
   "2026-11-09": {
-   "stored": 38,
+   "stored": 41,
    "alerts": 0,
    "emailed": 0
   }
