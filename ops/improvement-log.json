@@ -1512,6 +1512,28 @@
       },
       "checkAfter": "2026-11-23",
       "status": "watching"
+    },
+    {
+      "id": "imp-064",
+      "date": "2026-11-09",
+      "track": "audit",
+      "title": "Fix: judge-jonathan-a-kobes.html meta description recurrence of G22, unstuck the prerender pipeline",
+      "why": "Real breakage found before any goal work (Step 3 rule 1): site_audit.py showed orphanPages=1/missingFromSitemap=1 on judge-jonathan-a-kobes.html (added by the digest's 714d9ee commit at 12:26 UTC today, a new Eighth Circuit judge on live-380). `gh run list --workflow=prerender.yml` showed the prerender pipeline had actually failed twice today (42617059748 at 12:26 UTC, 42617245191 at 12:28 UTC), both \"cannot pull with rebase: You have unstaged changes\" after a successful local commit -- the exact same bug class as G22 (imp-060, 2026-11-07), recurring on a different judge page. Root cause confirmed by replicating prerender.ts's judge-*.html loop (lines 289-305) in Node against js/data.js: the digest's hand-crafted judge-jonathan-a-kobes.html quoted live-380's plain `title` field (\"AB Realty, LLC v. Scott Lane...\") in its description/og/twitter tags instead of its `seoTitle` (\"Yale Park Apartments: 8th Circuit Upholds Omaha Closure Suit Loss\"), which prerender.ts's shortName() always prefers when present -- so every prerender run rewrote that one page, and judge-*.html is still not in prerender.yml's git-add list (only company-*.html is), leaving the diff unstaged and failing `git pull --rebase` on every run. This blocked every new matter/chapter-11/federal-case page (live-380/381 and today's other digest commits) from being pushed for 3+ hours. Corrected the three description tags by hand to match prerender.ts's actual output exactly (verified zero remaining diff across all 62 judge-*.html pages, not just this one), committed and pushed (6c09ac8), then manually re-dispatched the workflow (`gh workflow run prerender.yml --ref main`, run 42648002788) to confirm it actually unblocks rather than just assuming -- it did: the catch-up \"Prerender: bake\" commit (e5a2e498) landed, and a live site_audit.py run afterward shows orphanPages/missingFromSitemap/brokenLinks all back to 0 (pagesChecked 840->843). Updated backlog G22 with this recurrence. HTML tag-balance checked clean on the one hand-edited file before committing; check_case_fields.py and site_audit.py both re-run clean.",
+      "files": [
+        "judge-jonathan-a-kobes.html",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "6c09ac8",
+      "metric": "site_audit.py summary.orphanPages / summary.missingFromSitemap / summary.brokenLinks",
+      "window": "next day",
+      "baseline": {
+        "orphanPages": 1,
+        "missingFromSitemap": 1,
+        "brokenLinks": 0
+      },
+      "checkAfter": "2026-11-10",
+      "status": "watching"
     }
   ]
 }
