@@ -13355,6 +13355,47 @@ const RELAW_DATA = {
         { when: "May 14, 2025", label: "Trial court grants township's preliminary objections in part, denies in part" },
         { when: "November 6, 2026", label: "Commonwealth Court of Pennsylvania quashes Bethlehem Landfill's appeal for lack of a final order", current: true }
       ]
+    },
+    {
+      id: "live-382",
+      addedDate: "2026-11-09",
+      featured: true,
+      title: "Illinois Appellate Court Holds Commercial Landlords May Assign Claims for Tenants' Unpaid Rent",
+      brief: "An Illinois appellate court held that a commercial landlord's claim for a tenant's already-accrued unpaid rent is a freely assignable asset, reviving a rent-collection suit against a Chicago tenant that had been dismissed for lack of standing.",
+      seoTitle: "Illinois Court: Landlords Can Assign Unpaid Rent Claims",
+      seoDescription: "Illinois's First District held a landlord may assign a tenant's accrued unpaid rent to a third party, reviving a Chicago collection suit.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-09",
+      jurisdiction: "Appellate Court of Illinois, First District",
+      state: "IL",
+      amount: "No dollar figure stated",
+      source: "live",
+      sourceUrl: "https://www.illinoiscourts.gov/resources/1c390993-0f1d-4885-a638-bb93fbb2a028/file",
+      documentUrl: "https://www.illinoiscourts.gov/resources/1c390993-0f1d-4885-a638-bb93fbb2a028/file",
+      documentLabel: "Read the official opinion",
+      summary: "The Appellate Court of Illinois, First District, held on November 9, 2026, that a commercial landlord may assign its claim for a tenant's already-accrued, unpaid rent to a third party, reversing a Cook County circuit court that had dismissed a rent-collection suit against a Chicago commercial tenant for lack of standing. The circuit court had relied on an 1872 Illinois Supreme Court decision and a 2018 First District opinion for the proposition that claims for back rent do not transfer when assigned separately from the property. The appellate panel found that reasoning inconsistent with the modern Illinois law of assignable claims and remanded the case for further proceedings on the merits of the unpaid-rent claim.",
+      significance: "The ruling confirms that accrued-but-unpaid rent is a freely transferable asset distinct from the property that generated it, meaning a commercial landlord selling or exiting a troubled tenancy can monetize uncollected rent receivables separately rather than losing the ability to collect them. It is also a due-diligence flag for buyers of leased commercial property: absent a specific assignment in the purchase agreement, a new owner has no claim to rent that accrued before closing, and the right to pursue a delinquent tenant for that older rent stays with the seller or whoever the seller assigns it to.",
+      body: [
+        "The Appellate Court of Illinois' First District ruled on November 9, 2026, that a commercial landlord can assign its claim to collect a tenant's already-accrued, unpaid rent to a third party, reversing a Cook County circuit court dismissal and reviving a rent-collection lawsuit against a Chicago commercial tenant. The decision resolves, as a matter of first impression under modern Illinois law, whether a chose in action for back rent -- as opposed to the right to future rent, which runs with the property -- can be freely assigned away from the landlord who holds it.",
+        "The dispute traces to a long-term lease of commercial space on North Clark Street in Chicago. The tenant, Affordable Portables, Inc., doing business as Philips Interiors, signed a 20-year lease in 2002 obligating it to pay base rent plus a share of the property's real estate taxes and utilities. The property changed hands several times during the lease term, and by 2021 the landlord was 2600 N. Clark Street, LLC. The complaint alleges that while 2600 N. Clark Street, LLC held the lease, the tenant fell behind on rent, tax, and utility charges owed under the lease. In 2024, the landlord assigned its right to collect that unpaid balance to a third party, who filed a verified complaint in Cook County in January 2025 seeking to collect the arrears as an assignee rather than as the current landlord.",
+        "The tenant moved to dismiss, arguing the assignee lacked standing because a claim for rent that accrued to a previous landlord does not travel with an assignment made independently of the property itself. The circuit court agreed, dismissing the suit solely on standing grounds. In doing so, it relied on the Illinois Supreme Court's 1872 decision in Kennedy v. Kennedy and a 2018 First District opinion, 1002 E. 87th Street, LLC v. Midway Broadcasting Corp., both of which had been read to treat a landlord's accrued-rent claim as a type of interest that does not pass to a stranger to the lease.",
+        "The appellate panel, in an opinion by Presiding Justice Ellis, reversed. The court distinguished between the right to future rent, which runs with the property and automatically transfers to a new owner under settled Illinois law, and a claim for rent already due and unpaid, which it characterized as a distinct chose in action held personally by the landlord to whom it was owed. Surveying Illinois Supreme Court precedent on the assignability of claims generally, the panel concluded that nothing in modern law bars a landlord from assigning that chose in action to anyone it chooses, including a party with no other connection to the lease or the property. The court held the lower court's reliance on Kennedy and Midway Broadcasting was inconsistent with that modern view and remanded the case for further proceedings on the merits of the unpaid-rent claim itself, without deciding how much, if anything, the tenant actually owes.",
+        "For commercial landlords and the lenders and buyers who deal with them, the ruling is a reminder that uncollected rent is its own asset, separable from the building that generated it: a landlord exiting a troubled lease or selling a property can sell or assign the right to chase down back rent to a collections specialist, an affiliate, or anyone else, and still expect a court to recognize that assignee's standing to sue. It cuts the other way for buyers of leased commercial property, who should not assume a purchase automatically brings with it the right to collect rent that was already in arrears before closing; if that receivable matters to the deal, the purchase agreement needs to say so explicitly, because Illinois law treats it as the outgoing landlord's asset to keep, sell, or walk away from. Tenants facing a stale rent demand from an unfamiliar plaintiff, meanwhile, should not assume a standing challenge will succeed just because the plaintiff never served as their landlord; after this decision, Illinois courts will look at whether the claim was properly assigned, not just who originally held it."
+      ],
+      judge: null,
+      parties: [
+        { name: "2600 N. Clark Street, LLC", role: "Landlord/Rent-Claim Assignor" },
+        { name: "Affordable Portables, Inc., d/b/a Philips Interiors", role: "Tenant/Defendant-Appellee" }
+      ],
+      amountUsd: null,
+      tags: ["commercial-lease", "unpaid-rent", "assignment", "illinois", "standing"],
+      timeline: [
+        { when: "2024", label: "2600 N. Clark Street, LLC assigns its claim for the tenant's unpaid rent to a third party" },
+        { when: "January 2025", label: "Assignee files verified complaint in Cook County Circuit Court to collect the unpaid rent" },
+        { when: "2025", label: "Circuit court dismisses the suit solely for lack of standing" },
+        { when: "November 9, 2026", label: "Appellate Court of Illinois, First District, reverses and holds the unpaid-rent claim was validly assigned", current: true }
+      ]
     }
   ],
 
