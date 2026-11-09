@@ -6,6 +6,16 @@
    "date": "2026-11-09",
    "scope": "site",
    "caseId": null,
+   "subject": "Texas Foreclosure Sales: Collin County property pages (3300 E Renner Rd, Richardson; 2137 Chelsea Blvd E11, Allen)",
+   "kind": "Corrected: source link",
+   "was": "Linked the Collin CAD account number as the property's appraisal record.",
+   "now": "Shows the account number unlinked.",
+   "basis": "The link, taken from Collin County's notice page, opens Collin CAD's general search page rather than the account."
+  },
+  {
+   "date": "2026-11-09",
+   "scope": "site",
+   "caseId": null,
    "subject": "Texas Foreclosure Sales property pages: lender label",
    "kind": "Corrected: label",
    "was": "Called the lender named in a Dallas notice of trustee's sale the \"Foreclosing lender\" (San Jacinto Place: Persimmon BridgeCo, LLC; DFW Mantiques: Harmony Bank).",

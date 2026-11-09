@@ -922,7 +922,9 @@ def collin_source(today: dt.date, processed: set) -> list[dict]:
             "zip": m_addr[2] if m_addr else "", "propertyName": "", "propertyType": COLLIN_TYPE.get(use, ""),
             "use": "Commercial condominium" if use == "Condominium" else use, "sqft": num(field("Improvement Area")), "units": None, "yearBuilt": num(field("Year Built")),
             "owner": clean_business(owner), "lender": "", "originalAmount": None,
-            "parcel": cad.group(1).rsplit("=", 1)[1] if cad else c["entry"], "parcelUrl": cad.group(1) if cad else "",
+            "parcel": cad.group(1).rsplit("=", 1)[1] if cad else c["entry"], # The county's CAD link opens Collin CAD's general search page, not
+            # the account (checked 2026-11-09), so the account is shown unlinked.
+            "parcelUrl": "",
             "parcels": 1, "matchedBy": "the county's own link to the parcel, which the appraisal district classifies as commercial"
                          + (f" (state code {code.group(1)})" if (code := re.search(r"\(([A-Z0-9]+)\)\s*$", state_code)) else ""),
             "postingUrl": f"{COLLIN}/DetailPage/{c['entry']}", "postingPage": None, "postingLabel": "",
