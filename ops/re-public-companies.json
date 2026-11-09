@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T07:29:38+00:00",
+ "updatedAt": "2026-11-09T07:54:49+00:00",
  "about": "Listed companies filing under real estate SIC codes 6798, 6500, 6510, 6512, 6513, 6519, 6531, 6552, 7011 (EDGAR). Used to pick real estate companies out of press-release feeds.",
  "companies": [
   {
@@ -293,6 +293,12 @@
   {
    "cik": 1562401,
    "ticker": "AMH",
+   "name": "American Homes 4 Rent",
+   "sic": "6798"
+  },
+  {
+   "cik": 1562401,
+   "ticker": "AMH-H",
    "name": "American Homes 4 Rent",
    "sic": "6798"
   },
@@ -1102,12 +1108,6 @@
   },
   {
    "cik": 104894,
-   "ticker": "ELME",
-   "name": "Elme Communities",
-   "sic": "6798"
-  },
-  {
-   "cik": 104894,
    "ticker": "ELMES",
    "name": "Elme Communities",
    "sic": "6798"
@@ -1791,12 +1791,6 @@
    "sic": "6500"
   },
   {
-   "cik": 1879403,
-   "ticker": "LRHC",
-   "name": "Stratum Holdings Corp.",
-   "sic": "6531"
-  },
-  {
    "cik": 887905,
    "ticker": "LTC",
    "name": "LTC PROPERTIES INC",
@@ -1989,12 +1983,6 @@
    "sic": "7011"
   },
   {
-   "cik": 1556801,
-   "ticker": "MYCB",
-   "name": "My City Builders, Inc.",
-   "sic": "6500"
-  },
-  {
    "cik": 1992001,
    "ticker": "NBNTS",
    "name": "Neptune REM, LLC",
@@ -2075,6 +2063,12 @@
   {
    "cik": 1992001,
    "ticker": "NPTDS",
+   "name": "Neptune REM, LLC",
+   "sic": "6500"
+  },
+  {
+   "cik": 1992001,
+   "ticker": "NPWCS",
    "name": "Neptune REM, LLC",
    "sic": "6500"
   },
@@ -2638,6 +2632,12 @@
   },
   {
    "cik": 1511337,
+   "ticker": "RLJ-A",
+   "name": "RLJ Lodging Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1511337,
    "ticker": "RLJ-PA",
    "name": "RLJ Lodging Trust",
    "sic": "6798"
@@ -2859,6 +2859,12 @@
    "sic": "6798"
   },
   {
+   "cik": 1063761,
+   "ticker": "SPGJ",
+   "name": "SIMON PROPERTY GROUP INC.",
+   "sic": "6798"
+  },
+  {
    "cik": 1080657,
    "ticker": "SQFT",
    "name": "Presidio Property Trust, Inc.",
@@ -2989,6 +2995,18 @@
    "ticker": "TCI",
    "name": "TRANSCONTINENTAL REALTY INVESTORS INC",
    "sic": "6798"
+  },
+  {
+   "cik": 2053456,
+   "ticker": "TGE",
+   "name": "Generation Essentials Group",
+   "sic": "7011"
+  },
+  {
+   "cik": 2053456,
+   "ticker": "TGE-WT",
+   "name": "Generation Essentials Group",
+   "sic": "7011"
   },
   {
    "cik": 1361658,
