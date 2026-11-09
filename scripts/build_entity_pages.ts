@@ -87,7 +87,7 @@ type Tx = {
   county: string; state: string; saleDate: string; address: string; city: string; zip: string; propertyName: string;
   propertyType: string; use: string; sqft: number | null; units: number | null; yearBuilt: number | null; owner: string;
   lender: string; originalAmount: number | null; parcel: string; parcelUrl: string; matchedBy: string;
-  postingUrl: string; postingPage: number | null; postingLabel: string; docNumber?: string; slug: string; firstSeen: string;
+  postingUrl: string; postingPage: number | null; postingLabel: string; sourceLabel?: string; docNumber?: string; slug: string; firstSeen: string;
 };
 type Cmbs = {
   event: string; eventLabel: string; propertyName: string; address: string; city: string; state: string; propertyType: string;
@@ -284,7 +284,7 @@ function signalMain(g: Group): { title: string; desc: string; html: string } {
     ? `The ${esc(t.county)} County Clerk posted a notice that this ${esc((t.propertyType || t.use || "commercial").toLowerCase())} property ${upcoming ? "is scheduled to be" : "was scheduled to be"} sold at a trustee's foreclosure sale on ${esc(longDay(t.saleDate))}. A posted sale can be postponed or called off before it happens, for example if the loan is brought current or the owner files for bankruptcy.`
     : `This property's loan is in a CMBS trust whose servicer reports it ${esc(cmbs[0].eventLabel.toLowerCase())}.`;
   const desc = clip(plain(t
-    ? `${g.name}, ${g.where}: posted for a trustee's foreclosure sale on ${fmtDate(t.saleDate)}${t.lender ? ` by ${t.lender}` : ""}. ${t.use ? `${t.use} property` : ""}${t.sqft ? `, ${t.sqft.toLocaleString("en-US")} sq ft` : ""}${t.units && ["Multifamily", "Senior Living"].includes(t.propertyType) ? `, ${t.units} units` : ""}.`
+    ? `${g.name}, ${g.where}: posted for a trustee's foreclosure sale on ${fmtDate(t.saleDate)}${t.lender ? `; lender named in the notice: ${t.lender}` : ""}. ${t.use ? `${t.use} property` : ""}${t.sqft ? `, ${t.sqft.toLocaleString("en-US")} sq ft` : ""}${t.units && ["Multifamily", "Senior Living"].includes(t.propertyType) ? `, ${t.units} units` : ""}.`
     : `${g.name}, ${g.where}: CMBS loan ${cmbs[0].eventLabel.toLowerCase()} (${cmbs[0].trust}).`), 300);
   const fact = (k: string, v: string) => v ? `<div><dt>${esc(k)}</dt><dd>${v}</dd></div>` : "";
   const facts = t ? [
@@ -295,15 +295,15 @@ function signalMain(g: Group): { title: string; desc: string; html: string } {
     fact(t.propertyType === "Hospitality" ? "Rooms" : "Units", t.units && ["Multifamily", "Senior Living", "Hospitality"].includes(t.propertyType) ? String(t.units) : ""),
     fact("Year built", t.yearBuilt ? String(t.yearBuilt) : ""),
     fact("Owner on the appraisal roll", esc(t.owner)),
-    fact("Appraisal record", t.parcelUrl ? `<a href="${esc(t.parcelUrl)}" rel="nofollow noopener" target="_blank">${esc(t.county)} CAD account ${esc(t.parcel)}</a>` : ""),
+    fact("Appraisal record", t.parcelUrl ? `<a href="${esc(t.parcelUrl)}" rel="nofollow noopener" target="_blank">${esc(t.county)} CAD account ${esc(t.parcel)}</a>` : `${esc(t.county)} CAD account ${esc(t.parcel)}`),
   ].join("") : "";
   const txItems = tx.map((r) => `
       <li class="card entity-matter">
         <div class="entity-matter-meta" style="display:flex; flex-wrap:wrap; gap:6px 14px; font-size:13px; color:var(--text-muted); margin-bottom:8px;"><span>Sale date ${esc(fmtDate(r.saleDate))}</span><span>Notice of trustee's sale</span><span>${esc(r.county)} County, TX</span></div>
         <h2 class="matter-h2">${r.saleDate >= TODAY ? "Scheduled" : "Posted"} for foreclosure sale ${esc(fmtDate(r.saleDate))}</h2>
-        <p class="text-secondary">${[r.lender ? `Foreclosing lender: ${esc(r.lender)}.` : "", r.originalAmount ? `Original loan amount: ${money(r.originalAmount)}.` : "",
+        <p class="text-secondary">${[r.lender ? `Lender named in the notice: ${esc(r.lender)}.` : "", r.originalAmount ? `Original loan amount: ${money(r.originalAmount)}.` : "",
           `Texas trustee's sales are held on the first Tuesday of the month, between 10 a.m. and 4 p.m., at the place the county designates.`].filter(Boolean).join(" ")}</p>
-        <p class="text-muted" style="font-size:13px;">Source: <a href="${esc(r.postingUrl)}${r.postingPage ? `#page=${r.postingPage}` : ""}" rel="nofollow noopener" target="_blank">${esc(r.county)} County Clerk notice${r.docNumber ? ` ${esc(r.docNumber)}` : ""}${r.postingPage ? `, page ${r.postingPage}` : ""}</a>. Matched to the appraisal roll by ${esc(r.matchedBy)}.</p>
+        <p class="text-muted" style="font-size:13px;">Source: <a href="${esc(r.postingUrl)}${r.postingPage ? `#page=${r.postingPage}` : ""}" rel="nofollow noopener" target="_blank">${r.sourceLabel ? esc(r.sourceLabel) : `${esc(r.county)} County Clerk notice${r.docNumber ? ` ${esc(r.docNumber)}` : ""}${r.postingPage ? `, page ${r.postingPage}` : ""}`}</a>. Matched to the appraisal roll by ${esc(r.matchedBy)}.</p>
       </li>`).join("");
   const cmbsItems = cmbs.map((r) => `
       <li class="card entity-matter">

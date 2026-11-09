@@ -76,6 +76,20 @@
   "joliet technology center|IL": "/properties/joliet-technology-center-joliet-il.html",
   "800 gentleman rd|san antonio|TX": "/properties/boston-woods-san-antonio-tx.html",
   "121 starr|san antonio|TX": "/properties/hiedgen-house-office-bldg-san-antonio-tx.html",
+  "8900 chimney rock rd|houston|TX": "/properties/8900-chimney-rock-rd-houston-tx.html",
+  "8244 lockheed ave|houston|TX": "/properties/8244-lockheed-ave-houston-tx.html",
+  "7903 s loop e|houston|TX": "/properties/7903-s-loop-e-houston-tx.html",
+  "6959 harwin dr|houston|TX": "/properties/6959-harwin-dr-houston-tx.html",
+  "6220 fairdale ln|houston|TX": "/properties/6220-fairdale-ln-houston-tx.html",
+  "5929 schumacher ln|houston|TX": "/properties/5929-schumacher-ln-houston-tx.html",
+  "5706 s acres dr|houston|TX": "/properties/5706-s-acres-dr-houston-tx.html",
+  "4925 steffani ln|houston|TX": "/properties/4925-steffani-ln-houston-tx.html",
+  "2213 hermann dr|houston|TX": "/properties/2213-hermann-dr-houston-tx.html",
+  "2201 hermann dr|houston|TX": "/properties/2201-hermann-dr-houston-tx.html",
+  "2010 emancipation ave|houston|TX": "/properties/2010-emancipation-ave-houston-tx.html",
+  "106 e san augustine st|deer park|TX": "/properties/106-e-san-augustine-st-deer-park-tx.html",
+  "3300 e renner rd|richardson|TX": "/properties/3300-renner-richardson-tx.html",
+  "2137 chelsea blvd e11|allen|TX": "/properties/2137-chelsea-blvd-e11-allen-tx.html",
   "641 n i 35 e|desoto|TX": "/properties/la-quinta-desoto-tx.html",
   "9750 forest ln|dallas|TX": "/properties/the-marion-dallas-tx.html",
   "911 w wheatland rd|dallas|TX": "/properties/wheatland-garden-apartments-dallas-tx.html",
@@ -89,6 +103,20 @@
  "tx": {
   "Bexar:358086": "/properties/boston-woods-san-antonio-tx.html",
   "Bexar:109769": "/properties/hiedgen-house-office-bldg-san-antonio-tx.html",
+  "Harris:0410880000014": "/properties/8900-chimney-rock-rd-houston-tx.html",
+  "Harris:0650500040014": "/properties/8244-lockheed-ave-houston-tx.html",
+  "Harris:1412180010002": "/properties/7903-s-loop-e-houston-tx.html",
+  "Harris:1048490000021": "/properties/6959-harwin-dr-houston-tx.html",
+  "Harris:0690430000072": "/properties/6220-fairdale-ln-houston-tx.html",
+  "Harris:0741650030033": "/properties/5929-schumacher-ln-houston-tx.html",
+  "Harris:0612040000003": "/properties/5706-s-acres-dr-houston-tx.html",
+  "Harris:0812580000007": "/properties/4925-steffani-ln-houston-tx.html",
+  "Harris:0630790410025": "/properties/2213-hermann-dr-houston-tx.html",
+  "Harris:0630790410027": "/properties/2201-hermann-dr-houston-tx.html",
+  "Harris:0021270000003": "/properties/2010-emancipation-ave-houston-tx.html",
+  "Harris:0113190000478": "/properties/106-e-san-augustine-st-deer-park-tx.html",
+  "Collin:2786864": "/properties/3300-renner-richardson-tx.html",
+  "Collin:2774774": "/properties/2137-chelsea-blvd-e11-allen-tx.html",
   "Dallas:200615100A01B0000": "/properties/la-quinta-desoto-tx.html",
   "Dallas:00000791059100000": "/properties/the-marion-dallas-tx.html",
   "Dallas:00000745567000000": "/properties/wheatland-garden-apartments-dallas-tx.html",
@@ -99,5 +127,7 @@
   "Dallas:007017000C01A0000": "/properties/le-meridian-dallas-tx.html",
   "Dallas:008042000C0020000": "/properties/11313-kingsley-rd-dallas-tx.html"
  },
- "cmbs": {}
+ "cmbs": {
+  "3300-renner-richardson-tx-foreclosure-2026-09": "/properties/3300-renner-richardson-tx.html"
+ }
 }

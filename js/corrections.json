@@ -3,6 +3,16 @@
  "startedOn": "2026-09-12",
  "entries": [
   {
+   "date": "2026-11-09",
+   "scope": "site",
+   "caseId": null,
+   "subject": "Texas Foreclosure Sales property pages: lender label",
+   "kind": "Corrected: label",
+   "was": "Called the lender named in a Dallas notice of trustee's sale the \"Foreclosing lender\" (San Jacinto Place: Persimmon BridgeCo, LLC; DFW Mantiques: Harmony Bank).",
+   "now": "\"Lender named in the notice\", on every Texas foreclosure property page.",
+   "basis": "A notice of trustee's sale may name the loan's original lender rather than its current holder, so the notice alone does not show who is foreclosing."
+  },
+  {
    "date": "2026-11-06",
    "scope": "site",
    "caseId": null,
