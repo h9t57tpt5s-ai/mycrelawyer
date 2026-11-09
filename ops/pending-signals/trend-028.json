@@ -1,0 +1,62 @@
+{
+ "trend": {
+  "id": "trend-028",
+  "title": "Texas Troubled CRE Loans Fall Below $600M in November, but Nine of 33 Auction Listings Are Repeats",
+  "category": "lending-foreclosure",
+  "date": "2026-11-03",
+  "scope": "Texas (Houston, Dallas-Fort Worth, Austin, San Antonio) foreclosure auction listings",
+  "metric": "Under $600M in November Texas CRE foreclosure listings (headline: $560M), down from over $1B in October; 33 properties, 13 in Harris County",
+  "sourceUrl": "https://therealdeal.com/texas/2026/11/03/texas-troubled-cre-loans-fall-below-600m-in-november/",
+  "summary": "The Real Deal's monthly Texas distress report, based on Roddy's Foreclosure Listing Service, shows troubled CRE loans posted for foreclosure falling below $600 million in November after topping $1 billion in October. Thirty-three properties are flagged, 13 of them in Harris County, and nine are repeat listings carried over from earlier months. The largest new loan is a $56.7 million Goldman Sachs loan on Houston's Offices at Pin Oak Park (Norvin Healthcare Properties), about 10% of the total. Other new listings include Rastegar Property Company's Velo Flats in Austin ($11.3 million Thrive Lending loan) and Harris Investment Group's 106-unit Legacy Lofts in Dallas ($8.4 million Lima One loan).",
+  "significance": "Texas's fast non-judicial foreclosure process compresses disputes into the days before sale, producing restraining-order requests, notice and acceleration challenges, and claims that a lender agreed to forbear and then posted anyway. Repeat listings often reflect ongoing negotiations or litigation, and post-sale guarantor, recourse carve-out and deficiency claims commonly follow. Out-of-state syndicators, bridge lenders and owners of properties with housing finance corporation structures should expect contested workouts.",
+  "tags": [
+   "texas",
+   "foreclosure",
+   "multifamily",
+   "office",
+   "bridge loans"
+  ]
+ },
+ "verification": [
+  {
+   "claim": "Headline total for November",
+   "quote": "Texas distress report: Troubled CRE loans drop to $560M in November",
+   "url": "https://therealdeal.com/texas/2026/11/03/texas-troubled-cre-loans-fall-below-600m-in-november/"
+  },
+  {
+   "claim": "Below $600M after topping $1B in October; largest new loan is 10% of the total; 9 repeat loans",
+   "quote": "The $56.7 million debt on the property makes up 10 percent of the value of troubled loans this month, which dropped below $600 million after topping $1 billion in October, according to Roddy’s Foreclosure Listing Service. That figure includes 9 loans that were previously flagged for foreclosure and rolled over to November.",
+   "url": "https://therealdeal.com/texas/2026/11/03/texas-troubled-cre-loans-fall-below-600m-in-november/"
+  },
+  {
+   "claim": "33 properties, 13 in Harris County",
+   "quote": "Of the 33 properties flagged for auctions, 13 were in Harris County, home to Houston, the most commercial foreclosures of the counties included.",
+   "url": "https://therealdeal.com/texas/2026/11/03/texas-troubled-cre-loans-fall-below-600m-in-november/"
+  },
+  {
+   "claim": "Pin Oak Park: Norvin, Goldman Sachs $56.7M",
+   "quote": "Norvin Healthcare Properties, which is based in New York, is facing foreclosure on the Offices at Pin Oak Park. Goldman Sachs provided the $56.7 million loan for the five-building medical office complex",
+   "url": "https://therealdeal.com/texas/2026/11/03/texas-troubled-cre-loans-fall-below-600m-in-november/"
+  },
+  {
+   "claim": "Velo Flats: Rastegar, Thrive Lending $11.3M",
+   "quote": "Ari Rastegar’s Rastegar Property Company is facing foreclosure on Velo Flats, a 70-unit apartment complex at 2606 Wheless Lane in Austin. Thrive Lending provided the $11.3 million loan in 2022.",
+   "url": "https://therealdeal.com/texas/2026/11/03/texas-troubled-cre-loans-fall-below-600m-in-november/"
+  },
+  {
+   "claim": "Legacy Lofts: Harris Investment Group, 106 units, Lima One $8.4M",
+   "quote": "Harris Investment Group, based in Orem, Utah, risks losing control of Legacy Lofts, a 106-unit complex at 2600 Highland Road in Dallas. Lima One provided the $8.4 million loan for the property.",
+   "url": "https://therealdeal.com/texas/2026/11/03/texas-troubled-cre-loans-fall-below-600m-in-november/"
+  },
+  {
+   "claim": "Nine repeat listings; negotiations or litigation",
+   "quote": "Of this month’s distressed loans, nine have been flagged for foreclosure sales multiple times, sometimes reflecting continued lender negotiations or ongoing litigation.",
+   "url": "https://therealdeal.com/texas/2026/11/03/texas-troubled-cre-loans-fall-below-600m-in-november/"
+  },
+  {
+   "claim": "Housing finance corporation structure",
+   "quote": "The property is a beneficiary of the notorious “traveling” housing finance corporation loophole.",
+   "url": "https://therealdeal.com/texas/2026/11/03/texas-troubled-cre-loans-fall-below-600m-in-november/"
+  }
+ ]
+}
