@@ -13343,7 +13343,7 @@ const RELAW_DATA = {
         "On appeal, the Commonwealth Court of Pennsylvania, in an opinion by Judge Anne E. Covey, quashed Bethlehem Landfill's appeal for lack of jurisdiction, holding that the trial court's order did not qualify as a final, appealable order because it resolved only some of the landfill company's claims while leaving others, along with the township's counterclaims, unresolved below.",
         "For owners of landfills, industrial sites, and other land uses that require both a rezoning and resolution of older recorded restrictions or donated-property statutes, the case underscores that litigation over a municipality's own procedural conduct in handling a rezoning request can become a parallel, multi-year front separate from the zoning decision itself, and that a partial, non-final ruling in that litigation may not be immediately reviewable on appeal, leaving an expansion project in limbo until the trial court resolves every claim."
       ],
-      judge: null,
+      judge: "Anne E. Covey",
       parties: [
         { name: "Bethlehem Landfill Company", role: "Appellant" },
         { name: "Lower Saucon Township", role: "Appellee" }
