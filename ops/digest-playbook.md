@@ -245,9 +245,52 @@ already gives every one of these debtor filings its own record page
 regardless of whether the digest writes a narrative about them, the same
 as the bare-docket guidance above.
 
+## SEC quarterly litigation re-disclosures: record the case by name, not just the filing (added 2026-11-09)
+
+scripts/pull_leads.py already tries to stop the same company's same lawsuit
+from coming back as a lead every quarter: it extracts a "Party v. Party"
+court caption from the excerpt and, once that caption is on file for a
+company's CIK, skips a later filing that repeats it. But that only works
+when the filing's own text uses a formal caption. Checked today's live
+ops/sec-litigation-leads.json (44 leads, mostly from the Sept 30, 2026
+quarter-end 10-Qs/10-Ks filed 2026-11-06/07): 36 of 44 (82%) have
+`captions: []` -- companies very often describe ongoing litigation by an
+informal name instead ("the Broadmark State Court Litigation," "the
+Broadmark Federal Court Litigation," "the Frank Gardner Derivative
+Litigation," "the Aquino Action") or the excerpt isn't a lawsuit at all
+(a deed-in-lieu-of-foreclosure workout, a loan-payable accounting note, a
+solvency representation in a contract exhibit) -- none of which the
+CAPTION pattern can find. Every one of today's 36 was correctly read and
+skipped as "no new development" or "not actually a litigation disclosure,"
+but because none produced a caption, the per-company dedup never engages:
+the identical disclosure will resurface under next quarter's filing (a new
+accession number, so pull_leads.py's own key-based de-dup doesn't catch it
+either) and need the same full read again -- the same wasted-repeat-research
+shape the bankruptcy-cluster guidance above fixed, just on a ~90-day cycle
+instead of a daily one, so it won't show up as repeated same-day lookups
+the way that one did.
+
+When an SEC-filing litigation lead is skipped as "no new development" or
+"not actually litigation" (a workout, an accounting note, boilerplate
+contract language), put a short, stable identifier in the
+ops/leads-handled.json skip's own action text: the company name plus
+whatever informal name the filing itself gives the matter (e.g. "Ready
+Capital / Broadmark State Court Litigation," "UDR / [ticker] deed-in-lieu
+workout," "Hartman vREIT XXI / Frank Gardner derivative suit"), not just
+the filing's key or URL. Before spending a full read on a new SEC
+litigation lead, check whether the same company (by name or CIK) already
+has a skip recorded under the same or a closely matching informal name; if
+so, a quick check of whether the dollar figure, status or date actually
+moved is enough to confirm "still no new development" -- don't re-derive
+that conclusion from nothing. This doesn't change what gets published or
+skipped for any individual filing, only how much reading it takes to reach
+the same answer the second and third time a quarter's disclosure repeats
+itself.
+
 ## What we have learned
 
 <!-- The self-improvement routine adds dated lines here: what changed in the digest's guidance and what happened to the news metrics afterwards. -->
+- 2026-11-09: News is "on track" (gap 0.0) and sourcedMatters7/freshSourcedMatters7/medianDaysEventToAdded already has an open watching entry (imp-052, until 2026-11-10), so this run worked leadsToMattersTotal/leadsReviewedTotal instead, same as 2026-10-29's imp-041. Tallied the last 3 days of ops/leads-handled.json (67 entries, 61 skips) and found 28 "other" skips beyond the three already-addressed shapes (bare-docket, residential-foreclosure, generic-financing-term) -- nearly all from this quarter's SEC 10-Q/10-K wave (Sept 30, 2026 quarter-end, filed 2026-11-06/07), correctly skipped the same day as "no new development this filing" or "not actually a litigation disclosure." Checked why pull_leads.py's own per-company caption dedup (the mechanism that already stops a repeated lawsuit caption from resurfacing) didn't catch any of them before they were even added as leads: of the 44 SEC leads currently on file, 36 (82%) have `captions: []` -- the CAPTION regex only matches a formal "Party v. Party" string, and most of these disclosures name the matter informally ("the Broadmark State Court Litigation," "the Frank Gardner Derivative Litigation") or aren't a lawsuit at all (a deed-in-lieu workout, an accounting note). Did not touch scripts/pull_leads.py itself -- a regex broad enough to catch these informal names risks suppressing a genuinely new, differently-named dispute at the same company, and the actual skip decision already happens correctly today; the only cost is re-deriving the same "no new development" conclusion from scratch next quarter. Added a lower-risk, text-only fix instead: a new ops/digest-playbook.md section directing the digest to record the company + informal case name in ops/leads-handled.json's skip text (the exact pattern imp-041's cluster guidance already uses) so a future quarter's re-appearance can be confirmed quickly instead of re-researched. Watching news.metrics.leadsToMattersTotal/leadsReviewedTotal at checkAfter 2026-11-23 (14 days, same search-effort-allocation metric imp-041 used) -- but flagging honestly that the real test is the *next* SEC quarterly filing wave (~90 days out, around February 2027), not this window; a 14-day read here is unlikely to show anything either way.
 - 2026-10-29: News already reads "on track" (gap 0.0: sourcedMatters7/freshSourcedMatters7/medianDaysEventToAdded 28/20/4.0), and imp-030 (2026-10-24) already has an open watching entry on all three of those metrics until 2026-10-31. goals.json's news section also scores leadsToMattersTotal/leadsReviewedTotal, which nothing is currently watching, so this run worked that metric instead of re-touching the three blocked ones. Tallied the last 10 days of ops/leads-handled.json's skip reasons (166 entries, 156 skips) and found the single biggest reason (34 of 156, plus related variants) is still the already-addressed "no coverage found" bare-docket shape from G16/the "Bare court-docket leads" section above -- but a second, narrower pattern stood out: the "5 Star Tech I/II PropCo/HoldCo/L5" cluster (7 related Chapter 11 debtors in one jointly-administered case) was independently researched and skipped on 2026-10-25, 2026-10-26 and 2026-10-27 -- three full passes reaching the same "no new story, additional debtor in an existing case" conclusion, 21 lookups total for one underlying fact. Added a new section ("Related-entity bankruptcy clusters: research once, remember the case") directing one search per cluster instead of one per debtor, and recording the shared case number in ops/leads-handled.json's action text so a future run recognizes a resurfacing cluster by case number rather than re-researching it. Watching news.metrics.leadsToMattersTotal/leadsReviewedTotal (baseline 31/297) at checkAfter 2026-11-05 (14 days, since this is about search-effort allocation across many runs, not a single day's output) -- a real move would be leadsReviewedTotal growing more slowly relative to leadsToMattersTotal than it has been, i.e. less review effort spent per matter produced; if it doesn't move, the cluster shape may simply be too rare (one 7-debtor cluster in 10 days) to show up in an aggregate count, which wouldn't mean the guidance is wrong.
 - 2026-10-13: Starting point. Week of 2026-10-06: 23 sourced matters, 5 within 7 days of the event, median 97 days from event to publication; 14 of 15 leads skipped. Record-only petition matters were banned on 2026-10-12.
 - 2026-10-17: The news goal (ops/metrics/goals.json) now reads "on track" (gap 0.0): 50 sourced matters in the last 7 days, 41 of them fresh, median 5.0 days event-to-publication -- all past target, and backlog item G1 (added 2026-10-13, asking for exactly this fix) is done; marked struck in ops/improvement-playbook.md's backlog. Looked for patterns in the skip reasons as G1 also asked: of 101 leads logged 2026-10-08 through 2026-10-17, 85 were skipped and 30 of those (35%) were bare court-docket leads (small Chapter 11 petitions, small LLC-vs-insurer federal suits) with no secondary reporting to write a narrative matter from -- confirmed these still get their own page automatically via the separate ingest/record-page pipeline, so the skip is not a real coverage loss. Added guidance above ("Bare court-docket leads with no coverage") to spend one targeted search on these rather than several variants, and put the saved effort toward opinion/SEC/trade-press leads, which is where matters actually come from. Watching sourcedMatters7/freshSourcedMatters7/medianDaysEventToAdded (baseline 50/41/5.0) for 7 days to confirm this doesn't regress the pipeline that got the goal on track.
