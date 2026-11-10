@@ -13524,6 +13524,48 @@ const RELAW_DATA = {
         { when: "March 2025", label: "First Citizens Community Bank files complaint for confessed judgment after default" },
         { when: "November 9, 2026", label: "Superior Court of Pennsylvania affirms denial of borrower's motion to strike the confessed judgment", current: true }
       ]
+    },
+    {
+      id: "live-386",
+      addedDate: "2026-11-10",
+      property: { name: "Former Pontiac Cannabis Redevelopment Site", address: "Glenwood Avenue", city: "Pontiac", state: "MI" },
+      propertyType: "Industrial",
+      title: "Rubicon Real Estate Holdings, LLC v. City of Pontiac, Michigan (Supreme Court Ends Developer's Permitting-Delay Suit Over Collapsed Cannabis Project)",
+      brief: "The U.S. Supreme Court denied certiorari, leaving in place a Sixth Circuit ruling that Pontiac, Michigan's permitting delays on a 26.5-acre cannabis redevelopment, which cost the developer $45 million in financing, were not a constitutional violation.",
+      seoTitle: "Rubicon v. Pontiac: SCOTUS Ends Cannabis Permitting Suit",
+      seoDescription: "The Supreme Court denied certiorari, ending Rubicon Real Estate Holdings' $60M suit against Pontiac, Michigan over cannabis permitting delays.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-09",
+      jurisdiction: "Supreme Court of the United States",
+      state: "MI",
+      amount: "$60 million sought",
+      source: "live",
+      sourceUrl: "https://www.supremecourt.gov/orders/courtorders/110926zor_ap6c.pdf",
+      documentUrl: "https://www.courtlistener.com/opinion/10622431/rubicon-real-estate-holdings-llc-v-pontiac-city-of/",
+      documentLabel: "Read the Sixth Circuit opinion",
+      summary: "The U.S. Supreme Court, in its November 9, 2026 order list, denied certiorari in Rubicon Real Estate Holdings, LLC v. City of Pontiac, Michigan, leaving intact a published Sixth Circuit opinion that affirmed summary judgment for the city. Rubicon had sued Pontiac and its clerk in January 2023, alleging nearly four years of permitting delay on a planned $45 million medical-marijuana cultivation and processing redevelopment of a roughly 26.5-acre site caused its construction lender to withdraw financing, and seeking about $60 million in damages under Section 1983 and related constitutional theories.",
+      significance: "The denial closes out, at the highest level, a recurring fact pattern for cannabis and other use-restricted commercial redevelopment: courts treat ordinary municipal permitting delay, even when it is severe enough to collapse a project's financing, as discretionary bureaucratic process rather than a federal civil-rights violation absent concrete evidence of discriminatory or retaliatory intent. It is a signal to developers and lenders on politically sensitive land uses to price permitting-timeline risk into deal structures rather than count on a later constitutional claim to shift that risk back onto the municipality.",
+      body: [
+        "On November 9, 2026, the Supreme Court denied certiorari in Rubicon Real Estate Holdings, LLC v. City of Pontiac, Michigan, closing out a dispute that began in January 2023 and traced back to a derelict, roughly 26.5-acre parcel on Glenwood Avenue that Rubicon had planned to redevelop into a medical marijuana cultivation and processing hub. The denial leaves intact a published June 18, 2026 opinion from a three-judge Sixth Circuit panel affirming summary judgment for the city, which in turn left standing a federal district court's earlier dismissal of Rubicon's entire case.",
+        "Rubicon's plan centered on converting the long-vacant site into licensed cannabis cultivation and processing facilities, a use Michigan law allows municipalities to permit but does not require them to fast-track. According to Rubicon's complaint, the Pontiac Planning Commission and City Council initially cooperated, approving a rezoning request for the property. But Rubicon alleged that over the following years, the city and its clerk dragged the permitting and licensing process out for nearly four years, and that the delay caused its construction lender to walk away from a committed $45 million loan needed to build out the facilities. Rubicon also alleged a retaliation angle: that city officials targeted its principal after he won an earlier, unrelated ruling against the city in 2021, including by pressuring a contractor to terminate a roughly $9.3 million contract connected to his design firm.",
+        "Rubicon and an affiliated design firm sued the City of Pontiac and its clerk in January 2023, first in Oakland County Circuit Court and then in federal court in the Eastern District of Michigan, seeking roughly $60 million in damages and fees. The complaint asserted that the city's conduct violated the Equal Protection and Due Process Clauses of the Fourteenth Amendment, along with First Amendment retaliation and Fifth Amendment claims, framing years of permitting delay as intentional, targeted government action rather than ordinary municipal slowness. The federal district court rejected that framing, granting the city's motion for summary judgment on the ground that the record did not establish a triable issue that the project's collapse resulted from a constitutional violation rather than discretionary, if slow-moving, bureaucratic process.",
+        "The Sixth Circuit's June 2026 opinion affirmed that result, holding that without evidence a city singled out a specific applicant for different treatment than similarly situated developers, or that officials acted for a constitutionally impermissible reason, a slow or frustrating approval process is not itself a due process or equal protection violation, even when the financial consequences for the developer are severe. Rubicon's September 2026 petition asking the Supreme Court to take up the case did not persuade the justices to intervene, and the November 9 order denying certiorari makes the Sixth Circuit's holding the final word in the litigation.",
+        "For developers and lenders financing cannabis, cultivation, or other use-restricted commercial redevelopment projects that depend on discretionary municipal sign-off, the case is a reminder of how structurally difficult it is to convert a costly permitting delay into a federal constitutional claim, and a prompt to price that permitting-timeline risk into loan structures and term sheets up front, document any specific instances of disparate treatment contemporaneously, and consider financing patient enough to tolerate delay on politically contested land uses rather than counting on a court to later redistribute that risk back onto the municipality."
+      ],
+      judge: null,
+      parties: [
+        { name: "Rubicon Real Estate Holdings, LLC", role: "Petitioner/Plaintiff" },
+        { name: "City of Pontiac, Michigan", role: "Respondent/Defendant" }
+      ],
+      amountUsd: 60000000,
+      amountBasis: "damages sought",
+      tags: ["zoning", "cannabis", "michigan", "section-1983", "scotus"],
+      timeline: [
+        { when: "January 2023", label: "Rubicon Real Estate Holdings sues City of Pontiac and its clerk, seeking roughly $60 million over permitting delays" },
+        { when: "June 18, 2026", label: "Sixth Circuit affirms summary judgment for the city" },
+        { when: "November 9, 2026", label: "U.S. Supreme Court denies certiorari, ending the case", current: true }
+      ]
     }
   ],
 
