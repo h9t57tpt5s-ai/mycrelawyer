@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-11-10T15:41:49+00:00",
- "pagesChecked": 851,
+ "generatedAt": "2026-11-10T20:59:08+00:00",
+ "pagesChecked": 857,
  "pagesByFolder": {
   "root": 224,
-  "matters": 326,
+  "matters": 330,
   "chapter-11": 181,
-  "federal-cases": 120
+  "federal-cases": 122
  },
  "summary": {
   "zeroStatCounters": 0,
@@ -18,7 +18,7 @@
   "weakDescription": 2,
   "missingCanonical": 0,
   "duplicateTitles": 0,
-  "orphanPages": 2,
+  "orphanPages": 0,
   "missingFromSitemap": 0,
   "sitemapUrlsWithoutFile": 0,
   "imagesWithoutAlt": 0,
@@ -31,9 +31,9 @@
   "ch11Petitions": 181,
   "newestCh11Petition": "2026-11-09",
   "daysSinceNewestCh11": 1,
-  "federalSuits": 120,
-  "newestFederalSuit": "2026-11-09",
-  "daysSinceNewestSuit": 1
+  "federalSuits": 122,
+  "newestFederalSuit": "2026-11-10",
+  "daysSinceNewestSuit": 0
  },
  "findings": {
   "zeroStatCounters": [],
@@ -65,7 +65,7 @@
    {
     "page": "litigation.html",
     "chars": 77,
-    "title": "Commercial Real Estate Litigation Tracker: 326 Lawsuits & Rulings \u2014 CREdocket"
+    "title": "Commercial Real Estate Litigation Tracker: 330 Lawsuits & Rulings \u2014 CREdocket"
    },
    {
     "page": "state-court-watch.html",
@@ -94,10 +94,7 @@
   ],
   "missingCanonical": [],
   "duplicateTitles": {},
-  "orphanPages": [
-   "judge-andre-b-mathis.html",
-   "judge-maria-c-mclaughlin.html"
-  ],
+  "orphanPages": [],
   "missingFromSitemap": [],
   "sitemapUrlsWithoutFile": [],
   "imagesWithoutAlt": [],
