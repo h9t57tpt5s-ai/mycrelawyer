@@ -1564,7 +1564,7 @@
         "ops/improvement-log.json",
         "ops/improvement-playbook.md"
       ],
-      "commit": "PENDING",
+      "commit": "3b8329b89704f5d73a14e2a5c5a51db7ad3505d7",
       "metric": "ops/metrics/goals.json news.metrics.leadsToMattersRatio7 (new); re-judge G23/imp-063's leadsToMattersTotal/leadsReviewedTotal baseline using this instead",
       "window": "7 days",
       "baseline": {
