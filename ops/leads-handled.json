@@ -1981,8 +1981,8 @@
    "action": "skipped: no coverage found explaining the filing, property type unconfirmed"
   },
   "petition:https://www.courtlistener.com/docket/75088646/tcp-real-estate-holdings-llc/": {
-   "at": "2026-11-09",
-   "action": "skipped: no coverage found explaining the filing"
+   "at": "2026-11-10",
+   "action": "skipped: no coverage found explaining the filing (searched TCP Real Estate Holdings LLC specifically; closest hits were unrelated, older NJ real estate Ch. 11 filings from 2024-2025)"
   },
   "https://www.courtlistener.com/docket/75092499/rockefeller-photos-llc-v-selinsgrove-hotel-inc/": {
    "at": "2026-11-09",
@@ -2003,6 +2003,30 @@
   "opinion:11057837": {
    "at": "2026-11-09",
    "action": "matter live-382"
+  },
+  "opinion:11059054": {
+   "at": "2026-11-10",
+   "action": "skipped: individual construction-worker injury suit (Logrono v. City of New York) against City/Riverbay Corp/Xinos Construction under Labor Law 241(6), not a commercial real estate business dispute on its face"
+  },
+  "opinion:11059007": {
+   "at": "2026-11-10",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read (U.S. Bank Trust v. Diallo, matchedTerms exactly foreclos+mortgage, individual defendant)"
+  },
+  "opinion:11058959": {
+   "at": "2026-11-10",
+   "action": "matter live-388"
+  },
+  "opinion:11058438": {
+   "at": "2026-11-10",
+   "action": "matter live-387"
+  },
+  "https://www.courtlistener.com/docket/75097037/web-water-development-association-inc-v-agc-chemicals-americas-inc/": {
+   "at": "2026-11-10",
+   "action": "skipped: environmental PFAS-type contamination suit by a water utility association against a chemicals manufacturer, not commercial real estate on its face"
+  },
+  "https://www.courtlistener.com/docket/75097390/the-property-maintenance-group-llc-v-township-of-maplewood/": {
+   "at": "2026-11-10",
+   "action": "skipped: no coverage found explaining the filing (same-day filing, no named major player)"
   }
  }
 }

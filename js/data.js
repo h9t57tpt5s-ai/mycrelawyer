@@ -13566,6 +13566,88 @@ const RELAW_DATA = {
         { when: "June 18, 2026", label: "Sixth Circuit affirms summary judgment for the city" },
         { when: "November 9, 2026", label: "U.S. Supreme Court denies certiorari, ending the case", current: true }
       ]
+    },
+    {
+      id: "live-387",
+      addedDate: "2026-11-10",
+      featured: true,
+      property: { name: "Bangor Plaza", address: "Bangor Plaza", city: "Washington Township", state: "PA" },
+      propertyType: "Retail",
+      title: "Bluetriton Brands, Inc. v. Washington Township Zoning Hearing Board and Weis Markets, Inc. (Pennsylvania Court Splits on Shopping Center Gas Station Fight)",
+      brief: "Pennsylvania's Commonwealth Court reversed a trial court's site-plan ruling but remanded Bluetriton Brands' groundwater-contamination challenge to Weis Markets' proposed Bangor Plaza gas station, leaving the special exception unresolved.",
+      seoTitle: "Bluetriton v. Weis Markets: PA Zoning Fight Over Gas Station",
+      seoDescription: "Commonwealth Court partly reverses, partly remands Bluetriton Brands' challenge to Weis Markets' gas station proposal at Bangor Plaza in Pennsylvania.",
+      category: "zoning-land-use",
+      status: "appeal",
+      date: "2026-11-10",
+      jurisdiction: "Commonwealth Court of Pennsylvania",
+      state: "PA",
+      amount: "No dollar figure stated; dispute over adding a fuel station to a 20.3-acre shopping center",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11058438/bluetriton-brands-inc-v-washington-twp-zhb-and-weis-markets-inc/",
+      documentUrl: "https://storage.courtlistener.com/pdf/2026/11/10/bluetriton_brands_inc._v._washington_twp._zhb_and_weis_markets_inc..pdf",
+      documentLabel: "Read the official opinion",
+      summary: "The Commonwealth Court of Pennsylvania reversed a Northampton County trial court's holding that Weis Markets needed to submit a site plan before adding a fuel station to its Bangor Plaza supermarket, but remanded the case because the trial court never addressed all of objector Bluetriton Brands' arguments against the Zoning Hearing Board's grant of a special exception for the project. Bluetriton, which operates a spring-water extraction business on parcels adjoining and downstream of the site, presented hydrogeology and petroleum-storage expert testimony that the fuel station could contaminate the aquifer feeding its Deer Park brand's Greenwaltz Spring source.",
+      significance: "The decision shows that a favorable zoning board approval does not insulate a shopping-center use expansion from a well-resourced neighboring business's environmental objection, and that an ambiguous local ordinance can leave a site-plan-versus-special-exception approval unresolved for years even after an appellate win on one issue. It is also a reminder that a chain's compliance history at other locations can become part of the evidentiary record on whether a proposed use poses a genuine risk at a new site.",
+      body: [
+        "Weis Markets, Inc. operates a grocery store under a lease at Bangor Plaza, a 20.3-acre planned development within Washington Township's Commercial District in Northampton County, Pennsylvania. In 2022, Weis applied to the Township's Zoning Hearing Board for a special exception to add a Gas-N-Go fuel station, with six fueling positions under a canopy, on a pad previously approved for a now-vacant bank branch. The Board approved the application in February 2023, over the objection of Bluetriton Brands, Inc., which owns the Deer Park spring water brand and operates a commercial water-extraction business on fifteen parcels in the Township, several of which directly adjoin the Bangor Plaza site and lie downstream of it.",
+        "Bluetriton's opposition rested on more than an ordinary neighbor's land-use objection. Through a licensed hydrogeologist and a petroleum-storage-systems expert, Bluetriton presented evidence that surface and groundwater flow southward from the Weis property toward the Greenwaltz Spring, the primary source for its Deer Park bottling operation, and that the fuel station's planned effluent discharge into a stormwater basin forming part of that same flow path created a meaningful risk of gasoline contamination. Its expert also cited Pennsylvania Department of Environmental Protection records showing that roughly half of Weis's existing Gas-N-Go locations statewide had drawn DEP notices of violation for storage-tank compliance failures, including undetected releases and inadequate spill controls.",
+        "The Court of Common Pleas of Northampton County sided with Bluetriton on appeal and reversed both the Board's site-plan approval and its grant of the special exception. Weis then appealed to the Commonwealth Court, arguing that no special exception was required at all because a fuel station is permitted by right in the Commercial District, that no site plan was required given ambiguous language in the Township's zoning and subdivision ordinances, and that even if a special exception were required, the ordinance set no specific standards for the use, so nothing shifted the evidentiary burden to Weis in the first place.",
+        "Writing for a unanimous panel, President Judge Renée Cohn Jubelirer agreed with Weis on the narrower site-plan question, holding the ordinance's language on when a site plan must be submitted was genuinely ambiguous and that Weis did not need to submit one as a precondition to proceeding. The court declined to resolve the special-exception question on the merits, however, because the trial court's order had not addressed all of the arguments Bluetriton raised against the Board's grant of the special exception, and remanded for the Court of Common Pleas to issue a new opinion reaching those remaining arguments.",
+        "The upshot is that retailers and shopping-center owners adding a new use to an existing commercial development should check a local ordinance's site-plan and special-exception provisions independently rather than assume one tracks the other, since Weis needed four years and two levels of appellate review just to resolve the site-plan half of its application. A neighboring business with a genuine, quantifiable property interest, here a groundwater source feeding a national beverage brand, can build an evidentiary record sophisticated enough to survive a favorable board decision and prevail at the trial-court level, and a chain's regulatory compliance record at its other locations can end up as evidence of risk at a new site. Because the Commonwealth Court remanded rather than deciding the special-exception question outright, a partial appellate win on one zoning issue can still leave the underlying approval, and the carrying costs of the vacant pad in the meantime, unresolved for years."
+      ],
+      judge: "Renée Cohn Jubelirer",
+      parties: [
+        { name: "Bluetriton Brands, Inc.", role: "Objector/Appellee" },
+        { name: "Weis Markets, Inc.", role: "Appellant/Applicant" },
+        { name: "Washington Township Zoning Hearing Board", role: "Appellee" }
+      ],
+      amountUsd: null,
+      tags: ["zoning", "special-exception", "shopping-center", "groundwater", "pennsylvania"],
+      timeline: [
+        { when: "June 17, 2022", label: "Weis Markets applies for a special exception to add a Gas-N-Go fuel station at Bangor Plaza" },
+        { when: "February 16, 2023", label: "Zoning Hearing Board approves the special exception and site plan" },
+        { when: "April 3, 2025", label: "Court of Common Pleas of Northampton County reverses the Board's approvals" },
+        { when: "November 10, 2026", label: "Commonwealth Court reverses on the site-plan issue but remands the special-exception question for further proceedings", current: true }
+      ]
+    },
+    {
+      id: "live-388",
+      addedDate: "2026-11-10",
+      title: "The City of Colonial Heights, Virginia v. Alpene Land, LLC (Virginia Appeals Court Limits Retroactive Tax Penalties on Delinquent Commercial Land)",
+      brief: "The Court of Appeals of Virginia held a city may collect default statutory interest and penalties on delinquent commercial real estate taxes even when its own ordinance is defective, but can't apply a newly passed penalty ordinance retroactively.",
+      seoTitle: "Colonial Heights v. Alpene Land: VA Tax Penalty Ruling",
+      seoDescription: "Virginia's Court of Appeals limits a city's bid to retroactively collect tax penalties and interest on delinquent commercial real estate.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-10",
+      jurisdiction: "Court of Appeals of Virginia",
+      state: "VA",
+      amount: "Over $65,000 in delinquent real estate taxes across nine tax years (2016-2024)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11058959/the-city-of-colonial-heights-virginia-v-alpene-land-llc/",
+      documentUrl: "https://storage.courtlistener.com/pdf/2026/11/10/the_city_of_colonial_heights_virginia_v._alpene_land_llc.pdf",
+      documentLabel: "Read the official opinion",
+      summary: "The Court of Appeals of Virginia held that Colonial Heights could collect delinquent real estate tax interest and penalties on commercial parcels owned by Alpene Land, LLC and Barker Investment Corporation under Virginia's statewide default penalty and interest rates, even though the circuit court had found the City's own local penalty ordinance ineffective. But the court agreed with the circuit court that a new penalty ordinance the City passed in August 2024, while the tax-sale litigation was pending, could not be applied retroactively to taxes already delinquent before it was enacted.",
+      significance: "The ruling gives commercial landowners facing a municipal tax-sale action a two-sided answer: a defective local penalty ordinance will not let a locality escape interest and penalties altogether, since state default rates fill the gap, but a locality cannot respond to a ruling exposing that defect by passing a new ordinance and reaching backward to increase what is already owed on delinquent years.",
+      body: [
+        "The City of Colonial Heights brought three judicial tax-sale actions under Virginia Code Section 58.1-3965 against commercial landowners Alpene Land, LLC and Barker Investment Corporation, seeking the sale of several parcels over more than $65,000 in real estate taxes delinquent across nine tax years, 2016 through 2024. After the owners sought to redeem the properties by paying into court the amount they argued was actually due, a dispute arose over whether the City's existing penalty-and-interest ordinance, City Code Section 258-13, was valid. The circuit court held the ordinance 'enacts nothing' and that the City therefore had no authority to collect penalties or interest at all.",
+        "While that ruling was pending final order, the City passed Ordinance No. 24-13, setting a flat 10 percent penalty and 10 percent annual interest rate and declaring the new rate retroactive to any real estate taxes due on or after May 15, 1992. The circuit court held the new ordinance could not be applied retroactively, reasoning under Virginia's Dillon Rule that the General Assembly had not delegated the City authority to impose penalties and interest on already-delinquent taxes after the fact.",
+        "The Court of Appeals reversed in part and affirmed in part. It held the circuit court was wrong to conclude the City could collect no interest or penalties at all: even with the local ordinance defective, Virginia Code Sections 58.1-3915 and 58.1-3918 set statewide default penalty and interest rates that apply to delinquent real estate taxes regardless of whether a locality's own ordinance validly sets its own rate. But the court agreed with the circuit court that the City's August 2024 ordinance could not be applied retroactively to taxes already delinquent before its passage, affirming that portion of the ruling.",
+        "For commercial owners litigating a tax-sale or redemption dispute over a technical defect in a local penalty ordinance, the case means a locality's drafting error will not eliminate interest and penalties outright, since the state's own default rate fills the gap, but it also caps how far a locality can reach backward once litigation exposes that error: a newly enacted local ordinance passed in response cannot retroactively increase what is owed on years already delinquent before it took effect."
+      ],
+      judge: "Doris Henderson Causey",
+      parties: [
+        { name: "City of Colonial Heights, Virginia", role: "Plaintiff/Appellant" },
+        { name: "Alpene Land, LLC", role: "Defendant/Appellee" },
+        { name: "Barker Investment Corporation", role: "Defendant/Appellee" }
+      ],
+      amountUsd: null,
+      tags: ["real-property-tax", "tax-sale", "dillon-rule", "virginia", "delinquent-taxes"],
+      timeline: [
+        { when: "December 23, 2024", label: "Circuit Court of the City of Colonial Heights enters final order limiting the City's tax-penalty authority" },
+        { when: "November 10, 2026", label: "Court of Appeals of Virginia affirms in part, reverses in part, holding state default penalty rates apply but the City's 2024 ordinance cannot apply retroactively", current: true }
+      ]
     }
   ],
 
@@ -14775,6 +14857,14 @@ const RELAW_DATA = {
       court: "U.S. Court of Appeals for the Eighth Circuit",
       background: "Appointed by President Trump in 2018, confirmed by a tie-breaking vote from Vice President Mike Pence, after serving as general counsel and deputy chief of staff to U.S. Senator Mike Rounds. Previously an assistant U.S. attorney and law clerk to Judge Roger Wollman of the Eighth Circuit.",
       bioUrl: "https://www.fjc.gov/history/judges/kobes-jonathan-allen"
+    },
+    {
+      name: "Renée Cohn Jubelirer",
+      slug: "renee-cohn-jubelirer",
+      title: "President Judge — authored the panel's memorandum opinion",
+      court: "Commonwealth Court of Pennsylvania",
+      background: "Elected to the Commonwealth Court in 2001 and retained in 2011 and 2021; elected by her colleagues as President Judge effective January 2022, succeeding P. Kevin Brobson. Earlier served as a South Whitehall Township commissioner in Lehigh County and practiced law in Chicago. Holds a B.A. from Penn State, a J.D. from Northwestern University, and an LL.M. in Judicial Studies from Duke University.",
+      bioUrl: "https://www.pacourts.us/courts/commonwealth-court-judges/judge-renee-cohn-jubelirer"
     }
   ],
 
