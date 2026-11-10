@@ -1,7 +1,18 @@
 {
- "updatedAt": "2026-11-09T22:45:57+00:00",
+ "updatedAt": "2026-11-10T04:16:59+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "1519 Project llc",
+   "court": "United States Bankruptcy Court, C.D. California",
+   "courtId": "cacb",
+   "docketNumber": "2:26-bk-21349",
+   "dateFiled": "2026-11-09",
+   "docketUrl": "https://www.courtlistener.com/docket/75094150/1519-project-llc/",
+   "docketId": 75094150,
+   "slug": "1519-project-llc-cacb-2-26-bk-21349",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "TCP Real Estate Holdings, LLC",
    "court": "United States Bankruptcy Court, D. New Jersey",
