@@ -1247,7 +1247,16 @@
         "medianDaysEventToAdded": 2.5
       },
       "checkAfter": "2026-11-10",
-      "status": "watching"
+      "status": "no clear effect",
+      "verdict": {
+        "date": "2026-11-10",
+        "value": {
+          "sourcedMatters7": 19,
+          "freshSourcedMatters7": 15,
+          "medianDaysEventToAdded": 2.0
+        },
+        "note": "sourcedMatters7 30->19 (-36.7%) and freshSourcedMatters7 20->15 (-25%) both clear the threshold, medianDaysEventToAdded improved 2.5->2.0; day-by-day reconstruction from js/data.js's own addedDate field (same window definition goal_scoreboard.py uses, no API spend) shows a steady decline from ~28-32 in late October to 19-20 now, but it was already underway before this change shipped (2026-11-03) and ops/leads-handled.json has zero leads matching this guidance's own generic-financing-term pattern since the day it was written -- so the decline isn't attributable to the guidance. Tallied the last week of ops/leads-handled.json instead: the real driver is a heavier-than-usual SEC 10-Q/10-K quarterly wave (filed 2026-11-06/07, see G23) plus a run of ordinary bare-docket/residential-foreclosure skips, not a new miss shape. Still well above target (sourcedMatters7 10, freshSourcedMatters7 7) -- news stays on track. Not reverted."
+      }
     },
     {
       "id": "imp-053",
@@ -1533,6 +1542,37 @@
         "brokenLinks": 0
       },
       "checkAfter": "2026-11-10",
+      "status": "helped",
+      "verdict": {
+        "date": "2026-11-10",
+        "value": {
+          "orphanPages": 0,
+          "missingFromSitemap": 0,
+          "brokenLinks": 0
+        },
+        "note": "Live site_audit.py confirms orphanPages/missingFromSitemap/brokenLinks all still 0 the next day, and the prerender pipeline (gh run list --workflow=prerender.yml) has kept succeeding on every run since (several 'Prerender: bake' commits overnight, none failed)."
+      }
+    },
+    {
+      "id": "imp-065",
+      "date": "2026-11-10",
+      "track": "news",
+      "title": "Measurement fix: a real trailing-7-day lead-to-matter rate, not the always-rising cumulative totals",
+      "why": "Judged the two entries due today first. imp-052 (news, no clear effect): sourcedMatters7 30->19 and freshSourcedMatters7 20->15 both clear the 25% threshold, but a day-by-day reconstruction from js/data.js's own addedDate field shows the decline was already underway before imp-052 shipped (2026-11-03) and ops/leads-handled.json has zero leads matching that guidance's own generic-financing-term pattern since -- not attributable to it, and both metrics remain well above target. imp-064 (audit, helped): site_audit.py confirms orphanPages/missingFromSitemap/brokenLinks all still 0 the next day and the prerender pipeline has kept succeeding since (no third G22 recurrence). Audit otherwise clean (pagesChecked 848; missingDescription 2 / weakDescription 2 / longTitle 7 unchanged, all already-explained). mostBehind was conversion/calculator/traffic/news; conversion (imp-062 till 2026-11-15, imp-056 till 2026-11-12; follows7 G17-diagnosed as not worth a retest) and calculator (imp-059 till 2026-11-14; finalRangeHitRate Jeff-gated, every results*/ directory unchanged in size, no new Jeff annotation since 2026-10-31) and traffic (imp-053 till 2026-11-11) were all still blocked -- but closing imp-052 left news's three main tracked metrics with no open watcher for the first time since 2026-11-03, so news took this run. Picked up imp-041's own 2026-11-05 'next time' instruction, never actually automated: leadsToMattersTotal/leadsReviewedTotal are since-inception counters that only ever grow, so any window's raw numbers look like improvement regardless of what that week actually did -- every verdict on them so far (imp-041, and today's own imp-052 check) had to hand-derive the real window rate from ops/leads-handled.json's 'at' field from scratch. Added leads_window_ratio() to scripts/goal_scoreboard.py: it reads each handled lead's own 'at' date, filters to the trailing 7 days, and publishes leadsReviewedWindow7/leadsToMattersWindow7/leadsToMattersRatio7 in goals.json's news metrics (today: 146/10/6.85%) -- additive only, the same pattern imp-055's bot_adjusted_week() already used for traffic/conversion, so TARGETS/status/gap/mostBehind and imp-063's own open baseline on the raw totals stay untouched and comparable. Verified the function's output against an independent by-hand tally of the same window (146 reviewed, 10 to matters) before trusting it. check_case_fields.py and site_audit.py both re-run clean, no count regressed; reverted this run's own regeneration of ops/metrics/goals.json before committing.",
+      "files": [
+        "scripts/goal_scoreboard.py",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "PENDING",
+      "metric": "ops/metrics/goals.json news.metrics.leadsToMattersRatio7 (new); re-judge G23/imp-063's leadsToMattersTotal/leadsReviewedTotal baseline using this instead",
+      "window": "7 days",
+      "baseline": {
+        "leadsReviewedWindow7": 146,
+        "leadsToMattersWindow7": 10,
+        "leadsToMattersRatio7": 0.0685
+      },
+      "checkAfter": "2026-11-23",
       "status": "watching"
     }
   ]

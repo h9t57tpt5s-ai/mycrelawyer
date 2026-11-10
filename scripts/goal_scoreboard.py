@@ -93,6 +93,25 @@ def load(path):
         return {}
 
 
+# leadsReviewedTotal/leadsToMattersTotal are since-inception counters that
+# only ever grow, so any window's raw totals always look like they
+# "improved" regardless of what actually happened that week (imp-041,
+# 2026-11-05, had to hand-derive the real window ratio to catch this).
+# Compute the trailing-N-day rate directly from each handled lead's own
+# "at" date instead, so a future verdict gets a real number for free.
+def leads_window_ratio(root, days=7):
+    handled = (load(root / "ops" / "leads-handled.json").get("handled") or {}).values()
+    cutoff = (TODAY - dt.timedelta(days=days)).isoformat()
+    window = [h for h in handled if (h.get("at") or "") >= cutoff]
+    reviewed = len(window)
+    to_matters = sum(1 for h in window if str(h.get("action", "")).startswith("matter"))
+    return {
+        "leadsReviewedWindow7": reviewed,
+        "leadsToMattersWindow7": to_matters,
+        "leadsToMattersRatio7": round(to_matters / reviewed, 4) if reviewed else None,
+    }
+
+
 def status(values, targets, lower_is_better=()):
     behind = []
     for k, t in targets.items():
@@ -147,7 +166,8 @@ def main():
             "medianDaysEventToAdded": statistics.median(lags) if lags else None,
             "leadsReviewedTotal": len(list(handled)),
             "leadsToMattersTotal": sum(1 for h in (load(ROOT / "ops" / "leads-handled.json").get("handled") or {}).values()
-                                       if str(h.get("action", "")).startswith("matter"))}
+                                       if str(h.get("action", "")).startswith("matter")),
+            **leads_window_ratio(ROOT)}
 
     bt = {}
     raw = (ROOT / "js" / "backtest-results-data.js").read_text() if (ROOT / "js" / "backtest-results-data.js").exists() else ""
