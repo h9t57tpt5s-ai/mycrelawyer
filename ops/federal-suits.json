@@ -1,7 +1,33 @@
 {
- "updatedAt": "2026-11-10T04:16:59+00:00",
+ "updatedAt": "2026-11-10T18:48:55+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "WEB WATER DEVELOPMENT ASSOCIATION INC. v. AGC CHEMICALS AMERICAS INC.",
+   "court": "District Court, D. South Carolina",
+   "courtId": "scd",
+   "docketNumber": "2:26-cv-05590",
+   "dateFiled": "2026-11-10",
+   "docketUrl": "https://www.courtlistener.com/docket/75097037/web-water-development-association-inc-v-agc-chemicals-americas-inc/",
+   "docketId": 75097037,
+   "suitNature": "",
+   "cause": "",
+   "slug": "web-water-development-association-inc-v-agc-chemicals-americas-inc-scd-2-26-cv-05590",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "THE PROPERTY MAINTENANCE GROUP LLC v. TOWNSHIP OF MAPLEWOOD",
+   "court": "District Court, D. New Jersey",
+   "courtId": "njd",
+   "docketNumber": "2:26-cv-14547",
+   "dateFiled": "2026-11-10",
+   "docketUrl": "https://www.courtlistener.com/docket/75097390/the-property-maintenance-group-llc-v-township-of-maplewood/",
+   "docketId": 75097390,
+   "suitNature": "",
+   "cause": "",
+   "slug": "the-property-maintenance-group-llc-v-township-of-maplewood-njd-2-26-cv-14547",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Rockefeller Photos, LLC v. Selinsgrove Hotel, Inc.",
    "court": "District Court, M.D. Pennsylvania",

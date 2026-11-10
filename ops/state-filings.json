@@ -1,7 +1,45 @@
 {
- "updatedAt": "2026-11-10T04:17:45+00:00",
+ "updatedAt": "2026-11-10T18:49:46+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-012043",
+   "caseType": "Commercial premises liability",
+   "dateFiled": "2026-11-09",
+   "caseName": "City of Tampa v. Frontier Florida, LLC",
+   "plaintiffs": [
+    "City of Tampa"
+   ],
+   "defendants": [
+    "Frontier Florida, LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-09",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261109.csv",
+   "slug": "city-of-tampa-v-frontier-florida-llc-fl-hillsborough-26-ca-012043"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-055990",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-09",
+   "caseName": "Burley Business Centers LLC v. Correa Millwork Corp, a Florida Corporation",
+   "plaintiffs": [
+    "Burley Business Centers LLC"
+   ],
+   "defendants": [
+    "Correa Millwork Corp, a Florida Corporation"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-09",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261109.csv",
+   "slug": "burley-business-centers-llc-v-correa-millwork-corp-a-florida-corporati-fl-hillsborough-26-cc-055990"
+  },
   {
    "source": "hillsborough_fl",
    "state": "FL",
