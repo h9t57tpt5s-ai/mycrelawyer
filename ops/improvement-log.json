@@ -1574,6 +1574,31 @@
       },
       "checkAfter": "2026-11-23",
       "status": "watching"
+    },
+    {
+      "id": "imp-066",
+      "date": "2026-11-10",
+      "track": "audit",
+      "title": "Fix: judge-andre-b-mathis.html / judge-maria-c-mclaughlin.html meta descriptions, third G22 recurrence, unstuck the prerender pipeline",
+      "why": "Real breakage found before any goal work (Step 3 rule 1): live site_audit.py showed orphanPages=2 (judge-andre-b-mathis.html, judge-maria-c-mclaughlin.html), both newly added by the digest's commits this morning (live-384/385, Judge Mathis's and Judge McLaughlin's rulings). `gh run list --workflow=prerender.yml` showed the prerender pipeline had actually failed twice today (42769147296 at 06:32 UTC, 42814670185 at 12:18 UTC), both the identical G22 \"cannot pull with rebase: You have unstaged changes\" failure already seen on imp-060 (2026-11-07) and imp-064 (2026-11-09) -- a third occurrence within 4 days. Root cause confirmed the same way as the prior two: both digest-authored judge pages quoted their matter's plain `title` field in their description/og/twitter tags instead of `seoTitle`, which prerender.ts's shortName() always prefers, and judge-*.html is still not in prerender.yml's git-add list (only company-*.html is), so prerender's rewrite of both pages stayed unstaged and failed every push since 06:32 -- blocking every new matter/judge/company page (live-383 through live-386, including the second failed run's own Rubicon matter) for 9+ hours. Fixed both pages' description tags by hand to match prerender.ts's actual output exactly, verified with a Node replica of shortName()/setHead()/clipText() showing zero diff across all 64 judge-*.html pages. Because the pipeline had been fully stuck since the first failure, judges.html's own queued update from that same blocked commit never landed either, which is what was actually orphaning the two pages (judges.html's A-Z list and its title/description judge count, both baked by prerender.ts, were still the pre-live-384/385 version) -- hand-updated judges.html's A-Z list (inserting both names in their correct alphabetical position) and its judge count (62 -> 64), verified byte-identical to prerender.ts's azList() output via the same Node replica. Committed and pushed (eccb8c8), then manually re-dispatched the workflow (`gh workflow run prerender.yml --ref main`, run 42848094639) to confirm it actually unblocks rather than just assuming -- it did: the catch-up \"Prerender: bake\" commit (f787ebd) landed within 3 minutes, built matters/live-383.html through live-386.html (which hadn't existed until then), and a live site_audit.py run afterward shows orphanPages/missingFromSitemap/brokenLinks all back to 0 (pagesChecked 851->855). Updated backlog G22 with this third recurrence and notified Jeff directly, per G22's own 2026-11-09 note that a third occurrence should be flagged loudly rather than patched quietly again. HTML tag-balance checked clean on all three hand-edited files before committing; check_case_fields.py and site_audit.py both re-run clean, no count regressed.",
+      "files": [
+        "judge-andre-b-mathis.html",
+        "judge-maria-c-mclaughlin.html",
+        "judges.html",
+        "ops/metrics/audit.json",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "eccb8c84d697fb8653a9247042b500ebd163ed2c",
+      "metric": "site_audit.py summary.orphanPages / summary.missingFromSitemap / summary.brokenLinks",
+      "window": "next day",
+      "baseline": {
+        "orphanPages": 2,
+        "missingFromSitemap": 0,
+        "brokenLinks": 0
+      },
+      "checkAfter": "2026-11-11",
+      "status": "watching"
     }
   ]
 }
