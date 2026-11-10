@@ -1,5 +1,57 @@
 {
  "handled": {
+  "opinion:11057997": {
+   "at": "2026-11-10",
+   "action": "skipped: residential elder-abuse/quiet-title dispute over a home (Todd v. Rocket Mortgage), individual parties, not CRE"
+  },
+  "opinion:11057834": {
+   "at": "2026-11-10",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read (US Bank Trust v. Holub, matchedTerms exactly foreclos+mortgage, individual defendant)"
+  },
+  "opinion:11057877": {
+   "at": "2026-11-10",
+   "action": "matter live-384"
+  },
+  "opinion:11057832": {
+   "at": "2026-11-10",
+   "action": "matter live-385"
+  },
+  "petition:https://www.courtlistener.com/docket/75094150/1519-project-llc/": {
+   "at": "2026-11-10",
+   "action": "skipped: no coverage found explaining the filing (no article names this entity at all)"
+  },
+  "https://www.courtlistener.com/docket/75092891/autozone-development-llc-v-frisco-station-llc/": {
+   "at": "2026-11-10",
+   "action": "skipped: no coverage found explaining the filing (Frisco Station LLC owns an AutoZone-anchored shopping center in Rogers, AR and is a serial litigant in this district, but no source discusses this specific case or its claims)"
+  },
+  "0001868159-26-000051:line-20260930.htm": {
+   "at": "2026-11-10",
+   "action": "matter live-383"
+  },
+  "0001541401-26-000037:esrt-20260930.htm": {
+   "at": "2026-11-10",
+   "action": "skipped: not a litigation disclosure, an already-resolved arbitration award ESRT paid in Feb 2026, no new development"
+  },
+  "0001553079-26-000011:esrt-20260930.htm": {
+   "at": "2026-11-10",
+   "action": "skipped: same already-resolved ESRT arbitration award as the ESRT 10-Q (ESRT OP LP co-filer), no new development"
+  },
+  "0001878897-26-000052:doug-20260930.htm": {
+   "at": "2026-11-10",
+   "action": "skipped: continuing disclosure of existing residential-brokerage-commission antitrust litigation (Gibson/March/Friedman/Umpa/Whaley/Boykin cases), no new development, and not commercial real estate"
+  },
+  "0001193125-26-453735:vmrk-20260930.htm": {
+   "at": "2026-11-10",
+   "action": "skipped: continuing disclosure of existing RealPage algorithmic-pricing multifamily antitrust litigation, no new development this filing"
+  },
+  "0001628280-26-072306:acre-20260930.htm": {
+   "at": "2026-11-10",
+   "action": "skipped: not a litigation disclosure, a 2024 deed-in-lieu-of-foreclosure/REO accounting note, no new development"
+  },
+  "0000877860-26-000223:q3_2026xsupplementalxfin.htm": {
+   "at": "2026-11-10",
+   "action": "skipped: not a litigation disclosure, an investor supplemental deck excerpt (garbled OCR), nothing to report"
+  },
   "petition:https://www.courtlistener.com/docket/75081862/652-grandview-ave-llc/": {
    "at": "2026-11-08",
    "action": "skipped: no coverage found explaining the filing (single-asset Brooklyn LLC named for address, only hit was an unrelated earlier 652 Grandview Ave LLC case from Dec 2025, not this docket)"

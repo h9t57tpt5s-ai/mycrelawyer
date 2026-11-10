@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-09",
+  lastUpdatedDate: "2026-11-10",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -13396,6 +13396,134 @@ const RELAW_DATA = {
         { when: "2025", label: "Circuit court dismisses the suit solely for lack of standing" },
         { when: "November 9, 2026", label: "Appellate Court of Illinois, First District, reverses and holds the unpaid-rent claim was validly assigned", current: true }
       ]
+    },
+    {
+      id: "live-383",
+      addedDate: "2026-11-10",
+      property: { name: "Lineage Boyle Heights Cold Storage Facility", address: "1400 S. Los Palos Street", city: "Los Angeles", state: "CA" },
+      propertyType: "Industrial",
+      title: "Lineage, Inc. v. Altus Power, Inc. (Cold-Storage REIT Sues Solar Contractor for Over $1 Billion Over Warehouse Fire)",
+      brief: "Lineage seeks over $1 billion from Altus Power and Pearce Services after a June 2026 fire destroyed its 500,000-square-foot Los Angeles cold-storage warehouse, alleging premature re-energization of rooftop solar panels.",
+      seoTitle: "Lineage v. Altus Power: $1B+ Suit Over LA Warehouse Fire",
+      seoDescription: "Lineage, Inc. seeks over $1 billion from Altus Power and Pearce Services after a solar-panel fire destroyed its Boyle Heights cold-storage warehouse.",
+      category: "premises-liability",
+      status: "filed",
+      date: "2026-09-10",
+      jurisdiction: "Superior Court of California, County of Los Angeles",
+      state: "CA",
+      amount: "$1 billion+",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/los-angeles/industrial/lineage-suing-solar-contractor-altus-power-boyle-heights-warehouse-fire",
+      summary: "Lineage, Inc., a publicly traded cold-storage REIT, disclosed in its Q3 2026 10-Q that it sued Altus Power, Inc., its subsidiary Los Palos Street Operating LLC, and contractor Pearce Services, LLC in Los Angeles County Superior Court over a June 17, 2026 fire that destroyed its roughly 500,000-square-foot cold-storage warehouse in the Boyle Heights neighborhood of Los Angeles. News coverage reports Lineage is seeking more than $1 billion, alleging the defendants prematurely re-energized rooftop solar panels against its explicit instructions, sparking the fire.",
+      significance: "The dispute is an early test of how liability will be allocated when a third-party solar vendor's equipment or maintenance work is blamed for destroying a host commercial building, a risk growing more common as industrial and warehouse owners add rooftop solar installed and operated by outside energy companies. It also shows how a single casualty event at a large-footprint, ammonia-refrigerated logistics facility can generate nine-figure-and-up exposure across insurance, vendor-liability, and neighboring-resident claims simultaneously.",
+      body: [
+        "Lineage, Inc., the publicly traded cold-storage and logistics real estate company, disclosed in its third-quarter 10-Q filed November 9, 2026, that it has sued Altus Power, Inc., its subsidiary Los Palos Street Operating LLC, and contractor Pearce Services, LLC in Los Angeles County Superior Court over a June 17, 2026 fire that destroyed a roughly 500,000-square-foot cold-storage warehouse on South Los Palos Street in the Boyle Heights neighborhood of Los Angeles. News coverage of the suit, filed around September 10, 2026, reports that Lineage is seeking more than $1 billion in damages, one of the larger property-casualty disputes to hit the commercial real estate and solar industries this year.",
+        "The underlying fire burned for roughly a week, prompted a state of emergency declaration from Governor Gavin Newsom and a local emergency declaration from Los Angeles Mayor Karen Bass, and at one point threatened a compromised ammonia refrigerant line at the facility, a serious hazard given ammonia's use as a cooling agent in industrial cold storage. The Los Angeles Fire Department's official cause finding remains undetermined, but investigators reportedly traced the blaze's origin to the vicinity of rooftop solar panels installed on the building.",
+        "According to reporting on the complaint, Lineage alleges that Altus Power and its installation contractor, Pearce Services, prematurely re-energized the rooftop solar array after maintenance work despite Lineage's explicit request that they wait for safety checks to be completed first. The suit asserts negligence, negligent supervision, and health and safety code violations, along with breach of contract. Lineage's own 10-Q says the company cannot yet estimate total cleanup and restoration costs but that it is reasonably possible those costs will exceed its insurance claim limit, and that it is separately fielding customer claims for inventory losses and cooperating with federal, state and local investigators. The defendants have indicated they intend to contest the claims, and Los Palos Street Operating LLC has reportedly countered that Lineage, as the facility's tenant, bore responsibility for post-fire cleanup and debris removal under its lease.",
+        "The dispute sits at the intersection of two trends reshaping commercial real estate risk: the rapid buildout of rooftop and on-site solar on industrial and warehouse properties, often installed and operated by third-party energy companies rather than the property owner or tenant, and the outsized property and business-interruption exposure a single casualty event can create at a large-footprint logistics facility. Cold-storage warehouses carry particular risk profiles, including ammonia refrigerant systems, dense inventory concentrations, and specialized rebuild costs, that can turn an equipment failure into a nine-figure or larger loss within hours. The fight over this property is not limited to Lineage's suit against its vendors: hundreds of nearby residents have separately sued Lineage directly over the fire's effects on the surrounding community.",
+        "For commercial landlords, tenants and REITs weighing rooftop solar agreements with third-party energy developers, counsel involved in drafting and litigating these arrangements say the case is likely to sharpen the standard of care courts expect of solar installers and operators working on occupied commercial buildings, particularly those with heightened fire risks like cold storage and other industrial uses. It is also a reminder to put the allocation of post-casualty cleanup responsibility in writing: building owners, tenants and solar vendors hosting rooftop energy installations should spell out up front who controls the timing of re-energization and safety checks after service work, and who bears cleanup costs after a loss, rather than leaving those questions to be litigated only after a catastrophic event like this one."
+      ],
+      judge: null,
+      parties: [
+        { name: "Lineage, Inc.", role: "Plaintiff" },
+        { name: "Altus Power, Inc.", role: "Defendant" },
+        { name: "Pearce Services, LLC", role: "Defendant" },
+        { name: "Los Palos Street Operating LLC", role: "Defendant" }
+      ],
+      amountUsd: 1000000000,
+      amountBasis: "damages sought",
+      tags: ["cold-storage", "industrial", "solar", "fire", "premises-liability"],
+      timeline: [
+        { when: "June 17, 2026", label: "Fire breaks out at Lineage's Boyle Heights cold-storage warehouse, burning roughly a week" },
+        { when: "September 10, 2026", label: "Lineage files suit against Altus Power, Pearce Services and Los Palos Street Operating LLC in LA County Superior Court" },
+        { when: "November 9, 2026", label: "Lineage discloses the suit and seeks over $1 billion in damages in its Q3 2026 10-Q", current: true }
+      ]
+    },
+    {
+      id: "live-384",
+      addedDate: "2026-11-10",
+      featured: true,
+      property: { name: "GSL Holdings Industrial Park Parcel", city: "Lyon Township", state: "MI" },
+      propertyType: "Industrial",
+      title: "GSL Holdings, LLC v. Charter Township of Lyon, Michigan (Sixth Circuit Rejects Developer's Civil-Rights Claims Over Permitting Delay)",
+      brief: "The Sixth Circuit affirmed summary judgment against a Michigan developer that sued Lyon Township under Section 1983 after permitting delays over a septic-system requirement derailed its build-to-suit industrial lease with Moba Americas.",
+      seoTitle: "GSL Holdings v. Lyon Township: 6th Circuit Rejects Developer Suit",
+      seoDescription: "The Sixth Circuit rejected GSL Holdings' civil-rights claims against Lyon Township, Michigan over permitting delays that killed its Moba Americas lease.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-09",
+      jurisdiction: "U.S. Court of Appeals for the Sixth Circuit",
+      state: "MI",
+      amount: "No dollar figure stated",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11057877/gsl-holdings-llc-v-charter-twp-of-lyon-twp-mich/",
+      documentUrl: "https://storage.courtlistener.com/pdf/2026/11/09/gsl_holdings_llc_v._charter_twp._of_lyon_twp._mich..pdf",
+      documentLabel: "Read the official opinion",
+      summary: "The Sixth Circuit, in a published opinion by Circuit Judge Andre B. Mathis filed November 9, 2026, affirmed summary judgment against GSL Holdings, LLC, a Michigan developer that sued Lyon Township and its supervisor under 42 U.S.C. Section 1983 after permitting delays over an on-site septic system requirement prevented GSL from meeting a build-to-suit occupancy deadline, causing its tenant, Moba Americas, Inc., to terminate the lease. The court held the township's insistence on a completed septic permit and county lot-combination before issuing a building permit did not amount to an equal-protection, due-process, or First Amendment violation.",
+      significance: "The ruling shows how difficult it is for a commercial developer to convert a frustrating, deal-killing municipal permitting dispute into a viable federal civil-rights claim, even where a county-level prerequisite outside the municipality's direct control is what ultimately causes the delay. It is a caution to developers negotiating tight build-to-suit occupancy deadlines to account for every link in the approval chain, including requirements held by separate government bodies entirely.",
+      body: [
+        "The U.S. Court of Appeals for the Sixth Circuit, in a published opinion by Circuit Judge Andre B. Mathis filed November 9, 2026, affirmed summary judgment against a Michigan real estate developer that sued a township and its supervisor under 42 U.S.C. Section 1983 after permitting delays scuttled a build-to-suit industrial lease. The decision in GSL Holdings, LLC v. Charter Township of Lyon, Michigan illustrates how difficult it is for a commercial developer to convert a frustrating, deal-killing permitting dispute with a municipality into a viable federal constitutional claim.",
+        "GSL Holdings owns roughly six acres of land in an industrial park in Lyon Township, Michigan. In December 2020, GSL signed a lease with Moba Americas, Inc., a manufacturer serving the egg industry, agreeing to build a commercial facility on the parcel and have it ready for occupancy by October 1, 2021, a tight ten-month runway. The timeline was complicated from the outset: the property lacked access to the public sewer system, meaning GSL needed an on-site septic system and a corresponding permit from the Oakland County Health Division before construction could begin. The county had previously told GSL, in connection with an earlier 2018 permit application on the same property, that it would not grant a septic permit unless GSL combined the parcel with an adjacent lot, something GSL still had not done as of early 2021.",
+        "Lyon Township preliminarily approved GSL's site plan in January 2021, but under the township's ordinances a developer still needs a building permit, and separately, approval from county health authorities, before construction can commence. Over the following months, GSL secured engineering reviews and applied for foundation and shell permits, but had not yet applied for the septic permit or moved to combine the lots. According to the court's recitation of the record, a GSL representative grew impatient with the pace of the process and emailed the township's entire board of trustees directly in March 2021, a move the township's attorney flagged as potentially risking a violation of Michigan's Open Meetings Act. The township agreed to proceed with its building-plan review only if GSL signed a hold-harmless agreement releasing the township from liability tied to that review, which the parties executed. GSL submitted its septic permit application on March 9, 2021, but the county again declined to process it because GSL still had not combined the two lots.",
+        "The relationship deteriorated from there. GSL claims a township building coordinator told it in late March that foundation and shell permits were ready for pickup, but GSL never retrieved them; on April 5, the township informed GSL that, per the direction of Township Supervisor John Dolan, no building permit would issue until after a utility pre-construction meeting, which itself could not be scheduled until GSL obtained its septic permit. In a last attempt to salvage the project, the township in May 2021 proposed a second hold-harmless agreement that would have let GSL begin construction without the septic permit if GSL agreed to extend the public sanitary sewer to the site at its own cost. GSL called the proposal atypical and unduly burdensome, and the parties never signed it. The October 2021 occupancy deadline passed unmet, and GSL ultimately negotiated a termination of its lease with Moba rather than holding the tenant to its original commitment.",
+        "GSL sued the township and Dolan, asserting equal-protection, due-process, and First Amendment retaliation claims under Section 1983, along with a Michigan Freedom of Information Act claim, arguing the delays were the product of unconstitutional municipal conduct rather than ordinary permitting friction. The district court granted summary judgment to the defendants on the federal claims, and the Sixth Circuit affirmed, rejecting GSL's theories that the township's insistence on a completed septic permit and county lot-combination, or its reaction to GSL's direct outreach to the township board, amounted to a constitutional violation rather than ordinary, if costly, municipal process.",
+        "For commercial and industrial developers negotiating build-to-suit leases with tight occupancy deadlines, the lesson is to account for permitting dependencies that sit with a separate government body entirely, since delays there can doom a project timeline regardless of the municipality's own conduct. A hold-harmless agreement a municipality conditions further review on is not a mere formality and can foreclose later arguments that the review process itself caused a delay; direct communication with a governing board outside normal channels carries its own legal and relationship risk under state open-meetings laws; and absent evidence a delay was pretextual or discriminatory, courts are likely to treat the dispute as an ordinary land-use disagreement rather than a federal constitutional violation."
+      ],
+      judge: "Andre B. Mathis",
+      parties: [
+        { name: "GSL Holdings, LLC", role: "Plaintiff-Appellant" },
+        { name: "Charter Township of Lyon, Michigan", role: "Defendant-Appellee" }
+      ],
+      amountUsd: null,
+      tags: ["zoning", "permitting", "section-1983", "michigan", "industrial"],
+      timeline: [
+        { when: "December 2020", label: "GSL Holdings signs build-to-suit lease with Moba Americas, targeting October 2021 occupancy" },
+        { when: "2021", label: "Septic-permit and lot-combination delays prevent GSL from meeting the occupancy deadline; GSL and Moba terminate the lease" },
+        { when: "November 9, 2026", label: "Sixth Circuit affirms summary judgment for Lyon Township on GSL's Section 1983 claims", current: true }
+      ]
+    },
+    {
+      id: "live-385",
+      addedDate: "2026-11-10",
+      property: { name: "827 Spring Garden Street", address: "827 Spring Garden Street", city: "Philadelphia", state: "PA" },
+      propertyType: "Mixed-Use",
+      title: "First Citizens Community Bank v. SA Living Fund LLC (Pennsylvania Court Upholds $3.85 Million Confessed Judgment)",
+      brief: "The Superior Court of Pennsylvania affirmed denial of a borrower's and guarantors' bid to strike a bank's confessed judgment on a $3.85 million commercial mortgage loan secured by a Philadelphia property on Spring Garden Street.",
+      seoTitle: "SA Living Fund: PA Court Upholds $3.85M Confessed Judgment",
+      seoDescription: "Pennsylvania's Superior Court upheld First Citizens Community Bank's $3.85M confessed judgment against SA Living Fund and its guarantors.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-09",
+      jurisdiction: "Superior Court of Pennsylvania",
+      state: "PA",
+      amount: "$3.85 million",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11057832/first-citizens-community-bank-v-sa-living-fund/",
+      documentUrl: "https://storage.courtlistener.com/pdf/2026/11/09/first_citizens_community_bank_v._sa_living_fund.pdf",
+      documentLabel: "Read the official opinion",
+      summary: "The Superior Court of Pennsylvania, in a memorandum opinion by Judge Maria C. McLaughlin filed November 9, 2026, affirmed a Philadelphia trial court's denial of a borrower's and its guarantors' petition to strike or open a confessed judgment entered against them on a $3.85 million commercial mortgage loan secured by a property at 827 Spring Garden Street in Philadelphia. The court found the trial court had technically erred by relying on a later evidentiary record to evaluate the motion to strike, but held the error harmless because the bank's complaint, on its own terms, adequately alleged default and the amount due.",
+      significance: "The decision shows how much leverage a confession-of-judgment clause still carries in Pennsylvania commercial lending and how narrow the path to unwinding one remains: a motion to strike is evaluated strictly against the record as it existed when judgment was entered, and courts will overlook even a trial court's analytical misstep if the underlying complaint clears that bar. It is also a reminder that personal guaranties travel with every subsequent loan modification, since each modification independently included its own confession-of-judgment clause binding the guarantors.",
+      body: [
+        "The Superior Court of Pennsylvania, in a memorandum opinion by Judge Maria C. McLaughlin filed November 9, 2026, affirmed a Philadelphia trial court's denial of a borrower's and its guarantors' petition to strike or open a confessed judgment entered against them on a $3.85 million commercial mortgage loan. The decision in First Citizens Community Bank v. SA Living Fund LLC underscores how resilient confession-of-judgment clauses remain in Pennsylvania commercial lending, even when a reviewing court finds procedural fault with how the trial court reached its conclusion.",
+        "The loan traces to July 2022, when SA Living Fund LLC borrowed $3.85 million for an 18-month term, secured by mortgaged premises at 827 Spring Garden Street in Philadelphia. Individual guarantors Craig L. Grossman and Aaron Z. Cohen each personally guaranteed the loan under a Guaranty and Suretyship Agreement which, like the loan documents themselves, contained a confession-of-judgment provision allowing the lender to obtain judgment against the borrower and guarantors without a trial if a default occurred. The lender, First Citizens Community Bank, is the successor by merger to Huntingdon Valley Bank, the loan's original lender.",
+        "The loan was modified twice. In March 2024, the parties extended the maturity date by one month in exchange for an extension fee, with that first modification likewise containing a confession-of-judgment clause. In November 2024, the parties executed a second modification: SA Living Fund agreed to pay $103,433.33 to bring the loan current and to prepay an additional year of interest, in exchange for which the bank extended the maturity date to October 2029, subject to its right to call the loan sooner. That second modification also included a confession-of-judgment provision. According to the bank, SA Living Fund never fully made good on the payment terms of that second modification, leaving an outstanding balance of $18,463.33 on the modification payment and a further $30,010.55 in principal and interest that came due January 1, 2025. The bank sent a default letter in January 2025 giving the borrower 15 days to cure, and when it did not, filed a complaint for confessed judgment in March 2025. The Philadelphia County prothonotary entered the confessed judgment as a ministerial act, without judicial review of its merits, the hallmark of how confession-of-judgment clauses operate in Pennsylvania.",
+        "SA Living Fund, Grossman, and Cohen petitioned to strike or open the judgment, arguing the bank's complaint was facially defective because it alleged default only in conclusory terms, without specifying what payments were missed, when, or in what amount, and that they had a meritorious defense because the bank's own damages calculations were materially erroneous, serious enough that the trial court itself had directed the bank to file a motion to reassess damages. The trial court denied the petition, finding that although the complaint was not heavy on detail, the record as a whole, including a January 2025 default letter introduced at the hearing, showed the borrower had not met its obligations under the second modification and had no factual basis for a defense.",
+        "On appeal, the Superior Court found the trial court had technically erred in its approach, since a motion to strike a confessed judgment may only be evaluated against the record that existed at the moment judgment was entered, not against later-submitted testimony and evidence offered in connection with the separate petition to open. The appellate panel held that error was harmless, because the bank's underlying complaint, assessed strictly on its own terms under Pennsylvania Rule of Civil Procedure 2952, adequately alleged a default and the amount due to support the confessed judgment, and it affirmed denial of the motion to strike.",
+        "For commercial lenders and borrowers, the case is a reminder of how much leverage a confession-of-judgment clause still carries in Pennsylvania commercial finance: a borrower challenging a confessed judgment on procedural grounds faces a demanding standard that looks only at the four corners of the complaint and record as they stood when judgment was entered, and a bare-bones default allegation paired with an itemized computation of amounts due can be enough to survive that challenge even if a trial court's own reasoning is later found flawed. The case also shows that personal guaranties executed alongside a commercial mortgage loan travel with every subsequent modification, since Grossman and Cohen remained on the hook as the loan's terms, timeline, and balance evolved under each new confession-of-judgment clause over more than two years."
+      ],
+      judge: "Maria C. McLaughlin",
+      parties: [
+        { name: "First Citizens Community Bank", role: "Appellee/Lender" },
+        { name: "SA Living Fund LLC", role: "Appellant/Borrower" }
+      ],
+      amountUsd: 3850000,
+      amountBasis: "loan",
+      tags: ["confessed-judgment", "commercial-mortgage", "guaranty", "pennsylvania", "philadelphia"],
+      timeline: [
+        { when: "July 2022", label: "SA Living Fund borrows $3.85 million secured by 827 Spring Garden Street, Philadelphia" },
+        { when: "March 2025", label: "First Citizens Community Bank files complaint for confessed judgment after default" },
+        { when: "November 9, 2026", label: "Superior Court of Pennsylvania affirms denial of borrower's motion to strike the confessed judgment", current: true }
+      ]
     }
   ],
 
@@ -13994,6 +14122,7 @@ const RELAW_DATA = {
     { jurisdiction: "3rd Circuit Court, Wayne County, Michigan", url: "https://www.3rdcc.org/" },
     { jurisdiction: "Philadelphia County Court of Common Pleas", url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/philadelphia-courts" },
     { jurisdiction: "Commonwealth Court of Pennsylvania", url: "https://www.pacourts.us/courts/commonwealth-court-judges" },
+    { jurisdiction: "Superior Court of Pennsylvania", url: "https://www.pacourts.us/courts/superior-court" },
     { jurisdiction: "Supreme Court of New Jersey", url: "https://www.njcourts.gov/courts/supreme" },
     { jurisdiction: "U.S. District Court, Southern District of New York", url: "https://www.nysd.uscourts.gov/" },
     { jurisdiction: "U.S. District Court, Northern District of Illinois", url: "https://www.ilnd.uscourts.gov/" },
@@ -14476,6 +14605,22 @@ const RELAW_DATA = {
       court: "Commonwealth Court of Pennsylvania",
       background: "Elected to the Commonwealth Court in 2021 and sworn in for a term beginning January 2022; previously a judge on the Philadelphia County Court of Common Pleas from 2002 to 2021. Holds a J.D. from North Carolina Central University School of Law and a B.A. from Duke University.",
       bioUrl: "https://www.pacourts.us/courts/commonwealth-court-judges/judge-lori-a-dumas"
+    },
+    {
+      name: "Andre B. Mathis",
+      slug: "andre-b-mathis",
+      title: "Circuit Judge — authored the panel opinion",
+      court: "U.S. Court of Appeals for the Sixth Circuit",
+      background: "Nominated by President Biden on November 18, 2021 and confirmed by the Senate on September 8, 2022, taking the seat vacated by Judge Bernice B. Donald. Previously a partner at Butler Snow LLP and, from 2007 to 2020, an attorney at Glankler Brown, PLLC in Memphis.",
+      bioUrl: "https://www.fjc.gov/history/judges/mathis-andre-bernard"
+    },
+    {
+      name: "Maria C. McLaughlin",
+      slug: "maria-c-mclaughlin",
+      title: "Judge — authored the panel's memorandum opinion",
+      court: "Superior Court of Pennsylvania",
+      background: "Elected to the Superior Court of Pennsylvania in November 2017 and sworn in January 2018, after serving as a judge on the Philadelphia County Court of Common Pleas, Family Division, following her 2011 election. Earlier in her career she was a Philadelphia Assistant District Attorney and later Chief Deputy District Attorney.",
+      bioUrl: "https://www.pacourts.us/courts/superior-court/superior-court-judges/judge-maria-mclaughlin"
     },
     {
       name: "Will Parker",
