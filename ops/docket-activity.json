@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-09T19:56:26+00:00",
+ "updatedAt": "2026-11-10T17:11:23+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 20,
+ "requestsUsed": 18,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -860,6 +860,13 @@
   "73578741": {
    "entries": [
     {
+     "date": "2026-11-09",
+     "number": 27,
+     "text": "Order on Motion for Extension of Time to File",
+     "url": "https://www.courtlistener.com/docket/73578741/27/keller-v-udr-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-06",
      "number": 26,
      "text": "Extension of Time to File",
@@ -907,13 +914,6 @@
      "text": "Dismiss for Failure to State a Claim",
      "url": "https://www.courtlistener.com/docket/73578741/18/keller-v-udr-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-30",
-     "number": 17,
-     "text": "Notice of Change of Address",
-     "url": "https://www.courtlistener.com/docket/73578741/17/keller-v-udr-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -923,7 +923,7 @@
    "docketNumber": "3:26-cv-03865",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
-   "lastEntryDate": "2026-11-06"
+   "lastEntryDate": "2026-11-09"
   },
   "73684397": {
    "entries": [
@@ -1347,6 +1347,13 @@
   "74850183": {
    "entries": [
     {
+     "date": "2026-11-09",
+     "number": 6,
+     "text": "Missing Document(s) Filed",
+     "url": "https://www.courtlistener.com/docket/74850183/6/new-flagler-development-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-09-28",
      "number": 5,
      "text": "Order on Motion for Joint Administration - multi case",
@@ -1389,10 +1396,24 @@
    "docketNumber": "26-20884",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74850183/new-flagler-development-llc/",
-   "lastEntryDate": "2026-09-28"
+   "lastEntryDate": "2026-11-09"
   },
   "74922581": {
    "entries": [
+    {
+     "date": "2026-11-10",
+     "number": 45,
+     "text": "List (witness/exhibit/generic)",
+     "url": "https://www.courtlistener.com/docket/74922581/45/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-10",
+     "number": null,
+     "text": "Meeting of creditors held",
+     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-11-09",
      "number": 44,
@@ -1434,20 +1455,6 @@
      "text": "Certificate of service",
      "url": "https://www.courtlistener.com/docket/74922581/38/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-02",
-     "number": 37,
-     "text": "Certificate of service",
-     "url": "https://www.courtlistener.com/docket/74922581/37/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-02",
-     "number": 36,
-     "text": "Certificate of service",
-     "url": "https://www.courtlistener.com/docket/74922581/36/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1457,7 +1464,7 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-11-09"
+   "lastEntryDate": "2026-11-10"
   },
   "74927117": {
    "entries": [
