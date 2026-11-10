@@ -837,7 +837,7 @@
   </url>
   <url>
     <loc>https://credocket.com/lawsuit-watch.html</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1047,7 +1047,7 @@
   </url>
   <url>
     <loc>https://credocket.com/state-court-watch.html</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1062,7 +1062,7 @@
   </url>
   <url>
     <loc>https://credocket.com/texas-foreclosures.html</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -3646,6 +3646,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/federal-cases/web-water-development-association-inc-v-agc-chemicals-americas-inc-scd-2-26-cv-05590.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/federal-cases/the-property-maintenance-group-llc-v-township-of-maplewood-njd-2-26-cv-14547.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/federal-cases/rockefeller-photos-llc-v-selinsgrove-hotel-inc-pamd-4-26-cv-03315.html</loc>
     <lastmod>2026-11-09</lastmod>
     <priority>0.5</priority>
@@ -4246,6 +4256,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/state-cases/city-of-tampa-v-frontier-florida-llc-fl-hillsborough-26-ca-012043.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/state-cases/burley-business-centers-llc-v-correa-millwork-corp-a-florida-corporati-fl-hillsborough-26-cc-055990.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/state-cases/pineywoods-capital-llc-v-711-se-10th-ave-llc-et-al-fl-hillsborough-26-ca-011981.html</loc>
     <lastmod>2026-11-06</lastmod>
     <priority>0.5</priority>
@@ -4756,6 +4776,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://credocket.com/properties/11909-tidwell-rd-houston-tx.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/properties/2010-emancipation-ave-houston-tx.html</loc>
     <lastmod>2026-11-09</lastmod>
     <priority>0.6</priority>
@@ -4798,6 +4823,11 @@
   <url>
     <loc>https://credocket.com/properties/6220-fairdale-ln-houston-tx.html</loc>
     <lastmod>2026-11-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/properties/6707-avenue-f-houston-tx.html</loc>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
