@@ -182,4 +182,82 @@ if (!exists("js/radar-geo.json") || Deno.args.includes("--geo")) {
   }).filter(Boolean);
   await Deno.writeTextFile("js/radar-geo.json", JSON.stringify({ width: W, height: H, source: "us-atlas 3.0.1 (U.S. Census Bureau cartographic boundaries), Albers USA", states }));
 }
+// ---------- homepage band (prerendered into index.html) ----------
+// Baked into the HTML between <!-- radar-band:start --> and
+// <!-- radar-band:end -->, so the homepage never shows zero counters
+// while scripts load.
+{
+  const today = new Date().toISOString().slice(0, 10);
+  const ago = (n: number) => new Date(Date.now() - n * 864e5).toISOString().slice(0, 10);
+  const money = (n: number) => n >= 1e9 ? `$${(n / 1e9).toFixed(1)}B` : n >= 1e6 ? `$${(n / 1e6).toFixed(n >= 1e8 ? 0 : 1)}M` : `$${Math.round(n / 1e3)}K`;
+  const h = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+  const fc = recs.filter((r) => r.kind === "foreclosure" && (r.future || "") >= today);
+  const cm = recs.filter((r) => r.kind === "cmbs" && r.date >= ago(30));
+  const ch = recs.filter((r) => r.kind === "bankruptcy" && r.date >= ago(30));
+  let hot = 0, banks = 0;
+  try {
+    const b = JSON.parse(await Deno.readTextFile("js/bank-cre.json")).banks as { eq: number | null; sh: number }[];
+    banks = b.length;
+    hot = b.filter((x) => (x.eq || 0) >= 300 && x.sh >= 3).length;
+  } catch { /* bank file missing: tile left out */ }
+  const sum = (rs: Rec[]) => rs.reduce((s, r) => s + (r.amount || 0), 0);
+  const tiles = [
+    { n: fc.length, l: "commercial properties posted for upcoming Texas foreclosure sales", a: sum(fc) ? `${money(sum(fc))} in original loans` : "", href: "distress-radar.html?kind=foreclosure&days=0" },
+    { n: cm.length, l: "CMBS loans in foreclosure, REO or bankruptcy in the last 30 days of trust reports", a: sum(cm) ? `${money(sum(cm))} in balances` : "", href: "distress-radar.html?kind=cmbs&days=30" },
+    { n: ch.length, l: "real estate Chapter 11 petitions in the last 30 days", a: "federal court records", href: "distress-radar.html?kind=bankruptcy&days=30" },
+    ...(banks ? [{ n: hot, l: `of ${banks} large banks are both CRE-concentrated and 3%+ noncurrent`, a: "FDIC Call Reports", href: "bank-cre-stress.html" }] : []),
+  ].filter((t) => t.n > 0);
+  const top = recs.filter((r) => ["cmbs", "foreclosure", "nyc"].includes(r.kind) && r.amount && (r.kind === "foreclosure" ? (r.future || "") >= today : r.date >= ago(45)))
+    .sort((a, b) => (b.amount || 0) - (a.amount || 0)).slice(0, 4);
+  const label: Record<string, string> = { cmbs: "CMBS", foreclosure: "Foreclosure", nyc: "NYC sale deed" };
+  const band = `<!-- radar-band:start -->
+<section class="section-tight radar-band" aria-labelledby="radar-band-h">
+  <style>
+    .radar-band { padding-block: 56px; background: linear-gradient(180deg, var(--bg), var(--surface)); border-block: 1px solid var(--border-soft); }
+    .rb-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px; }
+    .rb-live { font: 600 12px/1 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--redline); }
+    .rb-live::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--redline); margin-right: 8px; vertical-align: 0; }
+    .rb-head h2 { font-size: clamp(1.7rem, 3vw, 2.4rem); margin: 10px 0 0; max-width: 24ch; text-wrap: balance; }
+    .rb-ctas { display: flex; flex-wrap: wrap; gap: 10px; }
+    .rb-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 26px; }
+    .rb-tile { display: flex; flex-direction: column; gap: 6px; padding: 18px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--surface); color: inherit; text-decoration: none; transition: border-color .15s; }
+    .rb-tile:hover { border-color: var(--redline); }
+    .rb-n { font: 700 2.4rem/1 var(--font-display); font-variant-numeric: tabular-nums; color: var(--text-primary); }
+    .rb-l { font-size: 13.5px; line-height: 1.4; color: var(--text-secondary); }
+    .rb-a { font: 500 12px var(--font-mono); color: var(--redline); }
+    .rb-list { list-style: none; padding: 0; margin: 18px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0 24px; }
+    .rb-list li { padding: 12px 0; border-top: 1px solid var(--border-soft); display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: baseline; }
+    .rb-k { font: 700 10px/1 var(--font-mono); letter-spacing: .05em; text-transform: uppercase; color: var(--redline); white-space: nowrap; }
+    .rb-list a { font: 600 15px/1.35 var(--font-display); color: var(--text-primary); text-decoration: none; overflow-wrap: anywhere; }
+    .rb-list a:hover { color: var(--accent); text-decoration: underline; }
+    .rb-loc { display: block; font: 400 12.5px var(--font-body); color: var(--text-muted); }
+    .rb-amt { font: 700 15px var(--font-display); font-variant-numeric: tabular-nums; }
+  </style>
+  <div class="container">
+    <div class="rb-head">
+      <div>
+        <div class="rb-live">Distress Radar · updated ${h(new Date().toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }))}</div>
+        <h2 id="radar-band-h">Foreclosures, CMBS defaults and bankruptcies, read together every day.</h2>
+      </div>
+      <div class="rb-ctas">
+        <a class="btn btn-primary" href="distress-radar.html">Open the radar</a>
+        <a class="btn btn-ghost" href="distress-radar.html#alerts">Get alerts for your markets</a>
+      </div>
+    </div>
+    <div class="rb-tiles">
+${tiles.map((t) => `      <a class="rb-tile" href="${t.href}"><span class="rb-n">${t.n.toLocaleString("en-US")}</span><span class="rb-l">${h(t.l)}</span><span class="rb-a">${h(t.a)}</span></a>`).join("\n")}
+    </div>
+    <ul class="rb-list">
+${top.map((r) => `      <li><span class="rb-k">${label[r.kind]}</span><span><a href="${h(r.url)}">${h(r.title)}</a><span class="rb-loc">${h([r.city, r.state].filter(Boolean).join(", "))}${r.propertyType ? " · " + h(r.propertyType) : ""}</span></span><span class="rb-amt">${money(r.amount || 0)}</span></li>`).join("\n")}
+    </ul>
+  </div>
+</section>
+<!-- radar-band:end -->`;
+  try {
+    const idx = await Deno.readTextFile("index.html");
+    const re = /<!-- radar-band:start -->[\s\S]*?<!-- radar-band:end -->/;
+    if (re.test(idx) && tiles.length >= 2) await Deno.writeTextFile("index.html", idx.replace(re, band));
+  } catch { /* no homepage in this checkout */ }
+}
+
 console.log(`radar: ${recs.length} records, ${placed} placed on the map, ${lookups} new geocoder lookups`);

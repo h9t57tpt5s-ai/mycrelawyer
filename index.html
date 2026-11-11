@@ -216,6 +216,56 @@
   </div>
 </header>
 
+<!-- radar-band:start -->
+<section class="section-tight radar-band" aria-labelledby="radar-band-h">
+  <style>
+    .radar-band { padding-block: 56px; background: linear-gradient(180deg, var(--bg), var(--surface)); border-block: 1px solid var(--border-soft); }
+    .rb-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px; }
+    .rb-live { font: 600 12px/1 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--redline); }
+    .rb-live::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--redline); margin-right: 8px; vertical-align: 0; }
+    .rb-head h2 { font-size: clamp(1.7rem, 3vw, 2.4rem); margin: 10px 0 0; max-width: 24ch; text-wrap: balance; }
+    .rb-ctas { display: flex; flex-wrap: wrap; gap: 10px; }
+    .rb-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 26px; }
+    .rb-tile { display: flex; flex-direction: column; gap: 6px; padding: 18px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--surface); color: inherit; text-decoration: none; transition: border-color .15s; }
+    .rb-tile:hover { border-color: var(--redline); }
+    .rb-n { font: 700 2.4rem/1 var(--font-display); font-variant-numeric: tabular-nums; color: var(--text-primary); }
+    .rb-l { font-size: 13.5px; line-height: 1.4; color: var(--text-secondary); }
+    .rb-a { font: 500 12px var(--font-mono); color: var(--redline); }
+    .rb-list { list-style: none; padding: 0; margin: 18px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0 24px; }
+    .rb-list li { padding: 12px 0; border-top: 1px solid var(--border-soft); display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: baseline; }
+    .rb-k { font: 700 10px/1 var(--font-mono); letter-spacing: .05em; text-transform: uppercase; color: var(--redline); white-space: nowrap; }
+    .rb-list a { font: 600 15px/1.35 var(--font-display); color: var(--text-primary); text-decoration: none; overflow-wrap: anywhere; }
+    .rb-list a:hover { color: var(--accent); text-decoration: underline; }
+    .rb-loc { display: block; font: 400 12.5px var(--font-body); color: var(--text-muted); }
+    .rb-amt { font: 700 15px var(--font-display); font-variant-numeric: tabular-nums; }
+  </style>
+  <div class="container">
+    <div class="rb-head">
+      <div>
+        <div class="rb-live">Distress Radar · updated Nov 11, 2026</div>
+        <h2 id="radar-band-h">Foreclosures, CMBS defaults and bankruptcies, read together every day.</h2>
+      </div>
+      <div class="rb-ctas">
+        <a class="btn btn-primary" href="distress-radar.html">Open the radar</a>
+        <a class="btn btn-ghost" href="distress-radar.html#alerts">Get alerts for your markets</a>
+      </div>
+    </div>
+    <div class="rb-tiles">
+      <a class="rb-tile" href="distress-radar.html?kind=foreclosure&days=0"><span class="rb-n">19</span><span class="rb-l">commercial properties posted for upcoming Texas foreclosure sales</span><span class="rb-a">$93.3M in original loans</span></a>
+      <a class="rb-tile" href="distress-radar.html?kind=cmbs&days=30"><span class="rb-n">28</span><span class="rb-l">CMBS loans in foreclosure, REO or bankruptcy in the last 30 days of trust reports</span><span class="rb-a">$615M in balances</span></a>
+      <a class="rb-tile" href="distress-radar.html?kind=bankruptcy&days=30"><span class="rb-n">68</span><span class="rb-l">real estate Chapter 11 petitions in the last 30 days</span><span class="rb-a">federal court records</span></a>
+      <a class="rb-tile" href="bank-cre-stress.html"><span class="rb-n">13</span><span class="rb-l">of 999 large banks are both CRE-concentrated and 3%+ noncurrent</span><span class="rb-a">FDIC Call Reports</span></a>
+    </div>
+    <ul class="rb-list">
+      <li><span class="rb-k">CMBS</span><span><a href="/cmbs/bravern-office-commons-bellevue-wa-foreclosure-2026-10.html">Bravern Office Commons</a><span class="rb-loc">Bellevue, WA · Office</span></span><span class="rb-amt">$75.0M</span></li>
+      <li><span class="rb-k">CMBS</span><span><a href="/cmbs/rockridge-apartments-houston-tx-foreclosure-2026-09.html">Rockridge Apartments</a><span class="rb-loc">Houston, TX · Multifamily</span></span><span class="rb-amt">$54.0M</span></li>
+      <li><span class="rb-k">CMBS</span><span><a href="/cmbs/pin-oak-north-medical-office-bellaire-tx-foreclosure-2026-10.html">Pin Oak North Medical Office</a><span class="rb-loc">Bellaire, TX · Office</span></span><span class="rb-amt">$53.6M</span></li>
+      <li><span class="rb-k">Foreclosure</span><span><a href="/properties/8900-chimney-rock-rd-houston-tx.html">8900 Chimney Rock Rd</a><span class="rb-loc">Houston, TX · Multifamily</span></span><span class="rb-amt">$44.1M</span></li>
+    </ul>
+  </div>
+</section>
+<!-- radar-band:end -->
+
 <!-- ================= THIS WEEK (prerendered: scripts/prerender.ts) ================= -->
 <section class="section-tight this-week">
   <div class="container">
