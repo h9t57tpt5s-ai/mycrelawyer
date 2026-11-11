@@ -23,6 +23,32 @@ its TARGETS table):
    below). Pricing, plans, billing and Stripe are Jeff's alone; this goal is
    about the product.
 
+## Direction (Jeff, 2026-11-11): the CRE distress radar
+
+Jeff, 2026-11-11: "I want real progress on a marketable product ... features
+that are nowhere else." CREdocket is becoming the place to see commercial real
+estate distress first: foreclosure postings, CMBS defaults, real estate
+bankruptcies, lender suits and bank CRE credit, joined by property and owner.
+The products that carry it (all live 2026-11-11):
+
+- distress-radar.html (js/radar-data.json, scripts/build_distress_radar.ts),
+  with daily email alerts by state, record type and property type
+  (newsletter function, send-radar; subscribers stored with source "radar:...")
+- bank-cre-stress.html (js/bank-cre.json, scripts/pull_market_pulse.py)
+- The CRE Distress Brief, the Monday email (supabase/functions/newsletter/issue.ts;
+  this week's issue at email-preview.html)
+- the homepage radar band (baked into index.html by the radar build)
+
+Choosing work: within each goal, prefer changes that make these better or bring
+people to them: a radar view or landing page people search for (for example a
+state's or metro's commercial foreclosures and CMBS defaults, built from the
+radar data), clearer alert sign-up on the distress pages, a new insight in the
+Brief counted from the records, joining one more property across sources.
+Meta-description, wording and other housekeeping work is not chosen while a
+radar or conversion change is possible. Cloud runs cannot fetch web pages, so
+new data sources are added in local sessions; a cloud run works from the data
+already in the repo.
+
 ## How to choose the work
 
 - Read ops/metrics/goals.json. Work on the goal in "mostBehind" order, but
