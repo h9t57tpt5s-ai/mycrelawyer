@@ -18,6 +18,12 @@ F10, F20). Matching uses the notice's legal description (city block and lot,
 subdivision block and lot, or survey abstract and acreage) or a street
 address given as the property's. Everything else is dropped unread.
 
+Counties (2026-11-11): Dallas (old PDF postings), Bexar (ArcGIS map service),
+Harris (clerk search + OCR, HCAD parcels), Collin (Blazor app, the county's
+own Commercial flag), Fort Bend (the clerk's monthly list PDF, Fort Bend CAD's
+public parcel layer) and Williamson (the clerk's text index and scanned
+notices, Williamson CAD's open data portal).
+
 Only business names are kept (borrower as the notice and the appraisal roll
 name it, foreclosing lender). Individuals, trustees and law firms are never
 stored. Each row links to the clerk's own posting.
@@ -452,11 +458,21 @@ def notice_fields(text: str) -> dict:
         if v >= 10000:
             out["originalAmount"] = v
     flat = re.sub(r"\s+", " ", text)
-    for m in [*LENDER_LABEL.finditer(text), *PAYEE.finditer(flat), *LENDER_DEFINED.finditer(flat)]:
-        name = clean_business((m.group(1) or m.group(2) if m.re is LENDER_DEFINED else m.group(1)).split("  ")[0])
+    labels = list(LENDER_LABEL.finditer(text))
+    # A "Lender:" or "Current Beneficiary:" line names the lender now; an
+    # earlier "Beneficiary:" line can be the loan's original holder.
+    labels.sort(key=lambda m: 0 if re.match(r"\s*(?:Current|Lender)", m.group(0), re.I)
+                and not re.search(r"Orig\w*\s*$", text[max(0, m.start() - 12): m.start()], re.I) else 1)
+    for m in [*labels, *PAYEE.finditer(flat), *LENDER_DEFINED.finditer(flat)]:
+        raw = (m.group(1) or m.group(2) if m.re is LENDER_DEFINED else m.group(1)).split("  ")[0]
+        # "..., LLC, a Delaware limited liability company": the name ends
+        # before its form of organization.
+        raw = re.split(r",?\s+an?\s+(?:[A-Z][a-z]+\s+){0,2}(?:limited|corporation|general|state|national|banking|federal|statutory|business|nonprofit)\b",
+                       raw, flags=re.I)[0]
+        name = clean_business(raw)
         # "City Bank as the successor in interest to ...": the name ends
         # where its capacity begins.
-        name = re.split(r"\s+as\s+(?:the|a|an|such|successor|trustee|nominee|agent|assignee|servicer)\b|\s+pursuant\b|,?\s+its\s+successors", name or "", flags=re.I)[0].strip(" ,;")
+        name = re.split(r"\s+as\s+(?:the|a|an|such|current|successor|trustee|nominee|agent|assignee|servicer)\b|\s+pursuant\b|,?\s+its\s+successors|,?\s+as$", name or "", flags=re.I)[0].strip(" ,;")
         # Business names only (never an individual's) and never an OCR
         # fragment that starts mid-word ("eal Estate Capital, LLC").
         if name and (not name[0].isupper() and not name[0].isdigit() or not BUSINESS_MARK.search(name)):
@@ -955,17 +971,486 @@ COLLIN_TYPE = {"Office": "Office", "Retail": "Retail", "Warehouse": "Industrial"
                "Medical Office": "Medical Office", "Mini Warehouse": "Self-Storage", "Commercial Vacant": "Land/Development"}
 
 
+def ocr_available() -> bool:
+    import os
+    import shutil
+    return bool(shutil.which("tesseract") and shutil.which("pdftoppm") or os.environ.get("CREDOCKET_OCR"))
+
+
+def _addr_key(num: str, street: str) -> tuple[str, str]:
+    ws = [w for w in norm_street(street).split() if w not in ("N", "S", "E", "W")]
+    return num, ws[0] if ws else ""
+
+
+def stated_addresses(text: str, zips: set) -> set:
+    """(number, first street word) of every address in a notice that could be
+    the property's: one after a property cue ("commonly known as"), or any
+    street address in a ZIP code of the county's roll ("15835 RIDGEROE LN,
+    HOUSTON, TX 77053" printed under the attorney's signature)."""
+    out = set()
+    for cue in PROPERTY_CUE.finditer(text):
+        if OFFICE_CONTEXT.search(text[max(0, cue.start() - 100): cue.start()]):
+            continue
+        m = re.search(r"\b(\d{2,6})\s+((?:[NSEW]\.?\s+)?[A-Za-z0-9][A-Za-z0-9 .]{2,40}?)\s*(?:,|\n)", text[cue.end(): cue.end() + 120])
+        if m:
+            out.add(_addr_key(m.group(1), m.group(2)))
+    for m in re.finditer(r"\b(\d{2,6})\s+((?:[NSEW]\.?\s+)?[A-Za-z][A-Za-z0-9 .]{2,40}?),?\s+[A-Za-z][A-Za-z .]{2,25}?,?\s+(?:TX|TEXAS)\.?\s+(\d{5})", text, re.I):
+        if m.group(3) in zips:
+            out.add(_addr_key(m.group(1), m.group(2)))
+    return out
+
+
+def _name_key(s: str) -> str:
+    return " ".join(re.sub(r"[^A-Z0-9 ]", " ", s.upper()).split())
+
+
+BORROWER_CONTEXT = re.compile(r"BORROWER|GRANTOR|MORTGAGOR|EXECUTED\s+BY|DEBTOR|TRUSTOR")
+LENDER_CONTEXT = re.compile(r"LENDER|HOLDER|MORTGAGEE|BENEFICIARY|PAYABLE\s+TO|ORDER\s+OF|BENEFIT\s+OF|SERVICER")
+
+
+def match_borrower(text: str, roll: Roll) -> tuple[dict | None, str]:
+    """The parcel whose appraisal-roll owner is the business the notice names
+    as borrower or grantor ("Borrower: Sugar Creek Center Houston, TX. LLC"),
+    when that business owns one commercial property in the county (at most
+    three parcels, all on one street) and no other owner is so named. For
+    notices whose legal description is only an exhibit OCR could not read."""
+    if not hasattr(roll, "by_owner"):
+        roll.by_owner = {}
+        for a, p in roll.parcels.items():
+            k = _name_key(clean_business(p["owner"]))
+            if len(k) >= 10 and len(k.split()) >= 3:
+                roll.by_owner.setdefault(k, []).append(a)
+    flat = _name_key(text)
+    hits = []
+    for k, accts in roll.by_owner.items():
+        # Several parcels count only as one property on one street
+        # (an apartment complex split across two accounts).
+        if len(accts) > 3 or len({norm_street(roll.parcels[a]["street"]) for a in accts}) != 1:
+            continue
+        for m in re.finditer(rf"\b{re.escape(k)}\b", flat):
+            before, after = flat[max(0, m.start() - 60): m.start()], flat[m.end(): m.end() + 40]
+            if BORROWER_CONTEXT.search(before + " " + after) and not LENDER_CONTEXT.search(before[-30:]):
+                hits.append(accts)
+                break
+    if len(hits) != 1:
+        return None, "ambiguous" if hits else ""
+    best = max(hits[0], key=lambda a: (roll.parcels[a]["sqft"], roll.parcels[a]["units"]))
+    p = dict(roll.parcels[best])
+    p["parcels"] = len(hits[0])
+    return p, "the notice's borrower, the parcel's owner of record"
+
+
+def match_notice(text: str, roll: Roll, office_addrs: set) -> tuple[dict | None, str]:
+    """match_parcel with three checks for the newer counties. A parcel
+    matched by street address must be in a city or ZIP code the notice names
+    (the same number and street can exist in two towns). A parcel matched by
+    its legal description must not contradict a street address the notice
+    gives for the property (plat names repeat across sections, and Fort Bend's
+    include whole towns). A survey match must be on the notice's first
+    acreage, the tract's own: metes and bounds name the neighbors' acreages."""
+    parcel, how = match_parcel(text, roll, office_addrs)
+    if not parcel and how != "ambiguous":
+        parcel, how = match_borrower(text, roll)
+    if not parcel:
+        return parcel, how
+    up = text.upper()
+    if how == "property address":
+        if not (parcel["city"] and parcel["city"].upper() in up or parcel["zip"] and parcel["zip"] in up):
+            return None, ""
+        return parcel, how
+    if how == "survey abstract and acreage":
+        first = re.search(r"(\d{1,4}\.\d{2,4})\s*(?:ACRES?|AC\b)", NUMBER_WORDS.sub(r"\1", up))
+        own = re.search(r"ACS\s+([\d.]+)", parcel["legal"])
+        if not first or not own or abs(float(own.group(1)) - float(first.group(1))) > max(0.02, 0.01 * float(first.group(1))):
+            return None, ""
+    if not hasattr(roll, "zips"):
+        roll.zips = {p["zip"] for p in roll.parcels.values() if p["zip"]}
+    zips = roll.zips
+    office = {(a[0], a[1].split()[0]) for a in office_addrs if a[1]}
+    stated = {a for a in stated_addresses(text, zips) if a not in office}
+    if stated and _addr_key(parcel["num"], parcel["street"]) not in stated:
+        return None, ""
+    return parcel, how
+
+
+def notice_row(county: str, sale: str, parcel: dict, how: str, f: dict, **extra) -> dict:
+    """One output row for a notice matched to a commercial parcel."""
+    return {
+        "county": county, "state": "TX", "saleDate": sale,
+        "address": " ".join(x for x in (parcel["num"], title(parcel["street"])) if x), "city": title(parcel["city"]),
+        "zip": parcel["zip"], "propertyName": "", "propertyType": parcel["type"], "use": parcel["use"],
+        "sqft": parcel.get("sqft") or None, "units": None, "yearBuilt": None, "owner": clean_business(parcel["owner"]),
+        "lender": f.get("lender", ""), "originalAmount": f.get("originalAmount"), "parcel": parcel["account"],
+        "parcelUrl": parcel.get("url", ""), "parcels": parcel["parcels"], "matchedBy": how,
+        "docNumber": "", "postingUrl": "", "postingPage": None, "postingLabel": "", **extra,
+    }
+
+
+# ---------------------------------------------------------------- Fort Bend
+
+FBCAD = "https://gisweb.fbcad.org/arcgis/rest/services/Hosted/FBCADPublicData/FeatureServer/0/query"
+FORT_BEND_LIST = "https://www.fortbendcountytx.gov/i-want-to/foreclosures"
+# Fort Bend CAD codes (seen 2026-11-11). Improvement (building_sptb_code):
+# F1 commercial, F2 industrial, B1 apartments, F1M and F1V commercial
+# variants; F1H (homeowner-association amenities) and F1X (exempt owners)
+# are left out, as are duplexes to fourplexes (B2, B3) and every residential,
+# farm and mobile-home code. A parcel with no building counts when its land
+# is coded F1 or F2 (commercial or industrial land).
+FBCAD_BUILDING = {"F1": ("Commercial", ""), "F1M": ("Commercial", ""), "F1V": ("Commercial", ""),
+                  "F2": ("Industrial", "Industrial"), "B1": ("Apartments", "Multifamily")}
+
+
+def fbcad_legal(legal: str) -> tuple[str, str]:
+    """Fort Bend CAD writes 'QUAIL VALLEY SEC 2, BLOCK 2, LOT 74' and
+    '0193 JAS HODGE, ACRES 0.6461': rewritten in the roll's LT/BLK/RES/ABST
+    form, with the plat name (the part before the first comma)."""
+    up = re.sub(r"[\"'“”]", "", legal.upper())
+    # The plat name, without the county's own name ("Fort Bend Town Center"
+    # would otherwise be named by every notice's "Fort Bend County").
+    plat = re.sub(r"\bFORT\s+BEND\b", " ", up.split(",")[0]).strip()
+    blk = re.search(r"\b(?:BLOCK|BLK)\s+([A-Z0-9]{1,4})\b", up)
+    lot = re.search(r"\bLOTS?\s+(\d+[A-Z]?)\b", up)
+    res = re.search(r"\b(?:RESERVE|RES)\s+([A-Z0-9]{1,3})\b", up)
+    acres = re.search(r"\bACRES\s+([\d.]+)", up)
+    parts = []
+    if lot and blk:
+        parts.append(f"LT {lot.group(1)} BLK {blk.group(1)}")
+    if res:
+        parts.append(f"RES {res.group(1)}" + (f" BLK {blk.group(1)}" if blk else ""))
+    m = re.match(r"(\d{3,4})\s+[A-Z]", up)
+    if m:  # a survey: the leading number is the abstract
+        parts.append(f"ABST {int(m.group(1))}")
+        plat = ""
+    if acres:
+        parts.append(f"ACS {acres.group(1)}")
+    return " ".join(parts), plat
+
+
+def fort_bend_roll() -> Roll:
+    """Commercial parcels from Fort Bend CAD's public parcel layer
+    (gisweb.fbcad.org, FBCADPublicData), cached for a week."""
+    CACHE.mkdir(parents=True, exist_ok=True)
+    path = CACHE / "fortbend.json"
+    if path.exists() and time.time() - path.stat().st_mtime < CAD_MAX_AGE_DAYS * 86400:
+        rows = json.loads(path.read_text())
+    else:
+        rows, last = [], -1
+        where = ("(building_sptb_code IN ('F1','F1M','F1V','F2','B1') OR "
+                 "(building_sptb_code IS NULL AND land_state_code IN ('F1','F2')))")
+        while True:
+            q = urllib.parse.urlencode({
+                "where": f"{where} AND objectid > {last}", "orderByFields": "objectid",
+                "outFields": "objectid,quickrefid,propnumber,ownername,situs,situssno,situsprdir,situssnm,situsstp,situspodir,"
+                             "legal,land_state_code,building_sptb_code,impvalue,landsizeac",
+                "returnGeometry": "false", "resultRecordCount": 2000, "f": "json"})
+            feats = json.loads(get(f"{FBCAD}?{q}", timeout=300)).get("features", [])
+            if not feats:
+                break
+            rows.extend(f["attributes"] for f in feats)
+            last = feats[-1]["attributes"]["objectid"]
+            time.sleep(0.5)
+        path.write_text(json.dumps(rows))
+    roll = Roll()
+    for r in rows:
+        bcode, lcode = r.get("building_sptb_code"), r.get("land_state_code")
+        if bcode:
+            label, ptype = FBCAD_BUILDING.get(bcode, ("", None))
+        elif lcode in ("F1", "F2") and not r.get("impvalue"):
+            label, ptype = "Commercial land", "Land/Development"
+        else:
+            label, ptype = ("Industrial", "Industrial") if lcode == "F2" else ("Commercial", "")
+        owner = (r.get("ownername") or "").strip()
+        if ptype is None or GOV_OWNER.search(owner) or not r.get("quickrefid"):
+            continue
+        situs = r.get("situs") or ""
+        m_city = re.search(r",\s*([^,]+?),\s*TX\s+(\d{5})", situs)
+        street = " ".join(x for x in (r.get("situsprdir"), r.get("situssnm"), r.get("situsstp"), r.get("situspodir")) if x)
+        num = (r.get("situssno") or "").strip()
+        if not re.fullmatch(r"\d+", num):
+            # Some parcels carry the number only in the situs line ("1 Sugar
+            # Creek Center BLVD, Sugar Land"; "1601-1631 Austin ST").
+            m_num = re.match(r"(\d+)(?:-\d+)?\s+(.+)$", situs.split(",")[0].strip())
+            num, street = (m_num.group(1), m_num.group(2)) if m_num else ("", street)
+        legal, plat = fbcad_legal(r.get("legal") or "")
+        roll.add(r["quickrefid"], {
+            "account": r["quickrefid"], "code": bcode or lcode, "use": label, "type": ptype, "name": "",
+            "sqft": 0, "units": 0, "yearBuilt": 0, "num": num, "street": street,
+            "city": m_city.group(1).strip() if m_city else "", "zip": m_city.group(2) if m_city else "", "owner": owner,
+            "legal": legal, "subdivision": plat, "url": f"https://esearch.fbcad.org/Property/View/{r['quickrefid']}",
+        })
+    return roll
+
+
+def fort_bend_source(today: dt.date, processed: set) -> list[dict]:
+    """The Fort Bend County Clerk posts each sale month's notices as one PDF
+    (the notices as filed, with a text layer), on or before the 20th of the
+    month before the sale."""
+    page = get(FORT_BEND_LIST).decode("utf-8", "replace")
+    posts = []
+    for href in sorted(set(re.findall(r'href="(https://www\.fortbendcountytx\.gov/sites/default/files/[^"]*/research-foreclosures/[^"]+\.pdf)"', page))):
+        m = re.search(r"/([A-Za-z]+)-(\d{4})(?:_\d+)?\.pdf$", href)
+        if not m:
+            continue
+        try:
+            month = dt.datetime.strptime(m.group(1)[:3], "%b").month
+        except ValueError:
+            continue
+        sale = first_tuesday(int(m.group(2)), month)
+        if href in processed or sale < today - dt.timedelta(days=45):
+            continue
+        posts.append((href, sale, f"{m.group(1)} {m.group(2)}"))
+    if not posts:
+        return []
+    roll = fort_bend_roll()
+    print(f"fort bend: {len(roll.parcels)} commercial parcels on the appraisal roll", flush=True)
+    rows = []
+    for href, sale, label in posts:
+        try:
+            pages = pdf_pages(get(href, timeout=600))
+        except Exception as e:
+            print(f"  Fort Bend {label}: {e}", flush=True)
+            continue
+        notices = split_notices(pages)
+        office = office_addresses([t for _, t in notices])
+        found = 0
+        for pg, text in notices:
+            if CONSUMER.search(text):
+                continue
+            parcel, how = match_notice(text, roll, office)
+            if not parcel:
+                continue
+            if rows and rows[-1]["parcel"] == parcel["account"] and rows[-1]["saleDate"] == sale.isoformat():
+                continue  # a long notice can repeat its heading on a later page
+            f = notice_fields(text)
+            f.pop("_dates", None)
+            rows.append(notice_row("Fort Bend", sale.isoformat(), parcel, how, f, postingUrl=href, postingPage=pg,
+                                   sourceLabel=f"Fort Bend County Clerk foreclosure list, {label} sales, page {pg}"))
+            found += 1
+            print(f"  Fort Bend p{pg}: {rows[-1]['address']}, {rows[-1]['city']} ({parcel['code']}, {how})", flush=True)
+        print(f"  Fort Bend {label}: {len(pages)} pages, {len(notices)} notices, {found} commercial", flush=True)
+        processed.add(href)
+    return rows
+
+
+# ---------------------------------------------------------------- Williamson
+
+WILCO = "https://apps.wilco.org/countyclerk/trustee_sales/"
+WCAD = "https://data.wcad.org/resource"
+# Williamson CAD state codes (data.wcad.org, seen 2026-11-11): F1 commercial,
+# F2 industrial, B1 apartments, C5 commercial vacant land (WCAD's land type
+# "Commercial"). A property also carrying a residential, farm, mobile-home,
+# inventory or exempt code (A, D, E, M, O, X) is left out.
+WCAD_KEEP = ("F1", "F2", "B1", "C5")
+WCAD_DROP = re.compile(r"^[ADEMOX]")
+# Williamson County cities as the clerk's index writes them.
+WILCO_CITIES = ("ROUND ROCK", "CEDAR PARK", "LIBERTY HILL", "GEORGETOWN", "LEANDER", "HUTTO", "TAYLOR", "JARRELL",
+                "AUSTIN", "FLORENCE", "GRANGER", "THRALL", "BARTLETT", "COUPLAND", "THORNDALE", "WEIR", "SPICEWOOD",
+                "PFLUGERVILLE", "SCHWERTNER", "WALBURG", "NO CITY")
+
+
+WCAD_USES = [
+    (r"\bAPTS?\b|APARTMENT", ("Apartments", "Multifamily")),
+    # WCAD often writes the flag instead of the use ("LA QUINTA").
+    (r"\bHOTEL|\bMOTEL|\bINN\b|SUITES|LA QUINTA|HAMPTON|MARRIOTT|HILTON|HYATT|BEST WESTERN|SUPER 8|RED ROOF|"
+     r"EXTENDED STAY|STAYBRIDGE|CANDLEWOOD|HOMEWOOD|TOWNEPLACE|SPRINGHILL|FAIRFIELD|RAMADA|WINGATE", ("Hotel", "Hospitality")),
+    (r"MINI.?STORAGE|SELF.?STORAGE|MINI.?WAREHOUSE", ("Self storage", "Self-Storage")),
+    (r"MEDICAL|DENTAL|CLINIC|SURGERY|HOSPITAL|VETERINAR", ("Medical office", "Medical Office")),
+    (r"^(?!.*(?:WAREHOUSE|WHSE)).*(?:OFFICE|\bOFC\b|\bBANK\b)", ("Office", "Office")),
+    (r"WAREHOUSE|WHSE|INDUSTRIAL|MANUFACTUR|HANGA?E?R", ("Industrial", "Industrial")),
+    (r"RETAIL|STRIP|SHOPPING|RESTAURANT|STORE|CAR WASH|SERVICE STATION|CONVENIENCE|FAST FOOD", ("Retail", "Retail")),
+    (r"\bMHP\b|MH PARK|MOBILE HOME|\bRV\b", ("Mobile home / RV park", "")),
+]
+
+
+def wcad_type(codes: set, desc: str, nbhd: str, built: bool) -> tuple[str, str]:
+    """A property type from WCAD's own words: the main commercial building's
+    description first ("LA QUINTA", "OFFICE WAREHOUSE"), then the appraisal
+    neighborhood's ("R20EF - Fast Food Restaurant-e Round Rock")."""
+    if not built and "C5" in codes:
+        return "Commercial land", "Land/Development"
+    if "B1" in codes:
+        return "Apartments", "Multifamily"
+    for text in (desc.upper(), "F2" if "F2" in codes else "", re.sub(r"^\S+\s+-\s+", "", nbhd).upper()):
+        if text == "F2":
+            return "Industrial", "Industrial"
+        for pat, out in WCAD_USES:
+            if text and re.search(pat, text):
+                return out
+    return "Commercial", ""
+
+
+def williamson_roll() -> Roll:
+    """Commercial properties from Williamson CAD's open data portal
+    (data.wcad.org): land and improvement state codes, the property export
+    (situs, legal description) and parcel owners, cached for a week."""
+    CACHE.mkdir(parents=True, exist_ok=True)
+    path = CACHE / "williamson.json"
+
+    def soda(ds: str, params: dict) -> list:
+        time.sleep(0.3)
+        return json.loads(get(f"{WCAD}/{ds}.json?" + urllib.parse.urlencode({"$limit": 50000, **params}), timeout=300))
+
+    if path.exists() and time.time() - path.stat().st_mtime < CAD_MAX_AGE_DAYS * 86400:
+        props = json.loads(path.read_text())
+    else:
+        keep = ",".join(f"'{c}'" for c in WCAD_KEEP)
+        land = soda("2ckt-cqwj", {"$select": "propertyid,statecode", "$where": f"statecode in ({keep})"})
+        props = {}
+        for r in land:
+            props.setdefault(r["propertyid"], {"codes": [], "imps": []})["codes"].append(r["statecode"])
+        ids = sorted(props)
+        for i in range(0, len(ids), 300):
+            where = "propertyid in (" + ",".join(f"'{x}'" for x in ids[i:i + 300]) + ")"
+            for r in soda("2ckt-cqwj", {"$select": "propertyid,statecode", "$where": f"{where} AND statecode not in ({keep})"}):
+                props[r["propertyid"]]["codes"].append(r.get("statecode") or "")
+            for r in soda("2huh-jk3y", {"$select": "propertyid,fsptb,fdescription,vtsgimp_comtotbldarea", "$where": where}):
+                props[r["propertyid"]]["imps"].append([r.get("fsptb") or "", r.get("fdescription") or "",
+                                                        float(r.get("vtsgimp_comtotbldarea") or 0)])
+            for r in soda("ij43-xknu", {"$select": "propertyid,quickrefid,legaldesc,legallocationdesc,subblock,sublot,legalacres,"
+                                                   "situsstreetnumber,situspredirectional,situsstreetname,situsstreetsuffix,"
+                                                   "situspostdirectional,situscity,situszip,nbhddesc", "$where": where}):
+                props[r["propertyid"]].update(r)
+            for r in soda("an3x-cnmw", {"$select": "propertyid,ownernme1", "$where": where}):
+                props[r["propertyid"]]["owner"] = r.get("ownernme1") or ""
+        path.write_text(json.dumps(props))
+    roll = Roll()
+    for pid, p in props.items():
+        codes = {c for c in p["codes"]} | {i[0] for i in p["imps"] if i[0]}
+        owner = (p.get("owner") or "").strip()
+        if not codes & set(WCAD_KEEP) or any(WCAD_DROP.match(c) for c in codes if c) or GOV_OWNER.search(owner) or not p.get("quickrefid"):
+            continue
+        com = [i for i in p["imps"] if i[0] in WCAD_KEEP]
+        main = max(com, key=lambda i: i[2]) if com else ["", "", 0]
+        label, ptype = wcad_type(codes, main[1], p.get("nbhddesc") or "", bool(com))
+        street = " ".join(x for x in (p.get("situspredirectional"), p.get("situsstreetname"), p.get("situsstreetsuffix"),
+                                      p.get("situspostdirectional")) if x)
+        plat = re.sub(r"^[A-Z]{1,2}\d+\s*-\s*", "", p.get("legallocationdesc") or "", flags=re.I)
+        legal = " ".join(x for x in (f"LT {p['sublot']}" if p.get("sublot") else "", f"BLK {p['subblock']}" if p.get("subblock") else "",
+                                     plat.upper()) if x)
+        m_ab = re.match(r"A[A-Z]?(\d{2,5})\b", p.get("legallocationdesc") or "")
+        if m_ab and re.search(r"\bSUR\b", (p.get("legallocationdesc") or "").upper()):
+            legal += f" ABST {int(m_ab.group(1))}" + (f" ACS {p['legalacres']}" if p.get("legalacres") else "")
+            plat = ""
+        roll.add(p["quickrefid"], {
+            "account": p["quickrefid"], "code": "/".join(sorted(codes & set(WCAD_KEEP))), "use": label, "type": ptype, "name": "",
+            "sqft": int(sum(i[2] for i in com)), "units": 0, "yearBuilt": 0,
+            "num": (p.get("situsstreetnumber") or "").strip(), "street": street, "city": (p.get("situscity") or "").strip(),
+            "zip": (p.get("situszip") or "")[:5], "owner": owner, "legal": legal, "subdivision": plat,
+            "url": f"https://search.wcad.org/Property-Detail/PropertyQuickRefID/{p['quickrefid']}",
+        })
+    return roll
+
+
+def williamson_index(pages: list[str]) -> list[dict]:
+    """Rows of the clerk's alphabetical index (File_IDX): entry, owner's last
+    name, file number, filing date, address, city, legal description."""
+    text = "\n".join(pages)
+    text = re.sub(r"(?m)^.*NOTICE OF FORECLOSURES\s*$|^ENTRY\s*$|^NO OWNER'S LAST NAME.*$|^DATE ADDRESS CITY LEGAL DESCRIPTION\s*$", "", text)
+    text = re.sub(r"(?m)^(\d{1,3})\n", r"\1 ", text)  # an entry number can sit on a line of its own
+    starts = list(re.finditer(r"(?m)^(\d{1,3})\s+([^\n]*?)\s(\d{1,3})\s(\d{1,2})/(\d{1,2})/(20\d\d)\s", text))
+    out = []
+    for k, m in enumerate(starts):
+        rest = re.sub(r"\s+", " ", text[m.end(): starts[k + 1].start() if k + 1 < len(starts) else len(text)]).strip()
+        # The city column is the first city name in the row ("NO CITY" when
+        # there is none); a later one belongs to the legal description
+        # ("LEGENDS OF HUTTO", "CITY OF BARTLETT").
+        m_city = re.search(r"\b(" + "|".join(WILCO_CITIES) + r")\b", rest)
+        city = m_city.group(1) if m_city else ""
+        addr, legal = (rest[:m_city.start()], rest[m_city.end():]) if m_city else ("", rest)
+        out.append({"entry": m.group(1), "owner": m.group(2).strip(), "file": int(m.group(3)),
+                    "filed": f"{int(m.group(4)):02d}-{int(m.group(5)):02d}-{m.group(6)}",
+                    "address": addr.strip(" ,"), "city": "" if city == "NO CITY" else city, "legal": legal.strip(" ,")})
+    return out
+
+
+def williamson_source(today: dt.date, processed: set) -> list[dict]:
+    """The Williamson County Clerk posts each sale month's notices (scanned
+    PDFs) with a text index giving each notice's address, city and legal
+    description. The index is matched to the commercial roll; a matched
+    notice, or one whose index entry gives nothing to match, is read by OCR
+    for its lender, its loan and its property description."""
+    page = get(WILCO).decode("utf-8", "replace")
+    months = []
+    for m in re.finditer(r'href="([A-Za-z]+)/files\.aspx"[^>]*>\s*([A-Z][a-z]+ \d{1,2}, \d{4})\s*<', page):
+        sale = dt.datetime.strptime(m.group(2), "%B %d, %Y").date()
+        if today - dt.timedelta(days=45) <= sale <= today + dt.timedelta(days=75):
+            months.append((m.group(1), sale))
+    can_ocr = ocr_available()
+    roll = None
+    rows, skipped = [], 0
+    for folder, sale in months:
+        base = urllib.parse.urljoin(WILCO, f"{folder}/")
+        listing = get(base + "files.aspx").decode("utf-8", "replace")
+        files = set(re.findall(r'HREF="(\d\d-\d\d-\d{4}_File_\w+\.pdf)"', listing, re.I))
+        idx = sorted((f for f in files if f.upper().endswith("_FILE_IDX.PDF")),
+                     key=lambda f: dt.datetime.strptime(f[:10], "%m-%d-%Y"))
+        if not idx:
+            continue
+        entries = williamson_index(pdf_pages(get(base + idx[-1])))
+        new = [e for e in entries if f"williamson:{e['filed']}_File_{e['file']:03d}" not in processed]
+        print(f"  Williamson {sale}: {len(entries)} notices indexed, {len(new)} new", flush=True)
+        if not new:
+            continue
+        if roll is None:
+            roll = williamson_roll()
+            print(f"williamson: {len(roll.parcels)} commercial parcels on the appraisal roll", flush=True)
+        for e in new:
+            name = f"{e['filed']}_File_{e['file']:03d}"
+            if f"{name}.pdf" not in files:
+                continue  # not posted yet (or renamed): try again next run
+            key, url = f"williamson:{name}", base + f"{name}.pdf"
+            has_addr = bool(re.match(r"\d", e["address"]))
+            text = (f"Property address: {e['address']}, {e['city']}, Texas\n" if has_addr else "") + e["legal"]
+            parcel, how = match_parcel(text, roll, set())
+            if parcel and e["city"] and parcel["city"].upper() != e["city"]:
+                parcel = None
+            # "NO ADDRESS ... SEE INSTRUMENT": the index gives nothing to
+            # match, so the notice itself is read.
+            vague = not has_addr and not re.search(r"\b(?:LOT|UNIT|TRACT)\b", e["legal"])
+            if not parcel and not vague:
+                processed.add(key)  # residential, or not on the commercial roll
+                continue
+            # The notice itself is read before anything is kept: it can show a
+            # home loan (CONSUMER) on a parcel coded commercial. Without OCR
+            # the entry waits for a run that has it.
+            if not can_ocr:
+                skipped += 1
+                continue
+            try:
+                time.sleep(1)
+                notice = "\n".join(ocr_pdf(get(url), max_pages=4))
+            except Exception as ex:
+                print(f"  Williamson {name}: {ex}", flush=True)
+                continue
+            processed.add(key)
+            if CONSUMER.search(notice):
+                continue
+            if not parcel:
+                parcel, how = match_notice(notice, roll, set())
+                if not parcel:
+                    continue
+            f = notice_fields(notice)
+            f.pop("_dates", None)
+            rows.append(notice_row("Williamson", sale.isoformat(), parcel, how, f, docNumber=name.replace("_", " "),
+                                   postingUrl=url, sourceLabel=f"Williamson County Clerk notice of trustee's sale, {sale:%B %Y} sales, {name.replace('_', ' ')}"))
+            print(f"  Williamson {name}: {rows[-1]['address']}, {rows[-1]['city']} ({parcel['code']}, {how})", flush=True)
+    if skipped:
+        print(f"  Williamson: {skipped} notices left unread (no OCR available)", flush=True)
+    return rows
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--pdf-dir", help="parse local Dallas PDFs named <Month>_<City>_N.pdf instead of fetching")
-    ap.add_argument("--only", help="run one source (dallas, bexar, harris, collin)")
+    ap.add_argument("--only", help="run one source (dallas, bexar, harris, collin, fortbend, williamson)")
     ap.add_argument("--limit", type=int, help="read at most this many new Harris notices (testing)")
     args = ap.parse_args()
     today = dt.date.today()
     prev = json.loads(OUT.read_text()) if OUT.exists() else {"properties": [], "processed": []}
     processed = set(prev.get("processed", []))
     sources = {"dallas": lambda: dallas_source(today, processed, args.pdf_dir), "bexar": lambda: bexar_source(today, processed),
-               "harris": lambda: harris_source(today, processed, args.limit), "collin": lambda: collin_source(today, processed)}
+               "harris": lambda: harris_source(today, processed, args.limit), "collin": lambda: collin_source(today, processed),
+               "fortbend": lambda: fort_bend_source(today, processed), "williamson": lambda: williamson_source(today, processed)}
     rows, failed = [], []
     for name, fn in sources.items():
         if args.only and name != args.only:

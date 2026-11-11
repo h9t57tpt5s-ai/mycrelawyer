@@ -64,13 +64,14 @@ jobs:
       - name: Pull Texas commercial foreclosure-sale notices (Texas Foreclosure Sales)
         # County clerk notices of trustee's sale, kept only when the appraisal
         # district classifies the parcel as commercial (scripts/pull_tx_foreclosures.py).
-        # Harris notices are scanned images (Tesseract OCR); Collin's list
-        # renders only in a browser (Playwright Chromium).
+        # Harris and Williamson notices are scanned images (Tesseract OCR);
+        # Collin's list renders only in a browser (Playwright Chromium);
+        # Dallas and Fort Bend post PDFs with a text layer (pypdf).
         continue-on-error: true
-        timeout-minutes: 45
+        timeout-minutes: 55
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr poppler-utils >/dev/null
-          pip install --quiet playwright==1.60.0
+          pip install --quiet playwright==1.60.0 pypdf==6.16.1
           python3 -m playwright install --with-deps chromium >/dev/null
           python3 scripts/pull_tx_foreclosures.py --limit 60
       - name: Commit the alert log
