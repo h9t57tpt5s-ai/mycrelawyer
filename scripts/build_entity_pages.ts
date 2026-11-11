@@ -253,7 +253,7 @@ function sharedBlocks(g: Group) {
     </ul>` : "";
   const cta = `<div class="card matter-cta" style="margin-top:40px;">
       <div class="eyebrow">Free weekly email</div>
-      <h2 class="matter-h2">New commercial real estate rulings and lawsuits, every Monday</h2>
+      <h2 class="matter-h2">The CRE Distress Brief, every Monday</h2>
       <form class="gate-form" data-newsletter-form data-newsletter-source="${g.kind}:${esc(g.slug).slice(0, 40)}" novalidate>
         <label class="sr-only" for="entity-nl-email">Email address</label>
         <input type="email" id="entity-nl-email" autocomplete="email" placeholder="you@company.com" />

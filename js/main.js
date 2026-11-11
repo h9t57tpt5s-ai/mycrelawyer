@@ -316,7 +316,7 @@
   }
 
   /* ---------- Newsletter band: real weekly count ----------
-     The "New on CREdocket, every Monday" sign-up band's description
+     The "The CRE Distress Brief, every Monday" sign-up band's description
      defaults to generic copy (what is in the no-JS/crawler markup). Where
      RELAW_DATA has loaded, swap in the real trailing-7-day new-matter
      count, same window prerender.ts's own freshness figures use. Never
@@ -327,7 +327,7 @@
     const cutoff = Date.now() - 7 * 86_400_000;
     const weekCount = RELAW_DATA.cases.filter((c) => c.addedDate && new Date(c.addedDate + "T00:00:00Z").getTime() > cutoff).length;
     if (weekCount > 0) {
-      nlLede.textContent = `This week: ${weekCount} new commercial real estate ${weekCount === 1 ? "lawsuit" : "lawsuits"}, plus rulings in cases we follow and new market signals.`;
+      nlLede.textContent = `This week: ${weekCount} new commercial real estate ${weekCount === 1 ? "lawsuit" : "lawsuits"}, plus the week's bankruptcies, CMBS defaults and foreclosure postings, charted.`;
     }
   }
 
