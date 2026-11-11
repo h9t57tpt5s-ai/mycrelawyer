@@ -1,0 +1,44 @@
+name: NYC commercial distress
+
+# Runs scripts/pull_nyc_distress.py: referee's deeds (court-ordered sales,
+# usually foreclosures), commercial-condo common-charge liens and tax lien
+# sale certificates recorded with the NYC City Register, read from the ACRIS
+# datasets on NYC Open Data (keyless) and kept only for commercial building
+# classes. Merges into ops/nyc-commercial-distress.json; documents already
+# examined are skipped, so a run with nothing new commits nothing.
+
+on:
+  schedule:
+    - cron: "17 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write # commits ops/nyc-commercial-distress.json
+
+concurrency:
+  group: nyc-distress
+  cancel-in-progress: false
+
+jobs:
+  acris:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Read ACRIS
+        run: python3 scripts/pull_nyc_distress.py --days 90
+      - name: Commit the filings
+        run: |
+          git add ops/nyc-commercial-distress.json
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          git config user.name "credocket-leads-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "NYC distress: record new ACRIS commercial distress documents"
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            sleep $((i * 10))
+          done
+          [ "$ok" = 1 ]
