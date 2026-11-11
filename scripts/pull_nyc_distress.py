@@ -229,11 +229,17 @@ def candidate_documents(start: dt.date, end: dt.date, processed: set) -> dict[st
             if m.get("doc_type") in REFEREE_DEED_TYPES:
                 docs[m["document_id"]] = {**m, "kind": "REFEREE"}
         time.sleep(1)
-    for code in ("LOCC", "TLS"):
+    # LOCC (condo board liens for unpaid charges) and TLS (tax lien sales) are
+    # collections of a debt, not a foreclosure: left out under the site's
+    # no-debt-collection rule (CLAUDE.md). The code paths stay for reference.
+    for code in LIEN_CODES:
         for m in get_all(MASTER, {"$where": f"doc_type='{code}' and recorded_datetime between '{lo}' and '{hi}'"}):
             if m["document_id"] not in processed:
                 docs[m["document_id"]] = {**m, "kind": code}
     return docs
+
+
+LIEN_CODES: tuple[str, ...] = ()
 
 
 def fetch_by_doc(dataset: str, ids, select: str | None = None) -> dict[str, list[dict]]:
@@ -459,8 +465,7 @@ def main() -> None:
         else:
             r["slug"] = slug_for(r, taken)
     about = ("New York City commercial property distress documents recorded with the City Register (ACRIS, via NYC Open Data): "
-             "referee's deeds after court-ordered sales (usually foreclosures), condominium common-charge liens on commercial "
-             "units, and tax lien sale certificates. Kept only when the Department of Finance building class is commercial "
+             "referee's deeds after court-ordered sales (usually foreclosures). Kept only when the Department of Finance building class is commercial "
              "(office, retail, hotel, industrial, garage, commercial land and condo units) or an apartment building of "
              f"{MIN_MF_UNITS}+ units owned by a business. Business names only. ACRIS does not record lis pendens (filed with the "
              f"County Clerk). Open Data copy is current through {newest}.")

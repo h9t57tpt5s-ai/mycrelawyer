@@ -1,8 +1,7 @@
 name: NYC commercial distress
 
 # Runs scripts/pull_nyc_distress.py: referee's deeds (court-ordered sales,
-# usually foreclosures), commercial-condo common-charge liens and tax lien
-# sale certificates recorded with the NYC City Register, read from the ACRIS
+# usually foreclosures) recorded with the NYC City Register, read from the ACRIS
 # datasets on NYC Open Data (keyless) and kept only for commercial building
 # classes. Merges into ops/nyc-commercial-distress.json; documents already
 # examined are skipped, so a run with nothing new commits nothing.
@@ -14,6 +13,7 @@ on:
 
 permissions:
   contents: write # commits ops/nyc-commercial-distress.json
+  actions: write # starts the prerender job (Distress Radar)
 
 concurrency:
   group: nyc-distress
@@ -30,6 +30,7 @@ jobs:
       - name: Read ACRIS
         run: python3 scripts/pull_nyc_distress.py --days 90
       - name: Commit the filings
+        id: commit
         run: |
           git add ops/nyc-commercial-distress.json
           if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
@@ -42,3 +43,11 @@ jobs:
             sleep $((i * 10))
           done
           [ "$ok" = 1 ]
+          echo "pushed=1" >> "$GITHUB_OUTPUT"
+      # Commits pushed by this job do not start other workflows, so ask the
+      # prerender job to rebuild the Distress Radar.
+      - name: Rebuild the Distress Radar
+        if: steps.commit.outputs.pushed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run prerender.yml --ref main || echo "::warning::Could not start the prerender job"

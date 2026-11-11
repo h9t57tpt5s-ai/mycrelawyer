@@ -129,8 +129,9 @@ type Nyc = { docTypeLabel: string; recordedDate: string; documentId: string; add
 for (const n of (await readJson<{ filings: Nyc[] }>("ops/nyc-commercial-distress.json", { filings: [] })).filings) {
   const r: Rec = {
     id: `nyc-${n.slug}`, kind: "nyc", date: n.recordedDate, title: titleCase(n.address), city: n.borough, state: "NY",
-    propertyType: n.propertyType || "", detail: [n.docTypeLabel, n.owner ? `owner: ${n.owner}` : "", n.filer ? `filed by ${n.filer}` : ""].filter(Boolean).join(" · "),
-    amount: n.amount ?? null, amountLabel: n.amount ? "amount on the document" : "", url: n.acrisUrl, source: "NYC ACRIS recorded document",
+    propertyType: n.propertyType || "", detail: [n.docTypeLabel, n.owner ? `owner of record: ${titleCase(n.owner)}` : "",
+      n.filer ? `deed to ${titleCase(n.filer)}` : ""].filter(Boolean).join(" · "),
+    amount: n.amount ?? null, amountLabel: n.amount ? "price on the deed" : "", url: n.acrisUrl, source: "NYC ACRIS recorded deed",
   };
   const p = n.lat && n.lon ? proj([n.lon, n.lat]) : null;
   if (p) { r.x = +p[0].toFixed(1); r.y = +p[1].toFixed(1); }
