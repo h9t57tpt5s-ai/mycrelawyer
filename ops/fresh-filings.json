@@ -1,9 +1,20 @@
 {
- "updatedAt": "2026-11-10T18:48:55+00:00",
+ "updatedAt": "2026-11-11T02:11:18+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
-   "caseName": "1519 Project llc",
+   "caseName": "293 A Cooper Corp.",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-45234",
+   "dateFiled": "2026-11-10",
+   "docketUrl": "https://www.courtlistener.com/docket/75097612/293-a-cooper-corp/",
+   "docketId": 75097612,
+   "slug": "293-a-cooper-corp-nyeb-1-26-45234",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "1519 Project LLC",
    "court": "United States Bankruptcy Court, C.D. California",
    "courtId": "cacb",
    "docketNumber": "2:26-bk-21349",
@@ -22,17 +33,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75088646/tcp-real-estate-holdings-llc/",
    "docketId": 75088646,
    "slug": "tcp-real-estate-holdings-llc-njb-26-22688",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "652 Grandview Ave LLC",
-   "court": "United States Bankruptcy Court, E.D. New York",
-   "courtId": "nyeb",
-   "docketNumber": "1-26-45193",
-   "dateFiled": "2026-11-06",
-   "docketUrl": "https://www.courtlistener.com/docket/75081862/652-grandview-ave-llc/",
-   "docketId": 75081862,
-   "slug": "652-grandview-ave-llc-nyeb-1-26-45193",
    "type": "Chapter 11 petition"
   }
  ]

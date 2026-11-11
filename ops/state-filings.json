@@ -1,7 +1,26 @@
 {
- "updatedAt": "2026-11-10T18:49:46+00:00",
+ "updatedAt": "2026-11-11T02:12:06+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "261100498743",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-10",
+   "caseName": "Wilmington Savings Fund Society, FSB, Not in its individual capacity v. AMPM Upscale Inn & Rent LLC, A Texas Limited Liability Company",
+   "plaintiffs": [
+    "Wilmington Savings Fund Society, FSB, Not in its individual capacity"
+   ],
+   "defendants": [
+    "AMPM Upscale Inn & Rent LLC, A Texas Limited Liability Company"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "wilmington-savings-fund-society-fsb-not-in-its-individual-capacity-v-a-tx-harris-261100498743"
+  },
   {
    "source": "hillsborough_fl",
    "state": "FL",
