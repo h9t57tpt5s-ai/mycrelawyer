@@ -438,7 +438,10 @@ PAYEE = re.compile(r"payable\s+to\s+the\s+order\s+of\s+([A-Z0-9][A-Za-z0-9 ,.&'\
 # Funding, LLC ("Lender")' (OCR can read "Lender" as "Tender").
 LENDER_DEFINED = re.compile(r"(?:Original\s+Noteholder|Lender)[\"”']?\s+means\s+([A-Z0-9][A-Za-z0-9 ,.&'\-]{3,80}?(?:L\.?L\.?C\.?|Inc\.?|N\.A\.|Bank|L\.?P\.?|Corporation|Company))\b|"
                             r"indebted\s+to\s+([A-Z0-9][A-Za-z0-9 ,.&'\-]{3,80}?(?:L\.?L\.?C\.?|Inc\.?|N\.A\.|Bank|L\.?P\.?|Corporation|Company))\s*\(\s*[\"“']?(?:the\s+)?[\"“']?[LT]ender", re.I)
-LENDER_LABEL = re.compile(r"(?:Current\s+(?:Beneficiary|Mortgagee)[^:\n]*|Lender|Beneficiary|Mortgagee|Holder)\s*:\s*([^\n]{4,90})", re.I)
+BUSINESS_MARK = re.compile(r"\b(?:L\.?L\.?C|Inc|Incorporated|Corp|Corporation|Company|Co|N\.A\b|L\.?P|LLP|Ltd|Bank|Bancorp|Trust|"
+                           r"Capital|Credit\s+Union|Fund|Funding|Financial|Finance|Lending|Loans?|Mortgage|Insurance|Association|"
+                           r"Partners|Holdings|Investments?|Investors|Equities|Properties|Realty|Group|Servicing|FSB|Federal|National|Savings)\b", re.I)
+LENDER_LABEL = re.compile(r"(?:Current\s+(?:Beneficiary|Mortgagee)[^:\n]*|Lender|Beneficiary|Mortgagee|Holder)(?:\((?:s|ies)\))?\s*:\s*([^\n]{4,90})", re.I)
 
 
 def notice_fields(text: str) -> dict:
@@ -451,6 +454,13 @@ def notice_fields(text: str) -> dict:
     flat = re.sub(r"\s+", " ", text)
     for m in [*LENDER_LABEL.finditer(text), *PAYEE.finditer(flat), *LENDER_DEFINED.finditer(flat)]:
         name = clean_business((m.group(1) or m.group(2) if m.re is LENDER_DEFINED else m.group(1)).split("  ")[0])
+        # "City Bank as the successor in interest to ...": the name ends
+        # where its capacity begins.
+        name = re.split(r"\s+as\s+(?:the|a|an|such|successor|trustee|nominee|agent|assignee|servicer)\b|\s+pursuant\b|,?\s+its\s+successors", name or "", flags=re.I)[0].strip(" ,;")
+        # Business names only (never an individual's) and never an OCR
+        # fragment that starts mid-word ("eal Estate Capital, LLC").
+        if name and (not name[0].isupper() and not name[0].isdigit() or not BUSINESS_MARK.search(name)):
+            continue
         if name and not re.search(r"MORTGAGE ELECTRONIC|MERS", name, re.I):
             # OCR's "SPRING. BRANCH FUNDING" and "Spring, Branch Funding": a
             # stray mark inside a name, not before its LLC or N.A.

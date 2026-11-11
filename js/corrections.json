@@ -3,6 +3,16 @@
  "startedOn": "2026-09-12",
  "entries": [
   {
+   "date": "2026-11-11",
+   "scope": "site",
+   "caseId": null,
+   "subject": "Texas Foreclosure Sales: Harris County properties at 11909 Tidwell Rd, 10440 South Dr and 6707 Avenue F, Houston",
+   "kind": "Corrected: party",
+   "was": "Lender named in the notice read \"John Na\" (11909 Tidwell Rd), \"eal Estate Capital, LLC\" (10440 South Dr) and \"City Bank as the nterest to Bank of Houston by merger and as such City Bank pursuant\" (6707 Avenue F).",
+   "now": "New Era Life Insurance Company (11909 Tidwell Rd), JLL Real Estate Capital, LLC, the original lender (10440 South Dr), and City Bank (6707 Avenue F).",
+   "basis": "The names were misread by text recognition of the scanned Harris County Clerk notices (documents FRCL-2026-8536, -8580 and -8573). Re-reading each notice shows the names above; the reader now keeps only business names and drops fragments."
+  },
+  {
    "date": "2026-11-09",
    "scope": "site",
    "caseId": null,
