@@ -1981,8 +1981,8 @@
    "action": "skipped: no coverage found explaining the filing, property type unconfirmed"
   },
   "petition:https://www.courtlistener.com/docket/75088646/tcp-real-estate-holdings-llc/": {
-   "at": "2026-11-10",
-   "action": "skipped: no coverage found explaining the filing (searched TCP Real Estate Holdings LLC specifically; closest hits were unrelated, older NJ real estate Ch. 11 filings from 2024-2025)"
+   "at": "2026-11-11",
+   "action": "skipped: no coverage found explaining the filing; two paywalled Law360 pieces about an unnamed NJ real estate firm/property owner in Chapter 11 could not be confirmed as this entity"
   },
   "https://www.courtlistener.com/docket/75092499/rockefeller-photos-llc-v-selinsgrove-hotel-inc/": {
    "at": "2026-11-09",
@@ -2027,6 +2027,26 @@
   "https://www.courtlistener.com/docket/75097390/the-property-maintenance-group-llc-v-township-of-maplewood/": {
    "at": "2026-11-10",
    "action": "skipped: no coverage found explaining the filing (same-day filing, no named major player)"
+  },
+  "petition:https://www.courtlistener.com/docket/75097612/293-a-cooper-corp/": {
+   "at": "2026-11-11",
+   "action": "skipped: no coverage of this 2026-11-10 filing; the only search hits are for an unrelated, earlier 293 A Cooper Corp Chapter 11 (case 1:25-bk-44490, filed 2025-09-18, dismissed 2025-11-07 for lack of counsel) -- not this docket"
+  },
+  "opinion:11059062": {
+   "at": "2026-11-11",
+   "action": "skipped: individual debt-judgment enforcement/turnover-receiver matter (law firm P.C. collecting a money judgment against an individual), not commercial real estate; individual defendant"
+  },
+  "opinion:11059023": {
+   "at": "2026-11-11",
+   "action": "skipped: small landlord-tenant breach-of-oral-lease dispute ($4,000-$8,468 figures), both tenant parties are individuals with no business suffix and property type/commercial use not clearly established from the text; too thin and uncertain scope to publish"
+  },
+  "opinion:11058968": {
+   "at": "2026-11-11",
+   "action": "skipped: residential eminent domain -- opinion states the taking was a temporary construction easement over the appellants residential property"
+  },
+  "opinion:11059030": {
+   "at": "2026-11-11",
+   "action": "matter live-389"
   }
  }
 }

@@ -3428,7 +3428,7 @@ const RELAW_DATA = {
       title: "Deutsche Bank National Trust Co. v. WMN Foshay LP ($51M Foshay Tower Foreclosure)",
       brief: "Deutsche Bank, as CMBS trustee, sued the owner of the Foshay Tower, home of the 229-room W Minneapolis hotel, over a $51 million mortgage left unpaid at its May 2025 maturity, and seeks a court-appointed receiver.",
       category: "lending-foreclosure",
-      status: "pending",
+      status: "ruling",
       date: "2026-04-14",
       jurisdiction: "Hennepin County District Court, Minnesota",
       parties: [
@@ -3436,13 +3436,13 @@ const RELAW_DATA = {
         { name: "WMN Foshay LP", role: "Defendant" }
       ],
       judge: null,
-      amountUsd: 43000000,
-      amountBasis: "claim",
+      amountUsd: 42300000,
+      amountBasis: "judgment",
       state: "MN",
-      amount: "$51M mortgage; ~$43M sought",
+      amount: "$51M mortgage; judgment of $42.3M+",
       source: "live",
-      sourceUrl: "https://bringmethenews.com/minnesota-business/foshay-tower-faces-foreclosure-after-owner-fails-to-pay-mortgage",
-      summary: "Deutsche Bank, acting as trustee for CMBS bondholders, sued the Foshay Tower's owner, WMN Foshay LP, in Hennepin County District Court in early-to-mid April 2026, alleging the 32-story Art Deco landmark's owner failed to pay off its $51 million mortgage by its May 2025 maturity date and now owes roughly $43 million in unpaid principal, interest, and fees. The suit seeks a court-appointed receiver for the building, which houses the 229-room W Minneapolis hotel along with Manny's Steakhouse, Prohibition Bar, and The Living Room lounge.",
+      sourceUrl: "https://www.connectcre.com/?p=504290",
+      summary: "Deutsche Bank, acting as trustee for CMBS bondholders, sued the Foshay Tower's owner, WMN Foshay LP, in Hennepin County District Court in early-to-mid April 2026, alleging the 32-story Art Deco landmark's owner failed to pay off its $51 million mortgage by its May 2025 maturity date and now owes roughly $43 million in unpaid principal, interest, and fees. The suit seeks a court-appointed receiver for the building, which houses the 229-room W Minneapolis hotel along with Manny's Steakhouse, Prohibition Bar, and The Living Room lounge. A Hennepin County judge ruled in late August 2026 that WMN Foshay owes more than $42.3 million on the defaulted loan, and the property is now scheduled for a foreclosure sale on December 18, 2026, with Morningstar reporting that receivership appears likely in the near term.",
       significance: "A recurring-distress case study: the same building lost its prior owner, Ashford Hospitality Trust, to a 2020 default on the same fundamental problem -- hospitality-anchored CRE debt that assumes room-rate and occupancy levels the underlying market no longer supports. Lenders and buyers evaluating hotel-anchored office/mixed-use towers should treat a building's own default history as a first-order underwriting signal independent of the current owner's specific financial condition, since the underlying asset economics that caused the prior default may not have actually changed.",
       body: [
         "Foshay Tower, the 32-story Art Deco skyscraper that was Minneapolis' tallest building from its 1929 completion until the IDS Center surpassed it in 1972, is facing foreclosure after owner WMN Foshay LP failed to pay off a $51 million mortgage by its maturity date in May 2025. Deutsche Bank, acting as trustee on behalf of bondholders in an affiliated commercial mortgage-backed securities trust, filed suit in Hennepin County District Court in early-to-mid April 2026, alleging WMN Foshay now owes roughly $43 million in unpaid principal, interest, and fees, and asking the court to appoint a receiver to manage the property.",
@@ -3456,7 +3456,9 @@ const RELAW_DATA = {
         { when: "2015", label: "Ashford Hospitality Trust buys Foshay Tower and the Chambers Hotel for a combined $187M" },
         { when: "2020", label: "Ashford relinquishes ownership of Foshay Tower after missing loan payments during the pandemic" },
         { when: "May 2025", label: "WMN Foshay LP's $51M mortgage matures without full repayment" },
-        { when: "April 2026", label: "Deutsche Bank sues to foreclose in Hennepin County District Court, seeking a receiver", current: true }
+        { when: "April 2026", label: "Deutsche Bank sues to foreclose in Hennepin County District Court, seeking a receiver" },
+        { when: "August 2026", label: "A Hennepin County judge rules WMN Foshay owes more than $42.3M on the defaulted loan" },
+        { when: "December 18, 2026", label: "A foreclosure sale of the Foshay Tower is scheduled; Morningstar reports receivership appears likely in the near term", current: true, upcoming: true }
       ]
     },
     {
@@ -13647,6 +13649,49 @@ const RELAW_DATA = {
       timeline: [
         { when: "December 23, 2024", label: "Circuit Court of the City of Colonial Heights enters final order limiting the City's tax-penalty authority" },
         { when: "November 10, 2026", label: "Court of Appeals of Virginia affirms in part, reverses in part, holding state default penalty rates apply but the City's 2024 ordinance cannot apply retroactively", current: true }
+      ]
+    },
+    {
+      id: "live-389",
+      addedDate: "2026-11-11",
+      title: "Allison Lauderdale v. Hinds County Mississippi Board of Supervisors, Soul City Storage, LLC and Soul City Energy, LLC (Solar Farm and Battery Storage Permit Challenge)",
+      brief: "Mississippi's Court of Appeals affirmed Hinds County's approval of conditional use permits for a 5,800-acre solar farm and battery storage facility, rejecting a neighbor's claim that the Board needed written findings.",
+      seoTitle: "Hinds County, MS: Solar Farm & Battery Storage Permits Upheld",
+      seoDescription: "Mississippi Court of Appeals affirms Hinds County's conditional use permits for Soul City's solar farm and battery storage facility over a neighbor's zoning challenge.",
+      category: "zoning-land-use",
+      status: "appeal",
+      date: "2026-11-10",
+      jurisdiction: "Court of Appeals of Mississippi",
+      state: "MS",
+      amount: "Not a damages matter (conditional use permit appeal)",
+      source: "live",
+      sourceUrl: "https://courts.ms.gov/Images/Opinions/CO197122.pdf",
+      documentUrl: "https://courts.ms.gov/Images/Opinions/CO197122.pdf",
+      documentLabel: "Read the official opinion",
+      property: {"name": "Soul City solar farm and battery storage facility", "city": "Bolton", "state": "MS"},
+      summary: "The Mississippi Court of Appeals affirmed Hinds County's approval of conditional use permits allowing Soul City Storage, LLC and Soul City Energy, LLC to build a solar farm and battery storage facility on roughly 5,800 acres near Bolton, rejecting a neighboring resident's argument that the county Board of Supervisors was required to issue separate written findings on each zoning-ordinance factor before approving the project. The panel held the ordinance's written-decision requirement does not prescribe a specific form, and that Soul City's detailed site plans and supplemental applications in the record adequately addressed the ordinance's substantive concerns.",
+      significance: "A useful marker for developers and local governments handling contested conditional-use approvals for solar, battery storage, and similar large-footprint energy projects: Mississippi's deferential 'fairly debatable' standard means a board's approval will survive challenge so long as the application record substantively addresses the ordinance's criteria, even without a point-by-point written certification, and a developer's voluntary pre-hearing concessions on traffic, buffering, and wildlife protection can both win over a local board and insulate its ultimate approval from a later procedural challenge.",
+      body: [
+        "The Mississippi Court of Appeals on November 10, 2026 affirmed Hinds County's approval of conditional use permits for a large-scale solar farm and battery storage facility, rejecting a challenge brought by a neighboring landowner who argued the county Board of Supervisors acted arbitrarily by approving the project without issuing written findings. The decision closes out a roughly two-and-a-half-year administrative and judicial fight over roughly 5,800 acres of undeveloped land stretching from Bolton to an area north of the Natchez Trace, and offers a clear marker for how much process a local zoning board owes the public before approving a conditional use permit for an energy or industrial project.",
+        "The underlying facts trace back to April 2024, when Soul City Storage LLC and Soul City Energy LLC applied to the Hinds County Planning Commission for conditional use permits. Soul City held a community open house that drew more than 100 attendees and voluntarily revised its application to address concerns raised there, including relocating construction traffic, agreeing to a road-use agreement, and committing to tree and vegetation management along with wildlife corridors. At a May 2024 public hearing, the Planning Commission nonetheless voted unanimously to deny both permit applications after hearing substantial opposition, including from Allison Lauderdale, who spoke as a self-described designated spokesperson for Hinds County residents opposed to the project.",
+        "Soul City appealed that denial to the county Board of Supervisors, which held its own public hearing in June 2024. After hearing further testimony on both sides, including a request from the mayor of nearby Raymond for a one-year moratorium on solar projects, a county zoning official confirmed that Soul City's applications complied with the zoning ordinance and that solar farms were a permissible conditional use in the applicable district. The Board approved both applications by a 3-2 vote, memorializing its decision in a written order and accompanying minutes.",
+        "Lauderdale appealed that approval to the Hinds County Circuit Court, arguing the Board's decision was invalid because it failed to issue written findings addressing each specific factor -- ingress and egress, parking, screening, utilities, and general compatibility with adjoining property, among others -- that the county's zoning ordinance lists as considerations for a conditional use permit. The circuit court, sitting in its appellate capacity, affirmed in April 2025, finding Soul City's detailed supplemental applications and site plans were substantive enough to address those factors even without a separate point-by-point written certification. On further appeal, the Mississippi Court of Appeals agreed, with Judge Amy Lassitter St. Pe writing for the panel that the ordinance's written-decision requirement does not prescribe any particular form, and applying Mississippi's deferential 'fairly debatable' standard, under which a board's zoning decision will not be disturbed so long as substantial evidence supports it on both sides of the question.",
+        "For developers and local governments navigating conditional-use approvals for solar, battery storage, and other large-footprint energy infrastructure, the decision confirms that a county need not draft a bespoke, findings-by-findings written opinion to survive judicial review, so long as the application record itself speaks to the ordinance's substantive criteria, and it illustrates how a developer's voluntary, pre-hearing concessions can do double duty -- helping win over a local board after an initial denial, and building the administrative record an appellate court later points to in rejecting a procedural challenge. Developers pursuing similarly contested permits should treat the application record, not just the board's final vote, as what will actually be reviewed on appeal; local governments should ensure their written orders at least reference the supporting materials addressing each ordinance factor rather than relying on the vote alone; and project opponents should recognize that under a 'fairly debatable' standard, showing a decision was contested is not enough -- the challenger must show it lacked any substantial evidentiary basis at all."
+      ],
+      judge: "Amy Lassitter St. Pe",
+      parties: [
+        { name: "Hinds County Mississippi Board of Supervisors", role: "Appellee" },
+        { name: "Soul City Storage, LLC", role: "Appellee" },
+        { name: "Soul City Energy, LLC", role: "Appellee" }
+      ],
+      amountUsd: null,
+      tags: ["zoning", "solar", "battery-storage", "mississippi", "conditional-use-permit"],
+      timeline: [
+        { when: "April 2024", label: "Soul City Storage LLC and Soul City Energy LLC apply for conditional use permits" },
+        { when: "May 2024", label: "Hinds County Planning Commission votes unanimously to deny both permit applications" },
+        { when: "June 2024", label: "Hinds County Board of Supervisors approves both permits 3-2 on appeal from the Commission's denial" },
+        { when: "April 2025", label: "Hinds County Circuit Court affirms the Board's approval" },
+        { when: "November 10, 2026", label: "Mississippi Court of Appeals affirms, holding the Board's written order satisfied the zoning ordinance", current: true }
       ]
     }
   ],
