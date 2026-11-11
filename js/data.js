@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-10",
+  lastUpdatedDate: "2026-11-11",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -13692,6 +13692,43 @@ const RELAW_DATA = {
         { when: "June 2024", label: "Hinds County Board of Supervisors approves both permits 3-2 on appeal from the Commission's denial" },
         { when: "April 2025", label: "Hinds County Circuit Court affirms the Board's approval" },
         { when: "November 10, 2026", label: "Mississippi Court of Appeals affirms, holding the Board's written order satisfied the zoning ordinance", current: true }
+      ]
+    },
+    {
+      id: "live-390",
+      addedDate: "2026-11-11",
+      seoTitle: "Chamber of Commerce Building Pittsburgh: $1.4M No-Bid Foreclosure",
+      seoDescription: "A Goldman Sachs-affiliated CMBS trust took title to Pittsburgh's Chamber of Commerce Building after a $1.4M credit bid drew no competing offers.",
+      property: {"name": "Chamber of Commerce Building", "address": "411 Seventh Avenue", "city": "Pittsburgh", "state": "PA"},
+      title: "Goldman-Affiliated CMBS Trust Takes Pittsburgh's Chamber of Commerce Building at No-Bid Foreclosure Sale",
+      brief: "A Goldman Sachs-affiliated CMBS trust took title to Pittsburgh's historic Chamber of Commerce Building after its $1.4 million credit bid drew no competing bidders at a November 2 sheriff's sale.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-02",
+      jurisdiction: "Allegheny County Court of Common Pleas, Pennsylvania",
+      state: "PA",
+      amount: "$1.4M winning credit bid; no competing bidders",
+      source: "live",
+      sourceUrl: "https://www.connectcre.com/?p=504290#chamber-of-commerce-building",
+      summary: "A Goldman Sachs-affiliated CMBS trust foreclosed on 411 Seventh Avenue in downtown Pittsburgh, the historic Chamber of Commerce Building, after owner 411 Seventh Avenue Associates LP defaulted on its mortgage. At the November 2, 2026 Allegheny County sheriff's sale, the trust's $1.4 million opening credit bid drew no competing bidders, and the trust took title to the roughly 16-story office tower, according to a Pittsburgh Business Times report.",
+      significance: "A no-bid sheriff's sale is itself market evidence: it shows the lender's own credit bid was at or above what any third party was willing to pay for a mid-tier, partially vacant downtown office tower. For CMBS special servicers and bondholders, that is a real data point for loss-severity assumptions on comparable loans elsewhere in a pool, and for owners and lenders holding similarly positioned older office buildings in secondary downtown markets, it is a concrete signal of where clearing prices for this asset class currently sit.",
+      body: [
+        "The lender behind a defaulted mortgage on 411 Seventh Avenue in downtown Pittsburgh, long known as the Chamber of Commerce Building, became the property's owner after no competing bidder showed up to challenge its own credit bid at a November 2, 2026 sheriff's sale. According to a Pittsburgh Business Times report, the plaintiff, a Goldman Sachs-affiliated CMBS trust, submitted an opening bid of $1.4 million, and with no other party bidding above that figure, the trust took title from the building's prior owner, 411 Seventh Avenue Associates LP.",
+        "The outcome is a small but telling data point in a familiar pattern for office landlords and CMBS investors nationally: a loan secured by an aging, mid-sized downtown office building goes into default, the lender forecloses, and when the building reaches the auction block, the market's verdict is that almost nobody wants to own it, even at a price that would have seemed implausibly low a decade earlier. A $1.4 million winning bid for a roughly 269-foot office tower in a major city's downtown core says more about how buyers are currently pricing lease-up risk, deferred capital needs, and financing availability for older office stock than market commentary alone could.",
+        "The building has carried the Chamber of Commerce name since its original construction in the early twentieth century for Pittsburgh's own chamber of commerce, and has functioned as conventional multi-tenant office space for decades since, most recently holding ENERGY STAR certification and counting at least one longtime law-firm tenant among its roster. Commercial listing data shows the building has carried meaningful vacancy in recent years, including large blocks of contiguous space on multiple floors -- the kind of overhang that has made older, amenity-light office buildings in secondary markets difficult to refinance as loans mature.",
+        "That dynamic appears to be exactly what played out here. The trust pursued a mortgage foreclosure through Allegheny County's court system, culminating in the November 2 monthly sheriff's sale. Pennsylvania foreclosure procedure allows a lender to credit-bid the amount it is owed, or a strategically lower figure, rather than pay cash, and when no third party outbids that credit bid, the lender becomes the record owner by operation of the sheriff's deed -- which is what happened here, with ownership passing through the foreclosure sale itself rather than a negotiated transaction.",
+        "For CMBS special servicers, bondholders, and workout counsel, a no-bid sheriff's sale functions much like a court ruling: it confirms, in the most market-tested way available, that the collateral's current fair value sits at or below whatever credit bid the lender was willing to make, which matters for loss-severity assumptions across an entire CMBS pool and not just the single loan involved. A trust left holding title after an auction nobody else entered inherits every carrying cost that comes with the asset -- property taxes, insurance, deferred maintenance, and leasing commissions needed to backfill vacancy -- in a market where tenant demand has not kept pace with available space.",
+        "Lenders and special servicers holding loans against older, partially vacant office buildings in secondary downtown markets should treat a no-bid outcome at a comparable property's sheriff's sale as real pricing evidence for their own reserve calculations, not an isolated anomaly. Borrowers facing a looming maturity default on similar assets should recognize that a credit-bid foreclosure, rather than a negotiated sale, may be the likely outcome once a lender concludes no cash buyer will clear the debt, and should weigh a deed-in-lieu or early workout accordingly; buyers tracking distressed office product should watch for lender-owned assets emerging from exactly this kind of auction, since trusts that end up as reluctant landlords are frequently near-term sellers once a property's basic occupancy and operations have stabilized."
+      ],
+      tags: ["foreclosure", "office", "cmbs", "pennsylvania", "sheriff-sale"],
+      parties: [
+        { name: "411 Seventh Avenue Associates LP", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 1400000,
+      amountBasis: "purchase price",
+      timeline: [
+        { when: "November 2, 2026", label: "Allegheny County sheriff's sale: trust's $1.4M credit bid draws no competing bidders; trust takes title", current: true }
       ]
     }
   ],
