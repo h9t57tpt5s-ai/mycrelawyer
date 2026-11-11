@@ -1,4 +1,8 @@
 {
+ "1 sugar creek center blvd, sugar land, tx 77478": {
+  "lat": 29.6149,
+  "lon": -95.6056
+ },
  "1 sugar creek center boulevard, sugar land, tx 77478": {
   "lat": 29.6149,
   "lon": -95.6056
@@ -31,6 +35,10 @@
  "121 starr, san antonio, tx 78202": {
   "lat": 29.42592,
   "lon": -98.48285
+ },
+ "12403 mellow meadows dr, austin, tx 78750": {
+  "lat": 30.45548,
+  "lon": -97.79641
  },
  "1301 west long lake road, troy, mi 48098": {
   "lat": 42.59077,
@@ -90,6 +98,7 @@
   "lat": 29.71759,
   "lon": -95.38031
  },
+ "2331 e palm valley blvd, round rock, tx 78665": null,
  "2450-2500 westfield drive, elgin, il 60124": null,
  "250 highland park boulevard, wilkes barre, pa 18702": {
   "lat": 41.23769,
@@ -130,6 +139,10 @@
  "3300 east renner road, richardson, tx 75082": {
   "lat": 32.99688,
   "lon": -96.65951
+ },
+ "333 ih 35 n, georgetown, tx 78626": {
+  "lat": 30.64339,
+  "lon": -97.68532
  },
  "3330 cahuenga boulevard, los angeles, ca 90068": {
   "lat": 34.13101,

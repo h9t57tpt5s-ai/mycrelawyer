@@ -93,8 +93,12 @@
   "11909 tidwell rd|houston|TX": "/properties/11909-tidwell-rd-houston-tx.html",
   "10440 s dr|houston|TX": "/properties/10440-south-dr-houston-tx.html",
   "106 e san augustine st|deer park|TX": "/properties/106-e-san-augustine-st-deer-park-tx.html",
+  "12403 mellow meadows dr|austin|TX": "/properties/12403-mellow-meadows-dr-austin-tx.html",
   "3300 e renner rd|richardson|TX": "/properties/3300-renner-richardson-tx.html",
   "2137 chelsea blvd e11|allen|TX": "/properties/2137-chelsea-blvd-e11-allen-tx.html",
+  "1 sugar creek center blvd|sugar land|TX": "/properties/sugar-creek-center-sugar-land-tx.html",
+  "2331 e palm valley blvd|round rock|TX": "/properties/2331-e-palm-valley-blvd-round-rock-tx.html",
+  "333 ih 35 n|georgetown|TX": "/properties/333-ih-35-n-georgetown-tx.html",
   "641 n i 35 e|desoto|TX": "/properties/la-quinta-desoto-tx.html",
   "9750 forest ln|dallas|TX": "/properties/the-marion-dallas-tx.html",
   "911 w wheatland rd|dallas|TX": "/properties/wheatland-garden-apartments-dallas-tx.html",
@@ -125,8 +129,12 @@
   "Harris:1032550000109": "/properties/11909-tidwell-rd-houston-tx.html",
   "Harris:1143740020001": "/properties/10440-south-dr-houston-tx.html",
   "Harris:0113190000478": "/properties/106-e-san-augustine-st-deer-park-tx.html",
+  "Williamson:R056943": "/properties/12403-mellow-meadows-dr-austin-tx.html",
   "Collin:2786864": "/properties/3300-renner-richardson-tx.html",
   "Collin:2774774": "/properties/2137-chelsea-blvd-e11-allen-tx.html",
+  "Fort Bend:R114803": "/properties/sugar-creek-center-sugar-land-tx.html",
+  "Williamson:R649114": "/properties/2331-e-palm-valley-blvd-round-rock-tx.html",
+  "Williamson:R040386": "/properties/333-ih-35-n-georgetown-tx.html",
   "Dallas:200615100A01B0000": "/properties/la-quinta-desoto-tx.html",
   "Dallas:00000791059100000": "/properties/the-marion-dallas-tx.html",
   "Dallas:00000745567000000": "/properties/wheatland-garden-apartments-dallas-tx.html",
@@ -138,6 +146,7 @@
   "Dallas:008042000C0020000": "/properties/11313-kingsley-rd-dallas-tx.html"
  },
  "cmbs": {
-  "3300-renner-richardson-tx-foreclosure-2026-09": "/properties/3300-renner-richardson-tx.html"
+  "3300-renner-richardson-tx-foreclosure-2026-09": "/properties/3300-renner-richardson-tx.html",
+  "sugar-creek-center-sugar-land-tx-foreclosure-2026-10": "/properties/sugar-creek-center-sugar-land-tx.html"
  }
 }
