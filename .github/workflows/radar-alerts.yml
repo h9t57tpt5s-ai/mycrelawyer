@@ -1,0 +1,39 @@
+name: Distress Radar alerts
+
+# Daily: emails each confirmed subscriber who set radar filters on
+# distress-radar.html the radar records first seen in the last 24 hours
+# that match them, via the newsletter Edge Function (send-radar). No
+# matching records, no email. Manual runs can send the owner a test with
+# the last 7 days' records.
+
+on:
+  schedule:
+    - cron: "41 14 * * *" # ~8:40am Central, after the morning feed runs
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "send-radar-test (owner only) or send-radar (all radar subscribers)"
+        type: choice
+        options: [send-radar-test, send-radar]
+        default: send-radar-test
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Send
+        env:
+          AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
+          ACTION: ${{ inputs.action || 'send-radar' }}
+        run: |
+          status=$(curl -sS -o /tmp/r.json -w "%{http_code}" \
+            -X POST 'https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/newsletter' \
+            -H "x-automation-secret: $AUTOMATION_SECRET" \
+            -H "Content-Type: application/json" \
+            --data "{\"action\":\"$ACTION\"}")
+          echo "radar $ACTION HTTP $status"; cat /tmp/r.json; echo
+          [[ "$status" =~ ^2 ]]

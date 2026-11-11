@@ -20,6 +20,7 @@
 // supabase/migrations/20261006_newsletter_subscribers.sql.
 
 import { createClient } from "npm:@supabase/supabase-js@2";
+import { cleanPrefs, decodePrefs, describe, encodePrefs, matches, type RadarRec, renderAlert } from "./radar.ts";
 import { buildIssue as build, type Inputs, type Issue, renderIssue as render } from "./issue.ts";
 
 const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
@@ -54,12 +55,17 @@ async function sendEmail(to: string, subject: string, html: string, text: string
 
 // ---------- subscribe / confirm / unsubscribe ----------
 
-async function subscribe(emailRaw: unknown, sourceRaw: unknown) {
+async function subscribe(emailRaw: unknown, sourceRaw: unknown, radarRaw?: unknown) {
   const email = String(emailRaw ?? "").trim().toLowerCase();
   if (!EMAIL_RE.test(email) || email.length > 254) return json({ ok: false, error: "Enter a valid email address." }, 400);
-  const source = String(sourceRaw ?? "site").slice(0, 60);
+  // Radar alert settings ride in the source field ("radar:{...}"), see radar.ts.
+  const prefs = cleanPrefs(radarRaw);
+  const source = prefs ? encodePrefs(prefs) : String(sourceRaw ?? "site").slice(0, 60);
   const { data: row } = await db.from("newsletter_subscribers").select("*").eq("email", email).maybeSingle();
-  if (row && row.status === "confirmed") return json({ ok: true, already: true });
+  if (row && row.status === "confirmed") {
+    if (prefs) await db.from("newsletter_subscribers").update({ source }).eq("id", row.id);
+    return json({ ok: true, already: true });
+  }
   // Throttle: never send more than one confirmation per address per 10 minutes.
   if (row && row.status === "pending" && row.confirmation_sent_at && Date.now() - Date.parse(row.confirmation_sent_at) < 10 * 60 * 1000) {
     return json({ ok: true });
@@ -82,7 +88,7 @@ async function subscribe(emailRaw: unknown, sourceRaw: unknown) {
     `<div style="font-family:sans-serif; max-width:520px; margin:0 auto; padding:24px; color:#0b0d12;">
       <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:#7c88a8;">CREdocket</p>
       <h2 style="font-family:Georgia,serif;">One click to confirm</h2>
-      <p style="font-size:14px; line-height:1.6;">Confirm your address to get <strong>New on CREdocket</strong>, a weekly email of the commercial real estate litigation added to the tracker, rulings in cases we follow, and new market signals.</p>
+      <p style="font-size:14px; line-height:1.6;">Confirm your address to get <strong>The CRE Distress Brief</strong>, a weekly read on commercial real estate lawsuits, bankruptcies, CMBS defaults and foreclosure postings${prefs ? ", plus an email whenever a new Distress Radar record matches your settings (" + describe(prefs) + ")" : ""}.</p>
       <p style="margin:24px 0;"><a href="${link}" style="background:#3355ff; color:#fff; padding:11px 22px; border-radius:999px; text-decoration:none; font-weight:600;">Confirm my subscription</a></p>
       <p style="font-size:12px; color:#7c88a8;">If you didn't ask for this, ignore this email and you won't hear from us.</p>
     </div>`,
@@ -157,6 +163,39 @@ async function sendWeekly(force: boolean) {
   return json({ sent, failed, skippedAccounts, skippedRecent, matters: issue.matters.length });
 }
 
+// ---------- Distress Radar alerts ----------
+// Daily: every confirmed subscriber with radar settings gets the radar
+// records first seen in the last 24 hours that match them (none: no email).
+// The test sends the owner the last 7 days' records, unfiltered.
+async function sendRadar(test: boolean) {
+  const r = await fetch(`${SITE}/js/radar-data.json?nl=${Date.now()}`);
+  if (!r.ok) return json({ error: `radar data HTTP ${r.status}` }, 502);
+  const recs = ((await r.json()).records || []) as RadarRec[];
+  const since = new Date(Date.now() - (test ? 7 : 1) * 864e5).toISOString().slice(0, 19) + "Z";
+  const fresh = recs.filter((x) => (x.seen || "") > since);
+  if (test) {
+    const all = { states: [], kinds: [], types: [] };
+    const { html, text, subject } = renderAlert(fresh, all, `${SITE}/newsletter.html`, POSTAL_ADDRESS);
+    const ok = fresh.length ? await sendEmail(OWNER_EMAIL, `[TEST] ${subject}`, html, text) : false;
+    return json({ sent: ok, to: OWNER_EMAIL, records: fresh.length });
+  }
+  if (!fresh.length) return json({ skipped: "No new radar records in the last 24 hours." });
+  const { data: subs, error } = await db.from("newsletter_subscribers").select("id, email, token, source").eq("status", "confirmed").like("source", "radar:%");
+  if (error) return json({ error: error.message }, 500);
+  let sent = 0, failed = 0, noMatch = 0;
+  for (const s of subs || []) {
+    const p = decodePrefs(s.source);
+    const mine = p ? fresh.filter((x) => matches(p, x)) : [];
+    if (!p || !mine.length) { noMatch++; continue; }
+    const unsub = `${FN_URL}?unsubscribe=${s.token}`;
+    const { html, text, subject } = renderAlert(mine, p, unsub, POSTAL_ADDRESS);
+    const ok = await sendEmail(s.email, subject, html, text, { "List-Unsubscribe": `<${unsub}>`, "List-Unsubscribe-Post": "List-Unsubscribe=One-Click" });
+    ok ? sent++ : failed++;
+    await new Promise((res) => setTimeout(res, 600));
+  }
+  return json({ fresh: fresh.length, subscribers: subs?.length || 0, sent, failed, noMatch });
+}
+
 // ---------- routing ----------
 
 Deno.serve(async (req) => {
@@ -171,7 +210,7 @@ Deno.serve(async (req) => {
   if (req.method !== "POST") return json({ error: "Method not allowed" }, 405);
   let body: Record<string, unknown> = {};
   try { body = await req.json(); } catch { /* empty */ }
-  if (body.action === "subscribe") return await subscribe(body.email, body.source);
+  if (body.action === "subscribe") return await subscribe(body.email, body.source, body.radar);
 
   if (!AUTOMATION_SECRET || req.headers.get("x-automation-secret") !== AUTOMATION_SECRET) return json({ error: "Invalid automation secret" }, 401);
   if (body.action === "send-test") {
@@ -181,6 +220,8 @@ Deno.serve(async (req) => {
     return json({ sent: ok, to: OWNER_EMAIL, subject, matters: issue.matters.length, insights: issue.insights.length, radar: issue.radar.length, rulings: issue.rulings.length, trends: issue.trends.length });
   }
   if (body.action === "send-weekly") return await sendWeekly(body.force === true);
+  if (body.action === "send-radar") return await sendRadar(false);
+  if (body.action === "send-radar-test") return await sendRadar(true);
   if (body.action === "import") {
     const emails = Array.isArray(body.emails) ? body.emails : [];
     const rows = emails.map((e) => String(e).trim().toLowerCase()).filter((e) => EMAIL_RE.test(e))
