@@ -23,7 +23,7 @@ type TxRow = {
   county: string; state: string; saleDate: string; address: string; city: string; propertyName: string; propertyType: string;
   sqft: number | null; units: number | null; firstSeen: string; slug: string; lender?: string; originalAmount?: number | null;
 };
-type Indicator = { id: string; label: string; value: number; unit: string; asOf: string; sourceUrl: string; source?: string;
+type Indicator = { id: string; label: string; value: number; unit: string; asOf: string; sourceUrl: string; source?: string; period?: string;
   comparisons?: { label: string; value: number; date: string }[] };
 type ActivityEvent = { caseIds: string[]; date: string; text: string; kind: string; firstSeen: string };
 
@@ -41,6 +41,8 @@ export type Inputs = {
 const SITE = "https://credocket.com";
 const UTM = "utm_source=credocket&utm_medium=email&utm_campaign=weekly-newsletter";
 const DAY = 864e5;
+// The FDIC aggregate's source is an API query; readers get the bank table.
+const indUrl = (i: { sourceUrl: string }) => /api\.fdic\.gov/.test(i.sourceUrl) ? link("/bank-cre-stress.html") : i.sourceUrl;
 
 export const esc = (s: unknown) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 export const plain = (s: unknown) => String(s ?? "").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
@@ -237,14 +239,14 @@ export function buildIssue(inp: Inputs) {
   }
 
   // 6. A market-wide credit indicator, when the market feed has one.
-  const ind = (inp.pulse?.indicators || []).find((i) => /delinquen/i.test(i.label)) || (inp.pulse?.indicators || [])[0];
+  const ind = (inp.pulse?.indicators || []).find((i) => i.id === "fdic-noncurrent-cre-rate") || (inp.pulse?.indicators || []).find((i) => /delinquen/i.test(i.label));
   if (ind?.comparisons?.length) {
     const c = ind.comparisons[ind.comparisons.length - 1];
     const dir = ind.value > c.value ? "up from" : ind.value < c.value ? "down from" : "unchanged from";
     insights.push({
       lead: `${ind.label}: ${fmtInd(ind.value, ind.unit)}.`,
-      body: `As of ${fmtDate(ind.asOf)}, ${dir} ${fmtInd(c.value, ind.unit)} (${c.label}). Source: ${ind.source || "official data"}.`,
-      href: ind.sourceUrl,
+      body: `In ${ind.period || fmtDate(ind.asOf)}, ${dir} ${fmtInd(c.value, ind.unit)} (${c.label}). Source: ${ind.source || "official data"}.`,
+      href: indUrl(ind),
     });
   }
 
@@ -295,7 +297,9 @@ export function buildIssue(inp: Inputs) {
     .map((e) => ({ id: e.caseIds[0], title: byId[e.caseIds[0]]?.title, date: e.date, text: e.text, kind: e.kind }))
     .filter((r) => r.title);
   const trends = (inp.data.trends || []).filter((t) => t.date >= since(8)).sort((a, b) => (b.date > a.date ? 1 : -1));
-  const pulse = (inp.pulse?.indicators || []).slice(0, 4);
+  const PULSE_IDS = ["fdic-noncurrent-cre-rate", "fred-drcrelexfacbs", "fred-creacbw027sbog", "fred-dgs10"];
+  const allInd = inp.pulse?.indicators || [];
+  const pulse = PULSE_IDS.map((id) => allInd.find((i) => i.id === id)).filter((i) => i !== undefined) as Indicator[];
 
   return { from: since(6), to, cats, matters, lead, stats, insights, catRows, radar, weeks, rulings, trends, pulse };
 }
@@ -309,6 +313,7 @@ const titleCase = (s: string) => /[a-z]/.test(s) ? s
 
 function fmtInd(v: number, unit: string) {
   if (unit === "%" || unit === "percent") return `${v.toFixed(2)}%`;
+  if (/billions/i.test(unit) && v >= 1000) return `$${(v / 1000).toFixed(2)}T`;
   if (unit === "USD" || unit === "$") return money(v);
   if (/billions/i.test(unit)) return `$${v.toLocaleString("en-US", { maximumFractionDigits: 1 })}B`;
   return `${v.toLocaleString("en-US", { maximumFractionDigits: 2 })}${unit ? " " + unit : ""}`;
@@ -440,11 +445,11 @@ export function renderIssue(issue: Issue, unsubscribeUrl: string, postalAddress:
     const delta = c ? p.value - c.value : 0;
     return `
       <td valign="top" width="${Math.floor(100 / pulse.length)}%" style="padding:14px 12px;border:1px solid ${RULE};">
-        <a href="${p.sourceUrl}" style="text-decoration:none;">
+        <a href="${esc(indUrl(p))}" style="text-decoration:none;">
           <div style="font:600 11.5px/1.3 ${SANS};color:${DIM};">${esc(p.label)}</div>
           <div style="font:700 24px/1.1 ${SERIF};color:${INK};margin-top:6px;">${esc(fmtInd(p.value, p.unit))}</div>
           ${c ? `<div style="font:600 11px/1.3 ${SANS};color:${delta > 0 ? RED : delta < 0 ? GREEN : FAINT};margin-top:5px;">${delta > 0 ? "▲" : delta < 0 ? "▼" : "•"} from ${esc(fmtInd(c.value, p.unit))} ${esc(c.label)}</div>` : ""}
-          <div style="font:400 10.5px/1.3 ${SANS};color:${FAINT};margin-top:4px;">As of ${fmtDate(p.asOf)}</div>
+          <div style="font:400 10.5px/1.3 ${SANS};color:${FAINT};margin-top:4px;">${esc(p.period || fmtDate(p.asOf))}</div>
         </a>
       </td>`;
   }).join("");
@@ -530,7 +535,7 @@ ${rulings.length ? section("Docket watch", "Rulings in cases we follow") + rulin
     ...(insights.length ? ["WHAT THE WEEK'S RECORDS SAY", ...insights.map((x, i) => `${i + 1}. ${x.lead} ${x.body}`), ""] : []),
     ...(lead ? ["LEAD CASE", plain(lead.title), clip(plain(lead.summary || lead.brief), 520), matterUrl(lead.id), ""] : []),
     ...(radar.length ? ["DISTRESS RADAR", ...radar.slice(0, 8).map((r) => `[${r.kind}] ${r.title}: ${r.detail}  ${r.href}`), ""] : []),
-    ...(pulse.length ? ["CREDIT CONDITIONS", ...pulse.map((p) => `${p.label}: ${fmtInd(p.value, p.unit)} (as of ${fmtDate(p.asOf)}) ${p.sourceUrl}`), ""] : []),
+    ...(pulse.length ? ["CREDIT CONDITIONS", ...pulse.map((p) => `${p.label}: ${fmtInd(p.value, p.unit)} (${p.period || fmtDate(p.asOf)}) ${indUrl(p)}`), ""] : []),
     ...(trends.length ? ["MARKET SIGNALS", ...trends.map((t) => `${plain(t.title)}${t.metric ? ` (${t.metric})` : ""}`), link("/trends.html"), ""] : []),
     ...(rest.length ? ["ALSO NEW ON THE TRACKER", ...rest.flatMap((c) => [plain(c.title), matterUrl(c.id), ""])] : []),
     ...(rulings.length ? ["RULINGS IN CASES WE FOLLOW", ...rulings.map((r) => `${plain(r.title)}: ${fmtDate(r.date)}, ${r.kind === "closed" ? "case closed" : plain(r.text)}. ${matterUrl(r.id)}`), ""] : []),
