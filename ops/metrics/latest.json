@@ -1,248 +1,247 @@
 {
- "date": "2026-11-10",
- "generatedAt": "2026-11-10T20:59:08+00:00",
+ "date": "2026-11-11",
+ "generatedAt": "2026-11-11T21:31:21+00:00",
  "note": "Visits are tab sessions from js/track.js (crawlers filtered). From 2026-11-03 a visit counts only after a human action (scroll, click, key, touch or mouse movement); automated contact-page bursts had tripled visits in late October, so compare windows that start on or after 2026-11-04 with each other, not with earlier ones. The site is small: read 7- and 28-day windows, not single days.",
  "last1Day": {
-  "visits": 53,
-  "pageViews": 67,
-  "multiPageVisits": 5,
-  "multiPageRate": 0.0943,
+  "visits": 54,
+  "pageViews": 76,
+  "multiPageVisits": 6,
+  "multiPageRate": 0.1111,
   "funnel": {
-   "viewedAMatter": 37,
-   "sawSignInPrompt": 1,
-   "openedSignIn": 0,
-   "signedUpOrIn": 0,
-   "readFullWriteUp": 36,
+   "viewedAMatter": 25,
+   "sawSignInPrompt": 7,
+   "openedSignIn": 1,
+   "signedUpOrIn": 1,
+   "readFullWriteUp": 18,
    "clickedWatchlist": 0,
    "shared": 0
   },
-  "signUps": 0,
+  "signUps": 1,
   "follows": 0,
   "newsletterSignups": 0,
   "contactSends": 0,
-  "sourceClicks": 4,
+  "sourceClicks": 3,
   "searches": 0,
   "byEvent": {
-   "full_read": 47,
-   "matter_page_view": 45,
-   "page_view": 22,
-   "source_click": 4,
-   "panel_open": 3,
-   "gate_shown": 1
+   "page_view": 48,
+   "matter_page_view": 28,
+   "full_read": 22,
+   "gate_shown": 7,
+   "source_click": 3,
+   "panel_open": 1,
+   "signin_open": 1,
+   "signup": 1
   },
   "topPages": [
    [
-    "/matters/live-374.html",
+    "/litigation.html",
+    6
+   ],
+   [
+    "/judges.html",
+    5
+   ],
+   [
+    "/cmbs-watch.html",
+    5
+   ],
+   [
+    "/",
     4
    ],
    [
-    "/matters/live-221.html",
+    "/matters/live-266.html",
     3
    ],
    [
-    "/litigation.html",
+    "/distress-radar.html",
     3
    ],
    [
-    "/data-center-litigation-tracker.html",
+    "/matters/live-307.html",
     3
    ],
    [
-    "/cmbs/marshall-apartments-hartford-ct-foreclosure-2026-09.html",
-    3
+    "/matters/live-265.html",
+    2
+   ],
+   [
+    "/matters/live-229.html",
+    2
    ],
    [
     "/matters/live-208.html",
     2
-   ],
-   [
-    "/newsletter.html",
-    2
-   ],
-   [
-    "/matters/live-371.html",
-    2
-   ],
-   [
-    "/matters/live-377.html",
-    2
-   ],
-   [
-    "/matters/live-230.html",
-    2
    ]
   ],
   "toolViews": {
-   "case-valuation": 0,
+   "case-valuation": 1,
    "lease-clause-redline": 0,
    "settlement-benchmarks": 0,
    "litigation-index": 0,
-   "-tracker": 3
+   "-tracker": 0
   },
   "landingReferrers": [
    [
-    "direct or unknown",
-    25
+    "google.com",
+    24
    ],
    [
-    "google.com",
-    20
+    "direct or unknown",
+    24
    ],
    [
     "utm:chatgpt.com",
     4
    ],
    [
-    "utm:credocket",
-    2
-   ],
-   [
-    "bing.com",
+    "teams.public.onecdn.static.microsoft",
     1
    ],
    [
-    "status.internal.bluedd.com",
+    "bing.com",
     1
    ]
   ],
   "topMatters": [
    [
-    "live-374",
-    4
+    "live-266",
+    3
    ],
    [
-    "live-221",
+    "live-307",
     3
+   ],
+   [
+    "live-265",
+    2
+   ],
+   [
+    "live-229",
+    2
    ],
    [
     "live-208",
     2
    ],
    [
-    "live-371",
+    "live-228",
     2
    ],
    [
-    "live-377",
-    2
+    "live-058",
+    1
    ],
    [
-    "live-230",
-    2
+    "live-200",
+    1
    ],
    [
-    "live-338",
-    2
+    "live-382",
+    1
    ],
    [
-    "live-376",
-    2
-   ],
-   [
-    "live-236",
-    2
-   ],
-   [
-    "live-137",
-    2
+    "live-078",
+    1
    ]
   ]
  },
  "last7Days": {
-  "visits": 362,
-  "pageViews": 457,
-  "multiPageVisits": 37,
-  "multiPageRate": 0.1022,
+  "visits": 334,
+  "pageViews": 425,
+  "multiPageVisits": 38,
+  "multiPageRate": 0.1138,
   "funnel": {
-   "viewedAMatter": 187,
-   "sawSignInPrompt": 1,
+   "viewedAMatter": 193,
+   "sawSignInPrompt": 8,
    "openedSignIn": 1,
-   "signedUpOrIn": 0,
-   "readFullWriteUp": 148,
+   "signedUpOrIn": 1,
+   "readFullWriteUp": 168,
    "clickedWatchlist": 0,
    "shared": 0
   },
-  "signUps": 0,
+  "signUps": 1,
   "follows": 0,
   "newsletterSignups": 0,
   "contactSends": 0,
-  "sourceClicks": 14,
-  "searches": 22,
+  "sourceClicks": 15,
+  "searches": 1,
   "byEvent": {
-   "page_view": 254,
-   "matter_page_view": 203,
-   "full_read": 173,
-   "search": 22,
-   "source_click": 14,
-   "panel_open": 14,
+   "matter_page_view": 213,
+   "page_view": 212,
+   "full_read": 198,
+   "source_click": 15,
+   "panel_open": 15,
+   "gate_shown": 8,
+   "search": 1,
    "signin_open": 1,
-   "gate_shown": 1
+   "signup": 1
   },
   "topPages": [
    [
     "/litigation.html",
-    66
-   ],
-   [
-    "/contact.html",
-    31
+    48
    ],
    [
     "/",
-    20
+    21
    ],
    [
     "/judges.html",
-    19
+    18
    ],
    [
     "/matters/live-208.html",
-    15
-   ],
-   [
-    "/data-center-litigation-tracker.html",
-    13
-   ],
-   [
-    "/matters/live-221.html",
-    12
-   ],
-   [
-    "/matters/live-173.html",
-    10
-   ],
-   [
-    "/matters/live-266.html",
-    9
-   ],
-   [
-    "/matters/live-357.html",
-    8
-   ]
-  ],
-  "toolViews": {
-   "case-valuation": 0,
-   "lease-clause-redline": 0,
-   "settlement-benchmarks": 0,
-   "litigation-index": 2,
-   "-tracker": 13
-  },
-  "landingReferrers": [
-   [
-    "direct or unknown",
-    167
-   ],
-   [
-    "google.com",
-    165
-   ],
-   [
-    "utm:chatgpt.com",
     17
    ],
    [
+    "/matters/live-221.html",
+    13
+   ],
+   [
+    "/matters/live-173.html",
+    11
+   ],
+   [
+    "/matters/live-266.html",
+    11
+   ],
+   [
+    "/data-center-litigation-tracker.html",
+    10
+   ],
+   [
+    "/chapter-11/la-property-investments-llc-ganb-26-64871.html",
+    7
+   ],
+   [
+    "/cmbs-watch.html",
+    7
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 1,
+   "lease-clause-redline": 0,
+   "settlement-benchmarks": 0,
+   "litigation-index": 1,
+   "-tracker": 10
+  },
+  "landingReferrers": [
+   [
+    "google.com",
+    160
+   ],
+   [
+    "direct or unknown",
+    140
+   ],
+   [
+    "utm:chatgpt.com",
+    19
+   ],
+   [
     "bing.com",
-    4
+    5
    ],
    [
     "duckduckgo.com",
@@ -272,34 +271,34 @@
   "topMatters": [
    [
     "live-208",
-    15
+    17
+   ],
+   [
+    "live-221",
+    13
    ],
    [
     "live-205",
     13
    ],
    [
-    "live-221",
-    12
-   ],
-   [
     "live-173",
-    10
+    11
    ],
    [
     "live-266",
-    9
-   ],
-   [
-    "live-357",
-    8
+    11
    ],
    [
     "live-351",
     7
    ],
    [
-    "live-165",
+    "live-357",
+    6
+   ],
+   [
+    "live-265",
     6
    ],
    [
@@ -307,48 +306,48 @@
     6
    ],
    [
-    "live-356",
-    5
+    "live-376",
+    6
    ]
   ]
  },
  "last28Days": {
-  "visits": 2809,
-  "pageViews": 3065,
-  "multiPageVisits": 124,
-  "multiPageRate": 0.0441,
+  "visits": 2816,
+  "pageViews": 3067,
+  "multiPageVisits": 126,
+  "multiPageRate": 0.0447,
   "funnel": {
-   "viewedAMatter": 1214,
-   "sawSignInPrompt": 1,
-   "openedSignIn": 5,
+   "viewedAMatter": 1222,
+   "sawSignInPrompt": 8,
+   "openedSignIn": 6,
    "signedUpOrIn": 5,
-   "readFullWriteUp": 509,
+   "readFullWriteUp": 525,
    "clickedWatchlist": 0,
    "shared": 0
   },
   "signUps": 4,
   "follows": 0,
-  "newsletterSignups": 4,
+  "newsletterSignups": 3,
   "contactSends": 0,
   "sourceClicks": 69,
-  "searches": 42,
+  "searches": 40,
   "byEvent": {
-   "page_view": 2142,
-   "matter_page_view": 923,
-   "full_read": 795,
-   "panel_open": 641,
+   "page_view": 2129,
+   "matter_page_view": 938,
+   "full_read": 682,
+   "panel_open": 504,
    "source_click": 69,
-   "search": 42,
+   "search": 40,
+   "gate_shown": 8,
    "permalink": 7,
-   "signin_open": 5,
+   "signin_open": 6,
    "signup": 4,
-   "magic_link_sent": 1,
-   "gate_shown": 1
+   "magic_link_sent": 1
   },
   "topPages": [
    [
     "/litigation.html",
-    568
+    556
    ],
    [
     "/contact.html",
@@ -356,15 +355,15 @@
    ],
    [
     "/",
-    122
+    110
    ],
    [
     "/matters/live-208.html",
-    55
+    56
    ],
    [
     "/judges.html",
-    42
+    46
    ],
    [
     "/compare-companies.html",
@@ -372,52 +371,52 @@
    ],
    [
     "/matters/live-266.html",
-    28
-   ],
-   [
-    "/data-center-litigation-tracker.html",
-    26
+    31
    ],
    [
     "/matters/live-229.html",
-    26
+    28
    ],
    [
     "/matters/live-265.html",
-    24
+    26
+   ],
+   [
+    "/data-center-litigation-tracker.html",
+    25
    ]
   ],
   "toolViews": {
-   "case-valuation": 19,
+   "case-valuation": 20,
    "lease-clause-redline": 2,
    "settlement-benchmarks": 2,
    "litigation-index": 14,
-   "-tracker": 30
+   "-tracker": 29
   },
   "landingReferrers": [
    [
     "direct or unknown",
-    2067
+    2061
    ],
    [
     "google.com",
-    610
+    617
    ],
    [
     "utm:chatgpt.com",
-    46
+    50
    ],
    [
     "utm:defebdxfg",
     17
    ],
    [
-    "utm:credocket",
+    "bing.com",
     14
    ],
    [
-    "bing.com",
-    13
+    "utm:credocket",
+    14
    ],
    [
     "duckduckgo.com",
@@ -439,15 +438,15 @@
   "topMatters": [
    [
     "live-208",
-    76
+    77
    ],
    [
-    "live-271",
-    51
+    "live-229",
+    32
    ],
    [
-    "live-099",
-    41
+    "live-266",
+    32
    ],
    [
     "live-303",
@@ -458,24 +457,24 @@
     31
    ],
    [
-    "live-229",
-    30
-   ],
-   [
-    "live-266",
-    29
-   ],
-   [
-    "live-267",
-    28
-   ],
-   [
-    "live-272",
-    28
-   ],
-   [
     "live-205",
     27
+   ],
+   [
+    "live-265",
+    26
+   ],
+   [
+    "live-304",
+    23
+   ],
+   [
+    "live-188",
+    22
+   ],
+   [
+    "live-221",
+    21
    ]
   ]
  },
@@ -486,35 +485,35 @@
    "hiddenUpdatesButton": 0,
    "brokenLinks": 0,
    "missingTitle": 0,
-   "longTitle": 7,
-   "missingDescription": 2,
+   "longTitle": 10,
+   "missingDescription": 3,
    "weakDescription": 2,
    "missingCanonical": 0,
    "duplicateTitles": 0,
-   "orphanPages": 0,
+   "orphanPages": 1,
    "missingFromSitemap": 0,
    "sitemapUrlsWithoutFile": 0,
    "imagesWithoutAlt": 0,
    "heavyPages": 0
   },
   "freshness": {
-   "matters": 330,
-   "newestMatterAdded": "2026-11-10",
+   "matters": 334,
+   "newestMatterAdded": "2026-11-11",
    "daysSinceNewestMatter": 0,
-   "ch11Petitions": 181,
-   "newestCh11Petition": "2026-11-09",
+   "ch11Petitions": 182,
+   "newestCh11Petition": "2026-11-10",
    "daysSinceNewestCh11": 1,
    "federalSuits": 122,
    "newestFederalSuit": "2026-11-10",
-   "daysSinceNewestSuit": 0
+   "daysSinceNewestSuit": 1
   },
-  "pagesChecked": 857
+  "pagesChecked": 868
  },
  "pipelines": {
-  "chapter11Petitions": 181,
+  "chapter11Petitions": 182,
   "federalSuits": 122,
-  "secLeads": 51,
+  "secLeads": 55,
   "wireLeads": 1,
-  "leadsHandled": 501
+  "leadsHandled": 521
  }
 }

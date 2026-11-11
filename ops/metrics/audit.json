@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-10T20:59:08+00:00",
- "pagesChecked": 857,
+ "generatedAt": "2026-11-11T21:31:21+00:00",
+ "pagesChecked": 868,
  "pagesByFolder": {
-  "root": 224,
-  "matters": 330,
-  "chapter-11": 181,
+  "root": 230,
+  "matters": 334,
+  "chapter-11": 182,
   "federal-cases": 122
  },
  "summary": {
@@ -13,27 +13,27 @@
   "hiddenUpdatesButton": 0,
   "brokenLinks": 0,
   "missingTitle": 0,
-  "longTitle": 7,
-  "missingDescription": 2,
+  "longTitle": 10,
+  "missingDescription": 3,
   "weakDescription": 2,
   "missingCanonical": 0,
   "duplicateTitles": 0,
-  "orphanPages": 0,
+  "orphanPages": 1,
   "missingFromSitemap": 0,
   "sitemapUrlsWithoutFile": 0,
   "imagesWithoutAlt": 0,
   "heavyPages": 0
  },
  "freshness": {
-  "matters": 330,
-  "newestMatterAdded": "2026-11-10",
+  "matters": 334,
+  "newestMatterAdded": "2026-11-11",
   "daysSinceNewestMatter": 0,
-  "ch11Petitions": 181,
-  "newestCh11Petition": "2026-11-09",
+  "ch11Petitions": 182,
+  "newestCh11Petition": "2026-11-10",
   "daysSinceNewestCh11": 1,
   "federalSuits": 122,
   "newestFederalSuit": "2026-11-10",
-  "daysSinceNewestSuit": 0
+  "daysSinceNewestSuit": 1
  },
  "findings": {
   "zeroStatCounters": [],
@@ -42,6 +42,11 @@
   "brokenLinks": [],
   "missingTitle": [],
   "longTitle": [
+   {
+    "page": "bank-cre-stress.html",
+    "chars": 85,
+    "title": "Bank CRE Stress: Which Banks Hold Noncurrent Commercial Real Estate Loans \u2014 CREdocket"
+   },
    {
     "page": "cmbs-watch.html",
     "chars": 82,
@@ -63,9 +68,19 @@
     "title": "Wilmington Trust National Association Lawsuits & Court Cases (7) \u2014 CREdocket"
    },
    {
+    "page": "distress-radar.html",
+    "chars": 106,
+    "title": "Distress Radar: Commercial Real Estate Foreclosures, CMBS Defaults and Bankruptcies on One Map \u2014 CREdocket"
+   },
+   {
     "page": "litigation.html",
     "chars": 77,
-    "title": "Commercial Real Estate Litigation Tracker: 330 Lawsuits & Rulings \u2014 CREdocket"
+    "title": "Commercial Real Estate Litigation Tracker: 334 Lawsuits & Rulings \u2014 CREdocket"
+   },
+   {
+    "page": "markets.html",
+    "chars": 99,
+    "title": "Commercial Real Estate Distress by Market: Foreclosures, CMBS Defaults and Bankruptcies \u2014 CREdocket"
    },
    {
     "page": "state-court-watch.html",
@@ -80,6 +95,7 @@
   ],
   "missingDescription": [
    "admin-settlement-review.html",
+   "email-preview.html",
    "handbook.html"
   ],
   "weakDescription": [
@@ -94,7 +110,9 @@
   ],
   "missingCanonical": [],
   "duplicateTitles": {},
-  "orphanPages": [],
+  "orphanPages": [
+   "directory-overview.html"
+  ],
   "missingFromSitemap": [],
   "sitemapUrlsWithoutFile": [],
   "imagesWithoutAlt": [],
