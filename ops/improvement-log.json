@@ -1278,7 +1278,15 @@
         "googleLandings7": 166
       },
       "checkAfter": "2026-11-11",
-      "status": "watching"
+      "status": "no clear effect",
+      "verdict": {
+        "date": "2026-11-11",
+        "value": {
+          "visits7": 362,
+          "googleLandings7": 165
+        },
+        "note": "visits7 1463->362 (-75.3%) clears the 25% threshold but is not attributable to this change: the baseline was captured 2026-11-04, during the tail of G19's /contact.html bot contamination (per-day history shows contact1d still 31 that day, falling to 0 from 2026-11-05 onward once js/track.js's real-action-gated fix landed) -- the drop is the bot traffic leaving, not a real decline. googleLandings7 (166->165, G19's own advice to trust this over visits7 while the contamination was active) is flat, well under the 25% threshold. No evidence either way that california-lending-foreclosure.html moved traffic; it doesn't crack last7Days.topPages' top 10 (a low-traffic state-guide page, consistent with the other 15 pages in this backlog item). Not reverted -- G12's pattern has a positive track record overall (imp-012/015 helped) and this is a no-signal result, not a negative one."
+      }
     },
     {
       "id": "imp-054",
@@ -1598,6 +1606,38 @@
         "brokenLinks": 0
       },
       "checkAfter": "2026-11-11",
+      "status": "helped",
+      "verdict": {
+        "date": "2026-11-11",
+        "value": {
+          "orphanPages": 0,
+          "missingFromSitemap": 0,
+          "brokenLinks": 0
+        },
+        "note": "Live site_audit.py confirms orphanPages/missingFromSitemap/brokenLinks all 0 today, and judge-andre-b-mathis.html/judge-maria-c-mclaughlin.html specifically (imp-066's own fix target) are still linked and unaffected. A fourth G22 recurrence did happen today (a different page, judge-renee-cohn-jubelirer.html) -- that is a new occurrence of the bug class, not a reversion of this fix; see imp-067."
+      }
+    },
+    {
+      "id": "imp-067",
+      "date": "2026-11-11",
+      "track": "audit",
+      "title": "Fix: judge-renee-cohn-jubelirer.html meta descriptions, FOURTH G22 recurrence in 5 days, unstuck the prerender pipeline",
+      "why": "Real breakage found before any goal work (Step 3 rule 1): live site_audit.py showed orphanPages=1/missingFromSitemap=1 on judge-renee-cohn-jubelirer.html, added by the digest's commit for live-387/388 (push run 42914311724, 2026-11-10T22:24:45Z). `gh run list --workflow=prerender.yml` confirmed the prerender pipeline had failed on that push AND on a later manual re-dispatch (42945792795, 2026-11-11T02:24:17Z) with the identical 'cannot pull with rebase: You have unstaged changes' failure seen on imp-060 (2026-11-07), imp-064 (2026-11-09) and imp-066 (2026-11-10) -- a fourth occurrence within 5 days, and the pipeline had now been stuck for over 5 hours, blocking live-387/live-388 and anything after them. Root cause identical to all three prior occurrences, confirmed with a Node replica of prerender.ts's shortName()/setHead(): the digest's hand-crafted judge-renee-cohn-jubelirer.html quoted the matter's plain title ('Bluetriton Brands, Inc. v. Washington Township Zoning Hearing Board and Weis Markets, Inc. (...)') instead of its seoTitle ('Bluetriton v. Weis Markets: PA Zoning Fight Over Gas Station') in its description/og/twitter tags, and judge-*.html is still not in .github/workflows/prerender.yml's git-add list (only company-*.html is), so prerender's rewrite of that one page stayed unstaged and failed every push/rebase since 22:24 UTC. Fixed the three description tags by hand to match prerender.ts's actual setHead() output exactly (verified byte-identical across all 65 judge-*.html pages via the Node replica, zero mismatches). Because the pipeline had been stuck through two failed attempts, judges.html's own queued A-Z-list/count update never landed either (same shape as imp-066) -- hand-updated it (64 -> 65, Renee Cohn Jubelirer inserted in correct alphabetical position), verified byte-identical to prerender.ts's azList() output. Committed and pushed (b3b6bda), then manually re-dispatched the workflow (run 42954702114) to confirm it actually unblocks rather than assuming -- it did: the catch-up 'Prerender: bake' commit (092040f) landed within 3 minutes and site_audit.py afterward shows orphanPages/missingFromSitemap/brokenLinks all back to 0 (pagesChecked 858->861). Per G22's own standing instruction ('if it recurs a fourth time... escalate harder, repeat the notification, don't just add another backlog sentence'), sent Jeff a direct push notification about this fourth occurrence rather than filing a fifth quiet patch. HTML tag-balance checked clean on both hand-edited files; check_case_fields.py and site_audit.py both re-run clean, no count regressed.",
+      "files": [
+        "judge-renee-cohn-jubelirer.html",
+        "judges.html",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "b3b6bda264aa07fe6b96ac5864bc9ec3e99d5cf3",
+      "metric": "site_audit.py summary.orphanPages / summary.missingFromSitemap / summary.brokenLinks",
+      "window": "next day",
+      "baseline": {
+        "orphanPages": 1,
+        "missingFromSitemap": 1,
+        "brokenLinks": 0
+      },
+      "checkAfter": "2026-11-12",
       "status": "watching"
     }
   ]
