@@ -1639,6 +1639,27 @@
       },
       "checkAfter": "2026-11-12",
       "status": "watching"
+    },
+    {
+      "id": "imp-068",
+      "date": "2026-11-11",
+      "track": "traffic",
+      "title": "New state/category deep-dive page: Massachusetts \u2013 Zoning & Land Use (backlog G12)",
+      "why": "Second run today. Nothing new to judge (imp-053/imp-066 were already judged this morning; earliest remaining open checkAfter is imp-056/imp-067's 2026-11-12). Audit clean (pagesChecked 862; missingDescription 2 / weakDescription 2 / longTitle 7 unchanged, all already-explained). Confirmed the prerender pipeline has not hit a fifth G22 recurrence since this morning's imp-067 fix (gh run list: latest run, 06:16 UTC today, succeeded; no judge-*.html orphan in the live audit). Checked \"one open experiment per goal\" by metric: conversion (imp-056 open on multiPageRate7Adjusted until 2026-11-12, imp-062 open on newsletterSignups7/signUps7 until 2026-11-15; follows7 has no open entry but G17 already diagnosed its real blocker as off-limits code, not copy/placement, so a fourth copy-only test would likely just repeat \"no clear effect\") -- effectively blocked on all three real levers; calculator (imp-059 open on calculatorViews7 until 2026-11-14; finalRangeHitRate is Jeff-gated regardless, and every results*/ backtest directory is unchanged in size since imp-045's 2026-10-31 scan, with no Jeff annotation anywhere in ops/calculator-proposals.md since then) -- blocked/exhausted; traffic had no open watching entry at all (imp-053 was judged and closed this morning) -- genuinely unblocked, and mostBehind (conversion, calculator, traffic, news) put it third but it's the first goal actually unblocked, the same precedent used on 2026-10-21/25/26 and 2026-11-04 when conversion/calculator were similarly gridlocked. Recounted every state+category combo in js/data.js (333 matters, up from the 2026-11-04 recount's 314): CA|lease-disputes, FL|zoning-land-use, MA|zoning-land-use and PA|zoning-land-use are now tied-largest at 6 (PA joined the tie since the last recount). Picked MA|zoning-land-use -- its 6 matters include a statewide top-of-the-docket story (Town of Marshfield v. Commonwealth, the SJC upholding the MBTA Communities Act against a second municipal challenge) and a concrete industrial-market ruling (CRG Acquisition, LLC v. Planning Board of Holliston, an 800,000-sq-ft warehouse held not a permitted-as-of-right use), both already published, sourced write-ups in js/data.js -- no new facts introduced. Built massachusetts-zoning-land-use.html from california-zoning-land-use.html's exact template (same pattern as the 17 existing state/category pages), with the body-level Case Value Calculator link included from the start (category pre-filled, reusing imp-059's already-proven markup) so this page doesn't reintroduce the gap imp-059 just closed on the other 16. Added it to both of state-guides.html's lists (the JS GUIDES array used for per-state counts AND the separate static A-Z <a href> list) -- imp-053's own 2026-11-04 near-miss found that editing only the array leaves a page with zero inbound links, since site_audit.py and non-JS crawlers only read the static list. Added to sitemap.xml by hand in alphabetical position (between manufactured-housing-communities.html and medical-office-buildings.html). HTML tag-balance checker clean on both touched/created files; check_case_fields.py and site_audit.py both re-run clean (pagesChecked 862 -> 863, orphanPages/missingFromSitemap/brokenLinks all still 0, no other count regressed). Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule that file isn't this routine's to commit.",
+      "files": [
+        "massachusetts-zoning-land-use.html",
+        "state-guides.html",
+        "sitemap.xml"
+      ],
+      "commit": "afa99af8f9ec0cc2dc9ddbc074373e1044888f8f",
+      "metric": "ops/metrics/goals.json traffic.metrics.visits7 / traffic.metrics.googleLandings7",
+      "window": "7 days",
+      "baseline": {
+        "visits7": 362,
+        "googleLandings7": 165
+      },
+      "checkAfter": "2026-11-18",
+      "status": "watching"
     }
   ]
 }
