@@ -84,7 +84,7 @@ def main():
 
     # Company, agency and property landing pages (build_entity_pages.ts):
     # lastmod is the file's last commit, which changes only when its matters do.
-    for folder in ("parties", "properties"):
+    for folder in ("parties", "properties", "markets"):
         for f in sorted((ROOT / folder).glob("*.html")) if (ROOT / folder).exists() else []:
             urls.append((f"{folder}/{f.name}", git_date(f), "0.6"))
 

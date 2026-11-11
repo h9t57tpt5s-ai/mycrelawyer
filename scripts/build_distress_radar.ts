@@ -241,7 +241,8 @@ if (!exists("js/radar-geo.json") || Deno.args.includes("--geo")) {
       </div>
       <div class="rb-ctas">
         <a class="btn btn-primary" href="distress-radar.html">Open the radar</a>
-        <a class="btn btn-ghost" href="distress-radar.html#alerts">Get alerts for your markets</a>
+        <a class="btn btn-ghost" href="markets.html">Browse by market</a>
+        <a class="btn btn-ghost" href="distress-radar.html#alerts">Get alerts</a>
       </div>
     </div>
     <div class="rb-tiles">
