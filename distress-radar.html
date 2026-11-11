@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Distress Radar: Commercial Real Estate Foreclosures, CMBS Defaults and Bankruptcies on One Map — CREdocket</title>
+<meta name="description" content="A live map and feed of commercial real estate distress: Texas foreclosure postings, CMBS loans in default, real estate Chapter 11 petitions and lender lawsuits, filterable by state and property type, with free email alerts." />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="CREdocket" />
+<meta property="og:title" content="Distress Radar: Commercial Real Estate Foreclosures, CMBS Defaults and Bankruptcies on One Map — CREdocket" />
+<meta property="og:description" content="A live map and feed of commercial real estate distress: Texas foreclosure postings, CMBS loans in default, real estate Chapter 11 petitions and lender lawsuits, filterable by state and property type, with free email alerts." />
+<meta property="og:url" content="https://credocket.com/distress-radar.html" />
+<link rel="canonical" href="https://credocket.com/distress-radar.html" />
+<meta property="og:image" content="https://credocket.com/img/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Distress Radar: Commercial Real Estate Foreclosures, CMBS Defaults and Bankruptcies on One Map — CREdocket" />
+<meta name="twitter:description" content="A live map and feed of commercial real estate distress: Texas foreclosure postings, CMBS loans in default, real estate Chapter 11 petitions and lender lawsuits, filterable by state and property type, with free email alerts." />
+<meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+  </head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<div class="nav-scrim"></div>
+<nav class="nav">
+  <div class="container">
+    <a href="/" class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <span><span class="brand-accent">CRE</span>docket<small>CRE LITIGATION INTELLIGENCE</small></span>
+    </a>
+    <ul class="nav-links">
+      <li class="nav-item has-dropdown">
+        <a href="tracker-overview.html">Tracker</a>
+        <button class="nav-caret-btn" aria-label="Toggle Tracker submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="distress-radar.html">Distress Radar</a>
+          <a href="litigation.html">All Matters</a>
+          <a href="updates.html?recent=5">Latest Updates</a>
+          <a href="calendar.html">Litigation Calendar</a>
+          <a href="bankruptcy-watch.html">Chapter 11 Watch</a>
+          <a href="lawsuit-watch.html">Federal Lawsuit Watch</a>
+          <a href="state-court-watch.html">State Court Watch</a>
+          <a href="cmbs-watch.html">CMBS Distress Watch</a>
+          <a href="texas-foreclosures.html" class="active">Texas Foreclosure Sales</a>
+          <a href="regulatory.html">Regulatory Issues</a>
+          <a href="monitor.html">CREdocket Monitor</a>
+          <a href="account.html">Watchlists &amp; Portfolio</a>
+          <a href="alert-log.html">Alert Log</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="directory-overview.html">Directory</a>
+        <button class="nav-caret-btn" aria-label="Toggle Directory submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="judges.html">Judges &amp; Courts</a>
+          <a href="companies.html">Companies &amp; Parties</a>
+          <a href="compare-companies.html">Compare Companies</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="analysis-overview.html">Analysis</a>
+        <button class="nav-caret-btn" aria-label="Toggle Analysis submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="trends.html">Market Signals</a>
+          <a href="briefs.html">CREdocket Briefs (Weekly)</a>
+          <a href="quarterly.html">Quarterly Report</a>
+          <a href="ada-litigation-patterns.html">Litigation Patterns by State</a>
+          <a href="property-types.html">Property Type Insights</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="tools-overview.html">Tools</a>
+        <button class="nav-caret-btn" aria-label="Toggle Tools submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <div class="nav-dropdown-label">AI-Powered</div>
+          <a href="case-valuation.html">Case Value Calculator (Beta)</a>
+          <a href="lease-clause-redline.html">Lease Clause Redline Checker (Beta)</a>
+          <a href="case-valuation-calibration.html">Calculator Track Record</a>
+          <div class="nav-dropdown-label">Calculators &amp; Reference</div>
+          <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
+          <a href="lease-rejection-claim-calculator.html">Lease Rejection Claim Calculator</a>
+          <a href="ada-risk-flagging.html">ADA Title III Risk Flagging</a>
+          <a href="premises-liability-checklist.html">Premises Liability Checklist (Manager Edition)</a>
+          <a href="settlement-benchmarks.html">Settlement &amp; Verdict Benchmarks</a>
+          <a href="contribute-settlement.html">Contribute a Settlement (Earn Credits)</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="guides-overview.html">Guides</a>
+        <button class="nav-caret-btn" aria-label="Toggle Guides submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="eviction-guide.html">Commercial Eviction Handbook</a>
+          <a href="premises-liability-guide.html">Premises Liability / Negligence Guide</a>
+          <a href="insurance-risk-posture-guide.html">Insurance &amp; Risk Posture Guide</a>
+          <a href="manager-vs-owner-liability.html">Manager vs. Owner Liability</a>
+          <a href="algorithmic-pricing-manager-guide.html">Algorithmic Pricing: A Manager's Guide</a>
+          <a href="state-guides.html">State-by-State Guides</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <div id="auth-nav-slot" class="auth-nav-slot"></div>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+<main id="main-content" tabindex="-1">
+<style>
+  .radar-hero { padding-block: 128px 36px; border-bottom: 1px solid var(--border-soft); background:
+    radial-gradient(circle at 85% 20%, rgba(179,38,30,0.07), transparent 45%), radial-gradient(circle at 10% 90%, rgba(51,85,255,0.06), transparent 40%), var(--bg); }
+  @media (max-width: 900px) { .radar-hero { padding-block: 108px 28px; } }
+  .radar-body { padding-block: 8px 72px; }
+  .radar-hero h1 { font-size: clamp(2.2rem, 4.4vw, 3.6rem); max-width: 18ch; text-wrap: balance; }
+  .radar-hero .lede { max-width: 66ch; }
+  .radar-live { display:inline-flex; align-items:center; gap:8px; font: 600 12px/1 var(--font-mono); letter-spacing:.08em; text-transform:uppercase; color: var(--redline); }
+  .radar-live::before { content:""; width:8px; height:8px; border-radius:50%; background: var(--redline); box-shadow: 0 0 0 0 rgba(179,38,30,.5); animation: rlpulse 2s infinite; }
+  @keyframes rlpulse { 0% { box-shadow:0 0 0 0 rgba(179,38,30,.45);} 70% { box-shadow:0 0 0 10px rgba(179,38,30,0);} 100% { box-shadow:0 0 0 0 rgba(179,38,30,0);} }
+  .rt-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 28px; }
+  .rt-tile { text-align:left; display:flex; flex-direction:column; gap:4px; padding:14px 14px 12px; border:1px solid var(--border); border-radius: var(--radius-md); background: var(--surface); cursor:pointer; font: inherit; color: inherit; transition: border-color .15s, box-shadow .15s, opacity .15s; }
+  .rt-tile:hover { border-color: var(--accent); }
+  .rt-tile:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .rt-tile:not(.is-on) { opacity: .45; }
+  .rt-dot { width: 10px; height: 10px; border-radius: 3px; }
+  .rt-n { font: 700 2rem/1 var(--font-display); font-variant-numeric: tabular-nums; margin-top: 6px; }
+  .rt-l { font: 600 12.5px/1.3 var(--font-body); color: var(--text-secondary); }
+  .rt-a { font: 500 11.5px/1.3 var(--font-mono); color: var(--text-muted); }
+  .radar-controls { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin: 26px 0 16px; }
+  .radar-controls select, .radar-controls input { font: 500 14px var(--font-body); padding: 9px 12px; border:1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text-primary); }
+  .radar-controls input { flex: 1 1 220px; min-width: 0; }
+  .linklike { background:none; border:0; padding:0; font:inherit; color: var(--accent); cursor:pointer; text-decoration: underline; }
+  .radar-grid { display:grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: 18px; }
+  @media (max-width: 900px) { .radar-grid { grid-template-columns: 1fr; } }
+  .radar-panel { border:1px solid var(--border); border-radius: 14px; background: var(--surface); padding: 18px; min-width: 0; }
+  .radar-panel h2 { font: 600 13px/1.2 var(--font-mono); letter-spacing:.08em; text-transform: uppercase; color: var(--text-muted); margin: 0 0 12px; }
+  #radar-map { width:100%; height:auto; display:block; }
+  .rm-state { fill: rgba(51,85,255, var(--heat)); stroke: var(--surface); stroke-width: 1; cursor: pointer; transition: fill .2s; }
+  .rm-state.is-zero { fill: var(--surface-hover); }
+  .rm-state:hover, .rm-state:focus-visible { stroke: var(--accent-deep); stroke-width: 2; outline: none; }
+  .rm-state.is-sel { stroke: var(--text-primary); stroke-width: 2.5; }
+  .rm-pt { stroke: #fff; stroke-width: 1.2; fill-opacity: .9; }
+  .rm-ping { fill: none; stroke-width: 2; opacity: .8; animation: rmping 2.4s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes rmping { from { transform: scale(1); opacity:.7; } to { transform: scale(2.6); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .rm-ping, .radar-live::before { animation: none; } }
+  .rm-legend { display:flex; flex-wrap:wrap; gap: 6px 14px; font: 500 12px var(--font-body); color: var(--text-muted); margin-top: 8px; }
+  .rm-legend span::before { content:""; display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px; background: var(--c); vertical-align: -1px; }
+  .rl-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap: 4px; }
+  .rl-row { width:100%; display:grid; grid-template-columns: 112px 1fr 34px; gap: 10px; align-items:center; padding: 7px 6px; border:0; border-radius: 6px; background:none; cursor:pointer; font: inherit; color: inherit; text-align:left; }
+  .rl-row:hover, .rl-row.is-sel { background: var(--accent-wash); }
+  .rl-name { font: 600 13.5px var(--font-body); white-space: nowrap; overflow:hidden; text-overflow: ellipsis; }
+  .rl-bar { display:flex; height: 10px; border-radius: 3px; overflow:hidden; background: var(--surface-hover); }
+  .rl-bar span { display:block; height:100%; }
+  .rl-n { font: 600 13px var(--font-mono); text-align:right; font-variant-numeric: tabular-nums; }
+  .rl-empty, .rf-empty { color: var(--text-muted); padding: 12px 4px; list-style: none; }
+  .radar-summary { font-size: 15px; color: var(--text-secondary); margin: 30px 0 6px; }
+  .rf-list { list-style:none; margin: 0; padding: 0; }
+  .rf-day { font: 600 12px/1 var(--font-mono); letter-spacing:.06em; text-transform: uppercase; color: var(--text-muted); padding: 22px 0 8px; border-bottom: 1px solid var(--border-soft); }
+  .rf-row { display:grid; grid-template-columns: 104px minmax(0,1fr) auto; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--border-soft); align-items: start; }
+  @media (max-width: 640px) { .rf-row { grid-template-columns: 1fr; gap: 6px; } .rf-amt { text-align:left !important; } }
+  .rf-kind { justify-self:start; font: 700 10.5px/1 var(--font-mono); letter-spacing:.06em; text-transform: uppercase; color: #fff; background: var(--k); padding: 6px 8px; border-radius: 4px; white-space: nowrap; }
+  .rf-title { font: 600 16.5px/1.35 var(--font-display); color: var(--text-primary); text-decoration: none; overflow-wrap: anywhere; }
+  .rf-title:hover { color: var(--accent); text-decoration: underline; }
+  .rf-meta { font-size: 13px; color: var(--text-secondary); margin-top: 3px; }
+  .rf-soon { color: var(--redline); }
+  .rf-detail { font-size: 13px; color: var(--text-muted); margin-top: 3px; overflow-wrap: anywhere; }
+  .rf-amt { text-align:right; white-space: nowrap; }
+  .rf-amt strong { display:block; font: 700 17px var(--font-display); font-variant-numeric: tabular-nums; }
+  .rf-amt span { font-size: 11.5px; color: var(--text-muted); }
+  .radar-alert { margin-top: 36px; border-radius: 16px; padding: 28px; background: #0b1020; color: #e8ecf7; display:grid; grid-template-columns: minmax(0,1.2fr) minmax(0,1fr); gap: 24px; align-items: center; }
+  @media (max-width: 800px) { .radar-alert { grid-template-columns: 1fr; } }
+  .radar-alert h2 { color:#fff; font: 600 clamp(1.4rem, 2.4vw, 1.9rem)/1.2 var(--font-display); margin:0; }
+  .radar-alert p { color:#b9c2da; margin: 10px 0 0; }
+  .radar-alert #ra-scope { color:#fff; font-weight: 600; }
+  .radar-alert form { display:flex; flex-wrap: wrap; gap: 10px; }
+  .radar-alert input { flex: 1 1 220px; min-width:0; font: 500 15px var(--font-body); padding: 12px 14px; border-radius: 8px; border: 1px solid #2a3557; background: #121a33; color: #fff; }
+  .radar-alert button { font: 600 15px var(--font-body); padding: 12px 20px; border-radius: 8px; border: 0; background: var(--redline); color:#fff; cursor:pointer; }
+  .radar-alert button:disabled { opacity: .6; }
+  .radar-alert #ra-msg { flex-basis: 100%; min-height: 1.2em; font-size: 13.5px; color: #dfe4f2; }
+  .radar-sources { font-size: 13.5px; color: var(--text-muted); margin-top: 28px; max-width: 80ch; }
+</style>
+
+<header class="radar-hero">
+  <div class="container">
+    <div class="radar-live">Distress Radar · updated <span id="radar-updated">daily</span></div>
+    <h1 class="mt-16">Every commercial real estate distress signal, on one map.</h1>
+    <p class="lede mt-16">Foreclosure postings, CMBS loans in default or foreclosure, real estate Chapter 11 petitions, lender lawsuits and federal CRE suits usually live in different places: county clerks, SEC trust filings, federal courts. CREdocket reads them every day and puts them in one feed you can filter by state, property type and record type. Click a state or a tile to narrow it; every record links to its own page and source.</p>
+    <div class="rt-grid" id="radar-tiles" aria-label="Record types; select to filter"></div>
+  </div>
+</header>
+
+<section class="radar-body">
+  <div class="container">
+    <div class="radar-controls">
+      <label class="sr-only" for="radar-days">Time window</label>
+      <select id="radar-days">
+        <option value="7">Last 7 days</option>
+        <option value="30">Last 30 days</option>
+        <option value="90">Last 90 days</option>
+        <option value="365">Last 12 months</option>
+        <option value="0">All records</option>
+      </select>
+      <label class="sr-only" for="radar-type">Property type</label>
+      <select id="radar-type"><option value="">All property types</option></select>
+      <label class="sr-only" for="radar-q">Search names, addresses and cities</label>
+      <input id="radar-q" type="search" placeholder="Search a borrower, property, city or lender" autocomplete="off" />
+      <button type="button" class="linklike" id="radar-reset">Reset filters</button>
+    </div>
+
+    <div class="radar-grid">
+      <div class="radar-panel">
+        <h2>Where it's happening</h2>
+        <svg id="radar-map" role="img" aria-label="Map of distress records by state; dots are individual properties, sized by loan amount"></svg>
+        <div class="rm-legend">
+          <span style="--c:#c26a00">Foreclosure posting</span><span style="--c:#b3261e">CMBS loan</span><span style="--c:#d14d8b">NYC record</span>
+          <span>Shading: records per state · rings: last 14 days · dot size: loan amount</span>
+        </div>
+      </div>
+      <div class="radar-panel">
+        <h2>Most active states</h2>
+        <ul class="rl-list" id="radar-leaders"></ul>
+      </div>
+    </div>
+
+    <p class="radar-summary" id="radar-summary" aria-live="polite"></p>
+    <ul class="rf-list" id="radar-feed"></ul>
+    <p class="mt-16"><button type="button" class="btn btn-ghost" id="radar-more" hidden>Show more</button></p>
+
+    <div class="radar-alert" id="alerts">
+      <div>
+        <h2>Get this radar in your inbox.</h2>
+        <p>We'll email you when a new record lands for <span id="ra-scope">every state: every record type</span>, plus the weekly CRE Distress Brief. Set the filters above first to narrow it. Free, and one click unsubscribes.</p>
+      </div>
+      <form id="radar-alert-form" novalidate>
+        <label class="sr-only" for="ra-email">Email address</label>
+        <input id="ra-email" type="email" placeholder="you@firm.com" autocomplete="email" required />
+        <button type="submit">Alert me</button>
+        <div id="ra-msg" role="status"></div>
+      </form>
+    </div>
+
+    <p class="radar-sources"><strong>Sources.</strong> Foreclosure postings: county clerk trustee's-sale notices in Dallas, Harris, Bexar and Collin counties, kept only when the appraisal district classifies the property as commercial (<a href="texas-foreclosures.html">Texas Foreclosure Sales</a>). CMBS: monthly asset-level reports CMBS trusts file with the SEC (<a href="cmbs-watch.html">CMBS Distress Watch</a>). Chapter 11 and federal lawsuits: federal court dockets via CourtListener, real estate businesses only (<a href="bankruptcy-watch.html">Chapter 11 Watch</a>, <a href="lawsuit-watch.html">Federal Lawsuit Watch</a>). Lender suits: the tracker's lending and foreclosure write-ups. Map positions come from the U.S. Census Bureau geocoder; records without a street address count toward their state only. Loan figures are the amounts stated in each record (CMBS balance at the last report, original loan amount in a notice), never estimates. Individuals are never listed. A posted sale can be postponed or cancelled; a filing is an allegation, not a finding.</p>
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="/" class="brand" style="margin-bottom:14px;">
+          <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          <span><span class="brand-accent">CRE</span>docket</span>
+        </a>
+        <p style="max-width:280px;">Litigation intelligence for commercial real estate owners, managers, developers, and REITs.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="tracker-overview.html">Tracker</a>
+        <a href="litigation-index.html">CRE Litigation Index</a>
+        <a href="directory-overview.html">Directory</a>
+        <a href="analysis-overview.html">Analysis</a>
+        <a href="tools-overview.html">Tools</a>
+        <a href="guides-overview.html">Guides</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="coverage.html">Coverage</a>
+        <a href="alert-log.html">Alert Log</a>
+        <a href="corrections.html">Corrections</a>
+        <a href="data-security.html">Data Security &amp; Governance</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="contact.html">Contact form</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>Not legal advice. For informational purposes only.</span>
+    </div>
+  </div>
+</footer>
+<script src="js/data-lite.js"></script>
+<script>
+  // Defensive retry: js/data.js occasionally fails to load (a transient
+  // network blip, a CDN edge hiccup) leaving RELAW_DATA undefined and
+  // this page silently rendering empty grids / "0 Tracked Matters"
+  // instead of the real, live dataset -- indistinguishable from a
+  // genuinely empty site to a visitor. Flagged 2026-09-14 after this was
+  // spotted live on the tracker page. A single automatic, cache-busted
+  // reload fixes the overwhelming majority of these before a person ever
+  // sees a broken page; sessionStorage caps it at one retry per page per
+  // tab session so a real, persistent failure doesn't reload forever.
+  // Checks both "never loaded at all" (RELAW_DATA undefined) AND
+  // "loaded but suspiciously incomplete" (a truncated/partial transfer
+  // of this 900KB+ file can still parse as valid JS if the cut lands on
+  // a clean array-element boundary, leaving RELAW_DATA defined with only
+  // a handful of cases instead of the real 138+) -- the first version of
+  // this guard only caught the first case, and Jeff hit the second one
+  // live the same day it shipped.
+  var _dataBad = typeof RELAW_DATA === "undefined" ||
+    !RELAW_DATA.cases || RELAW_DATA.cases.length < 50;
+  if (_dataBad) {
+    var _ddk = "credocket_data_retry_" + location.pathname;
+    var _ddTries = parseInt(sessionStorage.getItem(_ddk) || "0", 10);
+    // Best-effort, fire-and-forget failure log -- see
+    // case_valuation_project/schema_client_data_load_failures.sql. Never
+    // blocks the reload below: wrapped in try/catch, keepalive:true so the
+    // upcoming location.reload() can't abort the request mid-flight, and a
+    // silently-swallowed failure here (e.g. before that table exists) is
+    // fine -- this is observability, not the actual fix.
+    try {
+      fetch("https://ribmcdyoydhmafnyfhpp.supabase.co/rest/v1/client_data_load_failures", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "apikey": "sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f",
+          "Authorization": "Bearer sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f"
+        },
+        body: JSON.stringify({
+          path: location.pathname,
+          reason: typeof RELAW_DATA === "undefined" ? "undefined" : "too_few_cases",
+          cases_found: (typeof RELAW_DATA !== "undefined" && RELAW_DATA.cases) ? RELAW_DATA.cases.length : null,
+          attempt: _ddTries,
+          user_agent: navigator.userAgent
+        }),
+        keepalive: true
+      }).catch(function () {});
+    } catch (e) {}
+    if (_ddTries < 2) {
+      sessionStorage.setItem(_ddk, String(_ddTries + 1));
+      location.reload();
+    }
+  }
+</script>
+<script src="js/main.js"></script>
+<script src="js/newsletter-form.js"></script>
+<script src="js/track.js"></script>
+<script src="js/glossary-tooltip.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="js/supabase-client.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/trending.js"></script>
+<script src="js/search.js"></script>
+<script src="js/motion.js"></script>
+<script src="js/distress-radar.js"></script>
+</body>
+</html>

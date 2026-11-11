@@ -34,6 +34,8 @@ on:
       - "texas-foreclosures.html"
       - "bankruptcy-watch.html"
       - "lawsuit-watch.html"
+      - "scripts/build_distress_radar.ts"
+      - "ops/nyc-commercial-distress.json"
   # Also started by court-filings-ingest.yml and docket-activity.yml after
   # they commit new petitions or docket entries (their own pushes cannot
   # trigger this workflow).
@@ -81,11 +83,15 @@ jobs:
       - run: deno run --allow-read --allow-write scripts/build_state_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_cmbs_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_tx_list.ts
+      # Distress Radar: every distress feed joined, addresses geocoded by the
+      # Census Bureau (cached in ops/geocode-cache.json).
+      - run: deno run --allow-read --allow-write --allow-net --allow-env scripts/build_distress_radar.ts
       - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
           git add -A matters chapter-11 federal-cases parties properties js/entity-index.json img/og img/og-image.png js/topic-index.json *-tracker.html litigation-index*.html case-valuation.html commercial-lease-dispute-damages.html commercial-foreclosure-guaranty-damages.html construction-defect-damages.html condemnation-compensation.html land-use-litigation-damages.html commercial-premises-liability-damages.html reit-securities-claim-value.html environmental-cleanup-cost-claims.html
           git add bankruptcy-watch.html lawsuit-watch.html state-court-watch.html state-cases cmbs-watch.html cmbs texas-foreclosures.html
+          git add js/radar-data.json js/radar-geo.json ops/geocode-cache.json ops/radar-seen.json
           git add brief-*.html briefs.html
           git add index.html litigation.html coverage.html companies.html judges.html company-*.html corrections.html sitemap.xml news-sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
