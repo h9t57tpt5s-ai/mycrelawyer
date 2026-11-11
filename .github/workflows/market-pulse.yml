@@ -1,0 +1,45 @@
+name: Market Pulse
+
+# Runs scripts/pull_market_pulse.py: commercial real estate credit indicators
+# from the Federal Reserve (FRED's keyless CSV download) and FDIC Call Report
+# data (BankFind Suite API, keyless), written to ops/market-pulse.json for the
+# homepage, the market page and the weekly email. The sources update weekly
+# (H.8), quarterly (delinquency, SLOOS, Call Reports) and daily (10-year
+# Treasury), so a daily run keeps every figure current. If a source is down,
+# the script keeps that source's previous values and marks them stale.
+
+on:
+  schedule:
+    - cron: "17 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write # commits ops/market-pulse.json
+
+concurrency:
+  group: market-pulse
+  cancel-in-progress: false
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Pull the indicators
+        run: python3 scripts/pull_market_pulse.py
+      - name: Commit the indicators
+        run: |
+          git add ops/market-pulse.json
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          git config user.name "credocket-market-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Market Pulse: refresh commercial real estate credit indicators"
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            sleep $((i * 10))
+          done
+          [ "$ok" = 1 ]
