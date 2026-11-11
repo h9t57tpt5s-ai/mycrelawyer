@@ -326,6 +326,30 @@ def api_url(rep):
     return FDIC_API + "?" + urllib.parse.urlencode({"filters": f"REPDTE:{rep}", "fields": FDIC_FIELDS, "limit": 10000})
 
 
+ALL_BANKS: list = []  # every eligible bank, for js/bank-cre.json (bank-cre-stress.html)
+BANKS_OUT = ROOT / "js" / "bank-cre.json"
+
+
+def write_bank_list(banks: dict) -> None:
+    """Every eligible bank, compact, for the Bank CRE Stress page."""
+    def share(e, k):
+        t = e["byType"][k]
+        return round(100 * t["noncurrent"] / t["loans"], 2) if t["loans"] else None
+    rows = [{
+        "n": e["name"], "c": e["city"], "s": e["state"], "cert": e["cert"], "a": e["totalAssets"], "cre": e["creLoans"],
+        "nc": e["noncurrentCre"], "sh": e["noncurrentCreShare"], "ya": (e.get("yearEarlier") or {}).get("noncurrentCreShare"),
+        "ca": e["creToTotalAssets"], "rbc": e["nonOwnerOccCreToRiskBasedCapital"], "eq": e["nonOwnerOccCreToEquity"],
+        "con": share(e, "constructionAndLand"), "mf": share(e, "multifamily"), "nnr": share(e, "nonfarmNonresidential"),
+    } for e in ALL_BANKS]
+    doc = {"quarter": banks["quarter"], "asOf": banks["asOf"], "criteria": banks["criteria"], "fieldNotes": banks["fieldNotes"],
+           "source": banks["source"], "sourceUrl": banks["sourceUrl"], "banks": rows}
+    old = BANKS_OUT.read_text() if BANKS_OUT.exists() else ""
+    new = json.dumps(doc, separators=(",", ":")) + "\n"
+    if new != old:
+        BANKS_OUT.write_text(new)
+        print(f"Wrote {BANKS_OUT}: {len(rows)} banks.")
+
+
 def fdic_section():
     latest = latest_fdic_quarter()
     prevq = prev_quarter_end(latest)
@@ -395,7 +419,8 @@ def fdic_section():
                                         "noncurrentCre": usd(pf["nc"])}
         ranked.append(entry)
     ranked.sort(key=lambda e: (-e["noncurrentCreShare"], -e["noncurrentCre"]))
-    top = ranked[:TOP_N]
+    ALL_BANKS[:] = ranked
+    top = [dict(e) for e in ranked[:TOP_N]]
     for i, e in enumerate(top, 1):
         e["rank"] = i
     banks = {
@@ -456,6 +481,7 @@ def main():
     try:
         fdic_ind, banks = fdic_section()
         indicators.append(fdic_ind)
+        write_bank_list(banks)
     except Exception as e:
         errors.append(f"FDIC: {e}")
         old = prev_inds.get("fdic-noncurrent-cre-rate")

@@ -32,7 +32,7 @@ jobs:
         run: python3 scripts/pull_market_pulse.py
       - name: Commit the indicators
         run: |
-          git add ops/market-pulse.json
+          git add ops/market-pulse.json js/bank-cre.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
           git config user.name "credocket-market-bot"
           git config user.email "actions@users.noreply.github.com"
