@@ -36,6 +36,7 @@ on:
       - "lawsuit-watch.html"
       - "scripts/build_distress_radar.ts"
       - "scripts/build_market_pages.ts"
+      - "scripts/site_nav.py"
       - "ops/nyc-commercial-distress.json"
       - "ops/market-pulse.json"
       - "supabase/functions/newsletter/issue.ts"
@@ -94,6 +95,9 @@ jobs:
       - run: deno run --allow-read --allow-write scripts/build_market_pages.ts
       # This week's CRE Distress Brief as subscribers get it, shown on newsletter.html.
       - run: deno run --allow-read --allow-write scripts/preview_newsletter.ts today email-preview.html
+      # The one site menu (scripts/site_nav.py), written into every page last,
+      # so a page generated from an older template never ships an old menu.
+      - run: python3 scripts/site_nav.py
       - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
