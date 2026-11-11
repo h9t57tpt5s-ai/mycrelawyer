@@ -2047,6 +2047,42 @@
   "opinion:11059030": {
    "at": "2026-11-11",
    "action": "matter live-389"
+  },
+  "web-water-development-association-inc-v-agc-chemicals-americas-inc-scd-2-26-cv-05590": {
+   "at": "2026-11-11",
+   "action": "skipped: water-contamination suit against a chemical maker, not a commercial real estate dispute on its face"
+  },
+  "the-property-maintenance-group-llc-v-township-of-maplewood-njd-2-26-cv-14547": {
+   "at": "2026-11-11",
+   "action": "skipped: no coverage found explaining the dispute between the property-maintenance company and the township"
+  },
+  "rockefeller-photos-llc-v-selinsgrove-hotel-inc-pamd-4-26-cv-03315": {
+   "at": "2026-11-11",
+   "action": "skipped: Rockefeller Photos/Prepared Food Photos is a serial photo-licensing copyright plaintiff against unrelated businesses nationwide; not a commercial real estate dispute"
+  },
+  "phoenix-associates-inc-v-smg-land-development-llc-wvsd-2-26-cv-00719": {
+   "at": "2026-11-11",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "autozone-development-llc-v-frisco-station-llc-arwd-5-26-cv-05315": {
+   "at": "2026-11-11",
+   "action": "skipped: no coverage found naming both parties together; only unrelated AutoZone store-construction and Frisco Station easement items turned up"
+  },
+  "0001837671-26-000089:cpt-20260930.htm": {
+   "at": "2026-11-11",
+   "action": "skipped: duplicate -- the excerpt's 'Buyer' specific-performance/breach suit is the same Onyx Partners dispute over the JCPenney portfolio sale already tracked as live-083"
+  },
+  "0001628280-26-072825:suns-20260930.htm": {
+   "at": "2026-11-11",
+   "action": "skipped: merger-objection shareholder complaints (Miller, Smith v. Sunrise Realty Trust, NY Sup Ct, filed Sept 23-24 2026) disclosed only by caption/index number with no further detail and no press coverage found; the SUNS-Southern Realty Trust merger has already closed, so too thin and too old (49 days) to publish as its own matter"
+  },
+  "0001193125-26-455345:nref-20260930.htm": {
+   "at": "2026-11-11",
+   "action": "skipped: excerpt concerns long-running Highland Capital 2019 bankruptcy-related litigation (Bankruptcy Trust Lawsuit), no new development this filing"
+  },
+  "0001193125-26-455610:ck0001755755-20260930.htm": {
+   "at": "2026-11-11",
+   "action": "skipped: VineBrook Homes Trust is a single-family rental REIT; residential, out of scope"
   }
  }
 }
