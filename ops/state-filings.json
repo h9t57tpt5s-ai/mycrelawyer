@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T02:12:06+00:00",
+ "updatedAt": "2026-11-11T18:58:55+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
   {
@@ -20,6 +20,47 @@
    "sourceName": "Harris County Justice Courts, Public Data Extract",
    "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
    "slug": "wilmington-savings-fund-society-fsb-not-in-its-individual-capacity-v-a-tx-harris-261100498743"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-012081",
+   "caseType": "Commercial foreclosure",
+   "dateFiled": "2026-11-10",
+   "caseName": "U.S. BANK TRUST NATIONAL ASSOCIATION v. VENTURA GENERAL CONTRACTING GROUP LLC",
+   "plaintiffs": [
+    "U.S. BANK TRUST NATIONAL ASSOCIATION"
+   ],
+   "defendants": [
+    "VENTURA GENERAL CONTRACTING GROUP LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-10",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261110.csv",
+   "slug": "u-s-bank-trust-national-association-v-ventura-general-contracting-grou-fl-hillsborough-26-ca-012081"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-012069",
+   "caseType": "Commercial foreclosure",
+   "dateFiled": "2026-11-10",
+   "caseName": "Capital Resource & Financing LLC v. Sheldon Park Properties LLC et al.",
+   "plaintiffs": [
+    "Capital Resource & Financing LLC",
+    "Palosa LLC"
+   ],
+   "defendants": [
+    "Sheldon Park Properties LLC",
+    "Laboratory Corporation of America Holdings",
+    "LabCorp Holdings Inc"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-10",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261110.csv",
+   "slug": "capital-resource-financing-llc-v-sheldon-park-properties-llc-et-al-fl-hillsborough-26-ca-012069"
   },
   {
    "source": "hillsborough_fl",
