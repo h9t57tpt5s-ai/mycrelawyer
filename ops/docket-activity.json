@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-10T17:11:23+00:00",
+ "updatedAt": "2026-11-11T17:21:42+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 18,
+ "requestsUsed": 22,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -119,6 +119,34 @@
   "67174489": {
    "entries": [
     {
+     "date": "2026-11-10",
+     "number": 1643,
+     "text": "Order AND ~Util - Set/Clear Flags",
+     "url": "https://www.courtlistener.com/docket/67174489/1643/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-10",
+     "number": 1642,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/67174489/1642/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-10",
+     "number": 1641,
+     "text": "Miscellaneous Relief",
+     "url": "https://www.courtlistener.com/docket/67174489/1641/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-10",
+     "number": 1640,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67174489/1640/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-09",
      "number": 1639,
      "text": "Appear Pro Hac Vice",
@@ -145,34 +173,6 @@
      "text": "Leave to File Document under Seal",
      "url": "https://www.courtlistener.com/docket/67174489/1633/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 1633,
-     "text": "Exhibit Text of Proposed Order",
-     "url": "https://www.courtlistener.com/docket/67174489/1633/3/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 1633,
-     "text": "Exhibit B - Declarations in Support of Motion",
-     "url": "https://www.courtlistener.com/docket/67174489/1633/2/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 1633,
-     "text": "Exhibit A - Index and Proposed Redactions",
-     "url": "https://www.courtlistener.com/docket/67174489/1633/1/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 1632,
-     "text": "Sealed Document PORTIONS OF DEFENDANTS DAUBERT MOTIONS AND PLAINTIFFS CLASS CERTIFICATION MOTION, INCLUDING CERTAIN SUPPORTING MATERIALS",
-     "url": "https://www.courtlistener.com/docket/67174489/1632/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -182,7 +182,7 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-11-09"
+   "lastEntryDate": "2026-11-10"
   },
   "67356054": {
    "entries": [
@@ -749,6 +749,13 @@
   "73409172": {
    "entries": [
     {
+     "date": "2026-11-11",
+     "number": 32,
+     "text": "Notice of appearance and request for notice (crbatch)",
+     "url": "https://www.courtlistener.com/docket/73409172/32/silver-star-properties-reit-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-09-24",
      "number": 31,
      "text": "Complaint",
@@ -763,7 +770,7 @@
    "docketNumber": "26-42316",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73409172/silver-star-properties-reit-inc/",
-   "lastEntryDate": "2026-09-24"
+   "lastEntryDate": "2026-11-11"
   },
   "73457710": {
    "entries": [
@@ -1402,6 +1409,48 @@
    "entries": [
     {
      "date": "2026-11-10",
+     "number": 52,
+     "text": "Support/supplemental document",
+     "url": "https://www.courtlistener.com/docket/74922581/52/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-10",
+     "number": 51,
+     "text": "Response",
+     "url": "https://www.courtlistener.com/docket/74922581/51/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-10",
+     "number": 50,
+     "text": "Response",
+     "url": "https://www.courtlistener.com/docket/74922581/50/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-10",
+     "number": 48,
+     "text": "Statement of financial affairs",
+     "url": "https://www.courtlistener.com/docket/74922581/48/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-10",
+     "number": 47,
+     "text": "Schedules",
+     "url": "https://www.courtlistener.com/docket/74922581/47/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-10",
+     "number": 46,
+     "text": "Schedules",
+     "url": "https://www.courtlistener.com/docket/74922581/46/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-10",
      "number": 45,
      "text": "List (witness/exhibit/generic)",
      "url": "https://www.courtlistener.com/docket/74922581/45/travis-property-owner-llc/",
@@ -1412,48 +1461,6 @@
      "number": null,
      "text": "Meeting of creditors held",
      "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-09",
-     "number": 44,
-     "text": "Objection",
-     "url": "https://www.courtlistener.com/docket/74922581/44/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-03",
-     "number": 42,
-     "text": "Statement of financial affairs",
-     "url": "https://www.courtlistener.com/docket/74922581/42/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-03",
-     "number": 41,
-     "text": "Schedules",
-     "url": "https://www.courtlistener.com/docket/74922581/41/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-03",
-     "number": 40,
-     "text": "Employ",
-     "url": "https://www.courtlistener.com/docket/74922581/40/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-03",
-     "number": 39,
-     "text": "Disclosure of compensation of attorney for debtor",
-     "url": "https://www.courtlistener.com/docket/74922581/39/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-02",
-     "number": 38,
-     "text": "Certificate of service",
-     "url": "https://www.courtlistener.com/docket/74922581/38/travis-property-owner-llc/",
      "ruling": false
     }
    ],
