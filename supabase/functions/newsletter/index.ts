@@ -1,4 +1,4 @@
-// CREdocket — weekly "New on CREdocket" newsletter (2026-10-06).
+// CREdocket — weekly newsletter, "The CRE Distress Brief" (2026-10-06; redesigned 2026-11-11, see issue.ts).
 //
 // Public (no secret; deploy with --no-verify-jwt so email links work):
 //   POST {action:"subscribe", email, source}  -> sends a confirmation email
@@ -20,6 +20,7 @@
 // supabase/migrations/20261006_newsletter_subscribers.sql.
 
 import { createClient } from "npm:@supabase/supabase-js@2";
+import { buildIssue as build, type Inputs, type Issue, renderIssue as render } from "./issue.ts";
 
 const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
@@ -28,7 +29,6 @@ const OWNER_EMAIL = Deno.env.get("OPS_ALERT_EMAIL") || "jeffnovel@icloud.com";
 const POSTAL_ADDRESS = Deno.env.get("NEWSLETTER_POSTAL_ADDRESS") || "CREdocket · 901 Main Street, Suite 5200, Dallas, TX 75202";
 const SITE = "https://credocket.com";
 const FN_URL = "https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/newsletter";
-const UTM = "utm_source=credocket&utm_medium=email&utm_campaign=weekly-newsletter";
 const db = createClient(Deno.env.get("SUPABASE_URL") ?? "", Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "");
 
 const CORS = {
@@ -39,9 +39,6 @@ const CORS = {
 const json = (b: unknown, status = 200) => new Response(JSON.stringify(b), { status, headers: { ...CORS, "Content-Type": "application/json" } });
 const redirect = (status: string) => new Response(null, { status: 302, headers: { Location: `${SITE}/newsletter.html?status=${status}` } });
 const esc = (s: unknown) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
-const plain = (s: unknown) => String(s ?? "").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
-const clip = (s: string, n: number) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…");
-const fmt = (iso: string) => new Date(iso.slice(0, 10) + "T00:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 async function sendEmail(to: string, subject: string, html: string, text: string, headers?: Record<string, string>): Promise<boolean> {
@@ -103,72 +100,28 @@ async function setStatus(token: string, status: "confirmed" | "unsubscribed") {
   return !error && !!data?.length;
 }
 
-// ---------- the issue ----------
+// ---------- the issue (built and drawn in issue.ts) ----------
 
-type Case = { id: string; title: string; category: string; date: string; addedDate?: string; jurisdiction?: string; summary?: string };
-type Trend = { id: string; title: string; date: string; metric?: string };
+async function getJson<T>(path: string): Promise<T | undefined> {
+  try {
+    const r = await fetch(`${SITE}${path}?nl=${Date.now()}`);
+    return r.ok ? await r.json() as T : undefined;
+  } catch { return undefined; }
+}
 
 async function buildIssue() {
   const src = await (await fetch(`${SITE}/js/data-lite.js?nl=${Date.now()}`)).text();
   const start = src.indexOf("const RELAW_DATA = ") + "const RELAW_DATA = ".length;
   const data = JSON.parse(src.slice(start, src.lastIndexOf(";")));
-  const cats: Record<string, string> = Object.fromEntries(data.categories.map((c: { id: string; label: string }) => [c.id, c.label]));
-  const today = new Date();
-  const since = (days: number) => new Date(today.getTime() - days * 864e5).toISOString().slice(0, 10);
-  const matters: Case[] = data.cases.filter((c: Case) => (c.addedDate || c.date) >= since(7))
-    .sort((a: Case, b: Case) => ((b.addedDate || b.date) + b.date > (a.addedDate || a.date) + a.date ? 1 : -1));
-  const trends: Trend[] = (data.trends || []).filter((t: Trend) => t.date >= since(8)).sort((a: Trend, b: Trend) => (b.date > a.date ? 1 : -1));
-  let rulings: { title: string; id: string; date: string; text: string; kind: string }[] = [];
-  try {
-    const act = await (await fetch(`${SITE}/ops/docket-activity.json?nl=${Date.now()}`)).json();
-    const byId = Object.fromEntries(data.cases.map((c: Case) => [c.id, c]));
-    rulings = (act.events || []).filter((e: { firstSeen: string }) => e.firstSeen >= since(7))
-      .map((e: { caseIds: string[]; date: string; text: string; kind: string }) => ({ id: e.caseIds[0], title: byId[e.caseIds[0]]?.title, date: e.date, text: e.text, kind: e.kind }))
-      .filter((r: { title?: string }) => r.title);
-  } catch { /* court activity is optional */ }
-  return { matters, trends, rulings, cats, from: since(7), to: today.toISOString().slice(0, 10) };
+  const [activity, ch11, fed, cmbs, tx, pulse] = await Promise.all([
+    getJson<Inputs["activity"]>("/ops/docket-activity.json"), getJson<Inputs["ch11"]>("/ops/ch11-petitions.json"),
+    getJson<Inputs["fed"]>("/ops/federal-suits.json"), getJson<Inputs["cmbs"]>("/ops/cmbs-distress.json"),
+    getJson<Inputs["tx"]>("/ops/tx-foreclosures.json"), getJson<Inputs["pulse"]>("/ops/market-pulse.json"),
+  ]);
+  return build({ data, activity, ch11, fed, cmbs, tx, pulse, today: new Date() });
 }
 
-function renderIssue(issue: Awaited<ReturnType<typeof buildIssue>>, unsubscribeUrl: string) {
-  const { matters, trends, rulings, cats } = issue;
-  const shown = matters.slice(0, 15);
-  const mLink = (id: string) => `${SITE}/matters/${encodeURIComponent(id)}.html?${UTM}`;
-  const counts = [`${matters.length} new matter${matters.length === 1 ? "" : "s"}`,
-    rulings.length ? `${rulings.length} ruling${rulings.length === 1 ? "" : "s"} in cases we follow` : "",
-    trends.length ? `${trends.length} new market signal${trends.length === 1 ? "" : "s"}` : ""].filter(Boolean).join(" · ");
-  const address = POSTAL_ADDRESS || "[Mailing address to be added before the first send]";
-  const html = `
-<div style="font-family:-apple-system,Segoe UI,sans-serif; max-width:600px; margin:0 auto; padding:24px; color:#0b0d12;">
-  <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:#7c88a8; margin:0;">CREdocket · Weekly</p>
-  <h1 style="font-family:Georgia,serif; font-size:26px; margin:8px 0 6px;">New on CREdocket this week</h1>
-  <p style="font-size:13px; color:#3d4453; margin:0 0 22px;">${fmt(issue.from)} – ${fmt(issue.to)} · ${esc(counts)}</p>
-  ${shown.map((c) => `
-  <div style="padding:14px 0; border-top:1px solid #e2e5eb;">
-    <p style="font-size:11px; color:#7c88a8; text-transform:uppercase; letter-spacing:0.06em; margin:0 0 4px;">${esc(cats[c.category] || c.category)}</p>
-    <p style="font-family:Georgia,serif; font-size:16px; font-weight:600; margin:0 0 4px;"><a href="${mLink(c.id)}" style="color:#0b0d12; text-decoration:none;">${esc(plain(c.title))}</a></p>
-    <p style="font-size:12px; color:#7c88a8; margin:0 0 6px;">${esc(c.jurisdiction || "")}${c.date ? ` · ${fmt(c.date)}` : ""}</p>
-    <p style="font-size:13.5px; line-height:1.6; color:#3d4453; margin:0;">${esc(clip(plain(c.summary), 260))}</p>
-  </div>`).join("")}
-  ${matters.length > shown.length ? `<p style="font-size:13px; margin:12px 0 0;"><a href="${SITE}/updates.html?${UTM}" style="color:#3355ff;">See all ${matters.length} new matters</a></p>` : ""}
-  ${rulings.length ? `
-  <h2 style="font-family:Georgia,serif; font-size:18px; margin:30px 0 8px;">Rulings in cases we follow</h2>
-  ${rulings.map((r) => `<p style="font-size:13.5px; line-height:1.55; margin:0 0 10px;"><a href="${mLink(r.id)}" style="color:#0b0d12; font-weight:600;">${esc(plain(r.title))}</a><br><span style="color:#3d4453;">${fmt(r.date)}: ${r.kind === "closed" ? "the docket shows the case closed" : esc(r.text)} (federal docket)</span></p>`).join("")}` : ""}
-  ${trends.length ? `
-  <h2 style="font-family:Georgia,serif; font-size:18px; margin:30px 0 8px;">Market signals</h2>
-  ${trends.map((t) => `<p style="font-size:13.5px; line-height:1.55; margin:0 0 10px;"><a href="${SITE}/trends.html?${UTM}" style="color:#0b0d12; font-weight:600;">${esc(plain(t.title))}</a>${t.metric ? `<br><span style="color:#3d4453;">${esc(t.metric)}</span>` : ""}</p>`).join("")}` : ""}
-  <p style="margin:28px 0;"><a href="${SITE}/litigation.html?${UTM}" style="background:#3355ff; color:#fff; padding:11px 22px; border-radius:999px; text-decoration:none; font-weight:600;">Open the tracker</a></p>
-  <p style="font-size:13px; color:#3d4453; line-height:1.6; border-top:1px solid #e2e5eb; padding-top:16px;">Know someone who should see this? Forward it, or send them to <a href="${SITE}/newsletter.html?${UTM}" style="color:#3355ff;">credocket.com/newsletter.html</a>.</p>
-  <p style="font-size:11.5px; color:#9aa3b5; line-height:1.6; margin-top:24px;">You're getting this because you subscribed to CREdocket's weekly email. <a href="${unsubscribeUrl}" style="color:#9aa3b5;">Unsubscribe</a> in one click.<br>CREdocket summarizes public court records and reporting. Not legal advice.<br>${esc(address)}</p>
-</div>`;
-  const text = [`New on CREdocket this week (${fmt(issue.from)} – ${fmt(issue.to)})`, counts, "",
-    ...shown.flatMap((c) => [`${plain(c.title)}`, `${c.jurisdiction || ""} · ${fmt(c.date)}`, clip(plain(c.summary), 260), mLink(c.id), ""]),
-    ...(rulings.length ? ["RULINGS IN CASES WE FOLLOW", ...rulings.map((r) => `${plain(r.title)}: ${fmt(r.date)}, ${r.kind === "closed" ? "case closed" : r.text}. ${mLink(r.id)}`), ""] : []),
-    ...(trends.length ? ["MARKET SIGNALS", ...trends.map((t) => `${plain(t.title)}${t.metric ? ` (${t.metric})` : ""}`), `${SITE}/trends.html`, ""] : []),
-    `Unsubscribe: ${unsubscribeUrl}`, "CREdocket summarizes public court records and reporting. Not legal advice.", address].join("\n");
-  const lead = matters[0] ? clip(plain(matters[0].title).replace(/\s*\(.*\)\s*$/, ""), 60) : "";
-  const subject = `New on CREdocket: ${matters.length} matter${matters.length === 1 ? "" : "s"} this week${lead ? `, including ${lead}` : ""}`;
-  return { html, text, subject };
-}
+const renderIssue = (issue: Issue, unsubscribeUrl: string) => render(issue, unsubscribeUrl, POSTAL_ADDRESS);
 
 async function accountWeeklyEmails(): Promise<Set<string>> {
   const out = new Set<string>();
@@ -225,7 +178,7 @@ Deno.serve(async (req) => {
     const issue = await buildIssue();
     const { html, text, subject } = renderIssue(issue, `${SITE}/newsletter.html`);
     const ok = await sendEmail(OWNER_EMAIL, `[TEST] ${subject}`, html, text);
-    return json({ sent: ok, to: OWNER_EMAIL, matters: issue.matters.length, rulings: issue.rulings.length, trends: issue.trends.length });
+    return json({ sent: ok, to: OWNER_EMAIL, subject, matters: issue.matters.length, insights: issue.insights.length, radar: issue.radar.length, rulings: issue.rulings.length, trends: issue.trends.length });
   }
   if (body.action === "send-weekly") return await sendWeekly(body.force === true);
   if (body.action === "import") {
