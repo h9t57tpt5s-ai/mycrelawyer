@@ -19,6 +19,7 @@
 // Needs ANTHROPIC_API_KEY and ANTHROPIC_WORKSPACE_ID (Jeff's, in ~/.zshrc). Every call costs money:
 // the cost of each opinion is recorded in its output line.
 import Anthropic from "npm:@anthropic-ai/sdk@0.120";
+import { TextLineStream } from "jsr:@std/streams@1.0.9/text-line-stream";
 import { alnumKey, moneyValues } from "../supabase/functions/case-valuation-analyze/valuation-math.ts";
 
 const CATEGORIES = ["lease-disputes", "lending-foreclosure", "reit-securities", "construction-defect", "environmental",
@@ -118,16 +119,25 @@ function cost(model: string, usage: { input_tokens: number; output_tokens: numbe
   return batch ? c / 2 : c;
 }
 
-async function readLines(path: string): Promise<string[]> {
-  const bytes = await Deno.readFile(path);
-  const raw = path.endsWith(".gz")
-    ? new Uint8Array(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).arrayBuffer())
-    : bytes;
-  return new TextDecoder().decode(raw).split("\n").filter((l) => l.trim());
+// Streams JSON lines (optionally gzipped): the prepared file is 1.5 GB of
+// text, too big for one string.
+async function* streamLines(path: string): AsyncGenerator<string> {
+  const file = await Deno.open(path);
+  let stream: ReadableStream<Uint8Array> = file.readable;
+  if (path.endsWith(".gz")) stream = stream.pipeThrough(new DecompressionStream("gzip") as unknown as TransformStream<Uint8Array, Uint8Array>);
+  for await (const line of stream.pipeThrough(new TextDecoderStream()).pipeThrough(new TextLineStream())) {
+    if (line.trim()) yield line;
+  }
 }
 
-async function readRecords(path: string): Promise<Rec[]> {
-  return (await readLines(path)).map((l) => JSON.parse(l));
+async function readLines(path: string): Promise<string[]> {
+  const out: string[] = [];
+  for await (const l of streamLines(path)) out.push(l);
+  return out;
+}
+
+async function* streamRecords(path: string): AsyncGenerator<Rec> {
+  for await (const l of streamLines(path)) yield JSON.parse(l);
 }
 
 // A figure stands only if its quote is in the opinion and states the number.
@@ -207,6 +217,7 @@ function flag(name: string, dflt: string): string {
 }
 
 async function doneIds(path: string): Promise<Set<string>> {
+  if (!path) return new Set();
   try {
     return new Set((await readLines(path)).map((l) => JSON.parse(l)).filter((r) => !r.error).map((r) => r.id));
   } catch {
@@ -224,7 +235,11 @@ async function main() {
 
   if (cmd === "sync") {
     const done = await doneIds(b);
-    const recs = (await readRecords(a)).filter((r) => !done.has(r.id)).slice(0, limit);
+    const recs: Rec[] = [];
+    for await (const r of streamRecords(a)) {
+      if (recs.length >= limit) break;
+      if (!done.has(r.id)) recs.push(r);
+    }
     let total = 0;
     for (const rec of recs) {
       // deno-lint-ignore no-explicit-any
@@ -238,39 +253,74 @@ async function main() {
     }
     console.log(`${recs.length} opinions, $${total.toFixed(2)}`);
   } else if (cmd === "submit") {
+    // A batch takes at most 100,000 requests or 256 MB, so opinions are sent
+    // in batches of up to about 180 MB each.
     const skip = await doneIds(flag("--skip", ""));
-    const recs = (await readRecords(a)).filter((r) => !skip.has(r.id)).slice(0, limit);
-    const batch = await client.messages.batches.create({
-      // deno-lint-ignore no-explicit-any
-      requests: recs.map((r) => ({ custom_id: `op-${r.id}`, params: params(model, r) as any })),
-    });
-    await Deno.writeTextFile(b, JSON.stringify({ batch: batch.id, model, n: recs.length, created: new Date().toISOString() }) + "\n", { append: true });
-    console.log(`batch ${batch.id}: ${recs.length} opinions`);
+    const MAX_BYTES = 180_000_000;
+    // deno-lint-ignore no-explicit-any
+    let chunk: any[] = [];
+    let bytes = 0;
+    let sent = 0;
+    const send = async () => {
+      if (!chunk.length) return;
+      const batch = await client.messages.batches.create({ requests: chunk });
+      await Deno.writeTextFile(b, JSON.stringify({ batch: batch.id, model, n: chunk.length, created: new Date().toISOString() }) + "\n", { append: true });
+      console.log(`batch ${batch.id}: ${chunk.length} opinions`);
+      sent += chunk.length;
+      chunk = [];
+      bytes = 0;
+    };
+    for await (const r of streamRecords(a)) {
+      if (skip.has(r.id)) continue;
+      if (sent + chunk.length >= limit) break;
+      const req = { custom_id: `op-${r.id}`, params: params(model, r) };
+      const size = JSON.stringify(req).length + 1000;
+      if (bytes + size > MAX_BYTES || chunk.length >= 90_000) await send();
+      chunk.push(req);
+      bytes += size;
+    }
+    await send();
+    console.log(`${sent} opinions submitted`);
   } else if (cmd === "collect") {
     const states = (await readLines(a)).map((l) => JSON.parse(l));
-    const byId = new Map((await readRecords(b)).map((r) => [r.id, r]));
     const done = await doneIds(c);
+    // Results first (small), then one pass over the opinions to verify quotes.
+    // deno-lint-ignore no-explicit-any
+    const results = new Map<string, { model: string; r: any }>();
     for (const st of states) {
       const info = await client.messages.batches.retrieve(st.batch);
       if (info.processing_status !== "ended") {
         console.log(`${st.batch}: ${info.processing_status} (${info.request_counts.processing} left)`);
         continue;
       }
-      let n = 0, total = 0;
       for await (const r of await client.messages.batches.results(st.batch)) {
         const id = r.custom_id.replace(/^op-/, "");
-        if (done.has(id)) continue;
-        const rec = byId.get(id);
-        if (!rec) continue;
-        const row = r.result.type === "succeeded"
-          ? finish(rec, st.model, r.result.message, true)
-          : { id, model: st.model, error: r.result.type, cost: 0 };
-        total += row.cost;
-        n++;
-        await Deno.writeTextFile(c, JSON.stringify(row) + "\n", { append: true });
+        if (!done.has(id)) results.set(id, { model: st.model, r });
       }
-      console.log(`${st.batch}: ${n} collected, $${total.toFixed(2)}`);
     }
+    if (!results.size) {
+      console.log('no finished batches yet');
+      return;
+    }
+    let n = 0;
+    let total = 0;
+    let pending: string[] = [];
+    for await (const rec of streamRecords(b)) {
+      const hit = results.get(rec.id);
+      if (!hit) continue;
+      const row = hit.r.result.type === "succeeded"
+        ? finish(rec, hit.model, hit.r.result.message, true)
+        : { id: rec.id, model: hit.model, error: hit.r.result.type, cost: 0 };
+      total += row.cost;
+      n++;
+      pending.push(JSON.stringify(row));
+      if (pending.length >= 500) {
+        await Deno.writeTextFile(c, pending.join("\n") + "\n", { append: true });
+        pending = [];
+      }
+    }
+    if (pending.length) await Deno.writeTextFile(c, pending.join("\n") + "\n", { append: true });
+    console.log(`${n} collected, $${total.toFixed(2)}`);
   } else {
     console.error("usage: sync IN OUT | submit IN STATE | collect STATE IN OUT  [--model M] [--limit N]");
     Deno.exit(2);
