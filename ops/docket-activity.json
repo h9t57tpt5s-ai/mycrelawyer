@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-11T17:21:42+00:00",
+ "updatedAt": "2026-11-12T17:40:41+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 22,
+ "requestsUsed": 20,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -17,6 +17,13 @@
   },
   "66581116": {
    "entries": [
+    {
+     "date": "2026-11-11",
+     "number": 183,
+     "text": "Reply to Response to Motion",
+     "url": "https://www.courtlistener.com/docket/66581116/183/dillard-store-services-inc-v-winrock-partners-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-11-06",
      "number": 182,
@@ -65,13 +72,6 @@
      "text": "Response (when not to a motion)",
      "url": "https://www.courtlistener.com/docket/66581116/175/dillard-store-services-inc-v-winrock-partners-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 174,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/66581116/174/dillard-store-services-inc-v-winrock-partners-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -81,7 +81,7 @@
    "docketNumber": "1:22-cv-00921",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/66581116/dillard-store-services-inc-v-winrock-partners-llc/",
-   "lastEntryDate": "2026-11-06"
+   "lastEntryDate": "2026-11-11"
   },
   "66730007": {
    "entries": [
@@ -118,6 +118,13 @@
   },
   "67174489": {
    "entries": [
+    {
+     "date": "2026-11-12",
+     "number": 1646,
+     "text": "Leave",
+     "url": "https://www.courtlistener.com/docket/67174489/1646/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
     {
      "date": "2026-11-10",
      "number": 1643,
@@ -166,13 +173,6 @@
      "text": "Order AND ~Util - Add and Terminate Attorneys AND ~Util - Terminate Motions",
      "url": "https://www.courtlistener.com/docket/67174489/1634/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 1633,
-     "text": "Leave to File Document under Seal",
-     "url": "https://www.courtlistener.com/docket/67174489/1633/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -182,7 +182,7 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-11-10"
+   "lastEntryDate": "2026-11-12"
   },
   "67356054": {
    "entries": [
@@ -277,6 +277,34 @@
   "69074245": {
    "entries": [
     {
+     "date": "2026-11-11",
+     "number": 233,
+     "text": "Answer to Complaint",
+     "url": "https://www.courtlistener.com/docket/69074245/233/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-11",
+     "number": 232,
+     "text": "Answer to Amended Complaint",
+     "url": "https://www.courtlistener.com/docket/69074245/232/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-11",
+     "number": 231,
+     "text": "Answer to Amended Complaint",
+     "url": "https://www.courtlistener.com/docket/69074245/231/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-11",
+     "number": 230,
+     "text": "Answer to Amended Complaint",
+     "url": "https://www.courtlistener.com/docket/69074245/230/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-05",
      "number": 229,
      "text": "Exhibit 2 - Public Comment Regarding the Proposed Final Judgment [200-1] submitt",
@@ -303,34 +331,6 @@
      "text": "Exhibit 2 - Public Comment Regarding the Proposed Final Judgment [200-1] submitt",
      "url": "https://www.courtlistener.com/docket/69074245/228/2/united-states-of-america-v-realpage-inc/",
      "ruling": true
-    },
-    {
-     "date": "2026-11-04",
-     "number": 228,
-     "text": "Exhibit 1 - Public Comment Regarding the Proposed Final Judgment [200-1] submitt",
-     "url": "https://www.courtlistener.com/docket/69074245/228/1/united-states-of-america-v-realpage-inc/",
-     "ruling": true
-    },
-    {
-     "date": "2026-11-04",
-     "number": 228,
-     "text": "Response - non motion",
-     "url": "https://www.courtlistener.com/docket/69074245/228/united-states-of-america-v-realpage-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-04",
-     "number": 227,
-     "text": "Notice of Special Appearance",
-     "url": "https://www.courtlistener.com/docket/69074245/227/united-states-of-america-v-realpage-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-19",
-     "number": 226,
-     "text": "Notice of Special Appearance",
-     "url": "https://www.courtlistener.com/docket/69074245/226/united-states-of-america-v-realpage-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -340,10 +340,31 @@
    "docketNumber": "1:24-cv-00710",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
-   "lastEntryDate": "2026-11-05"
+   "lastEntryDate": "2026-11-11"
   },
   "69353264": {
    "entries": [
+    {
+     "date": "2026-11-12",
+     "number": 52,
+     "text": "Order on Motion for Magistrate Judge",
+     "url": "https://www.courtlistener.com/docket/69353264/52/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-12",
+     "number": null,
+     "text": "Set/Reset Motion and R&R Deadlines/Hearings",
+     "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-11",
+     "number": 51,
+     "text": "Magistrate Judge",
+     "url": "https://www.courtlistener.com/docket/69353264/51/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-11-05",
      "number": null,
@@ -378,27 +399,6 @@
      "text": "Order on Motion for Miscellaneous Relief",
      "url": "https://www.courtlistener.com/docket/69353264/47/ayer-v-lightstone-value-plus-reit-i-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-23",
-     "number": 46,
-     "text": "Letter",
-     "url": "https://www.courtlistener.com/docket/69353264/46/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-22",
-     "number": 45,
-     "text": "Joint Discovery Plan",
-     "url": "https://www.courtlistener.com/docket/69353264/45/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-22",
-     "number": 44,
-     "text": "Joint Discovery Plan",
-     "url": "https://www.courtlistener.com/docket/69353264/44/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -408,7 +408,7 @@
    "docketNumber": "3:24-cv-10371",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
-   "lastEntryDate": "2026-11-05"
+   "lastEntryDate": "2026-11-12"
   },
   "69518085": {
    "entries": [
