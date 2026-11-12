@@ -85,6 +85,8 @@ const SYSTEM = `You read one court opinion and record the outcome of the dispute
 
 Scope. is_commercial_real_estate is true only if the dispute is about commercial real estate on its face: a commercial lease, a loan secured by commercial property (including multifamily owned by a business), construction of a commercial building, condemnation of property, zoning or land use of a development, environmental liability tied to real property, a REIT or real estate fund, or injury on commercial premises (a store, office, hotel, apartment complex common area). It is false for houses, condominium units owned by individuals, residential tenancies, consumer loans, home foreclosures, family property, insurance coverage fights, and business disputes that only mention a building. residential_or_consumer is true when the property or a party is a home, a residential tenant, a homeowner or a consumer. debt_collection is true for suits to collect consumer or ordinary business debts.
 
+state: the two-letter postal code of the state where the property is (TX, NY), or "" if the opinion does not say. decision_year: the year this opinion was decided, if stated.
+
 Claims. List each claim for money that the opinion describes (rent, damages, deficiency, just compensation, lien amount, construction damages, personal injury damages, return of a deposit). For each:
 - claimant_role: a role word such as Landlord, Tenant, Guarantor, Lender, Borrower, Property Owner, Condemnor, Owner, Contractor, Subcontractor, Injured Party, Developer, Municipality.
 - amount_claimed: the amount that side asked for, if the opinion states one.

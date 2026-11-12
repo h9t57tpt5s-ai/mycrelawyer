@@ -19,6 +19,10 @@ the outcome database is proprietary and must never enter the public repo).
       python3 scripts/mine_opinions.py clusters OUT/candidates.jsonl.gz OUT/clusters.json
   curl -s $BULK/dockets-2026-09-30.csv.bz2 | bzcat | \
       python3 scripts/mine_opinions.py dockets OUT/clusters.json OUT/dockets.json
+  # pass 4 (local): one opinion per case, 2000 or later, state and federal courts
+  python3 scripts/mine_opinions.py prepare OUT OUT/prepared.jsonl.gz
+
+The mine-opinions.yml workflow runs passes 1-3 on a runner.
 """
 import csv
 import gzip
@@ -123,6 +127,60 @@ def cmd_dockets(clusters: str, out: str) -> None:
     print(f"{len(found):,} of {len(want):,} dockets found", file=sys.stderr)
 
 
+# State supreme, appellate, trial and special courts; federal appeals,
+# district and bankruptcy courts. Tribal, military and territorial courts
+# are left out.
+JURISDICTIONS = {"S": "state supreme", "SA": "state appellate", "ST": "state trial", "SS": "state special",
+                 "F": "federal appeals", "FD": "federal district", "FB": "federal bankruptcy"}
+MAX_CHARS = 200_000   # longer opinions are counted and skipped, never truncated
+
+
+def cmd_prepare(src: str, out: str) -> None:
+    import bz2
+    import collections
+    import os
+    clusters = json.load(open(os.path.join(src, "clusters.json")))
+    dockets = json.load(open(os.path.join(src, "dockets.json")))
+    with bz2.open(os.path.join(src, "courts.csv.bz2"), "rt") as f:
+        courts = {c["id"]: c for c in csv.DictReader(f, escapechar="\\", doublequote=False)}
+    best = {}
+    skip = collections.Counter()
+    with gzip.open(os.path.join(src, "candidates.jsonl.gz"), "rt") as f:
+        for line in f:
+            c = json.loads(line)
+            cl = clusters.get(c["cluster_id"])
+            if not cl:
+                skip["no cluster"] += 1
+                continue
+            dk = dockets.get(cl["docket_id"], {})
+            court = courts.get(dk.get("court_id", ""), {})
+            if court.get("jurisdiction") not in JURISDICTIONS:
+                skip["court not state/federal"] += 1
+                continue
+            if (cl.get("date_filed") or "") < "2000-01-01":
+                skip["before 2000"] += 1
+                continue
+            if len(c["text"]) > MAX_CHARS:
+                skip["longer than 200K chars"] += 1
+                continue
+            c.update({"date_filed": cl["date_filed"], "case_name": cl.get("case_name") or dk.get("case_name", ""),
+                      "court_id": dk.get("court_id"), "court": court.get("full_name"),
+                      "jurisdiction": JURISDICTIONS[court["jurisdiction"]], "docket_number": dk.get("docket_number", "")})
+            prev = best.get(c["cluster_id"])
+            if prev:
+                skip["second opinion in the same case"] += 1
+            if not prev or len(c["text"]) > len(prev["text"]):
+                best[c["cluster_id"]] = c
+    with gzip.open(out, "wt") as fo:
+        for c in best.values():
+            fo.write(json.dumps(c) + "\n")
+    print(f"{len(best):,} opinions kept; skipped: {dict(skip)}", file=sys.stderr)
+    print("by court type:", dict(collections.Counter(c["jurisdiction"] for c in best.values())), file=sys.stderr)
+    print("by decade:", dict(sorted(collections.Counter(c["date_filed"][:3] + "0s" for c in best.values()).items())), file=sys.stderr)
+    chars = sum(len(c["text"]) for c in best.values())
+    print(f"{chars/1e6:,.0f}M characters (about {chars/4/1e6:,.0f}M tokens)", file=sys.stderr)
+
+
 if __name__ == "__main__":
     cmd, *a = sys.argv[1:]
-    {"filter": cmd_filter, "clusters": cmd_clusters, "dockets": cmd_dockets}[cmd](*a)
+    {"filter": cmd_filter, "clusters": cmd_clusters, "dockets": cmd_dockets, "prepare": cmd_prepare}[cmd](*a)
