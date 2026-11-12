@@ -1,0 +1,53 @@
+# Find commercial real estate outcome opinions in CourtListener's quarterly
+# bulk files (Public Domain Mark). Manual only. The 55 GB opinions file is
+# streamed on the runner because a home connection takes about 5 hours.
+#
+# The artifact holds only filtered public court opinions plus their court
+# and date, kept for 1 day. The outcome extraction (which costs API money
+# and produces the proprietary outcome database) runs locally with
+# scripts/extract_opinion_outcomes.ts, and its results never enter the repo.
+#
+#   gh workflow run mine-opinions.yml -f snapshot=2026-09-30
+#   gh run download <run id> -n opinion-candidates -D case_valuation_project/data/research/opinions
+name: Mine opinions
+
+on:
+  workflow_dispatch:
+    inputs:
+      snapshot:
+        description: Bulk data date (YYYY-MM-DD, quarterly)
+        default: "2026-09-30"
+
+permissions:
+  contents: read
+
+jobs:
+  mine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install parallel bzip2
+        run: sudo apt-get install -y lbzip2
+      - name: Filter opinions
+        env:
+          B: https://com-courtlistener-storage.s3-us-west-2.amazonaws.com/bulk-data
+          S: ${{ inputs.snapshot }}
+        run: |
+          mkdir -p out
+          curl -sf --retry 3 "$B/opinions-$S.csv.bz2" | lbzip2 -dc | python3 scripts/mine_opinions.py filter out/candidates.jsonl.gz
+      - name: Attach dates, case names and courts
+        env:
+          B: https://com-courtlistener-storage.s3-us-west-2.amazonaws.com/bulk-data
+          S: ${{ inputs.snapshot }}
+        run: |
+          curl -sf --retry 3 "$B/opinion-clusters-$S.csv.bz2" | lbzip2 -dc | python3 scripts/mine_opinions.py clusters out/candidates.jsonl.gz out/clusters.json
+          curl -sf --retry 3 "$B/dockets-$S.csv.bz2" | lbzip2 -dc | python3 scripts/mine_opinions.py dockets out/clusters.json out/dockets.json
+          curl -sf --retry 3 "$B/courts-$S.csv.bz2" -o out/courts.csv.bz2
+          ls -la out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: opinion-candidates
+          path: out/
+          retention-days: 1
+          compression-level: 0
