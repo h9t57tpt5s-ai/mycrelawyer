@@ -1,7 +1,87 @@
 {
- "updatedAt": "2026-11-12T08:16:55+00:00",
+ "updatedAt": "2026-11-12T20:47:03+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001079973-26-001461:kaa10q-926final.htm",
+   "company": "KAANAPALI LAND LLC  (KANP)",
+   "cik": "1230058",
+   "sic": "6552",
+   "form": "10-Q",
+   "filed": "2026-11-12",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1230058/000107997326001461/kaa10q-926final.htm",
+   "phrases": [
+    "filed a complaint"
+   ],
+   "excerpts": [
+    "Due to NHC\u2019s failure and refusal to pay the receivable, on September 4, 2026, KLMC gave NHC written notice of NHC\u2019s default under the Infrastructure Improvement Agreement and demand for payment. NHC failed to cure its default and therefore, pursuant to its rights under the Infrastructure Improvement Agreement, on September 29, 2026, KLMC elected to initiate foreclosure proceedings on the NHC Contribution Lien and filed a complaint in Maui. On November 5, 2026, NHC filed a motion to stay or dismiss the foreclosure proceedings. There can be no assurance that KLMC will prevail in such foreclosure proceeding or that such proceeding will result in the collection of the receivable and accrued interest. In conjunction with the Infrastructure Improvement Agreement, the Company retains certain approval rights relating to the uses and designs of the site to ensure the uses and designs are aligned with the Company's planned master development.",
+    "16 (table of contents) On September 4, 2026, KLMC gave NHC written notice of NHC\u2019s default under the Infrastructure Improvement Agreement and demand for payment. NHC failed to cure its default and therefore, pursuant to its rights under the Infrastructure Improvement Agreement, on September 29, 2026, KLMC elected to initiate foreclosure proceedings on the NHC Contribution Lien and filed a complaint in Maui. On November 5, 2026, NHC filed a motion to stay or dismiss the foreclosure proceedings. There can be no assurance that KLMC will prevail in such foreclosure proceeding or that such proceeding will result in the collection of the receivable and accrued interest. Reference is made to Note 2. Land Development, for further discussion regarding the NHC arbitration.",
+    "Due to NHC\u2019s failure and refusal to pay the receivable, as discussed above, on September 4, 2026, KLMC gave NHC written notice of NHC\u2019s default under the Infrastructure Improvement Agreement and demand for payment. NHC failed to cure its default and therefore, pursuant to its rights under the Infrastructure Improvement Agreement, on September 29, 2026, KLMC elected to initiate foreclosure proceedings on the NHC Contribution Lien and filed a complaint in Maui. On November 5, 2026, NHC filed a motion to stay or dismiss the foreclosure proceedings. There can be no assurance that KLMC will prevail in such foreclosure proceeding or that such proceeding will result in the collection of the receivable and accrued interest. The Company is in the planning stages for the development of a 295-acre parcel in the region mauka of Kaanapali Coffee Farms (\u201cKCF Mauka\u201d)."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-12"
+  },
+  {
+   "key": "0001437749-26-036318:stly20260930_10q.htm",
+   "company": "HG Holdings, Inc.  (STLY)",
+   "cik": "797465",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-12",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/797465/000143774926036318/stly20260930_10q.htm",
+   "phrases": [
+    "foreclosure action"
+   ],
+   "excerpts": [
+    "The Lee County Plaintiff alleges Omega is named as a nominal escrow/stakeholder defendant or alternatively seeks for accounting and escrow relief. Omega has retained outside counsel. The Company believes it is unlikely that the case will result in a material adverse effect on the Company's consolidated financial statements. Citibank Foreclosure Against Unrelated Third Party On May 13, 2024, the Company was served with a foreclosure action filed by Citibank, N.A., primarily against two individually named defendants. The Company was identified as a co-defendant in this matter as the Company has a recorded judgment against one of the primary defendants. The Company has retained outside counsel in this matter in efforts to preserve any claim the Company may have to said recorded judgment against the primary defendant."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-12"
+  },
+  {
+   "key": "0001628280-26-073258:airc2026q3ex-101.htm",
+   "company": "Apartment Income REIT, L.P.",
+   "cik": "926660",
+   "sic": "6513",
+   "form": "10-Q",
+   "filed": "2026-11-12",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/926660/000162828026073258/airc2026q3ex-101.htm",
+   "phrases": [
+    "appointment of a receiver",
+    "deed in lieu of foreclosure",
+    "foreclosure action"
+   ],
+   "excerpts": [
+    "Borrower shall promptly deliver to Lender any and all notices, summonses, pleadings, applications and other documents received by Borrower in connection with any such petition and any proceedings relating to such petition. (h) If Lender, its nominee, designee, successor, or assignee acquires title and/or rights of Borrower under the Ground Lease by reason of foreclosure of the applicable Mortgage, deed in lieu of foreclosure or otherwise, such party shall (x) succeed to all of the rights of and benefits accruing to Borrower under the Ground Lease, and (y) be entitled to exercise all of the rights and benefits accruing to Borrower under the Ground Lease. At such time as Lender shall request, Borrower agrees to execute and deliver and use commercially reasonable efforts to cause any third party to execute and deliver to Lender such documents as Lender and its counsel may reasonably require in order to insure that the provisions of this Section will be validly and legally enforceable and effective against Borrower and all parties claiming by, through, under or against Borrower."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-12"
+  },
+  {
+   "key": "0002069692-26-000072:blueowl-gainesvillexgcdc3x.htm",
+   "company": "Blue Owl Digital Infrastructure Trust",
+   "cik": "2069692",
+   "sic": "6798",
+   "form": "8-K",
+   "filed": "2026-11-12",
+   "periodEnding": "2026-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/2069692/000206969226000072/blueowl-gainesvillexgcdc3x.htm",
+   "phrases": [
+    "appointment of a receiver"
+   ],
+   "excerpts": [
+    "Neither Seller nor Property Owner is a \u201cforeign person\u201d within the meaning of Section 1445 of the Internal Revenue Code of 1986, as amended. (m) Bankruptcy . None of Seller or Property Owner has (A) made a general assignment for the benefit of creditors, (B) filed any voluntary petition in bankruptcy or suffered the filing of any involuntary petition by Seller\u2019s creditors, (C) suffered the appointment of a receiver, trustee, administrator, conservator, liquidator, or similar official to take possession of all, or substantially all of Seller\u2019s assets, which remains pending, or (D) suffered the attachment or other judicial seizure of all, or substantially all of Seller\u2019s assets, which remains pending. (n) Employees; Union Contracts; ERISA ."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-12"
+  },
   {
    "key": "0001837671-26-000089:cpt-20260930.htm",
    "company": "Copper Property CTL Pass Through Trust  (CPPTL)",
