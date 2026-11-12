@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T03:20:33+00:00",
+ "updatedAt": "2026-11-12T19:09:25+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
   {
@@ -39,6 +39,34 @@
    "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-10",
    "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261110.csv",
    "slug": "u-s-bank-trust-national-association-v-ventura-general-contracting-grou-fl-hillsborough-26-ca-012081"
+  },
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "261200502571",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-10",
+   "caseName": "Regalia at the Park Holdings, LLC v. Arian Global LLC",
+   "plaintiffs": [
+    "Regalia at the Park Holdings, LLC"
+   ],
+   "defendants": [
+    "Arian Global LLC"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "regalia-at-the-park-holdings-llc-v-arian-global-llc-tx-harris-261200502571",
+   "relatedCaseNumbers": [
+    "261200502563",
+    "261200502556",
+    "261200502538",
+    "261200502518",
+    "261200502487",
+    "261200502477",
+    "261200502454"
+   ]
   },
   {
    "source": "hillsborough_fl",

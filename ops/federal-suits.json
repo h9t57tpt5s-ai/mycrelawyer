@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-11-12T03:19:32+00:00",
+ "updatedAt": "2026-11-12T19:08:11+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Dutch Plaza Properties, LTD. v. Poggenpohl U.S., INC.",
+   "court": "District Court, S.D. Texas",
+   "courtId": "txsd",
+   "docketNumber": "4:26-cv-09916",
+   "dateFiled": "2026-11-12",
+   "docketUrl": "https://www.courtlistener.com/docket/75108140/dutch-plaza-properties-ltd-v-poggenpohl-us-inc/",
+   "docketId": 75108140,
+   "suitNature": "",
+   "cause": "",
+   "slug": "dutch-plaza-properties-ltd-v-poggenpohl-u-s-inc-txsd-4-26-cv-09916",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "TURTLE & HUGHES, INC. v. HALO DEVELOPMENT LLC",
    "court": "District Court, D. New Jersey",
@@ -39,6 +52,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "chisholm-properties-south-beach-inc-individually-and-as-assignee-of-he-flsd-1-26-cv-28014",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Chisholm Properties South Beach, Inc. v. Evanston Insurance Company",
+   "court": "District Court, S.D. Florida",
+   "courtId": "flsd",
+   "docketNumber": "1:26-cv-28014",
+   "dateFiled": "2026-11-11",
+   "docketUrl": "https://www.courtlistener.com/docket/75103359/chisholm-properties-south-beach-inc-v-evanston-insurance-company/",
+   "docketId": 75103359,
+   "suitNature": "",
+   "cause": "",
+   "slug": "chisholm-properties-south-beach-inc-v-evanston-insurance-company-flsd-1-26-cv-28014",
    "type": "Federal civil case"
   },
   {
@@ -104,6 +130,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "phoenix-associates-inc-v-smg-land-development-llc-wvsd-2-26-cv-00719",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Calistoga Wine LLC v. One True Vine, LLC",
+   "court": "District Court, N.D. California",
+   "courtId": "cand",
+   "docketNumber": "3:26-cv-13460",
+   "dateFiled": "2026-11-09",
+   "docketUrl": "https://www.courtlistener.com/docket/75093528/calistoga-wine-llc-v-one-true-vine-llc/",
+   "docketId": 75093528,
+   "suitNature": "240 Torts to Land",
+   "cause": "42:1396 - Tort Negligence",
+   "slug": "calistoga-wine-llc-v-one-true-vine-llc-cand-3-26-cv-13460",
    "type": "Federal civil case"
   },
   {
