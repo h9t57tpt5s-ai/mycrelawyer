@@ -1357,8 +1357,17 @@
         "signUps7": 1
       },
       "checkAfter": "2026-11-12",
-      "status": "watching",
-      "note": "Changed css/styles.css's .returning-banner rule only: background var(--accent-wash) -> var(--accent-deep), text var(--text-secondary)/var(--accent-deep) -> #ffffff throughout, font-size 13.5px -> 14.5px, padding 11px -> 13px, link now underlined, plus a box-shadow for lift. No change to js/main.js -- same copy, same markup, same real computed count/date/link, so this isolates visibility as the one variable per imp-010's own note (a copy/incentive change was already tested separately and helped, on a different element: the newsletter CTA, imp-033/046). Verified only one `.returning-banner` rule block exists in css/styles.css (no conflicting override elsewhere) and that the nav-overlap JS fix (js/main.js lines ~299-312, sets the banner's own marginTop from the nav's offsetHeight) depends only on the nav's height, not the banner's, so it's unaffected by the banner's own padding/font-size change. site_audit.py summary unchanged (missingDescription 2/weakDescription 2, both already-explained pre-existing noindex pages) before and after; only css/styles.css staged and committed, ops/metrics/goals.json's own regeneration (from running goal_scoreboard.py/site_audit.py to read current numbers) reverted before committing per the established rule that file belongs to metrics-snapshot.yml. Next time: judge against multiPageRate7Adjusted (baseline 0.023) at checkAfter (2026-11-12, a 7-day window from today, chosen over 14 since this is a same-site CSS change with no Google dependency); also sanity-check botFlaggedDays7 for the window to confirm the adjustment itself held up over these new days before trusting the read. If adjusted multiPageRate7 still doesn't move, the banner's visibility was very likely not the real blocker either, and G17/G19's structural diagnoses (not a third placement/visibility variant) are probably the only levers left on conversion's follows7/multiPageRate7 side specifically."
+      "status": "helped",
+      "note": "Changed css/styles.css's .returning-banner rule only: background var(--accent-wash) -> var(--accent-deep), text var(--text-secondary)/var(--accent-deep) -> #ffffff throughout, font-size 13.5px -> 14.5px, padding 11px -> 13px, link now underlined, plus a box-shadow for lift. No change to js/main.js -- same copy, same markup, same real computed count/date/link, so this isolates visibility as the one variable per imp-010's own note (a copy/incentive change was already tested separately and helped, on a different element: the newsletter CTA, imp-033/046). Verified only one `.returning-banner` rule block exists in css/styles.css (no conflicting override elsewhere) and that the nav-overlap JS fix (js/main.js lines ~299-312, sets the banner's own marginTop from the nav's offsetHeight) depends only on the nav's height, not the banner's, so it's unaffected by the banner's own padding/font-size change. site_audit.py summary unchanged (missingDescription 2/weakDescription 2, both already-explained pre-existing noindex pages) before and after; only css/styles.css staged and committed, ops/metrics/goals.json's own regeneration (from running goal_scoreboard.py/site_audit.py to read current numbers) reverted before committing per the established rule that file belongs to metrics-snapshot.yml. Next time: judge against multiPageRate7Adjusted (baseline 0.023) at checkAfter (2026-11-12, a 7-day window from today, chosen over 14 since this is a same-site CSS change with no Google dependency); also sanity-check botFlaggedDays7 for the window to confirm the adjustment itself held up over these new days before trusting the read. If adjusted multiPageRate7 still doesn't move, the banner's visibility was very likely not the real blocker either, and G17/G19's structural diagnoses (not a third placement/visibility variant) are probably the only levers left on conversion's follows7/multiPageRate7 side specifically.",
+      "verdict": {
+        "date": "2026-11-12",
+        "value": {
+          "multiPageRate7Adjusted": 0.1026,
+          "visits7Adjusted": 351,
+          "botFlaggedDays7": []
+        },
+        "note": "multiPageRate7Adjusted 0.023 -> 0.1026 (+346%), clears the 25% threshold easily. Confirmed by the day-by-day trend, not a blip: every day from 2026-11-05 (the day imp-056 shipped) through 2026-11-11 shows /contact.html at exactly 0 visits (the G19 bot contamination is fully gone post-cutover) and multiPageRate held in a 0.067-0.20 range the whole week, often above the 0.08 target. This is also the first fully-clean 7-day window (2026-11-05 through 2026-11-11, zero botFlaggedDays7) since the G19 fix landed, so there is no contamination caveat to apply. Not separable from imp-010's original banner/idea, but the visibility change (imp-056) is what made the banner's conversion read as a sustained rise rather than the 'no clear effect' imp-010 got on its own."
+      }
     },
     {
       "id": "imp-057",
@@ -1638,7 +1647,16 @@
         "brokenLinks": 0
       },
       "checkAfter": "2026-11-12",
-      "status": "watching"
+      "status": "helped",
+      "verdict": {
+        "date": "2026-11-12",
+        "value": {
+          "orphanPages": 0,
+          "missingFromSitemap": 0,
+          "brokenLinks": 0
+        },
+        "note": "Live site_audit.py confirms orphanPages/missingFromSitemap/brokenLinks all still 0 the next day. `gh run list --workflow=prerender.yml` shows the pipeline has run repeatedly since (most recently 2026-11-12T03:25:39Z, success) with no fifth G22 recurrence -- judge-renee-cohn-jubelirer.html and judges.html's A-Z list are still correct."
+      }
     },
     {
       "id": "imp-068",
@@ -1659,6 +1677,26 @@
         "googleLandings7": 165
       },
       "checkAfter": "2026-11-18",
+      "status": "watching"
+    },
+    {
+      "id": "imp-069",
+      "date": "2026-11-12",
+      "track": "audit",
+      "title": "Fix: directory-overview.html orphaned (no inbound links from anywhere on the site)",
+      "why": "Real breakage found before any goal work (Step 3 rule 1): live site_audit.py showed orphanPages=1 on directory-overview.html -- a fully-built hub page (three cards linking to judges.html, companies.html and compare-companies.html; already in sitemap.xml, already indexable, correct meta/OG tags) that no other page on the site linked back to, and no nav item pointed to either (judges/companies/compare-companies still sit under the Research dropdown's 'People & Companies' group, not under a dedicated 'Directory' nav item). Not a G22 recurrence (no judge-*.html involved) and not a pipeline failure -- `gh run list --workflow=prerender.yml` showed the pipeline running clean all morning (latest success 2026-11-12T03:25:39Z). Rewiring the nav to give this page a proper top-level entry would mean editing the shared nav block duplicated across ~230+ hand-authored root pages plus every page-builder template -- far beyond a reviewable single-run change, and not what this specific breakage needs. Fixed it the same minimal way imp-001/002 fixed every prior orphan: one plain inbound link from each of the three pages the hub itself already links to.",
+      "files": [
+        "judges.html",
+        "companies.html",
+        "compare-companies.html"
+      ],
+      "commit": "c840e50769cf5b87f2ff8b6d356907a695e2b5e3",
+      "metric": "site_audit.py summary.orphanPages",
+      "window": "next day",
+      "baseline": {
+        "orphanPages": 1
+      },
+      "checkAfter": "2026-11-13",
       "status": "watching"
     }
   ]
