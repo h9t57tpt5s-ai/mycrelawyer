@@ -1,7 +1,40 @@
 {
- "updatedAt": "2026-11-11T18:58:04+00:00",
+ "updatedAt": "2026-11-12T03:19:32+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "Geise Properties 5, LLC",
+   "court": "United States Bankruptcy Court, D. Nebraska",
+   "courtId": "nebraskab",
+   "docketNumber": "26-81326",
+   "dateFiled": "2026-11-11",
+   "docketUrl": "https://www.courtlistener.com/docket/75106140/geise-properties-5-llc/",
+   "docketId": 75106140,
+   "slug": "geise-properties-5-llc-nebraskab-26-81326",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Flavio Realty Corp.",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-45262",
+   "dateFiled": "2026-11-11",
+   "docketUrl": "https://www.courtlistener.com/docket/75103674/flavio-realty-corp/",
+   "docketId": 75103674,
+   "slug": "flavio-realty-corp-nyeb-1-26-45262",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Dino Realty Corp.",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-45263",
+   "dateFiled": "2026-11-11",
+   "docketUrl": "https://www.courtlistener.com/docket/75103734/dino-realty-corp/",
+   "docketId": 75103734,
+   "slug": "dino-realty-corp-nyeb-1-26-45263",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "293 A Cooper Corp.",
    "court": "United States Bankruptcy Court, E.D. New York",
