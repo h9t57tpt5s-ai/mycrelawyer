@@ -278,7 +278,7 @@ for await (const entry of Deno.readDir(".")) {
   let h = fill(h0, "cp-stats", stats, f);
   if (matches.length) {
     const n = matches.length;
-    h = setHead(h, `${name} Lawsuits & Court Cases (${n}) — CREdocket`,
+    h = setHead(h, `${name} Lawsuits & Cases (${n}) — CREdocket`,
       clipText(`${n} commercial real estate ${n === 1 ? "lawsuit or ruling" : "lawsuits and rulings"} involving ${name}: ${matches.slice(0, 2).map(shortName).join("; ")}. Parties, courts, dates and sources.`, 158));
   }
   h = fill(h, "cp-case-grid", matches.length ? matches.map(companyCard).join("") : `<p class="text-secondary">No matters currently tracked for ${esc(name)} &mdash; check back as coverage grows.</p>`, f);
@@ -308,7 +308,7 @@ for await (const entry of Deno.readDir(".")) {
 {
   const f = "litigation.html";
   const h0 = await Deno.readTextFile(f);
-  const h = setHead(h0, `Commercial Real Estate Litigation Tracker: ${data.cases.length} Lawsuits & Rulings — CREdocket`,
+  const h = setHead(h0, `CRE Litigation Tracker: ${data.cases.length} Lawsuits & Rulings — CREdocket`,
     `Search ${data.cases.length} commercial real estate lawsuits, rulings and settlements: lease disputes, CMBS and bank foreclosures, data center zoning, eminent domain and construction claims, with parties, courts and sources.`);
   if (h !== h0) { await Deno.writeTextFile(f, h); written.push(f); }
 }

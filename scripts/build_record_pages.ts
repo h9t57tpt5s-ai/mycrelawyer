@@ -40,6 +40,7 @@ const fmtDate = (iso?: string | null) => iso ? new Date(iso.slice(0, 10) + "T00:
 const shortDate = (iso?: string | null) => iso ? new Date(iso.slice(0, 10) + "T00:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }) : "";
 const longDay = (iso: string) => new Date(iso + "T00:00:00Z").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 const isCourtListener = (u?: string | null) => !!u && /^https:\/\/www\.courtlistener\.com\//.test(u);
+const clipText = (t: string, n: number) => t.length <= n ? t : t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…";
 const plainTitle = (t: string) => t.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"');
 
 // "United States Bankruptcy Court, S.D. Texas" / "District Court, S.D. Florida" -> "S.D. Texas" / "S.D. Florida"
@@ -134,7 +135,7 @@ function words(k: Kind, r: Rec) {
     const court = bankruptcyCourt(r.court);
     return {
       title: `${r.caseName} — Chapter 11 case, ${district(r.court)} — CREdocket`,
-      desc: `A Chapter 11 bankruptcy case for ${r.caseName} opened in the ${court} on ${fmtDate(r.dateFiled)} (case no. ${r.docketNumber}). Court record, latest orders and case alerts.`,
+      desc: clipText(`A Chapter 11 bankruptcy case for ${r.caseName} opened in the ${court} on ${fmtDate(r.dateFiled)} (case no. ${r.docketNumber}). Court record, latest orders and case alerts.`, 300),
       name: `${r.caseName} — Chapter 11 case`, badge: "Chapter 11 case", court,
       meta: [["Debtor", esc(r.caseName)], ["Court", esc(court)], ["Case number", esc(r.docketNumber)], ["Case opened", esc(fmtDate(r.dateFiled))], ["Chapter", "11"]] as [string, string][],
       intro: `<p class="body-text">A Chapter 11 bankruptcy case for ${esc(r.caseName)} was opened in the ${esc(court)} on ${esc(fmtDate(r.dateFiled))}, case no. ${esc(r.docketNumber)}, according to the federal court record.</p>
@@ -148,7 +149,7 @@ function words(k: Kind, r: Rec) {
   const kind = r.suitNature ? r.suitNature.replace(/^\d+\s+/, "") : "";
   return {
     title: `${r.caseName} — ${r.courtId === "uscfc" ? "Court of Federal Claims" : district(r.court)} lawsuit — CREdocket`,
-    desc: `${r.caseName}: a federal lawsuit filed in the ${court} on ${fmtDate(r.dateFiled)} (case no. ${r.docketNumber}). Court record, latest orders and case alerts.`,
+    desc: clipText(`${r.caseName}: a federal lawsuit filed in the ${court} on ${fmtDate(r.dateFiled)} (case no. ${r.docketNumber}). Court record, latest orders and case alerts.`, 300),
     name: r.caseName, badge: "Federal lawsuit", court,
     meta: [["Court", esc(court)], ["Case number", esc(r.docketNumber)], ["Filed", esc(fmtDate(r.dateFiled))],
       ["Nature of suit", esc(kind)], ["Cause", esc(r.cause || "")]] as [string, string][],

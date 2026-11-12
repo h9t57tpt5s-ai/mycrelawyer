@@ -308,7 +308,7 @@ const card = (m: Market) => {
   return `<a class="rt-tile is-on" href="/${DIR}/${m.slug}.html"><span class="rt-n">${m.recs.length}</span><span class="rt-l">${esc(m.name)}</span><span class="rt-a">${esc(bits) || "&nbsp;"}</span></a>`;
 };
 const idxUrl = `${SITE}/markets.html`;
-const idxTitle = "Commercial Real Estate Distress by Market: Foreclosures, CMBS Defaults and Bankruptcies — CREdocket";
+const idxTitle = "CRE Distress by Market: Foreclosures & Defaults — CREdocket";
 const idxDesc = `Commercial real estate distress by state and metro: foreclosure postings, CMBS loans in default, real estate Chapter 11 petitions and lender suits for ${markets.length} markets, updated daily.`;
 const idxMain = `<main id="main-content" tabindex="-1">
 ${radarStyle}
