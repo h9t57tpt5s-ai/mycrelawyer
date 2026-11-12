@@ -82,6 +82,7 @@
   "lon": -122.3133
  },
  "2010 emancipation ave, houston, tx 77003": null,
+ "2040 fm 1092 rd, missouri city, tx 77459": null,
  "2137 chelsea blvd e11, allen, tx 75013": {
   "lat": 33.13213,
   "lon": -96.66356
@@ -173,6 +174,10 @@
  "4407 san jacinto st, dallas, tx 75204": {
   "lat": 32.80121,
   "lon": -96.78017
+ },
+ "4614 riverstone blvd, missouri city, tx 77459": {
+  "lat": 29.56811,
+  "lon": -95.57344
  },
  "462 south 4th street, louisville, ky 40202": {
   "lat": 38.25187,

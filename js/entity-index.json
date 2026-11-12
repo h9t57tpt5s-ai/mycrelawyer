@@ -76,6 +76,8 @@
   "joliet technology center|IL": "/properties/joliet-technology-center-joliet-il.html",
   "800 gentleman rd|san antonio|TX": "/properties/boston-woods-san-antonio-tx.html",
   "121 starr|san antonio|TX": "/properties/hiedgen-house-office-bldg-san-antonio-tx.html",
+  "4614 riverstone blvd|missouri city|TX": "/properties/4614-riverstone-blvd-missouri-city-tx.html",
+  "2040 fm 1092 rd|missouri city|TX": "/properties/2040-fm-1092-rd-missouri-city-tx.html",
   "8900 chimney rock rd|houston|TX": "/properties/8900-chimney-rock-rd-houston-tx.html",
   "8710 richmond ave|houston|TX": "/properties/8710-richmond-ave-houston-tx.html",
   "8244 lockheed ave|houston|TX": "/properties/8244-lockheed-ave-houston-tx.html",
@@ -112,6 +114,8 @@
  "tx": {
   "Bexar:358086": "/properties/boston-woods-san-antonio-tx.html",
   "Bexar:109769": "/properties/hiedgen-house-office-bldg-san-antonio-tx.html",
+  "Fort Bend:R335825": "/properties/4614-riverstone-blvd-missouri-city-tx.html",
+  "Fort Bend:R589316": "/properties/2040-fm-1092-rd-missouri-city-tx.html",
   "Harris:0410880000014": "/properties/8900-chimney-rock-rd-houston-tx.html",
   "Harris:0710340140008": "/properties/8710-richmond-ave-houston-tx.html",
   "Harris:0650500040014": "/properties/8244-lockheed-ave-houston-tx.html",
