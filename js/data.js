@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-11",
+  lastUpdatedDate: "2026-11-12",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -13729,6 +13729,43 @@ const RELAW_DATA = {
       amountBasis: "purchase price",
       timeline: [
         { when: "November 2, 2026", label: "Allegheny County sheriff's sale: trust's $1.4M credit bid draws no competing bidders; trust takes title", current: true }
+      ]
+    },
+    {
+      id: "live-391",
+      addedDate: "2026-11-12",
+      seoTitle: "Sunrise Realty Trust Merger: Stockholder Disclosure Lawsuits",
+      seoDescription: "Sunrise Realty Trust stockholders Miller and Smith sued in New York state court over proxy disclosures ahead of its merger with Southern Realty Trust.",
+      title: "Miller v. Sunrise Realty Trust, Inc. (Stockholder Suits Over Southern Realty Trust Merger Disclosures)",
+      brief: "Two Sunrise Realty Trust stockholders sued in New York state court claiming the REIT's merger proxy for its all-stock combination with Southern Realty Trust omitted material information.",
+      category: "reit-securities",
+      status: "pending",
+      date: "2026-09-23",
+      jurisdiction: "Supreme Court of the State of New York, New York County",
+      state: "NY",
+      amount: "Unspecified (disclosure-based claims; no damages figure stated)",
+      source: "live",
+      sourceUrl: "https://www.sec.gov/Archives/edgar/data/2012706/000162828026072825/suns-20260930.htm",
+      summary: "Two Sunrise Realty Trust, Inc. stockholders sued in the Supreme Court of the State of New York, New York County in late September 2026 -- Miller v. Sunrise Realty Trust, Inc. (Index No. 655415/2026) on September 23 and Smith v. Sunrise Realty Trust, Inc. (Index No. 655426/2026) on September 24 -- alleging the proxy statement for Sunrise's all-stock merger with Southern Realty Trust Inc. omitted material information stockholders needed to cast an informed vote. Sunrise called the claims without merit but filed supplemental proxy disclosures to moot them; stockholders of both companies approved the deal at special meetings on October 23, 2026, and the merger closed on November 5, 2026.",
+      significance: "The suits follow a familiar pattern in REIT and other public-company stock-for-stock mergers: plaintiffs' counsel files disclosure-based claims shortly after a proxy is mailed, the target supplements its disclosures to moot the claims and avoid delaying the vote, and the litigation then typically winds down through a negotiated fee to plaintiffs' counsel rather than a ruling on the merits. For REIT boards and external managers, the episode underscores that even a routine, board-approved merger invites this kind of suit almost reflexively, and that supplemental disclosure is far cheaper than risking a delayed stockholder vote.",
+      body: [
+        "Two Sunrise Realty Trust, Inc. (NASDAQ: SUNS) stockholders sued the commercial real estate finance REIT and its board of directors in New York state court in late September 2026, alleging that the proxy statement prepared for its merger with Southern Realty Trust Inc. omitted material information stockholders needed to cast an informed vote. The merger closed anyway on November 5, 2026, after Sunrise filed supplemental disclosures that it says were meant to moot the claims rather than concede they had merit.",
+        "The first suit, Miller v. Sunrise Realty Trust, Inc., et al., was filed September 23, 2026 in the Supreme Court of the State of New York, New York County, under Index No. 655415/2026. A second, similar complaint, Smith v. Sunrise Realty Trust, Inc., et al., followed a day later under Index No. 655426/2026. Both name Sunrise and its board as defendants and assert disclosure-based claims under New York common law. Sunrise disclosed both suits, along with pre-suit demand letters raising similar objections, in the \"Merger Litigation\" section of its Form 10-Q for the quarter ended September 30, 2026, filed with the SEC on November 10.",
+        "Sunrise and Southern Realty Trust signed a merger agreement on August 5, 2026, structured as a stock-for-stock combination: each share of SRT common stock would convert into 1.45 shares of newly issued SUNS common stock, plus $0.05 in cash per share funded by Sunrise's external manager, Sunrise Manager LLC, itself a party to the merger agreement for limited purposes. The deal required stockholder approval at both companies, including a SUNS vote to approve issuing roughly 8.46 million merger shares.",
+        "Sunrise has said it believes the claims lack merit but chose to supplement its proxy disclosures anyway, stating in its 10-Q that doing so was intended to moot certain plaintiffs' disclosure claims and avoid the risk that the litigation would delay or otherwise affect the merger. Both companies held special stockholder meetings on October 23, 2026; at Sunrise's meeting roughly 59.5% of outstanding shares were voted, with about 91.6% of votes cast in favor of the share issuance, and SRT stockholders approved the merger the same day. The deal closed November 5, 2026, with Sunrise issuing approximately 8,464,977 new shares as merger consideration.",
+        "Sunrise's 10-Q does not disclose that either suit has been dismissed, withdrawn, or settled, so both remain pending even though the transaction they targeted has already closed. For REIT boards, external managers, and the counsel who shepherd merger proxies through SEC review, the sequence is a reminder that a conventional, board-approved stock-for-stock merger will often draw at least one disclosure-based stockholder suit almost reflexively regardless of the deal's actual risk profile, that supplementing proxy disclosures promptly is typically far cheaper than absorbing a delay to the stockholder vote, and that a deal closing on schedule does not mean the litigation behind it has been resolved -- boards should expect this kind of suit to persist past closing and track it separately from the transaction timeline."
+      ],
+      tags: ["reit-securities", "merger-litigation", "proxy-disclosure", "stockholder-suit"],
+      parties: [
+        { name: "Sunrise Realty Trust, Inc.", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "September 23, 2026", label: "Stockholder files Miller v. Sunrise Realty Trust, Inc. challenging merger proxy disclosures" },
+        { when: "September 24, 2026", label: "A second stockholder files Smith v. Sunrise Realty Trust, Inc. raising similar disclosure claims" },
+        { when: "October 23, 2026", label: "Stockholders of both companies approve the merger and share issuance at special meetings" },
+        { when: "November 5, 2026", label: "Merger closes; Sunrise issues approximately 8.46 million new shares", current: true }
       ]
     }
   ],

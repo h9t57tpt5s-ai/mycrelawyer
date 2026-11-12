@@ -1981,8 +1981,8 @@
    "action": "skipped: no coverage found explaining the filing, property type unconfirmed"
   },
   "petition:https://www.courtlistener.com/docket/75088646/tcp-real-estate-holdings-llc/": {
-   "at": "2026-11-11",
-   "action": "skipped: no coverage found explaining the filing; two paywalled Law360 pieces about an unnamed NJ real estate firm/property owner in Chapter 11 could not be confirmed as this entity"
+   "at": "2026-11-12",
+   "action": "skipped: no coverage found confirming this is the same TCP tied to the Sept. 2025 NJ Ch. 11 plan/litigation-trust Law360 coverage; no secondary reporting on this specific Nov. 8 petition"
   },
   "https://www.courtlistener.com/docket/75092499/rockefeller-photos-llc-v-selinsgrove-hotel-inc/": {
    "at": "2026-11-09",
@@ -2069,12 +2069,12 @@
    "action": "skipped: no coverage found naming both parties together; only unrelated AutoZone store-construction and Frisco Station easement items turned up"
   },
   "0001837671-26-000089:cpt-20260930.htm": {
-   "at": "2026-11-11",
-   "action": "skipped: duplicate -- the excerpt's 'Buyer' specific-performance/breach suit is the same Onyx Partners dispute over the JCPenney portfolio sale already tracked as live-083"
+   "at": "2026-11-12",
+   "action": "skipped: duplicate of existing live-083 Copper Property CTL Pass Through Trust v. Onyx Partners matter; the same filing's separate Eric L. Moore pro se litigation excerpt is not a commercial real estate business dispute worth tracking"
   },
   "0001628280-26-072825:suns-20260930.htm": {
-   "at": "2026-11-11",
-   "action": "skipped: merger-objection shareholder complaints (Miller, Smith v. Sunrise Realty Trust, NY Sup Ct, filed Sept 23-24 2026) disclosed only by caption/index number with no further detail and no press coverage found; the SUNS-Southern Realty Trust merger has already closed, so too thin and too old (49 days) to publish as its own matter"
+   "at": "2026-11-12",
+   "action": "matter live-391"
   },
   "0001193125-26-455345:nref-20260930.htm": {
    "at": "2026-11-11",
@@ -2083,6 +2083,30 @@
   "0001193125-26-455610:ck0001755755-20260930.htm": {
    "at": "2026-11-11",
    "action": "skipped: VineBrook Homes Trust is a single-family rental REIT; residential, out of scope"
+  },
+  "petition:https://www.courtlistener.com/docket/75106140/geise-properties-5-llc/": {
+   "at": "2026-11-12",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/75103674/flavio-realty-corp/": {
+   "at": "2026-11-12",
+   "action": "skipped: no coverage found explaining the filing (same-day EDNY filing alongside Dino Realty Corp, 1-26-45263, no secondary reporting on either)"
+  },
+  "petition:https://www.courtlistener.com/docket/75103734/dino-realty-corp/": {
+   "at": "2026-11-12",
+   "action": "skipped: no coverage found explaining the filing (same-day EDNY filing alongside Flavio Realty Corp, 1-26-45262, no secondary reporting on either)"
+  },
+  "https://www.courtlistener.com/docket/75103401/turtle-hughes-inc-v-halo-development-llc/": {
+   "at": "2026-11-12",
+   "action": "skipped: no coverage found explaining this specific Nov. 11 filing; Turtle & Hughes is an electrical supplier and Halo Development LLC is tied to Newark's Halo tower (separately the subject of a 2.6M Parkview Financial v. Acier Holdings lender suit, not yet tracked), but no source connects this new filing to that dispute -- worth a second look if it resurfaces with coverage"
+  },
+  "https://www.courtlistener.com/docket/75103359/chisholm-properties-south-beach-inc-individually-and-as-assignee-of/": {
+   "at": "2026-11-12",
+   "action": "skipped: no coverage found explaining this specific Nov. 11 insurance assignment-of-benefits filing; Chisholm Properties South Beach (Kimpton Surfcomber owner) has unrelated 2021 and 2025 litigation history but no source discusses this docket"
+  },
+  "https://www.courtlistener.com/docket/75105961/centaur-properties-llc-v-united-states-fire-insurance-co/": {
+   "at": "2026-11-12",
+   "action": "skipped: no coverage found explaining the dispute"
   }
  }
 }
