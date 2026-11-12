@@ -13767,6 +13767,44 @@ const RELAW_DATA = {
         { when: "October 23, 2026", label: "Stockholders of both companies approve the merger and share issuance at special meetings" },
         { when: "November 5, 2026", label: "Merger closes; Sunrise issues approximately 8.46 million new shares", current: true }
       ]
+    },
+    {
+      id: "live-392",
+      addedDate: "2026-11-12",
+      title: "Devosky Hood v. Barbara L. Smith (Commercial Lease Eviction Judgment Voided for Lack of Jurisdiction)",
+      brief: "An Alabama appeals court voided a circuit court judgment against a commercial tenant, ruling the case never should have left district court for a $53,000 unlawful-detainer dispute.",
+      seoTitle: "Alabama Commercial Eviction Judgment Voided on Appeal",
+      seoDescription: "Alabama's Court of Civil Appeals voided a circuit court judgment in a Montgomery commercial lease dispute, holding the case was improperly transferred from district court.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-06",
+      jurisdiction: "Court of Civil Appeals of Alabama",
+      state: "AL",
+      amount: "$53,000 in disputed back rent under a commercial lease",
+      source: "live",
+      sourceUrl: "https://publicportal-api.alappeals.gov/courts/1da1a297-c391-4e4f-9480-1bc68b46f21a/cms/case/DBFCA569-8ABB-483D-AAC5-CB0AD1D74D70/docketentrydocuments/9A3BA50F-479D-45D1-AA41-20B3B5710563",
+      documentUrl: "https://publicportal-api.alappeals.gov/courts/1da1a297-c391-4e4f-9480-1bc68b46f21a/cms/case/DBFCA569-8ABB-483D-AAC5-CB0AD1D74D70/docketentrydocuments/9A3BA50F-479D-45D1-AA41-20B3B5710563",
+      documentLabel: "Read the official opinion",
+      summary: "The Alabama Court of Civil Appeals voided a Montgomery Circuit Court judgment that had found commercial tenant Devosky Hood in default under a lease with landlord Barbara L. Smith over a disputed commercial lot, holding the Montgomery District Court had no authority to transfer the unlawful-detainer action to circuit court mid-case. Because the district court never adjudicated the claim before transferring it, the circuit court never acquired jurisdiction, making its May 2026 judgment void.",
+      significance: "The decision is a pointed warning for commercial landlords and tenants that Alabama's summary unlawful-detainer remedy is jurisdictionally rigid: a trial court cannot broaden its own authority by shifting a complicated lease-or-sale dispute to a different court mid-trial, and a judgment entered after such a transfer can be wiped out years later regardless of its merits, forcing the parties back to square one.",
+      body: [
+        "The Alabama Court of Civil Appeals on November 6, 2026 voided a circuit court judgment in a Montgomery commercial-property dispute, ruling that the case had no business being in circuit court in the first place. The decision in Devosky Hood v. Barbara L. Smith erased more than a year of litigation over a disputed commercial lot and sent the matter back to where it started, underscoring how jurisdictionally rigid Alabama's summary unlawful-detainer remedy really is.",
+        "Barbara L. Smith commenced an unlawful-detainer action against Devosky Hood in the Montgomery District Court in December 2025, alleging the two had entered into a commercial lease in July 2022 and that Hood owed roughly $53,500 in unpaid rent. Hood answered that he was not Smith's tenant at all, producing what he described as a purchase agreement for the same property, plus a 2024 addendum under which he would receive a deed once he finished paying Smith $53,000 in installments. Mid-trial, the district court concluded the dispute had strayed into territory beyond its authority and transferred the case to the Montgomery Circuit Court, where Hood counterclaimed that the matter was a contract dispute over the alleged sale, not a landlord-tenant case.",
+        "The circuit court held its own trial in April 2026 and entered judgment in May 2026 finding Smith held legal title and Hood had defaulted under the lease, while expressly declining to decide whether the alleged purchase agreement was valid. Hood appealed, and the Court of Civil Appeals raised a jurisdictional problem neither party had argued: Alabama law gives district courts exclusive original jurisdiction over unlawful-detainer actions, and a circuit court can only acquire jurisdiction over one after the district court has actually adjudicated it and a party has appealed that adjudication, not through a mid-case transfer ordered by the district court itself.",
+        "Because the district court never ruled on Smith's unlawful-detainer claim before transferring it, the panel held the circuit court never acquired jurisdiction, making its May 2026 judgment void from the start. The court dismissed Hood's appeal but ordered the circuit court to vacate its void judgment and transfer the action back to the district court where it began, also noting that Smith's $53,000 claim exceeds the district court's $20,000 jurisdictional damages cap, meaning she will have to waive the excess or file a separate circuit court action to recover the balance.",
+        "For commercial landlords relying on Alabama's unlawful-detainer statute, the case is a reminder to treat the remedy as a narrow, summary one that a trial court cannot broaden by moving a complicated case somewhere more comfortable once the facts get tangled with a competing sale theory, and that any landlord whose claim could plausibly exceed the district court's statutory damages ceiling should weigh filing in circuit court directly or be prepared to cap the claim, rather than risk a judgment that later proves to have been entered without jurisdiction at all."
+      ],
+      judge: "Christy O. Edwards",
+      parties: [],
+      amountUsd: 53000,
+      amountBasis: "claim",
+      tags: ["unlawful-detainer", "commercial-lease", "alabama", "jurisdiction", "eviction"],
+      timeline: [
+        { when: "December 12, 2025", label: "Barbara L. Smith files unlawful-detainer action in Montgomery District Court" },
+        { when: "2026", label: "District court transfers the action to Montgomery Circuit Court mid-trial" },
+        { when: "May 6, 2026", label: "Circuit court enters judgment finding Hood in default under the lease" },
+        { when: "November 6, 2026", label: "Court of Civil Appeals voids the circuit court's judgment for lack of jurisdiction and orders the case returned to district court", current: true }
+      ]
     }
   ],
 
