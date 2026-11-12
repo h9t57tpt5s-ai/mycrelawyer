@@ -13805,6 +13805,123 @@ const RELAW_DATA = {
         { when: "May 6, 2026", label: "Circuit court enters judgment finding Hood in default under the lease" },
         { when: "November 6, 2026", label: "Court of Civil Appeals voids the circuit court's judgment for lack of jurisdiction and orders the case returned to district court", current: true }
       ]
+    },
+    {
+      id: "live-393",
+      addedDate: "2026-11-12",
+      seoTitle: "Congress Ave Boynton v. First Care Therapy: Fla. Lease Ruling",
+      seoDescription: "Fla. 4th DCA affirms landlord Congress Ave Boynton's win over tenant First Care Therapy but voids its $85,782.80 damages award, ordering a new trial.",
+      title: "First Care Therapy, LLC v. Congress Ave Boynton, LLC (Commercial Lease Default Damages Reversed)",
+      brief: "A Florida appeals court affirmed a landlord's default judgment against a medical-office tenant and guarantor but reversed its $85,782.80 damages award for lack of a properly noticed trial.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-12",
+      jurisdiction: "District Court of Appeal of Florida, Fourth District",
+      state: "FL",
+      amount: "$85,782.80 damages award reversed and remanded for a properly noticed damages trial",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11060078/first-care-therapy-llc-and-loodhinssy-lafaille-paul-v-congress-ave/",
+      documentUrl: "https://flcourts-media.flcourts.gov/content/download/2498030/opinion/Opinion_2025-2466.pdf",
+      documentLabel: "Read the official opinion",
+      summary: "Florida's Fourth District Court of Appeal affirmed a Palm Beach County circuit court's default judgment holding tenant First Care Therapy, LLC and guarantor Loodjhinssy Lafaille-Paul liable for breaching a commercial lease and guaranty on medical office space in Boynton Beach, but reversed the $85,782.80 damages award, finding the trial court awarded unliquidated damages without the properly noticed damages trial Florida law requires. The case returns to the circuit court for a new trial limited to damages.",
+      significance: "Confirms that a clerk's default, standing alone, entitles a commercial landlord to liquidated damages only, and that any damages figure requiring the court to weigh affidavits or other evidence, such as reletting commissions or tenant-improvement costs, still requires a properly noticed evidentiary trial under Rule 1.440(d) even against a defendant who never appears. Landlords who rely on post-default affidavits of indebtedness to support summary judgment risk losing the damages award on appeal even after winning on liability.",
+      body: [
+        "Commercial landlords who win a default judgment against a vanished tenant often assume the hard part is over once liability is established. A November 12, 2026 decision from Florida's Fourth District Court of Appeal is a reminder that the hard part may just be starting, at least when it comes to collecting unliquidated damages. In First Care Therapy, LLC and Loodjhinssy Lafaille-Paul v. Congress Ave Boynton, LLC, the Fourth DCA affirmed a Palm Beach County circuit court's finding that tenant First Care Therapy, LLC and its guarantor, Loodjhinssy Lafaille-Paul, breached a commercial lease and guaranty covering medical office space in Boynton Beach, Florida, but reversed the $85,782.80 damages award entered against them, holding that the award of unliquidated damages without a properly noticed damages trial violated well-established Florida procedure.",
+        "According to the opinion, First Care Therapy originally leased the Boynton Beach premises from a predecessor landlord, SNH Medical Office Properties Trust, in September 2021, with Lafaille-Paul personally guaranteeing the tenant's obligations. Congress Ave Boynton, LLC acquired the property in May 2024, and the prior landlord assigned the lease and guaranty to it. Roughly nine months later, on February 21, 2025, Congress Ave Boynton sued First Care Therapy and Lafaille-Paul for breach of the lease and guaranty, alleging nonpayment of rent, without pleading a sum-certain damages figure and attaching a lease ledger showing $34,337.91 in charges already outstanding. Neither defendant answered, and the clerk entered a default against both in March 2025. Congress Ave Boynton then moved for final summary judgment, relying on an affidavit of indebtedness from its managing agent that pegged total damages at $85,782.80, more than double the ledger figure, made up of rent, legal fees to negotiate a new lease, a reletting commission, and tenant-improvement costs for a replacement tenant. At a July 2025 hearing, Lafaille-Paul appeared without counsel and no attorney appeared for the corporate tenant; the trial court heard argument rather than evidence and entered judgment for the exact amount requested.",
+        "On appeal, First Care Therapy and Lafaille-Paul argued the judgment was void for lack of standing, lack of subject-matter jurisdiction, and a denial of due process because the corporate tenant appeared without counsel. Writing for the panel, Judge Alan O. Forst rejected all three arguments, holding that the landlord's failure to attach the written assignment documenting the lease transfer did not defeat its standing, because the defaulting defendants had, by defaulting, admitted the well-pled allegation that the assignment occurred, and that the corporate tenant's unrepresented appearance did not create a due-process problem when the corporation simply failed to retain counsel.",
+        "The damages award fared differently. Citing its own recent decision in Affinity Health Partners, LLC v. Hayes Locums, LLC, the Fourth DCA held that a default, even an uncontested one, entitles a landlord only to liquidated damages, not unliquidated damages, without a properly noticed evidentiary trial under Florida Rule of Civil Procedure 1.440(d). The court found the $85,782.80 figure plainly unliquidated, since the complaint pleaded no sum certain, the attached ledger totaled less than half the final award, and the trial court could only reach the final number by crediting a post-default affidavit covering costs that required weighing evidence rather than simple arithmetic. Because the July 2025 hearing was a non-evidentiary summary judgment proceeding rather than a noticed damages trial, the panel reversed the award and remanded for a proper trial on damages alone, leaving the landlord's underlying victory on liability untouched.",
+        "The upshot for commercial landlords is that a motion for summary judgment, however well-supported by affidavits, cannot substitute for a properly noticed damages trial once the damages sought go beyond what the lease ledger shows on its face, and treating reletting commissions, negotiation fees, and tenant-improvement costs as liquidated simply because they appear in a sworn affidavit invites exactly the reversal Congress Ave Boynton now faces. Landlords should build in the extra step of noticing an evidentiary hearing under Rule 1.440(d) whenever damages sought exceed what the complaint's own exhibits establish with exactness, even against a defendant who never appears, and should remember that a corporate tenant cannot defend itself without counsel even if its guarantor shows up pro se, so the underlying default itself will typically stand even as the damages calculation gets a second look."
+      ],
+      tags: ["commercial-lease", "guaranty", "default-judgment", "florida", "unliquidated-damages"],
+      parties: [
+        { name: "First Care Therapy, LLC", role: "Tenant/Appellant" },
+        { name: "Congress Ave Boynton, LLC", role: "Landlord/Appellee" }
+      ],
+      judge: "Alan O. Forst",
+      amountUsd: 85782.80,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "September 2021", label: "First Care Therapy leases the Boynton Beach premises; Lafaille-Paul guarantees the lease" },
+        { when: "May 2024", label: "Congress Ave Boynton acquires the property and the lease/guaranty are assigned to it" },
+        { when: "February 21, 2025", label: "Congress Ave Boynton sues for breach of the lease and guaranty" },
+        { when: "March 2025", label: "Clerk enters a default against the tenant and guarantor" },
+        { when: "July 2025", label: "Trial court enters final judgment of $85,782.80 after a non-evidentiary hearing" },
+        { when: "November 12, 2026", label: "Fourth DCA affirms liability but reverses the damages award and remands for a noticed damages trial", current: true }
+      ]
+    },
+    {
+      id: "live-394",
+      addedDate: "2026-11-12",
+      seoTitle: "Arbor Realty Trust Hit With New Problem-Loan Securities Suit",
+      seoDescription: "A new E.D.N.Y. securities suit accuses Arbor Realty Trust and two executives of hiding the scope of $1.25B+ in troubled bridge loans from investors.",
+      title: "New Securities Suit Against Arbor Realty Trust, Inc. (Problem-Loan Disclosure Claims, E.D.N.Y.)",
+      brief: "A shareholder sued Arbor Realty Trust and two executives in federal court, alleging they misled investors about more than $1.25 billion in troubled multifamily bridge loans.",
+      category: "reit-securities",
+      status: "filed",
+      date: "2026-11-09",
+      jurisdiction: "United States District Court, Eastern District of New York",
+      state: "NY",
+      amount: "$1.25B+ in problem loans and foreclosed properties described in the complaint; no damages figure stated",
+      source: "live",
+      sourceUrl: "https://www.investmentnews.com/regulation-legal-compliance/investor-alleges-arbor-realty-trust-misled-market-on-125b-loan-mess/268963",
+      summary: "A shareholder filed a securities fraud class action against mortgage REIT Arbor Realty Trust, Inc. (NYSE: ABR) and two senior executives on November 9, 2026 in the U.S. District Court for the Eastern District of New York, alleging violations of Section 10(b) of the Securities Exchange Act and SEC Rule 10b-5. The complaint says the company's statements about resolving more than $1.25 billion in problem loans and foreclosed properties misled investors while that pile of distressed assets kept growing.",
+      significance: "A second securities suit against Arbor Realty Trust over its bridge-loan book, filed after an earlier class action covering 2021-2024 was dismissed in March 2026. Shows that mortgage REITs with large bridge-loan portfolios face repeat securities exposure each time disclosed nonperforming-loan trends diverge from prior projections, independent of how an earlier class period's litigation was resolved.",
+      body: [
+        "Arbor Realty Trust, Inc. (NYSE: ABR), one of the nation's largest bridge and agency lenders to multifamily owners, is facing a fresh securities fraud class action, filed November 9, 2026 in the U.S. District Court for the Eastern District of New York. The complaint accuses the mortgage REIT and two of its senior executives of misleading investors about the company's ability to work through more than $1.25 billion in problem loans and foreclosed properties, even as that pile of distressed assets kept expanding rather than shrinking.",
+        "The new suit lands against a backdrop of sustained investor and regulatory scrutiny of Arbor's loan book. An earlier securities class action against the company, covering purchasers of Arbor stock between May 2021 and July 2024, was dismissed by a federal judge in the same district in March 2026 after the court found the plaintiffs had failed to adequately plead how the company's statements misled investors; that case closed in May 2026 after no amended complaint was filed. Separately, Arbor has faced a wave of borrower-side litigation, including a $175 million suit by former owners of a Georgia apartment complex alleging the REIT strung them along on a bridge-loan refinancing before foreclosing and buying the property through an affiliate, amid reported federal scrutiny of Arbor's broader lending practices.",
+        "According to reporting on the complaint, the new suit asserts claims under Section 10(b) of the Securities Exchange Act and SEC Rule 10b-5, alleging that Arbor and two senior executives made materially misleading statements about the company's progress in resolving its nonperforming loans and real-estate-owned properties. The complaint points to a March 11, 2026 investor presentation in which the company projected it would reduce its problem-asset pile, and alleges that subsequent earnings calls and quarterly filings continued to reassure investors even as new delinquencies in Arbor's bridge-loan portfolio accumulated faster than the company could work them out. The two senior executives are also named under Section 20(a) of the Exchange Act as alleged controlling persons of the company. No court has yet ruled on the claims.",
+        "Arbor's business model, originating short-term, higher-interest bridge loans to multifamily owners with the expectation that many will convert into long-term, lower-cost agency financing through Fannie Mae or Freddie Mac, has come under particular stress as higher interest rates and softer multifamily fundamentals have left more borrowers unable to refinance out of their bridge loans on schedule. When a bridge loan does not convert as planned, the lender is left holding a nonperforming asset or forced into foreclosure, and the REIT's quarterly disclosures about the size and trend of that nonperforming pile become the central battleground in exactly the kind of securities suit Arbor now faces for a second time.",
+        "For publicly traded mortgage REITs with large bridge-loan books, the episode underscores the risk of issuing specific, date-stamped projections about resolving problem assets, since a projection that does not pan out on schedule becomes the natural anchor for a follow-on securities claim once the gap between forecast and actual performance becomes visible in later quarters. Boards and management teams should expect each quarterly disclosure of nonperforming-loan trends to be measured against prior guidance by plaintiffs' counsel, not just analysts, and should calibrate forward-looking statements about workout timelines accordingly; directors and officers of lenders with meaningful bridge-loan exposure should also note that a previously dismissed securities suit covering an earlier class period does not immunize the company against a new suit covering a later period and a different set of disclosures."
+      ],
+      tags: ["reit-securities", "mortgage-reit", "bridge-loans", "securities-fraud", "new-york"],
+      parties: [
+        { name: "Arbor Realty Trust, Inc.", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "March 11, 2026", label: "Arbor presents investors a plan to reduce its problem-loan pile" },
+        { when: "November 9, 2026", label: "Shareholder files securities fraud class action in E.D.N.Y. over problem-loan disclosures", current: true }
+      ]
+    },
+    {
+      id: "live-395",
+      addedDate: "2026-11-12",
+      seoTitle: "Kaanapali Land: KLMC Forecloses Lien on Newport Hospital Corp.",
+      seoDescription: "Kaanapali Land's KLMC unit is foreclosing a lien on Newport Hospital Corp.'s Maui land after NHC defaulted on 2014 infrastructure-cost obligations.",
+      title: "Kaanapali Land Management Corp. v. Newport Hospital Corporation (Maui Infrastructure Contribution Lien Foreclosure)",
+      brief: "Kaanapali Land's KLMC subsidiary moved to foreclose a lien on Newport Hospital Corporation's Maui land after NHC refused to pay infrastructure costs owed under a 2014 agreement.",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-09-29",
+      jurisdiction: "Circuit Court of the Second Circuit, State of Hawaii",
+      state: "HI",
+      amount: "Receivable and accrued interest under a 2014 Infrastructure Improvement Agreement capping KLMC's own contribution at up to $0.6 million; exact amount owed by NHC not disclosed",
+      source: "live",
+      sourceUrl: "https://www.sec.gov/Archives/edgar/data/1230058/000107997326001461/kaa10q-926final.htm",
+      summary: "Kaanapali Land, LLC disclosed in a November 12, 2026 Form 10-Q that its subsidiary, Kaanapali Land Management Corp. (KLMC), filed a foreclosure complaint in Maui on September 29, 2026 against Newport Hospital Corporation (NHC) after NHC failed to pay a receivable owed under a 2014 Infrastructure Improvement Agreement tied to KLMC's sale of roughly 14.9 acres in West Maui to NHC. NHC moved to stay or dismiss the foreclosure proceeding on November 5, 2026, and the company cautions there is no assurance KLMC will prevail or collect what it is owed.",
+      significance: "Shows how an infrastructure-cost-sharing obligation attached to a land sale can resurface a decade later as contested foreclosure litigation once a buyer disputes its contribution, and illustrates the added complexity when the disputed parcel sits inside a larger master-planned development where the seller has retained ongoing design and use-approval rights.",
+      body: [
+        "A long-running infrastructure-cost dispute tied to a 2014 West Maui land sale has turned into an active foreclosure fight, according to a Form 10-Q that publicly traded land company Kaanapali Land, LLC filed with the SEC on November 12, 2026. The filing discloses that the company's subsidiary, Kaanapali Land Management Corp., known as KLMC, initiated foreclosure proceedings in Maui on September 29, 2026 against Newport Hospital Corporation, known as NHC, after NHC failed to pay a receivable owed under a shared infrastructure agreement. NHC responded by moving to stay or dismiss the foreclosure proceeding on November 5, 2026, and the company says there is no assurance KLMC will ultimately prevail or collect what it is owed.",
+        "The underlying transaction dates to 2014, when KLMC sold NHC approximately 14.9 acres of land in West Maui under a Property and Option Purchase Agreement. As part of that deal, the parties entered into an Infrastructure Improvement Agreement, later amended, under which KLMC committed to fund a share of off-site infrastructure work, including roads, sewer, and electrical improvements, serving the broader area, with the company's exposure capped at up to $0.6 million depending on several variables. The agreement in turn created reciprocal contribution obligations, and it is NHC's side of that bargain that is now at the center of the dispute: according to the 10-Q, NHC owes KLMC a receivable tied to the infrastructure work, secured by what the filing calls the NHC Contribution Lien against NHC's land.",
+        "The company's filing states that after NHC failed and refused to pay the receivable, KLMC gave NHC written notice of default under the Infrastructure Improvement Agreement on September 4, 2026, along with a demand for payment. When NHC did not cure the default, KLMC exercised its contractual right to foreclose on the Contribution Lien and filed a foreclosure complaint in Maui on September 29, 2026. NHC did not simply let the foreclosure proceed; on November 5, 2026, it filed a motion seeking to stay or dismiss the proceeding, which remains pending. Kaanapali Land's filing cautions that there is no assurance the company will prevail in the foreclosure proceeding or that a win would actually result in collecting the receivable and accrued interest.",
+        "The dispute is not an isolated commercial transaction for Kaanapali Land. The company's filing notes that it retains certain approval rights over the uses and design of the NHC parcel under the Infrastructure Improvement Agreement, intended to keep development on the site consistent with Kaanapali's broader master-planned development for the surrounding region; the company says it is in the planning stages for a 295-acre parcel mauka of, or upslope from, its Kaanapali Coffee Farms community. A lien foreclosure against a parcel embedded inside a larger master development gives the landowner-plaintiff leverage beyond simply recovering a receivable, since an unresolved dispute over the NHC parcel's infrastructure contributions and permitted uses could complicate planning and permitting decisions across the adjoining acreage.",
+        "Developers who structure a land sale around a shared infrastructure-cost agreement, rather than requiring the buyer's contribution up front, should recognize that enforcing that obligation years later, after the roads, sewer, and electrical work are already built, can mean litigating a contested foreclosure rather than simply collecting a bill, particularly once the buyer disputes the underlying default. A contribution lien is only as useful as the foreclosure remedy behind it, and a motion to stay or dismiss can extend the collection timeline well past the original notice-and-cure period contemplated in the agreement; for master-plan developers retaining design and use-approval rights over parcels already sold off, an unresolved infrastructure-cost dispute with one buyer is worth flagging early in connection with planning and entitlement work on adjacent, still-undeveloped acreage."
+      ],
+      tags: ["foreclosure", "land-development", "hawaii", "infrastructure-lien", "master-development"],
+      parties: [
+        { name: "Kaanapali Land Management Corp.", role: "Plaintiff" },
+        { name: "Kaanapali Land, LLC", role: "Parent Company" },
+        { name: "Newport Hospital Corporation", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "2014", label: "KLMC sells NHC approximately 14.9 acres in West Maui under a Property and Option Purchase Agreement with a related Infrastructure Improvement Agreement" },
+        { when: "September 4, 2026", label: "KLMC notifies NHC of default and demands payment of the infrastructure receivable" },
+        { when: "September 29, 2026", label: "KLMC files a foreclosure complaint in Maui on the NHC Contribution Lien" },
+        { when: "November 5, 2026", label: "NHC moves to stay or dismiss the foreclosure proceeding", current: true }
+      ]
     }
   ],
 
@@ -15081,6 +15198,7 @@ const RELAW_DATA = {
     { name: "Federal Home Loan Mortgage Corporation (Freddie Mac)", matchTerm: "Freddie Mac", slug: "freddie-mac", description: "Federally chartered mortgage finance enterprise that purchases and guarantees multifamily mortgage loans and frequently appears as foreclosing lender or loan guarantor in commercial mortgage litigation.", website: "https://www.freddiemac.com" },
     { name: "Walker & Dunlop, Inc.", matchTerm: "Walker & Dunlop", slug: "walker-dunlop", description: "Bethesda, Maryland-based commercial real estate finance and advisory firm that originates and services multifamily loans for Fannie Mae and Freddie Mac, frequently appearing as loan servicer or foreclosing plaintiff in agency-backed multifamily foreclosure litigation.", website: "https://www.walkerdunlop.com" },
     { name: "Hillwood", matchTerm: "Hillwood", slug: "hillwood", description: "Dallas-based private real estate development firm founded by Ross Perot Jr., active nationally in industrial, mixed-use, and large-scale data center development." },
-    { name: "CommunityAmerica Credit Union", matchTerm: "CommunityAmerica", slug: "communityamerica-credit-union", description: "Lenexa, Kansas-based credit union that originates and acquires commercial mortgage loans, frequently appearing as foreclosing plaintiff in office and other commercial property litigation nationally.", website: "https://www.communityamerica.com" }
+    { name: "CommunityAmerica Credit Union", matchTerm: "CommunityAmerica", slug: "communityamerica-credit-union", description: "Lenexa, Kansas-based credit union that originates and acquires commercial mortgage loans, frequently appearing as foreclosing plaintiff in office and other commercial property litigation nationally.", website: "https://www.communityamerica.com" },
+    { name: "Arbor Realty Trust, Inc.", matchTerm: "Arbor Realty", slug: "arbor-realty-trust", description: "Uniondale, New York-based mortgage REIT (NYSE: ABR) and nationwide bridge and agency lender to multifamily and single-family-rental owners, frequently appearing as lender, foreclosing plaintiff, or securities defendant in commercial real estate litigation.", website: "https://www.arbor.com" }
   ]
 };
