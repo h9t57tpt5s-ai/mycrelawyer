@@ -1698,6 +1698,32 @@
       },
       "checkAfter": "2026-11-13",
       "status": "watching"
+    },
+    {
+      "id": "imp-070",
+      "date": "2026-11-12",
+      "track": "audit",
+      "title": "Shortened 10 oversized <title> tags (longTitle) and clipped 2 oversized federal-case meta descriptions (weakDescription)",
+      "why": "Every goal already had an open 'watching' experiment this run (conversion: imp-062 checkAfter 2026-11-15, calculator: imp-059 checkAfter 2026-11-14, traffic: imp-068 checkAfter 2026-11-18, news: imp-063/imp-065 checkAfter 2026-11-23), so per the 2026-10-16 'one open experiment per goal' rule this run worked an audit item instead of a sixth concurrent goal change. Live site_audit.py showed longTitle=10 (all root/company pages over the 75-char limit search engines truncate at, several from fixed title templates never revisited as matter/case counts grew) and weakDescription=2 (two federal-cases pages whose meta description exceeded the 320-char upper bound because the case caption itself is unusually long). Neither shape was covered by the earlier closed backlog item 5 (missingDescription and short weakDescription only).",
+      "files": [
+        "bank-cre-stress.html",
+        "cmbs-watch.html",
+        "distress-radar.html",
+        "state-court-watch.html",
+        "texas-foreclosures.html",
+        "scripts/build_market_pages.ts",
+        "scripts/build_record_pages.ts",
+        "scripts/prerender.ts"
+      ],
+      "commit": "34944c4529001091d69d9e759090fdc92047f6d7",
+      "metric": "site_audit.py summary.longTitle / summary.weakDescription",
+      "window": "next day",
+      "baseline": {
+        "longTitle": 10,
+        "weakDescription": 2
+      },
+      "checkAfter": "2026-11-13",
+      "status": "watching"
     }
   ]
 }
