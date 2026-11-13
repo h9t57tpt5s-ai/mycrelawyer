@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-12",
+  lastUpdatedDate: "2026-11-13",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -13921,6 +13921,90 @@ const RELAW_DATA = {
         { when: "September 4, 2026", label: "KLMC notifies NHC of default and demands payment of the infrastructure receivable" },
         { when: "September 29, 2026", label: "KLMC files a foreclosure complaint in Maui on the NHC Contribution Lien" },
         { when: "November 5, 2026", label: "NHC moves to stay or dismiss the foreclosure proceeding", current: true }
+      ]
+    },
+    {
+      id: "live-396",
+      addedDate: "2026-11-13",
+      seoTitle: "Atwood v. Lamar Obie: $1.2M Verdict Upheld Over Billboard Lease",
+      seoDescription: "Oregon Court of Appeals affirms $1.2M verdict against Lamar Obie Co. after it kept a wall-sign permit from Portland building owner Jim Atwood.",
+      title: "Atwood v. Lamar Obie Co., LLC (Portland Wall-Sign Lease, Good Faith and Fair Dealing)",
+      brief: "Oregon's Court of Appeals affirmed a $1,237,191.92 verdict against billboard company Lamar Obie Co. for breaching the implied duty of good faith by keeping an ODOT advertising permit from the Portland building owner who leased it the wall.",
+      category: "lease-disputes",
+      status: "appeal",
+      date: "2026-11-12",
+      jurisdiction: "Court of Appeals of the State of Oregon",
+      state: "OR",
+      amount: "$1,237,191.92 jury verdict, affirmed on appeal",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11060193/atwood-v-lamar-obie-co-llc/",
+      summary: "The Oregon Court of Appeals affirmed, on November 12, 2026, a $1,237,191.92 jury verdict for Portland building owner Jim A. Atwood against billboard company Lamar Obie Company, LLC for breach of the implied duty of good faith and fair dealing. The dispute arose after an ODOT advertising permit tied to Atwood's leased exterior wall sign ended up solely in the name of Lamar's predecessor and then Lamar itself, and Lamar surrendered the permit to the state for a relocation credit it could not use rather than transferring it to Atwood when the lease ended.",
+      significance: "Shows that a tenant or its assignee can face substantial liability under the implied covenant of good faith and fair dealing for how it handles a government permit tied to a leased commercial use, even without an express lease clause addressing permit ownership, and underscores the exposure a leasehold buyer inherits from a predecessor's permit-naming history.",
+      body: [
+        "A commercial landlord's hard-won jury verdict over a Portland billboard lease survived appellate review on November 12, 2026, when the Oregon Court of Appeals affirmed a $1,237,191.92 judgment against Lamar Obie Company, LLC. The case turned not on the words of the lease itself, but on the implied duty of good faith and fair dealing that Oregon law reads into every contract, and on what happens when a tenant's assignee walks away with a regulatory permit the landlord needed to keep using his own wall.",
+        "The plaintiffs, Jim A. Atwood, individually and as trustee of the Jim A. Atwood Trust, together with his wholly owned J.A. Atwood Corporation, own a building on West Burnside in Portland with a large exterior wall that has displayed commercial advertising for decades. Rather than selling ad space directly, the Atwood interests leased the wall to advertising brokers, who in turn sold space to advertisers and split the revenue, an arrangement that moved from Onsite Advertising Services, LLC in 2009 to OnDisplay Advertising, LLC by assignment in 2010.",
+        "The trouble began in 2012, when Oregon designated the relevant stretch of West Burnside a state highway, subjecting the wall sign to Oregon Department of Transportation permitting requirements effective June 30, 2015. OnDisplay needed Atwood's written consent to apply for the ODOT permit, and Atwood gave it on the condition that the permit letter state it should issue in the name of OnDisplay, J.A. Atwood, and J.A. Atwood Corporation, so that he would own the permit once the lease with whoever held it eventually ended. ODOT nonetheless issued the permit solely in OnDisplay's name. When OnDisplay then sold its lease and assets to Lamar, ODOT transferred the permit to Lamar alone, again without naming the plaintiffs and without notifying them, and Atwood did not learn of any of this until years later.",
+        "When Atwood terminated the lease with Lamar in 2019, Lamar refused to sell or transfer the permit to the plaintiffs. Instead, Lamar surrendered it to ODOT for a relocation credit that Lamar itself could not use, a maneuver that had the practical effect of extinguishing the plaintiffs' ability to display commercial advertising on their own wall at all. At trial, the jury found Lamar's conduct breached the implied covenant of good faith and fair dealing and awarded the plaintiffs more than $1.2 million, including future lost revenue. Lamar appealed on nine grounds, arguing the plaintiffs' permit expectations were not objectively reasonable as a matter of law, that the future-damages claim was impermissibly speculative, and that the jury instructions on liability and damages were erroneous.",
+        "The Court of Appeals, in an opinion by Presiding Judge Darleen Ortega, rejected every argument properly before it, holding that a jury could reasonably find the parties shared an objectively reasonable expectation, rooted in the permit letter's own language and the parties' course of dealing, that whoever ultimately held the lease would not strip the landlord of the permit needed to keep the wall in commercial use. The panel also found the future-damages evidence sufficiently grounded to go to the jury and found no instructional error.",
+        "The decision is a reminder that when a leased or licensed use of commercial property depends on a government permit, landlords should not assume informal consent letters will survive an assignment without an enforceable transfer mechanism tied to the permit itself, not just the lease; buyers of a leasehold interest, in turn, should audit permits tied to the premises before closing, since a permit issued or transferred in the buyer's name alone can create liability to the landlord even where the buyer did not cause the original naming error."
+      ],
+      tags: ["lease-disputes", "billboard", "oregon", "good-faith-and-fair-dealing", "permit-transfer"],
+      parties: [
+        { name: "J.A. Atwood Corporation", role: "Plaintiff" },
+        { name: "Lamar Obie Company, LLC", role: "Defendant" },
+        { name: "OnDisplay Advertising, LLC", role: "Defendant" }
+      ],
+      judge: "Darleen Ortega",
+      amountUsd: 1237191.92,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "2009", label: "Plaintiffs lease the wall sign to Onsite Advertising Services, LLC as broker" },
+        { when: "2015", label: "OnDisplay sells its lease and assets, including the ODOT permit, to Lamar Obie Company, LLC" },
+        { when: "2019", label: "Plaintiffs terminate the lease; Lamar surrenders the ODOT permit rather than transferring it" },
+        { when: "November 12, 2026", label: "Oregon Court of Appeals affirms the $1,237,191.92 jury verdict against Lamar", current: true }
+      ]
+    },
+    {
+      id: "live-397",
+      addedDate: "2026-11-13",
+      seoTitle: "First Western Bank v. Rabadi: $7.86M Guaranty Suit Hits Ch. 11",
+      seoDescription: "First Western Bank's $7.86M guaranty suit over Grand Forks clinic real estate loans moves to bankruptcy court after affiliated borrowers file Chapter 11.",
+      title: "First Western Bank & Trust v. Rabadi (Grand Forks Commercial Loan Guaranty Suit)",
+      brief: "First Western Bank & Trust sued a Grand Forks guarantor for $7.86 million over defaulted loans secured by clinic real estate; the case moved to bankruptcy court after the borrower entities filed Chapter 11.",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-11-02",
+      jurisdiction: "Grand Forks County District Court, North Dakota (removed to U.S. Bankruptcy Court, District of North Dakota)",
+      state: "ND",
+      amount: "$7.86 million owed as of April 6, 2026, plus late fees, interest, and unpaid property taxes",
+      source: "live",
+      sourceUrl: "https://www.valleynewslive.com/2026/11/02/bank-sues-grand-forks-doctor-over-loans-affiliated-companies/",
+      summary: "First Western Bank & Trust sued a Grand Forks guarantor in Grand Forks County District Court, alleging he owes roughly $7.86 million on unlimited, unconditional guaranties of commercial loans made to Kidney and Hypertension Center, PLC, KDJ Investment Group, LLC, and KDJ Properties, LLC, secured in part by mortgages on property held by the affiliated borrowers. The case was removed to the U.S. Bankruptcy Court for the District of North Dakota on November 2, 2026, after the affiliated borrower entities filed Chapter 11 petitions on October 16, 2026, and the bank's pending summary judgment motion is now set for a response by November 30, 2026.",
+      significance: "Illustrates how a borrower-side Chapter 11 filing can shift the forum and timeline for a lender's personal-guaranty claim without staying it outright, and underscores the exposure facing individual guarantors on unlimited, unconditional guaranties of commercial real estate-secured debt even once the underlying borrower entities seek bankruptcy protection.",
+      body: [
+        "A commercial lending dispute out of Grand Forks, North Dakota, moved from state court to federal bankruptcy court this month, after the guarantor named in a $7.86 million loan-default suit removed the case following his affiliated companies' Chapter 11 filings. The underlying lawsuit, First Western Bank & Trust v. Rabadi, illustrates a recurring risk for commercial lenders: a guaranty suit against an individual can be derailed, at least procedurally, once the borrower entities standing behind the debt seek bankruptcy protection.",
+        "First Western Bank & Trust's complaint alleges that the guarantor personally guaranteed commercial loans made to three affiliated borrowers: Kidney and Hypertension Center, PLC, KDJ Investment Group, LLC, and KDJ Properties, LLC, and also names a fourth company, Washington Properties, LLC, as a defendant. According to the bank's filing, the guaranties were unlimited and unconditional, meaning the guarantor agreed to stand behind the full amount of the borrowers' obligations without the dollar caps or carve-outs that limited guaranties typically include. The bank's complaint puts the total owed at approximately $7.86 million as of April 6, 2026, a figure that does not yet include late fees, additional interest, and unpaid property taxes that have continued to accrue.",
+        "The default narrative described in the filing follows a familiar pattern for distressed commercial borrowers: the companies began missing scheduled loan payments starting in July 2025, then failed to make a final balloon-style payment that came due on December 25, 2025 on at least one of the loans, and separately fell behind on property tax obligations tied to the real estate securing the debt. The bank's asserted collateral package includes clinic equipment and assets along with mortgages on property held by the affiliated borrower entities, meaning the dispute is anchored in real property pledged by the operating companies themselves rather than simply an unsecured personal-guaranty claim.",
+        "The guarantor did not default on the litigation itself. Court records show he filed an answer in May 2026 denying liability and asserting affirmative defenses including estoppel, waiver, and unclean hands. The bank has since moved for summary judgment, arguing that the answer does not actually dispute that the underlying debt exists or that he personally signed the guaranties at issue. The litigation's posture changed sharply on October 16, 2026, when seven affiliated entities tied to the borrower companies filed Chapter 11 petitions in the U.S. Bankruptcy Court for the District of North Dakota, listing Grand Forks as their principal place of business; the guarantor then filed a notice of removal on November 2, 2026, moving the bank's state-court suit into the bankruptcy forum, where a judge has given him until November 30, 2026 to respond to the bank's pending summary judgment motion.",
+        "An individual guarantor is not automatically protected by his companies' bankruptcy filing, since the automatic stay generally applies to the debtor entities rather than to a non-debtor guarantor sued in his individual capacity, but removal to the bankruptcy court can still change the practical dynamics of the case, including which judge decides the pending summary judgment motion and how that decision interacts with the broader restructuring of the borrower entities' secured debt. Lenders holding unlimited, unconditional personal guaranties on commercial real estate-secured loans should expect a borrower-side bankruptcy filing to complicate, even if it does not legally stay, collection efforts against the guarantor, and should track real estate collateral held by affiliated holding entities separately through any Chapter 11 case, since the bankruptcy court's treatment of that mortgaged property can diverge from how the personal guaranty claim is ultimately resolved."
+      ],
+      tags: ["lending-foreclosure", "guaranty", "north-dakota", "chapter-11", "bank-lending"],
+      parties: [
+        { name: "First Western Bank & Trust", role: "Plaintiff" },
+        { name: "Kidney and Hypertension Center, PLC", role: "Defendant" },
+        { name: "KDJ Investment Group, LLC", role: "Defendant" },
+        { name: "KDJ Properties, LLC", role: "Defendant" },
+        { name: "Washington Properties, LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 7860000,
+      amountBasis: "claim",
+      timeline: [
+        { when: "July 2025", label: "Borrower companies begin missing scheduled loan payments" },
+        { when: "May 2026", label: "Guarantor files an answer denying liability" },
+        { when: "October 16, 2026", label: "Seven affiliated borrower entities file Chapter 11 petitions in the District of North Dakota" },
+        { when: "November 2, 2026", label: "Guarantor removes the bank's suit to U.S. Bankruptcy Court", current: true },
+        { when: "November 30, 2026", label: "Deadline for guarantor to respond to the bank's summary judgment motion", upcoming: true }
       ]
     }
   ],
