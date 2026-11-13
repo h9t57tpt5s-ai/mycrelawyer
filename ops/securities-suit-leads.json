@@ -1,7 +1,43 @@
 {
- "updatedAt": "2026-11-13T07:53:16+00:00",
+ "updatedAt": "2026-11-13T20:28:45+00:00",
  "about": "Press-release headlines announcing securities suits or investigations of public real estate companies (GlobeNewswire feeds). Headlines and links only. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "https://www.globenewswire.com/news-release/2026/11/13/3402911/1020/en/kaplan-fox-notifies-investors-of-millrose-properties-inc-nyse-mrp-of-a-securities-fraud-class-action-deadline-on-december-8-2026.html",
+   "title": "Kaplan Fox Notifies Investors of Millrose Properties, Inc. (NYSE: MRP) of a Securities Fraud Class Action Deadline on December 8, 2026",
+   "url": "https://www.globenewswire.com/news-release/2026/11/13/3402911/1020/en/kaplan-fox-notifies-investors-of-millrose-properties-inc-nyse-mrp-of-a-securities-fraud-class-action-deadline-on-december-8-2026.html",
+   "published": "Fri, 13 Nov 2026 18:20 GMT",
+   "ticker": "MRP",
+   "company": "Millrose Properties, Inc.",
+   "cik": 2017206,
+   "firm": null,
+   "source": "www.globenewswire.com",
+   "firstSeen": "2026-11-13"
+  },
+  {
+   "key": "https://www.globenewswire.com/news-release/2026/11/13/3402904/0/en/deadline-alert-for-arbor-realty-trust-inc-abr-nvidia-corporation-nvda-and-cvrx-inc-cvrx-the-law-offices-of-frank-r-cruz-reminds-investors-of-lead-plaintiff-deadlines-in-securities-.html",
+   "title": "DEADLINE ALERT for Arbor Realty Trust, Inc. (ABR), NVIDIA Corporation (NVDA), and CVRx, Inc. (CVRX): The Law Offices of Frank R. Cruz Reminds Investors of Lead Plaintiff Deadlines in Securities Fraud Class Actions",
+   "url": "https://www.globenewswire.com/news-release/2026/11/13/3402904/0/en/deadline-alert-for-arbor-realty-trust-inc-abr-nvidia-corporation-nvda-and-cvrx-inc-cvrx-the-law-offices-of-frank-r-cruz-reminds-investors-of-lead-plaintiff-deadlines-in-securities-.html",
+   "published": "Fri, 13 Nov 2026 18:06 GMT",
+   "ticker": "ABR",
+   "company": "ARBOR REALTY TRUST INC",
+   "cik": 1253986,
+   "firm": null,
+   "source": "www.globenewswire.com",
+   "firstSeen": "2026-11-13"
+  },
+  {
+   "key": "https://www.globenewswire.com/news-release/2026/11/13/3402891/0/en/deadline-alert-for-o-i-glass-inc-oi-and-lululemon-athletica-inc-lulu-the-law-offices-of-frank-r-cruz-reminds-investors-of-lead-plaintiff-deadlines-in-securities-fraud-class-actions.html",
+   "title": "DEADLINE ALERT for O-I Glass, Inc. (OI) and Lululemon Athletica, Inc (LULU): The Law Offices of Frank R. Cruz Reminds Investors of Lead Plaintiff Deadlines in Securities Fraud Class Actions",
+   "url": "https://www.globenewswire.com/news-release/2026/11/13/3402891/0/en/deadline-alert-for-o-i-glass-inc-oi-and-lululemon-athletica-inc-lulu-the-law-offices-of-frank-r-cruz-reminds-investors-of-lead-plaintiff-deadlines-in-securities-fraud-class-actions.html",
+   "published": "Fri, 13 Nov 2026 17:48 GMT",
+   "ticker": "O",
+   "company": "REALTY INCOME CORP",
+   "cik": 726728,
+   "firm": null,
+   "source": "www.globenewswire.com",
+   "firstSeen": "2026-11-13"
+  },
   {
    "key": "https://www.globenewswire.com/news-release/2026/10/07/3376777/937/en/millrose-properties-inc-investigation-mrp-securities-investors-encouraged-to-contact-kirby-mcinerney-llp-about-their-rights.html",
    "title": "MILLROSE PROPERTIES, INC. INVESTIGATION: MRP Securities Investors Encouraged to Contact Kirby McInerney LLP About Their Rights",

@@ -1,7 +1,27 @@
 {
- "updatedAt": "2026-11-13T07:53:16+00:00",
+ "updatedAt": "2026-11-13T20:28:45+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0001437749-26-036653:gyrllc20260930_10q.htm",
+   "company": "Gyrodyne, LLC  (GYRO)",
+   "cik": "1589061",
+   "sic": "6512",
+   "form": "10-Q",
+   "filed": "2026-11-13",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1589061/000143774926036653/gyrllc20260930_10q.htm",
+   "phrases": [
+    "putative class action"
+   ],
+   "excerpts": [
+    "Each of the Directors elected (under the DCP) to defer 100 % of their director fees for the years 2020 thru 2025 excluding Jan Loeb who was nominated to the Board on July 28, 2023 and elected to a three -year term at the annual shareholder meeting on October 12, 2023. Two of the four directors have elected not to defer any fees during 2026; the other two directors elected to defer approximately 71 % of their respective 2026 director fees. 13. Contingencies Putative Class Action Lawsuit \u2013 On August 14, 2015, the Company entered a Stipulation of Settlement (the \"Settlement\") providing for the settlement of a putative class action lawsuit against the Company and certain related parties. Under the Settlement, Gyrodyne agreed that any sales of its properties would be effected only in arm's-length transactions at prices at or above their appraised values as of 2014.",
+    "Changes in Internal Control Over Financial Reporting There was no change in our internal control over financial reporting identified with our evaluation that occurred during the fiscal quarter ended September 30, 2026, that has materially affected, or is reasonably likely to materially affect, our internal control over financial reporting. PART \u2013 II - OTHER INFORMATION Item 1. Legal Proceedings. Putative Class Action Lawsuit On August 14, 2015, the Company entered a Stipulation of Settlement (the \"Settlement\") providing for the settlement of a putative class action lawsuit against the Company and certain related parties. Under the Settlement, Gyrodyne agreed that any sales of its properties would be effected only in arm's-length transactions at prices at or above their appraised values as of 2014."
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-13"
+  },
   {
    "key": "0002071778-26-000058:frmi-20260930.htm",
    "company": "Fermi Inc.  (FRMI)",
