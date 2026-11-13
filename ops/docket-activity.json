@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T17:40:41+00:00",
+ "updatedAt": "2026-11-13T17:18:12+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
  "requestsUsed": 20,
  "errors": [],
@@ -345,6 +345,20 @@
   "69353264": {
    "entries": [
     {
+     "date": "2026-11-13",
+     "number": null,
+     "text": "Pretrial Conference - Initial",
+     "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-12",
+     "number": 53,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/69353264/53/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-12",
      "number": 52,
      "text": "Order on Motion for Magistrate Judge",
@@ -385,20 +399,6 @@
      "text": "Judgment on the Pleadings",
      "url": "https://www.courtlistener.com/docket/69353264/49/ayer-v-lightstone-value-plus-reit-i-inc/",
      "ruling": true
-    },
-    {
-     "date": "2026-10-28",
-     "number": 48,
-     "text": "Statement",
-     "url": "https://www.courtlistener.com/docket/69353264/48/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-26",
-     "number": 47,
-     "text": "Order on Motion for Miscellaneous Relief",
-     "url": "https://www.courtlistener.com/docket/69353264/47/ayer-v-lightstone-value-plus-reit-i-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -408,7 +408,7 @@
    "docketNumber": "3:24-cv-10371",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
-   "lastEntryDate": "2026-11-12"
+   "lastEntryDate": "2026-11-13"
   },
   "69518085": {
    "entries": [
@@ -848,6 +848,20 @@
   "73568530": {
    "entries": [
     {
+     "date": "2026-11-12",
+     "number": 7,
+     "text": "Judgment - Consent",
+     "url": "https://www.courtlistener.com/docket/73568530/7/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
+     "ruling": true
+    },
+    {
+     "date": "2026-11-12",
+     "number": 6,
+     "text": "Order on Motion to Approve Consent Judgment",
+     "url": "https://www.courtlistener.com/docket/73568530/6/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
+     "ruling": true
+    },
+    {
      "date": "2026-09-11",
      "number": 5,
      "text": "Notice of Substitution of Counsel and Entry of Appearance - MT",
@@ -862,7 +876,7 @@
    "docketNumber": "9:26-cv-00099",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73568530/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
-   "lastEntryDate": "2026-09-11"
+   "lastEntryDate": "2026-11-12"
   },
   "73578741": {
    "entries": [
@@ -1207,6 +1221,13 @@
   "74638795": {
    "entries": [
     {
+     "date": "2026-11-13",
+     "number": 12,
+     "text": "Affidavit of Service",
+     "url": "https://www.courtlistener.com/docket/74638795/12/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-06",
      "number": 11,
      "text": "Appoint Receiver",
@@ -1254,13 +1275,6 @@
      "text": "Set/Reset Motion and R&R Deadlines/Hearings",
      "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 6,
-     "text": "Request for Default Judgment by Clerk",
-     "url": "https://www.courtlistener.com/docket/74638795/6/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-     "ruling": true
     }
    ],
    "caseIds": [
@@ -1270,7 +1284,7 @@
    "docketNumber": "3:26-cv-10200",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-   "lastEntryDate": "2026-11-06"
+   "lastEntryDate": "2026-11-13"
   },
   "74701388": {
    "entries": [],
@@ -1408,6 +1422,13 @@
   "74922581": {
    "entries": [
     {
+     "date": "2026-11-12",
+     "number": null,
+     "text": "Hearing held",
+     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-10",
      "number": 52,
      "text": "Support/supplemental document",
@@ -1455,13 +1476,6 @@
      "text": "List (witness/exhibit/generic)",
      "url": "https://www.courtlistener.com/docket/74922581/45/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-10",
-     "number": null,
-     "text": "Meeting of creditors held",
-     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1471,7 +1485,7 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-11-10"
+   "lastEntryDate": "2026-11-12"
   },
   "74927117": {
    "entries": [
@@ -1679,6 +1693,32 @@
   }
  },
  "events": [
+  {
+   "key": "73568530:6:2026-11-12:order on motion to approve consent judgment",
+   "docketId": "73568530",
+   "caseIds": [
+    "live-019"
+   ],
+   "date": "2026-11-12",
+   "kind": "ruling",
+   "text": "Order on Motion to Approve Consent Judgment",
+   "entry": 6,
+   "url": "https://www.courtlistener.com/docket/73568530/6/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
+   "firstSeen": "2026-11-13"
+  },
+  {
+   "key": "73568530:7:2026-11-12:judgment - consent",
+   "docketId": "73568530",
+   "caseIds": [
+    "live-019"
+   ],
+   "date": "2026-11-12",
+   "kind": "ruling",
+   "text": "Judgment - Consent",
+   "entry": 7,
+   "url": "https://www.courtlistener.com/docket/73568530/7/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
+   "firstSeen": "2026-11-13"
+  },
   {
    "key": "69074245:229:2026-11-05:exhibit 2 - public comment regarding the proposed final judgment [200-1] submitt",
    "docketId": "69074245",
