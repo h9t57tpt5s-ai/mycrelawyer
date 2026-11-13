@@ -1,7 +1,37 @@
 {
- "updatedAt": "2026-11-12T20:47:03+00:00",
+ "updatedAt": "2026-11-13T07:53:16+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0002071778-26-000058:frmi-20260930.htm",
+   "company": "Fermi Inc.  (FRMI)",
+   "cik": "2071778",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-11-12",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071778/000207177826000058/frmi-20260930.htm",
+   "phrases": [
+    "filed a complaint",
+    "filed a petition"
+   ],
+   "excerpts": [
+    "The releases in favor of the Company and its subsidiaries became effective upon payment of the settlement amount by MAD Energy, which is a related party of the Company (see Note 2, Significant Accounting Policies \u2014 Related Party Transactions ) and made the payment under its indemnification of the Company and its affiliates. Because the Company will not make any payment under the settlement and MAD Energy\u2019s payment is not an obligation of the Company, no liability was accrued for this matter as of September 30, 2026. Litigation \u2014 Bayonne On June 29, 2026, Bayonne Plant Holding, L.L.C. (\u201cBayonne\u201d) filed a complaint against the Company\u2019s subsidiary Fermi Equipment Holdco in the U.S. District Court for the District of New Jersey (Case No. 2:26-cv-07904-JXN-JBC). The complaint was served on the subsidiary\u2019s registered agent on July 8, 2026. The claims arise out of a June 26, 2025 Equipment Purchase Agreement, as amended, under which Fermi Equipment Holdco purchased power-generation 26 Table of Contents equipment from Bayonne and agreed to remove the equipment from, and restore, Bayonne\u2019s site in Bayonne, New Jersey.",
+    "The defendants\u2019 Amended Rule 91a Motion to Dismiss remains pending and is scheduled to be heard on November 19, 2026. We intend to vigorously defend against this action. 47 Table of Contents Bayonne Litigation On June 29, 2026, Bayonne Plant Holding, L.L.C. (\u201cBayonne\u201d), a Delaware limited liability company affiliated with International-Matex Tank Terminals, filed a complaint against our subsidiary Fermi Equipment Holdco in the U.S. District Court for the District of New Jersey, captioned Bayonne Plant Holding, L.L.C. v. Fermi Equipment Holdco, LLC, Case No. 2:26-cv-07904-JXN-JBC. The complaint was served on the subsidiary\u2019s registered agent on July 8, 2026. The court\u2019s subject-matter jurisdiction is premised on diversity of citizenship.",
+    "As of September 30, 2026, the Company was unable to determine whether an unfavorable outcome was reasonably possible or to estimate the amount or range of reasonably possible loss, if any, associated with this matter. Litigation \u2014 Class B Unit Reclamation On July 27, 2026, two principals of a consulting firm that provided services to Fermi LLC, the Company\u2019s predecessor, filed a petition against the Company and its former Chief Executive Officer, in the Business Court of Texas, First Business Court Division (Cause No. 26-BC01B-0066), asserting claims for conversion against both defendants and for breach of contract against the Company, arising out of the reclamation in July 2025 of 25,000 Class B Units of Fermi LLC previously granted to the plaintiffs.",
+    "On August 24, 2026, Fermi Equipment Holdco filed a partial motion to dismiss the complaint, which remains pending. At this time, we are unable to determine whether an unfavorable outcome is reasonably possible or to estimate the amount or range of reasonably possible loss, if any, associated with this matter. Pe\u00f1a and Summers v. Fermi Inc. and Neugebauer On July 27, 2026, Zachary Pe\u00f1a and Ethan Summers filed a petition against the Company and Toby Neugebauer, the Company\u2019s former Chief Executive Officer, in the Business Court of Texas, First Business Court Division (Cause No. 26-BC01B-0066). The plaintiffs are principals of Empirix Partners, a supply chain consultancy that provided strategic sourcing and procurement services to the Company\u2019s predecessor, Fermi LLC, in 2025."
+   ],
+   "captions": [
+    "District of New Jersey, captioned Bayonne Plant Holding, L.L.C. v. Fermi Equipment Holdco, LLC, Case No. 2",
+    "Pe\u00f1a and Summers v. Fermi Inc. and Neugebauer On July 27, 2026, Zachary"
+   ],
+   "courts": [
+    "Business Court",
+    "Business Court of Texas",
+    "District Court for the District of New Jersey"
+   ],
+   "firstSeen": "2026-11-13"
+  },
   {
    "key": "0001079973-26-001461:kaa10q-926final.htm",
    "company": "KAANAPALI LAND LLC  (KANP)",
