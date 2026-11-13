@@ -2179,6 +2179,46 @@
     "opinion:11060124": {
       "at": "2026-11-13",
       "action": "skipped: residential condominium construction-defect dispute (Urbana at the Residences Condominium No. 3 Assn. v. White Course Lennar, LLC) -- residential, not commercial real estate"
+    },
+    "opinion:11060925": {
+      "at": "2026-11-13",
+      "action": "skipped: Delaware Chancery post-trial opinion (Holmwood Capital v. HC Government Realty Trust, decided today) is a genuine CRE/REIT management-fee dispute, but the stored opinion text (12,000 of 93,294 chars) cuts off in the factual background before the court's ruling on the termination-fee calculation; no press coverage found to confirm the outcome, so left out rather than guess the holding"
+    },
+    "opinion:11060648": {
+      "at": "2026-11-13",
+      "action": "skipped: wrongful-death/premises suit brought by an individual estate representative against GMR Properties and entertainment-promotion companies; not a commercial real estate business dispute on its face"
+    },
+    "opinion:11060540": {
+      "at": "2026-11-13",
+      "action": "skipped: Florida Insurance Guaranty Association v. Russell -- individual defendant, personal insurer insolvency matter, not commercial real estate"
+    },
+    "opinion:11060479": {
+      "at": "2026-11-13",
+      "action": "skipped: mechanic's lien suit against individual homeowners (Linda and Oliver Morard), no business-entity defendant -- residential construction dispute"
+    },
+    "opinion:11060478": {
+      "at": "2026-11-13",
+      "action": "skipped: Alabama Supreme Court declined to answer the certified question on telecom equipment crossing rights at rail corridors (\"QUESTION DECLINED\"); no substantive holding to report, and the underlying easement dispute remains pending in federal court"
+    },
+    "opinion:11060366": {
+      "at": "2026-11-13",
+      "action": "skipped: Timberline Four Seasons Utilities v. Kapitus Servicing concerns a water/sewer utility's financing contract and the Public Service Commission's authority to void it -- utility regulation, not a commercial real estate matter on its face"
+    },
+    "0001437749-26-036653:gyrllc20260930_10q.htm": {
+      "at": "2026-11-13",
+      "action": "skipped: Gyrodyne LLC 10-Q restates a 2015 class-action settlement (property sales at appraised value) with no new development this filing"
+    },
+    "https://www.globenewswire.com/news-release/2026/11/13/3402911/1020/en/kaplan-fox-notifies-investors-of-millrose-properties-inc-nyse-mrp-of-a-securities-fraud-class-action-deadline-on-december-8-2026.html": {
+      "at": "2026-11-13",
+      "action": "skipped: lead-plaintiff deadline reminder for the already-filed, already-tracked Millrose Properties securities class action (live matter), not a new filing"
+    },
+    "https://www.globenewswire.com/news-release/2026/11/13/3402904/0/en/deadline-alert-for-arbor-realty-trust-inc-abr-nvidia-corporation-nvda-and-cvrx-inc-cvrx-the-law-offices-of-frank-r-cruz-reminds-investors-of-lead-plaintiff-deadlines-in-securities-.html": {
+      "at": "2026-11-13",
+      "action": "skipped: multi-company lead-plaintiff deadline reminder (reminder, not a new filing); Arbor Realty Trust's 2026 securities suit is already tracked"
+    },
+    "https://www.globenewswire.com/news-release/2026/11/13/3402891/0/en/deadline-alert-for-o-i-glass-inc-oi-and-lululemon-athletica-inc-lulu-the-law-offices-of-frank-r-cruz-reminds-investors-of-lead-plaintiff-deadlines-in-securities-fraud-class-actions.html": {
+      "at": "2026-11-13",
+      "action": "skipped: O.I. Glass / Lululemon deadline reminder, not commercial real estate"
     }
   }
 }

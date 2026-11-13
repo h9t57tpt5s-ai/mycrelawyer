@@ -702,7 +702,7 @@ const RELAW_DATA = {
       title: "United States v. Columbia Falls Aluminum Co. (CFAC Superfund Consent Decree, $57.6M Cleanup)",
       brief: "Columbia Falls Aluminum Company will pay $57.6 million under a proposed EPA consent decree to clean up arsenic, cyanide and other contamination at its former Montana aluminum smelter site.",
       category: "environmental",
-      status: "pending",
+      status: "settled",
       date: "2026-07-09",
       jurisdiction: "U.S. District Court for the District of Montana",
       parties: [
@@ -716,7 +716,7 @@ const RELAW_DATA = {
       amount: "$57.6M cleanup consent decree",
       source: "live",
       sourceUrl: "https://www.epa.gov/newsreleases/columbia-falls-aluminum-corporation-llc-agrees-57-million-cleanup-former-smelter-site",
-      summary: "The EPA and Columbia Falls Aluminum Company, LLC (CFAC) lodged a consent decree in the U.S. District Court for the District of Montana under which CFAC will pay $57.6 million to clean up its former aluminum smelter site in Columbia Falls, addressing arsenic, cyanide, fluoride, and polyaromatic hydrocarbon contamination in soil and groundwater. The 647-page agreement, open for public comment through August 6, 2026, requires low-permeability landfill caps and a groundwater slurry wall to stop contaminant migration toward the Flathead River.",
+      summary: "The EPA and Columbia Falls Aluminum Company, LLC (CFAC) lodged a consent decree in the U.S. District Court for the District of Montana under which CFAC will pay $57.6 million to clean up its former aluminum smelter site in Columbia Falls, addressing arsenic, cyanide, fluoride, and polyaromatic hydrocarbon contamination in soil and groundwater. The 647-page agreement, open for public comment through August 6, 2026, requires low-permeability landfill caps and a groundwater slurry wall to stop contaminant migration toward the Flathead River. The court approved and entered the consent judgment on November 12, 2026.",
       significance: "Superfund liability attaches to the site, not just the operating business — CFAC ceased smelting operations years before this settlement, yet remains on the hook for tens of millions in remediation because it remained the property's owner of record. Owners of industrial and formerly-industrial CRE parcels, especially older manufacturing sites being eyed for adaptive reuse or redevelopment, should treat legacy contamination as a live balance-sheet liability rather than a closed chapter, and should confirm acquisition due diligence accounts for the multi-decade tail these consent decrees typically carry.",
       body: [
         "The EPA and Columbia Falls Aluminum Company, LLC (CFAC) lodged a 647-page consent decree in the U.S. District Court for the District of Montana in Missoula, resolving CERCLA and Montana state Superfund claims tied to the company's former aluminum reduction plant in Columbia Falls, Montana.",
@@ -725,7 +725,8 @@ const RELAW_DATA = {
       ],
       timeline: [
         { when: "July 9, 2026", label: "EPA announces the $57.6M consent decree agreement with CFAC for Superfund site cleanup" },
-        { when: "Through August 6, 2026", label: "Public comment period open before the U.S. District Court formally enters the consent decree", current: true }
+        { when: "Through August 6, 2026", label: "Public comment period open before the U.S. District Court formally enters the consent decree" },
+        { when: "November 12, 2026", label: "Court enters order approving the consent decree and the consent judgment (docket entries 6-7)", current: true }
       ],
       tags: ["environmental", "CERCLA", "superfund", "industrial site", "montana"],
       docketUrl: "https://www.courtlistener.com/docket/73568530/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
@@ -14006,6 +14007,39 @@ const RELAW_DATA = {
         { when: "November 2, 2026", label: "Guarantor removes the bank's suit to U.S. Bankruptcy Court", current: true },
         { when: "November 30, 2026", label: "Deadline for guarantor to respond to the bank's summary judgment motion", upcoming: true }
       ]
+    },
+    {
+      id: "live-398",
+      seoTitle: "Deutsche Finance Sues BVK Over $2B US Property Losses",
+      seoDescription: "Deutsche Finance sued German pension giant BVK in Delaware over a $2B US property portfolio's losses, as a Munich corruption probe hits both firms.",
+      addedDate: "2026-11-13",
+      title: "Deutsche Finance America LLC v. Bayerische Versorgungskammer (Delaware Contract and Defamation Suit Over $2B US CRE Portfolio)",
+      brief: "Deutsche Finance sued German pension fund BVK in Delaware, saying BVK controlled and mismanaged a nearly $2 billion US property portfolio, then falsely blamed Deutsche Finance after losses reached up to €853 million.",
+      category: "reit-securities",
+      status: "pending",
+      date: "2026-09-01",
+      jurisdiction: "U.S. District Court for the District of Delaware (removed from Delaware Superior Court)",
+      parties: [
+        { name: "Deutsche Finance America LLC", role: "Plaintiff" },
+        { name: "DF Deutsche Finance Holding AG", role: "Plaintiff" },
+        { name: "Bayerische Versorgungskammer", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 1000000000,
+      amountBasis: "other",
+      amount: "~$2B US property portfolio; BVK has flagged potential losses of up to €853M",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/national/commercial-real-estate/deutsche-finance-alleges-bvk-responsible-cre-portfolio-losing-1b-dollars-new-lawsuit",
+      summary: "Deutsche Finance America LLC and its German parent sued Bayerische Versorgungskammer (BVK), Germany's largest public pension fund, in Delaware Superior Court on September 1, 2026, alleging breach of contract, defamation, and deceptive trade practices over a nearly $2 billion US commercial real estate portfolio. Deutsche Finance says BVK held sole authority over the portfolio's budgets, financing and leasing decisions, failed to act as the market weakened, and then falsely blamed Deutsche Finance for losses that could reach €853 million; BVK removed the case to federal court in October 2026 and rejects the allegations. Munich prosecutors searched both companies' offices on November 3 and 5, 2026 as part of a separate corruption probe into BVK's US real estate program.",
+      significance: "Shows how a governance dispute over who actually controlled a complex, cross-border real estate investment structure becomes the central battleground once a portfolio's losses need a party to blame, and how a civil contract fight of this size can draw in regulatory and criminal scrutiny of the parties' underlying business relationship. Institutional investors and asset managers structuring discretionary mandates or joint ventures for US commercial property should document decision-making authority in real time, since ambiguity on that point is exactly what each side is now litigating.",
+      body: [
+        "Deutsche Finance America LLC and its German parent, DF Deutsche Finance Holding AG, sued Bayerische Versorgungskammer (BVK), Germany's largest public pension fund, in Delaware Superior Court on September 1, 2026, over responsibility for losses on a nearly $2 billion portfolio of US commercial real estate investments. BVK removed the case, originally filed in Delaware's Complex Commercial Litigation Division as No. N26C-08-455 KMM CCLD, to the U.S. District Court for the District of Delaware on October 16, 2026, where it is now docketed as No. 1:26-cv-01337.",
+        "The complaint asserts breach of contract, defamation, violation of the Delaware Deceptive Trade Practices Act, tortious interference with contract, and tortious interference with prospective business relations. Deutsche Finance alleges that BVK retained sole discretion to approve budgets, financing and leases across the portfolio, failed to act as US property markets weakened beginning in 2020, and then publicly blamed Deutsche Finance for the resulting losses. Deutsche Finance says neither it nor its affiliates acted as discretionary fund managers with decision-making authority over the underlying assets. BVK has rejected the allegations and says it will defend itself decisively.",
+        "The portfolio was built in significant part alongside New York developer Michael Shvo's firm, SHVO. BVK has disclosed investing roughly €1.6 billion (about $1.9 billion) through vehicles tied to Deutsche Finance and Shvo, and has warned that fund-level losses could reach as much as €853 million, after already writing off €392 million by the end of last year.",
+        "The dispute took on a new dimension in early November, when Munich prosecutors searched Deutsche Finance's offices on November 3 and BVK's offices on November 5, 2026, as part of a corruption investigation into BVK's US real estate program. Prosecutors say the inquiry involves a current and a former BVK real estate employee and a member of Deutsche Finance Group's management team, over allegedly improper benefits including high-end dinners and a luxury hotel suite. Prosecutors have said that allegations of breach of trust tied to the investment losses themselves are not currently part of that criminal probe, which the inquiry says began after BVK itself flagged compliance concerns; two senior BVK real estate managers had already departed following an internal review.",
+        "For commercial real estate owners, lenders and fund sponsors, the dispute is a pointed illustration of how a structure built to let a sophisticated institutional investor retain ultimate control over major asset-level decisions can become the basis for that same investor to disclaim responsibility once a market turns, and how a dispute of this size can draw regulatory and even criminal scrutiny into business courtesies that might otherwise go unexamined. Anyone structuring a discretionary mandate or joint venture for cross-border US property investment should document, contemporaneously, exactly which party controls which categories of decisions, and should treat gift, travel and entertainment compliance with the same rigor as the investment decisions it surrounds."
+      ],
+      tags: ["reit-securities", "pension-fund", "joint-venture", "delaware", "cross-border"]
     }
   ],
 

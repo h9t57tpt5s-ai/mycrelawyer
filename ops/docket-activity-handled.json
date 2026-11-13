@@ -66,9 +66,9 @@
    "action": "docket text only -- WebSearch found no secondary reporting on settlement terms; added a timeline entry restating that the docket exhibits describe the approved settlement as partial, without changing status, since no source confirms the case as fully resolved"
   },
   "74927117:73:2026-10-29:order on motion for relief from stay/co-debtor stay": {
-    "caseId": "live-265",
-    "at": "2026-10-30",
-    "action": "docket text only -- WebSearch found no secondary reporting on this October 29, 2026 ruling on the motion for relief from stay/co-debtor stay; added a timeline entry restating the docket text without changing status, since no source states whether the motion was granted or denied"
+   "caseId": "live-265",
+   "at": "2026-10-30",
+   "action": "docket text only -- WebSearch found no secondary reporting on this October 29, 2026 ruling on the motion for relief from stay/co-debtor stay; added a timeline entry restating the docket text without changing status, since no source states whether the motion was granted or denied"
   },
   "70689952:closed:2026-08-06": {
    "caseId": "live-028",
@@ -134,6 +134,16 @@
    "caseId": "live-014",
    "at": "2026-11-08",
    "action": "docket text only -- WebSearch found no reporting on this entry in Keller v. UDR, Inc.; added a timeline entry restating the docket text (a motion to dismiss filing, not a ruling) without changing status"
+  },
+  "73568530:6:2026-11-12:order on motion to approve consent judgment": {
+   "caseId": "live-019",
+   "at": "2026-11-13",
+   "action": "docket text only (consent judgment entered Nov 12, 2026; no separate press coverage found of the entry itself)"
+  },
+  "73568530:7:2026-11-12:judgment - consent": {
+   "caseId": "live-019",
+   "at": "2026-11-13",
+   "action": "docket text only (consent judgment entered Nov 12, 2026; no separate press coverage found of the entry itself)"
   }
  }
 }
