@@ -857,7 +857,7 @@
   </url>
   <url>
     <loc>https://credocket.com/lawsuit-watch.html</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1077,7 +1077,7 @@
   </url>
   <url>
     <loc>https://credocket.com/state-court-watch.html</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -3751,6 +3751,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/federal-cases/tomorrow-real-estate-llc-v-landair-transport-inc-pawd-2-26-cv-02443.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/federal-cases/norfolk-southern-railway-company-v-peco-energy-company-paed-2-26-cv-08680.html</loc>
+    <lastmod>2026-11-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/federal-cases/dutch-plaza-properties-ltd-v-poggenpohl-u-s-inc-txsd-4-26-cv-09916.html</loc>
     <lastmod>2026-11-12</lastmod>
     <priority>0.5</priority>
@@ -4393,6 +4403,11 @@
   <url>
     <loc>https://credocket.com/federal-cases/fam-jam-01-properties-llc-v-united-states-of-america-the-alnd-5-26-cv-01613.html</loc>
     <lastmod>2026-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/state-cases/us-bank-trust-company-national-v-atb-properties-llc-et-al-fl-hillsborough-26-ca-012186.html</loc>
+    <lastmod>2026-11-12</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
