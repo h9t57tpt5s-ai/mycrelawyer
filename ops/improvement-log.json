@@ -1769,6 +1769,26 @@
       "checkAfter": "2026-11-20",
       "status": "watching",
       "note": "Low expectations this moves signUps7/contactSends7 -- this is a trust/completeness fix for a compliance reviewer, not a conversion lever, same caveat as imp-015/029/042/057."
+    },
+    {
+      "id": "imp-072",
+      "date": "2026-11-13",
+      "track": "conversion",
+      "title": "Measurement fix: Distress Radar alert sign-ups never fired the site's RELAW_TRACK signup event",
+      "why": "Every numeric goal's real lever was blocked this run: traffic (imp-068 open on visits7/googleLandings7 until 2026-11-18), calculator (imp-059 open on calculatorViews7 until 2026-11-14; finalRangeHitRate Jeff-gated, G15 unchanged since imp-045), conversion (imp-062 open on newsletterSignups7/signUps7 until 2026-11-15; follows7 G17-diagnosed as not worth a copy retest), news (imp-063/imp-065 open on all its tracked metrics, already on track), subscription (imp-071, logged earlier today, 7-day window just reset). Per the backlog's own allowance for 'a measurement problem (a metric that cannot move)' -- the same reasoning imp-022 used on 2026-10-20 to fix untracked search events while imp-020 was open on that exact metric -- looked for an analogous gap given Jeff's 2026-11-11 CRE-distress-radar direction, which treats daily radar alert sign-ups as a core conversion channel. Found it: js/distress-radar.js's radar-alert form (distress-radar.html#alerts) posts to the same newsletter Edge Function every other sign-up form on the site uses, but on success only fired a Vercel Analytics event (`window.va(...)`) -- it never called `window.RELAW_TRACK(\"signup\", ...)`, the client-side event supabase/functions/site-metrics/index.ts reads to compute signUps7/newsletterSignups7. Every radar alert sign-up since the feature launched 2026-11-11 has been invisible to this routine's own conversion metrics. No HTML/page changed, no copy/placement changed -- purely a tracking gap, the same shape imp-022 fixed for js/litigation.js/js/search.js.",
+      "files": [
+        "js/distress-radar.js"
+      ],
+      "commit": "12387b1",
+      "metric": "conversion.metrics.signUps7 (primarily; radar sign-ups are a real sign-up action, same as newsletter-form.js's own existing precedent, verified against js/newsletter-form.js:37 -- it fires on the identical `r.ok && j.ok` condition regardless of `already`). Used a distinct detail (\"radar-alert\" instead of \"newsletter\") so it does NOT inflate newsletterSignups7, only signUps7.",
+      "window": "7 days",
+      "baseline": {
+        "signUps7": 1,
+        "newsletterSignups7": 0
+      },
+      "checkAfter": "2026-11-20",
+      "status": "watching",
+      "note": "Flag for the next few runs: any rise in signUps7 before 2026-11-15 (imp-062's own checkAfter) could now include newly-counted radar sign-ups that were already happening, unmeasured, rather than imp-062's newsletter-copy change -- don't attribute a signUps7 move to imp-062 alone without checking whether radar_alert_signup-sourced rows explain it. Separately, this also means this fix's own 'did it help' verdict is not a clean read of a real UX change (nothing was added for a visitor to see or do) -- it is a measurement question: does signUps7 now register radar sign-ups that are happening anyway? Check the raw event count/detail breakdown if available, not just whether signUps7 moved by 25%."
     }
   ]
 }
