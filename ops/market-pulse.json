@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T16:50:39Z",
+  "generated": "2026-11-13T18:34:23Z",
   "about": "Commercial real estate credit indicators from the Federal Reserve (via FRED) and FDIC Call Report data. Values are the sources' own figures; FDIC aggregates and bank ratios are sums and ratios of FDIC-reported fields. Built by scripts/pull_market_pulse.py.",
   "indicators": [
     {
@@ -339,30 +339,30 @@
       "id": "fred-dgs10",
       "seriesId": "DGS10",
       "label": "10-year U.S. Treasury yield (constant maturity)",
-      "value": 4.88,
+      "value": 4.98,
       "unit": "percent",
       "frequency": "daily",
-      "asOf": "2026-11-09",
+      "asOf": "2026-11-10",
       "comparisons": [
         {
           "label": "previous observation",
-          "date": "2026-11-06",
-          "value": 4.86,
-          "change": 0.02,
+          "date": "2026-11-09",
+          "value": 4.88,
+          "change": 0.1,
           "changeUnit": "percentage points"
         },
         {
           "label": "1 week earlier",
-          "date": "2026-11-02",
-          "value": 4.91,
-          "change": -0.03,
+          "date": "2026-11-03",
+          "value": 4.95,
+          "change": 0.03,
           "changeUnit": "percentage points"
         },
         {
           "label": "1 year earlier",
-          "date": "2025-11-07",
-          "value": 4.11,
-          "change": 0.77,
+          "date": "2025-11-10",
+          "value": 4.13,
+          "change": 0.85,
           "changeUnit": "percentage points"
         }
       ],
