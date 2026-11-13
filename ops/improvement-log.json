@@ -1388,8 +1388,16 @@
         "contactSends7": 0
       },
       "checkAfter": "2026-11-13",
-      "status": "watching",
-      "note": "Low expectations this moves signUps7/contactSends7 -- this is a trust/completeness fix for a compliance reviewer, not a conversion lever."
+      "status": "no clear effect",
+      "note": "Low expectations this moves signUps7/contactSends7 -- this is a trust/completeness fix for a compliance reviewer, not a conversion lever.",
+      "verdict": {
+        "date": "2026-11-13",
+        "value": {
+          "signUps7": 1,
+          "contactSends7": 0
+        },
+        "note": "Weak proxy flat -- signUps7 held at 1 (last28Days.signUps flat at 4 since 2026-11-08, not a trend) and contactSends7 stayed exactly 0; procurement.html still absent from last7Days.topPages top 10. Same inconclusive shape as imp-015/029/042 on this proxy. Not reverted."
+      }
     },
     {
       "id": "imp-058",
@@ -1697,7 +1705,14 @@
         "orphanPages": 1
       },
       "checkAfter": "2026-11-13",
-      "status": "watching"
+      "status": "helped",
+      "verdict": {
+        "date": "2026-11-13",
+        "value": {
+          "orphanPages": 0
+        },
+        "note": "Live site_audit.py confirms orphanPages/missingFromSitemap/brokenLinks all still 0 the next day."
+      }
     },
     {
       "id": "imp-070",
@@ -1723,7 +1738,37 @@
         "weakDescription": 2
       },
       "checkAfter": "2026-11-13",
-      "status": "watching"
+      "status": "helped",
+      "verdict": {
+        "date": "2026-11-13",
+        "value": {
+          "longTitle": 0,
+          "weakDescription": 0
+        },
+        "note": "Live site_audit.py confirms longTitle/weakDescription both still 0 the next day. missingDescription is 3 (one more than the usual 2) but the new one is email-preview.html, a noindex internal preview page, same already-explained shape as the other two -- not a regression."
+      }
+    },
+    {
+      "id": "imp-071",
+      "date": "2026-11-13",
+      "track": "subscription",
+      "title": "Disclosed the digest-frequency account setting (user_metadata.digest_frequency) on data-security.html and procurement.html",
+      "why": "Subscription's last tracked change (imp-057) was exactly 7 days old today, triggering the playbook's 7-day force-rule ahead of mostBehind order (conversion, calculator, traffic, news per today's goal_scoreboard.py); every other goal's real metric was blocked, Jeff-gated, or (conversion's multiPageRate7Adjusted) freshly resolved with nothing queued. Per imp-057's own 2026-11-06 'next time' note, audited the codebase for other account-level user_metadata fields that might have shipped without a matching disclosure, the same shape imp-057 found for the Slack webhook. `grep -rn \"user_metadata\" js/*.js supabase/functions/*/*.ts` found a second one: js/digest-prefs.js stores a subscriber's digest-cadence preference (user_metadata.digest_frequency) on account.html, read directly by the send-morning-digest and newsletter Edge Functions, but never mentioned on data-security.html's \"What We Collect\" list or procurement.html's security summary.",
+      "files": [
+        "data-security.html",
+        "procurement.html",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "093133e",
+      "metric": "No dedicated subscription metric exists (same gap imp-015/029/042/057 noted); logged against conversion.metrics.signUps7/contactSends7 as a weak proxy, same as before.",
+      "window": "7 days",
+      "baseline": {
+        "signUps7": 1,
+        "contactSends7": 0
+      },
+      "checkAfter": "2026-11-20",
+      "status": "watching",
+      "note": "Low expectations this moves signUps7/contactSends7 -- this is a trust/completeness fix for a compliance reviewer, not a conversion lever, same caveat as imp-015/029/042/057."
     }
   ]
 }
