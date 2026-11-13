@@ -244,6 +244,7 @@
         if (r.ok && j.ok) {
           msg.textContent = j.already ? "You're already subscribed. Your radar alert settings were saved." : "Check your inbox: one click confirms your radar alerts.";
           try { window.va && window.va("event", { name: "radar_alert_signup" }); } catch (_) {}
+          try { window.RELAW_TRACK && window.RELAW_TRACK("signup", { detail: "radar-alert" }); } catch (_) {}
           form.reset();
         } else msg.textContent = j.error || "Couldn't save that. Try again in a minute.";
       } catch (_) { msg.textContent = "Couldn't reach the server. Try again in a minute."; }
