@@ -1,7 +1,33 @@
 {
- "updatedAt": "2026-11-13T02:52:22+00:00",
+ "updatedAt": "2026-11-13T18:44:37+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Tomorrow Real Estate, LLC v. Landair Transport, Inc.",
+   "court": "District Court, W.D. Pennsylvania",
+   "courtId": "pawd",
+   "docketNumber": "2:26-cv-02443",
+   "dateFiled": "2026-11-13",
+   "docketUrl": "https://www.courtlistener.com/docket/75113915/tomorrow-real-estate-llc-v-landair-transport-inc/",
+   "docketId": 75113915,
+   "suitNature": "",
+   "cause": "",
+   "slug": "tomorrow-real-estate-llc-v-landair-transport-inc-pawd-2-26-cv-02443",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Norfolk Southern Railway Company v. PECO Energy Company",
+   "court": "District Court, E.D. Pennsylvania",
+   "courtId": "paed",
+   "docketNumber": "2:26-cv-08680",
+   "dateFiled": "2026-11-12",
+   "docketUrl": "https://www.courtlistener.com/docket/75110853/norfolk-southern-railway-company-v-peco-energy-company/",
+   "docketId": 75110853,
+   "suitNature": "290 Real Property: Other",
+   "cause": "28:1332 Diversity-Declaratory Judgement",
+   "slug": "norfolk-southern-railway-company-v-peco-energy-company-paed-2-26-cv-08680",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Dutch Plaza Properties, LTD. v. Poggenpohl U.S., INC.",
    "court": "District Court, S.D. Texas",

@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-11-13T02:53:14+00:00",
+ "updatedAt": "2026-11-13T18:45:35+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-012186",
+   "caseType": "Commercial foreclosure",
+   "dateFiled": "2026-11-12",
+   "caseName": "US BANK TRUST COMPANY NATIONAL v. ATB PROPERTIES LLC et al.",
+   "plaintiffs": [
+    "US BANK TRUST COMPANY NATIONAL"
+   ],
+   "defendants": [
+    "ATB PROPERTIES LLC",
+    "GOOD LEAP LLC",
+    "CITY OF TAMPA FLORIDA",
+    "AMERICAN EXPRESS NATIONAL BANK"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-12",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261112.csv",
+   "slug": "us-bank-trust-company-national-v-atb-properties-llc-et-al-fl-hillsborough-26-ca-012186"
+  },
   {
    "source": "harris_jp_tx",
    "state": "TX",
