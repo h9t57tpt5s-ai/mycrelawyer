@@ -13931,7 +13931,7 @@ const RELAW_DATA = {
       title: "Atwood v. Lamar Obie Co., LLC (Portland Wall-Sign Lease, Good Faith and Fair Dealing)",
       brief: "Oregon's Court of Appeals affirmed a $1,237,191.92 verdict against billboard company Lamar Obie Co. for breaching the implied duty of good faith by keeping an ODOT advertising permit from the Portland building owner who leased it the wall.",
       category: "lease-disputes",
-      status: "appeal",
+      status: "ruling",
       date: "2026-11-12",
       jurisdiction: "Court of Appeals of the State of Oregon",
       state: "OR",
@@ -13996,7 +13996,7 @@ const RELAW_DATA = {
         { name: "KDJ Properties, LLC", role: "Defendant" },
         { name: "Washington Properties, LLC", role: "Defendant" }
       ],
-      judge: null,
+      judge: "Shon Hastings",
       amountUsd: 7860000,
       amountBasis: "claim",
       timeline: [

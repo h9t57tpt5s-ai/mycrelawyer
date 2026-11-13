@@ -3,6 +3,16 @@
  "startedOn": "2026-09-12",
  "entries": [
   {
+   "date": "2026-11-13",
+   "scope": "live-396",
+   "caseId": "live-396",
+   "subject": "Atwood v. Lamar Obie Co., LLC (Portland Wall-Sign Lease, ODOT Permit Dispute)",
+   "kind": "Corrected: label",
+   "was": "status: \"appeal\" (On Appeal)",
+   "now": "status: \"ruling\" (Ruling Issued)",
+   "basis": "The November 12, 2026 Oregon Court of Appeals opinion is a decided affirmance of the trial judgment, not a pending appeal; the site's own convention for a decided appellate opinion is \"ruling\", matching other affirmed-on-appeal matters already on the tracker."
+  },
+  {
    "date": "2026-11-11",
    "scope": "site",
    "caseId": null,
