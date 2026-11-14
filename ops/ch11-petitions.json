@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-11-13T18:44:37+00:00",
+ "updatedAt": "2026-11-14T02:40:06+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "High End Development, Inc.",
+   "court": "United States Bankruptcy Court, E.D. California",
+   "courtId": "caeb",
+   "docketNumber": "26-26787",
+   "dateFiled": "2026-11-13",
+   "docketUrl": "https://www.courtlistener.com/docket/75119105/high-end-development-inc/",
+   "docketId": 75119105,
+   "slug": "high-end-development-inc-caeb-26-26787",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Christopher Wright Development, LLC",
+   "court": "United States Bankruptcy Court, W.D. Washington",
+   "courtId": "wawb",
+   "docketNumber": "26-13630",
+   "dateFiled": "2026-11-13",
+   "docketUrl": "https://www.courtlistener.com/docket/75118322/christopher-wright-development-llc/",
+   "docketId": 75118322,
+   "slug": "christopher-wright-development-llc-wawb-26-13630",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "Geise Properties 5, LLC",
    "court": "United States Bankruptcy Court, D. Nebraska",
