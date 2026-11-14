@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T18:34:23Z",
+  "generated": "2026-11-14T17:12:04Z",
   "about": "Commercial real estate credit indicators from the Federal Reserve (via FRED) and FDIC Call Report data. Values are the sources' own figures; FDIC aggregates and bank ratios are sums and ratios of FDIC-reported fields. Built by scripts/pull_market_pulse.py.",
   "indicators": [
     {
@@ -130,26 +130,26 @@
       "id": "fred-creacbw027sbog",
       "seriesId": "CREACBW027SBOG",
       "label": "Commercial real estate loans held by U.S. commercial banks",
-      "value": 3154.7199,
+      "value": 3157.6162,
       "unit": "billions of USD",
       "frequency": "weekly",
-      "asOf": "2026-10-28",
+      "asOf": "2026-11-04",
       "comparisons": [
         {
           "label": "previous week",
-          "date": "2026-10-21",
-          "value": 3150.9141,
-          "change": 3.8058,
+          "date": "2026-10-28",
+          "value": 3154.6738,
+          "change": 2.9424,
           "changeUnit": "billions of USD",
-          "changePct": 0.12
+          "changePct": 0.09
         },
         {
           "label": "1 year earlier",
-          "date": "2025-10-29",
-          "value": 3040.6114,
-          "change": 114.1085,
+          "date": "2025-11-05",
+          "value": 3041.7196,
+          "change": 115.8966,
           "changeUnit": "billions of USD",
-          "changePct": 3.75
+          "changePct": 3.81
         }
       ],
       "source": "Federal Reserve Board, H.8 Assets and Liabilities of Commercial Banks in the United States (seasonally adjusted), via FRED (Federal Reserve Bank of St. Louis)",
@@ -159,26 +159,26 @@
       "id": "fred-cldacbw027sbog",
       "seriesId": "CLDACBW027SBOG",
       "label": "Construction and land development loans held by U.S. commercial banks",
-      "value": 459.5622,
+      "value": 462.614,
       "unit": "billions of USD",
       "frequency": "weekly",
-      "asOf": "2026-10-28",
+      "asOf": "2026-11-04",
       "comparisons": [
         {
           "label": "previous week",
-          "date": "2026-10-21",
-          "value": 459.0552,
-          "change": 0.507,
+          "date": "2026-10-28",
+          "value": 459.5542,
+          "change": 3.0598,
           "changeUnit": "billions of USD",
-          "changePct": 0.11
+          "changePct": 0.67
         },
         {
           "label": "1 year earlier",
-          "date": "2025-10-29",
-          "value": 457.4795,
-          "change": 2.0827,
+          "date": "2025-11-05",
+          "value": 457.5292,
+          "change": 5.0848,
           "changeUnit": "billions of USD",
-          "changePct": 0.46
+          "changePct": 1.11
         }
       ],
       "source": "Federal Reserve Board, H.8 Assets and Liabilities of Commercial Banks in the United States (seasonally adjusted), via FRED (Federal Reserve Bank of St. Louis)",
@@ -188,26 +188,26 @@
       "id": "fred-smpacbw027sbog",
       "seriesId": "SMPACBW027SBOG",
       "label": "Loans secured by multifamily properties held by U.S. commercial banks",
-      "value": 645.6332,
+      "value": 647.9379,
       "unit": "billions of USD",
       "frequency": "weekly",
-      "asOf": "2026-10-28",
+      "asOf": "2026-11-04",
       "comparisons": [
         {
           "label": "previous week",
-          "date": "2026-10-21",
-          "value": 643.4806,
-          "change": 2.1526,
+          "date": "2026-10-28",
+          "value": 645.4051,
+          "change": 2.5328,
           "changeUnit": "billions of USD",
-          "changePct": 0.33
+          "changePct": 0.39
         },
         {
           "label": "1 year earlier",
-          "date": "2025-10-29",
-          "value": 617.1066,
-          "change": 28.5266,
+          "date": "2025-11-05",
+          "value": 618.4553,
+          "change": 29.4826,
           "changeUnit": "billions of USD",
-          "changePct": 4.62
+          "changePct": 4.77
         }
       ],
       "source": "Federal Reserve Board, H.8 Assets and Liabilities of Commercial Banks in the United States (seasonally adjusted), via FRED (Federal Reserve Bank of St. Louis)",
@@ -217,26 +217,26 @@
       "id": "fred-snfacbw027sbog",
       "seriesId": "SNFACBW027SBOG",
       "label": "Loans secured by nonfarm nonresidential properties held by U.S. commercial banks",
-      "value": 1925.5186,
+      "value": 1923.0153,
       "unit": "billions of USD",
       "frequency": "weekly",
-      "asOf": "2026-10-28",
+      "asOf": "2026-11-04",
       "comparisons": [
         {
           "label": "previous week",
-          "date": "2026-10-21",
-          "value": 1924.4408,
-          "change": 1.0778,
+          "date": "2026-10-28",
+          "value": 1925.6735,
+          "change": -2.6582,
           "changeUnit": "billions of USD",
-          "changePct": 0.06
+          "changePct": -0.14
         },
         {
           "label": "1 year earlier",
-          "date": "2025-10-29",
-          "value": 1847.6489,
-          "change": 77.8697,
+          "date": "2025-11-05",
+          "value": 1847.0452,
+          "change": 75.9701,
           "changeUnit": "billions of USD",
-          "changePct": 4.21
+          "changePct": 4.11
         }
       ],
       "source": "Federal Reserve Board, H.8 Assets and Liabilities of Commercial Banks in the United States (seasonally adjusted), via FRED (Federal Reserve Bank of St. Louis)",
@@ -339,30 +339,30 @@
       "id": "fred-dgs10",
       "seriesId": "DGS10",
       "label": "10-year U.S. Treasury yield (constant maturity)",
-      "value": 4.98,
+      "value": 5.1,
       "unit": "percent",
       "frequency": "daily",
-      "asOf": "2026-11-10",
+      "asOf": "2026-11-12",
       "comparisons": [
         {
           "label": "previous observation",
-          "date": "2026-11-09",
-          "value": 4.88,
-          "change": 0.1,
+          "date": "2026-11-10",
+          "value": 4.98,
+          "change": 0.12,
           "changeUnit": "percentage points"
         },
         {
           "label": "1 week earlier",
-          "date": "2026-11-03",
-          "value": 4.95,
-          "change": 0.03,
+          "date": "2026-11-05",
+          "value": 4.84,
+          "change": 0.26,
           "changeUnit": "percentage points"
         },
         {
           "label": "1 year earlier",
-          "date": "2025-11-10",
-          "value": 4.13,
-          "change": 0.85,
+          "date": "2025-11-12",
+          "value": 4.08,
+          "change": 1.02,
           "changeUnit": "percentage points"
         }
       ],
