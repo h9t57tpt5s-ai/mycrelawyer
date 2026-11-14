@@ -2166,7 +2166,7 @@
     },
     "0002071778-26-000058:frmi-20260930.htm": {
       "at": "2026-11-13",
-      "action": "skipped: Fermi Inc./Bayonne Plant Holding dispute is an equipment purchase-and-removal contract fight, not a commercial real estate matter on its face; other disclosed matter (Class B Unit Reclamation/Peña and Summers) is an equity/employment dispute with individual parties, not CRE"
+      "action": "skipped: Fermi Inc./Bayonne Plant Holding dispute is an equipment purchase-and-removal contract fight, not a commercial real estate matter on its face; other disclosed matter (Class B Unit Reclamation/Pe\u00f1a and Summers) is an equity/employment dispute with individual parties, not CRE"
     },
     "opinion:11060461": {
       "at": "2026-11-13",
@@ -2327,6 +2327,18 @@
     "0001692951-26-000211:woodnote_mergerxagreementx.htm": {
       "at": "2026-11-14",
       "action": "skipped: Cottonwood Communities 10-Q exhibit (Woodnote merger agreement) -- same boilerplate solvency representation as the companion Corcoran merger agreement exhibit, not an actual litigation disclosure"
+    },
+    "opinion:11061735": {
+      "at": "2026-11-14",
+      "action": "matter live-399"
+    },
+    "https://www.courtlistener.com/docket/75113915/tomorrow-real-estate-llc-v-landair-transport-inc/": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the filing (Tomorrow Real Estate, LLC v. Landair Transport, Inc., W.D. Pa.)"
+    },
+    "https://www.courtlistener.com/docket/75110853/norfolk-southern-railway-company-v-peco-energy-company/": {
+      "at": "2026-11-14",
+      "action": "skipped: not a commercial real estate ownership/development dispute on its face -- a railroad vs. utility easement/declaratory-judgment suit, backdrop appears to be a PA PUC fight over PECO transmission lines interfering with NS rail-crossing signals (puc.pa.gov dockets), no coverage of the federal filing itself"
     }
   }
 }

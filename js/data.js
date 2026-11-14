@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-13",
+  lastUpdatedDate: "2026-11-14",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -14040,6 +14040,46 @@ const RELAW_DATA = {
         "For commercial real estate owners, lenders and fund sponsors, the dispute is a pointed illustration of how a structure built to let a sophisticated institutional investor retain ultimate control over major asset-level decisions can become the basis for that same investor to disclaim responsibility once a market turns, and how a dispute of this size can draw regulatory and even criminal scrutiny into business courtesies that might otherwise go unexamined. Anyone structuring a discretionary mandate or joint venture for cross-border US property investment should document, contemporaneously, exactly which party controls which categories of decisions, and should treat gift, travel and entertainment compliance with the same rigor as the investment decisions it surrounds."
       ],
       tags: ["reit-securities", "pension-fund", "joint-venture", "delaware", "cross-border"]
+    },
+    {
+      id: "live-399",
+      addedDate: "2026-11-14",
+      title: "Audrey Lynn Arcelli and Ms. Audrey's Crafting Emporium, LLC v. Ghasem Properties, Inc. (Kentucky Appeals Court Upholds Retail Tenant's Default Liability, Vacates Interest and Future-Rent Award)",
+      brief: "Kentucky's Court of Appeals affirmed landlord Ghasem Properties' $131,855.91 default judgment against a retail tenant and its guarantor, but vacated the 8% prejudgment interest and post-judgment future-rent components and remanded for recalculation.",
+      seoTitle: "Ghasem Properties v. Arcelli: Ky. Lease Default Ruling",
+      seoDescription: "Kentucky's Court of Appeals affirms a landlord's win over a defaulting retail tenant and guarantor but vacates part of its $131,855.91 damages award.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-13",
+      jurisdiction: "Court of Appeals of Kentucky",
+      state: "KY",
+      amount: "$131,855.91 judgment; guaranty capped at $155,124.60",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11061735/audrey-lynn-arcelli-v-ghasem-properties-inc/",
+      documentUrl: "https://storage.courtlistener.com/pdf/2026/11/13/audrey_lynn_arcelli_v._ghasem_properties_inc..pdf",
+      documentLabel: "Read the official opinion",
+      summary: "The Court of Appeals of Kentucky affirmed a Jefferson Circuit Court summary judgment holding tenant Ms. Audrey's Crafting Emporium, LLC and guarantor Audrey Lynn Arcelli liable to landlord Ghasem Properties, Inc. for defaulting on a 62-month commercial retail lease after the tenant stopped paying rent in January 2024 and vacated the space. But the appeals court vacated the portion of the judgment awarding 8% prejudgment interest and future rent accruing after the September 2024 judgment, remanding those two components for further proceedings.",
+      significance: "The ruling shows that a tenant's failure to respond to a well-supported summary judgment motion, and a guarantor's broad personal guaranty, can lock in liability on appeal even when objections are raised later in a post-judgment motion. But it also shows an appellate court will scrutinize whether the lease itself actually supports specific damages components like a stated prejudgment interest rate or future-rent acceleration, rather than accepting a landlord's own calculation at face value.",
+      body: [
+        "The case began in February 2023, when Ms. Audrey's Crafting Emporium, LLC signed a 62-month commercial lease with Ghasem Properties, Inc. for retail space, with combined rent and common-area-maintenance payments of $2,585.41 a month starting in the lease's third month. The same day, Audrey Arcelli personally guaranteed the lease up to $155,124.60. The arrangement held until January 2024, when, according to Ghasem Properties' complaint, the tenant stopped paying rent. The landlord said it mailed a default notice on January 6, 2024, warning that the lease would terminate in seven days absent payment, and that the tenant never cured. Ghasem Properties pursued a forcible-detainer action in Jefferson District Court, but that case was dismissed in April 2024 after the tenant had already vacated the space.",
+        "Ghasem Properties then sued in Jefferson Circuit Court, seeking the rent it said it was owed, lost future lease payments, advertising costs to re-let the space, accruing late fees, 8% prejudgment interest, post-judgment interest, and attorney fees. The tenant and Arcelli admitted in their answer that they had signed the lease, defaulted, and stopped paying rent, but disputed the damages claimed. When Ghasem Properties moved for summary judgment, supported by an affidavit from its president, Reza Ghasem, laying out the default and a principal damages figure of $131,855.91 representing rent through the remainder of the lease term, the tenant and Arcelli did not respond.",
+        "The circuit court granted summary judgment on September 30, 2024, entering judgment for $131,855.91 plus 8% prejudgment interest from January 1, 2024, 6% post-judgment interest, and attorney fees and costs, later supplemented by an $8,299.30 fee and cost award. Only after judgment did the tenant and Arcelli move to vacate under Kentucky's Rule 59.05, arguing for the first time that nothing in the lease entitled Ghasem Properties to future rent as liquidated damages or to 8% prejudgment interest. The circuit court denied that motion, finding the arguments should have been raised before judgment, not after.",
+        "On appeal, the Court of Appeals largely sided with the circuit court on liability: because the tenant and Arcelli never responded to the summary judgment motion, and the motion was supported by a sworn affidavit along with the underlying lease and guaranty documents, the panel found no basis to disturb the finding that they breached the lease and were liable under the guaranty. But the court agreed that the specific contractual basis for two components of the damages award — the 8% prejudgment interest rate and future rent accruing after the September 2024 judgment date — had not been established on the record Ghasem Properties submitted, and vacated those portions, remanding for further proceedings on what the lease actually supports.",
+        "For commercial landlords and tenants, the case cuts two ways. A tenant who fails to timely contest a well-supported summary judgment motion, including a guarantor relying on a broad personal guaranty, will have a hard time undoing that liability finding later by raising belated objections in a post-judgment motion, and a guaranty capped at a stated dollar amount remains enforceable even where the underlying damages calculation is later revised. But the ruling also means landlords seeking prejudgment interest or future-rent acceleration for a lease default should be prepared to show the lease itself, not just an affidavit, actually supports the specific rate and remedy claimed, particularly absent an express liquidated-damages or acceleration clause — and that every damages argument, including challenges to a landlord's interest and acceleration theories, is best raised before judgment is entered rather than saved for a motion to vacate."
+      ],
+      judge: "Lisa Payne Jones",
+      parties: [
+        { name: "Ms. Audrey's Crafting Emporium, LLC", role: "Tenant/Appellant" },
+        { name: "Ghasem Properties, Inc.", role: "Landlord/Appellee" }
+      ],
+      amountUsd: 131855.91,
+      amountBasis: "judgment",
+      tags: ["commercial-lease", "guaranty", "retail", "kentucky", "lease-default"],
+      timeline: [
+        { when: "February 8, 2023", label: "Ms. Audrey's Crafting Emporium signs a 62-month commercial lease with Ghasem Properties for retail space; Audrey Arcelli guarantees the lease up to $155,124.60" },
+        { when: "September 30, 2024", label: "Jefferson Circuit Court grants Ghasem Properties summary judgment for $131,855.91 plus 8% prejudgment interest and future rent" },
+        { when: "November 13, 2026", label: "Kentucky Court of Appeals affirms the landlord's win on liability but vacates the prejudgment-interest and future-rent portions and remands", current: true }
+      ]
     }
   ],
 
