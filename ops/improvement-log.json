@@ -1817,6 +1817,30 @@
       "checkAfter": "2026-11-21",
       "status": "watching",
       "note": "HTML tag balance checked clean (Python HTMLParser, void-element-aware). site_audit.py (brokenLinks/orphanPages/missingFromSitemap all still 0, pagesChecked 891 unchanged) and check_case_fields.py both re-run clean. No .ts/.js touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing. Single-line, single-file change (2 lines in the diff). Treat the read as weak given calculatorViews7's own current unreliability (noted in imp-059's verdict above) -- if it doesn't move, that's consistent with the metric's noise, not necessarily evidence the link itself didn't help; watch whether calculatorViews7 recovers toward its pre-bot-flush 7-8/week range over the next two weeks regardless of this specific change."
+    },
+    {
+      "id": "imp-074",
+      "date": "2026-11-14",
+      "track": "traffic",
+      "title": "New state/category deep-dive page: California \u2013 Commercial Lease Disputes",
+      "why": "Second run today. Step 2: nothing due for judgment (earliest open checkAfter is imp-062's 2026-11-15; confirmed against ops/improvement-log.json directly). Audit clean (pagesChecked 891; missingDescription 3, same already-explained set). Step 3: goal_scoreboard.py mostBehind was calculator/conversion/traffic/news. Checked \"last 2 runs\" before following mostBehind order: the last 2 log entries were imp-072 (conversion, 2026-11-13 second run) and imp-073 (calculator, this morning, 2026-11-14) -- both calculator and conversion were already worked in the last 2 runs, and no goal had gone 7 days without a tracked change (traffic last changed 2026-11-11/imp-068, 3 days ago; news 2026-11-10/imp-065, 4 days ago), so traffic -- next in mostBehind order and not touched in the last 2 runs -- took this run. Picked up G12's own \"recount before building the next one\" instruction: recounted every state+category combo in js/data.js via a small Node script (342 matters, up from 333 on 2026-11-11, since 9 new matters were added 2026-11-12/13). CA|lease-disputes, FL|zoning-land-use and PA|zoning-land-use are now tied-largest remaining uncovered combos at 6 matters each (confirmed none of the three already has a page, checked against state-guides.html's GUIDES array/static list and the filesystem). Picked CA|lease-disputes: California already has two of the three other deep-dive pages (lending-foreclosure, zoning-land-use), and its 6 matters include a .2M Oakland office-lease ruling and a widely-recognizable San Francisco warehouse holdover suit (Physical Intelligence/Anthropic), both already-published write-ups -- no new facts introduced.",
+      "files": [
+        "california-lease-disputes.html",
+        "state-guides.html",
+        "sitemap.xml",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "a3077cf",
+      "metric": "goals.json traffic.metrics.visits7, googleLandings7",
+      "window": "7 days",
+      "baseline": {
+        "visits7": 395,
+        "googleLandings7": 175
+      },
+      "checkAfter": "2026-11-21",
+      "status": "watching",
+      "note": "Built california-lease-disputes.html from new-york-lease-disputes.html's exact template (same category, state/count/examples swapped), including the body-level Case Value Calculator link from the start (imp-059's pattern), so the new page doesn't reintroduce that gap. Added it to state-guides.html's GUIDES array *and* its separate static A-Z link list -- editing only the array leaves the page orphaned to site_audit.py/non-JS crawlers, per imp-053's prior finding -- and to sitemap.xml by hand. HTML tag balance clean on both touched/created .html files (void-element-aware Python HTMLParser check). site_audit.py confirms orphanPages/missingFromSitemap/brokenLinks all still 0 (pagesChecked 891 -> 892, no count regressed); check_case_fields.py clean. No .ts/.js touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule that file isn't this routine's to commit. This window is past G19's 2026-11-04 bot-fix cutover, so it should read cleanly with no contact.html contamination caveat, the same clean-read precedent imp-068 established for the prior MA page. Recount at 342 matters leaves FL|zoning-land-use and PA|zoning-land-use (6 each) as the next-largest uncovered combos for a future traffic-track run -- recount again first, since new matters keep shifting the ranking."
     }
   ]
 }
