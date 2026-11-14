@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-11-14T02:40:52+00:00",
+ "updatedAt": "2026-11-14T17:20:11+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CA-012252",
+   "caseType": "Construction defect",
+   "dateFiled": "2026-11-13",
+   "caseName": "Ayalas Construction Group LLC v. BARAHONA RENOVATIONS INC et al.",
+   "plaintiffs": [
+    "Ayalas Construction Group LLC"
+   ],
+   "defendants": [
+    "BARAHONA RENOVATIONS INC",
+    "NANDEZ STUCCO SERVICES LLC",
+    "GOYOS CONSTRUCTION SERVICES INC",
+    "SOLUTIONS CONTRACTOR INC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-13",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261113.csv",
+   "slug": "ayalas-construction-group-llc-v-barahona-renovations-inc-et-al-fl-hillsborough-26-ca-012252"
+  },
   {
    "source": "hillsborough_fl",
    "state": "FL",
