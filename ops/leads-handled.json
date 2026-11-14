@@ -2307,6 +2307,26 @@
     "centaur-properties-llc-v-united-states-fire-insurance-co-nysd-1-26-cv-09900": {
       "at": "2026-11-14",
       "action": "skipped: no coverage found explaining the dispute"
+    },
+    "0001628280-26-073900:nycr-20260930.htm": {
+      "at": "2026-11-14",
+      "action": "skipped: American Strategic Investment Co. (NYC REIT) 10-Q re-discloses its 200 Riverside/Laurel condo (Rialto Capital) foreclosure and receivership dispute with the condo board over rent priority; events (Jan 2026 foreclosure action, June 2026 settlement/receiver stipulation) are 5+ months old with no fresh development this filing -- SEC quarterly re-disclosure, not new news; informal name: American Strategic Investment / 200 Riverside Blvd Laurel condo foreclosure-receivership dispute"
+    },
+    "0001140361-26-043805:ef20083622_10q.htm": {
+      "at": "2026-11-14",
+      "action": "skipped: Woodbridge Liquidation Trust 10-Q re-discloses a 2024-filed construction-defect suit (Development Entity v. 13 parties) and an insurer coverage suit; no new development this filing (case management order entered Sept 30, 2026 is procedural only); informal name: Woodbridge Liquidation Trust / single-family development construction-defect litigation"
+    },
+    "0001193125-26-460796:nxdt-20260930.htm": {
+      "at": "2026-11-14",
+      "action": "skipped: NexPoint Diversified Real Estate Trust 10-Q excerpt concerns the Highland Capital bankruptcy trust lawsuit and UBS's suit to collect a $1.3B judgment against James Dondero individually, not against NXDT or its real estate assets -- not a commercial real estate dispute on its face, and the named defendant is an individual"
+    },
+    "0001692951-26-000211:corcoran_mergerxagreementx.htm": {
+      "at": "2026-11-14",
+      "action": "skipped: Cottonwood Communities 10-Q exhibit (Corcoran merger agreement) -- boilerplate solvency representation (no bankruptcy/receivership/litigation), not an actual litigation disclosure"
+    },
+    "0001692951-26-000211:woodnote_mergerxagreementx.htm": {
+      "at": "2026-11-14",
+      "action": "skipped: Cottonwood Communities 10-Q exhibit (Woodnote merger agreement) -- same boilerplate solvency representation as the companion Corcoran merger agreement exhibit, not an actual litigation disclosure"
     }
   }
 }
