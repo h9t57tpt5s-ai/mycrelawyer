@@ -2166,7 +2166,7 @@
     },
     "0002071778-26-000058:frmi-20260930.htm": {
       "at": "2026-11-13",
-      "action": "skipped: Fermi Inc./Bayonne Plant Holding dispute is an equipment purchase-and-removal contract fight, not a commercial real estate matter on its face; other disclosed matter (Class B Unit Reclamation/Pe\u00f1a and Summers) is an equity/employment dispute with individual parties, not CRE"
+      "action": "skipped: Fermi Inc./Bayonne Plant Holding dispute is an equipment purchase-and-removal contract fight, not a commercial real estate matter on its face; other disclosed matter (Class B Unit Reclamation/Peña and Summers) is an equity/employment dispute with individual parties, not CRE"
     },
     "opinion:11060461": {
       "at": "2026-11-13",
@@ -2219,6 +2219,94 @@
     "https://www.globenewswire.com/news-release/2026/11/13/3402891/0/en/deadline-alert-for-o-i-glass-inc-oi-and-lululemon-athletica-inc-lulu-the-law-offices-of-frank-r-cruz-reminds-investors-of-lead-plaintiff-deadlines-in-securities-fraud-class-actions.html": {
       "at": "2026-11-13",
       "action": "skipped: O.I. Glass / Lululemon deadline reminder, not commercial real estate"
+    },
+    "opinion:11061435": {
+      "at": "2026-11-14",
+      "action": "skipped: residential mortgage foreclosure appeal (caseName pattern: matchedTerms exactly foreclos+mortgage, individual defendant/trust, no business-entity suffix), not read in full"
+    },
+    "opinion:11061405": {
+      "at": "2026-11-14",
+      "action": "skipped: residential summary eviction proceeding (tenant income-recertification dispute under a subsidized lease), not commercial real estate"
+    },
+    "opinion:11061265": {
+      "at": "2026-11-14",
+      "action": "skipped: individuals v. West Virginia Dept. of Commerce officials over economic-development program administration; not a commercial real estate dispute on its face despite hotel/zoning/developer term matches"
+    },
+    "opinion:11061160": {
+      "at": "2026-11-14",
+      "action": "skipped: premises liability slip-and-fall claim against a town and its police department in a public parking lot; not commercial real estate"
+    },
+    "opinion:11061091": {
+      "at": "2026-11-14",
+      "action": "skipped: residential tenant mold/habitability suit against apartment landlord entities, pro se plaintiff; not commercial real estate"
+    },
+    "opinion:11061085": {
+      "at": "2026-11-14",
+      "action": "skipped: not commercial real estate (Dr. Jeff Isaacs v. Google LLC)"
+    },
+    "opinion:11061043": {
+      "at": "2026-11-14",
+      "action": "skipped: not commercial real estate (Jackson v. Ventavia Research Group, a clinical research company)"
+    },
+    "opinion:11060558": {
+      "at": "2026-11-14",
+      "action": "skipped: residential mortgage foreclosure appeal (caseName pattern: matchedTerms exactly foreclos+mortgage, individual defendant, no business-entity suffix), not read in full"
+    },
+    "opinion:11061422": {
+      "at": "2026-11-14",
+      "action": "skipped: residential unpaid-rent dispute over leased residential premises in Hicksville, NY; not commercial real estate"
+    },
+    "opinion:11061374": {
+      "at": "2026-11-14",
+      "action": "skipped: residential mortgage foreclosure (Arora/Vitjathorn, individual defendants); not commercial real estate"
+    },
+    "opinion:11061363": {
+      "at": "2026-11-14",
+      "action": "skipped: residential mortgage foreclosure appeal (caseName pattern: matchedTerms exactly foreclos+mortgage, individual defendant, no business-entity suffix), not read in full"
+    },
+    "opinion:11060477": {
+      "at": "2026-11-14",
+      "action": "skipped: stormwater runoff dispute among individual homeowners in a residential subdivision (Crown Pointe); not commercial real estate"
+    },
+    "petition:https://www.courtlistener.com/docket/75119105/high-end-development-inc/": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the filing (High End Development, Inc., E.D. California)"
+    },
+    "petition:https://www.courtlistener.com/docket/75118322/christopher-wright-development-llc/": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the filing (Christopher Wright Development, LLC, W.D. Washington)"
+    },
+    "tomorrow-real-estate-llc-v-landair-transport-inc-pawd-2-26-cv-02443": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the dispute"
+    },
+    "norfolk-southern-railway-company-v-peco-energy-company-paed-2-26-cv-08680": {
+      "at": "2026-11-14",
+      "action": "skipped: not commercial real estate on its face (railway vs. utility real-property/easement dispute between non-CRE businesses)"
+    },
+    "dutch-plaza-properties-ltd-v-poggenpohl-u-s-inc-txsd-4-26-cv-09916": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the dispute"
+    },
+    "turtle-hughes-inc-v-halo-development-llc-njd-2-26-cv-14602": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the dispute (distinct from the separately-reported Parkview Financial/Acier Holdings Halo Newark lender dispute, which is unrelated and not yet in js/data.js either)"
+    },
+    "endeavor-real-estate-group-ltd-v-endeavor-group-real-estate-llc-txnd-4-26-cv-01449": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the dispute (likely a name/trademark conflict between two unrelated real estate companies)"
+    },
+    "chisholm-properties-south-beach-inc-individually-and-as-assignee-of-he-flsd-1-26-cv-28014": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found for this 2026 filing; only older (2021) Chisholm Properties v. Arch Specialty Insurance coverage dispute found, a different case"
+    },
+    "chisholm-properties-south-beach-inc-v-evanston-insurance-company-flsd-1-26-cv-28014": {
+      "at": "2026-11-14",
+      "action": "skipped: same underlying docket number as the companion Chisholm Properties/Evanston Insurance entry above; no coverage found"
+    },
+    "centaur-properties-llc-v-united-states-fire-insurance-co-nysd-1-26-cv-09900": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the dispute"
     }
   }
 }
