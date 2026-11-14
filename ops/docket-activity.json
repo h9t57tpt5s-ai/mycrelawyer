@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-13T17:18:12+00:00",
+ "updatedAt": "2026-11-14T15:54:59+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 20,
+ "requestsUsed": 21,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -86,6 +86,13 @@
   "66730007": {
    "entries": [
     {
+     "date": "2026-11-13",
+     "number": 123,
+     "text": "Response in Support of Motion",
+     "url": "https://www.courtlistener.com/docket/66730007/123/wells-fargo-bank-national-association-as-trusteefor-the-benefit-of/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-06",
      "number": 122,
      "text": "Response in Opposition to Motion",
@@ -114,10 +121,45 @@
    "docketNumber": "2:23-cv-00146",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/66730007/wells-fargo-bank-national-association-as-trusteefor-the-benefit-of/",
-   "lastEntryDate": "2026-11-06"
+   "lastEntryDate": "2026-11-13"
   },
   "67174489": {
    "entries": [
+    {
+     "date": "2026-11-13",
+     "number": 1660,
+     "text": "Leave to File Document under Seal",
+     "url": "https://www.courtlistener.com/docket/67174489/1660/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-13",
+     "number": 1655,
+     "text": "Leave to File Document under Seal",
+     "url": "https://www.courtlistener.com/docket/67174489/1655/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-13",
+     "number": 1650,
+     "text": "Miscellaneous Relief",
+     "url": "https://www.courtlistener.com/docket/67174489/1650/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-13",
+     "number": 1648,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/67174489/1648/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-13",
+     "number": 1647,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/67174489/1647/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
     {
      "date": "2026-11-12",
      "number": 1646,
@@ -138,41 +180,6 @@
      "text": "Order",
      "url": "https://www.courtlistener.com/docket/67174489/1642/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-10",
-     "number": 1641,
-     "text": "Miscellaneous Relief",
-     "url": "https://www.courtlistener.com/docket/67174489/1641/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-10",
-     "number": 1640,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/67174489/1640/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-09",
-     "number": 1639,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/67174489/1639/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-02",
-     "number": null,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-28",
-     "number": 1634,
-     "text": "Order AND ~Util - Add and Terminate Attorneys AND ~Util - Terminate Motions",
-     "url": "https://www.courtlistener.com/docket/67174489/1634/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -182,7 +189,7 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-11-12"
+   "lastEntryDate": "2026-11-13"
   },
   "67356054": {
    "entries": [
@@ -794,6 +801,13 @@
   "73480976": {
    "entries": [
     {
+     "date": "2026-11-13",
+     "number": 76,
+     "text": "Order on Motion for Leave to File Excess Pages",
+     "url": "https://www.courtlistener.com/docket/73480976/76/fitfactaridc-llc-v-costar-group-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-30",
      "number": 75,
      "text": "File Excess Pages",
@@ -843,7 +857,7 @@
    "docketNumber": "1:26-cv-06997",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
-   "lastEntryDate": "2026-10-30"
+   "lastEntryDate": "2026-11-13"
   },
   "73568530": {
    "entries": [
@@ -1300,6 +1314,13 @@
   "74712343": {
    "entries": [
     {
+     "date": "2026-11-13",
+     "number": 24,
+     "text": "Response in Opposition to Motion",
+     "url": "https://www.courtlistener.com/docket/74712343/24/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-28",
      "number": 22,
      "text": "- Order (PAPERLESS or pdf attached)",
@@ -1347,13 +1368,6 @@
      "text": "Extension of Time to File Response/Reply/Answer",
      "url": "https://www.courtlistener.com/docket/74712343/16/the-alder-at-lake-park-llc-v-town-of-lake-park/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 14,
-     "text": "Extension of Time to File Response/Reply/Answer",
-     "url": "https://www.courtlistener.com/docket/74712343/14/the-alder-at-lake-park-llc-v-town-of-lake-park/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1363,7 +1377,7 @@
    "docketNumber": "9:26-cv-81070",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
-   "lastEntryDate": "2026-10-28"
+   "lastEntryDate": "2026-11-13"
   },
   "74850183": {
    "entries": [
