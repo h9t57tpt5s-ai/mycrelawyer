@@ -2339,6 +2339,38 @@
     "https://www.courtlistener.com/docket/75110853/norfolk-southern-railway-company-v-peco-energy-company/": {
       "at": "2026-11-14",
       "action": "skipped: not a commercial real estate ownership/development dispute on its face -- a railroad vs. utility easement/declaratory-judgment suit, backdrop appears to be a PA PUC fight over PECO transmission lines interfering with NS rail-crossing signals (puc.pa.gov dockets), no coverage of the federal filing itself"
+    },
+    "petition:https://www.courtlistener.com/docket/75119105/high-end-development-inc/": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the filing (E.D. Cal., no secondary reporting on this entity)"
+    },
+    "petition:https://www.courtlistener.com/docket/75118322/christopher-wright-development-llc/": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the filing (W.D. Wash., no secondary reporting)"
+    },
+    "petition:https://www.courtlistener.com/docket/75106140/geise-properties-5-llc/": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the filing (D. Neb., no secondary reporting; likely single-asset entity)"
+    },
+    "petition:https://www.courtlistener.com/docket/75103674/flavio-realty-corp/": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the filing (E.D.N.Y., no secondary reporting)"
+    },
+    "petition:https://www.courtlistener.com/docket/75103734/dino-realty-corp/": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the filing (E.D.N.Y., no secondary reporting)"
+    },
+    "petition:https://www.courtlistener.com/docket/75097612/293-a-cooper-corp/": {
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found; only hit is an unrelated earlier 293 A Cooper Corp case (1:25-bk-44490, dismissed Nov 2025), not this docket"
+    },
+    "opinion:11061719": {
+      "at": "2026-11-14",
+      "action": "skipped: individual landowner (Eugene McNabb) vs township and small excavating company over a sand/gravel pit filling dispute dating to 2008-2011; not a commercial real estate ownership/development matter on its face"
+    },
+    "opinion:11061108": {
+      "at": "2026-11-14",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"], defendant Benitez is an individual with no business-entity suffix"
     }
   }
 }
