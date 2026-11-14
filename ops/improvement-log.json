@@ -1450,8 +1450,15 @@
         "calculatorViews7": 8
       },
       "checkAfter": "2026-11-14",
-      "status": "watching",
-      "note": "HTML tag balance checked clean on all 16 files with a void-element-aware Python HTMLParser checker; site_audit.py (brokenLinks/orphanPages/missingFromSitemap all still 0, pagesChecked unchanged at 832) and check_case_fields.py both re-run clean after the change. No .ts/.js files touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule that file belongs to the metrics-snapshot workflow. 16 separate pages with the same one-line addition is a small, reviewable diff (22 insertions total) even though it touches many files. If calculatorViews7 doesn't move much by checkAfter, this backlog (G12/G2) is close to exhausted on the 'add another link' lever -- the next untried idea would need to be a real embedded example, which is blocked on G15's Jeff decision, or something outside page-level linking entirely."
+      "status": "no clear effect",
+      "note": "HTML tag balance checked clean on all 16 files with a void-element-aware Python HTMLParser checker; site_audit.py (brokenLinks/orphanPages/missingFromSitemap all still 0, pagesChecked unchanged at 832) and check_case_fields.py both re-run clean after the change. No .ts/.js files touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule that file belongs to the metrics-snapshot workflow. 16 separate pages with the same one-line addition is a small, reviewable diff (22 insertions total) even though it touches many files. If calculatorViews7 doesn't move much by checkAfter, this backlog (G12/G2) is close to exhausted on the 'add another link' lever -- the next untried idea would need to be a real embedded example, which is blocked on G15's Jeff decision, or something outside page-level linking entirely.",
+      "verdict": {
+        "date": "2026-11-14",
+        "value": {
+          "calculatorViews7": 2
+        },
+        "note": "calculatorViews7 fell 8 -> 2 (-75%), clearing the 25% threshold, and the day-by-day last1Day.toolViews['case-valuation'] series (ops/metrics/history/) confirms it is a real, sustained drop to ~0-1/day since 2026-11-08, not a single-day blip. But the 28-day trend does not confirm a decline: last28Days.toolViews['case-valuation'] stayed flat-to-slightly-up (20 on 2026-11-07, 21 today), so per the playbook's own rule (7-day move + 28-day trend must agree) this is 'no clear effect', not 'hurt'. Likely explanation, not proven: overall visits7 also collapsed over the same window (862 on 2026-11-07 down to ~335-395 now) as G19's bot-traffic fix (landed 2026-11-03) fully flushed out of the trailing 7-day window -- the clean, trustworthy googleLandings7 metric held flat/rose over the same period (160 -> 175), so real human traffic did not crater; some of the earlier 7-8/week calculatorViews7 readings in early November may themselves have been inflated by the same bot traffic that was hitting other pages, not a reflection of real visitor interest falling off after imp-059 shipped. Not reverted -- nothing about a one-line calculator link is clutter, and the metric itself is not currently reliable enough to judge against."
+      }
     },
     {
       "id": "imp-060",
@@ -1789,6 +1796,27 @@
       "checkAfter": "2026-11-20",
       "status": "watching",
       "note": "Flag for the next few runs: any rise in signUps7 before 2026-11-15 (imp-062's own checkAfter) could now include newly-counted radar sign-ups that were already happening, unmeasured, rather than imp-062's newsletter-copy change -- don't attribute a signUps7 move to imp-062 alone without checking whether radar_alert_signup-sourced rows explain it. Separately, this also means this fix's own 'did it help' verdict is not a clean read of a real UX change (nothing was added for a visitor to see or do) -- it is a measurement question: does signUps7 now register radar sign-ups that are happening anyway? Check the raw event count/detail breakdown if available, not just whether signUps7 moved by 25%."
+    },
+    {
+      "id": "imp-073",
+      "date": "2026-11-14",
+      "track": "calculator",
+      "title": "Linked the prediction registry (case-valuation-predictions.html) from case-valuation.html itself",
+      "why": "Step 2: judged imp-059 (checkAfter today) -- no clear effect, see its own verdict above; calculatorViews7's 7-day drop (8->2) isn't confirmed by the 28-day trend, and likely reflects G19's bot-traffic flush (overall visits7 fell from 862 to ~335-395 over the same window while the clean googleLandings7 metric rose) more than any real falloff. Step 3: goal_scoreboard.py's mostBehind was calculator/conversion/traffic/news. Checked 'one open experiment per goal' by metric: traffic (imp-068 open on visits7/googleLandings7 until 2026-11-18), conversion (imp-062 open on newsletterSignups7/signUps7 until 2026-11-15, imp-072 open on signUps7 until 2026-11-20; follows7 still G17-diagnosed as blocked on off-limits code), news (imp-063/imp-065 open on all three tracked metrics until 2026-11-23, already on track anyway), subscription (imp-071 open until 2026-11-20, and its last tracked change was only yesterday, short of the 7-day force rule) -- calculator genuinely unblocked once imp-059 closed above, and also first in mostBehind order. finalRangeHitRate stays Jeff-gated (G15, unchanged); G2's own note flagged that the 'add another inbound link to the calculator' lever may be exhausted after four rounds (imp-008/014/044/059), so looked for findability/clarity work on the calculator's own pages instead, per the playbook's explicit scope ('improve case-valuation.html and the methodology/backtest pages for clarity and findability'). Read case-valuation.html, case-valuation-methodology.html, case-valuation-worked-examples.html and case-valuation-calibration.html in full: methodology/worked-examples/calibration all three link to case-valuation-predictions.html (the real, dated-prediction registry -- confirmed live and populated, js/prediction-registry-data.js has 10 real logged predictions on pending matters, all still 'pending', committed before any outcome per that file's own documented process), but case-valuation.html itself -- the page every other calculator link on the site (matter pages, litigation.html, 16 state/category pages, bankruptcy-watch/lawsuit-watch, every record page) actually points to -- never linked it. Did not touch the sample card's pre-v4 probability text ('90-97% likelihood' etc.) or the worked examples, both still correctly flagged NEEDS JEFF under G15 and awaiting the v4.4-vs-v6 decision.",
+      "files": [
+        "case-valuation.html",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "424427a",
+      "metric": "goals.json calculator.metrics.calculatorViews7 (toolViews['case-valuation'])",
+      "window": "7 days",
+      "baseline": {
+        "calculatorViews7": 2
+      },
+      "checkAfter": "2026-11-21",
+      "status": "watching",
+      "note": "HTML tag balance checked clean (Python HTMLParser, void-element-aware). site_audit.py (brokenLinks/orphanPages/missingFromSitemap all still 0, pagesChecked 891 unchanged) and check_case_fields.py both re-run clean. No .ts/.js touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing. Single-line, single-file change (2 lines in the diff). Treat the read as weak given calculatorViews7's own current unreliability (noted in imp-059's verdict above) -- if it doesn't move, that's consistent with the metric's noise, not necessarily evidence the link itself didn't help; watch whether calculatorViews7 recovers toward its pre-bot-flush 7-8/week range over the next two weeks regardless of this specific change."
     }
   ]
 }
