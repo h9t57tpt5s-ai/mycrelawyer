@@ -1532,7 +1532,18 @@
         "signUps7": 0
       },
       "checkAfter": "2026-11-15",
-      "status": "watching"
+      "status": "no clear effect",
+      "note": "newsletterSignups7 (primary) moved 0 -> 1, clearing the 25% threshold on a single event, but last28Days.newsletterSignups only dipped 4 -> 3 -> 4 over the window (net unchanged from baseline), the same 'too small a sample' shape imp-013/imp-046 already called 'no clear effect' on this exact metric. signUps7 (secondary) moved 0 -> 3, with last28Days.signUps rising 4 -> 6, but this window overlaps imp-072 (2026-11-13): that change added a RELAW_TRACK('signup', {detail:'radar-alert'}) call for Distress Radar alerts, so sign-ups that already existed but were previously invisible to this metric started counting on the same day signUps7 jumped 1 -> 3 (ops/metrics/history/2026-11-12.json vs 2026-11-13.json). Can't separate a real newsletter-copy effect from that measurement-visibility change using this data. Not reverted -- the copy is accurate and not clutter, just inconclusive. Per this backlog item's own 2026-11-08 note, the next untried lever is a different kind of incentive, not another copy tweak -- see imp-075.",
+      "verdict": {
+        "date": "2026-11-15",
+        "value": {
+          "newsletterSignups7": 1,
+          "newsletterSignups28": 4,
+          "signUps7": 3,
+          "signUps28": 6
+        },
+        "note": "Neither metric clears the bar needed to call this 'helped': newsletterSignups7's move is a single low-volume event with no net 28-day change, and signUps7's move is confounded by imp-072's signup-tracking fix landing in the same window. No clear effect."
+      }
     },
     {
       "id": "imp-063",
@@ -1841,6 +1852,30 @@
       "checkAfter": "2026-11-21",
       "status": "watching",
       "note": "Built california-lease-disputes.html from new-york-lease-disputes.html's exact template (same category, state/count/examples swapped), including the body-level Case Value Calculator link from the start (imp-059's pattern), so the new page doesn't reintroduce that gap. Added it to state-guides.html's GUIDES array *and* its separate static A-Z link list -- editing only the array leaves the page orphaned to site_audit.py/non-JS crawlers, per imp-053's prior finding -- and to sitemap.xml by hand. HTML tag balance clean on both touched/created .html files (void-element-aware Python HTMLParser check). site_audit.py confirms orphanPages/missingFromSitemap/brokenLinks all still 0 (pagesChecked 891 -> 892, no count regressed); check_case_fields.py clean. No .ts/.js touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule that file isn't this routine's to commit. This window is past G19's 2026-11-04 bot-fix cutover, so it should read cleanly with no contact.html contamination caveat, the same clean-read precedent imp-068 established for the prior MA page. Recount at 342 matters leaves FL|zoning-land-use and PA|zoning-land-use (6 each) as the next-largest uncovered combos for a future traffic-track run -- recount again first, since new matters keep shifting the ranking."
+    },
+    {
+      "id": "imp-075",
+      "date": "2026-11-15",
+      "track": "conversion",
+      "title": "Newsletter sign-up boxes: link to a real sample issue, not another copy tweak",
+      "why": "Step 2: judged imp-062 (checkAfter today) as \"no clear effect\" -- see its verdict/note. Step 3: goal_scoreboard.py mostBehind was calculator/conversion/traffic/news; the last 2 log entries (imp-073 calculator, imp-074 traffic) had already worked the two goals ranked ahead of conversion the last time each was due, and this run's own \"last 2 runs\" are imp-074 (traffic) and imp-073 (calculator), so conversion -- next in mostBehind order, not worked in the last 2 runs -- took this run; no goal had gone 7 days without a tracked change (subscription/imp-071 was the oldest, only 2 days). Within conversion, follows7 is still blocked by G17 (auth.js, off-limits) and multiPageRate7 is already at target since imp-056. signUps7 has an open watcher (imp-072, Distress Radar signup-tracking fix, until 2026-11-20) and any change that touches a sign-up form anywhere on the site also increments the shared 'signup' track event that feeds signUps7, so a brand-new UI/copy change on the exact page imp-072 touched (distress-radar.html) would repeat the G13 same-page-multiple-changes mistake. newsletterSignups7 is NOT touched by imp-072 (confirmed from imp-072's own entry: it deliberately used detail 'radar-alert' so as not to inflate newsletterSignups7) and has no open watcher after today's imp-062 verdict, so it's the one genuinely free conversion lever this run. Backlog item 7's own 2026-11-08 note, after two rounds of real-weekly-count copy (imp-033/046/062) produced at most one extra signup a week, says the next untried lever is a different kind of incentive (a lead-magnet/sample), not another copy tweak. newsletter.html already embeds a real, live sample issue (email-preview.html, rebuilt from current data by scripts/preview_newsletter.ts) and index.html's own newsletter band already links to it ('See what's inside') -- but litigation.html (the single most-visited page on the site, 53 of 7-day visits per latest.json's topPages) and the matter-page/panel newsletter boxes never had that link, so most visitors who see a sign-up form never see proof of what they'd get before being asked for an email.",
+      "files": [
+        "litigation.html",
+        "scripts/build_matter_pages.ts",
+        "js/main.js"
+      ],
+      "commit": "4df77be",
+      "metric": "goals.json conversion.metrics.newsletterSignups7 (primary); signUps7 as secondary context only, given imp-072's open overlap",
+      "window": "7 days",
+      "baseline": {
+        "newsletterSignups7": 1,
+        "newsletterSignups28": 4,
+        "signUps7": 3,
+        "signUps28": 6
+      },
+      "checkAfter": "2026-11-22",
+      "status": "watching",
+      "note": "Added the same 'See what's inside' link (to newsletter.html, which embeds email-preview.html) already live on index.html to: litigation.html's newsletter band; scripts/build_matter_pages.ts's matter-page newsletter CTA box (the 232/343 matters with no docket; builder only, matters/*.html left for prerender.yml to regenerate, since deno isn't available this session); and js/main.js's end-of-write-up newsletter panel (the docket-having matters' gated full-article view). No copy about the newsletter's content changed, no count/claim added -- just a link to a page that already truthfully shows this week's real issue. Verified: node --check js/main.js clean; tsc --noEmit (Deno-shim, es2022/esnext/dom) on build_matter_pages.ts shows only pre-existing implicit-any noise unrelated to this edit (lines 162-171, far from the touched line 346), deno itself unavailable this session; HTML tag-balance check (Python HTMLParser, void-element-aware) clean on litigation.html; site_audit.py summary unchanged (missingDescription 3, same already-explained noindex set; brokenLinks/orphanPages/missingFromSitemap all 0 -- the new links point to the existing, already-linked newsletter.html, not a new page); check_case_fields.py clean. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing. Next time: if newsletterSignups7 still doesn't move past a single-digit weekly count, the preview link alone probably isn't the blocker either -- the remaining untried levers would be a genuinely different incentive (e.g. a downloadable one-page sample PDF, or featuring one real headline from the current issue inline instead of just a link) rather than a third variant of 'link to more proof.' Also: when judging imp-072 (checkAfter 2026-11-20), remember this change also started 2026-11-15 and touches the same shared signUps7 metric -- don't attribute a signUps7 move in that window to imp-072 alone."
     }
   ]
 }
