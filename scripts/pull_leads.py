@@ -53,11 +53,14 @@ COURT = re.compile(r"\b((?:United States )?(?:District|Bankruptcy|Superior|Circu
                    r"(?:\s+(?:of|for)(?:\s+the)?(?:\s+(?:[A-Z][\w.]*|of|and)){1,7})?|Court of Chancery(?:\s+of\s+the\s+State\s+of\s+[A-Z]\w+)?)")
 
 # Contract exhibits (indentures, credit agreements, guaranties: ex4.x,
-# ex10.x...) define "filing a petition" and "appointment of a receiver" as
-# defaults; they are not lawsuits. Press-release exhibits (ex99) are kept.
-CONTRACT_EXHIBIT = re.compile(r"ex(?!99)\d", re.I)
+# ex10.x, ex-10.1...) define "filing a petition" and "appointment of a
+# receiver" as defaults; they are not lawsuits. Press-release exhibits
+# (ex99) are kept. The hyphen is required too, or a filer's own
+# "...ex-101.htm" (2026-11-14: airc2026q3ex-101.htm, a loan-exhibit
+# ground-lease-assignment clause) slips past this filter.
+CONTRACT_EXHIBIT = re.compile(r"ex-?(?!99)\d", re.I)
 BOILERPLATE = re.compile(r"shall mean|\bmeans\b|event of default|act of insolvency|hereunder|herein|hereof|aggregate principal amount|"
-                         r"noteholders|indenture|"
+                         r"noteholders|indenture|general assignment for the benefit of creditors|interim period|"
                          r"may be subject to|could be subject to|from time to time,? (?:we|the company) (?:are|is|may be)", re.I)
 
 WIRE_FEEDS = [
