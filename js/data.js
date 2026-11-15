@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-14",
+  lastUpdatedDate: "2026-11-15",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -14079,6 +14079,45 @@ const RELAW_DATA = {
         { when: "February 8, 2023", label: "Ms. Audrey's Crafting Emporium signs a 62-month commercial lease with Ghasem Properties for retail space; Audrey Arcelli guarantees the lease up to $155,124.60" },
         { when: "September 30, 2024", label: "Jefferson Circuit Court grants Ghasem Properties summary judgment for $131,855.91 plus 8% prejudgment interest and future rent" },
         { when: "November 13, 2026", label: "Kentucky Court of Appeals affirms the landlord's win on liability but vacates the prejudgment-interest and future-rent portions and remands", current: true }
+      ]
+    },
+    {
+      id: "live-400",
+      addedDate: "2026-11-15",
+      title: "McCormick County Residents Sue Over 678-Acre Data Center Rezoning",
+      brief: "McCormick County, S.C. residents sued the county and the Pollard entities, saying the county's September vote to rezone 678 acres for a data center violated state zoning procedures and the county's own comprehensive plan.",
+      seoTitle: "McCormick County SC Data Center Rezoning Lawsuit",
+      seoDescription: "McCormick County, S.C. residents sued the county and Pollard Land Company over a 678-acre rezoning approved in September for a data center project.",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-11-06",
+      jurisdiction: "McCormick County Court of Common Pleas, South Carolina",
+      state: "SC",
+      amount: "678-acre rezoning challenged",
+      source: "live",
+      sourceUrl: "https://www.wrdw.com/2026/11/11/residents-sue-mccormick-county-over-data-center-rezoning/",
+      summary: "A group of McCormick County, South Carolina residents sued the county, the county council, and the Pollard entities behind a proposed data center on November 6, 2026, challenging the council's September 10 vote to rezone roughly 678 acres from agricultural to industrial use. The complaint alleges the county failed to follow required zoning-amendment procedures, that the rezoning conflicts with the county's own comprehensive plan, and that the county did not adequately evaluate the project's impact on infrastructure and neighboring properties.",
+      significance: "The suit is one of several filed across the country in 2026 challenging local rezonings for AI-driven data center development, and it shows that winning a council vote does not end a developer's entitlement risk: opponents are now routinely attacking the rezoning itself on comprehensive-plan-consistency and procedural grounds after approval. A successful challenge can unwind the zoning a data center deal and its construction financing were underwritten on, making this exactly the kind of post-approval litigation risk lenders and developers need to diligence before closing.",
+      body: [
+        "The rezoning at issue, Ordinance 25-11, cleared the McCormick County Council on a 3-2 vote on September 10, 2026, after a monthslong public fight over a roughly 678-acre tract tied to Pollard Land Company, Inc. and Pollard Lumber Co., Inc. The county's own planning commission had recommended against the rezoning in July, following a series of contentious public meetings over the summer in which residents raised concerns about noise, heavy water consumption, and the strain a large-scale data center campus would place on rural infrastructure. The council had also considered, and rejected, a proposed nine-month moratorium on new data center development before voting instead to approve the Pollard-site rezoning. The project has been linked in local reporting to a companion natural gas pipeline intended to serve the facility's power needs.",
+        "On November 6, 2026, a group of McCormick County residents filed suit in the McCormick County Court of Common Pleas against McCormick County, the McCormick County Council, Pollard Land Company, Inc. and Pollard Lumber Co., Inc. The complaint lists three causes of action, all aimed at the county's process rather than at the wisdom of hosting a data center. First, the plaintiffs allege the county failed to follow the zoning-amendment procedures required under South Carolina law and its own ordinances before adopting Ordinance 25-11. Second, they argue the rezoning is inconsistent with McCormick County's adopted comprehensive plan, which plaintiffs say designates the Pollard tract for uses other than heavy industrial development. Third, the complaint alleges the county failed to adequately evaluate the project's impact on surrounding infrastructure and neighboring properties before approving the change.",
+        "Those theories track the procedural and comprehensive-plan-consistency claims that have become the standard playbook in data center zoning litigation nationally in 2026, echoing suits over data center rezonings and moratoria in Stokes County, North Carolina, Coweta and Effingham counties in Georgia, Gibraltar, Michigan, and several New Jersey townships. In most of those cases, as here, the fight is not over whether a data center can ever be built on the site, but over whether the local government followed its own adopted procedures and planning documents when it changed the zoning to allow one.",
+        "For commercial real estate owners, developers and lenders, the case is a reminder that a favorable rezoning vote is rarely the end of the entitlement story for a large industrial or data center project. A county council majority can approve a rezoning only to find the approval itself becomes the next battlefield, with opponents using comprehensive-plan-consistency and procedural-compliance doctrines that have long applied to conventional commercial and industrial rezonings. That exposure is squarely the developer's and the landowner's problem: a successful challenge can unwind the zoning a deal was underwritten on, stall construction financing, and delay or kill the build-out timeline a data center operator or its construction lender is counting on. No hearing date had been reported as of this writing, and McCormick County has not yet filed a public response to the complaint.",
+        "The practical upshot for anyone underwriting a data center, logistics, or other large industrial acquisition is to treat the host jurisdiction's comprehensive plan as a diligence item in its own right, not a formality behind the zoning map, since a mismatch between the plan's designation and the intended industrial use is now a standard litigation theory; to expect this fact pattern, a rural or suburban county weighing noise, water use and infrastructure strain against the tax and development case for a data center, to keep generating entitlement suits as AI-driven demand pushes data center siting into jurisdictions without established industrial zoning frameworks; and to build the realistic possibility of a post-approval entitlement challenge into transaction timelines and financing contingencies, especially where a planning commission has already recommended against the rezoning, as McCormick County's did here."
+      ],
+      judge: null,
+      parties: [
+        { name: "McCormick County", role: "Defendant" },
+        { name: "McCormick County Council", role: "Defendant" },
+        { name: "Pollard Land Company, Inc.", role: "Defendant" },
+        { name: "Pollard Lumber Co., Inc.", role: "Defendant" }
+      ],
+      amountUsd: null,
+      tags: ["zoning", "data-center", "south-carolina", "rezoning", "land-use"],
+      timeline: [
+        { when: "July 2026", label: "McCormick County planning commission recommends against the Pollard tract rezoning" },
+        { when: "September 10, 2026", label: "County council approves Ordinance 25-11, rezoning roughly 678 acres from agricultural to industrial use, on a 3-2 vote" },
+        { when: "November 6, 2026", label: "Residents sue the county and the Pollard entities in the McCormick County Court of Common Pleas, challenging the rezoning", current: true }
       ]
     }
   ],
