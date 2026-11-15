@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T20:59:49+00:00",
+ "updatedAt": "2026-11-15T00:24:10+00:00",
  "about": "Court opinions filed in the last few days that discuss commercial real estate issues, with the opinion's text (public domain) so the digest routine can write from the primary source. Leads, not publications: the routine decides what is a commercial real estate dispute between businesses or governments.",
  "leads": [
   {
@@ -724,6 +724,7 @@
   "11057776": "2026-11-13",
   "11057787": "2026-11-13",
   "11057837": "2026-11-14",
+  "11057878": "2026-11-15",
   "11057980": "2026-11-13",
   "11058853": "2026-11-13",
   "11058943": "2026-11-13",
