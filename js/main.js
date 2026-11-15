@@ -1038,7 +1038,7 @@
           <div class="card matter-cta panel-newsletter">
             <div class="eyebrow">Free weekly email</div>
             <h3 style="margin-bottom:8px;">Rulings like this, every Monday</h3>
-            <p class="text-secondary" style="margin-bottom:12px;">The week's new commercial real estate lawsuits, foreclosures and court rulings, in one short email. No account needed; unsubscribe in one click.</p>
+            <p class="text-secondary" style="margin-bottom:12px;">The week's new commercial real estate lawsuits, foreclosures and court rulings, in one short email. No account needed; unsubscribe in one click. <a href="/newsletter.html" class="text-accent" style="display:inline;">See what's inside</a>.</p>
             <form class="gate-form" data-newsletter-form data-newsletter-source="panel-end:${c.id}" data-case-id="${c.id}" novalidate>
               <label class="sr-only" for="panel-nl-email">Email address</label>
               <input type="email" id="panel-nl-email" autocomplete="email" placeholder="you@company.com" />
