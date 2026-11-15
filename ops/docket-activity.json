@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-14T15:54:59+00:00",
+ "updatedAt": "2026-11-15T16:29:17+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 21,
+ "requestsUsed": 18,
  "errors": [],
  "dockets": {
   "63107484": {
