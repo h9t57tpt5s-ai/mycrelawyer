@@ -1,0 +1,22 @@
+{
+ "id": "live-402",
+ "title": "109Co v. Fortuna Realty: Judge Denies Summary Judgment in $44M Hotel Hayden Foreclosure Because Note and Mortgage Were Not Properly Attached",
+ "category": "lending-foreclosure",
+ "status": "ruling",
+ "date": "2026-11-11",
+ "jurisdiction": "New York Supreme Court",
+ "state": "NY",
+ "amount": "$44 million hotel mortgage",
+ "source": "live",
+ "source_url": "https://therealdeal.com/new-york/2026/11/12/morris-moinian-foreclosure-stalled-in-staple-case/",
+ "summary": "On November 11, 2026, New York Supreme Court Justice Francis Kahn denied summary judgment to 109Co, the loan buyer foreclosing on Fortuna Realty's Hotel Hayden at 127 West 28th Street. The judge found that the note and mortgage from Morgan Stanley's 2018 refinancing were not properly attached, leaving the plaintiff's standing to be proven at trial. The borrower's default itself is not in dispute, because the owner's principal signed a forbearance agreement admitting it.",
+ "significance": "The ruling is a reminder that buying a defaulted loan does not guarantee a clean path to foreclosure in New York. A purchaser must prove how and when it acquired the note, and a gap in the original lender's paperwork can defeat summary judgment even where the borrower has admitted default. With banks selling off troubled commercial loans, note buyers and their counsel should expect borrowers to test the chain of title more often.",
+ "judge": "Francis Kahn",
+ "tags": [
+  "foreclosure",
+  "standing",
+  "note sale",
+  "hotel",
+  "new york"
+ ]
+}

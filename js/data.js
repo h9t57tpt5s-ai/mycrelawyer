@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-15",
+  lastUpdatedDate: "2026-11-16",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -14118,6 +14118,95 @@ const RELAW_DATA = {
         { when: "July 2026", label: "McCormick County planning commission recommends against the Pollard tract rezoning" },
         { when: "September 10, 2026", label: "County council approves Ordinance 25-11, rezoning roughly 678 acres from agricultural to industrial use, on a 3-2 vote" },
         { when: "November 6, 2026", label: "Residents sue the county and the Pollard entities in the McCormick County Court of Common Pleas, challenging the rezoning", current: true }
+      ]
+    },
+    {
+      id: "live-401",
+      seoTitle: "1440 Broadway Foreclosure: CIM Group Sued Over $399M CMBS Loan",
+      seoDescription: "An SL Green special servicing unit filed to foreclose on 1440 Broadway, the Amazon-anchored Times Square office tower owned by CIM Group and QSuper, over a $399M loan.",
+      property: {"name": "1440 Broadway", "address": "1440 Broadway", "city": "New York", "state": "NY"},
+      addedDate: "2026-11-16",
+      title: "1440 Broadway Foreclosure: SL Green Special Servicer Sues CIM Group and QSuper Over $399M CMBS Loan on Times Square Office Tower",
+      brief: "The special servicer on a $399 million CMBS loan filed to foreclose on 1440 Broadway, the 745,000-square-foot Times Square office building owned by CIM Group and QSuper and anchored by Amazon.",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-11-11",
+      jurisdiction: "New York Supreme Court, New York County",
+      state: "NY",
+      amount: "$399 million CMBS mortgage",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/new-york/2026/11/12/cim-group-faces-foreclosure-threat-at-1440-broadway/",
+      propertyType: "Office",
+      summary: "Lenders on 1440 Broadway filed a foreclosure suit in Manhattan Supreme Court during the week of November 9, 2026, according to The Real Deal, which credited Crain's New York Business with first reporting it. The plaintiff is a division of SL Green acting as special servicer of a $399 million loan that JPMorgan Chase and Oaktree Capital Management originated in March 2021 and that was later securitized. The owners, CIM Group and QSuper, did not immediately comment.",
+      significance: "The suit shows that a building can be mostly leased to a top-credit occupier and still land in foreclosure when the loan matures before the capital markets will refinance it. Amazon occupies roughly three quarters of the tower, yet the loan went back to special servicing on a maturity default with weak debt service coverage, and the tenant's lease runs out in 2029. Owners with single-asset CMBS debt and a dominant tenant should read it as a warning about rollover concentration and about how long a servicer's patience lasts.",
+      body: [
+        "The lenders on 1440 Broadway, a 745,000-square-foot office building near Times Square, have gone to court to foreclose. The Real Deal reported on November 12, 2026 that a foreclosure suit was filed in Manhattan Supreme Court that week, crediting Crain's New York Business, which reported on November 11 that the tower was heading to foreclosure. The plaintiff is a division of SL Green that serves as special servicer of the debt.",
+        "The building is owned by CIM Group and QSuper, the Australian pension investor that has since become a division of Australian Retirement Trust. The two bought the property in 2017. In March 2021, JPMorgan Chase and Oaktree Capital Management originated $399 million of financing against it, and that debt was securitized into commercial mortgage-backed securities. According to The Real Deal, the ownership allegedly defaulted on the mortgage about two years ago. Neither owner immediately responded to the first report's request for comment.",
+        "This is the loan's second trip through special servicing. By 2023 it had been transferred to the special servicer and the owners were preparing to hand the property back to the lender. That outcome was avoided at the time. The Real Deal, citing Morningstar Credit, reported that the debt was placed in special servicing again last June because of a balloon payment or maturity default. Morningstar's figures put the property's debt service coverage ratio at just 0.15 before accounting for the loan's interest rate cap, which means the building's income was covering only a small part of its debt payments.",
+        "The tenancy is what makes the case unusual. Amazon is the dominant occupant. It added 259,000 square feet last year and now holds about 560,000 square feet, an overwhelming majority of the building, in space operated by WeWork. But that lease is due to expire in 2029, and the foreclosure filing came one day after Morningstar DBRS raised concerns about that expiration. Morningstar said significant capital might be needed at that point. A lender looking at a matured loan, thin coverage and a looming rollover of most of the rent roll has little reason to keep extending.",
+        "Procedurally the case is at its start. The reporting does not identify the exact plaintiff entity, the index number, the amount claimed due or whether the servicer has asked for a receiver, and none of the allegations has been tested. In New York, a commercial foreclosure typically moves through a summary judgment motion, a referee's computation and a judgment of foreclosure and sale before any auction, a path that often takes a year or more and leaves room for a negotiated resolution.",
+        "For owners and lenders, several practical points follow. A workout that resolves one default does not reset the clock on maturity, and a second transfer to special servicing tends to be shorter and less forgiving than the first. Tenant concentration cuts both ways: a single strong tenant supports value while the lease has term left and becomes the central underwriting problem as expiration approaches. Borrowers in this position should expect the servicer to weigh the cost of re-leasing capital against the recovery from enforcing now. Bondholders and subordinate lenders in similar single-asset deals should watch how the servicer handles the Amazon lease during the case, because whoever controls the building in 2029 will be negotiating that renewal."
+      ],
+      tags: ["cmbs", "foreclosure", "office", "special servicing", "manhattan"],
+      parties: [
+        { name: "SL Green", role: "Special Servicer" },
+        { name: "CIM Group", role: "Owner" },
+        { name: "QSuper", role: "Owner" },
+        { name: "JPMorgan Chase", role: "Loan Originator" },
+        { name: "Oaktree Capital Management", role: "Loan Originator" }
+      ],
+      judge: null,
+      amountUsd: 399000000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "2017", label: "CIM Group and QSuper buy 1440 Broadway" },
+        { when: "March 2021", label: "JPMorgan Chase and Oaktree originate $399 million financing, later securitized" },
+        { when: "2023", label: "Loan enters special servicing; owners prepare to hand back the property, which is averted" },
+        { when: "November 2026", label: "Special servicer files foreclosure suit in Manhattan Supreme Court", current: true }
+      ]
+    },
+    {
+      id: "live-402",
+      seoTitle: "Hotel Hayden Foreclosure: $44M Morgan Stanley Loan Case Stalls",
+      seoDescription: "A New York judge denied summary judgment in the $44M foreclosure of Fortuna Realty's Hotel Hayden at 127 West 28th Street, finding the note was not properly affixed.",
+      property: {"name": "Hotel Hayden", "address": "127 West 28th Street", "city": "New York", "state": "NY"},
+      addedDate: "2026-11-16",
+      title: "109Co v. Fortuna Realty: Judge Denies Summary Judgment in $44M Hotel Hayden Foreclosure Because Note and Mortgage Were Not Properly Attached",
+      brief: "A loan buyer foreclosing on the 122-room Hotel Hayden in Manhattan was denied summary judgment on a $44 million mortgage after the judge found the original lender's note and mortgage were not properly attached.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-11",
+      jurisdiction: "New York Supreme Court",
+      state: "NY",
+      amount: "$44 million hotel mortgage",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/new-york/2026/11/12/morris-moinian-foreclosure-stalled-in-staple-case/",
+      propertyType: "Hospitality",
+      summary: "On November 11, 2026, New York Supreme Court Justice Francis Kahn denied summary judgment to 109Co, the loan buyer foreclosing on Fortuna Realty's Hotel Hayden at 127 West 28th Street. The judge found that the note and mortgage from Morgan Stanley's 2018 refinancing were not properly attached, leaving the plaintiff's standing to be proven at trial. The borrower's default itself is not in dispute, because the owner's principal signed a forbearance agreement admitting it.",
+      significance: "The ruling is a reminder that buying a defaulted loan does not guarantee a clean path to foreclosure in New York. A purchaser must prove how and when it acquired the note, and a gap in the original lender's paperwork can defeat summary judgment even where the borrower has admitted default. With banks selling off troubled commercial loans, note buyers and their counsel should expect borrowers to test the chain of title more often.",
+      body: [
+        "A foreclosure on a Manhattan hotel that looked close to judgment has been sent to trial over how the loan documents were physically put together. The Real Deal reported on November 12, 2026 that New York Supreme Court Justice Francis Kahn ruled the day before that the paperwork behind the $44 million foreclosure on the Hotel Hayden was not properly attached, and denied the plaintiff's motion for summary judgment.",
+        "The property is a 122-room hotel at 127 West 28th Street, owned by Fortuna Realty, which bought it in 1999. Fortuna refinanced the hotel with Morgan Stanley Private Bank in 2018; Commercial Observer reported at the time that the $44 million mortgage closed in November 2018. Morgan Stanley filed the foreclosure case in April 2025. In February 2026 it sold the loan, for an undisclosed price, to 109Co, a firm formed in 2023, which took over as the party seeking to foreclose.",
+        "Whether the borrower defaulted is not the issue. According to the report, the owner's principal signed a forbearance agreement that admitted the default. The dispute is about standing. A foreclosing lender has to show a legal right to enforce the debt by proving how and when it came to hold the note along with the mortgage. New York courts have required that the papers be so firmly affixed as to become part of one another. The report says that when Morgan Stanley refinanced the hotel in 2018 it filed the note and the mortgage separately, and Justice Kahn concluded the attachment requirement was not met.",
+        "The borrower's lawyer summed up the argument as \"No staple, no case.\" The requirement is more than a formality. Its purpose is to protect a borrower from the risk that a second party later turns up claiming to hold the same debt and tries to foreclose again. Disputes of this kind were common in the wave of foreclosures that followed the 2007 housing collapse, and they tend to surface when one lender assigns a loan to another.",
+        "The denial does not end the case. Summary judgment was refused, so 109Co must now prove at trial that it has standing, or try to go back and cure the attachment problem. The borrower's counsel told The Real Deal that fixing the paperwork could be difficult if it requires finding the people involved in the original 2018 loan. Representatives of the loan buyer and of Fortuna could not immediately be reached by the publication. In the meantime, the ruling gives the hotel owner more leverage in any settlement talks.",
+        "For lenders and loan buyers, the lesson is in the diligence. Before purchasing a defaulted commercial loan, a buyer should inspect the original note, confirm that every endorsement or allonge is physically and firmly attached, and make sure the seller can supply a witness with personal knowledge of the transfer. A borrower's admission of default in a forbearance agreement helps on the merits but does not establish who holds the note. Sellers of loans should expect buyers to ask for representations about the condition of the collateral file. Borrowers facing a foreclosure brought by an assignee should ask early for the original note and the transfer documents, because a defect there can turn a quick summary judgment into a trial."
+      ],
+      tags: ["foreclosure", "standing", "note sale", "hotel", "new york"],
+      parties: [
+        { name: "109Co", role: "Plaintiff" },
+        { name: "Fortuna Realty", role: "Borrower" },
+        { name: "Morgan Stanley Private Bank", role: "Original Lender" }
+      ],
+      judge: "Francis Kahn",
+      amountUsd: 44000000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "1999", label: "Fortuna Realty buys the Hotel Hayden" },
+        { when: "November 2018", label: "Morgan Stanley refinances the hotel with a $44 million mortgage" },
+        { when: "April 2025", label: "Morgan Stanley files foreclosure case" },
+        { when: "February 2026", label: "Morgan Stanley sells the loan to 109Co" },
+        { when: "November 11, 2026", label: "Justice Kahn denies summary judgment over note attachment; case headed to trial", current: true }
       ]
     }
   ],
