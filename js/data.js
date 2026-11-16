@@ -14453,6 +14453,19 @@ const RELAW_DATA = {
       summary: "CRED iQ's October loan data put 11.2% of the $617 billion in conduit and SASB loans in distress, up from 10.9% a year earlier, with the stress moving away from New York. New York improved to 11.2% from 12.5%, while Los Angeles jumped to 14.6% from 9.4%, Houston rose to 15.3% from 12.4% and Chicago to 23.5% from 19.5%. Office distress runs 16.4% nationally and represents 44% of troubled balance; office distress reached 21.5% in Los Angeles (from 9.9%), 32.6% in Chicago and 31.5% in Houston (from 21.9%). In Los Angeles, Equitable Plaza's $74 million loan came due again and wasn't repaid, with a latest valuation of $57.7 million against $150.5 million at origination, and Philadelphia's 99.5%-leased 2400 Market Street also hit a maturity wall.",
       significance: "Defaults driven by maturity and refinancing at current rates and values, rather than occupancy, tend to produce disputes over extensions, modifications and forbearance, guarantor and recourse carve-out claims, receivership and foreclosure timing, and mezzanine intercreditor conflicts. Owners and guarantors in the newly stressed metros, special servicers, and lenders weighing refinancings should expect more contested workouts, particularly where values sit far below origination.",
       tags: ["cmbs", "cred iq", "office", "maturity default", "special servicing"]
+    },
+    {
+      id: "trend-029",
+      title: "Trepp: CMBS Delinquency Slips to 7.87% in October on One Loan's Cure, While Retail, Office and Multifamily Worsen",
+      category: "lending-foreclosure",
+      date: "2026-11-03",
+      scope: "U.S. CMBS loans (Trepp October 2026 delinquency report, as reported by CRE Daily)",
+      metric: "7.87% overall (down 15 bps from 8.02%); retail 7.21% (+63 bps), office 12.33% (+17 bps), multifamily 8.09% (+5 bps), lodging 5.94% (-24 bps), industrial 1.10% (-4 bps)",
+      source: "live",
+      sourceUrl: "https://www.credaily.com/briefs/cmbs-delinquency-rate-dips-to-7-87-as-retail-jumps-63-bps/",
+      summary: "Trepp's overall CMBS delinquency rate fell 15 basis points to 7.87% in October from 8.02% in September, but the improvement came largely from a single loan: a $975 million showroom portfolio loan tied to High Point and Las Vegas returned to current status. Underneath, retail posted the biggest increase, rising 63 basis points to 7.21%, office rose 17 basis points to 12.33%, still the highest of any property type, and multifamily edged up 5 basis points to 8.09%. Lodging improved to 5.94% and industrial eased to 1.10%. The largest new delinquencies were a $384.3 million Los Angeles office loan and a $210 million Bay Area apartment loan.",
+      significance: "A headline decline driven by one large cure masks worsening payment performance in retail, office and multifamily, the sectors that generate most foreclosure, receivership and guaranty litigation. Newly delinquent large loans typically move to special servicing and then to default notices, receiver motions and maturity-default suits, so borrowers, guarantors and mezzanine lenders on retail and office collateral should expect more contested workouts rather than relief.",
+      tags: ["cmbs", "delinquency", "trepp", "retail", "office"]
     }
   ],
 
