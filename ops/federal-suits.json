@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-11-16T02:26:34+00:00",
+ "updatedAt": "2026-11-16T21:13:56+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "U.S. BANK TRUST NATIONAL ASSOCIATION v. 12TH STREET EQUITY, LLC",
+   "court": "District Court, E.D. Pennsylvania",
+   "courtId": "paed",
+   "docketNumber": "2:26-cv-08731",
+   "dateFiled": "2026-11-16",
+   "docketUrl": "https://www.courtlistener.com/docket/75123238/us-bank-trust-national-association-v-12th-street-equity-llc/",
+   "docketId": 75123238,
+   "suitNature": "220 Real Property: Foreclosure",
+   "cause": "28:1332 Diversity-(Citizenship)",
+   "slug": "u-s-bank-trust-national-association-v-12th-street-equity-llc-paed-2-26-cv-08731",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Tomorrow Real Estate, LLC v. Landair Transport, Inc.",
    "court": "District Court, W.D. Pennsylvania",
