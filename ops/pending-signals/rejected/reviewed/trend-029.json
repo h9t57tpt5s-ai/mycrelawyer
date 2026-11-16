@@ -36,5 +36,10 @@
  ],
  "rejected": [
   "trend-029 already exists in js/data.js"
- ]
+ ],
+ "reviewed": {
+  "date": "2026-11-16",
+  "decision": "dropped",
+  "reason": "Duplicate. Rejected only because the id trend-029 was already in use; the same Green Street October 2026 price-index item was published as trend-030."
+ }
 }

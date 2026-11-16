@@ -76,5 +76,10 @@
   "figure 567 is not in any verified quote",
   "figure 600 is not in any verified quote",
   "figure 84 is not in any verified quote"
- ]
+ ],
+ "reviewed": {
+  "date": "2026-11-16",
+  "decision": "dropped",
+  "reason": "Quotes checked by hand in a browser on 2026-11-16 and they are on the page; verify_signals.py could not read it because The Real Deal blocks automated fetches. Dropped anyway: it reports the Nov. 3, 2026 Texas auctions, now past, and it names owners as 'facing foreclosure' and cites a 'notorious' loophole, wording Jeff asked us to avoid (2026-11-16). CREdocket's own Texas Foreclosure Sales page covers the postings."
+ }
 }
