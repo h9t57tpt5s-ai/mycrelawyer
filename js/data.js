@@ -14511,6 +14511,89 @@ const RELAW_DATA = {
         { when: "November 9, 2026", label: "Boston Business Journal reports the lender has foreclosed and an auction is planned", current: true },
         { when: "December 8, 2026", label: "Mortgagee's sale at public auction scheduled for 11 a.m. on site" }
       ]
+    },
+    {
+      id: "live-410",
+      seoTitle: "Five Star Development Ch. 11: $180M Exit Plan Cleared for Vote",
+      seoDescription: "Ritz-Carlton Paradise Valley developer Five Star Development won conditional approval to solicit votes on a plan converting $180M of DIP loans.",
+      addedDate: "2026-11-16",
+      title: "In re F-Star Socorro, L.P. (Five Star Development): Court Conditionally Approves Disclosure Statement, Sending Commercial Property Debtors' $180M Exit Plan to a Creditor Vote",
+      brief: "A Texas bankruptcy judge cleared Five Star Development's Commercial Property Debtors to seek votes on a plan that converts $180 million of bankruptcy loans into exit loans and pays unsecured creditors in full.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-13",
+      jurisdiction: "U.S. Bankruptcy Court, Southern District of Texas",
+      state: "TX",
+      amount: "$180 million in DIP loans converting to exit loans",
+      source: "live",
+      sourceUrl: "https://elevenflo.com/cases/f-star-socorro-l-p-2133",
+      summary: "On November 13, 2026, the bankruptcy court overseeing the Five Star Development cases conditionally approved the disclosure statement for the Commercial Property Debtors' Chapter 11 plan, allowing solicitation to begin. The plan, filed the same day, would convert a $120 million senior mortgage DIP facility and a $60 million mezzanine DIP facility into exit loans, dollar for dollar and without cash. Ballots and confirmation objections are due December 7, 2026, with a combined hearing on final disclosure approval and confirmation to follow in mid-December.",
+      significance: "The plan shows one way out of a contested lender fight: replace the original lender's position with new bankruptcy financing, then roll that financing into exit debt instead of refinancing at emergence. It also proposes paying general unsecured creditors in full while insiders and equity take trust interests, an unusual result in a real estate case that began on the eve of foreclosure. Lenders and sponsors in stalled development deals will watch whether the structure survives confirmation and a still-pending guaranty dispute tied to the lender's earlier credit bid.",
+      body: [
+        "The Five Star Development bankruptcy began on November 4, 2025, when F-Star Socorro, L.P. and thirty-three affiliates filed Chapter 11 petitions in the Southern District of Texas. The group is best known as the developer of The Ritz-Carlton Paradise Valley and the adjoining Palmeraie project in Arizona, and it also held industrial and commercial properties in the El Paso area. The filing followed a breakdown with its construction lender, Madison Realty Capital, which had a $585 million construction loan agreement on the Arizona project and had scheduled a foreclosure sale of the Arizona collateral for November 12, 2025. The debtors allege the lender stopped funding construction.",
+        "A year later the case has split into two tracks. One covers the Ritz project entities. The other covers what the docket calls the Commercial Property Debtors, the Texas side of the business. On September 25, 2026, the court authorized the sale of four El Paso County properties to the Madison lender through a $90 million credit bid, subject to closing conditions. The court also authorized a $180 million replacement financing facility from Farallon along with the use of cash collateral.",
+        "The November 13 order moves the Texas track toward the exit. The court conditionally approved the disclosure statement for the Commercial Property Debtors' plan, which lets the debtors solicit votes now and defers final approval of the disclosure statement to a hearing combined with confirmation. The plan filed that day would convert the $120 million senior mortgage DIP facility and the $60 million mezzanine DIP facility into exit loans, dollar for dollar, with no cash changing hands. Allowed general unsecured claims would be paid in full in cash from a claims reserve, without postpetition interest. Insider and affiliate claims would receive senior interests in a plan trust, and parent equity would receive junior interests. Funding the claims reserve and satisfying the exit financing conditions are among the conditions to the plan taking effect.",
+        "The schedule is short. Ballots and confirmation objections are due December 7, 2026, at 1:00 p.m. Central Time, and the combined hearing on final disclosure approval and confirmation is set for mid-December. A separate dispute over a clawback guaranty contained in the September sale order is set for hearing on November 19, 2026.",
+        "Several points are worth watching. Conditional approval is a procedural step, not a ruling on the merits, so objections to the adequacy of the disclosure and to the plan itself are preserved for the combined hearing. A plan that rolls bankruptcy loans into exit loans avoids the need to find takeout financing in a tight market, but it depends on the DIP lender's exit conditions being met. Full payment of unsecured claims limits the grounds trade creditors have to object, leaving the original lender and the guaranty dispute as the likeliest sources of a contest. For lenders who credit bid in a sale, the guaranty hearing is a reminder that terms negotiated into a sale order can be litigated after the sale is approved."
+      ],
+      tags: ["chapter 11", "disclosure statement", "dip financing", "credit bid", "exit financing"],
+      parties: [
+        { name: "F-Star Socorro, L.P.", role: "Debtor" },
+        { name: "Five Star Development", role: "Debtor" },
+        { name: "Madison Realty Capital", role: "Lender" },
+        { name: "Farallon", role: "DIP Lender" }
+      ],
+      judge: "Alfredo R. Pérez",
+      amountUsd: 180000000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "November 4, 2025", label: "F-Star Socorro, L.P. and thirty-three affiliates file Chapter 11 petitions in the Southern District of Texas" },
+        { when: "September 25, 2026", label: "Court authorizes sale of four El Paso County properties to the Madison lender through a $90 million credit bid" },
+        { when: "November 13, 2026", label: "Court conditionally approves disclosure statement for the Commercial Property Debtors' plan; plan filed", current: true },
+        { when: "November 19, 2026", label: "Hearing set on clawback guaranty dispute" },
+        { when: "December 7, 2026", label: "Deadline for ballots and confirmation objections" }
+      ]
+    },
+    {
+      id: "live-411",
+      seoTitle: "Pennhurst Data Center Appeal: Neighbors Win Right to Intervene",
+      seoDescription: "A Chester County judge let adjoining farm owners and East Vincent Advocacy join the appeal over East Vincent Township's rejected Pennhurst data center.",
+      property: {"name": "Pennhurst property", "address": "1205 Commonwealth Drive", "city": "East Vincent Township", "state": "PA"},
+      addedDate: "2026-11-16",
+      title: "Penn Hurst Holdings DE LLC v. East Vincent Township: Judge Lets Adjoining Farm Owners and Residents' Group Join Appeal Over Rejected Pennhurst Data Center",
+      brief: "A Chester County judge allowed adjoining farm owners and a 950-member residents' group to help defend East Vincent Township's denial of a 1.9 million-square-foot data center on the 124.6-acre Pennhurst property.",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-11-10",
+      jurisdiction: "Chester County Court of Common Pleas, Pennsylvania",
+      state: "PA",
+      amount: "Conditional-use approval for a 1.9 million-square-foot data center campus",
+      source: "live",
+      sourceUrl: "https://www.mychesco.com/a/communities/neighbors-gain-legal-standing-in-pennhurst-data-center-appeal/",
+      propertyType: "Data Center",
+      summary: "On November 10, 2026, Judge Nicole Forzato of the Chester County Court of Common Pleas granted intervenor status to the owners of a farm adjoining the Pennhurst property and to East Vincent Advocacy, a resident-led nonprofit, in the developer's land use appeal. Penn Hurst Holdings DE LLC is challenging the East Vincent Township supervisors' unanimous May 21, 2026 denial of its conditional-use application for a data center campus on about 124.6 acres. The developer had challenged the standing of both. The ruling decides only who may take part; the application remains denied and the merits are still to be briefed.",
+      significance: "Intervention changes the economics of a land use appeal. A developer that might have negotiated a resolution with the township alone now faces two additional parties who can brief the merits, oppose any settlement and take their own appeal. The ruling also shows that an advocacy group that owns no land can earn a seat through its members' interests and its participation in the municipal hearings. Developers pursuing contested data center sites should expect this in Pennsylvania and build the added time into option periods, power commitments and financing.",
+      body: [
+        "The Pennhurst property covers about 124.6 acres at 1205 Commonwealth Drive in East Vincent Township, Chester County. It lies in the township's Industrial Mixed Use District. The developer applied for conditional-use approval for data center buildings, an office building and related improvements. The Philadelphia Inquirer described the plan in May as 1.9 million square feet in three two-story buildings, along with a power generation and battery storage field.",
+        "On May 21, 2026, the township's Board of Supervisors unanimously rejected the application. According to MyChesCo, the supervisors concluded that the proposal did not qualify as a planned commercial development under the township's zoning ordinance. The Inquirer reported that the board found the application did not fully comply with the applicable zoning criteria, and that the developer's lawyer said at the time that an appeal would follow. Penn Hurst Holdings filed its land use appeal in the Chester County Court of Common Pleas in June. It argues that the supervisors misread the ordinance's provisions on permitted uses, zoning standards and transferable development rights.",
+        "Two sets of would-be parties then asked to join the case on the township's side. The first was the owners of an adjoining farm of about 130 acres, who pointed to their position downhill from the site, the risk of runoff, deeded access rights over roads serving the property and possible effects on their livestock and crops. The second was East Vincent Advocacy, a resident-led 501(c)(4) nonprofit that reports more than 950 members, about 80 percent of them township residents. The developer challenged the standing of both. It argued that the farm owners had not formally established party status during the township's conditional-use proceedings, and that a group that owns no property in the township could not stand in for affected owners. The township's solicitor supported the farm owners' request, and the advocacy group noted that it had been given party status in the township hearings.",
+        "At a hearing on November 10, 2026, Judge Nicole Forzato granted both requests, finding that each had a sufficient interest in the outcome. \"I do believe there is a direct, substantial interest,\" she said, according to MyChesCo. The ruling is limited to participation. It does not decide whether the project complies with the zoning ordinance or whether the application should have been approved. The developer asked for 30 days to file an amended brief, and the judge directed counsel to propose a briefing schedule by November 18. No further hearing date has been set.",
+        "For developers and landowners, the takeaways are procedural. Party status in the municipal hearing matters later: the advocacy group's earlier status helped it, and the developer's attack on the farm owners turned on whether they had properly appeared below, so applicants who intend to contest standing should make that record at the township level. Once neighbors intervene, the appeal can no longer be resolved by agreement with the municipality alone, which reduces the value of a negotiated remand or a stipulated set of conditions. Owners of land near a proposed data center, for their part, should document concrete property interests such as drainage, access easements and agricultural operations, because those specifics carried the intervention request here. The merits question, how a zoning ordinance with no data center provisions applies to one, remains open and will be watched by other applicants in the region."
+      ],
+      tags: ["data center", "land use appeal", "intervention", "conditional use", "pennsylvania"],
+      parties: [
+        { name: "Penn Hurst Holdings DE LLC", role: "Appellant" },
+        { name: "East Vincent Township Board of Supervisors", role: "Appellee" },
+        { name: "East Vincent Advocacy", role: "Intervenor" }
+      ],
+      judge: "Nicole Forzato",
+      amountUsd: null,
+      timeline: [
+        { when: "May 21, 2026", label: "East Vincent Township supervisors unanimously deny the conditional-use application" },
+        { when: "June 2026", label: "Developer files land use appeal in Chester County Court of Common Pleas" },
+        { when: "November 10, 2026", label: "Judge Forzato grants intervention to adjoining farm owners and East Vincent Advocacy", current: true },
+        { when: "November 18, 2026", label: "Deadline for counsel to propose a briefing schedule" }
+      ]
     }
   ],
 
