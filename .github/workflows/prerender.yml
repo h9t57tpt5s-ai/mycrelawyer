@@ -114,9 +114,13 @@ jobs:
           # so the results push is never rejected and the API spend lost.
           # Rebase and retry: several jobs push to main around the same minutes
           # (2026-10-01: a rejected push left live-208/209 looking unsynced).
+          # --autostash: a build step can leave a changed file outside the add
+          # lists above; without it the rebase refuses to start ("You have
+          # unstaged changes") and every run fails (2026-11-14 to 11-16).
+          git status --short
           ok=0
           for i in 1 2 3; do
-            if git pull --rebase origin main && git push; then ok=1; break; fi
+            if git pull --rebase --autostash origin main && git push; then ok=1; break; fi
             sleep $((i * 10))
           done
           [ "$ok" = 1 ]
