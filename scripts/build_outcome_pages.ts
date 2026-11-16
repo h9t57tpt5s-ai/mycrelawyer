@@ -14,7 +14,7 @@
 //     build_value_pages.ts writes).
 // Only totals appear: no case names, parties, citations or quotes. Which
 // figures are published is decided in the aggregate script (win rates are
-// held back until a stronger model has re-read the cases).
+// held back until a second review has re-read the cases).
 //
 // Run by .github/workflows/prerender.yml after build_value_pages.ts; locally:
 //   deno run --allow-read --allow-write scripts/build_outcome_pages.ts
@@ -105,7 +105,7 @@ function figuresBlock(cat: string, s: Slice): string {
   return cards.length ? `<div class="oc-grid">${cards.join("")}</div>` : "";
 }
 
-const METHOD = (n: number) => `Source: ${num(n)} written opinions in commercial real estate cases from state and federal courts, 2000 to 2026, in CourtListener's free public archive of court decisions. Each opinion was read by Anthropic's Claude, and a dollar figure counts only if the opinion's own words state it. A re-read of 402 cases by a stronger model agreed on the case type 94% of the time and on award amounts 93% of the time. Written opinions mostly come from cases that were fought to a decision and appealed; most disputes settle without one, so these figures describe contested cases. No case is named here. Not legal advice.`;
+const METHOD = (n: number) => `Source: ${num(n)} written opinions in commercial real estate cases from state and federal courts, 2000 to 2026, in CourtListener's free public archive of court decisions. Each opinion was reviewed, and a dollar figure counts only if the opinion's own words state it. A second review of 402 cases agreed on the case type 94% of the time and on award amounts 93% of the time. Written opinions mostly come from cases that were fought to a decision and appealed; most disputes settle without one, so these figures describe contested cases. No case is named here. Not legal advice.`;
 
 const CSS = `<style>
   .oc-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-top:16px; }

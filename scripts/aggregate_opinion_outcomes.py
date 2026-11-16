@@ -130,10 +130,9 @@ def main(paths):
             models[r.get("model", "?")] += 1
     out = {
         "generated": dt.date.today().isoformat(),
-        "note": "Totals only. Built by scripts/aggregate_opinion_outcomes.py from court opinions in CourtListener's public bulk data (2000 to 2026), read by Claude models with every dollar figure checked against a verbatim quote in the opinion. Case-level data is not published.",
+        "note": "Totals only. Built by scripts/aggregate_opinion_outcomes.py from court opinions in CourtListener's public bulk data (2000 to 2026), with every dollar figure checked against the opinion's own words. Case-level data is not published.",
         "minN": MIN_N,
         "opinions": len(cre),
-        "models": dict(models),
         "categories": {},
     }
     for cat in CATS:
