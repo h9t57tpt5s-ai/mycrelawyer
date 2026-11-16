@@ -1,0 +1,37 @@
+{
+ "trend": {
+  "id": "trend-029",
+  "title": "Green Street: Commercial Property Prices Fall 0.7% in October, Trimming 12-Month Gain to 3.7%",
+  "category": "lending-foreclosure",
+  "date": "2026-11-05",
+  "scope": "U.S. commercial real estate values (Green Street Commercial Property Price Index, October 2026)",
+  "metric": "All-property index -0.7% in October; +3.7% over twelve months",
+  "sourceUrl": "https://www.greenstreet.com/property-prices-tick-lower/",
+  "summary": "Green Street reports that its Commercial Property Price Index declined 0.7 percent in October 2026, leaving values up 3.7 percent over the past twelve months. The firm's co-head of strategic research said a recent dip in bond yields is a welcome sign but that investors are still contending with a 10-year Treasury yield near 5 percent.",
+  "significance": "A monthly price decline with long-term rates near 5 percent keeps pressure on appraised values that drive loan-to-value tests, refinancing proceeds and maturity extensions. Where updated appraisals come in lower, borrowers face paydown demands, cash-management triggers and covenant defaults, and the gap between valuation and debt is what typically pushes a workout toward receivership or foreclosure litigation. Owners and lenders heading into 2027 maturities should expect valuation disputes to feature in extension and modification fights.",
+  "tags": [
+   "property values",
+   "price index",
+   "refinancing",
+   "interest rates",
+   "green street"
+  ]
+ },
+ "verification": [
+  {
+   "claim": "The index fell 0.7% in October",
+   "quote": "decreased 0.7% in October.",
+   "url": "https://www.greenstreet.com/property-prices-tick-lower/"
+  },
+  {
+   "claim": "The index is up 3.7% over the past twelve months",
+   "quote": "Over the past twelve months, the index has increased 3.7%.",
+   "url": "https://www.greenstreet.com/property-prices-tick-lower/"
+  },
+  {
+   "claim": "Investors are dealing with a 10-year Treasury close to 5%",
+   "quote": "investors are still dealing with a 10-year Treasury that is close to 5%",
+   "url": "https://www.greenstreet.com/property-prices-tick-lower/"
+  }
+ ]
+}
