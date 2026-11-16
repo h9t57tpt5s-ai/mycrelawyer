@@ -14469,6 +14469,48 @@ const RELAW_DATA = {
         { when: "October 21, 2026", label: "Case submitted to the Supreme Court of Appeals" },
         { when: "November 13, 2026", label: "Supreme Court of Appeals affirms; Act held constitutional", current: true }
       ]
+    },
+    {
+      id: "live-409",
+      seoTitle: "Westborough Shopping Center Foreclosure: $32.4M First Tech Loan",
+      seoDescription: "First Tech Federal Credit Union will auction the Stop & Shop-anchored Westborough Shopping Center on Route 9 on Dec. 8 after default on a $32.375M mortgage.",
+      property: {"name": "Westborough Shopping Center", "address": "18-30 Lyman St.", "city": "Westborough", "state": "MA"},
+      addedDate: "2026-11-16",
+      title: "First Tech Federal Credit Union Sets Foreclosure Auction of Westborough Shopping Center Over $32.4M Mortgage",
+      brief: "A credit union lender has scheduled a Dec. 8 foreclosure auction of the 33.5-acre, Stop & Shop- and Staples-anchored Westborough Shopping Center on Route 9, citing a breach of a mortgage last amended to $32.375 million in July 2025.",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-11-09",
+      jurisdiction: "Massachusetts mortgagee's foreclosure sale by public auction (Worcester County); no court case reported",
+      state: "MA",
+      amount: "$32.375 million mortgage",
+      source: "live",
+      sourceUrl: "https://www.yahoo.com/news/articles/westborough-shopping-center-headed-foreclosure-212449980.html",
+      propertyType: "Retail",
+      summary: "First Tech Federal Credit Union, formerly Digital Federal Credit Union, has moved to foreclose on the Westborough Shopping Center in Westborough, Massachusetts, the Boston Business Journal reported on November 9, 2026. A mortgagee's sale by public auction is set for December 8, 2026 at 11 a.m. in the parking lot outside the center's Staples. Registry records cited by MassLive show owner Colangelo Massachusetts Real Estate LLC took a $30.75 million mortgage from the credit union in December 2022 that was increased to $32.375 million on July 1, 2025. The auctioneer's legal notice says the owner breached the mortgage conditions.",
+      significance: "This is a grocery-anchored center, the retail type lenders have treated as safest, going to auction about 16 months after its loan was increased. The debt exceeds the roughly $28.71 million the town assesses the two parcels at, so a deficiency is possible if bidding tracks assessed value. It is also a reminder that Massachusetts lenders can sell commercial collateral at auction without a foreclosure lawsuit, which leaves a borrower little time to refinance, negotiate or seek court relief. Tenants and prospective bidders should check how their leases stand relative to the mortgage before the sale.",
+      body: [
+        "The Westborough Shopping Center, a large grocery-anchored retail property on Route 9 in Westborough, Massachusetts, is headed to a foreclosure auction. The Boston Business Journal reported on November 9, 2026 that First Tech Federal Credit Union, the lender formerly known as Digital Federal Credit Union, had foreclosed on the property and that an auction would follow next month. The auctioneer, Paul E. Saperstein Co., lists a mortgagee's sale of real estate at public auction for December 8, 2026 at 11 a.m., to be held on site in the parking lot outside Staples.",
+        "According to the auction listing, the collateral is 18-30 Lyman Street: two parcels totaling 33.5 acres with five principal structures, including a multi-tenant shopping plaza, stand-alone buildings and a commercial office building. The listing puts net rentable area at roughly 371,425 square feet with about 1,208 parking spaces and access from both Lyman Street and Route 9. Stop & Shop and Staples are the anchors. Local coverage also names Tatnuck Bookseller, Julio's Liquors, Chill Kitchen & Bar, Subway and Supercuts among the tenants.",
+        "MassLive, citing the Worcester County Registry of Deeds, reported that the property is owned by Colangelo Massachusetts Real Estate LLC. That entity took out a $30.75 million mortgage from Digital Federal Credit Union in December 2022, and the registry shows the mortgage was increased to $32.375 million on July 1, 2025. A legal notice posted on the auctioneer's website says the LLC breached the conditions of the mortgage, which led to the foreclosure. The coverage does not describe the nature of the breach, and the Boston Business Journal reported that the ownership did not respond to its request for comment. The two parcels carry town assessments totaling about $28.71 million, less than the amended mortgage amount.",
+        "No foreclosure lawsuit has been reported. The sale is being conducted as a mortgagee's sale at public auction, the route Massachusetts lenders typically use for commercial property when the mortgage contains a power of sale, rather than through a judicial foreclosure action. Under the posted terms, a bidder must bring a $100,000 deposit by bank or certified check to the sale, increase the deposit to 10 percent of the sale price within ten days, and pay the balance within 30 days. Other terms are to be announced at the sale. The listing identifies Prince Lobel Tye LLP of Boston as the attorney for the mortgagee.",
+        "For owners and lenders, the timeline is the notable feature. The loan was increased in mid-2025, and the lender had scheduled an auction by early November 2026. A borrower in a power-of-sale state that wants to contest a default, or needs time to refinance, generally has to act before the auction date, because the sale itself does not wait on a court calendar. Lenders weighing the same remedy should note that the assessed value here sits below the debt, which raises the prospect of a credit bid and of a deficiency claim if the documents and any guaranties allow one.",
+        "For tenants, an auction does not by itself answer whether leases survive. That turns on each lease's priority relative to the mortgage and on any subordination, non-disturbance and attornment agreement in place. Patch, citing the Worcester Business Journal, reported that Stop & Shop is expected to keep operating as usual through a change in ownership. Bidders will want the data room the auctioneer is offering to review rent rolls and lease terms before December 8."
+      ],
+      tags: ["foreclosure auction", "grocery-anchored retail", "credit union lender", "massachusetts", "power of sale"],
+      parties: [
+        { name: "First Tech Federal Credit Union", role: "Lender" },
+        { name: "Colangelo Massachusetts Real Estate LLC", role: "Borrower" }
+      ],
+      judge: null,
+      amountUsd: 32375000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "December 2022", label: "Colangelo Massachusetts Real Estate LLC takes a $30.75 million mortgage from Digital Federal Credit Union" },
+        { when: "July 1, 2025", label: "Mortgage increased to $32.375 million" },
+        { when: "November 9, 2026", label: "Boston Business Journal reports the lender has foreclosed and an auction is planned", current: true },
+        { when: "December 8, 2026", label: "Mortgagee's sale at public auction scheduled for 11 a.m. on site" }
+      ]
     }
   ],
 
