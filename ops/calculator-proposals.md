@@ -1074,3 +1074,96 @@ touched.
   overshoot case before assuming it's just a miscalibrated probability
   band (Finding 1's original framing) — the two are different root
   causes with different fixes.
+
+## 2026-11-16 — the same "no figure" mechanical gap, from the other side (G15 decision 9)
+
+**Method:** every prior scan of `issue_range()`'s "no figures => the issue
+is silently dropped from the sum" mechanic (decision 8, 2026-10-31) looked
+at *overshoot* misses — a dispositive opposing defense with no figure,
+which should have discounted the represented side's claim but didn't.
+This run checked the mirror case: *undershoot* misses, where the actual
+award exceeds the predicted ceiling. Free, no API spend — ran
+`replay()`/`issue_range()` as a library call (same pattern as imp-045)
+against every scorable case in all four current-generation directories
+(`results-v4.3`, `results-v4.5`, `results-v6`, `results-v6.1`), comparing
+each predicted ceiling to the saved `outcome.finalAmount`. 35 (dir, case)
+undershoot pairs came back, but most are the same handful of cases
+recurring across generations with an identical, already-documented cause:
+`cvs-v-carmichael-2021`'s $42.75M jury verdict is absent from the model's
+input entirely (noted 2026-10-17: "Jack and CVS turned on jury damages
+absent from the input"); `jack-v-eldorado-casino-2019`,
+`huntington-bank-v-limited-investment-group-2022` and
+`stark-v-mccarthy-corp-2021` are Finding 4's and the 2026-10-17 entry's
+own already-known cases, unchanged across generations.
+
+**Three new, confirmed cases, all the same root cause:** a represented-
+side claim or theory that actually won at trial was given a
+`probabilityRange` (favorable/strong/conceded) but **zero figures** — the
+identical mechanical gap decision 8 found on the opposing side, just
+mirrored onto the represented side, where it causes undershoot instead of
+overshoot:
+
+- `usbank-br-penn-realty-2025` (results-v6; lending-foreclosure): the
+  "Core Foreclosure / In Personam Money Judgment on the Note" issue is
+  correctly priced at $46,290,900.25 (matches the predicted ceiling
+  exactly), but "Interest, Default-Rate Charges, and Attorneys' Fees Under
+  the Loan Documents" — `favorable`, `kind: claim` — has `figures: []`.
+  Actual judgment: $51,392,086.96. The $5,101,186 gap is almost exactly
+  this one unpriced issue.
+- `cajun-contractors-v-laguerre-2021` (results-v6; premises-liability):
+  "Punitive Damages Against Cajun" — `favorable`, `kind: claim` —
+  has `figures: []`, even though the outcome states the exact figure
+  (jury awarded $500,336 punitive, statutorily capped to $250,000 in the
+  judgment). Actual judgment $5,250,000 vs. predicted ceiling $1,000,000 —
+  a $4,250,000 gap. (Secondary, less certain: the same case's "Total
+  Compensatory Damages Valuation" issue — strength `favorable` — is itself
+  priced at only $1,325,000 combined against a $5,000,000 jury compensatory
+  award; this looks like an separate figure-extraction undervaluation, not
+  the same "zero figures" mechanic, and isn't traced further here.)
+- `walmart-v-howell-2024` (results-v6.1; premises-liability): "Documented
+  Economic Damages (Medical Expenses & Lost Wages)" is correctly priced at
+  $56,008.41 (matches the predicted ceiling, $56,009). "Future Medical
+  Expenses and General (Pain & Suffering) Damages" — `favorable`, `kind:
+  claim` — has `figures: []`. Actual verdict $300,000 vs. predicted
+  ceiling $56,009 — a $243,991 gap, i.e. the jury's pain-and-suffering
+  award, exactly the category this unpriced issue names.
+
+**A fourth case, flagged but not fully diagnosed** (more complex, worth a
+closer look another run): `nco-montgomery-park-2025` (results-v6; lease-
+disputes; **a held-out case**) has the same shape — "Future Rent Through
+Remainder of 12-Year Term" and "Attorney's Fees Under Section 14.04" are
+both `figures: []` — but the dominant driver looks different: the outcome
+states the whole $9,854,566.95 judgment *is* "its past-due-rent
+counterclaim," while the model's own "Unpaid Rent Through Default Letter"
+issue (the one issue that did get a figure) is priced at only
+$313,662.76 — about 1/31st of the actual past-due-rent judgment. That
+looks like the primary rent claim's figure was extracted far too small,
+not simply omitted, a different failure shape from the other three.
+Not traced further this run.
+
+**This generalizes decision 8 into one mechanical root cause, not two
+separate ones:** `issue_range()` (and its v6 counterpart) returns `None`
+for any issue with no figures regardless of which side it's on or whether
+it's a claim or a defense, and `replay()` drops any issue with `None` from
+the sum entirely — not a partial discount, not a flag, just silence. On
+the opposing side this means a winning dispositive defense never reduces
+the claim it defeats (decision 8, overshoot). On the represented side it
+means a winning claim or theory with a probability band contributes
+nothing at all, even when (as in `usbank-br-penn-realty` and
+`cajun-contractors-v-laguerre`) the record plainly states a number for it
+(loan-document interest/fees; a statutorily-capped punitive award) or
+(as in `walmart-v-howell`) the issue is a named damages category a jury
+plainly priced as part of its lump verdict.
+
+**Proposed change (NEEDS JEFF):** this is now evidence for a single,
+general fix rather than two case-specific ones — when an issue is priced
+with a `probabilityRange` but the model found no supporting figure, that
+should either (a) require the model to extract/estimate a figure before
+the issue can be listed at all (reject a figure-less issue the same way
+`verifyFigure()` already rejects an unverifiable one), or (b) have
+`issue_range()` surface it as an explicit "priced issue, no figure"
+warning on the output rather than silently contributing $0 — so a human
+reviewer (or a future backtest scorer) can see which issues the range is
+silently missing instead of only finding out from a mis-ranged final
+outcome. Nothing in the prompt or math has been changed; not
+cloud-deployable regardless (CLAUDE.md).
