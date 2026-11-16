@@ -100,6 +100,7 @@
           <a href="/lease-clause-redline.html">Lease Clause Redline Checker (Beta)</a>
           <div class="nav-dropdown-label">Calculators &amp; Reference</div>
           <a href="/settlement-benchmarks.html">Settlement &amp; Verdict Benchmarks</a>
+          <a href="/outcomes.html">Court Outcomes by State</a>
           <a href="/contribute-settlement.html">Contribute a Settlement (Earn Credits)</a>
           <a href="/lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
           <a href="/lease-rejection-claim-calculator.html">Lease Rejection Claim Calculator</a>
@@ -190,6 +191,23 @@
     </ul>
     <p style="margin-top:14px;"><a href="/case-valuation-calibration.html">Full backtest results and method →</a></p>
 
+    <!--outcomes:start-->
+    <h2 class="matter-h2" style="margin-top:32px;">What 40 court opinions show</h2>
+    <style>
+  .oc-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-top:16px; }
+  .oc-side { padding:20px 22px; }
+  .oc-side h3 { font-size:1.02rem; margin:0 0 10px; }
+  .oc-side p { font-size:14.5px; line-height:1.6; margin:0 0 10px; color:var(--text-secondary); }
+  .oc-big { font-family:var(--font-display); font-size:1.7rem; color:var(--accent); font-variant-numeric:tabular-nums; margin-right:4px; }
+  .oc-states { columns:3 200px; column-gap:24px; padding-left:18px; margin:12px 0 0; }
+  .oc-states li { margin-bottom:6px; break-inside:avoid; font-size:14.5px; }
+  .oc-states span { color:var(--text-muted); font-variant-numeric:tabular-nums; }
+  .oc-method { font-size:13px; color:var(--text-muted); line-height:1.6; margin-top:18px; }
+</style>
+    
+    
+    <p class="oc-method">Source: 40 written opinions in commercial real estate cases from state and federal courts, 2000 to 2026, in CourtListener's free public archive of court decisions. Each opinion was read by Anthropic's Claude, and a dollar figure counts only if the opinion's own words state it. A re-read of 402 cases by a stronger model agreed on the case type 94% of the time and on award amounts 93% of the time. Written opinions mostly come from cases that were fought to a decision and appealed; most disputes settle without one, so these figures describe contested cases. No case is named here. Not legal advice.</p>
+    <!--outcomes:end-->
     <div class="card matter-cta" style="margin-top:32px;">
       <div class="eyebrow">Case Value Calculator · free beta</div>
       <h2 class="matter-h2">Get a range for your own REIT securities or fiduciary claim</h2>
