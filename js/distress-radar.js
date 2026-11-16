@@ -2,7 +2,7 @@
    CREdocket — Distress Radar (distress-radar.html)
    -----------------------------------------------------------
    One map and one feed for every distress record the site
-   publishes: Texas foreclosure postings, CMBS loans in trouble,
+   publishes: Texas foreclosure postings, CMBS servicer reports,
    real estate Chapter 11 petitions, federal CRE lawsuits, New York
    City recorded distress documents and the tracker's lender-suit
    write-ups. Data: js/radar-data.json and js/radar-geo.json, both
@@ -15,7 +15,7 @@
 
   const KINDS = {
     foreclosure: { label: "Foreclosure postings", short: "Foreclosure", color: "#c26a00" },
-    cmbs: { label: "CMBS loans in trouble", short: "CMBS", color: "#b3261e" },
+    cmbs: { label: "CMBS servicer reports", short: "CMBS", color: "#b3261e" },
     nyc: { label: "NYC recorded distress", short: "NYC record", color: "#d14d8b" },
     bankruptcy: { label: "Chapter 11 petitions", short: "Chapter 11", color: "#7a3fd1" },
     litigation: { label: "Lender suits (tracker)", short: "Lender suit", color: "#1b2e99" },

@@ -131,8 +131,8 @@ export function buildIssue(inp: Inputs) {
       note: "litigation write-ups added", href: link("/updates.html") },
     { label: "Chapter 11 petitions", value: String(cCh11.now), now: cCh11.now, base: baseOk(ch11, (r) => r.dateFiled) ? cCh11.base : null,
       note: "real estate debtors, federal courts", href: link("/bankruptcy-watch.html") },
-    { label: "CMBS loans in trouble", value: String(weekCmbs.length), now: weekCmbs.length, base: null,
-      note: `in trust reports filed with the SEC in the last 30 days${cmbsBalance ? `, ${money(cmbsBalance)} in balances` : ""}`,
+    { label: "CMBS servicer reports", value: String(weekCmbs.length), now: weekCmbs.length, base: null,
+      note: `loans reported in foreclosure, REO or bankruptcy in trust filings with the SEC in the last 30 days${cmbsBalance ? `, ${money(cmbsBalance)} in balances` : ""}`,
       href: link("/cmbs-watch.html") },
     { label: "Federal CRE lawsuits", value: String(cFed.now), now: cFed.now, base: baseOk(fed, (r) => r.dateFiled) ? cFed.base : null,
       note: "new business-to-business suits", href: link("/lawsuit-watch.html") },
@@ -198,7 +198,7 @@ export function buildIssue(inp: Inputs) {
     const parts = Object.entries(v.parts).sort((a, b) => b[1] - a[1]).map(([k, n]) => plural(n, k)).join(", ");
     const runner = states[1] ? ` ${STATE_NAMES[states[1][0]]} was next with ${states[1][1].total}.` : "";
     insights.push({
-      lead: `${STATE_NAMES[st]} led the country in distress signals.`,
+      lead: `${STATE_NAMES[st]} had the most new records.`,
       body: `${v.total} of the week's records came from ${STATE_NAMES[st]}: ${parts}.${runner}`,
     });
   }
@@ -481,7 +481,7 @@ export function renderIssue(issue: Issue, unsubscribeUrl: string, postalAddress:
     <td align="right" style="font:400 12px/1 ${SANS};color:#8f9bbb;">${issueDate}</td>
   </tr></table>
   <div style="font:700 34px/1.12 ${SERIF};color:#ffffff;margin-top:22px;">The CRE Distress Brief</div>
-  <div style="font:400 14.5px/1.55 ${SANS};color:#b9c2da;margin-top:10px;">Commercial real estate lawsuits, bankruptcies, CMBS defaults and foreclosure postings from the week of ${fmtDate(issue.from, false)} to ${fmtDate(issue.to, false)}, read together.</div>
+  <div style="font:400 14.5px/1.55 ${SANS};color:#b9c2da;margin-top:10px;">Commercial real estate lawsuits, bankruptcies, CMBS servicer reports and foreclosure postings from the week of ${fmtDate(issue.from, false)} to ${fmtDate(issue.to, false)}, read together.</div>
   <div style="height:4px;width:64px;background:${RED};margin-top:20px;font-size:0;line-height:0;">&nbsp;</div>
 </td></tr>
 <tr><td style="background:${INK};padding:4px 22px 14px;">
@@ -492,7 +492,7 @@ ${insights.length ? section("The read", "What the week's records say") + insight
 
 ${leadBlock}
 
-${radar.length ? section("Distress radar", "Properties and owners in trouble", RED) + radarRows + radarMore : ""}
+${radar.length ? section("Distress radar", "New filings and postings this week", RED) + radarRows + radarMore : ""}
 ${weekChart}
 
 ${catRows.length ? section("By practice area", "What's being litigated") + `
@@ -521,7 +521,7 @@ ${rulings.length ? section("Docket watch", "Rulings in cases we follow") + rulin
 <tr><td style="padding:22px 32px 30px;font:400 12px/1.65 ${SANS};color:${FAINT};">
   Forward this to a colleague, or send them to <a href="${link("/newsletter.html")}" style="color:${ACCENT};">credocket.com/newsletter</a>.<br><br>
   You're getting this because you subscribed to CREdocket's weekly email. <a href="${unsubscribeUrl}" style="color:${FAINT};">Unsubscribe</a> in one click.
-  Every figure above is counted from public court records, SEC filings, county foreclosure postings and the sources linked; CREdocket summarizes public records and reporting and is not legal advice.<br>${esc(postalAddress)}
+  Every figure above is counted from public court records, SEC filings, county foreclosure postings and the sources linked; CREdocket summarizes public records and reporting and is not legal advice. A listing reflects a public filing, notice or report. It is not a finding that any party did anything wrong or cannot pay its debts.<br>${esc(postalAddress)}
 </td></tr>
 
 </table>
@@ -540,13 +540,13 @@ ${rulings.length ? section("Docket watch", "Rulings in cases we follow") + rulin
     ...(rest.length ? ["ALSO NEW ON THE TRACKER", ...rest.flatMap((c) => [plain(c.title), matterUrl(c.id), ""])] : []),
     ...(rulings.length ? ["RULINGS IN CASES WE FOLLOW", ...rulings.map((r) => `${plain(r.title)}: ${fmtDate(r.date)}, ${r.kind === "closed" ? "case closed" : plain(r.text)}. ${matterUrl(r.id)}`), ""] : []),
     `Set up free alerts: ${link("/account.html#watchlists")}`, "",
-    `Unsubscribe: ${unsubscribeUrl}`, "CREdocket summarizes public records and reporting. Not legal advice.", postalAddress,
+    `Unsubscribe: ${unsubscribeUrl}`, "CREdocket summarizes public records and reporting. Not legal advice. A listing reflects a public filing, notice or report. It is not a finding that any party did anything wrong or cannot pay its debts.", postalAddress,
   ].join("\n");
 
   const s = stats;
   const parts = [
     s[1] && s[1].now ? plural(s[1].now, "real estate Chapter 11") : "",
-    s[2] && s[2].now ? `${s[2].now} CMBS loans in trouble` : "",
+    s[2] && s[2].now ? plural(s[2].now, "CMBS servicer report") : "",
     `${matters.length} new cases`,
   ].filter(Boolean);
   const subject = `CRE Distress Brief: ${parts.join(", ")}`;

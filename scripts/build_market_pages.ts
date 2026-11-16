@@ -211,7 +211,7 @@ function pageFor(m: Market, all: Market[]) {
     section("foreclosures", "Upcoming foreclosure sales", `Commercial properties ${m.state === "TX" ? "posted with the county clerk for a trustee's sale (Texas sales are held on the first Tuesday of the month; a posted sale can be postponed or called off)" : "posted for sale"}, soonest first.`,
       fc.map((r) => row(r, `${place(r)}${r.propertyType ? " · " + esc(r.propertyType) : ""} · <strong class="rf-soon">sale ${fmt(r.future!)}</strong>${sizeOf(r) ? " · " + esc(sizeOf(r)) : ""}`)),
       fcPast.length ? `<p class="mk-intro">Plus ${plural(fcPast.length, "earlier posting")} for sales already held or passed, on <a href="/texas-foreclosures.html">Texas Foreclosure Sales</a>.</p>` : ""),
-    section("cmbs", "CMBS loans in trouble", "Loans in commercial mortgage-backed securities trusts that the servicer reports in foreclosure, bank-owned (REO) or with the borrower in bankruptcy, from the trusts' monthly filings with the SEC. Largest balance first.",
+    section("cmbs", "CMBS servicer reports", "Loans in commercial mortgage-backed securities trusts that the servicer reports in foreclosure, bank-owned (REO) or with the borrower in bankruptcy, from the trusts' monthly filings with the SEC. Largest balance first.",
       cm.slice(0, 25).map((r) => row(r, `${place(r)}${r.propertyType ? " · " + esc(r.propertyType) : ""} · reported ${fmt(r.date)}`))),
     section("sale-deeds", "Court-ordered sale deeds", "Referee's deeds recorded with the New York City Register after a court-ordered sale of commercial property, usually the end of a foreclosure. The public copy of the register runs about two weeks behind.",
       ny.map((r) => row(r, `${place(r)}${r.propertyType ? " · " + esc(r.propertyType) : ""} · recorded ${fmt(r.date)}`))),
@@ -316,7 +316,7 @@ ${radarStyle}
   <div class="container">
     <div class="radar-live">Markets · updated ${fmt(today)}</div>
     <h1 class="mt-16">Commercial real estate distress, market by market.</h1>
-    <p class="lede mt-16">Every metro and state with at least ${MIN_RECORDS} distress records in the last 12 months has its own page: upcoming foreclosure sales, CMBS loans in trouble, real estate bankruptcies, lender suits and federal lawsuits, each linked to its source. The number on each card is its record count.</p>
+    <p class="lede mt-16">Every metro and state with at least ${MIN_RECORDS} distress records in the last 12 months has its own page: upcoming foreclosure sales, CMBS servicer reports, real estate bankruptcies, lender suits and federal lawsuits, each linked to its source. The number on each card is its record count.</p>
     <h2 style="font-size:1.4rem; margin-top:32px;">Metro areas</h2>
     <div class="rt-grid">${metros.map(card).join("")}</div>
     <h2 style="font-size:1.4rem; margin-top:32px;">States</h2>
