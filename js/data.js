@@ -14967,6 +14967,19 @@ const RELAW_DATA = {
       summary: "Trepp's CMBS special servicing rate rose 25 basis points to 11.74% in October, 90 basis points above a year earlier and the highest reading since December 2012, CRE Daily reports. About $3.01 billion moved into special servicing across 46 loans, up 14% from September, and lodging made up 37% of the new transfers, led by the $745.7 million Project Prime hotel portfolio loan, which matures Dec. 6, and the $517.7 million Blackjack apartment portfolio. The lodging rate jumped 122 bps to 10.17%, multifamily rose to 9.22% and mixed-use to 13.61%, while office improved to 16.60% and retail eased to 13.71%. Roughly 45% of the dollars in the bigger loans moved because a balloon payment or maturity was about to be missed, and exits slowed to about $1.53 billion across 38 loans, down 22% from September.",
       significance: "Transfers driven by maturities rather than missed monthly payments mean special servicers are taking over loans on properties that still cover debt service, which sets up disputes over extension terms, cash management, default interest and servicer fees rather than simple payment defaults. Hotel and apartment borrowers with near-term balloon dates should expect pre-negotiation agreements, receiver motions and guaranty demands, and lenders on large portfolios face contested valuations if workouts fail. With fewer loans leaving special servicing than entering, the backlog of foreclosure and receivership actions is likely to grow.",
       tags: ["cmbs", "special servicing", "trepp", "hotels", "maturity defaults"]
+    },
+    {
+      id: "trend-032",
+      title: "CRED iQ: Apartment Loans Hold 94% Occupancy but Income Slips, and Loans Below 1.0x Coverage Nearly Double in Denver and Austin",
+      category: "lending-foreclosure",
+      date: "2026-11-13",
+      scope: "U.S. securitized apartment loans (CRED iQ review of 7,597 loans and Freddie Mac watchlist comments, as reported by CRE Daily)",
+      metric: "Median occupancy 94%; revenue +1.0%, expenses +2.5%, NOI -0.2%; Denver 38 of 138 loans below 1.0x coverage (20 a year ago), Austin 39 of 87 (from 20); concessions in 6.8% of Freddie Mac watchlist comments (3.8% a year earlier); 294 loans carrying $6.3B affected",
+      source: "live",
+      sourceUrl: "https://www.credaily.com/briefs/apartment-concessions-climb-as-owners-defend-94-occupancy/",
+      summary: "CRED iQ's review of 7,597 securitized apartment loans found median occupancy steady at 94%, but revenue rose only 1.0% against 2.5% higher expenses, so net operating income slipped 0.2%, CRE Daily reports. The weakness is concentrated in a few metros: Denver revenue fell 5.4% and NOI 11.8%, and Austin revenue fell 5.1% and NOI 10.8%. Denver now has 38 of its 138 loans below 1.0x debt service coverage, up from 20 a year ago, and Austin's count rose to 39 of 87, also from 20. Concessions appeared in 6.8% of Freddie Mac apartment watchlist comments in October, up from 3.8% a year earlier, and across all deal types 294 loans carrying $6.3 billion are affected.",
+      significance: "Occupancy held up by free rent hides falling income, and a loan that no longer covers its debt service is the usual first step toward cash-management triggers, watchlist and special servicing transfers, and then default notices. Apartment owners in Denver, Austin and other oversupplied markets should expect lenders and servicers to test debt service coverage covenants and reserve requirements, and guarantors should review carve-out and shortfall exposure before a workout begins. Lenders weighing extensions will want current rent rolls that show concessions, since reported revenue lags what owners are giving away to keep units filled.",
+      tags: ["multifamily", "debt service coverage", "concessions", "cred iq", "freddie mac"]
     }
   ],
 
