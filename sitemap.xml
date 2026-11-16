@@ -81,6 +81,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://credocket.com/brief-2026-11-09.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/briefs.html</loc>
     <lastmod>2026-11-16</lastmod>
     <priority>0.8</priority>
@@ -357,7 +362,7 @@
   </url>
   <url>
     <loc>https://credocket.com/company-us-bank-national-association.html</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -2887,6 +2892,16 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-409.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-410.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-411.html</loc>
     <lastmod>2026-11-16</lastmod>
     <priority>0.6</priority>
   </url>

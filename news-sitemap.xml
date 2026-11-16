@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://credocket.com/matters/live-411.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-16</news:publication_date>
+      <news:title>Penn Hurst Holdings DE LLC v. East Vincent Township: Judge Lets Adjoining Farm Owners and Residents' Group Join Appeal Over Rejected Pennhurst Data Center</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-410.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-16</news:publication_date>
+      <news:title>In re F-Star Socorro, L.P. (Five Star Development): Court Conditionally Approves Disclosure Statement, Sending Commercial Property Debtors' $180M Exit Plan to a Creditor Vote</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://credocket.com/matters/live-409.html</loc>
     <news:news>
       <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
