@@ -14466,6 +14466,19 @@ const RELAW_DATA = {
       summary: "Trepp's overall CMBS delinquency rate fell 15 basis points to 7.87% in October from 8.02% in September, but the improvement came largely from a single loan: a $975 million showroom portfolio loan tied to High Point and Las Vegas returned to current status. Underneath, retail posted the biggest increase, rising 63 basis points to 7.21%, office rose 17 basis points to 12.33%, still the highest of any property type, and multifamily edged up 5 basis points to 8.09%. Lodging improved to 5.94% and industrial eased to 1.10%. The largest new delinquencies were a $384.3 million Los Angeles office loan and a $210 million Bay Area apartment loan.",
       significance: "A headline decline driven by one large cure masks worsening payment performance in retail, office and multifamily, the sectors that generate most foreclosure, receivership and guaranty litigation. Newly delinquent large loans typically move to special servicing and then to default notices, receiver motions and maturity-default suits, so borrowers, guarantors and mezzanine lenders on retail and office collateral should expect more contested workouts rather than relief.",
       tags: ["cmbs", "delinquency", "trepp", "retail", "office"]
+    },
+    {
+      id: "trend-030",
+      title: "Green Street: Commercial Property Prices Fall 0.7% in October, Trimming 12-Month Gain to 3.7%",
+      category: "lending-foreclosure",
+      date: "2026-11-05",
+      scope: "U.S. commercial real estate values (Green Street Commercial Property Price Index, October 2026)",
+      metric: "All-property index -0.7% in October; +3.7% over twelve months",
+      source: "live",
+      sourceUrl: "https://www.greenstreet.com/property-prices-tick-lower/",
+      summary: "Green Street reports that its Commercial Property Price Index declined 0.7 percent in October 2026, leaving values up 3.7 percent over the past twelve months. The firm's co-head of strategic research said a recent dip in bond yields is a welcome sign but that investors are still contending with a 10-year Treasury yield near 5 percent.",
+      significance: "A monthly price decline with long-term rates near 5 percent keeps pressure on appraised values that drive loan-to-value tests, refinancing proceeds and maturity extensions. Where updated appraisals come in lower, borrowers face paydown demands, cash-management triggers and covenant defaults, and the gap between valuation and debt is what typically pushes a workout toward receivership or foreclosure litigation. Owners and lenders heading into 2027 maturities should expect valuation disputes to feature in extension and modification fights.",
+      tags: ["property values", "price index", "refinancing", "interest rates", "green street"]
     }
   ],
 
