@@ -1,0 +1,4522 @@
+{
+ "generated": "2026-11-16",
+ "note": "Totals only. Built by scripts/aggregate_opinion_outcomes.py from court opinions in CourtListener's public bulk data (2000 to 2026), read by Claude models with every dollar figure checked against a verbatim quote in the opinion. Case-level data is not published.",
+ "minN": 20,
+ "opinions": 10437,
+ "models": {
+  "claude-haiku-5-5": 10054,
+  "claude-opus-5-5": 383
+ },
+ "categories": {
+  "lease-disputes": {
+   "cases": 3770,
+   "years": [
+    1999,
+    2026
+   ],
+   "courtLevels": {
+    "intermediate-appellate": 2340,
+    "federal-district": 489,
+    "supreme": 295,
+    "trial": 244,
+    "bankruptcy": 205,
+    "federal-appeals": 190,
+    "other": 7
+   },
+   "propertyTypes": {
+    "Retail": 1409,
+    "Office": 449,
+    "Industrial": 347,
+    "Hospitality": 113,
+    "Medical Office": 104,
+    "Land/Development": 95
+   },
+   "sides": {
+    "landlord": {
+     "claims": 2991,
+     "awardToClaim": {
+      "p25": 0.5,
+      "median": 1.0,
+      "p75": 1.0,
+      "n": 483
+     },
+     "fullRecoveryPct": 55,
+     "underHalfPct": 25,
+     "appealed": 1946,
+     "affirmedPct": 59,
+     "finalToClaim": {
+      "p25": 0.208,
+      "median": 0.909,
+      "p75": 1.0,
+      "n": 418
+     },
+     "medianAward": 73000,
+     "awardsN": 1367
+    },
+    "tenant": {
+     "claims": 1555,
+     "awardToClaim": {
+      "p25": 0.506,
+      "median": 1.0,
+      "p75": 1.0,
+      "n": 141
+     },
+     "fullRecoveryPct": 60,
+     "underHalfPct": 24,
+     "appealed": 1110,
+     "affirmedPct": 59,
+     "finalToClaim": {
+      "p25": 0.042,
+      "median": 0.94,
+      "p75": 1.0,
+      "n": 121
+     },
+     "medianAward": 65876,
+     "awardsN": 660
+    }
+   },
+   "states": {
+    "AK": {
+     "cases": 21,
+     "years": [
+      2009,
+      2025
+     ],
+     "courtLevels": {
+      "supreme": 17,
+      "intermediate-appellate": 1,
+      "federal-appeals": 1,
+      "federal-district": 1,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Retail": 5,
+      "Office": 4,
+      "Land/Development": 2,
+      "Industrial": 2,
+      "Medical Office": 1,
+      "Mixed-Use": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 16
+      },
+      "tenant": {
+       "claims": 8
+      }
+     }
+    },
+    "AL": {
+     "cases": 35,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "supreme": 16,
+      "intermediate-appellate": 12,
+      "federal-district": 5,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Retail": 17,
+      "Office": 5,
+      "Medical Office": 2,
+      "Hospitality": 1,
+      "Industrial": 1,
+      "Land/Development": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 26
+      },
+      "tenant": {
+       "claims": 12
+      }
+     }
+    },
+    "AR": {
+     "cases": 22,
+     "years": [
+      2004,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 12,
+      "federal-district": 4,
+      "supreme": 3,
+      "bankruptcy": 2,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Retail": 13,
+      "Industrial": 2,
+      "Medical Office": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 27
+      },
+      "tenant": {
+       "claims": 4
+      }
+     }
+    },
+    "AZ": {
+     "cases": 31,
+     "years": [
+      2016,
+      2024
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 23,
+      "federal-district": 7,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Retail": 7,
+      "Industrial": 3,
+      "Office": 3,
+      "Medical Office": 2,
+      "Hospitality": 1,
+      "Senior Living": 1
+     },
+     "sides": {
+      "tenant": {
+       "claims": 11
+      },
+      "landlord": {
+       "claims": 24
+      }
+     }
+    },
+    "CA": {
+     "cases": 357,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 299,
+      "federal-district": 28,
+      "federal-appeals": 15,
+      "bankruptcy": 10,
+      "supreme": 4,
+      "trial": 1
+     },
+     "propertyTypes": {
+      "Retail": 136,
+      "Office": 49,
+      "Industrial": 28,
+      "Hospitality": 10,
+      "Land/Development": 8,
+      "Mixed-Use": 7
+     },
+     "sides": {
+      "tenant": {
+       "claims": 154,
+       "appealed": 131,
+       "affirmedPct": 63,
+       "medianAward": 100000,
+       "awardsN": 67
+      },
+      "landlord": {
+       "claims": 242,
+       "awardToClaim": {
+        "p25": 0.514,
+        "median": 0.922,
+        "p75": 1.0,
+        "n": 45
+       },
+       "fullRecoveryPct": 49,
+       "underHalfPct": 22,
+       "appealed": 179,
+       "affirmedPct": 66,
+       "finalToClaim": {
+        "p25": 0.192,
+        "median": 0.921,
+        "p75": 1.0,
+        "n": 38
+       },
+       "medianAward": 135049,
+       "awardsN": 127
+      }
+     }
+    },
+    "CO": {
+     "cases": 30,
+     "years": [
+      2002,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 14,
+      "federal-appeals": 6,
+      "federal-district": 5,
+      "trial": 2,
+      "supreme": 2,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Retail": 11,
+      "Office": 5,
+      "Industrial": 4,
+      "Mixed-Use": 1,
+      "Hospitality": 1,
+      "Land/Development": 1
+     },
+     "sides": {
+      "tenant": {
+       "claims": 8
+      },
+      "landlord": {
+       "claims": 24
+      }
+     }
+    },
+    "CT": {
+     "cases": 94,
+     "years": [
+      2002,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 45,
+      "trial": 29,
+      "federal-district": 10,
+      "supreme": 9,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Retail": 39,
+      "Office": 13,
+      "Industrial": 6,
+      "Medical Office": 4,
+      "Mixed-Use": 3,
+      "Hospitality": 2
+     },
+     "sides": {
+      "tenant": {
+       "claims": 28
+      },
+      "landlord": {
+       "claims": 88,
+       "appealed": 46,
+       "affirmedPct": 59,
+       "medianAward": 10500,
+       "awardsN": 47
+      }
+     }
+    },
+    "DC": {
+     "cases": 35,
+     "years": [
+      2001,
+      2025
+     ],
+     "courtLevels": {
+      "federal-district": 13,
+      "supreme": 12,
+      "intermediate-appellate": 5,
+      "bankruptcy": 2,
+      "federal-appeals": 2,
+      "other": 1
+     },
+     "propertyTypes": {
+      "Retail": 13,
+      "Office": 5,
+      "Hospitality": 3,
+      "Mixed-Use": 3,
+      "Industrial": 1,
+      "Land/Development": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 29
+      },
+      "tenant": {
+       "claims": 19
+      }
+     }
+    },
+    "FL": {
+     "cases": 110,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 71,
+      "bankruptcy": 15,
+      "federal-district": 15,
+      "federal-appeals": 7,
+      "supreme": 2
+     },
+     "propertyTypes": {
+      "Retail": 39,
+      "Office": 13,
+      "Industrial": 10,
+      "Land/Development": 6,
+      "Hospitality": 3,
+      "Medical Office": 3
+     },
+     "sides": {
+      "landlord": {
+       "claims": 72,
+       "appealed": 42,
+       "affirmedPct": 33,
+       "medianAward": 113789,
+       "awardsN": 26
+      },
+      "tenant": {
+       "claims": 40,
+       "appealed": 28,
+       "affirmedPct": 39,
+       "medianAward": 65718,
+       "awardsN": 23
+      }
+     }
+    },
+    "GA": {
+     "cases": 78,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 64,
+      "bankruptcy": 6,
+      "federal-district": 4,
+      "federal-appeals": 3,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Retail": 34,
+      "Office": 12,
+      "Industrial": 6,
+      "Medical Office": 2,
+      "Mixed-Use": 2,
+      "Hospitality": 2
+     },
+     "sides": {
+      "landlord": {
+       "claims": 68,
+       "appealed": 58,
+       "affirmedPct": 57,
+       "medianAward": 64365,
+       "awardsN": 28
+      },
+      "tenant": {
+       "claims": 43,
+       "appealed": 41,
+       "affirmedPct": 51
+      }
+     }
+    },
+    "HI": {
+     "cases": 22,
+     "years": [
+      2000,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 7,
+      "supreme": 6,
+      "federal-district": 5,
+      "bankruptcy": 2,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Retail": 8,
+      "Hospitality": 4,
+      "Industrial": 1,
+      "Mixed-Use": 1,
+      "Medical Office": 1,
+      "Land/Development": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 7
+      },
+      "tenant": {
+       "claims": 8
+      }
+     }
+    },
+    "IA": {
+     "cases": 32,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 14,
+      "supreme": 12,
+      "federal-district": 4,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Retail": 8,
+      "Land/Development": 6,
+      "Industrial": 4,
+      "Mixed-Use": 2,
+      "Office": 2,
+      "Medical Office": 1
+     },
+     "sides": {
+      "tenant": {
+       "claims": 18
+      },
+      "landlord": {
+       "claims": 16
+      }
+     }
+    },
+    "IL": {
+     "cases": 161,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 121,
+      "federal-district": 17,
+      "bankruptcy": 12,
+      "federal-appeals": 9,
+      "supreme": 2
+     },
+     "propertyTypes": {
+      "Retail": 75,
+      "Office": 22,
+      "Industrial": 17,
+      "Mixed-Use": 5,
+      "Medical Office": 2,
+      "Hospitality": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 151,
+       "awardToClaim": {
+        "p25": 0.711,
+        "median": 1.0,
+        "p75": 1.217,
+        "n": 29
+       },
+       "fullRecoveryPct": 69,
+       "underHalfPct": 7,
+       "appealed": 110,
+       "affirmedPct": 65,
+       "finalToClaim": {
+        "p25": 0.38,
+        "median": 0.914,
+        "p75": 1.045,
+        "n": 26
+       },
+       "medianAward": 94361,
+       "awardsN": 73
+      },
+      "tenant": {
+       "claims": 55,
+       "appealed": 37,
+       "affirmedPct": 70,
+       "medianAward": 24070,
+       "awardsN": 24
+      }
+     }
+    },
+    "IN": {
+     "cases": 47,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 39,
+      "federal-appeals": 4,
+      "federal-district": 4
+     },
+     "propertyTypes": {
+      "Retail": 18,
+      "Office": 6,
+      "Industrial": 5,
+      "Senior Living": 3,
+      "Medical Office": 2,
+      "Mixed-Use": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 52,
+       "appealed": 43,
+       "affirmedPct": 63,
+       "medianAward": 172760,
+       "awardsN": 31
+      },
+      "tenant": {
+       "claims": 16
+      }
+     }
+    },
+    "KS": {
+     "cases": 28,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 14,
+      "federal-district": 7,
+      "federal-appeals": 4,
+      "bankruptcy": 3
+     },
+     "propertyTypes": {
+      "Retail": 13,
+      "Office": 4,
+      "Hospitality": 2,
+      "Industrial": 2
+     },
+     "sides": {
+      "landlord": {
+       "claims": 31
+      },
+      "tenant": {
+       "claims": 5
+      }
+     }
+    },
+    "KY": {
+     "cases": 24,
+     "years": [
+      2007,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 8,
+      "federal-district": 7,
+      "federal-appeals": 4,
+      "bankruptcy": 3,
+      "supreme": 2
+     },
+     "propertyTypes": {
+      "Retail": 8,
+      "Industrial": 6,
+      "Office": 1,
+      "Self-Storage": 1,
+      "Mixed-Use": 1,
+      "Senior Living": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 22
+      },
+      "tenant": {
+       "claims": 10
+      }
+     }
+    },
+    "LA": {
+     "cases": 138,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 110,
+      "federal-district": 22,
+      "federal-appeals": 4,
+      "bankruptcy": 1,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Retail": 44,
+      "Industrial": 23,
+      "Office": 14,
+      "Medical Office": 10,
+      "Hospitality": 10,
+      "Land/Development": 4
+     },
+     "sides": {
+      "landlord": {
+       "claims": 85,
+       "appealed": 69,
+       "affirmedPct": 67,
+       "medianAward": 56767,
+       "awardsN": 48
+      },
+      "tenant": {
+       "claims": 53,
+       "appealed": 44,
+       "affirmedPct": 64,
+       "medianAward": 62500,
+       "awardsN": 26
+      }
+     }
+    },
+    "MA": {
+     "cases": 140,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 46,
+      "trial": 44,
+      "federal-district": 17,
+      "bankruptcy": 12,
+      "supreme": 11,
+      "other": 6,
+      "federal-appeals": 4
+     },
+     "propertyTypes": {
+      "Retail": 35,
+      "Industrial": 14,
+      "Office": 12,
+      "Mixed-Use": 8,
+      "Medical Office": 8,
+      "Land/Development": 2
+     },
+     "sides": {
+      "tenant": {
+       "claims": 63,
+       "appealed": 26,
+       "affirmedPct": 50,
+       "medianAward": 27744,
+       "awardsN": 24
+      },
+      "landlord": {
+       "claims": 111,
+       "appealed": 50,
+       "affirmedPct": 62,
+       "medianAward": 82442,
+       "awardsN": 38
+      }
+     }
+    },
+    "MD": {
+     "cases": 56,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 23,
+      "federal-district": 15,
+      "supreme": 10,
+      "federal-appeals": 6,
+      "bankruptcy": 2
+     },
+     "propertyTypes": {
+      "Retail": 26,
+      "Office": 14,
+      "Industrial": 5,
+      "Hospitality": 3,
+      "Multifamily": 2,
+      "Medical Office": 1
+     },
+     "sides": {
+      "tenant": {
+       "claims": 34,
+       "appealed": 24,
+       "affirmedPct": 67
+      },
+      "landlord": {
+       "claims": 36,
+       "appealed": 24,
+       "affirmedPct": 50
+      }
+     }
+    },
+    "MI": {
+     "cases": 73,
+     "years": [
+      2005,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 41,
+      "federal-district": 15,
+      "bankruptcy": 10,
+      "federal-appeals": 6,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Retail": 22,
+      "Industrial": 17,
+      "Office": 7,
+      "Self-Storage": 2,
+      "Land/Development": 1,
+      "Medical Office": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 51,
+       "appealed": 30,
+       "affirmedPct": 70
+      },
+      "tenant": {
+       "claims": 25,
+       "appealed": 20,
+       "affirmedPct": 75
+      }
+     }
+    },
+    "MN": {
+     "cases": 23,
+     "years": [
+      2013,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 14,
+      "federal-district": 4,
+      "supreme": 3,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Retail": 11,
+      "Office": 1,
+      "Land/Development": 1,
+      "Data Center": 1,
+      "Mixed-Use": 1,
+      "Industrial": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 15
+      },
+      "tenant": {
+       "claims": 7
+      }
+     }
+    },
+    "MO": {
+     "cases": 79,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 57,
+      "federal-district": 9,
+      "federal-appeals": 8,
+      "bankruptcy": 5
+     },
+     "propertyTypes": {
+      "Retail": 31,
+      "Office": 8,
+      "Industrial": 5,
+      "Multifamily": 3,
+      "Mixed-Use": 2,
+      "Land/Development": 2
+     },
+     "sides": {
+      "landlord": {
+       "claims": 65,
+       "appealed": 45,
+       "affirmedPct": 53,
+       "medianAward": 20130,
+       "awardsN": 24
+      },
+      "tenant": {
+       "claims": 19
+      }
+     }
+    },
+    "MS": {
+     "cases": 38,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 14,
+      "supreme": 13,
+      "federal-district": 5,
+      "federal-appeals": 5,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Retail": 8,
+      "Office": 7,
+      "Industrial": 4,
+      "Land/Development": 4,
+      "Hospitality": 4,
+      "Mixed-Use": 2
+     },
+     "sides": {
+      "tenant": {
+       "claims": 15
+      },
+      "landlord": {
+       "claims": 28,
+       "appealed": 24,
+       "affirmedPct": 58
+      }
+     }
+    },
+    "NC": {
+     "cases": 58,
+     "years": [
+      2000,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 34,
+      "federal-district": 10,
+      "trial": 9,
+      "bankruptcy": 2,
+      "federal-appeals": 2,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Retail": 22,
+      "Industrial": 4,
+      "Office": 4,
+      "Medical Office": 3,
+      "Multifamily": 1,
+      "Land/Development": 1
+     },
+     "sides": {
+      "tenant": {
+       "claims": 20
+      },
+      "landlord": {
+       "claims": 42,
+       "appealed": 24,
+       "affirmedPct": 79,
+       "medianAward": 43962,
+       "awardsN": 24
+      }
+     }
+    },
+    "ND": {
+     "cases": 20,
+     "years": [
+      2000,
+      2023
+     ],
+     "courtLevels": {
+      "supreme": 14,
+      "federal-district": 2,
+      "intermediate-appellate": 2,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Retail": 4,
+      "Medical Office": 3,
+      "Industrial": 2,
+      "Land/Development": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 18
+      },
+      "tenant": {
+       "claims": 4
+      }
+     }
+    },
+    "NE": {
+     "cases": 24,
+     "years": [
+      2007,
+      2026
+     ],
+     "courtLevels": {
+      "supreme": 11,
+      "intermediate-appellate": 10,
+      "federal-appeals": 2,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Retail": 9,
+      "Office": 3,
+      "Industrial": 3,
+      "Land/Development": 1
+     },
+     "sides": {
+      "tenant": {
+       "claims": 4
+      },
+      "landlord": {
+       "claims": 17
+      }
+     }
+    },
+    "NH": {
+     "cases": 21,
+     "years": [
+      2009,
+      2026
+     ],
+     "courtLevels": {
+      "supreme": 11,
+      "federal-district": 6,
+      "trial": 2,
+      "intermediate-appellate": 1,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Retail": 9,
+      "Office": 3,
+      "Land/Development": 2,
+      "Industrial": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 11
+      },
+      "tenant": {
+       "claims": 14
+      }
+     }
+    },
+    "NJ": {
+     "cases": 120,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 83,
+      "federal-district": 17,
+      "federal-appeals": 7,
+      "bankruptcy": 6,
+      "trial": 4,
+      "supreme": 3
+     },
+     "propertyTypes": {
+      "Retail": 48,
+      "Industrial": 20,
+      "Office": 16,
+      "Mixed-Use": 2,
+      "Hospitality": 1,
+      "Senior Living": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 115,
+       "appealed": 75,
+       "affirmedPct": 52,
+       "medianAward": 100494,
+       "awardsN": 54
+      },
+      "tenant": {
+       "claims": 45,
+       "appealed": 27,
+       "affirmedPct": 74
+      }
+     }
+    },
+    "NY": {
+     "cases": 376,
+     "years": [
+      1999,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 189,
+      "trial": 83,
+      "federal-district": 59,
+      "bankruptcy": 27,
+      "supreme": 9,
+      "federal-appeals": 9
+     },
+     "propertyTypes": {
+      "Retail": 113,
+      "Office": 47,
+      "Industrial": 16,
+      "Mixed-Use": 11,
+      "Medical Office": 11,
+      "Land/Development": 10
+     },
+     "sides": {
+      "landlord": {
+       "claims": 322,
+       "awardToClaim": {
+        "p25": 0.302,
+        "median": 1.0,
+        "p75": 1.0,
+        "n": 35
+       },
+       "fullRecoveryPct": 57,
+       "underHalfPct": 31,
+       "appealed": 156,
+       "affirmedPct": 40,
+       "finalToClaim": {
+        "p25": 0.276,
+        "median": 0.961,
+        "p75": 1.0,
+        "n": 43
+       },
+       "medianAward": 193350,
+       "awardsN": 107
+      },
+      "tenant": {
+       "claims": 140,
+       "appealed": 70,
+       "affirmedPct": 34,
+       "medianAward": 114750,
+       "awardsN": 49
+      }
+     }
+    },
+    "OH": {
+     "cases": 224,
+     "years": [
+      2006,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 193,
+      "federal-district": 20,
+      "bankruptcy": 5,
+      "federal-appeals": 5,
+      "trial": 1
+     },
+     "propertyTypes": {
+      "Retail": 118,
+      "Office": 15,
+      "Industrial": 13,
+      "Medical Office": 7,
+      "Hospitality": 4,
+      "Mixed-Use": 4
+     },
+     "sides": {
+      "landlord": {
+       "claims": 187,
+       "awardToClaim": {
+        "p25": 0.67,
+        "median": 0.993,
+        "p75": 1.0,
+        "n": 44
+       },
+       "fullRecoveryPct": 55,
+       "underHalfPct": 18,
+       "appealed": 138,
+       "affirmedPct": 64,
+       "finalToClaim": {
+        "p25": 0.521,
+        "median": 0.993,
+        "p75": 1.0,
+        "n": 36
+       },
+       "medianAward": 46359,
+       "awardsN": 98
+      },
+      "tenant": {
+       "claims": 97,
+       "appealed": 88,
+       "affirmedPct": 67,
+       "medianAward": 27157,
+       "awardsN": 41
+      }
+     }
+    },
+    "OR": {
+     "cases": 22,
+     "years": [
+      2019,
+      2026
+     ],
+     "courtLevels": {
+      "federal-district": 11,
+      "intermediate-appellate": 11
+     },
+     "propertyTypes": {
+      "Retail": 5,
+      "Office": 2,
+      "Industrial": 2,
+      "Hospitality": 2,
+      "Senior Living": 1,
+      "Multifamily": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 12
+      },
+      "tenant": {
+       "claims": 7
+      }
+     }
+    },
+    "PA": {
+     "cases": 127,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 78,
+      "federal-district": 22,
+      "bankruptcy": 12,
+      "trial": 10,
+      "supreme": 5
+     },
+     "propertyTypes": {
+      "Retail": 56,
+      "Industrial": 14,
+      "Office": 14,
+      "Hospitality": 4,
+      "Medical Office": 3,
+      "Land/Development": 2
+     },
+     "sides": {
+      "landlord": {
+       "claims": 102,
+       "awardToClaim": {
+        "p25": 0.667,
+        "median": 1.0,
+        "p75": 1.0,
+        "n": 27
+       },
+       "fullRecoveryPct": 52,
+       "underHalfPct": 22,
+       "appealed": 47,
+       "affirmedPct": 62,
+       "finalToClaim": {
+        "p25": 0.23,
+        "median": 0.794,
+        "p75": 1.0,
+        "n": 24
+       },
+       "medianAward": 110000,
+       "awardsN": 47
+      },
+      "tenant": {
+       "claims": 46,
+       "appealed": 32,
+       "affirmedPct": 69,
+       "medianAward": 120500,
+       "awardsN": 20
+      }
+     }
+    },
+    "PR": {
+     "cases": 26,
+     "years": [
+      2002,
+      2026
+     ],
+     "courtLevels": {
+      "bankruptcy": 13,
+      "federal-district": 9,
+      "federal-appeals": 3,
+      "intermediate-appellate": 1
+     },
+     "propertyTypes": {
+      "Retail": 15,
+      "Industrial": 4,
+      "Hospitality": 2,
+      "Office": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 15
+      },
+      "tenant": {
+       "claims": 11
+      }
+     }
+    },
+    "RI": {
+     "cases": 21,
+     "years": [
+      2017,
+      2025
+     ],
+     "courtLevels": {
+      "supreme": 10,
+      "trial": 8,
+      "federal-district": 2,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Retail": 9,
+      "Hospitality": 3,
+      "Office": 2
+     },
+     "sides": {
+      "landlord": {
+       "claims": 21
+      },
+      "tenant": {
+       "claims": 7
+      }
+     }
+    },
+    "SC": {
+     "cases": 30,
+     "years": [
+      2006,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 20,
+      "supreme": 4,
+      "federal-district": 3,
+      "bankruptcy": 2,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Retail": 18,
+      "Industrial": 3,
+      "Office": 3,
+      "Hospitality": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 18
+      },
+      "tenant": {
+       "claims": 17
+      }
+     }
+    },
+    "TN": {
+     "cases": 114,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 94,
+      "supreme": 6,
+      "federal-district": 5,
+      "bankruptcy": 5,
+      "federal-appeals": 4
+     },
+     "propertyTypes": {
+      "Retail": 38,
+      "Office": 18,
+      "Industrial": 10,
+      "Hospitality": 5,
+      "Land/Development": 5,
+      "Medical Office": 3
+     },
+     "sides": {
+      "tenant": {
+       "claims": 50,
+       "appealed": 43,
+       "affirmedPct": 35,
+       "medianAward": 45000,
+       "awardsN": 28
+      },
+      "landlord": {
+       "claims": 109,
+       "appealed": 88,
+       "affirmedPct": 59,
+       "medianAward": 26564,
+       "awardsN": 65
+      }
+     }
+    },
+    "TX": {
+     "cases": 452,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 393,
+      "federal-district": 22,
+      "bankruptcy": 14,
+      "federal-appeals": 10,
+      "supreme": 9,
+      "trial": 4
+     },
+     "propertyTypes": {
+      "Retail": 167,
+      "Office": 67,
+      "Industrial": 39,
+      "Medical Office": 19,
+      "Land/Development": 15,
+      "Hospitality": 15
+     },
+     "sides": {
+      "tenant": {
+       "claims": 258,
+       "appealed": 221,
+       "affirmedPct": 60,
+       "medianAward": 40000,
+       "awardsN": 156
+      },
+      "landlord": {
+       "claims": 338,
+       "awardToClaim": {
+        "p25": 0.306,
+        "median": 0.829,
+        "p75": 1.0,
+        "n": 67
+       },
+       "fullRecoveryPct": 45,
+       "underHalfPct": 36,
+       "appealed": 275,
+       "affirmedPct": 61,
+       "finalToClaim": {
+        "p25": 0.169,
+        "median": 0.966,
+        "p75": 1.0,
+        "n": 54
+       },
+       "medianAward": 36069,
+       "awardsN": 191
+      }
+     }
+    },
+    "UT": {
+     "cases": 24,
+     "years": [
+      2015,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 15,
+      "supreme": 6,
+      "federal-district": 3
+     },
+     "propertyTypes": {
+      "Retail": 12,
+      "Office": 4,
+      "Industrial": 3
+     },
+     "sides": {
+      "landlord": {
+       "claims": 21
+      },
+      "tenant": {
+       "claims": 12
+      }
+     }
+    },
+    "VA": {
+     "cases": 47,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "trial": 13,
+      "federal-district": 9,
+      "supreme": 9,
+      "intermediate-appellate": 8,
+      "federal-appeals": 6,
+      "bankruptcy": 2
+     },
+     "propertyTypes": {
+      "Retail": 20,
+      "Industrial": 4,
+      "Senior Living": 4,
+      "Hospitality": 3,
+      "Land/Development": 3,
+      "Office": 2
+     },
+     "sides": {
+      "landlord": {
+       "claims": 34
+      },
+      "tenant": {
+       "claims": 12
+      }
+     }
+    },
+    "WA": {
+     "cases": 90,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 76,
+      "federal-district": 7,
+      "federal-appeals": 3,
+      "supreme": 3,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Retail": 22,
+      "Industrial": 12,
+      "Office": 8,
+      "Mixed-Use": 7,
+      "Hospitality": 6,
+      "Medical Office": 1
+     },
+     "sides": {
+      "landlord": {
+       "claims": 65,
+       "appealed": 52,
+       "affirmedPct": 60,
+       "medianAward": 37070,
+       "awardsN": 23
+      },
+      "tenant": {
+       "claims": 29,
+       "appealed": 23,
+       "affirmedPct": 74
+      }
+     }
+    },
+    "WI": {
+     "cases": 29,
+     "years": [
+      2009,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 15,
+      "federal-district": 7,
+      "supreme": 5,
+      "federal-appeals": 1,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Office": 7,
+      "Retail": 6,
+      "Industrial": 4,
+      "Senior Living": 3
+     },
+     "sides": {
+      "landlord": {
+       "claims": 38,
+       "appealed": 22,
+       "affirmedPct": 73
+      },
+      "tenant": {
+       "claims": 19
+      }
+     }
+    }
+   }
+  },
+  "lending-foreclosure": {
+   "cases": 1252,
+   "years": [
+    2000,
+    2026
+   ],
+   "courtLevels": {
+    "intermediate-appellate": 505,
+    "federal-district": 286,
+    "bankruptcy": 230,
+    "federal-appeals": 96,
+    "supreme": 94,
+    "trial": 41
+   },
+   "propertyTypes": {
+    "Multifamily": 185,
+    "Hospitality": 176,
+    "Land/Development": 172,
+    "Retail": 130,
+    "Office": 90,
+    "Mixed-Use": 73
+   },
+   "sides": {
+    "lender": {
+     "claims": 666,
+     "awardToClaim": {
+      "p25": 0.916,
+      "median": 1.0,
+      "p75": 1.0,
+      "n": 132
+     },
+     "fullRecoveryPct": 72,
+     "underHalfPct": 16,
+     "appealed": 289,
+     "affirmedPct": 61,
+     "finalToClaim": {
+      "p25": 0.637,
+      "median": 1.0,
+      "p75": 1.0,
+      "n": 115
+     },
+     "medianAward": 1331422,
+     "awardsN": 268
+    },
+    "borrower": {
+     "claims": 383,
+     "appealed": 245,
+     "affirmedPct": 73,
+     "medianAward": 274898,
+     "awardsN": 95
+    }
+   },
+   "states": {
+    "AZ": {
+     "cases": 25,
+     "years": [
+      2000,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 15,
+      "bankruptcy": 5,
+      "supreme": 3,
+      "federal-district": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 7,
+      "Hospitality": 6,
+      "Office": 3,
+      "Mixed-Use": 2,
+      "Medical Office": 1,
+      "Multifamily": 1
+     },
+     "sides": {
+      "lender": {
+       "claims": 17
+      },
+      "borrower": {
+       "claims": 1
+      }
+     }
+    },
+    "CA": {
+     "cases": 125,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 86,
+      "federal-district": 20,
+      "bankruptcy": 15,
+      "federal-appeals": 4
+     },
+     "propertyTypes": {
+      "Land/Development": 23,
+      "Hospitality": 16,
+      "Multifamily": 14,
+      "Mixed-Use": 10,
+      "Office": 10,
+      "Retail": 9
+     },
+     "sides": {
+      "lender": {
+       "claims": 46,
+       "appealed": 28,
+       "affirmedPct": 46,
+       "medianAward": 1581542,
+       "awardsN": 23
+      },
+      "borrower": {
+       "claims": 48,
+       "appealed": 28,
+       "affirmedPct": 86
+      }
+     }
+    },
+    "CO": {
+     "cases": 23,
+     "years": [
+      2013,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 11,
+      "bankruptcy": 9,
+      "federal-district": 2,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 7,
+      "Mixed-Use": 3,
+      "Office": 1,
+      "Multifamily": 1,
+      "Industrial": 1,
+      "Hospitality": 1
+     },
+     "sides": {
+      "lender": {
+       "claims": 11
+      },
+      "borrower": {
+       "claims": 12
+      }
+     }
+    },
+    "CT": {
+     "cases": 21,
+     "years": [
+      2000,
+      2023
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 8,
+      "trial": 7,
+      "federal-district": 3,
+      "bankruptcy": 2,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 6,
+      "Multifamily": 4,
+      "Retail": 3,
+      "Office": 2,
+      "Mixed-Use": 2,
+      "Senior Living": 1
+     },
+     "sides": {
+      "lender": {
+       "claims": 22
+      },
+      "borrower": {
+       "claims": 5
+      }
+     }
+    },
+    "FL": {
+     "cases": 30,
+     "years": [
+      2000,
+      2024
+     ],
+     "courtLevels": {
+      "bankruptcy": 11,
+      "intermediate-appellate": 7,
+      "federal-appeals": 6,
+      "federal-district": 6
+     },
+     "propertyTypes": {
+      "Hospitality": 5,
+      "Land/Development": 4,
+      "Mixed-Use": 4,
+      "Retail": 4,
+      "Office": 3,
+      "Multifamily": 2
+     },
+     "sides": {
+      "lender": {
+       "claims": 19
+      },
+      "borrower": {
+       "claims": 9
+      }
+     }
+    },
+    "GA": {
+     "cases": 33,
+     "years": [
+      2005,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 14,
+      "bankruptcy": 12,
+      "federal-district": 3,
+      "federal-appeals": 3,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 7,
+      "Hospitality": 4,
+      "Multifamily": 4,
+      "Retail": 4,
+      "Office": 3,
+      "Senior Living": 2
+     },
+     "sides": {
+      "lender": {
+       "claims": 19
+      },
+      "borrower": {
+       "claims": 3
+      }
+     }
+    },
+    "IL": {
+     "cases": 74,
+     "years": [
+      2005,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 43,
+      "bankruptcy": 15,
+      "federal-district": 10,
+      "federal-appeals": 4,
+      "supreme": 2
+     },
+     "propertyTypes": {
+      "Retail": 15,
+      "Office": 7,
+      "Multifamily": 6,
+      "Land/Development": 5,
+      "Senior Living": 5,
+      "Industrial": 4
+     },
+     "sides": {
+      "lender": {
+       "claims": 50,
+       "appealed": 22,
+       "affirmedPct": 59
+      },
+      "borrower": {
+       "claims": 15
+      }
+     }
+    },
+    "IN": {
+     "cases": 28,
+     "years": [
+      2005,
+      2021
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 22,
+      "federal-appeals": 3,
+      "federal-district": 2,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Retail": 7,
+      "Land/Development": 3,
+      "Industrial": 2,
+      "Multifamily": 2,
+      "Senior Living": 1,
+      "Medical Office": 1
+     },
+     "sides": {
+      "lender": {
+       "claims": 22
+      },
+      "borrower": {
+       "claims": 1
+      }
+     }
+    },
+    "MI": {
+     "cases": 35,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "federal-district": 15,
+      "intermediate-appellate": 8,
+      "bankruptcy": 7,
+      "federal-appeals": 5
+     },
+     "propertyTypes": {
+      "Hospitality": 6,
+      "Office": 6,
+      "Retail": 5,
+      "Multifamily": 5,
+      "Mixed-Use": 4,
+      "Land/Development": 2
+     },
+     "sides": {
+      "lender": {
+       "claims": 18
+      },
+      "borrower": {
+       "claims": 9
+      }
+     }
+    },
+    "MO": {
+     "cases": 22,
+     "years": [
+      2010,
+      2023
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 12,
+      "federal-appeals": 4,
+      "federal-district": 3,
+      "bankruptcy": 2,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 4,
+      "Multifamily": 3,
+      "Hospitality": 3,
+      "Senior Living": 2,
+      "Mixed-Use": 1,
+      "Office": 1
+     },
+     "sides": {
+      "borrower": {
+       "claims": 7
+      },
+      "lender": {
+       "claims": 13
+      }
+     }
+    },
+    "NC": {
+     "cases": 25,
+     "years": [
+      2009,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 8,
+      "federal-district": 7,
+      "bankruptcy": 4,
+      "trial": 2,
+      "supreme": 2,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 9,
+      "Multifamily": 6,
+      "Hospitality": 4,
+      "Office": 1
+     },
+     "sides": {
+      "lender": {
+       "claims": 17
+      },
+      "borrower": {
+       "claims": 6
+      }
+     }
+    },
+    "NJ": {
+     "cases": 31,
+     "years": [
+      2003,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 12,
+      "federal-district": 10,
+      "federal-appeals": 4,
+      "bankruptcy": 3,
+      "trial": 2
+     },
+     "propertyTypes": {
+      "Office": 4,
+      "Hospitality": 3,
+      "Industrial": 3,
+      "Multifamily": 3,
+      "Mixed-Use": 2,
+      "Retail": 2
+     },
+     "sides": {
+      "lender": {
+       "claims": 13
+      },
+      "borrower": {
+       "claims": 5
+      }
+     }
+    },
+    "NV": {
+     "cases": 29,
+     "years": [
+      2003,
+      2024
+     ],
+     "courtLevels": {
+      "supreme": 12,
+      "federal-district": 9,
+      "bankruptcy": 5,
+      "intermediate-appellate": 2,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Hospitality": 11,
+      "Land/Development": 5,
+      "Industrial": 3,
+      "Mixed-Use": 3,
+      "Retail": 2,
+      "Multifamily": 2
+     },
+     "sides": {
+      "lender": {
+       "claims": 14
+      },
+      "borrower": {
+       "claims": 5
+      }
+     }
+    },
+    "NY": {
+     "cases": 85,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "federal-district": 37,
+      "bankruptcy": 21,
+      "trial": 13,
+      "intermediate-appellate": 9,
+      "supreme": 3,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Multifamily": 21,
+      "Hospitality": 18,
+      "Mixed-Use": 8,
+      "Office": 7,
+      "Retail": 2,
+      "Senior Living": 2
+     },
+     "sides": {
+      "lender": {
+       "claims": 73,
+       "awardToClaim": {
+        "p25": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "n": 30
+       },
+       "fullRecoveryPct": 87,
+       "underHalfPct": 10,
+       "finalToClaim": {
+        "p25": 0.976,
+        "median": 1.0,
+        "p75": 1.0,
+        "n": 27
+       },
+       "medianAward": 595774,
+       "awardsN": 36
+      },
+      "borrower": {
+       "claims": 7
+      }
+     }
+    },
+    "OH": {
+     "cases": 38,
+     "years": [
+      2010,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 31,
+      "federal-appeals": 3,
+      "federal-district": 2,
+      "trial": 1,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Retail": 7,
+      "Multifamily": 7,
+      "Hospitality": 5,
+      "Industrial": 3,
+      "Mixed-Use": 2,
+      "Office": 2
+     },
+     "sides": {
+      "lender": {
+       "claims": 23
+      },
+      "borrower": {
+       "claims": 8
+      }
+     }
+    },
+    "PA": {
+     "cases": 41,
+     "years": [
+      2004,
+      2026
+     ],
+     "courtLevels": {
+      "federal-district": 16,
+      "intermediate-appellate": 13,
+      "bankruptcy": 9,
+      "trial": 2,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Multifamily": 6,
+      "Hospitality": 4,
+      "Industrial": 4,
+      "Mixed-Use": 4,
+      "Senior Living": 3,
+      "Retail": 2
+     },
+     "sides": {
+      "borrower": {
+       "claims": 27,
+       "appealed": 21,
+       "affirmedPct": 100
+      },
+      "lender": {
+       "claims": 29
+      }
+     }
+    },
+    "TN": {
+     "cases": 36,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 14,
+      "federal-district": 10,
+      "bankruptcy": 8,
+      "federal-appeals": 4
+     },
+     "propertyTypes": {
+      "Hospitality": 8,
+      "Land/Development": 7,
+      "Multifamily": 7,
+      "Senior Living": 3,
+      "Retail": 2,
+      "Industrial": 1
+     },
+     "sides": {
+      "lender": {
+       "claims": 10
+      },
+      "borrower": {
+       "claims": 6
+      }
+     }
+    },
+    "TX": {
+     "cases": 153,
+     "years": [
+      2002,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 97,
+      "bankruptcy": 30,
+      "federal-district": 13,
+      "federal-appeals": 11,
+      "trial": 1,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Multifamily": 44,
+      "Hospitality": 26,
+      "Land/Development": 17,
+      "Retail": 13,
+      "Office": 12,
+      "Senior Living": 4
+     },
+     "sides": {
+      "lender": {
+       "claims": 72,
+       "appealed": 33,
+       "affirmedPct": 70,
+       "medianAward": 411421,
+       "awardsN": 24
+      },
+      "borrower": {
+       "claims": 73,
+       "appealed": 58,
+       "affirmedPct": 57,
+       "medianAward": 375000,
+       "awardsN": 21
+      }
+     }
+    },
+    "WA": {
+     "cases": 35,
+     "years": [
+      2002,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 24,
+      "supreme": 6,
+      "federal-district": 4,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 12,
+      "Multifamily": 6,
+      "Hospitality": 1,
+      "Senior Living": 1,
+      "Office": 1
+     },
+     "sides": {
+      "lender": {
+       "claims": 14
+      },
+      "borrower": {
+       "claims": 10
+      }
+     }
+    }
+   }
+  },
+  "eminent-domain": {
+   "cases": 2669,
+   "years": [
+    1999,
+    2026
+   ],
+   "courtLevels": {
+    "intermediate-appellate": 1530,
+    "supreme": 529,
+    "federal-district": 325,
+    "trial": 142,
+    "federal-appeals": 135,
+    "bankruptcy": 8
+   },
+   "propertyTypes": {
+    "Land/Development": 993,
+    "Retail": 309,
+    "Industrial": 141,
+    "Hospitality": 56,
+    "Office": 50,
+    "Mixed-Use": 46
+   },
+   "sides": {
+    "owner": {
+     "claims": 2670,
+     "awardToClaim": {
+      "p25": 0.221,
+      "median": 0.489,
+      "p75": 0.879,
+      "n": 331
+     },
+     "fullRecoveryPct": 20,
+     "underHalfPct": 51,
+     "appealed": 1989,
+     "affirmedPct": 60,
+     "finalToClaim": {
+      "p25": 0.104,
+      "median": 0.415,
+      "p75": 0.815,
+      "n": 267
+     },
+     "medianAward": 219539,
+     "awardsN": 1772
+    }
+   },
+   "states": {
+    "AL": {
+     "cases": 24,
+     "years": [
+      2001,
+      2025
+     ],
+     "courtLevels": {
+      "supreme": 14,
+      "intermediate-appellate": 5,
+      "federal-district": 2,
+      "federal-appeals": 2,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 6,
+      "Retail": 3,
+      "Mixed-Use": 1,
+      "Industrial": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 27
+      }
+     }
+    },
+    "AR": {
+     "cases": 30,
+     "years": [
+      2011,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 16,
+      "supreme": 13,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 15,
+      "Retail": 3
+     },
+     "sides": {
+      "owner": {
+       "claims": 42,
+       "appealed": 27,
+       "affirmedPct": 78,
+       "medianAward": 63550,
+       "awardsN": 26
+      }
+     }
+    },
+    "AZ": {
+     "cases": 23,
+     "years": [
+      2004,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 18,
+      "supreme": 3,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 14,
+      "Retail": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 31,
+       "appealed": 23,
+       "affirmedPct": 43,
+       "medianAward": 620000,
+       "awardsN": 27
+      }
+     }
+    },
+    "CA": {
+     "cases": 129,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 93,
+      "federal-appeals": 18,
+      "federal-district": 12,
+      "supreme": 6
+     },
+     "propertyTypes": {
+      "Land/Development": 61,
+      "Retail": 15,
+      "Office": 6,
+      "Industrial": 6,
+      "Hospitality": 3,
+      "Medical Office": 3
+     },
+     "sides": {
+      "owner": {
+       "claims": 133,
+       "awardToClaim": {
+        "p25": 0.047,
+        "median": 0.424,
+        "p75": 0.745,
+        "n": 27
+       },
+       "fullRecoveryPct": 7,
+       "underHalfPct": 63,
+       "appealed": 110,
+       "affirmedPct": 65,
+       "finalToClaim": {
+        "p25": 0.049,
+        "median": 0.446,
+        "p75": 0.745,
+        "n": 20
+       },
+       "medianAward": 576267,
+       "awardsN": 87
+      }
+     }
+    },
+    "CO": {
+     "cases": 48,
+     "years": [
+      2002,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 37,
+      "supreme": 10,
+      "federal-district": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 29,
+      "Industrial": 3,
+      "Retail": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 52,
+       "appealed": 40,
+       "affirmedPct": 55,
+       "medianAward": 197194,
+       "awardsN": 40
+      }
+     }
+    },
+    "CT": {
+     "cases": 113,
+     "years": [
+      2002,
+      2017
+     ],
+     "courtLevels": {
+      "trial": 77,
+      "intermediate-appellate": 20,
+      "supreme": 14,
+      "federal-appeals": 1,
+      "federal-district": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 40,
+      "Industrial": 13,
+      "Retail": 12,
+      "Mixed-Use": 7,
+      "Office": 6,
+      "Medical Office": 3
+     },
+     "sides": {
+      "owner": {
+       "claims": 118,
+       "awardToClaim": {
+        "p25": 0.259,
+        "median": 0.575,
+        "p75": 0.814,
+        "n": 25
+       },
+       "fullRecoveryPct": 12,
+       "underHalfPct": 48,
+       "appealed": 32,
+       "affirmedPct": 72,
+       "finalToClaim": {
+        "p25": 0.202,
+        "median": 0.583,
+        "p75": 0.815,
+        "n": 23
+       },
+       "medianAward": 115000,
+       "awardsN": 95
+      }
+     }
+    },
+    "FL": {
+     "cases": 73,
+     "years": [
+      2000,
+      2024
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 39,
+      "federal-district": 27,
+      "supreme": 3,
+      "federal-appeals": 3,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 17,
+      "Retail": 11,
+      "Hospitality": 2,
+      "Industrial": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 65,
+       "appealed": 43,
+       "affirmedPct": 58,
+       "medianAward": 390750,
+       "awardsN": 46
+      }
+     }
+    },
+    "GA": {
+     "cases": 84,
+     "years": [
+      2000,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 69,
+      "supreme": 8,
+      "federal-appeals": 5,
+      "federal-district": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 35,
+      "Retail": 9,
+      "Office": 3,
+      "Industrial": 3,
+      "Hospitality": 1,
+      "Medical Office": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 83,
+       "appealed": 64,
+       "affirmedPct": 67,
+       "medianAward": 145037,
+       "awardsN": 64
+      }
+     }
+    },
+    "IA": {
+     "cases": 35,
+     "years": [
+      2003,
+      2025
+     ],
+     "courtLevels": {
+      "supreme": 27,
+      "intermediate-appellate": 6,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 19,
+      "Industrial": 1,
+      "Retail": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 29,
+       "appealed": 23,
+       "affirmedPct": 65
+      }
+     }
+    },
+    "IL": {
+     "cases": 103,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 89,
+      "federal-district": 6,
+      "supreme": 4,
+      "federal-appeals": 4
+     },
+     "propertyTypes": {
+      "Land/Development": 42,
+      "Retail": 18,
+      "Industrial": 5,
+      "Self-Storage": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 89,
+       "appealed": 72,
+       "affirmedPct": 68,
+       "medianAward": 140000,
+       "awardsN": 79
+      }
+     }
+    },
+    "IN": {
+     "cases": 54,
+     "years": [
+      2002,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 42,
+      "supreme": 8,
+      "federal-district": 2,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 14,
+      "Retail": 11,
+      "Hospitality": 2,
+      "Multifamily": 1,
+      "Mixed-Use": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 42,
+       "appealed": 35,
+       "affirmedPct": 51,
+       "medianAward": 551593,
+       "awardsN": 26
+      }
+     }
+    },
+    "KS": {
+     "cases": 34,
+     "years": [
+      2007,
+      2022
+     ],
+     "courtLevels": {
+      "supreme": 26,
+      "intermediate-appellate": 4,
+      "federal-district": 2,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 12,
+      "Retail": 4,
+      "Industrial": 3
+     },
+     "sides": {
+      "owner": {
+       "claims": 23
+      }
+     }
+    },
+    "KY": {
+     "cases": 41,
+     "years": [
+      2003,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 26,
+      "supreme": 9,
+      "federal-district": 3,
+      "federal-appeals": 3
+     },
+     "propertyTypes": {
+      "Land/Development": 16,
+      "Retail": 2,
+      "Industrial": 2,
+      "Mixed-Use": 1,
+      "Multifamily": 1,
+      "Self-Storage": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 35,
+       "appealed": 30,
+       "affirmedPct": 67
+      }
+     }
+    },
+    "LA": {
+     "cases": 94,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 69,
+      "federal-district": 14,
+      "federal-appeals": 6,
+      "supreme": 5
+     },
+     "propertyTypes": {
+      "Land/Development": 31,
+      "Retail": 21,
+      "Industrial": 6,
+      "Mixed-Use": 3,
+      "Office": 3
+     },
+     "sides": {
+      "owner": {
+       "claims": 111,
+       "appealed": 92,
+       "affirmedPct": 59,
+       "medianAward": 177714,
+       "awardsN": 74
+      }
+     }
+    },
+    "MA": {
+     "cases": 20,
+     "years": [
+      2003,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 8,
+      "supreme": 4,
+      "trial": 3,
+      "federal-district": 3,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 8,
+      "Industrial": 5,
+      "Mixed-Use": 1,
+      "Retail": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 26
+      }
+     }
+    },
+    "MD": {
+     "cases": 39,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "federal-district": 23,
+      "supreme": 9,
+      "federal-appeals": 5,
+      "intermediate-appellate": 2
+     },
+     "propertyTypes": {
+      "Retail": 4,
+      "Industrial": 4,
+      "Land/Development": 4,
+      "Mixed-Use": 2,
+      "Life Sciences": 1,
+      "Hospitality": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 25,
+       "appealed": 20,
+       "affirmedPct": 60
+      }
+     }
+    },
+    "MI": {
+     "cases": 37,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 18,
+      "federal-district": 8,
+      "federal-appeals": 7,
+      "supreme": 4
+     },
+     "propertyTypes": {
+      "Land/Development": 11,
+      "Industrial": 11,
+      "Retail": 3,
+      "Hospitality": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 43,
+       "appealed": 33,
+       "affirmedPct": 64,
+       "medianAward": 552275,
+       "awardsN": 30
+      }
+     }
+    },
+    "MN": {
+     "cases": 37,
+     "years": [
+      2001,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 23,
+      "supreme": 10,
+      "federal-appeals": 3,
+      "federal-district": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 12,
+      "Retail": 10,
+      "Mixed-Use": 2,
+      "Office": 1,
+      "Hospitality": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 32,
+       "appealed": 25,
+       "affirmedPct": 36
+      }
+     }
+    },
+    "MO": {
+     "cases": 39,
+     "years": [
+      2003,
+      2021
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 33,
+      "federal-district": 3,
+      "supreme": 2,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 9,
+      "Retail": 8,
+      "Industrial": 3,
+      "Medical Office": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 34,
+       "appealed": 30,
+       "affirmedPct": 73,
+       "medianAward": 272906,
+       "awardsN": 26
+      }
+     }
+    },
+    "MS": {
+     "cases": 63,
+     "years": [
+      2001,
+      2023
+     ],
+     "courtLevels": {
+      "supreme": 33,
+      "intermediate-appellate": 17,
+      "federal-district": 12,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 26,
+      "Hospitality": 3,
+      "Retail": 1,
+      "Industrial": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 57,
+       "appealed": 46,
+       "affirmedPct": 67,
+       "medianAward": 303538,
+       "awardsN": 44
+      }
+     }
+    },
+    "MT": {
+     "cases": 20,
+     "years": [
+      2001,
+      2024
+     ],
+     "courtLevels": {
+      "supreme": 14,
+      "intermediate-appellate": 3,
+      "federal-appeals": 2,
+      "federal-district": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 3,
+      "Retail": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 22,
+       "appealed": 20,
+       "affirmedPct": 40
+      }
+     }
+    },
+    "NC": {
+     "cases": 49,
+     "years": [
+      2000,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 38,
+      "federal-district": 6,
+      "supreme": 5
+     },
+     "propertyTypes": {
+      "Land/Development": 12,
+      "Retail": 6,
+      "Office": 3,
+      "Industrial": 3,
+      "Hospitality": 2,
+      "Mixed-Use": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 48,
+       "appealed": 36,
+       "affirmedPct": 61,
+       "medianAward": 154250,
+       "awardsN": 28
+      }
+     }
+    },
+    "ND": {
+     "cases": 21,
+     "years": [
+      2014,
+      2023
+     ],
+     "courtLevels": {
+      "supreme": 15,
+      "federal-district": 4,
+      "federal-appeals": 1,
+      "intermediate-appellate": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 6,
+      "Retail": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 15
+      }
+     }
+    },
+    "NJ": {
+     "cases": 75,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 55,
+      "federal-district": 8,
+      "supreme": 7,
+      "trial": 2,
+      "bankruptcy": 2,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 35,
+      "Retail": 7,
+      "Industrial": 6,
+      "Mixed-Use": 3,
+      "Office": 3,
+      "Multifamily": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 56,
+       "appealed": 45,
+       "affirmedPct": 67,
+       "medianAward": 1559375,
+       "awardsN": 34
+      }
+     }
+    },
+    "NV": {
+     "cases": 29,
+     "years": [
+      2000,
+      2024
+     ],
+     "courtLevels": {
+      "supreme": 20,
+      "federal-appeals": 4,
+      "intermediate-appellate": 4,
+      "federal-district": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 11,
+      "Office": 3,
+      "Retail": 1,
+      "Multifamily": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 45,
+       "appealed": 42,
+       "affirmedPct": 60,
+       "medianAward": 531000,
+       "awardsN": 20
+      }
+     }
+    },
+    "NY": {
+     "cases": 140,
+     "years": [
+      2003,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 99,
+      "trial": 21,
+      "federal-district": 10,
+      "federal-appeals": 6,
+      "supreme": 2,
+      "bankruptcy": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 55,
+      "Retail": 22,
+      "Industrial": 6,
+      "Mixed-Use": 5,
+      "Office": 4,
+      "Hospitality": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 158,
+       "awardToClaim": {
+        "p25": 0.43,
+        "median": 0.815,
+        "p75": 1.0,
+        "n": 36
+       },
+       "fullRecoveryPct": 33,
+       "underHalfPct": 31,
+       "appealed": 109,
+       "affirmedPct": 61,
+       "finalToClaim": {
+        "p25": 0.361,
+        "median": 0.835,
+        "p75": 1.0,
+        "n": 28
+       },
+       "medianAward": 553800,
+       "awardsN": 116
+      }
+     }
+    },
+    "OH": {
+     "cases": 72,
+     "years": [
+      2006,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 53,
+      "federal-district": 8,
+      "supreme": 6,
+      "federal-appeals": 5
+     },
+     "propertyTypes": {
+      "Land/Development": 22,
+      "Retail": 18,
+      "Industrial": 3,
+      "Office": 2,
+      "Multifamily": 2,
+      "Mixed-Use": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 77,
+       "appealed": 66,
+       "affirmedPct": 68,
+       "medianAward": 237625,
+       "awardsN": 46
+      }
+     }
+    },
+    "OK": {
+     "cases": 60,
+     "years": [
+      2000,
+      2024
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 37,
+      "supreme": 19,
+      "federal-district": 2,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 16,
+      "Retail": 5,
+      "Industrial": 2,
+      "Mixed-Use": 2,
+      "Hospitality": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 66,
+       "appealed": 53,
+       "affirmedPct": 36,
+       "medianAward": 56800,
+       "awardsN": 44
+      }
+     }
+    },
+    "OR": {
+     "cases": 22,
+     "years": [
+      2011,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 17,
+      "supreme": 3,
+      "federal-district": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 5,
+      "Retail": 4,
+      "Hospitality": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 36,
+       "appealed": 29,
+       "affirmedPct": 62,
+       "medianAward": 168996,
+       "awardsN": 24
+      }
+     }
+    },
+    "PA": {
+     "cases": 142,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 77,
+      "federal-district": 35,
+      "federal-appeals": 13,
+      "supreme": 10,
+      "trial": 7
+     },
+     "propertyTypes": {
+      "Land/Development": 42,
+      "Retail": 11,
+      "Industrial": 11,
+      "Mixed-Use": 4,
+      "Hospitality": 2,
+      "Office": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 113,
+       "appealed": 76,
+       "affirmedPct": 57,
+       "medianAward": 285000,
+       "awardsN": 47
+      }
+     }
+    },
+    "SC": {
+     "cases": 32,
+     "years": [
+      2002,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 17,
+      "supreme": 10,
+      "federal-district": 4,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 11,
+      "Retail": 3,
+      "Office": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 29,
+       "appealed": 23,
+       "affirmedPct": 61
+      }
+     }
+    },
+    "TN": {
+     "cases": 65,
+     "years": [
+      2000,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 49,
+      "federal-district": 13,
+      "supreme": 1,
+      "federal-appeals": 1,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 21,
+      "Retail": 3,
+      "Hospitality": 2,
+      "Mixed-Use": 1,
+      "Office": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 45,
+       "appealed": 28,
+       "affirmedPct": 50,
+       "medianAward": 45450,
+       "awardsN": 34
+      }
+     }
+    },
+    "TX": {
+     "cases": 401,
+     "years": [
+      1999,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 324,
+      "supreme": 46,
+      "federal-district": 27,
+      "federal-appeals": 3,
+      "trial": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 181,
+      "Retail": 33,
+      "Industrial": 17,
+      "Hospitality": 9,
+      "Office": 6,
+      "Multifamily": 4
+     },
+     "sides": {
+      "owner": {
+       "claims": 443,
+       "awardToClaim": {
+        "p25": 0.322,
+        "median": 0.717,
+        "p75": 1.0,
+        "n": 35
+       },
+       "fullRecoveryPct": 29,
+       "underHalfPct": 37,
+       "appealed": 359,
+       "affirmedPct": 56,
+       "finalToClaim": {
+        "p25": 0.021,
+        "median": 0.486,
+        "p75": 1.0,
+        "n": 31
+       },
+       "medianAward": 240855,
+       "awardsN": 318
+      }
+     }
+    },
+    "VA": {
+     "cases": 71,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "federal-district": 29,
+      "supreme": 23,
+      "federal-appeals": 9,
+      "trial": 7,
+      "intermediate-appellate": 3
+     },
+     "propertyTypes": {
+      "Land/Development": 28,
+      "Retail": 10,
+      "Office": 3,
+      "Medical Office": 2,
+      "Hospitality": 2,
+      "Self-Storage": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 67,
+       "appealed": 37,
+       "affirmedPct": 49,
+       "medianAward": 105616,
+       "awardsN": 53
+      }
+     }
+    },
+    "WA": {
+     "cases": 61,
+     "years": [
+      2001,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 44,
+      "federal-district": 8,
+      "supreme": 7,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 16,
+      "Industrial": 11,
+      "Retail": 8,
+      "Hospitality": 4,
+      "Self-Storage": 1,
+      "Office": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 59,
+       "appealed": 45,
+       "affirmedPct": 60,
+       "medianAward": 94079,
+       "awardsN": 30
+      }
+     }
+    },
+    "WI": {
+     "cases": 55,
+     "years": [
+      2002,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 37,
+      "supreme": 16,
+      "federal-district": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 13,
+      "Retail": 9,
+      "Hospitality": 5,
+      "Industrial": 4,
+      "Mixed-Use": 1,
+      "Medical Office": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 45,
+       "appealed": 41,
+       "affirmedPct": 61
+      }
+     }
+    },
+    "WV": {
+     "cases": 38,
+     "years": [
+      2006,
+      2024
+     ],
+     "courtLevels": {
+      "federal-district": 19,
+      "supreme": 18,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 18,
+      "Retail": 4
+     },
+     "sides": {
+      "owner": {
+       "claims": 26
+      }
+     }
+    }
+   }
+  },
+  "zoning-land-use": {
+   "cases": 1251,
+   "years": [
+    1999,
+    2026
+   ],
+   "courtLevels": {
+    "intermediate-appellate": 677,
+    "federal-district": 236,
+    "supreme": 179,
+    "federal-appeals": 96,
+    "trial": 58,
+    "other": 3,
+    "bankruptcy": 2
+   },
+   "propertyTypes": {
+    "Land/Development": 501,
+    "Retail": 162,
+    "Industrial": 113,
+    "Mixed-Use": 104,
+    "Hospitality": 52,
+    "Multifamily": 49
+   },
+   "sides": {
+    "owner": {
+     "claims": 556,
+     "appealed": 375,
+     "affirmedPct": 54
+    }
+   },
+   "states": {
+    "CA": {
+     "cases": 118,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 102,
+      "federal-district": 14,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Retail": 35,
+      "Land/Development": 29,
+      "Mixed-Use": 16,
+      "Hospitality": 13,
+      "Industrial": 8,
+      "Multifamily": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 42,
+       "appealed": 30,
+       "affirmedPct": 67
+      }
+     }
+    },
+    "CT": {
+     "cases": 39,
+     "years": [
+      1999,
+      2024
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 15,
+      "supreme": 10,
+      "federal-district": 7,
+      "trial": 5,
+      "federal-appeals": 1,
+      "other": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 15,
+      "Industrial": 8,
+      "Retail": 7,
+      "Office": 2,
+      "Mixed-Use": 1,
+      "Hospitality": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 13
+      }
+     }
+    },
+    "FL": {
+     "cases": 41,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 19,
+      "federal-district": 11,
+      "federal-appeals": 10,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 21,
+      "Mixed-Use": 7,
+      "Industrial": 4,
+      "Retail": 3,
+      "Office": 1,
+      "Hospitality": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 32,
+       "appealed": 23,
+       "affirmedPct": 26
+      }
+     }
+    },
+    "GA": {
+     "cases": 32,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "supreme": 13,
+      "intermediate-appellate": 11,
+      "federal-district": 6,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 20,
+      "Mixed-Use": 3,
+      "Industrial": 2,
+      "Multifamily": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 15
+      }
+     }
+    },
+    "IL": {
+     "cases": 82,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 40,
+      "federal-district": 31,
+      "federal-appeals": 6,
+      "supreme": 5
+     },
+     "propertyTypes": {
+      "Land/Development": 19,
+      "Retail": 12,
+      "Mixed-Use": 12,
+      "Industrial": 10,
+      "Hospitality": 5,
+      "Multifamily": 4
+     },
+     "sides": {
+      "owner": {
+       "claims": 13
+      }
+     }
+    },
+    "IN": {
+     "cases": 22,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 16,
+      "supreme": 3,
+      "federal-district": 2,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Retail": 5,
+      "Industrial": 5,
+      "Hospitality": 2,
+      "Land/Development": 1,
+      "Senior Living": 1,
+      "Multifamily": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 3
+      }
+     }
+    },
+    "LA": {
+     "cases": 25,
+     "years": [
+      2001,
+      2024
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 23,
+      "federal-district": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 9,
+      "Industrial": 3,
+      "Retail": 3,
+      "Multifamily": 2,
+      "Mixed-Use": 2,
+      "Hospitality": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 16
+      }
+     }
+    },
+    "MA": {
+     "cases": 35,
+     "years": [
+      2004,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 16,
+      "federal-district": 7,
+      "trial": 6,
+      "supreme": 3,
+      "federal-appeals": 2,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 15,
+      "Industrial": 3,
+      "Retail": 3,
+      "Mixed-Use": 3,
+      "Hospitality": 1,
+      "Self-Storage": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 6
+      }
+     }
+    },
+    "MD": {
+     "cases": 32,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 12,
+      "federal-district": 11,
+      "supreme": 8,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 11,
+      "Retail": 6,
+      "Mixed-Use": 3,
+      "Industrial": 2,
+      "Medical Office": 2,
+      "Office": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 12
+      }
+     }
+    },
+    "MI": {
+     "cases": 57,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 26,
+      "federal-district": 19,
+      "federal-appeals": 7,
+      "supreme": 5
+     },
+     "propertyTypes": {
+      "Land/Development": 31,
+      "Industrial": 10,
+      "Multifamily": 2,
+      "Mixed-Use": 2,
+      "Retail": 1,
+      "Office": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 29
+      }
+     }
+    },
+    "MS": {
+     "cases": 21,
+     "years": [
+      2000,
+      2024
+     ],
+     "courtLevels": {
+      "supreme": 11,
+      "intermediate-appellate": 9,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 6,
+      "Retail": 4,
+      "Multifamily": 4,
+      "Industrial": 3,
+      "Hospitality": 1,
+      "Mixed-Use": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 9
+      }
+     }
+    },
+    "NJ": {
+     "cases": 70,
+     "years": [
+      1999,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 45,
+      "federal-district": 10,
+      "supreme": 8,
+      "trial": 6,
+      "other": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 27,
+      "Retail": 14,
+      "Mixed-Use": 14,
+      "Office": 4,
+      "Industrial": 4,
+      "Hospitality": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 22
+      }
+     }
+    },
+    "NY": {
+     "cases": 74,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "federal-district": 36,
+      "intermediate-appellate": 30,
+      "trial": 3,
+      "supreme": 3,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 28,
+      "Retail": 9,
+      "Mixed-Use": 8,
+      "Multifamily": 3,
+      "Hospitality": 3,
+      "Office": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 35
+      }
+     }
+    },
+    "OH": {
+     "cases": 63,
+     "years": [
+      2002,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 43,
+      "federal-appeals": 9,
+      "federal-district": 6,
+      "supreme": 5
+     },
+     "propertyTypes": {
+      "Land/Development": 27,
+      "Retail": 5,
+      "Industrial": 4,
+      "Office": 3,
+      "Mixed-Use": 2,
+      "Multifamily": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 26
+      }
+     }
+    },
+    "PA": {
+     "cases": 76,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 49,
+      "federal-district": 10,
+      "federal-appeals": 10,
+      "trial": 4,
+      "supreme": 3
+     },
+     "propertyTypes": {
+      "Land/Development": 32,
+      "Retail": 11,
+      "Mixed-Use": 7,
+      "Office": 5,
+      "Industrial": 4,
+      "Hospitality": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 20
+      }
+     }
+    },
+    "TN": {
+     "cases": 31,
+     "years": [
+      2001,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 24,
+      "federal-district": 6,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Land/Development": 17,
+      "Industrial": 4,
+      "Retail": 2,
+      "Multifamily": 2,
+      "Mixed-Use": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 20
+      }
+     }
+    },
+    "TX": {
+     "cases": 90,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 71,
+      "supreme": 7,
+      "federal-district": 7,
+      "federal-appeals": 5
+     },
+     "propertyTypes": {
+      "Land/Development": 47,
+      "Multifamily": 10,
+      "Retail": 7,
+      "Industrial": 5,
+      "Self-Storage": 5,
+      "Mixed-Use": 4
+     },
+     "sides": {
+      "owner": {
+       "claims": 80,
+       "appealed": 73,
+       "affirmedPct": 38
+      }
+     }
+    },
+    "VA": {
+     "cases": 23,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "supreme": 9,
+      "intermediate-appellate": 4,
+      "trial": 4,
+      "federal-district": 4,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 9,
+      "Mixed-Use": 4,
+      "Retail": 1,
+      "Multifamily": 1,
+      "Industrial": 1,
+      "Hospitality": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 5
+      }
+     }
+    },
+    "WA": {
+     "cases": 34,
+     "years": [
+      2003,
+      2023
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 23,
+      "supreme": 5,
+      "federal-appeals": 4,
+      "federal-district": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 11,
+      "Office": 6,
+      "Retail": 6,
+      "Industrial": 4,
+      "Hospitality": 2,
+      "Multifamily": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 21
+      }
+     }
+    },
+    "WI": {
+     "cases": 21,
+     "years": [
+      2001,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 7,
+      "supreme": 6,
+      "federal-appeals": 4,
+      "federal-district": 4
+     },
+     "propertyTypes": {
+      "Land/Development": 9,
+      "Mixed-Use": 1,
+      "Industrial": 1,
+      "Retail": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 5
+      }
+     }
+    }
+   }
+  },
+  "construction-defect": {
+   "cases": 468,
+   "years": [
+    2000,
+    2026
+   ],
+   "courtLevels": {
+    "intermediate-appellate": 277,
+    "federal-district": 89,
+    "supreme": 43,
+    "trial": 24,
+    "federal-appeals": 23,
+    "bankruptcy": 12
+   },
+   "propertyTypes": {
+    "Hospitality": 81,
+    "Retail": 80,
+    "Industrial": 52,
+    "Multifamily": 52,
+    "Office": 36,
+    "Mixed-Use": 26
+   },
+   "sides": {
+    "owner": {
+     "claims": 249,
+     "awardToClaim": {
+      "p25": 0.381,
+      "median": 0.561,
+      "p75": 0.941,
+      "n": 26
+     },
+     "fullRecoveryPct": 23,
+     "underHalfPct": 38,
+     "appealed": 167,
+     "affirmedPct": 62,
+     "finalToClaim": {
+      "p25": 0.0,
+      "median": 0.402,
+      "p75": 0.899,
+      "n": 24
+     },
+     "medianAward": 197113,
+     "awardsN": 93
+    },
+    "contractor": {
+     "claims": 412,
+     "awardToClaim": {
+      "p25": 0.712,
+      "median": 0.974,
+      "p75": 1.0,
+      "n": 88
+     },
+     "fullRecoveryPct": 53,
+     "underHalfPct": 17,
+     "appealed": 264,
+     "affirmedPct": 64,
+     "finalToClaim": {
+      "p25": 0.15,
+      "median": 0.871,
+      "p75": 1.0,
+      "n": 89
+     },
+     "medianAward": 200984,
+     "awardsN": 198
+    }
+   },
+   "states": {
+    "CA": {
+     "cases": 33,
+     "years": [
+      2000,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 30,
+      "federal-district": 2,
+      "bankruptcy": 1
+     },
+     "propertyTypes": {
+      "Multifamily": 6,
+      "Retail": 5,
+      "Hospitality": 4,
+      "Mixed-Use": 4,
+      "Industrial": 4,
+      "Medical Office": 3
+     },
+     "sides": {
+      "owner": {
+       "claims": 13
+      },
+      "contractor": {
+       "claims": 28,
+       "appealed": 23,
+       "affirmedPct": 57
+      }
+     }
+    },
+    "IL": {
+     "cases": 26,
+     "years": [
+      2001,
+      2024
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 20,
+      "federal-district": 4,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Retail": 6,
+      "Industrial": 4,
+      "Hospitality": 4,
+      "Mixed-Use": 3,
+      "Medical Office": 3,
+      "Multifamily": 2
+     },
+     "sides": {
+      "contractor": {
+       "claims": 26
+      },
+      "owner": {
+       "claims": 16
+      }
+     }
+    },
+    "LA": {
+     "cases": 26,
+     "years": [
+      2004,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 17,
+      "federal-district": 7,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Hospitality": 6,
+      "Industrial": 5,
+      "Multifamily": 3,
+      "Retail": 3,
+      "Office": 1,
+      "Mixed-Use": 1
+     },
+     "sides": {
+      "contractor": {
+       "claims": 24
+      },
+      "owner": {
+       "claims": 12
+      }
+     }
+    },
+    "NY": {
+     "cases": 35,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 13,
+      "federal-district": 12,
+      "trial": 8,
+      "bankruptcy": 1,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Retail": 6,
+      "Office": 4,
+      "Senior Living": 4,
+      "Hospitality": 3,
+      "Multifamily": 3,
+      "Self-Storage": 2
+     },
+     "sides": {
+      "owner": {
+       "claims": 22
+      },
+      "contractor": {
+       "claims": 22
+      }
+     }
+    },
+    "TX": {
+     "cases": 60,
+     "years": [
+      2002,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 51,
+      "federal-district": 3,
+      "bankruptcy": 2,
+      "federal-appeals": 2,
+      "trial": 2
+     },
+     "propertyTypes": {
+      "Retail": 13,
+      "Hospitality": 9,
+      "Office": 6,
+      "Multifamily": 6,
+      "Industrial": 5,
+      "Mixed-Use": 3
+     },
+     "sides": {
+      "contractor": {
+       "claims": 54,
+       "appealed": 42,
+       "affirmedPct": 74,
+       "medianAward": 460057,
+       "awardsN": 26
+      },
+      "owner": {
+       "claims": 34,
+       "appealed": 27,
+       "affirmedPct": 67
+      }
+     }
+    }
+   }
+  },
+  "premises-liability": {
+   "cases": 801,
+   "years": [
+    2000,
+    2026
+   ],
+   "courtLevels": {
+    "intermediate-appellate": 404,
+    "federal-district": 249,
+    "supreme": 88,
+    "federal-appeals": 36,
+    "trial": 22,
+    "other": 2
+   },
+   "propertyTypes": {
+    "Retail": 394,
+    "Hospitality": 123,
+    "Industrial": 77,
+    "Office": 42,
+    "Medical Office": 19,
+    "Mixed-Use": 10
+   },
+   "sides": {
+    "injured": {
+     "claims": 870,
+     "appealed": 568,
+     "affirmedPct": 57
+    }
+   },
+   "states": {
+    "CA": {
+     "cases": 76,
+     "years": [
+      2005,
+      2026
+     ],
+     "courtLevels": {
+      "federal-district": 39,
+      "intermediate-appellate": 32,
+      "federal-appeals": 3,
+      "supreme": 2
+     },
+     "propertyTypes": {
+      "Retail": 43,
+      "Hospitality": 14,
+      "Office": 6,
+      "Industrial": 5,
+      "Land/Development": 1,
+      "Mixed-Use": 1
+     },
+     "sides": {
+      "injured": {
+       "claims": 70,
+       "appealed": 33,
+       "affirmedPct": 52
+      }
+     }
+    },
+    "FL": {
+     "cases": 26,
+     "years": [
+      2005,
+      2026
+     ],
+     "courtLevels": {
+      "federal-district": 13,
+      "intermediate-appellate": 12,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Retail": 18,
+      "Industrial": 4,
+      "Hospitality": 2
+     },
+     "sides": {
+      "injured": {
+       "claims": 25
+      }
+     }
+    },
+    "GA": {
+     "cases": 21,
+     "years": [
+      2000,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 11,
+      "federal-district": 9,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Retail": 10,
+      "Industrial": 3,
+      "Hospitality": 3,
+      "Office": 1
+     },
+     "sides": {
+      "injured": {
+       "claims": 22
+      }
+     }
+    },
+    "IL": {
+     "cases": 43,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 32,
+      "federal-district": 11
+     },
+     "propertyTypes": {
+      "Retail": 26,
+      "Industrial": 5,
+      "Office": 4,
+      "Medical Office": 3
+     },
+     "sides": {
+      "injured": {
+       "claims": 40,
+       "appealed": 28,
+       "affirmedPct": 64
+      }
+     }
+    },
+    "LA": {
+     "cases": 55,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 40,
+      "federal-district": 11,
+      "federal-appeals": 3,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Retail": 29,
+      "Hospitality": 10,
+      "Industrial": 4,
+      "Medical Office": 3,
+      "Senior Living": 3,
+      "Office": 3
+     },
+     "sides": {
+      "injured": {
+       "claims": 79,
+       "appealed": 71,
+       "affirmedPct": 69
+      }
+     }
+    },
+    "MD": {
+     "cases": 21,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 9,
+      "federal-district": 6,
+      "supreme": 4,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Retail": 11,
+      "Hospitality": 3,
+      "Industrial": 2,
+      "Office": 1,
+      "Mixed-Use": 1
+     },
+     "sides": {
+      "injured": {
+       "claims": 23
+      }
+     }
+    },
+    "MS": {
+     "cases": 26,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 10,
+      "federal-district": 9,
+      "supreme": 6,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Retail": 18,
+      "Hospitality": 5,
+      "Industrial": 1
+     },
+     "sides": {
+      "injured": {
+       "claims": 25
+      }
+     }
+    },
+    "NJ": {
+     "cases": 40,
+     "years": [
+      2001,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 27,
+      "federal-district": 8,
+      "supreme": 5
+     },
+     "propertyTypes": {
+      "Retail": 21,
+      "Hospitality": 4,
+      "Industrial": 3,
+      "Mixed-Use": 2,
+      "Office": 1,
+      "Multifamily": 1
+     },
+     "sides": {
+      "injured": {
+       "claims": 42,
+       "appealed": 27,
+       "affirmedPct": 37
+      }
+     }
+    },
+    "NY": {
+     "cases": 25,
+     "years": [
+      2004,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 10,
+      "federal-district": 8,
+      "trial": 5,
+      "supreme": 1,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Retail": 8,
+      "Office": 5,
+      "Industrial": 3,
+      "Mixed-Use": 2,
+      "Hospitality": 2,
+      "Data Center": 1
+     },
+     "sides": {
+      "injured": {
+       "claims": 33,
+       "appealed": 21,
+       "affirmedPct": 33
+      }
+     }
+    },
+    "OH": {
+     "cases": 32,
+     "years": [
+      2009,
+      2025
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 21,
+      "federal-district": 7,
+      "federal-appeals": 2,
+      "other": 1,
+      "trial": 1
+     },
+     "propertyTypes": {
+      "Retail": 16,
+      "Industrial": 5,
+      "Self-Storage": 1,
+      "Hospitality": 1,
+      "Senior Living": 1
+     },
+     "sides": {
+      "injured": {
+       "claims": 33,
+       "appealed": 23,
+       "affirmedPct": 61
+      }
+     }
+    },
+    "PA": {
+     "cases": 39,
+     "years": [
+      2006,
+      2026
+     ],
+     "courtLevels": {
+      "federal-district": 17,
+      "intermediate-appellate": 15,
+      "trial": 5,
+      "federal-appeals": 1,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Retail": 16,
+      "Hospitality": 7,
+      "Office": 3,
+      "Industrial": 2,
+      "Medical Office": 1
+     },
+     "sides": {
+      "injured": {
+       "claims": 41
+      }
+     }
+    },
+    "TN": {
+     "cases": 20,
+     "years": [
+      2002,
+      2022
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 13,
+      "federal-district": 6,
+      "federal-appeals": 1
+     },
+     "propertyTypes": {
+      "Retail": 8,
+      "Hospitality": 3,
+      "Office": 2,
+      "Senior Living": 2,
+      "Industrial": 1,
+      "Medical Office": 1
+     },
+     "sides": {
+      "injured": {
+       "claims": 20
+      }
+     }
+    },
+    "TX": {
+     "cases": 114,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 80,
+      "federal-district": 19,
+      "supreme": 12,
+      "federal-appeals": 3
+     },
+     "propertyTypes": {
+      "Retail": 57,
+      "Hospitality": 15,
+      "Industrial": 14,
+      "Multifamily": 5,
+      "Office": 4,
+      "Medical Office": 3
+     },
+     "sides": {
+      "injured": {
+       "claims": 135,
+       "appealed": 105,
+       "affirmedPct": 62
+      }
+     }
+    }
+   }
+  },
+  "environmental": {
+   "cases": 186,
+   "years": [
+    2000,
+    2026
+   ],
+   "courtLevels": {
+    "intermediate-appellate": 63,
+    "federal-district": 53,
+    "federal-appeals": 30,
+    "supreme": 20,
+    "trial": 16,
+    "other": 3,
+    "bankruptcy": 1
+   },
+   "propertyTypes": {
+    "Industrial": 67,
+    "Land/Development": 41,
+    "Retail": 20,
+    "Mixed-Use": 5,
+    "Office": 4,
+    "Hospitality": 3
+   },
+   "sides": {
+    "owner": {
+     "claims": 147,
+     "appealed": 87,
+     "affirmedPct": 47
+    }
+   },
+   "states": {
+    "CA": {
+     "cases": 23,
+     "years": [
+      2002,
+      2024
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 16,
+      "federal-district": 5,
+      "federal-appeals": 2
+     },
+     "propertyTypes": {
+      "Land/Development": 9,
+      "Industrial": 4,
+      "Retail": 2,
+      "Mixed-Use": 1
+     },
+     "sides": {
+      "owner": {
+       "claims": 13
+      }
+     }
+    },
+    "NJ": {
+     "cases": 22,
+     "years": [
+      2000,
+      2026
+     ],
+     "courtLevels": {
+      "intermediate-appellate": 9,
+      "trial": 5,
+      "federal-appeals": 4,
+      "federal-district": 3,
+      "supreme": 1
+     },
+     "propertyTypes": {
+      "Industrial": 11,
+      "Retail": 5,
+      "Land/Development": 4
+     },
+     "sides": {
+      "owner": {
+       "claims": 14
+      }
+     }
+    }
+   }
+  },
+  "reit-securities": {
+   "cases": 40,
+   "years": [
+    1999,
+    2026
+   ],
+   "courtLevels": {
+    "intermediate-appellate": 12,
+    "federal-district": 10,
+    "federal-appeals": 6,
+    "trial": 5,
+    "other": 5,
+    "bankruptcy": 1,
+    "supreme": 1
+   },
+   "propertyTypes": {
+    "Retail": 11,
+    "Office": 10,
+    "Hospitality": 6,
+    "Mixed-Use": 4,
+    "Multifamily": 2,
+    "Senior Living": 2
+   },
+   "sides": {},
+   "states": {}
+  }
+ }
+}

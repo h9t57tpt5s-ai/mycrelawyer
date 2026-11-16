@@ -186,6 +186,7 @@ ${CSS}
     </ul>` : ""}
     <p style="margin-top:14px;"><a href="/case-valuation-calibration.html">Full backtest results and method →</a></p>
 
+    <!--outcomes:start--><!--outcomes:end-->
     <div class="card matter-cta" style="margin-top:32px;">
       <div class="eyebrow">Case Value Calculator · free beta</div>
       <h2 class="matter-h2">Get a range for your own ${esc(p.noun)}</h2>

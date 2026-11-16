@@ -70,6 +70,7 @@ MENU = [
         ]),
         ("Calculators &amp; Reference", [
             ("Settlement &amp; Verdict Benchmarks", "settlement-benchmarks.html"),
+            ("Court Outcomes by State", "outcomes.html"),
             ("Contribute a Settlement (Earn Credits)", "contribute-settlement.html"),
             ("Mechanic's Lien Deadline Calculator", "lien-deadline-calculator.html"),
             ("Lease Rejection Claim Calculator", "lease-rejection-claim-calculator.html"),
@@ -104,7 +105,7 @@ for label, landing, groups in MENU:
             SECTION_OF.setdefault(href.split("#")[0].split("?")[0], label)
 SECTION_OF.update({
     "matters": "Litigation", "state-cases": "Litigation", "federal-cases": "Litigation", "data-center-tracker.html": "Litigation",
-    "markets": "Distress", "cmbs": "Distress", "chapter-11": "Distress", "properties": "Distress",
+    "outcomes": "Tools", "markets": "Distress", "cmbs": "Distress", "chapter-11": "Distress", "properties": "Distress",
     "parties": "Research", "directory-overview.html": "Research", "brief-": "Research",
     "judge-": "Research", "company-": "Research",
 })

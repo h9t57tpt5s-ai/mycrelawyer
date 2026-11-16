@@ -19,6 +19,8 @@ on:
       - "scripts/build_og_images.py"
       - "scripts/build_trackers.ts"
       - "scripts/build_value_pages.ts"
+      - "scripts/build_outcome_pages.ts"
+      - "js/opinion-outcomes.json"
       - "js/backtest-results-data.js"
       - "scripts/build_sitemap.py"
       - "scripts/build_data_lite.ts"
@@ -80,6 +82,8 @@ jobs:
       - run: deno run --allow-read --allow-write scripts/build_trackers.ts
       # "What is it worth?" pages and the calculator's real-cases block.
       - run: deno run --allow-read --allow-write scripts/build_value_pages.ts
+      # Court-outcome pages (outcomes/, outcomes.html) and the outcomes block on the value pages.
+      - run: deno run --allow-read --allow-write scripts/build_outcome_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_entity_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_matter_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_weekly_issues.ts
@@ -101,7 +105,7 @@ jobs:
       - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
-          git add -A matters chapter-11 federal-cases parties properties js/entity-index.json img/og img/og-image.png js/topic-index.json *-tracker.html litigation-index*.html case-valuation.html commercial-lease-dispute-damages.html commercial-foreclosure-guaranty-damages.html construction-defect-damages.html condemnation-compensation.html land-use-litigation-damages.html commercial-premises-liability-damages.html reit-securities-claim-value.html environmental-cleanup-cost-claims.html
+          git add -A matters chapter-11 federal-cases parties properties js/entity-index.json img/og img/og-image.png js/topic-index.json *-tracker.html litigation-index*.html case-valuation.html commercial-lease-dispute-damages.html commercial-foreclosure-guaranty-damages.html construction-defect-damages.html condemnation-compensation.html land-use-litigation-damages.html commercial-premises-liability-damages.html reit-securities-claim-value.html environmental-cleanup-cost-claims.html outcomes outcomes.html
           git add bankruptcy-watch.html lawsuit-watch.html state-court-watch.html state-cases cmbs-watch.html cmbs texas-foreclosures.html
           git add js/radar-data.json js/radar-geo.json ops/geocode-cache.json ops/radar-seen.json email-preview.html markets markets.html distress-radar.html
           git add brief-*.html briefs.html
