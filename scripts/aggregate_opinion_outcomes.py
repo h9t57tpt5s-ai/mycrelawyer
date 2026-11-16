@@ -101,7 +101,8 @@ def slice_stats(cases, cat, haiku_only=True):
             for side, names in SIDES[cat].items():
                 if role in names:
                     claims_by_side[side].append(c)
-    years = [x["decision_year"] for x in cases if x.get("decision_year")]
+    # The court's filing date, not the model's reading of the decision year.
+    years = [x["_year"] for x in cases if x.get("_year")]
     levels = collections.Counter(x["court_level"] for x in cases)
     return {
         "cases": len(cases),
@@ -124,6 +125,7 @@ def main(paths):
     for r in by_id.values():
         x = r["extraction"]
         if x["is_commercial_real_estate"] and not x["residential_or_consumer"] and not x["debt_collection"] and x["category"] in CATS:
+            x["_year"] = int(r["date_filed"][:4]) if r.get("date_filed") else None
             cre.append(x)
             models[r.get("model", "?")] += 1
     out = {

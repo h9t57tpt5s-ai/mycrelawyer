@@ -11,7 +11,7 @@
   "lease-disputes": {
    "cases": 3770,
    "years": [
-    1999,
+    2000,
     2026
    ],
    "courtLevels": {
@@ -79,7 +79,7 @@
     "AK": {
      "cases": 21,
      "years": [
-      2009,
+      2004,
       2025
      ],
      "courtLevels": {
@@ -138,7 +138,7 @@
     "AR": {
      "cases": 22,
      "years": [
-      2004,
+      2002,
       2026
      ],
      "courtLevels": {
@@ -165,7 +165,7 @@
     "AZ": {
      "cases": 31,
      "years": [
-      2016,
+      2000,
       2024
      ],
      "courtLevels": {
@@ -193,7 +193,7 @@
     "CA": {
      "cases": 357,
      "years": [
-      2001,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -246,7 +246,7 @@
     "CO": {
      "cases": 30,
      "years": [
-      2002,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -277,7 +277,7 @@
     "CT": {
      "cases": 94,
      "years": [
-      2002,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -311,7 +311,7 @@
     "DC": {
      "cases": 35,
      "years": [
-      2001,
+      2000,
       2025
      ],
      "courtLevels": {
@@ -446,7 +446,7 @@
     "IA": {
      "cases": 32,
      "years": [
-      2001,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -559,7 +559,7 @@
     "KS": {
      "cases": 28,
      "years": [
-      2001,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -694,7 +694,7 @@
     "MD": {
      "cases": 56,
      "years": [
-      2001,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -728,7 +728,7 @@
     "MI": {
      "cases": 73,
      "years": [
-      2005,
+      2002,
       2026
      ],
      "courtLevels": {
@@ -762,7 +762,7 @@
     "MN": {
      "cases": 23,
      "years": [
-      2013,
+      2002,
       2026
      ],
      "courtLevels": {
@@ -791,7 +791,7 @@
     "MO": {
      "cases": 79,
      "years": [
-      2001,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -918,7 +918,7 @@
     "NE": {
      "cases": 24,
      "years": [
-      2007,
+      2002,
       2026
      ],
      "courtLevels": {
@@ -945,7 +945,7 @@
     "NH": {
      "cases": 21,
      "years": [
-      2009,
+      2003,
       2026
      ],
      "courtLevels": {
@@ -1010,7 +1010,7 @@
     "NY": {
      "cases": 376,
      "years": [
-      1999,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -1063,7 +1063,7 @@
     "OH": {
      "cases": 224,
      "years": [
-      2006,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -1115,7 +1115,7 @@
     "OR": {
      "cases": 22,
      "years": [
-      2019,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -1221,7 +1221,7 @@
     "RI": {
      "cases": 21,
      "years": [
-      2017,
+      2000,
       2025
      ],
      "courtLevels": {
@@ -1247,7 +1247,7 @@
     "SC": {
      "cases": 30,
      "years": [
-      2006,
+      2000,
       2025
      ],
      "courtLevels": {
@@ -1366,7 +1366,7 @@
     "UT": {
      "cases": 24,
      "years": [
-      2015,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -1458,7 +1458,7 @@
     "WI": {
      "cases": 29,
      "years": [
-      2009,
+      2002,
       2025
      ],
      "courtLevels": {
@@ -1607,7 +1607,7 @@
     "CO": {
      "cases": 23,
      "years": [
-      2013,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -1695,7 +1695,7 @@
     "GA": {
      "cases": 33,
      "years": [
-      2005,
+      2002,
       2025
      ],
      "courtLevels": {
@@ -1725,7 +1725,7 @@
     "IL": {
      "cases": 74,
      "years": [
-      2005,
+      2003,
       2026
      ],
      "courtLevels": {
@@ -1757,7 +1757,7 @@
     "IN": {
      "cases": 28,
      "years": [
-      2005,
+      2001,
       2021
      ],
      "courtLevels": {
@@ -1815,7 +1815,7 @@
     "MO": {
      "cases": 22,
      "years": [
-      2010,
+      2000,
       2023
      ],
      "courtLevels": {
@@ -1845,7 +1845,7 @@
     "NC": {
      "cases": 25,
      "years": [
-      2009,
+      2000,
       2025
      ],
      "courtLevels": {
@@ -1874,7 +1874,7 @@
     "NJ": {
      "cases": 31,
      "years": [
-      2003,
+      2002,
       2026
      ],
      "courtLevels": {
@@ -1904,7 +1904,7 @@
     "NV": {
      "cases": 29,
      "years": [
-      2003,
+      2000,
       2024
      ],
      "courtLevels": {
@@ -1981,7 +1981,7 @@
     "OH": {
      "cases": 38,
      "years": [
-      2010,
+      2001,
       2026
      ],
      "courtLevels": {
@@ -2043,7 +2043,7 @@
     "TN": {
      "cases": 36,
      "years": [
-      2001,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -2072,7 +2072,7 @@
     "TX": {
      "cases": 153,
      "years": [
-      2002,
+      2001,
       2026
      ],
      "courtLevels": {
@@ -2141,7 +2141,7 @@
   "eminent-domain": {
    "cases": 2669,
    "years": [
-    1999,
+    2000,
     2026
    ],
    "courtLevels": {
@@ -2212,7 +2212,7 @@
     "AR": {
      "cases": 30,
      "years": [
-      2011,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -2237,7 +2237,7 @@
     "AZ": {
      "cases": 23,
      "years": [
-      2004,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -2306,7 +2306,7 @@
     "CO": {
      "cases": 48,
      "years": [
-      2002,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -2332,8 +2332,8 @@
     "CT": {
      "cases": 113,
      "years": [
-      2002,
-      2017
+      2000,
+      2018
      ],
      "courtLevels": {
       "trial": 77,
@@ -2436,7 +2436,7 @@
     "IA": {
      "cases": 35,
      "years": [
-      2003,
+      2000,
       2025
      ],
      "courtLevels": {
@@ -2488,7 +2488,7 @@
     "IN": {
      "cases": 54,
      "years": [
-      2002,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -2517,7 +2517,7 @@
     "KS": {
      "cases": 34,
      "years": [
-      2007,
+      2000,
       2022
      ],
      "courtLevels": {
@@ -2540,7 +2540,7 @@
     "KY": {
      "cases": 41,
      "years": [
-      2003,
+      2001,
       2026
      ],
      "courtLevels": {
@@ -2597,7 +2597,7 @@
     "MA": {
      "cases": 20,
      "years": [
-      2003,
+      2000,
       2025
      ],
      "courtLevels": {
@@ -2650,7 +2650,7 @@
     "MI": {
      "cases": 37,
      "years": [
-      2001,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -2678,7 +2678,7 @@
     "MN": {
      "cases": 37,
      "years": [
-      2001,
+      2000,
       2025
      ],
      "courtLevels": {
@@ -2705,7 +2705,7 @@
     "MO": {
      "cases": 39,
      "years": [
-      2003,
+      2001,
       2021
      ],
      "courtLevels": {
@@ -2733,7 +2733,7 @@
     "MS": {
      "cases": 63,
      "years": [
-      2001,
+      2000,
       2023
      ],
      "courtLevels": {
@@ -2814,7 +2814,7 @@
     "ND": {
      "cases": 21,
      "years": [
-      2014,
+      2006,
       2023
      ],
      "courtLevels": {
@@ -2896,7 +2896,7 @@
     "NY": {
      "cases": 140,
      "years": [
-      2003,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -2942,7 +2942,7 @@
     "OH": {
      "cases": 72,
      "years": [
-      2006,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -3001,7 +3001,7 @@
     "OR": {
      "cases": 22,
      "years": [
-      2011,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -3084,7 +3084,7 @@
      "cases": 65,
      "years": [
       2000,
-      2025
+      2026
      ],
      "courtLevels": {
       "intermediate-appellate": 49,
@@ -3113,7 +3113,7 @@
     "TX": {
      "cases": 401,
      "years": [
-      1999,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -3189,8 +3189,8 @@
     "WA": {
      "cases": 61,
      "years": [
-      2001,
-      2025
+      2000,
+      2026
      ],
      "courtLevels": {
       "intermediate-appellate": 44,
@@ -3219,7 +3219,7 @@
     "WI": {
      "cases": 55,
      "years": [
-      2002,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -3246,7 +3246,7 @@
     "WV": {
      "cases": 38,
      "years": [
-      2006,
+      2000,
       2024
      ],
      "courtLevels": {
@@ -3269,7 +3269,7 @@
   "zoning-land-use": {
    "cases": 1251,
    "years": [
-    1999,
+    2000,
     2026
    ],
    "courtLevels": {
@@ -3327,7 +3327,7 @@
     "CT": {
      "cases": 39,
      "years": [
-      1999,
+      2000,
       2024
      ],
      "courtLevels": {
@@ -3459,8 +3459,8 @@
     "LA": {
      "cases": 25,
      "years": [
-      2001,
-      2024
+      2000,
+      2025
      ],
      "courtLevels": {
       "intermediate-appellate": 23,
@@ -3483,7 +3483,7 @@
     "MA": {
      "cases": 35,
      "years": [
-      2004,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -3511,7 +3511,7 @@
     "MD": {
      "cases": 32,
      "years": [
-      2001,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -3537,7 +3537,7 @@
     "MI": {
      "cases": 57,
      "years": [
-      2001,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -3588,7 +3588,7 @@
     "NJ": {
      "cases": 70,
      "years": [
-      1999,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -3615,7 +3615,7 @@
     "NY": {
      "cases": 74,
      "years": [
-      2001,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -3642,7 +3642,7 @@
     "OH": {
      "cases": 63,
      "years": [
-      2002,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -3747,7 +3747,7 @@
     "VA": {
      "cases": 23,
      "years": [
-      2001,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -3774,7 +3774,7 @@
     "WA": {
      "cases": 34,
      "years": [
-      2003,
+      2002,
       2023
      ],
      "courtLevels": {
@@ -4077,7 +4077,7 @@
     "CA": {
      "cases": 76,
      "years": [
-      2005,
+      2000,
       2026
      ],
      "courtLevels": {
@@ -4277,7 +4277,7 @@
     "NY": {
      "cases": 25,
      "years": [
-      2004,
+      2000,
       2025
      ],
      "courtLevels": {
@@ -4306,7 +4306,7 @@
     "OH": {
      "cases": 32,
      "years": [
-      2009,
+      2000,
       2025
      ],
      "courtLevels": {
@@ -4334,7 +4334,7 @@
     "PA": {
      "cases": 39,
      "years": [
-      2006,
+      2001,
       2026
      ],
      "courtLevels": {
@@ -4360,8 +4360,8 @@
     "TN": {
      "cases": 20,
      "years": [
-      2002,
-      2022
+      2001,
+      2026
      ],
      "courtLevels": {
       "intermediate-appellate": 13,
@@ -4446,7 +4446,7 @@
     "CA": {
      "cases": 23,
      "years": [
-      2002,
+      2000,
       2024
      ],
      "courtLevels": {
@@ -4495,7 +4495,7 @@
   "reit-securities": {
    "cases": 40,
    "years": [
-    1999,
+    2000,
     2026
    ],
    "courtLevels": {

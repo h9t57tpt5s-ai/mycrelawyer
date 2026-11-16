@@ -4,6 +4,16 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "site",
+   "caseId": null,
+   "subject": "Court outcome pages (outcomes/)",
+   "kind": "Corrected: label",
+   "was": "Year ranges such as \"from 1999 to 2026\" on some state pages",
+   "now": "\"from 2000 to 2026\"",
+   "basis": "The pages cover opinions filed in 2000 or later. The first version took each opinion's year from the AI's reading of the decision, which sometimes gave the year a case was argued or decided below; the ranges now use the court's filing date."
+  },
+  {
+   "date": "2026-11-16",
    "scope": "company-cushman-wakefield",
    "caseId": null,
    "subject": "Cushman & Wakefield company profile",
