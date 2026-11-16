@@ -3,6 +3,16 @@
  "startedOn": "2026-09-12",
  "entries": [
   {
+   "date": "2026-11-16",
+   "scope": "company-cushman-wakefield",
+   "caseId": null,
+   "subject": "Cushman & Wakefield company profile",
+   "kind": "Corrected: description",
+   "was": "\"Global investment bank that provides brokerage, leasing, and property and receivership management services.\"",
+   "now": "\"Global commercial real estate services firm providing brokerage, leasing, and property and receivership management services.\"",
+   "basis": "Cushman & Wakefield is a commercial real estate services firm, not an investment bank. The profile page's opening line had been carried over from another company's page; the site's company data already described it correctly."
+  },
+  {
    "date": "2026-11-13",
    "scope": "live-396",
    "caseId": "live-396",
