@@ -1908,7 +1908,7 @@
         "ops/calculator-proposals.md",
         "ops/improvement-playbook.md"
       ],
-      "commit": "PENDING",
+      "commit": "318c28bcb8415a50c1ccb13d87f84b29476ad817",
       "metric": "whether Jeff has reviewed ops/calculator-proposals.md's 2026-11-16 entry (G15 decision 9); no goals.json number moves",
       "window": "n/a - awaiting Jeff's review",
       "baseline": {},
