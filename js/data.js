@@ -14871,6 +14871,19 @@ const RELAW_DATA = {
       summary: "Green Street reports that its Commercial Property Price Index declined 0.7 percent in October 2026, leaving values up 3.7 percent over the past twelve months. The firm's co-head of strategic research said a recent dip in bond yields is a welcome sign but that investors are still contending with a 10-year Treasury yield near 5 percent.",
       significance: "A monthly price decline with long-term rates near 5 percent keeps pressure on appraised values that drive loan-to-value tests, refinancing proceeds and maturity extensions. Where updated appraisals come in lower, borrowers face paydown demands, cash-management triggers and covenant defaults, and the gap between valuation and debt is what typically pushes a workout toward receivership or foreclosure litigation. Owners and lenders heading into 2027 maturities should expect valuation disputes to feature in extension and modification fights.",
       tags: ["property values", "price index", "refinancing", "interest rates", "green street"]
+    },
+    {
+      id: "trend-031",
+      title: "Trepp: CMBS Special Servicing Rate Jumps to 11.74% in October, Highest Since December 2012, as Hotel and Apartment Maturities Come Due",
+      category: "lending-foreclosure",
+      date: "2026-11-10",
+      scope: "U.S. CMBS loans (Trepp October 2026 special servicing report, as reported by CRE Daily)",
+      metric: "11.74% overall (up 25 bps in a month, up 90 bps year over year); $3.01 billion newly transferred across 46 loans, 37% lodging; lodging 10.17%, multifamily 9.22%, office 16.60%",
+      source: "live",
+      sourceUrl: "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/",
+      summary: "Trepp's CMBS special servicing rate rose 25 basis points to 11.74% in October, 90 basis points above a year earlier and the highest reading since December 2012, CRE Daily reports. About $3.01 billion moved into special servicing across 46 loans, up 14% from September, and lodging made up 37% of the new transfers, led by the $745.7 million Project Prime hotel portfolio loan, which matures Dec. 6, and the $517.7 million Blackjack apartment portfolio. The lodging rate jumped 122 bps to 10.17%, multifamily rose to 9.22% and mixed-use to 13.61%, while office improved to 16.60% and retail eased to 13.71%. Roughly 45% of the dollars in the bigger loans moved because a balloon payment or maturity was about to be missed, and exits slowed to about $1.53 billion across 38 loans, down 22% from September.",
+      significance: "Transfers driven by maturities rather than missed monthly payments mean special servicers are taking over loans on properties that still cover debt service, which sets up disputes over extension terms, cash management, default interest and servicer fees rather than simple payment defaults. Hotel and apartment borrowers with near-term balloon dates should expect pre-negotiation agreements, receiver motions and guaranty demands, and lenders on large portfolios face contested valuations if workouts fail. With fewer loans leaving special servicing than entering, the backlog of foreclosure and receivership actions is likely to grow.",
+      tags: ["cmbs", "special servicing", "trepp", "hotels", "maturity defaults"]
     }
   ],
 
