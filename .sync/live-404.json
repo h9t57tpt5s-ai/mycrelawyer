@@ -1,0 +1,22 @@
+{
+ "id": "live-404",
+ "title": "Holmwood Capital Advisors, LLC v. HC Government Realty Holdings, L.P.: Delaware Chancery Rules Government-Lease REIT Owes Ousted Manager a 3x Termination Fee",
+ "category": "reit-securities",
+ "status": "ruling",
+ "date": "2026-11-13",
+ "jurisdiction": "Delaware Court of Chancery",
+ "state": "DE",
+ "amount": "Termination fee to be recalculated at a 3x multiplier ($1,645,453 was paid at 1.5x); $517,463.35 awarded to the REIT on its counterclaim",
+ "source": "live",
+ "source_url": "https://courts.delaware.gov/opinions/download.aspx?id=403380",
+ "summary": "On November 13, 2026, the Delaware Court of Chancery issued a post-trial opinion in the fee dispute between HC Government Realty Trust, Inc., a REIT that owns properties leased to the federal government, and its former external manager, Holmwood Capital Advisors, LLC. The court held that the REIT wrongly reduced its stockholders' equity by booking an estimate of the termination fee as a liability, and that a 3.0x multiplier, not the 1.5x the REIT used, governs the fee. The REIT won on other points: it could pay fees in common stock, the manager must absorb offering costs above a 15% cap, and Holmwood Capital, LLC owes $517,463.35 for breaching a no-default representation tied to a CMBS loan. The parties were told to confer on a recalculated fee and a form of order.",
+ "significance": "External-management agreements with multi-year termination fees are standard in non-traded and small-cap REITs, and this opinion shows how a fee keyed to 'stockholders' equity' is litigated line by line when a new investor takes control. The court enforced the contract's own equity definition over GAAP presentation, and held the REIT to the calculation method it had used when it paid the fee. It also construed ambiguous fee terms against the founders who drafted both sides of the agreement before selling shares to outside investors. For lenders and sponsors, the CMBS ruling is a reminder that moving even the economic interest in a borrower without lender consent can be a default that costs real money years later.",
+ "judge": "Bonnie W. David",
+ "tags": [
+  "reit",
+  "management agreement",
+  "termination fee",
+  "cmbs",
+  "delaware chancery"
+ ]
+}

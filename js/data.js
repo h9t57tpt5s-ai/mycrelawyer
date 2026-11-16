@@ -14208,6 +14208,176 @@ const RELAW_DATA = {
         { when: "February 2026", label: "Morgan Stanley sells the loan to 109Co" },
         { when: "November 11, 2026", label: "Justice Kahn denies summary judgment over note attachment; case headed to trial", current: true }
       ]
+    },
+    {
+      id: "live-403",
+      seoTitle: "Prologis Sues Trenton, Ohio Over Voter-Approved Data Center Ban",
+      seoDescription: "Prologis filed a federal suit against Trenton, Ohio, arguing the 25-megawatt data center cap voters passed Nov. 3 cannot stop its permitted project.",
+      property: {"name": "Prologis Trenton data center", "address": "Kennel and Woodsdale roads", "city": "Trenton", "state": "OH"},
+      addedDate: "2026-11-16",
+      title: "Prologis v. City of Trenton, Ohio: Developer Files Federal Suit Over Voter-Approved Data Center Ban",
+      brief: "Prologis sued Trenton, Ohio, in federal court nine days after voters capped data centers at 25 megawatts. It says the cap cannot reach its permitted, nearly 1 million square foot project, on which it has spent more than $42 million.",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-11-12",
+      jurisdiction: "U.S. District Court in Ohio (district not named in reporting)",
+      state: "OH",
+      amount: "More than $42 million spent on the project, per the developer; declaratory and injunctive relief sought",
+      source: "live",
+      sourceUrl: "https://www.wvxu.org/politics/2026-11-13/developer-sues-trenton-over-voter-approved-data-center-ban",
+      propertyType: "Data Center",
+      summary: "Prologis filed a federal lawsuit against the City of Trenton, Ohio, on November 12, 2026, challenging a charter amendment that voters approved on November 3. The amendment prohibits data centers larger than 25 megawatts inside city limits. Prologis asks the court to declare the ban unconstitutional and to bar the city from using it to stop a nearly 1 million square foot data center on Kennel and Woodsdale roads. The developer says the city issued zoning certificates and building permits months before the vote.",
+      significance: "This is a direct test of whether a ballot-box land use restriction can be applied to a project that already holds permits and is under construction. Developers and lenders on entitled sites in other towns face the same risk as local data center opposition shifts from council votes to charter amendments and referenda. The outcome will bear on how much protection issued permits and money spent give against a later change in local law.",
+      body: [
+        "Prologis, the San Francisco-based industrial real estate company, has taken the City of Trenton, Ohio, to federal court over a voter-approved limit on data centers. According to public radio reporting from Cincinnati, the company filed its complaint on Thursday, November 12, 2026, nine days after the election. A local television report the same evening also described the suit. Neither report gives the case number or names the federal district, and city officials could not be reached for comment.",
+        "The dispute concerns a data center of nearly 1 million square feet that Prologis is building on Kennel and Woodsdale roads in Trenton, a Butler County city north of Cincinnati. Prologis says the city encouraged the project and issued zoning certificates and building permits months before the election. The company says it has spent more than $42 million so far. In its filing it describes the development as a \"vested, permitted, and substantially constructed project.\"",
+        "On November 3, 2026, Trenton voters approved an amendment to the city charter, listed on the ballot as Issue 17, that prohibits data centers larger than 25 megawatts within city limits. Unofficial results from the Butler County Board of Elections put support at roughly 80 percent. After the vote, lawyers for a group of Trenton taxpayers asked the city to revoke the project's zoning certificate, arguing that the facility is no longer a permitted use under the amended charter.",
+        "Prologis responded with the federal suit. As reported, the complaint argues that the ban is unconstitutional and that it cannot lawfully be applied to a project the city had already authorized. The company's position is that a municipality may not change the governing rules after the fact to withdraw approvals it has already granted. It asks for a declaration that the ban is unconstitutional and an order preventing the city from using it to halt the project. The reporting does not identify the specific constitutional provisions pleaded and does not mention a damages demand.",
+        "The case is at its earliest stage. No response from the city has been reported, and no judge or hearing date has been identified. The charter amendment followed months of local conflict over data centers. That conflict included a dispute, taken to the Ohio Supreme Court in August, over whether the city had to place a resident-initiated moratorium measure on the ballot.",
+        "For owners and developers, the practical lesson is that an entitlement obtained through the ordinary administrative process can still be challenged at the ballot box, and a challenge may come after construction has started. Vested-rights arguments usually depend on what was issued, when it was issued, and how much was spent in reliance on it. Developers should therefore keep a clear record of permits, certificates and construction spending from the outset. Lenders and equity partners on data center sites should treat pending local initiatives and charter petitions as a diligence item alongside zoning. Municipalities should expect that applying a new restriction to a permitted project will be met with a constitutional challenge and a request for injunctive relief."
+      ],
+      tags: ["data center", "charter amendment", "vested rights", "ohio", "zoning"],
+      parties: [
+        { name: "Prologis", role: "Plaintiff" },
+        { name: "City of Trenton, Ohio", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "November 3, 2026", label: "Trenton voters approve charter amendment (Issue 17) barring data centers over 25 megawatts" },
+        { when: "November 12, 2026", label: "Prologis files federal lawsuit against the city seeking declaratory and injunctive relief", current: true }
+      ]
+    },
+    {
+      id: "live-404",
+      seoTitle: "HC Government Realty Trust: Chancery Orders 3x Manager Termination Fee",
+      seoDescription: "Delaware Chancery rules HC Government Realty Trust must recalculate its ex-manager's termination fee at 3x, and awards the REIT $517,463 over a CMBS default.",
+      addedDate: "2026-11-16",
+      title: "Holmwood Capital Advisors, LLC v. HC Government Realty Holdings, L.P.: Delaware Chancery Rules Government-Lease REIT Owes Ousted Manager a 3x Termination Fee",
+      brief: "After a three-day trial, the Court of Chancery held a REIT that owns federally leased buildings underpaid its terminated external manager by using a 1.5x fee multiplier instead of 3x, but awarded the REIT $517,463.35 for an unconsented CMBS transfer.",
+      category: "reit-securities",
+      status: "ruling",
+      date: "2026-11-13",
+      jurisdiction: "Delaware Court of Chancery",
+      state: "DE",
+      amount: "Termination fee to be recalculated at a 3x multiplier ($1,645,453 was paid at 1.5x); $517,463.35 awarded to the REIT on its counterclaim",
+      source: "live",
+      sourceUrl: "https://courts.delaware.gov/opinions/download.aspx?id=403380",
+      docketUrl: "https://www.courtlistener.com/opinion/11060925/holmwood-capital-advisors-llc-and-holmwood-capital-llc-v-hc-government/",
+      docketLabel: "CourtListener opinion",
+      summary: "On November 13, 2026, the Delaware Court of Chancery issued a post-trial opinion in the fee dispute between HC Government Realty Trust, Inc., a REIT that owns properties leased to the federal government, and its former external manager, Holmwood Capital Advisors, LLC. The court held that the REIT wrongly reduced its stockholders' equity by booking an estimate of the termination fee as a liability, and that a 3.0x multiplier, not the 1.5x the REIT used, governs the fee. The REIT won on other points: it could pay fees in common stock, the manager must absorb offering costs above a 15% cap, and Holmwood Capital, LLC owes $517,463.35 for breaching a no-default representation tied to a CMBS loan. The parties were told to confer on a recalculated fee and a form of order.",
+      significance: "External-management agreements with multi-year termination fees are standard in non-traded and small-cap REITs, and this opinion shows how a fee keyed to 'stockholders' equity' is litigated line by line when a new investor takes control. The court enforced the contract's own equity definition over GAAP presentation, and held the REIT to the calculation method it had used when it paid the fee. It also construed ambiguous fee terms against the founders who drafted both sides of the agreement before selling shares to outside investors. For lenders and sponsors, the CMBS ruling is a reminder that moving even the economic interest in a borrower without lender consent can be a default that costs real money years later.",
+      body: [
+        "The dispute traces to a group of founders who built a small portfolio of buildings leased long-term to federal government tenants. In 2016 they formed HC Government Realty Trust, Inc., a Maryland REIT, and its operating partnership, HC Government Realty Holdings, L.P., and signed a management agreement under which their own company, Holmwood Capital Advisors, LLC, would run the REIT for an asset management fee of 1.5% of stockholders' equity, a 1% acquisition fee and a leasing fee. A related entity, Holmwood Capital, LLC, contributed seven single-property entities to the operating partnership in a May 2017 exchange for 1,078,416 partnership units valued at $10,784,161. The management agreement promised the manager a termination fee of three times the fees earned over the prior 24 months if the REIT ended the arrangement without cause, and a November 2017 side letter scaled that fee to how much equity the REIT managed to build: waived below $15 million, halved between $15 million and $35 million, and paid in full above $35 million.",
+        "In March 2019, over the objection of one founder-director, the REIT's board approved a recapitalization with a new outside investor that included up to $20.5 million of preferred stock, $3 million of common stock and a secured loan of up to $20.5 million. At the same meeting the board voted not to renew the management agreement, which ended March 31, 2020. On that date the REIT told the manager the termination fee was $1,645,453, paid as $1,275,000 in cash and the balance in common stock at $7.17 a share. That figure used the halved, 1.5x multiplier, because the REIT's new finance chief had begun booking a $1.75 million estimate of the termination fee itself as an accrued liability, which pulled reported stockholders' equity just under $35 million. The manager sued in May 2020, and the REIT counterclaimed.",
+        "Vice Chancellor Bonnie W. David sided with the manager on the central question. The agreement's definition of stockholders' equity excludes non-cash items that have affected equity as reported in the financial statements, and an accrued but unpaid termination fee is such an item, so it had to be added back. The court also read the side letter's reference to the REIT 'building' equity to $35 million as a high-water mark rather than a snapshot on the termination date, so the full 3.0x multiplier applies. The REIT's late arguments that equity had been overstated all along, because dividends were never deducted from retained earnings and because the contributed properties were overvalued by about $3.2 million, were rejected. The court found the REIT waived both points by using the same method in its own March 2020 fee notice, and found the appraisal evidence unpersuasive in any event.",
+        "The manager did not win everything. The court held that accrued acquisition fees were paid in stock on the termination date and so do not get added to the fee base, and that no acquisition fee is owed on three properties the REIT bought in October 2019 in Fort Lauderdale, Lawrence, Kansas and Oklahoma City, because the manager did no work on those deals. Applying contra proferentem against the founders, who controlled every party when the agreement was written and then marketed the REIT to outside investors, the court held the REIT could choose to pay the termination and acquisition fees in common stock, and that the manager must bear organization and offering expenses above 15% of the $8,871,660 raised, an excess of $723,932. The $408,514 that Holmwood advanced to cover operating shortfalls was not proven to be an interest-bearing demand loan, but the court found it must be repaid on terms the parties are to propose.",
+        "On the counterclaims, the REIT failed to prove $76,322 in allegedly duplicative property management fees, and its unjust enrichment claim fell with the valuation argument. It did prevail on the contribution agreement. Three of the contributed properties secured a CMBS loan that barred any transfer of direct or indirect interests without lender consent. Holmwood transferred the economic interest in those properties without telling the lender, the servicer issued a notice of default in November 2022, and the REIT spent $517,463.35 obtaining a consent and loan modification in March 2023. The court held that Holmwood's representation that the deal would not cause a default under any contract was false, and awarded that amount as damages.",
+        "The practical lessons are plain. A termination fee tied to an equity measure should say whether the accrual of the fee itself counts, and whether thresholds are tested once or continuously; here silence on timing cost the REIT half the multiplier. A company that pays under one calculation method will struggle to attack that method years later. Sponsors who sit on both sides of a management agreement should expect ambiguities to be read against them once outside investors are in the capital stack. And a cost-allocation clause for obtaining lender consents before closing does not protect a contributor who never sought consent at all. The final dollar amount of the fee remains open until the parties submit a revised calculation."
+      ],
+      tags: ["reit", "management agreement", "termination fee", "cmbs", "delaware chancery"],
+      parties: [
+        { name: "Holmwood Capital Advisors, LLC", role: "Plaintiff/Counterclaim Defendant" },
+        { name: "Holmwood Capital, LLC", role: "Plaintiff/Counterclaim Defendant" },
+        { name: "HC Government Realty Trust, Inc.", role: "Defendant/Counterclaim Plaintiff" },
+        { name: "HC Government Realty Holdings, L.P.", role: "Defendant/Counterclaim Plaintiff" }
+      ],
+      judge: "Bonnie W. David",
+      amountUsd: 517463.35,
+      amountBasis: "award",
+      timeline: [
+        { when: "March 31, 2016", label: "REIT, operating partnership and Holmwood Capital Advisors sign the management agreement" },
+        { when: "May 26, 2017", label: "Holmwood Capital contributes seven government-leased property entities for partnership units valued at $10,784,161" },
+        { when: "March 31, 2020", label: "Management agreement ends; REIT pays a $1,645,453 termination fee using a 1.5x multiplier" },
+        { when: "May 14, 2020", label: "Holmwood entities file suit in the Court of Chancery" },
+        { when: "May 2026", label: "Three-day trial" },
+        { when: "November 13, 2026", label: "Post-trial opinion: 3x multiplier governs the termination fee; REIT awarded $517,463.35 on its contribution-agreement counterclaim", current: true }
+      ]
+    },
+    {
+      id: "live-405",
+      seoTitle: "Project Veritas Mamaroneck Lease: $114,099 Rent Judgment Affirmed",
+      seoDescription: "New York's Second Department affirms a $114,098.96 judgment for landlord HCJV 115 & 135 Hoyt Avenue Owner against Project Veritas over its Mamaroneck lease.",
+      property: {"name": null, "address": null, "city": "Mamaroneck", "state": "NY"},
+      addedDate: "2026-11-16",
+      title: "HCJV 115 & 135 Hoyt Avenue Owner, LLC v. Project Veritas: Appeals Court Affirms $114,099 Rent Judgment After Tenant Walked Away From Unsigned Lease Termination",
+      brief: "Project Veritas left its Mamaroneck commercial space in December 2023 without signing the landlord's termination agreement. The Second Department affirmed a $114,098.96 judgment, finding no proof of an oral lease modification.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-12",
+      jurisdiction: "New York Supreme Court, Appellate Division, Second Department",
+      state: "NY",
+      amount: "$114,098.96 judgment",
+      source: "live",
+      sourceUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_06699.shtml",
+      summary: "On November 12, 2026, the Appellate Division, Second Department, affirmed a Westchester County judgment of $114,098.96 for landlord HCJV 115 & 135 Hoyt Avenue Owner, LLC against Project Veritas for breach of a five-year commercial lease in Mamaroneck. The tenant told the landlord in December 2023 that it needed to terminate and vacate, but never signed or returned the termination agreement the landlord sent. The court held that the lease's written-modification clause controlled and that the tenant's claimed part performance was not 'unequivocally referable' to any oral deal.",
+      significance: "The decision is a clean application of New York's rule that a lease requiring written, signed modifications cannot be ended early by an unsigned draft and a handshake understanding. Paying rent through the move-out date, giving up the security deposit and leaving furniture behind are all things the lease already required or permitted on default, so they prove nothing about a new agreement. Landlords negotiating early exits can take comfort that an unexecuted surrender agreement does not release the tenant. Tenants should treat a termination as incomplete until the document is signed by the landlord.",
+      body: [
+        "The landlord, HCJV 115 & 135 Hoyt Avenue Owner, LLC, leased a commercial unit in Mamaroneck, in Westchester County, to Project Veritas in 2020. The lease ran five years, from November 1, 2020 through October 31, 2025. Rent was due on the first of each month, payments more than 10 days late drew additional interest, and section 20 of the lease provided that any change or modification had to be in writing and signed by the party against whom it would be enforced.",
+        "In December 2023, with almost two years left on the term, the tenant told the landlord it would need to terminate the lease that month and would be vacating. The landlord responded by sending a lease termination agreement. According to the decision, the tenant never signed it and never sent it back. The landlord sued in January 2024 for breach of the lease. The tenant answered with affirmative defenses that included estoppel, taking the position that the parties had in substance agreed to end the lease and that it had performed its side of that bargain.",
+        "Supreme Court, Westchester County (Justice William J. Giacomo) granted the landlord summary judgment on the complaint in a December 20, 2024 order and, after an inquest on damages, entered judgment on March 6, 2025 in the principal sum of $114,098.96. The tenant appealed.",
+        "The Second Department affirmed, with costs. It began with General Obligations Law section 15-301(1), under which a contract that requires written modifications cannot be changed orally. New York recognizes an exception where a party has partly performed the alleged oral modification, but only when the conduct is unequivocally referable to that modification, meaning it cannot be explained any other way. The tenant pointed to three things: a 'termination payment' covering rent due to date, forfeiture of its security deposit to cover the landlord's losses, and its abandonment of desks, chairs and other office equipment. The court found none of them sufficient. Paying rent through the date of departure and losing the deposit on default were exactly what the existing lease called for, so they were fully consistent with the lease remaining in force. As for the furniture, the tenant's claim that it was worth thousands of dollars was unsubstantiated, and leaving it behind was not conduct that could only be explained by a termination deal. The same reasoning disposed of the estoppel defense.",
+        "The landlord, for its part, had made out each element of a breach claim: a valid lease, its own performance, the tenant's breach and resulting damages. Having resolved the appeal on those grounds, the panel did not reach the parties' remaining arguments.",
+        "The takeaways are practical. For landlords, a no-oral-modification clause continues to do real work in New York, and sending a draft surrender agreement that the tenant ignores does not waive the right to collect rent for the balance of the term. Keeping a record that the document was sent and never returned was enough here to win on summary judgment. For tenants looking to exit early, the order of operations matters: get the termination agreement fully signed before handing back the keys, and do not assume that money already owed under the lease, or property left in the space, will later be credited as consideration for a release. Where a tenant does give something beyond what the lease requires in exchange for a surrender, it should be documented and valued at the time, because unsupported assertions about its worth will not create an issue of fact."
+      ],
+      tags: ["commercial lease", "lease termination", "statute of frauds", "rent judgment", "westchester"],
+      parties: [
+        { name: "HCJV 115 & 135 Hoyt Avenue Owner, LLC", role: "Landlord/Respondent" },
+        { name: "Project Veritas", role: "Tenant/Appellant" }
+      ],
+      judge: "William J. Giacomo",
+      amountUsd: 114098.96,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "November 1, 2020", label: "Five-year lease term for the Mamaroneck commercial unit begins" },
+        { when: "December 2023", label: "Tenant says it must terminate and vacate; landlord's termination agreement is never signed or returned" },
+        { when: "January 2024", label: "Landlord sues for breach of the lease" },
+        { when: "December 20, 2024", label: "Supreme Court, Westchester County grants landlord summary judgment" },
+        { when: "March 6, 2025", label: "Judgment entered for $114,098.96 after inquest on damages" },
+        { when: "November 12, 2026", label: "Appellate Division, Second Department affirms the judgment, with costs", current: true }
+      ]
+    },
+    {
+      id: "live-406",
+      seoTitle: "Hallwood Plaza Flint: H&R Block Wins Fire-Repair Lease Ruling",
+      seoDescription: "E.D. Mich. rules Hallwood Plaza LLC, not tenant H&R Block, had to rebuild a fire-damaged Flint store, and tosses the landlord's damages counterclaims.",
+      property: {"name": "Hallwood Plaza", "address": null, "city": "Flint", "state": "MI"},
+      addedDate: "2026-11-16",
+      title: "H&R Block Eastern Enterprises, Inc. v. Hallwood Plaza LLC (Casualty Clause Puts Fire Rebuild on Shopping-Center Landlord, Bars Double Rent)",
+      brief: "A federal judge held that a Flint shopping-center lease's fire-casualty clause made landlord Hallwood Plaza LLC responsible for rebuilding H&R Block's burned-out store, and threw out the landlord's damages counterclaims.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-09",
+      jurisdiction: "U.S. District Court, Eastern District of Michigan",
+      state: "MI",
+      amount: "Repair costs and rent abatement (no figure stated)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11058226/hr-block-eastern-enterprises-inc-v-hallwood-plaza-llc/",
+      propertyType: "Retail",
+      summary: "On November 9, 2026, Judge Laurie J. Michelson ruled on cross-motions for partial summary judgment in a lease dispute that began when a car crashed into the Hallwood Plaza shopping center in Flint in August 2023 and started a fire in H&R Block's unit. The court held that the lease's \"Fire or Other Casualty\" section, not the general repair clauses, governs, and that it requires the landlord to rebuild the premises. H&R Block won summary judgment on the landlord's four damages counterclaims, and the landlord's declaratory counterclaim was dismissed. H&R Block's own breach and constructive-eviction claims go forward, though its request for legal fees was dismissed.",
+      significance: "The ruling shows how a specific casualty clause overrides a lease's general split of repair duties between landlord and tenant. It also holds that a landlord who keeps a lease alive after a fire and supplies temporary space cannot bill full rent on both the damaged unit and the temporary one. Retail landlords and tenants should read their casualty, abatement and temporary-space provisions together before a loss, because the party that guesses wrong about who rebuilds can face a breach claim and a constructive-eviction theory.",
+      body: [
+        "H&R Block Eastern Enterprises, Inc. had leased space at the Hallwood Plaza shopping center in Flint, Michigan since 1998, under a lease signed with the predecessor of the current owner, Hallwood Plaza LLC. Just after midnight on August 8, 2023, an intoxicated driver with no known connection to the tenant drove into the center, struck the H&R Block unit and started a fire that left the space unusable. In November 2023 the landlord moved the tenant into temporary space elsewhere in the center. Each side then waited for the other to repair the original unit. According to the opinion, the landlord billed full rent on both the fire-damaged unit and the temporary space while the stalemate continued, and warned that nonpayment of either would be a default.",
+        "H&R Block sued on July 30, 2024, alleging breach of the lease and seeking a declaration that the landlord's refusal to rebuild amounted to constructive eviction. In October 2024, after roughly a year of paying rent on two spaces, it moved to a new permanent location. Hallwood Plaza counterclaimed, alleging that the tenant failed to maintain the sprinkler system, failed to make repairs, failed to indemnify the landlord and failed to carry required insurance. It sought repair costs, lost rent and legal fees. Both sides moved for partial summary judgment.",
+        "The central question was which lease provision controls after a fire. The landlord relied on the general repair sections, under which it maintains the foundation, roof, exterior walls and common areas while the tenant maintains the interior. The tenant relied on Section 13, titled \"Fire or Other Casualty.\" That section gives the landlord a choice after serious fire damage: terminate the lease, or keep it in force with a fair and proportionate rent abatement. If the lease continues, the section says the landlord shall rebuild the premises to the condition in which they were originally delivered, after which the tenant restores its own property and reopens. Applying the Michigan rule that a specific contract provision controls over a general one, and that section headings help identify the applicable provision, the court held that Section 13 governs and is unambiguous. The court also pointed to a sentence in the tenant-repair clause making the tenant responsible for fire-damaged HVAC equipment \"notwithstanding Article 13,\" which would be unnecessary if the tenant already bore all interior fire repairs.",
+        "On rent, the court read the lease to give the landlord three paths after a fire: terminate, continue with abated rent, or continue while providing temporary space that is treated as if it were the leased premises. None of those paths, the court said, allowed full rent on both the untenantable unit and the temporary space. The court also declined to grant the landlord summary judgment on constructive eviction, noting that the temporary space had become effectively permanent because the landlord refused to restore the original unit. Photographs in the record showed the unit in much the same condition in April 2026 as shortly after the fire.",
+        "The landlord's counterclaims fared worse. The sprinkler claim failed for lack of evidence; the landlord's own representative testified that he had no records or facts indicating the system was not maintained or did not work. The repair counterclaim failed because the tenant's limited restoration duties were conditioned on the landlord rebuilding first. The indemnification counterclaim failed because the clause addresses third-party claims and because the landlord had limited its counterclaims in discovery to the sprinkler and insurance theories. The insurance counterclaim failed because the record showed the tenant carried the required general liability policy naming the landlord as an additional insured. With those four claims resolved, the court dismissed the landlord's remaining declaratory counterclaim as presenting no live controversy. The landlord's only win was the dismissal of the tenant's request for legal fees, since no statute or lease provision authorized them.",
+        "For owners and tenants of multi-tenant retail property, the practical points are concrete. A casualty clause that says the landlord shall rebuild will be enforced as written even where everyday repair clauses put the interior on the tenant. A landlord that elects to continue a lease after a fire should decide promptly whether it is abating rent or providing temporary space, and should not charge for both. A landlord that wants the tenant to clear fixtures and debris before rebuilding should give the notice the lease calls for. And positions taken in discovery about the scope of a counterclaim can foreclose broader theories at summary judgment. The tenant's breach-of-contract and declaratory claims remain pending."
+      ],
+      tags: ["casualty clause", "rent abatement", "constructive eviction", "shopping center", "summary judgment"],
+      parties: [
+        { name: "H&R Block Eastern Enterprises, Inc.", role: "Plaintiff/Counter-Defendant (Tenant)" },
+        { name: "Hallwood Plaza LLC", role: "Defendant/Counter-Plaintiff (Landlord)" }
+      ],
+      judge: "Laurie J. Michelson",
+      amountUsd: null,
+      timeline: [
+        { when: "August 8, 2023", label: "Car crashes into Hallwood Plaza and starts a fire in the H&R Block unit" },
+        { when: "November 2023", label: "Landlord provides temporary space elsewhere in the center" },
+        { when: "July 30, 2024", label: "H&R Block files suit for breach of lease and declaratory relief" },
+        { when: "October 2024", label: "H&R Block relocates to a new permanent location" },
+        { when: "November 9, 2026", label: "Court grants tenant summary judgment on landlord's counterclaims and denies most of landlord's motion", current: true }
+      ]
     }
   ],
 
