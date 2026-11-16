@@ -68,6 +68,10 @@ If you find nothing that meets the bar, return [] (an empty list is fine; paddin
 - al.com and businessalabama.com block WebFetch, curl and the browser pane; corroborate their stories through WBRC (fetchable) or WebSearch snippets.
 - pacourts.us Commonwealth Court opinion list produced a same-day warehouse zoning ruling; pypdf is not installed system-wide, so use a scratch venv to extract PDF text.
 - Lending and bankruptcy beats both came back empty this run.
+- 2026-11-11 run: the leases agent ran four days (to 11-15) and the lending agent never finished, so three good data center stories (Effingham/OpenAI Project Camellia, Sangamon/CyrusOne dismissal, Hermantown/Google AUAR) aged past 7 days and the Arbor securities suit was published by the cloud digest first (live-394). Publish each beat's verified matters as soon as that beat returns; don't wait for all six.
+- Plaintiff-firm PSLRA notices state the notice date, not the filing date; the complaint PDFs are often scans. Treat the notice date as "filed on or before".
+- KAXE's headline said the groups sued "Hermantown, Google," but the article body names only the city; take parties from the body, not the headline.
+- The local main checkout can sit days behind origin with untracked files that collide with upstream commits; a worktree of origin/main under .task-tmp/ avoids touching another session's files.
 - 2026-11-10 run: three beat agents stalled for about five days (likely on approval prompts), so the development beat's three data center matters (Nov. 4-6) were 9-11 days old by the time editing started and were dropped. Agents must finish in one sitting; an event's age is judged at publish time, not when the agent found it.
 - The main checkout can be blocked from pulling by another session's untracked files; the editor worked in a git worktree under .task-tmp/ at origin/main instead of moving or deleting them.
 - nycourts.gov/reporter, Justia and CourtListener returned 403 to WebFetch this run; use the browser pane for them.
