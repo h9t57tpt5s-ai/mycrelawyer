@@ -33,5 +33,8 @@
    "quote": "investors are still dealing with a 10-year Treasury that is close to 5%",
    "url": "https://www.greenstreet.com/property-prices-tick-lower/"
   }
+ ],
+ "rejected": [
+  "trend-029 already exists in js/data.js"
  ]
 }
