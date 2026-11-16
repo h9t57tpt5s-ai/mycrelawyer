@@ -1,0 +1,26 @@
+{
+ "trend": {
+  "id": "trend-031",
+  "title": "Trepp: CMBS Special Servicing Rate Jumps to 11.74% in October, Highest Since December 2012, as Hotel and Apartment Maturities Come Due",
+  "category": "lending-foreclosure",
+  "date": "2026-11-10",
+  "scope": "U.S. CMBS loans (Trepp October 2026 special servicing report, as reported by CRE Daily)",
+  "metric": "11.74% overall (up 25 bps in a month, up 90 bps year over year); $3.01 billion newly transferred across 46 loans, 37% lodging; lodging 10.17%, multifamily 9.22%, office 16.60%",
+  "sourceUrl": "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/",
+  "summary": "Trepp's CMBS special servicing rate rose 25 basis points to 11.74% in October, 90 basis points above a year earlier and the highest reading since December 2012, CRE Daily reports. About $3.01 billion moved into special servicing across 46 loans, up 14% from September, and lodging made up 37% of the new transfers, led by the $745.7 million Project Prime hotel portfolio loan, which matures Dec. 6, and the $517.7 million Blackjack apartment portfolio. The lodging rate jumped 122 bps to 10.17%, multifamily rose to 9.22% and mixed-use to 13.61%, while office improved to 16.60% and retail eased to 13.71%. Roughly 45% of the dollars in the bigger loans moved because a balloon payment or maturity was about to be missed, and exits slowed to about $1.53 billion across 38 loans, down 22% from September.",
+  "significance": "Transfers driven by maturities rather than missed monthly payments mean special servicers are taking over loans on properties that still cover debt service, which sets up disputes over extension terms, cash management, default interest and servicer fees rather than simple payment defaults. Hotel and apartment borrowers with near-term balloon dates should expect pre-negotiation agreements, receiver motions and guaranty demands, and lenders on large portfolios face contested valuations if workouts fail. With fewer loans leaving special servicing than entering, the backlog of foreclosure and receivership actions is likely to grow.",
+  "tags": ["cmbs", "special servicing", "trepp", "hotels", "maturity defaults"]
+ },
+ "verification": [
+  {"claim": "Rate rose 25 bps to 11.74%, up 90 bps year over year, highest since December 2012", "quote": "The Trepp CMBS special servicing rate rose 25 basis points to 11.74% in October, up 90 basis points from a year earlier and the highest reading since December 2012.", "url": "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/"},
+  {"claim": "Lodging 37% of $3.01 billion of new transfers; Project Prime $745.7 million; Blackjack $517.7 million", "quote": "Lodging made up 37% of the $3.01 billion of new transfers, led by the $745.7 million Project Prime hotel portfolio loan and the $517.7 million, Texas-heavy Blackjack apartment portfolio.", "url": "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/"},
+  {"claim": "46 loans transferred, up 14% from September", "quote": "Some $3.01B of loans moved into special servicing across 46 loans, up 14% from September.", "url": "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/"},
+  {"claim": "Lodging rate up 122 bps to 10.17%", "quote": "Hotels made up 37% of the new transfers, and the lodging rate jumped 122 bps to 10.17%.", "url": "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/"},
+  {"claim": "Multifamily rate 9.22%", "quote": "Multifamily’s rate rose 69 bps to 9.22%.", "url": "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/"},
+  {"claim": "Mixed-use rate 13.61%", "quote": "Mixed-use climbed 44 bps to 13.61%", "url": "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/"},
+  {"claim": "Office 16.60%, retail 13.71%", "quote": "Office improved by 25 bps to 16.60%, and retail eased 13 bps to 13.71%.", "url": "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/"},
+  {"claim": "Exits of about $1.53 billion across 38 loans, down 22%", "quote": "About $1.53B across 38 loans left special servicing, down 22% from September.", "url": "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/"},
+  {"claim": "Roughly 45% of dollars in the bigger loans moved on balloon or maturity risk", "quote": "Roughly 45% of the dollars in those bigger loans moved because a balloon payment or maturity was about to be missed.", "url": "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/"},
+  {"claim": "Project Prime matures Dec. 6; transferred for imminent payment default", "quote": "It matures Dec. 6 and moved over because a payment default looked imminent.", "url": "https://www.credaily.com/briefs/cmbs-special-servicing-rate-hits-11-74-a-13-year-high/"}
+ ]
+}
