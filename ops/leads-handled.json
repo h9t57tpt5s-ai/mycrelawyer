@@ -2371,6 +2371,18 @@
     "opinion:11061108": {
       "at": "2026-11-14",
       "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"], defendant Benitez is an individual with no business-entity suffix"
+    },
+    "petition:https://www.courtlistener.com/docket/75121925/swire-properties-southpoint-llc/": {
+      "at": "2026-11-16",
+      "action": "skipped: no coverage found explaining the filing (filed same day; M.D. Fla., no secondary reporting, and no confirmed link to the Hong Kong-based Swire Properties Brickell City Centre developer)"
+    },
+    "petition:https://www.courtlistener.com/docket/75124047/12892-mizner-way-llc/": {
+      "at": "2026-11-16",
+      "action": "skipped: no coverage found explaining the filing (filed same day; S.D. Fla., single-asset Boca Raton-area LLC, no secondary reporting)"
+    },
+    "u-s-bank-trust-national-association-v-12th-street-equity-llc-paed-2-26-cv-08731": {
+      "at": "2026-11-16",
+      "action": "skipped: no coverage found explaining the filing (filed same day, E.D. Pa. foreclosure, no secondary reporting)"
     }
   }
 }
