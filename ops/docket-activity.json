@@ -1,9 +1,20 @@
 {
- "updatedAt": "2026-11-16T19:44:26+00:00",
+ "updatedAt": "2026-11-17T18:43:36+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 18,
+ "requestsUsed": 22,
  "errors": [],
  "dockets": {
+  "14669317": {
+   "entries": [],
+   "caseIds": [
+    "live-380"
+   ],
+   "court": "D. Neb.",
+   "docketNumber": "8:19-cv-00102",
+   "dateTerminated": "2021-11-17",
+   "url": "https://www.courtlistener.com/docket/14669317/ab-realty-llc-v-lane/",
+   "lastEntryDate": null
+  },
   "63107484": {
    "entries": [],
    "caseIds": [
@@ -14,6 +25,25 @@
    "dateTerminated": "2025-11-26",
    "url": "https://www.courtlistener.com/docket/63107484/pioneer-hi-bred-international-inc-v-alten-llc/",
    "lastEntryDate": null
+  },
+  "63600354": {
+   "entries": [
+    {
+     "date": "2026-11-17",
+     "number": 136,
+     "text": "USCA Mandate",
+     "url": "https://www.courtlistener.com/docket/63600354/136/industrial-park-center-llc-v-great-northern-insurance-company/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-333"
+   ],
+   "court": "D. Ariz.",
+   "docketNumber": "2:22-cv-01196",
+   "dateTerminated": "2024-07-26",
+   "url": "https://www.courtlistener.com/docket/63600354/industrial-park-center-llc-v-great-northern-insurance-company/",
+   "lastEntryDate": "2026-11-17"
   },
   "66581116": {
    "entries": [
@@ -123,141 +153,16 @@
    "url": "https://www.courtlistener.com/docket/66730007/wells-fargo-bank-national-association-as-trusteefor-the-benefit-of/",
    "lastEntryDate": "2026-11-13"
   },
-  "67174489": {
-   "entries": [
-    {
-     "date": "2026-11-13",
-     "number": 1660,
-     "text": "Leave to File Document under Seal",
-     "url": "https://www.courtlistener.com/docket/67174489/1660/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-13",
-     "number": 1655,
-     "text": "Leave to File Document under Seal",
-     "url": "https://www.courtlistener.com/docket/67174489/1655/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-13",
-     "number": 1650,
-     "text": "Miscellaneous Relief",
-     "url": "https://www.courtlistener.com/docket/67174489/1650/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-13",
-     "number": 1648,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/67174489/1648/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-13",
-     "number": 1647,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/67174489/1647/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-12",
-     "number": 1646,
-     "text": "Leave",
-     "url": "https://www.courtlistener.com/docket/67174489/1646/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-10",
-     "number": 1643,
-     "text": "Order AND ~Util - Set/Clear Flags",
-     "url": "https://www.courtlistener.com/docket/67174489/1643/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-10",
-     "number": 1642,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/67174489/1642/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    }
-   ],
+  "67279084": {
+   "entries": [],
    "caseIds": [
-    "live-069"
+    "live-147"
    ],
-   "court": "M.D. Tenn.",
-   "docketNumber": "3:23-md-03071",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-11-13"
-  },
-  "67356054": {
-   "entries": [
-    {
-     "date": "2026-11-03",
-     "number": null,
-     "text": "Notice of Pro Hac Vice counsel added",
-     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-02",
-     "number": 164,
-     "text": "Notice of Pro Hac Vice to Receive NEF",
-     "url": "https://www.courtlistener.com/docket/67356054/164/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-02",
-     "number": 163,
-     "text": "Notice of Pro Hac Vice to Receive NEF",
-     "url": "https://www.courtlistener.com/docket/67356054/163/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-29",
-     "number": 162,
-     "text": "Order on Motion for Leave to Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/67356054/162/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-28",
-     "number": null,
-     "text": "Set/Reset Motion and R&R Deadlines/Hearings",
-     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-27",
-     "number": 161,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/67356054/161/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-21",
-     "number": 160,
-     "text": "Status Conference",
-     "url": "https://www.courtlistener.com/docket/67356054/160/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-21",
-     "number": 159,
-     "text": "Scheduling Order",
-     "url": "https://www.courtlistener.com/docket/67356054/159/cornish-adebiyi-v-caesars-entertainment-inc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-220"
-   ],
-   "court": "D.N.J.",
-   "docketNumber": "1:23-cv-02536",
-   "dateTerminated": "2024-09-30",
-   "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-   "lastEntryDate": "2026-11-03"
+   "court": "D.S.C.",
+   "docketNumber": "4:23-cv-01720",
+   "dateTerminated": "2025-08-01",
+   "url": "https://www.courtlistener.com/docket/67279084/lewis-v-circle-k-stores-inc/",
+   "lastEntryDate": null
   },
   "67940311": {
    "entries": [],
@@ -279,6 +184,50 @@
    "docketNumber": "23-42180",
    "dateTerminated": "2025-06-27",
    "url": "https://www.courtlistener.com/docket/68078274/harbor-custom-development-inc-lead-case-consolidated-w-member-cases/",
+   "lastEntryDate": null
+  },
+  "68291241": {
+   "entries": [],
+   "caseIds": [
+    "live-171"
+   ],
+   "court": "S.D. Ohio",
+   "docketNumber": "3:24-cv-00059",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/68291241/sheetz-inc-v-city-of-centerville-oh/",
+   "lastEntryDate": null
+  },
+  "68461369": {
+   "entries": [],
+   "caseIds": [
+    "live-212"
+   ],
+   "court": "D. Colo.",
+   "docketNumber": "1:24-cv-01093",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/68461369/colorado-apartment-association-v-ryan/",
+   "lastEntryDate": null
+  },
+  "68996234": {
+   "entries": [],
+   "caseIds": [
+    "live-406"
+   ],
+   "court": "E.D. Mich.",
+   "docketNumber": "2:24-cv-11972",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/68996234/hr-block-eastern-enterprises-inc-v-hallwood-plaza-llc/",
+   "lastEntryDate": null
+  },
+  "69018926": {
+   "entries": [],
+   "caseIds": [
+    "live-337"
+   ],
+   "court": "S.D.N.Y.",
+   "docketNumber": "1:24-cv-05956",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/69018926/are-east-river-science-park-llc-v-new-york-city-health-and-hospitals/",
    "lastEntryDate": null
   },
   "69074245": {
@@ -417,6 +366,17 @@
    "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
    "lastEntryDate": "2026-11-13"
   },
+  "69463265": {
+   "entries": [],
+   "caseIds": [
+    "live-362"
+   ],
+   "court": "W.D. Tex.",
+   "docketNumber": "5:24-cv-01419",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/69463265/nfi-apartment-management-llc-v-third-coast-insurance-company/",
+   "lastEntryDate": null
+  },
   "69518085": {
    "entries": [
     {
@@ -504,6 +464,32 @@
    "url": "https://www.courtlistener.com/docket/69723262/scls-realty-llc-v-town-of-johnston-rhode-island/",
    "lastEntryDate": "2026-11-06"
   },
+  "69929611": {
+   "entries": [
+    {
+     "date": "2026-11-16",
+     "number": 265,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/69929611/265/platkin-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-13",
+     "number": 264,
+     "text": "Letter",
+     "url": "https://www.courtlistener.com/docket/69929611/264/platkin-v-realpage-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-207"
+   ],
+   "court": "D.N.J.",
+   "docketNumber": "2:25-cv-03057",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/69929611/platkin-v-realpage-inc/",
+   "lastEntryDate": "2026-11-16"
+  },
   "70189262": {
    "entries": [
     {
@@ -572,6 +558,17 @@
    "url": "https://www.courtlistener.com/docket/70189262/united-states-v-schuster/",
    "lastEntryDate": "2026-10-13"
   },
+  "70439189": {
+   "entries": [],
+   "caseIds": [
+    "live-384"
+   ],
+   "court": "6th Cir.",
+   "docketNumber": "25-1394",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/70439189/gsl-holdings-llc-v-charter-twp-of-lyon-twp-mi/",
+   "lastEntryDate": null
+  },
   "70689952": {
    "entries": [],
    "caseIds": [
@@ -581,6 +578,17 @@
    "docketNumber": "25-1730",
    "dateTerminated": "2026-08-06",
    "url": "https://www.courtlistener.com/docket/70689952/pseg-renewable-transmission-llc-v-arentz-family-lp/",
+   "lastEntryDate": null
+  },
+  "70867976": {
+   "entries": [],
+   "caseIds": [
+    "live-224"
+   ],
+   "court": "N.D. Ohio",
+   "docketNumber": "1:25-cv-01510",
+   "dateTerminated": "2026-04-14",
+   "url": "https://www.courtlistener.com/docket/70867976/fannie-mae-v-reserve-apartments-ltd/",
    "lastEntryDate": null
   },
   "71746386": {
@@ -622,6 +630,28 @@
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/71746386/the-mission-llc-v-the-state-of-california/",
    "lastEntryDate": "2026-11-02"
+  },
+  "71870809": {
+   "entries": [],
+   "caseIds": [
+    "live-410"
+   ],
+   "court": "Bankr. S.D. Tex.",
+   "docketNumber": "25-90607",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/71870809/f-star-socorro-lp-and-official-committee-of-unsecured-creditors-for-f-st/",
+   "lastEntryDate": null
+  },
+  "71959712": {
+   "entries": [],
+   "caseIds": [
+    "live-175"
+   ],
+   "court": "C.D. Cal.",
+   "docketNumber": "2:25-cv-11319",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/71959712/warren-hern-v-alexandria-real-estate-equities-inc/",
+   "lastEntryDate": null
   },
   "71964352": {
    "entries": [
@@ -691,6 +721,17 @@
    "url": "https://www.courtlistener.com/docket/71964352/realpage-inc-v-james/",
    "lastEntryDate": "2026-11-09"
   },
+  "71982156": {
+   "entries": [],
+   "caseIds": [
+    "live-226"
+   ],
+   "court": "W.D. Okla.",
+   "docketNumber": "5:25-cv-01444",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/71982156/oak-land-and-development-llc-v-simon-property-group-inc/",
+   "lastEntryDate": null
+  },
   "72081019": {
    "entries": [
     {
@@ -731,6 +772,58 @@
    "url": "https://www.courtlistener.com/docket/72081019/solera-multifamily-llc-v-tegethoff/",
    "lastEntryDate": "2026-09-22"
   },
+  "72225132": {
+   "entries": [],
+   "caseIds": [
+    "live-283"
+   ],
+   "court": "6th Cir.",
+   "docketNumber": "25-3889",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/72225132/trustees-main270-llc-v-appliancesmart-inc/",
+   "lastEntryDate": null
+  },
+  "72309125": {
+   "entries": [
+    {
+     "date": "2026-11-16",
+     "number": 16,
+     "text": "Joint Status Report",
+     "url": "https://www.courtlistener.com/docket/72309125/16/port-of-tacoma-v-pq-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-260"
+   ],
+   "court": "W.D. Wash.",
+   "docketNumber": "3:26-cv-05162",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/72309125/port-of-tacoma-v-pq-llc/",
+   "lastEntryDate": "2026-11-16"
+  },
+  "72333596": {
+   "entries": [],
+   "caseIds": [
+    "live-259"
+   ],
+   "court": "E.D.N.Y",
+   "docketNumber": "1:26-cv-01107",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/72333596/moses-v-franklin-bsp-realty-trust-inc/",
+   "lastEntryDate": null
+  },
+  "72333986": {
+   "entries": [],
+   "caseIds": [
+    "live-363"
+   ],
+   "court": "6th Cir.",
+   "docketNumber": "25-4018",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/72333986/sinmier-llc-v-everest-indemnity-insurance-company/",
+   "lastEntryDate": null
+  },
   "72337565": {
    "entries": [],
    "caseIds": [
@@ -751,6 +844,39 @@
    "docketNumber": "1:26-cv-03416",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73105372/wells-fargo-bank-na-v-181-west-madison-property-llc/",
+   "lastEntryDate": null
+  },
+  "73144273": {
+   "entries": [],
+   "caseIds": [
+    "live-149"
+   ],
+   "court": "S.D. Fla.",
+   "docketNumber": "1:26-cv-22332",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73144273/700-edgewater-development-llc-v-zurich-american-insurance-company/",
+   "lastEntryDate": null
+  },
+  "73178455": {
+   "entries": [],
+   "caseIds": [
+    "live-250"
+   ],
+   "court": "S.D.W. Va",
+   "docketNumber": "5:26-cv-00257",
+   "dateTerminated": "2026-08-17",
+   "url": "https://www.courtlistener.com/docket/73178455/white-sulphur-springs-holdings-llc-v-justice/",
+   "lastEntryDate": null
+  },
+  "73382121": {
+   "entries": [],
+   "caseIds": [
+    "live-199"
+   ],
+   "court": "Bankr. D.N.J.",
+   "docketNumber": "26-15809",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73382121/brass-works-urban-renewal-company-llc/",
    "lastEntryDate": null
   },
   "73409172": {
@@ -859,6 +985,17 @@
    "url": "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
    "lastEntryDate": "2026-11-13"
   },
+  "73509496": {
+   "entries": [],
+   "caseIds": [
+    "live-338"
+   ],
+   "court": "S.D. Ohio",
+   "docketNumber": "3:26-cv-00196",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73509496/thor-equities-llc-v-city-of-urbana-ohio/",
+   "lastEntryDate": null
+  },
   "73568530": {
    "entries": [
     {
@@ -888,77 +1025,42 @@
    ],
    "court": "D. Mont.",
    "docketNumber": "9:26-cv-00099",
-   "dateTerminated": null,
+   "dateTerminated": "2026-11-12",
    "url": "https://www.courtlistener.com/docket/73568530/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
    "lastEntryDate": "2026-11-12"
   },
-  "73578741": {
-   "entries": [
-    {
-     "date": "2026-11-09",
-     "number": 27,
-     "text": "Order on Motion for Extension of Time to File",
-     "url": "https://www.courtlistener.com/docket/73578741/27/keller-v-udr-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-06",
-     "number": 26,
-     "text": "Extension of Time to File",
-     "url": "https://www.courtlistener.com/docket/73578741/26/keller-v-udr-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-03",
-     "number": 22,
-     "text": "Request to Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/73578741/22/keller-v-udr-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-03",
-     "number": 21,
-     "text": "Request to Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/73578741/21/keller-v-udr-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-03",
-     "number": 20,
-     "text": "Request to Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/73578741/20/keller-v-udr-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-03",
-     "number": null,
-     "text": "Pro Hac Vice Approved - Clerk",
-     "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-03",
-     "number": null,
-     "text": "Order Setting Briefing Schedule",
-     "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-02",
-     "number": 18,
-     "text": "Dismiss for Failure to State a Claim",
-     "url": "https://www.courtlistener.com/docket/73578741/18/keller-v-udr-inc/",
-     "ruling": false
-    }
-   ],
+  "73580832": {
+   "entries": [],
    "caseIds": [
-    "live-014"
+    "live-257"
    ],
-   "court": "S.D. Cal.",
-   "docketNumber": "3:26-cv-03865",
+   "court": "D.N.J.",
+   "docketNumber": "1:26-cv-08284",
    "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
-   "lastEntryDate": "2026-11-09"
+   "url": "https://www.courtlistener.com/docket/73580832/hexa-builders-llc-v-mayor-and-township-council-of-the-township-of-monroe/",
+   "lastEntryDate": null
+  },
+  "73673010": {
+   "entries": [],
+   "caseIds": [
+    "live-365"
+   ],
+   "court": "N.D. Ill.",
+   "docketNumber": "1:26-cv-08860",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73673010/powerhouse-hillwood-holding-llc-v-commonwealth-edison-company/",
+   "lastEntryDate": null
+  },
+  "73680947": {
+   "entries": [],
+   "caseIds": [
+    "live-133"
+   ],
+   "court": "E.D. Pa.",
+   "docketNumber": "2:26-cv-05284",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73680947/kref-capital-llc-v-lak-bourse-owner-llc/",
+   "lastEntryDate": null
   },
   "73684397": {
    "entries": [
@@ -1096,73 +1198,16 @@
    "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
    "lastEntryDate": "2026-11-03"
   },
-  "73733742": {
-   "entries": [
-    {
-     "date": "2026-11-06",
-     "number": 57,
-     "text": "Motion Hearing",
-     "url": "https://www.courtlistener.com/docket/73733742/57/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-06",
-     "number": 56,
-     "text": "Status Conference",
-     "url": "https://www.courtlistener.com/docket/73733742/56/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-26",
-     "number": 55,
-     "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/73733742/55/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-21",
-     "number": 54,
-     "text": "Motion Hearing",
-     "url": "https://www.courtlistener.com/docket/73733742/54/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-20",
-     "number": 53,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/73733742/53/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-20",
-     "number": 52,
-     "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/73733742/52/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 51,
-     "text": "Notice of Appearance",
-     "url": "https://www.courtlistener.com/docket/73733742/51/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-16",
-     "number": 50,
-     "text": "Objections",
-     "url": "https://www.courtlistener.com/docket/73733742/50/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    }
-   ],
+  "73737749": {
+   "entries": [],
    "caseIds": [
-    "live-025"
+    "live-236"
    ],
-   "court": "E.D. Pa.",
-   "docketNumber": "5:26-cv-05612",
+   "court": "E.D. Mich.",
+   "docketNumber": "2:26-cv-12754",
    "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/73733742/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-   "lastEntryDate": "2026-11-06"
+   "url": "https://www.courtlistener.com/docket/73737749/wixom-industrial-one-llc-v-wixom-city-of/",
+   "lastEntryDate": null
   },
   "73738334": {
    "entries": [
@@ -1232,8 +1277,41 @@
    "url": "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
    "lastEntryDate": "2026-10-13"
   },
+  "74637961": {
+   "entries": [
+    {
+     "date": "2026-11-16",
+     "number": 39,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/74637961/39/dcb-nashville-llc-v-the-metropolitan-government-of-nashville-and-davidson/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-16",
+     "number": 38,
+     "text": "Order on Motion to Continue",
+     "url": "https://www.courtlistener.com/docket/74637961/38/dcb-nashville-llc-v-the-metropolitan-government-of-nashville-and-davidson/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-231"
+   ],
+   "court": "M.D. Tenn.",
+   "docketNumber": "3:26-cv-01143",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74637961/dcb-nashville-llc-v-the-metropolitan-government-of-nashville-and-davidson/",
+   "lastEntryDate": "2026-11-16"
+  },
   "74638795": {
    "entries": [
+    {
+     "date": "2026-11-17",
+     "number": 13,
+     "text": "Certificate of Service",
+     "url": "https://www.courtlistener.com/docket/74638795/13/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
     {
      "date": "2026-11-13",
      "number": 12,
@@ -1282,13 +1360,6 @@
      "text": "Leave to File Document",
      "url": "https://www.courtlistener.com/docket/74638795/7/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-21",
-     "number": null,
-     "text": "Set/Reset Motion and R&R Deadlines/Hearings",
-     "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1298,7 +1369,18 @@
    "docketNumber": "3:26-cv-10200",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
-   "lastEntryDate": "2026-11-13"
+   "lastEntryDate": "2026-11-17"
+  },
+  "74650685": {
+   "entries": [],
+   "caseIds": [
+    "live-037"
+   ],
+   "court": "S.D.N.Y.",
+   "docketNumber": "1:26-cv-06952",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74650685/bnk-2018-bnk13-llc-10-east-34th-street-llc-v-10east34th-llc/",
+   "lastEntryDate": null
   },
   "74701388": {
    "entries": [],
@@ -1379,59 +1461,104 @@
    "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
    "lastEntryDate": "2026-11-13"
   },
-  "74850183": {
+  "74781923": {
    "entries": [
     {
-     "date": "2026-11-09",
-     "number": 6,
-     "text": "Missing Document(s) Filed",
-     "url": "https://www.courtlistener.com/docket/74850183/6/new-flagler-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 5,
-     "text": "Order on Motion for Joint Administration - multi case",
-     "url": "https://www.courtlistener.com/docket/74850183/5/new-flagler-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": null,
-     "text": "Receipt of Case Filing Fee - Court Use Only",
-     "url": "https://www.courtlistener.com/docket/74850183/new-flagler-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": 4,
-     "text": "Notice of Appearance and Request",
-     "url": "https://www.courtlistener.com/docket/74850183/4/new-flagler-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": 3,
-     "text": "Motion for Joint Administration - Multi-Case",
-     "url": "https://www.courtlistener.com/docket/74850183/3/new-flagler-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-24",
-     "number": 1,
-     "text": "Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74850183/1/new-flagler-development-llc/",
+     "date": "2026-11-17",
+     "number": 13,
+     "text": "Order on Motion to Stay",
+     "url": "https://www.courtlistener.com/docket/74781923/13/blue-sky-towers-iv-llc-v-town-of-waldoboro/",
      "ruling": false
     }
    ],
    "caseIds": [
-    "live-181"
+    "live-146"
    ],
-   "court": "Bankr. D.N.J.",
-   "docketNumber": "26-20884",
+   "court": "D. Me.",
+   "docketNumber": "2:26-cv-00440",
    "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74850183/new-flagler-development-llc/",
-   "lastEntryDate": "2026-11-09"
+   "url": "https://www.courtlistener.com/docket/74781923/blue-sky-towers-iv-llc-v-town-of-waldoboro/",
+   "lastEntryDate": "2026-11-17"
+  },
+  "74794536": {
+   "entries": [],
+   "caseIds": [
+    "live-145"
+   ],
+   "court": "N.D. Tex.",
+   "docketNumber": "3:26-cv-03130",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74794536/proven-business-skills-inc-v-phoenix-american-hospitality-llc/",
+   "lastEntryDate": null
+  },
+  "74810397": {
+   "entries": [],
+   "caseIds": [
+    "live-340"
+   ],
+   "court": "Bankr. S.D. Tex.",
+   "docketNumber": "26-36934",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74810397/jon-peter-venetos/",
+   "lastEntryDate": null
+  },
+  "74860941": {
+   "entries": [],
+   "caseIds": [
+    "live-223"
+   ],
+   "court": "D. Maryland",
+   "docketNumber": "8:26-cv-03821",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74860941/greater-dc-diaper-bank-v-wwdc-industrial-park-llc/",
+   "lastEntryDate": null
+  },
+  "74914151": {
+   "entries": [
+    {
+     "date": "2026-11-17",
+     "number": 190,
+     "text": "Notice of hearing",
+     "url": "https://www.courtlistener.com/docket/74914151/190/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-17",
+     "number": 189,
+     "text": "Notice (generic)",
+     "url": "https://www.courtlistener.com/docket/74914151/189/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-16",
+     "number": 188,
+     "text": "Dismiss case",
+     "url": "https://www.courtlistener.com/docket/74914151/188/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-16",
+     "number": 187,
+     "text": "Notice of hearing",
+     "url": "https://www.courtlistener.com/docket/74914151/187/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-13",
+     "number": null,
+     "text": "Transcript",
+     "url": "https://www.courtlistener.com/docket/74914151/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-222"
+   ],
+   "court": "Bankr. N.D. Tex.",
+   "docketNumber": "26-80071",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74914151/american-hospitality-properties-reit-inc/",
+   "lastEntryDate": "2026-11-17"
   },
   "74922581": {
    "entries": [
@@ -1569,6 +1696,17 @@
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
    "lastEntryDate": "2026-11-04"
   },
+  "74945850": {
+   "entries": [],
+   "caseIds": [
+    "live-271"
+   ],
+   "court": "S.D.N.Y.",
+   "docketNumber": "1:26-cv-08961",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74945850/computershare-trust-company-national-association-as-trustee-v-starwood/",
+   "lastEntryDate": null
+  },
   "74948724": {
    "entries": [
     {
@@ -1704,6 +1842,93 @@
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
    "lastEntryDate": "2026-10-27"
+  },
+  "74975703": {
+   "entries": [],
+   "caseIds": [
+    "live-398"
+   ],
+   "court": "D. Del.",
+   "docketNumber": "1:26-cv-01337",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74975703/deutsche-finance-america-llc-v-bayerische-versorgungskammer/",
+   "lastEntryDate": null
+  },
+  "75007687": {
+   "entries": [],
+   "caseIds": [
+    "live-346"
+   ],
+   "court": "S.D. Ga.",
+   "docketNumber": "1:26-cv-00249",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/75007687/fannie-mae-v-sys-augusta-llc/",
+   "lastEntryDate": null
+  },
+  "75029856": {
+   "entries": [],
+   "caseIds": [
+    "live-351"
+   ],
+   "court": "D. Minnesota",
+   "docketNumber": "0:26-cv-04642",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/75029856/pmc-property-group-inc-v-apogee-enterprises-inc/",
+   "lastEntryDate": null
+  },
+  "75047315": {
+   "entries": [
+    {
+     "date": "2026-11-16",
+     "number": 76,
+     "text": "Proof of Service (BK)",
+     "url": "https://www.courtlistener.com/docket/75047315/76/zom-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-16",
+     "number": 75,
+     "text": "Proof of Service (BK)",
+     "url": "https://www.courtlistener.com/docket/75047315/75/zom-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-15",
+     "number": 72,
+     "text": "BNC Certificate of Mailing - PDF Document",
+     "url": "https://www.courtlistener.com/docket/75047315/72/zom-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-15",
+     "number": 71,
+     "text": "BNC Certificate of Mailing - PDF Document",
+     "url": "https://www.courtlistener.com/docket/75047315/71/zom-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-15",
+     "number": 70,
+     "text": "BNC Certificate of Mailing - PDF Document",
+     "url": "https://www.courtlistener.com/docket/75047315/70/zom-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-15",
+     "number": 69,
+     "text": "BNC Certificate of Mailing - PDF Document",
+     "url": "https://www.courtlistener.com/docket/75047315/69/zom-holding-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-379"
+   ],
+   "court": "Bankr. M.D. Fla.",
+   "docketNumber": "6:26-bk-08509",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/75047315/zom-holding-inc/",
+   "lastEntryDate": "2026-11-16"
   }
  },
  "events": [
