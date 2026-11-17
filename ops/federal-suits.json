@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T21:13:56+00:00",
+ "updatedAt": "2026-11-17T04:44:41+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
@@ -13,6 +13,32 @@
    "suitNature": "220 Real Property: Foreclosure",
    "cause": "28:1332 Diversity-(Citizenship)",
    "slug": "u-s-bank-trust-national-association-v-12th-street-equity-llc-paed-2-26-cv-08731",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Dynamo Capital Reit I, LLC v. Gulfside Getaways, LLC",
+   "court": "District Court, M.D. Florida",
+   "courtId": "flmd",
+   "docketNumber": "8:26-cv-03488",
+   "dateFiled": "2026-11-16",
+   "docketUrl": "https://www.courtlistener.com/docket/75126152/dynamo-capital-reit-i-llc-v-gulfside-getaways-llc/",
+   "docketId": 75126152,
+   "suitNature": "",
+   "cause": "",
+   "slug": "dynamo-capital-reit-i-llc-v-gulfside-getaways-llc-flmd-8-26-cv-03488",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Aldara Apartment Associates, LLC v. Owners Insurance Company",
+   "court": "District Court, D. Utah",
+   "courtId": "utd",
+   "docketNumber": "2:26-cv-01127",
+   "dateFiled": "2026-11-16",
+   "docketUrl": "https://www.courtlistener.com/docket/75127123/aldara-apartment-associates-llc-v-owners-insurance-company/",
+   "docketId": 75127123,
+   "suitNature": "",
+   "cause": "",
+   "slug": "aldara-apartment-associates-llc-v-owners-insurance-company-utd-2-26-cv-01127",
    "type": "Federal civil case"
   },
   {
