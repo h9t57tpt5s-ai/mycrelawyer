@@ -4,11 +4,9 @@
    (js/premises-liability-checklist-data.js), plus a per-state
    quick-reference panel that reads directly from
    CASE_VALUATION_DATA.premisesLiabilityStateModifiers (case-
-   valuation-data.js) and EVICTION_GUIDE_DATA.states (eviction-
-   guide-data.js) -- neither file is modified here. Both source
-   files are optional at runtime: if either fails to load, the
-   corresponding half of the quick-reference panel is simply
-   omitted rather than the page breaking.
+   valuation-data.js), which is not modified here. Lockout and
+   self-help rules are commercial eviction material and live in
+   the Commercial Eviction Handbook, not on this page.
    ========================================================= */
 
 (function () {
@@ -37,10 +35,6 @@
     if (p) p.textContent = PREMISES_CHECKLIST_DATA.injuryWhyItMatters;
   }
 
-  function findEvictionState(name) {
-    if (typeof EVICTION_GUIDE_DATA === "undefined") return null;
-    return EVICTION_GUIDE_DATA.states.find((s) => s.name === name) || null;
-  }
 
   function boolLabel(v) {
     if (v === true) return "Yes";
@@ -93,14 +87,6 @@
 
     function renderStateResult(name) {
       const m = MODS[name];
-      const ev = findEvictionState(name);
-
-      const lockoutHtml = ev
-        ? `<div class="card" style="padding:20px; margin-top:14px;">
-            <div class="eyebrow" style="margin-bottom:8px;">${name} — Self-Help / Lockout</div>
-            <p class="text-secondary" style="font-size:13.5px; line-height:1.7;"><strong>${ev.selfHelpAvailable}</strong> — general orientation classification: <strong>${ev.classification}</strong>. Read the full chapter, including the exact statutory conditions, in the <a href="eviction-guide.html" class="text-accent" style="display:inline;">Commercial Eviction Handbook</a> before acting.</p>
-          </div>`
-        : `<div class="card" style="padding:20px; margin-top:14px;"><div class="eyebrow" style="margin-bottom:8px;">${name} — Self-Help / Lockout</div><p class="text-secondary" style="font-size:13.5px; line-height:1.7;">See the <a href="eviction-guide.html" class="text-accent" style="display:inline;">Commercial Eviction Handbook</a> for this state's self-help/lockout rules.</p></div>`;
 
       host.innerHTML = `
         <div class="card" style="padding:20px; margin-top:16px;">
@@ -116,7 +102,6 @@
           <div class="eyebrow" style="margin-bottom:8px;">${name} — Comparative/Contributory Fault</div>
           <p class="text-secondary" style="font-size:13.5px; line-height:1.7;">${m.faultRule || "Not yet researched"}${m.note ? " " + m.note : ""}</p>
         </div>
-        ${lockoutHtml}
         <p class="text-muted mt-16" style="font-size:12px;"><a href="premises-liability-guide.html" class="text-accent" style="display:inline;">Read ${name}'s full Premises Liability Guide chapter for citations and complete analysis →</a></p>
         ${window.RELAW_UTILS.watchlistCtaHtml ? window.RELAW_UTILS.watchlistCtaHtml({
           stateCode: window.RELAW_UTILS.stateCodeByName(name),
@@ -131,7 +116,6 @@
   renderDisclaimer();
   renderChecklist("#pc-injury-list", PREMISES_CHECKLIST_DATA.injuryChecklist);
   renderInjuryWhy();
-  renderChecklist("#pc-lockout-list", PREMISES_CHECKLIST_DATA.lockoutChecklist);
   renderChecklist("#pc-doc-list", PREMISES_CHECKLIST_DATA.documentationChecklist);
   renderStatePicker();
 })();

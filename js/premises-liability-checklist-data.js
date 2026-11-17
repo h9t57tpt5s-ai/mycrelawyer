@@ -8,13 +8,14 @@
    standard risk-management practice -- they do not state any
    new legal rule. The one interactive per-state element on this
    page reads directly from CASE_VALUATION_DATA.premisesLiability
-   StateModifiers (case-valuation-data.js) and EVICTION_GUIDE_
-   DATA.states (eviction-guide-data.js), neither of which is
-   modified by this file.
+   StateModifiers (case-valuation-data.js), which this file does
+   not modify. Lockout and self-help rules are a commercial
+   eviction topic and live in the Commercial Eviction Handbook,
+   not here (Jeff, 2026-11-16).
    ========================================================= */
 
 const PREMISES_CHECKLIST_DATA = {
-  disclaimer: "This checklist is general risk-management guidance for on-site property management staff -- it is not legal advice, does not cover every fact pattern, and is not a substitute for your own company's incident-response policy or for consulting counsel about a specific incident. Self-help/lockout rules in particular vary by state and can carry serious penalties if followed incorrectly -- always confirm current, binding law before acting, using the full state-by-state detail in the Commercial Eviction Handbook and Premises Liability Guide linked throughout.",
+  disclaimer: "This checklist is general risk-management guidance for on-site property management staff -- it is not legal advice, does not cover every fact pattern, and is not a substitute for your own company's incident-response policy or for consulting counsel about a specific incident. Premises liability rules vary by state -- always confirm current, binding law before acting, using the full state-by-state detail in the Premises Liability Guide linked throughout.",
 
   injuryChecklist: [
     "Get medical attention first. Call 911 if the injury is serious — nothing below matters if someone needs emergency care.",
@@ -28,14 +29,6 @@ const PREMISES_CHECKLIST_DATA = {
   ],
   injuryWhyItMatters: "Whether the owner/manager had notice of the hazard, and for how long, is frequently the single most outcome-determinative fact in a premises-liability case afterward. Several states also apply a \"mode of operation\" rule that can let a claimant skip proving notice of that specific hazard if the business's own operating model makes that type of hazard foreseeably recurring — see your state's quick reference below for whether that applies where you operate.",
 
-  lockoutChecklist: [
-    "Confirm your state's current self-help/lockout rules BEFORE acting, not after. Availability ranges from fully available, to conditional on specific statutory steps, to not available at all, to genuinely unsettled — depending on the state. Never assume it's the same as the last property you managed in a different state.",
-    "Where self-help is available at all, it's still conditioned on following the exact statutory steps (no breach of the peace, correct notice given first, and similar requirements that vary by state) — a technically-permitted lockout done the wrong way is exactly where serious exposure (including treble-damages statutes on the books in some states) comes from.",
-    "Never remove, dispose of, or lock a tenant out from access to their personal property or inventory as part of a lockout — that creates a separate, additional source of liability on top of the possession dispute itself.",
-    "Document the notice you gave, when, and how, before changing any locks — this is usually the property's primary defense if the lockout is later challenged.",
-    "When self-help is conditional, uncertain, or unavailable in your state — or you have any doubt at all — use the judicial eviction process instead. The delay is a known, bounded cost; a wrongful-lockout judgment is not.",
-    "This is general information only. Confirm your specific state's current statute in the Commercial Eviction Handbook, and involve counsel, before directing or carrying out any self-help lockout."
-  ],
 
   documentationChecklist: [
     "Incident report — factual, contemporaneous, completed the same day",
@@ -45,7 +38,6 @@ const PREMISES_CHECKLIST_DATA = {
     "Witness names, contact information, and any statements taken",
     "Prior complaint or incident history for the same location or condition (relevant to notice, and to whether a \"mode of operation\" rule applies)",
     "Vendor/contractor contracts and certificates of insurance for whoever last worked in that area",
-    "Correspondence with the property owner and your insurance carrier",
-    "A copy of the notice given to any tenant involved, if the incident relates to a lockout or possession dispute"
+    "Correspondence with the property owner and your insurance carrier"
   ]
 };
