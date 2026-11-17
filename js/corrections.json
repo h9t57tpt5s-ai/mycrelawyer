@@ -4,6 +4,116 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-181",
+   "subject": "Brightline's Real Estate Arms Land in Chapter 11 as Rail Parent Restructures $5.5B Debt",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Brightline's Real Estate Arms Land in Chapter 11 as Rail Parent Restructures $5.5B Debt",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; A passenger railroad's Chapter 11; its commercial real estate link is indirect, so not CRE on its face."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-165",
+   "caseId": "live-165",
+   "subject": "NSI6 LLC v. Benton County (Missouri Court Blocks County Data Center Moratorium for Now)",
+   "kind": "Corrected: date, status",
+   "was": "Court hears arguments on ... request for a temporary restraining order (latest event; no ruling reported) | date 2026-09-02 (hearing)",
+   "now": "The judge granted the TRO on Sept. 8, 2026 and extended it on Sept. 21; the land purchase closed Sept. 9 | 2026-09-08 (TRO granted)",
+   "basis": "Checked against the source article: KY3, Sept. 21, 2026 | KY3, Sept. 21, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-120",
+   "caseId": "live-120",
+   "subject": "City of San Antonio and Toyota Motor Manufacturing Texas, Inc. v. Southside Affordable Development, LLC",
+   "kind": "Corrected: description",
+   "was": "after San Antonio declined to rezone a 97-acre tract Southside bought in 2017 | rendered judgment dismissing Southside's claims with prejudice",
+   "now": "after city officials said they would not support rezoning about 34.5 acres of the tract; the city never formally denied the request | rendered judgment dismissing Southside's claims against the city with prejudice; Toyota's separate appeal was dismissed and treated as a mandamus petition, denied as moot",
+   "basis": "Checked against the source article: Fourth Court of Appeals opinion, No. 04-24-00371-CV (July 16, 2025) | Fourth Court of Appeals opinion and In re Toyota Motor Manufacturing Texas, Inc., No. 04-25-00279-CV (Sept. 3, 2025)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-369",
+   "caseId": "live-369",
+   "subject": "Phoenix Must Show Data-Center Rules Protect Public Health or Face $54M Prop 207 Claim, Judge Rules",
+   "kind": "Corrected: date, description, figure",
+   "was": "or pay a Texas-based developer as much as $54 million | October 28, 2026: Maricopa County Superior Court dismisses WBR's ordinance-based claim | More than a dozen other landowners have filed similar claims against the same ordinance",
+   "now": "WBR seeks more than $54 million in lost property value | The ruling came earlier in October 2026; Oct. 28 is the date KJZZ reported it | Removed; KJZZ reports no other claims",
+   "basis": "Checked against the source article: KJZZ, Oct. 28, 2026 | KJZZ, Oct. 28, 2026 | KJZZ, Oct. 28, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-046",
+   "caseId": "live-046",
+   "subject": "Lakes at Marshall Ridge HOA v. Town of Westlake (Circle T Data Center Notice Challenge)",
+   "kind": "Corrected: description",
+   "was": "Temporary-injunction hearing to be held on or before September 8, 2026",
+   "now": "The temporary-injunction hearing was set for Aug. 26, 2026",
+   "basis": "Checked against the source article: The Dallas Express, Aug. 17, 2026; Newsweek"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-360",
+   "caseId": "live-360",
+   "subject": "Kansas Court Orders Sheriff's Sale of Stalled Mission Gateway Site After $46.24M Judgment",
+   "kind": "Corrected: date, figure",
+   "was": "$46.24 million final judgment ($24M principal plus over $20M interest) on an originally $24-26M loan | the bank's attorneys filed papers on October 28 asking the court to proceed with the sheriff's sale | the roughly 20-acre Mission Gateway parcel | April 18, 2023: Metropolitan Commercial Bank sues Aryeh Realty LLC",
+   "now": "$46.24 million judgment for loan default and unpaid property taxes, on a $26 million loan | The request was filed on Monday, Oct. 26, 2026 | 17-acre tract | 2023 (exact date not in sources reviewed)",
+   "basis": "Checked against the source article: KCTV5, Oct. 28, 2026; Johnson County Post, Dec. 13, 2025 | KCTV5, Oct. 28, 2026 (published Wednesday; filing 'on Monday') | Johnson County Post, Dec. 13, 2025 | Johnson County Post, Dec. 13, 2025"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-166",
+   "caseId": "live-166",
+   "subject": "Preserve Montgomery County v. Montgomery County (Judge Lets Challenge to Amazon Data Center Approvals Proceed)",
+   "kind": "Corrected: description",
+   "was": "alleges the county violated Missouri's Sunshine Law and failed to give legally required public notice",
+   "now": "alleges the county and state failed to post proper public notice, did not adequately disclose water and electricity use, and did not fully inform residents of the tax-abatement terms; the report does not mention the Sunshine Law",
+   "basis": "Checked against the source article: Columbia Missourian via KBIA, Sept. 21, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-256",
+   "caseId": "live-256",
+   "subject": "H-E-B Slip-and-Fall Ruling: Texas Supreme Court Tightens Constructive-Notice Proof",
+   "kind": "Corrected: description",
+   "was": "The Thirteenth Court of Appeals pointed to evidence of unrelated roof leaks elsewhere in the store ... and held that evidence sufficient",
+   "now": "The Thirteenth Court of Appeals reversed; the plaintiff's evidence included leaks elsewhere in the store, dripping she said she saw, a companion's recanted account, the puddle's size, earlier rain and a two-hour inspection gap",
+   "basis": "Checked against the source article: JD Supra law-firm summary, Apr. 14, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-258",
+   "caseId": "live-258",
+   "subject": "Cedar Christina Crossing Parking-Lot Ice Fall: Delaware Supreme Court Affirms Summary Judgment",
+   "kind": "Corrected: description",
+   "was": "security video ... showed the lot clear and dry that day, with no snow, ice, or treatment activity visible",
+   "now": "surveillance video showed the lot clear and dry with no snow removal under way at the time of the fall",
+   "basis": "Checked against the source article: JD Supra law-firm summary, Apr. 30, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-205",
+   "caseId": "live-205",
+   "subject": "American Heavy Plate Solutions, LLC v. Bitdeer (Lease-Rights Fight Over Ohio Data Center Site)",
+   "kind": "Corrected: date, description",
+   "was": "sued ... on February 2, 2026 | Bitdeer had signed an advance conflict waiver when it retained separate counsel in the New York matter",
+   "now": "Feb. 2, 2026 is the date Bitdeer's subsidiary received notice of the complaint; the filing date is not stated | Bitdeer had signed an advance waiver allowing the firm to take on certain future matters against it",
+   "basis": "Checked against the source article: Bitdeer Technologies Group Form 6-K, Feb. 5, 2026 | JDJournal, Sept. 13, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-069",
+   "subject": "In re RealPage, Inc. Rental Software Antitrust Litigation (Equity Residential's $56M Settlement)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: In re RealPage, Inc. Rental Software Antitrust Litigation (Equity Residential's $56M Settlement)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; A renters' class action over apartment rents (residential tenants as plaintiffs); out of scope, as with live-001."
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-232",
    "caseId": "live-232",
    "subject": "Fox Investments LLC v. City of Kaukauna (Wisconsin Direct-Action Contamination Cost-Recovery Suit)",
