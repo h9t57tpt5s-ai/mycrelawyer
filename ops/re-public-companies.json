@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T07:54:49+00:00",
+ "updatedAt": "2026-11-17T09:11:09+00:00",
  "about": "Listed companies filing under real estate SIC codes 6798, 6500, 6510, 6512, 6513, 6519, 6531, 6552, 7011 (EDGAR). Used to pick real estate companies out of press-release feeds.",
  "companies": [
   {
@@ -298,12 +298,6 @@
   },
   {
    "cik": 1562401,
-   "ticker": "AMH-H",
-   "name": "American Homes 4 Rent",
-   "sic": "6798"
-  },
-  {
-   "cik": 1562401,
    "ticker": "AMH-PG",
    "name": "American Homes 4 Rent",
    "sic": "6798"
@@ -359,7 +353,7 @@
   {
    "cik": 1467760,
    "ticker": "ARI",
-   "name": "Apollo Commercial Real Estate Finance, Inc.",
+   "name": "Apollo Commercial Real Estate Finance Liquidating Trust",
    "sic": "6798"
   },
   {
@@ -509,18 +503,6 @@
   {
    "cik": 1001085,
    "ticker": "BKFOF",
-   "name": "BROOKFIELD Corp /ON/",
-   "sic": "6512"
-  },
-  {
-   "cik": 1001085,
-   "ticker": "BKFPF",
-   "name": "BROOKFIELD Corp /ON/",
-   "sic": "6512"
-  },
-  {
-   "cik": 1001085,
-   "ticker": "BKPA",
    "name": "BROOKFIELD Corp /ON/",
    "sic": "6512"
   },
@@ -1287,6 +1269,24 @@
    "sic": "6798"
   },
   {
+   "cik": 2121703,
+   "ticker": "FXAC",
+   "name": "FortuneX Acquisition Corp",
+   "sic": "6531"
+  },
+  {
+   "cik": 2121703,
+   "ticker": "FXACU",
+   "name": "FortuneX Acquisition Corp",
+   "sic": "6531"
+  },
+  {
+   "cik": 2121703,
+   "ticker": "FXACW",
+   "name": "FortuneX Acquisition Corp",
+   "sic": "6531"
+  },
+  {
    "cik": 1570843,
    "ticker": "GEBRF",
    "name": "Greenbriar Sustainable Living Inc.",
@@ -1807,18 +1807,6 @@
    "ticker": "LVS",
    "name": "LAS VEGAS SANDS CORP",
    "sic": "7011"
-  },
-  {
-   "cik": 910108,
-   "ticker": "LXP",
-   "name": "LXP Industrial Trust",
-   "sic": "6798"
-  },
-  {
-   "cik": 910108,
-   "ticker": "LXP-PC",
-   "name": "LXP Industrial Trust",
-   "sic": "6798"
   },
   {
    "cik": 912595,
@@ -2632,12 +2620,6 @@
   },
   {
    "cik": 1511337,
-   "ticker": "RLJ-A",
-   "name": "RLJ Lodging Trust",
-   "sic": "6798"
-  },
-  {
-   "cik": 1511337,
    "ticker": "RLJ-PA",
    "name": "RLJ Lodging Trust",
    "sic": "6798"
@@ -2805,6 +2787,12 @@
    "sic": "7011"
   },
   {
+   "cik": 1295810,
+   "ticker": "SHO.PRI",
+   "name": "Sunstone Hotel Investors, Inc.",
+   "sic": "7011"
+  },
+  {
    "cik": 894315,
    "ticker": "SITC",
    "name": "SITE Centers Corp.",
@@ -2855,12 +2843,6 @@
   {
    "cik": 1063761,
    "ticker": "SPG-PJ",
-   "name": "SIMON PROPERTY GROUP INC.",
-   "sic": "6798"
-  },
-  {
-   "cik": 1063761,
-   "ticker": "SPGJ",
    "name": "SIMON PROPERTY GROUP INC.",
    "sic": "6798"
   },
