@@ -239,10 +239,6 @@
   {
    "slug": "office-foreclosure-tracker",
    "name": "Office Foreclosure & Receivership Tracker"
-  },
-  {
-   "slug": "cmbs-litigation-tracker",
-   "name": "CMBS Foreclosure & Special Servicing Tracker"
   }
  ],
  "live-334": [
@@ -458,12 +454,6 @@
   }
  ],
  "live-271": [
-  {
-   "slug": "cmbs-litigation-tracker",
-   "name": "CMBS Foreclosure & Special Servicing Tracker"
-  }
- ],
- "live-251": [
   {
    "slug": "cmbs-litigation-tracker",
    "name": "CMBS Foreclosure & Special Servicing Tracker"
