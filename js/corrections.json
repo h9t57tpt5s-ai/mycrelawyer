@@ -4,6 +4,76 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-229",
+   "caseId": "live-229",
+   "subject": "KSG v. BroadRange Logistics (Mount Pocono Warehouse Tenant-Improvement Allowance Suit)",
+   "kind": "Corrected: description, figure",
+   "was": "The $32 million allowance underlying the deal | names the attorney who handled the transaction, suggesting the alleged misuse of the allowance involved more than the tenant",
+   "now": "An $11 million allowance; $32 million was KSG's CMBS loan from Ocean First Bank, part of which funded the allowance | The attorney is the lawyer KSG hired to negotiate the lease, sued for allegedly leaving out a way to recover the allowance; his lawyer says the claims have no merit",
+   "basis": "Checked against the source article: The Real Deal: 'KSG agreed to provide BroadRange an $11 million tenant improvement allowance' and 'KSG secured a $32 million commercial mortgage-backed securities loan ... with some of the loan proceeds funding the tenant improvement allowances' | The Real Deal: 'KSG hired Berlin to negotiate the lease, but alleges he failed to include any mechanism in the lease to allow the landlord to recover the tenant improvement allowance'"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-221",
+   "caseId": "live-221",
+   "subject": "Republic Bank of Chicago v. Addison Ice, LLC (Ice Arena Receivership Over Alleged Fund Diversion)",
+   "kind": "Corrected: date, description",
+   "was": "October 3, 2026: Court places the arena into receivership | as the loan approached maturity default",
+   "now": "September 30, 2026 | the bank accelerated the loan after missed July and August 2026 payments and missed tax reserve deposits starting in April",
+   "basis": "Checked against the source article: The Real Deal, dated Saturday Oct. 3, 2026: 'On Wednesday, Judge Robert G. Gibson placed the complex into the control of Matthew Brash' | The Real Deal: 'Republic Bank accelerated the due date of the full $9.5 million debt after Addison Ice missed its regular monthly principal and interest payments for July and August this year, along with missing tax reserve deposits starting in April, the suit says.'"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-210",
+   "caseId": "live-210",
+   "subject": "Rialto Capital Takes 580 Market Street, a San Francisco Financial District Office Building, in Foreclosure",
+   "kind": "Corrected: date, description",
+   "was": "September 30, 2026: Rialto takes title at trustee's sale | the reduced $17.5 million payoff amount Rialto claimed at the sale | located a block from the Montgomery Street BART and Muni Metro station",
+   "now": "July 2026: trustee's deed recorded; Rialto took the property for $5 million | $17.5 million in unpaid debt, up from the $15.7 million loan | next to the Montgomery BART station",
+   "basis": "Checked against the source article: The Real Deal: 'The July trustee's deed showed $17.5 million in unpaid debt. Rialto paid $5 million to take control of the property.' Sept. 30 is the article's publication date. | The Real Deal: '$15.7 million loan' and 'The July trustee's deed showed $17.5 million in unpaid debt' | The Real Deal: 'A century-old office building next to San Francisco's Montgomery BART station'"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-208",
+   "caseId": "live-208",
+   "subject": "Investors Sue The Davis Companies Over UCC Sale of 345 Seventh Avenue, Allege $80M Fraud by Mike Kohan",
+   "kind": "Corrected: description, party",
+   "was": "Investors filed two suits: one against Kohan entities (dated Sept. 28, 2026) and a separate one against The Davis Companies | Investors Allege $80M Fraud Against Kohan Properties Ltd.; Kohan Properties Ltd. listed as defendant | Davis was the winning bidder, taking control of the Garment District building",
+   "now": "One suit, filed Sept. 29, 2026 against The Davis Companies, which also sets out the investors' fraud allegations against Kohan | The fraud allegations are aimed at Mike Kohan; The Davis Companies is the defendant the article names | Davis used a credit bid to acquire an equity stake, which its attorney said puts it on a path to control the property",
+   "basis": "Checked against the source article: The Real Deal: 'In a lawsuit filed Tuesday against the mezzanine lender The Davis Companies, 17 investors ... alleged the foreclosure process ... was defective' and 'The lawsuit lays out a broader series of allegations against Kohan.' The article is dated Tuesday, Sept. 29, 2026. | The Real Deal: 'The investors allege that Kohan defrauded them'; a Kohan Retail Investment Group representative said 345 Seventh Avenue 'is controlled by an affiliate of Kohan individually.' Kohan Properties Ltd. appears only as the company that removed him. | The Real Deal: 'Davis Companies used a credit bid to acquire an equity stake in 345 Seventh Avenue, putting it on a path to control the property, the firm's attorney Leo Leyva said.'"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-203",
+   "caseId": "live-203",
+   "subject": "Slate Property Group and The Carlyle Group v. MG Developer (Metro Parc South Construction Loan Foreclosure)",
+   "kind": "Corrected: description",
+   "was": "the default followed more than a year of warning signs -- three separate default notices and an expired forbearance agreement",
+   "now": "The lenders sent default notices in January, May and June 2026, and a forbearance agreement followed and has since expired",
+   "basis": "Checked against the source article: The Real Deal: 'The lenders sent default notices in January, May and June of this year' (article dated Sept. 28, 2026)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-202",
+   "caseId": "live-202",
+   "subject": "Dundon Capital Partners' 2100 Ross Avenue Dallas Office Tower Posted for Foreclosure on $98M Loan",
+   "kind": "Corrected: party",
+   "was": "Owned by a partnership affiliated with Woods Capital and Pacific Elm Properties (both listed as Borrower/Owner)",
+   "now": "Owned by Dundon Capital Partners, Thomas Dundon's firm; Pacific Elm Properties manages the building",
+   "basis": "Checked against the source article: The Real Deal article, updated 9/27/26: 'This story was updated to reflect that Thomas Dundon owns the property at 2100 Ross; Pacific Elm Properties manages the building.' The original URL now redirects to the thomas-dundon slug."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-182",
+   "subject": "Flagship Partners v. Reuben Brothers, O'Connor Capital Partners ($200M Palm Beach Esplanade Broker Commission Suit)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a commercial real estate dispute: a broker's commission claim over the Esplanade property.",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; Remove: this is a broker pay dispute with no property claim (a broker says the buyer and seller of The Esplanade owe him a $3 million commission). PATCH-INSTRUCTIONS rule 9 names this kind of case as out of scope. If the main session keeps it instead: the article says Josh Wade, Flagship's founder, "
+  },
+  {
+   "date": "2026-11-16",
    "scope": "matter",
    "caseId": "live-027",
    "subject": "260 Park Avenue South Condo Board v. Yitzchak Tessler (Flatiron Retail Units Common-Charge Foreclosure)",
@@ -86,7 +156,7 @@
    "date": "2026-11-16",
    "scope": "live-029",
    "caseId": "live-029",
-   "subject": "live-029",
+   "subject": "Via Mizner Owner III LLC v. Via Mizner Lender 1 LLC (Mandarin Oriental Boca Raton Lender-Liability Suit)",
    "kind": "Corrected: date, description",
    "was": "August 17, 2026: Developer sues lenders for $500M+ in New York | a dispute that until now had been driven entirely by the lender's own foreclosure claims",
    "now": "August 13, 2026: developer sues; August 17: Justice Borrok temporarily blocks the auction | Buyers, contractors and subcontractors have also sued the developer in separate cases over the years",
@@ -96,7 +166,7 @@
    "date": "2026-11-16",
    "scope": "live-024",
    "caseId": "live-024",
-   "subject": "live-024",
+   "subject": "U.S. Bank v. Brightline Investment Holdings, LLC (MiamiCentral Station Retail Foreclosure)",
    "kind": "Corrected: description, party",
    "was": "its own debt strain ... tied to its unrated bond financing | U.S. Bank, acting as administrative agent for a senior lender group led by ... XYQ Cayman Ltd. ... syndicated among the lender group | tenants ... include ... Powerhouse Gym ... and the Central Fare food hall",
    "now": "Fitch downgraded the rail operator's bonds in July 2026 | U.S. Bank represented two lender groups; XYQ Cayman holds the $65M senior piece and four EB-5 funds hold the $63M junior piece | Tenants include AT&T, Starbucks, Chick-fil-A, Rosetta Bakery, Joe & The Juice and Wolf of Tacos",
@@ -116,7 +186,7 @@
    "date": "2026-11-16",
    "scope": "live-004",
    "caseId": "live-004",
-   "subject": "live-004",
+   "subject": "FitFactariDC LLC v. CoStar Group, Inc. (CRE Lease-Data Hub-and-Spoke Antitrust Suit)",
    "kind": "Corrected: label",
    "was": "September 24, 2026: Court enters order on the motions to dismiss and sets a briefing schedule (docket entry 71)",
    "now": "August 13, 2026: Court sets the motion-to-dismiss briefing schedule",

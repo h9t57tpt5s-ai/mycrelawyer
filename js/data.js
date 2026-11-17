@@ -5907,11 +5907,11 @@ const RELAW_DATA = {
       property: {"address": "625 North Michigan Avenue", "city": "Chicago", "state": "IL"},
       addedDate: "2026-09-24",
       title: "Citibank, N.A. v. Golub & Company (Magnificent Mile Office Tower Foreclosure Receivership)",
-      brief: "A Cook County judge appointed a receiver for 625 North Michigan Avenue, a 28-story Magnificent Mile office tower, after Golub and BlueFive defaulted on a $50.6 million CMBS loan at maturity.",
+      brief: "A Cook County judge put the office floors of 625 North Michigan Avenue, a 28-story Magnificent Mile building, under a receiver in a foreclosure over a $50.6 million CMBS loan the lenders say went unpaid at maturity.",
       category: "lending-foreclosure",
       status: "ruling",
       date: "2026-06-16",
-      jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      jurisdiction: "Circuit Court of Cook County, Illinois",
       judge: null,
       amountUsd: 50600000,
       amountBasis: "loan",
@@ -5919,14 +5919,13 @@ const RELAW_DATA = {
       amount: "$50.6 million CMBS loan alleged in default",
       source: "live",
       sourceUrl: "https://therealdeal.com/chicago/2026/06/27/receiver-appointed-in-625-n-michigan-ave-foreclosure/",
-      summary: "Citibank, N.A., as trustee for CMBS bondholders, and special servicer LNR Partners moved to foreclose on 625 North Michigan Avenue, a 28-story, roughly 290,000-square-foot office tower on Chicago's Magnificent Mile, after landlords Golub & Company and BlueFive Capital defaulted on a $50.6 million loan that matured on March 6, 2026 without repayment. A Cook County judge appointed Scott Shefman of Friedman Real Estate Management as receiver for the property on June 16, 2026.",
-      significance: "Illustrates the now-familiar path from special servicing to formal default notice to court-appointed receivership for maturity-defaulted office CMBS loans in gateway downtowns, even on a trophy corridor like the Magnificent Mile. Owners of office towers with loans originated during the low-rate, aggressive-underwriting era of the late 2010s should expect special servicers to move quickly to a receivership request once a maturity default notice issues, shifting day-to-day control of leasing and operations away from the sponsor while the foreclosure proceeds.",
+      summary: "Citibank, as trustee for CMBS bondholders, and special servicer LNR Partners sued to foreclose on the office portion of 625 North Michigan Avenue, a 28-story building on Chicago's Magnificent Mile. They allege owners Golub & Company and BlueFive Capital defaulted on a $50.6 million loan that came due on March 6, 2026 and was not paid off. On June 16, 2026, a Cook County judge named Scott Shefman of Friedman Real Estate Management as receiver, The Real Deal reported, citing court records.",
+      significance: "Once an office loan passes maturity without a payoff, a special servicer can go from a default notice to a court-appointed receiver within a few months. From then on the receiver, not the owner, collects rent, signs leases and helps market the building, even though the foreclosure itself is still pending.",
       body: [
-        "A 28-story office tower on Chicago's Magnificent Mile has passed into a court-appointed receiver's hands as its owners fight a foreclosure action from their CMBS lender. Citibank, N.A., acting as trustee for commercial mortgage-backed securities bondholders, and special servicer LNR Partners moved against landlords Golub & Company and BlueFive Capital over a $50.6 million loan secured by 625 North Michigan Avenue, a roughly 290,000-square-foot building near the John Hancock Center. The loan, originated by Cantor Commercial Real Estate in 2019 at a 4.63 percent interest rate, reached its maturity date on March 6, 2026 without repayment.",
-        "The loan's troubles were not sudden. It transferred into special servicing in November 2025 on an imminent default driven by cash-flow shortfalls at the property, well before the March maturity date arrived. Golub and BlueFive received a formal notice of default in April 2026, and when the borrowers were unable to refinance or otherwise resolve the debt, the lender side moved to install a receiver to protect the collateral while foreclosure proceeded. On June 16, 2026, a Cook County judge granted that request, appointing Scott Shefman of Friedman Real Estate Management to take over management of the building.",
-        "The sequence -- special servicing transfer, notice of default, maturity default, and then a receivership motion -- has become a standard playbook for CMBS special servicers working out office loans originated in the years of historically low rates and aggressive underwriting that preceded the post-2022 rise in interest rates. Office towers financed on those terms have struggled to refinance at current rates against materially higher cap rates and, in many downtown submarkets, softer occupancy than when the loans were made, leaving sponsors with little room to bridge the gap between a maturing loan balance and current asset value.",
-        "For sponsors, the receivership order is the practical turning point in a maturity-default foreclosure: control over leasing decisions, tenant negotiations, building operations, and the property's bank accounts shifts to the court-appointed receiver, even though title has not yet formally changed hands and the foreclosure litigation continues. That transition can happen quickly once a special servicer concludes a workout is not viable, and sponsors with loans already in special servicing should not assume they will retain operational control simply because a foreclosure complaint has not yet been filed or a sale has not yet occurred.",
-        "The 625 North Michigan Avenue matter is a useful marker for other Magnificent Mile and downtown Chicago office owners navigating loan maturities on similarly vintage debt: once cash flow can no longer cover debt service and a special servicer has been assigned, the realistic window to negotiate an out-of-court extension or modification narrows quickly, and a receivership motion often follows a maturity default within a matter of months rather than years. Sponsors facing a comparable maturity wall should engage their special servicer early, document any leasing momentum or capital improvements that support the asset's value, and prepare for the practical loss of day-to-day control that a receivership brings well before any eventual foreclosure sale or deed-in-lieu resolves title."
+        "Citibank, acting as trustee for holders of commercial mortgage-backed securities, and special servicer LNR Partners have sued in Cook County to foreclose on 625 North Michigan Avenue, a 28-story office building on Chicago's Magnificent Mile. The lenders allege that Golub & Company and BlueFive Capital defaulted on a $50.6 million loan that Cantor Commercial Real Estate made in 2019 at 4.63 percent interest. According to the lenders, the loan came due on March 6, 2026 and the borrowers did not pay it off.",
+        "The Real Deal reported that the loan moved to special servicing in November 2025 because cash-flow problems made a default look imminent, and that Golub had told the lender it could not keep paying the building's operating costs itself. The borrowers received a formal default notice in April 2026. On June 16, 2026, a Cook County judge appointed Scott Shefman of Friedman Real Estate Management as receiver. His duties include collecting rent, opening new bank accounts, negotiating and signing leases, and helping market the building for sale.",
+        "The foreclosure covers only the office space on floors five through 27, which total nearly 290,000 square feet. The retail space on the lower four floors has a separate owner and is not part of the case.",
+        "According to The Real Deal, occupancy fell to about 63.8 percent in 2025 from 91.8 percent when the loan was underwritten in 2019, and the debt service coverage ratio dropped to 0.96 in the first quarter of 2025, which triggered a cash management sweep. Neither Shefman nor Golub responded to The Real Deal's requests for comment."
       ],
       timeline: [
         { when: "2019", label: "Cantor Commercial Real Estate originates the $50.6 million loan at 4.63% interest" },
@@ -6156,45 +6155,6 @@ const RELAW_DATA = {
       docketUrl: "https://www.courtlistener.com/docket/74850183/new-flagler-development-llc/",
       docketLabel: "CourtListener docket",
       tags: ["chapter-11", "bankruptcy", "debt-restructuring", "transit-oriented-development", "brightline"]
-    },
-    {
-      id: "live-182",
-      seoTitle: "The Esplanade Palm Beach: $3M Broker Commission Suit",
-      seoDescription: "Flagship Partners sued Reuben Brothers and O'Connor Capital for a $3 million commission on the $200 million sale of The Esplanade, 150 Worth Avenue.",
-      property: {"name": "The Esplanade", "address": "150 Worth Avenue", "city": "Palm Beach", "state": "FL"},
-      addedDate: "2026-09-26",
-      title: "Flagship Partners v. Reuben Brothers, O'Connor Capital Partners ($200M Palm Beach Esplanade Broker Commission Suit)",
-      brief: "Brokerage Flagship Partners sued Reuben Brothers and O'Connor Capital for a $3 million commission, saying they cut it out of the $200 million sale of Palm Beach's Esplanade retail complex.",
-      category: "lease-disputes",
-      status: "filed",
-      date: "2026-09-01",
-      jurisdiction: "Miami-Dade County Circuit Court",
-      state: "FL",
-      amount: "$3M commission claimed (1.5% of $200M sale price)",
-      source: "live",
-      sourceUrl: "https://therealdeal.com/miami/2026/09/10/broker-sues-reuben-bros-oconnor-capital-over-mega-deal/",
-      summary: "Delray Beach-based brokerage Flagship Partners sued Reuben Brothers and O'Connor Capital Partners in Miami-Dade Circuit Court on September 1, 2026, alleging the buyer and seller cut it out of a $200 million sale of The Esplanade, a Palm Beach retail complex at 150 Worth Avenue, after Flagship introduced the two sides. The complaint seeks a $3 million commission, 1.5% of the sale price, that Flagship says neither side ever disputed was owed once the deal closed in March 2026.",
-      significance: "A recurring exposure for institutional buyers and sellers on off-market commercial deals: a broker who claims credit for introducing the parties can pursue a commission claim well after closing even without a signed brokerage agreement with both sides, particularly where the amount and rate went unchallenged when first raised. Owners and funds relying on off-market intermediaries should document commission terms and any disclaimers in writing before a deal reaches the letter-of-intent stage.",
-      body: [
-        "Delray Beach-based brokerage Flagship Partners has sued Reuben Brothers and O'Connor Capital Partners in Miami-Dade Circuit Court, alleging the two firms cut it out of a commission on the $200 million sale of The Esplanade, an upscale retail complex at 150 Worth Avenue in Palm Beach. The complaint, filed September 1, 2026, says Flagship's founder began marketing the property to off-market buyers on O'Connor's behalf in late 2023 and, in December of that year, contacted Reuben-affiliated Motcomb Estates, ultimately connecting the two sides that closed the sale this past March.",
-        "According to the complaint, Flagship made clear to both O'Connor and Reuben that it expected a 1.5% commission on the transaction, which would come to $3 million on the eventual $200 million sale price. The lawsuit alleges that neither the buyer nor the seller ever negotiated that rate or disputed that a commission was owed while the deal was being negotiated, only to exclude Flagship from any payout once the transaction actually closed. An affiliate of London-based Reuben Brothers, together with Crown Onyx, acquired the property from an O'Connor affiliate in March 2026 ahead of a planned luxury hotel redevelopment of the site.",
-        "The dispute illustrates a recurring risk in off-market commercial real estate transactions, where a broker's role in originating and connecting the parties is often understood informally rather than documented in a signed brokerage or co-broker agreement with both sides of the deal. Without a written agreement fixing the commission rate and confirming which party is responsible for paying it, a buyer and seller who complete a deal through an intermediary's introduction can find themselves facing a claim for a fee neither formally committed to pay in writing, even where, as alleged here, neither side disputed the rate while negotiations were ongoing.",
-        "For institutional buyers and sellers active in off-market deal sourcing, the case is a reminder to formalize commission terms in writing as soon as a broker's introduction leads to substantive negotiations, rather than relying on an informal understanding that can later be contested by either side once a lucrative deal has closed. Both Reuben Brothers and O'Connor Capital Partners had not yet responded to the complaint as of this writing."
-      ],
-      timeline: [
-        { when: "Late 2023", label: "Flagship Partners begins marketing The Esplanade to off-market buyers on O'Connor Capital Partners' behalf" },
-        { when: "March 2026", label: "A Reuben Brothers affiliate and Crown Onyx close on the $200M purchase of The Esplanade from an O'Connor affiliate" },
-        { when: "September 1, 2026", label: "Flagship Partners sues Reuben Brothers and O'Connor Capital Partners in Miami-Dade Circuit Court for its $3M commission", current: true }
-      ],
-      judge: null,
-      parties: [
-        { name: "Flagship Partners", role: "Plaintiff/Broker" },
-        { name: "Reuben Brothers", role: "Defendant/Buyer" },
-        { name: "O'Connor Capital Partners", role: "Defendant/Seller" }
-      ],
-      amountUsd: 3000000,
-      amountBasis: "claim",
-      tags: ["broker commission", "retail", "palm beach", "off-market deal", "contract dispute"]
     },
     {
       id: "live-184",
@@ -6711,54 +6671,53 @@ const RELAW_DATA = {
     },
     {
       id: "live-202",
-      seoTitle: "2100 Ross Avenue Dallas: Wells Fargo Foreclosure on Office Tower",
-      seoDescription: "2100 Ross Avenue, a 33-story Dallas office tower owned by Woods Capital and Pacific Elm affiliates, faces foreclosure on a $98 million loan.",
+      seoTitle: "2100 Ross Avenue Dallas: $98M Foreclosure Posting on Office Tower",
+      seoDescription: "2100 Ross Avenue, a 33-story Dallas office tower owned by Thomas Dundon's Dundon Capital Partners, was posted for an October 2026 foreclosure auction on a $98 million loan.",
       property: {"address": "2100 Ross Avenue", "city": "Dallas", "state": "TX"},
       addedDate: "2026-09-29",
-      title: "Wells Fargo Moves Toward Foreclosure on Woods Capital's 2100 Ross Avenue Dallas Office Tower",
-      brief: "A Woods Capital and Pacific Elm partnership faces an October 6, 2026 foreclosure auction of 2100 Ross Avenue, a 33-story Dallas office tower now in receivership and roughly 53% occupied.",
+      title: "Dundon Capital Partners' 2100 Ross Avenue Dallas Office Tower Posted for Foreclosure on $98M Loan",
+      brief: "2100 Ross Avenue, a 33-story downtown Dallas office tower owned by Dundon Capital Partners, was posted for an October 6, 2026 foreclosure auction over a $98 million Wells Fargo loan the owner allegedly defaulted on.",
       category: "lending-foreclosure",
       status: "pending",
       date: "2026-09-24",
-      jurisdiction: "Dallas County, Texas",
+      jurisdiction: "Dallas County, Texas (foreclosure posting)",
       state: "TX",
-      amount: "$98 million original loan; reported as a $79 million nonperforming matured balloon balance",
+      amount: "$98 million loan alleged in default",
       source: "live",
-      sourceUrl: "https://therealdeal.com/texas/2026/09/24/woods-capital-faces-foreclosure-on-downtown-dallas-tower/",
-      summary: "A partnership affiliated with Woods Capital and Pacific Elm Properties is facing a foreclosure auction, scheduled for October 6, 2026, on 2100 Ross Avenue, a 33-story, 840,000-square-foot downtown Dallas office tower, after defaulting on a Wells Fargo-originated loan that Fitch Ratings classified as a nonperforming matured balloon loan. A Dallas County court has already appointed Trigild IVL as receiver to manage the property, which was roughly 53% occupied after anchor tenant CBRE relocated to Uptown Dallas.",
-      significance: "The case is a further data point in the office-sector debt overhang working through Dallas's CBD, where aging towers that have lost anchor tenants to newer Uptown product are increasingly unable to refinance maturing loans on their original terms, pushing lenders toward receivership and foreclosure rather than further extensions.",
+      sourceUrl: "https://therealdeal.com/texas/2026/09/24/thomas-dundon-faces-foreclosure-on-downtown-dallas-tower/",
+      summary: "2100 Ross Avenue, a 33-story, 840,000-square-foot office tower in downtown Dallas's Arts District, was listed for an October 6, 2026 foreclosure auction, The Real Deal reported, citing Roddy's Foreclosure Listing Service. The owner, Dallas billionaire Thomas Dundon's Dundon Capital Partners, allegedly defaulted on a $98 million loan Wells Fargo made in 2016. Pacific Elm Properties manages the building. The Real Deal noted that the owner could still reach a deal with the lender before the sale date.",
+      significance: "A foreclosure posting makes a loan default public and fixes a sale date, which leaves the owner and lender a few weeks to negotiate before the auction. The tower's history also shows how one office building can go through foreclosure twice in about 15 years under different owners.",
       body: [
-        "A prominent downtown Dallas office tower is headed toward a foreclosure auction after its ownership defaulted on the loan securing the building. 2100 Ross Avenue, a 33-story, roughly 840,000-square-foot tower in the Dallas Arts District built in 1982 and renovated in 2014, is owned by a partnership affiliated with Dallas-based Woods Capital and Pacific Elm Properties. Wells Fargo originated a $98 million loan against the property in 2016, and Fitch Ratings classified the loan, with a reported outstanding balance of roughly $79 million, as a nonperforming matured balloon loan after it reached maturity without being paid off or refinanced.",
-        "A Dallas County court has already appointed Trigild IVL, a receivership and asset-management firm, to manage the tower while the foreclosure process moves forward, and lenders have set an auction date of October 6, 2026. The building's occupancy has fallen to roughly 53% after anchor tenant CBRE, which had occupied a significant share of the tower's rentable area, relocated to Uptown Dallas, a submarket that has drawn a wave of downtown tenants in recent years with newer buildings and amenities.",
-        "The 2100 Ross Avenue default is one of a growing number of downtown Dallas office foreclosures and receiverships tied to loans originated before the pandemic-era shift in tenant preferences, when older CBD towers with strong occupancy could still support the debt loads their owners placed on them. As those loans have matured against a backdrop of falling CBD occupancy and higher capitalization rates, lenders have increasingly moved to receivership and foreclosure rather than granting further extensions, particularly where a building has lost a marquee tenant with no clear replacement in sight.",
-        "For CRE lenders and asset managers, the case underscores that anchor-tenant relocation risk in aging CBD office product is now translating directly into loan performance and workout decisions, and that receivership has become a standard first step for lenders looking to stabilize operations at a distressed office asset ahead of a contested or uncontested foreclosure sale."
+        "2100 Ross Avenue, a 33-story office tower in downtown Dallas's Arts District, was flagged for an October 6, 2026 foreclosure auction, according to The Real Deal, which cited Roddy's Foreclosure Listing Service. The building has about 840,000 square feet. It was built in 1982 and last renovated in 2014.",
+        "The tower is owned by Dundon Capital Partners, the firm of Dallas billionaire Thomas Dundon, which allegedly defaulted on a $98 million loan that Wells Fargo made in 2016. Pacific Elm Properties manages the building. The Real Deal noted that the owner could still work out an agreement with the lender before the auction.",
+        "The previous owner, Atlanta-based Cousins Properties, bought the tower out of foreclosure in 2012 for $59 million. It renovated the building, leased it to 90 percent occupancy, and sold it to Dundon Capital in 2015 for $131 million, The Real Deal reported, citing The Dallas Morning News."
       ],
       tags: ["foreclosure", "office", "cmbs", "dallas", "receivership"],
       parties: [
-        { name: "Wells Fargo Bank, National Association", role: "Lender" },
-        { name: "Woods Capital", role: "Borrower/Owner" },
-        { name: "Pacific Elm Properties", role: "Borrower/Owner" },
-        { name: "Trigild IVL", role: "Court-Appointed Receiver" }
+        { name: "Dundon Capital Partners", role: "Owner/Borrower" },
+        { name: "Wells Fargo", role: "Lender" },
+        { name: "Pacific Elm Properties", role: "Property Manager" }
       ],
       judge: null,
       amountUsd: 98000000,
       amountBasis: "loan",
       propertyType: "Office",
       timeline: [
-        { when: "2016", label: "Wells Fargo originates a $98 million loan against 2100 Ross Avenue" },
-        { when: "2022", label: "Anchor tenant CBRE vacates for Uptown Dallas; occupancy falls toward roughly 60%" },
-        { when: "2026", label: "Loan matures as a nonperforming balloon loan; a Dallas County court appoints Trigild IVL as receiver", current: true },
-        { when: "October 6, 2026", label: "Foreclosure auction scheduled", upcoming: true }
+        { when: "2012", label: "Cousins Properties buys 2100 Ross Avenue out of foreclosure for $59 million" },
+        { when: "2015", label: "Cousins sells the tower to Dundon Capital for $131 million" },
+        { when: "2016", label: "Wells Fargo makes the $98 million loan" },
+        { when: "September 2026", label: "Tower is listed for foreclosure by Roddy's Foreclosure Listing Service" },
+        { when: "October 6, 2026", label: "Scheduled foreclosure auction date; the result has not been reported", current: true }
       ]
     },
     {
       id: "live-203",
       seoTitle: "Metro Parc South Hialeah: Slate, Carlyle Construction Loan Suit",
       seoDescription: "Slate Property Group and Carlyle sued MG Developer to foreclose on Metro Parc South in Hialeah, alleging a $31.1M default on a $105M construction loan.",
-      property: {"name": "Metro Parc South", "address": "954 and 934 East 25th Street", "city": "Hialeah", "state": "FL"},
+      property: {"name": "Metro Parc South", "address": "East 24th and East 25th streets near Ninth Avenue", "city": "Hialeah", "state": "FL"},
       addedDate: "2026-09-29",
       title: "Slate Property Group and The Carlyle Group v. MG Developer (Metro Parc South Construction Loan Foreclosure)",
-      brief: "Slate Property Group and Carlyle sued to foreclose on MG Developer's planned 347-unit Metro Parc South tower in Hialeah, alleging a $31.1 million default on a $105 million construction loan.",
+      brief: "Slate Property Group and The Carlyle Group sued to foreclose on MG Developer's 347-unit Metro Parc South project in Hialeah, alleging a $31.1 million default under a $105 million construction financing.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-09-22",
@@ -6767,14 +6726,13 @@ const RELAW_DATA = {
       amount: "$31.1M alleged default on a $105M construction loan",
       source: "live",
       sourceUrl: "https://therealdeal.com/miami/2026/09/28/mg-developers-metro-parc-south-in-hialeah-faces-foreclosure/",
-      summary: "Construction lenders Slate Property Group and The Carlyle Group sued Coral Gables-based MG Developer on September 22, 2026 to foreclose on Metro Parc South, a planned 347-unit, 10-story apartment tower in Hialeah, Florida, alleging MG Developer defaulted on $31.1 million of a $105 million construction loan by allowing liens to attach to the property, missing required reserve deposits, and failing to pay 2025 property taxes. The lenders say they sent default notices in January, May, and June of 2026 and entered a forbearance agreement that has since expired without a cure.",
-      significance: "Shows how covenant-based defaults tied to liens, reserve deposits, and tax payments can trigger construction-loan foreclosure well before a loan's maturity date, independent of whether the borrower is current on debt service. MG Developer's principal, Alirio Torrealba, faces eight additional suits in Miami-Dade Circuit Court over promissory notes, illustrating how platform-wide sponsor distress can accelerate individual lenders' willingness to enforce.",
+      summary: "Slate Property Group and The Carlyle Group sued Coral Gables-based MG Developer on September 22, 2026 to foreclose on Metro Parc South, a 10-story, 347-unit apartment project in Hialeah, Florida. The lenders allege MG defaulted on $31.1 million of a $105 million construction financing by letting construction liens attach to the property, missing required reserve deposits and not paying its 2025 property taxes. They say they sent default notices in January, May and June 2026, and that a forbearance agreement with MG has since lapsed. MG told The Real Deal it is negotiating in good faith, including bringing in an additional investor.",
+      significance: "The case shows that covenant breaches such as liens, unfunded reserves and unpaid taxes can be enough to push a construction loan into foreclosure. It is also a reminder that forbearance only buys time: both sides should track whether the underlying breaches are actually being cured before the agreement runs out.",
       body: [
-        "A foreclosure lawsuit filed September 22, 2026 in Miami-Dade Circuit Court accuses Coral Gables-based MG Developer of defaulting on $31.1 million of a $105 million construction loan backing Metro Parc South, a planned 10-story, 347-unit apartment tower at 954 and 934 East 25th Street in Hialeah, Florida. The lenders, Slate Property Group and The Carlyle Group, say the default followed more than a year of warning signs — three separate default notices and an expired forbearance agreement — before they moved to foreclose on the project, which was meant to be the third phase of MG Developer's larger Metro Center development along East 24th and 25th streets.",
-        "The complaint alleges MG Developer breached the loan's covenants in three distinct ways: allowing mechanic's and materialman's liens to attach to the property from unpaid contractors and subcontractors, failing to make the reserve account deposits the loan agreement required, and failing to pay 2025 property taxes on the site. According to the suit, the lenders first sent a notice of default in January 2026, followed by additional notices in May and June as the borrower failed to cure the underlying breaches. The parties then entered into a forbearance agreement, but it has since expired without the debt being brought current, prompting the lenders to file suit.",
-        "The $105 million construction financing package closed in April 2025, and construction broke ground roughly two months later, in June 2025. The project's collapse into litigation barely more than a year after financing closed illustrates how quickly a construction loan can move from origination to enforcement once carrying costs, unpaid subcontractors, and property-tax obligations compound faster than a project can absorb them. Construction loans are particularly exposed to this kind of covenant slippage because they are typically funded in draws tied to construction milestones, meaning a developer who falls behind on paying trade contractors can trigger a lien-related default well before the loan's maturity date, independent of the underlying asset's stabilized performance.",
-        "The Metro Parc South foreclosure is not an isolated event for MG Developer or its principal, Alirio Torrealba. Court records show eight separate suits are pending in Miami-Dade Circuit Court alleging breaches of promissory notes across the developer's platform, seeking a combined $21.4 million in repayment, and reporting earlier this month disclosed that Torrealba is selling his stake in a separate development site in North Bay Village to another developer amid what was described as a pile-up of lender suits against his projects. Taken together, the pattern suggests a sponsor facing simultaneous liquidity pressure across a multi-project platform rather than an isolated default on a single troubled asset.",
-        "For construction lenders, special servicers, and multifamily developers watching the broader lending cycle, the case illustrates how a covenant-based default, rather than a missed principal or interest payment, can be enough to trigger enforcement on a construction loan once a lien, an unfunded reserve, or an unpaid tax bill signals a project's cost stack is no longer under the borrower's control. It's also a reminder that forbearance buys time rather than resolving anything: lenders and counsel should track whether the underlying breaches are actually being cured during a forbearance period rather than assuming resumed payments mean the default is fixed, and should look beyond any single asset to whether the same sponsor is showing distress elsewhere, since platform-wide liquidity trouble changes both negotiating leverage and realistic recovery scenarios compared with a one-off default on a single project."
+        "Slate Property Group and The Carlyle Group filed a foreclosure suit on September 22, 2026 against MG Developer, a Coral Gables-based developer, over Metro Parc South, a 10-story, 347-unit apartment project in Hialeah. The lenders allege MG defaulted on $31.1 million of a $105 million construction financing that closed in April 2025. They seek the $31.1 million plus accrued interest, attorneys' fees and court costs, The Real Deal reported, citing court documents and a Vizzda report.",
+        "According to the complaint, MG let construction liens be recorded against the property, did not make reserve-account deposits the loan required, and did not pay its 2025 property taxes. The lenders say they sent default notices in January, May and June 2026 and then entered a forbearance agreement with MG, which has since expired.",
+        "Metro Parc South is one phase of MG's three-phase development on nearly 2 acres along East 24th and East 25th streets near Ninth Avenue, which MG bought in three deals in 2024 for $16.3 million. MG built the first phase, Metro Parc, with Baron Property Group, and Baron later bought out the second phase, Metro Parc North. The suit does not name Baron or the other two projects.",
+        "The Real Deal also reported that MG principal Alirio Torrealba and his affiliates face eight other suits in Miami-Dade Circuit Court, filed since summer 2026, mostly by entities tied to individual investors who made loans of $750,000 to $6 million. Those suits allege breaches of promissory notes, do not seek foreclosure, and together seek $21.4 million. A spokesperson for MG told The Real Deal the company remains \"actively engaged in good-faith negotiations, including securing an additional investor, to bring this matter to a prompt resolution.\" MG has also said it is in \"good-faith discussions\" with most of its lenders and has reached verbal agreements with some."
       ],
       tags: ["construction loan", "foreclosure", "multifamily", "florida", "hialeah"],
       parties: [
@@ -6787,10 +6745,11 @@ const RELAW_DATA = {
       amountBasis: "loan",
       propertyType: "Multifamily",
       timeline: [
-        { when: "April 2025", label: "MG Developer closes on a $105M construction loan from Slate Property Group and The Carlyle Group" },
-        { when: "June 2025", label: "Construction breaks ground on Metro Parc South" },
-        { when: "January-June 2026", label: "Lenders send three notices of default; parties enter a forbearance agreement that later expires" },
-        { when: "September 22, 2026", label: "Slate Property Group and The Carlyle Group sue to foreclose, alleging a $31.1M default", current: true }
+        { when: "2024", label: "MG Developer buys nearly 2 acres for the project in three deals totaling $16.3 million" },
+        { when: "April 2025", label: "MG closes the $105 million construction financing" },
+        { when: "2025", label: "Construction begins on the 10-story, 347-unit project" },
+        { when: "January-June 2026", label: "Lenders send default notices in January, May and June; a forbearance agreement follows and later expires" },
+        { when: "September 22, 2026", label: "Slate Property Group and The Carlyle Group sue to foreclose, alleging a $31.1 million default", current: true }
       ]
     },
     {
@@ -6874,41 +6833,41 @@ const RELAW_DATA = {
     },
     {
       id: "live-208",
-      seoTitle: "345 Seventh Avenue: $80M Fraud Suit Against Kohan Properties",
-      seoDescription: "Investors allege landlord Mike Kohan's entities defrauded them of more than $80 million as The Davis Companies completed a UCC sale of 345 Seventh Avenue.",
+      seoTitle: "345 Seventh Avenue UCC Sale: Investors Sue Davis Companies",
+      seoDescription: "Seventeen investors sued mezzanine lender The Davis Companies over the UCC sale of 345 Seventh Avenue and allege Mike Kohan took more than $80 million from them; a restraining order was denied.",
       property: {"address": "345 Seventh Avenue", "city": "New York", "state": "NY"},
       addedDate: "2026-10-01",
       featured: true,
-      title: "Investors Allege $80M Fraud Against Kohan Properties Ltd. as Lender Completes UCC Sale of 345 Seventh Avenue",
-      brief: "17 investors allege an $80 million+ fraud by Kohan Properties entities that hid their equity, including in 345 Seventh Avenue, as mezzanine lender Davis completed its UCC sale of the office tower.",
+      title: "Investors Sue The Davis Companies Over UCC Sale of 345 Seventh Avenue, Allege $80M Fraud by Mike Kohan",
+      brief: "Seventeen investors in a Mike Kohan-controlled entity sued mezzanine lender The Davis Companies to stop a UCC sale of 345 Seventh Avenue, alleging Kohan defrauded them of more than $80 million. Their restraining order request was denied, and Davis won the auction with a credit bid.",
       category: "lending-foreclosure",
-      status: "filed",
+      status: "ruling",
       date: "2026-09-29",
       jurisdiction: "Supreme Court of the State of New York",
       state: "NY",
-      amount: "$80 million+ (alleged fraud)",
+      amount: "$80M+ allegedly obtained from investors by Kohan; $73M loan alleged in default",
       source: "live",
       sourceUrl: "https://therealdeal.com/new-york/2026/09/29/davis-companies-wins-ucc-sale-for-kohans-345-seventh-avenue/",
-      summary: "A group of 17 investors sued landlord Mike Kohan's entities in New York State Supreme Court, alleging he used fraudulent operating agreements to conceal their equity stakes in real estate holding companies -- including the entity that owns the Garment District office tower at 345 Seventh Avenue -- while pledging that same equity to lenders without disclosure. The same investors separately sued mezzanine lender The Davis Companies over the building's UCC Article 9 foreclosure sale process, which Davis completed anyway on September 29, 2026, the same week Kohan was removed from his executive and board roles at Kohan Properties Ltd. amid allegations of undisclosed loans and misused Israeli bond proceeds.",
-      significance: "The dispute is a pointed reminder that equity interests in a single-purpose property-holding LLC are not self-enforcing against a lender who was never told they existed, and that a UCC Article 9 secured-party sale can draw a commercially-reasonable-sale challenge once a competing equity claim surfaces, even when that claim's validity is itself contested. For sponsors tapping cross-border capital markets to fund U.S. acquisitions, the case shows how a bond-disclosure failure can cascade quickly into parallel private litigation from the sponsor's own equity investors.",
+      summary: "On September 29, 2026, 17 investors in an entity controlled by landlord Mike Kohan sued mezzanine lender The Davis Companies in New York State Supreme Court, alleging that its UCC foreclosure sale of 345 Seventh Avenue, a Garment District office building, was defective and could sell the property for less than it is worth. The same complaint alleges that Kohan obtained more than $80 million from the investors by promising them ownership stakes they never received. The investors' request for a temporary restraining order was denied, and Davis acquired an equity stake in the property with a credit bid, which its attorney said puts the firm on a path to control the building.",
+      significance: "Investors who fund a sponsor's property entities depend on their stakes appearing in the documents lenders rely on. If those stakes are missing, the investors may have little power to stop a mezzanine lender's UCC sale. Mezzanine lenders, for their part, should expect a UCC sale to draw last-minute challenges from people claiming equity, even when a court declines to halt it.",
       body: [
-        "A cluster of investors in real estate entities controlled by landlord Mike Kohan has gone to court alleging he defrauded them of more than $80 million, in a dispute that reached a head just as a mezzanine lender completed a foreclosure sale of the Manhattan office building at the center of the claims. The litigation, filed in New York State Supreme Court, accuses Kohan and his affiliated entities of creating fraudulent operating agreements that concealed investors' membership interests in real estate holding companies -- including the entity that owns 345 Seventh Avenue, a Garment District office tower -- while using those same interests as collateral to secure financing from third-party lenders who had no idea the equity was already spoken for.",
-        "According to the investors' allegations, Kohan solicited more than $80 million from them on the promise of real ownership interests in entities holding commercial property, including 345 Seventh Avenue. Rather than reflecting that ownership, the operating agreements Kohan prepared and used to negotiate financing allegedly omitted or concealed the investors' equity, allowing Kohan to represent to lenders that the properties carried cleaner capital stacks than they actually did. When investors later sought to understand their position after learning of a pending foreclosure, they say Kohan refused to turn over the records that would let them assess their own rights in the entities they had funded.",
-        "That foreclosure is itself now the subject of a second, related suit. The same investor group sued mezzanine lender The Davis Companies, arguing that the secured-party sale process for 345 Seventh Avenue under Article 9 of the Uniform Commercial Code was defective and risked selling the building for less than its value -- a claim that, if proven, could expose a foreclosing lender to liability for failing to conduct a commercially reasonable sale, the standard the UCC imposes on secured creditors disposing of collateral outside of a judicial foreclosure. Despite the investors' objection, The Davis Companies proceeded with the UCC auction and was the winning bidder, taking control of the Garment District building.",
-        "The disputes surfaced in the same week that Kohan was removed from his executive and board positions at Kohan Properties Ltd., the British Virgin Islands-incorporated entity he set up to raise capital on the Israeli bond market for a string of Chicago office tower acquisitions. An internal review by the company reportedly found that Kohan had secretly arranged an undisclosed $4.5 million loan against five Manhattan office properties owned by the BVI entity without informing its board, and had separately used roughly $7 million in proceeds from the company's publicly traded Israeli bonds to pay off a preferred-equity loan on 311 South Wacker Drive in Chicago -- a transaction that was not disclosed in the bond's offering prospectus.",
-        "Kohan Properties Ltd. is a separate entity from Kohan Retail Investment Group, the platform behind a string of distressed mall acquisitions nationally, including the twice-receivership Fairlane Town Center in Dearborn, Michigan. Taken together, the two platforms paint a consistent picture of a sponsor who has built a large, geographically dispersed commercial property portfolio while drawing recurring scrutiny from lenders, investors, and now a public bond market overseas for how the underlying capital stacks were actually structured and disclosed. For investors funding a sponsor's acquisition entity, the lesson is to independently confirm, through the property's title company or recorded UCC filings, that their interest is actually reflected wherever the sponsor goes to borrow against the asset, since waiting until a foreclosure notice arrives is too late to establish priority; for mezzanine and other secured lenders, it is to keep a clean, well-documented UCC sale process, because the commercially-reasonable-sale standard becomes a real vulnerability once a foreclosure draws a competing equity claim."
+        "Seventeen investors in an entity controlled by landlord Mike Kohan, most of them from Great Neck, N.Y., sued The Davis Companies on September 29, 2026 in New York State Supreme Court to try to stop the mezzanine lender's UCC foreclosure auction of 345 Seventh Avenue, a Garment District office building. They alleged the sale process was defective and could result in the building selling for less than its value. Their request for a temporary restraining order was denied. Davis then used a credit bid to acquire an equity stake in the property, which Davis's attorney, Leo Leyva, said puts the firm on a path to control the building, The Real Deal reported.",
+        "The complaint also makes broader fraud allegations against Kohan. The investors allege he persuaded them to give him more than $80 million in exchange for promised membership interests in entities that owned real estate, including 345 Seventh Avenue. Instead, the complaint says, Kohan drew up fraudulent operating agreements and used them to obtain financing, and the investors never received the stakes they had been promised. The complaint alleges Kohan \"concealed or omitted investor equity, thereby deceiving both investors and lenders,\" and that he refused to give the investors documents to assess their rights after they learned of the UCC sale. Kohan and the investors' attorney did not immediately respond to The Real Deal's requests for comment.",
+        "One of the loans at issue is the building's mezzanine loan, which Davis acquired in July 2026. Davis moved to foreclose in August 2026, accusing Kohan of defaulting on a $73 million loan, falling behind on bills and not resolving building violations, The Real Deal reported. A buyer group that included Kohan and Katan Realty Group bought the 25-story, 190,000-square-foot building in 2025 for $85 million, when it was 39 percent vacant. A representative for Kohan Retail Investment Group told The Real Deal that 345 Seventh Avenue is controlled by an affiliate of Kohan individually.",
+        "Separately, The Real Deal reported that Kohan was recently removed as chief executive, president and a director of Kohan Properties Ltd., his British Virgin Islands-based company that raised about $112 million on the Israeli bond market. The removal followed the discovery of an allegedly unauthorized $4.5 million loan on five Manhattan office properties and $7.4 million in personal withdrawals in July 2026."
       ],
       judge: null,
       parties: [
-        { name: "Kohan Properties Ltd.", role: "Defendant" },
-        { name: "The Davis Companies", role: "Lender" }
+        { name: "The Davis Companies", role: "Defendant/Mezzanine Lender" }
       ],
       amountUsd: 80000000,
       amountBasis: "claim",
       propertyType: "Office",
       timeline: [
-        { when: "September 28, 2026", label: "17 investors sue Kohan-controlled entities alleging more than $80 million in fraud tied to 345 Seventh Avenue" },
-        { when: "September 29, 2026", label: "Investors separately sue mezzanine lender The Davis Companies over the 345 Seventh Avenue UCC foreclosure sale process; Davis Companies completes the sale the same day; Kohan is removed from his board and executive roles at Kohan Properties Ltd.", current: true }
+        { when: "2025", label: "A buyer group including Kohan and Katan Realty Group buys 345 Seventh Avenue for $85 million" },
+        { when: "July 2026", label: "The Davis Companies acquires the building's mezzanine loan" },
+        { when: "August 2026", label: "Davis moves to foreclose, alleging default on a $73 million loan" },
+        { when: "September 29, 2026", label: "17 investors sue Davis to stop the UCC sale; their restraining order request is denied, and Davis acquires an equity stake by credit bid", current: true }
       ],
       tags: ["office", "fraud", "ucc-foreclosure", "mezzanine-loan", "new-york"]
     },
@@ -6918,37 +6877,38 @@ const RELAW_DATA = {
       seoDescription: "Rialto Capital Advisors took 580 Market Street, a San Francisco Financial District office, with a $5 million credit bid after Paragon's loan default.",
       property: {"address": "580 Market Street", "city": "San Francisco", "state": "CA"},
       addedDate: "2026-10-01",
-      title: "Rialto Capital Advisors Forecloses on 580 Market Street (San Francisco Financial District Office)",
-      brief: "Rialto Capital Advisors took title to 580 Market Street, a San Francisco Financial District office and retail building, with a $5 million credit bid against roughly $17.5 million in unpaid debt.",
+      title: "Rialto Capital Takes 580 Market Street, a San Francisco Financial District Office Building, in Foreclosure",
+      brief: "Special servicer Rialto Capital took over 580 Market Street, a 35,000-square-foot Financial District office building, for $5 million after owner Paragon Company's $15.7 million loan matured unpaid.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-09-30",
-      jurisdiction: "San Francisco County, California (non-judicial trustee's sale)",
+      jurisdiction: "San Francisco, California (trustee's sale)",
       state: "CA",
       propertyType: "Office",
-      amount: "$17.5M unpaid debt; Rialto credit-bid $5M to take title",
+      amount: "$17.5M unpaid debt; Rialto paid $5M",
       amountUsd: 17500000,
       amountBasis: "loan",
       source: "live",
       sourceUrl: "https://therealdeal.com/san-francisco/2026/09/30/rialto-capital-takes-san-francisco-offices-in-foreclosure/",
-      summary: "Special servicer Rialto Capital Advisors took title to 580 Market Street, a 35,000-square-foot, century-old mixed-use office and retail building in San Francisco's Financial District, after a non-judicial trustee's sale. Owner Paragon Company defaulted on a $15.7 million loan that matured in June 2025; by the July 2026 trustee's deed the unpaid debt had grown to roughly $17.5 million, and Rialto took the property with a $5 million credit bid.",
-      significance: "The sale is a fresh benchmark for how far San Francisco Financial District office values have fallen: an appraisal this year put the building at $9.9 million, nearly 60% below the $24.2 million Paragon paid in 2015, and even that discounted figure exceeds Rialto's winning credit bid. Owners and lenders with maturing office loans in the submarket should treat the pricing and Rialto's multi-year hold plan as a current data point for underwriting workouts and refinancings.",
+      summary: "Special servicer Rialto Capital took control of 580 Market Street, a century-old, 35,000-square-foot office building next to San Francisco's Montgomery BART station, through foreclosure, The Real Deal reported, citing the San Francisco Business Times. Owner Paragon Company's $15.7 million loan matured in June 2025, and a notice of default was served in October 2025. A trustee's deed recorded in July 2026 showed $17.5 million in unpaid debt, and Rialto paid $5 million for the property.",
+      significance: "The $5 million price, against a March appraisal of $9.9 million and a 2015 purchase price of $24.2 million, gives owners and lenders a current reference point for small Financial District office buildings. It also shows that a lender that takes back an office building may plan to hold and lease it for years rather than sell right away.",
       body: [
-        "A century-old mixed-use office and retail building in the heart of San Francisco's Financial District has passed into the hands of its lender, in the latest sign that the city's office market distress has not yet bottomed out. Special servicer Rialto Capital Advisors took control of 580 Market Street through a non-judicial foreclosure sale, after the building's owner, an affiliate of La Jolla-based Paragon Company, failed to repay a $15.7 million loan that matured in June 2025.",
-        "The foreclosure followed a familiar pattern for maturity-default cases working through California's trustee-sale process. Rialto served Paragon with a notice of default in October 2025 after the loan went unpaid past maturity, setting the statutory clock running toward a public trustee's sale. By the time the trustee's deed was recorded this past July, the unpaid debt -- inflated by accrued default interest and fees on top of the original principal -- had grown to approximately $17.5 million. At the sale, Rialto submitted a credit bid of $5 million, well below the outstanding debt, and took title to the roughly 35,000-square-foot building, located a block from the Montgomery Street BART and Muni Metro station.",
-        "The gap between what Rialto bid and what it was owed illustrates just how far the property's value has fallen. Built in 1907 and long operated as a Class B office and ground-floor retail building, 580 Market last traded in 2015, when a Paragon affiliate paid roughly $24.2 million, or about $690 per square foot, for the property. An appraisal commissioned earlier this year valued the building at just $9.9 million -- a decline of nearly 60% in little more than a decade, and a figure that sits well below even the reduced $17.5 million payoff amount Rialto claimed at the sale. Occupancy had fallen to roughly 53% as of the most recent reporting available before the foreclosure, with several of the building's largest remaining tenants facing lease expirations clustered in a narrow window.",
-        "Rialto has signaled it is weighing whether to hold and lease up the building or market it for sale as-is, with any disposition not expected before the first quarter of 2028 -- a multi-year hold period reflecting both the depth of the city's office vacancy problem and special servicers' general reluctance to crystallize losses in a market still searching for a floor. A trustee's sale credit bid is not a market valuation, and borrowers and guarantors negotiating a pre-foreclosure workout elsewhere in the submarket should anticipate that a special servicer may bid well below both the outstanding debt and any third-party appraisal, while also clarifying whether the lender intends to pursue a deficiency claim after taking title; owners of other aging, partially leased Financial District office buildings should treat this sale, and the extended REO hold timeline behind it, as a fresh comparable for their own refinancing and workout negotiations."
+        "Rialto Capital, acting as special servicer, has taken over 580 Market Street, a 35,000-square-foot office building more than a century old beside the Montgomery BART station in San Francisco's Financial District. The San Francisco Business Times first reported the foreclosure, according to The Real Deal.",
+        "The owner, Paragon Company, had a $15.7 million loan on the building that matured in June 2025. A notice of default served on Paragon in October 2025 said the loan had not been repaid. A trustee's deed recorded in July 2026 put the unpaid debt at $17.5 million, and Rialto paid $5 million to take the property.",
+        "Appraisers valued the building at $9.9 million in March 2026, up from $8.9 million in 2025 but nearly 60 percent below the $24.2 million, or $690 a square foot, that Paragon paid in 2015 in its first Bay Area purchase. The building was 53 percent occupied in December 2024, and four major tenants with about half the leasable space had leases ending between January 2025 and January 2026. Current occupancy is not known, The Real Deal reported.",
+        "Bondholder notes cited by the Business Times say Rialto is weighing whether to lease up the building or sell it as-is, with a sale now expected in the first quarter of 2028. The notes favor leasing, citing the floor plates and demand from tech companies, startups and tenants looking to expand. Colliers handles leasing, Transwestern manages the property, and work on spec suites was scheduled to begin in September 2026, according to the report."
       ],
       timeline: [
-        { when: "June 2025", label: "$15.7M loan secured by 580 Market Street matures unpaid" },
-        { when: "October 2025", label: "Rialto Capital Advisors serves Paragon Company with a notice of default" },
-        { when: "July 2026", label: "Trustee's deed records approximately $17.5M in unpaid debt" },
-        { when: "September 30, 2026", label: "Rialto Capital Advisors takes title at trustee's sale with a $5M credit bid", current: true }
+        { when: "2015", label: "Paragon Company buys 580 Market Street for $24.2 million" },
+        { when: "June 2025", label: "$15.7 million loan matures unpaid" },
+        { when: "October 2025", label: "Notice of default is served on Paragon" },
+        { when: "March 2026", label: "Appraisal values the building at $9.9 million" },
+        { when: "July 2026", label: "Trustee's deed records $17.5 million in unpaid debt; Rialto takes the property for $5 million", current: true }
       ],
       judge: null,
       parties: [
-        { name: "Rialto Capital Advisors", role: "Special Servicer" },
-        { name: "Paragon Company", role: "Borrower" }
+        { name: "Rialto Capital", role: "Special Servicer" },
+        { name: "Paragon Company", role: "Owner/Borrower" }
       ],
       tags: ["office", "foreclosure", "special-servicer", "san-francisco", "cmbs"]
     },
@@ -7282,28 +7242,27 @@ const RELAW_DATA = {
       id: "live-221",
       seoTitle: "Addison Ice Arena: Receiver Appointed in $9.5M Foreclosure",
       seoDescription: "A DuPage County judge put Addison Ice Arena into receivership in Republic Bank of Chicago's $9.5 million foreclosure alleging diverted rink revenue.",
-      property: {"name": "Addison Ice Arena", "state": "IL"},
+      property: {"name": "Addison Ice Arena", "address": "475 South Grace Street", "city": "Addison", "state": "IL"},
       addedDate: "2026-10-04",
       title: "Republic Bank of Chicago v. Addison Ice, LLC (Ice Arena Receivership Over Alleged Fund Diversion)",
-      brief: "Republic Bank of Chicago is foreclosing on the 73,000-square-foot Addison Ice Arena over a $9.5 million loan, alleging diverted revenue; a judge has placed the rink complex in receivership.",
+      brief: "A DuPage County judge put Addison Ice Arena under a receiver in Republic Bank of Chicago's foreclosure over a $9.5 million loan. The bank alleges rink funds were diverted; the owner's attorney says the defendants backed the receiver and disputes the bank's account.",
       category: "lending-foreclosure",
       status: "pending",
       date: "2026-09-01",
-      jurisdiction: "18th Judicial Circuit Court (DuPage County), Illinois",
+      jurisdiction: "Circuit Court of DuPage County, Illinois",
       state: "IL",
-      amount: "~$9.5M defaulted loan",
+      amount: "$9.5M loan alleged in default",
       amountUsd: 9500000,
       amountBasis: "loan",
       source: "live",
       sourceUrl: "https://therealdeal.com/chicago/2026/10/03/receiver-takes-over-addison-ice-arena-amid-10m-foreclosure/",
-      summary: "Republic Bank of Chicago sued Addison Ice, LLC on September 1, 2026 in DuPage County Chancery Court to foreclose on a $9.5 million loan secured by the Addison Ice Arena, a 73,000-square-foot twin-rink complex in suburban Chicago, alleging the owner diverted more than $1 million in facility revenue to family members while leaving rink equipment broken and the roof leaking. Judge Robert G. Gibson has since placed the property into receivership, appointing Matthew Brash of Newpoint Advisors Corporation to take over its operation while the foreclosure case proceeds.",
-      significance: "The case shows how allegations of related-party fund diversion and deferred maintenance can move a lender from a routine foreclosure filing to a fast-tracked receivership that strips an owner of operational control well before any judicial sale. It is also a reminder that commercial real estate distress extends beyond office and multifamily assets into single-purpose recreational and sports facilities, where thin margins and continuous capital needs make diverted revenue especially damaging to collateral value.",
+      summary: "Republic Bank of Chicago sued Addison Ice, LLC on September 1, 2026 to foreclose on a $9.5 million loan secured by Addison Ice Arena, a 73,000-square-foot, two-rink complex at 475 South Grace Street in Addison, Illinois. The bank alleges the owner moved more than $1 million in rink funds to family members while equipment broke down and the roof leaked. On September 30, 2026, Judge Robert G. Gibson placed the arena under receiver Matthew Brash of Newpoint Advisors Corporation. The defendants' attorney told The Real Deal they supported the receiver and had proposed speeding up the appointment by consent, while disputing the bank's account.",
+      significance: "A receiver can take over a property's operations, repairs and sale efforts long before any foreclosure judgment, and a borrower may agree to that step rather than fight it. Lenders on owner-run specialty properties such as ice rinks often seek an early receiver on the basis of allegations about related-party payments and deferred maintenance.",
       body: [
-        "A DuPage County, Illinois judge has placed the Addison Ice Arena, a 73,000-square-foot twin-rink sports complex in suburban Chicago, into court-ordered receivership after its lender accused the property's owner of diverting more than $1 million in facility revenue to family members while the building's roof leaked and its rink equipment fell into disrepair. The order, entered by Judge Robert G. Gibson of the 18th Judicial Circuit Court's Chancery Division, hands day-to-day control of the facility to a court-appointed receiver while a nearly $10 million foreclosure lawsuit filed by Republic Bank of Chicago plays out.",
-        "Republic Bank filed its foreclosure complaint on September 1, 2026, against Addison Ice, LLC, the entity that owns and operates the arena at 475 South Grace Street, alleging that the company defaulted on a $9.5 million commercial loan. The bank's complaint states that roughly $9.5 million remains outstanding in principal, interest, and fees, with additional costs accruing daily until the debt is satisfied. Beyond the bare default, the bank's filings allege a pattern of self-dealing by the property's operator: more than $1 million in facility revenue was allegedly funneled to family members even as the arena's physical condition deteriorated, with broken rink equipment and a leaking roof left unaddressed as the loan approached maturity default.",
-        "Judge Gibson's response was to move quickly to receivership rather than wait for a final foreclosure judgment and sale. He appointed Matthew Brash of Newpoint Advisors Corporation to take over operational and financial control of the arena, which features one Olympic-sized rink and one NHL-sized rink across its 73,000 square feet. That appointment follows a pattern increasingly familiar to distressed commercial real estate: when a lender's counsel can show a secured asset is actively losing value under its current operator's stewardship, a receivership motion is frequently faster and more consequential for the borrower than the foreclosure complaint itself.",
-        "For lenders, the case illustrates why receivership has become such a popular tool in commercial loan workouts. A foreclosure judgment and judicial sale can take months or years to complete, particularly in a state like Illinois where borrowers retain redemption rights, but a receivership motion can be heard and granted in a matter of weeks when a lender can document waste, diversion of collateral proceeds, or deferred maintenance that threatens the collateral's value. Here, the specific allegations against Addison Ice's ownership are precisely the kind of fact pattern courts find persuasive when deciding whether to strip an owner of operational control before a foreclosure sale even reaches the calendar.",
-        "The dispute also reflects the broader reality that commercial real estate distress is not confined to downtown office towers and institutional portfolios. Recreational and sports-facility real estate carries its own operating risk profile: revenue is often seasonal, margins are thin, and physical plant such as ice-making equipment, roofing, and HVAC requires continuous capital investment that a cash-strapped or self-dealing operator may be tempted to defer or divert. Lenders financing owner-operated commercial assets, and the owners who run them, should treat any related-party distributions or deferred capital maintenance as a serious litigation risk once a loan is in or near default: that evidence is frequently what separates a routine foreclosure filing from a fast-tracked receivership that removes the owner from the business long before any foreclosure judgment is entered."
+        "Republic Bank of Chicago filed suit on September 1, 2026 to foreclose on Addison Ice Arena, a 73,000-square-foot complex at 475 South Grace Street in suburban Addison with one Olympic-size and one NHL-size rink. The bank alleges that Addison Ice, LLC and its owner defaulted on a $9.5 million loan made in late 2021, and that the full $9.5 million remains unpaid, with costs still accruing. According to the complaint, the bank accelerated the loan after the borrower missed its July and August 2026 principal and interest payments and stopped making tax reserve deposits in April.",
+        "The bank's filings allege that from August 2025 through July 2026 the owner moved more than $1 million from the arena's operating accounts to family members who do not work at the rink, and spent more than $116,000 of facility money on personal life insurance premiums. The suit also alleges that a broken compressor shut down one rink, forcing anchor tenant Team Illinois AAA Hockey Club to buy ice time elsewhere, and that a leaking roof nearly 50 years old caused mold. The owner and his wife personally guaranteed the loan and are also defendants.",
+        "On September 30, 2026, Judge Robert G. Gibson placed the arena under the control of receiver Matthew Brash of Newpoint Advisors Corporation, who is authorized to run operations, pay for urgent repairs and explore selling the property as a going concern. The defendants' attorney, David Madden, told The Real Deal that the bank \"has misrepresented the funding of the facility in its motion for a receiver.\" He added that the defendants \"fully supported the appointment of the receiver,\" proposed accelerating it by consent, and will cooperate with the receiver. The defendants' formal response was due October 28, 2026.",
+        "The Real Deal reported that the arena stayed open after the order, with skaters on the ice during a reporter's visit. The bank's attorney did not return requests for comment, and Brash declined to comment."
       ],
       judge: "Robert G. Gibson",
       parties: [
@@ -7312,8 +7271,11 @@ const RELAW_DATA = {
         { name: "Newpoint Advisors Corporation", role: "Receiver" }
       ],
       timeline: [
-        { when: "September 1, 2026", label: "Republic Bank of Chicago files foreclosure complaint against Addison Ice, LLC" },
-        { when: "October 3, 2026", label: "Court places the arena into receivership, appointing Matthew Brash of Newpoint Advisors Corporation", current: true }
+        { when: "Late 2021", label: "Republic Bank of Chicago makes the $9.5 million loan" },
+        { when: "April 2026", label: "Borrower stops making tax reserve deposits, the bank alleges" },
+        { when: "July-August 2026", label: "Borrower misses monthly payments; the bank accelerates the loan" },
+        { when: "September 1, 2026", label: "Republic Bank of Chicago files its foreclosure complaint against Addison Ice, LLC" },
+        { when: "September 30, 2026", label: "Judge Robert G. Gibson appoints Matthew Brash of Newpoint Advisors Corporation as receiver", current: true }
       ],
       tags: ["foreclosure", "receivership", "fund-diversion", "recreational", "illinois"]
     },
@@ -7520,36 +7482,45 @@ const RELAW_DATA = {
       id: "live-229",
       seoTitle: "Mount Pocono Warehouse: $11M Allowance Suit vs. BroadRange",
       seoDescription: "Landlord KSG sued BroadRange Logistics, alleging it kept an $11 million improvement allowance for a Mount Pocono, Pa. warehouse, then stopped paying rent.",
-      property: {"city": "Mount Pocono", "state": "PA"},
+      property: {"address": "2 Liz Way", "city": "Mount Pocono", "state": "PA"},
       addedDate: "2026-10-07",
-      title: "KSG v. BroadRange Logistics LLC (Pocono Warehouse Tenant-Improvement Allowance Suit)",
-      brief: "KSG sued BroadRange Logistics to claw back an $11 million tenant-improvement allowance on a 600,000-square-foot Mount Pocono warehouse, alleging the tenant pocketed it and stopped paying rent.",
+      title: "KSG v. BroadRange Logistics (Mount Pocono Warehouse Tenant-Improvement Allowance Suit)",
+      brief: "Warehouse owner KSG sued BroadRange Logistics in New York to recover an $11 million tenant-improvement allowance for a 600,000-square-foot Mount Pocono, Pa. warehouse, alleging the tenant never meant to build out the space and stopped paying rent. BroadRange denies the allegations.",
       category: "lease-disputes",
       status: "filed",
       date: "2026-07-10",
-      jurisdiction: "New York State Supreme Court",
+      jurisdiction: "New York state court",
       state: "NY",
-      amount: "$11M tenant-improvement allowance clawback sought, plus unpaid rent and additional damages",
+      amount: "$11M tenant-improvement allowance plus other costs",
       amountUsd: 11000000,
       amountBasis: "damages sought",
       source: "live",
       sourceUrl: "https://therealdeal.com/new-york/2026/07/10/ksg-sued-broadrange-for-11m-tenant-improvement-allowance/",
-      summary: "KSG, an entity led by Brooklyn-based landlord Leah Weiss, sued BroadRange Logistics LLC in New York state court, alleging the logistics operator pocketed an $11 million tenant-improvement allowance tied to a 600,000-square-foot warehouse in Mount Pocono, Pennsylvania and then stopped paying rent. The $32 million allowance underlying the deal was funded in part through a commercial mortgage-backed securities loan KSG obtained from Ocean First Bank, and the complaint also names New Jersey investor Josh Malka and the deal's Mount Pocono attorney, seeking to claw back the allowance along with other damages.",
-      significance: "The allegation that a tenant-improvement allowance was diverted rather than used for its intended buildout, paired with the tenant's subsequent rent defaults, raises fraud exposure beyond an ordinary lease-default dispute and highlights the risk landlords take on when a large allowance is advanced to a single tenant ahead of lease performance. Lenders who financed the allowance through a CMBS loan also have a direct stake in how the allegations play out, since any clawback or fraud finding could affect the collateral's underwriting basis.",
+      summary: "KSG, owner of a 600,000-square-foot warehouse in Mount Pocono, Pennsylvania, sued BroadRange Logistics in New York state court in May 2026 to recover an $11 million tenant-improvement allowance it paid under a 20-year lease, plus other costs. KSG alleges BroadRange misrepresented its finances, never intended to improve the space and soon stopped paying rent. KSG funded the allowance partly from a $32 million CMBS loan from Ocean First Bank. BroadRange has denied the allegations in court filings and says the lease let it use the allowance for \"any other business purpose.\"",
+      significance: "Paying a large improvement allowance up front, before a tenant has shown it can pay rent, leaves a landlord with little recourse if the money is not spent on the building. Landlords should tie allowance payments to completed work and make sure the lease says how unspent funds come back. KSG says its own lease attorney left out exactly that provision.",
       body: [
-        "A Brooklyn-based landlord has accused third-party logistics operator BroadRange Logistics LLC of pocketing an $11 million tenant-improvement allowance at a Pennsylvania warehouse and then simply stopping rent payments, in a lawsuit that extends a pattern of landlord disputes with the fast-growing logistics company. The suit, brought by KSG, an entity led by landlord Leah Weiss, was filed in New York state court and centers on a roughly 600,000-square-foot distribution facility in Mount Pocono, Pennsylvania that BroadRange leased as a distribution hub.",
-        "According to the complaint, the landlord secured a $32 million commercial mortgage-backed securities loan from Ocean First Bank, with a portion of the loan proceeds earmarked to fund an $11 million tenant-improvement allowance for BroadRange's buildout of the space. KSG alleges BroadRange took the allowance and then failed to use it as intended before falling behind on rent, prompting the landlord to seek to claw back the full allowance along with additional rent and damages.",
-        "The complaint does not name only BroadRange: it also names New Jersey-based investor Josh Malka and the attorney who handled the Mount Pocono transaction, suggesting the landlord views the alleged misuse of the allowance as involving more than just the tenant's own internal decisions about how to spend the funds. The suit asks the court to order the allowance returned along with other damages tied to the unpaid rent.",
-        "The case lands just weeks after a separate Colorado landlord, Hyde Development, sued BroadRange for $32 million over a defaulted industrial lease at 76 Commerce Center in Brighton, Colorado -- a case with a strikingly similar fact pattern of an initially large, fast-growing industrial tenancy followed by missed rent and landlord litigation over allowance and lease terms. Landlords and their lenders evaluating prospective leases with BroadRange, or structurally similar growth-stage 3PL operators, should treat the combination of these two suits as a warning sign about the tenant's broader financial condition, not an isolated dispute.",
-        "For landlords generally, the case underscores the value of disbursing large tenant-improvement allowances in tranches tied to verified buildout milestones rather than as a lump sum, and of requiring contractor lien waivers and buildout documentation before any allowance funds are released. Lenders financing an allowance through a CMBS loan have an independent interest in the underlying buildout actually occurring, since a diverted allowance undermines the implicit collateral value the loan was underwritten against, and loan servicers should consider whether their own documentation requires proof of use before allowance funds are released on future deals of this kind."
+        "KSG, the owner of a 600,000-square-foot warehouse in Mount Pocono, Pennsylvania, has sued Georgia-based BroadRange Logistics in New York state court to recover an $11 million tenant-improvement allowance plus other costs. The suit, filed in May 2026, alleges that BroadRange signed a 20-year triple-net lease and collected the allowance but never intended to make the improvements, and that it stopped paying rent. KSG paid the allowance partly with proceeds of a $32 million commercial mortgage-backed loan it took from Ocean First Bank in connection with the lease.",
+        "According to the complaint, NFI Industries leased the building until it moved out in 2024. A New Jersey investor then agreed to buy the property for $37 million but backed out in July 2025, citing financing. He instead offered to introduce KSG to BroadRange if KSG would pay the tenant an allowance up front. KSG alleges that BroadRange misstated its finances, missed rent within a month of signing, later claimed the lease included six months of free rent, and in January 2026 stopped paying while citing problems getting a certificate of occupancy. KSG declared the lease void in February 2026 and demanded the allowance back; it says the money was never returned.",
+        "KSG claims none of the allowance was spent on the property. It says that nine days after receiving the money, BroadRange wired nearly $2 million to the investor's company, Winthrop Equities, as a commission, even though the investor had assured KSG in writing he would receive no more than $100,000. KSG is suing BroadRange and the investor for fraudulent inducement, suing BroadRange for unjust enrichment and breach of the implied covenant of good faith and fair dealing, and seeking to void the commission payment as a fraudulent transfer under Georgia law. BroadRange has denied the allegations in court filings and argues the lease allowed it to use the allowance for \"any other business purpose.\"",
+        "KSG also sued the attorney it hired to negotiate the lease, alleging he left out any provision letting KSG recover the allowance if BroadRange broke its promises. His lawyer told The Real Deal the claims have \"absolutely no merit\" and that he plans to move to dismiss. The Real Deal also reported that warehouse owners in Colorado and Texas have sued BroadRange. The Colorado suit concerns two leases near Denver and a $17.4 million allowance. The Texas suit concerns a 648,000-square-foot Houston warehouse whose owner says it is owed more than $44.8 million. BroadRange has denied those allegations as well."
       ],
       judge: null,
       parties: [
         { name: "KSG", role: "Plaintiff/Landlord" },
-        { name: "BroadRange Logistics LLC", role: "Defendant/Tenant" }
+        { name: "BroadRange Logistics", role: "Defendant/Tenant" }
       ],
       propertyType: "Industrial",
-      tags: ["industrial", "tenant-improvement", "pennsylvania", "logistics", "fraud-allegations"]
+      tags: ["industrial", "tenant-improvement", "pennsylvania", "logistics", "fraud-allegations"],
+      timeline: [
+        { when: "2021", label: "KSG buys the warehouse and leases it to NFI Industries" },
+        { when: "2024", label: "NFI Industries vacates" },
+        { when: "June-July 2025", label: "A New Jersey investor signs a $37 million purchase contract, then withdraws" },
+        { when: "2025", label: "KSG and BroadRange sign a 20-year lease; KSG pays the $11 million allowance" },
+        { when: "October 2025", label: "Rent dispute; KSG agrees to accept reduced rent for three months" },
+        { when: "January 2026", label: "BroadRange misses rent, citing certificate-of-occupancy problems" },
+        { when: "February 2026", label: "KSG declares the lease void and demands the allowance back" },
+        { when: "May 2026", label: "KSG sues BroadRange in New York state court", current: true }
+      ]
     },
     {
       id: "live-230",
