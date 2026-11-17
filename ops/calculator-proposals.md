@@ -1167,3 +1167,46 @@ reviewer (or a future backtest scorer) can see which issues the range is
 silently missing instead of only finding out from a mis-ranged final
 outcome. Nothing in the prompt or math has been changed; not
 cloud-deployable regardless (CLAUDE.md).
+
+## 2026-11-17 — closing the `nco-montgomery-park-2025` question left open by decision 9
+
+**Method:** the 2026-11-16 entry flagged this case as "more complex, worth
+a closer look another run" because its dominant driver looked different
+from the other three (an apparent under-extraction rather than a missing
+figure). Free, no API spend, no new fetch — read the saved
+`results-v6/nco-montgomery-park-2025.json` prediction file already on
+disk, specifically its own `source.excerptNote` field (written by the
+backtest run itself, describing exactly what was cut from the model's
+input).
+
+**Finding: not a fourth failure shape — it's decision 9's mechanic plus
+the already-known "input excludes the award" pattern, stacked, not a new
+extraction bug.** `excerptNote` states the removed material included "the
+sentence stating the bench-trial judgment amount" and "the district
+court's fee/cost/interest award figures" — the model was never given any
+of the downstream dollar figures needed to price "Future Rent Through
+Remainder of 12-Year Term" or "Attorney's Fees Under Section 14.04." This
+is the same shape as `cvs-v-carmichael-2021`'s jury verdict being absent
+from the input (noted 2026-10-17), not something new.
+
+The $313,662.76 the model priced for "Unpaid Rent Through Default Letter"
+is not a mis-extraction of the $9,854,566.95 judgment — it's a different,
+correctly-quoted figure: the sum stated due as of the July 2011 default
+letter, six years before the bench trial that produced the actual
+judgment. The model's own second issue, "Future Rent Through Remainder of
+12-Year Term," exists specifically to capture those six additional years
+of accrued rent, and correctly carries `figures: []` because none is in
+the excerpt — exactly decision 9's "priced issue, no figure" mechanic,
+on the same `unpaid_rent` claim type that is the actual driver of the
+gap. The model even said so in `likelyOutcome`'s own prose ("the
+landlord's much larger potential claim for rent through the remainder of
+the 12-year term is not quantifiable on this record and is likely
+understated in the figures below") — it flagged the gap in text, but per
+decision 9 that flag never reaches the mechanical sum.
+
+**Conclusion:** this case needs no separate fix. Decision 9's proposed
+fix (reject a figure-less priced issue, or surface a "priced issue, no
+figure" warning instead of silent $0) already covers it. Folded into
+decision 9's evidence; the 2026-11-16 entry's "fourth case, flagged but
+not fully diagnosed" is resolved, not open. No code or prompt change made
+(NEEDS JEFF, not cloud-deployable regardless — CLAUDE.md).
