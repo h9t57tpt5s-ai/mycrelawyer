@@ -1,7 +1,45 @@
 {
- "updatedAt": "2026-11-17T04:45:34+00:00",
+ "updatedAt": "2026-11-17T20:02:29+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "265100509929",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-17",
+   "caseName": "CE Real Estate Holdings, Inc v. Olamiju Habeeb (Agege Farmers Market)",
+   "plaintiffs": [
+    "CE Real Estate Holdings, Inc"
+   ],
+   "defendants": [
+    "Olamiju Habeeb (Agege Farmers Market)"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "ce-real-estate-holdings-inc-v-olamiju-habeeb-agege-farmers-market-tx-harris-265100509929"
+  },
+  {
+   "source": "hillsborough_fl",
+   "state": "FL",
+   "county": "Hillsborough",
+   "court": "Thirteenth Judicial Circuit, Hillsborough County, Florida",
+   "caseNumber": "26-CC-056887",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-16",
+   "caseName": "Ybor Re Holdings LLC v. Allure Realty LLC",
+   "plaintiffs": [
+    "Ybor Re Holdings LLC"
+   ],
+   "defendants": [
+    "Allure Realty LLC"
+   ],
+   "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-16",
+   "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261116.csv",
+   "slug": "ybor-re-holdings-llc-v-allure-realty-llc-fl-hillsborough-26-cc-056887"
+  },
   {
    "source": "hillsborough_fl",
    "state": "FL",

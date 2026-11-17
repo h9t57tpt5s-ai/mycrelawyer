@@ -1,5 +1,26 @@
 [
  {
+  "at": "2026-11-17T19:59:39+00:00",
+  "window": [
+   "2026-11-14",
+   "2026-11-17"
+  ],
+  "sources": {
+   "courtlistener": 45,
+   "sec_edgar": 8,
+   "Hillsborough FL": 3,
+   "Harris County TX justice courts": 1
+  },
+  "stored": 57,
+  "newMatches": 0,
+  "emailsSent": 0,
+  "emailsFailed": 0,
+  "slackSent": 0,
+  "slackFailed": 0,
+  "errors": [],
+  "ok": true
+ },
+ {
   "at": "2026-11-17T04:43:02+00:00",
   "window": [
    "2026-11-14",
@@ -1869,27 +1890,5 @@
   "slackFailed": 0,
   "errors": [],
   "ok": true
- },
- {
-  "at": "2026-10-04T01:55:31+00:00",
-  "window": [
-   "2026-10-01",
-   "2026-10-04"
-  ],
-  "sources": {
-   "courtlistener": 60,
-   "sec_edgar": 17,
-   "Hillsborough FL": 8
-  },
-  "stored": 85,
-  "newMatches": 0,
-  "emailsSent": 0,
-  "emailsFailed": 0,
-  "slackSent": 0,
-  "slackFailed": 0,
-  "errors": [
-   "Harris County TX justice courts pull failed: HTTP Error 523: <none>"
-  ],
-  "ok": false
  }
 ]
