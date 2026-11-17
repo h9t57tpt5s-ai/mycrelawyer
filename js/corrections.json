@@ -4,6 +4,226 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-099",
+   "caseId": "live-099",
+   "subject": "Fortress Credit Corp. v. 601W Cos. (Dayton's Project Foreclosure, About $220M Owed)",
+   "kind": "Corrected: description, party",
+   "was": "Lighthouse Management Group Inc. (Receiver) | parties omitted Hightower Initiatives | a sheriff's sale had not yet been scheduled",
+   "now": "Removed; the sources describe only 'a local turnaround company' | Adds Hightower Initiatives, which Fortress named as 601W's partner | No auction date had been set; Axios did not say whether 601W would appeal",
+   "basis": "Checked against the source article: Axios Twin Cities, Oct. 2, 2024 and Apr. 27, 2026 | Axios Twin Cities, Oct. 2, 2024 | Axios Twin Cities, Apr. 27, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-231",
+   "caseId": "live-231",
+   "subject": "DCB Nashville, LLC v. Metropolitan Government of Nashville and Davidson County (DC Blox Zoo-Area Data Center Moratorium Suit)",
+   "kind": "Corrected: date, description, party, status",
+   "was": "DC Blox, Inc. (Plaintiff) | On October 7, 2026, U.S. District Judge Eli Jeremy Richardson dismissed | DC Blox purchased more than 23 acres ... in late July | did not decide the separate vested-rights question, which is now before Metro's Board of Zoning Appeals | timeline ends at the Oct. 7 dismissal",
+   "now": "DCB Nashville, LLC, a subsidiary of DC BLOX Parent LLC | The memorandum opinion and order are dated October 6, 2026 | Closed on about 23.49 acres for about $23 million on July 16, 2026 | The court declined jurisdiction over the state-law declaratory counts (including vested rights) and dismissed them without prejudice | DCB Nashville filed an amended complaint on Oct. 27, 2026",
+   "basis": "Checked against the source article and court docket: CourtListener docket 3:26-cv-01143 (M.D. Tenn.) and the Oct. 6 memorandum opinion | CourtListener docket entries 28-29 | Oct. 6, 2026 memorandum opinion, quoting the complaint | Oct. 6, 2026 order (docket entry 29) | CourtListener docket entry 31"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-084",
+   "subject": "Feldman v. Pettit, Orton, and Mozart Properties (Private CRE Loan Default Suit Names Real Estate CEO)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Feldman v. Pettit, Orton, and Mozart Properties (Private CRE Loan Default Suit Names Real Estate CEO)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; REMOVE: out of scope. This is a breach-of-contract suit to collect an unpaid $850,000 personal/business loan from two individuals and their corporation. The Des Moines Register article does not say what the loan was for or name any property, so it is not a commercial real estate dispute on its face,"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-056",
+   "caseId": "live-056",
+   "subject": "Harbor Custom Development Chapter 11 — Pacific Ridge Apartments Credit Bid (Sound Capital NW)",
+   "kind": "Corrected: description",
+   "was": "A $5 million credit bid against a $20.3 million claim leaves a substantial deficiency for the bankruptcy estate to sort out among Harbor Custom's other creditors | with the shortfall left to the Chapter 11 estate's other creditors (significance) | a Gig Harpor-founded developer",
+   "now": "The plan provided that the related lien would be extinguished and the loan deemed satisfied | The plan treated the loan as satisfied through the property transfer | founded in Gig Harbor in 2014 as Harbor Custom Homes",
+   "basis": "Checked against the source article: The News Tribune via AOL, Sept. 14, 2024 | The News Tribune via AOL | The News Tribune via AOL"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-097",
+   "caseId": "live-097",
+   "subject": "Fairlane Town Center Receivership (Dearborn Mall Lender Seeks Default Ruling Against Kohan Owner)",
+   "kind": "Corrected: description, party",
+   "was": "PSOF WA Holding LLC (plaintiff), Fairlane Town Center Realty Holding LLC (defendant), Peachtree Group affiliate | The receiver ... would make Kohan the third ownership group in the property's history to lose it to receivership or forced sale; Starwood's ... purchase (as part of a seven-mall, $1.4 billion package) previously ended in a receivership | By July 2026, court filings and reporting referred to Fairlane's lender as HSF Fairlane LLC",
+   "now": "Lender not named in the source; parties list reduced to the owner, Kohan Retail Investment Group | Removed claims not in the source; ownership history limited to Taubman, Starwood (2014), Centennial (2022) and Kohan (April 2023) | Removed; the July 9 article does not name the lender",
+   "basis": "Checked against the source article: Detroit Free Press via AOL, July 9, 2026 does not name the lender; no other opened source confirmed these entity names | Detroit Free Press via AOL | Detroit Free Press via AOL"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-127",
+   "caseId": "live-127",
+   "subject": "Anchorage Community Development Authority v. Hughes Family LLC and Anchorage Innovation District LLC (Downtown Nordstrom Site Partition Action)",
+   "kind": "Corrected: description, party",
+   "was": "ACDA moved to take control of the site's future in 2020, acquiring a majority interest in the former Nordstrom building along with the neighboring J.C. Penney parking garage | Mayor Suzanne LaFrance's administration has publicly pushed to convert the former Nordstrom building into housing and ground-floor retail | Anchorage Innovation District LLC, an entity owned and managed by Mark Pfeffer | whose ownership traces to one of four individual owners of the LLC",
+   "now": "Removed; the Daily News does not say when or how ACDA acquired its lots | In February 2026 the administration announced plans for an \"iconic development that would anchor downtown\" | Owned and managed by entities tied to developer Mark Pfeffer | Owned by four individuals",
+   "basis": "Checked against the source article: Anchorage Daily News, Aug. 12, 2026 | Anchorage Daily News | Anchorage Daily News | Anchorage Daily News"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-223",
+   "caseId": "live-223",
+   "subject": "Greater DC Diaper Bank v. WWDC Industrial Park, LLC (Industrial Warehouse Roof-Maintenance Breach Suit)",
+   "kind": "Corrected: date, description, figure",
+   "was": "sued ... on August 17, 2026 in the U.S. District Court for the District of Columbia ... docketed as 1:2026cv02900 | costing the organization more than $600,000 in associated donor contributions | eventually damaging tens of thousands of dollars in stored inventory | the space it had occupied since 2013 | asserts diversity-jurisdiction breach-of-contract claims | status: both defendants have moved to dismiss (pending in D.D.C.)",
+   "now": "Filed in D.C. Superior Court (2026-CAB-004696), removed by WWDC to D.D.C. on Aug. 17, 2026, transferred to the District of Maryland on Sept. 14 (No. 8:26-cv-03821) | The Baby Pantry's distributed value fell from about $930,000 in 2024 to $313,000 in 2025 | Removed; 7News reports tarps and moved inventory, not an inventory-loss figure | Removed; occupancy start date not in the source | Claims for breach of contract, breach of the implied covenant of quiet enjoyment, constructive eviction and promissory estoppel | Motions were filed in D.D.C. before the case was transferred to the District of Maryland",
+   "basis": "Checked against the source article and court docket: CourtListener dockets for D.D.C. 1:26-cv-02900 and D. Md. 8:26-cv-03821 | WJLA/7News article | WJLA/7News article | WJLA/7News article | WJLA/7News article | CourtListener docket"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-326",
+   "caseId": "live-326",
+   "subject": "Metropolitan Milwaukee Association of Commerce v. City of Port Washington: Judge Dismisses Business and CRE Groups' Challenge to Voter-Approval Rule for Large TIF Districts",
+   "kind": "Corrected: description, party",
+   "was": "Judge Gerol refused to enjoin the vote, reasoning that courts should not halt an election or rule on an ordinance that had not yet become law | NAIOP Wisconsin | the ordinance does not exceed the Common Council's powers",
+   "now": "He denied a preliminary injunction and let the vote proceed, calling it \"protected speech\" | Commercial Real Estate Development Association of Wisconsin (NAIOP Wisconsin) | Removed; the reported holdings are no imminent injury, consistent with state law, and not too vague",
+   "basis": "Checked against the source article: Wisconsin Law Journal (USA Today Network), Oct. 20, 2026 | Wisconsin Law Journal names the plaintiff as the Commercial Real Estate Development Association of Wisconsin | Wisconsin Law Journal"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-146",
+   "caseId": "live-146",
+   "subject": "Blue Sky Towers IV LLC v. Town of Waldoboro (Wireless Tower Siting / Telecommunications Act Suit)",
+   "kind": "Corrected: description, party",
+   "was": "Blue Sky Towers III LLC filed earlier in 2026 against the neighboring town of Nobleboro after its own board rejected a comparable tower proposal | parties list named only Blue Sky Towers IV LLC and Town of Waldoboro",
+   "now": "Blue Sky Towers III LLC sued the Town of Nobleboro's Appeals Board in February 2026; the case closed in May 2026 (no detail on the underlying proposal) | Adds the Board of Appeals and Planning Board as defendants and Verizon (Cellco Partnership) as the carrier for whose benefit the suit is brought",
+   "basis": "Checked against the source article and court docket: CourtListener docket 2:26-cv-00096 (D. Me.); not in the Wireless Estimator article | Wireless Estimator article"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-236",
+   "caseId": "live-236",
+   "subject": "Wixom Industrial One, LLC v. City of Wixom (Michigan Data Center Moratorium Suit)",
+   "kind": "Corrected: description, figure",
+   "was": "a planned 55-acre ... data center development | more than 519,000 square feet across multiple buildings, each exceeding 200,000 square feet | the council separately and unanimously rejected the developer's request to lift the moratorium early, citing potential health, safety, and welfare impacts | comparable suits filed in 2026 against municipalities in Ohio, Kentucky, New Jersey, Minnesota, and Tennessee",
+   "now": "54 acres | a three-building, 519,400-square-foot campus | In July the City Council rejected a proposed waiver from the moratorium (no vote count or reasons reported) | Removed; not in the source",
+   "basis": "Checked against the source article: WHMI article (citing Crain's Detroit) | WHMI article | WHMI article | WHMI article contains no such list"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-222",
+   "caseId": "live-222",
+   "subject": "In re American Hospitality Properties REIT, Inc. (Hotel REITs' Chapter 11 in N.D. Texas)",
+   "kind": "Corrected: date, description, figure",
+   "was": "On September 16, 2026, the plaintiffs' firm Federman & Sherwood filed Proven Business Skills v. Phoenix American Hospitality | one fund held only a preferred equity interest in a single hotel, not the eleven hotels PAH had represented | investor distributions were largely funded out of returns of their own capital rather than operating income | $86M underlying Regulation A fraud scheme",
+   "now": "The Proven Business Skills suit was filed September 15, 2026 (N.D. Tex. No. 3:26-cv-03130) | The SEC alleged investors were told REIT I had acquired about 11 hotels when it held one hotel until January 2024 | Removed; the SEC allegation as reported is that neither fund was profitable despite claimed distributions of up to 12% | Petition lists estimated liabilities of $1,000,001-$10 million; SEC alleged about $86M raised",
+   "basis": "Checked against the source article and court docket: CourtListener docket for Proven Business Skills Inc v. Phoenix American Hospitality LLC | WhatNow article summarizing the SEC complaint | WhatNow article | WhatNow article (petition data and SEC summary)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-091",
+   "caseId": "live-091",
+   "subject": "Mack Real Estate Group v. X Denver Ownership (X Denver Apartments Receivership Suit)",
+   "kind": "Corrected: date, description, figure, party",
+   "was": "asked a Colorado state court on September 4 | 450-unit apartment complex | an emergency, ex parte receiver | following a similar filing weeks earlier by U.S. Bank National Association against the ownership of Republic Plaza ... after a second maturity default on that property's CMBS loan | 3100 Inca Street | CMTG JP Finance LLC (Lender)",
+   "now": "Filed Thursday, September 3, 2026 | 455 units per Bisnow and BusinessDen's subheadline (BusinessDen's text says 450) | A receiver; no source describes the request as emergency or ex parte | Removed; Bisnow says only that Trigild is also Republic Plaza's receiver | 3000 and 3100 Inca St. | Mack Real Estate Group named as lender; the CMTG entity is not in the sources reviewed",
+   "basis": "Checked against the source article: BusinessDen, Sept. 9, 2026 ('On Thursday, Mack filed a lawsuit') | Bisnow, Oct. 12, 2026; BusinessDen, Sept. 9, 2026 | BusinessDen, Sept. 9, 2026; Bisnow, Oct. 12, 2026 | Bisnow, Oct. 12, 2026 | Bisnow, Oct. 12, 2026 | BusinessDen, Sept. 9, 2026; Bisnow, Oct. 12, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-187",
+   "caseId": "live-187",
+   "subject": "From $97.3M Default to Rebrand: ACORE Capital Repositions Salt Lake City's Industry SLC as Foundry43",
+   "kind": "Corrected: description, figure, party",
+   "was": "its construction arm, Makers Line, an affiliate of developer Q Factor | ACORE took title by special warranty deed on March 9, 2026, with the property conveyed to Marwood Investment Trust | $103.7M claimed owed in principal, interest and fees",
+   "now": "Developer Makers Line; Q Factor is not mentioned in the source | ACORE conveyed the parcels to Marwood Investment Trust by a deed signed March 9 and recorded June 1, 2026 | Removed; only the $97.3 million loan figure is in the source",
+   "basis": "Checked against the source article: Building Salt Lake, Sept. 24, 2026 | Building Salt Lake, Sept. 24, 2026 | Building Salt Lake, Sept. 24, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-277",
+   "caseId": "live-277",
+   "subject": "In re AZ 175th Street LLC: Queens Mixed-Use Owner Files Second Chapter 11 After First Case Was Dismissed With a Refiling Bar",
+   "kind": "Corrected: date, description",
+   "was": "The dismissal order was signed October 8, 2025 | the debtor filed a statement on September 8, 2025 consenting to dismissal ... the court granted the motion on consent, with a 180-day bar on refiling | moved to dismiss the case as a bad-faith filing or, in the alternative, for relief from the automatic stay | mixed-use property at 91-10/91-14 175th Street",
+   "now": "The dismissal and bar order was entered October 9, 2025 (ECF 36); the Oct. 8 entry is a letter | Removed; the docket shows a Sept. 8 statement and the Oct. 9 dismissal-and-bar order, but the consent and the 180-day length could not be verified | The docket lists a motion to dismiss case; the grounds could not be verified | Street address removed from text; Bondoro gives only 'a mixed-use building in Jamaica, NY'",
+   "basis": "Checked against the source article and court docket: CourtListener docket 1-25-42550 | CourtListener docket 1-25-42550 | CourtListener docket 1-25-42550, ECF 19 | Bondoro, Oct. 12, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-102",
+   "caseId": "live-102",
+   "subject": "Kuna Neighbors' Appeal of Gemstone Technology Park Data Center Approval (Idaho Supreme Court)",
+   "kind": "Corrected: description, figure, party",
+   "was": "a neighboring farmer and his Toledo Dairy entities | with Diode Ventures' groundbreaking timeline on hold pending resolution | $1B+ data center project",
+   "now": "Toledo Dairy I LLC and Toledo Land Holdings LLC are owned by the dairy companies' owner; the farmer is a separate petitioner | Removed; no source reports the project is on hold | Removed; investment figure not in the sources reviewed",
+   "basis": "Checked against the source article: BoiseDev, Aug. 19, 2026 | BoiseDev, Aug. 19, 2026 | BoiseDev, Aug. 19, 2026; Idaho News 6"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-073",
+   "caseId": "live-073",
+   "subject": "Kentucky Industrial Alliance LLC v. City of Cave City (Data Center Moratorium and Annexation Challenge)",
+   "kind": "Corrected: description, party",
+   "was": "A second, related suit followed, and in August the parties agreed to consolidate | Cave City-Barren County Joint Planning Commission | a two-page form lacking the development plan, engineering drawings ... roughly 380 acres along Doyle Avenue",
+   "now": "The second suit, also filed in June, challenges the annexation for lack of written consent from a cemetery owner within the tract | Joint City-County Planning Commission of Barren County | Removed; the sources say only that the city calls the application paperwork incomplete",
+   "basis": "Checked against the source article: Bowling Green Daily News, Aug. 27, 2026 | Glasgow News 1, June 9, 2026 | Bowling Green Daily News, Aug. 27, 2026; Glasgow News 1, June 9, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-039",
+   "caseId": "live-039",
+   "subject": "148 State Street Owner v. City of Boston (Commercial Assessment \"Add-Back Policy\" Retaliation Class Action)",
+   "kind": "Corrected: date, description",
+   "was": "2026-08-18 (date of the data release) | Discovery produced this month by the city's own Assessing Department confirms that assessments increased on 150 commercial properties | the Commissioner of Revenue has so far declined, saying his office could not substantiate the claims | Nicholas Ariniello, the city's Commissioner of Assessing ... announced his departure from City Hall amid the litigation",
+   "now": "2026-05-11, the date of Judge Krupp's ruling | The legal foundation says data the city voluntarily provided shows 150 properties and 182 instances of post-appeal increases | The foundation sent its fourth request to the DOR commissioner; a DOR spokesperson did not respond | Removed; not in any source reviewed",
+   "basis": "Checked against the source article: Banker & Tradesman, May 12, 2026 ('a ruling issued Monday') | Banker & Tradesman, Aug. 18, 2026 | Banker & Tradesman, Aug. 18, 2026 | Banker & Tradesman, May 12 and Aug. 18, 2026; Pioneer Institute releases"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-193",
+   "caseId": "live-193",
+   "subject": "Baltimore Residents Sue to Block MCB's $900M Harborplace Redevelopment",
+   "kind": "Corrected: date, description, party",
+   "was": "MCB publicly rejected the suit days later as an attempt to block the project's revitalization | the 2024 City Charter amendment ... March 2024, when the Baltimore City Council passed, and Mayor Brandon Scott signed, three interlocking pieces of legislation | City of Baltimore | two residential towers of 32 and 25 stories ... two 200,000-square-foot commercial and retail buildings, and an additional freestanding 8,500-square-foot retail building",
+   "now": "MCB had not responded to a request for comment; the city said it would reserve comment for court | The enabling City Council bills (23-0444, 23-0446, 23-0448) were passed in 2023 | Mayor and City Council of Baltimore, the City Council of Baltimore City and the Board of Estimates of Baltimore City | Removed; the source describes two apartment towers with 900 or more residences, offices, shops, restaurants and public space",
+   "basis": "Checked against the source article: Baltimore Fishbowl, Sept. 22, 2026 | Baltimore Fishbowl, Sept. 22, 2026 | Baltimore Fishbowl, Sept. 22, 2026 | Baltimore Fishbowl, Sept. 22, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-013",
+   "caseId": "live-013",
+   "subject": "Ayer v. Lightstone Value Plus REIT (Undisclosed $59.8M Chairman Conflict in Liquidation-Delay Proxy)",
+   "kind": "Corrected: description",
+   "was": "November 4, 2026: Court enters a judgment on the pleadings (docket entry 49)",
+   "now": "Removed; the docket shows only a Nov. 4 filing categorized as 'Judgment on the Pleadings' with no description, and no judgment was confirmed",
+   "basis": "Checked against the source article and court docket: CourtListener docket 3:24-cv-10371"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-116",
+   "caseId": "live-116",
+   "subject": "Family of Shooting Victim v. The Galleria and Its Security Companies (Houston Mall Garage Shooting Negligent-Security Suit)",
+   "kind": "Corrected: description, party",
+   "was": "the victim's mother, the victim's father | recorded on the mall's own surveillance system being escorted out by security guards | HG Galleria LLC, Allied Universal Security Services and GardaWorld Security Services named as defendants | The suit alleges negligence, premises liability, and gross negligence ... and negligence and negligent-undertaking claims against the security contractors",
+   "now": "the victim's father is the victim's father | Videos posted to social media appear to show the men being removed by security | Removed; ABC13 refers only to 'the security companies responsible for the property' and the mall's parent company without naming the entities | The suit alleges negligence in failing to enforce safety policies; the specific counts were not reported",
+   "basis": "Checked against the source article: ABC13, Sept. 3, 2026 | ABC13, Sept. 3, 2026 | ABC13, Sept. 3, 2026 | ABC13, Sept. 3, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-062",
+   "caseId": "live-062",
+   "subject": "United States, et al. v. LivCor, LLC (RealPage Algorithmic Pricing Antitrust Consent Judgment)",
+   "kind": "Corrected: description",
+   "was": "barred from ... attending RealPage-hosted landlord meetings | a 71-page memorandum opinion ... finding the government's allegations of a hub-and-spoke pricing conspiracy plausible as to the remaining non-settling defendants | LivCor will pay $7 million split among the participating states",
+   "now": "Settlement terms limited to what was reported: LivCor will stop using other landlords' non-public data to set rents | Judge Osteen denied the motions to dismiss of RealPage, Camden, Pinnacle and Willow Bridge and denied LivCor's and Greystar's as moot | Jackson's office said the settlement amount was $7 million; how it is divided was not reported",
+   "basis": "Checked against the source article and court docket: ABC11, June 18, 2026; the decree itself was not reviewed | CourtListener docket 1:24-cv-00710, entry 223 | ABC11, June 18, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-174",
+   "caseId": "live-174",
+   "subject": "Cogent Bank v. Horizon Edge Hospitality LLC (SBA-Backed Foreclosure on Shuttered Rochester Wyndham)",
+   "kind": "Corrected: description",
+   "was": "Cogent extended Horizon Edge Hospitality two loans in April 2024 | Court filings reviewed by local reporters connect Horizon Edge Hospitality ... to a Georgia-based dentist, a named individual",
+   "now": "Loan dates removed; the source gives the loan amounts but no date | Removed; the source does not say this",
+   "basis": "Checked against the source article: 13WHAM, Sept. 1, 2026 | 13WHAM, Sept. 1, 2026"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-401",
    "caseId": "live-401",
    "subject": "1440 Broadway Foreclosure: SL Green Special Servicer Sues Over $399M CMBS Loan on Amazon-Anchored Times Square Tower",
