@@ -4,6 +4,96 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-044",
+   "subject": "Forestar (USA) Real Estate Group, Inc. v. Greenville County (Owens Glen Vested-Rights Reversal)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Forestar (USA) Real Estate Group, Inc. v. Greenville County (Owens Glen Vested-Rights Reversal)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; Out of scope: FOX Carolina describes Owens Glen as a 'nearly 300-home subdivision' by Forestar, D.R. Horton's lot developer: a single-family residential subdivision, not a commercial real estate matter on its face. If the main session keeps it anyway, the existing text has serious unsupported detail"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-068",
+   "caseId": "live-068",
+   "subject": "RCA Trade Center, Inc. v. Neighboring Unit Owners (Hawaii Anti-SLAPP Dismissal Affirmed)",
+   "kind": "Corrected: date, description",
+   "was": "Letter sent in August 2025 | RCA sued in October 2025 | Circuit court entered final judgment on May 21, 2026 | the U.S. Department of Agriculture halting a roughly $7.8 million loan | a letter to attorneys representing the project's developer ... copied to agencies; a roughly 100-acre project",
+   "now": "Letter sent August 29, 2023 | RCA sued on October 25, 2023 | Order granting dismissal May 20, 2024; final judgment May 21, 2024 | The $7,883,000 loan was a USDA-guaranteed loan from lender North Avenue Capital, which put a hold on draws after the USDA asked about the letter | The letter went to RCA, its counsel and ten government entities; the project is 96 acres in 32 units",
+   "basis": "Checked against the source article: Hawaii ICA opinion, CAAP-24-0000380, June 23, 2026 | Hawaii ICA opinion, CAAP-24-0000380 | Hawaii ICA opinion, CAAP-24-0000380 | Hawaii ICA opinion, CAAP-24-0000380 | Hawaii ICA opinion, CAAP-24-0000380"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-145",
+   "caseId": "live-145",
+   "subject": "Proven Business Skills v. Phoenix American Hospitality, LLC (Non-Traded Hotel REIT Securities Class Action)",
+   "kind": "Corrected: date, description",
+   "was": "Judge: Sidney Allen Fitzwater | 2026-09-16 | the same class of investors the SEC found it had misled; factual findings the SEC itself made",
+   "now": "Jane J. Boyle; Judge Fitzwater was initially assigned and removed the same day | 2026-09-15, the docket filing date (the press release went out Sept. 16) | The SEC made allegations in a settled action; the defendants did not admit them and no findings were made",
+   "basis": "Checked against the source article and court docket: N.D. Tex. docket 3:26-cv-03130 (CourtListener) | N.D. Tex. docket 3:26-cv-03130 (CourtListener) | SEC Litigation Release No. 26560, June 5, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-064",
+   "caseId": "live-064",
+   "subject": "C.D. Smith Construction, Inc. v. The Edison Project LLC (Milwaukee Mass-Timber Tower Lien Foreclosure)",
+   "kind": "Corrected: description, figure, party",
+   "was": "a planned 31-story, 357-unit mass-timber apartment tower | $11.3M default judgment on a $13.67M unpaid construction claim | C.D. Smith Construction, Inc. v. The Edison SPE LLC | clearing a lien foreclosure",
+   "now": "Urban Milwaukee: 31 stories, 353 units; ENR: 32 stories, 378 units | $13.67 million was the work performed; about $11.3 million was unpaid, and the judgment is $11,301,704.63 | C.D. Smith Construction, Inc. v. The Edison Project LLC, et al.; judgment runs against The Edison Project LLC and The Edison SPE, LLC | The judgment advances the foreclosure; a written foreclosure order is still required before a sale",
+   "basis": "Checked against the source article: Urban Milwaukee, June 30, 2026; ENR, July 14, 2026 | Urban Milwaukee, June 30, 2026; Order for Default Judgment, Milwaukee County Case No. 26-CV-2091 | Order for Default Judgment, Case No. 26-CV-2091, signed June 29, 2026 | Urban Milwaukee, June 30, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-023",
+   "caseId": "live-023",
+   "subject": "U.S. Bank Receivership Suit Over Republic Plaza, Denver's Tallest Tower",
+   "kind": "Corrected: description, figure",
+   "was": "Trepp lists total CMBS debt at $230.1M | The complaint, quoting the loan documents, states that the borrower...",
+   "now": "Morningstar Credit listed the loan at $230.1 million, as reported by Connect CRE; no source read cites Trepp | The quoted language is the complaint's own; it refers to the Loan Documents",
+   "basis": "Checked against the source article: Connect CRE, Return to Lender, week of Sept. 10, 2026 | Denver Gazette, Aug. 14, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-171",
+   "caseId": "live-171",
+   "subject": "Sheetz, Inc. v. City of Centerville (Ohio Supreme Court Allows Separate Damages Suit After Site-Plan Appeal Win)",
+   "kind": "Corrected: description",
+   "was": "Sheetz's underlying damages claim now returns to the trial court for further proceedings",
+   "now": "The damages case will proceed in the U.S. District Court for the Southern District of Ohio",
+   "basis": "Checked against the source article and court docket: Dayton Daily News, Sept. 15, 2026; S.D. Ohio docket 3:24-cv-00059"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-335",
+   "caseId": "live-335",
+   "subject": "Goochland County Data Center Overlay Suit: Judge Weighs Dismissal",
+   "kind": "Corrected: description",
+   "was": "Judge Timothy Sanner rejected the county's bid to enter the full 8,500-page legislative record",
+   "now": "Judge Sanner ordered the county to pare down the 8,500 pages of documents it had filed in response to the suit",
+   "basis": "Checked against the source article: Richmond BizSense, Oct. 22, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-135",
+   "caseId": "live-135",
+   "subject": "Soros Fund Management v. Eretz Group (224 West 57th Street Foreclosure)",
+   "kind": "Corrected: description, figure",
+   "was": "Soros Fund Management takes title to the building at a $158.7M foreclosure auction | The loan carried a maturity date of June 2023, and Eretz obtained two subsequent extensions | leaving the building's own anchor tenant as its new owner",
+   "now": "$158.7 million was the foreclosure judgment; no auction price was reported | June 2023 was the repayment deadline after two extensions | The lender, Soros Fund Management, took the building; the tenant is the separate Open Society Foundations",
+   "basis": "Checked against the source article: Crain's New York Business coverage as summarized by Eretz's counsel's media page, Sept. 1, 2026 | The Real Deal, April 22, 2024 | Crain's New York Business, Sept. 1, 2026; Commercial Observer, Sept. 16, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-178",
+   "caseId": "live-178",
+   "subject": "Charles Cohen v. Fortress Investment Group ($204M Claim Over UCC Foreclosure Auction)",
+   "kind": "Corrected: date, description, party",
+   "was": "2026-06-29 (the date of the Crain's article) | Cohen \"is now pressing his own claim\" for about $204 million, presented as a new claim | NY Supreme Court granted summary judgment on the guaranty in October 2024; the First Department affirmed in February 2025 | Tower 57, the Cohen-owned Manhattan office building housing the D&D Building design showrooms | Cohen Brothers Realty Corp. listed as plaintiff",
+   "now": "June 25, 2026, the date of Cohen's letter to the court | The $204 million lawsuit was filed about a year earlier; the June 2026 news was a letter saying he would keep pursuing it | An appellate court ruled for Fortress in February 2025 and a lower court entered the $187 million judgment a month later | Removed; the Decoration & Design Building is a separate property in a separate foreclosure by Deutsche Bank as trustee | Removed; no source names it as a party to Cohen's damages suit",
+   "basis": "Checked against the source article: Crain's New York Business (June 29: 'filed a response Thursday'); Bisnow, June 29, 2026 | The Real Deal, June 30, 2026 | The Real Deal, June 30, 2026 | Bisnow, June 29, 2026 | Crain's, Bisnow and The Real Deal coverage, June 2026"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-089",
    "caseId": "live-089",
    "subject": "Kane Creek Development Watch v. Lieutenant Governor of Utah (Echo Canyon Preliminary Municipality Challenge)",

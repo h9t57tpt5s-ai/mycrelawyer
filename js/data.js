@@ -671,42 +671,42 @@ const RELAW_DATA = {
     },
     {
       id: "live-023",
-      seoTitle: "Republic Plaza Denver: Receivership Suit Against Brookfield Owner",
-      seoDescription: "U.S. Bank seeks a receiver over Republic Plaza, Denver's 56-story tallest tower, after Brookfield's ownership left a ~$130M loan unpaid at maturity.",
+      seoTitle: "Republic Plaza Denver: U.S. Bank Seeks Receiver After Default",
+      seoDescription: "U.S. Bank, on behalf of lenders, asked Denver District Court for a receiver over Republic Plaza, Denver's tallest tower, after a March 2026 loan default.",
       property: {"name": "Republic Plaza", "city": "Denver", "state": "CO"},
       addedDate: "2026-08-15",
-      title: "U.S. Bank National Association v. BOP Republic Plaza I LLC (Denver's Tallest Tower Receivership Suit)",
-      brief: "U.S. Bank, for a CMBS trust, seeks a receiver over Republic Plaza, Denver's 56-story tallest office tower, after owners Brookfield and MetLife failed to repay the ~$130M loan at its March 15, 2026 maturity.",
+      title: "U.S. Bank Receivership Suit Over Republic Plaza, Denver's Tallest Tower",
+      brief: "U.S. Bank, on behalf of lenders, asked Denver District Court to appoint a receiver for Republic Plaza, Denver's 56-story tallest tower, after a March 2026 loan default, the Denver Gazette reported.",
       category: "lending-foreclosure",
-      status: "filed",
+      status: "pending",
       date: "2026-08-10",
       jurisdiction: "Denver District Court, Colorado",
       parties: [
-        { name: "U.S. Bank National Association", role: "Plaintiff" },
-        { name: "BOP Republic Plaza I LLC", role: "Defendant" },
-        { name: "Trigild IVL", role: "Receiver" }
+        { name: "U.S. Bank National Association", role: "Plaintiff (on behalf of lenders)" },
+        { name: "Brookfield Properties (BGRE)", role: "Owner/Manager" },
+        { name: "MetLife Investment Management", role: "Co-owner" },
+        { name: "Trigild", role: "Receiver" }
       ],
       judge: null,
-      amountUsd: 230000000,
+      amountUsd: null,
       amountBasis: "loan",
       state: "CO",
-      amount: "~$130M defaulted loan; Trepp lists total CMBS debt at $230.1M",
+      amount: "Defaulted loan reported at about $130M (Denver Business Journal) and $230.1M (Morningstar Credit); property appraised at $136.0M",
       source: "live",
       sourceUrl: "https://www.denvergazette.com/2026/08/14/downtown-denvers-tallest-building-faces-receivership-after-loan-default/",
-      summary: "U.S. Bank National Association, acting on behalf of the CMBS trust holding the loan, sued Brookfield Properties affiliate BOP Republic Plaza I LLC in Denver District Court on August 10, seeking appointment of a receiver over Republic Plaza — Denver's 56-story tallest office tower — after owners Brookfield Properties and MetLife Investment Management failed to pay off the loan at its March 15, 2026 maturity. It is the second default on the loan in three years; an earlier default was resolved through a July 2023 modification that extended the maturity to this March. The complaint, quoting the loan documents, states that the borrower, 'being a sophisticated commercial borrower, has failed to make payments as required,' and asks the court to install a receiver to protect and manage the tower while the debt goes unpaid.",
-      significance: "The filing shows post-pandemic office distress reaching even institutionally owned, marquee downtown assets: Republic Plaza pairs a top-tier global asset manager with an insurance-company balance sheet, yet neither prevented a second maturity default in three years as tenants shrink footprints. Colorado receivership is an equitable remedy a lender can pursue separately from, and well before, a completed foreclosure sale, letting it seize operational and cash-flow control of a distressed asset while litigation is still pending. Owners and asset managers with loans maturing into the current environment should treat a receivership filing as an earlier and faster-moving risk than a foreclosure complaint, since it can strip day-to-day control of a property long before any sale.",
+      summary: "U.S. Bank National Association, on behalf of lenders, filed a complaint in Denver District Court on August 10, 2026 seeking a receiver for Republic Plaza, the 56-story tower at 370 17th St. that is Denver's tallest building, after a loan default in March, the Denver Gazette reported. The building is owned and managed by Brookfield Properties, recently rebranded as BGRE, and co-owned by MetLife Investment Management. Trigild has since been appointed receiver, Connect CRE reported, citing Morningstar Credit and the Denver Business Journal.",
+      significance: "Republic Plaza narrowly avoided foreclosure in 2023, and the new filing shows that deal did not resolve the loan. Receivership puts a court-appointed manager in charge of the property while the default plays out, and the receiver reportedly plans a sale in 2027.",
       body: [
-        "Republic Plaza, the 56-story tower that has held the title of Denver's tallest building since 1984, is now the subject of a receivership lawsuit after its owners failed to pay off the mortgage at maturity for the second time in three years. U.S. Bank National Association, acting on behalf of the commercial mortgage-backed securities (CMBS) trust that holds the loan, filed suit against borrower entity BOP Republic Plaza I LLC, a Brookfield Properties affiliate, in Denver District Court on August 10, 2026, seeking appointment of a receiver over the property rather than proceeding directly to foreclosure. The filing is a pointed illustration of how far office-sector distress has spread: Republic Plaza is co-owned by Brookfield Properties, one of the world's largest commercial real estate managers, and MetLife Investment Management, an insurance-company balance sheet with among the deepest pockets in institutional real estate — yet neither prevented a second maturity default on the tower's debt.",
-        "The default is not new; what changed is the lender's response. Brookfield and MetLife first defaulted on the Republic Plaza loan in 2023, and resolved that episode through a July 2023 modification that extended the maturity date to March 15, 2026 in exchange for interest-only payments, a partial principal paydown, and additional reserve funding. That extension bought the ownership group less than three years. When the loan came due again on March 15, 2026, the borrowers again failed to pay it off, and the debt — which Trepp's CMBS tracking data lists at a current balance of roughly $230.1 million — moved into special servicing. Five months later, the special servicer's counsel moved from workout negotiations to litigation, filing the receivership complaint that names an approximately $130 million defaulted obligation and, according to the pleading itself, states that the borrower, being a sophisticated commercial borrower, has failed to make payments as required by the loan documents.",
-        "The legal posture is worth pausing on, because a receivership complaint is not the same maneuver as a foreclosure filing, even though both often arise from the same default. Colorado law, like that of many states, allows a secured lender to seek appointment of a receiver as an equitable remedy independent of — and typically much faster than — a full foreclosure action. A receiver, once appointed by the court, takes over day-to-day operational and financial control of the property: collecting rents, paying operating expenses, and preserving the asset's value, all while remaining accountable to the court rather than to the borrower's ownership. For a lender, receivership offers a way to stop the bleeding on a distressed, income-producing asset without waiting out the months or years a contested foreclosure and any subsequent redemption period can take. For a borrower, losing operational control to a court-appointed receiver is frequently the more immediate and consequential blow, arriving well before any forced sale of the property itself.",
-        "Republic Plaza's troubles track the broader story that has been reshaping downtown office markets nationally since the shift to hybrid and remote work: even a well-located, professionally managed trophy tower can see its debt service coverage erode as tenants shrink their footprints or decline to renew, leaving landlords unable to refinance loans originated in a very different rate and occupancy environment. What distinguishes this filing is the ownership profile — much of the office-distress litigation surfacing this year has involved private syndicators, regional operators, or single-purpose developers whose thinner capitalization made default a more predictable outcome. Republic Plaza's ownership, by contrast, pairs a top-tier global alternative-asset manager with an insurer's investment arm, and that a second default still occurred underscores that the current wave of maturity-driven office distress is a function of loan structure and market conditions at least as much as sponsor quality or balance-sheet strength.",
-        "For other owners and lenders, the case is a useful data point on sequencing: a borrower that survives one modification should not assume a second round of forbearance is available on similar terms, particularly where occupancy or valuation trends haven't meaningfully improved since the first negotiation. It's also a reminder that a receivership motion, not a foreclosure complaint, is often the lender's first and fastest tool once a special servicer concludes that further workout negotiations aren't productive — meaning the loss of control over a distressed asset can arrive well ahead of any headline-grabbing foreclosure sale."
+        "U.S. Bank National Association filed a complaint in Denver District Court on Monday, August 10, 2026, on behalf of lenders, seeking appointment of a receiver for Republic Plaza after a loan default in March, the Denver Gazette reported. A receiver would protect and maintain the property to ensure the lender's debt is repaid. The complaint says the defendant, \"being a sophisticated commercial borrower, has failed to make payments as required by the Loan Documents,\" and that the plaintiff has \"reasonable concern\" that the property will not be properly operated or maintained.",
+        "The 56-story tower at 370 17th St. is owned and managed by Brookfield Properties, which recently rebranded as BGRE, and MetLife Investment Management is also an owner. Brookfield declined to comment to the Gazette. The building narrowly avoided foreclosure in 2023 under a deal that gave its owners until March 2026, 9News reported at the time, according to the Gazette, which also reported that Bank of America's Colorado office was set to move out of the building in October.",
+        "Reported loan figures differ. Connect CRE, citing the Denver Business Journal, described an approximately $130 million defaulted loan, while a later Connect CRE roundup citing Morningstar Credit listed the loan at $230.1 million, held in two CMBS trusts. That roundup said Trigild has been appointed receiver and plans to sell the property in 2027, that the loan moved to special servicing ahead of its March maturity, and that the property was appraised at $136.0 million after the transfer."
       ],
       tags: ["receivership", "cmbs", "office", "loan default", "denver"],
       timeline: [
-        { when: "July 2023", label: "Brookfield and its lender modify the loan after an earlier default, extending the maturity to March 15, 2026" },
-        { when: "March 15, 2026", label: "The loan matures unpaid, triggering a second default and transfer to special servicing" },
-        { when: "August 10, 2026", label: "U.S. Bank National Association sues in Denver District Court seeking appointment of a receiver", current: true }
+        { when: "2023", label: "Owners avoid foreclosure through a deal that extends the loan to March 2026" },
+        { when: "March 2026", label: "Loan defaults at maturity, after moving to special servicing" },
+        { when: "August 10, 2026", label: "U.S. Bank National Association files a receivership complaint in Denver District Court" },
+        { when: "September 2026", label: "Trigild is reported appointed receiver, with plans to sell the property in 2027", current: true }
       ]
     },
     {
@@ -1237,44 +1237,6 @@ const RELAW_DATA = {
         { when: "August 24, 2026", label: "California Supreme Court reverses the Court of Appeal and remands, holding the resolution of necessity is only a rebuttable presumption for takings of property already devoted to public use", current: true }
       ],
       tags: ["eminent domain", "public utility", "california", "standard of review", "condemnation"]
-    },
-    {
-      id: "live-044",
-      seoTitle: "Owens Glen, Greenville County: Forestar Vested-Rights Suit",
-      seoDescription: "D.R. Horton subsidiary Forestar sued Greenville County, SC over its move to reverse vested rights for the roughly 300-lot Owens Glen subdivision.",
-      property: {"name": "Owens Glen", "city": "Piedmont", "state": "SC"},
-      addedDate: "2026-08-26",
-      title: "Forestar (USA) Real Estate Group, Inc. v. Greenville County (Owens Glen Vested-Rights Reversal)",
-      brief: "D.R. Horton subsidiary Forestar sued Greenville County, SC for moving to reverse a vested-rights approval for its roughly 300-lot Owens Glen subdivision after the appeal window closed; no ruling yet.",
-      category: "zoning-land-use",
-      status: "pending",
-      date: "2026-07-09",
-      jurisdiction: "Greenville County Court of Common Pleas, South Carolina",
-      parties: [
-        { name: "Forestar (USA) Real Estate Group Inc.", role: "Plaintiff" },
-        { name: "Greenville County", role: "Defendant" }
-      ],
-      amountUsd: null,
-      judge: "Jessica Salvini",
-      state: "SC",
-      amount: "$300,000+ in claimed sunk development costs, plus damages sought",
-      source: "live",
-      sourceUrl: "https://www.foxcarolina.com/2026/07/08/judge-hear-arguments-greenville-county-subdivision-dispute-that-could-reshape-development-approval-process/",
-      summary: "Forestar (USA) Real Estate Group, a D.R. Horton subsidiary, sued Greenville County, South Carolina after the county moved to reverse a vested-rights approval for its roughly 300-lot Owens Glen subdivision in rural Piedmont, well after the 30-day appeal window on that approval had closed. Circuit Judge Jessica Salvini heard oral argument on July 9, 2026 and took the matter under advisement; no ruling has issued.",
-      significance: "The case tests how much protection a vested-rights or other final land-use approval actually gives a developer once a local government faces political pressure to undo it. A ruling against the county would reinforce that approvals become genuinely final once a statutory appeal window closes; a ruling for the county would signal that local governments retain broader latitude to revisit development approvals under public pressure, a risk relevant to developers well beyond South Carolina.",
-      body: [
-        "A dispute unfolding in the Greenville County Court of Common Pleas has quietly become one of the more consequential land-use cases in the Southeast this year, and it should be on the radar of any commercial developer who has relied on a government approval and assumed the clock had run out on anyone's ability to take it back. Forestar (USA) Real Estate Group, Inc., a residential land development subsidiary of homebuilder D.R. Horton, sued Greenville County after county officials moved to reverse a vested-rights approval for its proposed Owens Glen subdivision, a roughly 300-lot project on about 118 acres in the rural Piedmont community, well after the 30-day window to appeal that approval had closed. Circuit Judge Jessica Salvini heard oral argument on the matter on July 9, 2026 and has taken it under advisement, with no ruling issued as of this writing.",
-        "The facts, as laid out in the parties' briefs and in Judge Salvini's own questioning from the bench, are straightforward even if the underlying land-use politics are not. Greenville County's planning process led to a vested-rights approval for Owens Glen, giving Forestar a defined window, running into August 2026, to begin work on the project. No one appealed that approval within the 30 days South Carolina land-use procedure allows. Forestar says it relied on that finality and spent more than $300,000 moving the project forward. Then, after sustained opposition from nearby residents and at least one county council member's public push to undo the project, the county's planning apparatus revisited the matter and moved to reverse the approval anyway.",
-        "Forestar's complaint does not mince words, calling the reversal a political charade and arguing it violates South Carolina's ethics laws governing how local governments may act on development applications once public pressure enters the picture. The developer is asking the court to reinstate its approvals and to award damages for its sunk costs and the resulting delay. Greenville County, for its part, is defending the reversal as within its regulatory authority, though several county officials have been candid, including in public council discussion, that they expect the county to lose and that the litigation could expose taxpayers to real financial liability on top of Forestar's claimed costs.",
-        "At the July hearing, Judge Salvini's own questions previewed the difficulty of the county's position. She pressed the county's counsel on how any developer could reasonably plan a project if a local government retains the power to revisit a vested-rights determination indefinitely, asking pointedly what a developer in Forestar's position was supposed to do, and noting that the county's own procedures set a 30-day appeal window that no one used. If that approval was not final at the close of that window, she asked, when would it ever become final enough for a developer to rely on it. That line of questioning captures the doctrinal stakes: vested-rights and finality doctrines exist precisely so developers can commit capital to a project without a standing risk that a later, differently constituted board or council can claw back an approval because the political winds shifted.",
-        "The Owens Glen dispute is a live illustration of a risk that rarely gets tested this cleanly in court, the gap between a final approval on paper and a local government's practical willingness to revisit it under public pressure. Most vested-rights statutes, including South Carolina's, exist to give developers a predictable window during which zoning and land-use rules cannot shift under them, and a ruling letting a county reopen a matter after the statutory appeal period has run would meaningfully weaken that protection nationwide, since Owens Glen's fact pattern, public opposition, a sympathetic elected official, and a subsequent reconsideration push, is common to development fights everywhere, not unique to South Carolina. Developers relying on a vested-rights or other final land-use approval should preserve a clear documentary record of the approval date, the applicable appeal deadline, and the absence of any timely challenge, since that record is exactly what a court will look to if the approval is later revisited; counsel on politically contested projects should treat a shift in public sentiment or an official's stated intent to undo an approval as an early warning sign worth addressing proactively, including through declaratory relief, rather than waiting for the government to act first; local governments should recognize that reopening a matter after a statutory appeal window has closed carries real litigation and damages exposure, particularly where officials have been candid on the record about the political motivation for revisiting the decision; and counsel for developers with projects in the pipeline anywhere should watch for Judge Salvini's ruling, since a decision either way is likely to be cited well outside South Carolina in future vested-rights disputes."
-      ],
-      timeline: [
-        { when: "2024", label: "Greenville County issues a vested-rights approval for the Owens Glen subdivision; the 30-day appeal window closes with no appeal filed" },
-        { when: "2025", label: "Amid resident opposition and a county council member's public push to undo the project, the county's planning process moves to reverse the approval" },
-        { when: "July 9, 2026", label: "Circuit Judge Jessica Salvini hears oral argument and takes the matter under advisement", current: true }
-      ],
-      tags: ["zoning", "vested rights", "subdivision approval", "south carolina", "land use"]
     },
     {
       id: "live-045",
@@ -1968,39 +1930,39 @@ const RELAW_DATA = {
     {
       id: "live-064",
       seoTitle: "The Edison Milwaukee: $11.3M Default Judgment for C.D. Smith",
-      seoDescription: "Judge entered a default judgment of more than $11.3 million for C.D. Smith Construction against Neutral's Edison SPE, clearing a lien foreclosure.",
+      seoDescription: "A Milwaukee County judge entered an $11.3M default judgment for C.D. Smith Construction against Neutral's Edison entities, advancing a lien foreclosure.",
       property: {"name": "The Edison", "city": "Milwaukee", "state": "WI"},
       addedDate: "2026-09-01",
-      title: "C.D. Smith Construction, Inc. v. The Edison SPE LLC (Milwaukee Mass-Timber Tower Construction-Lien Foreclosure)",
-      brief: "A Milwaukee judge entered a more than $11.3 million default judgment for contractor C.D. Smith against a Neutral affiliate, clearing a lien foreclosure on the stalled 31-story Edison mass-timber tower site.",
+      title: "C.D. Smith Construction, Inc. v. The Edison Project LLC (Milwaukee Mass-Timber Tower Lien Foreclosure)",
+      brief: "A Milwaukee County judge entered an $11.3 million default judgment for contractor C.D. Smith against two Neutral entities behind the stalled Edison tower, advancing its lien foreclosure, Urban Milwaukee reported.",
       category: "lending-foreclosure",
       status: "ruling",
       date: "2026-06-29",
       jurisdiction: "Milwaukee County Circuit Court",
       parties: [
-        { name: "C.D. Smith Construction Inc.", role: "Plaintiff" },
-        { name: "The Edison SPE", role: "Defendant" },
-        { name: "The Edison Project LLC", role: "Defendant" }
+        { name: "C.D. Smith Construction, Inc.", role: "Plaintiff" },
+        { name: "The Edison Project LLC", role: "Defendant" },
+        { name: "The Edison SPE, LLC", role: "Defendant" },
+        { name: "Neutral", role: "Developer" }
       ],
-      amountUsd: 11300000,
+      amountUsd: 11301705,
       amountBasis: "judgment",
       state: "WI",
-      amount: "$11.3M default judgment on a $13.67M unpaid construction claim",
+      amount: "$11,301,704.63 default money judgment, plus costs and attorneys' fees",
       source: "live",
       sourceUrl: "https://www.enr.com/articles/63313-contractor-wins-113m-judgment-in-milwaukee-timber-tower-lawsuit",
-      summary: "Milwaukee County Circuit Court Judge Glenn H. Yamahiro entered a default judgment of more than $11.3 million on June 29, 2026 in favor of general contractor C.D. Smith Construction against The Edison SPE LLC, a Neutral affiliate, clearing the way to foreclose on a construction lien against the stalled 31-story Edison mass-timber tower site in downtown Milwaukee. The default arose after Neutral CEO Nate Helbach filed a pro se mediation/arbitration request the court struck because a corporation cannot represent itself in litigation.",
-      significance: "The ruling gives C.D. Smith a direct path to force a sale of the Edison site via lien foreclosure rather than standing as an unsecured creditor, and is a reminder that developers must respond to litigation through licensed counsel or risk default judgment on the full amount claimed regardless of the underlying merits.",
+      summary: "Milwaukee County Circuit Judge Glenn H. Yamahiro signed an order on June 29, 2026 granting general contractor C.D. Smith Construction a default money judgment of $11,301,704.63 against The Edison Project LLC and The Edison SPE, LLC, entities of developer Neutral, over unpaid work on the stalled Edison tower in downtown Milwaukee. The default followed Neutral's failure to file a legally valid response; the court struck a filing by Neutral's CEO, who is not an attorney, asking that the dispute go to mediation or arbitration, Urban Milwaukee reported. A written foreclosure order is still needed before the site can be sold.",
+      significance: "The judgment moves the contractor closer to forcing a sale of the site under its construction lien. It also shows that a filing made for a company by a non-lawyer executive can be struck, leaving the claim effectively uncontested.",
       body: [
-        "The Edison, a planned 31-story, 357-unit mass-timber apartment tower in downtown Milwaukee once billed as poised to become the tallest building of its kind in the country, has become a cautionary tale in construction-lending and lien litigation. On June 29, 2026, Milwaukee County Circuit Court Judge Glenn H. Yamahiro entered a default judgment of more than $11.3 million against The Edison SPE LLC, an affiliate of Madison-based developer Neutral, clearing the way for general contractor C.D. Smith Construction to move toward foreclosing on the project's construction lien and forcing a sale of the site.",
-        "C.D. Smith, a Fond du Lac-based contractor, filed suit and a related construction lien in Milwaukee County Circuit Court on March 6, 2026, after work on the Edison stalled the prior September when the developer said rising material tariffs and inflation had blown through the project's budget. According to the contractor's filings, C.D. Smith performed approximately $13.67 million worth of work on the tower before construction halted, but was paid only about $2.37 million, leaving a balance of roughly $11.3 million exclusive of interest and attorneys' fees. City officials have separately estimated the project — whose projected cost had grown to at least $230 million — was facing a funding gap of approximately $25 million when work stopped.",
-        "What turned a contested construction-payment dispute into an uncontested default judgment was a procedural detail as much as a substantive one. Neutral's chief executive, Nate Helbach, attempted to push the dispute into mediation or arbitration under the terms of the general contract by filing that request himself. Judge Yamahiro struck the filing because Helbach is not a licensed attorney — under longstanding Wisconsin law, as in most states, a corporate entity cannot represent itself in litigation and must appear through counsel. With no properly filed response from Neutral or its affiliate, the court entered default judgment in C.D. Smith's favor for the full amount claimed.",
-        "The case sits at the intersection of construction-lien law and basic civil procedure. Wisconsin, like most states, gives contractors and subcontractors who improve real property a statutory lien on that property securing payment for labor and materials furnished, enforceable through a foreclosure action functionally similar to a mortgage foreclosure — the lien claimant can force a judicial sale of the property to satisfy the debt if it goes unpaid. C.D. Smith's suit combined a straightforward breach-of-contract claim for the unpaid balance with a lien foreclosure claim seeking to enforce that statutory security interest against the Edison site itself, and the default judgment resolved the payment dispute without the court ever reaching the underlying factual questions, because Neutral's affiliate never mounted a proper defense.",
-        "For developers, the case is a blunt reminder that corporate entities cannot self-represent in civil litigation, no matter how sophisticated the executive attempting to do so; a missed or improperly filed response, even one attempting to invoke a legitimate contractual mediation or arbitration clause, can result in a default judgment for the full amount claimed with no opportunity to contest the underlying facts. For contractors and subcontractors owed money on stalled or capital-starved projects, the outcome illustrates the practical value of promptly filing and perfecting statutory lien rights, since a perfected lien creates a direct path to force a sale of the property rather than leaving the claimant as an unsecured creditor competing with construction lenders and other claimants if the developer becomes insolvent. The dispute also lands amid broader scrutiny of mass-timber construction economics, as developers nationally have cited tariff-driven lumber and steel-connector costs as a factor squeezing budgets on next-generation timber high-rises — owners and lenders on similar projects would do well to stress-test budgets against input-cost volatility before capital runs out mid-construction, and to make sure any contractual dispute-resolution rights are invoked through properly filed, counsel-signed motions well before a response deadline lapses."
+        "On June 29, 2026, Milwaukee County Circuit Judge Glenn H. Yamahiro granted C.D. Smith Construction's motion for default judgment and ordered a money judgment of $11,301,704.63 against The Edison Project LLC and The Edison SPE, LLC, plus costs, expenses and reasonable attorneys' fees, according to the order in Case No. 26-CV-2091. Urban Milwaukee reported that the ruling advances the Fond du Lac-based contractor's effort to foreclose on the site at 1005 N. Edison St., where a partially completed foundation sits for what was planned as a 31-story, 353-unit apartment tower. ENR described the project as a 32-story, 378-unit mass timber and concrete hybrid.",
+        "C.D. Smith filed its construction lien and foreclosure suit in March 2026 against Neutral and its project affiliates, after work stopped in September 2025. According to Urban Milwaukee, the contractor alleges it performed about $13.67 million in work but was paid only $2.37 million, leaving about $11.3 million unpaid, not counting interest and attorneys' fees. Neutral described the shutdown as a temporary pause to address inflation, tariffs and other cost pressures; city officials later said the project faced a funding gap of about $25 million and that its projected cost had grown to at least $230 million. ENR reported that the suit also named 11 other contractors or vendors as defendants.",
+        "Neutral did not file a legally valid response within the state-law deadline, Urban Milwaukee reported. Its CEO had filed a motion asking that the dispute go to mediation or arbitration under the general contract, but because he is not an attorney and cannot represent a limited liability company, the judge struck it, and no one appeared for Neutral at the hearing. C.D. Smith is expected to submit updated documents supporting a money judgment and foreclosure order, and the judge must still sign a written foreclosure order before the property can be sold. Neutral could try to reopen the case, but it would need a lawyer and would have to persuade the court to set aside the default. Neither C.D. Smith nor Neutral responded to ENR's requests for comment."
       ],
       timeline: [
-        { when: "September 2025", label: "Construction halts on the Edison mass-timber tower after developer Neutral cites tariff and inflation cost overruns" },
-        { when: "March 6, 2026", label: "C.D. Smith Construction files suit and construction lien against The Edison SPE LLC" },
-        { when: "June 29, 2026", label: "Milwaukee County Circuit Court enters $11.3M default judgment for C.D. Smith after striking developer CEO's pro se filing", current: true }
+        { when: "June 2025", label: "Neutral holds a groundbreaking for the Edison tower" },
+        { when: "September 2025", label: "Construction stops; Neutral calls it a temporary pause over inflation and tariffs" },
+        { when: "March 2026", label: "C.D. Smith Construction files a construction lien and foreclosure suit" },
+        { when: "June 29, 2026", label: "Judge Yamahiro enters an $11,301,704.63 default money judgment against The Edison Project LLC and The Edison SPE, LLC", current: true }
       ],
       judge: "Glenn H. Yamahiro",
       tags: ["construction lien", "foreclosure", "mass timber", "default judgment", "wisconsin"]
@@ -2085,11 +2047,11 @@ const RELAW_DATA = {
     {
       id: "live-068",
       seoTitle: "Marconi Point Kahuku: Hawaii Anti-SLAPP Ends Developer's Suit",
-      seoDescription: "Hawaii appeals court upheld anti-SLAPP dismissal of RCA Trade Center's suit over neighbors' letter opposing Marconi Point warehouses, with fees.",
+      seoDescription: "Hawaii's appeals court affirmed dismissal under the state anti-SLAPP law of RCA Trade Center's suit over neighbors' letter on its Marconi Point warehouses.",
       property: {"name": "Marconi Point Condominiums", "state": "HI"},
       addedDate: "2026-09-03",
-      title: "RCA Trade Center, Inc. v. Hu (Hawaii Anti-SLAPP Dismissal of Developer's Zoning-Complaint Suit)",
-      brief: "Hawaii's appeals court upheld the anti-SLAPP dismissal of developer RCA Trade Center's suit over neighbors' letter opposing agricultural warehouses at Marconi Point, plus a fee award against the developer.",
+      title: "RCA Trade Center, Inc. v. Neighboring Unit Owners (Hawaii Anti-SLAPP Dismissal Affirmed)",
+      brief: "Hawaii's appeals court affirmed the 2024 anti-SLAPP dismissal of RCA Trade Center's suit against neighboring unit owners whose letter to agencies questioned its Marconi Point warehouses.",
       category: "zoning-land-use",
       status: "ruling",
       date: "2026-06-23",
@@ -2098,26 +2060,27 @@ const RELAW_DATA = {
         { name: "RCA Trade Center, Inc.", role: "Plaintiff-Appellant" },
         { name: "MP Unit 21, LLC", role: "Plaintiff-Appellant" }
       ],
-      judge: null,
+      judge: "Sonja M.P. McCullen",
       amountUsd: null,
       state: "HI",
       amount: "Attorney fees and costs awarded to defendants",
       source: "live",
       sourceUrl: "https://www.forbes.com/sites/jayadkisson/2026/07/23/hawaii-real-estate-developer-pounded-by-the-uniform-public-expression-protection-act-in-hu/",
-      summary: "The Hawaii Intermediate Court of Appeals affirmed dismissal of a suit developer RCA Trade Center, Inc. and affiliate MP Unit 21, LLC brought against neighboring landowners Wayne and Tara Hu over a letter opposing agricultural warehouses at the Marconi Point Condominiums near Kahuku, Oahu. The Hus successfully invoked Hawaii's Uniform Public Expression Protection Act (UPEPA), Hawaii's anti-SLAPP statute, arguing their letter to the developer's attorneys and government agencies was protected speech on a matter of public concern; the trial court and the appeals court agreed and upheld an award of attorney fees and costs against the developer.",
-      significance: "Signals that Hawaii developers who respond to neighbors' zoning or permitting complaints with litigation risk a fee-shifting anti-SLAPP dismissal, and illustrates how a letter to regulators — not any court filing — can be the actual source of a developer's practical exposure (here, a suspended USDA loan).",
+      summary: "On June 23, 2026, the Hawaii Intermediate Court of Appeals affirmed a May 2024 circuit court order dismissing a suit by RCA Trade Center, Inc. and MP Unit 21, LLC against two owners of a unit in the Marconi Point Condominiums, an agricultural condominium project in Kahuku, Oahu. The suit, filed in October 2023, targeted a letter the owners sent to RCA and government agencies questioning eight warehouses RCA built on its units; the circuit court dismissed it under the Hawaii Public Expression Protection Act, the state's version of the uniform anti-SLAPP law. The appeals court held the late motion was properly allowed for good cause and that RCA waived its challenge to the fee award.",
+      significance: "The published opinion confirms that a letter to regulators questioning a developer's zoning and permit compliance can be protected expression under Hawaii's statute. A developer that sues over such a letter risks dismissal and paying the other side's fees.",
       body: [
-        "A Hawaii appeals court has affirmed the dismissal of a real estate developer's lawsuit against neighboring landowners who wrote a letter opposing the developer's agricultural warehouse project, reinforcing the reach of the state's anti-SLAPP statute and signaling that developers who respond to zoning or permitting criticism with litigation do so at real financial risk. In RCA Trade Center, Inc. v. Hu, 2026 WL 1802987 (Haw. App. June 23, 2026), the Intermediate Court of Appeals upheld a trial court's dismissal of claims brought by RCA Trade Center, Inc. and affiliated entity MP Unit 21, LLC against Wayne and Tara Hu, along with the trial court's award of attorney fees and costs against the developer.",
-        "The underlying dispute centers on a cluster of large agricultural warehouses built within the Marconi Point Condominiums, a roughly 100-acre agricultural condominium project on Oahu's North Shore near Kahuku, developed under the related names Makai Ranch, Marconi Farms, and RCA Trade Center. The Hus, who own a lot within the same agricultural condominium, sent a detailed letter to attorneys representing the project's developer, raising concerns that the warehouses violated agricultural zoning restrictions and permitting requirements and were being put to unauthorized commercial uses. The Hus copied the letter to city, state, and federal agencies. Notably, the letter's circulation to federal regulators coincided with the U.S. Department of Agriculture halting a roughly $7.8 million loan that had backed construction of the warehouses.",
-        "RCA Trade Center and MP Unit 21 sued the Hus in October 2025, and the Hus responded by invoking Hawaii's Uniform Public Expression Protection Act, a relatively new anti-SLAPP statute designed to allow defendants to obtain early dismissal of lawsuits that target speech on matters of public concern. Although the Hus' special motion to dismiss was filed after the statute's normal deadline, the trial court accepted it for good cause related to an insurance-coverage issue and proceeded to the merits. On May 21, 2026, the circuit court entered final judgment granting the motion, finding that the Hus' letter constituted protected speech on a matter of public concern and dismissing RCA's complaint in its entirety. The Intermediate Court of Appeals affirmed that judgment on June 23, 2026, agreeing the letter was protected activity under UPEPA and upholding the fee award against the developer.",
-        "For commercial developers, the case is a pointed illustration of how a state anti-SLAPP statute can reshape the calculus around responding to neighbor or community opposition. Zoning and permitting fights routinely generate pointed correspondence from neighboring property owners to regulators, and it is not unusual for a developer, frustrated by the practical consequences of that correspondence, to consider a defamation or tortious-interference claim against the author. UPEPA and the roughly three dozen similar state anti-SLAPP statutes now on the books are specifically designed to make that response costly: a defendant who successfully invokes the statute is typically entitled not just to dismissal but to an award of the attorney fees and costs incurred defending the suit.",
-        "The decision also underscores that the developer's real exposure here was regulatory, not litigious. It was the Hus' letter to the USDA and other agencies, not any court filing, that triggered the loan suspension that evidently prompted RCA's lawsuit. Suing the letter's authors did nothing to restore the financing and instead added a second, unsuccessful front of litigation and a fee award. Developers on the receiving end of a neighbor's letter to regulators should treat suing over that speech as a last resort rather than a first response, particularly in any anti-SLAPP jurisdiction, and should assess up front whether the complained-of speech addresses a genuine matter of public concern — zoning compliance and permitted land use squarely qualify in most states — since that characterization, far more than the truth or falsity of the underlying claims, tends to decide an anti-SLAPP motion; a regulatory setback like a suspended loan is generally best addressed directly with the agency rather than by pursuing the messenger."
+        "The Hawaii Intermediate Court of Appeals, in a published opinion by Judge Sonja M.P. McCullen issued June 23, 2026, affirmed the dismissal of a lawsuit that RCA Trade Center, Inc. and MP Unit 21, LLC brought against two neighboring unit owners at the Marconi Point Condominiums in Kahuku, Oahu. The court held that the circuit court did not abuse its discretion in finding good cause for the owners' late motion and did not err in dismissing RCA's complaint under the Hawaii Public Expression Protection Act (HRS Chapter 634G), which adopted the Uniform Public Expression Protection Act in 2022. It also held that RCA waived any challenge to the award of attorney's fees.",
+        "According to the opinion, Marconi Point is an agricultural condominium of two lots totaling 96 acres of AG-2 zoned land, divided into 32 units. In 2017, RCA received building permits for eight prefabricated steel warehouses on its units, financed with a USDA Rural Development guaranteed loan of $7,883,000 from lender North Avenue Capital. On August 29, 2023, the owners' attorney sent a 52-page letter to RCA, its counsel and ten government entities, including the USDA, raising concerns that the warehouses were being leased for non-agricultural uses and about permit compliance and events on the land. After the USDA inquired about the letter, the lender put a hold on loan draws and later declared RCA in default; RCA said it had since resolved the lender's concerns, pending USDA consent to a loan modification.",
+        "RCA sued on October 25, 2023, seeking a declaration that its warehouses could remain, damages for tortious interference with the loan, and an injunction. The owners moved to dismiss under the statute on March 15, 2024, after the filing deadline; the circuit court found good cause because the parties had agreed to delay proceedings while the owners sought insurance coverage. Circuit Judge John M. Tonaki granted the motion on May 20, 2024, finding the letter was protected expression about permitting and other issues, and final judgment was entered on May 21, 2024, with attorney's fees and costs awarded to the owners."
       ],
       timeline: [
-        { when: "August 2025", label: "Wayne and Tara Hu send a letter opposing the warehouses to the developer's attorneys and government agencies; USDA halts RCA's construction loan" },
-        { when: "October 2025", label: "RCA Trade Center, Inc. and MP Unit 21, LLC sue the Hus" },
-        { when: "May 21, 2026", label: "Circuit court grants the Hus' special motion to dismiss under Hawaii's UPEPA and awards attorney fees" },
-        { when: "June 23, 2026", label: "Hawaii Intermediate Court of Appeals affirms dismissal and the fee award in RCA Trade Center, Inc. v. Hu", current: true }
+        { when: "2017", label: "RCA receives permits for eight warehouses on its Marconi Point units" },
+        { when: "August 29, 2023", label: "Neighboring unit owners send a letter to RCA, its counsel and ten government entities, including the USDA" },
+        { when: "September 2023", label: "After a USDA inquiry, RCA's lender puts a hold on loan draws" },
+        { when: "October 25, 2023", label: "RCA Trade Center, Inc. and MP Unit 21, LLC sue the owners" },
+        { when: "March 15, 2024", label: "Owners file a motion to dismiss under Hawaii's Public Expression Protection Act" },
+        { when: "May 20, 2024", label: "Circuit court grants the motion; final judgment with fees follows on May 21, 2024" },
+        { when: "June 23, 2026", label: "Hawaii Intermediate Court of Appeals affirms in a published opinion", current: true }
       ],
       tags: ["anti-slapp", "upepa", "zoning", "agricultural land use", "hawaii"]
     },
@@ -4195,19 +4158,18 @@ const RELAW_DATA = {
     },
     {
       id: "live-135",
-      seoTitle: "224 West 57th Street: Soros Takes Title After $158.7M Foreclosure",
-      seoDescription: "Soros Fund Management took title to 224 West 57th Street in Manhattan at a foreclosure auction after a $158.7 million judgment against owner Eretz Group.",
+      seoTitle: "224 West 57th Street Returns to Soros Fund at Foreclosure Auction",
+      seoDescription: "224 West 57th Street was sold back to its lender, Soros Fund Management, at a Sept. 1 foreclosure auction after a $158.7M judgment against Eretz Group.",
       property: {"address": "224 West 57th Street", "city": "New York", "state": "NY"},
       addedDate: "2026-09-13",
-      title: "Soros Fund Management v. Eretz Group (224 West 57th Street Foreclosure & Tenant-Takeover)",
-      brief: "Soros Fund Management bought the defaulted $145 million mortgage on Midtown Manhattan office building 224 West 57th Street, won a $158.7 million judgment against Eretz Group and took title at a September 1, 2026 auction.",
+      title: "Soros Fund Management v. Eretz Group (224 West 57th Street Foreclosure)",
+      brief: "Soros Fund Management, which bought the defaulted $145 million mortgage, took back 224 West 57th Street at a Sept. 1 foreclosure auction; owner Eretz says the foreclosure was a lease-exit scheme.",
       category: "lending-foreclosure",
       status: "ruling",
       date: "2026-09-01",
       jurisdiction: "New York County Supreme Court",
       parties: [
         { name: "Soros Fund Management", role: "Plaintiff (Lender)" },
-        { name: "QPTF LLC", role: "Lender (Soros affiliate)" },
         { name: "The Eretz Group", role: "Defendant (Borrower/Owner)" }
       ],
       judge: null,
@@ -4217,24 +4179,23 @@ const RELAW_DATA = {
       amount: "$158.7M foreclosure judgment (on a $145M original mortgage)",
       source: "live",
       sourceUrl: "https://www.crainsnewyork.com/real-estate/commercial/cny-two-midtown-buildings-return-to-lenders-20260901/",
-      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
-      docketLabel: "NYSCEF Index No. 850134/2024",
-      summary: "Soros Fund Management, which purchased a defaulted $145 million mortgage on 224 West 57th Street from original lender Aareal Capital Corp., took title to the Midtown Manhattan office building at a September 1, 2026 foreclosure auction after obtaining a $158.7 million judgment against owner Eretz Group. The building is occupied primarily by Open Society Foundations, George Soros's own philanthropic organization, meaning the property's anchor tenant effectively became its owner.",
-      significance: "Illustrates how distressed-debt acquisition lets a well-capitalized party, here a landlord's own tenant, gain control of a building through a discounted mortgage purchase rather than a conventional sale, and shows that repeated maturity extensions on legacy office loans frequently defer rather than resolve an underlying default risk.",
+      summary: "224 West 57th Street, a Midtown Manhattan office building whose principal tenant is the Open Society Foundations, was sold back to its lender, Soros Fund Management, at a foreclosure auction on September 1, 2026, Crain's New York Business reported. Soros Fund bought the defaulted $145 million mortgage from Aareal Capital in 2023 and sued owner Eretz Group to foreclose in April 2024; Crain's reported a $158.7 million foreclosure judgment. Eretz has alleged that the mortgage purchase and foreclosure were a scheme to let Open Society leave its lease early without paying termination penalties.",
+      significance: "The case shows a lender linked to a building's main tenant using a purchased mortgage to take control of the property. The owner's claim that the foreclosure was a way around lease-termination penalties remains its allegation; the auction went forward after the judgment was entered.",
       body: [
-        "George Soros's family office has completed one of the more unusual foreclosure outcomes in recent Manhattan commercial real estate history: after acquiring a defaulted mortgage on its own landlord's building, Soros Fund Management took title to 224 West 57th Street at a September 1, 2026 foreclosure auction. The ten-story, roughly 107,000-square-foot Midtown office building, a former auto showroom on the block known as Billionaires Row, is occupied primarily by Open Society Foundations, the philanthropic organization founded and funded by George Soros, leaving the building's own anchor tenant as its new owner.",
-        "The dispute traces back to 2018, when Eretz Group, the New York-based developer that has owned 224 West 57th Street since 2015, borrowed $145 million from lender Aareal Capital Corp. to refinance the property. The loan carried a maturity date of June 2023, and Eretz obtained two subsequent extensions before ultimately failing to repay the principal. Rather than continue carrying the increasingly troubled loan, Aareal sold the debt to Soros Fund Management, which stepped into the lender's position and filed a foreclosure action against Eretz in the Supreme Court of the State of New York, New York County, in April 2024.",
-        "What makes the case distinctive is the identity of the plaintiff-lender. Open Society Foundations occupies the majority of the office space at 224 West 57th Street as Eretz's tenant, so when Soros Fund Management purchased the distressed mortgage, it positioned an entity tied to the building's own occupant to potentially become its landlord. That dynamic played out in full at the September 1 auction, held in Lower Manhattan, where the property returned to the lender's side of the ledger rather than selling to an outside third party, the outcome typical when a foreclosing lender's credit bid exceeds what the market will pay in a still-challenging office-financing environment. The Soros-linked sale was reported alongside another Midtown foreclosure auction the same day, involving the former headquarters of the Chetrit Group, reflecting a broader wave of legacy office loans reaching their breaking point across the borough this cycle.",
-        "The foreclosure judgment ultimately entered against Eretz totaled $158.7 million, reflecting the original $145 million principal plus more than two years of accrued interest, fees, and other carrying costs that piled up while the case wound through litigation. For owners and lenders navigating New York's still-recovering office market, the case is a reminder that maturity defaults on loans originated in more favorable rate environments continue to surface even years after the initial stress began, particularly where extensions merely delayed rather than resolved an underlying valuation gap. It is also a reminder that the sale of distressed debt to a new, better-capitalized noteholder is increasingly common, and that a change in lender does not necessarily signal flexibility toward the borrower.",
-        "Commercial property owners carrying loans originated in the pre-2022 rate environment should proactively assess whether extensions granted so far have addressed the underlying valuation and cash-flow gap or merely deferred it, since repeated maturity extensions without a structural fix frequently end in foreclosure rather than resolution. Landlords should also treat a loan sale to a new noteholder, especially one affiliated with an existing tenant or other stakeholder in the property, as a signal that warrants closer attention than a sale to an unrelated distressed-debt fund, and tenants or other market participants aware of a building's financial distress should recognize that purchasing the underlying debt can be a more direct path to securing long-term occupancy or control of a strategically important asset than waiting to negotiate with a future owner."
+        "Soros Fund Management took back 224 West 57th Street at a foreclosure auction on Tuesday, September 1, 2026, Crain's New York Business reported. The Billionaires Row office building, linked to George Soros, was one of two Midtown towers sold back to their lenders that day; the other was a former headquarters of the Chetrit family. Crain's reported that the foreclosure judgment against owner Eretz Group was $158.7 million.",
+        "Eretz bought the building in 2015 for $213.8 million and in 2018 borrowed $145 million from Aareal Capital to refinance it, The Real Deal reported in 2024, citing Crain's. Soros Fund, which bought the note from Aareal in the fall of 2023, filed its foreclosure suit in April 2024, alleging Eretz failed to repay the principal by June 2023, the loan's deadline after two extensions. The Open Society Foundations, the grant-making group Soros founded, occupies the office space under a lease running through 2042.",
+        "Eretz has alleged that Soros Fund's purchase of the mortgage and its foreclosure were part of a scheme to let Open Society leave its lease early, arguing that taking the property through foreclosure would cost less than the penalties for ending the lease before 2042. Counsel for Eretz told Crain's that the company's \"efforts to repay the mortgage and redeem the property apparently were stymied by forces beyond control.\" On September 16, 2026, Commercial Observer reported that Soros Fund Management had put the building up for sale at roughly $100 million and, citing The Real Deal, that Open Society plans to move out once a deal closes."
       ],
       timeline: [
-        { when: "2018", label: "Eretz Group borrows $145M from Aareal Capital Corp. to refinance 224 West 57th Street" },
-        { when: "June 2023", label: "The loan reaches its original maturity date; two extensions follow" },
-        { when: "April 2024", label: "Soros Fund Management, having purchased the defaulted debt from Aareal, sues Eretz for foreclosure in New York County Supreme Court" },
-        { when: "September 1, 2026", label: "Soros Fund Management takes title to the building at a $158.7M foreclosure auction", current: true }
+        { when: "2015", label: "Eretz Group buys 224 West 57th Street for $213.8M" },
+        { when: "2018", label: "Eretz refinances with a $145M loan from Aareal Capital" },
+        { when: "June 2023", label: "Deadline to repay the principal passes after two extensions, according to the lender's suit" },
+        { when: "Fall 2023", label: "Soros Fund Management buys the note from Aareal" },
+        { when: "April 2024", label: "Soros Fund sues Eretz to foreclose in New York County Supreme Court" },
+        { when: "September 1, 2026", label: "Building is sold back to Soros Fund at a foreclosure auction, following a $158.7M foreclosure judgment" },
+        { when: "September 2026", label: "Soros Fund lists the building for sale at roughly $100M, Commercial Observer reports", current: true }
       ],
-      tags: ["foreclosure", "office", "distressed debt", "new york", "tenant takeover"],
+      tags: ["foreclosure", "office", "distressed debt", "new york", "tenant takeover"]
     },
     {
       id: "live-136",
@@ -4527,13 +4488,13 @@ const RELAW_DATA = {
     {
       id: "live-145",
       seoTitle: "Phoenix American Hospitality Hotel REIT Securities Class Action",
-      seoDescription: "Investors filed a class action against Phoenix American Hospitality and two non-traded hotel REITs after SEC charges over $86 million raised.",
+      seoDescription: "An investor sued Phoenix American Hospitality and two non-traded hotel REITs in Texas federal court after the SEC's settled fraud action over $86M raised.",
       addedDate: "2026-09-16",
       title: "Proven Business Skills v. Phoenix American Hospitality, LLC (Non-Traded Hotel REIT Securities Class Action)",
-      brief: "A securities class action targets Phoenix American Hospitality, its two non-traded REIT funds and president after an SEC fraud settlement over claims they raised about $86 million by misstating a fund's hotel holdings.",
+      brief: "An investor's proposed class action accuses Phoenix American Hospitality, two non-traded hotel REITs and its president of securities fraud, after the SEC's June settled action over $86 million raised.",
       category: "reit-securities",
       status: "filed",
-      date: "2026-09-16",
+      date: "2026-09-15",
       jurisdiction: "U.S. District Court, Northern District of Texas",
       parties: [
         { name: "Proven Business Skills Inc", role: "Plaintiff" },
@@ -4541,27 +4502,28 @@ const RELAW_DATA = {
         { name: "American Hospitality Properties REIT, Inc.", role: "Defendant" },
         { name: "American Hospitality Properties REIT II, Inc.", role: "Defendant" }
       ],
-      judge: "Sidney Allen Fitzwater",
+      judge: "Jane J. Boyle",
       amountUsd: null,
       state: "TX",
       amount: "$86M+ raised from 2,000+ retail investors across two non-traded REIT funds; class damages not yet quantified",
       source: "live",
       sourceUrl: "https://www.financialcontent.com/article/bizwire-2026-9-16-federman-and-sherwood-announces-filing-of-securities-class-action-lawsuit-against-phoenix-american-hospitality-llc-american-hospitality-properties-reit-inc-american-hospitality-properties-reit-ii-inc-and-william-lee-nelson",
-      summary: "Federman & Sherwood filed a securities class action against Phoenix American Hospitality, LLC, its two affiliated non-traded REIT funds, and president William Lee Nelson in the Northern District of Texas, roughly three months after the SEC settled fraud charges against the same defendants over the same conduct. The SEC alleged PAH and Nelson raised about $86 million from more than 2,000 retail investors by misrepresenting that a fund owned 'as many as 11 hotels' when it actually held only a preferred equity interest in a single hotel until January 2024.",
-      significance: "Shows how quickly a settled SEC enforcement action — reached without an admission of liability — can become the factual foundation for a follow-on private securities class action, since the SEC's own detailed complaint gives plaintiffs' counsel a ready-made roadmap. Sponsors of non-traded REITs and similar retail-facing fund vehicles should treat asset-level representations in offering materials as high-litigation-risk statements, particularly where there is no public trading market to independently test investor harm.",
+      summary: "Proven Business Skills, Inc. filed a proposed securities class action in the U.S. District Court for the Northern District of Texas on September 15, 2026 against Phoenix American Hospitality, LLC (PAH), American Hospitality Properties REIT, Inc., American Hospitality Properties REIT II, Inc. and PAH's president, the court docket shows. The complaint asserts claims under Sections 10(b) and 20(a) of the Exchange Act for investors who bought shares in the two REITs between March 1, 2022 and July 31, 2024, according to the plaintiff's counsel's announcement. It follows a June 2026 SEC settled action alleging PAH and its president raised about $86 million from more than 2,000 retail investors with untrue statements about the funds' hotels and profits.",
+      significance: "The SEC settled without the defendants admitting its allegations, but its complaint covers the same period and statements the private suit targets. The private claims have not been tested in court.",
       body: [
-        "A Dallas-based hospitality fund manager that settled SEC fraud charges in June now faces a parallel private securities class action from the same class of investors the SEC found it had misled. On September 16, 2026, the plaintiffs' firm Federman & Sherwood filed suit, captioned Proven Business Skills v. Phoenix American Hospitality, LLC, et al., in the U.S. District Court for the Northern District of Texas against Phoenix American Hospitality, LLC, its two affiliated non-traded REIT funds, American Hospitality Properties REIT, Inc. and American Hospitality Properties REIT II, Inc., and PAH's president, William Lee 'Perch' Nelson.",
-        "The private suit tracks factual findings the SEC itself made in a settled enforcement action filed and resolved on June 4, 2026 in the same courthouse. The SEC alleged that PAH and Nelson raised approximately $86 million from more than 2,000 retail investors across the two funds between March 2022 and July 2024, and that PAH told investors one fund owned 'as many as 11 hotels' when in reality the fund held only a preferred equity interest in a single hotel property until January 2024. PAH first disclosed the underlying SEC subpoena in July 2024. Without admitting or denying the allegations, PAH and Nelson agreed to final judgments requiring PAH to pay a $591,127 civil penalty and Nelson to pay a $118,225 civil penalty, along with a five-year bar on Nelson serving as an officer or director of a public company, subject to court approval.",
-        "The new class action asserts claims under Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 for material misstatements and omissions made in connection with the purchase of a security, plus a Section 20(a) control-person claim against Nelson and other officers. The class period runs from March 1, 2022 through July 31, 2024, and investors have until November 16, 2026 to petition the court to serve as lead plaintiff under the Private Securities Litigation Reform Act.",
-        "The sequencing is the real lesson for sponsors raising capital through non-traded REITs or similar retail-facing fund structures: a regulatory settlement's 'without admitting or denying' language does nothing to stop a plaintiffs' firm from using the SEC's own publicly filed, fact-rich complaint as the backbone of a follow-on suit, and it let Federman & Sherwood move to filing roughly fifteen weeks after the SEC settlement was announced. Because non-traded REIT interests typically have no public trading market to independently benchmark investor harm the way an exchange-listed REIT's share price would, offering-document representations about portfolio composition — asset counts, ownership interests, occupancy — carry outsized litigation risk, since they are often the only information retail investors have to evaluate the investment, and individual officers named in a control-person claim face exposure that a negotiated SEC officer bar does nothing to resolve. Counsel advising sponsors under SEC scrutiny should factor the near-certain shape and timing of follow-on private litigation into how a settlement is negotiated and worded, since the settlement's factual findings become public, and usable by plaintiffs' firms, almost immediately."
+        "Proven Business Skills, Inc. filed a complaint on September 15, 2026, in the U.S. District Court for the Northern District of Texas (No. 3:26-cv-03130) against Phoenix American Hospitality, LLC (PAH), American Hospitality Properties REIT, Inc., American Hospitality Properties REIT II, Inc. and PAH's president, according to the court docket. Plaintiff's counsel announced the filing in a Business Wire release on September 16. The complaint alleges materially false or misleading statements and omissions and seeks remedies under Sections 10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 for investors who bought shares in the two REITs between March 1, 2022 and July 31, 2024. The release set a November 16, 2026 deadline to ask to serve as lead plaintiff.",
+        "The suit follows an action the SEC filed and settled on June 4, 2026, in the same court. According to the SEC's litigation release, its complaint alleged that PAH and its president raised about $86 million from more than 2,000 retail investors in the two funds from March 2022 through July 2024; claimed one fund owned as many as 11 hotels when it held only a preferred equity interest in a single hotel until January 2024; and said both funds paid profit distributions of up to 12% a year when neither was profitable and distributions came mainly from returns of investor capital. Without admitting the allegations, PAH and its president consented to final judgments, subject to court approval, with civil penalties of $591,127 and $118,225 and a five-year officer-and-director bar for the president.",
+        "On October 5, 2026, the two REITs filed a notice of bankruptcy filing and automatic stay in the class action, the docket shows. The case was first assigned to Senior Judge Sidney A. Fitzwater and was reassigned the same day to Senior Judge Jane J. Boyle. No response from the defendants on the merits has been reported."
       ],
       timeline: [
-        { when: "March 2022 – July 2024", label: "Alleged class period during which PAH and its funds raised roughly $86M from retail investors" },
-        { when: "July 2024", label: "PAH discloses receipt of an SEC subpoena related to the funds" },
-        { when: "June 4, 2026", label: "SEC files and settles fraud charges against PAH and Nelson" },
-        { when: "September 16, 2026", label: "Federman & Sherwood files a follow-on securities class action in the Northern District of Texas", current: true }
+        { when: "March 2022 – July 2024", label: "Period in which, the SEC alleged, PAH raised about $86M from retail investors; also the proposed class period" },
+        { when: "June 4, 2026", label: "SEC files and settles its action against PAH and its president" },
+        { when: "September 15, 2026", label: "Proven Business Skills files a proposed securities class action in the Northern District of Texas" },
+        { when: "October 5, 2026", label: "The two REITs file a notice of bankruptcy filing and automatic stay in the class action", current: true }
       ],
-      tags: ["reit securities", "sec enforcement", "class action", "hotel reit", "non-traded reit"]
+      tags: ["reit securities", "sec enforcement", "class action", "hotel reit", "non-traded reit"],
+      docketUrl: "https://www.courtlistener.com/docket/74794536/proven-business-skills-inc-v-phoenix-american-hospitality-llc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-146",
@@ -5265,32 +5227,34 @@ const RELAW_DATA = {
     {
       id: "live-171",
       seoTitle: "Sheetz v. Centerville: Ohio Court Allows Site-Plan Damages Suit",
-      seoDescription: "The Ohio Supreme Court ruled Sheetz may sue the City of Centerville for damages after winning an appeal over the city's rejected site plan.",
+      seoDescription: "The Ohio Supreme Court ruled unanimously that Sheetz may pursue a separate damages suit against Centerville over its rejected site plan, now in federal court.",
       addedDate: "2026-09-23",
       featured: true,
       title: "Sheetz, Inc. v. City of Centerville (Ohio Supreme Court Allows Separate Damages Suit After Site-Plan Appeal Win)",
-      brief: "Ohio's Supreme Court ruled Sheetz may sue Centerville separately for construction-delay and lost-revenue damages after winning its site-plan appeal, since that appeal process cannot award damages.",
+      brief: "Ohio's Supreme Court ruled unanimously that Sheetz may sue Centerville for damages over a rejected site plan even though it did not seek damages in its administrative appeal; the case returns to federal court.",
       category: "zoning-land-use",
       status: "ruling",
       date: "2026-09-15",
       jurisdiction: "Supreme Court of Ohio",
       amountUsd: null,
       state: "OH",
-      amount: "Damages claim for construction delay and lost revenue remanded for further proceedings; no figure yet determined",
+      amount: "Damages claim pending in federal court; no figure reported",
       source: "live",
       sourceUrl: "https://www.daytondailynews.com/local/ohio-supreme-court-sheetz-can-pursue-legal-action-against-centerville/article_c8e22d40-fdfa-5b31-a69d-8b84ac655822.html",
-      summary: "The Supreme Court of Ohio ruled unanimously on September 15, 2026 that Sheetz, Inc. may pursue a separate civil action for damages against the City of Centerville after already winning an administrative appeal that found the city improperly rejected an approved site plan for a new travel-center store. Writing for the court, Justice Joseph T. Deters held that Ohio's R.C. Chapter 2506 administrative-appeal process cannot award damages and therefore does not require a party to raise a damages claim during that appeal to preserve it.",
-      significance: "Gives commercial developers a clear procedural roadmap for recovering delay-related losses after successfully challenging a wrongful zoning or site-plan denial, removing a forfeiture argument municipalities have used to try to cut off damages exposure once the underlying zoning fight is resolved. Developers and REITs facing improper site-plan rejections should document delay costs contemporaneously, since liability questions now proceed on remand with the right to sue for damages already settled.",
+      summary: "The Supreme Court of Ohio ruled unanimously on September 15, 2026 that Sheetz, Inc. may pursue a separate lawsuit for damages against the City of Centerville, answering a question certified by the federal court hearing Sheetz's damages case. In an opinion by Justice Joseph T. Deters, the court held that because damages and declaratory claims cannot be brought in an R.C. Chapter 2506 administrative appeal, res judicata does not bar them later. The damages case will proceed in the U.S. District Court for the Southern District of Ohio, the Dayton Daily News reported.",
+      significance: "The decision means an Ohio developer that wins an administrative appeal of a zoning or site-plan denial does not lose its damages claim by leaving it out of that appeal. Liability and any damages in Sheetz's case remain to be decided in federal court.",
       body: [
-        "Commercial developers who win an administrative appeal reversing a municipality's improper rejection of a site plan have long faced an uncomfortable question: does that victory, by itself, preserve a right to sue for the resulting financial harm, or must damages be pleaded during the administrative appeal itself, on pain of forfeiting them? On September 15, 2026, the Supreme Court of Ohio answered that question in Sheetz, Inc. v. City of Centerville, holding unanimously that Ohio law does not permit, and therefore does not require, a party to seek money damages or declaratory relief during an R.C. Chapter 2506 administrative appeal, and that a developer who prevails on such an appeal may still bring a separate civil action for damages afterward.",
-        "The case traces to 2023, when the Centerville City Council, responding to public opposition from groups including Epiphany Lutheran Church and Bethany Village Senior Living, voted to overturn a site plan for a new Sheetz travel-center and convenience store at 6318 Far Hills Avenue near the Interstate 675 interchange, a plan the city's own planning commission had already approved unanimously as compliant with every applicable development standard. Sheetz appealed that rejection administratively, and in January 2025 a Montgomery County Common Pleas Court judge agreed that the council had exceeded its authority, ordering the city to approve the site plan it never should have rejected. That victory settled the zoning question but left open whether Sheetz could recover for the resulting construction delay, lost revenue, and carrying costs, and whether Sheetz had already lost that right by not asking for damages during the administrative appeal itself.",
-        "Centerville argued it had, contending that Ohio's administrative-appeal statute and ordinary preclusion principles required Sheetz to raise any damages claim within the same proceeding that challenged the council's decision. A federal district court handling a related claim certified the underlying state-law question to the Ohio Supreme Court given its significance beyond the immediate dispute. Writing for a unanimous court joined by Chief Justice Sharon L. Kennedy and Justices Patrick F. Fischer, Jennifer Brunner, Daniel R. Hawkins, and Megan E. Shanahan, Justice Deters rejected Centerville's position: an R.C. Chapter 2506 administrative appeal is a limited proceeding confined to reviewing whether the agency's decision was supported by the evidence and consistent with law, not a vehicle for litigating damages, so Sheetz's later civil action for money is not a prohibited second bite at the same claim.",
-        "The ruling matters well beyond one Dayton-area convenience store. Ohio, like most states, relies heavily on administrative appeals as the primary mechanism for challenging local zoning and site-plan decisions, and municipalities frequently argue that a developer's failure to raise every conceivable claim during that appeal forfeits it. The decision forecloses that argument for damages claims specifically, giving developers a clear roadmap: win the zoning fight first through the administrative process, then pursue a separate action for the resulting financial harm without fear that the first victory quietly extinguished the second claim. For municipalities, an improper site-plan denial now carries real exposure to follow-on damages litigation rather than ending, from the city's perspective, with a merely symbolic administrative loss.",
-        "Sheetz's underlying damages claim now returns to the trial court for further proceedings, with liability for the delay caused by Centerville's rejected site plan still to be determined. For developers and REITs elsewhere, the case is a reminder to document delay-related costs, including carrying costs, lost revenue, financing costs, and construction-cost escalation, as they accrue, since proving those figures will be the central task once a damages case actually gets underway, and to recognize that winning a zoning appeal is often only the first of two fights a wrongful rejection can require."
+        "The Supreme Court of Ohio ruled on Tuesday, September 15, 2026, that Sheetz may pursue a second lawsuit seeking damages from the City of Centerville over its rejected plans for a store at 6318 Far Hills Avenue near Interstate 675, the Dayton Daily News reported. The unanimous decision, Sheetz, Inc. v. Centerville, 2026-Ohio-3531, answered a question of state law certified by the U.S. District Court for the Southern District of Ohio, where Sheetz's damages suit is pending. The court held that a party need not bring damages and declaratory-relief claims in an R.C. Chapter 2506 administrative appeal to avoid a res judicata bar, because those claims cannot be brought in such an appeal.",
+        "The dispute began in 2023, when Centerville City Council, citing public opposition from groups including Epiphany Lutheran Church and Bethany Village Senior Living, overturned a major site plan for the store that the city's planning commission had approved unanimously. Sheetz filed an administrative appeal and, in early 2024, a separate damages suit that was moved from Common Pleas Court to federal court. In January 2025, Montgomery County Common Pleas Judge Angelina Jackson ruled that the council exceeded its authority by rejecting a plan that complied with all local development codes and ordered the city to approve it. The Second District Court of Appeals upheld that ruling, and the city appealed to the Ohio Supreme Court in December 2025, the Daily News reported.",
+        "U.S. District Judge Michael J. Newman certified the question to the Ohio Supreme Court and stayed the federal case in May 2025, the federal docket shows; the damages case will now proceed there. A city spokesperson said the decision \"addresses a procedural legal issue related to the separate federal litigation involving Sheetz and does not affect the status of the proposed development,\" and that while the city's position has not changed, it respects the courts' decisions. Sheetz representatives did not return the paper's messages seeking comment."
       ],
       timeline: [
-        { when: "2023", label: "Centerville City Council overturns planning commission's approval of Sheetz site plan" },
-        { when: "January 2025", label: "Montgomery County Common Pleas Court rules the council exceeded its authority and orders site-plan approval" },
+        { when: "2023", label: "Centerville City Council overturns the planning commission's approval of the Sheetz site plan" },
+        { when: "Early 2024", label: "Sheetz files a separate damages suit, later moved to federal court" },
+        { when: "January 2025", label: "Montgomery County Common Pleas Court rules the council exceeded its authority and orders approval of the site plan" },
+        { when: "May 2025", label: "Federal court certifies the state-law question to the Ohio Supreme Court and stays the damages case" },
+        { when: "December 2025", label: "After the Second District upholds the site-plan ruling, Centerville appeals to the Ohio Supreme Court" },
+        { when: "February 2026", label: "Ohio Supreme Court hears oral argument" },
         { when: "September 15, 2026", label: "Ohio Supreme Court rules unanimously that Sheetz may separately sue for damages", current: true }
       ],
       parties: [
@@ -5299,7 +5263,9 @@ const RELAW_DATA = {
       ],
       propertyType: "Retail",
       judge: "Joseph T. Deters",
-      tags: ["zoning", "ohio", "site plan", "administrative appeal", "damages"]
+      tags: ["zoning", "ohio", "site plan", "administrative appeal", "damages"],
+      docketUrl: "https://www.courtlistener.com/docket/68291241/sheetz-inc-v-city-of-centerville-oh/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-172",
@@ -5542,42 +5508,41 @@ const RELAW_DATA = {
     },
     {
       id: "live-178",
-      seoTitle: "Charles Cohen Seeks $204M From Fortress Over UCC Auction",
-      seoDescription: "Developer Charles Cohen seeks about $204 million from Fortress, alleging the $534M UCC auction of his portfolio was not commercially reasonable.",
+      seoTitle: "Charles Cohen Presses $204M Claim Against Fortress Over Auction",
+      seoDescription: "After paying a $187M judgment, Charles Cohen told a New York court he will pursue a roughly $204M claim against Fortress over a 2024 auction, Crain's reported.",
       addedDate: "2026-09-25",
       featured: true,
-      title: "Fortress Credit Corp. v. Cohen Bros. Realty (Cohen's $204M UCC-Auction Damages Countersuit)",
-      brief: "Charles Cohen paid off Fortress's roughly $187 million guaranty judgment but now seeks about $204 million, claiming the November 2024 UCC auction of his portfolio was not commercially reasonable.",
+      title: "Charles Cohen v. Fortress Investment Group ($204M Claim Over UCC Foreclosure Auction)",
+      brief: "Charles Cohen, who paid off a $187 million Fortress judgment in June, told the court he will keep pursuing a roughly $204 million claim over a 2024 foreclosure auction, Crain's reported.",
       category: "lending-foreclosure",
       status: "pending",
-      date: "2026-06-29",
+      date: "2026-06-25",
       jurisdiction: "Supreme Court of the State of New York, New York County (Commercial Division)",
       state: "NY",
-      amount: "$204M damages sought over a $534M UCC foreclosure auction",
+      amount: "About $204M in damages sought (Bisnow: $203.7M), after a $187M guaranty judgment was paid",
       source: "live",
       sourceUrl: "https://www.crainsnewyork.com/real-estate/commercial/cny-cohen-demands-203m-from-fortress-20260629/",
-      summary: "Developer Charles Cohen has paid off the roughly $187 million personal-guaranty judgment Fortress Investment Group won against him in 2024, but is now pressing his own claim against Fortress for approximately $204 million in damages, alleging the November 2024 UCC Article 9 auction of his real estate portfolio was not conducted in a commercially reasonable manner. Fortress has said it will continue pursuing its own remaining claims against Cohen.",
-      significance: "The case, arising from what was widely reported as the largest UCC foreclosure auction in CRE history, shows that satisfying a guaranty judgment does not end a borrower's ability to challenge the underlying foreclosure sale process, and puts renewed scrutiny on how lenders document commercial reasonableness under Article 9 when they are also the winning bidder.",
+      summary: "Developer Charles Cohen paid off a $187 million judgment owed to Fortress Investment Group in June 2026, and in a June 25 letter to the New York court his attorney said Cohen would pursue his defenses and counterclaims against Fortress, Crain's New York Business reported. Cohen is seeking about $204 million in a lawsuit filed roughly a year earlier, which alleges the out-of-court auction of four of his properties was not commercially reasonable, according to The Real Deal. Fortress has denied the allegations in court filings and says it will keep pursuing its own remaining claims against Cohen.",
+      significance: "The dispute shows that paying a guaranty judgment does not end a borrower's fight with its lender: Cohen is still challenging how the collateral was sold, while Fortress presses separate claims. How a court weighs the commercial-reasonableness claim will matter to lenders that foreclose on pledged equity and acquire the collateral themselves.",
       body: [
-        "Nearly two years after Fortress Investment Group forced a sale of developer Charles S. Cohen's real estate holdings in what was widely described as the largest Uniform Commercial Code foreclosure auction on record, the dispute between the two sides remains active. Cohen has satisfied the roughly $187 million personal-guaranty judgment a New York court entered against him in 2024 and that the Appellate Division, First Department affirmed in February 2025. But he is now pressing his own claim against Fortress seeking approximately $204 million in damages, arguing that the auction which stripped him of his properties was never conducted in the commercially reasonable manner that Article 9 of the UCC requires. Fortress has indicated it intends to continue pursuing its own remaining claims against Cohen.",
-        "The underlying dispute traces to September 2022, when Fortress Credit Corp., an affiliate of Fortress Investment Group, extended roughly $534 million in financing to limited liability companies affiliated with Cohen Brothers Realty Corp. The loan was secured by interests in a portfolio that included Tower 57, the Cohen-owned Manhattan office building housing the D&D Building design showrooms, along with hospitality and design-center assets in Dania Beach, Florida. Cohen personally guaranteed the debt. When the loan went into default, Fortress enforced its rights through a UCC Article 9 foreclosure on the pledged equity interests in the borrower entities rather than a conventional mortgage foreclosure.",
-        "Fortress's first attempt to schedule the auction drew a formal objection from Cohen, and a New York court agreed the proposed sale process fell short of Article 9's commercial-reasonableness standard, forcing Fortress to revise its marketing plan. A revised, court-sanctioned auction went forward on November 8, 2024, drawing a single bidder, Fortress itself, which submitted credit bids including roughly $148.7 million for equity in the core portfolio, plus separate bids of $76 million for the Design Center of the Americas and $30 million for a Le Meridien hotel in Dania Beach. Separately, in October 2024, the Supreme Court of the State of New York, New York County granted Fortress summary judgment in lieu of complaint on Cohen's personal guaranty for roughly $187 million; the First Department affirmed that ruling in February 2025, and Cohen paid the debt in full in June 2026.",
-        "It is the November 2024 auction that Cohen is now challenging on the merits. His suit alleges Fortress structured the sale, including its marketing approach, choice of brokers, and timeline, in a way that depressed the price paid for his properties, contending the portfolio sold for roughly $150 million against what he says was an internal Fortress valuation closer to $235 million. Fortress disputes that characterization and has signaled it will keep litigating its own remaining claims against Cohen, which could produce additional judgments; Cohen is expected to move to dismiss those claims while pressing his own damages counterclaim.",
-        "For CRE lenders and workout counsel, the case underscores that Article 9's commercial-reasonableness standard applies to every element of a disposition, and that a borrower who loses collateral can still recover damages later if a court finds the sale process itself was deficient, even where the lender was the only bidder. With a $534 million original loan, a $187 million guaranty judgment already paid, and now a $204 million damages claim in play, the dispute illustrates how challenges to a UCC foreclosure's fairness can rival the original credit exposure in size, making process discipline around any equity-pledge foreclosure a genuine litigation-risk issue rather than a formality."
+        "Developer Charles Cohen satisfied a $187 million judgment owed to Fortress Investment Group in June 2026, but the two sides are still fighting. In a letter to the court on Thursday, June 25, Cohen's attorney wrote that Cohen \"is committed to pursuing his defenses and counterclaims against Fortress for substantial damages,\" Bisnow reported. Crain's New York Business first reported the letter, which followed a June 18 letter in which Fortress told the court it planned to continue two other suits against Cohen.",
+        "According to The Real Deal, Cohen's letter refers to a lawsuit he filed about a year earlier seeking about $204 million in damages over the foreclosure auction of four of his former properties. That suit alleges the out-of-court auction was not conducted in a commercially reasonable manner and should have involved \"different marketing strategies, different brokers, and different time frames.\" It alleges Fortress acquired the portfolio for $150 million, $85 million below the lender's internal valuation. Bisnow put the claim at $203.7 million. Fortress has denied Cohen's allegations in court filings, and a Fortress representative declined to comment to Bisnow.",
+        "The dispute dates to 2022, when borrowers connected to Cohen took out a $534 million loan that he guaranteed. Fortress sued in 2024 and took the properties later that year in what The Real Deal called one of the largest UCC foreclosures on record. An appellate court ruled for Fortress in February 2025, and a lower court entered the $187 million judgment a month later. Fortress's two remaining suits concern Cohen's property loan guarantees and transfers of personal assets that Fortress calls \"fraudulent\"; Cohen plans to move to dismiss and to pursue his counterclaims, according to Bisnow."
       ],
       timeline: [
-        { when: "September 2022", label: "Fortress Credit Corp. extends roughly $534M to Cohen Bros.-affiliated LLCs, personally guaranteed by Charles Cohen" },
-        { when: "October 4, 2024", label: "NY Supreme Court grants Fortress summary judgment in lieu of complaint on the ~$187M guaranty" },
-        { when: "November 8, 2024", label: "Revised UCC Article 9 auction held; Fortress is the sole bidder, acquiring the portfolio's equity interests" },
-        { when: "February 2025", label: "Appellate Division, First Department affirms the $187M guaranty judgment" },
-        { when: "June 2026", label: "Cohen pays off the $187M judgment in full" },
-        { when: "June 29, 2026", label: "Cohen's pending $204M commercial-reasonableness damages claim against Fortress is reported; Fortress says it will keep pursuing its own remaining claims", current: true }
+        { when: "2022", label: "Borrowers connected to Charles Cohen take out a $534M loan from Fortress; Cohen signs a guaranty" },
+        { when: "2024", label: "Fortress sues; later that year it takes four properties in a UCC foreclosure auction" },
+        { when: "February 2025", label: "Appellate court rules for Fortress on the guaranty" },
+        { when: "March 2025", label: "Lower court enters the $187M judgment against Cohen" },
+        { when: "2025", label: "Cohen sues Fortress seeking about $204M, alleging the auction was not commercially reasonable" },
+        { when: "June 18, 2026", label: "Fortress tells the court it will continue two other suits against Cohen" },
+        { when: "Late June 2026", label: "Cohen pays off the $187M judgment" },
+        { when: "June 25, 2026", label: "Cohen's attorney tells the court he will pursue his defenses and counterclaims against Fortress", current: true }
       ],
       judge: null,
       parties: [
-        { name: "Cohen Brothers Realty Corp.", role: "Borrower-affiliated Plaintiff" },
-        { name: "Fortress Credit Corp.", role: "Lender/Defendant" },
-        { name: "Fortress Investment Group LLC", role: "Lender/Defendant" }
+        { name: "Fortress Investment Group", role: "Lender/Defendant" },
+        { name: "Fortress Credit Corp.", role: "Lender/Judgment creditor (Fortress affiliate)" }
       ],
       amountUsd: 204000000,
       amountBasis: "damages sought",
@@ -7238,36 +7203,36 @@ const RELAW_DATA = {
       addedDate: "2026-10-09",
       featured: true,
       title: "Puerto Rico Court Dismisses DBR Dorado's Bid to Block Hilton-Branded Hotel",
-      brief: "A Puerto Rico court dismissed with prejudice DBR Dorado's bid to stop the 171-room Casa Dorado, a $48 million Hilton-branded hotel, finding DBR waited more than five years to challenge it.",
+      brief: "A Puerto Rico court dismissed with prejudice DBR Dorado's suit to stop Casa Dorado, a 171-room Hilton-branded hotel, finding DBR waited more than five years to challenge it, El Nuevo Día reported.",
       category: "zoning-land-use",
       status: "ruling",
       date: "2026-10-06",
       jurisdiction: "Bayamón Court of First Instance, Puerto Rico",
-      amount: "$48 million development at stake",
+      amount: "$48 million at stake, according to the developer",
       amountUsd: 48000000,
       amountBasis: "other",
       source: "live",
       sourceUrl: "https://www.elnuevodia.com/english/business/story/court-dismisses-lawsuit-seeking-to-block-hiltons-new-hotel-in-dorado/",
-      summary: "The Bayamón Court of First Instance dismissed, with prejudice, a lawsuit by DBR Dorado Owner LLC seeking to halt construction of the 171-room Casa Dorado hotel, a Tapestry Collection by Hilton project developed by The Dawn Hotel at Dorado LLC. DBR had argued the project violated land-use restrictions barring lodging facilities and buildings over two stories, but the court found DBR had known of the development since 2020 and waited more than five years to challenge it.",
-      significance: "The ruling shows how laches and delay doctrines can defeat a restrictive-covenant or land-use challenge regardless of its substantive merit, a risk relevant to any commercial landowner holding enforcement rights over a neighboring parcel under a recorded master declaration or covenant. Developers in resort and mixed-use markets facing a dormant but plausible restrictive-rights claim from a neighboring owner can draw on the same delay defense if that owner waits years to object while construction proceeds.",
+      summary: "The Bayamón Court of First Instance dismissed with prejudice a lawsuit by DBR Dorado Owner LLC seeking to halt construction of Casa Dorado, a 171-room hotel in Dorado being built under Hilton's Tapestry Collection brand, El Nuevo Día reported on October 6, 2026. DBR, which owns land where facilities of the Dorado Beach Resort and Ritz-Carlton Reserve are located, argued that deed restrictions on the site bar non-residential development and buildings over two stories. The judge concluded DBR had known of the development since 2020 and waited more than five years to challenge the restrictions.",
+      significance: "The ruling turned on DBR's delay rather than on what the deed restrictions allow, so their meaning was left undecided. For owners holding rights under recorded restrictions, it shows that waiting years while a neighbor builds can end a challenge.",
       body: [
-        "A Puerto Rico trial court has dismissed, with prejudice, a lawsuit that sought to halt construction of a 171-room hotel in Dorado on the grounds that the project violated land-use restrictions governing the surrounding development. The ruling, entered by the Bayamón Court of First Instance and reported October 6, 2026, closes out, at least at the trial level, a dispute that pitted one commercial property owner against a competing hotel developer over restrictive conditions recorded against a shared parcel of land, and offers a pointed reminder to commercial landowners that the right to enforce land-use restrictions can expire long before the underlying document does.",
-        "The plaintiff, DBR Dorado Owner LLC, which holds the land underlying the Dorado Beach Resort complex, sued to stop construction of the Casa Dorado project, a 171-room hotel operating under Hilton's Tapestry Collection brand and developed by The Dawn Hotel at Dorado LLC. DBR's theory was straightforward: in a notice to its own residents and in its pleadings, the company asserted that land-use restrictions applicable to the site barred lodging facilities altogether and capped any structure at two stories. A 171-room hotel, DBR argued, exceeded both limits, and DBR said it had never been asked to evaluate or approve the project's plans.",
-        "The Dawn, for its part, framed the stakes in stark financial terms, telling the court that DBR's claim put a $48 million investment and hundreds of construction and hospitality jobs at risk. The company asked the Bayamón court to dismiss the suit outright rather than litigate the merits of the land-use restrictions, and the court agreed, but not on the substantive question of what the restrictions actually permit. Instead, the court's dismissal turned on timing: the judge found that DBR had been aware of the Casa Dorado development since 2020, yet waited more than five years to bring a legal challenge to it. By the time DBR sued, in the court's assessment, the delay had itself become fatal to the claim, and the dismissal was entered with prejudice, foreclosing DBR from refiling the same claim. Press accounts indicate the hotel, already substantially built out by the time of the ruling, remains on track to open during Thanksgiving week in 2027.",
-        "For commercial real estate owners and developers, the decision is a useful illustration of how delay doctrines, laches, waiver, and analogous timeliness defenses operate independently of the underlying merits of a land-use or restrictive-covenant dispute. A restriction can be real, specific, and even plainly violated on its face, and a challenge to it can still fail if the party seeking to enforce it sat on its rights while the opposing party invested capital and broke ground in reliance on the status quo. The case also underscores that in resort and hospitality markets, where adjacent landowners frequently operate under decades-old master declarations negotiated long before any particular project was contemplated, disputes over what those documents actually permit often surface only after a competing project is well underway.",
-        "The practical upshot cuts both ways. Commercial landowners who hold enforcement rights under restrictive covenants, deed restrictions, or land-use agreements should treat any competing development they believe violates those terms as requiring prompt action, sending objection notices and, if necessary, filing suit well before a project reaches substantial completion, since years of visible inaction can support a laches-based dismissal regardless of the covenant's substantive merits. Developers facing a neighbor with plausible but dormant restrictive rights should document that neighbor's actual or constructive knowledge of the project from its earliest stages, since that record becomes the foundation of a delay defense if litigation follows later, and parties on both sides of recorded land-use restrictions in multi-owner developments should periodically reassess whether those restrictions remain enforceable against current development plans rather than assuming a decades-old document will be read and enforced exactly as written whenever a dispute eventually arises."
+        "The Bayamón Court of First Instance has dismissed with prejudice a lawsuit that sought to stop construction of Casa Dorado, a 171-room hotel in Dorado, Puerto Rico, El Nuevo Día reported on October 6, 2026. The judge concluded that the plaintiff, DBR Dorado Owner LLC, had been aware of the development since 2020 and waited more than five years to challenge the restrictive conditions. The hotel will operate under Hilton's Tapestry Collection brand and is expected to open during Thanksgiving week in 2027.",
+        "DBR, which owns land where facilities of the Dorado Beach Resort and the Ritz-Carlton Reserve are located, filed suit on July 22, 2026 against the developer's companies, The Dawn Hotel at Dorado LLC and Paseo San Antonio Inc., and the individual who signed the original deeds, NotiCel reported. Earlier coverage described the project as a Hilton Garden Inn: a seven-story, 171-room hotel with 17,500 square feet of commercial space and a 56-room senior care building. DBR argued that 1989 and 1995 deed restrictions bar non-residential development and buildings over two stories, and that a 2025 deed releasing the land from those conditions required the consent of neighboring owners. It sought an injunction halting construction and ordering demolition of what had been built.",
+        "The Dawn asked the court in August to dismiss the case, arguing the claim put $48 million and hundreds of jobs at risk, El Nuevo Día reported. According to NotiCel, the project's financing includes $18.4 million in federal recovery funds awarded by Puerto Rico's Department of Housing and $30 million from a group of 15 credit unions. Reports did not say whether DBR plans to appeal."
       ],
       judge: null,
       propertyType: "Hospitality",
       parties: [
         { name: "DBR Dorado Owner LLC", role: "Plaintiff" },
-        { name: "The Dawn Hotel at Dorado LLC", role: "Defendant" }
+        { name: "The Dawn Hotel at Dorado LLC", role: "Defendant" },
+        { name: "Paseo San Antonio Inc.", role: "Defendant" }
       ],
       tags: ["hotel-development", "land-use-restrictions", "puerto-rico", "hilton", "laches"],
       timeline: [
-        { when: "2020", label: "DBR Dorado Owner LLC becomes aware of the Casa Dorado hotel development" },
-        { when: "August 2026", label: "The Dawn Hotel at Dorado LLC moves to dismiss DBR's suit seeking to halt construction" },
-        { when: "October 6, 2026", label: "Bayamón Court of First Instance dismisses DBR's suit with prejudice on delay grounds", current: true }
+        { when: "2020", label: "DBR Dorado Owner LLC becomes aware of the hotel development, according to the court" },
+        { when: "July 22, 2026", label: "DBR sues to halt construction and seeks demolition of the structures" },
+        { when: "August 2026", label: "The Dawn Hotel at Dorado LLC moves to dismiss" },
+        { when: "October 6, 2026", label: "El Nuevo Día reports the Bayamón court dismissed DBR's suit with prejudice over its delay", current: true }
       ]
     },
     {
@@ -7557,13 +7522,13 @@ const RELAW_DATA = {
     {
       id: "live-262",
       seoTitle: "Frederick County Data Center Moratorium Suit (Quantum Maryland)",
-      seoDescription: "Catellus-managed Quantum Maryland sued Frederick County to void a data center moratorium stalling its Frederick Digital Campus on the former Eastalco site.",
+      seoDescription: "Catellus-managed Quantum Maryland sued Frederick County to void a data center moratorium; a judge denied a restraining order and set a January 2027 hearing.",
       property: {"name": "Frederick Digital Campus", "state": "MD"},
       addedDate: "2026-10-13",
-      title: "Quantum Maryland LLC v. Frederick County: Catellus-Managed Developer Sues to Lift Data Center Moratorium on Former Eastalco Site",
-      brief: "Catellus-managed Quantum Maryland sued Frederick County to void an executive-order freeze on data center applications at the former Eastalco smelter site, saying a $500M+ land deal was derailed.",
+      title: "Quantum Maryland LLC v. Frederick County (Data Center Moratorium Suit Over Former Eastalco Site)",
+      brief: "Catellus-managed Quantum Maryland sued Frederick County to void a freeze on new data center applications; a judge denied an emergency restraining order and set a January hearing, the News-Post reported.",
       category: "zoning-land-use",
-      status: "filed",
+      status: "pending",
       date: "2026-10-08",
       jurisdiction: "Circuit Court for Frederick County, Maryland",
       state: "MD",
@@ -7571,14 +7536,13 @@ const RELAW_DATA = {
       source: "live",
       sourceUrl: "https://www.fredericknewspost.com/news/continuing_coverage/data_centers/data-center-developer-sues-frederick-county-over-moratorium/article_72bc73fc-8a81-5839-9b98-9a686c198167.html",
       propertyType: "Data Center",
-      summary: "Quantum Maryland LLC, the Catellus-managed master developer of the Frederick Digital Campus on the former Alcoa Eastalco smelter site near Adamstown, sued Frederick County, its Planning Commission and the county executive in Frederick County Circuit Court. The suit (Case No. C10CV26000874) challenges an executive-order freeze on new data center and substation applications that has now been extended to July 1, 2027. The developer asks the court to void the moratorium, let its applications proceed and award damages.",
-      significance: "This is one of the first data center moratorium suits to attack the moratorium as an act beyond the executive's power rather than only as a vested-rights or takings problem: the developer argues that zoning authority sits with the county council under the charter, and the council had already adopted a data center zoning ordinance that survived a referendum challenge. The case also puts a lost land transaction reported at more than $500 million in play, and names the county executive personally, which raises the stakes for local officials who pause permitting while campaigning. Owners and lenders of large industrial and digital-infrastructure sites in Maryland and elsewhere should watch how the court treats an executive order that suspends a council-adopted zoning scheme.",
+      summary: "Quantum Maryland LLC, managed by Catellus Maryland, the master developer of the Frederick Digital Campus near Adamstown, sued Frederick County, County Executive Jessica Fitzwater and the county Planning Commission in Frederick County Circuit Court on October 8, 2026, the Frederick News-Post reported. The suit challenges an executive-order pause on new data center and substation applications, later extended to July 1, 2027, and asks the court to overturn it, let Quantum's applications proceed and award damages. Specially assigned Judge James Bonifant denied Quantum's emergency motion for a temporary restraining order in October and set a January 2027 hearing on a motion to dismiss and a preliminary injunction.",
+      significance: "The case tests whether a county executive can pause applications under zoning legislation the county council adopted, which Quantum frames as a question of charter authority. The county's argument that a moratorium by the incoming council could make the suit moot may shape how far the case goes.",
       body: [
-        "Quantum Maryland LLC, which is managed by Catellus Maryland, filed suit on Thursday, October 8, 2026, in the Circuit Court for Frederick County. The defendants are Frederick County, the Frederick County Planning Commission and the county executive, who is named in both her official and individual capacities. Local coverage gives the case number as C10CV26000874. Catellus is the master developer of the Frederick Digital Campus, a redevelopment of the former Alcoa Eastalco aluminum smelting property near Adamstown.",
-        "The dispute follows a fast sequence of events this year. On June 30, 2026, Maryland's highest court held that the county's data center zoning ordinance could not be put to voters by referendum, even though opponents had gathered more than 21,000 certified signatures. The next day, July 1, the county executive signed an executive order pausing the acceptance and processing of new applications for critical digital infrastructure facilities and substations through December 31, 2026. The pause covers new applications only, not projects that were already approved. On September 1 the executive announced a proposed community benefits agreement with Quantum valued at roughly $110 million, including school renovation and park funding. On September 14 she rejected that agreement and extended the moratorium to July 1, 2027.",
-        "The complaint's central legal theory is that the moratorium is ultra vires. Quantum argues that under the county charter the county council, not the executive, controls zoning, and that the executive repeatedly froze applications despite zoning legislation the council had approved. Quantum also alleges that the freeze was driven by electoral politics rather than land-use planning, relying on a sworn affidavit from a Catellus executive describing a June 29 conversation with a member of the county executive's staff, and on an alleged September statement to a campaign donor. The developer says the county's actions derailed a land transaction valued at more than $500 million that had been expected to close in July. One report says the complaint pleads compensatory damages in excess of $75,000; the larger figure is the value of the lost deal, and no court has found any liability.",
-        "Quantum asks the court to overturn the moratorium, allow its development applications to move forward and award financial damages. The county's communications office said it does not comment on pending litigation. The county executive, in a public statement, called the complaint full of factual errors and said she would fight it and defend her authority to impose the pause. Quantum said it remains open to discussions with the county but wants the court to require the county to follow its own laws. No judge has been reported and no hearing date has been set.",
-        "For owners, developers and lenders on large industrial and data center sites, the case is a useful test of a different line of attack on moratoria. Most recent challenges, in Missouri, Michigan, Tennessee and North Carolina, have leaned on vested rights, state zoning-enabling statutes or equal protection. Here the developer argues the wrong official acted at all. If that argument succeeds, executive-order moratoria in charter counties become much easier to challenge; if it fails, sponsors should expect more executive-level pauses timed around elections. Parties negotiating community benefits agreements should also note that a publicly announced package can be withdrawn without a binding contract, so any deal that underpins financing or a land closing should be documented and approved by the body that holds zoning power before capital is committed."
+        "Quantum Maryland LLC, which is managed by Catellus Maryland, filed suit on Thursday, October 8, 2026, in Frederick County Circuit Court against Frederick County, County Executive Jessica Fitzwater and the Frederick County Planning Commission, the Frederick News-Post reported. Technical.ly gave the case number as C10CV26000874. Catellus is the master developer of the Frederick Digital Campus, a redevelopment of the former Alcoa Eastalco aluminum smelting site near Adamstown.",
+        "According to the News-Post, on June 30, 2026, the Maryland Supreme Court upheld a ruling that the county's data center zoning ordinance was not subject to referendum, though a referendum committee had gathered more than 21,000 signatures. The next day Fitzwater signed an executive order pausing new applications for critical digital infrastructure facilities and substations through December 31, 2026; it did not apply to projects that already had approvals. A proposed agreement dated September 1 would have provided about $110 million in community benefits in exchange for protections against future land-use changes, but Fitzwater rejected it on September 14 and extended the pause to July 1, 2027.",
+        "The complaint alleges Fitzwater exceeded her authority because zoning power belongs to the County Council under the county charter, and that the freeze was driven by electoral politics. It relies on a Catellus executive's affidavit describing a June 29 conversation in which, he says, Fitzwater's chief of staff said she needed to address the data center issue to \"get past the election,\" and on an alleged September statement to a campaign donor. Quantum says the county's actions disrupted a land transaction worth more than $500 million that was expected to close in July; Technical.ly reported that the complaint seeks compensatory damages exceeding $75,000. The county said it does not comment on ongoing litigation. Fitzwater said in a Facebook post that the suit \"is rife with factual errors and outright lies\" and that she would fight it, and her chief of staff noted that he is not a named party.",
+        "Judge James Bonifant, a retired Montgomery County judge specially assigned to the case, denied Quantum's emergency motion for a temporary restraining order in late October, writing that Quantum had not shown that \"immediate, substantial, and irreparable harm will result before a full adversary hearing can be held,\" the News-Post reported. On November 10 the court set January 28 and 29, 2027 for a hearing on a motion to dismiss and the preliminary injunction, declining Quantum's request for a December date. Counsel for the county told the judge that the new County Council, to be sworn in December 7, may adopt its own moratorium, which the county said would make the suit moot; Quantum's counsel disagreed."
       ],
       tags: ["data center", "moratorium", "maryland", "ultra vires", "brownfield redevelopment"],
       parties: [
@@ -7586,14 +7550,17 @@ const RELAW_DATA = {
         { name: "Frederick County", role: "Defendant" },
         { name: "Frederick County Planning Commission", role: "Defendant" }
       ],
-      judge: null,
+      judge: "James Bonifant",
       amountUsd: null,
       timeline: [
-        { when: "June 30, 2026", label: "Maryland's highest court rules the county's data center zoning ordinance cannot go to referendum" },
-        { when: "July 1, 2026", label: "County executive signs order pausing new data center and substation applications through Dec. 31, 2026" },
-        { when: "September 1, 2026", label: "Proposed ~$110 million community benefits agreement with Quantum announced" },
-        { when: "September 14, 2026", label: "Agreement rejected; moratorium extended to July 1, 2027" },
-        { when: "October 8, 2026", label: "Quantum Maryland LLC files suit in Frederick County Circuit Court", current: true }
+        { when: "June 30, 2026", label: "Maryland Supreme Court upholds a ruling that the county's data center zoning ordinance is not subject to referendum" },
+        { when: "July 1, 2026", label: "County executive signs an order pausing new data center and substation applications through Dec. 31, 2026" },
+        { when: "September 1, 2026", label: "Proposed agreement with about $110M in community benefits is dated" },
+        { when: "September 14, 2026", label: "County executive rejects the agreement and extends the pause to July 1, 2027" },
+        { when: "October 8, 2026", label: "Quantum Maryland LLC sues in Frederick County Circuit Court" },
+        { when: "October 2026", label: "Judge James Bonifant denies Quantum's emergency motion for a temporary restraining order" },
+        { when: "November 10, 2026", label: "Court sets a January hearing on a motion to dismiss and a preliminary injunction", current: true },
+        { when: "January 28-29, 2027", label: "Scheduled hearing on the motion to dismiss and preliminary injunction", upcoming: true }
       ]
     },
     {
@@ -10490,11 +10457,11 @@ const RELAW_DATA = {
     },
     {
       id: "live-335",
-      seoTitle: "Goochland County Data Center Zoning Suit Hits Key Hearing",
-      seoDescription: "Four Goochland, Virginia residents' suit to void a data-center zoning overlay reached a key hearing in Goochland Circuit Court in October 2026.",
+      seoTitle: "Goochland Data Center Overlay Suit: Judge Weighs Dismissal",
+      seoDescription: "A Goochland, Virginia judge took under advisement the county's motion to dismiss four residents' suit over a 4,400-acre data center zoning overlay.",
       addedDate: "2026-10-26",
-      title: "Goochland County's Data Center Zoning Overlay Faces Key Court Test",
-      brief: "Four Goochland, Virginia residents suing to void a zoning overlay that allows data centers in the West Creek business park reached a pivotal hearing in Goochland Circuit Court.",
+      title: "Goochland County Data Center Overlay Suit: Judge Weighs Dismissal",
+      brief: "A Goochland County, Virginia judge took under advisement the county's bid to dismiss four residents' suit over a data center zoning overlay after an Oct. 20 hearing, Richmond BizSense reported.",
       category: "zoning-land-use",
       status: "pending",
       date: "2026-10-20",
@@ -10503,15 +10470,12 @@ const RELAW_DATA = {
       amount: "4,400-acre Technology Overlay District; $250,000 county legal defense budget",
       source: "live",
       sourceUrl: "https://www.dailysignal.com/2026/10/17/goochland-data-center-court/",
-      summary: "Four Goochland County, Virginia property owners sued the county, its Board of Supervisors, and its Planning Commission in December 2025 to void the Technology Overlay District (TOD), a roughly 4,400-acre zoning overlay -- about 3,500 acres of it inside the West Creek Business Park -- that supervisors approved 4-1 in November 2025 to allow data centers, pharmaceutical companies, and biomedical researchers to locate there by right. The case reached a hearing on the county's demurrer in Goochland Circuit Court on October 20, 2026, with county officials expressing confidence the suit will be dismissed; no ruling has been reported as of this writing.",
-      significance: "The case tests whether a data-center zoning overlay can be unwound in court over alleged procedural defects in its adoption -- improperly noticed affected properties and same-night substantive changes to the measure -- rather than a challenge to the land use itself. A ruling against the county would be a significant precedent for residents and localities nationally contesting the by-right overlay zoning that has become a common vehicle for siting data centers.",
+      summary: "Four Goochland County, Virginia property owners sued the county, its Board of Supervisors and its Planning Commission in December 2025 to void the Technology Overlay District, a roughly 4,400-acre overlay approved in November 2025 that allows data centers and other uses by right in most of the district. At an October 20, 2026 hearing on the county's demurrer, Circuit Judge Timothy Sanner took the motion to dismiss under advisement, Richmond BizSense reported. The plaintiffs dropped four more claims at the hearing; the county said three of the nine original claims remain, including that it violated advertising, notice and public hearing requirements.",
+      significance: "The case tests whether a data center zoning overlay can be undone over how it was noticed and adopted, rather than over the land use itself. The county's argument that the residents have not shown particularized harm could end the case before the merits are reached.",
       body: [
-        "A lawsuit that has worked its way through Goochland County, Virginia's circuit court since December 2025 reached a significant hearing on October 20, 2026, putting the county's process for approving a data-center-friendly zoning overlay to its most direct test yet. The case, filed by four Goochland property owners against the county, its Board of Supervisors, and its Planning Commission, asks the court to void the Technology Overlay District that supervisors approved in a 4-1 vote in November 2025 -- a zoning measure covering roughly 4,400 acres, about 3,500 of them inside the county's West Creek Business Park, that allows data centers, pharmaceutical companies, and biomedical researchers to locate there by right.",
-        "The dispute matters beyond Goochland's borders because it tests, in a Virginia courtroom, a legal theory that has become increasingly common as communities push back against data-center construction: that a locality's zoning process itself, not just the land use it ultimately authorizes, can be unwound in court if the locality cuts procedural corners on the way to a contentious vote.",
-        "The plaintiffs' core claim is that Goochland County violated Virginia law in the process it used to adopt the TOD. According to reporting on the case, the plaintiffs allege that county officials failed to properly identify all of the properties affected by the overlay before the board's vote, and that the ordinance supervisors ultimately adopted differed from the version described in the public notices that preceded it. The plaintiffs have also pointed to last-minute changes made to the measure the same night the board voted to approve it.",
-        "The litigation has already produced one notable procedural skirmish. The county initially sought to have the full legislative record underlying the TOD vote, reported at roughly 8,500 pages, entered into the case, arguing it could not know which portions might become relevant until the plaintiffs' specific objections were clarified. In late May 2026, Circuit Court Judge Timothy Sanner rejected that approach and instead directed the county to produce a narrower, revised set of TOD-related records. The county separately set aside a $250,000 legal defense budget to litigate the case.",
-        "The case returned to court on October 20, 2026, for a hearing on the county's demurrer, the Virginia procedural vehicle roughly equivalent to a motion to dismiss. County officials have expressed public confidence the suit will be dismissed, with some reporting suggesting a ruling could come as soon as the hearing itself; no decision has been reported as of this writing.",
-        "The case is a reminder to commercial real estate owners and developers that a zoning approval's practical finality is not assured the moment a board votes yes: an enactment remains vulnerable to a procedural challenge for as long as a locality's own notice-and-process requirements were arguably not followed, and such challenges can take a year or more to resolve. Data center developers who have increasingly relied on overlay districts to avoid case-by-case special-use fights should treat an overlay's procedural pedigree as a live front in community opposition strategy, and localities adopting similar overlays should make sure the adopted text matches what public notices described and avoid substantive last-night amendments -- the cost of litigating that question, as Goochland's quarter-million-dollar defense budget and year-plus of docket time show, can rival the cost of getting the process right the first time. The demurrer ruling expected to follow the October 20 hearing will be an early signal of how Virginia courts treat this kind of procedural challenge to data-center zoning, worth watching for owners and developers with similar overlay-dependent projects elsewhere in the state."
+        "Four Goochland County property owners filed suit in Goochland Circuit Court on December 4, 2025, against the county, its Board of Supervisors and its Planning Commission, seeking to void the Technology Overlay District (TOD) that supervisors approved in November 2025, Virginia Lawyers Weekly reported; one supervisor cast the lone vote against it. According to Richmond BizSense, the overlay spans roughly 4,400 acres along Route 288, about 3,500 of them in the West Creek Business Park, and allows uses such as pharmaceutical plants, biomedical research and data centers by right; in the 900-acre western portion, data centers need a conditional use permit.",
+        "The suit alleges that before the vote, county officials did not properly identify the properties that would be affected and adopted a measure that differed from what appeared in published notices, Virginia Lawyers Weekly reported. It asks that the ordinance be vacated and that the county pay the plaintiffs' legal fees. In February 2026, supervisors approved $250,000 for the county's defense by outside counsel. In May, Judge Timothy Sanner ordered the county to pare down the roughly 8,500 pages of documents it had filed in response to the suit.",
+        "At the three-hour hearing on October 20, 2026, on the county's demurrer, the plaintiffs dropped four more claims; the county said that left three of the nine original claims. Counsel for the county disputed that the residents had shown particularized harm from the overlay, while the plaintiffs' opposition brief said they are nearby property owners facing lower property values, noise, pollution and traffic, BizSense reported. Judge Sanner took the motion under advisement without setting a timeline. Before the hearing, the county said it was confident the suit would be dismissed, the Daily Signal reported, and County Administrator Jeremy Raley told WTVR that the overlay added buffers, setbacks and noise limits to protect residents."
       ],
       tags: ["data center", "zoning", "virginia", "west creek", "land use"],
       parties: [
@@ -10519,13 +10483,14 @@ const RELAW_DATA = {
         { name: "Goochland County Board of Supervisors", role: "Defendant" },
         { name: "Goochland County Planning Commission", role: "Defendant" }
       ],
-      judge: null,
+      judge: "Timothy Sanner",
       amountUsd: null,
       timeline: [
-        { when: "November 2025", label: "Goochland County Board of Supervisors approves the Technology Overlay District in a 4-1 vote" },
-        { when: "December 2025", label: "Four Goochland County property owners sue to void the TOD" },
-        { when: "May 2026", label: "Circuit Court Judge Timothy Sanner rejects the county's bid to enter the full 8,500-page legislative record, ordering a narrower revised set instead" },
-        { when: "October 20, 2026", label: "Case reaches a hearing in Goochland Circuit Court on the county's demurrer; county officials express confidence the suit will be dismissed", current: true }
+        { when: "November 2025", label: "Goochland Board of Supervisors approves the Technology Overlay District, with one supervisor voting no" },
+        { when: "December 4, 2025", label: "Four Goochland property owners sue to void the TOD" },
+        { when: "February 2026", label: "Supervisors approve $250,000 for the county's legal defense" },
+        { when: "May 2026", label: "Judge Timothy Sanner orders the county to pare down the 8,500 pages of documents it filed" },
+        { when: "October 20, 2026", label: "Demurrer hearing; plaintiffs drop four more claims and the judge takes the motion to dismiss under advisement", current: true }
       ]
     },
     {
@@ -10611,41 +10576,52 @@ const RELAW_DATA = {
     {
       id: "live-338",
       seoTitle: "Thor Equities Sues Urbana, Ohio Over Data Center Moratorium",
-      seoDescription: "Thor Equities sued Urbana, Ohio in federal court after the city passed a moratorium and rezoned its land, blocking a $1 billion, 460,000-SF data center.",
+      seoDescription: "Thor Equities sued Urbana, Ohio in federal court after the city paused data centers and rezoned its land, stalling a planned $1 billion, 460,000-SF data center.",
       addedDate: "2026-10-27",
-      property: { name: "Urbana Technology Hub", city: "Urbana", state: "OH" },
-      title: "Thor Equities, LLC v. City of Urbana, Ohio (Data Center Moratorium and Targeted Rezoning Suit)",
-      brief: "Thor Equities sued Urbana, Ohio in federal court, saying the city passed an emergency moratorium and rezoned its land to block a $1 billion, 460,000-square-foot data center after Thor had already spent $19.6 million on the project.",
+      property: {"name": "Urbana Technology Hub", "city": "Urbana", "state": "OH"},
+      title: "Thor Equities, LLC v. City of Urbana, Ohio (Data Center Moratorium and Rezoning Suit)",
+      brief: "Thor Equities and four affiliates sued Urbana, Ohio in federal court after the city paused data center development and rezoned Thor's land; Thor says it spent $19.6 million on the project.",
       category: "zoning-land-use",
-      status: "filed",
+      status: "pending",
       date: "2026-06-19",
       jurisdiction: "U.S. District Court for the Southern District of Ohio",
       state: "OH",
       amount: "$1 billion proposed data center project; Thor says it spent $19.6 million in preliminary costs before the moratorium",
       source: "live",
       sourceUrl: "https://www.datacenterdynamics.com/en/news/thor-equities-files-lawsuit-against-ohios-urbana-after-data-center-moratorium-disrupts-project/",
-      summary: "Thor Equities, LLC sued the City of Urbana, Ohio, its city council, and its building and zoning appeals board in the U.S. District Court for the Southern District of Ohio on June 19, 2026, after the city adopted a 12-month emergency moratorium on data-center development and then rezoned Thor's own parcel to exclude data centers from the M-1 manufacturing district that had previously permitted them. Thor's complaint alleges the moratorium and the city's handling of its administrative appeal violated Ohio law, Urbana's city charter, the zoning code as it stood when Thor applied, and federal due process protections.",
-      significance: "The case is one of the sharpest tests yet of vested-rights protection against a municipality's sudden reversal on a specific, already-pending data-center application, distinguishing it from more generic, districtwide moratorium challenges elsewhere. Developers weighing large site-plan submissions in jurisdictions facing resident opposition to data centers, and municipalities considering a moratorium targeted at a specific pending project, should watch how the Southern District of Ohio resolves the due-process and vested-rights claims here.",
+      summary: "Thor Equities, LLC and four affiliated property companies sued the City of Urbana, Ohio, its City Council and its Building and Zoning Appeals Board in the U.S. District Court for the Southern District of Ohio on June 19, 2026, the court docket shows. DatacenterDynamics reported that the city passed a 12-month emergency moratorium on data centers in March and in June rezoned Thor's land as unsuitable for them, after Thor had submitted a site plan in February for a $1 billion, 460,000-square-foot facility. The city has answered the complaint, and the court sent the case to mediation in September.",
+      significance: "The suit tests what protection a developer has when a city changes its rules after a complete application is filed. Nearby landowners have asked to join the case and have objected to a consent decree, so any resolution between Thor and the city may face a challenge of its own.",
       body: [
-        "A proposal to build a $1 billion, 460,000-square-foot data center on the edge of Urbana, Ohio has turned into a federal civil rights and zoning fight after the city passed an emergency moratorium and rezoned the developer's own land out from under its pending application. Thor Equities, LLC, the New York-based real estate investment and development firm led by Joseph Sitt, sued the City of Urbana, its city council, and its building and zoning appeals board in the U.S. District Court for the Southern District of Ohio on June 19, 2026.",
-        "Thor's Urbana Technology Hub was planned for a site near the intersection of Ohio 55 and U.S. 68, close to an existing Rittal manufacturing plant, on land zoned M-1 for manufacturing use, a classification that at the time permitted data centers as of right. Thor submitted a complete site plan for the facility in February 2026 and says it had already spent $19.6 million of its own money on preliminary engineering, environmental, and site-development work in reliance on the existing zoning.",
-        "Urbana's city council responded in March 2026 by adopting a 12-month emergency moratorium on new data center development, which Thor's complaint alleges was timed specifically to intercept its pending application before it could be approved under the zoning rules then in effect. The council followed that by rezoning Thor's parcel as unsuitable for data center use and amending the M-1 zoning code to strip data centers of their previously permitted status in that district. Thor alleges both actions violated Ohio law, Urbana's own city charter, the zoning code as it stood when Thor applied, and federal constitutional due process protections.",
-        "The dispute has not stayed confined to the courtroom. Public meetings in Urbana have drawn large, vocal crowds, and a recall effort against Urbana's mayor, Bill Bean, has gathered momentum, reflecting how politically charged the underlying land-use question has become even as the legal fight over vested rights and procedural fairness plays out in federal court.",
-        "Urbana is one of a growing number of jurisdictions, including Wixom, Michigan, Cave City, Kentucky, DeKalb County, Georgia, and Chatham County, North Carolina, facing developer suits over moratoria or rezonings adopted in response to resident opposition to data center campuses. What distinguishes Thor's case is the sequence: it says it filed a complete application before the moratorium existed, and the city then permanently rezoned its specific parcel rather than adopting a districtwide pause, giving Thor a stronger argument that the city targeted its project rather than a generally applicable policy. For developers, the case is a reminder that zoning compliance at the time of filing does not guarantee insulation from a later policy reversal once a project becomes locally controversial, and for municipalities it illustrates the legal exposure of a moratorium a court could find was timed and targeted to defeat one specific, already-pending application rather than adopted as a neutral, generally applicable rule."
+        "Thor Equities, LLC, joined by Urbana Owner LLC, Urbana Owner I LLC, Urbana Owner II LLC and Highland55 Investments LLC, filed a civil rights complaint under 42 U.S.C. 1983 on June 19, 2026, in the U.S. District Court for the Southern District of Ohio against the City of Urbana, the Urbana City Council and the city's Building and Zoning Appeals Board, according to the federal docket. The case, No. 3:26-cv-00196, is assigned to U.S. District Judge Michael J. Newman.",
+        "According to DatacenterDynamics, Thor says it worked with city officials for more than a year, assembled about 230 acres and submitted a complete site plan in February 2026 for a $1 billion, 460,000-square-foot data center that would use closed-loop cooling, and that it spent $19.6 million of its own funds on preliminary work. The city passed a 12-month \"emergency moratorium\" in March and in June rezoned Thor's land as unsuitable for data centers. \"Our plans were rejected on grounds that don't match the city's own zoning code, and the council passed an emergency moratorium to pause data centers,\" Thor global COO Melissa Gliatta said in a statement on the project website.",
+        "Thor also said the moratorium came amid what it called exaggerated claims about water use, noise and health effects, and that it hopes to resolve the matter fairly. DCD did not report a response from the city. The city filed an answer on July 14, 2026, and the court referred the case to mediation before a magistrate judge, with sessions set for September. On September 18, a group of nearby residents and two local companies moved to intervene; Thor opposed the motion and the city filed a response on October 9, and on October 16 the proposed intervenors filed a notice objecting to a consent decree."
       ],
       tags: ["data center", "zoning", "moratorium", "vested rights", "ohio"],
       parties: [
         { name: "Thor Equities, LLC", role: "Plaintiff" },
-        { name: "City of Urbana, Ohio", role: "Defendant" }
+        { name: "Urbana Owner LLC", role: "Plaintiff" },
+        { name: "Urbana Owner I LLC", role: "Plaintiff" },
+        { name: "Urbana Owner II LLC", role: "Plaintiff" },
+        { name: "Highland55 Investments LLC", role: "Plaintiff" },
+        { name: "City of Urbana, Ohio", role: "Defendant" },
+        { name: "Urbana City Council", role: "Defendant" },
+        { name: "Urbana Building and Zoning Appeals Board", role: "Defendant" }
       ],
-      judge: null,
+      judge: "Michael J. Newman",
       amountUsd: 19600000,
       amountBasis: "other",
       timeline: [
-        { when: "February 2026", label: "Thor Equities submits a complete site plan for the Urbana Technology Hub" },
-        { when: "March 2026", label: "Urbana City Council adopts a 12-month emergency moratorium on data-center development" },
-        { when: "June 19, 2026", label: "Thor Equities sues the City of Urbana in the U.S. District Court for the Southern District of Ohio", current: true }
-      ]
+        { when: "February 2026", label: "Thor Equities submits a complete site plan for the Urbana data center" },
+        { when: "March 2026", label: "Urbana adopts a 12-month emergency moratorium on data centers" },
+        { when: "June 2026", label: "City rezones Thor's land as unsuitable for data centers" },
+        { when: "June 19, 2026", label: "Thor and four affiliates sue in the U.S. District Court for the Southern District of Ohio" },
+        { when: "July 14, 2026", label: "City files its answer" },
+        { when: "September 2026", label: "Court-conducted mediation before a magistrate judge" },
+        { when: "September 18, 2026", label: "Nearby landowners move to intervene" },
+        { when: "October 16, 2026", label: "Proposed intervenors file a notice objecting to a consent decree", current: true }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/73509496/thor-equities-llc-v-city-of-urbana-ohio/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-339",
