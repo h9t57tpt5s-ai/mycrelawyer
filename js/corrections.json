@@ -4,6 +4,96 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-304",
+   "caseId": "live-304",
+   "subject": "Straus Group v. Antheus Capital (Lake Meadows Investor Buyout Dispute)",
+   "kind": "Corrected: description, party",
+   "was": "the New York-based owner of the 1,869-unit Lake Meadows apartment complex | A Chicago real estate investment group has sued",
+   "now": "Englewood, New Jersey-based Antheus Capital | Two affiliates of The Straus Group, a Fort Lee, New Jersey-based private investment office",
+   "basis": "Checked against the source article: Bisnow, Oct. 15, 2026 | Bisnow, Oct. 15, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-158",
+   "caseId": "live-158",
+   "subject": "Eagle Nest Investments, LLC v. Spencer (Pavilion Park Below-Market Land Sale & Breach of Fiduciary Duty Trial)",
+   "kind": "Corrected: figure",
+   "was": "a claimed shortfall of nearly $8.7 million between the two transactions combined | nearly 30% below claimed fair market value on the commercial parcel",
+   "now": "the alleged gaps total about $7.33 million ($6.94 million on the commercial parcel and $390,000 on the residential parcel) | figure removed (the $11.4 million price is about 38% below the alleged $18.34 million value)",
+   "basis": "Checked against the source article: Arithmetic on the sale prices and values reported by Business Record, Sept. 16, 2026 | Business Record, Sept. 16, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-066",
+   "caseId": "live-066",
+   "subject": "SITC Inc. v. Sarasota County (Live Local Act Zoning-Preemption Dispute)",
+   "kind": "Corrected: date, description, figure",
+   "was": "date 2026-08-25 (Judge Carroll hearing on the motion to dismiss) | a roughly 500-unit apartment proposal | Judge Hunter W. Carroll heard argument on the county's motion to dismiss the second complaint on August 25, and a non-jury trial in the lead SITC case is set for March 29, 2027 | SITC's suit ... alleges the policy shift violated Florida's open-meetings law",
+   "now": "Sitc filed suit May 20, 2026 | 540-unit apartment project | The Aug. 25 hearing and March 29, 2027 trial date are in the New Pope Holdco III case; Sitc's case had a Sept. 3 motions hearing and a trial set for Aug. 23, 2027 | Sitc alleges the county's five-step Live Local process violates the state law barring moratoriums and burdensome regulations in hurricane-affected areas; the lack-of-public-notice claim is in the Yeshua's Love and Curco suit",
+   "basis": "Checked against the source article: Business Observer, Sept. 2, 2026 | Business Observer, Sept. 2, 2026 | Business Observer, Sept. 2, 2026 | Business Observer, Sept. 2, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-172",
+   "caseId": "live-172",
+   "subject": "Schurman Family Company TIC v. Superior Court (Privette Doctrine Extended to Non-Hiring Landlord)",
+   "kind": "Corrected: description",
+   "was": "Verizon ... hired a general contractor to service that equipment ... he sued the warehouse owner directly",
+   "now": "Verizon hired L.D. Strobel as an independent contractor; the worker sued both Verizon and Schurman, and Verizon won summary judgment under Privette",
+   "basis": "Checked against the source article: Business Insurance, Aug. 28, 2026; opinion A174194 (CourtListener)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-333",
+   "caseId": "live-333",
+   "subject": "Industrial Park Center LLC v. Great Northern Insurance Co. (Arizona Fortuity-Doctrine Coverage Ruling)",
+   "kind": "Corrected: description",
+   "was": "the Ninth Circuit reversed that ruling",
+   "now": "the Ninth Circuit vacated the summary judgment, the denial of Mainspring's motion and the fee award, and remanded",
+   "basis": "Checked against the source article: Ninth Circuit memorandum, Nos. 24-4788 and 25-295, Oct. 16, 2026 (CourtListener)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-184",
+   "caseId": "live-184",
+   "subject": "Wells Fargo Foreclosure Auction of 100 Summer Street (Rockpoint, Boston)",
+   "kind": "Corrected: figure",
+   "was": "a 32-story, roughly 1.3-million-square-foot ... office tower",
+   "now": "1.1 million square feet",
+   "basis": "Checked against the source article: Boston Globe, Sept. 23, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-016",
+   "subject": "300 Biscayne Boulevard Way Condo Assn. v. Riverwalk East Developments (Aston Martin Residences Construction Defect Suit)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: 300 Biscayne Boulevard Way Condo Assn. v. Riverwalk East Developments (Aston Martin Residences Construction Defect Suit)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; Out of scope: a residential condominium owners' association (unit buyers in a 341-unit luxury condo tower) suing the developer and builders over defects in their building. This is residential (condo owners), not a commercial real estate dispute. Judgment call for the main session, but it fits 'condo"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-051",
+   "caseId": "live-051",
+   "subject": "Centre Square Receivership Sale Order (1500 Market Street, Philadelphia)",
+   "kind": "Corrected: date, description, figure",
+   "was": "the 1.76-million-square-foot twin-tower office complex | Court installs CBRE as receiver over the property (April 20, 2023) | overriding both rival bidders' objections",
+   "now": "2.2-million-square-foot two-tower complex | CBRE appointed receiver April 14, 2023 | CSC Coliving withdrew its challenge; the court denied Universal Group's motion to intervene, and Universal has appealed",
+   "basis": "Checked against the source article and court docket: Bisnow, Aug. 17, 2026 | CourtListener docket 2:23-cv-00146, ECF 20 | Bisnow; CourtListener docket ECF 103, 111, 119"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-050",
+   "caseId": "live-050",
+   "subject": "Worldwide Plaza Foreclosure Receivership (825 Eighth Avenue, Manhattan)",
+   "kind": "Corrected: date",
+   "was": "filed a foreclosure complaint on February 21",
+   "now": "sued to foreclose in February 2026 (exact day not confirmed)",
+   "basis": "Checked against the source article: Commercial Property Executive, Feb. 25, 2026, says the suits were filed 'late last week'; Feb. 21, 2026 was a Saturday"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "matter",
    "caseId": "live-160",
    "subject": "57th & 6th Ground LLC v. Carnegie House Tenants Corp. (Ground-Rent Arbitration Award Vacated for Arbitrator Non-Disclosure)",
