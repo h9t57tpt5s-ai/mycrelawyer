@@ -179,10 +179,10 @@ const RELAW_DATA = {
     {
       id: "live-004",
       seoTitle: "CoStar Lease-Data Antitrust Class Action Names CBRE, JLL, Cushman",
-      seoDescription: "Class action alleges CoStar was the hub of a rent price-fixing scheme with CBRE, JLL, Cushman & Wakefield, Colliers and Newmark as spokes.",
+      seoDescription: "A commercial tenant's proposed class action says CoStar and five big brokerages shared lease data to keep office, retail and industrial rents high.",
       addedDate: "2026-08-04",
       title: "FitFactariDC LLC v. CoStar Group, Inc. (CRE Lease-Data Hub-and-Spoke Antitrust Suit)",
-      brief: "A commercial tenant's proposed class action claims CoStar was the hub of a rent price-fixing conspiracy, with CBRE, JLL, Cushman & Wakefield, Colliers and Newmark as spokes.",
+      brief: "A commercial tenant's proposed class action claims CoStar was the hub of a scheme to fix office, retail and industrial rents, with CBRE, JLL, Cushman & Wakefield, Colliers and Newmark as the spokes.",
       category: "lease-disputes",
       status: "filed",
       date: "2026-06-12",
@@ -193,27 +193,30 @@ const RELAW_DATA = {
         { name: "CBRE Group, Inc.", role: "Defendant" },
         { name: "Jones Lang LaSalle Incorporated", role: "Defendant" },
         { name: "Cushman & Wakefield plc", role: "Defendant" },
-        { name: "Colliers International Group Inc.", role: "Defendant" },
         { name: "Colliers International USA, LLC", role: "Defendant" },
+        { name: "Colliers International Group Inc.", role: "Defendant (dismissed without prejudice Aug. 7, 2026)" },
         { name: "Newmark Group, Inc.", role: "Defendant" }
       ],
       judge: "Joan Humphrey Lefkow",
       amountUsd: null,
       state: "IL",
-      amount: "Putative nationwide class; 2015–2025 class period",
+      amount: "Proposed class action; no damages figure stated in the source",
       source: "live",
       sourceUrl: "https://therealdeal.com/national/2026/06/17/costar-hit-with-lawsuit-alleging-price-fixing-for-cre-rents/",
-      summary: "Commercial tenant FitFactariDC LLC filed a proposed class action alleging CoStar Group's lease-comparables platform served as the 'hub' of a Sherman Act price-fixing conspiracy, with CBRE, JLL, Cushman & Wakefield, Colliers, and Newmark as 'spokes' that traded non-public effective rents, concessions, and lease terms through the platform. The complaint claims each 1-point rise in CoStar's market share tracked a 0.3%-0.8% increase in rent per square foot across office, industrial, and retail leases from 2015-2025. An initial status hearing is set for August 19, 2026.",
-      significance: "Extends the RealPage-style hub-and-spoke theory from multifamily algorithmic pricing into commercial brokerage data-sharing, naming the industry's largest brokerages as defendants. If the theory survives a motion to dismiss, follow-on suits could sweep in landlords and owners whose brokers submitted lease data to CoStar, mirroring how RealPage litigation expanded to landlord-customers.",
+      summary: "Commercial tenant FitFactariDC LLC filed a proposed class action in the U.S. District Court for the Northern District of Illinois on June 12, 2026. It alleges that CoStar Group collected and shared sensitive lease data in a \"hub-and-spoke\" conspiracy with brokerages CBRE, JLL, Cushman & Wakefield, Colliers and Newmark, and that the tenant paid \"artificially inflated\" rent on a Denver lease as a result, The Real Deal reported, citing Bisnow. CoStar's general counsel called the suit \"frivolous.\" CoStar and the brokerages moved to dismiss on Aug. 17, 2026.",
+      significance: "The suit tries to carry the hub-and-spoke theory used against RealPage over apartment rents into commercial lease data shared through a comps platform. If it survives the motions to dismiss, brokers and owners that share lease terms through data services could face similar claims, so landlords and tenants should watch how the court treats the theory.",
       body: [
-        "FitFactariDC LLC's proposed nationwide class action accuses CoStar Group of operating the 'hub' of a Sherman Act price-fixing conspiracy, with five of the industry's largest brokerages — CBRE, JLL, Cushman & Wakefield, Colliers, and Newmark — cast as the 'spokes' allegedly trading non-public effective rents, concessions, and lease terms through CoStar's lease-comparables platform.",
-        "The complaint's central statistical claim is specific: it alleges that every one-point increase in CoStar's market share tracked a 0.3%–0.8% rise in rent per square foot across office, industrial, and retail leases over the 2015–2025 class period. An initial status hearing is scheduled for August 19, 2026, which will be an early signal of how the court views the theory at the pleadings stage.",
-        "The case is explicitly modeled on the hub-and-spoke framework that reshaped multifamily algorithmic-pricing litigation against RealPage, just applied to commercial lease data instead of residential rents. If it survives a motion to dismiss, the RealPage litigation's own trajectory — where suits expanded from the software vendor to landlord-customers — suggests owners whose brokers submitted lease data to CoStar could become a second wave of defendants."
+        "FitFactariDC LLC, a commercial tenant, sued CoStar Group and five large brokerages, CBRE, Colliers, Cushman & Wakefield, JLL and Newmark, in the U.S. District Court for the Northern District of Illinois on June 12, 2026. The proposed class action says CoStar gathered and passed along sensitive lease data, while the brokerages supplied that data and got access to competitors' information in return. The tenant says the arrangement made it pay \"artificially inflated\" rent on a lease in Denver, The Real Deal reported, citing Bisnow.",
+        "According to the complaint, seeing rivals' final lease terms almost as soon as they were signed let the defendants keep asking rents in step, give smaller concessions and hold firm in negotiations with tenants. CoStar general counsel Gene Boxer called the lawsuit \"frivolous\" and said the company expected a \"swift and complete victory,\" according to the report. The other defendants declined to comment or did not respond.",
+        "The court docket shows the tenant voluntarily dropped Colliers International Group Inc. on Aug. 7, 2026; its U.S. unit, Colliers International USA, LLC, remains a defendant. Judge Joan H. Lefkow set a briefing schedule on Aug. 13, and CoStar and the brokerages filed separate motions to dismiss on Aug. 17. The tenant's response was due Oct. 1 and replies Nov. 2, and the court canceled the Aug. 19 initial status hearing.",
+        "The case follows years of litigation against RealPage and apartment landlords over rent-setting software, including a Justice Department suit that RealPage settled in November 2025 without paying penalties or admitting wrongdoing, in exchange for changes to its platform and independent oversight, The Real Deal noted. This suit applies a similar theory to commercial lease data."
       ],
       timeline: [
-        { when: "June 12, 2026", label: "FitFactariDC LLC files proposed class action against CoStar and five major brokerages" },
-        { when: "August 19, 2026", label: "Initial status hearing scheduled",  upcoming: true },
-        { when: "September 24, 2026", label: "Court enters order on the motions to dismiss and sets a briefing schedule (docket entry 71)", current: true }
+        { when: "June 12, 2026", label: "FitFactariDC files a proposed class action against CoStar and five brokerages" },
+        { when: "August 7, 2026", label: "Colliers International Group Inc. dismissed without prejudice at the plaintiff's request" },
+        { when: "August 13, 2026", label: "Court sets the motion-to-dismiss briefing schedule: response due Oct. 1, replies Nov. 2" },
+        { when: "August 17, 2026", label: "CoStar and the broker defendants file motions to dismiss" },
+        { when: "August 18, 2026", label: "Court cancels the Aug. 19 initial status hearing", current: true }
       ],
       tags: ["antitrust", "hub-and-spoke", "CoStar", "lease data", "brokerage"],
       docketUrl: "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
@@ -649,52 +652,6 @@ const RELAW_DATA = {
       tags: ["environmental", "PCE contamination", "insurance coverage", "dry cleaner", "shopping center"]
     },
     {
-      id: "live-018",
-      seoTitle: "443 Greenwich Street Tribeca: $376M Defect Suit vs. Metro Loft",
-      seoDescription: "The 443 Greenwich Street condo board in Tribeca seeks $376 million from Nathan Berman's Metro Loft and architect CetraRuddy over alleged building defects.",
-      property: {"address": "443 Greenwich Street", "city": "New York", "state": "NY"},
-      addedDate: "2026-08-12",
-      title: "Board of Managers of the 443 Greenwich St. Condominium v. Berman/Metro Loft (Tribeca Factory-Conversion Defect Suit, $376M Claim)",
-      brief: "The 443 Greenwich Street condo board in Tribeca raised its defect claim against developer Metro Loft and architect CetraRuddy to $376 million, citing roof leaks and crumbling brickwork in the 53-unit conversion.",
-      category: "construction-defect",
-      status: "pending",
-      date: "2024-03-11",
-      jurisdiction: "Supreme Court of the State of New York, New York County",
-      parties: [
-        { name: "Board of Managers of the 443 Greenwich Street Condominium", role: "Plaintiff" },
-        { name: "SGN 443 Greenwich Street Owner LLC", role: "Defendant" },
-        { name: "SGN 443 Greenwich Street Fee Owner LLC", role: "Defendant" },
-        { name: "SGN 443 Greenwich Street Associates LLC", role: "Defendant" },
-        { name: "JS Greenwich LLC", role: "Defendant" },
-        { name: "NB 443 Greenwich Street LLC", role: "Defendant" },
-        { name: "CETRA/CRI Architecture PLLC", role: "Defendant" }
-      ],
-      amountUsd: 376000000,
-      amountBasis: "damages sought",
-      judge: "Joel M. Cohen",
-      state: "NY",
-      amount: "$376M sought; independent estimates closer to ~$100M",
-      source: "live",
-      sourceUrl: "https://therealdeal.com/new-york/2024/03/11/condo-board-of-443-greenwich-suing-developer-for-376m/",
-      summary: "The condo board for 443 Greenwich Street — a 53-unit luxury conversion of a former Tribeca bookbindery whose residents have included Jennifer Lawrence, Harry Styles, and Justin Timberlake — amended its long-running suit against developer Nathan Berman's Metro Loft and architect CetraRuddy to seek $376 million, alleging pervasive structural and water-intrusion defects, including leaking roofs that flooded multimillion-dollar penthouses and courtyard brickwork so deteriorated that decorative bricks could reportedly be pulled out by hand. An independent inspector retained in the case characterized some of the violations as life-threatening; outside attorneys reviewing the complaint have suggested actual exposure is closer to $100 million once overlapping claims are accounted for.",
-      significance: "Filed originally in December 2021 and still actively litigated more than four years later, the case illustrates how factory-to-luxury-residential conversions — a conversion play increasingly pitched as an office-to-residential solution — carry construction-defect risk that can take years to surface and even longer to resolve, with damages escalating substantially as litigation proceeds and forensic inspection deepens. Developers and design teams pursuing adaptive-reuse conversions should budget for extended post-closing exposure on original building-envelope and structural work, not just the new residential build-out, and buyers of conversion units should weigh independent structural inspection beyond standard due diligence.",
-      body: [
-        "Board of Managers of the 443 Greenwich St. Condominium first sued developer Nathan Berman's Metro Loft, related principals, and architect CetraRuddy (John A. Cetra) in New York State Supreme Court in December 2021 over construction defects at the 53-unit luxury condo conversion, a former Tribeca bookbindery whose units have housed Jennifer Lawrence, Harry Styles, Blake Lively and Ryan Reynolds, Justin Timberlake and Jessica Biel, and Formula 1 driver Lewis Hamilton.",
-        "By March 2024, the board's amended complaint raised its damages demand to $376 million, citing breach-of-contract and negligence claims tied to leaking roofs that allowed water into multimillion-dollar penthouses and structural decay severe enough that, per the board's filings, decorative courtyard bricks could be pulled out by hand due to inadequate drainage. An independent inspector's findings referenced in the litigation characterized some of the alleged violations as life-threatening. The developer and architect have denied the allegations.",
-        "Outside attorneys reviewing the amended complaint told reporters the true exposure is likely closer to $100 million once duplicate and overlapping claims are resolved. The litigation remains active; a September 2025 court order granted summary judgment against the sponsor defendants on a related third-party claim and dismissed that portion of the case, one of several procedural rulings issued as the underlying defect claims continue toward resolution."
-      ],
-      timeline: [
-        { when: "December 2021", label: "Condo board sues developer Metro Loft and architect CetraRuddy over construction defects" },
-        { when: "March 2024", label: "Amended complaint raises the damages demand to $376 million" },
-        { when: "September 4, 2025", label: "Court grants summary judgment dismissing a related third-party claim", current: true }
-      ],
-      documentUrl: "https://www.nycourts.gov/reporter/3dseries/2024/2024_00450.htm",
-      documentLabel: "Read the appellate decision",
-      tags: ["construction defect", "condominium", "new york", "office-to-residential conversion", "developer liability"],
-      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
-      docketLabel: "NYSCEF Index No. 656934/2021"
-    },
-    {
       id: "live-019",
       seoTitle: "Columbia Falls Aluminum Superfund: $57.6M Cleanup Consent Decree",
       seoDescription: "Columbia Falls Aluminum Company (CFAC) will pay $57.6 million under an EPA consent decree to clean up its former smelter site in Columbia Falls, Montana.",
@@ -816,43 +773,42 @@ const RELAW_DATA = {
     {
       id: "live-024",
       seoTitle: "MiamiCentral Station Retail: $65M Foreclosure Suit vs. Brightline",
-      seoDescription: "U.S. Bank, for a Bracebridge-led lender group, sued to foreclose a $65M senior loan on the retail podium at Brightline's MiamiCentral Station in Miami.",
-      property: {"name": "MiamiCentral Station", "city": "Miami", "state": "FL"},
+      seoDescription: "U.S. Bank sued to foreclose on the 124,000 sf of retail at Brightline's MiamiCentral station over a $65M senior loan, alleging missed payments.",
+      property: {"name": "MiamiCentral Station (retail)", "address": "600 Northwest First Avenue", "city": "Miami", "state": "FL"},
       addedDate: "2026-08-16",
       title: "U.S. Bank v. Brightline Investment Holdings, LLC (MiamiCentral Station Retail Foreclosure)",
-      brief: "A Bracebridge-led senior lender group, through U.S. Bank, sued to foreclose on the 124,000-square-foot retail component of Brightline's MiamiCentral Station over a $65M senior loan after missed payments.",
+      brief: "U.S. Bank, acting for its lenders, sued to foreclose on the 124,000 square feet of retail at Brightline's MiamiCentral station over a $65 million senior loan, alleging missed principal and interest payments.",
       category: "lending-foreclosure",
       status: "filed",
-      date: "2026-07-30",
+      date: "2026-08-05",
       jurisdiction: "Miami-Dade County Circuit Court",
       parties: [
-        { name: "U.S. Bank Trust Company", role: "Plaintiff (agent for lenders)" },
-        { name: "XYQ Cayman Ltd.", role: "Lender" },
-        { name: "Brightline Investment Holdings LLC", role: "Defendant/Borrower" },
-        { name: "FECI Realty", role: "Defendant" }
+        { name: "U.S. Bank", role: "Plaintiff (for two lender groups)" },
+        { name: "XYQ Cayman Ltd.", role: "Senior lender" },
+        { name: "Brightline Investment Holdings", role: "Defendant/Borrower" },
+        { name: "FECI Realty", role: "Defendant (property manager)" }
       ],
-      judge: "Jason E. Dimitris",
+      judge: null,
       amountUsd: 65000000,
       amountBasis: "loan",
       state: "FL",
-      amount: "$65M senior foreclosure claim (of $128.5M total 2022 financing)",
+      amount: "$65M senior loan (part of a $128.5M 2022 loan)",
       source: "live",
       sourceUrl: "https://therealdeal.com/miami/2026/08/05/brightlines-miami-retail-hit-with-65-million-foreclosure/",
-      summary: "U.S. Bank, acting as administrative agent for a senior lender group led by Bracebridge Capital affiliate XYQ Cayman Ltd., sued on July 30 to foreclose on the 124,000-square-foot retail component of Brightline's MiamiCentral Station after owner Brightline Investment Holdings and subsidiary DTS DT Retail LLC missed a $16M principal payment due December 26, 2025, a further $6M payment due March 15, 2026, and quarterly interest payments dating to December 2025. The complaint, filed against Brightline Investment Holdings, DTS DT Retail, and property manager FECI Realty, seeks foreclosure, enforcement of Brightline Investment Holdings' guaranty, and appointment of a receiver over the property.",
-      significance: "The filing shows a lender enforcing against a transit-oriented retail asset independently of the sponsor's core operating business, since the suit reaches only the senior tranche of a bifurcated 2022 loan and does not touch Brightline's passenger-rail operations, which continue unaffected. It arrives alongside Brightline's own well-documented rail-financing debt strain, giving lenders and retail tenants at other transit-adjacent developments an early signal of how quickly a senior lender can seek receivership over an underperforming retail component, separate from the parent enterprise's overall solvency.",
+      summary: "U.S. Bank, representing two lender groups, has sued Brightline Investment Holdings, one of its subsidiaries and property manager FECI Realty to foreclose on the 124,000 square feet of retail at MiamiCentral station, 600 Northwest First Avenue in Miami, The Real Deal reported, citing the South Florida Business Journal. The suit alleges the borrower missed a $16 million principal payment due Dec. 26, 2025, a $6 million payment due March 15, 2026, and quarterly interest payments starting in December 2025, and says the full $65 million senior loan is now due. It asks for foreclosure, enforcement of guarantees from Brightline Investment Holdings and its subsidiary, and a court-appointed receiver.",
+      significance: "The suit reaches only the senior piece of a split loan on the station's retail space, leaving the rail operation, the office buildings and the junior debt outside the case. Junior lenders and tenants in similar transit-oriented projects should know where they sit in the debt stack, because the senior lender can push for foreclosure and a receiver over the retail space on its own.",
       body: [
-        "On July 30, 2026, U.S. Bank — acting as administrative agent for a senior lender group led by XYQ Cayman Ltd., an affiliate of Boston-based Bracebridge Capital — filed suit in Miami-Dade County Circuit Court to foreclose on the 124,000-square-foot retail podium at Brightline's MiamiCentral Station in downtown Miami. The complaint names Brightline Investment Holdings, its subsidiary DTS DT Retail LLC, and property manager FECI Realty as defendants, and asks the court to foreclose the mortgage, enforce Brightline Investment Holdings' loan guaranty, and appoint a receiver to take over operation of the property while the case is pending. For a rail company whose brand has been built on gleaming, retail-anchored stations, the filing is a reminder that the commercial real estate wrapped around a transit hub carries its own, separable debt exposure — one that can sour even while the trains keep running.",
-        "The retail component was financed in 2022 with a $128.5 million loan, structured as a senior tranche of roughly $65 million — held by XYQ Cayman and syndicated among the lender group U.S. Bank represents — and a subordinate junior tranche. According to the complaint, the borrower failed to make a required $16 million principal paydown due December 26, 2025, missed a further $6 million principal payment due March 15, 2026, and stopped making quarterly interest payments beginning in December 2025, notwithstanding what the lenders describe as multiple prior extensions of the loan's maturity. The suit reaches only the senior tranche; the litigation does not implicate Brightline's passenger-rail operations, and the station, its train service, and the retail tenants — which include Chick-fil-A, Starbucks, Powerhouse Gym, Joe & the Juice, Rosetta Bakery, AT&T, and the Central Fare food hall — remain open for business.",
-        "The case is a clean illustration of how a bifurcated, or 'A/B,' loan lets a senior lender act unilaterally. Because XYQ Cayman's roughly $65 million position sits ahead of the junior tranche in priority, it can pursue foreclosure and seek a receiver without needing the junior lender's cooperation — or waiting on any workout discussions the subordinate piece might otherwise support. That structural leverage is precisely what makes the receivership request notable: a receiver appointed at the senior lender's request would take over rent collection, leasing decisions, and day-to-day management of the retail podium immediately, well before any foreclosure sale, effectively transferring operational control of the asset out of Brightline's hands during the litigation. Florida receivership law treats that remedy as an equitable one available on a showing of waste, dissipation, or a borrower's inability to service the debt — a comparatively low bar relative to the time a completed judicial foreclosure sale can take.",
-        "The filing does not exist in isolation. Brightline's rail operating company has spent much of 2026 navigating its own debt strain, including reported extensions and restructuring discussions tied to its unrated bond financing and broader capital structure. A foreclosure action against an affiliated retail entity — even one the company insists is legally and financially walled off from the railroad itself — inevitably invites scrutiny of how tightly integrated Brightline's real estate and transportation businesses actually are in practice, and whether distress in one is read by capital markets as a signal about the other.",
-        "Transit-oriented development has become a favored structure for pairing public infrastructure with private retail and residential income, and lenders financing the retail or commercial components of such projects typically do so on stand-alone, asset-level debt rather than against the transit operator's balance sheet. This case will be watched as an early test of how a Florida court handles a receivership request against that kind of asset when the borrower's affiliated core business is a going concern but the specific collateral's cash flow has fallen short — a fact pattern likely to recur as more transit-adjacent retail loans originated during the 2021–2022 rate environment come due. Owners and lenders in similarly structured bifurcated A/B loans should confirm exactly what independent enforcement rights a senior tranche holder retains, and sponsors financing ancillary retail components separately from a core operating business should revisit guaranty and non-recourse carve-out language now, before a maturity or payment default forces those provisions to be tested in litigation rather than negotiation."
+        "U.S. Bank, acting for two lender groups, has sued to foreclose on the retail portion of Brightline's MiamiCentral station, The Real Deal reported, citing the South Florida Business Journal. The defendants are Brightline Investment Holdings, the Brightline-affiliated owner of the 124,000 square feet of retail at 600 Northwest First Avenue, one of its subsidiaries, and property manager FECI Realty. The case does not involve the train station, the rail company or the station's office buildings, which Blackstone-managed funds bought in 2021 for $230 million, and the retail space and station remain open.",
+        "The retail property was financed in 2022 with a $128.5 million loan split into two pieces. The $65 million senior piece is held by XYQ Cayman Ltd., which the lawsuit identifies as an affiliate of Boston-based Bracebridge Capital; four EB-5 funds for foreign investors seeking U.S. green cards hold the remaining $63 million. The senior piece is paid first, and the foreclosure suit concerns only that piece.",
+        "The lender alleges the borrower failed to make a $16 million principal payment due Dec. 26, 2025 and a $6 million payment due March 15, 2026, and stopped making quarterly interest payments in December 2025. It says the full $65 million senior balance is now due and asks the court to foreclose, enforce guarantees from Brightline Investment Holdings and its subsidiary, and appoint a receiver to oversee the property. The report did not include a response from Brightline.",
+        "The retail space is 65 percent leased, with 41,000 square feet available, according to an online listing cited by The Real Deal. Tenants include AT&T, Starbucks, Chick-fil-A, Rosetta Bakery, Joe & The Juice and Wolf of Tacos. The suit follows Fitch's July downgrade of bonds issued by the separately owned rail operator, Brightline Trains Florida; the rating agency cited a \"very high probability\" that the operator will miss coming debt payments."
       ],
       tags: ["foreclosure", "receivership", "transit-oriented development", "retail", "bifurcated loan"],
       timeline: [
-        { when: "2022", label: "Brightline Investment Holdings closes a $128.5M loan on the MiamiCentral Station retail component, split into a $65M senior tranche (XYQ Cayman Ltd./Bracebridge Capital) and a junior tranche" },
-        { when: "December 26, 2025", label: "Borrower misses a required $16M principal paydown" },
-        { when: "March 15, 2026", label: "Borrower misses an additional $6M principal paydown; quarterly interest payments have also lapsed since December 2025" },
-        { when: "July 30, 2026", label: "U.S. Bank sues on behalf of the senior lender group to foreclose and seeks appointment of a receiver", current: true }
+        { when: "2022", label: "$128.5M loan closes on the MiamiCentral retail space, split into a $65M senior piece (XYQ Cayman Ltd.) and a $63M junior piece (four EB-5 funds)" },
+        { when: "December 2025", label: "Lender alleges the borrower stopped paying quarterly interest and missed a $16M principal payment due Dec. 26" },
+        { when: "March 15, 2026", label: "Lender alleges a further $6M principal payment was missed" },
+        { when: "August 5, 2026", label: "U.S. Bank's foreclosure and receivership suit is reported", current: true }
       ]
     },
     {
@@ -939,41 +895,6 @@ const RELAW_DATA = {
       ]
     },
     {
-      id: "live-027",
-      seoTitle: "260 Park Avenue South: Condo Lien Foreclosure Against Tessler",
-      seoDescription: "260 Park Avenue South's condo board sued to foreclose on six retail units of Yitzchak Tessler's Tessler Developments over ~$675,000 in unpaid charges.",
-      property: {"address": "260 Park Avenue South", "city": "New York", "state": "NY"},
-      addedDate: "2026-08-18",
-      title: "260 Park Avenue South Condominium v. Tessler Developments (Flatiron Common-Charge Lien Foreclosure)",
-      brief: "The 260 Park Avenue South condo board sued to foreclose its lien on six ground-floor retail units owned by Tessler Developments over roughly $675,000 in unpaid common charges.",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-08-17",
-      jurisdiction: "Supreme Court of the State of New York, New York County",
-      parties: [],
-      judge: null,
-      amountUsd: 675000,
-      amountBasis: "claim",
-      state: "NY",
-      amount: "~$675,000 common-charge lien foreclosure; separate ~$225,000+ tax-lien suit pending",
-      source: "live",
-      sourceUrl: "https://therealdeal.com/new-york/2026/08/17/yitzchak-tessler-facing-foreclosure-of-flatiron-retail-spots/",
-      summary: "The condominium board at 260 Park Avenue South in Manhattan's Flatiron District sued to foreclose its condominium lien against six ground-floor retail units owned by developer Yitzchak Tessler's Tessler Developments, alleging the sponsor has gone years without paying common charges, now totaling roughly $675,000. The units house four operating retail tenants — a Morton Williams wine store, a Nemo Tile showroom, Spa Fore, and a FedEx branch. A separate tax lien exceeding $225,000, purchased by BNY after the city placed it on the property, is the subject of an independent, still-pending collection suit against Tessler.",
-      significance: "Shows how a condominium board's statutory common-charge lien foreclosure can move independently of, and faster than, a mortgage lender's foreclosure process, since it isn't bound by loan-document notice-and-cure timelines. It also lands amid a broader pattern of creditor litigation against Tessler-affiliated entities, including an $88M mortgage foreclosure at 172 Madison Avenue and a $101M bankruptcy filing at another Tessler condo tower — a reminder that sponsors retaining commercial condo units after a residential conversion carry ongoing common-charge exposure that accrues regardless of broader portfolio distress.",
-      body: [
-        "The condominium board at 260 Park Avenue South in Manhattan's Flatiron District has sued to foreclose on six ground-floor retail units owned by developer Yitzchak Tessler's Tessler Developments, alleging the sponsor has gone years without paying common charges on the commercial condominium units it retained after converting the building. The board's suit, filed in New York and reported August 17, 2026, seeks to foreclose its condominium lien over roughly $675,000 in unpaid charges — the latest in a string of creditor actions against Tessler's portfolio that has also produced an $88 million mortgage foreclosure at a separate Madison Avenue property and a $101 million bankruptcy filing at another of his condo towers.",
-        "The units at issue house four operating retail tenants — a Morton Williams wine store, a Nemo Tile showroom, the spa operator Spa Fore, and a FedEx branch — meaning the foreclosure fight plays out against a backdrop of paying commercial leases that continue to generate rent even as the underlying owner falls behind on its obligations to the condominium itself. That distinction matters procedurally and substantively: a condo board's common-charge lien attaches to the unit regardless of whether the unit is leased and producing income, and New York's Condominium Act gives boards a statutory foreclosure remedy that operates independently of, and can move faster than, a mortgage lender's foreclosure process. Boards are not bound by the notice-and-cure timelines many mortgage documents require, and because common-charge liens are typically small relative to a building's overall value, courts tend to move condominium foreclosure actions through the docket with less of the multi-year delay that has become common in large commercial mortgage foreclosures.",
-        "The common-charge default is not Tessler's only unresolved obligation tied to the same address. According to reporting on the matter, the city separately placed a tax lien on the property exceeding $225,000 after Tessler fell behind on property taxes; that lien was later purchased by BNY, which has its own pending suit against Tessler seeking to recover the outstanding balance. The overlap of a private condominium-lien foreclosure and a separate tax-lien collection suit against the same ownership entity, on the same property, is a pattern that title insurers and secured lenders watch closely, since either creditor's judgment can cloud title and complicate a subsequent sale or refinancing of the retail condominium interest.",
-        "The Flatiron filing lands amid a broader wave of creditor activity against Tessler-affiliated entities. In 2024, ArcPe Capital sued to foreclose on an $88 million loan secured by Tessler's property at 172 Madison Avenue, and Tessler Developments has also faced a roughly $101 million bankruptcy filing tied to a Midtown South condominium tower project. Taken together, the filings depict a developer whose commercial condo retention strategy — keeping ground-floor retail units rather than selling them off after a residential conversion — has become a source of concentrated creditor exposure precisely at the moment financing costs and retail collection difficulties have made carrying unsold commercial condo inventory more expensive.",
-        "For sponsors and developers who retain commercial condominium units after converting a building to residential use, the case is a pointed illustration of a risk that's easy to overlook amid larger mortgage-level concerns: common-charge obligations on retained units accrue regardless of a sponsor's broader liquidity position, and boards have both the incentive and the statutory tools to pursue collection aggressively once arrears reach a material level, since unpaid charges directly reduce the funds available for building operations and reserves that benefit every other unit owner. New York condo boards can pursue that statutory lien foreclosure on retained commercial units on a fast, independent track regardless of a mortgage lender's own default and cure timeline, and an overlapping tax-lien suit on the same property compounds title risk for any near-term sale or refinancing. For lenders, brokers, and counterparties dealing with a sponsor facing simultaneous foreclosure and bankruptcy actions elsewhere in its portfolio, a new, smaller-dollar filing like this one is best read as a signal of broader liquidity strain rather than an isolated dispute."
-      ],
-      tags: ["foreclosure", "condominium", "common charges", "flatiron", "developer distress"],
-      timeline: [
-        { when: "2025", label: "City places a lien on Tessler for over $225,000 in unpaid property taxes; BNY later buys the lien and sues separately for the outstanding balance" },
-        { when: "August 17, 2026", label: "260 Park Avenue South Condominium board sues to foreclose on Tessler-owned retail units over roughly $675,000 in unpaid common charges", current: true }
-      ]
-    },
-    {
       id: "live-028",
       seoTitle: "PSEG Maryland Piedmont Line: Fourth Circuit Allows Survey Entry",
       seoDescription: "The Fourth Circuit let PSEG Renewable Transmission survey 117 landowners' properties for the 67-mile Maryland Piedmont Reliability Project before approval.",
@@ -1028,15 +949,15 @@ const RELAW_DATA = {
     {
       id: "live-029",
       seoTitle: "Mandarin Oriental Boca Raton: Developer's $500M Lender Suit, TRO",
-      seoDescription: "Via Mizner Owner III sued its Mandarin Oriental Boca Raton construction lenders for $500M+ in New York; a TRO blocked a UCC sale of its equity.",
-      property: {"name": "Mandarin Oriental Residences", "city": "Boca Raton", "state": "FL"},
+      seoDescription: "Penn-Florida affiliates sued their Madison Realty-affiliated lender for $500M+, alleging it created the defaults; a judge paused a UCC auction.",
+      property: {"name": "Residences at Mandarin Oriental, Boca Raton", "address": "105 East Camino Real", "city": "Boca Raton", "state": "FL"},
       addedDate: "2026-08-19",
       title: "Via Mizner Owner III LLC v. Via Mizner Lender 1 LLC (Mandarin Oriental Boca Raton Lender-Liability Suit)",
-      brief: "Penn-Florida affiliates sued their Mandarin Oriental Boca Raton construction lenders for more than $500 million, alleging manufactured defaults; a New York judge temporarily blocked a UCC sale of their equity.",
+      brief: "Penn-Florida affiliates sued their Mandarin Oriental Boca Raton lender, an affiliate of Madison Realty Capital, for more than $500 million, alleging it \"created the defaults\"; a New York judge temporarily blocked a UCC auction.",
       category: "lending-foreclosure",
       status: "filed",
-      date: "2026-08-17",
-      jurisdiction: "Supreme Court of the State of New York, New York County",
+      date: "2026-08-13",
+      jurisdiction: "Supreme Court of the State of New York",
       parties: [
         { name: "Via Mizner Owner III LLC", role: "Plaintiff" },
         { name: "Via Mizner Pledgor III LLC", role: "Plaintiff" },
@@ -1050,22 +971,22 @@ const RELAW_DATA = {
       amount: "$500M+ damages sought",
       source: "live",
       sourceUrl: "https://therealdeal.com/miami/2026/08/17/mandarin-oriental-boca-raton-developer-sues-lender-madison/",
-      summary: "Penn-Florida Companies affiliates Via Mizner Owner III LLC and Via Mizner Pledgor III LLC sued their construction lenders, Via Mizner Lender 1 LLC and Via Mizner Lender 2 LLC, in the Commercial Division of the Supreme Court of the State of New York, seeking more than $500 million and alleging the lenders manufactured the defaults they are now citing to justify foreclosing on the stalled Residences at Mandarin Oriental in Boca Raton. Justice Andrew Borrok signed a temporary restraining order blocking a UCC Article 9 sale of the pledged ownership interests in the project entities and set a hearing on preliminary relief for October 1, 2026. The suit is a direct response to the same lender group's own $417.7 million judicial foreclosure complaint, filed in Florida in July.",
-      significance: "The case tests a lender-liability theory against a UCC Article 9 equity-pledge foreclosure — a faster, non-judicial remedy lenders increasingly favor over judicial mortgage foreclosure — and shows how an aggressive borrower complaint can pause that faster track even without seriously disputing the underlying nonpayment. CRE lenders and workout counsel structuring loans with layered mortgage-plus-equity-pledge collateral should watch how the New York court weighs the lender-liability claim against the parallel Florida foreclosure action, since the outcome will bear on how quickly secured lenders can actually convert a UCC pledge into asset control once a borrower fights back.",
+      summary: "Two Penn-Florida Companies affiliates, Via Mizner Owner III LLC and Via Mizner Pledgor III LLC, sued their lender, a Madison Realty Capital affiliate, through the entities Via Mizner Lender 1 and Via Mizner Lender 2 LLC, in New York state court on Aug. 13, 2026, seeking more than $500 million. They allege Madison \"created the defaults\" it is using to foreclose on the stalled Mandarin Oriental-branded hotel and condo project in Boca Raton. On Aug. 17, Justice Andrew Borrok temporarily blocked a scheduled UCC foreclosure auction and set a hearing for Oct. 1, The Real Deal reported. Madison did not immediately respond to a request for comment.",
+      significance: "The developer answered a fast UCC sale of its pledged ownership interests by suing the lender in New York, apart from the Florida mortgage foreclosure, and won a temporary pause. Lenders who take both a mortgage and an equity pledge should expect a borrower to fight on both fronts, and borrowers facing a UCC auction should know a court may hold it while claims about the lender's conduct are heard.",
       body: [
-        "The developer behind Boca Raton's long-delayed Residences at Mandarin Oriental has escalated its fight with its construction lenders from a defensive posture to an offensive one, filing a $500 million lender-liability lawsuit in New York state court and securing a temporary order blocking a foreclosure auction of its ownership interests in the project. The filing, reported August 17, 2026, marks a significant turn in a dispute that until now had been driven entirely by the lender's own foreclosure claims, and it puts a novel theory squarely before the court: that the lender manufactured the very defaults it is now relying on to seize the asset.",
-        "Via Mizner Owner III LLC and Via Mizner Pledgor III LLC, entities controlled by Penn-Florida Companies and led by president and CEO Mark Gensheimer, sued Via Mizner Lender 1 LLC and Via Mizner Lender 2 LLC in the Commercial Division of the Supreme Court of the State of New York, New York County. The complaint seeks more than $500 million in damages and alleges that the lending group, whose capital traces to Madison Realty Capital as loan originator and Apollo Global Management-affiliated entities including Athene Annuity and Life Company, effectively engineered the borrower's default rather than simply responding to it. Justice Andrew Borrok signed a temporary restraining order halting a UCC Article 9 foreclosure sale of the pledged ownership interests in the project entities and set a hearing on preliminary relief for October 1, 2026.",
-        "The countersuit follows directly from the lender group's own $417.7 million foreclosure complaint, filed July 17, 2026 in the Fifteenth Judicial Circuit Court in Palm Beach County, Florida, which alleged that Via Mizner Owner III stopped paying interest in June 2024, missed a February 2025 completion deadline, and failed to repay the loan at its September 2025 maturity. That Florida action seeks a judicial mortgage foreclosure and also aims to subordinate a $24.1 million mechanics'-lien claim from the project's construction manager along with the claims of condo unit buyers awaiting delivery. The new New York suit runs on a parallel but distinct track: rather than contesting the mortgage foreclosure itself, it targets the lenders' separate, faster remedy, a non-judicial UCC sale of the membership interests in the borrower entities that were pledged as additional collateral, a mechanism lenders often favor precisely because it can move to auction far more quickly than a judicial foreclosure.",
-        "The legal significance lies in the lender-liability theory itself. Rather than disputing that payments were missed, the developer's complaint reframes the narrative, alleging the lenders' own conduct, including funding decisions and their role in the termination of the project's hotel management agreement, precipitated the very defaults now cited as grounds for seizure. Lender-liability claims are notoriously difficult to win, since courts are generally reluctant to second-guess a secured lender's contractual remedies once a payment default is undisputed. But the claim's real force here is procedural: by winning a temporary restraining order, Penn-Florida bought itself roughly six weeks before the UCC auction question is revisited, preserving optionality, whether additional capital, a settlement, or a competing sale process, that would have evaporated had the non-judicial sale proceeded on the lenders' original timeline.",
-        "For commercial real estate lenders, developers, and workout counsel, the case illustrates how leverage shifts once a distressed borrower stops playing defense. UCC Article 9 sales are attractive to secured lenders specifically because they bypass many of the procedural protections of judicial foreclosure, but that speed advantage can be neutralized, at least temporarily, by an aggressive borrower complaint paired with a request for injunctive relief, particularly where the borrower can point to lender conduct arguably contributing to the default. The dispute also underscores the risks of layered collateral structures: because the lenders here took both a mortgage on the real property and a separate pledge of equity interests, the borrower now has two fronts, Florida and New York, on which to contest the lenders' remedies, potentially multiplying litigation cost and timeline uncertainty for the mechanics'-lien claimant and condo buyers whose recoveries depend on how the capital stack ultimately resolves.",
-        "The practical upshot for practitioners is straightforward. Borrowers facing a UCC Article 9 foreclosure of pledged equity should move quickly to evaluate whether lender conduct, such as funding delays or interference with project-level agreements, supports a colorable claim that the lender contributed to the default, since that theory can support emergency injunctive relief even where the underlying nonpayment isn't seriously disputed. Lenders structuring distressed-debt or construction-loan workouts should expect that a UCC sale chosen for its speed can still be delayed by a well-pleaded borrower complaint filed in a different jurisdiction than the primary mortgage foreclosure, which argues for coordinating strategy across every forum where collateral is being pursued. Subordinate claimants, including mechanics'-lien holders and condo purchasers on a stalled project, should watch these parallel proceedings closely, since a lender-liability countersuit that slows or reshapes the foreclosure timeline directly affects when, and how much, they ultimately recover; and any party on either side of a maturing, underperforming construction loan should be documenting funding and administrative decisions carefully in real time, because those same records become the evidentiary battleground once a lender-liability theory is pleaded."
+        "The developer of the Mandarin Oriental-branded Residences in Boca Raton has sued its lender, an affiliate of Madison Realty Capital, in New York state court, days before a scheduled UCC foreclosure auction of the developer's ownership interests, The Real Deal reported. Via Mizner Owner III LLC and Via Mizner Pledgor III LLC, led by Penn-Florida Companies president and CEO Mark Gensheimer, filed the suit on Aug. 13, 2026 against Via Mizner Lender 1 and Via Mizner Lender 2 LLC and seek more than $500 million in damages. They ask for declaratory judgments on the parties' relationship and on alleged violations of New York's Uniform Commercial Code, and for an order stopping the sale. On Aug. 17, Justice Andrew Borrok signed an order temporarily halting the auction and set a hearing for Oct. 1.",
+        "According to the complaint, Madison led more than $300 million in financing for the project in 2023 and, months later, stopped funding, saying the loans \"were out of balance.\" The developer says it then could not pay vendors, and that Madison took control of construction, replaced the project manager with Straticon LLC, began paying vendors directly and put a lawyer without construction experience in charge of decisions. The complaint also alleges Madison told a consultant's employee to go \"scorched Earth\" on the project, and that all work stopped once Madison stopped paying vendors. It accuses Madison of \"gross mismanagement and gross negligence\" and of manufacturing the defaults behind its enforcement.",
+        "Madison did not immediately respond to a request for comment. In July 2026 the lender filed a nearly $418 million foreclosure suit against the developer, alleging missed payments beginning in 2024 and a failure to repay the loan when it matured. By late 2024 the two sides had signed restructuring agreements confirming Madison's control over the condo portion of the project, including its completion, according to the report.",
+        "The 1.5-acre site at 105 East Camino Real is planned for a 164-key Mandarin Oriental-branded hotel and an 88-unit condo, linked by a sky bridge, which remain unfinished after years of delays; the project was first announced in 2015. Buyers, contractors and subcontractors have also sued the developer in separate cases over the years."
       ],
       tags: ["lender liability", "UCC foreclosure", "construction loan", "equity pledge", "condo default"],
       timeline: [
-        { when: "June 2024", label: "Borrower Via Mizner Owner III stops paying interest on the underlying construction loan" },
-        { when: "July 17, 2026", label: "Lender group sues to foreclose in Florida, seeking $417.7M and to subordinate mechanics'-lien and buyer claims" },
-        { when: "August 17, 2026", label: "Developer sues lenders for $500M+ in New York, alleging manufactured default; Justice Borrok grants a TRO blocking the UCC auction", current: true },
-        { when: "October 1, 2026", label: "Hearing on preliminary relief scheduled in the New York Commercial Division", upcoming: true }
+        { when: "2015", label: "Project first announced" },
+        { when: "2023", label: "Developer secures more than $300M in financing led by Madison Realty Capital" },
+        { when: "Late 2024", label: "Restructuring agreements confirm Madison's control over the condo portion" },
+        { when: "July 2026", label: "Lender files a nearly $418M foreclosure suit against the developer" },
+        { when: "August 13, 2026", label: "Developer sues the lender in New York, seeking more than $500M and alleging the lender created the defaults" },
+        { when: "August 17, 2026", label: "Justice Borrok temporarily blocks the UCC auction and sets an Oct. 1 hearing", current: true }
       ]
     },
     {
@@ -1109,46 +1030,6 @@ const RELAW_DATA = {
       tags: ["cmbs", "foreclosure", "receivership", "office", "maturity default"],
       docketUrl: "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
       docketLabel: "CourtListener docket"
-    },
-    {
-      id: "live-032",
-      seoTitle: "1 Park Row: Corcoran Sues Circle F Capital Over Broker Commission",
-      seoDescription: "Corcoran and Brown Harris Stevens sued Circle F Capital for $3.2 million, alleging $450,000 of a commission on the 1 Park Row recapitalization went unpaid.",
-      property: {"address": "1 Park Row", "city": "New York", "state": "NY"},
-      addedDate: "2026-08-20",
-      title: "Corcoran Group v. Circle F Capital (1 Park Row Broker Commission Suit)",
-      brief: "Corcoran, Corcoran Sunshine and Brown Harris Stevens sued developer Circle F Capital for $3.2 million, alleging it withheld $450,000 of a reduced commission on the 1 Park Row recapitalization.",
-      category: "lease-disputes",
-      status: "filed",
-      date: "2026-08-18",
-      jurisdiction: "Supreme Court of the State of New York, New York County",
-      parties: [
-        { name: "Corcoran", role: "Plaintiff" },
-        { name: "Corcoran Sunshine Marketing Group", role: "Plaintiff" },
-        { name: "Brown Harris Stevens", role: "Plaintiff" },
-        { name: "Circle F Capital", role: "Defendant" }
-      ],
-      judge: null,
-      amountUsd: 3200000,
-      amountBasis: "damages sought",
-      state: "NY",
-      amount: "$3.2M sought; $450K of a $1.45M agreed commission allegedly withheld on a ~$94M recapitalization",
-      source: "live",
-      sourceUrl: "https://therealdeal.com/new-york/2026/08/18/1-park-row-developer-failed-to-pay-commissions-lawsuit/",
-      summary: "Corcoran, its new-development affiliate Corcoran Sunshine Marketing Group, and Brown Harris Stevens sued developer Circle F Capital in Supreme Court, New York County, alleging Circle F withheld $450,000 of a $1.45 million agreed commission tied to a roughly $94 million December 2025 recapitalization of 1 Park Row, a 23-story mixed-use condo tower in Manhattan's Financial District. The brokers say they had already agreed to reduce their fee to accommodate Circle F's 'purported cash problems' before the developer allegedly failed to pay even the discounted amount in full. They are seeking $3.2 million in damages plus interest and costs.",
-      significance: "Illustrates that a broker or vendor's fee concession made to accommodate a distressed sponsor's cash position does not extinguish the underlying payment obligation — it simply resets it, and a subsequent shortfall on the reduced, already-agreed amount remains independently actionable. Developers negotiating fee relief from brokers, contractors, or consultants during a workout should treat any concession as a binding modification, not a renegotiation opportunity once liquidity pressure eases.",
-      body: [
-        "Three of New York's most prominent residential brokerages — Corcoran, its new-development affiliate Corcoran Sunshine Marketing Group, and Brown Harris Stevens — have sued developer Circle F Capital in Supreme Court, New York County, alleging the firm failed to pay the full commission owed on a December 2025 recapitalization of 1 Park Row, the 23-story mixed-use condominium tower rising in Manhattan's Financial District. The complaint, reported August 18, says Circle F stiffed the brokers on $450,000 of a $1.45 million agreed commission tied to a roughly $94 million sale-and-restructuring transaction, despite the brokers having already agreed to cut their fee to help the developer through what the complaint describes as its purported cash problems.",
-        "The underlying transaction is not, on its face, unusual for a project of 1 Park Row's scale and history. Circle F Capital recapitalized the tower in December 2025, bringing on Grand Rapids, Michigan-based investor Eenhoorn as a new equity partner and securing a $77 million refinancing loan arranged by Walker & Dunlop and PCCP. That kind of capital-stack restructuring has become commonplace across New York's condo development sector as construction loans from the 2021-2022 vintage come due into a tighter lending market. What makes the current dispute notable is not the restructuring itself, but what the brokers allege happened to their compensation once it closed.",
-        "According to the complaint, the brokers had marketed and sold units at 1 Park Row under a commission arrangement tied to the project's sales and, later, to the recapitalization transaction itself. When Circle F represented that it was facing cash-flow strain, the brokers agreed to reduce the commission they were owed — a concession brokerages extend fairly routinely to preserve a client relationship and keep a deal moving. The complaint alleges that even after accepting that discount, Circle F failed to pay the reduced, already-agreed amount in full, withholding $450,000 of the negotiated $1.45 million fee. The brokers' $3.2 million demand reflects the shortfall itself plus interest, statutory add-ons, and litigation costs that accumulate once a commission dispute proceeds to a filed lawsuit rather than a negotiated resolution.",
-        "The dispute lands amid a broader pattern of litigation activity around 1 Park Row specifically: a separate $6 million lawsuit tied to the project was dismissed by a Michigan judge earlier this month, and the entity behind Eenhoorn's investment in the tower was separately accused of fraud in an unrelated April filing. None of those matters appears to involve the same parties or claims as the brokers' commission suit, but together they show how a single distressed or recapitalized project can generate multiple, legally distinct fronts of litigation as different counterparties press their own claims once a deal shows signs of financial strain.",
-        "For sponsors and their counsel, the practical lesson is that a fee concession accepted in good faith during a period of financial distress does not extinguish the underlying obligation — it resets it. A developer that fails to pay even a discounted, already-agreed sum can face the same breach-of-contract exposure it would have faced had no concession been offered at all, and vendors extending such concessions would do well to memorialize the revised terms in writing, with a clear remedy for any subsequent default on the discounted amount."
-      ],
-      timeline: [
-        { when: "December 2025", label: "Circle F Capital recapitalizes 1 Park Row, adding Eenhoorn as equity partner and securing a $77M refinancing" },
-        { when: "August 18, 2026", label: "Corcoran, Corcoran Sunshine, and Brown Harris Stevens sue over unpaid commissions", current: true }
-      ],
-      tags: ["broker commission", "condo development", "contract dispute", "recapitalization", "new york"]
     },
     {
       id: "live-035",
@@ -1626,11 +1507,11 @@ const RELAW_DATA = {
     {
       id: "live-048",
       seoTitle: "1880 Century Park East: Held Properties Sues WealthStone",
-      seoDescription: "Held Properties, owner of the 1880 Century Park East office tower in Century City, sued tenant WealthStone and its guarantor for about $1.1 million.",
+      seoDescription: "Held Properties sued Century City office tenant WealthStone and guarantor Andres Szita for about $1.1M, including a $393K earlier award and $708K more.",
       property: {"address": "1880 Century Park East", "city": "Los Angeles", "state": "CA"},
       addedDate: "2026-08-28",
       title: "Held Properties, Inc. v. WealthStone, LLC (Century City Office Rent Default and Personal Guaranty Suit)",
-      brief: "Held Properties, owner of 1880 Century Park East in Los Angeles, sued office tenant WealthStone and its guarantor for roughly $1.1 million, including a prior $393,000 judgment and $708,000 in new unpaid rent.",
+      brief: "Held Properties, owner of 1880 Century Park East in Los Angeles, sued office tenant WealthStone and its guarantor for about $1.1 million, including an earlier $393,000 award and $708,000 more it says is owed.",
       category: "lease-disputes",
       status: "filed",
       date: "2026-08-13",
@@ -1646,19 +1527,17 @@ const RELAW_DATA = {
       amount: "~$1.1M sought (a prior $393K judgment plus $708K in additional claimed unpaid rent)",
       source: "live",
       sourceUrl: "https://therealdeal.com/la/2026/08/13/held-properties-sues-tenant-in-century-city/",
-      summary: "Held Properties, Inc., owner of the 1880 Century Park East office tower in Los Angeles, sued tenant WealthStone, LLC and WealthStone principal Andres Szita in Los Angeles County Superior Court in early August 2026, alleging continued nonpayment of rent under a 2019 office lease. The complaint seeks roughly $1.1 million, combining an additional $708,000 in newly claimed unpaid rent with a $393,000 judgment Held Properties already obtained against WealthStone in an earlier suit, and names Szita personally as the lease's guarantor.",
-      significance: "Shows how a landlord can pursue a defaulting tenant's principal personally under a guaranty even after already reducing part of the debt to judgment, treating continued nonpayment as a fresh, independently actionable default rather than folding it into the earlier award. Landlords leasing to thinly capitalized special-purpose or platform entities should treat guaranty enforcement against the individual as a live, repeatable remedy, while principals who sign guaranties should recognize that satisfying one judgment does not extinguish exposure for rent accruing afterward.",
+      summary: "Held Properties, the family-owned landlord of the 1880 Century Park East office tower in Century City, sued tenant WealthStone and its guarantor, Andres Szita, in an early August 2026 complaint seeking about $1.1 million in unpaid rent and other charges, The Real Deal reported. The total combines $393,000 the landlord was awarded in an earlier suit against WealthStone with another $708,000 it says it is owed. Neither Robert Held, Held Properties' CEO, nor Szita responded to requests for comment.",
+      significance: "The landlord is pursuing the lease guarantor as well as the tenant, for a total that includes an amount already awarded in an earlier case. A personal guaranty can leave a principal exposed to everything a tenant owes, so landlords should get one from tenants without much credit history, and principals should track the lease they back.",
       body: [
-        "Held Properties, Inc., the family-owned owner of the 1880 Century Park East office tower in Los Angeles's Century City submarket, has filed a new lawsuit against its tenant, WealthStone, LLC, and WealthStone principal Andres Szita, seeking roughly $1.1 million in unpaid rent and related damages. The complaint, filed in Los Angeles County Superior Court in early August 2026, is notable less for its size than for what it signals to commercial landlords and guarantors alike: a defaulting tenant's principal can remain on the hook for a lease's full economic term even after a landlord has already reduced part of the debt to judgment once.",
-        "According to the complaint, WealthStone leased roughly 4,400 square feet on the tenth floor of 1880 Century Park East under a five-year deal signed in 2019, with rent escalating from $3.75 per square foot per month in the first year to $4.22 per square foot per month by 2024 — annual rent that grew from around $197,000 to roughly $222,000 over the lease term. Held Properties alleges that WealthStone fell behind on payments and ultimately stopped paying rent altogether, prompting an earlier lawsuit in which the landlord was awarded a $393,000 judgment. The new complaint alleges that even that judgment did not resolve the tenant's exposure: Held Properties says it is now owed an additional $708,000, and it is naming Szita personally as a defendant because he signed a guaranty backing WealthStone's lease obligations. Combined, Held Properties puts the total owed, from WealthStone, from Szita, or from both, at approximately $1.1 million.",
-        "The legal significance of the filing lies in the guaranty, not the underlying nonpayment. Commercial landlords routinely require a personal or corporate guaranty from a tenant's principal when the tenant itself is a thinly capitalized special-purpose entity, precisely so that a judgment against the tenant is not the landlord's only recourse if the entity turns out to be judgment-proof. WealthStone, a real estate investment and asset-management platform that Szita and his brother, Jean Paul Szita, launched after departing the leadership of Laurus Corporation, appears to fit that profile: it is an operating platform for real estate deals rather than a company with the kind of independent balance sheet that would make a landlord comfortable extending credit on the entity's signature alone. By pursuing Szita individually, Held Properties is doing exactly what the guaranty was drafted to allow: reaching past a tenant entity that has already proven unable or unwilling to satisfy one judgment to a principal whose personal assets are presumably easier to collect against.",
-        "The case also illustrates a sequencing issue that commercial landlords and their counsel should watch closely: a first judgment against a defaulting tenant does not necessarily capture the full scope of what is owed, particularly where rent continued to accrue, or went unpaid, after that judgment was entered. Held Properties' decision to file a second, larger action, rather than attempting to amend or supplement the earlier judgment, suggests the landlord is treating each additional period of nonpayment as its own actionable default, a strategy that keeps the guarantor's exposure current rather than capped at whatever amount was fixed in an earlier judgment.",
-        "For asset managers and landlords holding leases backed by principal guaranties, the case is a reminder that a guaranty's value is realized only when it is actually enforced against the individual, and that serial defaults may require serial litigation rather than a single dispositive judgment. For tenants and their principals, particularly those operating through investment platforms or special-purpose entities common in real estate, the filing underscores that a personal guaranty is not a formality to be signed and forgotten: it is a standing exposure that survives, and can be re-triggered by, continued nonpayment even after a landlord has already gone to judgment once.",
-        "Commercial landlords negotiating leases with thinly capitalized tenant entities should insist on a personal or corporate guaranty and should treat each new period of default as a fresh, independently actionable claim rather than folding it into an earlier judgment. Guarantors should understand that satisfying, or even fully litigating, one judgment against the tenant entity does not extinguish their own exposure for rent that accrues afterward. And any principal who signs a guaranty on behalf of an operating or investment platform should track the underlying entity's lease compliance directly, since a landlord that has already been forced to sue once is likely to move quickly, and personally, the second time."
+        "Held Properties, a family-owned company, has sued WealthStone, a tenant at its 1880 Century Park East office tower in Century City, over unpaid rent, The Real Deal reported. WealthStone is a real estate firm run by brothers Andres and Jean Paul Szita, who also started the development company Laurus Corporation and its fundraising arm, Ethika Investments. The early August complaint says WealthStone \"fell behind on payments\" and \"has failed and refused\" to pay rent.",
+        "This is the landlord's second suit against the tenant. Held Properties was awarded $393,000 in an earlier case and now says it is owed another $708,000 in back rent, other charges and interest. It is also suing Andres Szita personally as the lease's guarantor and says he is liable for the full $1.1 million, including the earlier award; it appears to want the total from WealthStone, Szita or both. Neither Robert Held, the company's CEO, nor Szita responded to requests for comment.",
+        "According to the five-year lease attached to the complaint, the 2019 deal covered about 4,400 square feet on the 10th floor. Rent started at $3.75 per square foot a month and rose each year to $4.22 in 2024, or roughly $197,000 in the first year and $222,000 in the last. The Real Deal noted that Class A space in Century City now rents for about $7.75 per square foot a month. The 15-story building has more than 300,000 square feet of offices."
       ],
       timeline: [
-        { when: "2019", label: "WealthStone signs a five-year lease for space at 1880 Century Park East" },
-        { when: "August 2026", label: "Held Properties sues WealthStone and guarantor Andres Szita for roughly $1.1M in unpaid rent", current: true }
+        { when: "2019", label: "WealthStone signs a five-year lease for about 4,400 sf on the 10th floor of 1880 Century Park East" },
+        { when: "Before August 2026", label: "Held Properties is awarded $393,000 in an earlier suit against WealthStone" },
+        { when: "Early August 2026", label: "Held Properties sues WealthStone and guarantor Andres Szita for about $1.1M", current: true }
       ],
       tags: ["personal guaranty", "commercial lease", "rent default", "office", "century city"]
     },
@@ -8055,34 +7934,38 @@ const RELAW_DATA = {
       property: {"name": "Pembroke Lakes Mall", "city": "Pembroke Pines", "state": "FL"},
       addedDate: "2026-10-10",
       featured: true,
-      title: "Deutsche Bank National Trust Co. v. Pembroke Lakes Mall LLC (CMBS Foreclosure & Receivership)",
-      brief: "Deutsche Bank, as CMBS trustee, sued to foreclose on the roughly 750,000-square-foot Pembroke Pines, Florida mall owned by Brookfield's BGRE platform after the $260 million loan matured unpaid, and seeks a receiver.",
+      title: "Deutsche Bank Sues to Foreclose on Pembroke Lakes Mall Over $260M Loan",
+      brief: "Deutsche Bank sued to foreclose on Pembroke Lakes Mall in Pembroke Pines, Florida, after the $260 million loan on the BGRE-owned mall went unpaid at maturity, and asked the court to appoint a receiver.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-10-08",
       jurisdiction: "Circuit Court of the 17th Judicial Circuit, Broward County, Florida",
       state: "FL",
-      amount: "$263.8M owed (principal, interest, and default interest) on a $260M loan",
-      amountUsd: 263800000,
+      amount: "$260M loan",
+      amountUsd: 260000000,
       amountBasis: "loan",
       propertyType: "Retail",
       source: "live",
       sourceUrl: "https://therealdeal.com/miami/2026/10/08/pembroke-lakes-mall-faces-260-million-foreclosure/",
-      summary: "Deutsche Bank National Trust Company, as trustee for the GSMS 2013-PEMB CMBS trust, sued Pembroke Lakes Mall LLC in Broward County Circuit Court to foreclose on the roughly 750,000-square-foot Pembroke Pines, Florida mall owned by Brookfield's BGRE platform, after the $260 million loan matured unpaid on March 1, 2025. Deutsche Bank says the borrower now owes approximately $263.8 million as of September 1, 2026, and is separately asking the court to immediately appoint Carmen Spinoso of Spinoso Real Estate Group as receiver over the property.",
-      significance: "The mall's April 2026 appraisal of $112 million, down 73% from its $427 million value at the loan's 2013 closing, left the lender severely undersecured once a three-year extension request was denied -- illustrating how special servicers are moving quickly to foreclosure and receivership, rather than continued forbearance, once a valuation gap of this size is documented on legacy retail CMBS debt nationally.",
+      summary: "Deutsche Bank filed a foreclosure suit in September 2026 against the ownership of Pembroke Lakes Mall, a 748,800-square-foot shopping center at 11701 Pines Boulevard in Pembroke Pines, Florida, The Real Deal reported, citing the South Florida Business Journal. The lender alleges the owner did not repay the $260 million loan, issued in 2013, by its March 2025 maturity date, and it has asked the court to appoint Carmen Spinoso of Spinoso Real Estate Group as receiver. The mall is owned by BGRE, formerly Brookfield Properties, which was not named in the suit.",
+      significance: "The mall still earns more than its debt payments, but its appraised value is now well below the loan, and its 3.6% rate is far below what a new loan would cost. That combination makes a maturity default hard to fix by refinancing. Owners with older CMBS loans coming due should expect lenders to ask for a receiver at the start of a foreclosure.",
       body: [
-        "Deutsche Bank National Trust Company has filed suit in Broward County Circuit Court to foreclose on Pembroke Lakes Mall, a roughly 750,000-square-foot regional mall in Pembroke Pines, Florida owned by an affiliate of Brookfield's real estate platform, BGRE (formerly Brookfield Properties). The suit, reported October 8, 2026, seeks both a foreclosure judgment against borrower Pembroke Lakes Mall LLC and the immediate appointment of a receiver, Carmen Spinoso of Spinoso Real Estate Group, to take control of the property while the case proceeds.",
-        "Deutsche Bank brings the suit as trustee for a 2013-vintage, single-asset, single-borrower CMBS trust, GSMS 2013-PEMB, sponsored by Goldman Sachs, that holds the $260 million, 12-year, interest-only, non-recourse loan secured by the mall. The loan matured on March 1, 2025, and the complaint alleges the borrower failed to repay it, triggering a maturity default. Deutsche Bank says it notified the borrower of default in April 2025 and again in April 2026, and that the total amount now due -- principal, accrued interest, and default interest -- stood at approximately $263.8 million as of September 1, 2026.",
-        "According to Kroll Bond Rating Agency, which rates the GSMS 2013-PEMB securitization and affirmed its ratings as recently as September 30, 2026, BGRE requested a three-year extension of the maturity date, which was not granted. The loan was transferred to special servicing following the 2025 maturity default. The valuation collapse underlying the default is stark: the property was appraised at $427 million when the loan closed in 2013, but a more recent appraisal, dated April 2026, values the mall at just $112 million, a decline of roughly 73 percent, leaving the lender meaningfully undersecured.",
-        "Procedurally, the case follows the standard playbook for a defaulted CMBS loan secured by Florida commercial real estate: Florida permits a mortgagee to seek appointment of a receiver concurrently with a foreclosure action, particularly where the lender can show the collateral's income stream or physical condition is at risk without independent management. By asking the court to install a receiver immediately, rather than waiting for a final foreclosure judgment, Deutsche Bank is seeking to secure control over leasing decisions, operating expenses, and tenant relationships at the mall while the underlying foreclosure claim is litigated.",
-        "For mall owners and other retail sponsors carrying 2012-2013-vintage CMBS debt now reaching maturity after a decade-plus of structural retail headwinds, the case illustrates the arithmetic that special servicers and courts are increasingly confronting: when a decade-old appraisal no longer bears any relationship to current value, extension requests become far harder to justify economically, and lenders have strong incentive to move quickly into receivership rather than continue carrying a severely impaired loan. Borrowers facing a similar maturity default should assume a wide valuation gap will make servicers and trustees far less receptive to extension requests and should expect foreclosure and receivership filings to follow quickly once an extension is denied, since lenders increasingly pursue receivership as an independent, faster remedy alongside -- not merely following -- a foreclosure claim, shifting operational control of a distressed asset away from the sponsor well before any final judgment."
+        "Deutsche Bank has sued to foreclose on Pembroke Lakes Mall, a 748,800-square-foot regional mall at 11701 Pines Boulevard in Pembroke Pines, Florida. The Real Deal reported the case on October 8, 2026, citing the South Florida Business Journal, and said the suit was filed the previous month. The mall is owned by BGRE, formerly Brookfield Properties, which was not named as a defendant.",
+        "According to the lawsuit as reported, the owner did not repay the $260 million loan, issued in 2013, when it matured in March 2025. The loan then moved to special servicing, and the lender says the borrower owes the full principal plus fees and interest. Deutsche Bank has asked the court to appoint Carmen Spinoso of Spinoso Real Estate Group as receiver to run the property.",
+        "The Business Journal reported that the mall was appraised at $427 million in 2013 and at $112 million as of April 2026. The Real Deal reported that the 1992-built center is 96% occupied, with Macy's and H&M as its largest tenants; the Dillard's and JCPenney stores on the site are owned separately.",
+        "The mall produced $8.3 million in net operating income in the first half of 2026, against $3.9 million in required debt service, according to the report. The Real Deal noted that refinancing could still be difficult because the loan carries a 3.6% interest rate, well below current rates."
       ],
       judge: null,
       parties: [
-        { name: "Deutsche Bank National Trust Company", role: "Plaintiff/Trustee" },
-        { name: "Pembroke Lakes Mall LLC", role: "Defendant/Borrower" }
+        { name: "Deutsche Bank", role: "Plaintiff/Lender" }
       ],
-      tags: ["cmbs", "commercial-mortgage-foreclosure", "retail", "receivership", "florida"]
+      tags: ["cmbs", "commercial-mortgage-foreclosure", "retail", "receivership", "florida"],
+      timeline: [
+        { when: "2013", label: "$260 million loan issued; mall appraised at $427 million" },
+        { when: "March 2025", label: "Loan reaches maturity without being repaid, according to the lawsuit as reported" },
+        { when: "April 2026", label: "Mall appraised at $112 million, per the South Florida Business Journal" },
+        { when: "September 2026", label: "Deutsche Bank files foreclosure suit and asks for a receiver", current: true }
+      ]
     },
     {
       id: "live-256",
@@ -8959,14 +8842,12 @@ const RELAW_DATA = {
       sourceUrl: "https://therealdeal.com/chicago/2026/10/10/merchants-bank-files-suit-against-patel-wolkowicki/",
       propertyType: "Multifamily",
       summary: "Merchants Bank of Indiana has filed a foreclosure complaint, reported on October 10, 2026 as filed earlier in October, in Cook County Circuit Court against borrower GRV Jackson Park LLC, seeking to foreclose on three apartment buildings in Chicago's South Shore and Jackson Park areas. The suit covers two loan facilities totaling $6.4 million made in June 2024, on which the borrower allegedly stopped making monthly payments in March 2025. The complaint also names the venture's two principals under their unconditional guaranties and seeks to hold them liable for any deficiency.",
-      significance: "The case adds to a series of creditor actions against one South Side multifamily portfolio whose owners are already suing each other. It shows how a lender's collateral can deteriorate when an owner group breaks down: the complaint describes sewage backups, fire damage and a city-ordered evacuation, and the lender has been paying for boiler replacements itself. It also comes from a lender that has disclosed large multifamily charge-offs tied to suspected mortgage fraud, which makes the case a useful marker for distressed Chicago apartment debt.",
+      significance: "A lender's collateral can lose value quickly when the owners of a building fall out with each other. Protective advances for items like boilers keep a building running but raise the amount a sale has to recover, and guarantors who are suing each other may be slow to pay.",
       body: [
-        "Merchants Bank of Indiana has sued in the Circuit Court of Cook County to foreclose on three South Side Chicago apartment properties owned by GRV Jackson Park LLC. The properties are 6750-52 South Merrill Avenue (also known as 2116-20 East 68th Street), 6952-58 South Paxton Avenue and 6920-30 South Oglesby Avenue, in the South Shore and Jackson Park neighborhoods. The Real Deal reported the suit on October 10, 2026 and said it was filed earlier in October. The article does not give an exact filing date.",
-        "According to the complaint as reported, the bank made two loan facilities totaling $6.4 million to GRV Jackson Park LLC in June 2024. The borrower allegedly stopped making its required monthly payments in March 2025. Besides foreclosure, the bank names the venture's two principals as defendants under the unconditional guaranties they signed when the loans closed. The bank seeks to hold them responsible for any shortfall after a sale.",
-        "The complaint describes serious physical problems at the buildings, including raw sewage backups, standing water and fire damage. In April 2025, city officials obtained a court order to evacuate and secure the Paxton Avenue building. The bank says it made protective advances to replace boilers. Under Illinois mortgage foreclosure practice, those advances typically become part of the secured debt.",
-        "The case is one of several fights over the same owner group's portfolio. Its two principals are in separate litigation with each other, with competing claims of diverted funds and a forfeited equity stake across dozens of properties. Counsel for one principal told the publication that his client had resigned as manager of the borrowing LLC before the March 2025 default and the alleged code violations, and that an affiliate of the other principal, Ruby Development Group LLC, took over management. The bank's position, as reported, is that a change in manager does not affect the guaranties both principals signed at closing.",
-        "The lender's own situation adds context. The publication reported that Merchants Bank disclosed $124.1 million in charge-offs in 2025, about 70 percent of it tied to five borrower relationships linked to suspected multifamily mortgage fraud. The article does not say whether this borrower group is one of the five. It reported that the bank's provision for credit losses fell sharply by the second quarter of 2026.",
-        "For lenders on small and mid-size multifamily loans, the case highlights several practical points. Protective advances for life-safety items such as boilers can be necessary to preserve collateral, but they increase the exposure a sale must cover. Recovery on guaranties may depend on the guarantors' finances and on any defenses that come out of their dispute with each other. A guarantor's argument that he left the borrower's management before the default will usually not defeat an unconditional guaranty, but it can slow collection. Buyers watching Cook County foreclosure dockets should expect these buildings to need significant capital before they are habitable and stable."
+        "Merchants Bank of Indiana has sued in Cook County Circuit Court to foreclose on three South Side Chicago apartment buildings owned by GRV Jackson Park LLC, The Real Deal reported on October 10, 2026. The buildings, in the South Shore and Jackson Park areas, are at 6750-52 South Merrill Avenue (also known as 2116-20 East 68th Street), 6920-30 South Oglesby Avenue and 6952-58 South Paxton Avenue. The article says the complaint was filed earlier in October but does not give the date.",
+        "The complaint says the bank lent the borrower $6.4 million through two loan facilities in June 2024 and that the monthly mortgage payments stopped in March 2025. It also names two individual investors who, the bank says, signed unconditional guaranties when the loans were made, and asks the court to hold them liable for any deficiency.",
+        "The complaint describes sewage backups, standing water and fire damage at the buildings. According to the article, the city won a court order in April 2025 requiring the Paxton Avenue building to be evacuated and secured, and the bank paid for new boilers through protective advances.",
+        "An attorney for one of the guarantors told The Real Deal that his client resigned as manager of GRV Jackson Park before the March 2025 defaults and the alleged code violations, and that the other guarantor's company, Ruby Development Group LLC, took over. The bank's position, according to the suit, is that both men signed their guaranties at closing regardless of later changes in management. The other guarantor and the bank did not respond to requests for comment. The two investors are also suing each other in a separate case over their shared portfolio. The Real Deal also reported that the bank disclosed $124.1 million in 2025 charge-offs, about 70% of it from five borrower relationships tied to suspected mortgage fraud; it is not known whether this borrower group was one of them."
       ],
       tags: ["foreclosure", "multifamily", "chicago", "guaranty", "cook county"],
       parties: [
@@ -10153,40 +10034,40 @@ const RELAW_DATA = {
       addedDate: "2026-10-19",
       seoTitle: "West End L.A.: ACORE Capital Declares GPI Default",
       seoDescription: "ACORE Capital declared GPI Companies in default on its vacant West End office campus on the former Westside Pavilion Macy's site, owing $80M+.",
-      property: { name: "West End", address: "10730 West Pico Boulevard", city: "Los Angeles", state: "CA" },
-      title: "ACORE Capital Declares Default on GPI Companies' West End Office Campus",
-      brief: "ACORE Capital recorded a notice of default against GPI Companies on West End, a 235,000-square-foot West Los Angeles creative office campus that reportedly remains entirely vacant, claiming more than $80 million owed.",
+      property: {"name": "West End", "address": "10730 West Pico Boulevard", "city": "Los Angeles", "state": "CA"},
+      title: "Acore Capital Declares Default on GPI Companies' West End Office Campus in West Los Angeles",
+      brief: "Acore Capital recorded a notice of default against GPI Companies on West End, a 235,000-square-foot West Los Angeles office campus that appears to be fully vacant; The Real Deal reported that GPI owes $82.5 million.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-10-12",
       jurisdiction: "Los Angeles County, California (non-judicial trustee's sale)",
       state: "CA",
       propertyType: "Office",
-      amount: "More than $80M claimed owed; 2024 refinancing reported at $97.6M",
-      amountUsd: 80000000,
+      amount: "$82.5M reported owed on a $97.6M loan made in 2024",
+      amountUsd: 82500000,
       amountBasis: "loan",
       source: "live",
       sourceUrl: "https://therealdeal.com/la/2026/10/12/gpi-defaults-on-loan-faces-foreclosure-of-west-la-office-campus/",
-      summary: "ACORE Capital recorded a notice of default against developer GPI Companies in September 2026 over West End, a 235,000-square-foot creative office campus at 10730 West Pico Boulevard in West Los Angeles, built on the site of a shuttered Macy's at the former Westside Pavilion. The Real Deal reported the default on October 12, 2026, saying ACORE claims more than $80 million is owed; the campus, completed in 2022, reportedly remains entirely vacant.",
-      significance: "The default underscores how speculative creative-office conversions financed in the low-rate years before 2022 are colliding with a leasing market that has been slow to absorb new office product without a signed anchor tenant. Lenders and sponsors with similar vacant spec-office collateral nearing maturity should treat the case as a signal that lenders are moving to recorded defaults relatively quickly once a non-performing asset shows no credible near-term leasing path.",
+      summary: "Acore Capital recorded a notice of default and election to sell against GPI Companies in September 2026 over West End, a 235,000-square-foot creative office campus at 10730 West Pico Boulevard in West Los Angeles, The Real Deal reported. The notice claims GPI missed payments on a $97.6 million loan signed in 2024, and the article says GPI owes $82.5 million. The campus, built on the site of a former Macy's at the old Westside Pavilion and completed in 2022, appears never to have been leased.",
+      significance: "A building with no tenants has no income to pay its loan, however new it is. Owners of vacant office space nearing a payment or maturity date should start workout talks early, because in California a recorded notice of default starts the clock toward a trustee's sale.",
       body: [
-        "A creative office campus built on the bones of a shuttered Macy's department store in West Los Angeles has landed in default, with its lender, ACORE Capital, declaring that developer GPI Companies owes more than $80 million on the project. Public records reviewed by The Real Deal and WestsideToday show ACORE recorded a notice of default against GPI in September 2026 after the developer failed to make required payments on the debt secured by West End, a 235,000-square-foot office campus at 10730 West Pico Boulevard.",
-        "The notice marks a sharp reversal for a project that, on paper, should have benefited from one of the Westside's more creative adaptive-reuse stories. GPI purchased the shuttered Macy's store and an adjoining parking structure at the former Westside Pavilion mall in an off-market deal in 2017, then converted the site into creative office space aimed at entertainment, media, and technology tenants. Construction financing came from ACORE Capital, reported at $120 million in 2019; the parties are separately reported to have entered a $97.6 million refinancing agreement in 2024 once the building was substantially complete. The two outlets' accounts differ on exactly how that 2024 debt relates to the original construction note, but both agree the campus, completed in 2022, has apparently never signed an anchor tenant and appears to sit entirely vacant today, based on marketing materials and site observations cited in the reporting.",
-        "For a project whose marketing has long centered on move-in-ready creative space, zero recorded leasing activity four years after completion is itself a significant data point, independent of the default. Neither GPI's co-founders and managing partners, Cliff Goldstein and Drew Planting, nor representatives for ACORE Capital responded to requests for comment reported in the coverage, leaving the borrower's plan for curing the default, if any, unclear.",
-        "California is a non-judicial foreclosure state, meaning ACORE does not need to file a lawsuit to foreclose; recording a notice of default under California Civil Code Section 2924 is itself the formal first step in the trustee's-sale process that can culminate in a public auction of the property, typically several months after the notice is recorded, absent a cure, forbearance agreement, or negotiated workout. GPI's position here is a familiar one in the current cycle for sponsors who financed speculative office conversions during the low-rate years preceding 2022: the underlying real estate thesis ran into a leasing market that has been unusually slow to absorb new office product built on spec without a signed anchor, leaving the borrower with little operating income to service the debt and correspondingly little leverage in workout negotiations.",
-        "For commercial real estate sponsors with vacant or under-leased spec office product nearing a loan maturity or refinancing deadline, the West End default is a reminder that a strong physical asset and a sound redevelopment concept do not, by themselves, generate the operating cash flow a lender needs to see before extending further patience. Borrowers facing a similar gap between completion and lease-up should engage lenders proactively, well before a scheduled payment is missed, documenting a credible leasing pipeline, since post-default negotiating leverage in a non-judicial foreclosure state weakens quickly once the statutory trustee's-sale clock starts running; lenders and special servicers evaluating workouts on comparable vacant creative-office collateral should treat this default as a cautionary data point on the risk of financing speculative office product without a leasing covenant or pre-leasing threshold built into the loan documents."
+        "Acore Capital has declared GPI Companies in default on the loan secured by West End, a 235,000-square-foot creative office campus at 10730 West Pico Boulevard in West Los Angeles, according to September records reported by The Real Deal on October 12, 2026. The notice of default and election to sell claims that GPI missed payments, and Acore is demanding immediate payment of everything owed. The article says GPI owes $82.5 million.",
+        "GPI developed the campus after buying a shuttered Macy's store at the former Westside Pavilion, and the offices were finished in 2022. Acore made a $120 million construction loan to GPI in 2019. The loan now in default is a $97.6 million loan signed in 2024, which The Real Deal said appears to be separate from the construction loan.",
+        "Online marketing materials suggest the campus was never leased, the article said. GPI co-founders Cliff Goldstein and Drew Planting and representatives of Acore did not immediately respond to The Real Deal's requests for comment.",
+        "California lenders can foreclose without filing a lawsuit. A recorded notice of default and election to sell is the first formal step toward a public trustee's sale, which can follow months later unless the loan is cured or the parties agree on a workout."
       ],
       tags: ["office", "notice-of-default", "foreclosure", "los-angeles", "creative-office"],
       parties: [
         { name: "GPI Companies", role: "Borrower" },
-        { name: "ACORE Capital", role: "Lender" }
+        { name: "Acore Capital", role: "Lender" }
       ],
       judge: null,
       timeline: [
-        { when: "2019", label: "ACORE Capital provides reported $120 million construction financing for GPI Companies' West End redevelopment of the former Westside Pavilion Macy's" },
-        { when: "2024", label: "GPI Companies and ACORE Capital reported to enter a $97.6 million refinancing agreement on the completed campus" },
-        { when: "September 2026", label: "ACORE Capital records a notice of default against GPI Companies, claiming more than $80 million owed" },
-        { when: "October 12, 2026", label: "The Real Deal reports the default and that the campus faces foreclosure", current: true }
+        { when: "2019", label: "Acore Capital makes a $120 million construction loan to GPI Companies" },
+        { when: "2022", label: "West End office campus completed" },
+        { when: "2024", label: "GPI and Acore sign a $97.6 million loan on the campus" },
+        { when: "September 2026", label: "Acore records a notice of default and election to sell, claiming missed payments" },
+        { when: "October 12, 2026", label: "The Real Deal reports the default and that GPI owes $82.5 million", current: true }
       ]
     },
     {
@@ -10194,9 +10075,9 @@ const RELAW_DATA = {
       addedDate: "2026-10-19",
       seoTitle: "North San Jose Campus: Jefferies LoanCore Default Hits $80M",
       seoDescription: "Archer Aviation's HQ campus at 190-230 West Tasman Drive in San Jose fell into default after owner KU Education missed an $80M loan maturity.",
-      property: { name: "West Tasman Drive Campus", address: "190-230 West Tasman Drive", city: "San Jose", state: "CA" },
-      title: "Jefferies LoanCore Declares Default on Archer Aviation-Anchored North San Jose Office Campus",
-      brief: "An affiliate of KU Education defaulted on an $80 million Jefferies LoanCore loan on a roughly 287,370-square-foot North San Jose office campus that houses Archer Aviation's headquarters.",
+      property: {"name": "West Tasman Drive Campus", "address": "190-230 West Tasman Drive", "city": "San Jose", "state": "CA"},
+      title: "KU Education Affiliate Defaults on $80M Jefferies LoanCore Loan on Archer Aviation's San Jose Headquarters Campus",
+      brief: "An affiliate of KU Education was served a notice of default on an $80 million Jefferies LoanCore loan on a 287,370-square-foot North San Jose office campus that houses Archer Aviation's headquarters.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-10-13",
@@ -10208,14 +10089,13 @@ const RELAW_DATA = {
       amountBasis: "loan",
       source: "live",
       sourceUrl: "https://therealdeal.com/san-francisco/2026/10/13/north-san-jose-office-campus-falls-into-default/",
-      summary: "A three-building, roughly 287,370-square-foot office campus at 190, 210, and 230 West Tasman Drive in North San Jose fell into default after owner KU Education's affiliate failed to repay an $80 million loan, originated by Jefferies LoanCore in 2016, that matured unpaid in August 2026. The Real Deal and The Registry reported October 13, 2026 that KU Education was served a notice of default in October; the campus serves as the corporate headquarters of air-taxi developer Archer Aviation, which leases the 190 and 210 buildings.",
-      significance: "The default is one of two North San Jose office-campus loan defaults reported within days of each other this month, suggesting mid-2010s-vintage suburban office debt across the submarket is maturing into a market that has not recovered pre-pandemic valuations even where a well-capitalized tenant anchors the building. Lenders holding comparable maturing suburban office debt should review workout opportunities early, and anchor tenants should confirm their lease protections ahead of any ownership-level foreclosure.",
+      summary: "An affiliate of real estate investment firm KU Education was served with a notice of default on an $80 million loan from Jefferies LoanCore, made in 2016, on a three-building, 287,370-square-foot office campus at 190, 210 and 230 West Tasman Drive in North San Jose, The Real Deal reported on October 13, 2026, citing the Mercury News. The loan matured in August 2026 and was not paid in full. Air-taxi maker Archer Aviation leases the 190 and 210 buildings and has its headquarters at 190 West Tasman.",
+      significance: "A loan on a building with a growing anchor tenant can still default when it comes due, if the owner cannot refinance or repay it at maturity. Anchor tenants in buildings like this should check how their lease would be treated if the lender takes over the property.",
       body: [
-        "A three-building office campus in North San Jose that serves as the corporate headquarters of air-taxi developer Archer Aviation has fallen into default after its owner failed to repay an $80 million loan at maturity, according to reporting by The Real Deal and The Registry. The campus, located at 190, 210, and 230 West Tasman Drive and totaling roughly 287,370 square feet, is owned by an affiliate of KU Education, which was served with a notice of default in October after the loan, originated by Jefferies LoanCore in 2016, matured unpaid in August 2026.",
-        "Archer Aviation's headquarters occupies the 190 West Tasman building, and the company also leases the adjoining 210 West Tasman building; the campus's 230 West Tasman building was previously leased to smart-meter maker Itron before that company relocated its own headquarters to nearby Santa Clara. Archer's presence as the anchor tenant means the dispute between KU Education and its lender sits directly beneath one of Silicon Valley's more closely watched growth companies, even though Archer itself is not a party to the loan default and its lease obligations are unaffected by the ownership-level dispute.",
-        "The default follows a now-familiar arc for commercial mortgages originated in the mid-2010s on long amortization schedules: a loan that priced and underwrote comfortably a decade ago matures into a dramatically higher interest-rate environment, and a refinancing that once would have been routine instead requires fresh equity, a rate the borrower cannot support, or a lender unwilling to extend on the existing terms. Jefferies LoanCore's decision to proceed to a notice of default, rather than negotiate an extension, suggests the entity managing the loan concluded that further forbearance was not in its interest, a judgment that often turns on updated appraisals showing the collateral's value relative to the outstanding debt.",
-        "As in other California commercial foreclosures, the notice of default recorded against the KU Education affiliate is not a lawsuit; it is the formal trigger for the state's non-judicial trustee's-sale process under California Civil Code Section 2924, which, absent a cure or negotiated resolution, proceeds toward a public trustee's sale on a statutory timeline measured in months. The reported default sits in a broader pattern of North San Jose office distress this month: a separate four-building campus a few miles away that once housed eBay's offices has also fallen into default, with Deutsche Bank the lender there, suggesting that mid-2010s-vintage office debt across the submarket is coming due into a market that has not fully recovered its pre-pandemic occupancy or valuations.",
-        "Owners of commercial office assets financed on 2015-2018-vintage mortgages approaching maturity should assume lenders are underwriting refinancing requests against current, not origination-era, valuations and interest rates, and should begin workout conversations well before a scheduled maturity date rather than after a missed payment, since the leverage shift once a notice of default is recorded can be significant and fast-moving in a non-judicial state. Tenants in buildings facing an ownership-level loan default, including anchor tenants like Archer Aviation here, should confirm that a change in ownership through foreclosure would not itself constitute a default or termination right under their own lease, since a foreclosing lender typically takes title subject to existing leases but tenants are often unaware of their own protections until a dispute arises."
+        "An affiliate of KU Education has been served with a notice of default on an $80 million loan that Jefferies LoanCore made in 2016 on a three-building office campus in North San Jose, The Real Deal reported on October 13, 2026. Citing the Mercury News and documents filed with the Santa Clara County Recorder's Office, the article said the loan matured in August 2026 and was not paid in full when it came due.",
+        "The campus covers 287,370 square feet at 190, 210 and 230 West Tasman Drive. Archer Aviation, which is developing air taxis, leases the 190 and 210 buildings and has its headquarters in the 190 building. Itron Networked Solutions previously leased the 210 and 230 buildings before it moved its headquarters to Santa Clara.",
+        "The Real Deal noted that Archer has been expanding in the region, including a lease this summer of the 501,000-square-foot Cochrane Technology Center in Morgan Hill. Citing Kidder Mathews, the article put Silicon Valley office vacancy at 15.9% in the third quarter of 2026 and San Jose's at 17.8%.",
+        "In California, a notice of default is not a lawsuit. It is the first formal step in the non-judicial process that can end in a public trustee's sale months later unless the loan is repaid, restructured or otherwise resolved."
       ],
       tags: ["office", "notice-of-default", "foreclosure", "san-jose", "archer-aviation"],
       parties: [
@@ -10225,10 +10105,9 @@ const RELAW_DATA = {
       ],
       judge: null,
       timeline: [
-        { when: "2016", label: "Jefferies LoanCore originates the $80 million loan secured by the West Tasman Drive campus" },
-        { when: "August 2026", label: "The loan matures unpaid" },
-        { when: "October 2026", label: "KU Education's affiliate is served a notice of default" },
-        { when: "October 13, 2026", label: "The Real Deal and The Registry report the default", current: true }
+        { when: "2016", label: "Jefferies LoanCore makes the $80 million loan on the West Tasman Drive campus" },
+        { when: "August 2026", label: "The loan matures and is not paid in full" },
+        { when: "October 13, 2026", label: "The Real Deal, citing the Mercury News, reports that the KU Education affiliate was served a notice of default", current: true }
       ]
     },
     {
@@ -10236,42 +10115,41 @@ const RELAW_DATA = {
       addedDate: "2026-10-19",
       seoTitle: "Former eBay Campus San Jose: Deutsche Bank Default Hits $98.4M",
       seoDescription: "Deutsche Bank's unpaid balance on the vacant former eBay campus in San Jose grew to $98.4M as owners Ocean West Capital and Hana Asset head to foreclosure.",
-      property: { name: "North First Street Campus", address: "2515-2545 North First Street", city: "San Jose", state: "CA" },
-      title: "Deutsche Bank Moves Toward Foreclosure on Vacant Former eBay Campus in San Jose",
-      brief: "Deutsche Bank plans to foreclose on a vacant former eBay campus in North San Jose after its owners defaulted on an $88.1 million loan now at $98.4 million; Morningstar values it at roughly $54.7 million.",
+      property: {"name": "North First Street Campus", "address": "2515-2545 North First Street", "city": "San Jose", "state": "CA"},
+      title: "Deutsche Bank Plans Foreclosure on Former eBay Campus in North San Jose",
+      brief: "Deutsche Bank plans to foreclose on a four-building North San Jose office campus once used by eBay, after its owners defaulted on an $88.1 million loan whose unpaid balance has reportedly grown to $98.4 million.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-10-15",
       jurisdiction: "Santa Clara County, California (non-judicial trustee's sale)",
       state: "CA",
       propertyType: "Office",
-      amount: "$88.1M loan; unpaid balance grown to $98.4M as of October 2026",
+      amount: "$88.1M loan; unpaid balance reported at $98.4M",
       amountUsd: 98400000,
       amountBasis: "loan",
       source: "live",
       sourceUrl: "https://therealdeal.com/san-francisco/2026/10/15/buyers-eye-san-jose-office-campus-in-default/",
-      summary: "A 250,100-square-foot, four-building North San Jose office campus once occupied by eBay is heading toward foreclosure after owners Ocean West Capital Partners and Hana Asset Management defaulted on an $88.1 million loan from Deutsche Bank AG, which filed an initial notice of default in July 2026. The Real Deal and Hoodline reported October 15 and 17, 2026 that the unpaid balance has grown to $98.4 million and that Deutsche Bank plans a full foreclosure; the owners bought the vacant campus for $132.5 million in 2018, and Morningstar now values it at roughly $54.7 million.",
-      significance: "The nearly 59% decline in appraised value since the 2018 purchase, against an unpaid loan balance now approaching double that appraisal, illustrates why lenders on underwater, income-less office collateral increasingly choose to foreclose rather than restructure. Prospective buyers already circling the asset ahead of a completed foreclosure should distinguish carefully between acquiring the loan, buying REO from the lender, or taking a negotiated deed-in-lieu, since each carries different risk.",
+      summary: "Deutsche Bank AG's New York Branch filed an initial notice of default in July 2026 on an $88.1 million loan to Hana Asset Management and Ocean West Capital Partners, owners of a four-building office campus at 2515-2545 North First Street in North San Jose that eBay once occupied. The Real Deal reported on October 15, 2026, citing the Mercury News, that the unpaid balance has grown to $98.4 million and that the bank plans a full foreclosure. The owners paid $132.5 million for the campus in 2018, and Morningstar data put its value at $54.7 million this summer.",
+      significance: "The campus is now valued at well under the debt against it, which leaves the owners little reason to put in new money and the lender little reason to extend. Buyers interested in a property like this should be clear about whether they are buying the loan, buying from the lender after foreclosure, or making a deal with the owners, since each carries different risks.",
       body: [
-        "A four-building North San Jose office campus once occupied by eBay is sliding toward a full foreclosure after its owners defaulted on an $88.1 million loan, with the unpaid balance now reported at $98.4 million as accrued interest, fees, and default charges continue to mount. The Real Deal and Hoodline report that Deutsche Bank AG, the lender, filed an initial notice of default against the campus's owners, Ocean West Capital Partners and Hana Asset Management, in July 2026, and that sources familiar with the matter say Deutsche Bank now plans to proceed with a complete foreclosure rather than negotiate a further extension.",
-        "The 250,100-square-foot campus, located at 2515, 2525, 2535, and 2545 North First Street, was acquired by the Ocean West and Hana partnership for $132.5 million in 2018, a period when Silicon Valley office product commanded some of the highest valuations in the country. eBay had occupied the campus as part of its broader San Jose footprint but vacated in 2020 to consolidate operations at its main headquarters in the city's Willow Glen district; under the terms of its lease, eBay continued paying rent on the vacated space for several years before that obligation terminated in March 2026, removing what had been the ownership group's primary income stream just as the loan's troubles were becoming acute.",
-        "Citing Morningstar Credit data relayed by the Bay Area News Group, the reports put the campus's current value at approximately $54.7 million, a decline of roughly 59% from the $132.5 million purchase price seven years ago. That gap between the shrinking collateral value and the growing unpaid loan balance, now nearly double the property's estimated worth, illustrates why Deutsche Bank's reported decision to pursue a full foreclosure, rather than continue extending or restructuring the debt, tracks a now-common lender calculus: once an appraisal shows the loan meaningfully underwater and the asset generates no offsetting rental income, a consensual workout offers the lender little advantage over simply taking title and remarketing the property.",
-        "Notably, The Real Deal's coverage indicates that prospective buyers, including Goodman Group and Harvest Properties, are already circling the campus in anticipation of a foreclosure sale or a negotiated transfer, even before the trustee's-sale process has concluded. That early interest reflects a broader dynamic in the current cycle: well-capitalized buyers are increasingly willing to underwrite vacant, distressed office assets at a sufficient discount to replacement cost in supply-constrained Silicon Valley submarkets, betting that today's trough valuations will prove a durable long-term basis even if near-term leasing remains slow. As with other California commercial mortgage defaults, Deutsche Bank's notice of default is a non-judicial filing under California Civil Code Section 2924 rather than a court complaint, proceeding toward a public trustee's sale on a statutory timeline unless the parties reach a deed-in-lieu or other negotiated transfer first.",
-        "Owners of vacant or soon-to-be-vacant single-tenant office assets should treat a departing anchor tenant's final rent payment date as a hard deadline for either securing replacement income or finalizing a workout with the lender, since a lender's patience during a tenant's wind-down period often evaporates once that income stream actually stops. Lenders and special servicers holding debt on comparable vacant Silicon Valley office campuses should expect this foreclosure, if completed, to become a closely watched comparable sale given the scale of the value decline already reflected in third-party appraisals, and prospective buyers circling distressed assets ahead of a completed foreclosure should confirm through counsel exactly what interest they would be acquiring, since a loan purchase, a post-foreclosure REO purchase, and a negotiated deed-in-lieu each carry different title, environmental, and holdover-tenant risk."
+        "Deutsche Bank AG's New York Branch filed an initial notice of default in July 2026 on an $88.1 million loan secured by a four-building office campus at 2515, 2525, 2535 and 2545 North First Street in North San Jose, The Real Deal reported on October 15, 2026, citing the Mercury News. The unpaid balance has grown to $98.4 million, up from the $59.8 million the bank said was unpaid this summer. Sources told the Mercury News that the bank plans to complete a full foreclosure and then sell the campus.",
+        "South Korea-based Hana Asset Management and El Segundo-based Ocean West Capital Partners bought the campus in 2018 for $132.5 million. Morningstar data cited by the Mercury News valued it at $54.7 million this summer, about 59% below the purchase price. The Real Deal reported in 2023 that one of the buildings had entered special servicing.",
+        "eBay once had a large office presence on the campus but left in 2020, moving staff to its headquarters at 2025 Hamilton Avenue in San Jose's Willow Glen district. It kept paying rent after it moved out, and its lease allowed it to stop payments in March, according to a 2023 Morningstar report cited in the article; the article does not give the year.",
+        "The Mercury News reported that Australia's Goodman Group and Bay Area firm Harvest Properties have shown interest in buying the campus. In California, a notice of default starts a non-judicial process that can lead to a public trustee's sale without a lawsuit."
       ],
       tags: ["office", "notice-of-default", "foreclosure", "san-jose", "ebay"],
       parties: [
-        { name: "Ocean West Capital Partners", role: "Borrower" },
-        { name: "Hana Asset Management", role: "Borrower" },
-        { name: "Deutsche Bank AG", role: "Lender" }
+        { name: "Ocean West Capital Partners", role: "Borrower/Owner" },
+        { name: "Hana Asset Management", role: "Borrower/Owner" },
+        { name: "Deutsche Bank AG, New York Branch", role: "Lender" }
       ],
       judge: null,
       timeline: [
-        { when: "2018", label: "Ocean West Capital Partners and Hana Asset Management buy the campus for $132.5 million" },
-        { when: "2020", label: "eBay vacates the campus but continues paying rent under its existing lease" },
-        { when: "March 2026", label: "eBay's remaining rent obligation under the lease terminates" },
-        { when: "July 2026", label: "Deutsche Bank AG files an initial notice of default" },
-        { when: "October 15, 2026", label: "The Real Deal reports the unpaid balance has grown to $98.4 million amid investor interest in the distressed asset", current: true }
+        { when: "2018", label: "Hana Asset Management and Ocean West Capital Partners buy the campus for $132.5 million" },
+        { when: "2020", label: "eBay leaves the campus but keeps paying rent under its lease" },
+        { when: "2023", label: "One of the campus buildings enters special servicing" },
+        { when: "July 2026", label: "Deutsche Bank AG's New York Branch files an initial notice of default" },
+        { when: "October 15, 2026", label: "The Real Deal, citing the Mercury News, reports the unpaid balance at $98.4 million and buyer interest", current: true }
       ]
     },
     {
@@ -11259,40 +11137,39 @@ const RELAW_DATA = {
       seoTitle: "Illinois Center Chicago: $260M CMBS Foreclosure Auction Set",
       seoDescription: "A Cook County judge ruled against AmTrust RE on a $260M CMBS loan tied to Chicago's Illinois Center, setting a Nov. 12, 2026 sheriff's sale.",
       addedDate: "2026-10-26",
-      title: "Illinois Center Foreclosure: Cook County Judge Clears $260M CMBS Sheriff's Sale of AmTrust's Chicago Towers",
-      brief: "A Cook County judge ruled against an AmTrust RE affiliate on a $260 million CMBS loan on Chicago's Illinois Center towers, clearing the way for a Nov. 12, 2026 sheriff's sale.",
+      title: "Illinois Center Foreclosure: Cook County Judge Orders Nov. 12 Sheriff's Sale of AmTrust's Chicago Towers",
+      brief: "A Cook County judge entered a foreclosure judgment against AmTrust RE over Chicago's Illinois Center and set a Nov. 12, 2026 sheriff's auction, after a default on $260 million in CMBS debt.",
       category: "lending-foreclosure",
       status: "ruling",
       date: "2026-10-19",
-      jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      jurisdiction: "Circuit Court of Cook County, Illinois",
       state: "IL",
-      amount: "$260M CMBS loan; Nov. 12, 2026 sheriff's sale of towers appraised at $66M",
+      amount: "$260M CMBS loan; balance $285.7M as of June 2026; complex appraised at $66.5M in March",
       source: "live",
       sourceUrl: "https://therealdeal.com/chicago/2026/10/19/amtrusts-illinois-center-set-for-foreclosure-auction/",
       property: {"name": "Illinois Center", "address": "111 E. Wacker Drive and 233 N. Michigan Avenue", "city": "Chicago", "state": "IL"},
-      summary: "Cook County Associate Judge Edward Robles ruled in September 2026 against an AmTrust RE affiliate on its $260 million CMBS loan covering Illinois Center, the twin-tower, roughly 2.1-million-square-foot office complex at 111 E. Wacker Drive and 233 N. Michigan Avenue in Chicago's East Loop, as reported by The Real Deal and Bisnow on October 19 and 20, 2026. The ruling clears the way for a Cook County sheriff's sale of the property on November 12, 2026, with special servicer LNR Partners, LLC expected to credit-bid on behalf of the CMBS trust's bondholders and take title. The towers were most recently appraised at $66 million, an 83% drop from the $390 million valuation when the loan originated in 2015.",
-      significance: "The case shows how far Chicago's office distress has advanced for aging towers financed at pre-pandemic valuations: a once-signature East Loop complex now appraised at roughly a sixth of its loan-era value, with the borrower no longer contesting foreclosure. It is a template for how CMBS special servicers are handling deeply underwater assets with falling occupancy -- taking title through a sheriff's sale rather than extending further workout negotiations -- that other Chicago-area office owners facing legacy CMBS maturities should watch.",
+      summary: "Cook County Judge Edward Robles entered a foreclosure judgment against AmTrust RE over Illinois Center, the two-tower, 2.1 million-square-foot office complex at 111 East Wacker Drive and 233 North Michigan Avenue in Chicago's East Loop, and set a sheriff's auction for Nov. 12, 2026, The Real Deal reported on October 19, citing Crain's Chicago Business. Special servicer LNR Partners, which represents the bondholders on the property's CMBS debt, is positioned to bid for and take title. According to Crain's, the debt balance stood at $285.7 million as of June, a March appraisal valued the complex at $66.5 million, and AmTrust paid $376 million for it in 2015.",
+      significance: "The March appraisal puts the complex at less than a quarter of its debt balance, a gap no ordinary refinancing can close. Once an owner stops opposing foreclosure, a Cook County case can move from summary judgment to a sheriff's sale quickly, and the special servicer can take title for the bondholders.",
       body: [
-        "A Cook County judge has cleared the way for a special servicer to take title to Illinois Center, the twin-tower office complex at 111 E. Wacker Drive and 233 N. Michigan Avenue in Chicago's East Loop, after ruling against the AmTrust RE affiliate that has owned the roughly 2.1-million-square-foot property since 2015. The ruling sets up a Cook County sheriff's sale on November 12, 2026, and marks one of the more dramatic value collapses yet documented in Chicago's distressed office market.",
-        "Cook County Associate Judge Edward Robles ruled against the AmTrust RE affiliate in September 2026, entering a judgment of foreclosure on the $260 million commercial mortgage-backed securities loan secured by the complex. According to The Real Deal, Bisnow, and other trade-press accounts published October 19 and 20, 2026, AmTrust had stopped actively contesting the case over the summer, declining to oppose the lender's motion for summary judgment after workout talks with special servicer LNR Partners, LLC broke down. With the judgment entered, the Cook County sheriff's office has scheduled a public auction of the property for November 12, and LNR Partners, acting on behalf of the CMBS trust's bondholders, is positioned to submit the winning credit bid and take title.",
-        "The loan dates to 2015, when the AmTrust RE affiliate acquired the Illinois Center towers and financed the purchase with the $260 million CMBS loan, then underwritten against a $390 million valuation. The borrower fell behind on payments, and LNR Partners filed a foreclosure suit in the Circuit Court of Cook County's Chancery Division. By the time Judge Robles entered judgment, the numbers behind the loan had deteriorated sharply: Morningstar Credit data cited in the reporting puts the property's most recent appraisal at just $66 million, an 83% drop from the 2015 origination value and a 22% decline from an already-reduced 2024 appraisal. Occupancy at the complex had fallen to roughly 33% as of the end of 2025, according to servicer commentary described in the coverage.",
-        "For a property once counted among the signature assets of Chicago's East Loop skyline, part of the Illinois Center development built in the architectural idiom associated with Mies van der Rohe, the scale of the write-down illustrates how far the city's office downturn has progressed for aging, undercapitalized towers built on pre-pandemic rent and occupancy assumptions. The case also follows a now-familiar pattern for CMBS special servicers handling distressed Chicago office loans: rather than pursue an extended workout or loan modification, LNR Partners appears set to take the property into real-estate-owned status directly through the sheriff's sale process, giving the servicer and bondholders direct control over any future repositioning, lease-up, or disposition strategy rather than continuing to negotiate with a borrower that has effectively walked away.",
-        "For other Chicago-area office owners facing CMBS loans originated in the mid-2010s at valuations that no longer reflect current market realities, the Illinois Center matter is a useful and cautionary data point. A borrower who stops contesting foreclosure once it becomes clear that remaining equity has been wiped out, as AmTrust appears to have done here, can move a case to judgment and sale relatively quickly once summary judgment goes unopposed; special servicers and bondholders, in turn, appear increasingly willing to take title outright through a credit bid rather than extend further forbearance on assets whose appraised values have fallen this far below outstanding debt. Owners and lenders alike should watch Cook County sheriff's sale calendars and servicer commentary for a read on how quickly comparable downtown Chicago office towers are moving from default to disposition, since the timeline here, a foreclosure suit in late 2024 to judgment and sale by November 2026, may be a useful benchmark."
+        "Cook County Judge Edward Robles has entered a foreclosure judgment against AmTrust RE over Illinois Center, the two-tower office complex at 111 East Wacker Drive and 233 North Michigan Avenue in Chicago's East Loop, and set a sheriff's auction for Nov. 12, 2026, The Real Deal reported on October 19, citing Crain's Chicago Business. The 2.1 million-square-foot complex secures $260 million in commercial mortgage-backed securities debt. Special servicer LNR Partners, acting for the bondholders, is positioned to bid at the auction and take title.",
+        "According to Crain's, the CMBS debt balance had grown to $285.7 million as of June 2026, while a March appraisal valued the complex at $66.5 million. AmTrust bought the property for $376 million in 2015. The Real Deal reported that AmTrust did not oppose the lender's motion for summary judgment this summer, after its workout talks with LNR failed.",
+        "Leasing at the towers fell after the U.S. Department of Health and Human Services left 170,000 square feet at 233 North Michigan in 2023. By mid-2026 that tower was 17% leased and 111 East Wacker was 52% leased, according to the report. AmTrust had drawn up plans in 2023 to renovate the conference center and add a rooftop deck.",
+        "The Real Deal described the auction as AmTrust's third major office loss in downtown Chicago in two years: it lost 30 North LaSalle Street to foreclosure in 2023 and handed 33 West Monroe Street to its lender earlier in 2026."
       ],
       tags: ["cmbs foreclosure", "chicago office", "special servicing", "sheriff's sale", "amtrust"],
       parties: [
-        { name: "AmTrust RE", role: "Borrower (through an affiliate)" },
-        { name: "LNR Partners, LLC", role: "Special Servicer for the CMBS lender" }
+        { name: "AmTrust RE", role: "Borrower/Owner" },
+        { name: "LNR Partners", role: "Special Servicer for the CMBS bondholders" }
       ],
       judge: "Edward Robles",
       amountUsd: 260000000,
       amountBasis: "loan",
       timeline: [
-        { when: "2015", label: "An AmTrust RE affiliate buys Illinois Center's twin office towers and originates a $260 million CMBS loan, then appraised at $390 million" },
-        { when: "2024", label: "The borrower stops making loan payments; special servicer LNR Partners files a foreclosure suit in Cook County Circuit Court" },
-        { when: "Summer 2026", label: "The AmTrust RE affiliate declines to oppose the lender's motion for summary judgment" },
-        { when: "September 2026", label: "Cook County Associate Judge Edward Robles rules against the AmTrust RE affiliate, entering judgment of foreclosure", current: true },
-        { when: "November 12, 2026", label: "A Cook County sheriff's sale of Illinois Center is scheduled, with special servicer LNR Partners expected to bid on behalf of CMBS bondholders", upcoming: true }
+        { when: "2015", label: "AmTrust RE buys Illinois Center for $376 million" },
+        { when: "2023", label: "U.S. Department of Health and Human Services leaves 170,000 square feet at 233 North Michigan Avenue" },
+        { when: "Summer 2026", label: "AmTrust does not oppose the lender's motion for summary judgment after workout talks with LNR Partners fail" },
+        { when: "October 2026", label: "Judge Edward Robles's foreclosure judgment and Nov. 12 auction date reported by The Real Deal, citing Crain's Chicago Business" },
+        { when: "November 12, 2026", label: "Sheriff's auction date set by the court; the result has not been reported yet", current: true }
       ]
     },
     {
@@ -11498,41 +11375,46 @@ const RELAW_DATA = {
       seoTitle: "Lurin Capital Founder Jon Venetos Faces Involuntary Bankruptcy",
       seoDescription: "Three lenders filed an involuntary Chapter 7 petition against Lurin Capital founder Jon Venetos, citing $33.7 million in personal guaranty judgments.",
       addedDate: "2026-10-27",
-      title: "In re Jon Venetos: Lenders File Involuntary Chapter 7 Petition Against Lurin Capital Founder",
-      brief: "Silver Point Finance, Vista Bank and NexPoint Real Estate Finance forced Lurin Capital founder Jon Venetos into involuntary Chapter 7, citing $33.7 million in personal guaranty judgments from his multifamily syndication collapse.",
+      title: "In re Jon Peter Venetos: Creditors File Involuntary Chapter 7 Petition Against Lurin Capital Founder",
+      brief: "Six creditors, including Vista Bank, filed an involuntary Chapter 7 petition against Lurin Capital founder Jon Venetos in Texas federal bankruptcy court; The Real Deal reported that the filing cites $33.7 million in judgments against him.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-09-17",
       jurisdiction: "U.S. Bankruptcy Court for the Southern District of Texas",
       state: "TX",
-      amount: "$33.7M in petitioning-creditor judgments behind the involuntary petition; separate $19M guaranty judgment to Acore Capital Mortgage",
+      amount: "$33.7M in judgments cited in the petition, per The Real Deal",
       source: "live",
       sourceUrl: "https://therealdeal.com/texas/2026/09/30/jon-venetos-creditors-file-involuntary-chapter-7-bankruptcy/",
-      summary: "Silver Point Finance, LLC, Vista Bank, and NexPoint Real Estate Finance, Inc. filed an involuntary Chapter 7 bankruptcy petition against Jon Venetos, founder of Dallas-based multifamily syndicator Lurin Capital, on September 17, 2026 in the U.S. Bankruptcy Court for the Southern District of Texas. The petitioning creditors cite a combined roughly $33.7 million in judgments already entered against Venetos personally on guaranties tied to Lurin's defaulted apartment portfolio, a step observers have called one of the rarest moves in bankruptcy.",
-      significance: "The filing shows how quickly a sponsor's personal guaranty exposure can outrun a corporate Chapter 11 once multiple lenders reduce separate guaranties to judgment, and illustrates that creditors facing a shrinking, overlapping pool of a guarantor's personal assets may find a coordinated involuntary petition more effective than racing each other to collect individually.",
+      summary: "Six creditors filed an involuntary Chapter 7 bankruptcy petition on September 17, 2026, against Jon Peter Venetos, founder of Dallas-based multifamily firm Lurin Capital, in the U.S. Bankruptcy Court for the Southern District of Texas, the court docket shows. The Real Deal reported that the filing cites $33.7 million in judgments against Venetos personally, about $30.8 million of it held by three lenders: Silver Point Finance ($22.7 million, for breach of a promissory note), and Vista Bank ($3.1 million) and NexPoint Real Estate Finance ($5 million) on his personal guaranties. The case is assigned to Judge Eduardo V. Rodriguez.",
+      significance: "Once several lenders turn a sponsor's personal guaranties into court judgments, the sponsor's own assets become the next target, separate from any bankruptcy of the company. An involuntary Chapter 7 puts those assets under a trustee for all creditors at once, but a judgment is no promise of a meaningful recovery.",
       body: [
-        "The unwinding of Lurin Capital, the Dallas-based multifamily syndicator that once controlled nearly 10,000 Class-C apartment units across five Sun Belt states, has reached an unusual legal milestone: three of its lenders have asked a federal bankruptcy court to force its founder, Jon Venetos, into Chapter 7 bankruptcy against his will. Silver Point Finance, LLC, Vista Bank, and NexPoint Real Estate Finance, Inc. filed the involuntary petition on September 17, 2026, in the U.S. Bankruptcy Court for the Southern District of Texas, citing a combined roughly $33.7 million in judgments already entered against Venetos personally. Industry observers have called involuntary filings against an individual one of the rarest moves in bankruptcy, a reflection of how unusual it is for creditors to take this step rather than simply chasing a judgment debtor's assets individually.",
-        "The petition is the latest, and in some ways the most consequential, front in a cascade of litigation that has engulfed Venetos since Lurin's multifamily portfolio began defaulting in 2025. Lurin and a succession of affiliated single-property ownership entities began filing their own Chapter 11 petitions in March 2026 to block foreclosures on individual apartment complexes, with the parent entity's broader Chapter 11 case following the next month. That corporate bankruptcy process, however, does nothing to shield Venetos from the personal guaranties he signed on Lurin's behalf, and lenders have been racing through 2026 to reduce those guaranties to judgment. Just two weeks before the involuntary petition, Acore Capital Mortgage won summary judgment against Venetos in New York Supreme Court for roughly $19 million, tied to a mezzanine loan guaranty on The Cove, a Tampa apartment complex Acore took back at a foreclosure auction after Lurin stopped paying in December 2023.",
-        "The involuntary petition itself names three petitioning creditors with their own distinct judgments: Silver Point Finance holds a $22.7 million judgment for breach of a promissory note, Vista Bank holds a $3.1 million judgment, and NexPoint Real Estate Finance holds a $5 million judgment. Under the Bankruptcy Code, three or more creditors holding qualifying unsecured claims can force an individual or entity into involuntary bankruptcy if the debtor is generally not paying debts as they come due, a standard that becomes easier to satisfy once a debtor has accumulated multiple unpaid judgments across unrelated creditors, as Venetos has. The move effectively takes the question of Venetos's personal assets out of a creditor-by-creditor race to collect and puts it under the control of a bankruptcy trustee, who can marshal and liquidate whatever remains for the benefit of the full creditor pool rather than whoever executes fastest.",
-        "Venetos's exposure extends well beyond the parties named in the involuntary petition. Acore's $19 million New York judgment is only one piece of litigation the lender has pursued against him; Fannie Mae has separately sued over a roughly $77 million default tied to a Houston-area loan, KeyBank has sued over Dallas apartment loan defaults, and a Dallas office landlord has pursued Venetos personally over an alleged $5.3 million lease guaranty. The FBI's Dallas field office has also opened an investigation into Venetos and Lurin, soliciting information from investors about how much they put in, what they were told the money would be used for, and what distributions, if any, they received, though no criminal charges have been filed and an open investigation does not establish wrongdoing.",
-        "For commercial lenders and syndicator investors alike, the Lurin collapse has become a reference case for how quickly a sponsor's personal guaranty exposure can outpace the underlying corporate restructuring once a multifamily portfolio built on floating-rate, Sun Belt value-add bets stops cash-flowing. An involuntary Chapter 7 petition against a sponsor is rare precisely because most lenders prefer to pursue their own collateral and their own guaranty judgment rather than share a shrinking pool of personal assets with other creditors; that three separate lenders concluded a coordinated filing served them better than individual collection efforts signals how limited Venetos's remaining unencumbered assets are believed to be, particularly after a separate 2025 foreclosure on his Aspen home. Sponsors who sign personal, uncapped guaranties on aggregated portfolios of non-recourse-adjacent debt should treat this case as a concrete illustration of how a string of individually modest guaranty judgments can combine into exactly the kind of multi-creditor pressure that makes an involuntary petition feasible, while lenders holding similar guaranties should note that coordinating with other creditors, rather than racing to the courthouse alone, can be the more effective route once a guarantor's asset base is visibly shrinking."
+        "Six creditors filed an involuntary Chapter 7 petition against Jon Peter Venetos, founder of Dallas-based multifamily firm Lurin Capital, on September 17, 2026, in the U.S. Bankruptcy Court for the Southern District of Texas (Case No. 26-36934), according to the court docket. The docket lists the petitioning creditors as Vista Bank, a division of NBH Bank; NREF Center Point, LLC; SCF II Group Holdings; Really High Places LLC; Sespe Investment Group Fund I, LP; and Red Elephant Design + Architectural Signage. The case is assigned to Judge Eduardo V. Rodriguez.",
+        "The Real Deal reported on September 30 that the petition cites $33.7 million in judgments against Venetos personally. According to the article, the three largest are held by lenders: Silver Point Finance has a $22.7 million judgment for breach of a promissory note, and Vista Bank ($3.1 million) and NexPoint Real Estate Finance ($5 million) have judgments based on his personal guaranties, about $30.8 million combined. The rest are a $1.2 million judgment held by a Vail investor, a $1.5 million judgment held by Sespe Investment Group and a $218,000 judgment held by Red Elephant Design, a Dallas vendor. The article said the judgments came from lender suits over loans on Lurin's Sun Belt apartment portfolio, and that a separate $19 million judgment owed to Acore Capital Mortgage, also tied to personal guaranties, is not part of the petition.",
+        "Venetos did not respond to The Real Deal's request for comment. Greg Corbin, president of bankruptcy firm Northgate Real Estate Group, told the publication that an involuntary filing against an individual is \"one of the rarest moves in bankruptcy.\" A Chapter 7 case aims to find and sell a debtor's remaining assets; the article said it is unclear what Venetos still owns after Morgan Stanley foreclosed on his Aspen home at the end of 2025. It also reported that the FBI has opened an investigation into Lurin Capital, and that KeyBank and Vista Bank have each accused Venetos of fraud in their own claims. Those accusations are allegations.",
+        "Lurin's own Chapter 11 case covers 20 filings by single-asset entities plus Lurin Advisors, the company's controlling entity. The Real Deal reported that in a September 22 filing the trustee in that case asked the court to convert it to Chapter 7 or dismiss it, because Lurin had not filed an operating report since April."
       ],
       tags: ["involuntary bankruptcy", "personal guaranty", "multifamily", "chapter 7", "syndicator collapse"],
       parties: [
-        { name: "Silver Point Finance, LLC", role: "Petitioning Creditor" },
-        { name: "Vista Bank", role: "Petitioning Creditor" },
-        { name: "NexPoint Real Estate Finance, Inc.", role: "Petitioning Creditor" },
-        { name: "Acore Capital Mortgage", role: "Judgment Creditor" },
-        { name: "Lurin Capital", role: "Related Debtor" }
+        { name: "Vista Bank, a division of NBH Bank", role: "Petitioning Creditor" },
+        { name: "NREF Center Point, LLC", role: "Petitioning Creditor" },
+        { name: "SCF II Group Holdings", role: "Petitioning Creditor" },
+        { name: "Really High Places LLC", role: "Petitioning Creditor" },
+        { name: "Sespe Investment Group Fund I, LP", role: "Petitioning Creditor" },
+        { name: "Red Elephant Design + Architectural Signage", role: "Petitioning Creditor" },
+        { name: "Silver Point Finance, LLC", role: "Judgment Creditor" },
+        { name: "Acore Capital Mortgage", role: "Judgment Creditor (not in petition)" },
+        { name: "Lurin Capital", role: "Related Company" }
       ],
-      judge: null,
+      judge: "Eduardo V. Rodriguez",
       amountUsd: 33700000,
       amountBasis: "judgment",
       timeline: [
-        { when: "March 2026", label: "Lurin Capital and affiliated single-property entities begin filing Chapter 11 petitions to block foreclosures" },
-        { when: "September 3, 2026", label: "Acore Capital Mortgage wins summary judgment of approximately $19 million against Jon Venetos on a Tampa mezzanine loan guaranty" },
-        { when: "September 17, 2026", label: "Silver Point Finance, Vista Bank and NexPoint Real Estate Finance file an involuntary Chapter 7 petition against Jon Venetos in the U.S. Bankruptcy Court for the Southern District of Texas", current: true }
-      ]
+        { when: "End of 2025", label: "Morgan Stanley forecloses on Venetos's Aspen home, according to The Real Deal" },
+        { when: "September 17, 2026", label: "Six creditors file an involuntary Chapter 7 petition against Jon Peter Venetos in the U.S. Bankruptcy Court for the Southern District of Texas (No. 26-36934)" },
+        { when: "September 22, 2026", label: "The trustee in Lurin's Chapter 11 case asks the court to convert the case to Chapter 7 or dismiss it, as reported by The Real Deal", current: true }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74810397/jon-peter-venetos/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-341",
@@ -12241,66 +12123,37 @@ const RELAW_DATA = {
       seoDescription: "A CMBS trustee sued to foreclose on 540 W. Madison in Chicago's West Loop after its $310M+ senior loan matured unpaid, despite the tower being 81% leased.",
       addedDate: "2026-10-31",
       featured: true,
-      title: "CMBS Trustee Hits West Loop's 540 W. Madison With $310 Million Foreclosure Suit",
-      brief: "A bondholder trustee sued to foreclose on 540 W. Madison, a 1.15M-square-foot, 81%-leased Chicago office tower, after its senior loan matured unpaid in September 2026.",
+      title: "Bondholder Trustee Files $310 Million Foreclosure Suit Over Third Millennium's 540 W. Madison",
+      brief: "A trustee for bondholders sued to foreclose on 540 W. Madison, Third Millennium Group's 1.1 million-square-foot, 81%-leased West Loop office tower, after the loan went unpaid at its September 2026 maturity.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-10-27",
-      jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      jurisdiction: "Circuit Court of Cook County, Illinois",
       state: "IL",
       propertyType: "Office",
-      property: {
-        name: "540 West Madison",
-        address: "540 W. Madison St.",
-        city: "Chicago",
-        state: "IL"
-      },
-      amount: "$310 million foreclosure suit following a maturity default on the senior loan",
+      property: {"name": "540 West Madison", "address": "540 W. Madison St.", "city": "Chicago", "state": "IL"},
+      amount: "$310M foreclosure suit; $325M senior loan and $75M mezzanine loan made in 2016",
       amountUsd: 310000000,
       amountBasis: "loan",
       source: "live",
       sourceUrl: "https://therealdeal.com/chicago/2026/10/27/west-loop-office-tower-with-faces-310m-foreclosure/",
-      summary: "A trustee representing bondholders on the senior mortgage loan secured by 540 W. Madison Street, a 1.15-million-square-foot, 81%-leased Chicago office tower, filed a $310 million foreclosure suit in Cook County Circuit Court against ownership entity 540 West Madison Owner LLC after the loan matured unpaid in September 2026. The building reportedly generates over $18 million in annual net cash flow against roughly $5.3 million in debt service, making this a maturity default rather than a cash-flow default.",
-      significance: "The filing illustrates that occupancy and operating performance no longer reliably predict default risk in the current office-lending cycle: a well-leased, cash-flow-positive building can still face foreclosure if it cannot refinance a legacy loan sized to a valuation the market no longer supports. Owners approaching their own loan maturities should stress-test refinancing feasibility well before the maturity date, and lenders should expect more maturity-default foreclosures on operationally healthy office assets financed at prior-cycle valuations.",
+      summary: "A trustee representing bondholders filed a $310 million foreclosure suit in Cook County Circuit Court against an entity led by Boca Raton, Florida-based Third Millennium Group over 540 W. Madison Street, a 1.1 million-square-foot West Loop office tower, The Real Deal reported on October 27, 2026, citing Crain's Chicago Business. The suit alleges the debt was not repaid at its September 2026 maturity. The tower is 81% leased and produced over $18 million in net cash flow against $5.3 million in senior-loan debt service, so this is a maturity default rather than a failure to cover payments.",
+      significance: "A building can be well leased and earn more than its debt payments and still face foreclosure if its loan comes due when its value no longer supports refinancing the old balance. Owners with loans maturing soon should test whether a refinancing is possible well before the date, and lenders should expect more maturity defaults on buildings that are otherwise performing.",
       body: [
-        "A trustee representing bondholders on the senior mortgage loan secured by 540 W. Madison Street, a 1.15-million-square-foot office tower in Chicago's West Loop, filed a $310 million foreclosure lawsuit in the Circuit Court of Cook County, Illinois, against the ownership entity, 540 West Madison Owner LLC. The suit, reported October 27, 2026, says the loan was not repaid when it reached its stated maturity in September 2026, triggering the default underlying the foreclosure action.",
-        "What makes the filing notable is that it targets a building that, by most conventional measures, is performing. The tower is roughly 81% leased, and according to loan-servicing figures cited in the reporting, the property generated more than $18 million in net cash flow against a $5.3 million annual debt-service obligation on the senior loan, a debt-service coverage ratio most lenders would consider healthy. The default here is not a cash-flow default but a maturity default: the loan simply came due and the ownership group was unable, or unwilling, to refinance or pay it off at the stated amount.",
-        "The building has a well-documented capital history. A group of New York investors bought the property from Bank of America in December 2012 for roughly $350 million, and the ownership, led by Boca Raton-based Third Millennium Group, refinanced the asset with a $325 million loan in 2016 that was reportedly underwritten against an appraised value of around $591 million at the time. Reporting on the new foreclosure suit notes that recent sales of comparable downtown Chicago office towers suggest the building's current market value has fallen well short of that 2016 appraisal, a gap that, if accurate, would leave the ownership entity underwater on the loan even though the building itself continues to throw off substantial cash flow from its existing tenant roster.",
-        "That dynamic, a well-leased, cash-generating asset nonetheless facing foreclosure because it cannot refinance a legacy loan sized to a since-evaporated valuation, has become one of the defining patterns of the current office-lending cycle. Lenders and special servicers are increasingly willing to pursue foreclosure on maturity defaults even where a borrower can continue servicing debt at the old loan's interest rate, because the real question is whether the borrower can refinance or repay the full principal balance at maturity. A $325 million loan underwritten against a $591 million valuation implied roughly 55% leverage at origination, a level that would ordinarily be considered conservative; if current market pricing has in fact fallen well below that appraisal, the loan-to-value ratio today could be approaching or exceeding 100%, leaving the sponsor with little practical incentive to contribute fresh equity to cure the default rather than negotiate a deed-in-lieu or let the lender take the keys through foreclosure.",
-        "Commercial property owners, developers, and their counsel should treat this filing as a data point in an ongoing, market-wide recalibration: a maturity default on a performing asset is a sign of how far office valuations have moved since the mid-2020s refinancing wave, not necessarily a sign of mismanagement, and owners approaching their own loan maturities should stress-test refinancing feasibility well before the maturity date rather than assume continued occupancy and cash flow will be enough to carry a loan across the finish line. Lenders, in turn, should expect more of these filings on assets that look healthy on an operating basis but were financed against valuations the market no longer supports, and sponsors facing a similar maturity wall should begin refinancing or recapitalization discussions well in advance of a loan's maturity date rather than wait for a default notice to start the conversation."
+        "A trustee representing bondholders has filed a $310 million foreclosure suit in Cook County Circuit Court against an entity led by Third Millennium Group, a Boca Raton, Florida-based firm, over 540 W. Madison Street in Chicago's West Loop, The Real Deal reported on October 27, 2026, citing Crain's Chicago Business. According to the suit, the Third Millennium entity did not repay the debt at its September 2026 maturity.",
+        "By the usual measures the building is performing. The 31-story, 1.1 million-square-foot tower is 81% leased, compared with a downtown average of 72%, and it produced more than $18 million in net cash flow against a $5.3 million debt-service payment on the senior loan, according to the report. It is 23 years old and sits across the street from the Ogilvie Transportation Center.",
+        "The Real Deal reported that Third Millennium paid $350 million for the building in 2012 with a $250 million acquisition loan. In 2016 a $325 million loan replaced that debt, and a $75 million mezzanine loan brought the total debt to $400 million. Around that time the tower was appraised at $591 million, putting total debt at roughly 68% of that value. The article said recent sales of nearby buildings, such as 131 North Dearborn Street, show the property is worth less than it was before the pandemic, which makes repaying or refinancing the loans at their old size difficult."
       ],
       judge: null,
       parties: [
-        {
-          name: "540 West Madison Owner LLC",
-          role: "Borrower/Defendant"
-        }
+        { name: "Third Millennium Group", role: "Owner (through an affiliated borrower entity)" }
       ],
-      tags: [
-        "cmbs",
-        "office",
-        "foreclosure",
-        "chicago",
-        "maturity-default"
-      ],
+      tags: ["cmbs", "office", "foreclosure", "chicago", "maturity-default"],
       timeline: [
-        {
-          when: "December 2012",
-          label: "A group of New York investors buys 540 W. Madison from Bank of America for roughly $350 million"
-        },
-        {
-          when: "2016",
-          label: "Ownership refinances the tower with a $325 million senior loan against a reported $591 million appraisal"
-        },
-        {
-          when: "September 2026",
-          label: "The senior loan reaches its stated maturity date unpaid"
-        },
-        {
-          when: "October 27, 2026",
-          label: "A bondholder trustee files a $310 million foreclosure suit in Cook County Circuit Court",
-          current: true
-        }
+        { when: "2012", label: "Third Millennium Group buys 540 W. Madison for $350 million with a $250 million loan" },
+        { when: "2016", label: "A $325 million loan replaces the acquisition debt, and a $75 million mezzanine loan brings total debt to $400 million; the tower is appraised at about $591 million around this time" },
+        { when: "September 2026", label: "The loan comes due and is not paid off, according to the suit" },
+        { when: "October 2026", label: "Bondholder trustee's $310 million foreclosure suit in Cook County Circuit Court reported by The Real Deal, citing Crain's Chicago Business", current: true }
       ]
     },
     {
