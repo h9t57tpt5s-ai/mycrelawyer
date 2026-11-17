@@ -2145,8 +2145,8 @@
       "action": "matter live-393 (First Care Therapy, LLC v. Congress Ave Boynton, LLC)"
     },
     "opinion:11060415": {
-      "at": "2026-11-13",
-      "action": "skipped: residential forcible entry-and-detainer eviction, Cleveland Municipal Court Housing Division, not a commercial real estate dispute on its face"
+      "at": "2026-11-17",
+      "action": "re-checked 2026-11-13's skip (recorded as \"residential forcible entry-and-detainer eviction... not a commercial real estate dispute on its face\") against the opinion text: it explicitly states Askar Flash, LLC and Ashbury Food, LLC are Ohio LLCs whose principal place of business is the leased premises, that Hassan and Askar \"entered into a commercial lease agreement,\" later assigned to Ashbury, which \"operates a convenience store at the premises.\" This is a commercial lease FED, not residential -- the 2026-11-13 skip reason appears to have been a factual error. Not re-added as a matter directly (cloud routines don't publish matters as of 2026-11-16); flagging via ops/digest-leads.json for the newsroom to verify and publish if warranted."
     },
     "opinion:11060411": {
       "at": "2026-11-13",
@@ -2181,8 +2181,8 @@
       "action": "skipped: residential condominium construction-defect dispute (Urbana at the Residences Condominium No. 3 Assn. v. White Course Lennar, LLC) -- residential, not commercial real estate"
     },
     "opinion:11060925": {
-      "at": "2026-11-13",
-      "action": "skipped: Delaware Chancery post-trial opinion (Holmwood Capital v. HC Government Realty Trust, decided today) is a genuine CRE/REIT management-fee dispute, but the stored opinion text (12,000 of 93,294 chars) cuts off in the factual background before the court's ruling on the termination-fee calculation; no press coverage found to confirm the outcome, so left out rather than guess the holding"
+      "at": "2026-11-17",
+      "action": "skipped: text truncated at 12,000 of 93,294 chars (13%), cuts off before the court's ruling on the termination-fee calculation; one targeted WebSearch today (\"Holmwood Capital HC Government Realty Trust Delaware Chancery termination fee ruling\") found only the case's 2020 filing background (SEC Form 1-K) and the Delaware courts opinion listing, no secondary coverage of the actual holding or amount, so still left out rather than guess"
     },
     "opinion:11060648": {
       "at": "2026-11-13",
