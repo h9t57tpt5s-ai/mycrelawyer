@@ -239,6 +239,11 @@
       "source": "/matters/live-159.html",
       "destination": "/litigation.html",
       "permanent": true
+    },
+    {
+      "source": "/matters/live-067.html",
+      "destination": "/litigation.html",
+      "permanent": true
     }
   ]
 }

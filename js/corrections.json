@@ -4,6 +4,66 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-087",
+   "caseId": "live-087",
+   "subject": "Wilmington Trust v. Nakash Lincoln LLC (Hotel Lincoln Land Parcel CMBS Foreclosure)",
+   "kind": "Corrected: description",
+   "was": "seeking to foreclose on the $25.4 million mortgage secured by Hotel Lincoln, a 184-room boutique property | the foreclosure complaint is the concrete legal step that followed once workout discussions failed to produce a resolution | the third Nakash-family property facing foreclosure in 2026",
+   "now": "the $25.4 million loan is on the land under the hotel; the suit seeks the fee interest and landlord rights and leaves the hotel's ground lease and leasehold intact | LNR filed suit while still awaiting a written extension proposal from the borrower's workout firm | Removed; the Miami Beach hotel is a reported loan default, not a foreclosure",
+   "basis": "Checked against the source article: The Real Deal, Aug. 18, 2026: the suit 'seeks to seize the fee simple interest and landlord rights at 1816 North Clark Street, while leaving intact an operating ground lease and leasehold'; the building has a separate $35 million loan | The Real Deal: 'LNR proceeded with the lawsuit while awaiting a written proposal' | The Real Deal: 'the family defaulted on a $28 million loan backed by the Ocean Drive Breakwater Hotel'"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-083",
+   "caseId": "live-083",
+   "subject": "Copper Property CTL Pass Through Trust v. Onyx Partners (Suit Over Stalled $947M JCPenney Portfolio Sale)",
+   "kind": "Corrected: description",
+   "was": "to sell 119 former J.C. Penney store properties",
+   "now": "the 119-store JCPenney portfolio (stores operating under long-term leases)",
+   "basis": "Checked against the source article: The Real Deal, Sept. 1, 2026: 'the 119-store JCPenney portfolio'; 'Run under long-term leases, operations at the retailer locations aren't expected to be impacted by a sale'"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-076",
+   "caseId": "live-076",
+   "subject": "Rialto Capital Advisors v. Jenel ($17.7M Loop Retail Foreclosure, 36 South State Street)",
+   "kind": "Corrected: date, figure",
+   "was": "roughly 20,211-square-foot retail condominium | filed suit on April 1, 2026",
+   "now": "nearly 19,000-square-foot retail property | filed March 31, 2026",
+   "basis": "Checked against the source article: The Real Deal, Apr. 1, 2026: 'a nearly 19,000-square-foot property' | The Real Deal article dated Wednesday, Apr. 1, 2026 says the complaint was filed 'Tuesday'"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-067",
+   "subject": "Sudhoff v. Deiso Moss (Ritz-Carlton Houston Broker Exclusivity Dispute)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a commercial real estate dispute: a former brokerage executive's pay and exclusivity claim against a developer.",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; Rule 9 remove: this is a former brokerage executive's compensation and exclusivity claim against a developer over his equity-raising work. He alleges unpaid pay and an exclusivity breach, damages over $1M, and the court sent it to arbitration. There is no claim to or about the property, a lease, a l"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-053",
+   "caseId": "live-053",
+   "subject": "500-512 Seventh Avenue Foreclosure Judgment (Midtown Office Buildings Ordered Sold Over $356M Debt)",
+   "kind": "Corrected: description, figure, party",
+   "was": "Meyer and Joseph Chetrit are now facing more than $163 million in personal judgments tied to the same matter ... $163M+ of personal guaranty exposure | co-owned by Meyer Chetrit, Joseph Moinian, and Edward J. Minskoff | the alleged failure to remit rent collected from an affiliate of the Chetrit Group | Plaintiffs American General Life Insurance Company, The Variable Annuity Life Insurance Company, The United States Life Insurance Company; lender described as a Corebridge Financial subsidiary",
+   "now": "The $163M figure has been removed from this matter | a partnership of brothers Meyer and Joseph Chetrit, Joseph Moinian and Edward Minskoff | the Chetrit Group's failure to pay rent on its own offices in the building, more than $1 million in back rent according to the lender | Lender not named; only the borrower is listed",
+   "basis": "Checked against the source article: The Real Deal, Aug. 24, 2026, reports the $163M as separate personal judgments, mentioned among 'other revelations about the Chetrit Group's finances', and does not tie it to this loan, its guaranty or the self-dealing claims | The Real Deal: 'a partnership made up of brothers Joseph and Meyer Chetrit, Joseph Moinian and Edward Minskoff' | The Real Deal: the Chetrit Group 'had never paid the $42,000 rent on its offices there'; the lender says it 'racked up more than $1 million in back rent' | The article does not name the lender, and no court record was opened to verify the plaintiffs"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-052",
+   "caseId": "live-052",
+   "subject": "Wilmington Trust v. SPNA-Linked Borrowers (137-Unit Chicago Condo Foreclosure)",
+   "kind": "Corrected: description",
+   "was": "SPNA has now failed three separate times ... most recently when owners rejected a $98 million buyout offer in late July 2026 (timeline: July 28, 2026, $98M)",
+   "now": "SPNA offered $95 million for 200 North Dearborn in 2022, and two more offers in 2026 through YK Investments were rejected; no amount or date for those offers is reported",
+   "basis": "Checked against the source article: The Real Deal, Aug. 27, 2026: '$95 million offer to buy 200 North Dearborn in 2022'; Klor 'made two additional offers this year ... that were ultimately rejected'"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-037",
    "caseId": "live-037",
    "subject": "10 East 34th Street CMBS foreclosure (S.D.N.Y. No. 1:26-cv-06952)",
