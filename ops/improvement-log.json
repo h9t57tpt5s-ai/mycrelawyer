@@ -1930,8 +1930,31 @@
       "window": "n/a",
       "baseline": {},
       "checkAfter": "2026-11-17",
+      "status": "helped",
+      "note": "Judge by the next day's distress-radar.html still rendering correctly (site_audit.py clean, no new HTML/CSS regression) -- there is no metric to move. HTML tag balance clean; site_audit.py and check_case_fields.py both re-run clean with no count regressed (pagesChecked 906, same zero/3-missing-description baseline as before this change); reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule.",
+      "verdict": {
+        "date": "2026-11-17",
+        "value": "distress-radar.html's sample-alert section (badge-sample) still present and intact; site_audit.py clean (brokenLinks/orphanPages/missingFromSitemap/duplicateTitles all 0, missingDescription still 3, the same already-explained noindex set)",
+        "note": "No metric to move -- judged by the next day's page still rendering correctly, per this entry's own note. Not reverted."
+      }
+    },
+    {
+      "id": "imp-079",
+      "date": "2026-11-17",
+      "track": "news",
+      "title": "Opinion leads with truncated text: added digest guidance to distinguish \"CRE but unread\" from a real non-CRE skip",
+      "why": "Step 2: judged imp-078 above (helped). Step 3: goal_scoreboard.py's mostBehind was calculator/conversion/traffic/news; calculator was worked last run (imp-077), so per \"not had a change in the last 2 runs\" checked conversion next (blocked: follows7 is G17's structural NEEDS JEFF; signUps7/newsletterSignups7 both have open watchers, imp-072 until 2026-11-20 and imp-075 until 2026-11-22), then traffic (blocked: visits7/googleLandings7 both watched by imp-068 until 2026-11-18 and imp-074 until 2026-11-21) -- leaving news, whose main metrics (sourcedMatters7/freshSourcedMatters7/medianDaysEventToAdded) have had no open watcher since imp-052 closed 2026-11-10. site_audit.py was fully clean (gh run list showed some prerender.yml failures interleaved with a concurrent local session's own pushes this morning, but the latest run succeeded and no orphan/broken-link count was elevated), so no audit-first fix was needed. Tallied the last 7 days of ops/leads-handled.json (94 skips) beyond the already-addressed shapes (bare-docket, residential/individual-foreclosure, not-CRE-on-its-face, SEC-filing-related, deadline-reminders) and found a real, previously undocumented gap: ops/opinion-leads.json's `text` field is capped at 12,000 characters (scripts/pull_opinions.py's MAX_TEXT) regardless of the opinion's real length (kept separately in `textChars`). 26 of today's 40 live leads (65%) are truncated this way, including `11060925` (Holmwood Capital Advisors, LLC v. HC Government Realty Holdings, L.P., a genuine CRE/REIT management-fee Delaware Chancery post-trial opinion, 93,294 characters, stored slice stops at 12,000/13%, cutting off before the holding) -- correctly skipped today rather than guessed at, but with no way to tell \"CRE but unread\" apart from an ordinary non-CRE skip in the record.",
+      "files": [
+        "ops/digest-playbook.md",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "PENDING",
+      "metric": "No goals.json number moves directly; watching whether a future truncated-and-unresolved skip gets recorded in ops/leads-handled.json with the new, distinguishable \"text truncated, no secondary coverage found\" reason",
+      "window": "n/a",
+      "baseline": {},
+      "checkAfter": "2026-11-24",
       "status": "watching",
-      "note": "Judge by the next day's distress-radar.html still rendering correctly (site_audit.py clean, no new HTML/CSS regression) -- there is no metric to move. HTML tag balance clean; site_audit.py and check_case_fields.py both re-run clean with no count regressed (pagesChecked 906, same zero/3-missing-description baseline as before this change); reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule."
+      "note": "scripts/pull_opinions.py itself (the MAX_TEXT constant) is not a file this routine may edit -- logged as backlog G27, NEEDS JEFF, rather than changed directly. This run's actual change is the digest-playbook.md guidance plus the backlog write-up."
     }
   ]
 }
