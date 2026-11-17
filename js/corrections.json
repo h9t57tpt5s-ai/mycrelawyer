@@ -4,6 +4,146 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-401",
+   "caseId": "live-401",
+   "subject": "1440 Broadway Foreclosure: SL Green Special Servicer Sues Over $399M CMBS Loan on Amazon-Anchored Times Square Tower",
+   "kind": "Corrected: description, party",
+   "was": "1440 Broadway ... owned by CIM Group and QSuper / Sues CIM Group and QSuper | The owners, CIM Group and QSuper, did not immediately comment",
+   "now": "Owned by StepStone since a 2023 loan modification; CIM Group and QSuper are former owners, and the reports do not name the defendants | CIM Group and QSuper, the previous owners, did not immediately respond",
+   "basis": "Checked against the source article: The Real Deal, updated Nov. 16, 2026: 'StepStone became owner of the property in 2023 following a loan modification. CIM Group and QSuper ... were the previous owners,' with a correction noting CIM Group is no longer involved. | The Real Deal, updated Nov. 16, 2026."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-379",
+   "caseId": "live-379",
+   "subject": "ZOM Holding Files Chapter 11 After $308.6M Arizona Judgment in Gray Development Dispute",
+   "kind": "Corrected: description",
+   "was": "the debtors intend to use the automatic stay to preserve and fund ZOM Holding's pending appeal | even absent a signed joint-venture agreement ... if a jury finds the parties' course of dealing created an implied duty of good faith | ZOM Holding, Inc., parent of multifamily developer ZOM Living",
+   "now": "the debtors asked the court to lift (modify) the automatic stay so ZOM's appeal can continue | Gray and ZOM's ZT Development LP signed a mutual confidentiality and non-circumvention agreement; Gray sued for its breach and for bad faith | a ZOM Living affiliate that does not own ZOM Living's apartment properties; non-debtor ZOM Holding LP owns the ZOM companies' real estate",
+   "basis": "Checked against the source article and court docket: The Real Deal, Nov. 3, 2026 ('asking the court to lift such a stay on ZOM's pending appeal'); CourtListener docket 6:26-bk-08509, entry 12: 'Motion for Entry of an Order Modifying the Automatic Stay to Permit Continuation of Pending Appeal.' | The Real Deal, Nov. 3, 2026, citing the CRO declaration. | The Real Deal, Nov. 3, 2026, and ZOM's statement quoted there."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-376",
+   "caseId": "live-376",
+   "subject": "CommunityAmerica Credit Union v. Liberty 35 Wacker LLC (Leo Burnett Building Foreclosure)",
+   "kind": "Corrected: date, description, party",
+   "was": "filed in Cook County Circuit Court on November 5, 2026 | seeks appointment of a receiver / is asking the court to appoint a receiver | Unify Financial Credit Union, which had previously extended credit to Prager-controlled entities, including on a separate Deerfield, Illinois office property | Parties listed only Liberty 35 Wacker LLC as defendant",
+   "now": "filed November 3, 2026 | says it will separately ask the court to appoint a receiver | Unify originated the 35 West Wacker loan; the Deerfield leasehold was taken by GreenState Credit Union | Added Liberty 35 Wacker Member LLC, which the suit names as a guarantor",
+   "basis": "Checked against the source article: The Real Deal, Thursday Nov. 5, 2026: the credit union 'filed the Cook County suit Tuesday.' | The Real Deal, Nov. 5, 2026. | The Real Deal, Nov. 5, 2026, which links Unify only to this loan and names GreenState as the Deerfield lender. | The Real Deal, Nov. 5, 2026."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-375",
+   "caseId": "live-375",
+   "subject": "Torchlight Sues Prime Group to Halt LaSalle Street Office Conversion Above JW Marriott Chicago",
+   "kind": "Corrected: description, figure",
+   "was": "Torchlight, special servicer for bondholders that foreclosed on Chicago's JW Marriott / the special servicer that foreclosed on the JW Marriott Chicago hotel | roughly 280 residential units, 84 of them designated affordable, a roughly $130 million undertaking | during a night the hotel was sold out",
+   "now": "Wells Fargo, as trustee, won the hotel at a July 2022 foreclosure auction while Rialto Capital was special servicer; Torchlight became special servicer in September 2025 | about 167 apartments on floors 13 through 16, plus roughly 70 hotel rooms on floor 17 | on a sold-out day, starting about 9:15 a.m. on October 27",
+   "basis": "Checked against the source article: The Real Deal, Nov. 4, 2026. | The Real Deal, Nov. 4, 2026, describing Prime's plan. | The Real Deal, Nov. 4, 2026, citing the complaint."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-365",
+   "caseId": "live-365",
+   "subject": "PowerHouse Hillwood Holding LLC v. Commonwealth Edison Co. ($1 Letter of Credit Dispute Puts $20B Joliet Data Center on Hold)",
+   "kind": "Corrected: date, description",
+   "was": "a data center campus that developer PowerHouse Hillwood Holding LLC is building on nearly 795 acres | Timeline: 'November 2, 2026: Federal judge denies Hillwood's bid to reinstate a related retail electricity agreement'",
+   "now": "Hillwood's plans for the roughly 800-acre campus are on hold, and it has not yet bought the site | November 2, 2026 is the date The Real Deal reported the ruling. The docket shows an order on the preliminary-injunction motion on October 26, 2026.",
+   "basis": "Checked against the source article and court docket: The Real Deal, Nov. 2, 2026: plans 'are on hold' and Hillwood 'hasn't yet purchased the huge 800-acre site.' | The Real Deal article (Nov. 2) gives no ruling date; CourtListener docket 1:26-cv-08860, entry 141, Oct. 26, 2026."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-361",
+   "caseId": "live-361",
+   "subject": "Fannie Mae and Freddie Mac Lender Walker & Dunlop Pursue Foreclosures Against Chaim Bialostozky Entities in Three States",
+   "kind": "Corrected: description, party",
+   "was": "Chicago investor Chaim Bialostozky | same-day, back-to-back property sales -- buying buildings and reselling them to his own entities, on paper, at a markup | Fannie Mae and Freddie Mac's loan servicer, Walker & Dunlop | Title and brief implied Fannie Mae alleged fraud | a pattern reporters say has now repeated across nearly every suit",
+   "now": "Lakewood, New Jersey-based investor Chaim Bialostozky | back-to-back sales with an intermediary, with the lower first purchase, made days or hours earlier, allegedly hidden from lenders | Walker & Dunlop, acting for Freddie Mac; Fannie Mae sues in its own name | Fannie Mae's latest suit does not allege fraud; the fraud claims come from Walker & Dunlop for Freddie Mac | no appearance or response in any of the foreclosure proceedings",
+   "basis": "Checked against the source article: The Real Deal, Sept. 22, 2026, describes him as a 'Lakewood, New Jersey-based real estate investor.' | The Real Deal: lenders allege 'back-to-back property sales with an intermediary,' concealing lower-priced initial transactions made days or hours earlier. | The Real Deal describes Walker & Dunlop as 'acting on behalf of Freddie Mac' and reports Fannie Mae filed its own foreclosure. | The Real Deal: 'Fannie didn't lob fraud allegations over this portfolio in its court filing.' | The Real Deal: court records show Bialostozky 'hasn't appeared or responded in any of the foreclosure proceedings.'"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-358",
+   "caseId": "live-358",
+   "subject": "Old Second National Bank Sues to Foreclose River North Building, Pursues $2.9M Personal Guaranty Claim",
+   "kind": "Corrected: description",
+   "was": "city permits have already been approved for a roughly $3 million conversion of the property into a restaurant",
+   "now": "a $3 million permit for interior and exterior work, with plans to convert the building's ground and second floors into a restaurant",
+   "basis": "Checked against the source article: The Real Deal, Oct. 29, 2026: the permit covers 'interior buildout and exterior renovations' and the project would convert 'the ground and second floors of the existing four-story building' into a restaurant."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-154",
+   "caseId": "live-154",
+   "subject": "Herb Simon v. David Simon's Family (SFG Co. Restructuring Suit)",
+   "kind": "Corrected: description, figure, party",
+   "was": "Bank of America, acting as trustee for the marital trust of Herb's late wife, Bren Simon | Eli Simon, was named CEO of the successor entity | stating his intention to remain focused on running the company rather than litigating the family dispute in public | along with fifteen other defendants",
+   "now": "Removed; Bren Simon is identified as Mel Simon's widow | Eli Simon succeeded his father as CEO of Simon Property Group and heads SFG Manager | said he remains focused on leading the Indianapolis-based company and delivering long-term value for shareholders | 17 defendants",
+   "basis": "Checked against the source article: The Real Deal: after Mel Simon died in 2009, his children battled his widow, Bren Simon | The Real Deal | The Real Deal | The Real Deal: Herb Simon and affiliated entities sued 17 defendants"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-140",
+   "caseId": "live-140",
+   "subject": "Landesbank Hessen-Thüringen Girozentrale v. 29 West 34 Owner LLC (Herald Square Foreclosure Settlement)",
+   "kind": "Corrected: figure, label",
+   "was": "the lender issued formal notices of default alleging that Sutton's ownership entity had failed to pay more than $12 million in real estate taxes | docket link to https://iapps.courts.state.ny.us/nyscef/CaseSearch (labeled NYSCEF Index No. 850386/2025)",
+   "now": "Helaba's default notices cited unpaid real estate taxes; the $12.2 million figure is what the receiver's separate January 2026 suit seeks from Sutton personally | Docket link removed",
+   "basis": "Checked against the source article and court docket: The Real Deal: the receiver's lawsuit, filed in January, seeks $12.2 million in unpaid real estate taxes from Sutton personally | The link was a generic NYSCEF search page, not a case-specific docket"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-137",
+   "caseId": "live-137",
+   "subject": "United States v. Joshua Schuster ($13.8M Real Estate Investor Fraud Sentencing)",
+   "kind": "Corrected: description",
+   "was": "Schuster's counsel argued for leniency on the theory that he had been sober for four years | According to the criminal information | approved a $13 million forfeiture order intended to compensate Schuster's victims",
+   "now": "Schuster told the judge he had been sober for four years | two-count indictment filed May 6, 2025 | $13,830,665 forfeiture money judgment; restitution decided separately by order of October 7, 2026",
+   "basis": "Checked against the source article and court docket: The Real Deal reports Schuster himself made this statement to Judge Caproni | CourtListener docket 1:25-cr-00204 (S.D.N.Y.), entries 1-2: indictment, counts 1 and 2 | CourtListener docket entries 41, 42 and 51"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-136",
+   "caseId": "live-136",
+   "subject": "Cimerring v. Arbor Realty Trust, Inc. ($175M Georgia Bridge-Loan Foreclosure Fraud Suit)",
+   "kind": "Corrected: description",
+   "was": "until the loan matured without a permanent replacement in place and the property fell into default",
+   "now": "After the rate cap expired in March 2024 the interest rate nearly doubled and the brothers defaulted",
+   "basis": "Checked against the source article: The Real Deal: the two-year rate cap expired by March 2024, the rate nearly doubled and the brothers soon defaulted; no maturity is mentioned"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-134",
+   "caseId": "live-134",
+   "subject": "Palm Beach Marriott Singer Island Condominium Association v. Urgo Hotels (Hotel-Condo Shared-Facility Fee Dispute)",
+   "kind": "Corrected: description, label, party",
+   "was": "the property's commercial operator, Urgo Hotels LP | Decade-Long Duplicative Resort-Fee Dispute / duplicative resort fees | counsel arguing in related proceedings that portions of the dispute are foreclosed by the 2013 settlement",
+   "now": "the hotel's owner, Urgo Hotels | Hotel-Condo Shared-Facility Fee Dispute; shared-facility and administrative fees | Urgo argued in court filings that the settled 2010 case barred this lawsuit",
+   "basis": "Checked against the source article: The Real Deal describes Urgo as the hotel's owner, which bought the building from WCI Communities in 2009 | The Real Deal describes a per-occupied-day administrative fee and quarterly shared-facility assessments, never 'resort fees' | The Real Deal: Urgo's team said the lawsuit should not have been allowed to continue because the 2010 case was already settled"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-131",
+   "caseId": "live-131",
+   "subject": "Jovia Financial Federal Credit Union v. S Indiana Avenue LLC (South Loop Office Foreclosure & Personal Guaranty Suit)",
+   "kind": "Corrected: date, description",
+   "was": "after its sole state-agency tenant left / The building's sole tenant | more than three dozen open municipal code violations in 2024",
+   "now": "its primary tenant | more than three dozen open code violations since 2024",
+   "basis": "Checked against the source article: The Real Deal calls the state agency the building's 'primary tenant' (129,126 of 129,200 sq ft) | The Real Deal: violations accumulated 'since 2024'"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-092",
+   "caseId": "live-092",
+   "subject": "Rialto Capital Advisors v. WC MRP Calumet Center, LLC ($45.6M Calumet City Retail Foreclosure)",
+   "kind": "Corrected: description",
+   "was": "The complaint also reflects ... appraisals ... have fallen from a cumulative $56.6 million at origination to roughly $46.3 million | can put otherwise-performing properties at risk ... even where an individual property is performing reasonably well",
+   "now": "Public loan data cited by The Real Deal shows the portfolio's appraised value fell from $56.6 million to $46.3 million as of December | Removed; the significance no longer says the property was performing",
+   "basis": "Checked against the source article: The Real Deal attributes the appraisal figures to public loan data, not to Rialto's complaint | The Real Deal reports the portfolio had negative net operating income in 2024 and cash flow below underwriting; nothing says the Calumet property was performing"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-229",
    "caseId": "live-229",
    "subject": "KSG v. BroadRange Logistics (Mount Pocono Warehouse Tenant-Improvement Allowance Suit)",
