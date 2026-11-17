@@ -67,36 +67,42 @@ const RELAW_DATA = {
   cases: [
     {
       id: "live-002",
-      seoTitle: "NJ Supreme Court Voids Jackson Township Land-Swap Condemnation",
-      seoDescription: "NJ Supreme Court unanimously held Jackson Township could not condemn private parcels (Getzel Bee) just to trade them to a developer for open space.",
+      seoTitle: "NJ Supreme Court Rejects Jackson Township Land-Swap Condemnation",
+      seoDescription: "NJ Supreme Court held Jackson Township could not condemn two LLC-owned lots only to trade them to a developer for open space, and remanded on relief.",
       addedDate: "2026-08-04",
-      title: "Township of Jackson v. Getzel Bee, LLC",
-      brief: "New Jersey's Supreme Court unanimously barred Jackson Township from condemning two private parcels just to trade them to a developer for open-space land, voiding the ordinances.",
+      title: "Township of Jackson v. Getzel Bee, LLC (NJ Supreme Court Rejects Condemnation to Fund a Land Swap)",
+      brief: "New Jersey's Supreme Court unanimously held Jackson Township could not condemn two LLC-owned lots only to trade them to a developer for open-space land, and sent the case back to set the owners' relief.",
       category: "eminent-domain",
       status: "ruling",
-      date: "2026-07-21",
+      date: "2026-07-20",
       jurisdiction: "Supreme Court of New Jersey",
       parties: [
         { name: "Township of Jackson", role: "Plaintiff-Appellant" },
         { name: "Getzel Bee, LLC", role: "Defendant-Respondent" },
         { name: "Bellevue Jackson, LLC", role: "Defendant-Respondent" },
-        { name: "State of New Jersey", role: "Defendant" }
+        { name: "State of New Jersey", role: "Defendant" },
+        { name: "Bellevue Estates, LLC", role: "Developer in the land swap (non-party)" }
       ],
       amountUsd: null,
       judge: "Stuart Rabner",
       state: "NJ",
-      amount: "N/A — condemnation ordinances voided",
+      amount: "N/A; condemnation orders reversed, relief to be set on remand",
       source: "live",
       sourceUrl: "https://www.njcourts.gov/system/files/court-opinions/2026/a_3_25.pdf",
-      summary: "In a unanimous ruling, the New Jersey Supreme Court held that Jackson Township could not condemn two privately owned parcels solely to trade them to a developer in exchange for a separate tract the township wanted to preserve as open space. The Court found the condemned parcels were never intended for public use themselves and that the township's shifting disclosures to the affected owners failed the good-faith standard required in condemnation proceedings.",
-      significance: "A 'Kelo'-adjacent limit on land-swap assemblages: municipalities and the developers who rely on them to unlock sites can no longer use condemnation as a private trading mechanism, even when the stated end goal is a public benefit like open-space preservation. REITs and developers with entitlement strategies premised on municipal land swaps should revisit those deal structures.",
+      summary: "On July 20, 2026, the New Jersey Supreme Court unanimously affirmed an Appellate Division ruling that reversed orders allowing Jackson Township to condemn two lots owned by Getzel Bee, LLC and Bellevue Jackson, LLC. The township took the lots to trade them, with other land, to a developer in exchange for the developer's land to be preserved as open space. Writing for the court, Chief Justice Stuart Rabner held that neither the condemnation statutes nor case law allow taking private land only to exchange it for other property that will be put to public use, and that the township did not deal forthrightly with the owners. Because the swap had already closed, the court remanded for the trial court to decide what relief the owners should receive.",
+      significance: "The court held that the public-use requirement must be met by the condemned property itself, distinguishing Kelo, Midkiff and Berman, where the transfers to private parties served a public purpose. A New Jersey municipality cannot use eminent domain to acquire land to trade to a private party, even to obtain open space elsewhere.",
       body: [
-        "The New Jersey Supreme Court's unanimous opinion in Township of Jackson v. Getzel Bee draws a bright line around a maneuver some municipalities have used to unlock preferred parcels: condemning land not for the taking itself, but to trade it away for a different tract the town actually wants.",
-        "Jackson Township condemned two privately held parcels with the intent of swapping them to a developer in exchange for a separate tract slated for open-space preservation. The Court found the condemned parcels were never destined for public use in their own right, and that the township's disclosures to the affected owners shifted over the course of the proceeding in a way that failed condemnation law's good-faith requirement.",
-        "The ruling is being read as a 'Kelo'-adjacent guardrail: public-benefit framing alone won't save a condemnation used as a private trading chip. Developers and REITs whose entitlement strategy in New Jersey — or jurisdictions likely to follow this reasoning — depends on a municipal land swap should revisit those structures before relying on them further."
+        "The New Jersey Supreme Court on July 20, 2026 affirmed the Appellate Division's reversal of trial court orders that had allowed Jackson Township to condemn Lots 84 and 90, owned by Bellevue Jackson, LLC and Getzel Bee, LLC. Chief Justice Stuart Rabner wrote for a unanimous court.",
+        "According to the opinion, the township adopted an ordinance in February 2023 to exchange land, including the two privately owned lots, with a developer, Bellevue Estates, LLC (unrelated to Bellevue Jackson), which would transfer its own land to the township for open space. The early ordinances did not say how the two lots would be used or identify a public purpose. The township told the owners in March 2023 that it was acquiring land \"for open space purposes,\" filed condemnation complaints in June 2023, and only in a September 2023 ordinance indicated the lots would be exchanged. The trial court found a public purpose in October 2023; the Appellate Division reversed in January 2025, calling the lots, \"in essence, currency, to exchange for open space.\"",
+        "The Supreme Court held that neither the Local Lands and Buildings Law nor the Eminent Domain Act, nor federal or state case law, authorizes condemning someone's land only to exchange it for another's property that will be put to public use. The condemned lots were left to the developer's discretion, not restricted to public use; it was the developer's land that would become open space. The court also found the township's shifting ordinance language fell short of its duty to \"turn square corners\" with property owners. Because the township's counsel said the exchange had already been completed, the court remanded to the trial court to determine what relief the owners should receive."
       ],
       timeline: [
-        { when: "July 21, 2026", label: "NJ Supreme Court rules unanimously that the condemnation was not for public use and voids it",  current: true }
+        { when: "February 14, 2023", label: "Jackson Township adopts its first land-exchange ordinance covering Lots 84 and 90" },
+        { when: "June 9, 2023", label: "Township files condemnation complaints" },
+        { when: "October 20, 2023", label: "Trial court finds a public purpose and lets the condemnation proceed" },
+        { when: "January 31, 2025", label: "Appellate Division reverses" },
+        { when: "March 16, 2026", label: "Supreme Court hears argument" },
+        { when: "July 20, 2026", label: "Supreme Court unanimously affirms and remands for the trial court to set relief", current: true }
       ],
       documentUrl: "https://www.njcourts.gov/system/files/court-opinions/2026/a_3_25.pdf",
       documentLabel: "Read the official opinion",
@@ -391,17 +397,17 @@ const RELAW_DATA = {
     {
       id: "live-010",
       seoTitle: "Steinway Tower: NY High Court Revives AmBase Mezz Loan Claim",
-      seoDescription: "NY Court of Appeals revived AmBase's 111 West 57th Investment good-faith claim against Apollo-affiliated lenders over a $25M Steinway Tower mezz loan sale.",
-      property: {"name": "Steinway Tower", "state": "NY"},
+      seoDescription: "NY Court of Appeals, 4-3, revived AmBase vehicle 111 West 57th Investment's good-faith claim against Apollo over a $25M Steinway Tower mezz loan sale.",
+      property: {"name": "Steinway Tower (111 West 57th Street)", "city": "New York", "state": "NY"},
       addedDate: "2026-08-11",
       title: "111 West 57th Investment LLC v. 111 W57 Mezz Investor LLC (Steinway Tower \"Sole Discretion\" Ruling)",
-      brief: "New York's highest court revived an AmBase vehicle's good-faith claim against Apollo-affiliated mezzanine lenders over a $25M Steinway Tower loan sale followed by a strict foreclosure of its equity.",
+      brief: "New York's highest court, 4-3, revived an AmBase vehicle's implied-covenant claim against Apollo entities over the 2017 sale of a $25M Steinway Tower junior mezzanine loan that preceded a strict foreclosure of its equity.",
       category: "lending-foreclosure",
       status: "ruling",
       date: "2026-05-28",
       jurisdiction: "New York Court of Appeals",
       parties: [
-        { name: "111 West 57th Investment LLC", role: "Appellant" },
+        { name: "111 West 57th Investment LLC", role: "Plaintiff-Appellant" },
         { name: "111 W57 Mezz Investor LLC", role: "Defendant" },
         { name: "ACREFI Mortgage Lending, LLC", role: "Respondent" },
         { name: "Spruce Capital Partners LLC", role: "Respondent" }
@@ -409,26 +415,28 @@ const RELAW_DATA = {
       amountUsd: null,
       judge: "Rowan D. Wilson",
       state: "NY",
-      amount: "$65M equity investment; $25M junior mezzanine loan; ~$600M underlying equity value alleged",
+      amount: "$65M equity investment; $25M junior mezzanine loan; ~$600M cash flow to equity in Apollo's models (as alleged)",
       source: "live",
       sourceUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_03376.shtml",
-      summary: "New York's highest court reinstated AmBase investment vehicle 111 West 57th Investment LLC's implied-covenant-of-good-faith claim against Apollo-affiliated mezzanine lenders over the 2017 sale of a $25M junior mezzanine loan (secured by the plaintiff's equity in the Steinway Tower project) to Spruce Capital Partners at par value, despite internal models showing roughly $600M in underlying equity value. Spruce initiated a UCC Article 9 strict foreclosure two days after acquiring the loan, wiping out the plaintiff's equity; the Court held Apollo's contractual 'sole discretion' to assign the loan does not exculpate it from good-faith-and-fair-dealing claims and remitted the case to Supreme Court, New York County, while affirming dismissal of related tortious interference claims.",
-      significance: "Resolves a split among Appellate Division departments in the lender's favor of accountability, aligning New York with Delaware law: broad 'sole discretion' clauses in loan and pledge agreements no longer categorically foreclose implied-covenant claims when a counterparty alleges the discretion was exercised as part of a bad-faith scheme to strip a joint-venture partner's equity. Mezzanine lenders, sponsors, and equity investors in New York-governed capital stacks should expect a lower pleading bar for bad-faith challenges to loan assignments and strict foreclosures going forward, even where assignment rights are drafted as unqualified.",
+      summary: "On May 28, 2026, the New York Court of Appeals, 4-3, reinstated 111 West 57th Investment LLC's claim that Apollo lending entities breached the implied covenant of good faith and fair dealing by assigning a $25 million junior mezzanine loan on the 111 West 57th Street tower project to Spruce Capital Partners in 2017, which then took the joint venture's equity by strict foreclosure. Assuming Apollo had 'sole discretion' to assign the loan, the majority held that discretion did not exempt it from the implied covenant. The court affirmed dismissal of the tortious interference claims and remitted the case to Supreme Court, New York County.",
+      significance: "The majority sided with what it called the prevailing view among the Appellate Division departments, in tension with some First Department decisions, that a 'sole discretion' clause does not exempt a party from the implied covenant, and said its ruling is consistent with Delaware law and 'in no way changes New York law.' The three dissenters warned it would unsettle expectations under existing loan agreements. The ruling addresses only whether the claim was adequately pleaded.",
       body: [
-        "New York's highest court reinstated an implied-covenant-of-good-faith claim brought by 111 West 57th Investment LLC against Apollo-affiliated mezzanine lenders, centered on the 2017 sale of a $25M junior mezzanine loan secured by the plaintiff's equity in the Steinway Tower project. The loan was sold to Spruce Capital Partners at par value even though internal models reportedly showed roughly $600M in underlying equity value, and Spruce initiated a UCC Article 9 strict foreclosure just two days after acquiring the loan, wiping out the plaintiff's equity position entirely.",
-        "The Court of Appeals held that Apollo's contractual right to assign the loan at its 'sole discretion' does not, on its own, exculpate the lender from good-faith-and-fair-dealing claims when the discretion is alleged to have been exercised as part of a scheme to strip a joint-venture partner's equity. The ruling remits the case to Supreme Court, New York County for further proceedings, while affirming dismissal of the plaintiff's related tortious interference claims.",
-        "The decision resolves a split among the Appellate Division's departments and brings New York in line with Delaware law on this question. Mezzanine lenders, sponsors, and equity investors operating under New York-governed capital stacks should expect a lower pleading bar going forward for bad-faith challenges to loan assignments and strict foreclosures, even in deals where assignment rights were drafted as facially unqualified."
+        "The New York Court of Appeals on May 28, 2026 reinstated an implied-covenant claim by 111 West 57th Investment LLC, which the dissent identifies as AmBase Corporation's investment vehicle, against Apollo lending entities including ACREFI Mortgage Lending, LLC. Chief Judge Rowan D. Wilson wrote for a 4-3 majority; Judge Garcia, joined by Judges Singas and Cannataro, dissented in part, and Judge Halligan took no part.",
+        "According to the opinion, the plaintiff invested $65 million in a joint venture to develop a luxury residential tower at 111 West 57th Street. The venture borrowed $725 million, including a $325 million Apollo mezzanine loan that fell out of balance because of budget overruns. In a March 2017 forbearance, that loan was split into a $300 million senior and a $25 million junior mezzanine loan secured by the venture's equity. Apollo gave Spruce Capital Partners models showing about $600 million in cash flow to equity if Spruce took the collateral by strict foreclosure, and on June 28, 2017 assigned the junior loan to a Spruce entity at its $25 million par value. Spruce sent a notice of default two days later and, on July 7, 2017, notified the venture it would take the equity by strict foreclosure absent objection; the foreclosure went forward and the venture's equity was wiped out. The plaintiff alleges Apollo, Spruce and the project's sponsor arranged a \"backroom deal\" to cut it out.",
+        "The Appellate Division had dismissed the claim against Apollo in 2023 on the ground that Apollo's discretion to assign the loan could not be overridden by the implied covenant. Assuming without deciding that Apollo had sole discretion, the majority held that such discretion does not exempt a party from the covenant and that the complaint sufficiently alleged Apollo used the assignment as part of a scheme to strip the plaintiff of the equity the forbearance was meant to protect. Whether the plaintiff can prove those allegations is for later proceedings. The court affirmed dismissal of the tortious interference claims as insufficiently pleaded.",
+        "Judge Garcia's dissent argued the majority used the covenant to rewrite a negotiated commercial loan agreement and that the decision would make rights under billions of dollars of outstanding loan agreements uncertain. The opinion notes that related litigation continues, including a surviving claim against Spruce."
       ],
       timeline: [
-        { when: "2017", label: "Mezzanine loan sold to Spruce Capital Partners at par value despite ~$600M in alleged underlying equity" },
-        { when: "2017 (two days later)", label: "Spruce initiates UCC Article 9 strict foreclosure, wiping out plaintiff's equity" },
-        { when: "May 28, 2026", label: "NY Court of Appeals reinstates the good-faith claim and remits the case to Supreme Court",  current: true }
+        { when: "March 2017", label: "Forbearance splits Apollo's $325M mezzanine loan into $300M senior and $25M junior loans" },
+        { when: "June 28, 2017", label: "Apollo assigns the $25M junior mezzanine loan to a Spruce entity at par" },
+        { when: "July 7, 2017", label: "Spruce accelerates the loan and proposes strict foreclosure of the joint venture's equity" },
+        { when: "July 2017", label: "Plaintiff sues and unsuccessfully seeks to block the strict foreclosure" },
+        { when: "2023", label: "Appellate Division dismisses the implied-covenant claim against Apollo" },
+        { when: "May 28, 2026", label: "Court of Appeals, 4-3, reinstates the claim and remits to Supreme Court, New York County", current: true }
       ],
       documentUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_03376.shtml",
       documentLabel: "Read the official opinion",
-      tags: ["mezzanine debt", "implied covenant", "UCC foreclosure", "sole discretion", "capital stack"],
-      docketUrl: "https://www.courtlistener.com/opinion/10866496/111-w-57th-inv-llc-v-111-w57-mezz-inv-llc/",
-      docketLabel: "CourtListener opinion"
+      tags: ["mezzanine debt", "implied covenant", "UCC foreclosure", "sole discretion", "capital stack"]
     },
     {
       id: "live-013",
@@ -472,44 +480,6 @@ const RELAW_DATA = {
       ],
       tags: ["REIT", "proxy disclosure", "fiduciary duty", "charter amendment", "securities class action"],
       docketUrl: "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
-      docketLabel: "CourtListener docket"
-    },
-    {
-      id: "live-014",
-      seoTitle: "UDR Sued Under San Diego Algorithmic Rent-Pricing Ban (RealPage)",
-      seoDescription: "Class action alleges NYSE-listed REIT UDR, Inc. used RealPage software to set rents at a San Diego property, violating the city's algorithmic pricing ban.",
-      addedDate: "2026-08-11",
-      title: "Keller v. UDR, Inc. (San Diego Algorithmic Rent-Pricing Class Action)",
-      brief: "A former tenant sued NYSE-listed multifamily REIT UDR under San Diego's algorithmic rent-pricing ban, alleging RealPage software set rents at a San Diego property; penalties run up to $1,000 per violation.",
-      category: "landlord-tenant",
-      status: "filed",
-      date: "2026-07-02",
-      jurisdiction: "U.S. District Court, Southern District of California",
-      parties: [
-        { name: "UDR, Inc.", role: "Defendant" }
-      ],
-      judge: null,
-      amountUsd: null,
-      state: "CA",
-      amount: "Putative class action; statutory penalties up to $1,000/violation",
-      source: "live",
-      sourceUrl: "https://www.documentcloud.org/documents/28535107-us-dis-casd-3-26cv3865-d2650861e355-complaint-with-jury-demand-against-udr-inc-filing/",
-      summary: "Former tenant Jacob Keller filed a putative class action against UDR, Inc. on July 2, 2026 in the U.S. District Court for the Southern District of California, alleging the NYSE-listed multifamily REIT used a RealPage algorithmic pricing device to set rents and occupancy levels at a San Diego property in violation of San Diego Municipal Code § 98.1103, the city's algorithmic rent-pricing ban effective June 21, 2025. The complaint seeks injunctive relief, damages, statutory penalties of up to $1,000 per violation, attorneys' fees, and a jury trial.",
-      significance: "One of the first suits to target a publicly traded REIT directly under a municipal algorithmic-pricing ordinance rather than as one of dozens of defendants in the federal RealPage MDL, and it leans on UDR's prior acknowledged use of RealPage software from the D.C. Attorney General's separate antitrust suit. It signals that owners now face two distinct litigation tracks — federal antitrust exposure and a fast-growing patchwork of city-level statutory bans — with per-unit penalty structures that can scale quickly across large portfolios.",
-      body: [
-        "Former tenant Jacob Keller filed a putative class action against UDR, Inc. — a Highlands Ranch, Colorado-based, NYSE-listed multifamily REIT — on July 2, 2026 in the U.S. District Court for the Southern District of California. The complaint, Keller v. UDR, Inc., No. 3:26-cv-03865 (S.D. Cal.), alleges UDR used a RealPage algorithmic pricing device to set rents and occupancy levels at a UDR-managed San Diego property, in violation of San Diego Municipal Code § 98.1103, which bars landlords from using software that generates rent or occupancy recommendations from non-public competitor data.",
-        "Unlike the antitrust conspiracy theory driving the federal RealPage MDL, San Diego's ordinance requires no proof of coordination among competitors — it simply prohibits use of a covered algorithmic device outright and authorizes a private right of action with per-violation statutory penalties of up to $1,000, in addition to damages, injunctive relief, and attorneys' fees. The complaint notably relies on UDR's own acknowledged use of RealPage software in the District of Columbia Attorney General's separate November 2023 antitrust suit against RealPage and roughly a dozen large landlords.",
-        "The case underscores that algorithmic-pricing exposure has split into two tracks: the federal MDL, where RealPage's landlord-customers have paid roughly $360M combined in settlements, and a fast-growing patchwork of municipal bans — now including San Diego, Philadelphia, and New York State — that impose standalone statutory liability regardless of any conspiracy, and that can reach large public REITs as readily as private operators."
-      ],
-      timeline: [
-        { when: "June 21, 2025", label: "San Diego's algorithmic rent-pricing ban takes effect" },
-        { when: "July 2, 2026", label: "Jacob Keller files class action against UDR, Inc." },
-        { when: "November 2, 2026", label: "Docket records a \"Dismiss for Failure to State a Claim\" entry (docket entry 18)", current: true }
-      ],
-      documentUrl: "https://www.documentcloud.org/documents/28535107-us-dis-casd-3-26cv3865-d2650861e355-complaint-with-jury-demand-against-udr-inc-filing/",
-      documentLabel: "Read the filed complaint",
-      tags: ["algorithmic pricing", "RealPage", "REIT", "class action", "san diego"],
-      docketUrl: "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
       docketLabel: "CourtListener docket"
     },
     {
@@ -591,37 +561,41 @@ const RELAW_DATA = {
     },
     {
       id: "live-019",
-      seoTitle: "Columbia Falls Aluminum Superfund: $57.6M Cleanup Consent Decree",
-      seoDescription: "Columbia Falls Aluminum Company (CFAC) will pay $57.6 million under an EPA consent decree to clean up its former smelter site in Columbia Falls, Montana.",
+      seoTitle: "Columbia Falls Aluminum Superfund Consent Decree: $57.6M Cleanup",
+      seoDescription: "CFAC agreed to perform cleanup EPA estimates at $57.6 million and repay $1.8 million in past costs at its former Columbia Falls, Montana smelter site.",
       addedDate: "2026-08-12",
-      title: "United States v. Columbia Falls Aluminum Co. (CFAC Superfund Consent Decree, $57.6M Cleanup)",
-      brief: "Columbia Falls Aluminum Company will pay $57.6 million under a proposed EPA consent decree to clean up arsenic, cyanide and other contamination at its former Montana aluminum smelter site.",
+      title: "United States and Montana v. Columbia Falls Aluminum Co. (CFAC Superfund Consent Decree, $57.6M Estimated Cleanup)",
+      brief: "Columbia Falls Aluminum Company agreed in a consent decree to perform Superfund cleanup EPA estimates at $57.6 million and repay $1.8 million in past costs at its former Montana smelter site; the court entered it Nov. 12, 2026.",
       category: "environmental",
       status: "settled",
-      date: "2026-07-09",
+      date: "2026-07-02",
       jurisdiction: "U.S. District Court for the District of Montana",
       parties: [
         { name: "United States of America", role: "Plaintiff" },
+        { name: "State of Montana", role: "Plaintiff" },
         { name: "Columbia Falls Aluminum Company, LLC", role: "Defendant" }
       ],
-      judge: "Kathleen L. DeSoto",
+      judge: "William W. Mercer",
       amountUsd: 57600000,
       amountBasis: "settlement",
       state: "MT",
-      amount: "$57.6M cleanup consent decree",
+      amount: "Cleanup work estimated at $57,634,528, plus $1.8M in past EPA response costs",
       source: "live",
       sourceUrl: "https://www.epa.gov/newsreleases/columbia-falls-aluminum-corporation-llc-agrees-57-million-cleanup-former-smelter-site",
-      summary: "The EPA and Columbia Falls Aluminum Company, LLC (CFAC) lodged a consent decree in the U.S. District Court for the District of Montana under which CFAC will pay $57.6 million to clean up its former aluminum smelter site in Columbia Falls, addressing arsenic, cyanide, fluoride, and polyaromatic hydrocarbon contamination in soil and groundwater. The 647-page agreement, open for public comment through August 6, 2026, requires low-permeability landfill caps and a groundwater slurry wall to stop contaminant migration toward the Flathead River. The court approved and entered the consent judgment on November 12, 2026.",
-      significance: "Superfund liability attaches to the site, not just the operating business — CFAC ceased smelting operations years before this settlement, yet remains on the hook for tens of millions in remediation because it remained the property's owner of record. Owners of industrial and formerly-industrial CRE parcels, especially older manufacturing sites being eyed for adaptive reuse or redevelopment, should treat legacy contamination as a live balance-sheet liability rather than a closed chapter, and should confirm acquisition due diligence accounts for the multi-decade tail these consent decrees typically carry.",
+      summary: "The United States and the State of Montana sued Columbia Falls Aluminum Company, LLC (CFAC) in federal court in Montana on July 2, 2026 and lodged a proposed consent decree the same day under which CFAC will carry out the cleanup EPA selected for its former aluminum smelter site near Columbia Falls, work EPA estimates at $57,634,528, and reimburse EPA $1.8 million in past response costs, according to the Justice Department's Federal Register notice. The cleanup addresses arsenic, cyanide, fluoride and PAH contamination. The court entered the consent judgment on November 12, 2026.",
+      significance: "The decree puts the cost of carrying out EPA's January 2025 cleanup plan on the site's corporate successor rather than on public funds, with EPA and Montana regulators overseeing the work. It is a reminder that Superfund liability for a former industrial site can reach an owner or a successor to past owners and operators long after operations end.",
       body: [
-        "The EPA and Columbia Falls Aluminum Company, LLC (CFAC) lodged a 647-page consent decree in the U.S. District Court for the District of Montana in Missoula, resolving CERCLA and Montana state Superfund claims tied to the company's former aluminum reduction plant in Columbia Falls, Montana.",
-        "Under the agreement, CFAC will pay $57.6 million toward cleanup of arsenic, cyanide, fluoride, and polyaromatic hydrocarbon (PAH) contamination in soil and groundwater at the shuttered smelter site, including construction of a groundwater slurry wall around the main contaminant source area to halt migration toward the Flathead River and low-permeability caps over onsite landfills.",
-        "The consent decree remains subject to a 30-day public comment period running from July 7 to August 6, 2026, and further review by the U.S. District Court in Missoula before formal entry. EPA and the Montana Department of Environmental Quality will jointly oversee design and implementation of the remedial work, which the agency estimates could take two to three years to complete once a final remediation design is set."
+        "The United States, at EPA's request, and the State of Montana, through its Department of Environmental Quality, sued Columbia Falls Aluminum Company, LLC on July 2, 2026 in the U.S. District Court for the District of Montana, Missoula Division, under CERCLA and Montana's state cleanup law. The complaint describes CFAC as the successor to the company that owned and operated the aluminum reduction plant at the roughly 1,340-acre site northeast of Columbia Falls. A proposed consent decree was lodged the same day.",
+        "According to the Justice Department's Federal Register notice, CFAC will reimburse EPA $1.8 million in past response costs, pay future response costs, and perform the remedy in EPA's January 2025 Record of Decision, work EPA estimates at $57,634,528. EPA's July 6, 2026 announcement said the cleanup will address arsenic, cyanide, fluoride and polyaromatic hydrocarbon contamination, including low-permeability caps on landfills and a slurry wall around the main source of groundwater contamination to stop migration toward the Flathead River. The plant operated from 1955 to 2009, and EPA said spent potliner stored in unlined landfills leached contaminants into groundwater. EPA quoted the president of CFAC's parent company, Glencore Ltd., as calling the cleanup a positive step.",
+        "The notice opened a 30-day public comment period ending August 6, 2026. The plaintiffs moved to approve the consent judgment on August 31, the case was reassigned to Judge William W. Mercer on September 3, and on November 12, 2026 the court entered an order on the motion and the consent judgment."
       ],
       timeline: [
-        { when: "July 9, 2026", label: "EPA announces the $57.6M consent decree agreement with CFAC for Superfund site cleanup" },
-        { when: "Through August 6, 2026", label: "Public comment period open before the U.S. District Court formally enters the consent decree" },
-        { when: "November 12, 2026", label: "Court enters order approving the consent decree and the consent judgment (docket entries 6-7)", current: true }
+        { when: "July 2, 2026", label: "United States and Montana file suit and lodge the proposed consent decree" },
+        { when: "July 6, 2026", label: "EPA announces the agreement" },
+        { when: "July 7 - August 6, 2026", label: "Federal Register public comment period" },
+        { when: "August 31, 2026", label: "Motion to approve the consent judgment filed" },
+        { when: "September 3, 2026", label: "Case reassigned to Judge William W. Mercer" },
+        { when: "November 12, 2026", label: "Court enters order on the motion and the consent judgment (docket entries 6-7)", current: true }
       ],
       tags: ["environmental", "CERCLA", "superfund", "industrial site", "montana"],
       docketUrl: "https://www.courtlistener.com/docket/73568530/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
@@ -1167,39 +1141,46 @@ const RELAW_DATA = {
     },
     {
       id: "live-041",
-      seoTitle: "Mass. Appeals Court Revives $198,000 Commercial Rent Judgment",
-      seoDescription: "Massachusetts Appeals Court let a commercial landlord refile after fixing a notice defect, reviving a $198,000 judgment against Chen's Food Enterprise.",
+      seoTitle: "Mass. Appeals Court: Landlord's Refiled Rent Suit Not Barred",
+      seoDescription: "Massachusetts Appeals Court held G. L. c. 239, § 7 let a commercial landlord refile a summary process case after a dismissal, reversing the Appellate Division.",
       addedDate: "2026-08-25",
-      title: "Eng v. Chen's Food Enterprise, Inc. (Notice-Cure Claim Preclusion Ruling)",
-      brief: "The Massachusetts Appeals Court reinstated a commercial landlord's $198,000 unpaid-rent judgment against Chen's Food Enterprise, holding a refiling after a curable notice defect is not precluded.",
+      title: "100 Norfolk Street Realty Trust v. Chen's Food Enterprise, Inc. (Summary Process Refiling Not Barred by Claim Preclusion)",
+      brief: "The Massachusetts Appeals Court held a commercial landlord's second summary process suit against Chen's Food Enterprise was not barred by claim preclusion, reversing the Appellate Division and remanding.",
       category: "lease-disputes",
       status: "ruling",
       date: "2026-08-24",
       jurisdiction: "Massachusetts Appeals Court",
       parties: [
-        { name: "Chen's Food Enterprise, Inc.", role: "Defendant" }
+        { name: "100 Norfolk Street Realty Trust (through its trustee)", role: "Landlord/Plaintiff" },
+        { name: "Chen's Food Enterprise, Inc.", role: "Tenant/Defendant" }
       ],
       amountUsd: 198000,
       amountBasis: "judgment",
       judge: "Sookyoung Shin",
       state: "MA",
-      amount: "$198,000 unpaid rent judgment",
+      amount: "$198,000 trial-court award plus interest and costs; Appellate Division review of the tenant's remaining arguments pending",
       source: "live",
       sourceUrl: "https://www.mass.gov/doc/eng-v-chens-food-enterprise-inc-ac-s25p1222/download",
-      summary: "The Massachusetts Appeals Court reversed an Appellate Division ruling that had barred a commercial landlord from recovering a $198,000 unpaid-rent judgment after his first summary process action was dismissed for lack of a proper termination notice. Writing for a unanimous panel, Justice Sookyoung Shin held that G. L. c. 239, § 7 authorizes a landlord to refile once a curable notice defect is fixed, and that the initial dismissal was not an adjudication on the merits for claim-preclusion purposes.",
-      significance: "The ruling forecloses what had become, after the Appellate Division's decision, a serious trap for commercial landlords: a notice-to-quit technicality in an initial filing could otherwise have permanently barred recovery of rent a tenant plainly owed. It confirms that landlords who cure a procedural notice defect and refile retain a genuine second opportunity to litigate a nonpayment claim on the merits.",
+      summary: "The Massachusetts Appeals Court on August 24, 2026 reversed a Boston Municipal Court Appellate Division ruling that had thrown out a commercial landlord's $198,000 trial win against its warehouse tenant, Chen's Food Enterprise, Inc., on claim-preclusion grounds. The landlord's first summary process case had been dismissed because it did not prove it sent the notice of termination the lease required. Writing for the panel, Justice Shin held that G. L. c. 239, § 7, which says a summary process judgment is not a bar to a later action to recover the premises, authorized the second case. The court sent the matter back to the Appellate Division to decide the tenant's remaining appeal arguments.",
+      significance: "The court held that the summary process statute, not Mass. R. Civ. P. 41(b)(3), controls whether a dismissed summary process case bars a new one, so a dismissal that does not say it is without prejudice still does not bar a later action for possession and damages. It noted that issue preclusion still prevents relitigating issues actually decided.",
       body: [
-        "A commercial landlord's stumble on the first attempt to evict a nonpaying tenant did not cost him nearly $200,000 in back rent, the Massachusetts Appeals Court ruled on August 24, 2026, resolving a dispute that had turned into an unplanned tutorial on the interaction between summary process practice and claim-preclusion doctrine. The case began in the Roxbury Division of the Boston Municipal Court, where trustee Paul Eng filed a summary process action against tenant Chen's Food Enterprise, Inc. for nonpayment of rent. That first case was dismissed because Eng had not served the written notice to quit the lease required before litigation could begin, a common and generally fixable defect under Massachusetts practice. Eng served a corrected termination notice and filed a second summary process action.",
-        "Following a three-day bench trial before Judge Kenneth J. Fiandaca, the trial court rejected the tenant's argument that the first dismissal barred the second suit and entered judgment for Eng on both possession and $198,000 in unpaid rent. Chen's Food Enterprise appealed to the Appellate Division of the District Court and Boston Municipal Court departments and won a reversal: the Appellate Division held that the first case's dismissal operated as an adjudication on the merits for claim-preclusion purposes, meaning the second, corrected suit should never have gone forward at all.",
-        "Had that ruling stood, it would have handed commercial tenants a powerful and largely accidental tool — any landlord who missed a notice requirement in an initial filing could have been permanently barred from ever recovering rent through summary process, no matter how quickly or completely the defect was later cured. Writing for a unanimous panel that also included Justices Ditkoff and Tan, Justice Sookyoung Shin rejected that reading, holding that the Appellate Division's application of claim preclusion could not be reconciled with the plain language of G. L. c. 239, § 7, the statute governing summary process for nonpayment of rent. The court concluded the statute affirmatively authorizes a landlord to bring a second action once the underlying notice defect has been fixed, because a dismissal grounded purely in a failure to satisfy a notice precondition is not the kind of merits determination claim-preclusion doctrine is meant to protect — the unpaid-rent question had never actually been tried in the first case.",
-        "The decision restores what most Massachusetts landlord-tenant practitioners had long assumed was the governing rule: a procedural dismissal for a curable notice defect leaves the underlying rent claim intact so long as the landlord actually fixes the problem before refiling. Tenants' counsel lose a defense that functioned less like an argument on the merits and more like a windfall keyed to a landlord's paperwork error, but the ruling leaves fully intact their ability to contest notice compliance, lease termination, and the amount of rent owed in whatever action actually proceeds to trial, exactly as Chen's Food Enterprise did across three days before Judge Fiandaca.",
-        "For commercial landlords and their counsel, the practical lesson cuts in two directions. A dismissal for a defective or missing notice to quit should be treated as correctable rather than fatal, and a landlord who promptly serves a proper termination notice and refiles should not assume the underlying rent claim has been lost — though building in the time and cost of doing it twice, as Eng ultimately had to, is itself a reason to get lease notice provisions right before filing the first time. Property managers and in-house counsel would do well to audit notice-to-quit requirements against both the governing statute and the specific lease before any nonpayment summary process action goes out the door, since the defect here was entirely avoidable and added more than two years of delay before the landlord actually collected. Tenants' counsel, meanwhile, should not bank on an early notice-based dismissal as a permanent shield against a rent claim and should focus litigation strategy on the merits of the nonpayment dispute itself, since this decision is specific to notice-based dismissals under G. L. c. 239, § 7 and does not disturb ordinary claim-preclusion principles where a dismissal actually resolves a case's merits."
+        "In December 2018 the trustee of 100 Norfolk Street Realty Trust leased part of a warehouse building in Boston's Roxbury section to Chen's Food Enterprise, Inc. for ten years at $9,000 a month, according to the Appeals Court's opinion. In October 2023 the landlord brought a summary process case for nonpayment, seeking possession and $193,581. At the January 2024 trial, the judge granted the tenant's motion for involuntary dismissal at the close of the landlord's case because the landlord had not proved it sent the notice of termination the lease required; judgment of dismissal entered February 2, 2024.",
+        "The landlord sent a notice of termination on February 12, 2024 and filed a new summary process case in the Roxbury Division of the Boston Municipal Court on February 26, claiming nonpayment of rent and wrongful transfer of the lease and seeking $205,267.50 and possession. The tenant's principal was later added as a defendant. After a three-day bench trial in June 2024, the same judge, Kenneth J. Fiandaca, rejected the tenant's claim-preclusion defense and awarded the landlord possession and $198,000 plus interest and costs. The Appellate Division of the Boston Municipal Court reversed, reasoning that the involuntary dismissal of the first case was an adjudication on the merits that barred the second.",
+        "The Appeals Court (Shin, Ditkoff and Tan, JJ.) reversed. It did not resolve the parties' arguments over the elements of claim preclusion. It held instead that G. L. c. 239, § 7, which provides that a summary process judgment \"shall not be a bar to any action thereafter brought by either party to recover the land or tenements in question,\" authorized the second case, and that the statute controls over the civil procedure rule treating an involuntary dismissal as on the merits. The court rejected the tenant's argument that reading the statute literally would let a landlord sue again until it wins, explaining that issue preclusion still bars relitigating issues actually decided.",
+        "Because the Appellate Division had not reached the tenant's other appeal arguments, the Appeals Court remanded the case to the Appellate Division to address them. The $198,000 trial judgment is therefore not yet final."
       ],
       timeline: [
-        { when: "February 26, 2024", label: "Original summary process complaint filed in the Roxbury Division of the Boston Municipal Court" },
-        { when: "August 24, 2026", label: "Massachusetts Appeals Court reverses the Appellate Division and reinstates the landlord's $198,000 judgment", current: true }
+        { when: "December 2018", label: "Ten-year lease of part of a Roxbury warehouse building to Chen's Food Enterprise, Inc." },
+        { when: "October 2023", label: "Landlord files first summary process case for nonpayment" },
+        { when: "February 2, 2024", label: "First case dismissed after trial for failure to prove a notice of termination" },
+        { when: "February 26, 2024", label: "Landlord files second summary process case in the Roxbury Division of the Boston Municipal Court" },
+        { when: "June 2024", label: "Three-day bench trial; judgment for landlord for possession and $198,000" },
+        { when: "May 7, 2026", label: "Appeals Court hears argument after the Appellate Division reversed on claim preclusion" },
+        { when: "August 24, 2026", label: "Appeals Court reverses the Appellate Division and remands for the tenant's remaining arguments", current: true }
       ],
-      tags: ["commercial lease", "summary process", "claim preclusion", "landlord-tenant", "massachusetts"]
+      tags: ["commercial lease", "summary process", "claim preclusion", "landlord-tenant", "massachusetts"],
+      property: {"name": "Warehouse building (part), Roxbury", "city": "Boston", "state": "MA"},
+      propertyType: "Industrial"
     },
     {
       id: "live-045",
@@ -4860,39 +4841,40 @@ const RELAW_DATA = {
     {
       id: "live-163",
       seoTitle: "Marshfield v. Commonwealth: SJC Upholds MBTA Communities Act",
-      seoDescription: "The Massachusetts SJC unanimously rejected Marshfield's challenge to the MBTA Communities Act, the multifamily zoning mandate for 177 towns.",
+      seoDescription: "The Massachusetts SJC affirmed dismissal of Marshfield's challenge to the MBTA Communities Act, which requires as-of-right multifamily zoning near transit.",
       addedDate: "2026-09-21",
       featured: true,
-      title: "Town of Marshfield v. Commonwealth (SJC Rejects Second Municipal Challenge to MBTA Communities Act)",
-      brief: "Massachusetts' SJC unanimously rejected Marshfield's challenge to the MBTA Communities Act, keeping the as-of-right multifamily zoning mandate for 177 transit-served communities in place.",
+      title: "Town of Marshfield v. Commonwealth (SJC Affirms Dismissal of Challenge to MBTA Communities Act)",
+      brief: "Massachusetts' SJC affirmed dismissal of Marshfield's suit claiming the MBTA Communities Act is an unfunded mandate and violates home rule and the Zoning Act, leaving the multifamily zoning requirement in place.",
       category: "zoning-land-use",
       status: "ruling",
       date: "2026-09-18",
       jurisdiction: "Massachusetts Supreme Judicial Court",
       parties: [
-        { name: "Town of Marshfield", role: "Plaintiff" },
-        { name: "Select board of Marshfield", role: "Plaintiff" },
-        { name: "Commonwealth", role: "Defendant" },
-        { name: "Executive Office of Housing and Livable Communities", role: "Defendant" }
+        { name: "Town of Marshfield", role: "Plaintiff-Appellant" },
+        { name: "Select board of Marshfield", role: "Plaintiff-Appellant" },
+        { name: "Commonwealth of Massachusetts", role: "Defendant-Appellee" },
+        { name: "Executive Office of Housing and Livable Communities", role: "Defendant-Appellee" }
       ],
       amountUsd: null,
       state: "MA",
-      amount: "Not a monetary claim; upholds a statewide multifamily zoning mandate covering 177 MBTA-served municipalities",
+      amount: "Not a monetary claim; challenge to the statewide MBTA Communities Act multifamily zoning requirement",
       source: "live",
       sourceUrl: "https://www.mass.gov/news/ag-campbell-issues-statement-after-sjc-rejects-marshfields-claims-challenging-the-mbta-communities-law",
-      summary: "The Massachusetts Supreme Judicial Court unanimously rejected a challenge brought by the Town of Marshfield and its select board to the MBTA Communities Act, the state law requiring 177 transit-served communities to zone for multifamily housing as of right. In a 22-page opinion issued September 18, 2026, Justice Serge Georges, Jr. rejected the town's unfunded-mandate, Home Rule Amendment, and Zoning Act claims and held that it lacked standing to assert its town meeting voters' constitutional voting rights, marking the second time the SJC has upheld the law against coordinated municipal resistance.",
-      significance: "Removes a significant source of entitlement risk for developers pursuing multifamily projects in MBTA Communities Act zoning districts by foreclosing the strongest remaining legal theories towns had used to resist the mandate. REITs, developers, and their counsel evaluating transit-oriented sites in Massachusetts can now treat the statutory mandate itself as settled, though individual-municipality compliance status still needs to be confirmed before relying on as-of-right capacity.",
+      summary: "On September 18, 2026, the Massachusetts Supreme Judicial Court affirmed the dismissal of a suit by the Town of Marshfield and its select board challenging the MBTA Communities Act, the 2021 law requiring MBTA-served municipalities to allow multifamily housing as of right in at least one district. In an opinion by Justice Serge Georges, Jr., the court held the town had not plausibly alleged an unfunded local mandate, lacked standing to assert its town meeting voters' constitutional voting rights, and could not prevail on Home Rule Amendment or Zoning Act theories.",
+      significance: "The ruling rejects a municipality's unfunded-mandate, home-rule and Zoning Act objections to the MBTA Communities Act at the pleading stage, following the SJC's 2025 decision in Attorney General v. Milton. The court held that town meeting voters may reject a proposal, but cannot exempt the town from complying with a valid state law.",
       body: [
-        "Commercial developers who have spent the past several years trying to plan multifamily projects in Greater Boston's transit-served suburbs got a significant dose of legal certainty this month. On September 18, 2026, the Massachusetts Supreme Judicial Court unanimously rejected a challenge brought by the Town of Marshfield and its select board to the MBTA Communities Act, the 2021 state law that requires the 177 cities and towns served by the MBTA to adopt zoning that allows multifamily housing as of right near transit. The decision in Town of Marshfield and another v. Commonwealth and another, SJC-13840, is the second time in less than two years that the state's highest court has upheld the law against a coordinated municipal revolt, and it closes off several of the strongest remaining legal theories towns had floated for resisting it.",
-        "Marshfield and its select board argued that the Act, codified at General Laws Chapter 40A, Section 3A, amounted to an unfunded state mandate imposed on municipalities without corresponding funding, that it violated the Home Rule Amendment to the Massachusetts Constitution by intruding on matters of purely local concern, and that it conflicted with the state's existing Zoning Act framework. They also argued that the Act infringed the constitutional voting rights of Marshfield's town meeting voters, who had twice rejected proposed compliant zoning amendments.",
-        "Writing for a unanimous court, Justice Serge Georges, Jr. rejected each theory. On the unfunded-mandate claim, the court held that Marshfield's complaint did not plausibly allege that the Act or its implementing regulations impose costs beyond the incidental local administration expenses that the state's mandate law expressly excludes from protection, and found it unnecessary to resolve the broader question of whether zoning-compliance costs are categorically excluded from unfunded-mandate protection at all. The court found the town's allegation of future direct costs too conclusory and speculative to state a claim, and held that Marshfield and its select board lack standing to assert a constitutional voting-rights claim on behalf of Marshfield's town meeting voters. On the Home Rule Amendment theory, the court reaffirmed that while the amendment protects municipal authority over genuinely local matters, it does not prevent the Legislature from imposing substantive statewide requirements that municipalities must implement through their existing local procedures, so long as the underlying statute is a valid general law addressing a matter of statewide concern, as the SJC had already found housing production to be.",
-        "The ruling builds directly on the SJC's January 2025 decision in Attorney General v. Town of Milton, SJC-13580, which first upheld the Act's core enforceability and confirmed the Attorney General's authority to sue noncompliant municipalities, while separately invalidating the state housing agency's initial implementing guidelines for having skipped required rulemaking procedures under the Administrative Procedure Act. Those guidelines have since been re-promulgated in compliance with the APA, and Marshfield's case represents the first major test of the law's durability once that procedural defect was cured. Massachusetts Attorney General Andrea Campbell, whose office defended the Act, said the ruling leaves the multifamily zoning mandate fully intact across every covered community.",
-        "For commercial real estate developers, the practical effect is to remove a meaningful category of entitlement risk from projects sited in MBTA Communities Act zoning districts. A developer who has spent months or years assembling a multifamily deal near a commuter rail stop or subway station no longer has to price in the possibility that a late-breaking municipal lawsuit could unwind the underlying zoning district itself, at least on the legal theories Marshfield advanced. Compliance and enforcement remain live issues distinct from this ruling, however: some of the 177 covered communities still have not adopted conforming zoning, and the Attorney General's office has separately pursued enforcement actions, including a pending suit against nine noncompliant communities, using the same tools validated in Milton.",
-        "Developers evaluating sites in MBTA Communities Act districts can now treat the underlying statutory mandate as settled law rather than a pending legal question, though they should still confirm that the specific municipality's zoning has been found compliant by the state's housing agency before relying on as-of-right multifamily capacity. Municipalities considering further resistance to the Act should recognize that both the unfunded-mandate and Home Rule theories have now been squarely rejected, narrowing the realistic paths left to challenge compliance obligations to procedural or as-applied claims rather than facial attacks on the law itself, and counsel advising REITs or institutional developers on transit-oriented zoning disputes elsewhere should watch how other states treat similarly structured mandates, since Massachusetts's two-round validation of this law is likely to be cited as persuasive authority as more states adopt comparable transit-zoning statutes."
+        "The Massachusetts Supreme Judicial Court on September 18, 2026 affirmed a Superior Court judgment dismissing the Town of Marshfield's challenge to the MBTA Communities Act, G. L. c. 40A, § 3A. The 2021 law requires municipalities served by the MBTA to have zoning that permits multifamily housing as of right in at least one district of reasonable size; noncompliant communities lose eligibility for certain state grants. According to the opinion, Marshfield town meetings rejected proposed compliant zoning in April and December 2024, the select board voted in February 2025 not to approve an interim action plan, and the state housing office notified the town it was not in compliance. The town and board sued on February 27, 2025.",
+        "Writing for the court, Justice Serge Georges, Jr. held that the complaint did not plausibly allege an unfunded local mandate under G. L. c. 29, § 27C: it did not show that the town's costs of drafting and presenting zoning proposals were mandatory and beyond incidental local administration expenses, and its claim of future costs was too conclusory and speculative. Letters from the State Auditor's Division of Local Mandates calling the Act an unfunded mandate, issued to three other communities, did not fill that gap and do not bind the court. The court did not decide whether compliance costs are categorically excluded from the mandate law.",
+        "The court held that the town and its select board lack standing to assert a constitutional voting rights claim on behalf of town meeting voters. Although it found the Home Rule Amendment claim waived, it reached it because of its public importance and held the Act is a valid general law on a matter of statewide concern, the housing crisis. It also found no conflict with the Zoning Act, G. L. c. 40A, § 5: town meeting keeps its power to approve or reject proposals, but the consequence of rejection is noncompliance with the Act.",
+        "In a statement, Attorney General Andrea Joy Campbell said the decision \"reaffirms that the Law is constitutional and compliance is mandatory.\" Her office said 168 MBTA communities have taken steps to comply and that more than 10,000 units are being developed as a direct result of the law. The ruling follows the SJC's January 8, 2025 decision in Attorney General v. Milton, which held the Act enforceable but found the state's original compliance guidelines invalid because they were not issued under the Administrative Procedure Act; the housing office issued emergency guidelines in January 2025 and final guidelines on April 11, 2025."
       ],
       timeline: [
-        { when: "January 8, 2025", label: "SJC upholds the Act's core enforceability in Attorney General v. Town of Milton, but invalidates then-existing implementing guidelines for skipping required rulemaking procedures" },
-        { when: "September 18, 2026", label: "SJC unanimously rejects Marshfield's unfunded-mandate, voting-rights, Home Rule, and Zoning Act challenges in a 22-page opinion by Justice Serge Georges, Jr.", current: true }
+        { when: "January 8, 2025", label: "SJC decides Attorney General v. Milton, holding the Act enforceable but invalidating the original compliance guidelines" },
+        { when: "February 27, 2025", label: "Marshfield and its select board sue the Commonwealth and the Executive Office of Housing and Livable Communities in Superior Court" },
+        { when: "2025", label: "Superior Court allows the motion to dismiss; SJC grants direct appellate review" },
+        { when: "March 4, 2026", label: "SJC hears argument" },
+        { when: "September 18, 2026", label: "SJC affirms dismissal in an opinion by Justice Serge Georges, Jr.", current: true }
       ],
       documentUrl: "https://www.mass.gov/doc/marshfield-v-commonwealth-sjc-s13840/download",
       documentLabel: "Read the SJC's full opinion",
@@ -8797,34 +8779,34 @@ const RELAW_DATA = {
       date: "2026-10-14",
       jurisdiction: "Massachusetts Appeals Court",
       state: "MA",
-      amount: "800,000-square-foot warehouse project at risk (no dollar figure stated)",
+      amount: "Approximately 800,000-square-foot warehouse project (no dollar figure stated)",
       source: "live",
       sourceUrl: "https://www.mass.gov/doc/crg-acquisition-llc-v-planning-board-of-appeals-of-holliston-ac-w25p915/download",
       propertyType: "Industrial",
-      summary: "On October 14, 2026, the Massachusetts Appeals Court reversed a Land Court judgment that had let CRG Acquisition, LLC build an approximately 800,000-square-foot warehouse and distribution facility in Holliston without a special permit. The panel held that, even without deferring to the planning board's interpretation, the proposed facility's scale takes it out of the zoning bylaw's as-of-right 'wholesale office or showroom' warehouse category and into the bylaw's general-industrial-use category, which requires a special permit the planning board had already denied in 2021.",
-      significance: "The ruling warns logistics and warehouse developers that a town's use table listing 'warehouse' as a permitted use does not guarantee as-of-right status for a large-scale distribution facility; courts will look past the label to the project's actual size and intensity, including loading docks and trailer parking, to decide which use category really governs. It also shows that winning a favorable declaratory-judgment ruling at the trial level does not foreclose reversal on appeal, especially where the underlying discretionary special-permit denial already stands on its own, independent grounds.",
+      summary: "On October 14, 2026, the Massachusetts Appeals Court reversed a Land Court judgment declaring that CRG Acquisition, LLC's proposed 800,000-square-foot warehouse and distribution facility in Holliston was allowed as of right. The panel gave no deference to the town's reading of its bylaw but agreed with it on the merits: the as-of-right category for a 'wholesale office or showroom, including warehouse facilities' covers warehouse space that is part of an office or showroom, not a standalone warehouse. A standalone warehouse is a general industrial use that needs a special permit, which the planning board had denied in 2021.",
+      significance: "The panel read the phrase 'including warehouse facilities' as describing an accessory part of a wholesale office or showroom, not a separate standalone use, so the defined term 'warehouse' elsewhere in the bylaw did not make large distribution buildings as-of-right. It also held that a planning board that never decided whether a special permit was required gets no deference on that question in a declaratory-judgment case.",
       body: [
-        "The Massachusetts Appeals Court reversed a Land Court judgment on October 14, 2026 that had declared CRG Acquisition, LLC's proposed 800,000-square-foot warehouse and distribution facility in Holliston a use permitted as of right, meaning no special permit was required. The panel's ruling effectively reinstates the position of the town and its planning board, which had already denied CRG a special permit for the project in 2021 after eleven public hearings. Because that discretionary denial was never disturbed, the Appeals Court's decision leaves the project without a zoning path forward in its current form.",
-        "CRG is the buyer under a pending purchase and sale agreement for roughly seventy-two acres of land from New Hopping Brook Realty Trust, sited in Holliston's industrial zoning district. In 2019, CRG applied to the planning board for site plan approval to build the warehouse and distribution facility, a project that would include 423 trailer truck spaces, 170 loading docks and 129 passenger vehicle parking spaces. The planning board approved the site plan in March 2020 with thirty-one conditions, though the town's building inspector flagged a concern at the time that the use might ultimately require a special permit for general industrial uses rather than qualifying under the bylaw's warehouse category.",
-        "That concern proved prescient. In June 2020, CRG applied for a special permit while maintaining that none was actually required, and separately sought approval of a modified site plan with fewer trailer spaces and loading docks. After eleven public hearings, the planning board denied both the special permit and the modified site plan in July 2021, citing concerns about traffic, noise and the project's impact on the town's historical and agricultural character. CRG responded by suing in the Land Court on two tracks: a direct appeal of the board's denials under G. L. c. 40A, Section 17, and a separate declaratory judgment claim under G. L. c. 240, Section 14A, arguing that its warehouse was a use permitted by right under the bylaw's Section III.G.1, covering 'wholesale office or showroom, including warehouse facilities,' so that no special permit was needed in the first place.",
-        "A Land Court judge agreed with CRG on the declaratory judgment count, reasoning that the bylaw's specific use of the word 'warehouse' in Section III.G.1, and nowhere else in its table of uses, meant the principal use of a property as a warehouse was allowed as of right in the industrial district. A judgment entered declaring that CRG needed no special permit and remanding the separate site-plan dispute to the planning board for further review. The town and planning board appealed, and the Appeals Court reversed. The panel agreed with CRG that no deference was owed to the board's interpretation of the use tables for purposes of the declaratory judgment claim, since that statute does not involve review of an existing board decision, unlike a direct zoning appeal. But reviewing the bylaw independently, the panel agreed with the town on the merits: given the scale of CRG's proposed facility, the project falls under the bylaw's separate category for general industrial uses exceeding 15,000 square feet of floor area, not the as-of-right warehouse category CRG had invoked, so a special permit is required after all.",
-        "The practical upshot for logistics and warehouse developers is that a zoning bylaw's use table cannot be read by matching a keyword like 'warehouse' to a permitted-as-of-right category without accounting for separate, size-based use categories the same bylaw may impose on larger facilities. A roughly 800,000-square-foot distribution center with hundreds of trailer spaces and loading docks can fall outside a town's ordinary warehouse use classification even when that classification exists elsewhere in the same bylaw, pushing the project into a discretionary special-permit process that neighbors and local officials can use to raise traffic, noise and character objections. Developers assembling large industrial sites should confirm, before signing a purchase agreement, whether local bylaws tie use classification to project size or intensity, and should not assume that a favorable declaratory judgment on that question at the trial level will survive an appeal once the underlying discretionary permit denial is already final."
+        "The Massachusetts Appeals Court on October 14, 2026 reversed a Land Court judgment that had declared CRG Acquisition, LLC's proposed warehouse and distribution facility in Holliston a use permitted as of right, and directed entry of a declaration that the warehouse requires a special permit in the town's industrial district. Justice Toone wrote for the panel of Justices Sacks, Singh and Toone.",
+        "According to the opinion, CRG is the buyer under a pending agreement to purchase 72 acres in Holliston's industrial district from New Hopping Brook Realty Trust. In 2019 it sought site plan approval for an approximately 800,000-square-foot warehouse and distribution facility with 423 trailer truck spaces, 170 loading docks and 129 passenger vehicle spaces. The planning board approved the site plan in March 2020 with 31 conditions, noting the building inspector's concern that the use might need a special permit as a general industrial use. In June 2020 CRG applied for a special permit while maintaining none was required, and for approval of a modified site plan with fewer trailer spaces and loading docks. After eleven public hearings, the board denied both in July 2021, citing traffic, noise and effects on the town's historical and agricultural character and on surrounding neighborhoods.",
+        "CRG and the trust sued in the Land Court on August 27, 2021, appealing the denials under G. L. c. 40A, § 17, and seeking a declaration under G. L. c. 240, § 14A that the warehouse is allowed by right under bylaw § III.G.1, which covers a \"[w]holesale office or showroom, including warehouse facilities.\" A Land Court judge granted summary judgment to CRG on the declaratory claim; the judgment dismissed the special-permit appeal as moot and sent the modified site plan back to the board. Under the judgment's terms, if the town's appeal succeeded, the plaintiffs would not further pursue the project.",
+        "The Appeals Court agreed with CRG that neither the planning board nor the town was owed deference, because the board never decided, and had no authority to decide, whether a special permit was required. On the merits it sided with the town. It read \"including warehouse facilities\" as describing warehouse space that is part of a wholesale office or showroom, not a standalone warehouse, and held that a warehouse used for storage and distribution falls under § III.G.3, which requires a special permit for general industrial uses, including storage, processing and packaging, occupying more than 15,000 square feet. It also rejected CRG's reliance on the board's 1999 approval of a different site plan."
       ],
       tags: ["warehouse", "zoning", "special permit", "massachusetts", "industrial"],
       parties: [
-        { name: "CRG Acquisition, LLC", role: "Appellee" },
-        { name: "New Hopping Brook Realty Trust", role: "Appellee" },
-        { name: "Planning Board of Holliston", role: "Appellant" },
-        { name: "Town of Holliston", role: "Appellant" }
+        { name: "CRG Acquisition, LLC", role: "Plaintiff-Appellee" },
+        { name: "New Hopping Brook Realty Trust (through its trustee)", role: "Plaintiff-Appellee (landowner)" },
+        { name: "Planning Board of Holliston", role: "Defendant-Appellant" },
+        { name: "Town of Holliston", role: "Defendant-Appellant" }
       ],
-      judge: "Robert E. Toone Jr.",
+      judge: "Robert E. Toone, Jr.",
       amountUsd: null,
       timeline: [
         { when: "2019", label: "CRG applies for site plan approval for an approximately 800,000-square-foot warehouse and distribution facility" },
         { when: "March 2020", label: "Planning board approves the site plan with 31 conditions" },
-        { when: "July 2021", label: "Planning board denies CRG's special permit application and modified site plan approval after 11 public hearings" },
-        { when: "August 2021", label: "CRG sues in the Land Court, both appealing the denials and seeking a declaration that no special permit is required" },
-        { when: "October 14, 2026", label: "Massachusetts Appeals Court reverses, holding the warehouse is not a permitted-as-of-right use and a special permit is required", current: true }
+        { when: "July 2021", label: "Planning board denies CRG's special permit and modified site plan after 11 public hearings" },
+        { when: "August 27, 2021", label: "CRG and the landowner trust sue in the Land Court, appealing the denials and seeking a declaration that no special permit is required" },
+        { when: "February 13, 2026", label: "Appeals Court hears argument on the town's appeal from the Land Court judgment for CRG" },
+        { when: "October 14, 2026", label: "Appeals Court reverses and orders a declaration that the warehouse requires a special permit", current: true }
       ]
     },
     {
@@ -9432,10 +9414,10 @@ const RELAW_DATA = {
       id: "live-311",
       addedDate: "2026-10-19",
       seoTitle: "62 Wooster v. TML N.Y.: Good Guy Guaranty Ends at Vacatur",
-      seoDescription: "First Department rules good guy guarantors' liability ended when SoHo tenant vacated, rejecting landlord's $307K claim tied to a later Surrender Date.",
-      property: { name: "476 Broome Street", address: "476 Broome Street", city: "New York", state: "NY" },
+      seoDescription: "First Department held SoHo retail lease guarantors' liability ended when the tenant surrendered on Sept. 30, 2020, defeating a $307,577 rent claim against them.",
+      property: {"name": "476 Broome Street", "address": "476 Broome Street", "city": "New York", "state": "NY"},
       title: "62 Wooster, LLC v. TML N.Y. Inc. (Good Guy Guaranty Surrender Dispute)",
-      brief: "New York's First Department held guarantors of a SoHo retail lease were released when the tenant physically vacated in 2020, defeating the landlord's claim for roughly $307,577.08 in unpaid rent and damages.",
+      brief: "New York's First Department held the guarantors of a SoHo retail lease were released when the tenant surrendered on Sept. 30, 2020, construing conflicting guaranty clauses against the landlord that drafted them.",
       category: "lease-disputes",
       status: "ruling",
       date: "2026-10-01",
@@ -9447,25 +9429,24 @@ const RELAW_DATA = {
       amountBasis: "claim",
       source: "live",
       sourceUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_05591.shtml",
-      summary: "The Appellate Division, First Department affirmed dismissal of a SoHo landlord's claims against the individual guarantors of a retail lease at 476 Broome Street, holding their liability ended when the tenant physically vacated the premises in 2020 notwithstanding a separate lease provision tying liability to a later, formally defined 'Surrender Date.' The court applied the Court of Appeals' 2025 decision in 1995 CAM LLC v. West Side Advisors, which construed 'surrender' in a guaranty to mean the tenant's physical relinquishment of possession, not a landlord's acceptance or a later contractual milestone. The ruling forecloses the landlord's claims for roughly $307,577.08 in unpaid rent plus liquidated damages and enforcement costs against the guarantors.",
-      significance: "Good guy guaranties are a standard risk-mitigation tool in New York City commercial leasing, and this decision confirms courts will resolve internal conflicts in guaranty release language in favor of the simpler, vacatur-based trigger, even where a landlord's drafting attempted to extend liability through a more technical defined term. Landlords relying on multi-layered 'Surrender Date' concepts to keep guarantors on the hook past actual move-out should reconcile that language with any surrender-based release clause before the next lease is signed, not after a tenant has already left.",
+      summary: "On October 1, 2026, the Appellate Division, First Department unanimously affirmed dismissal of a SoHo landlord's claims against the individual guarantors of a retail lease at 476 Broome Street, including $307,577.08 in rent for July through October 2021. The court found the guaranties ambiguous because a surrender clause ending liability once the tenant vacated conflicted with a good guy clause tying liability to a defined 'Surrender Date.' Because the landlord's counsel drafted the documents, the court construed the conflict against the landlord and held the guarantors' liability ended on September 30, 2020, when the tenant returned the keys and vacated.",
+      significance: "When a guaranty's own clauses conflict, the First Department will treat it as ambiguous and, as a last resort, construe it against the landlord that drafted it. A landlord seeking to keep guarantors liable past move-out needs language that does not collide with a surrender-based release.",
       body: [
-        "The Appellate Division, First Department has affirmed the dismissal of a SoHo landlord's claims against the individual guarantors of a retail lease, holding that their personal liability ended when the tenant physically vacated the premises -- regardless of a separate lease provision that purported to extend liability until a later, formally defined 'Surrender Date.' The October 1, 2026 decision in 62 Wooster, LLC v. TML N.Y. Inc. is among the first significant applications of the New York Court of Appeals' 2025 ruling in 1995 CAM LLC v. West Side Advisors, and it gives landlords and counsel a clearer picture of how good guy guaranty release language will be read when a lease's own provisions conflict.",
-        "The case concerns a retail lease at 476 Broome Street in Manhattan. Two individuals each executed substantively identical personal good guy guaranties in connection with the tenant's lease -- a standard device in New York City commercial leasing that typically limits a principal's personal exposure to the period before the tenant vacates, in exchange for the tenant leaving the space broom clean and giving timely notice. The guaranty documents here contained two provisions in tension: a surrender clause ending liability for rent accruing after the tenant 'surrendered legal possession,' a phrase the guaranties never defined, and a separate good guy provision purporting to keep the guarantors liable through a defined 'Surrender Date' tied to the broader lease documents rather than the simple fact of vacatur.",
-        "According to the record, the tenant vacated by tendering keys to the landlord's agent and delivering the premises broom clean in the fall of 2020. The landlord nonetheless sued the individual guarantors, seeking approximately $307,577.08 in unpaid rent for July through October 2021, liquidated damages measured by the shortfall between the lease rent and what the landlord collected upon reletting through the original lease's expiration date, and its costs of enforcing the guaranty. Supreme Court, New York County (Alexander M. Tisch, J.), granted the guarantors' motion to dismiss those claims, and the landlord appealed.",
-        "The First Department affirmed, without costs, applying 1995 CAM LLC's construction of 'surrender' in a commercial guaranty to mean the tenant's physical relinquishment of possession and control -- not the landlord's subsequent acceptance, and not a later-defined contractual milestone layered on top of the physical fact of vacatur. Applying that rule, the panel held the guarantors' liability ended when the tenant relinquished possession in 2020, notwithstanding the landlord's argument that the lease documents' own 'Surrender Date' concept had never been triggered. The practical effect was to foreclose the landlord's unpaid-rent, liquidated-damages and enforcement-cost claims against the guarantors in full, even though the landlord's theory found some textual support in the guaranty's own 'Surrender Date' language.",
-        "For landlords, the lesson is to reconcile any provision intended to extend guarantor liability beyond actual vacatur with the guaranty's own surrender or release clause at the drafting stage, rather than leaving the two to conflict. Tenants and guarantors, meanwhile, should carefully document the date and manner of vacatur -- delivery of keys, broom-clean condition, and written notice to the landlord's agent -- since that evidentiary record is now squarely what determines when liability ends under this line of cases, and landlords seeking rent, reletting shortfalls or enforcement costs from a guarantor after a tenant has left should expect courts to read any ambiguity against the drafter."
+        "The Appellate Division, First Department on October 1, 2026 unanimously affirmed an October 2024 order of Supreme Court, New York County (Alexander M. Tisch, J.) dismissing a landlord's claims against the two individual guarantors of a retail store lease for part of 476 Broome Street in Manhattan. The panel was Justices Moulton, Kennedy, Friedman, Michael and Hagler. The appeal concerned only the claims against the guarantors for unpaid rent, liquidated damages and enforcement costs.",
+        "According to the decision, the lease ran through June 2025, but the tenant closed on March 22, 2020 because of the COVID-19 pandemic. By letter dated September 15, 2020 it told the landlord it would vacate by September 30, and on that date it returned the keys to the landlord's agent and left the premises broom clean. The landlord sued the tenant and the guarantors, seeking $307,577.08 in rent for July through October 2021 from the guarantors and liquidated damages measured by the shortfall from reletting through the lease's expiration.",
+        "The guaranties contained a surrender clause ending the guarantors' liability for any period after the tenant \"physically vacated and surrendered legal possession,\" and a good guy clause keeping them liable through a defined \"Surrender Date\" that also required payment of rent through the surrender month and an instrument of surrender on 90 days' notice. It was undisputed the tenant did not meet those last two conditions. The court held the two clauses create \"ambiguity and irreconcilable conflict\" and rejected the landlord's argument that the good guy clause overrides the surrender clause. Citing the Court of Appeals' 2025 decision in 1995 CAM LLC v. West Side Advisors, LLC, which involved similar facts, and applying the rule that ambiguity is construed against the drafter, the court noted it was undisputed that the landlord's counsel drafted the lease and guaranties and held the guarantors' liability terminated on September 30, 2020."
       ],
       tags: ["guaranty", "retail", "good-guy-clause", "lease-dispute", "new-york"],
       parties: [
         { name: "62 Wooster, LLC", role: "Landlord/Plaintiff-Appellant" },
-        { name: "TML N.Y. Inc.", role: "Tenant/Defendant" }
+        { name: "TML New York Inc.", role: "Tenant/Defendant" }
       ],
       judge: null,
       timeline: [
-        { when: "Fall 2020", label: "Tenant vacates the premises, tendering keys and delivering the space broom clean" },
-        { when: "2024", label: "Supreme Court, New York County grants the individual guarantors' motion to dismiss" },
-        { when: "October 1, 2026", label: "Appellate Division, First Department affirms dismissal of the landlord's claims against the guarantors", current: true }
+        { when: "March 22, 2020", label: "Tenant closes the store because of the COVID-19 pandemic" },
+        { when: "September 30, 2020", label: "Tenant returns the keys and vacates the premises broom clean" },
+        { when: "October 15, 2024", label: "Supreme Court, New York County dismisses the claims against the guarantors" },
+        { when: "October 1, 2026", label: "Appellate Division, First Department unanimously affirms", current: true }
       ]
     },
     {
@@ -11722,47 +11703,43 @@ const RELAW_DATA = {
     },
     {
       id: "live-370",
-      seoTitle: "American Dream Mall Freeze Act Ruling Locks In $850M Tax Cut",
-      seoDescription: "NJ Tax Court ruled the Freeze Act bars East Rutherford and bondholder trustee US Bank from raising American Dream Mall's $1.65B assessment for 2026-27.",
+      seoTitle: "American Dream Mall: Tax Court Freezes $1.65B Assessment for 2026",
+      seoDescription: "NJ Tax Court held the Freeze Act binds East Rutherford to American Dream Mall's $1.65B 2025 assessment for 2026, despite its PILOT and US Bank's objection.",
       addedDate: "2026-11-05",
       featured: true,
-      title: "American Dream Mall Locks In $850M Tax Cut, Beating Back Bondholder Challenge",
-      brief: "New Jersey's Tax Court ruled the Freeze Act bars East Rutherford from raising the American Dream Mall's assessment back up for 2026-27, rejecting the bondholder trustee's bid to defeat the freeze.",
+      title: "Ameream LLC v. Borough of East Rutherford (Tax Court Freezes American Dream Mall's 2025 Assessment for 2026)",
+      brief: "New Jersey's Tax Court held the Freeze Act binds East Rutherford to the American Dream Mall's $1.65 billion 2025 assessment for tax year 2026, rejecting arguments from the borough and the bondholder trustee.",
       category: "lending-foreclosure",
       status: "ruling",
       date: "2026-10-30",
       jurisdiction: "New Jersey Tax Court",
       state: "NJ",
-      amount: "$1.65 billion assessment frozen; Borough sought to raise it to $1.9 billion",
+      amount: "$1,653,960,000 assessment frozen for tax year 2026; borough had assessed $1,899,992,100",
       source: "live",
       sourceUrl: "https://www.njcourts.gov/court-opinion/ameream-llc-v-borough-of-east-rutherford-published-tax",
-      docketUrl: "https://www.courtlistener.com/opinion/11054341/ameream-llc-v-borough-of-east-rutherford/",
-      docketLabel: "CourtListener opinion",
-      summary: "The New Jersey Tax Court ruled that the state's Freeze Act bars the Borough of East Rutherford from raising the American Dream Mall's property assessment for tax years 2026 and 2027 above the $1,653,960,000 figure a prior judgment set after a July 2025 trial. The Borough had reassessed the mall to $1,899,992,100 for 2026, and the mall's own bondholder trustee, US Bank and Trust Company, joined the Borough in opposing the freeze as amicus curiae.",
-      significance: "The ruling confirms that a PILOT (payment-in-lieu-of-taxes) property is not exempt from Freeze Act protection merely because it does not pay conventional property taxes, and that a municipality cannot defeat a freeze with unquantified evidence of improving market conditions or its own routine annual reassessment program. It also exposes a rift between the mall's ownership and its own bond trustee, who intervened against the owner's interest to protect PILOT-backed debt service.",
+      summary: "On October 30, 2026, New Jersey Tax Court Judge Michael J. Gilmore granted American Dream Mall owner Ameream LLC's motion under the state's Freeze Act, holding that the court's July 31, 2025 judgment setting the properties' cumulative assessment at $1,653,960,000 binds the Borough of East Rutherford for tax year 2026. The borough had raised the assessment to $1,899,992,100. The court rejected arguments by the borough and amicus US Bank and Trust Company, trustee for the bondholders, that the mall's payment-in-lieu-of-taxes arrangement, a change in value, or the borough's yearly reassessment defeated the freeze.",
+      significance: "The court held that a PILOT property whose payments are set from its assessed value can invoke the Freeze Act, and that a municipality's routine yearly reassessment is not the 'complete reassessment' that ends a freeze. The ruling also confirms that unquantified evidence of market improvement does not prove a change in value.",
       body: [
-        "The American Dream Mall's owner has secured a second consecutive legal win over its property tax bill, as a New Jersey Tax Court judge ruled on October 30, 2026 that the mall's sharply reduced 2025 assessment must carry forward unchanged into 2026 and 2027, rejecting arguments from both the Borough of East Rutherford and the trustee for the mega-mall's own bondholders that the reduction should not apply. The decision, in Ameream LLC v. Borough of East Rutherford, is a significant win for the mall's developer and a setback for the municipality's effort to recapture roughly $250 million in annual assessed value it had added back for the 2026 tax year.",
-        "The dispute traces to a July 2025 trial in which the Tax Court cut the mall's cumulative assessment by roughly $850 million, from about $2.5 billion to $1,653,960,000. For tax year 2026, the Borough responded by raising the cumulative assessment back up to $1,899,992,100, prompting Ameream to invoke New Jersey's Freeze Act, a 1946 statute that makes a Tax Court judgment binding on the assessor and the taxing district for the judgment year and the two years that follow, subject to narrow exceptions.",
-        "Because American Dream operates under a payment-in-lieu-of-taxes agreement rather than paying conventional property taxes directly, the Borough and amicus curiae US Bank and Trust Company, serving as trustee for the bondholders whose bonds financed the mega-mall's development and are repaid largely from PILOT revenue, argued the Freeze Act should not apply at all, since Ameream is not a conventional taxpayer. Judge Michael J. Gilmore rejected that argument, holding that the PILOT agreement itself requires the Borough to assess the property as if it were subject to conventional taxation and expressly preserves Ameream's right to contest those assessments, so the Freeze Act's protections travel with the assessment regardless of how the resulting payment is labeled.",
-        "Having cleared that threshold question, the court turned to whether any statutory exception defeated the freeze. US Bank offered testimony and news coverage describing reopened storefronts, tenant improvements, an improving economy and falling capitalization rates as evidence of a change in value, one of the Act's enumerated exceptions. The court found none of that evidence quantified an actual increase in the property's value, and held that general market improvement and higher occupancy, without more, cannot defeat the freeze. The court likewise rejected the argument that the Borough's annual municipal-wide reassessment program qualified as a complete reassessment exception, reasoning that the exception exists to prevent a frozen judgment from leaving one property out of step with a genuine district-wide revaluation, not to let a municipality's routine yearly updating override a specific judgment it dislikes.",
-        "The ruling is the latest round in an increasingly adversarial relationship between East Rutherford, the mall's owner, and the mall's own creditors. US Bank, as bondholder trustee, has separately sued alleging the Borough and the mall's ownership effectively engineered the 2025 valuation reduction to each side's mutual benefit at bondholders' expense, while the Borough has pursued its own suit over roughly $183 million in PILOT payments Ameream claims it overpaid. The Freeze Act ruling does not resolve either of those fights, but it removes one significant lever, a higher 2026 assessment, that the Borough might otherwise have used to generate additional PILOT revenue while the broader disputes play out.",
-        "For developers and owners operating under PILOT or similar payment-substitute arrangements, the ruling confirms that a favorable Tax Court valuation judgment is not automatically vulnerable just because the property does not pay conventional property taxes; if the underlying PILOT agreement ties payments to assessed value as if conventionally taxed, Freeze Act protection likely follows. Municipalities seeking to defeat a freeze need to come forward with quantified appraisal-grade evidence of a genuine change in value, not general market narrative or anecdotal leasing improvement, and bondholders and trustees relying on PILOT-backed debt should recognize that a borrower's successful tax appeal can bind the municipality's hands for up to three tax years, making early engagement in the underlying valuation litigation, not collateral challenges to the freeze itself, the more effective point of intervention."
+        "The New Jersey Tax Court ruled on October 30, 2026 that its July 31, 2025 judgment reducing the American Dream Mall properties' cumulative assessment to $1,653,960,000 is binding on the Borough of East Rutherford for tax year 2026. The borough had increased the assessment to $1,899,992,100 for 2026, and owner and developer Ameream LLC moved to apply New Jersey's Freeze Act, N.J.S.A. 54:51A-8, which makes a final Tax Court judgment binding for the assessment year and the two years that follow, subject to exceptions.",
+        "The borough and US Bank and Trust Company, the trustee for the bondholders whose bonds financed the development and are repaid mostly from PILOT funds, argued the mall's payment-in-lieu-of-taxes status barred the Freeze Act. Judge Michael J. Gilmore disagreed. He noted that this PILOT sets payments at 90% of the conventional taxes that would be due on the assessments, and that the agreement requires the borough to assess the property as if conventionally taxed and preserves the developer's right to contest assessments. The statute, he wrote, turns on the conclusiveness of a Tax Court judgment, not on whether the owner is a conventional taxpayer.",
+        "The court found no exception applied. US Bank offered testimony and news articles about reopened storefronts, tenant improvements, an improving economy and declining capitalization rates, but \"[n]one of this was quantified,\" and general market changes or higher occupancy do not defeat the Act. The court also held that the borough's yearly reassessment program, which changed values district-wide by less than 6% from 2025 to 2026 according to the borough's own evidence, was not the kind of complete reassessment that ends a freeze, because the exception exists to prevent a frozen judgment from being left out of step after a true district-wide reset."
       ],
       judge: "Michael J. Gilmore",
       parties: [
-        { name: "Ameream LLC", role: "Plaintiff" },
+        { name: "Ameream LLC", role: "Plaintiff (owner and developer)" },
         { name: "Borough of East Rutherford", role: "Defendant" },
-        { name: "US Bank and Trust Company", role: "Amicus Curiae" }
+        { name: "US Bank and Trust Company", role: "Amicus curiae (bondholder trustee)" }
       ],
       amountUsd: 1899992100,
       amountBasis: "other",
-      propertyType: "Mixed-Use",
+      propertyType: "Retail",
       tags: ["property-tax", "freeze-act", "pilot-bonds", "new-jersey", "mall"],
       timeline: [
-        { when: "July 2025", label: "Tax Court trial cuts the mall's cumulative 2025 assessment by $850 million to $1,653,960,000" },
-        { when: "2026", label: "Borough of East Rutherford reassesses the property at $1,899,992,100 for tax year 2026" },
-        { when: "October 30, 2026", label: "Tax Court grants Ameream's Freeze Act motion, holding the 2025 assessment binding through 2027", current: true }
-      ]
+        { when: "July 31, 2025", label: "Tax Court judgment after a July 2025 trial sets the cumulative 2025 assessment at $1,653,960,000" },
+        { when: "2026", label: "Borough of East Rutherford assesses the properties at $1,899,992,100 for tax year 2026" },
+        { when: "October 30, 2026", label: "Tax Court grants Ameream's Freeze Act motion; the 2025 judgment binds the borough for tax year 2026", current: true }
+      ],
+      property: {"name": "American Dream Mall", "city": "East Rutherford", "state": "NJ"}
     },
     {
       id: "live-371",
@@ -12011,13 +11988,13 @@ const RELAW_DATA = {
     },
     {
       id: "live-377",
-      seoTitle: "WV Court Kills Mall's 25-Year Tax Rebate Suit Against City of Logan",
-      seoDescription: "West Virginia's appeals court affirmed dismissal of Fountain Place mall's suit over a lapsed business-tax rebate from the City of Logan.",
+      seoTitle: "Fountain Place v. City of Logan: Tax-Rebate Dismissal Affirmed",
+      seoDescription: "West Virginia's appeals court affirmed dismissal of Fountain Place's suit over a 57% B&O tax rebate the City of Logan stopped paying in 2021, and remanded.",
       addedDate: "2026-11-07",
-      property: { name: "Fountain Place shopping center", city: "Logan", state: "WV" },
+      property: {"name": "Fountain Place shopping center", "city": "Logan", "state": "WV"},
       propertyType: "Retail",
       title: "Fountain Place, LLC v. City of Logan Development Authority (Tax-Rebate Development Agreement Dismissal Affirmed)",
-      brief: "West Virginia's Intermediate Court of Appeals affirmed dismissal of a shopping center owner's suit demanding a 57% business-tax rebate the City of Logan stopped paying in 2021 under a 1997 annexation incentive deal.",
+      brief: "West Virginia's Intermediate Court of Appeals affirmed dismissal of a shopping center owner's suit over a 57% business-tax rebate the City of Logan stopped paying in 2021 under a 1997 annexation deal.",
       category: "zoning-land-use",
       status: "ruling",
       date: "2026-11-06",
@@ -12026,17 +12003,13 @@ const RELAW_DATA = {
       amount: "Ongoing 57% share of the shopping center's business-and-occupancy tax revenue (no total dollar figure stated)",
       source: "live",
       sourceUrl: "https://www.courtswv.gov/sites/default/pubfilesmnt/2026-11/25-ICA-334%20Opinion.pdf",
-      docketUrl: "https://www.courtlistener.com/opinion/11056853/fountain-place-llc-v-city-of-logan-development-authority-fountain-place/",
-      docketLabel: "CourtListener opinion",
-      summary: "West Virginia's Intermediate Court of Appeals affirmed the dismissal of a breach-of-contract suit by Fountain Place, LLC against the City of Logan and the dissolved City of Logan Development Authority over a 1997 development agreement that had paid the shopping center's owner 57% of municipal business-and-occupancy taxes collected from its tenants in exchange for not opposing the property's annexation. The City stopped making the payments in May 2021, concluding it was no longer legally obligated, and the circuit court dismissed Fountain Place's 2023 suit on statutory-immunity and estoppel grounds, which the appellate court affirmed on November 6, 2026.",
-      significance: "The ruling shows that a municipality's statutory immunity following a development authority's dissolution can defeat a decades-old incentive agreement even where the city itself kept making payments for years afterward, and that years of voluntary municipal compliance will not necessarily estop a government defendant from later challenging the deal's validity. The appellate panel also notably avoided resolving a live constitutional question, whether the arrangement was an unconstitutional municipal debt never submitted to voters, leaving that issue open for a future dispute to test.",
+      summary: "West Virginia's Intermediate Court of Appeals on November 6, 2026 affirmed the dismissal of Fountain Place, LLC's breach-of-contract suit against the City of Logan and the dissolved City of Logan Development Authority over a 1997 agreement that paid the shopping center's owner 57% of the city's business-and-occupancy taxes collected at the center in exchange for not opposing annexation. The court held that a state statute makes a development authority's debts its own, not the city's, that the authority's liabilities did not pass to the city when it dissolved, and that the city was not estopped by years of payments. It remanded for the city's pending counterclaims.",
+      significance: "The court held that a city does not inherit a dissolved development authority's payment obligations under West Virginia's development-authority statutes, and that estoppel generally does not run against a city acting in a governmental capacity. It did not decide whether the agreement was unconstitutional municipal debt never put to voters, the ground the circuit court reached first.",
       body: [
-        "The Intermediate Court of Appeals of West Virginia, in an opinion by Judge Ryan White filed November 6, 2026, affirmed the dismissal of a breach-of-contract suit brought by Fountain Place, LLC against the City of Logan and the now-defunct City of Logan Development Authority over a decades-old economic development agreement that had once paid the shopping center's owner more than half of the municipal business taxes collected from its tenants. The ruling closes off, at least for now, a revenue stream the center's ownership had relied on since the late 1990s, and offers a cautionary lesson for developers who structure long-term incentive deals around a municipal authority's continued existence.",
-        "The dispute traces to 1997, when the City of Logan and the Development Authority it had created entered into a Development Agreement with Monterra, the predecessor-in-interest to what is now Fountain Place, LLC, to facilitate construction of a shopping center in an unincorporated part of Logan County. In exchange for Monterra's agreement not to object to the City annexing the property, the City and Development Authority agreed to remit 57% of the business and occupancy taxes collected from businesses operating at the completed shopping center to Monterra and its successors for an initial 20-year term, with an option to renew for an additional ten years. The agreement also exempted the developer from paying its own business and occupancy taxes on construction, rental, and leasing activity at the property, an exemption from which neither Monterra nor Fountain Place has ever deviated.",
-        "Monterra built the shopping center, which still operates as the Fountain Place mall, but filed for bankruptcy in 1999; a federal bankruptcy court assigned the Development Agreement's rights, including the tax-rebate payments, to Fountain Place, LLC without objection. The City kept making the 57% payments for years, even after the Development Authority itself dissolved around 2013, with Fountain Place collecting directly from the City instead. In 2016, Fountain Place formally exercised its option to renew the agreement through 2027, and the City did not object, continuing to pay until May 2021, when it abruptly concluded it was no longer legally obligated to do so.",
-        "Fountain Place sued for breach of contract and declaratory judgment in the Circuit Court of Logan County in August 2023. The City and Development Authority moved to dismiss, and the circuit court granted that motion in July 2025 on three independent grounds: that the Development Agreement created an unconstitutional municipal indebtedness under Article X, Section 8 of the West Virginia Constitution because it was never submitted to a public vote; that the City was statutorily immune from any liabilities of the Development Authority, which had dissolved years earlier; and that the City was not estopped from challenging the agreement's lawfulness despite having honored it for more than two decades.",
-        "On appeal, the Intermediate Court of Appeals affirmed, but notably declined to resolve the constitutional debt-limit question the circuit court had reached first. Instead, Judge White's opinion rested the affirmance on narrower grounds: the dissolution of the Development Authority under West Virginia's statutory scheme governing such authorities, and the court's estoppel jurisprudence, which the panel found dispositive without need to decide whether the original arrangement amounted to unconstitutional municipal debt. The West Virginia Attorney General's office filed an amicus brief supporting the City and Development Authority. Shopping center affiliates Fountain Place Realty, LLC and Namdar DG Realty, LLC were also named as respondents below and on appeal, reflecting the property's ties to Namdar Realty Group, a frequent acquirer of regional malls nationally.",
-        "For developers who negotiate long-term municipal incentive payments tied to a dedicated development authority, the case is a reminder to build in contingencies for what happens if that authority dissolves, since courts may treat a municipality's post-dissolution statutory immunity as controlling even where the city kept paying for years afterward. It also shows that a municipality's years of voluntary compliance will not necessarily estop it from later challenging an agreement's validity, that reliance-based estoppel arguments carry less weight against government defendants than against private counterparties, and that appellate courts will often resolve a case on the narrowest available ground, leaving a live constitutional question unresolved for a future dispute. Owners negotiating annexation-linked tax-sharing deals should assume judicial scrutiny may eventually turn on whether the agreement was ever submitted to voters, particularly in states with constitutional debt-limitation provisions requiring public approval for municipal indebtedness above a statutory threshold."
+        "The Intermediate Court of Appeals of West Virginia, in an opinion by Judge White filed November 6, 2026, affirmed the dismissal of a breach-of-contract and declaratory-judgment suit by Fountain Place, LLC against the City of Logan and the City of Logan Development Authority, and remanded for further proceedings, including the city's counterclaims against Fountain Place, which remain pending.",
+        "According to the opinion, the city created the Development Authority, and in 1997 the city and the authority signed a development agreement with Monterra, Fountain Place's predecessor, which was developing a shopping center in an unincorporated part of Logan County. In exchange for Monterra not objecting to annexation of the property, the city and authority agreed to remit 57% of the business and occupancy taxes collected from businesses at the center for 20 years, renewable for 10 more. Monterra and its successors were also excused from B&O taxes on construction, rental and leasing at the property, and the opinion says neither has paid any B&O tax related to the mall. Monterra filed for bankruptcy in 1999, the bankruptcy court assigned the agreement to Fountain Place, and Fountain Place finished building the center, which still operates as the Fountain Place shopping center. The authority was no longer active by about 2013, but the city kept paying Fountain Place directly. On June 28, 2016, Fountain Place notified the city that it was renewing the agreement until July 22, 2027. The city paid through May 2021, when it decided it was not legally obligated to continue.",
+        "Fountain Place sued in the Circuit Court of Logan County on August 9, 2023. On July 18, 2025, the circuit court dismissed the suit, ruling that the agreement created unconstitutional municipal indebtedness under Article X, Section 8 of the state constitution because it was never put to a public vote, that the city was statutorily immune from the dissolved authority's liabilities, and that the city was not estopped from contesting the agreement.",
+        "The appeals court declined to reach the constitutional question and affirmed on the statutes and estoppel. It held that W. Va. Code § 7-12-8, which says no indebtedness of a development authority is an indebtedness of the municipality, covers the payment obligation, and that § 7-12-13 sends an authority's assets, but not its liabilities, to the city on dissolution. It rejected Fountain Place's argument that the result was a taking without due process, and held that estoppel did not apply because the city acted in a governmental capacity when it annexed the land, used its taxing power and created the authority. The State of West Virginia filed an amicus brief supporting the city and the authority. Fountain Place Realty, LLC and Namdar DG Realty, LLC were also named as respondents and were separately represented."
       ],
       judge: "Ryan White",
       parties: [
@@ -12049,11 +12022,14 @@ const RELAW_DATA = {
       amountUsd: null,
       tags: ["tax-incentive", "development-agreement", "municipal-immunity", "west-virginia", "shopping-center"],
       timeline: [
-        { when: "1997", label: "City of Logan and Development Authority sign Development Agreement with Monterra" },
-        { when: "May 2021", label: "City of Logan stops making the 57% tax-rebate payments" },
-        { when: "August 2023", label: "Fountain Place sues for breach of contract in Circuit Court of Logan County" },
-        { when: "July 18, 2025", label: "Circuit Court dismisses the suit on immunity and estoppel grounds" },
-        { when: "November 6, 2026", label: "Intermediate Court of Appeals of West Virginia affirms the dismissal", current: true }
+        { when: "1997", label: "City of Logan and its Development Authority sign the development agreement with Monterra" },
+        { when: "1999", label: "Monterra files for bankruptcy; the agreement is later assigned to Fountain Place" },
+        { when: "Around 2013", label: "Development Authority is no longer active; the city keeps paying Fountain Place directly" },
+        { when: "June 28, 2016", label: "Fountain Place exercises its option to renew the agreement until July 22, 2027" },
+        { when: "May 2021", label: "City of Logan stops making the 57% payments" },
+        { when: "August 9, 2023", label: "Fountain Place sues in the Circuit Court of Logan County" },
+        { when: "July 18, 2025", label: "Circuit court dismisses on constitutional-debt, statutory-immunity and estoppel grounds" },
+        { when: "November 6, 2026", label: "Intermediate Court of Appeals affirms on statutory and estoppel grounds and remands for the pending counterclaims", current: true }
       ]
     },
     {
@@ -12240,9 +12216,9 @@ const RELAW_DATA = {
       addedDate: "2026-11-09",
       featured: true,
       title: "Illinois Appellate Court Holds Commercial Landlords May Assign Claims for Tenants' Unpaid Rent",
-      brief: "An Illinois appellate court held that a commercial landlord's claim for a tenant's already-accrued unpaid rent is a freely assignable asset, reviving a rent-collection suit against a Chicago tenant that had been dismissed for lack of standing.",
+      brief: "An Illinois appellate court held that a landlord's claim for a tenant's past-due, unpaid rent can be assigned, reversing a Cook County dismissal for lack of standing in a suit against a Chicago commercial tenant.",
       seoTitle: "Illinois Court: Landlords Can Assign Unpaid Rent Claims",
-      seoDescription: "Illinois's First District held a landlord may assign a tenant's accrued unpaid rent to a third party, reviving a Chicago collection suit.",
+      seoDescription: "Illinois's First District held a landlord may assign its claim for a tenant's past-due rent, reversing a Cook County standing dismissal and remanding the suit.",
       category: "lease-disputes",
       status: "ruling",
       date: "2026-11-09",
@@ -12253,27 +12229,27 @@ const RELAW_DATA = {
       sourceUrl: "https://www.illinoiscourts.gov/resources/1c390993-0f1d-4885-a638-bb93fbb2a028/file",
       documentUrl: "https://www.illinoiscourts.gov/resources/1c390993-0f1d-4885-a638-bb93fbb2a028/file",
       documentLabel: "Read the official opinion",
-      summary: "The Appellate Court of Illinois, First District, held on November 9, 2026, that a commercial landlord may assign its claim for a tenant's already-accrued, unpaid rent to a third party, reversing a Cook County circuit court that had dismissed a rent-collection suit against a Chicago commercial tenant for lack of standing. The circuit court had relied on an 1872 Illinois Supreme Court decision and a 2018 First District opinion for the proposition that claims for back rent do not transfer when assigned separately from the property. The appellate panel found that reasoning inconsistent with the modern Illinois law of assignable claims and remanded the case for further proceedings on the merits of the unpaid-rent claim.",
-      significance: "The ruling confirms that accrued-but-unpaid rent is a freely transferable asset distinct from the property that generated it, meaning a commercial landlord selling or exiting a troubled tenancy can monetize uncollected rent receivables separately rather than losing the ability to collect them. It is also a due-diligence flag for buyers of leased commercial property: absent a specific assignment in the purchase agreement, a new owner has no claim to rent that accrued before closing, and the right to pursue a delinquent tenant for that older rent stays with the seller or whoever the seller assigns it to.",
+      summary: "The Appellate Court of Illinois, First District, held on November 9, 2026 that a landlord may assign its claim for past-due, unpaid rent, reversing a Cook County circuit court that had dismissed the assignees' suit against a Chicago commercial tenant for lack of standing. The circuit court had relied on an 1872 Illinois Supreme Court decision holding that rents in arrears are not assignable and on a 2018 First District opinion that quoted it. The panel found that rule inconsistent with the Supreme Court's modern view that assignability is the rule, and remanded for the circuit court to consider the tenant's other grounds for dismissal.",
+      significance: "The opinion separates a claim for rent already owed, which stays with the landlord to whom it was owed and does not pass to a later buyer of the property, from the right to future rent, which runs with the land. It holds the former can be assigned, so a former landlord's assignee may sue for it in Illinois.",
       body: [
-        "The Appellate Court of Illinois' First District ruled on November 9, 2026, that a commercial landlord can assign its claim to collect a tenant's already-accrued, unpaid rent to a third party, reversing a Cook County circuit court dismissal and reviving a rent-collection lawsuit against a Chicago commercial tenant. The decision resolves, as a matter of first impression under modern Illinois law, whether a chose in action for back rent -- as opposed to the right to future rent, which runs with the property -- can be freely assigned away from the landlord who holds it.",
-        "The dispute traces to a long-term lease of commercial space on North Clark Street in Chicago. The tenant, Affordable Portables, Inc., doing business as Philips Interiors, signed a 20-year lease in 2002 obligating it to pay base rent plus a share of the property's real estate taxes and utilities. The property changed hands several times during the lease term, and by 2021 the landlord was 2600 N. Clark Street, LLC. The complaint alleges that while 2600 N. Clark Street, LLC held the lease, the tenant fell behind on rent, tax, and utility charges owed under the lease. In 2024, the landlord assigned its right to collect that unpaid balance to a third party, who filed a verified complaint in Cook County in January 2025 seeking to collect the arrears as an assignee rather than as the current landlord.",
-        "The tenant moved to dismiss, arguing the assignee lacked standing because a claim for rent that accrued to a previous landlord does not travel with an assignment made independently of the property itself. The circuit court agreed, dismissing the suit solely on standing grounds. In doing so, it relied on the Illinois Supreme Court's 1872 decision in Kennedy v. Kennedy and a 2018 First District opinion, 1002 E. 87th Street, LLC v. Midway Broadcasting Corp., both of which had been read to treat a landlord's accrued-rent claim as a type of interest that does not pass to a stranger to the lease.",
-        "The appellate panel, in an opinion by Presiding Justice Ellis, reversed. The court distinguished between the right to future rent, which runs with the property and automatically transfers to a new owner under settled Illinois law, and a claim for rent already due and unpaid, which it characterized as a distinct chose in action held personally by the landlord to whom it was owed. Surveying Illinois Supreme Court precedent on the assignability of claims generally, the panel concluded that nothing in modern law bars a landlord from assigning that chose in action to anyone it chooses, including a party with no other connection to the lease or the property. The court held the lower court's reliance on Kennedy and Midway Broadcasting was inconsistent with that modern view and remanded the case for further proceedings on the merits of the unpaid-rent claim itself, without deciding how much, if anything, the tenant actually owes.",
-        "For commercial landlords and the lenders and buyers who deal with them, the ruling is a reminder that uncollected rent is its own asset, separable from the building that generated it: a landlord exiting a troubled lease or selling a property can sell or assign the right to chase down back rent to a collections specialist, an affiliate, or anyone else, and still expect a court to recognize that assignee's standing to sue. It cuts the other way for buyers of leased commercial property, who should not assume a purchase automatically brings with it the right to collect rent that was already in arrears before closing; if that receivable matters to the deal, the purchase agreement needs to say so explicitly, because Illinois law treats it as the outgoing landlord's asset to keep, sell, or walk away from. Tenants facing a stale rent demand from an unfamiliar plaintiff, meanwhile, should not assume a standing challenge will succeed just because the plaintiff never served as their landlord; after this decision, Illinois courts will look at whether the claim was properly assigned, not just who originally held it."
+        "The Appellate Court of Illinois, First District, ruled on November 9, 2026 that a landlord may assign its right to collect past-due, unpaid rent. Presiding Justice Ellis wrote the opinion, joined by Justices Fitzgerald Smith and Cobbs. The court reversed a Cook County circuit court order that had dismissed the suit \"solely on the ground\" that the plaintiffs lacked standing, and remanded.",
+        "According to the complaint, as described in the opinion, Affordable Portables, Inc., doing business as Philips Interiors, leased commercial property on North Clark Street in Chicago in 2002. The property was sold several times during the initial 20-year lease period, and by 2021 it was owned by 2600 N. Clark Street, LLC. The lease required the tenant to pay base rent, utilities and 38% of the property's real estate taxes, and the complaint alleges the tenant failed to pay many of those charges while 2600 N. Clark Street, LLC was the landlord. In 2024 the LLC assigned its right to collect that unpaid rent to two individuals, one of them its managing member, who filed a verified complaint in January 2025.",
+        "The circuit court relied on the Illinois Supreme Court's 1872 decision in Kennedy v. Kennedy, which held that \"rents in arrear are not assignable,\" and on 1002 E. 87th Street, LLC v. Midway Broadcasting Corp. (2018), which quoted Kennedy. The appellate court agreed that a claim for rent owed to a prior landlord does not run with the property to a new owner; it is a claim held by the landlord to whom the rent was owed. But it concluded that Kennedy is inconsistent with the Supreme Court's more recent decisions in Kleinwort Benson (1998) and Citibank (2017), which treat assignability as the rule and limit exceptions mainly to personal-injury and other personal claims. The court called a lease \"a garden-variety, arm's-length business transaction\" and found no public-policy reason to bar assignment, and it described Midway Broadcasting's statement as dictum.",
+        "The tenant also asked the court to dismiss the appeal because only one of the two assignees, who was self-represented, filed a brief; the court declined. It did not rule on the tenant's other grounds for dismissal, including that the complaint did not allege performance of conditions precedent, and sent those back to the circuit court. The decision does not determine whether, or how much, rent is owed."
       ],
-      judge: null,
+      judge: "David W. Ellis",
       parties: [
-        { name: "2600 N. Clark Street, LLC", role: "Landlord/Rent-Claim Assignor" },
-        { name: "Affordable Portables, Inc., d/b/a Philips Interiors", role: "Tenant/Defendant-Appellee" }
+        { name: "Affordable Portables, Inc., d/b/a Philips Interiors", role: "Tenant/Defendant-Appellee" },
+        { name: "2600 N. Clark Street, LLC", role: "Former landlord; assignor of the rent claim (non-party)" }
       ],
       amountUsd: null,
       tags: ["commercial-lease", "unpaid-rent", "assignment", "illinois", "standing"],
       timeline: [
-        { when: "2024", label: "2600 N. Clark Street, LLC assigns its claim for the tenant's unpaid rent to a third party" },
-        { when: "January 2025", label: "Assignee files verified complaint in Cook County Circuit Court to collect the unpaid rent" },
+        { when: "2002", label: "Affordable Portables, Inc. leases commercial property on North Clark Street in Chicago" },
+        { when: "2024", label: "2600 N. Clark Street, LLC assigns its claim for the tenant's unpaid rent" },
+        { when: "January 2025", label: "Assignees file a verified complaint in Cook County Circuit Court" },
         { when: "2025", label: "Circuit court dismisses the suit solely for lack of standing" },
-        { when: "November 9, 2026", label: "Appellate Court of Illinois, First District, reverses and holds the unpaid-rent claim was validly assigned", current: true }
+        { when: "November 9, 2026", label: "Appellate Court reverses, holding claims for past-due rent are assignable, and remands", current: true }
       ]
     },
     {
@@ -13202,13 +13178,12 @@ const RELAW_DATA = {
       sourceUrl: "https://www.courtswv.gov/sites/default/pubfilesmnt/2026-11/24-373%20Signed%20Opinion.pdf",
       propertyType: "Hospitality",
       summary: "On November 13, 2026, the Supreme Court of Appeals of West Virginia affirmed the dismissal of a suit by Harpers Ferry residents challenging the Tourism Development District Act, W. Va. Code § 5B-1-9. The 2020 statute lets state commerce officials designate districts in which qualifying tourism projects are exempt from municipal zoning, historic preservation, building permitting and other local rules. The only district approved so far covers SWaN Hill Top House, LLC's redevelopment of the Hill Top House Hotel, which the developer says will cost more than $138 million. The court held the Act is not an unconstitutional special law, does not violate equal protection, and does not infringe any right to local self-rule or to vote.",
-      significance: "The decision confirms that a state legislature can move land-use control over a large hospitality project from a town to a state agency, and that a statute drawn narrowly enough to have a single beneficiary can still survive as a general law. For developers of destination projects in small jurisdictions, state-level preemption is a workable route around a stalled local approval process. For municipalities and neighbors, the ruling leaves little constitutional ground in West Virginia to resist that kind of preemption.",
+      significance: "The court treated the Act as a general law even though only one project has used it, applying a deferential, rational-basis review to its population, cost and five-district limits. The ruling leaves in place a state-level route that takes a qualifying tourism project out of municipal zoning, historic review and permitting in West Virginia's smallest towns.",
       body: [
-        "The case arises from the long-running effort to rebuild the Hill Top House Hotel in Harpers Ferry. According to the opinion, SWaN Hill Top House, LLC bought the century-old, derelict hotel in 2007 intending to reconstruct it as a luxury property. The project sat for more than a decade, and when the developer began moving forward in 2019, friction developed with town residents. Harpers Ferry had 269 residents in the 2020 Census.",
-        "In 2020 the Legislature adopted the Tourism Development District Act. The law allows the state's commerce and economic development officials to create a district around a qualifying tourism project. Inside a district, the project is not subject to municipal zoning, historic preservation, noise, viewshed, lighting or land use ordinances, municipal regulation of alcohol sales, municipal building permitting and code enforcement, municipal licensing, or most municipal taxes and fees, and the town may not adopt rules that impede the project. State regulators oversee building code and land use matters instead. Three limits define who can use the law: the project must be in a municipality of 2,000 people or fewer, it must carry projected costs of at least $25 million, and no more than five districts may be approved statewide. The Hill Top House project is the only applicant and the only district designated since the law passed.",
-        "In January 2022 a group of Harpers Ferry residents and voters sued the two state officials in the Circuit Court of Kanawha County. They argued the Act is a special or local law barred by Article VI, sections 39 and 39a of the West Virginia Constitution, that its classifications are arbitrary and violate equal protection principles under Article III, section 10, and that handing control over land use in their town to a state agency negates their rights to self-government and to vote in municipal elections. The circuit court dismissed the complaint on March 29, 2023. The Intermediate Court of Appeals affirmed in 2024, and the residents appealed again.",
-        "Writing for the court, Justice Wooton affirmed on every point. On the special-law claim, the court applied its settled presumption that legislative classifications are reasonable and held that the Act does not target particular persons or entities or set up one project to succeed at the expense of others; it offers benefits to up to five large projects that private parties choose to locate in small communities. On equal protection, the court found the population and cost thresholds rationally related to stated legislative goals of encouraging tourism investment in small municipalities and supporting large projects the Legislature considered important to the state's economy. On self-rule, the court found no such right in the state constitution, repeating that municipalities have only the powers the Legislature grants and that those powers can be modified or withdrawn at any time. The Act changes what small towns may regulate, the court said, without affecting anyone's ability to vote. The court declined to decide whether an earlier Jefferson County ruling against a citizens' association barred the claims and resolved the case on the merits. Chief Justice Bunn dissented and reserved the right to file a separate opinion. One justice was disqualified and a circuit judge sat by temporary assignment.",
-        "The practical lessons run in two directions. Developers and lenders evaluating large hotel or resort projects in West Virginia's small towns now have a high-court ruling that a district designation displaces local zoning, historic review and permitting, which removes a category of entitlement risk from underwriting, though state oversight under the commerce department's rules still applies. The decision also shows the standard of review such laws face: deferential, rational-basis scrutiny in which the fact that only one project has qualified did not make the statute special legislation. Towns and neighboring owners who oppose a designated project should expect that their remaining arguments lie with the state agency and the Legislature, not with municipal boards, and that a challenge built on the breadth of the preemption alone is unlikely to succeed. The forthcoming dissent may indicate where any future challenge would focus."
+        "The case arises from the long-running effort to rebuild the Hill Top House Hotel in Harpers Ferry. According to the opinion, SWaN Hill Top House, LLC bought the century-old, derelict hotel in 2007 intending to reconstruct it as a luxury hotel. The project languished for more than a decade, and when SWaN began moving forward in 2019, friction developed with town residents. SWaN has said it intends to spend more than $138 million on the redevelopment. Harpers Ferry had 269 residents in the 2020 Census.",
+        "In 2020 the Legislature adopted the Tourism Development District Act, W. Va. Code § 5B-1-9. It lets the state's commerce and economic development officials approve a district around a qualifying tourism project. Inside a district, the project is not subject to municipal zoning, historic preservation, noise, viewshed, lighting or land use rules, municipal regulation of alcohol sales, municipal building permitting and code enforcement, municipal licensing, or municipal taxes and fees except as the statute provides, and the town may not adopt rules that impede the project. The respondents oversee building code and land use matters instead. The project must be in a municipality of 2,000 people or fewer and have projected costs of at least $25 million, and no more than five districts may be approved statewide. The Hill Top House project is the only applicant and the only district approved since 2020.",
+        "In January 2022 a group of Harpers Ferry residents and voters sued the two state officials in the Circuit Court of Kanawha County. They argued the Act is a special law barred by Article VI, sections 39 and 39a of the West Virginia Constitution, that its classifications violate equal protection principles under Article III, section 10, and that transferring control over projects in their town away from the municipality negates their rights to self-rule and to vote in municipal elections. The circuit court dismissed the complaint on March 29, 2023, and the Intermediate Court of Appeals affirmed in 2024.",
+        "Writing for the Supreme Court of Appeals on November 13, 2026, Justice Wooton affirmed. The court held that the Act \"does not target specific people or entities\" and grants benefits to up to five large projects that private entities choose to locate in small communities, so it is not a special law. It found the population and cost thresholds rationally related to the Legislature's stated goals of encouraging tourism development in small municipalities and supporting large projects. It found no constitutional right to self-rule, noting that municipalities have only the powers the Legislature grants and that the Legislature may modify or withdraw them, and held that the Act does not affect anyone's right to vote. The court declined to decide whether an earlier Jefferson County ruling against a citizens' group barred the claims. Chief Justice Bunn dissented and reserved the right to file a separate opinion; one justice was disqualified, and a judge sat by temporary assignment."
       ],
       tags: ["zoning preemption", "hotel redevelopment", "tourism development district", "special legislation", "west virginia"],
       parties: [
@@ -13216,7 +13191,7 @@ const RELAW_DATA = {
         { name: "West Virginia Division of Economic Development", role: "Respondent (through its Acting Executive Director)" },
         { name: "SWaN Hill Top House, LLC", role: "Developer (non-party)" }
       ],
-      judge: null,
+      judge: "William R. Wooton",
       amountUsd: null,
       timeline: [
         { when: "2007", label: "SWaN Hill Top House, LLC buys the Hill Top House Hotel" },

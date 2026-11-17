@@ -4,6 +4,126 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-002",
+   "caseId": "live-002",
+   "subject": "Township of Jackson v. Getzel Bee, LLC (NJ Supreme Court Rejects Condemnation to Fund a Land Swap)",
+   "kind": "Corrected: date, description",
+   "was": "July 21, 2026 | voiding the ordinances / condemnation ordinances voided | The ruling is being read as a 'Kelo'-adjacent guardrail",
+   "now": "July 20, 2026 | affirmed the Appellate Division's reversal of the orders authorizing the takings and remanded for the trial court to determine relief, since the swap had already occurred | deleted as uncredited; the court itself distinguished Kelo, Midkiff and Berman",
+   "basis": "Checked against the source article: Opinion and syllabus: 'Decided July 20, 2026' | Opinion and syllabus (AFFIRMED and REMANDED) | Opinion"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-370",
+   "caseId": "live-370",
+   "subject": "Ameream LLC v. Borough of East Rutherford (Tax Court Freezes American Dream Mall's 2025 Assessment for 2026)",
+   "kind": "Corrected: description, figure",
+   "was": "assessment frozen for tax years 2026 and 2027 / binding through 2027 | cut the mall's cumulative assessment by roughly $850 million, from about $2.5 billion | US Bank, as bondholder trustee, has separately sued ... while the Borough has pursued its own suit over roughly $183 million in PILOT payments | a rift between the mall's ownership and its own bond trustee, who intervened",
+   "now": "the motion and ruling cover tax year 2026 | deleted; the opinion gives only the $1,653,960,000 judgment figure | deleted; not in the opinion and not verified elsewhere | US Bank appeared as amicus curiae with the court's permission",
+   "basis": "Checked against the source article: Tax Court opinion, pp. 1-2, 9 ('binding on the Borough for tax year 2026') | Tax Court opinion | Tax Court opinion | Tax Court opinion, n.1"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-311",
+   "caseId": "live-311",
+   "subject": "62 Wooster, LLC v. TML N.Y. Inc. (Good Guy Guaranty Surrender Dispute)",
+   "kind": "Corrected: date, description",
+   "was": "The court applied ... 1995 CAM LLC v. West Side Advisors, which construed 'surrender' in a guaranty to mean the tenant's physical relinquishment of possession, not a landlord's acceptance or a later contractual milestone | the tenant vacated ... in the fall of 2020 | 2024: Supreme Court grants the motion to dismiss | courts will resolve internal conflicts in guaranty release language in favor of the simpler, vacatur-based trigger",
+   "now": "the court found the guaranties ambiguous and internally inconsistent and construed them against the landlord, whose counsel drafted them; it cited 1995 CAM for a comparable surrender on similar facts | September 30, 2020 | order entered on or about October 15, 2024 | the court resolved the conflict by construing the ambiguity against the drafting landlord",
+   "basis": "Checked against the source article: First Department decision, 2026 NY Slip Op 05591 | Decision | Decision | Decision"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-010",
+   "caseId": "live-010",
+   "subject": "111 West 57th Investment LLC v. 111 W57 Mezz Investor LLC (Steinway Tower \"Sole Discretion\" Ruling)",
+   "kind": "Corrected: description, figure",
+   "was": "no mention of the vote or dissent | internal models showing roughly $600M in underlying equity value | Mezzanine lenders ... should expect a lower pleading bar going forward ... no longer categorically foreclose implied-covenant claims | Apollo's contractual 'sole discretion' to assign the loan",
+   "now": "4-3 decision; Judge Garcia, joined by Judges Singas and Cannataro, dissented in part; Judge Halligan took no part | Apollo's models showed about $600 million in cash flow to equity through strict foreclosure | the majority said the decision 'in no way changes New York law'; the dissent argued it unsettles loan agreements | the court assumed without deciding that Apollo had sole discretion",
+   "basis": "Checked against the source article: Court of Appeals decision line, 2026 NY Slip Op 03376 | Opinion, Part I.A | Opinion, Part II.A; dissent | Opinion, Part II"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-019",
+   "caseId": "live-019",
+   "subject": "United States and Montana v. Columbia Falls Aluminum Co. (CFAC Superfund Consent Decree, $57.6M Estimated Cleanup)",
+   "kind": "Corrected: date, description, figure, party",
+   "was": "CFAC will pay $57.6 million | date 2026-07-09; 'July 9, 2026: EPA announces' | judge: Kathleen L. DeSoto | parties: United States (plaintiff) only | The 647-page agreement ... which the agency estimates could take two to three years | remains on the hook ... because it remained the property's owner of record",
+   "now": "CFAC will perform cleanup work EPA estimates at $57,634,528 and reimburse $1.8 million in past response costs | complaint and proposed decree filed July 2, 2026; EPA announced July 6, 2026 | William W. Mercer (case reassigned Sept. 3, 2026) | United States and the State of Montana are co-plaintiffs | deleted; neither figure appears in the sources opened | the complaint describes CFAC as an owner of the facility or successor to its past owner/operator",
+   "basis": "Checked against the source article and court docket: DOJ notice, Federal Register, July 7, 2026 (FR Doc. 2026-13721) | CourtListener docket (Dkt. 1, July 2, 2026); EPA news release dated July 6, 2026 | Order reassigning case, Dkt. 4 | Complaint caption, Dkt. 1 | EPA release; Federal Register notice | Complaint ¶¶ 8-9"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-163",
+   "caseId": "live-163",
+   "subject": "Town of Marshfield v. Commonwealth (SJC Affirms Dismissal of Challenge to MBTA Communities Act)",
+   "kind": "Corrected: description",
+   "was": "the multifamily zoning mandate for 177 towns | Attorney General Andrea Campbell ... said the ruling leaves the multifamily zoning mandate fully intact across every covered community | a pending suit against nine noncompliant communities | Marshfield's case represents the first major test of the law's durability once that procedural defect was cured",
+   "now": "removed the 177 figure; neither the opinion nor the AG's release states it (the AG says 168 communities have taken steps to comply) | the AG said the decision 'reaffirms that the Law is constitutional and compliance is mandatory' | deleted; not in either source | deleted; not in either source",
+   "basis": "Checked against the source article: SJC opinion; AG press release, Sept. 18, 2026 | AG press release, Sept. 18, 2026 | SJC opinion; AG press release | SJC opinion"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-294",
+   "caseId": "live-294",
+   "subject": "CRG Acquisition, LLC v. Planning Board of Holliston: Massachusetts Appeals Court Rules 800,000-Square-Foot Warehouse Is Not a Permitted-as-of-Right Use",
+   "kind": "Corrected: description",
+   "was": "the proposed facility's scale takes it out of the bylaw's as-of-right ... warehouse category | courts will look past the label to the project's actual size and intensity, including loading docks and trailer parking | Because that discretionary denial was never disturbed ... leaves the project without a zoning path forward ... once the underlying discretionary permit denial is already final",
+   "now": "the as-of-right category covers only warehouse facilities that are part of a wholesale office or showroom; a standalone warehouse is a general industrial use, and § III.G.3 requires a special permit for such uses over 15,000 square feet | deleted; the holding rests on the bylaw's wording, not the project's intensity | the Land Court dismissed the special-permit appeal as moot; under the judgment's terms, the plaintiffs agreed not to further pursue the project if the town's appeal succeeded",
+   "basis": "Checked against the source article: Opinion, pp. 12-16 | Opinion, pp. 12-16 | Opinion, pp. 5-6 and n.6"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-041",
+   "caseId": "live-041",
+   "subject": "100 Norfolk Street Realty Trust v. Chen's Food Enterprise, Inc. (Summary Process Refiling Not Barred by Claim Preclusion)",
+   "kind": "Corrected: date, description",
+   "was": "reinstated a commercial landlord's $198,000 unpaid-rent judgment | first case was dismissed because the landlord had not served the written notice to quit ... before litigation could begin | the initial dismissal was not an adjudication on the merits for claim-preclusion purposes | G. L. c. 239, § 7, the statute governing summary process for nonpayment of rent | Appellate Division of the District Court and Boston Municipal Court departments | February 26, 2024: Original summary process complaint filed | added more than two years of delay before the landlord actually collected",
+   "now": "reversed the Appellate Division and remanded for the Appellate Division to decide the tenant's remaining arguments | first case was involuntarily dismissed at trial because the landlord did not prove it sent the notice of termination the lease required | the court did not decide the claim-preclusion elements; it held G. L. c. 239, § 7 authorized the second case regardless of whether the dismissal said it was without prejudice | G. L. c. 239, § 7, which provides that a summary process judgment is not a bar to a later action to recover the premises | Appellate Division of the Boston Municipal Court | February 26, 2024 was the second complaint; the first was filed in October 2023 | deleted; the opinion does not say the landlord has collected anything",
+   "basis": "Checked against the source article: Opinion, pp. 2, 11-12 | Opinion, p. 3 | Opinion, pp. 5-8 | Opinion, pp. 1-2, 6 | Opinion, p. 2 | Opinion, pp. 1, 3-4 | Opinion"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-382",
+   "caseId": "live-382",
+   "subject": "Illinois Appellate Court Holds Commercial Landlords May Assign Claims for Tenants' Unpaid Rent",
+   "kind": "Corrected: description, party",
+   "was": "remanded the case for further proceedings on the merits of the unpaid-rent claim | holds the unpaid-rent claim was validly assigned | resolves, as a matter of first impression | assigned ... to a third party ... including a party with no other connection to the lease",
+   "now": "remanded for the circuit court to consider the tenant's other dismissal arguments (conditions precedent, conclusory pleading) | holds claims for past-due rent are assignable; the validity of this assignment and the pleading challenges were left for remand | deleted; the court departed from an 1872 Supreme Court decision and a 2018 First District statement it called dictum | assigned to two individuals, one of them the LLC's managing member",
+   "basis": "Checked against the source article: Opinion ¶¶ 44-48 | Opinion ¶¶ 40, 45-46 | Opinion ¶¶ 24, 29-30, 41-42 | Opinion ¶ 6"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-377",
+   "caseId": "live-377",
+   "subject": "Fountain Place, LLC v. City of Logan Development Authority (Tax-Rebate Development Agreement Dismissal Affirmed)",
+   "kind": "Corrected: description",
+   "was": "Monterra built the shopping center | affirmed the dismissal (no remand mentioned) | the circuit court dismissed Fountain Place's 2023 suit on statutory-immunity and estoppel grounds | The West Virginia Attorney General's office filed an amicus brief | reflecting the property's ties to Namdar Realty Group, a frequent acquirer of regional malls nationally",
+   "now": "Fountain Place finished building the shopping center after acquiring the property | affirmed and remanded for further proceedings, including the city's pending counterclaims | the circuit court dismissed on three grounds: unconstitutional municipal debt, statutory immunity and no estoppel | The State of West Virginia filed an amicus brief | deleted; the opinion says only that the two companies were named respondents and separately represented",
+   "basis": "Checked against the source article: Opinion, p. 3: 'When Fountain Place acquired the Property, it finished building the shopping center.' | Opinion caption ('AFFIRMED and REMANDED') and conclusion | Opinion, pp. 4-5 | Opinion, p. 5 n.5 and counsel listing (the Attorney General appeared as counsel for amicus curiae State of West Virginia) | Opinion caption and counsel listing"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-408",
+   "caseId": "live-408",
+   "subject": "Harpers Ferry Residents v. West Virginia Department of Commerce Officials (Supreme Court Upholds Tourism District Law Exempting $138M Hill Top House Hotel From Local Zoning)",
+   "kind": "Corrected: description",
+   "was": "a circuit judge sat by temporary assignment",
+   "now": "a judge sat by temporary assignment",
+   "basis": "Checked against the source article: The opinion lists 'Judge D. Andrew McMunn, sitting by temporary assignment' and does not say which court he sits on."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-014",
+   "subject": "Keller v. UDR, Inc. (San Diego Algorithmic Rent-Pricing Class Action)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Keller v. UDR, Inc. (San Diego Algorithmic Rent-Pricing Class Action)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; A residential tenant's class action against his landlord over rent; out of scope."
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-289",
    "caseId": "live-289",
    "subject": "Braemar Hotels & Resorts Settles With Largest Stockholder Al Shams Investments: $40M Payout Ends Proxy Fight, Securities and Defamation Claims, and Texas Pre-Suit Petition",
