@@ -1948,7 +1948,7 @@
         "ops/digest-playbook.md",
         "ops/improvement-playbook.md"
       ],
-      "commit": "PENDING",
+      "commit": "92c31d0",
       "metric": "No goals.json number moves directly; watching whether a future truncated-and-unresolved skip gets recorded in ops/leads-handled.json with the new, distinguishable \"text truncated, no secondary coverage found\" reason",
       "window": "n/a",
       "baseline": {},
