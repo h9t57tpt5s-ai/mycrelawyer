@@ -18,6 +18,19 @@ CREdocket (credocket.com) is a commercial real estate (CRE) litigation intellige
 - Do not create accounts, log in, solve CAPTCHAs, or submit forms. Skip paywalled sources you cannot read.
 - Docket links: include "docketUrl" ONLY if you opened a case-specific docket page (CourtListener docket or opinion page for federal; NYSCEF only with an index number confirmed by a source). Never a generic search link.
 
+## Accuracy rules from the November 16, 2026 audit (Jeff; read before writing)
+An audit of 48 published write-ups sourced to The Real Deal found errors in nearly every one: owners and plaintiffs wrongly named, articles' publication dates used as filing dates, background the source does not contain, and almost no credit to the outlet. Every new entry must meet these rules; add_matters.py and check_case_fields.py refuse the mechanical ones.
+- Only what your sources say. No background, history, motives, market color or "context" that is not in a source you opened. A short source makes a short entry: 3-4 body paragraphs, usually 250-450 words. Never pad to a length.
+- Credit the reporting in the text. When a fact comes from an article and not a court record, say so ("The Real Deal reported", "according to Crain's Chicago Business"). If the article credits another outlet, name that one too. Never credit an outlet you did not read.
+- Check the article for a "Correction" or "Updated" note before writing, and follow the corrected version. Two of the worst errors (wrong owners of 10 East 34th Street and 1440 Broadway) were already corrected in the source.
+- The event date is the filing or ruling date, not the article's publication date. Work it out from the article ("filed Tuesday" in an article dated Thursday, Nov. 5 means Nov. 3). If the source gives only a month, write the month in the text and timeline and never invent a day.
+- Who did what, exactly as the source says: the plaintiff, the defendant, the owner, the lender and the court. Owners change; the borrower in a 2018 loan is not necessarily the company that bought the building in 2016.
+- Attribute every allegation to whoever makes it ("the lender alleges", "the complaint says"). No labels on a company or person: not "troubled", "distressed", "embattled", "struggling", "notorious" or "walked away".
+- Include the other side. If the source reports a denial, a response, a motion to dismiss or "did not respond", say so.
+- Quotes from a complaint or a person go in quotation marks with attribution; otherwise use your own words.
+- Timeline: date order, `current` on the latest event, and never mark a date that has passed as upcoming.
+- Return a "factCheck" list with each entry: one item per figure, date, party name and court, each with the exact source sentence that states it ({"claim": ..., "quote": ..., "url": ...}). Anything you cannot quote, leave out. The editor checks the factCheck before publishing; add_matters.py drops the list.
+
 ## Output: return ONLY a JSON array of matters (best first, 0-4 of them), each exactly:
 {
  "title": "<Case name or plain headline; e.g. 'Acme Lender LLC v. 123 Main Owner LLC: $40M Office Loan Foreclosure Filed in Manhattan'>",
@@ -34,7 +47,7 @@ CREdocket (credocket.com) is a commercial real estate (CRE) litigation intellige
  "brief": "<one or two sentences, 60-260 characters, shown above the write-up on tracker cards: who, what happened, the stake (property and dollar amount if stated). A reader scanning the tracker should know from this alone whether the case matters to them. Only facts and figures from this entry; don't repeat the title.>",
  "summary": "<2-4 sentences: what happened>",
  "significance": "<2-4 sentences: why it matters to CRE owners, lenders, tenants or investors>",
- "body": ["<4-6 plain-prose paragraphs, no markdown, ~500-700 words total: the facts, the legal issue, procedural posture, and a final paragraph of practical takeaways written as prose>"],
+ "body": ["<3-4 plain-prose paragraphs, no markdown, only what the sources state (usually 250-450 words): what happened and who said what, the procedural posture, and a short final paragraph on what it means for owners, lenders or tenants with no new facts>"],
  "tags": ["3-5 short lowercase tags"],
  "parties": [{"name": "<legal entity name exactly as the source gives it>", "role": "<Plaintiff/Defendant/Lender/Borrower/Landlord/Tenant/Debtor/Appellant/Appellee...>"}],
  "judge": "<full name if the source names the judge, else null>",
@@ -45,7 +58,8 @@ CREdocket (credocket.com) is a commercial real estate (CRE) litigation intellige
  "docketLabel": "<e.g. 'CourtListener docket' if docketUrl given>",
  "timeline": [{"when": "Month D, YYYY", "label": "<what happened>", "current": true}],
  "sourcesOpened": ["<every URL you actually opened and relied on>"],
- "verificationNote": "<one sentence: which source states the event date, the figures and the parties>"
+ "verificationNote": "<one sentence: which source states the event date, the figures and the parties>",
+ "factCheck": [{"claim": "<a figure, date, party or court in this entry>", "quote": "<the source sentence stating it, word for word>", "url": "<where>"}]
 }
 If you find nothing that meets the bar, return [] (an empty list is fine; padding is not).
 

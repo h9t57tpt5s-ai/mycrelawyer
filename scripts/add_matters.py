@@ -57,6 +57,10 @@ def problems(m, cases):
         p.append("date must be YYYY-MM-DD")
     if len(m.get("body") or []) < 3:
         p.append("body needs 3+ paragraphs")
+    # The 2026-11-16 audit rules (loaded labels, uncredited reporting,
+    # padding, stale "upcoming" dates), shared with check_case_fields.py.
+    from check_case_fields import style_problems
+    p += style_problems(m)
     if m.get("docketUrl") and m.get("docketUrl") == m.get("sourceUrl"):
         p.append("record-only (source is the docket)")
     for k in ("parties", "judge", "amountUsd"):
@@ -102,7 +106,7 @@ def main():
         if bad:
             print(f"SKIP {m.get('title','?')[:70]}: {'; '.join(bad)}")
             continue
-        m = {k: v for k, v in m.items() if k not in ("sourcesOpened", "verificationNote")}
+        m = {k: v for k, v in m.items() if k not in ("sourcesOpened", "verificationNote", "factCheck")}
         m.update({"id": f"live-{next_id:03d}", "addedDate": today, "source": "live"})
         if m.get("amountUsd") is None:
             m.pop("amountBasis", None)

@@ -11,6 +11,7 @@ defect so the research routine refuses to push it.
 """
 
 import json
+import re
 import pathlib
 import shutil
 import subprocess
@@ -102,7 +103,46 @@ def check(cases):
                 problems.append(f"{cid}: amountUsd must be a positive number or null, got {v!r}")
             elif c.get("amountBasis") not in BASES:
                 problems.append(f"{cid}: amountUsd needs amountBasis, one of {sorted(BASES)}")
+    for c in cases:
+        if (c.get("addedDate") or "") >= STYLE_FROM:
+            problems += [f"{c.get('id', '?')}: {s}" for s in style_problems(c)]
     return problems
+
+
+# Writing rules learned from the 2026-11-16 audit of 48 write-ups sourced to
+# The Real Deal (Jeff asked after one of its reporters signed up): most
+# carried at least one error, padded the source with detail it does not
+# contain, and almost none credited the outlet. Checked mechanically on
+# matters added from STYLE_FROM on (older ones were reviewed by hand).
+STYLE_FROM = "2026-11-17"
+LOADED = re.compile(r"\b(troubled|embattled|beleaguered|struggling|notorious|walked away|undercapitali[sz]ed)\b", re.I)
+# Sources that are the record itself; anything else is reporting to credit.
+RECORD_HOSTS = re.compile(r"(courtlistener\.com|uscourts\.gov|\.gov$|\.us$|courts?\.|justia\.com|sec\.gov|documentcloud\.org|nycourts|govinfo)", re.I)
+MONTHS = {m: i for i, m in enumerate(["January", "February", "March", "April", "May", "June", "July", "August",
+                                       "September", "October", "November", "December"], 1)}
+
+
+def style_problems(c, today=None):
+    import datetime as dt
+    out = []
+    text = " ".join([c.get("title") or "", c.get("brief") or "", c.get("summary") or "", c.get("significance") or "",
+                     " ".join(c.get("body") or []), c.get("seoTitle") or "", c.get("seoDescription") or ""])
+    unquoted = re.sub(r"[\"\u201c][^\"\u201d]*[\"\u201d]", " ", text)
+    for m in sorted({m.group(0).lower() for m in LOADED.finditer(unquoted)}):
+        out.append(f"calls a party '{m}' -- describe what the record says instead (Jeff, 2026-11-16)")
+    host = re.sub(r"^www\.", "", re.sub(r"^https?://([^/]+).*", r"\1", c.get("sourceUrl") or ""))
+    body = " ".join([c.get("summary") or ""] + (c.get("body") or []))
+    if host and not RECORD_HOSTS.search(host) and not re.search(r"\breport(ed|s)\b|according to", body, re.I):
+        out.append(f"relies on reporting ({host}) without crediting it -- say who reported it, e.g. 'The Real Deal reported'")
+    if len(c.get("body") or []) > 5:
+        out.append("body over 5 paragraphs -- write only what the sources support")
+    today = today or dt.date.today()
+    for e in c.get("timeline") or []:
+        m = re.fullmatch(r"([A-Z][a-z]+) (\d{1,2}), (\d{4})", (e.get("when") or "").strip())
+        if e.get("upcoming") and m and m.group(1) in MONTHS:
+            if dt.date(int(m.group(3)), MONTHS[m.group(1)], int(m.group(2))) < today:
+                out.append(f"timeline entry '{e.get('when')}' is marked upcoming but the date has passed")
+    return out
 
 
 def main():
