@@ -189,11 +189,11 @@ const RELAW_DATA = {
     },
     {
       id: "live-005",
-      seoTitle: "SEC Sues RAD Diversified REIT Over $152M Alleged Fraud (Tampa)",
-      seoDescription: "The SEC sued Tampa non-traded REIT RAD Diversified REIT, alleging a $152M fraudulent, unregistered offering to 5,500+ retail investors.",
+      seoTitle: "SEC Sues RAD Diversified REIT Over Alleged $152M Fraud (Tampa)",
+      seoDescription: "The SEC sued Tampa non-traded REIT RAD Diversified and its founders, alleging a fraudulent offering that raised at least $152M from 5,500+ investors.",
       addedDate: "2026-08-04",
       title: "SEC v. RAD Diversified REIT, Inc.",
-      brief: "The SEC sued Tampa non-traded REIT RAD Diversified and its co-founders, alleging a fraudulent $152M unregistered offering to retail investors and roughly $54M diverted to an affiliate.",
+      brief: "The SEC sued Tampa-based RAD Diversified REIT and its two founders, alleging a fraudulent offering that raised at least $152 million from more than 5,500 retail investors; the SEC has asked the court to approve a consent judgment with the REIT.",
       category: "reit-securities",
       status: "filed",
       date: "2026-07-29",
@@ -207,20 +207,21 @@ const RELAW_DATA = {
       amountUsd: 152000000,
       amountBasis: "other",
       state: "FL",
-      amount: "$152M alleged fraud",
+      amount: "At least $152M raised from investors (alleged)",
       source: "live",
       sourceUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26596",
-      summary: "The SEC sued Tampa-based non-traded REIT RAD Diversified REIT, its co-founders Brandon 'Dutch' Mendenhall and Amy Vaughn, and related entity The Seminar Solution, LLC, alleging they raised $152M from 5,500+ retail investors through an unregistered, fraudulent offering between 2019 and 2024, then diverted roughly $54M to an affiliated entity for personal expenses while misrepresenting the REIT's profitability and liquidity.",
-      significance: "Highlights intensified SEC scrutiny of non-traded REIT sponsors over related-party fund flows, valuation representations, and continued capital-raising after internal signs of distress (a declined credit line, mounting foreclosures, frozen redemptions). Sponsors, boards, and institutional counterparties of retail-facing REITs should revisit related-party transaction controls and disclosure practices in light of this enforcement theory.",
+      summary: "The SEC sued RAD Diversified REIT, Inc., its two founders and relief defendant The Seminar Solution, LLC in the U.S. District Court for the Middle District of Florida on July 29, 2026. According to the SEC's litigation release and complaint, the REIT raised at least $152 million from more than 5,500 retail investors from November 2019 through March 2024 while misrepresenting its profitability, stock valuation and liquidity; about $54 million of investor funds was diverted to The Seminar Solution, an entity the founders own, and the founders allegedly misappropriated nearly $5 million. On October 23, 2026 the SEC filed an unopposed motion asking the court to approve a consent judgment as to the REIT.",
+      significance: "The complaint centers on alleged related-party fund flows and on continued fundraising after warning signs the SEC says the defendants knew of, including a bank's refusal of a credit line and mounting foreclosures. The allegations have not been proven, and the docket shows no judgment yet against any defendant.",
       body: [
-        "The SEC's complaint against Tampa-based non-traded REIT RAD Diversified REIT, its co-founders Brandon 'Dutch' Mendenhall and Amy Vaughn, and affiliated entity The Seminar Solution, LLC alleges a five-year, $152M offering that was never registered and was fraudulent from the start — raised from more than 5,500 retail investors between 2019 and 2024.",
-        "Roughly $54M of that capital was allegedly diverted to an affiliated entity to cover personal expenses, even as the REIT continued marketing itself to investors using representations about profitability and liquidity the SEC says didn't match its actual financial condition.",
-        "The enforcement theory leans heavily on related-party fund flows and continued capital-raising after internal warning signs — a declined credit line, a rising rate of foreclosures in the portfolio, and frozen investor redemptions are all cited. Sponsors and boards of retail-facing, non-traded REITs should treat this as a preview of what the SEC is looking for when it examines related-party transaction controls and disclosure practices."
+        "The SEC filed SEC v. RAD Diversified REIT, Inc., et al., No. 8:26-cv-02186, in the U.S. District Court for the Middle District of Florida on July 29, 2026 against the Tampa-based REIT, its two founders and relief defendant The Seminar Solution, LLC. According to the SEC's litigation release, the REIT raised at least $152 million from more than 5,500 retail investors nationwide. The complaint describes it as a non-traded REIT that has never been registered with the Commission, and says it filed for Chapter 11 in the Middle District of Florida on March 1, 2026.",
+        "The SEC alleges that from November 2019 through March 2024 the defendants misled investors about the REIT's profitability, stock valuation practices and liquidity, using unregistered sales agents and high-pressure tactics. The complaint alleges the defendants said the stock price rested on independent valuations when the properties were not independently valued, and did not update the price after July 2023 despite widespread foreclosures; it says the REIT faced at least 166 foreclosure actions totaling about $47 million before its bankruptcy. It also alleges that a bank declined a $15 million line of credit in February 2023 after reviewing the REIT's financial statements, and that redemptions were frozen in February 2024. According to the SEC, about $54 million of investor funds went to The Seminar Solution, an entity owned by the founders, who then allegedly misappropriated millions for personal expenses; the release puts their combined misappropriation at nearly $5 million.",
+        "The SEC charges violations of the registration and antifraud provisions of the Securities Act and the Exchange Act and seeks injunctions and disgorgement with prejudgment interest against all defendants, plus civil penalties and officer-and-director bars against the founders. The case is assigned to U.S. District Judge Kathryn Kimball Mizelle. On October 23, 2026 the SEC filed an unopposed motion to approve a consent judgment as to the REIT, attaching the REIT's consent, a proposed judgment and an exhibit titled \"Order Approving Partial Settlement with SEC.\" The CourtListener docket, last updated November 3, 2026, shows a case management and scheduling order entered that day but no ruling on the consent-judgment motion."
       ],
       timeline: [
-        { when: "July 29, 2026", label: "SEC sues RAD Diversified REIT, its co-founders, and an affiliated entity" },
-        { when: "October 23, 2026", label: "Court enters an order approving a consent judgment in the case (docket entry 21)" },
-        { when: "October 23, 2026", label: "Docket exhibits to that order show the settlement approved is partial, with a proposed judgment filed as a separate exhibit (docket entry 21)", current: true }
+        { when: "March 1, 2026", label: "RAD Diversified REIT files for Chapter 11 in the Middle District of Florida" },
+        { when: "July 29, 2026", label: "SEC sues RAD Diversified REIT, its two founders and relief defendant The Seminar Solution" },
+        { when: "October 23, 2026", label: "SEC files unopposed motion to approve a consent judgment as to the REIT (docket entry 21)" },
+        { when: "November 3, 2026", label: "Court enters case management and scheduling order", current: true }
       ],
       documentUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26596",
       documentLabel: "Read the SEC litigation release",
@@ -7018,47 +7019,51 @@ const RELAW_DATA = {
     },
     {
       id: "live-237",
-      seoTitle: "Pillarstone v. Whitestone REIT: Fifth Circuit Denies Rehearing",
-      seoDescription: "The Fifth Circuit denied Whitestone Uptown Tower's rehearing petition in the Pillarstone Capital REIT bankruptcy, leaving a ruling against it in place.",
+      seoTitle: "Uptown Tower Subrogation Appeal: Fifth Circuit Denies Rehearing",
+      seoDescription: "The Fifth Circuit denied rehearing for Pillarstone unit Whitestone Uptown Tower, leaving Whitestone OP's $13.6M subrogation win on the Uptown Tower loan intact.",
       addedDate: "2026-10-08",
       featured: true,
-      title: "In re Pillarstone Capital REIT: Fifth Circuit Denies Whitestone Uptown Tower's Rehearing Petition",
-      brief: "The Fifth Circuit denied Whitestone Uptown Tower's rehearing petition, effectively ending its appeal in the Pillarstone Capital REIT bankruptcy, a dispute that survived a $33.4M settlement.",
+      title: "Whitestone Uptown Tower, LLC v. Whitestone REIT Operating Partnership, L.P.: Fifth Circuit Denies Rehearing in Uptown Tower Subrogation Appeal",
+      brief: "The Fifth Circuit denied rehearing en banc to Pillarstone subsidiary Whitestone Uptown Tower, leaving in place rulings that Whitestone REIT's operating partnership was subrogated to the lender's claim for its $13.6 million payment.",
       category: "reit-securities",
       status: "ruling",
       date: "2026-10-05",
       jurisdiction: "U.S. Court of Appeals for the Fifth Circuit",
       state: "TX",
-      amount: "$33.4M related Rule 9019 bankruptcy settlement reached Dec. 2025 between the same parties; the dollar amount at stake in this specific appeal is not disclosed",
-      amountUsd: null,
+      amount: "$13.6 million paid to Whitestone OP from Uptown Tower sale proceeds under the subrogation ruling",
+      amountUsd: 13600000,
       source: "live",
       sourceUrl: "https://www.sec.gov/Archives/edgar/data/928953/000143774926032287/pscr20250630_10q.htm",
-      summary: "The Fifth Circuit denied Whitestone Uptown Tower, LLC's petition for rehearing en banc on October 5, 2026, following the panel's September 4, 2026 affirmance of a district court ruling that had itself affirmed a bankruptcy-court decision against Whitestone Uptown Tower in the Pillarstone Capital REIT bankruptcy case. Pillarstone disclosed the ruling in its October 7, 2026 Form 10-Q. The appeal is the latest chapter in a multi-forum dispute between Pillarstone Capital REIT and Whitestone REIT dating to a 2021 shareholder rights plan, spanning Delaware Chancery Court, Harris County, Texas district court, and the Northern District of Texas bankruptcy court.",
-      significance: "The ruling effectively closes out, absent a certiorari petition, a discrete piece of bankruptcy-court litigation that survived a broader $33.4 million Rule 9019 settlement the two REIT families reached in December 2025. It illustrates how a shareholder rights plan adopted against a counterparty that also holds a limited-partnership stake can generate years of parallel litigation across state chancery, state trial, and federal bankruptcy/appellate forums, and how a global settlement in one forum may not reach claims already on appeal in another.",
+      summary: "On October 5, 2026, the Fifth Circuit denied Whitestone Uptown Tower, LLC's petition for rehearing en banc of its September 4, 2026 decision affirming a district court ruling in Whitestone Uptown Tower, LLC v. Whitestone REIT Operating Partnership, L.P., according to Pillarstone Capital REIT's Form 10-Q filed October 7, 2026. The bankruptcy court had ruled, over Uptown Tower's objection, that Whitestone OP was statutorily subrogated to the mortgage lender's secured claim for about $13.6 million it had mistakenly paid toward the Uptown Tower loan, and Uptown Tower paid that amount to Whitestone OP from the building's sale proceeds. Pillarstone says Uptown Tower, its indirect subsidiary, is considering its options.",
+      significance: "The denial leaves the subrogation ruling in place in one of the last open parts of the Pillarstone-Whitestone dispute; Uptown Tower was not a party to the December 2025 settlement of Whitestone's claims in the other Pillarstone bankruptcy cases. The case shows a party that paid down a property loan without the borrower's authority recovering that payment through subrogation to the lender's secured claim.",
       body: [
-        "The U.S. Court of Appeals for the Fifth Circuit has denied a petition for rehearing en banc filed by Whitestone Uptown Tower, LLC, closing out -- absent a petition for certiorari -- one of the last open fronts in a years-long partnership and bankruptcy dispute between Pillarstone Capital REIT and Whitestone REIT. The denial, entered October 5, 2026, follows the panel's September 4, 2026 affirmance of a district court ruling that had itself affirmed a bankruptcy-court decision adverse to Whitestone Uptown Tower's position. Pillarstone disclosed the sequence of events in its Form 10-Q filed with the SEC on October 7, 2026.",
-        "The litigation traces back to a shareholder rights plan Pillarstone Capital REIT adopted on December 27, 2021, with American Stock Transfer & Trust Company serving as rights agent. Whitestone REIT Operating Partnership, L.P., which holds the sole limited-partner interest in Pillarstone's operating partnership, took the position that the rights plan breached the partnership's Amended and Restated Agreement of Limited Partnership and the implied covenant of good faith and fair dealing. Whitestone OP sued in the Delaware Court of Chancery, and on January 25, 2024 the court ruled in Whitestone's favor, finding the rights plan breached the implied covenant and clearing the way for Whitestone to exercise a contractual redemption right.",
-        "Pillarstone, in turn, sued in Texas: on September 16, 2022, Pillarstone Capital REIT and its operating partnership filed Cause No. 2022-59478 in the 189th Judicial District Court of Harris County, alleging the Whitestone entities breached the limited partnership agreement, related management agreements, and their fiduciary duties. The dispute then migrated into bankruptcy court -- Chapter 11 cases were filed for Pillarstone Capital REIT and its operating partnership on March 4, 2024 -- where Whitestone Uptown Tower, LLC pressed a claim the bankruptcy court ruled against. A federal district court affirmed that ruling, Whitestone Uptown Tower appealed to the Fifth Circuit on August 13, 2025, the panel affirmed on September 4, 2026, and the full court denied rehearing en banc on October 5, 2026. Pillarstone's filing states Whitestone Uptown Tower 'is considering its available options.'",
-        "This appellate fight proceeded on a separate track from the broader monetary settlement the two REIT families reached in December 2025 under Bankruptcy Rule 9019, in which Pillarstone's operating partnership paid Whitestone approximately $33.4 million tied to a guaranty obligation connected to the Uptown Tower property, with Pillarstone Capital REIT itself recovering roughly $4.05 million. That settlement resolved the bulk of the parties' monetary claims; the appeal decided this month addressed a bankruptcy-court ruling that fell outside its scope.",
-        "For REIT boards and general counsel, the case is a reminder that a shareholder rights plan adopted against a counterparty that also holds a governance or partnership stake can trigger years of derivative litigation spanning state chancery court, state trial court, and the federal bankruptcy and appellate systems at once -- and that a global settlement rarely closes every open issue when the same parties are tied together through multiple, overlapping legal instruments. Boards should track the full appellate chain independently of any settlement reached elsewhere in a dispute, since release language negotiated in one forum may not reach a claim already pending on appeal in another, and a denial of rehearing en banc does not itself end a case so long as a certiorari petition remains available."
+        "Whitestone Uptown Tower, LLC, an indirect subsidiary of Pillarstone Capital REIT that owned the Uptown Tower office building in the Dallas area, filed for Chapter 11 on December 1, 2023 in the U.S. Bankruptcy Court for the Northern District of Texas after its mortgage loan matured and the lender noticed a foreclosure sale. According to Pillarstone's Form 10-Q for the quarter ended June 30, 2025, filed October 7, 2026, Whitestone REIT, whose operating partnership had contributed the building and other properties to Pillarstone's operating partnership in 2016, tried in late 2023 to pay off the loan without the borrower's knowledge or consent and sent about $13.6 million to the loan's special servicer. Pillarstone says no Whitestone entity had authority to make that arrangement for the borrower.",
+        "Over Uptown Tower's objection, the bankruptcy court ruled that Whitestone REIT Operating Partnership, L.P. was statutorily subrogated to the lender's secured claim for that payment. Uptown Tower, which sold the building in July 2025 for $20 million, paid $13.6 million of the proceeds to Whitestone OP. It appealed on October 25, 2024 to the U.S. District Court for the Northern District of Texas (Case No. 24-02699), which affirmed, and then to the Fifth Circuit on August 13, 2025. The Fifth Circuit affirmed on September 4, 2026; Uptown Tower petitioned for rehearing en banc on September 18, and the petition was denied on October 5, 2026. Pillarstone reports that Uptown Tower is considering its available options.",
+        "The appeal is part of a wider dispute. Whitestone OP sued Pillarstone in the Delaware Court of Chancery in July 2022 over a shareholder rights plan Pillarstone adopted in December 2021; on January 25, 2024 that court found Pillarstone breached the implied covenant of good faith and fair dealing, declared the rights plan unenforceable against Whitestone and declined to award the roughly $51.2 million in damages Whitestone sought. Pillarstone sued the Whitestone entities in Harris County district court in September 2022. Pillarstone's operating partnership and its other property subsidiaries filed Chapter 11 on March 4, 2024. In December 2025, over Pillarstone's objections, the bankruptcy court approved a settlement between the plan agent in those cases and the Whitestone entities, under which about $33.4 million remaining in the operating partnership's estate went to Whitestone OP and $4.05 million went to Pillarstone's estate. Pillarstone says Uptown Tower was not a party to that settlement and the litigation in its bankruptcy case was not resolved by it."
       ],
       judge: null,
       parties: [
-        { name: "Pillarstone Capital REIT", role: "Debtor / Appellee" },
-        { name: "Pillarstone Capital REIT Operating Partnership LP", role: "Debtor / Appellee" },
-        { name: "Whitestone Uptown Tower, LLC", role: "Appellant" },
-        { name: "Whitestone REIT", role: "Related Party" },
-        { name: "Whitestone REIT Operating Partnership, L.P.", role: "Related Party" }
+        { name: "Whitestone Uptown Tower, LLC", role: "Appellant / Debtor (Pillarstone subsidiary)" },
+        { name: "Whitestone REIT Operating Partnership, L.P.", role: "Appellee" },
+        { name: "Pillarstone Capital REIT", role: "Related Party (indirect parent of appellant)" },
+        { name: "Whitestone REIT", role: "Related Party" }
       ],
       timeline: [
-        { when: "December 27, 2021", label: "Pillarstone Capital REIT adopts shareholder rights plan" },
-        { when: "January 25, 2024", label: "Delaware Court of Chancery rules the rights plan breached the implied covenant of good faith and fair dealing" },
-        { when: "March 4, 2024", label: "Pillarstone Capital REIT and its operating partnership file Chapter 11" },
-        { when: "December 2025", label: "Rule 9019 settlement: Pillarstone OP pays Whitestone approximately $33.4 million" },
-        { when: "September 4, 2026", label: "Fifth Circuit affirms district court's affirmance of the bankruptcy court ruling against Whitestone Uptown Tower" },
-        { when: "October 5, 2026", label: "Fifth Circuit denies Whitestone Uptown Tower's petition for rehearing en banc", current: true }
+        { when: "December 27, 2021", label: "Pillarstone adopts shareholder rights plan" },
+        { when: "July 12, 2022", label: "Whitestone OP sues Pillarstone in the Delaware Court of Chancery" },
+        { when: "December 1, 2023", label: "Whitestone Uptown Tower, LLC files Chapter 11 in the Northern District of Texas" },
+        { when: "January 25, 2024", label: "Delaware Chancery finds Pillarstone breached the implied covenant, awards no damages" },
+        { when: "March 4, 2024", label: "Pillarstone's operating partnership and other subsidiaries file Chapter 11" },
+        { when: "October 25, 2024", label: "Uptown Tower appeals the subrogation ruling to the district court" },
+        { when: "August 13, 2025", label: "Uptown Tower appeals the district court's affirmance to the Fifth Circuit" },
+        { when: "December 2025", label: "Bankruptcy court approves settlement paying about $33.4 million to Whitestone OP; Uptown Tower not a party" },
+        { when: "September 4, 2026", label: "Fifth Circuit affirms" },
+        { when: "October 5, 2026", label: "Fifth Circuit denies rehearing en banc", current: true }
       ],
-      tags: ["reit", "bankruptcy-appeal", "fifth-circuit", "partnership-dispute", "texas"]
+      tags: ["reit", "bankruptcy-appeal", "fifth-circuit", "subrogation", "texas"],
+      amountBasis: "other",
+      property: {"name": "Uptown Tower", "state": "TX"},
+      propertyType: "Office"
     },
     {
       id: "live-239",
@@ -7718,7 +7723,7 @@ const RELAW_DATA = {
         { name: "Long Street Associates, LLP", role: "Plaintiff-Appellant (Landlord)" },
         { name: "The Young Men's Christian Association of Central Ohio", role: "Defendant-Appellee (Tenant)" }
       ],
-      judge: null,
+      judge: "Mentel",
       amountUsd: null,
       timeline: [
         { when: "December 9, 2019", label: "YMCA of Central Ohio signs lease for unfinished space at 31-55 West Long Street, Columbus" },
@@ -7919,7 +7924,7 @@ const RELAW_DATA = {
         "The tenant counterclaimed on six counts, including retaliatory eviction, failure to repair with rent abatement, tortious interference, breach of quiet enjoyment and breach of the lease's maintenance duties. The municipal court dismissed the counterclaim in July 2024, granted the landlord summary judgment on the unauthorized-sublease breach in April 2025, and issued a writ of restitution, which was stayed on bond pending appeal.",
         "A panel of Seventh District judges sitting by assignment affirmed on every assignment of error. On the central question, the court held that the arrangement was a sublease as a matter of law: the occupant had exclusive possession of dedicated space, used it for a business unrelated to the museum and as a residence, and kept it month after month, so the parties' own labels did not matter. The court rejected the tenant's waiver and estoppel arguments. It held that Ohio's statutory 30-day notice to terminate a tenancy does not govern commercial leases, and that the lease's 30-day language attached to the landlord's optional self-help remedy, not to a court eviction. On the counterclaims, it upheld dismissal of the repair and quiet-enjoyment counts, largely because the arguments the tenant pressed on appeal, including those about the non-disturbance agreement's written notice-of-default requirement, had not been preserved in its response to the dismissal motion. Finally, the municipal court did not have to transfer the case to common pleas court merely because the counterclaim demanded more than its $15,000 limit, once the counts offered to justify that demand were dismissed.",
         "The opinion is long and fact-specific, but its holdings travel well. Anti-subletting clauses in shopping-center and industrial leases often collide with informal uses by a tenant's affiliates, volunteers or friends, and the court's focus on exclusive, dedicated and ongoing occupancy gives both sides a workable line between a license and a sublease.",
-        "Landlords enforcing use or subletting covenants should document actual occupancy with inspections and photographs, follow the lease's cure procedure first, and then use the statutory eviction notice. Where public grant money or a lender sits behind the tenancy, landlords and tenants alike should read any non-disturbance agreement for notice and cure conditions, because here the agreement's notice requirement was central to the fight over the tenant's repair claim. Tenants defending an eviction should also expect a court to look past a large counterclaim demand when deciding whether a small-claims-level court keeps the case."
+        "Landlords enforcing use or subletting covenants should document actual occupancy with inspections and photographs, follow the lease's cure procedure first, and then use the statutory eviction notice. Where public grant money or a lender sits behind the tenancy, landlords and tenants alike should read any non-disturbance agreement for notice and cure conditions, because here the agreement's notice requirement was central to the fight over the tenant's repair claim. Tenants defending an eviction should also expect a court to look past a large counterclaim demand when deciding whether a municipal court with a $15,000 limit keeps the case."
       ],
       tags: ["commercial eviction", "sublease", "shopping center", "ohio", "non-disturbance agreement"],
       parties: [
@@ -8168,7 +8173,7 @@ const RELAW_DATA = {
         "The lease was made contingent on Pacific acquiring fee title under a purchase agreement with ExxonMobil that had not yet been drafted, and it gave no deadline for closing. Pacific let the option lapse and obtained extensions, signed a $4.2 million purchase agreement only in November 2019, missed the deadline for its $70,000 earnest money deposit, and by early 2020 still had no financing in place. TGS, which had been selected by the city to move forward in the licensing process, would not file its next city submission naming Pacific as owner while Pacific did not own the property. After a failed renegotiation, TGS rescinded the lease on February 28, 2020, and in December 2020 bought the property from ExxonMobil itself.",
         "Pacific sued TGS for breach of the lease and Jushi for breach of the guaranty in October 2022, alleging damages above $20 million. A retired judge sitting as a referee under the lease's dispute resolution clause tried the case over five days in January 2024 and found that Pacific never had the funds or loan commitments to close, had been stalling, and was in material breach of a lease that made time of the essence. The trial court entered judgment for the defendants on May 28, 2024.",
         "On appeal, the Second District accepted that the lease's reference to acquiring title under the purchase agreement could be read to tie Pacific's deadline to the ExxonMobil contract, but refused to let that reading give Pacific unlimited control over its own performance. Applying Civil Code section 1657 and the implied covenant of good faith, the panel held that Pacific had to close within a reasonable time. It found ample support for the referee's conclusion that Pacific's delay was unreasonable, pointing to the option terms that contemplated a 2019 closing and to testimony that the delay was a deliberate cost-saving choice.",
-        "The court also rejected Pacific's argument that its duty to buy the land was excused until TGS obtained its cannabis license. Nothing in the lease made the purchase conditional on licensing, while a separate clause expressly deferred construction until permits issued, which the panel read as showing the parties knew how to write such a condition when they wanted one. The court called the risk of buying land before licensing the deal Pacific struck. The judgment for TGS and Jushi was affirmed and they were awarded appellate costs. The opinion is unpublished; an order filed October 13 corrected only the trial court case number.",
+        "The court also rejected Pacific's argument that its duty to buy the land was excused until TGS obtained its cannabis license. Nothing in the lease made the purchase conditional on licensing, while a separate clause expressly deferred construction until permits issued, which the panel read as showing the parties knew how to write such a condition when they wanted one. The court called the risk of buying land before licensing the deal Pacific struck. The judgment for TGS and Jushi was affirmed and they were awarded appellate costs. The opinion is not certified for publication.",
         "For developers, the practical point is to put a firm acquisition deadline, financing contingency or licensing condition in writing in any lease signed before closing on the land, rather than relying on a pending purchase contract. Tenants and guarantors, for their part, can use the reasonable-time rule to exit a deal when a landlord's delay goes to the heart of the bargain, provided they document repeated requests to perform, as TGS did here."
       ],
       tags: ["build-to-suit", "lease rescission", "guaranty", "cannabis", "california"],
@@ -8177,7 +8182,7 @@ const RELAW_DATA = {
         { name: "TGS CC Ventures, LLC", role: "Defendant/Respondent (Tenant)" },
         { name: "Jushi, Inc.", role: "Defendant/Respondent (Guarantor)" }
       ],
-      judge: null,
+      judge: "Ashworth",
       amountUsd: null,
       timeline: [
         { when: "September 26, 2018", label: "Pacific Collective and TGS sign 15-year build-to-suit lease; Jushi guarantees it the next day" },
@@ -10713,12 +10718,12 @@ const RELAW_DATA = {
     },
     {
       id: "live-345",
-      seoTitle: "Steinway Tower: AmBase Sues ACREFI Over No-Consideration Transfer",
-      seoDescription: "AmBase's 111 West 57th sued Apollo's ACREFI and ARI in NY Supreme Court over a no-consideration fund transfer in the Steinway Tower mezz fight.",
-      property: { name: "Steinway Tower", address: "111 West 57th Street", city: "New York", state: "NY" },
+      seoTitle: "111 West 57th: AmBase Unit Sues ACREFI Over Fund Transfer",
+      seoDescription: "An AmBase subsidiary sued Apollo's ACREFI Mortgage LLC and its parent ARI in New York court, alleging ACREFI moved funds to ARI for no consideration.",
+      property: {"name": "Steinway Tower", "address": "111 West 57th Street", "city": "New York", "state": "NY"},
       addedDate: "2026-10-29",
       title: "111 West 57th Investment LLC v. ACREFI Mortgage LLC (No-Consideration Fund Transfer Claim)",
-      brief: "AmBase's 111 West 57th Investment LLC accused Apollo's ACREFI Mortgage of transferring funds to its parent, ARI, for no consideration, escalating the Steinway Tower mezzanine fight in a new Manhattan Supreme Court suit.",
+      brief: "An AmBase subsidiary filed a summons with notice against ACREFI Mortgage LLC and its parent, Apollo Commercial Real Estate Finance, alleging ACREFI transferred funds to the parent for no consideration or equivalent value.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-10-19",
@@ -10736,22 +10741,21 @@ const RELAW_DATA = {
       amount: "unspecified — alleged no-consideration fund transfer from ACREFI to its parent",
       source: "live",
       sourceUrl: "https://www.sec.gov/Archives/edgar/data/20639/000114036126041028/ef20080523_10q.htm",
-      summary: "AmBase Corporation disclosed that its 111 West 57th Investment LLC vehicle filed a Summons with Notice on October 19, 2026 in Supreme Court, New York County, against ACREFI Mortgage LLC and its indirect parent, Apollo Commercial Real Estate Finance, Inc., alleging ACREFI improperly transferred funds to ARI for no consideration or equivalent value. The suit is a new, separate action from the long-running 'Lender Action' over the 2017 strict foreclosure that wiped out the plaintiffs' equity in the Steinway Tower project at 111 West 57th Street.",
-      significance: "The filing shows that AmBase's litigation campaign against Apollo-affiliated lenders over the Steinway Tower mezzanine loan continues to widen beyond the original foreclosure dispute into intercompany-transfer theories, following the New York Court of Appeals' May 2026 revival of the plaintiffs' good-faith claim. Mezzanine lenders should expect continued scrutiny of fund movements between special-purpose lending subsidiaries and their parents following a foreclosure that eliminates a junior equity holder's position.",
+      summary: "AmBase Corporation disclosed in its Form 10-Q filed October 28, 2026 that its subsidiary 111 West 57th Investment LLC, for itself and derivatively for 111 West 57th Partners LLC and 111 West 57th Mezz 1 LLC, filed a summons with notice on October 19, 2026 in New York Supreme Court, New York County (Index No. 655919/2026) against ACREFI Mortgage LLC and Apollo Commercial Real Estate Finance, Inc. The action concerns the alleged improper transfer of funds by ACREFI to ARI, its indirect parent, for no consideration or equivalent value. It is separate from the long-running Lender Action over the 2017 strict foreclosure of the AmBase entities' interest in the 111 West 57th Street project.",
+      significance: "The filing adds another case to AmBase's litigation over the 111 West 57th Street development, this one aimed at money moved between an Apollo lending entity and its parent. AmBase's disclosure gives no amount and no further detail about the claim.",
       body: [
-        "On October 19, 2026, 111 West 57th Investment LLC, suing on its own behalf and derivatively for 111 West 57th Partners LLC and 111 West 57th Mezz 1 LLC, filed a Summons with Notice in the Supreme Court of the State of New York, New York County, against ACREFI Mortgage LLC and its indirect parent, Apollo Commercial Real Estate Finance, Inc. The filing, docketed under Index No. 655919/2026, alleges that ACREFI improperly transferred funds to Apollo Commercial Real Estate Finance for no consideration or equivalent value. The claim surfaced publicly through AmBase Corporation's quarterly report filed October 28, 2026; AmBase is the ultimate corporate parent of the plaintiff entities and has carried this litigation on its books since its equity investment in the underlying project was impaired in 2017.",
-        "The new claim is the latest front in a legal battle that has pitted AmBase's investment vehicles against Apollo-affiliated lenders and the project sponsors for nearly a decade over the 111 West 57th Street condominium tower, known to New Yorkers as the Steinway Tower. The dispute traces to a $25 million junior mezzanine loan secured by the plaintiffs' equity interest in the development. In 2017, ACREFI sold that loan to Spruce Capital Partners LLC at par value, notwithstanding internal valuations that reportedly put the underlying equity at roughly $600 million. Two days after acquiring the loan, Spruce initiated a UCC Article 9 strict foreclosure, seizing the pledged collateral and wiping out the plaintiffs' equity position in the project entirely. AmBase's vehicles sued Spruce and the project sponsor that same year in what has become known as the Lender Action, seeking to unwind the foreclosure and recover damages.",
-        "That earlier fight reached the New York Court of Appeals, which ruled on May 28, 2026 that Apollo's contractual right to assign the mezzanine loan at its sole discretion did not, standing alone, shield the lender from a claim that the discretion was exercised in bad faith as part of a scheme to strip the plaintiffs' equity. The Court of Appeals reinstated the plaintiffs' implied-covenant-of-good-faith claim and sent the case back to the trial court, while leaving dismissal of related tortious-interference claims in place. That litigation remains pending in Supreme Court, New York County.",
-        "The newly filed action is a distinct case rather than a continuation of the Lender Action: it names ACREFI and Apollo Commercial Real Estate Finance, rather than Spruce or the sponsor, as defendants, and it asserts a different theory, that ACREFI moved money up to its parent without consideration. AmBase's disclosure does not specify the amount allegedly transferred, nor does it identify a presiding judge, consistent with the filing being an initial Summons with Notice rather than a verified complaint. A Summons with Notice is a procedural device under New York practice that commences an action and preserves a plaintiff's filing date while a fuller complaint is prepared or demanded by the defendant.",
-        "This is not AmBase's first collateral attack on the Apollo lending relationship. In 2024, the same plaintiff entities sued the law firm Kasowitz Benson Torres LLP and attorney Douglas B. Heitner, alleging the firm represented the 111 West 57th entities in the development's financing while simultaneously representing parties with adverse interests, including the project's principals Michael Stern and Kevin Maloney and entities they control.",
-        "For commercial mortgage lenders and mezzanine investors, the new filing is a reminder that winning a strict foreclosure does not necessarily close the book on a sponsor or equity investor's claims: collateral attacks on intercompany transfers, assignment practices, and professional representation can surface years after the underlying default. Lenders structuring mezzanine debt in New York should expect continued scrutiny of sole-discretion assignment language following the Court of Appeals' May 2026 ruling, and should be prepared to document the business rationale for intercompany fund movements between a special-purpose lending subsidiary and its parent, particularly where those movements follow or coincide with a foreclosure that wipes out a junior equity holder. For sponsors and joint-venture partners who have lost equity in a strict foreclosure, this filing illustrates that fraudulent-transfer and no-consideration theories remain an available avenue even after a Lender Action has run its course, provided the facts support them."
+        "On October 19, 2026, 111 West 57th Investment LLC, on its own behalf and derivatively for 111 West 57th Partners LLC and 111 West 57th Mezz 1 LLC, filed a summons with notice in New York Supreme Court, New York County, against ACREFI Mortgage LLC and Apollo Commercial Real Estate Finance, Inc. (ARI), under Index No. 655919/2026. According to the Form 10-Q filed October 28, 2026 by AmBase Corporation, the plaintiff's parent, the case concerns the alleged improper transfer of funds by ACREFI to ARI, its indirect parent, for no consideration or equivalent value. The disclosure does not state the amount at issue.",
+        "AmBase's subsidiary invested in 2013 in a joint venture to redevelop 111 West 57th Street into a luxury residential tower and retail project. According to the 10-Q, in 2017 Apollo sold a junior portion of the project's mezzanine loan to an affiliate of Spruce Capital Partners LLC, which declared a default and completed a UCC strict foreclosure on the pledged ownership interests; AmBase wrote off its full equity investment that year. The AmBase entities sued Spruce and the project sponsor in July 2017 in what the company calls the Lender Action (Index No. 655031/2017) and later added claims against Apollo lending entities.",
+        "On May 28, 2026, the New York Court of Appeals modified an Appellate Division ruling in part and reinstated the plaintiff's claim for breach of the Pledge Agreement against the Apollo lenders, sending the case back to the trial court. AmBase reports that the trial court denied the plaintiff's motion for an attachment or bond against the Apollo lenders on September 25, 2026; that the Appellate Division granted a temporary restraining order pending further briefing on October 5; and that on October 28 the trial court denied the Apollo lenders' motion for summary judgment from the bench. A bench trial in the Lender Action remains set to begin November 30, 2026.",
+        "AmBase entities also sued a law firm that had represented the project entities in June 2024, alleging conflicted representation; that case was discontinued without prejudice in August 2024 under a stipulation tolling time limits."
       ],
-      tags: ["mezzanine debt", "fraudulent transfer", "steinway tower", "apollo", "capital stack"],
+      tags: ["mezzanine debt", "fraudulent transfer", "111 west 57th", "apollo", "strict foreclosure"],
       timeline: [
-        { when: "2017", label: "ACREFI sells the $25M junior mezzanine loan to Spruce Capital Partners at par value; Spruce's strict foreclosure two days later wipes out plaintiffs' equity" },
-        { when: "2024", label: "Plaintiffs sue Kasowitz Benson Torres LLP over alleged conflicted representation in the financing" },
-        { when: "May 28, 2026", label: "NY Court of Appeals reinstates the plaintiffs' good-faith claim in the Lender Action and remits it to Supreme Court" },
-        { when: "October 19, 2026", label: "Plaintiffs file a new Summons with Notice against ACREFI and ARI alleging a no-consideration fund transfer", current: true }
+        { when: "June 2013", label: "AmBase subsidiary invests in the 111 West 57th Street joint venture" },
+        { when: "July 25, 2017", label: "AmBase entities file the Lender Action to stop the junior mezzanine lender's strict foreclosure" },
+        { when: "August 30, 2017", label: "Spruce affiliate issues notice retaining the pledged collateral in a strict foreclosure" },
+        { when: "May 28, 2026", label: "New York Court of Appeals reinstates the Pledge Agreement claim against the Apollo lenders" },
+        { when: "October 19, 2026", label: "New summons with notice filed against ACREFI Mortgage LLC and ARI over an alleged no-consideration transfer", current: true }
       ]
     },
     {
@@ -11170,88 +11174,47 @@ const RELAW_DATA = {
     {
       id: "live-356",
       seoTitle: "Monarch Casino Black Hawk: Gilpin Lien Suit Stay Lifted",
-      seoDescription: "A Colorado judge lifted the stay in PCL Construction's $45.5M mechanics' lien suit against Monarch Casino's Black Hawk expansion, reviving a dispute tied to a $74.6M judgment.",
+      seoDescription: "A Colorado judge lifted the stay in PCL Construction's lien foreclosure suit over Monarch Casino's Black Hawk expansion; a related $74.6M judgment is on appeal.",
       addedDate: "2026-10-31",
       title: "Stay Lifted in Mechanics'-Lien Fight Over Monarch Casino's Black Hawk Expansion",
-      brief: "A Colorado judge lifted the stay in PCL Construction's $45.5 million mechanics'-lien foreclosure suit against Monarch Casino's Black Hawk expansion, reviving a dispute already tied to a $74.6 million judgment in a companion case.",
+      brief: "A Gilpin County, Colorado judge lifted a 2021 stay in PCL Construction's mechanics' lien foreclosure suit over Monarch Casino's Black Hawk expansion; a related $74.6 million judgment for PCL is on appeal.",
       category: "construction-defect",
       status: "ruling",
       date: "2026-09-01",
       jurisdiction: "District Court, Gilpin County, Colorado",
       state: "CO",
       propertyType: "Hospitality",
-      property: {
-        name: "Monarch Casino Resort Spa Black Hawk",
-        city: "Black Hawk",
-        state: "CO"
-      },
-      amount: "$45.5 million mechanics'-lien foreclosure claim; a related suit over the same project produced a $74.6 million judgment against Monarch in February 2025",
-      amountUsd: 45500000,
-      amountBasis: "claim",
+      property: {"name": "Monarch Casino Resort Spa Black Hawk", "city": "Black Hawk", "state": "CO"},
+      amount: "Lien amount not disclosed; related Denver judgment of $74,627,657 for PCL is on appeal",
+      amountUsd: null,
+      amountBasis: null,
       source: "live",
       sourceUrl: "https://www.sec.gov/Archives/edgar/data/907242/000110465926120630/mcri-20260930x10q.htm",
-      summary: "Monarch Casino & Resort, Inc. disclosed in its October 30, 2026 10-Q that the judge in a long-stayed mechanics' lien foreclosure action in Gilpin County, Colorado lifted the stay effective September 16, 2026 and set a case management conference for January 22, 2027. The lien case, brought by former general contractor PCL Construction Services, Inc. over the completed expansion of the Monarch Casino Resort Spa in Black Hawk, carries PCL's own asserted lien of roughly $45.5 million.",
-      significance: "The case shows that a mechanics' lien foreclosure against the real property itself can remain a live threat to an owner's title long after a money judgment has been entered in a parallel contract suit over the identical work -- here, a related 2019 Denver suit already produced a $74.6 million judgment against Monarch in February 2025. Owners and lenders financing hospitality and gaming expansions should track lien foreclosure actions separately from any companion damages litigation, since a stay in one case does not resolve exposure in the other.",
+      summary: "Monarch Casino & Resort, Inc. disclosed in its Form 10-Q filed October 30, 2026 that on September 1, 2026 the judge in PCL Construction Services, Inc.'s mechanics' lien foreclosure case in Gilpin County District Court granted a lien claimant's motion to lift the stay, effective September 16, 2026, and then set a case management conference for January 22, 2027. The case, No. 2021CV30006, had been stayed since October 2021 pending the outcome of PCL's separate Denver contract suit, in which the court entered a net judgment of $74.6 million for PCL in February 2025 that Monarch has appealed.",
+      significance: "The order puts lien claims against the casino property itself back on an active docket while the money judgment over the same project is still on appeal. Monarch says it cannot yet estimate the outcome.",
       body: [
-        "Monarch Casino & Resort, Inc. (NASDAQ: MCRI) disclosed in its quarterly report filed October 30, 2026 that the judge presiding over a long-running mechanics' lien foreclosure action in Gilpin County, Colorado lifted a litigation stay effective September 16, 2026, and set a case management conference for January 22, 2027. The order revives a nearly five-year-old dispute between the casino operator and its former general contractor, PCL Construction Services, Inc., over unpaid work on the completed expansion of the Monarch Casino Resort Spa in Black Hawk, Colorado.",
-        "The underlying fight traces back to the casino's multi-year expansion project, which added a hotel tower, gaming floor, and event space to the Black Hawk property roughly an hour west of Denver. PCL first sued Monarch Growth Inc. and its Colorado subsidiaries in Denver District Court in August 2019, alleging the company refused to pay for construction services rendered. Monarch answered with counterclaims alleging PCL breached the construction contract, duties of good faith and fair dealing, and express and implied warranties, and separately alleged PCL and its subcontractors made fraudulent or negligent misrepresentations the company relied on. That dispute, now known as the First Denver Lawsuit, proceeded to trial, and in February 2025 a Denver judge awarded PCL and four subcontractors $74.6 million in damages for Monarch's refusal to pay for completed work.",
-        "Separately, PCL filed a mechanics' lien foreclosure action in March 2021 in the District Court for Gilpin County, the county where the Black Hawk property sits, seeking to foreclose liens against the casino property itself rather than pursue a straight breach-of-contract judgment. That case, captioned PCL Construction Services, Inc. v. Monarch Growth Inc., et al., No. 2021CV30006, named Monarch and its Colorado subsidiaries as defendants, with PCL's own asserted lien amounting to roughly $45.5 million and additional subcontractor liens pushing the total claimed closer to $50 million. The Gilpin case had been stayed, likely pending resolution of the overlapping Denver litigation, until the September 2026 order lifting it at the request of one of the lien claimants. Monarch, for its part, filed a third action, the Second Denver Lawsuit, No. 2023CV30458, against PCL in February 2023, continuing to press its own claims arising from the same expansion.",
-        "Monarch's 10-Q states the company is currently unable to determine the probability of the outcome or reasonably estimate the loss or gain, if any, from the newly reactivated Gilpin lien case, even though a related judgment already running into the tens of millions of dollars has been entered against the company in a companion proceeding over the identical construction work. That disclosure underscores how a lien foreclosure against the real property itself remains a live threat to an owner's title and operations even after a money judgment has been entered in a parallel suit, since a lien claimant can pursue both remedies until one is formally resolved or released.",
-        "The case also illustrates the layered risk construction lien law creates for large hospitality and gaming developments. A general contractor's mechanics' lien attaches directly to the real property, giving the contractor leverage independent of whatever happens in a contract-damages lawsuit, and in Colorado, as in most states, a stayed lien case can be revived years later at a lien claimant's request, as happened here. Owners of large hospitality, gaming, and mixed-use developments should track mechanics' lien foreclosure actions separately from any parallel breach-of-contract litigation over the same project, recognize that a money judgment in a companion contract case does not extinguish a contractor's or subcontractor's separate lien rights against the property itself, and budget for the possibility of both a damages award and a lien foreclosure arising from the same dispute, since expansion and renovation projects at operating hospitality properties can carry lien exposure that resurfaces years after substantial completion, particularly where litigation has gone dormant under a stay rather than being dismissed or settled."
+        "Monarch Casino & Resort, Inc. (Nasdaq: MCRI) disclosed in its quarterly report filed October 30, 2026 that the judge in a mechanics' lien foreclosure case over the now-completed expansion of the Monarch Casino Resort Spa in Black Hawk, Colorado lifted a stay that had been in place since 2021. The order, entered September 1, 2026 on a motion by one of the lien claimants, took effect September 16, and the court then set a case management conference for January 22, 2027. Monarch says it is unable to determine the probability of the outcome or estimate any loss or gain.",
+        "The expansion's general contractor, PCL Construction Services, Inc., filed the lien case in Gilpin County District Court on March 26, 2021 (PCL Construction Services, Inc. v. Monarch Growth Inc., et al., No. 2021CV30006). According to Monarch, the complaint largely mirrors PCL's earlier Denver suit but adds a claim to foreclose PCL's claimed mechanics' lien on the casino property. PCL joined other potential lien claimants, many of whom filed cross-claims against Monarch to foreclose their own liens. On October 18, 2021 the court granted a joint motion by PCL and most of the subcontractor defendants to stay the case pending the outcome of the first Denver case.",
+        "That case, filed by PCL in Denver District Court on August 30, 2019 (No. 2019CV33368), went to judgment on February 14, 2025. The court awarded PCL $74,772,551 on its contract, implied warranty and good-faith claims and awarded Monarch $144,894 on its negligence counterclaims, entering a net judgment of $74,627,657 for PCL. It later denied PCL's requests for prejudgment interest and attorneys' fees. Monarch has appealed and posted a bond to stay enforcement, PCL has cross-appealed, and the Colorado Court of Appeals heard oral argument on September 15, 2026. Monarch carried $80.7 million in liabilities related to the PCL litigation as of September 30, 2026.",
+        "Monarch is also pursuing its own claims. In a second Denver suit filed February 9, 2023 (No. 2023CV30458), it alleges PCL breached the construction contract and warranties through defective or nonconforming work; that case is set for a ten-day trial beginning May 17, 2027."
       ],
       judge: null,
       parties: [
-        {
-          name: "PCL Construction Services, Inc.",
-          role: "Plaintiff/Lien Claimant"
-        },
-        {
-          name: "Monarch Growth Inc.",
-          role: "Defendant"
-        },
-        {
-          name: "Monarch Casino & Resort, Inc.",
-          role: "Defendant"
-        },
-        {
-          name: "Monarch Black Hawk, Inc.",
-          role: "Defendant"
-        }
+        { name: "PCL Construction Services, Inc.", role: "Plaintiff/Lien Claimant" },
+        { name: "Monarch Growth Inc.", role: "Defendant" },
+        { name: "Monarch Casino & Resort, Inc.", role: "Defendant" },
+        { name: "Monarch Black Hawk, Inc.", role: "Defendant" }
       ],
-      tags: [
-        "mechanics-lien",
-        "construction",
-        "hospitality",
-        "colorado",
-        "casino"
-      ],
+      tags: ["mechanics-lien", "construction", "hospitality", "colorado", "casino"],
       timeline: [
-        {
-          when: "August 2019",
-          label: "PCL Construction sues Monarch Growth Inc. in Denver District Court over unpaid expansion work (First Denver Lawsuit)"
-        },
-        {
-          when: "March 26, 2021",
-          label: "PCL files a mechanics' lien foreclosure action in Gilpin County District Court (the Gilpin Lawsuit), No. 2021CV30006"
-        },
-        {
-          when: "February 9, 2023",
-          label: "Monarch sues PCL in Denver District Court (the Second Denver Lawsuit), No. 2023CV30458"
-        },
-        {
-          when: "February 2025",
-          label: "Denver judge awards PCL and four subcontractors $74.6 million in the First Denver Lawsuit"
-        },
-        {
-          when: "September 1, 2026",
-          label: "Gilpin County judge lifts the stay in the lien foreclosure action at a lien claimant's request, effective September 16, 2026",
-          current: true
-        },
-        {
-          when: "January 22, 2027",
-          label: "Case management conference set in the Gilpin Lawsuit",
-          upcoming: true
-        }
+        { when: "August 30, 2019", label: "PCL sues Monarch in Denver District Court over the expansion (First Denver Lawsuit)" },
+        { when: "March 26, 2021", label: "PCL files mechanics' lien foreclosure case in Gilpin County District Court, No. 2021CV30006" },
+        { when: "October 18, 2021", label: "Gilpin County case stayed pending the First Denver Lawsuit" },
+        { when: "February 9, 2023", label: "Monarch sues PCL in Denver over alleged defective work (Second Denver Lawsuit)" },
+        { when: "February 14, 2025", label: "Denver court enters $74,627,657 net judgment for PCL" },
+        { when: "May 30, 2025", label: "Monarch appeals the judgment to the Colorado Court of Appeals" },
+        { when: "September 1, 2026", label: "Gilpin County judge lifts the stay at a lien claimant's request, effective September 16", current: true },
+        { when: "January 22, 2027", label: "Case management conference set in the Gilpin County case", upcoming: true }
       ]
     },
     {
@@ -11799,13 +11762,13 @@ const RELAW_DATA = {
     },
     {
       id: "live-371",
-      seoTitle: "Clipper Realty's Brooklyn Office Tower Faces CMBS Foreclosure",
-      seoDescription: "Wilmington Trust's CMBS foreclosure suit over Clipper Realty's 250 Livingston St after NYC vacated 342,496 sq ft remains unresolved as of Nov. 4, 2026.",
-      property: { name: "250 Livingston Street", address: "250 Livingston Street", city: "Brooklyn", state: "NY" },
+      seoTitle: "Clipper Realty's 250 Livingston St: CMBS Foreclosure, Receiver",
+      seoDescription: "Wells Fargo, as CMBS trustee, sued to foreclose a $125M loan on Clipper Realty's 250 Livingston St. in Brooklyn; a temporary receiver was named in April 2026.",
+      property: {"name": "250 Livingston Street", "address": "250 Livingston Street", "city": "Brooklyn", "state": "NY"},
       propertyType: "Office",
       addedDate: "2026-11-05",
-      title: "Wilmington Trust v. 250 Livingston Owner LLC, Clipper Realty Inc. and Clipper Realty L.P. (CMBS Foreclosure)",
-      brief: "A CMBS trustee sued to foreclose a $125 million loan on Clipper Realty's 250 Livingston Street office tower in Brooklyn after New York City agencies vacated all 342,496 square feet, winning a receiver in April 2026 with the case still unresolved.",
+      title: "Wells Fargo Bank v. 250 Livingston Owner LLC, Clipper Realty Inc. and Clipper Realty L.P. (CMBS Foreclosure)",
+      brief: "Wells Fargo, as trustee for a CMBS trust, sued to foreclose the $125 million loan on Clipper Realty's 250 Livingston Street in Brooklyn after city agencies vacated; a court appointed a temporary receiver in April 2026.",
       category: "lending-foreclosure",
       status: "ruling",
       date: "2026-04-29",
@@ -11814,18 +11777,17 @@ const RELAW_DATA = {
       amount: "$125 million CMBS loan in default",
       source: "live",
       sourceUrl: "https://www.sec.gov/Archives/edgar/data/1649096/000143774926034925/clpr20260930_10q.htm",
-      summary: "Wilmington Trust, National Association, as trustee for the GS Mortgage Securities Trust 2019-GC40, sued NYSE-listed Clipper Realty Inc., its operating partnership, and the ownership entity for Clipper's 250 Livingston Street office building in Brooklyn after the building defaulted on its $125 million mortgage loan. The default followed New York City government agencies' termination and vacatur of their lease covering all 342,496 rentable square feet of the building's commercial space in August 2025. The Kings County Supreme Court granted the lender's request for a receiver on April 29, 2026, and Clipper's most recent quarterly report, filed November 4, 2026, discloses that the lender has not yet exercised its right to foreclose outright or take a deed in lieu of foreclosure.",
-      significance: "The case shows how quickly a single large government lease loss can cascade into a CMBS default and receivership, and how special servicers are increasingly moving straight to a court-appointed receiver rather than negotiating an extended workout once a major tenant vacates. It also illustrates that loan provisions giving a defaulted borrower a defined marketing period and a right to buy back its own note can slow, but not stop, a lender's path toward foreclosure.",
+      summary: "Wells Fargo Bank, National Association, as trustee for GS Mortgage Securities Trust 2019-GC40, sued 250 Livingston Owner LLC, Clipper Realty Inc. and Clipper Realty L.P. in Kings County Supreme Court on March 25, 2026 over defaults on the $125 million mortgage loan secured by 250 Livingston Street in Brooklyn, according to Clipper's Form 10-Q filed November 4, 2026. The court granted the lender's request for a temporary receiver on April 29, 2026. Under a consent and cooperation agreement effective June 4, 2026, the parties agreed to jointly market the loan for sale, after which the lender may foreclose or take a deed in lieu; Clipper reported that as of November 4 the lender had done neither.",
+      significance: "The filing traces how the loss of a single government tenant led to a CMBS default and a court-appointed receiver within months. It also shows that a consent agreement giving the borrower a marketing period and a right to bid for its own loan can delay, but not remove, the lender's foreclosure rights.",
       body: [
-        "Clipper Realty Inc., a New York Stock Exchange-listed owner of Brooklyn and Manhattan apartment and office properties, disclosed in a November 4, 2026 SEC filing that it remains in foreclosure litigation over its 250 Livingston Street office building in Downtown Brooklyn, more than seven months after a court-appointed receiver took over the property. The dispute is a case study in how a single large government lease can anchor, and then sink, a commercial mortgage.",
-        "The trouble began on August 23, 2025, when New York City government agencies that had occupied all 342,496 rentable square feet of commercial space at the 12-story building terminated their lease and vacated. Those leases had accounted for roughly 18% to 22% of Clipper's annual revenue in the two preceding years. Facing a building with no paying commercial tenant, Clipper notified its lender that it would no longer support the property's operations, and the $125 million note secured by the building, held in the 2019 GS Mortgage Securities Trust 2019-GC40 commercial mortgage-backed securities pool, soon fell into default.",
-        "On March 25, 2026, Wilmington Trust, National Association, acting as trustee for the trust's certificate holders, filed a foreclosure complaint in Kings County Supreme Court against the building's ownership entity, 250 Livingston Owner LLC, along with Clipper Realty Inc. and its operating subsidiary, Clipper Realty L.P., both of which guarantee certain obligations under the loan. The complaint asked the court to appoint a receiver to manage the property and to order the building sold, with proceeds applied against the outstanding debt. The court granted that request on April 29, 2026, installing a temporary receiver over the building's leasing and operations.",
-        "Clipper's latest disclosure makes clear the case is far from resolved. The loan documents gave the lender a defined marketing period before it could move to an outright foreclosure sale or accept a deed in lieu of foreclosure, and separately gave Clipper the right to submit its own offer to purchase the loan. As of November 4, 2026, Clipper says the lender has not yet exercised its foreclosure or deed-in-lieu rights, leaving the parties in an extended standoff. The company has flagged the matter as an ongoing risk factor, warning that a foreclosure or deed-in-lieu transfer would have a material adverse effect on its financial condition, and that even a successful buyback would leave it needing to re-lease nearly 343,000 square feet with no comparable government anchor in sight.",
-        "The 250 Livingston Street case has run on a different track than Clipper's dispute over its sister property at 141 Livingston Street, where a lender serviced on behalf of Wells Fargo Bank, N.A. sought similar receivership relief in 2025. There, a court denied the receiver motion in May 2025, and Clipper has since reported that it substantially settled that lender's claims by the end of 2025. The diverging outcomes underscore how fact-specific CMBS special-servicing fights can be, with results turning on the specific loan documents and each special servicer's own posture rather than on how similar the underlying buildings look from the street. For CRE owners and lenders alike, the matter is a reminder that loan covenants tied to a single large lease, government or otherwise, concentrate default risk in a way that can move faster than a borrower can arrange a replacement tenant, and that a receivership fight on one asset in a multi-property lender relationship does not predict the outcome on a similarly situated sister property."
+        "Clipper Realty Inc., which owns residential and commercial buildings in New York City, disclosed in its Form 10-Q filed November 4, 2026 that the lender on its 250 Livingston Street building in Downtown Brooklyn is suing to foreclose. Clipper describes the property as a 12-story office and residential building. City of New York agencies that occupied all 342,496 rentable square feet of its commercial space vacated as of August 23, 2025; their lease generally provided for rent of $15.4 million a year.",
+        "The $125 million mortgage loan, made by Citi Real Estate Funding Inc. in May 2019 and now held by Wells Fargo Bank, National Association as trustee for GS Mortgage Securities Trust 2019-GC40, is guaranteed in part by Clipper and its operating partnership. According to the 10-Q, the servicer's counsel first asserted a default in March 2025 over the handling of the property's cash-management account. Clipper then missed its required interest and tax escrow deposit in October 2025, and in November 2025 asked that the loan be transferred to special servicing, saying the borrower did not plan to keep covering the building's operating and debt-service shortfall. Clipper estimated it owed about $10.4 million in interest, default interest and fees as of September 30, 2026.",
+        "The lender filed its complaint in Kings County Supreme Court on March 25, 2026 against the borrower, 250 Livingston Owner LLC, and the two guarantors, asking for a receiver and for the property to be sold with the proceeds applied to the debt. On April 29, 2026 the court granted the request for a temporary receiver, who may take possession, lease space and collect rents. Effective June 4, 2026, the borrower, guarantors and lender entered a consent and cooperation agreement to jointly market the loan to a third-party buyer for 45 days, extendable at the lender's discretion. At the end of that period the lender may foreclose or take a deed in lieu, and the borrower may submit its own offer to buy the loan. Clipper reported that as of November 4, 2026 the lender had taken neither step, and warned that a foreclosure or deed in lieu could have a material adverse effect on the company.",
+        "Clipper's nearby building at 141 Livingston Street drew a separate foreclosure suit from Wells Fargo, as trustee for that property's lenders, in March 2025. Clipper reports that it settled that case through a loan modification agreement effective December 30, 2025, under which it posted a $10 million letter of credit and paid about $2.2 million in fees, and the lender agreed to dismiss its foreclosure actions with prejudice."
       ],
       judge: null,
       parties: [
-        { name: "Wilmington Trust, National Association", role: "Plaintiff/Trustee" },
+        { name: "Wells Fargo Bank, National Association", role: "Plaintiff/Trustee" },
         { name: "250 Livingston Owner LLC", role: "Defendant/Borrower" },
         { name: "Clipper Realty Inc.", role: "Defendant/Guarantor" },
         { name: "Clipper Realty L.P.", role: "Defendant/Guarantor" }
@@ -11834,10 +11796,12 @@ const RELAW_DATA = {
       amountBasis: "loan",
       tags: ["cmbs", "foreclosure", "receivership", "office", "brooklyn"],
       timeline: [
-        { when: "August 23, 2025", label: "New York City agencies terminate their lease and vacate all 342,496 sq ft at 250 Livingston Street" },
-        { when: "March 25, 2026", label: "Wilmington Trust, as CMBS trustee, sues to foreclose the $125 million loan in Kings County Supreme Court" },
-        { when: "April 29, 2026", label: "Court grants the lender's motion and appoints a temporary receiver over the property" },
-        { when: "November 4, 2026", label: "Clipper Realty discloses the lender still has not exercised its foreclosure or deed-in-lieu rights", current: true }
+        { when: "August 23, 2025", label: "New York City agencies vacate all 342,496 sq ft of commercial space at 250 Livingston Street" },
+        { when: "November 12, 2025", label: "Clipper asks that the $125 million loan be transferred to special servicing" },
+        { when: "March 25, 2026", label: "Wells Fargo, as CMBS trustee, sues to foreclose in Kings County Supreme Court" },
+        { when: "April 29, 2026", label: "Court appoints a temporary receiver for the property" },
+        { when: "June 4, 2026", label: "Consent and cooperation agreement starts a 45-day joint marketing period for the loan" },
+        { when: "November 4, 2026", label: "Clipper reports the lender has not yet foreclosed or taken a deed in lieu", current: true }
       ]
     },
     {
@@ -12444,43 +12408,45 @@ const RELAW_DATA = {
     {
       id: "live-386",
       addedDate: "2026-11-10",
-      property: { name: "Former Pontiac Cannabis Redevelopment Site", address: "Glenwood Avenue", city: "Pontiac", state: "MI" },
-      propertyType: "Industrial",
-      title: "Rubicon Real Estate Holdings, LLC v. City of Pontiac, Michigan (Supreme Court Ends Developer's Permitting-Delay Suit Over Collapsed Cannabis Project)",
-      brief: "The U.S. Supreme Court denied certiorari, leaving in place a Sixth Circuit ruling that Pontiac, Michigan's permitting delays on a 26.5-acre cannabis redevelopment, which cost the developer $45 million in financing, were not a constitutional violation.",
-      seoTitle: "Rubicon v. Pontiac: SCOTUS Ends Cannabis Permitting Suit",
-      seoDescription: "The Supreme Court denied certiorari, ending Rubicon Real Estate Holdings' $60M suit against Pontiac, Michigan over cannabis permitting delays.",
+      property: {"name": "Glenwood Plaza (former)", "address": "Glenwood Avenue", "city": "Pontiac", "state": "MI"},
+      propertyType: "Mixed-Use",
+      title: "Rubicon Real Estate Holdings, LLC v. City of Pontiac, Michigan (Supreme Court Denies Review of Developer's Permitting-Delay Suit)",
+      brief: "The Supreme Court denied certiorari, leaving in place a Sixth Circuit ruling that Pontiac, Michigan's delays in approving a cannabis redevelopment of a 20-acre former shopping plaza did not violate the developer's constitutional rights.",
+      seoTitle: "Rubicon v. Pontiac: Supreme Court Denies Cannabis Permitting Case",
+      seoDescription: "The Supreme Court denied review in Rubicon Real Estate v. Pontiac, leaving a Sixth Circuit ruling that the city's permitting delays were not unconstitutional.",
       category: "zoning-land-use",
       status: "ruling",
       date: "2026-11-09",
       jurisdiction: "Supreme Court of the United States",
       state: "MI",
-      amount: "$60 million sought",
+      amount: "Damages figure not stated in the court opinions",
       source: "live",
       sourceUrl: "https://www.supremecourt.gov/orders/courtorders/110926zor_ap6c.pdf",
       documentUrl: "https://www.courtlistener.com/opinion/10622431/rubicon-real-estate-holdings-llc-v-pontiac-city-of/",
       documentLabel: "Read the Sixth Circuit opinion",
-      summary: "The U.S. Supreme Court, in its November 9, 2026 order list, denied certiorari in Rubicon Real Estate Holdings, LLC v. City of Pontiac, Michigan, leaving intact a published Sixth Circuit opinion that affirmed summary judgment for the city. Rubicon had sued Pontiac and its clerk in January 2023, alleging nearly four years of permitting delay on a planned $45 million medical-marijuana cultivation and processing redevelopment of a roughly 26.5-acre site caused its construction lender to withdraw financing, and seeking about $60 million in damages under Section 1983 and related constitutional theories.",
-      significance: "The denial closes out, at the highest level, a recurring fact pattern for cannabis and other use-restricted commercial redevelopment: courts treat ordinary municipal permitting delay, even when it is severe enough to collapse a project's financing, as discretionary bureaucratic process rather than a federal civil-rights violation absent concrete evidence of discriminatory or retaliatory intent. It is a signal to developers and lenders on politically sensitive land uses to price permitting-timeline risk into deal structures rather than count on a later constitutional claim to shift that risk back onto the municipality.",
+      summary: "The U.S. Supreme Court denied certiorari on November 9, 2026 in Rubicon Real Estate Holdings, LLC v. City of Pontiac, Michigan (No. 26-359), leaving in place the Sixth Circuit's published June 18, 2026 decision affirming summary judgment for the city and its city clerk. Rubicon had planned to redevelop a derelict 20-acre former shopping plaza on Glenwood Avenue with a grocery store and medical marijuana growing and processing facilities, and claimed that delays in zoning and licensing approvals drove away its prospective tenants and lender. The Sixth Circuit held the record showed, at worst, lagging discretionary approvals rather than a constitutional violation.",
+      significance: "The denial leaves standing a published Sixth Circuit decision holding that slow discretionary zoning and licensing approvals, even when a project collapses, do not by themselves amount to a due process, takings or equal protection violation. Developers who depend on discretionary local approvals bear that timing risk unless they can show intentional discrimination or a municipal policy behind the harm.",
       body: [
-        "On November 9, 2026, the Supreme Court denied certiorari in Rubicon Real Estate Holdings, LLC v. City of Pontiac, Michigan, closing out a dispute that began in January 2023 and traced back to a derelict, roughly 26.5-acre parcel on Glenwood Avenue that Rubicon had planned to redevelop into a medical marijuana cultivation and processing hub. The denial leaves intact a published June 18, 2026 opinion from a three-judge Sixth Circuit panel affirming summary judgment for the city, which in turn left standing a federal district court's earlier dismissal of Rubicon's entire case.",
-        "Rubicon's plan centered on converting the long-vacant site into licensed cannabis cultivation and processing facilities, a use Michigan law allows municipalities to permit but does not require them to fast-track. According to Rubicon's complaint, the Pontiac Planning Commission and City Council initially cooperated, approving a rezoning request for the property. But Rubicon alleged that over the following years, the city and its clerk dragged the permitting and licensing process out for nearly four years, and that the delay caused its construction lender to walk away from a committed $45 million loan needed to build out the facilities. Rubicon also alleged a retaliation angle: that city officials targeted its principal after he won an earlier, unrelated ruling against the city in 2021, including by pressuring a contractor to terminate a roughly $9.3 million contract connected to his design firm.",
-        "Rubicon and an affiliated design firm sued the City of Pontiac and its clerk in January 2023, first in Oakland County Circuit Court and then in federal court in the Eastern District of Michigan, seeking roughly $60 million in damages and fees. The complaint asserted that the city's conduct violated the Equal Protection and Due Process Clauses of the Fourteenth Amendment, along with First Amendment retaliation and Fifth Amendment claims, framing years of permitting delay as intentional, targeted government action rather than ordinary municipal slowness. The federal district court rejected that framing, granting the city's motion for summary judgment on the ground that the record did not establish a triable issue that the project's collapse resulted from a constitutional violation rather than discretionary, if slow-moving, bureaucratic process.",
-        "The Sixth Circuit's June 2026 opinion affirmed that result, holding that without evidence a city singled out a specific applicant for different treatment than similarly situated developers, or that officials acted for a constitutionally impermissible reason, a slow or frustrating approval process is not itself a due process or equal protection violation, even when the financial consequences for the developer are severe. Rubicon's September 2026 petition asking the Supreme Court to take up the case did not persuade the justices to intervene, and the November 9 order denying certiorari makes the Sixth Circuit's holding the final word in the litigation.",
-        "For developers and lenders financing cannabis, cultivation, or other use-restricted commercial redevelopment projects that depend on discretionary municipal sign-off, the case is a reminder of how structurally difficult it is to convert a costly permitting delay into a federal constitutional claim, and a prompt to price that permitting-timeline risk into loan structures and term sheets up front, document any specific instances of disparate treatment contemporaneously, and consider financing patient enough to tolerate delay on politically contested land uses rather than counting on a court to later redistribute that risk back onto the municipality."
+        "On November 9, 2026, the Supreme Court denied Rubicon Real Estate Holdings, LLC's petition for certiorari (No. 26-359), which had been filed September 14, 2026; the city waived its right to respond. The order leaves in place a published June 18, 2026 decision of the U.S. Court of Appeals for the Sixth Circuit (No. 25-1631), written by Judge Readler for a panel with Judges Griffin and Larsen, affirming U.S. District Judge David M. Lawson's grant of summary judgment to the City of Pontiac and its city clerk.",
+        "According to the Sixth Circuit, Rubicon agreed in March 2019 to buy a derelict 20-acre parcel on Glenwood Avenue, the former Glenwood Plaza, planning a shopping area with a grocery store and facilities for medical marijuana growing and processing. The City Council approved a rezoning and the parties signed a conditional rezoning agreement, but licensing for Rubicon's prospective tenants was held up by the city clerk, who took the position that the project needed a further ordinance change. Rubicon and one prospective tenant obtained declaratory relief in Oakland County Circuit Court on May 21, 2021, and the licenses issued in May and June 2021, but by then the prospective tenants had pulled out, Rubicon's lender refused to disburse funds, and the project collapsed.",
+        "Rubicon, its managing member and his separate design firm sued the city and the clerk in Oakland County Circuit Court in January 2023, and the defendants removed the case to federal court. Rubicon alleged violations of the Due Process and Equal Protection Clauses and an uncompensated taking; the managing member and the design firm alleged the city, through Mayor Tim Greimel, retaliated for the earlier state-court suit by pressing another developer to cancel the design firm's contract. The district court granted summary judgment on all claims.",
+        "The Sixth Circuit affirmed. It held that Rubicon's due process claims failed because the uses its tenants sought rested on discretionary government approvals; that the delay was not extraordinary enough to be a taking; and that Rubicon offered no evidence of intentional discrimination for its equal protection claim. On the retaliation claim, it held the city could not be liable because the mayor lacked final authority over rezoning decisions. The court wrote that city officials \"at worst simply lagged in granting discretionary zoning and licensing approvals.\""
       ],
       judge: null,
       parties: [
         { name: "Rubicon Real Estate Holdings, LLC", role: "Petitioner/Plaintiff" },
         { name: "City of Pontiac, Michigan", role: "Respondent/Defendant" }
       ],
-      amountUsd: 60000000,
-      amountBasis: "damages sought",
+      amountUsd: null,
+      amountBasis: null,
       tags: ["zoning", "cannabis", "michigan", "section-1983", "scotus"],
       timeline: [
-        { when: "January 2023", label: "Rubicon Real Estate Holdings sues City of Pontiac and its clerk, seeking roughly $60 million over permitting delays" },
-        { when: "June 18, 2026", label: "Sixth Circuit affirms summary judgment for the city" },
-        { when: "November 9, 2026", label: "U.S. Supreme Court denies certiorari, ending the case", current: true }
+        { when: "March 2019", label: "Rubicon agrees to buy the former Glenwood Plaza site in Pontiac" },
+        { when: "May 21, 2021", label: "Oakland County court grants Rubicon declaratory relief; tenant licenses issue in May and June 2021" },
+        { when: "January 2023", label: "Rubicon sues the city and its clerk; case removed to federal court" },
+        { when: "June 18, 2026", label: "Sixth Circuit affirms summary judgment for the city and clerk" },
+        { when: "September 14, 2026", label: "Rubicon petitions the Supreme Court for certiorari" },
+        { when: "November 9, 2026", label: "U.S. Supreme Court denies certiorari", current: true }
       ]
     },
     {
@@ -12607,10 +12573,10 @@ const RELAW_DATA = {
     {
       id: "live-391",
       addedDate: "2026-11-12",
-      seoTitle: "Sunrise Realty Trust Merger: Stockholder Disclosure Lawsuits",
-      seoDescription: "Sunrise Realty Trust stockholders Miller and Smith sued in New York state court over proxy disclosures ahead of its merger with Southern Realty Trust.",
-      title: "Miller v. Sunrise Realty Trust, Inc. (Stockholder Suits Over Southern Realty Trust Merger Disclosures)",
-      brief: "Two Sunrise Realty Trust stockholders sued in New York state court claiming the REIT's merger proxy for its all-stock combination with Southern Realty Trust omitted material information.",
+      seoTitle: "Sunrise Realty Trust Merger: Stockholder Disclosure Suits",
+      seoDescription: "Two Sunrise Realty Trust stockholders sued in New York state court over proxy disclosures for its merger with Southern Realty Trust, which closed Nov. 5, 2026.",
+      title: "Stockholder Suits v. Sunrise Realty Trust, Inc. (Southern Realty Trust Merger Proxy Disclosures)",
+      brief: "Two Sunrise Realty Trust stockholders sued in New York state court claiming the proxy for its merger with Southern Realty Trust omitted material information; Sunrise denies the claims but filed supplemental disclosures.",
       category: "reit-securities",
       status: "pending",
       date: "2026-09-23",
@@ -12619,14 +12585,12 @@ const RELAW_DATA = {
       amount: "Unspecified (disclosure-based claims; no damages figure stated)",
       source: "live",
       sourceUrl: "https://www.sec.gov/Archives/edgar/data/2012706/000162828026072825/suns-20260930.htm",
-      summary: "Two Sunrise Realty Trust, Inc. stockholders sued in the Supreme Court of the State of New York, New York County in late September 2026 -- Miller v. Sunrise Realty Trust, Inc. (Index No. 655415/2026) on September 23 and Smith v. Sunrise Realty Trust, Inc. (Index No. 655426/2026) on September 24 -- alleging the proxy statement for Sunrise's all-stock merger with Southern Realty Trust Inc. omitted material information stockholders needed to cast an informed vote. Sunrise called the claims without merit but filed supplemental proxy disclosures to moot them; stockholders of both companies approved the deal at special meetings on October 23, 2026, and the merger closed on November 5, 2026.",
-      significance: "The suits follow a familiar pattern in REIT and other public-company stock-for-stock mergers: plaintiffs' counsel files disclosure-based claims shortly after a proxy is mailed, the target supplements its disclosures to moot the claims and avoid delaying the vote, and the litigation then typically winds down through a negotiated fee to plaintiffs' counsel rather than a ruling on the merits. For REIT boards and external managers, the episode underscores that even a routine, board-approved merger invites this kind of suit almost reflexively, and that supplemental disclosure is far cheaper than risking a delayed stockholder vote.",
+      summary: "Two purported Sunrise Realty Trust, Inc. stockholders sued the company and its board in New York Supreme Court on September 23, 2026 (Index No. 655415/2026) and September 24, 2026 (Index No. 655426/2026), according to Sunrise's Form 10-Q filed November 10, 2026. Sunrise says the suits, along with stockholder demand letters, generally allege omissions or misstatements in the proxy statement for its merger with Southern Realty Trust Inc. Sunrise denies the allegations but made supplemental proxy disclosures on October 13, 2026; stockholders approved the deal on October 23 and it closed on November 5, 2026.",
+      significance: "The suits follow a pattern common in public-company stock mergers: disclosure claims filed after the proxy goes out, followed by supplemental disclosures the company says it made to avoid delay rather than because they were required. Sunrise's filing reports no ruling, dismissal or settlement in either case.",
       body: [
-        "Two Sunrise Realty Trust, Inc. (NASDAQ: SUNS) stockholders sued the commercial real estate finance REIT and its board of directors in New York state court in late September 2026, alleging that the proxy statement prepared for its merger with Southern Realty Trust Inc. omitted material information stockholders needed to cast an informed vote. The merger closed anyway on November 5, 2026, after Sunrise filed supplemental disclosures that it says were meant to moot the claims rather than concede they had merit.",
-        "The first suit, Miller v. Sunrise Realty Trust, Inc., et al., was filed September 23, 2026 in the Supreme Court of the State of New York, New York County, under Index No. 655415/2026. A second, similar complaint, Smith v. Sunrise Realty Trust, Inc., et al., followed a day later under Index No. 655426/2026. Both name Sunrise and its board as defendants and assert disclosure-based claims under New York common law. Sunrise disclosed both suits, along with pre-suit demand letters raising similar objections, in the \"Merger Litigation\" section of its Form 10-Q for the quarter ended September 30, 2026, filed with the SEC on November 10.",
-        "Sunrise and Southern Realty Trust signed a merger agreement on August 5, 2026, structured as a stock-for-stock combination: each share of SRT common stock would convert into 1.45 shares of newly issued SUNS common stock, plus $0.05 in cash per share funded by Sunrise's external manager, Sunrise Manager LLC, itself a party to the merger agreement for limited purposes. The deal required stockholder approval at both companies, including a SUNS vote to approve issuing roughly 8.46 million merger shares.",
-        "Sunrise has said it believes the claims lack merit but chose to supplement its proxy disclosures anyway, stating in its 10-Q that doing so was intended to moot certain plaintiffs' disclosure claims and avoid the risk that the litigation would delay or otherwise affect the merger. Both companies held special stockholder meetings on October 23, 2026; at Sunrise's meeting roughly 59.5% of outstanding shares were voted, with about 91.6% of votes cast in favor of the share issuance, and SRT stockholders approved the merger the same day. The deal closed November 5, 2026, with Sunrise issuing approximately 8,464,977 new shares as merger consideration.",
-        "Sunrise's 10-Q does not disclose that either suit has been dismissed, withdrawn, or settled, so both remain pending even though the transaction they targeted has already closed. For REIT boards, external managers, and the counsel who shepherd merger proxies through SEC review, the sequence is a reminder that a conventional, board-approved stock-for-stock merger will often draw at least one disclosure-based stockholder suit almost reflexively regardless of the deal's actual risk profile, that supplementing proxy disclosures promptly is typically far cheaper than absorbing a delay to the stockholder vote, and that a deal closing on schedule does not mean the litigation behind it has been resolved -- boards should expect this kind of suit to persist past closing and track it separately from the transaction timeline."
+        "Sunrise Realty Trust, Inc. (Nasdaq: SUNS), a lender to commercial real estate projects in the Southern United States, disclosed two stockholder suits over its merger with Southern Realty Trust Inc. in the \"Merger Litigation\" section of its Form 10-Q for the quarter ended September 30, 2026, filed November 10. Both complaints were filed by purported stockholders against Sunrise and its board of directors in New York Supreme Court, the first on September 23, 2026 under Index No. 655415/2026 and the second on September 24 under Index No. 655426/2026. Sunrise also reported receiving demand letters from purported stockholders. According to the filing, the suits and letters generally allege omissions or misstatements in the merger proxy statement and seek additional disclosures.",
+        "Sunrise says it believes the claims are without merit and expressly denies the allegations, including that any additional disclosure was required. To moot certain plaintiffs' disclosure claims, avoid the risk that the litigation would delay or affect the merger, and limit litigation costs, and without admitting liability, it made supplemental disclosures to the proxy statement on October 13, 2026.",
+        "The merger agreement was signed August 5, 2026. At special meetings on October 23, 2026, Sunrise stockholders approved issuing about 8.5 million shares and Southern Realty Trust stockholders approved the merger. The deal closed November 5, 2026: each Southern Realty Trust share was converted into 1.45 Sunrise shares plus $0.05 in cash from Sunrise's external manager, and Sunrise issued 8,464,977 shares. The 10-Q does not report any ruling, dismissal or settlement in either suit."
       ],
       tags: ["reit-securities", "merger-litigation", "proxy-disclosure", "stockholder-suit"],
       parties: [
@@ -12635,10 +12599,13 @@ const RELAW_DATA = {
       judge: null,
       amountUsd: null,
       timeline: [
-        { when: "September 23, 2026", label: "Stockholder files Miller v. Sunrise Realty Trust, Inc. challenging merger proxy disclosures" },
-        { when: "September 24, 2026", label: "A second stockholder files Smith v. Sunrise Realty Trust, Inc. raising similar disclosure claims" },
-        { when: "October 23, 2026", label: "Stockholders of both companies approve the merger and share issuance at special meetings" },
-        { when: "November 5, 2026", label: "Merger closes; Sunrise issues approximately 8.46 million new shares", current: true }
+        { when: "August 5, 2026", label: "Sunrise and Southern Realty Trust sign merger agreement" },
+        { when: "September 23, 2026", label: "First stockholder suit filed in New York Supreme Court (Index No. 655415/2026)" },
+        { when: "September 24, 2026", label: "Second stockholder suit filed (Index No. 655426/2026)" },
+        { when: "October 13, 2026", label: "Sunrise makes supplemental proxy disclosures, denying any were required" },
+        { when: "October 23, 2026", label: "Stockholders of both companies approve the transaction" },
+        { when: "November 5, 2026", label: "Merger closes; Sunrise issues 8,464,977 shares" },
+        { when: "November 10, 2026", label: "Sunrise discloses the suits in its 10-Q; no resolution reported", current: true }
       ]
     },
     {
