@@ -20,6 +20,8 @@ on:
       - "scripts/build_trackers.ts"
       - "scripts/build_value_pages.ts"
       - "scripts/build_outcome_pages.ts"
+      - "scripts/build_search_index.ts"
+      - "js/search.js"
       - "js/opinion-outcomes.json"
       - "js/backtest-results-data.js"
       - "scripts/build_sitemap.py"
@@ -99,6 +101,8 @@ jobs:
       - run: deno run --allow-read --allow-write scripts/build_market_pages.ts
       # This week's CRE Distress Brief as subscribers get it, shown on newsletter.html.
       - run: deno run --allow-read --allow-write scripts/preview_newsletter.ts today email-preview.html
+      # Search index of every generated record page, for js/search.js.
+      - run: deno run --allow-read --allow-write scripts/build_search_index.ts
       # The one site menu (scripts/site_nav.py), written into every page last,
       # so a page generated from an older template never ships an old menu.
       - run: python3 scripts/site_nav.py
@@ -107,7 +111,7 @@ jobs:
         run: |
           git add -A matters chapter-11 federal-cases parties properties js/entity-index.json img/og img/og-image.png js/topic-index.json *-tracker.html litigation-index*.html case-valuation.html commercial-lease-dispute-damages.html commercial-foreclosure-guaranty-damages.html construction-defect-damages.html condemnation-compensation.html land-use-litigation-damages.html commercial-premises-liability-damages.html reit-securities-claim-value.html environmental-cleanup-cost-claims.html outcomes outcomes.html
           git add bankruptcy-watch.html lawsuit-watch.html state-court-watch.html state-cases cmbs-watch.html cmbs texas-foreclosures.html
-          git add js/radar-data.json js/radar-geo.json ops/geocode-cache.json ops/radar-seen.json email-preview.html markets markets.html distress-radar.html
+          git add js/search-index.json js/radar-data.json js/radar-geo.json ops/geocode-cache.json ops/radar-seen.json email-preview.html markets markets.html distress-radar.html
           git add brief-*.html briefs.html
           git add index.html litigation.html coverage.html companies.html judges.html company-*.html corrections.html sitemap.xml news-sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi

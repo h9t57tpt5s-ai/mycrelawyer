@@ -49,8 +49,47 @@
     { title: "Watchlists", href: "account.html", description: "Get alerted when a matching matter is added to the tracker." },
   ];
 
+  // Every word of the query must appear somewhere, in any order, ignoring
+  // case, punctuation and "&" vs "and" (2026-11-16: whole-phrase matching
+  // made "addison ice arena foreclosure" find nothing).
+  function norm(s) {
+    return String(s || "").toLowerCase().replace(/&/g, " and ").replace(/['\u2019]/g, "").replace(/[^a-z0-9$.]+/g, " ").trim();
+  }
+  function tokensOf(q) { return norm(q).split(" ").filter(Boolean); }
+  function matchesAll(hay, toks) { for (const w of toks) { if (hay.indexOf(w) === -1) return false; } return true; }
+  const hayCache = new Map();
+
+  // Generated record pages (Chapter 11, federal and state cases, CMBS,
+  // properties, markets, outcomes), built by scripts/build_search_index.ts
+  // and fetched on first use.
+  let recordIndex = null, recordLoading = false;
+  function loadRecordIndex() {
+    if (recordIndex || recordLoading) return;
+    recordLoading = true;
+    fetch("/js/search-index.json").then((r) => r.ok ? r.json() : { items: [] }).then((j) => {
+      recordIndex = (j.items || []).map((x) => Object.assign({ hay: norm(x.t + " " + x.d), titleHay: norm(x.t) }, x));
+      document.dispatchEvent(new Event("relaw:search-index"));
+    }).catch(() => { recordIndex = []; });
+  }
+  function searchRecords(toks) {
+    if (!recordIndex) return [];
+    return recordIndex.filter((x) => matchesAll(x.hay, toks)).map((x) => ({
+      type: "record", href: x.u, title: x.t, snippet: x.d, meta: x.k, color: "var(--text-muted)",
+      score: matchesAll(x.titleHay, toks) ? 2 : 1,
+    }));
+  }
+
   function escapeHtml(s) {
     return s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  // The query word to highlight: the whole query if it appears as typed,
+  // else the longest single word that does.
+  function firstHit(text, q) {
+    const low = text.toLowerCase();
+    if (low.includes(q.toLowerCase())) return q;
+    const words = q.split(/\s+/).filter((w) => w.length > 1 && low.includes(w.toLowerCase())).sort((a, b) => b.length - a.length);
+    return words[0] || q;
   }
 
   function highlight(text, q) {
@@ -83,13 +122,15 @@
   // opens the shared detail panel via caseId; every other type navigates
   // to href. This is what lets one results list mix matters, judges,
   // companies, and pages without four different rendering paths.
-  function searchCases(q) {
+  function searchCases(q, toks) {
     const catMap = Object.fromEntries(RELAW_DATA.categories.map((cat) => [cat.id, cat]));
     const results = [];
     RELAW_DATA.cases.forEach((c) => {
       const f = fieldsOf(c);
-      const haystack = Object.values(f).join(" ").toLowerCase();
-      if (!haystack.includes(q)) return;
+      const key = c.id + "|" + (f.body ? f.body.length : 0);
+      let hay = hayCache.get(key);
+      if (!hay) { hay = norm(Object.values(f).join(" ") + " " + (c.parties || []).map((p) => p.name || p).join(" ")); hayCache.set(key, hay); }
+      if (!matchesAll(hay, toks)) return;
       let snippetField = "summary";
       if (f.title.toLowerCase().includes(q)) snippetField = "title";
       else if (f.summary.toLowerCase().includes(q)) snippetField = "summary";
@@ -99,7 +140,7 @@
       else snippetField = "jurisdiction";
       const cat = catMap[c.category];
       results.push({
-        type: "case", caseId: c.id, sortDate: c.date,
+        type: "case", caseId: c.id, sortDate: c.date, score: matchesAll(norm(c.title), toks) ? 2 : 1,
         title: c.title, snippet: f[snippetField] || f.summary,
         meta: `${cat.label} · ${c.jurisdiction}`, color: cat.color,
       });
@@ -107,54 +148,52 @@
     return results;
   }
 
-  function searchJudges(q) {
+  function searchJudges(q, toks) {
     const judges = (RELAW_DATA.judges || []).concat(RELAW_DATA.courts || []);
     const results = [];
     judges.forEach((j) => {
-      const haystack = [j.name, j.title, j.court, j.background].filter(Boolean).join(" ").toLowerCase();
-      if (!haystack.includes(q)) return;
+      if (!matchesAll(norm([j.name, j.title, j.court, j.background].filter(Boolean).join(" ")), toks)) return;
       const snippet = (j.background && j.background.toLowerCase().includes(q)) ? j.background : (j.court || j.title || "");
       results.push({
-        type: "judge", href: j.slug ? `judge-${j.slug}.html` : "judges.html",
+        type: "judge", href: j.slug ? `/judge-${j.slug}.html` : "/judges.html", score: matchesAll(norm(j.name), toks) ? 2 : 1,
         title: j.name, snippet, meta: j.title || j.court || "Judge", color: "var(--text-muted)",
       });
     });
     return results;
   }
 
-  function searchCompanies(q) {
+  function searchCompanies(q, toks) {
     const results = [];
     (RELAW_DATA.trackedParties || []).forEach((p) => {
-      const haystack = [p.name, p.matchTerm, p.description].filter(Boolean).join(" ").toLowerCase();
-      if (!haystack.includes(q)) return;
+      if (!matchesAll(norm([p.name, p.matchTerm, p.description].filter(Boolean).join(" ")), toks)) return;
       let domain = "";
       try { domain = p.website ? new URL(p.website).hostname.replace(/^www\./, "") : ""; } catch (e) { /* malformed URL, skip */ }
       results.push({
-        type: "company", href: p.slug ? `company-${p.slug}.html` : "companies.html",
+        type: "company", href: p.slug ? `/company-${p.slug}.html` : "/companies.html", score: matchesAll(norm(p.name), toks) ? 3 : 1,
         title: p.name, snippet: p.description || "", meta: domain, color: "var(--text-muted)",
       });
     });
     return results;
   }
 
-  function searchPages(q) {
+  function searchPages(q, toks) {
     const results = [];
     PAGES.forEach((p) => {
-      const haystack = [p.title, p.description].join(" ").toLowerCase();
-      if (!haystack.includes(q)) return;
-      results.push({ type: "page", href: p.href, title: p.title, snippet: p.description, meta: "", color: "var(--accent-deep)" });
+      if (!matchesAll(norm(p.title + " " + p.description), toks)) return;
+      results.push({ type: "page", href: "/" + p.href, title: p.title, snippet: p.description, meta: "", color: "var(--accent-deep)", score: matchesAll(norm(p.title), toks) ? 2 : 1 });
     });
     return results;
   }
 
   function search(query) {
     const q = query.trim().toLowerCase();
-    if (!q) return [];
-    // Cases first (newest first, the highest-volume content), then
-    // judges/companies/pages -- each internally unsorted since there's
-    // no meaningful ranking signal beyond "it matched."
-    const cases = searchCases(q).sort((a, b) => new Date(b.sortDate) - new Date(a.sortDate));
-    return [...cases, ...searchJudges(q), ...searchCompanies(q), ...searchPages(q)];
+    const toks = tokensOf(q);
+    if (!toks.length) return [];
+    // A name match (company, then any title) ranks first; within a rank,
+    // matters stay newest first and keep the lead over other kinds.
+    const cases = searchCases(q, toks).sort((a, b) => new Date(b.sortDate) - new Date(a.sortDate));
+    const all = [...cases, ...searchCompanies(q, toks), ...searchJudges(q, toks), ...searchRecords(toks), ...searchPages(q, toks)];
+    return all.map((r, i) => [r, i]).sort((a, b) => (b[0].score || 1) - (a[0].score || 1) || a[1] - b[1]).map((x) => x[0]);
   }
 
   function init() {
@@ -174,7 +213,7 @@
       <div class="search-panel">
         <div class="search-input-row">
           <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-          <input type="text" id="global-search-input" placeholder="Search matters, judges, companies, tools, guides…" autocomplete="off" />
+          <input type="text" id="global-search-input" placeholder="Search cases, companies, properties, courts, tools…" autocomplete="off" />
           <span class="search-hint">Esc</span>
           <button class="search-close-btn" id="global-search-close" aria-label="Close search">
             <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
@@ -191,6 +230,7 @@
     const closeBtn = overlay.querySelector("#global-search-close");
 
     function open() {
+      loadRecordIndex();
       overlay.classList.add("open");
       document.body.style.overflow = "hidden";
       setTimeout(() => input.focus(), 50);
@@ -213,7 +253,7 @@
       }
     });
 
-    const TYPE_LABEL = { case: null, judge: "Judge", company: "Company", page: "Tool / Guide" };
+    const TYPE_LABEL = { case: null, judge: "Judge", company: "Company", page: "Tool / Guide", record: null };
 
     function renderResults(query) {
       const q = query.trim();
@@ -223,7 +263,9 @@
       }
       const matches = search(q);
       if (!matches.length) {
-        resultsHost.innerHTML = `<div class="search-empty">Nothing matches "${escapeHtml(q)}".</div>`;
+        resultsHost.innerHTML = recordIndex
+          ? `<div class="search-empty">Nothing matches "${escapeHtml(q)}". Try fewer words, or a company, property, city or court name.</div>`
+          : `<div class="search-empty">Searching…</div>`;
         return;
       }
       const shown = matches.slice(0, MAX_RESULTS);
@@ -237,7 +279,7 @@
           <span class="search-result-dot" style="background:${r.color}"></span>
           <div class="search-result-body">
             <h4>${escapeHtml(r.title)}</h4>
-            ${r.snippet ? `<p>${highlight(r.snippet, q)}</p>` : ""}
+            ${r.snippet ? `<p>${highlight(r.snippet, firstHit(r.snippet, q))}</p>` : ""}
             <div class="search-result-meta">${[TYPE_LABEL[r.type], r.meta].filter(Boolean).map(escapeHtml).join(" · ")}</div>
           </div>
         </div>`
@@ -261,7 +303,7 @@
       const viewAll = resultsHost.querySelector("#search-view-all");
       if (viewAll) {
         viewAll.addEventListener("click", () => {
-          window.location.href = "litigation.html?q=" + encodeURIComponent(q);
+          window.location.href = "/litigation.html?q=" + encodeURIComponent(q);
         });
       }
     }
@@ -282,12 +324,16 @@
     });
     // Write-up text arrives after the first keystroke; re-run the search.
     document.addEventListener("relaw:matter-text", () => { if (input.value.trim()) renderResults(input.value); });
+    document.addEventListener("relaw:search-index", () => { if (input.value.trim()) renderResults(input.value); });
     input.addEventListener("keydown", (e) => {
       if (e.key === "Enter") {
         const q = input.value.trim();
         if (q) {
+          // Enter opens the top result when it is a page of its own;
+          // matters still go to the tracker's filtered list.
+          const top = search(q)[0];
           close();
-          window.location.href = "litigation.html?q=" + encodeURIComponent(q);
+          window.location.href = top && top.type !== "case" ? top.href : "/litigation.html?q=" + encodeURIComponent(q);
         }
       }
     });
