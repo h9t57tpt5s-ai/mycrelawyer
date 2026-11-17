@@ -39,6 +39,10 @@ const TOOLS = [
   { name: "Lien deadline calculator", href: `${SITE}/lien-deadline-calculator.html`, note: "notice and filing deadlines in every state" },
 ];
 
+// Jeff, 2026-11-16: say the features are free now but expected to become
+// subscription-based, so pricing may change.
+const PRICING_NOTE = "Everything on CREdocket, including these tools, is free right now. We expect some features to move to a paid subscription in the future, so pricing may change.";
+
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 
 export function renderWelcome(postalAddress: string): { subject: string; html: string; text: string } {
@@ -66,6 +70,7 @@ export function renderWelcome(postalAddress: string): { subject: string; html: s
   <tr><td style="padding:0 28px 22px;">
     <div style="border-top:1px solid #e2e5eb;padding-top:18px;font:700 15px/1.3 ${SERIF};color:#0b1020;">Free tools</div>
     <ul style="font:400 14px/1.55 ${SANS};color:#3d4453;padding-left:18px;margin:10px 0 0;">${tools}</ul>
+    <p style="font:400 13.5px/1.6 ${SANS};color:#3d4453;margin:14px 0 0;background:#f2f3f6;border-radius:6px;padding:10px 12px;">${esc(PRICING_NOTE)}</p>
     <p style="font:400 14.5px/1.6 ${SANS};color:#0b0d12;margin:18px 0 0;">What are you following? Reply to this email and tell us. We read every reply, and it shapes what we cover next.</p>
   </td></tr>
   <tr><td style="padding:16px 28px 24px;border-top:1px solid #e2e5eb;font:400 12px/1.55 ${SANS};color:#626b7d;">
@@ -81,6 +86,8 @@ export function renderWelcome(postalAddress: string): { subject: string; html: s
     ...STEPS.flatMap((s, i) => [`${i + 1}. ${s.title}`, s.body, `${s.cta}: ${s.href}`, ""]),
     "Free tools:",
     ...TOOLS.map((t) => `- ${t.name} (${t.note}): ${t.href}`),
+    "",
+    PRICING_NOTE,
     "",
     "What are you following? Reply to this email and tell us. We read every reply.",
     "",
