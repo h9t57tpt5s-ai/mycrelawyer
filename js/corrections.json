@@ -4,6 +4,206 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-057",
+   "caseId": "live-057",
+   "subject": "Charlotte Hawkins LLC v. Bar One Lounge South End LLC (Linea Tower Ground-Floor Lease Default)",
+   "kind": "Corrected: description",
+   "was": "A related matter, NP Uptown Charlotte, LLC v. Bar One Lounge Uptown, LLC ... suggesting the operator's financing or execution troubles were not confined to the South End location | an entity affiliated with Atlanta-based Portman Holdings",
+   "now": "Removed | tied to Portman Holdings (relationship not specified)",
+   "basis": "Checked against the source article: Charlotte Business Journal (via Yahoo, Apr. 9, 2025) does not mention any other suit or 222 S. Church St. | Charlotte Business Journal"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-161",
+   "caseId": "live-161",
+   "subject": "Northwest Bank v. North Pearl LLC (Pearl District Shelter Building Foreclosure)",
+   "kind": "Corrected: description",
+   "was": "The shelter ... closed permanently on September 18, 2026 as part of the city's broader budget-driven consolidation of its shelter network | housed one of Mayor Keith Wilson's signature overnight homeless shelters ... one of the anchor components of Mayor Wilson's homelessness strategy",
+   "now": "The shelter was scheduled to close on September 18, 2026, after neighborhood associations and nearby businesses pressed the city to close it | Removed characterization",
+   "basis": "Checked against the source article: Willamette Week, Aug. 27, 2026 (no budget consolidation mentioned; closure was still upcoming at publication) | Willamette Week does not describe the shelter this way"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-403",
+   "caseId": "live-403",
+   "subject": "Prologis v. City of Trenton, Ohio: Developer Files Federal Suit Over Voter-Approved Data Center Ban",
+   "kind": "Corrected: description",
+   "was": "a dispute, taken to the Ohio Supreme Court in August, over whether the city had to place a resident-initiated moratorium measure on the ballot | A local television report the same evening also described the suit.",
+   "now": "On September 1, 2026, the Ohio Supreme Court ordered the city to certify the residents' charter-amendment petition | Removed",
+   "basis": "Checked against the source article: FOX19, Sept. 1, 2026 | No such report found; WVXU (Nov. 13, 2026) is the only source located"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-122",
+   "caseId": "live-122",
+   "subject": "Holiday Inn Club Vacations Inc. v. CBRE, Inc., ACI Architectural Concepts, Inc., and T&G Corporation f/k/a T&G Constructors",
+   "kind": "Corrected: date, description",
+   "was": "December 4, 2023: Holiday Inn Club Vacations Inc. files its notice of appeal | Holiday Inn's claims were not conclusively barred where the alleged conduct implicated duties independent of the contract itself | isolated window-related issues resolved during construction did not conclusively establish Holiday Inn knew ... of the more systemic defects",
+   "now": "December 4, 2023: trial court signs judgment; December 29, 2023: notice of appeal filed | Fact issue because expert evidence showed structural moisture damage and mold beyond the subject matter of the CBRE contract | CBRE did not show the leaks found during construction, or those reported in 2017 and 2018, were related to the damage in the 2020 report",
+   "basis": "Checked against the source article and court docket: TAMES docket 14-23-00976-CV | Memorandum opinion, Feb. 4, 2025, Part C | Memorandum opinion, Feb. 4, 2025, pp. 16-20"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-400",
+   "caseId": "live-400",
+   "subject": "McCormick County Residents Sue Over 678-Acre Data Center Rezoning",
+   "kind": "Corrected: description, party",
+   "was": "Defendants: McCormick County, McCormick County Council, Pollard Land Company, Inc., Pollard Lumber Co., Inc. | filed suit in the McCormick County Court of Common Pleas | The complaint lists three causes of action",
+   "now": "McCormick County (the only defendant named in reporting) | Court not identified in reporting | The complaint alleges procedural, evaluation and comprehensive-plan failures and lack of required public notice and opportunity to comment",
+   "basis": "Checked against the source article: WRDW/WAGT, Nov. 11, 2026 | WRDW/WAGT, Nov. 11, 2026 | WRDW/WAGT lists four allegations, including the notice claim we omitted"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-318",
+   "caseId": "live-318",
+   "subject": "Grandview Heights Neighborhood Association v. Palm Beach County (Sunshine Law Challenge to $26M Convention Center Hotel Deal)",
+   "kind": "Corrected: description, party",
+   "was": "The suit asks the court to invalidate the September 29 approval and to pause further construction activity | Parties list omitted Related Ross affiliates and the city's Community Redevelopment Agency | Related Ross made some design accommodations, including repositioning outdoor speakers ... Reporting has also referenced a separate, earlier challenge to the project's land-use approval itself",
+   "now": "The suit seeks a declaration that the approval is void and an injunction barring the county from executing, recording or funding the deal until it is reconsidered at a properly noticed meeting | Both added as defendants | Removed; WPTV reports earlier resident opposition (including a June 16, 2026 planning board hearing) but not these details",
+   "basis": "Checked against the source article: WPTV | WPTV lists them among the named defendants | WPTV"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-327",
+   "caseId": "live-327",
+   "subject": "Sierra Club v. Wisconsin Department of Natural Resources: Settlement Leaves Vantage's $15 Billion Port Washington Data Center Permits Intact and Has Vantage Fund a Statewide Data Center Impact Study",
+   "kind": "Corrected: description, figure",
+   "was": "about 672 acres | the DNR declined to comment while the case was pending, and Vantage said at the time that it had worked with the agency transparently | a DNR attorney told Vantage in July 2025 that an impact statement would be needed",
+   "now": "roughly 670 acres | Removed; WPR quotes a DNR statement welcoming the settlement and reports no such Vantage statement | Emails showed the agency first told Vantage officials an impact statement would be required (no date given)",
+   "basis": "Checked against the source article: WPR, Oct. 19, 2026 | WPR, Oct. 19, 2026 | WPR, Oct. 19, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-111",
+   "caseId": "live-111",
+   "subject": "Mississippi Supreme Court Upholds Private Title to Biloxi Waterfront Tract (Tidelands Dispute)",
+   "kind": "Corrected: date, description",
+   "was": "the Secretary of State's fifth consecutive loss in this recurring category of Biloxi tidelands-boundary litigation | The landowner ... challenged the boundary in Harrison County Chancery Court in 1998 | the landowner's family had operated the Fisherman's Wharf restaurant since the 1970s until Hurricane Katrina destroyed it in 2005 | September 23, 2022 chancery ruling",
+   "now": "Removed; no count of prior State losses is reported | The landowner's family challenged the boundary in 1998 | The family once ran the Fisherman's Wharf restaurant there; the land was later leased for the Lady Luck Casino (1992-1998) | 2022",
+   "basis": "Checked against the source article: WLOX (Apr. 4, 2024), Sun Herald (Apr. 4, 2024) and City of Biloxi release give no count; the city calls it only \"another\" defeat | WLOX says the owner's father filed the 1998 challenge | Sun Herald via Yahoo; no source opened mentions the 1970s or Katrina | WLOX and commentary on the opinion give only the year"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-112",
+   "caseId": "live-112",
+   "subject": "State of Mississippi v. RW Development, LLC (Biloxi Casino Pier Tidelands Lease Authority)",
+   "kind": "Corrected: description",
+   "was": "the Court traced the authority through a 1970 federal court judgment and a 1948 state law vesting beach and pier authority in the county's Board of Supervisors | Harrison County courts have cited it as controlling precedent, including a 2025 circuit-court ruling on a competing developer's Tivoli-site pier lease (quoted) | RW Development, controlled by developer a businessman, project branded the Black Marlin Casino | judge: Jennifer T. Schloegel",
+   "now": "the Court held Mississippi Code Sections 59-15-1 and 59-7-405 (ports and harbors statutes) gave the city authority, with specific statutes governing over the State's general statutes | Removed; not in any source reviewed | Removed; not in the sources reviewed | Justice Coleman wrote the Supreme Court opinion; Judge Schloegel was the chancery trial judge",
+   "basis": "Checked against the source article: Mississippi Supreme Court opinion, No. 2021-CA-01134-SCT | WLOX, Dec. 21, 2023; Mississippi Supreme Court opinion | WLOX, Dec. 21, 2023; Mississippi Supreme Court opinion | Mississippi Supreme Court opinion, No. 2021-CA-01134-SCT"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-049",
+   "caseId": "live-049",
+   "subject": "Emerald Necklace Conservancy v. City of Boston (White Stadium $325M Redevelopment Standing Ruling)",
+   "kind": "Corrected: date, description",
+   "was": "ruling unanimously that a coalition of neighborhood plaintiffs lacked standing to challenge the project | The case reached the SJC on direct appellate review | Suffolk Superior Court ruled in April 2025 | Boston Legacy FC has been forced to relocate its 2027 NWSL season to Pawtucket; stadium not to open until fall 2027 at the earliest",
+   "now": "plaintiffs lacked standing only on their charitable-trust claims; the Article 97 parkland claim was rejected on the merits | The SJC transferred the case from the Appeals Court on its own initiative | Date removed; the opinion says judgment entered after a three-day bench trial without a date in the passages reviewed, and WBUR says the Superior Court ruled in 2024 | Mayor Wu said construction is on track for a planned summer 2027 opening; the Pawtucket claim is not in the sources",
+   "basis": "Checked against the source article: SJC opinion, SJC-13865; WBUR, Aug. 19, 2026 | SJC opinion, SJC-13865 | SJC opinion; WBUR, Aug. 19, 2026 | WBUR, Aug. 19, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-301",
+   "caseId": "live-301",
+   "subject": "Wrongful-Death Suit Against Mall of Louisiana LLC, Brookfield Properties Retail and Marksman Security (Food Court Shooting)",
+   "kind": "Corrected: description",
+   "was": "killing 17-year-old ... and wounding several others | screening and access-control measures the plaintiffs say did not effectively keep firearms out",
+   "now": "two other people suffered gunshot wounds | plaintiffs allege failure to enforce the mall's firearms prohibition, among other failures",
+   "basis": "Checked against the source article: Acadiana News First via WAFB, Oct. 7, 2026 | Acadiana News First via WAFB, Oct. 7, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-312",
+   "caseId": "live-312",
+   "subject": "Shadowbox Studios, LLC v. DeKalb County, Georgia (Data Center Moratorium Takings Suit)",
+   "kind": "Corrected: description, figure",
+   "was": "cut the property's value by as much as $200 million | the Atlanta-area production company behind films including Cocaine Bear | Shadowbox has cited figures from roughly $30 million to more than $37 million in different filings, and its chief executive has put total exposure above $100 million",
+   "now": "cut the property's value by $200 million | Removed; not in the sources reviewed | The suit cites more than $30 million spent; Shadowbox's counsel told the zoning board $37 million; the $100 million figure is not in the sources",
+   "basis": "Checked against the source article: Decaturish via WABE, Aug. 13, 2026 | Decaturish via WABE, Aug. 13, 2026 | Decaturish via WABE; Atlanta News First, Sept. 9, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-397",
+   "subject": "First Western Bank & Trust v. Rabadi (Grand Forks Commercial Loan Guaranty Suit)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: First Western Bank & Trust v. Rabadi (Grand Forks Commercial Loan Guaranty Suit)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; Recommend removal as out of scope: this is a bank's suit to collect on personal guaranties from an individual (a Grand Forks doctor) for commercial loans to his medical-practice companies, which is debt collection. The article reports no claim about a property; the only real-estate references are un"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-351",
+   "caseId": "live-351",
+   "subject": "PMC Property Group, Inc. v. Apogee Enterprises, Inc. (New Minnesota Alter-Ego Suit Follows Dismissal From Philadelphia Glass-Defect Case)",
+   "kind": "Corrected: description",
+   "was": "Framed as declaratory-judgment claims rather than damages claims | In 2024 PMC discovered the windows had begun breaking; more than 60 windows had broken; PMC also sued in the Philadelphia Court of Common Pleas; details of the August ruling on manufacturing-defect and unjust-enrichment claims | the Pennsylvania court found PMC had not plausibly alleged that Apogee controlled its subsidiaries' day-to-day operations",
+   "now": "PMC seeks actual, incidental and consequential damages, interest and fees along with the alter-ego declarations | Removed; not in the sources reviewed. USGlass says breakage increased since 2024 and the August ruling dismissed several claims, including those against Apogee | Removed; the source says only that claims against Apogee were dismissed for lack of personal jurisdiction",
+   "basis": "Checked against the source article: USGlass, Oct. 29, 2026 | USGlass, Oct. 29, 2026 | USGlass, Oct. 29, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-275",
+   "caseId": "live-275",
+   "subject": "City of San Antonio v. U.S. Department of Homeland Security: City Sues Under NEPA to Halt Conversion of 640,000-SF East Side Warehouse Into ICE Detention Center",
+   "kind": "Corrected: description",
+   "was": "Local coverage cited a similar NEPA challenge to an ICE project in Maryland that led a federal judge to pause that project | Other outlets reported that the agency called the suit politically motivated | No judge has ruled on San Antonio's request. Reporting on the filing does not name a judge | ICE expects to open it this winter; the city says the suit does not challenge federal immigration enforcement authority",
+   "now": "Removed; the source instead reports that water and power concerns reportedly led ICE to drop two Pennsylvania warehouse plans | DHS and ICE did not respond; council member Marc Whyte called the suit \"political theater\" | Assigned to Judge Jason K. Pulliam, who on Oct. 22 held the injunctive-relief request in abeyance pending a Nov. 30 advisory | Removed; not in the sources reviewed",
+   "basis": "Checked against the source article and court docket: San Antonio Report via TPR, Oct. 13, 2026 | San Antonio Report via TPR, Oct. 13, 2026 | CourtListener docket 5:26-cv-06542 | San Antonio Report via TPR, Oct. 13, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-197",
+   "caseId": "live-197",
+   "subject": "SDCL Tennessee Propco LLC v. Bradley County (Data Center Zoning Ordinance Challenge)",
+   "kind": "Corrected: description",
+   "was": "the measure never went through the local planning commission for a recommendation | the county did not advertise a public hearing or publish a summary of the amendment beforehand",
+   "now": "the planning commission considered an earlier version; SDCL says the materially different final version should have gone back to it | SDCL alleges the county gave no proper public notice of the final version and violated the Open Meetings Act by taking up an unlisted substitute",
+   "basis": "Checked against the source article: WTVC NewsChannel 9, Sept. 21, 2026, describing the complaint | WTVC NewsChannel 9, Sept. 21, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-017",
+   "caseId": "live-017",
+   "subject": "Travelers Property Casualty Co. v. Washington Shoppes LP (Dry-Cleaner PCE Contamination Coverage Dispute)",
+   "kind": "Corrected: description, party",
+   "was": "property owner The Broadbent Company | disputes whether Washington Shoppes even qualifies as an insured party and whether the contamination pre-dated the relevant policy periods without disclosure",
+   "now": "Washington Shoppes has owned the site since 1998; The Indiana Lawyer describes Broadbent as owning the retail area Washington Shoppes operates | argues that, even if Washington Shoppes qualifies as an insured, coverage may be barred if it knew of contamination before acquiring the site or before the policies were issued",
+   "basis": "Checked against the source article: The Indiana Lawyer, Dec. 1, 2025 | The Indiana Lawyer, Dec. 1, 2025"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-170",
+   "caseId": "live-170",
+   "subject": "LRK, LLC v. City of St. George (Kleinpeter Tract Downzoning Challenge — TRO Granted)",
+   "kind": "Corrected: date, description",
+   "was": "asks the court to declare a different, specific incorporation date than the one the city has operated under | a motion hearing on converting the TRO into a preliminary injunction followed in August 2026 (timeline: August 11, 2026) | The city filed a memorandum opposing continuation of the restraining order",
+   "now": "asks the court to declare St. George was never lawfully incorporated because no court entered an order declaring its incorporation date | a preliminary-injunction hearing was set for July 28; outcome not reported | Removed; not in any source reviewed. The city said its position had not changed and the council deferred the rezoning",
+   "basis": "Checked against the source article: WBRZ, June 9, 2026, citing the Baton Rouge Business Report | The Advocate, July 16, 2026 | The Advocate, July 16, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-151",
+   "caseId": "live-151",
+   "subject": "Wal-Mart Stores East, LP Appeal (Contractor Technician Shock Injury, Florida Second DCA)",
+   "kind": "Corrected: description, figure",
+   "was": "$6.8M verdict affirmed (per Law360 reporting) | his own employer's workers' compensation coverage barred a direct suit against D.H. Pace",
+   "now": "Verdict amount not stated; removed | Removed; not in the opinion or the article",
+   "basis": "Checked against the source article: Second DCA opinion (CourtListener) and Tampa Free Press, June 24, 2026, state no amount; the Law360 report was not available to check | Second DCA opinion, No. 2D2025-0567"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-200",
+   "caseId": "live-200",
+   "subject": "TerraWatt Developer v. City of St. Louis Board of Adjustment (Midtown Armory Data Center Zoning Cross-Suits)",
+   "kind": "Corrected: date, description, party",
+   "was": "Missouri Workers Center listed as a petitioner | opponents argue the Board lacked authority to approve a data center as a conditional use in the zoning district at all | TerraWatt had committed in a community benefits agreement to source at least 50% of its load, roughly 60 megawatts, from renewables within five years | Board of Adjustment upheld the permit in July",
+   "now": "Removed; the opponents' suit is reported as brought by the Missouri Coalition for the Environment and several other plaintiffs | opponents argue the board erred in denying the appeals and granting the permit and acted arbitrarily and contrary to law | Removed; not in any source reviewed | Board voted July 29, 2026",
+   "basis": "Checked against the source article: St. Louis Public Radio, Sept. 17 and Aug. 29, 2026 | St. Louis Public Radio, Aug. 29, 2026 | St. Louis Public Radio, Sept. 17 and July 30, 2026 | St. Louis Public Radio, July 30, 2026"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-226",
    "caseId": "live-226",
    "subject": "Oak Land and Development LLC v. Simon Property Group Inc. (Penn Square Mall Antitrust Tying Suit)",
