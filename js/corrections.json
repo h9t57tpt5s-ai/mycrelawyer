@@ -4,6 +4,16 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-037",
+   "caseId": "live-037",
+   "subject": "10 East 34th Street CMBS foreclosure (S.D.N.Y. No. 1:26-cv-06952)",
+   "kind": "Corrected: party, date",
+   "was": "Named the owner and borrower as an affiliate of Caerus Group and the plaintiff as Wilmington Trust, N.A.; filing date August 18, 2026",
+   "now": "The borrower is 10East34th, LLC; Caerus Group sold the building before the 2018 loan and is not a party. The plaintiff is BNK 2018-BNK13 LLC 10 East 34th Street LLC. Filed August 14, 2026",
+   "basis": "The court docket (CourtListener) and The Real Deal's article, which was itself corrected on August 20, 2026 to say Caerus Group is not the owner."
+  },
+  {
+   "date": "2026-11-16",
    "scope": "site",
    "caseId": null,
    "subject": "Court outcome pages (outcomes/)",
