@@ -4,6 +4,116 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-179",
+   "caseId": "live-179",
+   "subject": "Pinnacle North, LLC Veil-Piercing Appeal (Michigan Court of Appeals Affirms Personal Liability for Office Tenant's Lease Default)",
+   "kind": "Corrected: date, description",
+   "was": "Pinnacle North sued MHM for breach of the lease in 2019 ... default judgment ... October 17, 2019 | a $50,000 payment MHM had made to its principal around the time of the company's sale | gives commercial landlords appellate-level Michigan precedent",
+   "now": "The opinion gives no date for the default judgment and describes the suit against MHM as filed after the December 2019 payment | The payment was made in December 2019, about a year after the sale closed on December 31, 2018 | The opinion is unpublished and not binding precedent",
+   "basis": "Checked against the source article: Michigan Court of Appeals opinion, No. 370640, p. 2 | Michigan Court of Appeals opinion, p. 2 | Michigan Court of Appeals opinion caption ('UNPUBLISHED')"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-399",
+   "caseId": "live-399",
+   "subject": "Ms. Audrey's Crafting Emporium, LLC v. Ghasem Properties, Inc. (Kentucky Appeals Court Upholds Retail Tenant's Liability, Reverses Future-Rent and 8% Interest Award)",
+   "kind": "Corrected: description",
+   "was": "$131,855.91 default judgment | vacated those portions, remanding for further proceedings on what the lease actually supports",
+   "now": "Summary judgment; the defendants answered but did not respond to the summary judgment motion | The court directed a new judgment for rent and fees accrued at the time of judgment, with 6% prejudgment interest, holding unaccrued future rent unrecoverable without an acceleration clause",
+   "basis": "Checked against the source article: Kentucky Court of Appeals opinion, No. 2025-CA-0045-MR, pp. 3-5 | Kentucky Court of Appeals opinion, pp. 13-22"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-396",
+   "caseId": "live-396",
+   "subject": "Lamar Obie Company Appeal (Oregon Court of Appeals Affirms $1.24 Million Judgment Over Portland Wall-Sign Permit)",
+   "kind": "Corrected: description, figure",
+   "was": "$1,237,191.92 jury verdict | an objectively reasonable expectation, rooted in the permit letter's own language and the parties' course of dealing",
+   "now": "$1,237,191.92 judgment, entered on the jury's damages award plus costs | The expectations were grounded in the lease and addendum: the limited term and the renewal and termination provisions",
+   "basis": "Checked against the source article: Oregon Court of Appeals opinion, 354 Or App 516, at 524 | Oregon Court of Appeals opinion, at 529-530"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-393",
+   "caseId": "live-393",
+   "subject": "First Care Therapy, LLC v. Congress Ave Boynton, LLC (Commercial Lease Default Damages Reversed)",
+   "kind": "Corrected: description, label",
+   "was": "without the properly noticed damages trial Florida law requires | Congress Ave Boynton v. First Care Therapy",
+   "now": "Fourth District precedent requires a noticed damages trial; the court noted Florida's district courts are divided on the point | First Care Therapy v. Congress Ave Boynton (tenant and guarantor are appellants)",
+   "basis": "Checked against the source article: Fourth DCA opinion, No. 4D2025-2466, pp. 4-6 and n.1 | Fourth DCA opinion caption"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-388",
+   "subject": "The City of Colonial Heights, Virginia v. Alpene Land, LLC (Virginia Appeals Court Limits Retroactive Tax Penalties on Delinquent Commercial Land)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: The City of Colonial Heights, Virginia v. Alpene Land, LLC (Virginia Appeals Court Limits Retroactive Tax Penalties on Delinquent Commercial Land)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; Recommend removal as out of scope: this is a city's delinquent real-estate-tax collection and tax-sale suit against landowners (two companies and an individual). The opinion never describes the parcels as commercial property, so nothing on its face makes it a commercial real estate matter; the write"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-387",
+   "caseId": "live-387",
+   "subject": "Bluetriton Brands, Inc. v. Washington Township Zoning Hearing Board and Weis Markets, Inc. (Pennsylvania Court Splits on Shopping Center Gas Station Fight)",
+   "kind": "Corrected: description",
+   "was": "The court declined to resolve the special-exception question on the merits | fifteen parcels in the Township, several of which directly adjoin the Bangor Plaza site",
+   "now": "The court held Weis was bound by the unappealed zoning-officer ruling that a special exception is required, and remanded only Bluetriton's remaining arguments against the grant | Interests in 15 parcels, including two that directly abut the site",
+   "basis": "Checked against the source article: Commonwealth Court memorandum opinion, No. 581 C.D. 2025, pp. 15-18, 27-28 | Commonwealth Court memorandum opinion, p. 4"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-384",
+   "caseId": "live-384",
+   "subject": "GSL Holdings, LLC v. Charter Township of Lyon, Michigan (Sixth Circuit Rejects Developer's Civil-Rights Claims Over Permitting Delay)",
+   "kind": "Corrected: description, label",
+   "was": "The district court granted summary judgment to the defendants on the federal claims | the township's insistence on a completed septic permit and county lot-combination | GSL Holdings Industrial Park Parcel",
+   "now": "Summary judgment on all claims except a later First Amendment retaliation claim and the Michigan FOIA claim, which settled before trial | The township required the county septic permit; the lot-combination condition came from the Oakland County Health Division | Industrial-park parcel (no property name in the record)",
+   "basis": "Checked against the source article: Sixth Circuit opinion, No. 25-1394, p. 6 | Sixth Circuit opinion, pp. 3-5, 8 | Sixth Circuit opinion, p. 2"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-385",
+   "caseId": "live-385",
+   "subject": "First Citizens Community Bank v. SA Living Fund LLC (Pennsylvania Court Upholds Confessed Judgment on $3.85 Million Loan)",
+   "kind": "Corrected: description, figure",
+   "was": "Upholds $3.85 Million Confessed Judgment | the bank's complaint ... adequately alleged default and the amount due",
+   "now": "$3.85 million is the loan amount; the judgment amount is subject to a pending motion to reassess damages after the bank conceded its figures were incorrect | The complaint adequately averred a default under Rule 2952(a)(6); the bank conceded the amount it claimed was miscalculated",
+   "basis": "Checked against the source article: Superior Court memorandum, No. 2083 EDA 2025, pp. 1-3 and n.2 | Superior Court memorandum, pp. 3, 8-12"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-380",
+   "caseId": "live-380",
+   "subject": "AB Realty, LLC v. Scott Lane (Eighth Circuit Affirms Dismissal of Apartment Owner's Claims Over Omaha Code-Enforcement Closure)",
+   "kind": "Corrected: date, description, figure",
+   "was": "84-unit Yale Park Apartments | the warrant application contained several false statements, including ... that police had been called ... and that a gas explosion had occurred | 2021: AB Realty completes repairs, reopens the building, and files suit | the takings claim failed because the complaint never specified whether it alleged a per se taking or a regulatory taking",
+   "now": "The warrant application cited complaints about 84 of the complex's 100 units | The court noted factual errors, including a false statement that entry was refused; the police-call and explosion statements are AB Realty's allegations | Suit filed March 11, 2019; the complex reopened in spring 2021 | No per se taking because AB Realty still owns the property; no regulatory taking because none was argued under Penn Central",
+   "basis": "Checked against the source article and court docket: Eighth Circuit opinion, No. 25-2082, pp. 2, 4 | Eighth Circuit opinion, pp. 2-3 | CourtListener docket, D. Neb. No. 8:19-cv-00102 | Eighth Circuit opinion, pp. 6-7"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-381",
+   "caseId": "live-381",
+   "subject": "Bethlehem Landfill Co. v. Lower Saucon Twp. (Pennsylvania Court Quashes Landfill Operator's Appeal in Sunshine Act Suit)",
+   "kind": "Corrected: description",
+   "was": "sued ... after the township's handling of the rezoning request | leaving others, along with the township's counterclaims, unresolved below",
+   "now": "The council adopted the rezoning in August 2023; the suit challenges the township's later switch to opposing the expansion in neighbors' litigation, made without a council vote and later ratified | No counterclaims are mentioned; the order was interlocutory because conflict-of-interest counts were dismissed with leave to amend and the company neither sought dismissal by praecipe nor a finality determination",
+   "basis": "Checked against the source article: Commonwealth Court opinion, No. 737 C.D. 2025, pp. 2-6 | Commonwealth Court opinion, pp. 8-9, 12-14"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-373",
+   "caseId": "live-373",
+   "subject": "Columbus v. Ohio Wholesale Auto Sales, L.L.C. (Ohio Appeals Court Revives Lender's Claim in Condemnation Case)",
+   "kind": "Corrected: description",
+   "was": "a dismissal for failure to prosecute is not an adjudication on the merits",
+   "now": "Civil Rule 41(B)(3) generally treats such a dismissal as on the merits; this one was not, because Wiltshire never obtained service on the owner (Thomas v. Freeman)",
+   "basis": "Checked against the source article: Tenth District decision, 2026-Ohio-4386, paragraphs 12-13"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-303",
    "caseId": "live-303",
    "subject": "Ex parte City of Fairhope Planning Commission and City of Fairhope (Developer's Negligence Claim Over Denied Apartment Applications Barred by Immunity)",
