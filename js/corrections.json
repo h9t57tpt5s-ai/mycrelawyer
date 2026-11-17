@@ -4,6 +4,106 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-363",
+   "caseId": "live-363",
+   "subject": "Sinmier, LLC v. Everest Indemnity Insurance Co. (Sixth Circuit Affirms Lender's Insurance Claims Died With Its Own Settlement)",
+   "kind": "Corrected: figure",
+   "was": "Sinmier separately recovered a $627,375 payment from Vintro's owner under the foreclosure settlement",
+   "now": "Vintro and its owner agreed to pay $627,375, secured by a consent judgment; the court said Sinmier apparently has not fully recovered that amount",
+   "basis": "Checked against the source article: Sixth Circuit opinion, No. 25-4018, pp. 3 and 7"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-364",
+   "caseId": "live-364",
+   "subject": "Norhaven Partners, LLC v. Bartow County (Georgia Court of Appeals Affirms County's Industrial Conditional Use Permit Over Developer's Zoning Challenge)",
+   "kind": "Corrected: party",
+   "was": "the Bartow County Board of Commissioners granted the permit | Rice Commercial Investments, Inc. — Permit Holder (non-party on appeal)",
+   "now": "The Bartow County Commissioner approved the permit on September 4, 2024, after the Planning Commission recommended approval | Rice Commercial Investments, Inc. — Respondent-Appellee (permit holder); it was named in the appeal and moved to dismiss it",
+   "basis": "Checked against the source article: Court of Appeals of Georgia opinion, No. A26A1626, p. 4 | Caption ('Bartow County et al.') and p. 13 of the opinion"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-353",
+   "caseId": "live-353",
+   "subject": "Lampton Securities Partnership, LLP v. Louisville-Jefferson County Metro Government (Reverse Condemnation Ripeness Ruling)",
+   "kind": "Corrected: description",
+   "was": "citing its own 2002 decision in Spanish Cove Sanitation, Inc. v. Louisville-Jefferson County Metropolitan Sewer District",
+   "now": "Spanish Cove Sanitation is a 2002 decision of the Kentucky Supreme Court",
+   "basis": "Checked against the source article: Kentucky Court of Appeals opinion, No. 2025-CA-1380-MR, p. 8 ('our Supreme Court applied ripeness principles')"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-350",
+   "caseId": "live-350",
+   "subject": "Commercial Painting Company Inc. v. The Weitz Company LLC (Punitive Damages for Contractor Fraud Survive Contractual Waiver)",
+   "kind": "Corrected: description, figure, party",
+   "was": "affirmed ... a trial court judgment of $8,359,863.83 | Punitive damages for an independent tort like fraud, the court concluded, exist to punish and deter egregious conduct rather than to compensate for the kind of foreseeable commercial losses a consequential-damages waiver is designed to allocate | an early-completion bonus of up to roughly $8,597 per day | Liberty Mutual Insurance Company — Defendant-Appellee",
+   "now": "The court affirmed the judgment as to the $3.9 million punitive damages on the misrepresentation claim; that was the only issue on remand | The court held the clause lacked a specific waiver of damages for fraud or misrepresentation and addressed contract remedies rather than tort | a bonus of $8,597 for each day, up to 45 days, of early completion | Liberty Mutual Insurance Company — Appellee (represented with Commercial Painting)",
+   "basis": "Checked against the source article: Tennessee Court of Appeals opinion, No. W2019-02089-COA-R3-CV, Parts I and IV | Tennessee Court of Appeals opinion, Part III | Opinion at n.6 (quoting the Tennessee Supreme Court) | Opinion counsel listing: counsel 'for the appellees, Commercial Painting Company, Inc., and Liberty Mutual Insurance Company'"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-352",
+   "caseId": "live-352",
+   "subject": "Third Department Upholds Site Plan for Accord, LLC's Granary Adaptive-Reuse Project Over Neighbors' Challenge",
+   "kind": "Corrected: description",
+   "was": "the court credited the developer's engineer, who had applied an alternative one-space-per-three-seats calculation",
+   "now": "The court held the Planning Board merely adopted the Town Board's parking determination, which had accepted that calculation, and that a code-interpretation referral was unnecessary because parking standards are guidelines in EEO districts",
+   "basis": "Checked against the source article: Third Department decision, 2026 NY Slip Op 06370"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-348",
+   "caseId": "live-348",
+   "subject": "Seneca Ins. Co. Inc. v. Cobleskill Enter., LLP (Smoke-Detector Warranty Breach Voids Hotel Fire Coverage)",
+   "kind": "Corrected: description",
+   "was": "Those claims against the broker proceed notwithstanding the insurer's win on the core coverage question",
+   "now": "The Third Department dismissed Seneca's fraud and negligent-misrepresentation claims against Links and dismissed the owner's third-party claims against Links",
+   "basis": "Checked against the source article: Third Department decision, 2026 NY Slip Op 06366, decretal paragraph"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-349",
+   "caseId": "live-349",
+   "subject": "Portage Township of St. Joseph County, Indiana v. City of South Bend (Eminent Domain in Redevelopment Areas Requires Council Authorization)",
+   "kind": "Corrected: date, description, party",
+   "was": "reversed a condemnation action against a developer's property | a private buyer's intervening purchase of the targeted property | Before the City's complaint was resolved, Portage Township contracted to buy the same property | Parties listed Argos 316, LLC as 'Property Owner' and omitted Portage Township",
+   "now": "The property was owned by Argos 316, LLC when the suit was filed and was then bought by Portage Township, a local government unit; the opinion describes neither as a developer | The buyer was Portage Township of St. Joseph County, a township | Portage Township had contracted to buy the property before the City filed, and completed the purchase shortly after | Portage Township, the lead appellant, is added; Argos 316 is listed as owner when the complaint was filed",
+   "basis": "Checked against the source article: Court of Appeals of Indiana opinion, No. 26A-PL-711, para. 2 | Court of Appeals of Indiana opinion, No. 26A-PL-711, para. 2 | Court of Appeals of Indiana opinion, No. 26A-PL-711, para. 2 | Caption, Court of Appeals of Indiana No. 26A-PL-711"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-336",
+   "caseId": "live-336",
+   "subject": "Illinois Appeals Court: Landlord Proved Conversion of Its Billboard Structures, But Gets Only Nominal Damages",
+   "kind": "Corrected: description",
+   "was": "Beginning with a 1956 agreement ... each lease using largely the same preprinted form: an original one-year term followed by automatic year-to-year renewals",
+   "now": "The 1956 lease ran until the lot was sold or built on; the form with a one-year term and automatic renewals was used from 1968 on",
+   "basis": "Checked against the source article: Illinois Appellate Court order, 2026 IL App (4th) 251262-U, paras. 13-19"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-342",
+   "caseId": "live-342",
+   "subject": "GRE Downtowner LLC v. City of Seattle: Washington Appeals Court Revives Affordable-Housing Owner's Takings Claims Over Tenant-Protection Ordinances",
+   "kind": "Corrected: description",
+   "was": "lets owners ... argue that a city's regulations should be judged by their cumulative economic effect rather than ordinance by ordinance",
+   "now": "The court held the complaint stated a partial takings claim and a per se takings claim based on the Roommate Ordinance, and applied a six-year limitations period; it did not announce a cumulative-effect rule",
+   "basis": "Checked against the source article: Court of Appeals of Washington opinion, No. 87886-7-I (Oct. 26, 2026)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-331",
+   "subject": "Colliers International NY LLC v. City Hall Commons LLC: First Department Affirms $307,326 Commission Judgment Against Landlord on Lease Renewal",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Colliers International NY LLC v. City Hall Commons LLC: First Department Affirms $307,326 Commission Judgment Against Landlord on Lease Renewal",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; A broker's commission claim; the decision does not identify the property or say the lease was commercial. Broker pay disputes are out of scope."
+  },
+  {
+   "date": "2026-11-16",
    "scope": "matter",
    "caseId": "live-044",
    "subject": "Forestar (USA) Real Estate Group, Inc. v. Greenville County (Owens Glen Vested-Rights Reversal)",
