@@ -4195,7 +4195,7 @@ const RELAW_DATA = {
         { when: "September 1, 2026", label: "Building is sold back to Soros Fund at a foreclosure auction, following a $158.7M foreclosure judgment" },
         { when: "September 2026", label: "Soros Fund lists the building for sale at roughly $100M, Commercial Observer reports", current: true }
       ],
-      tags: ["foreclosure", "office", "distressed debt", "new york", "tenant takeover"]
+      tags: ["foreclosure", "office", "loan default", "new york"]
     },
     {
       id: "live-136",
