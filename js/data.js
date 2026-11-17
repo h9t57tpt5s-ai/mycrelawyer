@@ -862,12 +862,12 @@ const RELAW_DATA = {
     {
       id: "live-028",
       seoTitle: "PSEG Maryland Piedmont Line: Fourth Circuit Allows Survey Entry",
-      seoDescription: "The Fourth Circuit let PSEG Renewable Transmission survey 117 landowners' properties for the 67-mile Maryland Piedmont Reliability Project before approval.",
+      seoDescription: "The Fourth Circuit let PSEG survey land for the 67-mile Maryland Piedmont line before state approval; landowners have petitioned the Supreme Court.",
       addedDate: "2026-08-18",
       title: "PSEG Renewable Transmission LLC v. Arentz Family, LP (Piedmont Line Pre-Condemnation Survey Entry)",
-      brief: "The Fourth Circuit let PSEG Renewable Transmission enter 117 landowners' properties to survey the 67-mile Maryland Piedmont Reliability Project line before the state has certified the project.",
+      brief: "The Fourth Circuit upheld an injunction letting PSEG Renewable Transmission survey landowners' property for the 67-mile Maryland Piedmont power line before state approval; 60 landowners have petitioned the Supreme Court.",
       category: "eminent-domain",
-      status: "ruling",
+      status: "appeal",
       date: "2026-08-06",
       jurisdiction: "U.S. Court of Appeals for the Fourth Circuit",
       parties: [
@@ -892,21 +892,21 @@ const RELAW_DATA = {
       amount: "117 landowner-appellants; 67-mile transmission project",
       source: "live",
       sourceUrl: "https://marylandmatters.org/2026/08/06/piedmont-power-line-surveys-4th-circuit/",
-      summary: "The Fourth Circuit, in a published opinion, affirmed a preliminary injunction letting PSEG Renewable Transmission LLC enter the properties of 117 landowners along the proposed 67-mile Maryland Piedmont Reliability Project transmission line to conduct court-ordered environmental and engineering surveys, over the owners' objections. The panel held that PSEG qualifies as a 'body politic or corporate having the power of eminent domain' under Md. Code Ann., Real Property § 12-111 even though the Maryland Public Service Commission has not yet issued the certificate of public convenience and necessity the project ultimately needs, rejecting the landowners' argument that condemnation authority must already exist before pre-certification survey entry can be ordered.",
-      significance: "Confirms that utilities and infrastructure developers relying on state 'right of entry to survey' statutes can force pre-condemnation access to private land based on preliminary regulatory designation (here, PJM's selection and FERC's acceptance of the project) rather than a completed certification process — a sequencing question that numerous states' similarly worded statutes have rarely tested at the appellate level. For commercial and agricultural landowners along any proposed transmission, pipeline, or similar corridor, the ruling narrows the window to resist survey access to disputes over the scope of a bona fide notice or the type of study proposed, rather than the developer's eminent domain status itself.",
+      summary: "In a published August 6, 2026 opinion by Judge Nicole G. Berner, the Fourth Circuit affirmed a June 2025 preliminary injunction letting PSEG Renewable Transmission LLC enter properties along the proposed 67-mile Maryland Piedmont Reliability Project to conduct surveys over owners' objections, Maryland Matters reported. The 117 appellants argued PSEG could not use Maryland's survey-entry statute before receiving a certificate from the Public Service Commission; the panel held PSEG likely qualifies as a body 'having the power of eminent domain' under the statute. On November 4, 2026, 60 landowners petitioned the U.S. Supreme Court to review the decision.",
+      significance: "The decision lets a company selected to build a transmission line use Maryland's survey-entry statute before the state has approved the project, on the reasoning that the surveys are needed to obtain that approval. Owners along proposed utility corridors in Maryland will find it harder to block pre-approval survey access, though the ruling does not authorize construction or any taking of land.",
       body: [
-        "A published Fourth Circuit opinion issued August 6, 2026 has resolved a question that has been quietly unsettling property owners along utility and infrastructure corridors nationwide: does a company that merely intends to eventually exercise eminent domain already have the legal standing to force its way onto private land to survey for that future taking? In PSEG Renewable Transmission LLC v. Arentz Family, LP, No. 25-1730, the court answered yes, affirming a June 2025 preliminary injunction issued by U.S. District Judge Adam B. Abelson in the District of Maryland that let PSEG Renewable Transmission LLC enter the properties of 117 landowners to conduct environmental and engineering surveys — over their explicit, repeated objections — before the Maryland Public Service Commission has approved the underlying project or granted PSEG any condemnation authority at all.",
-        "The case arises out of the Maryland Piedmont Reliability Project, a roughly 67-mile, 500-kilovolt transmission line that PJM Interconnection designated PSEG to build across Baltimore, Carroll, and Frederick counties to relieve severe overloading on the region's grid. Before the Maryland PSC will issue the required Certificate of Public Convenience and Necessity, state law requires an environmental and socioeconomic assessment from the Maryland Department of Natural Resources' Power Plant Research Program. PPRP told PSEG its application was administratively incomplete without field-based studies — soil sampling, wetland delineation, cultural surveys — across the proposed 550-foot study corridor. More than 100 landowners along the route, after receiving repeated written notices and phone calls from PSEG's land agents beginning in October 2024, uniformly refused to grant access.",
-        "PSEG sued under a specific and rarely litigated Maryland statute, Real Property Section 12-111, which lets any body politic or corporate having the power of eminent domain enter private land — over an owner's objection, after bona fide written notice — to conduct surveys relating to the acquisition or future public use of the property. The landowners' central argument was straightforward: PSEG doesn't yet have eminent domain power, since no certificate has issued and Maryland law expressly bars condemnation before one does. Judge Abelson rejected that reading as circular, holding that requiring a company to already possess condemnation authority before it could survey to determine whether condemnation was even warranted would leave entities in PSEG's position with no viable path to ever complete the certification process PPRP itself requires. The Fourth Circuit's August 6 opinion affirmed that reasoning, along with the district court's rejection of the landowners' Burford abstention, administrative-exhaustion, and Rule 19 joinder arguments, and its holding — grounded in the Supreme Court's Cedar Point Nursery v. Hassid framework — that a temporary, limited survey entry is not a compensable physical taking in the way a permanent easement or an indefinite right of access would be.",
-        "For commercial and agricultural property owners, the decision carries meaningful practical weight beyond Maryland's borders, since a substantial number of states have similar right-of-entry-to-survey statutes on the books, largely untested at the appellate level, that utilities and infrastructure developers increasingly rely on as demand for new transmission capacity — driven in no small part by data center load growth — accelerates project timelines nationally. The ruling confirms that companies designated by a regional transmission organization like PJM, and that have cleared preliminary federal regulatory steps with FERC, can satisfy a power-of-eminent-domain threshold well before local approval, so long as they make genuine, documented efforts to notify affected owners in writing. It also reinforces that courts will treat brief, non-invasive survey access as categorically different from the kind of extended physical occupation the Supreme Court found unconstitutional in Cedar Point — a distinction commercial landlords and developers facing their own access disputes, unrelated to eminent domain, may find themselves citing by analogy.",
-        "The practical stakes are not abstract for the named respondents, who include family farms, a rod-and-gun club, a radio ministry, and several LLC-held parcels along the route; further proceedings on PSEG's underlying complaint continue in the district court, and the PSC's certificate review — including final approval of the proposed route — remains pending.",
-        "Property owners along proposed utility or infrastructure corridors should assume that written notice followed by a refusal of access is unlikely to block a statutory survey-entry action, particularly once the project has cleared preliminary federal or regional planning approval. Counsel for developers pursuing FERC- or PJM-designated transmission or pipeline projects should build early, well-documented notice campaigns into pre-certification timelines, since courts are treating a bona fide effort to notify as a low bar once repeated written and oral contact is shown. Owners who believe a proposed survey exceeds the statute's scope — geotechnical borings versus surface surveys, for instance — have a narrower but real avenue to challenge specific proposed activities, even where the entry itself is authorized, and parties negotiating compensation for survey access should recognize that courts are distinguishing sharply between compensable permanent-easement takings and non-compensable temporary survey entry, which affects leverage in any pre-condemnation negotiation."
+        "The Maryland Piedmont Reliability Project is a planned 67-mile transmission line through rural parts of Baltimore, Carroll and Frederick counties that New Jersey-based PSEG is building at the behest of grid officials, according to Maryland Matters. To complete its application for a certificate of public convenience and necessity, PSEG needed field surveys: the Fourth Circuit's opinion says Maryland's Power Plant Research Program deemed the application incomplete until certain field-based studies were done. PSEG sued in the District of Maryland on April 15, 2025 against landowners who refused access, invoking Real Property Section 12-111(a), which lets a 'body politic or corporate having the power of eminent domain' enter private land for surveys after a bona fide effort to notify the owner in writing. Judge Adam B. Abelson granted a preliminary injunction on June 20, 2025.",
+        "On appeal, 117 parties argued that letting PSEG survey would amount to exercising eminent domain before it holds a certificate. The panel disagreed. If that were required, Judge Berner wrote, PSEG would have 'no viable path' to obtaining a certificate, and delaying the permitting process 'could exacerbate the very energy crisis' the project was meant to address. The panel found no abuse of discretion in the injunction, agreed with the district court that the brief access the statute allows is not a taking under the federal or Maryland constitutions, and rejected the argument that PSEG's in-service deadline could not be met. Judge J. Harvie Wilkinson III joined the opinion; Judge Julius N. Richardson concurred.",
+        "PSEG said it appreciated the court's 'careful consideration' and would keep engaging with property owners. The president of the opposition group Stop MPRP said she was 'deeply disappointed' and noted the ruling does not approve the line or let PSEG acquire land, questions still before the Public Service Commission. Maryland Matters reported that Abelson had held one resident in contempt in July for obstructing surveyors and had allowed U.S. marshals to accompany surveyors onto a handful of properties.",
+        "On November 4, 2026, 60 landowners, represented by a public interest law firm, asked the U.S. Supreme Court to hear the case, arguing the Fourth Circuit allowed entry without first establishing that PSEG holds the eminent domain power its right of entry depends on, Maryland Matters reported."
       ],
       tags: ["eminent domain", "utility easement", "right of entry", "transmission line", "takings"],
       timeline: [
-        { when: "April 15, 2025", label: "PSEG sues 117 landowners in the District of Maryland after repeated refusals of survey access" },
-        { when: "June 20, 2025", label: "District Judge Adam B. Abelson grants PSEG a preliminary injunction authorizing entry" },
-        { when: "August 6, 2026", label: "Fourth Circuit affirms in a published opinion, holding PSEG has the power of eminent domain for purposes of the survey-entry statute", current: true }
+        { when: "April 15, 2025", label: "PSEG sues landowners in the District of Maryland after they refuse survey access" },
+        { when: "June 20, 2025", label: "Judge Adam B. Abelson grants PSEG a preliminary injunction allowing entry for surveys" },
+        { when: "May 5, 2026", label: "Fourth Circuit hears argument" },
+        { when: "August 6, 2026", label: "Fourth Circuit affirms in a published opinion by Judge Nicole G. Berner" },
+        { when: "November 4, 2026", label: "Sixty landowners petition the U.S. Supreme Court for review", current: true }
       ],
       docketUrl: "https://www.courtlistener.com/docket/70689952/pseg-renewable-transmission-llc-v-arentz-family-lp/",
       docketLabel: "CourtListener docket"
@@ -1209,7 +1209,7 @@ const RELAW_DATA = {
       property: {"name": "Desert Palm Inn", "city": "Seaside Park", "state": "NJ"},
       addedDate: "2026-08-24",
       title: "Borough of Seaside Park v. Shree Jyoti, LLC (Eminent Domain Ordinance Public-Use Disclosure Ruling)",
-      brief: "New Jersey's Supreme Court ruled 6-1 that Seaside Park did not have to state its intended public use in the ordinance condemning the blighted Desert Palm Inn, a commercial motel.",
+      brief: "New Jersey's Supreme Court ruled 6-1 that Seaside Park did not have to state its intended public use in the ordinance authorizing the taking of the Desert Palm Inn motel.",
       category: "eminent-domain",
       status: "ruling",
       date: "2026-08-10",
@@ -1221,25 +1221,22 @@ const RELAW_DATA = {
       amountUsd: null,
       judge: "Michael Noriega",
       state: "NJ",
-      amount: "Condemnation of a single derelict commercial motel property; no damages at issue",
+      amount: "Condemnation of a motel property; no compensation figure at issue in this ruling",
       source: "live",
       sourceUrl: "https://newjerseymonitor.com/2026/08/10/nj-supreme-court-seaside-park-eminent-domain/",
-      summary: "In a 6-1 decision, the New Jersey Supreme Court held that neither the state's Eminent Domain Act nor its Local Lands and Buildings Law requires a municipality to state its intended public use inside the condemnation ordinance itself, resolving a four-year fight over Seaside Park's 2022 taking of the blighted Desert Palm Inn. Justice Michael Noriega wrote for the majority; Justice John Jay Hoffman dissented, invoking the state's 'square corners' doctrine because the Borough allegedly knew its reuse plans before condemning the property but declined to disclose them to the owner.",
-      significance: "Forecloses a facial vagueness challenge to boilerplate 'health, safety, and welfare' language in New Jersey condemnation ordinances, a drafting practice used by municipalities statewide. Commercial owners facing eminent domain now have a narrower path — documenting a municipality's pre-ordinance planning and any refusal to disclose it — to mount a square-corners challenge instead, per Justice Hoffman's dissent, while municipalities gain confirmation they need not lock in a specific end use before condemning blighted or code-violating commercial property.",
+      summary: "In a 6-1 decision on August 10, 2026, the New Jersey Supreme Court held that neither the state's Eminent Domain Act nor its Local Lands and Buildings Law requires a municipality to state its intended public use in the ordinance authorizing a taking, resolving Seaside Park's effort to acquire the Desert Palm Inn, a motel owned by Shree Jyoti, LLC, the New Jersey Monitor reported. Justice Michael Noriega wrote for the majority. Justice John Hoffman dissented, saying he would have blocked the acquisition because the borough declined to disclose its known plans for the property when the owner asked.",
+      significance: "The ruling removes a textual challenge to condemnation ordinances that recite only a general public purpose. The majority still faulted the borough's lack of candor, and the dissent shows the 'square corners' duty of government fair dealing remains a possible line of attack for owners.",
       body: [
-        "The New Jersey Supreme Court has ruled that a municipality exercising eminent domain does not have to state, in the condemnation ordinance itself, what it actually intends to do with the property it is taking. The August 10 decision in Borough of Seaside Park v. Shree Jyoti, LLC closes out a four-year fight over the Desert Palm Inn, a derelict oceanfront motel the Borough moved to acquire in 2022, and sets a precedent with direct consequences for any commercial property owner facing condemnation anywhere in the state.",
-        "Writing for a 6-1 majority, Associate Justice Michael Noriega held that neither New Jersey's Eminent Domain Act nor its Local Lands and Buildings Law requires a taking municipality to articulate the intended public use inside the ordinance authorizing the acquisition. Seaside Park's April 2022 ordinance stated only that acquiring the Desert Palm Inn would promote and protect the health, safety, and welfare of residents and serve an unspecified public use and purpose, language the property owner, Shree Jyoti, LLC, argued was too vague to satisfy the statutory scheme. The Court disagreed, finding the statutes' text imposes no such specificity requirement, whatever practical benefits a more detailed ordinance might offer property owners contesting a taking.",
-        "The underlying property had a well-documented history of blight and criminal activity: an engineering study identified major health and safety code violations, and Seaside Park police made hundreds of visits to the site between 2017 and 2021, responding to incidents that included a man pushed from a balcony, narcotics arrests, a counterfeit-currency operation, and contacts involving registered sex offenders. The Borough Council authorized an appraisal and eminent domain proceedings in November 2021 and passed the acquisition ordinance the following April. Seaside Park took title through condemnation in early 2023 and ordered an environmental assessment of the site, but demolition stalled when the former owner pressed an appeal that ultimately reached the state's highest court.",
-        "The case turned on timing and disclosure as much as substance. In later litigation filings, Borough officials indicated the property would become a public parking area, and subsequently suggested a municipal well, explanations that emerged only after the ordinance was already in place. That sequence drove the lone dissent from Associate Justice John Jay Hoffman, who invoked New Jersey's long-standing square corners doctrine, which requires government bodies to deal with citizens honestly and transparently. Hoffman wrote that the record showed Seaside Park had settled on its plans for the property at least a month before moving to condemn it, yet declined to disclose that purpose when the owner asked, and that he could not join an opinion allowing that conduct to pass without consequence, writing that the majority degrades the square corners doctrine that asks public leaders to operate with a baseline level of honesty and integrity.",
-        "For commercial property owners, developers, and their counsel, the ruling narrows one of the few textual footholds available to challenge a condemnation ordinance before the taking occurs. Owners who might have argued that a vague or boilerplate public-use recital renders an ordinance procedurally defective now face a state Supreme Court precedent squarely against that theory. What remains open, per Hoffman's dissent, is whether a sufficiently documented pattern of pre-ordinance planning paired with a refusal to disclose it to the owner could support a separate square-corners challenge, a fact-intensive argument distinct from, and now more important than, any facial challenge to the ordinance's text.",
-        "Owners served with a condemnation ordinance in New Jersey should not expect a facial vagueness challenge to the ordinance's stated purpose to succeed on its own; any surviving challenge will more likely need to rest on evidence that the municipality knew and concealed its actual plans. Counsel representing owners facing eminent domain would do well to build a documentary record early, including written requests to the municipality for its intended use and its responses or non-responses, since that record is what could support a square-corners argument later, even though it would not block the taking itself. Municipalities and redevelopment counsel gain a measure of drafting certainty from the ruling, but it does not immunize the broader condemnation process from good-faith and transparency scrutiny, particularly where officials have already settled on a specific reuse plan before acting, and owners of blighted or code-violating commercial property should expect a documented history of safety and police-response issues, as existed here, to weigh heavily against them throughout condemnation litigation, not just at the initial ordinance stage."
+        "The New Jersey Supreme Court ruled on August 10, 2026 that a municipality condemning property does not have to state, in the ordinance authorizing the taking, the public use it intends. The 6-1 decision in Borough of Seaside Park v. Shree Jyoti, LLC (A-2-25) resolves the borough's effort to acquire the Desert Palm Inn, a motel it moved to condemn in April 2022, the New Jersey Monitor reported.",
+        "According to the opinion, the borough council passed a resolution authorizing an appraisal and acquisition by eminent domain on November 15, 2021, and on April 14, 2022 passed an ordinance saying the taking would 'promote and protect the health, safety and welfare' of residents. The opinion notes that the record documented extensive code violations and a history of police incidents at the property. The borough's first condemnation complaint, filed July 19, 2022, was dismissed without prejudice because the ordinance did not specify a public use; its amended complaint identified a public parking lot with electric vehicle charging, and the borough later added a public drinking water well. The trial court and Appellate Division ruled for the borough.",
+        "'No law requires a municipality to articulate the intended public use in the ordinance itself,' Justice Michael Noriega wrote for the majority. The court also observed that the matter 'likely could have been resolved by simply disclosing the intended public use at the earliest reasonable point,' the Monitor reported.",
+        "Justice John Hoffman agreed the statutes do not require a stated public use but would have blocked the acquisition under the 'square corners' doctrine, which requires government to deal forthrightly with the public. He wrote that Seaside Park knew its plans at least a month before moving to condemn but declined to tell the owner when asked, and that 'the majority degrades the square corners doctrine.' He contrasted the ruling with a recent decision blocking Jackson Township's use of eminent domain where its stated public purpose was found false."
       ],
       timeline: [
-        { when: "November 15, 2021", label: "Seaside Park Borough Council authorizes appraisal and eminent domain proceedings against the Desert Palm Inn" },
-        { when: "April 14, 2022", label: "Borough Council passes ordinance authorizing acquisition, citing only general health, safety, and welfare purposes" },
-        { when: "Early 2023", label: "Seaside Park acquires the property through condemnation and orders an environmental study" },
-        { when: "2024", label: "Demolition stalls as the former owner petitions the New Jersey Supreme Court" },
-        { when: "August 10, 2026", label: "New Jersey Supreme Court rules 6-1 that municipalities need not state intended public use in a condemnation ordinance", current: true }
+        { when: "November 15, 2021", label: "Seaside Park Borough Council authorizes an appraisal and acquisition of the Desert Palm Inn by eminent domain" },
+        { when: "April 14, 2022", label: "Borough Council passes the ordinance authorizing acquisition, citing general health, safety and welfare purposes" },
+        { when: "July 19, 2022", label: "Borough files its first condemnation complaint, later dismissed without prejudice for failing to specify a public use" },
+        { when: "August 10, 2026", label: "New Jersey Supreme Court rules 6-1 that the ordinance did not need to state the intended public use", current: true }
       ],
       tags: ["eminent domain", "condemnation", "new jersey", "local government", "square corners doctrine"]
     },
@@ -2481,46 +2478,6 @@ const RELAW_DATA = {
       docketLabel: "CourtListener docket"
     },
     {
-      id: "live-079",
-      seoTitle: "Mirasol Village Sacramento: $9.5M Pesticide Contamination Suit",
-      seoDescription: "Neighboring business seeks $9.5 million from McCormack Baron Salazar and contractors over chlordane dust from Mirasol Village in Sacramento.",
-      property: {"name": "Mirasol Village", "city": "Sacramento", "state": "CA"},
-      addedDate: "2026-09-05",
-      title: "Mitchell v. McCormack Baron Salazar, Inc. (Mirasol Village Legacy Pesticide Contamination Suit)",
-      brief: "Cannabis grower Liveade Wellness sued developer McCormack Baron Salazar and two contractors, alleging Mirasol Village construction dust spread chlordane and ruined its business; fraud claims proceed. $9.5M sought.",
-      category: "environmental",
-      status: "pending",
-      date: "2025-04-01",
-      jurisdiction: "Sacramento County Superior Court, California",
-      parties: [
-        { name: "McCormack Baron Salazar, Inc.", role: "Defendant" },
-        { name: "A. Teichert and Son, Inc.", role: "Defendant" },
-        { name: "Midstate Construction Corporation", role: "Defendant" }
-      ],
-      amountUsd: 9591000,
-      amountBasis: "damages sought",
-      state: "CA",
-      amount: "$9.5M sought; ~$1M initial business investment alleged destroyed",
-      source: "live",
-      sourceUrl: "https://natlawreview.com/press-releases/entrepreneurs-1-million-investment-destroyed-redevelopment-dust-95m-lawsuit",
-      summary: "Betty Mitchell, through her indoor cannabis cultivation company Liveade Wellness Inc., sued developer McCormack Baron Salazar, Inc. and contractors A. Teichert & Son, Inc. and Midstate Construction Corporation, alleging construction dust from the neighboring Mirasol Village redevelopment carried legacy chlordane pesticide contamination onto her property and destroyed her business. Sacramento County Superior Court Judge Richard K. Sueyoshi has issued rulings in recent weeks allowing Mitchell's negligence, fraud, and punitive-damages claims to proceed toward discovery.",
-      significance: "The case tests how far liability for legacy soil contamination on a redevelopment site can extend to neighboring businesses with no ownership stake or contractual relationship to the project, and the court's decision to let fraud and punitive-damages theories proceed — not just negligence — signals a fact pattern courts may view as more than ordinary construction carelessness. Developers and contractors on brownfield or formerly-contaminated sites should treat this as a warning about off-site migration exposure distinct from their on-site regulatory obligations.",
-      body: [
-        "A Sacramento County Superior Court judge has cleared the way for a neighboring business owner to pursue negligence, fraud, and punitive-damages claims against the developer and contractors behind the Mirasol Village redevelopment, in a case testing how far liability for legacy soil contamination can travel beyond a project's own boundaries. Betty Mitchell operated an indoor cannabis cultivation company, Liveade Wellness Inc., near the site of Mirasol Village, the master-planned redevelopment of the former Twin Rivers public housing project in Sacramento's River District. Mitchell alleges her cultivation operation tested positive for chlordane, a synthetic pesticide the federal government banned in 1988, despite the fact that she says the chemical was never used, stored, or introduced anywhere on her own property.",
-        "Mirasol Village is being developed by McCormack Baron Salazar, Inc., a national affordable-housing developer, together with general contractor A. Teichert & Son, Inc. and site contractor Midstate Construction Corporation. The contamination history at the site predates the current dispute: a March 4, 2020 letter from the California Department of Toxic Substances Control identified organochlorine pesticides, including chlordane, as chemicals of concern at the property and called for additional environmental investigation. Mitchell's complaint, filed in April 2025, alleges that dust generated during the redevelopment's construction activity carried that legacy contamination beyond the project boundary and into her nearby facility, ultimately rendering her cultivation operation's product unsellable and destroying a business she says she had invested nearly $1 million to build.",
-        "What distinguishes this case from a routine construction-dust complaint is which claims survived the defendants' effort to dismiss it. A negligence theory, alleging inadequate dust and soil containment during construction, is a familiar fact pattern in environmental liability litigation involving redevelopment sites. Judge Sueyoshi's rulings, however, also allowed Mitchell's fraud and punitive-damages claims to proceed, meaning the court found she had pled facts capable of supporting an inference of conduct beyond ordinary carelessness. Punitive damages against a development team require a considerably higher showing — something closer to conscious disregard of a known risk — and a court's willingness to let such a claim clear the pleading stage is itself a meaningful signal about how the underlying facts are being read at this early stage.",
-        "The case sits at the intersection of two problems increasingly common as cities redevelop aging public housing, industrial, and agricultural parcels: legacy contamination that predates current ownership by decades, and the reality that construction dust and disturbed soil do not respect parcel lines. Developers typically manage their own on-site environmental exposure through Phase I/II assessments, regulatory oversight agreements, and contractual risk allocation with their construction team. Managing liability to an unrelated, neighboring business with no contractual relationship to the project at all is a different and less familiar problem, and this case puts it squarely at issue.",
-        "The prior DTSC notice is likely to loom large as the case proceeds. Because regulators had already flagged organochlorine pesticides as a chemical of concern at the site years before construction began, Mitchell's claims are positioned to argue the defendants had specific, documented notice of the contamination risk rather than encountering it as a surprise during construction — a fact pattern that tends to strengthen a negligence claim and can support the kind of knowing-disregard theory a punitive-damages claim requires."
-      ],
-      timeline: [
-        { when: "March 4, 2020", label: "California DTSC letter identifies organochlorine pesticides, including chlordane, as chemicals of concern at the Mirasol Village site" },
-        { when: "April 2025", label: "Betty Mitchell, through Liveade Wellness Inc., files suit against McCormack Baron Salazar, A. Teichert & Son, and Midstate Construction" },
-        { when: "August 2026", label: "Judge Richard K. Sueyoshi issues rulings allowing Mitchell's negligence, fraud, and punitive-damages claims to proceed", current: true }
-      ],
-      judge: "Richard K. Sueyoshi",
-      tags: ["environmental contamination", "construction dust", "punitive damages", "redevelopment", "california"]
-    },
-    {
       id: "live-080",
       seoTitle: "Lloyd's Hurricane Ida Policy: Fifth Circuit Splits Arbitration",
       seoDescription: "Fifth Circuit: a Louisiana surplus lines policy's arbitration clause binds foreign Lloyd's underwriters but not domestic insurers on Ida claims.",
@@ -2915,14 +2872,14 @@ const RELAW_DATA = {
     {
       id: "live-093",
       seoTitle: "Old Hickory Village St. Peters: Investor Fraud Suit vs Tegethoff",
-      seoDescription: "Investors may amend fraud claims against developer Jeffrey Tegethoff over Old Hickory Village in St. Peters, Missouri, while his company is in Chapter 11.",
+      seoDescription: "A federal judge let investors amend fraud claims over Old Hickory Village in St. Peters, Mo., then stayed the case for a related bankruptcy.",
       property: {"name": "Old Hickory Village", "city": "St. Peters", "state": "MO"},
       addedDate: "2026-09-10",
       title: "Solera Multifamily, LLC v. Tegethoff (Old Hickory Village Investor Fraud Suit)",
-      brief: "A magistrate judge let Solera Multifamily and Hickory Investors amend fraud claims against the developer of the stalled Old Hickory Village apartments in Missouri, staying claims against his Chapter 11 company.",
+      brief: "A federal magistrate judge let Old Hickory Village investors amend their fraud suit against developer Jeffrey Tegethoff and his companies, then stayed the whole case in September for a related bankruptcy.",
       category: "reit-securities",
       status: "pending",
-      date: "2026-07-13",
+      date: "2026-06-17",
       jurisdiction: "U.S. District Court, Eastern District of Missouri",
       parties: [
         { name: "Solera Multifamily, LLC", role: "Plaintiff" },
@@ -2932,26 +2889,23 @@ const RELAW_DATA = {
       ],
       amountUsd: null,
       state: "MO",
-      amount: "~$3M direct investment claim; $540M in Ch. 11 liabilities",
+      amount: "Nearly $3M investment at issue, according to the plaintiffs",
       source: "live",
       sourceUrl: "https://molawyersmedia.com/2026/07/13/missouri-fraud-complaint-amended-real-estate-case/",
-      summary: "Magistrate Judge John M. Bodenhausen allowed investors Solera Multifamily, LLC and Hickory Investors, LLC to file an amended fraud complaint against developer Jeffrey J. Tegethoff over the stalled Old Hickory Village apartment project in St. Peters, Missouri, while staying claims against Tegethoff Development, LLC, which sought Chapter 11 protection on June 1, 2026 listing roughly $540 million in liabilities. Creditors in the bankruptcy case have separately moved to install an independent trustee, alleging insider transactions and commingled assets.",
-      significance: "Shows that a sponsor's bankruptcy filing stays civil fraud claims only against the debtor entities themselves, not against the individual principal or non-debtor affiliates, letting defrauded investors keep pursuing a controlling developer personally while his company's estate is administered separately. Investors and creditors in closely held real estate syndications should watch how the parallel civil and bankruptcy tracks in this case resolve.",
+      summary: "On June 17, 2026, U.S. Magistrate Judge John M. Bodenhausen allowed Solera Multifamily, LLC and Hickory Investors, LLC to file an amended complaint against developer Jeffrey J. Tegethoff and his development companies over the Old Hickory Village project in St. Peters, Missouri, denied the defendants' motion to dismiss without prejudice, and stayed claims against the two Tegethoff Development entities after they filed for Chapter 11, Missouri Lawyers Media reported. The plaintiffs allege nearly $3 million they invested was used for other purposes. On September 22, 2026, the court stayed the entire case pending the bankruptcy.",
+      significance: "The bankruptcy's automatic stay protected only the debtor companies, but the court then used its own power to pause the claims against the developer and the remaining defendants because they are intertwined with the bankruptcy. Investors suing a sponsor alongside its bankrupt entities may see the whole case wait on the bankruptcy even where the stay does not formally reach every defendant.",
       body: [
-        "A federal magistrate judge in the Eastern District of Missouri has allowed investors in a stalled St. Peters, Missouri apartment project to file an amended fraud complaint against developer Jeffrey J. Tegethoff and his affiliated companies, keeping alive a civil securities and fraud suit that runs on a parallel track with Tegethoff Development's own Chapter 11 bankruptcy case. The ruling, issued by Magistrate Judge John M. Bodenhausen in Solera Multifamily, LLC v. Tegethoff, No. 4:25-CV-1877-JMB, stays the plaintiffs' claims against the now-bankrupt corporate defendants while permitting the case against Tegethoff individually and non-debtor affiliates to proceed, a procedural split commercial real estate investors should watch closely as similar sponsor-collapse litigation works through courts nationally.",
-        "The underlying dispute traces to Old Hickory Village, a multifamily development in St. Peters that Tegethoff and his companies began in 2022. Plaintiffs Solera Multifamily, LLC and Hickory Investors, LLC allege they invested nearly $3 million in the project and that Tegethoff diverted those funds to purposes unrelated to the development, including personal expenses. According to the plaintiffs, the diversion left contractors on the project unpaid and caused significant construction delays, and other investors were reportedly forced to make additional capital contributions to keep the project moving, diluting the stakes of investors who had already put money in. The complaint, filed December 26, 2025, asserts breach of contract, breach of fiduciary duty, fraud in the inducement, state and federal securities fraud, theft and conversion, unjust enrichment, and a request for declaratory relief. Tegethoff has denied wrongdoing and moved to dismiss part of the federal case for lack of pleading particularity; Judge Bodenhausen's order allowing an amended complaint suggests the court was not yet persuaded dismissal was warranted on the existing record.",
-        "The litigation landscape shifted further on June 1, 2026, when Tegethoff Development, LLC sought Chapter 11 protection in the U.S. Bankruptcy Court for the Eastern District of Missouri, listing roughly $540 million in liabilities against a far smaller asset base, a filing that came as Tegethoff was simultaneously pursuing a separate, higher-profile venture: the roughly $500 million Oasis at Lakeport entertainment complex under construction at the Lake of the Ozarks. The bankruptcy filing automatically stayed the Solera plaintiffs' claims against the corporate debtor entities, which is why Judge Bodenhausen's order carves those defendants out while letting the case proceed against Tegethoff personally and non-debtor affiliates. In July 2026, creditors in the bankruptcy case escalated matters further, moving to appoint an independent Chapter 11 trustee and alleging Tegethoff engaged in insider transactions, provided inaccurate financial disclosures, and commingled corporate and personal assets, citing what the motion characterized as Tegethoff's own concession that he disregards corporate formalities between his entities.",
-        "Taken together, the civil fraud suit, the bankruptcy filing, and the trustee motion paint a picture of a sponsor whose capital structure and corporate governance are under simultaneous attack on three fronts, a pattern increasingly familiar to investors in real estate syndications and closely held development ventures generally. The overlap between the civil fraud case and the Chapter 11 proceeding also illustrates a structural feature of bankruptcy law that catches many investor-plaintiffs by surprise: the automatic stay protecting a debtor from civil litigation reaches the corporate entities that filed for bankruptcy protection, but not necessarily an individual principal or non-debtor affiliate who did not file, which is exactly the distinction that let the Solera plaintiffs keep pursuing Tegethoff personally even while their claims against his company are paused.",
-        "Investors who committed capital to closely held real estate development ventures structured around a single controlling principal should recognize that a sponsor's bankruptcy filing does not automatically halt fraud claims against that principal individually or against non-debtor affiliated entities, even where it stays claims against the bankrupt corporate defendants themselves. Creditors and investors evaluating a distressed sponsor's Chapter 11 case should pay close attention to allegations of commingled assets and disregarded corporate formalities, since those allegations, if substantiated, can support both a trustee motion in the bankruptcy case and a veil-piercing or personal-liability theory in parallel civil litigation, and developers and fund sponsors juggling multiple simultaneous projects financed by different investor pools should treat rigorous entity-by-entity financial separation as a legal necessity rather than an administrative formality, since a pattern of cross-project fund transfers is precisely the evidence both defrauded investors and bankruptcy creditors will look for once a project stalls."
+        "Solera Multifamily, LLC and Hickory Investors, LLC allege they invested almost $3 million in Old Hickory Village, a 2022 real estate development in St. Peters, Missouri, and that Jeffrey J. Tegethoff and the development companies he owns used the money for other purposes, Missouri Lawyers Media reported. The plaintiffs say contractors were not paid on time, the project was delayed, and other investors had to make additional capital contributions that diluted their shares, and that a request to review the books was ignored. The suit, filed December 26, 2025 in the Eastern District of Missouri (No. 4:25-CV-1877-JMB), asserted breach of contract, breach of fiduciary duty, fraud in the inducement, state and federal securities fraud, theft and conversion, unjust enrichment and declaratory relief.",
+        "The defendants moved to dismiss, arguing the fraud allegations lacked particularity. The plaintiffs did not respond to the motion and instead sought leave to file an amended complaint that dropped the federal securities claim; the defendants argued the change was meant to avoid federal limits on discovery. In a June 17, 2026 order, Judge Bodenhausen noted that the plaintiffs had 'wholly failed to respond' to the dismissal arguments but granted leave to amend under Rule 15's generous standard, denied the motion to dismiss without prejudice to refiling as to the non-bankrupt defendants, and stayed the case as to Tegethoff Development, LLC and Tegethoff Development Co, LLC, which had filed for Chapter 11.",
+        "On September 22, 2026, the court stayed the whole case. The order notes that the automatic bankruptcy stay does not apply to non-bankrupt defendants, but finds it efficient to pause the case given the intertwined claims, denies a renewed motion to dismiss and a motion to stay discovery without prejudice, and requires status reports on the bankruptcy starting December 18, 2026. Lawyers for both sides did not respond to Missouri Lawyers Media's requests for comment."
       ],
       tags: ["securities fraud", "investor fraud", "missouri", "multifamily", "bankruptcy"],
       judge: "John M. Bodenhausen",
       timeline: [
-        { when: "December 26, 2025", label: "Solera Multifamily and Hickory Investors file suit against Jeffrey Tegethoff and affiliated entities" },
-        { when: "June 1, 2026", label: "Tegethoff Development, LLC files Chapter 11 bankruptcy, listing roughly $540M in liabilities" },
-        { when: "July 2026", label: "Bankruptcy creditors move to appoint an independent Chapter 11 trustee, citing insider transactions and commingled assets" },
-        { when: "July 13, 2026", label: "Judge Bodenhausen allows an amended fraud complaint against Tegethoff and non-debtor affiliates to proceed while claims against the bankrupt entities are stayed" },
-        { when: "September 22, 2026", label: "Court enters order on a motion to dismiss the case and two motions to stay (docket entry 56)", current: true }
+        { when: "December 26, 2025", label: "Solera Multifamily and Hickory Investors sue Jeffrey Tegethoff, his development companies and two related trusts" },
+        { when: "March 26, 2026", label: "Defendants move to dismiss parts of the amended complaint" },
+        { when: "June 17, 2026", label: "Judge Bodenhausen grants leave to amend, denies the motion to dismiss without prejudice, and stays claims against the two bankrupt Tegethoff Development entities" },
+        { when: "September 22, 2026", label: "Court stays the entire case pending the bankruptcy and orders status reports beginning December 18, 2026", current: true }
       ],
       docketUrl: "https://www.courtlistener.com/docket/72081019/solera-multifamily-llc-v-tegethoff/",
       docketLabel: "CourtListener docket"
@@ -3356,12 +3310,12 @@ const RELAW_DATA = {
     },
     {
       id: "live-104",
-      seoTitle: "AltEn Ethanol Plant Mead NE: Cleanup-Cost Suit Settled",
-      seoDescription: "Pioneer Hi-Bred, Corteva and other seed firms settled cleanup-cost suits over the AltEn ethanol plant near Mead, Nebraska, with a land-use covenant.",
+      seoTitle: "AltEn Ethanol Plant Mead NE: Seed Companies' Suit Settled",
+      seoDescription: "Seed companies' federal suit over the AltEn ethanol plant near Mead, Nebraska was dismissed after a settlement; covenants limit the site's use.",
       property: {"name": "AltEn ethanol plant", "state": "NE"},
       addedDate: "2026-09-10",
       title: "Pioneer Hi-Bred International, Inc. et al. v. AltEn, LLC (Mead Ethanol Plant Cleanup-Cost Litigation)",
-      brief: "Seven seed and agrichemical companies settled ~$28M cleanup-cost suits against the defunct AltEn ethanol plant near Mead, Nebraska; the deal requires a long-term covenant restricting use of the contaminated property.",
+      brief: "Seed companies' federal suit against the former AltEn ethanol plant near Mead, Nebraska was dismissed in November 2025 after a settlement; court papers point to environmental covenants restricting the land's use.",
       category: "environmental",
       status: "settled",
       date: "2025-11-26",
@@ -3371,12 +3325,6 @@ const RELAW_DATA = {
         { name: "AgReliant Genetics, LLC", role: "Plaintiff" },
         { name: "Beck's Superior Hybrids, Inc.", role: "Plaintiff" },
         { name: "Corteva Agriscience, LLC", role: "Plaintiff" },
-        { name: "Corteva, Inc.", role: "Plaintiff" },
-        { name: "DDP AgroSciences US DCOMCO, Inc.", role: "Plaintiff" },
-        { name: "E. I. du Pont de Nemours and Company", role: "Plaintiff" },
-        { name: "GLH Seeds Inc.", role: "Plaintiff" },
-        { name: "Land O'Lakes, Inc.", role: "Plaintiff" },
-        { name: "Vilmorin USA Corp.", role: "Plaintiff" },
         { name: "Winfield Solutions, LLC", role: "Plaintiff" },
         { name: "AltEn, LLC", role: "Defendant" },
         { name: "AltEn Operating Company, LLC", role: "Defendant" },
@@ -3385,34 +3333,31 @@ const RELAW_DATA = {
         { name: "Falcon Energy, LLC", role: "Defendant" },
         { name: "Green Disposal Mead LLC", role: "Defendant" },
         { name: "Integrated Recycling, LLC", role: "Defendant" },
-        { name: "Langley Estate, Inc", role: "Defendant" },
         { name: "Mead Acquisition Company, LLC", role: "Defendant" },
         { name: "Mead Cattle Company, LLC", role: "Defendant" },
         { name: "Platte River Green Fuels, LLC", role: "Defendant" },
-        { name: "The Langley Group, Ltd.", role: "Defendant" },
         { name: "State of Nebraska", role: "Interested Party" }
       ],
-      amountUsd: 28000000,
-      amountBasis: "other",
+      amountUsd: null,
+      amountBasis: null,
       judge: "Brian C. Buescher",
       state: "NE",
-      amount: "~$28M in cleanup costs at issue",
+      amount: "Undisclosed settlement; cleanup privately funded by the seed companies",
       source: "live",
       sourceUrl: "https://nebraskaexaminer.com/2025/12/09/pillen-touts-alten-cleanup-progress-after-federal-lawsuit-settled/",
-      summary: "Seven seed and agrichemical companies -- Pioneer Hi-Bred International, Corteva Agriscience, AgReliant Genetics, Beck's Superior Hybrids, Winfield Solutions, Syngenta Seeds, and Bayer U.S. -- sued the defunct AltEn ethanol plant near Mead, Nebraska and its affiliated entities in 2022 to recover cleanup costs after the plant improperly stockpiled pesticide-treated seed corn waste and contaminated wastewater on-site. U.S. District Judge Brian Buescher dismissed the consolidated federal cases on November 26, 2025 after the parties reached an undisclosed settlement requiring AltEn to file a long-term environmental covenant restricting future use of the contaminated property.",
-      significance: "A rare instance of the companies that supplied a now-bankrupt facility's feedstock effectively becoming the ones responsible for cleaning up and permanently restricting reuse of its industrial real estate, after government enforcement alone couldn't resolve a site environmentalists called one of Nebraska's worst-ever contamination incidents. Any owner or supplier tied to a distressed industrial or agricultural-processing site should treat this as a model for how private cost-recovery litigation can end in a durable land-use covenant even where the responsible operator has no money left to pay a judgment.",
+      summary: "Seed companies that took over cleanup of the former AltEn ethanol plant near Mead, Nebraska sued AltEn and related entities in federal court in February 2022. On November 26, 2025, U.S. District Judge Brian C. Buescher accepted the parties' joint stipulation and dismissed the consolidated cases with prejudice. The Nebraska Examiner reported that settlement details may not be disclosed but that court papers indicate the property's owners must accept environmental restrictions, including a bar on homes, schools and child care facilities.",
+      significance: "The case ended with restrictions recorded against the contaminated industrial land itself rather than a money judgment reported in public. The settlement may also help resolve the Nebraska Attorney General's separate state suit over the plant, the Nebraska Examiner reported.",
       body: [
-        "AltEn, LLC operated an ethanol plant south of Mead, Nebraska that, unlike a conventional ethanol facility, accepted unsold pesticide-treated seed corn from major agricultural companies as feedstock rather than ordinary field corn -- seed AltEn's state permit did not authorize it to process. Rather than finding a lawful outlet for the resulting waste, AltEn stockpiled contaminated 'wet cake' byproduct and pesticide-laced wastewater in on-site lagoons, and a frozen pipe rupture on a 4-million-gallon anaerobic digester tank released additional waste, creating what neighboring residents and environmental groups have described as one of the state's most serious industrial contamination events.",
-        "Seven companies that had supplied AltEn with treated seed -- Pioneer Hi-Bred International, Corteva Agriscience, AgReliant Genetics, Beck's Superior Hybrids, Winfield Solutions, Syngenta Seeds, and Bayer U.S. -- sued AltEn, Mead Cattle Company, Green Disposal Mead, Platte River Green Fuels, and individual defendants Tanner Shaw and Scott Tingelhoff in the U.S. District Court for the District of Nebraska beginning in February 2022 (consolidated as Case Nos. 8:22CV70, 8:22CV71, and 8:22CV82), seeking to recover cleanup costs and enforce indemnification obligations the companies say AltEn had agreed to when it accepted the treated seed. The companies -- organized as the AltEn Facility Response Group -- ultimately fronted an estimated $28 million of their own money to remediate the site, well beyond what AltEn or its insolvent affiliates could pay.",
-        "After nearly four years of litigation, including a 2023 order freezing AltEn's assets as the cleanup tab grew, the parties reached an undisclosed settlement, and U.S. District Judge Brian Buescher dismissed the consolidated cases on November 26, 2025. As part of the resolution, AltEn is required to file an environmental covenant with Saunders County imposing long-term restrictions on how the contaminated property can be used going forward -- a mechanism the Nebraska Department of Water, Energy, and Environment relies on to protect the public at cleanup sites even after active remediation winds down. A related state enforcement lawsuit brought by the Nebraska Attorney General in Saunders County District Court over the same conduct remained paused pending settlement talks as of the federal dismissal.",
-        "For any company whose supply chain runs through a third-party processing or disposal facility, AltEn is a cautionary tale about how quickly a feedstock arrangement can convert into cleanup liability once a processor mishandles the material -- and a case study in how private litigation, rather than a government enforcement judgment the operator can't pay, ended up producing the durable outcome: a permanent land-use restriction on the contaminated property itself."
+        "AltEn ran an ethanol plant near Mead, Nebraska that turned pesticide-coated seed corn into fuel, according to the Nebraska Examiner. The state shut it down in February 2021 and filed its own lawsuit that year, which accuses AltEn of using pesticide-treated seed rather than the ordinary field corn its permit described and of improperly storing and disposing of byproduct. Seed companies that had worked with AltEn, organized as the AltEn Facility Response Group, took over the cleanup, which the Examiner said is privately funded and has removed a roughly 165,000-ton pile that included about 84,000 tons of contaminated byproduct.",
+        "Pioneer Hi-Bred International and other seed companies sued AltEn and related entities in the U.S. District Court for the District of Nebraska on February 22, 2022 (No. 8:22-cv-00070, consolidated with Nos. 8:22-cv-00071 and 8:22-cv-00082). The court entered a preliminary injunction in each case on February 8, 2023. In 2025 the parties sought several extensions while they obtained subordination agreements required by the state environmental regulator and recorded environmental covenants, according to the docket. On November 26, 2025, Judge Brian C. Buescher accepted their joint stipulation, dismissed all claims with prejudice with each side bearing its own fees and costs, and dissolved the injunction.",
+        "The Examiner reported that the deal limits the industrial property's future use, including a bar on using the land for homes, schools or child care facilities even after remediation, and keeps the state's access to sample the land and water. The Attorney General's suit in Saunders County District Court remains paused for settlement talks."
       ],
-      tags: ["CERCLA-adjacent", "ethanol plant", "cleanup costs", "environmental covenant", "cost recovery"],
+      tags: ["ethanol plant", "environmental covenant", "contamination", "settlement", "nebraska"],
       timeline: [
-        { when: "2021", label: "State and local officials identify large-scale pesticide-contaminated waste stockpiling at the AltEn site" },
-        { when: "February 2022", label: "Seven seed and agrichemical companies sue AltEn and affiliates to recover cleanup costs" },
-        { when: "February 2023", label: "Court freezes AltEn's assets as the seed companies' cleanup costs continue to rise" },
-        { when: "November 26, 2025", label: "Judge Brian Buescher dismisses the consolidated cases following an undisclosed settlement requiring a permanent environmental covenant", current: true }
+        { when: "February 2021", label: "Nebraska shuts down the AltEn plant and later files a state lawsuit" },
+        { when: "February 22, 2022", label: "Pioneer Hi-Bred and other seed companies sue AltEn and related entities in federal court" },
+        { when: "February 8, 2023", label: "Court enters a preliminary injunction in each consolidated case" },
+        { when: "November 26, 2025", label: "Judge Brian C. Buescher dismisses the consolidated cases with prejudice on the parties' joint stipulation", current: true }
       ],
       docketUrl: "https://www.courtlistener.com/docket/63107484/pioneer-hi-bred-international-inc-v-alten-llc/",
       docketLabel: "CourtListener docket"
@@ -3542,12 +3487,12 @@ const RELAW_DATA = {
     },
     {
       id: "live-109",
-      seoTitle: "Drexel Flats Oklahoma City: Receiver in Vesta Realty Foreclosure",
-      seoDescription: "A judge appointed a receiver for the 272-unit Drexel Flats apartments in Oklahoma City in Ready Capital's foreclosure against Vesta Realty-tied borrowers.",
+      seoTitle: "Drexel Flats Oklahoma City: Receiver Named in Foreclosure Suit",
+      seoDescription: "An Oklahoma County judge named a receiver for the Drexel Flats apartments in a lender's foreclosure suit against Vesta-tied borrowers, who appealed.",
       property: {"name": "Drexel Flats", "city": "Oklahoma City", "state": "OK"},
       addedDate: "2026-09-10",
       title: "Ready Capital Mortgage Financing 2023-FL 12, LLC v. Drexel Flats Acquisition LLC (Oklahoma City Apartment Foreclosure)",
-      brief: "A judge appointed a receiver May 20, 2026 over the 272-unit Drexel Flats apartments in Oklahoma City after Vesta-tied borrowers defaulted and did not turn over rents; the borrowers appealed. ~$28M–$30M is at stake.",
+      brief: "An Oklahoma County judge granted a lender's motion for a receiver at the Drexel Flats apartments in Oklahoma City on May 20, 2026; the borrower entities appealed to the state Supreme Court.",
       category: "lending-foreclosure",
       status: "ruling",
       date: "2026-05-20",
@@ -3568,28 +3513,29 @@ const RELAW_DATA = {
       amountBasis: "loan",
       judge: "Amy Palumbo",
       state: "OK",
-      amount: "~$28M–$30M in alleged unpaid principal, interest, and fees",
+      amount: "$28M loan; lender alleges more than $30M is owed",
       source: "live",
       sourceUrl: "https://kfor.com/news/in-your-corner/judge-decides-to-remove-vesta-realty-as-the-property-management-company-for-sw-okc-apartment-complex/",
       documentUrl: "https://www.oscn.net/dockets/GetCaseInformation.aspx?db=oklahoma&number=CJ-2026-1275",
       documentLabel: "View the Oklahoma County District Court docket (CJ-2026-1275)",
-      summary: "CMBS lender Ready Capital Mortgage Financing 2023-FL 12, LLC sued to foreclose on the 272-unit Drexel Flats apartment complex in southwest Oklahoma City after borrower entities tied to Tulsa-based Vesta Realty and its CEO, Marc Kulick, defaulted on the property's loan. Judge Amy Palumbo granted the lender's motion to appoint a receiver on May 20, 2026 after finding Vesta-affiliated borrowers had not turned over rents while tenants went months without reliable trash and utility service; the borrowers posted a $200,000 cash bond and appealed the receivership order to the Oklahoma Supreme Court while a separate summary-judgment motion remains pending in the trial court.",
-      significance: "One of several parallel Oklahoma County foreclosure and receivership actions tied to the collapse of Vesta Realty's roughly $1 billion, multistate apartment portfolio (see the related Vesta Capital, LLC v. Kulick investor-fraud suit in Kansas), this case shows how quickly a court will strip a distressed sponsor of day-to-day control once tenant harm from unpaid utilities and deferred maintenance becomes part of the record — even before the underlying default is finally adjudicated on summary judgment. Lenders and receivership candidates on distressed multifamily assets should expect Oklahoma courts to move on a receiver motion well ahead of the merits.",
+      summary: "Ready Capital Mortgage Financing 2023-FL 12, LLC sued in Oklahoma County District Court on February 18, 2026 to foreclose on the Drexel Flats apartments in southwest Oklahoma City, naming borrower entities linked to Vesta Realty and its CEO, Marc Kulick. KFOR reported the suit concerns a $28 million loan that matured in January 2025 and that court papers say more than $30 million is owed. Judge Amy Palumbo granted the lender's motion for a receiver on May 20, 2026; the borrower entities posted a $200,000 cash appeal bond and filed a petition in error with the Oklahoma Supreme Court, and the lender's summary-judgment motion is pending.",
+      significance: "The case shows a lender obtaining a receiver to take over a multifamily property's operations while the foreclosure itself is still being litigated. It is one of a number of Oklahoma County suits filed by lenders and contractors against Vesta-linked entities in 2026.",
       body: [
-        "Ready Capital Mortgage Financing 2023-FL 12, LLC filed suit in Oklahoma County District Court on February 18, 2026 to foreclose on Drexel Flats, a 272-unit apartment complex in southwest Oklahoma City, naming as defendants the borrower entities Drexel Flats Acquisition LLC and Drexel Flats Acquisition TIC LLC, Vesta Realty founder and CEO Marc Kulick individually, several unpaid trade contractors who had filed liens against the property, and YSA Investments 1, LLC — the vehicle used by former arms dealer Efraim Diveroli to take over roughly two dozen other Vesta-affiliated properties after extending Kulick high-interest rescue loans.",
-        "The petition, filed alongside a motion to appoint a receiver, came after months of reporting on unpaid utility bills and overflowing trash service at Vesta-managed properties across Oklahoma amid the broader collapse of Kulick's roughly $1 billion, nearly-10,000-unit multifamily platform. Following a contested hearing, Judge Amy Palumbo granted the receiver motion on May 20, 2026, and a written order appointing Jeremiah Foster of Resolute Commercial Services, LLC as receiver was entered May 28, 2026.",
-        "The Drexel Flats borrowers didn't concede the point: they posted a $200,000 cash bond and filed a petition in error taking the receivership order up to the Oklahoma Supreme Court, while YSA Investments 1 — despite being a defendant in this case as a competing claimant to the collateral — separately filed for Chapter 11 bankruptcy protection on July 30, 2026, staying the foreclosure claim as to YSA specifically. Meanwhile, the underlying foreclosure claim continues in the trial court, with Ready Capital's motion for summary judgment against the remaining defendants set for hearing in November 2026.",
-        "The case is one of several Oklahoma County actions arising from Vesta's collapse — parallel to, but legally distinct from, the Kansas investor-fraud suit Vesta Capital, LLC v. Kulick — and illustrates how a multistate sponsor's implosion generates simultaneous, overlapping litigation tracks: a fraud case where the capital was raised, receivership and foreclosure fights where the properties sit, and now competing bankruptcy and appellate proceedings layered on top of both."
+        "Ready Capital Mortgage Financing 2023-FL 12, LLC filed a verified petition to foreclose on Drexel Flats, an apartment complex in southwest Oklahoma City, together with a motion to appoint a receiver, in Oklahoma County District Court on February 18, 2026 (No. CJ-2026-1275). The docket names as defendants the borrower entities Drexel Flats Acquisition LLC and Drexel Flats Acquisition TIC LLC, Marc Kulick, YSA Investments 1, LLC, several contractors and suppliers, and Oklahoma County's commissioners and treasurer. KFOR reported that M Group announced its acquisition of the property in 2021 in partnership with Vesta Capital, and that Kulick is CEO of Vesta Capital and Vesta Realty, which managed the property.",
+        "According to KFOR, the loan was for $28 million and matured in January 2025, and court documents say more than $30 million is now owed; the station quoted the lender's filing as saying the borrowers 'have not turned over rents and other proceeds from the property.' Tenants told KFOR of overflowing trash, which the service provider attributed to nonpayment, along with security lights going out and repeated water shut-off notices. Vesta Realty did not respond to KFOR; the company previously told the station it takes 'resident health, safety and essential services seriously.'",
+        "The borrower defendants opposed the receiver motion. After a hearing on May 20, 2026, Judge Amy Palumbo granted it, and an order appointing a receiver from Resolute Commercial Services, LLC was signed May 28. On June 3, the Drexel Flats entities posted a $200,000 cash appeal bond and filed a petition in error (Oklahoma Supreme Court No. 124122). Ready Capital moved for summary judgment on June 17. A suggestion of bankruptcy was filed for YSA Investments 1 on July 30, and the foreclosure claim against YSA was marked disposed on that basis. The summary-judgment hearing, reset several times, was continued on November 3 to December 4, 2026."
       ],
       timeline: [
-        { when: "February 18, 2026", label: "Ready Capital sues to foreclose on Drexel Flats and moves to appoint a receiver" },
-        { when: "May 20, 2026", label: "Judge Amy Palumbo grants the motion for appointment of a receiver", current: true },
-        { when: "May 28, 2026", label: "Written order appointing a receiver is entered; Jeremiah Foster of Resolute Commercial Services is installed" },
-        { when: "June 3, 2026", label: "Borrower defendants post a $200,000 cash bond and appeal the receivership order to the Oklahoma Supreme Court" },
-        { when: "July 30, 2026", label: "Co-defendant YSA Investments 1, LLC files for Chapter 11 bankruptcy, staying the case as to YSA" },
-        { when: "November 3, 2026", label: "Plaintiff's motion for summary judgment is set for hearing in the trial court" }
+        { when: "February 18, 2026", label: "Ready Capital files to foreclose on Drexel Flats and moves for a receiver" },
+        { when: "May 20, 2026", label: "Judge Amy Palumbo grants the motion for a receiver after a hearing" },
+        { when: "May 28, 2026", label: "Order appointing a receiver from Resolute Commercial Services is signed" },
+        { when: "June 3, 2026", label: "Borrower entities post a $200,000 cash appeal bond and file a petition in error with the Oklahoma Supreme Court" },
+        { when: "June 17, 2026", label: "Ready Capital moves for summary judgment" },
+        { when: "July 30, 2026", label: "Suggestion of bankruptcy filed for co-defendant YSA Investments 1, LLC" },
+        { when: "November 3, 2026", label: "Summary-judgment hearing continued", current: true },
+        { when: "December 4, 2026", label: "Summary-judgment hearing set", upcoming: true }
       ],
-      tags: ["foreclosure", "receivership", "multifamily", "oklahoma", "vesta realty"]
+      tags: ["foreclosure", "receivership", "multifamily", "oklahoma", "vesta"]
     },
     {
       id: "live-110",
@@ -3771,11 +3717,11 @@ const RELAW_DATA = {
     {
       id: "live-115",
       seoTitle: "Greenwood Park Mall Shooting Suit vs Simon: Indiana Supreme Court",
-      seoDescription: "Indiana Supreme Court heard whether Simon Property Group and its security firm owed a duty over the 2022 Greenwood Park Mall food-court shooting.",
+      seoDescription: "Indiana's Supreme Court heard Simon Property Group's bid to dismiss a 2022 Greenwood Park Mall shooting suit, the Indiana Capital Chronicle reported.",
       property: {"name": "Greenwood Park Mall", "state": "IN"},
       addedDate: "2026-09-10",
-      title: "Stewart v. Simon Property Group, L.P. (Greenwood Park Mall Shooting Negligent-Security Suit)",
-      brief: "The Indiana Supreme Court heard argument on whether Simon Property Group and its security contractor owed patrons a duty over the July 17, 2022 Greenwood Park Mall shooting, after lower courts refused to dismiss.",
+      title: "Greenwood Park Mall Shooting Negligent-Security Suit Against Simon Property Group (Indiana Supreme Court)",
+      brief: "The Indiana Supreme Court heard argument Jan. 15, 2026 on whether Simon Property Group and its security contractor can be sued over the 2022 Greenwood Park Mall shooting.",
       category: "premises-liability",
       status: "appeal",
       date: "2026-01-15",
@@ -3790,19 +3736,19 @@ const RELAW_DATA = {
       amount: "Unspecified compensatory damages sought; underlying premises-liability and negligence claims",
       source: "live",
       sourceUrl: "https://indianacapitalchronicle.com/2026/01/16/fate-of-greenwood-mall-shooting-lawsuit-now-with-indiana-supreme-court/",
-      summary: "The Indiana Supreme Court heard oral argument on January 15, 2026 in the long-running negligent-security suit brought by shooting victim Kaya P.R. Stewart and her family against Greenwood Park Mall owner Simon Property Group, L.P. and its security contractor, Universal Protection Service, LLC (d/b/a Allied Universal Security Services), over the July 17, 2022 food-court mass shooting that killed three people. Both the Marion Superior Court and the Indiana Court of Appeals rejected the defendants' bids to dismiss the case, and the Supreme Court is now weighing the central question of whether a mass shooting at a shopping mall is foreseeable enough, as a matter of law, to support a negligent-security duty running from the mall owner and its security contractor to mall patrons.",
-      significance: "One of the most closely watched tests of the foreseeability element in mall and shopping-center negligent-security claims now pending before any state supreme court, with Indiana's status as an open-carry state adding a wrinkle the justices probed directly at argument. Whatever standard the Court adopts will shape how every commercial landlord and contracted security firm in Indiana litigates -- and insures against -- premises-liability exposure tied to third-party criminal acts, and is likely to be cited well beyond Indiana given how thin state supreme court authority remains on this exact question.",
+      summary: "The Indiana Supreme Court heard oral argument on January 15, 2026 in a negligence suit brought by a woman wounded in the attack and her family against Greenwood Park Mall owner Simon Property Group, L.P. and security contractor Universal Protection Service, LLC over the July 17, 2022 food-court shooting that killed three people, the Indiana Capital Chronicle reported. The defendants argue the suit should be dismissed because such an attack could not be foreseen. A Marion County trial court and the Indiana Court of Appeals both refused to dismiss the case.",
+      significance: "The court's answer will shape whether Indiana negligent-security claims against mall owners and their security contractors over a mass shooting can get past a motion to dismiss and into discovery. Related wrongful-death suits are on hold until it rules.",
       body: [
-        "A gunman opened fire in the food court of Greenwood Park Mall, south of Indianapolis, on July 17, 2022, killing three people before an armed bystander fatally shot him. Kaya Stewart, who was shot in the leg, and her family sued the mall's owner, Simon Property Group, L.P., and its contracted security provider, Universal Protection Service, LLC, d/b/a Allied Universal Security Services, LLC, in Marion Superior Court on January 5, 2024, alleging the companies failed to take reasonable steps to prevent a foreseeable attack. The complaint points to specific, concrete lapses rather than a generalized failure to prevent crime: understaffed video monitoring of the parking lots and mall corridors, non-functioning security cameras, no security presence covering the food court at the time of the shooting, and no one noticing the gunman spend more than an hour in a restroom assembling his weapons or carrying a large backpack through areas covered by roughly a dozen cameras beforehand.",
-        "Simon and Allied Universal moved to dismiss on the theory that a mass shooting is categorically unforeseeable as a matter of law, and that imposing a duty to prevent one would make property owners insurers against unpredictable third-party violence. Both the Marion County trial court and the Indiana Court of Appeals rejected that argument on procedural grounds, allowing the case to proceed, and the defendants sought and obtained review by the Indiana Supreme Court.",
-        "At oral argument on January 15, 2026, the justices pressed both sides on how Indiana's status as an open-carry state should factor into the foreseeability analysis -- whether a mall operator's security planning should account for the elevated baseline risk of firearms being present on the property even without any prior history of gun violence at that specific location. Companion wrongful-death suits brought by the families of three people killed in the shooting, Pedro Pineda, Rosa Mirian Rivera de Pineda, and Victor Gomez, have been held pending the outcome of the Stewart appeal, meaning the Supreme Court's eventual ruling will resolve far more than one plaintiff's case.",
-        "For any owner or manager of a shopping mall, lifestyle center, or other high-traffic retail property, the case is a live illustration of how negligent-security claims are increasingly built around documentable security-system failures -- non-functioning cameras, unmonitored feeds, unstaffed high-risk areas -- rather than a bare argument that violence in general was foreseeable. A ruling that lets the case proceed to a jury would meaningfully lower the bar plaintiffs must clear at the pleading stage in Indiana and likely beyond."
+        "A gunman opened fire in the food court of Greenwood Park Mall, south of Indianapolis, on July 17, 2022, killing three people before an armed bystander shot and killed him. A woman who was shot in the leg and her family sued the mall's owner, Simon Property Group, L.P., and its security contractor, Universal Protection Service, LLC (d/b/a Allied Universal Security Services), in Marion Superior Court in 2024. According to the Court of Appeals' June 9, 2025 opinion, the amended complaint alleges the gunman walked through the parking lot and into the mall past security patrols and cameras carrying a long backpack of the kind used for rifles, spent more than an hour in a food-court restroom stall assembling weapons, and that no security personnel were in the food court when the shooting began.",
+        "Simon and Universal moved to dismiss, arguing a mall shooting is not foreseeable as a matter of law, so no duty arises. Judge Christina R. Klineman denied the motions on May 14, 2024, and the Court of Appeals affirmed on June 9, 2025. The Indiana Capital Chronicle described both courts as rejecting the dismissal bids on procedural grounds.",
+        "At the January 15, 2026 argument, according to the Capital Chronicle, the family's attorney said the victims should be able to investigate the mall's security as the gunman passed at least a dozen cameras. Simon's attorney argued that seeing someone walk into a mall with a backpack does not put anyone on notice of a mass shooting, and pointed to Indiana law allowing people to carry guns openly. Justice Christopher Goff asked whether the security contractor should take steps to recognize a potential shooter; the attorney warned against 'judicially sanctioned profiling.' Wrongful-death suits by the families of the three people killed are on hold until the court rules."
       ],
       timeline: [
-        { when: "July 17, 2022", label: "Gunman kills three people in the Greenwood Park Mall food court; an armed bystander fatally shoots him" },
-        { when: "January 5, 2024", label: "Kaya Stewart and her family sue Simon Property Group and Universal Protection Service (d/b/a Allied Universal Security Services) in Marion Superior Court" },
-        { when: "2024-2025", label: "Marion Superior Court and the Indiana Court of Appeals both reject the defendants' bids to dismiss the case" },
-        { when: "January 15, 2026", label: "Indiana Supreme Court hears oral argument on whether the mass shooting was foreseeable as a matter of law", current: true }
+        { when: "July 17, 2022", label: "Gunman kills three people in the Greenwood Park Mall food court; an armed bystander shoots and kills him" },
+        { when: "January 30, 2024", label: "The wounded woman and her family file an amended complaint against Simon Property Group and Universal Protection Service in Marion Superior Court" },
+        { when: "May 14, 2024", label: "Trial court denies the defendants' motions to dismiss" },
+        { when: "June 9, 2025", label: "Indiana Court of Appeals affirms the denial" },
+        { when: "January 15, 2026", label: "Indiana Supreme Court hears oral argument", current: true }
       ],
       tags: ["negligent security", "premises liability", "mall shooting", "foreseeability", "open carry", "Indiana Supreme Court"]
     },
@@ -6212,30 +6158,30 @@ const RELAW_DATA = {
     },
     {
       id: "live-189",
-      seoTitle: "Edgerton, KS Data Center Petition: City's Suit Dismissed as SLAPP",
-      seoDescription: "A Johnson County judge dismissed Edgerton, Kansas's suit over a citizen petition to ban high-impact data centers under the state anti-SLAPP law.",
+      seoTitle: "Edgerton, KS Data Center Petition: City's Suit Struck as SLAPP",
+      seoDescription: "A Kansas judge struck Edgerton's suit over a petition to block data centers under the state anti-SLAPP law, the Johnson County Post reported.",
       addedDate: "2026-09-26",
-      title: "City of Edgerton, Kansas v. Twente (Anti-SLAPP Dismissal of Municipal Suit Over Data Center Petition)",
-      brief: "A Kansas judge dismissed Edgerton's suit against residents over a petition to ban high-impact data centers under the state anti-SLAPP law, clearing it toward a vote and making the city pay legal expenses.",
+      title: "City of Edgerton, Kansas Suit Over Data Center Petition Struck Under State Anti-SLAPP Law",
+      brief: "A Kansas judge struck Edgerton's suit against two residents and their nonprofit over a petition to block data centers, finding it violated the state anti-SLAPP law.",
       category: "zoning-land-use",
       status: "ruling",
       date: "2026-09-03",
       jurisdiction: "Johnson County District Court, Kansas",
       state: "KS",
-      amount: "Not applicable (declaratory/zoning dispute; city ordered to pay defendants' legal expenses)",
+      amount: "Not applicable (challenge to a citizen petition)",
       source: "live",
       sourceUrl: "https://johnsoncountypost.com/2026/09/10/judge-dismisses-city-of-edgertons-lawsuit-295865/",
-      summary: "Johnson County District Judge Stephanie Goodenow dismissed the City of Edgerton, Kansas's lawsuit against residents Kimberly Twente and Carrie Schmidt over their citizen petition to ban high-impact data centers, ruling on September 3, 2026 that the city's suit violated the Kansas Public Speech Protection Act (the state's anti-SLAPP law). The ruling clears the way for the 208-signature petition to proceed toward a public vote and requires Edgerton to pay the defendants' legal expenses.",
-      significance: "The ruling is a novel application of an anti-SLAPP statute against a municipal government itself, rather than a private plaintiff, and signals real litigation risk for other cities considering suits against citizen-led zoning petitions opposing data center development. It reinforces that recharacterizing a legislative zoning ordinance as merely administrative is unlikely to defeat citizen initiative rights.",
+      summary: "Johnson County District Judge Stephanie Goodenow on September 3, 2026 granted a motion to strike the City of Edgerton, Kansas's lawsuit against two residents and their nonprofit, Public Trust Collective Inc., over a citizen petition aimed at stopping data centers in the city, the Johnson County Post reported. She found the suit violated the defendants' rights under the Kansas Public Speech Protection Act. The city said it respects the decision but still has concerns about the proposed ordinance and is evaluating its options.",
+      significance: "The ruling applies Kansas's anti-SLAPP law to a suit brought by a city against its own residents over a petition. It was not reported to settle whether the petition's ordinance is legislative and so eligible for a public vote, which was being fought in a separate case.",
       body: [
-        "A Johnson County, Kansas district judge has dismissed a lawsuit the City of Edgerton filed against two of its own residents over a citizen petition seeking to ban high-impact data centers, ruling on September 3, 2026 that the city's suit violated the residents' rights under the Kansas Public Speech Protection Act, the state's anti-SLAPP law. The decision, issued by Judge Stephanie Goodenow, is a notable data point for the fast-growing body of litigation surrounding hyperscale data center development: it applies an anti-SLAPP statute, typically invoked by private citizens or media defendants against corporate or individual plaintiffs, against a municipal government itself.",
-        "The dispute began when Edgerton residents Kimberly Twente and Carrie Schmidt, working with the nonprofit Public Trust Collective Inc., circulated a citizen petition calling for a local ban on high-impact data center development and gathered 208 signatures, enough under Kansas law to force the question toward a public vote. In August 2026, rather than allow the petition to proceed through the normal certification process, the City of Edgerton filed suit against Twente and Schmidt, characterizing the petition as void and invalid and asking the court to block the data-center ban from reaching an election, on a theory that the petition was administrative rather than legislative in character -- a distinction that matters because Kansas citizen initiative and referendum rights generally attach only to legislative acts.",
-        "Judge Goodenow rejected that framing, finding in granting the defendants' special motion to strike that the zoning ordinance the petition targeted met the standard of a legislative act, meaning the citizens' initiative rights validly attached and the city's suit was, in substance, an attempt to chill Twente and Schmidt's protected petitioning activity. The court found the city's evidentiary showing conclusory, and because Kansas's anti-SLAPP statute shifts attorney's fees to a prevailing defendant, the ruling also means Edgerton must cover the legal expenses Twente and Schmidt incurred defending the suit.",
-        "The ruling's significance extends past Edgerton's town limits. Anti-SLAPP statutes were drafted primarily to deter wealthy private plaintiffs from using litigation to silence individual critics; applying the same framework against a city government that sued its own citizens is a comparatively novel maneuver, one that other data-center-adjacent municipalities weighing similar suits against petition organizers should now take seriously as a live litigation risk. The underlying policy fight is not over -- the ruling clears the path for the petition to proceed toward a public vote, rather than resolving whether Edgerton will ultimately restrict data center development -- but for developers and municipalities involved in the current wave of siting disputes, including comparable fights in Joliet, Illinois and Westlake, Texas, the case is an early signal that a city suing its critics carries real financial and legal exposure of its own, and that the administrative-versus-legislative characterization of a challenged ordinance is likely to remain a recurring, outcome-determinative fight worth building a substantial factual record around well before litigation."
+        "Two Edgerton residents and their nonprofit, Public Trust Collective Inc., circulated a petition for an ordinance to stop data centers from being built in the city and gathered 208 signatures, the Johnson County Post reported. The Post said the county election office verified the signatures. At its July 23 meeting the city council declined to adopt the ordinance, saying it contained inaccurate statements, and instead voted to approve a lawsuit. The article references a data center proposed by Dubai-based DAMAC Digital at the Logistics Park Kansas City warehouse in Edgerton.",
+        "The city sued on August 4, calling the petition 'legally and factually deficient' and arguing that the proposed ordinance would work as a zoning restriction, making it administrative rather than legislative and so outside the citizen petition process. On September 3, Judge Stephanie Goodenow granted the defendants' motion to strike, finding the suit violated their rights under the Kansas Public Speech Protection Act, which bars lawsuits meant to silence public participation. Their attorney called the ruling 'a major victory.'",
+        "The city said it respects the court's decision but has serious concerns that the ordinance exceeds its authority and misstates facts about water and power, and that it is evaluating options. A separate suit against the city clerk argues the petition belongs on the ballot; when the Post's article ran, it had not been decided whether the measure would appear on the November ballot."
       ],
       timeline: [
-        { when: "August 2026", label: "City of Edgerton sues residents Kimberly Twente and Carrie Schmidt to void their data-center-ban petition" },
-        { when: "September 3, 2026", label: "Judge Stephanie Goodenow dismisses the city's suit under the Kansas Public Speech Protection Act", current: true }
+        { when: "July 23, 2026", label: "Edgerton city council declines to adopt the petitioned ordinance and approves a lawsuit" },
+        { when: "August 4, 2026", label: "City of Edgerton sues the petition organizers and Public Trust Collective Inc." },
+        { when: "September 3, 2026", label: "Judge Stephanie Goodenow grants the motion to strike under the Kansas Public Speech Protection Act", current: true }
       ],
       judge: "Stephanie Goodenow",
       parties: [
@@ -6244,7 +6190,7 @@ const RELAW_DATA = {
       ],
       amountUsd: null,
       propertyType: "Data Center",
-      tags: ["data center", "anti-slapp", "zoning", "kansas", "citizen petition"]
+      tags: ["data center", "anti-slapp", "citizen petition", "kansas", "municipal litigation"]
     },
     {
       id: "live-192",
@@ -7885,14 +7831,14 @@ const RELAW_DATA = {
     {
       id: "live-257",
       seoTitle: "Monroe Township NJ Data Center Ban: Hexa Builders $300M Suit",
-      seoDescription: "Hexa Builders sued Monroe Township, N.J. over data center bans aimed at its Black Horse Pike site in Williamstown, seeking $300 million in damages.",
-      property: {"address": "Black Horse Pike", "city": "Williamstown", "state": "NJ"},
+      seoDescription: "Hexa Builders is seeking $300 million from Monroe Township, N.J. after the town reversed an ordinance allowing data centers; the case is now in federal court.",
+      property: {"city": "Monroe Township", "state": "NJ"},
       addedDate: "2026-10-11",
-      title: "Hexa Builders, LLC v. Monroe Township: Developer Challenges Retroactive Data Center Zoning Ban",
-      brief: "Hexa Builders sued Monroe Township, New Jersey over ordinances banning data centers at its site and township-wide, seeking repeal of the ban plus $300 million in damages; the case was removed to federal court.",
+      title: "Hexa Builders, LLC v. Mayor and Township Council of the Township of Monroe: Developer Challenges Data Center Ban",
+      brief: "Hexa Builders sued Monroe Township, N.J. for $300 million after officials reversed a 2025 ordinance that had allowed data centers; the township removed the case to federal court.",
       category: "zoning-land-use",
       status: "pending",
-      date: "2026-07-06",
+      date: "2026-06-05",
       jurisdiction: "United States District Court, District of New Jersey",
       state: "NJ",
       amount: "$300 million sought in damages",
@@ -7900,25 +7846,31 @@ const RELAW_DATA = {
       amountBasis: "claim",
       source: "live",
       sourceUrl: "https://newjerseymonitor.com/2026/08/20/nj-data-center-bans-courts/",
-      summary: "Hexa Builders, LLC sued Monroe Township, New Jersey after the township passed ordinances stripping data centers as a permitted use at Hexa's site and banning them township-wide, then rejected Hexa's data-center application for two previously approved warehouse buildings. The suit, removed to federal court on July 6, 2026, alleges violations of New Jersey's Municipal Land Use Law and federal equal-protection and First Amendment claims, and seeks the ban's repeal plus $300 million in damages.",
-      significance: "The case tests whether a municipality can retroactively strip or ban a previously permitted, capital-intensive use once a specific project is already in the approval pipeline. A plaintiff win would expose municipalities nationally that enact late-stage, project-targeted zoning changes to major damages exposure, raising the stakes of local political opposition to data center development well beyond a simple permit denial.",
+      summary: "Hexa Builders, LLC, a Princeton-based developer seeking to build a 1-million-square-foot data center and warehouse, sued Monroe Township in Gloucester County, New Jersey in June 2026 after local officials reversed a 2025 ordinance that had allowed data centers, the New Jersey Monitor reported. The 20-count complaint seeks $300 million and alleges violations of the Municipal Land Use Law, the township's own application procedures and the First Amendment. The township removed the case to federal court on July 6, 2026, where it is pending before Judge Edward S. Kiel.",
+      significance: "The suit is one of at least three filed by developers in summer 2026 challenging New Jersey municipal data center bans, according to the New Jersey Monitor. It tests what claims a developer has when a town reverses a zoning change that had allowed the use it planned.",
       body: [
-        "Hexa Builders, LLC received preliminary site-plan approval from Monroe Township, New Jersey in January 2026 for two warehouse buildings on Black Horse Pike in Williamstown. After neighbors raised concerns that the buildings could ultimately be used as an AI data center, the township's council passed two ordinances in 2026 -- one stripping data centers as a permitted use specifically at Hexa's site, and a second banning data centers township-wide -- and then rejected Hexa's follow-on application to use the buildings as a data center.",
-        "Hexa filed a twenty-count complaint in Gloucester County Superior Court on June 5, 2026, alleging violations of New Jersey's Municipal Land Use Law along with federal equal-protection and First Amendment claims, and seeking both repeal of the ban and $300 million in damages. Monroe Township removed the case to the United States District Court for the District of New Jersey on July 6, 2026, where it remains pending. A nearly identical suit is pending against Andover Township, New Jersey, filed by Hexa in July 2026.",
-        "The dispute is part of a fast-growing wave of developer suits challenging late-stage municipal data-center bans and moratoria, as communities around the country move to restrict a use that was, in many cases, not separately zoned or regulated until a specific project drew local opposition. For commercial developers, the case underscores the legal risk of proceeding on preliminary approvals that a municipality may later attempt to unwind once a project's ultimate use becomes politically contentious, and for municipalities, it illustrates the damages exposure that can follow a zoning change targeted at a specific, already-approved project rather than adopted as a general, prospective land-use policy."
+        "Hexa Builders, a Princeton-based developer, wants to build a 1-million-square-foot data center and warehouse in Monroe Township, Gloucester County, the New Jersey Monitor reported. Its 20-count complaint accuses the township of violating New Jersey's Municipal Land Use Law and its own application procedures after officials reversed a 2025 ordinance that had allowed data centers, and argues the ban violates the First Amendment. 'Data centers are a medium of expression,' the complaint says, according to the Monitor. The suit seeks $300 million.",
+        "Hexa filed in state Superior Court on June 5, 2026 (GLO-L-00805-26), and the township's council and planning board removed the case to the U.S. District Court for the District of New Jersey on July 6, 2026 (No. 1:26-cv-08284). The court denied the plaintiffs' request to move for partial remand, and the defendants moved to dismiss on September 1. Hexa and 3043 Williamstown Urban Renewal, LLC filed an amended complaint on September 18, and Judge Edward S. Kiel administratively terminated the first motion and allowed the defendants to move to dismiss the amended pleading. Township officials did not respond to the Monitor's request for comment.",
+        "The Monitor reported that Montgomery and Andover townships were sued over their own data center bans in the same period, by E. Khan Development and National Land Developers LLC respectively, and that nearly three dozen New Jersey municipalities have passed bans or restrictions on data centers."
       ],
-      judge: null,
+      judge: "Edward S. Kiel",
       propertyType: "Data Center",
       parties: [
         { name: "Hexa Builders, LLC", role: "Plaintiff" },
-        { name: "Monroe Township", role: "Defendant" }
+        { name: "3043 Williamstown Urban Renewal, LLC", role: "Plaintiff" },
+        { name: "Mayor and Township Council of the Township of Monroe", role: "Defendant" },
+        { name: "Planning Board of the Township of Monroe", role: "Defendant" }
       ],
       tags: ["data-center", "zoning", "land-use", "new-jersey", "municipal-ban"],
       timeline: [
-        { when: "January 2026", label: "Monroe Township grants Hexa Builders preliminary site-plan approval for two warehouse buildings" },
-        { when: "June 5, 2026", label: "Hexa Builders files suit in Gloucester County Superior Court challenging the township's data-center ban" },
-        { when: "July 6, 2026", label: "Monroe Township removes the case to the U.S. District Court for the District of New Jersey", current: true }
-      ]
+        { when: "June 5, 2026", label: "Hexa Builders files suit in New Jersey Superior Court, Gloucester County" },
+        { when: "July 6, 2026", label: "Monroe Township's council and planning board remove the case to the U.S. District Court for the District of New Jersey" },
+        { when: "September 1, 2026", label: "Defendants move to dismiss" },
+        { when: "September 18, 2026", label: "Hexa Builders and 3043 Williamstown Urban Renewal, LLC file an amended complaint" },
+        { when: "September 19, 2026", label: "Judge Edward S. Kiel terminates the first motion to dismiss and allows a renewed motion", current: true }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/73580832/hexa-builders-llc-v-mayor-and-township-council-of-the-township-of-monroe/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-258",
@@ -10773,27 +10725,25 @@ const RELAW_DATA = {
     {
       id: "live-328",
       seoTitle: "I-93 Exit 4A Derry: Jury Upholds Eminent Domain of Developer Land",
-      seoDescription: "A New Hampshire jury unanimously found NHDOT's Exit 4A takings from 101 Franklin Derry, LLC and S&L Elm Street Holdings were a valid public use in Derry.",
+      seoDescription: "A New Hampshire jury unanimously upheld the state's Exit 4A takings from 101 Franklin Derry and S&L Elm Street Holdings, the AG's office said.",
       property: {"name": null, "address": null, "city": "Derry", "state": "NH"},
       addedDate: "2026-10-23",
       title: "State v. 101 Franklin Derry, LLC: New Hampshire Jury Upholds Eminent Domain Takings of Developer's Land for I-93 Exit 4A",
-      brief: "A New Hampshire jury unanimously upheld the state's eminent domain takings of two development companies' land in Derry for the I-93 Exit 4A interchange.",
+      brief: "A New Hampshire jury unanimously upheld the state's eminent domain takings of two development companies' land in Derry for I-93 Exit 4A, the Attorney General's office announced.",
       category: "eminent-domain",
       status: "ruling",
       date: "2026-10-20",
       jurisdiction: "New Hampshire state court (jury trial; reporting does not name the court)",
       state: "NH",
-      amount: "Validity of takings for a $161.3 million interchange project",
+      amount: "Validity of the state's takings for the I-93 Exit 4A project; no compensation figure reported",
       source: "live",
       sourceUrl: "https://indepthnh.org/2026/10/20/department-of-justice-secures-jury-verdict-in-support-of-construction-of-exit-4a-on-i-9/",
-      summary: "After a four-day trial, a New Hampshire jury unanimously found that the state's eminent domain takings from two development companies for the long-planned Exit 4A interchange on Interstate 93 in Derry serve a public use, are reasonably necessary and will produce a net public benefit. The condemnees, 101 Franklin Derry, LLC and S&L Elm Street Holdings, LLC, had argued the project mainly serves the private Woodmont Commons development in Londonderry. The Attorney General announced the verdict on Tuesday, October 20, 2026, and the judge said an order consistent with it will follow.",
-      significance: "The verdict shows how difficult a public-use and necessity challenge can be when a highway project has decades of planning behind it, even where a private development stands to benefit from the new access. For owners whose land is taken for infrastructure that also serves private growth, the case suggests the more productive fight is often over compensation rather than the state's right to take.",
+      summary: "After a four-day trial, a New Hampshire jury unanimously found that the state's eminent domain takings from two development companies for the planned Exit 4A interchange on Interstate 93 in Derry serve a public use, are reasonably necessary and will produce a net public benefit, according to an Attorney General's office release republished by InDepthNH. The condemnees, 101 Franklin Derry, LLC and S&L Elm Street Holdings, LLC, had argued the project mainly serves the private Woodmont Commons development in Londonderry. The release, dated October 20, 2026, says the judge will issue an order consistent with the verdict.",
+      significance: "The verdict shows how hard a public-use and necessity challenge can be when a highway project has a long planning history behind it, even where a private development stands to benefit. For owners whose land is taken for infrastructure that also serves private growth, the remaining fight is often over compensation rather than the state's right to take.",
       body: [
-        "Exit 4A is a new I-93 interchange serving Derry and Londonderry that the New Hampshire Department of Transportation, the two towns and the Federal Highway Administration have pursued for roughly 40 years. To build it and related improvements along the Folsom Road corridor in Derry, NHDOT acquired portions of private land by eminent domain, including land held by 101 Franklin Derry, LLC and S&L Elm Street Holdings, LLC, two companies owned and run by a local land developer.",
-        "Those companies challenged the takings in State v. 101 Franklin Derry, LLC, et al. Their theory was that the interchange was designed mainly to benefit Woodmont Commons, a large mixed-use development in Londonderry, at the expense of Derry property owners and taxpayers. The state answered that the interchange addresses long-standing traffic and safety problems and supports economic growth in both towns, and that any advantage to a private development is incidental.",
-        "The case went to a four-day jury trial. Jurors were asked whether NHDOT had shown, more likely than not, that the acquisitions serve a qualifying public use, that they are reasonably necessary and reasonable in scope, and that the project will yield a net public benefit after weighing business displacement, lost tax revenue and harm to the community. After about an hour of deliberation, the jury answered yes to all three. The trial judge, who is not named in the reporting, said an order consistent with the verdict will issue. The Attorney General's office announced the result on Tuesday, October 20, 2026. None of the coverage reports a compensation figure or whether the condemnees will appeal.",
-        "The project's cost has grown well past early estimates. According to NHDOT figures cited by the Eagle-Tribune, the overall estimate is now $161.3 million across six smaller projects, including a $33.4 million Folsom Road expansion and a tunnel for the Derry Rail Trail that the state agreed to build in a separate federal settlement earlier this year. Derry and Londonderry have each committed $5 million. The Folsom Road phase is expected to be finished in summer 2028, when the interchange is expected to open, with remaining work running into the early 2030s. The Eagle-Tribune noted that the verdict does not resolve every issue around the project.",
-        "For owners and developers, the verdict underscores that a public-use challenge to a highway taking faces long odds once a project has a long planning record and an evident traffic purpose, even when a nearby private development will plainly gain from the new access. The net-benefit question New Hampshire puts to juries does let a condemnee put business displacement and lost tax base in front of the factfinder, but it did not carry the day here. Owners facing takings for infrastructure that also serves private growth should weigh whether resources are better spent documenting severance damages, access changes and business losses for the compensation phase, and developers relying on new public access should track condemnation challenges as a schedule risk."
+        "Exit 4A is a new I-93 interchange serving Derry and Londonderry that, according to a New Hampshire Attorney General's office release republished by InDepthNH, the New Hampshire Department of Transportation, the two towns and the Federal Highway Administration have pursued for about 40 years. NHDOT acquired land for the project by eminent domain from 101 Franklin Derry, LLC and S&L Elm Street Holdings, LLC, two companies the release says are run by a local developer.",
+        "The companies challenged the takings in State v. 101 Franklin Derry, LLC, et al., arguing that the project mainly benefits Woodmont Commons, a private development in Londonderry, to the detriment of the companies and the Town of Derry. The state argued that the interchange addresses long-standing traffic problems and that any benefit to a private development is incidental.",
+        "After a four-day trial, jurors were asked whether NHDOT had shown, more likely than not, that the acquisition serves a qualifying public use, that it is reasonably necessary and reasonable in scope, and that the project will produce a net public benefit when weighed against business displacement, lost tax revenue and harm to the community. After about an hour of deliberation, the jury unanimously answered yes to all three, and the judge said an order consistent with the verdict will issue. The release does not name the court or judge, give a compensation figure, or say whether the companies will appeal."
       ],
       tags: ["eminent domain", "public use", "highway taking", "new hampshire", "jury verdict"],
       parties: [
@@ -10805,9 +10755,8 @@ const RELAW_DATA = {
       judge: null,
       amountUsd: null,
       timeline: [
-        { when: "February 2026", label: "Separate federal settlement requires a Derry Rail Trail tunnel as part of Exit 4A" },
         { when: "October 2026", label: "Four-day jury trial on the public use, necessity and net benefit of the takings" },
-        { when: "October 20, 2026", label: "Attorney General announces unanimous jury verdict for the state", current: true }
+        { when: "October 20, 2026", label: "Attorney General's office announces the jury's unanimous verdict for the state", current: true }
       ]
     },
     {
@@ -11206,26 +11155,25 @@ const RELAW_DATA = {
     {
       id: "live-339",
       seoTitle: "ECO TIP West Beats Chatham County Data Center Moratorium",
-      seoDescription: "A Chatham County, NC judge ruled ECO TIP West's data center can proceed despite the county's moratorium, finding the $11M project had vested rights.",
+      seoDescription: "A Chatham County, NC judge let Eco TIP West's data center proceed despite the county's moratorium, reserving damages for later proceedings.",
       addedDate: "2026-10-27",
-      property: { name: "Triangle Innovation Point West", city: "Moncure", state: "NC" },
+      property: {"name": "Triangle Innovation Point West", "city": "Moncure", "state": "NC"},
       title: "ECO TIP West, LLC v. Chatham County, North Carolina (Data Center Moratorium Vested-Rights Ruling)",
-      brief: "A Chatham County, North Carolina judge granted summary judgment to data center developer ECO TIP West, ruling its $11 million project had vested rights predating the county's moratorium and ordering the county to pay damages for the delay.",
+      brief: "A Chatham County, N.C. judge granted summary judgment to data center developer Eco TIP West, letting its project near Moncure proceed despite the county's data center moratorium.",
       category: "zoning-land-use",
       status: "ruling",
-      date: "2026-09-22",
+      date: "2026-09-17",
       jurisdiction: "Superior Court of Chatham County, North Carolina",
       state: "NC",
-      amount: "$11 million invested in the project; county ordered to pay undisclosed damages for the delay",
+      amount: "$11 million spent on the project, per the developer; damages reserved for further proceedings",
       source: "live",
       sourceUrl: "https://ncnewsline.com/2026/09/22/judge-rules-chatham-county-data-center-can-proceed-despite-moratorium/",
-      summary: "Chatham County Superior Court Judge John Morris granted summary judgment to ECO TIP West, LLC in a ruling reported September 22, 2026, holding that the company's planned 750-megawatt data center at the Triangle Innovation Point West parcel near Moncure could proceed despite the county's 12-month data-center moratorium. ECO TIP West had sued the county on April 23, 2026, arguing that a zoning permit it received on October 29, 2025, more than three months before the February 11, 2026 moratorium, gave it a statutory vested right under North Carolina's Chapter 160D and N.C. Gen. Stat. Section 160D-107(c) that the moratorium could not override.",
-      significance: "The ruling is among the first North Carolina trial court decisions to resolve the vested-rights question now pending in roughly thirty other local jurisdictions statewide that have adopted similar data-center moratoria, and it did more than exempt the project -- it ordered the county to pay damages for the delay. Counties considering a data-center moratorium should inventory recently approved permits before adopting one, and developers with permits predating a moratorium should treat this ruling as persuasive authority for their own vested-rights claims.",
+      summary: "Chatham County Superior Court Judge John Morris granted summary judgment to Eco TIP West, LLC in mid-September 2026, allowing its planned 750-megawatt data center at the Triangle Innovation Point West site near Moncure to proceed despite the county's year-long moratorium on new data centers, NC Newsline and the Carolina Journal reported. The developer sued in April 2026, arguing its project was already under way when the moratorium was adopted. The Carolina Journal reported that the judge also awarded attorney's fees and reserved damages for further proceedings; the county had argued the company never obtained a development approval for a data center.",
+      significance: "The ruling exempts one project from a local data center moratorium at a time when at least 30 North Carolina local governments have adopted similar bans, according to NC Newsline. The order as reported does not spell out its legal basis, so its reach for other projects is unclear.",
       body: [
-        "A North Carolina trial judge has ruled that a data center developer's project can proceed despite a county-wide moratorium, offering one of the first clear answers to a legal question now pending in dozens of jurisdictions across the state: does a developer who secured zoning approval before a moratorium took effect have a vested right to keep building anyway? In a summary judgment order reported September 22, 2026, Chatham County Superior Court Judge John Morris sided with the developer, ECO TIP West, LLC, finding no genuine issue of material fact and ruling that the company was entitled to judgment as a matter of law.",
-        "ECO TIP West sued Chatham County in its own Superior Court on April 23, 2026, after county commissioners adopted a 12-month moratorium on new data-center development on February 11, 2026, running until February 11, 2027 or until the county adopts new data-center-specific zoning regulations, whichever comes first. North Carolina news organizations have tracked roughly 30 local governments statewide that have passed comparable moratoria amid a surge of large-scale data-center proposals. ECO TIP West argued its planned 750-megawatt data center at the Triangle Innovation Point West parcel near Moncure, part of the Moncure Megasite, was different: the company received a zoning permit for the project from the county on October 29, 2025, more than three months before the moratorium existed, giving it a statutory by-right use the county could not retroactively strip away.",
-        "The suit invoked North Carolina's Chapter 160D, the state's consolidated local planning and development regulation statute, along with the vested-rights provisions of N.C. Gen. Stat. Section 160D-107(c) and the North Carolina Constitution, seeking a declaratory judgment, compensatory damages, and attorney's fees for the delay the moratorium had already caused. According to reporting on Judge Morris's order, the court agreed on the merits, ruling that the project could proceed and that Chatham County must pay the developer damages for the delay, though public reporting has not disclosed the specific dollar figure awarded. The company has said it had already invested more than $11 million developing the project before the county intervened.",
-        "Data-center moratoria have become one of the fastest-growing categories of commercial land-use litigation nationally, as local governments from Ohio and Michigan to Georgia and Kentucky have reached for temporary building pauses against resident opposition over noise, water consumption, and grid strain. The recurring legal question in nearly every dispute is the same one Chatham County lost: whether a developer that obtained permits or approval before a moratorium's effective date holds a vested right the moratorium cannot touch. Judge Morris's ruling does not resolve that question for every project statewide, since vested-rights analysis is fact-specific, but as one of the first North Carolina trial court rulings to address it directly, with a documented permit predating the moratorium by several months, it is likely to embolden similarly situated developers while giving counties reason to scrutinize permitting status before adopting their own moratoria -- particularly given that the court ordered damages for the delay, not merely a forward-looking exemption."
+        "Chatham County commissioners adopted a moratorium on new data centers in February 2026 that runs until February 11, 2027, or until new zoning rules are adopted, NC Newsline reported. Eco TIP West plans a 750-megawatt data center at the Triangle Innovation Point West business park near Moncure. It sued the county in Chatham County Superior Court in April, arguing the project was already in progress when the moratorium passed and should be exempt. The company said it had spent $11 million on the project and that the site's zoning allowed a data center, and the North State Journal reported that the county had issued a zoning permit in late October 2025 confirming the use was permitted by right once water and sewer service were available.",
+        "The county argued, according to the Carolina Journal, that Eco TIP had no vested right because it never obtained a development approval for a data center, that it did not submit a complete application before the moratorium took effect, and that summary judgment was premature without discovery. After an August 31 hearing, Judge John Morris found 'no genuine issue as to any material fact' and ruled for the developer. The Carolina Journal reported that he awarded attorney's fees and reserved the determination of damages for further proceedings; NC Newsline reported that the county must pay damages for trying to slow the project.",
+        "Neither outlet reported whether the county will appeal. NC Newsline said it is unclear how the ruling will affect the other moratoria adopted across the state."
       ],
       tags: ["data center", "zoning", "moratorium", "vested rights", "north carolina"],
       parties: [
@@ -11236,10 +11184,11 @@ const RELAW_DATA = {
       amountUsd: 11000000,
       amountBasis: "other",
       timeline: [
-        { when: "October 29, 2025", label: "Chatham County issues ECO TIP West a zoning permit for the project" },
-        { when: "February 11, 2026", label: "Chatham County commissioners adopt a 12-month data-center moratorium" },
-        { when: "April 23, 2026", label: "ECO TIP West sues Chatham County in its Superior Court" },
-        { when: "September 22, 2026", label: "Judge John Morris grants summary judgment to ECO TIP West and orders the county to pay damages for the delay", current: true }
+        { when: "October 2025", label: "Chatham County issues a zoning permit for the site, according to the North State Journal" },
+        { when: "February 2026", label: "Chatham County commissioners adopt a year-long data center moratorium" },
+        { when: "April 2026", label: "Eco TIP West sues Chatham County in Superior Court" },
+        { when: "August 31, 2026", label: "Hearing on Eco TIP West's motion for summary judgment" },
+        { when: "September 17, 2026", label: "Judge John Morris grants summary judgment to Eco TIP West, awards attorney's fees and reserves damages", current: true }
       ]
     },
     {
@@ -12706,40 +12655,36 @@ const RELAW_DATA = {
     },
     {
       id: "live-374",
-      seoTitle: "Ritz-Carlton Bachelor Gulch Loses $122M Tax Appeal in Colo.",
-      seoDescription: "Colorado Court of Appeals affirmed Eagle County's roughly $122M valuation of Ritz-Carlton Bachelor Gulch's fractional timeshare units, rejecting Marriott unit RCDC's appeal.",
+      seoTitle: "Ritz-Carlton Bachelor Gulch Loses Fractional Unit Tax Appeal",
+      seoDescription: "Colorado's Court of Appeals upheld Eagle County's valuation of 54 fractionally owned Ritz-Carlton Bachelor Gulch units, Bloomberg Tax reported.",
       addedDate: "2026-11-06",
-      title: "Ritz-Carlton Development Co. Loses Appeal Over $122M Eagle County Tax Assessment on Bachelor Gulch Timeshares",
-      brief: "Colorado's Court of Appeals affirmed Eagle County's roughly $122 million valuation of the Ritz-Carlton Bachelor Gulch's 54 fractional-ownership condominium units, rejecting Marriott subsidiary RCDC's bid for a fractional-ownership valuation discount.",
+      title: "Ritz-Carlton Development Co. Loses Appeal Over Eagle County Valuation of Bachelor Gulch Fractional Units",
+      brief: "Colorado's Court of Appeals upheld Eagle County's doubled valuation of 54 fractionally owned units at the Ritz-Carlton Bachelor Gulch, rejecting Ritz-Carlton Development Co.'s appeal.",
       category: "zoning-land-use",
       status: "ruling",
       date: "2026-11-05",
       jurisdiction: "Colorado Court of Appeals",
       state: "CO",
-      property: {"name": "The Ritz-Carlton, Bachelor Gulch", "city": "Avon", "state": "CO"},
-      amount: "$122M Eagle County tax assessment affirmed (assessor had raised the figure from $68.6M for the 2023 tax year)",
+      property: {"name": "The Ritz-Carlton, Bachelor Gulch", "state": "CO"},
+      amount: "Eagle County assessor's valuation, which doubled the prior value, affirmed; dollar figures not reported in the source",
       source: "live",
       sourceUrl: "https://news.bloombergtax.com/daily-tax-report-international/ritz-carlton-timeshares-tax-value-maintained-by-colorado-court",
-      summary: "The Colorado Court of Appeals on November 5, 2026 affirmed Eagle County's roughly $122 million property tax assessment of the 54 fractionally owned condominium units at the Ritz-Carlton, Bachelor Gulch hotel and spa in Avon, Colorado. The unpublished opinion rejected a challenge by Ritz-Carlton Development Co. (RCDC), a Marriott International subsidiary, which had argued the county improperly valued the units as conventional whole-ownership condominiums rather than applying a discount reflecting their division into 648 fractional interests of 21 days' use per year each.",
-      significance: "The ruling tells assessors and owners of fractional-ownership and private-residence-club resort properties that Colorado property tax law does not, on its own, require a valuation discount for the fractional-ownership structure, clearing the way for counties to value such units at or near conventional whole-ownership comparables. That matters well beyond this one Beaver Creek-area hotel: branded fractional and private-residence-club programs are a meaningful share of ultra-luxury mountain and resort real estate, and owners of similar programs should expect assessors to treat this result as support for aggressive revaluation.",
+      summary: "The Colorado Court of Appeals on November 5, 2026 upheld the Eagle County Assessor's valuation of 54 fractionally owned condominium units attached to the Ritz-Carlton Bachelor Gulch Hotel and Spa in Beaver Creek, Bloomberg Tax reported. Ritz-Carlton Development Co., a division of Marriott International, had argued the assessor was wrong to double the units' previous valuation. In an unpublished opinion, the court sided with the county and rejected RCDC's argument based on a two-step analysis.",
+      significance: "The result leaves in place a county valuation of fractional resort units that doubled their prior assessed value. Because the opinion is unpublished, it is not binding precedent in other Colorado cases.",
       body: [
-        "A Marriott International subsidiary has lost its bid to roll back a roughly $122 million property tax assessment on the fractionally owned condominium units at the Ritz-Carlton, Bachelor Gulch, after the Colorado Court of Appeals on November 5, 2026 affirmed Eagle County's valuation of the luxury ski-in, ski-out property. The ruling closes out, for now, a multi-year valuation fight that began when the county roughly doubled its assessment of the resort's 54 condominium units for the 2023 tax year, pushing the figure from about $68.6 million to a sum press accounts have described as between $122 million and $124 million depending on the stage of the dispute being measured.",
-        "The property is divided into 648 fractional ownership interests, each entitling its holder to use a unit for 21 days a year, a common structure for ultra-luxury ski and resort properties that lets a developer sell high-end accommodations to buyers who want a seasonal second home without the cost of owning a whole unit outright. Ritz-Carlton Development Co. (RCDC), the Marriott subsidiary that built and operates the fractional program at Bachelor Gulch, challenged the county's valuation methodology, arguing the assessor had effectively priced the 54 physical units as though they were conventional whole-ownership condominiums without accounting for the fractional structure.",
-        "At oral argument in October 2026, the Court of Appeals panel pressed both sides on whether the units should be valued as ordinary fee-simple condominiums or whether Colorado's assessment framework required a downward adjustment to reflect that each unit is actually owned by multiple fractional interest-holders rather than a single owner. In its unpublished decision, the panel sided with the county, holding that Colorado property tax law does not recognize a distinct valuation methodology for the fractional-ownership model RCDC employs at Bachelor Gulch, and rejecting a two-step valuation analysis RCDC had urged the court to adopt.",
-        "Because the opinion is unpublished, it does not carry binding precedential weight for other fractional-ownership disputes elsewhere in Colorado. But the practical signal for the ski-resort timeshare and private-residence-club sector is clear: assessors are not required, as a matter of law, to discount a property's taxable value simply because it has been carved into fractional interests, and taxpayers hoping to argue otherwise will need a more persuasive doctrinal hook than RCDC offered here. Owners of similar fractional or branded-residence programs in Colorado and other resort jurisdictions should expect assessors to treat this result as support for valuing such properties at or near whole-ownership comparable values, and should budget appraisal and litigation resources accordingly if a reassessment produces a similarly large increase. A valuation fight of this kind, running from the county through the state Board of Assessment Appeals and the Court of Appeals, is a multi-year commitment that owners should factor into refinancing or disposition timelines for comparable assets."
+        "Ritz-Carlton Development Co. (RCDC), a division of Marriott International Inc., asked the Colorado Court of Appeals to hold that the Eagle County Assessor erred in doubling the previous valuation of 54 condominium units attached to the Ritz-Carlton Bachelor Gulch Hotel and Spa in Beaver Creek, Bloomberg Tax reported. The units are divided into 648 ownership interests, each entitling its owner to 21 days of use a year.",
+        "On Thursday, November 5, 2026, the court sided with the county in an unpublished opinion, rejecting RCDC's argument based on a two-step analysis, according to Bloomberg Tax. The portion of the article available without a subscription does not give the dollar values involved, the tax year, or the rest of the court's reasoning."
       ],
       judge: null,
       parties: [
         { name: "Ritz-Carlton Development Co.", role: "Taxpayer" },
         { name: "Eagle County", role: "Assessor" }
       ],
-      amountUsd: 122000000,
-      amountBasis: "other",
+      amountUsd: null,
+      amountBasis: null,
       tags: ["property tax", "timeshare", "fractional ownership", "hospitality", "colorado"],
       timeline: [
-        { when: "2023", label: "Eagle County Assessor raises the valuation of the Bachelor Gulch fractional units from about $68.6M to roughly $124M" },
-        { when: "October 2026", label: "Colorado Court of Appeals hears oral argument on RCDC's valuation appeal" },
-        { when: "November 5, 2026", label: "Court of Appeals affirms the county's roughly $122M assessment in an unpublished opinion", current: true }
+        { when: "November 5, 2026", label: "Colorado Court of Appeals affirms the county's valuation in an unpublished opinion", current: true }
       ]
     },
     {

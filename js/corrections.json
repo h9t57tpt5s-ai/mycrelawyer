@@ -4,6 +4,126 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-374",
+   "caseId": "live-374",
+   "subject": "Ritz-Carlton Development Co. Loses Appeal Over Eagle County Valuation of Bachelor Gulch Fractional Units",
+   "kind": "Corrected: description, figure",
+   "was": "$122M Eagle County tax assessment affirmed (assessor had raised the figure from $68.6M for the 2023 tax year) | At oral argument in October 2026, the Court of Appeals panel pressed both sides | holding that Colorado property tax law does not recognize a distinct valuation methodology for the fractional-ownership model | property city: Avon",
+   "now": "Dollar figures and tax year removed; the source says only that the assessor doubled the prior valuation | Removed: no oral argument is reported in the source | The court rejected RCDC's argument based on a two-step analysis; further reasoning not available | Source places the property in Beaver Creek; city field removed",
+   "basis": "Checked against the source article: Bloomberg Tax, Nov. 5, 2026 | Bloomberg Tax, Nov. 5, 2026 | Bloomberg Tax, Nov. 5, 2026 (paywalled after opening paragraphs) | Bloomberg Tax, Nov. 5, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-257",
+   "caseId": "live-257",
+   "subject": "Hexa Builders, LLC v. Mayor and Township Council of the Township of Monroe: Developer Challenges Data Center Ban",
+   "kind": "Corrected: date, description, party",
+   "was": "A nearly identical suit is pending against Andover Township, New Jersey, filed by Hexa in July 2026 | received preliminary site-plan approval ... in January 2026 for two warehouse buildings ... passed two ordinances in 2026 -- one stripping data centers ... at Hexa's site, and a second banning data centers township-wide -- and then rejected Hexa's follow-on application | federal equal-protection and First Amendment claims | date 2026-07-06 | Black Horse Pike, Williamstown",
+   "now": "The Andover suit was filed July 10, 2026 by National Land Developers LLC, not Hexa | Officials reversed a 2025 ordinance that had allowed data centers; the approval, two-ordinance and application details are not in the source | Municipal Land Use Law, the township's own application procedures, and the First Amendment (no equal-protection claim reported) | Suit filed June 5, 2026; July 6 is the removal date | Site address removed",
+   "basis": "Checked against the source article and court docket: New Jersey Monitor, Aug. 20, 2026 | New Jersey Monitor, Aug. 20, 2026 | New Jersey Monitor, Aug. 20, 2026 | CourtListener docket 1:26-cv-08284, Text Order of July 21, 2026 | Not in the New Jersey Monitor article or the docket entries reviewed"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-040",
+   "caseId": "live-040",
+   "subject": "Borough of Seaside Park v. Shree Jyoti, LLC (Eminent Domain Ordinance Public-Use Disclosure Ruling)",
+   "kind": "Corrected: description, label",
+   "was": "Seaside Park police made hundreds of visits ... a man pushed from a balcony, narcotics arrests, a counterfeit-currency operation, and contacts involving registered sex offenders | Seaside Park took title through condemnation in early 2023 and ordered an environmental assessment ... demolition stalled | 2024: Demolition stalls as the former owner petitions the New Jersey Supreme Court | a derelict oceanfront motel ... the blighted Desert Palm Inn",
+   "now": "The opinion notes only that the record documented extensive code violations and a history of police incidents | Removed: not in the Monitor article or the opinion | Removed; the opinion shows the borough's first complaint was dismissed and the Appellate Division affirmed denial of the second motion to dismiss before certification | the Desert Palm Inn, a motel",
+   "basis": "Checked against the source article: Borough of Seaside Park v. Shree Jyoti, LLC (A-2-25), N.J. Aug. 10, 2026 (CourtListener) | New Jersey Monitor, Aug. 10, 2026; opinion A-2-25 | Opinion A-2-25 | Neither 'oceanfront' nor 'blighted' appears in the Monitor article or the opinion"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-104",
+   "caseId": "live-104",
+   "subject": "Pioneer Hi-Bred International, Inc. et al. v. AltEn, LLC (Mead Ethanol Plant Cleanup-Cost Litigation)",
+   "kind": "Corrected: description, figure, party",
+   "was": "Seven seed and agrichemical companies -- ... Syngenta Seeds, and Bayer U.S. | ~$28M in cleanup costs at issue | a 2023 order freezing AltEn's assets | two named individual defendants | Corteva, Inc.; DDP AgroSciences US DCOMCO, Inc.; E. I. du Pont de Nemours and Company; GLH Seeds Inc.; Land O'Lakes, Inc.; Vilmorin USA Corp.; Langley Estate, Inc; The Langley Group, Ltd.",
+   "now": "The Examiner describes six seed companies in the response group; the lead-case docket lists Pioneer, Corteva Agriscience, AgReliant, Beck's and Winfield as plaintiffs | Removed: no cost figure in the sources | A preliminary injunction was entered Feb. 8, 2023 (its terms not reviewed) | Individuals removed from the text; one of the two does not appear in the lead-case docket | Removed from parties: not listed in the lead-case docket",
+   "basis": "Checked against the source article and court docket: Nebraska Examiner, Dec. 9, 2025; CourtListener docket 8:22-cv-00070 parties | Nebraska Examiner, Dec. 9, 2025; CourtListener docket | CourtListener docket entry 167 | CourtListener docket 8:22-cv-00070 parties | CourtListener docket 8:22-cv-00070 parties"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-339",
+   "caseId": "live-339",
+   "subject": "ECO TIP West, LLC v. Chatham County, North Carolina (Data Center Moratorium Vested-Rights Ruling)",
+   "kind": "Corrected: date, description",
+   "was": "In a summary judgment order reported September 22, 2026 (date field 2026-09-22) | ordering the county to pay damages for the delay | sued Chatham County ... on April 23, 2026 ... zoning permit ... on October 29, 2025 | finding ... a statutory vested right under ... Section 160D-107(c) that the moratorium could not override",
+   "now": "The ruling came the week before Sept. 22; the Carolina Journal dates it Thursday, Sept. 17, 2026 | Damages were reserved for further proceedings; attorney's fees were awarded | Sued in April 2026; permit issued in late October 2025 | The order as reported does not state its legal basis",
+   "basis": "Checked against the source article: NC Newsline, Sept. 22, 2026 ('ruled last week'); Carolina Journal, Sept. 18, 2026 | Carolina Journal, Sept. 18, 2026; NC Newsline reports the county must pay damages | NC Newsline; Carolina Journal; North State Journal, May 2026 (no exact days given) | NC Newsline and Carolina Journal coverage of the order"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-079",
+   "subject": "Mitchell v. McCormack Baron Salazar, Inc. (Mirasol Village Legacy Pesticide Contamination Suit)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Mitchell v. McCormack Baron Salazar, Inc. (Mirasol Village Legacy Pesticide Contamination Suit)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; An individual business owner's suit against a housing redeveloper; the only source is the plaintiff's press release. Individual plaintiff and not commercial real estate on its face."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-093",
+   "caseId": "live-093",
+   "subject": "Solera Multifamily, LLC v. Tegethoff (Old Hickory Village Investor Fraud Suit)",
+   "kind": "Corrected: date, description",
+   "was": "date 2026-07-13 / 'July 13, 2026: Judge Bodenhausen allows an amended fraud complaint' | permitting the case against Tegethoff individually and non-debtor affiliates to proceed | Tegethoff has denied wrongdoing ... Judge Bodenhausen's order allowing an amended complaint suggests the court was not yet persuaded dismissal was warranted | civil securities and fraud suit | Tegethoff Development, LLC sought Chapter 11 protection on June 1, 2026 listing roughly $540 million in liabilities ... creditors moved to appoint an independent Chapter 11 trustee",
+   "now": "The order was issued June 17, 2026; July 13 is the article date | On Sept. 22, 2026 the court stayed the entire case, including claims against Tegethoff, pending the bankruptcy | The court faulted the plaintiffs for not responding to the dismissal arguments, granted leave under Rule 15, and allowed the motion to be refiled; no denial by Tegethoff is reported | The amended pleading dropped the federal securities fraud claim | Removed: the source says only that the development companies filed for Chapter 11",
+   "basis": "Checked against the source article and court docket: Missouri Lawyers Media, July 13, 2026; CourtListener docket entry 39 | Order, Doc. 56, No. 4:25-cv-01877 (E.D. Mo. Sept. 22, 2026) | Missouri Lawyers Media, July 13, 2026 | Missouri Lawyers Media, July 13, 2026 | Missouri Lawyers Media, July 13, 2026; not in the docket entries reviewed"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-028",
+   "caseId": "live-028",
+   "subject": "PSEG Renewable Transmission LLC v. Arentz Family, LP (Piedmont Line Pre-Condemnation Survey Entry)",
+   "kind": "Corrected: description",
+   "was": "let PSEG Renewable Transmission LLC enter the properties of 117 landowners | along with the district court's rejection of the landowners' Burford abstention, administrative-exhaustion, and Rule 19 joinder arguments | a roughly 67-mile, 500-kilovolt transmission line ... across the proposed 550-foot study corridor ... beginning in October 2024",
+   "now": "PSEG sued hundreds of landowners; 117 parties appealed | Removed: the Fourth Circuit opinion does not address those doctrines | Voltage, corridor width and notice dates removed",
+   "basis": "Checked against the source article: Maryland Matters, Aug. 6, 2026 | PSEG Renewable Transmission LLC v. Arentz Family, LP, No. 25-1730 (4th Cir. Aug. 6, 2026), CourtListener | Not in Maryland Matters or the Fourth Circuit opinion"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-109",
+   "caseId": "live-109",
+   "subject": "Ready Capital Mortgage Financing 2023-FL 12, LLC v. Drexel Flats Acquisition LLC (Oklahoma City Apartment Foreclosure)",
+   "kind": "Corrected: date, description",
+   "was": "Ready Capital's motion for summary judgment ... set for hearing in November 2026 | after finding Vesta-affiliated borrowers had not turned over rents while tenants went months without reliable trash and utility service | CMBS lender Ready Capital | 272-unit apartment complex | staying the foreclosure claim as to YSA specifically",
+   "now": "The Nov. 3 hearing was continued to Dec. 4, 2026 | The 'not turned over rents' language is the lender's allegation in court papers; tenant complaints come from KFOR interviews | Ready Capital Mortgage Financing 2023-FL 12, LLC (no CMBS characterization) | Unit count removed | The docket marks the claim against YSA disposed on July 30, 2026 after a suggestion of bankruptcy",
+   "basis": "Checked against the source article and court docket: OSCN docket CJ-2026-1275, entry of 11-03-2026 | KFOR, May 25, 2026; OSCN docket shows only 'motion granted as per journal entry' | Not in KFOR or the docket | Not in KFOR or the docket | OSCN docket CJ-2026-1275, Issue #1"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-189",
+   "caseId": "live-189",
+   "subject": "City of Edgerton, Kansas Suit Over Data Center Petition Struck Under State Anti-SLAPP Law",
+   "kind": "Corrected: date, description",
+   "was": "requires Edgerton to pay the defendants' legal expenses | finding ... that the zoning ordinance the petition targeted met the standard of a legislative act ... The court found the city's evidentiary showing conclusory | The ruling clears the way for the 208-signature petition to proceed toward a public vote | In August 2026 ... the City of Edgerton filed suit | a citizen petition to ban high-impact data centers",
+   "now": "Removed: the source does not report any fee or expense award | The source reports only that the judge found the suit violated the Kansas Public Speech Protection Act | Whether the measure would reach the November ballot was undecided and the subject of a separate suit | The city sued on August 4, 2026 | a petition for an ordinance to stop data centers from being built in the city",
+   "basis": "Checked against the source article: Johnson County Post, Sept. 10, 2026 | Johnson County Post, Sept. 10, 2026 | Johnson County Post, Sept. 10, 2026 | Johnson County Post, Sept. 10, 2026 | Johnson County Post, Sept. 10, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-115",
+   "caseId": "live-115",
+   "subject": "Greenwood Park Mall Shooting Negligent-Security Suit Against Simon Property Group (Indiana Supreme Court)",
+   "kind": "Corrected: date, description",
+   "was": "non-functioning security cameras ... understaffed video monitoring | the justices pressed both sides on how Indiana's status as an open-carry state should factor | in Marion Superior Court on January 5, 2024",
+   "now": "The complaint alleges it was unknown which cameras were working; no understaffing allegation is reported | Simon's attorney raised Indiana's open-carry law; Justice Goff asked about recognizing a potential shooter | filed in 2024; amended complaint January 30, 2024",
+   "basis": "Checked against the source article: Court of Appeals opinion 24A-CT-1700 (June 9, 2025), para. 7 | Indiana Capital Chronicle, Jan. 16, 2026 | Indiana Capital Chronicle; Court of Appeals opinion (filing day not stated)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-328",
+   "caseId": "live-328",
+   "subject": "State v. 101 Franklin Derry, LLC: New Hampshire Jury Upholds Eminent Domain Takings of Developer's Land for I-93 Exit 4A",
+   "kind": "Corrected: description",
+   "was": "the overall estimate is now $161.3 million across six smaller projects, including a $33.4 million Folsom Road expansion",
+   "now": "Removed: cost figures, a February 2026 rail-trail settlement, town contributions and a 2028 opening date",
+   "basis": "Checked against the source article: Not in the cited source (NH Attorney General release via InDepthNH, Oct. 20, 2026); the Eagle-Tribune article the write-up relied on was not opened"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-250",
    "caseId": "live-250",
    "subject": "White Sulphur Springs Holdings LLC v. Greenbrier Hotel Corporation (The Greenbrier Receivership Suit, Dismissed After New Financing)",
