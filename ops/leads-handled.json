@@ -2029,8 +2029,8 @@
       "action": "skipped: no coverage found explaining the filing (same-day filing, no named major player)"
     },
     "petition:https://www.courtlistener.com/docket/75097612/293-a-cooper-corp/": {
-      "at": "2026-11-13",
-      "action": "skipped: no coverage of this filing, only a prior unrelated 2025 petition for the same address (293 A Cooper St, Brooklyn) found via aggregator"
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found; only hit is an unrelated earlier 293 A Cooper Corp case (1:25-bk-44490, dismissed Nov 2025), not this docket"
     },
     "opinion:11059062": {
       "at": "2026-11-11",
@@ -2085,16 +2085,16 @@
       "action": "skipped: VineBrook Homes Trust is a single-family rental REIT; residential, out of scope"
     },
     "petition:https://www.courtlistener.com/docket/75106140/geise-properties-5-llc/": {
-      "at": "2026-11-12",
-      "action": "skipped: no coverage found explaining the filing"
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the filing (D. Neb., no secondary reporting; likely single-asset entity)"
     },
     "petition:https://www.courtlistener.com/docket/75103674/flavio-realty-corp/": {
-      "at": "2026-11-12",
-      "action": "skipped: no coverage found explaining the filing (same-day EDNY filing alongside Dino Realty Corp, 1-26-45263, no secondary reporting on either)"
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the filing (E.D.N.Y., no secondary reporting)"
     },
     "petition:https://www.courtlistener.com/docket/75103734/dino-realty-corp/": {
-      "at": "2026-11-13",
-      "action": "skipped: no coverage found explaining the filing (small single-asset Brooklyn LLC petition, docket aggregators only)"
+      "at": "2026-11-14",
+      "action": "skipped: no coverage found explaining the filing (E.D.N.Y., no secondary reporting)"
     },
     "https://www.courtlistener.com/docket/75103401/turtle-hughes-inc-v-halo-development-llc/": {
       "at": "2026-11-12",
@@ -2270,11 +2270,11 @@
     },
     "petition:https://www.courtlistener.com/docket/75119105/high-end-development-inc/": {
       "at": "2026-11-14",
-      "action": "skipped: no coverage found explaining the filing (High End Development, Inc., E.D. California)"
+      "action": "skipped: no coverage found explaining the filing (E.D. Cal., no secondary reporting on this entity)"
     },
     "petition:https://www.courtlistener.com/docket/75118322/christopher-wright-development-llc/": {
       "at": "2026-11-14",
-      "action": "skipped: no coverage found explaining the filing (Christopher Wright Development, LLC, W.D. Washington)"
+      "action": "skipped: no coverage found explaining the filing (W.D. Wash., no secondary reporting)"
     },
     "tomorrow-real-estate-llc-v-landair-transport-inc-pawd-2-26-cv-02443": {
       "at": "2026-11-14",
@@ -2340,30 +2340,6 @@
       "at": "2026-11-14",
       "action": "skipped: not a commercial real estate ownership/development dispute on its face -- a railroad vs. utility easement/declaratory-judgment suit, backdrop appears to be a PA PUC fight over PECO transmission lines interfering with NS rail-crossing signals (puc.pa.gov dockets), no coverage of the federal filing itself"
     },
-    "petition:https://www.courtlistener.com/docket/75119105/high-end-development-inc/": {
-      "at": "2026-11-14",
-      "action": "skipped: no coverage found explaining the filing (E.D. Cal., no secondary reporting on this entity)"
-    },
-    "petition:https://www.courtlistener.com/docket/75118322/christopher-wright-development-llc/": {
-      "at": "2026-11-14",
-      "action": "skipped: no coverage found explaining the filing (W.D. Wash., no secondary reporting)"
-    },
-    "petition:https://www.courtlistener.com/docket/75106140/geise-properties-5-llc/": {
-      "at": "2026-11-14",
-      "action": "skipped: no coverage found explaining the filing (D. Neb., no secondary reporting; likely single-asset entity)"
-    },
-    "petition:https://www.courtlistener.com/docket/75103674/flavio-realty-corp/": {
-      "at": "2026-11-14",
-      "action": "skipped: no coverage found explaining the filing (E.D.N.Y., no secondary reporting)"
-    },
-    "petition:https://www.courtlistener.com/docket/75103734/dino-realty-corp/": {
-      "at": "2026-11-14",
-      "action": "skipped: no coverage found explaining the filing (E.D.N.Y., no secondary reporting)"
-    },
-    "petition:https://www.courtlistener.com/docket/75097612/293-a-cooper-corp/": {
-      "at": "2026-11-14",
-      "action": "skipped: no coverage found; only hit is an unrelated earlier 293 A Cooper Corp case (1:25-bk-44490, dismissed Nov 2025), not this docket"
-    },
     "opinion:11061719": {
       "at": "2026-11-14",
       "action": "skipped: individual landowner (Eugene McNabb) vs township and small excavating company over a sand/gravel pit filling dispute dating to 2008-2011; not a commercial real estate ownership/development matter on its face"
@@ -2383,6 +2359,78 @@
     "u-s-bank-trust-national-association-v-12th-street-equity-llc-paed-2-26-cv-08731": {
       "at": "2026-11-16",
       "action": "skipped: no coverage found explaining the filing (filed same day, E.D. Pa. foreclosure, no secondary reporting)"
+    },
+    "opinion:11062986": {
+      "at": "2026-11-17",
+      "action": "skipped: Housing Authority of the City of Seattle v. Joan Huynh et al. -- public housing authority eviction against individual residential tenants, not CRE"
+    },
+    "opinion:11062891": {
+      "at": "2026-11-17",
+      "action": "skipped: Sorensen Construction, Inc. v. Hellas Investments, Ltd. -- renovation-payment dispute over a Powell, Ohio property; no coverage found confirming the property is commercial, and no secondary source found at all (WebSearch found no record of Hellas Investments in Ohio)"
+    },
+    "opinion:11062862": {
+      "at": "2026-11-17",
+      "action": "skipped: Kirkeby v. The Crosby Clinic, LLC -- judgment-collection/alter-ego asset-shielding dispute between former business partners, not a real property matter"
+    },
+    "opinion:11062840": {
+      "at": "2026-11-17",
+      "action": "lead queued in ops/digest-leads.json (SH Nashville v. FWREF Nashville Airport, TN Supreme Court liquidated-damages ruling)"
+    },
+    "opinion:11062810": {
+      "at": "2026-11-17",
+      "action": "lead queued in ops/digest-leads.json (Dickard v. Jackson & Jackson, LLC, Ohio regulatory-takings/zoning ruling)"
+    },
+    "opinion:11062775": {
+      "at": "2026-11-17",
+      "action": "skipped: Steuben County, Indiana Plan Commission v. 3rd Basin, LLC -- subdivision plat/dock-easement dispute among individual lake-lot owners (husband-and-wife intervenors), not commercial on its face"
+    },
+    "opinion:11062745": {
+      "at": "2026-11-17",
+      "action": "skipped: K. Scott v. Bowmanstown Borough Authority -- individual vs. borough authority zoning variance dispute, no business entity or CRE angle shown in the text"
+    },
+    "opinion:11062738": {
+      "at": "2026-11-17",
+      "action": "lead queued in ops/digest-leads.json (Water's Edge at Wind Gap, LLC v. ZHB of Moore Twp., PA Commonwealth Court warehouse-zoning ruling)"
+    },
+    "opinion:11062618": {
+      "at": "2026-11-17",
+      "action": "skipped: Angela Marie Hite v. QL Titling Trust, Ltd. -- equipment-finance debt-collection/guaranty case (Allure Essence Management Company, LLC), not real estate; also centers on an individual guarantor"
+    },
+    "petition:https://www.courtlistener.com/docket/75126958/9-jude-drive-equities-proprietary-llc/": {
+      "at": "2026-11-17",
+      "action": "skipped: no coverage found explaining the filing (single-asset NY LLC, no named sponsor)"
+    },
+    "https://www.courtlistener.com/docket/75123238/us-bank-trust-national-association-v-12th-street-equity-llc/": {
+      "at": "2026-11-17",
+      "action": "skipped: no coverage found explaining the filing (bare foreclosure docket, no named major lender/sponsor beyond the trustee bank)"
+    },
+    "https://www.courtlistener.com/docket/75126152/dynamo-capital-reit-i-llc-v-gulfside-getaways-llc/": {
+      "at": "2026-11-17",
+      "action": "skipped: no coverage found explaining the filing"
+    },
+    "https://www.courtlistener.com/docket/75127123/aldara-apartment-associates-llc-v-owners-insurance-company/": {
+      "at": "2026-11-17",
+      "action": "skipped: no coverage found explaining the filing (multifamily owner vs. insurer coverage dispute, no secondary reporting)"
+    },
+    "0001682220-26-000071:sach-20260930.htm": {
+      "at": "2026-11-17",
+      "action": "lead queued in ops/digest-leads.json (Sachem Capital / IRG Master Holdings $1.9B minority-investor suit over reverse merger); the same filing's Oppenheimer breach-of-contract disclosure ($2.0M engagement-letter dispute) was reviewed and skipped as not CRE"
+    },
+    "0001437749-26-037206:mlp20260930_10q.htm": {
+      "at": "2026-11-17",
+      "action": "lead queued in ops/digest-leads.json, flagged low-confidence/not fresh (Maui Land & Pineapple / TY Management Kapalua irrigation-water dispute)"
+    },
+    "0001213900-26-120505:ea0312354-10q_linkhome.htm": {
+      "at": "2026-11-17",
+      "action": "skipped: Linkhome Holdings stock-purchase-agreement dispute, not real estate"
+    },
+    "0001193125-26-463192:ck0001448038-20260930.htm": {
+      "at": "2026-11-17",
+      "action": "skipped: Redwood Mortgage Investors IX -- generic loan-accounting policy language, not a litigation disclosure"
+    },
+    "0001628280-26-074137:fscreit-20260930.htm": {
+      "at": "2026-11-17",
+      "action": "skipped: FS Credit Real Estate Income Trust -- generic foreclosed-property accounting policy language, not a litigation disclosure"
     }
   }
 }

@@ -1,4 +1,59 @@
 {
- "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
- "leads": []
+  "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
+  "leads": [
+    {
+      "found": "ops/opinion-leads.json (key 11062840)",
+      "title": "Tennessee Supreme Court sets liquidated-damages standard for commercial PSAs \u2014 SH Nashville, LLC v. FWREF Nashville Airport, LLC",
+      "urls": [
+        "https://www.courtlistener.com/opinion/11062840/sh-nashville-llc-v-fwref-nashville-airport-llc/",
+        "https://storage.courtlistener.com/pdf/2026/11/16/sh_nashville_llc_v._fwref_nashville_airport_llc.pdf"
+      ],
+      "why": "Nov 16, 2026 Tennessee Supreme Court opinion (No. M2023-01147-SC-R11-CV) reversing the Court of Appeals and reinstating summary judgment for the seller of a Hilton-branded hotel near Nashville's airport, sold under a purchase and sale agreement. The court clarifies Tennessee's standard for enforcing a liquidated-damages clause versus treating it as an unenforceable penalty, holding a presumption of enforceability applies once the parties agreed actual damages would be hard to ascertain. Decided on the Davidson County Business Court docket; directly affects how CRE purchase agreements write and litigate liquidated-damages clauses statewide. Opinion itself is the primary source (full text in opinion-leads.json); background on the underlying hotel deal also appears in Tennessee court filings (tncourts.gov).",
+      "eventDate": "2026-11-16"
+    },
+    {
+      "found": "ops/opinion-leads.json (key 11062738); WebSearch corroboration (PennFuture, LehighValleyNews)",
+      "title": "Commonwealth Court affirms zoning board's denial of warehouse variance on former golf course \u2014 Water's Edge at Wind Gap, LLC v. ZHB of Moore Twp.",
+      "urls": [
+        "https://www.courtlistener.com/opinion/11062738/waters-edge-at-wind-gap-llc-v-zhb-of-moore-twp-and-moore-twp/",
+        "https://lehighvalleynews.com/northampton-county/northampton-county-judge-rules-on-warehouse-project-proposed-for-moore-twp-golf-course",
+        "https://pennfuture.org/post/moore-township-decision-warehouse-ordinances-2024"
+      ],
+      "why": "Nov 16, 2026 Pennsylvania Commonwealth Court memorandum opinion (No. 279 C.D. 2024) affirming Northampton County's ruling that the Moore Township Zoning Hearing Board did not err in denying Water's Edge at Wind Gap, LLC a woodland-preservation variance needed for two warehouses (~488,000 sq ft) on the former Southmoore Golf Course. This is the third opinion in the case; secondary coverage (LehighValleyNews, PennFuture) explains the underlying industrial-warehouse zoning fight and the developer's planned Commonwealth Court appeal. Business entity (LLC developer) vs. township zoning board over industrial/warehouse site plan \u2014 squarely CRE development litigation.",
+      "eventDate": "2026-11-16"
+    },
+    {
+      "found": "ops/opinion-leads.json (key 11062810)",
+      "title": "Ohio appeals court addresses regulatory-takings claim in county zoning enforcement suit \u2014 Dickard v. Jackson & Jackson, L.L.C.",
+      "urls": [
+        "https://www.courtlistener.com/opinion/11062810/dickard-v-jackson-jackson-llc/",
+        "https://www.supremecourt.ohio.gov/rod/docs/pdf/12/2026/2026-Ohio-4530.pdf"
+      ],
+      "why": "Nov 16, 2026 Ohio Twelfth District Court of Appeals opinion (2026-Ohio-4530) in a Butler County zoning inspector's injunctive-relief suit against Jackson & Jackson, LLC over an administrative office the LLC continued operating on its property after the county Board of Zoning Appeals denied a variance. The LLC counterclaimed alleging a regulatory taking; the appellate court's opinion addresses federal and state takings doctrine as applied to a commercial zoning-variance denial. No secondary press coverage found yet \u2014 this would run from the opinion itself (primary source) if the newsroom can verify no overlap with an already-tracked Butler County zoning matter.",
+      "eventDate": "2026-11-16"
+    },
+    {
+      "found": "ops/sec-litigation-leads.json (key 0001682220-26-000071:sach-20260930.htm); WebSearch corroboration (Bisnow, Daily Journal, The Real Deal, Law360, Panabee)",
+      "title": "Minority investors sue to block Sachem Capital Corp.'s ~$2.9B reverse merger with Industrial Realty Group",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1682220/000168222026000071/sach-20260930.htm",
+        "https://www.bisnow.com/news/los-angeles/industrial/minority-investors-sue-industrial-realty-group-over-timing-of-reverse-merger",
+        "https://dailyjournal.com/article/393350-judge-won-t-halt-industrial-realty-group-s-2-9b-property-transfer",
+        "https://therealdeal.com/national/2026/05/19/sachems-industrial-pivot-creates-3-4b-reit-with-irg/"
+      ],
+      "why": "Sachem Capital Corp.'s Nov 16, 2026 Form 10-Q discloses that a complaint (filed July 27, 2026, Los Angeles Superior Court, Case No. 26STCV23391) by 17 minority investors in IRG Master Holdings now estimates damages at not less than $1.9 billion \u2014 the first time that figure has surfaced. The suit seeks to enjoin Sachem's planned reverse merger with Stuart Lichter's Industrial Realty Group, which would move nearly $3 billion of industrial real estate into a new public REIT (to be renamed IRG Realty Trust) and which a Los Angeles judge declined to halt on an emergency basis in July 2026 (Daily Journal). Not fresh (filed/ruled in July 2026) but significant and not currently tracked on the site; the $1.9B damages figure is newly disclosed this week. Event date given as the SEC disclosure date since that is what makes this newly reportable; the underlying filing date is 2026-07-27.",
+      "eventDate": "2026-11-16"
+    },
+    {
+      "found": "ops/sec-litigation-leads.json (key 0001437749-26-037206:mlp20260930_10q.htm); WebSearch corroboration (Maui Now, Hawaii News Now, Civil Beat, Aloha State Daily)",
+      "title": "Kapalua golf-course owner's irrigation-water dispute with developer Maui Land & Pineapple, now including a federal RICO suit",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/63330/000143774926037206/mlp20260930_10q.htm",
+        "https://alohastatedaily.com/2026/10/19/federal-lawsuit-alleges-racketeering-fraud-by-maui-land-pineapple/",
+        "https://www.hawaiinewsnow.com/2026/10/15/kapalua-golf-course-owner-sues-maui-land-pineapple-over-water-billing/"
+      ],
+      "why": "Low-confidence/background lead, not fresh: TY Management Corporation (owner of the Kapalua golf courses) sued Maui Land & Pineapple Co. in August 2025 over irrigation-water maintenance, and the dispute has since grown into a state water-commission fine ($140,000, Dec 2025), a countersuit, and an October 19, 2026 federal RICO/fraud suit over water billing. MLP's Nov 16, 2026 10-Q is just continuing disclosure, not a new event, but this long-running commercial resort/golf-course water fight is not currently tracked on the site at all despite heavy Hawaii trade coverage. Flagging for the newsroom's judgment on whether it's worth a non-fresh matter given its depth of sourcing; not a single-source reason to publish on its own.",
+      "eventDate": "2025-08-22"
+    }
+  ]
 }
