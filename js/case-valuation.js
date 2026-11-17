@@ -35,6 +35,57 @@
     pct: (r) => `${Math.round(r[0] * 100)}–${Math.round(r[1] * 100)}%`,
   };
 
+  // ---- COURT OUTCOMES (2026-11-16) -------------------------------------
+  // "How cases like this ended": totals from written court opinions
+  // (js/opinion-outcomes.json, scripts/aggregate_opinion_outcomes.py),
+  // shown beside the estimate as a reference point. They never feed into
+  // the estimate itself. Loaded at page start, since an analysis takes
+  // 30-90 seconds; if it has not arrived, the card is simply left out.
+  let cvOutcomes = null;
+  fetch("/js/opinion-outcomes.json").then((r) => (r.ok ? r.json() : null)).then((j) => { cvOutcomes = j; }).catch(() => {});
+  const OUTCOME_TYPES = {
+    "lease-disputes": { slug: "commercial-lease-disputes", noun: "commercial lease disputes", sides: { landlord: "Landlords' claims", tenant: "Tenants' claims" } },
+    "lending-foreclosure": { slug: "commercial-loan-and-foreclosure-cases", noun: "commercial loan and foreclosure cases", sides: { lender: "Lenders' claims", borrower: "Borrowers' and guarantors' claims" } },
+    "eminent-domain": { slug: "condemnation-cases", noun: "commercial condemnation cases", sides: { owner: "Property owners' compensation claims" } },
+    "zoning-land-use": { slug: "zoning-and-land-use-cases", noun: "commercial zoning and land-use cases", sides: { owner: "Owners' and developers' claims" } },
+    "construction-defect": { slug: "construction-defect-cases", noun: "commercial construction cases", sides: { owner: "Owners' defect claims", contractor: "Contractors' payment claims" } },
+    "premises-liability": { slug: "premises-liability-cases", noun: "commercial premises liability cases", sides: { injured: "Injured people's claims" } },
+    "environmental": { slug: "contamination-cases", noun: "commercial property contamination cases", sides: { owner: "Property owners' claims" } },
+  };
+  function outcomeFigures(s) {
+    const out = [];
+    if (s.awardToClaim) out.push(`awarded a median <strong>${Math.round(s.awardToClaim.median * 100)}%</strong> of the amount claimed (middle half ${Math.round(s.awardToClaim.p25 * 100)}–${Math.round(s.awardToClaim.p75 * 100)}%, ${s.awardToClaim.n.toLocaleString("en-US")} claims)`);
+    if (s.medianAward) out.push(`median award <strong>${V.fmt(s.medianAward)}</strong>`);
+    if (s.affirmedPct != null) out.push(`<strong>${s.affirmedPct}%</strong> of appealed results affirmed`);
+    return out;
+  }
+  function outcomesCardHtml(category, state) {
+    const type = OUTCOME_TYPES[category];
+    const cat = cvOutcomes && cvOutcomes.categories && cvOutcomes.categories[category];
+    if (!type || !cat) return "";
+    const names = (typeof RELAW_DATA !== "undefined" && RELAW_DATA.states) || {};
+    const st = state && cat.states && cat.states[state];
+    // The state's own figures when it has any to show; else the national ones.
+    const hasFig = (sl) => sl && Object.keys(type.sides).some((k) => sl.sides[k] && outcomeFigures(sl.sides[k]).length);
+    const useState = hasFig(st);
+    const slice = useState ? st : cat;
+    const where = useState ? (names[state] || state) : "all states";
+    const rows = Object.entries(type.sides).map(([k, label]) => {
+      const figs = slice.sides[k] ? outcomeFigures(slice.sides[k]) : [];
+      return figs.length ? `<li><strong>${label}:</strong> ${figs.join("; ")}.</li>` : "";
+    }).filter(Boolean);
+    if (!rows.length) return "";
+    const pageName = names[state] ? names[state].toLowerCase().replace(/[^a-z]+/g, "-") : "";
+    const statePage = useState && st.cases >= 40 && Object.values(st.sides).some((v) => v.awardToClaim || v.medianAward) && pageName
+      ? `/outcomes/${type.slug}-${pageName}.html` : "/outcomes.html";
+    return `<div class="card" style="padding:20px; margin-top:16px;">
+      <div class="eyebrow" style="margin-bottom:8px;">How cases like this have ended in court</div>
+      <p class="text-secondary" style="font-size:14px; line-height:1.6;">In ${slice.cases.toLocaleString("en-US")} written court opinions in ${type.noun} (${where}, ${slice.years ? slice.years[0] + "–" + slice.years[1] : "2000–2026"}):</p>
+      <ul style="margin:8px 0 0; padding-left:18px; font-size:14px; line-height:1.7;" class="text-secondary">${rows.join("")}</ul>
+      <p class="text-muted" style="font-size:12px; line-height:1.55; margin-top:10px;">A reference point from other contested cases, not part of the estimate above. Most disputes settle without a written opinion. <a href="${statePage}">See the full figures &rarr;</a></p>
+    </div>`;
+  }
+
   // ---- CONFIG ---------------------------------------------------------
   const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/dRm9AL34yaOSeLJetz1B601";
   const PRICE_DISPLAY = "$49 one-time — 10 analysis credits";
@@ -734,6 +785,7 @@
       ${a.likelyOutcome ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Executive Discovery</div><p class="text-secondary" style="font-size:14px; line-height:1.6;">${a.likelyOutcome}</p></div>` : ""}
       ${summaryTableHtml(a)}
       ${jurisdictionRulesHtml(a.jurisdictionRules)}
+      ${outcomesCardHtml(a.category, facts.state)}
       ${costCardHtml}
       ${reserveSettlementHtml(a, costData)}
       ${(a.narrativeSections || []).length ? `<div class="card" style="padding:24px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:16px;">Comprehensive Analysis</div>${narrativeSectionsHtml(a.narrativeSections)}</div>` : ""}
