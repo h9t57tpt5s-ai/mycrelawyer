@@ -4,6 +4,196 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-303",
+   "caseId": "live-303",
+   "subject": "Ex parte City of Fairhope Planning Commission and City of Fairhope (Developer's Negligence Claim Over Denied Apartment Applications Barred by Immunity)",
+   "kind": "Corrected: description",
+   "was": "The opinion separately notes, without resolving, allegations 68V aired in its earlier federal suit that a planning commissioner wanted the city to make the developer feel pain for past project disputes | Writing for the Court, Justice Will Parker",
+   "now": "The opinion contains no such statement. A concurrence quotes the federal court's summary of 68V's allegations that commissioners acknowledged there was no legitimate reason for the denials and objected to lower-rent complexes. | Justice Parker wrote the main opinion, joined by three other justices; five justices concurred only in the result.",
+   "basis": "Checked against the source article: Alabama Supreme Court, SC-2025-0803, main opinion and Mendheim, J., concurring in the result | Alabama Supreme Court, SC-2025-0803"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-300",
+   "caseId": "live-300",
+   "subject": "Waterworks Operating Co., LLC v. 514 W. 24th Owner LLC (Liability Affirmed; Mechanic's-Lien Judgment Vacated for New Damages Calculation)",
+   "kind": "Corrected: description",
+   "was": "Mechanic's-Lien and Breach-of-Contract Judgment Partly Vacated on Appeal",
+   "now": "The judgment was vacated in full and the case remitted on damages only; liability was affirmed.",
+   "basis": "Checked against the source article: First Department decision, 2026 NY Slip Op 06036"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-298",
+   "caseId": "live-298",
+   "subject": "Zecorra Enterprises, LLC v. Redford Township (Commercial Property Tax Valuation Appeal)",
+   "kind": "Corrected: date, description",
+   "was": "rejected owner Zecorra Enterprises, LLC's argument that the tribunal should have relied on its own appraiser's lower valuation and renovation deduction rather than the township's | the property's $525,000 list price just eighteen months earlier",
+   "now": "On appeal Zecorra argued the tribunal should have deducted its full renovation costs (about $797,783) and given more weight to the $200,000 sale price; the court rejected both. | The property was listed at $525,000 in June 2021.",
+   "basis": "Checked against the source article: Michigan Court of Appeals opinion, No. 376030, Part II | Michigan Court of Appeals opinion, No. 376030, Part I"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-265",
+   "caseId": "live-265",
+   "subject": "In re Southbridge Associates LLC: Wellsworth Hotel Owner Files Chapter 11 a Day Before Lender's Foreclosure Auction",
+   "kind": "Corrected: description",
+   "was": "along with a cash collateral motion and a separate motion for an order or authority (the public docket text does not show who filed the motions)",
+   "now": "The cash collateral motion was filed by the debtor.",
+   "basis": "Checked against the source article: Bankr. D. Mass. No. 26-41208, Docs. 17 and 72"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-362",
+   "caseId": "live-362",
+   "subject": "NFI Apartment Management, L.L.C. v. Third Coast Insurance Company (Fifth Circuit Affirms Time-Barred Hail Coverage Claim)",
+   "kind": "Corrected: figure, party",
+   "was": "affirmed summary judgment against a San Antonio apartment owner's insurer | $359,856.60 (the policy deductible, listed as the matter's amount)",
+   "now": "The Fifth Circuit affirmed summary judgment for the insurer, Third Coast, against the apartment owner, NFI. | About $1 million, the amount NFI demanded in its pre-suit notice",
+   "basis": "Checked against the source article: Fifth Circuit opinion, No. 25-50953 | Fifth Circuit opinion, No. 25-50953, Part I"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-378",
+   "caseId": "live-378",
+   "subject": "City of Chicago Dept. of Public Health v. City of Chicago Dept. of Administrative Hearings (Southeast Side Recycling Permit Denial Reinstated)",
+   "kind": "Corrected: description",
+   "was": "Because the department found General III's application and compliance history did not satisfy those standards, and the hearing officer had erred in second-guessing that judgment | a city health study finding the Southeast Side carries the city's highest cumulative air-pollution burden",
+   "now": "The court held the department was authorized to rely on a health impact assessment and on affiliated entities' compliance history, and rejected General III's vested-rights claim. | The health impact assessment found Southeast Side residents more vulnerable to the health effects of pollution; a U.S. EPA letter said the area ranks at the highest level for many pollution indicators.",
+   "basis": "Checked against the source article: 2026 IL App (1st) 241683, paragraphs 99-160 | 2026 IL App (1st) 241683, paragraphs 37 and 42"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-355",
+   "caseId": "live-355",
+   "subject": "637 Arnold, LLC v. Arnold Shores, LLC (NJ Appellate Division Affirms Mixed-Use Hotel-Restaurant-Spa Zoning Approval)",
+   "kind": "Corrected: date, description",
+   "was": "In 2020, the building's then-owners obtained a use variance | convert the building's upper floor into a hotel ... while retaining retail space below",
+   "now": "The prior owners applied in 2020 and obtained the variance relief in 2021. | The 2021 approval was for a first-floor marketplace and a second-floor hotel.",
+   "basis": "Checked against the source article: Appellate Division opinion, No. A-2520-24, Part I.A | Appellate Division opinion, No. A-2520-24, Part I.A"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-313",
+   "caseId": "live-313",
+   "subject": "State ex rel. Sommers Development Group, L.L.C. v. Cuyahoga County Board of Elections (Zoning Initiative Challenge)",
+   "kind": "Corrected: description",
+   "was": "keep a citizen-initiated referendum off the November 3, 2026 Mayfield Heights ballot | voted 4-3 not to adopt the committee's proposed ordinance itself, which, under the charter's initiative mechanism, sends the question to the voters",
+   "now": "The measure is an initiative ordinance, not a referendum; the court held it was not a disguised referendum. | The council voted 4-3 to reject the initiative petition; the committee then filed a supplemental petition and the council certified the measure to the ballot on September 9.",
+   "basis": "Checked against the source article: Ohio Supreme Court, 2026-Ohio-4091, paragraphs 31-37 | Ohio Supreme Court, 2026-Ohio-4091, paragraphs 11-13"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-299",
+   "caseId": "live-299",
+   "subject": "Orchard BJK Company, LLC v. Coolbaugh Township Board of Supervisors (Challenge to Wetland Buffer Amendments Dismissed as Unripe)",
+   "kind": "Corrected: figure",
+   "was": "tripling wetland buffer distances",
+   "now": "The amendments raised the inner wetland buffer from 50 to 150 feet and the buffer between buildings and wetlands from 100 to 150 feet; only the first was tripled.",
+   "basis": "Checked against the source article: Commonwealth Court opinion, No. 959 C.D. 2025, Part I"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-290",
+   "caseId": "live-290",
+   "subject": "Schell Road, LLC v. Vanderford: Michigan Appeals Court Rejects Gravel Mine Mandamus Bid and Upholds Township's Amended Mining Ordinance",
+   "kind": "Corrected: description",
+   "was": "the panel did not need to disturb the trial court's separate finding that the ordinance amendment itself was not adopted in bad faith | Lets Township Amend Mining Ordinance Mid-Litigation to Defeat Gravel Mine Permit Bid",
+   "now": "The panel itself reviewed and rejected the bad-faith claim, and separately held the amended ordinance is consistent with MCL 125.3205. | The court held the amendments were not enacted to defeat the application.",
+   "basis": "Checked against the source article: Michigan Court of Appeals opinion, No. 375453, Parts III.B and III.C | Michigan Court of Appeals opinion, No. 375453, Part III.B"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-322",
+   "caseId": "live-322",
+   "subject": "Joseph F. Farivar Investment Group, Inc. v. HPC Vineburn, LLC (Groundwater Contamination Judgment Reversed)",
+   "kind": "Corrected: description",
+   "was": "the consultant's factual findings about where contamination originated did not, by themselves, resolve the separate legal question of duty",
+   "now": "The court recognized a common-law duty to act reasonably toward adjacent property; the plaintiffs failed to show breach of that duty as a matter of law",
+   "basis": "Checked against the source article: Court of Appeal opinion, No. B343432 (Oct. 22, 2026), Discussion part A"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-323",
+   "caseId": "live-323",
+   "subject": "Crocker Park, L.L.C. v. City of Westlake, Ohio (Right of First Refusal Waived for One Sale, Kept for Future Offers)",
+   "kind": "Corrected: description, figure",
+   "was": "held Crocker Park waived its right of first refusal ... by delay; failed to exercise the right within a reasonable time | hands the City of Westlake a win it did not get the first time around; on the right of first refusal, the panel changed course; 'Right of First Refusal Revived on Reconsideration' | no dollar figure stated in the opinion",
+   "now": "The court said reasonable time was a fact question; the waiver rested on Crocker Park's conditional offer being a counteroffer, and it applies only to the E&C offer, not future offers | The July 30 decision had already held the right waived; reconsideration narrowed that ruling, keeping Crocker Park's right for future offers | The opinion states E&C's offer and later purchase price of $2.6 million",
+   "basis": "Checked against the source article: Eighth District opinion on reconsideration, 2026-Ohio-4138 (Oct. 22, 2026), Part II, right-of-first-refusal section | 2026-Ohio-2932 (July 30, 2026) compared with 2026-Ohio-4138 | 2026-Ohio-4138, Facts and abuse-of-process section"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-319",
+   "caseId": "live-319",
+   "subject": "VK Dental Group, Inc. v. Tender Touch Physical Therapy, PLLC (NY Appellate Division Revives $1M Sublease Rent Dispute)",
+   "kind": "Corrected: figure",
+   "was": "enough to send a six-figure rent claim to trial",
+   "now": "The judgment reversed was $1,004,426.20, a seven-figure claim",
+   "basis": "Checked against the source article: Second Department decision and order, 2026 NY Slip Op 06164 (Oct. 21, 2026)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-317",
+   "caseId": "live-317",
+   "subject": "513 West 26th Realty LLC v. George Billis Galleries, Inc. (Guaranty Law Contracts Clause Ruling)",
+   "kind": "Corrected: date, description, party",
+   "was": "enacted by the City Council in April 2020 | denied motions to dismiss filed by both the tenant and the City of New York | (no mention of a dissent)",
+   "now": "Introduced April 22, 2020; passed May 13, 2020; signed May 26, 2020 | Supreme Court denied the motions to dismiss filed by the guarantor and the City | The decision was 4-1; Justice David Friedman dissented",
+   "basis": "Checked against the source article: First Department opinion, 2026 NY Slip Op 06058 (Oct. 20, 2026), 'The Guaranty Law' | 2026 NY Slip Op 06058, opening paragraph and decretal paragraph | 2026 NY Slip Op 06058, 'All concur except Friedman J. who dissents'"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-316",
+   "caseId": "live-316",
+   "subject": "State ex rel. Bristolville 25 Developer, L.L.C. v. Village of Lordstown (Ohio Supreme Court Denies Data-Center Site-Plan Mandamus)",
+   "kind": "Corrected: date, description",
+   "was": "December 1, 2025: Village council votes to repeal the outright data-center ban | July 2026: Village council extends the moratorium | a municipality facing a mandamus suit ... can moot the developer's strongest argument",
+   "now": "The opinion says the council repealed the ban before its December 3, 2025 effective date and gives no repeal date | The council passed the extension on June 15, 2026 | The court held the case was not moot; it denied the writ because Bristolville had no vested right and the moratorium leaves no clear legal duty",
+   "basis": "Checked against the source article: Ohio Supreme Court opinion, 2026-Ohio-4073, paragraphs 13 and 16 | 2026-Ohio-4073, paragraph 17 | 2026-Ohio-4073, paragraphs 32-33 and 41-48"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-314",
+   "caseId": "live-314",
+   "subject": "The Waffle, LLC v. Tucker Investment Group, LLC (Westwood Restaurant Lease Arbitration Affirmed)",
+   "kind": "Corrected: date, description, figure",
+   "was": "Undisclosed arbitration award and attorneys' fees | When The Waffle's side rejected the substitute as final in April 2018, it sent TIG a formal notice of breach | Judge: Mark H. Epstein | a fee award touching settled co-defendants all fall well within the narrow discretion appellate courts give arbitrators",
+   "now": "The arbitrator awarded the Tucker defendants approximately $2.2 million in attorneys' fees and costs | The notice of breach was sent March 19, 2018; The Waffle rejected the Schier as final on April 6, 2018 | Justice Feuer wrote the appellate opinion; Mark H. Epstein was the trial judge | The court held the fee objection was a claim of legal error that is not subject to judicial review",
+   "basis": "Checked against the source article: Court of Appeal opinion, No. B341347 (Oct. 19, 2026), Background part G | Court of Appeal opinion, Background part A | Court of Appeal opinion, caption and signature | Court of Appeal opinion, Discussion part B.3"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-325",
+   "caseId": "live-325",
+   "subject": "USPA City Center, LLC v. Law Offices of Jason W. Estavillo, P.C.: California Court Publishes Ruling Upholding $1.2M Future-Rent Award on Oakland Office Lease",
+   "kind": "Corrected: description",
+   "was": "Judge: Chad A. Stegeman",
+   "now": "Justice Richman wrote the Court of Appeal opinion (Presiding Justice Stewart and Justice Miller concurring); Chad A. Stegeman was the Alameda County trial judge",
+   "basis": "Checked against the source article: California Court of Appeal opinion, No. A174766 (filed Sept. 21, 2026; certified for publication Oct. 19, 2026)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-310",
+   "caseId": "live-310",
+   "subject": "Abu Ali Cafe, LLC v. 2020 Harwin 59 Shopping Centers, Ltd. (Restaurant Lease Repair and Sublease Dispute)",
+   "kind": "Corrected: description",
+   "was": "2020 Harwin Shopping Center; a Harwin-area Houston shopping center",
+   "now": "The opinion identifies only a restaurant space on Richmond Avenue in Houston; the property name and 'Harwin-area' location are not in the record and were removed",
+   "basis": "Checked against the source article: First Court of Appeals memorandum opinion, No. 01-25-00652-CV (Oct. 16, 2026), Background"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-302",
+   "caseId": "live-302",
+   "subject": "Commercial Properties, Inc. v. Montgomery Civic Ballet, Inc. (Commercial Lease Default, Indemnity and Untimely Opposition)",
+   "kind": "Corrected: description, figure",
+   "was": "left intact a $65,827.50 rent judgment | even against a response filed only hours late",
+   "now": "The landlord's partial summary-judgment motion sought a declaration that $65,827.50 in rent was owed; the motion was granted, but the opinion says the determination of damages owed to the landlord remains pending | The response was filed one day late: due Thursday, April 17, 2025, filed Friday, April 18",
+   "basis": "Checked against the source article: Supreme Court of Alabama opinion, SC-2026-0190/0191 (Oct. 16, 2026), Parts I and III.B | Supreme Court of Alabama opinion, Part III.A"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-363",
    "caseId": "live-363",
    "subject": "Sinmier, LLC v. Everest Indemnity Insurance Co. (Sixth Circuit Affirms Lender's Insurance Claims Died With Its Own Settlement)",
