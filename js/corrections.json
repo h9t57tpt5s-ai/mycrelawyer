@@ -4,6 +4,106 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-289",
+   "caseId": "live-289",
+   "subject": "Braemar Hotels & Resorts Settles With Largest Stockholder Al Shams Investments: $40M Payout Ends Proxy Fight, Securities and Defamation Claims, and Texas Pre-Suit Petition",
+   "kind": "Corrected: description",
+   "was": "the press release says the separation from Ashford should be finished by mid-November",
+   "now": "Braemar reported on November 10, 2026 that its advisory agreement with Ashford terminated that day",
+   "basis": "Checked against the source article: Braemar Form 8-K filed November 10, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-395",
+   "caseId": "live-395",
+   "subject": "Kaanapali Land Management Corp. v. Newport Hospital Corporation (Maui Infrastructure Contribution Lien Foreclosure)",
+   "kind": "Corrected: description, figure",
+   "was": "exact amount owed by NHC not disclosed | no mention of NHC's position",
+   "now": "The receivable and accrued interest total about $1.094 million, fully reserved, as of September 30, 2026 | NHC's pending arbitration claims KLMC caused delays and cost increases and seeks to void or reform the agreement",
+   "basis": "Checked against the source article: Kaanapali Land Form 10-Q for the quarter ended September 30, 2026, Notes 2 and 6 | Kaanapali Land Form 10-Q, Note 6"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-337",
+   "caseId": "live-337",
+   "subject": "Alexandria Real Estate Equities v. New York City Health + Hospitals and EDC: Ground-Lease Option and Default-Notice Fights",
+   "kind": "Corrected: description",
+   "was": "default notice ... stop the agencies from terminating the option over an alleged, disputed default | status described as an emergency bid still pending | omitted partial dismissal and counterclaims",
+   "now": "The default notice is separate from the option dispute and concerns information-delivery obligations for the existing towers; the state action seeks to block a termination notice under the ground lease | TRO denied May 13, 2026; Yellowstone and preliminary injunctions denied June 15, 2026; First Department denied interim relief September 10, 2026; appeal pending | Fraud and implied-covenant claims dismissed March 27, 2026; agencies counterclaimed April 10, 2026",
+   "basis": "Checked against the source article: Alexandria Form 10-Q for the quarter ended September 30, 2026, Note 3 | Alexandria Form 10-Q, Note 3 | Alexandria Form 10-Q, Note 3"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-259",
+   "caseId": "live-259",
+   "subject": "Shareholder Class Action v. Franklin BSP Realty Trust, Inc.: Investors Sue Mortgage REIT Over Dividend Statements",
+   "kind": "Corrected: date, description",
+   "was": "Franklin BSP Realty Trust has stated that it considers the claims meritless and immaterial | timeline marked the February 26, 2026 filing as the latest event, listed before May 8, 2026",
+   "now": "The company says the class action is without merit and not expected to be material; the derivative suit is also disputed and has been stayed | May 8, 2026 derivative filing is the latest event",
+   "basis": "Checked against the source article and court docket: FBRT Form 10-Q for the period ended June 30, 2026 | FBRT Form 10-Q; CourtListener docket 1:26-cv-01107"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-291",
+   "caseId": "live-291",
+   "subject": "C&B Development, LLC v. Maxatawny Township Zoning Hearing Board: Commonwealth Court Holds Warehouse Access Road Subject to 500-Foot Residential Setback",
+   "kind": "Corrected: description",
+   "was": "Pennsylvania Commonwealth Court Blocks 709,000-SF Warehouse",
+   "now": "The court affirmed that the warehouse's access road is subject to the setback and denied a variance; it did not rule on the project as a whole",
+   "basis": "Checked against the source article: Commonwealth Court memorandum opinion, No. 982 C.D. 2025"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-286",
+   "caseId": "live-286",
+   "subject": "Hetley Associates v. Lemoyne Borough Zoning Hearing Board: Pennsylvania Commonwealth Court Rejects Strip-Center Owner's Use Variance for Overflow Parking on Adjacent Residential Lots",
+   "kind": "Corrected: description",
+   "was": "a vacant space once occupied by a restaurant was hard to re-lease without more parking",
+   "now": "one space formerly occupied by a restaurant is vacant; the opinion does not say it was hard to re-lease",
+   "basis": "Checked against the source article: Commonwealth Court memorandum opinion, No. 1306 C.D. 2025, quoting the trial court's 1925(a) opinion"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-283",
+   "caseId": "live-283",
+   "subject": "Trustees Main/270, LLC v. ApplianceSmart, Inc.: Sixth Circuit Holds Shopping-Center Landlord Could Reject Replacement Tenants Tied to Its Defaulting Tenant",
+   "kind": "Corrected: figure",
+   "was": "amount not stated in the opinion",
+   "now": "$1,346,579.31 plus interest ($155,267.15 on summary judgment, $1,064,674.64 in rent and charges and $126,637.52 in broker fees at final judgment)",
+   "basis": "Checked against the source article: S.D. Ohio Opinion and Order, No. 2:22-cv-01938, ECF No. 101 (Oct. 3, 2025), via CourtListener"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-280",
+   "caseId": "live-280",
+   "subject": "First Department Affirms $1.2 Million Jury Verdict for Preschool Tenant Against Bohemian Brethren Presbyterian Church Over Uncleared Building Violations",
+   "kind": "Corrected: description",
+   "was": "the lost-profits portion of the award, $734,353, or roughly two and a half years of projected profits",
+   "now": "the plaintiffs said the $734,353 award approximates two and a half years of projected profits",
+   "basis": "Checked against the source article: First Department decision, 2026 NY Slip Op 05909 (attributes the 2.5-year figure to plaintiffs)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-267",
+   "caseId": "live-267",
+   "subject": "Wilmington Trust v. Stradtman Park, LLC: Fourth Department Upholds Cut to CMBS Trust's Foreclosure Fees and Interest",
+   "kind": "Corrected: description",
+   "was": "Upholds Trial Court's Cut to CMBS Special Servicer's Foreclosure Fees",
+   "now": "The fee request was the plaintiff trustee's (acting through special servicer LNR)",
+   "basis": "Checked against the source article: Fourth Department decision, 2026 NY Slip Op 05883 (caption and fee discussion)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-270",
+   "caseId": "live-270",
+   "subject": "5 Beekman Property Owner, LLC v. Henick-Lane, Inc.: Plaintiffs Ordered to Return $850,000 Insurer Paid on a Settlement That Never Closed",
+   "kind": "Corrected: description",
+   "was": "Owner Ordered to Return $850,000",
+   "now": "Both plaintiffs, the owner and Broadway Construction Group, were ordered to return the $850,000, which was paid to Broadway Construction Group",
+   "basis": "Checked against the source article: First Department decision, 2026 NY Slip Op 05712"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-273",
    "caseId": "live-273",
    "subject": "Stop 65, LLC v. Beach Park Railway, LLC: Ohio Appeals Court Upholds Shopping-Center Eviction of Museum Tenant Over Unapproved Sublease",
