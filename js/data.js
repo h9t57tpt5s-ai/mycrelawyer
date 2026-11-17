@@ -266,10 +266,10 @@ const RELAW_DATA = {
     {
       id: "live-006",
       seoTitle: "Silver Star Properties REIT Files Second Chapter 11 (Houston)",
-      seoDescription: "Houston non-traded REIT Silver Star Properties filed its second Chapter 11 in four years after a failed office-to-self-storage pivot; $65M+ in default.",
+      seoDescription: "Houston REIT Silver Star Properties filed its second Chapter 11 on May 28, 2026, after a pivot from office to self-storage; four loans are in default.",
       addedDate: "2026-08-04",
       title: "In re Silver Star Properties REIT (Second Chapter 11 Filing)",
-      brief: "Houston non-traded REIT Silver Star Properties filed its second Chapter 11 in four years after a failed office-to-self-storage pivot, with over $65M in guaranteed loans in default.",
+      brief: "Houston REIT Silver Star Properties filed for Chapter 11 on May 28, 2026, its second filing since 2023, after a planned shift from office to self-storage; four loans are in default, Bisnow reported.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-05-28",
@@ -281,22 +281,24 @@ const RELAW_DATA = {
       amountBasis: "other",
       judge: "Mark X. Mullin",
       state: "TX",
-      amount: "$100M assets vs. $75M liabilities; $65M+ in defaulted loans",
+      amount: "$100M assets vs. $75M liabilities",
       source: "live",
-      sourceUrl: "https://www.bisnow.com/national/news/commercial-real-estate/silver-star-properties-files-for-chapter-11-134932",
-      summary: "Houston-based non-traded REIT Silver Star Properties filed its second Chapter 11 petition in four years on May 28, following a failed pivot from office assets to self-storage. Four guaranteed loan agreements totaling over $65M are in default, and a separate $5.75M promissory note on a self-storage property moved to foreclosure on June 2. The filing follows an SEC inquiry and a settled internal fraud/fiduciary-duty suit against the REIT's ousted founder, Allen Hartman, tied to an earlier $259M Goldman Sachs CMBS loan default.",
-      significance: "Illustrates how leadership litigation and governance disputes within a REIT can compound loan-covenant distress and precipitate repeat bankruptcy filings. Lenders and boards evaluating distressed CRE borrowers are increasingly treating unresolved founder/fiduciary-duty litigation as an independent credit risk factor, separate from asset-level performance, amid the broader wave of CRE loan maturities.",
+      sourceUrl: "https://www.bisnow.com/news/national/commercial-real-estate/silver-star-properties-files-for-chapter-11-134932",
+      summary: "Houston-based REIT Silver Star Properties filed for Chapter 11 protection on May 28, 2026 in the Northern District of Texas, its second Chapter 11 case after a September 2023 filing, Bisnow reported. The company reported $75 million in liabilities and $100 million in assets, and said four loans are in default, along with a $5.75 million promissory note on a self-storage property that moved to foreclosure on June 2. Its 2023 lawsuit accusing founder and former CEO Allen Hartman of fraud and breach of fiduciary duty is still ongoing.",
+      significance: "The filing follows a pivot from office, retail and industrial holdings into self-storage that Bisnow reports was slowed by an SEC investigation, litigation and blocked property sales. The company told shareholders the bankruptcy could cancel their equity.",
       body: [
-        "Silver Star Properties REIT's second Chapter 11 filing in four years caps a strategic pivot that didn't work: the Houston-based non-traded REIT tried to reposition from office assets into self-storage, and the shift left it with four guaranteed loan agreements — over $65M combined — in default, plus a separate $5.75M promissory note on a self-storage property that moved to foreclosure on June 2.",
-        "The filing doesn't stand alone. It follows an SEC inquiry and a since-settled internal fraud and fiduciary-duty suit against the REIT's ousted founder, Allen Hartman, connected to an earlier $259M Goldman Sachs CMBS loan default — meaning governance litigation and loan-covenant distress have been compounding each other for years rather than surfacing as isolated problems.",
-        "For lenders and boards evaluating distressed CRE borrowers, the pattern here — leadership litigation feeding into repeat bankruptcy filings — is becoming its own credit-risk signal, tracked separately from how the underlying assets are actually performing, as the broader wave of CRE loan maturities continues to surface distress."
+        "Silver Star Properties REIT filed for Chapter 11 bankruptcy protection on May 28, 2026, Bisnow reported, citing a June 5 shareholder update filed with the SEC. The Houston-based REIT said it aims to reorganize its obligations and preserve \"tangible and intangible assets.\" It reported $75 million in liabilities and $100 million in assets, warned shareholders that the proceedings might cancel their equity, and said four loans are in default, along with a $5.75 million promissory note on a self-storage property that moved to foreclosure on June 2.",
+        "The company previously filed for Chapter 11 in September 2023, with a plan to liquidate legacy office assets, reposition others into a new entity and resolve $217 million in outstanding debt. It planned to sell its retail, office and industrial holdings and move fully into self-storage, and bought nine properties in 2023 through an acquisition of Southern Star Self-Storage. According to the shareholder update, ongoing litigation, tight finances and lending constraints led to a review of strategic alternatives.",
+        "Bisnow reported that the pivot was slowed by an SEC investigation, litigation and blocked deals to sell properties. In a 2023 lawsuit, Silver Star accused founder and former CEO Allen Hartman, who left in October 2022, of fraud, breach of fiduciary duty and interfering with asset sales; that case is still ongoing. Bisnow corrected its article on June 11 to clarify the status of that case and the date of Hartman's departure."
       ],
       timeline: [
-        { when: "Prior to filing", label: "SEC inquiry and a since-settled internal fraud/fiduciary-duty suit against ousted founder Allen Hartman, tied to an earlier $259M Goldman Sachs CMBS default" },
-        { when: "May 28, 2026", label: "Silver Star Properties REIT files its second Chapter 11 petition in four years",  current: true },
-        { when: "June 2, 2026", label: "Separate $5.75M promissory note on a self-storage property moves to foreclosure" }
+        { when: "October 2022", label: "Founder and former CEO Allen Hartman leaves the company" },
+        { when: "2023", label: "Silver Star sues Hartman, alleging fraud and breach of fiduciary duty; the case remains ongoing" },
+        { when: "September 2023", label: "Silver Star files its first Chapter 11 petition" },
+        { when: "May 28, 2026", label: "Silver Star Properties REIT files its second Chapter 11 petition" },
+        { when: "June 2, 2026", label: "A $5.75M promissory note on a self-storage property moves to foreclosure", current: true }
       ],
-      tags: ["REIT bankruptcy", "loan default", "foreclosure", "fiduciary duty", "self-storage"],
+      tags: ["REIT bankruptcy", "loan default", "foreclosure", "self-storage", "chapter 11"],
       docketUrl: "https://www.courtlistener.com/docket/73409172/silver-star-properties-reit-inc/",
       docketLabel: "CourtListener docket"
     },
@@ -1355,14 +1357,14 @@ const RELAW_DATA = {
     {
       id: "live-045",
       seoTitle: "Workspace Property Trust: $1.23B Multistate CMBS Foreclosure",
-      seoDescription: "Wells Fargo, as CMBS trustee, sued Workspace Property Trust affiliates in Minnesota over a $1.28B loan on a four-state office and industrial portfolio.",
+      seoDescription: "Wells Fargo, as CMBS trustee, filed foreclosure suits in several states over a $1.28B loan on Workspace Property Trust's office and industrial portfolio.",
       addedDate: "2026-08-27",
       title: "Wells Fargo Bank, N.A. v. Workspace Property Trust Affiliates (Multistate CMBS Foreclosure on $1.28B Suburban Office Portfolio)",
-      brief: "Wells Fargo, as CMBS trustee, filed a Minnesota foreclosure against Workspace Property Trust affiliates in a multistate effort on a $1.28B loan backing a four-state office and industrial portfolio.",
+      brief: "Wells Fargo, as trustee for a CMBS trust, filed foreclosure suits in multiple states in August 2026 over a $1.28B loan backing Workspace Property Trust's four-state office and industrial portfolio, Bisnow reported.",
       category: "lending-foreclosure",
       status: "filed",
-      date: "2026-08-25",
-      jurisdiction: "Hennepin County District Court, Minnesota (lead filing); parallel foreclosure actions in Maricopa County Superior Court, Arizona, and state courts in Florida and Pennsylvania",
+      date: "2026-08-24",
+      jurisdiction: "Hennepin County District Court, Minnesota, and other state courts; earlier action in Maricopa County, Arizona",
       parties: [
         { name: "Wells Fargo Bank", role: "Plaintiff (CMBS trustee)" },
         { name: "Workspace Property Trust", role: "Borrower" },
@@ -1374,20 +1376,20 @@ const RELAW_DATA = {
       amount: "$1.23B unpaid principal, plus accrued interest, special servicer fees, and attorneys' fees, on a $1.28B original CMBS loan",
       source: "live",
       sourceUrl: "https://www.bisnow.com/news/national/capital-markets/wells-fargo-moves-to-foreclose-workspace-property-trust-portfolio",
-      summary: "Wells Fargo Bank, N.A., as trustee for the CMBS trust holding the debt, filed a new foreclosure complaint this month in Hennepin County District Court, Minnesota against Workspace Property Trust affiliates, part of a coordinated multistate foreclosure effort that also includes an Arizona action filed in September 2025 and reported parallel filings in Florida and Pennsylvania. The $1.28B loan, originated in 2018 against a roughly 10-million-square-foot, four-state office and industrial portfolio, transferred to special servicing in May 2023 as occupancy fell from about 89% to roughly 75% and collateral value dropped from $1.63B to about $1.24B. Trigild was appointed receiver over the full portfolio following the Arizona filing.",
-      significance: "Shows a special servicer moving from a two-year workout into simultaneous, jurisdiction-by-jurisdiction foreclosure once loan-to-value flips underwater and occupancy keeps sliding, using an early receivership filing in one state to seize practical control of an entire multistate portfolio before any foreclosure sale closes elsewhere. Sponsors and asset managers negotiating extensions on aging office CMBS loans should treat a stalled workout, not just a missed maturity payment, as a trigger special servicers now read as a signal to litigate rather than keep extending.",
+      summary: "Wells Fargo Bank, representing the CMBS trust that holds a $1.28 billion loan to Workspace Property Trust, filed foreclosure lawsuits in multiple states in August 2026, Bisnow reported. A suit in Hennepin County, Minnesota puts the unpaid principal at about $1.23 billion plus interest, special servicer fees and attorney expenses. The 2018 loan, backed by a portfolio now of 143 office and industrial properties in Arizona, Florida, Minnesota and Pennsylvania, went to special servicing in May 2023, and Trigild was appointed receiver for the whole portfolio after a September 2025 Arizona suit. Workspace Property Trust declined to comment.",
+      significance: "The loan is one of the largest CMBS loans in special servicing, and the filings move it from a receivership into foreclosure in several states at once. Morningstar Credit values the collateral at $1.24 billion, about the size of the unpaid balance and down from $1.63 billion at issuance.",
       body: [
-        "Wells Fargo Bank, National Association, acting as trustee for the commercial mortgage-backed securities trust that holds the debt, has filed a fresh round of foreclosure complaints this month against affiliates of Workspace Property Trust, escalating what began as a single Arizona filing into a coordinated, multistate liquidation of one of the largest suburban office and industrial portfolios still carrying its original 2018 financing. A newly filed complaint in Hennepin County District Court, Minnesota puts the unpaid principal balance at approximately $1.23 billion, plus accrued interest, special servicer fees, and attorneys' fees, and mirrors complaints reportedly filed or being prepared in Florida and Pennsylvania. Together with the Arizona action commenced in Maricopa County Superior Court in September 2025, the filings bring under active foreclosure substantially all of a portfolio that once comprised 146 office and industrial buildings across four states.",
-        "The underlying loan is a $1.28 billion CMBS facility originated in 2018 against nearly 10 million square feet of suburban office and industrial space, and its trajectory illustrates how quickly a well-underwritten portfolio loan can deteriorate once occupancy erodes. The properties were roughly 89% leased at origination; portfolio occupancy has since fallen to around 75%, and Morningstar Credit now values the collateral at approximately $1.24 billion, down from $1.63 billion at issuance, a decline steep enough that the loan balance now exceeds the appraised value of the assets securing it. The loan transferred to special servicing in May 2023 as its maturity date approached, and KeyBank National Association, acting as special servicer and attorney-in-fact for the lender, spent roughly two years attempting a workout before litigation began. That timeline is itself instructive: special servicers frequently have more patience than borrowers expect, but that patience is not unlimited, and once it lapses, servicers tend to move quickly and on multiple fronts at once.",
-        "The procedural architecture of this case is worth close attention from any commercial real estate lawyer advising a borrower on a cross-collateralized, multistate CMBS loan. Because the collateral spans four states, the lender cannot obtain a single consolidated foreclosure judgment; instead it must bring separate actions under each state's own foreclosure and receivership procedure, a reality that shaped the sequencing seen here. The Arizona complaint came first and secured appointment of Trigild as receiver over the entire portfolio, giving the lender operational control of cash flow and property management nationwide well before any state-specific foreclosure sale could occur. The receiver's mandate, protecting the collateral and maintaining net operating income while litigation proceeds, is now doing much of the practical work that foreclosure judgments will eventually formalize state by state. The Minnesota complaint and the parallel actions apparently underway in Florida and Pennsylvania are best understood not as separate disputes but as the second phase of a single enforcement strategy: lock down the asset through receivership, then pursue judgment and sale jurisdiction by jurisdiction.",
-        "For sponsors and asset managers with maturing CMBS debt on office assets, the Workspace Property Trust litigation offers a preview of what an unsuccessful extension negotiation now looks like in practice. A borrower's leverage in workout talks depends heavily on whether the special servicer believes a consensual restructuring will recover more than an aggressive foreclosure and receivership strategy; here, with loan-to-value underwater and occupancy still sliding, the servicer evidently concluded the reverse was true. Once that determination is made, the special servicer's authority as attorney-in-fact for the lender allows it to move on all fronts simultaneously rather than negotiating a single global resolution, a structural feature of securitized debt that borrowers with multistate portfolios sometimes underestimate until it is deployed against them.",
-        "Counsel for CRE owners, lenders, and special servicers watching this matter should draw a few practical lessons from how it has unfolded so far. A single early receivership filing in the collateral's most favorable jurisdiction can functionally seize control of a national portfolio well before any foreclosure sale closes, so borrowers should not assume litigation limited to one state leaves the rest of a cross-collateralized portfolio untouched, and should press for concrete, near-term performance benchmarks in any forbearance agreement rather than open-ended extensions, since servicers now appear willing to treat a stalled workout as evidence that litigation, not further patience, is the value-maximizing path once occupancy and valuation trends put a loan meaningfully underwater. Because multistate CMBS portfolios require parallel, jurisdiction-specific enforcement actions, borrowers and their counsel should map out each state's foreclosure and receivership timeline well before a maturity default, rather than being caught off guard by a rolling wave of complaints arriving months apart, as has happened here between the September 2025 Arizona filing and this month's Minnesota complaint."
+        "Wells Fargo Bank, representing a commercial mortgage-backed securities trust, filed foreclosure lawsuits in multiple states in August 2026 over the portfolio backing a $1.28 billion loan to Workspace Property Trust, Bisnow reported on August 24, 2026. A suit filed in Hennepin County, Minnesota puts the unpaid principal at about $1.23 billion, and the lender says it is owed that balance plus interest, special servicer fees and attorney expenses. KeyBank National Association is the special servicer and attorney-in-fact for the lender, according to the new suits.",
+        "Workspace obtained the CMBS loan in 2018, backed by 146 office and industrial properties totaling nearly 10 million square feet across four states. The portfolio now includes 143 properties in Arizona, Florida, Minnesota and Pennsylvania and is valued at $1.24 billion, down from $1.63 billion at issuance, according to Morningstar Credit. Occupancy is about 75%, down from nearly 89% at origination and 81% in 2022.",
+        "The loan moved to special servicing in May 2023. It was scheduled to mature in July 2023 without extension options, but Workspace obtained a two-year extension that month; CEO Thomas Rizk told Bisnow in 2023 that existing investors had put significant new money into the company as part of the deal. Trigild was appointed receiver for the entire portfolio after Wells Fargo filed suit in Maricopa County, Arizona, in September 2025.",
+        "Workspace Property Trust declined to comment, and Wells Fargo and KeyBank did not respond to Bisnow by press time."
       ],
       timeline: [
-        { when: "2018", label: "Workspace Property Trust originates a $1.28B CMBS loan against 146 office and industrial properties across four states" },
-        { when: "May 2023", label: "The loan transfers to special servicing as its maturity approaches" },
-        { when: "September 2025", label: "Wells Fargo Bank, N.A., as trustee, files a foreclosure complaint in Maricopa County, Arizona; Trigild is appointed receiver over the full portfolio" },
-        { when: "August 2026", label: "Wells Fargo files a new foreclosure complaint in Hennepin County, Minnesota, with parallel actions reported in Florida and Pennsylvania", current: true }
+        { when: "2018", label: "Workspace Property Trust obtains a $1.28B CMBS loan backed by 146 office and industrial properties in four states" },
+        { when: "May 2023", label: "The loan transfers to special servicing" },
+        { when: "July 2023", label: "Workspace obtains a two-year extension of the loan" },
+        { when: "September 2025", label: "Wells Fargo sues in Maricopa County, Arizona; Trigild is appointed receiver for the full portfolio" },
+        { when: "August 2026", label: "Wells Fargo files foreclosure suits in multiple states, including Hennepin County, Minnesota", current: true }
       ],
       tags: ["CMBS", "foreclosure", "special servicing", "receivership", "office distress"]
     },
@@ -1761,14 +1763,14 @@ const RELAW_DATA = {
     {
       id: "live-055",
       seoTitle: "Atlanta Eminent Domain Plan: Azalea Gardens and Magnolia Park",
-      seoDescription: "Atlanta's City Council voted unanimously to pursue eminent domain plans for the blighted Azalea Gardens (92-unit) and Magnolia Park (300-unit) apartments.",
+      seoDescription: "Atlanta's City Council unanimously approved a measure to acquire the Azalea Gardens and Magnolia Park apartments through eminent domain, Bisnow reported.",
       addedDate: "2026-08-31",
-      title: "Atlanta City Council v. Azalea Gardens / Magnolia Park (Blighted Apartment Eminent Domain Resolution)",
-      brief: "Atlanta's City Council unanimously directed staff to draft an eminent domain plan for two blighted apartment complexes, the 92-unit Azalea Gardens and 300-unit Magnolia Park, for affordable housing.",
+      title: "Atlanta City Council Approves Eminent Domain Plan for Azalea Gardens and Magnolia Park Apartments",
+      brief: "Atlanta's City Council unanimously approved a measure to acquire the Azalea Gardens and Magnolia Park apartments by eminent domain for affordable housing. Azalea's owner says it already plans to redevelop, Bisnow reported.",
       category: "eminent-domain",
       status: "pending",
-      date: "2025-08-19",
-      jurisdiction: "Atlanta City Council; anticipated Fulton County Superior Court condemnation proceeding",
+      date: "2025-08-18",
+      jurisdiction: "Atlanta City Council",
       parties: [
         { name: "TYTA LLC", role: "Property Owner" },
         { name: "John Eagan Homes I and II LP", role: "Property Owner" }
@@ -1776,20 +1778,20 @@ const RELAW_DATA = {
       judge: null,
       amountUsd: null,
       state: "GA",
-      amount: "Pre-condemnation resolution covering a 92-unit and a 300-unit apartment complex; acquisition cost not yet set",
+      amount: "Resolution covering a 92-unit and a 300-unit apartment complex; acquisition cost not reported",
       source: "live",
-      sourceUrl: "https://www.bisnow.com/atlanta/news/affordable-housing/atlanta-council-approves-eminent-domain-against-two-apartments-130626",
-      summary: "The Atlanta City Council unanimously approved a resolution directing staff to draft a formal eminent domain acquisition plan for two long-blighted apartment complexes, Azalea Gardens (92 units, owned by New Jersey-registered TYTA LLC) and Magnolia Park (300 units across 20 buildings, owned by Florida-tied John Eagan Homes I and II LP), with the goal of converting both to affordable housing through public-private redevelopment.",
-      significance: "A test of how far a city can lean on eminent domain against absentee owners of deteriorating, negative-cash-flow apartment properties rather than pursuing code enforcement alone. Out-of-state owners of distressed Georgia multifamily assets should treat sustained negative cash flow and unresolved blight citations as real condemnation exposure, not just a code-enforcement or tax-penalty risk.",
+      sourceUrl: "https://www.bisnow.com/news/atlanta/affordable-housing/atlanta-council-approves-eminent-domain-against-two-apartments-130626",
+      summary: "The Atlanta City Council on August 18, 2025 unanimously approved a resolution to acquire the Magnolia Park and Azalea Gardens apartment complexes on the city's Westside through eminent domain and redevelop them as affordable housing through a public-private partnership, Bisnow reported. The city has 60 days to draft a plan covering the acquisition timeline, financing, redevelopment and tenant relocation. A manager at TYTA LLC, Azalea Gardens' owner, told Bisnow the company plans to ask the city to hold off because it is already planning to demolish the now-vacant complex for its own affordable housing project.",
+      significance: "The resolution is a first step; no condemnation case had been filed when Bisnow reported it. The council also approved a separate measure directing staff to list multifamily properties with long-running blight for acquisition, which could put other apartment owners on the same path.",
       body: [
-        "Atlanta's City Council voted unanimously to move toward condemning two apartment complexes it has designated as blighted, directing staff to return within 60 days with a detailed acquisition plan covering timeline, financing, redevelopment approach, and tenant relocation. Azalea Gardens, a nine-building, 92-unit complex owned for fifteen years by TYTA LLC, a New Jersey-registered entity, has run a negative cash flow for at least five years according to the city's presentation. Magnolia Park, a considerably larger 300-unit, 20-building complex on a 22-acre site, is owned by John Eagan Homes I and II LP, entities tied to Florida addresses.",
-        "TYTA LLC's representative pushed back before the vote, telling the council the owner already intends to demolish Azalea Gardens for its own affordable-housing redevelopment and asking the city to hold off on condemnation. The council proceeded anyway, and the resolution folds into Atlanta's broader campaign against distressed, often absentee-owned multifamily properties, which already includes a 'blight tax' allowing the city to charge troubled properties a higher rate until remediated or redeveloped.",
-        "Because the council has only authorized staff to develop an acquisition plan rather than filed a condemnation petition, the matter remains a pre-litigation resolution for now — the real test of valuation, just compensation, and any public-use challenge from the owners will play out once (and if) a formal Fulton County Superior Court filing follows. For out-of-state ownership groups holding distressed Georgia multifamily assets, the more immediate signal is that a sustained negative-cash-flow property with open blight citations is now visibly on a major city's list of eminent domain candidates, not just a code-enforcement or tax-penalty target."
+        "The Atlanta City Council on August 18, 2025 unanimously approved a measure to acquire the Magnolia Park and Azalea Gardens apartment complexes on the city's Westside by eminent domain, Bisnow reported. The resolution, introduced by Council Member Byron Amos, says the properties have long suffered from neglect and unsafe conditions with little sign of reinvestment by their owners, and calls for a public-private partnership to redevelop them as \"deeply affordable, high-quality housing.\" The city has 60 days to draft a plan covering the acquisition timeline, financing, redevelopment and tenant relocation.",
+        "Azalea Gardens, a nine-building, 92-unit property, has been owned for 15 years by TYTA LLC, a New Jersey-registered entity. A manager at the company told Bisnow the property had negative cash flow for at least five years, that it is now vacant after the company relocated residents, and that TYTA plans to file demolition permits for an affordable housing project once it finds a financial partner. He said the company would ask the city to hold off on an eminent domain suit and would try to work with the city. Magnolia Park, with 300 units in 20 buildings on a 22-acre site, is owned by John Eagan Homes I and II LP, entities tied to two Florida addresses according to Fulton County records; Bisnow could not reach that owner.",
+        "The council also unanimously approved a separate Amos resolution directing staff to identify multifamily properties where at least 10% of units have been blighted for 10 or more consecutive years and to prioritize acquiring them for long-term affordable housing. The measures add to the city's \"blight tax,\" which lets Atlanta charge owners of blighted properties a higher tax rate until they are fixed or redeveloped, and to Mayor Andre Dickens' earlier proposal to use eminent domain against commercial and multifamily blight."
       ],
       timeline: [
-        { when: "August 19, 2025", label: "Atlanta City Council unanimously approves a resolution directing staff to draft an eminent domain acquisition plan for both properties", current: true }
+        { when: "August 18, 2025", label: "Atlanta City Council unanimously approves resolutions to acquire Azalea Gardens and Magnolia Park by eminent domain and to target other long-blighted multifamily properties", current: true }
       ],
-      tags: ["eminent domain", "blight", "affordable housing", "apartment complex", "absentee owner"]
+      tags: ["eminent domain", "blight", "affordable housing", "apartment complex", "atlanta"]
     },
     {
       id: "live-056",
@@ -2003,11 +2005,11 @@ const RELAW_DATA = {
     {
       id: "live-063",
       seoTitle: "Faneuil Hall Marketplace: J. Safra Sues Sugar Factory for Rent",
-      seoDescription: "J. Safra Real Estate sued Sugar Factory for more than $930,000 in unpaid rent at Boston's Faneuil Hall Marketplace, its seventh tenant suit there.",
+      seoDescription: "J. Safra Real Estate sued Sugar Factory for more than $930,000 in unpaid rent, interest and fees at Faneuil Hall Marketplace, one of seven tenant suits.",
       property: {"name": "Faneuil Hall Marketplace", "city": "Boston", "state": "MA"},
       addedDate: "2026-09-01",
       title: "J. Safra Real Estate v. Sugar Factory (Faneuil Hall Marketplace Unpaid Rent Suit)",
-      brief: "Faneuil Hall Marketplace manager J. Safra Real Estate sued retailer Sugar Factory for more than $930,000 in unpaid rent, its seventh tenant suit at the marketplace totaling roughly $2 million.",
+      brief: "Faneuil Hall Marketplace owner J. Safra Real Estate sued Sugar Factory for more than $930,000 in unpaid rent, interest and fees, one of seven tenant suits totaling over $2 million, Bisnow reported.",
       category: "lease-disputes",
       status: "filed",
       date: "2026-07-10",
@@ -2020,22 +2022,23 @@ const RELAW_DATA = {
       amountUsd: 930000,
       amountBasis: "damages sought",
       state: "MA",
-      amount: "~$930K sought from Sugar Factory alone; ~$2M across seven related tenant suits",
+      amount: "~$930K sought from Sugar Factory; over $2M across seven tenant suits",
       source: "live",
       sourceUrl: "https://www.bisnow.com/news/boston/retail/faneuil-hall-landlord-j-safra-group-sues-tenants-over-2m-in-unpaid-rent",
-      summary: "J. Safra Real Estate, which took over management of Boston's Faneuil Hall Marketplace at the start of 2024, sued candy and novelty retailer Sugar Factory on July 10, 2026 for more than $930,000 in unpaid rent, interest, and fees, the seventh in a series of Suffolk Superior Court lease-enforcement suits against marketplace tenants totaling roughly $2 million. Six other suits target Imagine Exhibitions, Boston Halal, Popular Properties Realty, Lovepop, and Ghirardelli Chocolate Co.; the Lovepop claim was dismissed in April 2026 and Popular Properties Realty disputes the allegations.",
-      significance: "The coordinated enforcement campaign shows how an incoming landlord can move aggressively to collect on leases and defaults inherited from a prior owner, and illustrates the acceleration and fee-shifting exposure commercial tenants face once a notice-and-cure period lapses. It also highlights the occupancy cost of aggressive collection at legacy retail destinations, where most named tenants have since vacated.",
+      summary: "J. Safra Real Estate, which acquired the ground lease for Boston's Faneuil Hall Marketplace in 2024, sued candy and restaurant franchise Sugar Factory on July 10, 2026 for more than $930,000 in unpaid rent, interest and attorney's fees, Bisnow reported, citing filings first reported by the Boston Business Journal. It is one of seven suits J. Safra filed against current and former tenants between 2024 and July 2026, seeking more than $2 million in all. J. Safra told Bisnow it does not comment on litigation; FoMu, another tenant sued, denies owing back rent.",
+      significance: "The suits show a new ground lessee pursuing rent claims under leases signed with the prior owner, Ashkenazy Acquisition Corp. J. Safra says it is also carrying out an improvement plan and has raised ground-floor retail occupancy to 93% from 76% in 2024.",
       body: [
-        "J. Safra Real Estate, which assumed management of Boston's historic Faneuil Hall Marketplace at the beginning of 2024, has spent the past year pursuing a coordinated rent-collection campaign against tenants it inherited from the property's prior owner, New York-based Ashkenazy Acquisition Corp. The latest and largest of seven related Suffolk County Superior Court suits, filed July 10, 2026, targets candy and novelty retailer Sugar Factory for more than $930,000 in unpaid rent, interest, and attorneys' fees.",
-        "According to the complaint, Sugar Factory's Boston location leased roughly 9,000 square feet in the marketplace's South Market Building under a 2021 lease signed with Ashkenazy. J. Safra alleges it notified the franchise's owner, Lloyd Sugarman, in January 2026 that the tenant owed approximately $913,000 in back rent, and warned that failure to pay the full balance within ten days would trigger a default under the lease. The landlord alleges Sugar Factory failed to cure within that window, triggering its right to accelerate the remaining rent obligation along with interest and collection costs.",
-        "The Sugar Factory suit follows six earlier actions filed against Imagine Exhibitions Inc., Boston Halal, Popular Properties Realty Inc., Lovepop, and Ghirardelli Chocolate Co., together seeking just under $1 million in additional unpaid rent. The cases have not all proceeded the same way: the claim against Lovepop was dismissed in April 2026, and Popular Properties Realty has disputed the landlord's allegations, telling the court it vacated its space because of unresolved property maintenance problems — a defense that, if credited, could complicate a straightforward nonpayment theory. Most of the named tenants have since closed their Faneuil Hall locations; Sugar Factory remains the only one still operating in the marketplace.",
-        "On their face, these are conventional lease-enforcement actions: a landlord alleging nonpayment, issuing a notice-and-cure demand under the lease's default provisions, and suing for the accelerated balance once the cure period lapses. What makes the cluster notable is less any single legal theory than its scale and coordination — seven suits against a historic marketplace's roster of small and mid-sized retail tenants, filed by an ownership group working systematically through defaults it inherited mid-lease-term when it took over the property.",
-        "For counsel advising landlords or tenants in similar multi-tenant retail properties, the litigation is a useful benchmark on several recurring points: buyers of leased commercial and retail properties should run rigorous lease and rent-roll diligence before closing, since incoming owners typically take assignment of existing leases — defaults and disputes included — without a clean slate; landlords enforcing notice-and-cure provisions should make sure default notices are unambiguous and properly served, since acceleration and fee-shifting claims usually hinge on strict compliance with the lease's own cure mechanics; and tenants should raise property-condition or landlord-performance grievances formally and early rather than holding them in reserve as an informal justification for withholding rent. The marketplace-wide vacancy trailing these suits is also a reminder that aggressive post-acquisition rent enforcement can accelerate tenant turnover, leaving an owner holding judgments against tenants who have already left rather than a stabilized, paying tenant base — a tradeoff worth weighing against the value of a fully occupied legacy retail destination."
+        "New York-based J. Safra Real Estate, which acquired the ground lease for Faneuil Hall Marketplace from Ashkenazy Acquisition Corp. in 2024, has sued seven current and former tenants since 2024 for more than $2 million in unpaid rent, Bisnow reported on August 6, 2026, citing court filings first reported by the Boston Business Journal. The largest claim, filed July 10, 2026, seeks more than $930,000 in unpaid rent, interest and attorney's fees from Sugar Factory.",
+        "According to the complaint, Sugar Factory signed a lease with Ashkenazy in 2021 for roughly 9,000 square feet in the South Market Building. J. Safra alleges it notified the franchise's owner in January 2026 that about $913,000 in rent was unpaid and that failure to pay in full within 10 days would be a default, and that Sugar Factory failed and refused to pay. Sugar Factory's response was not reported.",
+        "The second-largest suit, filed July 9, seeks about $447,000 from ice cream company FoMu, which vacated its 289-square-foot Quincy Market space in March 2026. FoMu's founder told Bisnow the business did not owe back rent and that the claimed amount is based on future rent after J. Safra terminated its lease. The other five suits, against Imagine Exhibitions Inc., Boston Halal, Popular Properties Realty Inc., Lovepop and Ghirardelli Chocolate Co., seek just under $1 million; the Ghirardelli and Lovepop suits were filed in 2024 and 2025.",
+        "J. Safra told Bisnow it does not comment on litigation. It said it is carrying out a multiphase improvement plan with Commodore Builders, that the first phase addressing deferred maintenance from the prior ownership was completed this summer, and that new leases have brought ground-floor retail occupancy to 93%, up from 76% in 2024."
       ],
       timeline: [
-        { when: "2021", label: "Sugar Factory signs lease for ~9,000 SF in Faneuil Hall's South Market Building with prior owner Ashkenazy Acquisition Corp." },
-        { when: "January 2026", label: "J. Safra Real Estate issues notice-and-cure demand alleging ~$913K in unpaid rent" },
-        { when: "July 10, 2026", label: "J. Safra sues Sugar Factory for over $930K, the seventh related Faneuil Hall tenant suit", current: true }
+        { when: "2021", label: "Sugar Factory signs a lease for ~9,000 SF in Faneuil Hall's South Market Building with prior owner Ashkenazy Acquisition Corp." },
+        { when: "2024", label: "J. Safra Real Estate acquires the marketplace ground lease from Ashkenazy; its suit against Ghirardelli is filed" },
+        { when: "January 2026", label: "J. Safra notifies Sugar Factory of about $913K in unpaid rent" },
+        { when: "July 9, 2026", label: "J. Safra sues FoMu, seeking about $447K" },
+        { when: "July 10, 2026", label: "J. Safra sues Sugar Factory for more than $930K", current: true }
       ],
       tags: ["commercial lease", "unpaid rent", "retail", "faneuil hall", "lease default"]
     },
@@ -5706,40 +5709,44 @@ const RELAW_DATA = {
     {
       id: "live-175",
       seoTitle: "Alexandria Real Estate Equities Securities Class Action Dismissed",
-      seoDescription: "A federal judge dismissed without prejudice a class action against life-science REIT Alexandria Real Estate Equities over $2.2 billion in impairments.",
+      seoDescription: "A federal judge dismissed with leave to amend a securities class action against Alexandria Real Estate Equities over impairments; an amended complaint followed.",
       addedDate: "2026-09-24",
       featured: true,
-      title: "Hern v. Alexandria Real Estate Equities, Inc. (Securities Class Action Dismissed Over $2.2B Impairment Claims)",
-      brief: "A federal judge dismissed without prejudice a securities class action against Alexandria Real Estate Equities over $2.2 billion in life-science impairments, finding intent not adequately alleged.",
+      title: "Alexandria Real Estate Equities Securities Class Action (Dismissed With Leave to Amend Over Impairment Claims)",
+      brief: "A federal judge dismissed, with leave to amend, a securities class action alleging Alexandria Real Estate Equities misled investors about its lab portfolio before large impairments; an amended complaint followed.",
       category: "reit-securities",
-      status: "ruling",
-      date: "2026-09-08",
+      status: "pending",
+      date: "2026-09-10",
       jurisdiction: "U.S. District Court for the Central District of California",
       amountUsd: null,
       state: "CA",
-      amount: "Putative class action tied to $2.2 billion in life-science property impairments recognized during the class period; dismissed without prejudice",
+      amount: "Putative securities class action over impairment charges of $323M (Q3 2025) and $1.7B (Q4 2025); damages not stated",
       source: "live",
       sourceUrl: "https://www.bisnow.com/news/national/capital-markets/judge-dismisses-suit-alleging-alexandria-misled-investors-over-portfolio-strength",
-      summary: "U.S. District Judge George Wu dismissed, without prejudice, a proposed securities class action accusing Alexandria Real Estate Equities and three of its executives of misleading investors about the strength of its life-science leasing pipeline, including a Long Island City, Queens property that took a roughly $206 million impairment. The court found lead plaintiff Warren Hern's complaint did not adequately allege that Alexandria's executives acted with the intent or severe recklessness securities-fraud law requires.",
-      significance: "Confirms that a large impairment charge or guidance cut, standing alone, does not satisfy the Private Securities Litigation Reform Act's heightened scienter-pleading standard, giving REITs a meaningful defense against shareholder suits filed reflexively after a stock-price decline. Life-science and lab-space REITs facing softer post-pandemic demand should expect continued plaintiffs'-bar scrutiny of leasing-pipeline disclosures even as this ruling raises the bar for such claims to survive a motion to dismiss.",
+      summary: "U.S. District Judge George H. Wu dismissed, with leave to amend, a proposed securities class action accusing Alexandria Real Estate Equities and three executives of misleading investors about its life-science leasing outlook, Bisnow reported. The court issued a tentative ruling on September 8, 2026 and adopted it as final after a September 10 hearing, according to the docket. Wu found Alexandria's account that it acted in good faith \"the more cogent-and-compelling explanation\"; the lead plaintiffs filed an amended complaint on October 15, 2026.",
+      significance: "The ruling is a setback for the plaintiffs but not the end of the case, since they were allowed to amend and have done so. It shows that a large write-down, standing alone, did not persuade the court that executives knowingly misled investors.",
       body: [
-        "A federal judge in Los Angeles has dismissed a proposed securities class action against Alexandria Real Estate Equities, Inc., the nation's largest publicly traded owner of life-science laboratory space, handing the REIT an early win in litigation that had accused its leadership of misleading investors about the strength of its development pipeline. U.S. District Judge George Wu ruled on September 8, 2026 that lead plaintiff Warren Hern's complaint did not sufficiently plead that Alexandria's executives acted with the scienter -- the intent or severe recklessness -- that federal securities law demands, and dismissed the case without prejudice, leaving Hern free to attempt to replead.",
-        "The case, Hern v. Alexandria Real Estate Equities, Inc., et al., No. 2:25-cv-11319 (C.D. Cal.), centers on Alexandria's disclosures about its life-science leasing pipeline and, in particular, a property at 32-02 48th Avenue in Long Island City, Queens, that the REIT acquired in 2018 for $75 million as part of a broader bet on New York City's emerging life-science corridor. Hern's complaint alleged that over several quarters, Alexandria executives told investors the company possessed reliable visibility into leasing spreads, tenant demand, and occupancy growth for its life-science portfolio, including the Long Island City asset, while downplaying the risk that macroeconomic conditions could derail those projections.",
-        "The claims came to a head after Alexandria's October 27, 2025 third-quarter earnings release, when the company reported results below expectations, cut its full-year funds-from-operations guidance, and disclosed a $323.9 million impairment charge -- roughly two-thirds of it, or on the order of $206 million, attributable to the Long Island City property alone. Alexandria's stock dropped sharply on the news, and investor-side law firms soon filed suit on behalf of a proposed class, ultimately pointing to a cumulative $2.2 billion in property impairments recognized across Alexandria's portfolio during the class period as evidence the REIT's earlier optimism had been unfounded.",
-        "In dismissing the case, Judge Wu did not find that Alexandria's disclosures were accurate or that no reasonable investor could have been misled. Instead, the ruling turned on the more demanding scienter requirement that the Private Securities Litigation Reform Act imposes on securities-fraud plaintiffs: it is not enough to show that a company's projections turned out wrong, or even that executives should have known better. A plaintiff must plead specific facts giving rise to a strong inference that the defendants either knew their statements were false when made or were severely reckless in making them. The court concluded Hern's complaint fell short of that bar, largely resting on the fact of the eventual write-down itself rather than on contemporaneous internal information showing Alexandria's leadership actually possessed contrary knowledge at the time of the challenged statements.",
-        "Because the dismissal was without prejudice, the practical effect is more of a pause than a final resolution -- Hern can amend the complaint with additional particularized facts, such as internal communications or witness accounts, that more directly tie what Alexandria's executives said publicly to what they knew privately. For REITs generally, and life-science and lab-space REITs in particular given the sector's post-pandemic demand slowdown, the ruling is a reminder that a large impairment charge alone does not create securities-fraud exposure; boards and general counsel should nonetheless preserve the factual basis for forward-looking leasing and occupancy statements, since a scienter defense turns on what management actually knew when it spoke rather than on how a submarket bet later performed, and should treat a first dismissal as a likely prelude to an amended complaint rather than a final resolution of the litigation."
+        "U.S. District Judge George H. Wu has dismissed a proposed securities class action against Alexandria Real Estate Equities, the largest owner of U.S. lab buildings, and three of its executives, Bisnow reported on September 14, 2026. The court issued a tentative ruling on September 8 and, after oral argument on September 10, adopted it as final, granting the motion to dismiss with leave to amend, according to the CourtListener docket for the case, No. 2:25-cv-11319 (C.D. Cal.).",
+        "The suit was filed after Alexandria reported a worse-than-expected third quarter of 2025 that included $323 million in impairment charges, and was amended after the REIT took $1.7 billion in additional charges in the fourth quarter. It alleged Alexandria knew life-science market conditions were deteriorating but \"created the false impression that they possessed reliable information\" about leasing spreads, its development tenant pipeline and occupancy growth. It focused on a $206 million write-down of a 179,000-square-foot lab building in Long Island City, Queens, which Alexandria bought for $75 million in 2018 and which was roughly half occupied when the suit was filed. Defendants named included Executive Chairman Joel Marcus, CEO Peter Moglia and CFO Marc Binda.",
+        "Alexandria argued that it and its executives acted in good faith and used their best accounting judgment. Wu wrote that Alexandria's argument \"is the more cogent-and-compelling explanation related to the events described\" in the complaint, according to Bisnow.",
+        "The docket shows the lead plaintiffs, Menora Mivtachim insurance and pension entities, filed an amended complaint on October 15, 2026, and the court later extended the defendants' deadline to answer."
       ],
       timeline: [
-        { when: "2018", label: "Alexandria acquires the Long Island City, Queens property for $75 million" },
-        { when: "October 27, 2025", label: "Alexandria discloses a $323.9 million impairment charge and cuts FFO guidance, triggering a sharp stock decline" },
-        { when: "September 8, 2026", label: "Judge George Wu dismisses the securities class action without prejudice", current: true }
+        { when: "2018", label: "Alexandria buys the Long Island City, Queens property for $75 million" },
+        { when: "Q3 2025", label: "Alexandria reports $323 million in impairment charges, including a $206 million write-down of the Long Island City property" },
+        { when: "November 25, 2025", label: "Securities class action filed in the Central District of California" },
+        { when: "September 10, 2026", label: "Judge Wu adopts his September 8 tentative ruling and dismisses the case with leave to amend" },
+        { when: "October 15, 2026", label: "Lead plaintiffs file an amended complaint", current: true }
       ],
       parties: [
-        { name: "Alexandria Real Estate Equities, Inc.", role: "Defendant" }
+        { name: "Alexandria Real Estate Equities, Inc.", role: "Defendant" },
+        { name: "Menora Mivtachim Insurance Ltd. and affiliated pension entities", role: "Lead Plaintiffs" }
       ],
       propertyType: "Life Sciences",
       judge: "George H. Wu",
-      tags: ["reit", "securities fraud", "life sciences", "california", "class action"]
+      tags: ["reit", "securities fraud", "life sciences", "california", "class action"],
+      docketUrl: "https://www.courtlistener.com/docket/71959712/warren-hern-v-alexandria-real-estate-equities-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-176",
@@ -6834,15 +6841,15 @@ const RELAW_DATA = {
     },
     {
       id: "live-213",
-      seoTitle: "Bangor Mall: $1.1M Default Judgment Against Namdar Realty Group",
-      seoDescription: "A Maine judge ordered Bangor Mall owner Namdar Realty Group to pay just over $1.1 million to Tri-State Insurance by default over a burst sprinkler pipe.",
+      seoTitle: "Bangor Mall Owner Namdar Must Pay $1.1M in Sprinkler Suit",
+      seoDescription: "A Maine judge ruled Bangor Mall owner Namdar Realty Group must pay just over $1.1 million to Tri-State Insurance over inventory lost to a burst sprinkler pipe.",
       property: {"name": "Bangor Mall", "city": "Bangor", "state": "ME"},
       addedDate: "2026-10-02",
       title: "Tri-State Insurance Co. of Minnesota v. Namdar Realty Group (Bangor Mall Sprinkler-Failure Default Judgment)",
-      brief: "A Maine judge entered a just over $1.1 million default judgment against Namdar Realty after a burst sprinkler pipe at the Bangor Mall destroyed insured inventory; claims against the contractor continue.",
+      brief: "A Maine judge ruled that Bangor Mall owner Namdar Realty Group must pay just over $1.1 million to a furniture store's insurer after a burst sprinkler pipe destroyed stored inventory, the Bangor Daily News reported.",
       category: "premises-liability",
       status: "ruling",
-      date: "2026-09-22",
+      date: "2026-09-24",
       jurisdiction: "Penobscot County Superior Court, Maine",
       state: "ME",
       propertyType: "Retail",
@@ -6851,24 +6858,25 @@ const RELAW_DATA = {
       amountBasis: "judgment",
       source: "live",
       sourceUrl: "https://www.bangordailynews.com/2026/10/02/bangor/bangor-police-courts/bangor-mall-owner-must-pay-1-1m-in-another-lawsuit/",
-      summary: "Tri-State Insurance Company of Minnesota's subrogation suit against Bangor Mall owner Namdar Realty Group is headed toward a default judgment in Maine state court after Namdar failed to respond to the complaint for roughly three months, including four unanswered letters from the insurer's counsel. The suit seeks to recover more than $1.3 million in inventory destroyed when a sprinkler pipe burst in a vacant former Sears space being used for storage. On September 24, 2026, Judge Mallonee signed a default judgment ordering Namdar to pay just over $1.1 million to Tri-State; the judgment does not reach sprinkler contractor Maine Fire Protection Systems, which appeared and defended the suit, so that portion of the litigation continues.",
-      significance: "The case illustrates how a landlord's building-maintenance failures can generate direct subrogation exposure once a tenant's insurer has paid a claim, and how failing to engage with litigation converts a potentially defensible claim into a default judgment for the full amount sought. It arrives alongside separate city code-enforcement litigation against the same ownership over unresolved property conditions at the same mall.",
+      summary: "Penobscot County Judge Bruce Mallonee signed a decision on September 24, 2026 ordering Bangor Mall owner Namdar Realty Group to pay just over $1.1 million to Tri-State Insurance Company of Minnesota, the Bangor Daily News reported. The ruling followed Namdar's failure to respond to multiple letters and to appear at a September 23 hearing. The insurer had sued to recover what it paid Furniture, Mattresses & More for inventory destroyed by water at the mall; its claims against Maine Fire Protection Systems, which has appeared in the case, are expected to continue.",
+      significance: "The ruling came after the mall owner did not respond to the suit, so the insurer's claims were never tested on the merits. It is the second seven-figure ruling against Namdar over the Bangor Mall this year, following the city's code-enforcement case.",
       body: [
-        "A commercial property owner's failure to answer a lawsuit rarely ends well, and the owner of the Bangor Mall in Bangor, Maine is about to find that out the hard way. In Penobscot County Superior Court, Judge Bruce Mallonee is expected to sign a default judgment order against Namdar Realty Group and its subsidiaries in a subrogation suit brought by Tri-State Insurance Company of Minnesota, after the mall's ownership went unanswered through four separate letters and roughly three months of silence following the complaint.",
-        "The underlying claim traces back to February 2023, when a ceiling leak was discovered in a vacant former Sears space at the mall that was being used by a local furniture retailer, Furniture, Mattresses & More, to store inventory. According to the lawsuit, it took mall personnel roughly two hours to shut off the water once the leak was reported, and a sprinkler pipe in the ceiling subsequently burst, compounding the damage. Tri-State, which insured the furniture retailer's stored goods, paid out on the claim and filed suit against Namdar on June 30, 2026 as subrogee, seeking to recover more than $1.3 million in destroyed inventory directly from the landlord.",
-        "Subrogation suits like this one are a routine mechanism in commercial property litigation: once an insurer pays its policyholder's claim, it steps into the policyholder's shoes and can sue whoever it believes is legally responsible for the loss, here the landlord whose building system allegedly failed and whose response time, the complaint alleges, let an isolated leak become a six-figure-plus inventory loss. What makes this case notable is not the underlying liability theory, which is unremarkable, but Namdar's apparent failure to engage with it at all; at a hearing reported on September 22, 2026, counsel for Tri-State told the court that four separate letters to Namdar had gone unanswered, and that the insurer intended to submit a proposed default judgment order for the court's signature seeking the full amount of the alleged damages.",
-        "The sprinkler litigation does not arrive in isolation. Namdar Realty Group's ownership of the Bangor Mall has generated a parallel and increasingly expensive dispute with the city of Bangor itself over unresolved parking lot and roof conditions at the property; a Penobscot County judge ordered Namdar to pay the city more than $1.1 million in code-violation penalties earlier in 2026, and reporting indicates Namdar failed to meet the court-ordered deadline to pay that fine or complete the associated repairs. For portfolio landlords already managing multiple disputes at a single property, each additional unanswered suit adds to a cumulative judgment and enforcement burden that can affect the property's financing, insurability, and resale value, and tenants and their insurers should treat a landlord's slow or inadequate emergency response to a building-system failure as the kind of documented fact pattern that supports a subrogation claim."
+        "A Penobscot County judge has ruled that Namdar Realty Group, the New York-based owner of the Bangor Mall, must pay just over $1.1 million to Tri-State Insurance Company of Minnesota, the Bangor Daily News reported on October 2, 2026. Judge Bruce Mallonee signed the decision on September 24, after Namdar failed to respond to multiple letters and did not appear at a September 23 hearing. Namdar did not respond to the newspaper's request for comment.",
+        "Tri-State sued in Penobscot County Superior Court on June 30, 2026, the Bangor Daily News reported in July. According to the complaint, the furniture store Furniture, Mattresses & More alerted mall ownership in February 2023 to a ceiling leak in the vacant former Sears, where it stored inventory; it took the mall two hours to shut off the water, and a sprinkler pipe in the ceiling later burst. The store's insurer reimbursed it just over $1.3 million and sued the mall's owners, Namdar Realty Group LLC, Bangor Mall Realty LLC, Bangor CH LLC and Bangor Nassim LLC, alleging negligence and that the owners \"falsely represented\" that sprinkler and code violations had been corrected.",
+        "The suit also names Maine Fire Protection Systems, which it accuses of failing to properly maintain and monitor the sprinkler and alarm systems. That company has appeared in court and responded to filings, so it is not covered by the judgment, and the insurer's claims against it are expected to continue.",
+        "The newspaper reported that this is the second million-dollar ruling against Namdar this year over the mall: Namdar was ordered to pay the city of Bangor a $1.1 million fine and make repairs over code violations, including a leaky roof and a sewer line break, and had not paid by a July 31 deadline."
       ],
       timeline: [
-        { when: "February 2023", label: "Ceiling leak and sprinkler pipe burst damage stored inventory in a vacant former Sears space" },
-        { when: "June 30, 2026", label: "Tri-State Insurance Co. of Minnesota files subrogation suit against Namdar Realty Group" },
-        { when: "September 22, 2026", label: "Court hears that Namdar has not responded to four letters; insurer to submit a proposed default judgment order" },
-        { when: "September 24, 2026", label: "Judge Mallonee signs default judgment ordering Namdar to pay roughly $1.1 million to Tri-State", current: true }
+        { when: "February 2023", label: "Ceiling leak and later sprinkler pipe burst damage a furniture store's inventory stored in the vacant former Sears" },
+        { when: "June 30, 2026", label: "Tri-State Insurance Co. of Minnesota sues the mall's owners and Maine Fire Protection Systems in Penobscot County Superior Court" },
+        { when: "September 23, 2026", label: "Namdar does not appear at a hearing in the case" },
+        { when: "September 24, 2026", label: "Judge Mallonee signs a decision ordering Namdar to pay just over $1.1 million to Tri-State", current: true }
       ],
       judge: "Bruce Mallonee",
       parties: [
         { name: "Tri-State Insurance Company of Minnesota", role: "Plaintiff" },
-        { name: "Namdar Realty Group", role: "Defendant" }
+        { name: "Namdar Realty Group", role: "Defendant" },
+        { name: "Maine Fire Protection Systems", role: "Defendant" }
       ],
       tags: ["premises-liability", "mall", "default-judgment", "subrogation", "maine"]
     },
@@ -7475,11 +7483,11 @@ const RELAW_DATA = {
     {
       id: "live-235",
       seoTitle: "Danbury Party Depot: $16.8M Verdict Against City Upheld",
-      seoDescription: "Connecticut's Appellate Court largely affirmed a $16.8 million verdict against the City of Danbury over reckless permitting of a Party Depot addition.",
+      seoDescription: "Connecticut's Appellate Court upheld a $16.8 million verdict against Danbury over a Party Depot addition, less a $280,000 remittitur; the city plans to appeal.",
       property: {"city": "Danbury", "state": "CT"},
       addedDate: "2026-10-08",
-      title: "Girolametti v. City of Danbury (Connecticut Appellate Court Affirms $16.8M Reckless-Permitting Verdict)",
-      brief: "Connecticut's Appellate Court largely affirmed a $16.8 million verdict against Danbury for reckless permitting and inspection of a 30,000-square-foot commercial addition, less a $280,000 remittitur.",
+      title: "Party Depot Owners v. City of Danbury (Connecticut Appellate Court Upholds $16.8M Reckless-Permitting Verdict)",
+      brief: "Connecticut's Appellate Court upheld a $16.8 million verdict against Danbury over its approval of a Party Depot building addition, apart from a $280,000 remittitur. The city says it will ask the state Supreme Court to review.",
       category: "zoning-land-use",
       status: "ruling",
       date: "2026-03-17",
@@ -7493,24 +7501,25 @@ const RELAW_DATA = {
       sourceUrl: "https://www.barclaydamon.com/press-releases/connecticut-appellate-court-upholds-168-million-jury-verdict-for-party-depot-owners",
       documentUrl: "https://www.leagle.com/decision/inctco20260317053",
       documentLabel: "Read the Appellate Court's opinion",
-      summary: "The Connecticut Appellate Court, in Girolametti v. Larrabee, 238 Conn. App. 1 (2026), largely affirmed a $16.8 million jury verdict against the City of Danbury and a city building official, finding they acted with reckless disregard for public health and safety in the permitting, construction, and inspection of a 30,000-square-foot commercial addition to the Party Depot retail business. The court ordered a $280,000 remittitur for amounts already recovered from a settling party, but left the recklessness finding and the balance of the award intact; Danbury has said it intends to seek review by the Connecticut Supreme Court.",
-      significance: "The decision confirms that a municipality's discretionary-function immunity for building permitting and inspection decisions does not protect conduct a jury finds reckless, exposing cities to substantial damages exposure when a permitting process for a commercial project goes badly wrong. Commercial owners in protracted disputes with a local building department should take note of how much documentation and litigation it took to sustain this result on appeal.",
+      summary: "On March 17, 2026, the Connecticut Appellate Court upheld a $16,843,750 jury verdict for the owners of Party Depot against the City of Danbury and one of its building officials, 238 Conn. App. 1 (2026). The court rejected the city's arguments except for a $280,000 remittitur for money received from a settling party, and remanded for that adjustment and for 10% statutory interest. Danbury's mayor's office said the city will ask the Connecticut Supreme Court to review the decision, Patch reported.",
+      significance: "The jury found the city and its building official acted with reckless disregard for health and safety under Connecticut's municipal liability statute, General Statutes 52-557n, and the appellate panel left that finding in place. Danbury argues the ruling sets a dangerous precedent for municipalities statewide.",
       body: [
-        "A Connecticut Appellate Court decision released March 17, 2026 has largely upheld a $16.8 million jury verdict against the City of Danbury and one of its building officials, arising out of the permitting, construction, and inspection of a 30,000-square-foot commercial addition built by Party Depot, Inc. and its owners, John and Cindy Girolametti.",
-        "The case, Girolametti v. Larrabee, followed a five-week jury trial in Connecticut Superior Court that concluded in October 2023 with a finding that the City of Danbury and building official Edward Schullery had acted with reckless disregard for the health and safety of the public in handling the project's permitting, construction, and inspection. The trial court entered final judgment on the verdict in March 2024, totaling $16,843,750 plus $37,648.88 in taxable costs, with statutory post-judgment interest continuing to accrue.",
-        "On appeal, a three-judge panel of the Connecticut Appellate Court -- Judges Seeley, Wilson, and Keller -- rejected nearly all of the city's arguments, ordering only a $280,000 remittitur tied to amounts the plaintiffs had already recovered from a settling party before trial. The panel otherwise left the jury's recklessness finding and the resulting damages award intact and remanded the case to the trial court to apply the remittitur and recalculate statutory interest. Danbury officials have said they intend to ask the Connecticut Supreme Court to take up the case, arguing the ruling could expose municipalities to liability for the reckless conduct of individual building department employees.",
-        "The ruling matters because Connecticut, like most states, generally shields municipalities and their employees with governmental immunity for discretionary acts such as permitting and inspection decisions, on the theory that those decisions involve judgment calls courts should be reluctant to second-guess after the fact. That immunity has long had a narrow exception for conduct rising to the level of recklessness, and this case shows a jury and an appellate court willing to sustain that exception on a full trial record covering a project's entire permitting history.",
-        "For commercial property owners and developers, the case is a reminder that a dispute with a municipal building department is not always confined to administrative appeals or injunctions compelling a city to act; where a city's own conduct causes substantial, provable damages and can be shown to go beyond good-faith discretionary error, a jury may be willing to award damages rivaling or exceeding the cost of the underlying project. Municipalities and building departments, for their part, should treat the decision as confirmation that discretionary-function immunity is not a blanket shield, particularly on a contentious project where a documented pattern of departure from normal permitting and inspection practice could later be characterized as reckless rather than merely mistaken."
+        "The Connecticut Appellate Court on March 17, 2026 upheld a $16.8 million jury verdict against the City of Danbury in a dispute over a commercial building addition at the Party Depot store on South Street, according to the published decision, 238 Conn. App. 1 (2026), and a press release from the plaintiffs' counsel. The panel of Judges Seeley, Wilson and Keller rejected the arguments of the city and its building official except for a $280,000 remittitur for money the plaintiffs received from a settling party long before trial.",
+        "The plaintiffs, the store's owners and their companies, including Party Depot, Inc. and 43 South Street LLC, built a roughly 30,000-square-foot addition intended for wholesale storage and sales displays, Patch reported. They later found it did not meet building code requirements and could not be used for its intended purpose. After a five-week trial in Waterbury Superior Court before Judge W. Glenn Pierson, a jury on October 6, 2023 returned a $16,843,750 verdict, finding the city and one of its building officials acted with reckless disregard for the health and safety of the public during permitting and construction. Judge Pierson entered judgment on March 27, 2024.",
+        "The Appellate Court remanded the case to the Complex Litigation Docket in Waterbury to apply the remittitur and add statutory interest at 10% a year. The plaintiffs' counsel said that would bring the city's debt to more than $20 million; Danbury's mayor's office cited an approximately $16 million judgment plus about $1.6 million a year in interest.",
+        "Danbury officials told Patch the city will ask the Connecticut Supreme Court to review and overturn the ruling, arguing the court should have read the statutes narrowly when deciding whether a municipality can be made to pay damages, and warning of a \"dangerous precedent\" for towns and cities statewide."
       ],
       judge: null,
       parties: [
         { name: "Party Depot, Inc.", role: "Plaintiff" },
+        { name: "43 South Street LLC", role: "Plaintiff" },
         { name: "City of Danbury", role: "Defendant" }
       ],
       timeline: [
-        { when: "October 2023", label: "Jury returns verdict finding the City of Danbury and a building official acted with reckless disregard for public safety during permitting and inspection of the Party Depot addition" },
-        { when: "March 27, 2024", label: "Trial court enters final judgment on the verdict, totaling $16,843,750 plus costs" },
-        { when: "March 17, 2026", label: "Connecticut Appellate Court affirms the verdict, ordering only a $280,000 remittitur", current: true }
+        { when: "October 6, 2023", label: "Jury returns a $16,843,750 verdict finding the city and a building official acted with reckless disregard for public health and safety" },
+        { when: "March 27, 2024", label: "Trial court enters judgment on the verdict, plus costs and 10% statutory interest" },
+        { when: "March 17, 2026", label: "Connecticut Appellate Court upholds the verdict except for a $280,000 remittitur" },
+        { when: "March 19, 2026", label: "Danbury says it will ask the Connecticut Supreme Court to review the ruling", current: true }
       ],
       tags: ["municipal-liability", "connecticut", "building-permit", "governmental-immunity", "jury-verdict"]
     },
@@ -9785,9 +9794,9 @@ const RELAW_DATA = {
       seoTitle: "Penn Plaza Life-Sciences Site Hit With $65.9M Foreclosure Suit",
       seoDescription: "Quinlan Development Group sues to foreclose on Cannon Hill Capital's stalled 320 West 31st Street life-sciences site over a defaulted $54M mortgage.",
       addedDate: "2026-10-18",
-      property: { name: "320 West 31st Street (Penn Plaza life-sciences site)", address: "320 West 31st Street", city: "New York", state: "NY" },
+      property: {"name": "320 West 31st Street (Penn Plaza life-sciences site)", "address": "320 West 31st Street", "city": "New York", "state": "NY"},
       title: "Quinlan Development Group v. Maple 1 Farley Owner LLC (Penn Plaza Life-Sciences Site Foreclosure)",
-      brief: "Quinlan, which bought the loan from Bank of China, sued to foreclose on a stalled Penn Station life-sciences site, saying the $54 million mortgage grew to $65.9 million, and named developer Cannon Hill as guarantor.",
+      brief: "Quinlan Development Group, which bought the loan from Bank of China, sued to foreclose on a stalled Penn Station-area life-sciences site, alleging a $54M mortgage now totals $65.9M owed, Bisnow reported.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-10-13",
@@ -9796,15 +9805,13 @@ const RELAW_DATA = {
       amount: "$65.9 million claimed owed (including accrued and default interest) on an original $54 million mortgage",
       source: "live",
       sourceUrl: "https://www.bisnow.com/news/new-york/office/foreclosure-cannon-hill-quinlan-development-life-sciences",
-      summary: "Quinlan Development Group sued on October 13, 2026 in New York County Supreme Court to foreclose on the leasehold interest behind a stalled life-sciences and office development at 320 West 31st Street near Penn Station, alleging the owner, Maple 1 Farley Owner LLC, defaulted on a $54 million mortgage that has grown to $65.9 million with accrued and default interest. Quinlan acquired the loan from Bank of China in September 2026 and also sued Cannon Hill Capital Partners, the project's developer, as a recourse guarantor.",
-      significance: "The case is a reminder that a secondary buyer of distressed commercial debt can move to enforce a defaulted loan quickly after acquiring it from an original bank lender, and that a recourse guaranty exposes a sponsor to a deficiency judgment beyond whatever a foreclosure sale of the collateral itself recovers. Borrowers and guarantors on stalled construction-era loans should treat a loan sale to a new holder as an early signal that enforcement, not an extension, is likely to follow.",
+      summary: "Quinlan Development Group sued in New York County Supreme Court on October 13, 2026 to foreclose on the leasehold at 320 West 31st Street, a planned lab and office site near Moynihan Train Hall, alleging owner Maple 1 Farley Owner LLC defaulted on a $54 million mortgage, Bisnow reported, citing PincusCo. The complaint says $65.9 million is now owed with accrued and default interest. Quinlan acquired the loan from Bank of China in September 2026, named developer Cannon Hill Capital Partners as a recourse guarantor, and is seeking a receiver.",
+      significance: "Because Cannon Hill is named as a recourse guarantor, Quinlan has reserved the right to pursue it for any shortfall a foreclosure sale leaves. The filing came less than a month after Quinlan bought the loan.",
       body: [
-        "Quinlan Development Group has sued to foreclose on the leasehold interest behind a stalled life-sciences development near Penn Station, alleging the property's owner defaulted on a $54 million mortgage that has since ballooned to $65.9 million in claimed debt. The suit, filed October 13, 2026 in the Supreme Court of the State of New York, New York County, targets Maple 1 Farley Owner LLC, an affiliate of Cannon Hill Capital Partners that controls the leasehold at 320 West 31st Street, and names Cannon Hill itself as a defendant on a recourse guaranty.",
-        "According to reporting on the complaint, Cannon Hill Capital Partners had planned to redevelop the site, previously home to part of Touro College's campus, into an 11-story building combining laboratory and office space. The project stalled before construction materialized, and the building has sat largely unchanged for well over a year. Quinlan acquired the underlying mortgage from Bank of China in September 2026 and, within weeks of taking over the loan, filed suit alleging the borrower had defaulted on the $54 million note.",
-        "The complaint puts the current amount owed at $65.9 million, a figure that reflects the original principal plus accrued interest, default interest, and additional charges that have accumulated since the maturity default. Quinlan is asking the court for permission to foreclose on Maple 1 Farley Owner LLC's leasehold interest and to schedule a foreclosure auction to satisfy the debt.",
-        "Beyond the foreclosure claim against the leasehold itself, Quinlan named Cannon Hill Capital Partners as a defendant because the development firm serves as a recourse guarantor on the mortgage. If a foreclosure sale of the leasehold does not generate enough proceeds to cover the full $65.9 million claimed, Quinlan has reserved the right to pursue Cannon Hill directly for any shortfall, rather than being limited to whatever the collateral brings at auction.",
-        "The case illustrates a pattern that has become increasingly common as distressed commercial mortgages change hands: a loan originated by a large bank, sold at a discount to a buyer with experience converting defaulted paper into ownership or settlement leverage, followed quickly by enforcement action. The recourse guaranty also underscores why a sponsor's exposure on a commercial construction loan does not end merely because the project itself has stalled; a guarantor can remain on the hook for the full remaining balance regardless of what a foreclosure sale ultimately recovers.",
-        "For borrowers and sponsors, the matter is a practical warning sign worth watching for: a loan sale to a new, especially unfamiliar, buyer often precedes enforcement rather than an extension, and a recourse guaranty survives a foreclosure sale, exposing the guarantor to any deficiency between sale proceeds and the full debt including accrued default interest and fees. Development teams holding entitlements or partially built sites with no active construction should revisit loan covenants and maturity dates well before a default crystallizes, since the gap between an unpaid maturity date and a foreclosure filing can close quickly once a loan has traded hands."
+        "Quinlan Development Group sued on October 13, 2026 in New York County Supreme Court to foreclose on the leasehold interest at 320 West 31st Street, near Moynihan Train Hall, alleging the owner defaulted on a $54 million mortgage, Bisnow reported, citing PincusCo, which first reported the suit. The owner, Maple 1 Farley Owner LLC, is an affiliate of Cannon Hill Capital Partners, which planned an 11-story lab and office building of about 156,000 square feet on the site. The existing building, which once housed part of Touro College's campus, was still standing as of April, according to Google Street View images cited by Bisnow.",
+        "Columbia Property Trust bought the ground lease in February 2020 for $88 million with a $54 million loan from an SL Green-tied entity, which assigned the debt to Bank of China in June 2021. The loan's maturity was extended to August 18, 2025; the borrower did not pay it off, and Bank of China issued a default notice in September 2025. On September 17, 2026, Bank of China assigned the loan to a Quinlan-controlled entity.",
+        "The complaint says $65.9 million is now owed, including accrued interest, default interest and other charges. Quinlan is asking to schedule a foreclosure auction and for a receiver to collect rents and manage the property, citing an open Environmental Control Board violation and alleging \"waste and decay\" that \"evidences ongoing mismanagement.\" It named Cannon Hill as a recourse guarantor and reserved the right to pursue it if a sale does not cover the debt.",
+        "Quinlan, Cannon Hill and Columbia Property Trust did not immediately respond to Bisnow's requests for comment."
       ],
       tags: ["foreclosure", "life-sciences", "office", "manhattan", "loan-default"],
       parties: [
@@ -9816,48 +9823,50 @@ const RELAW_DATA = {
       amountUsd: 65900000,
       amountBasis: "loan",
       timeline: [
-        { when: "September 2026", label: "Quinlan Development Group acquires the defaulted mortgage from Bank of China" },
-        { when: "October 13, 2026", label: "Quinlan sues to foreclose on the leasehold at 320 West 31st Street, alleging $65.9 million owed", current: true }
+        { when: "February 2020", label: "Columbia Property Trust buys the 320 W. 31st St. ground lease for $88 million with a $54 million loan" },
+        { when: "August 18, 2025", label: "Extended loan maturity date passes without payoff" },
+        { when: "September 2025", label: "Bank of China issues a default notice" },
+        { when: "September 17, 2026", label: "Bank of China assigns the loan to a Quinlan-controlled entity" },
+        { when: "October 13, 2026", label: "Quinlan sues to foreclose on the leasehold, alleging $65.9 million owed", current: true }
       ]
     },
     {
       id: "live-306",
       addedDate: "2026-10-18",
       featured: true,
-      seoTitle: "Freddie Mac v. Nord Group: Edgewater Apartments Rent Diversion",
-      seoDescription: "A federal judge called it 'pretty damn egregious': Nord Group kept collecting rent on Freddie Mac-foreclosed Edgewater Apartments in Lake Jackson, Texas.",
-      property: { name: "Edgewater Apartments", address: "514 That Way", city: "Lake Jackson", state: "TX" },
-      title: "Freddie Mac v. Nord Group Affiliate (Edgewater Apartments Post-Foreclosure Rent Diversion Dispute)",
-      brief: "A federal magistrate judge faulted a Nord Group unit for collecting rent on the 228-unit Edgewater Apartments in Lake Jackson, Texas after Freddie Mac foreclosed, then suing its lender instead of turning it over.",
+      seoTitle: "Edgewater Apartments: Nord Affiliate's Suit Against Freddie Mac",
+      seoDescription: "A federal magistrate judge called a Nord Group affiliate's rent collection at foreclosed Edgewater Apartments in Lake Jackson, Texas 'pretty damn egregious.'",
+      property: {"name": "Edgewater Apartments", "address": "514 That Way", "city": "Lake Jackson", "state": "TX"},
+      title: "514 That Way LLC v. Freddie Mac (Edgewater Apartments Post-Foreclosure Rent Dispute)",
+      brief: "A federal magistrate judge called a Nord Group affiliate's rent collection at the foreclosed Edgewater Apartments in Lake Jackson, Texas \"pretty damn egregious\" in its suit against Freddie Mac, Bisnow reported.",
       category: "lending-foreclosure",
       status: "pending",
-      date: "2026-10-15",
+      date: "2026-05-26",
       jurisdiction: "U.S. District Court, Southern District of Texas (Galveston Division)",
       state: "TX",
-      amount: "Undisclosed loan balance; part of a broader multi-property Nord Group portfolio collapse",
+      amount: "Freddie Mac alleges the former owner kept more than $200K a month in rent after default; loan balance not reported",
       source: "live",
       sourceUrl: "https://www.bisnow.com/news/houston/multifamily/nord-group",
-      summary: "Trade press reported October 15, 2026 that U.S. Magistrate Judge Andrew M. Edison called it \"pretty damn egregious\" that a Nord Group subsidiary kept collecting rent on Edgewater Apartments, a 228-unit Lake Jackson, Texas complex, after Freddie Mac had already foreclosed on the property, and then sued its own lender over the dispute rather than turning over the proceeds. The report describes a broader pattern across Nord Group's multifamily portfolio of lenders and investors accusing Nord entities of diverting rents, submitting falsified insurance records, and letting buildings deteriorate, with court filings describing sewage backups, mold, and vermin at some properties.",
-      significance: "The case illustrates how a borrower's continued control over a foreclosed asset's cash flow, and an offensive lawsuit against the foreclosing lender, can expose a distressed sponsor to conversion and unjust-enrichment claims well beyond an ordinary loan default, while allegations of falsified insurance certifications can independently trigger recourse carve-outs in a non-recourse loan. Lenders and special servicers holding 2021-2022 vintage multifamily loans should treat the matter as a reminder to secure receivership and audit borrower-reported insurance and property conditions promptly once a maturity default occurs.",
+      summary: "At a May 26, 2026 hearing in the Southern District of Texas, U.S. Magistrate Judge Andrew M. Edison called it \"pretty damn egregious\" that 514 That Way LLC, a Nord Group affiliate, was still collecting rent at the 228-unit Edgewater Apartments in Lake Jackson, Texas after Freddie Mac foreclosed in May, Bisnow reported on October 15, 2026. The LLC had sued Freddie Mac in March, disputing that it had defaulted; Freddie Mac says it stopped paying the mortgage in November 2024 but kept collecting more than $200,000 a month in rent. Edison declined to rule on procedural grounds; Nord's counsel says the company denies all allegations.",
+      significance: "The dispute turns on whether a foreclosing lender must still bring a separate forcible detainer suit under Texas law before taking possession, as the former owner argues. Bisnow reports similar lender claims of rent collection and false insurance records across other Nord properties, which Nord denies.",
       body: [
-        "A federal magistrate judge in the Southern District of Texas did not mince words at a recent hearing over a 228-unit apartment complex outside Houston: the conduct he was being asked to evaluate, he said from the bench, was \"pretty damn egregious.\" The remark, from U.S. Magistrate Judge Andrew M. Edison of the court's Galveston Division, came in a dispute between Freddie Mac and a subsidiary of New York-based multifamily buyer Nord Group over Edgewater Apartments, a 228-unit garden-style community in Lake Jackson, Texas that Nord acquired in 2022. According to reporting on the case, Freddie Mac had already foreclosed on the property after the Nord subsidiary stopped making mortgage payments roughly eighteen months earlier, yet the former owner kept collecting rent from tenants after losing title, and then sued its own lender over the dispute rather than relinquish the proceeds.",
-        "The Edgewater hearing is only the most visible flashpoint in what trade press now describes as a broader unraveling of Nord Group's multifamily portfolio. Lenders and investors across several of the company's holdings have accused Nord-affiliated entities of pocketing rents that should have gone to loan servicers, supplying fabricated insurance records to lenders and regulators, and allowing properties to fall into what one report called an \"alarming state of neglect.\" Court filings in the broader litigation reportedly document sewage backups, mold, vermin, and other conditions rendering units uninhabitable, the kind of property-level deterioration that typically surfaces only after a landlord has stopped reinvesting operating income back into a building. Nord Group, led by its 27-year-old co-founder Saqif Noor, was among the multifamily buyers that acquired aggressively during the 2021-2022 run-up in apartment values, often using floating-rate, value-add debt that became difficult to service once interest rates rose and refinancing options narrowed.",
-        "The company's financial distress has already produced a tangled bankruptcy history. Nord Group has reportedly attempted Chapter 11 protection for another of its Houston-area assets, Huntington Glen Apartments, in at least three separate venues, with a Delaware bankruptcy court marking the most recent stop after Fannie Mae sought to consolidate the company's cases in Texas. Other Nord-owned properties, including a Houston asset financed with a CMBS loan that went to special servicing, and an Austin complex headed toward a foreclosure auction, point to a pattern of a buyer that expanded quickly on leverage and has struggled on multiple fronts simultaneously as that leverage came due.",
-        "What makes the Edgewater dispute legally significant is not simply that a borrower defaulted, which alone is unremarkable in today's multifamily financing environment. It is that the borrower allegedly continued to exercise de facto control over a foreclosed asset's cash flow after title had already passed to the lender, and then used litigation offensively, suing the lender rather than accounting for the rents collected. That fact pattern raises exposure well beyond an ordinary foreclosure: diverting rents from collateral a lender already owns can support claims for conversion and unjust enrichment in addition to breach of the loan documents, and a court's characterization of that conduct as egregious is the kind of judicial signal that tends to foreclose sympathetic treatment on any later equitable defenses the borrower might raise.",
-        "The allegations of falsified insurance records carry their own distinct risk. Lenders routinely rely on a borrower's certified proof of insurance to protect their collateral position, and loan documents typically treat a material misrepresentation about coverage as an independent event of default, one that can, depending on the loan's recourse carve-outs, convert what would otherwise be a non-recourse workout into personal liability for the sponsors who signed the guaranty. Special servicers and lenders increasingly scrutinize insurance certificates as an early-warning signal precisely because fabricating them is both easy to allege and difficult for a distressed borrower to explain away.",
-        "For lenders and special servicers managing a multifamily book that includes 2021-2022 vintage acquisitions, the Nord Group situation is a reminder to move quickly once a maturity default is identified, both to secure possession and rent streams through a receiver and to audit a defaulting borrower's insurance certifications and reported property conditions rather than relying on self-reported compliance. For sponsors facing their own liquidity strain, the case illustrates that litigating against a lender after a foreclosure has already been entered is a high-risk strategy: a court that views continued rent collection as self-help rather than a good-faith dispute is unlikely to extend much benefit of the doubt on the underlying merits, and a judicial finding of bad-faith conduct can reopen avenues to personal liability that a purely financial default would not."
+        "At a May 26, 2026 hearing in the U.S. District Court for the Southern District of Texas, Magistrate Judge Andrew M. Edison called it \"pretty damn egregious\" that the former owner of Edgewater Apartments, a 228-unit complex in Lake Jackson, Texas, was still collecting rent after Freddie Mac foreclosed, Bisnow reported on October 15, 2026. \"The property has been foreclosed. Get out of the damn property. Stop taking money that doesn't belong to you,\" Edison said, according to Bisnow.",
+        "Freddie Mac claims that 514 That Way LLC, an entity controlled by New York-based Nord Group, stopped paying the mortgage in November 2024 but kept collecting more than $200,000 a month in rent that belonged to the lender. The LLC sued Freddie Mac in March 2026, arguing that the lender wrongly accused it of default and that contractors it hired did not perform and \"had placed dubious mechanics liens.\" After delays from that suit and a bankruptcy filing, Freddie Mac foreclosed in May 2026, according to the filings Bisnow reviewed. Counsel for the LLC argued that foreclosure alone does not give the new owner possession and that Texas law requires a forcible detainer suit. Edison declined to rule on procedural grounds but said the affiliate \"will have to face the legal consequences later on.\"",
+        "Bisnow reported that lenders and investors have accused Nord entities across the company's 11-property portfolio of keeping rents, supplying fake insurance records and letting buildings deteriorate, and that each LLC that owned a Nord property has filed for Chapter 11 since 2024. Seven of the properties were foreclosed on in 2026, including Park at Crestview in Austin in May. The LLC that owns Huntington Glen in Houston has filed for bankruptcy in Delaware, New York and Texas; its last active case was dismissed in May.",
+        "Nord's counsel told Bisnow the company cannot comment on pending cases and \"vigorously denies all allegations,\" calling them \"allegations specifically drafted to inflame\" that \"are not proven facts.\""
       ],
-      tags: ["multifamily", "foreclosure", "rent-diversion", "texas", "freddie-mac"],
+      tags: ["multifamily", "foreclosure", "rent-collection", "texas", "freddie-mac"],
       parties: [
-        { name: "Federal Home Loan Mortgage Corporation (Freddie Mac)", role: "Plaintiff/Lender" },
-        { name: "Nord Group", role: "Defendant/Former Owner" }
+        { name: "514 That Way LLC (Nord Group affiliate)", role: "Plaintiff/Former Owner" },
+        { name: "Federal Home Loan Mortgage Corporation (Freddie Mac)", role: "Defendant/Lender" }
       ],
       judge: "Andrew M. Edison",
       amountUsd: null,
       timeline: [
-        { when: "2022", label: "Nord Group acquires the 228-unit Edgewater Apartments in Lake Jackson, Texas" },
-        { when: "May 26", label: "U.S. Magistrate Judge Andrew M. Edison calls the former owner's post-foreclosure rent collection \"pretty damn egregious\" at a hearing on Freddie Mac's claims" },
-        { when: "October 15, 2026", label: "Trade press reports the dispute as part of a broader pattern of lender and investor accusations against Nord Group entities", current: true }
+        { when: "November 2024", label: "Freddie Mac says 514 That Way LLC stops paying the Edgewater Apartments mortgage" },
+        { when: "March 2026", label: "514 That Way LLC sues Freddie Mac, disputing the default" },
+        { when: "May 2026", label: "Freddie Mac forecloses on Edgewater Apartments" },
+        { when: "May 26, 2026", label: "Magistrate Judge Andrew M. Edison calls the former owner's continued rent collection \"pretty damn egregious\" but declines to rule on procedural grounds", current: true }
       ]
     },
     {
@@ -11358,28 +11367,26 @@ const RELAW_DATA = {
     {
       id: "live-344",
       seoTitle: "75 Morrissey Blvd: Copper Mill Sues POB Capital, Pactolus",
-      seoDescription: "Developer Copper Mill accuses joint-venture partners POB Capital and Pactolus of fraud over a collapsed $67.5M Dorchester development deal.",
+      seoDescription: "Copper Mill sued POB Capital and Pactolus in Suffolk Superior Court, alleging fraud over a collapsed joint venture for a 754-unit Dorchester project.",
       property: {"name": "75 Morrissey Boulevard", "address": "75 Morrissey Boulevard", "city": "Boston", "state": "MA"},
       addedDate: "2026-10-28",
       title: "Copper Mill Sues Joint-Venture Partners POB Capital and Pactolus Over Collapsed Dorchester Development Deal",
-      brief: "Boston developer Copper Mill sued joint-venture partners POB Capital and Pactolus Private Wealth Management, alleging they secretly shopped a $67.5M Dorchester development site at a higher price instead of funding the deal.",
+      brief: "Copper Mill sued its joint-venture partners POB Capital and Pactolus, alleging fraud in the collapse of a deal for a 754-unit Dorchester project, including secret marketing of the site at $82.5M, Bisnow reported.",
       category: "zoning-land-use",
       status: "filed",
-      date: "2026-10-20",
-      jurisdiction: "Massachusetts Superior Court (Suffolk County) and Massachusetts Land Court",
+      date: "2026-10-15",
+      jurisdiction: "Suffolk County Superior Court, Massachusetts",
       state: "MA",
       amount: "$67.5 million purchase price for a 754-unit Dorchester development site; partners allegedly pitched the site to third parties at an $82.5 million valuation",
       source: "live",
       sourceUrl: "https://www.bisnow.com/news/boston/multifamily/copper-mill-sues-partners-collapsed-deal-750-unit-dorchester-project",
-      summary: "Boston developer Copper Mill sued its joint-venture partners, Chicago-based POB Capital and Virginia-based Pactolus Private Wealth Management, in Suffolk Superior Court and Massachusetts Land Court over the collapse of a venture that controlled a 754-unit development site at 75 Morrissey Boulevard in Dorchester. Copper Mill alleges the two investment firms, which held a combined 64.35% stake in the venture, terminated the joint-venture agreement on June 30, 2026 after secretly shopping the $67.5 million site to third parties at a pitched valuation of $82.5 million.",
-      significance: "The dispute illustrates how a majority capital partner in a development joint venture can use a claimed funding shortfall as leverage to exit a deal once land values move, potentially capturing upside that was supposed to be shared with the development partner. It is a reminder that minority developer-partners should scrutinize exclusivity and non-solicitation terms governing a majority partner's ability to market the underlying site, and should consider protective filings before a capital dispute becomes public.",
+      summary: "Boston-based Copper Mill sued POB Capital and Pactolus Private Wealth Management in Suffolk County Superior Court on October 15, 2026, alleging fraud in their dealings over a planned 754-unit project at 75 Morrissey Boulevard in Dorchester, Bisnow reported, citing Banker & Tradesman. Copper Mill had agreed to buy the site from the two firms for $67.5 million before the parties formed a joint venture; the suit alleges the firms undermined the venture, secretly marketed the property at an $82.5 million valuation, and then sent a termination notice on June 30, 2026. None of the parties immediately responded to Bisnow.",
+      significance: "The suit turns on whether the site owners' termination of the venture was legitimate or, as Copper Mill alleges, the result of a pretextual financing effort while they shopped the property at a higher price. The dispute could affect an approved 754-unit housing project on the site.",
       body: [
-        "A Boston developer says its equity partners tried to kill a joint venture behind its back so they could sell a Dorchester development site to someone else at a higher price. Copper Mill has sued Chicago-based POB Capital and Virginia-based Pactolus Private Wealth Management in Suffolk Superior Court and in a companion action in Massachusetts Land Court, accusing the two investment firms of fraud and breach of contract over the collapse of a venture that controls a planned 754-unit residential tower site at 75 Morrissey Boulevard in Dorchester.",
-        "According to the complaints, the relationship traces back to December 18, 2024, when Copper Mill agreed to buy the 2.24-acre Morrissey Boulevard site from POB and Pactolus for $67.5 million. Rather than closing a straight sale, the parties restructured the transaction into a joint venture formed on September 4, 2025, with POB and Pactolus holding a 64.35% stake and Copper Mill holding 35.65%. Copper Mill was to serve as developer, handling entitlements and construction financing for the 754-unit project, while the two investment firms were expected to help fund the deal.",
-        "Copper Mill alleges that instead of meeting their capital obligations, POB and Pactolus worked behind the scenes to unwind the venture. The complaint claims the two firms quietly marketed the property to other prospective buyers while still bound by the joint-venture agreement, including a pitch valuing the site at $82.5 million, well above the $67.5 million price Copper Mill had locked in. On June 30, 2026, POB and Pactolus sent Copper Mill a notice terminating the joint-venture agreement. Copper Mill's suit characterizes the investors' professed inability to raise capital as pretextual, alleging it was a deliberate tactic to engineer a termination and free the site for a more lucrative sale to a third party.",
-        "The complaints seek specific performance, asking the courts to enforce the original purchase-and-sale and joint-venture agreements and confirm Copper Mill's right to control and develop the site, along with damages for the alleged fraud. Copper Mill has said publicly that it intends to recover both its rights to the property and compensation for what it describes as its former partners' misconduct. Representatives for Copper Mill, POB Capital and Pactolus did not immediately respond to media inquiries when the suits became public in reporting in late October 2026.",
-        "The roughly $15 million gap between the $67.5 million price Copper Mill locked in and the $82.5 million figure it says its partners pitched to third parties is itself the likely source of the falling-out: if land values in the corridor rose meaningfully between the 2024 purchase agreement and 2026, a majority partner holding nearly two-thirds of the entity may have had every financial incentive to look for an exit that captured that upside for itself rather than splitting it according to the original deal terms. A termination notice tied to a funding shortfall can look, on its face, like routine deal friction, but whether it holds up legally often depends on contemporaneous evidence, such as the alleged higher-priced marketing pitch, showing the shortfall was manufactured rather than genuine.",
-        "For developers negotiating joint-venture and purchase-and-sale agreements on large sites, the case is a reason to pay close attention to exclusivity and non-solicitation provisions that govern a majority partner's ability to market the underlying asset, and to think through what happens procedurally when that partner invokes a capital-call default. Minority developer-partners should also weigh recording protective interests, such as a notice of agreement or lis pendens, before a capital dispute becomes public, since the value of any eventual specific-performance remedy depends heavily on whether the property can still be transferred to a third party while litigation is pending."
+        "Boston-based developer Copper Mill has sued POB Capital of Chicago and Pactolus Private Wealth Management of Virginia, alleging they committed fraud during negotiations to partner on a 754-unit project at 75 Morrissey Boulevard in Dorchester, Bisnow reported on October 19, 2026. The suit was filed October 15 in Suffolk County Superior Court and was first reported by Banker & Tradesman. Copper Mill, POB and Pactolus did not immediately respond to Bisnow's requests for comment.",
+        "According to the complaint, Copper Mill agreed on December 18, 2024 to buy the 2.2-acre site from POB and Pactolus for $67.5 million, with closing set for June 2026 while it sought entitlements. The Boston Planning & Development Agency board approved its plan for two buildings totaling 754 units, 150 of them income-restricted, in August 2025. The suit says POB's chief executive pressed Copper Mill to restructure the deal as a joint venture, and the parties formed one on September 4, 2025, with POB and Pactolus holding 64.35% and Copper Mill 35.65%.",
+        "Copper Mill alleges the two firms then worked to undermine the venture, refused to set up meetings with prospective investors in what it calls a \"sham\" financing effort, and secretly marketed the property, approaching the owner of an unnamed Boston real estate company with a proposal valuing it at $82.5 million. The firms sent a notice terminating the joint-venture agreement on June 30, 2026, the suit says. Copper Mill says it sent a letter laying out its claims on August 13 and the defendants \"never substantively responded.\"",
+        "The complaint has nine counts, including fraud, civil conspiracy and tortious interference with contract, and seeks unspecified damages to be determined at trial."
       ],
       tags: ["joint venture dispute", "development site", "dorchester", "boston", "multifamily"],
       parties: [
@@ -11391,10 +11398,11 @@ const RELAW_DATA = {
       amountUsd: 67500000,
       amountBasis: "purchase price",
       timeline: [
-        { when: "December 18, 2024", label: "Copper Mill agrees to buy the Morrissey Boulevard site from POB and Pactolus for $67.5 million" },
-        { when: "September 4, 2025", label: "The parties restructure the deal into a joint venture, with POB/Pactolus holding 64.35% and Copper Mill 35.65%" },
+        { when: "December 18, 2024", label: "Copper Mill agrees to buy the 75 Morrissey Blvd. site from POB and Pactolus for $67.5 million" },
+        { when: "August 2025", label: "Boston Planning & Development Agency board approves the 754-unit project" },
+        { when: "September 4, 2025", label: "The parties form a joint venture, with POB/Pactolus holding 64.35% and Copper Mill 35.65%" },
         { when: "June 30, 2026", label: "POB and Pactolus send Copper Mill a notice terminating the joint-venture agreement" },
-        { when: "October 20, 2026", label: "Copper Mill sues POB Capital and Pactolus in Suffolk Superior Court and Massachusetts Land Court, alleging fraud", current: true }
+        { when: "October 15, 2026", label: "Copper Mill sues POB Capital and Pactolus in Suffolk County Superior Court", current: true }
       ]
     },
     {
@@ -13028,28 +13036,27 @@ const RELAW_DATA = {
     {
       id: "live-383",
       addedDate: "2026-11-10",
-      property: { name: "Lineage Boyle Heights Cold Storage Facility", address: "1400 S. Los Palos Street", city: "Los Angeles", state: "CA" },
+      property: {"name": "Lineage Boyle Heights Cold Storage Facility", "city": "Los Angeles", "state": "CA"},
       propertyType: "Industrial",
-      title: "Lineage, Inc. v. Altus Power, Inc. (Cold-Storage REIT Sues Solar Contractor for Over $1 Billion Over Warehouse Fire)",
-      brief: "Lineage seeks over $1 billion from Altus Power and Pearce Services after a June 2026 fire destroyed its 500,000-square-foot Los Angeles cold-storage warehouse, alleging premature re-energization of rooftop solar panels.",
-      seoTitle: "Lineage v. Altus Power: $1B+ Suit Over LA Warehouse Fire",
-      seoDescription: "Lineage, Inc. seeks over $1 billion from Altus Power and Pearce Services after a solar-panel fire destroyed its Boyle Heights cold-storage warehouse.",
+      title: "Lineage, Inc. v. Altus Power, Inc. (Cold-Storage REIT Sues Solar Companies Over Boyle Heights Warehouse Fire)",
+      brief: "Lineage sued Altus Power and contractor Pearce Services, alleging they re-energized rooftop solar panels against its request before the June 2026 fire at its Boyle Heights warehouse. Both companies dispute the claims.",
+      seoTitle: "Lineage v. Altus Power: Suit Over Boyle Heights Warehouse Fire",
+      seoDescription: "Lineage sued Altus Power, a subsidiary and Pearce Services, alleging they re-energized rooftop solar panels against its wishes before a June warehouse fire.",
       category: "premises-liability",
       status: "filed",
       date: "2026-09-10",
       jurisdiction: "Superior Court of California, County of Los Angeles",
       state: "CA",
-      amount: "$1 billion+",
+      amount: "Damages not reported; Lineage estimates the fire will cost it more than $1B in all",
       source: "live",
       sourceUrl: "https://www.bisnow.com/news/los-angeles/industrial/lineage-suing-solar-contractor-altus-power-boyle-heights-warehouse-fire",
-      summary: "Lineage, Inc., a publicly traded cold-storage REIT, disclosed in its Q3 2026 10-Q that it sued Altus Power, Inc., its subsidiary Los Palos Street Operating LLC, and contractor Pearce Services, LLC in Los Angeles County Superior Court over a June 17, 2026 fire that destroyed its roughly 500,000-square-foot cold-storage warehouse in the Boyle Heights neighborhood of Los Angeles. News coverage reports Lineage is seeking more than $1 billion, alleging the defendants prematurely re-energized rooftop solar panels against its explicit instructions, sparking the fire.",
-      significance: "The dispute is an early test of how liability will be allocated when a third-party solar vendor's equipment or maintenance work is blamed for destroying a host commercial building, a risk growing more common as industrial and warehouse owners add rooftop solar installed and operated by outside energy companies. It also shows how a single casualty event at a large-footprint, ammonia-refrigerated logistics facility can generate nine-figure-and-up exposure across insurance, vendor-liability, and neighboring-resident claims simultaneously.",
+      summary: "Cold-storage REIT Lineage sued Altus Power, Altus subsidiary Los Palos Street Operating LLC and contractor Pearce Services LLC in Los Angeles County Superior Court on September 10, 2026, blaming them for the June 17, 2026 fire at its leased Boyle Heights warehouse, Bisnow reported. Lineage alleges it asked the companies not to re-energize the rooftop solar panels until safety tests were done and that they did so anyway. Pearce says it disputes causing the fire and that the investigation is ongoing, and an Altus subsidiary called Lineage's statement \"riddled with misinformation.\"",
+      significance: "The case will test who bears responsibility when a fire is blamed on a third-party rooftop solar system at a commercial warehouse. Lineage estimates the fire will cost it more than $1 billion in all, and it faces separate resident and customer suits.",
       body: [
-        "Lineage, Inc., the publicly traded cold-storage and logistics real estate company, disclosed in its third-quarter 10-Q filed November 9, 2026, that it has sued Altus Power, Inc., its subsidiary Los Palos Street Operating LLC, and contractor Pearce Services, LLC in Los Angeles County Superior Court over a June 17, 2026 fire that destroyed a roughly 500,000-square-foot cold-storage warehouse on South Los Palos Street in the Boyle Heights neighborhood of Los Angeles. News coverage of the suit, filed around September 10, 2026, reports that Lineage is seeking more than $1 billion in damages, one of the larger property-casualty disputes to hit the commercial real estate and solar industries this year.",
-        "The underlying fire burned for roughly a week, prompted a state of emergency declaration from Governor Gavin Newsom and a local emergency declaration from Los Angeles Mayor Karen Bass, and at one point threatened a compromised ammonia refrigerant line at the facility, a serious hazard given ammonia's use as a cooling agent in industrial cold storage. The Los Angeles Fire Department's official cause finding remains undetermined, but investigators reportedly traced the blaze's origin to the vicinity of rooftop solar panels installed on the building.",
-        "According to reporting on the complaint, Lineage alleges that Altus Power and its installation contractor, Pearce Services, prematurely re-energized the rooftop solar array after maintenance work despite Lineage's explicit request that they wait for safety checks to be completed first. The suit asserts negligence, negligent supervision, and health and safety code violations, along with breach of contract. Lineage's own 10-Q says the company cannot yet estimate total cleanup and restoration costs but that it is reasonably possible those costs will exceed its insurance claim limit, and that it is separately fielding customer claims for inventory losses and cooperating with federal, state and local investigators. The defendants have indicated they intend to contest the claims, and Los Palos Street Operating LLC has reportedly countered that Lineage, as the facility's tenant, bore responsibility for post-fire cleanup and debris removal under its lease.",
-        "The dispute sits at the intersection of two trends reshaping commercial real estate risk: the rapid buildout of rooftop and on-site solar on industrial and warehouse properties, often installed and operated by third-party energy companies rather than the property owner or tenant, and the outsized property and business-interruption exposure a single casualty event can create at a large-footprint logistics facility. Cold-storage warehouses carry particular risk profiles, including ammonia refrigerant systems, dense inventory concentrations, and specialized rebuild costs, that can turn an equipment failure into a nine-figure or larger loss within hours. The fight over this property is not limited to Lineage's suit against its vendors: hundreds of nearby residents have separately sued Lineage directly over the fire's effects on the surrounding community.",
-        "For commercial landlords, tenants and REITs weighing rooftop solar agreements with third-party energy developers, counsel involved in drafting and litigating these arrangements say the case is likely to sharpen the standard of care courts expect of solar installers and operators working on occupied commercial buildings, particularly those with heightened fire risks like cold storage and other industrial uses. It is also a reminder to put the allocation of post-casualty cleanup responsibility in writing: building owners, tenants and solar vendors hosting rooftop energy installations should spell out up front who controls the timing of re-energization and safety checks after service work, and who bears cleanup costs after a loss, rather than leaving those questions to be litigated only after a catastrophic event like this one."
+        "Lineage, the cold-storage warehouse REIT, has sued Altus Power, the company that operated a solar array on the roof of its Boyle Heights warehouse in Los Angeles, alleging Altus' negligence caused the fire that burned there for about a week in June 2026, Bisnow reported on September 11, 2026. The suit was filed September 10 in Los Angeles County Superior Court and also names Pearce Services LLC, a CBRE subsidiary that worked on the panels. Lineage's quarterly report filed November 9 says the suit also names Altus subsidiary Los Palos Street Operating LLC.",
+        "Lineage alleges it asked Altus and Pearce not to re-energize the solar panels until specific safety tests were done, and that both companies did so anyway. \"The record is clear: this was a solar fire,\" Lineage said in a statement. According to Bisnow, Lineage estimates the fire will cost it more than $1 billion in all.",
+        "Pearce told Bisnow it disputes Lineage's allegations, saying the investigation into the fire's cause, origin and spread is ongoing and \"it is premature for anyone to draw conclusions.\" A spokesperson for Los Palos Street Operating told the Los Angeles Times that Lineage's statement was \"riddled with misinformation\" and an attempt to deflect blame for its own role, including damage from substances released from the warehouse.",
+        "Lineage's 10-Q says the June 17 fire destroyed portions of the leased warehouse and all customer inventory, that restoration costs could exceed its insurance claim limit, and that it faces customer claims and suits, plus putative class actions and individual suits by local residents against it and the solar companies. It says it intends to defend those claims and is cooperating with federal, state and local authorities."
       ],
       judge: null,
       parties: [
@@ -13058,13 +13065,13 @@ const RELAW_DATA = {
         { name: "Pearce Services, LLC", role: "Defendant" },
         { name: "Los Palos Street Operating LLC", role: "Defendant" }
       ],
-      amountUsd: 1000000000,
-      amountBasis: "damages sought",
+      amountUsd: null,
+      amountBasis: null,
       tags: ["cold-storage", "industrial", "solar", "fire", "premises-liability"],
       timeline: [
-        { when: "June 17, 2026", label: "Fire breaks out at Lineage's Boyle Heights cold-storage warehouse, burning roughly a week" },
-        { when: "September 10, 2026", label: "Lineage files suit against Altus Power, Pearce Services and Los Palos Street Operating LLC in LA County Superior Court" },
-        { when: "November 9, 2026", label: "Lineage discloses the suit and seeks over $1 billion in damages in its Q3 2026 10-Q", current: true }
+        { when: "June 17, 2026", label: "Fire breaks out at Lineage's leased Boyle Heights cold-storage warehouse and burns for about a week" },
+        { when: "September 10, 2026", label: "Lineage sues Altus Power, Los Palos Street Operating LLC and Pearce Services in LA County Superior Court" },
+        { when: "November 9, 2026", label: "Lineage's Q3 10-Q describes the suit and related resident and customer litigation", current: true }
       ]
     },
     {
@@ -13636,13 +13643,13 @@ const RELAW_DATA = {
     {
       id: "live-398",
       seoTitle: "Deutsche Finance Sues BVK Over $2B US Property Losses",
-      seoDescription: "Deutsche Finance sued German pension giant BVK in Delaware over a $2B US property portfolio's losses, as a Munich corruption probe hits both firms.",
+      seoDescription: "Deutsche Finance America sued German pension fund BVK in Delaware over a nearly $2B US property portfolio's losses; BVK rejects the claims as baseless.",
       addedDate: "2026-11-13",
       title: "Deutsche Finance America LLC v. Bayerische Versorgungskammer (Delaware Contract and Defamation Suit Over $2B US CRE Portfolio)",
-      brief: "Deutsche Finance sued German pension fund BVK in Delaware, saying BVK controlled and mismanaged a nearly $2 billion US property portfolio, then falsely blamed Deutsche Finance after losses reached up to €853 million.",
+      brief: "Deutsche Finance sued German pension fund BVK in Delaware, alleging BVK mismanaged a nearly $2B US property portfolio and blamed Deutsche Finance for losses of up to €853M. BVK calls the claims baseless.",
       category: "reit-securities",
       status: "pending",
-      date: "2026-09-01",
+      date: "2026-08-31",
       jurisdiction: "U.S. District Court for the District of Delaware (removed from Delaware Superior Court)",
       parties: [
         { name: "Deutsche Finance America LLC", role: "Plaintiff" },
@@ -13655,16 +13662,22 @@ const RELAW_DATA = {
       amount: "~$2B US property portfolio; BVK has flagged potential losses of up to €853M",
       source: "live",
       sourceUrl: "https://www.bisnow.com/news/national/commercial-real-estate/deutsche-finance-alleges-bvk-responsible-cre-portfolio-losing-1b-dollars-new-lawsuit",
-      summary: "Deutsche Finance America LLC and its German parent sued Bayerische Versorgungskammer (BVK), Germany's largest public pension fund, in Delaware Superior Court on September 1, 2026, alleging breach of contract, defamation, and deceptive trade practices over a nearly $2 billion US commercial real estate portfolio. Deutsche Finance says BVK held sole authority over the portfolio's budgets, financing and leasing decisions, failed to act as the market weakened, and then falsely blamed Deutsche Finance for losses that could reach €853 million; BVK removed the case to federal court in October 2026 and rejects the allegations. Munich prosecutors searched both companies' offices on November 3 and 5, 2026 as part of a separate corruption probe into BVK's US real estate program.",
-      significance: "Shows how a governance dispute over who actually controlled a complex, cross-border real estate investment structure becomes the central battleground once a portfolio's losses need a party to blame, and how a civil contract fight of this size can draw in regulatory and criminal scrutiny of the parties' underlying business relationship. Institutional investors and asset managers structuring discretionary mandates or joint ventures for US commercial property should document decision-making authority in real time, since ambiguity on that point is exactly what each side is now litigating.",
+      summary: "Deutsche Finance America LLC and its parent, DF Deutsche Finance Holding AG, sued Bayerische Versorgungskammer (BVK), Germany's largest pension fund, in Delaware Superior Court on August 31, 2026, alleging breach of contract, defamation, deceptive trade practices and other claims over a nearly $2 billion US commercial real estate portfolio, Bisnow reported. Deutsche Finance alleges BVK controlled leasing, financing and capital decisions, mismanaged the portfolio, and then blamed Deutsche Finance for losses BVK has said could reach €853 million. BVK calls the allegations baseless and removed the case to federal court on October 16, 2026. In November, Munich prosecutors searched both firms' offices in a separate corruption probe, IPE reported.",
+      significance: "The case turns on which side actually controlled decisions on the jointly built portfolio. A separate criminal corruption inquiry in Germany covers the same investments, though prosecutors say breach-of-trust claims over the losses are not part of it.",
       body: [
-        "Deutsche Finance America LLC and its German parent, DF Deutsche Finance Holding AG, sued Bayerische Versorgungskammer (BVK), Germany's largest public pension fund, in Delaware Superior Court on September 1, 2026, over responsibility for losses on a nearly $2 billion portfolio of US commercial real estate investments. BVK removed the case, originally filed in Delaware's Complex Commercial Litigation Division as No. N26C-08-455 KMM CCLD, to the U.S. District Court for the District of Delaware on October 16, 2026, where it is now docketed as No. 1:26-cv-01337.",
-        "The complaint asserts breach of contract, defamation, violation of the Delaware Deceptive Trade Practices Act, tortious interference with contract, and tortious interference with prospective business relations. Deutsche Finance alleges that BVK retained sole discretion to approve budgets, financing and leases across the portfolio, failed to act as US property markets weakened beginning in 2020, and then publicly blamed Deutsche Finance for the resulting losses. Deutsche Finance says neither it nor its affiliates acted as discretionary fund managers with decision-making authority over the underlying assets. BVK has rejected the allegations and says it will defend itself decisively.",
-        "The portfolio was built in significant part alongside New York developer Michael Shvo's firm, SHVO. BVK has disclosed investing roughly €1.6 billion (about $1.9 billion) through vehicles tied to Deutsche Finance and Shvo, and has warned that fund-level losses could reach as much as €853 million, after already writing off €392 million by the end of last year.",
-        "The dispute took on a new dimension in early November, when Munich prosecutors searched Deutsche Finance's offices on November 3 and BVK's offices on November 5, 2026, as part of a corruption investigation into BVK's US real estate program. Prosecutors say the inquiry involves a current and a former BVK real estate employee and a member of Deutsche Finance Group's management team, over allegedly improper benefits including high-end dinners and a luxury hotel suite. Prosecutors have said that allegations of breach of trust tied to the investment losses themselves are not currently part of that criminal probe, which the inquiry says began after BVK itself flagged compliance concerns; two senior BVK real estate managers had already departed following an internal review.",
-        "For commercial real estate owners, lenders and fund sponsors, the dispute is a pointed illustration of how a structure built to let a sophisticated institutional investor retain ultimate control over major asset-level decisions can become the basis for that same investor to disclaim responsibility once a market turns, and how a dispute of this size can draw regulatory and even criminal scrutiny into business courtesies that might otherwise go unexamined. Anyone structuring a discretionary mandate or joint venture for cross-border US property investment should document, contemporaneously, exactly which party controls which categories of decisions, and should treat gift, travel and entertainment compliance with the same rigor as the investment decisions it surrounds."
+        "Deutsche Finance America LLC, the US arm of a Munich-based investment manager, sued Bayerische Versorgungskammer (BVK), Germany's largest pension fund, in Delaware Superior Court on August 31, 2026, Bisnow reported. The complaint asserts breach of contract, defamation, deceptive trade practices and other claims, and seeks compensatory damages to be set by a jury, according to a Deutsche Finance press release cited by Bisnow. BVK removed the case, Delaware Superior Court No. N26C-08-455 KMM CCLD, to the U.S. District Court for the District of Delaware on October 16, 2026, where the docket lists Deutsche Finance America LLC and DF Deutsche Finance Holding AG as plaintiffs.",
+        "Deutsche Finance alleges BVK mismanaged the portfolio, including by failing to approve operating budgets, refinancing decisions, maintenance and development measures and proposed leases, and that it controlled leasing, construction, financing, pricing and capital decisions despite being ill-equipped to do so. BVK invested nearly $1.9 billion in seven projects through a partnership with Deutsche Finance and developer Michael Shvo, including San Francisco's Transamerica Pyramid, which sold for $691 million earlier this year, Bisnow reported, citing The Real Deal. After writing down about €163 million for fiscal 2024, BVK said further losses could bring the total to €853 million.",
+        "A BVK spokesperson told Bisnow it had not been served but \"firmly rejects the allegations,\" calling them baseless and \"an obvious attempt by Deutsche Finance to divert attention from its own responsibility.\" Shvo and Deutsche Finance have separately brought arbitration claims against BVK over fees.",
+        "Munich prosecutors searched Deutsche Finance Group's offices on November 3 and BVK's offices on November 5, 2026, in a corruption investigation into BVK's US real estate investments, IPE reported. Prosecutors say the probe involves a current and a former BVK real estate employee and a member of Deutsche Finance Group's management, over alleged benefits including high-end restaurant invitations and stays in a luxury New York hotel suite; they said breach-of-trust allegations over the losses are not currently part of it. BVK said the investigation began after it reported possible compliance concerns, and that it is cooperating."
       ],
-      tags: ["reit-securities", "pension-fund", "joint-venture", "delaware", "cross-border"]
+      tags: ["reit-securities", "pension-fund", "joint-venture", "delaware", "cross-border"],
+      docketUrl: "https://www.courtlistener.com/docket/74975703/deutsche-finance-america-llc-v-bayerische-versorgungskammer/",
+      docketLabel: "CourtListener docket",
+      timeline: [
+        { when: "August 31, 2026", label: "Deutsche Finance sues BVK in Delaware Superior Court" },
+        { when: "October 16, 2026", label: "BVK removes the case to the U.S. District Court for the District of Delaware" },
+        { when: "November 3-5, 2026", label: "Munich prosecutors search Deutsche Finance's and BVK's offices in a separate corruption probe", current: true }
+      ]
     },
     {
       id: "live-399",

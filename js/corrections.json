@@ -4,6 +4,116 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-305",
+   "caseId": "live-305",
+   "subject": "Quinlan Development Group v. Maple 1 Farley Owner LLC (Penn Plaza Life-Sciences Site Foreclosure)",
+   "kind": "Corrected: description",
+   "was": "\"the building has sat largely unchanged for well over a year\"",
+   "now": "The building was still standing as of April, according to Google Street View",
+   "basis": "Checked against the source article: Bisnow, Oct. 14, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-398",
+   "caseId": "live-398",
+   "subject": "Deutsche Finance America LLC v. Bayerische Versorgungskammer (Delaware Contract and Defamation Suit Over $2B US CRE Portfolio)",
+   "kind": "Corrected: date, description, figure",
+   "was": "filed September 1, 2026 | BVK invested \"roughly €1.6 billion\" and wrote off \"€392 million by the end of last year\" | \"two senior BVK real estate managers had already departed following an internal review\"",
+   "now": "filed August 31, 2026 (Monday before Bisnow's Tuesday, Sept. 1 article; Superior Court number N26C-08-455) | BVK invested nearly $1.9 billion and wrote down about €163 million for fiscal 2024, with total losses possibly reaching €853 million | BVK said the probe involves two former employees; one had left and the other's employment had been terminated",
+   "basis": "Checked against the source article and court docket: Bisnow, Sept. 1, 2026; CourtListener docket 1:26-cv-01337 | Bisnow, Sept. 1, 2026 | IPE, Nov. 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-045",
+   "caseId": "live-045",
+   "subject": "Wells Fargo Bank, N.A. v. Workspace Property Trust Affiliates (Multistate CMBS Foreclosure on $1.28B Suburban Office Portfolio)",
+   "kind": "Corrected: description, figure",
+   "was": "\"the loan balance now exceeds the appraised value of the assets securing it\"; \"loan-to-value underwater\" | KeyBank \"spent roughly two years attempting a workout before litigation began\" | parallel actions \"in Florida and Pennsylvania\"",
+   "now": "Morningstar values the collateral at $1.24 billion against an unpaid balance of about $1.23 billion | Workspace obtained a two-year loan extension in July 2023 | Foreclosure suits in multiple states this month; Bisnow names only the Minnesota filing",
+   "basis": "Checked against the source article: Bisnow, Aug. 24, 2026 | Bisnow, Aug. 24, 2026 | Bisnow, Aug. 24, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-175",
+   "caseId": "live-175",
+   "subject": "Alexandria Real Estate Equities Securities Class Action (Dismissed With Leave to Amend Over Impairment Claims)",
+   "kind": "Corrected: figure, party, status",
+   "was": "\"lead plaintiff Warren Hern\" | \"a cumulative $2.2 billion in property impairments\"; \"$323.9 million\" | status \"ruling\"; dismissal described as a pause pending possible repleading",
+   "now": "The lead plaintiffs are Menora Mivtachim insurance and pension entities; the suit was originally filed by an individual shareholder | $323 million in Q3 2025 impairments plus $1.7 billion in Q4 2025 | Dismissed with leave to amend Sept. 10, 2026; amended complaint filed Oct. 15, 2026; case pending",
+   "basis": "Checked against the source article and court docket: CourtListener docket 2:25-cv-11319 (Doc. 94) | Bisnow, Sept. 14, 2026 | CourtListener docket 2:25-cv-11319 (Docs. 92, 98)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-383",
+   "caseId": "live-383",
+   "subject": "Lineage, Inc. v. Altus Power, Inc. (Cold-Storage REIT Sues Solar Companies Over Boyle Heights Warehouse Fire)",
+   "kind": "Corrected: description, figure",
+   "was": "\"Lineage is seeking more than $1 billion in damages\"; amountBasis \"damages sought\" | Los Palos Street Operating \"countered that Lineage, as the facility's tenant, bore responsibility for post-fire cleanup ... under its lease\" | \"hundreds of nearby residents have separately sued Lineage\"; \"Los Angeles Fire Department's official cause finding remains undetermined\"; compromised ammonia line",
+   "now": "Lineage estimates the fire will cost it more than $1 billion in all; the amount sought in the suit is not reported | A Los Palos Street Operating spokesperson called Lineage's statement \"riddled with misinformation\" and an attempt to deflect blame | Residents have filed putative class actions and individual suits against Lineage and the solar companies; the LAFD and ammonia-line claims were not in the sources and were removed",
+   "basis": "Checked against the source article: Bisnow, Sept. 11, 2026; Lineage 10-Q, Nov. 9, 2026 | Bisnow, Sept. 11, 2026 (quoting the Los Angeles Times) | Lineage 10-Q, Nov. 9, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-306",
+   "caseId": "live-306",
+   "subject": "514 That Way LLC v. Freddie Mac (Edgewater Apartments Post-Foreclosure Rent Dispute)",
+   "kind": "Corrected: date, description, party",
+   "was": "\"Freddie Mac v. Nord Group\": Freddie Mac as plaintiff, Nord Group as defendant | Huntington Glen bankruptcy \"in at least three separate venues, with a Delaware bankruptcy court marking the most recent stop after Fannie Mae sought to consolidate\" | \"an Austin complex headed toward a foreclosure auction\"; \"a Houston asset financed with a CMBS loan that went to special servicing\" | date 2026-10-15 (article date); \"Nord acquired in 2022\"",
+   "now": "The Nord affiliate 514 That Way LLC sued Freddie Mac in March 2026; Freddie Mac claims rent theft in that case | Huntington Glen has filed in Delaware, New York and Texas; its last active case was dismissed in May | The Austin property, Park at Crestview, was foreclosed on in May; the CMBS claim was not in the source and was removed | Hearing May 26, 2026; Edgewater's purchase date is not reported",
+   "basis": "Checked against the source article: Bisnow, Oct. 15, 2026 | Bisnow, Oct. 15, 2026 | Bisnow, Oct. 15, 2026 | Bisnow, Oct. 15, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-063",
+   "caseId": "live-063",
+   "subject": "J. Safra Real Estate v. Sugar Factory (Faneuil Hall Marketplace Unpaid Rent Suit)",
+   "kind": "Corrected: description",
+   "was": "\"the seventh in a series\" with \"six other suits\" against five named tenants; \"the Lovepop claim was dismissed in April 2026\"; Popular Properties \"disputes the allegations\" over maintenance | \"took over management ... at the start of 2024\"; \"Most of the named tenants have since closed ... Sugar Factory remains the only one still operating\"",
+   "now": "Seven suits in all, including one against FoMu filed July 9 seeking ~$447K; the reported Lovepop dismissal and Popular Properties defense were not in the source and were removed | J. Safra acquired the ground lease in 2024; current tenant status was not reported and was removed",
+   "basis": "Checked against the source article: Bisnow, Aug. 6, 2026 | Bisnow, Aug. 6, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-344",
+   "caseId": "live-344",
+   "subject": "Copper Mill Sues Joint-Venture Partners POB Capital and Pactolus Over Collapsed Dorchester Development Deal",
+   "kind": "Corrected: date, description",
+   "was": "filed October 20, 2026 | suits in Suffolk Superior Court \"and Massachusetts Land Court\" seeking \"specific performance\"",
+   "now": "filed October 15, 2026 (Thursday before Bisnow's Monday, Oct. 19 article) | One suit in Suffolk County Superior Court, with nine counts including fraud, civil conspiracy and tortious interference, seeking unspecified damages",
+   "basis": "Checked against the source article: Bisnow, Oct. 19, 2026 | Bisnow, Oct. 19, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-006",
+   "caseId": "live-006",
+   "subject": "In re Silver Star Properties REIT (Second Chapter 11 Filing)",
+   "kind": "Corrected: date, description, figure",
+   "was": "\"a settled internal fraud/fiduciary-duty suit against the REIT's ousted founder\" | \"Four guaranteed loan agreements totaling over $65M\"; \"$259M Goldman Sachs CMBS loan default\" | timeline marked May 28 filing as current and listed the June 2 foreclosure after it",
+   "now": "Silver Star's 2023 suit against founder Allen Hartman, who left in October 2022, is still ongoing | Four loans are in default (no total reported); the $259M CMBS figure was removed as unsupported | June 2, 2026 foreclosure is the latest event",
+   "basis": "Checked against the source article: Bisnow correction, June 11, 2026 | Bisnow, June 9, 2026 | Bisnow, June 9, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-055",
+   "caseId": "live-055",
+   "subject": "Atlanta City Council Approves Eminent Domain Plan for Azalea Gardens and Magnolia Park Apartments",
+   "kind": "Corrected: date, description",
+   "was": "August 19, 2025 | \"TYTA LLC's representative pushed back before the vote, telling the council ... The council proceeded anyway\" | negative cash flow \"according to the city's presentation\"",
+   "now": "August 18, 2025 (the council voted Monday; Bisnow's article is dated Tuesday, Aug. 19) | A TYTA manager told Bisnow the company plans to ask the city to hold off | A TYTA manager told Bisnow the property had negative cash flow for at least five years",
+   "basis": "Checked against the source article: Bisnow, Aug. 19, 2025 | Bisnow, Aug. 19, 2025 | Bisnow, Aug. 19, 2025"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-213",
+   "caseId": "live-213",
+   "subject": "Tri-State Insurance Co. of Minnesota v. Namdar Realty Group (Bangor Mall Sprinkler-Failure Default Judgment)",
+   "kind": "Corrected: date, description",
+   "was": "date 2026-09-22; \"at a hearing reported on September 22, 2026\" | \"four unanswered letters\" and \"roughly three months of silence\"; judge \"is expected to sign\"",
+   "now": "Decision signed September 24, 2026; the hearing Namdar missed was September 23 | Namdar failed to respond to multiple letters and did not appear at the hearing; the judge signed the decision",
+   "basis": "Checked against the source article: Bangor Daily News, Oct. 2, 2026 | Bangor Daily News, Oct. 2, 2026"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-374",
    "caseId": "live-374",
    "subject": "Ritz-Carlton Development Co. Loses Appeal Over Eagle County Valuation of Bachelor Gulch Fractional Units",
