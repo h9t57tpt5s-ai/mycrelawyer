@@ -42,7 +42,7 @@
   </url>
   <url>
     <loc>https://credocket.com/bankruptcy-watch.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -277,7 +277,7 @@
   </url>
   <url>
     <loc>https://credocket.com/company-jbg-smith.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -867,7 +867,7 @@
   </url>
   <url>
     <loc>https://credocket.com/lawsuit-watch.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1322,7 +1322,7 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-054.html</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -1343,11 +1343,6 @@
   <url>
     <loc>https://credocket.com/matters/live-058.html</loc>
     <lastmod>2026-11-16</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://credocket.com/matters/live-060.html</loc>
-    <lastmod>2026-09-01</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -1402,7 +1397,7 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-080.html</loc>
-    <lastmod>2026-09-06</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -1497,7 +1492,7 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-103.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -1607,7 +1602,7 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-130.html</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -1677,7 +1672,7 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-147.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -2431,11 +2426,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://credocket.com/matters/live-343.html</loc>
-    <lastmod>2026-10-28</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://credocket.com/matters/live-344.html</loc>
     <lastmod>2026-11-16</lastmod>
     <priority>0.6</priority>
@@ -2487,7 +2477,7 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-354.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -2512,7 +2502,7 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-359.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -2666,11 +2656,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://credocket.com/matters/live-392.html</loc>
-    <lastmod>2026-11-12</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://credocket.com/matters/live-393.html</loc>
     <lastmod>2026-11-16</lastmod>
     <priority>0.6</priority>
@@ -2762,6 +2747,11 @@
   </url>
   <url>
     <loc>https://credocket.com/chapter-11/swire-properties-southpoint-llc-flmb-3-26-bk-05294.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/chapter-11/9-jude-drive-equities-proprietary-llc-nysb-26-36224.html</loc>
     <lastmod>2026-11-16</lastmod>
     <priority>0.5</priority>
   </url>
@@ -3707,6 +3697,16 @@
   </url>
   <url>
     <loc>https://credocket.com/federal-cases/u-s-bank-trust-national-association-v-12th-street-equity-llc-paed-2-26-cv-08731.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/federal-cases/dynamo-capital-reit-i-llc-v-gulfside-getaways-llc-flmd-8-26-cv-03488.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/federal-cases/aldara-apartment-associates-llc-v-owners-insurance-company-utd-2-26-cv-01127.html</loc>
     <lastmod>2026-11-16</lastmod>
     <priority>0.5</priority>
   </url>
