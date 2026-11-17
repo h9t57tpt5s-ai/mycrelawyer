@@ -134,8 +134,8 @@ def style_problems(c, today=None):
     body = " ".join([c.get("summary") or ""] + (c.get("body") or []))
     if host and not RECORD_HOSTS.search(host) and not re.search(r"\breport(ed|s)\b|according to", body, re.I):
         out.append(f"relies on reporting ({host}) without crediting it -- say who reported it, e.g. 'The Real Deal reported'")
-    if len(c.get("body") or []) > 5:
-        out.append("body over 5 paragraphs -- write only what the sources support")
+    if len(c.get("body") or []) > 4:
+        out.append("body over 4 paragraphs -- write only what the sources support; never pad")
     today = today or dt.date.today()
     for e in c.get("timeline") or []:
         m = re.fullmatch(r"([A-Z][a-z]+) (\d{1,2}), (\d{4})", (e.get("when") or "").strip())

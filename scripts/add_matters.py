@@ -9,7 +9,7 @@ keys (sourcesOpened, verificationNote) are dropped. Each matter gets the next
 live-NNN id and today's addedDate; lastUpdatedDate is set to today.
 
 Refuses a matter that is missing a required field, uses an unknown category
-or status, lacks a 3+ paragraph body, names a source that equals its docket
+or status, lacks a 2+ paragraph body, names a source that equals its docket
 (record-only), or duplicates an existing title, source URL or docket URL.
 
   python3 scripts/add_matters.py new-matters.json [--dry-run]
@@ -55,8 +55,10 @@ def problems(m, cases):
         p.append(f"unknown status {m.get('status')!r}")
     if not re.fullmatch(r"\d{4}-\d\d-\d\d", m.get("date") or ""):
         p.append("date must be YYYY-MM-DD")
-    if len(m.get("body") or []) < 3:
-        p.append("body needs 3+ paragraphs")
+    # 2+ paragraphs, not 3+ (Jeff, 2026-11-16): a short source makes a
+    # short entry; a minimum length only invites padding.
+    if len(m.get("body") or []) < 2:
+        p.append("body needs 2+ paragraphs")
     # The 2026-11-16 audit rules (loaded labels, uncredited reporting,
     # padding, stale "upcoming" dates), shared with check_case_fields.py.
     from check_case_fields import style_problems

@@ -20,7 +20,7 @@ CREdocket (credocket.com) is a commercial real estate (CRE) litigation intellige
 
 ## Accuracy rules from the November 16, 2026 audit (Jeff; read before writing)
 An audit of 48 published write-ups sourced to The Real Deal found errors in nearly every one: owners and plaintiffs wrongly named, articles' publication dates used as filing dates, background the source does not contain, and almost no credit to the outlet. Every new entry must meet these rules; add_matters.py and check_case_fields.py refuse the mechanical ones.
-- Only what your sources say. No background, history, motives, market color or "context" that is not in a source you opened. A short source makes a short entry: 3-4 body paragraphs, usually 250-450 words. Never pad to a length.
+- Only what your sources say, and no longer than they support. No background, history, motives, market color or "context" that is not in a source you opened. There is no word or paragraph target: a short source makes a short entry (two short paragraphs is fine), and the body never runs past 4 paragraphs. Never pad or exaggerate any description, summary, title or significance (Jeff, 2026-11-16: "under no circumstances should descriptions be padded or exaggerated").
 - Credit the reporting in the text. When a fact comes from an article and not a court record, say so ("The Real Deal reported", "according to Crain's Chicago Business"). If the article credits another outlet, name that one too. Never credit an outlet you did not read.
 - Check the article for a "Correction" or "Updated" note before writing, and follow the corrected version. Two of the worst errors (wrong owners of 10 East 34th Street and 1440 Broadway) were already corrected in the source.
 - The event date is the filing or ruling date, not the article's publication date. Work it out from the article ("filed Tuesday" in an article dated Thursday, Nov. 5 means Nov. 3). If the source gives only a month, write the month in the text and timeline and never invent a day.
@@ -47,7 +47,7 @@ An audit of 48 published write-ups sourced to The Real Deal found errors in near
  "brief": "<one or two sentences, 60-260 characters, shown above the write-up on tracker cards: who, what happened, the stake (property and dollar amount if stated). A reader scanning the tracker should know from this alone whether the case matters to them. Only facts and figures from this entry; don't repeat the title.>",
  "summary": "<2-4 sentences: what happened>",
  "significance": "<2-4 sentences: why it matters to CRE owners, lenders, tenants or investors>",
- "body": ["<3-4 plain-prose paragraphs, no markdown, only what the sources state (usually 250-450 words): what happened and who said what, the procedural posture, and a short final paragraph on what it means for owners, lenders or tenants with no new facts>"],
+ "body": ["<2-4 plain-prose paragraphs, no markdown, only what the sources state and no longer than they support: what happened and who said what, the procedural posture, and what it means for owners, lenders or tenants, with no new facts>"],
  "tags": ["3-5 short lowercase tags"],
  "parties": [{"name": "<legal entity name exactly as the source gives it>", "role": "<Plaintiff/Defendant/Lender/Borrower/Landlord/Tenant/Debtor/Appellant/Appellee...>"}],
  "judge": "<full name if the source names the judge, else null>",
