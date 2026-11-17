@@ -4,6 +4,106 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-054",
+   "caseId": "live-054",
+   "subject": "The Retail Property Trust v. Nassau County Dept. of Assessment (Roosevelt Field $4.8M Reporting-Fine Appeal)",
+   "kind": "Corrected: description",
+   "was": "a separate opinion ... declined to join the majority's apparent assumption that the Excessive Fines Clause protects corporate entities ... has never been squarely resolved | the due process and state-law claims fared no better",
+   "now": "The majority expressly held that the Excessive Fines Clause protects business entities, including trusts and corporations; Judge Wesley concurred, arguing the court did not need to decide that question | The district court declined supplemental jurisdiction and dismissed the state-law claims without prejudice; the Second Circuit affirmed the federal rulings and the denial of sanctions",
+   "basis": "Checked against the source article: Second Circuit opinion, No. 25-907 (Aug. 6, 2026), pp. 9-19 | Second Circuit opinion, No. 25-907, pp. 2, 7"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-060",
+   "subject": "Markham Contracting Co., Inc. v. Cahava Springs Phase I, Inc. (Unjust Enrichment Claim Against Infrastructure-District Landowners)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Markham Contracting Co., Inc. v. Cahava Springs Phase I, Inc. (Unjust Enrichment Claim Against Infrastructure-District Landowners)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; Infrastructure for a master-planned residential community; residential, so out of scope."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-359",
+   "caseId": "live-359",
+   "subject": "Texas Appeals Court: Dental Tenant's Square-Footage Fraud Claim Against Former Landlord Is Time-Barred",
+   "kind": "Corrected: description",
+   "was": "the landlord in question had sold the shopping center, and been released from the lease ... a seller-landlord's standard assignment-and-release clause can extinguish liability",
+   "now": "The court decided the appeal on limitations only and expressly did not address Brixmor's other grounds, including the lease's release-on-transfer clause",
+   "basis": "Checked against the source article: Veena Dental PA v. Brixmor GA Apollo II TX LP, No. 13-26-00002-CV (Tex. App.-Corpus Christi-Edinburg Oct. 29, 2026), p. 9"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-392",
+   "subject": "Devosky Hood v. Barbara L. Smith (Commercial Lease Eviction Judgment Voided for Lack of Jurisdiction)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Devosky Hood v. Barbara L. Smith (Commercial Lease Eviction Judgment Voided for Lack of Jurisdiction)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; A lease-or-sale dispute between two individuals; suits whose real parties are individuals are out of scope."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-343",
+   "subject": "BFT Rental, LLC v. City of Fayetteville (Eminent Domain Compensation Appeal)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: BFT Rental, LLC v. City of Fayetteville (Eminent Domain Compensation Appeal)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; The opinion does not show the property is commercial; borderline, so left out."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-354",
+   "caseId": "live-354",
+   "subject": "District of Columbia v. RealPage, Inc. (JBG Smith and MAA's $9.3M Consent Judgments)",
+   "kind": "Corrected: party",
+   "was": "Mid-America Apartment Communities, Inc. (Defendant)",
+   "now": "Mid-America Apartments, L.P., the entity named in the consent judgment",
+   "basis": "Checked against the source article: D.C. Superior Court Consent Judgment and Order with Mid-America Apartments, L.P., No. 2023-CAB-006762 (linked from the OAG release)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-103",
+   "caseId": "live-103",
+   "subject": "BB's Childcare, LLC Commercial Lease-Purchase Eviction Appeal (Nebraska Supreme Court Jurisdiction Ruling)",
+   "kind": "Corrected: description",
+   "was": "the parties' commercial lease ... created an equitable interest in the property that made the dispute one over title",
+   "now": "the lease provisions 'arguably conferred an equitable interest,' enough to establish a title dispute and divest the county court; the court expressed no opinion on the merits of the title claims",
+   "basis": "Checked against the source article: Martens v. BB's Childcare, 321 Neb. 335 (May 8, 2026), slip op. pp. 348-349"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-130",
+   "caseId": "live-130",
+   "subject": "Town of Nahant v. Northeastern University (East Point Eminent Domain Reversal)",
+   "kind": "Corrected: date, description",
+   "was": "reversed two lower court rulings ... The Massachusetts Appeals Court affirmed that reasoning later that year | In April 2024, a judge of the Essex Superior Court invalidated Nahant's eminent domain order",
+   "now": "The SJC reviewed a single Superior Court judgment on direct appellate review; there was no Appeals Court ruling in this case | Superior Court judgment dismissing the town's petition entered May 12, 2025, after cross motions for summary judgment",
+   "basis": "Checked against the source article: SJC-13844 slip opinion, pp. 1, 19 | SJC-13844 slip opinion, p. 19"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-080",
+   "caseId": "live-080",
+   "subject": "Transportation Consultants, Inc. v. Certain Underwriters at Lloyd's, London (Louisiana Surplus Lines Arbitration Ruling)",
+   "kind": "Corrected: description, party",
+   "was": "On appeal, the Fifth Circuit affirmed that split result ... [the district court] lifted the litigation stay for those nine defendants | two foreign underwriters at Lloyd's of London",
+   "now": "The Fifth Circuit affirmed in part, vacated the order lifting the stay as to the domestic insurers, and remanded for the district court to decide whether to stay that litigation pending arbitration | two foreign insurers (the opinion does not say both are Lloyd's underwriters)",
+   "basis": "Checked against the source article: Fifth Circuit opinion, No. 25-30372 (Sept. 3, 2026), pp. 2, 7-8 | Fifth Circuit opinion, No. 25-30372, p. 2"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-147",
+   "caseId": "live-147",
+   "subject": "Circle K Stores Parking-Lot Fall Appeal (Fourth Circuit Premises-Liability Summary-Judgment Reversal)",
+   "kind": "Corrected: description",
+   "was": "the panel ... rejected all three grounds and reversed",
+   "now": "Circle K defended only two grounds on appeal (open and obvious; no expert on causation); the Fourth Circuit rejected those two, reversed in part, vacated the Daubert and spoliation rulings in part and remanded",
+   "basis": "Checked against the source article: Fourth Circuit opinion, No. 25-1964 (May 13, 2026), pp. 1, 5-6, 12"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-108",
    "caseId": "live-108",
    "subject": "CBS Holdings, LLC v. Hexagon US Federal, Inc. (Madison County Lease Renewal & Fee Fight)",
