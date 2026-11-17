@@ -105,10 +105,10 @@ const RELAW_DATA = {
     {
       id: "live-003",
       seoTitle: "Benchmark 2026-B43: $34.4M CMBS Foreclosure in Methuen, MA",
-      seoDescription: "Benchmark 2026-B43's trustee sued to foreclose a $34.4M loan on a Methuen, MA parcel and a Michigan shopping center after a missed first payment.",
+      seoDescription: "Benchmark 2026-B43's trustee sued to foreclose a $34.4M loan on a Methuen, MA site and a Michigan shopping center after a missed first payment, MPA reported.",
       addedDate: "2026-08-04",
       title: "Wilmington Savings Fund Society, FSB v. Milton 90 Pleasant Valley Street LLC (Benchmark 2026-B43 CMBS Foreclosure)",
-      brief: "The Benchmark 2026-B43 CMBS trustee sued to foreclose a $34.4M loan on a Methuen, MA parcel and a Michigan shopping center, alleging the borrowers let affiliated tenants stop paying rent.",
+      brief: "The Benchmark 2026-B43 CMBS trustee sued to foreclose a $34.4M loan on a Methuen, Mass. site and a Michigan shopping center after a missed first payment, Mortgage Professional America reported.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-07-28",
@@ -118,22 +118,24 @@ const RELAW_DATA = {
         { name: "Milton 90 Pleasant Valley Street LLC", role: "Defendant (Borrower)" },
         { name: "Development Associates of Benton Harbor LLC", role: "Defendant (Borrower)" }
       ],
-      judge: null,
+      judge: "Arun Subramanian",
       amountUsd: 34400000,
       amountBasis: "loan",
       state: "NY",
       amount: "$34.4M loan balance",
       source: "live",
       sourceUrl: "https://www.mpamag.com/us/news/general/trustee-seeks-to-foreclose-344m-cmbs-loan-after-alleged-first-payment-default/584231",
-      summary: "The CMBS trustee for Benchmark 2026-B43 sued to foreclose a $34.4M loan secured by a Methuen, MA parcel and a Michigan shopping center after the borrowers missed their very first payment and two guarantors filed Chapter 11. The complaint alleges the borrowers let their own affiliated tenants under 99-year leases stop paying rent rather than enforce those leases — conduct the trustee calls 'affiliate atrophy' — and seeks mortgage foreclosure, UCC foreclosure on personal property, and appointment of a receiver to collect rents and step into the affiliate leases and bankruptcies.",
-      significance: "Signals that special servicers are willing to argue a borrower's failure to enforce intercompany leases against its own affiliates is itself a form of loan mismanagement, looking past special-purpose-entity structures to related-party cash flows. Sponsors relying on affiliated master-lease structures, and guarantors whose personal bankruptcy filings can independently trigger cross-default, should take note as CMBS distress enforcement accelerates.",
+      summary: "Wilmington Savings Fund Society, FSB, as trustee for the Benchmark 2026-B43 CMBS trust, sued on July 28, 2026 in the Southern District of New York to foreclose a $34.4 million loan on about 46 acres at 90 Pleasant Valley Street in Methuen, Massachusetts and the Fairplain Plaza shopping center in Benton Township, Michigan, Mortgage Professional America reported. The trustee alleges the borrowers missed their first payment, due June 6, 2026, after two guarantors filed Chapter 11, and that the borrowers are not enforcing 99-year leases with affiliated tenants that have also filed Chapter 11. It seeks foreclosure, a UCC foreclosure on personal property and a receiver.",
+      significance: "The complaint's \"affiliate atrophy\" theory treats a borrower's failure to enforce leases with its own affiliates as a reason for a receiver, which would step into those leases and the related bankruptcy cases. The allegations are untested, and no court has ruled on them.",
       body: [
-        "The CMBS trustee for Benchmark 2026-B43 moved to foreclose a $34.4M loan against a Methuen, Massachusetts parcel and a Michigan shopping center after the borrowers missed their first debt-service payment outright and two loan guarantors separately filed for Chapter 11 protection.",
-        "The complaint's more novel theory is what the trustee calls 'affiliate atrophy': rather than simply defaulting, the borrowers allegedly let their own affiliated tenants — occupying the properties under 99-year leases — stop paying rent, instead of enforcing those leases against entities under common control. The trustee is seeking mortgage foreclosure, a parallel UCC foreclosure on personal property, and appointment of a receiver empowered to both collect rents and step into the affiliate leases and bankruptcy proceedings directly.",
-        "The theory is notable because it treats a borrower's failure to enforce its own intercompany leases as a form of loan mismanagement in itself, reaching through special-purpose-entity structures to the related-party cash flows behind them. Sponsors that rely on affiliated master-lease arrangements — and guarantors whose personal bankruptcy filings can trip cross-default clauses independent of the property's own performance — are a natural audience for this ruling as CMBS special servicers get more aggressive."
+        "Wilmington Savings Fund Society, FSB, as trustee for the Benchmark 2026-B43 CMBS trust, sued Milton 90 Pleasant Valley Street LLC and Development Associates of Benton Harbor LLC on July 28, 2026 in the U.S. District Court for the Southern District of New York, Mortgage Professional America reported. According to the article, Barclays Capital Real Estate made the $34.4 million loan around April 14, 2026 at a 6.4% fixed rate, maturing May 6, 2036, and it was assigned to the trust effective May 20, 2026. CWCapital Asset Management is the special servicer. The loan is secured by about 46 acres at 90 Pleasant Valley Street in Methuen, Massachusetts and the Fairplain Plaza shopping center in Benton Township, Michigan.",
+        "The trustee alleges two guarantors filed Chapter 11 in New Jersey around June 4, 2026, and the borrowers then missed the first payment due June 6, raising the rate to an 11.4% default rate. A default letter followed on June 16 and an acceleration letter on July 15. The borrowers leased nearly all of each property to affiliated companies under 99-year leases, and those affiliates have also filed Chapter 11. The trustee alleges the borrowers are not enforcing those leases, conduct the filing calls \"affiliate atrophy,\" and that collecting from the affiliates would cover the loan payments.",
+        "The complaint seeks foreclosure of the mortgages, foreclosure on personal-property collateral under the UCC, and appointment of a receiver to take possession, collect rents and step into the affiliate leases and the related bankruptcy cases. One guarantor is named as a defendant to pursue any shortfall after a sale; the other two are not, because the bankruptcy stay bars joining them. The allegations have not been tested, and no court has ruled on them."
       ],
       timeline: [
-        { when: "July 28, 2026", label: "CMBS trustee sues to foreclose after first-payment default and guarantor Chapter 11 filings",  current: true }
+        { when: "June 6, 2026", label: "First loan payment comes due and is missed, according to the trustee" },
+        { when: "July 15, 2026", label: "Lender sends an acceleration letter, according to the complaint" },
+        { when: "July 28, 2026", label: "CMBS trustee sues in the Southern District of New York to foreclose and seeks a receiver", current: true }
       ],
       tags: ["CMBS", "foreclosure", "first-payment default", "receivership", "guarantor bankruptcy"],
       docketUrl: "https://www.courtlistener.com/docket/73684397/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
@@ -881,11 +883,11 @@ const RELAW_DATA = {
     {
       id: "live-031",
       seoTitle: "Princeton Pike Corporate Center: $130M CMBS Office Foreclosure",
-      seoDescription: "U.S. Bank, as CMBS trustee, sued to foreclose a Lenox Drive office complex at Princeton Pike Corporate Center, NJ after a $130M loan matured unpaid.",
+      seoDescription: "A CMBS trustee sued to foreclose on Lenox Drive Office Park after a $130M loan matured unpaid, claiming $141.8M owed and seeking a receiver, MPA reported.",
       property: {"name": "Princeton Pike Corporate Center", "address": "Lenox Drive", "city": "Lawrence Township", "state": "NJ"},
       addedDate: "2026-08-20",
       title: "U.S. Bank National Association v. Lenox Drive Office Park LLC (Princeton Pike Corporate Center Foreclosure)",
-      brief: "U.S. Bank, as trustee for a 2016 CMBS trust, sued to foreclose on an office complex in Princeton Pike Corporate Center in Lawrence Township, NJ after a $130M loan matured unpaid, and seeks a receiver.",
+      brief: "U.S. Bank, as trustee for a 2016 CMBS trust, sued to foreclose on the Lenox Drive office park in Mercer County, N.J., saying a $130M loan matured unpaid, and asked for a receiver, Mortgage Professional America reported.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-08-12",
@@ -901,20 +903,20 @@ const RELAW_DATA = {
       amount: "$130M loan balance; matured unpaid January 1, 2026",
       source: "live",
       sourceUrl: "https://www.mpamag.com/us/specialty/commercial/cmbs-trust-moves-to-foreclose-on-office-park-over-130-million-loan/586071",
-      summary: "U.S. Bank National Association, as trustee for a 2016 Morgan Stanley Bank of America Merrill Lynch commercial mortgage trust, sued Lenox Drive Office Park LLC on August 12 to foreclose on an office complex within the Princeton Pike Corporate Center in Lawrence Township, Mercer County, New Jersey, after a $130M loan originated in December 2015 matured unpaid on January 1, 2026. The complaint seeks a judicial foreclosure and sale of the property, plus immediate appointment of a receiver to operate the complex while the case proceeds.",
-      significance: "A clean maturity-default case, not a covenant or performance dispute, illustrating how 2015-2016-vintage CMBS office loans are colliding with a refinancing market that no longer supports their original terms. The trust's request for a receiver ahead of any foreclosure sale shows special servicers moving to seize operational control of underperforming office collateral faster than a contested foreclosure alone would allow, a pattern owners of similar-vintage suburban office loans should read as an early-warning template.",
+      summary: "U.S. Bank National Association, as trustee for the Morgan Stanley Bank of America Merrill Lynch Trust 2016-C28, sued Lenox Drive Office Park LLC on August 12, 2026 in the U.S. District Court for the District of New Jersey, Mortgage Professional America reported. The trust says a $130 million loan made in December 2015 matured on January 1, 2026 without being repaid and that $141,767,219.75 was owed as of July 1, 2026. It seeks foreclosure and sale of the Lenox Drive office buildings and a receiver to run the property and conduct the sale.",
+      significance: "The suit is a maturity default: the trust's claim is that a ten-year CMBS office loan came due and was not repaid. The docket shows a clerk's entry of default in October 2026 and a receivership filing in November.",
       body: [
-        "U.S. Bank National Association, acting as trustee for the registered holders of a 2016 Morgan Stanley Bank of America Merrill Lynch commercial mortgage trust, filed suit on August 12, 2026 in the U.S. District Court for the District of New Jersey against Lenox Drive Office Park LLC, the Delaware entity that owns an office complex on Lenox Drive within the Princeton Pike Corporate Center in Lawrence Township, Mercer County. The complaint alleges that a $130 million loan Morgan Stanley Bank, N.A. originated in December 2015, later securitized into the 2016-C28 trust, matured on January 1, 2026 and was never paid off.",
-        "Eight months after that missed maturity payment, the trustee is asking the court for both a judicial foreclosure and sale of the property and, more urgently, the immediate appointment of a receiver to run the complex while the litigation proceeds. The filing is notable for what it does not allege: there is no claim of tenant fraud, mismanagement, or a buried covenant breach. This is a straightforward maturity default, the kind increasingly produced by a decade-old loan basis colliding with a refinancing market that no longer supports comparable terms for suburban office collateral.",
-        "The receivership request is the more immediate concern for ownership. New Jersey courts treat receivership as an equitable remedy available once a lender shows a defaulting borrower cannot be trusted to preserve collateral value, and special servicers are increasingly reaching for it before, or instead of, waiting out a contested foreclosure sale. If granted, a receiver would take over rent collection, leasing decisions, and day-to-day management immediately, shifting operational control away from Lenox Drive Office Park LLC well before any forced sale.",
-        "The case fits a broader pattern this year: 2015-2016-vintage, ten-year CMBS office loans are reaching maturity into a lending environment far tighter than the one in which they were underwritten, and special servicers facing a hard maturity with no extension room left have limited incentive to extend forbearance indefinitely once continued interest accrual and softening property performance start working against bondholders."
+        "U.S. Bank National Association, as trustee for the registered holders of the Morgan Stanley Bank of America Merrill Lynch Trust 2016-C28, filed suit on August 12, 2026 in the U.S. District Court for the District of New Jersey against Lenox Drive Office Park LLC, a Delaware company that owns office buildings on Lenox Drive in Mercer County, Mortgage Professional America reported. Greystone Servicing Company handles the loan. Lenox Drive Office Park LLC bought Princeton Pike Corporate Center in Lawrenceville in early 2016, NJB Magazine reported at the time.",
+        "According to the complaint as reported, Morgan Stanley Bank, N.A. made a $130 million loan to the borrower in December 2015, split across several promissory notes and secured by a mortgage on the office park along with cash-management agreements and UCC filings on rents and fixtures. The loan matured on January 1, 2026, and the trust says it was not repaid. As of July 1, 2026, the trust says $141,767,219.75 was owed, including principal, interest at the note and default rates, late fees and servicing charges, with interest still accruing.",
+        "The trust seeks an order foreclosing and selling the property and the appointment of a receiver to run the office park during the case and conduct the sale. The federal docket shows a clerk's entry of default on October 8, 2026, an amended complaint on October 29, and an entry titled \"Appoint Receiver\" on November 6. No court has ruled on the merits."
       ],
       timeline: [
-        { when: "December 2015", label: "Morgan Stanley Bank, N.A. originates the $130M loan, later securitized into the 2016-C28 trust" },
-        { when: "January 1, 2026", label: "Loan reaches maturity and is not paid off" },
-        { when: "August 12, 2026", label: "U.S. Bank National Association sues to foreclose and seeks appointment of a receiver" },
-        { when: "October 8, 2026", label: "Plaintiff requests entry of default judgment by the clerk (docket entry 6)" },
-        { when: "November 6, 2026", label: "Docket records an \"Appoint Receiver\" entry in the case (docket entry 11)", current: true }
+        { when: "December 2015", label: "Morgan Stanley Bank, N.A. makes the $130M loan, later held by the 2016-C28 trust" },
+        { when: "January 1, 2026", label: "Loan matures and, the trust says, is not repaid" },
+        { when: "August 12, 2026", label: "U.S. Bank, as trustee, sues to foreclose and seeks a receiver" },
+        { when: "October 8, 2026", label: "Clerk enters default after the plaintiff's request (docket entry 6)" },
+        { when: "October 29, 2026", label: "Plaintiff files an amended complaint (docket entry 10)" },
+        { when: "November 6, 2026", label: "Docket records an \"Appoint Receiver\" entry (docket entry 11)", current: true }
       ],
       tags: ["cmbs", "foreclosure", "receivership", "office", "maturity default"],
       docketUrl: "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
@@ -1792,14 +1794,14 @@ const RELAW_DATA = {
     {
       id: "live-058",
       seoTitle: "Ritz-Carlton Nashville Site: Oakworth Foreclosure, $35M Auction",
-      seoDescription: "Oakworth Capital Bank sued over a defaulted $10 million loan on the planned Ritz-Carlton Nashville tower site, which sold at foreclosure for $35 million.",
+      seoDescription: "Oakworth Capital Bank sued over a $10M loan tied to the planned Ritz-Carlton Nashville tower site, which later sold at a foreclosure auction for $35 million.",
       property: {"name": "Ritz-Carlton Nashville", "address": "401-417 Seventh Ave. S.", "city": "Nashville", "state": "TN"},
       addedDate: "2026-08-31",
       title: "Oakworth Capital Bank v. RC Nashville Development Partners (Ritz-Carlton Nashville Foreclosure)",
-      brief: "Oakworth Capital Bank sued the developer of a planned 46-story Ritz-Carlton hotel and condo tower in Nashville over a defaulted $10 million loan; the site sold at foreclosure for $35 million.",
+      brief: "Oakworth Capital Bank sued the developer of a planned Ritz-Carlton tower in Nashville over a $10 million loan; the site later sold at foreclosure for $35 million and the court entered judgments for the bank.",
       category: "lending-foreclosure",
-      status: "settled",
-      date: "2024-04-11",
+      status: "ruling",
+      date: "2023-10-28",
       jurisdiction: "U.S. District Court, Middle District of Tennessee (No. 3:23-cv-01145); foreclosure sale at Metro Nashville Courthouse",
       parties: [
         { name: "Oakworth Capital Bank", role: "Plaintiff" },
@@ -1812,20 +1814,22 @@ const RELAW_DATA = {
       amount: "$10,470,772.90 sought in the underlying suit; property sold at foreclosure auction for $35M",
       source: "live",
       sourceUrl: "https://www.nashvillepost.com/business/development/ritz-carlton-project-faces-financing-snag-as-bank-sues-developer/article_d56330b6-7809-11ee-ad3a-67466a6e47ad.html",
-      summary: "Alabama-based Oakworth Capital Bank sued RC Nashville Development Partners LLC and developer Timothy J. Morris in October 2023 over a defaulted $10 million construction loan tied to a planned 46-story Ritz-Carlton hotel and condominium tower in Nashville's SoBro district; the 1.2-acre site was ultimately sold at a foreclosure auction for $35 million to R Squared Properties LLC of Washington in April 2024.",
-      significance: "A real-numbers illustration of how quickly a stalled trophy hospitality/condo development can move from loan default to a completed foreclosure sale — roughly six months from suit to auction here — and of how a single defaulting sponsor's exposure can span multiple markets: Morris separately faced a $5.3 million Oakworth suit over a Washington, D.C. project, plus additional suits from other creditors. Lenders and equity partners underwriting sponsors with multi-market pipelines should look past a single project's collateral value to the sponsor's aggregate, cross-market debt load.",
+      summary: "Oakworth Capital Bank sued RC Nashville Development Partners, LLC and its principal in the Middle District of Tennessee on October 28, 2023, seeking $10,470,772.90 plus interest on a $10 million loan tied to a planned Ritz-Carlton hotel and condominium tower in Nashville's SoBro area, the Nashville Post reported. The 1.2-acre site at 727 Korean Veterans Boulevard sold at a foreclosure auction on April 11, 2024 to R Squared Properties LLC for $35 million, the Tennessean reported. The court later entered summary judgment against the principal and a default judgment against RC Nashville, and closed the case in August 2025.",
+      significance: "The case moved from a matured, unpaid loan to a foreclosure sale of the site within about six months of the suit. The developer said in court filings that the property's value would make the bank whole.",
       body: [
-        "Oakworth Capital Bank, an Alabama-based lender, sued RC Nashville Development Partners LLC and developer Timothy J. Morris in the Middle District of Tennessee in October 2023, alleging default on a $10 million construction loan that had matured and come due on August 9 of that year. The bank sought $10,470,772.90 including interest and late charges. The loan was tied to a planned 46-story tower at 401-417 Seventh Ave. S. intended to house a Ritz-Carlton hotel, luxury condominiums, and a rooftop restaurant, alongside a companion 32-story apartment structure — part of a roughly $585 million project announced in 2021 with an original late-2022 groundbreaking target that never happened.",
-        "Morris acknowledged the loan's difficulties publicly, citing high inflation and post-COVID supply chain disruption, and reportedly suggested Oakworth could take a deed in lieu of foreclosure rather than litigate. Instead, the underlying triangular 1.2-acre lot at 727 Korean Veterans Boulevard proceeded to a foreclosure auction at the Metro Nashville Courthouse on April 11, 2024, where R Squared Properties LLC of Washington bought the site for $35 million — matching the price RC Nashville had itself paid for the land back in March 2020. R Squared did not respond to press inquiries about whether it intends to continue the Ritz-Carlton plans.",
-        "Morris's exposure was not limited to this one Nashville site: Oakworth separately sued him and an affiliated entity, 6101 Sligo LLC, over a defaulted $5.3 million loan tied to a Washington, D.C. project, and other creditors including The Bradley Projects and Fifth+ Broadway also pursued claims against him over unpaid obligations around the same period. For a stalled trophy hospitality development, the roughly six-month path from a matured, unpaid construction loan to a completed foreclosure sale is a useful real-world benchmark — and the parallel D.C. litigation is a reminder that a single sponsor's distress on one high-profile project is frequently a symptom of broader, multi-market overextension rather than an isolated site-specific problem."
+        "Oakworth Capital Bank, an Alabama lender, sued RC Nashville Development Partners, LLC and its principal on October 28, 2023 in the U.S. District Court for the Middle District of Tennessee, alleging default on a $10 million note that matured and came due on August 9 and seeking $10,470,772.90 plus interest, the Nashville Post reported. The loan was tied to a planned two-tower development at 401-417 Seventh Ave. S.: a building for a Ritz-Carlton hotel, condominiums and a rooftop restaurant, alongside a 32-story apartment tower, in a $585 million project. The developer told the Post the project remained viable, cited inflation and rapid interest-rate increases, and said he was talking with two other lenders. The Post also reported that Oakworth had sued him and 6101 Sligo LLC over a separate $5.3 million loan for a Washington, D.C. project.",
+        "On April 11, 2024, the triangular 1.2-acre lot at 727 Korean Veterans Boulevard, planned for a 46-story Ritz-Carlton tower, was sold at a foreclosure auction at the Metro Nashville Courthouse to R Squared Properties LLC of Washington for $35 million, the same price the site sold for in March 2020, the Tennessean reported. The developer had said in court filings that it was fair for Oakworth to take the property by deed in lieu of foreclosure and sell it, and that the bank would be \"more than 100% whole.\" R Squared did not immediately respond to questions about its plans for the site.",
+        "The federal case continued after the sale. According to the docket, the court entered default against RC Nashville in April 2024, granted Oakworth summary judgment against the principal on October 30, 2024, entered a default judgment against RC Nashville on January 7, 2025, and entered an order dismissing the case on August 4, 2025."
       ],
       timeline: [
-        { when: "2020", label: "RC Nashville Development Partners acquires the site for $35M" },
-        { when: "2021", label: "The ~$585M, 46-story Ritz-Carlton Nashville project is announced" },
-        { when: "October 2023", label: "Oakworth Capital Bank sues RC Nashville Development Partners and Timothy J. Morris over the defaulted $10M construction loan" },
-        { when: "April 11, 2024", label: "The site is sold to R Squared Properties LLC for $35M at a foreclosure auction", current: true }
+        { when: "March 2020", label: "The site sells for $35 million, according to the Tennessean" },
+        { when: "October 28, 2023", label: "Oakworth Capital Bank sues RC Nashville Development Partners and its principal over the $10M loan" },
+        { when: "April 11, 2024", label: "The site sells at a foreclosure auction to R Squared Properties LLC for $35 million" },
+        { when: "October 30, 2024", label: "Court grants Oakworth summary judgment against the principal" },
+        { when: "January 7, 2025", label: "Court enters a default judgment against RC Nashville Development Partners" },
+        { when: "August 4, 2025", label: "Court enters an order dismissing the case", current: true }
       ],
-      tags: ["Ritz-Carlton", "construction loan default", "foreclosure auction", "hospitality development", "Nashville"],
+      tags: ["Ritz-Carlton", "loan default", "foreclosure auction", "hospitality development", "Nashville"],
       docketUrl: "https://www.courtlistener.com/docket/67940311/oakworth-capital-bank-v-rc-nashville-development-partners-llc/",
       docketLabel: "CourtListener docket"
     },
@@ -4784,14 +4788,14 @@ const RELAW_DATA = {
     },
     {
       id: "live-150",
-      seoTitle: "Canyon County, Idaho Highway Taking: Business Damages Rejected",
-      seoDescription: "Idaho's Supreme Court held only the condemned parcel's fee owner can claim business damages, rejecting Triple Crown Development affiliates' claims.",
+      seoTitle: "Idaho Supreme Court Limits Business Damages to Fee Owners",
+      seoDescription: "Idaho's Supreme Court held business damages in a condemnation require fee title, rejecting claims by Triple Crown Development and affiliated companies.",
       addedDate: "2026-09-17",
       title: "State of Idaho, Idaho Transportation Board v. Triple Crown Development, LLC (Business-Damages Condemnation Appeal)",
-      brief: "The Idaho Supreme Court held only the fee owner of condemned land, not commonly controlled businesses on adjoining land, may claim business damages, affirming judgment against Triple Crown Development.",
+      brief: "The Idaho Supreme Court held that business damages in a highway condemnation turn on fee title ownership, affirming dismissal of claims by Triple Crown Development and four affiliated companies.",
       category: "eminent-domain",
       status: "ruling",
-      date: "2026-09-14",
+      date: "2026-09-02",
       jurisdiction: "Idaho Supreme Court",
       parties: [
         { name: "State of Idaho", role: "Plaintiff-Respondent" },
@@ -4808,18 +4812,17 @@ const RELAW_DATA = {
       amount: "Business-damages claim rejected; underlying land value stipulated separately",
       source: "live",
       sourceUrl: "https://www.mealeys.com/mealeys/mealeys-attorney-fees/articles/2524720",
-      summary: "The Idaho Supreme Court affirmed summary judgment against business-damages claims brought by Triple Crown Development, LLC and affiliated Thueson-controlled entities after the state condemned Triple Crown's land in Canyon County for a highway interchange. The Court held that Idaho Code section 7-711(2)'s business-damages remedy belongs only to the fee owner of the condemned parcel, not commonly controlled businesses on adjoining land, and separately rejected the state's request for attorney fees.",
-      significance: "Clarifies that Idaho's statutory business-damages remedy tracks legal title to the condemned parcel rather than economic interdependence among commonly controlled entities, and confirms that a never-permitted, never-operated business plan cannot support a business-damages award even for the actual fee owner.",
+      summary: "The Idaho Supreme Court on September 2, 2026 affirmed a Canyon County ruling that dismissed business-damages claims brought by Triple Crown Development, LLC and four commonly controlled companies after the state condemned part of Triple Crown's land for a highway interchange. The Court held that \"owned\" in Idaho Code section 7-711(2) means fee title ownership, so a beneficial or joint-venture interest does not qualify. It declined to award the state attorney fees on appeal because the appeal was not frivolous.",
+      significance: "The opinion reads Idaho's business-damages statute by legal title, so commonly controlled companies cannot pool their interests to claim damages for a taking of one affiliate's land. The Court noted that the companies' fairness concerns about related business entities are for the legislature.",
       body: [
-        "The Idaho Supreme Court has affirmed a ruling that sharply limits which businesses can recover \"business damages\" when the state condemns land for a highway project, rejecting an attempt by a family of commonly controlled companies to share in compensation for a taking that struck only one of their parcels. In a decision issued in Docket No. 52872, the Court sided with the State of Idaho, Idaho Transportation Board against Triple Crown Development, LLC and a group of intervenor entities controlled by developer Lance Thueson, holding that Idaho Code section 7-711(2)'s business-damages provision belongs to the fee owner of the condemned property alone.",
-        "The dispute arose after the Idaho Transportation Board condemned a portion of land owned by Triple Crown Development for a highway interchange project in Canyon County, part of the Third Judicial District. Triple Crown and the state stipulated to the value of the land itself, leaving only a separate claim for business damages to be litigated. That claim was pressed not just by Triple Crown but by a cluster of affiliated entities controlled by Thueson, including Thueson Construction, Inc., Americrete Ready Mix Concrete, Inc., Americrete Land Holding LLC, and River Rock Sand & Gravel LLC, all of which intervened in the condemnation case. Their theory rested on a planned but never-realized business: River Rock was to mine gravel from the condemned parcel, Thueson Construction would haul the material to a concrete plant operated by G&B Redi-Mix on Americrete's adjoining land, and the resulting output would supply Americrete's ready-mix operations. No mining permits were ever obtained, and no mining ever actually took place on the condemned property before the state took it.",
-        "The district court granted summary judgment against the business-damages claims, and the Idaho Supreme Court affirmed. The Court's reasoning turned on the structure of section 7-711(2) itself: the statute authorizes a business-damages award to compensate for injury to a business operating on the condemned property, but that remedy is tied to the property interest the claimant actually holds in the land being taken. Because the intervenor entities held no fee interest in the condemned parcel, Triple Crown alone did, they had no independent statutory basis to claim business damages regardless of how closely they were affiliated with Triple Crown or with each other through Thueson's common control. Triple Crown's own business-damages theory failed on the facts as well, since no mining business had ever actually been established or operated on the parcel the state took. The Court separately rejected the Transportation Board's request that Triple Crown and the intervenors pay its attorney fees, finding the appeal, while unsuccessful, was not frivolous, unreasonable, or without foundation.",
-        "The ruling is a useful marker for how narrowly Idaho courts will read a compensation statute that, on its face, protects \"business\" interests affected by a taking. Eminent domain compensation schemes generally distinguish between just compensation for the land itself, measured by fair market value, and supplemental remedies like business damages, relocation costs, or severance damages, which are typically available only to parties with a defined, existing legal or possessory interest in the specific property taken. Idaho's approach here confirms that commonly controlled corporate structures, common in many family- or founder-controlled development and construction operations, do not create a shared compensable interest simply because the businesses are economically interdependent or share ownership.",
-        "For property owners and business operators structuring multi-entity operations on adjoining or nearby parcels, particularly where land might someday be subject to eminent domain for public infrastructure, the case is a reminder to think carefully about how ownership and operating entities are aligned with the parcels a project might actually need, and that a prospective use never permitted or commenced is unlikely to support a business-damages claim even for the fee owner. The decision also shows that Idaho courts will not automatically award fees against a losing condemnee, leaving room for good-faith, if ultimately unsuccessful, challenges to a condemning authority's damages theory without exposing the challenger to a fee award."
+        "The Idaho Supreme Court has affirmed the dismissal of business-damages claims arising from the State of Idaho, Idaho Transportation Board's condemnation of part of Triple Crown Development, LLC's land in Canyon County for a highway interchange. The opinion, by Justice Colleen D. Zahn in Docket No. 52872-2025, was filed September 2, 2026; Mealey's reported on it September 14. The State and Triple Crown had stipulated to the value of the condemned land, and they also stipulated to let four companies intervene: Thueson Construction, Inc.; Americrete Ready Mix Concrete, Inc., which does business as G&B Redi-Mix; Americrete Land Holding LLC; and River Rock Sand & Gravel LLC. According to the opinion, Triple Crown and the intervenors are all controlled by the same person.",
+        "The claims rested on a plan to mine gravel from the condemned parcel. Americrete Land Holding owns land next to Triple Crown's property, and G&B runs a concrete plant there. According to the opinion, the plan was for River Rock to mine gravel on the condemned land and for Thueson Construction to haul it to the G&B plant, but no permits were obtained and mining never began. Canyon County District Judge Gene A. Petty granted the State summary judgment, finding no evidence that Triple Crown owned a business operating on the condemned property and that the intervenors did not do business on land Triple Crown owned.",
+        "On appeal, the companies argued that a joint venture among them, or their common owner, held a beneficial interest in both parcels and the businesses. The Court rejected that argument. Reading section 7-711(2) together with the rest of Idaho's eminent domain chapter, it held that \"owned\" means fee title ownership: a qualifying business must be owned by the fee owner of the condemned land, or must operate on adjoining land that fee owner also owns. Triple Crown did not own the intervenors' businesses, those businesses were not on the condemned property, and Americrete, not Triple Crown, holds title to the adjoining land. The Court found the ownership issue dispositive and did not reach the State's other arguments, and it distinguished an earlier decision involving a closely held corporation owned by the condemnee.",
+        "The State asked for attorney fees on appeal under Idaho Code section 12-117. The Court declined, finding that the companies' arguments were supported by legal authority and that the appeal was not frivolous, unreasonable or without foundation. Chief Justice Bevan and Justices Brody, Moeller and Meyer concurred."
       ],
       timeline: [
-        { when: "Canyon County, Idaho", label: "Idaho Transportation Board condemns a portion of Triple Crown Development's land for a highway interchange project" },
-        { when: "September 14, 2026", label: "Idaho Supreme Court affirms summary judgment against the business-damages claims and denies the state's request for attorney fees", current: true }
+        { when: "May 2026", label: "Idaho Supreme Court hears the appeal in its May 2026 term" },
+        { when: "September 2, 2026", label: "Idaho Supreme Court affirms dismissal of the business-damages claims and denies the State attorney fees on appeal", current: true }
       ],
       tags: ["eminent domain", "business damages", "idaho", "condemnation", "highway interchange"]
     },
@@ -6762,54 +6765,6 @@ const RELAW_DATA = {
       tags: ["zoning", "builders-remedy", "housing-law", "california", "mixed-use-development"]
     },
     {
-      id: "live-220",
-      seoTitle: "Atlantic City Hotel Price-Fixing Suit: Caesars, MGM Lose Bid",
-      seoDescription: "The Third Circuit denied rehearing in a suit alleging Caesars, MGM, Hard Rock and others used Cendyn's Rainmaker to align Atlantic City room rates.",
-      addedDate: "2026-10-04",
-      title: "Cornish-Adebiyi v. Caesars Entertainment, Inc. (Atlantic City Hotel-Casino Algorithmic Price-Fixing Antitrust Suit)",
-      brief: "The Third Circuit denied rehearing, keeping alive a class action claiming Caesars, MGM, Hard Rock and other Atlantic City casino-hotels used Cendyn's Rainmaker software to coordinate room rates.",
-      category: "landlord-tenant",
-      status: "appeal",
-      date: "2026-10-02",
-      jurisdiction: "U.S. Court of Appeals for the Third Circuit; U.S. District Court, District of New Jersey (Camden Vicinage)",
-      state: "NJ",
-      amount: "Putative consumer class action over room rates at 5 Atlantic City casino-hotels",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.mlex.com/mlex/antitrust/articles/2533478",
-      summary: "The Third Circuit denied a petition for rehearing en banc on October 2, 2026, leaving in place its July 29, 2026 ruling that revived a putative antitrust class action alleging Caesars Entertainment, MGM Resorts, Hard Rock, Tropicana, Borgata operator Marina District Development, and software vendor Cendyn Group used Cendyn's Rainmaker revenue-management platform to coordinate Atlantic City hotel room rates. The case, filed by a class of hotel guests, had been dismissed with prejudice by the district court in September 2024 before the Third Circuit reversed and remanded it for further proceedings.",
-      significance: "Extends the RealPage-style hub-and-spoke algorithmic pricing theory from multifamily rent-setting into hospitality room-rate pricing, giving plaintiffs a precedential circuit-court win they can cite against any commercial property sector that relies on shared, vendor-provided pricing software. The Third Circuit's approach also deepens a circuit split with the Ninth Circuit on a comparable Las Vegas pricing-algorithm case, meaning litigation risk for operators using shared revenue-management tools may now turn heavily on which circuit a case is filed in.",
-      body: [
-        "Atlantic City's largest casino-hotel operators have lost their bid to have the full U.S. Court of Appeals for the Third Circuit reconsider a decision that revived a price-fixing lawsuit over how they set hotel room rates. On October 2, 2026, the Third Circuit denied a petition for rehearing en banc in Cornish-Adebiyi v. Caesars Entertainment, Inc., leaving intact a July 29, 2026 panel ruling that reversed dismissal of the case and remanded it to the district court for further proceedings.",
-        "The case, filed in May 2023 in the U.S. District Court for the District of New Jersey, accuses Caesars Entertainment, Inc., Boardwalk Regency LLC, Harrah's Atlantic City Operating Company, LLC, Tropicana Atlantic City Corporation, MGM Resorts International, Marina District Development Company, LLC (operator of the Borgata Hotel Casino & Spa), Hard Rock International, Inc., Seminole Hard Rock Support Services, LLC, and Boardwalk 1000, LLC of conspiring to fix hotel room rates in violation of Section 1 of the Sherman Act. The alleged mechanism is Cendyn Group, LLC's Rainmaker revenue-management platform, which the complaint says collected non-public pricing and occupancy data from the participating casino-hotels and used it to generate room-rate recommendations the properties then adopted roughly 90% of the time, departing from a recommended price only through a documented internal override process.",
-        "A putative class of hotel guests who rented rooms at the defendant properties alleged the arrangement functioned as a hub-and-spoke conspiracy, with Cendyn's software as the hub coordinating pricing among casino-hotel spokes that would otherwise compete independently. U.S. District Judge Karen M. Williams dismissed the complaint with prejudice on September 30, 2024, holding that plaintiffs had not plausibly alleged the parallel pricing conduct or pooled proprietary data needed to distinguish lawful, independent use of a common vendor from an unlawful agreement to restrain trade.",
-        "On appeal, a Third Circuit panel of Circuit Judges Restrepo, McKee, and Smith disagreed. In a precedential opinion authored by Judge McKee, the panel held that the complaint's allegations, taken as true, plausibly supported a horizontal price-fixing conspiracy facilitated by the shared pricing algorithm, pointing in particular to the roughly 90% adoption rate of Rainmaker's recommendations combined with the exchange of competitively sensitive data through a common platform. Commentators have noted the ruling places the Third Circuit at odds with a Ninth Circuit decision reaching a different result in a comparable Las Vegas algorithmic-pricing case, deepening a circuit split over how courts treat shared revenue-management software under antitrust law.",
-        "With rehearing now denied, the case returns to the District of New Jersey for further proceedings on the merits, including discovery into how widely Rainmaker's recommendations were followed and what data flowed into the algorithm from each defendant. For owners and operators of any commercial property that prices space, rooms, or units using a shared or third-party algorithmic tool, the ruling is a reminder that legal risk in these arrangements turns less on whether the software itself is lawful and more on how much non-public, competitively sensitive data flows into it and how mechanically an operator follows its output -- and that, given the emerging circuit split, that risk can vary sharply depending on where a case is filed, making a now-routine antitrust audit of any revenue-management vendor relationship worth doing regardless of property type."
-      ],
-      judge: "Theodore A. McKee",
-      parties: [
-        { name: "Caesars Entertainment, Inc.", role: "Defendant" },
-        { name: "Boardwalk Regency LLC", role: "Defendant" },
-        { name: "Harrah's Atlantic City Operating Company, LLC", role: "Defendant" },
-        { name: "Tropicana Atlantic City Corporation", role: "Defendant" },
-        { name: "MGM Resorts International", role: "Defendant" },
-        { name: "Marina District Development Company, LLC", role: "Defendant" },
-        { name: "Hard Rock International, Inc.", role: "Defendant" },
-        { name: "Seminole Hard Rock Support Services, LLC", role: "Defendant" },
-        { name: "Boardwalk 1000, LLC", role: "Defendant" },
-        { name: "Cendyn Group, LLC", role: "Defendant" }
-      ],
-      timeline: [
-        { when: "May 9, 2023", label: "Putative class of hotel guests files suit in the District of New Jersey" },
-        { when: "September 30, 2024", label: "District court dismisses the complaint with prejudice" },
-        { when: "July 29, 2026", label: "Third Circuit reverses dismissal and remands the case" },
-        { when: "October 2, 2026", label: "Third Circuit denies rehearing en banc, leaving the revival in place", current: true }
-      ],
-      tags: ["antitrust", "hub-and-spoke", "algorithmic-pricing", "hospitality", "cendyn"],
-      docketUrl: "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-      docketLabel: "CourtListener docket"
-    },
-    {
       id: "live-221",
       seoTitle: "Addison Ice Arena: Receiver Appointed in $9.5M Foreclosure",
       seoDescription: "A DuPage County judge put Addison Ice Arena into receivership in Republic Bank of Chicago's $9.5 million foreclosure alleging diverted rink revenue.",
@@ -6939,83 +6894,90 @@ const RELAW_DATA = {
     {
       id: "live-224",
       seoTitle: "Reserve Square Cleveland: City Seeks to Join Fannie Mae Case",
-      seoDescription: "Cleveland moved to intervene in Fannie Mae's foreclosure of K&D Group's Reserve Square, citing 19 open code-violation notices at the downtown tower.",
-      property: {"name": "Reserve Square", "address": "1701 E. 12th Street", "city": "Cleveland", "state": "OH"},
+      seoDescription: "Cleveland moved to intervene in Fannie Mae's federal foreclosure case over Reserve Square, citing 19 open code-violation notices at the downtown complex.",
+      property: {"name": "Reserve Square", "city": "Cleveland", "state": "OH"},
       addedDate: "2026-10-06",
       featured: true,
       title: "Federal National Mortgage Association v. Reserve Apartments, Ltd. (Reserve Square Foreclosure — City of Cleveland Intervention)",
-      brief: "Cleveland moved to intervene in Fannie Mae's foreclosure of Reserve Square, downtown's largest apartment complex, over more than $78 million owed, citing 19 open code-violation notices.",
+      brief: "Cleveland moved to intervene in Fannie Mae's federal foreclosure case over downtown's Reserve Square apartments, saying the receiver isn't fixing 19 open code-violation notices, News 5 Cleveland reported.",
       category: "lending-foreclosure",
       status: "pending",
-      date: "2026-09-29",
+      date: "2026-09-28",
       jurisdiction: "U.S. District Court, Northern District of Ohio",
       state: "OH",
       propertyType: "Multifamily",
-      amount: "$78M+ defaulted mortgage",
+      amount: "More than $78 million in unpaid principal, interest and fees",
       amountUsd: 78000000,
       amountBasis: "loan",
       source: "live",
       sourceUrl: "https://www.news5cleveland.com/news/local-news/cleveland-tries-to-intervene-in-reserve-square-foreclosure-case-with-property-up-for-sale",
-      summary: "The City of Cleveland moved in late September 2026 to intervene in Fannie Mae's federal foreclosure case against Reserve Apartments, Ltd. and owner K&D Group over Reserve Square, downtown Cleveland's largest apartment complex, which defaulted on a mortgage carrying more than $78 million in principal, interest and costs after occupancy collapsed. The city argues the court-appointed receiver has not adequately addressed 19 open code-violation notices covering 52 issues, including elevator outages, water intrusion and parking-garage deterioration, and wants a voice in the case before any sale is approved.",
-      significance: "Shows cities increasingly seeking party status directly in federal foreclosure dockets, rather than relying solely on separate municipal code enforcement, to keep repair obligations attached to a distressed asset through a receivership sale. Lenders and prospective buyers of distressed multifamily assets should expect municipalities to press for enforceable repair conditions before a court approves a transfer, and should stress-test occupancy assumptions for assets with a concentrated, narrow tenant base.",
+      summary: "The City of Cleveland moved on September 28, 2026 to intervene in Fannie Mae's foreclosure case over Reserve Square, a downtown apartment complex, in the U.S. District Court for the Northern District of Ohio, News 5 Cleveland reported. The city says the property is a public nuisance and that the court-appointed receiver is not doing enough about 19 open violation notices covering dozens of issues, including elevator outages, water damage and garage deterioration. Fannie Mae sued in July 2025 over more than $78 million in unpaid principal, interest and fees, and the docket shows the court entered a consent foreclosure judgment in April 2026 while the receivership continues and the property is marketed for sale.",
+      significance: "The city is asking to be heard in the federal receivership itself, where the court controls the sale, rather than relying only on separate code enforcement. Its law director said the goal is to have every violation fixed and to keep future owners from neglecting the building.",
       body: [
-        "The City of Cleveland has asked a federal judge for a seat at the table in a foreclosure case it is not a party to, filing a motion in late September 2026 to intervene in Federal National Mortgage Association v. Reserve Apartments, Ltd., the foreclosure action pending in the U.S. District Court for the Northern District of Ohio over Reserve Square, downtown Cleveland's largest apartment complex. Lawyers for Mayor Justin Bibb's administration argue that the receiver appointed to run the 23-story, roughly 1-million-square-foot tower at 1701 E. 12th Street is not moving quickly enough on dozens of outstanding code violations, and want the court to ensure those issues are addressed regardless of what happens to the property next.",
-        "The underlying case is a commercial mortgage default. Fannie Mae sued in July 2025 after Willoughby-based owner K&D Group failed to pay off or refinance a mortgage that had matured carrying more than $78 million in principal, interest, and other costs. The default followed a steep occupancy collapse tied largely to the loss of international-student tenants, a population K&D has said was affected by federal immigration-policy shifts; occupancy fell from roughly 93% in 2024 as more than 400 units turned over within months. By August 2025, K&D had ceded day-to-day control to a court-appointed receiver, Andrew Hayman of the Southfield, Michigan-based Hayman Company, tasked with stabilizing the asset and shepherding it toward a sale. Judge Bridget Meehan Brennan is presiding. The property, now reported to be roughly 80% vacant, remains listed for sale.",
-        "What makes the filing significant beyond Cleveland is the legal mechanism the city chose. Rather than pursuing enforcement solely through municipal housing court, a venue that can be slow against a property already in receivership, the city is seeking to intervene directly in the federal foreclosure docket. City lawyers point to 19 open violation notices covering 52 distinct issues, including elevator outages, water intrusion, and parking-garage deterioration, arguing the receiver has not adequately addressed them. The relief sought is narrow but consequential: give the city standing to be heard before the court approves any transfer of the property, so a sale cannot pass the building, and its violations, to a new owner without those issues being confronted first.",
-        "For commercial property owners and their lenders, the filing underscores that a receivership does not insulate a distressed asset from municipal oversight, and that cities are increasingly willing to seek party status in federal proceedings rather than wait for separate state-court code enforcement to run its course. A receiver's mandate to preserve asset value for creditors is not always aligned with the capital-intensive repairs a municipality wants prioritized; intervention lets a city argue directly to the supervising judge that life-safety and habitability issues deserve priority alongside, or even ahead of, a clean sale process. If the court grants intervention, it could also shape how a buyer underwrites the deal, since any purchaser would need to factor in enforceable repair obligations rather than inheriting a distressed building free of that overhang.",
-        "The case is also a reminder of how quickly a concentrated tenant base can turn a high-occupancy asset into a rapid default once that tenant pool evaporates. Lenders underwriting multifamily loans secured by properties with a narrow, concentrated tenant base — international students, a single corporate tenant, or another university-adjacent population — should treat this case as evidence of how fast occupancy, and debt-service coverage with it, can collapse when that source dries up, and should build that concentration risk into their underwriting and loan-covenant structures rather than treating a high historical occupancy rate as a durable baseline. A receiver and lender group facing municipal intervention should also expect the process to add time and cost to an otherwise straightforward distressed-asset sale, since resolving or accommodating code-violation conditions before a court-approved transfer can delay closing beyond what a purely creditor-driven sale timeline would anticipate."
+        "The City of Cleveland has asked to join Fannie Mae's federal foreclosure case over Reserve Square, News 5 Cleveland reported. The motion to intervene was filed September 28, 2026 in Fannie Mae v. Reserve Apartments, Ltd., No. 1:25-cv-01510 in the Northern District of Ohio, before Judge Bridget Meehan Brennan, according to the docket. The city says the property is a public nuisance and that the receiver is not doing enough about 19 open violation notices covering dozens of issues, including elevator outages, water damage and parking-garage deterioration. \"We were patient for a long time,\" Law Director Mark Griffin told News 5, adding that the city \"felt that we had to step in.\" It wants every violation fixed, the current owner held accountable and future owners kept from neglecting the building. A city spokesman said demolition is not being considered at this time.",
+        "Reserve Square covers a downtown block off East 12th Street between Chester and Superior avenues, with 975 apartments in two 1970s towers, a garage of nearly 1,000 spaces and about 220,000 square feet of commercial space, News 5 reported. It is about 80% vacant. Fannie Mae began the foreclosure in July 2025 over more than $78 million in unpaid principal, interest and fees, and the owner, an affiliate of Willoughby-based K&D Group, cooperated; K&D's CEO blamed a vacancy surge tied to federal immigration policy changes and the loss of international students for making refinancing impossible. The Michigan-based Hayman Company took over as receiver in August 2025.",
+        "The docket shows the court entered an in rem judgment and judgment in mortgage foreclosure on consent on April 14, 2026, and later confirmed that the receivership remains in place. After a February 2026 letter of concern from the city, the court ordered the receiver to file weekly status reports. The receiver's reports describe removing squatters, treating bedbugs, new cleaning and security crews, and contractors working on water damage and elevators, according to News 5. The property is listed for sale with Institutional Property Advisors, part of Marcus & Millichap, with no asking price. The receiver did not respond to News 5's requests for comment."
       ],
       judge: "Bridget Meehan Brennan",
       parties: [
         { name: "Federal National Mortgage Association", role: "Plaintiff/Lender" },
         { name: "Reserve Apartments, Ltd.", role: "Defendant/Borrower" },
-        { name: "K&D Group", role: "Defendant/Owner" },
-        { name: "City of Cleveland", role: "Intervenor" }
+        { name: "Reserve Square Apartments, Ltd.", role: "Defendant" },
+        { name: "Cuyahoga County Fiscal Officer", role: "Defendant" },
+        { name: "City of Cleveland", role: "Proposed intervenor" }
       ],
       timeline: [
-        { when: "July 21, 2025", label: "Fannie Mae sues Reserve Apartments, Ltd. and K&D Group in federal court after the $78 million mortgage on Reserve Square matures unpaid" },
-        { when: "August 2025", label: "K&D Group cedes control of the property to court-appointed receiver Andrew Hayman" },
-        { when: "September 29, 2026", label: "City of Cleveland moves to intervene, citing 19 open code-violation notices covering 52 issues", current: true }
+        { when: "July 21, 2025", label: "Fannie Mae files foreclosure suit and an agreed motion to appoint a receiver" },
+        { when: "August 14, 2025", label: "Court appoints the Hayman Company as receiver" },
+        { when: "February 12, 2026", label: "After a letter from the City of Cleveland, the court orders the receiver to file weekly status reports" },
+        { when: "April 14, 2026", label: "Court enters a consent in rem judgment and judgment in mortgage foreclosure; the receivership remains in place" },
+        { when: "September 28, 2026", label: "City of Cleveland moves to intervene, citing 19 open code-violation notices", current: true }
       ],
-      tags: ["foreclosure", "multifamily", "municipal-intervention", "receivership", "code-enforcement"]
+      tags: ["foreclosure", "multifamily", "municipal-intervention", "receivership", "code-enforcement"],
+      docketUrl: "https://www.courtlistener.com/docket/70867976/fannie-mae-v-reserve-apartments-ltd/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-226",
       seoTitle: "Simon Property Group Antitrust Suit Over Penn Square Mall Rival",
-      seoDescription: "Developers of OAK in Oklahoma City sued Simon Property Group, alleging it tied national lease terms to steer tenants away from OAK to Penn Square Mall.",
+      seoDescription: "OAK's developers sued Simon Property Group, alleging it used leases at other malls to steer tenants to Penn Square Mall. Simon calls the suit meritless.",
       addedDate: "2026-10-06",
       title: "Oak Land and Development LLC v. Simon Property Group Inc. (Penn Square Mall Antitrust Tying Suit)",
-      brief: "Developers of Oklahoma City's OAK project sued Simon Property Group, alleging it tied national lease terms to tenants avoiding OAK to protect Penn Square Mall; Simon's dismissal motion is pending.",
+      brief: "Developers of Oklahoma City's OAK project sued Simon Property Group, alleging it tied lease deals elsewhere to steering tenants to Penn Square Mall; Simon calls the suit meritless and has moved to dismiss.",
       category: "lease-disputes",
       status: "pending",
-      date: "2025-12-03",
+      date: "2025-12-02",
       jurisdiction: "U.S. District Court, Western District of Oklahoma",
       state: "OK",
-      amount: "Unspecified damages and injunctive relief sought over alleged antitrust tying",
+      amount: "Unspecified damages sought over alleged antitrust tying; jury demanded",
       amountUsd: null,
       source: "live",
       sourceUrl: "https://www.news9.com/oklahoma-city-news/oak-developers-sue-penn-square-mall-owner-antitrust-claims",
-      summary: "Oak Land and Development LLC and other developers of OAK, a competing Oklahoma City mixed-use retail project, sued Simon Property Group in December 2025 in the U.S. District Court for the Western District of Oklahoma, alleging Simon illegally tied favorable lease terms across its national mall portfolio to tenants' agreement to avoid leasing space at OAK. The complaint alleges Simon used this leverage, plus direct threats and incentives, to block prospective tenants including restaurant chain North Italia from opening at OAK in favor of Simon's nearby Penn Square Mall. Simon has called the suit meritless and, in June 2026, moved to dismiss the amended complaint as an improper attempt to use antitrust law to shield OAK from ordinary competition; the motion remains pending.",
-      significance: "The case tests whether a dominant landlord's national portfolio leverage -- rather than any single lease term -- can itself support Sherman Act tying liability, a theory with particular relevance for REITs and mall owners with multi-market footprints. A ruling allowing the claims to proceed would signal materially higher antitrust exposure for large landlords using cross-portfolio concessions to influence tenant decisions in contested local submarkets.",
+      summary: "The owners and developers of OAK, a mixed-use project across the street from Penn Square Mall in Oklahoma City, sued Simon Property Group on December 2, 2025 in the U.S. District Court for the Western District of Oklahoma, News 9 reported. They allege Simon used threats involving leases at its properties in other cities to steer tenants to Penn Square or away from OAK, an illegal tying arrangement under the Sherman Act and Oklahoma law. Simon has called the suit \"meritless and fictional,\" and on June 2, 2026 it moved to dismiss the second amended complaint; the motion was fully briefed in August 2026.",
+      significance: "The case tests whether a landlord's leverage across its national portfolio can support an antitrust tying claim in a single local leasing market. Simon argues that offering package deals on properties in other locations is ordinary competition, not an antitrust violation.",
       body: [
-        "A federal antitrust case pending in the Western District of Oklahoma is shaping up as a significant test of how far a dominant mall owner can go in using its national real estate portfolio to pressure retailers away from a competing project. In Oak Land and Development LLC, et al. v. Simon Property Group Inc., et al., Case No. 5:25-cv-01444, a group of Oklahoma City developers accuses Simon Property Group -- the nation's largest owner of shopping malls and premium outlet centers -- of illegally tying favorable lease terms across its national property portfolio to a tenant's agreement to avoid leasing space at a rival mixed-use development. With Simon's motion to dismiss the amended complaint now before U.S. District Judge Patrick R. Wyrick, the case tests whether ordinary competitive hardball crosses into antitrust liability once a landlord's market power is large enough.",
-        "Oak Land and Development LLC, joined by Veritas Development and other affiliated plaintiffs, filed suit in December 2025 to stop what the complaint calls an anticompetitive campaign by Simon Property Group and its chairman and chief executive to destroy OAK, a new lifestyle retail and mixed-use project the plaintiffs are developing in Oklahoma City. OAK competes directly with Simon's nearby Penn Square Mall, long an anchor of Oklahoma City retail.",
-        "The complaint's core theory is illegal tying under Section 1 of the Sherman Act. According to the plaintiffs, Simon leverages its coast-to-coast portfolio of malls and outlet centers to offer prospective tenants preferential terms -- discounted rent, favorable co-tenancy clauses, or other concessions across unrelated Simon properties -- conditioned on the tenant either leasing space at Penn Square or declining to lease space at any competing Oklahoma City shopping center, including OAK. The plaintiffs allege Simon used this leverage, along with direct threats and incentives, to block at least three prospective tenants from signing leases at OAK, most notably the upscale restaurant chain North Italia, which the complaint says was induced to choose a Simon-controlled location instead.",
-        "Simon Property Group has publicly called the suit meritless and fictional, and has pushed back hard in the litigation itself. In June 2026, Simon moved to dismiss the amended complaint, arguing that Oak Land is attempting to use antitrust law to shield itself from ordinary competition. Simon's position is that offering better lease terms to attract or retain tenants, even terms tied to a tenant's decision not to locate at a nearby competitor, reflects the procompetitive result of vigorous competition for tenants rather than an antitrust injury the Sherman Act was designed to remedy. As of this writing, Judge Wyrick has not ruled on the motion, and no trial date has been set; the plaintiffs have demanded a jury.",
-        "Tying claims are not new to antitrust law, but they are relatively uncommon in the context of commercial leasing, where bundling typically takes the form of portfolio-wide pricing or co-tenancy concessions rather than a single tied product. What makes this case notable for the commercial real estate industry is the premise that a landlord's size and geographic reach -- rather than any single lease term -- can itself be the instrument of anticompetitive conduct. If the court allows the claims to proceed past the pleading stage, the decision would signal that mall owners and other large landlords with national or regional footprints face a meaningfully different, and potentially higher, antitrust exposure than single-market landlords when they use portfolio-wide leverage to influence a tenant's decisions in a specific, contested submarket. The case also sits alongside a broader pattern of antitrust scrutiny of real estate and hospitality pricing practices, including recent litigation over algorithmic rent-setting software in the multifamily and hospitality sectors, suggesting courts and plaintiffs' counsel are increasingly willing to treat large, cross-market real estate ownership itself as a potential antitrust lever, not just a business efficiency.",
-        "For REITs, mall owners, and other landlords with multi-property portfolios, the case is worth tracking closely regardless of its outcome. Lease negotiations that explicitly or implicitly condition portfolio-wide concessions on a tenant avoiding a competing project deserve antitrust counsel's review before they are offered, particularly where the landlord holds significant market share in the relevant submarket, and internal communications describing competitive strategy toward a specific rival development -- especially language framing a goal as blocking or destroying a competitor rather than simply winning tenants on the merits -- can become central exhibits in litigation like this one. Developers facing similar pressure from a dominant competitor, meanwhile, would do well to document specific instances where a landlord's portfolio-wide leverage, rather than ordinary price or amenity competition, appears to have induced a prospective tenant to walk away, since that kind of granular factual record is precisely what carried the Oak Land plaintiffs' tying theory past Simon's initial dismissal arguments and into the current, more developed motion practice."
+        "Oak Land and Development LLC, Veritas Development LLC and six other entities that own and operate OAK, a retail and mixed-use development in Oklahoma City, sued Simon Property Group, Inc., Simon Property Group, L.P. and the Penn Square Mall entity on December 2, 2025 in the U.S. District Court for the Western District of Oklahoma (No. 5:25-cv-01444), according to the docket. News 9 reported the suit the next day. The two properties sit across the street from each other at North Pennsylvania Avenue and Northwest Expressway. The case is assigned to U.S. District Judge Patrick R. Wyrick, and the plaintiffs have demanded a jury.",
+        "The plaintiffs allege Simon worked \"to destroy\" OAK by using threats or inducements involving leases at Simon properties in other cities to coerce tenants into locating at Penn Square or forgoing OAK. They describe the conduct as \"a classic 'tying' arrangement\" and bring claims under Sections 1 and 2 of the Sherman Act, the Oklahoma Antitrust Reform Act and for tortious interference. According to Simon's motion summarizing the complaint, the tenants at issue include the restaurant chain North Italia, which opened at Penn Square instead, and the retailers Alo and Aritzia. The plaintiffs amended their complaint twice, and in April 2026 they voluntarily dismissed Simon's former chief executive, David Simon, as a defendant.",
+        "A Simon spokesperson told News 9 that the suit is \"meritless and fictional\" and that Simon plans to keep bringing new tenants to Penn Square. In its June 2, 2026 motion to dismiss the second amended complaint, Simon argues the plaintiffs fail to define the tying markets or show market power, that the alleged threats lack basic detail, that a few tenants choosing Penn Square is not substantial foreclosure, and that OAK, as a competitor, lacks antitrust standing. The motion notes that OAK has won national tenants, including some that left Penn Square. The plaintiffs filed their opposition in July and Simon replied in August 2026; the court has not ruled."
       ],
       judge: "Patrick R. Wyrick",
       parties: [
         { name: "Oak Land and Development LLC", role: "Plaintiff/Developer" },
-        { name: "Veritas Development", role: "Plaintiff/Developer" },
-        { name: "Simon Property Group Inc.", role: "Defendant" }
+        { name: "Veritas Development LLC", role: "Plaintiff/Developer" },
+        { name: "Simon Property Group, Inc.", role: "Defendant" },
+        { name: "Simon Property Group, L.P.", role: "Defendant" },
+        { name: "Penn Square Mall, LLC", role: "Defendant" }
       ],
       timeline: [
-        { when: "December 3, 2025", label: "Oak Land and Development LLC and affiliated plaintiffs sue Simon Property Group in the Western District of Oklahoma" },
-        { when: "June 2026", label: "Simon Property Group moves to dismiss the amended antitrust complaint", current: true }
+        { when: "December 2, 2025", label: "OAK's owners and developers sue Simon Property Group in the Western District of Oklahoma" },
+        { when: "February 19, 2026", label: "Simon moves to dismiss the first amended complaint" },
+        { when: "April 2, 2026", label: "Plaintiffs file a second amended complaint" },
+        { when: "June 2, 2026", label: "Simon moves to dismiss the second amended complaint" },
+        { when: "August 18, 2026", label: "Simon files its reply; the motion to dismiss is fully briefed", current: true }
       ],
-      tags: ["antitrust", "tying", "shopping-mall", "oklahoma", "simon-property-group"]
+      tags: ["antitrust", "tying", "shopping-mall", "oklahoma", "simon-property-group"],
+      docketUrl: "https://www.courtlistener.com/docket/71982156/oak-land-and-development-llc-v-simon-property-group-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-228",
@@ -7098,10 +7060,10 @@ const RELAW_DATA = {
     {
       id: "live-230",
       seoTitle: "Eagan, Minnesota Data Center Moratorium Suit by Eagan Capital",
-      seoDescription: "Eagan Capital sued the City of Eagan, arguing it lacked authority for a one-year moratorium on data centers over 20 megawatts within 500 feet of homes.",
+      seoDescription: "Eagan Capital sued the City of Eagan, Minn., saying it lacks authority for a one-year pause on data centers over 20 megawatts near homes, MPR News reported.",
       addedDate: "2026-10-07",
       title: "Eagan Capital v. City of Eagan (Minnesota Data Center Moratorium Challenge)",
-      brief: "Eagan Capital seeks $50,000 from Eagan, Minnesota, arguing state utility regulators, not the city, control power demand, so its one-year moratorium on 20-plus-megawatt data centers is invalid.",
+      brief: "Data center owner Eagan Capital sued Eagan, Minnesota for $50,000, arguing state utility regulators, not the city, control electricity demand, so its one-year data center moratorium is invalid, MPR News reported.",
       category: "zoning-land-use",
       status: "filed",
       date: "2026-06-15",
@@ -7112,14 +7074,11 @@ const RELAW_DATA = {
       amountBasis: "damages sought",
       source: "live",
       sourceUrl: "https://www.mprnews.org/story/2026/07/07/city-of-eagan-faces-lawsuit-over-data-center-moratorium",
-      summary: "Eagan Capital sued the City of Eagan, Minnesota, alleging the city lacked authority to enact a one-year moratorium, adopted in February 2026, on new or expanded data centers using more than 20 megawatts of electricity within 500 feet of homes. The complaint, filed June 15, 2026, argues the Minnesota Public Utilities Commission has exclusive authority to regulate electricity demand in the state and seeks $50,000 in damages; the city has said it separately denied the company an interim use permit after unpermitted trailer-mounted chiller units were installed and operated at the site.",
-      significance: "The suit is part of a wave of litigation nationally over local moratoria aimed at data centers' outsized electricity and land-use footprint, testing whether cities can regulate data center development directly or whether that authority is preempted by state utility regulators. A ruling curbing municipal moratorium power would materially affect how data center developers site large power-intensive projects near residential areas in jurisdictions without existing zoning frameworks for the use.",
+      summary: "Data center owner Eagan Capital sued the City of Eagan, Minnesota in a complaint filed June 15, 2026, arguing the city lacked authority to adopt its February 2026 one-year moratorium on data centers using more than 20 megawatts of electricity within 500 feet of homes, MPR News reported. The complaint says the Minnesota Public Utilities Commission has exclusive authority over electricity demand in the state and seeks $50,000. The city says it will vigorously defend the moratorium and that it denied the company an interim use permit after unpermitted trailer-mounted chillers were installed and operated at the site.",
+      significance: "The suit tests whether a Minnesota city can pause data center development based on electricity use, or whether that is a matter for state utility regulators. Eagan was the first Minnesota city to impose a hard pause on data centers, according to MPR News.",
       body: [
-        "A Minnesota data center developer has sued the City of Eagan over a one-year moratorium the city adopted in February 2026 on new or expanded data centers that would draw more than 20 megawatts of electricity within 500 feet of homes, arguing the city lacks the legal authority to impose the pause at all. The lawsuit, filed by Eagan Capital on June 15, 2026 in Dakota County District Court, is part of a broader pattern of Minnesota communities pushing back against data center development through zoning and moratorium tools.",
-        "Eagan Capital's central legal argument is one of preemption: the complaint contends that the Minnesota Public Utilities Commission holds exclusive authority to regulate electricity demand in the state, and that a city moratorium aimed specifically at large electricity-consuming data center uses intrudes on that state-level regulatory domain rather than exercising ordinary local land-use authority. The company is seeking $50,000 in damages alongside relief striking down the moratorium.",
-        "The City of Eagan has pushed back on the company's underlying conduct, telling Minnesota Public Radio that it denied Eagan Capital an interim use permit after city staff discovered that temporary, trailer-mounted chiller units tied to the data center use had been installed and placed into operation without the required permits -- suggesting the dispute may also turn on whether the company's own pre-moratorium conduct undercuts its claim to a vested right to proceed.",
-        "The case sits within a fast-growing body of data center siting litigation nationally, as the sector's enormous power demands increasingly collide with residential proximity concerns, grid capacity constraints, and municipalities' desire to control where and how quickly such facilities are built. Minnesota communities beyond Eagan have adopted or considered similar pauses, making this case an early test of how much local regulatory room exists once a state utility commission's jurisdiction over electricity demand is invoked as a preemption defense against local zoning control.",
-        "Developers and investors in data center projects should treat municipal electricity-focused moratoria as a distinct and separately challengeable category of local regulation from conventional zoning moratoria, and should document compliance with permitting requirements for any interim equipment -- such as temporary chillers -- before a dispute over a project's vested rights arises, since the city's permitting objection here could end up mattering as much to the outcome as the preemption question itself. Utilities and regulators watching the preemption theory should also expect it to be tested in other states as data center moratoria proliferate, given how directly it could reshape which level of government controls siting decisions for high-power-demand uses."
+        "Eagan Capital, a data center owner, has sued the City of Eagan over the one-year moratorium the city adopted in February 2026 on development projects that would use more than 20 megawatts of electricity within 500 feet of homes, MPR News reported on July 7, 2026. The complaint, filed June 15, argues the city has no authority to regulate electricity and quotes the Minnesota Public Utilities Commission's \"exclusive authority to regulate electricity demand in Minnesota.\" The company seeks $50,000 in damages. According to MPR News, Eagan was the first Minnesota city to impose a hard pause on data centers, and the moratorium does not appear to affect the city's two existing data centers.",
+        "The city told MPR News that it denied Eagan Capital an interim use permit after staff found temporary trailer-mounted chiller units had been installed and operated without required permits, and that the City Council denied the permit in May because the proposed use was not lawful under the property's current zoning. The city said it is \"confident in its position\" and will vigorously defend the moratorium."
       ],
       judge: null,
       parties: [
@@ -8081,10 +8040,10 @@ const RELAW_DATA = {
     {
       id: "live-271",
       seoTitle: "Starwood Mortgage Capital Sued to Repurchase $46.85M CMBS Loan",
-      seoDescription: "The BMO 2024-5C5 CMBS trustee says Starwood Mortgage Capital sold it a $46.85 million loan on two Harris County, Texas properties that wasn't a first lien.",
+      seoDescription: "A CMBS trustee says Starwood Mortgage Capital sold it a $46.85M loan on two Harris County, Texas properties that was not a first lien, and seeks repurchase.",
       addedDate: "2026-10-13",
       title: "Computershare Trust (BMO 2024-5C5) v. Starwood Mortgage Capital: $46.85M CMBS Loan Repurchase Suit Removed to Federal Court Over Undisclosed Senior Lien",
-      brief: "A CMBS trust sued Starwood Mortgage Capital to force repurchase of a $46.85 million loan on two Harris County, Texas properties, alleging an undisclosed senior lien was foreclosed and wiped out its collateral.",
+      brief: "A CMBS trustee sued Starwood Mortgage Capital to force repurchase of a $46.85M loan on two Harris County, Texas properties, alleging an earlier-recorded deed of trust was foreclosed and wiped out its lien.",
       category: "lending-foreclosure",
       status: "pending",
       date: "2026-10-09",
@@ -8093,15 +8052,13 @@ const RELAW_DATA = {
       amount: "$46.85 million mortgage loan",
       source: "live",
       sourceUrl: "https://www.mpamag.com/us/specialty/commercial/trust-sues-starwood-over-4685m-loan-with-hidden-lien/593173",
-      summary: "On October 9, 2026, Starwood Mortgage Capital LLC removed to Manhattan federal court a suit by the trustee of the BMO 2024-5C5 CMBS trust. The trust says Starwood sold it a $46.85 million loan on two Harris County, Texas properties, The Pointe and Oak Shadows, that was never a first lien. A previously recorded $27.6 million deed of trust held by Thistle Creek Partners, LP was allegedly foreclosed, wiping out the trust's collateral. The trust wants Starwood to repurchase the loan or pay at least the repurchase price.",
-      significance: "This is the second rep-and-warranty repurchase suit against the Starwood Property Trust conduit lender this year. The claim is basic: the loan was represented as a first lien, and the trust says it wasn't. Loan sellers face repurchase risk when title and lien-priority diligence fails. CMBS holders and special servicers can see how a Material Defect claim moves from demand letter to litigation.",
+      summary: "Computershare Trust Company, as trustee for the BMO 2024-5C5 Mortgage Trust, sued Starwood Mortgage Capital LLC in New York state court on September 4, 2026, and Starwood removed the case to the Southern District of New York on October 9, Mortgage Professional America reported. The trust says Starwood sold it a $46.85 million loan on The Pointe and Oak Shadows in Harris County, Texas, represented as a first lien, although a $27.601 million deed of trust held by Thistle Creek Partners, LP was already recorded. It alleges Thistle Creek foreclosed and wiped out the trust's liens, and it seeks repurchase or damages of at least the repurchase price.",
+      significance: "The trust's claim rests on a recorded senior lien that, it says, Starwood's lien-priority representations did not account for. Starwood's own SEC repurchase report lists the demand as in dispute, and the same report shows a second pending repurchase suit against Starwood Mortgage Capital filed in March 2026.",
       body: [
-        "On October 9, 2026, Starwood Mortgage Capital LLC filed a notice removing a breach-of-contract suit from New York Supreme Court, New York County (Index No. 655096/2026), to the U.S. District Court for the Southern District of New York, where it is No. 1:26-cv-08961. The plaintiff is Computershare Trust Company, National Association, suing as trustee for the holders of the BMO 2024-5C5 Mortgage Trust certificates. The trustee filed the complaint in state court on September 4, 2026. Starwood's corporate disclosure statement names Starwood Property Trust, Inc. as its parent. The federal case is based on diversity jurisdiction.",
-        "The dispute concerns a $46,850,000 commercial mortgage loan that Starwood originated in April 2024 and sold into the trust. The loan was secured by two properties in Harris County, Texas, known as The Pointe and Oak Shadows. In the mortgage loan purchase agreement, the complaint says, Starwood represented that the deed of trust was a valid first lien, that no senior mortgage liens existed, and that the loan documents were enforceable and gave the lender workable remedies.",
-        "The trust says none of that was true. According to the complaint as reported by Mortgage Professional, Thistle Creek Partners, LP already held a recorded $27,601,000 deed of trust on the properties before Starwood made its loan. Thistle Creek later foreclosed under its Texas power of sale and took title through one or more affiliates, and the complaint says that foreclosure eliminated the trust's lien. Special servicer CWCapital Asset Management LLC classified the breaches as a Material Defect and sent a demand on or about May 26, 2026, giving Starwood 90 days to cure, repurchase or substitute the loan. The trust says Starwood did none of those things.",
-        "Starwood's own SEC filings confirm the demand. A Form ABS-15G repurchase report filed by Starwood Mortgage Capital lists the May 26, 2026 letter from CWCapital on The Pointe and Oak Shadows loan in the BMO 2024-5C5 deal. It shows a reported balance of about $33.4 million, 3.3% of that pool, and states that the cure period had not run and that Starwood was reviewing the letter. The same report shows a separate pending repurchase fight over a $54.5 million loan in the BBCMS 2023-C19 trust, which a trustee took to the Southern District of New York in March 2026.",
-        "The trust seeks an order compelling repurchase or substitution, damages of no less than the contractual purchase price, and attorneys' fees, costs and interest. Starwood has appeared through counsel but has not answered. No judge was identified in the sources reviewed. Now that the case is in federal court, the likely early issues are whether the lien-priority representations were breached as written, whether repurchase is the trust's sole remedy, and how the purchase price should be calculated.",
-        "For loan sellers, the case shows that a rep-and-warranty claim can rest on a recorded senior lien, which leaves little factual room to argue. Originators should confirm that title commitments and payoff or subordination documents actually clear every recorded deed of trust before closing and securitizing a loan. Certificate holders and special servicers can follow the procedure here: a documented Material Defect finding, a formal 90-day demand, then suit. CMBS investors should note how quickly a hidden senior lien and a foreclosure can leave a loan with no collateral."
+        "Computershare Trust Company, National Association, as trustee for the holders of the BMO 2024-5C5 Mortgage Trust certificates, filed a breach-of-contract suit against Starwood Mortgage Capital LLC in the Supreme Court of New York, New York County, on September 4, 2026, Mortgage Professional America reported. Starwood removed it to the U.S. District Court for the Southern District of New York on October 9, 2026. The federal docket lists the state index number as 655096/2026 and the federal case as No. 1:26-cv-08961, assigned to Judge Edgardo Ramos. Starwood's disclosure statement names Starwood Property Trust, Inc. as its parent.",
+        "According to the complaint as reported, Starwood originated a $46.85 million commercial mortgage loan in April 2024 on two Harris County, Texas properties, The Pointe and Oak Shadows, and sold it into the trust. The trust says Starwood represented that the deed of trust was a valid first lien, that no senior mortgage liens existed, and that the loan documents were enforceable and gave the lender adequate remedies. It alleges that Thistle Creek Partners, LP already held a recorded $27.601 million deed of trust on the properties, that Thistle Creek later foreclosed under Texas law and took title through one or more affiliates, and that the foreclosure wiped out the trust's liens.",
+        "Special servicer CWCapital Asset Management LLC found a Material Defect and sent a repurchase demand on or about May 26, 2026, giving Starwood 90 days to cure, repurchase or substitute the loan; the trust says Starwood did none of these. It seeks an order compelling repurchase or substitution, damages of no less than the purchase price, attorneys' fees, costs and interest. Starwood's November 12, 2026 Form ABS-15G repurchase report lists the CWCapital demand on the loan, with a reported balance of about $33.4 million or 3.3% of the pool, as in dispute. The same report lists a separate disputed demand on a $54.5 million loan in the BBCMS 2023-C19 trust, over which a trustee sued Starwood in the Southern District of New York on March 2, 2026.",
+        "The article reports no response from Starwood beyond the removal. The federal docket shows the court extended Starwood's deadline to respond to the complaint to October 29, 2026. The allegations have not been tested in court."
       ],
       tags: ["cmbs", "repurchase", "rep and warranty", "lien priority", "starwood"],
       parties: [
@@ -8110,15 +8067,17 @@ const RELAW_DATA = {
         { name: "CWCapital Asset Management LLC", role: "Special Servicer" },
         { name: "Thistle Creek Partners, LP", role: "Alleged senior lienholder (non-party)" }
       ],
-      judge: null,
+      judge: "Edgardo Ramos",
       amountUsd: 46850000,
       amountBasis: "loan",
       timeline: [
-        { when: "April 2024", label: "Starwood originates $46.85 million loan on The Pointe and Oak Shadows" },
-        { when: "May 26, 2026", label: "Special servicer sends repurchase demand alleging Material Defect" },
+        { when: "April 2024", label: "Starwood originates the $46.85 million loan on The Pointe and Oak Shadows" },
+        { when: "May 26, 2026", label: "Special servicer sends repurchase demand alleging a Material Defect" },
         { when: "September 4, 2026", label: "Trustee sues in New York Supreme Court, New York County (Index No. 655096/2026)" },
-        { when: "October 9, 2026", label: "Starwood removes case to S.D.N.Y. (No. 1:26-cv-08961)", current: true }
-      ]
+        { when: "October 9, 2026", label: "Starwood removes the case to S.D.N.Y. (No. 1:26-cv-08961)", current: true }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74945850/computershare-trust-company-national-association-as-trustee-v-starwood/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-272",
@@ -10555,43 +10514,6 @@ const RELAW_DATA = {
       ]
     },
     {
-      id: "live-332",
-      seoTitle: "Yardi Rent-Pricing Antitrust Suit Survives Summary Judgment",
-      seoDescription: "A W.D. Wash. judge denied Yardi Systems summary judgment in the Duffy antitrust suit over its RENTmaximizer rent-pricing software, ordering fuller discovery.",
-      addedDate: "2026-10-24",
-      title: "Duffy v. Yardi Systems, Inc. (Multifamily Rent-Pricing Antitrust Suit)",
-      brief: "A federal judge denied Yardi Systems summary judgment in a multifamily rent-pricing antitrust suit, letting renters pursue fuller discovery into its RENTmaximizer software.",
-      category: "landlord-tenant",
-      status: "ruling",
-      date: "2026-10-13",
-      jurisdiction: "U.S. District Court, Western District of Washington",
-      state: "WA",
-      amount: "Proposed nationwide class action; summary judgment denied",
-      source: "live",
-      sourceUrl: "https://www.multifamilydive.com/news/judge-denies-yardi-summary-judgement-rent-price-fixing-case/833392/",
-      summary: "On October 13, 2026, U.S. District Judge Robert S. Lasnik denied Yardi Systems, Inc.'s motion for summary judgment in a proposed class action alleging its RENTmaximizer (later Revenue IQ) software let competing multifamily landlords coordinate rents using pooled, non-public pricing data. The ruling sends the case, filed in September 2023 by named plaintiffs McKenna Duffy and Michael Brett, into a fuller round of discovery, and follows a December 2024 denial of Yardi's motion to dismiss that found the claims plausibly allege a per se antitrust violation.",
-      significance: "The decision shows algorithmic rent-pricing antitrust exposure is not limited to RealPage, the vendor that has drawn the most attention in parallel multidistrict litigation; any owner or manager licensing software that pools non-public competitor data to generate pricing recommendations faces the same basic theory. The earlier per se finding, if it holds, would meaningfully lower plaintiffs' burden compared with a traditional rule-of-reason antitrust claim.",
-      body: [
-        "A federal judge in the Western District of Washington has denied Yardi Systems, Inc.'s motion for summary judgment in a proposed class action accusing the property-management software vendor of enabling an illegal rent-fixing scheme among multifamily landlords, clearing the way for the case to proceed through a broader round of discovery. The October 13 ruling, issued by U.S. District Judge Robert S. Lasnik in Duffy v. Yardi Systems, Inc., No. 2:23-cv-01391, is the latest in a string of setbacks for Yardi since the suit was filed in September 2023.",
-        "The case, brought by named plaintiffs McKenna Duffy and Michael Brett on behalf of a proposed nationwide class of renters, centers on Yardi's RENTmaximizer product, later rebranded as Revenue IQ. Plaintiffs allege the software ingested non-public pricing, occupancy, and lease-term data from competing landlords who licensed the platform, then used that pooled information to recommend rents back to each landlord-client, effectively functioning as a hub for horizontal price coordination among competitors who would otherwise set rents independently. The theory echoes algorithmic-pricing antitrust claims that have proliferated against RealPage, Yardi's larger rival in the revenue-management software market, in separate multidistrict litigation pending in the Middle District of Tennessee.",
-        "Judge Lasnik's order is procedural rather than a merits verdict, but it is significant because of what it declines to do: end the case before a jury or further fact-finding can test the plaintiffs' theory. In denying summary judgment, the court found that segmented discovery, an earlier arrangement pausing broader fact-finding against the dismissed landlord-defendants while the parties developed the Yardi-specific record, did not eliminate the need for a fuller discovery record before the remaining claims could be resolved. The order also sealed certain Yardi confidential business information from the public docket and denied both sides' competing motions to exclude expert testimony.",
-        "The ruling builds on two earlier defeats for Yardi. In December 2024, Judge Lasnik denied the company's motion to dismiss outright, holding that the plaintiffs had plausibly alleged a per se unlawful antitrust conspiracy, a notable holding because per se treatment dispenses with the more exacting burden plaintiffs otherwise face under the antitrust rule of reason. In March 2026, the court trimmed the case on jurisdictional grounds, dismissing ten out-of-state landlord co-defendants, among them Banyan Living Ohio LLC, Envolve Communities LLC, Grubb Properties LLC, Habitat Co. LLC, and McWhinney Property Management LLC, for lack of personal jurisdiction in Washington, leaving Yardi as the central remaining defendant.",
-        "For commercial real estate owners and operators, the case is a reminder that legal exposure from algorithmic revenue-management software does not run only to the handful of vendors, such as RealPage, that have drawn the most public attention. Any multifamily owner or manager licensing a platform that relies on pooled, non-public competitor data to generate pricing recommendations faces the same basic antitrust theory. In practice, that means auditing existing revenue-management vendor contracts and data-sharing arrangements for how pricing recommendations use pooled competitor data, tracking the growing patchwork of state and local algorithmic-pricing ordinances in markets where a company operates, and watching closely how the per se versus rule-of-reason question is ultimately resolved on the merits, since it will shape antitrust exposure well beyond this particular case."
-      ],
-      tags: ["antitrust", "algorithmic pricing", "yardi", "multifamily", "rent-fixing"],
-      parties: [
-        { name: "Yardi Systems, Inc.", role: "Defendant" }
-      ],
-      judge: "Robert S. Lasnik",
-      amountUsd: null,
-      timeline: [
-        { when: "September 2023", label: "Duffy and Brett file proposed class action against Yardi Systems and multiple landlord co-defendants" },
-        { when: "December 2024", label: "Court denies Yardi's motion to dismiss, finding a plausible per se antitrust violation" },
-        { when: "March 2026", label: "Court dismisses ten out-of-state landlord co-defendants for lack of personal jurisdiction" },
-        { when: "October 13, 2026", label: "Court denies Yardi's motion for summary judgment, ordering fuller discovery", current: true }
-      ]
-    },
-    {
       id: "live-333",
       seoTitle: "Arizona Fortuity Ruling Revives $2.7M Commercial Insurance Claim",
       seoDescription: "The Ninth Circuit vacated summary judgment for Great Northern on Mainspring's $2.7M building damage claim after Arizona's top court redefined fortuitous loss.",
@@ -11120,12 +11042,12 @@ const RELAW_DATA = {
     },
     {
       id: "live-346",
-      seoTitle: "Fannie Mae Sues SYS Augusta Over $21.45M Falcon Crest Default",
-      seoDescription: "Fannie Mae sued SYS Augusta LLC in Georgia federal court, alleging a $21.45M default at Falcon Crest Apartments tied to a separate condemnation action.",
-      property: { name: "Falcon Crest Apartments", address: "1700 Valley Park Court", city: "Augusta", state: "GA" },
+      seoTitle: "Fannie Mae Sues Falcon Crest Apartments Owner Over $21.45M Loan",
+      seoDescription: "Fannie Mae sued SYS Augusta LLC over a $21.45M loan on Augusta's Falcon Crest Apartments, alleging missed payments and seeking a receiver, MPA reported.",
+      property: {"name": "Falcon Crest Apartments", "address": "1700 Valley Park Court", "city": "Augusta", "state": "GA"},
       addedDate: "2026-10-29",
       title: "Federal National Mortgage Association v. SYS Augusta LLC (Multifamily Loan Default and Acceleration Suit)",
-      brief: "Fannie Mae sued SYS Augusta LLC in Georgia federal court, saying the owner of Falcon Crest Apartments defaulted on a $21.45 million loan after missing payments and now faces a separate condemnation action on the property.",
+      brief: "Fannie Mae sued the owner of Falcon Crest Apartments in Augusta, Georgia, alleging missed payments on a $21.45 million loan, unpaid repairs and vendor liens, and asked for a receiver, Mortgage Professional America reported.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-10-22",
@@ -11137,27 +11059,28 @@ const RELAW_DATA = {
       ],
       amountUsd: 21450000,
       amountBasis: "loan",
-      judge: null,
+      judge: "J. Randal Hall",
       state: "GA",
       amount: "$21.45 million",
       source: "live",
       sourceUrl: "https://www.mpamag.com/us/mortgage-industry/market-updates/fannie-mae-moves-to-seize-augusta-apartment-complex-over-21m-default/594810",
-      summary: "Fannie Mae filed suit on October 22, 2026 in the U.S. District Court for the Southern District of Georgia against SYS Augusta LLC, the single-asset owner of Falcon Crest Apartments in Augusta, alleging the borrower missed monthly payments of roughly $103,138.75 for August through October 2026 after an already-late July payment. Fannie Mae accelerated the full $21.45 million loan balance on September 1, 2026, and the complaint also says the defaults coincided with a separate condemnation proceeding against the property.",
-      significance: "The filing shows an agency lender moving quickly from a payment default to full acceleration and litigation once a multifamily property is also facing a local condemnation or habitability issue, rather than extending forbearance. Owners and asset managers of older multifamily stock should treat early code-enforcement or condemnation inquiries as a signal to engage lenders before a missed payment converts a maintenance problem into an accelerated, immediately-due debt.",
+      summary: "Fannie Mae sued SYS Augusta LLC, the company formed to own Falcon Crest Apartments in Augusta, on October 22, 2026 in the U.S. District Court for the Southern District of Georgia, Mortgage Professional America reported. The complaint alleges the borrower paid late in July 2026, missed payments of about $103,138.75 for August through October, and let vendor liens and safety repairs go unaddressed, and that Fannie Mae accelerated the $21.45 million loan on September 1. Fannie Mae asks the court to appoint a receiver and for a breach-of-contract judgment. The allegations have not been tested in court.",
+      significance: "The complaint combines a payment default with alleged non-monetary defaults, including recorded vendor liens, unmade repairs and missing financial reports, as grounds for a receiver. It also alleges that the borrower kept collecting rents after its right to do so ended on default.",
       body: [
-        "Fannie Mae has filed suit in the U.S. District Court for the Southern District of Georgia against SYS Augusta LLC, the single-asset entity that owns Falcon Crest Apartments in Augusta, alleging the borrower defaulted on a $21.45 million multifamily loan and that the resulting distress has already triggered a separate condemnation proceeding against the property. The filing, reported October 22, 2026, is a straightforward but instructive example of how quickly a multifamily loan default can cascade into parallel legal exposure once a borrower falls behind.",
-        "According to the complaint as reported, SYS Augusta missed monthly payments of roughly $103,138.75 covering August through October 2026, after an already-late July payment. Fannie Mae accelerated the full loan balance on September 1, 2026, making the entire $21.45 million immediately due. Greystone Servicing Company originated the loan on June 20, 2023, assigning it to Fannie Mae the same day; Greystone continues to service the loan on Fannie Mae's behalf, a structure typical of Fannie Mae's Delegated Underwriting and Servicing (DUS) multifamily program.",
-        "Multifamily loans purchased or guaranteed by Fannie Mae and Freddie Mac typically carry standard acceleration clauses: once a borrower misses a defined number of payments, the lender may declare the entire unpaid principal balance due immediately, cutting off any possibility of simply catching up on arrears to cure the default. That is precisely the posture here — a few months of missed payments converted a $21.45 million long-term obligation into an immediately due debt, which is now the basis for the federal suit.",
-        "What makes this filing more than a routine foreclosure action is the reported existence of a separate condemnation proceeding tied to the same property. Condemnation in this context refers to a local government or housing authority's determination that a building, or units within it, is unsafe or uninhabitable, often tied to deferred maintenance, not the government's eminent domain power. For a lender, a condemnation action is a serious warning sign: it suggests the physical collateral securing the loan is deteriorating, potentially below the value needed to make the lender whole even after a successful foreclosure. Courts handling multifamily foreclosure actions where the property is also the subject of a habitability or condemnation proceeding will frequently entertain a lender's request for the early appointment of a receiver, since a receiver can be tasked not just with collecting rents but with directing repairs and coordinating with local code-enforcement authorities to resolve the condemnation threat before it worsens.",
-        "For SYS Augusta and its principals, the practical question now is whether Fannie Mae pursues a receiver pending foreclosure, and on what timeline the accelerated $21.45 million balance becomes a judgment. Borrowers facing simultaneous loan acceleration and local code-enforcement action have little room to negotiate a workout once both fronts are active, since curing the default requires both a lump-sum payment or negotiated forbearance and capital for the physical repairs that triggered the condemnation concern in the first place.",
-        "Multifamily borrowers facing a cash-flow squeeze should engage their loan servicer before a payment default, since agency lenders appear increasingly willing to accelerate the full loan balance rather than negotiate after default, particularly once a condemnation or habitability issue is also in play. Lenders and special servicers should treat a local condemnation or code-enforcement proceeding against an income-producing property as an independent risk signal warranting early receivership planning, not merely a maintenance footnote to a payment default, and asset managers overseeing older multifamily stock should budget for capital repairs proactively, since curing a condemnation issue after a loan has already been accelerated costs materially more than addressing it before a default occurs."
+        "Fannie Mae filed suit on October 22, 2026 in the U.S. District Court for the Southern District of Georgia against SYS Augusta LLC, which Mortgage Professional America describes as a company set up solely to own Falcon Crest Apartments at 1700 Valley Park Court in Augusta. The $21.45 million loan was made by Greystone Servicing Company LLC on June 20, 2023 and assigned to Fannie Mae the same day; Greystone still services it.",
+        "According to the complaint as reported, the July 2026 payment was late and the borrower then missed payments of about $103,138.75 each for August, September and October. Fannie Mae accelerated the full balance on September 1, 2026. The complaint also cites four recorded vendor liens totaling at least $263,177.25, which it says were prohibited transfers that triggered automatic defaults. It says a January 21, 2026 inspection found serious fire, life and safety deficiencies, that Greystone's April 28, 2026 demand for repairs and a $223,520 deposit went unanswered, and that the repairs remain incomplete. The complaint alleges these failures led to a condemnation proceeding against the property; the article does not say who brought it. It also alleges the borrower did not provide required rent rolls and financial statements.",
+        "Fannie Mae asks the court to appoint a receiver from Trigild to manage the property and collect rents, a request the complaint says the Federal Housing Finance Agency supports. It alleges the borrower's right to collect rents ended on default but that it kept collecting them. Fannie Mae also seeks a breach-of-contract judgment for unpaid payments, misappropriated rents, property damage and attorneys' fees. The loan's guarantor, who is not a defendant, also received default notices. The article reports no response from the borrower, and no court has ruled on the claims."
       ],
-      tags: ["multifamily", "lending-foreclosure", "fannie mae", "acceleration", "condemnation"],
+      tags: ["multifamily", "lending-foreclosure", "fannie mae", "receivership", "acceleration"],
       timeline: [
-        { when: "June 20, 2023", label: "Greystone Servicing originates the $21.45M loan and assigns it to Fannie Mae the same day" },
-        { when: "September 1, 2026", label: "Fannie Mae accelerates the full loan balance after missed payments" },
-        { when: "October 22, 2026", label: "Fannie Mae sues SYS Augusta LLC in Georgia federal court over the default", current: true }
-      ]
+        { when: "June 20, 2023", label: "Greystone Servicing makes the $21.45M loan and assigns it to Fannie Mae the same day" },
+        { when: "January 21, 2026", label: "Property inspection reports fire, life and safety deficiencies, according to the complaint" },
+        { when: "April 28, 2026", label: "Greystone demands repairs and a $223,520 deposit, according to the complaint" },
+        { when: "September 1, 2026", label: "Fannie Mae accelerates the loan balance after missed payments" },
+        { when: "October 22, 2026", label: "Fannie Mae sues SYS Augusta LLC in federal court and seeks a receiver", current: true }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/75007687/fannie-mae-v-sys-augusta-llc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-347",
@@ -13863,13 +13786,12 @@ const RELAW_DATA = {
       sourceUrl: "https://www.mychesco.com/a/communities/neighbors-gain-legal-standing-in-pennhurst-data-center-appeal/",
       propertyType: "Data Center",
       summary: "On November 10, 2026, Judge Nicole Forzato of the Chester County Court of Common Pleas granted intervenor status to the owners of a farm adjoining the Pennhurst property and to East Vincent Advocacy, a resident-led nonprofit, in the developer's land use appeal. Penn Hurst Holdings DE LLC is challenging the East Vincent Township supervisors' unanimous May 21, 2026 denial of its conditional-use application for a data center campus on about 124.6 acres. The developer had challenged the standing of both. The ruling decides only who may take part; the application remains denied and the merits are still to be briefed.",
-      significance: "Intervention changes the economics of a land use appeal. A developer that might have negotiated a resolution with the township alone now faces two additional parties who can brief the merits, oppose any settlement and take their own appeal. The ruling also shows that an advocacy group that owns no land can earn a seat through its members' interests and its participation in the municipal hearings. Developers pursuing contested data center sites should expect this in Pennsylvania and build the added time into option periods, power commitments and financing.",
+      significance: "The ruling adds two parties who can brief the merits and take part in any resolution of the appeal, so it can no longer be settled between the developer and the township alone. The advocacy group, which owns no land in the township, was admitted after it had held party status in the township hearings.",
       body: [
-        "The Pennhurst property covers about 124.6 acres at 1205 Commonwealth Drive in East Vincent Township, Chester County. It lies in the township's Industrial Mixed Use District. The developer applied for conditional-use approval for data center buildings, an office building and related improvements. The Philadelphia Inquirer described the plan in May as 1.9 million square feet in three two-story buildings, along with a power generation and battery storage field.",
-        "On May 21, 2026, the township's Board of Supervisors unanimously rejected the application. According to MyChesCo, the supervisors concluded that the proposal did not qualify as a planned commercial development under the township's zoning ordinance. The Inquirer reported that the board found the application did not fully comply with the applicable zoning criteria, and that the developer's lawyer said at the time that an appeal would follow. Penn Hurst Holdings filed its land use appeal in the Chester County Court of Common Pleas in June. It argues that the supervisors misread the ordinance's provisions on permitted uses, zoning standards and transferable development rights.",
-        "Two sets of would-be parties then asked to join the case on the township's side. The first was the owners of an adjoining farm of about 130 acres, who pointed to their position downhill from the site, the risk of runoff, deeded access rights over roads serving the property and possible effects on their livestock and crops. The second was East Vincent Advocacy, a resident-led 501(c)(4) nonprofit that reports more than 950 members, about 80 percent of them township residents. The developer challenged the standing of both. It argued that the farm owners had not formally established party status during the township's conditional-use proceedings, and that a group that owns no property in the township could not stand in for affected owners. The township's solicitor supported the farm owners' request, and the advocacy group noted that it had been given party status in the township hearings.",
-        "At a hearing on November 10, 2026, Judge Nicole Forzato granted both requests, finding that each had a sufficient interest in the outcome. \"I do believe there is a direct, substantial interest,\" she said, according to MyChesCo. The ruling is limited to participation. It does not decide whether the project complies with the zoning ordinance or whether the application should have been approved. The developer asked for 30 days to file an amended brief, and the judge directed counsel to propose a briefing schedule by November 18. No further hearing date has been set.",
-        "For developers and landowners, the takeaways are procedural. Party status in the municipal hearing matters later: the advocacy group's earlier status helped it, and the developer's attack on the farm owners turned on whether they had properly appeared below, so applicants who intend to contest standing should make that record at the township level. Once neighbors intervene, the appeal can no longer be resolved by agreement with the municipality alone, which reduces the value of a negotiated remand or a stipulated set of conditions. Owners of land near a proposed data center, for their part, should document concrete property interests such as drainage, access easements and agricultural operations, because those specifics carried the intervention request here. The merits question, how a zoning ordinance with no data center provisions applies to one, remains open and will be watched by other applicants in the region."
+        "The Pennhurst property covers about 124.6 acres at 1205 Commonwealth Drive in East Vincent Township, Chester County, in the township's Industrial Mixed Use District. Penn Hurst Holdings DE LLC applied for conditional-use approval for data center buildings, an office building and related improvements. The Philadelphia Inquirer described the plan in May as 1.9 million square feet in three two-story buildings, with a power generation and battery storage field.",
+        "On May 21, 2026, the township's Board of Supervisors unanimously rejected the application. According to MyChesCo, which cited reporting by Spring-Ford Press, the supervisors concluded that the proposal did not qualify as a planned commercial development under the zoning ordinance. The Inquirer reported that the board found the application did not fully meet the applicable zoning criteria, and that the developer's lawyer said an appeal would follow. Penn Hurst Holdings filed its land use appeal in the Chester County Court of Common Pleas in June, arguing that the supervisors misread the ordinance's provisions on permitted uses, zoning standards and transferable development rights.",
+        "Two sets of would-be parties asked to join the case on the township's side: the owners of an adjoining farm of about 130 acres, who cited their downhill position, stormwater runoff, deeded access rights over roads serving the property and effects on their livestock and crops; and East Vincent Advocacy, a resident-led 501(c)(4) nonprofit that reports more than 950 members, about 80 percent of them township residents. The developer argued that the farm owners had not formally established party status in the township proceedings and that a group owning no property in the township could not stand in for affected owners. The township's solicitor supported the farm owners' request, and the advocacy group noted that it had held party status in the township hearings.",
+        "At a hearing on November 10, 2026, Judge Nicole Forzato granted both requests. \"I do believe there is a direct, substantial interest,\" she said, according to MyChesCo. The ruling decides only who may participate; it does not address whether the project complies with the zoning ordinance, and the application remains denied. The developer asked for 30 days to file an amended brief, and the judge directed counsel to propose a briefing schedule by November 18. No further hearing date has been set."
       ],
       tags: ["data center", "land use appeal", "intervention", "conditional use", "pennsylvania"],
       parties: [

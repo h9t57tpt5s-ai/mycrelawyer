@@ -4,6 +4,96 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-226",
+   "caseId": "live-226",
+   "subject": "Oak Land and Development LLC v. Simon Property Group Inc. (Penn Square Mall Antitrust Tying Suit)",
+   "kind": "Corrected: date, description, party",
+   "was": "2025-12-03 | the granular factual record ... carried the Oak Land plaintiffs' tying theory past Simon's initial dismissal arguments | In June 2026, Simon moved to dismiss the amended complaint | Simon Property Group Inc. listed as sole defendant",
+   "now": "2025-12-02 (complaint filed; Dec. 3 is the News 9 article date) | No court has ruled; Simon's first motion to dismiss was mooted when the plaintiffs filed a second amended complaint, and its motion to dismiss that complaint is pending | On June 2, 2026, Simon moved to dismiss the second amended complaint | Defendants are Simon Property Group, Inc., Simon Property Group, L.P. and Penn Square Mall, LLC; David Simon was dismissed in April 2026",
+   "basis": "Checked against the source article and court docket: CourtListener docket, W.D. Okla. No. 5:25-cv-01444, entry 1 | CourtListener docket, entries 34, 43, 49, 50 | CourtListener docket, entry 49 | CourtListener docket, entries 26, 46, 49"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-224",
+   "caseId": "live-224",
+   "subject": "Federal National Mortgage Association v. Reserve Apartments, Ltd. (Reserve Square Foreclosure — City of Cleveland Intervention)",
+   "kind": "Corrected: date, description, figure, party",
+   "was": "K&D Group, Defendant/Owner | September 29, 2026 | the 23-story, roughly 1-million-square-foot tower at 1701 E. 12th Street | 19 open violation notices covering 52 distinct issues | wants a voice in the case before any sale is approved (case described only as a pending foreclosure)",
+   "now": "Defendants are Reserve Apartments, Ltd., Reserve Square Apartments, Ltd. and the Cuyahoga County Fiscal Officer; News 5 describes the owner as an affiliate of K&D Group | September 28, 2026 | 975 apartments in two towers, a garage of nearly 1,000 spaces and about 220,000 square feet of commercial space | 19 open violation notices covering dozens of issues | The court entered a consent foreclosure judgment on April 14, 2026; the receivership continues and the property is listed for sale",
+   "basis": "Checked against the source article and court docket: CourtListener docket, N.D. Ohio No. 1:25-cv-01510, entry 1; News 5 Cleveland | CourtListener docket, entry 81 (motion to intervene filed 9/28/2026) | News 5 Cleveland | News 5 Cleveland | CourtListener docket, entries 46, 50"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-058",
+   "caseId": "live-058",
+   "subject": "Oakworth Capital Bank v. RC Nashville Development Partners (Ritz-Carlton Nashville Foreclosure)",
+   "kind": "Corrected: date, description, status",
+   "was": "settled | 2024-04-11 (foreclosure auction date) | matching the price RC Nashville had itself paid for the land back in March 2020",
+   "now": "ruling: summary judgment against the principal (Oct. 30, 2024), default judgment against RC Nashville (Jan. 7, 2025), case dismissed Aug. 4, 2025 | 2023-10-28 (complaint filed) | the same price the site sold for in March 2020 (the Tennessean does not name the 2020 buyer)",
+   "basis": "Checked against the source article and court docket: CourtListener docket, M.D. Tenn. No. 3:23-cv-01145, entries 41, 50-51, 55 | CourtListener docket, entry 1 | Tennessean, April 12, 2024, via AOL"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-332",
+   "subject": "Duffy v. Yardi Systems, Inc. (Multifamily Rent-Pricing Antitrust Suit)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Duffy v. Yardi Systems, Inc. (Multifamily Rent-Pricing Antitrust Suit)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; A residential renters' class action over rents; out of scope, as with live-001 and live-069."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-271",
+   "caseId": "live-271",
+   "subject": "Computershare Trust (BMO 2024-5C5) v. Starwood Mortgage Capital: $46.85M CMBS Loan Repurchase Suit Removed to Federal Court Over Undisclosed Senior Lien",
+   "kind": "Corrected: description",
+   "was": "states that the cure period had not run and that Starwood was reviewing the letter",
+   "now": "Starwood's November 12, 2026 Form ABS-15G lists the demand as in dispute and notes the trustee's suit",
+   "basis": "Checked against the source article: Starwood Mortgage Capital Form ABS-15G filed 2026-11-12 (accession 0001140361-26-043163)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-003",
+   "caseId": "live-003",
+   "subject": "Wilmington Savings Fund Society, FSB v. Milton 90 Pleasant Valley Street LLC (Benchmark 2026-B43 CMBS Foreclosure)",
+   "kind": "Corrected: description",
+   "was": "Sponsors that rely on affiliated master-lease arrangements ... are a natural audience for this ruling",
+   "now": "No court has ruled; the case is at the complaint stage",
+   "basis": "Checked against the source article and court docket: Mortgage Professional America, July 29, 2026; CourtListener docket 1:26-cv-06435 shows no ruling on the merits"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-346",
+   "caseId": "live-346",
+   "subject": "Federal National Mortgage Association v. SYS Augusta LLC (Multifamily Loan Default and Acceleration Suit)",
+   "kind": "Corrected: description",
+   "was": "Condemnation in this context refers to a local government or housing authority's determination that a building ... is unsafe or uninhabitable",
+   "now": "The complaint alleges the borrower's failures led to a condemnation proceeding against the property; the source does not say who brought it or what kind it is",
+   "basis": "Checked against the source article: Mortgage Professional America, Oct. 23, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-220",
+   "subject": "Cornish-Adebiyi v. Caesars Entertainment, Inc. (Atlantic City Hotel-Casino Algorithmic Price-Fixing Antitrust Suit)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Cornish-Adebiyi v. Caesars Entertainment, Inc. (Atlantic City Hotel-Casino Algorithmic Price-Fixing Antitrust Suit)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; Out of scope: a consumer class action by hotel guests alleging casino-hotel operators fixed room-night prices through shared revenue-management software. It concerns the price of hotel stays sold to consumers, not a real estate dispute (no lease, property, loan or land-use issue), and it was filed u"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-150",
+   "caseId": "live-150",
+   "subject": "State of Idaho, Idaho Transportation Board v. Triple Crown Development, LLC (Business-Damages Condemnation Appeal)",
+   "kind": "Corrected: date, description",
+   "was": "2026-09-14 (ruling date) | a never-permitted, never-operated business plan cannot support a business-damages award even for the actual fee owner | a concrete plant operated by G&B Redi-Mix on Americrete's adjoining land ... supply Americrete's ready-mix operations",
+   "now": "2026-09-02 | The Court decided the case on ownership alone (fee title) and expressly did not reach the State's other arguments | G&B Redi-Mix is the trade name of intervenor Americrete Ready Mix Concrete, Inc., whose plant sits on Americrete Land Holding's adjoining land",
+   "basis": "Checked against the source article and court docket: Idaho Supreme Court opinion, Docket No. 52872-2025, 'Opinion filed: September 2, 2026'; September 14 is the date of the Mealey's article | Idaho Supreme Court opinion, Part IV.A | Idaho Supreme Court opinion caption and Part I.A"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "matter",
    "caseId": "live-077",
    "subject": "Redimere Advisors LLC v. Plymouth Industrial REIT, Inc. (Unregistered Broker's $60M Merger Injunction Denied)",
