@@ -22,6 +22,7 @@
 import { createClient } from "npm:@supabase/supabase-js@2";
 import { cleanPrefs, decodePrefs, describe, encodePrefs, matches, type RadarRec, renderAlert } from "./radar.ts";
 import { buildIssue as build, type Inputs, type Issue, renderIssue as render } from "./issue.ts";
+import { renderWelcome } from "./welcome.ts";
 
 const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
@@ -51,6 +52,39 @@ async function sendEmail(to: string, subject: string, html: string, text: string
   });
   if (!resp.ok) console.error(`newsletter: Resend ${resp.status} for ${to}: ${await resp.text().catch(() => "")}`);
   return resp.ok;
+}
+
+// ---------- welcome email for new accounts (2026-11-16) ----------
+// Sent once per account, after the address is confirmed. Off until the
+// WELCOME_START secret holds an ISO date; only accounts confirmed on or
+// after it (and in the last 7 days) get one, so existing members are never
+// emailed retroactively. public.welcome_sends records who got it.
+async function sendWelcome() {
+  const start = Deno.env.get("WELCOME_START") || "";
+  if (!start) return json({ skipped: "WELCOME_START not set; welcome emails are off." });
+  const since = new Date(Math.max(Date.parse(start), Date.now() - 7 * 864e5)).toISOString();
+  const fresh: { id: string; email: string }[] = [];
+  for (let page = 1; page <= 20; page++) {
+    const { data, error } = await db.auth.admin.listUsers({ page, perPage: 200 });
+    if (error) return json({ error: error.message }, 500);
+    for (const u of data.users) {
+      if (u.email && u.email_confirmed_at && u.email_confirmed_at >= since) fresh.push({ id: u.id, email: u.email });
+    }
+    if (data.users.length < 200) break;
+  }
+  if (!fresh.length) return json({ sent: 0, candidates: 0 });
+  const { data: done, error: e2 } = await db.from("welcome_sends").select("user_id").in("user_id", fresh.map((u) => u.id));
+  if (e2) return json({ error: e2.message }, 500);
+  const skip = new Set((done || []).map((r: { user_id: string }) => r.user_id));
+  const { subject, html, text } = renderWelcome(POSTAL_ADDRESS);
+  let sent = 0;
+  for (const u of fresh.filter((u) => !skip.has(u.id))) {
+    // Record first, so a retry can never send twice.
+    const { error: e3 } = await db.from("welcome_sends").insert({ user_id: u.id });
+    if (e3) continue;
+    if (await sendEmail(u.email, subject, html, text)) sent++;
+  }
+  return json({ sent, candidates: fresh.length, alreadySent: skip.size });
 }
 
 // ---------- subscribe / confirm / unsubscribe ----------
@@ -220,6 +254,12 @@ Deno.serve(async (req) => {
     return json({ sent: ok, to: OWNER_EMAIL, subject, matters: issue.matters.length, insights: issue.insights.length, radar: issue.radar.length, rulings: issue.rulings.length, trends: issue.trends.length });
   }
   if (body.action === "send-weekly") return await sendWeekly(body.force === true);
+  if (body.action === "send-welcome-test") {
+    const { subject, html, text } = renderWelcome(POSTAL_ADDRESS);
+    const ok = await sendEmail(OWNER_EMAIL, `[TEST] ${subject}`, html, text);
+    return json({ sent: ok, to: OWNER_EMAIL, subject });
+  }
+  if (body.action === "send-welcome") return await sendWelcome();
   if (body.action === "send-radar") return await sendRadar(false);
   if (body.action === "send-radar-test") return await sendRadar(true);
   if (body.action === "import") {

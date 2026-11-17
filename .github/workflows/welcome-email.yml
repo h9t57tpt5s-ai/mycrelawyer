@@ -1,0 +1,38 @@
+name: Welcome email for new accounts
+
+# Hourly: sends the one-time welcome email (supabase/functions/newsletter/
+# welcome.ts) to accounts confirmed since the last run. Does nothing until
+# the WELCOME_START secret is set on the Edge Function, so it can sit here
+# switched off. Manual runs can send the owner a test copy.
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "send-welcome-test (owner only) or send-welcome (new accounts)"
+        type: choice
+        options: [send-welcome-test, send-welcome]
+        default: send-welcome-test
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Send
+        env:
+          AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
+          ACTION: ${{ inputs.action || 'send-welcome' }}
+        run: |
+          status=$(curl -sS -o /tmp/r.json -w "%{http_code}" \
+            -X POST 'https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/newsletter' \
+            -H "x-automation-secret: $AUTOMATION_SECRET" \
+            -H "Content-Type: application/json" \
+            --data "{\"action\":\"$ACTION\"}")
+          echo "welcome $ACTION HTTP $status"; cat /tmp/r.json; echo
+          [[ "$status" =~ ^2 ]]
