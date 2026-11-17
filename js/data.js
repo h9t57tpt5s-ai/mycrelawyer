@@ -624,17 +624,18 @@ const RELAW_DATA = {
     },
     {
       id: "live-022",
-      seoTitle: "RealPage Wins Injunction Against New York Algorithmic Rent Ban",
-      seoDescription: "Judge Valerie Caproni granted RealPage a preliminary injunction against New York's algorithmic rent-pricing ban on First Amendment grounds.",
+      seoTitle: "RealPage Wins Partial Injunction Against NY Rent-Pricing Law",
+      seoDescription: "A judge blocked the part of New York's law barring landlords from using coordinating rent software and denied the state's motion to dismiss RealPage's suit.",
       addedDate: "2026-08-15",
-      title: "RealPage, Inc. v. James (First Amendment Challenge to NY Algorithmic Rent-Pricing Law)",
-      brief: "On September 29, 2026, a federal judge granted RealPage a preliminary injunction in its First Amendment challenge to New York's algorithmic rent-pricing ban and denied the state's motion to dismiss.",
+      title: "RealPage, Inc. v. James (First Amendment Challenge to New York's Algorithmic Rent-Pricing Law)",
+      brief: "A federal judge blocked enforcement of the part of New York's law that bars landlords from setting rents on coordinating software's advice, finding RealPage \"marginally\" likely to win, and denied dismissal.",
       category: "landlord-tenant",
       status: "ruling",
-      date: "2026-08-14",
+      date: "2026-09-29",
       jurisdiction: "U.S. District Court, S.D.N.Y.",
       parties: [
-        { name: "RealPage, Inc.", role: "Plaintiff" }
+        { name: "RealPage, Inc.", role: "Plaintiff" },
+        { name: "New York State Attorney General (Letitia James, in her official capacity)", role: "Defendant" }
       ],
       judge: "Valerie Elaine Caproni",
       amountUsd: null,
@@ -642,23 +643,24 @@ const RELAW_DATA = {
       amount: "Preliminary injunction sought; no damages claimed",
       source: "live",
       sourceUrl: "https://www.law360.com/real-estate-authority/articles/2513580/ny-ag-says-2nd-circ-ruling-doesn-t-back-pricing-law-case",
-      summary: "RealPage told the S.D.N.Y. court weighing its First Amendment challenge to New York's algorithmic rent-pricing ban that an August 5 Second Circuit ruling striking down a NYC food-delivery data-sharing law as unconstitutional compelled speech supports its own case. The New York Attorney General's office pushed back within days, arguing the food-delivery ruling addressed forced disclosure of customer data and has no bearing on a statute that regulates how landlords may set rents rather than compelling any disclosure. The presiding judge has not yet ruled on RealPage's pending preliminary-injunction motion or the state's motion to dismiss. On September 29, 2026, Judge Valerie Caproni granted RealPage's motion for a preliminary injunction and denied the state's motion to dismiss, finding RealPage \"marginally\" likely to succeed on the merits of its First Amendment claim.",
-      significance: "The dispute over how far the Second Circuit's compelled-speech reasoning extends sits at the center of nearly every pending challenge to algorithmic-pricing bans nationwide, including the tenant suits against RealPage's landlord customers already tracked here in Philadelphia and San Diego. A ruling accepting RealPage's framing would hand software vendors and landlords a strong new constitutional defense against similar restrictions; a ruling siding with the Attorney General would leave New York's ban, and the broader legislative trend behind it, on firmer footing.",
+      summary: "On September 29, 2026, U.S. District Judge Valerie E. Caproni preliminarily enjoined New York's attorney general from enforcing Section 3 of the state's algorithmic rent-pricing law, which bars residential landlords from setting rents or lease terms based on recommendations from software that performs a \"coordinating function,\" and denied the state's motion to dismiss. Calling it a close call, she found RealPage, Inc. \"marginally\" likely to succeed on its First Amendment claim. She held that Section 2, which bars facilitating agreements among competing landlords not to compete, regulates conduct rather than protected speech. The attorney general has asked the court to reconsider.",
+      significance: "The order is an early ruling on whether software-generated rent recommendations are protected commercial speech, a question that bears on other state and local limits on algorithmic pricing tools used by apartment owners. The injunction covers only the provision aimed at landlords, not the law's separate ban on facilitating agreements among competing landlords.",
       body: [
-        "A First Amendment fight over whether software-generated rent recommendations are protected speech took an unexpected turn this week, when RealPage, Inc. told a Manhattan federal court that a Second Circuit ruling in an unrelated food-delivery data case bolsters its challenge to New York's ban on algorithmic rental pricing. The New York Attorney General's office quickly disputed that reading, and the dispute — playing out in supplemental filings rather than a new complaint — matters well beyond the two litigants: New York is among the first states to prohibit landlords from using pricing software at all, and how a federal court treats that prohibition under the First Amendment could shape whether a wave of similar municipal and state bans survive constitutional scrutiny.",
-        "The underlying case, RealPage, Inc. v. James, No. 1:25-cv-09847, was filed in the U.S. District Court for the Southern District of New York in November 2025, days before New York's algorithmic-pricing statute took effect. The law, enacted as an amendment to the state's Donnelly Act (General Business Law § 340-b) and signed by Governor Kathy Hochul, makes it unlawful for a residential rental property owner to set rents or lease-renewal terms based on recommendations generated by pricing software, data-analytics services, or algorithmic devices. RealPage, the dominant vendor of revenue-management software used by landlords nationwide, sued Attorney General Letitia James, arguing the statute is a content-, viewpoint-, and speaker-based restriction on speech that cannot survive First Amendment scrutiny because it singles out algorithmically generated pricing recommendations for prohibition while leaving other forms of pricing advice untouched. RealPage moved for a preliminary injunction; the Attorney General's office moved to dismiss and agreed to stay enforcement against RealPage and its customers while the injunction motion is pending. Briefing closed earlier this year, and the presiding judge has not yet ruled.",
-        "Into that pending motion landed the Second Circuit's August 5 decision in a separate case testing a 2021 New York City ordinance that required food-delivery platforms — DoorDash, Grubhub, and Uber Eats among them — to share customers' names, phone numbers, delivery addresses, and order histories with restaurants on request. A unanimous three-judge panel held that the ordinance violated the First Amendment's protection against compelled speech, reasoning in a 28-page opinion that the law forced the platforms to disclose customer information without providing an adequate opt-out — customers could decline only order by order, not globally — and affirmed a district court injunction that had blocked the ordinance since shortly after it passed.",
-        "RealPage moved quickly to put that ruling in front of the judge overseeing its own case, filing a notice of supplemental authority arguing the Second Circuit's compelled-speech analysis applies with equal or greater force to New York's rent-pricing statute: if the state cannot force delivery apps to hand over data as compelled speech, RealPage contends, it cannot force software vendors and landlords to refrain from acting on algorithmically generated pricing output, which RealPage characterizes as protected commercial speech in its own right. The Attorney General's office pushed back within days, arguing the food-delivery ruling addressed a fundamentally different harm — the government compelling affirmative disclosure of private customer data to third parties — and has no bearing on a statute that instead regulates a category of economic conduct, namely how landlords may set prices, without compelling anyone to say or disclose anything.",
-        "That distinction — between a law that forces speech and a law that regulates the use of algorithmic outputs in setting price terms — sits at the heart of nearly every pending challenge to algorithmic-pricing bans nationwide, including the growing docket of tenant suits against RealPage's landlord customers in Philadelphia, San Diego, and elsewhere. A ruling adopting RealPage's compelled-speech framing would hand the company, and any similarly situated software vendor, a powerful new precedent for challenging pricing restrictions as unconstitutional viewpoint discrimination. A ruling accepting the Attorney General's characterization — that the statute regulates conduct, not expression — would leave New York's ban, and the broader legislative trend it represents, on firmer constitutional footing.",
-        "For landlords and software vendors, the First Amendment question remains genuinely unresolved, and neither side should assume how it will be decided while compliance with pricing-software restrictions remains mandatory in the interim. New York's agreement not to enforce the statute against RealPage and its customers is narrow and provisional, holding only while the preliminary injunction motion is pending, not a permanent safe harbor. Whatever the presiding judge ultimately decides will be persuasive rather than binding on Philadelphia's, San Diego's, and New Jersey's parallel algorithmic-pricing restrictions, each of which raises related but distinct statutory and constitutional questions of its own."
+        "RealPage, which licenses revenue-management software to owners and managers of residential rental properties, sued Attorney General Letitia James in the Southern District of New York in November 2025 (No. 1:25-cv-09847), challenging General Business Law § 340-B, which New York enacted on October 16, 2025 as an amendment to its antitrust law, the Donnelly Act. Section 2 of the law bars facilitating agreements between competing landlords not to compete, including by operating software that performs a \"coordinating function,\" which the law defines as collecting pricing and lease data from two or more unaffiliated landlords, analyzing it by computer, and recommending rents or lease terms. Section 3 makes it unlawful for landlords to set or adjust rents based on such software's recommendations. RealPage moved for a preliminary injunction, the state agreed not to enforce the law until that motion was decided, and the attorney general moved to dismiss.",
+        "While the motions were pending, RealPage filed notices of supplemental authority, including, on August 10, 2026, the Second Circuit's August 5 decision in DoorDash, Inc. v. City of New York, which held that a New York City rule requiring delivery platforms to share customer information with restaurants violated the First Amendment. In an August 13 letter, reported by Law360, the attorney general's office said that case involved a compelled disclosure of customer data, while the New York statute regulates anticompetitive conduct.",
+        "In her September 29 opinion, Judge Caproni found that RealPage's recommendations, which it now generates mostly from customer-supplied and public data under its consent decree with the U.S. Department of Justice, are commercial speech subject to intermediate scrutiny, and that Section 3, as drafted, \"probably does not\" survive that review. She found that Section 2 targets conduct that is already illegal and does not restrict protected speech. She denied the motion to dismiss on both jurisdictional and pleading grounds.",
+        "The attorney general answered the complaint and moved for reconsideration on October 13, 2026, and briefing on that motion closed on November 3. Under an October 23 scheduling order, fact discovery is due by February 22, 2027, and the case will be tried without a jury."
       ],
       tags: ["algorithmic pricing", "realpage", "first amendment", "landlord-tenant", "new york"],
       timeline: [
-        { when: "November 2025", label: "RealPage sues NY Attorney General Letitia James, seeking to enjoin the state's algorithmic rent-pricing ban on First Amendment grounds" },
-        { when: "December 15, 2025", label: "New York's algorithmic-pricing statute (Gen. Bus. Law § 340-b) takes effect; enforcement against RealPage and its customers stayed pending the injunction ruling" },
-        { when: "August 5, 2026", label: "Second Circuit rules a NYC food-delivery data-sharing law unconstitutional as compelled speech" },
-        { when: "August 2026", label: "RealPage cites the Second Circuit ruling as supplemental authority; NY Attorney General's office disputes its relevance" },
-        { when: "September 29, 2026", label: "Judge Valerie Caproni grants RealPage's preliminary injunction motion and denies the state's motion to dismiss, finding RealPage \"marginally\" likely to succeed on its First Amendment claim", current: true }
+        { when: "October 16, 2025", label: "New York enacts General Business Law § 340-B, restricting algorithmic rent-pricing software" },
+        { when: "November 2025", label: "RealPage sues New York Attorney General Letitia James on First Amendment grounds" },
+        { when: "December 5, 2025", label: "RealPage moves for a preliminary injunction; the state agrees not to enforce the law pending a ruling" },
+        { when: "January 9, 2026", label: "Attorney General moves to dismiss" },
+        { when: "August 5, 2026", label: "Second Circuit rules in DoorDash, Inc. v. City of New York" },
+        { when: "August 10-13, 2026", label: "RealPage cites DoorDash as supplemental authority; the Attorney General's office disputes its relevance" },
+        { when: "September 29, 2026", label: "Judge Caproni enjoins enforcement of Section 3 and denies the motion to dismiss" },
+        { when: "October 13, 2026", label: "Attorney General answers the complaint and moves for reconsideration", current: true }
       ],
       docketUrl: "https://www.courtlistener.com/docket/71964352/realpage-inc-v-james/",
       docketLabel: "CourtListener docket"
@@ -920,12 +922,12 @@ const RELAW_DATA = {
     },
     {
       id: "live-035",
-      seoTitle: "9 New York Avenue NW: JLL Sued for $12M+ Over Inflated NOI",
-      seoDescription: "Owner of the apartment tower at 9 New York Avenue NW, Washington, D.C. sued JLL for $12M+, alleging it inflated NOI to clear a lender's debt-yield test.",
-      property: {"address": "9 New York Avenue NW", "city": "Washington", "state": "DC"},
+      seoTitle: "Pinnacle Apartments D.C.: JLL Sued for $12M Over NOI Projections",
+      seoDescription: "A developer and the owner of D.C.'s 115-unit Pinnacle apartments at 7 New York Ave. NE sued JLL for about $12.4 million, alleging inflated income projections.",
+      property: {"name": "The Pinnacle", "address": "7 New York Ave. NE", "city": "Washington", "state": "DC"},
       addedDate: "2026-08-22",
-      title: "Bhatnagar v. Jones Lang LaSalle Americas, Inc. (D.C. Apartment Tower NOI Fraud Suit)",
-      brief: "A developer and 9 New York Ave LLC sued JLL for more than $12 million, alleging it inflated an NOI projection for a D.C. apartment tower to clear a lender covenant; the tower later sold for about $30.5 million.",
+      title: "9 New York Ave LLC v. Jones Lang LaSalle Americas, Inc. (Pinnacle Apartments, Washington, D.C., NOI Projection Fraud Suit)",
+      brief: "A developer and the owner of the 115-unit Pinnacle apartments in Washington, D.C. sued JLL for about $12.4 million, alleging it inflated income projections to clear a lender's debt-yield test; JLL did not comment.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-08-21",
@@ -935,27 +937,29 @@ const RELAW_DATA = {
         { name: "Jones Lang LaSalle Americas Inc.", role: "Defendant" }
       ],
       judge: null,
-      amountUsd: 12000000,
+      amountUsd: 12400000,
       amountBasis: "damages sought",
       state: "IL",
-      amount: "$12M+ sought; alleged ~$20M shortfall between JLL's implied valuation and the property's April 2026 sale price",
+      amount: "About $12.4 million sought, per Bisnow (more than $12 million, per Law360)",
       source: "live",
       sourceUrl: "https://www.law360.com/real-estate-authority/residential/articles/2515929/jll-hit-with-developer-s-12m-fraud-suit-over-dc-project",
-      summary: "Developer Rishi Bhatnagar and property owner 9 New York Ave LLC sued Jones Lang LaSalle Americas, Inc. in the Circuit Court of Cook County on August 21, alleging JLL fraudulently inflated its stabilized net operating income projection for a 14-story apartment tower at 9 New York Avenue NW in Washington, D.C. specifically to help the deal clear a construction lender's minimum debt-yield covenant. The complaint alleges JLL's $2,036,354 NOI figure implied a $50,997,681 valuation, but the property sold in April 2026 for only about $30.5 million, close to the developer's own original 2020 estimate, and seeks more than $12 million in damages. JLL points to a separate letter agreement it says limits any claims to a brokerage-fee dispute, which the plaintiffs contest.",
-      significance: "Tests whether a brokerage's borrower-side income projections, prepared to help a deal clear a lender's underwriting threshold, can expose the firm to fraud liability beyond an ordinary negligent-underwriting claim. Because construction and bridge lenders routinely rely on the sponsor's own broker to generate the NOI figures used to size a loan, the dispute is a cautionary marker for developers, lenders, and brokerages about projections that conveniently clear a covenant threshold and then substantially miss in practice.",
+      summary: "A developer and property owner 9 New York Ave LLC sued Jones Lang LaSalle Americas, Inc. in Cook County, Illinois in August 2026, alleging JLL fraudulently inflated its projections of stabilized net operating income for the Pinnacle, a 14-story, 115-unit apartment building at 7 New York Ave. NE in Washington, D.C., Law360 and Bisnow reported. According to Bisnow, the suit alleges JLL raised its projection in successive versions until it cleared the 8.5% minimum debt yield JLL said construction lenders would require, implying a $51 million stabilized value; the building sold in April 2026 for $30.5 million. The suit seeks about $12.4 million on claims including fraud and breach of fiduciary duty, and JLL did not respond to Bisnow's requests for comment.",
+      significance: "The suit tests whether an adviser's income projections, prepared while a project was seeking construction financing, can support fraud and fiduciary-duty claims rather than an ordinary dispute over a forecast that missed. The allegations are untested, and JLL has not publicly responded.",
       body: [
-        "A Chicago-based developer and the entity that owned a Washington, D.C. apartment project have sued Jones Lang LaSalle Americas, Inc. for more than $12 million, alleging the brokerage giant fraudulently inflated the property's projected net operating income specifically to help the deal clear a construction lender's minimum debt-yield requirement. The complaint, filed by developer Rishi Bhatnagar and property owner 9 New York Ave LLC in the Circuit Court of Cook County, Illinois on August 21, 2026, centers on a 14-story luxury multifamily tower at 9 New York Avenue NW in Washington. It is a pointed test of how far a brokerage's advisory role in underwriting a deal can expose it to fraud liability when a lender-driven number turns out to have been aspirational rather than analytical.",
-        "According to the complaint, the plaintiffs originally acquired the land beneath the project for $4.6 million and, relying on financial projections JLL prepared in its capacity as the project's underwriting and advisory broker, went on to pour more than $13 million into the development. The suit's central allegation is not simply that JLL's numbers were wrong, but that they were revised upward on a schedule that tracked the lender's needs rather than the market: plaintiffs allege JLL repeatedly increased its projected stabilized NOI figure, ultimately settling on $2,036,354, specifically because a lower, more defensible number would not have cleared the construction lender's minimum debt-yield covenant. A building whose honestly underwritten income cannot clear a lender's debt-yield floor either has to be financed with less leverage or cannot be financed on the proposed terms at all, and the complaint frames JLL's repeated upward revisions as a workaround engineered to avoid that outcome rather than an honest reassessment of the asset's prospects.",
-        "The gap between projection and reality, as pled, is stark. The complaint alleges the building's actual stabilized operating performance fell far short of JLL's $2,036,354 NOI projection and landed close to the developer's own, far more conservative 2020 estimate. The property was ultimately sold in April 2026 for approximately $30.5 million, a price that came within roughly 2% of the developer's original 2020 valuation but landed nearly $20 million below the $50,997,681 valuation JLL's inflated NOI figure had implied. That shortfall is the rough basis for the more-than-$12-million damages figure the plaintiffs are now seeking.",
-        "JLL has signaled it intends to contest both the underlying fraud theory and the case's scope. Court filings indicate the brokerage has pointed to a separate letter agreement between JLL and Bhatnagar individually, not signed by 9 New York Ave LLC, the property-owning entity, that JLL contends governs the parties' relationship and limits any claims to a dispute over brokerage fees. The plaintiffs dispute that characterization, arguing the letter agreement's scope is confined to fee arrangements and does not reach, let alone release, the fraud and misrepresentation claims now before the court. That threshold argument, if JLL presses it as a motion to dismiss or for summary judgment, could resolve the case on contractual-scope grounds well before any fact-finder reaches the merits of the NOI allegations.",
-        "For commercial real estate lenders, developers, and the brokerages that sit between them, the case is a reminder that a project's financial narrative typically has more than one author. Construction and bridge lenders routinely condition proceeds on income projections that a borrower's own broker prepares or blesses, which puts that broker in an unusually consequential position: the same firm advising the sponsor on lease-up and disposition strategy is often also the source of the number a lender relies on to size its loan. When a project's real-world performance diverges sharply from a projection that happened to land just above a covenant threshold, as alleged here, that convergence of timing and magnitude is exactly the kind of circumstantial pattern that can support a fraud claim rather than a garden-variety negligent-underwriting dispute, which is typically far harder to plead and litigate.",
-        "Developers and property owners who rely on a broker's financial projections to secure construction or bridge financing would be well served to independently stress-test those numbers, ideally against a second, unaffiliated source, before they become the basis for a loan-sizing decision, and to preserve the drafting history of any projection that shifts materially over the course of underwriting. Sponsors negotiating engagement or fee letters with brokerage advisers should scrutinize how narrowly those agreements define the broker's role and any liability waivers, since a counterparty may later argue such a letter caps exposure to fee disputes alone. And lenders that condition loan proceeds on broker-prepared NOI projections should consider requiring underwriting certifications or independent verification where the broker has an ongoing commercial relationship with the borrower, particularly when a projection sits just above a debt-yield or DSCR covenant threshold."
+        "The developer and 9 New York Ave LLC filed the suit in the Circuit Court of Cook County, where JLL is headquartered, Law360 and Bisnow reported. Bisnow reported that the developer, a Maryland-based investor who had put money into multifamily deals before but is not a specialist in the sector, delivered the 115-unit Pinnacle in the NoMa neighborhood in 2024 and sold it in April 2026 to July Residential for $30.5 million. The complaint asserts breach of contract, fraud, fraudulent inducement, negligent misrepresentation and breach of fiduciary duty.",
+        "According to Bisnow's account of the complaint, JLL projected stabilized NOI of $1.65 million in March 2021 and said construction lenders would require a minimum 8.5% debt yield, which that figure did not meet. JLL allegedly raised its projection to $1.94 million in December 2021 despite what the suit calls no material change in the property, then to $2.04 million in January 2022 and $2.07 million in the model given to the lender's appraiser, a level that cleared the threshold and implied a $51 million stabilized value. The suit attributes the increases to higher assumed rents, lower payroll, lower vacancy and no rent concessions. The appraisal for the lender, Hingham Institution for Savings, projected NOI of $1.85 million, and an appraisal the developer obtained in December 2020, before hiring JLL, projected $1.4 million.",
+        "The suit says the developer invested more than $13.3 million and lost more than $7.4 million; the damages claim adds fees, interest and $4.3 million in lost opportunity. Hingham made a $23.7 million construction loan in May 2022, according to D.C. land records cited by Bisnow. The suit also says the developer tried in June to arbitrate under an April 2021 project management agreement, but JLL declined, arguing the claims did not fall under that agreement. JLL did not respond to Bisnow's requests for comment."
       ],
       timeline: [
-        { when: "April 2026", label: "Property sells for approximately $30.5 million, nearly $20 million below JLL's implied valuation" },
-        { when: "August 21, 2026", label: "Bhatnagar and 9 New York Ave LLC file fraud suit against JLL in Cook County Circuit Court",  current: true }
+        { when: "March 2021", label: "JLL projects stabilized NOI of $1.65 million, according to the suit" },
+        { when: "April 2021", label: "Developer and JLL sign a project management agreement, according to the suit" },
+        { when: "May 2022", label: "Hingham Institution for Savings makes a $23.7 million construction loan" },
+        { when: "2024", label: "The 115-unit Pinnacle is delivered" },
+        { when: "April 2026", label: "Building sells to July Residential for $30.5 million" },
+        { when: "August 2026", label: "Developer and 9 New York Ave LLC sue JLL in Cook County Circuit Court", current: true }
       ],
-      tags: ["broker fraud", "NOI projections", "debt yield", "construction lending", "multifamily"]
+      tags: ["broker fraud", "NOI projections", "debt yield", "construction lending", "multifamily"],
+      propertyType: "Multifamily"
     },
     {
       id: "live-036",
@@ -2272,77 +2276,43 @@ const RELAW_DATA = {
       tags: ["cmbs foreclosure", "special servicer", "retail condo", "loan maturity default", "chicago"]
     },
     {
-      id: "live-077",
-      seoTitle: "Plymouth Industrial REIT: Court Rejects $60M Merger Fee Bid",
-      seoDescription: "Court denied Redimere Advisors' bid to escrow $60 million from Plymouth Industrial REIT's $2.1 billion sale and dismissed its success-fee claims.",
-      addedDate: "2026-09-05",
-      title: "Redimere Advisors LLC v. Plymouth Industrial REIT, Inc. (Unregistered Broker's $60M Merger Injunction Denied)",
-      brief: "A Suffolk County judge refused to block or escrow $60 million from Plymouth Industrial REIT's $2.1 billion take-private and dismissed an unregistered broker's roughly $20 million fee claim.",
-      category: "reit-securities",
-      status: "ruling",
-      date: "2026-01-20",
-      jurisdiction: "Suffolk County Superior Court, Massachusetts",
-      parties: [
-        { name: "Redimere Advisors, LLC", role: "Plaintiff" },
-        { name: "Plymouth Industrial REIT, Inc.", role: "Defendant" },
-        { name: "PIR Industrial REIT LLC", role: "Defendant" }
-      ],
-      amountUsd: 20000000,
-      amountBasis: "claim",
-      state: "MA",
-      amount: "$60M sought to be escrowed; ~$20M success-fee claim dismissed",
-      source: "live",
-      sourceUrl: "https://www.masschapter93ainsights.com/2026/06/massachusetts-business-litigation-session-holds-unregistered-broker-cannot-recover-20-million-success-fee-for-take-private-transaction/",
-      summary: "In the Business Litigation Session of Suffolk County Superior Court, Justice Kenneth W. Salinger denied Redimere Advisors LLC's emergency motion to enjoin, or alternatively escrow $60 million in proceeds from, Plymouth Industrial REIT's $2.1 billion all-cash take-private acquisition by Makarora Management LP and Ares Alternative Credit funds. The court dismissed all of Redimere's claims to a roughly $20 million oral success fee, holding the fee was both outside the scope of Redimere's written engagement letter and unenforceable because Redimere acted as an unregistered broker on a securities transaction.",
-      significance: "Confirms that unregistered intermediaries cannot use oral fee arrangements to claim a cut of a REIT M&A transaction, and shows courts' reluctance to freeze merger proceeds or delay a closing on a contested, legally weak fee claim. Relevant to REITs and advisory firms alike in structuring and enforcing deal-introduction and success-fee agreements.",
-      body: [
-        "A Massachusetts judge has dismantled an eleventh-hour attempt to hold up the $2.1 billion take-private acquisition of Plymouth Industrial REIT, Inc., ruling that a real estate advisory firm's claim to a roughly $20 million success fee on the deal could not proceed because the firm was acting as an unregistered securities broker when it says it earned that fee. The ruling, issued January 20, 2026 by Justice Kenneth W. Salinger in the Business Litigation Session of Suffolk County Superior Court, denied plaintiff Redimere Advisors LLC's emergency motion for a preliminary injunction and dismissed all of its claims against Plymouth, resolving a dispute that had briefly threatened to complicate the merger's closing.",
-        "Plymouth Industrial REIT, a publicly traded industrial REIT, agreed to be acquired by an investor group led by Makarora Management LP together with funds affiliated with Ares Alternative Credit in an all-cash transaction valuing the company at $22.00 per share, or approximately $2.1 billion. Redimere Advisors, which describes itself as a real estate advisory and brokerage firm, claimed it had orally agreed with Plymouth to earn a 2% success fee, roughly $20 million on a deal of this size, in exchange for introducing Plymouth to the Makarora and Ares buyer group and assisting in bringing the take-private transaction to a close. Plymouth countered that its only written engagement with Redimere, a letter agreement dated November 28, 2022, covered a narrower scope of equity-financing work and did not extend to the merger. When Plymouth declined to pay the claimed fee, Redimere sued and sought an emergency injunction that would have blocked the merger from closing, or alternatively diverted roughly $60 million of the merger proceeds into escrow with a third-party trustee pending resolution of its claims.",
-        "Justice Salinger's ruling disposed of the case on two independent grounds, either of which would likely have been sufficient on its own. First, the court found that the written 2022 engagement letter did not cover the take-private transaction with Makarora and Ares, meaning Plymouth had no contractual obligation to pay Redimere a fee on that deal regardless of what role Redimere may have played in facilitating it. Second, and more consequentially for the broader industry, the court held that any oral agreement to pay Redimere a transaction-based success fee was unenforceable because Redimere was acting as an unregistered broker in connection with a securities transaction, in violation of the registration requirements of the federal Securities Exchange Act. Because the merger involved the sale of Plymouth's publicly traded securities rather than a direct asset sale, arranging or facilitating that transaction for a transaction-based fee is activity federal securities law reserves to registered broker-dealers, and an unregistered firm generally cannot use the courts to enforce a fee arrangement premised on having performed that function.",
-        "The decision carries implications well beyond this single dispute. Real estate advisory firms, deal originators, and finders frequently operate on the understanding that a handshake or email exchange promising a percentage-based fee for introducing a buyer is enforceable so long as the introduction leads to a closed transaction. Where the underlying transaction is structured as a stock or securities deal, as REIT take-privates and public company mergers generally are, that assumption can be wrong as a matter of law regardless of the equities of who actually brought the parties together, since the registration requirement exists precisely to ensure that intermediaries facilitating securities transactions are subject to regulatory oversight.",
-        "For REITs and other public companies pursuing M&A or take-private transactions, the case also illustrates how courts weigh eleventh-hour injunction requests aimed at merger proceeds. Judges are generally reluctant to freeze deal proceeds or delay a closing based on a contested fee claim where the underlying contractual and regulatory defenses are strong enough to be resolved at the motion stage. Redimere's decision to seek both an injunction against the closing and, alternatively, an escrow of tens of millions of dollars reflects a litigation strategy that depends on a court being willing to disrupt a transaction's timeline even where the underlying claim is legally shaky, and here that strategy failed on both fronts.",
-        "REITs and other public real estate companies negotiating with outside advisors, brokers, or deal originators should ensure written engagement letters clearly define the scope of covered transactions, since ambiguity about whether a later, larger deal falls within an earlier engagement is exactly the kind of gap that generates litigation. Any intermediary expecting to earn a transaction-based fee on a securities deal should confirm it is either a registered broker-dealer or that its role and compensation fit within an available exemption before assuming an oral fee arrangement will be enforceable, and companies facing a late fee dispute as a deal approaches closing should recognize that courts are generally unwilling to freeze merger proceeds absent a strong showing on the merits, which limits the practical leverage such claims carry even on an emergency basis."
-      ],
-      timeline: [
-        { when: "November 28, 2022", label: "Plymouth and Redimere sign a written engagement letter covering equity-financing work" },
-        { when: "January 20, 2026", label: "Justice Salinger denies Redimere's injunction and dismisses all claims, clearing the $2.1B merger to close", current: true }
-      ],
-      judge: "Kenneth W. Salinger",
-      tags: ["reit merger", "unregistered broker", "success fee", "securities exchange act", "massachusetts"]
-    },
-    {
       id: "live-078",
       seoTitle: "PrimeBlock Data Center Murphy NC: Noise Nuisance Class Action",
       seoDescription: "Neighbors' proposed class action says PrimeBlock's crypto-mining and AI data center near Murphy, North Carolina makes constant noise.",
       addedDate: "2026-09-05",
-      title: "Stines v. PrimeBlock Operations, LLC (Data Center Noise Nuisance Remand Fight)",
-      brief: "A proposed class of about 1,000 nearby property owners alleges noise from PrimeBlock's crypto-mining and AI data center near Murphy, North Carolina; they moved September 2, 2026 to remand the case to state court.",
+      title: "Neighbors' Noise Nuisance Class Action Against PrimeBlock Operations, LLC (Murphy, N.C. Data Center Remand Fight)",
+      brief: "Neighbors' proposed class action alleges unremitting noise from a crypto-mining and AI data center in Murphy, North Carolina; after a defendant removed it to federal court, they moved on August 31, 2026 to remand.",
       category: "environmental",
       status: "pending",
-      date: "2026-09-02",
+      date: "2026-08-31",
       jurisdiction: "U.S. District Court, Western District of North Carolina",
       parties: [
-        { name: "PrimeBlock Operations, LLC", role: "Defendant" }
+        { name: "PrimeBlock Operations, LLC", role: "Defendant" },
+        { name: "PrimeBlock Mining LLC", role: "Defendant" },
+        { name: "Exponential Digital LLC", role: "Defendant" },
+        { name: "Exponential Digital Murphy, LLC", role: "Defendant" },
+        { name: "Innotech Z, Inc.", role: "Defendant" }
       ],
-      judge: null,
+      judge: "Martin Reidinger",
       amountUsd: null,
       state: "NC",
-      amount: "Proposed class of ~1,000 property owners; damages pled below federal CAFA threshold",
+      amount: "Proposed class of nearly 1,000 nearby property owners; damages unspecified",
       source: "live",
       sourceUrl: "https://www.law360.com/real-estate-authority/residential/articles/2520088",
-      summary: "Residents Judith Stines and William Huffman filed a proposed class action against PrimeBlock Operations, LLC and affiliates Exponential Digital LLC and Innotech Z Inc., alleging unabated noise from a cryptocurrency-mining and AI data center near Murphy, North Carolina has substantially interfered with the use and enjoyment of roughly 1,000 nearby properties since the facility began operating in September 2021. After the case was removed to federal court, the plaintiffs moved on September 2, 2026 to remand it to state court, arguing their damages fall short of the amount-in-controversy threshold required for federal jurisdiction.",
-      significance: "Data centers and crypto-mining facilities are being sited at a pace that increasingly collides with existing rural and residential land uses, and this case shows neighboring property owners turning to common-law nuisance theories rather than waiting on local noise ordinances alone. The forum fight also illustrates how a class action's damages framing can be calibrated specifically to keep — or remove — a case from federal court before the merits are ever reached.",
+      summary: "Two Cherokee County, North Carolina residents filed a proposed class action on July 7, 2026 in Cherokee County Superior Court against PrimeBlock Operations, LLC, PrimeBlock Mining LLC, Exponential Digital LLC, Exponential Digital Murphy, LLC and Innotech Z, Inc. They allege that a cryptocurrency-mining and AI data center at 3125 Harshaw Road in Murphy has produced excessive, unremitting noise since about September 2021. Innotech Z removed the case to the U.S. District Court for the Western District of North Carolina on August 7, and the plaintiffs moved on August 31 to send it back to state court, Law360 reported. The motion is fully briefed.",
+      significance: "The suit shows neighbors of a crypto-mining and data center site turning years of noise complaints into a proposed class action seeking damages and an injunction. The remand motion will decide whether a state or federal court hears the claims.",
       body: [
-        "A proposed class action over noise from a cryptocurrency-mining and artificial-intelligence data center in rural Cherokee County, North Carolina has turned into a fight over which court gets to hear it, in a dispute that will help define how commercial data-center operators and their neighbors litigate nuisance claims as the industry's physical footprint keeps expanding into residential and rural areas. Residents Judith Stines and William Huffman sued PrimeBlock Operations, LLC, a California-based bitcoin-mining company, along with affiliated entities Exponential Digital LLC and Innotech Z Inc., alleging the roughly three-acre facility near Harshaw Road outside Murphy has generated continuous, unabated noise from its servers, generators, and industrial cooling systems since it began operating in September 2021.",
-        "According to the complaint, sound-level readings near affected properties have ranged from 55 to 85 decibels depending on weather conditions, and neighbors describe the noise not primarily by its volume but by its constancy — one resident likened it to a small jet that never leaves. Stines and Huffman are seeking to represent a class of property owners and residents within a two-mile radius of the facility, a group the complaint estimates at nearly 1,000 people, on the theory that the defendants have declined to invest in basic noise-abatement measures despite years of documented complaints.",
-        "The case was removed from state court to the U.S. District Court for the Western District of North Carolina, and the plaintiffs have since moved to send it back, arguing on September 2, 2026 that the damages actually at stake fall short of the amount-in-controversy threshold required to keep a proposed class action in federal court under the Class Action Fairness Act. That threshold fight is not a technicality so much as a proxy battle over venue advantage: state courts in rural counties are often viewed as more receptive to local nuisance and property-value claims, while federal court offers a defendant more predictable procedural rules and, in a CAFA-eligible case, more rigorous scrutiny of aggregate class damages before certification. How a plaintiff frames its damages ask at the outset of a nuisance class action can therefore be less about maximizing recovery and more about controlling where the case gets decided.",
-        "The dispute also highlights a gap between regulatory compliance and common-law liability that matters well beyond this one facility. Murphy and other municipalities that have seen mining or data-center noise complaints have responded by adopting new local noise ordinances, but satisfying a decibel limit measured at a property line does not resolve whether an operation's ongoing noise substantially and unreasonably interferes with a neighbor's use and enjoyment of their own property under common-law nuisance doctrine. A facility can be fully compliant with an applicable ordinance and still face a viable nuisance claim, because the two legal standards ask different questions and are enforced through entirely different mechanisms — one through code enforcement, the other through private civil litigation.",
-        "For developers, operators, and lenders financing data centers, crypto-mining facilities, and similar high-density industrial infrastructure, the case is a reminder that community noise complaints sustained over several years can mature into class-scale civil exposure well before any regulator acts, and that removal to federal court is a strategic choice with real downside if a remand motion succeeds after months of litigation have already been spent contesting the forum rather than the merits. Site-selection and community-relations diligence for this asset class increasingly needs to account for nuisance litigation risk with the same rigor traditionally reserved for zoning and permitting review."
+        "The complaint seeks to represent people who own and live on residential property within two miles of the site, and says a search of county tax records found nearly 1,000 property owners in that area. It alleges the facility opened as a cryptocurrency-mining operation in mid-2021 on a three-acre site that began with five shipping containers of servers cooled by fans, that the PrimeBlock defendants have operated it since about September 2021, and that Innotech Z took title to the property in June 2025 and has taken part in running it since then. It also alleges that ways to reduce data center noise are widely known.",
+        "The complaint describes years of local complaints. Residents raised the noise at an October 2021 county commissioners' meeting, where one resident said it reached about 65 decibels in her yard and a commissioner compared it to a commercial jet at take-off. An April 2022 attempt to tighten the county's noise ordinance failed, and the county adopted a moratorium on new crypto-mining facilities in October 2023. The suit asserts private and public nuisance claims, among others, and seeks compensatory and punitive damages and injunctive relief.",
+        "Innotech Z removed the case to federal court on August 7, 2026, invoking diversity jurisdiction. The plaintiffs moved to remand on August 31, Innotech Z opposed on September 21, and the plaintiffs replied on October 12. The court has paused the defendants' deadline to respond to the complaint until it rules on the remand motion."
       ],
       timeline: [
-        { when: "September 2021", label: "PrimeBlock's cryptocurrency-mining and AI data center begins operating near Murphy, North Carolina" },
-        { when: "July 24, 2026", label: "Stines and Huffman file a proposed class action alleging unabated facility noise" },
-        { when: "September 2, 2026", label: "Plaintiffs move to remand the removed case back to North Carolina state court", current: true }
+        { when: "September 2021", label: "PrimeBlock defendants begin operating the facility at 3125 Harshaw Road, according to the complaint" },
+        { when: "July 7, 2026", label: "Residents file a proposed class action in Cherokee County Superior Court" },
+        { when: "August 7, 2026", label: "Innotech Z removes the case to federal court" },
+        { when: "August 31, 2026", label: "Plaintiffs move to remand the case to state court" },
+        { when: "September 21, 2026", label: "Innotech Z opposes remand" },
+        { when: "October 12, 2026", label: "Plaintiffs file their reply; the remand motion is fully briefed", current: true }
       ],
       tags: ["data center", "nuisance", "class action", "remand", "north carolina"],
       docketUrl: "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
@@ -3230,12 +3200,12 @@ const RELAW_DATA = {
     },
     {
       id: "live-105",
-      seoTitle: "Ridgeline Data Center Tucker County WV: Air Permit Appeal Tossed",
-      seoDescription: "West Virginia appeals court dismissed challenges to the air permit for Fundamental Data's 1,600-megawatt Ridgeline data center in Tucker County.",
+      seoTitle: "Ridgeline Data Center Tucker County WV: Air Permit Appeals Tossed",
+      seoDescription: "A West Virginia appeals court dismissed two challenges to the air permit for Fundamental Data's Ridgeline project in Tucker County for lack of jurisdiction.",
       property: {"name": "Ridgeline", "state": "WV"},
       addedDate: "2026-09-10",
       title: "Tucker United v. West Virginia Air Quality Board (Ridgeline Data Center Permit Appeal)",
-      brief: "A West Virginia appeals court dismissed, for lack of jurisdiction, challenges to the air permit for Fundamental Data's Ridgeline project, a 1,600-megawatt off-grid gas-and-diesel power plant and data center on 500 acres.",
+      brief: "West Virginia's Intermediate Court of Appeals dismissed environmental groups' two challenges to the air permit for Fundamental Data's Ridgeline power-and-data-center project in Tucker County, finding it lacked jurisdiction.",
       category: "environmental",
       status: "appeal",
       date: "2026-08-26",
@@ -3244,29 +3214,30 @@ const RELAW_DATA = {
         { name: "Tucker United", role: "Petitioner" },
         { name: "West Virginia Highlands Conservancy", role: "Petitioner" },
         { name: "Sierra Club", role: "Petitioner" },
+        { name: "Friends of Blackwater", role: "Petitioner" },
         { name: "West Virginia Air Quality Board", role: "Respondent" },
         { name: "Fundamental Data, LLC", role: "Intervenor (developer)" }
       ],
       judge: null,
       amountUsd: null,
       state: "WV",
-      amount: "1,600 MW off-grid gas/diesel power plant + data center; 500 acres",
+      amount: "No damages at issue; air permit for a gas-fired power facility serving a planned data center complex",
       source: "live",
       sourceUrl: "https://www.legalnewsline.com/west-virginia-record/ica-dismisses-two-tucker-co-data-center-environmental-cases/article_1c0102fc-3c78-4bcb-9cd6-761fc9ecaec3.html",
-      summary: "Tucker United, the Sierra Club, the West Virginia Highlands Conservancy, and Friends of Blackwater appealed the state Air Quality Board's approval of an air permit for Fundamental Data LLC's proposed Ridgeline power plant and data center -- a 1,600-megawatt off-grid gas-and-diesel facility on 500 acres near Davis and Thomas in Tucker County -- arguing DEP improperly classified it as a minor emissions source to limit public review. The Intermediate Court of Appeals dismissed both consolidated appeals (Nos. 26-ICA-92 and 25-ICA-391) on August 26, 2026 for lack of jurisdiction, holding that direct challenges to Air Quality Board permit decisions must go to circuit court or the West Virginia Supreme Court of Appeals, not the ICA -- but left the door open for the groups to appeal further with 'good cause' for the delay.",
-      significance: "A jurisdictional dead end that nonetheless keeps a large-scale off-grid data center's air permit contested well past groundbreaking, and a preview of how West Virginia's new data-center-friendly siting law (which strips local zoning authority over such projects) is shifting the real fight to environmental permitting venues instead. Developers building large gas-fired, off-grid power plants to serve data centers in West Virginia should expect permit challenges to migrate to whichever appellate forum a jurisdictional ruling like this one leaves open, prolonging uncertainty even after a project clears its underlying air permit.",
+      summary: "The West Virginia Intermediate Court of Appeals dismissed two appeals challenging the air-quality permit for Fundamental Data, LLC's proposed Ridgeline project near Thomas and Davis in Tucker County, which includes a natural-gas-fired power facility to serve a planned data center complex, the West Virginia Record reported on August 26, 2026. The court held that one appeal belonged in the state Supreme Court of Appeals, or in Kanawha County Circuit Court if all parties agreed, and that the other belonged in circuit court and was moot. It said it would find good cause for a late notice of appeal to the Supreme Court but could not require that court to accept one.",
+      significance: "The rulings leave the groups' challenge to the Ridgeline permit unresolved on the merits, turning instead on which court can hear it. For developers of power plants built to serve data centers, the case shows how a dispute over the proper appellate forum can lengthen the time a permit remains under challenge.",
       body: [
-        "Fundamental Data, LLC is developing Ridgeline, a proposed 1,600-megawatt off-grid power plant burning natural gas and diesel to run a co-located data center on roughly 500 acres near Davis and Thomas in Tucker County, West Virginia -- deep in the state's tourism-dependent Potomac Highlands. The project drew sustained local opposition, and after West Virginia's Air Quality Board approved the facility's air quality permit, four community and environmental groups -- Tucker United, the Sierra Club, the West Virginia Highlands Conservancy, and Friends of Blackwater -- filed appeals contending the West Virginia Department of Environmental Protection had improperly classified Ridgeline as a 'minor source' of air pollution, a designation the groups say lets the project avoid the more rigorous public review and emissions scrutiny a major source would face, while critical emissions data was redacted from what the public could review.",
-        "The litigation took an unusual procedural turn in mid-2026: two Intermediate Court of Appeals judges, Chief Judge Daniel W. Greear and Judge Charles O. Lorensen, voluntarily recused themselves after it emerged that Fundamental Data's counsel included West Virginia House Speaker Roger Hanshaw and colleagues from his law firm. The state Supreme Court of Appeals temporarily assigned circuit court judges Shawn D. Nines and Gregory L. Howard Jr. to hear the consolidated matters in their place.",
-        "On August 26, 2026, the ICA dismissed both consolidated appeals -- No. 26-ICA-92 (Tucker United, the Highlands Conservancy, and the Sierra Club) and No. 25-ICA-391 (Tucker United, Friends of Blackwater, and the Highlands Conservancy) -- for lack of jurisdiction. The court held that under West Virginia's conflicting statutory scheme, a challenge to an order approving, denying, or modifying an air permit must go directly to the West Virginia Supreme Court of Appeals or, in some circumstances, circuit court, rather than the ICA; the second appeal was independently deemed moot because the final permit challenged in it had already been superseded by the permit at issue in the first case. The court explicitly noted the environmental groups would have 'good cause' to file late notices of appeal with the state Supreme Court given how long the jurisdictional question took to resolve, effectively inviting them to refile there.",
-        "The case lands against the backdrop of a 2025 West Virginia law, HB 2014, that strips local governments of zoning authority over qualifying data-center projects in exchange for directing a large share of the tax revenue they generate to the state -- meaning environmental permitting challenges like this one, rather than local zoning fights, are becoming the primary legal avenue left for communities opposing large off-grid power-and-data-center campuses in the state. For developers, the jurisdictional back-and-forth is itself a form of delay: even a procedurally sound permit can stay contested for years while courts sort out which forum has authority to hear the challenge at all."
+        "Fundamental Data obtained an air permit in 2025 for the Ridgeline project, which includes a natural-gas-fired power facility intended to support a planned data center complex near Thomas and Davis, according to the West Virginia Record. Tucker United, the West Virginia Highlands Conservancy, the Sierra Club and Friends of Blackwater brought two appeals, and Fundamental Data intervened.",
+        "In No. 26-ICA-92, Tucker United, the Highlands Conservancy and the Sierra Club challenged a February 5 order of the Air Quality Board upholding the permit. The court held that a statutory exception requires such challenges to be filed in the Supreme Court of Appeals within 30 days unless all parties agree to proceed in Kanawha County Circuit Court. Because the parties did not agree, it dismissed the appeal as improvidently docketed, saying the outcome reflected a jurisdictional dispute rather than any lack of diligence by the petitioners.",
+        "In No. 25-ICA-391, Tucker United, Friends of Blackwater and the Highlands Conservancy challenged the board's handling of a draft permit and Fundamental Data's claims that some of its materials were confidential business information. The court held that such challenges go to the circuit court of the county where the pollution originates, or to Kanawha County Circuit Court by agreement, and that the appeal was moot because the final permit had already been issued and appealed. It left the trade-secret questions and the merits for the final-permit appeal, and each side bears its own costs.",
+        "Chief Judge Daniel W. Greear and Judge Charles O. Lorensen sought to recuse themselves after project opponents raised concerns about family and professional ties to Fundamental Data's outside counsel. The Supreme Court of Appeals granted the recusals in June and temporarily assigned circuit judges Shawn D. Nines and Gregory L. Howard Jr. to hear the cases."
       ],
-      tags: ["data center", "air quality permit", "jurisdictional dismissal", "off-grid power plant", "recusal"],
+      tags: ["data center", "air quality permit", "jurisdictional dismissal", "power plant", "recusal"],
       timeline: [
-        { when: "February 2026", label: "West Virginia Air Quality Board approves the Ridgeline facility's air quality permit" },
-        { when: "March 2026", label: "Tucker United and allied groups appeal the permit approval" },
-        { when: "April-June 2026", label: "ICA judges Greear and Lorensen recuse over ties to Fundamental Data's counsel; temporary judges assigned" },
-        { when: "August 26, 2026", label: "ICA dismisses both consolidated appeals for lack of jurisdiction, inviting refiling at the state Supreme Court", current: true }
+        { when: "2025", label: "Fundamental Data obtains an air permit for the Ridgeline project" },
+        { when: "February 5, 2026", label: "West Virginia Air Quality Board issues an order upholding the permit" },
+        { when: "June 2026", label: "Supreme Court of Appeals grants two ICA judges' recusals and assigns temporary judges" },
+        { when: "August 2026", label: "ICA dismisses both appeals for lack of jurisdiction, noting it would find good cause for a late appeal to the Supreme Court", current: true }
       ]
     },
     {
@@ -4031,42 +4002,41 @@ const RELAW_DATA = {
     {
       id: "live-129",
       seoTitle: "City of Prospect KY: $36.3M Fair Housing Verdict for LDG",
-      seoDescription: "Jefferson County jury awarded LDG Development $36.3 million against Prospect, Kentucky over its 2017 denial of a 198-unit senior apartment project.",
+      seoDescription: "A Jefferson County jury awarded LDG Development $36.3 million against Prospect, Kentucky over its opposition to a 198-unit senior affordable apartment project.",
       property: {"name": "Prospect Cove", "city": "Prospect", "state": "KY"},
       addedDate: "2026-09-12",
       title: "LDG Development, LLC v. City of Prospect, Kentucky (Prospect Cove Fair Housing Zoning-Denial Verdict)",
-      brief: "A jury awarded LDG Development $36.3 million, including approximately $7.3M punitive, finding Prospect, Kentucky's 2017 zoning denial for a 198-unit senior apartment complex violated the Fair Housing Act.",
+      brief: "A Jefferson County jury awarded LDG Development $36.3 million against Prospect, Kentucky, finding the city violated the Fair Housing Act and the Equal Protection Clause in opposing a 198-unit senior apartment project.",
       category: "zoning-land-use",
       status: "ruling",
-      date: "2026-08-26",
+      date: "2026-08-25",
       jurisdiction: "Jefferson Circuit Court, Kentucky",
       parties: [
         { name: "LDG Development", role: "Plaintiff" },
-        { name: "City of Prospect", role: "Defendant" }
+        { name: "City of Prospect", role: "Defendant" },
+        { name: "Louisville Metro Government", role: "Defendant (settled)" }
       ],
       judge: null,
       amountUsd: 36300000,
       amountBasis: "award",
       state: "KY",
-      amount: "$36.3M jury verdict, including approximately $7.3M in punitive damages",
+      amount: "$36.3M jury verdict, including more than $7.3M in punitive damages (per LDG's counsel)",
       source: "live",
       sourceUrl: "https://www.law360.com/real-estate-authority/residential/articles/2518782",
-      summary: "A Jefferson County jury awarded affordable-housing developer LDG Development $36.3 million against the City of Prospect, Kentucky, finding on five of eight submitted counts that the town's 2017 rejection of a zoning change for a 198-unit senior apartment complex violated the federal Fair Housing Act and the Equal Protection Clause. The verdict, including roughly $7.3 million in punitive damages, follows a two-week trial and caps litigation LDG first filed in 2017; co-defendant Louisville Metro Government had already settled separately in 2025 for $6 million.",
-      significance: "Puts a concrete, nine-figure price on a zoning board's rejection of affordable housing where the record shows the denial was pretextual, giving developers a strong deterrent precedent against municipalities that use land-use process to exclude protected classes of prospective tenants. Municipal counsel and zoning bodies elsewhere should treat undocumented departures from planning-staff recommendations, driven by organized opposition focused on prospective residents rather than legitimate land-use criteria, as carrying real fair-housing exposure.",
+      summary: "A Jefferson County, Kentucky jury on August 25, 2026 awarded affordable-housing developer LDG Development $36.3 million against the City of Prospect, ruling for LDG on five of eight counts, including Fair Housing Act and equal protection claims, Louisville Public Media and Law360 reported. LDG's trial counsel said the award includes more than $7.3 million in punitive damages. The case arose from the Louisville Metro Council's 2017 rejection of LDG's Prospect Cove senior apartment project; Louisville Metro settled separately for $6 million and policy changes. Prospect's mayor said the city disagrees with the verdict and is evaluating its next steps.",
+      significance: "The verdict puts a dollar figure on a suburb's opposition to an affordable housing project, even though the zoning vote itself was cast by Louisville Metro Council. Developers and local governments will watch whether the award holds up if Prospect challenges it.",
       body: [
-        "A Jefferson County, Kentucky jury has ordered the City of Prospect to pay more than $36.3 million to affordable-housing developer LDG Development, finding that the wealthy Louisville suburb's decade-old rejection of a proposed 198-unit senior apartment complex violated the federal Fair Housing Act and the Equal Protection Clause. The verdict, returned August 26, 2026 after a two-week trial in Jefferson Circuit Court, includes roughly $7.3 million in punitive damages and closes out litigation that began in 2017, when local officials voted down a zoning change needed to build the project. For commercial developers, municipal land-use bodies, and the neighborhood groups that often pressure them, the case is a rare instance of a jury putting a concrete, nine-figure price tag on a zoning denial found to be discriminatory.",
-        "The dispute traces to LDG's proposal, first submitted around 2016, to build Prospect Cove, a four-story, 198-unit affordable apartment complex for seniors, including residents with disabilities, on land near the intersection of River Road and Timber Ridge Drive in Prospect. City and county planning staff initially reviewed the application favorably, but the Louisville Metro Council, which held final say over the necessary zoning change, rejected it in a 14-11 vote in 2017. LDG sued that year, naming both Louisville Metro Government and the City of Prospect, and alleging that the denial was not a legitimate land-use decision but a pretext for excluding low-income and, the complaint argued, disproportionately Black tenants from an affluent, largely white suburb.",
-        "The nearly decade-long litigation moved in fits and starts, including an early setback for LDG when a trial-level ruling upheld the rejection, before the case eventually proceeded toward trial on claims against both government defendants. Louisville Metro Government broke from the City of Prospect first, agreeing in August 2025 to a $6 million settlement that also committed city officials to legislative changes intended to streamline the approval process for future affordable-housing applications, leaving Prospect as the sole remaining defendant when the case went to trial in March 2026.",
-        "The jury sided with LDG on five of eight counts submitted for its consideration, awarding damages that credited the developer's claims of lost value and delay-related costs tied to the years-long fight to build the project, along with punitive damages reflecting a finding that Prospect's conduct went beyond ordinary land-use disagreement. LDG has said it intends to move forward with construction of the senior housing complex, targeting a groundbreaking in late 2026 or early 2027, meaning the project Prospect spent nearly a decade fighting will likely still get built, just years later and considerably more expensively for the city that resisted it.",
-        "The case sits at the intersection of municipal zoning discretion and federal fair-housing liability. Local governments generally enjoy substantial deference over land-use decisions, but that deference evaporates once a plaintiff can show a facially neutral zoning process was, in substance, a vehicle for excluding a protected class of prospective residents. Discovery in Fair Housing Act zoning cases frequently turns up exactly the kind of evidence that can convert a routine land-use dispute into a discrimination claim: council members' informal communications with organized opposition groups, staff recommendations reversed without a clear planning rationale, and a record showing comparable projects proposed elsewhere moved through the same approval process without similar resistance.",
-        "For developers building affordable or income-restricted housing in higher-income suburban jurisdictions, the practical lesson is to preserve records of a project's planning merits, staff recommendations, and any public comments that focus on prospective tenants rather than legitimate land-use criteria, since that record is exactly what can later convert a zoning loss into a fair-housing damages claim. For municipal counsel and elected zoning bodies, the lesson runs the other way: a denial that departs from staff recommendations, follows organized opposition centered on the type of resident a project would serve, and lacks a documented planning rationale now carries a demonstrated risk of a nine-figure jury verdict, on top of the likelihood that the rejected project gets built anyway once the litigation runs its course."
+        "LDG proposed Prospect Cove, a four-story, 198-unit affordable apartment complex for seniors in Prospect, a Louisville suburb, in 2016. According to LDG's counsel, Louisville Metro Council denied the project in 2017 after strong opposition from the City of Prospect and local residents. LDG sued Prospect and Metro that year, arguing, as Louisville Public Media summarized it, that the city opposed the project because of its association with low-income, senior, disabled and racial-minority residents.",
+        "Louisville Metro settled with LDG, in a settlement LDG's counsel announced in December 2025, agreeing to pay $6 million and to make changes that include a smaller Metro Council role in zoning changes the Planning Commission approves unanimously, longer approval windows for affordable housing projects, and Fair Housing Act training for council members and staff. The claims against Prospect went to trial on August 10, 2026.",
+        "After a two-week trial, the jury found for LDG on five of eight counts, including violations of the Fair Housing Act and the Equal Protection Clause, and awarded $36.3 million. Law360 reported that the jury found the suburb's officials conspired to block the project. Prospect Mayor Doug Farnsley said the city \"disagrees with the jury's decision\" and is evaluating its next steps.",
+        "LDG has said it plans to break ground at the end of 2026 or early 2027. Louisville Public Media reported that the Kentucky Housing Corporation awarded LDG $26 million in tax-exempt bonds in August 2026, and an LDG spokesperson said construction costs have doubled since the suit began."
       ],
       timeline: [
-        { when: "2016", label: "LDG Development submits its Prospect Cove zoning application for a 198-unit senior apartment complex" },
-        { when: "2017", label: "Louisville Metro Council rejects the zoning change 14-11; LDG sues Louisville Metro Government and the City of Prospect" },
-        { when: "August 2025", label: "Louisville Metro Government settles separately with LDG for $6 million" },
-        { when: "March 2026", label: "Trial begins against the City of Prospect in Jefferson Circuit Court" },
-        { when: "August 26, 2026", label: "Jury awards LDG $36.3 million, including $7.3 million in punitive damages", current: true }
+        { when: "2016", label: "LDG Development proposes Prospect Cove, a 198-unit senior affordable apartment complex" },
+        { when: "2017", label: "Louisville Metro Council rejects the project; LDG sues Louisville Metro and the City of Prospect" },
+        { when: "December 2025", label: "LDG's settlement with Louisville Metro, including $6 million and policy changes, is announced" },
+        { when: "August 10, 2026", label: "Trial against the City of Prospect begins" },
+        { when: "August 25, 2026", label: "Jury awards LDG $36.3 million against Prospect", current: true }
       ],
       tags: ["fair housing", "zoning denial", "affordable housing", "equal protection", "kentucky"]
     },
@@ -6086,37 +6056,41 @@ const RELAW_DATA = {
     },
     {
       id: "live-196",
-      seoTitle: "Northwoods Mall North Charleston: Negligent Security Suit vs. CBL",
-      seoDescription: "A negligent-security suit against CBL & Associates Properties and its security contractors follows a food court stabbing at Northwoods Mall.",
+      seoTitle: "Northwoods Mall North Charleston: Negligent Security Lawsuit",
+      seoDescription: "A woman stabbed in Northwoods Mall's food court sued the mall and security firm Allied Universal, alleging inadequate security, WCSC Live 5 reported.",
       property: {"name": "Northwoods Mall", "city": "North Charleston", "state": "SC"},
       addedDate: "2026-09-28",
       featured: true,
-      title: "Murphy v. CBL & Associates Properties, Inc. (Negligent Security Suit Over Northwoods Mall Food Court Stabbing)",
-      brief: "A woman stabbed in Northwoods Mall's food court sued owner CBL & Associates and its security contractors for negligent security, the latest premises claim tied to incidents at the North Charleston mall.",
+      title: "Negligent Security Suit Over Northwoods Mall Food Court Stabbing (North Charleston, S.C.)",
+      brief: "A woman stabbed in the Northwoods Mall food court in North Charleston sued the mall and security contractor Allied Universal, alleging security failed to stop an attacker carrying an open blade, WCSC reported.",
       category: "premises-liability",
       status: "filed",
-      date: "2026-09-25",
+      date: "2026-09-24",
       jurisdiction: "South Carolina Court of Common Pleas, Charleston County",
       state: "SC",
       amount: "Unspecified damages sought",
       source: "live",
       sourceUrl: "https://www.live5news.com/2026/09/25/lawsuit-woman-stabbed-northwoods-mall-sues-mall-owners-security/",
-      summary: "A woman stabbed in the food court of Northwoods Mall in North Charleston, South Carolina on March 4, 2026 has sued the mall's owner, CBL & Associates Properties, Inc., along with its security contractors, alleging inadequate security let her attacker walk in with an open knife and attack her before anyone intervened. The suit, filed in late September 2026, is the latest in a series of premises-liability claims arising from security incidents at the same mall, including an earlier shooting that also produced litigation against the ownership and its security vendors.",
-      significance: "Negligent-security claims invite discovery into a property's entire security budget, staffing levels, and incident history, and courts are increasingly willing to let such claims reach a jury once a property has an established record of prior violent incidents. For CBL and other mall owners and REITs managing properties with documented security histories, each new incident makes the 'unforeseeable' defense harder to sustain and raises the practical stakes of security staffing and vendor-indemnification decisions.",
+      summary: "A woman who was stabbed by a stranger in the food court of Northwoods Mall in North Charleston, South Carolina on March 4, 2026 has sued the mall and its security company, Allied Universal, alleging they failed to maintain reasonable security, WCSC Live 5 reported on September 24. The suit alleges that security did not stop the attacker, who walked in carrying an open blade, and that no one was patrolling the food court. A mall representative said the mall cannot comment on pending litigation, and Allied Universal had not responded to requests for comment.",
+      significance: "Negligent-security suits against shopping-center owners often turn on whether an attack was foreseeable, and this complaint relies on the mall's history of police reports to argue it was. It adds to litigation over security at Northwoods Mall, where victims of a 2021 parking-lot shooting also sued.",
       body: [
-        "A woman who was stabbed in the food court of Northwoods Mall in North Charleston, South Carolina, has sued the mall's owner, CBL & Associates Properties, Inc., along with the companies responsible for the property's security, alleging that inadequate security measures allowed her attacker to walk into the mall with an open blade and inflict serious injuries before anyone intervened. The case, filed in late September 2026, is the latest in a series of premises-liability suits arising out of security incidents at Northwoods Mall, and it illustrates a legal-risk pattern that commercial property owners and REITs ignore at their peril: once a shopping center accumulates a documented history of violent incidents, each new one becomes harder to defend as unforeseeable.",
-        "According to reporting on the complaint, the plaintiff was attacked by a stranger armed with a large kitchen knife inside the mall's food court on March 4, 2026, suffering stab wounds and lacerations that required hospital treatment. Her attacker has since been criminally charged with attempted murder and weapons offenses arising from the incident. The civil lawsuit alleges that mall security and staff failed to stop the assailant despite the visible, open blade, and that the food court area was not being adequately patrolled at the time of the attack. The suit names CBL & Associates Properties -- the Chattanooga, Tennessee-based real estate investment trust that owns and manages Northwoods Mall -- along with the mall's contracted security providers, as defendants.",
-        "The filing is notable less for its individual facts than for the pattern it extends. Northwoods Mall has been the site of prior violent incidents, including a mall shooting years earlier that itself produced litigation against the property's ownership and its security contractors. Plaintiffs' counsel in that earlier litigation argued that a mall's security posture must be judged against its own documented incident history -- a theory that gets considerably stronger with each subsequent event a landlord fails to prevent. For a shopping center with a recurring security record, a jury asked to decide whether an attack was foreseeable has an easier time answering yes when the property owner's own incident log already contains comparable episodes.",
-        "For commercial landlords and REITs, negligent-security claims sit at an uncomfortable intersection of tort law and asset management. Unlike a slip-and-fall claim turning on a single hazardous condition, a negligent-security case invites discovery into a property's entire security budget, staffing levels, incident reports, and any prior warnings -- documentary evidence plaintiffs' counsel can use to argue a landlord knew of an elevated risk and failed to respond. CBL & Associates, which owns and manages a national portfolio of malls and shopping centers, has faced this dynamic before as the retail industry works through a broader wave of security-related litigation tied to declining in-mall foot traffic, reduced on-site staffing at some centers, and the persistence of retail-crime concerns nationally.",
-        "Property owners and managers should treat a documented history of violent incidents as a legal-risk asset to be actively managed rather than just an operational record, and should reassess and document security staffing and patrol coverage in high-traffic, low-visibility areas like food courts whenever a property has experienced a prior violent incident, since the 'we didn't know' defense becomes harder to sustain with each subsequent event. Landlords should also review indemnification and insurance provisions with third-party security contractors before an incident occurs, since these suits typically name both the property owner and its security vendors as co-defendants, and retail and mixed-use owners facing declining foot traffic should be cautious about cutting on-site security spending, since the resulting litigation exposure can dwarf the operational savings."
+        "According to WCSC Live 5, the attack happened just before 10 a.m. on March 4, 2026, when a stranger allegedly stabbed the woman with an eight-inch kitchen knife in the mall's food court. She was treated at a hospital for stab wounds and lacerations to her torso. The suspect was charged with attempted murder and possession of a weapon during a violent crime, the station reported.",
+        "The suit alleges the mall failed to maintain reasonable security measures for shoppers and employees, that security did not detect or stop the attacker, and that no security was stationed in or patrolling the food court. Citing the complaint, WCSC reported that North Charleston police received more than 1,400 reports at the mall from January 2021 until the attack, including several assaults. The plaintiff told the station she wants accountability and more security at the mall.",
+        "WCSC's 2026 reports do not name the corporate entity that owns the mall, and they do not identify the court or the damages sought. In 2023, the station reported on suits by victims of a February 14, 2021 shooting in the mall's parking lot, which alleged inadequate security and patrols, and it identified CBL as the mall's parent owner at that time."
       ],
       judge: null,
       parties: [
-        { name: "CBL & Associates Properties, Inc.", role: "Defendant" }
+        { name: "Northwoods Mall (owner entity not named in reporting)", role: "Defendant" },
+        { name: "Allied Universal", role: "Defendant" }
       ],
       amountUsd: null,
       propertyType: "Retail",
-      tags: ["premises-liability", "negligent-security", "shopping-mall", "south-carolina"]
+      tags: ["premises-liability", "negligent-security", "shopping-mall", "south-carolina"],
+      timeline: [
+        { when: "February 14, 2021", label: "Shooting in the Northwoods Mall parking lot; victims later sue over security" },
+        { when: "March 4, 2026", label: "Woman is stabbed in the Northwoods Mall food court" },
+        { when: "September 24, 2026", label: "WCSC reports the negligent-security suit against the mall and Allied Universal", current: true }
+      ]
     },
     {
       id: "live-197",
@@ -6154,46 +6128,50 @@ const RELAW_DATA = {
     },
     {
       id: "live-199",
-      seoTitle: "Brass Works Jersey City Lofts: Chapter 11 Dismissed for Cause",
-      seoDescription: "A bankruptcy judge dismissed the Chapter 11 of Brass Works Urban Renewal, sponsor of a Jersey City loft conversion, after a Delaware control fight.",
+      seoTitle: "Brass Works Chapter 11 Over Jersey City's The Cliffs Dismissed",
+      seoDescription: "A bankruptcy judge dismissed Brass Works' Chapter 11 on a motion by ASVRF, the investor that won a Delaware fight over control of The Cliffs Lofts' owner.",
       property: {"city": "Jersey City", "state": "NJ"},
       addedDate: "2026-09-28",
       featured: true,
-      title: "In re Brass Works Urban Renewal Company, LLC (Chapter 11 Dismissed 'For Cause' After Delaware Control Fight Loss)",
-      brief: "A New Jersey bankruptcy judge dismissed for cause the Chapter 11 of Brass Works, sponsor of a Jersey City loft conversion, filed after preferred-equity investor ASVRF won its removal as manager.",
+      title: "In re Brass Works Urban Renewal Company, LLC (Chapter 11 Dismissed After Preferred-Equity Investor Won Control of The Cliffs Lofts' Owner)",
+      brief: "A New Jersey bankruptcy judge dismissed Brass Works' Chapter 11 on a motion by preferred-equity investor ASVRF, months after Delaware's Chancery Court upheld ASVRF's removal of Brass Works as manager.",
       category: "lending-foreclosure",
       status: "ruling",
-      date: "2026-09-28",
+      date: "2026-09-25",
       jurisdiction: "United States Bankruptcy Court, District of New Jersey",
       state: "NJ",
       propertyType: "Multifamily",
-      amount: "Debtor reported $50M–$100M in assets, $10M–$50M in liabilities; underlying preferred-equity investment was $18M",
+      amount: "ASVRF contributed $18 million for its preferred interest in the property-owning LLC",
       source: "live",
       sourceUrl: "https://www.law360.com/bankruptcy-authority/mid-cap/articles/2530821",
-      summary: "A New Jersey bankruptcy judge dismissed the Chapter 11 case of Brass Works Urban Renewal Company, LLC, the sponsor of a warehouse-to-residential loft conversion on Paterson Plank Road in Jersey City, finding the objecting creditor would be harmed more by the case continuing than the debtor would be by dismissal. Brass Works had filed Chapter 11 on May 22, 2026, roughly six months after losing a Delaware Court of Chancery fight in which preferred-equity investor ASVRF Paterson Plank RD J-C, LLC won the right to remove Brass Works as the project LLC's manager following a payment default.",
-      significance: "The case illustrates how quickly a single-asset Chapter 11 filed on the heels of a lost entity-control fight can draw a 'for cause' dismissal under 11 U.S.C. section 1112(b). Preferred-equity and mezzanine investors who have already won a removal or enforcement remedy in another forum should be prepared for a follow-on bankruptcy filing by the sponsor, and should document the harm continued delay would cause to support a swift dismissal motion.",
+      summary: "U.S. Bankruptcy Judge Mark E. Hall dismissed the Chapter 11 case of Brass Works Urban Renewal Company, LLC in an order entered September 25, 2026, citing the harm to the creditor that sought dismissal, Law360 reported. The motion was brought by preferred-equity investor ASVRF Paterson Plank RD J-C, LLC and Paterson Plank RD J-C, LLC, the company that owns The Cliffs Lofts, a 120-unit residential building in Jersey City. Brass Works filed for Chapter 11 on May 22, 2026, about six months after Delaware's Court of Chancery ruled that ASVRF had validly removed it as that company's manager.",
+      significance: "The case shows a sponsor turning to Chapter 11 to try to cure its default and reclaim management after losing a control fight, and a bankruptcy court ending the case on the investor's motion. Preferred-equity investors who win a removal remedy in one court may still face a follow-on bankruptcy filing before the dispute is over.",
       body: [
-        "A New Jersey bankruptcy judge on September 28, 2026 dismissed the Chapter 11 case of Brass Works Urban Renewal Company, LLC, the sponsor behind a warehouse-to-residential loft conversion on Paterson Plank Road in Jersey City, finding that the creditor who moved to dismiss stood to be harmed more by the case continuing than the debtor would be by having it tossed, according to Law360. The ruling closes out, at least for now, a Chapter 11 case that Brass Works filed on May 22, 2026 in the U.S. Bankruptcy Court for the District of New Jersey, case number 2:26-bk-15809, listing assets of $50 million to $100 million against liabilities of $10 million to $50 million.",
-        "The dismissal is notable less for its dollar figures than for its timing and posture. Brass Works arrived in bankruptcy court roughly six months after losing a fight in the Delaware Court of Chancery over control of the entity that owns the Jersey City property. In a post-trial opinion issued November 21, 2025 in ASVRF Paterson Plank RD J-C, LLC v. Brass Works Urban Renewal Company, LLC, the Chancery Court found that ASVRF, a preferred-equity investor that had put $18 million into the LLC formed to develop the property in exchange for a preferred monthly distribution, had validly exercised a contractual remedy to remove and replace Brass Works as manager after Brass Works defaulted on its payment obligations. The court held that Brass Works' refusal to cede control breached the operating agreement.",
-        "Law360's report on the September 28 dismissal does not identify by name the creditor whose objection persuaded the bankruptcy judge to dismiss for cause, so it is not confirmed in the public reporting that ASVRF itself was the moving party. But the timeline is difficult to read as coincidental: a sponsor ordered out of the manager's seat by a Chancery Court after defaulting on a preferred-equity investor's distributions, filing a single-asset Chapter 11 case less than half a year later, is a fact pattern bankruptcy judges see often enough to treat with skepticism. Courts applying 11 U.S.C. section 1112(b) routinely dismiss cases for cause where a Chapter 11 filing appears aimed less at reorganizing a viable business than at using the automatic stay to relitigate, or delay enforcement of, a state-law control dispute the debtor has already lost elsewhere.",
-        "For commercial real estate sponsors and their lenders and equity partners, the case is a useful data point on where that line tends to fall. A Chapter 11 filing automatically stays enforcement efforts the moment it is filed, making it an attractive tool for a sponsor facing imminent loss of control over a single-asset property vehicle. But that same single-asset character — one property, a thin creditor body, and a control dispute already litigated elsewhere — is precisely what makes these cases vulnerable to a quick for-cause dismissal motion.",
-        "The case also underscores the layered capital structures common in New Jersey urban renewal entity deals, where redevelopment agreements, PILOT tax arrangements, and preferred-equity joint ventures combine to create several distinct forums in which a single project's disputes can play out — Delaware for entity-control questions under the LLC agreement, New Jersey for any bankruptcy case, and the local redevelopment agency for compliance with the underlying urban renewal agreement. Sponsors and investors negotiating these structures should build coordinated default and remedy provisions across all of those layers rather than assuming any single forum will resolve a dispute completely. A Chapter 11 filing that follows closely on a lost control fight elsewhere invites a for-cause dismissal motion, and preferred-equity or mezzanine investors who win a removal or enforcement remedy in one forum should expect, and prepare for, a follow-on bankruptcy filing rather than treating their initial win as the end of the matter."
+        "The dispute concerns Paterson Plank RD J-C, LLC, which owns The Cliffs Lofts, a 120-unit residential building in Jersey City that was converted from a warehouse and has been leased as rentals since it was completed during the 2008 financial crisis, according to a November 21, 2025 opinion of Delaware's Court of Chancery. Under a June 29, 2021 LLC agreement, Brass Works, an affiliate of the family that developed the building, was the manager and held the Class A interest, and ASVRF, an affiliate of American Realty Advisors, contributed $18 million for the Class B preferred interest. After Brass Works defaulted on its payment obligations, ASVRF exercised a contractual right to remove it as manager. After an expedited trial, Vice Chancellor Lori W. Will held that the removal was valid and that Brass Works breached the agreement by refusing to hand over management, rejecting its defense that ASVRF had gone along with a plan to convert the building to condominiums.",
+        "Brass Works filed its Chapter 11 petition in the U.S. Bankruptcy Court for the District of New Jersey on May 22, 2026 (Case No. 26-15809). On June 4, ASVRF and the property-owning company moved to dismiss the case under Section 1112(b) of the Bankruptcy Code or, alternatively, for relief from the automatic stay. In a June 30 objection, Brass Works argued that the LLC agreement remained in force and that it could cure its default under a reorganization plan, be reinstated as manager and redeem ASVRF's interest, noting that the building was about 95% leased as of March 2026. It also accused ASVRF of breaching fiduciary duties and said a planned foreclosure sale of its membership interests rested on a defective notice. Brass Works filed proposed plans and disclosure statements in June and August.",
+        "After hearings in September, the court entered an order dismissing the case on September 25, 2026. Law360's September 28 report on the ruling said the judge cited the harm that continuing the case would cause the creditor that sought dismissal."
       ],
-      judge: null,
+      judge: "Mark E. Hall",
       parties: [
         { name: "Brass Works Urban Renewal Company, LLC", role: "Debtor" },
-        { name: "ASVRF Paterson Plank RD J-C, LLC", role: "Preferred Equity Investor" }
+        { name: "ASVRF Paterson Plank RD J-C, LLC", role: "Preferred Equity Investor (Movant)" },
+        { name: "Paterson Plank RD J-C, LLC", role: "Property-Owning Company (Movant)" }
       ],
       amountUsd: 18000000,
       amountBasis: "other",
       documentUrl: "https://www.courtlistener.com/opinion/10740485/asvrf-paterson-plank-rd-j-c-llc-v-brass-works-urban-renewal-company-llc/",
       documentLabel: "Read the related Delaware Chancery opinion (ASVRF v. Brass Works)",
       timeline: [
-        { when: "November 21, 2025", label: "Delaware Court of Chancery rules ASVRF Paterson Plank RD J-C, LLC validly removed Brass Works as manager of the project LLC after a payment default" },
-        { when: "May 22, 2026", label: "Brass Works Urban Renewal Company, LLC files Chapter 11 in the U.S. Bankruptcy Court for the District of New Jersey (Case No. 2:26-bk-15809)" },
-        { when: "September 28, 2026", label: "Bankruptcy judge dismisses the Chapter 11 case 'for cause,' finding the objecting creditor would be more harmed by continuation than the debtor by dismissal", current: true }
+        { when: "June 29, 2021", label: "ASVRF and Brass Works sign the LLC agreement; ASVRF contributes $18 million for a preferred interest" },
+        { when: "November 21, 2025", label: "Delaware Court of Chancery rules ASVRF validly removed Brass Works as manager" },
+        { when: "May 22, 2026", label: "Brass Works files Chapter 11 in the U.S. Bankruptcy Court for the District of New Jersey (Case No. 26-15809)" },
+        { when: "June 4, 2026", label: "ASVRF and the property-owning company move to dismiss the case or lift the stay" },
+        { when: "June 30, 2026", label: "Brass Works objects, proposing to cure its default through a plan" },
+        { when: "September 25, 2026", label: "Bankruptcy court enters an order dismissing the Chapter 11 case", current: true }
       ],
-      tags: ["chapter-11", "preferred-equity", "urban-renewal", "new-jersey", "dismissal"]
+      tags: ["chapter-11", "preferred-equity", "urban-renewal", "new-jersey", "dismissal"],
+      docketUrl: "https://www.courtlistener.com/docket/73382121/brass-works-urban-renewal-company-llc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-200",
@@ -6409,40 +6387,52 @@ const RELAW_DATA = {
     {
       id: "live-207",
       seoTitle: "AvalonBay RealPage Antitrust Suit: New Jersey Claims Revived",
-      seoDescription: "A federal judge let New Jersey revive antitrust claims against AvalonBay Communities in the state's algorithmic rent-pricing suit against RealPage.",
+      seoDescription: "A federal judge let New Jersey file an amended complaint renewing antitrust claims against AvalonBay in its rent-pricing suit against RealPage and landlords.",
       addedDate: "2026-09-30",
-      title: "State of New Jersey v. RealPage, Inc. (NJ Revives Antitrust Claims Against AvalonBay)",
-      brief: "A federal judge let New Jersey revive antitrust claims against AvalonBay in its algorithmic rent-pricing suit against RealPage and multifamily landlords, after a March 31, 2026 dismissal.",
+      title: "State of New Jersey v. RealPage, Inc. (Court Lets New Jersey Renew Antitrust Claims Against AvalonBay)",
+      brief: "A federal judge let New Jersey file an amended complaint renewing antitrust claims against AvalonBay in its rent-pricing suit against RealPage and landlords, after a March 31, 2026 dismissal without prejudice.",
       category: "landlord-tenant",
       status: "ruling",
-      date: "2026-09-30",
+      date: "2026-09-29",
       jurisdiction: "U.S. District Court, District of New Jersey",
       state: "NJ",
       amount: "No specific dollar figure stated; rent-overcharge exposure across AvalonBay's New Jersey portfolio",
       source: "live",
       sourceUrl: "https://www.law360.com/real-estate-authority/commercial/articles/2531908",
-      summary: "U.S. District Judge Madeline Cox Arleo ruled on September 30, 2026 that New Jersey may proceed on an amended complaint reviving antitrust claims against AvalonBay Communities, Inc. in the state's algorithmic rent-pricing suit against RealPage, Inc. and its multifamily landlord customers. The ruling follows a March 31, 2026 order that dismissed the state's original federal and state antitrust claims against AvalonBay without prejudice while allowing a consumer-fraud claim to proceed, after which New Jersey sought leave to file a repleaded complaint.",
-      significance: "The order keeps one of the country's largest multifamily REITs inside a high-profile algorithmic-pricing antitrust case and confirms that an initial pleading-stage dismissal of RealPage-adjacent antitrust claims is not a final exit for landlord defendants who used the software, so long as a state or private plaintiff can fix the specific defects a court identifies and replead. Multifamily owners facing similar suits elsewhere should treat a without-prejudice dismissal as a pause, not a resolution.",
+      summary: "On September 29, 2026, U.S. District Judge Madeline Cox Arleo granted New Jersey leave to file an amended complaint renewing antitrust claims against AvalonBay Communities, Inc. in the state's suit accusing RealPage, Inc. and landlords of using RealPage's revenue-management software to fix rents, Law360 reported. Her March 31, 2026 opinion had found a price-fixing conspiracy adequately pleaded against RealPage and the other landlords but not against AvalonBay, whose contract limits how RealPage shares and uses its data. AvalonBay argued the new allegations were insufficient; the judge said that is a factual dispute for discovery, and she denied as moot AvalonBay's motion to reconsider a consumer-fraud ruling.",
+      significance: "The order brings AvalonBay back into the antitrust claims in one of the state enforcement cases against RealPage and its landlord customers. It also shows that a landlord's contractual limits on data sharing may not end antitrust claims at the pleading stage when the plaintiff alleges the limits were worked around.",
       body: [
-        "A federal judge in New Jersey has ruled that the state may move forward with renewed antitrust claims against AvalonBay Communities, Inc., the multifamily real estate investment trust accused, alongside software vendor RealPage, Inc., of participating in a scheme to coordinate residential rents using algorithmic pricing software. The ruling, issued September 30, 2026 by U.S. District Judge Madeline Cox Arleo in the District of New Jersey, allows New Jersey Attorney General Matthew Platkin's office to proceed on an amended complaint after the court dismissed the state's original antitrust theories against AvalonBay without prejudice earlier this year.",
-        "The underlying case, State of New Jersey v. RealPage, Inc., No. 2:25-cv-03057, was filed on April 23, 2025 by the New Jersey Attorney General's office and the state's Division of Consumer Affairs against RealPage and a roster of the largest multifamily landlords operating in New Jersey, including AvalonBay, LeFrak, Bozzuto Management, and Veris Residential, among others. The complaint alleged that RealPage's revenue-management software functioned as a conduit for competing landlords to share non-public, competitively sensitive rent and occupancy data, allowing them to coordinate pricing in violation of the federal Sherman Act, the New Jersey Antitrust Act, and the New Jersey Consumer Fraud Act.",
-        "On March 31, 2026, Judge Arleo narrowed the case considerably, granting the defendants' motions to dismiss the federal and state antitrust claims without prejudice while allowing New Jersey's consumer-fraud claim to proceed. The dismissal did not end the antitrust theory outright -- because it was without prejudice, New Jersey retained the ability to replead -- but it required the state to go back and fix specific pleading deficiencies the court identified in how the original complaint alleged coordination and anticompetitive effect as to AvalonBay. New Jersey subsequently sought leave to file an amended complaint addressing those gaps, and Judge Arleo's September 30 ruling grants that request.",
-        "The order matters beyond the immediate parties because AvalonBay is one of the largest publicly traded apartment owner-operators in the country, and the algorithmic-pricing theory New Jersey is pursuing against it is functionally identical to the theory animating a much larger docket of litigation nationwide, including the multidistrict litigation consolidated in the Middle District of Tennessee and a parallel Department of Justice enforcement action against RealPage in North Carolina. A ruling permitting a revived complaint to survive, even on amendment rather than on the original pleading, reinforces that courts are willing to let these claims proceed against individual landlord defendants who used RealPage's software, not just against RealPage itself, so long as a plaintiff can plead the connection between the software's data-sharing function and a plausible anticompetitive effect on rents.",
-        "For multifamily owners and REITs facing RealPage-adjacent litigation elsewhere, the practical lesson is that a without-prejudice dismissal rarely ends the exposure: enforcement agencies with subpoena power and the resources to refine a complaint typically get a second opportunity to fix specific pleading defects rather than a final dismissal, and courts in this line of cases have generally been willing to let a repleaded complaint proceed. Individual landlord defendants continue to face a real risk of being held to their own conduct in adopting and using revenue-management software, separate from RealPage's own liability as the vendor, and any owner that used a third-party tool ingesting competitor-sourced, non-public data should expect that fact pattern to remain a live antitrust theory in multiple jurisdictions regardless of how this particular case is ultimately resolved on the merits."
+        "New Jersey's attorney general and Division of Consumer Affairs sued RealPage and a group of landlords in the U.S. District Court for the District of New Jersey on April 23, 2025 (No. 2:25-cv-03057). The state alleges that landlords using RealPage's revenue-management products share confidential rent, occupancy and other data, and that the software's rent recommendations, which RealPage enforces through monitoring, are used to raise rents in violation of federal and state antitrust law and the New Jersey Consumer Fraud Act. Besides AvalonBay, the landlord defendants include Morgan Properties Management Company, The Kamson Corporation, LeFrak Estate, Greystar Management Services, AION Management, Cammeby's Management Co. of N.J., Veris Residential, Bozzuto Management Company and two Russo entities. The caption now names Attorney General Jennifer Davenport, who was substituted as a plaintiff.",
+        "On March 31, 2026, Judge Arleo ruled on five motions to dismiss. She found the conspiracy adequately pleaded against RealPage and the other landlords, but dismissed without prejudice the federal and New Jersey antitrust claims, and some consumer-fraud claims, against AvalonBay. AvalonBay uses RealPage's Lease Rent Options product under a contract that bars RealPage from sharing AvalonBay's data with other landlords or using their data in its recommendations to AvalonBay. She let an unconscionable-commercial-practices claim proceed against all of the landlords, including AvalonBay.",
+        "The amended complaint alleges that AvalonBay employees obtained competitors' confidential information, including by phone, and entered it into the software's user-specific database, which AvalonBay's contract does not restrict, and that AvalonBay shared its own data with other landlords. AvalonBay opposed amendment, relying on its contract and internal documents to argue it used the software on its own and relied on public information. Judge Arleo declined to resolve that dispute before discovery, granted leave to amend, and denied as moot AvalonBay's motion to reconsider the consumer-fraud ruling. The state filed the amended complaint on October 2, 2026, and defendants filed answers to it in October."
       ],
       judge: "Madeline Cox Arleo",
       parties: [
-        { name: "State of New Jersey", role: "Plaintiff" },
+        { name: "State of New Jersey (Attorney General and Division of Consumer Affairs)", role: "Plaintiff" },
         { name: "RealPage, Inc.", role: "Defendant" },
-        { name: "AvalonBay Communities, Inc.", role: "Defendant" }
+        { name: "AvalonBay Communities, Inc.", role: "Defendant" },
+        { name: "Morgan Properties Management Company, LLC", role: "Defendant" },
+        { name: "The Kamson Corporation", role: "Defendant" },
+        { name: "LeFrak Estate, L.P.", role: "Defendant" },
+        { name: "Greystar Management Services, LLC", role: "Defendant" },
+        { name: "AION Management, LLC", role: "Defendant" },
+        { name: "Cammeby's Management Co. of N.J., L.P.", role: "Defendant" },
+        { name: "Veris Residential, Inc.", role: "Defendant" },
+        { name: "Bozzuto Management Company", role: "Defendant" },
+        { name: "Russo Development, LLC", role: "Defendant" },
+        { name: "Russo Property Management, LLC", role: "Defendant" }
       ],
       amountUsd: null,
       timeline: [
-        { when: "April 23, 2025", label: "New Jersey Attorney General's office sues RealPage and multifamily landlords including AvalonBay over algorithmic rent-pricing coordination" },
-        { when: "March 31, 2026", label: "Judge Arleo dismisses the state's antitrust claims against AvalonBay without prejudice, allows the consumer-fraud claim to proceed" },
-        { when: "September 30, 2026", label: "Judge Arleo grants New Jersey leave to file an amended complaint, reviving the antitrust claims against AvalonBay", current: true }
+        { when: "April 23, 2025", label: "New Jersey sues RealPage and landlords including AvalonBay over algorithmic rent pricing" },
+        { when: "March 31, 2026", label: "Judge Arleo finds a conspiracy pleaded against RealPage and other landlords but dismisses the antitrust claims against AvalonBay without prejudice" },
+        { when: "September 29, 2026", label: "Judge Arleo grants leave to amend as to AvalonBay and denies AvalonBay's reconsideration motion" },
+        { when: "October 2, 2026", label: "New Jersey files the amended complaint" },
+        { when: "October 2026", label: "Defendants file answers to the amended complaint", current: true }
       ],
-      tags: ["realpage", "avalonbay", "antitrust", "algorithmic-pricing", "new-jersey"]
+      tags: ["realpage", "avalonbay", "antitrust", "algorithmic-pricing", "new-jersey"],
+      docketUrl: "https://www.courtlistener.com/docket/69929611/platkin-v-realpage-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-208",
@@ -6563,37 +6553,39 @@ const RELAW_DATA = {
     },
     {
       id: "live-212",
-      seoTitle: "Energize Denver Preemption Challenge Survives Motion to Dismiss",
-      seoDescription: "A federal judge let trade groups' claim that Energize Denver and Colorado's Regulation 28 are preempted by federal energy law proceed toward the merits.",
+      seoTitle: "Energize Denver Preemption Suit Survives Motion to Dismiss",
+      seoDescription: "A federal judge let trade groups pursue claims that federal appliance law preempts Energize Denver and Regulation 28, but dismissed consumer-appliance claims.",
       addedDate: "2026-10-02",
-      title: "Colorado Apartment Association v. Ryan (Federal Preemption Challenge to Denver, Colorado Building-Emissions Mandates)",
-      brief: "A federal judge let trade groups' claim that Energize Denver and Colorado's Regulation 28 building-emissions rules are preempted by federal law proceed, dismissing an appliance claim as untimely.",
+      title: "Colorado Apartment Association v. Ryan (Federal Preemption Challenge to Denver and Colorado Building-Performance Standards)",
+      brief: "A federal judge let four real estate trade groups pursue claims that federal appliance-efficiency law preempts Energize Denver and Colorado's Regulation 28, dismissing consumer-appliance claims as time-barred.",
       category: "zoning-land-use",
       status: "ruling",
-      date: "2026-10-01",
+      date: "2026-09-30",
       jurisdiction: "U.S. District Court, District of Colorado",
       state: "CO",
       amount: "No damages at issue; compliance-cost exposure for large buildings subject to Energize Denver and Regulation 28",
       amountUsd: null,
       source: "live",
-      docketUrl: "https://www.courtlistener.com/opinion/10368630/colorado-apartment-association-v-ryan/",
+      docketUrl: "https://www.courtlistener.com/docket/68461369/colorado-apartment-association-v-ryan/",
       docketLabel: "CourtListener docket",
       sourceUrl: "https://www.law360.com/articles/2532921/colo-energy-rules-can-t-shake-federal-preemption-suit",
-      summary: "U.S. District Judge Regina M. Rodriguez ruled that real estate industry trade groups' claim that Denver's Energize Denver ordinance and Colorado's Regulation 28 are preempted by the federal Energy Policy and Conservation Act can proceed past a renewed motion to dismiss, while dismissing a related claim about consumer appliances as untimely. The U.S. Department of Justice had filed a statement of interest on September 15, 2026 telling the court the local rules \"plausibly are preempted\" by EPCA.",
-      significance: "The ruling keeps alive one of the most closely watched legal challenges to municipal building-performance standards in the country, with direct relevance to owners of large apartment buildings, hotels, and commercial buildings facing energy-use and emissions targets in Denver and statewide under Regulation 28. A final decision favoring the industry groups could provide a template for challenging similar building-performance mandates in other jurisdictions nationally.",
+      summary: "On September 30, 2026, U.S. District Judge Regina M. Rodriguez adopted a magistrate judge's recommendation and let four real estate trade groups proceed with claims that Denver's Energize Denver program and Colorado's Regulation 28 are preempted by the federal Energy Policy and Conservation Act (EPCA), as Law360 reported. The court dismissed with prejudice the groups' claims concerning consumer appliances as barred by a two-year statute of limitations, and it rejected their argument that Regulation 28's greenhouse-gas intensity cap is preempted. The order rules only on the motions to dismiss and does not block either program.",
+      significance: "The ruling keeps alive a federal challenge to building-performance standards that apply to large commercial and multifamily buildings in Denver and across Colorado. The court drew a line between rules that impose building-wide energy-use reductions, which it said could be preempted, and Regulation 28's greenhouse-gas intensity cap, which it found is not.",
       body: [
-        "Commercial building owners across Colorado's largest city have spent the better part of two years watching a single piece of federal litigation that could determine whether some of the most aggressive municipal building-decarbonization rules in the country can stand. On the first order of October 2026, U.S. District Judge Regina M. Rodriguez gave them a partial answer: the real estate industry's core preemption theory survives a renewed motion to dismiss and may proceed toward the merits, even as a related claim about consumer appliances was dismissed as untimely.",
-        "The case, Colorado Apartment Association v. Ryan, was filed in April 2024 by four trade associations with members who own or manage large buildings in Colorado -- the Colorado Apartment Association, the Apartment Association of Metro Denver, the Colorado Hotel and Lodging Association, and the NAIOP Colorado Chapter, the commercial real estate development trade group. Their target is a pair of linked regulatory programs: Denver's Energize Denver ordinance and the state's parallel Regulation 28, both of which require owners of large buildings to cut energy use or greenhouse gas emissions by specified amounts on a fixed timetable, with financial penalties for buildings that miss their targets.",
-        "The plaintiffs' theory is not that building decarbonization is unlawful in the abstract, but that the specific mechanism Denver and Colorado chose runs into the Energy Policy and Conservation Act of 1975. EPCA sets uniform federal efficiency standards for a defined list of covered products -- furnaces, water heaters, central air conditioners, and similar equipment -- and expressly bars states and localities from imposing their own, different efficiency or energy-use standards on those same products. The trade groups argue that because many buildings can only hit their Energize Denver and Regulation 28 targets by replacing covered equipment with units that exceed the federal standard, the local rules function as exactly the kind of product-specific mandate EPCA forecloses, even though the ordinances are framed in building-level, not appliance-specific, terms.",
-        "The litigation has traveled a bruising procedural road. The district court dismissed the plaintiffs' original complaint without prejudice in March 2025, holding that the four associations had not adequately pleaded that their individual members had standing to sue. The plaintiffs filed an amended complaint in June 2025, and the state and city defendants, along with intervenor-defendants defending the programs, moved to dismiss again. That motion drew an unusual degree of federal attention: on September 15, 2026, the U.S. Department of Justice filed a statement of interest telling Judge Rodriguez that Energize Denver and Regulation 28 plausibly are preempted by EPCA, a position that does not make the United States a party but signals how the federal government's own lawyers read the preemption question.",
-        "The practical reality for Denver and statewide Colorado building owners is that compliance obligations under Energize Denver and Regulation 28 remain in force while the litigation continues; this ruling keeps the lawsuit alive, it does not enjoin the programs. Owners underwriting capital improvements, equipment replacements, or acquisitions of large buildings in Denver should budget for near-term compliance costs under the existing rules rather than assume the litigation will resolve before their own compliance deadlines arrive, while tracking the case closely given the Justice Department's intervention and the stakes for building-performance mandates nationally, since a final ruling in the industry's favor could hand owners, developers, and lenders a template for challenging similar emissions-based building mandates in other cities, while a loss would remove one of the industry's few remaining federal theories for resisting these compliance costs outright."
+        "Four trade associations whose members own or manage large buildings in Colorado (the Colorado Apartment Association, the Apartment Association of Metro Denver, the Colorado Hotel and Lodging Association, and NAIOP Colorado) sued state and Denver officials in April 2024. They challenge Colorado's Regulation 28 and Denver's Energize Denver ordinance and rules, which require large buildings to cut energy use or greenhouse gas emissions on a set schedule. The groups allege the standards are strict enough that owners can comply only by replacing furnaces, water heaters and other EPCA-covered appliances with units that exceed federal efficiency standards, which they say amounts to state and local regulation of those products' energy use that EPCA bars.",
+        "The court dismissed the original complaint without prejudice for lack of standing on March 28, 2025. The groups filed an amended complaint on August 29, 2025, and the state defendants, the Denver defendants and four intervenors defending the programs (the Coalition for Community Solar Access, the Colorado Solar and Storage Association, the Natural Resources Defense Council and the Sierra Club) moved to dismiss it. On August 21, 2026, Magistrate Judge Kathryn A. Starnella recommended letting the case proceed in part, and every side objected. The United States filed a statement of interest on September 15, 2026.",
+        "Judge Rodriguez overruled all of the objections. She held that the groups plausibly alleged that regulations imposing building-wide energy-use reductions could be preempted by EPCA, while noting that the merits may prove the defendants right. She agreed that claims concerning consumer appliances are subject to Colorado's two-year limitations period and dismissed them with prejudice, leaving the claims based on EPCA's industrial-equipment provisions. She also rejected the groups' arguments that the standards regulate covered products directly and that Regulation 28's greenhouse-gas intensity cap is preempted.",
+        "The state defendants, the Denver defendants and the intervenors answered the amended complaint on October 14, 2026. The magistrate judge set a status conference for November 17, 2026 to discuss the plan for the case and what discovery is needed."
       ],
       timeline: [
-        { when: "April 2024", label: "Colorado Apartment Association, AAMD, CHLA, and NAIOP Colorado file suit against Colorado and Denver officials" },
-        { when: "March 2025", label: "District court dismisses the complaint without prejudice for lack of standing" },
-        { when: "June 2025", label: "Plaintiffs file an amended complaint; defendants and intervenors move to dismiss again" },
-        { when: "September 15, 2026", label: "U.S. Department of Justice files a statement of interest supporting the preemption theory" },
-        { when: "October 1, 2026", label: "Judge Rodriguez allows the EPCA preemption claim to proceed, dismisses the consumer-appliance claim as untimely", current: true }
+        { when: "April 22, 2024", label: "Four trade groups sue Colorado and Denver officials over Regulation 28 and Energize Denver" },
+        { when: "March 28, 2025", label: "Court dismisses the original complaint without prejudice for lack of standing" },
+        { when: "August 29, 2025", label: "Groups file an amended complaint; defendants and intervenors move to dismiss" },
+        { when: "August 21, 2026", label: "Magistrate Judge Starnella recommends the case proceed in part" },
+        { when: "September 15, 2026", label: "United States files a statement of interest" },
+        { when: "September 30, 2026", label: "Judge Rodriguez adopts the recommendation; consumer-appliance claims dismissed with prejudice" },
+        { when: "October 14, 2026", label: "Defendants and intervenors answer the amended complaint", current: true },
+        { when: "November 17, 2026", label: "Status conference set before the magistrate judge", upcoming: true }
       ],
       judge: "Regina M. Rodriguez",
       parties: [
@@ -6601,7 +6593,15 @@ const RELAW_DATA = {
         { name: "Apartment Association of Metro Denver", role: "Plaintiff" },
         { name: "Colorado Hotel and Lodging Association", role: "Plaintiff" },
         { name: "NAIOP Colorado Chapter", role: "Plaintiff" },
-        { name: "City and County of Denver", role: "Defendant" }
+        { name: "Colorado Department of Public Health and Environment (executive director, official capacity)", role: "Defendant" },
+        { name: "Colorado Air Pollution Control Division (director, official capacity)", role: "Defendant" },
+        { name: "Colorado Energy Office (executive director, official capacity)", role: "Defendant" },
+        { name: "City and County of Denver", role: "Defendant" },
+        { name: "Denver Office of Climate Action, Sustainability, and Resiliency", role: "Defendant" },
+        { name: "Coalition for Community Solar Access", role: "Intervenor-Defendant" },
+        { name: "Colorado Solar and Storage Association", role: "Intervenor-Defendant" },
+        { name: "Natural Resources Defense Council", role: "Intervenor-Defendant" },
+        { name: "Sierra Club", role: "Intervenor-Defendant" }
       ],
       tags: ["zoning", "preemption", "building-emissions", "denver", "epca"]
     },
@@ -6716,45 +6716,6 @@ const RELAW_DATA = {
         { name: "Vesta Realty, LLC", role: "Defendant" }
       ],
       tags: ["securities", "multifamily", "oklahoma", "subpoena-enforcement", "vesta realty"]
-    },
-    {
-      id: "live-217",
-      seoTitle: "Mass. Appeals Court: Emailed Settlement Binding, $100K Owed",
-      seoDescription: "The Massachusetts Appeals Court held two landowners bound by a settlement reached by email between counsel and owing $100,000 to an apartment developer.",
-      addedDate: "2026-10-03",
-      featured: true,
-      title: "Zammuto v. Damianidis (Massachusetts Appeals Court Holds Emailed Settlement Binding, Orders $100K Paid)",
-      brief: "Massachusetts' Appeals Court held property owners bound by a settlement reached in counsel's emails and ordered them to pay $100,000 to the developer whose apartment-land purchase collapsed.",
-      category: "zoning-land-use",
-      status: "ruling",
-      date: "2026-10-01",
-      jurisdiction: "Massachusetts Appeals Court",
-      state: "MA",
-      propertyType: "Multifamily",
-      amount: "$100,000 settlement payment enforced",
-      amountUsd: 100000,
-      amountBasis: "settlement",
-      source: "live",
-      sourceUrl: "https://www.law360.com/real-estate-authority/other/articles/2532698/developer-bound-by-emailed-settlement-offer-court-says",
-      documentUrl: "https://caselaw.findlaw.com/court/ma-court-of-appeals/119399.html",
-      documentLabel: "Read the Appeals Court's opinion",
-      summary: "The Massachusetts Appeals Court ruled on October 1, 2026 that two property owners were bound by a settlement reached almost entirely through email exchanges between counsel, and must pay $100,000 to the developer who had agreed to buy their land for an apartment project before a title dispute derailed the sale. The court held the sellers could not avoid the payment by withdrawing from a related sale to a third-party buyer that the settlement's payment term depended on, since the sellers themselves caused that sale to fail.",
-      significance: "The decision confirms that settlement terms confirmed by email between counsel -- without a final, fully executed multi-party document -- can be binding once the parties' conduct shows mutual assent, a practical risk for any real estate litigator negotiating a multi-party settlement informally. It also shows that a party who controls whether a dependent transaction closes cannot rely on that transaction's failure, if self-inflicted, as an excuse to avoid a settlement payment built around it.",
-      body: [
-        "A Massachusetts Appeals Court ruling handed down October 1, 2026, in Zammuto v. Damianidis, held that two property owners were bound to pay $100,000 under a settlement reached almost entirely through back-and-forth emails between counsel, and that they could not escape that obligation simply by declining to go through with the underlying real estate sale the settlement was built around.",
-        "The case began as a failed development deal. Paul and Irene Damianidis owned two adjacent parcels in Ashland, Massachusetts, each held through a separate realty trust. Charles Zammuto agreed to buy both properties to build an apartment building, and in the course of that deal obtained the special permits the project needed. Before closing, a title defect surfaced: a 12-foot strip of land between the two parcels had an unresolved ownership question. Zammuto offered to split the cost of clearing the title problem so the sale could proceed; the Damianidises instead walked away from the transaction, and Zammuto sued.",
-        "Litigation produced a three-way settlement rather than a simple damages award: a third entity, Evolution, would purchase the properties from the Damianidises; Zammuto's special permits for the apartment project would transfer to Evolution; and Zammuto would be paid $100,000 out of the sale proceeds at closing in exchange for dismissing his claims. The record shows that deal moving forward almost entirely over email -- Evolution's principal's attorney approved the terms by email on November 12, 2021; the Damianidises signed and emailed on November 16 asking how to handle execution; and Zammuto signed in person on November 23, with Hanzi's attorney emailing that same morning to show he had already begun preparing the paperwork to transfer the site plan approval. The one signature still missing was Evolution's own, and before it was obtained, the Damianidises pulled out of the sale to Evolution altogether.",
-        "The Appeals Court rejected the Damianidises' position that nothing had been agreed without a fully executed four-party document. It held that the email exchanges, the Damianidises' own signature, and the parties' conduct afterward were enough to establish mutual assent to a settlement with definite terms. The court also found the Damianidises bore an implied obligation to make a good-faith effort to see the underlying sale through, since the $100,000 payment was structured to come from its proceeds -- and having undermined that sale themselves, they could not point to its failure as an excuse to avoid paying.",
-        "For commercial real estate practitioners, the ruling is a reminder that courts increasingly treat email exchanges between counsel as capable of forming binding settlement agreements once core terms are confirmed and the parties begin acting consistently with them, so a party that wants to preserve a right to walk away before formal signing needs to say so explicitly in the correspondence itself rather than assume the formalities will protect it later; the decision also cautions sellers in multi-party settlements against assuming that killing a related, dependent transaction they themselves control will excuse a payment obligation the settlement was built around."
-      ],
-      judge: null,
-      parties: [],
-      timeline: [
-        { when: "November 2021", label: "Parties negotiate a settlement agreement by email after a title dispute derails Zammuto's planned apartment-building purchase" },
-        { when: "November 23, 2021", label: "Zammuto signs the settlement agreement; the Damianidises later withdraw from the dependent sale to third-party buyer Evolution before it is completed" },
-        { when: "October 1, 2026", label: "Massachusetts Appeals Court holds the Damianidises bound to pay $100,000 under the settlement", current: true }
-      ],
-      tags: ["zoning", "settlement-agreement", "contract-formation", "massachusetts", "apartment-development"]
     },
     {
       id: "live-219",
@@ -7908,46 +7869,51 @@ const RELAW_DATA = {
     },
     {
       id: "live-266",
-      seoTitle: "The Travis Apartments, Lakewood Village TX: Chapter 11 Filing",
-      seoDescription: "The owner of The Travis apartments at 900 Gordon Heights Lane in Lakewood Village, Texas filed Chapter 11 with more than $50 million in debt.",
-      property: {"name": "The Travis", "address": "900 Gordon Heights Lane", "city": "Lakewood Village", "state": "TX"},
+      seoTitle: "The Travis Apartments, Frisco TX: Chapter 11 and ACORE Motions",
+      seoDescription: "The majority owner of The Travis, a 354-unit apartment community in Frisco, Texas, filed Chapter 11 on a foreclosure sale day; lender ACORE seeks dismissal.",
+      property: {"name": "The Travis", "address": "900 Gordon Heights Lane", "city": "Frisco", "state": "TX"},
       addedDate: "2026-10-13",
-      title: "In re Travis Property Owner LLC: Owner of 354-Unit The Travis Apartments Near Frisco Files Chapter 11 With ACORE as Creditor",
-      brief: "The single-asset owner of The Travis, a 354-unit apartment community near Frisco, filed Chapter 11 listing more than $50 million in debt, with ACORE, which financed the 2022 purchase, as a creditor.",
+      title: "In re Travis Property Owner LLC: Majority Owner of The Travis Apartments in Frisco Files Chapter 11; Lender ACORE Seeks Dismissal",
+      brief: "The 75.86% owner of The Travis, a 354-unit Frisco, Texas apartment community, filed Chapter 11 on the day of a noticed foreclosure sale; lender ACORE, which says it is owed $74.7 million, seeks dismissal.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-10-06",
       jurisdiction: "U.S. Bankruptcy Court, Northern District of Texas",
       state: "TX",
-      amount: "More than $50 million in debt; $73.4 million acquisition loan (2022)",
+      amount: "About $74.7 million owed as of the petition date, according to lender ACORE; loan of up to $73.4 million made in June 2022",
       source: "live",
       sourceUrl: "https://www.law360.com/bankruptcy-authority/mid-cap/articles/2535210",
       docketUrl: "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
       docketLabel: "CourtListener docket",
       propertyType: "Multifamily",
-      summary: "Travis Property Owner LLC, a single-asset real estate entity that owns The Travis apartment community at 900 Gordon Heights Lane in Lakewood Village, Texas, filed a Chapter 11 petition minutes after midnight on October 6, 2026. Law360 reported that the debtor listed more than $50 million in debt, and the petition puts both assets and liabilities in the $50 million to $100 million range. Acore Capital Mortgage, L.P. appeared as a creditor the same day (a 2022 trade report says ACORE Capital financed the property's purchase with a $73.4 million loan), and a cash collateral motion and request for an expedited hearing were docketed on October 8.",
-      significance: "The Travis is a 2021-vintage Class A suburban Dallas-area property bought in mid-2022 with short-term, interest-only acquisition debt, a financing profile that leaves little room when the loan term runs out. The case will test how much room a single-asset debtor has against its secured lender: SARE debtors face a 90-day deadline to file a confirmable plan or start paying interest, and the petition itself forecasts nothing for unsecured creditors. Lenders and owners holding similar short-term debt from 2021-2022 should watch the cash collateral terms and any stay-relief motion.",
+      summary: "Travis Property Owner LLC, which owns a 75.86% tenant-in-common interest in The Travis apartment community at 900 Gordon Heights Lane in Frisco, Texas, filed for Chapter 11 on October 6, 2026 in the U.S. Bankruptcy Court for the Northern District of Texas, listing more than $50 million in debt, Law360 reported. Lender ACORE Capital Mortgage, LP, which says it is owed about $74.7 million, had noticed a foreclosure sale of the property for that day. The court let the debtor use cash collateral on an interim basis, and ACORE has moved to dismiss the case as unauthorized and filed in bad faith, and separately for relief from the automatic stay.",
+      significance: "The case involves a 2022 acquisition financed with a three-year, interest-only loan that went into default, and an owner that filed Chapter 11 after a state court refused to stop the foreclosure. The court's rulings on ACORE's motions will determine whether the owner gets time to restructure or sell before the lender can foreclose.",
       body: [
-        "Travis Property Owner LLC filed a voluntary Chapter 11 petition in the U.S. Bankruptcy Court for the Northern District of Texas at 12:10 a.m. on October 6, 2026 (Case No. 26-90220). Law360 described the debtor as a single-asset real estate holding company tied to an apartment complex near Dallas with more than $50 million in debt. Bondoro's filing alert identifies the property as The Travis, a multifamily complex in Lakewood Village, and reports that the petition estimates assets and liabilities of $50 million to $100 million each and states that, after administrative expenses, nothing is expected to be left for unsecured creditors. The debtor's listed address is 900 Gordon Heights Lane.",
-        "That address matches The Travis as described in a June 29, 2022 Multi-Housing News report. According to that report, the 354-unit, four-story community was completed in 2021 by its developer, Westwood Residential, and was then acquired by TTI Capital with a $73.4 million loan from ACORE Capital, a three-year, interest-only acquisition note, based on Denton County records. The report places the property about eight miles from downtown Frisco, just south of U.S. 380. No source located for this entry states the current loan balance or whether the 2022 note was extended or modified before the filing.",
-        "The docket shows the lender side engaging immediately. On the petition date, Acore Capital Mortgage, L.P. and the County of Denton, Texas, a taxing authority, each filed notices of appearance as creditors. On October 8 a cash collateral motion, two motions for leave and a motion to expedite a hearing were docketed; the public docket text does not identify the filer, though cash collateral motions in single-asset cases are ordinarily brought by the debtor. The court approved the expedited-hearing request on October 9, and a notice of hearing followed on October 10. The case is assigned to Judge Mark X. Mullin. Schedules are due October 20, the meeting of creditors is set for November 10, and the docket sets February 3, 2027 as the deadline for a plan and disclosure statement.",
-        "The timing is notable. The petition was filed in the first minutes of the first Tuesday of October, which is the day Texas law sets aside each month for nonjudicial foreclosure sales. No source reviewed for this entry confirms that the property had been posted for a sale that day, so the filing should not be read as proof of a scheduled foreclosure, but a just-after-midnight filing on sale day is a common pattern for borrowers seeking to stop one.",
-        "For lenders and owners, the case shows where the next phase of multifamily distress is playing out. Properties bought in 2021 and 2022 with short-term acquisition debt are now reaching the end of those loan terms, and a Chapter 11 filing by a single-asset owner is one way to buy time when a refinancing or sale has not come together. Because the debtor checked the single-asset real estate box, it faces the Bankruptcy Code's accelerated timetable: within 90 days it generally must either file a plan with a reasonable chance of confirmation or begin monthly interest payments to the secured lender, or face stay relief. The cash collateral hearing will be the first indicator of how much leverage each side holds, and any agreed adequate-protection payments will hint at whether a consensual restructuring or a sale is more likely."
+        "Travis Property Owner LLC filed a voluntary Chapter 11 petition on October 6, 2026 (Case No. 26-90220), and the case is assigned to U.S. Bankruptcy Judge Mark X. Mullin in Fort Worth. Law360 described the debtor as a single-asset real estate holding company tied to an apartment complex near Dallas with more than $50 million in debt. According to ACORE, the debtor owns a 75.86% tenant-in-common interest in the property, a non-debtor company, Verso Sub I, LLC, owns the rest, and the debtor designated itself a single-asset real estate debtor.",
+        "The property is The Travis, a 354-unit, four-story community completed in 2021. Multi-Housing News reported in June 2022 that TTI Capital bought it with a $73.4 million, three-year, interest-only acquisition loan from ACORE Capital, based on Denton County records. ACORE, acting as administrative agent for the lenders, says the June 10, 2022 loan was for up to $73,407,750, that the debtor owed $74,734,511.36 on the petition date, and that the loan has been in payment default since April 2026.",
+        "ACORE says it noticed a foreclosure sale for 10 a.m. on October 6, 2026, and that a Denton County district court denied the owner's request for a temporary restraining order on September 30. In an emergency motion filed October 20, ACORE asks the court to dismiss the case, arguing that the debtor's independent manager did not consent to the filing as its organizational documents require and that the case is a bad-faith filing in what ACORE calls a two-party dispute. ACORE filed a separate motion for relief from the automatic stay on October 30.",
+        "The debtor moved on October 8 to use cash collateral, and the court granted the request on an interim basis after an October 13 hearing; ACORE filed an objection and reservation of rights. The debtor filed its schedules in November and filed responses on November 10, and the court held a hearing on November 12 on the final cash-collateral request and ACORE's motions. The docket reviewed for this entry does not yet show a ruling from that hearing."
       ],
-      tags: ["chapter 11", "multifamily", "single asset real estate", "acquisition loan", "dallas-fort worth"],
+      tags: ["chapter 11", "multifamily", "single asset real estate", "acquisition loan", "foreclosure", "dallas-fort worth"],
       parties: [
         { name: "Travis Property Owner LLC", role: "Debtor" },
-        { name: "Acore Capital Mortgage, L.P.", role: "Creditor" },
-        { name: "The County of Denton, Texas", role: "Creditor" }
+        { name: "Acore Capital Mortgage, L.P.", role: "Creditor (administrative agent for the lenders)" },
+        { name: "The County of Denton, Texas", role: "Creditor" },
+        { name: "City of Frisco", role: "Creditor" },
+        { name: "Frisco ISD", role: "Creditor" }
       ],
       judge: "Mark X. Mullin",
-      amountUsd: 73400000,
+      amountUsd: 74734511,
       amountBasis: "loan",
       timeline: [
-        { when: "June 29, 2022", label: "Multi-Housing News reports the purchase of The Travis with a $73.4 million, three-year interest-only ACORE Capital loan" },
-        { when: "October 6, 2026", label: "Travis Property Owner LLC files Chapter 11 petition (Case No. 26-90220); Acore Capital Mortgage, L.P. appears" },
-        { when: "October 8, 2026", label: "Cash collateral motion and request for expedited hearing docketed" },
-        { when: "October 9, 2026", label: "Court approves expedited hearing request; notice of hearing issued October 10", current: true }
+        { when: "June 29, 2022", label: "Multi-Housing News reports TTI Capital's purchase of The Travis with a $73.4 million ACORE Capital loan" },
+        { when: "April 2026", label: "Loan goes into payment default, according to ACORE" },
+        { when: "September 30, 2026", label: "Denton County district court denies the owner's request to block the foreclosure, according to ACORE" },
+        { when: "October 6, 2026", label: "Travis Property Owner LLC files Chapter 11 (Case No. 26-90220) on the day of a noticed foreclosure sale" },
+        { when: "October 15, 2026", label: "Court enters an interim order allowing use of cash collateral" },
+        { when: "October 20, 2026", label: "ACORE files an emergency motion to dismiss the case" },
+        { when: "October 30, 2026", label: "ACORE moves for relief from the automatic stay" },
+        { when: "November 12, 2026", label: "Court holds a hearing on cash collateral and ACORE's motions", current: true }
       ]
     },
     {

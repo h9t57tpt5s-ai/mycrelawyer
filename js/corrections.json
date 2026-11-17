@@ -5,6 +5,126 @@
   {
    "date": "2026-11-16",
    "scope": "matter",
+   "caseId": "live-077",
+   "subject": "Redimere Advisors LLC v. Plymouth Industrial REIT, Inc. (Unregistered Broker's $60M Merger Injunction Denied)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Redimere Advisors LLC v. Plymouth Industrial REIT, Inc. (Unregistered Broker's $60M Merger Injunction Denied)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; REMOVE, out of scope: this is an advisory firm's success-fee dispute over a REIT take-private, a broker/consultant pay dispute with no claim about any property. If it were kept, several facts would need correcting. (1) The $60 million figure: the source blog says Redimere's Chapter 93A claim sought "
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-196",
+   "caseId": "live-196",
+   "subject": "Negligent Security Suit Over Northwoods Mall Food Court Stabbing (North Charleston, S.C.)",
+   "kind": "Corrected: description, party",
+   "was": "Defendant: CBL & Associates Properties, Inc. (\"The suit names CBL & Associates Properties ... along with the mall's contracted security providers\") | An earlier shooting ... produced litigation; plaintiffs' counsel argued a mall's security posture must be judged against its incident history",
+   "now": "Coverage says the suit names the mall and security company Allied Universal; it does not name CBL or any owner entity | Victims of a Feb. 14, 2021 parking-lot shooting sued in 2023 alleging inadequate security; the argument attributed to their counsel was not found",
+   "basis": "Checked against the source article: WCSC Live 5, Sept. 24 and Sept. 29, 2026 | WCSC Live 5, May 4, 2023"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-105",
+   "caseId": "live-105",
+   "subject": "Tucker United v. West Virginia Air Quality Board (Ridgeline Data Center Permit Appeal)",
+   "kind": "Corrected: date, description",
+   "was": "West Virginia Air Quality Board approves the Ridgeline facility's air quality permit (February 2026) | The second appeal was moot because the final permit challenged in it had already been superseded",
+   "now": "Fundamental Data obtained the permit in 2025; the board's February 5 order upheld it | The second appeal challenged the board's handling of a draft permit and confidentiality claims; it was moot because the final permit had been issued and appealed",
+   "basis": "Checked against the source article: West Virginia Record, Aug. 26, 2026 | West Virginia Record, Aug. 26, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-078",
+   "caseId": "live-078",
+   "subject": "Neighbors' Noise Nuisance Class Action Against PrimeBlock Operations, LLC (Murphy, N.C. Data Center Remand Fight)",
+   "kind": "Corrected: date, description",
+   "was": "Proposed class action filed July 24, 2026 | Plaintiffs moved on September 2, 2026 to remand | Readings near affected properties ranged from 55 to 85 decibels; one resident likened it to a small jet | Murphy and other municipalities have responded by adopting new local noise ordinances",
+   "now": "Filed July 7, 2026 in Cherokee County Superior Court | Motion to remand filed August 31, 2026 | A resident told commissioners it reached about 65 dB in her yard; a county commissioner compared it to a commercial jet at take-off | An April 2022 county noise-ordinance amendment failed; the county adopted a moratorium on new crypto mines in October 2023",
+   "basis": "Checked against the source article and court docket: State complaint (W.D.N.C. No. 1:26-cv-00225, ECF No. 1-1), e-filing stamp 7/7/2026 | W.D.N.C. docket, ECF Nos. 8-9 | State complaint, paras. 67-68 (75-85 dB is the complaint's figure for a typical data center) | State complaint, paras. 70-71"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-129",
+   "caseId": "live-129",
+   "subject": "LDG Development, LLC v. City of Prospect, Kentucky (Prospect Cove Fair Housing Zoning-Denial Verdict)",
+   "kind": "Corrected: date, description",
+   "was": "Verdict returned August 26, 2026 | The case went to trial in March 2026 | Louisville Metro agreed in August 2025 to a $6 million settlement | A nine-figure price tag / nine-figure jury verdict | Prospect's 2017 denial of a 198-unit senior apartment project",
+   "now": "Verdict returned Tuesday, August 25, 2026 | Trial began August 10, 2026 | Settlement announced in December 2025 (exact agreement date not found) | $36.3 million (an eight-figure verdict) | The 2017 denial was by Louisville Metro Council; Prospect opposed the project",
+   "basis": "Checked against the source article: Louisville Public Media, Aug. 26, 2026 ('Tuesday night') | Louisville Public Media, Aug. 26, 2026 | LDG counsel's release dated Dec. 31, 2025 | Law360; Louisville Public Media | LDG counsel's release dated Dec. 31, 2025; Louisville Public Media"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-035",
+   "caseId": "live-035",
+   "subject": "9 New York Ave LLC v. Jones Lang LaSalle Americas, Inc. (Pinnacle Apartments, Washington, D.C., NOI Projection Fraud Suit)",
+   "kind": "Corrected: description, figure",
+   "was": "Apartment tower at 9 New York Avenue NW | A Chicago-based developer | JLL ultimately settled on a $2,036,354 NOI figure implying a $50,997,681 valuation | Sale price was nearly $20 million below JLL's implied valuation | $12M+ sought",
+   "now": "The Pinnacle, 7 New York Ave. NE (NoMa); 9 New York Ave LLC is the owner entity's name | A Maryland-based developer; the suit was filed in Cook County because JLL is headquartered there | Projections allegedly rose to $2.04 million (January 2022) and then $2.07 million in the model given to the lender's appraiser, implying a $51 million value | More than $20 million below JLL's projected stabilized value | About $12.4 million sought",
+   "basis": "Checked against the source article: Bisnow, Aug. 25, 2026 | Bisnow, Aug. 25, 2026 | Bisnow, Aug. 25, 2026 | Bisnow, Aug. 25, 2026 | Bisnow, Aug. 25, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-217",
+   "subject": "Zammuto v. Damianidis (Massachusetts Appeals Court Holds Emailed Settlement Binding, Orders $100K Paid)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Zammuto v. Damianidis (Massachusetts Appeals Court Holds Emailed Settlement Binding, Orders $100K Paid)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; An individual buyer's suit over a small apartment-site purchase; an individual's dispute, and the cited article covers a different case."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-207",
+   "caseId": "live-207",
+   "subject": "State of New Jersey v. RealPage, Inc. (Court Lets New Jersey Renew Antitrust Claims Against AvalonBay)",
+   "kind": "Corrected: date, description, party",
+   "was": "Ruling issued September 30, 2026 | On March 31, 2026, Judge Arleo ... grant[ed] the defendants' motions to dismiss the federal and state antitrust claims without prejudice | Allows New Jersey Attorney General Matthew Platkin's office to proceed",
+   "now": "Letter order dated September 29, 2026 | The March 31 opinion found the conspiracy pleaded against RealPage and the other landlords; only the antitrust claims (and some consumer-fraud claims) against AvalonBay were dismissed | Plaintiffs are now Attorney General Jennifer Davenport and the Acting Director of the Division of Consumer Affairs, substituted under Rule 25(d)",
+   "basis": "Checked against the source article and court docket: D.N.J. docket No. 2:25-cv-03057, ECF No. 240 | ECF No. 240 at 1-3 (summarizing the March 31, 2026 opinion, ECF No. 160) | ECF No. 240 at 1 n.1"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-022",
+   "caseId": "live-022",
+   "subject": "RealPage, Inc. v. James (First Amendment Challenge to New York's Algorithmic Rent-Pricing Law)",
+   "kind": "Corrected: date, description",
+   "was": "Date 2026-08-14 (the date of a Law360 article) | \"The presiding judge has not yet ruled on RealPage's pending preliminary-injunction motion or the state's motion to dismiss\" | Judge granted RealPage a preliminary injunction against New York's algorithmic rent-pricing ban | The law bars setting rents based on recommendations from \"pricing software, data-analytics services, or algorithmic devices\"",
+   "now": "2026-09-29, the date of the preliminary-injunction ruling | Judge Caproni ruled on both motions on September 29, 2026 | Injunction covers only Section 3; the court held Section 2 regulates conduct, not protected speech | It reaches only software performing a defined \"coordinating function\" (pooling data from two or more unaffiliated landlords)",
+   "basis": "Checked against the source article and court docket: S.D.N.Y. docket No. 1:25-cv-09847, ECF No. 52 | ECF No. 52 | ECF No. 52 at 1, 15 n.8, 26 | ECF No. 52 at 4 & n.2 (quoting N.Y. Gen. Bus. Law § 340-B)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-266",
+   "caseId": "live-266",
+   "subject": "In re Travis Property Owner LLC: Majority Owner of The Travis Apartments in Frisco Files Chapter 11; Lender ACORE Seeks Dismissal",
+   "kind": "Corrected: description",
+   "was": "The Travis apartment community ... in Lakewood Village, Texas | Single-asset entity that owns The Travis | The public docket text does not identify the filer [of the cash collateral motion] | No source reviewed confirms that the property had been posted for a sale that day | The debtor's listed address is 900 Gordon Heights Lane",
+   "now": "The Travis at 900 Gordon Heights Lane, Frisco, Texas | Owns a 75.86% tenant-in-common interest; non-debtor Verso Sub I, LLC owns the remaining 24.14% | The cash collateral motion was filed by the debtor | ACORE says it noticed a foreclosure sale for 10 a.m. on October 6, 2026 | 900 Gordon Heights Lane is the property's address; ACORE's motion gives the debtor's address as Centreville, Va.",
+   "basis": "Checked against the source article and court docket: Multi-Housing News (June 29, 2022); ACORE's motion to dismiss, ECF No. 27, para. 5 | ACORE's motion to dismiss, ECF No. 27, para. 5 and n.2 | N.D. Tex. docket No. 26-90220, ECF No. 9 | ACORE's motion to dismiss, ECF No. 27, para. 10 | ACORE's motion to dismiss, ECF No. 27, n.1 and para. 5"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-199",
+   "caseId": "live-199",
+   "subject": "In re Brass Works Urban Renewal Company, LLC (Chapter 11 Dismissed After Preferred-Equity Investor Won Control of The Cliffs Lofts' Owner)",
+   "kind": "Corrected: date, description, party",
+   "was": "Judge dismissed the case on September 28, 2026 | It is not confirmed in the public reporting that ASVRF itself was the moving party | Sponsor of a warehouse-to-residential loft conversion on Paterson Plank Road",
+   "now": "Dismissal order entered September 25, 2026 (Law360 reported it Sept. 28) | ASVRF and Paterson Plank RD J-C, LLC brought the motion to dismiss | Former manager and Class A member of the LLC that owns The Cliffs Lofts, an existing 120-unit rental building in Jersey City",
+   "basis": "Checked against the source article and court docket: Bankr. D.N.J. docket No. 26-15809, ECF No. 82 'Dismissing Case' (Sept. 25, 2026) | Debtor's objection, ECF No. 31, responding to the movants' motion at ECF No. 19 | Del. Ch. Memorandum Opinion, C.A. No. 2025-0549-LWW (Nov. 21, 2025); Law360 (120 units)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-212",
+   "caseId": "live-212",
+   "subject": "Colorado Apartment Association v. Ryan (Federal Preemption Challenge to Denver and Colorado Building-Performance Standards)",
+   "kind": "Corrected: date, description",
+   "was": "Ruling dated October 1, 2026 (\"On the first order of October 2026\") | Plaintiffs filed an amended complaint in June 2025 | DOJ statement of interest told the court the rules \"plausibly are preempted\" | The industry's core preemption theory survives",
+   "now": "Order entered September 30, 2026 | Amended complaint filed August 29, 2025 | Statement of interest filed Sept. 15, 2026; its content is not described (quote removed as unverified) | Claims survive as to building-wide energy-use reductions; the court held Regulation 28's greenhouse-gas intensity cap is not preempted and dismissed consumer-appliance claims with prejudice",
+   "basis": "Checked against the source article and court docket: D. Colo. docket, ECF No. 122 (Order Adopting Magistrate Judge Recommendation, dated Sept. 30, 2026) | ECF No. 122 at 2 (citing ECF No. 68) | D. Colo. docket, ECF No. 115; the quoted words were not found in any source reviewed | ECF No. 122 at 23-26"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
    "caseId": "live-181",
    "subject": "Brightline's Real Estate Arms Land in Chapter 11 as Rail Parent Restructures $5.5B Debt",
    "kind": "Removed: out of scope",
