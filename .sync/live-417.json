@@ -1,0 +1,22 @@
+{
+ "id": "live-417",
+ "title": "Dickard v. Jackson & Jackson, L.L.C.: Ohio Appeals Court Revives Property Owner's Zoning Challenge and Section 1983 Takings Claim (2026-Ohio-4530)",
+ "category": "zoning-land-use",
+ "status": "ruling",
+ "date": "2026-11-16",
+ "jurisdiction": "Ohio Court of Appeals, Twelfth Appellate District (Butler County)",
+ "state": "OH",
+ "amount": "Injunctive relief; takings compensation sought",
+ "source": "live",
+ "source_url": "https://www.courtlistener.com/opinion/11062810/dickard-v-jackson-jackson-llc/",
+ "summary": "On November 16, 2026, Ohio's Twelfth District Court of Appeals partly reversed the dismissal of counterclaims that Jackson & Jackson, LLC brought after the Butler County Zoning Inspector sued to stop its business use of a residentially zoned property. The court held that a Section 1983 claim for compensation for a regulatory taking is subject to the four-year limitations period in R.C. 2305.09(E), that such a claim need not be preceded by a mandamus action, and that the company did not have to appeal its variance denial before bringing a declaratory judgment challenge to the zoning. One declaratory count stays dismissed.",
+ "significance": "The ruling addresses how an Ohio property owner may plead a regulatory-takings challenge to zoning. A denied variance was treated as a final decision ripe for constitutional review, so an administrative appeal was not a prerequisite to a declaratory judgment action. The court also applied a four-year, not two-year, limitations period to a Section 1983 takings claim. A count asking only for a declaration of a taking, without a request for just compensation, was held improper.",
+ "judge": "Mary E. Donovan",
+ "tags": [
+  "regulatory taking",
+  "zoning enforcement",
+  "use variance",
+  "section 1983",
+  "ohio"
+ ]
+}

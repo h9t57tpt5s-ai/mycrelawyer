@@ -88,6 +88,38 @@
      "https://www.courtlistener.com/opinion/11062840/sh-nashville-llc-v-fwref-nashville-airport-llc/"
     ]
    }
+  },
+  "live-417": {
+   "verifiedOn": "2026-11-17",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11062810/dickard-v-jackson-jackson-llc/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11062810/dickard-v-jackson-jackson-llc/"
+   ],
+   "quotes": 22,
+   "confirmedByChecker": 22,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11062810/dickard-v-jackson-jackson-llc/"
+    ]
+   }
+  },
+  "live-418": {
+   "verifiedOn": "2026-11-17",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11062921/bte-properties-llc-v-parkman-twp/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11062921/bte-properties-llc-v-parkman-twp/"
+   ],
+   "quotes": 16,
+   "confirmedByChecker": 16,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11062921/bte-properties-llc-v-parkman-twp/"
+    ]
+   }
   }
  }
 }

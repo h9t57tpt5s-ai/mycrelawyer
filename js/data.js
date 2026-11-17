@@ -13523,6 +13523,84 @@ const RELAW_DATA = {
         { when: "February 26, 2025", label: "Tennessee Supreme Court grants permission to appeal" },
         { when: "November 16, 2026", label: "Tennessee Supreme Court reverses the Court of Appeals and upholds summary judgment for the seller", current: true }
       ]
+    },
+    {
+      id: "live-417",
+      seoTitle: "Butler County, Ohio Zoning Suit: Takings Claims Revived on Appeal",
+      seoDescription: "Ohio Twelfth District revives Jackson & Jackson, LLC's zoning challenge and Section 1983 takings claim against Butler County over a $270,000 property.",
+      property: {"name": null, "address": "5670 West Alexandria Road", "city": "Madison Township", "state": "OH"},
+      addedDate: "2026-11-17",
+      title: "Dickard v. Jackson & Jackson, L.L.C.: Ohio Appeals Court Revives Property Owner's Zoning Challenge and Section 1983 Takings Claim (2026-Ohio-4530)",
+      brief: "An Ohio appeals court revived a commercial electrical company's as-applied zoning challenge and federal takings claim against Butler County over an order to stop business use of a nine-acre, residentially zoned site it bought for $270,000.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-16",
+      jurisdiction: "Ohio Court of Appeals, Twelfth Appellate District (Butler County)",
+      state: "OH",
+      amount: "Injunctive relief; takings compensation sought",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11062810/dickard-v-jackson-jackson-llc/",
+      summary: "On November 16, 2026, Ohio's Twelfth District Court of Appeals partly reversed the dismissal of counterclaims that Jackson & Jackson, LLC brought after the Butler County Zoning Inspector sued to stop its business use of a residentially zoned property. The court held that a Section 1983 claim for compensation for a regulatory taking is subject to the four-year limitations period in R.C. 2305.09(E), that such a claim need not be preceded by a mandamus action, and that the company did not have to appeal its variance denial before bringing a declaratory judgment challenge to the zoning. One declaratory count stays dismissed.",
+      significance: "The ruling addresses how an Ohio property owner may plead a regulatory-takings challenge to zoning. A denied variance was treated as a final decision ripe for constitutional review, so an administrative appeal was not a prerequisite to a declaratory judgment action. The court also applied a four-year, not two-year, limitations period to a Section 1983 takings claim. A count asking only for a declaration of a taking, without a request for just compensation, was held improper.",
+      body: [
+        "The case was decided on the pleadings, and the appeals court took the facts from Jackson & Jackson, LLC's counterclaim and treated them as true for the appeal. The property is approximately nine acres with improvements at 5670 West Alexandria Road in Madison Township, Butler County, Ohio. The opinion says the zoning does not permit commercial uses, but that over the years the property was used for a variety of commercial functions. Jackson & Jackson, which provides commercial electrical and emergency response services, bought it on November 22, 2021 for $270,000 and began parking trucks and equipment there and using existing office space.",
+        "On or about May 9, 2023, the office of the Zoning Inspector for Butler County served a notice of zoning violation. On August 17, 2023, the Butler County Board of Zoning Appeals denied the company's variance application. The Butler County Zoning Inspector then sued in the Butler County Court of Common Pleas for an injunction, and the company counterclaimed against the inspector and the Butler County Board of Commissioners. The County moved to dismiss, arguing that the Section 1983 claim was filed more than two years after the company took title, that all of the claims had to be brought as a mandamus action to compel appropriation proceedings, and that the company failed to exhaust administrative remedies. The trial court dismissed all of the counterclaims.",
+        "The Twelfth District affirmed in part and reversed in part on November 16, 2026. It held that the Section 1983 takings claim was subject to the four-year limitations period in R.C. 2305.09(E), and that the company was not required to appeal the zoning board's decision before challenging the constitutionality of the zoning resolution. It upheld dismissal of the count that asked for a declaration of a taking without requesting just compensation. On remand, Count Two remains dismissed, and Counts One and Three may be pursued."
+      ],
+      tags: ["regulatory taking", "zoning enforcement", "use variance", "section 1983", "ohio"],
+      parties: [
+        { name: "Butler County Zoning Inspector", role: "Plaintiff/Appellee" },
+        { name: "Butler County Board of Commissioners", role: "Counterclaim Defendant/Appellee" },
+        { name: "Jackson & Jackson, LLC", role: "Defendant/Counterclaim Plaintiff/Appellant" }
+      ],
+      judge: "Mary E. Donovan",
+      amountUsd: null,
+      timeline: [
+        { when: "November 22, 2021", label: "Jackson & Jackson, LLC acquires the property for $270,000" },
+        { when: "May 9, 2023", label: "Office of the Butler County Zoning Inspector serves a notice of zoning violation (on or about this date)" },
+        { when: "August 17, 2023", label: "Butler County Board of Zoning Appeals denies the company's variance application" },
+        { when: "November 16, 2026", label: "Twelfth District affirms in part, reverses in part and remands; two of three counterclaims revived", current: true }
+      ]
+    },
+    {
+      id: "live-418",
+      seoTitle: "Parkman Township, Ohio: 1843 Deed Limit Binds Commercial Lot",
+      seoDescription: "Ohio Eleventh District: an 1843 public-square deed restriction binds a parcel BTE Properties, L.L.C. put in a 2.6298-acre commercial lot.",
+      property: {"name": null, "address": null, "city": "Parkman Township", "state": "OH"},
+      addedDate: "2026-11-17",
+      title: "BTE Properties, L.L.C. v. Township of Parkman: Divided Ohio Appeals Court Enforces 1843 Public-Square Deed Restriction on Parcel Within Commercial Lot (2026-Ohio-4538)",
+      brief: "A divided Ohio appeals court held that an 1843 public-square restriction, repeated in a 2018 township deed, binds a parcel inside BTE Properties' 2.6298-acre commercial lot. ABC Development had agreed to buy land containing the parcel.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-16",
+      jurisdiction: "Ohio Court of Appeals, Eleventh Appellate District (Geauga County)",
+      state: "OH",
+      amount: "Quiet title; declaratory relief",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11062921/bte-properties-llc-v-parkman-twp/",
+      propertyType: "Land/Development",
+      summary: "On November 16, 2026, Ohio's Eleventh District Court of Appeals affirmed summary judgment for the Township of Parkman and the dismissal of BTE Properties, L.L.C.'s quiet title complaint. The court held that the 2018 deed conveying a small parcel from the township to BTE carried a valid use restriction requiring the land to be kept as a public square or commons with no structures. BTE had folded the parcel into a 2.6298-acre commercial lot and agreed to sell land containing it to ABC Development L.L.C. One judge dissented.",
+      significance: "The majority held that a township did not waive or abandon an old public-use restriction by selling the land to a private buyer when the new deed specifically incorporated the restriction and the buyer had actual notice of it. The dissent would have reversed and entered judgment for BTE. The restriction had been treated as an exception to title in BTE's sale contract.",
+      body: [
+        "According to the opinion, the Township of Parkman conveyed a 0.2596-acre piece of its public square to BTE Properties, L.L.C. on January 22, 2018. The deed said the conveyance was subject to a restriction from the original grant of the square to the township, under which the land was to be used as a public square or commons unencumbered by any building or structure. BTE then consolidated nearby properties into a 2.6298-acre commercial lot that included the parcel.",
+        "On December 12, 2023, ABC Development L.L.C. agreed to buy land containing the parcel. The opinion says the deed restriction created an exception to title, and on March 1, 2024 the two companies amended the purchase agreement to make the purchase contingent on that exception. On April 16, 2024 they filed a quiet title complaint in the Geauga County Court of Common Pleas asking that the 1843 use restriction be declared invalid and unenforceable. The trial court granted summary judgment to the township.",
+        "The Eleventh District affirmed on November 16, 2026. BTE argued that the restriction bound only the township trustees and their successors in office, not later private holders, and that the township waived or abandoned it. The majority held that the township did not waive or abandon the restriction by selling the parcel where the deed specifically incorporated it and BTE had actual notice. The dissenting judge wrote that he would reverse and enter judgment for BTE."
+      ],
+      tags: ["deed restriction", "quiet title", "restrictive covenant", "commercial land", "ohio"],
+      parties: [
+        { name: "BTE Properties, L.L.C.", role: "Plaintiff/Appellant" },
+        { name: "ABC Development L.L.C.", role: "Plaintiff (contract purchaser)" },
+        { name: "Township of Parkman, Ohio", role: "Defendant/Appellee" }
+      ],
+      judge: "John J. Eklund",
+      amountUsd: null,
+      timeline: [
+        { when: "January 22, 2018", label: "Township of Parkman conveys the parcel to BTE Properties, L.L.C. by deed subject to the use restriction" },
+        { when: "December 12, 2023", label: "ABC Development L.L.C. agrees to purchase land containing the parcel" },
+        { when: "April 16, 2024", label: "BTE and ABC file quiet title complaint in Geauga County Court of Common Pleas" },
+        { when: "February 17, 2026", label: "Trial court issues judgment entry granting summary judgment to the township" },
+        { when: "November 16, 2026", label: "Eleventh District affirms; one judge dissents", current: true }
+      ]
     }
   ],
 
