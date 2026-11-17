@@ -4,6 +4,126 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-232",
+   "caseId": "live-232",
+   "subject": "Fox Investments LLC v. City of Kaukauna (Wisconsin Direct-Action Contamination Cost-Recovery Suit)",
+   "kind": "Corrected: description",
+   "was": "A Wisconsin commercial property owner ... contamination discovered on its property | a lender's Phase II ... conducted in connection with Fox's financing on the property",
+   "now": "the site is the Fox Shore Apartments, which Fox and affiliates owned from about February 1998 to January 2020 | a lender's Phase II assessment (the source does not tie it to Fox's financing)",
+   "basis": "Checked against the source article: Insurance Business, July 24, 2026 | Insurance Business, July 24, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-107",
+   "caseId": "live-107",
+   "subject": "Hembree Insurance Trust v. Maples Industries, Inc. (Scottsboro Industrial Lease Dispute)",
+   "kind": "Corrected: date, status",
+   "was": "transferred title ... nine years before signing the lease | a second appeal challenging that judgment was summarily affirmed without opinion on October 31, 2025, closing out the litigation in Hembree's favor",
+   "now": "transferred title by a 2014 deed, about five years before the February 2019 lease | Hembree brought the second appeal, and the Court affirmed the trial court without opinion; the order does not describe the judgment",
+   "basis": "Checked against the source article: Hembree Ins. Trust v. Maples Indus., SC-2024-0543 (Ala. Apr. 11, 2025), via CourtListener | Hembree Ins. Trust v. Maples Indus., SC-2025-0502 (Ala. Oct. 31, 2025), via CourtListener"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-001",
+   "subject": "Liu v. Willow Bridge Property Co. (RealPage Algorithmic Pricing Suits)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Liu v. Willow Bridge Property Co. (RealPage Algorithmic Pricing Suits)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; REMOVE: out of scope. This is a putative class action by a residential renter (an individual tenant of an apartment building) against his property manager and a software vendor over apartment rents under Philadelphia's rent-algorithm ordinance -- a residential-tenant/consumer claim, which the scope "
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-133",
+   "caseId": "live-133",
+   "subject": "KREF Capital LLC v. LAK Bourse Owner, LLC (Bourse Building Mortgage Default Suit)",
+   "kind": "Corrected: description, party",
+   "was": "sued the ownership entities behind ... the Bourse building and the adjacent 400 Market Street ... public sale of the properties | defendant listed as LAK Bourse Owner, LLC only | Keystone ... accusing Adler of attempting to oust it as managing partner, and secured a temporary restraining order in March 2026 | acquire ... from KKR Real Estate Finance Trust for roughly $41 million ... a 152-key hotel ... a 176-unit apartment building",
+   "now": "the suit concerns the Bourse only; KKR says 400 Market is not part of the lawsuit | defendants are LAK Bourse Owner, LLC and LAK Bourse Master HTC Landlord, LLC | Keystone sued for breach of contract alleging Adler failed to provide promised funding; in a March ruling a judge rejected Adler's attempt to oust Keystone | removed; not in the Inquirer article or the docket reviewed",
+   "basis": "Checked against the source article and court docket: Philadelphia Inquirer, Aug. 7, 2026 | CourtListener docket 2:26-cv-05284 (E.D. Pa.), notice of dismissal caption | Philadelphia Inquirer, Aug. 7, 2026, citing Law360 | Philadelphia Inquirer, Aug. 7, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-155",
+   "caseId": "live-155",
+   "subject": "MLP Ventures v. Upper Merion Township (King of Prussia Data Center Denial Appeal)",
+   "kind": "Corrected: description, party",
+   "was": "suing Upper Merion Township, its Planning Commission, and its Board of Supervisors for a second time | what it has called the Renaissance Park and Innovation Data Center Campus",
+   "now": "the September 16 appeals were filed against the Board of Supervisors; the earlier August suit also named the township and planning commission | five data centers on five properties (no source reviewed uses that name; PhillyVoice mentions properties along Renaissance Boulevard)",
+   "basis": "Checked against the source article: Philadelphia Inquirer, Sept. 18, 2026 | Philadelphia Inquirer, Sept. 18, 2026; PhillyVoice, Oct. 20, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-125",
+   "caseId": "live-125",
+   "subject": "The Mission LLC v. State of California and City of Santa Barbara",
+   "kind": "Corrected: date, description",
+   "was": "In September 2025, the California Legislature passed, and the Governor signed, SB 158 | alleging SB 158 violates the equal protection clauses ..., runs afoul of nondiscrimination law, ... special legislation ... impermissible retroactivity | a nearly 5-acre sloped parcel ... floodway fringe areas ... a fault line",
+   "now": "state legislators passed SB 158 in October 2025 | alleging the law illegally singles out its project and that the city lacks a compliant housing element | removed; the Independent gives no parcel size and does not mention a fault line",
+   "basis": "Checked against the source article: Santa Barbara Independent, June 10, 2026 | Santa Barbara Independent, June 10, 2026 | Santa Barbara Independent, June 10, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-095",
+   "caseId": "live-095",
+   "subject": "Wilmington Trust National Association v. NG 211 N. Pennsylvania St LLC (Regions Tower $75M Foreclosure)",
+   "kind": "Corrected: description, party",
+   "was": "Indianapolis' third-tallest building | as trustee for CMBS certificateholders and acting through debt servicer KeyBank | Indiana University's Center for Real Estate Studies director ... described as necessarily 'building by building'",
+   "now": "Indiana's tallest building until 1982 (no source reviewed ranks it third) | acting as trustee, with KeyBank as debt servicer and Morgan Stanley Mortgage Capital Holdings LLC as the loan's owner | removed; the quote is not in the IBJ or WISH-TV articles",
+   "basis": "Checked against the source article: IBJ, Feb. 5, 2024 | IBJ, Feb. 5, 2024 | IBJ, Feb. 5, 2024; WISH-TV, Feb. 6, 2024"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-096",
+   "caseId": "live-096",
+   "subject": "Oxbow Estates HOA et al v. Metropolitan Development Commission (Willows \"The Elements\" Rezoning Settlement)",
+   "kind": "Corrected: description, status",
+   "was": "the development team first withdrew an earlier rezoning petition in June 2022, hours before a scheduled MDC hearing | the lawsuit was dismissed with prejudice",
+   "now": "the developers withdrew the plan in mid-2022 amid opposition from nearby residents | the lawsuit was expected to be dismissed with prejudice the next day (not confirmed)",
+   "basis": "Checked against the source article: IBJ, Feb. 5, 2024 | IBJ, Feb. 5, 2024"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-118",
+   "caseId": "live-118",
+   "subject": "The Original Saugus Café LLC v. North Valley Construction Co. LLC (Wrongful Lockout Suit)",
+   "kind": "Corrected: description",
+   "was": "ran it for nearly three decades under an oral month-to-month lease (presented as the only lease) | The café itself reopened under new management within two weeks of the lockout | closed abruptly on January 2, 2026, after ... owners verbally told him in late December 2025 that the locks would be changed",
+   "now": "the operator alleges that after the landlord's death in August 2025 he signed a written lease under duress | a notice on the door said the café would be 'reopening under new management soon' | removed; KHTS reports only that he arrived Jan. 5 to find the locks changed",
+   "basis": "Checked against the source article: KHTS, Jan. 16, 2026 | KHTS, Jan. 16, 2026 | KHTS, Jan. 16, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-162",
+   "caseId": "live-162",
+   "subject": "South Union Township v. Namdar Realty Group & Uniontown Mall Realty (Court-Supervised Mall Safety Compliance)",
+   "kind": "Corrected: description",
+   "was": "alleging the conditions constituted a public nuisance | Bangor Mall in Maine ... reflect a broader portfolio-level pattern",
+   "now": "over conditions the township called dangerous and unlawful (no source describes a nuisance claim) | removed; no source reviewed mentions Bangor Mall or any portfolio pattern",
+   "basis": "Checked against the source article: Observer-Reporter, Nov. 19, 2025; Herald-Standard, June 3 and July 2, 2026 | Herald-Standard, July 2, 2026; Herald-Standard, June 3, 2026; Observer-Reporter, Nov. 19, 2025"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-169",
+   "caseId": "live-169",
+   "subject": "Advenir Azora Development, LLC v. City of Hendersonville (Zoning Denial Suit — Partial Dismissal)",
+   "kind": "Corrected: description",
+   "was": "dismissed the statutory-authority and due-process counts | replace the site's existing single-family subdivision entitlement",
+   "now": "dismissed a count alleging the denial was ultra vires (not authorized by statute) and a count alleging the city's conditional zoning provisions are unconstitutional | rezone the land from R-15 to a planned residential conditional zoning district",
+   "basis": "Checked against the source article: Hendersonville Lightning, Sept. 2, 2026 | Hendersonville Lightning, March 10, 2026 and Jan. 8, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-238",
+   "subject": "Bravera Bank v. Henry Land Holding LLC (North Dakota Commercial Development-Loan Foreclosure)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Bravera Bank v. Henry Land Holding LLC (North Dakota Commercial Development-Loan Foreclosure)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; A bank's suit over development lots at Highlander Estates in Minot; no source says the lots are commercial, and the name reads as a home subdivision. Borderline, so left out."
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-304",
    "caseId": "live-304",
    "subject": "Straus Group v. Antheus Capital (Lake Meadows Investor Buyout Dispute)",
