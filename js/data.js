@@ -13481,6 +13481,48 @@ const RELAW_DATA = {
         { when: "October 28, 2026", label: "Developer's attorneys move to dismiss" },
         { when: "November 11, 2026", label: "Amended complaint removes Align Real Estate, Safeway and Albertsons; city and PG&E remain defendants", current: true }
       ]
+    },
+    {
+      id: "live-416",
+      seoTitle: "Nashville Hilton-Branded Hotel Sale: $18,917,500 Deposit Upheld",
+      seoDescription: "Tennessee Supreme Court rules for seller FWREF Nashville Airport, LLC: $18,917,500 in earnest money on a Hilton-branded hotel sale is enforceable.",
+      property: {"name": null, "address": null, "city": "Nashville", "state": "TN"},
+      addedDate: "2026-11-17",
+      title: "SH Nashville, LLC v. FWREF Nashville Airport, LLC: Tennessee Supreme Court Enforces $18,917,500 Earnest-Money Forfeiture on Sale of Hilton-Branded Hotel Near Nashville Airport",
+      brief: "The Tennessee Supreme Court upheld summary judgment for the seller of a Hilton-branded hotel near the Nashville airport, letting it keep $18,917,500 in earnest money as liquidated damages after the buyer failed to close.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-16",
+      jurisdiction: "Tennessee Supreme Court",
+      state: "TN",
+      amount: "$18,917,500 in earnest money retained as liquidated damages",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11062840/sh-nashville-llc-v-fwref-nashville-airport-llc/",
+      propertyType: "Hospitality",
+      summary: "On November 16, 2026, the Tennessee Supreme Court reversed the Court of Appeals and upheld summary judgment for FWREF Nashville Airport, LLC, the seller of a Hilton-branded hotel near the Nashville airport, in a dispute over $18,917,500 in earnest money. The court held that when parties agree that actual damages are difficult to ascertain and that a liquidated sum is a reasonable estimate, the provision is presumed enforceable, and the party resisting it must show by a preponderance of the evidence that it is a penalty. It found the purchaser had not raised a question of fact to overcome the presumption.",
+      significance: "The ruling puts the burden on the party attacking an agreed liquidated-damages clause, here a buyer that failed to close under a purchase and sale agreement. The court said the contract need not explain how the parties arrived at the amount, and that deposits totaling approximately 23% of the purchase price, built up through twenty-four extension amendments, were not shown to be a penalty on this record. It also found no abuse of discretion in the trial court's ruling without discovery into the agreement's formation.",
+      body: [
+        "According to the opinion, FWREF Nashville Airport, LLC agreed in October 2019 to sell an existing Hilton-branded hotel near the Nashville airport to UNI Nashville Airport Hotel, LLC for $79,000,000, with a $1,750,000 earnest money deposit and a January 3, 2020 closing date. The agreement recited that fluctuating land values, the economy, governmental regulations and the market for real estate loans made the seller's damages from a failed closing extremely difficult to ascertain, and that the earnest money was a reasonable estimate the seller could retain as liquidated damages. The parties then signed twenty-four amendments, each adding earnest money deemed earned by the seller and non-refundable, extending the closing date or deposit deadlines, and ratifying the agreement. The price rose to $82,125,000, the agreement was assigned to SH Nashville, LLC, and the deposits reached $18,917,500.",
+        "The purchaser learned on October 21, 2020 that a new Hilton-branded hotel on airport grounds was scheduled to open in late 2023, which it said was a surprise. It was unable to close by January 11, 2021, and the seller gave notice that the agreement had automatically terminated. The purchaser sued on April 22, 2022 for a declaration that the seller's retention of the earnest money was an unenforceable penalty, and the seller counterclaimed for breach of contract and attorneys' fees. The Davidson County Chancery Court stayed discovery and granted the seller summary judgment. The Court of Appeals reversed, reasoning that contract language stating the amount was a reasonable estimate was not sufficient.",
+        "In an opinion by Justice Dwight E. Tarwater, joined by four other justices, the Supreme Court reversed the Court of Appeals. It held that the parties' agreement creates a presumption of enforceability and that the burden of showing a penalty lies with the party seeking to avoid the provision. The court rejected the purchaser's argument that the aggregate sum was unreasonable on its face, noting that the deposits grew incrementally with each extension and that the seller lost the ability to seek out other purchasers each time. It found no abuse of discretion in the denial of discovery, including discovery the purchaser sought for an economic duress defense, and upheld the dismissal of the purchaser's conversion claim. The case was remanded to the trial court for further proceedings."
+      ],
+      tags: ["liquidated damages", "earnest money", "hotel sale", "purchase and sale agreement", "tennessee supreme court"],
+      parties: [
+        { name: "FWREF Nashville Airport, LLC", role: "Appellant" },
+        { name: "SH Nashville, LLC", role: "Appellee" },
+        { name: "UNI Nashville Airport Hotel, LLC", role: "Appellee" }
+      ],
+      judge: "Dwight E. Tarwater",
+      amountUsd: 18917500,
+      amountBasis: "claim",
+      timeline: [
+        { when: "October 2019", label: "Purchase and sale agreement signed for the Hilton-branded hotel at $79,000,000" },
+        { when: "January 11, 2021", label: "Agreed closing date; purchaser is unable to close, and seller afterward gives notice that the agreement terminated" },
+        { when: "April 22, 2022", label: "Purchaser sues for a declaration that retention of the earnest money is an unenforceable penalty" },
+        { when: "August 20, 2024", label: "Tennessee Court of Appeals reverses summary judgment for the seller" },
+        { when: "February 26, 2025", label: "Tennessee Supreme Court grants permission to appeal" },
+        { when: "November 16, 2026", label: "Tennessee Supreme Court reverses the Court of Appeals and upholds summary judgment for the seller", current: true }
+      ]
     }
   ],
 

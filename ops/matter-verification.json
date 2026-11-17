@@ -72,6 +72,22 @@
      "https://www.nbcbayarea.com/news/local/san-francisco-marina-safeway-project-lawsuit/4143203/"
     ]
    }
+  },
+  "live-416": {
+   "verifiedOn": "2026-11-17",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11062840/sh-nashville-llc-v-fwref-nashville-airport-llc/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11062840/sh-nashville-llc-v-fwref-nashville-airport-llc/"
+   ],
+   "quotes": 15,
+   "confirmedByChecker": 15,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11062840/sh-nashville-llc-v-fwref-nashville-airport-llc/"
+    ]
+   }
   }
  }
 }
