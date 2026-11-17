@@ -4,6 +4,96 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-108",
+   "caseId": "live-108",
+   "subject": "CBS Holdings, LLC v. Hexagon US Federal, Inc. (Madison County Lease Renewal & Fee Fight)",
+   "kind": "Corrected: description",
+   "was": "When a dispute arose in 2020 over whether HexFed had validly exercised its renewal option — complicated by an admitted drafting error in how the rent cap was calculated | two bays of office/industrial space | even a party that wins outright on the merits can lose its fee award on appeal",
+   "now": "The dispute began in July 2019, when CBS Holdings said one bay's term was 12 months. The lease's 12-month maximum-rent term was a mutual mistake later reformed, and the December 2020 renewal notice separately miscalculated the rent | two 'bay areas' in a building on Dunlop Boulevard in Huntsville; the opinions do not describe the space type | The fee award was reversed and remanded for HexFed to support its application; its entitlement to fees was affirmed in the first appeal",
+   "basis": "Checked against the source article: CBS Holdings, LLC v. Hexagon US Federal, Inc., SC-2024-0077 (Ala. Oct. 18, 2024), at 3-9 | SC-2024-0077, at 2-3 | CBS Holdings, LLC v. Hexagon US Federal, Inc., SC-2024-0308 (Ala. July 11, 2025)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-292",
+   "caseId": "live-292",
+   "subject": "865 East 49th Street Associates LLC v. Valdo Auto Sales Corp.: Florida Appeals Court Affirms Zero Damages on Landlord's Fraud and Unjust Enrichment Claims",
+   "kind": "Corrected: description",
+   "was": "Zero-Dollar Fraud Award for Commercial Landlord Already Paid Back Rent",
+   "now": "The landlord was awarded a $76,199.37 judgment for past-due rent; the opinion does not say the rent was paid",
+   "basis": "Checked against the source article: 865 East 49th Street Associates LLC v. Valdo Auto Sales Corp., No. 3D25-2523 (Fla. 3d DCA Oct. 7, 2026), at 2 n.1"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-367",
+   "subject": "SMRE Roswell SPE, LLC v. Melgar (Off-Duty Officer's Mistaken Unit Raid Revives Premises-Liability Claims)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: SMRE Roswell SPE, LLC v. Melgar (Off-Duty Officer's Mistaken Unit Raid Revives Premises-Liability Claims)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; REMOVE, out of scope: residential tenants of the Roswell Creek Apartments (the leaseholder and two residents of unit 805C) sued their apartment owner over a police entry into their home. This is a residential tenant's personal claim, not a commercial real estate dispute. The title also names an indi"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-124",
+   "caseId": "live-124",
+   "subject": "California Department of Toxic Substances Control Settlement Over Former Halford's Cleaners Site (Modesto Groundwater Contamination Superfund Site)",
+   "kind": "Corrected: date, description",
+   "was": "date 2026-07-15 (DTSC's announcement) | the settlement did not turn on whether [the owners] caused the contamination themselves -- only on their status as the property's owners of record",
+   "now": "2026-07-07, the date Judge Mendez signed the consent decree and the order approving it | The consent decree states the settling defendants do not admit any liability; the complaint was filed together with the proposed decree",
+   "basis": "Checked against the source article and court docket: CourtListener docket, E.D. Cal. No. 2:26-cv-00603, Dkt. 17-18 | Consent Decree, Dkt. 18, paras. 1, 15"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-389",
+   "caseId": "live-389",
+   "subject": "Hinds County, Mississippi Solar Farm and Battery Storage Permits (Soul City Storage, LLC and Soul City Energy, LLC): Court of Appeals Affirms",
+   "kind": "Corrected: description",
+   "was": "with Judge Amy Lassitter St. Pe writing for the panel",
+   "now": "The court sat en banc and affirmed 6-4; Judge Westbrooks dissented, joined by Chief Judge Barnes, Presiding Judge Carlton and Judge McDonald",
+   "basis": "Checked against the source article: Mississippi Court of Appeals, No. 2025-CA-00566-COA (Nov. 10, 2026), at 1, 14"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-284",
+   "caseId": "live-284",
+   "subject": "Conroe WM LLC v. HREF Senior Worthington LLC: Delaware Supreme Court Affirms Preferred-Equity Lender's Takeover of Texas Assisted-Living Project",
+   "kind": "Corrected: description",
+   "was": "HUD required the borrower to fund several escrows",
+   "now": "HUD required Greystone, the lender, to collect three escrows (working capital, minor movable equipment, initial operating deficit)",
+   "basis": "Checked against the source article: HREF Senior Worthington LLC v. Conroe WM LLC, C.A. No. 2024-1148-MTZ (Del. Ch. Jan. 12, 2026), at 5"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-139",
+   "subject": "NVR, Inc. v. Osprey Point Preserve, LLC (Lot-Purchase Agreement Breach Over Unbuilt Marina Amenities)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: NVR, Inc. v. Osprey Point Preserve, LLC (Lot-Purchase Agreement Breach Over Unbuilt Marina Amenities)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; A builder-versus-developer contract dispute over a residential subdivision's lots; residential, so out of scope."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-043",
+   "subject": "Town of Apple Valley v. Apple Valley Ranchos Water Co. (Eminent Domain Standard-of-Review Ruling)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Town of Apple Valley v. Apple Valley Ranchos Water Co. (Eminent Domain Standard-of-Review Ruling)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; A town's condemnation of a private water-utility system; utility infrastructure, not commercial real estate on its face."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-297",
+   "caseId": "live-297",
+   "subject": "CFS Enterprises, Inc. v. CG & J Realty, LLC (Queens Mechanic's Lien Bond Dispute)",
+   "kind": "Corrected: description",
+   "was": "a construction lien filed against its commercial property | another contractor on the same project, Century Construction Group Corp., posted its own bond | finding that CG & J Realty's losing position still had enough legal support to avoid sanctions",
+   "now": "a mechanic's lien on real property in Queens owned by CG & J Realty (the decision does not say the property is commercial) | Century Construction Group Corp. filed a Lien Law §37 bond and moved to discharge all liens and claims; the decision does not describe its role on the project | the court found CFS Enterprises failed to establish that the appeal was frivolous",
+   "basis": "Checked against the source article: CFS Enters., Inc. v CG & J Realty, LLC, 2026 NY Slip Op 05929 (2d Dept Oct. 14, 2026) | 2026 NY Slip Op 05929 | 2026 NY Slip Op 05929"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-179",
    "caseId": "live-179",
    "subject": "Pinnacle North, LLC Veil-Piercing Appeal (Michigan Court of Appeals Affirms Personal Liability for Office Tenant's Lease Default)",

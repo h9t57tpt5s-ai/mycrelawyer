@@ -374,6 +374,21 @@
       "source": "/matters/live-388.html",
       "destination": "/litigation.html",
       "permanent": true
+    },
+    {
+      "source": "/matters/live-043.html",
+      "destination": "/litigation.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-139.html",
+      "destination": "/litigation.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-367.html",
+      "destination": "/litigation.html",
+      "permanent": true
     }
   ]
 }
