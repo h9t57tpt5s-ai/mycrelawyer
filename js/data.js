@@ -13402,6 +13402,85 @@ const RELAW_DATA = {
         { when: "December 31, 2025", label: "Commonwealth Court affirms in part, reverses in part and remands the variance for findings on neighborhood character" },
         { when: "November 16, 2026", label: "Commonwealth Court affirms denial of the woodland variance", current: true }
       ]
+    },
+    {
+      id: "live-414",
+      seoTitle: "Umatilla Petitions Court Over DEQ Data Center Permit Pause",
+      seoDescription: "The City of Umatilla and Umatilla County filed a Nov. 11 petition to compel Oregon DEQ to resume data center air and water permits paused until July 2027.",
+      addedDate: "2026-11-17",
+      title: "City of Umatilla and Umatilla County Petition Court to Make Oregon DEQ Resume Data Center Permitting",
+      brief: "The City of Umatilla and Umatilla County petitioned on Nov. 11 for a court order making Oregon DEQ resume data center permitting, paused until July 1, 2027. The filing claims the city is losing about $2.5 million a year.",
+      category: "environmental",
+      status: "filed",
+      date: "2026-11-11",
+      jurisdiction: "Umatilla County Circuit Court, Oregon",
+      state: "OR",
+      amount: "Order compelling permit processing; filing claims about $2.5 million a year in lost payments",
+      source: "live",
+      sourceUrl: "https://hermistonherald.com/2026/11/16/umatilla-county-file-petition-over-data-center-permit-suspension/",
+      propertyType: "Data Center",
+      summary: "The City of Umatilla and Umatilla County filed a petition on Nov. 11, 2026, asking the Umatilla County Circuit Court to compel the Oregon Department of Environmental Quality to resume permitting for data centers, the Hermiston Herald reported. The filing responds to Gov. Tina Kotek's Oct. 9 direction that DEQ pause air and water permits for new or expanded data center facilities until July 1, 2027. The petitioners argue DEQ has a mandatory duty to process pending applications and no discretion to decline to process an entire class of them for reasons unrelated to their merits.",
+      significance: "The petition asks a court to order a state environmental agency to process permit applications it has paused for one class of project. According to the filing as reported by the Hermiston Herald, the pause has already caused the city to lose about $2.5 million a year in contracted payments on completed but unoccupied data center buildings and threatens more than $1.2 billion in additional private investment under negotiation.",
+      body: [
+        "The City of Umatilla and Umatilla County filed a petition on Nov. 11, 2026, in Umatilla County Circuit Court seeking to compel the Oregon Department of Environmental Quality to resume the permitting process for data centers, the Hermiston Herald reported. The filing responds to Gov. Tina Kotek's Oct. 9 direction that DEQ pause the processing and issuance of air and water permits for new or expanded data center facilities until July 1, 2027. Elkhorn Media Group reported that DEQ has since communicated that it intends to follow the governor's recommendation.",
+        "According to the Hermiston Herald, the petitioners say DEQ \"has a mandatory, nondiscretionary duty\" to process pending National Pollutant Discharge Elimination System permit applications in a timely manner. Elkhorn Media Group reported that the filing argues DEQ must review pending applications on their individual merit, and that the city and county ask the court to compel the agency to do so and complete the process with reasonable promptness.",
+        "The filing claims the pause has already caused the city to lose approximately $2.5 million per year in contracted payments on completed but unoccupied data center buildings, the Hermiston Herald reported. It also says the suspension jeopardizes future bonding revenues pledged to the city's $19.8 million police station bond and threatens to drive away more than $1.2 billion in additional private investment. Neither report includes a response from DEQ or the governor's office to the petition."
+      ],
+      tags: ["data center", "permitting", "oregon deq", "permit pause"],
+      parties: [
+        { name: "City of Umatilla", role: "Petitioner" },
+        { name: "Umatilla County", role: "Petitioner" },
+        { name: "Oregon Department of Environmental Quality", role: "Respondent" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "October 9, 2026", label: "Gov. Tina Kotek directs DEQ to pause air and water permits for new or expanded data center facilities until July 1, 2027" },
+        { when: "November 11, 2026", label: "City of Umatilla and Umatilla County file petition in Umatilla County Circuit Court to compel DEQ to resume permitting", current: true }
+      ]
+    },
+    {
+      id: "live-415",
+      seoTitle: "Marina Safeway Lawsuit: Align Real Estate Dropped, PG&E Remains",
+      seoDescription: "Neighbors' amended complaint over the 22-story, 848-home Marina Safeway tower in San Francisco removes Align Real Estate, Safeway and Albertsons.",
+      property: {"name": "Marina Safeway", "address": "15 Marina Blvd.", "city": "San Francisco", "state": "CA"},
+      addedDate: "2026-11-17",
+      title: "Marina Safeway Tower Suit: Amended Federal Complaint Drops Align Real Estate, Safeway and Albertsons; San Francisco and PG&E Remain Defendants",
+      brief: "Neighbors and two advocacy groups amended their federal suit over the 22-story, 848-home Marina Safeway project on Nov. 11, dropping developer Align Real Estate, Safeway and Albertsons. The city and PG&E remain defendants.",
+      category: "environmental",
+      status: "pending",
+      date: "2026-11-11",
+      jurisdiction: "U.S. District Court, San Francisco",
+      state: "CA",
+      amount: "Seeks to void the city's project approval and require contamination cleanup",
+      source: "live",
+      sourceUrl: "https://sfstandard.com/2026/11/13/marina-safeway-lawsuit-drops-align-real-estate/",
+      propertyType: "Mixed-Use",
+      summary: "Neighbors and two advocacy groups suing to stop a 22-story tower at San Francisco's Marina Safeway filed an amended complaint on Wednesday, Nov. 11, 2026, that removes Align Real Estate, Safeway and parent company Albertsons as real parties in interest, The San Francisco Standard reported. The city and PG&E remain defendants. The amended complaint accuses city officials of \"deliberate indifference\" to the risk of toxic exposure from the construction site and still seeks to make PG&E investigate and clean up contamination beneath the site.",
+      significance: "According to The San Francisco Standard, because Align is no longer a party the plaintiffs cannot seek a court order against the company directly, though they could still ask the court to block the city from issuing permits. The amended complaint still asks the court to void the city's approval of the project, the Standard reported.",
+      body: [
+        "A federal lawsuit filed to stop construction of a 22-story tower at the Marina Safeway in San Francisco no longer names the developer, The San Francisco Standard reported on Nov. 13, 2026. In an amended complaint filed that Wednesday, Nov. 11, neighbors and two advocacy groups removed Align Real Estate, Safeway and parent company Albertsons as \"real parties in interest.\" The city and PG&E remain defendants. The Standard reported that the case is before U.S. District Judge Araceli Martínez-Olguín.",
+        "According to the Standard, the amended complaint accuses city officials of \"deliberate indifference\" to the risk of toxic exposure from the construction site, and the plaintiffs still seek to force PG&E to investigate and clean up any contamination beneath the site, where the utility used to operate a steam plant. The plaintiffs also claim that the Safeway building, constructed in 1959, has been listed on the Register of Historical Resources since 2015, which the Standard reported would disqualify the project from fast-track approval under AB 2011.",
+        "The city's approval letter said the building was determined ineligible for the Register in 2015 and in 2020, the Standard reported, and the developer's attorneys argued in an Oct. 27 letter to planners that the building was never listed. Align told the Standard it is moving forward with 848 homes; the new building's ground floor is slated to have a 63,000-square-foot Safeway.",
+        "KQED reported in September 2026 that the suit was filed in federal court in San Francisco and named Align, the city's Planning and Public Health departments, PG&E and Albertsons. NBC Bay Area reported that it was filed by the YesAND Foundation and Neighborhoods United SF along with several Marina residents. The Standard reported on Nov. 1 that the developer's attorneys had moved to dismiss."
+      ],
+      tags: ["mixed-use", "contamination", "ab 2011", "san francisco", "pg&e"],
+      parties: [
+        { name: "YesAND Foundation", role: "Plaintiff" },
+        { name: "Neighborhoods United SF", role: "Plaintiff" },
+        { name: "San Francisco", role: "Defendant (city)" },
+        { name: "PG&E", role: "Defendant" },
+        { name: "Align Real Estate", role: "Developer (removed from amended complaint)" },
+        { name: "Safeway", role: "Removed from amended complaint" },
+        { name: "Albertsons", role: "Removed from amended complaint" }
+      ],
+      judge: "Araceli Martínez-Olguín",
+      amountUsd: null,
+      timeline: [
+        { when: "September 2026", label: "Suit filed in federal court in San Francisco by two groups and Marina residents" },
+        { when: "October 28, 2026", label: "Developer's attorneys move to dismiss" },
+        { when: "November 11, 2026", label: "Amended complaint removes Align Real Estate, Safeway and Albertsons; city and PG&E remain defendants", current: true }
+      ]
     }
   ],
 

@@ -32,6 +32,46 @@
      "https://www.pacourts.us/assets/opinions/Commonwealth/out/279CD24_11-16-2026.pdf"
     ]
    }
+  },
+  "live-414": {
+   "verifiedOn": "2026-11-17",
+   "sourceUrl": "https://hermistonherald.com/2026/11/16/umatilla-county-file-petition-over-data-center-permit-suspension/",
+   "urls": [
+    "https://elkhornmediagroup.com/umatilla-county-city-of-umatilla-petition-court-to-compel-oregon-deq-to-resume-data-center-permitting/",
+    "https://hermistonherald.com/2026/11/16/umatilla-county-file-petition-over-data-center-permit-suspension/"
+   ],
+   "quotes": 11,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://hermistonherald.com/2026/11/16/umatilla-county-file-petition-over-data-center-permit-suspension/",
+     "https://elkhornmediagroup.com/umatilla-county-city-of-umatilla-petition-court-to-compel-oregon-deq-to-resume-data-center-permitting/"
+    ]
+   }
+  },
+  "live-415": {
+   "verifiedOn": "2026-11-17",
+   "sourceUrl": "https://sfstandard.com/2026/11/13/marina-safeway-lawsuit-drops-align-real-estate/",
+   "urls": [
+    "https://sfstandard.com/2026/11/01/marina-safeway-nimby-civil-rights-lawsuit/",
+    "https://sfstandard.com/2026/11/13/marina-safeway-lawsuit-drops-align-real-estate/",
+    "https://www.kqed.org/news/12099779/san-francisco-housing-group-files-lawsuit-opposing-marina-safeway-project",
+    "https://www.nbcbayarea.com/news/local/san-francisco-marina-safeway-project-lawsuit/4143203/"
+   ],
+   "quotes": 19,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://sfstandard.com/2026/11/13/marina-safeway-lawsuit-drops-align-real-estate/",
+     "https://sfstandard.com/2026/11/01/marina-safeway-nimby-civil-rights-lawsuit/",
+     "https://www.kqed.org/news/12099779/san-francisco-housing-group-files-lawsuit-opposing-marina-safeway-project",
+     "https://www.nbcbayarea.com/news/local/san-francisco-marina-safeway-project-lawsuit/4143203/"
+    ]
+   }
   }
  }
 }
