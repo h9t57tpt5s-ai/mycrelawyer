@@ -4,6 +4,126 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-089",
+   "caseId": "live-089",
+   "subject": "Kane Creek Development Watch v. Lieutenant Governor of Utah (Echo Canyon Preliminary Municipality Challenge)",
+   "kind": "Corrected: description",
+   "was": "a water right \"lapsed in 2019 after the developer missed a state filing deadline\" and a motions hearing \"calendared for March 2026\" | plaintiffs contend SB258's criteria \"fit only the Echo Canyon parcel at the time of passage\"",
+   "now": "removed; the source says only that the groups claim the rights were not put to beneficial use for years, which the developer disputes | plaintiffs argue it applies only in certain lower-population counties; a group representative said it appeared intended for Echo Canyon",
+   "basis": "Checked against the source article: The Salt Lake Tribune, Feb. 14, 2026 | The Salt Lake Tribune"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-188",
+   "caseId": "live-188",
+   "subject": "Joliet Residents for Responsible Growth v. City of Joliet (Joliet Technology Center Data Center Zoning Suit)",
+   "kind": "Corrected: description, party, status",
+   "was": "defendants \"Powerhouse\" and \"Hillwood\" | suit \"survived its first substantive court test on September 8\"; \"no ruling ... reported\" | the March meeting \"violated the Illinois Open Meetings Act by denying residents a meaningful opportunity to challenge testimony\" | comparable rulings in Edgerton, Kansas (anti-SLAPP) and a TRO over the Circle T Data Center in Westlake, Texas",
+   "now": "Powerhouse Hillwood Holding, HW Technology Park Development and American Real Estate Partners | Judge Breslan ruled for the defendants on all four counts on Oct. 19, 2026 | the cross-examination claim was a due process claim about the March 16 meeting; the Open Meetings Act claim concerned the March 19 meeting | removed; not in the source",
+   "basis": "Checked against the source article: The Herald-News (Shaw Local), Aug. 17, 2026 | Law-firm analysis of the Oct. 19, 2026 order; Herald-News (hearing set for Sept. 8) | The Herald-News (Shaw Local) | The Herald-News (Shaw Local)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-086",
+   "subject": "Hoffmann v. WBI Energy Transmission, Inc. (SCOTUS Cert Grant on Pipeline Eminent Domain Attorney-Fee Preemption)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Hoffmann v. WBI Energy Transmission, Inc. (SCOTUS Cert Grant on Pipeline Eminent Domain Attorney-Fee Preemption)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; REMOVE reason: a pipeline company's condemnation of an easement across one family's farmland in McKenzie County, ND, with the dispute now only over the family's attorney fees (8th Cir. opinion: 'one family turned down its offers'). Not a commercial real estate matter on its face. If the main session"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-239",
+   "caseId": "live-239",
+   "subject": "Cedar Realty Trust Preferred Stockholder Class Action Settlement (Montgomery County, Md.)",
+   "kind": "Corrected: description, party",
+   "was": "suit accuses \"Bruce Schanzer, along with Cedar and its acquirer, Wheeler\"; Cedar and Wheeler listed as defendants | claims over \"mishandling the liquidation process\" and the \"liquidation preference\" | payment \"to the certified class\"",
+   "now": "the defendants are Cedar's former directors; Cedar and Wheeler are settling parties | claims that the directors breached duties to preferred holders through the Wheeler merger | a putative class",
+   "basis": "Checked against the source article: Court-ordered summary notice (PR Newswire, Aug. 3, 2026); Cedar Form 10-Q for Q2 2026 | Cedar Form 10-Q for Q2 2026 | Court-ordered summary notice"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-072",
+   "subject": "Coyote Springs Investment, LLC v. State of Nevada (Regulatory Takings Trial Over Groundwater Curtailment)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Coyote Springs Investment, LLC v. State of Nevada (Regulatory Takings Trial Over Groundwater Curtailment)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; Developer-versus-government dispute over a mostly residential housing development; residential, so out of scope (as with live-152)."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-148",
+   "caseId": "live-148",
+   "subject": "Hughes Center Receivership (Court-Approved Sale of Las Vegas Office Park to Borden Industries)",
+   "kind": "Corrected: date, description, figure, party",
+   "was": "Wells Fargo, as CMBS trustee, \"brought the underlying motion\" to appoint a receiver | \"a 68-acre, 1.4-million-square-foot office and retail campus\" | Judge Gall's order \"sealing the purchase price from the public docket\" | \"$325 million CMBS loan\" that \"entered special servicing\" in March 2023 | sale \"expected to close\" in September 2026 shown as an upcoming event",
+   "now": "removed; the Review-Journal names no movant | nearly 1.4 million sq ft of office space plus about 98,000 sq ft of retail; acreage not reported | the price was redacted and Logic moved to seal; no ruling on the seal request is reported | $325 million loan on which the landlord reportedly stopped payments by 2023 | removed from timeline; text notes the motion's expected September closing",
+   "basis": "Checked against the source article: Las Vegas Review-Journal, Aug. 7, 2026 | Las Vegas Review-Journal | Las Vegas Review-Journal | Las Vegas Review-Journal | Las Vegas Review-Journal"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-117",
+   "caseId": "live-117",
+   "subject": "Publix Super Markets Slip-and-Fall Verdict (Kissimmee, Osceola County, Florida)",
+   "kind": "Corrected: date, description",
+   "was": "verdict on \"February 24, 2026\" | employees had cleaned spills in that spot \"on multiple occasions\" | new-trial motion shown as an upcoming 2026 event",
+   "now": "February 2026; Feb. 24 is the press release date and the verdict date is not reported | employees had previously cleaned liquid in the same area | Publix filed the motion in March 2026",
+   "basis": "Checked against the source article: PR Newswire release, Feb. 24, 2026; News 6, March 24, 2026 (\"last month\") | PR Newswire release | News 6 (WKMG ClickOrlando), March 24, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-132",
+   "caseId": "live-132",
+   "subject": "Portland Music Holdings LLC v. City of Portland (Targeted Zoning Buffer Takings & Due Process Suit)",
+   "kind": "Corrected: description, figure, status",
+   "was": "the buffer was adopted to \"protect the city's own Merrill Auditorium from competition\" | venue planned for \"a former printing-press building at 244 Cumberland Avenue\" | buffer increased \"from 100 feet to 750 feet\" | claims for impairment of contract, due process and an uncompensated taking; a moratorium enacted in summer 2025 and extended in February 2026 | status \"filed\", \"no ruling yet issued\"",
+   "now": "the complaint alleges councilors sought to shield other venues from competition | a lot at Cumberland Avenue and Myrtle Street that the Press Herald says is used for parking | removed; the distances are not in the source | docket lists a 42 U.S.C. § 1983 civil-rights claim; council voted on the moratorium and buffer, with the buffer vote in April 2026 | pending; city's motion to dismiss argued Sept. 30, 2026",
+   "basis": "Checked against the source article and court docket: Portland Press Herald, June 9, 2026 | Portland Press Herald | Portland Press Herald | Portland Press Herald; CourtListener docket 2:26-cv-00304 | CourtListener docket"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-101",
+   "caseId": "live-101",
+   "subject": "Dillard Store Services, Inc. v. Winrock Partners LLC (Winrock Town Center Redevelopment Dispute)",
+   "kind": "Corrected: description, party",
+   "was": "\"the parties filed a joint motion on September 1, 2026 to enter an amended scheduling order and set a new trial date\" | Dillard's \"sued Winrock Partners and Goodman Realty Group\"; \"Integrated Property Services Co. (d/b/a Goodman Realty Group)\"",
+   "now": "the docket shows a motion hearing and an order on Sept. 1, 2026; no joint motion for a new trial date appears | defendants are Winrock Partners LLC and Integrated Property Services Company",
+   "basis": "Checked against the source article and court docket: CourtListener docket 1:22-cv-00921 | CourtListener docket; PacerMonitor"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-180",
+   "subject": "Cherry Park Properties LLC v. City of Olathe / USD 233 (Eminent Domain Misuse & Preferential Land-Deal Suit)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Cherry Park Properties LLC v. City of Olathe / USD 233 (Eminent Domain Misuse & Preferential Land-Deal Suit)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; Developer-versus-government dispute over a mostly residential housing development; residential, so out of scope (as with live-152)."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-144",
+   "caseId": "live-144",
+   "subject": "In re The Ruins, LLC (Watertown, SD Redevelopment Site Sold to Backup Bidder in Chapter 7)",
+   "kind": "Corrected: description, party",
+   "was": "one \"$22M+ loan-default fight\" over \"three Watertown, South Dakota apartment projects\" spanning state court and bankruptcy | counterclaims for fraud and a removed-and-remanded federal case | Generations on 1st, Craig Holdings and Codington County listed as parties to this matter",
+   "now": "The Ruins, LLC Chapter 7 sale is its own case; the $22M note suit against Generations on 1st is a separate Codington County case | removed; not found in any source opened | they are defendants in the separate state-court note suit, not parties to the bankruptcy sale",
+   "basis": "Checked against the source article and court docket: Northeast Radio SD (Aug. 19, 2026); Hub City Radio (July 25, 2024); CourtListener docket 25-30004 | Northeast Radio SD; Hub City Radio | Hub City Radio; CourtListener docket"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-114",
+   "caseId": "live-114",
+   "subject": "Service Credit Union v. Granite Senior Services (Littleton, NH Senior Living Construction-Loan Fraud Suit)",
+   "kind": "Corrected: date, description",
+   "was": "the property \"has since gone into foreclosure\" | SCU \"has also sought an ex parte attachment of the defendants' real estate\" | construction \"stalled in September 2025\"",
+   "now": "SCU is seeking a different chapter of federal bankruptcy for the unfinished campus; no foreclosure is reported | removed; the article reports no attachment motion | removed; the article gives no stall date",
+   "basis": "Checked against the source article: Caledonian Record article republished by NH Business Review, July 21, 2026 | Caledonian Record / NH Business Review | Caledonian Record / NH Business Review"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-057",
    "caseId": "live-057",
    "subject": "Charlotte Hawkins LLC v. Bar One Lounge South End LLC (Linea Tower Ground-Floor Lease Default)",

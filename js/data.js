@@ -2164,45 +2164,6 @@ const RELAW_DATA = {
       docketLabel: "CourtListener docket"
     },
     {
-      id: "live-072",
-      seoTitle: "Coyote Springs v. Nevada: $1.5 Billion Groundwater Takings Trial",
-      seoDescription: "Seeno family's Coyote Springs Investment is trying a takings claim seeking over $1.5 billion from Nevada over groundwater curtailment north of Las Vegas.",
-      addedDate: "2026-09-04",
-      title: "Coyote Springs Investment, LLC v. State of Nevada (Regulatory Takings Trial Over Groundwater Curtailment)",
-      brief: "Coyote Springs Investment is trying a $1.5 billion+ takings claim against Nevada, alleging groundwater pumping curtailment destroyed a planned 43,000-home community north of Las Vegas.",
-      category: "eminent-domain",
-      status: "pending",
-      date: "2026-07-08",
-      jurisdiction: "Eighth Judicial District Court, Clark County, Nevada (Business Court, Department XIII)",
-      parties: [
-        { name: "Coyote Springs Investment LLC", role: "Plaintiff" },
-        { name: "State of Nevada", role: "Defendant" }
-      ],
-      amountUsd: 1500000000,
-      amountBasis: "damages sought",
-      state: "NV",
-      amount: "$1.5 billion+ sought, potentially exceeding $2 billion in phase-two damages",
-      source: "live",
-      sourceUrl: "https://www.reviewjournal.com/news/civil-courts/taxpayers-on-the-hook-developers-seek-billions-over-failed-southern-nevada-city-3849248/",
-      summary: "Coyote Springs Investment, LLC, controlled by California's Seeno family, is trying its regulatory-takings claim against the State of Nevada in a bench trial before Judge Mark R. Denton, alleging the State Engineer's curtailment of groundwater pumping rights destroyed the value of a planned 43,000-home master community roughly 50 miles north of Las Vegas. The first, judge-only phase of the trial began July 8, 2026 and is expected to last months, with a jury to decide damages in a second phase if the developer prevails.",
-      significance: "A ruling for the developer would validate takings liability for a state water regulator's ordinary curtailment authority whenever it forecloses a project's economic use, a precedent with sweeping implications for any Western jurisdiction managing over-appropriated groundwater basins amid drought and rising demand from housing and data centers alike.",
-      body: [
-        "A trial now underway in the Eighth Judicial District Court in Las Vegas may reset the boundaries of Nevada's authority to regulate groundwater across the state, with direct consequences for developers, lenders, and investors whose real estate underwriting depends on water availability. Coyote Springs Investment, LLC, the entity controlled by California's Seeno family, is seeking more than $1.5 billion, and potentially upward of $2 billion once damages are calculated, from the State of Nevada over the State Engineer's curtailment of groundwater pumping rights that the developer says destroyed the value of a planned 43,000-home city roughly 50 miles north of Las Vegas.",
-        "The case, which originated in 2020 and was later remanded from federal court to Clark County District Court, went to trial on July 8, 2026, before Judge Mark R. Denton, one of five judges assigned to the court's specialized Business Court docket. The trial's first phase is a bench trial, judge only, expected to run for months given the volume of expert hydrological and valuation testimony involved. If Judge Denton finds the state's actions amounted to an unlawful taking or breach of the developer's water rights, a second phase before a jury would then determine damages, a sum plaintiffs' counsel and independent analysts alike have suggested could run into the billions and fall on Nevada taxpayers.",
-        "Coyote Springs was conceived in the early 2000s as a self-contained master-planned community spanning roughly 43,000 acres of desert land straddling Clark and Lincoln counties, with plans for tens of thousands of homes, golf courses, and commercial development anchored by rights to pump groundwater from the Coyote Springs Valley and neighboring hydrographic basins. Over the following two decades, the Nevada State Engineer moved to limit and ultimately curtail pumping in the basin, citing evidence that withdrawals at the levels contemplated by Coyote Springs and other users would draw down the aquifer beyond sustainable yield and threaten senior water rights, including environmental flows protecting the endangered Moapa dace. Coyote Springs Investment contends the curtailment went well beyond routine water-law administration and instead amounted to a regulatory taking, destroying hundreds of millions of dollars the developer had invested in infrastructure, entitlements, and land acquisition without just compensation. Nevada's defense rests on the State Engineer's core statutory mandate to manage a scarce, over-appropriated resource for the long-term benefit of all basin water users.",
-        "Water availability is normally treated as a due-diligence checkbox in Southwestern land deals rather than a live litigation exposure, but this case argues otherwise. A ruling for the developer would validate a legal theory that a state water regulator's exercise of its ordinary curtailment authority can itself trigger takings liability when it forecloses a project's economic use, a precedent that would reverberate well beyond Nevada in every arid Western jurisdiction managing over-appropriated basins amid worsening drought and rising demand from residential growth, agriculture, and increasingly water-intensive data centers. A ruling for the state, conversely, would reaffirm that developers bear the risk of regulatory tightening on water rights much as they do zoning changes.",
-        "Lenders financing land-banking and master-planned community deals contingent on water certificates, title insurers pricing water-rights exceptions, and REITs or private equity sponsors underwriting large-scale Western land plays should treat this as a live exposure rather than a settled assumption. Developers and lenders underwriting land deals in water-scarce Western states should stress-test project valuations against the possibility of future regulatory tightening, since a ruling establishing that lawful curtailment can constitute a compensable taking would materially raise litigation and settlement leverage for developers facing similar setbacks in over-appropriated basins nationwide; because the bench-trial phase has no fixed end date, parties to comparable water-dependent transactions, and title insurers and diligence counsel drafting water-rights disclosures on Southwestern land deals, should watch its outcome closely before finalizing long-term underwriting assumptions."
-      ],
-      timeline: [
-        { when: "Early 2000s", label: "Coyote Springs master-planned community is conceived on ~43,000 acres north of Las Vegas" },
-        { when: "2020", label: "Coyote Springs Investment sues the State of Nevada over water-rights curtailment" },
-        { when: "July 8, 2026", label: "Bench trial begins in Clark County District Court before Judge Mark R. Denton", current: true },
-        { when: "TBD", label: "If the developer prevails in phase one, a jury trial on damages would follow", upcoming: true }
-      ],
-      judge: "Mark R. Denton",
-      tags: ["water rights", "regulatory takings", "eminent domain", "land development", "nevada"]
-    },
-    {
       id: "live-073",
       seoTitle: "Cave City KY Data Center Moratorium Suit Near Mammoth Cave",
       seoDescription: "Kentucky Industrial Alliance's suits against Cave City's data center moratorium near Mammoth Cave were consolidated; annexation is decided first.",
@@ -2437,40 +2398,6 @@ const RELAW_DATA = {
       documentLabel: "Read the filed complaint"
     },
     {
-      id: "live-086",
-      seoTitle: "Supreme Court to Decide Pipeline Condemnation Fees: WBI Energy",
-      seoDescription: "U.S. Supreme Court will decide if the Natural Gas Act preempts state fee-shifting after WBI Energy's pipeline taking in McKenzie County, North Dakota.",
-      addedDate: "2026-09-08",
-      title: "Hoffmann v. WBI Energy Transmission, Inc. (SCOTUS Cert Grant on Pipeline Eminent Domain Attorney-Fee Preemption)",
-      brief: "The U.S. Supreme Court agreed June 29, 2026 to decide whether the Natural Gas Act displaces state fee-shifting for landowners in pipeline condemnations, after the Eighth Circuit reversed a roughly $380,000 fee award.",
-      category: "eminent-domain",
-      status: "appeal",
-      date: "2026-06-29",
-      jurisdiction: "Supreme Court of the United States",
-      parties: [
-        { name: "WBI Energy Transmission, Inc.", role: "Respondent" },
-        { name: "Rocky & Jonilla Farms, LLP", role: "Defendant-Appellee (8th Cir.)" }
-      ],
-      judge: null,
-      amountUsd: 383000,
-      amountBasis: "award",
-      state: "ND",
-      amount: "~$380,000 attorney-fee award at issue",
-      source: "live",
-      sourceUrl: "https://www.scotusblog.com/cases/hoffmann-v-wbi-energy-transmission-inc/",
-      summary: "The U.S. Supreme Court granted certiorari on June 29, 2026 in Hoffmann v. WBI Energy Transmission, Inc., No. 25-159, agreeing to decide whether the Natural Gas Act displaces state fee-shifting statutes that would otherwise let a landowner recover attorney's fees after a pipeline company condemns property using federal eminent domain authority. The case arises from WBI Energy's 2018 taking of pipeline easements across McKenzie County, North Dakota land, after which the Eighth Circuit reversed a roughly $380,000 fee award the landowners had won under North Dakota's fee-shifting statute.",
-      significance: "The ruling will define the true cost of contesting a federal eminent domain valuation for any property owner along a proposed pipeline, transmission line, or other federally licensed infrastructure corridor, and a broad preemption holding could invite condemnors in other federally licensed contexts to argue state fee-shifting and cost-recovery statutes no longer reach them either. Developers and landholders with property banked along known utility corridors should watch the decision closely and factor the current fee uncertainty into any condemnation negotiating posture now.",
-      body: [
-        "The U.S. Supreme Court agreed on June 29, 2026 to resolve a question that has quietly divided lower courts for years and that matters well beyond the pipeline industry: when a private company exercises the federal government's eminent domain power to condemn land, who pays the landowner's attorney's fees. In Hoffmann v. WBI Energy Transmission, Inc., the Court will decide whether Section 7 of the Natural Gas Act displaces state fee-shifting statutes, like North Dakota's, that would otherwise let a successful condemnee recover the legal costs of fighting over just compensation. For any property owner, developer, or institutional landholder whose real estate sits along a proposed pipeline, transmission line, or other federally licensed infrastructure corridor, the outcome will help define the true cost of resisting a taking.",
-        "The case traces back to 2018, when WBI Energy Transmission, Inc. exercised federal eminent domain authority under Natural Gas Act Section 7(h) to acquire pipeline easements across property owned by McKenzie County, North Dakota landowners Leonard and Denae Hoffmann, along with Randall Stevenson and Rocky Prestangen. The Natural Gas Act allows FERC-certificated pipeline companies to condemn private property for interstate gas transportation projects, but Section 7(h) itself does not directly address who bears the cost of litigating the condemnation, leaving that gap to be filled by state law under the federal condemnation procedure rules that ordinarily apply. North Dakota is among the states whose statutes entitle a landowner who successfully contests an eminent domain valuation to recover reasonable attorney's fees from the condemnor.",
-        "The Hoffmanns and their co-petitioners reached a confidential settlement with WBI over the underlying just-compensation figure in 2021, but the parties kept litigating over the landowners' legal fees. A federal district court sided with the landowners, ordering WBI to pay roughly $380,000 in attorney's fees and related costs under North Dakota's fee-shifting statute. WBI appealed, and the Eighth Circuit reversed in the pipeline company's favor, holding that federal law displaces North Dakota's fee statute once a condemnation proceeds under the Natural Gas Act's federal eminent domain authority, leaving the landowners on the hook for their own legal expenses despite having successfully pressed their compensation claim and setting up the circuit-level conflict the Supreme Court has now agreed to resolve.",
-        "The question presented turns on a distinctly technical but consequential point of federal preemption doctrine: whether Congress, in authorizing FERC-certificated pipelines to invoke federal eminent domain power under Section 7, meant to displace the state-law rules that would otherwise govern ancillary aspects of a condemnation proceeding, including fee-shifting, or whether those state-law rules continue to apply by default because Section 7 itself is silent on the subject. The landowners argue that federal condemnation procedure has long incorporated state law on exactly these kinds of questions absent a clear congressional directive to the contrary, while WBI contends that a uniform federal rule is necessary to avoid a patchwork of fee obligations that would vary pipeline-by-pipeline depending on which state's easement happens to be at issue.",
-        "The case is expected to be argued during the Court's October 2026 Term, with a date to be set once briefing is complete. Because the question presented is framed narrowly around the Natural Gas Act, a ruling will speak directly to landowners facing pipeline condemnations, but the reasoning could reverberate further, since federal eminent domain authority is not unique to natural gas pipelines and also underlies certain transmission-line and other federally licensed infrastructure condemnations, where a broad preemption holding could invite condemnors to argue that state fee-shifting statutes no longer apply to them either.",
-        "For commercial and agricultural landowners, developers with land banked along known utility corridors, and the counsel who represent them in condemnation proceedings, the case is worth tracking closely regardless of which side ultimately prevails. A ruling for WBI Energy would mean federally licensed pipeline condemnors need not reimburse a landowner's legal fees even when the landowner successfully increases the compensation award, meaningfully raising the practical cost of contesting a lowball valuation and likely pushing more owners to settle quickly rather than litigate, while a ruling for the Hoffmanns would preserve state fee-shifting protections in this context and, in states with landowner-friendly statutes, keep real pressure on condemnors to make credible initial offers. Either way, property owners anywhere along a proposed interstate pipeline route should factor the current fee-shifting uncertainty into their negotiating posture now and document litigation costs carefully if a dispute proceeds, since the decision will likely settle how this fee question is litigated nationwide for years to come."
-      ],
-      tags: ["eminent domain", "Natural Gas Act", "preemption", "north dakota", "pipeline"]
-    },
-    {
       id: "live-087",
       seoTitle: "Hotel Lincoln Land, Chicago: $25.4M Ground-Parcel Foreclosure",
       seoDescription: "Wilmington Trust sued Nakash family entities to foreclose a $25.4M loan on the land under Hotel Lincoln, 1816 North Clark Street; the hotel leasehold is left intact.",
@@ -2555,11 +2482,11 @@ const RELAW_DATA = {
     {
       id: "live-089",
       seoTitle: "Echo Canyon Moab: Suit Challenges Utah Preliminary Municipality",
-      seoDescription: "Kane Creek Development Watch and Living Rivers sued to void Utah's SB258 and the preliminary municipality status it gave Echo Canyon, a resort near Moab.",
+      seoDescription: "Kane Creek Development Watch and Living Rivers sued to void Utah's SB258 and the preliminary municipality status it gave Echo Canyon, a project near Moab.",
       property: {"name": "Echo Canyon", "state": "UT"},
       addedDate: "2026-09-09",
       title: "Kane Creek Development Watch v. Lieutenant Governor of Utah (Echo Canyon Preliminary Municipality Challenge)",
-      brief: "Kane Creek Development Watch and Living Rivers sued to void Utah's 2024 'preliminary municipality' law, which gives a developer-controlled board zoning power over Echo Canyon, a proposed 176-acre resort near Moab.",
+      brief: "Kane Creek Development Watch and Living Rivers sued to void Utah's 2024 preliminary municipality law and Echo Canyon's certification, which gives a landowner-dominated board zoning power over a project near Moab.",
       category: "zoning-land-use",
       status: "pending",
       date: "2026-02-10",
@@ -2577,17 +2504,21 @@ const RELAW_DATA = {
       amount: "Constitutional challenge; no damages sought",
       source: "live",
       sourceUrl: "https://www.sltrib.com/news/2026/02/14/utah-law-shifts-power-elected/",
-      summary: "Kane Creek Development Watch and Living Rivers sued the Utah Lieutenant Governor and the developer behind Echo Canyon on February 10 in Utah's Seventh District Court, seeking to void the state's 2024 'preliminary municipality' law and the certification it conferred on Echo Canyon, a proposed 176-acre resort development near Moab. The suit alleges SB258 unconstitutionally hands zoning and land-use authority to a developer-controlled governing board without an election or public vote.",
-      significance: "Utah's preliminary municipality statute is among the most aggressive state-law vehicles yet for letting a developer exercise quasi-governmental zoning authority over its own project, and a ruling on its constitutionality will inform how other states calibrate similar developer-self-governance proposals. Developers and lenders relying on first-of-their-kind statutory entitlement structures should treat certification as provisional, not settled, until the litigation resolves.",
+      summary: "Two advocacy groups, Friends of the Abajos (doing business as Kane Creek Development Watch) and Living Rivers, sued on February 10, 2026 in Utah's 7th Judicial District Court to overturn SB258, the 2024 \"preliminary municipality\" law, and void the certification it gave Echo Canyon, a proposed 176-acre mixed-use development southwest of Moab, The Salt Lake Tribune reported. They allege the law unconstitutionally shifts zoning authority from elected county officials to a board largely appointed by private landowners. The developer says the project complies with SB258 and other governing law.",
+      significance: "The case tests whether a state may let a landowner-affiliated board exercise zoning authority over its own project before any residents live there. Because Echo Canyon was the first project certified under SB258 and others have applied, a ruling would affect every project using the law.",
       body: [
-        "A pair of Utah nonprofits, Kane Creek Development Watch and Living Rivers, filed suit on February 10, 2026 in Utah's Seventh District Court in Grand County against the Lieutenant Governor of Utah, who administers the certification process at issue, and against the developer behind Echo Canyon, a proposed 176-acre mixed-use resort development in the Kane Creek canyon corridor southwest of Moab along the Colorado River. The complaint asks the court to invalidate both Senate Bill 258, the 2024 statute that created Utah's 'preliminary municipality' designation, and the certification the law conferred on Echo Canyon as the state's first project to use it.",
-        "SB258 lets landowners who control a qualifying parcel petition the Lieutenant Governor's office to certify a transitional governing board with authority to adopt zoning ordinances, approve infrastructure, and otherwise exercise land-use powers ordinarily reserved to elected county or city government, while the entity pursues a path toward formal incorporation as a town. Echo Canyon received that certification in June 2025, becoming the first project in the state to do so. Current plans for the site call for roughly 478 housing units, 102 overnight accommodations, and about 67,000 square feet of commercial space in a corridor that had otherwise been governed by Grand County's land-use code.",
-        "The plaintiffs' central claim is constitutional: that SB258 transfers zoning and land-use authority to a board effectively selected by and answerable to the landowners seeking to develop the property, without an election, public vote, or the oversight mechanisms that ordinarily constrain a municipality's exercise of police power. The complaint separately argues the statute is an impermissible 'private or special' law under the Utah Constitution's bar on legislation that benefits a specific, identifiable private party rather than establishing a generally applicable rule, contending SB258's qualifying criteria fit only the Echo Canyon parcel at the time of passage.",
-        "The governance challenge does not stand alone. The same two plaintiffs filed a related suit in mid-2025 challenging the water rights Echo Canyon's developer has claimed for the project, arguing several of the underlying rights, including one the plaintiffs say lapsed in 2019 after the developer missed a state filing deadline, have been forfeited through decades of nonuse and cannot lawfully support the scale of development now proposed. A hearing on motions to dismiss in that companion case was calendared for March 2026. Together, the two matters put both Echo Canyon's governing authority and its water supply before Utah courts at the same time.",
-        "The case carries weight beyond Grand County. A small but growing number of states have experimented with statutory pathways letting large-scale developers exercise quasi-governmental land-use authority over their own projects, marketed as a way to accelerate housing and infrastructure delivery without waiting on traditional municipal approval processes. Utah's preliminary municipality law is among the most aggressive versions of that model now on the books, and a ruling on its constitutionality will shape how other states calibrate similar proposals and how far developers elsewhere can lean on self-governance structures to bypass friction with existing local government.",
-        "The practical upshot for CRE developers and their counsel is that a governance structure built on novel, largely untested statutory authority should be treated as a live litigation risk rather than a closed entitlement question, with underwriting timelines built accordingly rather than assuming certification is the final word. Because the fight over Echo Canyon's governing authority is running alongside a separate water-rights forfeiture claim, sponsors of large resort or mixed-use projects in water-constrained jurisdictions should independently confirm that every underlying water right has been affirmatively put to beneficial use and well documented, since a forfeiture theory can sink a project's viability regardless of how the zoning dispute comes out. And because a successful constitutional challenge here could retroactively cloud title, permits, or entitlements issued while the certification was in effect, lenders and equity partners financing projects that rely on first-of-their-kind statutory structures should watch this litigation closely rather than treat the underlying law as settled."
+        "Friends of the Abajos, doing business as Kane Creek Development Watch, and the environmental nonprofit Living Rivers filed suit on February 10, 2026 in Utah's 7th Judicial District Court, The Salt Lake Tribune reported in a story first published by The Times-Independent. The defendants are Lt. Gov. Deidre M. Henderson in her official capacity, developer Kane Creek Preservation and Development LLC, the Echo Canyon preliminary municipality and the governing board's chair. The suit seeks to overturn SB258 and void Echo Canyon's certification, which would return land-use authority over the area to Grand County.",
+        "SB258, a 2024 law, lets qualifying landowners on unincorporated land petition the lieutenant governor's office to form a transitional entity that can make zoning and certain infrastructure decisions while pursuing incorporation as a town. The entity cannot levy taxes. Its five-member board typically has four landowner-affiliated members and one county appointee, and the status lasts up to six years, or four years after the first certificate of occupancy, whichever comes first. Echo Canyon, a proposed 176-acre project near the Colorado River in the Kane Creek corridor, became the first certified preliminary municipality in June 2025; current plans call for about 478 housing units, 102 overnight accommodations and 67,000 square feet of commercial space. Projects in Summit, Morgan and Kane counties have also applied.",
+        "The plaintiffs argue SB258 violates Utah constitutional bans on special laws, uniform-operation requirements and limits on delegating government power to unelected commissions, noting it allows a governing entity before any residents exist, applies only in certain lower-population counties and lets board members with a financial stake exercise municipal power. A Kane Creek Development Watch representative said the law appeared to be intended specifically for Echo Canyon. The developer said it is reviewing the suit with counsel, that the project \"complies with all applicable requirements of SB 258,\" and that repeated challenges do not change its property rights or approvals already granted. The lieutenant governor's office said it typically does not comment on pending litigation.",
+        "The same groups filed a separate case in 2025 seeking a ruling that the project's claimed groundwater and Colorado River water rights are invalid because they were not put to beneficial use for years; the developer disputes that claim."
       ],
-      tags: ["zoning", "land use", "utah", "municipal incorporation", "constitutional challenge"]
+      tags: ["zoning", "land use", "utah", "municipal incorporation", "constitutional challenge"],
+      timeline: [
+        { when: "2024", label: "Utah enacts SB258, creating the preliminary municipality designation" },
+        { when: "June 2025", label: "Echo Canyon becomes the first certified preliminary municipality" },
+        { when: "2025", label: "The same groups sue separately over the project's claimed water rights" },
+        { when: "February 10, 2026", label: "Kane Creek Development Watch and Living Rivers sue to void SB258 and the certification", current: true }
+      ]
     },
     {
       id: "live-090",
@@ -3036,11 +2967,11 @@ const RELAW_DATA = {
     {
       id: "live-101",
       seoTitle: "Winrock Town Center Albuquerque: Dillard's Redevelopment Suit",
-      seoDescription: "Dillard's suit says Winrock Partners' conversion of Winrock Town Center in Albuquerque blocked store entrances and parking in breach of its lease.",
+      seoDescription: "Dillard's says Winrock Partners' redevelopment of Albuquerque's Winrock Town Center blocked store entrances and parking without consent, breaching its lease.",
       property: {"name": "Winrock Town Center", "city": "Albuquerque", "state": "NM"},
       addedDate: "2026-09-10",
       title: "Dillard Store Services, Inc. v. Winrock Partners LLC (Winrock Town Center Redevelopment Dispute)",
-      brief: "Dillard Store Services sued Winrock Partners and Goodman Realty Group, alleging the conversion of Albuquerque's Winrock Town Center into an open-air center blocked its entrances and parking, breaching its leases.",
+      brief: "Dillard's sued Winrock Town Center's owners in 2022, alleging prolonged redevelopment blocked its Albuquerque store entrances and parking without its consent; the federal case is still in pretrial litigation.",
       category: "lease-disputes",
       status: "pending",
       date: "2026-06-24",
@@ -3056,21 +2987,22 @@ const RELAW_DATA = {
       amount: "Unspecified lost-profits damages",
       source: "live",
       sourceUrl: "https://www.pacermonitor.com/public/case/47005124/Dillard_Store_Services,_Inc_v_Winrock_Partners_LLC_et_al",
-      summary: "Dillard Store Services sued Winrock Partners LLC and Integrated Property Services Co. (d/b/a Goodman Realty Group) in December 2022 over the prolonged, multi-year redevelopment of Albuquerque's Winrock Town Center from an enclosed mall into an open-air lifestyle center, alleging the construction blocked entrances and parking around its stores in breach of lease provisions barring common-area obstruction without its consent. Nearly four years later the case remains actively litigated: a magistrate judge granted Dillard's motion to compel in June 2026, and the parties jointly moved in early September 2026 to amend the scheduling order and set a new trial date.",
-      significance: "A durable illustration of how a multi-year mall repositioning can generate lease litigation that outlasts the construction itself: anchor tenants with long-dated leases predating a redevelopment retain leverage to enforce common-area and quiet-enjoyment provisions against an owner's phased-conversion plans, and the discovery fights over what the developer knew about timeline slippage are often where these cases are actually won or lost. Owners converting enclosed malls to open-air formats elsewhere should audit anchor leases for consent-to-obstruct clauses before committing to a construction sequence.",
+      summary: "Dillard Store Services sued Winrock Partners LLC and Integrated Property Services Company in federal court in New Mexico on December 1, 2022, alleging that redevelopment of Albuquerque's Winrock Town Center blocked its store entrances and parking without the consent its 1992 lease requires, KRQE reported at the time. The suit seeks lost profits and attorney's fees on claims including breach of contract and negligent misrepresentation. The case remains in pretrial litigation: Magistrate Judge John F. Robbenhaar granted a Dillard's motion to compel on June 24, 2026, and in November 2026 the parties were briefing a Dillard's motion for a protective order, according to the docket.",
+      significance: "The case shows how a phased conversion of an enclosed mall can lead to lease claims by a long-term anchor tenant whose consent rights cover common areas and parking. Nearly four years after filing, it is still in pretrial proceedings.",
       body: [
-        "Dillard's has operated men's and women's stores at Winrock Town Center in Albuquerque since 1992. When Winrock Partners LLC and its manager, Integrated Property Services Co. (doing business as Goodman Realty Group), pushed ahead with a redevelopment converting the enclosed mall into an open-air, mixed-use center, Dillard's sued in the U.S. District Court for the District of New Mexico on December 1, 2022, alleging the construction -- which began that June and ran roughly five months past its original October completion target -- blocked entrances to its stores and tore up surrounding parking for an extended stretch, turning the area into what the complaint calls a dangerous, unclean, and unsightly active construction zone.",
-        "The complaint's core legal theory is straightforward: Dillard's lease bars the landlord from obstructing common areas around its stores without Dillard's consent, and the retailer says the prolonged construction did exactly that, cutting into store traffic and profits for months longer than planned. The suit seeks unspecified damages for lost profits alongside breach-of-contract and negligent-misrepresentation claims.",
-        "Nearly four years after filing, the case is still very much alive. Magistrate Judge John F. Robbenhaar granted Dillard's motion to compel discovery on June 24, 2026, signaling that document and testimony disputes remain contested this deep into the litigation, and the parties filed a joint motion on September 1, 2026 to enter an amended scheduling order and set a new trial date -- the clearest sign yet that the case is heading toward an actual trial rather than settling out.",
-        "For owners and lenders evaluating enclosed-to-open-air mall conversions elsewhere, Winrock is a reminder that a redevelopment's legal tail can run years past substantial completion once an anchor tenant's lease gives it a textual hook -- like a common-area consent clause -- to convert construction delay into a breach claim, and that these disputes are often decided in the discovery trenches rather than on the pleadings."
+        "Dillard's sued the owners of Winrock Town Center in the U.S. District Court for the District of New Mexico on December 1, 2022, naming Winrock Partners LLC and Integrated Property Services Company, according to the court docket. KRQE reported that the current developers bought the former Winrock Center in 2007 and gradually redeveloped it into an open-air, mixed-use town center, and that Dillard's alleges the work breached its 1992 lease, which promised an attractive and accessible shopping area.",
+        "According to KRQE's account of the complaint, Dillard's says the developers demolished parts of the old mall and changed the parking lot without its written consent, including demolitions in 2016 and again from late 2019 that left several of its entrances closed or unfinished. Construction resumed in June 2022 to build an outdoor space that includes a park. Dillard's alleges that work blocked its entrances and parking, created safety hazards and at one point cut its phone, internet and alarm lines, and that the developers extended it about five months past an October completion date, into the holiday shopping season. Winrock representatives declined to comment to KRQE.",
+        "The case is still in pretrial proceedings. The docket shows the defendants filed a counterclaim in June 2025, and on June 24, 2026, Magistrate Judge John F. Robbenhaar granted Dillard's motion to compel discovery. In late October and November 2026, the parties briefed a Dillard's motion for a protective order to block the deposition of a company executive."
       ],
       tags: ["mall redevelopment", "anchor tenant", "lease breach", "construction disruption", "discovery dispute"],
       timeline: [
-        { when: "1992", label: "Dillard's opens men's and women's stores at Winrock Town Center" },
-        { when: "June 2022", label: "Open-air redevelopment construction begins, missing its planned October completion date" },
-        { when: "December 1, 2022", label: "Dillard's sues Winrock Partners LLC and Goodman Realty Group for breach of lease and lost profits" },
+        { when: "1992", label: "Dillard's signs its Winrock lease" },
+        { when: "2007", label: "Current developers buy Winrock Center and begin redeveloping it" },
+        { when: "June 2022", label: "Construction resumes on an outdoor space and park" },
+        { when: "December 1, 2022", label: "Dillard's sues Winrock Partners LLC and Integrated Property Services Company" },
+        { when: "June 2025", label: "Defendants file a counterclaim" },
         { when: "June 24, 2026", label: "Magistrate judge grants Dillard's motion to compel discovery" },
-        { when: "September 1, 2026", label: "Parties jointly move to amend the scheduling order and set a new trial date", current: true }
+        { when: "October 30, 2026", label: "Dillard's moves for a protective order to block an executive's deposition", current: true }
       ],
       docketUrl: "https://www.courtlistener.com/docket/66581116/dillard-store-services-inc-v-winrock-partners-llc/",
       docketLabel: "CourtListener docket"
@@ -3516,12 +3448,12 @@ const RELAW_DATA = {
     },
     {
       id: "live-114",
-      seoTitle: "Artemis Living at Littleton NH: $30M Construction Loan Fraud Suit",
-      seoDescription: "Service Credit Union sued Artemis Living at Littleton's sponsors and its ex-loan officer, alleging $30 million construction loan draws were diverted.",
-      property: {"name": "Artemis Living at Littleton", "city": "Littleton", "state": "NH"},
+      seoTitle: "Littleton NH Senior Living Loan: Credit Union Fraud Suit",
+      seoDescription: "Service Credit Union sued the owners of an unfinished Littleton, NH senior living campus and its ex-loan officer over a $30 million construction loan.",
+      property: {"city": "Littleton", "state": "NH"},
       addedDate: "2026-09-10",
-      title: "Service Credit Union v. Weed (Granite Senior Services / Artemis Living at Littleton Construction-Loan Fraud Suit)",
-      brief: "Service Credit Union sued the sponsors of a stalled New Hampshire senior living project and its former loan officer, alleging diverted draws on a $30 million construction loan; collateral is valued near $22 million.",
+      title: "Service Credit Union v. Granite Senior Services (Littleton, NH Senior Living Construction-Loan Fraud Suit)",
+      brief: "Service Credit Union sued the owners of an unfinished Littleton, NH senior living campus and a former SCU loan officer, alleging fraud tied to a $30 million construction loan, the Caledonian Record reported.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-06-24",
@@ -3537,24 +3469,24 @@ const RELAW_DATA = {
       amountUsd: 30000000,
       amountBasis: "damages sought",
       state: "NH",
-      amount: "$30M in principal claims against the primary defendants, plus $1.5M sought from CTC Commercial and related defendants; $22M collateral value",
+      amount: "$30M sought from the primary defendants plus $1.5M from CTC Commercial and related defendants; property valued at $22M",
       source: "live",
       sourceUrl: "https://www.nhbr.com/new-lawsuit-alleges-coordinated-fraud/",
-      summary: "Service Credit Union filed a ten-count fraud and conspiracy suit in Grafton Superior Court against the sponsors of a stalled Littleton, New Hampshire senior living project and against SCU's own former commercial loan officer, alleging the group diverted draws from a $30 million construction loan for personal use. The project, Artemis Living at Littleton, stalled in September 2025 and has since gone into foreclosure, with SCU valuing the collateral at roughly $22 million against the $30 million owed. SCU has also sought an ex parte attachment of the defendants' real estate and other assets.",
-      significance: "The case illustrates how construction-loan fraud risk can originate inside a lender's own loan-administration function, not just on the borrower side, and underscores why draw-disbursement controls need independent oversight on large, multi-draw commercial construction loans. Lenders financing ground-up commercial and senior-living development should treat the case as a prompt to review segregation-of-duties controls between loan origination, draw approval, and construction monitoring.",
+      summary: "Service Credit Union (SCU) filed a 10-count suit on June 24, 2026 in Grafton Superior Court against the owners of an unfinished senior living campus at 1262 St. Johnsbury Road in Littleton, New Hampshire, their companies, a mortgage broker's firm and a former SCU loan officer, the Caledonian Record reported in an article shared by NH Business Review. The credit union alleges the defendants conspired to obtain a $30 million construction loan and used loan disbursements for their own benefit. SCU values the property at $22 million and told the court a sale likely would not cover the defaulted loan.",
+      significance: "Because the lender's own former loan officer is a defendant, the case tests fraud claims aimed at the lender's side of a construction loan as well as the borrower's. SCU's position that a $22 million property cannot cover a $30 million loan shows the shortfall a construction lender can face when a project stops before it is finished.",
       body: [
-        "A ten-count civil suit filed in Grafton Superior Court is putting a spotlight on one of the more uncomfortable risks in commercial real estate lending: the possibility that a lender's own personnel help borrowers misdirect loan proceeds. Service Credit Union, a New Hampshire-chartered financial institution, filed suit on June 24, 2026 against the sponsors of a stalled senior living development in Littleton, New Hampshire, along with SCU's own former commercial loan officer, alleging a coordinated scheme to defraud the credit union out of a $30 million construction loan.",
-        "The complaint names brothers George and Michael Papadimatos, principals of Granite Senior Operations LLC and the broader entity behind the planned Artemis Living at Littleton campus, along with David A. Weed, the SCU loan officer who oversaw the credit and was terminated from the credit union in July 2025. Additional defendants include Shawn Harressey and CTC Commercial, along with related entities Blue Lodge Spray Foam and GSS. SCU alleges breach of contract, fraud, civil conspiracy, unlawful conversion, unjust enrichment, and fraudulent transfer against the group, and separately accuses Weed of gross negligence for allegedly acting outside the scope of his employment while the loan was being administered and disbursed.",
-        "According to the complaint, Weed and the Papadimatos brothers, together with CTC as to certain fund disbursements, conspired to induce SCU into issuing the $30 million construction loan and then diverted various draws for purposes unrelated to the project rather than applying them to construction costs as the loan agreement required. Construction on the Artemis Living campus, planned along St. Johnsbury Road, stalled in September 2025 amid an alleged lack of payment to both the lender and the project's own contractors, and the property has since gone into foreclosure. SCU's own valuation puts the collateral at roughly $22 million against the $30 million owed, meaning that even a successful liquidation of the property is unlikely to make the credit union whole.",
-        "Alongside the complaint, SCU filed a motion for ex parte attachment, seeking to record liens against real estate and other assets held by the defendants at the Grafton County Registry of Deeds and the New Hampshire Secretary of State's office before those assets could be moved or encumbered further. Weed, the Papadimatos brothers, Blue Lodge Spray Foam, and GSS face the bulk of the $30 million claim, while SCU is separately seeking roughly $1.5 million from CTC Commercial and the Haresseys tied to their alleged role in specific disbursements.",
-        "The case remains at an early stage, with SCU's attachment motion aimed largely at preserving assets while the fraud and conspiracy claims are litigated, and no trial date has yet been set. For commercial lenders generally, the matter is a pointed reminder that draw requests, lien waivers, and inspection certifications are typically the last line of defense against exactly the kind of diversion SCU alleges, and that those controls fail simultaneously with borrower-side fraud whenever the loan officer responsible for enforcing them is himself accused of being part of the scheme. Lenders extending large, multi-draw construction credit should treat this as a reason to segregate origination and administration duties and to periodically audit the personnel who approve disbursements, while also being ready to move quickly on asset-preservation remedies like ex parte attachment if a loan sours amid allegations of internal fraud, since the same misconduct that diverted loan proceeds often puts other borrower and guarantor assets at risk of dissipation before judgment."
+        "Service Credit Union (SCU) filed a 35-page, 10-count civil suit on June 24, 2026 in Grafton Superior Court over a $30 million construction loan it made for an assisted living campus at 1262 St. Johnsbury Road in Littleton, New Hampshire, the Caledonian Record reported in an article shared by NH Business Review. The plans called for more than 100 units, including cottages, apartments, assisted-living and memory care units, and a medical office building. According to the article, SCU is also seeking to move the unfinished campus into a different chapter of federal bankruptcy.",
+        "The defendants include Granite Senior Services LLC, the company formed in 2018 for the development; Granite Senior Operations LLC; Blue Lodge Spray Foam LLC, a drywall and insulation business owned by one of the project's owners; CTC Commercial LLC, a mortgage broker's firm that had represented Granite Senior Operations since 2019; the project's two owners and related trusts; and the SCU loan officer who oversaw the loan until he was fired in July 2025. The claims are breach of contract, fraud, civil conspiracy, conversion, unjust enrichment and fraudulent transfer, plus gross negligence against the former loan officer, who SCU alleges acted beyond the scope of his job.",
+        "SCU alleges the former officer falsely told the credit union that Granite Senior Services had put in its required $9.3 million of equity and quieted staff concerns about the shortfall, and that loan funds were used for personal purposes, including payments to Blue Lodge for spray foam when no buildings stood on the site. By March 2025, SCU had advanced more than $27.4 million, nearly the full loan. The suit also alleges that after problems with the loan surfaced, some defendants transferred interests in personal real estate in November and December to avoid repayment.",
+        "SCU seeks $30 million from the former officer, Granite Senior Services, Blue Lodge and the two owners, and $1.5 million from CTC Commercial and two individuals connected to it. SCU's president and CEO said a former employee had violated the trust the credit union placed in him. The article did not include a response from the defendants."
       ],
       timeline: [
-        { when: "July 2025", label: "David Weed is terminated from Service Credit Union" },
-        { when: "September 2025", label: "Construction on the Artemis Living at Littleton campus stalls" },
-        { when: "June 24, 2026", label: "Service Credit Union files its fraud and conspiracy suit in Grafton Superior Court", current: true }
+        { when: "2018", label: "Granite Senior Services LLC is formed for the Littleton development" },
+        { when: "March 2025", label: "SCU has advanced more than $27.4 million under the $30 million loan" },
+        { when: "July 2025", label: "SCU fires the loan officer who oversaw the loan" },
+        { when: "June 24, 2026", label: "SCU files its 10-count suit in Grafton Superior Court", current: true }
       ],
-      tags: ["construction loan fraud", "credit union", "senior living", "foreclosure", "new hampshire"]
+      tags: ["construction loan fraud", "credit union", "senior living", "bankruptcy", "new hampshire"]
     },
     {
       id: "live-115",
@@ -3634,8 +3566,8 @@ const RELAW_DATA = {
       seoDescription: "Osceola County jury awarded $3,967,000 against Publix Super Markets over a beverage-aisle fall at its North John Young Parkway store in Kissimmee.",
       property: {"name": "Publix", "city": "Kissimmee", "state": "FL"},
       addedDate: "2026-09-10",
-      title: "Marcano v. Publix Super Markets, Inc. (Kissimmee Grocery Store Slip-and-Fall Verdict)",
-      brief: "An Osceola County jury found Publix 100% liable and awarded $3,967,000 for a slip-and-fall in a Kissimmee store's beverage aisle where employees had cleaned spills before; Publix has moved for a new trial.",
+      title: "Publix Super Markets Slip-and-Fall Verdict (Kissimmee, Osceola County, Florida)",
+      brief: "An Osceola County jury found Publix 100% liable and awarded $3,967,000 over a fall on liquid in a Kissimmee store's soft drink aisle; Publix has moved for a new trial over the medical-bill evidence.",
       category: "premises-liability",
       status: "ruling",
       date: "2026-02-24",
@@ -3650,18 +3582,17 @@ const RELAW_DATA = {
       amount: "$3,967,000 jury verdict",
       source: "live",
       sourceUrl: "https://www.prnewswire.com/news-releases/rubenstein-law-secures-3-967-000-jury-verdict-against-publix-super-markets-inc-in-osceola-county-302696076.html",
-      summary: "An Osceola County jury awarded Victoria Marcano $3,967,000 after a six-day trial, finding Publix Super Markets, Inc. 100% liable for a June 5, 2023 slip-and-fall in the beverage aisle of its store on North John Young Parkway in Kissimmee, Florida. Trial evidence showed Publix employees had documented and cleaned up liquid spills in that exact spot before, undercutting any argument that the hazard was unknown to the store. Marcano underwent three spinal surgeries -- one to her neck and two to her back -- following the fall; Publix has since moved for a new trial, arguing the court improperly allowed inflated medical-bill evidence.",
-      significance: "A textbook illustration of how 'mode of operation' and prior-notice evidence -- documented past spills and cleanups at the identical location -- can take a routine slip-and-fall from a modest settlement into an eight-figure-adjacent verdict once a jury sees a pattern rather than an isolated accident. Grocery, retail, and other high-foot-traffic commercial property operators should treat prior-incident logs for recurring hazard locations as a real litigation liability, not just a maintenance record, and revisit spill-response protocols in aisles with a documented history.",
+      summary: "An Osceola County jury in February 2026 found Publix Super Markets, Inc. 100% responsible for a shopper's June 5, 2023 fall on liquid in the soft drink aisle of its North John Young Parkway store in Kissimmee and awarded $3,967,000, according to News 6 (WKMG) and a press release from the plaintiff's law firm. Publix denied liability at trial, and in March 2026 it moved for a new trial on damages, arguing the court let the jury see inflated medical bills in violation of Florida law.",
+      significance: "Evidence that employees had cleaned liquid in the same area before the fall was central to the plaintiff's case, according to her law firm, which shows how a store's own cleanup history can be used to prove notice of a hazard. Publix's motion also tests the Florida statute that limits how past medical expenses may be proved at trial.",
       body: [
-        "Victoria Marcano, a 30-year-old mother of three, slipped on liquid in the beverage aisle of a Publix store on North John Young Parkway in Kissimmee, Florida on June 5, 2023, sustaining injuries she says required three spinal surgeries -- one neck surgery and two back surgeries. She sued Publix Super Markets, Inc. in the Ninth Judicial Circuit Court for Osceola County, and the case went to a jury trial that lasted six days.",
-        "The trial's outcome turned less on the spill itself than on what Publix's own records showed about it. Evidence presented at trial established that store employees had previously identified and cleaned up liquid spills in that same aisle location on multiple occasions before Marcano's fall -- evidence her attorneys used to argue the hazard was a known, recurring condition rather than a one-off accident Publix could not have anticipated. The jury found Publix 100% responsible and awarded $3,967,000, broken out as $411,000 in past medical expenses, $556,000 in future medical care, $750,000 in past pain and suffering, and the balance in future pain and suffering and loss of enjoyment of life.",
-        "The verdict is not yet final: Publix has moved for a new trial, arguing the court improperly permitted Marcano's counsel to present what the retailer characterizes as inflated medical bills in violation of Florida's evidentiary rules governing damages presentations, a live and frequently litigated issue in Florida premises-liability trials post-verdict.",
-        "For any commercial property operator with recurring hazard locations -- a beverage aisle, an entrance mat during rain, a loading-dock ramp -- the case underscores that internal incident and cleanup logs, kept for ordinary maintenance purposes, can become the single most damaging piece of evidence a plaintiff's lawyer introduces at trial once the same location generates more than one documented spill."
+        "A shopper slipped on liquid in the soft drink aisle of the Publix on North John Young Parkway in Kissimmee, Florida on June 5, 2023, and sued Publix Super Markets, Inc. for negligence in Osceola County circuit court (Case No. 2024-CA-001128), according to News 6 (WKMG ClickOrlando) and a press release from her law firm. The firm said she later had three spinal surgeries, one on her neck and two on her back.",
+        "After a six-day trial, the jury in February 2026 found Publix 100% responsible and awarded $3,967,000: $411,000 for past medical expenses, $556,000 for future medical expenses, $750,000 for past pain and suffering and related losses, and $2.25 million for future pain and suffering and related losses, News 6 reported. The firm said evidence showed employees had cleaned liquid in the same area before the fall. Publix denied liability throughout the case, argued she was not injured and tried to attribute her injuries to unrelated earlier complaints; the firm said Publix's last settlement offer before trial was $600,000.",
+        "In March 2026, Publix moved for a new trial on all damages, arguing the court allowed evidence of inflated medical bills instead of the restricted evidence required by section 768.0427(2) of the Florida Statutes, News 6 reported. Alternatively, Publix asked the court to reduce the past economic damages award to just under $34,000. No ruling on the motion was found in the sources reviewed."
       ],
       timeline: [
-        { when: "June 5, 2023", label: "Victoria Marcano slips on liquid in a Publix beverage aisle in Kissimmee, Florida" },
-        { when: "February 24, 2026", label: "Osceola County jury awards Marcano $3,967,000, finding Publix 100% liable", current: true },
-        { when: "2026", label: "Publix moves for a new trial, challenging the medical-bill evidence allowed at trial", upcoming: true }
+        { when: "June 5, 2023", label: "A shopper falls on liquid in the soft drink aisle of a Kissimmee Publix" },
+        { when: "February 2026", label: "Osceola County jury awards $3,967,000, finding Publix 100% responsible" },
+        { when: "March 2026", label: "Publix moves for a new trial, challenging the medical-bill evidence", current: true }
       ],
       tags: ["slip and fall", "premises liability", "grocery store", "prior notice", "Florida"]
     },
@@ -4140,14 +4071,14 @@ const RELAW_DATA = {
     },
     {
       id: "live-132",
-      seoTitle: "Portland Maine Concert Venue Suit: Zoning Buffer Called Targeted",
-      seoDescription: "Portland Music Holdings sued Portland, Maine, alleging a moratorium and 750-foot venue buffer were adopted to block its 3,300-seat concert venue.",
+      seoTitle: "Portland, Maine Music Venue Suit Over Council's Venue Buffer",
+      seoDescription: "Portland Music Holdings sued Portland, Maine in federal court, alleging a moratorium and venue buffer were adopted to block its proposed 3,300-seat music venue.",
       property: {"city": "Portland", "state": "ME"},
       addedDate: "2026-09-12",
       title: "Portland Music Holdings LLC v. City of Portland (Targeted Zoning Buffer Takings & Due Process Suit)",
-      brief: "Portland Music Holdings sued Portland, Maine, alleging a zoning moratorium and a 750-foot venue buffer were adopted to kill its proposed 3,300-seat music venue and shield the city's Merrill Auditorium from competition.",
+      brief: "Portland Music Holdings sued Portland, Maine in federal court, alleging councilors adopted a moratorium and a buffer between large music venues to block its proposed 3,300-seat venue next to Merrill Auditorium.",
       category: "zoning-land-use",
-      status: "filed",
+      status: "pending",
       date: "2026-06-09",
       jurisdiction: "U.S. District Court, District of Maine",
       parties: [
@@ -4157,25 +4088,24 @@ const RELAW_DATA = {
       judge: "John C. Nivison",
       amountUsd: null,
       state: "ME",
-      amount: "Unspecified damages and attorneys' fees sought; project's development value at stake",
+      amount: "No dollar amount reported",
       source: "live",
       sourceUrl: "https://www.pressherald.com/2026/06/09/group-that-sought-live-nation-music-venue-in-portland-sues-city-over-buffer/",
-      summary: "Portland Music Holdings LLC sued the City of Portland, Maine in federal court on June 9, alleging that a zoning moratorium and a resulting 750-foot buffer amendment between large concert venues were adopted specifically to kill its proposed 3,300-seat music venue and protect the city's own Merrill Auditorium from competition. The complaint alleges impairment of contract, due process violations, and an uncompensated taking, and asks the court to void the zoning changes and award damages and fees.",
-      significance: "Illustrates how municipalities facing an unwanted or controversial project can respond not with a permit denial but with a facially neutral zoning amendment calibrated to make one specific site unbuildable, a maneuver that draws far less judicial deference once a plaintiff can show it targeted a known, pending project. Commercial and entertainment-venue developers watching a moratorium or zoning study emerge after their project becomes public should treat it as a serious litigation signal, not routine planning process.",
+      summary: "Portland Music Holdings LLC sued the City of Portland, Maine in the U.S. District Court for the District of Maine on June 9, 2026, alleging councilors illegally blocked its proposed 3,300-seat music venue by voting for a 180-day moratorium and then a buffer between large music venues, the Portland Press Herald reported. The city has moved to dismiss, and Magistrate Judge John C. Nivison heard oral argument on that motion on September 30, 2026, according to the court docket.",
+      significance: "The case tests a developer's claim that a zoning change applied retroactively to a pending project was adopted to stop that project rather than for a planning reason. The ruling on the city's motion to dismiss will show whether such a claim can proceed in federal court.",
       body: [
-        "Portland Music Holdings LLC filed suit against the City of Portland, Maine on June 9, 2026 in the U.S. District Court for the District of Maine, alleging that a zoning ordinance enacted after the developer had already committed years of work and capital to a proposed 3,300-seat concert venue was not a legitimate land-use measure but a targeted effort by individual council members to block the project and shield the city's own Merrill Auditorium from competition. The fourteen-page complaint asks the court to declare the moratorium and an accompanying buffer-zone amendment void, and seeks damages and attorneys' fees. Though the case remains in its early stages with no ruling yet issued, it presents a template increasingly familiar to commercial developers nationwide: a municipality responding to local opposition or competitive pressure not by denying a single permit, but by rewriting the zoning code itself in a way calibrated to make one specific, already-pending project impossible.",
-        "Portland Music Holdings, originally formed as a joint venture between Live Nation Worldwide and local firm Portland Performance Ventures, spent several years assembling and designing plans for a venue at a former printing-press building at 244 Cumberland Avenue, at the corner of Cumberland Avenue and Myrtle Street, directly adjacent to the city-owned Merrill Auditorium. According to the complaint, Portland's City Council responded to the proposal by enacting a temporary moratorium on large music venues in the summer of 2025, then extended that moratorium again in February 2026 while it developed permanent zoning changes. The council ultimately adopted an amendment increasing the required separation between large concert venues from 100 feet to 750 feet, a change the complaint alleges was calibrated specifically to make the Cumberland Avenue site unbuildable given its proximity to Merrill Auditorium, effectively killing the project through zoning text rather than through any individualized permit denial.",
-        "The complaint's central allegation is one of pretext: that the moratorium and buffer amendment were not adopted for the stated planning rationale, but because, in the plaintiff's words, certain council members held personal animosity toward PMH and its owners, and toward Live Nation in particular, and sought to prevent competition with the city's own venue. Notably, Live Nation withdrew from involvement in the underlying project in late May 2026, shortly before the lawsuit was filed, with the company stating publicly it no longer had an interest in the venue or in Portland Music Holdings, a development that removes the country's largest concert promoter from the caption but leaves the constitutional claims, brought by the remaining development entity, fully intact.",
-        "Legally, the case advances several theories that commonly appear together in disputes over targeted zoning: that the moratorium and buffer amendment unconstitutionally impaired the developer's contractual and vested development rights, that the process afforded PMH violated due process because the zoning change was adopted to target a specific known project rather than to serve a neutral planning purpose, and that the effect of rendering the site unbuildable, after years of municipal engagement and investment in design and acquisition, amounts to an uncompensated taking of the property's development value. Zoning changes are ordinarily entitled to substantial deference under rational-basis review, and municipalities retain wide latitude to regulate land use for legitimate purposes such as noise, traffic, and neighborhood character. That deference erodes, however, when a plaintiff can show through legislative history, public statements, or the timing and specificity of an ordinance that it was adopted to target one identifiable project rather than to advance a generally applicable planning goal, precisely the record PMH's complaint attempts to build by pointing to the buffer distance's suspiciously precise fit with the distance separating its site from Merrill Auditorium.",
-        "For commercial and entertainment-venue developers, the case is a reminder that municipal opposition to a large or controversial project does not always arrive as a denied permit; it can arrive instead as a facially neutral zoning amendment adopted mid-project, and that such amendments are vulnerable to challenge where the record shows they were tailored to one site. Developers facing an emerging moratorium or zoning study aimed at their sector should begin contemporaneously documenting council members' public statements, the specificity of proposed setback or buffer distances relative to their own site, and any evidence that a municipally owned or affiliated competitor stood to benefit, since that record becomes the foundation of a targeted-zoning claim. Municipal counsel and elected bodies, conversely, should treat a zoning change adopted after a specific competing project is already publicly known as carrying meaningfully elevated litigation risk, particularly where the municipality itself operates a facility that would benefit from the new restriction, and should ensure any such ordinance rests on a documented, generally applicable planning rationale developed independently of the pending project."
+        "Portland Music Holdings LLC, the company behind a proposed 3,300-seat concert venue at the corner of Cumberland Avenue and Myrtle Street next to Merrill Auditorium, sued the City of Portland in federal court on June 9, 2026, the Portland Press Herald reported. The company had told the city in May that it planned to sue, less than a month after the City Council's April vote to create a buffer between large music venues. The court docket lists the case as a civil-rights claim under 42 U.S.C. § 1983.",
+        "The complaint alleges that the \"actual reason\" councilors voted for a 180-day moratorium before passing the buffer was that some members had a \"personal animosity\" toward the company and Live Nation and were trying to shield other venues from competition, the Press Herald reported. It calls the retroactive zoning changes \"fundamentally unfair and an abuse of power\" and notes the Planning Board had unanimously opposed the buffer. The project had drawn opposition from local musicians, independent venues and residents concerned about traffic and pedestrian safety near City Hall. Live Nation, which said in May it no longer had an interest in the venue or the company, is not part of the suit.",
+        "A city spokesperson said officials do not comment on pending litigation. Councilor Wes Pelletier, who sponsored the buffer, said he was confident in the city's legal standing, and Councilor Ben Grant had argued at the April vote that the council had authority to adopt the retroactive moratorium and zoning changes. The city moved to dismiss the complaint on July 21, 2026; the parties consented to have Magistrate Judge John C. Nivison decide the case, and he heard oral argument on the motion on September 30, 2026, according to the docket."
       ],
       timeline: [
-        { when: "Summer 2025", label: "Portland City Council enacts a temporary moratorium on large music venues" },
-        { when: "February 2026", label: "City Council extends the moratorium while developing permanent zoning changes" },
-        { when: "May 29, 2026", label: "Live Nation announces it is no longer involved in the venue or with Portland Music Holdings" },
-        { when: "June 9, 2026", label: "Portland Music Holdings files suit in the U.S. District Court for the District of Maine", current: true }
+        { when: "April 2026", label: "Portland City Council votes to create a buffer between large music venues" },
+        { when: "May 2026", label: "Live Nation says it is no longer involved; the company tells the city it plans to sue" },
+        { when: "June 9, 2026", label: "Portland Music Holdings files suit in the U.S. District Court for the District of Maine" },
+        { when: "July 21, 2026", label: "City of Portland moves to dismiss the complaint" },
+        { when: "September 30, 2026", label: "Magistrate Judge John C. Nivison hears oral argument on the motion to dismiss", current: true }
       ],
-      tags: ["zoning", "takings", "due process", "music venue", "maine"],
+      tags: ["zoning", "moratorium", "section 1983", "music venue", "maine"],
       docketUrl: "https://www.courtlistener.com/docket/73457710/portland-music-holdings-llc-v-city-of-portland/",
       docketLabel: "CourtListener docket"
     },
@@ -4551,49 +4481,48 @@ const RELAW_DATA = {
     },
     {
       id: "live-144",
-      seoTitle: "Watertown, SD Apartment Loan Fight: The Ruins Sold in Chapter 7",
-      seoDescription: "Red River State Bank's loan fight with a Fargo developer over three Watertown, SD apartment projects: a court approved a backup-bid sale of The Ruins.",
+      seoTitle: "The Ruins, Watertown SD: Chapter 7 Sale to Backup Bidder",
+      seoDescription: "A bankruptcy judge let the trustee sell The Ruins in downtown Watertown, SD to Archer Land Co. for $6.1 million after an $11.265 million bid failed to close.",
       addedDate: "2026-09-16",
-      title: "Red River State Bank v. Generations on 1st, LLC (Watertown, SD Multifamily Loan-Default Litigation & Chapter 7 Sale)",
-      brief: "In a $22M+ Red River State Bank loan fight over three Watertown, South Dakota apartment projects, the Chapter 7 trustee may sell the Ruins project to a backup bidder after the developer's $11.265M credit bid collapsed.",
+      title: "In re The Ruins, LLC (Watertown, SD Redevelopment Site Sold to Backup Bidder in Chapter 7)",
+      brief: "A bankruptcy judge authorized the sale of The Ruins in downtown Watertown, South Dakota to backup buyer Archer Land Co. for $6.1 million after the original developer's company failed to close its $11.265 million bid.",
       category: "lending-foreclosure",
-      status: "pending",
+      status: "ruling",
       date: "2026-08-17",
       jurisdiction: "U.S. Bankruptcy Court, District of North Dakota",
       parties: [
-        { name: "Red River State Bank", role: "Plaintiff/Lender" },
-        { name: "Generations on 1st, LLC", role: "Defendant/Borrower" },
-        { name: "Craig Holdings, LLC", role: "Defendant" },
-        { name: "Watertown Development Company", role: "Defendant" },
-        { name: "Codington County", role: "Defendant" },
         { name: "The Ruins, LLC", role: "Debtor" },
-        { name: "Build, LLC", role: "Bidder/Adversary Plaintiff" },
-        { name: "Archer Land Co., LLC", role: "Buyer" }
+        { name: "Red River State Bank", role: "Primary Secured Lender" },
+        { name: "Build, LLC", role: "Winning Bidder/Adversary Plaintiff" },
+        { name: "Archer Land Co., LLC", role: "Buyer" },
+        { name: "Watertown Development Company", role: "Second Mortgage Holder" }
       ],
-      amountUsd: null,
+      amountUsd: 6100000,
       state: "SD",
-      amount: "$22M+ in defaulted promissory notes; The Ruins parcel resold for $6.1M after an $11.265M credit bid unraveled",
+      amount: "$6.1M sale to backup buyer after an $11.265M winning bid failed to close; $1,126,500 earnest money forfeited",
       source: "live",
       sourceUrl: "https://www.northeastradiosd.com/post/watertown-the-ruins-redevelopment-deal-collapses-as-jesse-craig-forfeits-1-1m-property-sells-to",
-      summary: "A $22M+ loan-default fight between Red River State Bank and Fargo developer Jesse Craig over three Watertown, South Dakota apartment projects has spread across a South Dakota foreclosure court and a North Dakota bankruptcy court. On August 17, 2026, U.S. Bankruptcy Judge Shon Hastings authorized the Chapter 7 trustee to sell the downtown Ruins project to a backup bidder after Craig's own winning $11.265M credit bid collapsed over unresolved lien-priority issues, costing him more than $1.1M in forfeited earnest money.",
-      significance: "Shows how a mid-size regional CRE loan default can splinter into parallel state foreclosure, federal removal/remand, and out-of-state bankruptcy proceedings that each move on independent timelines. Lenders and workout counsel should treat a Chapter 7 credit-bid win as provisional until the trustee's lien inventory is complete and title actually clears.",
+      summary: "On August 17, 2026, U.S. Bankruptcy Judge Shon Hastings authorized the Chapter 7 trustee of The Ruins, LLC to sell its property at 315 E. Kemp Avenue in downtown Watertown, South Dakota, to backup buyer Archer Land Co., LLC for $6.1 million, Northeast Radio SD reported. Build, LLC, a company owned by the project's original developer, had won the auction with an $11.265 million bid but missed an August 14 closing deadline and forfeited its $1,126,500 earnest money deposit. The station reported that the proceeds will fall well short of primary lender Red River State Bank's debt.",
+      significance: "The case shows how a winning bankruptcy auction bid can unravel before closing, here after a dispute over listing every lien on the property for title insurance. When the backup bid is much lower, junior lienholders such as a second mortgage holder and contractors with mechanic's liens may recover nothing from the sale.",
       body: [
-        "A multifamily development dispute rooted in Watertown, South Dakota has grown into a sprawling, multi-forum legal fight spanning state foreclosure litigation, a removed-and-remanded federal case, and a Chapter 7 bankruptcy proceeding in neighboring North Dakota, culminating on August 17, 2026 in a bankruptcy court order that stripped a local developer of a downtown redevelopment site after his own winning bid to reclaim it fell apart. The dispute offers commercial lenders and workout counsel a real-time illustration of how a mid-size regional loan default can metastasize into parallel proceedings that each move on their own timeline and their own rules.",
-        "The underlying dispute traces back to a series of promissory notes, totaling more than $22 million, that Red River State Bank of Halstad, Minnesota extended to finance three Watertown apartment developments launched by Fargo-based developer Jesse Craig: Parkside Place, Generations on 1st, and a downtown adaptive-reuse project known as The Ruins. Red River State Bank filed foreclosure lawsuits in South Dakota's Third Judicial Circuit Court in Codington County, naming Generations on 1st, LLC, Craig Holdings, LLC, Watertown Development Company, and Jesse and Mulinda Craig individually as defendants, alleging that Generations on 1st and Mulinda Craig had defaulted on the notes. The Craigs filed counterclaims against the bank alleging breach of contract, breach of the covenant of good faith and fair dealing, and both actual and constructive fraud, allegations that, if credited, would shift at least some blame for the projects' distress from the developer back onto the lender's own conduct.",
-        "While the state-court foreclosure and fraud counterclaims continued through Codington County, with a related proceeding removed to and then remanded back from federal court in South Dakota, a parallel and ultimately more consequential process unfolded in bankruptcy court. The Ruins ended up in a Chapter 7 sale process with attorney Erik Ahlgren as trustee. Craig's own company initially won that sale with a credit bid of roughly $11.265 million, outbidding the next-highest bidder by more than $5 million under a sale order entered June 4, 2026. The win did not hold: on July 7, 2026, Trustee Ahlgren moved to amend the sale order to explicitly enumerate sixteen separate mortgages, mechanics' liens, and other claims against the property to satisfy South Dakota title-insurance requirements, a sign the lien stack was more tangled than the original order accounted for.",
-        "On August 17, 2026, U.S. Bankruptcy Judge Shon Hastings, Chief Judge of the U.S. Bankruptcy Court for the District of North Dakota, signed a final order authorizing Trustee Ahlgren to convey The Ruins property, at 315 E. Kemp Avenue in Watertown, to backup bidder Archer Land Co., LLC for approximately $6.1 million, roughly half of what Craig's entity had originally bid. Craig forfeited more than $1.1 million in earnest money tied to the original winning bid as part of the deal's collapse.",
-        "The case is instructive for its procedural sprawl: a single distressed multifamily portfolio generated a state-court foreclosure action testing whether the borrower's default is offset by the lender's own conduct, a federal removal-and-remand fight over which court decides threshold issues, and a bankruptcy sale process in a different state's federal court driven by the separate imperative of clearing marketable title. Regional lenders should confirm, before consenting to any credit-bid sale in a borrower's bankruptcy, that the trustee holds a complete, title-insurable lien inventory, since an incomplete schedule can force a sale order to be reopened months later; borrowers should treat a Chapter 7 credit-bid win as provisional until title actually clears, given how much Craig ultimately forfeited when his bid unwound; and workout counsel on any multi-property developer relationship should map every forum a dispute could reach at the outset, since state, federal, and bankruptcy proceedings can each move independently and produce outcomes that affect one another."
+        "The Ruins, LLC filed for Chapter 11 in the U.S. Bankruptcy Court for the District of North Dakota on January 6, 2025, and the case was converted to Chapter 7 on December 31, 2025, according to the court docket. Its main asset is a downtown Watertown, South Dakota redevelopment site at 315 E. Kemp Avenue known as The Ruins.",
+        "Build, LLC, a company owned by the project's original developer, won the trustee's auction with an $11.265 million bid, and the court entered a sale order on June 4, 2026, Northeast Radio SD reported. On July 7, the trustee moved to amend that order to list 16 separate mortgages, mechanic's liens and court claims so the sale would meet South Dakota title insurance requirements. Build objected and sued the trustee in an adversary case, and Red River State Bank, the primary secured lender, argued Build was trying to stall the closing. In late July, the trustee and Build agreed to a court-approved stipulation giving Build until August 14 to pay the price; if it did not, its deposit would go to the estate, its suit would be dismissed and the property would pass to the backup buyer.",
+        "Build did not close by the deadline. On August 17, Judge Hastings authorized the sale to Archer Land Co. free and clear of liens for $6,100,000, ordered Build's $1,126,500 earnest money turned over to the trustee, and dismissed Build's adversary case with prejudice. According to the station, after taxes, assessments, closing costs and commissions, the remaining proceeds go to Red River State Bank toward its $10.49 million mortgage cap, so second mortgage holder Watertown Development Company and more than a dozen contractors holding mechanic's liens are unlikely to be paid from the sale.",
+        "In a separate case, Red River State Bank sued Generations on 1st, LLC, Craig Holdings, LLC, Watertown Development Company, Codington County and others in South Dakota's Third Judicial Circuit Court in Codington County, alleging defaults on promissory notes totaling more than $22 million secured by Watertown real estate, Hub City Radio reported in July 2024."
       ],
       timeline: [
-        { when: "2024", label: "Generations on 1st, LLC and Mulinda Craig default on Red River State Bank promissory notes; bank files foreclosure suits" },
-        { when: "June 4, 2026", label: "Bankruptcy court enters sale order after Craig's company wins The Ruins with an $11.265M credit bid" },
-        { when: "July 7, 2026", label: "Chapter 7 trustee moves to amend the sale order over an incomplete lien inventory" },
-        { when: "August 17, 2026", label: "Bankruptcy Judge Shon Hastings authorizes sale of The Ruins to backup bidder Archer Land Co. for $6.1M", current: true }
+        { when: "January 6, 2025", label: "The Ruins, LLC files for Chapter 11 in North Dakota bankruptcy court" },
+        { when: "December 31, 2025", label: "Case is converted to Chapter 7" },
+        { when: "June 4, 2026", label: "Court enters sale order after Build, LLC wins the auction with an $11.265M bid" },
+        { when: "July 7, 2026", label: "Trustee moves to amend the sale order to list 16 liens and claims for title insurance" },
+        { when: "August 14, 2026", label: "Build, LLC's extended closing deadline passes without a closing" },
+        { when: "August 17, 2026", label: "Judge Shon Hastings authorizes sale to backup buyer Archer Land Co. for $6.1M", current: true }
       ],
       judge: "Shon Hastings",
-      tags: ["foreclosure", "chapter 7 bankruptcy", "south dakota", "multifamily", "loan default"],
+      tags: ["chapter 7 bankruptcy", "bankruptcy sale", "south dakota", "redevelopment", "mechanic's liens"],
       docketUrl: "https://www.courtlistener.com/docket/69518085/the-ruins-llc/",
-      docketLabel: "CourtListener docket (The Ruins, LLC Ch. 7 case)"
+      docketLabel: "CourtListener docket",
+      amountBasis: "purchase price"
     },
     {
       id: "live-145",
@@ -4713,42 +4642,40 @@ const RELAW_DATA = {
     {
       id: "live-148",
       seoTitle: "Hughes Center Las Vegas: Court Approves Sale to Borden Industries",
-      seoDescription: "A Clark County judge approved the receiver's sale of Hughes Center, a Las Vegas office and retail campus, after a $325 million CMBS loan default.",
+      seoDescription: "A Clark County judge approved receiver Logic Commercial Real Estate's sale of the Hughes Center office park in Las Vegas to Borden Industries; price not public.",
       property: {"name": "Hughes Center", "city": "Las Vegas", "state": "NV"},
       addedDate: "2026-09-17",
-      title: "In re Hughes Center Receivership (Blackstone CMBS Default, Court-Ordered Sale to Borden Industries)",
-      brief: "A judge approved the sale of Hughes Center, a 68-acre Las Vegas office and retail campus, to Borden Industries on July 28, 2026, ending a receivership after a Blackstone affiliate defaulted on a $325 million CMBS loan.",
+      title: "Hughes Center Receivership (Court-Approved Sale of Las Vegas Office Park to Borden Industries)",
+      brief: "A Clark County judge approved the receiver's sale of Las Vegas' Hughes Center office park to Borden Industries on July 28, 2026; court filings do not show the price, the Review-Journal reported.",
       category: "lending-foreclosure",
       status: "ruling",
       date: "2026-07-28",
       jurisdiction: "Eighth Judicial District Court, Clark County, Nevada",
       parties: [
-        { name: "Wells Fargo", role: "Movant" },
-        { name: "Logic Commercial Real Estate", role: "Receiver" }
+        { name: "Logic Commercial Real Estate", role: "Receiver" },
+        { name: "Borden Industries", role: "Buyer" }
       ],
       amountUsd: 325000000,
       amountBasis: "loan",
       state: "NV",
-      amount: "$325M defaulted CMBS loan; sale price to Borden Industries withheld from public filings",
+      amount: "$325M loan reportedly unpaid; sale price to Borden Industries redacted from court filings",
       source: "live",
       sourceUrl: "https://www.reviewjournal.com/business/vegas-business/building-las-vegas/sale-of-big-office-park-near-las-vegas-strip-pushes-ahead-3860743/",
-      summary: "Eighth Judicial District Court Judge Maria Gall approved the sale of Hughes Center, a 68-acre, 1.4-million-square-foot Las Vegas office and retail campus, to Borden Industries on July 28, 2026, closing out a roughly two-year court-ordered receivership. The receivership began after a Blackstone-affiliated ownership entity defaulted on a $325 million CMBS loan and Wells Fargo, acting as trustee for the loan's noteholders, moved to have Logic Commercial Real Estate appointed receiver.",
-      significance: "Shows a full CMBS special-servicing-to-receivership-to-sale cycle for a large mixed-use office asset undermined by tenant migration to newer submarkets, and confirms that Nevada courts will seal receivership sale pricing from public dockets on a proper showing. Special servicers and receivers handling distressed office campuses with a healthier retail component should study the marketing approach here as a template for finding buyers outside the traditional office-investor pool.",
+      summary: "Clark County District Judge Maria Gall on July 28, 2026 approved a motion by court-appointed receiver Logic Commercial Real Estate to sell the Hughes Center, an office park with nearly 1.4 million square feet of office space a mile east of the Las Vegas Strip, to Borden Industries, the Las Vegas Review-Journal reported. The price was redacted from the filed purchase agreement, and Logic moved to seal the deal terms. Logic was appointed receiver in 2024 after the landlord reportedly stopped making payments on a $325 million loan.",
+      significance: "The case shows a court-supervised receivership being used to sell a large office property with high vacancy. It also shows a receiver asking to keep a sale price out of a public court file before closing, though in Clark County the price is normally public once the deed is recorded.",
       body: [
-        "A prominent Las Vegas office campus that spent the better part of two years under court-appointed receivership is now headed to new ownership, after a Clark County district judge signed off on its sale to an industrial and technology investment firm. The order, entered July 28, 2026 by Eighth Judicial District Court Judge Maria Gall, authorizes court-appointed receiver Logic Commercial Real Estate to convey Hughes Center, a 68-acre, roughly 1.4-million-square-foot office and retail complex a mile east of the Las Vegas Strip, to Borden Industries, led by founder and former Switch executive Michael Borden. The sale is expected to close around September 2026, with the purchase price withheld from public court filings.",
-        "The case traces back to a $325 million CMBS loan secured by the property, held through an entity affiliated with Blackstone, the world's largest alternative asset manager. The loan, tied to a mortgage that came due in September, entered special servicing after payments stopped, and by late 2023 the property was already being described by trade press as nearing default. In 2024, the loan's servicer moved for the appointment of a receiver after the borrower failed to bring the debt current. Wells Fargo Bank, National Association, acting in its customary role as trustee for the CMBS trust holding the loan, brought the underlying motion. Eighth Judicial District Court Judge Susan Johnson granted it, placing the property under the control of Logic Commercial Real Estate as receiver, a step that stripped the Blackstone-affiliated ownership entity of day-to-day control while the receivership sought either a loan workout or, ultimately, a sale.",
-        "Hughes Center's troubles were rooted less in any single default event than in a broader repricing of suburban and campus-style office product across the Las Vegas market. Tenants that once anchored the property migrated to newer, more amenitized product in Summerlin and the UnCommons development, pushing office vacancy at the campus above 60 percent even as its roughly 98,000 square feet of retail space remained nearly 85 percent leased. That bifurcation, a struggling office component carrying a still-healthy retail component, is a pattern now familiar to special servicers and receivers working out large mixed-use office assets nationally, and it shaped how the receiver ultimately marketed the property: not as a distressed office building to be repositioned floor by floor, but as a large, well-located parcel whose highest value may lie beyond conventional office use.",
-        "Procedurally, the case illustrates how a CMBS special-servicing default converts into a state-court receivership rather than a conventional judicial foreclosure in many jurisdictions, including Nevada. Rather than litigating a foreclosure sale to judgment, the trustee sought appointment of a receiver under Nevada law, giving a court-supervised fiduciary, here a commercial brokerage acting as receiver, the power to manage, lease, and ultimately market and sell the asset under the court's ongoing supervision. Judge Gall's order approving the sale, and sealing the purchase price from the public docket, reflects a now-common practice in distressed CRE dispositions: courts will protect commercially sensitive pricing information even in a public receivership proceeding, so long as the receiver and the parties show a legitimate confidentiality interest.",
-        "For CMBS lenders, special servicers, and receivers working through the wave of maturing office loans, and for office landlords and asset managers elsewhere in secondary and tertiary Sun Belt markets carrying similar campus-format product, the practical lesson is twofold: special servicers facing a defaulted office loan with declining occupancy should evaluate receivership early, particularly where a retail or non-office component retains stronger fundamentals and could support a going-concern sale, and receivers marketing distressed office assets should be prepared to pursue buyers from outside the traditional office-investor pool since the highest-and-best use may involve redevelopment or a non-office end use. Landlords with campus-style suburban office holdings in markets undergoing rapid submarket repositioning should stress-test debt-service coverage against realistic re-leasing assumptions well ahead of loan maturity, and parties to any similar receivership sale should build a specific factual record supporting confidentiality requests rather than assuming a court will seal deal terms automatically."
+        "Clark County District Judge Maria Gall on July 28, 2026 approved a motion by court-appointed receiver Logic Commercial Real Estate to sell the Hughes Center, at Flamingo and Paradise roads a mile east of the Las Vegas Strip, to Borden Industries, the Las Vegas Review-Journal reported. The order approved the purchase agreement and authorized Logic to close; Logic's motion said the sale was expected to close around September 2026.",
+        "The price was redacted from the purchase agreement filed in court, and Logic moved to seal the deal's terms, arguing they were confidential and still being negotiated and that the public had little interest in them, the Review-Journal reported. In Clark County, a sale price is routinely public once a deed is recorded after closing.",
+        "Blackstone bought the office park in 2013 for $347 million. The complex later lost tenants to newer buildings in the southwest Las Vegas Valley and Summerlin, and by 2023 the landlord had reportedly stopped making payments on its $325 million loan. In 2024, District Judge Susan Johnson appointed Logic as receiver. A Logic filing put office vacancy at about 61 percent, while about 85 percent of the property's roughly 98,000 square feet of retail space was occupied. CBRE was hired to find a buyer, and Borden Industries' website describes plans to redevelop the property."
       ],
       timeline: [
-        { when: "March 2023", label: "Blackstone's $325M Hughes Center loan enters special servicing" },
-        { when: "2024", label: "Judge Susan Johnson grants Wells Fargo's motion to appoint Logic Commercial Real Estate as receiver" },
-        { when: "July 28, 2026", label: "Judge Maria Gall approves the receiver's sale of Hughes Center to Borden Industries", current: true },
-        { when: "September 2026", label: "Sale to Borden Industries expected to close", upcoming: true }
+        { when: "2013", label: "Blackstone buys the Hughes Center for $347 million" },
+        { when: "2023", label: "The landlord reportedly stops making payments on its $325 million loan" },
+        { when: "2024", label: "Judge Susan Johnson appoints Logic Commercial Real Estate as receiver" },
+        { when: "July 28, 2026", label: "Judge Maria Gall approves the receiver's sale to Borden Industries", current: true }
       ],
       judge: "Maria Gall",
-      tags: ["cmbs default", "receivership", "office", "nevada", "special servicing"]
+      tags: ["receivership", "office", "nevada", "loan default", "court-approved sale"]
     },
     {
       id: "live-149",
@@ -5700,50 +5627,6 @@ const RELAW_DATA = {
       tags: ["veil piercing", "alter ego", "commercial lease", "michigan", "judgment collection"]
     },
     {
-      id: "live-180",
-      seoTitle: "Olathe School Land Sale: Cherry Park Eminent Domain Misuse Suit",
-      seoDescription: "Cherry Park Properties' suit alleging Olathe and USD 233 misused eminent domain to steer 79 acres to a favored buyer continues after a TRO denial.",
-      addedDate: "2026-09-25",
-      title: "Cherry Park Properties LLC v. City of Olathe / USD 233 (Eminent Domain Misuse & Preferential Land-Deal Suit)",
-      brief: "A Johnson County judge denied Cherry Park Properties an injunction in its suit claiming Olathe schools used eminent domain to enable a below-market sale of roughly 79 acres; seven counts continue.",
-      category: "eminent-domain",
-      status: "ruling",
-      date: "2026-07-20",
-      jurisdiction: "Johnson County District Court, Kansas (10th Judicial District)",
-      state: "KS",
-      amount: "~$1.43M contested land sale (Cherry Park's competing offer was reportedly ~$1M higher)",
-      source: "live",
-      sourceUrl: "https://www.olathereporter.com/city_news/city-schools-get-early-win-against-developer-in-case-alleging-misuse-of-eminent-domain/article_05b18e9f-eba5-4a1b-a9d1-b986328286a8.html",
-      summary: "Developer Cherry Park Properties LLC sued the City of Olathe and Olathe Public Schools (USD 233) in Johnson County District Court, alleging the district used eminent domain to acquire a sewer easement on Cherry Park's land to clear the way for a below-market sale of roughly 79 acres of surplus school land to a company controlled by civic figure Clay Blair, rejecting Cherry Park's own higher offer. On July 20, 2026, Judge Paul Burmaster denied Cherry Park's request for a temporary restraining order and preliminary injunction, finding no showing of irreparable harm, but the case's seven underlying counts continue.",
-      significance: "Shows that eminent domain and open-meetings exposure isn't confined to residential condemnation: a school district or municipality acting as a commercial land seller can face sustained litigation risk when a condemnation needed to enable a private sale is challenged as serving a preferred buyer rather than the public. Losing an early injunction motion doesn't resolve the underlying abuse-of-power claims, which can proceed independently.",
-      body: [
-        "A Kansas developer's lawsuit accusing the City of Olathe and the Olathe public school district of misusing their eminent domain power to steer roughly 79 acres of surplus land to a politically connected buyer is moving forward in Johnson County District Court, even after the presiding judge declined this summer to freeze the underlying transaction while the case is litigated. The dispute has grown from a single eminent domain claim into a seven-count suit alleging preferential treatment, breach of good faith, and violations of the state's open meetings law, illustrating how a routine municipal land sale can generate serious commercial litigation exposure for a school district and a city acting in tandem.",
-        "Cherry Park Properties LLC filed suit on March 10, 2026, in Johnson County District Court against the City of Olathe and Unified School District No. 233 (Olathe Public Schools), captioned Case No. JO-2026-CV-000603 and assigned to Judge Paul Burmaster. The suit centers on roughly 79 acres of district-owned land near Lakeshore Drive and Cedar Niles Road that the district had held since 2004 for a future school site but ultimately decided to sell as surplus. In 2022, the district agreed to sell the parcel to CB Holdings, a company controlled by prominent Olathe civic figure and school-district donor Clay Blair, for approximately $1.43 million. Cherry Park alleges it separately offered roughly $1 million more for the same land and was passed over without meaningful consideration.",
-        "The eminent domain component arises from a related piece of infrastructure: to make the CB Holdings deal workable, the district needed a sewer-line easement across property Cherry Park owns nearby. When negotiations over that easement stalled, the school district, acting through the City of Olathe, moved to acquire the easement by eminent domain rather than continuing to negotiate a purchase. Cherry Park's complaint alleges the condemnation was not exercised for a genuine public purpose but as a mechanism to clear the path for a private sale benefiting Blair, and that the compensation offered was well below the value of the burden it would impose on Cherry Park's land.",
-        "The litigation escalated after it was filed. Weeks later, the Olathe school board held a closed executive session and then voted, on April 2, 2026, to terminate its existing contract with CB Holdings, only to approve what Cherry Park's amended complaint characterizes as a nearly identical replacement deal with 143rd Street Ventures LLC, another entity controlled by Blair. Cherry Park amended its petition to add 143rd Street Ventures as a defendant and to allege the board's April 2 action violated the Kansas Open Meetings Act, arguing the substitution was an effort to route around the pending lawsuit while preserving the same economic outcome for the same ultimate buyer.",
-        "The most recent substantive development came on July 20, 2026, when Judge Burmaster denied Cherry Park's motion for a temporary restraining order and preliminary injunction that would have halted both the eminent domain proceeding and continued development of the disputed land while the case was pending, finding Cherry Park had not shown the kind of irreparable harm that equitable relief requires. The denial was procedural rather than a ruling on the merits: it allows the eminent domain process and the district's land development to continue in the interim, but leaves Cherry Park's seven underlying counts, including the eminent domain abuse and open-meetings claims, to proceed toward resolution.",
-        "For commercial developers, landowners, and public agencies, the case underscores that eminent domain and open-meetings exposure arises just as readily when a municipality or school district is acting as a commercial seller of surplus real property as it does in traditional condemnation disputes, and that a public body pairing a land sale to a preferred buyer with a condemnation needed to make that sale workable should expect scrutiny of whether the condemnation truly serves the public, especially after rejecting a higher competing offer without documented justification. Losing a preliminary-injunction motion is not the same as losing the case; a plaintiff unable to show immediate, irreparable harm can still prevail later on the merits of an eminent domain or governmental-process claim, so early procedural rulings should be read as only one data point in what may be extended litigation. Restructuring a challenged transaction through a new corporate vehicle controlled by the same principal, rather than genuinely reopening the process to competing offers, is unlikely to insulate a public body from continued liability if a court later finds the substitution was made to evade the pending suit rather than to correct the underlying conduct."
-      ],
-      timeline: [
-        { when: "2004", label: "Olathe school district acquires the ~79-acre parcel for a planned future school site" },
-        { when: "2022", label: "District contracts to sell the surplus land to CB Holdings (Clay Blair-controlled) for ~$1.43M" },
-        { when: "March 10, 2026", label: "Cherry Park Properties LLC sues the City of Olathe and USD 233 in Johnson County District Court (Case No. JO-2026-CV-000603), alleging eminent domain misuse" },
-        { when: "April 2, 2026", label: "School board terminates the CB Holdings contract after a closed session and approves a similar deal with Blair-controlled 143rd Street Ventures LLC" },
-        { when: "July 20, 2026", label: "Judge Paul Burmaster denies Cherry Park's TRO/preliminary injunction motion; underlying seven-count case continues", current: true }
-      ],
-      judge: "Paul Burmaster",
-      parties: [
-        { name: "Cherry Park Properties LLC", role: "Plaintiff" },
-        { name: "City of Olathe", role: "Defendant" },
-        { name: "Unified School District No. 233 (Olathe Public Schools)", role: "Defendant" },
-        { name: "CB Holdings", role: "Defendant" },
-        { name: "143rd Street Ventures LLC", role: "Defendant" }
-      ],
-      amountUsd: 1430000,
-      amountBasis: "purchase price",
-      tags: ["eminent domain", "open meetings act", "land sale", "kansas", "municipal liability"]
-    },
-    {
       id: "live-184",
       seoTitle: "100 Summer Street Boston: Foreclosure Auction Ends at $260M",
       seoDescription: "Rockpoint, the sole bidder, won the foreclosure auction of 100 Summer Street in Boston for $260 million after Wells Fargo foreclosed on its $470 million loan.",
@@ -5864,39 +5747,39 @@ const RELAW_DATA = {
     },
     {
       id: "live-188",
-      seoTitle: "Joliet Technology Center Data Center Zoning Suit, Joliet IL",
-      seoDescription: "A residents' group sued Joliet, Hillwood and Powerhouse over approval of the $20 billion, 795-acre Joliet Technology Center data center campus.",
+      seoTitle: "Joliet Technology Center Data Center Suit Dismissed, Joliet IL",
+      seoDescription: "A Will County judge ruled against a residents' group's challenge to Joliet's $20 billion Joliet Technology Center data center, leaving a zoning claim open.",
       property: {"name": "Joliet Technology Center", "city": "Joliet", "state": "IL"},
       addedDate: "2026-09-26",
       title: "Joliet Residents for Responsible Growth v. City of Joliet (Joliet Technology Center Data Center Zoning Suit)",
-      brief: "A residents' group sued Joliet and developers Powerhouse and Hillwood over approval of the roughly $20 billion, 795-acre Joliet Technology Center data center campus, citing notice and open-meetings defects.",
+      brief: "A Will County judge on Oct. 19, 2026 ruled against all four counts of a challenge to Joliet's approval of the $20 billion Joliet Technology Center data center, leaving room to replead a zoning claim.",
       category: "zoning-land-use",
-      status: "pending",
-      date: "2026-09-08",
+      status: "ruling",
+      date: "2026-10-19",
       jurisdiction: "Circuit Court of Will County, Illinois",
       state: "IL",
       amount: "$20 billion project value at stake",
       source: "live",
       sourceUrl: "https://www.shawlocal.com/the-herald-news/2026/08/18/lawsuit-against-joliet-data-center-heading-to-court-hearing/",
-      summary: "A nonprofit group, Joliet Residents for Responsible Growth, sued the City of Joliet and developers Powerhouse and Hillwood over the city's March 19, 2026 annexation and rezoning approval of the roughly $20 billion, 795-acre Joliet Technology Center data center campus, alleging defective public notice and Open Meetings Act violations. Will County Circuit Judge Victoria Breslan heard argument on the city's and developers' motions to dismiss on September 8, 2026; no ruling had been reported as of this entry.",
-      significance: "The suit is a procedural, rather than substantive, challenge to a major data center approval -- targeting public notice and open-meetings compliance instead of the underlying zoning judgment -- and is emerging as part of a national pattern of similar procedural challenges to hyperscale data center approvals, alongside comparable disputes in Edgerton, Kansas and Westlake, Texas. Developers and municipalities should treat notice and hearing procedure as a first-order legal risk for large rezoning and annexation approvals.",
+      summary: "Joliet Residents for Responsible Growth and three of its members sued the City of Joliet and three companies tied to the $20 billion, 795-acre Joliet Technology Center on May 18, 2026, seeking to void the City Council's 8-1 approval of the data center's annexation agreement on March 19, The Herald-News reported. The suit alleged defective public notice, Open Meetings Act and due process violations, and an unconstitutional rezoning. On October 19, 2026, Will County Judge Victoria Breslan ruled for the defendants on all four counts, dismissing the zoning count without prejudice, according to a law-firm analysis of the order.",
+      significance: "The order has been described as the first significant Illinois trial-court ruling on challenges to local hyperscale data center approvals. It held that a hearing notice need not call a project a data center, while leaving room for zoning claims by neighbors who can plead concrete harm to their own parcels.",
       body: [
-        "A lawsuit challenging the city of Joliet, Illinois's approval of the roughly $20 billion, 795-acre Joliet Technology Center data center campus survived its first substantive court test on September 8, 2026, when Will County Circuit Judge Victoria Breslan heard argument on motions to dismiss filed by the city and the project's developers rather than disposing of the case outright. The case, brought by the nonprofit Joliet Residents for Responsible Growth against the City of Joliet and developers Powerhouse and Hillwood, is one of a growing number of suits nationally in which neighbors of proposed hyperscale data center campuses are using procedural and open-government claims, rather than substantive land-use objections alone, to slow or unwind local approvals.",
-        "The underlying project is large by any measure: a 24-building, 1.8-gigawatt data center campus that the Joliet City Council approved by an 8-1 vote on March 19, 2026, after annexing roughly 795 acres of agricultural land and rezoning it to light industrial use. The plaintiffs, who filed suit on May 18, 2026, do not primarily argue that a data center is an inappropriate use for the site in the abstract; their complaint centers on the process by which the city got there, alleging that a February 2026 public notice failed to disclose that the rezoning under consideration involved a data center at all, and that a March 2026 city council meeting violated the Illinois Open Meetings Act by denying residents a meaningful opportunity to challenge testimony offered in support of the project.",
-        "That framing matters legally. Illinois law gives local governments considerable substantive discretion over zoning and annexation decisions, and an argument that a rezoning decision was simply wrong on the merits faces a deferential standard of review. Procedural and open-meetings claims are different: they do not ask a judge to second-guess a legislative body's policy judgment, only to enforce the notice-and-process rules imposed on how that judgment gets made -- and if a city loses on that basis, the remedy can be to unwind the approval and send the matter back through a compliant process, which is what the plaintiffs are seeking here by asking the court to void the March 19 annexation vote.",
-        "For an industry investing tens of billions of dollars annually in hyperscale data center campuses, procedural vulnerability of this kind is a growing legal-risk category. The Joliet case is not occurring in isolation: a comparable data center zoning fight in Edgerton, Kansas recently produced a ruling against the municipality on anti-SLAPP grounds, and a Texas dispute over the Circle T Data Center in Westlake, also involving Hillwood, has already produced a temporary restraining order over an alleged public-notice defect. Together, these cases suggest procedural rigor in the public approval process is becoming as important a risk-management priority for data center developers as the underlying zoning entitlement itself.",
-        "No ruling on the motions to dismiss had been reported as of this entry, and the case remains pending before Judge Breslan. Given the project's scale, and resident-cited concerns over its draw on a regional aquifer and power demand described as comparable to Hoover Dam-level output, a ruling either allowing the case to proceed to a merits challenge or dismissing it and clearing the project's path will be closely watched well beyond Will County. Developers and municipal counsel structuring similar large-scale rezonings should treat public notice language and open-meetings procedure as first-order legal risk, and lenders and equity partners financing data center developments should specifically diligence the adequacy of the public approval record before treating zoning risk as resolved."
+        "A nonprofit group, Joliet Residents For Responsible Growth, and three members who live near the project sued the City of Joliet in Will County Circuit Court on May 18, 2026, seeking to void the City Council's 8-1 vote on March 19 approving an annexation agreement for the $20 billion, 795-acre Joliet Technology Center, The Herald-News (Shaw Local) reported. The other defendants are Powerhouse Hillwood Holding, HW Technology Park Development and American Real Estate Partners. The approvals annexed the site and rezoned it from agricultural to light industrial for a 24-building, 1.8-gigawatt data center campus.",
+        "The complaint alleged that a Feb. 18 Plan Commission notice did not disclose that the proposal involved a data center, that residents were denied a right to cross-examine the developers' witnesses at a March 16 council meeting, that the March 19 meeting violated the Open Meetings Act, and that the rezoning bore no substantial relation to public health, safety or welfare. The city and developers responded that the notice was legally sufficient, that annexation is a legislative decision carrying no cross-examination right, that no one at the March 16 meeting tried to cross-examine witnesses, and that the Open Meetings Act does not allow voiding action taken at an open meeting. The city also argued the group lacked standing.",
+        "On October 19, 2026, Judge Victoria Breslan ruled for the defendants on every count, according to a law-firm analysis of the order. She dismissed the notice count with prejudice, granted summary judgment to the defendants on the open-meetings and due process counts, and dismissed the zoning count without prejudice, finding that the alleged harms to regional water supply, the power grid, infrastructure and traffic were public harms rather than injuries to specific parcels. She also found the group lacked associational standing but allowed it to file an amended pleading."
       ],
       timeline: [
-        { when: "March 19, 2026", label: "Joliet City Council approves the annexation and rezoning 8-1" },
-        { when: "May 18, 2026", label: "Joliet Residents for Responsible Growth files suit against the City of Joliet, Powerhouse, and Hillwood" },
-        { when: "September 8, 2026", label: "Judge Victoria Breslan hears argument on motions to dismiss", current: true }
+        { when: "March 19, 2026", label: "Joliet City Council approves the annexation agreement 8-1" },
+        { when: "May 18, 2026", label: "Joliet Residents For Responsible Growth and three members file suit" },
+        { when: "October 19, 2026", label: "Judge Victoria Breslan rules for the city and developers on all four counts; zoning count dismissed without prejudice", current: true }
       ],
       judge: "Victoria Breslan",
       parties: [
+        { name: "Joliet Residents For Responsible Growth", role: "Plaintiff" },
         { name: "City of Joliet", role: "Defendant" },
-        { name: "Powerhouse", role: "Defendant" },
-        { name: "Hillwood", role: "Defendant" }
+        { name: "Powerhouse Hillwood Holding", role: "Defendant" },
+        { name: "HW Technology Park Development", role: "Defendant" },
+        { name: "American Real Estate Partners", role: "Defendant" }
       ],
       amountUsd: 20000000000,
       amountBasis: "other",
@@ -6465,7 +6348,7 @@ const RELAW_DATA = {
       summary: "On September 29, 2026, 17 investors in an entity controlled by landlord Mike Kohan sued mezzanine lender The Davis Companies in New York State Supreme Court, alleging that its UCC foreclosure sale of 345 Seventh Avenue, a Garment District office building, was defective and could sell the property for less than it is worth. The same complaint alleges that Kohan obtained more than $80 million from the investors by promising them ownership stakes they never received. The investors' request for a temporary restraining order was denied, and Davis acquired an equity stake in the property with a credit bid, which its attorney said puts the firm on a path to control the building.",
       significance: "Investors who fund a sponsor's property entities depend on their stakes appearing in the documents lenders rely on. If those stakes are missing, the investors may have little power to stop a mezzanine lender's UCC sale. Mezzanine lenders, for their part, should expect a UCC sale to draw last-minute challenges from people claiming equity, even when a court declines to halt it.",
       body: [
-        "Seventeen investors in an entity controlled by landlord Mike Kohan, most of them from Great Neck, N.Y., sued The Davis Companies on September 29, 2026 in New York State Supreme Court to try to stop the mezzanine lender's UCC foreclosure auction of 345 Seventh Avenue, a Garment District office building. They alleged the sale process was defective and could result in the building selling for less than its value. Their request for a temporary restraining order was denied. Davis then used a credit bid to acquire an equity stake in the property, which Davis's attorney, Leo Leyva, said puts the firm on a path to control the building, The Real Deal reported.",
+        "Seventeen investors in an entity controlled by landlord Mike Kohan, most of them from Great Neck, N.Y., sued The Davis Companies on September 29, 2026 in New York State Supreme Court to try to stop the mezzanine lender's UCC foreclosure auction of 345 Seventh Avenue, a Garment District office building. They alleged the sale process was defective and could result in the building selling for less than its value. Their request for a temporary restraining order was denied. Davis then used a credit bid to acquire an equity stake in the property, which Davis's attorney said puts the firm on a path to control the building, The Real Deal reported.",
         "The complaint also makes broader fraud allegations against Kohan. The investors allege he persuaded them to give him more than $80 million in exchange for promised membership interests in entities that owned real estate, including 345 Seventh Avenue. Instead, the complaint says, Kohan drew up fraudulent operating agreements and used them to obtain financing, and the investors never received the stakes they had been promised. The complaint alleges Kohan \"concealed or omitted investor equity, thereby deceiving both investors and lenders,\" and that he refused to give the investors documents to assess their rights after they learned of the UCC sale. Kohan and the investors' attorney did not immediately respond to The Real Deal's requests for comment.",
         "One of the loans at issue is the building's mezzanine loan, which Davis acquired in July 2026. Davis moved to foreclose in August 2026, accusing Kohan of defaulting on a $73 million loan, falling behind on bills and not resolving building violations, The Real Deal reported. A buyer group that included Kohan and Katan Realty Group bought the 25-story, 190,000-square-foot building in 2025 for $85 million, when it was 39 percent vacant. A representative for Kohan Retail Investment Group told The Real Deal that 345 Seventh Avenue is controlled by an affiliate of Kohan individually.",
         "Separately, The Real Deal reported that Kohan was recently removed as chief executive, president and a director of Kohan Properties Ltd., his British Virgin Islands-based company that raised about $112 million on the Israeli bond market. The removal followed the discovery of an allegedly unauthorized $4.5 million loan on five Manhattan office properties and $7.4 million in personal withdrawals in July 2026."
@@ -7312,10 +7195,10 @@ const RELAW_DATA = {
     {
       id: "live-239",
       seoTitle: "Cedar Realty Trust Preferred Stock Suit: $8.5M Settlement",
-      seoDescription: "Cedar Realty Trust preferred stockholders reached a proposed $8.5 million settlement with Cedar, Wheeler REIT and ex-CEO Bruce Schanzer over liquidation.",
+      seoDescription: "Cedar Realty Trust preferred holders reached a proposed $8.5M settlement of claims that Cedar's former directors breached duties to them in the Wheeler merger.",
       addedDate: "2026-10-08",
-      title: "Aquino v. Schanzer (Cedar Realty Trust Preferred Stockholder Settlement)",
-      brief: "Cedar Realty Trust's preferred stockholders reached a proposed $8.5 million cash settlement of their class action over the liquidation after Wheeler's acquisition; court approval is pending.",
+      title: "Cedar Realty Trust Preferred Stockholder Class Action Settlement (Montgomery County, Md.)",
+      brief: "Cedar Realty Trust preferred stockholders reached a proposed $8.5 million cash settlement of a class action alleging Cedar's former directors breached duties to them through the Wheeler merger.",
       category: "reit-securities",
       status: "pending",
       date: "2026-06-10",
@@ -7325,21 +7208,27 @@ const RELAW_DATA = {
       amountUsd: 8500000,
       amountBasis: "settlement",
       source: "live",
-      sourceUrl: "https://www.sahmcapital.com/news/content/levi-korsinsky-llp-and-wohl-fruchter-llp-announce-pendency-and-proposed-settlement-of-class-action-affecting-preferred-stockholders-of-cedar-realty-trust-inc-2026-08-03",
-      summary: "Preferred (Series B and C) stockholders of Cedar Realty Trust, Inc. sued CEO Bruce Schanzer, Cedar, and Wheeler Real Estate Investment Trust over the liquidation process following Wheeler's acquisition of Cedar, in a class action pending in the Circuit Court for Montgomery County, Maryland (Case No. C-15-cv-25-000731). A stipulation of settlement proposing an $8.5 million cash payment to the preferred-stockholder class was executed June 10, 2026, with notice of the proposed settlement published August 3, 2026; final court approval remained pending as of this entry.",
-      significance: "The case is part of a recurring pattern of litigation over how REIT preferred stockholders are treated in a merger or liquidation, when common-stock sponsors and acquirers structure a transaction in a way preferred holders allege shortchanges their liquidation preference. The proposed settlement offers a benchmark figure for resolving this category of claim short of trial.",
+      sourceUrl: "https://www.prnewswire.com/news-releases/levi--korsinsky-llp-and-wohl--fruchter-llp-announce-pendency-and-proposed-settlement-of-class-action-affecting-preferred-stockholders-of-cedar-realty-trust-inc-302838330.html",
+      summary: "Holders of Cedar Realty Trust's Series B and Series C preferred stock reached a proposed $8.5 million cash settlement of a putative class action in the Circuit Court for Montgomery County, Maryland, against Cedar's former directors, including former CEO Bruce Schanzer, according to a court-ordered summary notice. Cedar's quarterly report says the suit alleges the directors breached their duties to preferred stockholders through Cedar's merger with Wheeler Real Estate Investment Trust. The stipulation is dated June 10, 2026, and a final approval hearing was set for October 8, 2026 before Judge Ronald B. Rubin.",
+      significance: "The case is one of the disputes over how Cedar's preferred stockholders fared when Wheeler acquired the REIT. The proposed amount gives a reference point for resolving such a claim without trial.",
       body: [
-        "Preferred stockholders of Cedar Realty Trust, Inc. have reached a proposed $8.5 million cash settlement in a class action accusing the REIT's former chief executive, Bruce Schanzer, along with Cedar and its acquirer, Wheeler Real Estate Investment Trust, of mishandling the liquidation process tied to Wheeler's acquisition of Cedar.",
-        "The suit, captioned Aquino v. Schanzer and pending in the Circuit Court for Montgomery County, Maryland, was brought by holders of Cedar's Series B and Series C preferred stock, who alleged the liquidation process surrounding the Wheeler transaction failed to properly protect their liquidation preference relative to common stockholders.",
-        "The parties executed a stipulation of settlement on June 10, 2026, proposing an $8.5 million cash payment to the certified class of preferred stockholders, with notice of the proposed settlement published August 3, 2026. As of this entry, the settlement remained subject to final court approval.",
-        "For REIT sponsors and acquirers structuring a merger or liquidation involving multiple classes of preferred stock, the case is a reminder that preferred stockholders retain contractual liquidation-preference rights that survive a change-of-control transaction, and that disputes over how those rights are honored during a wind-down can generate class exposure resolved, as here, through a negotiated cash settlement rather than a liquidation-preference ruling on the merits."
+        "Preferred stockholders of Cedar Realty Trust, Inc. have reached a proposed $8.5 million cash settlement of a stockholder class action pending in the Circuit Court for Montgomery County, Maryland (Case No. C-15-cv-25-000731), according to a summary notice issued under a court order and distributed on PR Newswire on August 3, 2026. The class covers holders of Cedar's Series B and Series C preferred stock as of the close of trading on March 2, 2022.",
+        "The defendants are Cedar's former directors, including former chief executive Bruce Schanzer. Cedar's quarterly report for the period ended June 30, 2026 says the plaintiffs allege the directors breached their duties to preferred stockholders through Cedar's merger with Wheeler Real Estate Investment Trust, and seek damages equal to the decline in value of the preferred stock after the merger was announced. Cedar and Wheeler are also parties to the settlement, which would release claims against the directors, Cedar and Wheeler.",
+        "The parties signed a term sheet on May 5, 2026, and the stipulation of settlement is dated June 10, 2026. In an order dated June 30, 2026, the court directed notice to the class and set a final approval hearing for October 8, 2026 before Judge Ronald B. Rubin. Cedar's quarterly report says Wheeler agreed to pay an amount not expected to exceed $0.9 million toward the settlement. If approved, the net fund would be paid pro rata per share without a claim form. No final approval ruling was found as of this entry."
       ],
-      judge: null,
+      judge: "Ronald B. Rubin",
       parties: [
-        { name: "Cedar Realty Trust, Inc.", role: "Defendant" },
-        { name: "Wheeler Real Estate Investment Trust, Inc.", role: "Defendant" }
+        { name: "Cedar Realty Trust, Inc.", role: "Settling Party" },
+        { name: "Wheeler Real Estate Investment Trust, Inc.", role: "Settling Party" }
       ],
-      tags: ["reit", "preferred-stock", "class-action", "settlement", "maryland"]
+      tags: ["reit", "preferred-stock", "class-action", "settlement", "maryland"],
+      timeline: [
+        { when: "May 5, 2026", label: "Parties sign a settlement term sheet" },
+        { when: "June 10, 2026", label: "Stipulation of settlement for $8.5 million is signed" },
+        { when: "June 30, 2026", label: "Court orders notice to the class and sets a final approval hearing" },
+        { when: "August 3, 2026", label: "Summary notice of the proposed settlement is published" },
+        { when: "October 8, 2026", label: "Final approval hearing set before Judge Ronald B. Rubin; outcome not reported", current: true }
+      ]
     },
     {
       id: "live-243",
