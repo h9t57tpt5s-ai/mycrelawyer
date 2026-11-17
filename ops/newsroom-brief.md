@@ -29,7 +29,7 @@ An audit of 48 published write-ups sourced to The Real Deal found errors in near
 - Include the other side. If the source reports a denial, a response, a motion to dismiss or "did not respond", say so.
 - Quotes from a complaint or a person go in quotation marks with attribution; otherwise use your own words.
 - Timeline: date order, `current` on the latest event, and never mark a date that has passed as upcoming.
-- Return a "factCheck" list with each entry: one item per figure, date, party name and court, each with the exact source sentence that states it ({"claim": ..., "quote": ..., "url": ...}). Anything you cannot quote, leave out. The editor checks the factCheck before publishing; add_matters.py drops the list.
+- Return a "factCheck" list with each entry: one item per figure, date, party name and court, each with the exact source sentence that states it ({"claim": ..., "quote": ..., "url": ...}). Copy the sentence character for character (at least a full clause). Anything you cannot quote, leave out. This is enforced: scripts/verify_matters.py opens every url and HOLDS the matter unless each quote is on its page, at least one quote is from the sourceUrl, every figure in the text appears in a quote, and every party name appears in a quote. An independent fact-checker (ops/fact-check-brief.md) then re-reads the sources and must pass the matter. Write so both checks pass: if a fact is not in a quote you can give, it does not go in the entry.
 
 ## Output: return ONLY a JSON array of matters (best first, 0-4 of them), each exactly:
 {

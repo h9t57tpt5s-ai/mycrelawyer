@@ -1,0 +1,45 @@
+name: Hold unverified matters
+
+# The verification gate's backstop (2026-11-16). Every new matter must pass
+# scripts/verify_matters.py through scripts/add_matters.py, which records it
+# in ops/matter-verification.json. A matter added on or after the gate date
+# without that record (for example by the cloud digest routine) is taken out
+# of js/data.js and parked in ops/held-matters/ by scripts/hold_unverified.py.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "js/data.js"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verify-matters
+  cancel-in-progress: false
+
+jobs:
+  hold:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: Hold unverified matters
+        run: python3 scripts/hold_unverified.py
+      - name: Commit
+        run: |
+          git add js/data.js ops/held-matters .sync 2>/dev/null || true
+          if git diff --cached --quiet; then echo "Nothing held."; exit 0; fi
+          git config user.name "credocket-verify-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Hold unverified matter(s): no verification record"
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then exit 0; fi
+            sleep $((i * 10))
+          done
+          exit 1

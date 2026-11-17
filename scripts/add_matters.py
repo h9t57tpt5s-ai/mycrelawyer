@@ -8,7 +8,9 @@ and optionally propertyType, docketUrl, docketLabel, timeline). Research-only
 keys (sourcesOpened, verificationNote) are dropped. Each matter gets the next
 live-NNN id and today's addedDate; lastUpdatedDate is set to today.
 
-Refuses a matter that is missing a required field, uses an unknown category
+Holds (never publishes) a matter that fails the verification gate in
+scripts/verify_matters.py: source quotes for every figure and party, and a
+passing independent check. Refuses a matter that is missing a required field, uses an unknown category
 or status, lacks a 2+ paragraph body, names a source that equals its docket
 (record-only), or duplicates an existing title, source URL or docket URL.
 
@@ -102,18 +104,37 @@ def main():
     used |= {int(n) for n in re.findall(r"live-(\d+)", " ".join(p.name for p in (ROOT / ".sync").glob("*")))}
     next_id = max(used) + 1
     today = dt.datetime.now(dt.timezone.utc).date().isoformat()  # UTC, like the digest routine
-    accepted, blocks = [], []
+    accepted, blocks, verified_by_id = [], [], {}
+    # The verification gate (scripts/verify_matters.py, 2026-11-16): every
+    # figure and party must trace to a verbatim source quote, and an
+    # independent checker must have passed the matter. A failing matter is
+    # held in .task-tmp/held/ with the reasons, never published.
+    from verify_matters import check as verify, record as record_verified
+    cache = {}
+    held_dir = ROOT / ".task-tmp" / "held"
     for m in new:
         bad = problems(m, cases + accepted)
         if bad:
             print(f"SKIP {m.get('title','?')[:70]}: {'; '.join(bad)}")
             continue
-        m = {k: v for k, v in m.items() if k not in ("sourcesOpened", "verificationNote", "factCheck")}
+        gate, verified = verify(m, cache)
+        if gate:
+            print(f"HOLD {m.get('title','?')[:70]}:")
+            for g in gate:
+                print(f"  - {g}")
+            if not dry:
+                held_dir.mkdir(parents=True, exist_ok=True)
+                slug = re.sub(r"[^a-z0-9]+", "-", (m.get("title") or "matter").lower())[:60]
+                (held_dir / f"{today}-{slug}.json").write_text(json.dumps(dict(m, held=gate), indent=1, ensure_ascii=False))
+            continue
+        full = dict(m)
+        m = {k: v for k, v in m.items() if k not in ("sourcesOpened", "verificationNote", "factCheck", "secondCheck")}
         m.update({"id": f"live-{next_id:03d}", "addedDate": today, "source": "live"})
         if m.get("amountUsd") is None:
             m.pop("amountBasis", None)
         next_id += 1
         accepted.append(m)
+        verified_by_id[m["id"]] = (dict(full, id=m["id"], addedDate=today), verified)
         keys = [k for k in ORDER if k in m and m[k] not in ("", None) or k in ("judge", "amountUsd", "parties")]
         lines = [f"      {k}: {js_value(m.get(k), 6)}" for k in keys]
         blocks.append("    {\n" + ",\n".join(lines) + "\n    }")
@@ -126,6 +147,8 @@ def main():
     s = s[:end] + ",\n" + ",\n".join(blocks) + s[end:]
     s = re.sub(r'lastUpdatedDate: "\d{4}-\d\d-\d\d"', f'lastUpdatedDate: "{today}"', s, count=1)
     DATA.write_text(s)
+    for full, verified in verified_by_id.values():
+        record_verified(full, verified)
     sync = ROOT / ".sync"
     sync.mkdir(exist_ok=True)
     for m in accepted:

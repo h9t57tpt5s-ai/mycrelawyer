@@ -1,3 +1,5 @@
+> **2026-11-16 (Jeff): this routine no longer publishes matters.** CLAUDE.md's "Cloud routines never publish matters" rule overrides the digest prompt's Steps 2-4: queue each lead in ops/digest-leads.json instead; the local newsroom verifies and publishes. Matters added here are pulled off the site automatically.
+
 # Digest playbook
 
 The twice-daily digest routine reads this file at the start of every run and

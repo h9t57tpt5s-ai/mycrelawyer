@@ -116,6 +116,20 @@ def check_content(problems, notes):
     rejected = sorted(p.name for p in (ROOT / "ops/pending-signals/rejected").glob("*.json"))
     if rejected:
         problems.append(f"{len(rejected)} Market Signal draft(s) failed source verification and need review: {', '.join(rejected)}")
+    # The verification gate (2026-11-16): matters pulled off the site for
+    # having no verification record wait in ops/held-matters/ for review.
+    held = sorted(p.stem for p in (ROOT / "ops/held-matters").glob("*.json"))
+    if held:
+        problems.append(f"{len(held)} matter(s) held for failing the verification gate, not published: {', '.join(held)}")
+    # Monthly accuracy audit (credocket-monthly-audit task): any failure is
+    # reported until next month's audit.
+    audits = sorted((ROOT / "ops/audits").glob("*.json"))
+    if audits:
+        a = json.loads(audits[-1].read_text())
+        if a.get("failed"):
+            problems.append(f"Accuracy audit {a.get('month')}: {a['failed']} of {a.get('checked')} published matters failed an independent check (ops/audits/{audits[-1].name})")
+        else:
+            notes.append(f"Accuracy audit {a.get('month')}: all {a.get('checked')} matters passed")
     if (today - dt.date.fromisoformat(newest_added)).days > 1:
         problems.append(f"Digest routine has not added a matter since {newest_added}")
     else:
