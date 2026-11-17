@@ -172,6 +172,39 @@ reading -- don't assume it's CRE just because a financing-sounding term
 matched. If a future run finds this shape producing a real CRE matter, note
 it here so the rule can be loosened or dropped rather than silently ignored.
 
+## Opinion leads with truncated text: distinguish "unread" from "not CRE" (added 2026-11-17)
+
+ops/opinion-leads.json's `text` field is capped at 12,000 characters
+(scripts/pull_opinions.py's `MAX_TEXT`), but each lead also carries its real
+length in `textChars`. Checked today's live file: 26 of 40 leads (65%) have
+`textChars` well above 12,000 -- several over 70,000-90,000 -- so the stored
+excerpt is routinely a small fraction of the real opinion, usually cutting
+off partway through the recited facts, before the court's holding or any
+dollar figure. One concrete example: `11060925`, Holmwood Capital Advisors,
+LLC v. HC Government Realty Holdings, L.P. (Delaware Court of Chancery,
+2026-11-13) -- a genuine CRE/REIT management-fee post-trial dispute --
+is 93,294 characters; the stored text stops at 12,000 (13%). It was correctly
+skipped today rather than guessed at, but nothing in the skip record
+distinguishes "this looks CRE but the outcome is unread" from an ordinary
+"not commercial real estate" skip.
+
+So: before skipping a lead because the stored `text` doesn't show a clear
+outcome, check whether `textChars` is larger than the stored text's own
+length (truncated, not genuinely short). If it was, do one targeted
+WebSearch for the case name (plus court and year) before deciding -- a law
+firm client alert, trade-press write-up or court press release often states
+the holding and amount even when this file's own slice doesn't reach it. If
+that search finds nothing and the lead is still being skipped, say so
+plainly in the ops/leads-handled.json action text ("text truncated at N of M
+chars, no secondary coverage found") instead of a generic "no clear outcome"
+or "unclear" -- a different, narrower reason than "not commercial real
+estate" or "no new development." Recording it this way lets a future run (or
+a local/Jeff session with real CourtListener access) find every case this
+happened to, rather than it looking indistinguishable from a correctly-
+skipped non-CRE lead. scripts/pull_opinions.py's `MAX_TEXT` itself is not a
+file this routine may edit; see the self-improvement playbook's backlog for
+that part.
+
 ## How to judge a candidate
 
 - Prefer the event date (filing, ruling, settlement) within 7 days.
