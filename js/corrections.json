@@ -4,6 +4,126 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-160",
+   "subject": "57th & 6th Ground LLC v. Carnegie House Tenants Corp. (Ground-Rent Arbitration Award Vacated for Arbitrator Non-Disclosure)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: 57th & 6th Ground LLC v. Carnegie House Tenants Corp. (Ground-Rent Arbitration Award Vacated for Arbitrator Non-Disclosure)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; A residential co-op's ground-lease rent dispute; residential, so out of scope."
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-296",
+   "subject": "Rubenstein et al. v. Millrose Properties, Inc.: Investors Sue Lennar Land-Bank Spinoff Over Undisclosed Single-Family Rental Business",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Rubenstein et al. v. Millrose Properties, Inc.: Investors Sue Lennar Land-Bank Spinoff Over Undisclosed Single-Family Rental Business",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; REMOVE (out of scope): this is a securities suit about a homebuilder land-banking spinoff buying completed single-family homes from Lennar and renting them out. That is residential land and single-family housing, not commercial real estate on its face. propertyType 'Multifamily' is wrong: the homes "
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-324",
+   "caseId": "live-324",
+   "subject": "Lot 2 SBO, LLC v. Twitter, Inc. n/k/a X Corp.: Colorado Appeals Court Reverses $8.2M Boulder Office Rent Judgment Over Tenant-Improvement Rent Credit",
+   "kind": "Corrected: description",
+   "was": "judge: Nancy W. Salomone (for the appellate ruling)",
+   "now": "Karl Schock, author of the Court of Appeals opinion; Salomone was the trial judge",
+   "basis": "Checked against the source article: Courthouse News, Oct. 22, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-211",
+   "caseId": "live-211",
+   "subject": "Criterion Real Estate Capital Affiliate Files Foreclosure Notice Against Judiciary Plaza LLC (450 Fifth St. NW, Washington, D.C.)",
+   "kind": "Corrected: description",
+   "was": "derailing a residential conversion ... That conversion plan has reportedly been shelved | former Department of Justice building; Clark Enterprises affiliate owner of record; Prudential sold the note in December 2022; substitute trustee appointed 2023; Commission of Fine Arts approval in 2025",
+   "now": "the building is described as slated for conversion into 500 residential units; nothing says the plan was shelved | removed; not in the source",
+   "basis": "Checked against the source article: Connect CRE, Return to Lender: Week of Oct. 1, 2026, citing the Washington Business Journal | Connect CRE"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-008",
+   "caseId": "live-008",
+   "subject": "CommunityAmerica Federal Credit Union v. Metropoint 300/400 Owners (St. Louis Park Office Foreclosure)",
+   "kind": "Corrected: description",
+   "was": "after the 918,000-square-foot campus lost anchor tenant Wells Fargo, which had occupied more than half the complex | One of several office foreclosure actions ... including a $417.7M foreclosure on Boca Raton's Mandarin Oriental Residences",
+   "now": "removed; the source does not mention Wells Fargo, the campus size or a reason for the default | removed; the Mandarin Oriental item in the same roundup is a partially completed residences project, not an office foreclosure",
+   "basis": "Checked against the source article: Connect CRE, Return to Lender: Week of July 23, 2026, citing the Minneapolis/St. Paul Business Journal | Connect CRE"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-026",
+   "caseId": "live-026",
+   "subject": "Acres Loan Origination LLC v. DMG Investments Affiliate (Auden Buffalo Student Housing Foreclosure)",
+   "kind": "Corrected: description",
+   "was": "Air Buffalo, a 154-unit luxury apartment building roughly a mile away ... over an approximately $18 million loan that likewise matured in January 2024 | 154-unit, 481-bed property near the University at Buffalo's North Campus; DMG portfolio exceeding $700 million | no receiver yet appointed in either case ... Neither filing has drawn a public response from DMG Investments",
+   "now": "Air Buffalo apartment building at 1265 Sweet Home Rd.; the source gives no unit count, loan amount or maturity date | removed; not in the source | removed; the source says nothing about receivers or a DMG response",
+   "basis": "Checked against the source article: Connect CRE, Return to Lender: Week of August 13, 2026, citing Buffalo Business First | Connect CRE | Connect CRE"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-390",
+   "caseId": "live-390",
+   "subject": "Goldman-Affiliated CMBS Trust Takes Pittsburgh's Chamber of Commerce Building at No-Bid Foreclosure Sale",
+   "kind": "Corrected: description",
+   "was": "roughly 16-story, roughly 269-foot tower; ENERGY STAR certification; longtime law-firm tenant; listing data showing large vacant blocks; built for Pittsburgh's chamber of commerce | $1.4 million credit bid",
+   "now": "removed; the source describes a 1900-vintage redbrick office tower covering much of a block | $1.4 million opening bid",
+   "basis": "Checked against the source article: Connect CRE, Return to Lender: Week of Nov. 5, 2026, citing the Pittsburgh Business Times | Connect CRE (the source calls it an opening bid)"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-100",
+   "caseId": "live-100",
+   "subject": "Deutsche Bank (CMBS Trustee) Foreclosure on Minneapolis's Foshay Tower, Home of the W Minneapolis",
+   "kind": "Corrected: date, description, party",
+   "was": "Morningstar reporting that receivership appears likely in the near term | Ashford Hospitality Trust bought the property ... for $187 million in 2015, then relinquished ... in 2020; Keys Cafe closed; owner marketing the hotel for six months | WMN Foshay LP (defendant/owner) | filed suit ... in early-to-mid April 2026 (date 2026-04-14) | judge ruled in late August 2026",
+   "now": "removed; in the Connect CRE roundup that Morningstar comment concerns a different property (Plaza America in Reston, Va.) | removed; not in the sources | the tower's owner (entity name not given in the sources) | suit reported April 2026; matter date is the August 25, 2026 ruling | August 25, 2026",
+   "basis": "Checked against the source article: Connect CRE, Return to Lender: Week of Nov. 5, 2026 | Connect CRE; Weekly Real Estate News, Apr. 15, 2026 | Connect CRE; Weekly Real Estate News | Weekly Real Estate News, Apr. 15, 2026; Connect CRE | Connect CRE, citing the Minneapolis/St. Paul Business Journal"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-036",
+   "caseId": "live-036",
+   "subject": "Wilmington Trust v. Rubenstein Partners (312 Elm Street Office Tower Foreclosure, Cincinnati)",
+   "kind": "Corrected: date, description, figure",
+   "was": "filed suit on June 7, 2026 ... answer August 12, 2026 | receiver took over the property last month (July 2026) | status pending; 'positioning the case for a comparatively fast path to judgment' | the Plum Street matter, filed a year and a half earlier | Rubenstein owes more than $16 million on an original $18.4 million loan | a smaller, 12-story tower ... that the Cincinnati Enquirer occupied as its headquarters; fifth downtown high-rise office building to face foreclosure",
+   "now": "June 7, 2024 and August 12, 2024 | Judge Lisa Allen appointed the receiver July 30, 2024 | foreclosure cases over both towers resolved; towers listed for a June 17, 2026 sheriff's auction | the Plum Street suit was filed December 30, 2024, about six months after the Elm Street suit | $16.2 million on an $18.4 million loan | removed; not in the sources",
+   "basis": "Checked against the source article: Cincinnati Business Courier article (Sept. 15, 2024) republished on the Colliers sourceUrl | Cincinnati Business Courier via Colliers | Cincinnati Business Courier via Local 12, May 20, 2026 | Cincinnati Business Courier (Jan. 2025, republished by OMEGA CRE blog); Colliers | Cincinnati Business Courier (Jan. 2025) | Cincinnati Business Courier reports checked"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-015",
+   "caseId": "live-015",
+   "subject": "Monarch Communities, LLC v. Township of Montville (Inherently Beneficial Use-Variance Standard Revised)",
+   "kind": "Corrected: description",
+   "was": "on an eight-acre residentially zoned parcel, citing density, drainage, traffic, and zoning-plan concerns",
+   "now": "on residentially zoned property; the board found it conflicted with the zoning plan and would have significant negative impacts",
+   "basis": "Checked against the source article: New Jersey Globe, July 13, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-143",
+   "caseId": "live-143",
+   "subject": "Park Social Winter Park Staircase Fall: $644.7M Jury Verdict Against Soho WP and BE-1 Concept Holdings",
+   "kind": "Corrected: date, description",
+   "was": "November 25, 2017 incident | a second, safer staircase existed elsewhere in the building but had been restricted to employees only until the day after the fall | The jury's award, returned on March 12, 2026 | landlords ... both the property-owning entity and the bar's operating entity were named and held liable | among the largest premises-liability verdicts ever recorded in the United States | a 1926-era mixed-use building on Winter Park's Park Avenue corridor",
+   "now": "November 2017 | removed; the plaintiff's firm said the stairs were too narrow and steep, had no grip tape and had inadequate handrails | verdict reported March 12, 2026; the verdict date was not given | Soho WP and BE-1 Concept Holdings owned and operated the bar; the source does not identify a landlord | removed; not in the source | the second story of a building built in 1926",
+   "basis": "Checked against the source article: WKMG ClickOrlando, Mar. 12, 2026 (no day given) | WKMG ClickOrlando | WKMG ClickOrlando | WKMG ClickOrlando | WKMG ClickOrlando | WKMG ClickOrlando"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-321",
+   "caseId": "live-321",
+   "subject": "Alecko Lending v. Conlon (Judgment Over Chicago's Former Rainforest Cafe Building)",
+   "kind": "Corrected: date, description, figure, party",
+   "was": "ordered ... to pay more than $10 million | lender Alecko Capital | Conlon, who personally guaranteed an $8.3 million loan ... sued ... to enforce Conlon's personal guaranty | closes out roughly a year of litigation | Conlon has said publicly that he intends to pay the judgment and to retain ownership of the building | cannabis plan collapsed after Illinois's buffer-zone rules barring a dispensary within 1,500 feet | A venture led by Conlon had bought the property in 2015 for about $13.7 million",
+   "now": "ordered to pay $11,508,950 plus legal fees (Crain's headline: $10 million) | Alecko Lending | breach-of-contract suit alleging Conlon failed to repay an $8.3 million bridge loan; no guaranty is mentioned | a separate Alecko foreclosure suit over the property is still pending | removed; his reported comments (Nov. 2025) were that the foreclosure suit was premature and he planned to repay from a refinancing | plans dropped after lawsuits sought to block the dispensary and the tenant backed out amid neighborhood opposition; site was too close to other dispensaries under state law | 2015 for more than $13 million (Sun-Times, property records); The Real Deal reports $13.7 million in 2013",
+   "basis": "Checked against the source article: Chicago Sun-Times, Oct. 21, 2026 | Chicago Sun-Times; The Real Deal (Alecko Lending is the plaintiff; Alecko Capital is the founder's firm name in the photo caption) | Chicago Sun-Times | Chicago Sun-Times | The Real Deal, Nov. 11, 2025; no comment reported after the judgment | Chicago Sun-Times; The Real Deal | Chicago Sun-Times; The Real Deal"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-305",
    "caseId": "live-305",
    "subject": "Quinlan Development Group v. Maple 1 Farley Owner LLC (Penn Plaza Life-Sciences Site Foreclosure)",

@@ -346,11 +346,11 @@ const RELAW_DATA = {
     {
       id: "live-008",
       seoTitle: "Metropoint 300 & 400, St. Louis Park: $46M Foreclosure Suits",
-      seoDescription: "CommunityAmerica Credit Union sued to foreclose the Metropoint 300 and 400 office campus in St. Louis Park, MN, seeking about $46M after Wells Fargo left.",
+      seoDescription: "CommunityAmerica Federal Credit Union sued to foreclose on the Metropoint 300 and 400 office buildings in St. Louis Park, MN, seeking about $46M in loans.",
       property: {"name": "Metropoint 300 and Metropoint 400", "city": "St. Louis Park", "state": "MN"},
       addedDate: "2026-08-05",
       title: "CommunityAmerica Federal Credit Union v. Metropoint 300/400 Owners (St. Louis Park Office Foreclosure)",
-      brief: "CommunityAmerica Federal Credit Union filed two foreclosure suits seeking roughly $46M on the Metropoint 300 and 400 office buildings in St. Louis Park, Minnesota after anchor Wells Fargo left.",
+      brief: "CommunityAmerica Federal Credit Union filed two foreclosure suits seeking roughly $46 million in loans tied to the Metropoint 300 and 400 office buildings in St. Louis Park, Minnesota.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-07-23",
@@ -365,18 +365,17 @@ const RELAW_DATA = {
       amount: "$46M combined loan balance (two foreclosure suits)",
       source: "live",
       sourceUrl: "https://www.connectcre.com/stories/return-to-lender-week-of-july-23-2026/",
-      summary: "CommunityAmerica Federal Credit Union filed two foreclosure lawsuits in Hennepin County District Court against the owners of the Metropoint 300 and Metropoint 400 office buildings in St. Louis Park, Minnesota, seeking to recover roughly $46M after the 918,000-square-foot campus lost anchor tenant Wells Fargo, which had occupied more than half the complex. Both buildings are now scheduled for a foreclosure auction in September 2026.",
-      significance: "One of several office foreclosure actions filed nationally this summer (alongside a $417.7M foreclosure on Boca Raton's Mandarin Oriental Residences and a court-ordered receivership over San Francisco's Central Tower) signaling lenders are moving from forbearance to litigation more quickly as anchor-tenant departures and depressed appraisals erode office collateral value. Owners with looming lease rollovers near loan maturity should treat these filings as an early-warning benchmark for lender posture.",
+      summary: "CommunityAmerica Federal Credit Union filed two lawsuits in Hennepin County District Court against the owners of the Metropoint 300 building at 300 Highway 169 S. and the Metropoint 400 building at 400 Highway 169 S. in St. Louis Park, Minnesota, seeking to recover roughly $46 million in loans tied to the properties, the Minneapolis/St. Paul Business Journal reported, according to Connect CRE. Both buildings were scheduled to be sold at a foreclosure auction in September 2026.",
+      significance: "The suits put two buildings in the Metropoint business park on track for a lender-driven sale, with a credit union as the lender seeking to recover about $46 million. Both buildings were set for auction within about two months of the report.",
       body: [
-        "CommunityAmerica Federal Credit Union filed two separate foreclosure suits in Hennepin County District Court against the ownership of Metropoint 300 and Metropoint 400, a combined 918,000-square-foot office campus in St. Louis Park, Minnesota, seeking to recover roughly $46M across the two loans.",
-        "The filings follow the departure of Wells Fargo, which had occupied more than half the campus as its anchor tenant. With that space vacated, the properties' income and appraised value fell enough to push the loans into default, and both buildings are now scheduled for a foreclosure auction in September 2026.",
-        "The case lands alongside a wave of other office foreclosure actions filed nationally this summer, including a $417.7M foreclosure on Boca Raton's Mandarin Oriental Residences and a court-ordered receivership over San Francisco's Central Tower — a pattern suggesting lenders are moving from forbearance to litigation more quickly as anchor-tenant departures and depressed appraisals continue to erode office collateral value. Owners with lease rollovers approaching loan maturity should read these filings as an early signal of where lender patience is running out."
+        "CommunityAmerica Federal Credit Union filed two lawsuits in Hennepin County District Court against the owners of two office buildings in the Metropoint business park in St. Louis Park, Minnesota, the Minneapolis/St. Paul Business Journal reported, according to Connect CRE's July 23, 2026 roundup. The buildings are Metropoint 300, at 300 Highway 169 S., and Metropoint 400, at 400 Highway 169 S. The credit union is seeking to recover roughly $46 million in loans tied to the properties.",
+        "Both buildings were scheduled to be sold at a foreclosure auction in September 2026. The report did not name the owners or say why the loans went into default."
       ],
       timeline: [
-        { when: "July 23, 2026", label: "CommunityAmerica Federal Credit Union files two foreclosure suits after anchor tenant Wells Fargo departs",  current: true },
-        { when: "September 2026", label: "Both buildings scheduled for foreclosure auction",  upcoming: true }
+        { when: "By July 2026", label: "CommunityAmerica Federal Credit Union files two foreclosure suits in Hennepin County District Court" },
+        { when: "September 2026", label: "Both buildings scheduled for a foreclosure auction", current: true }
       ],
-      tags: ["foreclosure", "office", "anchor tenant", "credit union", "minnesota"]
+      tags: ["foreclosure", "office", "credit union", "minnesota", "st-louis-park"]
     },
     {
       id: "live-009",
@@ -559,29 +558,28 @@ const RELAW_DATA = {
       date: "2026-07-13",
       jurisdiction: "Supreme Court of New Jersey",
       parties: [
-        { name: "Monarch Communities, LLC", role: "Plaintiff" },
-        { name: "JMC Investments, LLC", role: "Plaintiff-Respondent" },
+        { name: "Monarch Communities, LLC", role: "Applicant/Developer" },
         { name: "Township of Montville", role: "Defendant" },
-        { name: "Mayor and Council of the Township of Montville", role: "Defendant" },
-        { name: "Township of Montville Zoning Board of Adjustment", role: "Defendant-Appellant" }
+        { name: "Township of Montville Zoning Board of Adjustment", role: "Defendant" }
       ],
       amountUsd: null,
       judge: "Anne M. Patterson",
       state: "NJ",
-      amount: "165-unit senior living facility; ~8-acre site",
+      amount: "165-unit senior living facility",
       source: "live",
       sourceUrl: "https://www.coleschotz.com/the-new-jersey-supreme-court-modifies-the-long-standing-test-for-inherently-beneficial-use-variances/",
-      summary: "In a unanimous ruling, the New Jersey Supreme Court revised the 1992 Sica four-step test for 'inherently beneficial use' variances, holding that applicants must first affirmatively prove a proposed variance will not substantially impair the municipality's zone plan and zoning ordinance before any balancing of public benefit against detriment occurs. The Court reversed the Appellate Division, which had sided with developer Monarch Communities after Montville Township's zoning board denied a variance for a 165-unit senior living facility, and remanded for reconsideration under the new standard.",
-      significance: "Raises the evidentiary bar for developers of hospitals, senior housing, schools, child care centers, group homes, and renewable-energy facilities statewide, since establishing that a use is 'inherently beneficial' no longer functions as a near-automatic path past local zoning objections. Developers with pending or recently denied New Jersey use-variance applications for such uses should reassess strategy now, and should expect to need robust expert planning testimony reconciling proposed projects with local master plans.",
+      summary: "In a unanimous July 13, 2026 opinion by Justice Anne M. Patterson, the New Jersey Supreme Court modified the 1992 Sica test for 'inherently beneficial use' variances, the New Jersey Globe reported. Zoning boards must now first decide whether the applicant has shown the variance would not substantially impair the intent and purpose of the zone plan and zoning ordinance, and must deny it if that showing is not made, before any weighing of benefits and detriments. The Court reversed the Appellate Division, which had sided with developer Monarch Communities after Montville Township's zoning board denied a variance for a 165-unit senior living facility, and sent the case back to the board.",
+      significance: "The ruling makes inherently beneficial use variances for senior housing, hospitals, schools and child care centers in New Jersey harder to win, because the public value of the use no longer carries the application on its own. Applicants will need evidence on how the project fits the municipality's master plan and zoning ordinance, which a law-firm summary of the decision said will typically mean expert planning testimony.",
       body: [
-        "The New Jersey Supreme Court's unanimous decision in Monarch Communities, LLC v. Township of Montville revises the three-decade-old Sica framework governing use variances for 'inherently beneficial uses' — a category spanning hospitals, schools, child care centers, group homes, senior housing, and renewable-energy facilities under the state's Municipal Land Use Law.",
-        "The case arose after Montville's zoning board denied a variance for Monarch's proposed 165-unit senior living facility on an eight-acre residentially zoned parcel, citing density, drainage, traffic, and zoning-plan concerns. Both the trial court and Appellate Division had reversed the board in the developer's favor, but the Supreme Court reversed again, holding that Sica's traditional four-step balancing test never adequately incorporated a 1997 statutory amendment requiring applicants to also prove a variance would not substantially impair the municipality's zone plan and ordinance.",
-        "Under the revised standard, that showing is now a threshold requirement: if an applicant cannot first demonstrate the variance won't substantially impair the zoning plan, the board never reaches the traditional balancing of public benefit against detriment. The Court remanded the case to Montville's zoning board for reconsideration under the new framework."
+        "The New Jersey Supreme Court on July 13, 2026 unanimously modified the test, set in its 1992 decision in Sica v. Board of Adjustment of Wall, that governs use variances for 'inherently beneficial' uses such as hospitals, senior housing, schools and child care centers, the New Jersey Globe reported. Justice Anne M. Patterson wrote for the Court.",
+        "The case arose from Monarch Communities' proposal for a 165-unit senior living facility on residentially zoned property in Montville Township. Senior housing is an inherently beneficial use under state law, but the township's zoning board denied the application, finding that it conflicted with the zoning plan and would have significant negative impacts, according to the Globe. The trial court and the Appellate Division both reversed the board.",
+        "The Court held that Sica no longer fully reflects a 1997 amendment to the Municipal Land Use Law that requires inherently beneficial use applicants to satisfy both of the statute's 'negative criteria.' Under the revised fourth step, a board must first decide whether the applicant has shown that the variance would not substantially impair the intent and purpose of the zone plan and zoning ordinance; if not, the variance must be denied before any balancing of public benefits against detriments. These applicants remain exempt from the heightened Medici proof standard that applies to ordinary use variances. The Court reversed the Appellate Division and remanded to the zoning board to reconsider under the new standard, expressing no view on whether the project should be approved."
       ],
       timeline: [
-        { when: "Zoning board hearing", label: "Montville Zoning Board denies Monarch's variance application for a 165-unit senior living facility" },
-        { when: "Prior proceedings", label: "Trial court and Appellate Division both reverse the board in the developer's favor" },
-        { when: "July 13, 2026", label: "NJ Supreme Court reverses the Appellate Division and adopts a revised Sica standard",  current: true }
+        { when: "Earlier proceedings", label: "Montville's zoning board denies Monarch's use variance for a 165-unit senior living facility; the trial court and Appellate Division reverse the board" },
+        { when: "June 16, 2025", label: "New Jersey Supreme Court grants certification" },
+        { when: "November 18, 2025", label: "New Jersey Supreme Court hears argument" },
+        { when: "July 13, 2026", label: "NJ Supreme Court reverses the Appellate Division, modifies the Sica test and remands to the zoning board", current: true }
       ],
       documentUrl: "https://www.njcourts.gov/system/files/court-opinions/2026/a_70_24.pdf",
       documentLabel: "Read the official opinion",
@@ -830,7 +828,7 @@ const RELAW_DATA = {
       property: {"name": "Auden Buffalo", "address": "2915-2949 N. Forest Road", "city": "Amherst", "state": "NY"},
       addedDate: "2026-08-17",
       title: "Acres Loan Origination LLC v. DMG Investments Affiliate (Auden Buffalo Student Housing Foreclosure)",
-      brief: "Acres Loan Origination sued to foreclose on the Auden Buffalo student housing community in Amherst, where $32.5 million in construction loans to a DMG Investments affiliate matured unpaid.",
+      brief: "Acres Loan Origination sued to foreclose on the Auden Buffalo student housing community in Amherst, NY, alleging $32.5 million in 2021 construction loans to a DMG Investments affiliate matured unpaid.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-08-13",
@@ -842,23 +840,22 @@ const RELAW_DATA = {
       amountUsd: 32500000,
       amountBasis: "loan",
       state: "NY",
-      amount: "$32.5M construction loan (Auden Buffalo); ~$18M loan at issue in the related Air Buffalo foreclosure",
+      amount: "$32.5M in construction loans (Auden Buffalo)",
       source: "live",
       sourceUrl: "https://www.connectcre.com/stories/return-to-lender-week-of-august-13-2026/",
-      summary: "Acres Loan Origination LLC, an affiliate of commercial mortgage lender Acres Capital, filed a foreclosure complaint in New York state Supreme Court against the Auden Buffalo student housing community at 2915-2949 N. Forest Road in Amherst, alleging that two construction loans totaling $32.5 million made in early 2021 to an affiliate of developer DMG Investments matured in January 2024 with the entire principal still unpaid. The filing came within days of a separate foreclosure action against another DMG affiliate, Air Buffalo, a 154-unit luxury apartment building roughly a mile away on Sweet Home Road, brought by a lender group represented by Deutsche Bank National Trust Co. over an approximately $18 million loan that likewise matured unpaid in January 2024.",
-      significance: "Two unrelated lender groups moving against the same New York City-based sponsor's Buffalo-area portfolio within days of each other signals that a single developer's post-maturity refinancing gap can cascade across multiple, separately financed assets rather than staying contained to one property. For construction and bridge lenders on purpose-built student and multifamily housing near university markets, the matters underscore the value of monitoring a sponsor's full regional loan book — not just the collateral securing any one loan — once a maturity default surfaces on a related asset.",
+      summary: "Acres Loan Origination LLC, an affiliate of commercial mortgage lender Acres Capital, filed a foreclosure complaint in New York state Supreme Court against the Auden Buffalo student housing community at 2915-2949 N. Forest Road in Amherst, Buffalo Business First reported, according to Connect CRE's August 13, 2026 roundup. Acres says it made two loans totaling $32.5 million in early 2021 to build the property, and that the loan matured in January 2024 with the entire principal unpaid. The defendant is an affiliate of New York City developer DMG Investments, which days earlier faced a separate foreclosure filing by a lender group represented by Deutsche Bank National Trust Co. over the Air Buffalo apartment building at 1265 Sweet Home Rd., also owned by a DMG affiliate.",
+      significance: "The Auden Buffalo complaint is the second foreclosure action within days against a DMG affiliate's Amherst apartment property, brought by a different lender. Acres describes a maturity default: construction debt that came due in January 2024 and, it says, remained entirely unpaid.",
       body: [
-        "In mid-August, commercial mortgage lender Acres Capital, through its affiliate Acres Loan Origination LLC, filed a foreclosure complaint in New York state Supreme Court against the Auden Buffalo student housing community at 2915–2949 North Forest Road in Amherst, New York. The complaint alleges that two construction loans totaling $32.5 million, originated in early 2021 to fund the 154-unit, 481-bed property near the University at Buffalo's North Campus, matured in January 2024 with the entire principal balance still outstanding. The borrower is an affiliate of DMG Investments, a New York City-based real estate investment and development firm with a national student-housing and multifamily portfolio exceeding $700 million in assets under management.",
-        "The Auden Buffalo filing did not arrive in isolation. Days earlier, a separate lender group represented by Deutsche Bank National Trust Co. initiated its own foreclosure action against another DMG affiliate — Air Buffalo, a 154-unit luxury apartment building roughly a mile away on Sweet Home Road — over an approximately $18 million loan that likewise matured in January 2024 without repayment. Two different lenders, two different loans, two different properties, and yet the same underlying pattern: a maturity default that sat unresolved for more than eighteen months before crystallizing into litigation within the same week.",
-        "For general counsel and asset managers tracking construction and bridge lending in secondary university markets, the near-simultaneous timing is the real story. Neither foreclosure appears to be procedurally linked to the other — different lender groups, different note structures, different case captions. What connects them is the sponsor's broader balance sheet. When a single developer carries multiple maturing, unrefinanced loans across a regional portfolio, a workout or forbearance failure on one asset often coincides with — or triggers renewed scrutiny of — the others, even where the loans themselves have no cross-default provisions tying them together contractually.",
-        "That dynamic matters because student housing and purpose-built multifamily properties financed with short-term construction debt have been especially exposed in the post-2022 rate environment. A construction loan underwritten in 2021, when refinancing into permanent debt at maturity was a routine assumption, can look very different at a 2024 maturity date if take-out financing has become materially more expensive or simply unavailable on acceptable terms. Both Auden Buffalo and Air Buffalo appear to illustrate exactly that gap: loans that matured on schedule in January 2024 but were never resolved, leaving lenders to wait roughly a year and a half before moving to enforce.",
-        "Both matters remain at the complaint stage, with no receiver yet appointed in either case as of this writing, though foreclosure filings on income-producing multifamily and student housing assets typically include a request for the appointment of a receiver to preserve rent collections and property operations pending resolution. Erie County Supreme Court is the forum for the Auden Buffalo action; the Air Buffalo complaint proceeds through the same New York state court system. Neither filing has drawn a public response from DMG Investments. For counsel evaluating a workout, forbearance, or acquisition involving a multi-property sponsor, the pairing is a diligence signal: a borrower's other regional financings — even where no cross-default clause exists — are a meaningful leading indicator of enforcement risk on a lender's own collateral once one loan in the portfolio goes into workout."
+        "Acres Loan Origination LLC, an affiliate of commercial mortgage lender Acres Capital, has filed a foreclosure complaint in New York state Supreme Court against the Auden Buffalo student housing community at 2915-2949 N. Forest Road in Amherst, Buffalo Business First reported, according to Connect CRE's roundup for the week of August 13, 2026. The defendant is an affiliate of DMG Investments, a New York City real estate developer.",
+        "In the complaint, Acres says it made two loans totaling $32.5 million in early 2021 to finance construction of Auden Buffalo, and that the loan matured in January 2024 with all of the principal still unpaid.",
+        "The filing came days after a group of lenders represented by Deutsche Bank National Trust Co. began foreclosure proceedings against Air Buffalo, an apartment building at 1265 Sweet Home Rd. that is also owned by a DMG affiliate, according to the same report. Connect CRE's summary did not include a response from DMG."
       ],
       tags: ["foreclosure", "construction loan", "student housing", "multifamily", "loan maturity default"],
       timeline: [
-        { when: "Early 2021", label: "Acres Capital affiliate originates $32.5M in construction loans for Auden Buffalo" },
-        { when: "January 2024", label: "Auden Buffalo and Air Buffalo loans both mature with full principal unpaid" },
-        { when: "August 2026", label: "Acres Loan Origination LLC files a foreclosure complaint against the Auden Buffalo sponsor, days after a Deutsche Bank-represented lender group sued to foreclose on the sponsor's nearby Air Buffalo property", current: true }
+        { when: "Early 2021", label: "Acres makes two construction loans totaling $32.5M for Auden Buffalo" },
+        { when: "January 2024", label: "The loan matures with the entire principal unpaid, according to Acres' complaint" },
+        { when: "August 2026", label: "A lender group represented by Deutsche Bank National Trust Co. starts foreclosure proceedings against DMG affiliate's Air Buffalo apartment building" },
+        { when: "August 2026", label: "Acres Loan Origination LLC files a foreclosure complaint against Auden Buffalo", current: true }
       ]
     },
     {
@@ -1039,45 +1036,45 @@ const RELAW_DATA = {
     },
     {
       id: "live-036",
-      seoTitle: "312 Elm Street Cincinnati: Rubenstein Admits Loan Default",
-      seoDescription: "Rubenstein Partners admitted defaulting on the $46.1M mortgage on 312 Elm Street, a Cincinnati office tower, in Wilmington Trust's $39.6M foreclosure.",
+      seoTitle: "312 Elm Street Cincinnati: Wilmington Trust Office Foreclosure",
+      seoDescription: "Wilmington Trust sued Rubenstein Partners in 2024 to foreclose on Cincinnati's 312 Elm St. tower, seeking $39.6M; it was set for a 2026 sheriff's sale.",
       property: {"address": "312 Elm Street", "city": "Cincinnati", "state": "OH"},
       addedDate: "2026-08-22",
-      title: "Wilmington Trust National Association v. Rubenstein Partners (312 Elm Street Office Tower Foreclosure)",
-      brief: "Rubenstein Partners admitted defaulting on the $46.1M mortgage on 312 Elm Street, a 26-story Cincinnati office tower, in Wilmington Trust's foreclosure seeking $39.6M; a receiver now runs the building.",
+      title: "Wilmington Trust v. Rubenstein Partners (312 Elm Street Office Tower Foreclosure, Cincinnati)",
+      brief: "Rubenstein Partners admitted defaulting on the $46.1M note on 312 Elm St., a Cincinnati office tower, in Wilmington Trust's 2024 foreclosure; the tower was later set for a June 2026 sheriff's sale.",
       category: "lending-foreclosure",
-      status: "pending",
-      date: "2026-08-12",
+      status: "ruling",
+      date: "2024-08-12",
       jurisdiction: "Hamilton County Court of Common Pleas, Ohio",
       parties: [
         { name: "Wilmington Trust", role: "Plaintiff/Lender" },
         { name: "Rubenstein Partners", role: "Defendant/Borrower" }
       ],
-      judge: null,
+      judge: "Lisa Allen",
       amountUsd: 39600000,
       amountBasis: "loan",
       state: "OH",
-      amount: "$39.6M sought on 312 Elm St.; companion suit seeks $16M+ on 312 Plum St.'s $18.4M loan",
+      amount: "$39.6M sought on 312 Elm St.'s $46.1M note; companion suit sought $16.2M on 312 Plum St.'s $18.4M loan",
       source: "live",
       sourceUrl: "https://www.colliers.com/en/news/cincinnati/receiver-appointed-for-prominent-downtown-office-building-facing-foreclosure",
-      summary: "Philadelphia-based Rubenstein Partners admitted in an August 12, 2026 answer that it defaulted on the $46.1M mortgage securing 312 Elm Street, a 26-story downtown Cincinnati office tower, after lender Wilmington Trust National Association sued to foreclose on June 7 seeking $39.6M. A court-appointed receiver, Paul Plattner of Colliers Real Estate Management Services, took over the property last month — the third downtown Cincinnati office building to enter receivership this cycle. The same lender sued the same sponsor over a second tower it acquired in the identical 2015 transaction, 312 Plum Street, in December 2024.",
-      significance: "Two related foreclosures against the same sponsor by the same lender, both admitted or well advanced, signal structural rather than asset-specific distress and typically move faster to judgment and sheriff's sale than a single isolated default. Owners, lenders, and receivers tracking CBD office distress should treat concentrated multi-loan defaults by one sponsor, and receivership appointments generally, as leading indicators of which buildings are headed for a lender-driven sale rather than a workout.",
+      summary: "Wilmington Trust sued Philadelphia-based Rubenstein Partners on June 7, 2024 to foreclose on the 312 Elm St. office tower in downtown Cincinnati, claiming $39.6 million in principal, interest, late charges and fees on a $46.1 million note from 2015, the Cincinnati Business Courier reported. Rubenstein's August 12, 2024 answer admitted every allegation, including the default, after Hamilton County Common Pleas Judge Lisa Allen appointed a Colliers executive as receiver on July 30, 2024. In May 2026 the Business Courier reported that the foreclosure cases over 312 Elm and Rubenstein's nearby 312 Plum St. tower were resolved and both buildings were listed for a sheriff's auction starting June 17, 2026.",
+      significance: "The Elm Street case moved from filing to a court-appointed receiver and an admitted default in about two months, and the same lender later sued the same owner over a second tower bought the same day in 2015. The Business Courier said the sheriff's sales would likely see both buildings revert to their lenders.",
       body: [
-        "Philadelphia-based real estate investment firm Rubenstein Partners has admitted, in an August 12, 2026 answer filed in the Hamilton County Court of Common Pleas, that it defaulted on the $46.1 million mortgage loan secured by 312 Elm Street, a 26-story, 378,000-square-foot office tower in downtown Cincinnati. The admission comes just over two months after lender Wilmington Trust National Association, a Delaware-based affiliate of M&T Bank Corp., filed suit on June 7, 2026 seeking to foreclose and recover $39.6 million in outstanding principal, interest, late charges, and fees. It is the second time in under two years that the same lender has sued the same sponsor over a Cincinnati office tower acquired in the same 2015 transaction, deepening a foreclosure wave that has now touched five downtown high-rises.",
-        "The 312 Elm Street tower, completed in 1992 and ranked as downtown Cincinnati's 15th-largest office building, is roughly 45.7% occupied. A court-appointed receiver, Paul Plattner of Colliers Real Estate Management Services, took over day-to-day management of the property last month, making 312 Elm the third downtown Cincinnati office building to pass into receivership this cycle, joining the historic Netherland Plaza Hotel and the tower at 600 Vine Street.",
-        "The Elm Street case does not stand alone. Wilmington Trust, holding a separate note originated the same year, sued Rubenstein Partners in the same Hamilton County court on December 30, 2024 over 312 Plum Street, a smaller, 12-story tower a block away that the Cincinnati Enquirer occupied as its headquarters until relocating to Plum Street itself in February 2023. That suit alleges Rubenstein owes more than $16 million on an original $18.4 million loan and separately claims the ownership entity fell delinquent on payments to vendors servicing the property. Rubenstein acquired both buildings in a single 2015 transaction, financed the purchases with loans that ultimately landed in the same lender's hands, and now faces materially identical default allegations on both.",
-        "Litigating two related foreclosures against the same sponsor in the same courthouse offers a lender procedural efficiencies, but it also signals something more significant to the market: a single sponsor relationship generating cascading defaults across a concentrated local portfolio, often a leading indicator that the borrower's distress is structural rather than tied to any one building's performance. Rubenstein's unqualified admission in its Elm Street answer, acknowledging every allegation including the default itself, forecloses factual disputes and narrows the litigation to remedy, positioning the case for a comparatively fast path to judgment and eventual sheriff's sale — a trajectory the Plum Street matter, filed a year and a half earlier, is already further along.",
-        "The Cincinnati towers are not an isolated episode. Local commercial real estate reporting has tallied 312 Elm as the fifth downtown high-rise office building to face a foreclosure action in the current cycle, part of a broader pattern of special servicers and institutional lenders moving from forbearance to litigation more quickly as anchor-tenant departures, elevated debt costs, and depressed appraisals continue to erode office collateral values.",
-        "Owners and lenders should treat parallel defaults by a single sponsor across multiple, otherwise-unrelated loans as a structural distress signal warranting portfolio-level diligence rather than asset-by-asset triage. Sponsors weighing whether to contest or concede a foreclosure complaint should recognize that an unqualified admission, as Rubenstein filed here, accelerates the case toward judgment and receivership and forecloses later factual defenses, so the decision merits the same scrutiny as a settlement — and market participants tracking CBD office distress would do well to watch receivership appointments as an early, increasingly reliable signal of which buildings are headed for a lender-driven sale rather than a negotiated workout."
+        "Wilmington Trust, a Delaware-based affiliate of M&T Bank Corp., sued Philadelphia-based Rubenstein Partners on June 7, 2024 in the Hamilton County Court of Common Pleas to foreclose on the office tower at 312 Elm St. in downtown Cincinnati, the Cincinnati Business Courier reported in an article republished by Colliers. The complaint said Rubenstein owed $39.6 million in principal, interest, late charges and fees on a $46.1 million note executed in 2015, when Rubenstein bought the building. In an answer filed August 12, 2024, Rubenstein admitted each of the allegations, including that it had defaulted.",
+        "Judge Lisa Allen appointed a managing director of Colliers Real Estate Management Services as receiver on July 30, 2024, with authority to collect rents, lease vacant space with the lender's consent and, with court approval, sell the building. The Business Courier said 312 Elm was the third office building in Cincinnati's central business district to go into receivership; the Netherland Plaza Hotel and the tower at 600 Vine St. were also in receivership. The tower, completed in 1992, has more than 378,000 square feet and was about 45.7% occupied.",
+        "On December 30, 2024, Wilmington Trust filed a similar foreclosure suit against Rubenstein over 312 Plum St., a nearby office tower that Rubenstein bought in a deal that closed the same day as its 312 Elm purchase, the Business Courier reported. That complaint alleged Rubenstein owed $16.2 million on an $18.4 million mortgage loan and was delinquent on debts to vendors, and said the lender terminated a June 2024 discounted payoff agreement in October 2024 after Rubenstein allegedly failed to comply with it.",
+        "In May 2026, the Business Courier reported that the foreclosure cases over both towers were resolved and that the 26-story 312 Elm tower and the 312 Plum tower were listed for an online Hamilton County sheriff's auction starting June 17, 2026, a process it said would likely see them revert to their lenders."
       ],
       timeline: [
-        { when: "2015", label: "Rubenstein Partners acquires both 312 Elm St. and 312 Plum St. in a single transaction, financed with separate mortgage loans" },
-        { when: "December 30, 2024", label: "Wilmington Trust sues Rubenstein Partners to foreclose on 312 Plum St. over $16M+ in alleged debt" },
-        { when: "June 7, 2026", label: "Wilmington Trust sues to foreclose on 312 Elm St., seeking $39.6M" },
-        { when: "July 2026", label: "Court appoints Paul Plattner of Colliers as receiver for 312 Elm St." },
-        { when: "August 12, 2026", label: "Rubenstein Partners files an answer admitting every allegation, including the default", current: true }
+        { when: "2015", label: "Rubenstein Partners buys 312 Elm St. and 312 Plum St. in deals that close the same day" },
+        { when: "June 7, 2024", label: "Wilmington Trust sues to foreclose on 312 Elm St., claiming $39.6M" },
+        { when: "July 30, 2024", label: "Judge Lisa Allen appoints a Colliers receiver for 312 Elm St." },
+        { when: "August 12, 2024", label: "Rubenstein files an answer admitting every allegation, including the default" },
+        { when: "December 30, 2024", label: "Wilmington Trust sues to foreclose on 312 Plum St., claiming $16.2M" },
+        { when: "May 2026", label: "Business Courier reports both foreclosure cases resolved and the towers listed for sheriff's sale" },
+        { when: "June 17, 2026", label: "Hamilton County sheriff's online auction of both towers scheduled to begin", current: true }
       ],
-      tags: ["foreclosure", "office", "receivership", "loan default", "distress"]
+      tags: ["foreclosure", "office", "receivership", "loan default", "cincinnati"]
     },
     {
       id: "live-037",
@@ -3157,18 +3154,17 @@ const RELAW_DATA = {
     {
       id: "live-100",
       seoTitle: "Foshay Tower Minneapolis (W Hotel): $51M Mortgage Foreclosure",
-      seoDescription: "Deutsche Bank, as CMBS trustee, sued to foreclose on Foshay Tower, home of the W Minneapolis hotel, over a $51 million mortgage and asked for a receiver.",
+      seoDescription: "A judge ruled the Foshay Tower's owner owes over $42.3M on a defaulted $51M mortgage; the W Minneapolis tower is set for a Dec. 18 foreclosure sale.",
       property: {"name": "Foshay Tower", "city": "Minneapolis", "state": "MN"},
       addedDate: "2026-09-10",
-      title: "Deutsche Bank National Trust Co. v. WMN Foshay LP ($51M Foshay Tower Foreclosure)",
-      brief: "Deutsche Bank, as CMBS trustee, sued the owner of the Foshay Tower, home of the 229-room W Minneapolis hotel, over a $51 million mortgage left unpaid at its May 2025 maturity, and seeks a court-appointed receiver.",
+      title: "Deutsche Bank (CMBS Trustee) Foreclosure on Minneapolis's Foshay Tower, Home of the W Minneapolis",
+      brief: "A Hennepin County judge ruled Aug. 25 that the Foshay Tower's owner owes more than $42.3 million on a defaulted loan, and the tower, home of the W Minneapolis hotel, is set for a Dec. 18 foreclosure sale.",
       category: "lending-foreclosure",
       status: "ruling",
-      date: "2026-04-14",
+      date: "2026-08-25",
       jurisdiction: "Hennepin County District Court, Minnesota",
       parties: [
-        { name: "Deutsche Bank", role: "Plaintiff" },
-        { name: "WMN Foshay LP", role: "Defendant" }
+        { name: "Deutsche Bank", role: "Plaintiff (trustee for CMBS bondholders)" }
       ],
       judge: null,
       amountUsd: 42300000,
@@ -3176,24 +3172,22 @@ const RELAW_DATA = {
       state: "MN",
       amount: "$51M mortgage; judgment of $42.3M+",
       source: "live",
-      sourceUrl: "https://www.connectcre.com/?p=504290",
-      summary: "Deutsche Bank, acting as trustee for CMBS bondholders, sued the Foshay Tower's owner, WMN Foshay LP, in Hennepin County District Court in early-to-mid April 2026, alleging the 32-story Art Deco landmark's owner failed to pay off its $51 million mortgage by its May 2025 maturity date and now owes roughly $43 million in unpaid principal, interest, and fees. The suit seeks a court-appointed receiver for the building, which houses the 229-room W Minneapolis hotel along with Manny's Steakhouse, Prohibition Bar, and The Living Room lounge. A Hennepin County judge ruled in late August 2026 that WMN Foshay owes more than $42.3 million on the defaulted loan, and the property is now scheduled for a foreclosure sale on December 18, 2026, with Morningstar reporting that receivership appears likely in the near term.",
-      significance: "A recurring-distress case study: the same building lost its prior owner, Ashford Hospitality Trust, to a 2020 default on the same fundamental problem -- hospitality-anchored CRE debt that assumes room-rate and occupancy levels the underlying market no longer supports. Lenders and buyers evaluating hotel-anchored office/mixed-use towers should treat a building's own default history as a first-order underwriting signal independent of the current owner's specific financial condition, since the underlying asset economics that caused the prior default may not have actually changed.",
+      sourceUrl: "https://www.connectcre.com/stories/return-to-lender-week-of-nov-5-2026/",
+      summary: "Deutsche Bank, as trustee for bondholders in a commercial mortgage-backed securities trust, sued the owner of Minneapolis's Foshay Tower after it failed to pay off a $51 million mortgage that matured in May 2025, seeking a receiver and roughly $43 million in unpaid principal, interest and fees, Weekly Real Estate News reported in April 2026, citing the Star Tribune. A Hennepin County District Court judge ruled on August 25, 2026 that the owner of the 32-story tower at 821 S. Marquette Ave., which houses the 229-room W Minneapolis hotel, owes more than $42.3 million, and a foreclosure sale is scheduled for December 18, 2026, Connect CRE reported, citing the Minneapolis/St. Paul Business Journal.",
+      significance: "The ruling sets the amount owed on the matured CMBS loan and moves one of downtown Minneapolis's best-known landmarks, now a hotel, toward a foreclosure sale. The case began as a maturity default: the loan came due in May 2025 without being paid off.",
       body: [
-        "Foshay Tower, the 32-story Art Deco skyscraper that was Minneapolis' tallest building from its 1929 completion until the IDS Center surpassed it in 1972, is facing foreclosure after owner WMN Foshay LP failed to pay off a $51 million mortgage by its maturity date in May 2025. Deutsche Bank, acting as trustee on behalf of bondholders in an affiliated commercial mortgage-backed securities trust, filed suit in Hennepin County District Court in early-to-mid April 2026, alleging WMN Foshay now owes roughly $43 million in unpaid principal, interest, and fees, and asking the court to appoint a receiver to manage the property.",
-        "The tower houses the 229-room W Minneapolis hotel along with several well-known hospitality tenants -- Manny's Steakhouse, Prohibition Bar, and The Living Room -- though a 20-year-old Keys Cafe location inside the hotel closed in November, one of several signs of a property already trimming underperforming tenants before the foreclosure suit was filed. Reporting indicates WMN Foshay had been marketing the W Minneapolis hotel for at least six months before the lawsuit and had signaled openness to transferring ownership outright, suggesting the owner may already have been negotiating a sale or workout in parallel with the eventual default.",
-        "This is not the building's first brush with loan distress. Ashford Hospitality Trust, a Dallas-based hotel REIT, bought the property (along with the nearby Chambers Hotel) for a combined $187 million in 2015, then relinquished its ownership interest in Foshay Tower in 2020 after missing loan payments during the pandemic's collapse in hotel demand -- meaning the building has now cycled through loan default under two consecutive ownership groups within roughly six years.",
-        "For CRE lenders and prospective buyers, a hotel-anchored tower's history of one prior loan default is a meaningful signal independent of whatever a subsequent buyer's own balance sheet looks like: if the underlying room-rate and occupancy assumptions that caused the first default haven't structurally improved, a new owner financing the same building on similar assumptions faces the same latent risk, regardless of that owner's other financial strength. Evaluating a distressed hospitality asset's re-underwriting should start with why the prior loan actually failed, not just whether the new sponsor looks creditworthy on paper."
+        "The Foshay Tower, the 32-story Art Deco landmark in downtown Minneapolis that houses the 229-room W Minneapolis hotel, is scheduled for a foreclosure sale on December 18, 2026, Connect CRE reported, citing the Minneapolis/St. Paul Business Journal. The sale follows an August 25, 2026 ruling by a Hennepin County District Court judge that the tower's owner owes more than $42.3 million on a defaulted loan on the property at 821 S. Marquette Ave.",
+        "Deutsche Bank filed the foreclosure complaint as trustee for bondholders in an affiliated commercial mortgage-backed securities trust, Weekly Real Estate News reported in April 2026, citing the Star Tribune. The suit alleged that the owners failed to pay off a $51 million mortgage that matured in May 2025, and asked the court to appoint a receiver to manage the property and to award roughly $43 million in unpaid principal, interest and fees.",
+        "The tower was built in 1929 as the headquarters of utilities magnate Wilbur Foshay. It was Minneapolis's tallest building until the IDS Center was built in 1972, was added to the National Register of Historic Places in 1978, and was converted from offices into a W hotel in 2008, according to Weekly Real Estate News."
       ],
-      tags: ["foreclosure", "hotel", "cmbs", "minnesota", "receivership"],
+      tags: ["foreclosure", "hotel", "cmbs", "minnesota", "minneapolis"],
       timeline: [
-        { when: "1929", label: "Foshay Tower is completed, becoming Minneapolis' tallest building" },
-        { when: "2015", label: "Ashford Hospitality Trust buys Foshay Tower and the Chambers Hotel for a combined $187M" },
-        { when: "2020", label: "Ashford relinquishes ownership of Foshay Tower after missing loan payments during the pandemic" },
-        { when: "May 2025", label: "WMN Foshay LP's $51M mortgage matures without full repayment" },
-        { when: "April 2026", label: "Deutsche Bank sues to foreclose in Hennepin County District Court, seeking a receiver" },
-        { when: "August 2026", label: "A Hennepin County judge rules WMN Foshay owes more than $42.3M on the defaulted loan" },
-        { when: "December 18, 2026", label: "A foreclosure sale of the Foshay Tower is scheduled; Morningstar reports receivership appears likely in the near term", current: true, upcoming: true }
+        { when: "1929", label: "Foshay Tower is completed as the headquarters of Wilbur Foshay's utilities business" },
+        { when: "2008", label: "The tower is converted from offices into a W hotel" },
+        { when: "May 2025", label: "The $51M mortgage matures without being paid off" },
+        { when: "April 2026", label: "Deutsche Bank, as CMBS trustee, sues to foreclose in Hennepin County District Court and asks for a receiver" },
+        { when: "August 25, 2026", label: "A Hennepin County judge rules the owner owes more than $42.3M on the defaulted loan", current: true },
+        { when: "December 18, 2026", label: "Foreclosure sale of the Foshay Tower scheduled", upcoming: true }
       ]
     },
     {
@@ -4670,15 +4664,15 @@ const RELAW_DATA = {
       seoDescription: "An Orange County, Florida jury returned a verdict of more than $644.7 million against the owner and operator of Park Social, a Winter Park bar.",
       property: {"name": "Park Social", "city": "Winter Park", "state": "FL"},
       addedDate: "2026-09-16",
-      title: "Elkasimi v. Soho WP / BE-1 Concept Holdings (Park Social Winter Park Staircase Premises-Liability Verdict)",
-      brief: "An Orange County, Florida jury awarded more than $644.7 million against Soho WP and BE-1 Concept Holdings to a patron left partially quadriplegic by a fall on a steep, narrow staircase at Park Social, a Winter Park bar.",
+      title: "Park Social Winter Park Staircase Fall: $644.7M Jury Verdict Against Soho WP and BE-1 Concept Holdings",
+      brief: "An Orange County jury returned a verdict of more than $644.7 million against Soho WP and BE-1 Concept Holdings over a 2017 fall on the stairs at Park Social, a Winter Park bar, the plaintiff's law firm said.",
       category: "premises-liability",
       status: "ruling",
       date: "2026-03-12",
       jurisdiction: "Ninth Judicial Circuit Court, Orange County, Florida",
       parties: [
-        { name: "Soho WP LLC", role: "Defendant" },
-        { name: "BE1 Concept Holdings LLC", role: "Defendant" }
+        { name: "Soho WP", role: "Defendant (owner/operator of Park Social)" },
+        { name: "BE-1 Concept Holdings", role: "Defendant (owner/operator of Park Social)" }
       ],
       judge: null,
       amountUsd: 644751855.08,
@@ -4687,18 +4681,16 @@ const RELAW_DATA = {
       amount: "$644,751,855.08 jury verdict",
       source: "live",
       sourceUrl: "https://www.clickorlando.com/news/local/2026/03/12/man-wins-644m-lawsuit-after-falling-down-stairs-at-winter-park-bar/",
-      summary: "An Orange County, Florida jury awarded more than $644.7 million to Karim Elkasimi, who was left partially quadriplegic after falling down a steep, narrow, ungripped staircase while leaving Park Social, a second-story Winter Park bar, in 2017. The verdict named property-owning and bar-operating entities Soho WP and BE-1 Concept Holdings, after evidence showed a safer staircase existed but had been restricted to employees until the day after the fall.",
-      significance: "One of the largest premises-liability verdicts on record, and a pointed reminder that a pre-code building feature put to modern commercial use does not shield an owner or operator from liability, and that landlords can be swept into liability alongside operating tenants for a structural hazard like a stairway. Owners of older mixed-use and hospitality buildings should treat it as a prompt to audit grandfathered stairways and egress routes still in daily public use.",
+      summary: "An Orange County, Florida jury returned a $644,751,855.08 verdict against Soho WP and BE-1 Concept Holdings, which owned and operated Park Social, a second-story bar in Winter Park, WKMG ClickOrlando reported on March 12, 2026, citing a release from the plaintiff's law firm. The plaintiff, then 57, fell down about 20 stairs while leaving the bar in November 2017 and was left partially quadriplegic, according to the firm. The article did not include a response from the defendants.",
+      significance: "The verdict turned on the condition of a staircase in a 1926 building used by a bar open to the public, and the award ran against both companies that owned and operated the bar. The reported figures come from the plaintiff's law firm's release.",
       body: [
-        "A jury in Orange County, Florida has returned a verdict of more than $644.7 million against the ownership and operating entities behind Park Social, a second-story bar and lounge in Winter Park, after a patron who fell down an interior staircase in 2017 was left partially quadriplegic. The award, reported at $644,751,855.08, is among the largest premises-liability verdicts ever recorded in the United States, arriving as commercial property owners and operators nationwide already contend with rising general-liability insurance costs and an increasingly aggressive plaintiffs' bar in the premises-liability space.",
-        "The case arose from a November 25, 2017 incident in which the plaintiff, Karim Elkasimi, then 57, fell down a flight of roughly 20 stairs while leaving Park Social, a venue occupying the second floor of a 1926-era mixed-use building on Winter Park's Park Avenue corridor. The fall left him with catastrophic, permanently disabling injuries, including partial quadriplegia. Elkasimi sued the entities that owned and operated the property and the bar, identified in court filings as Soho WP and BE-1 Concept Holdings, alleging that the staircase he used to exit the building was unreasonably dangerous and that the defendants knew, or should have known, about the hazard well before his fall. At trial, evidence showed the stairs were narrower and steeper than code-conforming egress stairs, with treads that lacked any grip tape, and that a second, safer staircase existed elsewhere in the building but had been restricted to employees only until the day after Elkasimi's fall.",
-        "The jury's award, returned on March 12, 2026, combined compensation for past and future pain and suffering, lost earning capacity, and other economic and non-economic losses. Verdicts of this size in a premises-liability case, as opposed to a mass-tort or class-action context, are exceedingly rare, and it remains flagged among the largest personal-injury awards of the year more than five months after it was announced.",
-        "For commercial property owners, the legal significance lies less in the dollar figure than in the fact pattern the jury credited. Premises-liability law in Florida, as in most states, turns on whether an owner or operator breached a duty of reasonable care to maintain the premises in a reasonably safe condition for invitees, and whether that breach foreseeably caused the injury. Compliance with the building code in effect when a structure was built, here 1926, long before modern stair-width and slip-resistance standards existed, does not automatically satisfy that duty once the property is put to commercial use inviting the general public. The case also shows how tenant improvements and operational decisions inside a leased space can create liability exposure reaching well beyond the tenant, since both the property-owning entity and the bar's operating entity were named and held liable.",
-        "Post-trial proceedings in cases of this magnitude are typically extensive, with defendants commonly pursuing motions challenging the sufficiency of the evidence or the size of the award and seeking remittitur before any appeal, so the final enforceable judgment may look different from the jury's initial number. Commercial landlords and operating tenants sharing a building should treat this verdict as a prompt to jointly audit any pre-code or grandfathered architectural features, staircases especially, that remain in daily public use, and to review any policy that restricts a safer building feature to staff rather than the public, since withholding a known-safer option from patrons was central to this verdict. Because landlord and tenant liability can attach jointly for a structural hazard, lease indemnification and insurance-procurement clauses should be revisited to confirm coverage limits are adequate for a catastrophic-injury claim rather than a routine slip-and-fall, and carriers should be looped in early on any known stairway, egress, or historic-building hazard given how significantly a verdict like this one can reshape a carrier's view of shared risk."
+        "An Orange County, Florida jury has returned a verdict of $644,751,855.08 against Soho WP and BE-1 Concept Holdings, the companies that owned and operated Park Social, a bar on the second story of a Winter Park building built in 1926, WKMG ClickOrlando reported on March 12, 2026. The station's report was based on a release from the plaintiff's law firm and did not give the date of the verdict.",
+        "According to the release, the plaintiff, then 57, fell down a flight of about 20 stairs while leaving the bar in November 2017. The firm said the fall caused fractures in his neck and skull and left him partially quadriplegic, with no feeling from the chest down, and that he lost his senses of taste and smell. At trial, the plaintiff's attorneys argued that the stairs were too narrow and too steep, lacked grip tape on the treads and had inadequate handrails, the release said.",
+        "The firm said the verdict includes $166 million for past pain and suffering, $363 million for future pain and suffering, $109.5 million to the plaintiff's wife for loss of consortium and services, and $6,251,855 for medical expenses and lost earnings. The article did not include a response from the defendants."
       ],
       timeline: [
-        { when: "November 25, 2017", label: "Karim Elkasimi falls down the staircase exiting Park Social" },
-        { when: "March 12, 2026", label: "Orange County jury returns a $644.7M verdict against Soho WP and BE-1 Concept Holdings", current: true }
+        { when: "November 2017", label: "A patron falls down the staircase while leaving Park Social" },
+        { when: "March 12, 2026", label: "WKMG ClickOrlando reports an Orange County jury's $644.7M verdict against Soho WP and BE-1 Concept Holdings", current: true }
       ],
       tags: ["premises liability", "staircase", "jury verdict", "florida", "hospitality"]
     },
@@ -5145,52 +5137,6 @@ const RELAW_DATA = {
         { when: "October 9, 2026", label: "Post-trial briefs due from both sides", upcoming: true }
       ],
       tags: ["breach of fiduciary duty", "minority owners", "land sale", "iowa", "self-dealing"]
-    },
-    {
-      id: "live-160",
-      seoTitle: "Carnegie House, West 57th St: $24M Ground-Rent Award Vacated",
-      seoDescription: "New York's Appellate Division vacated a $24 million ground-rent arbitration award against the Carnegie House co-op over an umpire's nondisclosure.",
-      property: {"name": "Carnegie House", "city": "New York", "state": "NY"},
-      addedDate: "2026-09-20",
-      title: "57th & 6th Ground LLC v. Carnegie House Tenants Corp. (Ground-Rent Arbitration Award Vacated for Arbitrator Non-Disclosure)",
-      brief: "The First Department vacated a $24 million ground-rent arbitration award against the Carnegie House co-op because the umpire hid contact with the landowner's counsel; the reset goes to a new panel.",
-      category: "lease-disputes",
-      status: "ruling",
-      date: "2026-09-03",
-      jurisdiction: "Appellate Division of the Supreme Court of New York, First Department",
-      parties: [
-        { name: "57th & 6th Ground LLC", role: "Petitioner" },
-        { name: "Carnegie House Tenants Corporation", role: "Respondent" },
-        { name: "Georgetown 57, LLC", role: "Respondent" }
-      ],
-      judge: null,
-      amountUsd: 24000000,
-      amountBasis: "award",
-      state: "NY",
-      amount: "$24M annual ground rent set by the vacated arbitration award (up from $4M), based on an underlying land valuation of more than $300M",
-      source: "live",
-      sourceUrl: "https://www.crainsnewyork.com/real-estate/commercial/cny-carnegie-house-rent-hike-reprieve-20260903/",
-      summary: "New York's Appellate Division, First Department unanimously vacated a $24 million ground-rent arbitration award against the Carnegie House cooperative on West 57th Street, finding the panel's neutral umpire had privately discussed a paid appointment as umpire in a separate arbitration with the landowner's counsel and omitted that contact from his disclosure while the arbitration was pending. The reversal overturns a January 2026 trial court decision that had confirmed the award under CPLR Article 75's demanding standard for vacatur, sending the ground-rent reset to a new arbitration panel.",
-      significance: "Shows that even New York's 'very heavy burden of proof' standard for vacating an arbitration award cannot save a result tainted by an arbitrator's undisclosed financial or professional dealings with a party's counsel, a risk relevant to any high-value CRE arbitration, including ground-lease resets, mezzanine-loan valuation disputes, and joint-venture buyouts that route around the courts.",
-      body: [
-        "Commercial landlords, developers, and lenders who route valuation and rent-reset disputes to arbitration got a costly reminder this month of how fragile that process can be when a neutral arbitrator's own disclosures fall short. In 57th & 6th Ground LLC v. Carnegie House Tenants Corp., New York's Appellate Division, First Department, unanimously reversed a lower court and vacated a $24 million ground-rent arbitration award after finding that the panel's neutral umpire had direct, undisclosed contact with the prevailing landowner's counsel about a paid appointment as umpire in a separate arbitration while this one was still underway.",
-        "The dispute centers on Carnegie House, a 21-story cooperative at the corner of West 57th Street and Sixth Avenue on the edge of Manhattan's Billionaires' Row. Like a number of older Manhattan co-ops, Carnegie House does not own the land beneath its building; it holds a long-term ground lease, originally dated December 16, 1959 and amended since, from a separate ownership entity. When the co-op exercised its option to extend that lease for a new term beginning in March 2025, the extension required the ground rent to be reset to reflect a new appraisal of the underlying land's value. The co-op and the landowner, an entity tied to Cammeby's International Group's Rubin Schron together with David Werner Real Estate, which acquired the land in 2014, could not agree on that value, and the dispute proceeded to a tripartite arbitration panel as the lease required.",
-        "In July 2025, the panel sided decisively with the landowner, valuing the underlying land at more than $300 million and setting a new annual ground rent of roughly $24 million, up from the prior $4 million, an increase co-op shareholders warned would be unaffordable and could push some owners toward default or foreclosure on their apartments. The landlord entity, 57th & 6th Ground LLC, moved under CPLR 7510 to confirm the award, while the co-op and an affiliated entity, Georgetown 57, LLC, cross-moved under CPLR 7511(b)(1)(i) and (ii) to vacate it, arguing the neutral umpire had been partial and had engaged in misconduct in procuring the result. In a January 2026 decision, a Manhattan Supreme Court justice sided with the landlord, holding that the co-op had not met the very heavy burden of proof New York law imposes on a party seeking to vacate an award for partiality, and confirmed the $24 million figure.",
-        "The co-op appealed, and the First Department reversed. The appellate panel found that the neutral umpire, appointed by the American Arbitration Association after the parties could not agree on one, had been approached directly by the landowner's counsel, together with opposing counsel in a separate arbitration, with a paid offer to serve as umpire in that other matter; his disclosure to the parties mentioned the offer but omitted that direct contact, which the landowner's counsel revealed only after further inquiry, and he then offered to decline the job if the co-op withdrew its recusal demand. The court held that this created an appearance of partiality that tainted his later rulings, including granting the landlord's eve-of-hearing motion to strike the tenants' expert reports and compressing the hearing schedule, and that the tenants had shown by clear and convincing evidence partiality prejudicing their rights. The ruling remands the rent reset to a new arbitration panel rather than resolving the underlying valuation dispute itself, meaning Carnegie House shareholders face a fresh reset process rather than a final, affordable number.",
-        "For commercial real estate practitioners, the decision is a rare and instructive one: courts are traditionally reluctant to disturb arbitration awards, and New York's very heavy burden standard for vacatur due to partiality is deliberately difficult to meet. That the co-op cleared it here reflects just how seriously courts treat an arbitrator's ongoing, undisclosed financial or professional dealings with a party's counsel, even short of proof that those dealings actually skewed the substantive result. Ground-lease resets, mezzanine-loan valuation disputes, joint-venture buyout arbitrations, and other high-dollar CRE arbitrations typically hinge on a neutral's credibility precisely because courts will not second-guess the merits, and this ruling shows that credibility can collapse retroactively if a conflict surfaces later, unwinding months of proceedings.",
-        "Parties selecting a neutral arbitrator for a CRE valuation or rent-reset dispute would be well served to insist on continuing disclosure obligations covering any professional or financial contact with either side's counsel for the full duration of the proceeding, and counsel should treat any employment or business discussion with a sitting neutral as immediately reportable, since an omission alone can unwind an award many months later. A confirmed award is not necessarily the end of the road: a losing party with credible evidence of an undisclosed conflict retains a meaningful, if narrow, path to vacatur under CPLR 7511, and ground-lease owners and co-op boards facing a looming reset should budget for the possibility that an adverse result is not final, preserving any evidence of irregularities in arbitrator selection as the process unfolds rather than only after an unfavorable award issues."
-      ],
-      timeline: [
-        { when: "December 16, 1959", label: "Original ground lease for the land under Carnegie House is executed" },
-        { when: "2014", label: "Real estate investors tied to Cammeby's International Group and David Werner Real Estate acquire the underlying land" },
-        { when: "March 2025", label: "Carnegie House's extended ground lease term begins, triggering a rent reset" },
-        { when: "July 2025", label: "Arbitration panel values the land at over $300M and sets a new $24M annual ground rent" },
-        { when: "January 2026", label: "Manhattan Supreme Court confirms the arbitration award, rejecting the co-op's vacatur motion" },
-        { when: "September 3, 2026", label: "Appellate Division, First Department unanimously vacates the award over the neutral umpire's undisclosed contact with the landowner's counsel and remands to a new arbitration panel", current: true }
-      ],
-      documentUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_05230.shtml",
-      documentLabel: "Read the Appellate Division decision (2026 NY Slip Op 05230)",
-      tags: ["ground lease", "arbitration", "new york", "co-op", "arbitrator disclosure"]
     },
     {
       id: "live-161",
@@ -6757,11 +6703,11 @@ const RELAW_DATA = {
     {
       id: "live-211",
       seoTitle: "450 Fifth Street NW, Washington DC: $166.6M Office Foreclosure",
-      seoDescription: "A Criterion Real Estate Capital affiliate filed to foreclose on the former DOJ building at 450 Fifth Street NW in D.C., citing $166.6 million owed.",
+      seoDescription: "A Criterion Real Estate Capital affiliate filed a foreclosure notice for 450 Fifth St. NW in D.C., saying owner Judiciary Plaza LLC owes $166.6 million.",
       property: {"address": "450 Fifth Street NW", "city": "Washington", "state": "DC"},
       addedDate: "2026-10-01",
-      title: "Criterion Real Estate Capital Affiliate Forecloses on Judiciary Plaza LLC ($166.6M D.C. Office Tower)",
-      brief: "A Criterion Real Estate Capital affiliate set an October 28, 2026 foreclosure auction of D.C. office building 450 Fifth Street NW, claiming $166.6 million owed and derailing a residential conversion.",
+      title: "Criterion Real Estate Capital Affiliate Files Foreclosure Notice Against Judiciary Plaza LLC (450 Fifth St. NW, Washington, D.C.)",
+      brief: "A Criterion Real Estate Capital affiliate filed a foreclosure notice for 450 Fifth St. NW, a D.C. office building slated for residential conversion, saying the owner owes $166.6 million.",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-09-28",
@@ -6773,20 +6719,15 @@ const RELAW_DATA = {
       amountBasis: "loan",
       source: "live",
       sourceUrl: "https://www.connectcre.com/stories/return-to-lender-week-of-oct-1-2026/",
-      summary: "An affiliate of noteholder Criterion Real Estate Capital filed a foreclosure notice against Judiciary Plaza LLC, owner of the 539,478-square-foot former Department of Justice office building at 450 Fifth Street NW near Judiciary Square in Washington, D.C. The notice states the owner owes approximately $166.6 million on a $177.5 million note originated in 2007, with a public foreclosure auction scheduled for October 28, 2026.",
-      significance: "The foreclosure derails a Commission of Fine Arts-approved plan to convert the Brutalist-style office tower into roughly 500 residential units, illustrating that an approved conversion plan does not protect a property from foreclosure if the underlying legacy debt is not restructured in parallel. Noteholders that acquire distressed commercial mortgage debt at a discount, as Criterion did in the secondary market, are often more willing to foreclose and capture redevelopment upside directly than to extend an existing owner further credit.",
+      summary: "An affiliate of noteholder Criterion Real Estate Capital filed a foreclosure notice on September 28, 2026 for 450 Fifth St. NW, a 539,478-square-foot Brutalist office building near Judiciary Square in Washington, D.C., the Washington Business Journal reported, according to Connect CRE. The notice says the owner, Judiciary Plaza LLC, owes $166.6 million on a $177.5 million note from 2007, and sets an October 28, 2026 foreclosure auction at the D.C. office of Alex Cooper Auctioneers. The building had been slated for conversion into 500 residential units.",
+      significance: "The notice puts an office building slated for a 500-unit residential conversion on a path to a foreclosure auction. Nearly two decades after the 2007 note, the notice says $166.6 million of the original $177.5 million is still owed.",
       body: [
-        "A large Brutalist-style office building near Judiciary Square in downtown Washington, D.C. is headed toward a foreclosure auction after an affiliate of noteholder Criterion Real Estate Capital filed a foreclosure notice against the property's owner, Judiciary Plaza LLC. According to the notice, the owner currently owes approximately $166.6 million on a $177.5 million note originated in 2007 -- a debt load that has survived nearly two decades, several changes in loan ownership, and a since-abandoned redevelopment plan.",
-        "The building at 450 Fifth Street NW spans roughly 539,478 square feet and was for years associated with office space leased to the U.S. Department of Justice. Property records still list an entity affiliated with Clark Enterprises as the building's owner of record, but the loan secured by the property has changed hands more than once since origination: Prudential Financial, an earlier holder of the debt, sold the note in December 2022 to an affiliate of Criterion Real Estate Capital, which appointed a substitute trustee under the deed of trust the following year, setting the stage for this foreclosure notice. The notice schedules a public auction for October 28 at the District of Columbia office of Alex Cooper Auctioneers, a firm frequently used to conduct non-judicial foreclosure sales on commercial properties in the District.",
-        "The foreclosure arrives just as the building's ownership had been pursuing a very different future for the property. Plans reviewed and approved by the U.S. Commission of Fine Arts in 2025 called for converting the aging office tower into approximately 500 residential units, part of a broader wave of office-to-residential conversion proposals aimed at downtown D.C.'s persistently high office vacancy and the federal government's own shrinking office footprint. That conversion plan has reportedly been shelved as a direct result of the building's slide into foreclosure, illustrating a pattern increasingly visible across gateway office markets: an aging, underleased building identified as a strong conversion candidate on paper, only to see the capital stack supporting its ownership collapse before redevelopment financing can be arranged.",
-        "The case also highlights the particular mechanics of commercial foreclosure in the District of Columbia, which permits non-judicial foreclosure under a deed of trust's power-of-sale provision, allowing a substituted trustee to notice and conduct a public auction without first obtaining a court judgment -- a process considerably faster than judicial foreclosure that leaves less room for a defaulting owner to contest the underlying debt calculation before the property changes hands. Owners facing a matured or underwater loan secured by a deed of trust in a power-of-sale jurisdiction should treat the appointment of a substitute trustee, a step that can occur quietly well before any public notice of sale, as an early warning sign that a loan sale or workout decision has already been made by the noteholder, and should engage lender counsel immediately rather than waiting for the formal notice."
+        "An affiliate of Criterion Real Estate Capital, the noteholder, filed a foreclosure notice on Monday, September 28, 2026 for 450 Fifth St. NW, a large Brutalist office building near Judiciary Square in Washington, D.C., the Washington Business Journal reported, according to Connect CRE. The notice says the owner, Judiciary Plaza LLC, owes $166.6 million on a $177.5 million note from 2007.",
+        "The 539,478-square-foot building was scheduled for an October 28, 2026 foreclosure auction at the D.C. office of Alex Cooper Auctioneers. The report described the building as slated for conversion into 500 residential units."
       ],
       timeline: [
-        { when: "2007", label: "Original $177.5M note originated against 450 Fifth Street NW" },
-        { when: "December 2022", label: "Prudential Financial sells the note to an affiliate of Criterion Real Estate Capital" },
-        { when: "2023", label: "Criterion affiliate appoints a substitute trustee under the deed of trust" },
-        { when: "2025", label: "U.S. Commission of Fine Arts approves a 500-unit residential conversion plan for the building" },
-        { when: "September 28, 2026", label: "Criterion affiliate files a foreclosure notice against Judiciary Plaza LLC, scheduling an October 28 auction", current: true }
+        { when: "2007", label: "The $177.5M note secured by 450 Fifth St. NW is originated" },
+        { when: "September 28, 2026", label: "Criterion affiliate files a foreclosure notice against Judiciary Plaza LLC, setting an October 28 auction", current: true }
       ],
       judge: null,
       parties: [
@@ -9428,45 +9369,6 @@ const RELAW_DATA = {
       ]
     },
     {
-      id: "live-296",
-      seoTitle: "Millrose Properties Sued Over Hidden Lennar Home Rentals",
-      seoDescription: "Investors sue Millrose Properties, alleging it hid a switch from land-banking to renting $200M of completed Lennar homes, after an 8.5% stock drop.",
-      addedDate: "2026-10-14",
-      title: "Rubenstein et al. v. Millrose Properties, Inc.: Investors Sue Lennar Land-Bank Spinoff Over Undisclosed Single-Family Rental Business",
-      brief: "Investors filed a securities class action against Lennar land-bank spinoff Millrose Properties, alleging it hid roughly $200 million of Lennar home purchases for rental; its shares fell 8.5% on the disclosure.",
-      category: "reit-securities",
-      status: "filed",
-      date: "2026-10-09",
-      jurisdiction: "U.S. District Court for the Southern District of Florida",
-      state: "FL",
-      amount: "$200 million in alleged undisclosed home purchases; MRP shares fell 8.5% ($2.10/share) on the disclosure",
-      source: "live",
-      sourceUrl: "https://www.courthousenews.com/investors-hit-real-estate-company-millrose-with-fraud-class-action-over-undisclosed-leases/",
-      propertyType: "Multifamily",
-      summary: "Investors filed a federal securities fraud class action on October 9, 2026 against Millrose Properties, Inc. — the land-banking REIT Lennar spun off in February 2025 — and its CEO and CFO, alleging the company misrepresented its business as pure land-holding while secretly buying roughly $200 million of completed Lennar homes and renting them out. The suit, covering purchasers of Millrose stock between February 7, 2025 and October 2, 2026, follows an October 2, 2026 Hunterbrook Media report that identified more than 700 such home purchases across 51 counties in 15 states; Millrose shares fell 8.5% on the news.",
-      significance: "The case tests how much disclosure a spun-off REIT owes the market when an amendment to its governing agreements with its former parent quietly expands its business beyond the narrow mandate investors were sold on at the IPO. For land-banking vehicles, ground-lease REITs, and other single-purpose spinoffs, it is an early signal that courts may treat a related-party contract amendment as a disclosure event in its own right, not a private matter between affiliates.",
-      body: [
-        "Investors have filed a federal securities fraud class action against Millrose Properties, Inc., the Miami-based land-banking REIT spun off from homebuilder Lennar Corporation in February 2025, alleging that the company and two of its top executives misrepresented its business model by secretly acquiring and renting out completed single-family homes after telling the market it would hold undeveloped land and nothing more. The case, Rubenstein et al. v. Millrose Properties, Inc. et al., No. 9:26-cv-81386, was filed October 9, 2026 in the U.S. District Court for the Southern District of Florida on behalf of investors who purchased Millrose stock between February 7, 2025 and October 2, 2026.",
-        "The suit names Millrose, CEO Darren Richman, and CFO Garrett Rosenblum as defendants, asserting claims under Sections 10(b) and 20(a) of the Securities Exchange Act of 1934. The theory of the case traces back to Millrose's own offering documents: when Lennar spun the company off, Millrose told investors in its prospectus that it would not enter into lease agreements and would have no tenants or occupants on its properties. Its core business, as pitched, was to hold land parcels that Lennar had sold it and then buy them back in stages as Lennar readied them for home construction, a land-banking structure designed to take inventory risk off Lennar's balance sheet rather than a landlord business in its own right.",
-        "That pitch collided with an October 2, 2026 investigative report from Hunterbrook Media, which found that Millrose had purchased more than 700 completed homes from Lennar across at least 51 counties in 15 states and was renting them out rather than holding undeveloped land. Hunterbrook's analysis estimated a gross rental yield of roughly 8.4%, but calculated that after taxes, insurance, and property management costs, the arrangement was likely generating a net return closer to 5%, raising questions about why a company marketed as a conservative land-banking vehicle was instead running a lower-margin, operationally intensive rental portfolio, and whether investors had been told. Millrose's stock fell 8.5%, or $2.10 per share, closing at $22.51, on the news.",
-        "The complaint points to an August 27, 2026 amendment to the Founder's Rights Agreement between Millrose and Lennar entities, confirmed in a Millrose SEC Form 8-K filed the same day, that the plaintiffs say is when Millrose obtained the contractual room to acquire completed homes and hold them as rentals, a change they allege was never meaningfully disclosed to the market before Hunterbrook's report forced the issue. Plaintiffs' counsel firms soliciting additional lead-plaintiff candidates have set a December 8, 2026 deadline under the Private Securities Litigation Reform Act for shareholders to move for lead plaintiff status.",
-        "For a commercial real estate audience, the matter is a reminder that land-banking and other off-balance-sheet-style vehicles spun out of homebuilders carry disclosure obligations that travel with every amendment to the governing agreements, not just the original offering documents. Millrose's capital structure and investor base were built around a specific, narrow mandate: hold land, do not operate real estate, and investors priced the stock accordingly. A contractual change authorizing a materially different business, even one executed through a routine-looking 8-K amendment, can become the centerpiece of a securities fraud claim if the practical consequences of that change are not clearly flagged to the market in the same breath. Boards and counsel for newly spun-off REITs should treat any amendment that expands a vehicle's permitted activities as a disclosure event requiring prompt, plain-language updates to investor-facing materials, particularly where the amendment runs with a related party like a former parent that benefits from the spinoff absorbing inventory it no longer wants on its own books; a single investigative report tying specific transactions to a changed business model, as happened here, can supply the factual predicate for a securities class action almost as soon as it is published."
-      ],
-      tags: ["reit", "securities fraud", "class action", "lennar", "single-family rental"],
-      parties: [
-        { name: "Millrose Properties, Inc.", role: "Defendant" },
-        { name: "Lennar Corporation", role: "Non-party (former parent)" }
-      ],
-      judge: null,
-      amountUsd: null,
-      timeline: [
-        { when: "February 7, 2025", label: "Lennar completes the spinoff of Millrose Properties as a land-banking REIT" },
-        { when: "August 27, 2026", label: "Millrose and Lennar entities amend the Founder's Rights Agreement, per an 8-K filed the same day" },
-        { when: "October 2, 2026", label: "Hunterbrook Media reports Millrose bought 700+ completed Lennar homes and is renting them out; MRP shares fall 8.5%" },
-        { when: "October 9, 2026", label: "Investors file securities fraud class action in the Southern District of Florida", current: true }
-      ]
-    },
-    {
       id: "live-297",
       seoTitle: "CG & J Realty: NY Appeals Court Upholds Lien Bond Denial",
       seoDescription: "New York's Appellate Division affirms denial of CG & J Realty's bid to vacate a mechanic's lien bond in a Queens commercial lien dispute.",
@@ -10432,42 +10334,43 @@ const RELAW_DATA = {
     },
     {
       id: "live-321",
-      seoTitle: "Rainforest Cafe Building Chicago: Conlon Ordered to Pay $10M",
-      seoDescription: "A Cook County judge ordered investor Sean Conlon to pay over $10M after he guaranteed an $8.3M loan on Chicago's vacant former Rainforest Cafe building.",
+      seoTitle: "Rainforest Cafe Building Chicago: Conlon Ordered to Pay $11.5M",
+      seoDescription: "A Cook County judge ordered investor Sean Conlon to pay Alecko Lending $11.5M plus fees over an $8.3M bridge loan on Chicago's former Rainforest Cafe site.",
       addedDate: "2026-10-22",
-      title: "Alecko Capital v. Conlon (Guaranty Judgment Over Chicago's Former Rainforest Cafe Building)",
-      brief: "A Cook County judge ordered the guarantor to pay lender Alecko Capital more than $10 million on an $8.3 million loan secured by the vacant former Rainforest Cafe building at 605 N. Clark Street.",
+      title: "Alecko Lending v. Conlon (Judgment Over Chicago's Former Rainforest Cafe Building)",
+      brief: "A Cook County judge ordered investor Sean Conlon to pay Alecko Lending $11,508,950 plus legal fees over an $8.3 million bridge loan on the former Rainforest Cafe site at 605 N. Clark St.",
       category: "lending-foreclosure",
       status: "ruling",
       date: "2026-10-20",
       jurisdiction: "Circuit Court of Cook County, Illinois",
       state: "IL",
       propertyType: "Retail",
-      amount: "More than $10 million judgment on an $8.3 million personally guaranteed loan",
-      amountUsd: 8300000,
-      amountBasis: "loan",
+      amount: "$11,508,950 judgment plus legal fees on an $8.3 million bridge loan",
+      amountUsd: 11508950,
+      amountBasis: "judgment",
       source: "live",
       sourceUrl: "https://www.chicagobusiness.com/real-estate/commercial/ccb-rainforest-cafe-lawsuit-judgment-20261020/",
-      summary: "Cook County Circuit Judge Jerry A. Esrig ordered investor Sean Conlon to pay more than $10 million on October 20, 2026 to resolve breach-of-contract litigation brought by lender Alecko Capital over the vacant former Rainforest Cafe building at 605 N. Clark Street in Chicago's River North. Alecko sued in October 2025 after Conlon, who personally guaranteed an $8.3 million loan secured by the 22,000-square-foot building, defaulted; the building has sat empty and income-less since the restaurant closed in August 2020.",
-      significance: "The judgment shows how quickly default interest, fees, and litigation costs can widen a lender's claim once a personally guaranteed commercial loan goes into default and the parties end up in court rather than a workout -- the gap between the $8.3 million loan and the $10 million-plus judgment reflects that accumulation. It is also a pointed example of the added risk a vacant, single-tenant specialty building poses to a secured loan, since there is no other rental income to cushion a default once the anchor tenant leaves.",
+      summary: "Cook County Circuit Judge Jerry Esrig ruled for Alecko Lending on October 20, 2026 and ordered Chicago real estate investor Sean Conlon to pay $11,508,950 plus legal fees, the Chicago Sun-Times reported; Crain's Chicago Business put the amount at $10 million in its headline. Alecko's October 2025 breach-of-contract suit alleged Conlon failed to repay an $8.3 million bridge loan on the former Rainforest Cafe property at 605 N. Clark St. in River North. A separate Alecko suit seeking to foreclose on the property is still pending, according to the Sun-Times.",
+      significance: "The ruling is a money judgment against Conlon, separate from Alecko's pending effort to foreclose on the building itself. It also shows how far a lender's claim can grow past a loan's face amount: the complaint sought about $9.2 million including interest and forbearance fees on an $8.3 million loan, and the judgment came to about $11.5 million plus fees.",
       body: [
-        "A Cook County judge has ordered real estate investor Sean Conlon to pay more than $10 million to resolve breach-of-contract litigation brought by lender Alecko Capital over the long-vacant former Rainforest Cafe building in Chicago's River North neighborhood. The ruling, issued October 20, 2026 by Judge Jerry A. Esrig of the Circuit Court of Cook County, closes out roughly a year of litigation that began when Alecko sued over a defaulted $8.3 million loan Conlon had personally guaranteed.",
-        "The 22,000-square-foot freestanding building at 605 N. Clark Street has sat empty since August 2020, when the Rainforest Cafe that had anchored the corner since 1997 closed for good amid the pandemic. A venture led by Conlon had bought the property in 2015 for about $13.7 million. With the building vacant and generating no rental income, the loan secured against it became increasingly difficult to service, and Alecko Capital, the private credit and real estate investment firm led by Alex Pissios, sued in October 2025 to enforce Conlon's personal guaranty after he defaulted. Conlon has told reporters the dispute traces back to a single late payment and that he was arranging refinancing when the suit was filed.",
-        "The building's post-closure history has been complicated by a failed plan to lease the space to a cannabis dispensary, which collapsed after Illinois's buffer-zone rules barring a dispensary within 1,500 feet of an existing shop proved to be an obstacle, further delaying any path to re-tenanting the property and restoring cash flow against the debt. Litigation over the loan proceeded for roughly a year before Judge Esrig's October 20 order, which required Conlon to pay more than $10 million -- a figure that reflects not just the original $8.3 million principal but the default interest, fees, and costs that typically accumulate once a commercial loan goes into default and a lender is forced to litigate to collect. Conlon has said publicly that he intends to pay the judgment and to retain ownership of the building rather than surrender it.",
-        "The case illustrates why lenders routinely structure acquisition and bridge loans on commercial property with full-recourse personal guaranties: a guaranty converts a secured, asset-level risk into unsecured personal liability extending well beyond the property's own value, and the gap between an $8.3 million loan and a $10 million-plus judgment shows how quickly default interest and litigation costs can widen that exposure once a dispute goes to judgment rather than settling early. It is also a reminder of the particular risk profile of a single-tenant, single-use commercial building that loses its anchor tenant -- once the Rainforest Cafe closed, the property had no income stream to service its debt, and each failed attempt at re-tenanting extended the period during which the loan sat unserviced.",
-        "The practical lesson cuts in several directions. A commercial borrower who personally guarantees acquisition or bridge financing should treat any payment default as an immediate priority rather than something to resolve on its own timeline, since lenders are frequently entitled to accelerate the full balance, impose default interest, and add their litigation costs to the amount owed well before a borrower's refinancing plans can materialize. An owner of a single-tenant specialty property, such as a freestanding restaurant building, should build contingency plans for an extended vacancy into underwriting and loan covenants from the outset, since re-tenanting such a space can take years and can be derailed by unrelated regulatory obstacles like zoning buffer requirements for a replacement use. And for a lender, the case underscores the value of a well-documented, broadly worded personal guaranty, which is frequently the difference between recovering a secured loan's face value and recovering a judgment that also captures the accumulated cost of the default itself."
+        "A Cook County judge has ordered Chicago real estate investor Sean Conlon to pay $11,508,950 plus legal fees to Alecko Lending over a defaulted loan on the long-vacant former Rainforest Cafe building at 605 N. Clark St. in River North, the Chicago Sun-Times reported. Circuit Judge Jerry Esrig ruled for the lender on Tuesday, October 20, 2026. Crain's Chicago Business, which reported the ruling the same day, put the amount at $10 million in its headline. The Sun-Times said attorneys for both sides did not immediately respond to requests for comment.",
+        "According to the Sun-Times, Alecko made Conlon a short-term $8.3 million bridge loan in January 2024 that was due January 30, 2025, and later extended the deadline to May 2025. After Conlon missed that date, the lender gave him a chance to pay $99,204.83 by July 10, which he did not pay. Alecko's breach-of-contract complaint, filed in October 2025, said it was owed $9.2 million including interest and forbearance fees.",
+        "Alecko, led by founder Alexander Pissios, also filed a foreclosure suit in November 2025 against the Conlon-led entity that owns the building, seeking foreclosure, a receiver and a deficiency judgment, The Real Deal reported at the time. That case is still pending, according to the Sun-Times. Conlon told The Real Deal then that the suit was premature, that he had been paying penalty interest since June and that he planned to repay the full debt from a refinancing. CBS Chicago, citing Crain's, reported that he described the dispute as being over a single late payment.",
+        "The 22,000-square-foot building has been empty since the Rainforest Cafe closed in August 2020. The Sun-Times, citing property records, said Conlon bought the site in 2015 for more than $13 million; The Real Deal reported a $13.7 million purchase in 2013. A planned cannabis dispensary in the space fell through: the Sun-Times said the plans were dropped after lawsuits sought to block it, and The Real Deal reported that the would-be tenant backed out amid neighborhood opposition and after it emerged that the site was too close to other dispensaries to comply with state law."
       ],
-      tags: ["foreclosure", "personal-guaranty", "chicago", "retail", "distressed-debt"],
+      tags: ["foreclosure", "bridge-loan", "chicago", "retail", "loan-default"],
       parties: [
-        { name: "Alecko Capital", role: "Plaintiff/Lender" }
+        { name: "Alecko Lending", role: "Plaintiff/Lender" }
       ],
       judge: "Jerry A. Esrig",
-      property: { name: "Former Rainforest Cafe Building", address: "605 N. Clark Street", city: "Chicago", state: "IL" },
+      property: {"name": "Former Rainforest Cafe Building", "address": "605 N. Clark Street", "city": "Chicago", "state": "IL"},
       timeline: [
-        { when: "2015", label: "A venture led by Sean Conlon buys the 22,000-square-foot building at 605 N. Clark Street for about $13.7 million" },
-        { when: "August 2020", label: "The Rainforest Cafe closes permanently amid the pandemic, leaving the building vacant" },
-        { when: "October 2025", label: "Alecko Capital sues to enforce Conlon's personal guaranty after the loan goes into default" },
-        { when: "October 20, 2026", label: "Judge Jerry A. Esrig orders Conlon to pay more than $10 million to resolve the litigation", current: true }
+        { when: "August 2020", label: "The Rainforest Cafe at 605 N. Clark St. closes; the building has been vacant since" },
+        { when: "January 2024", label: "Alecko makes Conlon an $8.3 million short-term bridge loan, due January 30, 2025" },
+        { when: "May 2025", label: "The extended repayment deadline passes without payment, according to the lender" },
+        { when: "October 2025", label: "Alecko Lending files a breach-of-contract suit claiming $9.2 million including interest and fees" },
+        { when: "November 10, 2025", label: "Alecko files a separate foreclosure suit against the Conlon-led ownership entity, The Real Deal reports" },
+        { when: "October 20, 2026", label: "Judge Jerry Esrig orders Conlon to pay $11,508,950 plus legal fees", current: true }
       ]
     },
     {
@@ -10559,8 +10462,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-324",
-      seoTitle: "3401 Bluff St. Boulder: X Corp. Wins Reversal of $8.2M Rent Judgment",
-      seoDescription: "Colorado Court of Appeals reverses $8.2M judgment for Lot 2 SBO against Twitter/X over the Railyards at S'PARK office lease in Boulder; TI rent credit applied automatically.",
+      seoTitle: "3401 Bluff St. Boulder: $8.2M Rent Judgment Against X Reversed",
+      seoDescription: "Colorado's Court of Appeals reversed an $8.2M judgment for Lot 2 SBO against X Corp. over a Boulder office lease, holding the TI rent credit was automatic.",
       property: {"name": "Railyards at S'PARK", "address": "3401 Bluff St.", "city": "Boulder", "state": "CO"},
       addedDate: "2026-10-23",
       title: "Lot 2 SBO, LLC v. Twitter, Inc. n/k/a X Corp.: Colorado Appeals Court Reverses $8.2M Boulder Office Rent Judgment Over Tenant-Improvement Rent Credit",
@@ -10568,36 +10471,35 @@ const RELAW_DATA = {
       category: "lease-disputes",
       status: "ruling",
       date: "2026-10-22",
-      jurisdiction: "Colorado Court of Appeals, Division IV (appeal from Boulder County District Court)",
+      jurisdiction: "Colorado Court of Appeals (appeal from Boulder County District Court)",
       state: "CO",
-      amount: "$8.2 million judgment reversed (reported elsewhere as $8.3 million, or about $10 million with attorney fees)",
+      amount: "$8.2 million judgment reversed",
       source: "live",
       sourceUrl: "https://www.courthousenews.com/colorado-appeals-court-voids-landlord-win-in-lease-dispute-with-twitter/",
       propertyType: "Office",
       summary: "On October 22, 2026, a unanimous Colorado Court of Appeals panel reversed the Boulder County judgment that had held Twitter, now X Corp., liable to landlord Lot 2 SBO, LLC for about $8.2 million in unpaid rent and expenses on a 64,557-square-foot office building in Boulder. The panel held that the lease's tenant-improvement rent credit took effect automatically once the build-out reached the lease threshold and the tenant gave written notice, whether or not the landlord had yet received lien-clearing draw documents. It did not enter judgment for X. It sent the case back to the trial court with directions.",
       significance: "The ruling shows how a lease's tenant-improvement allowance mechanics can decide whether a tenant who holds back rent is in default or is simply using a credit it earned. Landlords who make TI credits depend on lien waivers or draw packages need to say clearly that the paperwork is a condition of the credit, not only of the cash payout. Tenants get a reminder that applying a disputed credit against rent can lead to eviction and an eight-figure trial judgment before an appeals court sides with them.",
       body: [
-        "Twitter signed a 10-year lease with Colorado landlord Lot 2 SBO, LLC in 2020 for a 64,557-square-foot building in Boulder. The building, the Railyards at S'PARK office building at 3401 Bluff St., was still being built at the time. Courthouse News reports that the lease set monthly base rent at $199,866.88 once the improvements were finished. To get the company to sign while the shell was under construction, the landlord offered a tenant-improvement allowance of $90 per square foot. Twitter spent heavily turning the shell into a flagship office and then never moved in.",
-        "Twitter changed ownership in October 2022 and was later renamed X Corp. A dispute followed over whether the improvement allowance could be taken as a credit against rent. The landlord's position was that it was still waiting for draw documents showing that no contractors remained unpaid and able to lien the building, so it had not applied the credit and Twitter's rent was overdue. Twitter said it was using rent credits it had earned. Lot 2 SBO moved to evict, and X Corp. countersued, claiming the landlord breached the lease by failing to apply the credit. The two Boulder County cases, Nos. 23CV30342 and 23CV30461, were tried together.",
-        "Boulder County District Court Judge Nancy W. Salomone held a five-day bench trial in March 2025. In May 2025 she ruled that the landlord had properly evicted the tenant and ordered X Corp. to pay about $8.2 million in past-due rent and expenses. Reported totals vary. Law360 and BusinessDen put the judgment at $8.3 million, and BusinessDen's headline figure of $10 million appears to include attorney fees. X appealed, and the Court of Appeals heard argument in July 2026.",
-        "On October 22, 2026, a Division IV panel of the Court of Appeals reversed in Case No. 25CA1268. Judge Karl Schock wrote the opinion, and Judges Craig Welling and Katharine Lum joined it. The court read the lease to apply the TI rent credit automatically to the next rent payments once the improvement project crossed the lease threshold and the tenant gave written notice, even if the landlord did not yet have the draw documentation. Because of that reading, the tenant's failure to pay cash rent could not be the clean default the trial court found. The panel said its job was to enforce the bargain the parties made, not to decide which side had the better business deal. It did not enter judgment for X Corp. It remanded with directions for the trial court to reconsider in light of the opinion.",
-        "The opinion was issued as unpublished under Colorado Appellate Rule 35(e), so it is not binding precedent in Colorado. It can still guide how trial courts read similar TI-credit provisions. BusinessDen described the result as a loss for The John Buck Co., which it identifies as the landlord. The remand will decide what, if anything, the tenant owes once the credit is applied as the panel directed, and how the eviction and fee awards are affected.",
-        "Landlords should make sure TI allowance and rent-credit provisions state exactly which conditions must be met before a credit offsets rent. If lien waivers or draw packages are meant to be conditions, the lease should say that about the credit itself and not only about the cash disbursement. Tenants with large build-outs should document project completion and give the written notice the lease requires before they treat a credit as self-executing. Both sides should keep in mind that a trial win on a disputed credit can come apart on appeal, and an eviction that rests on that win carries the same risk."
+        "Twitter signed a 10-year lease in 2020 with Colorado landlord Lot 2 SBO, LLC for a 64,557-square-foot building in Boulder that was still under construction, Courthouse News reported. BizWest has identified the building as being at 3401 Bluff St. in the S'Park development and Lot 2 SBO as a holding company affiliated with S'Park co-owner The John Buck Co. Under the lease, monthly base rent was $199,866.88 once the build-out was complete, and the landlord offered a tenant-improvement allowance of $90 per square foot to get Twitter to sign. Twitter spent $40 million over two years turning the shell into a flagship office but never used it, according to Courthouse News.",
+        "After Elon Musk bought Twitter in October 2022 and renamed it X, the parties disputed whether the improvement allowance had to be applied as a credit against rent. The landlord said it was waiting on draw documents confirming that no contractors were owed before paying out the credit, and it evicted the tenant for nonpayment. X Corp. countersued, alleging the landlord breached the lease by failing to apply the credit; BizWest reported that X filed that suit (Case No. 2023CV30461) in June 2023 seeking about $5.8 million in allowance money.",
+        "After a five-day bench trial in March 2025, Boulder County District Court Judge Nancy Salomone found in May 2025 that Lot 2 SBO had properly evicted X and ordered the company to pay $8.2 million in past-due rent and expenses. On October 22, 2026, the Court of Appeals reversed in a 22-page opinion by Judge Karl Schock, joined by Judges Katharine Lum and Craig Welling. The panel held that once the improvement project crossed the lease's threshold and X gave written notice, the credit applied automatically to the next rent payments, whether or not the landlord had received the draw documents. Schock wrote that the court's job was to enforce the bargain the parties made, not to decide which side got the better deal.",
+        "The panel did not enter judgment for X. It sent the case back to the trial court to reconsider in light of the opinion. X's appellate counsel declined to comment, and counsel for Lot 2 SBO did not respond by press time, Courthouse News reported."
       ],
       tags: ["office lease", "tenant improvement allowance", "rent credit", "appeal", "boulder"],
       parties: [
         { name: "Lot 2 SBO, LLC", role: "Plaintiff-Appellee / Landlord" },
         { name: "Twitter, Inc., n/k/a X Corp.", role: "Defendant-Appellant / Tenant" }
       ],
-      judge: "Nancy W. Salomone",
+      judge: "Karl Schock",
       amountUsd: 8200000,
       amountBasis: "judgment",
       timeline: [
-        { when: "2020", label: "Twitter signs 10-year lease for 64,557-square-foot Boulder building" },
+        { when: "2020", label: "Twitter signs a 10-year lease for the 64,557-square-foot Boulder building" },
+        { when: "October 2022", label: "Elon Musk buys Twitter, later renamed X" },
+        { when: "June 2023", label: "X Corp. sues Lot 2 SBO over the tenant-improvement allowance after the landlord wins possession, BizWest reports" },
         { when: "March 2025", label: "Five-day bench trial in Boulder County District Court" },
-        { when: "May 2025", label: "Trial court upholds eviction and awards landlord about $8.2 million" },
-        { when: "July 2026", label: "Court of Appeals hears oral argument" },
-        { when: "October 22, 2026", label: "Court of Appeals reverses judgment and remands with directions", current: true }
+        { when: "May 2025", label: "Trial court upholds the eviction and awards the landlord $8.2 million" },
+        { when: "October 22, 2026", label: "Court of Appeals reverses the judgment and remands", current: true }
       ]
     },
     {
@@ -13331,27 +13233,23 @@ const RELAW_DATA = {
       id: "live-390",
       addedDate: "2026-11-11",
       seoTitle: "Chamber of Commerce Building Pittsburgh: $1.4M No-Bid Foreclosure",
-      seoDescription: "A Goldman Sachs-affiliated CMBS trust took title to Pittsburgh's Chamber of Commerce Building after a $1.4M credit bid drew no competing offers.",
+      seoDescription: "A Goldman Sachs-affiliated CMBS trust took over Pittsburgh's Chamber of Commerce Building when its $1.4M opening bid drew no rivals at a sheriff's sale.",
       property: {"name": "Chamber of Commerce Building", "address": "411 Seventh Avenue", "city": "Pittsburgh", "state": "PA"},
       title: "Goldman-Affiliated CMBS Trust Takes Pittsburgh's Chamber of Commerce Building at No-Bid Foreclosure Sale",
-      brief: "A Goldman Sachs-affiliated CMBS trust took title to Pittsburgh's historic Chamber of Commerce Building after its $1.4 million credit bid drew no competing bidders at a November 2 sheriff's sale.",
+      brief: "A Goldman Sachs-affiliated CMBS trust took over Pittsburgh's 1900-vintage Chamber of Commerce Building after its $1.4 million opening bid drew no competing bids at a Nov. 2 sheriff's sale.",
       category: "lending-foreclosure",
       status: "ruling",
       date: "2026-11-02",
       jurisdiction: "Allegheny County Court of Common Pleas, Pennsylvania",
       state: "PA",
-      amount: "$1.4M winning credit bid; no competing bidders",
+      amount: "$1.4M opening bid by the lender; no competing bids",
       source: "live",
-      sourceUrl: "https://www.connectcre.com/?p=504290#chamber-of-commerce-building",
-      summary: "A Goldman Sachs-affiliated CMBS trust foreclosed on 411 Seventh Avenue in downtown Pittsburgh, the historic Chamber of Commerce Building, after owner 411 Seventh Avenue Associates LP defaulted on its mortgage. At the November 2, 2026 Allegheny County sheriff's sale, the trust's $1.4 million opening credit bid drew no competing bidders, and the trust took title to the roughly 16-story office tower, according to a Pittsburgh Business Times report.",
-      significance: "A no-bid sheriff's sale is itself market evidence: it shows the lender's own credit bid was at or above what any third party was willing to pay for a mid-tier, partially vacant downtown office tower. For CMBS special servicers and bondholders, that is a real data point for loss-severity assumptions on comparable loans elsewhere in a pool, and for owners and lenders holding similarly positioned older office buildings in secondary downtown markets, it is a concrete signal of where clearing prices for this asset class currently sit.",
+      sourceUrl: "https://www.connectcre.com/stories/return-to-lender-week-of-nov-5-2026/#chamber-of-commerce-building",
+      summary: "A commercial mortgage-backed securities trust organized by a Goldman Sachs affiliate took over Pittsburgh's Chamber of Commerce Building at 411 Seventh Ave. after its $1.4 million opening bid drew no competing bids at the November 2, 2026 sheriff's sale, the Pittsburgh Business Times reported, according to Connect CRE. The trust, the plaintiff and holder of the loan, became the owner after foreclosure against the prior owner, 411 Seventh Avenue Associates LP.",
+      significance: "With no outside bidders, the lender's own $1.4 million opening bid set the price at which the building changed hands, and the trust now owns the property it had lent against. It is one data point on outside demand at auction for an older downtown office building.",
       body: [
-        "The lender behind a defaulted mortgage on 411 Seventh Avenue in downtown Pittsburgh, long known as the Chamber of Commerce Building, became the property's owner after no competing bidder showed up to challenge its own credit bid at a November 2, 2026 sheriff's sale. According to a Pittsburgh Business Times report, the plaintiff, a Goldman Sachs-affiliated CMBS trust, submitted an opening bid of $1.4 million, and with no other party bidding above that figure, the trust took title from the building's prior owner, 411 Seventh Avenue Associates LP.",
-        "The outcome is a small but telling data point in a familiar pattern for office landlords and CMBS investors nationally: a loan secured by an aging, mid-sized downtown office building goes into default, the lender forecloses, and when the building reaches the auction block, the market's verdict is that almost nobody wants to own it, even at a price that would have seemed implausibly low a decade earlier. A $1.4 million winning bid for a roughly 269-foot office tower in a major city's downtown core says more about how buyers are currently pricing lease-up risk, deferred capital needs, and financing availability for older office stock than market commentary alone could.",
-        "The building has carried the Chamber of Commerce name since its original construction in the early twentieth century for Pittsburgh's own chamber of commerce, and has functioned as conventional multi-tenant office space for decades since, most recently holding ENERGY STAR certification and counting at least one longtime law-firm tenant among its roster. Commercial listing data shows the building has carried meaningful vacancy in recent years, including large blocks of contiguous space on multiple floors -- the kind of overhang that has made older, amenity-light office buildings in secondary markets difficult to refinance as loans mature.",
-        "That dynamic appears to be exactly what played out here. The trust pursued a mortgage foreclosure through Allegheny County's court system, culminating in the November 2 monthly sheriff's sale. Pennsylvania foreclosure procedure allows a lender to credit-bid the amount it is owed, or a strategically lower figure, rather than pay cash, and when no third party outbids that credit bid, the lender becomes the record owner by operation of the sheriff's deed -- which is what happened here, with ownership passing through the foreclosure sale itself rather than a negotiated transaction.",
-        "For CMBS special servicers, bondholders, and workout counsel, a no-bid sheriff's sale functions much like a court ruling: it confirms, in the most market-tested way available, that the collateral's current fair value sits at or below whatever credit bid the lender was willing to make, which matters for loss-severity assumptions across an entire CMBS pool and not just the single loan involved. A trust left holding title after an auction nobody else entered inherits every carrying cost that comes with the asset -- property taxes, insurance, deferred maintenance, and leasing commissions needed to backfill vacancy -- in a market where tenant demand has not kept pace with available space.",
-        "Lenders and special servicers holding loans against older, partially vacant office buildings in secondary downtown markets should treat a no-bid outcome at a comparable property's sheriff's sale as real pricing evidence for their own reserve calculations, not an isolated anomaly. Borrowers facing a looming maturity default on similar assets should recognize that a credit-bid foreclosure, rather than a negotiated sale, may be the likely outcome once a lender concludes no cash buyer will clear the debt, and should weigh a deed-in-lieu or early workout accordingly; buyers tracking distressed office product should watch for lender-owned assets emerging from exactly this kind of auction, since trusts that end up as reluctant landlords are frequently near-term sellers once a property's basic occupancy and operations have stabilized."
+        "The Chamber of Commerce Building, a 1900-vintage redbrick office tower at 411 Seventh Ave. in downtown Pittsburgh that covers much of a block, received no outside bids at the county's monthly sheriff's sale on Monday, November 2, 2026, the Pittsburgh Business Times reported, according to Connect CRE.",
+        "The plaintiff and loan holder, a commercial mortgage-backed securities trust organized by an affiliate of Goldman Sachs, opened with a $1.4 million bid. No one bid against it, so the trust became the new owner, taking over from 411 Seventh Avenue Associates LP, which had faced foreclosure."
       ],
       tags: ["foreclosure", "office", "cmbs", "pennsylvania", "sheriff-sale"],
       parties: [
@@ -13361,7 +13259,7 @@ const RELAW_DATA = {
       amountUsd: 1400000,
       amountBasis: "purchase price",
       timeline: [
-        { when: "November 2, 2026", label: "Allegheny County sheriff's sale: trust's $1.4M credit bid draws no competing bidders; trust takes title", current: true }
+        { when: "November 2, 2026", label: "Sheriff's sale: the trust's $1.4M opening bid draws no competing bids, and the trust becomes the owner", current: true }
       ]
     },
     {
