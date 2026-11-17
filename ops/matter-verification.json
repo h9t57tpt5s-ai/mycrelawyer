@@ -120,6 +120,26 @@
      "https://www.courtlistener.com/opinion/11062921/bte-properties-llc-v-parkman-twp/"
     ]
    }
+  },
+  "live-419": {
+   "verifiedOn": "2026-11-17",
+   "sourceUrl": "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-thursday-november-twelfth",
+   "urls": [
+    "https://www.bankruptcyobserver.com/bankruptcy-case/highlander-hotel",
+    "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-thursday-november-twelfth",
+    "https://www.yahoo.com/news/articles/highlander-hotel-iowa-city-files-182802019.html"
+   ],
+   "quotes": 7,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-thursday-november-twelfth",
+     "https://www.bankruptcyobserver.com/bankruptcy-case/highlander-hotel",
+     "https://www.yahoo.com/news/articles/highlander-hotel-iowa-city-files-182802019.html"
+    ]
+   }
   }
  }
 }

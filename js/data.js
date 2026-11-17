@@ -13601,6 +13601,44 @@ const RELAW_DATA = {
         { when: "February 17, 2026", label: "Trial court issues judgment entry granting summary judgment to the township" },
         { when: "November 16, 2026", label: "Eleventh District affirms; one judge dissents", current: true }
       ]
+    },
+    {
+      id: "live-419",
+      seoTitle: "Highlander Hotel Iowa City: Chapter 11 Plan Confirmed Nov. 12",
+      seoDescription: "Highlander Hotel, LLC, which filed Chapter 11 in December 2025 over the Iowa City hotel's unpaid loans, had its plan confirmed on Nov. 12, 2026.",
+      property: {"name": "The Highlander Hotel", "address": null, "city": "Iowa City", "state": "IA"},
+      addedDate: "2026-11-17",
+      title: "In re Highlander Hotel, LLC: Bankruptcy Court Confirms Chapter 11 Plan in Iowa City Hotel Case",
+      brief: "A federal bankruptcy court confirmed the Chapter 11 plan of Highlander Hotel, LLC on Nov. 12, 2026. The Iowa City Press-Citizen reported in December 2025 that MMG Investments had sued over more than $4.4 million in unpaid loans.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-12",
+      jurisdiction: "U.S. Bankruptcy Court, Southern District of Iowa",
+      state: "IA",
+      amount: "More than $4.4 million in unpaid loans claimed in an earlier suit",
+      source: "live",
+      sourceUrl: "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-thursday-november-twelfth",
+      propertyType: "Hospitality",
+      summary: "The U.S. Bankruptcy Court for the Southern District of Iowa confirmed the Chapter 11 plan of Highlander Hotel, LLC, with the order docketed Nov. 12, 2026, according to Bankruptcy Observer's docket brief. The case was filed Dec. 16, 2025. The court confirmed Grinnell Center's Chapter 11 plan the same day.",
+      significance: "The confirmation order comes in a Chapter 11 case that the Iowa City Press-Citizen reported was filed over several million dollars in unpaid loans, after MMG Investments sued over more than $4.4 million in unpaid loans. The sources opened do not describe the plan's terms, so how creditors are treated is not reported here.",
+      body: [
+        "The U.S. Bankruptcy Court for the Southern District of Iowa confirmed the Chapter 11 plan of Highlander Hotel, LLC, Bankruptcy Observer reported in its daily docket brief. The brief says the court docketed an order confirming the plan (Dkt. 132) on Nov. 12, 2026 in Case No. 25-02166, and that it confirmed Grinnell Center's Chapter 11 plan the same day. Bankruptcy Observer's case page lists Judge Lee M. Jackwig on the case.",
+        "The case was filed on Dec. 16, 2025, according to Bankruptcy Observer.",
+        "The Iowa City Press-Citizen reported in December 2025 that the hotel filed over several million dollars in unpaid loans, and that the company running it was first sued in Johnson County district court in October 2025 by MMG Investments, a New York company, over more than $4.4 million in unpaid loans. The newspaper, citing federal court documents, listed MMG Investments, the Small Business Administration, the Iowa Department of Revenue, Choice Hotels and Johnson County among the creditors.",
+        "None of the sources opened describes the terms of the confirmed plan."
+      ],
+      tags: ["chapter 11", "hotel", "plan confirmation", "iowa city"],
+      parties: [
+        { name: "Highlander Hotel, LLC", role: "Debtor" },
+        { name: "MMG Investments", role: "Creditor" }
+      ],
+      judge: "Lee M. Jackwig",
+      amountUsd: null,
+      timeline: [
+        { when: "October 2025", label: "MMG Investments sues the company running the hotel in Iowa District Court for Johnson County over more than $4.4 million in unpaid loans, per the Iowa City Press-Citizen" },
+        { when: "December 16, 2025", label: "Highlander Hotel, LLC files Chapter 11 in the Southern District of Iowa" },
+        { when: "November 12, 2026", label: "Court dockets order confirming the Chapter 11 plan (Dkt. 132)", current: true }
+      ]
     }
   ],
 
