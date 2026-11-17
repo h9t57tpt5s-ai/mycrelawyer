@@ -4,6 +4,316 @@
  "entries": [
   {
    "date": "2026-11-16",
+   "scope": "live-250",
+   "caseId": "live-250",
+   "subject": "White Sulphur Springs Holdings LLC v. Greenbrier Hotel Corporation (The Greenbrier Receivership Suit, Dismissed After New Financing)",
+   "kind": "Corrected: date, description, figure, party",
+   "was": "roughly $289 million in loans | Within days it filed its own suit against WSSH in Greenbrier County Circuit Court | The state complaint accuses the bank and the hotel company of conspiring to acquire the discounted debt rather than negotiate a workout in good faith | April 13, 2026: Greenbrier Hotel Corporation sues WSSH in Greenbrier County Circuit Court and moves to stay the federal case",
+   "now": "about $300 million in debt (West Virginia Watch); more than $387 million owed per court documents (The Intermountain) | The Justice family's state suit named TRT Holdings and others (later Carter Bank), not WSSH | The amended state complaint alleges TRT and Carter Bank violated antitrust laws and conspired to sabotage refinancing and force a default; TRT denies it | State suit filed days after April 9; motion to stay the federal case filed April 16, 2026",
+   "basis": "Checked against the source article and court docket: West Virginia Watch, Apr. 30, 2026; The Intermountain, Aug. 15, 2026 | West Virginia Watch, Apr. 30, 2026; The Intermountain, Aug. 15, 2026 | West Virginia Watch, Apr. 30, 2026 | West Virginia Watch; CourtListener docket No. 5:26-cv-00257"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-192",
+   "caseId": "live-192",
+   "subject": "A&F Williams Street LLC v. New York Power Authority ($3M+ Structural Damage Suit Over White Plains Garage Demolition)",
+   "kind": "Corrected: description",
+   "was": "A&F's suit alleges that the access agreement did not anticipate, and A&F did not consent to, the level of physical damage that followed | repairs to the building are now estimated to run past $3 million",
+   "now": "The complaint says NYPA agreed in the access agreement to fix any damage the project caused, and then denied responsibility | the complaint says rebuilding the roof will cost more than $3 million",
+   "basis": "Checked against the source article: Westfair Communications, 'White Plains landlord sues New York Power Authority for $3M' | Westfair Communications"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-260",
+   "caseId": "live-260",
+   "subject": "Port of Tacoma v. PQ LLC: Cleanup-Cost Suit Over Former Tideflats Sodium Silicate Plant",
+   "kind": "Corrected: date, description, figure",
+   "was": "date 2026-03-27 (timeline: 'March 27, 2026: PQ LLC countersues') | close to $10 million in cleanup costs | a 2016 cost-sharing agreement between the parties collapsed in April 2025",
+   "now": "Complaint filed February 20, 2026; PQ's answer and counterclaim filed March 26, 2026 | more than $8 million incurred so far (including a $7.3 million interim action), plus future costs | the Port terminated the 2016 interim cost-sharing agreement on April 15, 2025 after PQ refused to reimburse costs for a several-month period (as the Port alleges)",
+   "basis": "Checked against the source article and court docket: CourtListener docket, W.D. Wash. No. 3:26-cv-05162 | Complaint, ECF No. 1, paras. 71-74 | Complaint, ECF No. 1, paras. 65-66"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-110",
+   "caseId": "live-110",
+   "subject": "Thompson Thrift Construction, Inc. v. Modus Studio, PLLC (Fayetteville Student Housing Defect Suit)",
+   "kind": "Corrected: date, description",
+   "was": "Thompson Thrift responded the same month [July 2019] by filing third-party claims | 2022: An arbitrator awards West Center Partners $13,529,726 | The court remanded Thompson Thrift's contribution and indemnification claims against Modus for further proceedings alongside the claims against the remaining subcontractor defendants",
+   "now": "Thompson Thrift filed its third-party complaint on August 14, 2019 | The opinion does not date the award; May 2022 is the date of a declaratory judgment on arbitration with four subcontractors, after which the award followed | The court reversed the dismissal of Thompson Thrift's refiled claims against Modus",
+   "basis": "Checked against the source article: Thompson Thrift Constr., Inc. v. Modus Studio, PLLC, 2025 Ark. App. 193 | 2025 Ark. App. 193 | 2025 Ark. App. 193 (disposition: 'Reversed')"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-007",
+   "caseId": "live-007",
+   "subject": "Via Mizner Lender 1 LLC v. Via Mizner Owner III, LLC (Mandarin Oriental Residences, Boca Raton Foreclosure)",
+   "kind": "Corrected: description, party",
+   "was": "A lender group led by Via Mizner Lender 1 LLC, tied to Apollo Global Management | missed a February 2025 completion deadline",
+   "now": "Via Mizner Lender 1 LLC, administrative agent for a group of lenders (the source names no Apollo tie) | removed; the source reports only the June 2024 interest stoppage and the September 2025 payoff failure",
+   "basis": "Checked against the source article: The Coastal Star, July 29, 2026 | The Coastal Star, July 29, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-119",
+   "caseId": "live-119",
+   "subject": "The State of Texas v. JRJ Pusok Holdings, LLC",
+   "kind": "Corrected: date, description",
+   "was": "The Texas Supreme Court unanimously-on-the-immunity-question held | 2024: The Fourteenth Court of Appeals reverses the trial court's dismissal",
+   "now": "The Court ruled 6-3: Justice Bland wrote for six justices, and Justice Hawkins dissented, joined by Justice Sullivan and in part by Chief Justice Blacklock. | December 28, 2023 (693 S.W.3d 679)",
+   "basis": "Checked against the source article and court docket: TAMES docket, No. 24-0447 | TAMES docket, No. 24-0447, court of appeals information"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-121",
+   "caseId": "live-121",
+   "subject": "ATC Indoor DAS LLC v. MM CCM 48M Leasing, LLC and MM CCM 48M, LLC (Collin Creek Mall Lease Dispute)",
+   "kind": "Corrected: date, description, party",
+   "was": "MM CCM 48M Leasing, LLC -- which bought the failing mall and assumed the host lease | remanded the case for further proceedings on attorney's fees and ATC's remaining claims against MM CCM 48M, LLC | 2023: Trial court cross-motions for summary judgment result in judgment for the landlord",
+   "now": "MM CCM 48M, LLC bought the mall and assumed the lease; MM CCM 48M Leasing sent the termination letter, and whether it is a proper party is a remaining fact issue. | remanded ATC's attorney's fees claim and its claims against MM CCM 48M Leasing, LLC | Trial court judgment signed June 24, 2024",
+   "basis": "Checked against the source article and court docket: Texas Civil Justice League summary of No. 05-24-00769-CV | Texas Civil Justice League summary | TAMES docket, No. 05-24-00769-CV"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-407",
+   "caseId": "live-407",
+   "subject": "National Hairston Clan v. Stokes County: Community Groups File Second Suit to Void 1,850-Acre Project Delta Data Center Rezoning",
+   "kind": "Corrected: description",
+   "was": "An earlier rezoning of the same land was voided by consent judgment in August after the same lawyers sued over notice defects.",
+   "now": "The first suit challenged the rezoning's process (not specifically notice); the county voided that rezoning in April and the court formally voided it in August on a joint motion.",
+   "basis": "Checked against the source article: plaintiffs' counsel's release, Nov. 13, 2026, and case page; WFDD, Sept. 15, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-274",
+   "caseId": "live-274",
+   "subject": "Landlord Sues Physical Intelligence Over 2000 Folsom Street Holdover; Anthropic Reported as Next Tenant",
+   "kind": "Corrected: description, figure",
+   "was": "The landlords allege Physical Intelligence exercised that rollover but never properly terminated it | expanding a tenant's footprint beyond the leased premises ... adds an independent theory of liability | underlying lease was $60,000/month for ~29,000 sq. ft.",
+   "now": "The landlord sent a termination notice in May; in June the tenant signed an amendment raising rent to $160,000 a month through September and eliminating the month-to-month option. The suit followed the September lease end. | The landlord agreed to waive the alleged unauthorized expansion and is seeking the company's immediate departure. | the original lease was $60,000/month; the June amendment set $160,000/month for an expanded footprint through September",
+   "basis": "Checked against the source article: The San Francisco Standard, Oct. 6, 2026 | The San Francisco Standard, Oct. 6, 2026 | The San Francisco Standard, Oct. 6, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-025",
+   "subject": "Bank Midwest, N.A. v. The Integritty Group (Qdoba Restaurant Portfolio Loan Default)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Bank Midwest, N.A. v. The Integritty Group (Qdoba Restaurant Portfolio Loan Default)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; REMOVE: out of scope. This is a business-loan default against a restaurant franchise operator, not a commercial real estate dispute on its face. The CourtListener docket lists the case as Nature of Suit 190 'Contract: Other' (diversity contract default); the complaint exhibits are a term loan agreem"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-164",
+   "caseId": "live-164",
+   "subject": "NSI, A.1 LLC v. City of Springfield (Developer Sues to Block Springfield's Data Center Moratorium)",
+   "kind": "Corrected: description",
+   "was": "the moratorium was adopted without the plan-commission review, public hearing, and Sunshine Law notice a genuine zoning change requires",
+   "now": "The petition argues the moratorium is zoning legislation in substance that does not comply with Missouri zoning law and was not validly enacted under the city charter's rules for emergency and one-reading bills; the Sunshine Law count concerns a public records request, not meeting notice.",
+   "basis": "Checked against the source article: Springfield Business Journal, Sept. 18, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-090",
+   "caseId": "live-090",
+   "subject": "Four Mile Capital LLC v. Reynolds South Tower LLC (River's Edge at Manchester Construction-Defect Fraud Suit)",
+   "kind": "Corrected: date, description, figure, party",
+   "was": "On October 21, 2026, the court largely denied the motion to dismiss | allowing the fraud, breach of contract, negligence and business conspiracy claims to proceed | sued developer Reynolds South Tower LLC and two of its principals personally | bought ... for nearly $50M in 2021",
+   "now": "The opinion and order was issued Sept. 21, 2026; Oct. 21 is the BizSense publication date | Largely denied, but the demurrer was sustained on certain counts against Purcell Construction, and Purcell was later dropped from the breach of contract claim | sued Reynolds South Tower LLC and Purcell Construction Corp. | $47.5 million",
+   "basis": "Checked against the source article: Richmond BizSense, Oct. 21, 2026 | Richmond BizSense, Oct. 21, 2026 | Richmond BizSense, Aug. 17 and Oct. 21, 2026 | Richmond BizSense, Oct. 21, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-094",
+   "caseId": "live-094",
+   "subject": "Feather-Craft et al. v. City of Brentwood (Manchester Road Blight Designation Appeal)",
+   "kind": "Corrected: figure, party",
+   "was": "Four small, longstanding businesses and a family that owns the building one of them leases | the city's own recently completed $120 million Brentwood Bound project",
+   "now": "Three businesses and the owners of the building Feather-Craft leases (8307 Manchester, LLC) | Reason: the court found an $80 million flood mitigation project completed in 2022; plaintiffs' counsel describes a $120 million street and flood project",
+   "basis": "Checked against the source article: Plaintiffs' counsel press releases, Dec. 2023 and Sept. 26, 2025; Missouri Supreme Court minutes, Apr. 21, 2026 | Reason, Oct. 3, 2025; plaintiffs' counsel press release, Sept. 26, 2025"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-366",
+   "caseId": "live-366",
+   "subject": "Wells Fargo Bank, N.A. v. Tech Park Owner LLC (Rochester Tech Park $96.9M Foreclosure)",
+   "kind": "Corrected: date, description, figure",
+   "was": "owe roughly $96.9 million in principal, interest and fees | advanced ... to keep the utility from shutting off power to the complex | October 22, 2026: Wells Fargo moves for summary judgment",
+   "now": "$96.9 million in principal, plus mounting interest and fees | the first payment cured a delinquency that had already led to a power shutoff; the second prevented further shutoffs | October 2026 (Oct. 22 is the RBJ publication date; the filing date is not given)",
+   "basis": "Checked against the source article: Rochester Business Journal, Oct. 22, 2026 | Rochester Business Journal, Oct. 22, 2026 | Rochester Business Journal, Oct. 22, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-315",
+   "caseId": "live-315",
+   "subject": "Elizon DB Transfer Agent LLC v. Hungerford Building Owner (Rochester Mixed-Use Foreclosure Appeal)",
+   "kind": "Corrected: description, party",
+   "was": "The appeal automatically paused the scheduled auction | after an earlier default, the parties signed a forbearance agreement extending the loan's maturity to December 2024 | Defendants HB Factory LLC and PH Realty Capital LLC",
+   "now": "The auction is on hold after the appeal was filed (no automatic stay is reported) | the parties twice agreed to extend the loan's maturity before the September 2025 foreclosure filing | removed; RBJ names The Hungerford Building LLC, its owner and unnamed affiliated entities",
+   "basis": "Checked against the source article: Rochester Business Journal, Oct. 15, 2026 | Rochester Business Journal, Sept. 10, 2026 | Rochester Business Journal, Sept. 10 and Oct. 1, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-201",
+   "caseId": "live-201",
+   "subject": "U.S. Bank & Wells Fargo v. Wilmorite (Eastview Mall $210M Foreclosure and Eminent Domain Fight)",
+   "kind": "Corrected: date, description",
+   "was": "In objections filed September 25 ... counsel for lenders | At the September 28 hearing, Victor officials heard extended public comment and lender objections but left the matter open rather than voting | Their September 25 objection contends the town's proposal does not adequately identify which specific property rights it intends to acquire, was not preceded by the environmental review | date 2026-09-25",
+   "now": "A letter sent Sept. 25 to the town supervisor and the town | removed; the RBJ article was published before the hearing and reports no outcome | The letter disputes Wilmorite's funding claims ($9.4M disbursed, ~$6M taxes/PILOT paid) and says eminent domain is not a mechanism for borrower relief | 2026-09-08, the foreclosure filing date (Sept. 25 was a letter, not a court filing)",
+   "basis": "Checked against the source article: Rochester Business Journal, Sept. 28, 2026 | Rochester Business Journal, Sept. 28, 2026 | Rochester Business Journal, Sept. 28, 2026 | Rochester Business Journal, Sept. 28, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-173",
+   "caseId": "live-173",
+   "subject": "Computershare Trust Co. v. Showboat Properties LLC (CMBS Foreclosure on Atlantic City's Showboat Hotel)",
+   "kind": "Corrected: description, figure",
+   "was": "$48.4 million CMBS loan | owes roughly $223,000 in taxes | at least two separate contractor disputes tied to construction and renovation work at the Showboat's waterpark attraction. In one, ... Lee-Way Electrical | court sets an October 9, 2026 hearing to decide the matter (current)",
+   "now": "$48.5 million loan | a $401,768.99 state tax lien is alleged | removed; Lee-Way's judgment was for electrical work on parts of the Showboat complex and its garage, not the waterpark | a ruling on summary judgment was scheduled for Nov. 6, 2026; outcome not reported",
+   "basis": "Checked against the source article: Press of Atlantic City, Aug. 7, 2026; Casino.org; Philadelphia Inquirer | Philadelphia Inquirer, Oct. 31, 2026 | CDC Gaming (republishing the Press of Atlantic City), Mar. 14, 2025 | Philadelphia Inquirer, Oct. 31, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-215",
+   "caseId": "live-215",
+   "subject": "Oklahoma Department of Securities v. Vesta Realty, LLC (Subpoena Enforcement Action)",
+   "kind": "Corrected: description",
+   "was": "Kulick faces at least 28 lawsuits filed in 2026 alone, including a civil racketeering suit filed by [an individual investor] ... and a separate fraud suit by [his business partner] accusing Kulick of diverting more than $37 million",
+   "now": "At least 28 lawsuits filed in 2026 against Kulick, his company or a property he controlled, including the business partner's suit; the separate investor RICO suit and the $37 million figure are not in this source",
+   "basis": "Checked against the source article: Oklahoma Watch, Oct. 1, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-081",
+   "caseId": "live-081",
+   "subject": "Vesta Realty Partner's Fraud Suit Against CEO Marc Kulick (Kansas)",
+   "kind": "Corrected: description, figure",
+   "was": "diverting more than $37 million in investor and company funds for personal use | Kulick has moved to dismiss on the theory that a religious tribunal ... has exclusive jurisdiction ... that motion remains pending | YSA itself filed for Chapter 11 protection in the U.S. Bankruptcy Court for the District of Delaware, with a Chapter 11 trustee appointed within minutes",
+   "now": "the suit alleges at least $37 million in personal credit card payments from company funds (KJRH); Oklahoma Watch describes the alleged diversions as hundreds of thousands of dollars | removed; no source reviewed reports a heter iska, beis din or motion to dismiss | removed; Bisnow reports Vesta-affiliated entities filed for bankruptcy and Kulick filed a case against YSA in a Texas bankruptcy court, and Oklahoma Watch refers to competing bankruptcy proceedings between Vesta and YSA",
+   "basis": "Checked against the source article: KJRH; Oklahoma Watch, Apr. 8, 2026 | Oklahoma Watch, KJRH and Bisnow coverage reviewed | Bisnow, July 23, 2026; Oklahoma Watch, Oct. 1, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-219",
+   "caseId": "live-219",
+   "subject": "N17 Development v. City of Menlo Park (Willow Park Housing-Law Suit)",
+   "kind": "Corrected: date, description, figure",
+   "was": "California Attorney General Rob Bonta ... sent Menlo Park a letter in August 2026 | fines that can run as high as $10,000 per ... unit -- a formula that puts Menlo Park's potential exposure at up to $33 million | the city strung out review ... through shifting objections rather than issuing an approval or denial | the city attorney maintaining that staff carefully reviewed the application at every stage",
+   "now": "The Attorney General's office sent the notice on July 29, 2026 | $10,000 per unit means at least $6.65 million (KQED); the up-to-$33 million figure is The Registry's | The suit alleges the city violated state housing laws by not processing the project under AB 2011 and denying it Builder's Remedy protections; the city says it followed state law | Mayor Betsy Nash: 'We are not rejecting the project'; the city's Oct. 1 letter says it processed the application under state law",
+   "basis": "Checked against the source article: City of Menlo Park 80 Willow Rd. project page | KQED, Oct. 6, 2026; The Registry headline, Oct. 2, 2026 | City of Menlo Park project page; KQED | KQED; City of Menlo Park project page"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-177",
+   "caseId": "live-177",
+   "subject": "Receiver Appointed for Unico-Linked First and Union Retail Condo After $14.5M Loan Default",
+   "kind": "Corrected: description",
+   "was": "a long-stalled loan default can convert into a formal loss of asset control once a lender's patience runs out",
+   "now": "Unico and lender HFX Funding LLC agreed to the receivership; a court commissioner made the appointment",
+   "basis": "Checked against the source article: Connect CRE, Sept. 24, 2026, citing the Puget Sound Business Journal"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-186",
+   "caseId": "live-186",
+   "subject": "Embassy Suites Portland Airport $49.7M CMBS Loan Moves to Special Servicing After Missed Maturity",
+   "kind": "Corrected: date",
+   "was": "date 2026-09-24",
+   "now": "2026-09-11, the special-servicing transfer date",
+   "basis": "Checked against the source article: KBRA GSMS 2016-GS4 surveillance release, Oct. 9, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "matter",
+   "caseId": "live-152",
+   "subject": "Mud Puddle Investments v. City of Siloam Springs (Cloudview Estates Subdivision Plat-Denial Suit)",
+   "kind": "Removed: out of scope",
+   "was": "Listed on the tracker as: Mud Puddle Investments v. City of Siloam Springs (Cloudview Estates Subdivision Plat-Denial Suit)",
+   "now": "Removed. It is not a commercial real estate matter on its face; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule; Out of scope: Cloudview Estates is a 319-lot single-family home subdivision (Herald-Leader: '319 single-family homes'). A residential subdivision plat denial is not a commercial real estate matter on its face, and CLAUDE.md says to leave borderline residential categories out. If the main session kee"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-372",
+   "caseId": "live-372",
+   "subject": "JZ Investments, Inc. v. Belpointe PREP, LLC (Mansfield, Conn. Development Stake Dispute)",
+   "kind": "Corrected: description, party",
+   "was": "Belpointe Prep OC LLC (Defendant) | brought the suit both individually and derivatively on behalf of CMC Storrs SPV, LLC",
+   "now": "Not listed; Belpointe's 10-Q names Belpointe PREP, LLC, BPOZ Storrs Holding, LLC, CMC Storrs SPV and the former partner as defendants | individually and derivatively as an equity holder of CMC QOF I, LLC",
+   "basis": "Checked against the source article: Belpointe PREP, LLC Form 10-Q filed Nov. 4, 2026 (SEC EDGAR), Note 11 | Belpointe PREP, LLC Form 10-Q filed Nov. 4, 2026, Note 11"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-214",
+   "caseId": "live-214",
+   "subject": "Grand 1401 Owner v. City of Fresno (Downtown Parking Dispute)",
+   "kind": "Corrected: description, party",
+   "was": "[The developer's] lawsuit against the City of Fresno and City Councilmember Miguel Arias has been set for a jury trial | separately alleges that Arias's conduct toward [the developer] and the project involved discrimination and corruption -- allegations the city and Arias have not conceded",
+   "now": "Arias was dismissed from the suit in 2022 on an anti-SLAPP motion; the claims against the city were set for trial | The developer alleged Arias obstructed the project and sought a campaign donation; Arias denies it, and the judge dismissed him from the case in 2022 for lack of evidence",
+   "basis": "Checked against the source article: GV Wire, May 12, 2022 and Oct. 2, 2026 | GV Wire, May 12, 2022 and Oct. 2, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-065",
+   "caseId": "live-065",
+   "subject": "In re Palmer Center Foreclosure — Wells Fargo Tower & FirstBank Building (Colorado Springs Public Trustee Foreclosure)",
+   "kind": "Corrected: description",
+   "was": "controlled by private real estate development, investment, and management companies headquartered in California | the Wells Fargo and FirstBank names both reflect long-term banking tenancies rather than mere branding | as owners of distressed Colorado office towers, including Denver's Republic Plaza, have done in comparable situations this year [moved to enjoin the sale]",
+   "now": "controlled by companies with principal offices in California and in Canada | Removed; The Gazette reports FirstBank bought the building's naming rights in 2006 | Removed; The Gazette reports only that Republic Plaza is facing receivership after a March loan default",
+   "basis": "Checked against the source article: The Gazette, Aug. 25, 2026 | The Gazette, Aug. 25, 2026 | The Gazette, Aug. 25, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-410",
+   "caseId": "live-410",
+   "subject": "In re F-Star Socorro, L.P. (Five Star Development): Court Conditionally Approves Disclosure Statement, Sending Commercial Property Debtors' $180M Exit Plan to a Creditor Vote",
+   "kind": "Corrected: party",
+   "was": "Five Star Development (Debtor)",
+   "now": "Five Star Development Properties, LLC (Debtor)",
+   "basis": "Checked against the source article: CourtListener RECAP: Five Star Development Properties, LLC, Bankr. S.D. Tex. 2025, jointly administered with No. 25-90607"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-272",
+   "caseId": "live-272",
+   "subject": "Southridge Mall Foreclosure: Milwaukee County Court Approves Sale of Simon-Affiliated Mall to Receiver-Linked Buyer Assuming $101.9M Loan",
+   "kind": "Corrected: description, figure",
+   "was": "Southridge Mall, 5300 S. 76th St. | the roughly 560,000-square-foot core of the mall | Judge William S. Pocan Jr.",
+   "now": "5300 S. 76th St. is the address of the separately owned former Boston Store property, not the mall core being sold | Square footage removed; Connect CRE describes the loan collateral as a 571,000-square-foot portion | Judge William Pocan",
+   "basis": "Checked against the source article: Milwaukee Journal Sentinel via The Daily Reporter, Oct. 12, 2026 | Connect CRE, Return to Lender, week of Oct. 8, 2026 | Milwaukee Journal Sentinel via The Daily Reporter, Oct. 12, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-138",
+   "caseId": "live-138",
+   "subject": "Gunwerks, LLC v. Forward Cody Wyoming, Inc. (Manufacturing Facility Design-Build Third-Party Beneficiary Appeal)",
+   "kind": "Corrected: date, description",
+   "was": "leaving Gunwerks' direct breach-of-contract claim against Forward Cody as its only surviving avenue | Gunwerks sued Forward Cody directly for breach of contract in November 2021, and separately sued Plan One and Sletten",
+   "now": "The district court also granted Forward Cody summary judgment; the Supreme Court reversed that ruling too | Gunwerks sued Forward Cody in 2021 and added the architect and contractor in 2022",
+   "basis": "Checked against the source article: 2026 WY 16, para. 1 (CourtListener); Cowboy State Daily, Feb. 2, 2026 | Cowboy State Daily, Feb. 2, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-276",
+   "caseId": "live-276",
+   "subject": "Silver Fox 606 LLC v. Village of Indiantown: Data Center Developer Sues Over Appeal of Its Plat Approval",
+   "kind": "Corrected: date, description, figure",
+   "was": "It says it has since spent more than $25 million developing the project | the village's community and economic development director approved Silver Fox's plat application on September 2, 2026 | At the same meeting, the council removed the village manager and the village attorney",
+   "now": "CBS12 describes it as a $25 million project | CBS12 reports the director approved the plat on September 17 | The council fired the village manager 3-2 on September 1; the village attorney had resigned August 18",
+   "basis": "Checked against the source article: CBS12, Oct. 12, 2026 | CBS12, Oct. 12, 2026 | WQCS, Sept. 2, 2026"
+  },
+  {
+   "date": "2026-11-16",
+   "scope": "live-368",
+   "caseId": "live-368",
+   "subject": "Resident Sues Botetourt County Over Closed-Session Approval of Google Data Center Agreement",
+   "kind": "Corrected: description",
+   "was": "the plaintiff's attorney has said the suit is focused narrowly on how the performance agreement was adopted rather than on the merits | the agreement created performance grants that effectively cap the data center's personal-property-tax burden",
+   "now": "The resident's attorney said he was focused on winning the suit and that the law calls for a hearing within seven working days | Removed; County Administrator Gary Larrowe has said Google will pay the same 70-cent tax rate as any other landowner",
+   "basis": "Checked against the source article: Cardinal News, Nov. 2, 2026 | Cardinal News, Nov. 2, 2026"
+  },
+  {
+   "date": "2026-11-16",
    "scope": "live-099",
    "caseId": "live-099",
    "subject": "Fortress Credit Corp. v. 601W Cos. (Dayton's Project Foreclosure, About $220M Owed)",
