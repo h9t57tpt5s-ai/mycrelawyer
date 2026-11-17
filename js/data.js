@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-16",
+  lastUpdatedDate: "2026-11-17",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -13325,6 +13325,82 @@ const RELAW_DATA = {
         { when: "June 2026", label: "Developer files land use appeal in Chester County Court of Common Pleas" },
         { when: "November 10, 2026", label: "Judge Forzato grants intervention to adjoining farm owners and East Vincent Advocacy", current: true },
         { when: "November 18, 2026", label: "Deadline for counsel to propose a briefing schedule" }
+      ]
+    },
+    {
+      id: "live-412",
+      seoTitle: "Exton Square Mall: Judge Approves Abrams Realty Redevelopment",
+      seoDescription: "A Chester County judge ruled for Abrams Realty & Development on its Exton Square Mall redevelopment after West Whiteland Township's denial. Appeal planned.",
+      property: {"name": "Exton Square Mall", "address": null, "city": "Exton", "state": "PA"},
+      addedDate: "2026-11-17",
+      title: "Exton Square Mall: Chester County Judge Rules for Abrams Realty & Development on Mixed-Use Redevelopment After Township Supervisors' Denial",
+      brief: "A Chester County judge ruled for Abrams Realty & Development on its plan to replace the closed Exton Square Mall with townhouses, apartments, shops and restaurants. The township supervisors say they intend to appeal.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-13",
+      jurisdiction: "Chester County Court of Common Pleas, Pennsylvania",
+      state: "PA",
+      amount: "Approval of a mixed-use mall redevelopment",
+      source: "live",
+      sourceUrl: "https://www.inquirer.com/real-estate/commercial/exton-square-mall-redevelopment-town-center-20261116.html",
+      propertyType: "Mixed-Use",
+      summary: "The Philadelphia Inquirer reported that Chester County Court of Common Pleas Judge Sarah B. Black ruled on Friday, November 13, 2026, for Abrams Realty & Development, the owner of the closed Exton Square Mall, in its suit against the West Whiteland Township Supervisors, who had rejected its redevelopment plans. The project would include 172 townhouses, 381 apartments and 165 age-restricted apartments. The supervisors' chair said the board intends to appeal.",
+      significance: "The developer argued that its plan meets the township's zoning requirements and should be approved, and the judge agreed over a denial that cited sewer, traffic and density concerns. For owners converting closed malls to mixed use, it is an example of a court siding with the applicant after a local board said no. The planned appeal means the approval is not yet final.",
+      body: [
+        "The Exton Square Mall is a nearly 1 million-square-foot enclosed center that closed this summer, the Philadelphia Inquirer reported. Its owner, Abrams Realty & Development, wants to knock down the enclosed mall and build a mixed-use complex with apartments, shops and restaurants. According to the Inquirer, the project would include 172 townhouses, 381 apartments and 165 age-restricted apartments, and the developer has said it would build nearly 170,000 square feet of new shops, restaurants and other commercial space along with 120,000 square feet of fitness and entertainment venues. The property's 178,000-square-foot Boscov's would remain.",
+        "Last fall the West Whiteland Township Supervisors rejected the plans, citing sewer, traffic and density concerns, the Inquirer reported. The developer sued the supervisors, arguing that the plan meets the township's zoning requirements and should be approved. On Friday, November 13, 2026, Chester County Court of Common Pleas Judge Sarah B. Black agreed. As quoted by the Inquirer, her order said it appeared the supervisors held the developer to a \"higher standard due to fears of overdevelopment,\" and that the developer had provided sufficient evidence to obtain the presumption that the use was consistent with the public health, safety and welfare of the township.",
+        "The chair of the supervisors told the Inquirer that the township is pursuing all its legal options and that the board intends to appeal the decision. The developer's chief executive said his company plans to start demolishing the mall by early summer. For lenders and tenants looking at the project, the planned appeal means the approval is not yet final."
+      ],
+      tags: ["mall redevelopment", "mixed-use", "land use appeal", "pennsylvania"],
+      parties: [
+        { name: "Abrams Realty & Development", role: "Plaintiff" },
+        { name: "West Whiteland Township Supervisors", role: "Defendant" }
+      ],
+      judge: "Sarah B. Black",
+      amountUsd: null,
+      timeline: [
+        { when: "Fall 2025", label: "West Whiteland Township Supervisors reject the redevelopment plans" },
+        { when: "November 13, 2026", label: "Judge Black rules for Abrams Realty & Development; supervisors say they intend to appeal", current: true }
+      ]
+    },
+    {
+      id: "live-413",
+      seoTitle: "Moore Township Warehouse Plan: Court Upholds Variance Denial",
+      seoDescription: "Commonwealth Court affirmed the Moore Township zoning board's denial of a woodland variance for Water's Edge at Wind Gap's two-warehouse plan.",
+      property: {"name": null, "address": null, "city": "Moore Township", "state": "PA"},
+      addedDate: "2026-11-17",
+      title: "Water's Edge at Wind Gap, LLC v. Zoning Hearing Board of Moore Township: Pennsylvania Commonwealth Court Affirms Denial of Woodland Variance for Two-Warehouse Plan",
+      brief: "Pennsylvania's Commonwealth Court affirmed the Moore Township Zoning Hearing Board's denial of a variance that would have let a developer preserve 55% of a 51-acre golf course's woodlands, not the required 60%, for two warehouses.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-16",
+      jurisdiction: "Commonwealth Court of Pennsylvania",
+      state: "PA",
+      amount: "Zoning variance for a two-warehouse development on 51 acres",
+      source: "live",
+      sourceUrl: "https://www.pacourts.us/assets/opinions/Commonwealth/out/279CD24_11-16-2026.pdf",
+      propertyType: "Industrial",
+      summary: "On November 16, 2026, the Commonwealth Court of Pennsylvania affirmed the denial of a dimensional variance sought by Water's Edge at Wind Gap, LLC, which seeks to redevelop its 51-acre golf course property in Moore Township into an industrial development with two warehouses. The developer asked to preserve 55% of the property's woodlands, a 5% reduction from the 60% the zoning ordinance requires. The court held that substantial evidence supported the Zoning Hearing Board's finding that the variance would adversely affect the character of the neighborhood.",
+      significance: "The court had earlier found that the developer showed unnecessary hardship, did not create it and asked for no more than necessary, yet the variance still failed on the one remaining factor. The Board found that about 0.21 acres of additional woodland disturbance would change the neighborhood's character, and the court treated the Board as the arbiter of credibility and the weight of the evidence. Warehouse developers should expect each variance factor to be tested separately, including the effect on neighboring homes.",
+      body: [
+        "Water's Edge at Wind Gap, LLC seeks to redevelop its 51-acre property in Moore Township, currently a golf course, into an industrial development with two warehouses, according to the Commonwealth Court's opinion. The zoning ordinance requires that 60% of existing woodlands be preserved, and the developer asked for a dimensional variance to preserve only 55%. The Zoning Hearing Board denied the developer's preliminary land development application in a March 17, 2023 decision. The Northampton County Court of Common Pleas affirmed on March 4, 2024 on three grounds: a steep slope provision, a requirement to build traffic improvements to Jones Road, and the variance.",
+        "In an opinion filed December 31, 2025, the Commonwealth Court affirmed on the steep slope requirement, reversed the requirement for Jones Road improvements, and found the developer had shown unnecessary hardship because the woodland rule conflicts with another provision of the ordinance on this property. It remanded for the Board to decide whether the variance would alter the character of the neighborhood or be contrary to the public interest. On remand the Board found that the total woodland area is 4.18 acres, that the developer proposes to disturb approximately 45%, or 1.88 acres, and that the 5% variance accounts for approximately 0.21 acres of additional disturbance. It found that removing those large, mature trees would take away a visual buffer in a neighborhood that is almost entirely residential.",
+        "In an unreported memorandum opinion by Judge Matthew S. Wolf filed November 16, 2026, the court affirmed. The developer argued that the findings lacked record support, that its engineer testified the development would improve landscape screening, and that the property is in an industrial zone. The court pointed to the developer's own plans, which show the woodlands screening adjacent residential lots, and to the engineer's testimony that the existing trees are at least 40 to 50 feet tall. The Board was not obligated to credit the engineer's testimony that the variance would allow sufficient screening, the court said, and the developer's failure to satisfy each variance factor required the Board to deny the request."
+      ],
+      tags: ["warehouse", "dimensional variance", "woodland preservation", "pennsylvania", "zoning hearing board"],
+      parties: [
+        { name: "Water's Edge at Wind Gap, LLC", role: "Appellant" },
+        { name: "Zoning Hearing Board of Moore Township", role: "Appellee" },
+        { name: "Moore Township", role: "Appellee" }
+      ],
+      judge: "Matthew S. Wolf",
+      amountUsd: null,
+      timeline: [
+        { when: "March 17, 2023", label: "Zoning Hearing Board decision denying the developer's appeal, including the woodland variance" },
+        { when: "March 4, 2024", label: "Northampton County Court of Common Pleas affirms the Board" },
+        { when: "May 13, 2025", label: "Commonwealth Court remands for a timeliness determination, retaining jurisdiction" },
+        { when: "December 31, 2025", label: "Commonwealth Court affirms in part, reverses in part and remands the variance for findings on neighborhood character" },
+        { when: "November 16, 2026", label: "Commonwealth Court affirms denial of the woodland variance", current: true }
       ]
     }
   ],

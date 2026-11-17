@@ -1,4 +1,37 @@
 {
  "note": "Matters that passed scripts/verify_matters.py (source quotes for every figure and party, plus an independent check). Quotes are kept locally, not here.",
- "matters": {}
+ "matters": {
+  "live-412": {
+   "verifiedOn": "2026-11-17",
+   "sourceUrl": "https://www.inquirer.com/real-estate/commercial/exton-square-mall-redevelopment-town-center-20261116.html",
+   "urls": [
+    "https://www.inquirer.com/real-estate/commercial/exton-square-mall-redevelopment-town-center-20261116.html"
+   ],
+   "quotes": 11,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.inquirer.com/real-estate/commercial/exton-square-mall-redevelopment-town-center-20261116.html"
+    ]
+   }
+  },
+  "live-413": {
+   "verifiedOn": "2026-11-17",
+   "sourceUrl": "https://www.pacourts.us/assets/opinions/Commonwealth/out/279CD24_11-16-2026.pdf",
+   "urls": [
+    "https://www.pacourts.us/assets/opinions/Commonwealth/out/279CD24_11-16-2026.pdf"
+   ],
+   "quotes": 12,
+   "confirmedByChecker": 12,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.pacourts.us/assets/opinions/Commonwealth/out/279CD24_11-16-2026.pdf"
+    ]
+   }
+  }
+ }
 }
