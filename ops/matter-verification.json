@@ -225,6 +225,24 @@
      "https://www.sec.gov/Archives/edgar/data/1682220/000168222026000071/sach-20260930.htm"
     ]
    }
+  },
+  "live-425": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://news3lv.com/news/local/clark-county-appeals-12m-badlands-golf-course-property-tax-suit-nevada-supreme-court-las-vegas-yohan-lowie",
+   "urls": [
+    "https://news3lv.com/news/local/clark-county-appeals-12m-badlands-golf-course-property-tax-suit-nevada-supreme-court-las-vegas-yohan-lowie",
+    "https://www.ktnv.com/13-investigates/clark-county-appeals-badlands-tax-judgment-to-nevada-supreme-court-as-costs-mount-for-taxpayers"
+   ],
+   "quotes": 18,
+   "confirmedByChecker": 1,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://news3lv.com/news/local/clark-county-appeals-12m-badlands-golf-course-property-tax-suit-nevada-supreme-court-las-vegas-yohan-lowie",
+     "https://www.ktnv.com/13-investigates/clark-county-appeals-badlands-tax-judgment-to-nevada-supreme-court-as-costs-mount-for-taxpayers"
+    ]
+   }
   }
  }
 }

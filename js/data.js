@@ -13830,6 +13830,44 @@ const RELAW_DATA = {
         { when: "November 16, 2026", label: "Sachem discloses the complaint in its Form 10-Q and says it has not been served", current: true },
         { when: "December 9, 2026", label: "Scheduled hearing on the preliminary injunction motion in Case No. 26STCV23391" }
       ]
+    },
+    {
+      id: "live-425",
+      seoTitle: "Clark County Appeals Badlands Golf Course Property Tax Judgment",
+      seoDescription: "Clark County is appealing to the Nevada Supreme Court a judgment of nearly $12.6 million over taxes on the former Badlands Golf Course in Las Vegas.",
+      property: {"name": "Former Badlands Golf Course", "address": null, "city": "Las Vegas", "state": "NV"},
+      addedDate: "2026-11-18",
+      title: "Clark County Appeals Badlands Golf Course Property Tax Judgment of Nearly $12.6 Million to Nevada Supreme Court",
+      brief: "Clark County commissioners voted Oct. 20 to appeal to the Nevada Supreme Court a district court judgment of nearly $12.6 million over property taxes collected on the former Badlands Golf Course in Las Vegas, KTNV and KSNV reported.",
+      category: "eminent-domain",
+      status: "appeal",
+      date: "2026-10-20",
+      jurisdiction: "Nevada Supreme Court",
+      state: "NV",
+      amount: "Nearly $12.6 million judgment plus daily interest, per KSNV",
+      source: "live",
+      sourceUrl: "https://news3lv.com/news/local/clark-county-appeals-12m-badlands-golf-course-property-tax-suit-nevada-supreme-court-las-vegas-yohan-lowie",
+      propertyType: "Land/Development",
+      summary: "Clark County commissioners voted on Tuesday, October 20, 2026, to appeal a district court judgment over property taxes collected on the former Badlands Golf Course in Las Vegas, KTNV reported. KSNV reported on October 29 that the county filed its notice of appeal to the Nevada Supreme Court that week. According to KSNV, a Clark County judge granted summary judgment against the county in February, ruling that two companies belonging to developer Yohan Lowie were entitled to nearly $12.6 million plus daily interest of over $3,000.",
+      significance: "The county's statement, published by KSNV, says the appeal seeks the Nevada Supreme Court's review of the District Court's inverse condemnation decision. KSNV reported the suit argued that property the government essentially seized should have been exempt from taxation. KTNV reported that interest on the unpaid judgment is growing by more than $3,000 per day.",
+      body: [
+        "Clark County commissioners voted on Tuesday, October 20, 2026, with no discussion, to appeal the Badlands tax judgment to the Nevada Supreme Court, KTNV reported in an article posted October 21, which said the appeal had not yet been filed. KSNV reported on October 29 that the county formally filed its notice of appeal that week; neither outlet gives the filing day.",
+        "According to KSNV, two companies belonging to developer Yohan Lowie sued Clark County last year, alleging that millions of dollars in property taxes were unlawfully collected, and the city of Las Vegas joined the suit as a plaintiff. KSNV reported that, according to the suit, the companies paid property taxes on the golf course from 2017 to 2023, and that the suit argued the property should have been exempt from taxation because the government essentially seized it. KSNV reported that a Clark County judge issued summary judgment against the county in February, ruling the companies were entitled to nearly $12.6 million plus daily interest of over $3,000 until the judgment is satisfied. KTNV reported that the county owes Lowie and the city of Las Vegas more than $12.4 million, and that the amount is separate from the $636 million Badlands settlement Lowie reached with the city.",
+        "In a statement published by KSNV, Clark County called the District Court's inverse condemnation decision \"unprecedented\" and said it will continue to defend the lawsuit to protect taxpayers and the entities that rely on the tax dollars. KTNV reported that Lowie's attorney said in a statement that the county never should have received the money and should return it. KTNV also reported that the county has spent about $120,000 on outside attorneys in the tax case and expects the appeal to cost another $50,000."
+      ],
+      tags: ["inverse condemnation", "property tax", "badlands golf course", "nevada supreme court", "las vegas"],
+      parties: [
+        { name: "Clark County", role: "Appellant" },
+        { name: "City of Las Vegas", role: "Plaintiff" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "2025", label: "Two companies belonging to developer Yohan Lowie sue Clark County over property taxes collected on the former Badlands Golf Course, per KSNV; the city of Las Vegas joins as a plaintiff" },
+        { when: "February 2026", label: "A Clark County judge issues summary judgment against the county for nearly $12.6 million plus daily interest, per KSNV" },
+        { when: "October 20, 2026", label: "Clark County commissioners vote to appeal the judgment to the Nevada Supreme Court, per KTNV" },
+        { when: "Week of October 26, 2026", label: "Clark County files its notice of appeal, per KSNV (day not stated)", current: true }
+      ]
     }
   ],
 
