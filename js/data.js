@@ -13868,6 +13868,45 @@ const RELAW_DATA = {
         { when: "October 20, 2026", label: "Clark County commissioners vote to appeal the judgment to the Nevada Supreme Court, per KTNV" },
         { when: "Week of October 26, 2026", label: "Clark County files its notice of appeal, per KSNV (day not stated)", current: true }
       ]
+    },
+    {
+      id: "live-426",
+      seoTitle: "Lenox Township 1,402-Acre Rezoning Halted by Restraining Order",
+      seoDescription: "A Macomb County judge's restraining order halted a Nov. 16 Lenox Township planning meeting on rezoning roughly 1,402 acres to light industrial use.",
+      property: {"name": null, "address": null, "city": "Lenox Township", "state": "MI"},
+      addedDate: "2026-11-18",
+      title: "Lenox Township 1,402-Acre Light Industrial Rezoning: Restraining Order Halts Planning Commission Meeting in Suit by Shoreline Steel Supply and Landowners",
+      brief: "A Lenox Township planning meeting set for Nov. 16 on rezoning roughly 1,402 acres to light industrial use was canceled after a Macomb County judge issued a restraining order, The Detroit News reported. A hearing is set for Nov. 24.",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-11-16",
+      jurisdiction: "Macomb County Circuit Court, Michigan",
+      state: "MI",
+      amount: "Injunctive relief",
+      source: "live",
+      sourceUrl: "https://www.yahoo.com/news/articles/restraining-order-axes-lenox-twp-215148906.html",
+      propertyType: "Land/Development",
+      summary: "The Detroit News reported that a Lenox Township Planning Commission meeting scheduled for Nov. 16, 2026 was canceled after Macomb County Circuit Judge Michael Servitto issued a restraining order. The order came in a suit by Shoreline Steel Supply and two property owners against the township, its planning commission and the Lenox and Chesterfield Economic Development Alliance LLC, which had asked to rezone roughly 1,402 acres to light industrial use. The plaintiffs' lawyer said a Nov. 24 hearing has been set on a preliminary injunction.",
+      significance: "According to The Detroit News, the judge issued the order on the grounds that the township did not give proper notice and withheld information from the public. The plaintiffs' lawyer and some residents contend the rezoning is for a data center; the township supervisor has said the correspondence they cite does not definitively establish the intended use. A hearing on a preliminary injunction is set for Nov. 24.",
+      body: [
+        "A request to rezone roughly 1,402 acres in Lenox Township, in eastern Macomb County, to light industrial use is on hold after a judge issued a restraining order, The Detroit News reported. The planning commission meeting on the request was scheduled for Nov. 16, 2026 at the township hall and was canceled after the order. The article does not give the date the order was signed or the date the suit was filed.",
+        "According to The Detroit News, Macomb County Circuit Judge Michael Servitto issued the order on the grounds that the township did not give proper notice and withheld information from the public. The suit was brought by Shoreline Steel Supply and two property owners against Lenox Township, the Lenox Township Planning Commission and the applicant, the Lenox and Chesterfield Economic Development Alliance LLC. The complaint, as quoted by the paper, says: \"The (Nov. 2) mailed notice the township's own ordinance requires was given one day late.\"",
+        "The plaintiffs' lawyer and some residents contend the township has obscured that the rezoning is for a data center, pointing to a May 4 letter from an attorney for the applicant that refers to a proposed data center campus. The township supervisor has said that correspondence does not definitively establish the intended use, the paper reported. The article reports no response from the applicant.",
+        "The plaintiffs' lawyer told the paper that a Nov. 24 hearing has been set in Macomb Circuit Court on a preliminary injunction."
+      ],
+      tags: ["rezoning", "light industrial", "restraining order", "public notice", "data center"],
+      parties: [
+        { name: "Shoreline Steel Supply", role: "Plaintiff" },
+        { name: "Lenox Township", role: "Defendant" },
+        { name: "Lenox Township Planning Commission", role: "Defendant" },
+        { name: "Lenox and Chesterfield Economic Development Alliance LLC", role: "Defendant" }
+      ],
+      judge: "Michael Servitto",
+      amountUsd: null,
+      timeline: [
+        { when: "November 16, 2026", label: "The Detroit News reports that the planning commission meeting scheduled for this date was canceled after a restraining order; the date of the order is not reported", current: true },
+        { when: "November 24, 2026", label: "Preliminary injunction hearing set in Macomb Circuit Court" }
+      ]
     }
   ],
 

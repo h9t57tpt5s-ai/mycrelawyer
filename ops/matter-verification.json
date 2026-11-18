@@ -243,6 +243,22 @@
      "https://www.ktnv.com/13-investigates/clark-county-appeals-badlands-tax-judgment-to-nevada-supreme-court-as-costs-mount-for-taxpayers"
     ]
    }
+  },
+  "live-426": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://www.yahoo.com/news/articles/restraining-order-axes-lenox-twp-215148906.html",
+   "urls": [
+    "https://www.yahoo.com/news/articles/restraining-order-axes-lenox-twp-215148906.html"
+   ],
+   "quotes": 15,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.yahoo.com/news/articles/restraining-order-axes-lenox-twp-215148906.html"
+    ]
+   }
   }
  }
 }
