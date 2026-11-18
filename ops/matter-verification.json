@@ -259,6 +259,86 @@
      "https://www.yahoo.com/news/articles/restraining-order-axes-lenox-twp-215148906.html"
     ]
    }
+  },
+  "live-427": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://newsismybusiness.com/burlington-sues-mayaguez-mall-landlord-over-1m-dispute/",
+   "urls": [
+    "https://newsismybusiness.com/burlington-sues-mayaguez-mall-landlord-over-1m-dispute/"
+   ],
+   "quotes": 12,
+   "confirmedByChecker": 12,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://newsismybusiness.com/burlington-sues-mayaguez-mall-landlord-over-1m-dispute/"
+    ]
+   }
+  },
+  "live-428": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://www.yahoo.com/news/us/articles/jcpenney-files-counter-lawsuit-valley-185228900.html",
+   "urls": [
+    "https://www.yahoo.com/news/us/articles/jcpenney-files-counter-lawsuit-valley-185228900.html"
+   ],
+   "quotes": 11,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.yahoo.com/news/us/articles/jcpenney-files-counter-lawsuit-valley-185228900.html"
+    ]
+   }
+  },
+  "live-429": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11064370/city-of-jarrell-texas-v-be-theon-east-partnership-no-3-ltd/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11064370/city-of-jarrell-texas-v-be-theon-east-partnership-no-3-ltd/"
+   ],
+   "quotes": 20,
+   "confirmedByChecker": 20,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11064370/city-of-jarrell-texas-v-be-theon-east-partnership-no-3-ltd/"
+    ]
+   }
+  },
+  "live-430": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11061448/baich-v-huron-group-inc/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11061448/baich-v-huron-group-inc/"
+   ],
+   "quotes": 15,
+   "confirmedByChecker": 15,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11061448/baich-v-huron-group-inc/"
+    ]
+   }
+  },
+  "live-431": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11065144/emerald-valley-llc-e-kirk-neely-individually-and-as-managing-member-of/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11065144/emerald-valley-llc-e-kirk-neely-individually-and-as-managing-member-of/"
+   ],
+   "quotes": 13,
+   "confirmedByChecker": 13,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11065144/emerald-valley-llc-e-kirk-neely-individually-and-as-managing-member-of/"
+    ]
+   }
   }
  }
 }

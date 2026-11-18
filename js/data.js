@@ -13907,6 +13907,195 @@ const RELAW_DATA = {
         { when: "November 16, 2026", label: "The Detroit News reports that the planning commission meeting scheduled for this date was canceled after a restraining order; the date of the order is not reported", current: true },
         { when: "November 24, 2026", label: "Preliminary injunction hearing set in Macomb Circuit Court" }
       ]
+    },
+    {
+      id: "live-427",
+      seoTitle: "Mayagüez Mall: Burlington Sues Landlord Over $1M Allowance",
+      seoDescription: "Burlington Coat Factory of Puerto Rico sued Mayagüez Mall's landlord in federal court to recover a $1 million allowance applied to disputed late charges.",
+      property: {"name": "Mayagüez Mall", "address": null, "city": null, "state": "PR"},
+      addedDate: "2026-11-18",
+      title: "Burlington Coat Factory of Puerto Rico LLC v. Empresas Puertorriqueñas de Desarrollo Inc.: Retailer Sues Mayagüez Mall Landlord Over $1 Million Improvement Allowance",
+      brief: "Burlington's Puerto Rico unit sued its Mayagüez Mall landlord in federal court on Nov. 16, seeking a $1 million improvement allowance it says the landlord applied to more than $4 million in disputed late charges.",
+      category: "lease-disputes",
+      status: "filed",
+      date: "2026-11-16",
+      jurisdiction: "U.S. District Court, District of Puerto Rico",
+      state: "PR",
+      amount: "$1 million improvement allowance",
+      source: "live",
+      sourceUrl: "https://newsismybusiness.com/burlington-sues-mayaguez-mall-landlord-over-1m-dispute/",
+      propertyType: "Retail",
+      summary: "Burlington Coat Factory of Puerto Rico LLC filed a complaint on Nov. 16 in federal court in Puerto Rico against its Mayagüez Mall landlord, Empresas Puertorriqueñas de Desarrollo Inc., News is My Business reported. Burlington seeks to recover $1 million it says it was owed for store improvements. According to the complaint, the landlord used the money to cover part of more than $4 million in disputed late charges.",
+      significance: "The dispute turns on whether a retail lease lets a landlord apply a tenant-improvement allowance to late charges the tenant disputes, and on how the late-charge rate is calculated. As reported, the complaint says the landlord claimed 8.75% a day while Burlington reads the lease as setting an annual rate tied to Citibank's prime rate.",
+      body: [
+        "Burlington Coat Factory of Puerto Rico LLC sued Empresas Puertorriqueñas de Desarrollo Inc., its landlord at Mayagüez Mall, on Nov. 16 in federal court in Puerto Rico, according to News is My Business. Burlington seeks the $1 million allowance, additional damages, interest, costs and attorneys' fees.",
+        "According to the report, the complaint says Burlington leased 45,782 square feet at the mall in January 2025 and that the lease called for the landlord to turn over the space by March 21, 2025. The parties amended the lease in July 2026, and the landlord agreed to finish the work by Oct. 31 and waive base rent for four more months.",
+        "The complaint says the landlord claimed a late charge of 8.75% a day on unpaid amounts, put the late charges at $4.16 million or more as of Sept. 11, and said it was still owed about $3.16 million after applying the allowance. In an Oct. 14 letter quoted in the complaint, the landlord said Burlington had fallen behind on payments. Burlington contends the lease sets an annual rate of two percentage points above Citibank's prime rate. The report does not include a response from the landlord to the suit."
+      ],
+      tags: ["retail lease", "tenant improvement allowance", "late charges", "puerto rico", "mall"],
+      parties: [
+        { name: "Burlington Coat Factory of Puerto Rico LLC", role: "Plaintiff" },
+        { name: "Empresas Puertorriqueñas de Desarrollo Inc.", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 1000000,
+      amountBasis: "damages sought",
+      timeline: [
+        { when: "January 2025", label: "Burlington leases 45,782 square feet at Mayagüez Mall, according to the complaint" },
+        { when: "July 2026", label: "Parties amend the lease" },
+        { when: "November 16, 2026", label: "Burlington files its complaint in federal court in Puerto Rico", current: true }
+      ]
+    },
+    {
+      id: "live-428",
+      seoTitle: "Valley West Mall: JCPenney Countersues Project 1551 Over Lease",
+      seoDescription: "JCPenney filed counterclaims Nov. 3 in Polk County against Project 1551, the Threshold Capital entity suing to break its Valley West Mall lease.",
+      property: {"name": "Valley West Mall", "address": null, "city": "West Des Moines", "state": "IA"},
+      addedDate: "2026-11-18",
+      title: "Valley West Mall Lease Dispute: JCPenney Files Counterclaims Against Redevelopment Entity Project 1551, Seeks Damages and Rent Abatement",
+      brief: "JCPenney filed counterclaims Nov. 3 against Project 1551, the Threshold Capital entity suing in Polk County to break the store's Valley West Mall lease, which runs through March 31, 2032. JCPenney seeks damages and rent abatement.",
+      category: "lease-disputes",
+      status: "pending",
+      date: "2026-11-03",
+      jurisdiction: "Iowa District Court for Polk County",
+      state: "IA",
+      amount: "Unspecified damages and rent abatement",
+      source: "live",
+      sourceUrl: "https://www.yahoo.com/news/us/articles/jcpenney-files-counter-lawsuit-valley-185228900.html",
+      propertyType: "Retail",
+      summary: "JCPenney filed counterclaims on Nov. 3 in a Polk County suit that Project 1551 brought on Sept. 28 to break the retailer's lease at Valley West Mall, the Des Moines Register reported in a story republished by Yahoo News. Threshold Capital is redeveloping the property through Project 1551. JCPenney claims Project 1551 breached its contract with the store and wants the court to award damages and abate its rent.",
+      significance: "The dispute is over whether an anchor store's lease can block a mall's redevelopment. As reported, Project 1551 argues the lease signed in 1974 is an unreasonable obstacle to redevelopment, while JCPenney says the mall could have a future as a shopping center.",
+      body: [
+        "The Des Moines Register, in a story republished by Yahoo News, reported that Project 1551 filed a lawsuit on Sept. 28 in Polk County court to break JCPenney's lease at Valley West Mall. Threshold Capital, which announced Sept. 29 the closing of its purchase of the 856,000-square-foot mall and its 58-acre site, is redeveloping the property through Project 1551. The developer argued it is no longer possible to operate the mall and that the lease signed in 1974 is an unreasonable obstacle to redevelopment. The store's lease was extended in July and runs through March 31, 2032.",
+        "In counterclaims filed Nov. 3, JCPenney said the mall could have a future as a shopping center. JCPenney claims Project 1551 breached its contract with the store, including by pushing out other remaining tenants and announcing plans to close and demolish the mall. It wants the court to award damages, including for past and future lost profits and diminished rental value, and to abate its rent. The company also denied that it has impeded development or requested \"extortionate payments\" to terminate leases.",
+        "Threshold's president said in a news release announcing the mall's sale that the group's intent is not to force JCPenney out, according to the report. Threshold has sought to demolish the building and replace it with a mixed-use area."
+      ],
+      tags: ["anchor lease", "mall redevelopment", "counterclaim", "rent abatement", "retail"],
+      parties: [
+        { name: "Project 1551", role: "Plaintiff / Counterclaim Defendant" },
+        { name: "JCPenney", role: "Defendant / Counterclaimant (Tenant)" },
+        { name: "Threshold Capital", role: "Developer" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "September 28, 2026", label: "Project 1551 files suit in Polk County court to break JCPenney's lease" },
+        { when: "September 29, 2026", label: "Threshold Capital announces the closing of its purchase of the mall" },
+        { when: "November 3, 2026", label: "JCPenney files counterclaims seeking damages and rent abatement", current: true }
+      ]
+    },
+    {
+      id: "live-429",
+      seoTitle: "City of Jarrell Must Perform 2008 Water Deal for 24.4-Acre Tract",
+      seoDescription: "Texas Third Court of Appeals affirms specific performance for BE Theon East Partnership No. 3: Jarrell must bid water and wastewater lines to the tract.",
+      property: {"name": null, "address": null, "city": "Jarrell", "state": "TX"},
+      addedDate: "2026-11-18",
+      title: "City of Jarrell, Texas v. BE Theon East Partnership No. 3, Ltd.: Austin Appeals Court Affirms Order That City Perform 2008 Development Agreement's Water and Wastewater Promise",
+      brief: "The Austin court of appeals affirmed a judgment ordering the City of Jarrell to invite and award bids for water and wastewater utilities to a 24.4-acre tract it annexed under a 2008 development agreement with BE Theon East Partnership No. 3, Ltd.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-17",
+      jurisdiction: "Texas Court of Appeals, Third District, at Austin",
+      state: "TX",
+      amount: "Specific performance",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11064370/city-of-jarrell-texas-v-be-theon-east-partnership-no-3-ltd/",
+      propertyType: "Land/Development",
+      summary: "In a memorandum opinion filed November 17, 2026, the Texas Court of Appeals in Austin affirmed a summary judgment for BE Theon East Partnership No. 3, Ltd. that orders the City of Jarrell to specifically perform a 2008 development agreement. Under the agreement, the landowner let the city annex its undeveloped 24.4-acre property in Williamson County and the city agreed to provide water and wastewater capacity. The court rejected the city's argument that the agreement was too indefinite to enforce and held that two other arguments were not preserved.",
+      significance: "The court held that Section 212.172(j) of the Texas Local Government Code allows a landowner with a valid development agreement under Section 212.172(c) to obtain specific performance against a municipality. It also found a promise of \"sufficient\" utility capacity definite enough to enforce where the parties had performed for over a decade and the owner calculated capacities using the city's own development code. The city's reserved-powers and separation-of-powers arguments were not reached because the court held the city had not preserved them.",
+      body: [
+        "The Texas Court of Appeals, Third District, at Austin affirmed a Williamson County district court judgment requiring the City of Jarrell to perform a 2008 development agreement with BE Theon East Partnership No. 3, Ltd. According to the opinion, the agreement concerned an undeveloped 24.4-acre property that BE Theon owned near the intersection of Ronald Reagan Boulevard and Interstate 35. BE Theon agreed to let the city annex the property, and the city agreed to provide sufficient water and wastewater capacity and approach mains within three years after the completion of Ronald Reagan Boulevard at its intersection with the interstate. The city passed an annexation ordinance in 2009.",
+        "The opinion says BE Theon sent the city a letter in August 2019 with the capacities it considered sufficient, the city did not respond, and the city has not provided water or wastewater services to the property. BE Theon sued in January 2020 seeking specific performance or, alternatively, damages. In November 2025 the trial court granted BE Theon's motion for summary judgment and ordered the city to invite and award bids for construction of water and wastewater utilities to the property with capacities no less than those in the August 2019 letter.",
+        "On appeal the city argued the agreement was void from the start, that the judgment violated the separation of powers, and that the proper remedy was disannexation. The court held the city had not preserved its reserved-powers or separation-of-powers arguments because it did not raise them in response to the summary judgment motion. It concluded the agreement's terms were sufficiently certain to create a binding contract, noting that the parties had performed for over a decade as though a valid contract existed and that BE Theon used the city's Unified Development Code to calculate capacities.",
+        "The court also rejected disannexation as the exclusive remedy, saying the case does not involve involuntary annexation, and held that Subsection 212.172(j) of the Local Government Code allows specific performance for a party with a valid contract under Subsection 212.172(c). It found no fact issue on when the road intersection was completed."
+      ],
+      tags: ["development agreement", "specific performance", "utilities", "annexation", "texas"],
+      parties: [
+        { name: "City of Jarrell, Texas", role: "Appellant" },
+        { name: "BE Theon East Partnership No. 3, Ltd.", role: "Appellee" }
+      ],
+      judge: "Rosa Lopez Theofanis",
+      amountUsd: null,
+      timeline: [
+        { when: "2008", label: "City of Jarrell and BE Theon enter into the development agreement" },
+        { when: "2009", label: "City passes an ordinance annexing the property" },
+        { when: "August 2019", label: "BE Theon sends the city a letter stating the capacities it deems sufficient" },
+        { when: "January 2020", label: "BE Theon sues the city for specific performance or, alternatively, damages" },
+        { when: "November 2025", label: "Trial court grants summary judgment and orders the city to invite and award bids for the utilities" },
+        { when: "November 17, 2026", label: "Court of appeals affirms the trial court's final judgment", current: true }
+      ]
+    },
+    {
+      id: "live-430",
+      seoTitle: "Huron Group v. Ellicott Development: Manager Indemnity Ruling",
+      seoDescription: "New York's Fourth Department denies Ellicott Development summary judgment on indemnity from building owner Huron Group under General Obligations Law 5-322.1.",
+      addedDate: "2026-11-18",
+      title: "Huron Group, Inc. v. Ellicott Development Company: Fourth Department Says Building Owner's Indemnity Promise to Its Property Manager Cannot Be Enforced Until the Manager's Negligence Is Decided",
+      brief: "The Fourth Department took away summary judgment requiring building owner Huron Group to indemnify its property manager, Ellicott Development Company, over a worker's ladder fall; whether the manager was negligent is still undecided.",
+      category: "premises-liability",
+      status: "ruling",
+      date: "2026-11-13",
+      jurisdiction: "New York Supreme Court, Appellate Division, Fourth Department",
+      state: "NY",
+      amount: "Contractual indemnification (no amount stated)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11061448/baich-v-huron-group-inc/",
+      summary: "On November 13, 2026, the Appellate Division, Fourth Department modified an Erie County order in a third-party dispute between Huron Group, Inc., which owns a commercial building, and Ellicott Development Company, the property management company it hired to maintain the building. The court denied Ellicott summary judgment on its counterclaim for contractual indemnification from Huron under their management agreement. It held the indemnity clause falls within General Obligations Law § 5-322.1 (1), and that whether the clause is void cannot be decided while fact issues remain about Ellicott's own negligence.",
+      significance: "The court applied the statute's bar on indemnifying a party for its own negligence to a building management agreement, because the manager's duties included contracting for repairs and maintenance and directing the building's employees. It declined to adopt a 2011 Second Department interpretation that, in the court's words, would create an exception when the indemnity provision is entered into by \"sophisticated business entities.\"",
+      body: [
+        "The case arises from a Labor Law and negligence action over injuries a worker sustained in a fall from a ladder while doing electrical work at a commercial property owned by Huron Group, Inc. According to the decision, Huron brought a third-party action against Ellicott Development Company, which was the worker's employer and the property management company Huron contracted with to maintain the building. Ellicott counterclaimed for contractual indemnification under the parties' management agreement. The court noted that when the agreement was made, the same individual was president and majority owner of both companies.",
+        "Supreme Court, Erie County, in an order entered April 2, 2025, granted Ellicott summary judgment on its counterclaim and denied Huron's motion for summary judgment dismissing the counterclaim. The Fourth Department unanimously modified the order by denying Ellicott summary judgment on the counterclaim, and otherwise affirmed.",
+        "The court concluded the management agreement falls within the plain language of General Obligations Law § 5-322.1 (1), which voids agreements tied to building construction, repair or maintenance that indemnify a party against liability for bodily injury resulting from its own negligence. But the clause is not automatically void: the statute's prohibition does not apply without a finding of negligence against the party seeking indemnity. Because triable issues of fact remain about Ellicott's negligence, the court said it could not yet determine whether the provision violates the statute.",
+        "The panel declined to adopt the interpretation in Westport Ins. Co. v Altertec Energy Conservation, LLC, a 2011 Second Department decision, saying the statute's language is neither doubtful nor ambiguous."
+      ],
+      tags: ["indemnification", "property management", "general obligations law", "new york", "labor law"],
+      parties: [
+        { name: "Huron Group, Inc.", role: "Third-Party Plaintiff-Appellant (building owner)" },
+        { name: "Ellicott Development Company", role: "Third-Party Defendant-Respondent (property manager)" }
+      ],
+      judge: "Edward Pace",
+      amountUsd: null,
+      timeline: [
+        { when: "April 2, 2025", label: "Supreme Court, Erie County order grants Ellicott summary judgment on its indemnification counterclaim" },
+        { when: "November 13, 2026", label: "Fourth Department modifies the order, denying Ellicott summary judgment on the counterclaim", current: true }
+      ]
+    },
+    {
+      id: "live-431",
+      seoTitle: "Beaver Lake Glamping Site Plan: Neighbors' Appeal Dismissed",
+      seoDescription: "Arkansas Court of Appeals affirms dismissal of Emerald Valley, LLC's appeal of Benton County Planning Board approval for Contentment on Beaver Lake, LLC.",
+      property: {"name": null, "address": null, "city": null, "state": "AR"},
+      addedDate: "2026-11-18",
+      title: "Emerald Valley, LLC v. Benton County Planning Board: Arkansas Court of Appeals Affirms Dismissal of Neighbors' Challenge to 209-Acre Glamping Site Plan Near Beaver Lake",
+      brief: "The Arkansas Court of Appeals affirmed dismissal of neighbors' appeal of a Benton County Planning Board site plan approval for Contentment on Beaver Lake, LLC's glamping site on 209 acres, because no administrative record was ever filed.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-18",
+      jurisdiction: "Arkansas Court of Appeals, Division IV",
+      state: "AR",
+      amount: "Site plan approval (no amount stated)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11065144/emerald-valley-llc-e-kirk-neely-individually-and-as-managing-member-of/",
+      propertyType: "Hospitality",
+      summary: "On November 18, 2026, the Arkansas Court of Appeals affirmed a circuit court's dismissal with prejudice of an appeal by Emerald Valley, LLC and other neighbors from the Benton County Planning Board's 20 March 2024 approval of a site plan for Contentment on Beaver Lake, LLC. The plan is for a \"glamping site\" on 209 acres near Beaver Lake. The court held the neighbors never filed any materials from the administrative proceeding, as District Court Rule 9(f) requires within thirty days after the notice of appeal.",
+      significance: "The ruling leaves the planning board's site plan approval in place on a procedural ground: the challengers never filed the administrative record. The majority left the service questions for another case; the chief judge, concurring, would have affirmed on the service ground.",
+      body: [
+        "The Arkansas Court of Appeals affirmed the dismissal of a challenge to the Benton County Planning Board's 20 March 2024 decision approving a site plan for Contentment on Beaver Lake, LLC to operate what the opinion calls a \"glampground\" or \"glamping site\" on 209 acres near Beaver Lake. The appellants, including Emerald Valley, LLC, are neighbors who oppose the use.",
+        "According to the opinion, the neighbors filed a timely notice of appeal in circuit court naming only the planning board; Contentment intervened and moved to dismiss for failure to comply with the service and record-filing requirements of District Court Rule 9. The circuit court dismissed with prejudice on both grounds after a hearing.",
+        "The appeals court affirmed on the record-filing ground alone. Rule 9(f) requires the appealing party to file certified copies of the administrative materials it has or can obtain within thirty days after the notice of appeal. The court said more than three months had passed with nothing from the administrative proceeding filed, and the appeal remained stalled fifteen months later. It left the service questions \"for another case.\" The chief judge concurred, writing that he would affirm because the notice of appeal was not served by mail requiring a return receipt."
+      ],
+      tags: ["site plan", "glamping", "planning board", "administrative appeal", "arkansas"],
+      parties: [
+        { name: "Emerald Valley, LLC", role: "Appellant" },
+        { name: "Benton County Planning Board", role: "Appellee" },
+        { name: "Contentment on Beaver Lake, LLC", role: "Appellee" }
+      ],
+      judge: "Gary Arnold",
+      amountUsd: null,
+      timeline: [
+        { when: "March 20, 2024", label: "Benton County Planning Board approves the site plan for Contentment on Beaver Lake, LLC" },
+        { when: "November 18, 2026", label: "Arkansas Court of Appeals affirms dismissal of the neighbors' appeal", current: true }
+      ]
     }
   ],
 

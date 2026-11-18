@@ -1,0 +1,22 @@
+{
+ "id": "live-430",
+ "title": "Huron Group, Inc. v. Ellicott Development Company: Fourth Department Says Building Owner's Indemnity Promise to Its Property Manager Cannot Be Enforced Until the Manager's Negligence Is Decided",
+ "category": "premises-liability",
+ "status": "ruling",
+ "date": "2026-11-13",
+ "jurisdiction": "New York Supreme Court, Appellate Division, Fourth Department",
+ "state": "NY",
+ "amount": "Contractual indemnification (no amount stated)",
+ "source": "live",
+ "source_url": "https://www.courtlistener.com/opinion/11061448/baich-v-huron-group-inc/",
+ "summary": "On November 13, 2026, the Appellate Division, Fourth Department modified an Erie County order in a third-party dispute between Huron Group, Inc., which owns a commercial building, and Ellicott Development Company, the property management company it hired to maintain the building. The court denied Ellicott summary judgment on its counterclaim for contractual indemnification from Huron under their management agreement. It held the indemnity clause falls within General Obligations Law § 5-322.1 (1), and that whether the clause is void cannot be decided while fact issues remain about Ellicott's own negligence.",
+ "significance": "The court applied the statute's bar on indemnifying a party for its own negligence to a building management agreement, because the manager's duties included contracting for repairs and maintenance and directing the building's employees. It declined to adopt a 2011 Second Department interpretation that, in the court's words, would create an exception when the indemnity provision is entered into by \"sophisticated business entities.\"",
+ "judge": "Edward Pace",
+ "tags": [
+  "indemnification",
+  "property management",
+  "general obligations law",
+  "new york",
+  "labor law"
+ ]
+}

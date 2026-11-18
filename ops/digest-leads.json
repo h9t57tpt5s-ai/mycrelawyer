@@ -1,15 +1,4 @@
 {
   "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
-  "leads": [
-    {
-      "found": "2026-11-18",
-      "title": "City of Jarrell, Texas v. BE Theon East Partnership No. 3, Ltd. (Tex. App.\u2014Austin, memorandum opinion, 2026-11-17)",
-      "urls": [
-        "https://www.courtlistener.com/opinion/11064370/city-of-jarrell-texas-v-be-theon-east-partnership-no-3-ltd/",
-        "https://storage.courtlistener.com/pdf/2026/11/17/city_of_jarrell_texas_v._be_theon_east_partnership_no._3_ltd..pdf"
-      ],
-      "why": "Texas Third District Court of Appeals affirmed summary judgment ordering the City of Jarrell to specifically perform a 2008 development agreement to provide water/wastewater capacity to BE Theon's 24.4-acre commercial property near Ronald Reagan Blvd and I-35 in Williamson County, rejecting the city's argument that the agreement was void ab initio or that disannexation (not specific performance) was the proper remedy. Opinion text is the primary source (no secondary press coverage found yet) \u2014 a clean example of a municipality being held to a recorded development agreement, relevant to any CRE developer relying on a city's infrastructure commitments as a condition of annexation/entitlement.",
-      "eventDate": "2026-11-17"
-    }
-  ]
+  "leads": []
 }
