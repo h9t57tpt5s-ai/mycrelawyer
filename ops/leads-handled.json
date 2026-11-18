@@ -2435,6 +2435,54 @@
     "petition:https://www.courtlistener.com/docket/75128111/winnie-realty-group-llc/": {
       "at": "2026-11-17",
       "action": "skipped: no coverage found explaining the filing (E.D.N.Y., filed same day; WebSearch found only unrelated older Chapter 7 cases for same-named entities in PA (2021) and NY (2023), neither matching this Nov. 17, 2026 Chapter 11 petition)"
+    },
+    "https://www.courtlistener.com/docket/75133133/wilmington-trust-national-association-as-trustee-for-the-benefit-of-the/": {
+      "at": "2026-11-18",
+      "action": "skipped: no coverage found explaining the filing (CoreVest securitized-loan foreclosure against 1361 Realty Holdings LLC, bare docket, no named major sponsor beyond the trustee bank)"
+    },
+    "https://www.courtlistener.com/docket/75131636/wingate-inns-international-inc-v-rizzk-lodging-llc/": {
+      "at": "2026-11-18",
+      "action": "skipped: no coverage found explaining the filing (hotel franchisor vs. franchisee, bare docket)"
+    },
+    "https://www.courtlistener.com/docket/75129557/wilmington-trust-national-association-as-trustee-for-the-benefit-of-the/": {
+      "at": "2026-11-18",
+      "action": "skipped: no coverage found explaining the filing (duplicate docket number/entity as 75133133, same CoreVest/1361 Realty Holdings LLC foreclosure, bare docket)"
+    },
+    "https://www.courtlistener.com/docket/75133589/greentree-hospitality-group-incorporated-v-south-central-realty/": {
+      "at": "2026-11-18",
+      "action": "skipped: no coverage found explaining the filing (hotel franchisor vs. realty investments company, bare docket)"
+    },
+    "opinion:11064329": {
+      "at": "2026-11-18",
+      "action": "skipped: residential mortgage foreclosure (caseName/matchedTerms pattern), not read in full (Deutsche Bank Natl. Trust Co. v. Gouin, individual defendant, time-barred under FAPA)"
+    },
+    "opinion:11064328": {
+      "at": "2026-11-18",
+      "action": "skipped: duplicate opinion text of opinion:11064329 (same case, Deutsche Bank Natl. Trust Co. v. Gouin), residential mortgage foreclosure, individual defendant"
+    },
+    "opinion:11063416": {
+      "at": "2026-11-18",
+      "action": "skipped: Futurewise v. Kitsap County -- GMA/groundwater land-use challenge brought by a nonprofit watchdog against a county government, not a commercial real estate business matter"
+    },
+    "opinion:11063408": {
+      "at": "2026-11-18",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern), not read in full (HSBC Bank USA, N.A. v. Cline, individual defendant/intervenor dispute over motion to intervene)"
+    },
+    "opinion:11063336": {
+      "at": "2026-11-18",
+      "action": "skipped: read in full -- Liberty Auto Sales, LLC v. Michael Paul Shanks is a commercial-property unlawful detainer/default-judgment appeal, but it's a small ($26,401) procedural notice-of-appeal-timeliness ruling with an individual plaintiff-landlord, not significant enough to write up"
+    },
+    "opinion:11063313": {
+      "at": "2026-11-18",
+      "action": "skipped: Councilmember J. Young, Jr. and Strawberry Mansion Community Concern v. City of Philadelphia -- zoning/variance dispute brought by a councilmember and community group against the city, not a commercial real estate business matter"
+    },
+    "opinion:11063306": {
+      "at": "2026-11-18",
+      "action": "lead queued in ops/digest-leads.json (In Re: Condemnation by the Pa. Turnpike Commission, Appeal of IBIS Kennywood, LLC -- shopping center partial taking for the Mon-Fayette Expressway, Commonwealth Court affirms trial court's overruling of preliminary objections to the condemnation notice; text truncated at 12,000 of 19,495 chars, before the court's final case-specific holding paragraph, though the opinion's own opening states the affirmance)"
+    },
+    "opinion:11063279": {
+      "at": "2026-11-18",
+      "action": "skipped: residential mortgage foreclosure, individual self-represented defendant (Bank of New York Mellon v. Wayne Lee Martin)"
     }
   }
 }
