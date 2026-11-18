@@ -396,4 +396,34 @@ function filingCard(label: string, noun: string, newest: Filing[], total: number
   await Deno.writeTextFile(f, h); written.push(f);
 }
 
+// ---- coverage.html: Distress Radar & Bank CRE Stress coverage ----------
+// Jeff's 2026-11-11 direction made the radar and bank-stress pages
+// flagship products; until now coverage.html (subscription-readiness
+// checklist items 2/5) described only the litigation tracker above.
+{
+  const f = "coverage.html";
+  let h = await Deno.readTextFile(f);
+  try {
+    type RadarRec = { kind: string; state?: string };
+    const radar = JSON.parse(await Deno.readTextFile("js/radar-data.json")) as { records: RadarRec[]; generated: string };
+    const bankData = JSON.parse(await Deno.readTextFile("js/bank-cre.json")) as { quarter: string; asOf: string; banks: { eq: number | null; sh: number }[] };
+    const countOf = (k: string) => radar.records.filter((r) => r.kind === k).length;
+    const radarStates = new Set(radar.records.map((r) => r.state).filter((s): s is string => !!s && s !== "NA"));
+    const hot = bankData.banks.filter((b) => (b.eq ?? 0) >= 300 && b.sh >= 3).length;
+    const row = (k: string, v: string, note = "") => `<tr><td style="padding:10px 0; border-bottom:1px solid var(--border-soft);">${k}${note ? `<div class="text-muted" style="font-size:12px; margin-top:2px;">${note}</div>` : ""}</td><td class="mono" style="padding:10px 0; border-bottom:1px solid var(--border-soft); text-align:right; white-space:nowrap; vertical-align:top;">${v}</td></tr>`;
+    const table = `<table style="width:100%; border-collapse:collapse; font-size:14px;"><tbody>` +
+      row("Real estate Chapter 11 petitions", String(countOf("bankruptcy")), "Every U.S. bankruptcy court") +
+      row("Federal CRE-related lawsuits", String(countOf("lawsuit")), "Federal district courts, nationwide") +
+      row("Tracker write-ups (lending &amp; foreclosure)", String(countOf("litigation")), "Already counted in the tracker table above, not added again here") +
+      row("CMBS loans in default, foreclosure or REO", String(countOf("cmbs")), "SEC-filed CMBS trust remittance reports, nationwide") +
+      row("Texas foreclosure-sale postings", String(countOf("foreclosure")), "Bexar, Collin, Dallas, Fort Bend, Harris and Williamson counties only") +
+      row("NYC recorded distress deeds", String(countOf("nyc")), "ACRIS; Manhattan and Brooklyn only so far &mdash; Queens, the Bronx and Staten Island are not yet covered") +
+      `</tbody></table>`;
+    h = fill(h, "cov-radar", table, f);
+    h = fill(h, "cov-radar-states", `<p style="font-size:14px; margin:0;">Radar records exist in <strong>${radarStates.size} states, D.C. and Puerto Rico</strong> combined. Radar data last generated ${esc(radar.generated.slice(0, 10))}.</p>`, f);
+    h = fill(h, "cov-bank", `<p style="font-size:14px; line-height:1.7; margin:0;">Separately, <strong>${bankData.banks.length} FDIC-insured banks</strong> over $1 billion in assets with at least $100 million of commercial real estate loans are ranked every quarter (most recent: ${esc(bankData.quarter)}, as of ${esc(bankData.asOf)}); <strong>${hot} of them</strong> are both CRE-concentrated and 3%+ noncurrent. See <a href="bank-cre-stress.html">Bank CRE Stress</a> for the full ranking.</p>`, f);
+    await Deno.writeTextFile(f, h); written.push(f);
+  } catch { /* radar or bank-cre data not present in this checkout */ }
+}
+
 console.log(`prerendered ${written.length} files: ${data.cases.length} matters, ${statesLabel}`);
