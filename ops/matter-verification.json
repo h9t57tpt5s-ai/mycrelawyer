@@ -140,6 +140,22 @@
      "https://www.yahoo.com/news/articles/highlander-hotel-iowa-city-files-182802019.html"
     ]
    }
+  },
+  "live-420": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11063306/in-re-condemnation-by-the-pa-turnpike-commission/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11063306/in-re-condemnation-by-the-pa-turnpike-commission/"
+   ],
+   "quotes": 16,
+   "confirmedByChecker": 16,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11063306/in-re-condemnation-by-the-pa-turnpike-commission/"
+    ]
+   }
   }
  }
 }

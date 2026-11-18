@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-17",
+  lastUpdatedDate: "2026-11-18",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -13638,6 +13638,45 @@ const RELAW_DATA = {
         { when: "October 2025", label: "MMG Investments sues the company running the hotel in Iowa District Court for Johnson County over more than $4.4 million in unpaid loans, per the Iowa City Press-Citizen" },
         { when: "December 16, 2025", label: "Highlander Hotel, LLC files Chapter 11 in the Southern District of Iowa" },
         { when: "November 12, 2026", label: "Court dockets order confirming the Chapter 11 plan (Dkt. 132)", current: true }
+      ]
+    },
+    {
+      id: "live-420",
+      seoTitle: "West Mifflin Shopping Center Taking: IBIS Kennywood Loses Appeal",
+      seoDescription: "Pennsylvania Commonwealth Court affirms the Turnpike Commission's partial taking notice for IBIS Kennywood's West Mifflin shopping center property.",
+      property: {"name": null, "address": null, "city": "West Mifflin", "state": "PA"},
+      addedDate: "2026-11-18",
+      title: "In re Condemnation by the Pennsylvania Turnpike Commission (Appeal of IBIS Kennywood, LLC): Commonwealth Court Upholds Notice of Partial Taking at West Mifflin Shopping Center",
+      brief: "The Commonwealth Court affirmed an order overruling IBIS Kennywood, LLC's objections to the Pennsylvania Turnpike Commission's partial taking of its West Mifflin shopping center property for the Mon-Fayette Expressway.",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-11-17",
+      jurisdiction: "Commonwealth Court of Pennsylvania",
+      state: "PA",
+      amount: "Partial taking; damages referred to a Board of Viewers",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11063306/in-re-condemnation-by-the-pa-turnpike-commission/",
+      propertyType: "Retail",
+      summary: "On November 17, 2026, the Commonwealth Court of Pennsylvania affirmed an Allegheny County order overruling IBIS Kennywood, LLC's preliminary objections to the Pennsylvania Turnpike Commission's condemnation notice. The owner argued the plot plans served with the declaration of taking did not properly show the portions of its shopping center property being taken. The court held that the Commission complied with the Eminent Domain Code's plot-plan notice requirement for a partial taking.",
+      significance: "The ruling applies the Pennsylvania Eminent Domain Code requirement that, in a partial taking, the notice include a plot plan showing the owner's entire property and the area taken. The court accepted plans from which one can determine what part of the property has been taken. The trial court's order referred the matter to a Board of Viewers for an assessment of damages.",
+      body: [
+        "The Commonwealth Court of Pennsylvania on November 17, 2026 affirmed an Allegheny County Common Pleas Court order overruling IBIS Kennywood, LLC's preliminary objections to a condemnation notice from the Pennsylvania Turnpike Commission. The memorandum opinion, which is not reported, was written by Judge Anne E. Covey. According to the opinion, the owner's property in West Mifflin is improved by a large regional shopping center with a grocery store, a gas station with a convenience store, and retail shops.",
+        "The Commission filed its declaration of taking on March 31, 2021, seeking portions of the property on both a temporary and permanent basis to build the Mon-Fayette Expressway. The owner filed preliminary objections on April 30, 2021, alleging the plot plans did not comply with Section 305(c)(9) of the Eminent Domain Code. The trial court overruled the objections on October 1, 2021; the Commonwealth Court later vacated that order and sent the case back for the trial court to decide whether the plot plans complied. On September 19, 2024, the trial court again overruled the objections and referred the matter to a Board of Viewers for an assessment of damages.",
+        "On appeal, the owner argued that the plot plans failed to show the location of the temporary construction access, the temporary and permanent utility relocation easements, the design of the main access driveway and the power pole relocation easement. The Commission responded that its plot plans fully complied with the Code and that design changes made as the plans moved to final form did not change the type or extent of the taking. The court agreed with the trial court that the plans show the area of the partial taking and concluded that the Commission complied with the notice requirement."
+      ],
+      tags: ["eminent domain", "partial taking", "shopping center", "plot plan notice", "pennsylvania"],
+      parties: [
+        { name: "IBIS Kennywood, LLC", role: "Condemnee/Appellant" },
+        { name: "Pennsylvania Turnpike Commission", role: "Condemnor/Appellee" }
+      ],
+      judge: "Anne E. Covey",
+      amountUsd: null,
+      timeline: [
+        { when: "March 31, 2021", label: "Pennsylvania Turnpike Commission files declaration of taking for portions of the property" },
+        { when: "April 30, 2021", label: "IBIS Kennywood, LLC files preliminary objections challenging the plot plans" },
+        { when: "October 1, 2021", label: "Trial court overrules the preliminary objections" },
+        { when: "September 19, 2024", label: "After remand, trial court again overrules the objections and refers the matter to a Board of Viewers" },
+        { when: "November 17, 2026", label: "Commonwealth Court affirms", current: true }
       ]
     }
   ],

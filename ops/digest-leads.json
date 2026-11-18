@@ -3,32 +3,12 @@
   "leads": [
     {
       "found": "2026-11-17",
-      "title": "Swire Properties Southpoint LLC Chapter 11 follows Duval County foreclosure default judgment",
-      "urls": [
-        "https://www.courtlistener.com/docket/75121925/swire-properties-southpoint-llc/",
-        "https://legals.jaxdailyrecord.com/public_notices/publicnotices.php?mode=daily&search_date=2025-02-20&start_round=22&incrementby=50&sort=serial_no+DESC"
-      ],
-      "why": "Swire Properties Southpoint LLC (active FL LLC, Sunbiz doc. no. L22000276364) filed Chapter 11 on 2026-11-16 in the M.D. Fla. bankruptcy court. A Jacksonville Daily Record legal notice shows the same-named entity as mortgagor/defendant in a Duval County foreclosure, Parkwest Holdings LLC v. Swire Properties Southpoint LLC, Case No. 16-2026-CA-000899, with a final default judgment of foreclosure entered September 30, 2026 -- a plausible, specific explanation for the bankruptcy filing. IMPORTANT CAVEAT: no source confirms any corporate relationship to the much larger Hong Kong/Miami-based Swire Properties Inc. (Brickell City Centre); newsroom should independently verify the entity is the correct match and is unrelated to that developer before writing it up, and confirm the Jacksonville Daily Record notice's own publication date/accuracy (the one found carried an odd 2025 search-date URL parameter despite describing a 2026 judgment).",
-      "eventDate": "2026-11-16"
-    },
-    {
-      "found": "2026-11-17",
       "title": "Sachem Capital Corp. discloses unserved $1.9 billion complaint seeking to unwind IRG Global property-contribution transaction",
       "urls": [
         "https://www.sec.gov/Archives/edgar/data/1682220/000168222026000071/sach-20260930.htm"
       ],
       "why": "Sachem Capital Corp.'s Nov. 16, 2026 10-Q discloses that an unnamed party filed a complaint (not yet served on the company as of the filing date) seeking compensatory damages the complaint itself estimates at not less than $1.9 billion, plus an injunction against consummation of a 'Transaction' involving the contribution, transfer or encumbrance of properties, avoidance of that transfer, appointment of a receiver, and a constructive trust over the transferred assets. This appears tied to Sachem's disclosed Industrial Realty Group Global, LLC transaction (a separate July 2026 California suit by 17 plaintiffs already sought to enjoin the same deal pending arbitration). The dollar figure and real-property-contribution/receiver/constructive-trust relief sought make this a potentially significant CRE-adjacent securities/transaction dispute, but the SEC excerpt alone does not name the plaintiff, court, or docket -- newsroom should identify the actual complaint (likely via the IRG Global transaction or a related state/federal docket) before writing it up, and should separately note the figure looks large relative to Sachem's own balance sheet, which may mean it is an outlier claim rather than a realistic exposure estimate.",
       "eventDate": "2026-11-16"
-    },
-    {
-      "found": "2026-11-18",
-      "title": "Commonwealth Court affirms condemnation notice was sufficient in PA Turnpike Commission's partial taking of IBIS Kennywood LLC shopping center for Mon-Fayette Expressway",
-      "urls": [
-        "https://www.courtlistener.com/opinion/11063306/in-re-condemnation-by-the-pa-turnpike-commission/",
-        "https://storage.courtlistener.com/pdf/2026/11/17/in_re_condemnation_by_the_pa._turnpike_commission.pdf"
-      ],
-      "why": "Primary-source opinion (Commonwealth Court of Pennsylvania, filed/decided Nov. 17, 2026, Judge Covey, No. 1357 C.D. 2024): IBIS Kennywood, LLC owns a 'large regional shopping center' (grocery store, gas station/convenience store, retail shops) in West Mifflin, Allegheny County, improved and used for commercial/rental purposes. The Pennsylvania Turnpike Commission filed a Declaration of Taking in 2021 for a partial take (right-of-way, construction/drainage/slope easements, a substitute right-of-way for Duquesne Light Co.) to build the Mon-Fayette Expressway (PA Route 51 to I-376). Kennywood's preliminary objections -- that the Commission's plot plans didn't satisfy the Eminent Domain Code's Section 305(c)(9) notice requirement for a partial taking -- were overruled by the Allegheny County trial court on Sept. 19, 2024, which referred the matter to a Board of Viewers to assess damages; Kennywood appealed, and the Commonwealth Court 'affirms' (opinion's own words). The opinion's own first 12,000 characters (it runs to ~19,500; the rest covers general Eminent Domain Code/case-law background, not case-specific facts) state the affirmance and the full procedural history (an earlier 2022-23 remand on the same notice question) but the stored excerpt is cut off before the court's final paragraph applying the law to Kennywood's specific plot-plan objection -- newsroom should pull the rest of the opinion (or the earlier Dec. 29, 2022 Commonwealth Court opinion at Cmwlth. Ct. No. 1167 C.D. 2021, which the hallapproved.com case summary found by this run corroborates) before writing the holding's reasoning in detail. A secondary search found only older background on the broader, decades-long Mon-Fayette Expressway corridor project and separate, nearby Kennywood Entertainment Co. shopping-plaza acquisition plans -- no confirmed corporate link between IBIS Kennywood, LLC and the Kennywood amusement park operator; treat them as distinct entities unless confirmed.",
-      "eventDate": "2026-11-17"
     },
     {
       "found": "2026-11-18",
