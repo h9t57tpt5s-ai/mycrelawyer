@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T20:02:29+00:00",
+ "updatedAt": "2026-11-18T03:50:38+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
   {
@@ -478,14 +478,7 @@
    ],
    "sourceName": "Harris County Justice Courts, Public Data Extract",
    "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
-   "slug": "1720-crestdale-llc-v-arian-global-llc-tx-harris-265200475335",
-   "relatedCaseNumbers": [
-    "265200475334",
-    "265200475333",
-    "265200475332",
-    "265200475305",
-    "265200475303"
-   ]
+   "slug": "1720-crestdale-llc-v-arian-global-llc-tx-harris-265200475335"
   },
   {
    "source": "harris_jp_tx",

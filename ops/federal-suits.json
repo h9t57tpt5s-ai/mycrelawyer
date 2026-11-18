@@ -1,7 +1,33 @@
 {
- "updatedAt": "2026-11-17T20:01:23+00:00",
+ "updatedAt": "2026-11-18T03:49:48+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Wilmington Trust, National Association, as Trustee, for the Benefit of the Holders of Corevest American Finance 2022-P2 Trust Mortgage Pass-Through Certificates v. 1361 Realty Holdings LLC",
+   "court": "District Court, S.D. New York",
+   "courtId": "nysd",
+   "docketNumber": "1:26-cv-10097",
+   "dateFiled": "2026-11-17",
+   "docketUrl": "https://www.courtlistener.com/docket/75133133/wilmington-trust-national-association-as-trustee-for-the-benefit-of-the/",
+   "docketId": 75133133,
+   "suitNature": "",
+   "cause": "",
+   "slug": "wilmington-trust-national-association-as-trustee-for-the-benefit-of-th-nysd-1-26-cv-10097",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "WINGATE INNS INTERNATIONAL, INC. v. RIZZK LODGING LLC",
+   "court": "District Court, D. New Jersey",
+   "courtId": "njd",
+   "docketNumber": "2:26-cv-14816",
+   "dateFiled": "2026-11-17",
+   "docketUrl": "https://www.courtlistener.com/docket/75131636/wingate-inns-international-inc-v-rizzk-lodging-llc/",
+   "docketId": 75131636,
+   "suitNature": "",
+   "cause": "",
+   "slug": "wingate-inns-international-inc-v-rizzk-lodging-llc-njd-2-26-cv-14816",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "WILMINGTON TRUST, NATIONAL ASSOCIATION, AS TRUSTEE, FOR THE BENEFIT OF THE HOLDERS OF COREVEST AMERICAN FINANCE 2022-P2 TRUST MORTGAGE PASS-THROUGH CERTIFICATES v. 1361 REALTY HOLDINGS LLC",
    "court": "District Court, S.D. New York",
@@ -26,6 +52,19 @@
    "suitNature": "220 Real Property: Foreclosure",
    "cause": "28:1332 Diversity-(Citizenship)",
    "slug": "u-s-bank-trust-national-association-v-12th-street-equity-llc-paed-2-26-cv-08731",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Greentree Hospitality Group Incorporated v. South Central Realty Investments Incorporated",
+   "court": "District Court, D. Arizona",
+   "courtId": "azd",
+   "docketNumber": "2:26-cv-10546",
+   "dateFiled": "2026-11-16",
+   "docketUrl": "https://www.courtlistener.com/docket/75133589/greentree-hospitality-group-incorporated-v-south-central-realty/",
+   "docketId": 75133589,
+   "suitNature": "",
+   "cause": "",
+   "slug": "greentree-hospitality-group-incorporated-v-south-central-realty-invest-azd-2-26-cv-10546",
    "type": "Federal civil case"
   },
   {
