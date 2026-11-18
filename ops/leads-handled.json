@@ -1,5 +1,17 @@
 {
   "handled": {
+    "petition:https://www.courtlistener.com/docket/75134925/2-hill-ave-llc/": {
+      "at": "2026-11-18",
+      "action": "skipped: no coverage found explaining the filing (2 Hill Ave LLC, SDNY Ch. 11, 2026-11-18; single-asset LLC named for address, no secondary reporting)"
+    },
+    "https://www.courtlistener.com/docket/75133532/pavitt-family-vineyards-llc-v-one-true-vine-llc/": {
+      "at": "2026-11-18",
+      "action": "skipped: not commercial real estate on its face (agricultural vineyard tort-to-land dispute, not an office/retail/industrial/multifamily/hotel/land-development property type); also no coverage found explaining the dispute"
+    },
+    "opinion:11064713": {
+      "at": "2026-11-18",
+      "action": "skipped: residential home construction defect dispute between individual homeowners and a homebuilder (Holton v. Value Build Homes, NC Ct. App.), not commercial real estate"
+    },
     "opinion:11057997": {
       "at": "2026-11-10",
       "action": "skipped: residential elder-abuse/quiet-title dispute over a home (Todd v. Rocket Mortgage), individual parties, not CRE"

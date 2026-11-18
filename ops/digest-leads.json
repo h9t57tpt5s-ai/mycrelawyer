@@ -1,4 +1,15 @@
 {
   "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
-  "leads": []
+  "leads": [
+    {
+      "found": "2026-11-18",
+      "title": "BMK Enterprises v. Bailey Enterprises of Montana (2026 MT 102) - commercial storage-property ROFR dispute",
+      "urls": [
+        "https://www.leagle.com/decision/inmtco20260512431",
+        "https://www.mpamag.com/us/specialty/commercial/montana-supreme-court-revives-storage-property-dispute-over-ambiguous-right-of-first-refusal/575154"
+      ],
+      "why": "Montana Supreme Court decision (May 12, 2026) reversing a Gallatin County trial court's dismissal and remanding a commercial storage-facility dispute over an ambiguous right-of-first-refusal clause for factfinding on the parties' intent. Genuine commercial real estate appellate precedent (ROFR/contract-ambiguity doctrine) and the tracker currently has zero Montana matters, so this would close a real geographic gap -- but the event is from May 2026 (6+ months old) and WebSearch did not turn up any contemporaneous or later trade-press coverage, only a law-firm-marketing-style secondary writeup (mpamag.com) and the underlying decision itself (leagle.com). Flagging for the newsroom's judgment on whether the published opinion is sourcing enough on its own given the age, since this cloud routine cannot open either page to verify quotes.",
+      "eventDate": "2026-05-12"
+    }
+  ]
 }
