@@ -209,6 +209,22 @@
      "https://www.txcourts.gov/businesscourt/opinions/"
     ]
    }
+  },
+  "live-424": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1682220/000168222026000071/sach-20260930.htm",
+   "urls": [
+    "https://www.sec.gov/Archives/edgar/data/1682220/000168222026000071/sach-20260930.htm"
+   ],
+   "quotes": 18,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.sec.gov/Archives/edgar/data/1682220/000168222026000071/sach-20260930.htm"
+    ]
+   }
   }
  }
 }

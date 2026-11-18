@@ -13790,6 +13790,46 @@ const RELAW_DATA = {
         { when: "October 28, 2026", label: "Hearing on the motion to dismiss" },
         { when: "November 17, 2026", label: "Court denies the motion to dismiss", current: true }
       ]
+    },
+    {
+      id: "live-424",
+      seoTitle: "Sachem Capital Sued for $1.9 Billion Over IRG Industrial Deal",
+      seoDescription: "Sachem Capital Corp. says purported IRG Master Holdings investors sued it in Los Angeles, seeking at least $1.9 billion and a halt to the IRG transaction.",
+      addedDate: "2026-11-18",
+      title: "Sachem Capital Corp. Sued in Los Angeles by Purported IRG Master Holdings Investors Seeking at Least $1.9 Billion and a Halt to Its Industrial Portfolio Transaction",
+      brief: "Investors claiming interests in IRG Master Holdings sued Sachem Capital Corp. in Los Angeles on Nov. 3, seeking at least $1.9 billion and an injunction against its pending industrial-portfolio deal with IRG Global. Sachem says it has not been served.",
+      category: "reit-securities",
+      status: "filed",
+      date: "2026-11-03",
+      jurisdiction: "Superior Court of California, County of Los Angeles",
+      state: "CA",
+      amount: "Not less than $1.9 billion in compensatory damages sought",
+      source: "live",
+      sourceUrl: "https://www.sec.gov/Archives/edgar/data/1682220/000168222026000071/sach-20260930.htm",
+      propertyType: "Industrial",
+      summary: "Sachem Capital Corp. disclosed in a quarterly report dated November 16, 2026 that a group of investors who say they hold interests in IRG Master Holdings, LLC and related entities sued the company and certain affiliates in Los Angeles County Superior Court on November 3, 2026 (Case No. 26STCV34893). The complaint estimates compensatory damages at not less than $1.9 billion and asks the court to block or undo the contribution of properties in Sachem's pending transaction with Industrial Realty Group Global, LLC. Sachem said it had not been served as of the report date and intends to vigorously defend itself.",
+      significance: "According to Sachem's report, the suit against the company and certain of its affiliated entities asks for relief aimed at the properties to be contributed: an injunction against transferring or encumbering the properties, avoidance of the transfer, a receiver and a constructive trust. Sachem's report also says the plaintiffs in an earlier case have a motion to enjoin the closing set for hearing on December 9, 2026. The $1.9 billion figure is the complaint's own estimate as described by Sachem; the report does not state how it was calculated.",
+      body: [
+        "Sachem Capital Corp. reported in its Form 10-Q for the quarter ended September 30, 2026, dated November 16, 2026, that a group of investors who purport to hold interests in IRG Master Holdings, LLC and related entities filed a complaint on November 3, 2026 against the company and certain of its affiliated entities in the Superior Court of California for the County of Los Angeles, Case No. 26STCV34893. The report says the complaint asserts claims for intentional interference with contractual relations, intentional and negligent interference with prospective economic advantage, aiding and abetting breach of fiduciary duty, financial elder abuse, voidable transfer, declaratory relief and violation of California's Unfair Competition Law.",
+        "According to the report, the complaint seeks compensatory damages in an amount it estimates to be not less than $1.9 billion, punitive damages, an injunction against consummation of the transaction or any transfer or encumbrance of the properties to be contributed, avoidance of the transfer, attachment, appointment of a receiver, restitution and a constructive trust. Sachem said that as of the date of the report it had not been served with the complaint and that it intends to vigorously defend itself.",
+        "The transaction at issue is a Contribution Agreement Sachem entered into on May 17, 2026 with Industrial Realty Group Global, LLC, under which IRG Global is to contribute all of the membership interests of IRG Master Holdings to an operating partnership to be formed as a Sachem subsidiary. Sachem's report says IRG Master Holdings and its subsidiaries own and operate a portfolio of industrial real estate assets.",
+        "The report also describes an earlier case in the same court, Case No. 26STCV23391, filed July 27, 2026 by seventeen plaintiffs who purport to be investors in IRG Master Holdings. That complaint seeks an injunction in aid of an arbitration to which Sachem says it is not a party, and the plaintiffs' motion for a preliminary injunction against the closing is scheduled to be heard on December 9, 2026. Sachem said it intends to vigorously defend that case as well."
+      ],
+      tags: ["reit", "industrial", "injunction", "receiver", "sec disclosure"],
+      parties: [
+        { name: "Sachem Capital Corp.", role: "Defendant" },
+        { name: "Industrial Realty Group Global, LLC", role: "Counterparty to the challenged transaction" }
+      ],
+      judge: null,
+      amountUsd: 1900000000,
+      amountBasis: "damages sought",
+      timeline: [
+        { when: "May 17, 2026", label: "Sachem Capital Corp. enters into a Contribution Agreement with Industrial Realty Group Global, LLC" },
+        { when: "July 27, 2026", label: "Seventeen plaintiffs file Case No. 26STCV23391 in Los Angeles County Superior Court seeking to enjoin the closing pending an arbitration" },
+        { when: "November 3, 2026", label: "A group that purports to hold interests in IRG Master Holdings files Case No. 26STCV34893 against Sachem and certain affiliates, estimating damages at not less than $1.9 billion" },
+        { when: "November 16, 2026", label: "Sachem discloses the complaint in its Form 10-Q and says it has not been served", current: true },
+        { when: "December 9, 2026", label: "Scheduled hearing on the preliminary injunction motion in Case No. 26STCV23391" }
+      ]
     }
   ],
 
