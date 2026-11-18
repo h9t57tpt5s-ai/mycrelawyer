@@ -1997,6 +1997,23 @@
       "baseline": {},
       "checkAfter": "2026-11-19",
       "status": "watching"
+    },
+    {
+      "id": "imp-082",
+      "date": "2026-11-18",
+      "track": "subscription",
+      "title": "Coverage page: describe Distress Radar / Bank CRE Stress coverage (checklist items 2/5)",
+      "why": "Conversion was mostBehind's next pick (hasn't had a change in the last 2 runs) but is gridlocked: follows7 is the only below-target conversion metric and is NEEDS JEFF (G17, js/auth.js off-limits); signUps7/newsletterSignups7 both have open experiments (imp-072 until 2026-11-20, imp-075 until 2026-11-22); multiPageRate7 is already above target with no open watcher. Traffic (imp-074, until 2026-11-21) and calculator (imp-073, until 2026-11-21; finalRangeHitRate Jeff-gated) were also blocked; news is on track with open watchers on all its metrics. Per the one-open-experiment-per-goal precedent, worked the genuinely free subscription track instead -- following imp-078/imp-081's own next-time note to check the other 2026-11-11 flagship pages for the same checklist gap. coverage.html (subscription checklist items 2 'data-sources and accuracy page' and 5 'coverage depth stated honestly') described only the litigation tracker; it said nothing about what the Distress Radar/Bank CRE Stress pages actually cover or their real geographic gaps (Texas foreclosure postings: 6 named counties only; NYC deed coverage: Manhattan/Brooklyn only, not all 5 boroughs) -- verified directly against js/radar-data.json, js/bank-cre.json, ops/tx-foreclosures.json and ops/nyc-commercial-distress.json before writing anything.",
+      "files": [
+        "coverage.html",
+        "scripts/prerender.ts"
+      ],
+      "commit": "bf03687",
+      "metric": "No dedicated subscription metric exists (same gap imp-015/029/042/057/071/078/081 noted); judged by whether the new coverage.html section renders correctly (real prerendered numbers, not the hand-added empty placeholders) and stays accurate the next day.",
+      "window": "n/a",
+      "baseline": {},
+      "checkAfter": "2026-11-19",
+      "status": "watching"
     }
   ]
 }
