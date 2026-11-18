@@ -1,7 +1,18 @@
 {
- "updatedAt": "2026-11-18T03:49:48+00:00",
+ "updatedAt": "2026-11-18T19:33:14+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "2 Hill Ave LLC",
+   "court": "United States Bankruptcy Court, S.D. New York",
+   "courtId": "nysb",
+   "docketNumber": "26-36233",
+   "dateFiled": "2026-11-18",
+   "docketUrl": "https://www.courtlistener.com/docket/75134925/2-hill-ave-llc/",
+   "docketId": 75134925,
+   "slug": "2-hill-ave-llc-nysb-26-36233",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "Winnie Realty Group LLC",
    "court": "United States Bankruptcy Court, E.D. New York",

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T03:49:48+00:00",
+ "updatedAt": "2026-11-18T19:33:14+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
@@ -39,6 +39,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "wilmington-trust-national-association-as-trustee-for-the-benefit-of-th-nysd-1-26-cv-10069",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Pavitt Family Vineyards, LLC v. One True Vine, LLC",
+   "court": "District Court, N.D. California",
+   "courtId": "cand",
+   "docketNumber": "3:26-cv-13990",
+   "dateFiled": "2026-11-17",
+   "docketUrl": "https://www.courtlistener.com/docket/75133532/pavitt-family-vineyards-llc-v-one-true-vine-llc/",
+   "docketId": 75133532,
+   "suitNature": "240 Torts to Land",
+   "cause": "42:1396 - Tort Negligence",
+   "slug": "pavitt-family-vineyards-llc-v-one-true-vine-llc-cand-3-26-cv-13990",
    "type": "Federal civil case"
   },
   {
