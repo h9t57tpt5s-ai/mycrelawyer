@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://credocket.com/matters/live-425.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-18</news:publication_date>
+      <news:title>Clark County Appeals Badlands Golf Course Property Tax Judgment of Nearly $12.6 Million to Nevada Supreme Court</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-424.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-18</news:publication_date>
+      <news:title>Sachem Capital Corp. Sued in Los Angeles by Purported IRG Master Holdings Investors Seeking at Least $1.9 Billion and a Halt to Its Industrial Portfolio Transaction</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://credocket.com/matters/live-423.html</loc>
     <news:news>
       <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
