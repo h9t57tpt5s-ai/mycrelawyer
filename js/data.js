@@ -14096,6 +14096,158 @@ const RELAW_DATA = {
         { when: "March 20, 2024", label: "Benton County Planning Board approves the site plan for Contentment on Beaver Lake, LLC" },
         { when: "November 18, 2026", label: "Arkansas Court of Appeals affirms dismissal of the neighbors' appeal", current: true }
       ]
+    },
+    {
+      id: "live-432",
+      seoTitle: "Oheka Castle Bankruptcy: Plan Confirmed After $72M Auction Bid",
+      seoDescription: "Kahn Property Owner LLC's Chapter 11 plan was confirmed after Gold Coast Property & Estate Management LLC's $72 million auction bid for Oheka Castle.",
+      property: {"name": "Oheka Castle", "address": null, "city": "Huntington", "state": "NY"},
+      addedDate: "2026-11-18",
+      title: "In re Kahn Property Owner, LLC (Oheka Castle): Chapter 11 Plan Confirmed After $72 Million Auction Bid by Gold Coast Property & Estate Management LLC",
+      brief: "Minute entries in the Chapter 11 case of Oheka Castle's owner record a confirmed plan and more time for auction winner Gold Coast Property & Estate Management LLC to pay the buyer's premium on its $72 million bid.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-17",
+      jurisdiction: "U.S. Bankruptcy Court, Eastern District of New York",
+      state: "NY",
+      amount: "$72 million auction bid; about $61 million of debt",
+      source: "live",
+      sourceUrl: "https://www.pacermonitor.com/public/case/59293592/Kahn_Property_Owner,_LLC",
+      propertyType: "Hospitality",
+      summary: "Court minute entries listed under Nov. 17, 2026 on the docket of the Chapter 11 case of Kahn Property Owner, LLC, the company that owns Oheka Castle, record \"Plan Confirmed. Submit Order.\" The entries also record approval of a request to extend the time to pay the buyer's premium and the withdrawal of the U.S. Trustee's motion to convert or dismiss the case. Gold Coast Property & Estate Management LLC bid $72 million for the estate at an Oct. 27 auction.",
+      significance: "LI Parks, citing Newsday, reported that the sale is not final until a federal bankruptcy judge approves it. The minute entries opened record plan confirmation and do not mention a sale order.",
+      body: [
+        "Minute entries listed under Nov. 17, 2026 on the PacerMonitor docket of Kahn Property Owner, LLC's Chapter 11 case, before U.S. Bankruptcy Judge Louis A. Scarcella, record that the plan was confirmed and that an order is to be submitted. The same entries record that a request to extend the time to pay the buyer's premium was approved and that the U.S. Trustee's motion to convert the case to Chapter 7 or dismiss it was withdrawn. The docket shows a hearing on a creditor's motion for relief from stay scheduled for Dec. 15, 2026. The minute entries opened do not mention a sale order.",
+        "Patch reported that Oheka Castle drew a winning bid of $72 million at an auction in Manhattan on Oct. 27, that the bid does not include the buyer's premium, and that the court set a Nov. 12 deadline for objections to the proposed sale with another hearing scheduled for Nov. 17. The docket shows that deadline was extended to Nov. 13, that a secured creditor filed a reservation of rights with respect to the sale, and that Gold Coast Property & Estate Management LLC filed a statement supporting a request to modify the deadline to pay the buyer's premium.",
+        "LI Parks reported that the winning bidder beat six other bidders, and that Kahn Property Owner LLC filed for Chapter 11 protection on July 31, 2025, a week before its lender, an affiliate of Taconic Capital, was set to sell the property at a foreclosure auction. It reported, citing Long Island Business News, that the debt had grown to about $61 million with interest and penalties. The South Shore Press reported that a 2025 appraisal done in the bankruptcy case valued the estate at $137 million."
+      ],
+      tags: ["chapter 11", "bankruptcy auction", "plan confirmation", "oheka castle", "long island"],
+      parties: [
+        { name: "Kahn Property Owner, LLC", role: "Debtor" },
+        { name: "Gold Coast Property & Estate Management LLC", role: "Winning bidder" }
+      ],
+      judge: "Louis A. Scarcella",
+      amountUsd: 72000000,
+      amountBasis: "other",
+      timeline: [
+        { when: "July 31, 2025", label: "Kahn Property Owner LLC files for Chapter 11 protection" },
+        { when: "October 27, 2026", label: "Oheka Castle draws a $72 million winning bid at auction in Manhattan" },
+        { when: "November 13, 2026", label: "Extended deadline to object to sale confirmation" },
+        { when: "November 17, 2026", label: "Minute entries record plan confirmed and buyer's premium deadline extension approved", current: true },
+        { when: "December 15, 2026", label: "Hearing on a creditor's motion for relief from stay scheduled" }
+      ]
+    },
+    {
+      id: "live-433",
+      seoTitle: "Sixty Sixty Resort Miami Beach: Chapter 11 Sale Plan Advances",
+      seoDescription: "Bloom Hotels 6060 LLC amended its liquidation plan and sale motion for Miami Beach's Sixty Sixty Resort; De Paz holds a $24.68M foreclosure judgment.",
+      property: {"name": "Sixty Sixty Resort", "address": "6060 Indian Creek Drive", "city": "Miami Beach", "state": "FL"},
+      addedDate: "2026-11-18",
+      title: "In re Bloom Hotels 6060 LLC: Owner of Miami Beach's Sixty Sixty Resort Amends Liquidation Plan and Sale Motion; Judgment Holder De Paz Family Investment LLC Responds and Disclosure Statement Approval Is Reported",
+      brief: "The owner of Miami Beach's Sixty Sixty Resort amended its Chapter 11 liquidation plan and sale motion; judgment holder De Paz Family Investment LLC responded. Bankruptcy Observer reported a Nov. 13 order approving the disclosure statement.",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-11-13",
+      jurisdiction: "U.S. Bankruptcy Court, Southern District of Florida",
+      state: "FL",
+      amount: "About $24.68 million foreclosure judgment",
+      source: "live",
+      sourceUrl: "https://www.spespecialists.com/post/bankruptcy-watch-sixty-sixty-resort-moves-toward-liquidation-and-court-supervised-sale",
+      propertyType: "Hospitality",
+      summary: "Bloom Hotels 6060 LLC, owner of the closed Sixty Sixty Resort at 6060 Indian Creek Drive in Miami Beach, filed a first amended combined Chapter 11 plan of liquidation and disclosure statement on Nov. 10, 2026 and an amended motion to sell its assets on Nov. 11, according to SPE Specialists. De Paz Family Investment LLC filed responses on Nov. 11. Bankruptcy Observer reported that the court entered an order approving the disclosure statement on Nov. 13. SPE Specialists wrote that the sale, disclosure statement and liquidation plan remain subject to further court consideration.",
+      significance: "The debtor filed Chapter 11 after a foreclosure judgment and now proposes to sell through a liquidation plan, and the judgment holder has responded to both the sale and the expedited schedule. SPE Specialists wrote that the transaction remains subject to bankruptcy-court approval and should not yet be viewed as a completed sale.",
+      body: [
+        "SPE Specialists reported that Bloom Hotels 6060 LLC filed Chapter 11 on Feb. 16, 2026, after a foreclosure judgment threatened the property at 6060 Indian Creek Drive. The foreclosure action was brought by De Paz Family Investment LLC, and court filings described De Paz as holding a foreclosure judgment of approximately $24.68 million, according to the outlet. The case, No. 26-11867, is before Judge Robert A. Mark in the U.S. Bankruptcy Court for the Southern District of Florida, Bankruptcy Observer reported.",
+        "According to SPE Specialists, the debtor filed a motion on Nov. 5 seeking authority to sell substantially all of its assets, a first amended combined plan of liquidation and disclosure statement on Nov. 10, and an amended sale motion on Nov. 11. The debtor is seeking a combined hearing on plan confirmation and sale approval. The outlet wrote that the original liquidation plan described a buyer structure in which, according to a Nov. 4 South Florida Business Journal article, ownership would be divided 50/50 between an existing owner of the debtor's equity and an outside investor group expected to contribute approximately $10 million in cash. It added that the Nov. 5 motion included the purchase and sale agreement and that the transaction documents are still evolving.",
+        "On Nov. 11, De Paz filed responses to both the proposed sale and the debtor's expedited request for combined plan and sale procedures, SPE Specialists reported; the outlet does not describe their contents. It also reported approximately $792,000 in real estate tax liens and roughly $2.53 million of City of Miami Beach liens, and that a December 2025 appraisal reportedly valued the vacant property at approximately $38 million.",
+        "The two outlets differ on where the disclosure statement stands. Bankruptcy Observer's Nov. 13 docket brief reported that the court entered an order approving the disclosure statement that day, after the debtor filed its amended sale motion. SPE Specialists wrote that the sale, disclosure statement and liquidation plan remain subject to further court consideration."
+      ],
+      tags: ["chapter 11", "hotel", "section 363 sale", "foreclosure judgment", "miami beach"],
+      parties: [
+        { name: "Bloom Hotels 6060 LLC", role: "Debtor" },
+        { name: "De Paz Family Investment LLC", role: "Judgment creditor" }
+      ],
+      judge: "Robert A. Mark",
+      amountUsd: null,
+      timeline: [
+        { when: "February 16, 2026", label: "Bloom Hotels 6060 LLC files Chapter 11" },
+        { when: "November 5, 2026", label: "Debtor moves to sell substantially all of its assets" },
+        { when: "November 10, 2026", label: "First amended combined plan of liquidation and disclosure statement filed" },
+        { when: "November 11, 2026", label: "Amended sale motion filed; De Paz Family Investment LLC files responses" },
+        { when: "November 13, 2026", label: "Order approving the disclosure statement entered, according to Bankruptcy Observer", current: true }
+      ]
+    },
+    {
+      id: "live-434",
+      seoTitle: "PAX-1 Data Center Middlesex Township: Judge Hears Challenge",
+      seoDescription: "A Cumberland County judge heard arguments Nov. 13, 2026 on Stop PAX-1's challenge to the $15 billion, 693-acre PAX-1 data center. No ruling was issued.",
+      property: {"name": "PAX-1", "address": null, "city": "Middlesex Township", "state": "PA"},
+      addedDate: "2026-11-18",
+      title: "Stop PAX-1 Challenge to $15 Billion PAX-1 Data Center in Middlesex Township: Cumberland County Judge Hears Arguments, No Ruling Yet",
+      brief: "A Cumberland County judge heard arguments Nov. 13 on resident group Stop PAX-1's challenge to the $15 billion, 693-acre PAX-1 data center in Middlesex Township. The developer moved to dismiss; no ruling was issued.",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-11-13",
+      jurisdiction: "Cumberland County Court of Common Pleas",
+      state: "PA",
+      amount: "$15 billion data center project",
+      source: "live",
+      sourceUrl: "https://www.witf.org/2026/11/13/judge-hears-challenge-to-controversial-pax-1-data-center-in-middlesex-township/",
+      propertyType: "Data Center",
+      summary: "A Cumberland County judge heard arguments on Friday, Nov. 13, 2026, on a legal challenge aimed at stopping the PAX-1 data center development in Middlesex Township, WITF reported. Stop PAX-1, a group of residents opposed to the $15 billion project, asked for a stay on the approved phases and on future approvals. The developer's attorney moved to dismiss the case. The judge did not rule after the arguments.",
+      significance: "The project is under construction while the challenge is pending, and the residents are asking the court to pause both the approved phases and future approvals. WITF reported that final approval votes on the next two phases are planned for February.",
+      body: [
+        "A Cumberland County judge heard arguments on Friday, Nov. 13, 2026, on a legal challenge intended to stop the PAX-1 data center development in Middlesex Township, WITF reported. Stop PAX-1, a group of residents opposed to the $15 billion project, has filed three legal challenges to it. WITF's report describes a substantive validity challenge to the township's data center zoning, and its subhead says the residents are suing the developer and asking a judge to halt construction. abc27 earlier reported that the judge declined to order construction stopped and set the Nov. 13 hearing.",
+        "According to WITF, the residents' attorney argued for a stay on development of the phases already approved and a pause on future approvals. The attorney for the developer, which WITF names as Pennsylvania Data Center Partners, moved to dismiss the case and argued that the request for a stay was filed too late. abc27's reports name the developer as Carlisle Development Partners. The judge did not rule immediately after the arguments.",
+        "PAX-1 would include 16 data center buildings on 693 acres, WITF reported. Middlesex Township officials gave final approval to the first phase in September, and final approval votes for the next two phases are planned for February."
+      ],
+      tags: ["data center", "zoning challenge", "pennsylvania", "stay request", "motion to dismiss"],
+      parties: [
+        { name: "Stop PAX-1", role: "Plaintiff" },
+        { name: "Pennsylvania Data Center Partners", role: "Developer (as named by WITF)" },
+        { name: "Middlesex Township", role: "Township that approved the project" }
+      ],
+      judge: "Matthew P. Smith",
+      amountUsd: null,
+      timeline: [
+        { when: "September 2026", label: "Middlesex Township officials give final approval to the first phase of PAX-1" },
+        { when: "November 13, 2026", label: "Judge hears arguments on the residents' stay request and the developer's motion to dismiss; no ruling", current: true }
+      ]
+    },
+    {
+      id: "live-435",
+      seoTitle: "Smyth County, Virginia Data Center Ordinance Challenged in Court",
+      seoDescription: "A resident's suit asks Smyth County Circuit Court to void the Board of Supervisors' September vote on a special permit process for data centers.",
+      addedDate: "2026-11-18",
+      title: "Smyth County, Virginia Resident Sues Board of Supervisors to Void Data Center Zoning Ordinance",
+      brief: "A Smyth County, Virginia resident's suit, reported Nov. 12 and filed in October, asks the circuit court to void the Board of Supervisors' September vote creating a special permit process for data centers.",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-11-12",
+      jurisdiction: "Smyth County Circuit Court",
+      state: "VA",
+      amount: "Order voiding the ordinance vote",
+      source: "live",
+      sourceUrl: "https://cardinalnews.org/2026/11/12/smyth-county-resident-files-lawsuit-against-new-data-center-ordinance",
+      propertyType: "Data Center",
+      summary: "A Smyth County resident has sued the Smyth County Board of Supervisors over a zoning ordinance on data centers, Cardinal News reported on Nov. 12, 2026. The report says the suit was filed last month and does not give the day. The ordinance creates a special permit process for data centers across industrial, commercial and agricultural zones. The suit asks the Smyth County Circuit Court to void the board's vote.",
+      significance: "According to Cardinal News, the suit asks the court to void the vote based on a lack of compliance with voting procedures and adherence to the county's comprehensive plan. The ordinance creates a special permit process for data centers across industrial, commercial and agricultural zones.",
+      body: [
+        "A Smyth County resident filed a lawsuit against the Smyth County Board of Supervisors over a zoning ordinance about data centers, Cardinal News reported on Nov. 12, 2026. The report says the suit was filed last month; it does not give the day. The ordinance establishes a special permit process for data centers across industrial, commercial and agricultural zones, and Cardinal News reports that it followed a board vote in early September.",
+        "According to Cardinal News, the lawsuit alleges the vote was not done properly because some supervisors took part through a speakerphone call; four out of seven supervisors were physically present. In the lawsuit's account, as Cardinal News reports it, the ordinance was amended between a June planning commission public hearing and the September vote without an additional hearing for public input on the changes. The suit asks the Smyth County Circuit Court to void the board's vote.",
+        "The county administrator told Cardinal News by email that the county worked through a process to develop the ordinance following the requirements set forth by the Code of Virginia, and that the county has no official comment on the lawsuit itself. No hearing has been scheduled."
+      ],
+      tags: ["data center", "zoning ordinance", "virginia", "special use permit"],
+      parties: [
+        { name: "Smyth County Board of Supervisors", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "September 2026", label: "Board of Supervisors votes on the data center ordinance" },
+        { when: "October 2026", label: "Resident files suit (day not reported)" },
+        { when: "November 12, 2026", label: "Cardinal News reports the suit; no hearing scheduled", current: true }
+      ]
     }
   ],
 

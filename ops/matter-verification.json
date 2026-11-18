@@ -339,6 +339,81 @@
      "https://www.courtlistener.com/opinion/11065144/emerald-valley-llc-e-kirk-neely-individually-and-as-managing-member-of/"
     ]
    }
+  },
+  "live-432": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://www.pacermonitor.com/public/case/59293592/Kahn_Property_Owner,_LLC",
+   "urls": [
+    "https://liparks.com/news/developers-win-oheka-castle-with-72-million-bid-at-bankruptcy-auction-b6e96b27bcd7cb33",
+    "https://patch.com/new-york/huntington/oheka-castle-draws-72m-winning-bid-auction-sale-pending",
+    "https://www.pacermonitor.com/public/case/59293592/Kahn_Property_Owner,_LLC",
+    "https://www.southshorepress.com/local/oheka-castle-goes-for-72-million-at-auction-about-half-its-appraised-value-d9206fa0"
+   ],
+   "quotes": 19,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.pacermonitor.com/public/case/59293592/Kahn_Property_Owner,_LLC",
+     "https://patch.com/new-york/huntington/oheka-castle-draws-72m-winning-bid-auction-sale-pending",
+     "https://liparks.com/news/developers-win-oheka-castle-with-72-million-bid-at-bankruptcy-auction-b6e96b27bcd7cb33",
+     "https://www.southshorepress.com/local/oheka-castle-goes-for-72-million-at-auction-about-half-its-appraised-value-d9206fa0"
+    ]
+   }
+  },
+  "live-433": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://www.spespecialists.com/post/bankruptcy-watch-sixty-sixty-resort-moves-toward-liquidation-and-court-supervised-sale",
+   "urls": [
+    "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-friday-november-thirteenth",
+    "https://www.spespecialists.com/post/bankruptcy-watch-sixty-sixty-resort-moves-toward-liquidation-and-court-supervised-sale"
+   ],
+   "quotes": 26,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.spespecialists.com/post/bankruptcy-watch-sixty-sixty-resort-moves-toward-liquidation-and-court-supervised-sale",
+     "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-friday-november-thirteenth"
+    ]
+   }
+  },
+  "live-434": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://www.witf.org/2026/11/13/judge-hears-challenge-to-controversial-pax-1-data-center-in-middlesex-township/",
+   "urls": [
+    "https://www.abc27.com/local-news/cumberland-county-judge-reviewing-arguments-over-pax-1-data-center-project/amp/",
+    "https://www.witf.org/2026/11/13/judge-hears-challenge-to-controversial-pax-1-data-center-in-middlesex-township/"
+   ],
+   "quotes": 12,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.witf.org/2026/11/13/judge-hears-challenge-to-controversial-pax-1-data-center-in-middlesex-township/",
+     "https://www.abc27.com/local-news/cumberland-county-judge-reviewing-arguments-over-pax-1-data-center-project/amp/",
+     "https://www.abc27.com/local-news/carlisle-west-shore/responding-to-new-challenge-judge-refuses-to-stop-pax-1-data-center-but-sets-new-hearing/amp/"
+    ]
+   }
+  },
+  "live-435": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://cardinalnews.org/2026/11/12/smyth-county-resident-files-lawsuit-against-new-data-center-ordinance",
+   "urls": [
+    "https://cardinalnews.org/2026/11/12/smyth-county-resident-files-lawsuit-against-new-data-center-ordinance"
+   ],
+   "quotes": 13,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://cardinalnews.org/2026/11/12/smyth-county-resident-files-lawsuit-against-new-data-center-ordinance"
+    ]
+   }
   }
  }
 }
