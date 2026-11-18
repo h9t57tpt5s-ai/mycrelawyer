@@ -2349,12 +2349,12 @@
       "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"], defendant Benitez is an individual with no business-entity suffix"
     },
     "petition:https://www.courtlistener.com/docket/75121925/swire-properties-southpoint-llc/": {
-      "at": "2026-11-17",
-      "action": "lead queued in ops/digest-leads.json (correction to the 2026-11-16 skip: found a Jacksonville Daily Record legal notice showing Swire Properties Southpoint LLC as mortgagor/defendant in a Duval County foreclosure, Parkwest Holdings LLC v. Swire Properties Southpoint LLC, Case No. 16-2026-CA-000899, final default judgment of foreclosure entered Sept. 30, 2026 -- explains the Nov. 16 Chapter 11 filing; still no confirmed link to the Hong Kong-based Swire Properties Brickell City Centre developer, flagged for newsroom to verify independently)"
+      "at": "2026-11-18",
+      "action": "skipped: no coverage found explaining the filing (Swire Properties Southpoint LLC, MDFL Ch. 11, 2026-11-16; two targeted searches incl. one naming Swire Properties directly found no reporting tying this entity to the known Swire Properties/Miami sponsor or explaining the filing)"
     },
     "petition:https://www.courtlistener.com/docket/75124047/12892-mizner-way-llc/": {
-      "at": "2026-11-16",
-      "action": "skipped: no coverage found explaining the filing (filed same day; S.D. Fla., single-asset Boca Raton-area LLC, no secondary reporting)"
+      "at": "2026-11-18",
+      "action": "skipped: no coverage found explaining the filing (12892 Mizner Way LLC, SDFL Ch. 11, 2026-11-16; small Wellington, FL single-asset LLC with prior 2024 Subchapter V case, no reporting on this new filing)"
     },
     "u-s-bank-trust-national-association-v-12th-street-equity-llc-paed-2-26-cv-08731": {
       "at": "2026-11-16",
@@ -2397,8 +2397,8 @@
       "action": "skipped: Angela Marie Hite v. QL Titling Trust, Ltd. -- equipment-finance debt-collection/guaranty case (Allure Essence Management Company, LLC), not real estate; also centers on an individual guarantor"
     },
     "petition:https://www.courtlistener.com/docket/75126958/9-jude-drive-equities-proprietary-llc/": {
-      "at": "2026-11-17",
-      "action": "skipped: no coverage found explaining the filing (single-asset NY LLC, no named sponsor)"
+      "at": "2026-11-18",
+      "action": "skipped: no coverage found explaining the filing (9 Jude Drive Equities Proprietary LLC, SDNY Ch. 11, 2026-11-16; single-asset LLC named for address, no secondary reporting)"
     },
     "https://www.courtlistener.com/docket/75123238/us-bank-trust-national-association-v-12th-street-equity-llc/": {
       "at": "2026-11-17",
@@ -2433,8 +2433,8 @@
       "action": "skipped: FS Credit Real Estate Income Trust -- generic foreclosed-property accounting policy language, not a litigation disclosure"
     },
     "petition:https://www.courtlistener.com/docket/75128111/winnie-realty-group-llc/": {
-      "at": "2026-11-17",
-      "action": "skipped: no coverage found explaining the filing (E.D.N.Y., filed same day; WebSearch found only unrelated older Chapter 7 cases for same-named entities in PA (2021) and NY (2023), neither matching this Nov. 17, 2026 Chapter 11 petition)"
+      "at": "2026-11-18",
+      "action": "skipped: no coverage found explaining the filing (Winnie Realty Group LLC, EDNY Ch. 11, 2026-11-17; only hit was an unrelated 2023 Ch. 7 case for an entity of the same name, since dismissed)"
     },
     "https://www.courtlistener.com/docket/75133133/wilmington-trust-national-association-as-trustee-for-the-benefit-of-the/": {
       "at": "2026-11-18",
@@ -2487,6 +2487,14 @@
     "0001213900-26-121458:ea0312117-10q_realpha.htm": {
       "at": "2026-11-18",
       "action": "skipped: reAlpha Tech Corp 10-Q restates its own GEM Yield Bahamas Limited warrant-rescission suit (filed Nov. 1, 2024, re Exchange Act Section 29(b)/15(a) unregistered-dealer claims) -- a securities/corporate-finance dispute over warrant terms, not commercial real estate, and not a new development this filing"
+    },
+    "opinion:11064370": {
+      "at": "2026-11-18",
+      "action": "lead queued to ops/digest-leads.json (development agreement specific performance vs. City of Jarrell, TX)"
+    },
+    "opinion:11064355": {
+      "at": "2026-11-18",
+      "action": "skipped: borderline scope \u2014 DTE Electric/Portside Solar v. St. Clair County, MI is a solar-energy-facility zoning preemption fight between a utility/solar developer and a county health department, not clearly a commercial real estate ownership/development/leasing dispute on its face; left out per CLAUDE.md borderline-scope rule"
     }
   }
 }
