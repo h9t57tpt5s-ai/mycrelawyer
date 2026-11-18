@@ -13678,6 +13678,118 @@ const RELAW_DATA = {
         { when: "September 19, 2024", label: "After remand, trial court again overrules the objections and refers the matter to a Board of Viewers" },
         { when: "November 17, 2026", label: "Commonwealth Court affirms", current: true }
       ]
+    },
+    {
+      id: "live-421",
+      seoTitle: "Panorama Corporate Center Centennial: Receiver on $133M Loan",
+      seoDescription: "Judge appoints Trigild IVL receiver for Panorama Corporate Center in Centennial, Colorado, at request of Wells Fargo, trustee of a $133 million loan.",
+      property: {"name": "Panorama Corporate Center", "address": null, "city": "Centennial", "state": "CO"},
+      addedDate: "2026-11-18",
+      title: "Panorama Corporate Center Receivership: Arapahoe County Judge Appoints Trigild IVL at Request of Wells Fargo, Trustee of a $133 Million Loan",
+      brief: "An Arapahoe County judge on Nov. 16 appointed Trigild IVL receiver for Panorama Corporate Center, a six-building, 780,000-square-foot office complex in Centennial, at the request of Wells Fargo, trustee of a $133 million loan.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-16",
+      jurisdiction: "Colorado District Court, Arapahoe County",
+      state: "CO",
+      amount: "$133 million loan (principal later reduced to $74.5 million, according to Wells Fargo)",
+      source: "live",
+      sourceUrl: "https://businessden.com/receiver-appointed-for-massive-centennial-office-complex/",
+      propertyType: "Office",
+      summary: "BusinessDen reported that Arapahoe County District Court Judge Joseph Whitfield on Monday, Nov. 16, 2026, appointed Trigild IVL to oversee Panorama Corporate Center, a six-building, 780,000-square-foot office complex in Centennial, Colorado. Wells Fargo, the trustee of a $133 million loan issued in January 2016 to Denver-based Sagard Real Estate, requested the appointment. BusinessDen described the complex as having defaulted on its loan.",
+      significance: "The order puts a court-appointed receiver in charge of a six-building suburban office complex at the request of the loan's trustee. According to BusinessDen, Sagard Real Estate paid $190.6 million for the complex in January 2016, and Wells Fargo says the loan's principal was reduced to $74.5 million later that year.",
+      body: [
+        "A Colorado state court has placed Panorama Corporate Center in Centennial in receivership, BusinessDen reported on Nov. 18, 2026. According to the outlet, Arapahoe County District Court Judge Joseph Whitfield on Monday, Nov. 16, appointed Trigild IVL to oversee the six-building, 780,000-square-foot office complex, which BusinessDen described as having defaulted on its loan.",
+        "BusinessDen reported that the appointment was requested by Wells Fargo, the trustee of a $133 million loan issued in January 2016 to Denver-based Sagard Real Estate, which paid $190.6 million for the complex that month. The principal amount was reduced to $74.5 million later that year, according to Wells Fargo."
+      ],
+      tags: ["receivership", "office", "loan default", "colorado"],
+      parties: [
+        { name: "Wells Fargo", role: "Lender (trustee)" },
+        { name: "Sagard Real Estate", role: "Borrower" },
+        { name: "Trigild IVL", role: "Receiver" }
+      ],
+      judge: "Joseph Whitfield",
+      amountUsd: null,
+      timeline: [
+        { when: "January 2016", label: "$133 million loan issued to Sagard Real Estate, which paid $190.6 million for the complex that month, according to BusinessDen" },
+        { when: "November 16, 2026", label: "Arapahoe County District Court Judge Joseph Whitfield appoints Trigild IVL as receiver at Wells Fargo's request", current: true }
+      ]
+    },
+    {
+      id: "live-422",
+      seoTitle: "Pulaski County Data Center Ordinance Suit: Intervention Denied",
+      seoDescription: "A federal judge denied the Pulaski County judge-elect's motion to intervene in ADP Little Rock Data Hub LLC's suit over a county data center ordinance.",
+      addedDate: "2026-11-18",
+      title: "ADP Little Rock Data Hub LLC v. Pulaski County: Federal Judge Denies County Judge-Elect's Bid to Intervene in Data Center Ordinance Suit",
+      brief: "A federal judge denied the Pulaski County judge-elect's bid to intervene in ADP Little Rock Data Hub LLC's suit over a county data center ordinance. The company is seeking to build a $6 billion data center near Wrightsville.",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-11-17",
+      jurisdiction: "U.S. District Court, Eastern District of Arkansas",
+      state: "AR",
+      amount: "Injunctive relief; $6 billion data center project",
+      source: "live",
+      sourceUrl: "https://katv.com/news/judge-blocks-wendell-griffen-from-joining-avaio-data-center-ordinance-suit",
+      propertyType: "Data Center",
+      summary: "KATV reported that U.S. District Judge Lee P. Rudofsky on Tuesday, Nov. 17, 2026 denied the incoming Pulaski County judge's request to join a lawsuit that ADP Little Rock Data Hub LLC filed against Pulaski County and two county officials. The company is challenging a county ordinance regulating data centers and has asked the court to temporarily block its enforcement. The order lets the judge-elect file an amicus brief on the preliminary injunction question by Nov. 19 and does not resolve the lawsuit or the injunction request.",
+      significance: "The suit tests a county ordinance that, as the Arkansas Times describes it, limits the construction and operation of large industrial sites, against a developer the Times says is working to build a $6 billion data center. The county's own defenses, as KATV reports them, are that the ordinance does not apply to the company and that the federal court lacks subject-matter jurisdiction. The request for a preliminary injunction is still undecided.",
+      body: [
+        "A federal judge has turned down a request by the incoming Pulaski County judge to become a party to a data center developer's challenge to a county ordinance. KATV reported that U.S. District Judge Lee P. Rudofsky issued the order on Tuesday, Nov. 17, 2026. The suit was filed by ADP Little Rock Data Hub LLC, which KATV has reported is also known as AVAIO Digital, against Pulaski County, the sitting county judge and a justice of the peace. KATV's Oct. 30 report said the company filed it that Thursday in the U.S. District Court for the Eastern District of Arkansas.",
+        "According to KATV, the company is challenging a county ordinance regulating data centers and has asked the court to temporarily block its enforcement while the case proceeds. The Arkansas Times describes the plaintiff as a company working to build a $6 billion data center near Wrightsville and says the ordinance puts limits on the construction and operation of huge industrial sites.",
+        "KATV reported that the county and the sitting county judge opposed the intervention, arguing that the judge-elect has not yet taken the office he will assume Jan. 1, 2027, and that they are already adequately defending the ordinance. The county has also argued that the ordinance does not apply to ADP and that the federal court lacks subject-matter jurisdiction.",
+        "The order allows the judge-elect to submit an amicus brief on the preliminary injunction question, due Thursday, Nov. 19. KATV noted that the order does not resolve the underlying lawsuit or the request for a preliminary injunction. The Arkansas Times reported on Nov. 16 that the judge was scheduled to hear arguments on the injunction request on Friday."
+      ],
+      tags: ["data center", "county ordinance", "intervention", "preliminary injunction", "arkansas"],
+      parties: [
+        { name: "ADP Little Rock Data Hub LLC", role: "Plaintiff" },
+        { name: "Pulaski County", role: "Defendant" }
+      ],
+      judge: "Lee P. Rudofsky",
+      amountUsd: null,
+      timeline: [
+        { when: "October 29, 2026", label: "ADP Little Rock Data Hub LLC files suit in the U.S. District Court for the Eastern District of Arkansas" },
+        { when: "November 17, 2026", label: "Judge denies the county judge-elect's motion to intervene and allows an amicus brief", current: true },
+        { when: "November 19, 2026", label: "Amicus brief on the preliminary injunction question due" }
+      ]
+    },
+    {
+      id: "live-423",
+      seoTitle: "Horizon Pointe San Antonio: Cadence McShane Suit Stays in Court",
+      seoDescription: "Texas Business Court denies San Antonio Housing Facility Corporation's motion to dismiss Cadence McShane's suit over the $45 million Horizon Pointe job.",
+      property: {"name": "Horizon Pointe", "address": null, "city": "San Antonio", "state": "TX"},
+      addedDate: "2026-11-18",
+      title: "Cadence McShane Construction Company LLC v. San Antonio Housing Facility Corporation: Texas Business Court Keeps Suit Over $45 Million Horizon Pointe Apartment Project (2026 Tex. Bus. 83)",
+      brief: "The Texas Business Court kept a construction manager's suit over profits on the $45 million Horizon Pointe affordable-housing apartment project in San Antonio, rejecting the owner's argument that less than $5 million is in controversy.",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2026-11-17",
+      jurisdiction: "Business Court of Texas, Fourth Division",
+      state: "TX",
+      amount: "More than $5 million pleaded in controversy on a $45 million project",
+      source: "live",
+      sourceUrl: "https://www.txcourts.gov/media/1463649/26-bc04b-0017-cadence-mcshane-constr-co-v-san-antonio-housing-facility-corp-2026-tex-bus-83.pdf",
+      propertyType: "Multifamily",
+      summary: "On November 17, 2026, the Business Court of Texas, Fourth Division, denied San Antonio Housing Facility Corporation's motion to dismiss a declaratory-judgment suit by Cadence McShane Construction Company LLC over the Horizon Pointe affordable-housing apartment project in San Antonio. The housing corporation argued the suit did not meet the court's $5 million jurisdictional minimum, pointing to its own separate Bexar County suit, in which it seeks $4,999,999.99 in contractual damages. The court held that Cadence's petition controlled because the housing corporation offered no evidence on the total value of the rights at issue.",
+      significance: "The ruling addresses a forum fight between a project owner and its construction manager: one side filed for declarations in the Business Court, and the other sued in district court with damages capped one cent under the Business Court's threshold. The court held that the cap in the parallel suit does not by itself show that the declaratory suit involves $5 million or less, and that the party challenging jurisdiction must present evidence on the value of all rights to be decided.",
+      body: [
+        "The Business Court of Texas, Fourth Division, on November 17, 2026 denied a motion to dismiss filed by San Antonio Housing Facility Corporation, which the opinion describes as a nonprofit public-facility corporation affiliated with the San Antonio Housing Authority, known as Opportunity Home. According to the opinion, the housing corporation and Cadence McShane Construction Company LLC are parties to a joint venture agreement for construction of Horizon Pointe, an affordable-housing apartment development in San Antonio. Cadence sued on August 17, 2026, seeking declarations about the allocation of project funds and the housing corporation's rights to inspect Cadence's records, and pleaded that more than $5 million is in controversy.",
+        "A few weeks later, the opinion says, the housing corporation sued Cadence in the 57th Judicial District Court of Bexar County for fraud and breach of contract, seeking $4,999,999.99 in contractual damages. Cadence pleads that the Horizon Pointe partnership agreed to pay $45 million for the project and that the housing corporation has accused it of taking more than $7.7 million in profits, more than federal law permitted.",
+        "The housing corporation argued that the value of the case is set by its own Bexar County petition. The court disagreed, writing that the housing corporation \"has it backwards\" and that jurisdiction is decided on the pleadings in the suit before it. Even accepting the housing corporation's valuation of Cadence's first two requests at $4,999,999.99, the court said, the record-inspection declarations are separate requests and there was no evidence they are worth less than two cents.",
+        "Each side accused the other of forum shopping: the housing corporation said Cadence filed minutes after mediation failed, and Cadence said the housing corporation capped its damages one cent below the minimum. The court said neither argument affected its analysis, and that neither party had raised whether the Business Court has dominant jurisdiction over the district court."
+      ],
+      tags: ["texas business court", "construction", "affordable housing", "jurisdiction", "joint venture"],
+      parties: [
+        { name: "Cadence McShane Construction Company LLC", role: "Plaintiff" },
+        { name: "San Antonio Housing Facility Corporation", role: "Defendant" }
+      ],
+      judge: "Stacy Rogers Sharp",
+      amountUsd: null,
+      timeline: [
+        { when: "August 17, 2026", label: "Cadence McShane files declaratory-judgment suit in the Texas Business Court" },
+        { when: "September 8, 2026", label: "San Antonio Housing Facility Corporation moves to dismiss" },
+        { when: "October 28, 2026", label: "Hearing on the motion to dismiss" },
+        { when: "November 17, 2026", label: "Court denies the motion to dismiss", current: true }
+      ]
     }
   ],
 

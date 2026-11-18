@@ -156,6 +156,59 @@
      "https://www.courtlistener.com/opinion/11063306/in-re-condemnation-by-the-pa-turnpike-commission/"
     ]
    }
+  },
+  "live-421": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://businessden.com/receiver-appointed-for-massive-centennial-office-complex/",
+   "urls": [
+    "https://businessden.com/receiver-appointed-for-massive-centennial-office-complex/"
+   ],
+   "quotes": 4,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://businessden.com/receiver-appointed-for-massive-centennial-office-complex/"
+    ]
+   }
+  },
+  "live-422": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://katv.com/news/judge-blocks-wendell-griffen-from-joining-avaio-data-center-ordinance-suit",
+   "urls": [
+    "https://arktimes.com/arkansas-blog/2026/11/16/county-judge-elect-wendell-griffen-wants-in-on-data-center-lawsuit",
+    "https://katv.com/news/data-center-developer-sues-pulaski-county-over-new-regulations",
+    "https://katv.com/news/judge-blocks-wendell-griffen-from-joining-avaio-data-center-ordinance-suit"
+   ],
+   "quotes": 17,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://katv.com/news/judge-blocks-wendell-griffen-from-joining-avaio-data-center-ordinance-suit",
+     "https://katv.com/news/data-center-developer-sues-pulaski-county-over-new-regulations",
+     "https://arktimes.com/arkansas-blog/2026/11/16/county-judge-elect-wendell-griffen-wants-in-on-data-center-lawsuit"
+    ]
+   }
+  },
+  "live-423": {
+   "verifiedOn": "2026-11-18",
+   "sourceUrl": "https://www.txcourts.gov/media/1463649/26-bc04b-0017-cadence-mcshane-constr-co-v-san-antonio-housing-facility-corp-2026-tex-bus-83.pdf",
+   "urls": [
+    "https://www.txcourts.gov/media/1463649/26-bc04b-0017-cadence-mcshane-constr-co-v-san-antonio-housing-facility-corp-2026-tex-bus-83.pdf"
+   ],
+   "quotes": 23,
+   "confirmedByChecker": 23,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.txcourts.gov/media/1463649/26-bc04b-0017-cadence-mcshane-constr-co-v-san-antonio-housing-facility-corp-2026-tex-bus-83.pdf",
+     "https://www.txcourts.gov/businesscourt/opinions/"
+    ]
+   }
   }
  }
 }
