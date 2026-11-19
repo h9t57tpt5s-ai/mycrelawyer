@@ -2043,6 +2043,23 @@
    "checkAfter": "2026-11-26",
    "status": "watching",
    "note": "No code, HTML, TS or JS touched -- markdown prose only, well under the 300-line guideline (83 lines added). site_audit.py and check_case_fields.py both re-run clean (pagesChecked 910 unchanged, missingDescription still 3, the same already-explained noindex set). Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule. If a tenth G15 decision is added before Jeff reviews this summary, say so plainly in that run's report rather than only noting it in the backlog."
+  },
+  {
+   "id": "imp-084",
+   "date": "2026-11-19",
+   "track": "news",
+   "title": "Refreshed ops/social-drafts/ -- 53 new matters since imp-061 (2026-11-08), largest backlog yet",
+   "why": "Step 2: no watching entry has a checkAfter on or before today (earliest remaining is imp-071/imp-072's 2026-11-20); nothing to judge. Step 3: goal_scoreboard.py mostBehind was calculator/conversion/traffic/news (gaps 0.606/0.25/0.0/0.0). Checked every goal's open watchers before picking work: calculator (imp-073 open on calculatorViews7 until 2026-11-21, imp-077 until 2026-11-23, imp-080 until 2026-11-24, imp-083 until 2026-11-26; finalRangeHitRate Jeff-gated regardless), conversion (imp-072 open on signUps7 until 2026-11-20, imp-075 open on newsletterSignups7 until 2026-11-22; follows7 stays G17-blocked on off-limits js/auth.js), traffic (imp-074 open on visits7/googleLandings7 until 2026-11-21), news (imp-063/065 until 2026-11-23, imp-076 until 2026-11-22, imp-079 until 2026-11-24, already on track anyway) -- full G20 gridlock across all four scored goals again, same shape as the last several runs. Per the backlog's own fallback instruction (\"if every goal has an open experiment, fix something from the audit or the backlog that is not measured by a goal metric\"), checked ops/social-drafts/ -- last refreshed 2026-11-08 (imp-061), 11 days ago, far longer than any prior gap (previously every 2-4 days). Counted 53 new sourced matters added since (live-380 through live-435, via a Node eval of js/data.js, no network call) -- the largest pending batch this routine has found. Picked 5 for diversity across categories and for the biggest, most citable dollar figures, screened every one of the 53 titles/summaries for an individual named as a case-caption party before selecting (several were excluded on sight: live-380 'v. Scott Lane', live-417 'Dickard v. Jackson & Jackson') and confirmed the one person named in the 5 selected drafts (Yohan Lowie, live-425) appears only in prose as a company principal, the same shape imp-061 already treated as not exclusion-worthy (Shaya Prager, Mike Reschke).",
+   "files": [
+    "ops/social-drafts/2026-11-19.md"
+   ],
+   "commit": "c3e906b",
+   "metric": "No goals.json metric watches this (a draft for Jeff, same as every prior social-drafts entry) -- logged as a backlog/no-goal-metric fallback item per the gridlock rule",
+   "window": "n/a",
+   "baseline": {},
+   "checkAfter": "2026-11-20",
+   "status": "watching",
+   "note": "checkAfter here just means: confirm next run that ops/social-drafts/2026-11-19.md still exists and renders as valid markdown -- no revert criterion applies to a draft. Markdown-only change (106 lines), well under the 300-line guideline; no HTML/TS/JS touched so tag-balance/deno checks do not apply. site_audit.py (pagesChecked 910, all summary counts 0 except missingDescription=3, the usual already-explained noindex set) and check_case_fields.py (345 matters, OK) both re-run clean after this change, matching the pre-change baseline exactly. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule."
   }
  ]
 }
