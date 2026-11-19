@@ -14414,6 +14414,45 @@ const RELAW_DATA = {
         { when: "August 16, 2022", label: "City enacts the noise ordinance amendment" },
         { when: "November 13, 2026", label: "Dallas Court of Appeals affirms in part, reverses in part, renders in part and remands", current: true }
       ]
+    },
+    {
+      id: "live-440",
+      seoTitle: "Palm Beach Jai-Alai Site: DK Arena Chapter 11 Plan Confirmed",
+      seoDescription: "DK Arena, Inc's amended Chapter 11 plan was confirmed Nov. 18. K&K Developers bid $56.05 million for the 53-acre Mangonia Park jai-alai site.",
+      property: {"name": "Former Palm Beach Jai-Alai fronton", "address": null, "city": "Mangonia Park", "state": "FL"},
+      addedDate: "2026-11-19",
+      title: "In re DK Arena, Inc: Amended Chapter 11 Plan Confirmed; K&K Developers Bid $56.05 Million at Auction for 53-Acre Former Palm Beach Jai-Alai Site in Mangonia Park",
+      brief: "An order entered Nov. 18 confirmed DK Arena, Inc's amended Chapter 11 plan. The Miami Herald reported that K&K Developers bid $56.05 million at a bankruptcy auction for the 53-acre former Palm Beach Jai-Alai site in Mangonia Park.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-18",
+      jurisdiction: "U.S. Bankruptcy Court, Southern District of Florida",
+      state: "FL",
+      amount: "$56.05 million winning auction bid",
+      source: "live",
+      sourceUrl: "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-wednesday-november-eighteenth",
+      propertyType: "Land/Development",
+      summary: "Bankruptcy Observer reported that an order approving the amended disclosure statement and confirming the debtor's amended Chapter 11 plan was entered Nov. 18 in the case of DK Arena, Inc, No. 26-16307 in the Southern District of Florida. The Miami Herald reported the same day that K&K Developers, an affiliate of Garden Communities, won a bankruptcy auction for the 53-acre former Palm Beach Jai-Alai property in Mangonia Park with a $56.05 million bid, topping a $55 million offer from Palm 50 Acres LLC.",
+      significance: "The Miami Herald describes Palm 50 Acres LLC as an affiliate of the lender that had been pursuing foreclosure, so the reported auction result is a lender-affiliated offer being outbid. The Herald's Nov. 18 report said the proposed sale still required bankruptcy court approval; the sources reviewed do not say whether the confirmed plan approves that sale.",
+      body: [
+        "An order approving the amended disclosure statement and confirming the debtor's amended Chapter 11 plan was entered Nov. 18 in the bankruptcy case of DK Arena, Inc, according to Bankruptcy Observer's docket brief for that day. The case is No. 26-16307 in the U.S. Bankruptcy Court for the Southern District of Florida. Bankruptcy Observer reported that orders on fee and employment applications were entered the same day. SPE Specialists, which has followed the case, wrote that the principal value in it lies in the Mangonia Park real estate.",
+        "The Miami Herald reported on Nov. 18 that the winning bid at a bankruptcy auction for the former Palm Beach Jai-Alai property came from New Jersey-based K&K Developers, an affiliate of Garden Communities. Its $56.05 million bid topped a $55 million offer from Palm 50 Acres LLC, which the Herald described as an affiliate of the lender that had been pursuing foreclosure. The Herald described the property as 53 acres in Mangonia Park, between West Palm Beach and Riviera Beach, and said the proposed sale still required bankruptcy court approval.",
+        "WPEC CBS12 reported on Nov. 10 that the bid was submitted during a bankruptcy auction on Friday, crediting the Palm Beach Post for that, and that the sale was scheduled for a Thursday hearing before a bankruptcy judge, with a closing expected Nov. 30. The sources reviewed do not report the outcome of that hearing. The Herald reported that future plans for the property were not made public, and CBS12 reported that Mangonia Park officials say they still do not know what could rise on the site."
+      ],
+      tags: ["chapter 11", "bankruptcy sale", "plan confirmation", "development site", "florida"],
+      parties: [
+        { name: "DK Arena, Inc", role: "Debtor" },
+        { name: "K&K Developers", role: "Winning bidder" },
+        { name: "Palm 50 Acres LLC", role: "Lender affiliate and competing bidder" }
+      ],
+      judge: null,
+      amountUsd: 56050000,
+      amountBasis: "other",
+      timeline: [
+        { when: "November 10, 2026", label: "WPEC CBS12 reports the auction bid by the Garden Communities affiliate, crediting the Palm Beach Post, and a sale hearing set for that Thursday" },
+        { when: "November 18, 2026", label: "Order entered approving the amended disclosure statement and confirming the debtor's amended Chapter 11 plan, per Bankruptcy Observer; the Miami Herald reports the $56.05 million winning bid", current: true },
+        { when: "November 30, 2026", label: "Closing expected, according to CBS12's Nov. 10 report" }
+      ]
     }
   ],
 

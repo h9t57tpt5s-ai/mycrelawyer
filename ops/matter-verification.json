@@ -485,6 +485,29 @@
      "https://www.courtlistener.com/opinion/11065822/city-of-mckinney-texas-and-the-city-of-mckinney-board-of-adjustment-v/"
     ]
    }
+  },
+  "live-440": {
+   "verifiedOn": "2026-11-19",
+   "sourceUrl": "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-wednesday-november-eighteenth",
+   "urls": [
+    "https://cbs12.com/news/local/new-jersey-developer-wins-561-million-bid-for-don-kings-former-jai-alai-fronton-palm-beach-jai-alai-fronton-don-king-mangonia-park-palm-beach-county-k-k-developers-garden-communities-new-jersey-developer-housing-developer-homebuilder",
+    "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-wednesday-november-eighteenth",
+    "https://www.spespecialists.com/post/bankruptcy-watch-update-don-king-s-dk-arena-heads-to-auction-with-55-million-stalking-horse-bid",
+    "https://www.yahoo.com/entertainment/articles/boxing-promoter-don-king-palm-174858029.html"
+   ],
+   "quotes": 18,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-wednesday-november-eighteenth",
+     "https://www.yahoo.com/entertainment/articles/boxing-promoter-don-king-palm-174858029.html",
+     "https://cbs12.com/news/local/new-jersey-developer-wins-561-million-bid-for-don-kings-former-jai-alai-fronton-palm-beach-jai-alai-fronton-don-king-mangonia-park-palm-beach-county-k-k-developers-garden-communities-new-jersey-developer-housing-developer-homebuilder",
+     "https://www.spespecialists.com/post/bankruptcy-watch-update-don-king-s-dk-arena-heads-to-auction-with-55-million-stalking-horse-bid",
+     "https://www.bankruptcyobserver.com/bankruptcy-case/dk-arena"
+    ]
+   }
   }
  }
 }
