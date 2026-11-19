@@ -14634,6 +14634,19 @@ const RELAW_DATA = {
       summary: "CRED iQ's review of 7,597 securitized apartment loans found median occupancy steady at 94%, but revenue rose only 1.0% against 2.5% higher expenses, so net operating income slipped 0.2%, CRE Daily reports. The weakness is concentrated in a few metros: Denver revenue fell 5.4% and NOI 11.8%, and Austin revenue fell 5.1% and NOI 10.8%. Denver now has 38 of its 138 loans below 1.0x debt service coverage, up from 20 a year ago, and Austin's count rose to 39 of 87, also from 20. Concessions appeared in 6.8% of Freddie Mac apartment watchlist comments in October, up from 3.8% a year earlier, and across all deal types 294 loans carrying $6.3 billion are affected.",
       significance: "Occupancy held up by free rent hides falling income, and a loan that no longer covers its debt service is the usual first step toward cash-management triggers, watchlist and special servicing transfers, and then default notices. Apartment owners in Denver, Austin and other oversupplied markets should expect lenders and servicers to test debt service coverage covenants and reserve requirements, and guarantors should review carve-out and shortfall exposure before a workout begins. Lenders weighing extensions will want current rent rolls that show concessions, since reported revenue lags what owners are giving away to keep units filled.",
       tags: ["multifamily", "debt service coverage", "concessions", "cred iq", "freddie mac"]
+    },
+    {
+      id: "trend-033",
+      title: "CBRE: Q3 Investment Volume Nearly Doubles to $257.8B as Alternative Lenders Take 48% of Loan Closings and CMBS Falls to 6%",
+      category: "lending-foreclosure",
+      date: "2026-11-05",
+      scope: "U.S. commercial real estate sales and non-agency loans closed by CBRE Capital Markets (CBRE Q3 2026 U.S. Capital Markets Report)",
+      metric: "$257.8B Q3 volume (+98%; +18% excluding two entity-level deals totaling $104B); alternative lenders 48% of non-agency closings (37% a year ago), CMBS 6% (17%); DSCR 1.32 (1.38)",
+      source: "live",
+      sourceUrl: "https://www.cbre.com/insights/figures/q3-2026-us-capital-markets-report",
+      summary: "CBRE's Q3 2026 U.S. Capital Markets Report puts third-quarter investment volume at $257.8 billion, up 98% year over year, or 18% excluding two entity-level deals totaling $104 billion. Multifamily led at $112.3 billion, followed by industrial at $40.4 billion and data centers at $34.5 billion, and REITs and public companies were the largest buyers at $89.3 billion. Alternative lenders closed 48% of the non-agency loans CBRE arranged, up from 37% a year ago, while banks slipped to 26% from 31% and CMBS fell to 6% from 17%. The average debt service coverage ratio fell to 1.32 from 1.38 and debt yield to 9.5% from 9.9%, mortgage rates rose to 6.0% from 5.8% while cap rates eased to 6.0% from 6.1%, and the share of loans with partial or full interest-only terms rose to 82.3% from 80.2%.",
+      significance: "More of the new debt is held by private lenders whose remedies are set by the loan documents alone, without a pooling and servicing agreement or special servicer, so future defaults are more likely to turn on extension tests, cash management triggers, guaranties and, where mezzanine debt is involved, UCC foreclosures. Thinner coverage and mostly interest-only terms leave less room before a covenant is tripped or a maturity cannot be refinanced. Buyers and sellers in entity-level deals should also review change-of-control and transfer provisions in existing loans, ground leases and joint venture agreements.",
+      tags: ["capital markets", "alternative lenders", "cmbs", "underwriting", "cbre"]
     }
   ],
 
