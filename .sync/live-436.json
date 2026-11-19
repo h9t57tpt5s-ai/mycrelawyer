@@ -1,0 +1,22 @@
+{
+ "id": "live-436",
+ "title": "Nitya Capital, LLC v. FS CREIT Finance WF-2 LLC: Dallas Appeals Court Affirms Receiver Over Bella Vida and CDMX Apartment Complexes on Loans Exceeding $53 Million",
+ "category": "lending-foreclosure",
+ "status": "ruling",
+ "date": "2026-11-16",
+ "jurisdiction": "Texas Court of Appeals, Fifth District (Dallas)",
+ "state": "TX",
+ "amount": "Loans exceeding $53 million",
+ "source": "live",
+ "source_url": "https://www.courtlistener.com/opinion/11065810/nitya-capital-llc-v-fs-creit-finance-wf-2-llc/",
+ "summary": "On November 16, 2026, the Texas Court of Appeals for the Fifth District at Dallas affirmed a trial court order appointing a receiver over two Dallas apartment complexes, Bella Vida and CDMX. The appellees, FS CREIT Finance WF-2 LLC and FS Rialto 2021-FL3 Issuer, Ltd., hold first-priority liens securing loans exceeding $53 million that matured on September 9, 2025 and were not paid. They sought the receiver by intervening in a suit the City of Dallas had already filed over alleged health-and-safety violations at the properties.",
+ "significance": "The court held that lenders did not have to file a separate foreclosure action before asking for a receiver, because a suit involving the same properties was already pending and receivership is an ancillary remedy in a pending action. It also treated a deed-of-trust clause authorizing a receiver on default as relevant to the appointment, though not binding on the trial court. For borrowers, the opinion shows the cost of not raising objections in the trial court: the cause-of-action and notice complaints were held not preserved.",
+ "judge": "Mike Lee",
+ "tags": [
+  "receivership",
+  "multifamily",
+  "maturity default",
+  "texas",
+  "appeal"
+ ]
+}

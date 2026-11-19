@@ -414,6 +414,77 @@
      "https://cardinalnews.org/2026/11/12/smyth-county-resident-files-lawsuit-against-new-data-center-ordinance"
     ]
    }
+  },
+  "live-436": {
+   "verifiedOn": "2026-11-19",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11065810/nitya-capital-llc-v-fs-creit-finance-wf-2-llc/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11065810/nitya-capital-llc-v-fs-creit-finance-wf-2-llc/"
+   ],
+   "quotes": 24,
+   "confirmedByChecker": 24,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11065810/nitya-capital-llc-v-fs-creit-finance-wf-2-llc/"
+    ]
+   }
+  },
+  "live-437": {
+   "verifiedOn": "2026-11-19",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11065288/city-of-shreveport-data-center-permit/",
+   "urls": [
+    "https://shreveportbossierjournal.com/2026/04/23/update-court-hearing-held-april-20-in-challenge-to-shreveport-amazon-data-center/",
+    "https://www.businessreport.com/article/amazon-wins-round-in-fight-over-shreveport-data-center",
+    "https://www.courtlistener.com/opinion/11065288/city-of-shreveport-data-center-permit/"
+   ],
+   "quotes": 30,
+   "confirmedByChecker": 27,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11065288/city-of-shreveport-data-center-permit/",
+     "https://www.businessreport.com/article/amazon-wins-round-in-fight-over-shreveport-data-center",
+     "https://shreveportbossierjournal.com/2026/04/23/update-court-hearing-held-april-20-in-challenge-to-shreveport-amazon-data-center/"
+    ]
+   }
+  },
+  "live-438": {
+   "verifiedOn": "2026-11-19",
+   "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1595527/000162828026073900/nycr-20260930.htm",
+   "urls": [
+    "https://www.sec.gov/Archives/edgar/data/1595527/000162828026073900/nycr-20260930.htm"
+   ],
+   "quotes": 14,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.sec.gov/Archives/edgar/data/1595527/000162828026073900/nycr-20260930.htm",
+     "https://www.sec.gov/Archives/edgar/data/1595527/000162828026073900/",
+     "https://www.sec.gov/Archives/edgar/data/1595527/000110465926122009/tm2628876d1_ex99-1.htm",
+     "https://www.bisnow.com/news/new-york/office/american-strategic-investment-new-york-city-reit-going-concern-defaults"
+    ]
+   }
+  },
+  "live-439": {
+   "verifiedOn": "2026-11-19",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11065822/city-of-mckinney-texas-and-the-city-of-mckinney-board-of-adjustment-v/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11065822/city-of-mckinney-texas-and-the-city-of-mckinney-board-of-adjustment-v/"
+   ],
+   "quotes": 30,
+   "confirmedByChecker": 30,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11065822/city-of-mckinney-texas-and-the-city-of-mckinney-board-of-adjustment-v/"
+    ]
+   }
   }
  }
 }

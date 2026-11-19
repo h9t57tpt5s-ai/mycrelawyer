@@ -1,0 +1,22 @@
+{
+ "id": "live-438",
+ "title": "American Strategic Investment Co. Foreclosure: New York Court Appoints Receiver Over 400 East 67th Street and 200 Riverside Blvd. Properties on $50.0 Million Loan",
+ "category": "lending-foreclosure",
+ "status": "ruling",
+ "date": "2026-10-01",
+ "jurisdiction": "New York Supreme Court, New York County",
+ "state": "NY",
+ "amount": "$50.0 million mortgage loan",
+ "source": "live",
+ "source_url": "https://www.sec.gov/Archives/edgar/data/1595527/000162828026073900/nycr-20260930.htm",
+ "summary": "American Strategic Investment Co. disclosed in its Form 10-Q for the quarter ended September 30, 2026 that the New York County court entered an order on October 1, 2026 granting its lender's request for a receiver in a foreclosure action, over the objection of a condominium board. The filing says the receiver took control of the property on October 21, 2026 and the company stopped managing it. The loan's principal was $50.0 million as of September 30, 2026.",
+ "significance": "The filing shows a receivership going forward on a consented foreclosure even though a condominium board claimed its right to rents for unpaid common charges came ahead of the lender's mortgage. The court's order, as the company describes it, directed the receiver to pay prospective common charges to the board. The company also reports that the foreclosure complaint names its operating partnership and seeks payment of any debt left unsatisfied after a sale, a claim the company says should not trigger recourse under the guaranty.",
+ "judge": null,
+ "tags": [
+  "receivership",
+  "foreclosure",
+  "condominium common charges",
+  "new york",
+  "guaranty"
+ ]
+}

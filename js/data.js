@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-18",
+  lastUpdatedDate: "2026-11-19",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -14247,6 +14247,172 @@ const RELAW_DATA = {
         { when: "September 2026", label: "Board of Supervisors votes on the data center ordinance" },
         { when: "October 2026", label: "Resident files suit (day not reported)" },
         { when: "November 12, 2026", label: "Cardinal News reports the suit; no hearing scheduled", current: true }
+      ]
+    },
+    {
+      id: "live-436",
+      seoTitle: "Nitya Capital v. FS CREIT: Bella Vida, CDMX Receiver Affirmed",
+      seoDescription: "Nitya Capital v. FS CREIT: Dallas appeals court affirms receiver over Bella Vida and CDMX apartments after default on loans exceeding $53 million.",
+      addedDate: "2026-11-19",
+      title: "Nitya Capital, LLC v. FS CREIT Finance WF-2 LLC: Dallas Appeals Court Affirms Receiver Over Bella Vida and CDMX Apartment Complexes on Loans Exceeding $53 Million",
+      brief: "The Dallas Court of Appeals affirmed a receiver over the Bella Vida and CDMX apartment complexes. Lenders with liens securing loans exceeding $53 million had intervened in a City of Dallas suit after a maturity default.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-16",
+      jurisdiction: "Texas Court of Appeals, Fifth District (Dallas)",
+      state: "TX",
+      amount: "Loans exceeding $53 million",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11065810/nitya-capital-llc-v-fs-creit-finance-wf-2-llc/",
+      propertyType: "Multifamily",
+      summary: "On November 16, 2026, the Texas Court of Appeals for the Fifth District at Dallas affirmed a trial court order appointing a receiver over two Dallas apartment complexes, Bella Vida and CDMX. The appellees, FS CREIT Finance WF-2 LLC and FS Rialto 2021-FL3 Issuer, Ltd., hold first-priority liens securing loans exceeding $53 million that matured on September 9, 2025 and were not paid. They sought the receiver by intervening in a suit the City of Dallas had already filed over alleged health-and-safety violations at the properties.",
+      significance: "The court held that lenders did not have to file a separate foreclosure action before asking for a receiver, because a suit involving the same properties was already pending and receivership is an ancillary remedy in a pending action. It also treated a deed-of-trust clause authorizing a receiver on default as relevant to the appointment, though not binding on the trial court. For borrowers, the opinion shows the cost of not raising objections in the trial court: the cause-of-action and notice complaints were held not preserved.",
+      body: [
+        "The Texas Court of Appeals for the Fifth District at Dallas affirmed, in a memorandum opinion filed November 16, 2026, an order appointing a receiver over two apartment complexes in Dallas. According to the opinion, FS CREIT Finance WF-2 LLC and FS Rialto 2021-FL3 Issuer, Ltd. hold first-priority liens securing loans exceeding $53 million against the Bella Vida and CDMX apartment complexes. The loans matured on September 9, 2025, the appellants did not pay, and the loan documents authorized the lenders to seek a receiver upon default. The appellants are Nitya Capital, LLC, Nitya AM, LLC, KPM Multifamily, LLC, The Residence at Bella Vida, LLC and The Residence at CDMX Apartments, LLC, along with the properties in rem.",
+        "Before the loans matured, the City of Dallas had sued alleging numerous health-and-safety violations at the properties, and the trial court granted temporary injunctive relief requiring remediation. After the default, the lenders intervened in the City's case, which was pending in the 134th Judicial District Court of Dallas County, and moved for a receiver. The trial court appointed one after an evidentiary hearing.",
+        "On appeal, the appellants argued that the lenders had asserted no independent cause of action, that notice of the hearing was insufficient, and that a receiver was unnecessary because remediation was already underway and less drastic remedies were available. The court noted that at the hearing they admitted the default while claiming they were only \"technically\" in default. The court held the cause-of-action and notice complaints were not preserved because they were not presented to the trial court, and said the appellants would not prevail on them in any event.",
+        "On the merits, the court said Section 64.001(b) of the Civil Practice and Remedies Code authorizes a party to seek a receiver in a pending action, and that because a suit involving the properties was already pending, no separately filed foreclosure action was required. It found the purpose of notice was fulfilled because the appellants appeared, cross-examined witnesses, presented evidence and argued their position, and concluded the trial court did not abuse its discretion."
+      ],
+      tags: ["receivership", "multifamily", "maturity default", "texas", "appeal"],
+      parties: [
+        { name: "Nitya Capital, LLC", role: "Appellant" },
+        { name: "Nitya AM, LLC", role: "Appellant" },
+        { name: "KPM Multifamily, LLC", role: "Appellant" },
+        { name: "The Residence at Bella Vida, LLC", role: "Appellant" },
+        { name: "The Residence at CDMX Apartments, LLC", role: "Appellant" },
+        { name: "FS CREIT Finance WF-2 LLC", role: "Appellee / Lender" },
+        { name: "FS Rialto 2021-FL3 Issuer, Ltd.", role: "Appellee / Lender" },
+        { name: "City of Dallas", role: "Plaintiff in the underlying suit" }
+      ],
+      judge: "Mike Lee",
+      amountUsd: null,
+      timeline: [
+        { when: "September 9, 2025", label: "Loans matured; appellants did not pay the indebtedness when due" },
+        { when: "November 16, 2026", label: "Dallas Court of Appeals affirmed the order appointing a receiver over the Bella Vida and CDMX apartment complexes", current: true }
+      ]
+    },
+    {
+      id: "live-437",
+      seoTitle: "Resilient Technology Park Data Center Permit Upheld in Shreveport",
+      seoDescription: "A Louisiana appeals court affirmed Shreveport's special use permit for the Resilient Technology Park data center, reported as an Amazon project.",
+      property: {"name": "Resilient Technology Park", "address": null, "city": "Shreveport", "state": "LA"},
+      addedDate: "2026-11-19",
+      title: "Louisiana Second Circuit Affirms Shreveport City Council's Special Use Permit for Data Center at Resilient Technology Park",
+      brief: "Louisiana's Second Circuit affirmed the Shreveport City Council's special use permit for a data center of seven 400,000-square-foot buildings on about 254 acres at Resilient Technology Park, rejecting a challenge by three individual plaintiffs.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-18",
+      jurisdiction: "Louisiana Court of Appeal, Second Circuit",
+      state: "LA",
+      amount: "Special use permit (no dollar amount at issue)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11065288/city-of-shreveport-data-center-permit/",
+      propertyType: "Data Center",
+      summary: "On November 18, 2026, the Louisiana Court of Appeal, Second Circuit, affirmed a Caddo Parish trial court judgment that upheld the Shreveport City Council's approval of a special use permit for a proposed data center at Resilient Technology Park. The council had unanimously reversed the planning commission, whose tied vote was treated as a denial. The appeals court found nothing in the record showing the council acted arbitrarily or capriciously.",
+      significance: "The court reviewed the permit under the arbitrary-and-capricious standard, which it said a recent Louisiana Supreme Court decision extends beyond zoning to other land use decisions. It held that the city's special use criteria are balanced together, so the lack of a document labeled as operating plans did not require denial. It also declined to read broad environmental review into the code's public health, safety and welfare factor, and said nondisclosure agreements signed by city officials were no reason to reverse the approval.",
+      body: [
+        "The Louisiana Court of Appeal, Second Circuit, on November 18, 2026 affirmed a judgment of the First Judicial District Court for Caddo Parish that upheld the Shreveport City Council's approval of a special use permit for a proposed data center at Resilient Technology Park, off Greenwood Road. Judge Stephens wrote the opinion for a three-judge panel. The opinion notes that an application for rehearing may be filed.",
+        "According to the opinion, Bohler Engineering applied to the Shreveport/Caddo Metropolitan Planning Commission on October 17, 2025 for a special use permit covering seven buildings of 400,000 square feet each on approximately 254 acres zoned light industrial. Data centers are permitted by right in that district, but Shreveport's code requires a special use permit for a data center within 200 feet of a residentially zoned district. The commission's vote on December 3, 2025 tied, which was deemed a denial. After a public hearing on December 18, 2025, the City Council unanimously reversed the denial and approved the permit and site plan. The plaintiffs petitioned for judicial review on January 21, 2026, and the trial court, after an April 20, 2026 hearing, rendered judgment affirming the council's decision.",
+        "On appeal the plaintiffs argued that the record contained no operating plans for the data center, that the council imposed no conditions, that it did not adequately consider environmental impacts, and that information was withheld from the public under nondisclosure agreements. The City of Shreveport responded that the council considered all of the code's criteria and a voluminous record before voting. The court held that approval rests on a balancing of the code's standards, observed that no one had specified what conditions were needed, and said environmental factors relating to protected species are not among the listed standards. It found nothing to suggest the council's decision was \"palpably unreasonable\" or arbitrary, saw no reason the nondisclosure agreements would warrant reversal, and assessed the costs of the appeal to the plaintiffs.",
+        "The opinion identifies the applicant as Bohler Engineering. After the trial court's ruling, Baton Rouge Business Report, relaying The Center Square, described the project as an Amazon data center, and the Shreveport-Bossier Journal reported that STACK Infrastructure and Amazon could proceed with site development."
+      ],
+      tags: ["data center", "special use permit", "zoning appeal", "shreveport", "louisiana"],
+      parties: [
+        { name: "City of Shreveport", role: "Defendant-Appellee" },
+        { name: "Bohler Engineering", role: "Permit Applicant" },
+        { name: "Shreveport/Caddo Metropolitan Planning Commission", role: "Planning Commission" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "October 17, 2025", label: "Bohler Engineering files the special use permit application with the Shreveport/Caddo Metropolitan Planning Commission" },
+        { when: "December 3, 2025", label: "Planning commission holds a public hearing; its tied vote is deemed a denial" },
+        { when: "December 18, 2025", label: "City Council holds a public hearing, unanimously reverses the denial and approves the permit and site plan" },
+        { when: "January 21, 2026", label: "Plaintiffs file a petition for judicial review in district court" },
+        { when: "April 20, 2026", label: "Trial court holds a hearing, after which it renders judgment affirming the City Council's decision" },
+        { when: "November 18, 2026", label: "Louisiana Second Circuit affirms the trial court's judgment", current: true }
+      ]
+    },
+    {
+      id: "live-438",
+      seoTitle: "400 East 67th St. & 200 Riverside Blvd.: Receiver on $50.0M Loan",
+      seoDescription: "American Strategic Investment Co. says a New York court appointed a receiver on Oct. 1, 2026 in the foreclosure of a $50.0 million loan.",
+      property: {"name": "400 E. 67th Street - Laurel Condominium / 200 Riverside Blvd. - ICON Garage", "address": null, "city": "New York", "state": "NY"},
+      addedDate: "2026-11-19",
+      title: "American Strategic Investment Co. Foreclosure: New York Court Appoints Receiver Over 400 East 67th Street and 200 Riverside Blvd. Properties on $50.0 Million Loan",
+      brief: "A New York court on Oct. 1, 2026 appointed a receiver over American Strategic Investment Co.'s 400 East 67th Street and 200 Riverside Blvd. properties in a foreclosure on a $50.0 million loan, over a condominium board's objection, the company's 10-Q says.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-10-01",
+      jurisdiction: "New York Supreme Court, New York County",
+      state: "NY",
+      amount: "$50.0 million mortgage loan",
+      source: "live",
+      sourceUrl: "https://www.sec.gov/Archives/edgar/data/1595527/000162828026073900/nycr-20260930.htm",
+      summary: "American Strategic Investment Co. disclosed in its Form 10-Q for the quarter ended September 30, 2026 that the New York County court entered an order on October 1, 2026 granting its lender's request for a receiver in a foreclosure action, over the objection of a condominium board. The filing says the receiver took control of the property on October 21, 2026 and the company stopped managing it. The loan's principal was $50.0 million as of September 30, 2026.",
+      significance: "The filing shows a receivership going forward on a consented foreclosure even though a condominium board claimed its right to rents for unpaid common charges came ahead of the lender's mortgage. The court's order, as the company describes it, directed the receiver to pay prospective common charges to the board. The company also reports that the foreclosure complaint names its operating partnership and seeks payment of any debt left unsatisfied after a sale, a claim the company says should not trigger recourse under the guaranty.",
+      body: [
+        "American Strategic Investment Co. reported in its Form 10-Q for the quarter ended September 30, 2026 that a receiver was appointed in October 2026 for its 400 East 67th Street and 200 Riverside Blvd. properties. According to the filing, the trustee acting for the lenders filed a foreclosure complaint in the New York County court on January 21, 2026, naming the company's operating partnership and its subsidiary borrowers as defendants and asking that they pay any debt remaining unsatisfied after a sale of the property. The filing puts the loan's principal at $50.0 million as of September 30, 2026.",
+        "The company says the trustee, its borrower subsidiaries and the operating partnership signed a settlement agreement on June 3, 2026 that includes consent to a receiver and to entry of a judgment of foreclosure and sale. The lender filed the receiver stipulation on June 8, 2026, but the Board of Managers of 200 Riverside Blvd. at Trump Place Condominium opposed it, asserting that its right to collect rents from the borrower's unit to satisfy allegedly unpaid common charges is prior and superior to the lender's right under the mortgage.",
+        "On October 1, 2026, the filing says, the court granted the lender's request for a receiver over the board's objection and directed the receiver to pay prospective common charges to the board. The receiver took control on October 21, 2026, and the company ceased managing the property. The filing adds that the condominium board has a separate action pending in the same court against the lender, the subsidiary borrower and the tenant over the collection and retention of rents from the unit.",
+        "The company states that it does not believe the allegations against its operating partnership are sufficient to trigger any recourse obligation under the guaranty agreement."
+      ],
+      tags: ["receivership", "foreclosure", "condominium common charges", "new york", "guaranty"],
+      parties: [
+        { name: "American Strategic Investment Co.", role: "Parent of borrowers" },
+        { name: "New York City Operating Partnership L.P.", role: "Defendant" },
+        { name: "Board of Managers of 200 Riverside Blvd. at Trump Place Condominium", role: "Objector" }
+      ],
+      judge: null,
+      amountUsd: 50000000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "January 21, 2026", label: "Trustee for the lenders files foreclosure complaint in the New York County court" },
+        { when: "June 3, 2026", label: "Settlement agreement consenting to a receiver and a judgment of foreclosure and sale" },
+        { when: "June 8, 2026", label: "Lender files receiver stipulation; condominium board opposes" },
+        { when: "October 1, 2026", label: "Court grants lender's request for a receiver over the condominium board's objection" },
+        { when: "October 21, 2026", label: "Receiver takes control; company ceases managing the property", current: true }
+      ]
+    },
+    {
+      id: "live-439",
+      seoTitle: "McKinney v. Cowtown Redi Mix: Court Reverses Vested-Rights Win",
+      seoDescription: "Dallas appeals court: Chapter 245 does not give Cowtown Redi Mix a vested right to keep running its McKinney concrete batch plant; notice claim remanded.",
+      property: {"name": null, "address": null, "city": "McKinney", "state": "TX"},
+      addedDate: "2026-11-19",
+      title: "City of McKinney, Texas v. Cowtown Redi Mix, Inc.: Dallas Appeals Court Holds Chapter 245 Vested Rights Do Not Cover Ongoing Operation of a Concrete Batch Plant",
+      brief: "The Texas Fifth District Court of Appeals reversed a ruling that Cowtown Redi Mix has a vested right under Chapter 245 to run its McKinney concrete batch plant indefinitely, and sent a dispute over rezoning notice back to the trial court.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-13",
+      jurisdiction: "Texas Court of Appeals, Fifth District (Dallas)",
+      state: "TX",
+      amount: "Declaratory relief (rezoning and seven-year amortization of a concrete batch plant)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11065822/city-of-mckinney-texas-and-the-city-of-mckinney-board-of-adjustment-v/",
+      propertyType: "Industrial",
+      summary: "On November 13, 2026, the Texas Court of Appeals in Dallas reversed a Collin County judgment that had shielded Cowtown Redi Mix's concrete batch plant from the City of McKinney's rezoning and seven-year amortization order. The court held that Chapter 245 of the Local Government Code protects a development project through completion, not the continued operation of the finished business. It remanded the question of whether the city sent the required rezoning notice, rejected Cowtown's facial vagueness challenge to the city's noise ordinance, and reversed the attorney's fee award.",
+      significance: "The memorandum opinion applies the Dallas court's earlier holding that operating a business is not a Chapter 245 project, so a certificate of occupancy does not freeze zoning for a completed facility. Cowtown's retroactivity claim failed on the summary-judgment record, where the court pointed to the seven-year period the city allowed. Whether the rezoning itself is void for lack of notice remains open on remand.",
+      body: [
+        "The Texas Court of Appeals for the Fifth District at Dallas, in a November 13, 2026 memorandum opinion by Justice Emily Miskel, affirmed in part, reversed in part, rendered judgment in part and remanded a dispute between the City of McKinney, its Board of Adjustment and Cowtown Redi Mix, Inc. over a concrete batch plant. The appeal came from the 401st Judicial District Court in Collin County.",
+        "According to the opinion, Cowtown built the plant under city-approved site plans and permits. The city enacted an ordinance on April 16, 2019 rezoning the area, which made the plant a legally nonconforming use, and an ordinance on November 5, 2019 setting procedures to amortize and terminate nonconforming uses. It later ordered Cowtown to cease operating the plant after a seven-year amortization period, in an order sent on or about September 30, 2020. A 2022 amendment to the city's noise regulations barred operating power equipment in certain areas between 10 p.m. and 7 a.m. On competing summary-judgment motions, the trial court declared that Cowtown had a vested right under Chapter 245 of the Local Government Code, that the rezoning ordinance was void for lack of notice and that a noise provision was unconstitutionally vague, while rejecting Cowtown's retroactivity and settlement-agreement claims.",
+        "The appeals court reversed the vested-rights declaration and rendered judgment that Cowtown take nothing on its Chapter 245 claims, relying on its precedent that \"the operation of a business is not a 'project' as a matter of law.\" Cowtown had argued its situation was unique, saying it incurred $3 million in construction costs for a single-use facility that would have to be torn down; the court said those distinctions did not change the rule. On notice, the court found that neither side conclusively proved whether the city sent the notice required by section 211.007 and remanded that claim because fact issues remain.",
+        "The court overruled Cowtown's two cross-issues. It held Cowtown had not conclusively established that the Board of Adjustment's order is an unconstitutional retroactive law, noting the city gave Cowtown a seven-year period to continue its nonconforming use. On the settlement agreement, the opinion says the trial court rejected the claim in part because Cowtown was not a party to that agreement. The court also reversed the declaration that section 70-121 of the noise ordinance is unconstitutionally vague, rendered judgment denying that claim, and reversed and remanded the attorney's fee award."
+      ],
+      tags: ["vested rights", "nonconforming use", "amortization", "concrete batch plant", "texas"],
+      parties: [
+        { name: "City of McKinney", role: "Appellant" },
+        { name: "City of McKinney Board of Adjustment", role: "Appellant" },
+        { name: "Cowtown Redi Mix, Inc.", role: "Appellee" }
+      ],
+      judge: "Emily Miskel",
+      amountUsd: null,
+      timeline: [
+        { when: "April 16, 2019", label: "City of McKinney enacts the ordinance rezoning the area where the plant operates" },
+        { when: "November 5, 2019", label: "City enacts the ordinance setting procedures for amortizing and terminating nonconforming uses" },
+        { when: "September 30, 2020", label: "On or about this date, the city sends Cowtown the Board of Adjustment order requiring the plant to cease operating after a seven-year amortization period" },
+        { when: "August 16, 2022", label: "City enacts the noise ordinance amendment" },
+        { when: "November 13, 2026", label: "Dallas Court of Appeals affirms in part, reverses in part, renders in part and remands", current: true }
       ]
     }
   ],

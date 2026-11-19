@@ -1,47 +1,4 @@
 {
   "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
-  "leads": [
-    {
-      "found": "2026-11-18",
-      "title": "BMK Enterprises v. Bailey Enterprises of Montana (2026 MT 102) - commercial storage-property ROFR dispute",
-      "urls": [
-        "https://www.leagle.com/decision/inmtco20260512431",
-        "https://www.mpamag.com/us/specialty/commercial/montana-supreme-court-revives-storage-property-dispute-over-ambiguous-right-of-first-refusal/575154"
-      ],
-      "why": "Montana Supreme Court decision (May 12, 2026) reversing a Gallatin County trial court's dismissal and remanding a commercial storage-facility dispute over an ambiguous right-of-first-refusal clause for factfinding on the parties' intent. Genuine commercial real estate appellate precedent (ROFR/contract-ambiguity doctrine) and the tracker currently has zero Montana matters, so this would close a real geographic gap -- but the event is from May 2026 (6+ months old) and WebSearch did not turn up any contemporaneous or later trade-press coverage, only a law-firm-marketing-style secondary writeup (mpamag.com) and the underlying decision itself (leagle.com). Flagging for the newsroom's judgment on whether the published opinion is sourcing enough on its own given the age, since this cloud routine cannot open either page to verify quotes.",
-      "eventDate": "2026-05-12"
-    },
-    {
-      "found": "2026-11-19",
-      "title": "Nitya Capital, LLC v. FS CREIT Finance WF-2 LLC -- receiver affirmed over two Dallas apartment complexes (Bella Vida, CDMX) after $53M+ loan default",
-      "urls": [
-        "https://www.courtlistener.com/opinion/11065810/nitya-capital-llc-v-fs-creit-finance-wf-2-llc/",
-        "https://therealdeal.com/texas/2026/06/02/nitya-capital-faces-dfw-apartment-foreclosures/",
-        "https://www.multifamilydive.com/news/nitya-apartments-special-servicing-code-violations/803875/",
-        "https://www.credaily.com/?p=221086"
-      ],
-      "why": "Texas Fifth District Court of Appeals (Dallas) affirmed, Nov 16 2026, the trial court's order appointing a receiver over the Residence at Bella Vida and Residence at CDMX apartment complexes after Nitya Capital, LLC and affiliated owners defaulted on $53M+ in first-priority loans held by FS CREIT Finance WF-2, LLC / FS Rialto 2021-FL3 Issuer, Ltd.; the opinion also notes the City of Dallas had sued over health-and-safety violations at the properties, prompting injunctive remediation relief before the lender intervened and sought the receiver. This is a primary-source court opinion (full text in ops/opinion-leads.json, key 11065810) plus genuine trade-press coverage of Nitya's broader DFW multifamily distress saga (The Real Deal, Multifamily Dive, CREdaily) confirming the Nitya/CDMX/foreclosure facts, though none of those articles name this specific $53M figure or the receiver-appointment appeal -- the opinion itself is the source for those numbers. Fits lending-foreclosure beat (06:00 UTC run) squarely: CMBS-style multifamily default, receivership, appellate affirmance.",
-      "eventDate": "2026-11-16"
-    },
-    {
-      "found": "2026-11-19",
-      "title": "Louisiana appeals court affirms special-use permit for Amazon/STACK Infrastructure data center at Shreveport's Resilient Technology Park",
-      "urls": [
-        "https://www.courtlistener.com/opinion/11065288/tyler-gordon-michael-craft-and-mary-blakemore-v-city-of-shreveport/",
-        "https://www.businessreport.com/article/amazon-wins-round-in-fight-over-shreveport-data-center",
-        "https://shreveportbossierjournal.com/2026/04/23/update-court-hearing-held-april-20-in-challenge-to-shreveport-amazon-data-center/"
-      ],
-      "why": "Louisiana Court of Appeal, Second Circuit, affirmed Nov 18 2026 the trial court's (Judge Ramon Lafitte) judgment upholding the Shreveport City Council's approval of a special use permit for a roughly 2.8M-sq-ft, seven-building data center (developer Franks Investment Company LLC, applicant Bohler Engineering) on 254 acres zoned I-1 PUD at Resilient Technology Park -- reported elsewhere as an Amazon/STACK Infrastructure project. Three neighboring residents challenged the Council's reversal of the Metropolitan Planning Commission's 4-4 non-approval; both the opinion and businessreport.com/shreveportbossierjournal.com secondary coverage confirm the permit fight and outcome. Good geographic-diversity pick (Louisiana; zoning/land-use category) for a run otherwise focused on lending/distress.",
-      "eventDate": "2026-11-18"
-    },
-    {
-      "found": "2026-11-19",
-      "title": "City of McKinney, Texas v. Cowtown Redi Mix, Inc. -- mixed appellate ruling on rezoning and forced amortization of a concrete batch plant's nonconforming use",
-      "urls": [
-        "https://www.courtlistener.com/opinion/11065822/city-of-mckinney-texas-and-the-city-of-mckinney-board-of-adjustment-v/"
-      ],
-      "why": "Texas Fifth District Court of Appeals (Dallas) ruled Nov 13 2026 in a dispute over McKinney's rezoning of the area around Cowtown Redi Mix's concrete batch plant and the city's attempt to phase out the plant as a nonconforming use via amortization plus new noise regulations. The court held Cowtown has vested rights under Local Government Code ch. 245 (reversing summary judgment against the City on that point), that the rezoning ordinance was void for lack of notice, and that part of the noise ordinance is unconstitutionally vague -- affirmed in part, reversed in part, rendered in part, remanded. Primary-source opinion only; no secondary trade-press search run yet (industrial zoning/nonconforming-use category, Texas).",
-      "eventDate": "2026-11-13"
-    }
-  ]
+  "leads": []
 }
