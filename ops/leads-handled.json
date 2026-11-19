@@ -2178,7 +2178,7 @@
   },
   "0002071778-26-000058:frmi-20260930.htm": {
    "at": "2026-11-13",
-   "action": "skipped: Fermi Inc./Bayonne Plant Holding dispute is an equipment purchase-and-removal contract fight, not a commercial real estate matter on its face; other disclosed matter (Class B Unit Reclamation/Pe\u00f1a and Summers) is an equity/employment dispute with individual parties, not CRE"
+   "action": "skipped: Fermi Inc./Bayonne Plant Holding dispute is an equipment purchase-and-removal contract fight, not a commercial real estate matter on its face; other disclosed matter (Class B Unit Reclamation/Peña and Summers) is an equity/employment dispute with individual parties, not CRE"
   },
   "opinion:11060461": {
    "at": "2026-11-13",
@@ -2506,7 +2506,7 @@
   },
   "opinion:11064355": {
    "at": "2026-11-18",
-   "action": "skipped: borderline scope \u2014 DTE Electric/Portside Solar v. St. Clair County, MI is a solar-energy-facility zoning preemption fight between a utility/solar developer and a county health department, not clearly a commercial real estate ownership/development/leasing dispute on its face; left out per CLAUDE.md borderline-scope rule"
+   "action": "skipped: borderline scope — DTE Electric/Portside Solar v. St. Clair County, MI is a solar-energy-facility zoning preemption fight between a utility/solar developer and a county health department, not clearly a commercial real estate ownership/development/leasing dispute on its face; left out per CLAUDE.md borderline-scope rule"
   },
   "opinion:11065705": {
    "at": "2026-11-19",
@@ -2735,6 +2735,54 @@
   "https://www.courtlistener.com/docket/75133589/greentree-hospitality-group-incorporated-v-south-central-realty-invest/": {
    "at": "2026-11-19",
    "action": "skipped: no coverage found explaining the dispute (Greentree Hospitality Group Incorporated v. South Central Realty Investments Incorporated, D. Ariz., filed 2026-11-16; WebSearch on both party names turned up only an unrelated BBB complaints page for a different GreenTree Hospitality entity)"
+  },
+  "opinion:11066765": {
+   "at": "2026-11-19",
+   "action": "skipped: not real estate -- 38 E. 64th St., LLC v. Nile, Inc. (NY App Div, 1st Dept) is a residential rent-stabilization/illegal-deregulation dispute over an apartment the individual occupant (Nile's principal) lived in for 20+ years; \"commercial lease\" label is the landlord's own characterization, not the actual use"
+  },
+  "opinion:11066725": {
+   "at": "2026-11-19",
+   "action": "lead queued: WSFS, F.S.B. v. Wahl, III and Brookside Properties, LLC (Delaware confession-of-judgment commercial guaranty ruling)"
+  },
+  "opinion:11066075": {
+   "at": "2026-11-19",
+   "action": "skipped: residential mortgage foreclosure (caseName pattern), not read (Wells Fargo Bank, N.A. v. Segall, 2nd Dept, matchedTerms exactly foreclos+mortgage, individual defendant; same fact pattern as already-skipped opinion:11065611)"
+  },
+  "opinion:11065876": {
+   "at": "2026-11-19",
+   "action": "skipped: individual party -- Soland/Ouimet v. Zoning Hearing Bd. of East Bradford Twp. (Pa. Supreme Court) is a neighbor-vs-neighbor use-variance dispute between individual homeowners (Soland/Ouimet) and the Marshalls, township board as nominal party; not a commercial real estate business matter"
+  },
+  "opinion:11065875": {
+   "at": "2026-11-19",
+   "action": "skipped: duplicate opinion text of opinion:11065876 (same consolidated Soland v. ZHB E. Bradford Twp. appeal)"
+  },
+  "opinion:11065874": {
+   "at": "2026-11-19",
+   "action": "skipped: duplicate opinion text of opinion:11065876 (same consolidated Soland v. ZHB E. Bradford Twp. appeal)"
+  },
+  "opinion:11065873": {
+   "at": "2026-11-19",
+   "action": "skipped: duplicate opinion text of opinion:11065876 (same consolidated Soland v. ZHB E. Bradford Twp. appeal)"
+  },
+  "opinion:11065863": {
+   "at": "2026-11-19",
+   "action": "skipped: not real estate (Demmak Industries LLC d/b/a Iridium Manufacturing v. JAC Products, Inc. -- automotive-parts supply-contract breach dispute between a Tier One and Tier Two auto supplier; \"foreclos\"/\"guaranty\" are false-positive matches, no property at issue)"
+  },
+  "opinion:11065859": {
+   "at": "2026-11-19",
+   "action": "skipped: duplicate of existing matter (Northern Biomedical Research, Inc. v. NBR Investment Properties, LLC already published in js/data.js -- lease-purchase-option specific performance, $8.87M appraisal)"
+  },
+  "opinion:11065857": {
+   "at": "2026-11-19",
+   "action": "skipped: borderline scope, same as opinion:11064355 -- St Clair County Health Dept. v. Lake Iris Solar, LLC/Northstar Clean Energy is the companion case to DTE Electric Co v St Clair Co (both Michigan COA, same panel, same day); solar-energy-facility zoning-preemption fight between a developer and a county health department, not clearly a commercial real estate ownership/development/leasing dispute on its face"
+  },
+  "opinion:11065502": {
+   "at": "2026-11-19",
+   "action": "skipped: too small/insignificant -- Mr. Storage, LLC v. JJ Briggs Consulting, LLC (Wis. Ct. App.) is a small-claims commercial eviction over $2,500/month warehouse-space rent with a pro se defendant; not substantial enough for a matter write-up"
+  },
+  "opinion:11065807": {
+   "at": "2026-11-19",
+   "action": "skipped: not real estate (Procarsa Tube & Pipe Co. et al. v. Blue Racer Midstream, LLC, Tex. App.-Dallas -- pipe-manufacturing product-liability/warranty dispute over a pipeline failure; \"easement\"/\"industrial\" matches are the pipeline right-of-way and steel-manufacturing context, not a CRE dispute)"
   }
  }
 }

@@ -1,4 +1,24 @@
 {
  "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
- "leads": []
+ "leads": [
+  {
+   "found": "2026-11-19",
+   "title": "WSFS, F.S.B. v. Wahl, III and Brookside Properties, LLC (Confession of Judgment on $6M Commercial Guaranty Affirmed)",
+   "urls": [
+    "https://courts.delaware.gov/opinions/download.aspx?id=403640",
+    "https://www.courtlistener.com/opinion/11066725/wsfs-fsb-v-wahl-iii/"
+   ],
+   "why": "Delaware Superior Court (Nov. 18, 2026) adopted a Commissioner's findings and affirmed that confession-of-judgment provisions in commercial guaranties signed by H. Adam Wahl, III and his company Brookside Properties, LLC are valid and enforceable, rejecting the guarantors' due-process waiver challenge after two evidentiary hearings. Brookside owned the commercial property (a fabrication shop) it leased to Quality Heating and Air-Conditioning, Inc., the $6,000,000 WSFS borrower that defaulted; Wahl and Brookside guaranteed the loan. Matters to CRE lenders and guarantors because it confirms Delaware courts will enforce confession-of-judgment clauses in commercial guaranties against both individual and LLC guarantors, letting a lender obtain judgment without a full merits trial.",
+   "eventDate": "2026-11-18"
+  },
+  {
+   "found": "2026-11-19",
+   "title": "EPIC Companies Midwest, LLC v. HI West Acres, LLC (fka EPIC Hospitality) -- North Dakota bankruptcy adversary trial",
+   "urls": [
+    "https://www.valleynewslive.com/2026/10/06/jury-trial-begins-epic-companies-bankruptcy-dispute-over-nearly-900k/"
+   ],
+   "why": "A jury trial began October 6, 2026 in U.S. Bankruptcy Court for the District of North Dakota (Judge Peter Welte) in an adversary proceeding inside EPIC Companies Midwest's Chapter 11 case: EPIC Companies Midwest and EOLA Capital sued HI West Acres, LLC (formerly EPIC Hospitality, LLC) over roughly $900,000 tied to real estate development project financing. Flagged for the newsroom's own freshness judgment: this is the sole North Dakota candidate found this run (the tracker has zero ND matters), but the only coverage is six weeks old with no outcome/verdict reported yet despite a follow-up search.",
+   "eventDate": "2026-10-06"
+  }
+ ]
 }
