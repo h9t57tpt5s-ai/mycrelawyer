@@ -7,6 +7,89 @@ Jeff's approval and can't be deployed from a cloud session. Everything
 below is evidence and a proposal, not a change. Nothing here has been
 applied to any code.
 
+## NEEDS JEFF — decision summary (added 2026-11-19, imp-083)
+
+Nine open decisions have piled up in the dated entries below since
+2026-10-21, none yet reviewed. This section is an index, not new
+evidence — every claim here already has its own full trace in the dated
+entry it names. Grouped and ranked by expected effect, since they aren't
+independent (fixing D first changes what a backtest run under A would
+even be measuring):
+
+**D. A priced issue with no dollar figure contributes nothing to the sum,
+instead of discounting the issue it would zero out if it won (decisions
+8–9, 2026-10-31 second run and 2026-11-16/17 entries).** `issue_range()`
+(in `scripts/replay_backtest.py`, mirroring the live `index.ts` math)
+returns `None` for any issue with a probability band but no figures, so
+`replay()`/the live sum drops it entirely — whichever side it's on.
+Confirmed on 5 cases across construction-defect, eminent-domain and
+lending-foreclosure: 2 overshoots (`architectural-stainless-v-tm-partridge-creek-mall-2021`,
+`franciscan-cvs-i69-2023` — a same-side dispositive defense that should
+have discounted the claim it would zero out) and 3 undershoots
+(`usbank-br-penn-realty-2025`, `cajun-contractors-v-laguerre-2021`,
+`walmart-v-howell-2024` — a real, winning issue worth $244K–$5.1M that
+contributed $0). A fourth undershoot (`nco-montgomery-park-2025`) was
+closed 2026-11-17 as the same mechanic, not a new shape. **Decide:**
+either (a) reject a figure-less issue from being listed at all, the way
+`verifyFigure()` already rejects an unverifiable one, or (b) let it
+through but surface it as an explicit "priced, no figure" warning
+instead of a silent $0. This is the single most-evidenced, most
+generalized gap found so far — one mechanical cause, confirmed on both
+sides, in three of the calculator's eight categories.
+
+**B. `v6IssueRange()`'s handling of `credit`-role figures has three
+separate, confirmed bugs — all specific to the backtest-only v6
+generation, which has never been served to a real visitor (decisions 3, 6,
+7, 2026-10-25/30 entries).** (3) Competing credit-role figures are always
+summed instead of range-selected — confirmed on `cle-venture-fund-v-coventry-2025`
+(floors `damagesRange` to `[0, 0]` against a correct narrative). (6) A
+deduction specific to one appraiser's own methodology gets netted against
+*both* competing appraisers' figures — confirmed on
+`tank-car-v-springfield-township-2023`. (7) An opposing recoupment claim
+can get entirely mistagged as credit-role (the roles instruction is
+written from the represented side's perspective), so `v6IssueRange()`
+returns `null` and the claim silently vanishes — confirmed on
+`westdale-northwest-v-united-states-2021`. **Decide:** these only matter
+if v6 becomes a live candidate (see A) — if Jeff stays on v4.4/v4.3, group
+B can simply wait.
+
+**C. Shared figures aren't deduped across issues the way they already are
+within one side (decisions 4–5, 2026-10-21 second run and 2026-10-26/29
+entries).** (4) One disputed amount pled under 2–3 alternative legal
+theories gets its exposure summed once per theory instead of once —
+confirmed on `windsor-tower-v-speedy-maintenance-2024`; a scan of all 47
+scored v4.3 cases found zero other occurrences, so it's real but hasn't
+yet distorted a *scored* v4.3 result. (5) A partial-taking case can get a
+redundant "value of the whole property" issue priced alongside the
+correct strip-taken-plus-severance issues, double-counting the same land
+— confirmed on `kks-properties-slingerlands-bypass-2020` (inflated v4.3's
+published range to 3-5x the actual award; v4.5 already fixes this on that
+one case by dropping the whole-property issue, not by a general rule).
+**Decide:** (4) extend `dedupeRepresentedFigures()`'s existing pattern to
+the opposing side; (5) instruct the model that a partial taking's damages
+are strip-value-taken plus severance-to-remainder only, never a separate
+whole-property figure.
+
+**A. Process: the live model and the published numbers disagree, and v6
+isn't provably better yet (decisions 1–2, 2026-10-21/22/23 entries).**
+`ANALYSIS_VERSION` in the live edge function is `"v4.4"`, but
+`goals.json`, `js/backtest-results-data.js` and
+case-valuation-calibration.html's changelog all still show v4.3 — v4.4
+has never had its own backtest run. `v6` stays backtest-only. On the one
+fair, matched 44-case comparison available, v6 and v4.3 are close overall
+(64.5% vs 61.3%) but v6 does *worse* on the 7 held-out cases (14.3% vs
+57.1% — too small a sample to prove overfitting, but a real caution).
+**Decide:** (1) give v4.4 a real paid backtest run so the published
+number matches what's live, or move straight to scoring v6/v6.1 live if
+one of those is preferred; (2) only settle v6 vs. v4.4 by running both on
+the identical current case set. Doing this after D/B/C land means the
+comparison isn't re-scoring already-known bugs.
+
+Full traces for every decision above are in their own dated entry below,
+in the order: 2026-10-21 (second run), 2026-10-22, 2026-10-23, 2026-10-25,
+2026-10-26, 2026-10-29, 2026-10-30, 2026-10-31 (second run), 2026-11-16,
+2026-11-17.
+
 ## 2026-10-15 — why v4.3 misses the final-outcome range 47% of the time
 
 **Method:** replayed and inspected the 32 held-and-training backtest cases
