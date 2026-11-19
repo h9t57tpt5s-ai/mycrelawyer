@@ -2507,6 +2507,66 @@
     "opinion:11064355": {
       "at": "2026-11-18",
       "action": "skipped: borderline scope \u2014 DTE Electric/Portside Solar v. St. Clair County, MI is a solar-energy-facility zoning preemption fight between a utility/solar developer and a county health department, not clearly a commercial real estate ownership/development/leasing dispute on its face; left out per CLAUDE.md borderline-scope rule"
+    },
+    "opinion:11065705": {
+      "at": "2026-11-19",
+      "action": "skipped: residential property quiet title dispute (RH Kids, LLC v. Nationstar Mortgage; opinion text states RH Kids owned a residential property), not commercial real estate despite LLC name"
+    },
+    "opinion:11065698": {
+      "at": "2026-11-19",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern), not read (Bank of N.Y. Mellon v. Estate of Beaudouin, matchedTerms exactly foreclos+mortgage, individual/estate defendant)"
+    },
+    "opinion:11065697": {
+      "at": "2026-11-19",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern), not read (Bank of N.Y. Mellon v. Willis, matchedTerms exactly foreclos+mortgage, individual defendant)"
+    },
+    "opinion:11065689": {
+      "at": "2026-11-19",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern), not read (JPMorgan Chase Bank, N.A. v. Lee, matchedTerms exactly foreclos+mortgage, individual defendant)"
+    },
+    "opinion:11065668": {
+      "at": "2026-11-19",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern), not read (OneWest Bank FSB v. Goldring, matchedTerms exactly foreclos+mortgage, individual defendant)"
+    },
+    "opinion:11065611": {
+      "at": "2026-11-19",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern), not read (Wells Fargo Bank, N.A. v. Segall, matchedTerms exactly foreclos+mortgage, individual defendant)"
+    },
+    "opinion:11065583": {
+      "at": "2026-11-19",
+      "action": "skipped: tax-sale title/heirship dispute over a vacant lot between an LLC tax-sale purchaser and individual heirs (1726 South 5th Street Associate LLC v. Claus/Closs heirs, Philadelphia); not a business-to-business commercial real estate dispute"
+    },
+    "opinion:11065650": {
+      "at": "2026-11-19",
+      "action": "skipped: not real estate (Samson MCA, LLC v. Artiles Hauling & Delivery Corp -- breach-of-contract/merchant-cash-advance judgment against a trucking and hauling company; no property at issue)"
+    },
+    "opinion:11065580": {
+      "at": "2026-11-19",
+      "action": "skipped: not real estate (PPG Industries, Inc. v. Westlake Corporation -- Delaware Chancery insurance-coverage/indemnification dispute between chemical manufacturers over 1998 cargo-ship-fire litigation and a corporate spinoff; 'industrial' matched as a chemicals term, not real property)"
+    },
+    "opinion:11065821": {
+      "at": "2026-11-19",
+      "action": "skipped: residential property (Ottavio and Harmon v. Brasher and Nichols -- forcible-detainer appeal over a residential property in Plano, Texas awarded through a probate estate), not commercial real estate"
+    },
+    "opinion:11065493": {
+      "at": "2026-11-19",
+      "action": "skipped: procedural vacatur/remand only, no substantive ruling on the property dispute (Gwinn/CAB Properties, LLC v. Automated Building Systems, Inc. -- Tennessee appeals court vacated on an untimely Rule 59.04 motion it raised sua sponte and remanded; underlying real estate purchase agreement specific-performance dispute left unresolved) -- too thin for a matter write-up"
+    },
+    "opinion:11065704": {
+      "at": "2026-11-19",
+      "action": "skipped: procedural venue-transfer denial only, no ruling on the underlying guaranty/loan-default merits (Fidelity Bank v. Coleman and Lathan -- Louisiana 5th Circuit writ denied on improper venue; guaranty of a loan to Carillon Oaks Lincoln, LLC) -- too thin for a matter write-up on its own"
+    },
+    "opinion:11065810": {
+      "at": "2026-11-19",
+      "action": "lead queued: matter live-NNN candidate (Nitya Capital DFW apartment receiver, see ops/digest-leads.json)"
+    },
+    "opinion:11065288": {
+      "at": "2026-11-19",
+      "action": "lead queued: matter live-NNN candidate (Shreveport Resilient Technology Park data center zoning, see ops/digest-leads.json)"
+    },
+    "opinion:11065822": {
+      "at": "2026-11-19",
+      "action": "lead queued: matter live-NNN candidate (McKinney v. Cowtown Redi Mix concrete plant zoning, see ops/digest-leads.json)"
     }
   }
 }
