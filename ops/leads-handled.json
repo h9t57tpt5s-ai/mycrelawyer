@@ -2567,6 +2567,170 @@
     "opinion:11065822": {
       "at": "2026-11-19",
       "action": "lead queued: matter live-NNN candidate (McKinney v. Cowtown Redi Mix concrete plant zoning, see ops/digest-leads.json)"
+    },
+    "https://www.courtlistener.com/docket/74923770/first-interstate-bank-v-wall-street-apartments-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-10-02, First Interstate Bank v. Wall Street Apartments LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74905187/rescue-properties-llc-v-jert-painting-inc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-10-01, RESCUE PROPERTIES, LLC v. JERT PAINTING, INC.); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74876500/oak-tree-executive-center-a-llc-v-t-mobile-central-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-30, Oak Tree Executive Center A LLC v. T-Mobile Central LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74877217/bossier-village-lane-properties-llc-v-twin-city-fire-insurance-company/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-30, Bossier Village Lane Properties, LLC v. Twin City Fire Insurance Company); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74879500/bossier-village-lane-properties-l-l-c-v-twin-city-fire-insurance-co/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-30, Bossier Village Lane Properties L L C v. Twin City Fire Insurance Co); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74867120/madison-leigh-properties-llc-v-city-of-woonsocket-rhode-island/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-29, Madison Leigh Properties, LLC v. City of Woonsocket, Rhode Island); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74867205/federal-national-mortgage-association-v-saf-texas-properties-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-29, Federal National Mortgage Association v. SAF Texas Properties LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74862805/westlake-properties-inc-v-united-states-small-business-administration/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-28, WESTLAKE PROPERTIES, INC. v. UNITED STATES SMALL BUSINESS ADMINISTRATION); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74863117/oak-tree-executive-center-a-llc-v-t-mobile-central-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-28, Oak Tree Executive Center A, LLC v. T-Mobile Central, LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74861790/mount-vernon-fire-insurance-company-v-riverside-apartments-llp/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-28, MOUNT VERNON FIRE INSURANCE COMPANY v. RIVERSIDE APARTMENTS, LLP); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74860941/greater-dc-diaper-bank-v-wwdc-industrial-park-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-28, Greater DC Diaper Bank v. WWDC Industrial Park, LLC.); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74854890/sandra-doyle-properties-llc-v-owners-insurance-company/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-25, Sandra Doyle Properties LLC v. Owners Insurance Company); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74851640/national-realty-investment-advisors-llc-v-airn-liquidation-trust-co-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-25, NATIONAL REALTY INVESTMENT ADVISORS, LLC v. AIRN LIQUIDATION TRUST CO., LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74859119/mesa-underwriters-specialty-insurance-company-v-greenfield-properties-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-25, MESA Underwriters Specialty Insurance Company v. Greenfield Properties, LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74854822/erie-insurance-company-v-kinsman-grand-avenue-development-group-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-25, Erie Insurance Company v. Kinsman & Grand Avenue Development Group LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74850708/starwivok-llc-v-batis-development-company/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-24, Starwivok LLC v. Batis Development Company); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74851362/p-and-m-properties-ky-llc-v-encova-mutual-insurance-group-inc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-24, P and M Properties KY LLC v. Encova Mutual Insurance Group, Inc.); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74847872/jao-properties-v-owners-insurance-company/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-24, JAO Properties v. Owners Insurance Company); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74845857/clermont-county-board-of-commissioners-v-new-richmond-development/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-24, Clermont County Board of Commissioners v. New Richmond Development Corporation, LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74842652/radial-power-llc-v-scale-development-holdings-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-23, Radial Power, L.L.C. v. Scale Development Holdings, LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74835036/paradigm-business-park-llc-v-liebherr-america-inc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-22, Paradigm Business Park, LLC v. Liebherr-America, Inc.); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74834118/kinsale-insurance-company-v-mietzner-brothers-properties-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-22, Kinsale Insurance Company v. Mietzner Brothers Properties LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74833102/krp-properties-v-of-valdosta-llc-v-northfield-insurance-company/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-22, KRP PROPERTIES V OF VALDOSTA LLC v. NORTHFIELD INSURANCE COMPANY); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74835600/cooperstown-properties-llc-v-redbird-capital-partners-management-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-22, Cooperstown Properties, LLC v. RedBird Capital Partners Management, LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74828292/minnetonka-lodging-group-llc-v-westfield-national-insurance-company/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-21, Minnetonka Lodging Group, LLC v. Westfield National Insurance Company); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74828864/auto-owners-insurance-company-v-calwood-properties-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-21, AUTO-OWNERS INSURANCE COMPANY v. CALWOOD PROPERTIES LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74814818/orly-covington-llc-v-m-g-properties-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-18, Orly, Covington, LLC v. M & G Properties, LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74806634/the-towers-llc-v-village-of-roca/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-17, The Towers, LLC v. Village of Roca); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74809789/elegant-views-office-properties-llc-v-selective-insurance-company-of-the/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-17, Elegant Views Office Properties, LLC v. Selective Insurance Company of the Southeast); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74793540/oriskany-lodging-associates-llc-v-g6-hospitality-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-14, Oriskany Lodging Associates LLC v. G6 Hospitality LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74781921/lument-real-estate-capital-llc-v-lansing-riverwood-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-11, Lument Real Estate Capital, LLC v. Lansing Riverwood, LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74781923/blue-sky-towers-iv-llc-v-town-of-waldoboro/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-11, BLUE SKY TOWERS IV LLC v. TOWN OF WALDOBORO); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74774383/federal-national-mortgage-association-v-silver-maples-apartments-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-10, Federal National Mortgage Association v. Silver Maples Apartments, LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74775654/federal-national-mortgage-association-v-cap-159-w-228-property-owner-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-10, Federal National Mortgage Association v. CAP 159 W 228 Property Owner LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74773421/empire-pipe-supply-company-inc-v-plaza-mexico-holdings-llc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-10, Empire Pipe & Supply Company, Inc. v. Plaza Mexico Holdings, LLC); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74763773/ngu-properties-llc-v-city-of-eastpointe/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-09, NGU Properties, LLC v. City of Eastpointe); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74830440/exodus-transport-ltd-v-rsbc-real-estate-company-lllp/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-09, Exodus Transport, Ltd v. RSBC Real Estate Company LLLP); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74763684/exodus-transport-ltd-v-rsbc-real-estate-company-lllp/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-09, Exodus Transport, Ltd v. RSBC Real Estate Company LLLP); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74762391/provident-group-irving-properties-llc-v-johnson-controls-inc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-08, Provident Group-Irving Properties LLC v. Johnson Controls Inc); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74760727/property-investments-llc-v-jxn-water-inc/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-08, Property Investments, LLC v. JXN Water, Inc.); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/74764352/fam-jam-01-properties-llc-v-united-states-of-america-the/": {
+      "at": "2026-11-19",
+      "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-08, Fam-Jam-01 Properties LLC v. United States of America, The); no search spent per digest-playbook bare-docket guidance"
     }
   }
 }

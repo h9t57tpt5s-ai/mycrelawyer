@@ -144,6 +144,36 @@
    "caseId": "live-019",
    "at": "2026-11-13",
    "action": "docket text only (consent judgment entered Nov 12, 2026; no separate press coverage found of the entry itself)"
+  },
+  "14669317:closed:2021-11-17": {
+   "caseId": "live-380",
+   "at": "2026-11-19",
+   "action": "skipped: termination date already reflected in the matter's own status/date/summary (no new docket entries beyond the already-handled ruling); no new information"
+  },
+  "63600354:closed:2024-07-26": {
+   "caseId": "live-333",
+   "at": "2026-11-19",
+   "action": "skipped: termination date already reflected in the matter's own status/date/summary (no new docket entries beyond the already-handled ruling); no new information"
+  },
+  "67279084:closed:2025-08-01": {
+   "caseId": "live-147",
+   "at": "2026-11-19",
+   "action": "skipped: termination date already reflected in the matter's own status/date/summary (no new docket entries beyond the already-handled ruling); no new information"
+  },
+  "70867976:closed:2026-04-14": {
+   "caseId": "live-224",
+   "at": "2026-11-19",
+   "action": "skipped: termination date already reflected in the matter's own status/date/summary (no new docket entries beyond the already-handled ruling); no new information"
+  },
+  "73178455:closed:2026-08-17": {
+   "caseId": "live-250",
+   "at": "2026-11-19",
+   "action": "skipped: termination date already reflected in the matter's own status/date/summary (no new docket entries beyond the already-handled ruling); no new information"
+  },
+  "73568530:closed:2026-11-12": {
+   "caseId": "live-019",
+   "at": "2026-11-19",
+   "action": "skipped: termination date already reflected in the matter's own status/date/summary (no new docket entries beyond the already-handled ruling); no new information"
   }
  }
 }
