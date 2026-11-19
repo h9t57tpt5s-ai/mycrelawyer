@@ -6585,7 +6585,8 @@ const RELAW_DATA = {
         { when: "May 20, 2026", label: "The REITs' management agreements with Phoenix American Hospitality end" },
         { when: "June 4, 2026", label: "SEC files a settled action against Phoenix American Hospitality and its president; judgments entered June 5" },
         { when: "September 15, 2026", label: "Proven Business Skills Inc sues Phoenix American Hospitality in N.D. Texas; a class action notice also names both REITs" },
-        { when: "October 4, 2026", label: "The REIT, REIT II and 14 affiliates file Chapter 11 in the N.D. Texas bankruptcy court", current: true }
+        { when: "October 4, 2026", label: "The REIT, REIT II and 14 affiliates file Chapter 11 in the N.D. Texas bankruptcy court" },
+        { when: "November 18, 2026", label: "Court enters an order on a motion to dismiss the case (docket entry 194)", current: true }
       ],
       tags: ["reit", "chapter-11", "hospitality", "sec-fraud", "securities"],
       docketUrl: "https://www.courtlistener.com/docket/74914151/american-hospitality-properties-reit-inc/",
