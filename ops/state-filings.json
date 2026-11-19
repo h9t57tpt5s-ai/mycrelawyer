@@ -1,7 +1,26 @@
 {
- "updatedAt": "2026-11-18T19:34:07+00:00",
+ "updatedAt": "2026-11-19T03:50:41+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "261100512277",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-18",
+   "caseName": "Computershare Trust Company, N.A., not in its individual capacity but solely as Owner Trustee for NBE Asset Trust v. RDW Investment Properties LLC",
+   "plaintiffs": [
+    "Computershare Trust Company, N.A., not in its individual capacity but solely as Owner Trustee for NBE Asset Trust"
+   ],
+   "defendants": [
+    "RDW Investment Properties LLC"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "computershare-trust-company-n-a-not-in-its-individual-capacity-but-sol-tx-harris-261100512277"
+  },
   {
    "source": "harris_jp_tx",
    "state": "TX",
