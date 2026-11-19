@@ -524,6 +524,40 @@
      "https://www.courtlistener.com/opinion/11065859/northern-biomedical-research-inc-v-nbr-investment-properties-llc/"
     ]
    }
+  },
+  "live-442": {
+   "verifiedOn": "2026-11-19",
+   "sourceUrl": "https://www.theindianalawyer.com/articles/speedway-drops-eminent-domain-lawsuit-over-stalled-wilshaw-hotel-project",
+   "urls": [
+    "https://www.theindianalawyer.com/articles/speedway-drops-eminent-domain-lawsuit-over-stalled-wilshaw-hotel-project",
+    "https://www.yahoo.com/news/us/articles/speedway-drops-eminent-domain-action-172706057.html"
+   ],
+   "quotes": 14,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.theindianalawyer.com/articles/speedway-drops-eminent-domain-lawsuit-over-stalled-wilshaw-hotel-project",
+     "https://www.yahoo.com/news/us/articles/speedway-drops-eminent-domain-action-172706057.html"
+    ]
+   }
+  },
+  "live-443": {
+   "verifiedOn": "2026-11-19",
+   "sourceUrl": "https://thespacecoastrocket.com/olive-tree-greek-grill-construction-lien-viera/",
+   "urls": [
+    "https://thespacecoastrocket.com/olive-tree-greek-grill-construction-lien-viera/"
+   ],
+   "quotes": 12,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://thespacecoastrocket.com/olive-tree-greek-grill-construction-lien-viera/"
+    ]
+   }
   }
  }
 }

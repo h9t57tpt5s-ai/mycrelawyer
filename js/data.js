@@ -14491,6 +14491,88 @@ const RELAW_DATA = {
         { when: "July 1, 2021", label: "Northern Biomedical gives written notice exercising the lease's option to purchase the property" },
         { when: "November 18, 2026", label: "Michigan Court of Appeals affirms summary disposition and specific performance for the tenant and rejects the tenant's cross-appeal on damages", current: true }
       ]
+    },
+    {
+      id: "live-442",
+      seoTitle: "Wilshaw Hotel Speedway: Town Drops Eminent Domain Lawsuit",
+      seoDescription: "The Town of Speedway, Indiana dismissed its Oct. 28 eminent domain suit against Wilshaw Hotel LLC over the stalled 127-room hotel site and may refile.",
+      property: {"name": "The Wilshaw", "address": "southeast corner of 16th and Main streets", "city": "Speedway", "state": "IN"},
+      addedDate: "2026-11-19",
+      title: "Town of Speedway Drops Eminent Domain Lawsuit Against Wilshaw Hotel LLC Over Stalled Hotel Site at 16th and Main Streets, Says It May Refile",
+      brief: "The Town of Speedway voluntarily dismissed the eminent domain suit it filed Oct. 28 against Wilshaw Hotel LLC over the stalled 127-room hotel site at 16th and Main streets, saying it may restart the case after completing statutory steps.",
+      category: "eminent-domain",
+      status: "pending",
+      date: "2026-11-17",
+      jurisdiction: "Marion County, Indiana",
+      state: "IN",
+      amount: "Condemnation of a roughly 1-acre hotel site",
+      source: "live",
+      sourceUrl: "https://www.theindianalawyer.com/articles/speedway-drops-eminent-domain-lawsuit-over-stalled-wilshaw-hotel-project",
+      propertyType: "Hospitality",
+      summary: "The Town of Speedway, Indiana has voluntarily dismissed the eminent domain lawsuit it filed Oct. 28 to take the site of the stalled Wilshaw hotel project. The Indiana Lawyer, relaying IBJ reporting, said the town's notice described the dismissal as made in an abundance of caution to ensure compliance with the statutory acquisition process. The town said it intends to restart condemnation proceedings if necessary once the statutory prerequisites are complete.",
+      significance: "The dismissal does not end the town's effort to acquire the property: its filing says it intends to restart condemnation if necessary. WTHR reported that a foreclosure lawsuit involving the same property has been ongoing since 2024.",
+      body: [
+        "The Town of Speedway has dismissed its eminent domain lawsuit over the site of the Wilshaw hotel project, The Indiana Lawyer reported on Nov. 19, 2026, relaying IBJ reporting. The town filed the suit on Oct. 28 against property owner Wilshaw Hotel LLC and four other defendants: Indianapolis Mortgage Holder I LLC, Loftus Robinson LLC, MHG Hotels LLC and Wilshaw LLC. It had asked a Marion County judge to condemn the roughly 1-acre property at the southeast corner of 16th and Main streets, where a 127-room hotel was planned. The town wants the property for redevelopment.",
+        "The reports differ on the day of the dismissal. The Indiana Lawyer said the notice of voluntary dismissal was filed Wednesday; WTHR, in a report carried by Yahoo, said it was filed Tuesday, Nov. 17. According to The Indiana Lawyer, the town said it was dropping the suit \"in an abundance of caution and to ensure complete compliance with the statutory acquisition process,\" and that it intends to restart condemnation proceedings if necessary after completing the applicable statutory prerequisites.",
+        "WTHR reported that town officials said they submitted a purchase offer to Wilshaw Hotel LLC in July, along with two appraisals, and that the two sides could not reach an agreement. WTHR also reported that a foreclosure lawsuit involving the property has been ongoing since 2024, with court filings previously alleging more than $7 million owed in connection with a loan tied to the project. The Indiana Lawyer reported that construction has been halted since September 2019.",
+        "Neither report includes a response from the property owner. The Indiana Lawyer said a Speedway spokesperson did not immediately provide IBJ with a statement on the dismissal."
+      ],
+      tags: ["eminent domain", "hotel", "condemnation", "indiana", "stalled development"],
+      parties: [
+        { name: "Town of Speedway", role: "Plaintiff" },
+        { name: "Wilshaw Hotel LLC", role: "Defendant" },
+        { name: "Indianapolis Mortgage Holder I LLC", role: "Defendant" },
+        { name: "Loftus Robinson LLC", role: "Defendant" },
+        { name: "MHG Hotels LLC", role: "Defendant" },
+        { name: "Wilshaw LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "September 2019", label: "Construction of the Wilshaw halted, per The Indiana Lawyer" },
+        { when: "October 28, 2026", label: "Town of Speedway files eminent domain lawsuit against Wilshaw Hotel LLC and four other defendants" },
+        { when: "November 17, 2026", label: "Town files notice of voluntary dismissal (WTHR gives Tuesday, Nov. 17; The Indiana Lawyer says Wednesday) and says it may restart condemnation after completing statutory steps", current: true }
+      ]
+    },
+    {
+      id: "live-443",
+      seoTitle: "Olive Tree Greek Grill Viera: $603,654.68 Construction Lien Suit",
+      seoDescription: "Archangel Engineering & Construction Inc. seeks to foreclose a $603,654.68 lien on the Olive Tree Greek Grill property in Viera; Mellontikos LLC disputes it.",
+      property: {"name": "Olive Tree Greek Grill", "address": "5481 Lake Andrew Drive", "city": "Viera", "state": "FL"},
+      addedDate: "2026-11-19",
+      title: "Archangel Engineering & Construction Inc. v. Mellontikos LLC: Contractor Seeks Foreclosure of $603,654.68 Construction Lien on Olive Tree Greek Grill Property in Viera",
+      brief: "Archangel Engineering & Construction Inc. seeks to foreclose a $603,654.68 construction lien on the Olive Tree Greek Grill property in Viera, Florida; owner Mellontikos LLC denies the amount is due and has counterclaimed.",
+      category: "construction-defect",
+      status: "pending",
+      date: "2026-06-03",
+      jurisdiction: "Circuit Court for Brevard County, Florida",
+      state: "FL",
+      amount: "$603,654.68 construction lien",
+      source: "live",
+      sourceUrl: "https://thespacecoastrocket.com/olive-tree-greek-grill-construction-lien-viera/",
+      propertyType: "Retail",
+      summary: "The Space Coast Rocket reported on Nov. 18, 2026 that Archangel Engineering & Construction Inc. is asking the Circuit Court for Brevard County to foreclose a construction lien on the Olive Tree Greek Grill property at 5481 Lake Andrew Drive in Viera. The contractor sued property owner Mellontikos LLC on June 3. The owner filed an answer and counterclaim on July 21 denying that the lien amount is due or that the lien is enforceable.",
+      significance: "The contractor is asking the court to foreclose its lien on a restaurant property, while the owner's counterclaim alleges the project ran about two years past the contract schedule. The Space Coast Rocket reported that no final judgment has been entered.",
+      body: [
+        "Archangel Engineering & Construction Inc. sued Mellontikos LLC, the owner of the property at 5481 Lake Andrew Drive in Viera, on June 3, The Space Coast Rocket reported on Nov. 18, 2026. The case is in the Circuit Court for Brevard County. According to the report, a claim worksheet filed with the lawsuit lists $603,654.68 as the principal due on the lien and an estimated $106,049.90 in interest and late fees.",
+        "The Space Coast Rocket reported that the two companies entered into a construction contract on Aug. 29, 2022 for the new Olive Tree Greek Grill restaurant, at an original contract price of $3,805,618.10. Archangel alleges it fully performed and submitted a pay application on May 30, 2025 seeking $607,473.54. Besides foreclosure, it is pursuing claims for breach of contract, interest under Florida's construction prompt payment law, unjust enrichment and the value of its work.",
+        "Mellontikos filed an answer and counterclaim on July 21. According to the report, the owner denies that the lien amount is due, denies that the lien is enforceable and accuses Archangel of materially breaching the construction agreement; the counterclaim alleges the project ran approximately two years beyond the contract schedule. No final judgment has been entered."
+      ],
+      tags: ["construction lien", "lien foreclosure", "restaurant", "florida", "contractor payment"],
+      parties: [
+        { name: "Archangel Engineering & Construction Inc.", role: "Plaintiff" },
+        { name: "Mellontikos LLC", role: "Defendant" }
+      ],
+      judge: "George T. Paulk",
+      amountUsd: 603654.68,
+      amountBasis: "claim",
+      timeline: [
+        { when: "August 29, 2022", label: "Archangel and Mellontikos enter into construction contract for the restaurant" },
+        { when: "May 30, 2025", label: "Archangel submits pay application seeking $607,473.54, per its complaint" },
+        { when: "June 3, 2026", label: "Archangel files lien foreclosure suit in the Circuit Court for Brevard County" },
+        { when: "July 21, 2026", label: "Mellontikos files answer and counterclaim" },
+        { when: "November 18, 2026", label: "The Space Coast Rocket reports the suit; no final judgment entered", current: true }
+      ]
     }
   ],
 
