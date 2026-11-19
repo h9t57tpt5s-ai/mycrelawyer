@@ -2731,6 +2731,10 @@
     "https://www.courtlistener.com/docket/74764352/fam-jam-01-properties-llc-v-united-states-of-america-the/": {
       "at": "2026-11-19",
       "action": "skipped: outside 3-day/14-day freshness window (filed 2026-09-08, Fam-Jam-01 Properties LLC v. United States of America, The); no search spent per digest-playbook bare-docket guidance"
+    },
+    "https://www.courtlistener.com/docket/75133589/greentree-hospitality-group-incorporated-v-south-central-realty-invest/": {
+      "at": "2026-11-19",
+      "action": "skipped: no coverage found explaining the dispute (Greentree Hospitality Group Incorporated v. South Central Realty Investments Incorporated, D. Ariz., filed 2026-11-16; WebSearch on both party names turned up only an unrelated BBB complaints page for a different GreenTree Hospitality entity)"
     }
   }
 }
