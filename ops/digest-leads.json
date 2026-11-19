@@ -1,26 +1,4 @@
 {
  "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
- "leads": [
-  {
-   "found": "2026-11-19",
-   "title": "Greenbaum v. Arbor Realty Trust, Inc. -- securities fraud class action over $1.25B in troubled loans",
-   "urls": [
-    "https://www.investmentnews.com/regulation-legal-compliance/investor-alleges-arbor-realty-trust-misled-market-on-125b-loan-mess/268963",
-    "https://www.mpamag.com/us/specialty/commercial/lawsuit-accuses-arbor-realty-of-hiding-125-billion-in-bad-loans/596857",
-    "https://www.credaily.com/briefs/lawsuit-claims-arbor-realty-trust-hid-toxic-portfolio",
-    "https://openclassactions.com/lawsuits/arbor-realty-trust-securities-class-action.php"
-   ],
-   "why": "New securities class action, Case No. 1:26-cv-07231, E.D.N.Y., filed November 9, 2026 -- distinct from the dismissed earlier Martin v. Arbor Realty Trust suit and from the already-tracked Cimerring v. Arbor Realty Trust Georgia bridge-loan suit in js/data.js. Alleges Arbor and two executives described $1.25B of troubled CRE loans as 'ring-fenced' when they were not, misleading investors about its ability to work through delinquent assets; class period Feb 27-Oct 30, 2026; lead plaintiff deadline Jan 8, 2027. Multiple independent secondary sources (InvestmentNews, MPA, CRE Daily, OpenClassActions) corroborate the case number, court, filing date and core allegation. Corresponds to the ops/securities-suit-leads.json 'DEADLINE ALERT for Arbor Realty Trust' lead (firstSeen 2026-11-13), which is a reminder notice about this already-filed suit rather than a new filing.",
-   "eventDate": "2026-11-09"
-  },
-  {
-   "found": "2026-11-19",
-   "title": "Brickell Key condo associations sue Swire Properties and BG over Mandarin Oriental Miami implosion",
-   "urls": [
-    "https://therealdeal.com/miami/2026/11/09/brickell-key-condo-sues-swire-properties-bg-over-implosion/"
-   ],
-   "why": "New lawsuit reported November 9, 2026 -- distinct from the May 2026 Brickell Key seawall-assessment suit against Swire and from the unrelated Mirmelli v. Chisholm Properties South Beach ground-lease suit over the Surfcomber hotel. Alleges Swire Properties and a contractor identified only as 'BG' engaged in abnormally dangerous/ultrahazardous activity when they imploded the former Mandarin Oriental Miami hotel on Brickell Key on April 12, 2026 to clear the site for Swire's roughly $1B, 228-unit luxury condo-and-hotel redevelopment, damaging or endangering neighboring condo towers. Swire Properties is a major commercial developer and the dispute is a construction/demolition tort arising from a commercial redevelopment project, not a residential landlord-tenant matter. Only one source found (The Real Deal) -- newsroom should pull the actual complaint (court, case number, damages sought, 'BG' entity's full legal name) before publishing.",
-   "eventDate": "2026-11-09"
-  }
- ]
+ "leads": []
 }

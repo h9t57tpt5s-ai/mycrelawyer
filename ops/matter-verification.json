@@ -508,6 +508,22 @@
      "https://www.bankruptcyobserver.com/bankruptcy-case/dk-arena"
     ]
    }
+  },
+  "live-441": {
+   "verifiedOn": "2026-11-19",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11065859/northern-biomedical-research-inc-v-nbr-investment-properties-llc/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11065859/northern-biomedical-research-inc-v-nbr-investment-properties-llc/"
+   ],
+   "quotes": 24,
+   "confirmedByChecker": 24,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11065859/northern-biomedical-research-inc-v-nbr-investment-properties-llc/"
+    ]
+   }
   }
  }
 }

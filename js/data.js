@@ -14453,6 +14453,44 @@ const RELAW_DATA = {
         { when: "November 18, 2026", label: "Order entered approving the amended disclosure statement and confirming the debtor's amended Chapter 11 plan, per Bankruptcy Observer; the Miami Herald reports the $56.05 million winning bid", current: true },
         { when: "November 30, 2026", label: "Closing expected, according to CBS12's Nov. 10 report" }
       ]
+    },
+    {
+      id: "live-441",
+      seoTitle: "Northern Biomedical v. NBR Investment Properties: Lease Option",
+      seoDescription: "Michigan Court of Appeals affirms order that landlord NBR Investment Properties complete sale to tenant Northern Biomedical after $8.87 million appraisal.",
+      property: {"name": null, "address": null, "city": null, "state": "MI"},
+      addedDate: "2026-11-19",
+      title: "Northern Biomedical Research, Inc. v. NBR Investment Properties, LLC: Michigan Court of Appeals Affirms Specific Performance of Tenant's Lease Purchase Option After Landlord Refused to Close Over Appraisal",
+      brief: "The Michigan Court of Appeals affirmed rulings that landlord NBR Investment Properties, LLC must complete the sale of a leased property to its tenant under a lease purchase option, after an appraisal set a net value of $8.87 million.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-18",
+      jurisdiction: "Michigan Court of Appeals",
+      state: "MI",
+      amount: "$8.87 million net appraised value",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11065859/northern-biomedical-research-inc-v-nbr-investment-properties-llc/",
+      summary: "On November 18, 2026, the Michigan Court of Appeals affirmed Muskegon Circuit Court rulings that granted summary disposition and specific performance to tenant Northern Biomedical Research, Inc. on its option to buy the property it leased from NBR Investment Properties, LLC. The landlord had refused to close after the appraisal called for by the lease produced a net appraised value of $8.87 million. The court also rejected the tenant's cross-appeal on damages and on a setoff for the landlord's costs of ownership.",
+      significance: "The court held that this lease tied a tenant \"default\" to written notice from the landlord and a chance to cure, so breaches the landlord had not noticed did not block the tenant's exercise of the purchase option. It treated the appraisal as a condition that followed the exercise of the option, so both sides were bound to the sale before the price was known. The lease's waiver of consequential damages also barred the tenant from recovering the higher rent it paid for other space.",
+      body: [
+        "The Michigan Court of Appeals on November 18, 2026 affirmed Muskegon Circuit Court rulings in a dispute between Northern Biomedical Research, Inc., a tenant, and its landlord, NBR Investment Properties, LLC. The opinion is unpublished and per curiam. The trial court had granted summary disposition to Northern Biomedical on liability and said the landlord must complete the sale of the property at the appraised purchase price.",
+        "According to the opinion, the landlord leased 65,000 square feet of the property to Northern Biomedical, and the lease gave the tenant an option to purchase the property, exercisable by written notice at any time during the term when the lease was not in default, at a price set by appraisal. Northern Biomedical exercised the option by letter on July 1, 2021. The appraisal found the best use of the property was a warehouse, reduced the value by $1.1 million as an estimated cost of removing the laboratory, and reached a net appraised value of $8.87 million. The landlord conveyed its dissatisfaction and asked to extend the closing date to obtain a separate appraisal; Northern Biomedical refused, and the landlord refused to close. Northern Biomedical sued, and the landlord counterclaimed, alleging among other things that the tenant assigned the option without consent, to 1210 Pontaluna, LLC, and paid rent late.",
+        "The appeals court held that Northern Biomedical was not in default when it exercised the option. It found the tenant's earlier sharing of an unsigned copy of the lease with a third party breached the confidentiality provision, but concluded the tenant was not materially \"in default\" because the lease tied default to notice from the landlord and a chance to cure. It held the appraisal was a condition subsequent to the option's exercise, that the assignment may have breached the lease but not substantially, and that the landlord had not shown \"qualified\" appraiser meant anything other than licensed and in good standing. It also rejected the landlord's due-process challenge to specific performance.",
+        "On the tenant's cross-appeal, the court held that Northern Biomedical's rental of another space was a consequential damage, which the lease waived for both parties, and that the trial court did not err in considering expenses the tenant avoided because the purchase was not completed."
+      ],
+      tags: ["purchase option", "specific performance", "appraisal", "commercial lease", "michigan"],
+      parties: [
+        { name: "Northern Biomedical Research, Inc.", role: "Tenant / Plaintiff-Appellee / Cross-Appellant" },
+        { name: "1210 Pontaluna, LLC", role: "Plaintiff-Appellee / Cross-Appellant" },
+        { name: "NBR Investment Properties, LLC", role: "Landlord / Defendant-Appellant / Cross-Appellee" }
+      ],
+      judge: null,
+      amountUsd: 8870000,
+      amountBasis: "other",
+      timeline: [
+        { when: "July 1, 2021", label: "Northern Biomedical gives written notice exercising the lease's option to purchase the property" },
+        { when: "November 18, 2026", label: "Michigan Court of Appeals affirms summary disposition and specific performance for the tenant and rejects the tenant's cross-appeal on damages", current: true }
+      ]
     }
   ],
 
