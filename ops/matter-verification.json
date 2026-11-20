@@ -558,6 +558,74 @@
      "https://thespacecoastrocket.com/olive-tree-greek-grill-construction-lien-viera/"
     ]
    }
+  },
+  "live-444": {
+   "verifiedOn": "2026-11-20",
+   "sourceUrl": "https://courts.delaware.gov/opinions/download.aspx?id=403450",
+   "urls": [
+    "https://courts.delaware.gov/Opinions/Download.aspx?id=394160",
+    "https://courts.delaware.gov/opinions/download.aspx?id=403450"
+   ],
+   "quotes": 35,
+   "confirmedByChecker": 35,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://courts.delaware.gov/opinions/download.aspx?id=403450",
+     "https://courts.delaware.gov/Opinions/Download.aspx?id=394160",
+     "https://courts.delaware.gov/opinions/list.aspx?ag=supreme%20court",
+     "https://www.leagle.com/decision/indeco20260408039"
+    ]
+   }
+  },
+  "live-445": {
+   "verifiedOn": "2026-11-20",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11066603/73-dun-one-inc-v-gould/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11066603/73-dun-one-inc-v-gould/"
+   ],
+   "quotes": 26,
+   "confirmedByChecker": 26,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11066603/73-dun-one-inc-v-gould/"
+    ]
+   }
+  },
+  "live-446": {
+   "verifiedOn": "2026-11-20",
+   "sourceUrl": "https://commercialobserver.com/2026/11/250m-cmbs-loan-jersey-city-101-hudson-street-special-servicing/",
+   "urls": [
+    "https://commercialobserver.com/2026/11/250m-cmbs-loan-jersey-city-101-hudson-street-special-servicing/"
+   ],
+   "quotes": 7,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://commercialobserver.com/2026/11/250m-cmbs-loan-jersey-city-101-hudson-street-special-servicing/"
+    ]
+   }
+  },
+  "live-447": {
+   "verifiedOn": "2026-11-20",
+   "sourceUrl": "https://commercialobserver.com/2026/11/123-william-street-distress-cmbs/",
+   "urls": [
+    "https://commercialobserver.com/2026/11/123-william-street-distress-cmbs/"
+   ],
+   "quotes": 10,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://commercialobserver.com/2026/11/123-william-street-distress-cmbs/"
+    ]
+   }
   }
  }
 }

@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-19",
+  lastUpdatedDate: "2026-11-20",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -14573,6 +14573,163 @@ const RELAW_DATA = {
         { when: "June 3, 2026", label: "Archangel files lien foreclosure suit in the Circuit Court for Brevard County" },
         { when: "July 21, 2026", label: "Mellontikos files answer and counterclaim" },
         { when: "November 18, 2026", label: "The Space Coast Rocket reports the suit; no final judgment entered", current: true }
+      ]
+    },
+    {
+      id: "live-444",
+      seoTitle: "StarTop v. NICbyte: Del. Supreme Court Affirms Loan Ruling",
+      seoDescription: "Delaware Supreme Court affirms Chancery ruling that StarTop Investments cannot enforce $20.4 million in loans against Bakersfield and Fresno properties.",
+      addedDate: "2026-11-20",
+      title: "StarTop Investments, LLC v. NICbyte LLC: Delaware Supreme Court Affirms Ruling That Lender Cannot Enforce Loans Against Bakersfield and Fresno Properties",
+      brief: "Delaware's Supreme Court affirmed a Chancery ruling that StarTop Investments cannot enforce $20.4 million in loans against three Bakersfield properties and one in Fresno, after the trial court found the lender intentionally destroyed evidence.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-16",
+      jurisdiction: "Delaware Supreme Court",
+      state: "DE",
+      amount: "$20.4 million in loans",
+      source: "live",
+      sourceUrl: "https://courts.delaware.gov/opinions/download.aspx?id=403450",
+      summary: "On November 16, 2026, the Delaware Supreme Court affirmed the Court of Chancery's judgment against StarTop Investments, LLC for the reasons stated in the lower court's April 8, 2026 post-trial opinion. That opinion declared StarTop's loan documents invalid and cancelled as they relate to any right to enforce against NICbyte LLC, its joint venture NIC Wise RE LLC, or three properties in Bakersfield and one in Fresno, California. The Chancery court found that StarTop intentionally destroyed evidence and ordered it to pay $423,781 in fees and expenses.",
+      significance: "The affirmance leaves in place the Chancery ruling that StarTop has no right, title or interest in the Bakersfield and Fresno properties or in NIC Wise and its subsidiaries. The Chancery court rejected StarTop's argument that a clause in the joint venture agreement protected it in relying on the manager's confirmation of authority.",
+      body: [
+        "The Delaware Supreme Court on November 16, 2026 affirmed the Court of Chancery's judgment in a dispute over loans secured against three properties in Bakersfield and one in Fresno, California. In a short order, the court, sitting en banc, said the judgment should be affirmed for the reasons stated in the Court of Chancery's April 8, 2026 post-trial opinion.",
+        "According to the Chancery opinion, NICbyte and Wishon Row LLC formed a joint venture, NIC Wise RE LLC, on June 6, 2022, with NICbyte owning 95 percent of the membership interests. BW Industries, which owned and managed Wishon Row, sold the properties to NIC Wise subsidiaries, and NIC Wise then leased the properties back. The opinion says the joint venture agreement precluded Wishon Row from entering into a financing or encumbering the properties without NICbyte's consent. It says Bitwise issued StarTop a $10 million note on January 13, 2023, that StarTop closed on a $5 million loan on March 15, 2023, and that the total loan amounts were aggregated to $20.4 million. NICbyte, NIC Wise and four subsidiaries sued on June 20, 2023, seeking declarations that the StarTop loan documents are void and unenforceable, and StarTop counterclaimed to enforce the loans.",
+        "The Chancery court wrote that before trial it had found StarTop, through its principals, engaged in spoliation of evidence, deleting thousands of documents. After a two-day trial, it found that StarTop intentionally destroyed evidence and imposed an adverse inference that there was no apparent authority to enter into the loans; it also found no actual authority. StarTop argued that Section 6.1 of the joint venture agreement left it \"fully protected\" in not inquiring further into that authority, and the court rejected the argument. The court held the plaintiffs entitled to a declaration that the loan documents are invalid and cancelled as they relate to any right to enforce against them or the properties, granted permanent injunctive relief, and ordered StarTop to pay $423,781 in fees and expenses tied to the spoliation motion."
+      ],
+      tags: ["spoliation", "deed of trust", "joint venture", "sale-leaseback", "apparent authority"],
+      parties: [
+        { name: "StarTop Investments, LLC", role: "Appellant" },
+        { name: "NICbyte LLC", role: "Appellee" },
+        { name: "NIC Wise RE LLC", role: "Appellee" }
+      ],
+      judge: "Gary F. Traynor",
+      amountUsd: 20400000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "June 6, 2022", label: "NICbyte and Wishon Row LLC form the joint venture NIC Wise RE LLC" },
+        { when: "January 13, 2023", label: "Bitwise issues a $10 million note to StarTop" },
+        { when: "March 15, 2023", label: "StarTop closes on a $5 million loan" },
+        { when: "June 20, 2023", label: "NICbyte, NIC Wise and four subsidiaries file suit in the Court of Chancery" },
+        { when: "February 25–26, 2025", label: "Trial in the Court of Chancery" },
+        { when: "April 8, 2026", label: "Court of Chancery issues post-trial opinion holding the StarTop loan documents invalid and cancelled as to the plaintiffs and the properties" },
+        { when: "November 16, 2026", label: "Delaware Supreme Court affirms the Court of Chancery's judgment", current: true }
+      ]
+    },
+    {
+      id: "live-445",
+      seoTitle: "73 Dun One v. Gould Holdings: NJ Lease Right of First Refusal",
+      seoDescription: "New Jersey Appellate Division: a Berlin Township tenant's lease right of first refusal was not triggered when Gould Holdings bought the whole property.",
+      property: {"name": null, "address": null, "city": "Berlin Township", "state": "NJ"},
+      addedDate: "2026-11-20",
+      title: "73 Dun One, Inc. v. Gould Holdings, LLC: New Jersey Appellate Division Holds Purchase of the Whole Property Did Not Trigger Tenant's Lease Right of First Refusal on Its Premises",
+      brief: "The New Jersey Appellate Division affirmed summary judgment against a Berlin Township tenant that claimed its lease's right of first refusal was triggered when Gould Holdings, LLC bought the whole property; tax arrears were remanded for findings.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-19",
+      jurisdiction: "Superior Court of New Jersey, Appellate Division",
+      state: "NJ",
+      amount: "Right of first refusal; real estate tax arrears",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11066603/73-dun-one-inc-v-gould/",
+      propertyType: "Retail",
+      summary: "On November 19, 2026, the New Jersey Appellate Division affirmed summary judgment dismissing tenant 73 Dun One, Inc.'s claims that its lease right of first refusal was breached when Gould Holdings, LLC purchased the commercial property containing its premises. The court read the provision as applying only to the leased premises, not the property as a whole, and found no bona fide offer had been made for the premises alone. It remanded for findings on the real estate taxes and interest the tenant owes for 2023 to 2025.",
+      significance: "The court enforced the right of first refusal as written: it covered the premises, and a purchase of the entire property was not an offer for the premises alone. The court said neither the parties nor its own research turned up controlling authority directly on the issue. The opinion is unpublished and, by its own terms, binding only on the parties.",
+      body: [
+        "73 Dun One, Inc. is a tenant under a lease it signed in May 1994 for premises on a commercial property in Berlin Township, New Jersey, where it operated a franchise then known as Dunkin' Donuts. The lease gave the tenant a right of first refusal to purchase the premises on the landlord's receipt of a bona fide written offer from a third party, and required it to pay its share of the real estate taxes. The tenant and the property's other tenants were later notified that the leases and management had been assigned to Gould Holdings, and Gould Holdings then purchased the property.",
+        "The tenant sued for breach of contract, breach of the implied covenant of good faith and fair dealing, specific performance and unjust enrichment. The defendants counterclaimed over underpaid real estate taxes; according to the opinion, the tenant continued to pay only $1,102.87 a month from 2003 through a portion of 2023, and in July 2023 it stopped making payments to Gould Holdings. The Chancery Division in Camden County granted summary judgment to the defendants and dismissed the complaint, and on July 22, 2025 entered an order fixing the taxes and prejudgment interest owed: $13,029.48 for 2023, $24,020.81 for 2024 and $8,408.09 to bring 2025 current.",
+        "In an unpublished per curiam opinion decided November 19, 2026, the Appellate Division affirmed the summary judgment. It held the right of first refusal is triggered only by a bona fide written offer to purchase the premises, that the provision applies only to the premises and not the property as a whole, and that no bona fide offer was made for the premises alone. The court noted that the parties cited, and its own research found, no controlling authority directly addressing the issue.",
+        "On the tax award, the court said there is no genuine dispute that the tenant must pay outstanding real estate taxes and prejudgment interest, but the record did not show which lease provision the trial court relied on or how it calculated the amounts. It remanded for the limited purpose of having the trial court make findings of fact and conclusions of law on the taxes and interest for 2023 to 2025, and did not retain jurisdiction."
+      ],
+      tags: ["right of first refusal", "commercial lease", "real estate taxes", "summary judgment", "new jersey"],
+      parties: [
+        { name: "73 Dun One, Inc.", role: "Tenant / Plaintiff-Appellant" },
+        { name: "Gould Holdings, LLC", role: "Landlord / Defendant-Respondent" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "May 1994", label: "73 Dun One, Inc. signs the lease containing the right of first refusal" },
+        { when: "July 2023", label: "Tenant stops making payments to Gould Holdings" },
+        { when: "April 4, 2025", label: "Trial court order memorializes summary judgment for the defendants and dismissal of the complaint" },
+        { when: "July 22, 2025", label: "Trial court order fixes real estate taxes and prejudgment interest owed by the tenant" },
+        { when: "October 6, 2026", label: "Appeal argued in the Appellate Division" },
+        { when: "November 19, 2026", label: "Appellate Division affirms summary judgment and remands for findings on the taxes and interest", current: true }
+      ]
+    },
+    {
+      id: "live-446",
+      seoTitle: "101 Hudson Street, Jersey City: $250M Loan in Special Servicing",
+      seoDescription: "A $250 million CMBS loan on 101 Hudson Street, a 42-story Jersey City office tower, went to special servicing after missing its October 2026 maturity.",
+      property: {"name": "101 Hudson Street", "address": "101 Hudson Street", "city": "Jersey City", "state": "NJ"},
+      addedDate: "2026-11-20",
+      title: "101 Hudson Street, Jersey City: $250M CMBS Loan Sent to Special Servicing After Missed October 2026 Maturity",
+      brief: "A $250 million CMBS loan on 101 Hudson Street, a 42-story Jersey City office tower, went to special servicing after missing its October 2026 maturity, Commercial Observer reported, citing a Morningstar Credit alert.",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-11-19",
+      jurisdiction: "Jersey City, New Jersey (no court case reported; loan in special servicing)",
+      state: "NJ",
+      amount: "$250 million CMBS loan",
+      source: "live",
+      sourceUrl: "https://commercialobserver.com/2026/11/250m-cmbs-loan-jersey-city-101-hudson-street-special-servicing/",
+      propertyType: "Office",
+      summary: "Commercial Observer reported on Nov. 19, 2026 that a $250 million commercial mortgage-backed securities loan on 101 Hudson Street, a 42-story, 1.4 million-square-foot office building in Jersey City, was sent to special servicing after missing its October 2026 maturity date. The report cites an alert from Morningstar Credit and does not give the date of the transfer.",
+      significance: "According to Morningstar, as relayed by Commercial Observer, occupancy at the building has dropped to 64 percent in recent months. Commercial Observer reported that the largest tenant, Merrill Lynch, has nearly 30 percent of the office space under a lease that expires in five months.",
+      body: [
+        "A $250 million commercial mortgage-backed securities loan on 101 Hudson Street in Jersey City has gone to special servicing after missing its October 2026 maturity date, Commercial Observer reported on Nov. 19, 2026, citing an alert from Morningstar Credit. The building is a 42-story, 1.4 million-square-foot office tower. The report says the loan makes up parts of multiple conduits. It does not give the date of the transfer.",
+        "Commercial Observer reported that the property's net cash flow failed to meet its underwriting in the first year after the loan was originated. Occupancy fell first to 70 percent once tenant National Union Fire Insurance vacated in 2018 and dropped to 64 percent in recent months, per Morningstar. Merrill Lynch remains the largest tenant with nearly 30 percent of the office space, and Commercial Observer reported that its lease expires in five months.",
+        "Commercial Observer reported that a partnership that includes Mark Meisner of the Birch Group and Abe Greenhut of 2020 Vision bought the building in October 2022 from Veris Residential for $346 million. Birch Group did not respond to the outlet's requests for comment."
+      ],
+      tags: ["cmbs", "special servicing", "office", "maturity default", "new jersey"],
+      parties: [
+        { name: "Birch Group", role: "Named in the partnership that bought the building" },
+        { name: "2020 Vision", role: "Named in the partnership that bought the building" }
+      ],
+      judge: null,
+      amountUsd: 250000000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "October 2022", label: "A partnership that includes Mark Meisner of the Birch Group and Abe Greenhut of 2020 Vision buys 101 Hudson Street from Veris Residential for $346 million, Commercial Observer reported" },
+        { when: "October 2026", label: "The $250 million CMBS loan misses its maturity date" },
+        { when: "November 19, 2026", label: "Commercial Observer reports, citing a Morningstar Credit alert, that the loan was sent to special servicing; the transfer date is not reported", current: true }
+      ]
+    },
+    {
+      id: "live-447",
+      seoTitle: "123 William Street: $140M CMBS Loan Enters Special Servicing",
+      seoDescription: "A $140 million CMBS loan on 123 William Street in Manhattan's Financial District entered special servicing after occupancy fell to 72 percent.",
+      property: {"name": "123 William Street", "address": "123 William Street", "city": "New York", "state": "NY"},
+      addedDate: "2026-11-20",
+      title: "123 William Street: $140M CMBS Loan on American Strategic Investment Company's Financial District Office Building Enters Special Servicing",
+      brief: "A $140 million CMBS loan on 123 William Street, a 27-story Financial District office building owned by American Strategic Investment Company, entered special servicing after an occupancy drop, Commercial Observer reported.",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-11-19",
+      jurisdiction: "New York, New York (no court case reported; loan in special servicing)",
+      state: "NY",
+      amount: "$140 million CMBS loan",
+      source: "live",
+      sourceUrl: "https://commercialobserver.com/2026/11/123-william-street-distress-cmbs/",
+      propertyType: "Office",
+      summary: "A $140 million commercial mortgage-backed securities loan backing 123 William Street, a 27-story, 540,000-square-foot office building in Manhattan's Financial District, entered special servicing after it fell below break-even levels following a steep drop in occupancy, Commercial Observer reported, citing a Morningstar Credit alert issued the morning of Thursday, Nov. 19, 2026. The report does not give the date of the transfer. The loan is slated to mature in March 2027.",
+      significance: "The building's owner, American Strategic Investment Company, has said there was \"substantial doubt\" about staying in business because of the coming maturity of this loan, according to Commercial Observer, which credits an August report by Bisnow citing Securities and Exchange Commission filings.",
+      body: [
+        "A $140 million commercial mortgage-backed securities loan backing 123 William Street in Manhattan's Financial District has entered special servicing, Commercial Observer reported, citing a Morningstar Credit alert issued the morning of Thursday, Nov. 19, 2026. According to the report, the loan fell below break-even levels following a steep drop in occupancy. The report does not give the date of the transfer.",
+        "Commercial Observer reported that the 540,000-square-foot, 27-story building had a leasing occupancy of 72 percent as of June 2026, compared to 92 percent when the loan was underwritten under the WFCM 2017-RB1, WFCM 2017-C38 and MSC 2017-H1 conduit deals. A Morningstar Credit Analytics executive told the outlet that the loan performed in line with underwriting expectations until 2023 and that occupancy fell from 91 percent to 72 percent over the past two and a half years. The loan is slated to mature in March 2027. Planned Parenthood, the largest tenant, has 12 percent of the building's office space, according to Morningstar.",
+        "The owner is American Strategic Investment Company, known until 2023 as New York City REIT. Commercial Observer, crediting an August report by Bisnow that cited Securities and Exchange Commission filings, said the company stated there was \"substantial doubt\" about staying in business due to the looming maturity of the 123 William loan. The company did not immediately respond to Commercial Observer's request for comment."
+      ],
+      tags: ["cmbs", "special servicing", "office", "manhattan", "reit"],
+      parties: [
+        { name: "American Strategic Investment Company", role: "Owner" }
+      ],
+      judge: null,
+      amountUsd: 140000000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "June 2026", label: "Leasing occupancy at 123 William Street stands at 72 percent, Commercial Observer reported" },
+        { when: "November 19, 2026", label: "Morningstar Credit issues an alert that the $140 million CMBS loan entered special servicing, Commercial Observer reports; the transfer date is not reported", current: true },
+        { when: "March 2027", label: "The loan is slated to mature" }
       ]
     }
   ],
