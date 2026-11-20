@@ -45,6 +45,12 @@ WORKFLOWS = {
     "lead-feeds.yml": "SEC litigation and class-action leads",
     "metrics-snapshot.yml": "Daily metrics snapshot and site audit",
     "opinion-leads.yml": "Court opinion leads",
+    # Added 2026-11-20: these three feed the two CRE-distress-radar
+    # flagship products (Jeff, 2026-11-11) and had never been added here,
+    # so a silent failure in any of them would not have emailed an alert.
+    "market-pulse.yml": "Bank CRE Stress credit indicators (FDIC Call Reports, FRED)",
+    "nyc-distress.yml": "NYC commercial distress (ACRIS referee's deeds, feeds Distress Radar)",
+    "radar-alerts.yml": "Distress Radar alert emails",
 }
 # GitHub starts scheduled runs up to ~4 hours late, so allow for it.
 MAX_AGE_HOURS = {"surveillance": 18, "fresh filings": 18, "docket activity": 32}
