@@ -626,6 +626,79 @@
      "https://commercialobserver.com/2026/11/123-william-street-distress-cmbs/"
     ]
    }
+  },
+  "live-448": {
+   "verifiedOn": "2026-11-20",
+   "sourceUrl": "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-friday-november-twentieth",
+   "urls": [
+    "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-friday-november-twentieth",
+    "https://www.prnewswire.com/news-releases/historic-grant-building-in-downtown-atlanta-available-via-bankruptcy-sale-with-hilco-global-302673852.html"
+   ],
+   "quotes": 11,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-friday-november-twentieth",
+     "https://www.bankruptcyobserver.com/bankruptcy-case/new-grant-acquisitions",
+     "https://www.prnewswire.com/news-releases/historic-grant-building-in-downtown-atlanta-available-via-bankruptcy-sale-with-hilco-global-302673852.html"
+    ]
+   }
+  },
+  "live-449": {
+   "verifiedOn": "2026-11-20",
+   "sourceUrl": "https://www.abqjournal.com/business/conservation-group-sues-state-engineer-over-project-jupiter-approval/3166091",
+   "urls": [
+    "https://biologicaldiversity.org/w/news/press-releases/lawsuit-challenges-new-mexicos-ok-of-water-for-project-jupiter-construction-2026-11-19/",
+    "https://www.abqjournal.com/business/conservation-group-sues-state-engineer-over-project-jupiter-approval/3166091",
+    "https://www.santafenewmexican.com/news/local_news/lawsuit-challenges-emergency-authorization-for-project-jupiter-water-permit/article_2feefa74-723b-4a1b-9cc8-0240a26e6508.html"
+   ],
+   "quotes": 22,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.abqjournal.com/business/conservation-group-sues-state-engineer-over-project-jupiter-approval/3166091",
+     "https://biologicaldiversity.org/w/news/press-releases/lawsuit-challenges-new-mexicos-ok-of-water-for-project-jupiter-construction-2026-11-19/",
+     "https://www.santafenewmexican.com/news/local_news/lawsuit-challenges-emergency-authorization-for-project-jupiter-water-permit/article_2feefa74-723b-4a1b-9cc8-0240a26e6508.html"
+    ]
+   }
+  },
+  "live-450": {
+   "verifiedOn": "2026-11-20",
+   "sourceUrl": "https://www.yahoo.com/news/us/articles/judge-approves-amherst-eminent-domain-024736436.html",
+   "urls": [
+    "https://www.yahoo.com/news/us/articles/judge-approves-amherst-eminent-domain-024736436.html"
+   ],
+   "quotes": 4,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.yahoo.com/news/us/articles/judge-approves-amherst-eminent-domain-024736436.html"
+    ]
+   }
+  },
+  "live-451": {
+   "verifiedOn": "2026-11-20",
+   "sourceUrl": "https://whyy.org/articles/vineland-data-center-noise-lawsuit/",
+   "urls": [
+    "https://southjersey.media/snj-today/snj-lifestyle/data-center-noise-complaint-goes-to-judge/",
+    "https://whyy.org/articles/vineland-data-center-noise-lawsuit/"
+   ],
+   "quotes": 9,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://whyy.org/articles/vineland-data-center-noise-lawsuit/",
+     "https://southjersey.media/snj-today/snj-lifestyle/data-center-noise-complaint-goes-to-judge/"
+    ]
+   }
   }
  }
 }

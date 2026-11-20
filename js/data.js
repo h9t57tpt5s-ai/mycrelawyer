@@ -14731,6 +14731,148 @@ const RELAW_DATA = {
         { when: "November 19, 2026", label: "Morningstar Credit issues an alert that the $140 million CMBS loan entered special servicing, Commercial Observer reports; the transfer date is not reported", current: true },
         { when: "March 2027", label: "The loan is slated to mature" }
       ]
+    },
+    {
+      id: "live-448",
+      seoTitle: "Grant Building Atlanta: Ch. 11 Plan Confirmed, Creditor Appeals",
+      seoDescription: "New Grant Acquisitions, LLC won confirmation of its Chapter 11 plan Nov. 19 in the Grant Building case; UC Grant Building Holder, LLC appealed.",
+      property: {"name": "Grant Building", "address": "44 Broad Street", "city": "Atlanta", "state": "GA"},
+      addedDate: "2026-11-20",
+      title: "In re New Grant Acquisitions, LLC: Chapter 11 Plan Confirmed in Atlanta Grant Building Case; Creditor UC Grant Building Holder, LLC Appeals and Seeks Emergency Stay",
+      brief: "The bankruptcy court confirmed New Grant Acquisitions, LLC's Fifth Amended Plan on Nov. 19. Creditor UC Grant Building Holder, LLC appealed within the hour and moved for an emergency stay. Atlanta's Grant Building was marketed in the case.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-19",
+      jurisdiction: "U.S. Bankruptcy Court, Northern District of Georgia",
+      state: "GA",
+      amount: "Chapter 11 plan confirmation",
+      source: "live",
+      sourceUrl: "https://www.bankruptcyobserver.com/news/bankruptcy-docket-brief-friday-november-twentieth",
+      summary: "Bankruptcy Observer's docket brief reports that on Nov. 19 the bankruptcy court entered an order approving the disclosure statement and confirming the Fifth Amended Plan of Reorganization of New Grant Acquisitions, LLC. Creditor UC Grant Building Holder, LLC filed a notice of appeal to the district court within the hour, followed by an emergency motion for a stay pending appeal and a motion to expedite a ruling on it. A January 2026 Hilco Global release said the sale of the Grant Building in downtown Atlanta was being conducted subject to the court's approval in the same case.",
+      significance: "The confirmation order is now under appeal, and the creditor has asked for an emergency stay while the appeal is pending. The docket brief does not describe the plan's terms or report a ruling on the stay request.",
+      body: [
+        "The bankruptcy court in the Northern District of Georgia has confirmed a Chapter 11 plan for New Grant Acquisitions, LLC, according to Bankruptcy Observer's docket brief for Nov. 20. The brief, which the outlet says was written by an AI agent from the court docket, reports that an order approving the disclosure statement and confirming the debtor's Fifth Amended Plan of Reorganization was entered Nov. 19 (Dkt. 259) before Judge Paul W. Bonapfel. The debtor had filed the Fifth Amended Plan that morning (Dkt. 256).",
+        "Creditor UC Grant Building Holder, LLC filed a notice of appeal to the district court within the hour (Dkt. 260), the brief reports. It followed with an emergency motion for a stay pending appeal (Dkt. 261) and an emergency motion to expedite briefing, argument and a ruling on the stay request (Dkt. 262). The brief does not describe the plan's terms or report a ruling on either motion.",
+        "In a Jan. 29, 2026 release, Hilco Global said it was accepting offers for the Grant Building, which it described as a 125,000± SF, 10-story site at 44 Broad Street in Atlanta's Fairlie-Poplar district, and that the sale was being conducted subject to approval by order of the bankruptcy court in Case No. BK 25-61599-PWB, the case number the docket brief gives for New Grant Acquisitions."
+      ],
+      tags: ["chapter 11", "plan confirmation", "appeal", "atlanta", "grant building"],
+      parties: [
+        { name: "New Grant Acquisitions, LLC", role: "Debtor" },
+        { name: "UC Grant Building Holder, LLC", role: "Creditor/Appellant" }
+      ],
+      judge: "Paul W. Bonapfel",
+      amountUsd: null,
+      timeline: [
+        { when: "January 29, 2026", label: "Hilco Global announces it is accepting offers for the Grant Building, with the sale subject to bankruptcy court approval in Case No. BK 25-61599-PWB" },
+        { when: "November 19, 2026", label: "Order entered approving the disclosure statement and confirming the debtor's Fifth Amended Plan (Dkt. 259); UC Grant Building Holder, LLC files a notice of appeal (Dkt. 260), followed by emergency motions for a stay pending appeal and to expedite (Dkts. 261, 262)", current: true }
+      ]
+    },
+    {
+      id: "live-449",
+      seoTitle: "Project Jupiter Data Center: Suit Challenges New Mexico Water OK",
+      seoDescription: "Center for Biological Diversity sued New Mexico's Office of the State Engineer Nov. 19 over emergency water approval for the Project Jupiter data center.",
+      property: {"name": "Project Jupiter", "address": null, "city": null, "state": "NM"},
+      addedDate: "2026-11-20",
+      title: "Center for Biological Diversity Sues New Mexico Office of the State Engineer Over Emergency Water Authorization for Project Jupiter Data Center Construction",
+      brief: "The Center for Biological Diversity sued New Mexico's Office of the State Engineer over an October 2025 emergency authorization letting groundwater be used to build the 1,400-acre Project Jupiter data center; it seeks a pause in water use.",
+      category: "environmental",
+      status: "filed",
+      date: "2026-11-19",
+      jurisdiction: "New Mexico First Judicial District Court, Santa Fe County",
+      state: "NM",
+      amount: "Pause in construction water use sought",
+      source: "live",
+      sourceUrl: "https://www.abqjournal.com/business/conservation-group-sues-state-engineer-over-project-jupiter-approval/3166091",
+      propertyType: "Data Center",
+      summary: "The Center for Biological Diversity sued the New Mexico Office of the State Engineer on Nov. 19, 2026 in the 1st Judicial District Court, the Albuquerque Journal reported. The suit challenges an emergency authorization the state engineer granted in October 2025 to Santa Teresa Capital LLC, the company that owns the water rights, and demands a pause in water use at the Project Jupiter construction site in Doña Ana County.",
+      significance: "The suit asks a court to pause the water supply for construction of a hyperscale data center that is already being built. It follows a state Supreme Court petition by the same group that was denied in September.",
+      body: [
+        "The Center for Biological Diversity filed suit on Thursday, Nov. 19, 2026 in New Mexico's 1st Judicial District Court against the Office of the State Engineer and the state engineer, the Albuquerque Journal reported. The group's press release says the case was filed in Santa Fe County District Court and that it demands a pause in water use at the construction site until all legally mandated requirements are met.",
+        "According to the Journal, the state engineer in October 2025 granted Santa Teresa Capital LLC, the company that owns the water rights, an emergency authorization tied to water used to irrigate a sod farm near the site of the 1,400-acre data center. The complaint says Project Jupiter's construction has used 195 million gallons of fresh water over the past year. The lawsuit alleges the state engineer violated the beneficial use requirement, and the center said in a statement quoted by the Journal that before approving a change in use the state engineer must provide public notice. The Journal reported the project is under construction by Stack Infrastructure and BorderPlex Digital Assets and that Oracle Corp. plans to lease and operate the data center.",
+        "The Office of the State Engineer did not immediately respond to the Journal's request for comment. The Santa Fe New Mexican reported that an attorney for Santa Teresa Capital dismissed the lawsuit as a repetition of the claims the group made to the state Supreme Court earlier this year; she said the company’s water right has been permitted for commercial and industrial use for more than 40 years and that the only change was the replacement of a failed well with one drawing from the same aquifer at the same limits. The New Mexican reported that a spokesperson for the Office of the State Engineer declined to respond to the allegations, although the agency’s attorneys have defended the permit and emergency authorization as legal in recent months. The Journal reported that in September the New Mexico Supreme Court denied the center's petition challenging the emergency authorization."
+      ],
+      tags: ["data center", "water rights", "new mexico", "project jupiter", "environmental"],
+      parties: [
+        { name: "Center for Biological Diversity", role: "Plaintiff" },
+        { name: "New Mexico Office of the State Engineer", role: "Defendant" },
+        { name: "Santa Teresa Capital LLC", role: "Real party in interest (holder of the water rights)" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "October 2025", label: "State engineer grants Santa Teresa Capital LLC an emergency authorization" },
+        { when: "September 2026", label: "New Mexico Supreme Court denies the Center for Biological Diversity's petition challenging the emergency authorization" },
+        { when: "November 19, 2026", label: "Center for Biological Diversity files suit in 1st Judicial District Court against the Office of the State Engineer", current: true }
+      ]
+    },
+    {
+      id: "live-450",
+      seoTitle: "Boulevard Mall Amherst: Judge Approves Town's Eminent Domain Bid",
+      seoDescription: "A state supreme court judge on Nov. 19 approved the Town of Amherst's bid to take properties on the Boulevard Mall site by eminent domain, WIVB reported.",
+      property: {"name": "Boulevard Mall", "address": null, "city": "Amherst", "state": "NY"},
+      addedDate: "2026-11-20",
+      title: "Boulevard Mall, Amherst, N.Y.: State Supreme Court Judge Approves Town of Amherst's Eminent Domain Bid for Mall Site Properties",
+      brief: "A state supreme court judge approved the Town of Amherst's bid to acquire properties on the Boulevard Mall site through eminent domain, WIVB reported. The town supervisor said demolition is now very close.",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-11-19",
+      jurisdiction: "New York Supreme Court",
+      state: "NY",
+      amount: "Not stated",
+      source: "live",
+      sourceUrl: "https://www.yahoo.com/news/us/articles/judge-approves-amherst-eminent-domain-024736436.html",
+      propertyType: "Retail",
+      summary: "A state supreme court judge on Thursday, Nov. 19, 2026 approved the Town of Amherst's bid to acquire properties on the Boulevard Mall site through eminent domain, WIVB reported. The town supervisor said more details on the judgment will be available at a town board meeting on Nov. 30.",
+      significance: "The ruling approves the town's bid to acquire properties on a mall site through eminent domain. The report does not name the judge, the property owners or any compensation figure.",
+      body: [
+        "WIVB reported that a state supreme court judge on Thursday approved the Town of Amherst's bid to acquire properties on the Boulevard Mall site through eminent domain. The report, carried by Yahoo News, does not name the judge, identify the owners of the properties or give any compensation amount.",
+        "The town supervisor told the station, \"we are now very close to beginning the demolition process.\" He said more details on the judgment will be available during a town board meeting on Nov. 30."
+      ],
+      tags: ["eminent domain", "mall redevelopment", "amherst", "retail"],
+      parties: [
+        { name: "Town of Amherst", role: "Condemnor" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "November 19, 2026", label: "State supreme court judge approves the Town of Amherst's eminent domain bid for properties on the Boulevard Mall site", current: true },
+        { when: "November 30, 2026", label: "Town board meeting at which the town says more details on the judgment will be available (scheduled)" }
+      ]
+    },
+    {
+      id: "live-451",
+      seoTitle: "Vineland Data Center Noise Suit: Judge Denies DataOne Dismissal",
+      seoDescription: "A New Jersey Superior Court judge denied a motion to dismiss a class action over noise from DataOne's 300-megawatt Vineland data center, WHYY reported.",
+      property: {"name": null, "address": null, "city": "Vineland", "state": "NJ"},
+      addedDate: "2026-11-20",
+      title: "Vineland Data Center Noise Class Action: New Jersey Superior Court Judge Denies Motion to Dismiss Suit Against DataOne",
+      brief: "Judge James Swift denied a motion to dismiss a class action alleging DataOne failed to soundproof the engines and cooling systems of the 300-megawatt Vineland data center it is developing, WHYY reported. The defense must now file an answer.",
+      category: "environmental",
+      status: "ruling",
+      date: "2026-11-19",
+      jurisdiction: "New Jersey Superior Court, Cumberland County",
+      state: "NJ",
+      amount: "Damages not stated",
+      source: "live",
+      sourceUrl: "https://whyy.org/articles/vineland-data-center-noise-lawsuit/",
+      propertyType: "Data Center",
+      summary: "A New Jersey Superior Court judge this week denied a motion to dismiss a class action over noise from a 300-megawatt data center in Vineland, N.J., WHYY reported in an article updated Nov. 19, 2026; the report does not give the day of the ruling. The lawsuit alleges DataOne has failed to soundproof the data center's engines and cooling systems. The defense must now file an answer, and both sides will begin exchanging evidence.",
+      significance: "The ruling keeps a class action over noise alive against the developer of the data center. WHYY reported the plaintiffs' attorney's estimate that 1,000 residents within 1.5 miles of the data center could be eligible for the class.",
+      body: [
+        "WHYY reported that a New Jersey Superior Court judge cleared the way this week for a class-action lawsuit over noise from a data center in Vineland, N.J., and that Judge James Swift denied a motion to dismiss the case. The article, updated Nov. 19, 2026, does not state the day of the ruling. An earlier report by South Jersey Media described the judge as sitting in Cumberland County and said a motion hearing had been scheduled for September 25.",
+        "According to WHYY, the 300-megawatt data center is being developed by DataOne for the Nebius Group. The lawsuit alleges DataOne has failed to soundproof the data center's engines and cooling systems, and the plaintiffs include three residents who live near the data center. The plaintiffs' attorney said 1,000 residents within 1.5 miles of the data center could be eligible for the class action, WHYY reported.",
+        "The defense argued that residents are experiencing temporary construction noises that pose \"a mere annoyance,\" WHYY reported, and a defense attorney denied the outlet's request for comment after the ruling. The defense must now file an answer to the allegations, and both sides will begin to exchange evidence."
+      ],
+      tags: ["data center", "noise nuisance", "class action", "new jersey"],
+      parties: [
+        { name: "DataOne", role: "Defendant" }
+      ],
+      judge: "James Swift",
+      amountUsd: null,
+      timeline: [
+        { when: "September 25, 2026", label: "Motion hearing scheduled, per South Jersey Media" },
+        { when: "November 2026", label: "Judge James Swift denies the motion to dismiss (reported by WHYY in an article updated November 19, 2026 as 'this week'; day not reported)", current: true }
+      ]
     }
   ],
 
