@@ -7583,8 +7583,9 @@ const RELAW_DATA = {
         { when: "October 8, 2026", label: "Debtor files emergency motion to use cash collateral" },
         { when: "October 19, 2026", label: "X-Caliber moves for relief from the stay or dismissal, alleging a bad-faith filing" },
         { when: "October 29, 2026", label: "Court extends interim cash collateral use and continues X-Caliber's motion to November 19" },
-        { when: "November 2, 2026", label: "Debtor moves to sell the property for $5 million to affiliate Lundgren Equity Partners, LLC", current: true },
-        { when: "November 19, 2026", label: "Scheduled hearing on the sale, X-Caliber's motion and cash collateral", upcoming: true }
+        { when: "November 2, 2026", label: "Debtor moves to sell the property for $5 million to affiliate Lundgren Equity Partners, LLC" },
+        { when: "November 19, 2026", label: "Scheduled hearing on the sale, X-Caliber's motion and cash collateral" },
+        { when: "November 19, 2026", label: "Court enters order on motion for relief from stay/co-debtor stay (docket entry 92)", current: true }
       ]
     },
     {

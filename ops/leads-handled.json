@@ -2361,12 +2361,12 @@
    "action": "skipped: residential mortgage foreclosure (caseName pattern), not read -- matchedTerms exactly [\"foreclos\",\"mortgage\"], defendant Benitez is an individual with no business-entity suffix"
   },
   "petition:https://www.courtlistener.com/docket/75121925/swire-properties-southpoint-llc/": {
-   "at": "2026-11-19",
-   "action": "skipped: no coverage found explaining this filing; Swire Properties itself is in the news this week (Brickell Key implosion suit, queued separately) but no source ties that company to this Southpoint LLC bankruptcy or confirms the relationship"
+   "at": "2026-11-20",
+   "action": "skipped: no coverage found explaining the filing or tying this shell to the known Swire Properties developer (SWIRE PROPERTIES SOUTHPOINT LLC, M.D. Fla. Ch. 11, 2026-11-16; no secondary reporting, affiliation unconfirmed either way)"
   },
   "petition:https://www.courtlistener.com/docket/75124047/12892-mizner-way-llc/": {
-   "at": "2026-11-19",
-   "action": "skipped: no coverage of this specific 2026-11-16 filing; same debtor name has two prior Wellington, FL Ch. 11 cases (2024, 2025) unrelated to the high-profile Boca Raton Via Mizner/Penn-Florida matters already on the tracker"
+   "at": "2026-11-20",
+   "action": "skipped: no coverage found explaining this 2026-11-16 filing (12892 Mizner Way LLC, S.D. Fla.; only an unrelated same-named entity's separate 2024 Ch. 11 case, closed 2025, turned up)"
   },
   "u-s-bank-trust-national-association-v-12th-street-equity-llc-paed-2-26-cv-08731": {
    "at": "2026-11-16",
@@ -2409,8 +2409,8 @@
    "action": "skipped: Angela Marie Hite v. QL Titling Trust, Ltd. -- equipment-finance debt-collection/guaranty case (Allure Essence Management Company, LLC), not real estate; also centers on an individual guarantor"
   },
   "petition:https://www.courtlistener.com/docket/75126958/9-jude-drive-equities-proprietary-llc/": {
-   "at": "2026-11-19",
-   "action": "skipped: bare single-asset LLC petition named for an address, no secondary reporting (one targeted search per playbook guidance)"
+   "at": "2026-11-20",
+   "action": "skipped: no coverage found explaining the filing (9 Jude Drive Equities Proprietary LLC, S.D.N.Y. Ch. 11, 2026-11-16; no secondary reporting)"
   },
   "https://www.courtlistener.com/docket/75123238/us-bank-trust-national-association-v-12th-street-equity-llc/": {
    "at": "2026-11-17",
@@ -2445,20 +2445,20 @@
    "action": "skipped: FS Credit Real Estate Income Trust -- generic foreclosed-property accounting policy language, not a litigation disclosure"
   },
   "petition:https://www.courtlistener.com/docket/75128111/winnie-realty-group-llc/": {
-   "at": "2026-11-19",
-   "action": "skipped: no coverage found explaining this filing (new 2026-11-17 Ch. 11, E.D.N.Y.; only prior hit is an unrelated 2023 Ch. 7 case under the same name, since dismissed)"
+   "at": "2026-11-20",
+   "action": "skipped: no coverage found explaining the filing (Winnie Realty Group LLC, E.D.N.Y. Ch. 11, 2026-11-17; no secondary reporting)"
   },
   "https://www.courtlistener.com/docket/75133133/wilmington-trust-national-association-as-trustee-for-the-benefit-of-the/": {
-   "at": "2026-11-19",
-   "action": "skipped: no coverage found explaining this CMBS foreclosure filing (1361 Realty Holdings LLC, S.D.N.Y., filed 2026-11-17)"
+   "at": "2026-11-20",
+   "action": "skipped: no coverage found naming 1361 Realty Holdings LLC or this CoreVest 2022-P2 CMBS suit specifically"
   },
   "https://www.courtlistener.com/docket/75131636/wingate-inns-international-inc-v-rizzk-lodging-llc/": {
    "at": "2026-11-19",
    "action": "skipped: no coverage found explaining this hotel-franchise filing (D.N.J., filed 2026-11-17); Wingate franchise-termination suits are a recurring, routine filing pattern with no notable facts found"
   },
   "https://www.courtlistener.com/docket/75129557/wilmington-trust-national-association-as-trustee-for-the-benefit-of-the/": {
-   "at": "2026-11-18",
-   "action": "skipped: no coverage found explaining the filing (duplicate docket number/entity as 75133133, same CoreVest/1361 Realty Holdings LLC foreclosure, bare docket)"
+   "at": "2026-11-20",
+   "action": "skipped: duplicate docket entry for the same Wilmington Trust/CoreVest v. 1361 Realty Holdings LLC suit, no coverage found"
   },
   "https://www.courtlistener.com/docket/75133589/greentree-hospitality-group-incorporated-v-south-central-realty/": {
    "at": "2026-11-18",
@@ -2497,8 +2497,8 @@
    "action": "skipped: residential mortgage foreclosure, individual self-represented defendant (Bank of New York Mellon v. Wayne Lee Martin)"
   },
   "0001213900-26-121458:ea0312117-10q_realpha.htm": {
-   "at": "2026-11-18",
-   "action": "skipped: reAlpha Tech Corp 10-Q restates its own GEM Yield Bahamas Limited warrant-rescission suit (filed Nov. 1, 2024, re Exchange Act Section 29(b)/15(a) unregistered-dealer claims) -- a securities/corporate-finance dispute over warrant terms, not commercial real estate, and not a new development this filing"
+   "at": "2026-11-20",
+   "action": "skipped: reAlpha Tech Corp 10-Q restates its own GEM Yield Bahamas Limited warrant-rescission suit (filed Nov. 1, 2024) -- a securities/corporate-finance dispute, not commercial real estate, and not a new development"
   },
   "opinion:11064370": {
    "at": "2026-11-18",
@@ -2818,7 +2818,7 @@
   },
   "petition:https://www.courtlistener.com/docket/75148906/232-old-river-edge-nj-llc/": {
    "at": "2026-11-20",
-   "action": "skipped: no coverage found explaining the filing (232 Old River Edge NJ LLC, D.N.J. Ch. 11, 2026-11-19; one targeted search per playbook guidance, no secondary reporting)"
+   "action": "skipped: no coverage found explaining the filing (232 Old River Edge NJ LLC, D.N.J. Ch. 11, 2026-11-19; no secondary reporting)"
   },
   "opinion:11067059": {
    "at": "2026-11-20",
@@ -2827,6 +2827,38 @@
   "opinion:11067058": {
    "at": "2026-11-20",
    "action": "skipped: residential mortgage foreclosure appeal (caseName pattern), not read -- matchedTerms exactly {\"foreclos\",\"mortgage\"} and individual plaintiff (Suzanne M. Willmon) v. a bank plus individuals (First State Bank of DeKalb County, Casey S. Handrich, Louis Crowder), no business-entity suffix on either side, matching the pattern documented in the digest playbook"
+  },
+  "opinion:11067772": {
+   "at": "2026-11-20",
+   "action": "skipped: not commercial real estate (Iseman v. Coffey County Board of Zoning Appeals, Kan. Ct. App. \u2014 individual landowners dispute over special-use permit for a deer hunting facility on agricultural land; individual parties on both sides, not a CRE matter on its face)"
+  },
+  "petition:https://www.courtlistener.com/docket/75149152/roque-estate-development-llc/": {
+   "at": "2026-11-20",
+   "action": "skipped: no coverage found explaining the filing (Roque Estate Development LLC, E.D.N.Y. Ch. 11, 2026-11-20; no secondary reporting)"
+  },
+  "petition:https://www.courtlistener.com/docket/75149356/1906-poole-road-llc/": {
+   "at": "2026-11-20",
+   "action": "skipped: no coverage found explaining the filing (1906 Poole Road LLC, E.D.N.C. Ch. 11, 2026-11-20; no secondary reporting)"
+  },
+  "petition:https://www.courtlistener.com/docket/75148215/3-beech-brook-developement-llc/": {
+   "at": "2026-11-20",
+   "action": "skipped: no coverage found explaining the filing (3 Beech Brook Development LLC, D. Mass. Ch. 11, 2026-11-19; no secondary reporting)"
+  },
+  "securities-reminder:millrose-properties-mrp": {
+   "at": "2026-11-20",
+   "action": "skipped: reminder/investigation announcements only (Kaplan Fox lead-plaintiff-deadline reminder + Kirby McInerney investigation notice), not a filed-case announcement; underlying Rubenstein v. Millrose (S.D. Fla., filed 2026-10-09) concerns SFR home leasing, residential not commercial real estate"
+  },
+  "securities-reminder:arbor-realty-trust-abr": {
+   "at": "2026-11-20",
+   "action": "skipped: reminder-only announcement (Frank R. Cruz lead-plaintiff-deadline reminder), not a new filing; underlying Greenbaum v. Arbor Realty Trust (E.D.N.Y., filed 2026-11-09) already tracked as live-394"
+  },
+  "securities-reminder:realty-income-corp-o": {
+   "at": "2026-11-20",
+   "action": "skipped: reminder announcement is actually about OI Glass and Lululemon lead-plaintiff deadlines, not about Realty Income Corp itself"
+  },
+  "opinion:11067474": {
+   "at": "2026-11-20",
+   "action": "lead queued in ops/digest-leads.json (Hinrichsen v. RCTS Properties)"
   }
  }
 }

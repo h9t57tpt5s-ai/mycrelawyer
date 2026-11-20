@@ -1,4 +1,15 @@
 {
  "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
- "leads": []
+ "leads": [
+  {
+   "found": "2026-11-20",
+   "title": "Hinrichsen v. RCTS Properties, L.L.C. (Neb. Sup. Ct., filed/decided 2026-11-20): Nebraska Supreme Court affirms 47,068.43 judicial foreclosure of a commercial building in Elm Creek, Nebraska, rejecting borrower's statute-of-limitations defense",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11067474/hinrichsen-v-rcts-properties/",
+    "https://www.nebraska.gov/apps-courts-epub/public/viewOpinion?docId=N00013598PUB"
+   ],
+   "why": "Primary source (court opinion text, opinion-leads.json key 11067474). In Dec. 2010, RCTS Properties, L.L.C. bought a building in Elm Creek, Nebraska from Alex and Janice Hinrichsen, who seller-financed 00,000 via a promissory note secured by a deed of trust, personally guaranteed by RCTS member Chad Messersmith. RCTS stopped paying after May 2012. Messersmith's 2012 personal bankruptcy discharged his guaranty liability. The Hinrichsens demanded payment in Dec. 2023 (22,952.87) and filed a judicial foreclosure action in Feb. 2024 after RCTS refused to pay, invoking a statute-of-limitations defense (arguing the 2012 bankruptcy proof of claim accelerated the debt). The district court rejected that defense and entered a foreclosure decree for 47,068.43; the Nebraska Supreme Court (Papik, J., Case No. S-25-777) affirmed on Nov. 20, 2026, holding that filing a bankruptcy proof of claim is not itself a clear and unequivocal act of acceleration under Nebraska law, and that the 10-year foreclosure limitations period (not the 5-year contract period) governed. Commercial real estate lending-foreclosure matter: a business entity (RCTS Properties LLC) as borrower/defendant on a seller-financed commercial building purchase. No duplicate found in js/data.js (checked RCTS/Hinrichsen/Elm Creek).",
+   "eventDate": "2026-11-20"
+  }
+ ]
 }
