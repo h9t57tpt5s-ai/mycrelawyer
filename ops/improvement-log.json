@@ -2099,6 +2099,24 @@
       "checkAfter": "2026-11-21",
       "status": "watching",
       "note": "checkAfter here just means: confirm the next health-check.yml run still parses the WORKFLOWS dict cleanly and the three new entries show up as OK/problem lines rather than crashing the check. No revert criterion applies beyond that. scripts/health_check.py is not on CLAUDE.md's or the playbook's never-change lists (only .github/ itself, supabase/, and specific js/* files are off-limits); this is a narrow, additive 6-line dict extension verified with `python3 -I -m py_compile` and `ast.parse`. site_audit.py (918 pages, all summary counts 0 except missingDescription=3, the usual already-explained noindex set) and check_case_fields.py (353 matters, OK) both re-run clean, no count regressed. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing."
+    },
+    {
+      "id": "imp-086",
+      "date": "2026-11-20",
+      "track": "subscription",
+      "title": "Alert log: publicly show Distress Radar / Bank CRE Stress data freshness (checklist item 4)",
+      "why": "Second run of the day. Step 2: no watching entry has a checkAfter on or before today (earliest remaining is imp-073/imp-074's 2026-11-21), so nothing to judge. Step 3: goal_scoreboard.py mostBehind was calculator/conversion/traffic/news (gaps 0.606/0.25/0.0/0.0), unchanged from this morning. Calculator is first in mostBehind and was not touched in the last 2 runs (imp-084 news, imp-085 subscription), so it is the literal pick by that rule, but the backlog's own \"one open experiment per goal\" rule blocks it: four watching entries already sit on the calculator track (imp-073 calculatorViews7 until 2026-11-21; imp-077/080/083 are NEEDS JEFF backtest evidence with imp-083's own \"next time\" note against adding a tenth G15 finding until Jeff reviews the existing summary). Conversion's only behind metric (follows7) stays G17's structural NEEDS JEFF (off-limits js/auth.js, three exhausted copy/placement attempts, no new angle found). Traffic has imp-074 open on visits7/googleLandings7 until 2026-11-21, and a new traffic page would move that same metric. News is on track and was worked 2 runs ago (imp-084), excluded by the same rule. Full gridlock on every mostBehind goal again, same shape as imp-085 this morning. ops/social-drafts/2026-11-19.md (imp-084) is one day old, not stale, so the gridlock fallback used this morning (refresh social drafts) does not apply yet either. Continued straight on from imp-085's own finding instead: health_check.py now alerts Jeff privately if market-pulse.yml/nyc-distress.yml/radar-alerts.yml fail, but subscription checklist item 4 explicitly asks for monitoring reliability \"shown publicly\", and alert-log.html -- the site's one page built for exactly that -- only ever covered the original portfolio-surveillance job, not these three. Verified real, unfabricated freshness fields directly from each job's own output file before writing anything: ops/market-pulse.json (generated 2026-11-19T19:30:48Z, errors 0), ops/nyc-commercial-distress.json (generated 2026-11-19, acrisThrough 2026-10-30, 8 filings), js/radar-data.json (generated today, 546 records). Added a new card to alert-log.html computed by scripts/prerender.ts (same empty-div/fill() marker pattern imp-082 used for coverage.html's cov-radar block), reading those three files directly so nothing is hand-typed.",
+      "files": [
+        "alert-log.html",
+        "scripts/prerender.ts"
+      ],
+      "commit": "a4cd907c5aeb01be25b82394f31e4851a6ac40c4",
+      "metric": "No goals.json metric moves -- this is subscription-readiness checklist item 4, not a visitor-facing conversion/traffic metric.",
+      "window": "n/a",
+      "baseline": {},
+      "checkAfter": "2026-11-21",
+      "status": "watching",
+      "note": "deno unavailable this session; type-checked scripts/prerender.ts clean with tsc --noEmit against a Deno ambient shim (same fallback imp-009/019/025/033/082 established). HTML tag balance checked clean on alert-log.html with Python's html.parser. site_audit.py (925 pages; missingDescription=3, the same already-explained noindex set; brokenLinks/orphanPages/duplicateTitles all 0) and check_case_fields.py (357 matters, OK) both re-run clean after rebasing onto origin/main's own prerender commit (9ae46f9), no count regressed. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing. checkAfter is just confirming the next prerender.yml run actually fills al-flagship-freshness with real numbers rather than leaving the empty placeholder div, the same verification imp-082 did for coverage.html the next day."
     }
   ]
 }
