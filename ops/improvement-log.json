@@ -2092,7 +2092,7 @@
         "scripts/health_check.py",
         "ops/improvement-playbook.md"
       ],
-      "commit": "PENDING",
+      "commit": "9984eed0fa072d855dc83e68995a5858ec52feb7",
       "metric": "No goals.json metric moves -- this is an internal operational-alerting fix, not a visitor-facing or goal-metric change.",
       "window": "n/a",
       "baseline": {},
