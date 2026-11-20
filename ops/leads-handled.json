@@ -2178,7 +2178,7 @@
   },
   "0002071778-26-000058:frmi-20260930.htm": {
    "at": "2026-11-13",
-   "action": "skipped: Fermi Inc./Bayonne Plant Holding dispute is an equipment purchase-and-removal contract fight, not a commercial real estate matter on its face; other disclosed matter (Class B Unit Reclamation/Peña and Summers) is an equity/employment dispute with individual parties, not CRE"
+   "action": "skipped: Fermi Inc./Bayonne Plant Holding dispute is an equipment purchase-and-removal contract fight, not a commercial real estate matter on its face; other disclosed matter (Class B Unit Reclamation/Pe\u00f1a and Summers) is an equity/employment dispute with individual parties, not CRE"
   },
   "opinion:11060461": {
    "at": "2026-11-13",
@@ -2506,7 +2506,7 @@
   },
   "opinion:11064355": {
    "at": "2026-11-18",
-   "action": "skipped: borderline scope — DTE Electric/Portside Solar v. St. Clair County, MI is a solar-energy-facility zoning preemption fight between a utility/solar developer and a county health department, not clearly a commercial real estate ownership/development/leasing dispute on its face; left out per CLAUDE.md borderline-scope rule"
+   "action": "skipped: borderline scope \u2014 DTE Electric/Portside Solar v. St. Clair County, MI is a solar-energy-facility zoning preemption fight between a utility/solar developer and a county health department, not clearly a commercial real estate ownership/development/leasing dispute on its face; left out per CLAUDE.md borderline-scope rule"
   },
   "opinion:11065705": {
    "at": "2026-11-19",
@@ -2783,6 +2783,42 @@
   "opinion:11065807": {
    "at": "2026-11-19",
    "action": "skipped: not real estate (Procarsa Tube & Pipe Co. et al. v. Blue Racer Midstream, LLC, Tex. App.-Dallas -- pipe-manufacturing product-liability/warranty dispute over a pipeline failure; \"easement\"/\"industrial\" matches are the pipeline right-of-way and steel-manufacturing context, not a CRE dispute)"
+  },
+  "opinion:11066910": {
+   "at": "2026-11-20",
+   "action": "skipped: not commercial real estate (TruConnect Communications v. Maximus Inc., Cal. Ct. App. -- telecom/software platform contract dispute with CPUC; 'construction defect'/'developer'/'guarantor'/'industrial' terms matched generic business vocabulary, no real property involved)"
+  },
+  "opinion:11066827": {
+   "at": "2026-11-20",
+   "action": "skipped: not commercial real estate (Ackman v. Pikewood Energy Corp., Pa. Super. -- quiet title dispute over oil/gas/mineral rights conveyance, individual plaintiff; 'condemnation'/'zoning' terms did not actually appear as real issues)"
+  },
+  "opinion:11066704": {
+   "at": "2026-11-20",
+   "action": "skipped: not commercial real estate (International Construction Products, LLC v. Caterpillar Inc., 3d Cir. -- Sherman Act antitrust/tortious interference over heavy-equipment auction market; 'foreclos'/'landlord' terms were false matches)"
+  },
+  "opinion:11066628": {
+   "at": "2026-11-20",
+   "action": "skipped: not commercial real estate (Bradshaw Dev., Inc. v. Wash. Dep't of Labor & Indus., Wash. Supreme Ct. -- Fourth Amendment/search-and-seizure challenge to a workplace-safety inspector's entry into a fitness center, not a property-ownership or development dispute)"
+  },
+  "opinion:11066603": {
+   "at": "2026-11-20",
+   "action": "flagging via ops/digest-leads.json for the newsroom to verify and publish if warranted (commercial lease right-of-first-refusal dispute, NJ Appellate Div. affirms summary judgment for property owner/buyer)"
+  },
+  "opinion:11066599": {
+   "at": "2026-11-20",
+   "action": "skipped: minor procedural foreclosure dispute (Team 3 Financial, LLC v. 125 Berckman St LLC, NJ App. Div. -- affirms trial court's calculation of amount due on a judgment lienholder's objection in an uncontested foreclosure; individual appellant, no new legal principle or figure significant enough for a matter)"
+  },
+  "petition:https://www.courtlistener.com/docket/75148383/41-24-associates-llc/": {
+   "at": "2026-11-20",
+   "action": "skipped: no coverage found explaining the filing (41-24 Associates LLC, E.D.N.Y. Ch. 11, 2026-11-19; single-asset LLC named for address, one targeted search per playbook guidance)"
+  },
+  "petition:https://www.courtlistener.com/docket/75148215/3-beech-brook-development-llc/": {
+   "at": "2026-11-20",
+   "action": "skipped: no coverage found explaining the filing (3 Beech Brook Development LLC, D. Mass. Ch. 11, 2026-11-19; one targeted search per playbook guidance, no secondary reporting)"
+  },
+  "petition:https://www.courtlistener.com/docket/75148906/232-old-river-edge-nj-llc/": {
+   "at": "2026-11-20",
+   "action": "skipped: no coverage found explaining the filing (232 Old River Edge NJ LLC, D.N.J. Ch. 11, 2026-11-19; one targeted search per playbook guidance, no secondary reporting)"
   }
  }
 }
