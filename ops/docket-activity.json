@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-19T18:27:17+00:00",
+ "updatedAt": "2026-11-20T17:57:01+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 26,
+ "requestsUsed": 24,
  "errors": [],
  "dockets": {
   "14669317": {
@@ -1588,6 +1588,27 @@
   "74914151": {
    "entries": [
     {
+     "date": "2026-11-20",
+     "number": 197,
+     "text": "List (witness/exhibit/generic)",
+     "url": "https://www.courtlistener.com/docket/74914151/197/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-19",
+     "number": 196,
+     "text": "Certificate of service",
+     "url": "https://www.courtlistener.com/docket/74914151/196/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-19",
+     "number": 195,
+     "text": "Certificate of service",
+     "url": "https://www.courtlistener.com/docket/74914151/195/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-18",
      "number": 194,
      "text": "Order on motion to dismiss case",
@@ -1621,27 +1642,6 @@
      "text": "Notice of hearing",
      "url": "https://www.courtlistener.com/docket/74914151/190/american-hospitality-properties-reit-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-17",
-     "number": 189,
-     "text": "Notice (generic)",
-     "url": "https://www.courtlistener.com/docket/74914151/189/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-16",
-     "number": 188,
-     "text": "Dismiss case",
-     "url": "https://www.courtlistener.com/docket/74914151/188/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-16",
-     "number": 188,
-     "text": "Motion to dismiss case",
-     "url": "https://www.courtlistener.com/docket/74914151/188/american-hospitality-properties-reit-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1651,10 +1651,17 @@
    "docketNumber": "26-80071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74914151/american-hospitality-properties-reit-inc/",
-   "lastEntryDate": "2026-11-18"
+   "lastEntryDate": "2026-11-20"
   },
   "74922581": {
    "entries": [
+    {
+     "date": "2026-11-19",
+     "number": 57,
+     "text": "BNC certificate of mailing - PDF document",
+     "url": "https://www.courtlistener.com/docket/74922581/57/travis-property-owner-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-11-17",
      "number": 56,
@@ -1703,13 +1710,6 @@
      "text": "Schedules",
      "url": "https://www.courtlistener.com/docket/74922581/47/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-10",
-     "number": 46,
-     "text": "Schedules",
-     "url": "https://www.courtlistener.com/docket/74922581/46/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1719,10 +1719,45 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-11-17"
+   "lastEntryDate": "2026-11-19"
   },
   "74927117": {
    "entries": [
+    {
+     "date": "2026-11-19",
+     "number": 95,
+     "text": "Order on Motion To Sell",
+     "url": "https://www.courtlistener.com/docket/74927117/95/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-19",
+     "number": 94,
+     "text": "Order on Motion to Strike",
+     "url": "https://www.courtlistener.com/docket/74927117/94/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-19",
+     "number": 93,
+     "text": "Order on Motion to Use Cash Collateral",
+     "url": "https://www.courtlistener.com/docket/74927117/93/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-19",
+     "number": 92,
+     "text": "Order on Motion For Relief From Stay/Co-Debtor Stay",
+     "url": "https://www.courtlistener.com/docket/74927117/92/southbridge-associates-llc/",
+     "ruling": true
+    },
+    {
+     "date": "2026-11-19",
+     "number": 91,
+     "text": "Order (Generic)",
+     "url": "https://www.courtlistener.com/docket/74927117/91/southbridge-associates-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-11-18",
      "number": 90,
@@ -1743,41 +1778,6 @@
      "text": "Supplemental Document",
      "url": "https://www.courtlistener.com/docket/74927117/88/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-04",
-     "number": 86,
-     "text": "Certificate of Service of Notice of Hearing",
-     "url": "https://www.courtlistener.com/docket/74927117/86/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-04",
-     "number": 85,
-     "text": "Certificate of Service of Notice of Hearing",
-     "url": "https://www.courtlistener.com/docket/74927117/85/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-02",
-     "number": 84,
-     "text": "Notice of Intent to Sell",
-     "url": "https://www.courtlistener.com/docket/74927117/84/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-02",
-     "number": 83,
-     "text": "Sale",
-     "url": "https://www.courtlistener.com/docket/74927117/83/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-02",
-     "number": 82,
-     "text": "Certificate of Service of Notice of Hearing",
-     "url": "https://www.courtlistener.com/docket/74927117/82/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1787,7 +1787,7 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
-   "lastEntryDate": "2026-11-18"
+   "lastEntryDate": "2026-11-19"
   },
   "74945850": {
    "entries": [],
@@ -1973,6 +1973,13 @@
    "entries": [
     {
      "date": "2026-11-19",
+     "number": 84,
+     "text": "Application to Employ/Retain",
+     "url": "https://www.courtlistener.com/docket/75047315/84/zom-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-19",
      "number": null,
      "text": "Prepare Hearing Notice - Automation Use Only",
      "url": "https://www.courtlistener.com/docket/75047315/zom-holding-inc/",
@@ -2019,13 +2026,6 @@
      "text": "Application to Employ/Retain",
      "url": "https://www.courtlistener.com/docket/75047315/78/zom-holding-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-17",
-     "number": 77,
-     "text": "Application to Employ/Retain",
-     "url": "https://www.courtlistener.com/docket/75047315/77/zom-holding-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -2039,6 +2039,19 @@
   }
  },
  "events": [
+  {
+   "key": "74927117:92:2026-11-19:order on motion for relief from stay/co-debtor stay",
+   "docketId": "74927117",
+   "caseIds": [
+    "live-265"
+   ],
+   "date": "2026-11-19",
+   "kind": "ruling",
+   "text": "Order on Motion For Relief From Stay/Co-Debtor Stay",
+   "entry": 92,
+   "url": "https://www.courtlistener.com/docket/74927117/92/southbridge-associates-llc/",
+   "firstSeen": "2026-11-20"
+  },
   {
    "key": "74914151:194:2026-11-18:order on motion to dismiss case",
    "docketId": "74914151",
