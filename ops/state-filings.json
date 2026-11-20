@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T03:43:39+00:00",
+ "updatedAt": "2026-11-20T19:18:01+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
   {
@@ -20,6 +20,26 @@
    "sourceName": "Harris County Justice Courts, Public Data Extract",
    "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
    "slug": "computershare-trust-company-n-a-not-in-its-individual-capacity-but-sol-tx-harris-261100512277"
+  },
+  {
+   "source": "fulton_ga",
+   "state": "GA",
+   "county": "Fulton",
+   "court": "Superior Court of Fulton County, Georgia",
+   "caseNumber": "26CV015997",
+   "caseType": "Condemnation",
+   "dateFiled": "2026-11-18",
+   "caseName": "City of Fairburn v. J Squared Capital, LLC et al.",
+   "plaintiffs": [
+    "City of Fairburn"
+   ],
+   "defendants": [
+    "J Squared Capital, LLC",
+    "Dr. Arthur Ferdinand (Fulton County Tax Commissioner)"
+   ],
+   "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
+   "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV015997",
+   "slug": "city-of-fairburn-v-j-squared-capital-llc-et-al-ga-fulton-26cv015997"
   },
   {
    "source": "harris_jp_tx",

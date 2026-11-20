@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-11-20T03:42:45+00:00",
+ "updatedAt": "2026-11-20T19:16:52+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "Roque Estate Development LLC",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-45391",
+   "dateFiled": "2026-11-20",
+   "docketUrl": "https://www.courtlistener.com/docket/75149152/roque-estate-development-llc/",
+   "docketId": 75149152,
+   "slug": "roque-estate-development-llc-nyeb-1-26-45391",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "1906 Poole Road, LLC",
+   "court": "United States Bankruptcy Court, E.D. North Carolina",
+   "courtId": "nceb",
+   "docketNumber": "26-05307",
+   "dateFiled": "2026-11-20",
+   "docketUrl": "https://www.courtlistener.com/docket/75149356/1906-poole-road-llc/",
+   "docketId": 75149356,
+   "slug": "1906-poole-road-llc-nceb-26-05307",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "41-24 Associates LLC",
    "court": "United States Bankruptcy Court, E.D. New York",
@@ -11,6 +33,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/75148383/41-24-associates-llc/",
    "docketId": 75148383,
    "slug": "41-24-associates-llc-nyeb-1-26-45389",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "3 Beech Brook Developement LLC",
+   "court": "United States Bankruptcy Court, D. Massachusetts",
+   "courtId": "mab",
+   "docketNumber": "26-12754",
+   "dateFiled": "2026-11-19",
+   "docketUrl": "https://www.courtlistener.com/docket/75148215/3-beech-brook-developement-llc/",
+   "docketId": 75148215,
+   "slug": "3-beech-brook-developement-llc-mab-26-12754",
    "type": "Chapter 11 petition"
   },
   {
