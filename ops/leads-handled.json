@@ -2819,6 +2819,14 @@
   "petition:https://www.courtlistener.com/docket/75148906/232-old-river-edge-nj-llc/": {
    "at": "2026-11-20",
    "action": "skipped: no coverage found explaining the filing (232 Old River Edge NJ LLC, D.N.J. Ch. 11, 2026-11-19; one targeted search per playbook guidance, no secondary reporting)"
+  },
+  "opinion:11067059": {
+   "at": "2026-11-20",
+   "action": "skipped: not real estate (Ex parte Meta Platforms, Inc., Ala. Supreme Court -- a personal-jurisdiction mandamus petition in a data-privacy class action over Facebook user data; matchedTerms \"data center\"/\"developer\" matched incidentally to a reference to third-party software developers, no property or real estate issue in the opinion)"
+  },
+  "opinion:11067058": {
+   "at": "2026-11-20",
+   "action": "skipped: residential mortgage foreclosure appeal (caseName pattern), not read -- matchedTerms exactly {\"foreclos\",\"mortgage\"} and individual plaintiff (Suzanne M. Willmon) v. a bank plus individuals (First State Bank of DeKalb County, Casey S. Handrich, Louis Crowder), no business-entity suffix on either side, matching the pattern documented in the digest playbook"
   }
  }
 }
