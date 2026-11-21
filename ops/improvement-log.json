@@ -1850,8 +1850,15 @@
         "calculatorViews7": 2
       },
       "checkAfter": "2026-11-21",
-      "status": "watching",
-      "note": "HTML tag balance checked clean (Python HTMLParser, void-element-aware). site_audit.py (brokenLinks/orphanPages/missingFromSitemap all still 0, pagesChecked 891 unchanged) and check_case_fields.py both re-run clean. No .ts/.js touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing. Single-line, single-file change (2 lines in the diff). Treat the read as weak given calculatorViews7's own current unreliability (noted in imp-059's verdict above) -- if it doesn't move, that's consistent with the metric's noise, not necessarily evidence the link itself didn't help; watch whether calculatorViews7 recovers toward its pre-bot-flush 7-8/week range over the next two weeks regardless of this specific change."
+      "status": "no clear effect",
+      "note": "HTML tag balance checked clean (Python HTMLParser, void-element-aware). site_audit.py (brokenLinks/orphanPages/missingFromSitemap all still 0, pagesChecked 891 unchanged) and check_case_fields.py both re-run clean. No .ts/.js touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing. Single-line, single-file change (2 lines in the diff). Treat the read as weak given calculatorViews7's own current unreliability (noted in imp-059's verdict above) -- if it doesn't move, that's consistent with the metric's noise, not necessarily evidence the link itself didn't help; watch whether calculatorViews7 recovers toward its pre-bot-flush 7-8/week range over the next two weeks regardless of this specific change.",
+      "verdict": {
+        "date": "2026-11-21",
+        "value": {
+          "calculatorViews7": 3
+        },
+        "note": "calculatorViews7 2 -> 3 (+50%, clears the 25% threshold), but last28Days.toolViews['case-valuation'] stayed flat (17-20 across every daily snapshot since imp-073 shipped, 20 today) -- the 28-day trend doesn't confirm a real rise, so per the playbook's own rule this reads \"no clear effect,\" not \"helped.\" Not reverted (a correct, accurate link; nothing to revert)."
+      }
     },
     {
       "id": "imp-074",
@@ -1874,8 +1881,16 @@
         "googleLandings7": 175
       },
       "checkAfter": "2026-11-21",
-      "status": "watching",
-      "note": "Built california-lease-disputes.html from new-york-lease-disputes.html's exact template (same category, state/count/examples swapped), including the body-level Case Value Calculator link from the start (imp-059's pattern), so the new page doesn't reintroduce that gap. Added it to state-guides.html's GUIDES array *and* its separate static A-Z link list -- editing only the array leaves the page orphaned to site_audit.py/non-JS crawlers, per imp-053's prior finding -- and to sitemap.xml by hand. HTML tag balance clean on both touched/created .html files (void-element-aware Python HTMLParser check). site_audit.py confirms orphanPages/missingFromSitemap/brokenLinks all still 0 (pagesChecked 891 -> 892, no count regressed); check_case_fields.py clean. No .ts/.js touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule that file isn't this routine's to commit. This window is past G19's 2026-11-04 bot-fix cutover, so it should read cleanly with no contact.html contamination caveat, the same clean-read precedent imp-068 established for the prior MA page. Recount at 342 matters leaves FL|zoning-land-use and PA|zoning-land-use (6 each) as the next-largest uncovered combos for a future traffic-track run -- recount again first, since new matters keep shifting the ranking."
+      "status": "no clear effect",
+      "note": "Built california-lease-disputes.html from new-york-lease-disputes.html's exact template (same category, state/count/examples swapped), including the body-level Case Value Calculator link from the start (imp-059's pattern), so the new page doesn't reintroduce that gap. Added it to state-guides.html's GUIDES array *and* its separate static A-Z link list -- editing only the array leaves the page orphaned to site_audit.py/non-JS crawlers, per imp-053's prior finding -- and to sitemap.xml by hand. HTML tag balance clean on both touched/created .html files (void-element-aware Python HTMLParser check). site_audit.py confirms orphanPages/missingFromSitemap/brokenLinks all still 0 (pagesChecked 891 -> 892, no count regressed); check_case_fields.py clean. No .ts/.js touched, so no deno/tsc check applies. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule that file isn't this routine's to commit. This window is past G19's 2026-11-04 bot-fix cutover, so it should read cleanly with no contact.html contamination caveat, the same clean-read precedent imp-068 established for the prior MA page. Recount at 342 matters leaves FL|zoning-land-use and PA|zoning-land-use (6 each) as the next-largest uncovered combos for a future traffic-track run -- recount again first, since new matters keep shifting the ranking.",
+      "verdict": {
+        "date": "2026-11-21",
+        "value": {
+          "visits7": 463,
+          "googleLandings7": 227
+        },
+        "note": "visits7 395 -> 463 (+17.2%, under the 25% threshold) and googleLandings7 175 -> 227 (+29.7%, clears it) -- only one of the two watched metrics clears the mechanical threshold, the same split-result shape imp-068's own verdict treated as \"no clear effect\" rather than \"helped.\" googleLandings28 did rise steadily over the same window (666 -> 689 -> 716), but california-lease-disputes.html itself never once appeared in any daily last7Days.topPages snapshot since it shipped, so there is no page-level evidence the new page itself is the driver rather than the same site-wide climb already running before it shipped (same caveat imp-012/imp-068's verdicts noted). Not reverted (accurate, on-scope content, consistent with G12's own prior \"no clear effect\" verdicts on imp-038/imp-053/imp-068)."
+      }
     },
     {
       "id": "imp-075",
@@ -2097,8 +2112,13 @@
       "window": "n/a",
       "baseline": {},
       "checkAfter": "2026-11-21",
-      "status": "watching",
-      "note": "checkAfter here just means: confirm the next health-check.yml run still parses the WORKFLOWS dict cleanly and the three new entries show up as OK/problem lines rather than crashing the check. No revert criterion applies beyond that. scripts/health_check.py is not on CLAUDE.md's or the playbook's never-change lists (only .github/ itself, supabase/, and specific js/* files are off-limits); this is a narrow, additive 6-line dict extension verified with `python3 -I -m py_compile` and `ast.parse`. site_audit.py (918 pages, all summary counts 0 except missingDescription=3, the usual already-explained noindex set) and check_case_fields.py (353 matters, OK) both re-run clean, no count regressed. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing."
+      "status": "helped",
+      "note": "checkAfter here just means: confirm the next health-check.yml run still parses the WORKFLOWS dict cleanly and the three new entries show up as OK/problem lines rather than crashing the check. No revert criterion applies beyond that. scripts/health_check.py is not on CLAUDE.md's or the playbook's never-change lists (only .github/ itself, supabase/, and specific js/* files are off-limits); this is a narrow, additive 6-line dict extension verified with `python3 -I -m py_compile` and `ast.parse`. site_audit.py (918 pages, all summary counts 0 except missingDescription=3, the usual already-explained noindex set) and check_case_fields.py (353 matters, OK) both re-run clean, no count regressed. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing.",
+      "verdict": {
+        "date": "2026-11-21",
+        "value": {},
+        "note": "Confirmed via `gh run view` on health-check.yml's 2026-11-20 21:50 UTC run (44823894525, success, landed well after imp-085's 03:51 UTC commit): output shows \"No problems.\" and all three new entries printing correctly as \"OK\" status lines with real timestamps (\"Bank CRE Stress credit indicators: OK (2026-11-20T19:08:47Z)\", \"NYC commercial distress ...: OK (2026-11-20T18:37:15Z)\", \"Distress Radar alert emails: OK (2026-11-19T22:25:36Z)\") -- the dict parses cleanly and the three jobs are now genuinely watched. Not reverted."
+      }
     },
     {
       "id": "imp-086",
@@ -2115,8 +2135,33 @@
       "window": "n/a",
       "baseline": {},
       "checkAfter": "2026-11-21",
+      "status": "hurt",
+      "note": "deno unavailable this session; type-checked scripts/prerender.ts clean with tsc --noEmit against a Deno ambient shim (same fallback imp-009/019/025/033/082 established). HTML tag balance checked clean on alert-log.html with Python's html.parser. site_audit.py (925 pages; missingDescription=3, the same already-explained noindex set; brokenLinks/orphanPages/duplicateTitles all 0) and check_case_fields.py (357 matters, OK) both re-run clean after rebasing onto origin/main's own prerender commit (9ae46f9), no count regressed. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing. checkAfter is just confirming the next prerender.yml run actually fills al-flagship-freshness with real numbers rather than leaving the empty placeholder div, the same verification imp-082 did for coverage.html the next day.",
+      "verdict": {
+        "date": "2026-11-21",
+        "value": {},
+        "note": "Checked live per CLAUDE.md's validation step 5 and found it had NOT shipped: alert-log.html's al-flagship-freshness marker was still empty after 3+ prerender.yml runs since imp-086 landed (confirmed by diffing each \"Prerender: bake\" commit against alert-log.html -- none touched the file). Root cause: alert-log.html is missing from prerender.yml's \"Commit prerendered pages\" git-add list (the same G10/G22 bug class), so the CI runner's local write to the file was never staged or committed. Separately, the block itself had a real display bug, confirmed from the live JSON: `nyc.filings` and `marketPulse.errors` were read as numbers in the TS types but are arrays in the actual data, so `${nyc.filings}` would have rendered \"[object Object],[object Object],...\" instead of \"8 on record\", and `marketPulse.errors > 0` would always evaluate false regardless of real error content -- had the git-add gap not also existed, this would have shipped broken/misleading text to a visitor. Called \"hurt\" rather than \"no clear effect\" because the intended visitor-facing deliverable never existed in any correct form; fixed this run as imp-087 (both bugs fixed, content hand-baked and pushed directly, since the pipeline still can't persist it)."
+      }
+    },
+    {
+      "id": "imp-087",
+      "date": "2026-11-21",
+      "track": "audit",
+      "title": "Fixed alert-log.html's flagship-freshness table: a type bug and a prerender.yml git-add gap kept it from ever rendering",
+      "why": "Step 2 (judging): see imp-073/074/085/086 verdicts above. While verifying imp-086 live (CLAUDE.md's validation discipline step 5 -- \"never consider a change done without this\"), found real breakage: the al-flagship-freshness table imp-086 added to alert-log.html two days ago had never actually rendered on the live page, despite multiple successful prerender.yml runs in between. Diffing each \"Prerender: bake\" commit against alert-log.html since imp-086 landed (9ae46f9 and later) showed none of them touched the file at all -- confirming scripts/prerender.ts's write to alert-log.html on the CI runner was never staged, because alert-log.html is absent from prerender.yml's \"Commit prerendered pages\" step's explicit git-add file list (the same recurring bug class as G10 and G22's four judge-*.html incidents). Per the playbook's own rule (\"If the audit shows real breakage ... fix that first\"), this took priority over any new goal-tracked change this run. Investigating further to understand what the table would have actually shown once unblocked, found a second, independent bug in the same prerender.ts block: `ops/market-pulse.json`'s `errors` field and `ops/nyc-commercial-distress.json`'s `filings` field are both arrays in the real data, but the code's TS type annotations declared them as `number` and used them directly in template literals (`${nyc.filings} on record`, `marketPulse.errors > 0`) -- at runtime this would print the array's object-to-string coercion (`[object Object],[object Object],...`) for the NYC row instead of a count, and would always read the Bank CRE row as \"Clean\" regardless of whether errors.length was actually nonzero (array-to-number coercion of a non-empty array is NaN, and NaN > 0 is false). So even with the git-add gap fixed, this card would have shipped wrong, misleading text the first time it rendered.",
+      "files": [
+        "scripts/prerender.ts",
+        "alert-log.html",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "e042a14",
+      "metric": "No goals.json metric -- an audit/correctness fix, not a visitor-facing conversion/traffic change.",
+      "window": "n/a",
+      "baseline": {},
+      "checkAfter": "2026-11-22",
       "status": "watching",
-      "note": "deno unavailable this session; type-checked scripts/prerender.ts clean with tsc --noEmit against a Deno ambient shim (same fallback imp-009/019/025/033/082 established). HTML tag balance checked clean on alert-log.html with Python's html.parser. site_audit.py (925 pages; missingDescription=3, the same already-explained noindex set; brokenLinks/orphanPages/duplicateTitles all 0) and check_case_fields.py (357 matters, OK) both re-run clean after rebasing onto origin/main's own prerender commit (9ae46f9), no count regressed. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing. checkAfter is just confirming the next prerender.yml run actually fills al-flagship-freshness with real numbers rather than leaving the empty placeholder div, the same verification imp-082 did for coverage.html the next day."
+      "note": "Fixed both type annotations to `unknown[]` and both usages to `.length` in scripts/prerender.ts; type-checked clean with `tsc --noEmit` against a Deno ambient shim (deno unavailable this session, same established fallback as imp-009/019/025/033/082/086). Could not fix the git-add gap itself (.github/ is off-limits per CLAUDE.md); instead hand-computed the exact HTML `fill()` would now produce from the three real source files (ops/market-pulse.json, ops/nyc-commercial-distress.json, js/radar-data.json -- generated 2026-11-20/2026-11-19/2026-11-21 respectively, 8 NYC filings, 551 radar records, 0 market-pulse errors) and inserted it directly into alert-log.html's existing empty markers, byte-matching the corrected fill() output, the same hand-bake workaround G22's judge-*.html patches used. HTML tag balance clean (Python html.parser, void-element-aware). site_audit.py (933 pages; missingDescription=3, the usual already-explained noindex set; brokenLinks/orphanPages/duplicateTitles/missingFromSitemap all 0, no count regressed) and check_case_fields.py (361 matters, OK) both re-run clean. No upstream drift (git fetch showed nothing to rebase onto). Added a NEEDS JEFF note to G22 below (alert-log.html is a second file hit by the same workflow gap, on top of the four judge-*.html incidents) since this routine cannot add it to prerender.yml's git-add line itself. checkAfter here just means: confirm the next real data refresh (market-pulse.yml/nyc-distress.yml/radar-alerts.yml, or the next digest push) changes one of these three source files, and that the hand-baked table does NOT silently update itself afterward -- if it goes stale, that confirms the git-add gap is still live and this hand-bake will need repeating until Jeff adds alert-log.html to the workflow's git-add line."
     }
   ]
 }
