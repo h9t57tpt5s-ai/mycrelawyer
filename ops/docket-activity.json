@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-20T17:57:01+00:00",
+ "updatedAt": "2026-11-21T16:53:53+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 24,
+ "requestsUsed": 23,
  "errors": [],
  "dockets": {
   "14669317": {
@@ -69,6 +69,27 @@
   "66581116": {
    "entries": [
     {
+     "date": "2026-11-20",
+     "number": 186,
+     "text": "Memorandum Opinion and Order",
+     "url": "https://www.courtlistener.com/docket/66581116/186/dillard-store-services-inc-v-winrock-partners-llc/",
+     "ruling": true
+    },
+    {
+     "date": "2026-11-20",
+     "number": 185,
+     "text": "Response in Opposition to Motion",
+     "url": "https://www.courtlistener.com/docket/66581116/185/dillard-store-services-inc-v-winrock-partners-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-20",
+     "number": null,
+     "text": "Order AND ~Util - Set Hearings",
+     "url": "https://www.courtlistener.com/docket/66581116/dillard-store-services-inc-v-winrock-partners-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-11",
      "number": 183,
      "text": "Reply to Response to Motion",
@@ -102,27 +123,6 @@
      "text": "Supplement",
      "url": "https://www.courtlistener.com/docket/66581116/179/dillard-store-services-inc-v-winrock-partners-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-03",
-     "number": 178,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/66581116/178/dillard-store-services-inc-v-winrock-partners-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-30",
-     "number": 177,
-     "text": "Protective Order",
-     "url": "https://www.courtlistener.com/docket/66581116/177/dillard-store-services-inc-v-winrock-partners-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-30",
-     "number": 175,
-     "text": "Response (when not to a motion)",
-     "url": "https://www.courtlistener.com/docket/66581116/175/dillard-store-services-inc-v-winrock-partners-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -132,7 +132,7 @@
    "docketNumber": "1:22-cv-00921",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/66581116/dillard-store-services-inc-v-winrock-partners-llc/",
-   "lastEntryDate": "2026-11-11"
+   "lastEntryDate": "2026-11-20"
   },
   "66730007": {
    "entries": [
@@ -843,6 +843,13 @@
   "72309125": {
    "entries": [
     {
+     "date": "2026-11-20",
+     "number": null,
+     "text": "Discovery Hearing",
+     "url": "https://www.courtlistener.com/docket/72309125/port-of-tacoma-v-pq-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-17",
      "number": null,
      "text": "Notice of Hearing",
@@ -864,7 +871,7 @@
    "docketNumber": "3:26-cv-05162",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/72309125/port-of-tacoma-v-pq-llc/",
-   "lastEntryDate": "2026-11-17"
+   "lastEntryDate": "2026-11-20"
   },
   "72333596": {
    "entries": [],
@@ -991,6 +998,20 @@
   "73480976": {
    "entries": [
     {
+     "date": "2026-11-20",
+     "number": 78,
+     "text": "Dismiss",
+     "url": "https://www.courtlistener.com/docket/73480976/78/fitfactaridc-llc-v-costar-group-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-20",
+     "number": 77,
+     "text": "Dismiss for Failure to State a Claim",
+     "url": "https://www.courtlistener.com/docket/73480976/77/fitfactaridc-llc-v-costar-group-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-13",
      "number": 76,
      "text": "Order on Motion for Leave to File Excess Pages",
@@ -1031,13 +1052,6 @@
      "text": "Order on Motion to Dismiss AND Order on Motion to Dismiss AND Order on Motion to Set a Briefing Schedule",
      "url": "https://www.courtlistener.com/docket/73480976/71/fitfactaridc-llc-v-costar-group-inc/",
      "ruling": true
-    },
-    {
-     "date": "2026-09-23",
-     "number": 70,
-     "text": "Briefing Schedule",
-     "url": "https://www.courtlistener.com/docket/73480976/70/fitfactaridc-llc-v-costar-group-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1047,10 +1061,18 @@
    "docketNumber": "1:26-cv-06997",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
-   "lastEntryDate": "2026-11-13"
+   "lastEntryDate": "2026-11-20"
   },
   "73509496": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-11-20",
+     "number": 38,
+     "text": "Witness List",
+     "url": "https://www.courtlistener.com/docket/73509496/38/thor-equities-llc-v-city-of-urbana-ohio/",
+     "ruling": false
+    }
+   ],
    "caseIds": [
     "live-338"
    ],
@@ -1058,7 +1080,7 @@
    "docketNumber": "3:26-cv-00196",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73509496/thor-equities-llc-v-city-of-urbana-ohio/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-11-20"
   },
   "73568530": {
    "entries": [
@@ -1589,58 +1611,58 @@
    "entries": [
     {
      "date": "2026-11-20",
+     "number": 204,
+     "text": "BNC certificate of mailing - PDF document",
+     "url": "https://www.courtlistener.com/docket/74914151/204/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-20",
+     "number": 203,
+     "text": "Statement of financial affairs",
+     "url": "https://www.courtlistener.com/docket/74914151/203/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-20",
+     "number": 202,
+     "text": "Schedules",
+     "url": "https://www.courtlistener.com/docket/74914151/202/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-20",
+     "number": 201,
+     "text": "List (witness/exhibit/generic)",
+     "url": "https://www.courtlistener.com/docket/74914151/201/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-20",
+     "number": 200,
+     "text": "Objection",
+     "url": "https://www.courtlistener.com/docket/74914151/200/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-20",
+     "number": 199,
+     "text": "Objection",
+     "url": "https://www.courtlistener.com/docket/74914151/199/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-20",
+     "number": 198,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/74914151/198/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-20",
      "number": 197,
      "text": "List (witness/exhibit/generic)",
      "url": "https://www.courtlistener.com/docket/74914151/197/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-19",
-     "number": 196,
-     "text": "Certificate of service",
-     "url": "https://www.courtlistener.com/docket/74914151/196/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-19",
-     "number": 195,
-     "text": "Certificate of service",
-     "url": "https://www.courtlistener.com/docket/74914151/195/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-18",
-     "number": 194,
-     "text": "Order on motion to dismiss case",
-     "url": "https://www.courtlistener.com/docket/74914151/194/american-hospitality-properties-reit-inc/",
-     "ruling": true
-    },
-    {
-     "date": "2026-11-18",
-     "number": 193,
-     "text": "Request for transcript/audio",
-     "url": "https://www.courtlistener.com/docket/74914151/193/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-18",
-     "number": 192,
-     "text": "Order (generic)",
-     "url": "https://www.courtlistener.com/docket/74914151/192/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-17",
-     "number": 191,
-     "text": "Stipulation",
-     "url": "https://www.courtlistener.com/docket/74914151/191/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-17",
-     "number": 190,
-     "text": "Notice of hearing",
-     "url": "https://www.courtlistener.com/docket/74914151/190/american-hospitality-properties-reit-inc/",
      "ruling": false
     }
    ],
@@ -1972,6 +1994,20 @@
   "75047315": {
    "entries": [
     {
+     "date": "2026-11-21",
+     "number": 87,
+     "text": "BNC Certificate of Mailing - Order",
+     "url": "https://www.courtlistener.com/docket/75047315/87/zom-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-21",
+     "number": 86,
+     "text": "BNC Certificate of Mailing - Order",
+     "url": "https://www.courtlistener.com/docket/75047315/86/zom-holding-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-19",
      "number": 84,
      "text": "Application to Employ/Retain",
@@ -2012,20 +2048,6 @@
      "text": "ADI - Proof of Service Reminder - 3-day",
      "url": "https://www.courtlistener.com/docket/75047315/zom-holding-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-17",
-     "number": 79,
-     "text": "Z - Generic Motion (use only when there is no specific motion event) (BK)",
-     "url": "https://www.courtlistener.com/docket/75047315/79/zom-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-17",
-     "number": 78,
-     "text": "Application to Employ/Retain",
-     "url": "https://www.courtlistener.com/docket/75047315/78/zom-holding-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -2035,10 +2057,23 @@
    "docketNumber": "6:26-bk-08509",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/75047315/zom-holding-inc/",
-   "lastEntryDate": "2026-11-19"
+   "lastEntryDate": "2026-11-21"
   }
  },
  "events": [
+  {
+   "key": "66581116:186:2026-11-20:memorandum opinion and order",
+   "docketId": "66581116",
+   "caseIds": [
+    "live-101"
+   ],
+   "date": "2026-11-20",
+   "kind": "ruling",
+   "text": "Memorandum Opinion and Order",
+   "entry": 186,
+   "url": "https://www.courtlistener.com/docket/66581116/186/dillard-store-services-inc-v-winrock-partners-llc/",
+   "firstSeen": "2026-11-21"
+  },
   {
    "key": "74927117:92:2026-11-19:order on motion for relief from stay/co-debtor stay",
    "docketId": "74927117",
