@@ -2882,7 +2882,8 @@ const RELAW_DATA = {
         { when: "December 1, 2022", label: "Dillard's sues Winrock Partners LLC and Integrated Property Services Company" },
         { when: "June 2025", label: "Defendants file a counterclaim" },
         { when: "June 24, 2026", label: "Magistrate judge grants Dillard's motion to compel discovery" },
-        { when: "October 30, 2026", label: "Dillard's moves for a protective order to block an executive's deposition", current: true }
+        { when: "October 30, 2026", label: "Dillard's moves for a protective order to block an executive's deposition" },
+        { when: "November 20, 2026", label: "Court enters a memorandum opinion and order (docket entry 186)", current: true }
       ],
       docketUrl: "https://www.courtlistener.com/docket/66581116/dillard-store-services-inc-v-winrock-partners-llc/",
       docketLabel: "CourtListener docket"

@@ -2891,6 +2891,14 @@
     "petition:https://www.courtlistener.com/docket/75152275/pps-realty-800-george-st-llc/": {
       "at": "2026-11-21",
       "action": "skipped: related-entity cluster - PPS/PPW Realty is a known serial single-asset-LLC Ch. 11 sponsor filing many petitions for individual NJ/NY office & industrial properties (see Law360 'NJ Property Owner Puts Office, Industrial Properties In Ch. 11'); an earlier, differently-numbered 800 George Street LLC Ch. 11 (2:22-bk-11493) already resolved via a 363 sale in 2026; no new story beyond the known sponsor pattern, no additional named-party coverage found for this specific 2026-11-20 filing"
+    },
+    "opinion:11068116": {
+      "at": "2026-11-21",
+      "action": "matter lead queued in ops/digest-leads.json (Siegel LV North Strip Tolleson LLC v EC 215 Las Vegas LLC, Nevada Supreme Court affirms injunction over parking easement/fence dispute between two commercial property owners on the Strip, no secondary coverage found)"
+    },
+    "opinion:11068163": {
+      "at": "2026-11-21",
+      "action": "skipped: residential mortgage foreclosure, individual homeowner (Cynthia Zalewski) vs US Bank Trust National Association as trustee re: foreclosure by advertisement of her Oakland County, MI home; opinion itself frames it as mortgage credit for 'purchasers seeking to realize the American dream of homeownership' -- defendant's 'Trust' token is part of the bank-trustee's formal name, not a business-entity party on the homeowner's side"
     }
   }
 }

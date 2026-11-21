@@ -184,6 +184,11 @@
    "caseId": "live-265",
    "at": "2026-11-20",
    "action": "docket text only -- WebSearch found no secondary reporting on this Nov 19, 2026 order on the motion for relief from stay/co-debtor stay (entry 92); added a timeline entry restating the docket text without changing status, since no source states whether the motion was granted or denied"
+  },
+  "66581116:186:2026-11-20:memorandum opinion and order": {
+   "caseId": "live-101",
+   "at": "2026-11-21",
+   "action": "docket text only -- WebSearch found no secondary reporting on this Nov 20, 2026 memorandum opinion and order (entry 186) in Dillard Store Services v. Winrock Partners LLC; added a timeline entry restating the docket text without changing status, since no source states what the opinion held"
   }
  }
 }
