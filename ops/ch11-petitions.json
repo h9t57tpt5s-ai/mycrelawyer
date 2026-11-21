@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T19:16:52+00:00",
+ "updatedAt": "2026-11-21T03:26:40+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
@@ -11,6 +11,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/75149152/roque-estate-development-llc/",
    "docketId": 75149152,
    "slug": "roque-estate-development-llc-nyeb-1-26-45391",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "PPS Realty 800 George St., LLC",
+   "court": "United States Bankruptcy Court, D. New Jersey",
+   "courtId": "njb",
+   "docketNumber": "26-23161",
+   "dateFiled": "2026-11-20",
+   "docketUrl": "https://www.courtlistener.com/docket/75152275/pps-realty-800-george-st-llc/",
+   "docketId": 75152275,
+   "slug": "pps-realty-800-george-st-llc-njb-26-23161",
    "type": "Chapter 11 petition"
   },
   {

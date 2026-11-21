@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T19:16:52+00:00",
+ "updatedAt": "2026-11-21T03:26:40+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -11,6 +11,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/75149152/roque-estate-development-llc/",
    "docketId": 75149152,
    "slug": "roque-estate-development-llc-nyeb-1-26-45391",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "PPS Realty 800 George St., LLC",
+   "court": "United States Bankruptcy Court, D. New Jersey",
+   "courtId": "njb",
+   "docketNumber": "26-23161",
+   "dateFiled": "2026-11-20",
+   "docketUrl": "https://www.courtlistener.com/docket/75152275/pps-realty-800-george-st-llc/",
+   "docketId": 75152275,
+   "slug": "pps-realty-800-george-st-llc-njb-26-23161",
    "type": "Chapter 11 petition"
   },
   {
@@ -88,39 +99,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75128111/winnie-realty-group-llc/",
    "docketId": 75128111,
    "slug": "winnie-realty-group-llc-nyeb-1-26-45333",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "SWIRE PROPERTIES SOUTHPOINT LLC",
-   "court": "United States Bankruptcy Court, M.D. Florida",
-   "courtId": "flmb",
-   "docketNumber": "3:26-bk-05294",
-   "dateFiled": "2026-11-16",
-   "docketUrl": "https://www.courtlistener.com/docket/75121925/swire-properties-southpoint-llc/",
-   "docketId": 75121925,
-   "slug": "swire-properties-southpoint-llc-flmb-3-26-bk-05294",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "9 Jude Drive Equities Proprietary LLC",
-   "court": "United States Bankruptcy Court, S.D. New York",
-   "courtId": "nysb",
-   "docketNumber": "26-36224",
-   "dateFiled": "2026-11-16",
-   "docketUrl": "https://www.courtlistener.com/docket/75126958/9-jude-drive-equities-proprietary-llc/",
-   "docketId": 75126958,
-   "slug": "9-jude-drive-equities-proprietary-llc-nysb-26-36224",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "12892 Mizner Way, LLC",
-   "court": "United States Bankruptcy Court, S.D. Florida.",
-   "courtId": "flsb",
-   "docketNumber": "26-25215",
-   "dateFiled": "2026-11-16",
-   "docketUrl": "https://www.courtlistener.com/docket/75124047/12892-mizner-way-llc/",
-   "docketId": 75124047,
-   "slug": "12892-mizner-way-llc-flsb-26-25215",
    "type": "Chapter 11 petition"
   }
  ]
