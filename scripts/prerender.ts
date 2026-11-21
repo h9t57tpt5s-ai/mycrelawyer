@@ -436,14 +436,14 @@ function filingCard(label: string, noun: string, newest: Filing[], total: number
   const f = "alert-log.html";
   let h = await Deno.readTextFile(f);
   try {
-    const marketPulse = JSON.parse(await Deno.readTextFile("ops/market-pulse.json")) as { generated: string; errors: number };
-    const nyc = JSON.parse(await Deno.readTextFile("ops/nyc-commercial-distress.json")) as { generated: string; acrisThrough: string; filings: number };
+    const marketPulse = JSON.parse(await Deno.readTextFile("ops/market-pulse.json")) as { generated: string; errors: unknown[] };
+    const nyc = JSON.parse(await Deno.readTextFile("ops/nyc-commercial-distress.json")) as { generated: string; acrisThrough: string; filings: unknown[] };
     const radar = JSON.parse(await Deno.readTextFile("js/radar-data.json")) as { generated: string; count: number };
     const row = (job: string, note: string, last: string, status: string) =>
       `<tr><td style="padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); vertical-align:top;">${esc(job)}<div class="text-muted" style="font-size:12px; margin-top:2px;">${note}</div></td><td style="padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); vertical-align:top; white-space:nowrap;">${esc(last)}</td><td style="padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); vertical-align:top;">${status}</td></tr>`;
     const table = `<div style="overflow-x:auto;"><table style="width:100%; border-collapse:collapse; font-size:13.5px;"><thead><tr><th style="padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); text-align:left;">Job</th><th style="padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); text-align:left; white-space:nowrap;">Last refreshed</th><th style="padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); text-align:left;">Status</th></tr></thead><tbody>` +
-      row("Bank CRE Stress credit indicators", "FDIC Call Reports and FRED, via scripts/pull_market_pulse.py", marketPulse.generated.slice(0, 10), marketPulse.errors > 0 ? `${marketPulse.errors} source error(s) on the last run` : "Clean") +
-      row("NYC commercial distress", `ACRIS referee's deeds; city Open Data copy current through ${esc(nyc.acrisThrough)}`, nyc.generated, `${nyc.filings} on record`) +
+      row("Bank CRE Stress credit indicators", "FDIC Call Reports and FRED, via scripts/pull_market_pulse.py", marketPulse.generated.slice(0, 10), marketPulse.errors.length > 0 ? `${marketPulse.errors.length} source error(s) on the last run` : "Clean") +
+      row("NYC commercial distress", `ACRIS referee's deeds; city Open Data copy current through ${esc(nyc.acrisThrough)}`, nyc.generated, `${nyc.filings.length} on record`) +
       row("Distress Radar combined feed", "Bankruptcies, federal suits, CMBS defaults, Texas foreclosure postings and NYC deeds, joined by property", radar.generated.slice(0, 10), `${radar.count} records`) +
       `</tbody></table></div>`;
     h = fill(h, "al-flagship-freshness", table, f);
