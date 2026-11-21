@@ -1097,7 +1097,7 @@
   </url>
   <url>
     <loc>https://credocket.com/state-court-watch.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -4633,6 +4633,11 @@
   <url>
     <loc>https://credocket.com/federal-cases/fam-jam-01-properties-llc-v-united-states-of-america-the-alnd-5-26-cv-01613.html</loc>
     <lastmod>2026-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/state-cases/city-of-fairburn-v-southside-investments-inc-et-al-ga-fulton-26cv016094.html</loc>
+    <lastmod>2026-11-20</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
