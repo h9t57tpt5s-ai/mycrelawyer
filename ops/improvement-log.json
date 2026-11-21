@@ -2162,6 +2162,28 @@
       "checkAfter": "2026-11-22",
       "status": "watching",
       "note": "Fixed both type annotations to `unknown[]` and both usages to `.length` in scripts/prerender.ts; type-checked clean with `tsc --noEmit` against a Deno ambient shim (deno unavailable this session, same established fallback as imp-009/019/025/033/082/086). Could not fix the git-add gap itself (.github/ is off-limits per CLAUDE.md); instead hand-computed the exact HTML `fill()` would now produce from the three real source files (ops/market-pulse.json, ops/nyc-commercial-distress.json, js/radar-data.json -- generated 2026-11-20/2026-11-19/2026-11-21 respectively, 8 NYC filings, 551 radar records, 0 market-pulse errors) and inserted it directly into alert-log.html's existing empty markers, byte-matching the corrected fill() output, the same hand-bake workaround G22's judge-*.html patches used. HTML tag balance clean (Python html.parser, void-element-aware). site_audit.py (933 pages; missingDescription=3, the usual already-explained noindex set; brokenLinks/orphanPages/duplicateTitles/missingFromSitemap all 0, no count regressed) and check_case_fields.py (361 matters, OK) both re-run clean. No upstream drift (git fetch showed nothing to rebase onto). Added a NEEDS JEFF note to G22 below (alert-log.html is a second file hit by the same workflow gap, on top of the four judge-*.html incidents) since this routine cannot add it to prerender.yml's git-add line itself. checkAfter here just means: confirm the next real data refresh (market-pulse.yml/nyc-distress.yml/radar-alerts.yml, or the next digest push) changes one of these three source files, and that the hand-baked table does NOT silently update itself afterward -- if it goes stale, that confirms the git-add gap is still live and this hand-bake will need repeating until Jeff adds alert-log.html to the workflow's git-add line."
+    },
+    {
+      "id": "imp-088",
+      "date": "2026-11-21",
+      "track": "traffic",
+      "title": "New state/category deep-dive page: Pennsylvania \u2013 Zoning & Land Use (backlog G12)",
+      "why": "Step 2 (judging): no watching log entry has checkAfter <= 2026-11-21 remaining -- the earlier 03:30 UTC run today already judged every entry due (imp-073/074: no clear effect; imp-085: helped; imp-086: hurt, fixed forward as imp-087 rather than reverted since the feature had never actually rendered live, so nothing to undo). Step 3: goal_scoreboard.py mostBehind = [calculator, conversion, traffic, news]. Calculator is blocked (imp-077/080/083 still watching, all NEEDS JEFF backtest evidence awaiting Jeff's review). Conversion is blocked (imp-075 watching until 2026-11-22). News is on-track and also has open watching entries (imp-063/065/076/079). Traffic had no open watching entry (imp-074 was judged this morning) and was untouched by the last 2 log entries (imp-086 subscription, imp-087 audit), so it got this run's work. Backlog G12 (traffic) asks to recount state+category combos against js/data.js before building, since matters keep being added. Recounted directly from the live cases array (361 matters, confirmed programmatically): Pennsylvania|zoning-land-use is now the largest uncovered combination at 10 matters -- ahead of every other gap (Ohio|zoning-land-use 7; Florida/Michigan|zoning-land-use 6 each) and larger than the biggest previously-built single-category guide (New York|lease-disputes, 10). Built pennsylvania-zoning-land-use.html with the same client-side-filter pattern as the 17 existing state/category pages (copied from massachusetts-zoning-land-use.html, same category/different state, per imp-074's established precedent), with its own real matter count (10), a meta description/og/twitter citing an actual tracked matter (Water's Edge at Wind Gap, LLC v. Zoning Hearing Board of Moore Township), and the state filter corrected from the copied MA/\"MA\" to PA/\"PA\". Linked from state-guides.html's GUIDES array and A-Z deep-dive link list (alphabetically after pennsylvania-landlord-tenant.html); added to sitemap.xml in alphabetical order with today's lastmod. Included the Case Value Calculator link from page load per imp-059's pattern. Verified before committing: HTML tag balance clean (Python html.parser, void-element-aware) on all 3 changed files; check_case_fields.py clean (361 matters, OK); site_audit.py clean and no count regressed (brokenLinks/orphanPages/missingFromSitemap/duplicateTitles all 0, missingDescription still the same 3 pre-known noindex pages); git status --short showed exactly the 3 intended files staged, nothing under case_valuation_project/data/. No upstream drift (git fetch showed nothing to rebase onto).",
+      "files": [
+        "pennsylvania-zoning-land-use.html",
+        "state-guides.html",
+        "sitemap.xml"
+      ],
+      "commit": "dba4c29",
+      "metric": "ops/metrics/goals.json goals.traffic.metrics.visits7 / googleLandings7",
+      "window": "14 days (Google-dependent, per \"How to judge a change\")",
+      "baseline": {
+        "visits7": 463,
+        "googleLandings7": 227,
+        "date": "2026-11-21"
+      },
+      "checkAfter": "2026-12-05",
+      "status": "watching"
     }
   ]
 }
