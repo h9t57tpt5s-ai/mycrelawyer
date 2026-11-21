@@ -1,4 +1,37 @@
 {
- "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
- "leads": []
+  "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
+  "leads": [
+    {
+      "found": true,
+      "title": "Target Corp. v. County of Monroe Indus. Dev. Agency \u2014 NY appellate court upholds condemnation of Target's rights at former Medley Centre mall (Irondequoit)",
+      "urls": [
+        "https://www.courtlistener.com/opinion/11068028/matter-of-target-corp-v-county-of-monroe-indus-dev-agency/",
+        "http://www.nycourts.gov/reporter/current/3dseries/2026/2026_06899.shtml",
+        "https://www.wxxinews.org/local-news/2026-05-13/why-target-is-crying-foul-over-irondequoits-vacant-mall",
+        "https://www.wxxinews.org/local-news/2026-05-14/target-mall-developer-in-talks-as-court-weighs-decision"
+      ],
+      "why": "Appellate Division, 4th Dept (decided 2026-11-20) unanimously confirmed COMIDA's EDPL condemnation of Target's contractual rights tied to the former Medley Centre/Irondequoit Mall site (now rebranded Skyview on the Ridge) and dismissed Target's petition, rejecting Target's notice-sufficiency challenge. WXXI's May 2026 local coverage explains the backstory: mall owner/IDA used condemnation to clear Target's agreement so redevelopment could proceed; Target argued bad faith and inadequate notice (sent to its Minneapolis HQ) and sought to undo the condemnation. This opinion appears to resolve that dispute. Primary source is the opinion itself; WXXI gives the narrative background. Commercial real estate: eminent domain/condemnation fight over a shopping-center redevelopment between a national retailer and a local industrial development agency.",
+      "eventDate": "2026-11-20"
+    },
+    {
+      "found": true,
+      "title": "320 Alemany LLC v. City & County of San Francisco \u2014 appellate court rejects density-bonus bid to legalize 17 unpermitted units at multifamily property, affirms ~$1.5M code-enforcement judgment",
+      "urls": [
+        "https://www.courtlistener.com/opinion/11067970/320-alemany-llc-v-city-county-of-san-francisco-ca15/",
+        "https://storage.courtlistener.com/pdf/2026/11/20/320_alemany_llc_v._city__county_of_san_francisco_ca15.pdf"
+      ],
+      "why": "California Court of Appeal, 1st District (decided/filed 2026-11-20, unpublished), affirmed a trial court judgment for the City & County of San Francisco against 320 Alemany LLC, the owner/operator of four multifamily lots at 316-328 Alemany Blvd. The owner added 17 unpermitted dwelling units beyond its 15 permitted units, was sued by the City, stipulated to an injunction plus ~$1.5M in penalties/fees/costs, and then tried to use the state density bonus law (Gov. Code 65915) to legalize the extra units; the court held the density bonus law doesn't apply to units built without permits and then retroactively legalized. No secondary press coverage found (searched); writing from the opinion as primary source only. Fits CRE under the owner's-standing rule as a multifamily owner/operator's business dispute with the city over zoning/density-bonus law and code enforcement, not a tenant-side residential matter.",
+      "eventDate": "2026-11-20"
+    },
+    {
+      "found": true,
+      "title": "949 Cleveland Street, LLC v. Baker Barrios Architects, Inc. \u2014 Florida appeals court reverses $642K attorneys'-fee judgment in commercial construction-defect case, holding it was premature",
+      "urls": [
+        "https://www.courtlistener.com/opinion/11067442/949-cleveland-street-llc-v-baker-barrios-architects-inc-b-w/",
+        "https://storage.courtlistener.com/pdf/2026/11/20/949_cleveland_street_llc_v._baker_barrios_architects_inc._b__w.pdf"
+      ],
+      "why": "Florida 2nd DCA (decided 2026-11-20) reversed and remanded a final judgment awarding Baker Barrios Architects, Inc. $642,646.94 in attorneys' fees and costs under a proposal-for-settlement statute (sec. 768.79), after 949 Cleveland Street, LLC's construction-defect/negligence/building-code suit over its Clearwater, FL project went to a jury that found no liability. The appeals court held the fee judgment was premature because no judgment had actually been entered on the jury's verdict itself. Other named defendants: B&W Structural Designs, LLC; ZMG Construction, Inc.; Prospect Construction & Development Group, LLC. No secondary press coverage found (searched); a Levelset project-records page shows a ~$2.07M mechanics lien filed by a contractor at this address in 2024, consistent with a disputed commercial construction project, but doesn't itself describe this litigation. Writing from the opinion as primary source.",
+      "eventDate": "2026-11-20"
+    }
+  ]
 }
