@@ -1,7 +1,27 @@
 {
- "updatedAt": "2026-11-21T03:27:37+00:00",
+ "updatedAt": "2026-11-21T18:13:07+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "fulton_ga",
+   "state": "GA",
+   "county": "Fulton",
+   "court": "Superior Court of Fulton County, Georgia",
+   "caseNumber": "26CV016094",
+   "caseType": "Condemnation",
+   "dateFiled": "2026-11-20",
+   "caseName": "City of Fairburn v. SouthSide Investments Inc et al.",
+   "plaintiffs": [
+    "City of Fairburn"
+   ],
+   "defendants": [
+    "SouthSide Investments Inc",
+    "Dr. Arthur Ferdinand (Fulton County Tax Commissioner)"
+   ],
+   "sourceName": "Fulton County open data, Superior Court pending cases (CC BY 4.0)",
+   "sourceUrl": "https://sharefulton.fultoncountyga.gov/resource/u8gi-zru8.json?casenbr=26CV016094",
+   "slug": "city-of-fairburn-v-southside-investments-inc-et-al-ga-fulton-26cv016094"
+  },
   {
    "source": "harris_jp_tx",
    "state": "TX",
