@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-20",
+  lastUpdatedDate: "2026-11-22",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -14874,6 +14874,122 @@ const RELAW_DATA = {
       timeline: [
         { when: "September 25, 2026", label: "Motion hearing scheduled, per South Jersey Media" },
         { when: "November 2026", label: "Judge James Swift denies the motion to dismiss (reported by WHYY in an article updated November 19, 2026 as 'this week'; day not reported)", current: true }
+      ]
+    },
+    {
+      id: "live-452",
+      seoTitle: "Medley Centre Irondequoit: Court Upholds Condemnation of Target Rights",
+      seoDescription: "New York's Fourth Department confirmed COMIDA's condemnation of Target's contractual rights tied to the former Medley Centre mall in Irondequoit, citing Target's absence from the hearing.",
+      property: {"name": "Medley Centre (Irondequoit Mall)", "address": null, "city": "Irondequoit", "state": "NY"},
+      addedDate: "2026-11-22",
+      title: "Matter of Target Corp. v. County of Monroe Industrial Development Agency: Fourth Department Confirms Condemnation of Target's Contractual Rights Tied to Former Medley Centre Mall",
+      brief: "The Fourth Department confirmed COMIDA's condemnation of Target's contractual rights tied to the former Medley Centre in Irondequoit, N.Y., holding that Target did not appear at the public hearing and could not raise its substantive objections.",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-11-20",
+      jurisdiction: "New York Supreme Court, Appellate Division, Fourth Department",
+      state: "NY",
+      amount: "Condemnation of contractual rights (no dollar figure stated)",
+      source: "live",
+      sourceUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_06899.shtml",
+      propertyType: "Retail",
+      summary: "On November 20, 2026, the Appellate Division, Fourth Department, unanimously confirmed a determination by the County of Monroe Industrial Development Agency (COMIDA) to condemn certain contractual rights held by Target Corporation, and dismissed Target's petition. The court held that COMIDA's hearing notice and accompanying letter satisfied EDPL section 202, and that Target's substantive objections were not properly before it because no one appeared for Target at the public hearing.",
+      significance: "The court held that a party that does not appear at the EDPL public hearing cannot raise its substantive objections to the taking in a later EDPL 207 proceeding. It also held that the statutory judicial-review warning, missing from the hearing notice itself, was sufficiently given by the letter that accompanied the notice sent to Target.",
+      body: [
+        "The Appellate Division, Fourth Department, decided the case on November 20, 2026, in an original proceeding under EDPL 207. Target Corporation, which the court says operates a retail store in Irondequoit just west of the site of the shopping center once known as the Medley Centre and the Irondequoit Mall, asked the court to annul COMIDA's determination condemning certain of its contractual rights. The respondents are COMIDA and One Medley Center, LLC.",
+        "The opinion says COMIDA sent notice of the public hearing, with an accompanying letter, by certified mail and Federal Express to the address Target had given the tax assessor for billing purposes. No one appeared for Target at the hearing, and the only people who spoke supported the condemnation. The court noted it is undisputed that the notice itself did not carry the statutory warning that a later challenge may rest only on issues raised at the hearing, but the accompanying letter did, in bold, underlined capital letters.",
+        "Target argued that the notice was insufficient because it did not state the public use to be served or describe the property rights sought, and did not include the warning. The court rejected those arguments, holding that section 202 requires notice of the hearing's purpose, time, date and location, not a description of the project, and that the notice and letter together were sufficient to give the warning; it noted that Target cited no authority for disregarding the letter.",
+        "WXXI News reported in May 2026 that the dispute concerns a reciprocal easement agreement, that Target asserted in court filings that the condemnation was improper and done in bad faith, and that COMIDA sought dismissal on the ground that Target had the opportunity to raise objections at the condemnation hearing and did not. The Fourth Department did not reach Target's substantive contentions, because Target did not appear at the hearing, and it confirmed the determination without costs."
+      ],
+      tags: ["eminent domain", "condemnation", "retail", "new york", "mall redevelopment"],
+      parties: [
+        { name: "Target Corporation", role: "Petitioner" },
+        { name: "County of Monroe Industrial Development Agency", role: "Respondent" },
+        { name: "One Medley Center, LLC", role: "Respondent" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "November 20, 2026", label: "Appellate Division, Fourth Department unanimously confirms COMIDA's determination and dismisses Target's petition", current: true }
+      ]
+    },
+    {
+      id: "live-453",
+      seoTitle: "191 Peachtree Tower Atlanta: $175.5M Loan in Special Servicing",
+      seoDescription: "Bisnow reports the $175.5M loan on Atlanta's 191 Peachtree Tower entered special servicing, with Rialto Capital taking over; Banyan did not respond to a request for comment.",
+      property: {"name": "191 Peachtree Tower", "address": null, "city": "Atlanta", "state": "GA"},
+      addedDate: "2026-11-22",
+      title: "191 Peachtree Tower, Atlanta: $175.5M Loan Moves to Special Servicing After Borrower Says It Can't Pay at Maturity",
+      brief: "Bisnow reports that Rialto Capital took over the $175.5M loan on Atlanta's 191 Peachtree Tower in October 2026 after the borrower said it could not pay off the balance at maturity.",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-11-19",
+      jurisdiction: "CMBS special servicing (no court filing reported)",
+      state: "GA",
+      amount: "$175.5M loan",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/atlanta/capital-markets/191-peachtree-loan-moves-to-special-servicing-after-banyan-misses-maturity-payment",
+      propertyType: "Office",
+      summary: "Bisnow reported on Nov. 19, 2026 that the loan on 191 Peachtree Tower in Atlanta has entered special servicing after the borrower said it could not pay off the balance at maturity. According to Bisnow, citing Morningstar Analytics, Rialto Capital took over the $175.5M loan the month before, in October 2026, due to \"imminent monetary default.\" Banyan, the tower's owner, did not respond to Bisnow's request for comment.",
+      significance: "A $175.5M loan on a 50-story office tower in Downtown Atlanta has moved to a special servicer after the borrower said it could not pay off the balance at maturity.",
+      body: [
+        "Bisnow reported on Nov. 19, 2026 that the loan on Banyan Street Capital's 191 Peachtree Tower in Atlanta has entered special servicing after the borrower said it could not pay off the balance at maturity. The report says Rialto Capital took over the $175.5M loan the month before, which is October 2026. The article gives no day for the transfer, so this entry is dated to the Bisnow report, Nov. 19, 2026, and not to the transfer itself. Bisnow cited Morningstar Analytics for the stated reason, \"imminent monetary default.\"",
+        "Bisnow reports that Banyan purchased the 50-story, 1.2M SF tower in 2016 for $268M and that, according to Morningstar Credit, Morgan Stanley originated the $175.5M loan for the building at 3.73% in 2016. Bisnow also reports that the property's Fulton County appraised value was $194.7M this year, down from $231M in 2023.",
+        "Banyan did not respond to a request for comment, according to Bisnow."
+      ],
+      tags: ["special servicing", "cmbs", "atlanta", "office loan", "maturity default"],
+      parties: [
+        { name: "Banyan Street Capital", role: "Borrower" },
+        { name: "Rialto Capital", role: "Special servicer" }
+      ],
+      judge: null,
+      amountUsd: 175500000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "2016", label: "Banyan purchased the tower for $268M and the $175.5M loan was originated, per Bisnow" },
+        { when: "October 2026", label: "Rialto Capital took over the $175.5M loan (day not stated; Bisnow wrote \"last month\")" },
+        { when: "November 19, 2026", label: "Bisnow reported the loan had entered special servicing after the borrower said it could not pay off the balance at maturity", current: true }
+      ]
+    },
+    {
+      id: "live-454",
+      seoTitle: "Las Vegas Strip Parking Lot: Nevada Supreme Court Upholds Fence Removal Order",
+      seoDescription: "Nevada's Supreme Court affirmed an injunction requiring Siegel entities to remove a fence and QR-code gate system from a Las Vegas Strip lot under a Parking Easement Agreement.",
+      property: {"name": "Silver City strip mall and adjacent parking lot", "address": null, "city": "Las Vegas", "state": "NV"},
+      addedDate: "2026-11-22",
+      title: "Siegel LV North Strip Tolleson LLC v. EC 215 Las Vegas LLC: Nevada Supreme Court Affirms Order Requiring Removal of Fence and Gate System From Las Vegas Strip Parking Lot",
+      brief: "Nevada's Supreme Court affirmed a preliminary injunction requiring Siegel entities to remove a fence and QR-code gate system from a Las Vegas Strip parking lot, which the trial court found likely violates a Parking Easement Agreement with a strip-mall owner.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-20",
+      jurisdiction: "Nevada Supreme Court",
+      state: "NV",
+      amount: "Injunctive relief",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11068116/siegel-lv-n-strip-tolleson-llc-v-ec-215-las-vegas-llc/",
+      propertyType: "Retail",
+      summary: "In an order of affirmance, the Nevada Supreme Court upheld a preliminary injunction requiring Siegel LV North Strip Tolleson LLC to remove a fence and gate system from a parking lot it bought on the Las Vegas Strip. The lot is subject to a Parking Easement Agreement granting access to the neighboring strip mall owner, EC 215 Las Vegas LLC, and its patrons.",
+      significance: "At the preliminary-injunction stage, the court declined to read the easement agreement as allowing access-restricting gates simply because some access remains. The court said its conclusion does not foreclose considering a modification arrangement in further litigation.",
+      body: [
+        "The Nevada Supreme Court's order of affirmance, filed November 20, 2026, concerns a vacant parking lot on the Las Vegas Strip that Siegel LV North Strip Tolleson LLC purchased subject to a Parking Easement Agreement (PEA). The order says the PEA grants the owner of the adjacent property, EC 215 Las Vegas LLC (called Silver City in the order), and its patrons access to certain portions of the lot. Silver City owns a strip mall with retail and restaurant tenants. Siegel put up a chain-link fence around the lot's perimeter and installed gates requiring Silver City's driving patrons to enter a QR code to park for free.",
+        "Silver City sued, alleging the fence and gate system violated the PEA, and moved for a preliminary injunction requiring its removal. After an evidentiary hearing, the district court granted the injunction on July 10, 2024. It denied reconsideration on April 28, 2025, but clarified that Siegel was only required to remove the portion of the system subject to the PEA.",
+        "On appeal, Siegel argued that the PEA does not guarantee unobstructed access and that the evidence did not support a finding of irreparable harm. The Supreme Court held that Siegel had not shown reversible error: the district court had determined only that Silver City's interpretation was more persuasive for purposes of preliminary relief, and Siegel's argument that the PEA affords some access did not establish that the system is consistent with the access rights granted. On irreparable harm, Silver City said leaving the system in place could jeopardize its contractual relationships with tenants, including its obligations to provide their customers parking access; the court said such harm extends beyond calculable lost revenue and that Siegel identified no specific alternative modifications the district court overlooked. It rejected Siegel's reliance on crime and homelessness risks because Siegel bought the lot fully aware of those concerns, and affirmed."
+      ],
+      tags: ["easement", "preliminary injunction", "parking", "retail", "nevada"],
+      parties: [
+        { name: "Siegel LV North Strip Tolleson LLC", role: "Appellant" },
+        { name: "Siegel LV North Strip McDowell LLC", role: "Appellant" },
+        { name: "Siegel LV North Strip Tropicana LLC", role: "Appellant" },
+        { name: "Siegel IN North Strip Sierra Vista LLC", role: "Appellant" },
+        { name: "EC 215 Las Vegas LLC", role: "Respondent" },
+        { name: "EC 3001 South Las Vegas Boulevard LLC", role: "Respondent" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "July 10, 2024", label: "Eighth Judicial District Court (Clark County) grants preliminary injunction requiring removal of the fence and gate system" },
+        { when: "April 28, 2025", label: "District court denies reconsideration but limits removal to the portion subject to the Parking Easement Agreement" },
+        { when: "November 20, 2026", label: "Nevada Supreme Court affirms in an order of affirmance", current: true }
       ]
     }
   ],

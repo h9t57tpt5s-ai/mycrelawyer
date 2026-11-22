@@ -699,6 +699,58 @@
      "https://southjersey.media/snj-today/snj-lifestyle/data-center-noise-complaint-goes-to-judge/"
     ]
    }
+  },
+  "live-452": {
+   "verifiedOn": "2026-11-22",
+   "sourceUrl": "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_06899.shtml",
+   "urls": [
+    "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_06899.shtml",
+    "https://www.wxxinews.org/local-news/2026-05-13/why-target-is-crying-foul-over-irondequoits-vacant-mall"
+   ],
+   "quotes": 19,
+   "confirmedByChecker": 16,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_06899.shtml",
+     "https://www.wxxinews.org/local-news/2026-05-13/why-target-is-crying-foul-over-irondequoits-vacant-mall"
+    ]
+   }
+  },
+  "live-453": {
+   "verifiedOn": "2026-11-22",
+   "sourceUrl": "https://www.bisnow.com/news/atlanta/capital-markets/191-peachtree-loan-moves-to-special-servicing-after-banyan-misses-maturity-payment",
+   "urls": [
+    "https://www.bisnow.com/news/atlanta/capital-markets/191-peachtree-loan-moves-to-special-servicing-after-banyan-misses-maturity-payment"
+   ],
+   "quotes": 8,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.bisnow.com/news/atlanta/capital-markets/191-peachtree-loan-moves-to-special-servicing-after-banyan-misses-maturity-payment"
+    ]
+   }
+  },
+  "live-454": {
+   "verifiedOn": "2026-11-22",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11068116/siegel-lv-n-strip-tolleson-llc-v-ec-215-las-vegas-llc/",
+   "urls": [
+    "https://storage.courtlistener.com/pdf/2026/11/21/siegel_lv_n._strip_tolleson_llc_v._ec_215_las_vegas_llc.pdf",
+    "https://www.courtlistener.com/opinion/11068116/siegel-lv-n-strip-tolleson-llc-v-ec-215-las-vegas-llc/"
+   ],
+   "quotes": 21,
+   "confirmedByChecker": 20,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11068116/siegel-lv-n-strip-tolleson-llc-v-ec-215-las-vegas-llc/",
+     "https://storage.courtlistener.com/pdf/2026/11/21/siegel_lv_n._strip_tolleson_llc_v._ec_215_las_vegas_llc.pdf"
+    ]
+   }
   }
  }
 }
