@@ -1,5 +1,20 @@
 {
  "handled": {
+  "74927117:93:2026-11-19:order on motion to use cash collateral": {
+   "caseId": "live-265",
+   "at": "2026-11-22",
+   "action": "docket text only -- WebSearch found no secondary reporting on this Nov 19, 2026 order on the motion to use cash collateral (entry 93); added a timeline entry restating the docket text without changing status"
+  },
+  "74927117:95:2026-11-19:order on motion to sell": {
+   "caseId": "live-265",
+   "at": "2026-11-22",
+   "action": "docket text only -- WebSearch found no secondary reporting on this Nov 19, 2026 order on the motion to sell (entry 95); the docket does not show whether the $5M sale to Lundgren Equity was approved, so added a timeline entry restating the docket text only, without changing status or summary"
+  },
+  "74922581:56:2026-11-17:dismiss case": {
+   "caseId": "live-266",
+   "at": "2026-11-22",
+   "action": "docket text only -- WebSearch found no secondary reporting on this Nov 17, 2026 docket entry captioned \"Dismiss case\" (entry 56); CourtListener's docket metadata still shows no dateTerminated, and the docket text alone does not say whether this dismisses the whole Chapter 11 case, an adversary proceeding, or a motion, so added a timeline entry restating the docket text only, without changing status or summary"
+  },
   "73480976:71:2026-09-24:order on motion to dismiss and order on motion to dismiss and order on motion to set a briefing schedule": {
    "caseId": "live-004",
    "at": "2026-09-29",

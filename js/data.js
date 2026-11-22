@@ -7586,7 +7586,9 @@ const RELAW_DATA = {
         { when: "October 29, 2026", label: "Court extends interim cash collateral use and continues X-Caliber's motion to November 19" },
         { when: "November 2, 2026", label: "Debtor moves to sell the property for $5 million to affiliate Lundgren Equity Partners, LLC" },
         { when: "November 19, 2026", label: "Scheduled hearing on the sale, X-Caliber's motion and cash collateral" },
-        { when: "November 19, 2026", label: "Court enters order on motion for relief from stay/co-debtor stay (docket entry 92)", current: true }
+        { when: "November 19, 2026", label: "Court enters order on motion for relief from stay/co-debtor stay (docket entry 92)" },
+        { when: "November 19, 2026", label: "Court enters order on the motion to use cash collateral (docket entry 93)" },
+        { when: "November 19, 2026", label: "Court enters order on the motion to sell (docket entry 95)", current: true }
       ]
     },
     {
@@ -7635,7 +7637,8 @@ const RELAW_DATA = {
         { when: "October 15, 2026", label: "Court enters an interim order allowing use of cash collateral" },
         { when: "October 20, 2026", label: "ACORE files an emergency motion to dismiss the case" },
         { when: "October 30, 2026", label: "ACORE moves for relief from the automatic stay" },
-        { when: "November 12, 2026", label: "Court holds a hearing on cash collateral and ACORE's motions", current: true }
+        { when: "November 12, 2026", label: "Court holds a hearing on cash collateral and ACORE's motions" },
+        { when: "November 17, 2026", label: "Docket entry 56 is captioned \"Dismiss case\"", current: true }
       ]
     },
     {
