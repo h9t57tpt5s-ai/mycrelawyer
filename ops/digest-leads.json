@@ -1,4 +1,25 @@
 {
   "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
-  "leads": []
+  "leads": [
+    {
+      "found": "2026-11-22",
+      "title": "GO Residential REIT v. H&R Real Estate Investment Trust — C$102M break-fee suit over collapsed C$6.7B portfolio deal",
+      "urls": [
+        "https://www.cantechletter.com/newswires/go-residential-reit-announces-commencement-of-proceedings-against-hr-real-estate-investment-trust/",
+        "https://www.cantechletter.com/newswires/hr-reit-responds-to-go-residential-reit-statement-of-claim/"
+      ],
+      "why": "GO Residential REIT issued a Statement of Claim on 2026-11-13 in the Ontario Superior Court of Justice against H&R Real Estate Investment Trust, its trustees and others, seeking a C$102,131,000 termination fee plus other relief. The underlying C$6.7B arrangement would have had GO Residential (with partners) acquire a 27-property portfolio from H&R; H&R's unitholders voted down the deal and H&R treated the arrangement agreement as terminated without the fee being payable. H&R says it complied with its obligations and the claim is without merit. Not yet in js/data.js (checked by party name). Flagging for newsroom judgment on scope: this is REIT-vs-REIT litigation over a real estate portfolio M&A deal (likely category reit-securities) but the forum is Ontario, Canada, not a US state — no USPS state code applies if published.",
+      "eventDate": "2026-11-13"
+    },
+    {
+      "found": "2026-11-22",
+      "title": "NSI v. City of Springfield, Missouri — data center zoning moratorium suit, judge denies company's bid to lift ban",
+      "urls": [
+        "https://www.ky3.com/2026/11/10/judge-denies-companys-request-end-springfields-data-center-moratorium/",
+        "https://www.ky3.com/2026/11/17/springfield-city-council-extends-data-center-moratorium/"
+      ],
+      "why": "A judge ruled 2026-11-09 against NSI's bid to exempt its planned facility at 2900 South National Ave., Springfield, MO from the city's data center moratorium. NSI argued the site's zoning (administrative and professional offices, allowing 'data processing services') already permitted the use and that city planners had approved the project before the moratorium took effect; the city says the only application on file for that address describes a veterinary clinic. Springfield's City Council then voted 2026-11-16 to extend the moratorium to 2026-02-24. NSI has a parallel, still-pending suit against Benton County, MO over its own data center moratorium (TRO extended there in September 2026). Genuine zoning/land-use dispute between a business and two Missouri municipalities over commercial data-center development; likely category zoning-land-use. Not yet in js/data.js (checked). Caveat: only local TV-station (KY3) coverage found — NSI's full legal entity name, the court/case number, and the ruling judge's name were not in the search results and need a docket lookup before publishing.",
+      "eventDate": "2026-11-09"
+    }
+  ]
 }
