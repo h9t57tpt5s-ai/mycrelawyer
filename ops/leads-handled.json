@@ -2899,6 +2899,38 @@
     "opinion:11068163": {
       "at": "2026-11-21",
       "action": "skipped: residential mortgage foreclosure, individual homeowner (Cynthia Zalewski) vs US Bank Trust National Association as trustee re: foreclosure by advertisement of her Oakland County, MI home; opinion itself frames it as mortgage credit for 'purchasers seeking to realize the American dream of homeownership' -- defendant's 'Trust' token is part of the bank-trustee's formal name, not a business-entity party on the homeowner's side"
+    },
+    "https://www.courtlistener.com/docket/75149152/roque-estate-development-llc/": {
+      "at": "2026-11-22",
+      "action": "skipped: no coverage found explaining the filing (single-asset LLC Chapter 11 petition, no named sponsor/lender large enough to draw press coverage)"
+    },
+    "https://www.courtlistener.com/docket/75152275/pps-realty-800-george-st-llc/": {
+      "at": "2026-11-22",
+      "action": "skipped: no coverage found explaining the filing (single-asset LLC Chapter 11 petition, no named sponsor/lender large enough to draw press coverage)"
+    },
+    "https://www.courtlistener.com/docket/75149356/1906-poole-road-llc/": {
+      "at": "2026-11-22",
+      "action": "skipped: no coverage found explaining the filing (single-asset LLC Chapter 11 petition, no named sponsor/lender large enough to draw press coverage)"
+    },
+    "https://www.courtlistener.com/docket/75148383/41-24-associates-llc/": {
+      "at": "2026-11-22",
+      "action": "skipped: no coverage found explaining the filing (single-asset LLC Chapter 11 petition, no named sponsor/lender large enough to draw press coverage)"
+    },
+    "https://www.courtlistener.com/docket/75148215/3-beech-brook-developement-llc/": {
+      "at": "2026-11-22",
+      "action": "skipped: no coverage found explaining the filing (single-asset LLC Chapter 11 petition, no named sponsor/lender large enough to draw press coverage)"
+    },
+    "https://www.courtlistener.com/docket/75148215/3-beech-brook-development-llc/": {
+      "at": "2026-11-22",
+      "action": "skipped: no coverage found explaining the filing (single-asset LLC Chapter 11 petition, no named sponsor/lender large enough to draw press coverage)"
+    },
+    "https://www.courtlistener.com/docket/75148906/232-old-river-edge-nj-llc/": {
+      "at": "2026-11-22",
+      "action": "skipped: no coverage found explaining the filing (single-asset LLC Chapter 11 petition, no named sponsor/lender large enough to draw press coverage)"
+    },
+    "https://www.courtlistener.com/docket/75134925/2-hill-ave-llc/": {
+      "at": "2026-11-22",
+      "action": "skipped: no coverage found explaining the filing (single-asset LLC Chapter 11 petition, no named sponsor/lender large enough to draw press coverage)"
     }
   }
 }
