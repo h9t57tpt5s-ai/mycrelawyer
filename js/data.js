@@ -15033,6 +15033,80 @@ const RELAW_DATA = {
         { when: "June 2, 2026", label: "Appeal heard in the North Carolina Court of Appeals" },
         { when: "November 18, 2026", label: "Court of Appeals vacates the order and remands for the trial court to interpret the immunity waivers; Judge Tyson concurs in part and dissents in part", current: true }
       ]
+    },
+    {
+      id: "live-456",
+      seoTitle: "Ahwatukee Menlo Digital Data Center: $11M Claim Against Phoenix",
+      seoDescription: "Ahwatukee Community Alliance is filing an $11 million notice of claim against the City of Phoenix over the Menlo Digital data center under construction.",
+      property: {"name": "Menlo Digital data center", "address": null, "city": "Phoenix", "state": "AZ"},
+      addedDate: "2026-11-23",
+      title: "Ahwatukee Neighbors' $11 Million Notice of Claim Against Phoenix Over Menlo Digital Data Center",
+      brief: "Ahwatukee neighbors are filing an $11 million notice of claim against Phoenix, seeking to halt construction of a Menlo Digital data center. FOX 10 calls it a precursor to a possible lawsuit; the city said it cannot comment.",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-11-20",
+      jurisdiction: "Notice of claim to the City of Phoenix (no court filing reported)",
+      state: "AZ",
+      amount: "$11 million notice of claim",
+      source: "live",
+      sourceUrl: "https://www.fox10phoenix.com/news/homeowners-accuse-phoenix-backroom-deals-11-million-data-center-claim",
+      propertyType: "Data Center",
+      summary: "FOX 10 Phoenix reported that Ahwatukee residents are filing an $11 million notice of claim against the City of Phoenix to halt construction on a Menlo Digital hyperscale data center, with the notice filed Nov. 20, 2026. FOX 10 described the notice as a precursor to a possible lawsuit. The city told FOX 10 it cannot comment on pending litigation.",
+      significance: "According to FOX 10, once the notice is filed the group has 180 days to file an actual lawsuit. ABC15 reported that the residents intend to pursue litigation seeking to halt continued construction, and that they allege the city let the project proceed under older zoning approvals without requiring it to comply with newer data center regulations.",
+      body: [
+        "FOX 10 Phoenix reported that a handful of Ahwatukee residents are filing an $11 million notice of claim against the City of Phoenix to halt construction on a Menlo Digital hyperscale data center, and that the notice was being filed Nov. 20, 2026. ABC15 reported that the notice is on behalf of the Ahwatukee Community Alliance and affected residents, and that the data center is under construction near 48th Street and Thistle Landing Drive.",
+        "According to FOX 10, the notice asks for $1 million split between two households over loss of property value and $10 million in nuisance damages going to neighbors in the Ahwatukee Community Alliance group. ABC15 reported that residents allege the city allowed the project to proceed under older zoning approvals without requiring it to comply with newer regulations governing data centers.",
+        "FOX 10 described the notice of claim as a precursor to a possible lawsuit and reported that the group has 180 days after it is filed to file an actual lawsuit. FOX 10 reported that the City of Phoenix said it cannot comment on pending litigation; ABC15 said it had reached out to the city for comment. Neither report includes a response from Menlo Digital."
+      ],
+      tags: ["data center", "notice of claim", "phoenix", "zoning", "nuisance"],
+      parties: [
+        { name: "Ahwatukee Community Alliance", role: "Claimant" },
+        { name: "City of Phoenix", role: "Respondent" },
+        { name: "Menlo Digital", role: "Data center developer (not named as a respondent)" }
+      ],
+      judge: null,
+      amountUsd: 11000000,
+      amountBasis: "claim",
+      timeline: [
+        { when: "November 20, 2026", label: "$11 million notice of claim against the City of Phoenix over the Menlo Digital data center, per FOX 10 Phoenix; the city says it cannot comment on pending litigation", current: true }
+      ]
+    },
+    {
+      id: "live-457",
+      seoTitle: "Stanford Shopping Center Zaytinya Eviction: Simon Sues Over $2M Rent",
+      seoDescription: "Simon Property Group sued the companies behind Zaytinya at Stanford Shopping Center in Palo Alto, seeking possession and about $2 million in unpaid rent.",
+      property: {"name": "Stanford Shopping Center", "address": "180 El Camino Real", "city": "Palo Alto", "state": "CA"},
+      addedDate: "2026-11-23",
+      title: "Simon Property Group Sues to Evict Zaytinya From Stanford Shopping Center Over About $2 Million in Claimed Rent",
+      brief: "Simon Property Group sued the companies behind Zaytinya on Nov. 17 in Santa Clara County Superior Court, seeking possession of the restaurant's space at Stanford Shopping Center and about $2 million in claimed unpaid rent and other charges.",
+      category: "lease-disputes",
+      status: "filed",
+      date: "2026-11-17",
+      jurisdiction: "Santa Clara County Superior Court",
+      state: "CA",
+      amount: "About $2 million in claimed unpaid rent and other charges",
+      source: "live",
+      sourceUrl: "https://padailypost.com/2026/11/21/stanford-shopping-center-sues-to-evict-celebrity-chef-jose-andres-restaurant/",
+      propertyType: "Retail",
+      summary: "The Palo Alto Daily Post reported that Simon Property Group sued the companies behind Zaytinya, a restaurant at Stanford Shopping Center, alleging unpaid rent. A report published by Dining and Cooking says the suit was filed Nov. 17 in Santa Clara County Superior Court, alleges the restaurant owes about $2 million in unpaid rent and other charges, and seeks possession of the space and forfeiture of the lease. Zaytinya representatives did not return the Daily Post's request for comment.",
+      significance: "According to the reports, the landlord is seeking possession of the space and forfeiture of a 10-year lease, along with the claimed arrears, from a restaurant that opened at the mall in December 2025. The complaint, as reported, relies on a notice of default in September and a three-day notice to pay rent or quit served Nov. 11.",
+      body: [
+        "The Palo Alto Daily Post reported that Simon Property Group filed a lawsuit against the companies behind Zaytinya, a Mediterranean restaurant that opened at Stanford Shopping Center in December 2025. A report published by Dining and Cooking, which credits the Daily Post with first reporting the filing, says the suit was filed Nov. 17 in Santa Clara County Superior Court and alleges the restaurant owes about $2 million in unpaid rent and other charges.",
+        "According to the Dining and Cooking report, the lawsuit seeks possession of the restaurant space, forfeiture of the lease and payment of the outstanding amount, plus attorneys' fees and other damages. It says the complaint alleges the restaurant's operators failed to pay after receiving a notice of default in September and a three-day notice to pay rent or quit on Nov. 11, and that the three-day period expired Nov. 16 without the landlord receiving what it says was the full amount due.",
+        "The Daily Post reported that the 10-year lease started at $96,834 per month, plus a portion of the restaurant's sales, and that the restaurant is at 180 El Camino Real. Zaytinya representatives did not return the Daily Post's request for comment."
+      ],
+      tags: ["retail lease", "commercial eviction", "shopping center", "unpaid rent", "restaurant tenant"],
+      parties: [
+        { name: "Simon Property Group", role: "Landlord / Plaintiff" },
+        { name: "Zaytinya", role: "Tenant restaurant (the companies behind it are the defendants)" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "September 2026", label: "Notice of default, according to the complaint as reported" },
+        { when: "November 11, 2026", label: "Three-day notice to pay rent or quit, according to the complaint as reported" },
+        { when: "November 17, 2026", label: "Simon Property Group sues the companies behind Zaytinya in Santa Clara County Superior Court, seeking possession and about $2 million", current: true }
+      ]
     }
   ],
 

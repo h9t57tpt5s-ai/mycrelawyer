@@ -769,6 +769,42 @@
      "https://www.carolinajournal.com/appeals-court-sends-catawba-casino-dispute-back-to-trial-judge/"
     ]
    }
+  },
+  "live-456": {
+   "verifiedOn": "2026-11-23",
+   "sourceUrl": "https://www.fox10phoenix.com/news/homeowners-accuse-phoenix-backroom-deals-11-million-data-center-claim",
+   "urls": [
+    "https://www.abc15.com/news/local-news/ahwatukee-residents-will-seek-11-million-from-phoenix-over-data-center-construction",
+    "https://www.fox10phoenix.com/news/homeowners-accuse-phoenix-backroom-deals-11-million-data-center-claim"
+   ],
+   "quotes": 10,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.fox10phoenix.com/news/homeowners-accuse-phoenix-backroom-deals-11-million-data-center-claim",
+     "https://www.abc15.com/news/local-news/ahwatukee-residents-will-seek-11-million-from-phoenix-over-data-center-construction"
+    ]
+   }
+  },
+  "live-457": {
+   "verifiedOn": "2026-11-23",
+   "sourceUrl": "https://padailypost.com/2026/11/21/stanford-shopping-center-sues-to-evict-celebrity-chef-jose-andres-restaurant/",
+   "urls": [
+    "https://padailypost.com/2026/11/21/stanford-shopping-center-sues-to-evict-celebrity-chef-jose-andres-restaurant/",
+    "https://www.diningandcooking.com/2901239/jose-andres-stanford-shopping-center-restaurant-faces-eviction/"
+   ],
+   "quotes": 10,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://padailypost.com/2026/11/21/stanford-shopping-center-sues-to-evict-celebrity-chef-jose-andres-restaurant/",
+     "https://www.diningandcooking.com/2901239/jose-andres-stanford-shopping-center-restaurant-faces-eviction/"
+    ]
+   }
   }
  }
 }
