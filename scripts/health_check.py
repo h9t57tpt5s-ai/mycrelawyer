@@ -51,6 +51,10 @@ WORKFLOWS = {
     "market-pulse.yml": "Bank CRE Stress credit indicators (FDIC Call Reports, FRED)",
     "nyc-distress.yml": "NYC commercial distress (ACRIS referee's deeds, feeds Distress Radar)",
     "radar-alerts.yml": "Distress Radar alert emails",
+    # Added 2026-11-23: two more scheduled jobs that had never been added
+    # here, found by diffing .github/workflows/ against this dict directly.
+    "court-feeds.yml": "Court opinion feeds (CourtListener per-court feeds, 4x/day, feeds the news digest)",
+    "welcome-email.yml": "Welcome email for new sign-ups",
 }
 # GitHub starts scheduled runs up to ~4 hours late, so allow for it.
 MAX_AGE_HOURS = {"surveillance": 18, "fresh filings": 18, "docket activity": 32}

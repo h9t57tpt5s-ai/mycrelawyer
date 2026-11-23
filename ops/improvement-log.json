@@ -1563,7 +1563,16 @@
         "leadsReviewedTotal": 479
       },
       "checkAfter": "2026-11-23",
-      "status": "watching"
+      "status": "no clear effect",
+      "verdict": {
+        "date": "2026-11-23",
+        "value": {
+          "leadsToMattersRatio7": 0.0261,
+          "leadsReviewedWindow7": 153,
+          "leadsToMattersWindow7": 4
+        },
+        "note": "Re-judged via leadsToMattersRatio7 per imp-065 own instruction (the raw totals baseline here only ever grows). Day-by-day reconstruction from ops/leads-handled.json (trailing 7-day ratio computed for every day 2026-10-26..2026-11-23) shows the ratio actually rose from 0.070 (2026-11-09, the day imp-063 shipped) to a peak of ~0.122 on 2026-11-13, stayed in the 0.10-0.11 band through 2026-11-17, then collapsed sharply starting 2026-11-18-20 (0.0625 -> 0.0341 -> 0.0108) for a reason unrelated to this change (imp-079, logged 2026-11-17, found 65% of that week's opinion leads were truncated at pull_opinions.py's 12,000-char MAX_TEXT and correctly skipped -- a spike in correctly-skipped-but-unmatched leads, not a drop in real conversion quality). The decline postdates imp-063 by over a week and the metric moved in the opposite direction immediately after shipping, so not attributable to this change."
+      }
     },
     {
       "id": "imp-064",
@@ -1616,7 +1625,16 @@
         "leadsToMattersRatio7": 0.0685
       },
       "checkAfter": "2026-11-23",
-      "status": "watching"
+      "status": "no clear effect",
+      "verdict": {
+        "date": "2026-11-23",
+        "value": {
+          "leadsToMattersRatio7": 0.0261,
+          "leadsReviewedWindow7": 153,
+          "leadsToMattersWindow7": 4
+        },
+        "note": "Same evidence as imp-063 above (imp-065 only added the measurement function; it is not itself an intervention expected to move the ratio). Baseline 0.0685 (2026-11-10) -> now 0.0261 clears the 25% threshold and the 28-day trend agrees with the direction, but the day-by-day reconstruction shows the ratio rose for a week after this shipped and only collapsed after 2026-11-17 for the unrelated opinion-leads-truncation reason (imp-079) -- not attributable to this change. The new leadsToMattersRatio7 metric itself is working as designed (correctly surfacing the real decline for G23/imp-063 to be judged against, replacing the always-rising cumulative totals) -- that part is a genuine improvement, just not something with a before/after to call helped/hurt."
+      }
     },
     {
       "id": "imp-066",
@@ -1968,8 +1986,13 @@
       "window": "n/a - awaiting Jeff's review",
       "baseline": {},
       "checkAfter": "2026-11-23",
-      "status": "watching",
-      "note": "NEEDS JEFF: G15 now has 9 concrete decisions. No code changed (Jeff-gated, not cloud-deployable). site_audit.py and check_case_fields.py both re-run clean (no HTML/TS/JS touched, so tag-balance/deno checks do not apply); reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule."
+      "status": "no clear effect",
+      "note": "NEEDS JEFF: G15 now has 9 concrete decisions. No code changed (Jeff-gated, not cloud-deployable). site_audit.py and check_case_fields.py both re-run clean (no HTML/TS/JS touched, so tag-balance/deno checks do not apply); reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule.",
+      "verdict": {
+        "date": "2026-11-23",
+        "value": {},
+        "note": "Checked ops/calculator-proposals.md directly: no annotation, decision marker or edit from Jeff on the 2026-11-16 entry (G15 decision 9) or the decision-summary index (added 2026-11-19, imp-083) -- still nine open decisions, none reviewed. Same Jeff-review gridlock as every prior calculator-proposals.md watcher."
+      }
     },
     {
       "id": "imp-078",
