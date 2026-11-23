@@ -1,7 +1,26 @@
 {
- "updatedAt": "2026-11-23T03:03:28+00:00",
+ "updatedAt": "2026-11-23T22:55:19+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "265100518694",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-20",
+   "caseName": "Live Oak Number One, Inc., successors and assigns v. WESTFIELD COMMERCE PROPERTIES, LLC",
+   "plaintiffs": [
+    "Live Oak Number One, Inc., successors and assigns"
+   ],
+   "defendants": [
+    "WESTFIELD COMMERCE PROPERTIES, LLC"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "live-oak-number-one-inc-successors-and-assigns-v-westfield-commerce-pr-tx-harris-265100518694"
+  },
   {
    "source": "fulton_ga",
    "state": "GA",

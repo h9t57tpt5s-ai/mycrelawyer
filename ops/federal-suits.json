@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-11-23T03:02:33+00:00",
+ "updatedAt": "2026-11-23T22:54:20+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Brookville Gardens Development, LLC v. NEF FRE Affordable Housing Fund, L.P.",
+   "court": "District Court, N.D. Mississippi",
+   "courtId": "msnd",
+   "docketNumber": "3:26-cv-00371",
+   "dateFiled": "2026-11-21",
+   "docketUrl": "https://www.courtlistener.com/docket/75157544/brookville-gardens-development-llc-v-nef-fre-affordable-housing-fund/",
+   "docketId": 75157544,
+   "suitNature": "",
+   "cause": "",
+   "slug": "brookville-gardens-development-llc-v-nef-fre-affordable-housing-fund-l-msnd-3-26-cv-00371",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Wilmington Trust, National Association, as Trustee, for the Benefit of the Holders of Corevest American Finance 2022-P2 Trust Mortgage Pass-Through Certificates v. 1361 Realty Holdings LLC",
    "court": "District Court, S.D. New York",
