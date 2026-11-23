@@ -15148,6 +15148,43 @@ const RELAW_DATA = {
         { when: "September 12, 2025", label: "Law Division dismisses the complaint with prejudice", current: false },
         { when: "November 23, 2026", label: "Appellate Division affirms", current: true }
       ]
+    },
+    {
+      id: "live-459",
+      seoTitle: "Haleiwa Town Center: Hawaii Supreme Court Revives Lease Claims",
+      seoDescription: "Hawaii Supreme Court holds the Haleiwa Town Center tenant stated breach of contract and good-faith claims against Kamehameha Schools over quiet enjoyment.",
+      property: {"name": "Haleiwa Town Center", "address": null, "city": "Hale‘iwa", "state": "HI"},
+      addedDate: "2026-11-23",
+      title: "Haleiwa Town Center v. Trustees of the Estate of Bernice Pauahi Bishop: Hawaii Supreme Court Revives Tenant's Lease Claims",
+      brief: "Hawaii Supreme Court held the Haleiwa Town Center tenant stated breach-of-contract and implied-covenant claims against its landlord, Kamehameha Schools, and sent the case back to the trial court.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-23",
+      jurisdiction: "Hawaii Supreme Court",
+      state: "HI",
+      amount: "Not stated",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11069217/haleiwa-town-center-v-trustees-of-the-estate-of-bernice-pauahi-bishop/",
+      propertyType: "Retail",
+      summary: "The Hawaii Supreme Court ruled that the tenant of the Haleiwa Town Center on O‘ahu stated viable claims for breach of contract and breach of the implied covenant of good faith and fair dealing against its landlord, based on the lease's quiet enjoyment provision. The court left in place the dismissal of the tenant's unfair competition claim and sent the case back to the Circuit Court.",
+      significance: "The court held that the tenant's claims resting on the lease's quiet enjoyment provision should not have been dismissed at the pleading stage. It also held that no party has yet prevailed, so the landlord was not entitled to the attorneys' fees and costs the Intermediate Court of Appeals had awarded it.",
+      body: [
+        "The Hawaii Supreme Court, in an opinion by Justice Ginoza, reviewed the dismissal of a suit by Haleiwa Town Center, LLC, which leases the Haleiwa Town Center from the Trustees of the Estate of Bernice Pauahi Bishop, also known as Kamehameha Schools. According to the opinion, the tenant's First Amended Complaint alleges that the landlord tried to shift its kuleana access obligations onto the tenant, made conflicting representations about whether a historic lane was on the tenant's property, and encroached on the tenant's property during construction. The only lease provision the complaint relies on is the quiet enjoyment provision. The Supreme Court said the trial court was required to accept the allegations as true and held that the complaint asserts viable claims for breach of contract and breach of the implied covenant of good faith and fair dealing.",
+        "The Supreme Court held that the tenant's unfair competition claim was properly dismissed. It also held that the Circuit Court should have allowed the tenant to file its proposed Second Amended Complaint, which adds factual allegations supporting the two surviving claims.",
+        "On fees, the court held that because there is no prevailing party at this stage, the Intermediate Court of Appeals erred by vacating the Circuit Court's denial of the landlord's request for fees and costs and by awarding the landlord fees and costs on appeal. The court vacated the appeals court's judgment in part and remanded the case to the Circuit Court."
+      ],
+      tags: ["commercial lease", "quiet enjoyment", "retail", "hawaii supreme court", "kamehameha schools"],
+      parties: [
+        { name: "Haleiwa Town Center, LLC", role: "Plaintiff (tenant)" },
+        { name: "Trustees of the Estate of Bernice Pauahi Bishop (Kamehameha Schools)", role: "Defendant (landlord)" }
+      ],
+      judge: "Ginoza",
+      amountUsd: null,
+      timeline: [
+        { when: "February 7, 2020", label: "Tenant files its First Amended Complaint against the landlord", current: false },
+        { when: "April 13, 2020", label: "Circuit Court grants the landlord's motion to dismiss", current: false },
+        { when: "November 23, 2026", label: "Hawaii Supreme Court holds two of the tenant's three claims viable, leaves the unfair competition claim dismissed, and remands", current: true }
+      ]
     }
   ],
 

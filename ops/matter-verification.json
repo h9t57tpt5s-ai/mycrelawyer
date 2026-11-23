@@ -821,6 +821,22 @@
      "https://www.courtlistener.com/opinion/11069005/planet-shred-records-management-llc-v-2301-atlantic-avenue-llc/"
     ]
    }
+  },
+  "live-459": {
+   "verifiedOn": "2026-11-23",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11069217/haleiwa-town-center-v-trustees-of-the-estate-of-bernice-pauahi-bishop/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11069217/haleiwa-town-center-v-trustees-of-the-estate-of-bernice-pauahi-bishop/"
+   ],
+   "quotes": 16,
+   "confirmedByChecker": 16,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11069217/haleiwa-town-center-v-trustees-of-the-estate-of-bernice-pauahi-bishop/"
+    ]
+   }
   }
  }
 }

@@ -1,15 +1,4 @@
 {
   "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
-  "leads": [
-    {
-      "found": "2026-11-23",
-      "title": "Haleiwa Town Center v. Trustees of the Estate of Bernice Pauahi Bishop (Hawaii Supreme Court reinstates shopping-center tenant's lease claims against Kamehameha Schools)",
-      "urls": [
-        "https://www.courtlistener.com/opinion/11069217/haleiwa-town-center-v-trustees-of-the-estate-of-bernice-pauahi-bishop/",
-        "https://www.courts.state.hi.us/wp-content/uploads/2026/11/SCWC-20-0000586.pdf"
-      ],
-      "why": "Hawaii Supreme Court opinion decided today (Nov 23, 2026), SCWC-20-0000586, a genuine commercial real estate primary source (full holding is within the stored excerpt even though the opinion runs to 85,788 characters and the stored text is truncated at 12,000). Haleiwa Town Center, LLC (HTC), the long-term ground lessee operating the Haleiwa Town Center shopping center on O'ahu, sued its landlord, the Trustees of the Estate of Bernice Pauahi Bishop aka Kamehameha Schools (KS), over KS's adjacent Hale'iwa Store Lots development: HTC alleged KS misrepresented where a historic access lane (Kewalo Lane) sat relative to HTC's leased premises, tried to push kuleana-owner access obligations onto HTC's property, and encroached onto HTC's leased lot and parking during construction, all breaching the lease's quiet-enjoyment clause. The circuit court had dismissed HTC's complaint and the Intermediate Court of Appeals affirmed; the Supreme Court now holds HTC stated viable breach-of-contract and breach-of-the-implied-covenant-of-good-faith-and-fair-dealing claims (though not its unfair-competition claim), vacates the ICA's award of appellate attorneys' fees to KS since there is no prevailing party yet, and remands to circuit court for further proceedings. Business entities on both sides (HTC and KS); Hawaii has only 2 other tracked matters in js/data.js, so this also helps the site's geographic-diversity gap. Checked js/data.js: not already tracked.",
-      "eventDate": "2026-11-23"
-    }
-  ]
+  "leads": []
 }
