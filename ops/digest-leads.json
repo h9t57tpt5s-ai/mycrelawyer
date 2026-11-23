@@ -1,4 +1,26 @@
 {
   "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
-  "leads": []
+  "leads": [
+    {
+      "found": "2026-11-23",
+      "title": "Planet Shred Records Management LLC v. 2301 Atlantic Avenue LLC (NJ Appellate Division affirms dismissal of tenant's suit against its warehouse/office landlord)",
+      "urls": [
+        "https://www.courtlistener.com/opinion/11069005/planet-shred-records-management-llc-v-2301-atlantic-avenue-llc/",
+        "https://storage.courtlistener.com/pdf/2026/11/23/planet_shred_records_management_llc_v._2301_atlantic_avenue_llc.pdf"
+      ],
+      "why": "New Jersey Appellate Division opinion decided today (Nov 23, 2026) affirms dismissal of a commercial tenant's suit against its Wall Township warehouse/office landlord. Plaintiffs Planet Shred Records Management LLC and Planet Shred LLC (records-storage/shredding business) sued defendants 2301 Atlantic Avenue LLC and JD Commercial & Industrial Properties LLC over a rent dispute, after an earlier landlord-tenant eviction action was resolved by a September 27, 2024 consent judgment (tenant paid $51,032.28, agreed to vacate by March 31, 2025). The panel held the consent judgment operated as an accord and satisfaction barring the tenant's later claims (duress/economic coercion, breach of the implied covenant of good faith and fair dealing, wrongful eviction, NJ Consumer Fraud Act). Full opinion text is a usable primary source (stored in ops/opinion-leads.json, key 11069005, matchedTerms industrial/landlord/warehouse, textChars 18457 vs. 12000 stored -- the holding and full factual background are within the stored excerpt even though it's truncated near the end of the legal discussion). Business entities on both sides; two individuals (Victor P. Iorio, Robert Manetta) are named in the caption as property manager/an occupant's president and should be left out of any published parties list per the no-individuals rule. Checked js/data.js: not already tracked.",
+      "eventDate": "2026-11-23"
+    },
+    {
+      "found": "2026-11-23",
+      "title": "Caruthers v. Sangamon County Board (Illinois circuit court reportedly dismisses challenge to CyrusOne data center conditional-use permit)",
+      "urls": [
+        "https://www.afslaw.com/perspectives/energy-cleantech-counsel/illinois-voters-push-back-data-centers-courts-uphold-local",
+        "https://www.springfieldbusinessjournal.com/news/waverly-residents-sue-sangamon-county-over-approval-of-data-center-project/",
+        "https://www.illinoistimes.com/news/sangamon-county-approves-data-center/"
+      ],
+      "why": "A law firm client alert (AFSLaw, 'Illinois Voters Push Back on Data Centers as Courts Uphold Local Approvals') states that on November 6, 2026 the Sangamon County, IL circuit court dismissed, applying rational-basis review, a challenge to the Sangamon County Board's April 2026 approval of a conditional-use permit for CyrusOne's roughly $500 million, ~280-acre data center campus near Waverly, IL. The underlying suit -- filed July 6, 2026 by several Waverly-area residents (including the Caruthers family) against Sangamon County and the County Board -- was reported at the time by Illinois Times and the Springfield Business Journal. WebSearch alone could not locate a second outlet's or the plaintiffs' own account of the November 6 dismissal, or the docket itself, to corroborate the AFSLaw summary (this environment cannot open web pages to verify further) -- flagging as a lead needing verification, not a confirmed matter. Significant if confirmed: major data-center operator, large commercial/industrial zoning dispute, Illinois is a thin state in js/data.js. Checked js/data.js: not already tracked.",
+      "eventDate": "2026-11-06"
+    }
+  ]
 }

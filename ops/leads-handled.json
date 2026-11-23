@@ -2955,6 +2955,26 @@
     "search:court-rulings-beat-2026-11-23-12utc": {
       "at": "2026-11-23",
       "action": "skipped: 12:00 UTC court-rulings beat -- two rounds of WebSearch (state supreme/appeals courts, business courts, CMBS/receivership, construction lien, ground lease, landlord-tenant, property tax, eminent domain) turned up only already-published matters (Holmwood Capital Advisors v. HC Government Realty Holdings -- already live in js/data.js; Sinmier v. Everest Indemnity -- already live in js/data.js) or stale/thin items (Carnegie House ground-lease arbitration Sept 2026; Chrysler Building/RFR v. Cooper Union 2024-2025; Kimpton Surfcomber Miami Beach Aug 2025; Duluth MN parking-ramp tax case is a Nov 9 2026 petition for review, not a ruling; Lucas Museum construction-lien ruling is tentative only); no new candidate cleared the bar. All automated feeds (opinion-leads, federal-suits, sec-litigation-leads, securities-suit-leads, fresh-filings, docket-activity) were already fully triaged by an earlier run today -- nothing unhandled found in any of them"
+    },
+    "opinion:11069005": {
+      "at": "2026-11-23",
+      "action": "lead queued in ops/digest-leads.json (Planet Shred Records Management LLC v. 2301 Atlantic Avenue LLC, NJ App. Div., decided today, affirms dismissal of commercial tenant warehouse lease suit)"
+    },
+    "search:caruthers-sangamon-county-cyrusone-dismissal": {
+      "at": "2026-11-23",
+      "action": "lead queued in ops/digest-leads.json, flagged needs-verification (Nov 6 2026 circuit court dismissal of challenge to CyrusOne data center conditional-use permit near Waverly, IL -- sourced only to one law-firm client alert, could not independently confirm via WebSearch)"
+    },
+    "search:trenton-ohio-prologis-data-center-nov-2026": {
+      "at": "2026-11-23",
+      "action": "skipped: duplicate of existing matter live-403 (Prologis v. City of Trenton, Ohio), already published and up to date with the Nov 12 2026 federal filing over the Issue 17 data center ban"
+    },
+    "search:springfield-mo-data-center-moratorium-nov-2026": {
+      "at": "2026-11-23",
+      "action": "skipped: duplicate -- NSI, A.1 LLC v. City of Springfield already tracked and already updated with the Nov. 2026 denial of the preliminary injunction (SBJ/KY3 reporting)"
+    },
+    "search:leasing-development-beat-2026-11-23-17utc": {
+      "at": "2026-11-23",
+      "action": "skipped: 17:00 UTC leasing-and-development beat -- additional rounds of WebSearch (commercial landlord-tenant lawsuits, ground lease disputes, data center/warehouse zoning and moratoria, mechanics' lien suits on commercial construction, eminent domain, office tower evictions) turned up only already-published matters (Prologis v. Trenton, NSI v. Springfield), stale items from earlier in 2026 (Carnegie House, Thakkar/Safehold, Cornell v. Graduate Hotel, Kimpton Surfcomber, Boca Raton pizza lease, Fargo coffee shop, Prudential Plaza/Rosebud, One Cal Plaza, 135 W 50th St), or a residential condo insurance-coverage suit (James River v. Chelsea condo, out of scope -- residential). All automated feed files (fresh-filings, federal-suits, sec-litigation-leads, securities-suit-leads, docket-activity, opinion-leads) were confirmed already fully triaged by the earlier 12:00 UTC run today, except one opinion-lead (11069005) that arrived after that run and is queued above."
     }
   }
 }
