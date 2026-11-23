@@ -15107,6 +15107,47 @@ const RELAW_DATA = {
         { when: "November 11, 2026", label: "Three-day notice to pay rent or quit, according to the complaint as reported" },
         { when: "November 17, 2026", label: "Simon Property Group sues the companies behind Zaytinya in Santa Clara County Superior Court, seeking possession and about $2 million", current: true }
       ]
+    },
+    {
+      id: "live-458",
+      seoTitle: "Wall Township Warehouse Lease: N.J. Court Upholds Tenant Suit Dismissal",
+      seoDescription: "New Jersey Appellate Division affirms dismissal of a Wall Township office/warehouse tenant's suit against its landlord, citing a 2024 consent judgment.",
+      property: {"name": null, "address": null, "city": "Wall Township", "state": "NJ"},
+      addedDate: "2026-11-23",
+      title: "Planet Shred Records Management LLC v. 2301 Atlantic Avenue LLC: N.J. Appellate Division Upholds Dismissal of Wall Township Warehouse Tenant's Suit After Consent Judgment",
+      brief: "N.J. Appellate Division affirms dismissal of two shredding companies' suit against their Wall Township office/warehouse landlord, holding a 2024 consent judgment in the earlier eviction case was an accord and satisfaction.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-23",
+      jurisdiction: "Superior Court of New Jersey, Appellate Division",
+      state: "NJ",
+      amount: "$51,032.28 consent-judgment payment",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11069005/planet-shred-records-management-llc-v-2301-atlantic-avenue-llc/",
+      propertyType: "Industrial",
+      summary: "On November 23, 2026, the New Jersey Appellate Division affirmed the dismissal of a suit by two records-management and shredding companies against the owners of their Wall Township commercial office and warehouse space. The court held that a September 27, 2024 consent judgment from an earlier landlord-tenant action operated as an accord and satisfaction. The opinion is unpublished.",
+      significance: "The ruling shows a New Jersey appeals court treating a negotiated consent judgment in a commercial eviction case as resolving the known claims from the tenancy, so a tenant that signed it could not later sue over the same dispute. The panel's opinion is marked not for publication and is binding only on the parties.",
+      body: [
+        "The Appellate Division, in an unpublished per curiam opinion by Judges Natali and Jablonski, affirmed a September 12, 2025 order of the Law Division in Monmouth County dismissing the complaint of Planet Shred Records Management LLC and Planet Shred LLC with prejudice. The complaint asserted claims for declaratory relief, breach of contract, breach of the implied covenant of good faith and fair dealing, wrongful eviction, and violations of the New Jersey Consumer Fraud Act. The trial court concluded those claims were barred by a September 27, 2024 consent judgment entered in an earlier landlord-tenant action.",
+        "According to the opinion, the earlier action sought $101,598.96 in additional rent, late charges, and interest. Under the consent judgment, the tenants agreed to pay a reduced sum of $51,032.28 and to vacate by March 31, and the defendants obtained a judgment for possession with removal not to be carried out before April 1, 2025. The tenants filed the new suit in July 2025.",
+        "The tenants argued on appeal that the consent judgment was entered under duress and economic coercion. The court was unpersuaded, holding that the consent judgment unequivocally operated as an accord and satisfaction because it resolved the parties' known claims arising out of the tenancy. It also said the complaint and the motion record did not plead facts sufficient to establish duress or economic coercion, a breach of the implied covenant, or a Consumer Fraud Act violation, and that repleading would not cure those deficiencies."
+      ],
+      tags: ["commercial lease", "consent judgment", "accord and satisfaction", "new jersey", "warehouse"],
+      parties: [
+        { name: "Planet Shred Records Management LLC", role: "Plaintiff/Appellant (tenant)" },
+        { name: "Planet Shred LLC", role: "Plaintiff/Appellant (tenant)" },
+        { name: "2301 Atlantic Avenue LLC", role: "Defendant/Respondent (property owner)" },
+        { name: "JD Commercial & Industrial Properties, LLC", role: "Defendant/Respondent (property owner)" }
+      ],
+      judge: "Natali",
+      amountUsd: 51032.28,
+      amountBasis: "settlement",
+      timeline: [
+        { when: "September 27, 2024", label: "Parties sign a consent judgment in the landlord-tenant action: tenants pay a reduced $51,032.28 and agree to vacate by March 31", current: false },
+        { when: "July 2025", label: "Tenants file a separate lawsuit against the property owners", current: false },
+        { when: "September 12, 2025", label: "Law Division dismisses the complaint with prejudice", current: false },
+        { when: "November 23, 2026", label: "Appellate Division affirms", current: true }
+      ]
     }
   ],
 

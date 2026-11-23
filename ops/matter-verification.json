@@ -805,6 +805,22 @@
      "https://www.diningandcooking.com/2901239/jose-andres-stanford-shopping-center-restaurant-faces-eviction/"
     ]
    }
+  },
+  "live-458": {
+   "verifiedOn": "2026-11-23",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11069005/planet-shred-records-management-llc-v-2301-atlantic-avenue-llc/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11069005/planet-shred-records-management-llc-v-2301-atlantic-avenue-llc/"
+   ],
+   "quotes": 14,
+   "confirmedByChecker": 14,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11069005/planet-shred-records-management-llc-v-2301-atlantic-avenue-llc/"
+    ]
+   }
   }
  }
 }
