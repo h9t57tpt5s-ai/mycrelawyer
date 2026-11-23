@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-22",
+  lastUpdatedDate: "2026-11-23",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -14993,6 +14993,45 @@ const RELAW_DATA = {
         { when: "July 10, 2024", label: "Eighth Judicial District Court (Clark County) grants preliminary injunction requiring removal of the fence and gate system" },
         { when: "April 28, 2025", label: "District court denies reconsideration but limits removal to the portion subject to the Parking Easement Agreement" },
         { when: "November 20, 2026", label: "Nevada Supreme Court affirms in an order of affirmance", current: true }
+      ]
+    },
+    {
+      id: "live-455",
+      seoTitle: "Kings Mountain Casino Land Suit: N.C. Appeals Court Vacates Ruling",
+      seoDescription: "N.C. Court of Appeals vacates a sovereign immunity dismissal in Kings Mountain Land Development Partners' trespass and easement suit against the Catawbas.",
+      property: {"name": null, "address": null, "city": "Kings Mountain", "state": "NC"},
+      addedDate: "2026-11-23",
+      title: "Kings Mountain Land Development Partners, LLC v. Catawba Indian Nation: North Carolina Court of Appeals Vacates Sovereign Immunity Dismissal in Trespass and Easement Suit Over Land Around the Tribe's Kings Mountain Casino",
+      brief: "The North Carolina Court of Appeals vacated an order that dismissed, on sovereign immunity grounds, all or part of every non-easement claim in a land developer's trespass suit against the Catawba Indian Nation over casino construction.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-18",
+      jurisdiction: "North Carolina Court of Appeals",
+      state: "NC",
+      amount: "No dollar amount stated",
+      source: "live",
+      sourceUrl: "https://turtletalk.blog/wp-content/uploads/2026/11/Opinion.pdf",
+      propertyType: "Land/Development",
+      summary: "In an opinion filed November 18, 2026, the North Carolina Court of Appeals vacated a Cleveland County Superior Court order that had dismissed each of Kings Mountain Land Development Partners, LLC's claims against the Catawba Indian Nation, in whole or in part, except the claims pertaining to easements. The majority said the order did not decide which claims fall within the limited waivers of sovereign immunity in the parties' agreements and sent the case back for the trial court to decide that. Judge Tyson concurred in part and dissented in part.",
+      significance: "The appeal concerns how far a tribe's limited waiver of sovereign immunity, written into easement and restrictive covenant agreements with a private land developer, reaches beyond the express terms of those agreements. The majority reviewed the waivers under North Carolina contract interpretation principles and left their scope for the trial court to decide on remand. The dissent would have dismissed the appeal as interlocutory and said the trial court properly dismissed the tort and statutory claims.",
+      body: [
+        "Kings Mountain Land Development Partners, LLC sued the Catawba Indian Nation on October 3, 2024, alleging continuing trespass, recurring trespass, conversion, breach of a stormwater easement, breach of a temporary construction easement and unfair and deceptive trade practices, and seeking injunctive relief. According to the opinion, which treats the complaint's allegations as true only for purposes of the appeal, the tribe bought a 17-acre parcel from the company in 2018 and opened a temporary casino there in July 2021, and the company later conveyed a second tract to the tribe for use as a surface parking lot. The parties signed a temporary construction easement agreement, an easement agreement and an agreement of restrictive covenants, in which the tribe agreed not to build a parking structure or garage on that tract for twenty-five years. Each agreement contains a limited waiver of the tribe's sovereign immunity for any claim \"directly or indirectly related to\" the agreement or the transactions it contemplates. Carolina Journal reported that the company sued over disagreements about the tribe's use of easements to build the casino and a parking deck.",
+        "The tribe moved to dismiss every claim except the two easement claims, arguing the rest were barred by sovereign immunity except to the extent they relate directly or indirectly to the easements and fall within its waiver. On July 9, 2025, the trial court dismissed each claim, in whole or in part, except the claims pertaining to the easements. It concluded that a claim is not related to an agreement unless it is based on the agreement's express rights or restrictions, and it found that only eighteen allegations in the complaint could support a claim within the waivers. The company appealed.",
+        "Judge Toby Hampson wrote for the majority, Carolina Journal reported. The court held the appeal could proceed although the order dismissed the complaint only in part, saying it was bound by an earlier Court of Appeals decision that the grant of a motion to dismiss based on sovereign or governmental immunity is immediately appealable. On the merits, the court said nothing in the plain language of the waivers requires a claim to be based on the express rights or restrictions in an agreement, and that the trial court's order did not decide what claims, if any, fall within the waivers. It vacated the order and remanded for the trial court to interpret the complete language of the waivers. The tribe had argued that federal law requires a court to construe the waiver strictly in its favor; the majority said its review followed state law principles of contract interpretation because the agreements were made with a private actor.",
+        "Chief Judge Dillon concurred. Judge Tyson concurred in part and dissented in part, writing that the trial court properly dismissed the company's tort and statutory claims, that the company is not a sovereign and had not shown a right to immediate appellate review, and that the appeal should be dismissed. The dissent notes that the tribe's counterclaim for unjust enrichment remains before the trial court. Carolina Journal described the ruling as a 2-1 decision."
+      ],
+      tags: ["sovereign immunity", "easement", "trespass", "casino", "north carolina"],
+      parties: [
+        { name: "Kings Mountain Land Development Partners, LLC", role: "Plaintiff/Appellant" },
+        { name: "Catawba Indian Nation", role: "Defendant/Appellee" }
+      ],
+      judge: "Toby Hampson",
+      amountUsd: null,
+      timeline: [
+        { when: "October 3, 2024", label: "Kings Mountain Land Development Partners files its complaint against the Catawba Indian Nation" },
+        { when: "July 9, 2025", label: "Cleveland County Superior Court dismisses each claim, in whole or in part, except the claims pertaining to the easements" },
+        { when: "June 2, 2026", label: "Appeal heard in the North Carolina Court of Appeals" },
+        { when: "November 18, 2026", label: "Court of Appeals vacates the order and remands for the trial court to interpret the immunity waivers; Judge Tyson concurs in part and dissents in part", current: true }
       ]
     }
   ],

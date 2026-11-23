@@ -751,6 +751,24 @@
      "https://storage.courtlistener.com/pdf/2026/11/21/siegel_lv_n._strip_tolleson_llc_v._ec_215_las_vegas_llc.pdf"
     ]
    }
+  },
+  "live-455": {
+   "verifiedOn": "2026-11-23",
+   "sourceUrl": "https://turtletalk.blog/wp-content/uploads/2026/11/Opinion.pdf",
+   "urls": [
+    "https://turtletalk.blog/wp-content/uploads/2026/11/Opinion.pdf",
+    "https://www.carolinajournal.com/appeals-court-sends-catawba-casino-dispute-back-to-trial-judge/"
+   ],
+   "quotes": 40,
+   "confirmedByChecker": 33,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://turtletalk.blog/wp-content/uploads/2026/11/Opinion.pdf",
+     "https://www.carolinajournal.com/appeals-court-sends-catawba-casino-dispute-back-to-trial-judge/"
+    ]
+   }
   }
  }
 }
