@@ -2947,6 +2947,14 @@
     "search:epic-companies-north-dakota-adversary-trial": {
       "at": "2026-11-23",
       "action": "skipped: no verdict/outcome found -- Valley News Live reported an October 6, 2026 jury trial start in the EPIC Companies Midwest liquidating trust's ~$900K adversary proceeding (Fargo, ND bankruptcy court); searched for a November 2026 verdict/outcome but found none, so there is no fresh, reportable development yet; this is also the geographic-diversity search target this run (North Dakota has zero tracked matters in js/data.js) -- worth rechecking in a future run for the verdict"
+    },
+    "search:csn-realty-2252-third-avenue-east-harlem": {
+      "at": "2026-11-23",
+      "action": "skipped: stale (appellate reinstatement dated May/July 2026 per CRE Daily and The Real Deal, ~6 months old, no newer development) and names individual defendants (Roy Moussaieff, Yousef Althkefati) in a personal veil-piercing claim -- this site names business/entity parties only, never individuals"
+    },
+    "search:court-rulings-beat-2026-11-23-12utc": {
+      "at": "2026-11-23",
+      "action": "skipped: 12:00 UTC court-rulings beat -- two rounds of WebSearch (state supreme/appeals courts, business courts, CMBS/receivership, construction lien, ground lease, landlord-tenant, property tax, eminent domain) turned up only already-published matters (Holmwood Capital Advisors v. HC Government Realty Holdings -- already live in js/data.js; Sinmier v. Everest Indemnity -- already live in js/data.js) or stale/thin items (Carnegie House ground-lease arbitration Sept 2026; Chrysler Building/RFR v. Cooper Union 2024-2025; Kimpton Surfcomber Miami Beach Aug 2025; Duluth MN parking-ramp tax case is a Nov 9 2026 petition for review, not a ruling; Lucas Museum construction-lien ruling is tentative only); no new candidate cleared the bar. All automated feeds (opinion-leads, federal-suits, sec-litigation-leads, securities-suit-leads, fresh-filings, docket-activity) were already fully triaged by an earlier run today -- nothing unhandled found in any of them"
     }
   }
 }
