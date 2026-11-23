@@ -2264,6 +2264,26 @@
       ],
       "commit": "8b94c64fac95807ead4460c2b30f5eaa0150afaf",
       "status": "no-op"
+    },
+    {
+      "id": "imp-091",
+      "date": "2026-11-23",
+      "track": "subscription",
+      "title": "Health check never watched court-feeds.yml or welcome-email.yml",
+      "why": "Step 2: judged imp-063/065/077 (see playbook; all no clear effect). Step 3: goal_scoreboard.py mostBehind was calculator/conversion/traffic/news (gaps 0.626/0.25/0.0/0.0). Last 2 log entries (imp-089 calculator, imp-090 conversion) excluded both under \"hasn't had a change in the last 2 runs\"; traffic is blocked by imp-088's open watch (until 2026-12-05) and news by imp-079's (until 2026-11-24) -- full gridlock on every mostBehind-ranked goal, and no goal exceeded the 7-day no-change limit (max was news at 4 days). Per the backlog's fallback, picked subscription: zero open watchers, last touched 3 days ago. imp-085 (2026-11-20) had already flagged court-feeds.yml (a 4x/day scheduled job running scripts/pull_court_feeds.py into ops/opinion-leads.json, distinct from the already-watched opinion-leads.yml) as a comparable gap in health_check.py's WORKFLOWS dict, deferred to keep that change small. Confirmed it is still missing by diffing the contents of .github/workflows/ against the dict directly, and found a second, previously unflagged gap the same way: welcome-email.yml (hourly, new-sign-up welcome emails). Checked every other unwatched workflow file: mine-opinions.yml (workflow_dispatch only, no schedule) and verify-matters.yml (push-triggered) correctly stay out -- the silent-failure risk this item is about only applies to a scheduled job with no other failure signal. Bundled in the same commit: re-baked alert-log.html's al-flagship-freshness table (NYC/radar rows were one day stale against their source files' real \"generated\" dates) -- third consecutive run needing this (imp-087, imp-089, now imp-091); G22's prerender.yml git-add gap still unfixed.",
+      "files": [
+        "scripts/health_check.py",
+        "alert-log.html",
+        "ops/improvement-log.json",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "6bd83b9d0e99c4a4231bb7fbaa3c7e41d8bb230c",
+      "metric": "No goals.json metric moves -- an internal operational-alerting fix, not a visitor-facing or goal-metric change.",
+      "window": "n/a",
+      "baseline": {},
+      "checkAfter": "2026-11-24",
+      "status": "watching",
+      "note": "checkAfter just means: confirm the next health-check.yml run still parses the WORKFLOWS dict cleanly with the two new entries showing as OK/problem lines rather than crashing. scripts/health_check.py is not on any never-change list. Verified with ast.parse (syntax) before committing. site_audit.py (937 pages, summary counts all 0 except missingDescription=3, the usual already-explained noindex set) and check_case_fields.py (364 matters, OK) both re-run clean, no count regressed. HTML tag balance checked clean on alert-log.html. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing."
     }
   ]
 }
