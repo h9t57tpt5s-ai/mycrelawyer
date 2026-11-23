@@ -14,6 +14,11 @@
 //   deno run -A scripts/extract_opinion_outcomes.ts sync    IN OUT [--model M] [--limit N]
 //   deno run -A scripts/extract_opinion_outcomes.ts submit  IN STATE [--model M] [--limit N] [--skip OUT]
 //   deno run -A scripts/extract_opinion_outcomes.ts collect STATE IN OUT
+//   deno run -A scripts/extract_opinion_outcomes.ts ingest  DIR IN OUT
+//
+// "ingest" takes extractions written by in-session subagents (one <id>.json
+// per opinion in DIR, same instructions and schema; no API cost) and runs
+// them through the same quote verification before appending them to OUT.
 //
 // "submit" uses the Message Batches API (half price, results within 24h).
 // Needs ANTHROPIC_API_KEY and ANTHROPIC_WORKSPACE_ID (Jeff's, in ~/.zshrc). Every call costs money:
@@ -321,8 +326,32 @@ async function main() {
     }
     if (pending.length) await Deno.writeTextFile(c, pending.join("\n") + "\n", { append: true });
     console.log(`${n} collected, $${total.toFixed(2)}`);
+  } else if (cmd === "ingest") {
+    const done = await doneIds(c);
+    const found = new Map<string, unknown>();
+    for await (const e of Deno.readDir(a)) {
+      const id = e.name.replace(/\.json$/, "");
+      if (e.isFile && e.name.endsWith(".json") && !done.has(id)) found.set(id, e.name);
+    }
+    let n = 0;
+    const rows: string[] = [];
+    for await (const rec of streamRecords(b)) {
+      if (!found.has(rec.id)) continue;
+      const base = { id: rec.id, cluster_id: rec.cluster_id, court_id: rec.court_id, date_filed: rec.date_filed,
+        model, via: "subagent", cost: 0 };
+      try {
+        const raw = (await Deno.readTextFile(`${a}/${found.get(rec.id)}`)).trim().replace(/^```(?:json)?\s*|\s*```$/g, "");
+        const { out, unverified } = verify(JSON.parse(raw), rec.text);
+        rows.push(JSON.stringify({ ...base, extraction: out, unverified }));
+      } catch (e) {
+        rows.push(JSON.stringify({ ...base, error: `parse: ${e}` }));
+      }
+      n++;
+    }
+    if (rows.length) await Deno.writeTextFile(c, rows.join("\n") + "\n", { append: true });
+    console.log(`${n} ingested of ${found.size} files`);
   } else {
-    console.error("usage: sync IN OUT | submit IN STATE | collect STATE IN OUT  [--model M] [--limit N]");
+    console.error("usage: sync IN OUT | submit IN STATE | collect STATE IN OUT | ingest DIR IN OUT  [--model M] [--limit N]");
     Deno.exit(2);
   }
 }

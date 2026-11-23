@@ -115,11 +115,15 @@ def slice_stats(cases, cat, haiku_only=True):
 
 def main(paths):
     by_id = {}
+    dup = set()
     models = collections.Counter()
     for p in paths:
         for line in open(p):
             r = json.loads(line)
-            if r.get("extraction"):
+            if r.get("duplicateOf"):  # another copy of a ruling already counted (reported vs. slip opinion)
+                by_id.pop(r["id"], None)
+                dup.add(r["id"])
+            elif r.get("extraction") and r["id"] not in dup:
                 by_id[r["id"]] = r
     cre = []
     for r in by_id.values():
