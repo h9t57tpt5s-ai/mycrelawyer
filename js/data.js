@@ -15432,6 +15432,19 @@ const RELAW_DATA = {
       summary: "CBRE's Q3 2026 U.S. Capital Markets Report puts third-quarter investment volume at $257.8 billion, up 98% year over year, or 18% excluding two entity-level deals totaling $104 billion. Multifamily led at $112.3 billion, followed by industrial at $40.4 billion and data centers at $34.5 billion, and REITs and public companies were the largest buyers at $89.3 billion. Alternative lenders closed 48% of the non-agency loans CBRE arranged, up from 37% a year ago, while banks slipped to 26% from 31% and CMBS fell to 6% from 17%. The average debt service coverage ratio fell to 1.32 from 1.38 and debt yield to 9.5% from 9.9%, mortgage rates rose to 6.0% from 5.8% while cap rates eased to 6.0% from 6.1%, and the share of loans with partial or full interest-only terms rose to 82.3% from 80.2%.",
       significance: "More of the new debt is held by private lenders whose remedies are set by the loan documents alone, without a pooling and servicing agreement or special servicer, so future defaults are more likely to turn on extension tests, cash management triggers, guaranties and, where mezzanine debt is involved, UCC foreclosures. Thinner coverage and mostly interest-only terms leave less room before a covenant is tripped or a maturity cannot be refinanced. Buyers and sellers in entity-level deals should also review change-of-control and transfer provisions in existing loans, ground leases and joint venture agreements.",
       tags: ["capital markets", "alternative lenders", "cmbs", "underwriting", "cbre"]
+    },
+    {
+      id: "trend-034",
+      title: "Trepp: Foreclosures Reach 23% of Resolved CMBS Balance in 2026 as Modifications Fall to 37% and 20% of 2024 Modifications Return to Special Servicing",
+      category: "lending-foreclosure",
+      date: "2026-11-18",
+      scope: "U.S. CMBS loans resolved from special servicing (Trepp data, as reported by CRE Daily)",
+      metric: "Modifications 37% of resolved balance in 2026 (54% in 2024); foreclosures 23%; 20% of loans modified in 2024 back with the special servicer within a year; office 29%; $71.7 billion in special servicing, five times the October 2019 level",
+      source: "live",
+      sourceUrl: "https://www.credaily.com/briefs/failed-cmbs-workouts-rise-as-extend-and-pretend-bill-hits/",
+      summary: "CRE Daily, citing Trepp, reports that modifications fell to 37% of resolved CMBS balance in 2026 from 54% in 2024, while foreclosures reached 23%. Of loans modified in 2024, 20% were back with the special servicer within a year, and office fared worst, with 29% of its latest workouts returning. CRE Daily puts the amount in special servicing at $71.7 billion, five times the October 2019 level.",
+      significance: "Fewer loans are leaving special servicing through a modification and more through foreclosure, and a modified loan that returns to the special servicer has already used its first workout. Borrowers and guarantors on loans modified in 2024 should expect less forbearance on a second default, and lenders and servicers should prepare for more receiver motions, foreclosure suits and guaranty claims on loans that were already extended once.",
+      tags: ["cmbs", "special servicing", "loan modifications", "trepp", "foreclosure"]
     }
   ],
 
