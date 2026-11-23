@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-22T17:16:40+00:00",
+ "updatedAt": "2026-11-23T21:35:32+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 22,
+ "requestsUsed": 20,
  "errors": [],
  "dockets": {
   "14669317": {
@@ -1012,46 +1012,46 @@
      "ruling": false
     },
     {
-     "date": "2026-11-13",
-     "number": 76,
-     "text": "Order on Motion for Leave to File Excess Pages",
-     "url": "https://www.courtlistener.com/docket/73480976/76/fitfactaridc-llc-v-costar-group-inc/",
+     "date": "2026-11-20",
+     "number": 77,
+     "text": "Exhibit I",
+     "url": "https://www.courtlistener.com/docket/73480976/77/9/fitfactaridc-llc-v-costar-group-inc/",
      "ruling": false
     },
     {
-     "date": "2026-10-30",
-     "number": 75,
-     "text": "File Excess Pages",
-     "url": "https://www.courtlistener.com/docket/73480976/75/fitfactaridc-llc-v-costar-group-inc/",
+     "date": "2026-11-20",
+     "number": 77,
+     "text": "Exhibit H",
+     "url": "https://www.courtlistener.com/docket/73480976/77/8/fitfactaridc-llc-v-costar-group-inc/",
      "ruling": false
     },
     {
-     "date": "2026-10-14",
-     "number": 74,
-     "text": "Order on Motion to Withdraw as Attorney",
-     "url": "https://www.courtlistener.com/docket/73480976/74/fitfactaridc-llc-v-costar-group-inc/",
+     "date": "2026-11-20",
+     "number": 77,
+     "text": "Exhibit G",
+     "url": "https://www.courtlistener.com/docket/73480976/77/7/fitfactaridc-llc-v-costar-group-inc/",
      "ruling": false
     },
     {
-     "date": "2026-10-13",
-     "number": 73,
-     "text": "Withdraw as Attorney",
-     "url": "https://www.courtlistener.com/docket/73480976/73/fitfactaridc-llc-v-costar-group-inc/",
+     "date": "2026-11-20",
+     "number": 77,
+     "text": "Exhibit F",
+     "url": "https://www.courtlistener.com/docket/73480976/77/6/fitfactaridc-llc-v-costar-group-inc/",
      "ruling": false
     },
     {
-     "date": "2026-10-01",
-     "number": 72,
-     "text": "Amended Complaint",
-     "url": "https://www.courtlistener.com/docket/73480976/72/fitfactaridc-llc-v-costar-group-inc/",
+     "date": "2026-11-20",
+     "number": 77,
+     "text": "Exhibit E",
+     "url": "https://www.courtlistener.com/docket/73480976/77/5/fitfactaridc-llc-v-costar-group-inc/",
      "ruling": false
     },
     {
-     "date": "2026-09-24",
-     "number": 71,
-     "text": "Order on Motion to Dismiss AND Order on Motion to Dismiss AND Order on Motion to Set a Briefing Schedule",
-     "url": "https://www.courtlistener.com/docket/73480976/71/fitfactaridc-llc-v-costar-group-inc/",
-     "ruling": true
+     "date": "2026-11-20",
+     "number": 77,
+     "text": "Exhibit D",
+     "url": "https://www.courtlistener.com/docket/73480976/77/4/fitfactaridc-llc-v-costar-group-inc/",
+     "ruling": false
     }
    ],
    "caseIds": [
@@ -1116,7 +1116,15 @@
    "lastEntryDate": "2026-11-12"
   },
   "73580832": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-11-23",
+     "number": 21,
+     "text": "Brief in Opposition to Motion",
+     "url": "https://www.courtlistener.com/docket/73580832/21/hexa-builders-llc-v-mayor-and-township-council-of-the-township-of-monroe/",
+     "ruling": false
+    }
+   ],
    "caseIds": [
     "live-257"
    ],
@@ -1124,7 +1132,7 @@
    "docketNumber": "1:26-cv-08284",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73580832/hexa-builders-llc-v-mayor-and-township-council-of-the-township-of-monroe/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-11-23"
   },
   "73673010": {
    "entries": [
@@ -1610,6 +1618,13 @@
   "74914151": {
    "entries": [
     {
+     "date": "2026-11-23",
+     "number": null,
+     "text": "Hearing held",
+     "url": "https://www.courtlistener.com/docket/74914151/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-20",
      "number": 204,
      "text": "BNC certificate of mailing - PDF document",
@@ -1657,13 +1672,6 @@
      "text": "Order",
      "url": "https://www.courtlistener.com/docket/74914151/198/american-hospitality-properties-reit-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-20",
-     "number": 197,
-     "text": "List (witness/exhibit/generic)",
-     "url": "https://www.courtlistener.com/docket/74914151/197/american-hospitality-properties-reit-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1673,7 +1681,7 @@
    "docketNumber": "26-80071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74914151/american-hospitality-properties-reit-inc/",
-   "lastEntryDate": "2026-11-20"
+   "lastEntryDate": "2026-11-23"
   },
   "74922581": {
    "entries": [
@@ -1746,6 +1754,27 @@
   "74927117": {
    "entries": [
     {
+     "date": "2026-11-23",
+     "number": 98,
+     "text": "Request for Certified Copy",
+     "url": "https://www.courtlistener.com/docket/74927117/98/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-23",
+     "number": 97,
+     "text": "Order (Generic)",
+     "url": "https://www.courtlistener.com/docket/74927117/97/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-22",
+     "number": 96,
+     "text": "Certificate of Service of Notice of Hearing",
+     "url": "https://www.courtlistener.com/docket/74927117/96/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-19",
      "number": 95,
      "text": "Order on Motion To Sell",
@@ -1779,27 +1808,6 @@
      "text": "Order (Generic)",
      "url": "https://www.courtlistener.com/docket/74927117/91/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-18",
-     "number": 90,
-     "text": "Bid/Counteroffer",
-     "url": "https://www.courtlistener.com/docket/74927117/90/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-18",
-     "number": 89,
-     "text": "Opposition",
-     "url": "https://www.courtlistener.com/docket/74927117/89/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-17",
-     "number": 88,
-     "text": "Supplemental Document",
-     "url": "https://www.courtlistener.com/docket/74927117/88/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1809,7 +1817,7 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
-   "lastEntryDate": "2026-11-19"
+   "lastEntryDate": "2026-11-23"
   },
   "74945850": {
    "entries": [],
@@ -1994,6 +2002,13 @@
   "75047315": {
    "entries": [
     {
+     "date": "2026-11-23",
+     "number": 88,
+     "text": "Order (Generic)",
+     "url": "https://www.courtlistener.com/docket/75047315/88/zom-holding-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-21",
      "number": 87,
      "text": "BNC Certificate of Mailing - Order",
@@ -2041,13 +2056,6 @@
      "text": "Order on Application to Employ/Retain",
      "url": "https://www.courtlistener.com/docket/75047315/80/zom-holding-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-18",
-     "number": null,
-     "text": "ADI - Proof of Service Reminder - 3-day",
-     "url": "https://www.courtlistener.com/docket/75047315/zom-holding-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -2057,7 +2065,7 @@
    "docketNumber": "6:26-bk-08509",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/75047315/zom-holding-inc/",
-   "lastEntryDate": "2026-11-21"
+   "lastEntryDate": "2026-11-23"
   }
  },
  "events": [
