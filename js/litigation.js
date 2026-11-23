@@ -85,7 +85,10 @@
   /* Build state (jurisdiction) options, only for states actually represented */
   const stateCounts = {};
   RELAW_DATA.cases.forEach((c) => {
-    if (!c.state) return;
+    /* A matter whose state code is not in the states list (e.g. PR) stays in
+       the tracker list but gets no state filter entry; without this guard the
+       sort below threw and stopped the rest of the page's setup. */
+    if (!c.state || !RELAW_DATA.states[c.state]) return;
     stateCounts[c.state] = (stateCounts[c.state] || 0) + 1;
   });
   const representedStates = Object.keys(stateCounts).sort((a, b) =>
