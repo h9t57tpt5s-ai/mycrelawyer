@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T18:39:57+00:00",
+ "updatedAt": "2026-11-23T03:02:33+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -77,17 +77,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75148906/232-old-river-edge-nj-llc/",
    "docketId": 75148906,
    "slug": "232-old-river-edge-nj-llc-njb-26-23142",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "2 Hill Ave LLC",
-   "court": "United States Bankruptcy Court, S.D. New York",
-   "courtId": "nysb",
-   "docketNumber": "26-36233",
-   "dateFiled": "2026-11-18",
-   "docketUrl": "https://www.courtlistener.com/docket/75134925/2-hill-ave-llc/",
-   "docketId": 75134925,
-   "slug": "2-hill-ave-llc-nysb-26-36233",
    "type": "Chapter 11 petition"
   }
  ]
