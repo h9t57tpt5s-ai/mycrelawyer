@@ -2931,6 +2931,22 @@
     "https://www.courtlistener.com/docket/75134925/2-hill-ave-llc/": {
       "at": "2026-11-22",
       "action": "skipped: no coverage found explaining the filing (single-asset LLC Chapter 11 petition, no named sponsor/lender large enough to draw press coverage)"
+    },
+    "search:808-windsor-st-somerville-bank-ozk-deed-in-lieu": {
+      "at": "2026-11-23",
+      "action": "lead queued in ops/digest-leads.json (Bank OZK takeback of 808 Windsor St. Somerville lab building, deed-in-lieu Sept 29 2026, confirmed via Bisnow deed records + Oct 2026 OZK earnings release + Connect CRE Return to Lender Nov 19 2026)"
+    },
+    "search:doubletree-berkeley-marina-foreclosure-nov-2026": {
+      "at": "2026-11-23",
+      "action": "skipped: sourcing too thin/conflicting to queue as a lead -- Connect CRE's Nov 19, 2026 Return to Lender column cites an SF Business Times report of a DoubleTree Berkeley default (~$2.4M owed, Fidelity National Title to lead a foreclosure sale), but the primary SFBT article could not be located directly and search snippets conflated its figures with the unrelated Somerville lab-building item in the same column; not queued without being able to confirm the figures against a primary source"
+    },
+    "search:sono-collection-norwalk-ct-mall-foreclosure": {
+      "at": "2026-11-23",
+      "action": "skipped: outside freshness window and not newly reported -- Law360/Wikipedia coverage of the SoNo Collection mall (Norwalk, CT) foreclosure on its $245M loan is from May-June 2026 (receiver appointed, Centennial took over management, loan listed for sale by JLL); no November 2026 update found, so this is 6-month-old news with no fresh angle, despite CT being an underrepresented state in js/data.js"
+    },
+    "search:epic-companies-north-dakota-adversary-trial": {
+      "at": "2026-11-23",
+      "action": "skipped: no verdict/outcome found -- Valley News Live reported an October 6, 2026 jury trial start in the EPIC Companies Midwest liquidating trust's ~$900K adversary proceeding (Fargo, ND bankruptcy court); searched for a November 2026 verdict/outcome but found none, so there is no fresh, reportable development yet; this is also the geographic-diversity search target this run (North Dakota has zero tracked matters in js/data.js) -- worth rechecking in a future run for the verdict"
     }
   }
 }

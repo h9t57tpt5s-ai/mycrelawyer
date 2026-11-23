@@ -20,6 +20,16 @@
       ],
       "why": "A judge ruled 2026-11-09 against NSI's bid to exempt its planned facility at 2900 South National Ave., Springfield, MO from the city's data center moratorium. NSI argued the site's zoning (administrative and professional offices, allowing 'data processing services') already permitted the use and that city planners had approved the project before the moratorium took effect; the city says the only application on file for that address describes a veterinary clinic. Springfield's City Council then voted 2026-11-16 to extend the moratorium to 2026-02-24. NSI has a parallel, still-pending suit against Benton County, MO over its own data center moratorium (TRO extended there in September 2026). Genuine zoning/land-use dispute between a business and two Missouri municipalities over commercial data-center development; likely category zoning-land-use. Not yet in js/data.js (checked). Caveat: only local TV-station (KY3) coverage found — NSI's full legal entity name, the court/case number, and the ruling judge's name were not in the search results and need a docket lookup before publishing.",
       "eventDate": "2026-11-09"
+    },
+    {
+      "found": "2026-11-23",
+      "title": "Bank OZK takes 808 Windsor St. Somerville, MA lab building via deed-in-lieu-of-foreclosure after failed sale, writes down $37M",
+      "urls": [
+        "https://www.bisnow.com/news/boston/life-sciences/somerville-lab-building-moves-to-foreclosure-following-failed-sale",
+        "https://www.connectcre.com/stories/return-to-lender-week-of-nov-19-2026/"
+      ],
+      "why": "Bisnow (citing deed records) reports Bank OZK took title to the 346,000 SF lab/retail building at 808 Windsor St. in Somerville's Boynton Yards campus via a deed-in-lieu-of-foreclosure dated September 29, 2026, after a planned sale fell through. Bank OZK's October 2026 earnings release disclosed taking control of the property and a $37M write-down of its value (carried at $132M, which Bisnow says is 80% of assessed value); the bank has engaged a property manager and says it is in discussions with an interested purchaser. The original borrower was a partnership of Leggat McCall Properties, DLJ Real Estate Capital Partners and Deutsche Finance America, which took a $246M five-year construction loan from Bank OZK (arranged by JLL Capital Markets) in Dec. 2021; the building was completed in 2024 but struggled to lease up amid the life-sciences/lab-space demand slowdown. Connect CRE's Nov. 19, 2026 'Return to Lender' column (citing the Boston Business Journal) carries the same takeback this week but gives a conflicting $165M as-is value figure — the newsroom should resolve the valuation discrepancy against the primary BBJ/deed-record reporting before publishing. Not yet in js/data.js (checked by address, developer and lender names). Likely category lending-foreclosure, propertyType Life Sciences, state MA.",
+      "eventDate": "2026-09-29"
     }
   ]
 }
