@@ -2975,6 +2975,34 @@
     "search:leasing-development-beat-2026-11-23-17utc": {
       "at": "2026-11-23",
       "action": "skipped: 17:00 UTC leasing-and-development beat -- additional rounds of WebSearch (commercial landlord-tenant lawsuits, ground lease disputes, data center/warehouse zoning and moratoria, mechanics' lien suits on commercial construction, eminent domain, office tower evictions) turned up only already-published matters (Prologis v. Trenton, NSI v. Springfield), stale items from earlier in 2026 (Carnegie House, Thakkar/Safehold, Cornell v. Graduate Hotel, Kimpton Surfcomber, Boca Raton pizza lease, Fargo coffee shop, Prudential Plaza/Rosebud, One Cal Plaza, 135 W 50th St), or a residential condo insurance-coverage suit (James River v. Chelsea condo, out of scope -- residential). All automated feed files (fresh-filings, federal-suits, sec-litigation-leads, securities-suit-leads, docket-activity, opinion-leads) were confirmed already fully triaged by the earlier 12:00 UTC run today, except one opinion-lead (11069005) that arrived after that run and is queued above."
+    },
+    "opinion:11069217": {
+      "at": "2026-11-23",
+      "action": "lead queued in ops/digest-leads.json (Haleiwa Town Center v. Trustees of the Estate of Bernice Pauahi Bishop, Hawaii Supreme Court, decided today -- reinstates shopping-center tenant HTC's breach-of-contract/good-faith claims against landlord Kamehameha Schools over an access-easement/construction-encroachment dispute)"
+    },
+    "opinion:11068982": {
+      "at": "2026-11-23",
+      "action": "skipped: Thomas v. Doba (Conn. App.) -- appeals dismissed for lack of a final judgment under Gen. Stat. Sec. 12-159a, no substantive holding reached; individual property owners (Robert & Susan Thomas) vs. town of Bethany/tax collector/BTL Enterprise LLC over a tax-sale deed, not a commercial real estate business dispute on its face"
+    },
+    "opinion:11069182": {
+      "at": "2026-11-23",
+      "action": "skipped: City of Mattoon v. Quackenbush (Ill. App.) -- individual property owner (Tim L. Quackenbush) fined for public-nuisance code violations (junk/scrap storage) on two parcels; individual defendant, not a commercial real estate business matter"
+    },
+    "search:big-players-beat-2026-11-23-22utc": {
+      "at": "2026-11-23",
+      "action": "22:00 UTC big-players beat -- WebSearch rounds on REIT securities suits actually filed, sponsor/fund disputes, JV fights at major owners, brokerage/proptech suits, and SEC/state enforcement turned up only already-tracked items (Arbor Realty Trust's Nov. 9, 2026 E.D.N.Y. shareholder suit over $1.25B in problem loans is already live in js/data.js) or stale items with no fresh angle (Deutsche Finance v. BVK, Sept. 2026; CoStar/CBRE antitrust suits, mid-2026; SEC actions against RAD Diversified REIT and Wavemark Capital, July/Sept. 2026). All automated feed files (opinion-leads, federal-suits, sec-litigation-leads, securities-suit-leads, fresh-filings, docket-activity) were already confirmed fully triaged by earlier runs today except the 3 opinion leads recorded separately above."
+    },
+    "search:joe-ricketts-sublette-county-wyoming-resort-fraud-suit": {
+      "at": "2026-11-23",
+      "action": "skipped: geographic-diversity search (WY has 1 tracked matter) -- coverage of a Sublette County, WY zoning fight over Joe Ricketts' proposed Jackson Fork Ranch/Bondurant resort expansion, plus a separately reported civil fraud suit alleging Ricketts was defrauded of tens of millions over the Renegade subdivision, but WebSearch could not surface the fraud suit's parties, court, or docket, and coverage centers on an individual billionaire rather than a confirmed business-entity CRE dispute -- too thin to queue"
+    },
+    "search:bmk-enterprises-bailey-montana-storage-dispute": {
+      "at": "2026-11-23",
+      "action": "skipped: geographic-diversity search (MT) -- Montana Supreme Court's May 12, 2026 BMK Enterprises v. Bailey Enterprises of Montana ruling (storage-property right-of-first-refusal dispute remanded to Gallatin County) is over 6 months old with no new reporting, outside the freshness window"
+    },
+    "search:rhode-island-cre-foreclosure-2026": {
+      "at": "2026-11-23",
+      "action": "skipped: geographic-diversity search (RI) -- found only a residential/consumer foreclosure ruling (lost promissory note), a residential federal docket entry, a foreclosure-rescue consumer-fraud suit, and an inconclusive receivership appeal with no stated property type; no commercial real estate matter cleared the bar"
     }
   }
 }
