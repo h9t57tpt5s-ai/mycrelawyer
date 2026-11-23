@@ -2284,6 +2284,14 @@
       "checkAfter": "2026-11-24",
       "status": "watching",
       "note": "checkAfter just means: confirm the next health-check.yml run still parses the WORKFLOWS dict cleanly with the two new entries showing as OK/problem lines rather than crashing. scripts/health_check.py is not on any never-change list. Verified with ast.parse (syntax) before committing. site_audit.py (937 pages, summary counts all 0 except missingDescription=3, the usual already-explained noindex set) and check_case_fields.py (364 matters, OK) both re-run clean, no count regressed. HTML tag balance checked clean on alert-log.html. Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing."
+    },
+    {
+      "id": "imp-092",
+      "date": "2026-11-23",
+      "track": "news",
+      "title": "No change",
+      "why": "Second run of the day. Step 2: no watching entry has a checkAfter on or before today (earliest remaining is imp-079/imp-080/imp-091's 2026-11-24). Step 3: goal_scoreboard.py mostBehind was calculator/conversion/traffic/news (gaps 0.626/0.25/0.0/0.0), unchanged from this morning. Independently re-derived the goal pick rather than reusing this morning's: calculator is blocked (imp-089, calculatorViews7, open until 2026-11-29); traffic is blocked (imp-088, visits7/googleLandings7, open until 2026-12-05); news is blocked (imp-079, open until 2026-11-24, as imp-091's own entry already found); conversion and subscription are both excluded anyway as the last 2 log entries (imp-090, imp-091). Full gridlock on every mostBehind goal, same as this morning. Per the backlog's 'one open experiment per goal' allowance for a blocked goal ('spend the run on... a measurement problem'), investigated news: (1) confirmed scripts/goal_scoreboard.py's leads_window_ratio() counts correctly (67 action-text entries starting with 'matter' in ops/leads-handled.json, exactly matching goals.json's leadsToMattersTotal) -- the low leadsToMattersRatio7 (0.0252) is real, not a counting bug; (2) hand-categorized all 139 skips logged since 2026-11-16 -- one non-recurring ticker-collision false positive (2026-11-19), the rest accurate on-scope skips, no new systemic false-negative pattern; (3) checked ops/digest-leads.json (cloud-to-newsroom queue) -- only 2 items, newest 1 day old, no pileup. Considered widening CRE_INCLUDE in scripts/ingest_court_filings.py (no standalone term for warehouse/multifamily/data center/senior living) but could not verify it without a raw CourtListener sample this cloud environment cannot fetch -- logged as backlog G28 (NEEDS JEFF/local session) instead of shipping an unverified regex change. News's backlog is otherwise fully worked: G23/G24 already shipped, G27 is NEEDS JEFF. No safe, verifiable, substantial change found on any goal this run.",
+      "status": "no-op"
     }
   ]
 }
