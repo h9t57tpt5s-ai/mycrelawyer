@@ -1,7 +1,33 @@
 {
- "updatedAt": "2026-11-24T06:19:33+00:00",
+ "updatedAt": "2026-11-24T21:31:51+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "OT&P Real Estate Holdings, LLC v. ACE Fire Underwriters Insurance Company",
+   "court": "District Court, S.D. Texas",
+   "courtId": "txsd",
+   "docketNumber": "4:26-cv-10257",
+   "dateFiled": "2026-11-24",
+   "docketUrl": "https://www.courtlistener.com/docket/75169788/otp-real-estate-holdings-llc-v-ace-fire-underwriters-insurance-company/",
+   "docketId": 75169788,
+   "suitNature": "",
+   "cause": "",
+   "slug": "ot-p-real-estate-holdings-llc-v-ace-fire-underwriters-insurance-compan-txsd-4-26-cv-10257",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Cooperstown Properties, LLC v. RedBird Capital Partners Management, LLC",
+   "court": "District Court, N.D. New York",
+   "courtId": "nynd",
+   "docketNumber": "6:26-mc-00041",
+   "dateFiled": "2026-11-24",
+   "docketUrl": "https://www.courtlistener.com/docket/75168985/cooperstown-properties-llc-v-redbird-capital-partners-management-llc/",
+   "docketId": 75168985,
+   "suitNature": "",
+   "cause": "",
+   "slug": "cooperstown-properties-llc-v-redbird-capital-partners-management-llc-nynd-6-26-mc-00041",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "Signature Associates, Inc. v. Westbelt Country Property, Ltd.",
    "court": "District Court, E.D. Michigan",
@@ -13,6 +39,32 @@
    "suitNature": "",
    "cause": "",
    "slug": "signature-associates-inc-v-westbelt-country-property-ltd-mied-2-26-cv-14443",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "JCAP Magellan Fund, LLC v. Two Good Sons Inc.",
+   "court": "District Court, D. Nebraska",
+   "courtId": "ned",
+   "docketNumber": "7:26-cv-05022",
+   "dateFiled": "2026-11-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75158013/jcap-magellan-fund-llc-v-two-good-sons-inc/",
+   "docketId": 75158013,
+   "suitNature": "Real Property: Foreclosure",
+   "cause": "28:1332 Diversity-Breach of Contract",
+   "slug": "jcap-magellan-fund-llc-v-two-good-sons-inc-ned-7-26-cv-05022",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "DISTRICT OF COLUMBIA v. INNERCITY COLLABORATIVE COMMUNITY DEVELOPMENT CORPORATION",
+   "court": "District Court, District of Columbia",
+   "courtId": "dcd",
+   "docketNumber": "1:26-cv-04153",
+   "dateFiled": "2026-11-23",
+   "docketUrl": "https://www.courtlistener.com/docket/75159556/district-of-columbia-v-innercity-collaborative-community-development/",
+   "docketId": 75159556,
+   "suitNature": "380 Personal Property: Other",
+   "cause": "28:1335 Interpleader Action",
+   "slug": "district-of-columbia-v-innercity-collaborative-community-development-c-dcd-1-26-cv-04153",
    "type": "Federal civil case"
   },
   {

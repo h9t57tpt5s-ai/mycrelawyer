@@ -1,7 +1,45 @@
 {
- "updatedAt": "2026-11-24T06:20:34+00:00",
+ "updatedAt": "2026-11-24T21:32:40+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "261100520428",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-23",
+   "caseName": "Lamar Plaza, LLC v. Autry Park Montessori Inc. (a/k/a Milestone Montessori)",
+   "plaintiffs": [
+    "Lamar Plaza, LLC"
+   ],
+   "defendants": [
+    "Autry Park Montessori Inc. (a/k/a Milestone Montessori)"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "lamar-plaza-llc-v-autry-park-montessori-inc-a-k-a-milestone-montessori-tx-harris-261100520428"
+  },
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "265200520230",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-23",
+   "caseName": "Agape Real Estate Holdings, LLC v. Luxe Kissed Collectives, LLC",
+   "plaintiffs": [
+    "Agape Real Estate Holdings, LLC"
+   ],
+   "defendants": [
+    "Luxe Kissed Collectives, LLC"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "agape-real-estate-holdings-llc-v-luxe-kissed-collectives-llc-tx-harris-265200520230"
+  },
   {
    "source": "harris_jp_tx",
    "state": "TX",
