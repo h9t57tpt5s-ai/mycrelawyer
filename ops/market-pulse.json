@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T22:42:17Z",
+  "generated": "2026-11-24T21:19:20Z",
   "about": "Commercial real estate credit indicators from the Federal Reserve (via FRED) and FDIC Call Report data. Values are the sources' own figures; FDIC aggregates and bank ratios are sums and ratios of FDIC-reported fields. Built by scripts/pull_market_pulse.py.",
   "indicators": [
     {
@@ -372,110 +372,110 @@
     {
       "id": "fdic-noncurrent-cre-rate",
       "label": "Share of commercial real estate loans noncurrent (90+ days past due or nonaccrual), all FDIC-insured institutions",
-      "value": 1.1617,
+      "value": 1.1896,
       "unit": "percent",
       "frequency": "quarterly",
-      "asOf": "2026-06-30",
-      "period": "Q2 2026",
+      "asOf": "2026-09-30",
+      "period": "Q3 2026",
       "comparisons": [
         {
           "label": "previous quarter",
-          "date": "2026-03-31",
-          "period": "Q1 2026",
-          "value": 1.1865,
-          "change": -0.0248,
+          "date": "2026-06-30",
+          "period": "Q2 2026",
+          "value": 1.1623,
+          "change": 0.0273,
           "changeUnit": "percentage points"
         },
         {
           "label": "same quarter a year earlier",
-          "date": "2025-06-30",
-          "period": "Q2 2025",
-          "value": 1.2163,
-          "change": -0.0546,
+          "date": "2025-09-30",
+          "period": "Q3 2025",
+          "value": 1.202,
+          "change": -0.0124,
           "changeUnit": "percentage points"
         }
       ],
       "detail": {
         "latest": {
-          "institutions": 4313,
-          "creLoans": 3081219860000,
-          "noncurrentCre": 35794934000,
-          "noncurrentRate": 1.1617,
+          "institutions": 4284,
+          "creLoans": 3119413124000,
+          "noncurrentCre": 37109902000,
+          "noncurrentRate": 1.1896,
           "byType": {
             "constructionAndLand": {
-              "loans": 458943716000,
-              "noncurrent": 4501800000,
-              "noncurrentRate": 0.9809
+              "loans": 467736382000,
+              "noncurrent": 4705575000,
+              "noncurrentRate": 1.006
             },
             "multifamily": {
-              "loans": 670333841000,
-              "noncurrent": 7325091000,
-              "noncurrentRate": 1.0928
+              "loans": 678163391000,
+              "noncurrent": 9753131000,
+              "noncurrentRate": 1.4382
             },
             "nonfarmNonresidential": {
-              "loans": 1951942303000,
-              "noncurrent": 23968043000,
-              "noncurrentRate": 1.2279
+              "loans": 1973513351000,
+              "noncurrent": 22651196000,
+              "noncurrentRate": 1.1478
             }
           }
         },
         "previousQuarter": {
-          "institutions": 4353,
-          "creLoans": 3059602301000,
-          "noncurrentCre": 36302995000,
-          "noncurrentRate": 1.1865,
+          "institutions": 4314,
+          "creLoans": 3081337018000,
+          "noncurrentCre": 35815535000,
+          "noncurrentRate": 1.1623,
           "byType": {
             "constructionAndLand": {
-              "loans": 458436890000,
-              "noncurrent": 4203261000,
-              "noncurrentRate": 0.9169
+              "loans": 458983129000,
+              "noncurrent": 4500600000,
+              "noncurrentRate": 0.9806
             },
             "multifamily": {
-              "loans": 668191986000,
-              "noncurrent": 7120444000,
-              "noncurrentRate": 1.0656
+              "loans": 670370382000,
+              "noncurrent": 7325091000,
+              "noncurrentRate": 1.0927
             },
             "nonfarmNonresidential": {
-              "loans": 1932973425000,
-              "noncurrent": 24979290000,
-              "noncurrentRate": 1.2923
+              "loans": 1951983507000,
+              "noncurrent": 23989844000,
+              "noncurrentRate": 1.229
             }
           }
         },
         "yearEarlier": {
-          "institutions": 4494,
-          "creLoans": 2995371294000,
-          "noncurrentCre": 36433966000,
-          "noncurrentRate": 1.2163,
+          "institutions": 4452,
+          "creLoans": 3009665181000,
+          "noncurrentCre": 36174860000,
+          "noncurrentRate": 1.202,
           "byType": {
             "constructionAndLand": {
-              "loans": 473247218000,
-              "noncurrent": 3933964000,
-              "noncurrentRate": 0.8313
+              "loans": 467596357000,
+              "noncurrent": 4138483000,
+              "noncurrentRate": 0.8851
             },
             "multifamily": {
-              "loans": 647435847000,
-              "noncurrent": 6725028000,
-              "noncurrentRate": 1.0387
+              "loans": 654009694000,
+              "noncurrent": 7129747000,
+              "noncurrentRate": 1.0902
             },
             "nonfarmNonresidential": {
-              "loans": 1874688229000,
-              "noncurrent": 25774974000,
-              "noncurrentRate": 1.3749
+              "loans": 1888059130000,
+              "noncurrent": 24906630000,
+              "noncurrentRate": 1.3192
             }
           }
         }
       },
       "method": "Sum of noncurrent construction and land development, multifamily and nonfarm nonresidential loans (Call Report fields NCRECONS + NCREMULT + NCRENRES) divided by the sum of those loans (LNRECONS + LNREMULT + LNRENRES) across every FDIC-insured institution filing that quarter. Computed by CREdocket from FDIC data; dollar amounts in USD.",
       "source": "FDIC BankFind Suite financial data (Call Reports), computed by CREdocket",
-      "sourceUrl": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20260630&fields=CERT%2CNAME%2CCITY%2CSTALP%2CREPDTE%2CASSET%2CEQ%2CRBC%2CLNRECONS%2CLNREMULT%2CLNRENRES%2CLNRENROT%2CNCRECONS%2CNCREMULT%2CNCRENRES&limit=10000"
+      "sourceUrl": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20260930&fields=CERT%2CNAME%2CCITY%2CSTALP%2CREPDTE%2CASSET%2CEQ%2CRBC%2CLNRECONS%2CLNREMULT%2CLNRENRES%2CLNRENROT%2CNCRECONS%2CNCREMULT%2CNCRENRES&limit=10000"
     }
   ],
   "banks": {
-    "label": "Banks over $1 billion in assets with the highest share of commercial real estate loans noncurrent, Q2 2026",
-    "quarter": "Q2 2026",
-    "asOf": "2026-06-30",
-    "eligibleBanks": 999,
+    "label": "Banks over $1 billion in assets with the highest share of commercial real estate loans noncurrent, Q3 2026",
+    "quarter": "Q3 2026",
+    "asOf": "2026-09-30",
+    "eligibleBanks": 996,
     "criteria": "FDIC-insured institutions with total assets over $1 billion and at least $100 million of commercial real estate loans (construction and land development + multifamily + nonfarm nonresidential), ranked by the noncurrent (90+ days past due or nonaccrual) share of those loans.",
     "fieldNotes": {
       "creToTotalAssets": "Commercial real estate loans as a percent of total assets (ASSET).",
@@ -485,905 +485,905 @@
       "amounts": "USD (FDIC reports in thousands; converted)."
     },
     "source": "FDIC BankFind Suite financial data (Call Reports), computed by CREdocket",
-    "sourceUrl": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20260630&fields=CERT%2CNAME%2CCITY%2CSTALP%2CREPDTE%2CASSET%2CEQ%2CRBC%2CLNRECONS%2CLNREMULT%2CLNRENRES%2CLNRENROT%2CNCRECONS%2CNCREMULT%2CNCRENRES&limit=10000",
+    "sourceUrl": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20260930&fields=CERT%2CNAME%2CCITY%2CSTALP%2CREPDTE%2CASSET%2CEQ%2CRBC%2CLNRECONS%2CLNREMULT%2CLNRENRES%2CLNRENROT%2CNCRECONS%2CNCREMULT%2CNCRENRES&limit=10000",
     "top": [
+      {
+        "name": "UNITED FIDELITY BANK FSB",
+        "city": "EVANSVILLE",
+        "state": "IN",
+        "cert": 29566,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 5915451000,
+        "creLoans": 2789970000,
+        "noncurrentCre": 2144988000,
+        "noncurrentCreShare": 76.88,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 4157000,
+            "noncurrent": 0
+          },
+          "multifamily": {
+            "loans": 2721595000,
+            "noncurrent": 2143246000
+          },
+          "nonfarmNonresidential": {
+            "loans": 64218000,
+            "noncurrent": 1742000
+          }
+        },
+        "creToTotalAssets": 47.16,
+        "nonOwnerOccCreToRiskBasedCapital": 686.9,
+        "nonOwnerOccCreToEquity": 708.9,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/29566",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 0.14,
+          "noncurrentCre": 4523000
+        },
+        "rank": 1
+      },
       {
         "name": "MONET BANK",
         "city": "PLANO",
         "state": "TX",
         "cert": 32574,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 3160448000,
-        "creLoans": 293652000,
-        "noncurrentCre": 109689000,
-        "noncurrentCreShare": 37.35,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 2324177000,
+        "creLoans": 295542000,
+        "noncurrentCre": 103684000,
+        "noncurrentCreShare": 35.08,
         "byType": {
           "constructionAndLand": {
-            "loans": 64127000,
+            "loans": 72373000,
             "noncurrent": 0
           },
           "multifamily": {
-            "loans": 17953000,
-            "noncurrent": 3706000
+            "loans": 17451000,
+            "noncurrent": 3701000
           },
           "nonfarmNonresidential": {
-            "loans": 211572000,
-            "noncurrent": 105983000
+            "loans": 205718000,
+            "noncurrent": 99983000
           }
         },
-        "creToTotalAssets": 9.29,
-        "nonOwnerOccCreToRiskBasedCapital": 29.3,
-        "nonOwnerOccCreToEquity": 29.5,
+        "creToTotalAssets": 12.72,
+        "nonOwnerOccCreToRiskBasedCapital": 27.2,
+        "nonOwnerOccCreToEquity": 27.3,
         "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/32574",
         "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 3.03,
-          "noncurrentCre": 4121000
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 3.56,
+          "noncurrentCre": 4796000
         },
-        "rank": 1
+        "rank": 2
       },
       {
         "name": "HSBC BANK USA NATIONAL ASSN",
         "city": "TYSONS",
         "state": "VA",
         "cert": 57890,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 173101278000,
-        "creLoans": 1637385000,
-        "noncurrentCre": 257019000,
-        "noncurrentCreShare": 15.7,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 163383725000,
+        "creLoans": 1406609000,
+        "noncurrentCre": 251271000,
+        "noncurrentCreShare": 17.86,
         "byType": {
           "constructionAndLand": {
-            "loans": 42698000,
+            "loans": 60611000,
             "noncurrent": 0
           },
           "multifamily": {
-            "loans": 161405000,
+            "loans": 161261000,
             "noncurrent": 0
           },
           "nonfarmNonresidential": {
-            "loans": 1433282000,
-            "noncurrent": 257019000
+            "loans": 1184737000,
+            "noncurrent": 251271000
           }
         },
-        "creToTotalAssets": 0.95,
-        "nonOwnerOccCreToRiskBasedCapital": 7.4,
-        "nonOwnerOccCreToEquity": 8.7,
+        "creToTotalAssets": 0.86,
+        "nonOwnerOccCreToRiskBasedCapital": 6.3,
+        "nonOwnerOccCreToEquity": 7.4,
         "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/57890",
         "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 10.42,
-          "noncurrentCre": 357980000
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 10.02,
+          "noncurrentCre": 331781000
         },
-        "rank": 2
+        "rank": 3
       },
       {
         "name": "STATE STREET BANK&TRUST CO",
         "city": "BOSTON",
         "state": "MA",
         "cert": 14,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 412620000000,
-        "creLoans": 2292000000,
-        "noncurrentCre": 293000000,
-        "noncurrentCreShare": 12.78,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 397448000000,
+        "creLoans": 2270000000,
+        "noncurrentCre": 291000000,
+        "noncurrentCreShare": 12.82,
         "byType": {
           "constructionAndLand": {
             "loans": 0,
             "noncurrent": 0
           },
           "multifamily": {
-            "loans": 987000000,
+            "loans": 965000000,
             "noncurrent": 0
           },
           "nonfarmNonresidential": {
             "loans": 1305000000,
-            "noncurrent": 293000000
+            "noncurrent": 291000000
           }
         },
-        "creToTotalAssets": 0.56,
+        "creToTotalAssets": 0.57,
         "nonOwnerOccCreToRiskBasedCapital": 10.8,
         "nonOwnerOccCreToEquity": 7.9,
         "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/14",
         "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 7.53,
-          "noncurrentCre": 192000000
-        },
-        "rank": 3
-      },
-      {
-        "name": "INDUSTRIAL&COMMERCIAL BK CHI",
-        "city": "NEW YORK",
-        "state": "NY",
-        "cert": 24387,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 2859720000,
-        "creLoans": 949696000,
-        "noncurrentCre": 111083000,
-        "noncurrentCreShare": 11.7,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 28196000,
-            "noncurrent": 0
-          },
-          "multifamily": {
-            "loans": 165166000,
-            "noncurrent": 6769000
-          },
-          "nonfarmNonresidential": {
-            "loans": 756334000,
-            "noncurrent": 104314000
-          }
-        },
-        "creToTotalAssets": 33.21,
-        "nonOwnerOccCreToRiskBasedCapital": 154.5,
-        "nonOwnerOccCreToEquity": 161.0,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/24387",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 11.71,
-          "noncurrentCre": 118207000
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 7.49,
+          "noncurrentCre": 191000000
         },
         "rank": 4
-      },
-      {
-        "name": "EMIGRANT BANK",
-        "city": "MIAMI",
-        "state": "FL",
-        "cert": 57083,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 5679354000,
-        "creLoans": 1217723000,
-        "noncurrentCre": 110484000,
-        "noncurrentCreShare": 9.07,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 224684000,
-            "noncurrent": 0
-          },
-          "multifamily": {
-            "loans": 534716000,
-            "noncurrent": 8424000
-          },
-          "nonfarmNonresidential": {
-            "loans": 458323000,
-            "noncurrent": 102060000
-          }
-        },
-        "creToTotalAssets": 21.44,
-        "nonOwnerOccCreToRiskBasedCapital": 100.1,
-        "nonOwnerOccCreToEquity": 100.4,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/57083",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 8.61,
-          "noncurrentCre": 121623000
-        },
-        "rank": 5
-      },
-      {
-        "name": "HOME FEDERAL BANK OF TN",
-        "city": "KNOXVILLE",
-        "state": "TN",
-        "cert": 29683,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 2725901000,
-        "creLoans": 584381000,
-        "noncurrentCre": 51674000,
-        "noncurrentCreShare": 8.84,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 166821000,
-            "noncurrent": 0
-          },
-          "multifamily": {
-            "loans": 33208000,
-            "noncurrent": 1907000
-          },
-          "nonfarmNonresidential": {
-            "loans": 384352000,
-            "noncurrent": 49767000
-          }
-        },
-        "creToTotalAssets": 21.44,
-        "nonOwnerOccCreToRiskBasedCapital": null,
-        "nonOwnerOccCreToEquity": 96.7,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/29683",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 0.72,
-          "noncurrentCre": 3779000
-        },
-        "rank": 6
-      },
-      {
-        "name": "MUTUALONE BANK",
-        "city": "FRAMINGHAM",
-        "state": "MA",
-        "cert": 26395,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 1217844000,
-        "creLoans": 462835000,
-        "noncurrentCre": 39801000,
-        "noncurrentCreShare": 8.6,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 107637000,
-            "noncurrent": 29860000
-          },
-          "multifamily": {
-            "loans": 120905000,
-            "noncurrent": 162000
-          },
-          "nonfarmNonresidential": {
-            "loans": 234293000,
-            "noncurrent": 9779000
-          }
-        },
-        "creToTotalAssets": 38.0,
-        "nonOwnerOccCreToRiskBasedCapital": null,
-        "nonOwnerOccCreToEquity": 138.5,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/26395",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 13.52,
-          "noncurrentCre": 76716000
-        },
-        "rank": 7
-      },
-      {
-        "name": "FLAGSTAR BANK NATIONAL ASSN",
-        "city": "HICKSVILLE",
-        "state": "NY",
-        "cert": 32541,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 87714456000,
-        "creLoans": 35271300000,
-        "noncurrentCre": 2654818000,
-        "noncurrentCreShare": 7.53,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 1369994000,
-            "noncurrent": 124319000
-          },
-          "multifamily": {
-            "loans": 26921613000,
-            "noncurrent": 2169857000
-          },
-          "nonfarmNonresidential": {
-            "loans": 6979693000,
-            "noncurrent": 360642000
-          }
-        },
-        "creToTotalAssets": 40.21,
-        "nonOwnerOccCreToRiskBasedCapital": 327.5,
-        "nonOwnerOccCreToEquity": 402.4,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/32541",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 6.91,
-          "noncurrentCre": 2953879000
-        },
-        "rank": 8
-      },
-      {
-        "name": "LINCOLN SAVINGS BANK",
-        "city": "REINBECK",
-        "state": "IA",
-        "cert": 14207,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 1712237000,
-        "creLoans": 591319000,
-        "noncurrentCre": 42543000,
-        "noncurrentCreShare": 7.19,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 56474000,
-            "noncurrent": 3386000
-          },
-          "multifamily": {
-            "loans": 175254000,
-            "noncurrent": 5839000
-          },
-          "nonfarmNonresidential": {
-            "loans": 359591000,
-            "noncurrent": 33318000
-          }
-        },
-        "creToTotalAssets": 34.53,
-        "nonOwnerOccCreToRiskBasedCapital": 254.8,
-        "nonOwnerOccCreToEquity": 266.3,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/14207",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 4.63,
-          "noncurrentCre": 29970000
-        },
-        "rank": 9
-      },
-      {
-        "name": "PATHFINDER BANK",
-        "city": "OSWEGO",
-        "state": "NY",
-        "cert": 57497,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 1485888000,
-        "creLoans": 353380000,
-        "noncurrentCre": 25183000,
-        "noncurrentCreShare": 7.13,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 26511000,
-            "noncurrent": 0
-          },
-          "multifamily": {
-            "loans": 44420000,
-            "noncurrent": 4399000
-          },
-          "nonfarmNonresidential": {
-            "loans": 282449000,
-            "noncurrent": 20784000
-          }
-        },
-        "creToTotalAssets": 23.78,
-        "nonOwnerOccCreToRiskBasedCapital": 187.1,
-        "nonOwnerOccCreToEquity": 200.6,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/57497",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 1.13,
-          "noncurrentCre": 3930000
-        },
-        "rank": 10
-      },
-      {
-        "name": "STIFEL BANK&TRUST",
-        "city": "SAINT LOUIS",
-        "state": "MO",
-        "cert": 57311,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 19620017000,
-        "creLoans": 1382873000,
-        "noncurrentCre": 91296000,
-        "noncurrentCreShare": 6.6,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 974458000,
-            "noncurrent": 91296000
-          },
-          "multifamily": {
-            "loans": 0,
-            "noncurrent": 0
-          },
-          "nonfarmNonresidential": {
-            "loans": 408415000,
-            "noncurrent": 0
-          }
-        },
-        "creToTotalAssets": 7.05,
-        "nonOwnerOccCreToRiskBasedCapital": 95.2,
-        "nonOwnerOccCreToEquity": 101.7,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/57311",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 2.46,
-          "noncurrentCre": 40408000
-        },
-        "rank": 11
-      },
-      {
-        "name": "GOLDMAN SACHS BANK USA",
-        "city": "NEW YORK",
-        "state": "NY",
-        "cert": 33124,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 758788000000,
-        "creLoans": 13518000000,
-        "noncurrentCre": 844000000,
-        "noncurrentCreShare": 6.24,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 4183000000,
-            "noncurrent": 20000000
-          },
-          "multifamily": {
-            "loans": 2238000000,
-            "noncurrent": 54000000
-          },
-          "nonfarmNonresidential": {
-            "loans": 7097000000,
-            "noncurrent": 770000000
-          }
-        },
-        "creToTotalAssets": 1.78,
-        "nonOwnerOccCreToRiskBasedCapital": 20.7,
-        "nonOwnerOccCreToEquity": 22.3,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/33124",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 4.45,
-          "noncurrentCre": 572000000
-        },
-        "rank": 12
-      },
-      {
-        "name": "NEWTEK BANK NATIONAL ASSN",
-        "city": "MIAMI",
-        "state": "FL",
-        "cert": 18734,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 2473353000,
-        "creLoans": 1039581000,
-        "noncurrentCre": 61686000,
-        "noncurrentCreShare": 5.93,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 105514000,
-            "noncurrent": 3620000
-          },
-          "multifamily": {
-            "loans": 154812000,
-            "noncurrent": 849000
-          },
-          "nonfarmNonresidential": {
-            "loans": 779255000,
-            "noncurrent": 57217000
-          }
-        },
-        "creToTotalAssets": 42.03,
-        "nonOwnerOccCreToRiskBasedCapital": 219.3,
-        "nonOwnerOccCreToEquity": 229.7,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/18734",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 5.57,
-          "noncurrentCre": 30412000
-        },
-        "rank": 13
-      },
-      {
-        "name": "FIDELITY COOP BANK",
-        "city": "LEOMINSTER",
-        "state": "MA",
-        "cert": 26451,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 1310138000,
-        "creLoans": 411240000,
-        "noncurrentCre": 21898000,
-        "noncurrentCreShare": 5.32,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 43934000,
-            "noncurrent": 4518000
-          },
-          "multifamily": {
-            "loans": 84867000,
-            "noncurrent": 0
-          },
-          "nonfarmNonresidential": {
-            "loans": 282439000,
-            "noncurrent": 17380000
-          }
-        },
-        "creToTotalAssets": 31.39,
-        "nonOwnerOccCreToRiskBasedCapital": null,
-        "nonOwnerOccCreToEquity": 216.5,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/26451",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 1.66,
-          "noncurrentCre": 7685000
-        },
-        "rank": 14
-      },
-      {
-        "name": "NORTHWEST BANK",
-        "city": "BOISE",
-        "state": "ID",
-        "cert": 58752,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 1453753000,
-        "creLoans": 527391000,
-        "noncurrentCre": 27721000,
-        "noncurrentCreShare": 5.26,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 109436000,
-            "noncurrent": 1765000
-          },
-          "multifamily": {
-            "loans": 22161000,
-            "noncurrent": 0
-          },
-          "nonfarmNonresidential": {
-            "loans": 395794000,
-            "noncurrent": 25956000
-          }
-        },
-        "creToTotalAssets": 36.28,
-        "nonOwnerOccCreToRiskBasedCapital": null,
-        "nonOwnerOccCreToEquity": 177.7,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/58752",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 3.22,
-          "noncurrentCre": 17805000
-        },
-        "rank": 15
-      },
-      {
-        "name": "MORGAN STANLEY BANK NA",
-        "city": "SALT LAKE CITY",
-        "state": "UT",
-        "cert": 32992,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 419318000000,
-        "creLoans": 9473000000,
-        "noncurrentCre": 495000000,
-        "noncurrentCreShare": 5.23,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 259000000,
-            "noncurrent": 20000000
-          },
-          "multifamily": {
-            "loans": 701000000,
-            "noncurrent": 0
-          },
-          "nonfarmNonresidential": {
-            "loans": 8513000000,
-            "noncurrent": 475000000
-          }
-        },
-        "creToTotalAssets": 2.26,
-        "nonOwnerOccCreToRiskBasedCapital": 22.0,
-        "nonOwnerOccCreToEquity": 22.8,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/32992",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 6.78,
-          "noncurrentCre": 604000000
-        },
-        "rank": 16
-      },
-      {
-        "name": "BANK OF WASHINGTON",
-        "city": "WASHINGTON",
-        "state": "MO",
-        "cert": 12627,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 1148041000,
-        "creLoans": 551934000,
-        "noncurrentCre": 27625000,
-        "noncurrentCreShare": 5.01,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 83615000,
-            "noncurrent": 10232000
-          },
-          "multifamily": {
-            "loans": 85155000,
-            "noncurrent": 15722000
-          },
-          "nonfarmNonresidential": {
-            "loans": 383164000,
-            "noncurrent": 1671000
-          }
-        },
-        "creToTotalAssets": 48.08,
-        "nonOwnerOccCreToRiskBasedCapital": null,
-        "nonOwnerOccCreToEquity": 282.7,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/12627",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 2.88,
-          "noncurrentCre": 16056000
-        },
-        "rank": 17
-      },
-      {
-        "name": "BANK OF LABOR",
-        "city": "OVERLAND PARK",
-        "state": "KS",
-        "cert": 1874,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 1110876000,
-        "creLoans": 225252000,
-        "noncurrentCre": 11205000,
-        "noncurrentCreShare": 4.97,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 45248000,
-            "noncurrent": 0
-          },
-          "multifamily": {
-            "loans": 37268000,
-            "noncurrent": 11205000
-          },
-          "nonfarmNonresidential": {
-            "loans": 142736000,
-            "noncurrent": 0
-          }
-        },
-        "creToTotalAssets": 20.28,
-        "nonOwnerOccCreToRiskBasedCapital": 130.8,
-        "nonOwnerOccCreToEquity": 236.8,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/1874",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 0.0,
-          "noncurrentCre": 0
-        },
-        "rank": 18
-      },
-      {
-        "name": "COUNTY NATIONAL BANK",
-        "city": "HILLSDALE",
-        "state": "MI",
-        "cert": 14073,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 1364594000,
-        "creLoans": 468982000,
-        "noncurrentCre": 23262000,
-        "noncurrentCreShare": 4.96,
-        "byType": {
-          "constructionAndLand": {
-            "loans": 101852000,
-            "noncurrent": 1526000
-          },
-          "multifamily": {
-            "loans": 32386000,
-            "noncurrent": 3072000
-          },
-          "nonfarmNonresidential": {
-            "loans": 334744000,
-            "noncurrent": 18664000
-          }
-        },
-        "creToTotalAssets": 34.37,
-        "nonOwnerOccCreToRiskBasedCapital": 174.4,
-        "nonOwnerOccCreToEquity": 191.7,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/14073",
-        "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 1.22,
-          "noncurrentCre": 5343000
-        },
-        "rank": 19
       },
       {
         "name": "TBK BANK SSB",
         "city": "DALLAS",
         "state": "TX",
         "cert": 23498,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 7399039000,
-        "creLoans": 860178000,
-        "noncurrentCre": 42518000,
-        "noncurrentCreShare": 4.94,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 7678185000,
+        "creLoans": 860077000,
+        "noncurrentCre": 95116000,
+        "noncurrentCreShare": 11.06,
         "byType": {
           "constructionAndLand": {
-            "loans": 194944000,
+            "loans": 203694000,
             "noncurrent": 0
           },
           "multifamily": {
-            "loans": 146212000,
-            "noncurrent": 97000
+            "loans": 137528000,
+            "noncurrent": 2531000
           },
           "nonfarmNonresidential": {
-            "loans": 519022000,
-            "noncurrent": 42421000
+            "loans": 518855000,
+            "noncurrent": 92585000
           }
         },
-        "creToTotalAssets": 11.63,
-        "nonOwnerOccCreToRiskBasedCapital": 94.2,
-        "nonOwnerOccCreToEquity": 64.1,
+        "creToTotalAssets": 11.2,
+        "nonOwnerOccCreToRiskBasedCapital": 93.3,
+        "nonOwnerOccCreToEquity": 64.6,
         "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/23498",
         "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 0.98,
-          "noncurrentCre": 9615000
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 0.8,
+          "noncurrentCre": 7731000
+        },
+        "rank": 5
+      },
+      {
+        "name": "INDUSTRIAL&COMMERCIAL BK CHI",
+        "city": "NEW YORK",
+        "state": "NY",
+        "cert": 24387,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 2794716000,
+        "creLoans": 1004951000,
+        "noncurrentCre": 110676000,
+        "noncurrentCreShare": 11.01,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 32486000,
+            "noncurrent": 0
+          },
+          "multifamily": {
+            "loans": 173350000,
+            "noncurrent": 6466000
+          },
+          "nonfarmNonresidential": {
+            "loans": 799115000,
+            "noncurrent": 104210000
+          }
+        },
+        "creToTotalAssets": 35.96,
+        "nonOwnerOccCreToRiskBasedCapital": 155.9,
+        "nonOwnerOccCreToEquity": 162.7,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/24387",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 11.54,
+          "noncurrentCre": 116719000
+        },
+        "rank": 6
+      },
+      {
+        "name": "NEWTEK BANK NATIONAL ASSN",
+        "city": "MIAMI",
+        "state": "FL",
+        "cert": 18734,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 2818850000,
+        "creLoans": 1216794000,
+        "noncurrentCre": 107272000,
+        "noncurrentCreShare": 8.82,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 126274000,
+            "noncurrent": 4604000
+          },
+          "multifamily": {
+            "loans": 167900000,
+            "noncurrent": 0
+          },
+          "nonfarmNonresidential": {
+            "loans": 922620000,
+            "noncurrent": 102668000
+          }
+        },
+        "creToTotalAssets": 43.17,
+        "nonOwnerOccCreToRiskBasedCapital": 224.9,
+        "nonOwnerOccCreToEquity": 240.0,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/18734",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 6.61,
+          "noncurrentCre": 40972000
+        },
+        "rank": 7
+      },
+      {
+        "name": "HOME FEDERAL BANK OF TN",
+        "city": "KNOXVILLE",
+        "state": "TN",
+        "cert": 29683,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 2735681000,
+        "creLoans": 580868000,
+        "noncurrentCre": 49221000,
+        "noncurrentCreShare": 8.47,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 143772000,
+            "noncurrent": 0
+          },
+          "multifamily": {
+            "loans": 38463000,
+            "noncurrent": 1907000
+          },
+          "nonfarmNonresidential": {
+            "loans": 398633000,
+            "noncurrent": 47314000
+          }
+        },
+        "creToTotalAssets": 21.23,
+        "nonOwnerOccCreToRiskBasedCapital": null,
+        "nonOwnerOccCreToEquity": 92.4,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/29683",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 0.88,
+          "noncurrentCre": 4768000
+        },
+        "rank": 8
+      },
+      {
+        "name": "FIRST ARKANSAS BANK&TRUST",
+        "city": "JACKSONVILLE",
+        "state": "AR",
+        "cert": 16849,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 1129794000,
+        "creLoans": 351469000,
+        "noncurrentCre": 28197000,
+        "noncurrentCreShare": 8.02,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 124991000,
+            "noncurrent": 1836000
+          },
+          "multifamily": {
+            "loans": 6534000,
+            "noncurrent": 0
+          },
+          "nonfarmNonresidential": {
+            "loans": 219944000,
+            "noncurrent": 26361000
+          }
+        },
+        "creToTotalAssets": 31.11,
+        "nonOwnerOccCreToRiskBasedCapital": null,
+        "nonOwnerOccCreToEquity": 242.8,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/16849",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 1.81,
+          "noncurrentCre": 5703000
+        },
+        "rank": 9
+      },
+      {
+        "name": "FIDELITY COOP BANK",
+        "city": "LEOMINSTER",
+        "state": "MA",
+        "cert": 26451,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 1282757000,
+        "creLoans": 397042000,
+        "noncurrentCre": 31600000,
+        "noncurrentCreShare": 7.96,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 32085000,
+            "noncurrent": 0
+          },
+          "multifamily": {
+            "loans": 83307000,
+            "noncurrent": 7501000
+          },
+          "nonfarmNonresidential": {
+            "loans": 281650000,
+            "noncurrent": 24099000
+          }
+        },
+        "creToTotalAssets": 30.95,
+        "nonOwnerOccCreToRiskBasedCapital": null,
+        "nonOwnerOccCreToEquity": 220.9,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/26451",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 1.62,
+          "noncurrentCre": 7685000
+        },
+        "rank": 10
+      },
+      {
+        "name": "FLAGSTAR BANK NATIONAL ASSN",
+        "city": "HICKSVILLE",
+        "state": "NY",
+        "cert": 32541,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 87412410000,
+        "creLoans": 34152593000,
+        "noncurrentCre": 2691483000,
+        "noncurrentCreShare": 7.88,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 1281019000,
+            "noncurrent": 116303000
+          },
+          "multifamily": {
+            "loans": 25964557000,
+            "noncurrent": 2175069000
+          },
+          "nonfarmNonresidential": {
+            "loans": 6907017000,
+            "noncurrent": 400111000
+          }
+        },
+        "creToTotalAssets": 39.07,
+        "nonOwnerOccCreToRiskBasedCapital": 322.1,
+        "nonOwnerOccCreToEquity": 413.1,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/32541",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 7.36,
+          "noncurrentCre": 3020036000
+        },
+        "rank": 11
+      },
+      {
+        "name": "MUTUALONE BANK",
+        "city": "FRAMINGHAM",
+        "state": "MA",
+        "cert": 26395,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 1142799000,
+        "creLoans": 458834000,
+        "noncurrentCre": 35893000,
+        "noncurrentCreShare": 7.82,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 112765000,
+            "noncurrent": 29608000
+          },
+          "multifamily": {
+            "loans": 119371000,
+            "noncurrent": 162000
+          },
+          "nonfarmNonresidential": {
+            "loans": 226698000,
+            "noncurrent": 6123000
+          }
+        },
+        "creToTotalAssets": 40.15,
+        "nonOwnerOccCreToRiskBasedCapital": null,
+        "nonOwnerOccCreToEquity": 138.5,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/26395",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 12.1,
+          "noncurrentCre": 64747000
+        },
+        "rank": 12
+      },
+      {
+        "name": "GOLDMAN SACHS BANK USA",
+        "city": "NEW YORK",
+        "state": "NY",
+        "cert": 33124,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 789723000000,
+        "creLoans": 14483000000,
+        "noncurrentCre": 1023000000,
+        "noncurrentCreShare": 7.06,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 4750000000,
+            "noncurrent": 210000000
+          },
+          "multifamily": {
+            "loans": 2144000000,
+            "noncurrent": 52000000
+          },
+          "nonfarmNonresidential": {
+            "loans": 7589000000,
+            "noncurrent": 761000000
+          }
+        },
+        "creToTotalAssets": 1.83,
+        "nonOwnerOccCreToRiskBasedCapital": 22.6,
+        "nonOwnerOccCreToEquity": 25.9,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/33124",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 6.07,
+          "noncurrentCre": 789000000
+        },
+        "rank": 13
+      },
+      {
+        "name": "PATHFINDER BANK",
+        "city": "OSWEGO",
+        "state": "NY",
+        "cert": 57497,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 1484859000,
+        "creLoans": 354196000,
+        "noncurrentCre": 24456000,
+        "noncurrentCreShare": 6.9,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 26349000,
+            "noncurrent": 0
+          },
+          "multifamily": {
+            "loans": 52839000,
+            "noncurrent": 4399000
+          },
+          "nonfarmNonresidential": {
+            "loans": 275008000,
+            "noncurrent": 20057000
+          }
+        },
+        "creToTotalAssets": 23.85,
+        "nonOwnerOccCreToRiskBasedCapital": 185.2,
+        "nonOwnerOccCreToEquity": 211.3,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/57497",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 3.45,
+          "noncurrentCre": 11564000
+        },
+        "rank": 14
+      },
+      {
+        "name": "EMIGRANT BANK",
+        "city": "MIAMI",
+        "state": "FL",
+        "cert": 57083,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 5704294000,
+        "creLoans": 1243144000,
+        "noncurrentCre": 85163000,
+        "noncurrentCreShare": 6.85,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 239668000,
+            "noncurrent": 0
+          },
+          "multifamily": {
+            "loans": 534916000,
+            "noncurrent": 9718000
+          },
+          "nonfarmNonresidential": {
+            "loans": 468560000,
+            "noncurrent": 75445000
+          }
+        },
+        "creToTotalAssets": 21.79,
+        "nonOwnerOccCreToRiskBasedCapital": 98.8,
+        "nonOwnerOccCreToEquity": 99.0,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/57083",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 8.62,
+          "noncurrentCre": 119660000
+        },
+        "rank": 15
+      },
+      {
+        "name": "BLUE SKY BANK",
+        "city": "PAWHUSKA",
+        "state": "OK",
+        "cert": 14899,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 1387911000,
+        "creLoans": 565330000,
+        "noncurrentCre": 36379000,
+        "noncurrentCreShare": 6.44,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 87854000,
+            "noncurrent": 142000
+          },
+          "multifamily": {
+            "loans": 108733000,
+            "noncurrent": 32315000
+          },
+          "nonfarmNonresidential": {
+            "loans": 368743000,
+            "noncurrent": 3922000
+          }
+        },
+        "creToTotalAssets": 40.73,
+        "nonOwnerOccCreToRiskBasedCapital": null,
+        "nonOwnerOccCreToEquity": 303.7,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/14899",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 0.62,
+          "noncurrentCre": 3134000
+        },
+        "rank": 16
+      },
+      {
+        "name": "LINCOLN SAVINGS BANK",
+        "city": "REINBECK",
+        "state": "IA",
+        "cert": 14207,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 1738293000,
+        "creLoans": 584819000,
+        "noncurrentCre": 36850000,
+        "noncurrentCreShare": 6.3,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 60600000,
+            "noncurrent": 3437000
+          },
+          "multifamily": {
+            "loans": 175049000,
+            "noncurrent": 5839000
+          },
+          "nonfarmNonresidential": {
+            "loans": 349170000,
+            "noncurrent": 27574000
+          }
+        },
+        "creToTotalAssets": 33.64,
+        "nonOwnerOccCreToRiskBasedCapital": 250.0,
+        "nonOwnerOccCreToEquity": 274.7,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/14207",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 6.01,
+          "noncurrentCre": 36589000
+        },
+        "rank": 17
+      },
+      {
+        "name": "STEARNS BANK NATIONAL ASSN",
+        "city": "SAINT CLOUD",
+        "state": "MN",
+        "cert": 10988,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 3256975000,
+        "creLoans": 1176893000,
+        "noncurrentCre": 73302000,
+        "noncurrentCreShare": 6.23,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 455586000,
+            "noncurrent": 18447000
+          },
+          "multifamily": {
+            "loans": 130820000,
+            "noncurrent": 1006000
+          },
+          "nonfarmNonresidential": {
+            "loans": 590487000,
+            "noncurrent": 53849000
+          }
+        },
+        "creToTotalAssets": 36.13,
+        "nonOwnerOccCreToRiskBasedCapital": 152.2,
+        "nonOwnerOccCreToEquity": 150.9,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/10988",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 4.3,
+          "noncurrentCre": 47370000
+        },
+        "rank": 18
+      },
+      {
+        "name": "BANK OF WASHINGTON",
+        "city": "WASHINGTON",
+        "state": "MO",
+        "cert": 12627,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 1104907000,
+        "creLoans": 504901000,
+        "noncurrentCre": 27441000,
+        "noncurrentCreShare": 5.43,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 93534000,
+            "noncurrent": 10232000
+          },
+          "multifamily": {
+            "loans": 84767000,
+            "noncurrent": 15604000
+          },
+          "nonfarmNonresidential": {
+            "loans": 326600000,
+            "noncurrent": 1605000
+          }
+        },
+        "creToTotalAssets": 45.7,
+        "nonOwnerOccCreToRiskBasedCapital": null,
+        "nonOwnerOccCreToEquity": 249.9,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/12627",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 2.64,
+          "noncurrentCre": 14571000
+        },
+        "rank": 19
+      },
+      {
+        "name": "FIRST NB OF MCGREGOR",
+        "city": "MC GREGOR",
+        "state": "TX",
+        "cert": 3330,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 1101607000,
+        "creLoans": 424923000,
+        "noncurrentCre": 22818000,
+        "noncurrentCreShare": 5.37,
+        "byType": {
+          "constructionAndLand": {
+            "loans": 86576000,
+            "noncurrent": 10934000
+          },
+          "multifamily": {
+            "loans": 30866000,
+            "noncurrent": 4340000
+          },
+          "nonfarmNonresidential": {
+            "loans": 307481000,
+            "noncurrent": 7544000
+          }
+        },
+        "creToTotalAssets": 38.57,
+        "nonOwnerOccCreToRiskBasedCapital": 168.4,
+        "nonOwnerOccCreToEquity": 199.4,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/3330",
+        "yearEarlier": {
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 0.21,
+          "noncurrentCre": 784000
         },
         "rank": 20
       },
       {
-        "name": "CFG BANK",
-        "city": "LUTHERVILLE",
-        "state": "MD",
-        "cert": 34294,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 6121189000,
-        "creLoans": 2899676000,
-        "noncurrentCre": 140181000,
-        "noncurrentCreShare": 4.83,
+        "name": "FIRST WESTERN BANK&TRUST",
+        "city": "MINOT",
+        "state": "ND",
+        "cert": 19123,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 2394924000,
+        "creLoans": 871390000,
+        "noncurrentCre": 46603000,
+        "noncurrentCreShare": 5.35,
         "byType": {
           "constructionAndLand": {
-            "loans": 199865000,
-            "noncurrent": 0
+            "loans": 148175000,
+            "noncurrent": 24762000
           },
           "multifamily": {
-            "loans": 460578000,
-            "noncurrent": 135266000
+            "loans": 138424000,
+            "noncurrent": 0
           },
           "nonfarmNonresidential": {
-            "loans": 2239233000,
-            "noncurrent": 4915000
+            "loans": 584791000,
+            "noncurrent": 21841000
           }
         },
-        "creToTotalAssets": 47.37,
-        "nonOwnerOccCreToRiskBasedCapital": 238.7,
-        "nonOwnerOccCreToEquity": 263.4,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/34294",
+        "creToTotalAssets": 36.38,
+        "nonOwnerOccCreToRiskBasedCapital": null,
+        "nonOwnerOccCreToEquity": 220.3,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/19123",
         "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 6.1,
-          "noncurrentCre": 172203000
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 3.24,
+          "noncurrentCre": 25286000
         },
         "rank": 21
       },
       {
-        "name": "FIRST SOUTHERN BANK",
-        "city": "MARION",
-        "state": "IL",
-        "cert": 15565,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 1042148000,
-        "creLoans": 324610000,
-        "noncurrentCre": 15460000,
-        "noncurrentCreShare": 4.76,
+        "name": "AMARILLO NATIONAL BANK",
+        "city": "AMARILLO",
+        "state": "TX",
+        "cert": 14531,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 10449870000,
+        "creLoans": 1419276000,
+        "noncurrentCre": 74890000,
+        "noncurrentCreShare": 5.28,
         "byType": {
           "constructionAndLand": {
-            "loans": 46112000,
-            "noncurrent": 301000
+            "loans": 295707000,
+            "noncurrent": 0
           },
           "multifamily": {
-            "loans": 42080000,
-            "noncurrent": 178000
+            "loans": 6841000,
+            "noncurrent": 0
           },
           "nonfarmNonresidential": {
-            "loans": 236418000,
-            "noncurrent": 14981000
+            "loans": 1116728000,
+            "noncurrent": 74890000
           }
         },
-        "creToTotalAssets": 31.15,
-        "nonOwnerOccCreToRiskBasedCapital": null,
-        "nonOwnerOccCreToEquity": 187.2,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/15565",
+        "creToTotalAssets": 13.58,
+        "nonOwnerOccCreToRiskBasedCapital": 45.8,
+        "nonOwnerOccCreToEquity": 48.6,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/14531",
         "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 2.12,
-          "noncurrentCre": 7170000
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 4.11,
+          "noncurrentCre": 55801000
         },
         "rank": 22
       },
       {
-        "name": "GBANK",
-        "city": "LAS VEGAS",
-        "state": "NV",
-        "cert": 58626,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 1427371000,
-        "creLoans": 1002858000,
-        "noncurrentCre": 47634000,
-        "noncurrentCreShare": 4.75,
+        "name": "INTERNATIONAL BK OF COM",
+        "city": "BROWNSVILLE",
+        "state": "TX",
+        "cert": 25679,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 4568205000,
+        "creLoans": 1025690000,
+        "noncurrentCre": 53793000,
+        "noncurrentCreShare": 5.24,
         "byType": {
           "constructionAndLand": {
-            "loans": 2256000,
+            "loans": 340529000,
             "noncurrent": 0
           },
           "multifamily": {
-            "loans": 18836000,
-            "noncurrent": 0
+            "loans": 170675000,
+            "noncurrent": 50902000
           },
           "nonfarmNonresidential": {
-            "loans": 981766000,
-            "noncurrent": 47634000
+            "loans": 514486000,
+            "noncurrent": 2891000
           }
         },
-        "creToTotalAssets": 70.26,
-        "nonOwnerOccCreToRiskBasedCapital": null,
-        "nonOwnerOccCreToEquity": 491.7,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/58626",
+        "creToTotalAssets": 22.45,
+        "nonOwnerOccCreToRiskBasedCapital": 126.2,
+        "nonOwnerOccCreToEquity": 161.2,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/25679",
         "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 2.08,
-          "noncurrentCre": 17603000
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 4.52,
+          "noncurrentCre": 43488000
         },
         "rank": 23
       },
       {
-        "name": "QUILL BANK",
-        "city": "PROVO",
-        "state": "UT",
-        "cert": 33823,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 1555310000,
-        "creLoans": 654448000,
-        "noncurrentCre": 30822000,
-        "noncurrentCreShare": 4.71,
+        "name": "MAINSTREET BANK",
+        "city": "FAIRFAX",
+        "state": "VA",
+        "cert": 57742,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 2231152000,
+        "creLoans": 1626732000,
+        "noncurrentCre": 84969000,
+        "noncurrentCreShare": 5.22,
         "byType": {
           "constructionAndLand": {
-            "loans": 110717000,
-            "noncurrent": 4040000
+            "loans": 310375000,
+            "noncurrent": 31601000
           },
           "multifamily": {
-            "loans": 54402000,
-            "noncurrent": 3732000
+            "loans": 241974000,
+            "noncurrent": 7072000
           },
           "nonfarmNonresidential": {
-            "loans": 489329000,
-            "noncurrent": 23050000
+            "loans": 1074383000,
+            "noncurrent": 46296000
           }
         },
-        "creToTotalAssets": 42.08,
-        "nonOwnerOccCreToRiskBasedCapital": 136.1,
-        "nonOwnerOccCreToEquity": 146.2,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/33823",
+        "creToTotalAssets": 72.91,
+        "nonOwnerOccCreToRiskBasedCapital": 374.4,
+        "nonOwnerOccCreToEquity": 408.6,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/57742",
         "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 2.07,
-          "noncurrentCre": 11026000
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 1.11,
+          "noncurrentCre": 16651000
         },
         "rank": 24
       },
       {
-        "name": "NORTHPOINTE BANK",
-        "city": "GRAND RAPIDS",
-        "state": "MI",
-        "cert": 34953,
-        "quarter": "Q2 2026",
-        "asOf": "2026-06-30",
-        "totalAssets": 7529347000,
-        "creLoans": 121519000,
-        "noncurrentCre": 5557000,
-        "noncurrentCreShare": 4.57,
+        "name": "BANK OF LABOR",
+        "city": "OVERLAND PARK",
+        "state": "KS",
+        "cert": 1874,
+        "quarter": "Q3 2026",
+        "asOf": "2026-09-30",
+        "totalAssets": 1109239000,
+        "creLoans": 244406000,
+        "noncurrentCre": 12308000,
+        "noncurrentCreShare": 5.04,
         "byType": {
           "constructionAndLand": {
-            "loans": 120849000,
-            "noncurrent": 5331000
-          },
-          "multifamily": {
-            "loans": 64000,
+            "loans": 56029000,
             "noncurrent": 0
           },
+          "multifamily": {
+            "loans": 37049000,
+            "noncurrent": 11008000
+          },
           "nonfarmNonresidential": {
-            "loans": 606000,
-            "noncurrent": 226000
+            "loans": 151328000,
+            "noncurrent": 1300000
           }
         },
-        "creToTotalAssets": 1.61,
-        "nonOwnerOccCreToRiskBasedCapital": 16.9,
-        "nonOwnerOccCreToEquity": 17.1,
-        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/34953",
+        "creToTotalAssets": 22.03,
+        "nonOwnerOccCreToRiskBasedCapital": 136.8,
+        "nonOwnerOccCreToEquity": 318.3,
+        "sourceUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/1874",
         "yearEarlier": {
-          "asOf": "2025-06-30",
-          "noncurrentCreShare": 4.44,
-          "noncurrentCre": 7753000
+          "asOf": "2025-09-30",
+          "noncurrentCreShare": 0.0,
+          "noncurrentCre": 0
         },
         "rank": 25
       }
