@@ -273,7 +273,16 @@
       <span><a class="text-accent" href="brief-2026-11-16.html">Issue 9 · Week of Nov 16, 2026 &rarr;</a></span>
     </div>
     <div class="card" style="padding:22px; margin-top:28px;">
-      <p style="font-size:14px; line-height:1.7; margin:0 0 8px;"><strong>Get it by email.</strong> The CRE Distress Brief: the week's lawsuits, bankruptcies, CMBS defaults and foreclosure postings, every Monday. <a class="text-accent" href="briefs.html">Subscribe free</a>.</p>
+      <form class="nl-inline" data-newsletter-form data-newsletter-source="brief:2026-11-09" novalidate>
+        <p class="nl-inline-title">The CRE Distress Brief, every Monday</p>
+        <p class="nl-inline-sub">The week's commercial real estate lawsuits, bankruptcies, CMBS defaults and foreclosure postings, with charts and what the numbers say. Free; unsubscribe in one click.</p>
+        <div class="gate-form">
+          <label class="sr-only" for="nl-inline-email">Email address</label>
+          <input type="email" id="nl-inline-email" autocomplete="email" placeholder="you@company.com" />
+          <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+        </div>
+        <p class="gate-form-status" data-newsletter-status role="status"></p>
+      </form>
       <p class="text-muted" style="font-size:13px; margin:0;">Browse everything in the <a class="text-accent" href="litigation.html">litigation tracker</a>, or get alerts on your own tenants, borrowers and guarantors with <a class="text-accent" href="monitor.html">CREdocket Monitor</a>.</p>
     </div>
   </div>
@@ -377,6 +386,7 @@
   }
 </script>
 <script src="js/main.js"></script>
+<script src="js/newsletter-form.js"></script>
 <script src="js/track.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>

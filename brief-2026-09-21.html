@@ -179,7 +179,17 @@
 
     <div class="card" style="padding:22px; margin-top:36px;">
       <p style="font-size:14px; line-height:1.7; margin:0 0 8px;"><strong>CREdocket Briefs</strong> is a weekly memo on commercial real estate litigation for owners, lenders, developers and their counsel. Every item comes from a sourced matter in the <a class="text-accent" href="litigation.html">tracker</a>. It is not legal advice.</p>
-      <p class="text-muted" style="font-size:13px; margin:0;">Want alerts on your own tenants, borrowers and guarantors instead? That is <a class="text-accent" href="monitor.html">CREdocket Monitor</a>.</p>
+      <form class="nl-inline" data-newsletter-form data-newsletter-source="brief:2026-09-21" novalidate>
+        <p class="nl-inline-title">The CRE Distress Brief, every Monday</p>
+        <p class="nl-inline-sub">The week's commercial real estate lawsuits, bankruptcies, CMBS defaults and foreclosure postings, with charts and what the numbers say. Free; unsubscribe in one click.</p>
+        <div class="gate-form">
+          <label class="sr-only" for="nl-inline-email">Email address</label>
+          <input type="email" id="nl-inline-email" autocomplete="email" placeholder="you@company.com" />
+          <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+        </div>
+        <p class="gate-form-status" data-newsletter-status role="status"></p>
+      </form>
+      <p class="text-muted" style="font-size:13px; margin:12px 0 0;">Want alerts on your own tenants, borrowers and guarantors instead? That is <a class="text-accent" href="monitor.html">CREdocket Monitor</a>.</p>
     </div>
   </div>
 </section>
@@ -282,6 +292,7 @@
   }
 </script>
 <script src="js/main.js"></script>
+<script src="js/newsletter-form.js"></script>
 <script src="js/track.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
