@@ -1,4 +1,12 @@
 {
   "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
-  "leads": []
+  "leads": [
+    {
+      "found": "2026-11-24",
+      "title": "BMK Enterprises v. Bailey Enterprises of Montana (Montana Supreme Court, 2026 MT 102, decided May 12, 2026) -- right-of-first-refusal dispute over adjacent commercial property",
+      "urls": ["https://www.leagle.com/decision/inmtco20260512431"],
+      "why": "Queued for the geographic-diversity requirement: Montana has only 1 matter currently tracked in js/data.js, by far the fewest of any state along with several others. This is a genuine Montana Supreme Court decision involving a dispute between two named commercial entities (BMK Enterprises and Bailey Enterprises of Montana) over a right of first refusal on adjacent commercial property tied to a 2018 sale. It is a verifiable primary source (a published opinion) but is more than 7 days old (decided 6+ months ago) and was not independently newly reported by trade press as far as this routine's WebSearch found, so it cannot be a featured flagship and may not clear the 'significant and newly reported' bar for an older event -- flagging for the local newsroom (which can open the full opinion) to read the decision and decide whether it supports a matter.",
+      "eventDate": "2026-05-12"
+    }
+  ]
 }

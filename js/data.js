@@ -227,7 +227,8 @@ const RELAW_DATA = {
         { when: "March 1, 2026", label: "RAD Diversified REIT files for Chapter 11 in the Middle District of Florida" },
         { when: "July 29, 2026", label: "SEC sues RAD Diversified REIT, its two founders and relief defendant The Seminar Solution" },
         { when: "October 23, 2026", label: "SEC files unopposed motion to approve a consent judgment as to the REIT (docket entry 21)" },
-        { when: "November 3, 2026", label: "Court enters case management and scheduling order", current: true }
+        { when: "November 3, 2026", label: "Court enters case management and scheduling order" },
+        { when: "November 24, 2026", label: "Docket shows an answer to the complaint filed and a notice of lead counsel designation (docket entries 31-32)", current: true }
       ],
       documentUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26596",
       documentLabel: "Read the SEC litigation release",
@@ -6675,7 +6676,8 @@ const RELAW_DATA = {
         { when: "August 14, 2025", label: "Court appoints the Hayman Company as receiver" },
         { when: "February 12, 2026", label: "After a letter from the City of Cleveland, the court orders the receiver to file weekly status reports" },
         { when: "April 14, 2026", label: "Court enters a consent in rem judgment and judgment in mortgage foreclosure; the receivership remains in place" },
-        { when: "September 28, 2026", label: "City of Cleveland moves to intervene, citing 19 open code-violation notices", current: true }
+        { when: "September 28, 2026", label: "City of Cleveland moves to intervene, citing 19 open code-violation notices" },
+        { when: "November 24, 2026", label: "Court grants an extension of time to respond to the motion to intervene", current: true }
       ],
       tags: ["foreclosure", "multifamily", "municipal-intervention", "receivership", "code-enforcement"],
       docketUrl: "https://www.courtlistener.com/docket/70867976/fannie-mae-v-reserve-apartments-ltd/",
@@ -7409,7 +7411,8 @@ const RELAW_DATA = {
         { when: "April 15, 2025", label: "Port ends the cost-sharing agreement after a reimbursement dispute" },
         { when: "February 20, 2026", label: "Port sues PQ LLC in the Western District of Washington" },
         { when: "March 26, 2026", label: "PQ files an answer and counterclaim" },
-        { when: "November 16, 2026", label: "Parties file a joint status report", current: true }
+        { when: "November 16, 2026", label: "Parties file a joint status report" },
+        { when: "November 24, 2026", label: "Court enters a minute order (docket entry 19)", current: true }
       ],
       docketUrl: "https://www.courtlistener.com/docket/72309125/port-of-tacoma-v-pq-llc/",
       docketLabel: "CourtListener docket"

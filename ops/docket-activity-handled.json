@@ -204,6 +204,26 @@
    "caseId": "live-101",
    "at": "2026-11-21",
    "action": "docket text only -- WebSearch found no secondary reporting on this Nov 20, 2026 memorandum opinion and order (entry 186) in Dillard Store Services v. Winrock Partners LLC; added a timeline entry restating the docket text without changing status, since no source states what the opinion held"
+  },
+  "73687065:31:2026-11-24:answer to complaint": {
+   "caseId": "live-005",
+   "at": "2026-11-24",
+   "action": "docket text only -- WebSearch found no secondary reporting on a November 24, 2026 answer to the complaint or notice of lead counsel designation in SEC v. RAD Diversified REIT (entries 31-32); added one combined timeline entry restating the docket text, without changing status or summary"
+  },
+  "73687065:32:2026-11-24:notice of lead counsel designation": {
+   "caseId": "live-005",
+   "at": "2026-11-24",
+   "action": "docket text only -- same combined timeline entry covering entries 31-32, see entry 31 above"
+  },
+  "72309125:19:2026-11-24:2 - minute order": {
+   "caseId": "live-260",
+   "at": "2026-11-24",
+   "action": "docket text only -- WebSearch found no secondary reporting (Law360's case page for Port of Tacoma v. PQ LLC shows no coverage past the March 2026 counterclaim); added a timeline entry restating the docket text (minute order, entry 19) without changing status"
+  },
+  "70867976::2026-11-24:order on motion for extension of time to file response/reply to motion": {
+   "caseId": "live-224",
+   "at": "2026-11-24",
+   "action": "docket text only -- WebSearch found no November 2026 coverage of Reserve Square past the spring 2026 auction reporting; added a timeline entry restating the docket text (order granting an extension of time to respond to the motion to intervene) without changing status"
   }
  }
 }

@@ -3071,6 +3071,62 @@
   "note:prologis-trenton-update-2026-11-24": {
    "at": "2026-11-24",
    "action": "not a lead, flagged for newsroom -- already-tracked matter (Prologis v. City of Trenton, Ohio) has a reported post-filing development not yet reflected in js/data.js: per Spectrum News 1 (2026-11-17) and WCPO, Trenton residents' attorneys have formally demanded the city revoke Project Mila's zoning certificate and are exploring intervention in Prologis's federal suit; cloud routine cannot edit this outcome into the matter itself (not a CourtListener docket-text entry), so leaving for local newsroom to verify and add as a timeline update if warranted"
+  },
+  "petition:https://www.courtlistener.com/docket/75166179/4935-jimmy-carter-llc/": {
+   "at": "2026-11-24",
+   "action": "skipped: no coverage found explaining the filing (4935 Jimmy Carter, LLC, N.D. Ga. Ch. 11, filed 2026-11-24; single-asset LLC named for a Jimmy Carter Blvd address, no secondary reporting)"
+  },
+  "petition:https://www.courtlistener.com/docket/75166478/1173-s-hairston-llc/": {
+   "at": "2026-11-24",
+   "action": "skipped: no coverage found explaining the filing (1173 S Hairston, LLC, N.D. Ga. Ch. 11, filed 2026-11-24; single-asset LLC named for address, no secondary reporting)"
+  },
+  "petition:https://www.courtlistener.com/docket/75168892/1115-stallion-llc/": {
+   "at": "2026-11-24",
+   "action": "skipped: no coverage found explaining the filing (1115 Stallion LLC, S.D. Fla. Ch. 11, filed 2026-11-24, West Palm Beach; a repeat filing after an earlier Ch. 11 dismissed Oct. 2025, but no secondary reporting on either case)"
+  },
+  "petition:https://www.courtlistener.com/docket/75162599/ez-lor-realty-llc/": {
+   "at": "2026-11-24",
+   "action": "skipped: no coverage found explaining the filing (E.Z. LOR Realty LLC, S.D.N.Y. Ch. 11; docket aggregator shows an earlier related case no. 26-11173 filed May 2026, but no secondary reporting on either filing)"
+  },
+  "petition:https://www.courtlistener.com/docket/75161217/87-uptown-llc/": {
+   "at": "2026-11-24",
+   "action": "skipped: no coverage found explaining the filing (87 Uptown LLC, N.D.N.Y. Ch. 11, filed 2026-11-23; no secondary reporting found, only unrelated similarly-named entities)"
+  },
+  "petition:https://www.courtlistener.com/docket/75158346/388-prosper-llc/": {
+   "at": "2026-11-24",
+   "action": "skipped: no coverage found explaining the filing (388 Prosper LLC, S.D. Fla. Ch. 11, filed 2026-11-23, Miami; an unrelated prior Ch. 11 by the same-named debtor was dismissed Feb. 2026, no secondary reporting on either)"
+  },
+  "petition:https://www.courtlistener.com/docket/75149152/roque-estate-development-llc/": {
+   "at": "2026-11-24",
+   "action": "skipped: no coverage found explaining the filing (Roque Estate Development LLC, E.D.N.Y. Ch. 11, filed 2026-11-20; no secondary reporting found)"
+  },
+  "petition:https://www.courtlistener.com/docket/75152275/pps-realty-800-george-st-llc/": {
+   "at": "2026-11-24",
+   "action": "skipped: no coverage found explaining the filing (PPS Realty 800 George St., LLC, D.N.J. Ch. 11, filed 2026-11-20, Plainfield NJ office/industrial property; a docket aggregator shows a prior related case no. 2:26-bk-10135 filed Jan. 2026 with a Section 363 sale order, but no secondary reporting on either case)"
+  },
+  "petition:https://www.courtlistener.com/docket/75149356/1906-poole-road-llc/": {
+   "at": "2026-11-24",
+   "action": "skipped: no coverage found explaining the filing (1906 Poole Road, LLC, E.D.N.C. Ch. 11, filed 2026-11-20; no secondary reporting found)"
+  },
+  "https://www.courtlistener.com/docket/75168985/cooperstown-properties-llc-v-redbird-capital-partners-management-llc/": {
+   "at": "2026-11-24",
+   "action": "skipped: no coverage found explaining the dispute (Cooperstown Properties, LLC v. RedBird Capital Partners Management, LLC, N.D.N.Y., filed 2026-11-24 as a miscellaneous case; RedBird is a large, well-known PE firm but no reporting ties it to this specific filing -- found only an unrelated 2024 Cooperstown Properties v. OneTeam Partners case)"
+  },
+  "https://www.courtlistener.com/docket/75159556/district-of-columbia-v-innercity-collaborative-community-development/": {
+   "at": "2026-11-24",
+   "action": "skipped: no coverage found explaining the dispute (District of Columbia v. InnerCity Collaborative Community Development Corporation, D.D.C., filed 2026-11-23, an interpleader action; no secondary reporting found)"
+  },
+  "0000003545-26-000054:amendedandrestatedleaseagr.htm": {
+   "at": "2026-11-24",
+   "action": "skipped: not a litigation disclosure -- ALICO 10-K exhibit is a standard lease subordination/attornment/estoppel clause (boilerplate 'deed in lieu of foreclosure' language), not an actual dispute"
+  },
+  "search:big-players-beat-2026-11-24-22utc": {
+   "at": "2026-11-24",
+   "action": "skipped: 22:00 UTC big-players beat (REIT securities suits, sponsor/fund disputes, JV fights, brokerage/proptech suits, SEC/state enforcement) -- searches surfaced only already-tracked matters (Arbor Realty Trust shareholder suit over $1.25B problem-loan disclosures, already in js/data.js) or stale items with no fresh filing/ruling in the last 3-7 days (CoStar/brokerage price-fixing suit from June 2026, Aimco v. IQHQ, Copper Mill v. POB/Pactolus from Oct. 2026); no fresh, unduplicated commercial real estate story cleared the bar this run"
+  },
+  "search:idaho-montana-geographic-diversity-2026-11-24-22utc": {
+   "at": "2026-11-24",
+   "action": "queued as lead -- Idaho search found only stale/unclear-scope items (Pocatello $21M land dispute of unknown date, PI Tower Development v. Bonner County filed April 2026, undated landlord-tenant opinion); Montana search found BMK Enterprises v. Bailey Enterprises (2026 MT 102, decided May 12, 2026), a genuine Montana Supreme Court commercial-property right-of-first-refusal decision -- queued to ops/digest-leads.json given Montana has only 1 tracked matter, despite being older than the freshness preference"
   }
  }
 }
