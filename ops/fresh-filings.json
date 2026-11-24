@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T22:54:20+00:00",
+ "updatedAt": "2026-11-24T06:19:33+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -66,50 +66,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75149356/1906-poole-road-llc/",
    "docketId": 75149356,
    "slug": "1906-poole-road-llc-nceb-26-05307",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "41-24 Associates LLC",
-   "court": "United States Bankruptcy Court, E.D. New York",
-   "courtId": "nyeb",
-   "docketNumber": "1-26-45389",
-   "dateFiled": "2026-11-19",
-   "docketUrl": "https://www.courtlistener.com/docket/75148383/41-24-associates-llc/",
-   "docketId": 75148383,
-   "slug": "41-24-associates-llc-nyeb-1-26-45389",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "3 Beech Brook Developement LLC",
-   "court": "United States Bankruptcy Court, D. Massachusetts",
-   "courtId": "mab",
-   "docketNumber": "26-12754",
-   "dateFiled": "2026-11-19",
-   "docketUrl": "https://www.courtlistener.com/docket/75148215/3-beech-brook-developement-llc/",
-   "docketId": 75148215,
-   "slug": "3-beech-brook-developement-llc-mab-26-12754",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "3 BEECH BROOK DEVELOPMENT LLC",
-   "court": "United States Bankruptcy Court, D. Massachusetts",
-   "courtId": "mab",
-   "docketNumber": "26-12754",
-   "dateFiled": "2026-11-19",
-   "docketUrl": "https://www.courtlistener.com/docket/75148215/3-beech-brook-development-llc/",
-   "docketId": 75148215,
-   "slug": "3-beech-brook-development-llc-mab-26-12754",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "232 Old River Edge NJ LLC",
-   "court": "United States Bankruptcy Court, D. New Jersey",
-   "courtId": "njb",
-   "docketNumber": "26-23142",
-   "dateFiled": "2026-11-19",
-   "docketUrl": "https://www.courtlistener.com/docket/75148906/232-old-river-edge-nj-llc/",
-   "docketId": 75148906,
-   "slug": "232-old-river-edge-nj-llc-njb-26-23142",
    "type": "Chapter 11 petition"
   }
  ]
