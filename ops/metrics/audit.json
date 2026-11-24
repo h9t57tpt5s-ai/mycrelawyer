@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-11-22T20:49:07+00:00",
- "pagesChecked": 937,
+ "generatedAt": "2026-11-24T01:52:30+00:00",
+ "pagesChecked": 947,
  "pagesByFolder": {
-  "root": 235,
-  "matters": 364,
-  "chapter-11": 199,
-  "federal-cases": 139
+  "root": 236,
+  "matters": 369,
+  "chapter-11": 202,
+  "federal-cases": 140
  },
  "summary": {
   "zeroStatCounters": 0,
@@ -25,15 +25,15 @@
   "heavyPages": 0
  },
  "freshness": {
-  "matters": 364,
-  "newestMatterAdded": "2026-11-22",
-  "daysSinceNewestMatter": 0,
-  "ch11Petitions": 199,
-  "newestCh11Petition": "2026-11-20",
-  "daysSinceNewestCh11": 2,
-  "federalSuits": 139,
-  "newestFederalSuit": "2026-11-17",
-  "daysSinceNewestSuit": 5
+  "matters": 369,
+  "newestMatterAdded": "2026-11-23",
+  "daysSinceNewestMatter": 1,
+  "ch11Petitions": 202,
+  "newestCh11Petition": "2026-11-23",
+  "daysSinceNewestCh11": 1,
+  "federalSuits": 140,
+  "newestFederalSuit": "2026-11-21",
+  "daysSinceNewestSuit": 3
  },
  "findings": {
   "zeroStatCounters": [],
