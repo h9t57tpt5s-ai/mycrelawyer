@@ -3003,6 +3003,34 @@
     "search:rhode-island-cre-foreclosure-2026": {
       "at": "2026-11-23",
       "action": "skipped: geographic-diversity search (RI) -- found only a residential/consumer foreclosure ruling (lost promissory note), a residential federal docket entry, a foreclosure-rescue consumer-fraud suit, and an inconclusive receivership appeal with no stated property type; no commercial real estate matter cleared the bar"
+    },
+    "petition:https://www.courtlistener.com/docket/75162599/ez-lor-realty-llc/": {
+      "at": "2026-11-24",
+      "action": "skipped: no coverage found explaining the filing (single-asset NJ-addressed LLC, SDNY Ch. 11 filed 2026-11-23; only docket aggregator listings found)"
+    },
+    "petition:https://www.courtlistener.com/docket/75161217/87-uptown-llc/": {
+      "at": "2026-11-24",
+      "action": "skipped: no coverage found explaining the filing; no matching entity located at all (closest name matches, e.g. 87-40 165th Street LLC, are unrelated debtors)"
+    },
+    "petition:https://www.courtlistener.com/docket/75158346/388-prosper-llc/": {
+      "at": "2026-11-24",
+      "action": "skipped: no coverage found explaining this filing (S.D. Fla. Ch. 11, 2026-11-23); the only '388 Prosper LLC' coverage found is an unrelated, already-dismissed 2025 case (1:25-bk-20745, dismissed 2026-02-06), not this docket"
+    },
+    "https://www.courtlistener.com/docket/75157544/brookville-gardens-development-llc-v-nef-fre-affordable-housing-fund/": {
+      "at": "2026-11-24",
+      "action": "skipped: no coverage found explaining the dispute (filed 2026-11-21, N.D. Miss.); WebSearch found only an unrelated NEF dispute (Workforce Housing Partners v. Nef, Sweetwater FL student housing)"
+    },
+    "0000003545-26-000054:amendedandrestatedleaseagr.htm": {
+      "at": "2026-11-24",
+      "action": "skipped: boilerplate SNDA/estoppel lease clause exhibit (Alico, Inc.), not an actual dispute or litigation disclosure"
+    },
+    "search:cmbs-distress-beat-2026-11-24": {
+      "at": "2026-11-24",
+      "action": "skipped: lending/distress beat search surfaced only already-tracked matters (Wells Fargo v. Workspace Property Trust live-?, SL Green/RXR Worldwide Plaza, Pembroke Lakes Mall), confirmed via grep of js/data.js -- no new CMBS foreclosure/receivership story found"
+    },
+    "search:north-dakota-epic-companies-adversary-2026-11-24": {
+      "at": "2026-11-24",
+      "action": "skipped: geographic-diversity search (ND has 0 tracked matters) -- EPIC Companies Midwest/EOLA Capital liquidating-trust adversary proceeding against HI West Acres LLC (~$897K fraudulent-transfer claim, Fargo bankruptcy court); jury trial began 2026-10-06 per Valley News Live, no verdict found, outside freshness window and not newly reported"
     }
   }
 }
