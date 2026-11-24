@@ -27,7 +27,7 @@
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"8938 Monogram, LLC — Chapter 11 case","description":"A Chapter 11 bankruptcy case for 8938 Monogram, LLC opened in the U.S. Bankruptcy Court, C.D. California on November 3, 2026 (case no. 2:26-bk-21149). Court record, latest orders and case alerts.","url":"https://credocket.com/chapter-11/8938-monogram-llc-cacb-2-26-bk-21149.html","datePublished":"2026-11-03","dateModified":"2026-11-04","about":[{"@type":"Organization","name":"8938 Monogram, LLC"}],"publisher":{"@type":"Organization","name":"CREdocket","url":"https://credocket.com"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Chapter 11 Watch","item":"https://credocket.com/bankruptcy-watch.html"},{"@type":"ListItem","position":2,"name":"8938 Monogram, LLC","item":"https://credocket.com/chapter-11/8938-monogram-llc-cacb-2-26-bk-21149.html"}]}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"8938 Monogram, LLC — Chapter 11 case","description":"A Chapter 11 bankruptcy case for 8938 Monogram, LLC opened in the U.S. Bankruptcy Court, C.D. California on November 3, 2026 (case no. 2:26-bk-21149). Court record, latest orders and case alerts.","url":"https://credocket.com/chapter-11/8938-monogram-llc-cacb-2-26-bk-21149.html","datePublished":"2026-11-03","dateModified":"2026-11-23","about":[{"@type":"Organization","name":"8938 Monogram, LLC"}],"publisher":{"@type":"Organization","name":"CREdocket","url":"https://credocket.com"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Chapter 11 Watch","item":"https://credocket.com/bankruptcy-watch.html"},{"@type":"ListItem","position":2,"name":"8938 Monogram, LLC","item":"https://credocket.com/chapter-11/8938-monogram-llc-cacb-2-26-bk-21149.html"}]}]}</script>
   </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -177,10 +177,11 @@
     <h2 class="matter-h2" style="margin-top:32px;">Latest orders and rulings</h2>
     
     <ul class="docket-activity-list">
+      <li><span class="docket-activity-date">Nov 23, 2026</span><span class="docket-activity-text"><a href="https://www.courtlistener.com/docket/75064106/17/8938-monogram-llc/" target="_blank" rel="noopener">For Order Employing Professional (Ch 11)-(LBR 2014-1) (motion)</a> <span class="docket-activity-no">No. 17</span></span></li>
       <li><span class="docket-activity-date">Nov 4, 2026</span><span class="docket-activity-text"><span class="docket-activity-flag">Ruling</span><a href="https://www.courtlistener.com/docket/75064106/7/8938-monogram-llc/" target="_blank" rel="noopener">Notice of Dismissal of Case If Required Documents Are Not Filed Within 72 Hours (VAN-197)</a> <span class="docket-activity-no">No. 7</span></span></li>
       <li><span class="docket-activity-date">Nov 3, 2026</span><span class="docket-activity-text"><a href="https://www.courtlistener.com/docket/75064106/3/8938-monogram-llc/" target="_blank" rel="noopener">Order setting initial status conference in chapter 11 case (BNC-PDF)</a> <span class="docket-activity-no">No. 3</span></span></li>
     </ul>
-    <p class="text-secondary docket-activity-note">Orders, judgments, dismissals and closings from the docket via CourtListener, checked Nov 23, 2026. CREdocket checks each case daily for its first 30 days, and for as long as anyone follows it. Entries reach CourtListener with some delay, and not every entry does.</p>
+    <p class="text-secondary docket-activity-note">Orders, judgments, dismissals and closings from the docket via CourtListener, checked Nov 24, 2026. CREdocket checks each case daily for its first 30 days, and for as long as anyone follows it. Entries reach CourtListener with some delay, and not every entry does.</p>
 
     <div class="matter-cta-row">
       <div class="card matter-cta" data-follow-box data-follow="{&quot;docketId&quot;:75064106,&quot;label&quot;:&quot;8938 Monogram, LLC (Chapter 11, C.D. California)&quot;,&quot;path&quot;:&quot;/chapter-11/8938-monogram-llc-cacb-2-26-bk-21149.html&quot;}">
@@ -284,5 +285,42 @@
 <script src="/js/supabase-client.js"></script>
 <script src="/js/auth.js"></script>
 <script src="/js/motion.js"></script>
+<script>
+  // The three jobs below refresh daily, but the git-add step that commits
+  // this page's own prerendered HTML after a build does not currently
+  // include alert-log.html (G22 in ops/improvement-playbook.md), so the
+  // table was going stale for a day or more at a time even though the
+  // underlying ops/market-pulse.json, ops/nyc-commercial-distress.json and
+  // js/radar-data.json files were current. Re-reading those same three
+  // files in the browser and rebuilding the table client-side -- the exact
+  // same fields and copy scripts/prerender.ts uses -- keeps this page
+  // honest regardless of whether that prerender step ran today. If a fetch
+  // fails, the prerendered table (last known-good) stays on screen.
+  (function () {
+    var el = document.getElementById("al-flagship-freshness");
+    if (!el) return;
+    function esc(s) {
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+      });
+    }
+    function row(job, note, last, status) {
+      return "<tr><td style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); vertical-align:top;\">" + esc(job) + "<div class=\"text-muted\" style=\"font-size:12px; margin-top:2px;\">" + note + "</div></td><td style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); vertical-align:top; white-space:nowrap;\">" + esc(last) + "</td><td style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); vertical-align:top;\">" + status + "</td></tr>";
+    }
+    Promise.all([
+      fetch("ops/market-pulse.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
+      fetch("ops/nyc-commercial-distress.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
+      fetch("js/radar-data.json", { cache: "no-cache" }).then(function (r) { return r.json(); })
+    ]).then(function (results) {
+      var marketPulse = results[0], nyc = results[1], radar = results[2];
+      var table = "<div style=\"overflow-x:auto;\"><table style=\"width:100%; border-collapse:collapse; font-size:13.5px;\"><thead><tr><th style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); text-align:left;\">Job</th><th style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); text-align:left; white-space:nowrap;\">Last refreshed</th><th style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); text-align:left;\">Status</th></tr></thead><tbody>" +
+        row("Bank CRE Stress credit indicators", "FDIC Call Reports and FRED, via scripts/pull_market_pulse.py", String(marketPulse.generated).slice(0, 10), marketPulse.errors && marketPulse.errors.length > 0 ? (marketPulse.errors.length + " source error(s) on the last run") : "Clean") +
+        row("NYC commercial distress", "ACRIS referee's deeds; city Open Data copy current through " + esc(nyc.acrisThrough), nyc.generated, nyc.filings.length + " on record") +
+        row("Distress Radar combined feed", "Bankruptcies, federal suits, CMBS defaults, Texas foreclosure postings and NYC deeds, joined by property", String(radar.generated).slice(0, 10), radar.count + " records") +
+        "</tbody></table></div>";
+      el.innerHTML = table;
+    }).catch(function () { /* leave the prerendered table in place */ });
+  })();
+</script>
 </body>
 </html>

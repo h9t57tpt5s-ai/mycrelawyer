@@ -398,5 +398,42 @@
 <script src="/js/supabase-client.js"></script>
 <script src="/js/auth.js"></script>
 <script src="/js/motion.js"></script>
+<script>
+  // The three jobs below refresh daily, but the git-add step that commits
+  // this page's own prerendered HTML after a build does not currently
+  // include alert-log.html (G22 in ops/improvement-playbook.md), so the
+  // table was going stale for a day or more at a time even though the
+  // underlying ops/market-pulse.json, ops/nyc-commercial-distress.json and
+  // js/radar-data.json files were current. Re-reading those same three
+  // files in the browser and rebuilding the table client-side -- the exact
+  // same fields and copy scripts/prerender.ts uses -- keeps this page
+  // honest regardless of whether that prerender step ran today. If a fetch
+  // fails, the prerendered table (last known-good) stays on screen.
+  (function () {
+    var el = document.getElementById("al-flagship-freshness");
+    if (!el) return;
+    function esc(s) {
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+      });
+    }
+    function row(job, note, last, status) {
+      return "<tr><td style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); vertical-align:top;\">" + esc(job) + "<div class=\"text-muted\" style=\"font-size:12px; margin-top:2px;\">" + note + "</div></td><td style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); vertical-align:top; white-space:nowrap;\">" + esc(last) + "</td><td style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); vertical-align:top;\">" + status + "</td></tr>";
+    }
+    Promise.all([
+      fetch("ops/market-pulse.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
+      fetch("ops/nyc-commercial-distress.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
+      fetch("js/radar-data.json", { cache: "no-cache" }).then(function (r) { return r.json(); })
+    ]).then(function (results) {
+      var marketPulse = results[0], nyc = results[1], radar = results[2];
+      var table = "<div style=\"overflow-x:auto;\"><table style=\"width:100%; border-collapse:collapse; font-size:13.5px;\"><thead><tr><th style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); text-align:left;\">Job</th><th style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); text-align:left; white-space:nowrap;\">Last refreshed</th><th style=\"padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); text-align:left;\">Status</th></tr></thead><tbody>" +
+        row("Bank CRE Stress credit indicators", "FDIC Call Reports and FRED, via scripts/pull_market_pulse.py", String(marketPulse.generated).slice(0, 10), marketPulse.errors && marketPulse.errors.length > 0 ? (marketPulse.errors.length + " source error(s) on the last run") : "Clean") +
+        row("NYC commercial distress", "ACRIS referee's deeds; city Open Data copy current through " + esc(nyc.acrisThrough), nyc.generated, nyc.filings.length + " on record") +
+        row("Distress Radar combined feed", "Bankruptcies, federal suits, CMBS defaults, Texas foreclosure postings and NYC deeds, joined by property", String(radar.generated).slice(0, 10), radar.count + " records") +
+        "</tbody></table></div>";
+      el.innerHTML = table;
+    }).catch(function () { /* leave the prerendered table in place */ });
+  })();
+</script>
 </body>
 </html>
