@@ -3051,6 +3051,26 @@
   "search:general-cre-litigation-news-2026-11-24": {
    "at": "2026-11-24",
    "action": "skipped: general trade-press/court-rulings searches surfaced only stale items outside the freshness window -- CSN Realty Corp. v. 2252 Third Avenue LLC (East Harlem M veil-piercing suit, NY appellate reinstatement reported by The Real Deal/CRE Daily, July 2026) and the IRG Master Holdings/Sachem Capital minority-investor suit over a .9-3.4B reverse merger (Daily Journal/Bisnow, July 2026); no fresh (last 3 days) commercial real estate litigation news found beyond what the automated lead feeds and local newsroom already cover"
+  },
+  "opinion:11070595": {
+   "at": "2026-11-24",
+   "action": "skipped: not commercial real estate -- David Clary et al. v. Greyco Personnel Services, LLC (Tex. App.-14th Dist., Nov. 24, 2026) is a trade-secrets/breach-of-contract judgment for a solar-energy staffing company; matchedTerms ('condemnation','hotel') did not reflect the case's actual subject"
+  },
+  "opinion:11070630": {
+   "at": "2026-11-24",
+   "action": "skipped: not commercial real estate -- Matthew O'Donnell v. Loudoun County School Board (Va. Ct. App., Nov. 24, 2026) is a parent's standing challenge to a public-school renaming decision; matchedTerms ('foreclos','zoning') did not reflect the case's actual subject"
+  },
+  "search:south-dakota-geographic-diversity-2026-11-24-pm": {
+   "at": "2026-11-24",
+   "action": "skipped: geographic-diversity search (SD has 1 tracked matter) -- found only older/unclear-scope items (a tax-deed redemption appeal of unknown property type, a split ruling on seller disclosure for a campground's commercial portion, a 2025 Vivos underground-shelter lease class action); no fresh, clearly-commercial, business-party dispute found"
+  },
+  "search:leasing-development-beat-2026-11-24-pm": {
+   "at": "2026-11-24",
+   "action": "skipped: 17:00 UTC leasing/development beat (ground leases, data center zoning/moratoria, eminent domain, mechanics liens, office evictions, REIT sponsor fights) -- searches surfaced only already-tracked matters (Prologis v. Trenton OH, C.D. Smith v. Edison/Neutral Milwaukee, Four Mile Capital v. Reynolds South Tower Richmond) or stale items over 3-12 months old with no new development (Mirmelli v. Chisholm/Kimpton Surfcomber ground lease, dismissed Aug. 2025; Coweta County v. Atlas Development rezoning challenge, filed May 2026, no ruling found since; Safehold/Thakkar, Cornell/Graduate Hotel ground-lease fights, spring 2026); no fresh, unduplicated commercial real estate story cleared the bar"
+  },
+  "note:prologis-trenton-update-2026-11-24": {
+   "at": "2026-11-24",
+   "action": "not a lead, flagged for newsroom -- already-tracked matter (Prologis v. City of Trenton, Ohio) has a reported post-filing development not yet reflected in js/data.js: per Spectrum News 1 (2026-11-17) and WCPO, Trenton residents' attorneys have formally demanded the city revoke Project Mila's zoning certificate and are exploring intervention in Prologis's federal suit; cloud routine cannot edit this outcome into the matter itself (not a CourtListener docket-text entry), so leaving for local newsroom to verify and add as a timeline update if warranted"
   }
  }
 }
