@@ -1,7 +1,26 @@
 {
- "updatedAt": "2026-11-23T08:58:25+00:00",
+ "updatedAt": "2026-11-24T00:48:09+00:00",
  "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
  "leads": [
+  {
+   "key": "0000003545-26-000054:amendedandrestatedleaseagr.htm",
+   "company": "ALICO, INC.  (ALCO)",
+   "cik": "3545",
+   "sic": "6519",
+   "form": "10-K",
+   "filed": "2026-11-23",
+   "periodEnding": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/3545/000000354526000054/amendedandrestatedleaseagr.htm",
+   "phrases": [
+    "deed in lieu of foreclosure"
+   ],
+   "excerpts": [
+    "Upon written request from Landlord, Tenant agrees to execute and deliver a subordination, non-disturbance, and attornment agreement on the then-standard form prescribed by the holder of such mortgage, provided such then-standard form does not modify or amend any provisions of this Lease. Tenant shall attorn to any foreclosing mortgagee, purchaser at a foreclosure sale, or purchaser by deed in lieu of foreclosure. At the Page 8 election of the holder of any mortgage, this Lease may be declared superior and prior in right to such mortgage provided such election is by written instrument executed by the holder of such mortgage. I. Estoppel Certificates . Within ten (10) days after written request by Landlord, Tenant shall deliver an estoppel certificate to Landlord (and any other third party designated by Landlord) as to the status of this Lease, including whether this Lease is unmodified and in full force and effect (or, if there have been modifications, that this Lease is in full force and effect as modified and identifying the modification agreements); [***]; whether or not there is any existing or alleged default by either party with respect to which a notice of default has been se"
+   ],
+   "captions": [],
+   "courts": [],
+   "firstSeen": "2026-11-24"
+  },
   {
    "key": "0001213900-26-121458:ea0312117-10q_realpha.htm",
    "company": "reAlpha Tech Corp.  (AIRE)",
