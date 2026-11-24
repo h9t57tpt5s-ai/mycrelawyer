@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-23T21:35:32+00:00",
+ "updatedAt": "2026-11-24T20:17:45+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 20,
+ "requestsUsed": 21,
  "errors": [],
  "dockets": {
   "14669317": {
@@ -638,7 +638,15 @@
    "lastEntryDate": null
   },
   "70867976": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-11-24",
+     "number": null,
+     "text": "Order on Motion for extension of time to file response/reply to motion",
+     "url": "https://www.courtlistener.com/docket/70867976/fannie-mae-v-reserve-apartments-ltd/",
+     "ruling": false
+    }
+   ],
    "caseIds": [
     "live-224"
    ],
@@ -646,7 +654,7 @@
    "docketNumber": "1:25-cv-01510",
    "dateTerminated": "2026-04-14",
    "url": "https://www.courtlistener.com/docket/70867976/fannie-mae-v-reserve-apartments-ltd/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-11-24"
   },
   "71746386": {
    "entries": [
@@ -700,7 +708,22 @@
    "lastEntryDate": null
   },
   "71959712": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-11-23",
+     "number": 103,
+     "text": "For Judicial Notice",
+     "url": "https://www.courtlistener.com/docket/71959712/103/warren-hern-v-alexandria-real-estate-equities-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-23",
+     "number": 102,
+     "text": "Dismiss Case",
+     "url": "https://www.courtlistener.com/docket/71959712/102/warren-hern-v-alexandria-real-estate-equities-inc/",
+     "ruling": false
+    }
+   ],
    "caseIds": [
     "live-175"
    ],
@@ -708,7 +731,7 @@
    "docketNumber": "2:25-cv-11319",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/71959712/warren-hern-v-alexandria-real-estate-equities-inc/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-11-23"
   },
   "71964352": {
    "entries": [
@@ -843,6 +866,20 @@
   "72309125": {
    "entries": [
     {
+     "date": "2026-11-24",
+     "number": 19,
+     "text": "2 - Minute Order",
+     "url": "https://www.courtlistener.com/docket/72309125/19/port-of-tacoma-v-pq-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-23",
+     "number": 18,
+     "text": "Transcript Order Form",
+     "url": "https://www.courtlistener.com/docket/72309125/18/port-of-tacoma-v-pq-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-20",
      "number": null,
      "text": "Discovery Hearing",
@@ -871,7 +908,7 @@
    "docketNumber": "3:26-cv-05162",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/72309125/port-of-tacoma-v-pq-llc/",
-   "lastEntryDate": "2026-11-20"
+   "lastEntryDate": "2026-11-24"
   },
   "72333596": {
    "entries": [],
@@ -918,7 +955,15 @@
    "lastEntryDate": null
   },
   "73144273": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-11-23",
+     "number": 18,
+     "text": "Status Report",
+     "url": "https://www.courtlistener.com/docket/73144273/18/700-edgewater-development-llc-v-zurich-american-insurance-company/",
+     "ruling": false
+    }
+   ],
    "caseIds": [
     "live-149"
    ],
@@ -926,7 +971,7 @@
    "docketNumber": "1:26-cv-22332",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73144273/700-edgewater-development-llc-v-zurich-american-insurance-company/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-11-23"
   },
   "73178455": {
    "entries": [],
@@ -1235,6 +1280,20 @@
   "73687065": {
    "entries": [
     {
+     "date": "2026-11-24",
+     "number": 32,
+     "text": "Notice of Lead Counsel Designation",
+     "url": "https://www.courtlistener.com/docket/73687065/32/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-24",
+     "number": 31,
+     "text": "Answer to Complaint",
+     "url": "https://www.courtlistener.com/docket/73687065/31/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-19",
      "number": null,
      "text": "Notice to Counsel of Local Rule",
@@ -1275,20 +1334,6 @@
      "text": "Order on Motion for Extension of Time to Answer",
      "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-29",
-     "number": 24,
-     "text": "Extension of Time to File Answer / Respond to Complaint",
-     "url": "https://www.courtlistener.com/docket/73687065/24/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-29",
-     "number": 23,
-     "text": "Notice of appearance",
-     "url": "https://www.courtlistener.com/docket/73687065/23/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1298,7 +1343,7 @@
    "docketNumber": "8:26-cv-02186",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-   "lastEntryDate": "2026-11-19"
+   "lastEntryDate": "2026-11-24"
   },
   "73737749": {
    "entries": [],
@@ -1618,6 +1663,41 @@
   "74914151": {
    "entries": [
     {
+     "date": "2026-11-24",
+     "number": 210,
+     "text": "Order (generic)",
+     "url": "https://www.courtlistener.com/docket/74914151/210/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-23",
+     "number": 209,
+     "text": "Agenda for Complex Chapter 11",
+     "url": "https://www.courtlistener.com/docket/74914151/209/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-23",
+     "number": 208,
+     "text": "List (witness/exhibit/generic)",
+     "url": "https://www.courtlistener.com/docket/74914151/208/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-23",
+     "number": 207,
+     "text": "Notice (generic)",
+     "url": "https://www.courtlistener.com/docket/74914151/207/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-23",
+     "number": 206,
+     "text": "Stipulation",
+     "url": "https://www.courtlistener.com/docket/74914151/206/american-hospitality-properties-reit-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-23",
      "number": null,
      "text": "Hearing held",
@@ -1637,41 +1717,6 @@
      "text": "Statement of financial affairs",
      "url": "https://www.courtlistener.com/docket/74914151/203/american-hospitality-properties-reit-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-20",
-     "number": 202,
-     "text": "Schedules",
-     "url": "https://www.courtlistener.com/docket/74914151/202/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-20",
-     "number": 201,
-     "text": "List (witness/exhibit/generic)",
-     "url": "https://www.courtlistener.com/docket/74914151/201/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-20",
-     "number": 200,
-     "text": "Objection",
-     "url": "https://www.courtlistener.com/docket/74914151/200/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-20",
-     "number": 199,
-     "text": "Objection",
-     "url": "https://www.courtlistener.com/docket/74914151/199/american-hospitality-properties-reit-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-20",
-     "number": 198,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/74914151/198/american-hospitality-properties-reit-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1681,7 +1726,7 @@
    "docketNumber": "26-80071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74914151/american-hospitality-properties-reit-inc/",
-   "lastEntryDate": "2026-11-23"
+   "lastEntryDate": "2026-11-24"
   },
   "74922581": {
    "entries": [
@@ -2002,6 +2047,34 @@
   "75047315": {
    "entries": [
     {
+     "date": "2026-11-24",
+     "number": 93,
+     "text": "Chapter 11 Monthly Operating Report UST Form 11-MOR",
+     "url": "https://www.courtlistener.com/docket/75047315/93/zom-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-24",
+     "number": 92,
+     "text": "Chapter 11 Monthly Operating Report UST Form 11-MOR",
+     "url": "https://www.courtlistener.com/docket/75047315/92/zom-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-24",
+     "number": 91,
+     "text": "Chapter 11 Monthly Operating Report UST Form 11-MOR",
+     "url": "https://www.courtlistener.com/docket/75047315/91/zom-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-11-24",
+     "number": null,
+     "text": "ADI - Proof of Service Reminder - 3-day",
+     "url": "https://www.courtlistener.com/docket/75047315/zom-holding-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-11-23",
      "number": 88,
      "text": "Order (Generic)",
@@ -2028,34 +2101,6 @@
      "text": "Application to Employ/Retain",
      "url": "https://www.courtlistener.com/docket/75047315/84/zom-holding-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-11-19",
-     "number": null,
-     "text": "Prepare Hearing Notice - Automation Use Only",
-     "url": "https://www.courtlistener.com/docket/75047315/zom-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-18",
-     "number": 82,
-     "text": "Appear pro hac vice",
-     "url": "https://www.courtlistener.com/docket/75047315/82/zom-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-18",
-     "number": 81,
-     "text": "Appear pro hac vice",
-     "url": "https://www.courtlistener.com/docket/75047315/81/zom-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-18",
-     "number": 80,
-     "text": "Order on Application to Employ/Retain",
-     "url": "https://www.courtlistener.com/docket/75047315/80/zom-holding-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -2065,7 +2110,7 @@
    "docketNumber": "6:26-bk-08509",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/75047315/zom-holding-inc/",
-   "lastEntryDate": "2026-11-23"
+   "lastEntryDate": "2026-11-24"
   }
  },
  "events": [
