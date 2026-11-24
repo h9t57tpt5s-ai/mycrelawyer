@@ -15600,6 +15600,19 @@ const RELAW_DATA = {
       summary: "CRE Daily, citing Trepp, reports that modifications fell to 37% of resolved CMBS balance in 2026 from 54% in 2024, while foreclosures reached 23%. Of loans modified in 2024, 20% were back with the special servicer within a year, and office fared worst, with 29% of its latest workouts returning. CRE Daily puts the amount in special servicing at $71.7 billion, five times the October 2019 level.",
       significance: "Fewer loans are leaving special servicing through a modification and more through foreclosure, and a modified loan that returns to the special servicer has already used its first workout. Borrowers and guarantors on loans modified in 2024 should expect less forbearance on a second default, and lenders and servicers should prepare for more receiver motions, foreclosure suits and guaranty claims on loans that were already extended once.",
       tags: ["cmbs", "special servicing", "loan modifications", "trepp", "foreclosure"]
+    },
+    {
+      id: "trend-035",
+      title: "CIAB: Commercial Property Insurance Premiums Fall 6.2% in Q3 as the Soft Market Reaches a Third Straight Quarter",
+      category: "lease-disputes",
+      date: "2026-11-16",
+      scope: "U.S. commercial property and casualty insurance (Council of Insurance Agents & Brokers Q3 2026 P&C Market Survey)",
+      metric: "Commercial property premiums -6.2%; all lines -1.3%; large accounts -3.1%; commercial auto +6.7%",
+      source: "live",
+      sourceUrl: "https://www.ciab.com/resources/q3-2026-pc-market-survey",
+      summary: "The Council of Insurance Agents & Brokers' Q3 2026 P&C Market Survey, released Nov. 16, found commercial property premiums fell an average of 6.2%, the largest decrease of any line. Premiums across all lines and account sizes fell an average of 1.3%, the third consecutive quarterly decrease, with large accounts down 3.1%, medium accounts down 0.7% and small accounts down 0.2%. Nine lines recorded decreases, including directors and officers coverage (down 4.1%) and workers' compensation (down 3.6%). Commercial auto moved the other way, up 6.7% for its 61st straight quarterly increase, and umbrella premiums rose 2.8%. Insurance Journal reported that the property decline was about the same as in the second quarter.",
+      significance: "Cheaper property coverage reopens insurance terms written into loans and leases during the hard market. Borrowers who restructure programs or switch carriers need lender or servicer consent under their insurance covenants, and refusals or force-placed coverage tend to end in disputes over cost. Tenants paying insurance as a pass-through have reason to test reconciliations and portfolio allocations, and owners who cut premiums through higher deductibles, sublimits or low valuations face coverage disputes after a loss. Rising auto and umbrella costs keep pressure on indemnity and additional-insured terms.",
+      tags: ["insurance", "property premiums", "soft market", "loan covenants", "ciab"]
     }
   ],
 
