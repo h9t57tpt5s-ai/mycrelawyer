@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T09:11:09+00:00",
+ "updatedAt": "2026-11-25T09:48:32+00:00",
  "about": "Listed companies filing under real estate SIC codes 6798, 6500, 6510, 6512, 6513, 6519, 6531, 6552, 7011 (EDGAR). Used to pick real estate companies out of press-release feeds.",
  "companies": [
   {
@@ -348,12 +348,6 @@
    "cik": 1035443,
    "ticker": "ARE",
    "name": "ALEXANDRIA REAL ESTATE EQUITIES, INC.",
-   "sic": "6798"
-  },
-  {
-   "cik": 1467760,
-   "ticker": "ARI",
-   "name": "Apollo Commercial Real Estate Finance Liquidating Trust",
    "sic": "6798"
   },
   {
@@ -2135,7 +2129,7 @@
   {
    "cik": 1944902,
    "ticker": "OMH",
-   "name": "Ohmyhome Ltd",
+   "name": "Ohmyswift Ltd",
    "sic": "6531"
   },
   {
@@ -2277,12 +2271,6 @@
    "sic": "6798"
   },
   {
-   "cik": 1045609,
-   "ticker": "PLDGP",
-   "name": "Prologis, Inc.",
-   "sic": "6798"
-  },
-  {
    "cik": 1464423,
    "ticker": "PMT",
    "name": "PennyMac Mortgage Investment Trust",
@@ -2322,6 +2310,18 @@
    "cik": 1464423,
    "ticker": "PMTW",
    "name": "PennyMac Mortgage Investment Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 928953,
+   "ticker": "PRLEQ",
+   "name": "PILLARSTONE CAPITAL REIT",
+   "sic": "6798"
+  },
+  {
+   "cik": 928953,
+   "ticker": "PRLPQ",
+   "name": "PILLARSTONE CAPITAL REIT",
    "sic": "6798"
   },
   {
@@ -2608,6 +2608,12 @@
   },
   {
    "cik": 1951229,
+   "ticker": "RITRD",
+   "name": "Reitar Logtech Holdings Ltd",
+   "sic": "6510"
+  },
+  {
+   "cik": 1951229,
    "ticker": "RITRF",
    "name": "Reitar Logtech Holdings Ltd",
    "sic": "6510"
@@ -2783,12 +2789,6 @@
   {
    "cik": 1295810,
    "ticker": "SHO-PI",
-   "name": "Sunstone Hotel Investors, Inc.",
-   "sic": "7011"
-  },
-  {
-   "cik": 1295810,
-   "ticker": "SHO.PRI",
    "name": "Sunstone Hotel Investors, Inc.",
    "sic": "7011"
   },
