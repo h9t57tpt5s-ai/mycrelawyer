@@ -4,44 +4,66 @@
     {
       "found": "2026-11-24",
       "title": "BMK Enterprises v. Bailey Enterprises of Montana (Montana Supreme Court, 2026 MT 102, decided May 12, 2026) -- right-of-first-refusal dispute over adjacent commercial property",
-      "urls": ["https://www.leagle.com/decision/inmtco20260512431"],
+      "urls": [
+        "https://www.leagle.com/decision/inmtco20260512431"
+      ],
       "why": "Queued for the geographic-diversity requirement: Montana has only 1 matter currently tracked in js/data.js, by far the fewest of any state along with several others. This is a genuine Montana Supreme Court decision involving a dispute between two named commercial entities (BMK Enterprises and Bailey Enterprises of Montana) over a right of first refusal on adjacent commercial property tied to a 2018 sale. It is a verifiable primary source (a published opinion) but is more than 7 days old (decided 6+ months ago) and was not independently newly reported by trade press as far as this routine's WebSearch found, so it cannot be a featured flagship and may not clear the 'significant and newly reported' bar for an older event -- flagging for the local newsroom (which can open the full opinion) to read the decision and decide whether it supports a matter.",
       "eventDate": "2026-05-12"
     },
     {
       "found": "2026-11-25",
       "title": "Escrown LLC v. Arepas NYC Corp. (N.Y. App. Div., 1st Dept., decided Nov. 24, 2026, Index No. 655905/20) -- commercial landlord's $587,238.40 rent judgment against tenant affirmed; prejudgment-interest portion vacated",
-      "urls": ["https://www.courtlistener.com/opinion/11071118/escrown-llc-v-arepas-nyc-corp/"],
+      "urls": [
+        "https://www.courtlistener.com/opinion/11071118/escrown-llc-v-arepas-nyc-corp/"
+      ],
       "why": "Fresh (decided yesterday) commercial lease dispute: landlord Escrown LLC sued tenant Arepas NYC Corp. for unpaid rent/additional rent after the tenant alleged delayed delivery of possession. The Appellate Division affirmed the $587,238.40 award in substance but modified to vacate $126,186.48 in prejudgment interest, remanding on that point only. Both figures are verbatim from the opinion text (stored in ops/opinion-leads.json, key 11071118). Real commercial landlord-tenant parties, a real court, a stated outcome with dollar figures -- should clear verification once the newsroom opens the opinion.",
       "eventDate": "2026-11-24"
     },
     {
       "found": "2026-11-25",
       "title": "Zavala Family Inc. v. Superior Court (Cal. Ct. App., 2nd Dist., Div. 8, No. B352255, certified for publication, decided Nov. 24, 2026) -- published opinion holds LA Metro may pursue unlawful detainer against a condemned commercial tenant instead of a separate eminent-domain possession proceeding",
-      "urls": ["https://www.courtlistener.com/opinion/11071074/zavala-family-inc-v-super-ct/"],
+      "urls": [
+        "https://www.courtlistener.com/opinion/11071074/zavala-family-inc-v-super-ct/"
+      ],
       "why": "Fresh (decided yesterday), certified-for-publication precedent on the eminent domain/unlawful detainer intersection. LA County Metropolitan Transportation Authority acquired, under threat of condemnation, property leased by Zavala Family Inc. (and Jose Zavala individually -- the newsroom should name only the business entity per CLAUDE.md's no-individuals rule) to run a scrap-metal recycling business; when the business stayed on after acquisition, Metro brought an unlawful detainer action rather than a separate eminent-domain possession proceeding. The Court of Appeal held the UD action may proceed and denied the writ petition. No dollar figure stated in the opinion excerpt reviewed; matters to any commercial tenant facing a public-agency taking.",
       "eventDate": "2026-11-24"
     },
     {
       "found": "2026-11-25",
       "title": "One Wailea Development LLC v. Maui Planning Commission (Haw. ICA, No. CAAP-24-0000649, summary disposition order, Nov. 24, 2026) -- appeals court affirms revocation of developer's Special Management Area permit and sanctions for frivolous appeal",
-      "urls": ["https://www.courtlistener.com/opinion/11071055/one-wailea-development-llc-v-maui-planning-commission/"],
+      "urls": [
+        "https://www.courtlistener.com/opinion/11071055/one-wailea-development-llc-v-maui-planning-commission/"
+      ],
       "why": "Fresh (decided yesterday) land-use dispute: the Maui Planning Commission terminated a Special Management Area Use Permit it had granted developer One Wailea Development LLC in 1999; the circuit court affirmed the termination and granted the Commission's motion for sanctions against the developer for a frivolous appeal, and the ICA affirmed both. Real developer and government-agency parties, real court, real outcome (permit revocation plus sanctions) -- moderate significance but clearly commercial real estate on its face.",
       "eventDate": "2026-11-24"
     },
     {
       "found": "2026-11-25",
       "title": "Torres v. 120 Broadway Holdings, LLC (N.Y. App. Div., 1st Dept., decided Nov. 24, 2026, Index No. 159374/18) -- appeals court grants partial summary judgment to injured worker in Labor Law suit over gut renovation at Silverstein Properties-managed 120 Broadway",
-      "urls": ["https://www.courtlistener.com/opinion/11071092/torres-v-120-broadway-holdings-llc/"],
+      "urls": [
+        "https://www.courtlistener.com/opinion/11071092/torres-v-120-broadway-holdings-llc/"
+      ],
       "why": "Fresh (decided yesterday) construction/premises matter naming a major NYC commercial owner-manager: during a Silverstein Properties-managed gut renovation at 120 Broadway in Manhattan, a ceiling-collapse injury case under Labor Law. The Appellate Division modified the lower court, granting plaintiff summary judgment on the Labor Law section 241(6) claim, dismissing claims against demolition subcontractor Rite-Way, and denying defendants summary judgment on the remaining claims. No damages figure yet (liability phase only) -- fits the site's construction-defect/premises-liability categories and names Silverstein Properties, Inc., JRM Construction Management LLC and Rite-Way Internal Removal, Inc. as parties.",
       "eventDate": "2026-11-24"
     },
     {
       "found": "2026-11-25",
       "title": "First Western Bank & Trust v. KDJ Investment Group, LLC / KDJ Properties, LLC / Washington Properties, LLC (Grand Forks, ND) -- bank suit over $7.86M in loans tied to a medical clinic building; seven affiliated entities filed Chapter 11 on Oct. 16, 2026 citing the bank's collection/foreclosure actions",
-      "urls": ["https://www.valleynewslive.com/2026/11/02/bank-sues-grand-forks-doctor-over-loans-affiliated-companies/"],
+      "urls": [
+        "https://www.valleynewslive.com/2026/11/02/bank-sues-grand-forks-doctor-over-loans-affiliated-companies/"
+      ],
       "why": "Queued for the geographic-diversity requirement: North Dakota currently has zero matters tracked in js/data.js. Valley News Live (Nov. 2, 2026) reports First Western Bank & Trust sued over $7.86M owed on loans tied to a medical clinic building owned by KDJ Investment Group, LLC, with the lender also naming affiliated entities KDJ Properties, LLC and Washington Properties, LLC; seven affiliated entities filed Chapter 11 on Oct. 16, 2026, citing the bank's collection/foreclosure actions as the trigger. A personal guarantor is named in the source but must NOT be used as a party per CLAUDE.md's no-individuals rule -- only the LLCs and the bank. Event (the Chapter 11 filing) is from Oct. 16, 2026, more than 14 days old, so this cannot be a featured flagship, but it is significant and newly reported (the Nov. 2 article) and should be verified against the actual bankruptcy docket/complaint before publishing -- WebSearch snippets alone are not sufficient sourcing for the dollar figure.",
       "eventDate": "2026-10-16"
+    },
+    {
+      "found": "2026-11-25",
+      "title": "City of Burlington v. CityPlace developers (Don Sinex / Brookfield Properties) -- Vermont Superior Court lawsuit over the stalled downtown Burlington mixed-use redevelopment project",
+      "urls": [
+        "https://www.vermontpublic.org/post/burlington-sues-downtown-mall-developers-over-stalled-project",
+        "https://www.sevendaysvt.com/?p=94482"
+      ],
+      "why": "Queued for the geographic-diversity requirement: Vermont currently has zero matters tracked in js/data.js. Trade/local press (Vermont Public, Seven Days) reports the City of Burlington sued the developers of the long-stalled CityPlace downtown redevelopment project over failure to complete public improvements and advance the project; developer Don Sinex disputes the claim and has countersued. This routine cannot open these pages directly (WebSearch snippets only) and could not confirm the filing date, case number, or current status (one snippet suggests the city's suit was later settled, with two related cases still pending) -- the newsroom should verify via the Vermont Superior Court docket or the original news coverage before writing it up, and should confirm whether the live dispute is the settled city suit, the project-opponents' case, or Sinex's countersuit.",
+      "eventDate": null
     }
   ]
 }

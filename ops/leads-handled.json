@@ -3187,6 +3187,14 @@
   "beat:2026-11-25-AM-first-service-bank-swarek": {
    "at": "2026-11-25",
    "action": "skipped: First Service Bank v. Thomas Swarek (5th Cir. No. 25-60618, decided Nov. 12, 2026) -- $50M personal guaranty appeal, but underlying loan's collateral/property type not confirmed as commercial real estate from search snippets, and caption centers on an individual defendant; low confidence, not queued"
+  },
+  "beat:2026-11-25-AM-court-rulings": {
+   "at": "2026-11-25",
+   "action": "12:00 UTC court-rulings beat -- reviewed all 40 current ops/opinion-leads.json entries. Confirmed the 22 handled earlier today (06:00 UTC run) plus audited the remaining ones myself before realizing most had actually already been handled on 2026-11-19 through 2026-11-24 (the same opinions recur in the rolling lead window): Haleiwa Town Center v. Bishop Estate trustees is already live (live-459); Planet Shred v. 2301 Atlantic Ave, Siegel LV v. EC 215 Las Vegas, Target Corp v. Monroe IDA, 320 Alemany LLC v. CCSF, and 949 Cleveland St v. Baker Barrios were already queued as leads on 2026-11-19 through -23; Hinrichsen v. RCTS Properties was already queued 2026-11-20; 38 E. 64th St. v. Nile, Inc. was already correctly skipped as a residential rent-stabilization dispute despite the 'commercial lease' label. No genuinely new opinion lead cleared the bar this run beyond what earlier runs already found."
+  },
+  "beat:2026-11-25-AM-geo-diversity-vt": {
+   "at": "2026-11-25",
+   "action": "lead queued in ops/digest-leads.json (City of Burlington v. CityPlace developers/Don Sinex, stalled downtown redevelopment lawsuit) -- Vermont currently has zero tracked matters; chose Vermont for this run's targeted search since North Dakota was already covered by the earlier 06:00 UTC run today"
   }
  }
 }
