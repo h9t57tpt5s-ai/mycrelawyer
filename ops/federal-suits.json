@@ -1,7 +1,33 @@
 {
- "updatedAt": "2026-11-24T21:31:51+00:00",
+ "updatedAt": "2026-11-25T05:01:37+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "VL Development, LLC v. United States of America Department of Treasury",
+   "court": "District Court, N.D. Illinois",
+   "courtId": "ilnd",
+   "docketNumber": "1:26-cv-14686",
+   "dateFiled": "2026-11-24",
+   "docketUrl": "https://www.courtlistener.com/docket/75170013/vl-development-llc-v-united-states-of-america-department-of-treasury/",
+   "docketId": 75170013,
+   "suitNature": "",
+   "cause": "",
+   "slug": "vl-development-llc-v-united-states-of-america-department-of-treasury-ilnd-1-26-cv-14686",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Terra Enabling Developers, Inc. v. Garmin International, Inc.",
+   "court": "District Court, N.D. California",
+   "courtId": "cand",
+   "docketNumber": "3:26-cv-14725",
+   "dateFiled": "2026-11-24",
+   "docketUrl": "https://www.courtlistener.com/docket/75170873/terra-enabling-developers-inc-v-garmin-international-inc/",
+   "docketId": 75170873,
+   "suitNature": "",
+   "cause": "",
+   "slug": "terra-enabling-developers-inc-v-garmin-international-inc-cand-3-26-cv-14725",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "OT&P Real Estate Holdings, LLC v. ACE Fire Underwriters Insurance Company",
    "court": "District Court, S.D. Texas",
@@ -24,7 +50,7 @@
    "docketUrl": "https://www.courtlistener.com/docket/75168985/cooperstown-properties-llc-v-redbird-capital-partners-management-llc/",
    "docketId": 75168985,
    "suitNature": "",
-   "cause": "",
+   "cause": "Civil Miscellaneous Case",
    "slug": "cooperstown-properties-llc-v-redbird-capital-partners-management-llc-nynd-6-26-mc-00041",
    "type": "Federal civil case"
   },

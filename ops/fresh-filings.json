@@ -1,7 +1,18 @@
 {
- "updatedAt": "2026-11-24T21:31:51+00:00",
+ "updatedAt": "2026-11-25T05:01:37+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "Crossroad Realty NY, LLC",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "8-26-74599",
+   "dateFiled": "2026-11-24",
+   "docketUrl": "https://www.courtlistener.com/docket/75172432/crossroad-realty-ny-llc/",
+   "docketId": 75172432,
+   "slug": "crossroad-realty-ny-llc-nyeb-8-26-74599",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "4935 Jimmy Carter, LLC",
    "court": "United States Bankruptcy Court, N.D. Georgia",
@@ -66,39 +77,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75158346/388-prosper-llc/",
    "docketId": 75158346,
    "slug": "388-prosper-llc-flsb-26-25555",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Roque Estate Development LLC",
-   "court": "United States Bankruptcy Court, E.D. New York",
-   "courtId": "nyeb",
-   "docketNumber": "1-26-45391",
-   "dateFiled": "2026-11-20",
-   "docketUrl": "https://www.courtlistener.com/docket/75149152/roque-estate-development-llc/",
-   "docketId": 75149152,
-   "slug": "roque-estate-development-llc-nyeb-1-26-45391",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "PPS Realty 800 George St., LLC",
-   "court": "United States Bankruptcy Court, D. New Jersey",
-   "courtId": "njb",
-   "docketNumber": "26-23161",
-   "dateFiled": "2026-11-20",
-   "docketUrl": "https://www.courtlistener.com/docket/75152275/pps-realty-800-george-st-llc/",
-   "docketId": 75152275,
-   "slug": "pps-realty-800-george-st-llc-njb-26-23161",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "1906 Poole Road, LLC",
-   "court": "United States Bankruptcy Court, E.D. North Carolina",
-   "courtId": "nceb",
-   "docketNumber": "26-05307",
-   "dateFiled": "2026-11-20",
-   "docketUrl": "https://www.courtlistener.com/docket/75149356/1906-poole-road-llc/",
-   "docketId": 75149356,
-   "slug": "1906-poole-road-llc-nceb-26-05307",
    "type": "Chapter 11 petition"
   }
  ]
