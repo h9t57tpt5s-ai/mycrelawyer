@@ -3219,6 +3219,30 @@
     "search:trenton-ohio-prologis-revocation-letter": {
       "at": "2026-11-25",
       "action": "lead queued in ops/digest-leads.json, update to existing matter live-403 (residents seek revocation of Prologis Trenton OH zoning certificate, Nov. 9 2026 letter, reported Nov. 17 2026; not from ops/docket-activity.json so not edited directly)"
+    },
+    "opinion:11072130": {
+      "at": "2026-11-25",
+      "action": "skipped: not CRE -- DOJ Office of Legal Counsel opinion on Pen-Trap Statute/Wiretap Act and drone detection technology; industrial/landlord/receiver keyword match is a false positive, no real estate dispute at all"
+    },
+    "https://www.courtlistener.com/docket/75175881/fisherville-properties-llc-v-united-states-liability-insurance-company/": {
+      "at": "2026-11-25",
+      "action": "skipped: no coverage found explaining the filing (Fisherville Properties LLC v. United States Liability Insurance Company, E.D. Wis., filed 2026-11-25, likely a property-insurance coverage dispute given USLI as defendant, but no source names the property, claim or amount)"
+    },
+    "petition:https://www.courtlistener.com/docket/75176986/true-vision-development-inc/": {
+      "at": "2026-11-25",
+      "action": "skipped: no coverage found explaining the filing (True Vision Development Inc., C.D. Cal. Ch. 11, 2:26-bk-21881, filed 2026-11-25; found an unrelated earlier 2:26-bk-10480 case for a same-named debtor filed Jan. 2026 on a bankruptcy aggregator, no news coverage of either filing, no debt figure or property named)"
+    },
+    "petition:https://www.courtlistener.com/docket/75176891/514-west-44th-street-inc/": {
+      "at": "2026-11-25",
+      "action": "skipped: no coverage found explaining the filing (514 West 44th Street, Inc., E.D.N.Y. Ch. 11, 1-26-45478, filed 2026-11-25; no secondary reporting found on this address or debtor)"
+    },
+    "beat:2026-11-25-PM-big-players": {
+      "at": "2026-11-25",
+      "action": "22:00 UTC big-players beat -- REIT securities suit search surfaced only Greenbaum v. Arbor Realty Trust (E.D.N.Y., filed 2026-11-09), already tracked as live-394; JV/sponsor-fund dispute search surfaced only older, already-reported items (Stanly Ranch/Mandrake Capital from May 2026, Lotis Wellington from June 2026); proptech/brokerage search surfaced only the CoStar/CBRE lease-data antitrust suit, already tracked; SEC enforcement search surfaced only July/Sept 2026 actions (RAD Diversified REIT, Wavemark Capital), both already old and likely already reviewed. No genuinely new, dated item cleared the bar this run."
+    },
+    "beat:2026-11-25-PM-geo-diversity": {
+      "at": "2026-11-25",
+      "action": "Targeted searches for Montana and South Dakota (both low-count tracked states) turned up only older or non-qualifying items -- BMK Enterprises v. Bailey Enterprises of Montana (May 2026, right-of-first-refusal dispute, no 2026 foreclosure/landlord suit found) and South Dakota Supreme Court captions with no accessible subject-matter detail (A&B Business v. FDJ; New Angus v. Purple Isles). Chose different states from the 06:00 UTC run (ND) and 12:00 UTC run (VT) today. No qualifying story found; attempt made per Step 1B."
     }
   }
 }
