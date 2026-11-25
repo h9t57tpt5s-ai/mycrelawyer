@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-23",
+  lastUpdatedDate: "2026-11-25",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -15187,6 +15187,44 @@ const RELAW_DATA = {
         { when: "February 7, 2020", label: "Tenant files its First Amended Complaint against the landlord", current: false },
         { when: "April 13, 2020", label: "Circuit Court grants the landlord's motion to dismiss", current: false },
         { when: "November 23, 2026", label: "Hawaii Supreme Court holds two of the tenant's three claims viable, leaves the unfair competition claim dismissed, and remands", current: true }
+      ]
+    },
+    {
+      id: "live-460",
+      seoTitle: "LA Metro Van Nuys Light Rail Parcel: Eviction Suit May Proceed",
+      seoDescription: "California Court of Appeal denies a Van Nuys scrap metal tenant's writ petition; LA Metro's unlawful detainer suit on a light rail parcel may proceed.",
+      property: {"name": null, "address": null, "city": "Van Nuys", "state": "CA"},
+      addedDate: "2026-11-25",
+      title: "Zavala Family Inc. v. Superior Court (Los Angeles County Metropolitan Transportation Authority): California Court of Appeal Lets Metro's Unlawful Detainer Suit Proceed Against Van Nuys Scrap Metal Tenant",
+      brief: "A California appeals court denied a scrap metal recycler's writ petition and let LA Metro's unlawful detainer suit proceed on a Van Nuys parcel Metro bought under threat of condemnation for a light rail project.",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-11-24",
+      jurisdiction: "California Court of Appeal, Second Appellate District, Division Eight",
+      state: "CA",
+      amount: "Possession of leased commercial premises",
+      source: "live",
+      sourceUrl: "https://www.courts.ca.gov/opinions/documents/B352255.PDF",
+      summary: "The California Court of Appeal, in an opinion certified for publication, denied a writ petition by Zavala Family Inc., which ran a scrap metal recycling business on a leased Van Nuys parcel, and let the Los Angeles County Metropolitan Transportation Authority (Metro) pursue an unlawful detainer action for possession. Metro had acquired the property under threat of condemnation. The court rejected the tenants' arguments that an eminent domain court had exclusive jurisdiction over possession, that the lease-termination statute ended only the duty to pay rent, and that Metro had to use the Eminent Domain Law's prejudgment possession procedure.",
+      significance: "The court held that Metro's purchase of the property for a public use ended both the tenants' duty to pay rent and their possessory interest, and that where a public entity has bought property in a manner substantially equivalent to condemnation and the lease-termination statute concededly applies, a tenant who stays on without the entity's consent becomes a tenant at sufferance whose occupancy may ordinarily be ended after 90 days' written notice. The court said it was rejecting only the arguments the tenants made and left open whether unlawful detainer might be inappropriate in other scenarios and on different arguments.",
+      body: [
+        "According to the opinion, the petitioners had operated a scrap metal recycling business on the Van Nuys parcel since at least April 2017 under a lease that is not in the appellate record. In September 2023, Metro sent them written notice of its intent to acquire the premises to construct the East San Fernando Valley Light Rail Transit Project. The owner conveyed the property to Metro by a grant deed recorded on January 23, 2025. Metro then sent three successive 30-day notices to vacate and, on October 6, 2025, filed an unlawful detainer action seeking immediate possession. Its complaint alleged that any leasehold interest ended when Metro acquired the premises for public use. Three days later, Metro filed an eminent domain complaint to acquire improvements located on the premises.",
+        "The tenants demurred. The trial court, Judge Shirley K. Watkins, overruled the demurrer, and the tenants petitioned the Court of Appeal for a writ of mandate. They argued that the Eminent Domain Law requires a condemning entity to secure possession through that law, that the statute ending a lease when leased property is acquired for public use does not terminate a lease so as to authorize an unlawful detainer action, and that Metro had to follow the prejudgment possession procedure.",
+        "The Court of Appeal rejected each argument and denied the petition. It concluded that the trial court correctly rejected the claim of exclusive eminent domain jurisdiction over premises acquired by purchase, that Metro's purchase extinguished the tenants' possessory interest as well as their duty to pay rent, and that the prejudgment possession statute does not apply where the acquisition occurred without the need for an eminent domain action. The court noted that the tenants did not argue their lease contained provisions displacing the Eminent Domain Law, and that their demurrer did not seek dismissal for deficient notice under the California Relocation Assistance Act.",
+        "The court vacated its temporary stay of the unlawful detainer proceedings, effective when the opinion becomes final, and awarded Metro its costs."
+      ],
+      tags: ["eminent domain", "unlawful detainer", "commercial lease", "transit", "california"],
+      parties: [
+        { name: "Zavala Family Inc.", role: "Petitioner (tenant)" },
+        { name: "Los Angeles County Metropolitan Transportation Authority", role: "Real Party in Interest (property owner)" }
+      ],
+      judge: "Shirley K. Watkins",
+      amountUsd: null,
+      timeline: [
+        { when: "September 2023", label: "Metro notifies the tenants of its intent to acquire the Van Nuys premises for the light rail project" },
+        { when: "January 23, 2025", label: "Grant deed conveying the property to Metro recorded" },
+        { when: "October 6, 2025", label: "Metro files unlawful detainer action; an eminent domain complaint for improvements on the premises follows three days later" },
+        { when: "November 24, 2026", label: "Court of Appeal denies the tenants' writ petition", current: true }
       ]
     }
   ],

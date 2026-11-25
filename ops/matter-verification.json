@@ -837,6 +837,22 @@
      "https://www.courtlistener.com/opinion/11069217/haleiwa-town-center-v-trustees-of-the-estate-of-bernice-pauahi-bishop/"
     ]
    }
+  },
+  "live-460": {
+   "verifiedOn": "2026-11-25",
+   "sourceUrl": "https://www.courts.ca.gov/opinions/documents/B352255.PDF",
+   "urls": [
+    "https://www.courts.ca.gov/opinions/documents/B352255.PDF"
+   ],
+   "quotes": 27,
+   "confirmedByChecker": 27,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courts.ca.gov/opinions/documents/B352255.PDF"
+    ]
+   }
   }
  }
 }
