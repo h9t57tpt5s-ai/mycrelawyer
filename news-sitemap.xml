@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://credocket.com/matters/live-460.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-25</news:publication_date>
+      <news:title>Zavala Family Inc. v. Superior Court (Los Angeles County Metropolitan Transportation Authority): California Court of Appeal Lets Metro's Unlawful Detainer Suit Proceed Against Van Nuys Scrap Metal Tenant</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://credocket.com/matters/live-459.html</loc>
     <news:news>
       <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
