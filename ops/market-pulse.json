@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T21:19:20Z",
+  "generated": "2026-11-25T20:30:16Z",
   "about": "Commercial real estate credit indicators from the Federal Reserve (via FRED) and FDIC Call Report data. Values are the sources' own figures; FDIC aggregates and bank ratios are sums and ratios of FDIC-reported fields. Built by scripts/pull_market_pulse.py.",
   "indicators": [
     {
@@ -342,27 +342,27 @@
       "value": 4.92,
       "unit": "percent",
       "frequency": "daily",
-      "asOf": "2026-11-20",
+      "asOf": "2026-11-23",
       "comparisons": [
         {
           "label": "previous observation",
-          "date": "2026-11-19",
-          "value": 5.04,
-          "change": -0.12,
+          "date": "2026-11-20",
+          "value": 4.92,
+          "change": 0.0,
           "changeUnit": "percentage points"
         },
         {
           "label": "1 week earlier",
-          "date": "2026-11-13",
-          "value": 5.15,
-          "change": -0.23,
+          "date": "2026-11-16",
+          "value": 5.12,
+          "change": -0.2,
           "changeUnit": "percentage points"
         },
         {
           "label": "1 year earlier",
-          "date": "2025-11-20",
-          "value": 4.1,
-          "change": 0.82,
+          "date": "2025-11-21",
+          "value": 4.06,
+          "change": 0.86,
           "changeUnit": "percentage points"
         }
       ],
