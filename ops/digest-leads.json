@@ -1,4 +1,53 @@
 {
   "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
-  "leads": []
+  "leads": [
+    {
+      "key": "opinion:11072112",
+      "found": "2026-11-25",
+      "title": "Bearcreek Farms, Inc. v. S.L.S. Partnership",
+      "court": "Ohio Court of Appeals, Second District (Montgomery County)",
+      "eventDate": "2026-11-25",
+      "urls": [
+        "https://www.courtlistener.com/opinion/11072112/bearcreek-farms-inc-v-sls-partnership/"
+      ],
+      "why": "Published Nov. 25, 2026 opinion (C.A. No. 30820). Bearcreek Farms, Inc. (buyer) sued seller S.L.S. Partnership and its partners, plus tenant Jacqueline S. Ritter, Inc. d/b/a Laffs Pub (JSR), over ownership of fixtures (a commercial bar, freezer, steel kitchen hood) at 2 E. Center Street, Germantown, Ohio, after Bearcreek bought the building under a purchase agreement conveying 'all buildings, improvements and fixtures.' The trial court dismissed Bearcreek's breach-of-contract and general-warranty-deed claims under Civ.R. 12(B)(6); the Second District reversed and remanded, holding the complaint stated a claim that the fixtures were conveyed and that JSR's competing ownership claim could breach the deed's warranty covenants. Primary source is the opinion itself (CourtListener); no secondary press coverage found. Commercial real estate purchase/fixtures dispute between businesses -- parties are Bearcreek Farms Inc., S.L.S. Partnership, and JSR Inc., no individuals need be named."
+    },
+    {
+      "key": "opinion:11072095",
+      "found": "2026-11-25",
+      "title": "Karen Lodzinski v. Fieldspring Investments, LLC",
+      "court": "New Jersey Superior Court, Appellate Division",
+      "eventDate": "2026-11-25",
+      "urls": [
+        "https://www.courtlistener.com/opinion/11072095/karen-lodzinski-v-fieldspring-investments-llc/"
+      ],
+      "why": "Approved-for-publication opinion issued Nov. 25, 2026 (Docket A-3971-24), a case of first impression: the Appellate Division held the NJ Law Against Discrimination can, in appropriate circumstances, protect a commercial tenant from a landlord's severe or pervasive sexual harassment, vacating the trial court's pre-answer dismissal of plaintiff's suit against landlord Fieldspring Investments, LLC (and individual co-defendant). This is a commercial-landlord-liability precedent of real interest to owners/landlords, though the named plaintiff and the co-defendant are individuals -- if published, name only the business party (Fieldspring Investments, LLC), consistent with the no-individuals rule. Primary source is the opinion; no secondary press coverage found yet."
+    },
+    {
+      "key": "search:ascent-park-city-sothebys-investors",
+      "found": "2026-11-25",
+      "title": "28 investors v. Sotheby's International Realty Affiliates, LLC (The Ascent, Park City, Utah condo-hotel)",
+      "court": "U.S. District Court, Central District of California",
+      "eventDate": "2026-10-09 filed; widely reported 2026-11-16",
+      "urls": [
+        "https://www.kpcw.org/park-city/2026-11-16/this-condo-hotel-near-a-utah-ski-resort-still-isnt-built-now-dozens-investors-are-suing",
+        "https://www.sltrib.com/news/2026/11/16/ascent-park-city-faces-more-delays/",
+        "https://www.mpamag.com/us/mortgage-industry/industry-trends/investors-sue-sothebys-alleging-75m-condotel-was-a-mirage/593175",
+        "https://unofficialnetworks.com/2026/11/16/park-city-luxury-ski-development-lawsuit/"
+      ],
+      "why": "28 investors sued Sotheby's International Realty Affiliates, LLC in C.D. Cal. (filed Oct. 9, 2026 per KPCW/mpamag), alleging the brokerage marketed condo-hotel units at The Ascent near Canyons Village, Park City, Utah as safe, Hilton-affiliated investments without disclosing that developer T S 1, LLC lacked the money to finish construction. The project was later foreclosed: lender OKOA won an August 2026 trustee's auction with a $24M bid, wiping out the investors' interests per the complaint. Reported by KPCW and Salt Lake Tribune on Nov. 16, also mpamag and unofficialnetworks. Flagging for the geographic-diversity goal -- Utah currently has only 2 tracked matters -- even though the filing (Oct. 9) and first reporting found (Nov. 16) are both a bit outside the preferred 3/7-day windows; newsroom should judge freshness (first-public-date rule) and pull the actual complaint/docket number before publishing."
+    },
+    {
+      "key": "search:trenton-ohio-prologis-revocation-letter",
+      "found": "2026-11-25",
+      "title": "Update to live-403 (Prologis v. City of Trenton, Ohio): residents seek revocation of zoning certificate; possible intervention",
+      "court": "U.S. District Court, Southern District of Ohio",
+      "eventDate": "2026-11-09 letter; reported 2026-11-17",
+      "urls": [
+        "https://spectrumnews1.com/oh/columbus/news/2026/11/17/trenton-data-center-fight-heads-back-to-court-after-voter-ban",
+        "https://newsweek.com/data-center-lawsuits-follow-voter-backed-restrictions-12729596"
+      ],
+      "why": "Update to already-published live-403. Residents' attorneys sent the city a letter on Nov. 9, 2026 demanding revocation of Prologis's zoning certificate for Project Mila under the voter-approved data-center ban, and are reportedly considering intervening in Prologis's pending federal suit; the city's response is unreported per Newsweek. This development did not come from ops/docket-activity.json, so it was not edited into js/data.js directly (outside the digest routine's docket-text-only allowance) -- flagging for the newsroom to add a timeline entry if it verifies this independently."
+    }
+  ]
 }
