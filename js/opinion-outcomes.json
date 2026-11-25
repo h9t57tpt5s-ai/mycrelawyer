@@ -2,73 +2,73 @@
  "generated": "2026-11-25",
  "note": "Totals only. Built by scripts/aggregate_opinion_outcomes.py from court opinions in CourtListener's public bulk data (2000 to 2026), with every dollar figure checked against the opinion's own words. Case-level data is not published.",
  "minN": 20,
- "opinions": 10341,
+ "opinions": 10329,
  "categories": {
   "lease-disputes": {
-   "cases": 3738,
+   "cases": 3733,
    "years": [
     2000,
     2026
    ],
    "courtLevels": {
-    "intermediate-appellate": 2323,
-    "federal-district": 487,
+    "intermediate-appellate": 2320,
+    "federal-district": 486,
     "supreme": 290,
     "trial": 243,
     "bankruptcy": 202,
-    "federal-appeals": 186,
+    "federal-appeals": 185,
     "other": 7
    },
    "propertyTypes": {
-    "Retail": 1451,
-    "Office": 450,
-    "Industrial": 368,
+    "Retail": 1457,
+    "Office": 448,
+    "Industrial": 371,
     "Medical Office": 109,
     "Hospitality": 109,
     "Land/Development": 89
    },
    "sides": {
     "landlord": {
-     "claims": 3076,
+     "claims": 3092,
      "awardToClaim": {
-      "p25": 0.466,
-      "median": 0.996,
+      "p25": 0.46,
+      "median": 0.986,
       "p75": 1.0,
-      "n": 482
+      "n": 481
      },
      "fullRecoveryPct": 53,
      "underHalfPct": 26,
-     "appealed": 2005,
+     "appealed": 2012,
      "affirmedPct": 59,
      "finalToClaim": {
-      "p25": 0.174,
-      "median": 0.843,
+      "p25": 0.169,
+      "median": 0.829,
       "p75": 1.0,
-      "n": 426
+      "n": 425
      },
-     "medianAward": 73319,
-     "awardsN": 1369
+     "medianAward": 74096,
+     "awardsN": 1371
     },
     "tenant": {
-     "claims": 1631,
+     "claims": 1656,
      "awardToClaim": {
-      "p25": 0.513,
+      "p25": 0.514,
       "median": 1.0,
       "p75": 1.0,
-      "n": 144
+      "n": 145
      },
-     "fullRecoveryPct": 60,
-     "underHalfPct": 24,
-     "appealed": 1141,
+     "fullRecoveryPct": 61,
+     "underHalfPct": 23,
+     "appealed": 1151,
      "affirmedPct": 60,
      "finalToClaim": {
-      "p25": 0.0,
-      "median": 0.878,
+      "p25": 0.004,
+      "median": 0.912,
       "p75": 1.0,
       "n": 130
      },
-     "medianAward": 66033,
-     "awardsN": 661
+     "medianAward": 65718,
+     "awardsN": 663
     }
    },
    "states": {
@@ -88,10 +88,9 @@
      "propertyTypes": {
       "Retail": 5,
       "Office": 4,
-      "Industrial": 3,
+      "Industrial": 4,
       "Land/Development": 2,
-      "Medical Office": 1,
-      "Mixed-Use": 1
+      "Medical Office": 1
      },
      "sides": {
       "landlord": {
@@ -123,7 +122,7 @@
      },
      "sides": {
       "landlord": {
-       "claims": 26
+       "claims": 23
       },
       "tenant": {
        "claims": 13
@@ -153,18 +152,18 @@
        "claims": 27
       },
       "tenant": {
-       "claims": 4
+       "claims": 5
       }
      }
     },
     "AZ": {
-     "cases": 30,
+     "cases": 29,
      "years": [
       2000,
       2024
      ],
      "courtLevels": {
-      "intermediate-appellate": 23,
+      "intermediate-appellate": 22,
       "federal-district": 6,
       "supreme": 1
      },
@@ -174,7 +173,7 @@
       "Office": 3,
       "Medical Office": 2,
       "Hospitality": 1,
-      "Senior Living": 1
+      "Land/Development": 1
      },
      "sides": {
       "tenant": {
@@ -186,13 +185,13 @@
      }
     },
     "CA": {
-     "cases": 356,
+     "cases": 355,
      "years": [
       2000,
       2026
      ],
      "courtLevels": {
-      "intermediate-appellate": 299,
+      "intermediate-appellate": 298,
       "federal-district": 27,
       "federal-appeals": 15,
       "bankruptcy": 10,
@@ -200,8 +199,8 @@
       "trial": 1
      },
      "propertyTypes": {
-      "Retail": 140,
-      "Office": 48,
+      "Retail": 141,
+      "Office": 47,
       "Industrial": 30,
       "Hospitality": 10,
       "Mixed-Use": 8,
@@ -209,30 +208,30 @@
      },
      "sides": {
       "landlord": {
-       "claims": 256,
+       "claims": 258,
        "awardToClaim": {
-        "p25": 0.512,
-        "median": 0.916,
-        "p75": 1.0,
-        "n": 48
-       },
-       "fullRecoveryPct": 46,
-       "underHalfPct": 23,
-       "appealed": 189,
-       "affirmedPct": 68,
-       "finalToClaim": {
-        "p25": 0.191,
+        "p25": 0.514,
         "median": 0.911,
         "p75": 1.0,
-        "n": 41
+        "n": 49
+       },
+       "fullRecoveryPct": 45,
+       "underHalfPct": 22,
+       "appealed": 190,
+       "affirmedPct": 68,
+       "finalToClaim": {
+        "p25": 0.192,
+        "median": 0.866,
+        "p75": 1.0,
+        "n": 42
        },
        "medianAward": 134205,
        "awardsN": 128
       },
       "tenant": {
-       "claims": 167,
-       "appealed": 138,
-       "affirmedPct": 64,
+       "claims": 172,
+       "appealed": 142,
+       "affirmedPct": 65,
        "medianAward": 99350,
        "awardsN": 66
       }
@@ -292,14 +291,14 @@
      },
      "sides": {
       "tenant": {
-       "claims": 28
+       "claims": 31
       },
       "landlord": {
        "claims": 90,
-       "appealed": 45,
-       "affirmedPct": 58,
+       "appealed": 44,
+       "affirmedPct": 59,
        "medianAward": 10500,
-       "awardsN": 47
+       "awardsN": 46
       }
      }
     },
@@ -364,9 +363,9 @@
        "awardsN": 26
       },
       "tenant": {
-       "claims": 42,
-       "appealed": 31,
-       "affirmedPct": 35,
+       "claims": 46,
+       "appealed": 33,
+       "affirmedPct": 36,
        "medianAward": 76790,
        "awardsN": 24
       }
@@ -468,52 +467,52 @@
      }
     },
     "IL": {
-     "cases": 161,
+     "cases": 160,
      "years": [
       2000,
       2026
      ],
      "courtLevels": {
       "intermediate-appellate": 121,
-      "federal-district": 17,
+      "federal-district": 16,
       "bankruptcy": 12,
       "federal-appeals": 9,
       "supreme": 2
      },
      "propertyTypes": {
-      "Retail": 76,
+      "Retail": 77,
       "Office": 23,
-      "Industrial": 17,
+      "Industrial": 18,
       "Mixed-Use": 5,
       "Medical Office": 2,
       "Hospitality": 1
      },
      "sides": {
       "landlord": {
-       "claims": 153,
+       "claims": 154,
        "awardToClaim": {
-        "p25": 0.733,
+        "p25": 0.755,
         "median": 1.0,
-        "p75": 1.199,
-        "n": 30
+        "p75": 1.181,
+        "n": 31
        },
-       "fullRecoveryPct": 70,
-       "underHalfPct": 7,
-       "appealed": 115,
+       "fullRecoveryPct": 71,
+       "underHalfPct": 6,
+       "appealed": 113,
        "affirmedPct": 64,
        "finalToClaim": {
-        "p25": 0.38,
-        "median": 0.914,
-        "p75": 1.045,
-        "n": 26
+        "p25": 0.429,
+        "median": 1.0,
+        "p75": 1.002,
+        "n": 27
        },
-       "medianAward": 94425,
-       "awardsN": 75
+       "medianAward": 98379,
+       "awardsN": 77
       },
       "tenant": {
-       "claims": 57,
-       "appealed": 39,
-       "affirmedPct": 72,
+       "claims": 58,
+       "appealed": 38,
+       "affirmedPct": 71,
        "medianAward": 24070,
        "awardsN": 24
       }
@@ -540,41 +539,41 @@
      },
      "sides": {
       "landlord": {
-       "claims": 51,
-       "appealed": 43,
-       "affirmedPct": 58,
-       "medianAward": 173116,
-       "awardsN": 32
+       "claims": 52,
+       "appealed": 44,
+       "affirmedPct": 59,
+       "medianAward": 172760,
+       "awardsN": 33
       },
       "tenant": {
-       "claims": 17
+       "claims": 18
       }
      }
     },
     "KS": {
-     "cases": 28,
+     "cases": 29,
      "years": [
       2000,
       2026
      ],
      "courtLevels": {
       "intermediate-appellate": 14,
-      "federal-district": 7,
+      "federal-district": 8,
       "federal-appeals": 4,
       "bankruptcy": 3
      },
      "propertyTypes": {
-      "Retail": 14,
+      "Retail": 16,
       "Office": 4,
       "Industrial": 3,
       "Hospitality": 1
      },
      "sides": {
       "landlord": {
-       "claims": 28
+       "claims": 33
       },
       "tenant": {
-       "claims": 4
+       "claims": 6
       }
      }
     },
@@ -641,8 +640,8 @@
        "claims": 59,
        "appealed": 47,
        "affirmedPct": 62,
-       "medianAward": 62500,
-       "awardsN": 26
+       "medianAward": 75000,
+       "awardsN": 27
       }
      }
     },
@@ -671,7 +670,7 @@
      },
      "sides": {
       "tenant": {
-       "claims": 69,
+       "claims": 71,
        "appealed": 29,
        "affirmedPct": 52,
        "medianAward": 25367,
@@ -709,9 +708,9 @@
      },
      "sides": {
       "tenant": {
-       "claims": 33,
-       "appealed": 24,
-       "affirmedPct": 67
+       "claims": 35,
+       "appealed": 25,
+       "affirmedPct": 72
       },
       "landlord": {
        "claims": 36,
@@ -743,9 +742,9 @@
      },
      "sides": {
       "landlord": {
-       "claims": 52,
-       "appealed": 31,
-       "affirmedPct": 74
+       "claims": 55,
+       "appealed": 34,
+       "affirmedPct": 76
       },
       "tenant": {
        "claims": 26,
@@ -811,7 +810,7 @@
        "awardsN": 24
       },
       "tenant": {
-       "claims": 20
+       "claims": 21
       }
      }
     },
@@ -871,7 +870,7 @@
      },
      "sides": {
       "tenant": {
-       "claims": 22
+       "claims": 23
       },
       "landlord": {
        "claims": 43,
@@ -1016,7 +1015,7 @@
       "federal-appeals": 9
      },
      "propertyTypes": {
-      "Retail": 117,
+      "Retail": 118,
       "Office": 49,
       "Industrial": 17,
       "Medical Office": 12,
@@ -1025,50 +1024,50 @@
      },
      "sides": {
       "landlord": {
-       "claims": 336,
+       "claims": 338,
        "awardToClaim": {
-        "p25": 0.302,
-        "median": 1.0,
+        "p25": 0.296,
+        "median": 0.981,
         "p75": 1.0,
-        "n": 35
+        "n": 34
        },
-       "fullRecoveryPct": 57,
-       "underHalfPct": 31,
+       "fullRecoveryPct": 56,
+       "underHalfPct": 32,
        "appealed": 158,
-       "affirmedPct": 42,
+       "affirmedPct": 43,
        "finalToClaim": {
-        "p25": 0.23,
-        "median": 0.959,
+        "p25": 0.215,
+        "median": 0.957,
         "p75": 1.0,
-        "n": 44
+        "n": 43
        },
-       "medianAward": 175931,
+       "medianAward": 195081,
        "awardsN": 106
       },
       "tenant": {
-       "claims": 145,
-       "appealed": 70,
-       "affirmedPct": 36,
+       "claims": 146,
+       "appealed": 71,
+       "affirmedPct": 37,
        "medianAward": 114750,
        "awardsN": 49
       }
      }
     },
     "OH": {
-     "cases": 223,
+     "cases": 222,
      "years": [
       2000,
       2026
      ],
      "courtLevels": {
-      "intermediate-appellate": 191,
+      "intermediate-appellate": 190,
       "federal-district": 21,
       "bankruptcy": 5,
       "federal-appeals": 5,
       "trial": 1
      },
      "propertyTypes": {
-      "Retail": 124,
+      "Retail": 126,
       "Industrial": 16,
       "Office": 15,
       "Medical Office": 7,
@@ -1077,32 +1076,32 @@
      },
      "sides": {
       "landlord": {
-       "claims": 188,
+       "claims": 186,
        "awardToClaim": {
-        "p25": 0.467,
-        "median": 0.873,
+        "p25": 0.514,
+        "median": 0.916,
         "p75": 1.0,
         "n": 39
        },
-       "fullRecoveryPct": 44,
-       "underHalfPct": 26,
-       "appealed": 139,
+       "fullRecoveryPct": 46,
+       "underHalfPct": 23,
+       "appealed": 137,
        "affirmedPct": 63,
        "finalToClaim": {
         "p25": 0.202,
-        "median": 0.827,
+        "median": 0.797,
         "p75": 1.0,
-        "n": 32
+        "n": 31
        },
-       "medianAward": 46359,
-       "awardsN": 94
+       "medianAward": 47270,
+       "awardsN": 93
       },
       "tenant": {
-       "claims": 104,
+       "claims": 105,
        "appealed": 92,
        "affirmedPct": 67,
-       "medianAward": 27157,
-       "awardsN": 41
+       "medianAward": 25166,
+       "awardsN": 43
       }
      }
     },
@@ -1156,7 +1155,7 @@
      },
      "sides": {
       "landlord": {
-       "claims": 100,
+       "claims": 99,
        "awardToClaim": {
         "p25": 0.605,
         "median": 0.941,
@@ -1165,7 +1164,7 @@
        },
        "fullRecoveryPct": 50,
        "underHalfPct": 23,
-       "appealed": 48,
+       "appealed": 47,
        "affirmedPct": 62,
        "finalToClaim": {
         "p25": 0.189,
@@ -1267,7 +1266,7 @@
      }
     },
     "TN": {
-     "cases": 114,
+     "cases": 113,
      "years": [
       2000,
       2026
@@ -1277,28 +1276,28 @@
       "federal-district": 5,
       "bankruptcy": 5,
       "supreme": 5,
-      "federal-appeals": 4
+      "federal-appeals": 3
      },
      "propertyTypes": {
       "Retail": 40,
-      "Office": 18,
-      "Industrial": 10,
+      "Office": 17,
+      "Industrial": 11,
       "Hospitality": 5,
       "Medical Office": 4,
       "Land/Development": 4
      },
      "sides": {
       "tenant": {
-       "claims": 47,
-       "appealed": 38,
-       "affirmedPct": 39,
+       "claims": 48,
+       "appealed": 39,
+       "affirmedPct": 41,
        "medianAward": 45000,
        "awardsN": 24
       },
       "landlord": {
-       "claims": 116,
-       "appealed": 88,
-       "affirmedPct": 59,
+       "claims": 118,
+       "appealed": 89,
+       "affirmedPct": 58,
        "medianAward": 26185,
        "awardsN": 68
       }
@@ -1328,43 +1327,43 @@
      },
      "sides": {
       "tenant": {
-       "claims": 265,
-       "appealed": 221,
+       "claims": 264,
+       "appealed": 219,
        "affirmedPct": 60,
        "medianAward": 41000,
-       "awardsN": 156
+       "awardsN": 154
       },
       "landlord": {
-       "claims": 344,
+       "claims": 349,
        "awardToClaim": {
-        "p25": 0.306,
-        "median": 0.829,
+        "p25": 0.261,
+        "median": 0.787,
         "p75": 1.0,
         "n": 67
        },
-       "fullRecoveryPct": 45,
-       "underHalfPct": 36,
-       "appealed": 279,
+       "fullRecoveryPct": 43,
+       "underHalfPct": 37,
+       "appealed": 282,
        "affirmedPct": 61,
        "finalToClaim": {
         "p25": 0.169,
-        "median": 0.966,
+        "median": 0.858,
         "p75": 1.0,
         "n": 55
        },
        "medianAward": 36069,
-       "awardsN": 186
+       "awardsN": 187
       }
      }
     },
     "UT": {
-     "cases": 24,
+     "cases": 25,
      "years": [
       2000,
       2026
      ],
      "courtLevels": {
-      "intermediate-appellate": 15,
+      "intermediate-appellate": 16,
       "supreme": 6,
       "federal-district": 3
      },
@@ -1471,41 +1470,41 @@
      "sides": {
       "landlord": {
        "claims": 38,
-       "appealed": 22,
-       "affirmedPct": 73
+       "appealed": 23,
+       "affirmedPct": 70
       },
       "tenant": {
-       "claims": 18
+       "claims": 19
       }
      }
     }
    }
   },
   "lending-foreclosure": {
-   "cases": 1232,
+   "cases": 1230,
    "years": [
     2000,
     2026
    ],
    "courtLevels": {
-    "intermediate-appellate": 493,
+    "intermediate-appellate": 492,
     "federal-district": 286,
     "bankruptcy": 229,
-    "federal-appeals": 94,
+    "federal-appeals": 93,
     "supreme": 89,
     "trial": 41
    },
    "propertyTypes": {
-    "Multifamily": 184,
+    "Multifamily": 183,
     "Hospitality": 174,
-    "Land/Development": 167,
-    "Retail": 134,
+    "Land/Development": 168,
+    "Retail": 136,
     "Office": 89,
     "Mixed-Use": 74
    },
    "sides": {
     "lender": {
-     "claims": 704,
+     "claims": 712,
      "awardToClaim": {
       "p25": 0.912,
       "median": 1.0,
@@ -1514,7 +1513,7 @@
      },
      "fullRecoveryPct": 72,
      "underHalfPct": 16,
-     "appealed": 298,
+     "appealed": 300,
      "affirmedPct": 62,
      "finalToClaim": {
       "p25": 0.646,
@@ -1526,7 +1525,7 @@
      "awardsN": 275
     },
     "borrower": {
-     "claims": 416,
+     "claims": 422,
      "appealed": 264,
      "affirmedPct": 74,
      "medianAward": 256255,
@@ -1585,14 +1584,14 @@
      },
      "sides": {
       "lender": {
-       "claims": 49,
+       "claims": 50,
        "appealed": 28,
        "affirmedPct": 46,
        "medianAward": 1572895,
        "awardsN": 24
       },
       "borrower": {
-       "claims": 56,
+       "claims": 58,
        "appealed": 35,
        "affirmedPct": 86
       }
@@ -1678,7 +1677,7 @@
      },
      "sides": {
       "lender": {
-       "claims": 22
+       "claims": 24
       },
       "borrower": {
        "claims": 9
@@ -1730,15 +1729,15 @@
      },
      "propertyTypes": {
       "Retail": 15,
+      "Land/Development": 7,
       "Office": 7,
-      "Land/Development": 6,
       "Multifamily": 6,
       "Senior Living": 5,
       "Industrial": 4
      },
      "sides": {
       "lender": {
-       "claims": 55,
+       "claims": 58,
        "appealed": 22,
        "affirmedPct": 59
       },
@@ -1798,7 +1797,7 @@
      },
      "sides": {
       "lender": {
-       "claims": 18
+       "claims": 19
       },
       "borrower": {
        "claims": 9
@@ -1865,7 +1864,7 @@
      }
     },
     "NJ": {
-     "cases": 31,
+     "cases": 30,
      "years": [
       2002,
       2026
@@ -1873,7 +1872,7 @@
      "courtLevels": {
       "intermediate-appellate": 12,
       "federal-district": 10,
-      "federal-appeals": 4,
+      "federal-appeals": 3,
       "bankruptcy": 3,
       "trial": 2
      },
@@ -1881,9 +1880,9 @@
       "Office": 4,
       "Hospitality": 3,
       "Industrial": 3,
-      "Multifamily": 3,
       "Mixed-Use": 2,
-      "Retail": 2
+      "Retail": 2,
+      "Land/Development": 2
      },
      "sides": {
       "lender": {
@@ -1943,7 +1942,7 @@
       "Hospitality": 19,
       "Mixed-Use": 8,
       "Office": 7,
-      "Retail": 2,
+      "Retail": 3,
       "Senior Living": 2
      },
      "sides": {
@@ -2095,7 +2094,7 @@
        "awardsN": 26
       },
       "borrower": {
-       "claims": 75,
+       "claims": 79,
        "appealed": 60,
        "affirmedPct": 55
       }
@@ -2138,41 +2137,41 @@
    ],
    "courtLevels": {
     "intermediate-appellate": 1520,
-    "supreme": 531,
-    "federal-district": 324,
+    "supreme": 533,
+    "federal-district": 322,
     "trial": 143,
     "federal-appeals": 136,
     "bankruptcy": 8
    },
    "propertyTypes": {
-    "Land/Development": 1046,
-    "Retail": 319,
+    "Land/Development": 1066,
+    "Retail": 321,
     "Industrial": 149,
     "Hospitality": 57,
-    "Office": 51,
-    "Mixed-Use": 44
+    "Office": 50,
+    "Mixed-Use": 43
    },
    "sides": {
     "owner": {
-     "claims": 2750,
+     "claims": 2774,
      "awardToClaim": {
-      "p25": 0.226,
-      "median": 0.487,
-      "p75": 0.87,
-      "n": 334
+      "p25": 0.242,
+      "median": 0.495,
+      "p75": 0.874,
+      "n": 332
      },
      "fullRecoveryPct": 20,
-     "underHalfPct": 51,
-     "appealed": 2022,
+     "underHalfPct": 50,
+     "appealed": 2034,
      "affirmedPct": 60,
      "finalToClaim": {
-      "p25": 0.1,
-      "median": 0.415,
-      "p75": 0.81,
-      "n": 273
+      "p25": 0.102,
+      "median": 0.424,
+      "p75": 0.811,
+      "n": 269
      },
-     "medianAward": 225000,
-     "awardsN": 1794
+     "medianAward": 228000,
+     "awardsN": 1789
     }
    },
    "states": {
@@ -2197,7 +2196,7 @@
      },
      "sides": {
       "owner": {
-       "claims": 28
+       "claims": 26
       }
      }
     },
@@ -2213,7 +2212,7 @@
       "federal-appeals": 1
      },
      "propertyTypes": {
-      "Land/Development": 16,
+      "Land/Development": 15,
       "Retail": 3
      },
      "sides": {
@@ -2238,14 +2237,14 @@
       "federal-appeals": 2
      },
      "propertyTypes": {
-      "Land/Development": 14,
+      "Land/Development": 15,
       "Retail": 2
      },
      "sides": {
       "owner": {
-       "claims": 30,
-       "appealed": 23,
-       "affirmedPct": 43,
+       "claims": 31,
+       "appealed": 24,
+       "affirmedPct": 46,
        "medianAward": 620000,
        "awardsN": 27
       }
@@ -2264,8 +2263,8 @@
       "supreme": 6
      },
      "propertyTypes": {
-      "Land/Development": 61,
-      "Retail": 15,
+      "Land/Development": 63,
+      "Retail": 16,
       "Office": 6,
       "Industrial": 6,
       "Hospitality": 3,
@@ -2283,7 +2282,7 @@
        "fullRecoveryPct": 7,
        "underHalfPct": 61,
        "appealed": 110,
-       "affirmedPct": 65,
+       "affirmedPct": 66,
        "finalToClaim": {
         "p25": 0.052,
         "median": 0.467,
@@ -2296,26 +2295,26 @@
      }
     },
     "CO": {
-     "cases": 47,
+     "cases": 48,
      "years": [
       2000,
       2026
      ],
      "courtLevels": {
       "intermediate-appellate": 36,
-      "supreme": 10,
+      "supreme": 11,
       "federal-district": 1
      },
      "propertyTypes": {
-      "Land/Development": 28,
+      "Land/Development": 30,
       "Industrial": 3,
       "Retail": 2
      },
      "sides": {
       "owner": {
-       "claims": 53,
-       "appealed": 40,
-       "affirmedPct": 55,
+       "claims": 57,
+       "appealed": 44,
+       "affirmedPct": 57,
        "medianAward": 204387,
        "awardsN": 41
       }
@@ -2335,7 +2334,7 @@
       "federal-district": 1
      },
      "propertyTypes": {
-      "Land/Development": 40,
+      "Land/Development": 41,
       "Industrial": 13,
       "Retail": 12,
       "Office": 6,
@@ -2367,20 +2366,20 @@
      }
     },
     "FL": {
-     "cases": 72,
+     "cases": 71,
      "years": [
       2000,
       2024
      ],
      "courtLevels": {
       "intermediate-appellate": 39,
-      "federal-district": 26,
+      "federal-district": 25,
       "supreme": 3,
       "federal-appeals": 3,
       "bankruptcy": 1
      },
      "propertyTypes": {
-      "Land/Development": 22,
+      "Land/Development": 23,
       "Retail": 11,
       "Hospitality": 2,
       "Industrial": 1
@@ -2390,8 +2389,8 @@
        "claims": 68,
        "appealed": 42,
        "affirmedPct": 57,
-       "medianAward": 366332,
-       "awardsN": 48
+       "medianAward": 423164,
+       "awardsN": 47
       }
      }
     },
@@ -2462,7 +2461,7 @@
       "federal-appeals": 4
      },
      "propertyTypes": {
-      "Land/Development": 43,
+      "Land/Development": 44,
       "Retail": 18,
       "Industrial": 5,
       "Self-Storage": 2,
@@ -2470,10 +2469,10 @@
      },
      "sides": {
       "owner": {
-       "claims": 88,
+       "claims": 89,
        "appealed": 73,
        "affirmedPct": 67,
-       "medianAward": 168750,
+       "medianAward": 174375,
        "awardsN": 76
       }
      }
@@ -2499,7 +2498,7 @@
      },
      "sides": {
       "owner": {
-       "claims": 43,
+       "claims": 45,
        "appealed": 34,
        "affirmedPct": 50,
        "medianAward": 551593,
@@ -2552,7 +2551,7 @@
      },
      "sides": {
       "owner": {
-       "claims": 34,
+       "claims": 36,
        "appealed": 29,
        "affirmedPct": 66
       }
@@ -2580,9 +2579,9 @@
      },
      "sides": {
       "owner": {
-       "claims": 119,
-       "appealed": 96,
-       "affirmedPct": 57,
+       "claims": 120,
+       "appealed": 97,
+       "affirmedPct": 58,
        "medianAward": 160820,
        "awardsN": 76
       }
@@ -2635,7 +2634,7 @@
      },
      "sides": {
       "owner": {
-       "claims": 28,
+       "claims": 29,
        "appealed": 20,
        "affirmedPct": 60
       }
@@ -2717,8 +2716,8 @@
      "sides": {
       "owner": {
        "claims": 38,
-       "appealed": 29,
-       "affirmedPct": 69,
+       "appealed": 28,
+       "affirmedPct": 71,
        "medianAward": 364406,
        "awardsN": 28
       }
@@ -2737,16 +2736,16 @@
       "federal-appeals": 1
      },
      "propertyTypes": {
-      "Land/Development": 29,
+      "Land/Development": 30,
       "Hospitality": 3,
       "Industrial": 2,
       "Retail": 1
      },
      "sides": {
       "owner": {
-       "claims": 60,
-       "appealed": 48,
-       "affirmedPct": 69,
+       "claims": 62,
+       "appealed": 50,
+       "affirmedPct": 70,
        "medianAward": 303538,
        "awardsN": 46
       }
@@ -2759,8 +2758,8 @@
       2024
      ],
      "courtLevels": {
-      "supreme": 14,
-      "intermediate-appellate": 3,
+      "supreme": 15,
+      "intermediate-appellate": 2,
       "federal-appeals": 2,
       "federal-district": 1
      },
@@ -2770,9 +2769,9 @@
      },
      "sides": {
       "owner": {
-       "claims": 22,
-       "appealed": 20,
-       "affirmedPct": 40
+       "claims": 24,
+       "appealed": 21,
+       "affirmedPct": 43
       }
      }
     },
@@ -2789,15 +2788,15 @@
      },
      "propertyTypes": {
       "Land/Development": 14,
-      "Retail": 6,
-      "Office": 3,
+      "Retail": 7,
       "Industrial": 3,
+      "Office": 2,
       "Hospitality": 2,
-      "Mixed-Use": 2
+      "Multifamily": 2
      },
      "sides": {
       "owner": {
-       "claims": 51,
+       "claims": 52,
        "appealed": 37,
        "affirmedPct": 65,
        "medianAward": 158500,
@@ -2859,7 +2858,7 @@
      }
     },
     "NV": {
-     "cases": 30,
+     "cases": 29,
      "years": [
       2000,
       2024
@@ -2867,18 +2866,17 @@
      "courtLevels": {
       "supreme": 21,
       "federal-appeals": 4,
-      "intermediate-appellate": 4,
-      "federal-district": 1
+      "intermediate-appellate": 4
      },
      "propertyTypes": {
-      "Land/Development": 14,
+      "Land/Development": 13,
       "Office": 3,
       "Retail": 1,
       "Multifamily": 1
      },
      "sides": {
       "owner": {
-       "claims": 47,
+       "claims": 46,
        "appealed": 41,
        "affirmedPct": 59,
        "medianAward": 600000,
@@ -2901,7 +2899,7 @@
       "bankruptcy": 2
      },
      "propertyTypes": {
-      "Land/Development": 54,
+      "Land/Development": 55,
       "Retail": 23,
       "Industrial": 7,
       "Mixed-Use": 5,
@@ -2910,7 +2908,7 @@
      },
      "sides": {
       "owner": {
-       "claims": 164,
+       "claims": 166,
        "awardToClaim": {
         "p25": 0.456,
         "median": 0.746,
@@ -2919,10 +2917,10 @@
        },
        "fullRecoveryPct": 31,
        "underHalfPct": 28,
-       "appealed": 115,
+       "appealed": 116,
        "affirmedPct": 62,
        "finalToClaim": {
-        "p25": 0.367,
+        "p25": 0.388,
         "median": 0.835,
         "p75": 1.0,
         "n": 28
@@ -2933,7 +2931,7 @@
      }
     },
     "OH": {
-     "cases": 72,
+     "cases": 73,
      "years": [
       2000,
       2026
@@ -2941,11 +2939,11 @@
      "courtLevels": {
       "intermediate-appellate": 53,
       "federal-district": 8,
-      "supreme": 6,
+      "supreme": 7,
       "federal-appeals": 5
      },
      "propertyTypes": {
-      "Land/Development": 23,
+      "Land/Development": 24,
       "Retail": 18,
       "Industrial": 4,
       "Office": 2,
@@ -2954,9 +2952,9 @@
      },
      "sides": {
       "owner": {
-       "claims": 80,
-       "appealed": 70,
-       "affirmedPct": 69,
+       "claims": 82,
+       "appealed": 72,
+       "affirmedPct": 67,
        "medianAward": 182000,
        "awardsN": 47
       }
@@ -2975,7 +2973,7 @@
       "federal-appeals": 2
      },
      "propertyTypes": {
-      "Land/Development": 18,
+      "Land/Development": 20,
       "Retail": 5,
       "Industrial": 2,
       "Mixed-Use": 2,
@@ -2983,11 +2981,11 @@
      },
      "sides": {
       "owner": {
-       "claims": 68,
-       "appealed": 53,
-       "affirmedPct": 36,
-       "medianAward": 55600,
-       "awardsN": 45
+       "claims": 67,
+       "appealed": 51,
+       "affirmedPct": 33,
+       "medianAward": 56800,
+       "awardsN": 44
       }
      }
     },
@@ -3042,7 +3040,7 @@
      },
      "sides": {
       "owner": {
-       "claims": 112,
+       "claims": 113,
        "appealed": 75,
        "affirmedPct": 59,
        "medianAward": 269614,
@@ -3063,7 +3061,7 @@
       "federal-appeals": 1
      },
      "propertyTypes": {
-      "Land/Development": 13,
+      "Land/Development": 14,
       "Retail": 4,
       "Office": 1
      },
@@ -3089,14 +3087,14 @@
       "bankruptcy": 1
      },
      "propertyTypes": {
-      "Land/Development": 23,
+      "Land/Development": 25,
       "Retail": 4,
       "Hospitality": 2,
       "Office": 1
      },
      "sides": {
       "owner": {
-       "claims": 51,
+       "claims": 50,
        "appealed": 31,
        "affirmedPct": 52,
        "medianAward": 41600,
@@ -3105,47 +3103,47 @@
      }
     },
     "TX": {
-     "cases": 397,
+     "cases": 398,
      "years": [
       2000,
       2026
      ],
      "courtLevels": {
-      "intermediate-appellate": 320,
+      "intermediate-appellate": 321,
       "supreme": 46,
       "federal-district": 27,
       "federal-appeals": 3,
       "trial": 1
      },
      "propertyTypes": {
-      "Land/Development": 200,
+      "Land/Development": 203,
       "Retail": 34,
       "Industrial": 17,
       "Hospitality": 9,
       "Office": 6,
-      "Multifamily": 4
+      "Multifamily": 5
      },
      "sides": {
       "owner": {
-       "claims": 450,
+       "claims": 451,
        "awardToClaim": {
-        "p25": 0.322,
-        "median": 0.635,
-        "p75": 0.96,
-        "n": 34
+        "p25": 0.461,
+        "median": 0.693,
+        "p75": 0.987,
+        "n": 32
        },
-       "fullRecoveryPct": 24,
-       "underHalfPct": 38,
-       "appealed": 363,
+       "fullRecoveryPct": 25,
+       "underHalfPct": 34,
+       "appealed": 365,
        "affirmedPct": 56,
        "finalToClaim": {
         "p25": 0.013,
-        "median": 0.481,
-        "p75": 0.843,
-        "n": 31
+        "median": 0.486,
+        "p75": 0.895,
+        "n": 29
        },
        "medianAward": 259549,
-       "awardsN": 318
+       "awardsN": 316
       }
      }
     },
@@ -3163,7 +3161,7 @@
       "intermediate-appellate": 4
      },
      "propertyTypes": {
-      "Land/Development": 32,
+      "Land/Development": 33,
       "Retail": 10,
       "Medical Office": 3,
       "Hospitality": 2,
@@ -3172,11 +3170,11 @@
      },
      "sides": {
       "owner": {
-       "claims": 73,
+       "claims": 74,
        "appealed": 42,
        "affirmedPct": 48,
-       "medianAward": 105616,
-       "awardsN": 55
+       "medianAward": 106374,
+       "awardsN": 54
       }
      }
     },
@@ -3254,39 +3252,39 @@
      },
      "sides": {
       "owner": {
-       "claims": 26
+       "claims": 28
       }
      }
     }
    }
   },
   "zoning-land-use": {
-   "cases": 1221,
+   "cases": 1216,
    "years": [
     2000,
     2026
    ],
    "courtLevels": {
-    "intermediate-appellate": 656,
-    "federal-district": 235,
-    "supreme": 174,
+    "intermediate-appellate": 654,
+    "federal-district": 236,
+    "supreme": 170,
     "federal-appeals": 95,
     "trial": 56,
     "other": 3,
     "bankruptcy": 2
    },
    "propertyTypes": {
-    "Land/Development": 487,
-    "Retail": 164,
+    "Land/Development": 484,
+    "Retail": 166,
     "Industrial": 123,
     "Mixed-Use": 100,
     "Hospitality": 51,
-    "Multifamily": 47
+    "Multifamily": 46
    },
    "sides": {
     "owner": {
-     "claims": 559,
-     "appealed": 359,
+     "claims": 567,
+     "appealed": 362,
      "affirmedPct": 55
     }
    },
@@ -3375,19 +3373,19 @@
      }
     },
     "GA": {
-     "cases": 29,
+     "cases": 28,
      "years": [
       2000,
       2026
      ],
      "courtLevels": {
       "supreme": 12,
-      "intermediate-appellate": 9,
+      "intermediate-appellate": 8,
       "federal-district": 6,
       "federal-appeals": 2
      },
      "propertyTypes": {
-      "Land/Development": 17,
+      "Land/Development": 16,
       "Mixed-Use": 3,
       "Industrial": 2,
       "Multifamily": 2
@@ -3470,7 +3468,7 @@
      },
      "sides": {
       "owner": {
-       "claims": 14
+       "claims": 15
       }
      }
     },
@@ -3550,7 +3548,7 @@
      },
      "sides": {
       "owner": {
-       "claims": 27
+       "claims": 29
       }
      }
     },
@@ -3634,7 +3632,7 @@
      }
     },
     "OH": {
-     "cases": 63,
+     "cases": 62,
      "years": [
       2000,
       2026
@@ -3643,11 +3641,11 @@
       "intermediate-appellate": 43,
       "federal-appeals": 9,
       "federal-district": 6,
-      "supreme": 5
+      "supreme": 4
      },
      "propertyTypes": {
-      "Land/Development": 26,
-      "Retail": 6,
+      "Land/Development": 25,
+      "Retail": 7,
       "Industrial": 4,
       "Office": 3,
       "Mixed-Use": 2,
@@ -3698,7 +3696,7 @@
       "supreme": 1
      },
      "propertyTypes": {
-      "Land/Development": 16,
+      "Land/Development": 17,
       "Industrial": 5,
       "Retail": 2,
       "Multifamily": 2,
@@ -3711,20 +3709,20 @@
      }
     },
     "TX": {
-     "cases": 86,
+     "cases": 85,
      "years": [
       2000,
       2026
      ],
      "courtLevels": {
-      "intermediate-appellate": 67,
+      "intermediate-appellate": 66,
       "supreme": 7,
       "federal-district": 7,
       "federal-appeals": 5
      },
      "propertyTypes": {
-      "Land/Development": 45,
-      "Multifamily": 10,
+      "Land/Development": 46,
+      "Multifamily": 9,
       "Retail": 7,
       "Industrial": 5,
       "Self-Storage": 5,
@@ -3732,9 +3730,9 @@
      },
      "sides": {
       "owner": {
-       "claims": 77,
-       "appealed": 69,
-       "affirmedPct": 38
+       "claims": 79,
+       "appealed": 70,
+       "affirmedPct": 39
       }
      }
     },
@@ -3752,12 +3750,12 @@
       "federal-appeals": 2
      },
      "propertyTypes": {
-      "Land/Development": 9,
+      "Land/Development": 8,
       "Mixed-Use": 4,
+      "Senior Living": 1,
       "Retail": 1,
       "Industrial": 1,
-      "Hospitality": 1,
-      "Office": 1
+      "Hospitality": 1
      },
      "sides": {
       "owner": {
@@ -3787,9 +3785,9 @@
      },
      "sides": {
       "owner": {
-       "claims": 22,
-       "appealed": 20,
-       "affirmedPct": 80
+       "claims": 24,
+       "appealed": 21,
+       "affirmedPct": 76
       }
      }
     },
@@ -3820,13 +3818,13 @@
    }
   },
   "construction-defect": {
-   "cases": 473,
+   "cases": 474,
    "years": [
     2000,
     2026
    ],
    "courtLevels": {
-    "intermediate-appellate": 282,
+    "intermediate-appellate": 283,
     "federal-district": 88,
     "supreme": 45,
     "trial": 24,
@@ -3843,7 +3841,7 @@
    },
    "sides": {
     "owner": {
-     "claims": 262,
+     "claims": 268,
      "awardToClaim": {
       "p25": 0.381,
       "median": 0.561,
@@ -3864,16 +3862,16 @@
      "awardsN": 92
     },
     "contractor": {
-     "claims": 448,
+     "claims": 453,
      "awardToClaim": {
       "p25": 0.712,
-      "median": 0.974,
+      "median": 0.973,
       "p75": 1.0,
-      "n": 92
+      "n": 91
      },
      "fullRecoveryPct": 53,
-     "underHalfPct": 18,
-     "appealed": 288,
+     "underHalfPct": 19,
+     "appealed": 290,
      "affirmedPct": 66,
      "finalToClaim": {
       "p25": 0.078,
@@ -3881,8 +3879,8 @@
       "p75": 1.0,
       "n": 92
      },
-     "medianAward": 211700,
-     "awardsN": 199
+     "medianAward": 206342,
+     "awardsN": 200
     }
    },
    "states": {
@@ -4025,11 +4023,11 @@
      },
      "sides": {
       "contractor": {
-       "claims": 61,
+       "claims": 62,
        "appealed": 45,
        "affirmedPct": 73,
-       "medianAward": 462933,
-       "awardsN": 24
+       "medianAward": 460057,
+       "awardsN": 25
       },
       "owner": {
        "claims": 35,
@@ -4041,30 +4039,30 @@
    }
   },
   "premises-liability": {
-   "cases": 788,
+   "cases": 787,
    "years": [
     2000,
     2026
    ],
    "courtLevels": {
     "intermediate-appellate": 397,
-    "federal-district": 248,
+    "federal-district": 247,
     "supreme": 87,
     "federal-appeals": 34,
     "trial": 22
    },
    "propertyTypes": {
     "Retail": 403,
-    "Hospitality": 118,
+    "Hospitality": 119,
     "Industrial": 77,
-    "Office": 40,
-    "Medical Office": 22,
+    "Office": 39,
+    "Medical Office": 23,
     "Mixed-Use": 8
    },
    "sides": {
     "injured": {
-     "claims": 895,
-     "appealed": 573,
+     "claims": 900,
+     "appealed": 576,
      "affirmedPct": 59
     }
    },
@@ -4084,16 +4082,16 @@
      "propertyTypes": {
       "Retail": 43,
       "Hospitality": 13,
-      "Office": 6,
       "Industrial": 5,
-      "Land/Development": 1,
-      "Mixed-Use": 1
+      "Office": 5,
+      "Medical Office": 1,
+      "Land/Development": 1
      },
      "sides": {
       "injured": {
-       "claims": 71,
-       "appealed": 33,
-       "affirmedPct": 48
+       "claims": 72,
+       "appealed": 34,
+       "affirmedPct": 47
       }
      }
     },
@@ -4264,7 +4262,7 @@
      },
      "sides": {
       "injured": {
-       "claims": 48,
+       "claims": 49,
        "appealed": 30,
        "affirmedPct": 40
       }
@@ -4312,8 +4310,8 @@
      "propertyTypes": {
       "Retail": 18,
       "Industrial": 5,
+      "Hospitality": 2,
       "Self-Storage": 1,
-      "Hospitality": 1,
       "Senior Living": 1
      },
      "sides": {
@@ -4325,14 +4323,14 @@
      }
     },
     "PA": {
-     "cases": 40,
+     "cases": 39,
      "years": [
       2001,
       2026
      ],
      "courtLevels": {
-      "federal-district": 17,
       "intermediate-appellate": 16,
+      "federal-district": 16,
       "trial": 5,
       "federal-appeals": 1,
       "supreme": 1
@@ -4346,7 +4344,7 @@
      },
      "sides": {
       "injured": {
-       "claims": 41
+       "claims": 40
       }
      }
     },
@@ -4371,7 +4369,7 @@
      },
      "sides": {
       "injured": {
-       "claims": 20
+       "claims": 21
       }
      }
     },
@@ -4397,8 +4395,8 @@
      },
      "sides": {
       "injured": {
-       "claims": 137,
-       "appealed": 103,
+       "claims": 140,
+       "appealed": 105,
        "affirmedPct": 62
       }
      }
@@ -4430,7 +4428,7 @@
    },
    "sides": {
     "owner": {
-     "claims": 143,
+     "claims": 142,
      "appealed": 84,
      "affirmedPct": 48
     }
