@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T05:02:27+00:00",
+ "updatedAt": "2026-11-25T20:41:18+00:00",
  "about": "Commercial real estate filings from free state and county court data whose terms allow automated use. Business and government parties only; built by scripts/pull_state_filings.py.",
  "filings": [
   {
@@ -20,6 +20,25 @@
    "sourceName": "Hillsborough County Clerk, daily civil filings, 2026-11-24",
    "sourceUrl": "https://publicrec.hillsclerk.com/Civil/dailyfilings/CivilFiling_20261124.csv",
    "slug": "vinick-llc-v-autumn-project-development-llc-fl-hillsborough-26-cc-058946"
+  },
+  {
+   "source": "harris_jp_tx",
+   "state": "TX",
+   "county": "Harris",
+   "court": "Harris County Justice Court, Texas",
+   "caseNumber": "263100522281",
+   "caseType": "Commercial eviction",
+   "dateFiled": "2026-11-23",
+   "caseName": "M6 Jacintoport Holdings LLC v. LS Energy Properties, LLC",
+   "plaintiffs": [
+    "M6 Jacintoport Holdings LLC"
+   ],
+   "defendants": [
+    "LS Energy Properties, LLC"
+   ],
+   "sourceName": "Harris County Justice Courts, Public Data Extract",
+   "sourceUrl": "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp",
+   "slug": "m6-jacintoport-holdings-llc-v-ls-energy-properties-llc-tx-harris-263100522281"
   },
   {
    "source": "harris_jp_tx",

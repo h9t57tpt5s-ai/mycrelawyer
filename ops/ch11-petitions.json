@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-11-25T05:01:37+00:00",
+ "updatedAt": "2026-11-25T20:40:24+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "True Vision Development Inc.",
+   "court": "United States Bankruptcy Court, C.D. California",
+   "courtId": "cacb",
+   "docketNumber": "2:26-bk-21881",
+   "dateFiled": "2026-11-25",
+   "docketUrl": "https://www.courtlistener.com/docket/75176986/true-vision-development-inc/",
+   "docketId": 75176986,
+   "slug": "true-vision-development-inc-cacb-2-26-bk-21881",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "514 West 44th Street, Inc.",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-45478",
+   "dateFiled": "2026-11-25",
+   "docketUrl": "https://www.courtlistener.com/docket/75176891/514-west-44th-street-inc/",
+   "docketId": 75176891,
+   "slug": "514-west-44th-street-inc-nyeb-1-26-45478",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "Crossroad Realty NY, LLC",
    "court": "United States Bankruptcy Court, E.D. New York",
