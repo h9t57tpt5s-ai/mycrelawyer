@@ -15226,6 +15226,44 @@ const RELAW_DATA = {
         { when: "October 6, 2025", label: "Metro files unlawful detainer action; an eminent domain complaint for improvements on the premises follows three days later" },
         { when: "November 24, 2026", label: "Court of Appeal denies the tenants' writ petition", current: true }
       ]
+    },
+    {
+      id: "live-461",
+      seoTitle: "Escrown v. Arepas NYC: Rent Judgment Upheld, Interest Vacated",
+      seoDescription: "First Department modifies landlord Escrown LLC's $587,238.40 lease judgment against Arepas NYC Corp., vacating $126,186.48 in prejudgment interest.",
+      addedDate: "2026-11-25",
+      title: "Escrown LLC v. Arepas NYC Corp.: First Department Upholds Landlord's Lease Damages Despite Delayed Possession, Vacates $126,186.48 Prejudgment Interest Award",
+      brief: "The First Department modified a $587,238.40 lease-breach judgment for landlord Escrown LLC against Arepas NYC Corp. and its co-defendants, vacating $126,186.48 in prejudgment interest as unsupported by the hearing record, and otherwise affirmed.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-24",
+      jurisdiction: "New York Supreme Court, Appellate Division, First Department",
+      state: "NY",
+      amount: "$587,238.40 judgment",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11071118/escrown-llc-v-arepas-nyc-corp/",
+      summary: "The Appellate Division, First Department, modified a judgment awarding Escrown LLC $587,238.40 in its action for breach of a lease against Arepas NYC Corp. and its co-defendants. The court vacated the award of $126,186.48 in prejudgment interest, remanded for further proceedings and otherwise affirmed. It held that the trial court properly awarded rent and additional rent accruing under the lease despite the plaintiff's delay in delivering possession of the premises.",
+      significance: "The court enforced a lease provision by which the parties waived the statutory right to rescind for failure to give possession, and upheld damages against defendants who acknowledged they never took possession of the premises. It also held that the landlord did not meet its burden on prejudgment interest where its witness had not personally calculated the interest, and said the award on remand must rest on competent, nonconclusory evidence of how the calculation was made.",
+      body: [
+        "The First Department's November 24, 2026 decision reviewed a judgment of Supreme Court, New York County (Justice Lyle E. Frank), entered October 8, 2025, awarding plaintiff Escrown LLC $587,238.40 against Arepas NYC Corp. and its co-defendants. The court unanimously modified the judgment to vacate the award of prejudgment interest in the amount of $126,186.48, remanded for further proceedings, and otherwise affirmed, without costs. It noted that the defendants had not filed a notice of appeal from the September 17, 2024 order granting summary judgment on liability, but said that in any event the trial court properly found the defendants liable for breach of the lease.",
+        "On liability, the court said that although Real Property Law § 223-a implies a right to rescind a lease for failure to give possession, the statute expressly permits the parties to waive its application, as they did in the lease, and that the lease's liability disclaimer for failure to give possession did not render the lease obligations illusory. The court said the defendants did not establish any intentional conduct by the plaintiff that precluded the tenant's use of the premises: the plaintiff's work in the premises was contemplated by the lease, and the pandemic-related construction delays were largely outside the landlord's control. The court also said damages were not precluded by the plaintiff's refusal to provide the keys until the defendants provided the requisite insurance.",
+        "The court held that the plaintiff was entitled to full enforcement of the guaranty until at least 36 months after the rent commencement date, and that the trial court properly declined to limit damages against the guarantor under New York City's guaranty law, because the defendants acknowledged that they never took possession of the premises. It also upheld the award of the broker's fees the plaintiff incurred in reletting the premises.",
+        "The prejudgment interest award was a different matter. The court said the representative from the plaintiff's managing agent's office testified at the damages hearing that he had not personally calculated the interest charged and did not know whether the calculation was made based on multiple periods or one final interest calculation. The $126,186.48 in interest, the court noted, was more than 20% of the total $596,904.79 contract damages requested at the hearing. On remand, the court said, the interest award should be supported by evidence showing how the calculation was made, at what intervals the interest rate was applied, and whether any interest was compounded."
+      ],
+      tags: ["commercial lease", "delayed possession", "guaranty", "prejudgment interest", "new york"],
+      parties: [
+        { name: "Escrown LLC", role: "Plaintiff-Respondent (landlord)" },
+        { name: "Arepas NYC Corp.", role: "Defendant-Appellant" }
+      ],
+      judge: "Lyle E. Frank",
+      amountUsd: 587238.4,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "September 17, 2024", label: "Supreme Court grants the plaintiff summary judgment as to liability" },
+        { when: "August 2025", label: "Order assessing damages entered on or about August 20" },
+        { when: "October 8, 2025", label: "Judgment entered awarding the plaintiff $587,238.40" },
+        { when: "November 24, 2026", label: "First Department vacates the $126,186.48 prejudgment interest award, remands on that point and otherwise affirms", current: true }
+      ]
     }
   ],
 

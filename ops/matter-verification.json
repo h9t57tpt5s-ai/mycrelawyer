@@ -853,6 +853,22 @@
      "https://www.courts.ca.gov/opinions/documents/B352255.PDF"
     ]
    }
+  },
+  "live-461": {
+   "verifiedOn": "2026-11-25",
+   "sourceUrl": "https://www.courtlistener.com/opinion/11071118/escrown-llc-v-arepas-nyc-corp/",
+   "urls": [
+    "https://www.courtlistener.com/opinion/11071118/escrown-llc-v-arepas-nyc-corp/"
+   ],
+   "quotes": 21,
+   "confirmedByChecker": 21,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.courtlistener.com/opinion/11071118/escrown-llc-v-arepas-nyc-corp/"
+    ]
+   }
   }
  }
 }
