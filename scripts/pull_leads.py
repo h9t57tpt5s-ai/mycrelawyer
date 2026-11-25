@@ -237,9 +237,19 @@ def pull_wires(today, companies):
                 continue
             company = None
             for tok in re.findall(r"\b[A-Z]{1,5}\b", title):
-                if tok in by_ticker and re.search(rf"(\(|NYSE|NASDAQ|^|\b){tok}\b", title):
-                    company = by_ticker[tok]
-                    break
+                if tok not in by_ticker:
+                    continue
+                if len(tok) <= 2:
+                    # 1-2 letter tickers (O, H, FR, HR, ...) collide with
+                    # ordinary capitalized tokens too often for a bare word
+                    # match -- e.g. "O-I Glass (OI)" tokenizes to a stray "O"
+                    # that matched Realty Income's ticker twice in one week
+                    # (ops/leads-handled.json, 2026-11-19/20). Require an
+                    # explicit ticker-citation context instead.
+                    if not re.search(rf"(\(\s*{tok}\s*\)|NYSE:?\s*{tok}\b|NASDAQ:?\s*{tok}\b|\${tok}\b)", title):
+                        continue
+                company = by_ticker[tok]
+                break
             if not company:
                 low = re.sub(r"[^a-z0-9 ]", "", title.lower())
                 company = next((c for n, c in names if len(n) > 5 and n in low), None)
