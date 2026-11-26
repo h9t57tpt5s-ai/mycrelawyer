@@ -11,6 +11,10 @@
   "lat": 41.76795,
   "lon": -72.69844
  },
+ "1027-1031 west madison street, chicago, il 60607": {
+  "lat": 41.88164,
+  "lon": -87.65229
+ },
  "10300 shady lane, houston, tx 77093": null,
  "10440 south dr, houston, tx 77099": {
   "lat": 29.6672,
@@ -190,6 +194,10 @@
  "473 east washington street, north attleboro, ma 02760": {
   "lat": 41.98027,
   "lon": -71.32974
+ },
+ "4747 28th street southeast, grand rapids, mi 49512": {
+  "lat": 42.91261,
+  "lon": -85.55058
  },
  "4925 steffani ln, houston, tx 77041": {
   "lat": 29.84179,
