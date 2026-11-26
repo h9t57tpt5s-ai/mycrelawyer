@@ -1,4 +1,15 @@
 {
   "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
-  "leads": []
+  "leads": [
+    {
+      "found": "2026-11-26",
+      "title": "Arcolo Hackensack LLC, et al. v. City of Hackensack / Hackensack Planning Board (Former Sears Site Eminent Domain Challenge)",
+      "urls": [
+        "https://www.aol.com/news/former-sears-building-hackensack-sparks-185353034.html",
+        "https://www.yahoo.com/news/articles/n-j-city-wants-turn-145610239.html"
+      ],
+      "why": "WebSearch-only sourcing (Daily Voice/AOL, bylined Cecilia Levine, syndicated to Yahoo) reports that four related property-owning LLCs -- Arcolo Hackensack LLC, Sugensteve Hackensack LLC, Sugencole Hackensack LLC and Sugengran Hackensack LLC -- sued the City of Hackensack, NJ and its Planning Board in Bergen County Superior Court on Nov. 26, challenging the city's designation of the former Sears site (400 block of Main Street) as an 'area in need of redevelopment with condemnation.' Owners argue the property is economically viable, was wrongly deemed blighted based mainly on vacancy since 2020, that required notice procedures weren't followed, and that using eminent domain here violates the NJ and US constitutions; the suit also references a planned sale of the property to Russo Acquisitions LLC. This is a genuine commercial-property eminent domain/condemnation dispute between a city and commercial owners, not already in js/data.js (checked: no match for Hackensack/Arcolo/Sugensteve). CAVEAT FOR THE NEWSROOM: I could not confirm from search snippets alone whether 'Nov. 26' in the source is 2026 (today) or 2025 -- other coverage references a Feb. 2026(?) council resolution and a March 2025-dated redevelopment plan as preceding events, which is consistent with either year; please open the Daily Voice/AOL article directly to confirm the byline/publish date before treating this as this week's news. There is also a long prior history on this same property (2014 NJ Supreme Court eminent domain appeal, 2022-2023 Transform/ground-lease settlement litigation) that is a separate, older dispute -- the current lead is specifically the new Nov. 26 complaint against the city's condemnation designation.",
+      "eventDate": "2026-11-26 (per source; date needs confirmation -- see caveat)"
+    }
+  ]
 }

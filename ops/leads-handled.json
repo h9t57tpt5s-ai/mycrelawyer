@@ -1,5 +1,57 @@
 {
   "handled": {
+    "petition:https://www.courtlistener.com/docket/75176986/true-vision-development-inc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining the filing (True Vision Development Inc., C.D. Cal. Ch. 11, filed 2026-11-25; only a docket aggregator record for an earlier related case found, no secondary reporting)"
+    },
+    "petition:https://www.courtlistener.com/docket/75176891/514-west-44th-street-inc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining the filing (514 West 44th Street, Inc., E.D.N.Y. Ch. 11, filed 2026-11-25; single-asset entity named for address, no secondary reporting found)"
+    },
+    "petition:https://www.courtlistener.com/docket/75172432/crossroad-realty-ny-llc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage explaining this filing beyond docket aggregator data; Crossroad Realty NY LLC has two prior Ch. 11 cases (2023, 2024) both dismissed, but no reporting on the new 2026-11-24 E.D.N.Y. filing or why it filed again"
+    },
+    "petition:https://www.courtlistener.com/docket/75166179/4935-jimmy-carter-llc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining the filing (4935 Jimmy Carter, LLC, N.D. Ga. Ch. 11, filed 2026-11-24; likely a Jimmy Carter Blvd commercial property but no secondary reporting found)"
+    },
+    "petition:https://www.courtlistener.com/docket/75166478/1173-s-hairston-llc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining the filing (1173 S Hairston, LLC, N.D. Ga. Ch. 11, filed 2026-11-24; no secondary reporting found)"
+    },
+    "petition:https://www.courtlistener.com/docket/75168892/1115-stallion-llc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining the filing beyond docket aggregator data (1115 Stallion, LLC, S.D. Fla. Ch. 11, filed 2026-11-24; a prior 2025 case by the same debtor was dismissed, no reporting on why it filed again)"
+    },
+    "petition:https://www.courtlistener.com/docket/75162599/ez-lor-realty-llc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining the filing (E.Z. LOR Realty LLC, S.D.N.Y. Ch. 11, filed 2026-11-23; only docket aggregator data found, no secondary reporting)"
+    },
+    "petition:https://www.courtlistener.com/docket/75161217/87-uptown-llc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining the filing (87 Uptown LLC, N.D.N.Y. Ch. 11, filed 2026-11-23; no matching docket or news record found at all under this exact name)"
+    },
+    "petition:https://www.courtlistener.com/docket/75158346/388-prosper-llc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining the filing beyond docket aggregator data (388 Prosper LLC, S.D. Fla. Ch. 11, filed 2026-11-23; a prior 2025 case by the same debtor (25-20745) was dismissed Feb. 2026, no reporting on why it refiled)"
+    },
+    "federal-suit:https://www.courtlistener.com/docket/75168985/cooperstown-properties-llc-v-redbird-capital-partners-management-llc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found connecting Cooperstown Properties LLC and RedBird Capital Partners Management LLC in this N.D.N.Y. civil-miscellaneous filing (2026-11-24); search only surfaced an unrelated Cooperstown Dreams Park case and unrelated RedBird Chancery litigation"
+    },
+    "federal-suit:https://www.courtlistener.com/docket/75163772/signature-associates-inc-v-westbelt-country-property-ltd/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining this E.D. Mich. filing (2026-11-23) between Signature Associates Inc. and Westbelt Country Property Ltd"
+    },
+    "sec-lead:0000003545-26-000054:amendedandrestatedleaseagr.htm": {
+      "at": "2026-11-26",
+      "action": "skipped: boilerplate SNDA/estoppel lease clause exhibit attached to ALICO Inc.'s 10-K, not a litigation disclosure"
+    },
+    "securities-suit-leads: Millrose Properties (MRP), Arbor Realty Trust (ABR), Realty Income (O)": {
+      "at": "2026-11-26",
+      "action": "skipped: all entries firstSeen 2026-11-13 or 2026-10-08, outside the 3-day freshness window and all deadline-reminder/investigation notices (not newly-filed-suit announcements); Arbor Realty Trust's underlying Nov. 9, 2026 shareholder suit is already tracked as live (see js/data.js ~line 12644)"
+    },
     "petition:https://www.courtlistener.com/docket/75134925/2-hill-ave-llc/": {
       "at": "2026-11-18",
       "action": "skipped: no coverage found explaining the filing (2 Hill Ave LLC, SDNY Ch. 11, 2026-11-18; single-asset LLC named for address, no secondary reporting)"
