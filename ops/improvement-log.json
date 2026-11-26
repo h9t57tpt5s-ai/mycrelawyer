@@ -2395,6 +2395,23 @@
       "title": "No change",
       "why": "Step 2: judged imp-083 (no clear effect, see verdict and ops/improvement-playbook.md \"What we have learned\", 2026-11-26). Step 3: goal_scoreboard.py mostBehind was conversion/calculator/traffic/news (gaps 0.7/0.646/0.018/0.0). All three behind goals are genuinely blocked this run: conversion's behind metrics (signUps7, follows7, newsletterSignups7) are inside imp-093's open watcher (checkAfter 2026-12-01) or G17's structural NEEDS JEFF (off-limits js/auth.js); calculator's calculatorViews7 is inside imp-089's open watcher (checkAfter 2026-11-29) and finalRangeHitRate only moves through a Jeff-approved valuation-method change, never cloud-deployable, and imp-083's own note asked not to add a tenth G15 decision before Jeff reviews the existing summary; traffic's only behind metric (googleLandings7) is inside imp-088's open watcher (checkAfter 2026-12-05). News is on track and was touched yesterday (imp-095), so the 7-day rule does not force it. Checked subscription checklist items 1-5 against the live site and found all five already satisfied with accurate, current content (procurement.html, data-security.html, coverage.html, alert-log.html's client-side freshness/uptime tables all verified against today's ops/ files, no staleness). Scanned the last 6 days of ops/leads-handled.json (122 entries) for a new recurring false-positive or wasted-research pattern in the style of G16/G18/G21/G23/G26/G27/G30 and found none. site_audit.py is clean (0 broken links, 0 orphans, 0 duplicate titles, missingDescription still the same 3 already-explained noindex pages). No code, HTML, TS or JS change was safe and worth shipping this run that was not already blocked or already done.",
       "status": "no-op"
+    },
+    {
+      "id": "imp-097",
+      "date": "2026-11-26",
+      "track": "traffic",
+      "title": "Refresh LinkedIn drafts for 18 new matters (backlog G5)",
+      "why": "Every numeric goal blocked by an open one-open-experiment-per-goal watcher (imp-088 traffic until 2026-12-05, imp-089 calculator until 2026-11-29, imp-093 conversion until 2026-12-01); news touched in the last 2 runs. ops/social-drafts/ last refreshed 2026-11-19 (imp-084), 18 eligible matters (live-445 through live-463) piled up since.",
+      "files": [
+        "ops/social-drafts/2026-11-26.md",
+        "ops/improvement-playbook.md"
+      ],
+      "commit": "6150a346",
+      "metric": "none (backlog item not measured by a goal metric)",
+      "window": "n/a",
+      "baseline": "n/a",
+      "checkAfter": "2026-11-26",
+      "status": "helped"
     }
   ]
 }
