@@ -2121,8 +2121,13 @@
       "window": "n/a",
       "baseline": {},
       "checkAfter": "2026-11-26",
-      "status": "watching",
-      "note": "No code, HTML, TS or JS touched -- markdown prose only, well under the 300-line guideline (83 lines added). site_audit.py and check_case_fields.py both re-run clean (pagesChecked 910 unchanged, missingDescription still 3, the same already-explained noindex set). Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule. If a tenth G15 decision is added before Jeff reviews this summary, say so plainly in that run's report rather than only noting it in the backlog."
+      "status": "no clear effect",
+      "note": "No code, HTML, TS or JS touched -- markdown prose only, well under the 300-line guideline (83 lines added). site_audit.py and check_case_fields.py both re-run clean (pagesChecked 910 unchanged, missingDescription still 3, the same already-explained noindex set). Reverted this run's own goal_scoreboard.py regeneration of ops/metrics/goals.json before committing, per the established rule. If a tenth G15 decision is added before Jeff reviews this summary, say so plainly in that run's report rather than only noting it in the backlog.",
+      "verdict": {
+        "date": "2026-11-26",
+        "value": "no commit since 2026-11-19 by anyone other than this routine has touched ops/calculator-proposals.md or the valuation-method files",
+        "note": "The ranked G15 decision summary has not been reviewed or acted on either way; nothing to revert since it was additive prose with no behavior change."
+      }
     },
     {
       "id": "imp-084",
@@ -2382,6 +2387,14 @@
       },
       "checkAfter": "2026-12-02",
       "status": "watching"
+    },
+    {
+      "id": "imp-096",
+      "date": "2026-11-26",
+      "track": "audit",
+      "title": "No change",
+      "why": "Step 2: judged imp-083 (no clear effect, see verdict and ops/improvement-playbook.md \"What we have learned\", 2026-11-26). Step 3: goal_scoreboard.py mostBehind was conversion/calculator/traffic/news (gaps 0.7/0.646/0.018/0.0). All three behind goals are genuinely blocked this run: conversion's behind metrics (signUps7, follows7, newsletterSignups7) are inside imp-093's open watcher (checkAfter 2026-12-01) or G17's structural NEEDS JEFF (off-limits js/auth.js); calculator's calculatorViews7 is inside imp-089's open watcher (checkAfter 2026-11-29) and finalRangeHitRate only moves through a Jeff-approved valuation-method change, never cloud-deployable, and imp-083's own note asked not to add a tenth G15 decision before Jeff reviews the existing summary; traffic's only behind metric (googleLandings7) is inside imp-088's open watcher (checkAfter 2026-12-05). News is on track and was touched yesterday (imp-095), so the 7-day rule does not force it. Checked subscription checklist items 1-5 against the live site and found all five already satisfied with accurate, current content (procurement.html, data-security.html, coverage.html, alert-log.html's client-side freshness/uptime tables all verified against today's ops/ files, no staleness). Scanned the last 6 days of ops/leads-handled.json (122 entries) for a new recurring false-positive or wasted-research pattern in the style of G16/G18/G21/G23/G26/G27/G30 and found none. site_audit.py is clean (0 broken links, 0 orphans, 0 duplicate titles, missingDescription still the same 3 already-explained noindex pages). No code, HTML, TS or JS change was safe and worth shipping this run that was not already blocked or already done.",
+      "status": "no-op"
     }
   ]
 }
