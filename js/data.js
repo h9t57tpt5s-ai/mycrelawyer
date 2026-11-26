@@ -15299,6 +15299,43 @@ const RELAW_DATA = {
       timeline: [
         { when: "November 25, 2026", label: "Ohio Second District Court of Appeals reverses the dismissal of Bearcreek Farms' claims and remands for further proceedings", current: true }
       ]
+    },
+    {
+      id: "live-463",
+      seoTitle: "Easley SC Target Development: SDBUCKS Sues City Over Condemnation",
+      seoDescription: "SDBUCKS, LLC sued the City of Easley, S.C. on Nov. 12 to stop a $0 condemnation of its driveway consent rights for a Target development's access road.",
+      property: {"name": null, "address": "4839 Calhoun Memorial Highway", "city": "Easley", "state": "SC"},
+      addedDate: "2026-11-26",
+      title: "SDBUCKS, LLC Sues City of Easley, S.C. to Halt Condemnation of Its Driveway Consent Rights for Target Development's Access Road",
+      brief: "SDBUCKS, LLC sued the City of Easley, S.C. on Nov. 12 to halt the city's condemnation of its right to approve changes to a shared driveway needed for a Target development's access road. The city offered $0, CASD Council Watch reported.",
+      category: "eminent-domain",
+      status: "filed",
+      date: "2026-11-12",
+      jurisdiction: "South Carolina state court, Pickens County",
+      state: "SC",
+      amount: "$0 condemnation offer",
+      source: "live",
+      sourceUrl: "https://casdcouncilwatch.substack.com/p/easley-target-development-faces-legal",
+      propertyType: "Retail",
+      summary: "CASD Council Watch, a Pickens County newsletter, reported in late November 2026 that the City of Easley filed a condemnation action on September 11, 2026, offering $0, to acquire SDBUCKS, LLC's right to approve changes to a shared driveway needed for a Target development's proposed access road. On November 12, SDBUCKS filed a separate lawsuit alleging the taking serves a private commercial development and asking the court to halt the condemnation. The city's filing maintains that SCDOT requires the driveway improvements and that the access road will be dedicated to the city as a public road.",
+      significance: "The dispute is over whether the city's taking of a property owner's consent rights for a development's access road is a public use: the owner alleges it serves a private commercial development, and the city says the completed road will be public. According to the newsletter, SDBUCKS maintains that South Carolina's automatic stay of condemnation proceedings applies, and the court records it reviewed do not establish that the requested injunction has been granted.",
+      body: [
+        "CASD Council Watch, a newsletter covering local government in Pickens County, South Carolina, reported in late November 2026 that the City of Easley has begun eminent-domain proceedings to acquire a property owner's right to approve changes to a shared driveway needed for a Target development's proposed access road. Citing the city's condemnation filing, the newsletter says the developer, RT Calhoun Memorial, LLC, could not obtain consent from SDBUCKS, LLC, owner of 4839 Calhoun Memorial Highway, to modify the driveway, and then asked the city to acquire SDBUCKS's consent rights through eminent domain. The city filed its condemnation action on September 11, 2026, offering $0 in compensation. The newsletter says the owner rejected the offer and demanded a jury trial in that case.",
+        "On November 12, SDBUCKS filed a separate lawsuit. According to the newsletter, it alleges that the taking serves a private commercial development, not a constitutionally permissible public use, and that the city failed to comply with South Carolina's Eminent Domain Procedure Act, including statutory notice, service and waiting-period requirements. SDBUCKS asks the court to halt the condemnation and prevent related construction and entry onto the affected property.",
+        "The city's filing, as the newsletter describes it, maintains that SCDOT requires the driveway improvements to accommodate the development and that the completed access road will be dedicated to the city as a public road. The newsletter also reports that the city council voted in September to raise the developer's reimbursement cap for specified eminent-domain legal fees and costs from $25,000 to $50,000. It says both lawsuits remain pending in the records it reviewed, which did not include the city's response to the November 12 complaint."
+      ],
+      tags: ["eminent domain", "public use", "condemnation", "retail development", "south carolina"],
+      parties: [
+        { name: "SDBUCKS, LLC", role: "Plaintiff / Property Owner" },
+        { name: "City of Easley", role: "Defendant / Condemnor" },
+        { name: "RT Calhoun Memorial, LLC", role: "Developer" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "September 11, 2026", label: "City of Easley files its condemnation action, offering $0 in compensation" },
+        { when: "November 12, 2026", label: "SDBUCKS, LLC files a separate lawsuit challenging the city's authority to condemn", current: true }
+      ]
     }
   ],
 

@@ -885,6 +885,22 @@
      "https://www.supremecourt.ohio.gov/rod/docs/pdf/2/2026/2026-Ohio-4691.pdf"
     ]
    }
+  },
+  "live-463": {
+   "verifiedOn": "2026-11-26",
+   "sourceUrl": "https://casdcouncilwatch.substack.com/p/easley-target-development-faces-legal",
+   "urls": [
+    "https://casdcouncilwatch.substack.com/p/easley-target-development-faces-legal"
+   ],
+   "quotes": 17,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://casdcouncilwatch.substack.com/p/easley-target-development-faces-legal"
+    ]
+   }
   }
  }
 }
