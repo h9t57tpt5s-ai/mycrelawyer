@@ -1,40 +1,40 @@
 {
   "handled": {
     "petition:https://www.courtlistener.com/docket/75176986/true-vision-development-inc/": {
-      "at": "2026-11-26",
-      "action": "skipped: no coverage found explaining the filing (True Vision Development Inc., C.D. Cal. Ch. 11, filed 2026-11-25; only a docket aggregator record for an earlier related case found, no secondary reporting)"
+      "at": "2026-11-25",
+      "action": "skipped: no coverage found explaining the filing (True Vision Development Inc., C.D. Cal. Ch. 11, 2:26-bk-21881, filed 2026-11-25; found an unrelated earlier 2:26-bk-10480 case for a same-named debtor filed Jan. 2026 on a bankruptcy aggregator, no news coverage of either filing, no debt figure or property named)"
     },
     "petition:https://www.courtlistener.com/docket/75176891/514-west-44th-street-inc/": {
-      "at": "2026-11-26",
-      "action": "skipped: no coverage found explaining the filing (514 West 44th Street, Inc., E.D.N.Y. Ch. 11, filed 2026-11-25; single-asset entity named for address, no secondary reporting found)"
+      "at": "2026-11-25",
+      "action": "skipped: no coverage found explaining the filing (514 West 44th Street, Inc., E.D.N.Y. Ch. 11, 1-26-45478, filed 2026-11-25; no secondary reporting found on this address or debtor)"
     },
     "petition:https://www.courtlistener.com/docket/75172432/crossroad-realty-ny-llc/": {
-      "at": "2026-11-26",
-      "action": "skipped: no coverage explaining this filing beyond docket aggregator data; Crossroad Realty NY LLC has two prior Ch. 11 cases (2023, 2024) both dismissed, but no reporting on the new 2026-11-24 E.D.N.Y. filing or why it filed again"
+      "at": "2026-11-25",
+      "action": "skipped: no coverage found explaining the filing (Crossroad Realty NY LLC, E.D.N.Y. Ch. 11, filed 2026-11-24; two prior Ch. 11 cases for the same debtor in 2023/2024 both dismissed, no secondary reporting on any of the three filings)"
     },
     "petition:https://www.courtlistener.com/docket/75166179/4935-jimmy-carter-llc/": {
-      "at": "2026-11-26",
-      "action": "skipped: no coverage found explaining the filing (4935 Jimmy Carter, LLC, N.D. Ga. Ch. 11, filed 2026-11-24; likely a Jimmy Carter Blvd commercial property but no secondary reporting found)"
+      "at": "2026-11-24",
+      "action": "skipped: no coverage found explaining the filing (4935 Jimmy Carter, LLC, N.D. Ga. Ch. 11, filed 2026-11-24; single-asset LLC named for a Jimmy Carter Blvd address, no secondary reporting)"
     },
     "petition:https://www.courtlistener.com/docket/75166478/1173-s-hairston-llc/": {
-      "at": "2026-11-26",
-      "action": "skipped: no coverage found explaining the filing (1173 S Hairston, LLC, N.D. Ga. Ch. 11, filed 2026-11-24; no secondary reporting found)"
+      "at": "2026-11-24",
+      "action": "skipped: no coverage found explaining the filing (1173 S Hairston, LLC, N.D. Ga. Ch. 11, filed 2026-11-24; single-asset LLC named for address, no secondary reporting)"
     },
     "petition:https://www.courtlistener.com/docket/75168892/1115-stallion-llc/": {
-      "at": "2026-11-26",
-      "action": "skipped: no coverage found explaining the filing beyond docket aggregator data (1115 Stallion, LLC, S.D. Fla. Ch. 11, filed 2026-11-24; a prior 2025 case by the same debtor was dismissed, no reporting on why it filed again)"
+      "at": "2026-11-24",
+      "action": "skipped: no coverage found explaining the filing (1115 Stallion LLC, S.D. Fla. Ch. 11, filed 2026-11-24, West Palm Beach; a repeat filing after an earlier Ch. 11 dismissed Oct. 2025, but no secondary reporting on either case)"
     },
     "petition:https://www.courtlistener.com/docket/75162599/ez-lor-realty-llc/": {
-      "at": "2026-11-26",
-      "action": "skipped: no coverage found explaining the filing (E.Z. LOR Realty LLC, S.D.N.Y. Ch. 11, filed 2026-11-23; only docket aggregator data found, no secondary reporting)"
+      "at": "2026-11-24",
+      "action": "skipped: no coverage found explaining the filing (E.Z. LOR Realty LLC, S.D.N.Y. Ch. 11; docket aggregator shows an earlier related case no. 26-11173 filed May 2026, but no secondary reporting on either filing)"
     },
     "petition:https://www.courtlistener.com/docket/75161217/87-uptown-llc/": {
-      "at": "2026-11-26",
-      "action": "skipped: no coverage found explaining the filing (87 Uptown LLC, N.D.N.Y. Ch. 11, filed 2026-11-23; no matching docket or news record found at all under this exact name)"
+      "at": "2026-11-24",
+      "action": "skipped: no coverage found explaining the filing (87 Uptown LLC, N.D.N.Y. Ch. 11, filed 2026-11-23; no secondary reporting found, only unrelated similarly-named entities)"
     },
     "petition:https://www.courtlistener.com/docket/75158346/388-prosper-llc/": {
-      "at": "2026-11-26",
-      "action": "skipped: no coverage found explaining the filing beyond docket aggregator data (388 Prosper LLC, S.D. Fla. Ch. 11, filed 2026-11-23; a prior 2025 case by the same debtor (25-20745) was dismissed Feb. 2026, no reporting on why it refiled)"
+      "at": "2026-11-24",
+      "action": "skipped: no coverage found explaining the filing (388 Prosper LLC, S.D. Fla. Ch. 11, filed 2026-11-23, Miami; an unrelated prior Ch. 11 by the same-named debtor was dismissed Feb. 2026, no secondary reporting on either)"
     },
     "federal-suit:https://www.courtlistener.com/docket/75168985/cooperstown-properties-llc-v-redbird-capital-partners-management-llc/": {
       "at": "2026-11-26",
@@ -3056,18 +3056,6 @@
       "at": "2026-11-23",
       "action": "skipped: geographic-diversity search (RI) -- found only a residential/consumer foreclosure ruling (lost promissory note), a residential federal docket entry, a foreclosure-rescue consumer-fraud suit, and an inconclusive receivership appeal with no stated property type; no commercial real estate matter cleared the bar"
     },
-    "petition:https://www.courtlistener.com/docket/75162599/ez-lor-realty-llc/": {
-      "at": "2026-11-24",
-      "action": "skipped: no coverage found explaining the filing (E.Z. LOR Realty LLC, S.D.N.Y. Ch. 11; docket aggregator shows an earlier related case no. 26-11173 filed May 2026, but no secondary reporting on either filing)"
-    },
-    "petition:https://www.courtlistener.com/docket/75161217/87-uptown-llc/": {
-      "at": "2026-11-24",
-      "action": "skipped: no coverage found explaining the filing (87 Uptown LLC, N.D.N.Y. Ch. 11, filed 2026-11-23; no secondary reporting found, only unrelated similarly-named entities)"
-    },
-    "petition:https://www.courtlistener.com/docket/75158346/388-prosper-llc/": {
-      "at": "2026-11-24",
-      "action": "skipped: no coverage found explaining the filing (388 Prosper LLC, S.D. Fla. Ch. 11, filed 2026-11-23, Miami; an unrelated prior Ch. 11 by the same-named debtor was dismissed Feb. 2026, no secondary reporting on either)"
-    },
     "https://www.courtlistener.com/docket/75157544/brookville-gardens-development-llc-v-nef-fre-affordable-housing-fund/": {
       "at": "2026-11-24",
       "action": "skipped: no coverage found explaining the dispute (filed 2026-11-21, N.D. Miss.); WebSearch found only an unrelated NEF dispute (Workforce Housing Partners v. Nef, Sweetwater FL student housing)"
@@ -3123,18 +3111,6 @@
     "note:prologis-trenton-update-2026-11-24": {
       "at": "2026-11-24",
       "action": "not a lead, flagged for newsroom -- already-tracked matter (Prologis v. City of Trenton, Ohio) has a reported post-filing development not yet reflected in js/data.js: per Spectrum News 1 (2026-11-17) and WCPO, Trenton residents' attorneys have formally demanded the city revoke Project Mila's zoning certificate and are exploring intervention in Prologis's federal suit; cloud routine cannot edit this outcome into the matter itself (not a CourtListener docket-text entry), so leaving for local newsroom to verify and add as a timeline update if warranted"
-    },
-    "petition:https://www.courtlistener.com/docket/75166179/4935-jimmy-carter-llc/": {
-      "at": "2026-11-24",
-      "action": "skipped: no coverage found explaining the filing (4935 Jimmy Carter, LLC, N.D. Ga. Ch. 11, filed 2026-11-24; single-asset LLC named for a Jimmy Carter Blvd address, no secondary reporting)"
-    },
-    "petition:https://www.courtlistener.com/docket/75166478/1173-s-hairston-llc/": {
-      "at": "2026-11-24",
-      "action": "skipped: no coverage found explaining the filing (1173 S Hairston, LLC, N.D. Ga. Ch. 11, filed 2026-11-24; single-asset LLC named for address, no secondary reporting)"
-    },
-    "petition:https://www.courtlistener.com/docket/75168892/1115-stallion-llc/": {
-      "at": "2026-11-24",
-      "action": "skipped: no coverage found explaining the filing (1115 Stallion LLC, S.D. Fla. Ch. 11, filed 2026-11-24, West Palm Beach; a repeat filing after an earlier Ch. 11 dismissed Oct. 2025, but no secondary reporting on either case)"
     },
     "https://www.courtlistener.com/docket/75168985/cooperstown-properties-llc-v-redbird-capital-partners-management-llc/": {
       "at": "2026-11-24",
@@ -3208,10 +3184,6 @@
       "at": "2026-11-25",
       "action": "skipped: procedural dismissal only (Foxfield Construction v. Associates in Sleep Medicine), Rule 304(a) certification held improvidently granted, no ruling reached on the underlying mechanics-lien dispute, no reportable outcome"
     },
-    "petition:https://www.courtlistener.com/docket/75172432/crossroad-realty-ny-llc/": {
-      "at": "2026-11-25",
-      "action": "skipped: no coverage found explaining the filing (Crossroad Realty NY LLC, E.D.N.Y. Ch. 11, filed 2026-11-24; two prior Ch. 11 cases for the same debtor in 2023/2024 both dismissed, no secondary reporting on any of the three filings)"
-    },
     "https://www.courtlistener.com/docket/75170013/vl-development-llc-v-united-states-of-america-department-of-treasury/": {
       "at": "2026-11-25",
       "action": "skipped: no coverage found explaining the filing or the nature of the dispute with Treasury"
@@ -3280,14 +3252,6 @@
       "at": "2026-11-25",
       "action": "skipped: no coverage found explaining the filing (Fisherville Properties LLC v. United States Liability Insurance Company, E.D. Wis., filed 2026-11-25, likely a property-insurance coverage dispute given USLI as defendant, but no source names the property, claim or amount)"
     },
-    "petition:https://www.courtlistener.com/docket/75176986/true-vision-development-inc/": {
-      "at": "2026-11-25",
-      "action": "skipped: no coverage found explaining the filing (True Vision Development Inc., C.D. Cal. Ch. 11, 2:26-bk-21881, filed 2026-11-25; found an unrelated earlier 2:26-bk-10480 case for a same-named debtor filed Jan. 2026 on a bankruptcy aggregator, no news coverage of either filing, no debt figure or property named)"
-    },
-    "petition:https://www.courtlistener.com/docket/75176891/514-west-44th-street-inc/": {
-      "at": "2026-11-25",
-      "action": "skipped: no coverage found explaining the filing (514 West 44th Street, Inc., E.D.N.Y. Ch. 11, 1-26-45478, filed 2026-11-25; no secondary reporting found on this address or debtor)"
-    },
     "beat:2026-11-25-PM-big-players": {
       "at": "2026-11-25",
       "action": "22:00 UTC big-players beat -- REIT securities suit search surfaced only Greenbaum v. Arbor Realty Trust (E.D.N.Y., filed 2026-11-09), already tracked as live-394; JV/sponsor-fund dispute search surfaced only older, already-reported items (Stanly Ranch/Mandrake Capital from May 2026, Lotis Wellington from June 2026); proptech/brokerage search surfaced only the CoStar/CBRE lease-data antitrust suit, already tracked; SEC enforcement search surfaced only July/Sept 2026 actions (RAD Diversified REIT, Wavemark Capital), both already old and likely already reviewed. No genuinely new, dated item cleared the bar this run."
@@ -3295,6 +3259,58 @@
     "beat:2026-11-25-PM-geo-diversity": {
       "at": "2026-11-25",
       "action": "Targeted searches for Montana and South Dakota (both low-count tracked states) turned up only older or non-qualifying items -- BMK Enterprises v. Bailey Enterprises of Montana (May 2026, right-of-first-refusal dispute, no 2026 foreclosure/landlord suit found) and South Dakota Supreme Court captions with no accessible subject-matter detail (A&B Business v. FDJ; New Angus v. Purple Isles). Chose different states from the 06:00 UTC run (ND) and 12:00 UTC run (VT) today. No qualifying story found; attempt made per Step 1B."
+    },
+    "federal-suit:https://www.courtlistener.com/docket/75175881/fisherville-properties-llc-v-united-states-liability-insuranc": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining this Nov. 25, 2026 insurance-coverage diversity suit (Fisherville Properties LLC v. United States Liability Insurance Company); only unrelated USLI cases turned up"
+    },
+    "federal-suit:https://www.courtlistener.com/docket/75170013/vl-development-llc-v-united-states-of-america-department-of-t": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining this Nov. 24, 2026 filing (VL Development, LLC v. United States of America Department of the Treasury); no named property, lender or dispute detail available without coverage"
+    },
+    "federal-suit:https://www.courtlistener.com/docket/75170873/terra-enabling-developers-inc-v-garmin-international-inc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining this Nov. 24, 2026 filing (Terra Enabling Developers, Inc. v. Garmin International, Inc.); search only surfaced an unrelated Strava v. Garmin patent suit"
+    },
+    "federal-suit:https://www.courtlistener.com/docket/75169788/otp-real-estate-holdings-llc-v-ace-fire-underwriters-insuranc": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining this Nov. 24, 2026 insurance-coverage filing (OT&P Real Estate Holdings, LLC v. ACE Fire Underwriters Insurance Company)"
+    },
+    "federal-suit:https://www.courtlistener.com/docket/75158013/jcap-magellan-fund-llc-v-two-good-sons-inc/": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining this Nov. 23, 2026 breach-of-contract diversity filing (JCAP Magellan Fund, LLC v. Two Good Sons Inc.); no CRE-specific detail available"
+    },
+    "federal-suit:https://www.courtlistener.com/docket/75159556/district-of-columbia-v-innercity-collaborative-community-deve": {
+      "at": "2026-11-26",
+      "action": "skipped: no coverage found explaining this Nov. 23, 2026 interpleader filing (District of Columbia v. Innercity Collaborative Community Development Corporation); not confirmed as a CRE matter"
+    },
+    "opinion:11072393": {
+      "at": "2026-11-26",
+      "action": "matter lead queued in ops/digest-leads.json (Culver City Mall, LLC v. Wang -- Westfield-affiliated mall landlords, affirmed $716,288.16 lease judgment)"
+    },
+    "opinion:11072459": {
+      "at": "2026-11-26",
+      "action": "matter lead queued in ops/digest-leads.json (Carver Fed. Sav. Bank v. 2181 Pacific St. HDFC -- commercial mortgage foreclosure affirmed)"
+    },
+    "opinion:11072580": {
+      "at": "2026-11-26",
+      "action": "skipped: Reliable Home Repairs Plus, Inc. v. Catharsis Holdings, LLC -- mechanic's lien foreclosure on a small out-of-state-owned Peoria, IL rental property (1015 Wilcox Ave), $15,999.43 invoice; not clearly commercial-scale real estate (appears to be a scattered single rental), amount too small to be significant"
+    },
+    "opinion:11072461": {
+      "at": "2026-11-26",
+      "action": "skipped: residential mortgage foreclosure (caseName pattern -- matchedTerms exactly [\"foreclos\",\"mortgage\"], defendant Crapanzano has no business-entity suffix), not read, per playbook"
+    },
+    "opinion:11072399": {
+      "at": "2026-11-26",
+      "action": "skipped: Lowry v. Hope and Trust Trading -- read the opinion; dispute is over deeds of trust on a wife's homestead real property (lien-priority/fraud fight among individuals), explicitly residential/homestead, not commercial real estate"
+    },
+    "opinion:11072262": {
+      "at": "2026-11-26",
+      "action": "skipped: River Region Federal Credit Union v. Prince Properties, LLC -- read the opinion; suit on a promissory note/dation en paiement over vacant lots, $78,717.63 judgment affirmed on a prescription (statute of limitations) defense; small dollar amount and purely procedural holding, not significant enough to write up"
+    },
+    "opinion:11072209": {
+      "at": "2026-11-26",
+      "action": "skipped: not real estate (Jefferson Fire Fighters Association Local 1374 v. Bohannon et al. -- a firefighters' association/pension dispute against parish officials; matchedTerms \"industrial\"/\"warehouse\" were false positives)"
     }
   }
 }
