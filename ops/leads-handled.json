@@ -3311,6 +3311,14 @@
     "opinion:11072209": {
       "at": "2026-11-26",
       "action": "skipped: not real estate (Jefferson Fire Fighters Association Local 1374 v. Bohannon et al. -- a firefighters' association/pension dispute against parish officials; matchedTerms \"industrial\"/\"warehouse\" were false positives)"
+    },
+    "opinion:11072626": {
+      "at": "2026-11-26",
+      "action": "skipped: not CRE -- Dillion Werth v. The Lasalle Group (Mich. Ct. App., Nov 25 2026) is a construction-site negligence/premises-liability personal-injury case; the appeal itself is solely about insurer Hastings' contractual-indemnity cross-claim against subcontractor Metro Concrete, no commercial real estate dispute (ownership, financing, leasing, zoning) of this property is at issue"
+    },
+    "opinion:11072632": {
+      "at": "2026-11-26",
+      "action": "lead queued: Global Tradings, LLC v. Lofton Enterprise Group, LLC (Del. Super. Ct., Nov 24 2026, writ of possession / unrecorded commercial lease extinguished by foreclosure sale)"
     }
   }
 }
