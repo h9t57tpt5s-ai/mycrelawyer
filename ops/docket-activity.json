@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T19:30:52+00:00",
+ "updatedAt": "2026-11-26T19:12:13+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
  "requestsUsed": 22,
  "errors": [],
@@ -28,6 +28,13 @@
   },
   "63600354": {
    "entries": [
+    {
+     "date": "2026-11-25",
+     "number": 140,
+     "text": "Transcript Request",
+     "url": "https://www.courtlistener.com/docket/63600354/140/industrial-park-center-llc-v-great-northern-insurance-company/",
+     "ruling": false
+    },
     {
      "date": "2026-11-18",
      "number": 139,
@@ -64,7 +71,7 @@
    "docketNumber": "2:22-cv-01196",
    "dateTerminated": "2024-07-26",
    "url": "https://www.courtlistener.com/docket/63600354/industrial-park-center-llc-v-great-northern-insurance-company/",
-   "lastEntryDate": "2026-11-18"
+   "lastEntryDate": "2026-11-25"
   },
   "66581116": {
    "entries": [
@@ -2061,7 +2068,15 @@
    "lastEntryDate": "2026-10-27"
   },
   "74975703": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-11-25",
+     "number": null,
+     "text": "Add Attorneys - PHV only",
+     "url": "https://www.courtlistener.com/docket/74975703/deutsche-finance-america-llc-v-bayerische-versorgungskammer/",
+     "ruling": false
+    }
+   ],
    "caseIds": [
     "live-398"
    ],
@@ -2069,7 +2084,7 @@
    "docketNumber": "1:26-cv-01337",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74975703/deutsche-finance-america-llc-v-bayerische-versorgungskammer/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-11-25"
   },
   "75007687": {
    "entries": [],
@@ -2095,6 +2110,13 @@
   },
   "75047315": {
    "entries": [
+    {
+     "date": "2026-11-25",
+     "number": 105,
+     "text": "Motion to Dismiss Case",
+     "url": "https://www.courtlistener.com/docket/75047315/105/zom-holding-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-11-25",
      "number": 104,
@@ -2142,13 +2164,6 @@
      "number": 98,
      "text": "Proof of Service (BK)",
      "url": "https://www.courtlistener.com/docket/75047315/98/zom-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-11-24",
-     "number": 97,
-     "text": "SCHEDULES (original schedules, individual schedules or amended schedules)",
-     "url": "https://www.courtlistener.com/docket/75047315/97/zom-holding-inc/",
      "ruling": false
     }
    ],
