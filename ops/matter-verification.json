@@ -869,6 +869,22 @@
      "https://www.courtlistener.com/opinion/11071118/escrown-llc-v-arepas-nyc-corp/"
     ]
    }
+  },
+  "live-462": {
+   "verifiedOn": "2026-11-26",
+   "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/2/2026/2026-Ohio-4691.pdf",
+   "urls": [
+    "https://www.supremecourt.ohio.gov/rod/docs/pdf/2/2026/2026-Ohio-4691.pdf"
+   ],
+   "quotes": 12,
+   "confirmedByChecker": 12,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.supremecourt.ohio.gov/rod/docs/pdf/2/2026/2026-Ohio-4691.pdf"
+    ]
+   }
   }
  }
 }

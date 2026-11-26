@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-25",
+  lastUpdatedDate: "2026-11-26",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -15263,6 +15263,41 @@ const RELAW_DATA = {
         { when: "August 2025", label: "Order assessing damages entered on or about August 20" },
         { when: "October 8, 2025", label: "Judgment entered awarding the plaintiff $587,238.40" },
         { when: "November 24, 2026", label: "First Department vacates the $126,186.48 prejudgment interest award, remands on that point and otherwise affirms", current: true }
+      ]
+    },
+    {
+      id: "live-462",
+      seoTitle: "Germantown, Ohio Building Sale: Fixtures Suit Revived",
+      seoDescription: "Ohio's Second District reversed dismissal of Bearcreek Farms' suit against S.L.S. Partnership over a bar, freezer and kitchen hood in a Germantown sale.",
+      property: {"name": null, "address": "2 E. Center Street", "city": "Germantown", "state": "OH"},
+      addedDate: "2026-11-26",
+      title: "Bearcreek Farms, Inc. v. S.L.S. Partnership: Ohio Appeals Court Revives Buyer's Suit Over Bar, Freezer and Kitchen Hood in Germantown Building Sale",
+      brief: "Ohio's Second District Court of Appeals reversed the dismissal of a building buyer's claims against its seller over a bar, a freezer and a steel kitchen hood that the bar tenant claims as trade fixtures.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-25",
+      jurisdiction: "Ohio Court of Appeals, Second Appellate District (Montgomery County)",
+      state: "OH",
+      amount: "Ownership of a commercial bar, freezer and steel kitchen hood",
+      source: "live",
+      sourceUrl: "https://www.supremecourt.ohio.gov/rod/docs/pdf/2/2026/2026-Ohio-4691.pdf",
+      summary: "Bearcreek Farms, Inc. bought a building at 2 E. Center Street in Germantown, Ohio, from S.L.S. Partnership and its partners. After closing, a dispute arose with the building's bar tenant over who owns a commercial bar, a freezer and a steel kitchen hood. On November 25, 2026, the Second District Court of Appeals reversed the trial court's dismissal of Bearcreek's breach of contract and declaratory judgment claims and sent the case back for further proceedings.",
+      significance: "The court held that, because the purchase agreement did not clarify who owned the items, they had to be classified as fixtures or trade fixtures before Bearcreek's contract, warranty-covenant and declaratory judgment claims against the sellers could be decided. The court expressed no opinion on the result once the items are classified.",
+      body: [
+        "According to the Second District's opinion, Bearcreek Farms contracted to buy real property at 2 E. Center Street in Germantown, Ohio, from S.L.S. Partnership and its partners. The tenant, JSR, operated a bar there, and the purchase agreement said the property was sold subject to lease agreements. After closing, Bearcreek believed a commercial bar, a freezer and a steel kitchen hood had been conveyed in its purchase. JSR apparently claimed it owned the items as trade fixtures that the purchase agreement did not identify as part of the sale.",
+        "Bearcreek sued for a declaratory judgment that the items were fixtures it owned and, alternatively, for breach of contract against the sellers. The trial court dismissed the claims against the sellers. It reasoned that the agreement's trade-fixtures box was empty, so the parties did not intend to convey trade fixtures or other personal property, and that classification of the items had no bearing on whether the sellers breached. Bearcreek then dismissed JSR so the ruling could be appealed.",
+        "The appeals court, in an opinion by Judge Mary K. Huffman, disagreed. It held that the items had to be classified to resolve which party was the rightful owner, and that Bearcreek's allegations were sufficient at the pleading stage on the purchase agreement, the deed's general warranty covenants and declaratory judgment. It reversed and remanded, and said the result may be the same once the items are classified after discovery, on summary judgment or at trial."
+      ],
+      tags: ["fixtures", "trade fixtures", "purchase agreement", "declaratory judgment", "ohio"],
+      parties: [
+        { name: "Bearcreek Farms, Inc.", role: "Plaintiff/Appellant" },
+        { name: "S.L.S. Partnership", role: "Defendant/Appellee" },
+        { name: "JSR", role: "Tenant (dismissed from the action)" }
+      ],
+      judge: "Mary K. Huffman",
+      amountUsd: null,
+      timeline: [
+        { when: "November 25, 2026", label: "Ohio Second District Court of Appeals reverses the dismissal of Bearcreek Farms' claims and remands for further proceedings", current: true }
       ]
     }
   ],
