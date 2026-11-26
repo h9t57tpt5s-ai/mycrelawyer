@@ -1,0 +1,495 @@
+{
+ "date": "2026-11-26",
+ "generatedAt": "2026-11-26T23:16:27+00:00",
+ "note": "Visits are tab sessions from js/track.js (crawlers filtered). From 2026-11-03 a visit counts only after a human action (scroll, click, key, touch or mouse movement); automated contact-page bursts had tripled visits in late October, so compare windows that start on or after 2026-11-04 with each other, not with earlier ones. The site is small: read 7- and 28-day windows, not single days.",
+ "last1Day": {
+  "visits": 22,
+  "pageViews": 22,
+  "multiPageVisits": 0,
+  "multiPageRate": 0.0,
+  "funnel": {
+   "viewedAMatter": 7,
+   "sawSignInPrompt": 0,
+   "openedSignIn": 0,
+   "signedUpOrIn": 0,
+   "readFullWriteUp": 7,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 0,
+  "follows": 0,
+  "newsletterSignups": 0,
+  "contactSends": 0,
+  "sourceClicks": 1,
+  "searches": 0,
+  "byEvent": {
+   "page_view": 15,
+   "full_read": 7,
+   "matter_page_view": 7,
+   "source_click": 1
+  },
+  "topPages": [
+   [
+    "/state-guides.html",
+    3
+   ],
+   [
+    "/matters/live-205.html",
+    3
+   ],
+   [
+    "/litigation.html",
+    3
+   ],
+   [
+    "/",
+    2
+   ],
+   [
+    "/cmbs/3300-renner-richardson-tx-foreclosure-2026-09.html",
+    1
+   ],
+   [
+    "/distress-radar.html",
+    1
+   ],
+   [
+    "/parties/111-west-57th-investment-llc.html",
+    1
+   ],
+   [
+    "/chapter-11/university-campus-hotel-fund-l-p-a-california-l-cacb-6-26-bk-18337.html",
+    1
+   ],
+   [
+    "/federal-cases/paradigm-business-park-llc-v-liebherr-america-inc-sdd-4-26-cv-04177.html",
+    1
+   ],
+   [
+    "/judge-elizabeth-dewar.html",
+    1
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 0,
+   "lease-clause-redline": 0,
+   "settlement-benchmarks": 0,
+   "litigation-index": 0,
+   "-tracker": 0
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    9
+   ],
+   [
+    "google.com",
+    8
+   ],
+   [
+    "utm:chatgpt.com",
+    2
+   ],
+   [
+    "bing.com",
+    2
+   ],
+   [
+    "search.yahoo.com",
+    1
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-205",
+    3
+   ],
+   [
+    "live-221",
+    1
+   ],
+   [
+    "live-433",
+    1
+   ],
+   [
+    "live-448",
+    1
+   ],
+   [
+    "live-266",
+    1
+   ]
+  ]
+ },
+ "last7Days": {
+  "visits": 296,
+  "pageViews": 377,
+  "multiPageVisits": 42,
+  "multiPageRate": 0.1419,
+  "funnel": {
+   "viewedAMatter": 141,
+   "sawSignInPrompt": 0,
+   "openedSignIn": 2,
+   "signedUpOrIn": 1,
+   "readFullWriteUp": 141,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 1,
+  "follows": 0,
+  "newsletterSignups": 0,
+  "contactSends": 0,
+  "sourceClicks": 13,
+  "searches": 5,
+  "byEvent": {
+   "page_view": 220,
+   "full_read": 158,
+   "matter_page_view": 157,
+   "source_click": 13,
+   "search": 5,
+   "signin_open": 2,
+   "panel_open": 2,
+   "signup": 1
+  },
+  "topPages": [
+   [
+    "/litigation.html",
+    36
+   ],
+   [
+    "/",
+    21
+   ],
+   [
+    "/matters/live-265.html",
+    21
+   ],
+   [
+    "/distress-radar.html",
+    15
+   ],
+   [
+    "/matters/live-379.html",
+    12
+   ],
+   [
+    "/updates.html",
+    11
+   ],
+   [
+    "/matters/live-266.html",
+    11
+   ],
+   [
+    "/markets/houston.html",
+    11
+   ],
+   [
+    "/state-guides.html",
+    10
+   ],
+   [
+    "/matters/live-221.html",
+    10
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 0,
+   "lease-clause-redline": 0,
+   "settlement-benchmarks": 0,
+   "litigation-index": 1,
+   "-tracker": 10
+  },
+  "landingReferrers": [
+   [
+    "google.com",
+    153
+   ],
+   [
+    "direct or unknown",
+    74
+   ],
+   [
+    "utm:chatgpt.com",
+    54
+   ],
+   [
+    "bing.com",
+    4
+   ],
+   [
+    "search.yahoo.com",
+    2
+   ],
+   [
+    "duckduckgo.com",
+    2
+   ],
+   [
+    "utm:credocket",
+    2
+   ],
+   [
+    "chat.qwen.ai",
+    1
+   ],
+   [
+    "l.meta.ai",
+    1
+   ],
+   [
+    "go.bsky.app",
+    1
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-265",
+    21
+   ],
+   [
+    "live-379",
+    12
+   ],
+   [
+    "live-266",
+    11
+   ],
+   [
+    "live-221",
+    10
+   ],
+   [
+    "live-205",
+    7
+   ],
+   [
+    "live-208",
+    5
+   ],
+   [
+    "live-271",
+    5
+   ],
+   [
+    "live-304",
+    3
+   ],
+   [
+    "live-174",
+    3
+   ],
+   [
+    "live-448",
+    3
+   ]
+  ]
+ },
+ "last28Days": {
+  "visits": 2176,
+  "pageViews": 2740,
+  "multiPageVisits": 169,
+  "multiPageRate": 0.0777,
+  "funnel": {
+   "viewedAMatter": 983,
+   "sawSignInPrompt": 29,
+   "openedSignIn": 13,
+   "signedUpOrIn": 14,
+   "readFullWriteUp": 770,
+   "clickedWatchlist": 0,
+   "shared": 0
+  },
+  "signUps": 9,
+  "follows": 0,
+  "newsletterSignups": 5,
+  "contactSends": 0,
+  "sourceClicks": 64,
+  "searches": 40,
+  "byEvent": {
+   "page_view": 1887,
+   "full_read": 970,
+   "matter_page_view": 853,
+   "panel_open": 347,
+   "source_click": 64,
+   "search": 40,
+   "gate_shown": 29,
+   "signin_open": 14,
+   "signup": 9,
+   "magic_link_sent": 5,
+   "permalink": 2,
+   "signin": 2
+  },
+  "topPages": [
+   [
+    "/litigation.html",
+    397
+   ],
+   [
+    "/contact.html",
+    252
+   ],
+   [
+    "/",
+    119
+   ],
+   [
+    "/matters/live-221.html",
+    71
+   ],
+   [
+    "/distress-radar.html",
+    59
+   ],
+   [
+    "/judges.html",
+    51
+   ],
+   [
+    "/matters/live-208.html",
+    49
+   ],
+   [
+    "/data-center-litigation-tracker.html",
+    42
+   ],
+   [
+    "/updates.html",
+    42
+   ],
+   [
+    "/matters/live-265.html",
+    42
+   ]
+  ],
+  "toolViews": {
+   "case-valuation": 14,
+   "lease-clause-redline": 0,
+   "settlement-benchmarks": 2,
+   "litigation-index": 7,
+   "-tracker": 57
+  },
+  "landingReferrers": [
+   [
+    "direct or unknown",
+    1265
+   ],
+   [
+    "google.com",
+    691
+   ],
+   [
+    "utm:chatgpt.com",
+    128
+   ],
+   [
+    "bing.com",
+    22
+   ],
+   [
+    "duckduckgo.com",
+    14
+   ],
+   [
+    "utm:defebdxfg",
+    13
+   ],
+   [
+    "utm:credocket",
+    9
+   ],
+   [
+    "search.yahoo.com",
+    6
+   ],
+   [
+    "gemini.google.com",
+    3
+   ],
+   [
+    "utm:perplexity",
+    3
+   ]
+  ],
+  "topMatters": [
+   [
+    "live-221",
+    73
+   ],
+   [
+    "live-050",
+    71
+   ],
+   [
+    "live-208",
+    50
+   ],
+   [
+    "live-266",
+    47
+   ],
+   [
+    "live-265",
+    42
+   ],
+   [
+    "live-205",
+    33
+   ],
+   [
+    "live-137",
+    24
+   ],
+   [
+    "live-173",
+    21
+   ],
+   [
+    "live-229",
+    20
+   ],
+   [
+    "live-379",
+    20
+   ]
+  ]
+ },
+ "audit": {
+  "summary": {
+   "zeroStatCounters": 0,
+   "unstyledHeroClasses": 0,
+   "hiddenUpdatesButton": 0,
+   "brokenLinks": 0,
+   "missingTitle": 0,
+   "longTitle": 0,
+   "missingDescription": 3,
+   "weakDescription": 0,
+   "missingCanonical": 0,
+   "duplicateTitles": 0,
+   "orphanPages": 0,
+   "missingFromSitemap": 0,
+   "sitemapUrlsWithoutFile": 0,
+   "imagesWithoutAlt": 0,
+   "heavyPages": 0
+  },
+  "freshness": {
+   "matters": 373,
+   "newestMatterAdded": "2026-11-26",
+   "daysSinceNewestMatter": 0,
+   "ch11Petitions": 208,
+   "newestCh11Petition": "2026-11-25",
+   "daysSinceNewestCh11": 1,
+   "federalSuits": 148,
+   "newestFederalSuit": "2026-11-25",
+   "daysSinceNewestSuit": 1
+  },
+  "pagesChecked": 965
+ },
+ "pipelines": {
+  "chapter11Petitions": 208,
+  "federalSuits": 148,
+  "secLeads": 73,
+  "wireLeads": 4,
+  "leadsHandled": 843
+ }
+}
