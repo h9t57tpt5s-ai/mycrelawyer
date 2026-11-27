@@ -3371,6 +3371,10 @@
   "search:rhode-island-geographic-diversity-2026-11-26": {
    "at": "2026-11-26",
    "action": "skipped: geographic-diversity search (RI) -- found SCLS Realty, LLC v. Town of Johnston (eminent domain), already live in js/data.js (live entry tracks the July 28/Aug 11 2026 rulings); no newer development found beyond what's already published"
+  },
+  "search:lending-distress-beat-2026-11-27-06utc": {
+   "at": "2026-11-27",
+   "action": "skipped: all of today's structured feeds (ops/fresh-filings.json, ops/docket-activity.json, ops/federal-suits.json, ops/sec-litigation-leads.json, ops/securities-suit-leads.json, ops/opinion-leads.json) were already fully triaged by yesterday's runs -- nothing unhandled. Spent this run's 06:00 UTC lending-and-distress beat on general WebSearch rounds (CMBS/special-servicer foreclosures, bank-vs-guarantor suits, receiverships, hotel/industrial/mall loan defaults) and found only already-tracked matters (Foshay Tower Minneapolis live-NNN, 35 West Wacker/Opal Holdings-Prager live-NNN) or stale items with no new angle: Normandale Lake Office Park/MidwestOne suit (2025, superseded by the live 35 West Wacker matter), A&E Real Estate/Santander 1,268-unit Kew Gardens Hills portfolio (resolved via loan mod Oct. 2025), Oak Land and Development, LLC v. Simon Property Group (W.D. Okla. antitrust case, filed Dec. 2025, motion to dismiss pending since June 2026, no ruling found, not newly reported)."
   }
  }
 }
