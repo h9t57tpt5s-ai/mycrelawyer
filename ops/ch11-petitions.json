@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-11-27T04:29:16+00:00",
+ "updatedAt": "2026-11-27T20:16:46+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Colangelo Massachusetts Real Estate, LLC",
+   "court": "United States Bankruptcy Court, D. Massachusetts",
+   "courtId": "mab",
+   "docketNumber": "26-41431",
+   "dateFiled": "2026-11-27",
+   "docketUrl": "https://www.courtlistener.com/docket/75181470/colangelo-massachusetts-real-estate-llc/",
+   "docketId": 75181470,
+   "slug": "colangelo-massachusetts-real-estate-llc-mab-26-41431",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "32-42 55th Street Realty LLC",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-45493",
+   "dateFiled": "2026-11-27",
+   "docketUrl": "https://www.courtlistener.com/docket/75181651/32-42-55th-street-realty-llc/",
+   "docketId": 75181651,
+   "slug": "32-42-55th-street-realty-llc-nyeb-1-26-45493",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "True Vision Development Inc.",
    "court": "United States Bankruptcy Court, C.D. California",
