@@ -296,5 +296,64 @@
 <script src="js/trending.js"></script>
 <script src="js/search.js"></script>
 <script src="js/motion.js"></script>
+<script>
+  // Distress Radar / Bank CRE Stress card above is baked by scripts/prerender.ts
+  // from js/radar-data.json and js/bank-cre.json, but that bake does not always
+  // run again right after those two files refresh (the same prerender/data-refresh
+  // ordering gap as G22 in ops/improvement-playbook.md, already fixed this way for
+  // alert-log.html): the counts themselves have matched so far, but the "Radar
+  // data last generated" date has been seen a day behind the data file's own
+  // generated timestamp. Re-reading the same two files in the browser and
+  // rebuilding this card client-side -- the exact same fields and math
+  // scripts/prerender.ts uses -- keeps it honest regardless of whether that
+  // prerender step ran today. If a fetch fails, the prerendered card (last
+  // known-good) stays on screen.
+  (function () {
+    var radarEl = document.getElementById("cov-radar");
+    var statesEl = document.getElementById("cov-radar-states");
+    var bankEl = document.getElementById("cov-bank");
+    if (!radarEl || !statesEl || !bankEl) return;
+    function esc(s) {
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+      });
+    }
+    function row(k, v, note) {
+      return "<tr><td style=\"padding:10px 0; border-bottom:1px solid var(--border-soft);\">" + k + (note ? "<div class=\"text-muted\" style=\"font-size:12px; margin-top:2px;\">" + note + "</div>" : "") + "</td><td class=\"mono\" style=\"padding:10px 0; border-bottom:1px solid var(--border-soft); text-align:right; white-space:nowrap; vertical-align:top;\">" + v + "</td></tr>";
+    }
+    Promise.all([
+      fetch("js/radar-data.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
+      fetch("js/bank-cre.json", { cache: "no-cache" }).then(function (r) { return r.json(); })
+    ]).then(function (results) {
+      var radar = results[0], bankData = results[1];
+      function countOf(k) {
+        var n = 0;
+        for (var i = 0; i < radar.records.length; i++) { if (radar.records[i].kind === k) n++; }
+        return n;
+      }
+      var stateSet = {};
+      for (var i = 0; i < radar.records.length; i++) {
+        var s = radar.records[i].state;
+        if (s && s !== "NA") stateSet[s] = true;
+      }
+      var stateCount = Object.keys(stateSet).length;
+      var hot = 0;
+      for (var i = 0; i < bankData.banks.length; i++) {
+        var b = bankData.banks[i];
+        if ((b.eq || 0) >= 300 && b.sh >= 3) hot++;
+      }
+      radarEl.innerHTML = "<table style=\"width:100%; border-collapse:collapse; font-size:14px;\"><tbody>" +
+        row("Real estate Chapter 11 petitions", String(countOf("bankruptcy")), "Every U.S. bankruptcy court") +
+        row("Federal CRE-related lawsuits", String(countOf("lawsuit")), "Federal district courts, nationwide") +
+        row("Tracker write-ups (lending &amp; foreclosure)", String(countOf("litigation")), "Already counted in the tracker table above, not added again here") +
+        row("CMBS loans in default, foreclosure or REO", String(countOf("cmbs")), "SEC-filed CMBS trust remittance reports, nationwide") +
+        row("Texas foreclosure-sale postings", String(countOf("foreclosure")), "Bexar, Collin, Dallas, Fort Bend, Harris and Williamson counties only") +
+        row("NYC recorded distress deeds", String(countOf("nyc")), "ACRIS; Manhattan and Brooklyn only so far &mdash; Queens, the Bronx and Staten Island are not yet covered") +
+        "</tbody></table>";
+      statesEl.innerHTML = "<p style=\"font-size:14px; margin:0;\">Radar records exist in <strong>" + stateCount + " states, D.C. and Puerto Rico</strong> combined. Radar data last generated " + esc(String(radar.generated).slice(0, 10)) + ".</p>";
+      bankEl.innerHTML = "<p style=\"font-size:14px; line-height:1.7; margin:0;\">Separately, <strong>" + bankData.banks.length + " FDIC-insured banks</strong> over $1 billion in assets with at least $100 million of commercial real estate loans are ranked every quarter (most recent: " + esc(bankData.quarter) + ", as of " + esc(bankData.asOf) + "); <strong>" + hot + " of them</strong> are both CRE-concentrated and 3%+ noncurrent. See <a href=\"bank-cre-stress.html\">Bank CRE Stress</a> for the full ranking.</p>";
+    }).catch(function () { /* leave the prerendered card in place */ });
+  })();
+</script>
 </body>
 </html>
