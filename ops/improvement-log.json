@@ -2412,6 +2412,14 @@
       "baseline": "n/a",
       "checkAfter": "2026-11-26",
       "status": "helped"
+    },
+    {
+      "id": "imp-098",
+      "date": "2026-11-27",
+      "track": "news",
+      "title": "No change",
+      "why": "Step 2: no watching entry has a checkAfter on or before today (earliest remaining is imp-089's 2026-11-29). Step 3: goal_scoreboard.py mostBehind was conversion/calculator/traffic/news (gaps 0.7/0.646/0.195/0.0). conversion is blocked (signUps7/newsletterSignups7 inside imp-093's open watcher until 2026-12-01; follows7 is G17's structural NEEDS JEFF, already fully investigated). calculator is blocked (calculatorViews7 inside imp-089's open watcher until 2026-11-29; finalRangeHitRate Jeff-gated, and imp-083's own condition -- don't add a tenth G15 decision before Jeff reviews the ranked summary -- is still unmet per a fresh git-log check). traffic is blocked (visits7/googleLandings7 inside imp-088's open watcher until 2026-12-05). news is on track (gap 0.0) and its own open watcher (imp-095) is a narrow ticker-filter fix that does not cover sourcedMatters7/freshSourcedMatters7/medianDaysEventToAdded, so it was the one goal free of a confound. Hand-categorized the 42 non-formulaic skips among 113 ops/leads-handled.json entries since 2026-11-23 for a new recurring false-positive/wasted-research pattern (style of G16/G18/G21/G23/G26/G27/G30) and found none -- all individually-correct, diverse skips. Re-ran two technical checks that have found real gaps before: grep for user_metadata in js/*.js (no new undisclosed account field since imp-071) and a diff of .github/workflows/ against health_check.py's WORKFLOWS dict (the one gap, case-valuation-backtest.yml, is workflow_dispatch-only/paid-API-gated, correctly excluded). Confirmed no new case_valuation_project/backtest/results-v4.4+ directory exists. No safe, verifiable, substantial change was available on any goal that was not already blocked, Jeff-gated, or already done.",
+      "status": "no-op"
     }
   ]
 }
