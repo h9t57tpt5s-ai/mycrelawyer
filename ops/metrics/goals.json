@@ -1,6 +1,6 @@
 {
- "date": "2026-11-26",
- "generatedAt": "2026-11-26T23:16:27+00:00",
+ "date": "2026-11-27",
+ "generatedAt": "2026-11-27T22:54:44+00:00",
  "mostBehind": [
   "conversion",
   "calculator",
@@ -14,12 +14,12 @@
     "visits7",
     "googleLandings7"
    ],
-   "gap": 0.195,
+   "gap": 0.272,
    "metrics": {
-    "visits7": 296,
-    "googleLandings7": 153,
-    "visits28": 2176,
-    "visits7Adjusted": 360
+    "visits7": 282,
+    "googleLandings7": 130,
+    "visits28": 2078,
+    "visits7Adjusted": 310
    },
    "targets": {
     "visits7": 350,
@@ -33,14 +33,14 @@
     "follows7",
     "newsletterSignups7"
    ],
-   "gap": 0.7,
+   "gap": 0.75,
    "metrics": {
-    "signUps7": 1,
+    "signUps7": 0,
     "follows7": 0,
     "newsletterSignups7": 0,
-    "multiPageRate7": 0.1419,
+    "multiPageRate7": 0.1206,
     "contactSends7": 0,
-    "multiPageRate7Adjusted": 0.1278,
+    "multiPageRate7Adjusted": 0.1194,
     "botFlaggedDays7": []
    },
    "targets": {
@@ -55,14 +55,14 @@
    "behind": [],
    "gap": 0.0,
    "metrics": {
-    "sourcedMatters7": 27,
-    "freshSourcedMatters7": 24,
+    "sourcedMatters7": 19,
+    "freshSourcedMatters7": 18,
     "medianDaysEventToAdded": 1.0,
-    "leadsReviewedTotal": 843,
+    "leadsReviewedTotal": 851,
     "leadsToMattersTotal": 69,
-    "leadsReviewedWindow7": 229,
+    "leadsReviewedWindow7": 162,
     "leadsToMattersWindow7": 6,
-    "leadsToMattersRatio7": 0.0262
+    "leadsToMattersRatio7": 0.037
    },
    "targets": {
     "freshSourcedMatters7": 7,
