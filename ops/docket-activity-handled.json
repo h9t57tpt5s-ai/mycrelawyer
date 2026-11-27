@@ -224,6 +224,31 @@
    "caseId": "live-224",
    "at": "2026-11-24",
    "action": "docket text only -- WebSearch found no November 2026 coverage of Reserve Square past the spring 2026 auction reporting; added a timeline entry restating the docket text (order granting an extension of time to respond to the motion to intervene) without changing status"
+  },
+  "63600354:136:2026-11-17:usca mandate": {
+   "caseId": "live-333",
+   "at": "2026-11-27",
+   "action": "outcome from mlex.com -- the mandate itself is purely procedural (formally returns the case to the district court after the Ninth Circuit's already-reported Oct 16, 2026 remand); added a timeline entry noting the case is now back at the district court, without changing status or summary since no new substantive ruling occurred"
+  },
+  "71959712:102:2026-11-23:dismiss case": {
+   "caseId": "live-175",
+   "at": "2026-11-27",
+   "action": "docket text only -- WebSearch found coverage of an earlier Sept. 8, 2026 dismissal (already reflected in the matter) but no source explains this Nov. 23 entry following the Oct. 15 amended complaint; added a timeline entry restating the docket text (entries 102-103) without asserting who filed or any outcome"
+  },
+  "71959712:103:2026-11-23:for judicial notice": {
+   "caseId": "live-175",
+   "at": "2026-11-27",
+   "action": "docket text only -- same combined timeline entry covering entries 102-103, see entry 102 above"
+  },
+  "73480976:77:2026-11-20:dismiss for failure to state a claim": {
+   "caseId": "live-004",
+   "at": "2026-11-27",
+   "action": "docket text only -- WebSearch found only background coverage of the June 2026 filing and an Oct. 2026 amended complaint, no coverage of a Nov. 20, 2026 ruling; these entries plus same-day exhibits look like a motion filing/briefing, not a decided ruling, so added a timeline entry restating the docket text (entries 77-78) without asserting a ruling"
+  },
+  "73480976:78:2026-11-20:dismiss": {
+   "caseId": "live-004",
+   "at": "2026-11-27",
+   "action": "docket text only -- same combined timeline entry covering entries 77-78, see entry 77 above"
   }
  }
 }

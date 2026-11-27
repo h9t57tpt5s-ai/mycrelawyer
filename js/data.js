@@ -187,7 +187,8 @@ const RELAW_DATA = {
         { when: "August 7, 2026", label: "Colliers International Group Inc. dismissed without prejudice at the plaintiff's request" },
         { when: "August 13, 2026", label: "Court sets the motion-to-dismiss briefing schedule: response due Oct. 1, replies Nov. 2" },
         { when: "August 17, 2026", label: "CoStar and the broker defendants file motions to dismiss" },
-        { when: "August 18, 2026", label: "Court cancels the Aug. 19 initial status hearing", current: true }
+        { when: "August 18, 2026", label: "Court cancels the Aug. 19 initial status hearing" },
+        { when: "November 20, 2026", label: "Docket records entries captioned \"Dismiss for Failure to State a Claim\" and \"Dismiss,\" with accompanying exhibits (docket entries 77-78)", current: true }
       ],
       tags: ["antitrust", "hub-and-spoke", "CoStar", "lease data", "brokerage"],
       docketUrl: "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
@@ -5303,7 +5304,8 @@ const RELAW_DATA = {
         { when: "Q3 2025", label: "Alexandria reports $323 million in impairment charges, including a $206 million write-down of the Long Island City property" },
         { when: "November 25, 2025", label: "Securities class action filed in the Central District of California" },
         { when: "September 10, 2026", label: "Judge Wu adopts his September 8 tentative ruling and dismisses the case with leave to amend" },
-        { when: "October 15, 2026", label: "Lead plaintiffs file an amended complaint", current: true }
+        { when: "October 15, 2026", label: "Lead plaintiffs file an amended complaint" },
+        { when: "November 23, 2026", label: "Docket records entries captioned \"Dismiss Case\" and \"For Judicial Notice\" following the amended complaint (docket entries 102-103)", current: true }
       ],
       parties: [
         { name: "Alexandria Real Estate Equities, Inc.", role: "Defendant" },
@@ -10288,7 +10290,8 @@ const RELAW_DATA = {
         { when: "July 26, 2024", label: "District court grants summary judgment to Great Northern, finding the loss was not fortuitous" },
         { when: "December 23, 2025", label: "Ninth Circuit certifies the fortuity question to the Arizona Supreme Court" },
         { when: "September 1, 2026", label: "Arizona Supreme Court adopts a test based on what the insured knew when coverage attached" },
-        { when: "October 16, 2026", label: "Ninth Circuit vacates the summary judgment and fee award and remands", current: true }
+        { when: "October 16, 2026", label: "Ninth Circuit vacates the summary judgment and fee award and remands" },
+        { when: "November 17, 2026", label: "Ninth Circuit issues its mandate, formally returning the case to the district court on remand (docket entry 136)", current: true }
       ],
       docketUrl: "https://www.courtlistener.com/docket/63600354/industrial-park-center-llc-v-great-northern-insurance-company/",
       docketLabel: "CourtListener docket"
