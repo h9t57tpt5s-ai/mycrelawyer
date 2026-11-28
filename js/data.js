@@ -15501,6 +15501,45 @@ const RELAW_DATA = {
         { when: "October 23, 2025", label: "Global Tradings files its ejectment complaint" },
         { when: "November 24, 2026", label: "Superior Court grants the writ of possession", current: true }
       ]
+    },
+    {
+      id: "live-468",
+      seoTitle: "Coweta County Project Sail Data Center: Jan. 12 Repeal Election Ordered",
+      seoDescription: "A Coweta County, Ga. probate judge ordered a Jan. 12, 2027 special election on repealing the Project Sail data center rezoning; Atlas Development's objection dismissed.",
+      property: {"name": "Project Sail", "address": null, "city": null, "state": "GA"},
+      addedDate: "2026-11-28",
+      title: "Coweta County Probate Judge Orders Jan. 12 Special Election on Repealing Project Sail Data Center Rezoning, Dismisses Atlas Development's Objection",
+      brief: "A Coweta County, Ga. probate judge ordered a Jan. 12, 2027 special election on repealing the county's rezoning for the Project Sail data center and dismissed an objection from Atlas Development, LLC.",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-11-23",
+      jurisdiction: "Probate Court of Coweta County, Georgia",
+      state: "GA",
+      amount: "Special election on repealing a data center rezoning",
+      source: "live",
+      sourceUrl: "https://www.atlantanewsfirst.com/2026/11/26/coweta-county-voters-decide-jan-12-17-billion-data-center-project/",
+      propertyType: "Data Center",
+      summary: "Coweta County Probate Judge Carrie B. Markham found valid a petition to repeal the Board of Commissioners' April 7, 2026 approval of REZONE 24-019, the rezoning for the Project Sail data center, and ordered a special election for Jan. 12, 2027, Atlanta News First reported. In a separate order dated Nov. 23 she dismissed an objection from Atlas Development, LLC, which the outlet says proposed the project according to state filings.",
+      significance: "The orders send the April 7 rezoning approval, and a proposed prohibition on data centers in all of the county's zoning districts, to voters. The county said in a statement that it anticipates legal questions and challenges may arise among the entities involved.",
+      body: [
+        "Atlanta News First reported that Coweta County Probate Judge Carrie B. Markham ordered a special election for Jan. 12, 2027, on a petition filed Oct. 16 in Coweta County Probate Court under the Home Rule provision of the Georgia Constitution. According to the outlet, the order, dated Nov. 23, said 10,971 signatures were required, and the county's director of elections certified in a written report on Nov. 20 that 11,065 were verified. The judge found the petition valid. The county will pay for the election. The outlet describes Project Sail as a $17 billion data center project proposed by Atlas Development, LLC, according to Development of Regional Impact filings with the Georgia Department of Community Affairs. WSB-TV calls Prologis the developers of Project Sail.",
+        "The ballot question asks whether the Board of Commissioners' April 7, 2026 action approving REZONE 24-019 should be repealed, and whether the county's zoning code should be amended to delete data centers and data center campuses as permitted and conditional uses and to prohibit data centers, data center campuses, cryptocurrency data centers and cryptocurrency mining operations in all zoning districts. The Citizen reported that opposition initially centered on the rezoning of approximately 829 acres of Rural Conservation land and that the ballot language does not distinguish between Rural Conservation land and existing industrial areas.",
+        "Atlas Development filed an objection to the petition, which the court received Oct. 23, and Judge Markham dismissed it in a separate order on Nov. 23, according to Atlanta News First. The Citizen reported that the judge cited a 2023 Georgia Supreme Court decision involving Camden County establishing that parties do not have legal standing to object to this type of citizens' petition in Probate Court. Atlas representatives did not respond to Atlanta News First's requests for comment. WSB-TV reported that when the petition was first filed, Prologis told the station it remained focused on Project Sail and on engaging with local leaders and residents, and said that despite the petition it remained committed to the project. The county said in a statement that it became aware of the news at the same time as its citizens and is still assessing the potential implications."
+      ],
+      tags: ["data center", "rezoning", "referendum", "home rule petition", "georgia"],
+      parties: [
+        { name: "Coweta County", role: "County whose rezoning approval is challenged" },
+        { name: "Atlas Development, LLC", role: "Objector" }
+      ],
+      judge: "Carrie B. Markham",
+      amountUsd: null,
+      timeline: [
+        { when: "April 7, 2026", label: "Coweta County Board of Commissioners approves REZONE 24-019" },
+        { when: "October 16, 2026", label: "Repeal petition filed in Coweta County Probate Court under the Home Rule provision of the Georgia Constitution" },
+        { when: "October 23, 2026", label: "Court receives Atlas Development's objection to the petition" },
+        { when: "November 20, 2026", label: "County director of elections certifies in a written report that 11,065 signatures were verified" },
+        { when: "November 23, 2026", label: "Probate judge finds the petition valid, orders a Jan. 12, 2027 special election and dismisses Atlas Development's objection in a separate order", current: true }
+      ]
     }
   ],
 

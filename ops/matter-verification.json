@@ -968,6 +968,26 @@
      "https://storage.courtlistener.com/pdf/2026/11/24/global_tradings_llc_v._lofton_enterprise_group_llc.pdf"
     ]
    }
+  },
+  "live-468": {
+   "verifiedOn": "2026-11-28",
+   "sourceUrl": "https://www.atlantanewsfirst.com/2026/11/26/coweta-county-voters-decide-jan-12-17-billion-data-center-project/",
+   "urls": [
+    "https://thecitizen.com/2026/11/26/will-coweta-outlaw-all-data-centers/",
+    "https://www.atlantanewsfirst.com/2026/11/26/coweta-county-voters-decide-jan-12-17-billion-data-center-project/",
+    "https://www.wsbtv.com/news/local/coweta-county/judge-allows-voters-decide-fate-17-billion-data-center-metro-atlanta-county/BQWVJUPJX5EFHO4JQRPWNUQFMQ/"
+   ],
+   "quotes": 19,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.atlantanewsfirst.com/2026/11/26/coweta-county-voters-decide-jan-12-17-billion-data-center-project/",
+     "https://thecitizen.com/2026/11/26/will-coweta-outlaw-all-data-centers/",
+     "https://www.wsbtv.com/news/local/coweta-county/judge-allows-voters-decide-fate-17-billion-data-center-metro-atlanta-county/BQWVJUPJX5EFHO4JQRPWNUQFMQ/"
+    ]
+   }
   }
  }
 }
