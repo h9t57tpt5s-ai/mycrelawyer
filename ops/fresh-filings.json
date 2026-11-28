@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T20:16:46+00:00",
+ "updatedAt": "2026-11-28T04:10:42+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -88,39 +88,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/75168892/1115-stallion-llc/",
    "docketId": 75168892,
    "slug": "1115-stallion-llc-flsb-26-25650",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "E.Z. LOR REALTY LLC",
-   "court": "United States Bankruptcy Court, S.D. New York",
-   "courtId": "nysb",
-   "docketNumber": "26-12748",
-   "dateFiled": "2026-11-23",
-   "docketUrl": "https://www.courtlistener.com/docket/75162599/ez-lor-realty-llc/",
-   "docketId": 75162599,
-   "slug": "e-z-lor-realty-llc-nysb-26-12748",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "87 Uptown LLC",
-   "court": "United States Bankruptcy Court, N.D. New York",
-   "courtId": "nynb",
-   "docketNumber": "26-31074",
-   "dateFiled": "2026-11-23",
-   "docketUrl": "https://www.courtlistener.com/docket/75161217/87-uptown-llc/",
-   "docketId": 75161217,
-   "slug": "87-uptown-llc-nynb-26-31074",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "388 Prosper LLC",
-   "court": "United States Bankruptcy Court, S.D. Florida.",
-   "courtId": "flsb",
-   "docketNumber": "26-25555",
-   "dateFiled": "2026-11-23",
-   "docketUrl": "https://www.courtlistener.com/docket/75158346/388-prosper-llc/",
-   "docketId": 75158346,
-   "slug": "388-prosper-llc-flsb-26-25555",
    "type": "Chapter 11 petition"
   }
  ]
