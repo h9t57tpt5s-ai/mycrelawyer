@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-11-26",
+  lastUpdatedDate: "2026-11-28",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -15338,6 +15338,168 @@ const RELAW_DATA = {
       timeline: [
         { when: "September 11, 2026", label: "City of Easley files its condemnation action, offering $0 in compensation" },
         { when: "November 12, 2026", label: "SDBUCKS, LLC files a separate lawsuit challenging the city's authority to condemn", current: true }
+      ]
+    },
+    {
+      id: "live-464",
+      seoTitle: "Foxfield v. Associates in Sleep Medicine: Office Lien Appeal",
+      seoDescription: "Illinois Appellate Court, Third District, dismissed Foxfield Construction's appeal of a ruling that its $473,589.10 mechanic's lien on an office building is invalid.",
+      property: {"name": null, "address": null, "city": null, "state": "IL"},
+      addedDate: "2026-11-28",
+      title: "Foxfield Construction, Ltd. v. Associates in Sleep Medicine, LLC: Illinois Appellate Court Dismisses Contractor's Appeal Over $473,589.10 Mechanic's Lien on Office Building",
+      brief: "An Illinois appeals court dismissed a general contractor's appeal of a ruling that its $473,589.10 mechanic's lien on a two-story office building is invalid, holding the trial court should not have certified the ruling for immediate appeal.",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2026-11-24",
+      jurisdiction: "Appellate Court of Illinois, Third District",
+      state: "IL",
+      amount: "$473,589.10 mechanic's lien",
+      source: "live",
+      sourceUrl: "https://storage.courtlistener.com/pdf/2026/11/24/foxfield_construction_v._associates_in_sleep_medicine.pdf",
+      propertyType: "Office",
+      summary: "On November 24, 2026, the Appellate Court of Illinois, Third District, dismissed an appeal by general contractor Foxfield Construction, Ltd. from a summary judgment ruling that its $473,589.10 mechanic's lien was invalid. The court held that the circuit court abused its discretion in certifying that ruling for immediate appeal under Rule 304(a), vacated the certification and dismissed the appeal for lack of jurisdiction. It did not decide whether the lien ruling was correct.",
+      significance: "The order leaves the trial court's ruling that Foxfield's lien is invalid unreviewed for now: the appeals court did not decide the question Foxfield raised, whether an architect's services must be listed in a contractor's sworn statement. Foxfield's breach of contract and quantum meruit claims and several counterclaims by Associates in Sleep Medicine and Sigma Ventures remain pending. The order was filed under Illinois Supreme Court Rule 23 and is not precedential except in the limited circumstances Rule 23(e)(1) allows.",
+      body: [
+        "The Appellate Court of Illinois, Third District, filed the order on November 24, 2026, in an appeal from the Circuit Court of Du Page County, where Judge Robert G. Gibson presided. Justice Davenport delivered the judgment. According to the order, Sigma Ventures, LLC authorized its tenant, Associates in Sleep Medicine, LLC, with which it shares common ownership, to construct a building on Sigma-owned land. In May 2016, Associates in Sleep Medicine contracted with general contractor Foxfield Construction, Ltd. to build a two-story office building, under a contract requiring $1.8 million in payments over the course of the project.",
+        "The order says Foxfield recorded a mechanic's lien against the premises for $473,589.10 in June 2017 and sued in October 2017 to foreclose it, also alleging breach of contract and, in the alternative, quantum meruit. Associates in Sleep Medicine and Sigma denied the complaint's material allegations and countersued; their surviving counterclaims include one seeking a declaration that the lien was invalid and Sigma's slander-of-title count. The circuit court granted summary judgment against Foxfield on the lien foreclosure count, holding the lien invalid because Foxfield's sworn contractor statements did not strictly comply with the Mechanics Lien Act. In August 2025, Foxfield moved to certify that ruling for immediate appeal under Rule 304(a), and the circuit court granted the motion.",
+        "The appeals court did not reach the merits. The single question Foxfield raised was whether an architect furnishes \"services\" under the Act such that leaving the architect out of its sworn statements invalidated the lien. The court said the circuit court did not explain why a later reversal of the lien ruling would require a retrial, that a reversal would not disturb the adjudication of the surviving counts, and that other counterclaims allege defects that, if established at trial, could independently support the lien's invalidation. It held that the certification was an abuse of discretion, vacated it and dismissed the appeal for lack of jurisdiction."
+      ],
+      tags: ["mechanics lien", "construction", "office building", "illinois appellate court"],
+      parties: [
+        { name: "Foxfield Construction, Ltd.", role: "Plaintiff-Appellant" },
+        { name: "Associates in Sleep Medicine, LLC", role: "Defendant-Appellee" },
+        { name: "Sigma Ventures, LLC", role: "Defendant-Appellee" }
+      ],
+      judge: null,
+      amountUsd: 473589.1,
+      amountBasis: "claim",
+      timeline: [
+        { when: "May 2016", label: "Associates in Sleep Medicine contracts with Foxfield to construct a two-story office building" },
+        { when: "June 2017", label: "Foxfield records a $473,589.10 mechanic's lien against the premises" },
+        { when: "October 2017", label: "Foxfield sues to foreclose the lien and for breach of contract" },
+        { when: "August 2025", label: "Foxfield moves to certify the lien ruling for immediate appeal" },
+        { when: "November 24, 2026", label: "Appellate Court of Illinois, Third District, vacates the Rule 304(a) certification and dismisses the appeal", current: true }
+      ]
+    },
+    {
+      id: "live-465",
+      seoTitle: "Wildcat Ridge Data Center, Archbald PA: Developer Appeals Denial",
+      seoDescription: "Cornell Realty Management filed a land-use appeal in Lackawanna County Court over Archbald Borough Council's Oct. 21 denial of the 574.2-acre Wildcat Ridge data center campus.",
+      property: {"name": "Wildcat Ridge data center campus", "address": null, "city": "Archbald", "state": "PA"},
+      addedDate: "2026-11-28",
+      title: "Cornell Realty Management Appeals Archbald Borough Council's Denial of 574.2-Acre Wildcat Ridge Data Center Campus",
+      brief: "Cornell Realty Management filed a land-use appeal in Lackawanna County Court seeking approval of Wildcat Ridge, a 574.2-acre campus of 14 data centers that Archbald Borough Council unanimously rejected Oct. 21. It alleges bias and conflicts of interest.",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-11-19",
+      jurisdiction: "Lackawanna County Court, Pennsylvania",
+      state: "PA",
+      amount: "Approval of a 574.2-acre data center campus",
+      source: "live",
+      sourceUrl: "https://www.yahoo.com/news/us/articles/developer-wildcat-ridge-data-center-010100053.html",
+      propertyType: "Data Center",
+      summary: "The Times-Tribune of Scranton, in an article carried by Yahoo News, reported that Cornell Realty Management filed a land-use appeal in Lackawanna County Court seeking approval of its Wildcat Ridge data center campus in Archbald, Pennsylvania. Archbald Borough Council unanimously rejected the developer's conditional use application on Oct. 21. The appeal claims borough officials exhibited bias against the proposal, had conflicts of interest and committed procedural errors. The newspaper reported that the borough had not yet formally responded in court.",
+      significance: "The appeal asks the county court to approve a campus the council rejected after nine public hearings, and it challenges how those hearings were conducted: Cornell claims council members should have recused themselves and that the borough's special counsel served in two conflicting roles. The Times-Tribune reported that the borough had not yet formally responded in court.",
+      body: [
+        "The Times-Tribune of Scranton, in an article carried by Yahoo News, reported that Brooklyn-based Cornell Realty Management filed a land-use appeal on a Thursday in Lackawanna County Court; the article appeared the following Monday evening, which places the filing on Nov. 19. The appeal seeks approval of the Wildcat Ridge data center campus. Archbald Borough Council unanimously rejected Cornell's conditional use application on Oct. 21, after nine public hearings held from late January through early September, and issued a written memorandum of the denial on Oct. 22.",
+        "According to the newspaper, Cornell applied on Dec. 15, 2025, for 14 two-story buildings with a total gross floor area of 5.6 million square feet and a 33,000-square-foot office building. The campus would span 574.2 acres along Business Route 6 and Route 247.",
+        "The appeal claims Cornell was denied a fair and impartial hearing, the newspaper reported. It says council members made public statements against data centers and against Wildcat Ridge and should have recused themselves but did not, and that opponents disrupted the hearings while council \"did nothing to stop this disruptive and abusive behavior.\" It also claims a conflict of interest because the borough's special counsel, who had an adversarial role to the application, also served in the quasi-judicial role at a May meeting, in preparing council affidavits against recusal and in issuing the Oct. 22 decision memorandum.",
+        "The Times-Tribune reported that the borough has not yet formally responded in court to the appeal and that efforts to reach the borough solicitor and special counsel were unsuccessful."
+      ],
+      tags: ["data center", "conditional use", "land use appeal", "pennsylvania", "zoning"],
+      parties: [
+        { name: "Cornell Realty Management", role: "Appellant (developer)" },
+        { name: "Archbald Borough Council", role: "Borough council whose denial is appealed" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "December 15, 2025", label: "Cornell files its conditional use application" },
+        { when: "October 21, 2026", label: "Archbald Borough Council unanimously rejects the application" },
+        { when: "October 22, 2026", label: "Written memorandum of the denial decision issued" },
+        { when: "November 19, 2026", label: "Cornell files a land-use appeal in Lackawanna County Court (reported as filed \"Thursday\" in an article published the following Monday evening)", current: true }
+      ]
+    },
+    {
+      id: "live-466",
+      seoTitle: "Inspired Healthcare Capital Chapter 11: DIP Raised to $100M",
+      seoDescription: "Inspired Healthcare Capital's N.D. Texas Chapter 11: a Nov. 19 final order added $52.845 million of DIP loans, up to $100 million in all, with a Dec. 18 plan deadline.",
+      addedDate: "2026-11-28",
+      title: "In re Inspired Healthcare Capital Holdings, LLC: Third Final DIP Order Raises Senior Living Debtors' Financing to Up to $100 Million and Sets Dec. 18 Plan Deadline",
+      brief: "A Nov. 19 final order in the Inspired Healthcare Capital Chapter 11 made $52.845 million of additional DIP loans available, for a commitment of up to $100 million, and requires a plan by Dec. 18, according to ElevenFlo's docket summary.",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-11-19",
+      jurisdiction: "U.S. Bankruptcy Court, Northern District of Texas",
+      state: "TX",
+      amount: "Up to $100 million DIP commitment",
+      source: "live",
+      sourceUrl: "https://elevenflo.com/blog/inspired-healthcare-capital-holdings-bankruptcy",
+      propertyType: "Senior Living",
+      summary: "ElevenFlo's docket summary of the Inspired Healthcare Capital Holdings Chapter 11 cases says a November 19 final order made $52.845 million of additional debtor-in-possession loans available, bringing the commitment to up to $100 million, and requires the debtors to file an acceptable plan and disclosure statement by December 18, 2026. A November 20 order extended the debtors' exclusive period to file a plan through November 30, 2026. HPI Fairmount Lender, LP and HPI Delray Lender, LP objected to the increase.",
+      significance: "According to ElevenFlo, the order ties the financing of the 161 debtors to a plan timetable that ends with confirmation and maturity of the facility on March 31, 2027. HPI Fairmount Lender and HPI Delray Lender objected to the larger facility; the debtors replied that the upsized DIP liens are junior to HPI's liens on HPI collateral. AltsWire reported in October that the court had approved sales of roughly 30 of the company's senior living communities for a combined $713.5 million.",
+      body: [
+        "According to ElevenFlo's docket summary, the debtors filed on February 2, 2026 in the Northern District of Texas, and the court ordered joint administration of 161 cases. ElevenFlo says a November 19 final order, the third final order on the debtors' financing, makes $52.845 million of additional loans available on entry; with $45 million of initial loans and $2.155 million of Silverleaf loans, the commitment totals up to $100 million. ElevenFlo says DST DIP LLC controls when the new money moves and that the lender does not have to advance unless every condition precedent is satisfied or waived by it and no event of default is continuing.",
+        "The credit agreement incorporated in the order sets four deadlines, ElevenFlo reports: an acceptable plan and disclosure statement by December 18, 2026; disclosure-statement approval and the start of solicitation by January 29, 2027; consummation of the community transactions by March 8, 2027; and a confirmation order by March 31, 2027, the day the facility matures. A November 20 order extended the debtors' exclusive period to file a plan through November 30, 2026, and their exclusive period to solicit acceptances through February 1, 2027.",
+        "HPI Fairmount Lender, LP and HPI Delray Lender, LP objected to the upsizing, and the debtors' agenda listed the motion as going forward over that objection at the November 17 hearing, according to ElevenFlo. The debtors replied that the upsized DIP liens are junior to HPI's liens on HPI collateral.",
+        "AltsWire reported in October that the bankruptcy court had entered 11 separate sale orders covering roughly 30 communities for a combined $713.5 million, signed by Judge Mark X. Mullin, and that the debtors' financing motion warned that without the additional funding they \"would be forced to begin shutting down communities almost immediately.\" ElevenFlo says AG2 Acquisitions LLC closed its purchase of Teal Shores in Mequon, Wisconsin and Ballard Glenn in Appleton, Wisconsin on November 17 under the October 13 sale order."
+      ],
+      tags: ["chapter 11", "senior living", "dip financing", "plan deadline"],
+      parties: [
+        { name: "Inspired Healthcare Capital Holdings, LLC", role: "Debtor" },
+        { name: "DST DIP LLC", role: "DIP lender" },
+        { name: "HPI Fairmount Lender, LP", role: "Objector" },
+        { name: "HPI Delray Lender, LP", role: "Objector" }
+      ],
+      judge: "Mark X. Mullin",
+      amountUsd: 100000000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "February 2, 2026", label: "Debtors file in the Northern District of Texas" },
+        { when: "October 2026", label: "Court enters 11 sale orders covering roughly 30 communities for a combined $713.5 million, per AltsWire" },
+        { when: "November 17, 2026", label: "DIP upsizing motion listed as going forward over the HPI objection; AG2 Acquisitions closes its purchase of two Wisconsin communities" },
+        { when: "November 19, 2026", label: "Third final order makes $52.845 million of additional DIP loans available, for a commitment of up to $100 million" },
+        { when: "November 20, 2026", label: "Order extends the debtors' exclusive period to file a plan through November 30, 2026", current: true }
+      ]
+    },
+    {
+      id: "live-467",
+      seoTitle: "Port Penn, DE: Unrecorded Lease Extinguished by Sheriff's Sale",
+      seoDescription: "Delaware Superior Court granted Global Tradings a writ of possession against Lofton Enterprise Group, holding an unrecorded commercial lease did not survive a sheriff's sale.",
+      property: {"name": null, "address": "2 S. Congress St.", "city": "Port Penn", "state": "DE"},
+      addedDate: "2026-11-28",
+      title: "Global Tradings, LLC v. Lofton Enterprise Group, LLC: Delaware Superior Court Holds Unrecorded Commercial Lease Did Not Survive Sheriff's Sale, Grants Writ of Possession",
+      brief: "The Delaware Superior Court granted a sheriff's-sale buyer a writ of possession against a commercial tenant in Port Penn, holding the tenant's unrecorded lease, signed before the foreclosed mortgage, was extinguished by the sale.",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-11-24",
+      jurisdiction: "Superior Court of Delaware",
+      state: "DE",
+      amount: "Writ of possession",
+      source: "live",
+      sourceUrl: "https://storage.courtlistener.com/pdf/2026/11/24/global_tradings_llc_v._lofton_enterprise_group_llc.pdf",
+      summary: "On November 24, 2026, the Superior Court of Delaware granted Global Tradings, LLC a writ of possession in its ejectment action against Lofton Enterprise Group, LLC over the property at 2 S. Congress St. in Port Penn. Global Tradings bought the property at a sheriff's sale after a mortgage foreclosure. The court held that Lofton's commercial lease, although it pre-dated the foreclosed mortgage, was never recorded and was extinguished when the property was sold at the sheriff's sale.",
+      significance: "The court held that Lofton's lease was subordinate to the recorded mortgage because the lease was never recorded, even though the lease was signed first, and that Global Tradings bought the property free of any interest arising under it. The lease had been set to expire May 31, 2027. The court also rejected Lofton's argument that the dispute belonged in the Justice of the Peace Court, holding that ejectment is an action at law within its jurisdiction.",
+      body: [
+        "The Superior Court of Delaware decided the case on November 24, 2026, in a memorandum opinion by Judge Danielle J. Brennan. According to the opinion, Lofton Enterprise Group executed a commercial lease for the property at 2 S. Congress St. in Port Penn on December 13, 2022, to expire May 31, 2027, with Port Penn Fire Company, which then owned the property; the lease was never recorded in the office of the Recorder of Deeds. Port Penn later sold the property to IBR Properties, LLC, which maintained the lease.",
+        "The opinion says IBR executed a mortgage with Wilmington Savings Fund Society on March 27, 2023, and that the mortgage fell into default. The lender filed a foreclosure action against IBR on December 27, 2024, and a default judgment was entered on February 7, 2025. Global Tradings purchased the property at a sheriff's sale on July 9, 2025, did not execute a new lease with Lofton, and filed its ejectment complaint on October 23, 2025.",
+        "Lofton argued that the Superior Court lacked jurisdiction because the litigation concerns a lease, and that a lease is a contract and not an encumbrance and so survives a sheriff's sale. The court held that it has jurisdiction because a complaint for ejectment is an action at law. It held that because the lease was never recorded, the mortgage takes priority, and that the subordinate lease was extinguished upon the completion of the sheriff's sale. The court granted the writ of possession."
+      ],
+      tags: ["unrecorded lease", "sheriff's sale", "ejectment", "foreclosure", "delaware"],
+      parties: [
+        { name: "Global Tradings, LLC", role: "Plaintiff (sheriff's sale purchaser)" },
+        { name: "Lofton Enterprise Group, LLC", role: "Defendant (tenant)" }
+      ],
+      judge: "Danielle J. Brennan",
+      amountUsd: null,
+      timeline: [
+        { when: "December 13, 2022", label: "Lofton executes a commercial lease with Port Penn Fire Company; the lease is never recorded" },
+        { when: "March 27, 2023", label: "IBR Properties executes a mortgage with Wilmington Savings Fund Society" },
+        { when: "December 27, 2024", label: "The lender files a foreclosure action against IBR" },
+        { when: "February 7, 2025", label: "Default judgment entered against IBR" },
+        { when: "July 9, 2025", label: "Global Tradings purchases the property at sheriff's sale" },
+        { when: "October 23, 2025", label: "Global Tradings files its ejectment complaint" },
+        { when: "November 24, 2026", label: "Superior Court grants the writ of possession", current: true }
       ]
     }
   ],

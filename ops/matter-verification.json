@@ -901,6 +901,73 @@
      "https://casdcouncilwatch.substack.com/p/easley-target-development-faces-legal"
     ]
    }
+  },
+  "live-464": {
+   "verifiedOn": "2026-11-28",
+   "sourceUrl": "https://storage.courtlistener.com/pdf/2026/11/24/foxfield_construction_v._associates_in_sleep_medicine.pdf",
+   "urls": [
+    "https://storage.courtlistener.com/pdf/2026/11/24/foxfield_construction_v._associates_in_sleep_medicine.pdf"
+   ],
+   "quotes": 27,
+   "confirmedByChecker": 27,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://storage.courtlistener.com/pdf/2026/11/24/foxfield_construction_v._associates_in_sleep_medicine.pdf"
+    ]
+   }
+  },
+  "live-465": {
+   "verifiedOn": "2026-11-28",
+   "sourceUrl": "https://www.yahoo.com/news/us/articles/developer-wildcat-ridge-data-center-010100053.html",
+   "urls": [
+    "https://www.yahoo.com/news/us/articles/developer-wildcat-ridge-data-center-010100053.html"
+   ],
+   "quotes": 12,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://www.yahoo.com/news/us/articles/developer-wildcat-ridge-data-center-010100053.html"
+    ]
+   }
+  },
+  "live-466": {
+   "verifiedOn": "2026-11-28",
+   "sourceUrl": "https://elevenflo.com/blog/inspired-healthcare-capital-holdings-bankruptcy",
+   "urls": [
+    "https://altswire.com/inspired-healthcare-capital-wins-713m-sale-approval-seeks-dip-boost-to-100m/",
+    "https://elevenflo.com/blog/inspired-healthcare-capital-holdings-bankruptcy"
+   ],
+   "quotes": 21,
+   "confirmedByChecker": 0,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://elevenflo.com/blog/inspired-healthcare-capital-holdings-bankruptcy",
+     "https://elevenflo.com/cases/inspired-healthcare-capital-holdings-llc-26/analysis",
+     "https://altswire.com/inspired-healthcare-capital-wins-713m-sale-approval-seeks-dip-boost-to-100m/"
+    ]
+   }
+  },
+  "live-467": {
+   "verifiedOn": "2026-11-28",
+   "sourceUrl": "https://storage.courtlistener.com/pdf/2026/11/24/global_tradings_llc_v._lofton_enterprise_group_llc.pdf",
+   "urls": [
+    "https://storage.courtlistener.com/pdf/2026/11/24/global_tradings_llc_v._lofton_enterprise_group_llc.pdf"
+   ],
+   "quotes": 22,
+   "confirmedByChecker": 22,
+   "secondCheck": {
+    "verdict": "pass",
+    "checker": "independent fact-checker",
+    "urlsOpened": [
+     "https://storage.courtlistener.com/pdf/2026/11/24/global_tradings_llc_v._lofton_enterprise_group_llc.pdf"
+    ]
+   }
   }
  }
 }
