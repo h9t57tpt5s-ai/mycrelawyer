@@ -1,6 +1,6 @@
 {
- "date": "2026-11-27",
- "generatedAt": "2026-11-27T22:54:44+00:00",
+ "date": "2026-11-28",
+ "generatedAt": "2026-11-28T03:53:26+00:00",
  "mostBehind": [
   "conversion",
   "calculator",
@@ -55,14 +55,14 @@
    "behind": [],
    "gap": 0.0,
    "metrics": {
-    "sourcedMatters7": 19,
-    "freshSourcedMatters7": 18,
-    "medianDaysEventToAdded": 1.0,
+    "sourcedMatters7": 17,
+    "freshSourcedMatters7": 14,
+    "medianDaysEventToAdded": 3,
     "leadsReviewedTotal": 851,
     "leadsToMattersTotal": 69,
-    "leadsReviewedWindow7": 162,
+    "leadsReviewedWindow7": 138,
     "leadsToMattersWindow7": 6,
-    "leadsToMattersRatio7": 0.037
+    "leadsToMattersRatio7": 0.0435
    },
    "targets": {
     "freshSourcedMatters7": 7,
