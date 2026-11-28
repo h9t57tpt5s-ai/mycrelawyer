@@ -2438,7 +2438,20 @@
         "date": "2026-11-27"
       },
       "checkAfter": "2026-11-28",
-      "status": "watching"
+      "status": "helped",
+      "verdict": {
+        "date": "2026-11-28",
+        "value": "coverage.html's cov-radar-states text now reads \"Radar data last generated 2026-11-28\", matching js/radar-data.json's generated timestamp (2026-11-28T02:45:07.626Z) exactly on the date component, even though the prerender bake-order bug (prerender.ts before build_distress_radar.ts) is unchanged and off-limits to fix directly.",
+        "note": "No goals.json metric exists for this fix; judged by live-page accuracy as the entry specified. The client-side fetch-and-rebuild pattern is working as intended."
+      }
+    },
+    {
+      "id": "imp-100",
+      "date": "2026-11-28",
+      "track": "audit",
+      "title": "No change",
+      "why": "Judged imp-099 helped (see verdict above). goal_scoreboard.py mostBehind was conversion/calculator/traffic/news (gaps 0.75/0.646/0.272/0.0); all four had an open 'watching' entry in ops/improvement-log.json (imp-093 conversion until 2026-12-01, imp-089 calculator until 2026-11-29, imp-088 traffic until 2026-12-05, imp-095 news until 2026-12-02) -- full gridlock under the 'one open experiment per goal' backlog rule, the same imp-088/089/093 trio found blocking on both 2026-11-26 runs and 2026-11-27 morning, now confirmed a fourth/fifth consecutive time. Checked every other lever before concluding no-op: subscription checklist items 1-5 re-verified individually against the live site (item 1's samples on monitor.html and distress-radar.html are real and in place; specifically checked whether bank-cre-stress.html needs its own sample alert and confirmed it correctly doesn't, since imp-081 already pointed it at the real, non-fabricated weekly Brief sample at email-preview.html, itself current for the week of Nov 22-28; items 2/5 (coverage.html) and item 4 (alert-log.html) reconfirmed accurate; item 3's procurement.html/data-security.html last updated 2026-11-13 and `git log --since=2026-11-13` on js/auth.js, js/supabase-client.js, supabase/ and the portfolio-entities schema shows nothing stale). Calculator: no new case_valuation_project/backtest/results-v4.4+ directory exists, and imp-083's own condition (don't add a tenth G15 decision before Jeff reviews the existing ranked nine) is still unmet per `git log` since 2026-11-19. News: only 8 ops/leads-handled.json entries since 2026-11-27, all ordinary individually-correct skips with no repeating false-positive fingerprint. G28 (CRE_INCLUDE regex gaps) is correctly still NEEDS JEFF -- no CourtListener access from this sandbox to sample real filings before widening the allowlist. Audit clean (pagesChecked 972; missingDescription 3, same already-explained noindex set; check_case_fields.py OK, 378 matters). No safe, unblocked, non-duplicate substantial change was found on any track this run.",
+      "status": "no-op"
     }
   ]
 }
