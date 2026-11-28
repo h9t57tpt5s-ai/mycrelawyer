@@ -1,4 +1,14 @@
 {
   "note": "Leads queued by the cloud digest routine (which cannot open web pages) for the local newsroom to verify and publish. Since 2026-11-17 the cloud routine does not publish matters itself.",
-  "leads": []
+  "leads": [
+    {
+      "found": "2026-11-28",
+      "title": "First Western Bank & Trust guaranty suit tied to Grand Forks, ND clinic/dialysis Chapter 11 group (KDJ Properties, LLC real estate collateral)",
+      "urls": [
+        "https://www.valleynewslive.com/2026/11/02/bank-sues-grand-forks-doctor-over-loans-affiliated-companies/",
+        "https://www.valleynewslive.com/2026/10/19/grand-forks-clinic-affiliated-dialysis-companies-file-bankruptcy/"
+      ],
+      "why": "Geographic-diversity candidate: North Dakota currently has zero tracked matters in js/data.js (checked state distribution this run). Valley News Live (2026-11-02) reports First Western Bank & Trust sued Dr. Khaled Rabadi in Grand Forks County District Court as personal guarantor on commercial loans to KDJ Properties, LLC, KDJ Investment Group, LLC and Kidney and Hypertension Center, PLC; the suit moved to U.S. Bankruptcy Court, D.N.D. after those and four affiliated entities filed Chapter 11 petitions on 2026-10-16 (lead case reported as 26-30886, filed within 26 minutes of six others, per secondary docket aggregators -- not independently confirmed on PACER/CourtListener from this environment). The bank's collateral reportedly includes mortgages on clinic real estate held by the affiliated entities; a 2026-11-02 report states Rabadi's deadline to respond to the bank's summary-judgment motion was 2026-11-30. CAVEATS the newsroom should weigh before publishing: (1) the named defendant in the guaranty suit itself is an individual (Dr. Rabadi) -- CLAUDE.md and the digest's own PARTIES rule bar naming individuals, so any matter would need to be framed around the business entities/bank/Chapter 11 case rather than the personal-guaranty defendant, or skipped if that can't be done cleanly; (2) scope is borderline -- the debtor group is primarily a medical/dialysis practice, with real estate held only by one affiliated single-purpose LLC (KDJ Properties, LLC), so this may not clear the 'commercial real estate on its face' bar even though loan collateral includes clinic property. Only WebSearch snippets were available (no WebFetch/PACER access from this cloud environment) -- verify docket numbers, loan balances and the Nov. 30 deadline against primary sources before writing anything up."
+    }
+  ]
 }
